@@ -32,6 +32,8 @@ The following can be used as a guide on what actions could be taken before your 
 - Prepare a handover document for your team / manager.
 - Notify customers and introduce them to the team member that will be assisting them going forward (if applicable).
 - If you feel comfortable, send a message in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel notifying everyone of your departure.
+
+- If you are a team member located in France, please send your resignation email to the legal department, `legal-employment@gitlab.com`
 -
 
 ## Your Laptop and Account steps
@@ -106,7 +108,7 @@ Please follow the process as listed on the Expense Handbook [page](/handbook/fin
 
 Typically, benefits coverage ends your last day with GitLab. In the US, medical, dental, and vision coverage will end of the month during which you leave, all other benefits end on your last day. 
 
-### How will my stock options be managed? What will happen to my stock options if I have been at GitLab less than a year at my date of departure?
+### How will my stock options be managed? What if I have been at GitLab less than a year?
 
 All information is on the [Stock Options](/handbook/total-rewards/stock-options/) handbook page, specifically the [Exercise Window after Termination](/handbook/total-rewards/stock-options/#exercise-window-after-termination) section.
 

@@ -55,7 +55,7 @@ In this approach, your CI/CD tool pushes the changes to your environment. This a
 *Pro*
 
 - Ease of use. Well-known CI/CD - build, test, & deploy all use the same tech
-- Deployment targets not limited to cloud native / Kubernetes only - can deploy to physical, virtual container - whether onpremise or cloud etc.
+- Deployment targets not limited to cloud native / Kubernetes only - can deploy to physical, virtual container - whether on premise or cloud etc.
 *Con*
 - Need to open your firewall to your cluster and grant admin access to external CI/CD
 
@@ -97,7 +97,7 @@ Buyers of Infrastructure as Code are usually leaders who lead infrastructure / a
 
 ## Analyst Coverage
 
-List key analyst coverage of this usecase
+List key analyst coverage of this use case
 
 ## Market Requirements
 
@@ -167,9 +167,9 @@ Increase security by testing for potential vulnerabilities, before going to prod
 - Typical Features: Configurations via web UI or supports config-as-code in a human readable syntax, like YAML.
       Pipeline templates. Project Templates.
       Pipeline linking - store pipeline template in central repo
-      Pipeline dependancy - child/parent, upstream/downstream
+      Pipeline dependency - child/parent, upstream/downstream
 - Value: Maximize development time and improves productivity. Less manual work.
-      Centralize management to lower adminstration.
+      Centralize management to lower administration.
       Increase consistency by using the templates to adhere to best practices and required testing.
 
 ## The GitLab Solution
@@ -181,10 +181,10 @@ A collection of short demonstrations that show GitLab's GitOps capabilities.
 | Market Requirements | How GitLab Delivers | GitLab **Stage**/Category | Demos |
 | ------ | ------ | ------ | ------ | ----
 | Foster Collaboration | Discussions, user tagging, general comments, inline comments, inline suggestions, unresolved thread tracking, issue creation from comment, suggestion management, CODEOWNERS, approvals |  [Discussions](https://docs.gitlab.com/ee/user/discussions/), [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) | [![Foster Collaboration with GitOps](../../images/youtube_social_icon_red-32x23.png) Foster Collaboration with GitOps](https://youtu.be/onFpj_wvbLM) |
-| Compliance and Auditing | Compliance testing and audit controls are built into GitLab's CI/CD pipelines. | [Compliance at GitLab](https://about.gitlab.com/solutions/compliance/) <br> [Manage Stage](https://about.gitlab.com/stages-devops-lifecycle/): [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html), [Audit Logs](https://docs.gitlab.com/ee/administration/logs.html#audit_jsonlog), [Audit Reports](https://docs.gitlab.com/ee/administration/audit_reports.html), [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html), [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence), [Chain of Custody](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html#chain-of-custody-report), [Granular user roles and permissions, segregation of duties](https://docs.gitlab.com/ee/user/permissions.html) <br> [Secure Stage](https://about.gitlab.com/stages-devops-lifecycle/secure/): [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) <br> [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/),  | |
+| Compliance and Auditing | Compliance testing and audit controls are built into GitLab's CI/CD pipelines. | [Compliance at GitLab](https://about.gitlab.com/solutions/compliance/) <br> [Manage Stage](https://about.gitlab.com/stages-devops-lifecycle/): [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html), [Audit Logs](https://docs.gitlab.com/ee/administration/logs/#audit_jsonlog), [Audit Reports](https://docs.gitlab.com/ee/administration/audit_reports.html), [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html), [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence), [Chain of Custody](https://docs.gitlab.com/ee/user/compliance/compliance_center/#chain-of-custody-report), [Granular user roles and permissions, segregation of duties](https://docs.gitlab.com/ee/user/permissions.html) <br> [Secure Stage](https://about.gitlab.com/stages-devops-lifecycle/secure/): [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) <br> [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/),  | |
 | Version controlled environments | Using GitLab version control to store XaC (Infrastructure, policy, configuration etc) helps maintain track of changes. In addition, auto rollback in case of failure helps roll back to the previous successful deployment | [Environment Rollback](https://docs.gitlab.com/ee/ci/environments/#environment-rollback), [GitLab Agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) | |
 | Test Automation | Include usability, performance testing as a part of the pipeline and roll back to a successful deployment in case of issues |   [Release versioning](https://docs.gitlab.com/ee/user/project/releases/), support [advanced deployment strategies](https://about.gitlab.com/blog/2020/11/23/cd-unified-monitor-deploy/) such as canary, incremental roll out, blue green deployments, Feature Flags, Review Apps, [Performance testing & validation](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/) | |
-| Pipeline configuration Management | GitLab Pipeline Authoring allows users to create pipelines with minimal configuration, if required, and also create and visualize complex pipelines through Directed Acyclic Graphs. This helps infrastructure engineers minimize manual work and create repeatable processes to maximize productivity | [Pipeline configuration](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html), [Types of Pipeline congigurations](https://docs.gitlab.com/ee/ci/pipelines/#types-of-pipelines), [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/) | |
+| Pipeline configuration Management | GitLab Pipeline Authoring allows users to create pipelines with minimal configuration, if required, and also create and visualize complex pipelines through Directed Acyclic Graphs. This helps infrastructure engineers minimize manual work and create repeatable processes to maximize productivity | [Pipeline configuration](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html), [Types of Pipeline configurations](https://docs.gitlab.com/ee/ci/pipelines/#types-of-pipelines), [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/) | |
 
 ## Top 3 Differentiators
 
@@ -261,7 +261,7 @@ The WeaveWorks Cloud solution also works together with GitLab - with GitLab SCM 
 
 | Differentiator  | How competitor does it | How GitLab does it differently |
 | - | ---------------------- | ------------------------- |
-| Multiple products to achieve GitOps | The Weaveworks toolchain is GitHub for version control, CircleCI for CI , Quay.io for container registry, Weave Flux for CD in addition to other tools for configuration management, infrastructure provisioning and container orchestration [Source](https://www.weave.works/blog/the-gitops-pipeline). Customers can choose any other Git, CI, container registry of their choice as well | Customers have at least 3 fewer tools to manage. Version control, CI/CD and container registry is offered by GitLab while we integrate with other tools for configuration management, infrastructure provisioning and container orchestration similar to Weaveworks. |
+| Multiple products to achieve GitOps | The Weaveworks toolchain is GitHub for version control, CircleCI for CI , Quay.io for container registry, Weave Flux for CD in addition to other tools for configuration management, infrastructure provisioning and container orchestration [Source](https://web.archive.org/web/20231201061330/https://www.weave.works/blog/the-gitops-pipeline). Customers can choose any other Git, CI, container registry of their choice as well | Customers have at least 3 fewer tools to manage. Version control, CI/CD and container registry is offered by GitLab while we integrate with other tools for configuration management, infrastructure provisioning and container orchestration similar to Weaveworks. |
 | Multiple deployment targets |  Focused on cloud native deployments only | Can deploy to On-premise & cloud, physical, virtual, cloud native infrastructures |
 | Push & Pull based deployment Automation |  Flux watches for new images and updates services in the K8S cluster according to policies chosen by the customer. Does not support push based deployment. | The GitLab Agent for Kubernetes watches for new K8S manifests and updates the K8S cluster accordingly. Available on self managed and on invite only for SaaS. Currently - push based deployment is supported without agent. Roadmap includes push based deployment support as well using the agent. |
 | Use GitOps principles to install and manage self | Flux v2 can create a git repo, manage flux manifests and updates using GitOps principles | TBD? |
@@ -281,17 +281,17 @@ This table shows the recommended use cases to adopt, links to product documentat
 | Feature / Use Case | Free | Premium | Ultimate | Product Analytics | Notes |
 | ------------------ | ---- | ------- | -------- | ----------------- | ------ |
 | [Try the GitLab Agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) | ✓ | ✓ | ✓ | `counts.kubernetes_agents_with_token` | |
-| [Migrate from custom CI solution](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html) | ✓ | ✓ | ✓ | `redis_hll_counters.kubernetes_agent.agent_users_using_ci_tunnel_monthly` | |
-| [Use push based deployments](https://docs.gitlab.com/ee/user/clusters/agent/repository.html#synchronize-manifest-projects) | ⤬ | ✓ | ✓ | `redis_hll_counters.kubernetes_agent.agent_users_using_ci_tunnel_monthly` | |
-| [Advanced permissions management for CI connection](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html#restrict-access-of-authorized-projects-and-groups) | ⤬ | ✓ | ✓ | `redis_hll_counters.kubernetes_agent.agent_users_using_ci_tunnel_monthly` | |
+| [Migrate from custom CI solution](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html) | ✓ | ✓ | ✓ | `redis_hll_counters.kubernetes_agent.agent_users_using_ci_tunnel_monthly` | |
+| [Use push based deployments](https://docs.gitlab.com/ee/user/clusters/agent/) | ⤬ | ✓ | ✓ | `redis_hll_counters.kubernetes_agent.agent_users_using_ci_tunnel_monthly` | |
+| [Advanced permissions management for CI connection](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-access-of-authorized-projects-and-groups) | ⤬ | ✓ | ✓ | `redis_hll_counters.kubernetes_agent.agent_users_using_ci_tunnel_monthly` | |
 | [Use pull-based deployments](https://docs.gitlab.com/ee/user/clusters/agent/gitops.html) | ✓ | ✓ | ✓ | [WIP](https://gitlab.com/gitlab-org/gitlab/-/issues/366294) | |
 
 ## Proof Points - customers
 
 ### Quotes and reviews
 
-- [Video: kiwi.com on Infrastructure as Code](https://www.youtube.com/watch?v=Un2mJrRFSm4) - Learn how kiwi.com uses GitLab and Terraform to manage their infrastructure as code. Bonus info - see how they deploy self hosted gitlab instance from gitlab CI/CD and Infrastructure as Code
-- [Video: VMware - Infrastructure as Code with GitLab and Terraform Cloud](https://www.youtube.com/watch?v=qXj4ShQZ4IM) - GitLab and Terraform have worked well together for some time; Learn how VMware uses GitLab CI/CD and Terraform Cloud to manage infrastructure as code
+- [Video: kiwi.com on Infrastructure as Code](https://www.youtube.com/watch?v=Un2mJrRFSm4) - Learn how kiwi.com uses GitLab and Terraform to manage their infrastructure as code. Bonus info - see how they deploy self hosted GitLab instance from GitLab CI/CD and Infrastructure as Code
+- [Video: VMWare - Infrastructure as Code with GitLab and Terraform Cloud](https://www.youtube.com/watch?v=qXj4ShQZ4IM) - GitLab and Terraform have worked well together for some time; Learn how VMWare uses GitLab CI/CD and Terraform Cloud to manage infrastructure as code
 - [Video: ValidaTek's journey of DevOps and Infrastructure as code](https://www.youtube.com/watch?v=3uZE-ktP2Pc) - ValidaTek work with all areas of the US Federal government from civilian to military to IC. See how they's set up GitLab to manage their client's infrastructure.
 
 #### Gartner Peer Insights

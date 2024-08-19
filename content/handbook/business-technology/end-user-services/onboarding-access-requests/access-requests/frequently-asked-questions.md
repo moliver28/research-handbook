@@ -46,12 +46,12 @@ Please use Teleport to request temporary access to either
 [the Rails console](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Rails_Console_via_Teleport.md) or
 [the database console](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Database_Console_via_Teleport.md).
 
-### I need access to version.gitlab.com or license.gitlab.com
+### I need access to version.gitlab.com
 
 You might already have it: [Test if you have a dev account.](https://dev.gitlab.org/)
 
 - If you need a dev account, open a [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
-- If you have a dev account, go to [license](https://license.gitlab.com/) and [version](https://version.gitlab.com/users/sign_in) and login with GitLab and authorize them to use your credentials.
+- If you have a dev account, go to [version](https://version.gitlab.com/users/sign_in) and login with GitLab and authorize them to use your credentials.
 
 ### I need access to Zendesk as a Light Agent
 

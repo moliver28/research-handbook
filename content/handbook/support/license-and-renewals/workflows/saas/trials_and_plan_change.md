@@ -46,6 +46,14 @@ These namespaces are allowed to start an Ultimate trial over Premium subscriptio
 - GitLab.com Ultimate trials cannot be extended past the 30-day duration.
 - GitLab.com trials are only available for the GitLab Ultimate Subscription plan.
 
+### Requests to workaround GitLab.com trial limitations
+
+GitLab.com trials have [some limitations](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded), including the use of group access tokens. Some customers may request circumvention of these limitations in cases such as facilitating post-migration checks.
+
+Sales will need to work with Deal Desk using this [workflow](../../../../sales/field-operations/sales-operations/deal-desk#concurrent-subscriptions) to request a temporary Premium or Ultimate subscription which will result in a $0 paid subscription without the trial limitations.
+
+Support should not use the [NFR workflow](#how-to-extend-an-nfr-not-for-resale-saas-trial-using-the-rails-console) to process such request.
+
 ## Extending trials
 
 Sales will often request through a Zendesk Ticket that we extend the duration of GitLab.com trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User <gitlab_support@example.com>, with the submitter cc'd on the ticket. If a customer or sales representative raise an extend trial request on a *customer ticket*, we should respond that an internal request **must** be created by the sales representative to request the trial extension.
@@ -68,7 +76,7 @@ If a customer is requesting a trial extension, please follow [Working with Sales
 
 ### SFDC generated temporary renewal extensions
 
-Account Executives (AEs) can use SalesForce.com (SFDC) to issue a SaaS 21-day Subscription extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the subscription is automatically extended without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach.
+Account Executives (AEs) can use SalesForce.com (SFDC) to issue a SaaS 21-day Subscription extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the subscription is automatically extended without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/groups/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach.
 
 Please note that the above approach has the following caveats:
 

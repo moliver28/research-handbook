@@ -166,7 +166,7 @@ We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/too
 Note that we do not yet automatically create security issues for non-FedRAMP vulnerabilities. Please see the [Non-FedRAMP vulnerabilities section](#non-fedramp-vulnerabilities) for more details.
 1. [Resolve all vulnerabilities (both FedRAMP and non-FedRAMP) no longer detected on the default branch and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues), executed every 2 days.
 
-[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/#automation) like:
+[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/automation/) like:
 
 1. Adding labels to security issues to further classify the fix availability (fix_available, fix_unavailable, will_not_be_fixed, etc.).
 1. Creating Deviation Request issues for FedRAMP related security issues that should have one.
@@ -322,7 +322,7 @@ We welcome team members to join meetings that are on our shared calendar. The [S
 
 ### Staying informed
 
-GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to [keep themselves informed](/handbook/engineering/#keeping-yourself-informed) as to what is happening in the larger organzation. Everyone is also
+GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to keep themselves informed as to what is happening in the larger organzation. Everyone is also
 encouraged to contribute to these channels and communication paradigms when you have information to share.
 
 In addition to this, each group in Secure conducts a weekly synchronous meeting. These meetings are publicized on the Secure Calendar mentioned above. As always at GitLab, we strive to [make meeting attendance optional](/handbook/company/culture/all-remote/meetings/#1-make-meeting-attendance-optional).
@@ -356,7 +356,7 @@ Every new hire will have an assigned [onboarding issue](https://gitlab.com/gitla
 
 Secure largely follows our [Product Development Flow](/handbook/product-development-flow/)
 
-See [Issue Refinement](./workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
+See [Issue Refinement](workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
 
 #### Shared pool of Frontend work
 
@@ -390,7 +390,7 @@ For a complete guide about developing a new analyzer please refer to our [user d
 
 As our product evolves, the engineering teams are researching ways to achieve new functionality and improve our architecture.
 
-The outcome of this research can be found in our [Technical Documentation](./tech-docs/) section.
+The outcome of this research can be found in our [Technical Documentation](tech-docs/) section.
 
 ### Data Sources
 

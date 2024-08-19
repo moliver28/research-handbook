@@ -65,8 +65,9 @@ Here is a summary of changes made during the design of these standards based on 
 
 ## Environment Realm (`gl_realm`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_realm: `eng-dev`
@@ -146,8 +147,9 @@ Any custom labels or tags that are created should use the respective realm slug 
 
 ## Environment Type (`gl_env_type`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_env_type: 'experiment'
@@ -167,8 +169,9 @@ gl_env_type: 'experiment'
 
 ## Environment Name (`gl_env_name`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_env_name: 'learning-kubernetes'
@@ -191,8 +194,9 @@ The environment name is a short name or description of the purpose of the enviro
 
 ## Automated Infrastructure Environment ID (`gl_env_id`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_env_id: 'a1b2c3d4'
@@ -215,8 +219,9 @@ The environment ID allows various inputs, but in general is a short UUID, long U
 
 ## Geographic Continent (Region) of Environment (`gl_env_continent`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_env_continent: 'america'
@@ -243,8 +248,9 @@ The abbreviation used by the business can change over time (Ex. `APJ`, `APAC`, `
 
 ## Owner Email Handle (`gl_owner_email_handle`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_owner_email_handle: 'jmartin'
@@ -256,8 +262,9 @@ This is used for association with OKTA account, infrastructure notifications, an
 
 ## Owner Timezone (`gl_owner_timezone`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_owner_timezone: 'america-los_angeles'
@@ -289,8 +296,9 @@ Due to limitations with the allowed characters in labels, the `/` is not allowed
 
 ## GitLab Entity (`gl_entity`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_entity: 'allocate'
@@ -332,8 +340,9 @@ During testing of OKTA integration, this field is populating additional values w
 
 ## GitLab Department (`gl_dept`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_dept: eng-dev
@@ -384,8 +393,9 @@ We have abbreviated all values to allow for easier prefixing using industry reco
 
 ## GitLab Product Stage (`gl_product_stage`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_product_stage: eng-dev-manage
@@ -418,8 +428,9 @@ For GitLab SaaS and infrastructure cost allocation or attribution, the Engineeri
 
 ## GitLab Product Category (`gl_product_category`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_product_category: gitaly
@@ -433,8 +444,9 @@ By providing this value, costs can be directly mapped back to a specific set of 
 
 ## GitLab Department Group (`gl_dept_group`)
 
+{{% alert color="success" %}}
 This label/tag is required.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_dept_group: eng-support-americas
@@ -450,8 +462,9 @@ You can get an editable version of this table in the [spreadsheet](https://docs.
 
 ### Expected Values
 
+{{% alert color="warning" %}}
 If a group listed below does not have a group documentation link, it is safe to assume that a AWS account or GCP project has not been created for that group yet. Please follow the instructions for provisioning the group (TODO).
-{: .alert .alert-warning}
+{{% /alert %}}
 
 <!-- To add group documentation, please add a link to a new page [Group Documentation](/handbook/infrastructure-standards/realms/{realm_name}/groups/{gl_dept_group}) -->
 
@@ -648,8 +661,9 @@ The following group names have been renamed or removed and may still be in use w
 
 ## Resource Type (`gl_resource_type`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_resource_type: compute-instance
@@ -680,8 +694,9 @@ GCP doesn't support easy reporting based on type of resource and name unless you
 
 ## Resource Name (`gl_resource_group`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_resource_group: prod-app
@@ -693,8 +708,9 @@ The value of this key should match the name of the group in your infrastructure-
 
 ## Resource Name (`gl_resource_name`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_resource_name: prod-app-web1
@@ -706,8 +722,9 @@ GCP doesn't support easy reporting based on type of resource and name unless you
 
 ## Resource Host (`gl_resource_host`)
 
+{{% alert color="info" %}}
 This label/tag is optional.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_resource_host: prod-app-web1
@@ -721,8 +738,9 @@ GCP doesn't support easy reporting based on type of resource and name unless you
 
 ## Data Classification (`gl_data_classification`)
 
+{{% alert color="info" %}}
 This label/tag is required for resources that store data (databases, storage buckets, etc..).
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_data_classification: red

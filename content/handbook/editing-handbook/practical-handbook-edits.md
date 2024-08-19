@@ -1,8 +1,6 @@
 ---
 title: "Practical Handbook Editing Tips"
 description: "Video recordings and written tips for team members on additional tips to working handbook first."
-aliases:
-- /handbook/practical-handbook-edits/
 ---
 
 This page contains instructions, tips, and historical recordings for non-technical team members on how to work handbook-first.
@@ -134,7 +132,7 @@ There are times when you need to find every instance of a word, phrase or link a
 
 Please see the following suggestions for doing a bulk find and replace.
 
-If you rename a file/URL in one of the handbook repositories, please [add a redirect using an alias]({{< ref "frontmatter.md#aliases" >}}).
+If you rename a file/URL in one of the handbook repositories, please [add a redirect using an alias](/docs/frontmatter/).
 
 If you rename a file/URL in the `www-gitlab-com` repository, please remember to add a redirect to [`redirects.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/redirects.yml) by [following this process](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/redirects_on_about_gitlab_com.md).
 

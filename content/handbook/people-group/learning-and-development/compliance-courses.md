@@ -127,4 +127,4 @@ You can create a free account on the [Compliance Next](https://www.navexglobal.c
 
 One of the most unique aspects of Compliance Next is connecting directly with experts and peers. The platform offers different types of educational resources that you can watch, read, and use—all of which provide the ability to comment and ask questions to compliance professionals and communinity members.
 
-If you have any questions or need further help, please ping people ops in the `#people-connect` channel in slack.
+If you have any questions or need further help, please reach out to the People Connect team via HelpLab.

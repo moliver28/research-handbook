@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/triage.html
-
 title: "Distribution Team Triage"
 description: "Overview and Summary of the Distribution Team's issue triage process"
 ---

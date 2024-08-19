@@ -5,7 +5,7 @@ description: "Leave Tool Kit for Managers and Team Members"
 
 ## Manager Tool Kit
 
-GitLab supports all our team members time away needs by offering multiple leave types in compliance with all applicable federal, state, and laws. At GitLab, we want to support our team members throughout their journey here which includes both the 'highs' and the 'lows'. This includes offering several different leave programs (medical, parental, etc.) to support time away from work, and other resources to support overall wellbeing, because taking time away from work can be stressful, exciting, and everything in-between.
+GitLab supports all our team members time away needs by offering multiple leave types in compliance with all applicable federal, state, and laws. At GitLab, we want to support our team members throughout their journey here which includes both the 'highs' and the 'lows'. This includes offering several different leave programs (medical, parental, etc.) to support time away from work, and other resources to support overall well-being, because taking time away from work can be stressful, exciting, and everything in-between.
 
 As a manager, your team members(s) may come to you with questions, concerns, and/or requests for additional support and guidance. These resources are intended to highlight which areas in the leave of absence process you are responsible for, and how you can best support your team members throughout the life-cycle of their leave. No two leaves are ever the same, so there may not always be a "one-size-fits-all" solution. Some leave situations can be exciting and planned for (i.e. Parental Leave) while others may not be able to be planned for and/or may be serious for the team member or their family member. As a Manager it is important you approach each situation with empathy and kindness, and understand how to best support your team member. The resources included in these pages are intended to equip you with the information you need to support your team members through the entire life-cycle of their leave. If you have any questions or need any additional assistance, please contact `leaves@domain`.
 
@@ -84,7 +84,7 @@ Responsibilities may include but are not limited to:
     - Make it fun! Returning to work can be stressful, so coffee chats are a great time to step away from work and talk about something else.
 1. Be available to help your team member navigate through any company or departmental changes that occurred while on leave.
 
-*Future iterations are still being considered, and will be added to this section as the program evolves. If you have any feedback regarding this program, please contact `leaves@domain` or share in the `#people-connect` Slack channel.*
+*Future iterations are still being considered, and will be added to this section as the program evolves. If you have any feedback regarding this program, please contact `leaves@domain` or share with the People Connect team via HelpLab.*
 
 ### What Makes a Successful Reentry Buddy
 
@@ -101,7 +101,7 @@ Visit the [GitLab Team page](/handbook/company/team/) and search for 'Parental L
 
 ### Volunteer to Become a Parental Leave Reentry Buddy
 
-1. Contact `leaves@domain` or post in the `#people-connect` Slack channel if you're interested in becoming a Parental Leave Reentry buddy or would like more information.
+1. Contact `leaves@domain` or create a request in HelpLab if you're interested in becoming a Parental Leave Reentry buddy or would like more information.
 
 ### Adding Parental Leave Reentry Buddy to your GitLab Profile
 

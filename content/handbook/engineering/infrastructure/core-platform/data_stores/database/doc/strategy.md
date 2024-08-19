@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/strategy.html
 title: Database Strategy
 ---
 
@@ -41,7 +40,7 @@ Often, moving to a separate service or microservice is seen as a solution to a s
 
 >"If microservices are implemented incorrectly or used as a band-aid without addressing some of the root flaws in your system, you'll be unable to do new product development because you're drowning in the complexity."
 
-- [Bad Reasons For Microservices](https://completedeveloperpodcast.com/episode-189/)
+- [Bad Reasons For Microservices](https://www.youtube.com/watch?v=V9tQXugskR8)
 
 >Maintaining a bunch of loose microservices is not easier than maintaining a monolith. There might be an argument for moving from a distributed monolith to microservices, provided that the organizational problems that led to a distributed monolith have been addressed. A shift to microservices is likely to make things worse before it makes them better. If things are already bad, that's going to make life difficult.
 

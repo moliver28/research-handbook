@@ -243,7 +243,7 @@ The purpose of the Modern Health Weekly Reporting is to share a list of new team
 
 Instructions for Total Rewards:
 
-- Pull the Modern Health BambooHR report
+- Pull the Modern Health Workday report
 - Sort by hire date, remove anyone who hasn't started and copy the report
 - Open the `Modern Health Upload` spreadsheet on the google drive and paste the report under a new tab
 - Rename the tab to today's date

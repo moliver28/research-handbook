@@ -22,49 +22,52 @@ organizationally.
 
 ## Design Documents
 
-<!--
-   TODO: Update once design docus migration is underway.
-   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
--->
 Design documents are the primary artifact that the workflow revolves around.
-They are version controlled documents that are released alongside our
-[user-facing documentation](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints)
-and you can find [a list of published ones](https://docs.gitlab.com/ee/architecture) there too.
+They are version controlled documents that are released in this handbook
+[user-facing documentation](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/content/handbook/engineering/architecture/design-documents)
+and you can find [a list of published ones](design-documents/) there too.
+Some of the design documents also live in separate repositories when a
+design doc has to be confidential or when custom project configuration is
+needed, see [GCP integration design doc](https://gitlab.com/gitlab-org/architecture/gitlab-gcp-integration/design-doc)
+as an example.
 
 Long-term iterations, longer than a single milestone, either on features or
-maintenance tasks, are challenging because it is easy to lose consensus,
+maintenance tasks, are challenging because it is easy to lose focus, consensus,
 conceptual integrity, architectural consistency, or alignment in why and how we
 are doing something.
 
-A design document describes a technical vision and a set of principles that
-will guide implementation, as we move forward. It acts as guardrails to keep
-team aligned. Design documents get constantly updated with new insights and
-knowledge, after every iteration, to become even more useful with time.
+A design document describes a technical vision, a set of principles and key
+architectural decisions that will guide implementation, as we move forward. It
+acts as guardrails to keep team aligned. Design documents get constantly updated
+with new insights and knowledge, after every iteration, to become even more
+useful with time.
 
 You can start with a design document that is one paragraph long, and evolve the
 content as you move forward with your exploratory work, depending on what you
-learn along the way.
+learn along the way. Design documents are not supposed to be complete and
+detailed blueprints written upfront before we start implementation.
 
 ### Why are design documents tracked in merge requests?
 
 Design documents are tracked as version controlled artifacts. This enables
-anyone to propose changes in the form of merge requests. Engineers usually
-provide feedback in code review process by leaving comments in merge requests'
-diffs. We are using the same process here. By doing so we can ensure that:
+anyone to propose changes in the form of merge requests. The merge requests can
+be reviewed and approved before merging. Engineers usually provide feedback in
+code review process by leaving comments in merge requests' diffs. We are using
+the same process here. By doing so we can ensure that:
 
 - there is always a single document that represents the current state of a given proposal
-- you do not have to traverse multiple issues or threaded discussions to grok our direction
-- feedback can be given and applied in the form of concrete suggestions using 'suggestions' feature
-- proposals / changes are being made in merge requests, using "design as code" workflow
+- you do not have to traverse multiple issues or threaded discussions to understand the direction
+- feedback can be given and applied in the form of concrete suggestions and comments
+- proposals / changes / decisions are being made in merge requests using "design as code" workflow
 
 ### Do I need to use Architecture Design Workflow?
 
 Using the workflow is recommended for changes that meet any of the following
 conditions:
 
-- requires coordination across multiple functions
-- could impact overall system stability
-- requires more implementation time than two milestones
+- requires coordination across multiple functions, teams, departments
+- could impact overall system stability, availability or performance
+- multiple team members are being involved across multiple milestones
 - changes GitLab in a significant way
 - impacts the operation of GitLab substantially
 - introduce special handling across distributions and deployments
@@ -86,86 +89,54 @@ Please use a pragmatic approach when deciding whether to use the workflow or a
 regular lightweight design process by considering the cost (process overhead) /
 benefit (guidance, coaching, visibility) ratio.
 
-## Design Workflow: Summary
+## Architecture Design Workflow
 
-The workflow is divided into two phases: a design phase, and an implementation
-phase. The main focus is on the design phase, but the process also extends
-beyond it.
+### Summary
 
-As an engineer, you and your manager determine whether to invoke the
-Architecture Design Workflow. When in doubt, do not hesitate to reach out to
-a Principal+ Engineer for input.
-
-### Design Phase
-
-<!--
-   TODO: Update once design docus migration is underway.
-   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
--->
-1. Start writing a design document somewhere! Depending on whether the content
+1. Start writing a design document! Depending on whether the content
    can be considered [SAFE](/handbook/legal/safe-framework/) or not you may
    want to do that in a private space first. If you don't know what content to
-   start with you can use [a template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/_template.md?plain=1).
+   start with you can use [a template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1).
    You will find a couple of suggestions there and a markdown front matter we
    use for status tracking.
-1. Open a [merge request](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints)
+1. Open a [merge request](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/content/handbook/engineering/architecture/design-documents)
    if you have not done it already and if it is SAFE to do so.
 1. Post a link to your design document, with a brief description of it, in the
    internal [`#architecture`](https://gitlab.slack.com/archives/CJ4DB7517)
    channel on Slack for additional visibility and transparency.
 1. If your design document describes a complex effort that will span
-   multiple milestones, you may want to involve a Coach: a Principal+ Engineer
-   who will support you throughout process of describing a technical vision in
-   your design document.
-1. Work with all of the stakeholders and domain experts to get your design
-   reviewed, refined, approved and merged!
-   Design docs don't need to be fully comprehensive on the first iteration.
-   They can be refined and enriched with details in iterations, as we discover
-   important design aspects.
-1. Assign DRIs that will drive the implementation effort.
-
-### Implementation phase
-
-Once your design document has been merged you can start collaborating with the DRIs
-to get the work done in a way that seems best for everyone involved.
-
-The design document is an artifact that accompanies you during the
-implementation journey. After each iteration you can get back to it, to update
-it with the current state of the engineering initiative.
-
-1. Assign DRIs.
-1. Iterate on the change in a way it has been described in your design document.
-1. Once you learn something new, or want to make a change, update the design document.
-1. Involve a Coach when needed to help you move forward with the implementation.
-1. Repeat the process until your proposal has been implemented!
-
-## Design Workflow: The Detailed View
-
-### Design Phase
-
-Anyone can propose a change they believe we should work on. When these changes
-turn out to be too intricate for a single individual contributor to handle
-(complex backstage improvements, architectural changes, productivity or
-efficiency improvements), or they span multiple iterations or teams, it may be
-helpful to invoke the Architecture Design Workflow, as the proposal itself may
-not be something that is directly actionable.
-
-The author of the proposal can collaborate with a Coach, who will involve the
-right people to make sure that the proposal is well described and gets
-considered for implementation.
+   multiple milestones, you may want to involve a [Coach Engineer](#the-coach-engineer):
+   usually a Principal+ Engineer who will support you throughout process of
+   describing a technical vision in your design document.
+1. Work with the stakeholders and [domain experts](#domain-experts) to get your
+   design reviewed and commented on. Design docs don't need to be comprehesive
+   nor complete on the first iteration. They can be refined and enriched with
+   details in iterations, as we discover important design aspects, fundamental
+   design areas, key decisions. We advise to get our initial design doc merged
+   as soon as possible.
+1. Start exploration, research and implementation! Start writing code as soon as
+   possible!
+1. Iterate on the design doc in parallel as you discover new details, make
+   fundamental design decisions, learn more about how you want to proceed with
+   the implementation refine the content of the document frequently.
+1. Take a look at existing design docs and learn from past experiences of
+   engineers who have been successful with using the workflow.
+1. Improve the workflow if you learn something that will make us all more
+   productive next time!
 
 ### Roles
 
 #### The Author
 
-As the original author of a proposal, you are the primary DRI during the design
-phase.
+As the original author you are the primary DRI responsible writing the design
+doc.
 
-The Author is a DRI responsible for driving the process of writing a design document.
-They can collaborate with a Coach, Engineering Management Leader,
-Product Management Leader, Domain Experts, Functional Experts during the process.
+The Author is a DRI responsible for driving the process of writing a design
+document. They can collaborate with a Coach, Engineering Management Leader,
+Product Management Leader, Domain Experts, Functional Experts during the
+process.
 
-#### The Coach
+#### The Coach Engineer
 
 Coach is a Principal+ Engineer, who has been already involved in work on the
 complex technical initiatives, who can guide the author throughout the process
@@ -177,7 +148,7 @@ perspective on introducing complex architectural changes, help navigate
 organizational challenges, ensure the proposal is aligned with our roadmap, and
 help management Engineering Leaders prioritize the work.
 
-**Involving a Coach is optional**, but we strongly advise to involve one if:
+**Involving a Coach Engineer is optional**, but we strongly advise to involve one if:
 
 1. Accepting a proposal outlined in the design document means that we will need
    to spend 6+ milestones on the implementation.
@@ -231,46 +202,54 @@ Database, and Infrastructure. You should always consider involving these
 functional experts during the creation of a design document, so that we
 generate awareness early in the cycle and so that they can provide their input.
 
-### Design Document
+### Design doc structure
 
-<!--
-   TODO: Update once design docus migration is underway.
-   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
--->
-Merged design documents will be published on our [documentation website](https://docs.gitlab.com/ee/architecture/)
+A design doc is usually divided into multiple sections:
 
-If you don't know what content you could put into a design document, you can use
-[this template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/_template.md?plain=1)
-as a starting point.
+1. The introduction
+1. Business objectives
+1. High-level overview
+1. Goals and key results
+1. Current state pointer
+1. Fundamental design areas
+1. Key design decisions
+1. Implementation details
+1. Closing summary and references
 
-Please be conscious of our [SAFE](/handbook/legal/safe-framework/) framework
-guidelines, and start collaborating on a design document in a private space
-(like a Google Doc) if it should not be made public.
+As an author you decide which sections you want to include in your design doc.
+Merged design documents will be published in our [public handbook](design-documents/).
 
-#### Vision
+#### Introduction
 
-First page of the design document should outline the main vision of a change.
-The vision is a short content written as an "executive summary" that describes,
-from a business perspective, the problem we want to solve, why is it important
-and what is the desired outcome.
+The introduction is a high-level executive summary explaining why we are doing
+something and what is our approach to getting the thing done. The audience of
+the here is very broad, so it is important to avoid excessive technical language.
 
-The vision should be true long term. It should generally not require many
-updates when implementation details change or more concrete decisions are being
-made.
+#### Objectives
 
-#### Details
+If the architecture design workflow is being used it means that what we want to
+accomplish is going to be non-trivial and presumably expensive for the company.
+An investment like this should have a solid business justification, we should
+know what is going to be a business impact. It is recommended to add a note
+about expected business results to a design doc.
 
-The rest of the design document is a description of [Why, How and What](https://en.wikipedia.org/wiki/Start_With_Why)
-of the change. This section is both, a proposal describing the technical
-direction, as well as a documentation of the current state. If the details
-section is long, it is basically advised to extract it to a separate sub-page,
-to keep the main page of a design doc more approachable.
+#### Overview
 
-The proposal is usually a high-level overview of how we want something to be
-implemented. We highly recommend documenting decisions made about fundamental
-aspects of the design. These decisions are going to become important
-checkpoints during the implementation phase, and will provide more clarity
-around the direction to newcomers.
+The main design doc's content is usually a high-level overview of why and how we
+want something to be implemented.
+
+There are many ways in which a design doc can be written. We encourage taking a
+pragmatic approach to writing a design doc: choose a way that works well in your
+case. One of the frequently used ways is to keep the overview section short and
+keeping it up-to-date. Find existing docs that have proven to be useful to
+better understand how it can be written.
+
+#### Decisions
+
+We strongly recommend documenting key decisions made about fundamental aspects
+of the design in the design doc. These decisions are going to become important
+checkpoints during the implementation, and will provide more clarity around the
+direction to newcomers.
 
 To document a decision a lightweight process can be used:
 
@@ -283,38 +262,50 @@ To document a decision a lightweight process can be used:
 You can use a lightweight Architectural Decision Record (ADR).
 See an [example here](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/132129).
 We recommend to add ADRs as subpages, and link them from a `Decision` section
-on the main page of the design doc.
+on the main page of the design doc. An ADR usually has a few key sections:
+context, decision, consequences, alternatives considered.
 
-An example of an important design aspect could be "Client-server
-communication protocol", while an example of decision could be: "Use Protocol
-Buffers as data serialization format".
+An example of an important design area could be "Client-server communication
+protocol", while an example of decision could be: "Use Protocol Buffers as data
+serialization format".
 
-The goal is that each fundamental aspect of the proposal is accompanied by a
-documented decision. It is also encouraged to document known-unknowns that we
-may need to decide on later.
+Team members often write **immutable ADRs**. If a decision has to be changed, we
+can note that it has been superseeded and create a new ADR with the new
+decision. This helps to reduce the amount of work required to keep a design doc
+up-to-date. See an example in [GCP integration](https://gitlab.com/gitlab-org/architecture/gitlab-gcp-integration/design-doc)
+design doc.
 
-As we move forward with implementation and iterate on a project, we
-continuously incorporate feedback gained after each of the iterations, into the
-design document itself. Technical details can go into subpages, or be extracted
-into issues / epics.
+Sometimes it also makes sense to document known engineering areas in which we
+haven't made any decisions yet, but we know we will have to. We call them
+"fundamental design areas".
 
-### Implementation Phase
+#### Implementation Details
 
-Once the design document gets approved and merged it is important to assign DRIs.
-It is usually good to assign DRIs from three different areas of the organization:
+As we move forward with implementation and iterate on a project, we continuously
+incorporate feedback gained after each of the iterations and we often add it
+into the design document itself. Technical details can go into subpages to keep
+the main page of the design document (with the [overview](#overview)) short and
+easy to read. Implementation details can be also extracted into issues / epics.
 
-1. An Engineering Management Leader (for example - Director of Engineering)
-1. A Product Management Leader (for example - Senior Product Manager)
-1. A Technical Leader (for example - Senior Backend Engineer)
+### Getting things done
 
-These people will be responsible for the implementation phase of the design document.
+Each design doc requires DRIs. DRIs decide on how to proceed with the design
+doc, how to get it implemented, using known organizational tools and frameworks,
+like a [Working Group](/handbook/company/working-groups/).
 
-DRIs can decide to start a [Working Group](/handbook/company/working-groups/)
-to add an additional structure to the efforts related to the change. Key
-considerations in deciding to form a Working Group are the size, complexity,
-and organizational impact of the change.
+Typically we either proceed with a WG or with a dedicated team which will focus
+on executing on a design document.
 
 #### Amplification
+
+Anyone can propose a change they believe we should work on. When these changes
+turn out to be too intricate for a single individual contributor to handle
+(complex backstage improvements, architectural changes, productivity or
+efficiency improvements), or they span multiple iterations or teams, it may be
+helpful to use the Architecture Design Workflow to get the proposal captured in
+a design doc. The author of the proposal can collaborate with a Coach Engineer,
+who will involve the right people to make sure that the proposal is well
+described and gets considered for implementation.
 
 We recognize the challenge of implementing complex changes or features, over
 many months or even years. It is difficult to start such a work, fund it in the
@@ -336,21 +327,30 @@ purpose of this meeting is to:
 - Provide status updates about the most important initiatives.
 - Receive guidance regarding staffing and funding.
 
-#### Evolution
+#### Iteration
 
-Once the work starts, it is important to realize that working on complex
-technical / architectural initiatives is an evolutionary process. The DRIs will
-be responsible for getting back to the content described in the design
-document, to update it with the information from the feedback every iteration
-gives them. The design document evolves as the implementation continues.
+The Architecture Design Workflow does not dictate how much time you should spend
+on the design phase, before you start writing producition code. It is
+recommended to start writing a design doc and start writing code at around the
+same time, but in certain cases it might be beneficial to spend more time on the
+careful design upfront, followed by a set of feasibility studies before the
+actual implementation starts. In the former case a design doc is a technical
+artifact which evolves in parallel to us building the actual solution. In the
+latter case, we make an implementation proposal before the implementation
+starts, and then refine the design doc as needed as we move forward. In either
+case the design doc will keep changing; it is rarely possible to write a design
+doc and then to implement it without changing something during the process. Use
+a pragmatic approach here, involve Coach Engineers if needed. There
+is [no right or wrong here](https://docs.google.com/document/d/1UKAK51eyy7dOA9pRWz_VDEVhO6c2VBHoQ6MUB0RdvM8/edit#bookmark=id.9x1w2dmm4v52).
 
 ### Finally
 
 When the work is completed, design documents no longer represent a
-forward-looking vision, instead the content describes work done. As such, a
-design document should be updated to become more useful as a knowledge-sharing
-artifact, helping new engineers and contributors to get familiar with design
-decisions and architectural choices more quickly.
-
-It is recommended to reference it from the code itself, in a `README.md` in a
-main module directory or a comment at the top-level of a related Ruby class.
+forward-looking vision, instead the content describes the work that has been
+done and decisions that has been made. As such, a design document should be
+updated to become more useful as a knowledge-sharing artifact, helping new
+engineers and contributors to get familiar with design decisions and
+architectural choices more quickly. If you are using an immutable architectural
+decisions log (ADRs) updating the design doc should not require a lot of effort.
+Alternatively you can archive a design doc if using it as documentation does not
+serve any meaningful purpose.

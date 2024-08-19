@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation
 title: General Information of Development Escalation Process
 ---
 
@@ -21,7 +20,7 @@ To resolve GitLab.com issues faster, the development team will establish an on-c
 
 Note that the Infrastructure team keeps playing the first defense role on the frontline as usual, while they will determine if a development escalation will be initiated to get the operational issues resolved faster and more efficiently.
 
-This new process will need development engineers on-call based on a rotation schedule. For more details, please refer to the [**full description of on-call process**](./process.html).
+This new process will need development engineers on-call based on a rotation schedule. For more details, please refer to the [**full description of on-call process**](process.html).
 
 ## Goals
 

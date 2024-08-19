@@ -21,13 +21,13 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 
 - [eLearning Industry](https://elearningindustry.com/)
 - [Training Industry](https://trainingindustry.com/blog)
-- [Nigel Paine Learning Blog](https://www.nigelpaine.com/blog/)
+- [Nigel Paine Learning Blog](https://www.nigelpaine.com/insights/)
 
 ## Podcasts
 
 - [The Future of Learning and Development](https://podcasts.apple.com/us/podcast/the-future-of-learning-and-development-podcast/id1505100929)
 - [The Business of Learning](https://podcasts.apple.com/us/podcast/the-business-of-learning/id1372123987?mt=2)
-- [Chief Learning Officer Podcast](https://chieflearningofficer.libsyn.com/)
+- [Chief Learning Officer Podcast](https://www.chieflearningofficer.com/podcasts/)
 
 ## Newsletters
 
@@ -52,7 +52,6 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 
 - [Learning Pool](https://learningpool.com/)
 - [Chief Learning Officer](https://www.chieflearningofficer.com/)
-- [Emerald Works](https://emeraldworks.com/)
 
 ## LinkedIn Learning Courses
 

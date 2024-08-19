@@ -8,7 +8,7 @@ controlled_document: false
 
 ### Introduction
 
-Embarking on an internship with the Site Reliability Engineering (SRE) foundation team has been a remarkable chapter in my career journey. Over the past few months, I've gained invaluable insights, honed my technical skills, and learned what it truly means to maintain and enhance the reliability of large-scale systems. My main goal for doing an internship with the SRE foundation team was to understand how they use Gitlab itself to manage the whole infrastructure, how to manage the vault and how to adopt the best practices of infrastructure as code to spin a scalable infrastructure. Here, I'd like to share my experiences, challenges, and the lessons I've learned.
+Embarking on an internship with the Site Reliability Engineering (SRE) foundation team has been a remarkable chapter in my career journey. Over the past few months, I've gained invaluable insights, honed my technical skills, and learned what it truly means to maintain and enhance the reliability of large-scale systems. My main goal for doing an internship with the SRE foundation team was to understand how they use GitLab itself to manage the whole infrastructure, how to manage the vault and how to adopt the best practices of infrastructure as code to spin a scalable infrastructure. Here, I'd like to share my experiences, challenges, and the lessons I've learned.
 
 #### What is SRE?
 

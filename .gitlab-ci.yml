@@ -15,7 +15,7 @@
 ###################################
 
 stages:
-  - test
+  - sync
   - build
   - deploy
   - notify
@@ -24,6 +24,8 @@ stages:
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
+    inputs:
+      job_stage: build
 
 default:
   interruptible: true # All jobs are interruptible by default
@@ -88,10 +90,10 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.128.0'
+  HUGO_VERSION: '0.131.0'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   MARKDOWNLINT_VERSION: '0.13.0'
-  VALE_VERSION: '3.6.0'
+  VALE_VERSION: '3.7.0'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -112,6 +114,23 @@ variables:
 
 .build-and-test-only: &build-and-test-only
   if: '$BUILD_AND_TEST_ONLY == "true"'
+
+###################################
+#
+# INTERRUPTION PROTECTION
+#
+###################################
+
+dont-interrupt-me:
+  stage: sync
+  image: alpine:latest
+  interruptible: false
+  script:
+    - echo "This jobs makes sure this pipeline won't be interrupted! See https://docs.gitlab.com/ee/ci/yaml/#interruptible."
+  variables:
+    GIT_STRATEGY: none
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "pipeline"
 
 ###################################
 #
@@ -187,12 +206,12 @@ pages:
     - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'mr/$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'mr/$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
       when: manual
       allow_failure: true

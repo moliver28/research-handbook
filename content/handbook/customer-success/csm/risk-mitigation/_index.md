@@ -128,7 +128,7 @@ Once we know the risk and done some discovery into that risk, we have some optio
 
 - Based on the discovery questions, identify the gaps.
 - If it's a maturity problem, each product Stage has a roadmap page in the handbook. Product Managers are also generally very happy to get on a call with a customer to discuss the roadmap and to listen to the customer's needs and wants.
-- If its a functionality gap, make sure that you've identified all the gaps and added the customer to the relevant issues using the [Product Feedback Template](/handbook/product/how-to-engage/#feedback-template). Its also a good opportunity to get a PM on a call with the customer to help advocate for these issues and get them on the roadmap.
+- If its a functionality gap, make sure that you've identified all the gaps and added the customer to the relevant issues using the [Product Feedback Template](/handbook/product/product-management/#feedback-template). Its also a good opportunity to get a PM on a call with the customer to help advocate for these issues and get them on the roadmap.
 
 ### Product Usage (not using features & functionality in their license tier)
 

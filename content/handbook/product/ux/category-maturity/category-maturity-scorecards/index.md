@@ -8,7 +8,7 @@ description: >-
 
 ## Intro and Goal
 
-The Category Maturity (CM) Scorecard is a [Summative Evaluation](https://www.nngroup.com/articles/formative-vs-summative-evaluations/) that takes into account the entire experience as defined by a Job to be Done (JTBD), instead of individual improvement(s), which are often measured through [Usability Testing](/handbook/product/ux/ux-research/usability-testing/) (i.e. Solution Validation). This specialized process provides data to help us grade the [maturity of our product](https://about.gitlab.com/direction/maturity/).
+The Category Maturity (CM) Scorecard is a [Summative Evaluation](https://www.nngroup.com/articles/formative-vs-summative-evaluations/) that takes into account the entire experience as defined by a Job to be Done (JTBD), instead of individual improvement(s), which are often measured through [Usability Testing](/handbook/product/ux/ux-research/usability-testing/) (i.e. Solution Validation). This specialized process provides data to help us grade the [maturity of our product](https://about.gitlab.com/direction/#maturity).
 
 The goal of this process is to produce data as objectively as possible given time and resource constraints. For this reason, the process is more rigorous than other UX research methods, and it focuses more on measures and less on thoughts and verbal feedback.
 
@@ -39,7 +39,7 @@ The below table outlines the requirements for each maturity level:
 | Viable         | Internal users who are dogfooding | **C** (Average). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is well established, intentional in design, and clear in the outcome it enables users to reach.                       | Meets 100% of GitLab design standards         | (not required)                        |
 | Minimal        | (not required)                    | **D** (Poor). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is established, intentional in design, and nearing a clear outcome for users to reach.                            | Meets at least 80% of GitLab design standards | (not required)                        |
 
-Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study.
+Refer to the [Category Maturity](https://about.gitlab.com/direction/#maturity) page to understand scoring of a Category Maturity Scorecard study.
 
 Previously completed Category Maturity Scorecards can be found in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6930).
 
@@ -184,7 +184,7 @@ The [UMUX Lite](https://measuringu.com/umux-lite/) score is based on the UMUX (U
 - Disagree
 - Strongly disagree
 
-You will need to decide on how to compose your scenario name. Take into consideration the name we use for the category on the [Category Maturity page](https://about.gitlab.com/direction/maturity/). There may be instances where using the scenario name as we use it is not optimal for presenting to a user for getting feedback because it may not be clear enough to them.
+You will need to decide on how to compose your scenario name. Take into consideration the name we use for the category on the [Category Maturity page](https://about.gitlab.com/direction/#maturity). There may be instances where using the scenario name as we use it is not optimal for presenting to a user for getting feedback because it may not be clear enough to them.
 
 #### Zoom and Respondent.io tips
 

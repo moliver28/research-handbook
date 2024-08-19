@@ -51,7 +51,7 @@ Also, you can tell I'm tired when my English is worse than usual!
 
 ### My working style
 
-I live by our [values]({{< ref "values" >}}) and embrace every one of them as much as I can. By
+I live by our [values](/handbook/values/) and embrace every one of them as much as I can. By
 default, I will go async via an issue or a merge request. I create a lot of issues, but they do not
 all translate into an action item. I use issues as a placeholder for discussions too. Sometimes,
 it's to document why I or we think it's not a good idea to do something. We can re-evaluate the

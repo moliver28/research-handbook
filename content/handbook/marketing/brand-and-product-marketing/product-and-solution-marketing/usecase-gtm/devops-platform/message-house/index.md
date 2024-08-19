@@ -6,12 +6,12 @@ title: "DevOps Platform Message House"
 
 In the spirit of [Command of the Message](/handbook/sales/command-of-the-message/), this page will help GitLab team members understand and define the GitLab DevOps Platform solutions to customers in an authentic, consistent manner than differentiates us from our competitors. It includes:
 
-- [Historical context of the market evolution](./index.html#the-four-phases-of-devops)
-- [General messaging guidelines](./index.html#messaging-guidelines)
-- [Third-party validation and perspective](./index.html#supporting-data)
-- [Segment-specific messaging suggestions](./index.html#segment-messaging-and-positioning)
+- [Historical context of the market evolution](index.html#the-four-phases-of-devops)
+- [General messaging guidelines](index.html#messaging-guidelines)
+- [Third-party validation and perspective](index.html#supporting-data)
+- [Segment-specific messaging suggestions](index.html#segment-messaging-and-positioning)
 
-**NOTE: If you are searching for approved copy to describe The DevOps Platform, please skip ahead to [Messaging Guidelines](./index.html#messaging-guidelines).**
+**NOTE: If you are searching for approved copy to describe The DevOps Platform, please skip ahead to [Messaging Guidelines](index.html#messaging-guidelines).**
 
 ## The Four Phases of DevOps
 

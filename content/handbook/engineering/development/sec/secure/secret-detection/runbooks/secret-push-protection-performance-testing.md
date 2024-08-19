@@ -191,7 +191,7 @@ See the [Custom Tasks section](https://gitlab.com/gitlab-org/gitlab-environment-
 * [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 * [The Static Analysis GCP Project: dev-sast-prereceive-8a4574ec](https://console.cloud.google.com/welcome?project=dev-sast-prereceive-8a4574ec)
 * GCP - Google Cloud Platform
-* [Secret Push Protection documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive.html)
+* [Secret Push Protection documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/)
 
 ### Miscellaneous
 

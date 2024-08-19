@@ -41,11 +41,12 @@ These are the tools the Developer Relations team is the DRI for:
 
 ### Community Operations Tool Stack (deprecated)
 
+{{% alert color="warning" %}}
 <i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59)
 ;"></i> This overview is currently being deprecated as we attempt to migrate from
 the manually-generated list to one automatically-generated from the `data/tech_stack.yml` file.
 Please use the [automatically-generated table instead](#tool-stack-overview)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 <details>
 <summary markdown="span">Click to show deprecated table</summary>

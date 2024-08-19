@@ -1,23 +1,15 @@
 ---
 title: "Anti-Harassment Policy"
 description: "Everyone at GitLab has a responsibility to prevent and stop harassment. Learn more about our Anti-harassment policy."
-aliases:
-- /handbook/anti-harassment/
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
 Per the stated [Roles & Responsibilities](/handbook/people-group/anti-harassment/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+{{% /panel %}}
 
 ## Introduction
 
-Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values]({{< ref "values" >}}), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
+Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values](/handbook/values/), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
 
 ## Perspective
 
@@ -89,7 +81,7 @@ This does not ensure there will be no consequences. However, it will greatly red
 If a threat is made against you or someone else that makes you or another team member question their safety due to an issue, merge request, email or other work related matters do not hesitate to initiate the following process:
 
 1. Contact local law enforcement. Note the proper number to contact in your locality and whether the emergency, or non-emergency number should be called.
-1. Notify the People Connect Team at `people-connect@gitlab.com` and cc `teammemberrelations@gitlab.com`. A private channel may then be opened with your People Business Partner, People Connect Team member, Team Member Relations, Manager, and the security team helping with the situation.
+1. Notify the People Connect Team via a HelpLab request. A private slack channel may then be opened with your People Business Partner, People Connect Team member, Team Member Relations, Manager, and the security team helping with the situation.
 1. The following steps may be taken based on the threat:
     - Internal threat assessment
     - Temporary accommodation (friends, family, hotel, etc.)
@@ -358,7 +350,7 @@ We are continuously gathering country specific references to review regulation a
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/laws-guidance)
   - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
-- [Society of Human Resource Management (SHRM)](https://www.shrm.org/ResourcesAndTools/legal-and-compliance/employment-law/pages/federal-statutes-regulations-and-guidance.aspx)
+- [Society of Human Resource Management (SHRM)](https://www.shrm.org/topics-tools#verticalTabs-39c94d1460-item-e2208bcacd-tab)
 
 ## Further Guidance (Country-Specific)
 

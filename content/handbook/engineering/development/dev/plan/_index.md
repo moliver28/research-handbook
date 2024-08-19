@@ -46,10 +46,6 @@ The third item tells us how we've been doing previously. If the trend is downwar
 
 Subtracting the carry over weight (item 2) from our expected capacity (the product of items 1 and 3) should tell us our capacity for the next release.
 
-##### Historical capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 #### Issues
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
@@ -243,7 +239,7 @@ process itself.
 #### Timeline
 
 - **27th (Previous Month)** A retrospective issue is automatically created for the milestone in progress.
-- **18th** The milestone is **closed** and open issues in the build phase are labelled with ~"missed deliverable".
+- **18th** The milestone is **closed** and open issues in the build phase are labeled with ~"missed deliverable".
 - **21st** The issue description is automatically updated with shipped and missed deliverables and the team are tagged to add feedback.
 - **4th (Next Month)** A final reminder is created automatically in #s_plan for final feedback.
 - **5th (Next Month)** The DRI [concludes the retrospective](#concluding-the-retrospective).
@@ -337,7 +333,6 @@ The first objects built using the work items architecture support the [Parker](/
 Read more about work items
 
 - [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
-- [Work items Pajamas documentation](https://design.gitlab.com/objects/work-item)
 - [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
 
 ##### Terminology
@@ -363,7 +358,7 @@ This enables us to differentiate these by persona and workflow. While they may s
 - We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-research-for-work-items) for supporting work item initiatives.
 - [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
 - We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
-- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
 
@@ -452,9 +447,9 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 #### Links
 
-- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Issue Template](https://gitlab.com/gitlab-org/plan/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
+- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Issue Template](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
 
 ### Meetings
 
@@ -586,7 +581,7 @@ and can be formed of just Functional Leads and members who participate in fulfil
 
 ### Product Outreach
 
-There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot programme that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
+There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot program that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
 
 #### Product Shadowing schedule
 

@@ -365,7 +365,7 @@ subgraph "GCP Project demosys-cs-demo-cloud"
     CS_OMNIBUS --> CS_USERS
     CS_HANDBOOK["Handbook Instructions (link)"]:::violet
     click CS_OMNIBUS "https://cs.gitlabdemo.cloud" "Access System" _blank
-    click CS_HANDBOOK "https://about.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
+    click CS_HANDBOOK "https://handbook.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
 end
 subgraph "ops.gitlab.net/it-infra-realm/.../cs"
     CS_IAC["cs-gitlabdemo-cloud-iac Repo (link)<br />Terraform CI/CD Pipeline"]:::emerald
@@ -396,7 +396,7 @@ subgraph "GCP Project demosys-ilt-training-cloud"
     ILT_OMNIBUS --> ILT_ENVIRONMENTS
     ILT_HANDBOOK["Handbook Instructions (link)"]:::violet
     click ILT_OMNIBUS "https://ilt.gitlabtraining.cloud" "Access System" _blank
-    click ILT_HANDBOOK "https://about.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
+    click ILT_HANDBOOK "https://handbook.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
 end
 subgraph "ops.gitlab.net/it-infra-realm/.../ilt"
     ILT_IAC["ilt-gitlabtraining-cloud-iac Repo (link)<br />Terraform CI/CD Pipeline"]:::red
@@ -427,7 +427,7 @@ subgraph "GCP Project demosys-workshop-cloud"
     WORKSHOP_OMNIBUS --> WORKSHOP_ENVIRONMENTS
     WORKSHOP_HANDBOOK["Handbook Instructions (link)"]:::violet
     click WORKSHOP_OMNIBUS "https://ilt.gitlabtraining.cloud" "Access System" _blank
-    click WORKSHOP_HANDBOOK "https://about.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
+    click WORKSHOP_HANDBOOK "https://handbook.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
 end
 subgraph "ops.gitlab.net/it-infra-realm/.../workshop"
     WORKSHOP_IAC["workshop-gitlabtraining-cloud-iac Repo (link)<br />Terraform CI/CD Pipeline"]:::red
@@ -458,7 +458,7 @@ subgraph "GCP Project demosys-spt-training-cloud"
     SPT_OMNIBUS --> SPT_ENVIRONMENTS
     SPT_HANDBOOK["Handbook Instructions (link)"]:::violet
     click SPT_OMNIBUS "https://spt.gitlabtraining.cloud" "Access System" _blank
-    click SPT_HANDBOOK "https://about.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
+    click SPT_HANDBOOK "https://handbook.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances" "Usage Instructions" _blank
 end
 subgraph "ops.gitlab.net/it-infra-realm/.../spt"
     SPT_IAC["spt-gitlabtraining-cloud-iac Repo (link)<br />Terraform CI/CD Pipeline"]:::red
@@ -487,7 +487,7 @@ subgraph "GCP Project hackystack-gitops"
     GITOPS_OMNIBUS --> GITOPS_ENVIRONMENTS
     GITOPS_HANDBOOK["Handbook Instructions (link)"]:::violet
     click GITOPS_OMNIBUS "https://gitops.gitlabsandbox.cloud" "Access System" _blank
-    click GITOPS_HANDBOOK "https://about.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment" "Usage Instructions" _blank
+    click GITOPS_HANDBOOK "https://handbook.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment" "Usage Instructions" _blank
 end
 subgraph "ops.gitlab.net/it-infra-realm/.../gitops"
     GITOPS_IAC["gitops-gitlabsandbox-cloud-iac Repo (link)<br />Terraform CI/CD Pipeline"]:::emerald

@@ -123,7 +123,7 @@ Principal Developer Advocate is a [grade 9](/handbook/total-rewards/compensation
 
 ### Job Grade
 
-Director, Developer Advocacy is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Director, Developer Advocacy is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 

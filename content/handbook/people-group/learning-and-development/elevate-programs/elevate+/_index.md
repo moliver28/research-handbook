@@ -70,11 +70,11 @@ During the session, you can expect the following:
 
 Elevate+ Certification is a time to demonstrate everything you've learned and celebrate your new skills and self awareness as you continue to grow as a leader of leaders at GitLab. It's not meant to be scary, and we want all participants to feel fully supported to pass.
 
-Certification will occur in a live, collaborative, 50 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
+Certification will occur in a live, collaborative, 60 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
 
-1. Intro to certification logistics (5 min)
-1. Part 1: Leadership presentations (25 min) - 5 min presentation/1 min scoring per person x 4 people
-1. Part 2: Coaching scenarios (20 min) - 5 min per person x 4 people
+1. Intro to certification logistics
+1. Part 1: Leadership presentations - 5 min presentation/1 min scoring per person x 4 people
+1. Part 2: Coaching scenarios - 5 min per person x 4 people
 
 Review these materials to best prepare for certification:
 

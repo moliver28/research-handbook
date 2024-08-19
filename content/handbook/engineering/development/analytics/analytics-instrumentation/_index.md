@@ -83,6 +83,23 @@ A bot asks every team member autoamtically the following questions at the beginn
 - **What Impediments did you have in the last week? Which impediments do you anticipate this week?**: This is important information for other stakeholders, to understand where a team member might need support.
 - **Which Priorities do you have for the current week?**: This should be the most important things you want to achieve during the week.
 
+### Retrospective
+
+We believe that continuously evolving and improving the way we work is crucial to delivering good outcomes. Traditionally, retrospectives are used to facilitate this improvement.
+Due to our geographical distribution we cannot run typical sync retrospectives that include everyone.
+We've also found that completely async retrospectives only see limited participation and discussion.
+
+We're currently trialing a mixed retrospective format, we're team members pair on filling in the retro issue. The process is as follows:
+
+1. Every milestone the [async-retrospective project](https://gitlab.com/gitlab-org/async-retrospectives) automatically creates an
+   issue in the [analytics-instrumentation retro project](https://gitlab.com/gl-retrospectives/analytics-instrumentation/-/issues) which contains a list of retro questions.
+1. Every 2nd week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
+1. Every group of two should pair on filling out the retro issue for the current milestone together within that week:
+   1. This should happen ideally through a sync meeting or alternatively via Slack.
+   1. Focus on the what happened the last two weeks, since the last pairing.
+   1. Pairing should involve taking the time to think through the questions, talking about the answers with your pair and coming up with action items based on the identified problems.
+   1. Expect an overall time commitment of 30 minutes to an hour for the bi-weekly pairing.
+
 ### Workflow
 
 Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
@@ -199,22 +216,22 @@ We orient our planning around the code-cut off as the last day of the milestone
 
 #### Milestone Capacity
 
-Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous two milestones. This is multiplied with the actual working days available to us in a given milestone.
+Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous three milestones. This is multiplied with the actual working days available to us in a given milestone.
 
-**Previous Two Milestones:**
+**Previous Three Milestones:**
 
-- **Total weights completed:** 120 weights
-- **Available work days:** 40 days * 5 engineers = 200 days
-- **Actual work days:** 200 days - 20 days off = 180 days
-- **Average weight per engineer/day:** 120 weights / 180 days = 0,67 weights/day
+- **Total weights completed:** 140 weights
+- **Available work days:** 60 days * 5 engineers = 300 days
+- **Actual work days:** 300 days - 20 days off = 280 days
+- **Average weight per engineer/day:** 140 weights / 280 days = 0,5 weights/day
 
 **Next Milestone:**
 
-- **Available work days:** 21 days * 5 engineers = 105 days
-- **Actual work days:** 105 days - 10 days off = 95 actual days
-- **Maximum capacity:** 95 days * 0,67 weights/day = 64 weights
+- **Available work days:** 20 days * 5 engineers = 100 days
+- **Actual work days:** 100 days - 10 days off = 90 actual days
+- **Maximum capacity:** 90 days * 0,5 weights/day = 45 weights
 
-In this example, the next milestone's capacity is 64 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
+In this example, the next milestone's capacity is 0,5 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
 
 #### Milestone Commitment
 
@@ -230,12 +247,13 @@ We may also use due dates as a way to timebox our iterations. Instead of spendin
 
 We estimate issues async and aim to provide an initial estimate (weight) for all issues scheduled for an upcoming milestone.
 
-We require a minimum of two estimations for weighing an issue. We consider reacting with a ➕ emoji to the estimation as agreeing with it (and thus contributing to the minimal count of estimations).
+We require a minimum of two estimations for weighing an issue. Exceptions can be made for issues that come up during the milestone or if only a single engineer with the required specialty is available. We consider reacting with a ➕ emoji to the estimation as agreeing with it (and thus contributing to the minimal count of estimations).
 If both estimations agree, the engineer who did the second estimation should add the agreed-upon weight to the issue. If there is disagreement, the second engineer should @-mention the first one to resolve the conflict.
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
+Estimating includes adding a "Proposed Solution" to the issue if none is documented yet or the estimation brings up a different one than originally documented.
+Spikes are exempted from this as discovering solutions is their main point and we default spike issues to a weight of 8.
 
-We default spike issues to a weight of 8.
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
 
 If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 
@@ -382,7 +400,8 @@ Note that the budget spend is calculated proportionally by requests failing apde
 
 ## Incidents
 
-The process below outlines the different stages of the incident detection and resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs).
+Within Analytics Instrumentation we have an incident process that's separate to [GitLab's main incident management process](https://docs.gitlab.com/ee/operations/incident_management/slack.html#declare-an-incident), because most incidents that Analytics Instrumentation faces are not customer facing and can be resolved more effectively within the team.
+The process below outlines the different stages of the Analytics Instrumentation incident detection and resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs).
 Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
 
 ### Incident Definition
@@ -463,8 +482,8 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 | Resource                                                                                                                          | Description                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [Internal Analytics Docs](https://docs.gitlab.com/ee/development/internal_analytics/) | Docs for instrumenting internal analytics at GitLab |
-| [Analytics Instrumentation Monitoring and Troubleshooting](./monitoring_troubleshooting.html) | Information around Troubleshooting Analytics Instrumentation infrastructure|
-| [Analytics Instrumentation Infrastructure](./infrastructure.html) | Information about the infrastructure we run |
+| [Analytics Instrumentation Monitoring and Troubleshooting](monitoring_troubleshooting.html) | Information around Troubleshooting Analytics Instrumentation infrastructure|
+| [Analytics Instrumentation Infrastructure](infrastructure.html) | Information about the infrastructure we run |
 | [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)     | An implementation guide for Service Ping      |
 | [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |

@@ -188,16 +188,6 @@ In general, we want to keep as few projects in `security-products` as necessary.
 
 There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
 
-### License approval policy
-
-As of 2024-05-17, Analyzer projects (`gitlab-org/security-products/analyzers`) are subject to a [security policy](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/blob/main/.gitlab/security-policies/policy.yml) that requires approval for merge requests that introduce new licenses. The policy enforces our [company-wide policy](/handbook/legal/product/#using-open-source-software) for open source software.
-
-- Approvers: members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group.
-- Pre-approved licenses: as per the [company-wide policy](/handbook/legal/product/#using-open-source-software).
-- Excluded projects: the list includes test projects, other security policy projects, and any projects that can't have license finding enabled. Members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group can add exceptions as required.
-
-This is a dogfooding experiment that we intend to eventually apply to all Sec projects.
-
 ### Recommended settings
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
@@ -425,7 +415,7 @@ At least once per milestone, Senior Engineering Managers in the section will do 
 
 - In partnership with Product Management, initiatives 6 months or older will be evaluated to determine if they're still relevant.
 - New initiatives will be triaged, checking their requirements for understandability and completeness. Further, the group most impacted will be identified.
-  - In situations where most impacted group is not clear, Senior IC leadership via #sec_staff_plus will be engaged to help discern which group that might be.
+  - In situations where most impacted group is not clear, technical leadership via #sec-section will be engaged to help discern which group that might be.
 - Group most impacted will be declared DRI for that initiative and are expected to:
   - Produce a high-level implementation plan that will scale for the whole problem.
   - Create implementation issues that are broken down by feature category.
@@ -440,6 +430,24 @@ Generated issues will be worked through normal prioritization processes as they 
 Our team monitors [LCP](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp) (Largest Contentful Paint) to ensure performance is below our target (currently 2500ms).
 
 [LCP Dashboard for Secure owned pages](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-testname=gitlab&var-domains=gitlab_com&var-pages=API_Fuzzing_Config_UI&var-pages=DAST_Profiles&var-pages=On_Demand_Scans&var-pages=SAST_Config_UI&var-pages=Secure_Dependency_List&var-pages=Secure_License_Compliance&var-pages=Secure_Security_Configuration&var-pages=DAST_Config_UI&var-browser=chrome&var-function=median&var-connectivity=cable)
+
+## Working with Product Design
+
+To streamline our workflow and ensure efficient collaboration between the Engineering and Product Design teams, we have established the following guidelines for UX involvement in merge request (MR) reviews:
+
+**Merge Request UX Review Requirement:**
+
+- A UX review is required only for work that has been explicitly designed by a Product Designer and should be reviewed by that Product Designer.
+- MRs that do not involve work explicitly designed by a Product Designer can be labeled as `UX Tech Debt` and merged without a UX review.
+
+**Handling High Priority UX Reviews:**
+
+- If a high-priority task arises that requires a UX review but was not planned during the milestone planning process, it should be discussed with the [Product Design Manager for Sec](/handbook/product/categories/#sec-section).
+- To accommodate this unexpected work, another task from the original milestone plan will need to be deprioritized or dropped.
+
+**Exceptions:**
+
+- These new guidelines do not apply to the Authentication, Authorization, and Pipeline Security groups, which will continue to operate under their current processes.
 
 ## Working with Customer Support
 

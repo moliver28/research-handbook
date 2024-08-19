@@ -20,7 +20,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - Axosoft
 - Bugsnag
 - Countersoft
-- [Fog Creek Software](http://www.fogcreek.com/)
 - Inflectra Corporation
 - Redmine
 - [BMC Remedy](http://www.bmc.com/it-solutions/remedy-itsm.html)
@@ -135,14 +134,14 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 ### Binary Repository
 
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
-- [Sonatype Nexus](https://www.sonatype.com/nexus-repository-sonatype)
+- [Sonatype Nexus](https://www.sonatype.com/products/sonatype-nexus-repository)
 
 ### Continuous Delivery/Deployment
 
 - [Spinnaker](https://www.spinnaker.io/)
   - [Armory](https://www.armory.io/)
 - [Go CD](https://www.gocd.org/index.html)
-- [Puppet Pipelines](https://puppet.com/products/puppet-pipelines)
+- [Puppet Pipelines](https://help.puppet.com/cdpe/current/Content/UserGuide/cd_user_guide.htm)
 - [Cloudbees Codeship](https://codeship.com/)
 - [Atlassian Bitbucket](https://bitbucket.org/product)
 - [Electric Cloud ElectricFlow](http://electric-cloud.com/products/electricflow/)
@@ -180,7 +179,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Application Performance Monitoring
 
-- [New Relic](https://newrelic.com/application-monitoring/features)
+- [New Relic](https://newrelic.com/platform/application-monitoring)
 - appdynamics
 - [Splunk](https://www.splunk.com/)
 - [Zabbix](https://www.zabbix.com/)
@@ -234,10 +233,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ## Data Tools
 
-[Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include [cloud native ETL tools](https://www.alooma.com/blog/etl-tools-modern-list), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
+[Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include cloud native ETL tools (link no longer available), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
 
 - [AWS Glue](https://aws.amazon.com/glue/)
-- [Alooma](https://www.alooma.com/blog/etl-tools-modern-list)
 - [Looker](https://looker.com/)
 - Pentaho
 - Tableau

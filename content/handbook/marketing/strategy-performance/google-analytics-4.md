@@ -121,7 +121,7 @@ A “key event” is a conversion metric that measures important events on the w
 
 The Acquisition reports under the Reports pane offers an overview of traffic’s referrer based on the session. Key metrics can be paired with the following dimensions: default channel grouping, source, medium, and campaign.
 
-When UTM parameters are applied to the landing page URL, Google Analytics will sort the traffic based on the UTM parameters or `document.referrer` (if UTMs are not available) into the correlated channel grouping, source, medium, and campaign. Read more about the [UTM strategy here](https://about.gitlab.com/handbook/marketing/utm-strategy/).
+When UTM parameters are applied to the landing page URL, Google Analytics will sort the traffic based on the UTM parameters or `document.referrer` (if UTMs are not available) into the correlated channel grouping, source, medium, and campaign. Read more about the [UTM strategy here](/handbook/marketing/utm-strategy/).
 
 Conversions can be selected from a drop-down menu located in the top left corner of the reporting UI.
 
@@ -156,7 +156,7 @@ Snowplow is a SQL-based web analytics tool and the main tool for analyzing produ
 
 Marketo forms include hidden fields that collect the GA4 client ID on about.gitlab.com, page.gitlab.com, and learn.gitlab.com. Look for the `GACLIENTID__c` field to find it. Marketo will then [feed the client ID to SFDC tables](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/1639), allowing us to analyze web-to-sales assisted subscriptions.
 
-### Dashboards 
+### Dashboards
 
 Tableau is recommended for advanced BI data visualization, particularly when connecting web data to other sources (e.g., linking web visitors to paid subscriptions), leveraging the GA client ID.
 

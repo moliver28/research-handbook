@@ -1,66 +1,20 @@
 ---
-layout: handbook-page-toc
-title: "IT Program Management Office"
+title: "Enterprise Applications - PMO"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## On this page
+## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-{:.no_toc .hidden-md .hidden-lg}
+We are a global team, focused on building and managing world-class information technology systems and business processes. The Enterprise Applications PMO is responsible for portfolio and program management across the EntApps organization. We work closely with the business on both annual and quarterly planning to ensure we understand top business priorities and can plan accordingly. Services include portfolio management, program management, resource management, and project tracking and reporting. To learn more about our individual job functions, visit the Program Management, Business Technology family page.
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-## <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/)
 
-- [Governance and IT Program Management](/handbook/business-technology/pmo/pmo-governance/)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> IT PMO Team
-
-We are a global team of five, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the [Program Management, Business Technology family page](/job-families/finance/program-management-bt/).
-
-**Barbara Roncato - Manager, IT Program Management**
-GitLab handle: [@broncato](https://gitlab.com/broncato)
-Slack handle: `@barbara`
-Location and Timezone: Portugal, WEST/GMT+1
-LinkedIn Profile: [/roncatobarbara](https://www.linkedin.com/in/roncatobarbara/)
-
-**Caroline Swanson - Senior IT Program Manager**
-GitLab handle: [@caroline.swanson](https://gitlab.com/caroline.swanson)
-Slack handle: `@Caroline Swanson`
-Location and Timezone: USA, MDT/MST
-LinkedIn Profile: [/caroline-smoke-swanson-pmp-a869b685](https://www.linkedin.com/in/caroline-smoke-swanson-pmp-a869b685/)
-
-**Kayoko Cooper - Business Systems Analyst**
-GitLab handle: [@kayokocooper](https://gitlab.com/kayokocooper)
-Slack handle: `@Kayoko Cooper` <br>
-Location and Timezone: USA, EDT/EST
-LinkedIn Profile: [/kayoko-cooper-a1063522](https://www.linkedin.com/in/kayoko-cooper-a1063522/)
-
-**Kristina Koceban - Senior Business Systems Analyst**
-GitLab handle: [@kkoceban](https://gitlab.com/kkoceban)
-Slack handle: `@Kristina`
-Location and Timezone: Ireland, WEST/GMT+1
-LinkedIn Profile: [/kristinakoceban](https://www.linkedin.com/in/kristinakoceban/)
-
-**Nico Sandoval - Business Systems Analyst**
-GitLab handle: [@nicosando](https://gitlab.com/nicosando)
-Slack handle: `@Nico Sandoval` <br>
-Location and Timezone: USA, EDT/EST
-LinkedIn Profile: [/nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicolas-sandoval-331900b3/)
-
-## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Mission
-
-The IT Program Management Office (PMO) mission is to provide:
-
-- A standard approach to project delivery across the IT department
-- Full and accurate visibility of IT project status
-- Effective prioritization of project management resources to support all IT initiatives
-
-## <i class="fas fa-tasks" id="biz-tech-icons"></i> What We Do
-
-## IT Portfolio Planning & Prioritization
+## IT Enterprise Applications Portfolio Planning & Prioritization
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-planning.png)
 
@@ -240,7 +194,6 @@ There are several activities that take place to prepare for new OKRs / commits a
 - **Update OKR(s) progress**: The IT PMO works with IT Leadership to update the OKR(s) progress in gitlab.com.
 - **IT PMO & Leadership - Upcoming Quarter Priorities Review**: The IT PMO team reviews the business projects and priorities with IT Leadership to add initiatives to the upcoming commits tracker.
 - **Quarter Commits - Corporate Rank**: The IT Leadership works with the business leaders to rank the initiatives in order of priority for the company.
-
 - **Cross Functional Meeting - Quarter Commits Review**: IT PMO team hosts the `IT Portfolio: Quarter Planning` meetings to review the list of projects and priorities for the upcoming quarter with the Business stakeholders.
 - **IT PMO - Quarter Commits (Adjustments)**: The IT PMO team makes all the necessary adjustments to the upcoming quarter commits following the meeting with the Business stakeholders.
 - **IT Leadership - Quarter Commits (Adjustments)**: The IT Leadership team makes all the necessary adjustments to the upcoming quarter commits following the updates from the Corporate stakeholders.
@@ -375,3 +328,7 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 The IT PMO team primarily uses the below groups and projects on GitLab:
 
 - [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
+
+### (Governance and IT Program Management) [https://handbook.gitlab.com/handbook/business-technology/pmo/pmo-governance/]
+
+Describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value.

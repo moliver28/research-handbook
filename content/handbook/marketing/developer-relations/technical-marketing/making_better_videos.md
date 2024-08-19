@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/developer-relations/technical-marketing/making_better_videos.html
 title: "Making Better Videos"
 ---
 

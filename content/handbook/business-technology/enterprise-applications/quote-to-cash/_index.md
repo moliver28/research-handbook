@@ -72,9 +72,9 @@ description: "Enterprise Applications Quote to Cash Documentation"
 
 ## Entity Relationship Diagrams
 
-- [Zuora Billing](./entity-relationship-diagrams#zuora-billing)
-- [CustomersDot (Customers Portal)](./entity-relationship-diagrams#customersdot-customer-portal)
-- [GitLab](./entity-relationship-diagrams#gitlab)
+- [Zuora Billing](entity-relationship-diagrams#zuora-billing)
+- [CustomersDot (Customers Portal)](entity-relationship-diagrams#customersdot-customer-portal)
+- [GitLab](entity-relationship-diagrams#gitlab)
 
 ### Quote to Cash Systems Field Mapping
 

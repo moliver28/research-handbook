@@ -9,14 +9,24 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Summer 2024 Lineup**
+**Fall 2024 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jul 3 | Leveraging Partners Throughout the Customer Journey | Partner Team  |
-| Jul 11 | Spekit - RealTime Enablement - Tool Launch | Spekit & RSOE Team |
-| Jul 18 | GTM Rev Play: GitLab Duo Enterprise| Marketing |
-| Jul 25 | *No session during the last week of the quarter* | N/A |
+| Aug 1 | **No Session**  | N/A  |
+| Aug 8  | Duo Enterprise Launch Updates & Key Dates | Marketing |
+| Aug 15  | Duo Enterprise Revenue Play & Accreditation | Marketing |
+| Aug 22  | Gartner MQ Overview  | Marketing |
+| Aug 29  | Renewals Manager Overview  |  Renewals Team |
+| Sep 5  | Field Dashboards Overview  | RSOE Team |
+| Sep 12  |  GitLab Click-through Demos & Product Tours    |  SA Team     |
+| Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
+| Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
+| Oct 3  |  FY25-Q3 - Competitive Update | Marketing |
+| Oct 12  | TBD      |       |
+| Oct 17  | TBD     |       |
+| Oct 24 | *No session during the last two weeks of the quarter* | N/A |
+| Oct 31 | *No session during the last two weeks of the quarter* | N/A |
 
 ## Past Sessions
 
@@ -25,6 +35,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
+| 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
 | 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
 | 2024-06-13 | **[Business Value Services & Ecosystems](https://drive.google.com/file/d/1Y1cm7tGc8_-Kx4av4ML2135AhWFpemVX/view?usp=drive_link)**  | Private |
 | 2024-05-30 | **[Partner e-marketplace](https://drive.google.com/file/d/13pJQu_gAIwtFDvvc-Xriq1g4huOZkaOb/view?usp=drive_link)** | Private |
@@ -82,7 +94,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2022-09-29 | **[Collaborating with Community Programs](https://youtu.be/B75IPB5L4yI)**  | Private  |
 | 2022-09-15 | **[FY23 - Q3 Sales Ops Update - Clari Data Analytics & Best Practices](https://youtu.be/tNgYhYQH_N0)** | Private  |
 | 2022-09-08 | **[Basics of Legal Subscription Agreements](https://youtu.be/8cmfmqc6iag)**  | Private  |
-| 2022-09-01 | **[VMware Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
+| 2022-09-01 | **[VMWare Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
 | 2022-08-25 | **[Q3 Rev Program Update](https://youtu.be/nBV-_LrTqKQ)**  | Private  |
 | 2022-08-18  | **[Automated Software Delivery (AutoSD) Integrated Campaign](https://youtu.be/Eq-DdOGkAlk)**  | Private  |
 | 2022-08-11 | **[FY23 - Q3 Channel Update](https://youtu.be/7H4tJptEJ_Y)**  | Private  |
@@ -145,7 +157,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2020-11-05 | **[Co-Selling with Google - Alliance Overview](https://youtu.be/albyLzQNo7U)** | Private |
 | 2020-10-15 | **[Proof Points & Analyst Resources Update](https://youtu.be/B0-Y4SNVfXU)**  | Private      |
 | 2020-10-08 | **[Deal Structure Best Practices](https://youtu.be/t55rDyNd0wE)**             | Private |
-| 2020-10-01 | **[Leveraging the GitLab/VMware Alliance](https://youtu.be/unpgyIR9yH0)**      | Private |
+| 2020-10-01 | **[Leveraging the GitLab/VMWare Alliance](https://youtu.be/unpgyIR9yH0)**      | Private |
 | 2020-09-24 | **[Q3 FY21 Competitive Update](https://youtu.be/fOeLdLwAgOI)**                 | Private |
 | 2020-09-10 | **[Accelerating Your Pipeline with AWS](https://youtu.be/iPDPtOUuNls)**            | Private |
 | 2020-09-03 | **[GitLab Standard ROI Models](https://youtu.be/znCrnpTDRoE)** | Public |

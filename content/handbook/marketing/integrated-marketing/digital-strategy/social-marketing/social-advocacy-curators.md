@@ -13,7 +13,9 @@ Through a [social media advocacy program](/handbook/marketing/integrated-marketi
 
 Curators are selected intentionally by the Social Media team to drive our advocacy content strategy. You are responsible for curating stories to be shared by GitLab team members by adding content to the Bambu platform. Each piece of content added to Bambu should benefit your team or your topic. Please take the training and complete the issue you are assigned to. This will certify you as a curator in this program.
 
-### 🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/HqeGYKkcovs)
+### 🔗 Watch the training here
+
+[Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/HqeGYKkcovs)
 
 ### What can I expect out of the training?
 
@@ -23,7 +25,9 @@ This training is conducted by a Strategic Services Consultant and provides a dem
 
 Following the training, the social media team hosted an AMA so that curators could ask any remaining questions on the platform or the program. Questions and suggestions can still be submitted to the #social-advocacy-curators Slack channel. This channel will also help you stay in touch with the curator program and the latest news. This channel is for team members who are identified as content curators only.
 
-### 🔗 [Watch the AMA here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/tob7weMR-uc)
+### 🔗 Watch the AMA
+
+[Watch the AMA here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/tob7weMR-uc)
 
 </details>
 

@@ -23,7 +23,7 @@ can leverage the list of drivers on this page to find a Solutions Architect you 
 1. Attend the Ride Along through a calendar invitation in the call.
    1. [Introduce yourself in the call](#introducing-yourself).
    1. Assist the driver throughout the customer call by contributing to any Running Notes which should be found in [the Customers & Prospects folder](https://drive.google.com/drive/u/0/search?q=parent:0B-ytP5bMib9Ta25aSi13Q25GY1U).
-1. [Debrief after the call](#debrief-post-call). Use the [Feedback Description](#troops-feedback-template) to populate your Troops Activity upon completion.
+1. [Debrief after the call](#debrief-post-call). Use the [Feedback Description](#rattle-feedback-template) to populate your Troops Activity upon completion.
 
 ##### List of Ride Along Drivers
 
@@ -35,19 +35,18 @@ To become a driver, submit an MR to this page adding yourself to the table below
 |------------------------|------------------------------|
 | **Tim Poffenbarger**   | Americas SMB, Mid-Market     |
 | **Noah Ing**           | Americas SMB, Mid-Market     |
-| **Joe Randazzo**       | Americas SMB, Mid-Market     |
 | **Jeremy Wagner**      | Americas SMB, Mid-Market     |
-| **Madou Coulibaly**    | EMEA SMB, Mid-Market         |
-| **Idir Ouhab Meskine** | EMEA Enterprise              |
-| **Alexander Dess**     | EMEA Enterprise              |
+| **Madou Coulibaly**    | EMEA, Enterprise             |
+| **Alexander Dess**     | EMEA, Enterprise             |
+| **Sujeevan Vijayakumaran** | EMEA, Enterprise         |
+| **Dominique Top**      | EMEA, Enterprise             |
 | **Sameer Kamani**      | PubSec                       |
 | **Linc Williams**      | PubSec USN, USMC,DHA         |
 | **Ben Ridley**         | APAC PubSec                  |
 | **Sophia Manicor**     | Americas SMB, Mid-Market     |
-| **Julie Byrne**        | Americas SMB, Mid-Market     |
 | **Ken McKnight**       | Americas Enterprise West     |
 | **Jefferson Jones**    | Americas SMB, Mid-Market     |
-| **Edmond Chan**.       | Americas Enterprise East.    |
+| **Edmond Chan**        | Americas Enterprise East.    |
 | **__**                 |                              |
 
 ##### Sync before Call
@@ -82,9 +81,9 @@ Passengers debriefing after a customer call should:
 - Provide feedback to the driver on call
 - Mention your shadow experience in #solutions-architects to help promote ride alongs!
 
-##### Troops Feedback Template
+##### Rattle Feedback Template
 
-Record your ride along activity in Troops as a call to **the account** (and not the opportunity) with the [appropriate activity type](/handbook/solutions-architects/processes/activity-capture/activity-desc/). Recording at the account level is required because ride alongs that are inter-segment or inter-region will not have their opportunities available to the riders.
+Record your ride along activity in Rattle as a call to **the account** (and not the opportunity) with the [appropriate activity type](/handbook/solutions-architects/processes/activity-capture/activity-desc/). Recording at the account level is required because ride alongs that are inter-segment or inter-region will not have their opportunities available to the riders.
 The following can be used to guide how you record the description of your
 troops activity.
 

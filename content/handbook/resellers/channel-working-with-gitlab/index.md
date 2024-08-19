@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/resellers/channel-working-with-GitLab
 title: "Channel Partners: Working with GitLab"
 description: "How channel Partners can work with GitLab."
 ---
@@ -151,9 +150,9 @@ To submit a purchase order for a resell-direct opportunity, please submit your P
 Open Partners are required to purchase through a distribution partner in every territory with an active distributor. All quote requests and purchase orders can be sent directly to the distributor.
 
 - In EMEA: Partners transact with Amazic via gitlab@amazic.com.
-- In APAC (several countries): Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html)
+- In Japan: Partners transact with [Networld](https://www.networld.co.jp/product/gitlab/)
+- In APAC (several countries but excluding Japan): Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html)
   - In India: Partners may also choose to transact with Redington via gitlab@redington.co.in.
-  - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/)
 - US PubSec: Partners transact with Carahsoft via gitlab@carahsoft.com
 
 ###### License Key Delivery
@@ -336,7 +335,7 @@ GitLab NFR licenses expire after a 12-month subscription period, unless they are
 
 The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access to our solutions at no cost. The NFR Program provides Partners with an opportunity to develop greater expertise on the GitLab platform. We encourage all GitLab Partners to participate in the program and set up GitLab solutions. Consider using your environment to create integrations with GitLab Alliance Solution Partners. This way your staff can fully understand the benefits and features of GitLab products and be better prepared to demonstrate products to customers.
 
-Request your license by logging in to the [Partner Portal](https://www.partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
+Request your license by logging in to the [Partner Portal](https://partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
 
 - Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR license at the Ultimate level for a 12-month period.
   - Select Partners can request a license for up to 25 users. Additional licenses may be available with business justification.
@@ -388,7 +387,9 @@ as well as our [Channel Partner Technical Presales Enablement](/handbook/reselle
 
 ### Working with GitLab - Distributors
 
-#### [**Transacting Through Distribution**](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution)
+#### Transacting Through Distribution
+
+[**Transacting Through Distribution**](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution)
 
 ##### **Why Does GitLab Leverage Distribution?**
 
@@ -409,7 +410,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
   - Offer an array of financing options including the ability for our partners/customers to transact in local currency, which reduces their risk
 - Extend GitLab technical services, training capacity, and coverage, both pre and post-sale
 
-https://about.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
+https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
 
 ## Contact Us
 

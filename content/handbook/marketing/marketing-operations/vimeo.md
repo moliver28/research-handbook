@@ -11,11 +11,11 @@ Vimeo is a video hosting, sharing, and services platform.
 
 ### Single access
 
-Vimeo is connected to Okta. To request access, [create an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and use the GitLab user group `@gitlab-com/business-technology/team-member-enablement` to provision you. Make sure to include the business case for why you would like access and tag a team member from digital production. Once provisioned to Vimeo, marketing ops can adjust your permission set as neeeded.
+Vimeo is connected to Okta. To request access, [create an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and use the GitLab user group `gitlab-com/gl-security/corp/helpdesk` to provision you. Make sure to include the business case for why you would like access and tag a team member from digital production. Once provisioned to Vimeo, marketing ops can adjust your permission set as needed.
 
 ### Bulk access
 
-If a team is needing access to Vimeo, please open a [bulk access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/business-technology/team-member-enablement` to provision you. Business Ops will create a group in Okta that gets pushed to Vimeo via SSO. Once access is granted, please ping `@MihaiConteanu` to update permissions for each user in the group. The group created in Okta does not sync to the `Manage Team` section in Vimeo - it will show the individual users as part of the group or team and not the team itself. However, this group/team does sync with regards to folder permissions and access. To provide access to a specific folder in Vimeo to an entire team, click on the folder settings in Vimeo and click `Share`. There, you can adjust the permissions for an entire team to your selected folder.
+If a team is needing access to Vimeo, please open a [bulk access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/gl-security/corp/helpdesk` to provision you. Business Ops will create a group in Okta that gets pushed to Vimeo via SSO. Once access is granted, please ping `@MihaiConteanu` to update permissions for each user in the group. The group created in Okta does not sync to the `Manage Team` section in Vimeo - it will show the individual users as part of the group or team and not the team itself. However, this group/team does sync with regards to folder permissions and access. To provide access to a specific folder in Vimeo to an entire team, click on the folder settings in Vimeo and click `Share`. There, you can adjust the permissions for an entire team to your selected folder.
 
 ### User Roles
 
@@ -75,7 +75,7 @@ Only the `Owner` role has the ability to delete videos in Vimeo. As such, we hav
 
 ## Create
 
-[Vimeo Create](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) is Vimeo's new video maker tool. It allows you to easily and quickly create your own video from stock videos, photos, and personal videos. [See the knowledgebase article](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) for a full tutorial.
+[Vimeo Create](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) is Vimeo's new video maker tool. It allows you to easily and quickly create your own video from stock videos, photos, and personal videos. [See the knowledge base article](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) for a full tutorial.
 
 ## Upload
 
@@ -240,7 +240,7 @@ Vimeo supports [simulcasting](https://vimeo.zendesk.com/hc/en-us/articles/360000
 
 ## Interaction tools
 
-[Interaction tools](https://vimeo.zendesk.com/hc/en-us/articles/115007469788-Video-interaction-tools-overview) allow you to engage with your audience at meaningful points within the video, and give them the opportunity to connect to additional external sites or resources.
+[Interaction tools](https://help.vimeo.com/hc/en-us/articles/12426192274961-How-to-add-cards-to-videos) allow you to engage with your audience at meaningful points within the video, and give them the opportunity to connect to additional external sites or resources.
 
 ### Email capture
 
@@ -255,7 +255,7 @@ You can set up the email capture screen to appear before, during, or after your 
 
 **Interaction stats for email capture**
 
-From the stats panel for your video, you can check the number of times the email capture screen has been seen and the number of email addresses submitted for the past 30 days. [Learn more about stats for video interaction tools](https://help.vimeo.com/hc/en-us/articles/115004386887-Videos-page-stats-panel).
+From the stats panel for your video, you can check the number of times the email capture screen has been seen and the number of email addresses submitted for the past 30 days. [Learn more about stats for video interaction tools](https://help.vimeo.com/hc/en-us/articles/12426973464465-Live-analytics-overview).
 
 **Downloading all captured emails as a CSV**
 
@@ -328,7 +328,7 @@ Analytics allow you to access in-depth insights about your videos and your Vimeo
 
 To access video [analytics](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview), hover over `Manage Videos` in the top left navigation menu and click `Analytics`.
 
-[View the knowledgebase article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.
+[View the knowledge base article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.
 
 ## Integrations
 
@@ -346,7 +346,7 @@ If there is an interest to pursue the [Slack integration](https://vimeo.zendesk.
 
 ### Google Tag Manager
 
-The following event actions are sent from the player and are [being tracked via Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/115002859607-Integrating-with-Google-Tag-Manager):
+The following event actions are sent from the player and are [being tracked via Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/22098668654481-Google-Tag-Manager-Integration):
 
 1. load
 1. play
@@ -354,4 +354,4 @@ The following event actions are sent from the player and are [being tracked via 
 1. progress - 50%
 1. progress - 75%
 1. progress - 100%
-1. emailcapture
+1. `emailcapture`

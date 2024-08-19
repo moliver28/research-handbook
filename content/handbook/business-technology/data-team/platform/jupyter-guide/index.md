@@ -11,7 +11,7 @@ See related [repository](https://gitlab.com/gitlab-data/data-science)
 - Full install of JupyterLab with the most useful extensions pre-installed.
 - Common python DS/ML libraries (pandas, scikit-learn, sci-py, etc.)
 - Natively connected to Snowflake using your dbt credentials. No login required!
-- Git functionality: push and pull to Git repos natively within JupyterLab ([requires ssh credentials](https://docs.gitlab.com/ee/ssh/index.html))
+- Git functionality: push and pull to Git repos natively within JupyterLab ([requires ssh credentials](https://docs.gitlab.com/ee/user/ssh.html))
 - Run any python file or notebook on your computer or in a GitLab repo; the files do not have to be in the data-science container.
 - Linting python code using [black](https://pypi.org/project/black/) natively within Jupyter
 - Need a feature you use but don't see? Let us know on [#bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E)!
@@ -121,7 +121,7 @@ By default, rancher will allocate a small percentage of your machine's memory to
     1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
 1. Launch Jupyter. You should now be able to initialize the experiment tracker via the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
 
-**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#step-by-step-instructions)**
 
 ## Updating the Image
 

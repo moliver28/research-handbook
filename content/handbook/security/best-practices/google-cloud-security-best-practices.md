@@ -124,4 +124,4 @@ Also, remember to [clean up](#clean-up) the instance as soon as your test or dem
 
 #### Use HTTPS
 
-To be in line with [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy.html), TLS should also be implemented on public-facing testing resources. For GitLab instances, you can use the [LetsEncrypt integration](https://docs.gitlab.com/omnibus/settings/ssl.html#primary-gitlab-instance). [Let's Encrypt](https://letsencrypt.org/) is enabled by default if `external_url` is set with the HTTPS protocol and no other certificates are configured.
+To be in line with [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy.html), TLS should also be implemented on public-facing testing resources. For GitLab instances, you can use the [LetsEncrypt integration](https://docs.gitlab.com/omnibus/settings/ssl/). [Let's Encrypt](https://letsencrypt.org/) is enabled by default if `external_url` is set with the HTTPS protocol and no other certificates are configured.

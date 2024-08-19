@@ -1,6 +1,5 @@
 ---
 title: Security Policies and Threat Insights planning
-aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
 ---
 
 ## How we do planning
@@ -97,7 +96,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * Open up new issues for 'follow-up' work, or work that was forced out of scope.
 1. Assign a [weight](#weights).
    * If the issue requires both frontend and backend work, it should be split and weighed independently.
-1. Determine if [a feature flag is needed](https://docs.gitlab.com/ee/development/feature_flags/process.html#when-to-use-feature-flags).
+1. Determine if [a feature flag is needed](/handbook/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
    * If you think that we should use the feature flag for a given issue, add ~"feature flag" label
      and add in the description a section called **Feature Flag** with the proposed name.
    * Create a [feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Roll%20Out) issue to track the multiple stages of releasing with a feature flag.

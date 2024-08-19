@@ -24,7 +24,7 @@ Here's what to expect:
 
 During 1:1 coaching, you'll practice the following skills and plan to apply them to current accountability challenges on your team:
 
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/coaching-for-accountability.png)
+![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/coaching-for-accountability.jpg)
 
 ### Participant Requirements
 
@@ -41,7 +41,7 @@ Applications will open from 2024-06-05 through 2024-06-14. Use [this Google Form
 
 _Read testimonials below from managers who have received professional coaching from GitLab._
 
-![written testimonials from managers at gitlab who have recieved professional coaching](/handbook/people-group/learning-and-development/elevate-programs/images/testimonials.png)
+![written testimonials from managers at GitLab who have recieved professional coaching](/handbook/people-group/learning-and-development/elevate-programs/images/testimonials.png)
 
 #### Selection Criteria
 
@@ -64,5 +64,5 @@ If you are not accepted into the FY25 cohort, consider these options for future 
 | 2024-06-14 | Applications Close |
 | 2024-06-21 | Selected participants notified |
 | 2024-07-15 | Coaching Begins |
-| 2024-08-30 | Coaching Ends |
-| 2024-08-02 | Participant feedback collected |
+| 2024-09-30 | Coaching Ends |
+| 2024-09-30 | Participant feedback collected |

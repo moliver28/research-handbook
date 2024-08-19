@@ -15,7 +15,6 @@ Time off buddies are intended to help tackle the following common problems:
 
 1. Reduce burden of taking time off
 1. Provide continuity for customers and reports while out of office
-1. Reduce strain on SGGs when out of office
 1. Help keep each other accountable for taking time off
 1. Help keep each other accountable for not checking in with work during time off
 1. Provide opportunities for focus days

@@ -116,12 +116,12 @@ If using a third party service to outsource or supplement security processes, a 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
 - [Continuous control testing/Annual ISMS internal compliance audits]({{< ref "security-control-lifecycle" >}})
-- [External audits (SOC 2 Type 2, TISAX, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
+- [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
 - [Annual security operational risk assessments]({{< ref "storm-program" >}})
 - [Annual third-party penetration testing]({{< ref "penetration-testing-policy" >}})
 - [Ongoing third party scorecard monitoring (BitSight)]({{< ref "independent_security_assurance#third-party-security-ratings" >}})
-- [Infrastructure Vulnerability scanning]({{< ref "./product-security/vulnerability-management" >}})
-- [Application Vulnerability Scanning]({{< ref "./product-security/application-security/vulnerability-management" >}})
+- [Infrastructure Vulnerability scanning](product-security/vulnerability-management/)
+- [Application Vulnerability Scanning](product-security/application-security/vulnerability-management/)
 - [HackerOne bug bounty program]({{< ref "hackerone-process" >}})
 - [Audit log monitoring]({{< ref "audit-logging-policy" >}})
 - ISMS Council (annual management review)

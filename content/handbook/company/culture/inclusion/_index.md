@@ -10,7 +10,7 @@ description: "Diversity, Inclusion & Belonging is fundamental to the success of 
 
 Diversity, Inclusion & Belonging is fundamental to the success of GitLab.  We include it in every way possible and in all that we do.  We strive for a transparent environment where all globally dispersed voices are heard and welcomed.  We strive for an environment where people can show up as their full selves each day and can contribute to their best ability.  And with over 100,000 organizations utilizing GitLab across the globe, we strive for a team that is representative of our users.
 
-Diversity complements our other [values]({{< ref "values" >}}), specifically Collaboration, Efficiency and Results.
+Diversity complements our other [values](/handbook/values/), specifically Collaboration, Efficiency and Results.
 And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
 
 ## GitLab's Diversity Inclusion and Belonging Mission
@@ -115,7 +115,7 @@ Source: GitLab's People Analytics Team, WorkDay
 ## Values
 
 Inclusive teams are naturally more engaged, collaborative and innovative.
-We aim to align [our values]({{< ref "values" >}}) to be reflective of our company wide commitment to fostering a diverse and inclusive environment.
+We aim to align [our values](/handbook/values/) to be reflective of our company wide commitment to fostering a diverse and inclusive environment.
 
 In addition, the very nature of our company is to facilitate and foster inclusion.
 We believe in asynchronous communication, we allow flexible work hours. GitLab team members are encouraged to work when and where they are most comfortable.
@@ -126,7 +126,7 @@ The GitLab team is fully distributed across the globe, providing our team the op
 We collaborate professionally and connect personally!
 
 Our unique all-remote team opens our door to everyone.
-Candidates are not limited by geography and we [champion this approach]({{< ref "all-remote" >}}), to the extent that it's possible, for all companies!
+Candidates are not limited by geography and we [champion this approach](/handbook/company/culture/all-remote/), to the extent that it's possible, for all companies!
 
 By having no offices and allowing each GitLab team member to work and live where they are most comfortable, GitLab offers a uniquely inclusive culture.
 
@@ -136,27 +136,27 @@ By having no offices and allowing each GitLab team member to work and live where
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
 - All-remote allows movement and relocation to physical settings that contribute to an individual's health (e.g. moving to a location with an improved air quality index).
 
-Learn more about GitLab's [all-remote culture]({{< ref "all-remote" >}}).
+Learn more about GitLab's [all-remote culture](/handbook/company/culture/all-remote/).
 
 ## GitLab team member data
 
-Please see our [identity data]({{< ref "identity-data" >}}).
+Please see our [identity data](/handbook/company/culture/inclusion/identity-data/).
 
 ## What we are doing with Diversity, Inclusion & Belonging
 
-### [Diversity Inclusion & Belonging Roundtables]({{< ref "dib-roundtables" >}})
+### Diversity Inclusion & Belonging Roundtables
 
-A DIB roundtable is a great way to build deeper connections with team members and develop safe spaces to discuss DIB related issues. The DIB roundtable will ask team members to share stories and anecdotes as well as challenge team members to think about how they personally and collectively can positively impact DIB.
+A [DIB roundtable](dib-roundtables.md) is a great way to build deeper connections with team members and develop safe spaces to discuss DIB related issues. The DIB roundtable will ask team members to share stories and anecdotes as well as challenge team members to think about how they personally and collectively can positively impact DIB.
 
-This page outlines the process of [DIB Roundtables]({{< ref "dib-roundtables" >}}). These can be self-organized or organized by the DIB Team.
+This page outlines the process of [DIB Roundtables](dib-roundtables.md). These can be self-organized or organized by the DIB Team.
 
 ### Talent Acquisition initiatives
 
-[This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives]({{< ref "./talent-acquisition-initiatives" >}}).
+[This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives](talent-acquisition-initiatives/).
 
 ### Engineering Initiatives
 
-[This page provides an overview of our Diversity, Inclusion & Belonging Engineering initiatives]({{< ref "./engineering-initiatives" >}})
+[This page provides an overview of our Diversity, Inclusion & Belonging Engineering initiatives](engineering-initiatives/)
 
 ### Sales Initiatives
 
@@ -263,7 +263,7 @@ We have created several TMRGs and welcome interest in creating new ones. Would y
 
 GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere]({{< ref "building-culture" >}}) to thrive in when returning to civilian life.
 
-Our [all-remote culture]({{< ref "all-remote" >}}) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
+Our [all-remote culture](/handbook/company/culture/all-remote/) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
 
 We encourage military veterans and spouses to [read testimonials](/handbook/company/culture/all-remote/people#military-spouses-and-families) from GitLab team members to understand the benefits of all-remote when [joining the workforce](/handbook/company/culture/all-remote/getting-started) following military service. We are committed to our [Military Leave](/handbook/people-policies/leave-of-absence#military-leave) policy.
 

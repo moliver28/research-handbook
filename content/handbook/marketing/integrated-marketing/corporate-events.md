@@ -23,18 +23,18 @@ twitter_creator: gitlab
   * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
   * The primary goal is always driving brand awareness but that cannot be the only result.
 * Owned events
-  * [GitLab Commit](https://about.gitlab.com/events/commit/), our User Conference
+  * [GitLab DevSecOps World Tour](https://about.gitlab.com/events/commit/), our User & Customer Conference
 * Internal events
   * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
   * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
 
 ## Meet the Corporate Events Team and How to Reach Us
 
-* Kate Demarest - Director, Corporate Events - `@kdemarest`
-* Kelley Stowe - Senior Global Events Manager - `@kagarrett`
+* Kate Demarest - Senior Director, Corporate Events - `@kdemarest`
+* Kelley Stowe - Senior Manager, Corporate Events - `@kagarrett`
 * Kelly Walker - Senior Partner Program Manager, Exec Engagement `@kmwalker`
 * Marina Conrad - Senior Corporate Events Manager - `@marinaconrad`
-* Amanda Shen - Corporate Events Manager - `@amandawshen`*
+* Amanda Shen - Corporate Events Manager - `@amandawshen`
 * Suli King - Corporate Events Content Manager -`@sstuelp`
 * Lauren Roberts - Corporate Events Coordinator - `@lroberts`
 
@@ -121,34 +121,33 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 * Thought Leadership and Education
 * Corporate Events Team OKRs are algined quarterly to the Integrated Marketing (therefore the CMO) OKRs.
 
+## Creating Content for Owned & Internal Coporate Events
+
+### Content Process
+
+#### Corporate Events Owned & Internal Content DRI's
+
+* Overall Content DRI: Senior Management in Product Marketing or otherwise assigned by senior management, will vary based on event
+* Corporate Events Content Manager DRI: Suli King `@sstuelp`
+  * Ensures that the content workstream team is on track to create, review, and finalize content for owned & internal events.
+* Brand Compliance DRI: Adam Mittner or otherwise assigned by Adam Mittner `@amittner`
+
+Content DRI’s will be in charge of creating their presentations based off of the template guidelines for any of the sessions. Presentations will be built in Google Slides. Once the presentation is final it will then be converted to either Keynote or PPT.
+
+1. The Corporate Events Content Manager will provide a Google Slides template specific to the content DRI’s session.
+2. The content DRI will create their content using the template that was provided to them. 
+3. The content DRI will provide a draft of the presentation to the overall track DRI to review and provide feedback.
+4. The content DRI will make any suggested changes to the presentation and then provide the presentation to the track DRI to review. Steps 3 & 4 will repeat until the track DRI approves of the presentation. 
+    * If the content DRI is not the same as the presenter then at this point the main presenter will review the content - this will be the case for any E-Group presenters. The content DRI will address any feedback that the main presenter has. 
+5. The presentation will then go into the review process and you will lose editing access to the presentation. You will still have commenting privileges. After each point in the review process (brand, copy editing, legal), you will gain editing access back if necessary. 
+6. The presentation will then go to the Brand Team or designated agency for clean up & review. 
+    * **Note:** Brand will not be doing major design work for these presentations. They should come for review as a final presentation that will only need to be cleaned up in terms of brand consistency and messaging. 
+7. Next, the Corporate Events Content Manager will [create a content marketing issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/new?issuable_template=editing-request) for presentations to be reviewed from a copy editing standpoint and the content DRI will address any feedback that they have. 
+8. **If needed**, based on the [materials legal review process in the handbook](/handbook/legal/materials-legal-review-process/), the presentation will then go to legal review. The content DRI will address any feedback that legal has.
+9. If the presentation does not need legal review, it will then go to the overall content DRI/speaker and track DRI for a final review before the presentation is deemed final.
+10. Once the presentation is deemed final, it will be converted to either Keynote or PPT for event execution.
+
 ## Third Party Sponsored Events
-
-### Third party sponsored events speaking session & CFP process
-
-**Corporate Events speaking session & CFP process references:**
-
-* [FY25 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4775)
-* [FY25 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/)
-* [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
-* [Developer Advocate CFP Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-workflow)
-
-### Process
-
-**Goal:** ensure that GitLab's presence is widely recognized at all sponsored events.
-
-#### If our sponsorship **does include** speaking session
-
-If our sponsorship does include a speaking session, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in choosing a session topic into the issue.
-
-Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
-
-#### If our sponsorship **does not include** speaking session
-
-If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event's open CFP.
-
-If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure:25 that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
-
-If the event we are sponsoring is not on the Developer Advocate team's radar to submit the CFP the ECM will start the conversation with the DE team via a comment on the [strategy issue](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/).
 
 ### Tiering of 3rd party conferences
 
@@ -212,9 +211,38 @@ TBD    Speakers - dependent on numbers of CFP accepted
 
 These are estimated numbers that the Corporate Events team uses to account for budget and passes. Numbers may vary based on expected number of attendees at the show and how many days the conference is. We understand there are serveral business use cases where team members can travel and attend these same conferences to meet with partners, customers, and prospects. However, if the staff member is not staffing the booth or there for other purposes, the Corporate Events team is unable to cover the team member's travel and pass.
 
-## Lightning Talks at GitLab Booth for Third party events
+## Speaking at Third Party Events
 
-### DRI's
+### Corporate Events speaking session & CFP process
+
+**Corporate Events speaking session & CFP process references:**
+
+* [FY25 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4775)
+* [FY25 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/)
+* [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
+* [Developer Advocate CFP Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-workflow)
+
+#### Process
+
+**Goal:** ensure that GitLab's presence is widely recognized at all sponsored events.
+
+#### If our sponsorship **does include** speaking session
+
+If our sponsorship does include a speaking session, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in choosing a session topic into the issue.
+
+Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+
+#### If our sponsorship **does not include** speaking session
+
+If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event's open CFP.
+
+If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure:25 that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+
+If the event we are sponsoring is not on the Developer Advocate team's radar to submit the CFP the ECM will start the conversation with the DE team via a comment on the [strategy issue](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/).
+
+### Lightning Talks at GitLab Booth for Third party events
+
+#### Lightning Talk DRI's
 
 * Overall Content DRI: Senior Management in Product Marketing or otherwise assigned by senior management, could be vary based on event
   * Partner Lightning Talk DRI: Kelley Walker `@kmwalker`

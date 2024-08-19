@@ -28,9 +28,9 @@ Our Field SA's also engage proactively with existing GitLab customer to provide 
 
 The [Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/) is a team of [Principal Solutions Architects](/job-families/sales/solutions-architect/#principal-solutions-architect-responsibilities) that support global strategic sales opportunities and customers. This team collaborates with the regional account teams to work together on large engagements that require a higher degree of strategic planning, consulting, executive-level technical leadership, and internal GitLab cross-departmental collaboration.
 
-### Alliance & Channel Solutions Architects
+### Partner Solutions Architects
 
-[Alliance and Channel Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our channel resellers, professional services partners, and strategic alliances partners. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
+[Partner Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our channel resellers, professional services partners, and strategic alliances partners. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
 
 In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Content Marketing or Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence. Some examples are listed below:
 
@@ -53,7 +53,7 @@ Demo Architects are tasks with maintaining public facing demo content (Workshops
 
 - [SA Manager Process](/handbook/solutions-architects/sa-manager/)
 
-The Field and Alliance/Channels SA Management (referred as SA management going forward) around the globe collaborates around unique requirements, identifies improvements in the go-to-market approaches and focussed on prioritises on strategies to address the market's requirements. The SA management is aligned in the interest of technical matters to address exisiting needs raised by customers and priotise on innovative requirements. The SA management will collaborate with product teams to achieve required outcomes.
+The Field and Partner SA Management (referred as SA management going forward) around the globe collaborates around unique requirements, identifies improvements in the go-to-market approaches and focussed on prioritises on strategies to address the market's requirements. The SA management is aligned in the interest of technical matters to address exisiting needs raised by customers and priotise on innovative requirements. The SA management will collaborate with product teams to achieve required outcomes.
 
 ## Trusted Advisors
 

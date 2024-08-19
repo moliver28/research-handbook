@@ -12,13 +12,44 @@ Security Assurance Automation Engineers are a critical dedicated resource that e
 
 ### Intake process
 
-Security Assurance Automation maintains an internal [Security Assurance Automation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-assurance-automation) that is dedicated to the intake of Security Assurance related automation requests. As these requests are received, Security Assurance Automation Engineers triage and prioritize the requests. Once requests have been prioritized, an Epic is opened at the [GitLab Security Assurance Automation](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-assurance-automation-subgroup) sub-group level if appropriate or handled directly in the issue requesting the work. All work related to the automation request is tracked in its associated Epic.
+Security Assurance Automation maintains an internal [Security Assurance Automation Issue Landing project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing) that is dedicated to the intake of Security Assurance related automation requests. As these requests are received, Security Assurance Automation Engineers triage and prioritize the requests. Once requests have been prioritized, an Epic is opened at the [GitLab Security Assurance Automation](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup) sub-group level if appropriate or handled directly in the issue requesting the work. All work related to the automation request is tracked in its associated Epic.
 
 #### Intake process - Control Related Automations
 
 A specific `control_related_automation_request` template exists and should be used for any requests related to automating a component of control testing. These requests will always be promoted to an epic or added to an existing control-specific epic if one already exists. GitLab strives to have a true [Continous Control Monitoring](/handbook/security/security-assurance/#security-compliance-commercial-core-competencies) program in place, and iterating to that state for controls often involves many intermediate steps. For this reason, we aim to gather as many details up front about the MVP solution that we can work on and implement immediately for a control automation. Gaining an idea of "where we're going" enables a forward looking approach and allows us to maintain a healthy backlog of work to push forward and adapt as capabilities/systems shift throughout the company.
 
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-assurance-automation/-/issues/new?issuable_template=new_automation_issue" class="btn bg-primary text-white btn-lg">Open a Security Assurance Automation Request</a>
+<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new" class="btn bg-primary text-white btn-lg">Open a Security Assurance Automation Request</a>
+
+### Labels
+
+The Security Assurance Automation team uses scoped labels to identify the workflow stage of automation requests. These labels also define where the request is coming from and the type of work that is needed to satisfy the request.
+
+- `team::SAA` - This is a catch all label that will be applied to all security assurance automation related issues. Please apply this label, regardless of project, to get the SAA team to review.
+
+#### Stages
+
+- `SAA::In-Progress` - Issues that are currently in progress
+- `SAA::Ready` - Issues that have been triaged and are in the backlog
+- `SAA::Blocked` - Issues that are blocked or stalled
+- `SAA::UAT` - User acceptance testing, these issues will need to be reviewed by the stakeholder
+- `SAA::Vague` - Issues that require additional information before work can proceed.
+
+#### Type
+
+- `SAA-Type::Metrics` - Issues that are metric centric
+- `SAA-Type::Control-Automation` - Issues that are control process automations
+- `SAA-Type::API-Integration` - Issues that require API integration between systems
+- `SAA-Type::Process-Automation` - Issues that are manual processes, that are being upgraded
+- `SAA-Type::Maintenance` - Issues that are related to ongoing structure/maintenance of team processes
+
+#### Source
+
+- `SAA-Source::Risk` - Issues from the Risk team
+- `SAA-Source::Compliance` - Issues from the Compliance team
+- `SAA-Source::Assurance-Automation` - Issues from the Security Assurance Automation team
+- `SAA-Source::Governance` - Issues from the Governance team
+- `SAA-Source::Field-Security` - Issues from the Field Security team
+- `SAA-Source::Ad-Hoc` - Unplanned issues raised for the department that don't fall under a specific team (e.g. leadership asks etc.)
 
 ### SLAs
 

@@ -5,7 +5,7 @@ summary: Collaborate closely with the Brand Design team to elevate our visual br
 
 ## Illustrator
 
-At GitLab, Illustrators collaborate closely with the Brand Design team to elevate our visual brand as we interact with the world, both through product and marketing. This role is essential to developing and maintaining a visual language that aligns with our [values](/handbook/values/) and [brand personality](https://design.gitlab.com/brand-get-started/brand-personality).
+At GitLab, Illustrators collaborate closely with the Brand Design team to elevate our visual brand as we interact with the world, both through product and marketing. This role is essential to developing and maintaining a visual language that aligns with our [values](/handbook/values/) and [brand personality](https://design.gitlab.com/brand-design/marketing-illustrations).
 
 ### Responsibilities
 

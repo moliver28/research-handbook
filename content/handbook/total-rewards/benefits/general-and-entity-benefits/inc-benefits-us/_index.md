@@ -61,10 +61,18 @@ You can log into PlanSource through your Workday profile. There is an integratio
 ## Who To Contact & Claims Escalations
 
 - For a full list of carrier contacts please see the [Benefit Mobile Wallet Card](https://mymobilewalletcard.com/gitlab/)
-- For benefit inquiries and assistance with any claims escalations: WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com`
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For support with the PlanSource system: `total-rewards@ gitlab.com`
 - For questions regarding internal policies, etc. 401(k), : `total-rewards@ gitlab.com`
+
+## ID Cards
+
+Cigna has moved from Physical to Digital ID cards. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
+Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
+
+Cigna: Digital ID cards are available through the myCigna website or the myCigna mobile app.
+
+Kaiser: Digital ID cards are available through the Kaiser website or the Kaiser mobile app.
 
 ## Enrolling in Benefits
 
@@ -381,7 +389,7 @@ For out-of-network services: 365 days from Date of Service.
 
 <summary> Kaiser Infertility Services</summary>
 
-Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). Please check with the WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com` for more information.
+Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). 
 
 Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2024 Hawaii Health Plan](TBD ).
 
@@ -571,7 +579,7 @@ The company offers a 401(k)  plan in which you may make voluntary pre-tax contri
 
 <details markdown="1">
 
-<summary>Administration of the 401(k) Match:</summary>
+<summary>Administration of 401(k) and Enrollment</summary>
 
 1. You are eligible to participate in GitLab's 401(k) as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
 1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](401k.com) who is GitLab's plan recordkeeper.
@@ -602,6 +610,38 @@ All employer contributions are pre-tax contributions. Team members can still mak
 - For team members who defer more than 6% on each check date, an annual true-up will be conducted after calendar year end.
 - The 401(k) match runs calendar year.
 
+### 401(k) Plan Features
+
+<details markdown="1">
+
+<summary>401(k) After-Tax Contributions with Automatic In-Plan Roth Conversion</summary>
+
+Effective 2024-08-01, Team Members can elect to make after-tax contributions to their 401(k) with automatic Roth in-plan conversions. Follow [these instructions](https://drive.google.com/file/d/16Xpn4FiuX0EcCOkegSG5KwYi8IQhr3--/view?usp=sharing) to make these elections and set up conversions. Note that team members must call Fidelity in order to request and set up automatic conversions. See the [considerations and benefits](https://drive.google.com/file/d/1AO61oKXd1zUlZpNTEEpM3ut0XfTZponI/view?usp=sharing) of enabling automatic conversions.
+
+Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details. 
+
+Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
+
+Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions. 
+Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features. 
+
+</details>
+
+<details markdown="1">
+
+<summary>401(k) In-Plan Roth Conversion (pre-tax source)</summary>
+
+You may now convert money from your pre-tax source, to the Roth source, all within the 401(k) Plan.
+
+- Please consult with your tax advisor as any amount converted will be taxable in the year it is moved to the Roth source.
+- Fidelity is available at 800-835-5097 to assist you with processing changes or answer any questions you may have.
+
+*Questions on the 401(k) Loan or In-Plan Roth Conversion?*
+
+- To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
+- *If you'd like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
+- If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).
+
 </details>
 
 <details markdown="1">
@@ -623,23 +663,6 @@ You may now take a loan from your GitLab 401(k) Plan.
 - You can request up to 50% of your vested account balance, or $50,000, whichever is less.
 - An interest rate of Prime + 1% will apply and will be paid to yourself. It's important to note that loans are repaid with after-tax dollars, meaning you will be "double taxed" on this money – once now, and again at retirement.
 - Fidelity is available at 800-835-5097 to assist with any additional questions you may have.
-
-</details>
-
-<details markdown="1">
-
-<summary>401(k) In-Plan Roth Conversion</summary>
-
-You may now convert money from your pre-tax source, to the Roth source, all within the 401(k) Plan.
-
-- Please consult with your tax advisor as any amount converted will be taxable in the year it is moved to the Roth source.
-- Fidelity is available at 800-835-5097 to assist you with processing changes or answer any questions you may have.
-
-*Questions on the 401(k) Loan or In-Plan Roth Conversion?*
-
-- To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
-- *If you'd like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
-- If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).
 
 </details>
 

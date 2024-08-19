@@ -56,3 +56,4 @@ In the context of this working group:
 | Member                 | [Kai Armstrong](@phikai)         | Principal Product Manager, ~"group::code review"      |
 | Member                 | [Hordur Freyr Yngvason](@hordur) | Senior Backend Engineer, ~"group::pipeline execution" |
 | Member                 | [Vasilii Iakliushin](@vyaklushin)| Staff Backend Engineer, ~"group::source code"         |
+| Member                 | [Furkan Ayhan](@furkanayhan)     | Senior Backend Engineer, ~"group::pipeline authoring" |

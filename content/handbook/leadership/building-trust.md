@@ -209,7 +209,7 @@ Below are potential team day activities:
 
 ## Learning Speaker Series - Building Trust with Remote Teams
 
-On 2020-11-19, the L&D team launched our first [learning speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) on Building Trust with Remote Teams. We hosted [Dr. Jeb Hurley](https://onehabit.blog/building-trust-remote-teams/), CEO and Co-Founder of [Xmetryx](https://www.xmetryx.com/) to discuss how strategies and tips on how to build trust in a remote setting. The discussion was a [fireside chat](https://docs.google.com/document/d/17ziw6q-nioyzYGnnIa9LM1G3I4DwYfb2UxwN9XceFxg/edit) format where Dr. Hurley shared what remote team members can do to meaure trust on their teams.
+On 2020-11-19, the L&D team launched our first [learning speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) on Building Trust with Remote Teams. We hosted [Dr. Jeb Hurley](https://medium.com/@jebhurley/building-trust-on-remote-teams-99b937cbd5d0), CEO and Co-Founder of [Xmetryx](https://www.xmetryx.com/) to discuss how strategies and tips on how to build trust in a remote setting. The discussion was a [fireside chat](https://docs.google.com/document/d/17ziw6q-nioyzYGnnIa9LM1G3I4DwYfb2UxwN9XceFxg/edit) format where Dr. Hurley shared what remote team members can do to meaure trust on their teams.
 
 {{< youtube "hHMDY77upAE" >}}
 

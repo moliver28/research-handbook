@@ -1,7 +1,5 @@
 ---
 title: "Developer Advocacy CFPs"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/cfps/index.html
 ---
 
 ## CFP Resources

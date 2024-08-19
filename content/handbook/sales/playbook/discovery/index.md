@@ -5,7 +5,7 @@ description: "Effective discovery is critical to thoroughly understanding custom
 
 ## Overview
 
-Effective discovery is critical to thoroughly understanding customer needs and establishes the foundation for being able to effectively articulate GitLab's value and differentiation in a compelling, customer-centric way. Effective discovery will help you attach to your customers' biggest problems, gain access to higher-level business stakeholders, and serve as a trusted advisor to your customers. This, in turn, will help you build and maintain a healthy and predictable pipeline to meet and exceed your sales goals while helping your customers achieve their business objectives. After reviewing the below information, GitLab field team members are encouraged to take the interactive [Effective Discovery course](https://gitlab.edcast.com/insights/ECL-c0a6e34d-a997-4200-b0d9-65e3305e3761) in GitLab Learn.
+Effective discovery is critical to thoroughly understanding customer needs and establishes the foundation for being able to effectively articulate GitLab's value and differentiation in a compelling, customer-centric way. Effective discovery will help you attach to your customers' biggest problems, gain access to higher-level business stakeholders, and serve as a trusted advisor to your customers. This, in turn, will help you build and maintain a healthy and predictable pipeline, to meet and exceed your sales goals while helping your customers achieve their business objectives. After reviewing the below information, GitLab field team members are encouraged to take the interactive [Effective Discovery course](https://gitlab.edcast.com/insights/ECL-c0a6e34d-a997-4200-b0d9-65e3305e3761) in GitLab Learn.
 
 ![discovery-components-visual](/handbook/sales/playbook/discovery/discovery-components-visual.png)
 
@@ -122,9 +122,9 @@ Commit to [active and effective listening](/handbook/communication/#effective-li
 </figure>
 <!-- blank line -->
 
-#### Master [Command of the Message](/handbook/sales/command-of-the-message)
+#### Master Command of the Message
 
-Command of the Message is a proven, value-based sales messaging methodology from Force Management that allows GitLab sales team members to effectively uncover customer needs and articulate value and differentiation. Leverage the below resources to ensure you are confident in the methodology and the GitLab-tailored sales resources created to help you be successful and delight your customers.
+[Command of the Message](/handbook/sales/command-of-the-message) is a proven, value-based sales messaging methodology from Force Management that allows GitLab sales team members to effectively uncover customer needs and articulate value and differentiation. Leverage the below resources to ensure you are confident in the methodology and the GitLab-tailored sales resources created to help you be successful and delight your customers.
 
 - [Command of the Message Handbook page](/handbook/sales/command-of-the-message)
 - [Command of the Message e-learning module](https://gitlab.edcast.com/insights/ECL-20f0f2ac-0d50-4384-b473-63cc6d3bb48d) (90 minutes) (GitLab internal with protected IP from Force Management)
@@ -201,7 +201,7 @@ Watch the short videos below to learn more about the importance of seeking to un
 
 Sales multi-threading refers to the concept of engaging and developing relationships with multiple stakeholders who are involved in your customer's decision-making process. According to CEB Global, the average B2B deal has 5.8 decision-makers, and that number typically increases along with the size and complexity of the contract. Even if your primary contact has significant authority in the organization, that may be insufficient if the rest of the buying group is not on board with the decision. Therefore, the more connections you have from the buying side, the better your chances of getting a deal closed. To learn more, check out the below articles/blogs and podcast.
 
-- [What is Multi-threading Sales and Why Do You Need to Start Doing It?](https://www.dealsinsight.com/what-is-multi-threading-sales-and-why-do-you-need-to-start-doing-it/)
+- [What is Multi-threading Sales and Why Do You Need to Start Doing It?](https://web.archive.org/web/20221204062800/https://www.dealsinsight.com/what-is-multi-threading-sales-and-why-do-you-need-to-start-doing-it/)
 - [The Tactical Guide to Multi-Threading Sales](https://www.saleshacker.com/multi-threading-sales/)
 
 <!-- blank line -->
@@ -214,7 +214,7 @@ Sales multi-threading refers to the concept of engaging and developing relations
 
 **Overall Discovery**
 
-- [Executing Great Discovery](https://theaudible-readypodcast.sounder.fm/episode/33-executing-great-discovery-w-brian-walsh) podcast (31 minutes)
+- [Executing Great Discovery](https://www.spreaker.com/episode/33-executing-great-discovery-w-brian-walsh--51904801) podcast (31 minutes)
 - [Discovery is a Process](https://youtu.be/7icHj3UdSVw) featuring Matt Petrovick (GitLab Strategic Account Executive) (2.5 minutes)
 - [Matt Petrovick's Favorite Discovery Call](https://youtu.be/3jxBPQxCwEo) (3 minutes)
 - [Matt Petrovick's Most Memorable Discovery Call](https://youtu.be/Zngf1HzNuEo) (2 minutes)
@@ -225,13 +225,13 @@ Sales multi-threading refers to the concept of engaging and developing relations
 
 **Active Listening**
 
-- [Improve Your Active Listening Skills](https://theaudible-readypodcast.sounder.fm/episode/improve-your-active-listening-skills-w-patrick-mc) podcast (15 minutes)
-- [Why Are You Talking?](https://theaudible-readypodcast.sounder.fm/episode/why-are-you-talking) podcast (9 minutes)
+- [Improve Your Active Listening Skills](https://www.spreaker.com/episode/improve-your-active-listening-skills-w-patrick-mcloughlin--51904758) podcast (15 minutes)
+- [Why Are You Talking?](https://www.spreaker.com/episode/why-are-you-talking-w-john-kaplan--51904754) podcast (9 minutes)
 - [Use the Customer's Words and Stop Talking](https://youtu.be/lV_DGNB_bcQ) featuring Peter Davies (GitLab Strategic Account Executive) (0.5 minutes)
 
 **Attaching to the Biggest Problem**
 
-- [How to Enable Reps to Sell Higher](https://theaudible-readypodcast.sounder.fm/episode/decision-process-brian-walsh) podcast (27 minutes)
+- [How to Enable Reps to Sell Higher](https://www.spreaker.com/episode/how-to-enable-reps-to-sell-higher-w-brian-walsh--51904779) podcast (27 minutes)
 
 **Identifying the Negative Consequences of Doing Nothing**
 
@@ -239,5 +239,5 @@ Sales multi-threading refers to the concept of engaging and developing relations
 
 **Multi-Threading**
 
-- [Navigating the Decision Process with Multiple Buyers](https://theaudible-readypodcast.sounder.fm/episode/decision-process) podcast (11.5 minutes)
+- [Navigating the Decision Process with Multiple Buyers](https://www.spreaker.com/episode/navigating-the-decision-process-with-multiple-buyers-w-john-kaplan--51904731) podcast (11.5 minutes)
 - [Multi-threading with Application Security](https://youtu.be/9FTpDK-q11o) featuring Matt Petrovick (GitLab Strategic Account Executive) (1 minute)

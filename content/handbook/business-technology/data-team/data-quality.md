@@ -354,7 +354,7 @@ We [extract BambooHR data](https://gitlab.com/gitlab-data/analytics/tree/master/
 
 ##### Postgres Pipeline
 
-Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master/extract/postgres_pipeline) (which handles data from gitlab.com, customers.gitlab.com, license.gitlab.com, version.gitlab.com) checks for agreement of row counts between the source and destination databases.
+Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master/extract/postgres_pipeline) (which handles data from gitlab.com, customers.gitlab.com, version.gitlab.com) checks for agreement of row counts between the source and destination databases.
 
 ### Transformation Data Quality
 
@@ -368,3 +368,4 @@ We use dbt for all transformations in the warehouse. [We require tests on all ne
 | [Redis/RedisHLL events don't get triggered](https://gitlab.com/gitlab-org/gitlab/-/issues/442875) | Automated GitLab.com Service Ping | GitLab.com customers will underreport values for Redis metrics at the instance level | `2024-02-15` to `2024-03-05` for 7d metrics; `2024-02-15` to `2024-03-26` for 28d metrics |
 | [Missing Service Pings for version <= 12.0](https://gitlab.com/gitlab-org/gitlab/-/issues/443639#note_1887042557) | SM Service Ping | All installations on v12.0 or earlier were not sending Service Pings | `2024-02-12` to `2024-04-28` |
 | [Service Pings not mapped to country Feb 2023 - June 2023](https://gitlab.com/gitlab-data/analytics/-/issues/15980) | SM Service Ping | Service pings from `2023-02-21` to `2023-06-21` have a null `dim_location_country_id` | `2023-02-21` to `2023-06-21` |
+| [Snowplow endpoint certificate expired for six hours](https://gitlab.com/gitlab-org/gitlab/-/issues/470639) | Snowplow | No Snowplow events recorded for six hours | `2024-07-03 23:59:59 - 2024-07-04 05:59:59` |

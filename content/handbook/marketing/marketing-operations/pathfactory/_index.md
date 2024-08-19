@@ -367,9 +367,7 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 - You can add assets and adjust the position of assets to a `[LIVE]` content track.
 - Removing an asset or changing the custom URL slug of an asset in a `[LIVE]` track can disrupt the user experience for the visitor and activate the `#all` track or fallback URL (`about.gitlab.com`) instead of the intended content track. Please ensure that the link to the asset is not being used in any other marketing channels before deleting.
 
-### Prescriptive Buyer Journey Content Tracks
-
-{: #pbj-content-tracks}
+### Prescriptive Buyer Journey Content Tracks {#pbj-content-tracks}
 
 **DRI for track creation: Campaign Managers**
 

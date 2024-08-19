@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/ESG
 title: "ESG"
 description: "Information and processes related to ESG"
 ---
@@ -12,7 +11,10 @@ Environmental, social, and governance (ESG) practices, although newly formalized
 
 In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab's business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
 
-In 2023, we released our inaugural [FY23 ESG Report](/handbook/company/esg/) in the Handbook. The report includes information on our key ESG focus areas, our programs and policies, acheivements to date, metrics and targets, and plans for the future.
+Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets and plans for the future.
+
+- [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/)
+- [FY24 ESG Report](handbook/company/esg/)
 
 ## ESG Request Process
 
@@ -48,7 +50,7 @@ Team members may self organize volunteer events at any point throughout the year
 
 Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG team's help organizing the volunteer activity?"
 
-All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Time Off by Deel.
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
 If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 

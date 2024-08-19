@@ -35,7 +35,7 @@ Run `git pull` [enter] on occasion to make sure you have the most recent changes
 
 ### Static Site Editor Developer Tips
 
-There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/#git-tips).
+There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/#git-tips).
 
 ## Getting Recent Changes From Main
 
@@ -67,7 +67,7 @@ git push origin  0000-branch-name
 
 ### Official GitLab Documentation
 
-Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html) in GitLab.
+Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html) in GitLab.
 
 Here's a great blog post on [resolving merge conflicts from the GitLab UI](https://about.gitlab.com/blog/2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/).
 
@@ -94,5 +94,5 @@ If you're having problems with Git, reach out in the following Slack channels =)
 
 Here are some existing resources from GitLab for Git.
 
-- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
+- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/)
 - [Git Cheat Sheet for Press](/images/press/git-cheat-sheet.pdf)

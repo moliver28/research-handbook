@@ -36,7 +36,7 @@ At the end of August 2018, over 260 team members gathered in Cape Town, South Af
 
 By October 2017, we had 200 team members and 65 guests get together in Greece to enjoy the beautiful islands of Crete and Santorini.
 
-![The GitLab Team in October 2017](/images/summits/2017_greece_team.png)
+![The GitLab Team in October 2017](/images/summits/2017_greece_team.jpg)
 
 <small>When October 2017 came around, the  team grew to 200 GitLab team members!</small>*
 

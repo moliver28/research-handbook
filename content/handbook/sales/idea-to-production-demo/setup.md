@@ -90,7 +90,7 @@ Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/1
   sudo systemctl restart docker
   ```
 
-For troubleshooting these steps refer to the [OpenShift cluster up docs](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md#linux)
+For troubleshooting these steps refer to the [OpenShift cluster up docs](https://docs.openshift.com/container-platform/4.16/installing/installing_platform_agnostic/installing-platform-agnostic.html)
 
 #### Insecure Local Registry on Mac
 
@@ -102,7 +102,7 @@ Once Docker is running, add an insecure registry of `172.30.0.0/16`:
 - Enter `172.30.0.0/16` and press return
 - Click on Apply and Restart
 
-For troubleshooting these steps refer to the [OpenShift cluster up docs](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md#macos-with-docker-for-mac)
+For troubleshooting these steps refer to the [OpenShift cluster up docs](https://docs.openshift.com/container-platform/4.16/installing/installing_platform_agnostic/installing-platform-agnostic.html)
 
 On the Mac you will also need to make sure you have enabled Docker to access enough CPU and RAM resources.
 THis can be done from the Preferences windows, and you need at least 4 CPUs and 10GB of RAM.

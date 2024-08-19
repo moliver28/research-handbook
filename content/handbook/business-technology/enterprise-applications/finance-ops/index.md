@@ -1,61 +1,55 @@
 ---
-title: "Finance Systems"
-description: "Finance Systems Operations"
+title: "Enterprise Applications Team G&A (Finance Systems)"
+description: "The Enterprise Applications, G&A Team implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab.."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-book" id="biz-tech-icons"></i> Finance Systems Charter
+## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-The **Finance Systems Administrator Team** implements and supports specialized applications for the finance team within GitLab.
+The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab’s financial systems to support scalability and compliance. 
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Meet the team
+Our team ensures the availability of these applications through monitoring and alerting. These internal-facing applications include the following applications - NetSuite, Coupa, Zip, Navan Travel & Expense, Adaptive Planning, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
 
-- [Jessica Salcido](/handbook/company/team/#jesssalcido) - Manager, Finance Systems (Q2C Expert)
-- [Wendy Lam](/handbook/company/team/#wlam) - Senior Finance Systems Administrator (P2P and Record to Report Expert)
-- [Brian Wong](/handbook/company/team/#brianmwong) - Finance Systems Administrator, *Certified Zuora Administrator*
+## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Mission
 
-## <i class="fas fa-tasks" id="biz-tech-icons"></i> How We Work within Enterprise Applications
+- To enable end to end business processes within the enterprise applications that seamlessly hand off to each other and ensure it provides a great user experience to our business partners
+- Ensure data integrity between systems  and security of that data
+- Constantly iterate to simplify and ensure processes are efficient and automated as much as possible..
+- Leveraging out of the box best practices as much as possible. We buying and extend applications where we don't see building them as GitLabs core engineering competency
+- IT Audit and Compliance - Ensuring that all customer / business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
 
-- **All work in which requirements need vetting will need to follow the [Enterprise Applications intake process](/handbook/business-technology/enterprise-applications/#intake-request).**
-- Once requirements are cleansed, the Business Systems Analyst team will create issues for system configuration work to be performed by the Finance Systems team.
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-### Service Desk / Services We Support
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
 
-- [Service Desk Board](https://gitlab.com/groups/gitlab-com/-/boards/2802782?scope=all&label_name[]=FinSys%3A%3AService%20Desk) Labels: `~FinSys::Service Desk`
-- Our Service Desk takes care of:
-  - User Access to the Finance Systems we manage through Access Requests and Offboarding issues.
-  - All services outlined [here](/handbook/business-technology/enterprise-applications/#--services-we-support-finance-systems-service-desk): SKU Requests, SKU Retirement, Configuration Changes, Department Change Requests, EntApps System Incident Log, Coupa Sandbox Refresh, NetSuite Sandbox Refresh, Zuora Central Sandbox Refresh.
-- Issues will be assigned a Priority:
-  - `~BT-Priority::1`
-  - `~BT-Priority::2`
-  - `~BT-Priority::3`
-- Issues will be assigned to a [Milestone by Enterprise Applications leadership team](/handbook/business-technology/enterprise-applications/#entapps-milestone-planning). Assignment to a milestone is based on the [issue weight](/handbook/business-technology/enterprise-applications/#issue-weights), priority, and team member capacity.
-- Once issues are assigned to a Finance Systems Administrator and assigned to a Milestone, we track the status of the issue by assigning labels:
-  - **Open:** Pending Priority and Admin assignment. Access Requests will progress to "In Progress" within 72 hours of assignment of the `~FinSys::Service Desk` label.
-  - **`~BT::InProgress`:** Priority and Admin has been assigned and it's actively being worked on.
-  - **Closed or BT::Done External:** Request has been fulfilled entirely or next steps have been agreed to. Sometimes an issue cannot be closed by the FinSys team because there are tasks/requests for other teams (i.e. Access Requests), so in those cases we'll mark it with BT::Done External which indicates all work for the FinSys team has been completed.
-  - If an issue is still Open, and a milestone is pending closure, we may move to the next Milestone during the Milestone Planning process.
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
-### Finance Systems Change Management Procedures
+### System Evaluations & Implementations
 
-Because the Finance Systems team works on in-scope business systems which are subject to compliance requirements, we adhere to the [Business Technology Change Management policy](/handbook/business-technology/change-management/#business-technology-change-management).
+- In collaboration with the PMO team, we directly implement or configure new applications or significant additions to existing applications. By collecting and vetting user requirements and stories, we determine if an application can support the business process to drive further automation and hours saved.
 
-This means that [configuration changes](/handbook/business-technology/enterprise-applications/#entapps-system-configuration-change) made within the systems we own may require approvals, testing in pre-production environments, Peer Review, and/or Post-Implementation Review.
+### Finance Systems Administration
 
-## <i class="far fa-paper-plane" id="biz-tech-icons"></i> Systems We Own
+- The team supports Keeping-the-lights-on (KTLO) of the in-scope financial applications. This includes, user provisioning and offboarding, COA segment additions, financial report builds, release upgrade testing, and daily maintenance to ensure the system works as expected. 
 
-| System            | Function                         |
-|-------------------|----------------------------------|
-| Adaptive Insights | Financial Planning and Budgeting |
-| Avalara           | Tax Engine                       |
-| Coupa             | Procurement and AP               |
-| DocuSign          | Signatures                       |
-| NetSuite          | ERP                              |
-| Stripe            | Payment Processor                |
-| Tipalti           | AP                               |
-| Navan             | Travel Booking                   |
-| Navan Expense     | Expense Management               |
-| Workiva           | Reporting                        |
-| Zuora Billing     | Billing                          |
-| Zuora Revenue     | Revenue Recognition              |
+### Non-Project Operational Enhancements
+
+- A majority of our time is spent supporting and deploying smaller, non-project-sized tasks that will be prioritized into a milestone.These include adding or updating workflows, custom field enhancements, enabling a quick feature, updating expense policies, etc. 
+
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Operate - Intake, Planning and Milestones 
+
+### How do I submit a request to your team?
+
+- **Projects** 
+
+  - For any requests that will span several weeks, have a cross functional impact, and will require a project manager, please reach out to the [PMO team](../business-technology/pmo/) to get the project on the roadmap and prioritized.
+    
+- **Operational Enhancements**
+
+  - As most issues require a change to our system to comply with SOX, it must be documented through a **CM: Configuration Change**  template linked [here](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#). For any new requests, please submit an issue through the template. These issues will be evaluated and assigned to the ~BT:Backlog label [here](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100)
+
+- **Operational Enhancements**
+
+  - Our team works on a 2 week milestone spanning Wednesday - Tuesday. Click [here](https://gitlab.com/groups/gitlab-com/-/milestones?search_title=entapps&state=&sort=) to see a list of our open milestones.
+  - At the end of each milestone, any issues that were not started, or are still in progress will get moved to the new milestone. Additionally, new issues in the [backlog](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100) will be evaluated to determine the resources required and feasibility of starting it in the new milestone. Please note that any KTLO requests and financially impacting requests will take precedence over any requests that are not critical.

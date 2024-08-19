@@ -174,7 +174,7 @@ possibility, but requires additional complexity such as augmenting how we price.
 - SiliconANGLE:[GitLab brings code integration and delivery to rival hosting service GitHub](https://siliconangle.com/blog/2018/03/22/gitlab-brings-cicd-capabilities-github/), Maria Deutscher, 3.22.18
   - "By enabling software teams that use GitHub to handle the process with its platform, GitLab should make development operations considerably smoother for enterprises. In large organizations, different divisions often use different tools for their projects. Having a unified CI/CD tool that works across both GitLab and GitHub code repositories can take some of the complexity out of the equation."
 
-- DZone:[GitLab Opens CI/CD to GitHub Users](https://dzone.com/articles/gitlab-opens-cicd-to-github-users), John Vester, 3.22.18
+- DZone:[GitLab Opens CI/CD to GitHub Users](https://web.archive.org/web/20230327211754/https://dzone.com/articles/gitlab-opens-cicd-to-github-users), John Vester, 3.22.18
   - "When GitLab entered the market, their focus was to build a single application that meets the needs of every aspect of the DevOps lifecycle. As repositories begin to emerge on the GitLab service, those customers began to see the real value of such an application. Now, customers on GitHub/GitHub Enterprise can utilize those same CI/CD features, allowing the ability to standardize a single solution across the entire enterprise."
 
 - TechCrunch:[GitLab adds support for GitHub](https://techcrunch.com/2018/03/22/gitlab-adds-support-for-github/), Frederic Lardinois, 3.22.18

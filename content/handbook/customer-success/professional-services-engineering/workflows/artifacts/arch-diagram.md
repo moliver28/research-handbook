@@ -9,7 +9,7 @@ The following are reference architecture diagrams for various deployment methods
 
 ### AWS
 
-See [High Availability on AWS](https://docs.gitlab.com/ee/university/high-availability/aws/)
+See [High Availability on AWS](https://docs.gitlab.com/ee/install/aws/)
 
 ### GCP
 

@@ -47,7 +47,7 @@ description: "Operations, Procedures, Documentation"
 | IQM | Initial Qualifying Meeting |
 | LATAM | Latin America (includes all of Central & South America) |
 | MQL | Marketo Qualified Lead - an inquiry that has been qualified through systematic means (e.g. through demographic/firmographic/behavior lead scoring) |
-| MVC | [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc) (not Model View Controller) |
+| MVC | [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (not Model View Controller) |
 | NCSA | North, Central, South America (legacy region being phased out) |
 | NORAM | North America |
 | Qualified Lead | A lead a Business Development Rep or Sales Development Rep has qualified, converted to an opportunity and assigned to a Sales Representative (Stage `0-Pending Acceptance`) |
@@ -634,43 +634,43 @@ There are additional validation rules that are presently in effect:
 - A **Parent** OPPORTUNITY *cannot* be another `Add-on` OPPORTUNITY
 - All sales-assisted non-portal `Add-on` OPPORTUNITIES **must** have a parent opportunity.
 
-#### Creating an Upside IACV Opportunity
+#### Creating an Upside ARR Opportunity
 
-An `Upside IACV` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
-The steps to create an `Upside IACV` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
-An `Upside IACV` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
+An `Upside ARR` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
+The steps to create an `Upside ARR` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
+An `Upside ARR` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
 
-This creates a parent-child relationship between the *original* OPPORTUNITY and the `Upside IACV` OPPORTUNITY.
+This creates a parent-child relationship between the *original* OPPORTUNITY and the `Upside ARR` OPPORTUNITY.
 
 1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the `Upside IACV` button.
+1. Click the `Upside ARR` button.
 1. **UPDATE** the OPPORTUNITY Name - see the [Opportunity Naming Convention] guidelines
 1. Define:
-   - Close Date = if no timeframe defined input close date on a rolling 9-months.
-   - Amount = the upside value in addition to the Parent OPPORTUNITY value. If Parent OPPORTUNITY amount is $100,000 and total OPPORTUNITY amount potential is $150,000, then the Upside IACV amount is $50,000
+    - Opportunity Type should always be New Business
+    - The Net ARR value of the Upside ARR opportunity should always be the delta between the Most Likely scenario (Main opportunity) and the best possible case . 
+    - The stage and forecast category will always be lower than the ones in the main opportunity
+    - The close date of both opportunities will be the same
+    - The Upside ARR record does not require Next Steps or Command Plan completion as this will be completed on the main record. 
+    - Once the main opportunity is Closed Won or Closed Lost, the Upside ARR record needs to be closed as Duplicate
 1. Click `Save`
 
-When the PARENT OPPORTUNITY is changed to "Closed Won" or "Closed Lost," please update the stage of the UPSIDE IACV OPPORTUNITY to "Duplicate."
-In order to save this change, you must also enter the PARENT OPPORTUNITY name in the "Duplicate Opportunity" field on the UPSIDE IACV OPPORTUNITY.
-
-Note: Upside IACV opportunities exist for tracking purposes only.
-All final IACV (including any won upside IACV) will be attributed to the PARENT OPPORTUNITY.
+All final ARR (including any won upside ARR) will be attributed to the PARENT OPPORTUNITY.
 
 #### Creating a Professional Services Opportunity
 
 A `Professional Services` OPPORTUNITY will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately.
 To invoice separately a new quote and opportunity must be created.
 
-A full list of professional services can be found [here](/handbook/customer-success/professional-services-engineering/#professional-services-offerings).
+A full list of professional services can be found [here](about.gitlab.com/services/catalog).
 See [Working with Professional Services](/handbook/customer-success/professional-services-engineering/working-with/) for workflow details.
 
 ##### Steps for creating a Professional Services opportunity in SFDC
 
-*Here is [a video](https://drive.google.com/file/d/142csIZyrzIfSJOSJkIAK6d9c1JwTO_Rq/view?usp=sharing) explaining the below process.*
+*Here is [a video](https://gitlab.highspot.com/items/6655fc408e0d8cc5d7a7c166?lfrm=srp.0) explaining the below process.*
 
-1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the "New PS Opportunity" button and fill out the following:
-   - OPPORTUNITY Name = will already be set correctly; do not change
+1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity. 
+1. Click the "Create Services Opportunity" button (in Lightning, this button is on the dropdown list in the top right of the page) and fill out the following:
+   <!-- - OPPORTUNITY Name = will already be set correctly; do not change
    - Type = do not change it will populate from parent OPPORTUNITY
    - Initial Source = do not change it will populate from parent OPPORTUNITY
    - Close Date = if no timeframe defined input close date on a rolling 9-months.
@@ -678,9 +678,11 @@ See [Working with Professional Services](/handbook/customer-success/professional
    - Professional Services Value (ProServe Value) = enter dollar value, which is defined as the total value of all consulting, training, integration, or other professional services as outlined in the Statement of Work.
    - ACV = **do not populate** an automated workflow will fill this information
    - Amount = **do not populate** an automated workflow will fill this information
-   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora.
-   - Verify the `Professional Services` OPPORTUNITY has the *original* OPPORTUNITY in the `Parent Opportunity` field. If this is not a validation rule error will occur while attempting to save the OPPORTUNITY.
-1. Click `Save`
+   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora. -->
+   - Close Date 
+   - Stage
+   - Customer Folder URL (this will be auto-populated by a field **on the account object** that needs to be completed)
+1. Click `Next` and you're done! A child Professional Services opportunity will be created once submitted. Also, all of the scoping issue, estimation spreadsheet and proposal template will be automatically created and cross-linked!
 1. To create a quote, see the [Creating Quotes](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-professional-services) Deal Desk page.
 
 #### How to Share an Opportunity

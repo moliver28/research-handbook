@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/sec/delineate-sec.html
 title: Secure / Govern sub-department delineation
 description: "Definition of what engineering group is responsible for features in the Secure and Govern stages of the GitLab product"
 ---
@@ -82,3 +81,14 @@ This includes all items assigned to Threat Insights under [Page/Function respons
 * Integration points
   * APIs
   * Security report ingestion framework
+
+#### AI Vulnerability Explanation and Vulnerability Resolution
+
+These workflows are owned by Threat Insights as part of [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/) (see above). 
+This includes integration into the monorepo, display in Vulnerability pages, the merge request interface for Vulnerability Resolution, and integration into Duo Chat for Vulnerability Explanation. Threat Insights collaborates with [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/) and [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/) to support integration into areas these teams own. 
+
+Prompts, test data set curation, and verifying quality of responses for Vulnerability Explanation and Vulnerability Resolution are owned by the relevant groups in [Secure](/handbook/engineering/development/sec/secure/) based on the type of vulnerability. These groups communicate and collaborate with [Vulnerability Research](/handbook/engineering/development/sec/secure/vulnerability-research/), [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/) for prompt engineering support, and [Model Validation](/handbook/engineering/development/data-science/ai-powered/model-validation/) for testing at scale, as needed. These features are currently available for [SAST](/handbook/engineering/development/sec/secure/#sast) only.
+
+While prompts are owned by teams in Secure, prompt engineering is an important part of software development at GitLab, the AI-Powered DevSecOps platform. Teams within Govern - including Threat Insights - are expected to onboard and be able to support prompt engineering for these features, and assist as needed with updating the prompts in the monorepo through follow the sun coverage.
+
+Metrics and usage monitoring within the application are owned by Govern: Threat Insights. [Related issue](https://gitlab.com/gitlab-org/gitlab/-/issues/464089). 

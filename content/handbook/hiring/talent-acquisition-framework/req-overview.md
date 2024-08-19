@@ -11,10 +11,10 @@ The communicated Talent Acquisition Process Framework specifically focuses on ap
 
 ## Search Team
 
-- **[Hiring Manager]({{< ref "./hiring-manager" >}}):** The Hiring Manager is the individual who is hiring for the particular REQ. In most situations, the person hired into this REQ will report into this individual.
+- **[Hiring Manager](hiring-manager/):** The Hiring Manager is the individual who is hiring for the particular REQ. In most situations, the person hired into this REQ will report into this individual.
 - **Hiring Team:** The Hiring Team is a group of people the Hiring Manager asks to be involved in the interview process. The Hiring Team will assess candidates for a given req based on what is defined in the [REQ Kick-off Issue](https://gitlab.com//gl-talent-acquisition/req-intake/-/issues) and the [Hiring Repo](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master).
 - **Recruiter:** The Recruiter is the main point of contact for the Hiring Manager, Hiring Team, and all candidates associated with the REQ. The Recruiter will directly source for prospects as well as partner with their Sourcer and Candidate Experience Specialist throught the process. For more information on what role a Recruiter may play, please visit the Recruiter Job Family.
-- **[Candidate Experience Specialist (CES)]({{< ref "./coordinator" >}}):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family](/job-families/people-group/candidate-experience).
+- **[Candidate Experience Specialist (CES)](coordinator/):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family](/job-families/people-group/candidate-experience).
 
 ### **Step 1: Identify hiring need**
 
@@ -124,7 +124,7 @@ If at any time during the interview process a candidate is declined due to compe
 
 #### Team Interview
 
-- Once a screening call is completed and a candidate is still determined as top talent, team interviews will be scheduled. To do this, the recruiter will send an "Email the Team" template called `CES Scheduling Request Form` through Greenhouse to CES* with specific communication on what interview(s) need to be scheduled. The CES team member will then [schedule team interviews]({{< ref "./coordinator#schedule-team-interviews" >}}).
+- Once a screening call is completed and a candidate is still determined as top talent, team interviews will be scheduled. To do this, the recruiter will send an "Email the Team" template called `CES Scheduling Request Form` through Greenhouse to CES* with specific communication on what interview(s) need to be scheduled. The CES team member will then [schedule team interviews](coordinator/#schedule-team-interviews).
 - The number of team interviews and order will vary from opening to opening. An example of what a Team Interview may look like is:
   - Round 1: 50 minute interview with Hiring Manager
   - If applicable, Round 2A: 25 minute interview with a Hiring Team member

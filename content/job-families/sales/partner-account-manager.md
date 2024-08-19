@@ -1,633 +1,246 @@
 ---
-title: "Partner Account Manager"
+title: "Ecosystem Sales Manager"
 ---
 
-A strong partner ecosystem is crucial in the success and growth of  GitLab's business. Partners are a strategic imperative for GitLab's continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. Partner Account Managers are critical in recruiting and building relationships with partners. Partner Account Managers also work with partners to establish and measure goals and performance including pipeline, revenue generation and growing their overall GitLab practice.
-
-## Levels
+A strong partner ecosystem is crucial in the success and growth of  GitLab's business. Partners are a strategic imperative for GitLab's continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. 
 
 | Role | Grade |
 | -- | - |
-| [Associate Partner Account Manager](#associate-partner-account-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Partner Account Manager](#partner-account-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Partner Account Manager](#senior-partner-account-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Staff Partner Account Manager](#staff-partner-account-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Manager, Partner Account Management](#senior-manager-partner-account-management) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Director, Partner Account Management](#director-partner-account-management) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-
-### Associate Partner Account Manager
-
-The Associate Partner Account Manager typically reports to the Director, Partner Account Management.
-
-#### Job Grade
-
-The Associate Partner Account Manager is a [grade 5]({{% ref "compensation-calculator#gitlab-job-grades" %}}).
-
-#### Associate Responsibilities
-
-The Associate Partner Account Manager is responsible for the following with significant guidance and oversight from their manager.
-
-**Partner Planning**
-
-- Evangelize GitLab's value proposition to assigned partners.
-- In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-  - Practice Development
-  - Co-selling
-  - Sourcing GitLab business, and
-  - Developing industry and cloud-based solutions
-- which contribute to GitLab growth and adoption.
-- Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
-
-**Partner Management**
-
-- Manage a portfolio of assigned partners focusing on the following key areas:
-  - Business planning
-  - Executive alignment
-  - Technical alignment
-  - Marketing alignment
-- Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
-- Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
-- Assist in driving the execution of partner programs and initiatives.
-- Manage the day-to-day needs of assigned partners including
-  - Deal Registration Review of sourced opportunities
-  - Reviewing MDF requests
-  - Proper use and assignment of partner incentives
-  - Connecting partners to GitLab resources
-  - Etc.
-- Monitor partner compliance with GitLab Partner Programs and partner agreements.
-
-**Joint Activity**
-
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's GitLab-related practice, revenue (sourcing and co-selling), and solutions.
-- Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
-- Match partner services capabilities to opportunity-specific needs.
-- Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
-- Represent GitLab at partner events.
-
-**Partnering Best Practices**
-
-- Adopt partner-related best practices.
-- Foster a regular meeting cadence between assigned partner & GitLab stakeholders.
-- Ensure effective and timely bi-directional partner communications
-- Stay abreast of competitive products, technologies and industry trends.
-
-**riving Results**
-
-- Drive the growth of GitLab investment within each assigned partner organization from among the following:
-  - Quarterly demand generation programs
-  - Number of certifications
-  - GitLab practice capacity
-  - GitLab-specific solutions
-  - Customer success stories
-- Attain KPI's to ensure that the goals are met.
-- Deliver GitLab pipeline and revenue through and with assigned partners.
-- Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
-- Produce weekly forecasts for assigned partners.
-
-#### Associate Requirements
-
-**Partner Sales and Services**
-
-- Experience supporting multiple partner types including systems integrators (SIs), consulting organizations, resellers, and/or distributors
-- Experience delivering results using an influenced revenue or indirect sales model through partners
-- Understanding of different partner models
-
-**Partner Management**
-
-- Basic experience in partner management preferably in software or SaaS solutions.
-- Knowledge and/or experience with different partner GTM and organizational models.
-- Understanding of offer creation, marketing, lead generation and professional services organization key performance indicators.
-- Able to function as a trusted advisor by partners and sales leadership
-
-**Industry Knowledge**
-
-- Basic DevOps knowledge and/or experience including security and/or cloud services.
-- Basic experience with B2B indirect sales of high technology solutions.
-- Interest in GitLab, and open source software.
-
-**CREDIT Values**
-
-- Ability to work in a fast-paced environment; must be high energy, motivated and a self starter.
-- Ability to build and maintain positive working relationships while delivering results in a highly complex, matrixed global organization
-- Strong analytical, organizational, and project management skills
-- Effective communicator with good interpersonal skills and an ability to build strong relationships with partners and GitLab teams.
-- Willingness to deepen technical and domain knowledge
-- Results driven
-- Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
-
-#### Associate Performance Indicators
-
-- % Revenue Partner Source
-- % Revenue Partner Cosell/Influence
-- Size of Partner Practices - skilled, certified consultants and deliver resources
-
-### Partner Account Manager (Intermediate)
-
-The Partner Account Manager (Intermediate) typically reports to the Director, Partner Account Management
-
-#### Job Grade
-
-The Partner Account Manager (Intermediate) is a [grade 6]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
-
-#### Intermediate Responsibilities
-
-The Partner Account Manager (Intermediate)  is responsible for the following with some guidance and oversight from their manager.
-
-##### Partner Planning
-
-- Evangelize GitLab's value proposition to assigned partners.
-- In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-  - Practice Development
-  - Co-selling
-  - Sourcing GitLab business, and
-  - Developing industry and cloud-based solutions
-- which contribute to GitLab growth and adoption.
-- Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
-
-**Partner Management**
-
-- Manage a portfolio of assigned partners focusing on the following key areas:
-  - Business planning
-  - Executive alignment
-  - Technical alignment
-  - Marketing alignment
-- Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
-- Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
-- Assist in driving the execution of partner programs and initiatives.
-- Manage the day-to-day needs of assigned partners including
-  - Deal Registration Review of sourced opportunities
-  - Reviewing MDF requests
-  - Proper use and assignment of partner incentives
-  - Connecting partners to GitLab resources
-  - Etc.
-- Monitor partner compliance with GitLab Partner Programs and partner agreements.
-
-**Joint Activity&&
-
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's GitLab-related practice, revenue (sourcing and co-selling), and solutions.
-- Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
-- Match partner services capabilities to opportunity-specific needs.
-- Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
-- Represent GitLab at partner events.
-
-**Partnering Best Practices**
-
-- Adopt partner-related best practices.
-- Foster a regular meeting cadence between assigned partner & GitLab stakeholders.
-- Ensure effective and timely bi-directional partner communications
-- Stay abreast of competitive products, technologies and industry trends.
-
-**Driving Results**
-
-- Drive the growth of GitLab investment within each assigned partner organization from among the following:
-  - Quarterly demand generation programs
-  - Number of certifications
-  - GitLab practice capacity
-  - GitLab-specific solutions
-  - Customer success stories
-- Attain KPI's to ensure that the goals are met.
-- Deliver GitLab pipeline and revenue through and with assigned partners.
-- Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
-- Produce weekly forecasts for assigned partners.
-
-#### Intermediate Requirements
-
-**Partner Sales and Services**
-
-- Experience supporting multiple partner types including systems integrators (SIs), consulting organizations, resellers, and/or distributors
-- Experience delivering results using an influenced revenue or indirect sales model through partners
-- Understanding of different partner models
-
-**Partner Management**
-
-- Experience in partner management preferably in software or SaaS solutions.
-- Knowledge and/or experience with different partner GTM and organizational models
-- Understanding of offer creation, marketing, lead generation and professional services organization key performance indicators
-- Able to function as a trusted advisor by partners and sales leadership
-
-**Industry Knowledge**
-
-- DevOps knowledge and/or experience including security and/or cloud services.
-- Basic experience with B2B indirect sales of high technology solutions.
-- Interest in GitLab, and open source software.
-
-**CREDIT Values**
-
-- Ability to work in a fast-paced environment; must be high energy, motivated and a self starter.
-- Ability to build and maintain positive working relationships while delivering results in a highly complex, matrixed global organization
-- Strong analytical, organizational, and project management skills
-- Effective communicator with good interpersonal skills and an ability to build strong relationships with partners and GitLab teams.
-- Willingness to deepen technical and domain knowledge
-- Results driven
-- Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
-
-#### Intermediate Performance Indicators
-
-- % Revenue Partner Source
-- % Revenue Partner Cosell/Influence
-- Development of Partner Practices - skilled, certified consultants and deliver resources
-
-### Senior Partner Account Manager
-
-The Senior Partner Account Manager typically reports to the Director, Partner Account Management
-
-#### Job Grade
-
-The Senior Partner Account Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
-
-#### Senior Responsibilities
-
-The Senior Partner Account Manager is responsible for the following with little to no guidance and oversight from their manager.
-
-**Partner Planning**
-
-- Evangelize GitLab's value proposition to assigned partners.
-- In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-  - Practice Development
-  - Co-selling
-  - Sourcing GitLab business, and
-  - Developing industry and cloud-based solutions
-- which contribute to GitLab growth and adoption.
-- Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
-
-**Partner Management**
-
-- Manage a portfolio of assigned partners focusing on the following key areas:
-  - Business planning
-  - Executive alignment
-  - Technical alignment
-  - Marketing alignment
-- Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
-- Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
-- Assist in driving the execution of partner programs and initiatives.
-- Manage the day-to-day needs of assigned partners including:
-  - Deal Registration Review of sourced opportunities
-  - Reviewing MDF requests
-  - Proper use and assignment of partner incentives
-  - Connecting partners to GitLab resources
-  - Etc.
-- Monitor partner compliance with GitLab Partner Programs and partner agreements.
-
-**Joint Activity**
-
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's - - - GitLab-related practice, revenue (sourcing and co-selling), and solutions.
-- Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
-- Match partner services capabilities to opportunity-specific needs.
-- Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
-Represent GitLab at partner events.
-
-**Partnering Best Practices**
-
-- Adopt partner-related best practices.
-- Foster a regular meeting cadence between assigned partner & GitLab stakeholders.
-- Ensure effective and timely bi-directional partner communications
-- Stay abreast of competitive products, technologies and industry trends.
-
-**Driving Results**
-
-- Drive the growth of GitLab investment within each assigned partner organization from among the following:
-  - Quarterly demand generation programs
-  - Number of certifications
-  - GitLab practice capacity
-  - GitLab-specific solutions
-  - Customer success stories
-- Attain KPI's to ensure that the goals are met.
-- Deliver GitLab pipeline and revenue through and with assigned partners.
-- Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
-- Produce weekly forecasts for assigned partners.
-
-#### Senior Requirements
-
-**Partner Sales and Services**
-
-- Experience supporting multiple partner types including systems integrators (SIs), consulting organizations, resellers, and/or distributors
-- Experience delivering results using an influenced revenue or indirect sales model through partners
-- Understanding of different partner models
-
-**Partner Management**
-
-- Basic experience in partner management preferably in software or SaaS solutions.
-- Knowledge and/or experience with different partner GTM and organizational models
-- Understanding of offer creation, marketing, lead generation and professional services organization key performance indicators
-- Able to function as a trusted advisor by partners and sales leadership
-
-**Industry Knowledge**
-
-- Basic DevOps knowledge and/or experience including security and/or cloud services.
-- Basic experience with B2B indirect sales of high technology solutions.
-- Interest in GitLab, and open source software.
-
-**CREDIT Values**
-
-- Ability to work in a fast-paced environment; must be high energy, motivated and a self starter.
-- Ability to build and maintain positive working relationships while delivering results in a highly complex, matrixed global organization
-- Strong analytical, organizational, and project management skills
-- Effective communicator with good interpersonal skills and an ability to build strong relationships with partners and GitLab teams.
-- Willingness to deepen technical and domain knowledge
-- Results driven
-- Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
-
-#### Senior Performance Indicators
-
-- % Revenue Partner Source
-- % Revenue Partner Cosell/Influence
-- Size of Partner Practices - skilled, certified consultants and deliver resources
-
-### Staff Partner Account Manager
-
-The Staff Partner Account Manager reports to either tje Director, Partner Territory Management or the Director, Partner Account Management.
-
-#### Job Grade
-
-The Staff Partner Account Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
-
-#### Staff Responsibilities
-
-The Staff Partner Account Manager is responsible for the following with minimal guidance and oversight from their manager.
-
-**Partner Planning**
-
-- Evangelize GitLab's value proposition to assigned partners.
-- In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-  - Practice Development
-  - Co-selling
-  - Sourcing GitLab business, and
-  - Developing industry and cloud-based solutions
-- which contribute to GitLab growth and adoption.
-- Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
-
-**Partner Management**
-
-- Manage a portfolio of assigned partners focusing on the following key areas:
-  - Business planning
-  - Executive alignment
-  - Technical alignment
-  - Marketing alignment
-- Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
-- Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
-- Assist in driving the execution of partner programs and initiatives.
-- Manage the day-to-day needs of assigned partners including:
-  - Deal Registration Review of sourced opportunities
-  - Reviewing MDF requests
-  - Proper use and assignment of partner incentives
-  - Connecting partners to GitLab resources
-  - Etc.
-- Monitor partner compliance with GitLab Partner Programs and partner agreements.
-
-**Joint Activity**
-
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's GitLab-related practice, revenue (sourcing and co-selling), and solutions.
-- Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
-- Match partner services capabilities to opportunity-specific needs.
-- Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
-- Represent GitLab at partner events.
-
-**Partnering Best Practices**
-
-- Adopt partner-related best practices.
-- Foster a regular meeting cadence between assigned partner & GitLab stakeholders.
-- Ensure effective and timely bi-directional partner communications.
-- Stay abreast of competitive products, technologies and industry trends.
-
-**Driving Results**
-
-- Drive the growth of GitLab investment within each assigned partner organization from among the following:
-  - Quarterly demand generation programs
-  - Number of certifications
-  - GitLab practice capacity
-  - GitLab-specific solutions
-  - Customer success stories
-- Attain KPI's to ensure that the goals are met.
-- Deliver GitLab pipeline and revenue through and with assigned partners.
-- Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
-- Produce weekly forecasts for assigned partners.
-
-#### Staff Requirements
-
-**Partner Sales and Services**
-
-- Experience supporting multiple partner types including systems integrators (SIs), consulting organizations, resellers, and/or distributors.
-- Experience delivering results using an influenced revenue or indirect sales model through partners.
-- Understanding of different partner models.
-
-**Partner Management**
-
-- Basic experience in partner management preferably in software or SaaS solutions.
-- Knowledge and/or experience with different partner GTM and organizational models.
-- Understanding of offer creation, marketing, lead generation and professional services organization key performance indicators.
-- Able to function as a trusted advisor by partners and sales leadership.
-
-**Industry Knowledge**
-
-- Basic DevOps knowledge and/or experience including security and/or cloud services.
-- Basic experience with B2B indirect sales of high technology solutions.
-- Interest in GitLab, and open source software.
-
-**CREDIT Values**
-
-- Ability to work in a fast-paced environment; must be high energy, motivated and a self starter.
-- Ability to build and maintain positive working relationships while delivering results in a highly complex, matrixed global organization.
-- Strong analytical, organizational, and project management skills.
-- Effective communicator with good interpersonal skills and an ability to build strong relationships with partners and GitLab teams.
-- Willingness to deepen technical and domain knowledge.
-- Results driven.
-- Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
-
-#### Staff Performance Indicators
-
-- % Revenue Partner Source
-- % Revenue Partner Cosell/Influence
-- Development of Partner Practices - skilled, certified consultants and deliver resources
-
-### Senior Manager, Partner Account Management
-
-The Senior Manager, Partner Territory Management typically reports to the Vice President, Partner Sales.
-
-#### Job Grade
-
-The Senior Manager, Partner Account Management is a [grade 9] ({{< ref "compensation-calculator#gitlab-job-grades" >}}).
-
-#### Senior Manager Responsibilities
-
-**Team Management**
-
-- Lead, manage, and motivate an assigned partner team including resource hiring, mentorship and performance management with guidance.
-- Provide strategic leadership and a results-oriented mindset through high engagement, setting a clear vision and willingness to challenge assumptions.
-- Lead by example in partnering with functional leaders in sales, programs, solution architects, product leadership, marketing, legal, customer success, services and operations to ensure customer and partner success.
-- Provide understanding of business dynamics and key drivers and set strategies, tactics, and success metrics.
-- Oversee co-selling to drive GitLab revenue with regional partners and through strategic cloud partner marketplaces.
-- Resolve partner and marketplace deal escalations.
-- Provide VP, Partners with critical business visibility and weekly business status.
-- Participate in and/or present in quarterly business reviews (QBRs).
+| [Associate Ecosystem Sales Manager](#associate-ecosystem-sales-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Ecosystem Sales Manager](#ecosystem-sales-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Ecosystem Sales Manager](#senior-ecosystem-sales-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Ecosystem Sales Manager](#staff-ecosystem-sales-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Ecosystem Sales](#senior-manager-ecosystem-sales) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Director, Ecosystem  Sales](#director-ecosystem-sales) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Director, Ecosystem Sales](#senior-director-ecosystem-sales) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Vice President, Ecosystem Sales](#vice-president-ecosystem-sales) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+
+## Ecosystem Sales Manager (Individual Contributors)
+
+All individual contributors are referred to as “Ecosystem Sales Managers” or “ESM” and share the same primary requirements, responsibilities, and performance indicators.  Scope of role and command of business will fluctuate based on level. 
+
+### Individual Contributor Responsibilities
+
+- Coordinate/facilitate the involvement of GitLab team members, including sales leadership, support, etc. as needed to ensure meeting sales targets and ecosystem sales objectives.
+- Build, maintain, and manage relationships with the Gitlab field sales organization.
+- Proactively engage with GitLab AEs, ASMs and geo leadership.
+- Facilitate territory mapping and identification of new joint opportunities.
+- Resolve route conflicts appropriately.
+- Identify and support regional-specific demand generation/pipeline building activities with strategic partners.
+- Contribute to quarterly business reviews (QBRs) within your assigned territory.
+- Participate in annual planning within the Ecosystem organization.
+- Provide cloud-related weekly forecasts and/or progress reports.
+- Escalate critical business issues to Ecosystem team management.
+- Prepare presentations, territory plans and reports as required.
 - Coordinate and collaborate with Finance, Partner Operations, Sales Operations, and Sales as needed.
-- Execute, manage and deliver GitLab pipeline and revenue tied to partner strategies and initiatives in close alignment with internal and external stakeholders.
-- Maintain partner-driven pipeline and dashboards that help communicate to GitLab leadership the effectiveness of identified programs and investments.
-- Oversee use of Salesforce for partner deal registrations
-- Proactively communicate partner-related value, success, and activities to GitLab regional sales teams and leadership.
 
-**Regional Partnering**
+### Individual Contributor Requirements
 
-- Work closely with GitLab regional sales leadership to inform the partner strategies, programs and best practices.
-- Engage GitLab regional sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of partners.
-- Foster executive relationships regionally of GitLab sales leaders and partner organizations.
-- Evangelize GitLab's value proposition to partner organizations.
-- Provide executive support at regional partner marketing events.
-- Oversee partner-led demand generation, pipeline building activities, and related go-to-market planning within the assigned region.
-- Leverage your extensive, long-standing professional network to maximize relationships with partners.
-- Partners with respective cross functional leaders to facilitate due diligence, fact finding, deal negotiations and final contract development and implementation
-- Ensure partner compliance with Partner programs and agreements.
-
-#### Senior Manager Requirements
-
-**Indirect Sales and Team Management**
-
-- Ability to build, lead and execute global partnering strategy in a cross-functional environment as a people leader.
-- Ability to communicate the strategic direction of GitLab to the global partner team.
-- Success in driving indirect sales with open source solutions via resale, services (RSIs/GSIs), cloud partnerships, and distribution.
-- Understanding of offer creation, marketing, lead generation and professional services organization key performance indicators (KPIs).
-- Solid business development skills.
-- Experience delivering results via influenced revenue via service partners and/or indirect sales via resale or cloud partners.
-- Executive presence to lead and manage a strategic partner business. Be able to present up to sales leadership.
-- Strong executive selling and business development skills
-- Able to lead strategic projects on behalf of GitLab sales leadership to ensure growth.
-
-**Partner Management**
-
-- Experience building, leading and executing strategy within a cross-functional environment.
-- Ability to run a partner management team self sufficiently.
-- Knowledge and/or experience with different partner GTM and organizational models.
-- Proven record of success developing partners strategically and economically.
-- Executive presence to lead and manage the most strategic partners.
-- Experience working with regional and global systems integrators.
-
-**Industry Knowledge**
-
-- Familiarity with relevant industry landscape including trends, thought leadership
-- Knowledge of common industry-specific use cases.
-- Must stay up-to-date on relevant industry trends to provide strategic guidance and to effectively serve as a trusted advisor to their internal and external stakeholders
-- DevOps knowledge and/or experience including security and/or cloud services.
-- Experience with B2B indirect sales of high technology solutions.
+- Experience selling software development tools and/or application lifecycle management solutions via strategic partnerships.
+- Experience selling open source solutions.
+- Experience with B2B sales.
 - Interest in GitLab, and open source software.
+- Effective written and verbal communication skills.
+- Strong interpersonal skills and an ability to remain calm under pressure.
+- Established personal network within the industry.
+- Results oriented perspective.
+- You share our values, and work in accordance with those values.
+- Ability to use GitLab.
+- Experience with Salesforce.
+- Ability to travel up to 50% and comply with the company's travel policy.
 
-**CREDIT Skills**
+## Levels
 
-- Qualities that match with GitLab core values and can inspire others to follow and act.
-- Ability to build and maintain positive working relationships while delivering results in a highly complex, matrixed global organization.
-- Ability to work in a fast-paced environment; must be high energy, motivated and a self starter.
-- Effective communicator with good interpersonal skills and an ability to build strong relationships with partners and GitLab teams.
-- Ability and willingness to share domain knowledge among peers.
-- Continuous learner. Ability and desire to deepen technical and domain knowledge.
-- Comfortable providing feedback to leadership to improve processes and systems.
-- Results driven.
-- Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen
-- Experience with managing remote teams.
-- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
+### Associate Ecosystem Sales Manager
 
-#### Senior Manager Performance Indicators
-
-- % Revenue Partner Source
-- % Revenue Partner Cosell/Influence
-- Development of Partner Practices - skilled, certified consultants and deliver resources
-
-### Director, Partner Account Management
-
-The Director, Partner Account Management reports to the {add the reporting position and link to the job family or heading (if on the same page)}.
+The Associate Ecosystem Sales Manager typically reports to the Director, Ecosystem Sales.
 
 #### Job Grade
 
-The Director, Partner Account Management is a [grade 10] ({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Associate Ecosystem Sales Manager is a [grade 5]({{% ref "compensation-calculator#gitlab-job-grades" %}}).
 
-#### Director Responsibilities
+#### Associate Expectations
 
-**Team Management**
+- *Knowledge*: Fundamental understanding of company products, basic partnership processes, and administrative functions.
+- *Responsibilities*: Supports partner relationship management, conducts basic market research, assists with administrative and logistical tasks.
+- *Interaction*: Primarily internal communication with team members.
+- *Impact*: Internal execution; supporting role for executing ecosystem partner strategies.
 
-- Lead, manage, and motivate an assigned partner team including resource hiring, mentorship and performance management.
-- Provide strategic leadership and a results-oriented mindset through high engagement, setting a clear vision and willingness to challenge assumptions.
-- Lead by example in partnering with functional leaders in sales, programs, solution architects, product leadership, marketing, legal, customer success, services and operations to ensure customer and partner success.
-- Provide understanding of business dynamics and key drivers and set strategies, tactics, and success metrics.
-- Oversee co-selling to drive GitLab revenue with global partners and through strategic cloud partner marketplaces.
-- Resolve partner and marketplace deal escalations.
-- Provide VP, Partners with critical business visibility and weekly business status.
-- Participate in and/or present in quarterly business reviews (QBRs).
+### Ecosystem Sales Manager (Intermediate)
+
+The Ecosystem Sales Manager (Intermediate) typically reports to the Director, Ecosystem Sales
+
+#### Job Grade
+
+The Ecosystem Sales Manager (Intermediate) is a [grade 6]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Intermediate Expectations
+
+- *Knowledge*: Solid understanding of ecosystem partner strategies, market trends, and business operations.
+- *Responsibilities*: Manages key ecosystem partner relationships, develops and executes ecosystem partner plans, coordinates with internal sales, marketing, and product teams.
+- *Interaction*: Significant internal and external communication with partners and stakeholders.
+- *Impact*: Direct influence on the execution and success of ecosystem partner strategies.
+
+### Senior Ecosystem Sales Manager
+
+The Senior Ecosystem Sales Manager typically reports to the Director, Ecosystem Sales
+
+#### Job Grade
+
+The Senior Ecosystem Sales Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Senior Expectations
+
+- *Knowledge*: In-depth understanding of strategic ecosystem partners, industry dynamics, and advanced business operations.
+- *Responsibilities*: Leads major ecosystem partner initiatives, mentors junior team members, develops long-term strategic plans for ecosystem partner growth.
+- *Interaction*: Extensive communication both internally at senior levels and externally with major partners.
+- *Impact*: High, influencing key strategic decisions and ecosystem partner performance.
+
+### Staff Ecosystem Sales Manager
+
+The Staff Ecosystem Sales Manager reports to either the Director, Partner Territory Management or the Director, Ecosystem Sales.
+
+#### Job Grade
+
+The Staff Ecosystem Sales Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Staff Expectations
+
+- *Knowledge*: Expert in strategic ecosystem partner development, market analysis, and industry trends.
+- *Responsibilities*: Leads major ecosystem partner initiatives, mentors junior team members, develops long-term strategic plans for ecosystem partner growth. Involved in setting strategic direction, ensures alignment with overall business objectives.
+- *Interaction*: High-level interaction with senior executives, key partners, and major stakeholders.
+- *Impact*: Significant, shaping the direction and success of ecosystem partner strategies and partnerships.
+
+## Ecosystem Sales Leadership (People Management)
+
+All Ecosystem Sales leaders hare the same primary requirements, responsibilities, and performance indicators.  Scope of role and command of business will fluctuate based on level. 
+
+### Leadership Responsibilities
+
+- Coaches, develops and mentors a high-performing ecosystem sales team.
+- Communicates strategy and makes sound decisions that support the strategy. Cascades important and relevant information to their teams in a timely manner.
+- Provide understanding of business dynamics, key drivers and set strategies, tactics, and success metrics for ecosystem sales within the assigned region, geo or globally.
+- Oversees ecosystem sales pipeline building activities within the assigned region, geo or globally.
+- Facilitate ecosystem sales to drive Gitlab revenue. 
+- Provide the Ecosystem Sales leadership with critical business visibility and weekly business status.
+- Contribute to and support ecosystems sales programs.
+- Take a leadership role in representing ecosystem sales in quarterly business reviews.
+- Engage Gitlab global and regional sales leadership, solutions architects, and marketing teams to ensure awareness and leverage of strategic partnerships.
+- Cultivate ecosystem sales talent
+- Collaborates with Marketing on ecosystem sales-related demand generation activities within the region, geo or globally..
+- Support partner marketing in support of joint marketing activities with strategic partners within the assigned territory.
+- Provide guidance and direction for ecosystem joint go-to-market planning.
 - Coordinate and collaborate with Finance, Partner Operations, Sales Operations, and Sales as needed.
-- Execute, manage and deliver GitLab pipeline and revenue tied to partner strategies and initiatives in close alignment with internal and external stakeholders.
-- Maintain partner-driven pipeline and dashboards that help communicate to GitLab leadership the effectiveness of identified programs and investments.
-- Oversee use of Salesforce for partner deal registrations
-- Proactively communicate partner-related value, success, and activities to GitLab regional sales teams and leadership.
+- Foster executive relationships globally, both internally and within strategic partner organizations.
+- Collaborate with the VP, Ecosystem Sales to define partner strategy, budget, hiring, etc to foster a high performing team and results.
+- Contribute to long term investment planning, design, and execution for strategic partner engagement.
+- Provide input and/or guidance on process automation related to ecosystem sales
+- Ensure ecosystem sale global consistency.
 
-**Global Partner Management**
+### Leadership Requirements
 
-- Work closely with GitLab sales leadership to inform global partner strategies, programs and best practices.
-- Engage GitLab sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of global partners.
-- Foster executive relationships regionally of GitLab sales leaders and global partner organizations.
-- Evangelize GitLab's value proposition globally to partner organizations.
-- Provide executive support at regional and global partner marketing events.
-- Oversee global partner-led demand generation, pipeline building activities, and related go-to-market planning.
-- Leverage your extensive, long-standing professional network to maximize relationships with global partners.
-- Partners with respective cross functional leaders to facilitate due diligence, fact finding, deal negotiations and final contract development and implementation
-- Ensure partner compliance with partner programs and agreements.
+- Demonstrated progressive management experience, with an emphasis on leadership, and engaging global and local stakeholders.
+- Experience building trusted relationships with executive leadership, and driving engagement.
+- Ability to rapidly hire and scale a team of world class professionals.
+- Strong sales experience managing ecosystem sales teams.
+- Experience managing strategic partner relationships.
+- Experience selling in the software development tools and/or application lifecycle management solutions via cloud marketplaces.
+- Ability to work independently in a fast-paced environment; must be high energy, motivated and a self starter
+- Ability to travel up to 50% of the time.
+- Strong communicator in person, virtually, and in writing.
+- Excellent interpersonal skills and an ability to lead alliance sales teams.
+- Strong personal network within the industry.
+- Driven, highly motivated and results oriented.
+- You share our values, and work in accordance with those values.
+- Ability to use GitLab
+- Ability to travel up to 50% and comply with the company's travel policy.
 
-#### Director Requirements
+### Senior Manager, Ecosystem Sales
 
-**Indirect Sales and Team Management**
+The Senior Manager, Ecosystem   Sales typically reports to the Vice President, Ecosystem Sales.
 
-- Ability to build, lead and execute global partnering strategy in a cross-functional environment as a people leader.
-- Ability to communicate the strategic direction of GitLab to the global partner team.
-- Success in driving indirect sales with open source solutions via resale, services (RSIs/GSIs), cloud partnerships, and distribution.
-- Understanding of offer creation, marketing, lead generation and professional services organization key performance indicators (KPIs).
-- Solid business development skills.
-- Experience delivering results via influenced revenue via service partners and/or indirect sales via resale or cloud partners.
-- Executive presence to lead and manage a strategic partner business. Be able to present up to sales leadership.
-- Strong executive selling and business development skills
-- Able to lead strategic projects on behalf of GitLab sales leadership to ensure growth.
+#### Job Grade
 
-**Partner Management**
+The Senior Manager, Ecosystesm Sales is a [grade 9]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
 
-- Experience building, leading and executing strategy within a cross-functional environment.
-- Ability to run a partner management team self sufficiently.
-- Knowledge and/or experience with different partner GTM and organizational models.
-- Proven record of success developing partners strategically and economically.
-- Executive presence to lead and manage the most strategic partners.
-- Experience working with regional and global systems integrators.
+#### Senior Manager Expectations
 
-**Industry Knowledge**
+- *Knowledge*: Expert in strategic ecosystem partner development, market analysis, and industry trends.
+- *Responsibilities*: Oversees a team of Ecosystem Sales Managers for a defined specialty or territory, sets strategic direction, ensures alignment with overall business objectives, and manages a team of managers and analysts.
+- *Interaction*: High-level interaction with senior executives, key partners, and major stakeholders.
+- *Impact*: Significant, shaping the direction and success of ecosystem partner strategies and partnerships.
 
-- Familiarity with relevant industry landscape including trends, thought leadership
-- Knowledge of common industry-specific use cases.
-- Must stay up-to-date on relevant industry trends to provide strategic guidance and to effectively serve as a trusted advisor to their internal and external stakeholders
-- DevOps knowledge and/or experience including security and/or cloud services.
-- Experience with B2B indirect sales of high technology solutions.
-- Interest in GitLab, and open source software.
+### Director, Ecosystem Sales
 
-**CREDIT Skills**
+The Director, Ecosystem Sales typically reports to the Vice President, Ecosystem Sales.
 
-- Qualities that match with GitLab core values and can inspire others to follow and act.
-- Ability to build and maintain positive working relationships while delivering results in a highly complex, matrixed global organization.
-- Ability to work in a fast-paced environment; must be high energy, motivated and a self starter.
-- Effective communicator with good interpersonal skills and an ability to build strong relationships with partners and GitLab teams.
-- Ability and willingness to share domain knowledge among peers.
-- Continuous learner. Ability and desire to deepen technical and domain knowledge.
-- Comfortable providing feedback to leadership to improve processes and systems.
-- Results driven.
-- Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen
-- Experience with managing remote teams.
-- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
+#### Job Grade
 
-#### Director Performance Indicators
+The Director, Ecosystem Sales is a [grade 10]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
 
-- % Revenue Partner Source
-- % Revenue Partner Cosell/Influence
-- Development of Partner Practices - skilled, certified consultants and deliver resources
+#### Director Expectations
+
+- *Knowledge*: Expert in strategic ecosystem partner development, market analysis, and industry trends.
+- *Responsibilities*: Oversees the entire ecosystem partner function for a defined region or territory, sets strategic direction, ensures alignment with overall business objectives, and manages a team of managers and analysts.
+- *Interaction*: High-level interaction with senior executives, key partners, and major stakeholders.
+- *Impact*: Significant, shaping the direction and success of ecosystem partner strategies and partnerships.
+
+### Senior Director, Ecosystem Sales
+
+The Senior Director, Ecosystem  Sales typically reports to the Vice President, Ecosystem Sales.
+
+#### Job Grade
+
+The Senior Director, Ecosystem Sales is a [grade 11]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Senior Director Exepctations
+
+- *Knowledge*: Comprehensive understanding of global ecosystem partner strategies, executive-level business acumen, and deep industry knowledge.
+- *Responsibilities*: Directs the ecosystem partner function at a strategic level across several specialties or functions globally, develops global frameworks, collaborates with VP-level executives to integrate ecosystem partner strategies into overall business plans.
+- *Interaction*: Extensive, including board-level and senior executive interactions, as well as with top-tier partners.
+- *Impact*: Critical, directly influencing company-wide strategic initiatives, revenue goals, and market positioning through effective ecosystem partner and alliance management.
+
+### Vice President, Ecosystem Sales
+
+The Vice President, Ecosystem Sales typically reports to the Chief Revenue Officer.
+
+#### Job Grade
+
+The Vice President, Ecosystem Sales is a [grade 12]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Vice President Exepectations
+
+- *Knowledge*: Comprehensive understanding of global ecosystem partner strategies, executive-level business acumen, and deep industry knowledge across company products and sales avenues.
+- *Responsibilities*: Creates and directs the ecosystem partner function at a strategic level globally, develops global frameworks, collaborates with C-level executives to integrate ecosystem partner strategies into overall business plans. Determines long term vision and direction for the ecosystem partner function; managing the financial plan and resources for the function.
+- *Interaction*: Extensive, including board-level and senior executive interactions, as well as with top-tier partners.  Collaboration internally with key stakeholders to manage resourcing and program needs.
+- *Impact*: Critical, directly influencing company-wide strategic initiatives, revenue goals, and market positioning through effective ecosystem partner and alliance management.
+
+## Specialties
+
+Ecosystem Sales Managers may be assigned one of the following specialties.  If they are not assigned a specialty, they are considered a generalist and are responsible for many types of partners in a region or geography (cloud, solutions and services, etc.).  This is most prevalent in EMEA/APJ where signficant distances and complexities of doing business necessittes managing multiple types of partners.  
+
+### Cloud Partners
+
+The Cloud Partners specialization is responsible for facilitating co-selling between the Gitlab field sales organization and the sales organizations of strategic cloud partners such as AWS or Google Cloud to achieve customer success with GitLab on public clouds.
+
+### Global System Integrators
+
+The Global System Integrators (GSI) specialization is responsible for facilitating collaborative efforts between the GitLab field sales organization and GSIs such as Accenture or Capgemini to advance GitLab sales and customer success.
+
+### Emerging Strategic Partners
+
+The Emerging Strategic Partners specialization is responsible for identifying, nurturing and activating new strategic partnerships in support of customer success with GitLab.
+
+## Performance Indicators
+
+All members of the Ecosystem Sales Team use the same compensation model and the same performance indicators:
+
+- Assigned territory NetARR
+- SMART Managed Business Objectives (will vary by territory / specialty assigned)
 
 ## Career Ladder
 
-Team members in the Partner Account Manager job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Partner Territory Manager or Account Executive.
+Team members in the Ecosystem   Sales job family may progress through the career ladder of Ecosystem  Sales; in some instances team members may move to other specialties in the Ecosystem Sales job family or move to other roles in the Sales organization such as Account Executive.
 
 ## Hiring Process
 

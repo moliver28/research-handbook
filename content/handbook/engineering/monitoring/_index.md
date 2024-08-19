@@ -12,6 +12,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 July | 99.99% |  |
 | 2024 June | 99.99% |  |
 | 2024 May | 100.00% |  |
 | 2024 April | 99.96% | |
@@ -102,7 +103,9 @@ We have 3 prometheus clusters: main prometheus, prometheus-db, and prometheus-ap
 
 [Thanos Query](https://thanos-query.ops.gitlab.net) can be used to query metrics aggregated across Prometheus clusters.
 
-#### [Monitoring Infrastructure](https://dashboards.gitlab.net)
+#### Monitoring Infrastructure
+
+[Monitoring Infrastructure](https://dashboards.gitlab.net)
 
 * Private GitLab account is required to access
 * Highly Available setup
@@ -225,6 +228,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview)
+* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
 * [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
 * [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

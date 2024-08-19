@@ -35,8 +35,8 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
     - If you need to do a PO Change Request (e.g. to add funds in your current PO), please refer to this [video tutorial](https://www.loom.com/share/c932bc6308fd46939766dee333ca8401) from Procurement Team.
     - Vendors can process their invoice in their Coupa Supplier Portal using the PO Flip method. On this [link](https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/coupa-supplier-portal/set-up-the-csp/invoices/create-or-edit-an-invoice) please find **"Create an invoice from a PO"** for the video tutorial.
     - Vendors can also send their invoices to AP@gitlab.com. PO numbers are required to be reflected on the invoice copy or in the email body to avoid delays in processing.
-    - For Non-PO invoices sent by Gitlab DRI, please indicate the department to be charged instead and the Coupa approver.
-    - If the invoice is received without a PO, the AP Team will reach out to the Gitlab DRI and request to create a PO. Once the PO is created, DRI must email the AP Team for the PO number to proceed with processing.
+    - For Non-PO invoices sent by GitLab DRI, please indicate the department to be charged instead and the Coupa approver.
+    - If the invoice is received without a PO, the AP Team will reach out to the GitLab DRI and request to create a PO. Once the PO is created, DRI must email the AP Team for the PO number to proceed with processing.
     - External Supplier Forms are to be final approved by AP Team so that the vendor will be activated in Coupa, to provide our final approval, the vendor must comply with these two important documents so we can properly check the supplier form in our queue.
         - W9 for US vendors and W8 for NON US vendors
         - Bank details in a signed bank letterhead

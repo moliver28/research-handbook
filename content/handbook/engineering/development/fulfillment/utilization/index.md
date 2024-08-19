@@ -425,7 +425,7 @@ e.g. https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/2505559/?query=i
 
 See links in the right sidebar:
 
-![''](./sentry_issue_creator.png)
+![''](sentry_issue_creator.png)
 
 Although both links look the same, the first link is for creating an issue *in the security repo*, the **second should be for the project** (CustomersDot/GitLab) accordingly.
 
@@ -456,7 +456,9 @@ Other boards where previous requests are tracked:
 
 Following a similar process to Milestone Retrospectives, we employ [Iteration Retrospectives](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/82623) on a quarterly basis.
 
-#### [May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
+#### May 2021
+
+[May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
 
 **Key Takeaways**
 

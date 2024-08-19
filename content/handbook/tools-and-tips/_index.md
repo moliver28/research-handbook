@@ -139,63 +139,21 @@ Manual upkeep of the maintainer training issue can be time consuming. There are 
 
 **Note:** When using these tools, avoid adding mentions to maintainers in existing comments. There is a [known issue](https://gitlab.com/gitlab-org/gitlab/-/issues/118779) where users are not notified by email when mentioned in an edited comment. It only generates a TODO which a maintainer may not use.
 
-## handbook Tips
+## Handbook Tips
 
-The [https://handbook.gitlab.com](/_index.html) site lives in the [content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook/)
-repo on GitLab.  The site is mostly a collection of Markdown documents and converted in to HTML by [Hugo](https://gohugo.io/).
-In addition to the handbooks content there is a [theme repo](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab])
-which is shared between the [Handbook](/_index.html) and the [Internal Handbook](https://internal.gitlab.com).
-This holds the [docs](/docs) and shared content for both sites as well shortcodes and other functional [Hugo](https://gohugo.io/)
-for producing the site.
-
-The documentation for the handbook site lives in the [README.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/README.md)
-at the root of the repository or in the [/docs](/docs) section of the Handbook.
-
-### Local development on the handbook
-
-Its easy to start local development of the handbook site.  You just need to clone the [repo](https://gitlab.com/gitlab-com/content-sites/handbook/)
-and either [Install Hugo Extended](https://gohugo.io/installation/) locally or use Docker.  In addition to Hugo you
-may also want to install [Markdownlint CLI](https://github.com/DavidAnson/markdownlint-cli2) as we use this in our pipelines.
-
-If you have Hugo Extended installed then to run the Handbook site locally just do this:
-
-```sh
-git clone https://gitlab.com/gitlab-com/content-sites/handbook.git
-cd handbook
-hugo server
-```
-
-Alternatively using Docker you can do the following:
-
-```sh
-git clone https://gitlab.com/gitlab-com/content-sites/handbook.git
-cd handbook
-docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.111.3-ext-ubuntu-onbuild server
-```
-
-You can then open your web browser to [http://localhost:1313](http://localhost:1313)
+Refer to the [Handbook Development section](https://handbook.gitlab.com/docs/development/) to learn more about the architecture, structure and how to edit the handbook locally on your desktop. For how to edit the handbook in your browser, refer to [the editing handbook page](/handbook/editing-handbook/).
 
 ## www-gitlab-com Tips
 
-The [https://about.gitlab.com](https://about.gitlab.com) site lives in the
-[www-gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/) repo.
+Portions of the [https://about.gitlab.com](https://about.gitlab.com) site lives in the
+[www-gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/) repo. The marketing website is maintained by the [digital experience team](/handbook/marketing/digital-experience/) in their [GitLab group](https://gitlab.com/gitlab-com/marketing/digital-experience).
+
+The `data/*.yml` files live in the `www-gitlab-com` repository, and are used by numerous sites including the marketing website and the handbook.
 
 The documentation for the site itself is in markdown documents under the
-[`doc` folder in the repo](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/doc).
-We have decided, for [various reasons](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/7234#note_371346396), not to include this documentation in the handbook itself.
-
-### Local development on www-gitlab-com
-
-If you are looking to do local development on the site,
+[`doc` folder in the repo](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/doc). If you are looking to do local development on the site,
 [doc/development.md](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/development.md)
 is probably the best place to start.
-
-### Cloud development on www-gitlab-com with gitpod.io
-
-If you don't want to configure your local machine, there is now a new alternative option
-to use gitpod.io for "local" development in a cloud based environment. See
-[doc/gitpod.md](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/gitpod.md)
-for more details.
 
 ## Image and gif tips
 
@@ -255,7 +213,7 @@ convert input.png \( +clone -background black -shadow 80x20+0+15 \) +swap -backg
 If 2FA stops working unexpectedly (no new phone or computer) it's usually because of improperly configured date & time on either device.
 Make sure that "Automatic Date & Time" is **enabled** on both devices.
 If they're already enabled try toggling them off and on again to force an update.
-If this doesn't work, request that ITOps reset your 2FA setting.
+If this doesn't work, request that IT Ops reset your 2FA setting.
 
 Links for finding the settings:
 
@@ -523,12 +481,12 @@ If you experience any such irregularities, please bring it to the attention of t
 
 ## Slack
 
-There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack handbook page]({{< ref "./slack.md" >}}).
+There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack handbook page](slack.md).
 
 ## Zoom
 
 There is a lot of information pertaining to Zoom, as it is a critical part of GitLab's
-communication. See the [Zoom handbook page]({{< ref "./zoom.md" >}}).
+communication. See the [Zoom handbook page](zoom.md).
 
 The [Google Calendar](/handbook/tools-and-tips/#google-calendar) invite is the single source of truth for the Zoom link. Avoid linking the Zoom link in Google Document agendas since those may quickly become out of date. If the zoom link changed around the start of the meeting it is OK to have it in there temporarily.
 
@@ -656,8 +614,9 @@ Please reach out to the People Connect Team in the `#people-connect` Slack chann
 1. Add an agenda or relevant content
 1. Under Add Guests, add `GitLab Team Meetings` in addition to anyone else you want invited (if you want the entire company invited please use everyone@).
 
-   **Note:** This will appear like adding a room, which is expected
-   {: .note}
+   {{% note %}}
+   This will appear like adding a room, which is expected
+   {{% /note %}}
 
    ![Adding GitLab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
 

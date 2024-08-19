@@ -106,10 +106,14 @@ Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-2
 - 202-06-17: Survey launch @ 8am PT
 - 2024-06-28: Survey close @ 5pm PT
 - 2024-07-08: High-level summary shared with People Leadership Team
-- 2024-07-09: High-level summary shared with E-Group
-- 2024-07-18: High-level summary release (company-wide) and followed by handbook updates
-- 2024-07-18 through 2024-07-31: E-group & leadership division-level summary release
-- Q3 - Finalize Division specific action plans 
+- 2024-07-10: High-level summary shared with E-Group
+- 2024-07-15: Vice President, Sr. Director, and Director level reports shared in CultureAmp*
+- 2024-07-16: Sr. Manager and Manager level reports shared in CultreAmp*
+- 2024-07-31: High-level summary release (company-wide) and followed by handbook updates
+- 2024-07-18 through 2024-07-31: Division-level results summary shared by division leaders
+- Q3 - Finalize Division specific action plans
+
+*Only leaders with 5 or more respondents will receive a report in CultreAmp
 
 ### Summit Pulse Surveys Overview
 
@@ -361,7 +365,7 @@ Per CultureAmp's insights related to the Great Resignation, we added questions r
 - Inclusion
 - The 5 overall Engagement factor questions
 
-Culture Amp determines which questions are "focus recommendations" based on: impact on overall, favorable score, comparison to benchmarks. [Here](https://support.cultureamp.com/hc/en-us/articles/115001544965-Focus-Agent-Summary) is more information on how Culture Amp determines "focus" recommendations.
+Culture Amp determines which questions are "focus recommendations" based on: impact on overall, favorable score, comparison to benchmarks. [Here](https://support.cultureamp.com/en/articles/7048700-focus-agent-feature-in-survey-analytics) is more information on how Culture Amp determines "focus" recommendations.
 
 "Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/hc/en-us/articles/208026545-Impact-and-driver-analysis-FAQs).
 
@@ -515,7 +519,7 @@ All links should be added by 2022-01-21 aligned with our [timeline]({{< ref "eng
 
 #### Questions and Support
 
-The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via `#people-connect` in Slack or email `people-connect@gitlab.com`.
+The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
 
 ## Previous Engagement Survey Results
 
@@ -542,7 +546,7 @@ The benchmarked favourability score for New Tech 1,000+ 2020 was 73% placing Git
 | **Factor** | **Favourability Rating** |
 | ------ | -------------------- |
 | Your Manager | 88% |
-| Wellbeing COVID-19 | 85% |
+| Well-being COVID-19 | 85% |
 | Culture | 84% |
 | **Question** | **Favourability Rating** |
 | -------- | -------------------- |
@@ -576,7 +580,7 @@ GitLab scored 5% below the industry benchmark i.e. New Tech +1,000 2020 for the 
 
 #### Questions and Support
 
-The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via `#people-connect` in Slack or email `people-connect@gitlab.com`.
+The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
 
 ### FY' 20 Engagement Survey
 

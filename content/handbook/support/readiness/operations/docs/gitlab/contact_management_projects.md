@@ -147,7 +147,7 @@ Next, you'll need to setup the webhook for the project. To do this, navigate to
 You then need to create a new webhook using the following information:
 
 - URL:
-  `https://ops.gitlab.net/api/v4/projects/619/ref/master/trigger/pipeline?token=TOKEN&variables[PROJECT_ID]=PROJECT_ID`
+  `https://gitlab.com/api/v4/projects/39250741/ref/master/trigger/pipeline?token=TOKEN&variables[PROJECT_ID]=PROJECT_ID`
   - Replace TOKEN with the Contact Management Project Token found within the Support Ops Vault
     in 1Password.
   - Replace PROJECT_ID with the project's ID.
@@ -155,7 +155,7 @@ You then need to create a new webhook using the following information:
   - Put the token value in the text field for `Sensitive portion of URL`
   - Put `TOKEN` in the text field for `How it looks in the UI`
   - Verify the URL preview value now looks like:
-    - `https://ops.gitlab.net/api/v4/projects/619/ref/master/trigger/pipeline?token={TOKEN}&variables[PROJECT_ID]=123456789`
+    - `https://gitlab.com/api/v4/projects/39250741/ref/master/trigger/pipeline?token={TOKEN}&variables[PROJECT_ID]=123456789`
 - Check the box next to `Push events`
   - Select `Wildcard pattern` and enter `master` in the text field
 - Check the box next to `Enable SSL verification`

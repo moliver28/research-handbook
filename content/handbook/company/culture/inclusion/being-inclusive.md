@@ -17,7 +17,7 @@ Inclusion is understanding or recognizing all these differences and inviting som
 
 Belonging is when you feel your insights and contributions are valued. It goes back to team members feeling they can bring their full selves to work.
 
-See the [Diversity, Inclusion, and Belonging page]({{< ref "inclusion" >}}) page for more information.
+See the [Diversity, Inclusion, and Belonging page](/handbook/company/culture/inclusion/) for more information.
 
 ## What inclusive behaviors look like
 

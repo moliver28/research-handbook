@@ -1,8 +1,5 @@
 ---
 title: "Red Team"
-aliases:
-  - /handbook/security/threat-management/red-team/
-simple_list: true
 ---
 
 GitLab's internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
@@ -21,25 +18,13 @@ Further details can be found in the [job family description](/job-families/secur
 
 ### Stealth Operations
 
-Red Teams work best in stealth, as this provides the most realistic way to practice responding to real world attacks.  After all, malicious actors don't announce themselves, so the Red Team shouldn't either. During a stealth operation, only a small group of GitLab team members are aware of the details.  We call these people "trusted participants", and they help keep operations safe and productive.
+We spend most of our time on stealth operations, providing GitLab an opportunity to practice responding to real-world attacks. During a stealth operation, only a small group of GitLab team members are aware of the details. We call these people "trusted participants", and they help keep operations safe and productive.
 
-These stealth operations require [special rules]({{< ref "red-team-roe#stealth-operations" >}}). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques]({{< ref "red-team-roe#stealth-operation-techniques" >}}).
+Stealth operations can vary in format and length. Some follow a more defined cycle with clear start and end dates, typically spanning 3-6 months. These operations often conclude when a significant detection event occurs, allowing us to evaluate the full response process. Other operations are continuous, designed to emulate persistent threats. In these cases, if we're detected, we regroup, adapt our tactics, and continue pursuing our objectives — just as real adversaries would.
 
-Stealth operations are not a contest. If our Red Team completes an objective undetected, we can offer recommendations to improve our detections. If we trigger a response, we've validated that detection capability in a realistic scenario and allowed the team to work through the same processes they would use when responding to real-life attacks. Both of these scenarios provide valuable feedback to the organization.
+All our stealth operations emulate threats most likely to target GitLab, our platform, and our customers. This focused approach sharpens our defenses and keeps us ahead of potential attacks.
 
-We have two types of stealth operations: Campaign-Based Operations, and Continuous Operations.
-
-#### Campaign-Based Operations
-
-Campaign-Based Operations have very specific goals, typically span 3-6 months, and have defined start and stop dates. These campaign-based ops are designed to determine whether the organization is susceptible to specifically defined threat actors or attack paths.
-
-Campaign-Based Operations exist to determine how the organization responds to specific attacks. Even if detected early, a well-executed operation is a success as it allows defensive teams to respond and informs leadership of the organization's strengths and weaknesses.
-
-#### Continuous Operations
-
-In a Continuous Red Team Operation, attacker goals are pursued until achieved. Detection does not end the operation but instead forces the Red Team to regroup, reset, and find new attack avenues. Resources beyond the primary target are in scope if they bring us closer to our goals, and parallel attack efforts are encouraged. Automation is used where practical to identify changes in targets and modify attacks accordingly.
-
-This operating model helps the Red Team more effectively emulate the advanced threats who target our software supply chains, platform, and CI/CD processes.
+Stealth operations require [special rules](red-team-roe#stealth-operations). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques](red-team-roe#stealth-operation-techniques).
 
 ### Purple Team Flash Operations
 
@@ -85,7 +70,7 @@ By using these templates, everyone on the team knows where we are at and what co
 
 All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates).
 
-Security risks affect everyone, and it is essential to make our reports approachable and consumable to a broad audience. To achieve this, we make an effort to [use simple language]({{< ref "communication#simple-language" >}}). Our goal is to ensure that anyone in the company can understand the reports, even if they don't have a background in security.
+Security risks affect everyone, and it is essential to make our reports approachable and consumable to a broad audience. To achieve this, we make an effort to [use simple language](/handbook/communication/#simple-language). Our goal is to ensure that anyone in the company can understand the reports, even if they don't have a background in security.
 
 After an operation has concluded, if relevant, we will create a short video summarizing the operation, which should not exceed five minutes. We will also schedule synchronous meetings with our Security Incident Response Team (SIRT) to go over the various attack steps of the operation and review detections and alerts.
 
@@ -140,7 +125,7 @@ We use a combination of GitLab CI pipelines and GitLab Pages to build and host t
 - [MITRE ATT&CK Flow](https://github.com/center-for-threat-informed-defense/attack-flow)
   - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-flow)
   - [Our internal build](https://flow.gl-redteam.com/)
-- [MITRE ATT&CK Navigator](https://github.com/center-for-threat-informed-defense/attack-navigator)
+- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
   - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-navigator)
   - [Our internal build](https://navigator.gl-redteam.com/)
   - [Public blog describing the project](https://about.gitlab.com/blog/2023/08/09/gitlab-mitre-attack-navigator/)

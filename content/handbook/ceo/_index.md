@@ -68,13 +68,13 @@ Sid is easy to talk to on any subject. He is good at drawing people out and chal
 1. Sid is also the driving force for our iteration value. For example, he may hold [Iteration Office Hours](#iteration-office-hours).
 1. Sid really values 1:1 preparation.
 1. Sid believes in "strong opinions, weakly held." He doesn't always seem like it, but he will change his mind quickly if you present him with compelling new information and a data driven perspective.
-1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It's not a "best practice", it's a "boring solution"`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms]({{< ref "communication#mecefu-terms" >}}) to keep communication efficient.
+1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It's not a "best practice", it's a "boring solution"`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms](/handbook/communication/#mecefu-terms) to keep communication efficient.
 
 ## Interviewing and conducting meetings
 
 This section was started by GitLab's Head of Remote Darren M. to coach and provide context to others who meet with and interview Sid. The below are suggestions based on a history of personal interviews, extracted lessons from [GitLab Unfiltered interviews](https://www.youtube.com/playlist?list=PL05JrBw4t0KpdkiYcuSO2EtNBzK2Nyzx5), and observations during a [CEO Shadow rotation](https://about.gitlab.com/blog/2020/05/22/gitlab-remote-ceo-shadow-takeaways/). Others are welcome to create a merge request and add more.
 
-1. ***How scripted are interviews?*** Sid does well in [unscripted interviews](https://youtu.be/7kMQj4O4ZGU), but prefers questions [outlined]({{< ref "eba#meeting-request-requirements" >}}) in a Google document and attached in the [meeting invite](/handbook/company/culture/all-remote/live-doc-meetings/) in advance. The EBA to the CEO can assist you with this. Interviews tend to go well when it is clear ahead of time what the crux of the conversation will be about, and there is documented context which can be consumed asynchronously ahead of time.
+1. ***How scripted are interviews?*** Sid does well in [unscripted interviews](https://youtu.be/7kMQj4O4ZGU), but prefers questions [outlined](/handbook/eba/#meeting-request-requirements) in a Google document and attached in the [meeting invite](/handbook/company/culture/all-remote/live-doc-meetings/) in advance. The EBA to the CEO can assist you with this. Interviews tend to go well when it is clear ahead of time what the crux of the conversation will be about, and there is documented context which can be consumed asynchronously ahead of time.
 1. ***What if questions arise which aren't in the agenda? Do you add them and keep the conversation going?*** Expert interviewers will actively anticipate that new and unexpected questions will arise. You may be surprised by the question, but *not* that the question happened. The interviewer is responsible for keeping the conversation on track according to the agenda. If you feel that a question veers the conversation too far off track, document the question and add a to-do for a follow-up or asynchronous answer. At GitLab, [agendas are revered](/handbook/company/culture/all-remote/live-doc-meetings/); feel confident in using the agenda to keep the interview crisp.
 1. ***Do you script perspective and commentary?*** Unscripted, authentic feedback and commentary is appreciated and shows preparation for the subject matter and an understanding of discussion flow. With Sid (and other interview subjects), practice gets you closer to perfection. Professional media training creates a deeper understanding of this concept.
 1. ***Do you worry about saying the wrong thing?*** This may be challenging to overcome. A list of tips for overcoming this are below.
@@ -99,7 +99,7 @@ I get many email on which I am only cc'd on, I would very much appreciate if you
 
 ### Presentations and slide decks
 
-Share slide decks in advance of meeting with me per [few meetings with presentations]({{< ref "communication#few-meetings-with-presentations" >}}) communication guideline. I can be tagged in a relevant Slack channel.
+Share slide decks in advance of meeting with me per [few meetings with presentations](/handbook/communication/#few-meetings-with-presentations) communication guideline. I can be tagged in a relevant Slack channel.
 
 When sharing slides with me, limit the content on each slide to one concept. Avoid condensing multiple concepts into one slide. Additionally, the slide title should be specific to the content on that slide. For example, instead of condensing two lists onto one slide, separate the lists onto two separate slides with slide titles specific to each list.
 
@@ -165,13 +165,13 @@ Please quote the subject line of the email in your chat message.
 
 ### Sending email
 
-If someone else in the company wants to have me send an email they should email me and cc [my EBA]({{< ref "eba#executive-business-administrator-team" >}}) with:
+If someone else in the company wants to have me send an email they should email me and cc [my EBA](/handbook/eba/#executive-business-administrator-team) with:
 
 1. Instruction: "Please email this, please bcc: me on the outgoing email, forward any responses, and cc: me on any further emails."
 1. Recipient name
 1. Recipient email
 1. Email subject
-1. Email body (text based, no html or rich text)
+1. Email body (text based, no HTML or rich text)
 
 When receiving such an email my EBA should stage a draft email to the recipient and a draft answer 'done'.
 
@@ -179,7 +179,7 @@ The email should only be the body. Greetings and niceties are handled by the EBA
 
 ## Meeting request requirements
 
-For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page]({{< ref "eba" >}}). Please do not use Zoom waiting rooms for meetings scheduled with me or on my behalf. If attendees are joining separate sections of a meeting, you can break the session into multiple Zoom calls or have a Slack channel to manage attendee entrances and exits.
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/). Please do not use Zoom waiting rooms for meetings scheduled with me or on my behalf. If attendees are joining separate sections of a meeting, you can break the session into multiple Zoom calls or have a Slack channel to manage attendee entrances and exits.
 
 ## CEO Meeting Cadence
 
@@ -191,7 +191,7 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Weekly Meetings
 
-1. [1-1s](/handbook/leadership/1-1/) with my direct reports and [EBA]({{< ref eba >}}). 25-50 minutes.
+1. [1-1s](/handbook/leadership/1-1/) with my direct reports and [EBA](/handbook/eba/). 25-50 minutes.
 1. [E-Group](/handbook/company/structure/#e-group) Call. 120 minutes.
 1. If there are open positions Talent Acquisition Syncs on key Executive hires. 25 minutes.
 1. Topical conversations on top cross-functional initiatives or other areas of importance to the CEO. 25 minutes.
@@ -224,7 +224,6 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Annual Meetings
 
-1. [Contribute](https://about.gitlab.com/events/gitlab-contribute/). Sunday-Friday.
 1. [Annual Planning](/handbook/finance/financial-planning-and-analysis/#annual-plan) with the GitLab Board of Directors. 50-80 minutes.
 1. Fiscal Year Kickoff. 50 minutes.
 1. Industry Conferences such as: DevOps Enterprise Summit, AWS re:Invent, KubeCon, Linux Summit
@@ -260,11 +259,11 @@ The recruiter should share a prep package with the Board Member at least 3 busin
 
 To schedule a Pick Your Brain interview with me, please see the [EBA handbook page]({{< ref "ceo-scheduling#pick-your-brain-meetings" >}}). To watch and read prior Pick Your Brain interviews about all-remote, please see the [Interviews page](/handbook/company/culture/all-remote/interviews/).
 
-For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page]({{< ref eba >}}).
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/).
 
 ## External Speaking Engagements
 
-To schedule Sid to speak at an external engagement please contact the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) with the details outlined in the [Executive External Event Brief]({{< ref "eba#meeting-request-requirements" >}}). The EBA to the CEO will gain approval from the function head of the requestor on whether the CEO will attend or not. Sid's preference is to participate in 1:1 fireside chats or conduct a stand alone presentation (audience Q&A is fine). He does not participate in panels with multiple speakers.
+To schedule Sid to speak at an external engagement please contact the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) with the details outlined in the [Executive External Event Brief](/handbook/eba/#meeting-request-requirements). The EBA to the CEO will gain approval from the function head of the requester on whether the CEO will attend or not. Sid's preference is to participate in 1:1 fireside chats or conduct a stand alone presentation (audience Q&A is fine). He does not participate in panels with multiple speakers.
 
 ### Requests for audio/visual check meetings
 
@@ -320,7 +319,7 @@ If possible, I use a teleprompter when giving keynotes. I prefer to use the tele
 ## Recording Content for Conferences
 
 I'm always willing to record [video content](https://www.youtube.com/watch?v=Y310ksxsUoQ) for conferences I'm unable to attend.
-Email [my EBA]({{< ref "eba#executive-business-administrator-team" >}}) to coordinate the recording.
+Email [my EBA](/handbook/eba/#executive-business-administrator-team) to coordinate the recording.
 
 ## Favorite Beverages
 
@@ -336,14 +335,14 @@ People regularly ask what I use for my home office setup. Below is a list of the
 - Boom Arm: [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://www.amazon.com/PSA-Swivel-Mount-Studio-Microphone/dp/B001D7UYBO/)
 - Camera: [Sony Alpha 7C Full-Frame Mirrorless Camera - Silver (ILCE7C/S)](https://www.amazon.com/Sony-Alpha-Full-Frame-Mirrorless-Camera/dp/B08HW132XW)
 - Camera Adapter: [Tengdaxing NP-FZ100 AC Power Supply Adapter](https://www.amazon.com/gp/product/B08NWR4R8J/)
-- Camera Holder: [Heron - 3FT Camera Mount with Desk Clamp](https://www.amazon.com/gp/product/B08BTW6W4N/)
+- Camera Holder: [Heron - 3FT Camera Mount with Desk Clamp](https://www.heronequipment.com/product/3ft-mounting-rig-clamp-arm/)
 - Ports: [CalDigit ts3-plus](https://www.caldigit.com/ts3-plus/)
 - Desk: [Jarvis Laminate Standing Desk](https://www.fully.com/standing-desks/jarvis-adjustable-height-desk-laminate.html)
 - Laptop: [13-inch MacBook Pro](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-apple-m1-chip-with-8-core-cpu-and-8-core-gpu-256gb)
 - Stand: [rain design mStand](https://www.raindesigninc.com/mstand.html)
 - Keyboard: [Apple Magic Keyboard](https://www.apple.com/shop/product/MK2C3LL/A/magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-us-english-white-keys?)
 - Mouse: [Microsoft Pro IntelliMouse](https://www.amazon.com/Microsoft-Pro-Intellimouse-Dark-Shadow/dp/B07RPBXBMV?th=1)
-- Monitor: [Apple Pro Display XDR](https://www.apple.com/shop/buy-mac/pro-display-xdr/standard-glass) and/or [LG Ultrafine 5K](https://www.apple.com/shop/product/HMUB2LL/A/lg-ultrafine-5k-display )
+- Monitor: [Apple Pro Display XDR](https://www.apple.com/shop/buy-mac/pro-display-xdr/standard-glass) and/or [LG Ultrafine 5K](https://www.lg.com/us/monitors/lg-27md5kl-b-5k-uhd-led-monitor)
 - Light: [Elgato Keylight](https://www.amazon.com/Elgato-Key-Light-Professional-App-Enabled/dp/B07L755X9G/)
 - Green screen: I use a cloth one. Roll Down/up screens are a space saver but can be on the small side. Painting the room has mixed results because different surfaces reflect light different even with the same paint.
 

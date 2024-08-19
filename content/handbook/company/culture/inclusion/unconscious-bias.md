@@ -92,7 +92,7 @@ On 2020-06-24 we held three Live Learning sessions to cover how to recognize bia
 
 - [Ongoing discussion](https://gitlab.com/gitlab-com/diversity-and-inclusion/issues/27)
 - [This MVC is based on Ashley Sullivan's comment here](https://gitlab.com/gitlab-com/people-ops/General/issues/379#note_208972342)
-- [Diversity, Inclusion and Belonging at GitLab]({{< ref "inclusion" >}})
+- [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
 
 ### External resources
 

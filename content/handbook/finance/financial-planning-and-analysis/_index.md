@@ -20,7 +20,7 @@ Maximize GitLab's long-term valuation by enabling e-group and FP&A to plan, prio
 
 1. Manage the budget and planning processes for GitLab's Board Plan
 1. Build and maintain a [long-term financial model](#long-range-outlook-lro) that identifies long-term strategy and financial targets
-1. Define business drivers and [KPIs]({{< ref "kpis" >}}) in our operating and long-term models in collaboration with the business and measure efficacy of the business plan
+1. Define business drivers and [KPIs](/handbook/company/kpis/) in our operating and long-term models in collaboration with the business and measure efficacy of the business plan
 1. Own the rolling forecast process and provide actionable insights to ensure departmental performance vs. plan and strategy
 1. Drive quarterly earnings process as public company, including guidance and investor narratives
 1. Provide insights on the business drivers to constantly look for opportunities to improve performance
@@ -32,18 +32,18 @@ Maximize GitLab's long-term valuation by enabling e-group and FP&A to plan, prio
 
 FP&A comprises five different sub-teams to support our FP&A goals:
 
-- [Corporate FP&A]({{< ref "./corporate-finance" >}})
-- [Sales Finance]({{< ref "./sales-finance" >}})
-- [Marketing]({{< ref "./marketing-finance" >}})
-- [R&D]({{< ref "./r-and-d-finance" >}})
-- [G&A]({{< ref "./ga-finance" >}})
+- [Corporate FP&A](corporate-finance/)
+- [Sales Finance](sales-finance/)
+- [Marketing](marketing-finance/)
+- [R&D](r-and-d-finance/)
+- [G&A](ga-finance/)
 
 ### Common Links
 
 - [Finance Issue Tracker](https://gitlab.com/gitlab-com/finance/issues)
 - [Analytics Issue Tracker](https://gitlab.com/gitlab-data/analytics) for all data, dashboard, or reporting requests
 - [FP&A Job Ladder](/job-families/finance/finance-planning-and-analysis)
-- [Adaptive Insights]({{< ref "./adaptive-insights" >}})
+- [Adaptive Insights](adaptive-insights/)
 
 ### Key Slack Channels
 

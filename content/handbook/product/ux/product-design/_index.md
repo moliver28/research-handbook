@@ -5,7 +5,7 @@ description: "At GitLab, our Product Design team drives the business forward by 
 
 ### Role of Product Designers
 
-Product Designers are assigned to a specific area of the product, known as Stage Groups, where they immerse themsevles in user workflows to solve real customer problems.
+Product Designers are assigned to a specific area of the product, known as Stage Groups, where they immerse themselves in user workflows to solve real customer problems.
 
 They are also responsible for broader UX department efforts, such as:
 

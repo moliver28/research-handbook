@@ -36,8 +36,6 @@ Cloud transformation and application modernization is a key CIO initiative for 2
 
 ### Who to meet / Ideal Customer Profile {#who-to-meet}
 
-{: .alert .alert-gitlab-orange}
-
 The persona interested in application automation is generally different from the persona interested in infrastructure automation and continuous delivery. Application automation interest comes from development or engineering organizations while infrastructure automation and continuous delivery interest comes from the operations, systems, infrastructure, platform and cloud side of the organization.
 
 | | Enterprise | Mid Market | SMB |
@@ -51,8 +49,6 @@ The persona interested in application automation is generally different from the
 
 ### Keywords to listen for  {#keywords}
 
-{: .alert .alert-gitlab-orange}
-
 - Manual efforts
   - including Manual builds, Manual code reviews, Manual peer reviews, Manual testing, manual deployments, manual infrastructure configurations, amongst others.
 - Employee dissatisfaction
@@ -65,8 +61,6 @@ The persona interested in application automation is generally different from the
 - Application Modernization
 
 ### Value discovery {#value-discovery}
-
-{: .alert .alert-gitlab-orange}
 
 ### Discovery Questions — Current State: Where's the pain?
 
@@ -130,8 +124,6 @@ These value statements are used to measure of GitLab Adoption by the customer an
 | Value Stream analytics | How many users went to the VSA page in the last 28 days | - VSA helps businesses identify and target waste and inefficiencies, and take action to optimize those workstreams to deliver the highest possible velocity of value. <br> - GitLab's one platform approach ensures a single platform, workspace and data model which creates a shared view of actionable insights, of your end to end software delivery lifecycle |
 
 ## Positioning value  {#positioning-value}
-
-{: .alert .alert-gitlab-orange}
 
 ### Elevator pitch
 
@@ -208,8 +200,6 @@ From a competitive comparison for Automated Software Delivery, the following are
 
 ## Key Value at different tiers  {#tier-value}
 
-{: .alert .alert-gitlab-orange}
-
 ### Value at Premium
 
 As organizations get started and grow in their automation journey, GitLab Premium offers Faster Code Reviews, Advanced CI/CD, Release Controls and Self-managed reliability with expert support to enhance team productivity and collaboration. GitLab Premium adds enterprise level features like priority support, upgrade assistance and a technical account managers (for eligible accounts).
@@ -222,14 +212,14 @@ For up-to-date and full list of value at Premium, visit [Why Premium](https://ab
   - [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html) Find bottlenecks in your code review process by understanding how long open merge requests have been in review.
 - **Advanced CI/CD** Build, maintain, deploy, and monitor complex pipelines
   - [CI/CD Pipelines Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/) Visualize the history and current status of pipelines across projects and groups all in a single dashboard that can be customized for each user.
-  - [Multi-project pipeline graphs](https://docs.gitlab.com/ee/ci/multi_project_pipelines.html) Visualize how pipelines across projects are linked together, including cross project dependencies.
+  - [Multi-project pipeline graphs](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines) Visualize how pipelines across projects are linked together, including cross project dependencies.
   - [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html) Reduce pipeline queueing and waiting time with merge trains which allows parallel pipeline execution, with each pipeline building off the merge result of the previous one.
   - [CI/CD for external repo](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/) Connect your projects hosted on external services (like GitHub or Bitbucket) and leverage the power of GitLab CI/CD pipelines to build, test, and deploy your applications easily.
 - **Release Controls** Implement controls to ensure teams ship high quality and secure code
   - [Approval rules for code review](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) Approval rules ensure that the right people review merge requests by specifying eligible approvers and the minimum number of approvals required for a merge request.
   - [Required Merge Request Approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) Guarantee quality and standards of your code by mandating a set number of necessary approvals and predefine a list of specific approvers.
   - [Merge Request Dependencies](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html) Coordinate the order in which merge requests are merged within the same project and/or across different projects.
-  - [Push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html) Reject new code and commits that don't comply with company policy.
+  - [Push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) Reject new code and commits that don't comply with company policy.
 - **Self Managed Reliability** Ensure disaster recovery, high availability and load balancing of your self-managed deployment
   - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html) Fail over in minutes to another data-center.
   - [Maintenance mode](https://docs.gitlab.com/ee/administration/maintenance_mode/index.html) Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users.
@@ -242,8 +232,6 @@ Most of the value of the Automated Software Delivery Solution is available to cu
 For up-to-date list of value at Ultimate, visit [Why Premium](https://about.gitlab.com/pricing/ultimate/).
 
 ## Resources {#resources}
-
-{: .alert .alert-gitlab-orange}
 
 ### Related Pages  {#resource-page}
 
@@ -340,7 +328,7 @@ GitLab Professional Services help customers become efficient in GitLab quickly. 
 Here are some service offerings you can position with the customer:
 
 1. [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
-1. [GitLab with Git Basics Training](https://about.gitlab.com/services/education/gitlab-basics/)
+1. [GitLab with Git Basics Training](https://university.gitlab.com/pages/gitlab-fundamentals-training)
 1. [Data Migration Services](https://about.gitlab.com/services/migration/)
 1. [Dedicated Engineering](https://about.gitlab.com/services/dedicated-engineering/)
 

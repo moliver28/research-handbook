@@ -1,7 +1,5 @@
 ---
 title: "Paid Time Off at GitLab"
-aliases:
-- /handbook/paid-time-off/
 ---
 
 ## Introduction
@@ -21,10 +19,6 @@ This page is written with a focus on vacation. The below recommendations on comm
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ## A GitLab Team Member's Guide to Time Off
-
-A support engineer remarked that "In the 3 months I've been at GitLab, I've taken more time off than the last 2 years at my previous job."
-
-Another great example of taking time off is a GitLab team member taking a day to do some spring cleaning. Vacations don't have to be trips to exotic places, but instead could be taking some time for oneself at home.
 
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
@@ -58,7 +52,7 @@ Time off by Deel should not be used if working but working asynchronously. Inste
 1. GitLab also encourages you to take time off to vote, volunteer at the polls or volunteer in your community.
 1. It's important to take PTO while you have something you *want* to do – taking a mental health day, for example – rather than waiting until you *need* the time off.
    - When taking PTO for a mental health day, please select the `🌴 Vacation` option in Time Off by Deel.
-1. GitLab runs as usual during regional official days off (including public or statutory holidays): we still help clients during those days, unless they are official days off in both the Netherlands *and* the U.S. On those days, only vital functions (such as incident remediation, emergency on-call, and customer support during [GitLab Global Support Hours](https://about.gitlab.com/support/#hours-of-operation) and [US Federal Support Hours](https://about.gitlab.com/support/us-federal-support/#hours-of-operation)) will be staffed. If you need to work during an official day off in your country, you should take a different day off in return.
+1. GitLab runs as usual during regional official days off (including public or statutory holidays): we still help clients during those days, unless they are official days off in both the Netherlands *and* the U.S. On those days, only vital functions (such as incident remediation, emergency on-call, and customer support during [GitLab Global Support Hours](https://about.gitlab.com/support/#hours-of-operation) and [US Federal Support Hours](https://about.gitlab.com/support/us-government-support/#hours-of-operation)) will be staffed. If you need to work during an official day off in your country, you should take a different day off in return.
 1. Please also remember to turn on your out of office message and include the contact details of a co-worker in case anything urgent or critical comes into your inbox while you're away. If you have to respond to an incident while on-call outside of your regular working hours, you should feel free to take off some time the following day to recover and be well-rested. If you feel pressured to *not* take time off to rest, refer to this part of the handbook and explain that you had to handle an incident.
 1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, please email `leaves@gitlab.com` with your specific request and the Absence Management Team will complete your request, per the [instructions](#instructions-for-people-ops-and-total-rewards-to-update-time-off-by-deel-events). Events can only be changed after the Time Off by Deel event has completed itself.
 
@@ -107,7 +101,7 @@ Communicate broadly when you will be away so other people can manage time effici
         1. "Comments by covering team member" - Very useful to asynchronously get updates quickly when you return from your PTO.
         1. Pro tip: Use color codes (e.g. green, red) and symbols (e.g. ✅, ❗️) to let others easily & quickly identify most important entries.
             - Please don't use colors only as people with [color blindness](https://www.mayoclinic.org/diseases-conditions/poor-color-vision/symptoms-causes/syc-20354988) may not be able to distinguish between them
-    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule mesages in slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
+    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
         - > Hey team, just a reminder that I'm out today.  Please take a look at my open tickets. Thanks!
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
 1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
@@ -136,7 +130,7 @@ Returning from PTO of any length can feel overwhelming. Consider implementing th
 
 #### Adjust/Remove PTO from past events
 
-The People Operations team is able to adjust active PTO events and past PTO events. If you need the team to adjust an event, please send an email to `people-connect@gitlab.com` with the dates and time e.g. 'please remove two hours of PTO from October 31st'.
+The People Operations team is able to adjust active PTO events and past PTO events. If you need the team to adjust an event, please submit a HelpLab - Paid Time Off request with the details e.g. 'please remove two hours of PTO from October 31st'.
 
 We encourage everyone to fully step away from work on their days off but understand that unforseen events can arise.
 
@@ -144,7 +138,7 @@ We encourage everyone to fully step away from work on their days off but underst
 
 Sick time refers to the time away a team member needs to recover from short-term (non-chronic, or reoccurring) illness such as but not limited to COVID-19, menstrual pain, cold/flu, surgery, care for a close family member recovering from illness, or for preventative reasons like a doctor's appointment. Eligible family members includes but may not be limited to: parent(s), child(ren), spouse, domestic partner, grandparent(s), grandchild(ren), or sibling(s).
 
-In keeping with our values of [CREDIT]({{< ref "values" >}}), we have crafted the following protocols around GitLab's global sick time policy available to all GitLab team members.  Team members may be eligible for their own country's [Sick Time Policies](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) and should review eligiblilty under these policies as they may offer more time away or have different reporting procedures.  We understand team members experience situations when they need continuous time away from work (5 days or more) to care for themselves or a family member, or situations when they just need a few days (less than 5), GitLab's Sick Time policy is applicable in both situations.
+In keeping with our values of [CREDIT](/handbook/values/), we have crafted the following protocols around GitLab's global sick time policy available to all GitLab team members.  Team members may be eligible for their own country's [Sick Time Policies](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) and should review eligiblilty under these policies as they may offer more time away or have different reporting procedures.  We understand team members experience situations when they need continuous time away from work (5 days or more) to care for themselves or a family member, or situations when they just need a few days (less than 5), GitLab's Sick Time policy is applicable in both situations.
 
 *Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance.
 
@@ -234,7 +228,7 @@ All team members and Managers, including those employed under a PEO, are expecte
 
 Please be aware that new team members' Time Off by Deel accounts are activated and synced automatically once a day, so if you try to access Time Off by Deel on your first day and receive an error message, please attempt to access Time Off by Deel on Day 2. If you still receive an error message, let your assigned People Connect Team member know in your onboarding issue.
 
-GitLab team member questions about Time Off by Deel can be directed to `#people-connect` Slack channel.
+GitLab team member questions about Time Off by Deel can be directed to the HelpLab portal.
 
 ### Slack Commands
 
@@ -293,7 +287,7 @@ If you receive an error message **"Uh-oh! It doesn't look like you have access t
         - Select Email and follow the sets to change your email address.
     - Update your BambooHR email by logging into BambooHR - selecting the personal tab and scroll to the bottom. Update the Work Email field with the correct email address.
 1. Once these two emails match, it will take a few hours for the sync to catch up to the change.
-1. If these two are the same, please reach out in the `#people-connect` channel.
+1. If these two are the same, please reach out in HelpLab.
 
 ### Additional Features
 
@@ -380,7 +374,7 @@ To clarify, once the event has completed and synced to BambooHR, both the Bamboo
 
 ## Management's Role in Paid Time Off
 
-Managers have a duty to manage their direct reports wellbeing and ensure that time off is being taken. Sometimes, when working remotely from home, it can be hard to find a good work-life balance. It is also easy to forget that your team is working across multiple time zones, so some may feel obligated to work longer to ensure there is overlap. It is important that you check-in with your reports through one-to-ones, and if you think someone needs some time off, let them know they can do this.
+Managers have a duty to manage their direct reports well-being and ensure that time off is being taken. Sometimes, when working remotely from home, it can be hard to find a good work-life balance. It is also easy to forget that your team is working across multiple time zones, so some may feel obligated to work longer to ensure there is overlap. It is important that you check-in with your reports through one-to-ones, and if you think someone needs some time off, let them know they can do this.
 
 For audit and compliance purposes, managers are responsible for ensuring that their team members track and communicate all time off using [Time Off by Deel](#time-off-by-deel) as the single source of truth. Whether a team member is taking one day off, or 25+ calendar days off, all team members must use [Time Off by Deel](#time-off-by-deel).
 
@@ -388,7 +382,7 @@ For audit and compliance purposes, managers have a responsibility to be aware of
 
 If you discover that multiple people in your team want to be off at the same time, see what the priorities are, review the impact to the business, and use your best judgement. Discuss this with your team so you can manage the time off together. It is also a good idea to remind your team to give everyone an early heads-up, if possible, about upcoming vacation plans. Reminders can be sent in Slack, shared on a team calendar, or noted during team meetings.
 
-If as a manager you are notified that your direct report has been incapacitated or unable to submit an OOO request in Time Off by Deel and needs to take time off, be it Sick Time or otherwise, please document this information, and relay it to the People Connect Team at `people-connect@gitlab.com` without disclosing private medical information in compliance with applicable privacy laws. The People Connect Team will submit an OOO request on the team members behalf and mark the reason as `Per Manager Name`, and save the email thread in the team members `Sickness` folder in Workday. This documentation will be unshared and will not contain any personal medical information.
+If as a manager you are notified that your direct report has been incapacitated or unable to submit an OOO request in Time Off by Deel and needs to take time off, be it Sick Time or otherwise, please document this information, and relay it to the People Connect Team via HelpLab without disclosing private medical information in compliance with applicable privacy laws. The People Connect Team will submit an OOO request on the team members behalf and mark the reason as `Per Manager Name`, and save the email thread in the team members `Sickness` folder in Workday. This documentation will be unshared and will not contain any personal medical information.
 
 ### Time Off by Deel Manager Reporting
 
@@ -462,7 +456,7 @@ no apparent reason.
 reasons but if you catch yourself only having headaches on work days, it is time to
 evaluate your situation.
 
-These and similar symptoms might get missed or dismissed, as people who are on the path to burnout, or who are burnt out, are usually unable to spend the mental energy to recognize it in themselves. Having an external source objectively identify the situation can be helpful. A great tool for objectively recognizing burn out is [https://burnoutindex.org](https://burnoutindex.org/).
+These and similar symptoms might get missed or dismissed, as people who are on the path to burnout, or who are burnt out, are usually unable to spend the mental energy to recognize it in themselves. Having an external source objectively identify the situation can be helpful. A great tool for objectively recognizing burn out is [`burnoutindex.org`](https://web.archive.org/web/20240121220209/https://burnoutindex.yerbo.co/).
 
 If someone is showing signs of burnout, they should take time off to focus on things that are relaxing and improve their overall health and welfare.
 
@@ -569,19 +563,17 @@ Team members are entitled to accrue 20 days per year at a rate of 1.67 days/mont
 
 ### GitLab S.A.S (France)
 
-Team members are entitled to a minimum of 5 weeks of statutory vacation per year. The accrual period in France is June 1st - May 31st and accruals are prorated based on the number of months worked in the accrual period.  Any unused statutory vacation days will be carried into the next accrual period, but expire one year after it's accrued.
+Team members are entitled to a minimum of 5 weeks of statutory vacation per year. The accrual period in France is June 1st - May 31st and accruals are prorated based on the number of months worked in the accrual period. Any unused statutory vacation days will be carried into the next accrual period, but expire one year after it's accrued.
 
 #### Reduction of working time (RTT)
 
-- The 25-day holiday entitlement is an employee's right based on a 35-hour workweek. In cases where employees need to work beyond the legal 35 hours, certain roles within GitLab may benefit from reduced working time (RTT)of up to two days per month to compensate for the extended working hours. RTT is calculated by taking the working days in the year and subtracting the contracted days (formula below). The accrual period for RTT days is January 1st - December 31st each year.
-- Employees cannot carry RTT days to the following year and we encourage all team members to use RTT accruals first before statutory accruals.
-- The formula for calculating each years RTT balances is:  Days In a Year - weekend days - 25 statutory vacation days - public holidays in weekdays - 218 = RTT
+- Certain roles within GitLab may benefit from reduced working time (RTT), and the accrual period for RTT days is January 1st - December 31st each year.
+- Team members cannot carry RTT days to the following year and we encourage all team members to use RTT accruals within the year.
+Team members are encouraged to review additional information on [working time in France](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/) and [RTT calculation](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#rtt-calculation (**accessible internally only*).
 
 ### GitLab Canada Corp (Canada)
 
-GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws.
-
-#### GitLab Canada Corp observes provincial laws regarding vacation time and vacation pay. For more information, refer to the applicable employment standards legislation of the Province in which you reside
+GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
 - [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)

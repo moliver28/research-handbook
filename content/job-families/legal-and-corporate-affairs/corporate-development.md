@@ -214,7 +214,7 @@ The Senior Director of Corporate Development is a [grade 11](/handbook/total-rew
 ### VP of Corporate Development
 
 As the VP of Corporate Development, you will be responsible for
-leading the team to source, negotiate, close and integrate [acquisitions](https://about.gitlab.com/handbook/acquisitions/) successfully at GitLab through influence into the company's strategy.
+leading the team to source, negotiate, close and integrate [acquisitions](/handbook/acquisitions/) successfully at GitLab through influence into the company's strategy.
 
 #### Job Grade
 

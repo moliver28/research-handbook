@@ -118,4 +118,4 @@ You can set your Zoom pronouns through the [Zoom web portal](https://support.zoo
 - [**Article:** 'She/They' and Other Pronouns You Might See on Candidate Profiles](https://www.linkedin.com/business/talent/blog/talent-acquisition/pronouns-you-might-see-on-candidate-profiles)
 - [**Book:** *Gender: A Graphic Guide*](https://www.introducingbooks.com/ib-title/gender-a-graphic-guide/)
 - [**Book:** *What's Your Pronoun? Beyond He and She*](https://wwnorton.com/books/9781631496042)
-- [**Book:** *A Quick & Easy Guide to They/Them Pronouns*](https://onipress.com/collections/limerence-press/products/a-quick-easy-guide-to-they-them-pronouns)
+- [**Book:** *A Quick & Easy Guide to They/Them Pronouns*](https://www.onipress.com/titles/project-one-f5w4d-233sh-3ybcx-9w275-dphaz-4h8ew-saabl-kdbm2-bed8a-szjan)

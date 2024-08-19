@@ -1,8 +1,6 @@
 ---
 title: "Edit your team page entry"
 description: "Instructions on how to add yourself to the team page, and make edits."
-aliases:
-- /handbook/edit-team-page/
 ---
 
 This page specifically covers how to add yourself to the team page, add your pets to the pets page, and edit the relevant entries.
@@ -29,12 +27,12 @@ Choose the method below that feels most comfortable and have the following infor
   > - Crop image to a perfect square.
   > - Keep maximum dimension under 400 by 400 pixels.
   > - Use the JPEG (`.jpg`) or PNG (`.png`) format.
-  > - Keep the file size below 100k. Minify using something like [tinyjpg.com](https://www.tinyjpg.com).
+  > - Keep the file size below 100k. Minify using something like [tinyjpg.com](https://tinyjpg.com/).
   > - Test image in color and black-and-white (you will add the color version).
   > - The image file should be located in the folder `sites/uncategorized/source/images/team/`
   > - Name file `yournameinlowercase` and add the appropriate file extension.
 - Story about your background and interests. (See other team member profiles for examples.)
-- Add your personal LinkedIn / Twitter / GitLab handles. Make sure to only include your username without any links or `@` in front of them. ie. `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
+- Add your personal LinkedIn / Twitter / GitLab handles. Make sure to only include your username without any links or `@` in front of them, such as `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
 - A relative link to your role. If your link is `https://handbook.gitlab.com/job-families/engineering/support-engineer/` use `/job-families/engineering/support-engineer/`. Refer to other entries for reference.
 
 ### Method 1: Add your info on GitLab.com using Web IDE
@@ -70,7 +68,7 @@ Choose the method below that feels most comfortable and have the following infor
 
    - Add the filename of your profile picture, making sure to match letter case. Delete `../gitlab-logo-extra-whitespace.png`, if present. The completed line should look like this: `picture: yournameinlowercase.jpg`.
    - Add your pronouns
-   - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij)
+   - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (such as, Sid See-brandy for Sid Sijbrandij)
    - Add your Twitter and GitLab handles without the leading `@`
    - Ensure your list of `departments` is accurate. Use other team members' as a reference.
    - Add your [`specialty`](/handbook/company/structure/#specialist)
@@ -92,7 +90,7 @@ Choose the method below that feels most comfortable and have the following infor
 1. Click on `Yes Commit to a new branch`.
 1. You will then be in the `New branch name` section. Enter your branch name, in the format of `yourinitials-add-YOURNAME-to-team-page-date` or similar. Example: `plh-add-paulalilyherbert-to-team-page-feb06` and press `Return/Enter`.
 1. Click on `Create MR`. If this message disappears, click on the notification bell icon on the bottom right, and it will bring back the message.
-1. In the Desciption box, explain `Why is this change being made?` as decribed. For this specific MR, you can enter something like: `Adding my information and picture to the team page due to onboarding tasks.`
+1. In the Description box, explain `Why is this change being made?` as described. For this specific MR, you can enter something like: `Adding my information and picture to the team page due to onboarding tasks.`
 1. Scroll down and `Create merge request`.
 1. Review the Author Checklist and check off all applicable tasks. Add your People Connect onboarding team member and Manager as Reviewers. If your manager has a gold triangle symbol with an exclamation mark on their bottom right section of their avatar photo, it means that they do not have merge rights to the team page so you can assign the MR to your People Connect team member if that is the case. If there is no triangle on your manager avatar, you may assign the MR to your manager.
 
@@ -140,7 +138,7 @@ Choose the method below that feels most comfortable and have the following infor
       bundle exec rake build:team_yml
       ```
 
-   1. Start a middleman dev server in the `uncategorized` site:
+   1. Start a middleman development server in the `uncategorized` site:
 
       ```bash
       cd sites/uncategorized

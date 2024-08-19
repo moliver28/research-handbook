@@ -337,14 +337,18 @@ All team members are entitled to up to 12 months of unpaid parental leave if the
 
 **Australian Government Parental Leave Payment**
 
-Team members must pass the [income test](https://www.servicesaustralia.gov.au/meeting-parental-leave-pay-income-test?context=22191) to be eligible for the government's Parental Leave payments.  If a team member is not eligible, GitLab will provide 100% of their wages for up to 16 weeks of leave.
+Team members may be eligible for pay from either or both of the following:
+
+- [Australia's Government Parental Leave Pay Scheme](https://www.fairwork.gov.au/leave/parental-leave/during-parental-leave/payment-during-parental-leave#australian-government-parental-leave-pay)
+- GitLab's Parental Leave
+
+Eligible employees who are the carer of a child born or adopted from 1 July 2024 can get up to 22 weeks’ Parental Leave Pay, which is paid at the National Minimum Wage.  For more information visit [Services Australia – Parental Leave Pay] (https://www.servicesaustralia.gov.au/parental-leave-pay)
 
 - If you are applying for government-funded Parental Leave Pay, you can apply up to 3 months before your child's due date.
 
 **Applying for Parental Leave in Australia**
 
-- To initiate your parental leave, please review this [checklist](https://docs.google.com/document/d/17Nxh0Hg3A44i1HmJp0vQj0jMMzFoIQxy/edit?usp=sharing&ouid=108582647308078356493&rtpof=true&sd=true) to ensure reporting timelines are met.  All written requests for Parental Leave can be sent to leaves@gitlab.com.
-- After submitting your written request for Parental Leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` label.
+- To initiate your parental leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` label.
 
 **Record-keeping for paid Parental Leave:**
 
@@ -421,7 +425,7 @@ Team members are entitled to a minimum of four weeks' annual leave per year. Ann
 
 ## On-Call (Engineering-only)
 
-New Zealand employment law requires that work on a formal [Public Holiday](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/), including [on-call](https://www.employment.govt.nz/leave-and-holidays/public-holidays/employees-working-shifts-or-on-call/), is compensated with time-in-lieu. Overtime pay is also required in certain situations, for example: whether the on-call shift fell on a "normal" working day or not, and whether the team member was called to work during their on-call shift. The policy linked above covers for the [time-in-lieu requirement](#on-call-engineering-only) but we do not yet have a set mechanism for handling overtime pay requirements.
+New Zealand employment law requires that work on a formal [Public Holiday](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/), including [on-call](https://www.employment.govt.nz/leave-and-holidays/public-holidays/alternative-holidays), is compensated with time-in-lieu. Overtime pay is also required in certain situations, for example: whether the on-call shift fell on a "normal" working day or not, and whether the team member was called to work during their on-call shift. The policy linked above covers for the [time-in-lieu requirement](#on-call-engineering-only) but we do not yet have a set mechanism for handling overtime pay requirements.
 
 New Zealand-based team members *may not be on-call on a New Zealand Public Holiday*, and must seek/find a replacement for any shifts where they may be indicated as being on call on a Public Holiday. To ensure we remain compliant with local laws we team members to consider local laws when volunteering for/accepting shifts.
 
@@ -501,21 +505,6 @@ Partner Leave
 
 ### Other Types of Leave
 
-<details markdown="1">
-
-<summary>Stress Leave</summary>
-
-- A team member with workplace stress that amounts to an illness may take sick leave. The [ordinary conditions for sick leave](#statutory-sick-leave) apply.
-- This leave runs concurrently with GitLab PTO.
-
-*How to Apply:*
-
-- Team members must contact `leaves@gitlab.com` to report their leave.
-  - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
-- To designate and track Stress Leave properly, select as `Out Sick` in Time Off by Deel.
-
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/stress-leave/)
-
 </details>
 
 <details markdown="1">
@@ -541,7 +530,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) or volunteer at the polls.
 - This leave runs concurrently with GitLab PTO. Team members must select `Public Service/Volunteer` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/election-voting-leave/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/time-off-to-vote)
 
 </details>
 
@@ -577,23 +566,11 @@ For more information related to this policy, please reivew the [Employment New Z
 
 - This leave may also be taken to support a child who has experienced domestic violence as long as they live with the team member for some of the time.
 - A person is affected by family violence if they are a person against whom any other person is inflicting, or has inflicted family violence, and/or a person with whom there ordinarily or periodically resides a child against whom any other person is inflicting or has inflicted, family violence.
-- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/domestic-violence-leave/short-term-flexible-working/) for up to 2 months.
+- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/taking-family-violence-leave#scroll-to-8) for up to 2 months.
 - This leave runs concurrently with GitLab PTO. Team members should notify the Absence Management team (leaves@gitlab.com) if they need to make use of this leave.
 - Team members must designate this time off as `Out Sick` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
 For more information regarding this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/).
-
-</details>
-
-<details markdown="1">
-
-<summary>COVID-19 and the workplace</summary>
-
-GitLab and its team members need to work together to protect New Zealand and keep each other safe during the global COVID-19 pandemic. This means that normal obligations to keep in regular contact and to act in good faith are more important than ever.
-
-- This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Out Sick` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
-
-For more information pleave review the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/coronavirus-workplace/leave-and-pay-entitlements-during-covid-19/).
 
 </details>
 
@@ -608,9 +585,6 @@ However, employers should be aware that if an employee's employment agreement co
 - Is distracting other team members while they're in their notice period
 - Is being made redundant and the employer is not requiring them to report to work during their notice period so they can look for other job opportunities while they can still say they're currently employed
 - Has been dismissed on notice and their presence is creating an uncomfortable atmosphere for everyone.
-- Team members must designate this time off as `Vacation` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
-
-For more information pleave review the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/garden-leave/)
 
 </details>
 

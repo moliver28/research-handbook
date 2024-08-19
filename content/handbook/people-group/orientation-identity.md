@@ -209,7 +209,7 @@ Simple, just ask :)
 
 Asking for someone's pronouns is the same as asking for their name. In the same way that you wouldn't assume what someone's name is and start calling them by a name that wasn't theirs, you shouldn't assume someone's pronouns.
 
-In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
+In English, there are [many common pronouns](https://uwm.edu/lgbtrc/qa_faqs/what-are-some-commonly-used-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
 
 For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
 
@@ -219,7 +219,7 @@ Quickly apologize, correct yourself and move on. Don't make a big deal out of it
 
 ### Can someone be fired for being transgender, gay, etc.?
 
-The answer to this question, unfortunately, largely depends on where you are in the world. At GitLab, you will not get fired for any of the following reasons, no matter where you are:
+At GitLab, you will not get fired for any of the following reasons, no matter where you are:
 
 Race, color, religion, national origin, sex (including pregnancy), age, disability, HIV status, sexual orientation, gender identity, marital status, past or present military service, or any other status protected by the laws or regulations in the locations where we operate.
 

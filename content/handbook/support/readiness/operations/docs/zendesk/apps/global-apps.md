@@ -158,6 +158,8 @@ The following events will send data to the app for notification processing:
 - Customer public comment made on ticket
 - Emergency ticket created
 - Escalated ticket created
+- Tickets being STAR'd
+- Tickets created by specific organizations
 
 ### User settings
 
@@ -171,7 +173,6 @@ will not) recieve are:
   - Values:
     - Assigned tickets only
     - CC'd tickets only
-    - Tickets within my SGG only
     - All tickets
 - Notify me about
   - This tells the app what kind of events to notify you for
@@ -184,10 +185,10 @@ will not) recieve are:
 - Notify me only for tickets with priority
   - This tells the app which priorities to notify you on
   - Values:
-    - Urgent
-    - High
-    - Medium
-    - Low
+    - at least Urgent
+    - at least High
+    - at least Medium
+    - at least Low
   - **Note** A blank value is assumed to be "all priorities"
 - Also notify me for escalated ticket creation
   - This dictates if you want to be notified via the app when an escalated

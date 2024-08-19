@@ -18,7 +18,7 @@ Our [planning issues](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tas
 
 ### Workflow
 
-We follow the same [workflow pattern](./authorization.md#workflow) as our friends in Govern::Authorization.
+We follow the same [workflow pattern](authorization.md#workflow) as our friends in Govern::Authorization.
 
 ## Iteration
 
@@ -30,7 +30,7 @@ We follow the [iteration process](/handbook/engineering/development/principles/#
 
 ## Weekly async issue updates
 
-We use the same [weekly async issue template](./authorization.md#weekly-async-issue-updates) as our friends in Govern::Authorization.
+We use the same [weekly async issue template](authorization.md#weekly-async-issue-updates) as our friends in Govern::Authorization.
 
 ## Group members
 
@@ -53,7 +53,7 @@ You are encouraged to work as closely as needed with our [stable counterparts](/
 Other teams that we might collaborate with include but are not limited to:
 
 - [Govern:Authentication and Authorization](/handbook/engineering/development/sec/govern/authentication-and-authorization/)
-- [Growth:Acquisition and Activation](/handbook/marketing/growth/engineering/)
+- [Growth:Acquisition and Activation](/handbook/engineering/development/growth/)
 - [Fulfillment:Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 
 Here are some examples of when to engage with your counterpart:

@@ -29,7 +29,7 @@ Here are some  team member considerations inspired by GitLab's culture, values, 
 - **On & Offline:**-  When working in a remote, heavily asynchronous, collaborative team environment you may not always see and hear early signs of fatigue or burnout. Make it a point to reserve time in regular connections to see how team members are managing workload and boundaries. Even asking directly in a Slack message can be helpful.
 - **Flexibility:** GitLab encourages team members to be directly involved in when, where, and how they get their best work done. Managers still play a key role in allowing space while also remaining dialed into progress, output, and managing capacity.
 - **Results-driven:** Burnout has a direct impact on deliverables and overall results. Managers must continuously strive to improve workload management, output, and their team's well being. This is, in itself, a result of a manager's leadership capability and there should be a sense of ownership of the work for which their team is responsible.
-- **Common Pitfall:**  "*Taking time away resolves any issues related to burnout.*" While taking time away is a great way to set boundaries and strike a healthy balance between work and personal time; it's not a catch-all solution. Time away should be supported and modeled by leaders, but leaders also need to recognize that addressing a team member's potential burnout can come from a variety of approaches. This might include coaching on time management, additional targeted feedback, more effective delegation, or goal clarification. Note: Time Away is CRUCIAL to wellbeing and quality work. This is part of GitLab's culture around work beyond combating burnout.
+- **Common Pitfall:**  "*Taking time away resolves any issues related to burnout.*" While taking time away is a great way to set boundaries and strike a healthy balance between work and personal time; it's not a catch-all solution. Time away should be supported and modeled by leaders, but leaders also need to recognize that addressing a team member's potential burnout can come from a variety of approaches. This might include coaching on time management, additional targeted feedback, more effective delegation, or goal clarification. Note: Time Away is CRUCIAL to well-being and quality work. This is part of GitLab's culture around work beyond combating burnout.
 - **Sense of "urgency":**  Some team members may read this excerpt from GitLab Values…
     > "*At an exponentially-scaling startup, time gained or lost has compounding effects. Try to get the results as fast as possible, but without compromising our other values and ways we communicate, so the compounding of results can begin and we can focus on the next improvement.*"
 
@@ -57,7 +57,7 @@ Here are some  team member considerations inspired by GitLab's culture, values, 
 #### Resource to share with team members
 
 [Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
-Burnout Index: [Yerbo's Risk Check](https://methods.yerbo.co/burnout-index/)
+Burnout Index: [Yerbo's Risk Check](https://web.archive.org/web/20240121220209/https://burnoutindex.yerbo.co/)
 
 ---
 
@@ -65,7 +65,7 @@ Burnout Index: [Yerbo's Risk Check](https://methods.yerbo.co/burnout-index/)
 
 You can direct questions to [#people-managers-and-above](https://gitlab.slack.com/archives/C01SFG8EDGA) Slack channel.
 
-#### Resource Respository
+#### Resource Repository
 
 Below, you can access all the referenced in this guide:
 | Reference | Notes |
@@ -73,7 +73,7 @@ Below, you can access all the referenced in this guide:
 |[GitLab team members share how to recognize burnout (and how to prevent it)](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/)        |Audience: All team members        |
 |[Recognizing Burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)        |Audience: All team members        |
 |[Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)        |Audience: All team members        |
-|[Yerbo's Risk Check](https://methods.yerbo.co/burnout-index/)        |Managers can share this with their teams. It's recommended that managers go through this for themselves as well.        |
+|[Yerbo's Risk Check](https://web.archive.org/web/20240121220209/https://burnoutindex.yerbo.co/)        |Managers can share this with their teams. It's recommended that managers go through this for themselves as well.        |
 |[Mental_Health_Aware](https://gitlab.enterprise.slack.com/archives/C834CM4HW)        |Audience: All team members        |
 
 #### Additional Resources

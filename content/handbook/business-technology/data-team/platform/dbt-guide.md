@@ -1,6 +1,7 @@
 ---
 title: "dbt Guide"
 description: "data build tool (dbt) Guide"
+math: true
 ---
 
 ## Quick Links
@@ -14,7 +15,7 @@ dbt, short for [data build tool](https://www.getdbt.com/), is an [open source pr
 
 The following links will give you an excellent overview of what dbt is:
 
-- [What, exactly, is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/) - This is a less technical overview for understanding the tool
+- [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt) - This is a less technical overview for understanding the tool
 - [What is dbt?](https://docs.getdbt.com/docs/introduction) - This is a bit more technical and comes straight from the docs
 
 But why do we use dbt? There are several reasons.
@@ -42,22 +43,34 @@ If you're interested in using dbt, the [dbt documentation has a great tutorial](
 
 If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
-### Configuration
+### Local environment
 
-- Ensure you have access to our Snowflake instance
+We use user-dedicated development databases and [virtual environments](/handbook/business-technology/data-team/platform/dbt-guide/#venv-workflow) via [make](https://www.gnu.org/software/make/manual/make.html) recipes in order to facilitate a 'local' development environment for GitLab team members contributing to our dbt project(s)
+
+#### 'Local' User-Dedicated Development Databases
+
+When needed for team members we create local development databases corresponding to the snowflake user with `_PREP` and `_PROD` suffixes, corresponding to the `PREP` and `PROD` databases in snowflake. These will be targeted by our main dbt project when run within the local environment so that contributors can develop and test changes to our dbt project. More detail on our development process within our dbt project can be found on the [dbt Change Workflow page](/handbook/business-technology/data-team/how-we-work/dbt-change-workflow/).
+
+Any data built within these development databases should be considered ephemeral as they're only to be used for local development. To ensure the optimal use of dbt, as well as appropriate security and compliace, these databases should be cleaned by the owning user regularly. [This Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) can be used to make that process quick and easy, and it's suggested to be run at the end or beginning of each development cycle. Additionaly, in order to ensure compliance with our data retention policies and procedures we will automatically drop all tables in development environments after **80 days** without alteration. This retention period is set within the dbt project with the `dev_db_object_expiration` variable and tables are deleted each weekend.
+
+Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/business-technology/data-team/data-management/#snowflake-1). There is not [backup]/handbook/business-technology/data-team/platform/#backups) process for development databases.
+
+#### Configuration
+
+- Ensure you have access to our Snowflake instance and dedicated development databases for your snowflake user
 - Ensure you have [Make](https://en.wikipedia.org/wiki/Make_(software)) installed (should be installed on new Macs and with XCode)
 - Create a folder in your home directory called `.dbt`
 - In the `~/.dbt/` folder there should be a `profiles.yml`file that looks like this [sample profile](https://gitlab.com/gitlab-data/analytics/blob/master/admin/sample_profiles.yml)
 - The smallest possible warehouse should be stored as an environment variable. Our dbt jobs use `SNOWFLAKE_TRANSFORM_WAREHOUSE` as the variable name to identify the warehouse. The environment variable can be set in the `.bashrc` or `.zshrc` file as follows:
-  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="ANALYST_XS"`
+  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="DEV_XS"`
   - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
 - Clone the [analytics project](https://gitlab.com/gitlab-data/analytics/)
 - If running on Linux:
-  - Ensure you have [Docker installed](https://docs.docker.com/docker-for-mac/)
+  - Ensure you have [Rancher Desktop Installed](https://rancherdesktop.io/)
 
 Note that many of these steps are done in the [onboarding script](https://gitlab.com/gitlab-data/analytics/-/blob/master/admin/onboarding_script.zsh) we recommend new analysts run.
 
-### Choosing the right Snowflake warehouse when running dbt
+#### Choosing the right Snowflake warehouse when running dbt
 
 Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview.html), which allow for dbt developers to allocate
 differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
@@ -83,7 +96,7 @@ gitlab-snowflake:
       user: {username}
       role: {rolename}
       database: {databasename}
-      warehouse: ANALYST_XS
+      warehouse: DEV_XS
       schema: preparation
       authenticator: externalbrowser
     dev_l:
@@ -93,7 +106,7 @@ gitlab-snowflake:
       user: {username}
       role: {rolename}
       database: {databasename}
-      warehouse: ANALYST_L
+      warehouse: DEV_L
       schema: preparation
       authenticator: externalbrowser
 ```
@@ -105,9 +118,7 @@ use a larger warehouse. You want to retry the build, but this time you want dbt 
 `dbt run --models @{model_name} --target dev_l`, which tells dbt to use the warehouse you specified in the `dev_l` target in your `profiles.yml` file. After a few minutes, the build
 completes and you start checking your work.
 
-### Venv Workflow
-
-{: #Venv-workflow}
+#### Venv Workflow {#Venv-workflow}
 
 Recommended workflow for anyone running a Mac system.
 
@@ -130,6 +141,33 @@ Recommended workflow for anyone running a Mac system.
 #### Why do we use a virtual environment for local dbt development?
 
 We use virtual environments for local dbt development because it ensures that each developer is running exactly the same dbt version with exactly the same dependencies. This minimizes the risk that developers will have different development experiences due to different software versions, and makes it easy to upgrade everyone's software simultaneously. Additionally, because our staging and production environments are containerized, this approach ensures that the same piece of code will execute as predictably as possible across all of our environments.
+
+#### Build Changes Locally
+
+To clone and build all of the changed models in the local development space the same `build_changes` process can be used that is used in the [CI Job](/handbook/business-technology/data-team/platform/ci-jobs/#build_changes).  The primary difference is that instead of a `WAREHOUSE` variable the developer can pass a `TARGET` variable to use a target configured with a different warehouse size.  To run the process, run the `make build-changes` command from within the virtual environment.
+
+```console
+ ~/repos/analytics/transform/snowflake-dbt
+╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model" 
+```
+
+[Video Introduction](https://youtu.be/0WiljW6Bihw)
+
+#### SQLFluff linter
+
+We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
+
+```console
+~/repos/analytics/transform/snowflake-dbt
+╰─$ make lint-models 
+sqlfluff lint models/workspaces/workspace_data/mock/data_type_mock_table.sql
+
+~/repos/analytics/transform/snowflake-dbt
+╰─$ make lint-models FIX="True" MODEL="dim_date"  
+sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
+```
+
+[Video Introduction](https://youtu.be/MwVJHf7XvrI)
 
 #### Cloning models locally
 
@@ -181,9 +219,7 @@ We are actively transitioning to the new `clone-dbt-select-local-user-noscript` 
   - `make DBT_MODELS="<dbt_selector>" clone-dbt-select-local-branch`
   - eg. `make DBT_MODELS="+dim_subscription" clone-dbt-select-local-branch`
 
-### Docker Workflow
-
-{: #docker-workflow}
+### Docker Workflow {#docker-workflow}
 
 The below is the recommended workflow primarily for users running Linux as the venv workflow has fewer prerequisites and is considerably faster.
 
@@ -242,10 +278,6 @@ dbt specific:
 - `cycle_logs` - a function we've added to your computer to clear out the dbt logs (not accessible from within the docker container)
 - `make dbt-docs` - a command that will spin up a local container to serve you the `dbt` docs in a web-browser, found at `localhost:8081`
 
-##### SQLFluff linter
-
-We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. To have the SQLFluff in the DBT venv you will have to rebuild it. The make prepare-dbt or more specifically the pipenv install from within that command will install the correct version of the tool into the venv. If you have done that and it is not working you can try a direct install of version 0.9.3 using the pip installer.
-
 ### VSCode extension: dbt Power User
 
 [dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/business-technology/data-team/platform/dbt-guide/#Venv-workflow).
@@ -290,9 +322,7 @@ Before we start, there are some settings to adjust in your VScode:
   }
   ```
 
-  {{% panel header="**Note**" header-bg="warning" %}}
-  If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
-  {{% /panel %}}
+  Note: If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
 
 - Edit `DBT_PROFILES_DIR` so that it points to your `~/.dbt/` folder (it seems that path must be relative and pointing to your `~/.dbt` folder, from the `/analytics` folder)
 - Restart VScode and re-open the analytics workspace
@@ -652,7 +682,8 @@ The Data Team reservers the right to reject code that will dramatically slow the
   ```
 
 - All `{{ ref('...') }}` statements should be placed in CTEs at the top of the file. (Think of these as import statements.)
-  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model
+  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model.
+  - If only a small number of fields are required from a model containing many columns then it can be performant to list them in the CTE, otherwise it is better to use `SELECT *`. To do this, the `simple_cte` macro can be used.
 
 - If you want to separate out some complex SQL into a separate model, you absolutely should to keep things DRY and easier to understand. The config setting `materialized='ephemeral'` is one option which essentially treats the model like a CTE.
 
@@ -680,7 +711,7 @@ In normal usage, dbt knows the proper order to run all models based on the usage
   })
 }}
 
--- depends on: {{ ref('snowplow_sessions') }}
+-- depends_on: {{ ref('snowplow_sessions') }}
 
 {{ schema_union_all('snowplow_', 'snowplow_sessions') }}
 ```
@@ -728,9 +759,7 @@ In our dbt project we make use of the [dbt-utils package](https://github.com/dbt
 - [star](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#star-source) - This macro pulls all the columns from a table excluding the columns listed in the except argument
 - [surrogate_key](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#generate_surrogate_key-source) - This macro takes a list of field names and returns a hash of the values to generate a unique key
 
-### Seeds
-
-{: #seeds}
+### Seeds {#seeds}
 
 Seeds are a way to load data from csv files into our data warehouse ([dbt documentation](https://docs.getdbt.com/docs/building-a-dbt-project/seeds/)).
 Because these csv files are located in our dbt repository, they are version controlled and code reviewable.
@@ -1208,9 +1237,7 @@ Data extraction is loading data from the source system to Snowflake data warehou
 
 Data transformation is downstream transformation via dbt for Dimensions, Facts, Marts and reports models.
 
-### Snapshots
-
-{: #snapshots}
+### Snapshots {#snapshots}
 
 dbt snapshots are
 
@@ -1382,6 +1409,66 @@ To manually review the downstream impacts a change to a model may have use the a
 
 Models are dropped by removing files in your local IDE session and committing these changes to be run in the CI Pipes on the MR.  Snowflake tables in Production have to be removed separately by a DE.  This should be specified on the MR and communicated directly to the DE. Some tables may need to be retained as history, even though the Dbt Models are removed.
 Here is an [Example MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/6990) that shows Models being deprecated with some of the tables being retained in the database.
+
+## Model Efficiency 
+
+A model's efficiency is a measure of how well the model uses the Snowflake resources to produce the model. At this time, it is not a measure of the queries used as we have not found a way to procedurally and reliably quantify the actions taken within a query.  The efficiency score of a model can be determined for each model invocation and is a based on three numbers determined from the queries executed by the model.  The component numbers are intended to provide an insight into where to investigate when the overall number does not meet the intend targets.  These scores can be aggregated to show the overall efficiency of a grouping of models, such as a run or day.
+
+### Method
+
+For each model the queries executed are first filtered and aggregated. Only the specific query types of `CREATE_VIEW, INSERT, DELETE, CREATE_TABLE_AS_SELECT, MERGE, CREATE_VIEW, SELECT, EXTERNAL_TABLE_REFRESH` are considered and the query properties of `bytes_scanned, bytes_spilled_to_remote_storage, bytes_spilled_to_local_storage, partitions_total, partitions_scanned` are aggregated for calculation. Once aggregated the following metrics are calculated:
+
+#### Local Storage Efficiency
+
+\\[E_l = min\{\frac{s-S_l}s,0\}\\]
+
+- Where \\(S_l\\) is the model Bytes Spilled to Local Storage
+- Where \\(E_l\\) is the model Local Storage Efficiency
+- Where \\(s\\) is the model Bytes Scanned 
+
+The metric is calculated as the model bytes scanned less the model bytes spilled to local storage divided by the model bytes scanned and limited to values between 0 and 1.  This calculation allows for a number that is independent of other models but still comparable to other models.
+
+#### Remote Storage Efficiency
+
+\\[E_r = min\{\frac{s-S_r}s,0\}\\]
+
+- Where \\(S_r\\) is the model Bytes Spilled to Remote Storage
+- Where \\(E_r\\) is the model Remote Storage Efficiency
+- Where \\(s\\) is the model Bytes Scanned
+
+The metric is calculated as the model bytes scanned less the model bytes spilled to remote storage divided by the model bytes scanned and limited to values between 0 and 1. This calculation allows for a number that is independent of other models but still comparable to other models.
+
+#### Partition Scan Efficiency
+
+\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]
+
+- Where \\(S_p\\) is the model Partitions Scanned
+- Where \\(E_p\\) is the model Partition Scan Efficiency
+- Where \\(p\\) is the model Total Partitions
+
+If there is more than one model partition then the metric is calculated as the model total partitions less the model partitions scanned divided by the model total partitions and limited to values between zero and one, otherwise the metric value is set to one.  This calculation allows for a number that is independent of other models but still comparable to other models.  It is expected that most models will not be able to achieve a partitions scan efficiency value of one as some number of partitions will always need to be scanned, but efforts should be made to improve the metric as much as possible.
+
+#### Efficiency Score
+
+\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]
+
+- Where \\(E\\) is the model Efficiency Score
+- Where \\(E_p\\) is the model Partition Scan Efficiency
+- Where \\(E_r\\) is the model Remote Storage Efficiency
+- Where \\(E_l\\) is the model Local Storage Efficiency
+- Where \\(w_p\\) is the model Partition Scan Efficiency weight
+- Where \\(w_r\\) is the model Remote Storage Efficiency weight
+- Where \\(w_l\\) is the model Local Storage Efficiency weight
+
+The compound score is calculated as the weighted average of the `Local Storage Efficiency`, `Remote Storage Efficiency`, and `Partition Scan Efficiency` metrics. The metric weights are determined arbitrarily by the needs and focus of the business.
+
+### Usage
+
+Model efficiency can be looked at for an individual model or for a collection of models.  When looking at a collection of models, it is recommended that efficiency metrics and scores be weighted, for example by the total bytes scanned, across the models in the collection.  When the metrics and score are below target values, each metric can indicate an area of exploration to improve the efficiency: `Local Storage Efficiency` and `Remote Storage Efficiency` indicate insufficient memory for the bytes processed by the model and low `Partition Scan Efficiency` indicates that the model may not be set up to prune partitions as part of the needed table scans.
+
+### Reporting
+
+To report on the overall efficiency of dbt models for the organization the latest invocation of each model is used and weighted by the total bytes scanned.  This method provides a view over time of the changes to the aggregate efficiency of all of the models and represents a lagging indicator of the effect of changes to models and new models added to the collection.  Each metric and score are available in the reporting so that the cause of changes can be drilled into and areas of improvement can be identified.
 
 ## Model Performance
 

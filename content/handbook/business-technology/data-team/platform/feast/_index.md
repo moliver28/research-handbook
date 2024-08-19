@@ -3,7 +3,7 @@ title: "Using Feast"
 description: "How to use Feast to train ML models"
 ---
 
-[Feast](https://docs.feast.dev/) is an open source feature store aimed to improve the process of obtaining, documenting and deploying features for data science (DS) models. In the DS Gitlab team we are currently focused on using the Offline Store (used for batch non-realtime predictions). The repository for Feast can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc)
+[Feast](https://docs.feast.dev/) is an open source feature store aimed to improve the process of obtaining, documenting and deploying features for data science (DS) models. In the DS GitLab team we are currently focused on using the Offline Store (used for batch non-realtime predictions). The repository for Feast can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc)
 
 The most important concepts to understand the Feast Offline Store are:
 
@@ -31,7 +31,7 @@ graph LR
 
 ## Setup
 
-Feast uses a [registry](https://docs.feast.dev/getting-started/architecture-and-components/registry) that acts as a central catalog which stores the feature definitions and the necessary metadata. At Gitlab we store the registry in Snowflake.
+Feast uses a [registry](https://docs.feast.dev/getting-started/architecture-and-components/registry) that acts as a central catalog which stores the feature definitions and the necessary metadata. At GitLab we store the registry in Snowflake.
 
 There are two ways of interacting with the Feature Store:
 
@@ -101,7 +101,7 @@ After this, the [model_feature_service_manager](https://gitlab.com/gitlab-data/d
 
 Currently we have the UI running in a VM that can be accessed by requesting permission to the Data Engineering team. In case you would like to run the UI locally, you can use one of these two commands:
 
-1. `make ui-local`: This runs the UI locally against the production database / production registry. After running the command you can access it through the following [http://0.0.0.0:8889](http://0.0.0.0:8889).
+1. `make ui-local`: This runs the UI locally against the production database / production registry. After running the command you can access it through the following `http://0.0.0.0:8889`.
 2. `make ui-staging`: This runs the UI against your personal development database instead of the production database (for example, when creating a MR to introduce new features and you want to test locally).
 
 ## Project Structure
@@ -174,7 +174,7 @@ Also, make sure to check out the current implementation of PtC, specifically [cr
 
 ### Defining Data Sources and feature trasnsformations
 
-To address lacking transformations in Feast, following types of SQL queries are used in the Gitlab Feast repository:
+To address lacking transformations in Feast, following types of SQL queries are used in the GitLab Feast repository:
 
 1. Simple aggregations such as SUM, AVG (with optional grouping by account id, opportunity id, etc)
 1. Rolling / window aggregations - summing / averaging a certain value over a rolling window of past months / weeks / days. Example can be found in [product usage period usage query](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/product/product_usage.py?ref_type=heads), to create this type of aggregation:

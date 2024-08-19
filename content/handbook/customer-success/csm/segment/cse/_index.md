@@ -1,8 +1,5 @@
 ---
 title: "CSEs"
-aliases:
-- /handbook/customer-success/csm/segment/cse/
-- /handbook/customer-success/csm/segment/scale/
 ---
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
@@ -63,3 +60,9 @@ The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operat
 Active Campaigns: [Email Content - GitLab Internal Only](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit)
 
 For an additional overview of our CSE team-specific responsibilities, please reference our Job Family: [CSE Responsibilities & Requirements](/job-families/sales/customer-success-management/?_gl=1*fsm4r7*_ga*ODM3MjY1MzkwLjE2NDY0MTE4NTk.*_ga_ENFH3X7M5Y*MTY5MDgzODIzNC4yMzEuMS4xNjkwODQwMTY3LjAuMC4w#customer-success-engineer-cse)
+
+### <i class="fa-solid fa-book" style="color: #B197FC;"></i> **CSE Content Handbook**
+
+Content/1:many is a critical part of our strategy to drive customer adoption at scale across our very large book of business.  This requires dedicated resources/DRIs to execute this strategy.
+
+To learn more visit our [CSE Content Team Handbook](/handbook/customer-success/csm/segment/cse/content) page.

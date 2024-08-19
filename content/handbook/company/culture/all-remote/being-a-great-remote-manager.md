@@ -34,15 +34,15 @@ What a manager perceives as proactively working to keep a project on track can b
 
 ### Empathy
 
-Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication]({{< ref "./effective-communication" >}}) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
+Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication](effective-communication/) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
 
 GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#ownership), and act as a [manager of one](/handbook/values/#managers-of-one).
 
-For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety]({{< ref "./mental-health" >}}).
+For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety](mental-health/).
 
 ### Servant-leader
 
-Working to have [no ego](/handbook/values/#no-ego), recognizing that [people are not their work](/handbook/values/#people-are-not-their-work), and having [short toes](/handbook/values/#short-toes) will go a long way to building trust as a manager. The humility required to be a [servant-leader](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) is rare, and is of great importance in a remote setting. Particularly for reports who are [acclimating to their first remote role]({{< ref "./getting-started" >}}), managers may need to go above and beyond to lead by example.
+Working to have [no ego](/handbook/values/#no-ego), recognizing that [people are not their work](/handbook/values/#people-are-not-their-work), and having [short toes](/handbook/values/#short-toes) will go a long way to building trust as a manager. The humility required to be a [servant-leader](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) is rare, and is of great importance in a remote setting. Particularly for reports who are [acclimating to their first remote role](getting-started/), managers may need to go above and beyond to lead by example.
 
 In many cases, reports will be discovering in real-time how they prefer to be managed remotely. Maintaining the perspective that managers excel by serving is critical to building confidence in a direct report.
 
@@ -64,13 +64,13 @@ A remote leader must be intuitive and able to adapt to the preferences of their 
 
 Being a remote manager means building a support system for your team, while at the same time striking a balance to hold them accountable. Building trust and maintaining transparency, frequent and open communication, and ensuring a safe working environment are critical skills.
 
-Use weekly [1-1 meetings]({{< ref "1-1" >}}) to discuss business topics, challenges, and focus areas to build trust. Managers can supplement formal meetings with [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}) where no business is discussed. Listening and sharing during these discussions can facilitate more open conversations. Consider structing team meetings with a social component where team members can share the personal side of themselves.
+Use weekly [1-1 meetings]({{< ref "1-1" >}}) to discuss business topics, challenges, and focus areas to build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no business is discussed. Listening and sharing during these discussions can facilitate more open conversations. Consider structuring team meetings with a social component where team members can share the personal side of themselves.
 
 ## Tips for being a great remote manager
 
 ### Be visible and approachable
 
-Not everyone is capable of going fully-remote or mentally prepared to go days without a human interaction. Set up regular video chats and be sure to make space for [intentional informal communication]({{< ref "./informal-communication" >}}).
+Not everyone is capable of going fully-remote or mentally prepared to go days without a human interaction. Set up regular video chats and be sure to make space for [intentional informal communication](informal-communication/).
 
 Being a remote manager means building a support system for your team, while at the same time striking a balance to hold them accountable. [Building trust]({{< ref "building-trust" >}}), maintaining [transparency](/handbook/values/#transparency), communicating frequently and openly, and ensuring a supportive working environment are critical for success.
 
@@ -84,13 +84,13 @@ Don't underestimate a 1:1. Asynchronous communication (e.g., via text) is helpfu
 
 ### Challenge thinking, not schedules
 
-All-remote settings empower team members to live and work where they're most fulfilled. Implementing [asynchronous workflows]({{< ref "./asynchronous" >}}) increases efficiency and decreases dysfunction. Increasingly, operating asynchronously is necessary even in colocated companies which have team members on various floors or offices, especially when multiple time zones are involved. All-remote settings are more inclusive; for example, they provide flexibility to childcare providers who are combining work with parental responsibilities. Async work also removes time zone bias, enabling global team members to be on equal footing.
+All-remote settings empower team members to live and work where they're most fulfilled. Implementing [asynchronous workflows](asynchronous/) increases efficiency and decreases dysfunction. Increasingly, operating asynchronously is necessary even in colocated companies which have team members on various floors or offices, especially when multiple time zones are involved. All-remote settings are more inclusive; for example, they provide flexibility to childcare providers who are combining work with parental responsibilities. Async work also removes time zone bias, enabling global team members to be on equal footing.
 
 ### Delegate
 
-As teams grapple with [transitioning]({{< ref "./transition" >}}) from a colocated environment to a remote one, it's common to see differing levels of [adaptability]({{< ref "./remote-work-emergency-plan" >}}). For some, the transition is fairly smooth, as a [remote-first infrastructure]({{< ref "./how-to-work-remote-first" >}}) was already established. For others, the shift is thoroughly disruptive.
+As teams grapple with [transitioning](transition/) from a colocated environment to a remote one, it's common to see differing levels of [adaptability](remote-work-emergency-plan/). For some, the transition is fairly smooth, as a [remote-first infrastructure](how-to-work-remote-first/) was already established. For others, the shift is thoroughly disruptive.
 
-The amount of disruption is generally tied to two maturity factors: [culture]({{< ref "./building-culture" >}}) and tools. It's important to perfect the art of the handoff. To better understand how to delegate well, move your team through these [phases of remote adaptation]({{< ref "./phases-of-remote-adaptation" >}}).
+The amount of disruption is generally tied to two maturity factors: [culture](building-culture/) and tools. It's important to perfect the art of the handoff. To better understand how to delegate well, move your team through these [phases of remote adaptation](phases-of-remote-adaptation/).
 
 #### Use great apps
 
@@ -112,13 +112,13 @@ Want to see how GitLab does it? [Here's our tool stack](/handbook/business-techn
 
 So long as your company adheres — even if unofficially — to set working hours, you'll be biased towards candidates who are in your preferred time zone.
 
-The only way to remove that bias and open your company to a [truly global and diverse workforce]({{< ref "./hiring" >}}) is to destroy the epicenter of power as it relates to working hours.
+The only way to remove that bias and open your company to a [truly global and diverse workforce](hiring/) is to destroy the epicenter of power as it relates to working hours.
 
-This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/) and [healthier]({{< ref "./mental-health" >}}) way of working.
+This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/) and [healthier](mental-health/) way of working.
 
 ### Make it fun
 
-Informal communication complements [in-person interactions]({{< ref "./in-person" >}}) and matters in an all-remote [culture]({{< ref "culture" >}}). Here's our list of more than 20 ways to encourage a happy, healthy [informal work culture]({{< ref "./informal-communication" >}}).
+Informal communication complements [in-person interactions](in-person/) and matters in an all-remote [culture](/handbook/company/culture/). Here's our list of more than 20 ways to encourage a happy, healthy [informal work culture](informal-communication/).
 
 #### Stay lighthearted
 
@@ -155,7 +155,7 @@ The manager should be intentional about selecting an onboarding buddy. Aim to se
 
 ### Balance self-learning and nurturing
 
-In a remote setting, it's vital that a new hire recognize the importance of [working handbook-first]({{< ref "./handbook-first" >}}). This reality needs to be balanced with nurturing — an empathetic approach to working with a colleague. During onboarding, ask for feedback on this. A manager should be willing and able to adapt to a new hire's preferred communication methods, and be willing to [iterate](/handbook/values/#iteration) on this.
+In a remote setting, it's vital that a new hire recognize the importance of [working handbook-first](handbook-first/). This reality needs to be balanced with nurturing — an empathetic approach to working with a colleague. During onboarding, ask for feedback on this. A manager should be willing and able to adapt to a new hire's preferred communication methods, and be willing to [iterate](/handbook/values/#iteration) on this.
 
 ## How do you motivate remote workers?
 
@@ -165,7 +165,7 @@ Some best practices for motivating remote teams include:
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork
-- Say [thank you]({{< ref "communication#say-thanks" >}}) often
+- Say [thank you](/handbook/communication/#say-thanks) often
 
 ## How do you manage remote workers?
 
@@ -175,27 +175,27 @@ GitLab's expertise in managing a remote team has been turned into a free course 
 
 ## Red flags to watch out for
 
-Despite its many [advantages]({{< ref "./remote-benefits" >}}), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we'll also highlight counterpoints and solutions to these challenges.
+Despite its many [advantages](remote-benefits/), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we'll also highlight counterpoints and solutions to these challenges.
 
 ### Loneliness and isolation
 
 The first month in a remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/).
 
-- To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications]({{< ref "./informal-communication" >}}).
-- Scheduling [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), [social calls]({{< ref "./informal-communication#social-calls" >}}), and [incentivizing in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members are several of the ways in which GitLab accomplishes this.
+- To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications](informal-communication/).
+- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivizing in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members are several of the ways in which GitLab accomplishes this.
 
 ### Feeling left out
 
 Remote settings can cause a breakdown in communication skills if organizations aren't deliberate about creating ways for their people to stay connected.
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings]({{< ref "./meetings" >}}), as well as our [scheduled AMAs, group conversations, and Key Reviews]({{< ref "./learning-and-development#ask-me-anything-ama-group-conversations-and-key-meetings" >}}) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
 
 ### Overworking
 
 It can be hard to separate personal and work life. It's important to model and encourage boundaries.
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), to regular [1:1s]({{< ref "1-1" >}}).
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
   - All-remote companies should consider putting focus on [results (as opposed to hours worked)](/handbook/values/#measure-results-not-hours). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
   - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 
@@ -213,11 +213,11 @@ Not only do we get to know our coworkers better by seeing them in real time duri
 
 A natural inclination when managing a team is to manage people — the *individuals*. In a remote setting, consider focusing management efforts first on **process**. GitLab operates [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), which is to say that everything which can be documented is documented.
 
-To better understand how this impacts management style, consider this example. Each time a manager is asked a question by a direct report, there is a loss of productivity and focus in answering. If this answer is delivered verbally and privately, its benefit is highly specific and ephemeral. If, however, the manager considers the answer, documents it in a searchable location, and [answers with a link]({{< ref "./self-service#answer-with-a-link" >}}), the process of answering becomes far more useful long-term.
+To better understand how this impacts management style, consider this example. Each time a manager is asked a question by a direct report, there is a loss of productivity and focus in answering. If this answer is delivered verbally and privately, its benefit is highly specific and ephemeral. If, however, the manager considers the answer, documents it in a searchable location, and [answers with a link](self-service/#answer-with-a-link), the process of answering becomes far more useful long-term.
 
 In the latter case, this act of managing a *process* instead of a *person* creates outsized long-term [efficiency](/handbook/values/#efficiency). Every future direct report who has the same question will now be able to side-step the interruption and locate the answer themselves, creating two positive loops in the process.
 
-One, new hires recognize that they are [empowered to search for answers]({{< ref "./self-service" >}}), securing important information to keep projects moving even when their manager is on vacation, out of the office, or engaged in other work. This should lead to fewer blockers, less [dysfunction](/handbook/values/#five-dysfunctions), greater [autonomy](/handbook/values/#give-agency), improved [mental health]({{< ref "./mental-health" >}}), and greater productivity.
+One, new hires recognize that they are [empowered to search for answers](self-service/), securing important information to keep projects moving even when their manager is on vacation, out of the office, or engaged in other work. This should lead to fewer blockers, less [dysfunction](/handbook/values/#five-dysfunctions), greater [autonomy](/handbook/values/#give-agency), improved [mental health](mental-health/), and greater productivity.
 
 Two, managers carve out more bandwidth in their day to focus, rather than re-answering questions.
 
@@ -225,9 +225,9 @@ Two, managers carve out more bandwidth in their day to focus, rather than re-ans
 
 {{< youtube "u0dRWDmYSvg" >}}
 
-*In the [LinkedIn Talent on Tap video](https://youtu.be/u0dRWDmYSvg) above, GitLab co-founder and CEO Sid Sijbrandij shares advice on managing within a remote worplace. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
+*In the [LinkedIn Talent on Tap video](https://youtu.be/u0dRWDmYSvg) above, GitLab co-founder and CEO Sid Sijbrandij shares advice on managing within a remote workplace. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
-It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting]({{< ref "./management#scaling-by-documenting" >}}) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) in a powerful way.
+It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting](management/#scaling-by-documenting) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) in a powerful way.
 
 If your company has yet to implement their own handbook, start now and start small. Don't be overwhelmed with the notion of building a complete handbook from the get-go; simply start with one process, then document the next, and so on. This is the power of [iteration](/handbook/values/#iteration). GitLab (the company) uses GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)) to build and maintain our public-facing [handbook](/handbook), and options from [Almanac](https://almanac.io/) and [Trainual](https://trainual.com/) are available as well.
 
@@ -259,24 +259,24 @@ Learning is personal. Not only does it vary from person to person, but it can va
 
 Remote managers should view this as a perpetual item for discussion. As the relationship evolves, skills are built, and experiences are gained, it's possible that one's preferred style will shift.
 
-Managers of global teams should also anticipate a variety of styles to be represented in their team. This encourages [diversity]({{< ref "inclusion" >}}), and it requires a manager to be cognizant of what style they're interacting with when bouncing between conversations. In a colocated space, reports may flex their style to more closely align with people they are in physical proximity to.
+Managers of global teams should also anticipate a variety of styles to be represented in their team. This encourages [diversity](/handbook/company/culture/inclusion/), and it requires a manager to be cognizant of what style they're interacting with when bouncing between conversations. In a colocated space, reports may flex their style to more closely align with people they are in physical proximity to.
 
 ## Focus on career progression
 
 ![GitLab all-remote computer](/images/all-remote/gitlab-commit-sf-2020-map.jpg)
 {style="max-width:50%;"}
 
-A common concern of remote workers is the perceived inability to further their career while outside of an office. This is often seen in [hybrid-remote]({{< ref "./hybrid-remote" >}}) companies, where remote employees may wonder if team members who commute into the office will be better positioned for raises and promotion opportunities.
+A common concern of remote workers is the perceived inability to further their career while outside of an office. This is often seen in [hybrid-remote](hybrid-remote/) companies, where remote employees may wonder if team members who commute into the office will be better positioned for raises and promotion opportunities.
 
 Great remote managers will proactively ask about one's [career goals]({{< ref "career-development" >}}), and frequently discuss how a report is moving towards a particular career objective.
 
-[Research from Headlamp](https://headlamp.team/engaging-remote-employees-managers-guide/) shows that 82% of workers said they would be more engaged in their work if their managers regularly discussed their career aspirations but only 16% of employees reported having those conversations on a regular basis. By having [regular conversations about career advancement](https://headlamp.team/engaging-remote-employees-managers-guide/#chapter5) with your remote team, you can build a more connected and engaged workforce.
+[Research from Headlamp](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/) shows that 82% of workers said they would be more engaged in their work if their managers regularly discussed their career aspirations but only 16% of employees reported having those conversations on a regular basis. By having [regular conversations about career advancement](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/#chapter5) with your remote team, you can build a more connected and engaged workforce.
 
 GitLab favors more frequent conversations on this topic — even during [routine 1-1 conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) — as opposed to waiting until an annual review cycle.
 
 ## Remove roadblocks to improve productivity
 
-In a global all-remote organization, [driving results](/handbook/values/#hierarchy) is a core value. As a manager, you have to keep many balls in the air simultaneously and shift your energy and attention to activities that will produce the greatest output (also known as "[managerial leverage](https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63)"). Removing roadblocks to improve productivity is a key skillset of any remote manager. Great managers will delegate activities while giving team members the full picture, encourage others to work according to [GitLab's values]({{< ref "values" >}}), and set their direct reports up for success.
+In a global all-remote organization, [driving results](/handbook/values/#hierarchy) is a core value. As a manager, you have to keep many balls in the air simultaneously and shift your energy and attention to activities that will produce the greatest output (also known as "[managerial leverage](https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63)"). Removing roadblocks to improve productivity is a key skill set of any remote manager. Great managers will delegate activities while giving team members the full picture, encourage others to work according to [GitLab's values](/handbook/values/), and set their direct reports up for success.
 
 To improve managerial productivity:
 
@@ -311,13 +311,13 @@ Transparency helps keep your team connected to the work and each other. Some bes
 
 ## Managing non-remote team members
 
-In an [all-remote environment]({{< ref "./stages" >}}), where every single member works outside of a centralized company office, you won't be put in a situation where a remote manager must manage a non-remote team member.
+In an [all-remote environment](stages/), where every single member works outside of a centralized company office, you won't be put in a situation where a remote manager must manage a non-remote team member.
 
-However, it *is* conceivable that a remote leader would manage a colocated third-party team. For example, a remote public relations (PR) manager overseeing a colocated agency team on contract. In [hybrid-remote companies]({{< ref "./hybrid-remote" >}}), this scenario is more common, as a subset of the company commutes into a physical office while others work remotely.
+However, it *is* conceivable that a remote leader would manage a colocated third-party team. For example, a remote public relations (PR) manager overseeing a colocated agency team on contract. In [hybrid-remote companies](hybrid-remote/), this scenario is more common, as a subset of the company commutes into a physical office while others work remotely.
 
-This arrangement is best addressed when colocated members adopt [remote-first communication and workflow practices]({{< ref "./how-to-work-remote-first" >}}). Managing these teams may require additional coaching to use tools like Zoom and Slack in place of in-person communication, even if it feels unnatural, in order to treat everyone as equally as possible.
+This arrangement is best addressed when colocated members adopt [remote-first communication and workflow practices](how-to-work-remote-first/). Managing these teams may require additional coaching to use tools like Zoom and Slack in place of in-person communication, even if it feels unnatural, in order to treat everyone as equally as possible.
 
-For example, if you're leading a syncronous meeting with colocated reports, ask that each person [use their own]({{< ref "./how-to-work-remote-first#everyone-must-use-their-own-webcam-no-hybrid-calls" >}}) webcam and microphone, and that all [documented discussion]({{< ref "./handbook-first" >}}) occur in a shared document.
+For example, if you're leading a synchronous meeting with colocated reports, ask that each person [use their own](how-to-work-remote-first/#everyone-must-use-their-own-webcam-no-hybrid-calls) webcam and microphone, and that all [documented discussion](handbook-first/) occur in a shared document.
 
 ## What GitLab managers say about what it means to be a leader
 

@@ -5,11 +5,11 @@ description: Learning Pathways available to Support team members
 
 ## Support Learning Pathways
 
-All the learning pathways we have in Support are listed [here](https://gitlab-com.gitlab.io/support/team/skills-by-subject). Each pathway contains a set of modules, and a module may reside in multiple pathways.
+All the learning pathways we have in Support are listed [here](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html). Each pathway contains a set of modules, and a module may reside in multiple pathways.
 
 To create an issue for yourself with one of the module templates:
 
-- Click on the module you want to pursue from the [Skills Catalog](https://gitlab-com.gitlab.io/support/team/skills-catalog) page
+- Click on the module you want to pursue from the [Skills Catalog](https://gitlab-support-readiness.gitlab.io/support-team/skills-catalog.html) page
 - Title it as ***Your Name*: *Module Name***
 - Assign it to yourself
 - Now you're all set to follow the instructions in the module!
@@ -118,7 +118,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 When these modules are complete:
 
 1. Let your manager know that you are ready to [proceed to the appropriate on-call rotation training](#on-call-rotations).
-1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team.yaml page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml), removing onboarding.
+1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team project](https://gitlab.com/gitlab-support-readiness/support-team), removing onboarding.
 
 ### License and Renewals Learning Pathway
 

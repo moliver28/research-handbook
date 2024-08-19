@@ -24,7 +24,7 @@ Topics covered include:
 
 > If there is one management book you should read, it is High Output Management. A lot of GitLab policies are directly from the book. Managers can learn that the most challenging aspect of management, is managing their time to make decisions and achieve results. This book will teach you how.
 
-Team members can [expense](HTTPS://ABOUT.GITLAB.COM/handbook/finance/expenses/) the book if they choose to [purchase](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/ref=sr_1_1?dchild=1&keywords=High+Output+Management&qid=1612303222&sr=8-1).
+Team members can [expense](/handbook/finance/expenses/) the book if they choose to [purchase](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/ref=sr_1_1?dchild=1&keywords=High+Output+Management&qid=1612303222&sr=8-1).
 
 ### High Output Management
 
@@ -39,13 +39,13 @@ For example, managers at GitLab can:
 
 ### Application of Individual KPIs
 
-A topic covered in High Output Management is for managers to choose [Key Performance Indicators]({{< ref "kpis" >}}) to help their team achieve results. Managers are responsible for ensuring their teams have KPIs linked to the company [OKRs](/handbook/company/okrs). Managers can also create both team and individual KPIs to measure what gets done. If people leaders set a goal around a desired outcome for their people, the chances of that outcome occurring can be higher; simply because you have committed to managing and measuring direct report progress towards it.
+A topic covered in High Output Management is for managers to choose [Key Performance Indicators](/handbook/company/kpis/) to help their team achieve results. Managers are responsible for ensuring their teams have KPIs linked to the company [OKRs](/handbook/company/okrs). Managers can also create both team and individual KPIs to measure what gets done. If people leaders set a goal around a desired outcome for their people, the chances of that outcome occurring can be higher; simply because you have committed to managing and measuring direct report progress towards it.
 
 When you set goals and KPIs with direct reports, make sure they align with your team's overall strategy and KPIs, which aligns with the organization's overall strategy.
 
 ### Performance Management
 
-In the book, the author describes applying [async](/handbook/values/#bias-towards-asynchronous-communication) practices to begin performance discussions. Managers use a regularly scheduled [1-1 meeting](/handbook/leadership/1-1/) to discuss performance with a direct report. They prepare a document before the meeting with all of the key points, areas of strength, areas of development, and a plan for the future. This gives the direct report time to digest before the performance discussion. The [synchronous meeting]({{< ref "communication#video-calls" >}}) time can be used by the direct report to ask clarifying questions on the feedback. Managers are able to focus their attention on key points rather than covering all the points in one meeting.
+In the book, the author describes applying [async](/handbook/values/#bias-towards-asynchronous-communication) practices to begin performance discussions. Managers use a regularly scheduled [1-1 meeting](/handbook/leadership/1-1/) to discuss performance with a direct report. They prepare a document before the meeting with all of the key points, areas of strength, areas of development, and a plan for the future. This gives the direct report time to digest before the performance discussion. The [synchronous meeting](/handbook/communication/#video-calls) time can be used by the direct report to ask clarifying questions on the feedback. Managers are able to focus their attention on key points rather than covering all the points in one meeting.
 
 ### Training is the Boss's Job
 

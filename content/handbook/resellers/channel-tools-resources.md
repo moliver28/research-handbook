@@ -100,7 +100,7 @@ GitLab uses the Partner Portal, and our News on Demand Platform to communicate w
 
 - **Not receiving communications?** Typically a person has opted out. Contact the Partner Help Desk, and we can add you back in. Partners can access archived articles by accessing the News tab at the top of the portal.
 
-- **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](https://about.gitlab.com/handbook/).
+- **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](/handbook/).
 
 ## **More Channel Partner Program Information**
 

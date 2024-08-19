@@ -98,19 +98,19 @@ Also, [we do not say no by-default to having existing paid features contributed 
 **Vendor Lock-In.**
 Premium features make it more difficult to switch workflows. -
 GitLab the product [plays well with others](/handbook/product/gitlab-the-product/#plays-well-with-others). As we outline,
-> Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](https://about.gitlab.com/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/project_services.html).
+> Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](https://about.gitlab.com/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
 > GitLab [welcomes and supports new integrations](https://about.gitlab.com/partners/technology-partners/integrate/) to be created to extend collaborations with other products. GitLab plays well with others by providing APIs for nearly anything you can do within GitLab. GitLab can be a [provider of authentication](https://docs.gitlab.com/ee/integration/oauth_provider.html) for external applications. **GitLab is open source so people are very welcome to add anything that they are missing.**
 
 **Community Is Devalued.**
 Community is seen as a marketing tool instead of as participants working to make the product better together. -
-We care deeply about our community and depend on all GitLabbers to help us improve our [category and stage maturity](https://about.gitlab.com/direction/maturity/).
+We care deeply about our community and depend on all GitLabbers to help us improve our [category and stage maturity](https://about.gitlab.com/direction/#maturity).
 We have [Merge Request Coaches](/job-families/expert/merge-request-coach/) who help contributors get their merge requests to meet the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria),
 and [wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) is [a GitLab KPI](/handbook/company/kpis/#gitlab-kpis).
 
 **Deployment Constrained.**
 Customers are afraid of confusing or unsanctioned licenses entering a business environment. -
  We don't use a limiting license such as SSPL. As we highlight [in our docs](https://docs.gitlab.com/ee/development/licensing.html),
-[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initative](https://opensource.org/licenses/alphabetical).
+[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initiative](https://opensource.org/licenses/alphabetical).
 
 ## Existing Contributed Open Source Features Will Not Become Source-Available
 
@@ -171,7 +171,7 @@ GitLab is open core built entirely with open source. We rely on [thousands of de
 Shipping as much open source as possible is critical to our [business model](#business-model) because it increases the velocity of our [flywheels](/handbook/company/strategy/#dual-flywheels). The faster they spin, the more we can contribute back.
 
 **Contribute At Scale.**
-GitLab is a single application for the entire DevOps lifecycle. By [freely providing](https://about.gitlab.com/solutions/open-source/join/) the top tier of GitLab to [open source projects](https://about.gitlab.com/solutions/open-source/projects/), we are enabling them to be more efficient, secure, and productive.
+GitLab is a single application for the entire DevOps lifecycle. By [freely providing](https://about.gitlab.com/solutions/open-source/join/) the top tier of GitLab to [open source projects](https://about.gitlab.com/solutions/open-source/), we are enabling them to be more efficient, secure, and productive.
 
 The combination of the above leads to global optimization on a much larger scale than anything we could contribute with a small portion of our time working on things that don't directly move our vision forward.
 

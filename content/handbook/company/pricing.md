@@ -409,7 +409,7 @@ Not sure what is normal in the market. Adobe did a good job, but they moved from
 
 ## When is a dollar not a dollar?
 
-This is the title of a [great article](https://codingvc.com/when-is-a-dollar-not-a-dollar/) of which we'll apply the 8 points to GitLab below:
+This is the title of a [great article](https://www.codingvc.com/p/when-is-a-dollar-not-a-dollar) of which we'll apply the 8 points to GitLab below:
 
 1. Cost vs. revenue: we can help both to reduce costs and increase revenue, make sure you align to what the priorities of the prospect are.
 1. Principle agent problem: for a VP of Engineering, you probably want to highlight our features that provide more visibility over features that save developers time.

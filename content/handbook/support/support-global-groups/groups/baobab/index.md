@@ -30,13 +30,6 @@ Suggestions for improvements to these workflows are encouraged at any time, from
   - If nobody volunteered or has the knowledge to take it, maybe ask an expert from another SGG.
   - As a last resort, ask the manager on-call to help find an assignee.
 
-## How to handle HPAR tickets
-
-- Reply if you can or leave an internal comment, especially if the ticket is near breaching, and
-  take assignment of it.
-- Make sure to leave a word for the next region to keep an eye on the ticket (in a handover thread on slack),
-  or have other unofficial assignees in other regions. Identify those people and work with them towards resolution.
-
 ## How to handle NRTs
 
 **We aim for not having any unassigned tickets and at least no > 5 days NRT breaches**

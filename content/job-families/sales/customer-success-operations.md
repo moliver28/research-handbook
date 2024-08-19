@@ -217,4 +217,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Next, candidates will be invited to interview with 2-5 teammates
 - Finally, candidates may be asked to complete a final interview with our leadership team
 
-Additional details about our process can be found on our [hiring page](https://about.gitlab.com/handbook/hiring).
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

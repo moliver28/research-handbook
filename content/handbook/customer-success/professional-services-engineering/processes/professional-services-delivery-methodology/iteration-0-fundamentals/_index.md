@@ -10,9 +10,9 @@ description: "Learn about the core pieces to iteration 0 of a GitLab PS engageme
 3. Agree on working cadences.
 4. Align on vision, scope, and goals for your specific team.
 
-[Iteration 0 Fundamentals](./iteration-0-fund.png)
+[Iteration 0 Fundamentals](iteration-0-fund.png)
 
-[Iteration Execution](./iterative-exec-delivery.png)
+[Iteration Execution](iterative-exec-delivery.png)
 
 ## Engagement Planning
 
@@ -23,9 +23,9 @@ Starts at the EM>PS Delivery Transition and continues through the Stakeholder Pl
 3. Define [Definition of Done (DoD)](../definition-of-done/_index.md) and, if needed, the [Definition of Ready (DoR)](../definition-of-ready/_index.md).
 4. Understand constraints, impediments and risks for your specific team.
 
-[Team Norms](./align-team-norms.png)
+[Team Norms](align-team-norms.png)
 
-[Orient Team](./orient-roles-responsibilities.png)
+[Orient Team](orient-roles-responsibilities.png)
 
 ## Setup of Technical and Business Foundation
 

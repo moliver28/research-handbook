@@ -313,7 +313,7 @@ For any Digital Experience analytics request, please create an issue within the 
 
 #### SMB
 
-1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
+1. Contact a Sales Development Manager ([Jonathan Rivat](https://gitlab.com/jrivat)) or Director, of Sales Dev Operations ([Ramona Elliott](https://gitlab.com/monaelliott)).
 2. Let them know what team you're from and that you'd like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you're trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
 3. Inform the Sales Development Manager or Director, Sales Development how many shadows you'd like to do and a rough timeline for when you'd like to do them.
 4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
@@ -422,7 +422,7 @@ The deletion of BE files is handled in the same WWW delete job by [pulling the l
     <ul>
       <li>You can use the <a href="https://www.figma.com/file/nWIOpmuMp7RZXmfTj6ujAF/Slippers_foundations?node-id=1280%3A62">Blocks section in Slippers</a> to "shop" for blocks and plan your content to work with designs that already exist.</li>
       <li>This youtube video shows <a href="https://www.youtube.com/watch?v=HbnxXE4PT_s">how to navigate the Slippers Figma file</a> and how a content doc can work with the blocks.</li>
-      <li>Not sure what a "block" is? You can read about that and more on our <a href="https://about.gitlab.com/handbook/marketing/digital-experience/digital-definitions/#blocks">Digital Definitions</a> handbook page.</li>
+      <li>Not sure what a "block" is? You can read about that and more on our <a href="https://handbook.gitlab.com/handbook/marketing/digital-experience/digital-definitions/#blocks">Digital Definitions</a> handbook page.</li>
     </ul>
     <li>Provide the content in the layout of the existing block or page template</li>
     <ul>
@@ -434,7 +434,7 @@ The deletion of BE files is handled in the same WWW delete job by [pulling the l
 <details>
     <summary>Image Requirements</summary>
     <ul>
-      <li>See <a href="https://about.gitlab.com/handbook/marketing/digital-experience/image-guidelines/">image guidelines</a> for specs</li>
+      <li>See <a href="https://handbook.gitlab.com/handbook/marketing/digital-experience/image-guidelines/">image guidelines</a> for specs</li>
     </ul>
 </details>
 <details>

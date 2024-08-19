@@ -57,6 +57,21 @@ Docker is a platform commonly used by developers to build container applications
         - docker push $IMAGE
     ```
 
+    > There are alternative methods that can be used for building Docker based images. If you runners do not support Docker in Docker, you can consider using a tool like `kaniko`, as shown in the configuration below:
+    
+    ```yml
+    build image:
+      stage: build
+      image:
+        name: gcr.io/kaniko-project/executor:v1.14.0-debug
+        entrypoint: [""]
+      script:
+        - /kaniko/executor
+          --context "${CI_PROJECT_DIR}"
+          --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+          --destination "${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}"
+    ```
+
 1. In the **Commit message** field, type `Add "build image" job definition`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
 
 ### Task C: Ensure the Pipeline is Running

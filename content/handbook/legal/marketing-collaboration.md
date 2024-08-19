@@ -34,7 +34,7 @@ While you can have the same word for *different* markets, you can't have differe
 
 Like with any conversation, it is critical to be aware of how your words are received in different cultures.
 
-Note: Trademarks aren't just words.  As mentioned above, trademarks can be symbols, as well, and this catetgory is very broad. Take the following examples -
+Note: Trademarks aren't just words.  As mentioned above, trademarks can be symbols, as well, and this category is very broad. Take the following examples -
 
 - **Colors** Owens Corning trademarked the color pink for insulation. No other company can make insulation that color.  If you ever see insulation that is pink, you know who made it. John Deere trademarked a specific color of green for farm equipment.  McDonald's has the Golden Arches.
 - **Sounds**  NBC trademarked the chimes that you hear during intermissions. Intel has a trademarked sound.
@@ -52,7 +52,7 @@ Marketing owns GitLab's [Brand Guidelines](/handbook/marketing/brand-and-product
        - Company Address
        - Email Address for Notices
        - Legal Contact
-   1. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifcations** the third party requests to the Authorization.
+   1. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifications** the third party requests to the Authorization.
    1. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix).
 
 ### Third party infringement of GitLab trademarks
@@ -69,7 +69,7 @@ If we suspect that a third party is making unauthorized use of the term **GitLab
 **Some examples of unauthorized use may be found in:**
 
 - **Third party marketing materials or product names:** Unauthorized use in a way that infers that GitLab endorses or sponsors the publisher of the marketing material.
-- **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://services.google.com/inquiry/aw_tmcomplaint), [Bing](https://about.ads.microsoft.com/en-us/resources/policies/trademark-misuse))
+- **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://services.google.com/inquiry/aw_tmcomplaint), [Bing](https://about.ads.microsoft.com/en/forms/policies/intellectual-property-complaint-form))
 
 If you're not a GitLab team member, please share any reports of suspected infringement with us at intellectualproperty@gitlab.com.
 

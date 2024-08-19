@@ -82,7 +82,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 **Examples:**
 
-> - Blog: [Quickstart guide for GitLab Remote Development workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
+> - Blog: [Quickstart guide for GitLab Workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
 > - Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
 > - Handbook: [CEO handbook page](/handbook/ceo/)
 > - Handbook: [Communication handbook page](/handbook/communication/)
@@ -250,7 +250,7 @@ For external-facing content, spell out the month and use a comma before the year
 >
 > ✅ On November 16, 2023, we released GitLab 16.6.
 >
-> ✅ We released Gitlab 16.6 in November 2023.
+> ✅ We released GitLab 16.6 in November 2023.
 
 For internal content, use ISO format (_2023-11-16_). In content geared toward a specific region, use the format preferred in that region.
 

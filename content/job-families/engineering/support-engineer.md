@@ -70,7 +70,7 @@ When you're not tackling difficult customer challenges, you'll have a lot of fre
 
 ## Requirements
 
-### You should [apply](https://boards.greenhouse.io/gitlab) if
+You should [apply](https://boards.greenhouse.io/gitlab) if:
 
 ### You've got the personality
 
@@ -149,7 +149,7 @@ OR, Skip to the topics of interest to you:
 
 Support Engineers with verified US Citizenship may join the GitLab US Government Support Team. This group works through the [US Government Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
-There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
+There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screen share or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
 
 ### Support Engineer (Shift)
 
@@ -161,11 +161,13 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 - Valid proof of US Citizenship
 
-### [What it's like to work here](/handbook/company/culture/#so-thats-what-its-like-to-work-at-gitlab) at GitLab
+### What it's like to work here at GitLab
 
 The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
 Also, every year or so, we'll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
+
+Find more information about what it's like to work here in [our candidate FAQ](/handbook/hiring/candidate-faq/).
 
 Our hiring process for this Support Engineer position typically follows five stages. The details of this process and the compensation for this role can be found in our [hiring process](#hiring-process).
 

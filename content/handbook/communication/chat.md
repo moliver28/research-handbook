@@ -31,15 +31,12 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#new_team_members`                  | For new GitLab team members to introduce themselves to the company and for existing team members to share updates with new hires.                                                                                                    |
 | `#new-vacancies`                  | For all GitLab team members to be aware of internal opportunities, as well as all job openings as they are listed. Please review the [referral process](/handbook/hiring/referral-process/) page to find out more about referring someone for a role.                                                                                                   |
 | `#payroll`                           | For questions pertaining to [payroll](/handbook/finance/payroll/) and [contractor invoices](/handbook/finance/payroll/#non-us) (e.g. ADP, etc.).                                                                                     |
-| `#people-connect`                         | For general People Ops questions (e.g. [onboarding](/handbook/people-group/general-onboarding/), [offboarding](/handbook/people-group/offboarding/), [team meetings](/handbook/company/culture/all-remote/meetings/), etc.). Also for anything related to compensation, benefits, or equity. You can also check out the Total Rewards [issue tracker](https://gitlab.com/gitlab-com/people-group/total-rewards/issues) and [handbook page](/handbook/total-rewards/)!                  |
 | `#safe`                            | SAFE                                                                                  |
 | `#security`                            | Security                                                                                  |
 | `#talent-acquisition`                | For questions about [referrals](/handbook/hiring/referral-process/), the [hiring process](/handbook/hiring/), and/or candidate status.                                                                                               |
 | `#team-member-updates`               | To stay updated on transitions/promotions, new GitLab team members joining, work anniversaries, etc.                                                                                                                                 |
 
-### General Channels
-
-{: #random-room}
+### General Channels {#random-room}
 
 There are a lot of general channels, just to name a few:
 
@@ -73,9 +70,9 @@ To get in touch with the [e-group](/handbook/company/team/?department=executive)
 To raise an issue with a specific team, please use below most commonly used channels;
 
 - **`#people-connect`**: For general People Operations tasks such us onboarding, offboarding, letter of employment, Team calender events management etc
-- **`#it-help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
-- **`#payroll_expenses`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
-- **`#talent acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
+- **`#it_help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
+- **`#payroll`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
+- **`#talent-acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
 - **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
 
 ### Channel Categories
@@ -87,6 +84,22 @@ These channels (prefixed with a `a_`) are for team members to collaborate and co
 To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
 
 Commercial (Mid-Market and SMB) accounts have specific guidelines around having Slack channels with customers.
+
+#### External Channels (ext-)
+
+These channels (prefixed with `ext-`) are used for communication with vendors or partners. They are typically shared channels between GitLab's Slack workspace and the external organization's Slack workspace.
+
+**Example**
+
+- **`#ext-gitlab-abc`**: Shared channel with Customer/Vendor ABC for project collaboration and support.
+
+When using an external channel, ensure that you follow GitLab's guidelines for external communication, including keeping information [SAFE](/handbook/legal/safe-framework/). External channels with no activity in the last year will be removed by CorpSec. 
+
+Steps:
+
+1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new#) with template "slack_googlegroup_1Passwordgroupvault".
+1. After the access request is approved by your manager, please invite the external party to our Slack workspace. This will generate a message in #shared-channels.
+1. Please share that access request by replying to the message generated in #shared-channels. An administrator will then approve the request.
 
 #### Feature Channels (f_)
 

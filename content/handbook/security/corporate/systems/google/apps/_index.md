@@ -6,7 +6,7 @@ Effective 2024-06-26, Google Workspace applications that connect via OAuth are b
 
 ### Adding an external OAuth application to Google Workspace
 
-You need to create a [vendor approval issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=app_integrations).
+Please create a [app integration issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=app_integrations). Once the app integration issue has undergone all necessary reviews and approvals, please [submit a CorpSec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new) and link the app integration issue.
 
 ### Adding an internal app/app script to Google Workspace
 
@@ -22,6 +22,12 @@ You may be blocked from using an internal Google Apps Script, particularly if it
 1. Select **Save and Continue** (may not need to add any scopes)
 1. Click the **Google Cloud** logo at the top left of the screen and copy your **Project ID**
 1. Now in the Google Doc/Sheet/Slides:
-   1. Select Extensions > Apps scripts
-   1. Select the Settings wheel -> Project settings
-   1. Under Google Cloud Platform (GCP) Project -> choose "Change Project" and paste your Project ID. Then "Set project"
+   1. Select **Extensions > Apps scripts**
+   1. Select the **Settings wheel -> Project settings**
+   1. Under Google Cloud Platform (GCP) Project heading, choose **Change Project** and paste your **Project ID**, then **Set project**
+
+#### Troubleshooting
+
+1. If you continue to get authorization errors after completing the above:
+   1. Open the script editor console and run the script manually
+   1. Manually approve the OAuth access dialogs and authorizations

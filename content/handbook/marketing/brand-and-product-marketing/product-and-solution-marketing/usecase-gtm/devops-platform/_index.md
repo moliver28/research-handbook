@@ -2,9 +2,9 @@
 title: "DevOps Solution Resource: DevOps Platform"
 ---
 
-## Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)
+**Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)**
 
-## GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information
+**GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information**
 
 The page below is intended to align GitLab's sales and marketing efforts with a single source of truth for our go-to-market efforts around the benefits of a single DevOps Platform.
 
@@ -105,7 +105,7 @@ GitLab fully supports coexistence with other tools. Since the DevOps Platform pr
 
 **You can't be best at everything / I don't want to compromise**
 
-By GitLab's own admission, [some aspects of the DevOps Platform are more mature than others](https://about.gitlab.com/direction/maturity/). Customers naturally want the best of everything, so the possibility of "missing out" is very much on their minds when considering solutions. In these cases, work with the customer to lay out their business needs and the tradeoffs they're making to integrate a given point solutions.
+By GitLab's own admission, [some aspects of the DevOps Platform are more mature than others](https://about.gitlab.com/direction/#maturity). Customers naturally want the best of everything, so the possibility of "missing out" is very much on their minds when considering solutions. In these cases, work with the customer to lay out their business needs and the tradeoffs they're making to integrate a given point solutions.
 
 For example, if the customer is focused on a specific project planning solution, find out whether there are any specific must-have features that GitLab simply lacks. If that is truly the case, integrating that specific tool with the remainder of GitLab may be the best course of action as our functionality matures. On the other hand, if a solution is considered more mature for reasons that are irrelevant to the user or there is a different approach within GitLab that can meet the same business needs, the network effect of a DevOps Platform and the simplicity of maintaining it are more than enough reason to switch. In either case, the GitLab DevOps Platform can streamline and simplify the remainder of the customer's lifecycle.
 
@@ -144,7 +144,7 @@ The greater cost of operational inefficiencies is business agility.
 |-----------------|-------------|---------------|
 | **A Complete DevOps Platform delivered as a single Application** | A single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity. | [DevOps Platform with GitLab](https://www.youtube.com/watch?v=2aJnWkzAwks) |
 | **End-to-End Visibility** | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
-| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
+| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
 
 ## Required capabilities
 
@@ -231,7 +231,7 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
 
@@ -253,9 +253,9 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
-### [Message House](./message-house/)
+### Message House
 
-*The message house provides a structure to describe and discuss value and differentiators for the value play.*
+*The [message house](message-house/) provides a structure to describe and discuss value and differentiators for the value play.*
 
 ## Technical Resources for Solution Architects
 

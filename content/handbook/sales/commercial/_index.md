@@ -476,11 +476,7 @@ Support will take the lead on all incoming requests in the queue and only forwar
 
 > Note: if you need access to a system, [open an Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
 
-License Key Management for On-Premise Trials & Subscriptions
-
-- Access [the LicenseApp](https://license.gitlab.com/) to resend or provide changes to a license key or trial evaluation
-
-GitLab.com Trials & Subscription Management
+GitLab Trials & Subscription Management
 
 - Access [the CustomersDot](https://customers.gitlab.com/admin/customer) to provide changes to a user, group, or subscription.
 

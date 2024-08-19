@@ -103,7 +103,7 @@ View [UX Department Performance Indicators](/handbook/product/ux/performance-ind
 
 ## Director, Technical Writing
 
-The Director of Technical Writing reports to the VP of UX. Technical Writing Managers and Senior Technical Writing Managers report to the Director of Technical Writing.
+The Director of Technical Writing reports to the VP of UX. Technical Writing Managers, Senior Technical Writing Managers, and Full Stack Engineers, Technical Writing report to the Director of Technical Writing.
 
 ### Job Grade
 
@@ -111,9 +111,9 @@ The Director, Technical Writing is a [grade 10](/handbook/total-rewards/compensa
 
 ### Responsibilities
 
-- Hire, retain, and support a world-class team of Technical Writers and Technical Writing Managers.
+- Hire, retain, and support a world-class team of Technical Writers, Technical Writing Managers, and Full Stack Engineers, Technical Writing.
 - Actively advocate for Technical Writing throughout the company.
-- Mentor managers and writers to grow their soft skills and technical experience.
+- Mentor team members and managers to grow their soft skills and technical experience.
 - Make docs.gitlab.com an exceptional experience by coordinating UX research, metrics, planning, design, and development work.
 - Identify opportunities for process improvement, including automation, and coordinating the implementation and communication of these changes.
 - Promote efficiency and usability using a clear content strategy that defines the types and structure of content, as well as optimal workflow and continued maintenance.
@@ -130,7 +130,7 @@ The Director, Technical Writing is a [grade 10](/handbook/total-rewards/compensa
 - Self-motivated and robust organizational skills.
 - Substantial written and spoken communication skills.
 - Familiarity with static site generators, HTML, and CSS.
-- Able to use GitLab.
+- Ability to use GitLab.
 - Experience with workflows and tooling used by engineering, operations, and product teams.
 - Familiarity with Continuous Integration, Containers, Kubernetes, and Project Management software a plus.
 - Able to work with the wider GitLab community.

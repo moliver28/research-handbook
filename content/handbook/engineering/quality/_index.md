@@ -103,7 +103,7 @@ We staff our department with the following gearing ratios:
      1. Self-manage & Reference Architecture impact
      1. Must work areas
      1. Development and UX facets (number of Engineers, SUS issues)
-  - For more information, please see the [SET Gearing Prioritization Model for more (GitLab Only)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM5jmGgT5H1kDOi6UwHTbK7PnoPYTYATnLe5HgVkJqe2VvaWo9fKpbnB6gR4vhx3UDby4wUeGwPYEq/pubhtml?gid=2059771943&single=true){:target="_blank"}. With these adjustments, we would be at ~85% of the 1:1 ratio to every product group.
+  - For more information, please see the [SET Gearing Prioritization Model for more (GitLab Only)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM5jmGgT5H1kDOi6UwHTbK7PnoPYTYATnLe5HgVkJqe2VvaWo9fKpbnB6gR4vhx3UDby4wUeGwPYEq/pubhtml?gid=2059771943&single=true). With these adjustments, we would be at ~85% of the 1:1 ratio to every product group.
     - Product groups with high complexity may need more than one SET.
     - Newly formed product groups may not have an allocated SET. They may be allocated one in the future.
 - Secondary Ratio: Approximately a 1:8 ratio of Software Engineer in Test to Development Department Engineers.
@@ -248,7 +248,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 
 - Review existing customer impacting performance bugs [in our issue tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=performance&label_name%5B%5D=customer&label_name[]=type::bug) and add the ~"bug::performance" label.
 - Review issues raised due to failures in the daily performance tests and identify early warning on performance degradation which have not had customer exposure but poses a risk in the future. Apply the ~"bug::performance" label for these issues as well.
-- Review all issues labelled as ~"bug::transient".
+- Review all issues labeled as ~"bug::transient".
 
 #### Process
 

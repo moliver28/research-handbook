@@ -13,19 +13,19 @@ description: "This page is an overview of the search team alignment and the tale
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
 | Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Commercial Sales/R&D, EMEA | Ben Cowdry | Lerato Thipe |
-| Global Services & Field Operations | Kelsey Hart  | Fernando Khubeir |
+| Global Services & Field Operations | Kelsey Hart  | Alice Crosbie |
 | Customer Success & Solutions Architects, AMER | Barbara Dinoff |  Teranay Dixon |
 | All Business, APAC | Yas Priatna  | Sruthy Menon |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
 | G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
-| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Fernando Khubeir |
-| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
-| Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
+| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Teranay Dixon |
+| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
+| Engineering, Development | Matt Angell | Alice Crosbie |
 | Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Teranay Dixon |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
 | Customer Support | Joanna Michniewicz  |  Alice Crosbie |
-| Product Management | Holly Nesselroad | Fernando Khubeir |
-| Security | Holly Nesselroad | Fernando Khubeir |
+| Product Management | Holly Nesselroad | Lerato Thipe |
+| Security | Holly Nesselroad | Lerato Thipe |
 | Design/UX  | Riley Smith | Lerato Thipe  |
 | Emerging Talent  | Justin Smith | Michelle Jubrey  |
 
@@ -49,7 +49,7 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition (Infrastructure) | Jack Connors |
 | Talent Acquisition (Executive) | Rich Kahn |
 | Enablement | Marissa Farris |
-| Candidate Experience | Marissa Farris |
+| Candidate Experience | Marissa Farris (Interim: Michelle Jubrey) |
 
 ## Talent Acquisition Platform Directly Responsible Individual
 

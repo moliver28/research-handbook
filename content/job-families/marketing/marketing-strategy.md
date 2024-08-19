@@ -6,6 +6,68 @@ description: The Marketing Analytics team at GitLab is responsible for enabling 
 
 ## Levels
 
+### Marketing Analyst (Intermediate), Marketing Analytics
+
+The Marketing Analyst (Intermediate), Marketing Analytics reports to the Director, Marketing Analytics.
+
+#### Marketing Analytics Analyst (Intermediate), Marketing Analytics Job Grade
+
+The Marketing Analytics Analyst (Intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Marketing Analyst (Intermediate), Marketing Analytics Responsibilities
+
+- Develop and maintain Marketing reporting in Tableau with consistent metrics definitions and excellent user experience (UI/UX).
+- Assist with Annual Planning and ad-hoc data analysis based on business questions by Marketing Leadership.
+- Present results to the executive leadership team.
+- Continuously develop the Marketing Analytics Handbook pages to ensure they represent the current state of our strategy, processes, and operations.
+
+#### Marketing Analyst (Intermediate), Marketing Analytics Requirements
+
+- BA/BS degree in a quantitative field
+- Excellent analytical skills, creativity in problem solving, and a keen business sense
+- Strong SQL, Tableau and Snowflake skills
+- Experinece with Google Analytics, Tag Manager and web analytics data
+- Deep understanding of Salesforce and Marketo data and reporting
+- Ability to thrive in a fully remote organization
+- Share our values, and work in accordance with those values
+- Familiarity with GitLab or similar tool
+- Ability to break-down objectives into two-week delivery milestones and familiarity with - Agile methodologies
+
+### Senior Marketing Analyst, Marketing Analytics
+
+The Senior Marketing Analyst, Marketing Analytics reports to the Director, Marketing Analytics.
+
+#### Senior Marketing Analyst, Marketing Analytics Job Grade
+
+The Senior Marketing Analyst, Marketing Analytics is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Marketing Analyst, Marketing Analytics Responsibilities
+
+- Extends that of the Marketing Analyst (Intermediate) responsibilities
+- Ability to conduct sophisticated data analysis, and translate data into easily digestible messages, communications, and presentations.
+
+#### Senior Marketing Analyst, Marketing Analytics Requirements
+
+- Extends that of the Marketing Analyst (Intermediate) requirements
+- Exellent communication skills
+- Experience communicating technical concepts to non-technical team members
+
+## Specialties
+
+### Sales Development Analytics
+
+Data analytsis focused on the Sales Development organization and its key metrics.
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Requirements
+
+- Extends that of the Senior Marketing Analyst responsibilities
+- Develop and maintain Sales Development reporting in Tableau with consistent metrics definitions and excellent user experience (UI/UX).
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Responsibilities
+
+- Extends that of the Senior Marketing Analyst responsibilities
+- Hands on experience in a Sales Dev data analytics role
+
 ### Manager, Marketing Analytics
 
 The Manager, Marketing Analytics reports to the Director, Marketing Strategy and Performance.

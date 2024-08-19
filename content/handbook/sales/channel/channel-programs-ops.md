@@ -242,7 +242,7 @@ Create a [Single Access Request](https://gitlab.com/gitlab-com/team-member-epics
 4. _Assignee: *Your Manager,*_Yourself (so you can track)
 5. _Labels:_ IT::to do, AR-Priority::3 (other labels will be auto-added)
 6. Click _Submit Issue_ button
-7. In the _Comments_section below the body of the issue, type: @gitlab-com/business-technology/team-member-enablement and then click _Comment_ to post.
+7. In the _Comments_section below the body of the issue, type: @gitlab-com/gl-security/corp/helpdesk and then click _Comment_ to post.
 8. You may also want to comment to @your manager to ask them to label _AR-Approval Manager Approved_ and _ReadyForProvisioning_
 9. Once approved, it should be processed by IT-OPs within the timeframe needed
 

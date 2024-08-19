@@ -150,7 +150,6 @@ The `release` environment receives and tests every package of the current milest
 | **Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
 | ---- | --- | ------- | ------ | -------- | --------------- |
 | version | version.gitlab.com | GitLab support testing | AutoDevOps / GKE | GCP CloudSQL | N/A  |
-| license | license.gitlab.com | GitLab support testing | AutoDevOps / GKE | GCP CloudSQL | N/A  |
 | customers | customers.gitlab.com | GitLab support testing | Chef | fixture | SRE and support owner |
 | design | design.gitlab.com | Pajamas / Design website | AutoDevOps / GKE | N/A | N/A  |
 | docs | docs.gitlab.com | GitLab documentation site | GitLab Pages | N/A | N/A SRE |

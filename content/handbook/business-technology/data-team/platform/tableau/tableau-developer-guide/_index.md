@@ -72,6 +72,31 @@ In the following window, be sure to check the box for 'Embed Credentials'.
 
 </details>
 
+### Workflow for Embedding Your Rolename to Avoid Errors in Published Dashboards
+
+This is the process for ensuring that your rolename is properly embedded into your published dashboards. This has two key steps, and following them in this order can help avoid the following two errors:
+
+1. A user tries to access your published dashboard and is instead met with an error window asking them to login to Snowflake.
+1. Another analyst tries to quickly check your data source in Cloud, to see how it is built or to see how the custom SQL is constructed.
+
+The first place that you get the option to embed your rolename is when you first form a connection to your datasource. It looks like this:
+
+![Connection](images/initial_connection_rolename.png)
+
+If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
+
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook. 
+
+If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
+
+### Creating Connection Types that Allow Others Without Snowflake Access to Edit the Workbook
+
+Using a published connection, or a local extracted connection in your workbook will give the ability for others who do not have Snowflake access to edit your workbook. If a workbook is published using a local, live connection then any Explorer who wants to make edits to your workbook will need to sign-in to Snowflake, using their own credentials. This is the screen that an editor would be met with when trying to edit a workbook with a local, live connection.
+
+In the niche use-case that you want an Explorer without Snowflake access to be able to make small edits to your workbook, ensure you use only pulished, live connections, or extract the data.
+
+ ![sign in screen](images/singin.png)
+
 ## Embedding in the Handbook
 
 In order for views from workbooks to be embedded and viewable in the handbook, public or internal, the workbook and their data sources must be prepared in a specific way. To be embedded in the public handbook the workbook and relevant datasource must be copied from the [internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) site to the [public GitLab Tableau](https://us-west-2b.online.tableau.com/#/site/gitlabpublic) site. To facilitate correct viewing of embedded views and the synchronization of content to the public site, workbooks must be set up in a specific way and given a specific tag.  Views that are meant to be embedded on the internal site do not need to be in a specific project, but should still meet the set up guidelines.
@@ -323,3 +348,31 @@ Testing MR databases is a useful way to test changes before they get merged into
 It is not efficient to extensively test changes that would require many changes to the dashboard/ calculated fields, because you will not be able to save those changes for use with the updated table once the MR goes through.
 
 Make sure to open a local, development copy of the workbook/data source prior to testing the MR database.
+
+## What are Relationships? (Tableau)
+
+Relationships are a feature in Tableau that allow you to combine data from multiple tables for analysis without having to define join types. They offer a more flexible and performant way to work with multi-table data sources compared to traditional joins. Here are some key points about relationships in Tableau:
+
+1. Dynamic and flexible: Relationships adapt to the specific fields and filters used in a visualization, optimizing queries for better performance.
+
+2. Maintain data granularity: Unlike joins, relationships preserve the native level of detail in each related table, reducing data duplication and aggregation issues.
+
+3. Multiple tables at different levels of detail: You can easily relate tables with different levels of granularity without worrying about fanout or incorrect aggregations.
+
+4. Noodle diagrams: Relationships are represented visually as "noodles" connecting tables in the data model, making it easier to understand table associations.
+
+5. Context-aware: Tableau only queries the tables and fields necessary for the current visualization, improving performance and reducing unnecessary data retrieval.
+
+6. Easy to set up: Simply drag and drop tables onto the canvas and define relationships based on common fields between tables.
+
+7. Compatibility with joins: You can still use traditional joins within a single logical table, allowing for a hybrid approach when needed.
+
+8. Performance optimization: Relationships often result in better query performance compared to complex join scenarios, especially for large datasets.
+
+9. Simplified data modeling: Relationships make it easier to create and maintain complex data models without requiring extensive knowledge of join types and their implications.
+
+10. Improved data accuracy: By maintaining the native level of detail in each table, relationships help prevent accidental data loss or duplication that can occur with poorly designed joins.
+
+When working with multi-table data sources in Tableau, consider using relationships as your default approach for combining tables, reserving joins for specific scenarios where more precise control over table combinations is required.
+
+If you would like to see a simple example demonstrating how relationships work - with the SQL queries that the example produced, you can find an in-depth writeup [here](https://anniesanalytics.com/what-are-relationships-in-tableau-really).

@@ -86,7 +86,7 @@ otherwise agreed with the Product Manager and Technical Writer:
 
 - Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html),
   and other resources linked from there, including:
-  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html) page.
+  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html) page.
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
   - [Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html).
 - Contact the Technical Writer for the relevant
@@ -129,7 +129,7 @@ must:
 - Ensure the issue contains:
   - Any new or updated feature name.
   - Overview, description, and use cases when applicable (as required by the
-    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html).
+    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
 
 Everyone is encouraged to draft the documentation requirements in the issue.
 However, a Product Manager will:
@@ -453,7 +453,7 @@ To review and triage documentation feedback and improvement issues for your grou
 ## Stage leads (experiment)
 
 {{% alert title="Note" color="primary" %}}
-This section outlines a process that we have not yet used or implemented in the Technical Writing team. We plan to experiment with stage leads in Q1 and Q2 of 2024. This process is subject to change.
+This section outlines a process that we are implementing in the Technical Writing team. We plan to experiment with stage leads in Q1, Q2, and Q3 of FY2025. This process is subject to change.
 {{% /alert %}}
 
 Some Technical Writers are assigned as *stage leads* for a given DevOps stage.

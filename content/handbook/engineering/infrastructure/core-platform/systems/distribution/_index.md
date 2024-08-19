@@ -271,7 +271,7 @@ All work carried out by the Distribution team is public. Some exceptions apply:
 - Work has legal implications - Unless legal details can be omitted from the work.
 
 Some of the team work is carried out on our development server at `dev.gitlab.org`.
-[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/README.html#infrastructure) lists the reasons.
+[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/#infrastructure) lists the reasons.
 
 Unless your work is related to the security, all other work is carried out in projects on `GitLab.com`.
 If you need to submit a sensitive issue, please use confidential issues.

@@ -185,7 +185,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/qmJXn2GlASY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: The GitLab Product Team is exploring enhancements in this area. Check out the [Quality Management Direction page](https://about.gitlab.com/direction/plan/certify/).
+- **Learn more**: The GitLab Product Team is exploring enhancements in this area. Check out the [Quality Management Direction page](https://about.gitlab.com/direction/plan/).
 
 #### What are runners and how do they actually work?
 
@@ -207,7 +207,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/6Kb3BJ0bXrw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Review the [best practices documentation for using and administering GitLab Runner](https://docs.gitlab.com/runner/best_practice/)
+- **Learn more**: Review the [best practices documentation for using and administering GitLab Runner](https://docs.gitlab.com/runner/fleet_scaling/)
 
 ### Package
 

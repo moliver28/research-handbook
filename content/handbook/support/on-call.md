@@ -53,7 +53,7 @@ If another support engineer joins your emergency call, feel free to assign them 
 
 ### Take care of yourself
 
-Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](https://about.gitlab.com/handbook/people-group/paid-time-off/). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
+Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](/handbook/people-group/paid-time-off/). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
 
 When you get a notification from PagerDuty give yourself a few minutes to prepare.
 
@@ -64,6 +64,23 @@ When you get a notification from PagerDuty give yourself a few minutes to prepar
 
 When you're in a call, you do **not** need to provide *immediate* answers. You're allowed to pause for a few minutes for researching, asking for help, etc. Make sure to communicate -- let the other folks on the call know what you're doing. Example: "I need a few minutes to work through the code here and make sense of it".
 
+As well, consider taking breaks during emergency calls. Taking a break can help you to feel more refreshed while ensuring our customers get the best help we can provide.
+At the beginning of the call, set expectations with the customer by letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.
+
+When the call begins, set a timer to count down and notify you that it's time for a break. (If you forget, observe the call duration in Zoom.)
+
+When the timer goes off, summarize the current state, make sure everyone knows when the call will resume and how to join. If your timer expires but you're not at a reasonable stopping point, extend the timer by a small amount.
+
+During the break:
+
+- Stop actively working on the emergency
+- [Take care of yourself](#take-care-of-yourself)
+- Step away from your working area
+- Reflect on the current troubleshooting strategy, the goal, and other options or possible causes
+
+A 15 minute break during active troubleshooting can be a good way to reset, and help your brain come up with new, creative ideas to solve the problem at hand.
+
+While the break should be restorative, in some cases it can be helpful to use some of the break time to form a plan for what you plan to try next when the call resumes.
 If you've had a long week with multiple pages from PagerDuty or particularly long calls, consider asking someone to cover a day or some portion of a day so you can get some rest.
 
 ## How Support On-call works

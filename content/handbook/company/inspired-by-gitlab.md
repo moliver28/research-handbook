@@ -1,7 +1,5 @@
 ---
 title: "Inspired by GitLab"
-aliases:
-- /handbook/inspired-by-gitlab/
 ---
 
 ## Which companies can be listed here?
@@ -50,7 +48,7 @@ In this section we list the companies that have been inspired by GitLab with the
    - This all-remote company launched [Twist](https://doist.com/blog/twist-mindful-team-communication/), a team communications app. In a series of [Remote Work Guides](https://twist.com/remote-work-guides), Doist cites GitLab in sharing practices around all-remote [hiring](https://twist.com/remote-work-guides/remote-company-setup) and [management](https://twist.com/remote-work-guides/remote-management), as well as mastering [asynchronous communication](https://twist.com/remote-work-guides/remote-team-communication).
 1. [Joy Labs](https://joylabs.com/)
    - This all-remote company is developing communication software, including [Memo](https://memo.com/). GitLab's intentional approach to [informal communication](/handbook/company/culture/all-remote/informal-communication/) was used in [building Joy Labs' company culture](https://www.linkedin.com/posts/joylabs_informal-communication-activity-6599648936762445824-Jd-6/).
-1. [Veamly](https://veamly.com/)
+1. Veamly
    - Veamly is a remote-first software firm. CEO Emna G. was inspired GitLab's documented approach to [building company culture](/handbook/company/culture/all-remote/building-culture/), and shared elements that she is implementing in a [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) [Pick Your Brain](/handbook/company/culture/all-remote/pick-your-brain/) video.
 1. [ProxyCrawl](https://proxycrawl.com/)
    - At ProxyCrawl we are a completely remote company with employees all around the world working from home, co-working spaces, coffee shops, parks, etc. All our products have been created by our remote team. We have faced many of the issues of a worldwide remote team and GitLab handbook has helped us and inspired us to be a greater team. Special mentions to [communication](/handbook/communication/) and [all-remote](/handbook/company/culture/all-remote/guide/) pages.

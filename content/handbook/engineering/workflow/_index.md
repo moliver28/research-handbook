@@ -57,7 +57,7 @@ There are two phases for fixing a broken `master` incident which have a target S
 
 | Phase | Service level objective | DRI |
 | --- | --- | --- |
-| [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labelled on the incident |
+| [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labeled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
 Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
@@ -133,7 +133,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
         /label ~"flaky-test::transient bug"
         /label ~"flaky-test::unreliable dom selector"
         /label ~"flaky-test::unstable infrastructure"
-        /label ~"flaky-test::too-many-sql-queries" 
+        /label ~"flaky-test::too-many-sql-queries"
         ```
 
       - Close the incident
@@ -146,7 +146,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
         - You can [filter with the `Merge branch` text](https://gitlab.com/gitlab-org/gitlab/-/commits/master?search=Merge%20branch) to only see merge commits.
       - Look at the spec file history or blame views, by clicking respectively the `History` or `Blame` button at the top of a file in the file explorer, e.g. at <https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/backup.rb>.
    - If you identified a merge request, assign the incident to its author if they are available at the moment. If they are not available, assign to the maintainer that approved/merged the MR. If none are available, mention the team Engineering Manager and seek assistance in the `#development` Slack channel.
-      - You can find the team somebody is in and who's the manager for that team by searching in https://about.gitlab.com/handbook/product/categories/.
+      - You can find the team somebody is in and who's the manager for that team by searching in https://handbook.gitlab.com/handbook/product/categories/.
    - If no merge request was identified, ask for assistance in the `#development` Slack channel.
    - Please set the appropriate `~master-broken:*` label from the list below:
 
@@ -542,7 +542,7 @@ All other important dates for a milestone are relative to the release date:
 - **On or around the Wednesday immediately following the release day**:
   - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](https://about.gitlab.com/handbook/engineering/releases/security-releases/).
+  - Non-critical security patches are [released](/handbook/engineering/releases/security-releases/).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -587,7 +587,7 @@ The milestone cleanup will happen the day before the release date.
 These actions will be applied to open issues:
 
 - Open issues and merge requests will be moved to the next milestone, and
-  labelled with `~"missed:x.y"`.
+  labeled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
     is presented.
 
@@ -615,7 +615,7 @@ For technical debt which might span, or fall in gaps between groups they should 
 
 ## Deferred UX
 
-Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
 
 For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 

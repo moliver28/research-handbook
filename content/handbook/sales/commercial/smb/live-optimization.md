@@ -53,7 +53,7 @@ If a Live Optimization session wasn't discussed during the deal negotiations, th
 Once these points are documented, the AE may suggest a Live Optimization session:
 
 1. Make it known this is a one time Solutions Architect engagement.
-1. Prepare them for showing us their setup in a screenshare (a customer in regulated space or with concerns about their IP would need to prepare accordingly).
+1. Prepare them for showing us their setup in a screen share (a customer in regulated space or with concerns about their IP would need to prepare accordingly).
 
 #### Step 2: Synchronous AE Preparation: The Milestone meeting
 

@@ -1,9 +1,9 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab Overview"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+title: "GitLab with Git Fundamentals - Hands-On Lab Overview"
+description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Fundamentals course."
 ---
 
-## GitLab with Git Essentials Lab Guides
+## GitLab with Git Fundamentals Lab Guides
 
 | Lab Name |  Lab Link |
 |-----------|------------|
@@ -16,9 +16,9 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Quick links
 
-* [GitLab with Git Essentials course description](https://about.gitlab.com/services/education/gitlab-basics/)
+* [GitLab with Git Fundamentals course description](https://university.gitlab.com/pages/gitlab-fundamentals-training)
 * [GitLab Certified Associate Certification Details](https://about.gitlab.com/services/education/gitlab-certified-associate/)
 
 ## Suggestions?
 
-If you'd like to suggest changes to the *GitLab with Git Essentials Hands-on Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab with Git Fundamentals Hands-on Guide*, please submit them via merge request.

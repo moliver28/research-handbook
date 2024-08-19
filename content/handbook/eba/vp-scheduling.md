@@ -76,15 +76,17 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
 
 ## Scheduling for Product Leadership
 
-**Mike Flouton, VP of Product Management - Justin Farris, Sr Director of Product Management - Hillary Benson, Sr Director of Product Management - Steve Evangelista, Sr Director of Product Management**
+**Mike Flouton, VP of Product Management - Justin Farris, VP Product Management - Angela Pesta, VP UX - Hillary Benson, Sr Director of Product Management - Steve Evangelista, Sr Director of Product Management**
 
-- Please reach out to Jennifer Garcia (EBA) to schedule or reschedule any meetings for Mike, Justin, Hillary and Steve
-- Don't schedule over DNB and Work Block's without reaching out to Jennifer (EBA)
-- For internal and external (with those outside of GitLab) meeting requesting please contact EBA in #eba-team, including the following in your slack:
+- Please reach out to Jennifer Garcia (EBA) to schedule or reschedule any meetings for Justin Farris, and Angela Pesta
+- Please reach out to Lindsey Beyl (EBA) to schedule or reschedule any meetings for Mike Flouton, Hillary Benson and Steve Evangelista
+- Don't schedule over DNB and Work Block's without reaching out to Jennifer and Lindsey (EBA)
+- For internal and external (with those outside of GitLab) meeting requesting please contact Product EBAs in #eba-team, including the following in your slack:
   - Must have/optional attendees
   - Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
   - Duration: 25 mins, 50 mins, etc.
   - Subject of the meeting
   - Provide context: include agenda to be covered, share google doc if available, include a link to any relevant issues, slides, etc.
-  - For customer meetings please create an issue request using [this template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/product-leader-customer-meeting-request-template.md) and tag Jennifer Garcia (Product EBA) for review and availability
+    - Please ensure the leader and EBA have access to view the materials
+  - For customer meetings please create an issue request using [this template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/product-leader-customer-meeting-request-template.md) and tag Jennifer Garcia (Product EBA) and Lindsey Beyl (Product EBA) for review and availability
 - If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary

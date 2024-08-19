@@ -14,7 +14,7 @@ twitter_creator: "@gitlab"
 
 There are many types of remote arrangements, each with its unique benefits and challenges. GitLab is a fully remote company, and we work with organizations that fall into many different models - from fully co-located, to hybrid, to all-remote.
 
-This guide is a strategic resource for any company looking to solidify your remote or hybrid workplace design. If your workplace is transitioning to remote or hybrid, use this alongside our guide to the [phases of remote adaptation]({{< ref "./phases-of-remote-adaptation" >}}) to create your transition plan.
+This guide is a strategic resource for any company looking to solidify your remote or hybrid workplace design. If your workplace is transitioning to remote or hybrid, use this alongside our guide to the [phases of remote adaptation](phases-of-remote-adaptation/) to create your transition plan.
 
 If you'd like more comprehensive remote-work guidance, download [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook).
 
@@ -24,7 +24,7 @@ The ten models described here should actually be viewed on a spectrum or a slidi
 
 Once you've identified a model that should work for you, commit to the transition fully - but be open to iterating as feedback comes in.
 
-For more, see GitLab's [guide to transitioning a company to remote work](./transition).
+For more, see GitLab's [guide to transitioning a company to remote work](transition/).
 
 {{< youtube "_HhlqwJsNyM" >}}
 
@@ -60,7 +60,7 @@ Some employers allow specific remote time, such as allowing an individual or tea
 
 This model can be seen as a progression from the previous model, which increases flexibility to help improve the employee experience. The major benefit is an increase in satisfaction as your people are given more autonomy over their time.
 
-Nonetheless, there is still significant ambiguity, and the looseness is generally left up to individual managers to decide. This also hampers mobility. Employees which must commute into the office a certain amount of days per week cannot reasonably explore relocation to areas which may be more amenable, and will likely not invest heavily in creating a focused, ergonomic [workspace]({{< ref "./workspace" >}}) at home given the in-office requirement.
+Nonetheless, there is still significant ambiguity, and the looseness is generally left up to individual managers to decide. This also hampers mobility. Employees which must commute into the office a certain amount of days per week cannot reasonably explore relocation to areas which may be more amenable, and will likely not invest heavily in creating a focused, ergonomic [workspace](workspace/) at home given the in-office requirement.
 
 ## 3. Remote exceptions
 
@@ -86,7 +86,7 @@ What distinguishes this model from hybrid-remote or remote-first is that the off
 
 The biggest benefit to this model is flexibility for team members. Individuals can theoretically choose where and how they work, keeping access to the office for networking and collaboration while also having focus time away from its distractions.
 
-However, job seekers should [inquire]({{< ref "./evaluate" >}}) to what degree remote workers are supported in such environments. There is a marked difference between *allowing* remote and *supporting* remote. Some employers believe that remote employees are bypassing a commute, therefore no additional support is warranted.
+However, job seekers should [inquire](evaluate/) to what degree remote workers are supported in such environments. There is a marked difference between *allowing* remote and *supporting* remote. Some employers believe that remote employees are bypassing a commute, therefore no additional support is warranted.
 
 Other employers make concerted efforts to ensure that remote workers feel included, valued, and welcomed.
 
@@ -94,7 +94,7 @@ Firms such as [Twitter](https://blog.twitter.com/en_us/topics/company/2020/keepi
 
 ## 5. Hybrid-remote
 
-There are many flavors of [hybrid-remote]({{< ref "./hybrid-remote" >}}). The key attribute of a hybrid-remote arrangement is that *some* employees — but not all — are allowed to work remotely 100% of the time. These organizations have at least one physical office, and on any given day, a significant portion of the team physically commutes to that location.
+There are many flavors of [hybrid-remote](hybrid-remote/). The key attribute of a hybrid-remote arrangement is that *some* employees — but not all — are allowed to work remotely 100% of the time. These organizations have at least one physical office, and on any given day, a significant portion of the team physically commutes to that location.
 
 Who works remotely, and who is in the office? This is where hybrid models vary the most. For some teams, certain people are in the office all or most of the time, and others are remote all or most of the time. Other companies are experimenting with assigned remote days and in-office days for everyone. At some workplaces, the employee can choose where they work and how. At many others, it's up to management.
 
@@ -102,7 +102,7 @@ Who works remotely, and who is in the office? This is where hybrid models vary t
 
 Hybrid-remote is one of the most popular models currently being explored by organizations worldwide. The potential benefits are many: workplace flexibility; lower overhead from reduced attendance; increased productivity; and the potential for around-the-clock work.
 
-However, hybrid-remote is a [tempting compromise that masks many downsides]({{< ref "./hybrid-remote" >}}). In a hybrid-remote organization, leaders are forced to manage two fundamentally distinct ways of working. There is administrative burden to manage a default-onsite experience and a default-offsite experience, and some employees may choose to oscillate between the two.
+However, hybrid-remote is a [tempting compromise that masks many downsides](hybrid-remote/). In a hybrid-remote organization, leaders are forced to manage two fundamentally distinct ways of working. There is administrative burden to manage a default-onsite experience and a default-offsite experience, and some employees may choose to oscillate between the two.
 
 While such organizations work well for some employees, it's important to note that many hybrid-remote companies are not comfortable being publicly labeled as such. Their job vacancies may not be listed as remote-friendly. Should you apply for such a role, be prepared to lobby for assuming the role in a remote environment every step of the way.
 
@@ -120,7 +120,7 @@ In an effort to ensure that there is only ever one playing field to manage, some
 
 ### Benefits and challenges of remote days
 
-This approach may lead to stronger remote muscle being built, and [remote-first workflows]({{< ref "./how-to-work-remote-first" >}}) used on remote days could become the default even on colocated days. The entire team is subject to a [forcing function]({{< ref "./how-to-work-remote-first" >}}): on some workdays, office equipment and workflows just aren't an option.
+This approach may lead to stronger remote muscle being built, and [remote-first workflows](how-to-work-remote-first/) used on remote days could become the default even on colocated days. The entire team is subject to a [forcing function](how-to-work-remote-first/): on some workdays, office equipment and workflows just aren't an option.
 
 Remote days can be very beneficial to teams seeking a reduction in commute time, but who also want to keep equitable "face time" and in-person interaction without excluding any members of the team. Meetings can be scheduled on office days, while remote days can effectively become focus days. This also provides some flexibility for team members to reduce work/life conflict.
 
@@ -128,9 +128,9 @@ However, this can be challenging because of the significant context switch that 
 
 ## 7. Remote first
 
-Remote-first organizations optimize their workplaces for remote. They create documentation, policies, and [workflows]({{< ref "./how-to-work-remote-first" >}}) that work when assuming that 100% of the organization is remote, even if some continue to occasionally visit a company-owned office.
+Remote-first organizations optimize their workplaces for remote. They create documentation, policies, and [workflows](how-to-work-remote-first/) that work when assuming that 100% of the organization is remote, even if some continue to occasionally visit a company-owned office.
 
-These companies work to ensure that offices are simply [venues to work remotely from]({{< ref "./how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}), and are not the epicenter of power or culture.
+These companies work to ensure that offices are simply [venues to work remotely from](how-to-work-remote-first/#offices-are-simply-venues-to-work-remotely-from), and are not the epicenter of power or culture.
 
 [Quora shifting to remote-first](https://news.ycombinator.com/item?id=23646164) in June 2020 is an example of this, as is [Upwork's move](https://twitter.com/hydnbrwn/status/1263840533144727552) in May 2020.
 
@@ -144,7 +144,7 @@ The biggest challenge with a remote-first team is engagement: different team mem
 
 A remote-only organization has no physical office, and all work is done remotely. This is very similar to being all-remote, with one major distinction: most people are located in the same geographic region, so work hours are biased towards one time zone.
 
-Many companies allow employees to work remotely, but maintain "core team hours." [InVision](https://www.invisionapp.com/inside-design/studio-remote-design-team), for example, has members spread across multiple countries and time zones, but aims to achieve "at least a 4-hour overlap with InVision's core team hours, 10am–6pm Eastern Standard Time."
+Many companies allow employees to work remotely, but maintain "core team hours." [InVision](https://www.invisionapp.com/inside-design/remote-design-best-practices/), for example, has members spread across multiple countries and time zones, but aims to achieve "at least a 4-hour overlap with InVision's core team hours, 10am–6pm Eastern Standard Time."
 
 This tends to attract employees who are in relative close proximity to one another, or at the very least, in a nearby time zone even if located in a different hemisphere.
 
@@ -158,9 +158,9 @@ Second, a timezone-biased company that wants to scale its team can run into sour
 
 ## 9. All-remote
 
-"All-remote" describes organizations that do not maintain offices and work globally across many time zones. [GitLab is an all-remote company]({{< ref "./terminology" >}}), with [team members](/handbook/company/team) in 65+ countries.
+"All-remote" describes organizations that do not maintain offices and work globally across many time zones. [GitLab is an all-remote company](terminology/), with [team members](/handbook/company/team) in 65+ countries.
 
-In all-remote companies, there is no effort placed on trying to coordinate team members to a given time zone. Rather, a bias towards [asynchronous communication](./asynchronous) encourages documentation, discourages synchronous meetings as a default for collaboration, and provides greater flexibility for each member to determine the working hours that best suites their [lifestyle](./people).
+In all-remote companies, there is no effort placed on trying to coordinate team members to a given time zone. Rather, a bias towards [asynchronous communication](asynchronous/) encourages documentation, discourages synchronous meetings as a default for collaboration, and provides greater flexibility for each member to determine the working hours that best suites their [lifestyle](people/).
 
 This goes beyond enabling a work from home arrangement; all-remote creates a work from *anywhere* arrangement.
 
@@ -176,7 +176,7 @@ As part of a Harvard Business School case study [interview](https://youtu.be/jdN
 
 GitLab believes that the benefits of remote work outshine its challenges. Benefits include the ability to hire top-tier talent anywhere in the world; happier and more engaged team members; and societal impacts such as distribution of opportunity, increased diversity, and reduced traffic. There's plenty more: read our [guide to the benefits of remote work]({{< ref "remote-benefits" >}}).
 
-However, this does come with disadvantages. These may include loneliness, challenges with onboarding, difficulty building and maintaining culture, and breakdown of boundaries between work and life. Read our complete [guide to the drawbacks of remote work]({{< ref "./drawbacks" >}}) for more detail.
+However, this does come with disadvantages. These may include loneliness, challenges with onboarding, difficulty building and maintaining culture, and breakdown of boundaries between work and life. Read our complete [guide to the drawbacks of remote work](drawbacks/) for more detail.
 
 ## 10. Strictly remote
 

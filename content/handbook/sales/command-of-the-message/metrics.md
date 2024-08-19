@@ -159,5 +159,6 @@ Periodically, conduct a critical review of the below questions. This can be done
 1. Has the economic buyer made reference calls based on the identified metrics?
 
 ## Practice, Practice, Practice
-
-Purposeful practice (combined with on-the-job experience) leads to skill mastery. [Read the article](https://www.mikekunkle.com/2018/04/08/sales-leaders-its-time-to-get-serious-about-purposeful-practice-skill-mastery/). Michael Jordan became the greatest basketball player of all time, at least in part, because he worked hard at practicing and perfecting his craft. Practice having the metrics conversation with yourself, with a peer, a mentor, your manager, or other. As you become more comfortable and confident, positive results will follow.
+<!-- vale handbook.InclusionGender = NO -->
+Purposeful practice (combined with on-the-job experience) leads to skill mastery. [Read the article](https://www.mikekunkle.com/sales-leaders-its-time-to-get-serious-about-purposeful-practice-skill-mastery/). Michael Jordan became the greatest basketball player of all time, at least in part, because he worked hard at practicing, and perfecting his craft. Practice having the metrics conversation with yourself, with a peer, a mentor, your manager, or other. As you become more comfortable and confident, positive results will follow.
+<!-- vale handbook.InclusionGender = YES -->

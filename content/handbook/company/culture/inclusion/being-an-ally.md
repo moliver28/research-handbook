@@ -191,8 +191,8 @@ What you will need:
 What you will do:
 
 1. **Session 1:** Async ally training and courses. Synchronous meeting to discuss what you have learned.
-    1. [Equality Ally Strategies](https://trailhead.salesforce.com/en/content/learn/modules/workplace_equality_ally_strategies)
-    1. [Cultivate Equality at Work](https://trailhead.salesforce.com/en/content/learn/trails/champion_workplace_equality)
+    1. [Explore Ally Allyship](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
+    1. [Cultivate Equality at Work](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals)
     1. [Communicating with Empathy](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
     1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?autoplay=true&resume=false&u=2255073)
     1. [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
@@ -226,7 +226,7 @@ We held a 50 minute [Live Learning](/handbook/people-group/learning-and-developm
 
 There are some essential skills that are required to be an ally, here are a number of trainings that will help you enhance your allyship skills. Some of these are not allyship specific but will sharpen your skills in those important areas.
 
-- [Equality Ally Strategies](https://trailhead.salesforce.com/en/content/learn/modules/workplace_equality_ally_strategies)
+- [Equality Ally Strategies](https://trailhead.salesforce.com/content/learn/modules/workplace_equality_ally_strategies?trail_id=champion_workplace_equality)
 - [Champion Workplace Equality](https://trailhead.salesforce.com/en/content/learn/trails/champion_workplace_equality)
 - [Effective Listening](https://www.linkedin.com/learning/effective-listening/improve-your-listening-skills?u=2255073)
 - [How to engage meaningfully in Allyship](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
@@ -240,7 +240,7 @@ There are some essential skills that are required to be an ally, here are a numb
 
 Allies familiarize themselves with GitLab's general DIB content
 
-- [Diversity, Inclusion & Belonging page]({{< ref "inclusion" >}})
+- [Diversity, Inclusion & Belonging page](/handbook/company/culture/inclusion/)
 - [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity)
 - [DIB training resources]({{< ref "inclusion#diversity-inclusion--belonging-training-and-learning-opportunities" >}})
 - [Unconscious bias]({{< ref "unconscious-bias" >}})
@@ -251,5 +251,5 @@ Here are additional resources on being an ally
 
 - [Guide to allyship](https://www.guidetoallyship.com)
 - [5 Tips For Being An Ally](https://www.youtube.com/watch?v=_dg86g-QlM0)
-- [Ally skills workshop](https://frameshiftconsulting.com/ally-skills-workshop/). Check out the materials section with [a handout PDF](https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20handout%20-%20Letter.pdf) (linking to many more resources), [slides PDF](https://files.frameshiftconsulting.com/Ally%20Skills%20Workshop%20slides.pdf), [videos](https://www.youtube.com/watch?v=wob68Nl2440), and more.
+- [Ally skills workshop](https://frameshiftconsulting.com/ally-skills-workshop/). Check out the materials section with [a handout PDF](https://docs.google.com/document/d/1B0zNV4WKVtIB2Rsret_kbZNjtxRrewk8vbg1HAhLzCU/export?format=pdf) (linking to many more resources), [slides PDF](https://docs.google.com/presentation/d/1ApXtF-9gQEE9XFH7LEAlxcF0W4HP0z-8WXDWul2KHZs/export/pdf), [videos](https://www.youtube.com/watch?v=wob68Nl2440), and more.
 - [Why cisgender allies should put pronouns on their name tag](https://medium.com/@mrsexsmith/dear-cis-people-who-put-your-pronouns-on-your-hello-my-name-is-nametags-78c047ed7af1)

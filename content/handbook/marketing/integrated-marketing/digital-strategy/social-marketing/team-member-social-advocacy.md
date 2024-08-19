@@ -7,7 +7,7 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login){:.btn .btn-purple-inv}
+[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login)
 
 ## Team Member Social Media Advocacy and Enablement
 
@@ -146,7 +146,7 @@ Curators have all Reader access as well as the ability to curate stories and sub
 Join the #social-advocacy-curators Slack channel to stay in touch with the curator program and the latest news. This channel is intended for team members who are identified as content curators only.
 </p>
 <p>
-<a href="https://about.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/">If you're a curator or interested in becoming a curator, head to our curator-specific handbook page here.</a>
+<a href="https://handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/">If you're a curator or interested in becoming a curator, head to our curator-specific handbook page here.</a>
 </p>
 
 </details>
@@ -428,5 +428,5 @@ While you should display the fact that you work at GitLab in your bio if you int
     Where can I learn more about social media for our company?
   </summary>
 
-<i>You can <a href="https://about.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/">check out our social media handbook here</a>.</i>
+<i>You can <a href="https://handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/">check out our social media handbook here</a>.</i>
 </details>

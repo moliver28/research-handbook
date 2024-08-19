@@ -272,7 +272,7 @@ Fingerprint login and authorization has now been enabled! Note that the sddm log
 
 ## Troubleshooting
 
-### Zoom screensharing on GNOME on Wayland
+### Zoom screen sharing on GNOME on Wayland
 
 In order to share the user's screen on GNOME on Wayland, Zoom uses a private schreenshot API to chain successive screenshots into a stream. [As GNOME 41, those private D-Bus APIs have been restricted to their intended callers for security reasons, so that hack no longer works.](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/4665#note_1283742).
 
@@ -281,9 +281,9 @@ As a workaround, you can use [looking glass](https://wiki.gnome.org/Projects/Gno
 Some caveats apply to this workaround.
 
 - You are disabling a security setting. (This is no worse than a default Xorg session.)
-- Zoom freezes for about 15 seconds when initiating a screensharing session. Wait through the "application not responding" dialogue if it appears, and the "select display" prompt will appear.
+- Zoom freezes for about 15 seconds when initiating a screen sharing session. Wait through the "application not responding" dialogue if it appears, and the "select display" prompt will appear.
 - You can share whole desktops, but you cannot share individual application windows.
-- Zoom freezes for about 5 seconds upon ending a screensharing session.
+- Zoom freezes for about 5 seconds upon ending a screen sharing session.
 - This workaround must be applied at each login.
 
 ### Common issues

@@ -15,20 +15,20 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 ## Stages
 
-* [AI-Powered](./ai-powered/)
-* [ModelOps](./modelops/)
+* [AI-Powered](ai-powered/)
+* [ModelOps](modelops/)
 
 ## Career Development
 
 {{% include "includes/engineering/manage-data-science-shared/career-development.md" %}}
 
-## Holiday Gift Exchange (2023)
-
-{{% include "includes/engineering/manage-data-science-shared/holiday-exchange.md" %}}
-
 ## Team Days
 
 {{% include "includes/engineering/manage-data-science-shared/team-day.md" %}}
+
+## Say/Do Ratio
+
+{{% include "includes/engineering/manage-data-science-shared/say-do-ratio.md" %}}
 
 ## Meetings
 

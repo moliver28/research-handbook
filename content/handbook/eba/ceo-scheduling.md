@@ -166,7 +166,7 @@ Please note, requests for meeting about remote work, all-remote efforts, distrib
 - EBA to CEO should proactively schedule meetings requested via e-mail
 - Requests for introductions should follow "[The Double Opt-in Introduction](https://avc.com/2009/11/the-double-optin-introduction/))" guide: when introducing two people who don't know each other, ask each of them to opt-in to the introduction before making it.
 - Standard reply for recruiters:
-  - "We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](/handbook/hiring/candidate/faq/)."
+  - "We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](/handbook/hiring/candidate-faq/)."
 
 ### Travel preferences
 

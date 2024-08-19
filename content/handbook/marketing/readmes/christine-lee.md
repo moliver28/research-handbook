@@ -1,5 +1,5 @@
 ---
-title: "Christine Lee README (Sr. Director Marketing Strategy & Analytics)"
+title: "Christine Lee README (VP, Marketing Ops & Analytics)"
 description: "Learn more about working with Christine Lee"
 ---
 
@@ -14,7 +14,7 @@ Please feel free to contribute to this page by opening a merge request.
 - I grew up in Alpharetta, Georgia (a suburb near Atlanta), and went to college at MIT in Cambridge, Massachusetts, where I studied Materials Science & Engineering.
 - I have lived in the San Francisco Bay Area since 2009. It feels like home now, though I still visit my family in Atlanta often.
 - I live in San Jose, CA with my partner Dennis and my two pet bunnies, Cinnabun and Teddy.
-- I currently lead our [Marketing Strategy & Analytics (MS&A)](/handbook/marketing/strategy-performance/) team at GitLab.
+- I currently lead our Marketing Ops & Analytics team at GitLab, which comprises of [Marketing Ops](/handbook/marketing/marketing-operations/), [Marketing Analytics](/handbook/marketing/strategy-performance/), and [Globalization & Localization](/handbook/marketing/localization/).
 
 ## Strengths
 
@@ -68,7 +68,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 - [Full results here](https://drive.google.com/file/d/1Km4ZXepxGFLtksmL-vx6L_wMDPzcmig9/view?usp=sharing). I lead with Executing themes (purple = executing, orange = influencing, blue = relationship building, green = strategic thinking)
 
-![Clifton StrengthsFinder Results](/images/handbook/clee-clifton.png){: .medium}
+![Clifton StrengthsFinder Results](/images/handbook/clee-clifton.png)
 
 - My top 5 strengths are:
   - Individualization - People who are especially talented in the Individualization theme are intrigued with the unique qualities of each person. They have a gift for figuring out how people who are different can work together productively.
@@ -82,7 +82,7 @@ Please feel free to contribute to this page by opening a merge request.
 - [Full results here](https://drive.google.com/file/d/16B7Sadw5K9gHO8vVuk2WTfAFDR7Ob5Yt/view?usp=sharing)
 - Abundant in Examine, effortless in Execute, deliberate in Explore and Excite.
 
-![Simpli5 Results](/images/handbook/clee-simpli5.png){: .small}
+![Simpli5 Results](/images/handbook/clee-simpli5.png)
 
 ### Meyers Briggs
 

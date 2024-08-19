@@ -4,7 +4,7 @@ title: Leadership
 
 This page contains leadership pointers.
 The first couple of headers indicate which group they apply to, using the groupings
-defined on our [team structure page]({{< ref "structure" >}}).
+defined on our [team structure page](/handbook/company/structure/).
 
 ## Managers of One
 
@@ -12,7 +12,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 
 1. At GitLab, leadership is requested from everyone, whether an individual contributor or member of the leadership team.
 1. As a leader, GitLab team members will follow your behavior, so always do the right thing. Lead by example with effort.
-1. Everyone who joins GitLab should consider themselves ambassadors of our [values]({{< ref "values" >}}) and protectors of our [culture](/handbook/company/culture/).
+1. Everyone who joins GitLab should consider themselves ambassadors of our [values](/handbook/values/) and protectors of our [culture](/handbook/company/culture/).
 1. Behavior should be consistent inside and outside the company. We do the right thing outside the company, too.
 1. GitLab respects your judgment of what is best for you, since you know yourself best. If you have a better opportunity somewhere else don't stay at GitLab out of a sense of loyalty to the company.
 1. In tough times people will put in their best effort when they are doing it for each other.
@@ -38,9 +38,9 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. A team member blocks out dedicated time for learning and development to implement a regular practice of [self-serving and self-learning](/handbook/values/#self-service-and-self-learning).
 1. A team member in a new role finds an inefficiency in a process they are learning. Without being asked or supervised, they open a merge request (MR) proposing a change and assign it to their manager for review.
 1. When a scheduled meeting agenda is complete 10 minutes before the call is set to end, an attendee ends the call early.
-1. A people leader hires a new team member that demonstrates our [CREDIT values]({{< ref "values" >}}).
+1. A people leader hires a new team member that demonstrates our [CREDIT values](/handbook/values/).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal](/handbook/values#make-a-proposal).
-1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
+1. A manager of one prioritizes well-being by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
 1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame).
 
 {{< youtube "d0x-JH3aolM" >}}
@@ -157,7 +157,7 @@ Once your README is created, consider adding a link to it from following places:
 
 This provides maximum visibility to others, so that they may read your README in advance of working with you. This allows them to take your working style and communication preferences into account, ideally increasing the overall level of empathy expressed.
 
-READMEs are particularly powerful when working with those *outside* of GitLab, who may be unfamiliar with our [values]({{< ref "values" >}}). A README is a beacon of [transparency](/handbook/values/#transparency), and helps set the tone for any working relationship.
+READMEs are particularly powerful when working with those *outside* of GitLab, who may be unfamiliar with our [values](/handbook/values/). A README is a beacon of [transparency](/handbook/values/#transparency), and helps set the tone for any working relationship.
 
 ## Coaching
 
@@ -194,7 +194,7 @@ Folks who are escalating an issue should avoid surprising folks in the managemen
 
 There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
-After a team member escalates an issue, it is OK if they [disagree, commit, and disagree](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
+After a team member escalates an issue, it is OK if they [disagree, commit, and advocate](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
 
 ## Process gets a bad rep
 
@@ -228,7 +228,7 @@ Building a team to deliver [results](/handbook/values/#results) is a very import
 
 Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing Partner Brainware Partners](https://www.brainware-partners.com/) where we discussed:
 
-1. Managing trust, productivity, and wellbeing on remote teams
+1. Managing trust, productivity, and well-being on remote teams
 1. Behavior, biochemistry, and dynamics of trust
 1. The value of measuring and reporting on impacts of building trust
 
@@ -290,7 +290,7 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 ## Books
 
-Books in this section [can be expensed](https://about.gitlab.com/handbook/spending-company-money).
+Books in this section [can be expensed](/handbook/spending-company-money).
 
 Notable books from the [E-Group Offsite Book Selections]({{< ref "offsite#previous-reads" >}}) may be added to the list below.
 
@@ -319,7 +319,7 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 
 ## Training
 
-When you give leadership training please [screenshare the handbook instead of creating a presentation]({{< ref "handbook-usage#screenshot-the-handbook-instead-of-creating-a-presentation" >}}).
+When you give leadership training please [screen share the handbook instead of creating a presentation]({{< ref "handbook-usage#screenshot-the-handbook-instead-of-creating-a-presentation" >}}).
 
 ### Leadership Development Opportunities
 
@@ -337,7 +337,7 @@ When you give leadership training please [screenshare the handbook instead of cr
 
 ## People Group
 
-Feel free to reach out to anyone in the [People Group](/handbook/people-group/) for further support on leadership development topics. You can find us on the [team page](/handbook/company/team/), using the `People Group` dropdown. The team may also be reached in the `#people-connect` chat channel.
+Feel free to reach out to anyone in the [People Group](/handbook/people-group/) for further support on leadership development topics. You can find us on the [team page](/handbook/company/team/), using the `People Group` dropdown. The team may also be reached via HelpLab.
 
 ## Being a public company
 
@@ -345,4 +345,4 @@ Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-
 
 ## Mitigating Concerns
 
-We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.
+We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values](/handbook/values/) help to mitigate some of these concerns.

@@ -1,8 +1,6 @@
 ---
 title: "Only Healthy Constraints"
 description: "Companies often slow down as they mature. GitLab strives for healthy constraints."
-aliases:
-- /handbook/only-healthy-constraints/
 ---
 
 ## Introduction

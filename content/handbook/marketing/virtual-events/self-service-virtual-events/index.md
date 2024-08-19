@@ -6,18 +6,15 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-## Overview
+## Overview {#overview}
 
-{: #overview .gitlab-purple}
 The self-service virtual event type has been deprecated and is no longer in use.
 
 If you would like to host a webcast, please work with either Marketing Campaigns or Field Marketing to determine the right set-up and tracking for your event.
 
 Although this event type is no officially available, the details below do provide helpful information related to running an event using Zoom and are provided as a quick reference guide.
 
-## Best Practices
-
-{: #best-practices .gitlab-purple}
+## Best Practices {#best-practices}
 
 This section pulls all the pertinent best practices from the step-by-step instructions into a quickly reviewable format, separated by various stages of the process.
 
@@ -327,7 +324,7 @@ If your video meets the gating criteria, please open the following issues for th
 * [ ] [Pathfactory Track Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track)
 * [ ] [Marketo Landing Page & Automation Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-mkto-landing-page)
 
-*Note: The 550 min threshold is based on the avg of top 10 videos on gitlab branded youtube channel between 8/11/20 - 8/18/20.*
+*Note: The 550 min threshold is based on the avg of top 10 videos on GitLab branded youtube channel between 8/11/20 - 8/18/20.*
 
 ### Results
 

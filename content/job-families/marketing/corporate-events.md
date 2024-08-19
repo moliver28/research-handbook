@@ -289,6 +289,27 @@ The Director, Corporate Events is a [grade 10](/handbook/total-rewards/compensat
 - [Marketing efficency ratio](/handbook/marketing/performance-indicators/#marketing-efficiency-ratio)
 - [LTV / CAC ratio](/handbook/marketing/performance-indicators/#ltv--cac-ratio)
 
+#### Senior Director, Corporate Events
+
+### Senior Director, Corporate Events Job Grade
+
+The Senior Director, Corporate Events is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Extends that of the Director, Corporate Events responsibilities
+- Works closely with GitLab leadership to develop and deliver the corporate events strategy for internal and external events
+- Sets and measures the ROI of events to accomplish goals and objectives as defined in the strategic plan
+- Partners closely with field events, partner events and community events team and contributes to their strategy and success
+- Deep understanding of the competitive landscape, leveraging competitive insights to achieve GitLab strategic objectives
+- Develop annual quantitative and qualitative goals for Corporate Events and enable team to achieve results through removing blockers and allocating resources
+
+### Requirements
+
+- Extends that of the Director, Corporate Events
+- 12-15 years experience in managing large scale, B2B events client-side or in-house
+- Balance multiple priorities, work independently, keep others informed through clear written and verbal communication, while maintaining a high level of productivity
+
 ## Career Ladder
 
 The next step in the Corporate Events job family is not yet defined at GitLab.

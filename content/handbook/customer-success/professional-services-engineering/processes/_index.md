@@ -9,55 +9,56 @@ The Professional Services Delivery Methodology (PSDM) is the guiding light for P
 
 ## Iteration 0
 
-[Iteration 0](./professional-services-delivery-methodology/iteration-0/_index.md) includes the initial discovery and planning between the Gitlab & Customer Project Team(s). This includes: 
+[Iteration 0](professional-services-delivery-methodology/iteration-0/_index.md) includes the initial discovery and planning between the GitLab & Customer Project Team(s). This includes:
 
 - EM>PS Delivery Transition
 - Stakeholder Planning
 - Customer Kickoff
 - Discovery sessions with the Customer
 
-To prepare and deliver Iteration 0, the PM will work with the Gitlab Project team to review the timeline against the agreed upon scope and dependencies. This ensures we are gathering the right information and understanding the potential risks. Allowing us to show up to Iteration 0 more aligned with our Customers and prepared to deliver against a more predictable schedule.
+To prepare and deliver Iteration 0, the PM will work with the GitLab Project team to review the timeline against the agreed upon scope and dependencies. This ensures we are gathering the right information and understanding the potential risks. Allowing us to show up to Iteration 0 more aligned with our Customers and prepared to deliver against a more predictable schedule.
 
-Proper Iteration 0 preparedness allows us to address risk early and instills confidence with our Customers. 
+Proper Iteration 0 preparedness allows us to address risk early and instills confidence with our Customers.
 
 ## Managing a Project in GitLab
 
 GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
 
-Please reference the following tips for [Gitlab best practices](./professional-services-delivery-methodology/gitlab-best-practices/_index.md) when navigating Gitlab.
+Please reference the following tips for [Gitlab best practices](professional-services-delivery-methodology/gitlab-best-practices/_index.md) when navigating Gitlab.
 
-How to initially configure Gitlab as a Project Management tool can be found [here](./professional-services-delivery-methodology/cp/_index.md).
+How to initially configure GitLab as a Project Management tool can be found [here](professional-services-delivery-methodology/cp/_index.md).
 
 ## Project Management Mapping in GitLab
 
 | PM Term    | GitLab Definition |
 | -------- | ------- |
 | Group  | This is the landing page for Customer the project. The single source of truth of Project Governance.    |
-| Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project.    |
+| Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project. CO activities will be tracked against the original project (SOW).   |
 | Boards    | Typically organized by labels or scoped labels to keep the team on track together. Sometimes the Gitlab/Customer team works to track against multiple Boards over Projects.    |
 | Epics    | Generally from Workstreams or "Activities" from the SOW.    |
 | Issues    | These are the atomic units of work that roll into the Epic.    |
 | Iterations    | Time-boxed (generally) two-week events, that are reviewed during the Agile ceremonies.      |
 | Milestones    | How we can track against the Project Phase    |
-| Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li><li>Weight (size or level of effort of the issue) -See [Good Estimation Techniques](./professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight</li></ul>    |
+| Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li></ul> |
+| Weight | Size or level of effort of the issue. See [Good Estimation Techniques](./professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight    |
 
-Reference [here](./professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to Gitlab. 
+Reference [here](professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to Gitlab.
 
 ## Label Guidelines
 
 Labels are the best way to generate reports around our Projects and sort according to the Project teams’ needs. The team is free to make labels as they see fit for Project reporting, but there are also current guidelines around label generation for internal use.
 
-Currently, our [CP (Customer Project) automation](./professional-services-delivery-methodology/cp/_index.md) includes the following labels:
+Currently, our [CP (Customer Project) automation](professional-services-delivery-methodology/cp/_index.md) includes the following labels:
 
-- SOW-# or PO# - helps the Gitlab team search for Projects within the Professional service Group
-- PM name - helps the gitlab team sort by PM name
+- SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
+- PM name - helps the GitLab team sort by PM name
 - PSD workflow (for issue board management)
 
 Labels used for *Internal retro & RAID tracking/reporting* can be found in “Reporting throughout the Iteration” below.
 
 ## Iteration Scheduling
 
-The [iteration schedule and cadence](./professional-services-delivery-methodology/iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the Gitlab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
+The [iteration schedule and cadence](professional-services-delivery-methodology/iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
 
 There are five components within an Iteration schedule:
 
@@ -71,27 +72,27 @@ There are five components within an Iteration schedule:
 
 The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
 
-Please reference [Backlog Management](./professional-services-delivery-methodology/backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
+Please reference [Backlog Management](professional-services-delivery-methodology/backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
 
 ## Reporting within the Iteration Schedule and Project
 
 ### Who Updates What?
 
-While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the Gitlab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board. 
+While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board.
 
 Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up.
 
-### RAID & Internal/Customer Retrospective 
+### RAID & Internal/Customer Retrospective
 
-The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](./professional-services-delivery-methodology/manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins. 
+The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](professional-services-delivery-methodology/manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins.
 
-The Customer Retrospective guidelines can be [found here](./professional-services-delivery-methodology/retrospectives/_index.md). 
+The Customer Retrospective guidelines can be [found here](professional-services-delivery-methodology/retrospectives/_index.md).
 
 ## Guidelines for PSDM
 
-Applying the suggested PSDM with a full Iteration schedule is needed only when the Project exceeds 5 Iterations or when the engagement plans to exceed two months. 
+Applying the suggested PSDM with a full Iteration schedule is needed only when the Project exceeds 5 Iterations or when the engagement plans to exceed two months.
 
-Please review the [archetype definitions](./professional-services-delivery-methodology/archetype-definition/_index.md) around what a “large” Customer looks like. 
+Please review the [archetype definitions](professional-services-delivery-methodology/archetype-definition/_index.md) around what a “large” Customer looks like.
 
 Please use the below as a guide, when planning for Iteration 0.
 
@@ -108,10 +109,10 @@ Please use the below as a guide, when planning for Iteration 0.
 | Iteration Review (status report) | x | Weekly Status at the minimum |
 | In-project Retrospectives | x | Only if needed |
 
-<!-- 
+<!--
 ##### What Kind of Engagements is PSDM Suited For?
 
-PSDM is intended to be used on the large, complex, customers ([see archetype definition](./professional-services-delivery-methodology/archetype-definition/_index.md)) that are falling into one of two use case scenarios:
+PSDM is intended to be used on the large, complex, customers ([see archetype definition](professional-services-delivery-methodology/archetype-definition/_index.md)) that are falling into one of two use case scenarios:
 
 1. **_Large Scale Tool Adoption -_** scaling usage of GitLab across the organization (tool adoption use case), or are
 2. **_DevSecOps Transformation -_** assisting customers with transformational activities (transformational use case)
@@ -140,7 +141,7 @@ The difference between the _tool adoption use case_ and the _transformational us
 5. Security tool consolidation
 6. [Training and Education](https://university.gitlab.com/)
 
-**Transformational** activities frequently involve cross departmental analysis of cycle times, processes, technical architectures and _tying specific technical activities to desired business outcomes_ (see a simple definition for Digital Transformation [here](./professional-services-delivery-methodology/digital-transformation/_index.md)). Transformations frequently _address business goals **and** technology adoption **and** adopting new ways of working in order to achieve step change improvements in **business performance**_. This necessitates transformational activities to be focused on:
+**Transformational** activities frequently involve cross departmental analysis of cycle times, processes, technical architectures and _tying specific technical activities to desired business outcomes_ (see a simple definition for Digital Transformation [here](professional-services-delivery-methodology/digital-transformation/_index.md)). Transformations frequently _address business goals **and** technology adoption **and** adopting new ways of working in order to achieve step change improvements in **business performance**_. This necessitates transformational activities to be focused on:
 
 1. People
 2. Process
@@ -154,7 +155,7 @@ The difference between the _tool adoption use case_ and the _transformational us
 
 Just like GitLab in general, Professional Services follows a light-weight, iterative, process. The goal is to be efficient and effective while minimizing administrative burden.
 
-Most agile, iterative, process methodologies (such as Scrum, SAFe, or PMI-DA), define a set of terms and conventions. So does GitLab, and there is a [simple mapping of agile to GitLab terminology](./professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) that documents the differences while acknowledging that essentially their meaning is the same.
+Most agile, iterative, process methodologies (such as Scrum, SAFe, or PMI-DA), define a set of terms and conventions. So does GitLab, and there is a [simple mapping of agile to GitLab terminology](professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) that documents the differences while acknowledging that essentially their meaning is the same.
 
 Because industry parlance and GitLab terminology only differ slightly (for example, the common industry standard term for a time-boxed development cycle is "sprint" or "iteration", whereas GitLab uses the term "milestone") PSDM uses some of the terminology interchangeably.
 
@@ -164,12 +165,12 @@ There are eight (8) key principles to make any GitLab engagement successful. The
 
 The key principles are:
 
-1. [Optimize communication](./professional-services-delivery-methodology/optimize-communication/_index.md) – especially focused on executive, buyer, and stakeholder alignment and addressing progress towards business outcomes
-2. We iterate and work in Small Batches - with [work conducted according to a cadence and organized in backlogs and iterations / sprints](./professional-services-delivery-methodology/cadence-backlog-sprints/_index.md)
+1. [Optimize communication](professional-services-delivery-methodology/optimize-communication/_index.md) – especially focused on executive, buyer, and stakeholder alignment and addressing progress towards business outcomes
+2. We iterate and work in Small Batches - with [work conducted according to a cadence and organized in backlogs and iterations / sprints](professional-services-delivery-methodology/cadence-backlog-sprints/_index.md)
 3. Enable ownership and personal accountability
-4. [Small Teams](./professional-services-delivery-methodology/small-teams/_index.md) equal better and faster communication
+4. [Small Teams](professional-services-delivery-methodology/small-teams/_index.md) equal better and faster communication
 5. Localized decision making – not in terms of geography but team organization
-6. Allow for [continuous improvement / continuous learning](./professional-services-delivery-methodology/retrospectives/_index.md)
+6. Allow for [continuous improvement / continuous learning](professional-services-delivery-methodology/retrospectives/_index.md)
 7. Understand the customers' products, value streams and associated lead (wait) times - critical to optimizing cycle times and achieving business goals
 8. Embrace a new way of thinking, planning, and budgeting - instead of waterfall upfront scheduling and budgeting, work through iterative, prioritized deliverables, against a fixed project budget
 
@@ -181,38 +182,38 @@ It is important to point out that GitLab’s PSDM is agnostic to popular impleme
 
  1. Identify, document, and conduct an engagement strategy based on the specific customer situation
  2. Build awareness and excitement at all levels - regularly communicate status to all relevant parties: executives, buyers, stakeholders
- 3. Identify MVP pilot project(s) - [we always utilize one or more MVPs to prove out our engagement strategy](./professional-services-delivery-methodology/mvp/_index.md)
+ 3. Identify MVP pilot project(s) - [we always utilize one or more MVPs to prove out our engagement strategy](professional-services-delivery-methodology/mvp/_index.md)
  4. Train the customer development team(s)
- 5. [Develop product backlog and estimates for the engagement](./professional-services-delivery-methodology/cadence-backlog-sprints/_index.md)
- 6. [Run iterations / sprints producing incremental value](./professional-services-delivery-methodology/good-user-stories/_index.md)
+ 5. [Develop product backlog and estimates for the engagement](professional-services-delivery-methodology/cadence-backlog-sprints/_index.md)
+ 6. [Run iterations / sprints producing incremental value](professional-services-delivery-methodology/good-user-stories/_index.md)
  7. [Identify metrics - make data centric decisions](https://about.gitlab.com/solutions/value-stream-management/dora/)
- 8. [Gather feedback and improve](./professional-services-delivery-methodology/retrospectives/_index.md) – adjust the process
+ 8. [Gather feedback and improve](professional-services-delivery-methodology/retrospectives/_index.md) – adjust the process
  9. Mature
 10. Scale across other teams, programs, portfolios - scale in waves
 11. Regularly Assess and Refine
 
-It is recommended to encourage the customer to follow [GitLab Best Practices](./professional-services-delivery-methodology/gitlab-best-practices/_index.md).
+It is recommended to encourage the customer to follow [GitLab Best Practices](professional-services-delivery-methodology/gitlab-best-practices/_index.md).
 
 ##### Iterative Basics
 
 ##### 1. Harden Implementation Success in MVP Pilot(s)
 
-Each engagement will successfully deliver one or several [MVP pilot(s)](./professional-services-delivery-methodology/mvp/_index.md) - depending on the size and complexity of the engagement.
+Each engagement will successfully deliver one or several [MVP pilot(s)](professional-services-delivery-methodology/mvp/_index.md) - depending on the size and complexity of the engagement.
 
 MVP Pilot Phases of an engagement consist of:
 
-1. [Discovery](./professional-services-delivery-methodology/discovery/_index.md) - The initial phase to assess capabilities  and validate assumptions to ensure we’re **building the right thing and meeting customer needs**
-2. [Team Readiness](./professional-services-delivery-methodology/team-readiness/_index.md) - The process to define people, process and structures to **prepare teams operating in an iterative way**
-3. [Sprint 0](./professional-services-delivery-methodology/sprint0/_index.md) - The initial sprint where the **team aligns on norms and objectives, and key technology choices**
-4. [Sprinting](./professional-services-delivery-methodology/cadence-backlog-sprints/_index.md) - The execution and delivery process for teams to **deliver the GitLab engagement**
+1. [Discovery](professional-services-delivery-methodology/discovery/_index.md) - The initial phase to assess capabilities  and validate assumptions to ensure we’re **building the right thing and meeting customer needs**
+2. [Team Readiness](professional-services-delivery-methodology/team-readiness/_index.md) - The process to define people, process and structures to **prepare teams operating in an iterative way**
+3. [Sprint 0](professional-services-delivery-methodology/sprint0/_index.md) - The initial sprint where the **team aligns on norms and objectives, and key technology choices**
+4. [Sprinting](professional-services-delivery-methodology/cadence-backlog-sprints/_index.md) - The execution and delivery process for teams to **deliver the GitLab engagement**
 
-[Scaling](./professional-services-delivery-methodology/scaling/_index.md) up across the organization is achieved by breaking down the overall implementation effort into waves that will be delivered successively - after successful delivery of one or several MVP pilot(s).
+[Scaling](professional-services-delivery-methodology/scaling/_index.md) up across the organization is achieved by breaking down the overall implementation effort into waves that will be delivered successively - after successful delivery of one or several MVP pilot(s).
 
 ##### 2. Integrate Business and IT
 
 Integrating business and IT needs is accomplished through a disciplined decomposition of higher level Vision and Goals into Epics and User Stories, which in turn drive the technical implementation of the customer engagement.Depending on the size and complexity of the engagement, one or several Program Managers are closely coordinating with executive level stakeholders and business sponsors in order to ensure that key business goals are achieved.Lower level technical coordination and tasking is done by one or several projects managers, working with the GitLab TA/PSE Team and the customer sourced Dev Team.
 
-![IntegrateBizAndIT.jpg](./professional-services-delivery-methodology/IntegrateBizAndIT.jpg) 
+![IntegrateBizAndIT.jpg](professional-services-delivery-methodology/IntegrateBizAndIT.jpg)
 
 ##### 3. Adopt GitLab's Consistent Tools
 
@@ -221,14 +222,14 @@ Helping customers adopt the GitLab platform across the entire software developme
 1. Achieving significant license savings by replacing a complex DIY tool chain
 2. Enabling productivity improvements due to an enhanced developer experience, streamlined collaboration, and reduced context switching
 
-![GitLabPlatformOptimizesValueStream.jpg](./professional-services-delivery-methodology/GitLabPlatformOptimizesValueStream.jpg)
+![GitLabPlatformOptimizesValueStream.jpg](professional-services-delivery-methodology/GitLabPlatformOptimizesValueStream.jpg)
 
 ##### 4. Optimize Internal Controls
 
 By optimizing and automating internal controls (sign-offs / approvals), cycle times are significantly reduced and Time to Market windows are shortened. Collaboration is streamlined, context switching is eliminated, and velocity is increased. Overall productivity increases.
 
- ![ValueStreamOptimization.jpg](./professional-services-delivery-methodology/ValueStreamOptimization.jpg)
- 
+ ![ValueStreamOptimization.jpg](professional-services-delivery-methodology/ValueStreamOptimization.jpg)
+
 ##### 5. Establish Thought Leadership through Continuous Value Delivery and Cost Savings
 
 * GitLab consultants are “catalysts” who show direction and provide coaching
@@ -281,7 +282,7 @@ This page will help outline the when and how to get involved with positioning an
 
 For custom SOWs, the [workflow for SOW creation](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services) involves a partnership between the Account Team and the Professional Services Team.
 
-![''](./scoping-workflow.png)
+![''](scoping-workflow.png)
 [Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit#slide=id.gbfb62d0c00_0_58) (GitLab Team Members Only)
 
 ## 1. Positioning
@@ -451,7 +452,7 @@ For scoping infrastructure implementation, we have several questions that can he
 
 [Implementation Infrastructure Scoping Questions](https://docs.google.com/spreadsheets/d/1TsCUNLuWdpX1V_dTn5MMXIUqnAYKm9Megu5MO9S8eGM/edit?usp=sharing)
 
-**Note:** This document contains tabs for various public and private cloud providers - AWS, GCP, Azure, OpenShift and other on-prem deployments - you should only have to fill out the tab(s) relative to your customer.--> 
+**Note:** This document contains tabs for various public and private cloud providers - AWS, GCP, Azure, OpenShift and other on-prem deployments - you should only have to fill out the tab(s) relative to your customer.-->
 
 <!--
 title: "Post-Sales"
@@ -551,15 +552,15 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 1. The Project Coordinator will use these [email communication templates](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit?usp=sharing) to ensure communication of the key details with the customer and training participants.
 
-1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.  
-   - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.  
-      - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)  
-      - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)  
-      - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)  
-      - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)  
-      - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)  
+1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.
+   - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.
+      - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)
+      - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)
+      - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)
+      - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)
+      - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)
       - [GitLab Duo Principles course outline](https://university.gitlab.com/pages/duo-training)
-      - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)  
+      - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)
 
 1. The Project Coordinator will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
 
@@ -628,4 +629,4 @@ At the end of a project the Project leader should document the customer value dr
 
 ### Handoff (Support)
 
-At the end of a small/medium sized projects or after the initial implementation phase of a large engagement, open a [support ops issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) and add a link to the collaboration project architecture diagram that was deployed. The Support team will load it into a field in Zendesk to help them have context for customer support requests. --> 
+At the end of a small/medium sized projects or after the initial implementation phase of a large engagement, open a [support ops issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) and add a link to the collaboration project architecture diagram that was deployed. The Support team will load it into a field in Zendesk to help them have context for customer support requests. -->

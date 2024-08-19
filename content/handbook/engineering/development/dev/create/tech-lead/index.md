@@ -24,15 +24,13 @@ This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-
 | 2024-02-13 | TBD      | TBD                | [New Diffs](https://gitlab.com/groups/gitlab-org/-/epics/11559) | [Stanislav Lashmanov](https://gitlab.com/slashmanov) |
 | 2024-02-19 | TBD      | TBD                | [Review Rounds](https://gitlab.com/groups/gitlab-org/-/epics/9577) | [Phil Hughes](https://gitlab.com/iamphill) |
 
-### IDE Tech Leads
+### Remote Development Tech Leads
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
 | 2024-05-01 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Paul Slaughter](https://gitlab.com/pslaughter) |
 | 2024-05-01 | TBD      | TBD                | [Workspaces Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Chad Woolley](https://gitlab.com/cwoolley-gitlab) |
-| 2024-04-29 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434976)| [Vishal Tak](https://gitlab.com/vtak) |
 | 2024-02-21 | TBD      | TBD                | [VS Code Upgrade process](https://gitlab.com/groups/gitlab-org/-/epics/12951)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
-| 2024-01-13 | TBD      | TBD                | [Workspaces Agent Authorization](https://gitlab.com/groups/gitlab-org/-/epics/12193) | [Hunar Khanna](https://gitlab.com/hkhanna2) |
 
 ### Editor Extension Tech Leads
 

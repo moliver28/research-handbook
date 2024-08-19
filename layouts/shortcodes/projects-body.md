@@ -134,6 +134,7 @@
   <td>
    {{- range (index $projectTeams $k).owners }}
    {{ partial "member/with-team-link" . }}<br>
+   {{ partial "member/with-expertise-link" . }}
    {{- end }}
   </td>
  </tr>
@@ -146,6 +147,7 @@
    {{- if not (eq $k " maintainers") }}<strong>{{ $k }} ({{ len $m }})</strong>{{- end }}
    <p>{{- range (uniq $m) }}
    {{ partial "member/with-team-link" . }}<br>
+   {{ partial "member/with-expertise-link" . }}
    {{- end }}&nbsp;<br>
    {{- end }}</p>
   </td>
@@ -159,6 +161,7 @@
    {{- if not (eq $k " trainees") }}<strong>{{ $k }} ({{ len $m }})</strong>{{- end }}
    <p>{{- range (uniq $m) }}
    {{ partial "member/with-team-link" . }}<br>
+   {{ partial "member/with-expertise-link" . }}
    {{- end }}</p>
    {{- end }}
   </td>
@@ -172,6 +175,7 @@
    {{- if not (eq $k " reviewers") }}<strong>{{ $k }} ({{ len $m }})</strong>{{- end }}
    <p>{{- range (uniq $m) }}
    {{ partial "member/with-team-link" . }}<br>
+   {{ partial "member/with-expertise-link" . }}
    {{- end }}</p>
    {{- end }}
   </td>

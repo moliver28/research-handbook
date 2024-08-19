@@ -31,7 +31,7 @@ To reach the Product Security Engineering team, team members can:
 
 ## Runbooks
 
-Please see our [Runbooks page]({{< ref "./runbooks" >}}).
+Please see our [Runbooks page](runbooks/).
 
 ## Workflow
 
@@ -52,7 +52,7 @@ When we take on work:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
     1. Ping the group's PM/EMs. Say that we're working on this issue, do your best to align with any existing efforts, and highlight that after release it will belong to their team (similar to a community contribution).
     1. If we can't figure it out an owner, don't ping anybody.
-1. Apply the appropriate `ProdSecEngMetric::` label based on the definitions listed in the Metrics labels table
+1. Apply the appropriate `ProdSecEngMetric::` label based on the definitions listed in the [Metrics labels table](/handbook/security/product-security/product-security-engineering/metrics/)
     1. If unsure what the appropriate label is at this point, add the `~ProdSecEngMetric::Pending` label
 
 ### Removing work items from the backlog
@@ -101,6 +101,7 @@ Below is a step-by-step process for team members to walk through when refining b
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
 1. Add a [weight](/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
+1. Consider adding a [priority](/handbook/security/product-security/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
 1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
 
 ### Weights
@@ -119,6 +120,16 @@ These weights we use are:
 | 5 | Large, will take a major portion of the milestone to finish |
 
 Anything larger than 5 should be broken down if possible.
+
+### Priorities
+
+We use priority labels to provide the team and other contributors with an approximate timeline for when we intend to address issues.
+
+| Label | Meaning |
+| --- | --- |
+| ~"ProdSecEngPriority::1" | This issue requires immediate attention and should be worked on as soon as possible. Typically, it is added to the next milestone or addressed during the current one if a team member has extra capacity. |
+| ~"ProdSecEngPriority::2" | This issue is essential but can wait for a few milestones. |
+| ~"ProdSecEngPriority::3" | This issue is a nice-to-have, but we do not commit to a specific timeline. |
 
 ### Choosing what to work on
 
@@ -164,6 +175,7 @@ For each custom tool:
   - Any other work required to implement, roll out, or handover that functionality should be tracked as children of these epics
   - Each of these epics must be labeled with `~ProdSecEngMetric::Tooling Integration`
 - A tooling handover epic must be created so that conversations with development teams can begin as soon as possible
+- A [sunset roadmap](/handbook/security/product-security/product-security-engineering/product-security-requirements/#sunset-roadmaps) is created, along with sunsetting issues
 
 ### Discrete Pieces of Functionality
 
@@ -198,6 +210,12 @@ These tooling handover epics will:
   - The appropriate product and engineering managers for the teams should be directly pinged
 - Enable us to collaborate on a definition of done, feature flags, rollout, and eventual handover
 
+### Sunsetting Issues
+
+In order to keep track of the high-level requirements to fully deprecate a custom tool, we create issues specifically to track the sunsetting of that tool. This is done using the [sunsetting template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=sunsetting) in the Product Security Engineering team repository.
+
+Once a particular sunsetting requirement has been fulfilled, the Product Security Engineering team needs to close the relevant sunsetting issue in the Product Security Engineering team repository.
+
 ### Step-by-step processs
 
 When beginning work to implement custom tooling into the product, we take the following actions:
@@ -212,6 +230,7 @@ As we begin to build context on the tool, as part of our planning phase we will:
   - Make these epics children of the tooling integration epic
   - Be sure each of these have the `~ProdSecEngMetric::Tooling Integration` label
 - Make a quick, best-guess recommendation as to what pieces of functionality or components we should start working on first
+- Create a [sunset roadmap](/handbook/security/product-security/product-security-engineering/product-security-requirements/#sunset-roadmaps) and sunsetting issues
 
 Once we have identified the functionality and components for this tool, we:
 
@@ -222,34 +241,22 @@ Once we have identified the functionality and components for this tool, we:
   - What is the agreed upon definition of done, and at what point would it make sense to hand this work over to their team?
   - What would they like to see from us in order to ensure a smooth handover?
 
+After we have finished a contribution related to a custom tooling integration, we need to:
+
+- Update the sunsetting roadmap to indicate that a particular task or phase has been completed
+- If appropriate, close the relevant sunsetting issue
+
 ## Milestone Planning
 
-Please visit the [Product Security Engineering Milestone Planning page]({{< ref "milestone-planning" >}}) for information about how we plan our work.
+Please visit the [Product Security Engineering Milestone Planning page](/handbook/security/product-security/product-security-engineering/milestone-planning/) for information about how we plan our work.
 
 ## Metrics
 
-The Product Security Engineering team currently tracks the following metrics:
+Please refer to the [Product Security Engineering Metrics page](/handbook/security/product-security/product-security-engineering/metrics/) for information on our metrics.
 
-- [Team velocity, measured in total weight of issues closed per week](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/Sheet1?:iid=1)
-- [Number of Merge Requests into GitLab products directly related to implementing the functionality required by Product Security teams](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/ProdSecRequirementMRs?:iid=2)
-- [Number of Merge Requests for creating security enhancements, defense in depth measures, and paved roads](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/DefenseinDepthorPavedRoadsMRs?:iid=4)
+## Integrating Product Security Team Requirements Into GitLab
 
-We are working to track the following metrics that indicate adherence to our team's charter:
-
-- The percentage of distinct value propositions in current in-house custom tools that have been contributed to the product
-
-### Metrics Labels
-
-Labels are a driving force behind our metrics collection. The appropriate label must be applied to the relevant issue, merge request, or epic.
-
-| Type of Work | Label | Where to apply label |
-| --- | --- | --- |
-| Product Security team requirement: functionality within the product required by GitLab Product Security teams | `~ProdSecEngMetric::ProdSecRequirement` | Issues and Merge Requests, sometimes Epics |
-| Defense in Depth: an MR that modifies existing non-vulnerable functionality to be more robust if an "earlier" security control fails | `~ProdSecEngMetric::Defense in Depth` | Issues and Merge Requests, sometimes Epics |
-| Paved Road: a new tool, method, class, check that, gives GitLab's contributors an easier way to perform an activity securely | `~ProdSecEngMetric::Paved Road` | Issues and Merge Requests, sometimes Epics |
-| Tooling Integration: work done as part of the effort to integrate functionality from custom in-house tooling into a GitLab product | `~ProdSecEngMetric::Tooling Integration` | Epics |
-| Custom Tooling: work performed to build, maintain, or augment outside-of-the-product custom tooling needed to satisfy Product Security requirements | `~ProdSecEngMetric::Custom Tooling` | Issues and Merge Requests, sometimes Epics |
-| Pending: the work type isn't entirely clear yet, but we don't want to block progress for now | `~ProdSecEngMetric::Pending` | Issues, Merge Requests, and Epics |
+Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/product-security-engineering/product-security-requirements/).
 
 ### Open Source Contributions
 

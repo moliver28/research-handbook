@@ -7,6 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
+<!-- markdownlint-disable MD013 -->
 On this page, we're spotlighting brilliant, creative, passionate people who have adopted a remote lifestyle.
 
 ## New possibilities and freedoms
@@ -17,11 +18,11 @@ On this page, we're spotlighting brilliant, creative, passionate people who have
 
 All-remote and remote-first organizations [enable lifestyles]({{< ref "remote-benefits" >}}) that simply are not possible in colocated companies, where a daily commute and one's physical presence are required.
 
-When you're free to choose when and where you live and work, [your work can revolve around your life]({{< ref "./stories" >}}) as opposed to the other way around.
+When you're free to choose when and where you live and work, [your work can revolve around your life](stories/) as opposed to the other way around.
 
-All-remote and remote-first [organizations]({{< ref "./jobs" >}}) tend to attract people who place a high degree of value on [autonomy](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies), [flexibility](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), [empathy](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work), and [mobility]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}). It also presents [outsized opportunity for people who must live or prefer to live in rural areas](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone), where well-paying careers in technical industries are few and far between.
+All-remote and remote-first [organizations](jobs/) tend to attract people who place a high degree of value on [autonomy](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies), [flexibility](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), [empathy](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work), and [mobility]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}). It also presents [outsized opportunity for people who must live or prefer to live in rural areas](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone), where well-paying careers in technical industries are few and far between.
 
-Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company]({{< ref "./jobs" >}}). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote]({{< ref "_index.md" >}}) in your own company.
+Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company](jobs/). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote]({{< ref "_index.md" >}}) in your own company.
 
 ## Nomads
 
@@ -29,7 +30,7 @@ Below, we're detailing examples of people who have adopted a [remote lifestyle](
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren and Dylan (GitLab team members) discuss several remote work topics: tips and lessons learned from being a digital nomad, managing a team with asynchronous communication, getting promoted while traveling the world, creating an ideal schedule for country-hopping, not getting caught up in what the world expects of your nomadic life, and finding the comforts of home while abroad*
 
-The thought of having no permanent residence while maintaining the same career would conjure laughter and confusion a few decades ago. Thanks to rapid advancement in internet infrastructure, technology, software, tools, and cultural appreciation for [asynchronous communication]({{< ref "./informal-communication" >}}), it's now quite [feasible]({{< ref "./jobs" >}}).
+The thought of having no permanent residence while maintaining the same career would conjure laughter and confusion a few decades ago. Thanks to rapid advancement in internet infrastructure, technology, software, tools, and cultural appreciation for [asynchronous communication](informal-communication/), it's now quite [feasible](jobs/).
 
 [JT Genter](https://thepointsguy.com/author/jtgenter) and [Katie Genter](https://thepointsguy.com/author/katiegenter) aspire to explore the world, embrace their passion for writing, and fly on as many airlines as possible. As members of [The Points Guy](https://thepointsguy.com)'s editorial staff, they're able to contribute asynchronously and maintain connections with team members through tools like Slack and Zoom. They've built their careers while crisscrossing the globe, embracing the digital nomad lifestyle while informing others on how to do similar. See [this tweet from JT Genter on his travel statistics](https://twitter.com/JTGenter/status/1051185813344669696).
 
@@ -43,7 +44,7 @@ To see how two GitLab team members utilized the company's [Visiting Grant incent
 
 ## Travelers
 
-Individuals with an [innate sense of wanderlust](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) are apt to gain fulfillment in an [all-remote or remote-first role]({{< ref "./jobs" >}}). Having the freedom and flexibility to travel at will and [work from anywhere in the world](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) with a solid internet connection is a tremendous perk for those who don't want to sit still, yearn to explore new cultures, and collect new passport stamps.
+Individuals with an [innate sense of wanderlust](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) are apt to gain fulfillment in an [all-remote or remote-first role](jobs/). Having the freedom and flexibility to travel at will and [work from anywhere in the world](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) with a solid internet connection is a tremendous perk for those who don't want to sit still, yearn to explore new cultures, and collect new passport stamps.
 
 It's important to note that you aren't required to have audacious travel goals to appreciate an all-remote setting. Those who simply appreciate the ability to visit friends and family on occasion — or jump on [excellent flight deals](https://scottscheapflights.com) to new locales — without lobbying for additional vacation may be suited for all-remote.
 
@@ -81,7 +82,7 @@ All-remote solves these quandaries in multiple ways. In families where both pare
 
 In cases where one parent desires to step away from work in order to focus completely on childrearing, all-remote makes it far easier for the family to relocate to an area with a lower cost-of-living and/or a higher quality of life (development opportunities, medical facilities, schools, etc.), such that one working parent can sustain the group financially.
 
-While this provides clear and quantifiable [benefits]({{< ref "./mental-health" >}}) to the family, it also creates an economic boost to the community in which they relocate to.
+While this provides clear and quantifiable [benefits](mental-health/) to the family, it also creates an economic boost to the community in which they relocate to.
 
 ### Adoption and foster care
 
@@ -116,7 +117,7 @@ All-remote has the power to pause, and perhaps even reverse, these trends of dep
 
 In scenarios where a couple desires to live together, one typically forgoes their existing career in order to relocate. With all-remote, careers are portable, enabling these milestone moments in life to be more momentous and less stressful.
 
-In situations where parents desire to be closer to extended family or friends in order to share the responsibility of childrearing with a broader community, all-remote supports such endevours by default.
+In situations where parents desire to be closer to extended family or friends in order to share the responsibility of child rearing with a broader community, all-remote supports such endeavours by default.
 
 ## Military spouses and families
 
@@ -124,7 +125,7 @@ Military rotations often require families to uproot and relocate on a regular ba
 
 In many cases, the challenge is so significant that [military spouses simply opt out of the workplace](https://www.moaa.org/Content/Take-Action/On-Watch/Military-Spouse-Unemployment-Rate-at-Least-Four-Times-Higher-Than-National-Average), despite a desire to further their career. This can lead to diminished economic potential for a family, and place increased strain on the military member to sustain the group.
 
-All-remote is an ideal anecdote. Even as relocations occur, an all-remote team member can still contribute their insights and knowledge for the betterment of the company. This can create increased loyalty and lower turnover for all-remote employers, while supporting [hiring]({{< ref "./hiring" >}}) pipelines which are [more diverse and inclusive]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}).
+All-remote is an ideal anecdote. Even as relocations occur, an all-remote team member can still contribute their insights and knowledge for the betterment of the company. This can create increased loyalty and lower turnover for all-remote employers, while supporting [hiring](hiring/) pipelines which are [more diverse and inclusive]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}).
 
 At GitLab, several team members are US military spouses.
 
@@ -150,7 +151,7 @@ It's wise to rank all of the above in order of importance for you. If you find t
 
 [Eldridge H.](https://gitlab.com/ehenley), a support engineer at GitLab, articulates this below.
 
-> It dawned on me just how liberating remote work with GitLab is. It's a bit difficult to fully explain, but having my [own personal space]({{< ref "./workspace" >}}) to work from is amazing.
+> It dawned on me just how liberating remote work with GitLab is. It's a bit difficult to fully explain, but having my [own personal space](workspace/) to work from is amazing.
 >
 > Having my own personal environment to work in, and being able [to make this space my own](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office), really motivates me to do well. The freedom I have to make choices on how I approach things and at the same time, being empowered to communicate with others and adapt their approaches is insanely thought provoking.
 >
@@ -164,7 +165,7 @@ It's wise to rank all of the above in order of importance for you. If you find t
 
 ### Employer benefits
 
-[Employers]({{< ref "./management" >}}) should recognize that this reality [also benefits them]({{< ref "remote-compensation" >}}). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
+[Employers](management/) should recognize that this reality [also benefits them]({{< ref "remote-compensation" >}}). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://web.archive.org/web/20230131134608/https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
 
 ## Work/life harmony
 
@@ -188,7 +189,7 @@ This creates tremendous [efficiency](/handbook/values/#efficiency), and can easi
 
 ### Adjustable working hours
 
-An added benefit to being a [manager of one](/handbook/values/#managers-of-one) and working in an environment that supports [asynchronous communication]({{< ref "./informal-communication" >}}) is the ability to shift one's working day to accomodate important life moments.
+An added benefit to being a [manager of one](/handbook/values/#managers-of-one) and working in an environment that supports [asynchronous communication](informal-communication/) is the ability to shift one's working day to accommodate important life moments.
 
 All-remote enables individuals to be available during daylight hours for activities such as volunteering, participating in school functions, and managing tasks that cannot be handled in off-hours (e.g. renewing a driver license, certain banking functions, etc.).
 

@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through backing up a GitLab instance
 
 ## Objectives
 
-The objective of this lab is to demonstrate how to back up a Gitlab instance on a virtual machine, and restore said instance to a previous state. For more information about backing up/restoring a GitLab instance, click [here](https://docs.gitlab.com/ee/administration/backup_restore/).
+The objective of this lab is to demonstrate how to back up a GitLab instance on a virtual machine, and restore said instance to a previous state. For more information about backing up/restoring a GitLab instance, click [here](https://docs.gitlab.com/ee/administration/backup_restore/).
 
 ### Task A. Configure backup settings
 

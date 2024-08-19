@@ -73,7 +73,7 @@ Learn more about [benefits and advantages to operating in an all-remote environm
 
 ## Disadvantages
 
-Despite its many [advantages](./benefits/), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization.
+Despite its many [advantages](benefits/), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization.
 
 Learn more about [disadvantages to all-remote, along with solutions to these challenges]({{< ref "../drawbacks" >}}).
 
@@ -327,16 +327,16 @@ GitLab is a pioneer in the all-remote space. As one of the world's largest all-r
 
 These remote work guides are written specifically for external parties who wish to learn how specific divisions/departments function in a remote environment.
 
-[Remote Guide for Finance Teams]({{< ref "./finance" >}})
+[Remote Guide for Finance Teams](finance/)
 {.h3}
 
-[Remote Guide for Design Teams]({{< ref "./design" >}})
+[Remote Guide for Design Teams](design/)
 {.h3}
 
-[Remote Guide for People Operations]({{< ref "./people-operations" >}})
+[Remote Guide for People Operations](people-operations/)
 {.h3}
 
-[Remote Guide for Legal Teams]({{< ref "./legal" >}})
+[Remote Guide for Legal Teams](legal/)
 {.h3}
 
 ## All-remote Pick Your Brain interviews

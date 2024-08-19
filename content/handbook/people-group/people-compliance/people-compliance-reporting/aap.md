@@ -7,7 +7,7 @@ GitLab Inc (including GitLab Federal) is categorized as a U.S. federal contracto
 
 ## Why are we an Affirmative Action employer?
 
-A US employer is subject to US Federal affirmative action regulations if it has 50 or more employees and a Federal contract or subcontract of $50,000 or more. GitLab met those requirements in 2020.
+A US employer is subject to US Federal affirmative action regulations if it has 50 or more employees and a Federal contract or subcontract of $50,000 or more.
 
 ## What is involved as an Affirmative Action employer?
 

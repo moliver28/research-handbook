@@ -9,7 +9,6 @@ description: "Self-Managed Platform team in Test Platform sub-department"
 |------    |-------------------------|
 | **GitLab Team Handle** | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/enablement-qe) |
 | **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/978354) |
-| **Self-Managed Platform Team Projects** | [Tools Page](/handbook/engineering/infrastructure/test-platform/self-managed-excellence/) |
 
 Engineers in this team support the product sections supported by the [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) along with maintaining the self managed platform tools.
 
@@ -34,15 +33,52 @@ Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook
 
 Here is an [Overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4938) of our current Self-Managed Platform team OKR.
 
-## Projects
+## Primary Projects
 
-* [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
-* [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)
-* [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-* [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
-* [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)
-* [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
-* [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures)
+The Self Managed Platform team own several tools which form a 3-prong trident for Self-Managed Excellence: the [Reference Architectures (RA)](https://docs.gitlab.com/ee/administration/reference_architectures/), the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), and the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance). Together, these tools support our broader strategy of cementing customer confidence and contributing to their ongoing success by ensuring their instances are built to a rigorously tested standard that performs smoothly at scale.
+
+```mermaid
+flowchart LR
+  subgraph selfManageExcel["Self-Managed Excellence"]
+    RA("Reference Architectures (RA)")
+    GET["GitLab Environment Toolkit (GET)"]
+    GPT["GitLab Performance Tool (GPT)"]
+  end
+  style selfManageExcel fill:#FFF
+  style RA color:#6b4fbb, stroke:#9370DB
+  style GET color:#6b4fbb, stroke:#9370DB
+  style GPT color:#6b4fbb, stroke:#9370DB
+  click RA "https://docs.gitlab.com/ee/administration/reference_architectures/" _blank
+  click GET "https://gitlab.com/gitlab-org/gitlab-environment-toolkit" _blank
+  click GPT "https://gitlab.com/gitlab-org/quality/performance" _blank
+```
+
+[Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) are officially recommended environment designs for deploying GitLab at scale in production that are tested and maintained by the Reference Architecture group. The group, led by the Self Managed Platform Team, is comprised of various individuals across GitLab disciplines and has the following responsibilities:
+
+* To test, maintain and update the Reference Architectures - Officially recommended environment designs and guidance for deploying GitLab at scale in production
+* To review any existing or proposed environment designs not already covered in the documentation
+* To assess the need for updates to the Reference Architectures during and after escalations involving performance issues suspected to be caused by environment design.
+
+[GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) (GET), our provisioning toolkit is a collection of tools to deploy and operate production GitLab instances based on our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
+
+[GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) (GPT), our performance testing tool for validation at scale.
+
+The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241132/views) tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab Performance Tool and Reference Architectures projects.
+
+## All Projects
+
+| Name | Description |
+| :---: | :--- |
+| [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures) | Officially recommended environment designs for deploying GitLab at scale in production |
+| [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)   | Provisioning Toolkit |
+| [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) | Performance testing tool for validation at scale |
+| [Upgrade Tester](https://gitlab.com/gitlab-org/quality/upgrade-tester) | The Upgrade Tester pipeline builds environments using GET that are based on different Reference Architectures. Each pipeline will build an environment, seed it with data and then upgrade and test the environment with each upgrade to either a specified version or the latest nightly package. |
+| [Backup and Restore](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/backup-and-restore) | The Backup and Restore pipelines are designed to build environments using GET that are based on different Reference Architectures. Each is designed to run through the backup and restore process and verify the data that has been restored. |
+| [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)| A sister pipeline to GPT's backend performance pipelines, these pipelines are designed to specifically test web page frontend performance in browsers. |
+| [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)| This Project serves as a LFS data repository for the GitLab Performance Tool |
+| [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)| Docker builder and registry for GitLab Performance testing |
+| [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)| A testing tool designed to monitor any downtime that occurs during a zero downtime upgrade by continuously performing git operations and sending requests to the readiness?all=1 endpoint. |
+| [Self Managed Platform Team Channels Issue Tracker](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker) | The issue tracker project is used to track requests and questions from Self Managed Platform Team Slack channels |
 
 ## Working with us
 
@@ -50,7 +86,9 @@ There are occasions where the expertise of the Reference Architecture or Self-Ma
 
 For any requests relating to customer environments, either proposed or existing, they must be raised in the [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/new) project with the appropriate template. Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons. Any requests made outside of this process such as direct asks to join customer calls or projects will be rejected and should instead be directed to Support or Professional Services accordingly.
 
-For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) issues can be raised in each respective project.
+For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) (ie. feature request, bug) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) (ie. request for help, performance testing of a new feature*, bug) issues can be raised in each respective project.
+
+*To request for help with performance testing of a new feature, please create a new issue within the GPT project with the request for help template.
 
 For individual questions please reach out to the team via our slack channels.
 
@@ -72,21 +110,21 @@ Our preference is to work asynchronously, within our projects issues trackers.
 The team does have a set of regular synchronous calls:
 
 * Self-Managed Environment Triage
-* GitLab Environment ToolKit Bi-Weekly Sync
 * 1-1s between the Individual Contributors and Engineering Manager
 
 Stand-up twice per week on Tuesday and Thursday via our teams slack channel
 
 ### Project Management
 
-### Issue Boards
+#### Issue Boards
 
 We track our work on the following issue boards:
 
 * [Test Platform: Self-Managed Platform Team Milestones](https://gitlab.com/groups/gitlab-org/-/boards/7333962?label_name[]=team%3A%3ASelf-Managed%20Platform)
 * [Test Platform: Self-Managed Platform Team Members](https://gitlab.com/groups/gitlab-org/-/boards/978354?label_name%5B%5D=team%3A%3ASelf-Managed%20Platform)
+* [GPT Pipeline Triage](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform) 
 
-### Capacity Planning
+#### Capacity Planning
 
 We use a simple issue weighting system for capacity planning, ensuring a
 manageable amount of work for each milestone. We consider both the team's
@@ -100,7 +138,7 @@ becomes more difficult than originally expected, leave a comment indicating why 
 weight was changed, and tag the EM and any assigned DRIs so we can better understand the scope
 and continue to improve.
 
-#### Weights
+##### Weights
 
 To weigh an issue, consider the following important factors:
 
@@ -122,7 +160,7 @@ The following weights are available based on the Fibonacci Series with 8 being t
 
 Anything that would be assigned a weight of 8 or larger should be broken down.
 
-### Status Updates
+#### Status Updates
 
 * By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
   * Format for weekly update:
@@ -133,6 +171,38 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
       * Next steps :construction_worker:
       * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
 * ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
+
+#### GPT Pipeline Triage
+
+Self Managed Platform Team members who are currently on Pipeline DRI on call rotation will also monitor the [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49) slack channel. Open issues to be reviewed can be found in the [GPT pipeline triage board](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform).
+
+#### Self Managed Platform Channels Issue Tracker
+
+The issue tracker is used to track requests and questions from Self Managed Platform Team Slack channels - GitLab Environment Toolkit, Reference Architectures and GitLab Performance Tool - to create issues for tracking purposes.
+
+Navigate to [Wiki page](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker/-/wikis/home) for more details how issue tracker project is impletmented.
+
+### Metrics
+
+Reference Architectures
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/ReferenceArchitectures?:iid=3" >}}
+{{< /tableau >}}
+
+GitLab Environment Toolkit
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabEnvironmentToolkit?:iid=3" >}}
+{{< /tableau >}}
+
+GitLab Performance Tool
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool?:iid=3" >}}
+{{< /tableau >}}
+
+Requests from Slack
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/RequestsFromSlack?:iid=3" >}}
+{{< /tableau >}}
 
 ## Test Platform process across product sections
 

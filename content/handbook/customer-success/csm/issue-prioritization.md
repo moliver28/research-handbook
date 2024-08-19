@@ -9,7 +9,7 @@ The Customer Prioritization Framework is currently an MVC and in its initial pil
 
 ## Dashboard
 
-The [issue prioritization dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View) is located in Sisense. The data is aggregated from the [feedback template](/handbook/product/how-to-engage/#feedback-template) used when a customer or prospect has expressed interest in a feature.
+The [issue prioritization dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View) is located in Sisense. The data is aggregated from the [feedback template](/handbook/product/product-management/#feedback-template) used when a customer or prospect has expressed interest in a feature.
 
 ## How CSMs use the dashboard
 

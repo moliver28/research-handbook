@@ -3,15 +3,9 @@ title: "GitLab France S.A.S. Right to Disconnect Charter"
 description: GitLab France S.A.S. Right to Disconnect Charter - French and English language versions.
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
 Per the stated [Roles & Responsibilities](/handbook/people-policies/france-sas/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+{{% /panel %}}
 
 ## Roles and Responsibilities
 
@@ -207,7 +201,7 @@ La présente Charte est conclue pour une durée indéterminée.
 
 ### 1. Purpose
 
-At GitLab (hereinafter the "Company"), we support the safety, health and wellbeing of all team members and we operate with an emphasis on asynchronous communication and a focus on results, not hours worked. We believe that family and friends should come first and work should come second. In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
+At GitLab (hereinafter the "Company"), we support the safety, health and well-being of all team members and we operate with an emphasis on asynchronous communication and a focus on results, not hours worked. We believe that family and friends should come first and work should come second. In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
 
 The present document (hereinafter the "Charter") has been drawn up in order to reiterate and reinforce team members' right to disconnect from IT tools available within the Company.
 

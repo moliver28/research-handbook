@@ -15,7 +15,7 @@ Create a program for learning and development based on core competencies in the 
 
 ### Welcome Video
 
-Todd provides an overview of the purpose and goals of the Marketing Career Development Program as well as insights into the marketing organizaton and what each team does, in this welcome [video](https://gitlab.edcast.com/insights/welcome-video).
+Todd provides an overview of the purpose and goals of the Marketing Career Development Program as well as insights into the marketing organization and what each team does, in this welcome [video](https://gitlab.edcast.com/insights/welcome-video).
 
 ## Competencies
 
@@ -25,10 +25,10 @@ Know how to read and interpret the marketing analytics GitLab's marketing team u
 
 - [Business Analytics: Marketing Data](https://www.linkedin.com/learning/business-analytics-marketing-data/what-is-the-value-of-marketing-data?u=2255073)  - LI provides a nice overview of why and how people analyze marketing data.
 - For SFDC users:
-- [Trailhead Reports and Dashboards for SFDC Classic](https://trailhead.salesforce.com/en/content/learn/modules/reports_dashboards)
+- [Trailhead Reports and Dashboards for SFDC Classic](https://trailhead.salesforce.com/content/learn/modules/reports-dashboards-quick-look/learn-about-reports-and-dashboards)
 - [DataStudio training on GitLab about.com](https://www.youtube.com/watch?v=7IFDCl_6SsM) - Empirical Path and Shane Rice sharing how to use DataStudio
-- [OPTIONAL: Salesforce Custom Reports](https://www.linkedin.com/learning/salesforce-custom-reports/welcome?u=2255073) (LI video - all shown in Lightning UI vs Classic)
-- [OPTIONAL: Salesforce dashboards](https://www.linkedin.com/learning/salesforce-dashboards/welcome?u=2255073) (Section 2 Chart Types may be of interest as to why you might choose one type over another and what each means, again in Lightning)
+- [OPTIONAL: Salesforce Custom Reports](https://www.linkedin.com/learning/salesforce-custom-reports/welcome) (LI video - all shown in Lightning UI vs Classic)
+- [OPTIONAL: Salesforce dashboards](https://www.linkedin.com/learning/salesforce-dashboards/welcome) (Section 2 Chart Types may be of interest as to why you might choose one type over another and what each means, again in Lightning)
 
 ### Writing and communication
 
@@ -85,4 +85,4 @@ Know how to read and interpret the marketing analytics GitLab's marketing team u
 - [LeanData](/handbook/marketing/marketing-operations/leandata/)
 - [Sigstr](/handbook/marketing/marketing-operations/terminus-email-experiences/)
 - [Outreach](/handbook/marketing/marketing-operations/outreach/)
-- [Salesforce](https://trailhead.salesforce.com/en/content/learn/trails/getting_started_crm_basics) (Trailhead with Classic UI, but more admin level details)
+- [Salesforce](https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome) (Trailhead with Classic UI, but more admin level details)

@@ -3,15 +3,9 @@ title: "GitLab France S.A.S. Remote Work Charter"
 description: GitLab France S.A.S. Remote Work Charter - French and English language versions.
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
-Per the stated [Roles & Responsibilities](/handbook/entity/iberia-srl-spain/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/people-policies/france-sas/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
 
 ## Français: GITLAB FRANCE S.A.S. CHARTE SUR LE TÉLÉTRAVAIL
 

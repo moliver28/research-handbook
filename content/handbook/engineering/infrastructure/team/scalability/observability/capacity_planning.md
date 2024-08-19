@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/capacity_planning.html
-
 title: "Capacity Planning"
 ---
 
@@ -10,7 +8,7 @@ The goal of this process is to predict and prevent saturation incidents on GitLa
 
 Issues are kept in the [capacity planning issue tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues). Where an issue is needed to improve metrics to support this process, we raise an issue in the [Scalability group tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues) with the label of `Saturation Metrics`.
 
-Please see [Tamland](./tamland.html) for more information on the forecasting tool we develop and use.
+Please see [Tamland](tamland.html) for more information on the forecasting tool we develop and use.
 
 ## Triage Duties
 
@@ -25,7 +23,7 @@ The triage duties are:
 1. Raise any significant concerns through the [SaaS Availability weekly standup](/handbook/engineering/#saas-availability-weekly-standup)(currently on Tuesdays in UTC afternoon) by adding them to the [meeting agenda](https://docs.google.com/document/d/1Zk3qgbn8iDyJRq0i5C5LPBgEopY6o1tpYEKfdNfA9Bg/edit#).
    * An issue is a significant concern if it is a critical non-horizontally-scalable resource at risk of imminent saturation or an issue that needs additional attention from leadership.
    * If something is really pressing, please raise significant concerns with the Engineering Manager who will escalate to leadership as appropriate.
-1. Check that Tamland is running and generating output and bring this to the team's attention if it is not running. Check the [scheduled pipelines on ops](https://ops.gitlab.net/gitlab-com/gl-infra/tamland/-/pipelines?page=1&scope=all&source=schedule) for this. There should be a daily job populating the cache, and a weekly job for tamland without failures.
+1. Check that Tamland is running and generating output and bring this to the team's attention if it is not running. Check the [scheduled pipelines](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/pipelines?page=1&scope=all&source=schedule) for this. There should be a daily job forecasting and populating the cache in the `forecast` stage.
 1. Create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/new?issuable_template=Handover&issue[title]=Triage%20handover%20notes%20YYYY-MM-DD) once your shift comes to an end and hand information over to the next person taking it.
 
 Make sure to set aside at least half a work day during each week in your rotation to go through the items in the Capacity Planning board.
