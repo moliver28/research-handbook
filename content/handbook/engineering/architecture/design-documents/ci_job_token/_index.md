@@ -300,6 +300,9 @@ Pros:
 Cons:
 
 * Token revocation is trickier with a stateless token.
+* Requires pipeline authors to opt-in
+* Requires pipeline authors to understand the new syntax
+* Still potential for over-permissioning if the new syntax is too tricky or pipelines are failing.
 
 ### Stage 4: Integrate with our OAuth Provider
 
