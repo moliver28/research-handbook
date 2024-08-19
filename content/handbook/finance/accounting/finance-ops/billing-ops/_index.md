@@ -29,7 +29,7 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 - [Ausha Saptouw](/handbook/company/team/#aushas) - Senior Billing Operations Analyst (EMEA)
 - [Laura Robins](/handbook/company/team/#laurarobins) - Senior Billing Operations Analyst (EMEA)
 - [Christian Willis](/handbook/company/team/#christianwillis) - Senior Billing Operations Analyst (AMER)
-- [Diana Quitevis](/handbook/company/team/#dquitevis) - Billing Operations Specialist (AMER)
+- [Diana Quitevis](/handbook/company/team/#dquitevis) - Billing Operations Analyst (AMER)
 
 *The Billing Team works closely with Sales, Deal Desk, Accounts Receivable, and Revenue Operations.*
 
