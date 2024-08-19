@@ -66,7 +66,7 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 
 | Team member |  Responsibilities |
 |-------------|-------------|
-| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Optimization, Content Delivery |
+| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Optimization, Content Delivery (Orchestration rather than presentation) |
 | [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Architect | Quarterly Planning/Backlog Management, Content Creation (Non Demos), Content Operations |
 | [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demos/Lab Content Creation, Demo Operations, Demo Asset Maintenance |
 
@@ -132,3 +132,24 @@ We are always taking suggestions for new content to enable customers. Please vis
 Submissions will be reviewed and refined on a quarterly basis during our backlog review, facilitated by the team's Content Architect. If an idea is chosen for  creation, it will be promoted to an epic in the Customer Success Engineering Group and assigned issues for the creation process associated with that content type. While this is a collaborative process, the Director of the Customer Success Engineering team has the final say on which content will be created each quarter.
 
 While our goal is to establish a more structured process that we can measure to ensure it delivers value to our customers, CSEs are encouraged to research topics as needed for customer needs or personal growth. CSEs are asked to please discuss any content projects outside of the official CSE Content Team process and workflow directly with their managers. We are working toward a set of quality assurance guidelines and standards which one can use to independently evaluate personal projects that they may want to propose be adapted to a future webinar or lab.
+
+#### Content Idea Lifecycle
+
+```mermaid
+flowchart LR
+    A([Start]) --> B[/fa:fa-lightbulb Idea/]
+    B -->|Issue Created| C[(Backlog)]
+    C --> D[/fa:fa-star GitLab Priorities/]
+    C --> E[/fa:fa-chart-simple Historic Attendance/]
+    C --> F[/far:fa-lightbulb Existing Backlog/]
+    C --> G[/fa:fa-list-check Team Bandwidth/]
+    C --> H[/fa:fa-scale-balanced Customer Feedback/]
+    D --> I[fa:fa-people-group Idea Refinement]
+    E --> I
+    F --> I
+    G --> I
+    I -->|Promoted to Epic| J([fa:fa-laptop Development])
+
+    style H fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray:
+    style Future fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray:
+```
