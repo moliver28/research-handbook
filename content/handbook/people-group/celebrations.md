@@ -21,7 +21,11 @@ Team members celebrating a GitLab anniversary will have the option to select a c
 
 No action is required by team members in order to receive these gifts! If you are due an anniversary gift the vendor team, Brilliant, will email you at the beginning of the following month that you are celebrating your anniversary with a specific redemption link. The People Connect runs a monthly report from Workday looking back to the previous month to identify the eligible team members and share this with the swag vendor.
 
-Please reach out to the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) for any questions.
+#### Redeeming New Hire Swag and Anniversary Swag
+
+Please note: the New Hire and Anniversary Swag links are provided specifically for the redemption of preselected items. These items are not eligible for exchange or conversion to swag shop credit.
+
+If you have any questions or need further assistance regarding New Hire or Anniversary Swag, please don't hesitate to reach out to the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=4c1e3345478c069067429ee0026d43dc).
 
 ### Team Member Birthdays
 
