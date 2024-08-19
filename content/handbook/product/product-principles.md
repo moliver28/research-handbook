@@ -152,7 +152,7 @@ _If you have a failure that can serve as a learning opportunity, please make an 
 Just because something is [not invented here](https://en.wikipedia.org/wiki/Not_invented_here)
 doesn't mean it doesn't have a perfect home within our solution. GitLab is an
 Open Core product and is part of the broader ecosystem of Open Source tools in
-the market. Every day there are new innovative tools out there that solve
+the market. Every day there are new innovative open source tools out there that solve
 real-world customer problems; we should not be afraid of embedding these tools
 into our own products in order to solve those same problems for our customers
 too. Leveraging existing technology allows us to get to market much more quickly,
