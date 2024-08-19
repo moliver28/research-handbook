@@ -56,9 +56,9 @@ Your direct login allows for direct export into SFDC. However you can also acces
 
 Do you have a topic not covered you'd like to see? Slack #zoominfo room or reach out to marketing operations.
 
-To access Zoominfo training sessions specific for GitLab follow [this link](https://university.zoominfo.com/courses/gitlab-inc-recorded-trainings).
+To access Zoominfo training sessions specific for GitLab follow [this link](https://hello.chorus.ai/listen?guid=380d82a7cfbf46e6b0dff3b7957cb0e0).
 
-To access additional Zoominfo on-demand training follow [this link](https://university.zoominfo.com/pages/on-demand-training).
+To access additional Zoominfo on-demand training follow [this link](https://university.zoominfo.com/salesos-advanced-features-on-demand).
 
 ### Do Not Call and Do Not Email Automation
 

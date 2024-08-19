@@ -57,6 +57,12 @@ The `Partner Prospect Admin` will receive an email notification when leads are s
 
 - [List Import](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC34955C3ZN19)
 
+## Assign to Partner Button Workaround
+
+Vartopia has a validation rule that requires manufacturers to use the Assign to Partner button and manually assign the lead to Partners.
+
+To bypass this validation rule, we need to uncheck or check the Update from Vartopia when updating the Share and Prospect Status. However, we don't want to update a status when `Update from Vartopia` is `TRUE`, since this would mean the lead was already assigned to another partner.
+
 ## Prospects Module for Carahsoft
 
 We allow Carahsoft access to the Prospects module through the `Partner Placeholder Pubsec` partner account, which will allow them to receive leads from joint GitLab - Partner marketing campaigns.

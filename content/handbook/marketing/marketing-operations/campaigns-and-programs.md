@@ -1,6 +1,6 @@
 ---
 title: "Campaigns and Programs"
-description: "Campaigns are used to track efforts of marketing tactics - field events, webcasts, content downloads."
+description: "Campaigns are used to track efforts of marketing tactics"
 ---
 
 ## Campaigns
@@ -915,7 +915,7 @@ There are a few common errors we see with Content Syndication leads. You can add
    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is active, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
 1. If you need to check the email deployment, change the "Filter" view to Email and confirm that the correct email was sent. In most cases, this should be the Welcome Email without a language specified.
 
-### Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP - adding a new asset
+### Steps to Setup Content Syndication - Campaigns through Integrate DAP - adding a new asset
 
 If your content syndication program is not running through DAP, please use the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc).
 
