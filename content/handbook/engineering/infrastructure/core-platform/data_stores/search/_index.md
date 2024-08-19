@@ -62,6 +62,7 @@ There are many data types and search scopes already available via the Advanced S
 | **Commits** | Yes | Yes | Yes | No | Include/exclude archived |
 | **Milestones** | Yes | Yes | Yes | No | Include/exclude archived |
 | **Project** | Yes | Yes | Yes | No | Group |
+| **Wiki** | Yes | Yes | Yes | No | Group, Project |
 
 ## Meetings
 
