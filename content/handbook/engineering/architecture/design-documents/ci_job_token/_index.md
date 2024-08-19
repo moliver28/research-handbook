@@ -136,6 +136,7 @@ Cons:
 - This occupies a licensed seat.
 - It is not intuitive.
 - This artificially increases the number of registered users in the product metrics.
+- Requires us to clean up the users after this stage is complete
 
 ### Stage 2: Use a Service Account
 
