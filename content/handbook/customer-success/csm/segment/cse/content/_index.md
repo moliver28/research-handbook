@@ -66,7 +66,7 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 
 | Team member |  Responsibilities |
 |-------------|-------------|
-| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Optimization, Content Delivery (Orchestration rather than presentation) |
+| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Optimization, Content Delivery |
 | [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Architect | Quarterly Planning/Backlog Management, Content Creation (Non Demos), Content Operations |
 | [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demos/Lab Content Creation, Demo Operations, Demo Asset Maintenance |
 
