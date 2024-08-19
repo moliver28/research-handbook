@@ -49,7 +49,6 @@ This proposal attempts to decouple the access that a `CI_JOB_TOKEN` has away fro
 ### Non-Goals
 
 - We will not add auditing of token usage and generation
-- We will not change the token format (for example [JWT](https://datatracker.ietf.org/doc/html/rfc7519))
 - We will not create a [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693)
 - We will not focus on reducing the duration of access of a `CI_JOB_TOKEN`
 - We will not unify the [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with the existing [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities)
