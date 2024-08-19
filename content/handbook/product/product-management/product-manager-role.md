@@ -186,4 +186,4 @@ To propose a shadow, please create an issue in the stage issue tracker using oth
 
 ## Product Leadership
 
-The separate page [Product Leadership](/handbook/product/product-leadership/) covers how to be an effective leader in the product management organization.
+The separate page [Product Leadership](/handbook/product/product-leaders/product-leadership/) covers how to be an effective leader in the product management organization.

@@ -46,7 +46,7 @@ The Job Performer is a critical concept referring to the individual undertaking 
 
 The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It's an act that should be performed and have a clear end state… the "done" part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer's perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 
-Main Jobs follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format: [verb] + [object] + [(optional) clarifier]
+Main Jobs follow the [Job Statement]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements)--> format: [verb] + [object] + [(optional) clarifier]
 
 >💡 Main Jobs are mapped using a Job Map.
 
@@ -90,7 +90,7 @@ Related Jobs are often within the same or adjacent Domain. For example, A relate
 
 ## Main Job Hierarchy
 
-![Job Map](JTBD_MainJob_Alt.png)
+![Job Map](JTBD_MainJob_Hierarchy.png)
 
 ### Job Statements
 
@@ -117,7 +117,7 @@ The key is to focus on the Job Performer's goal and desired outcome, rather than
 
 Job Stages should represent high-level job statements that describe the step or _stage_ the Job Performer is in during this process of achieving their Main Job. The complete set of Stages and their Job Steps form a Job Map.
 
-Job Stages follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format. Examples of Job Stage _verbs_ include:
+Job Stages follow the [Job Statement]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements)--> format. Examples of Job Stage _verbs_ include:
 
 - Define. Plan, Select, Determine
 - Locate, Gather, Access, Receive
@@ -134,7 +134,7 @@ Job Stages follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_
 
 Job Steps are the small objectives a user must complete to accomplish the Stages and, therefore Main Job. These should be self-explanatory and easy to understand without much context. They are the sequential series of objectives a Job Performer must complete to accomplish the Stage. Each Job Step is high-level and can be broken out into it's own workflow if you were to zoom-in on it; they are not individual tasks. Avoid being too granular when writing Job Steps in order to keep them relevant to all performers executing the job.
 
-Job Steps follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format.
+Job Steps follow the [Job Statement]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements)--> format.
 
 ## Job Differentiators
 
@@ -163,7 +163,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 2. **Reliability/Predictability:** Progress entails increased reliability and decreased likelihood of deviations or errors.
 3. **Efficiency:** Progress is achieved by minimizing waste and optimizing output.
 
->💡 The ideal scenario for Job Performers involves instant task completion, 100% predictability, and 0% efficiency loss. Such perfection facilitates progress and fulfills needs.
+💡 The ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
 
 | Dimension | Definition | Formula |
 | --- | --- | --- |
@@ -171,11 +171,13 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 | Reliability/Predictability | Measured using likelihood. Progress is gauged by minimizing the likelihood of undesired outcomes in task completion. | Minimize the likelihood that [some unwanted thing happens] [in some context] when getting a job done. |
 | Efficiency | Measured using likelihood. Progress is gauged by minimizing the likelihood of actions leading to waste or inefficiency in task completion. | Minimize the likelihood of [doing something that causes waste/inefficiency] [in some context] when getting a job done. |
 
->💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
+💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
+
+![Outcome Mapping](./Concepts_Outcome_mapping.png)
 
 ### Measuring Outcome statements
 
-When benchmarking, Outcome statements are measured by importance and satisfaction. Combining these two elements allows teams to understand if they are meeting their user's needs and how they should prioritize their efforts. At this point, Outcomes can also be referenced as **"needs"**, and we can group them into three categories based on Job Performer responses.
+When [benchmarking]<!--(content/handbook/product/ux/jobs-to-be-done/JTBD-Evaluation-Methods#benchmarking-the-domain)-->, Outcome statements are measured by importance and satisfaction. Combining these two elements allows teams to understand if they are meeting their user's needs and how they should prioritize their efforts. At this point, Outcomes can also be referenced as **"needs"**, and we can group them into three categories based on Job Performer responses.
 
 #### Overserved Needs
 
@@ -218,5 +220,5 @@ Understanding and addressing underserved needs is a powerful strategy for achiev
 
 ## Job Canvas
 
-A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) Main Job or Consumption Job in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
+A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's]<!--(/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for)--> Main Job or Consumption Job in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook]<!--(/handbook/product/ux/jobs-to-be-done/jtbd-playbook)-->, as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 Each canvas has different sections which combine to provide a **holistic picture of a Job Performer's Main Job or Consumption Job**.

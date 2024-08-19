@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research/research-in-the-AI-space
 title: "Doing UX research in the AI space"
 description: "How to conduct UX research in the Artificial Intelligence (AI) space, including research guidelines."
 ---

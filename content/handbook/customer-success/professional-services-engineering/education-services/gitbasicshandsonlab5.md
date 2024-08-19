@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-on Lab: Auto DevOps With a Predefined Project Template"
+title: "GitLab with Git Fundamentals - Hands-on Lab: Auto DevOps With a Predefined Project Template"
 description: "This Hands-on Guide walks you through setting up and running an Auto DevOps pipeline."
 ---
 

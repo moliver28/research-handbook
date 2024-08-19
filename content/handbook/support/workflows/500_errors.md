@@ -103,7 +103,8 @@ Then, respond to the user with information about the cause of the issue, provide
 
 ###### Issues found in Sentry
 
-1. Convert the issue to a GitLab issue by using the "Create GitLab Issue" button on the issue page.
+1. Convert the issue to a GitLab issue by using the "Create GitLab Issue" button on the issue page. **Note:** There is a known issue with the GitLab integration in Sentry that prevents this from working,
+   due to the number of projects under the `gitlab-org` group. As a result you will most likely need to create the GitLab issue manually.
 1. Comment on the issue providing a link to the Zendesk ticket.
 1. Add any additional labels if needed such as `customer`, [priority and severity](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#severity-labels), and the appropriate DevOps stage.
 1. Respond to the user with information about the cause of the issue, provide a link to it, and invite them to subscribe to it for updates.

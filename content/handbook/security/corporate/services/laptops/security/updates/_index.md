@@ -37,3 +37,11 @@ This is a placeholder.
 Certain third party software is automatically patched by Jamf using their [app installers](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/App_Installers.html). Periodically users will recieve notifications in the top right corner of their screen to initiate an update. Users can either quit their software and reopen once complete or restart their computer in order for updates to complete. Updates typically take less than a minute to complete.
 
 <img src="app-installer-example.png" alt="App Installer Notification" width="400">
+
+## Jamf App Installers Troubleshooting
+
+### Continuous notifications to update even after quitting the App
+
+If you are still seeing update notifications even after quitting the app and re opening, try restarting the computer or look for areas where the application is still open, like in the task bar next to the clock. 
+
+<img src="1password-taskbar-quit.png" alt="1password taskbar quit" width="400">

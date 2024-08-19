@@ -1,8 +1,6 @@
 ---
 title: "Leaders at Summit"
 description: "Company leaders who attend GitLab Summit should take the opportunity to engage with GitLab team-members across the organization."
-aliases:
-- /handbook/company/culture/summit/contribute-leadership/
 ---
 
 {{< youtube "39chczWRKws?start=1756" >}}

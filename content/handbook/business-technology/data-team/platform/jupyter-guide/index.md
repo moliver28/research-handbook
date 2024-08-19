@@ -121,7 +121,7 @@ By default, rancher will allocate a small percentage of your machine's memory to
     1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
 1. Launch Jupyter. You should now be able to initialize the experiment tracker via the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
 
-**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#step-by-step-instructions)**
 
 ## Updating the Image
 

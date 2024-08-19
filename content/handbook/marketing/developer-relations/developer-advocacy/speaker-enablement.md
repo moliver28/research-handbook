@@ -1,7 +1,5 @@
 ---
 title: "Speaker Enablement"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/speaker-enablement/index.html
 ---
 
 ## Speaker Resources

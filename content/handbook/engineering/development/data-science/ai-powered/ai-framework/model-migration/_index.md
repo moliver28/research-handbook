@@ -1,7 +1,6 @@
 ---
 title: AI Model Migration Playbook
 description: "How to migrate an AI model at GitLab"
-aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
 ## Introduction

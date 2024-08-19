@@ -1,6 +1,5 @@
 ---
 title: "GTM Analytics Hub"
-aliases: '/handbook/finance/financial-planning-and-analysis/sales-finance/gtm-analytics-hub/'
 ---
 
 ## Common Links

@@ -1,8 +1,6 @@
 ---
 title: "Edit your team page entry"
 description: "Instructions on how to add yourself to the team page, and make edits."
-aliases:
-- /handbook/edit-team-page/
 ---
 
 This page specifically covers how to add yourself to the team page, add your pets to the pets page, and edit the relevant entries.
@@ -86,7 +84,7 @@ Choose the method below that feels most comfortable and have the following infor
    1. Select the image you want to upload and Open.
    1. Now you will navigate back to your team page entry. You can do this by either closing the `sites` folder and opening `data`, then `team members`, `person`, and the folder containing you file; or you can notice your file tab on the top bar, and you can click on it to be taken to that file.
    1. Update your `picture` field to your filename. Delete the content that is this line after the `picture:` that starts with `../gitlab` etc. Make sure to match the letter case of your picture file. The completed line should look like this: `picture: yournameinlowercase.jpg` for example.
-1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/editing-handbook/practical-handbook-edits/#using-the-new-web-ide-to-edit-the-handbook).
+1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/editing-handbook/#web-ide-editing-steps).
 1. Create a title for your MR, and enter it in the box above the `Commit & Push` button. An example title would be `Updating My Team Page Entry`.
 1. Click the `Commit & Push` button.
 1. Click on `Yes Commit to a new branch`.

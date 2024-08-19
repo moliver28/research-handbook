@@ -14,7 +14,6 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
 - Data cleanliness and accuracy
 - Best practices and strategy on marketing technology
 - Continuous improvement of marketing systems
-- System integrations and data flow
 - Evaluate new marketing technology
 - Support procurement of new marketing technology
 
@@ -167,6 +166,7 @@ Systems Related Labels
 </summary>
 
 - `EntAppsCustomer: MOPS`: Used on issues that require Sales Systems support
+- `MktgSystems-PMO`: Used for issues on committed PMO projects to help with prioritization and to determine work streams
 
 Business Impact Labels: What business impact or subject area is driving these changes
 
@@ -284,7 +284,8 @@ If a field needs to be created in Marketo AND SFDC, it must be created in SFDC f
 
 If you need assistance with Sales Systems follow the next steps:
 
-1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`.
+1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`. 
+    - If the issue is a part of a committed PMO project, please add the label `MktgSystems-PMO`
 2. If Mops member can create a changeset, please do so shortly after creating the issue to decrease time to deploy,
 3. Add [prioritization label](/handbook/marketing/marketing-operations/#labeling) of `MktgOpsPrio::00: Requested`
 4. Business process owner (Amy or Christine) will review, and if they approve of the request from a business standpoint, they will check the appropriate box and add the `MktgOpsPrio::01: Approved` label. If not, the request will stay in `MktgOpsPrio::00: Requested` status until blockers or outstanding questions are resolved.

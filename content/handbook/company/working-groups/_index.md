@@ -2,7 +2,6 @@
 title: "Working Groups"
 description: "Like all groups at GitLab, a working group is an arrangement of people from different functions. Learn more!"
 no_list: true
-aliases: /handbook/company/top-cross-functional-initative/
 ---
 
 ## What's a Working Group?

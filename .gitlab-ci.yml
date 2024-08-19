@@ -15,7 +15,7 @@
 ###################################
 
 stages:
-  - test
+  - sync
   - build
   - deploy
   - notify
@@ -114,6 +114,23 @@ variables:
 
 .build-and-test-only: &build-and-test-only
   if: '$BUILD_AND_TEST_ONLY == "true"'
+
+###################################
+#
+# INTERRUPTION PROTECTION
+#
+###################################
+
+dont-interrupt-me:
+  stage: sync
+  image: alpine:latest
+  interruptible: false
+  script:
+    - echo "This jobs makes sure this pipeline won't be interrupted! See https://docs.gitlab.com/ee/ci/yaml/#interruptible."
+  variables:
+    GIT_STRATEGY: none
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "pipeline"
 
 ###################################
 #

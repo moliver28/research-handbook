@@ -1,6 +1,7 @@
 ---
 title: "dbt Guide"
 description: "data build tool (dbt) Guide"
+math: true
 ---
 
 ## Quick Links
@@ -150,6 +151,8 @@ To clone and build all of the changed models in the local development space the 
 ╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model" 
 ```
 
+[Video Introduction](https://youtu.be/0WiljW6Bihw)
+
 #### SQLFluff linter
 
 We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
@@ -163,6 +166,8 @@ sqlfluff lint models/workspaces/workspace_data/mock/data_type_mock_table.sql
 ╰─$ make lint-models FIX="True" MODEL="dim_date"  
 sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
 ```
+
+[Video Introduction](https://youtu.be/MwVJHf7XvrI)
 
 #### Cloning models locally
 
@@ -677,7 +682,8 @@ The Data Team reservers the right to reject code that will dramatically slow the
   ```
 
 - All `{{ ref('...') }}` statements should be placed in CTEs at the top of the file. (Think of these as import statements.)
-  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model
+  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model.
+  - If only a small number of fields are required from a model containing many columns then it can be performant to list them in the CTE, otherwise it is better to use `SELECT *`. To do this, the `simple_cte` macro can be used.
 
 - If you want to separate out some complex SQL into a separate model, you absolutely should to keep things DRY and easier to understand. The config setting `materialized='ephemeral'` is one option which essentially treats the model like a CTE.
 
@@ -705,7 +711,7 @@ In normal usage, dbt knows the proper order to run all models based on the usage
   })
 }}
 
--- depends on: {{ ref('snowplow_sessions') }}
+-- depends_on: {{ ref('snowplow_sessions') }}
 
 {{ schema_union_all('snowplow_', 'snowplow_sessions') }}
 ```
@@ -1403,6 +1409,66 @@ To manually review the downstream impacts a change to a model may have use the a
 
 Models are dropped by removing files in your local IDE session and committing these changes to be run in the CI Pipes on the MR.  Snowflake tables in Production have to be removed separately by a DE.  This should be specified on the MR and communicated directly to the DE. Some tables may need to be retained as history, even though the Dbt Models are removed.
 Here is an [Example MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/6990) that shows Models being deprecated with some of the tables being retained in the database.
+
+## Model Efficiency 
+
+A model's efficiency is a measure of how well the model uses the Snowflake resources to produce the model. At this time, it is not a measure of the queries used as we have not found a way to procedurally and reliably quantify the actions taken within a query.  The efficiency score of a model can be determined for each model invocation and is a based on three numbers determined from the queries executed by the model.  The component numbers are intended to provide an insight into where to investigate when the overall number does not meet the intend targets.  These scores can be aggregated to show the overall efficiency of a grouping of models, such as a run or day.
+
+### Method
+
+For each model the queries executed are first filtered and aggregated. Only the specific query types of `CREATE_VIEW, INSERT, DELETE, CREATE_TABLE_AS_SELECT, MERGE, CREATE_VIEW, SELECT, EXTERNAL_TABLE_REFRESH` are considered and the query properties of `bytes_scanned, bytes_spilled_to_remote_storage, bytes_spilled_to_local_storage, partitions_total, partitions_scanned` are aggregated for calculation. Once aggregated the following metrics are calculated:
+
+#### Local Storage Efficiency
+
+\\[E_l = min\{\frac{s-S_l}s,0\}\\]
+
+- Where \\(S_l\\) is the model Bytes Spilled to Local Storage
+- Where \\(E_l\\) is the model Local Storage Efficiency
+- Where \\(s\\) is the model Bytes Scanned 
+
+The metric is calculated as the model bytes scanned less the model bytes spilled to local storage divided by the model bytes scanned and limited to values between 0 and 1.  This calculation allows for a number that is independent of other models but still comparable to other models.
+
+#### Remote Storage Efficiency
+
+\\[E_r = min\{\frac{s-S_r}s,0\}\\]
+
+- Where \\(S_r\\) is the model Bytes Spilled to Remote Storage
+- Where \\(E_r\\) is the model Remote Storage Efficiency
+- Where \\(s\\) is the model Bytes Scanned
+
+The metric is calculated as the model bytes scanned less the model bytes spilled to remote storage divided by the model bytes scanned and limited to values between 0 and 1. This calculation allows for a number that is independent of other models but still comparable to other models.
+
+#### Partition Scan Efficiency
+
+\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]
+
+- Where \\(S_p\\) is the model Partitions Scanned
+- Where \\(E_p\\) is the model Partition Scan Efficiency
+- Where \\(p\\) is the model Total Partitions
+
+If there is more than one model partition then the metric is calculated as the model total partitions less the model partitions scanned divided by the model total partitions and limited to values between zero and one, otherwise the metric value is set to one.  This calculation allows for a number that is independent of other models but still comparable to other models.  It is expected that most models will not be able to achieve a partitions scan efficiency value of one as some number of partitions will always need to be scanned, but efforts should be made to improve the metric as much as possible.
+
+#### Efficiency Score
+
+\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]
+
+- Where \\(E\\) is the model Efficiency Score
+- Where \\(E_p\\) is the model Partition Scan Efficiency
+- Where \\(E_r\\) is the model Remote Storage Efficiency
+- Where \\(E_l\\) is the model Local Storage Efficiency
+- Where \\(w_p\\) is the model Partition Scan Efficiency weight
+- Where \\(w_r\\) is the model Remote Storage Efficiency weight
+- Where \\(w_l\\) is the model Local Storage Efficiency weight
+
+The compound score is calculated as the weighted average of the `Local Storage Efficiency`, `Remote Storage Efficiency`, and `Partition Scan Efficiency` metrics. The metric weights are determined arbitrarily by the needs and focus of the business.
+
+### Usage
+
+Model efficiency can be looked at for an individual model or for a collection of models.  When looking at a collection of models, it is recommended that efficiency metrics and scores be weighted, for example by the total bytes scanned, across the models in the collection.  When the metrics and score are below target values, each metric can indicate an area of exploration to improve the efficiency: `Local Storage Efficiency` and `Remote Storage Efficiency` indicate insufficient memory for the bytes processed by the model and low `Partition Scan Efficiency` indicates that the model may not be set up to prune partitions as part of the needed table scans.
+
+### Reporting
+
+To report on the overall efficiency of dbt models for the organization the latest invocation of each model is used and weighted by the total bytes scanned.  This method provides a view over time of the changes to the aggregate efficiency of all of the models and represents a lagging indicator of the effect of changes to models and new models added to the collection.  Each metric and score are available in the reporting so that the cause of changes can be drilled into and areas of improvement can be identified.
 
 ## Model Performance
 

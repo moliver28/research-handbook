@@ -19,7 +19,7 @@ Infrastructure & Quality objectives and KRs are captured on this page.
 1. KR: [Improve On-Call Engineer Experience](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3414) => 62%
 1. KR: [Proactively address causes of instability](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3415) => 44%
 
-#### 2. **Objective:** Improve efficiency, scalability and resiliency of GitLab.com Infrastructure => 94%
+#### 2. **Objective:** Improve efficiency, scalability & resiliency of GitLab.com Infrastructure => 94%
 
 1. KR: [Implement RTO & RPO goals for GitLab.com](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3701) => 9% `Needs attention`
 1. KR: [GitLab.com hosting costs reduced by 5% from FY24-Q2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3400) => 144%
@@ -32,7 +32,7 @@ Infrastructure & Quality objectives and KRs are captured on this page.
 1. KR: [Runway operates production services](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3494) => 100%
 1. KR: [Performance validation of AI Model Gateway for GitLab.com and GitLab plus](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4119) => 35% `Needs attention`
 
-#### 4. **Objective:** Increase the maturity of GitLab products and expand on strategic offerings => 57%
+#### 4. **Objective:** Increase maturity of GitLab products & expand on strategic offerings => 57%
 
 1. KR: [Mature GitLab Dedicated](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3495) => 65%
 1. KR: [Update release process to address customer current needs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3497) => 75%

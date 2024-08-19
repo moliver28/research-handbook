@@ -5,7 +5,7 @@ description: "Driving strategy and initiatives across Engineering"
 
 Technical Program Manager (TPM) is responsible for the planning, execution, and delivery of complex projects across Engineering. TPMs work with a variety of stakeholders, including engineers, architects, and business leaders, to ensure that projects are completed on time and within budget, and to the required quality standards. This includes the tracking, monitoring and influencing priority of significant objectives, goals and plans from all sub-departments.
 
-TPMs typically have a background in engineering or computer science, and have a deep understanding of the technical aspects of infrastructure components. They also have strong leadership and communication skills, and able to work effectively in a fast-paced and demanding environment.
+TPMs typically have a background in engineering or computer science, and have a deep understanding of the technical aspects of product management and infrastructure scalability. They also have strong leadership and communication skills, and able to work effectively in a fast-paced and demanding environment.
 
 ## Responsibilities
 
@@ -73,7 +73,7 @@ All responsibilities of previous roles plus:
 
 - Coordinate with technical teams to ensure adherence to established project standards, processes, and methodologies
 - Drive continuous process improvement and operational excellence within the program
-- Identify and coordinate the interdependencies among programs, products and other critical initiatives for 1 or more Infrastructure sub-departments
+- Identify and coordinate the interdependencies among programs, products and other critical initiatives for 1 or more engineering sub-departments
 - Provide insight and suggestions to mitigate
 - Examine risks associated with programs and prioritize risks accordingly
 - Collaborate on strategy and direction with organizational stakeholders; Oversee project planning and management
@@ -88,7 +88,7 @@ All requirements of previous roles plus:
 - Experience with infrastructure-related projects such as cloud infrastructure, data center operations, and network engineering
 - Experience influencing others without having direct management authority and motivating them to successfully complete tasks within required timelines
 - Risk analysis and problem-solving skills
-- Excellent written and verbal communication skills, building relationships with partners.
+- Excellent at building relationships with partners.
 
 ### Staff Technical Program Manager
 
@@ -102,8 +102,8 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 
 All responsibilities of previous roles plus:
 
-- Identify and coordinate the interdependencies among programs, products and other critical initiatives across all Infrastructure sub-departments within our organization
-- Assist defining business requirements and roadmaps in alignment with the overall information Infrastructure strategy
+- Identify and coordinate the interdependencies among programs, products and other critical initiatives across all engineering sub-departments within our organization
+- Assist defining business requirements and roadmaps in alignment with the overall engineering strategy
 - Define acceptance criteria for solutions, value proposition and milestones for execution; Validate prototypes with partners and iterate solutions as needed to deliver value
 - Track and provide reporting and measurements of program effectiveness and communicate findings to management
 - Develop repeatable, scalable, efficient, and effective processes
@@ -133,7 +133,7 @@ All responsibilities of previous roles plus:
 - Expanded sphere of influence in driving initiatives across Engineering
 - Drive goals and objectives that results in further progress of the department roadmap and strategy
 - Accountable and responsible for overflow responsibilities from senior leadership
-- Identify, define and implement Infrastructure programs across Engineering
+- Identify, define and implement programs across Engineering
 
 #### Principal Technical Program Manager Requirements
 
@@ -149,8 +149,7 @@ All requirements of previous roles plus:
 
 ## Performance Indicators
 
-- [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
-- [Infrastructure corrective action SLO](/handbook/engineering/infrastructure-quality/performance-indicators/#corrective-action-slo)
+- Individual TPM's Performance Indicators will be defined based on their quarterly goals
 - Project Completion rate
   - Measure by tracking the percentage of projects completed on time and within budget.
 - Stakeholder Satisfaction score

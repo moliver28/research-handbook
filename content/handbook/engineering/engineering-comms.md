@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/communication
 title: Engineering Communication
 ---
 
@@ -7,13 +6,15 @@ title: Engineering Communication
 
 GitLab Engineering values clear, concise, transparent, asynchronous, and frequent communication. Here are our most important modes of communication:
 
-- [**GitLab Issue Tracker**](https://gitlab.com/gitlab-org/gitlab/issues): Please use confidential issues for topics that should only be visible to team members at GitLab.
+- [**CTO Staff issue tracker**](https://gitlab.com/gitlab-com/engineering-division/cto-staff): Private project that is accessible to all GitLab team members, issues are internal to the company. The tracker hosts topics and initiatives important to the Engineering division.
+- [**GitLab Issue Tracker**](https://gitlab.com/gitlab-org/gitlab/issues): Raise issues pertaining to GitLab product development.
 - [**Start with a Merge Request**](/handbook/communication/#start-with-a-merge-request): The most effective way to make a change to the company is to make a proposal in the form of a merge request to the handbook and assign it to the [DRI](/handbook/people-group/directly-responsible-individuals/).
 - [**Monitoring Dashboards**](/handbook/engineering/monitoring/): When we look to achieve a desired outcome, we must be able to quantify and measure progress towards that goal. By making the initial analysis that drives decision making repeatable, we continuously sanity check our initial assumptions along that journey.
-- [**Engineering All-Hands**](cto-staff/#engineering-all-hands).
+- [**Engineering All-Hands**](/cto-staff/#engineering-all-hands).
 - **Engineering Week-in-Review document**: Every week a reminder is sent to the [#engineering-fyi](https://gitlab.slack.com/archives/CJWA4E9UG) Slack channel to read the latest update.  The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
-- **CTO Office Hours**: Each week [Jörg Heilig](https://gitlab.com/joergheilig) holds open office hours on Zoom for questions, feedback, and handbook changes. It's typically Thursdays for 1 hour and alternates between EMEA and APAC-friendly timeslots. See Jörg's calendar for current times.
+- **CTO Office Hours**: Each week the CTO holds open office hours on Zoom for questions, feedback, and handbook changes. Check the CTO's calendar and look for EMEA and APAC-friendly time slots.
 - **Slack**: See next section on [Keeping yourself informed](#keeping-yourself-informed).
+- [Engineering division group](https://gitlab.com/gitlab-com/engineering-division): This group may contain both public and private sub-groups and projects of various engineering teams.
 
 ### Keeping yourself informed
 

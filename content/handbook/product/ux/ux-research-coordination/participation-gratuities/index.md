@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research-coordination/incentives
 title: "Research participation gratuities"
 description: "Learn about how UX Research Operations Coordinators recruit"
 ---

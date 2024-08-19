@@ -48,7 +48,7 @@ Follow the same guidelines as for the project access tokens above.
 
 For cases where automation is applied at the group level or across multiple projects, and where the Maintainer
 permission is required to perform the automation (for example, to post restricted quick actions), you can
-[request a new service account](/handbook/security/access-management-policy.html#requesting-gitlabcom-service-account-for-automation)
+[request a new service account](https://internal.gitlab.com/handbook/security/access-management-standard/#requesting-gitlabcom-service-account-for-automation)
 that will be owned by a specific team.
 
 ## List of automations currently in place

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/resellers/Channel-Program-Guide/MDF
 title: "Marketing Development Funds"
 description: "Marketing Development Funds Overview"
 ---
