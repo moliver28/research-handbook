@@ -305,35 +305,12 @@ Specialty responsibilities and requirements may extend or overlay [Level roles](
 - Serve as the partner advocate to other GitLab teams, including Product Development, Sales, and Marketing.
 - As part of internal and external evangelism, communicate, grow and evolve awareness of applicable partner technology, services, success stories, market trends and best practices.
 
-#### Partner Solutions Architect Requirements
+#### Ecosystem Solutions Architect Requirements
 
 - Extends the Solutions Architect requirements
-- Experience building solutions and professional services through partnerships
+- Experience building solutions and professional services through partners
 - Knowledge of all or most of the following categories in the DevSecOps space: Consulting, Integration, and or Technical Advisory.
 - Technical background with key partnerships such as AWS, Google Cloud, Red Hat. Certifications from these vendors is a plus.
-
-### Director, Ecosystem Solutions Architects
-
-GitLab's Director, Ecosystem Solution Architects provides strategic vision and builds and develops an exceptional team of partner-focused Solution Architects. This person leads the team responsible for providing technical consultancy for channel and alliance partners of all types.  Partnering closely with Sales, Ecosystem Sales, and Customer Success teams, this leader will create strategies and operations to effectively and efficiently accelerate GitLab's growth by continuously improving the GitLab partner ecosystem.
-
-#### Director, Ecosystem Solutions Architects Responsibilities
-
-- Hire, mentor and develop an exceptional team of Solutions Architects.
-- Develop strategies and operations to improve GitLab partner practices and solutions as they pertain to delivering GitLab-based solutions for our customers.
-- Lead by example through direct channel and alliance partner engagement while growing the team.
-- Identify and lead initiatives and programs to scale the organization and its operations for future growth.
-- Develop processes and metrics and KPIs to improve effectiveness and efficiency of partner engagements.
-- Partner with Sales, Customer Success, Ecosystem teams to align on overall strategy and priorities and provide support for specific partners and strategic revenue opportunities.
-- Develop and foster relationships for key partners at the technical sponsor and executive level.
-- Partner with Ecosystem Sales team leadership to align with and deliver to regional and partner plans, strategies and quarterly goals.
-- Collaborate with Sales and Customer Success to improve GitLab's ability to leverage partners to drive Net ARR.
-- Partner with Product, Engineering, Marketing, and Services teams to provide feedback to improve products, services and value messaging based on partner experiences and feedback.
-- Partner with Sales Operations to ensure efficient and ongoing enablement and development of the team.
-- Be a role model for GitLab's values and culture.
-
-### Director, Ecosystem Solutions Architects Requirements
-
-- Extends the Director, Solutions Architects requirements.
 
 ### Public Sector Solutions Architect
 
