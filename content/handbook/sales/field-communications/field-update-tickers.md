@@ -36,12 +36,11 @@ This is the current iteration of the Update Ticker:
 
 1. **Survey**
 2. **"Skip to" anchor links** 
-2. **Content categories**
+3. **Content categories**
    - Leadership Priorities: High customer or business impact topics that you are expected to be aware of and action on
    - Take Action: Action that you are required to complete by a certain date
    - Need to Know: Customer or business critical information or updates that you are required to know in your role (i.e. pricing updates, updates directly related to selling, etc.)
    - Nice to Know: Information or updates that are not business critical but are still relevant to your role (i.e. upcoming events, new cross-functional processes not related to selling, etc.)
-
 
 ## Process
 
@@ -49,7 +48,5 @@ This is the current iteration of the Update Ticker:
 
    - Contributions should be submitted by 12 pm PT each Wednesday to be included in the Update Ticker going out the following day (on Thursday). 
    - When possible, we advocate for using the Update Ticker (as opposed to #field-fyi) to reduce pings to the field and deliver news in a consolidated, predictable, and digestible format.
-
-
 
 Reach out in the #field-enablement-team Slack channel for questions/feedback, or share feedback in the survey at the top of each Update Ticker.
