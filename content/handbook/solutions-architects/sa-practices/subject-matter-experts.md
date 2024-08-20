@@ -2,7 +2,7 @@
 title: Solutions Architects - Subject Matter Experts
 ---
 
-The Subject Matter Experts Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts in key areas, such as AI, security, and agile planning.
+The Subject Matter Experts (SME) Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts in key areas, such as AI, security, and agile planning.
 
 SMEs are Solutions Architects who will help SAs in their region to answer more-in-depths questions, provide deep technical expertise, and assist with customer demos and presentations when needed.
 
@@ -21,7 +21,73 @@ The SME Program will initially focus on the following areas:
 - AI
 - Security
 - Agile planning
-- GitLab Dedicated
+- Dedicated
+
+Other areas may be added in the future, depending on customer and SA demand, such as:
+
+- GitOps
+- MLOps
+- Infrastructure
+
+## Responsibilities
+
+SMEs will be responsible for the following:
+
+- **Technical Guidance and Expertise** for the field and/or customer, often in the form of:
+  - Opportunity consultations
+  - Demo or presentation reviews
+  - Customer calls
+  - [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) reviews
+  - [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) reviews
+  - Office hours
+  - Enablement sessions
+  - [Deliberate practice](/handbook/solutions-architects/sa-practices/deliberate-practice/)
+- **Collateral** in the Handbook or Highspot to be used indepenently by account teams, including:
+  - List of SMEs
+  - Recorded enablement sessions
+  - FAQs
+  - Golden [demos](/handbook/solutions-architects/demonstrations/)
+  - [Hands-on workshops](/handbook/solutions-architects/tools-and-resources/workshop/)
+  - Technical evaluation guidelines
+  - [POV](/handbook/solutions-architects/tools-and-resources/pov/) templates
+  - Common notional architecture diagrams
+  - Competitive intelligence
+- **Gathering Feedback** from the field to share with product and account teams, such as:
+  - Communicating with PMs and updating the field via a shared medium of communication
+  - Contributing to product documentation
+
+SME DRIs will be responsible for their area of expertise and leading their SME teams.
+
+## Nomination Process
+
+The nomination and selection process for SMEs will be as follows:
+
+1. Open call for applications: SAs interested in becoming SMEs can apply by submitting their areas of expertise and relevant experience. Product Management team is also invited to recommend a nominee.
+1. Review of applications: A panel consisting of senior SAs and leadership will review the applications.
+1. Selection: The panel will select SMEs based on their areas of expertise and relevant experience.
+1. Onboarding: Selected SMEs will undergo a brief onboarding process to familiarize with their new responsibilities and expectations.
+
+## Time Commitment
+
+SMEs are expected to dedicate approximately 10-15% of their time to SME-related activities. This includes:
+
+- Answering questions from other SAs
+- Participating in SME/Product meetings
+- Developing and delivering training materials
+- Staying up-to-date with their area of expertise
+
+The remaining 85-90% of their time will be dedicated to their regular SA responsibilities.
+
+## Recognition and Growth
+
+Being an SME provides opportunities for professional growth and recognition:
+
+- Increased visibility within the organization
+- Opportunities to present at internal and external events
+- Potential for career advancement
+- Recognition in performance reviews
+
+SMEs will be regularly evaluated based on their contributions and impact on the SA team and customer satisfaction.
 
 ## Tasks
 
