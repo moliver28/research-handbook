@@ -34,9 +34,7 @@ job can use to interact with other GitLab resources. This token is generated
 on behalf of the user who triggered the CI job, effectively granting the CI
 job the same level of access as the user.
 
-This poses a security risk, as it allows for token theft, enabling a malicious
-actor to exploit the access of another user for the duration of the job for
-which the token was generated.
+This would allow us to enable authorization workflows by default with CI_JOB_TOKEN, resolving for issues like https://gitlab.com/gitlab-org/gitlab/-/issues/335465.
 
 ### Goals
 
