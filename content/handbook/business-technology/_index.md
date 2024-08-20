@@ -100,7 +100,7 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
          - Open a [Zuora Central Sandbox Refresh issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the Sandbox - Zuora Central Refresh template.
 
 5. **Partnerships & Collaborations with:**
-    - [Data Team](../business-technology/data-team/): Empower and generate business value from our data assets by using the data to drive optimal business decisions across GitLab.
+    - [Data Team](../it/data-team/): Empower and generate business value from our data assets by using the data to drive optimal business decisions across GitLab.
     - [Procurement Team](../finance/procurement/)  
     - [People Operations Systems Team](../people-group/people-ops-tech-analytics/)
     - [Security Team](../security/): Conform to the established cybersecurity framework and requirements
