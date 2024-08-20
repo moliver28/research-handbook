@@ -124,6 +124,29 @@ module Gitlab
 end
 ```
 
+Below is an alternative implementation to preserve the audit trail.
+
+```ruby
+class Ci::Build
+  def ci_user
+    conventional_username = "#{project.id}-ci_user"
+    project.users.find_by(username: conventional_username) || user
+  end
+end
+
+module Ci
+  class AuthJobFinder
+    # ...
+
+    def execute!
+      # ...
+        job.ci_user.set_ci_job_token_scope!(job) if job.ci_user.present?
+      # ...
+    end
+  end
+end
+```
+
 **Pros:**
 
 - It is a straightforward solution.
