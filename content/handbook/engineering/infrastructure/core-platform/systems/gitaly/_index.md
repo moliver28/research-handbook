@@ -8,7 +8,7 @@ The Gitaly team is responsible for building and maintaining systems to ensure
 that the Git data storage tier of GitLab instances, and _GitLab.com in particular_,
 is reliable, secure and fast. For more information about Gitaly, see the [README in the repository](https://gitlab.com/gitlab-org/gitaly/-/blob/master/README.md) and the [roadmap](#roadmap) below.
 
-Gitaly team consists of two subgroups, [Gitaly:Cluster team](#cluster-team) and [Gitaly:Git team](#git-team), together referred to as **Gitaly**.
+Gitaly team consists of two subgroups, [Gitaly:Cluster team](#cluster-team) and [Gitaly:Git team](#git-team), together referred to as **Gitaly**. The team includes [Backend Engineers](/job-families/engineering/development/backend/#gitaly) and [SREs](/job-families/engineering/infrastructure/site-reliability-engineer/#gitaly) collaborating to deliver a reliable, scalable and fast data storage to our customers.
 
 ### Functional boundary
 
