@@ -49,7 +49,7 @@ Give responses to Geekbot that truly communicate to your team what you're workin
 
 During weekly or twice-weekly meetings on Tuesdays (cadence depends on the team), we focus on results delivery within the business-focused Fusion Teams and Platform Enhancements Team.
 Data Team Leadership are expected to regularly attend most sessions and review all meeting agendas.
-Because we work in [2-week iteration intervals](handbook/business-technology/data-team/how-we-work/#quarterly-and-iteration-planning), the focus of these *Tuesday* meetings will change from week-to-week.
+Because we work in [2-week iteration intervals](handbook/it/data-team//how-we-work/#quarterly-and-iteration-planning), the focus of these *Tuesday* meetings will change from week-to-week.
 
 **DEMO Meetings**
 

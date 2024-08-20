@@ -13,10 +13,10 @@ description: "Tableau at GitLab"
 - [Tableau Status Page](https://trust.tableau.com)
 - [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)
 - [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)
-- [GitLab Tableau Developer Guide](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/)
-- [GitLab Tableau Administration Guide](/handbook/business-technology/data-team/platform/tableau/tableau-admin-guide/)
-- [Reporting Data Catalog](/handbook/business-technology/data-team/platform/tableau/reporting-data-catalog/)
-- [Handbook Embedding Demonstration](/handbook/business-technology/data-team/platform/tableau/embed-demo/)
+- [GitLab Tableau Developer Guide](/handbook/it/data-team/platform/tableau/tableau-developer-guide/)
+- [GitLab Tableau Administration Guide](/handbook/it/data-team/platform/tableau/tableau-admin-guide/)
+- [Reporting Data Catalog](/handbook/it/data-team/platform/tableau/reporting-data-catalog/)
+- [Handbook Embedding Demonstration](/handbook/it/data-team/platform/tableau/embed-demo/)
 
 ## Tableau
 
@@ -102,7 +102,7 @@ The Project Architecture in Tableau Online is replicated and governed in the Git
 The top-level folders in our Tableau Project, and their corresponding levels of governance, include:
 
 - `Development`: content in this folder intentionally includes no governance, in order to enable users to quickly prototype. As such it should be considered to be sandbox content.
-- `Ad Hoc`: content in this folder has been reviewed and approved by a sub-project leader, with traceability via an MR. (see [project-permission-structure](handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities) for a list of sub-project leaders.)
+- `Ad Hoc`: content in this folder has been reviewed and approved by a sub-project leader, with traceability via an MR. (see [project-permission-structure](handbook/it/data-team/platform/tableau/#biops-roles-and-responsibilities) for a list of sub-project leaders.)
 - `Production`: content in this folder has been reviewed and approved by sub-project leader(s) as well as project leader(s). This is the highest level of certification for Tableau content.
 - `Resources`: content in this folder includes workbook templates and certified data sources that can be used in workbook development
 
@@ -147,7 +147,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
     8. **Product**
     9. **Sales**
     10. **Security**
-1. **Ad-hoc** (Maps to our [Ad-Hoc Data Development Process](/handbook/business-technology/data-team/data-development/#ad-hoc-data-development))
+1. **Ad-hoc** (Maps to our [Ad-Hoc Data Development Process](/handbook/it/data-team/data-development/#ad-hoc-data-development))
     1. **Customer Success**
         1. **General**
             1. Data Source Name
@@ -164,7 +164,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
     8. **Product**
     9. **Sales**
     10. **Security**
-1. **Production** (Maps to our [Trusted Data Development Process](/handbook/business-technology/data-team/data-development/#trusted-data-development)
+1. **Production** (Maps to our [Trusted Data Development Process](/handbook/it/data-team/data-development/#trusted-data-development)
     1. **Customer Success**
         1. **General**
             1. Data Source Name
@@ -186,9 +186,9 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 ### BIOps Roles and Responsibilities
 
-Please see the [project-permission-structure](/handbook/business-technology/data-team/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles.
+Please see the [project-permission-structure](/handbook/it/data-team/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles.
 
-1. **Top Level Project Leader / Maintainer Responsibilities:** The Top Level Project leaders come from the BI Platform Team. These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Online Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Online Site Admins](/handbook/business-technology/data-team/platform/tableau/#tableau-online-admins).
+1. **Top Level Project Leader / Maintainer Responsibilities:** The Top Level Project leaders come from the BI Platform Team. These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Online Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Online Site Admins](/handbook/it/data-team/platform/tableau/#tableau-online-admins).
 2. **Sub-Project Leader / Code Owner Responsibilities:** The Sub-Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. The [CODEOWNERS file](https://gitlab.com/gitlab-data/tableau/-/blob/main/CODEOWNERS?ref_type=heads) in the Tableau project is the source of truth for sub-project leads who are able to review and approve MRs to publish dashboards to Production.
 
 ### BIOPs Workflows
@@ -204,10 +204,10 @@ graph LR
   D[Production Publishing]
 ```
 
-1. **Access Request:** The Access Request stage requires completion of an Access Request. Please see the [Access](/handbook/business-technology/data-team/platform/tableau/#access) section of the Tableau handbook page for more details.
-2. **Development:** All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing.  **The Development Folder will have the same user experience as our old Sisense BI tool where team members can create and share content on demand without any approvals being required from the BI Platform team.** Tableau Creators should follow [SAFE development workflow guidelines](/handbook/business-technology/data-team/platform/safe-data/#tableau) when working with MNPI data in the development folder.
-3. **Ad-Hoc Publishing:** When content in the Development Project Folder is ready for publishing, it can be published in the Ad-Hoc Project Folder if it adheres to the [Ad-Hoc Data Development](/handbook/business-technology/data-team/data-development/#data-development-at-gitlab) methodology. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Ad-Hoc Project Folder.**
-4. **Production Publishing:** When content in the Development or Ad-Hoc Project Folders is ready for Production publishing, it can be published in the Production Project Folder if it adheres to the [Trusted Data Development](/handbook/business-technology/data-team/data-development/#data-development-at-gitlab) methodology. Content that adheres to the Trusted Data Development process will get a Certified Stamp in Production. If the content does not adhere to the Trusted Data Development requirements, but is still considered SSOT, Production grade content, the content can still be published in Production, but it will not receive a Certified Stamp. In such cases, there should be an issue with a project plan for the Tableau content to receive a Certified Stamp. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Production Project Folder.**
+1. **Access Request:** The Access Request stage requires completion of an Access Request. Please see the [Access](/handbook/it/data-team/platform/tableau/#access) section of the Tableau handbook page for more details.
+2. **Development:** All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing.  **The Development Folder will have the same user experience as our old Sisense BI tool where team members can create and share content on demand without any approvals being required from the BI Platform team.** Tableau Creators should follow [SAFE development workflow guidelines](/handbook/it/data-team/platform/safe-data/#tableau) when working with MNPI data in the development folder.
+3. **Ad-Hoc Publishing:** When content in the Development Project Folder is ready for publishing, it can be published in the Ad-Hoc Project Folder if it adheres to the [Ad-Hoc Data Development](/handbook/it/data-team/data-development/#data-development-at-gitlab) methodology. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Ad-Hoc Project Folder.**
+4. **Production Publishing:** When content in the Development or Ad-Hoc Project Folders is ready for Production publishing, it can be published in the Production Project Folder if it adheres to the [Trusted Data Development](/handbook/it/data-team/data-development/#data-development-at-gitlab) methodology. Content that adheres to the Trusted Data Development process will get a Certified Stamp in Production. If the content does not adhere to the Trusted Data Development requirements, but is still considered SSOT, Production grade content, the content can still be published in Production, but it will not receive a Certified Stamp. In such cases, there should be an issue with a project plan for the Tableau content to receive a Certified Stamp. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Production Project Folder.**
 
 ### BIOps Workflow Examples
 
@@ -261,15 +261,15 @@ Tableau Workbooks must satisfy all of the below requirements in order to be publ
 
 <summary><b>Tableau Style Guide</b></summary>
 
-For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/) handbook page.
+For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/it/data-team/platform/tableau-style-guide/) handbook page.
 
 </details>
 
 ### Tableau Trusted Data Certification
 
-Tableau Workbooks that meet all requirements for [Trusted Data Development](/handbook/business-technology/data-team/data-development/#trusted-data-development) and meet all requirements for BI Development Excellence (Link coming soon...) will receive a `Trusted Data` Certification. The certification is applied by placing a `TD` in the workbook title.
+Tableau Workbooks that meet all requirements for [Trusted Data Development](/handbook/it/data-team/data-development/#trusted-data-development) and meet all requirements for BI Development Excellence (Link coming soon...) will receive a `Trusted Data` Certification. The certification is applied by placing a `TD` in the workbook title.
 
-Tableau Data Sources that meet all requirements for [Trusted Data Development](/handbook/business-technology/data-team/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied using native [Tableau functionality](https://help.tableau.com/current/server/en-us/datasource_certified.htm) and a certified stamp is applied to the data source.
+Tableau Data Sources that meet all requirements for [Trusted Data Development](/handbook/it/data-team/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied using native [Tableau functionality](https://help.tableau.com/current/server/en-us/datasource_certified.htm) and a certified stamp is applied to the data source.
 
 ### Tableau Publishing Service Level Objectives (SLOs)
 
@@ -313,7 +313,7 @@ Archival Exclusions:
 1. Content stored in Personal Folders will not be archived, as it is only viewable by the owner and does not clutter the environment.
 
 Archival Contact:
-For questions or requests regarding archived content, please reach out to the BI team. Click [here](.../handbook/business-technology/data-team/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
+For questions or requests regarding archived content, please reach out to the BI team. Click [here](.../handbook/it/data-team/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
 
 ### Permissions
 
@@ -325,7 +325,7 @@ User Groups are the only prescribed method we use for setting permissions across
 
 #### Limited Access User Groups
 
-Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the All Requests template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/?sort=created_date&state=opened&first_page_size=100) section of the Tableau project and requires the approval of that department's [sub-project lead](/handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities).
+Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the All Requests template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/?sort=created_date&state=opened&first_page_size=100) section of the Tableau project and requires the approval of that department's [sub-project lead](/handbook/it/data-team/platform/tableau/#biops-roles-and-responsibilities).
 
 #### List of User Groups
 
@@ -334,7 +334,7 @@ Each section below corresponds to a limited access user group and the designated
 ##### **General SAFE Access**
 
 - This group allows viewing of and development with data that contains material non-pulic information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
-- To gain [access to SAFE data](/handbook/business-technology/data-team/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
+- To gain [access to SAFE data](/handbook/it/data-team/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
 
 ##### **ASM AMER Commercial Restricted Access**
 
@@ -412,7 +412,7 @@ User Groups are applied at the Project and Sub-Project levels. We have two types
 
 The Admistrator User Group and the Access Control User Group can be customized to meet the unique needs and requirements of each Project and Sub-Project on the Tableau site. This allows for flexibility to add or customize security controls on an as-needed basis. The assignment of a User Groups permission rule set for a Project or Sub-Project will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
 
-No content is published in the top level Production, Ad-Hoc, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production, Ad-Hoc, and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/business-technology/data-team/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
+No content is published in the top level Production, Ad-Hoc, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production, Ad-Hoc, and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/it/data-team/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
 
 The standard permission rules for top level Projects are noted below:
 
@@ -565,7 +565,7 @@ The Data Team will regularly review users' Tableau activity to determine if user
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
-Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/business-technology/data-team/data-management/#tableau).
+Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/it/data-team/data-management/#tableau).
 
 **Tracking License Usage**
 
@@ -582,7 +582,7 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 
 Users can request access by creating an issue in the [access requests project](https://gitlab.com/gitlab-com/team-member-epics/access-requests) documenting the level of access required. To make a request, please navigate to the **Choose a template** dropdown menu and select the **Tableau_Request** template to get your AR started. After acquiring manager approval, add the labels ~"AR-Approval::Manager Approved" ~"ReadyForProvisioning" so it will be picked up by the Central Data Team for provisioning.
 
-All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
+All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/it/data-team/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
 
 Tableau Desktop users will also need a Yubikey set up in Okta to access content published in Tableau Online. Due to our new security method that only accepts Biometric or Yubikey for authentication, please request a Yubikey via the [Yubibot](/handbook/it/guides/yubikey/) to ensure that logging into Tableau will be secure and smooth. Currently biometrics are not supported yet in Tableau Desktop.
 
@@ -656,7 +656,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 #### Data Source Access: Tableau Desktop or Tableau Prep Builder
 
-*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a [Yubikey]({{ ref "okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta" }}) in Okta. Fingerprints will not work. Please see the [Tableau Online Access](/handbook/business-technology/data-team/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
+*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a [Yubikey]({{ ref "okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta" }}) in Okta. Fingerprints will not work. Please see the [Tableau Online Access](/handbook/it/data-team/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
 
 <details markdown=1>
 

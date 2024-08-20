@@ -147,7 +147,7 @@ Workflow summary:
 1. Note that our ML model might only need a fraction of the fields in the feature views for inference, therefore you can create [feature services](https://docs.feast.dev/v/v0.12-branch/getting-started/concepts/feature-service). To do that, in the [model directory](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/tree/main/feature_repo/models?ref_type=heads) create a YAML file that defines the name of the feature service and the name of the feature views used together with the required fields. An example can be seen here for the [PtC V4 model](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/models/propensity_to_churn_contract/ptc_v4.yaml?ref_type=heads).
     1. An utility function that is helpful to create such YAMLs is [create_yaml_for_model_feature_service](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/helpers.py?ref_type=heads#L38).
 1. Create a MR in this project and add the feature service yaml to the models directory. Test that the feature service contains all the features that you need.
-    1. Feast can be build in a personal database by following the above [Setup section](/handbook/business-technology/data-team/platform/feast#setup). It allows to do local testing before pushing the changes to production. Make sure to use the `staging_local_feature_store.yaml` when fetching the feature services when working with the MR workflow.
+    1. Feast can be build in a personal database by following the above [Setup section](/handbook/it/data-team//platform/feast#setup). It allows to do local testing before pushing the changes to production. Make sure to use the `staging_local_feature_store.yaml` when fetching the feature services when working with the MR workflow.
 1. Push the changes to the remote branch in the repository. Wait for the CI jobs `clone-image` (clones the Docker image from production so Feast can run) and `clone-feature-store-db` (clones the `FEATURE_STORE.FEAST` schema from production to a dedicated MR database) to pass.
 1. Test the changes introduced to the feature store by running the CI job `test-on-mr`. This job runs the command `feast apply` on the MR feature store database testing that the feature store can run after the changes introduced.
 1. After merging the MR and the feature service is now in production, connect to the feature store using the `production_local_feature_store.yaml` credential file or `production_feature_store.yaml` when running on CI. Going back to our python code, this would look like:
@@ -166,7 +166,7 @@ Also, make sure to check out the current implementation of PtC, specifically [cr
 
 ## From Data Sources to serving features
 
-[Per diagram](/handbook/business-technology/data-team/platform/feast#feast) at the top of the page, there are three stages to serve features in Feast:
+[Per diagram](/handbook/it/data-team//platform/feast#feast) at the top of the page, there are three stages to serve features in Feast:
 
 - Data Sources
 - Feature Views

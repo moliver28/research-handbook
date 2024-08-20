@@ -11,7 +11,7 @@ The FACE (functional analytics center of excellence) is a cross-functional group
 
 ## Context
 
-The [central data team](/handbook/business-technology/data-team/) serves as the hub for all of our ["spoke" functional analytical teams](/handbook/business-technology/data-team/#how-data-works-at-gitlab); however, we have an opportunity to establish spokes between the spokes. Enter: the creation of the functional analytics center of excellence (FACE).
+The [central data team](/handbook/it/data-team//) serves as the hub for all of our ["spoke" functional analytical teams](/handbook/it/data-team//#how-data-works-at-gitlab); however, we have an opportunity to establish spokes between the spokes. Enter: the creation of the functional analytics center of excellence (FACE).
 
 ## FACE Teams: what functional analytics teams are participating?
 
@@ -24,7 +24,7 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 | Customer Success Analytics | Michael Arntz |
 | Digital Experience | Dennis Charukulvanich  |
 | [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/) | Adrian Perez |
-| [Central Data Team](/handbook/business-technology/data-team/) | Israel Weeks & Jong Lee |
+| [Central Data Team](/handbook/it/data-team//) | Israel Weeks & Jong Lee |
 | [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/) | Cynan de Leon |
 
 ## Objectives of the FACE

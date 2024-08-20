@@ -38,7 +38,7 @@ graph
   - Modeling & Implementation Plan
   - Present Model Results and Insights to Stakeholders
 
-- For defintions of some of the terms used, please refer to [Common Data Science Terms](/handbook/business-technology/data-team/organization/data-science/#common-data-science-terms). For definitions around sizing, please see [T-Shirt Sizing Approach](/handbook/business-technology/data-team/how-we-work/planning/#t-shirt-sizing-approach).
+- For defintions of some of the terms used, please refer to [Common Data Science Terms](/handbook/it/data-team/organization/data-science/#common-data-science-terms). For definitions around sizing, please see [T-Shirt Sizing Approach](/handbook/it/data-team/how-we-work/planning/#t-shirt-sizing-approach).
 
 - **Create a new issue using the [Data Science Process Template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Project%20Process.md)**
 
@@ -53,10 +53,10 @@ graph
 - Schedule kick-off call with stakeholders
 - Questions to be answered during kick-off call
   - What is the problem statement that is trying to be solved/answered?
-    - This often starts off as very generic question, e.g., *"How can we reduce churn?"*. It is our job to narrow in and clearly understand the population, outcome, and timeframe of the problem statement. For example, are we interested in all churning customers? How is churn defined? And over what period of time?
+    - This often starts off as very generic question, e.g., *"How can we reduce churn?"*. It is our job to narrow in and clearly it/data-team/stand the population, outcome, and timeframe of the problem statement. For example, are we interested in all churning customers? How is churn defined? And over what period of time?
     - Push the stakeholders to give as many specifics as possible. This may take several meetings and some data exploration to pin down. In some cases, there may not be clearly established definition and it will be up to the data scientist to create the definition during the EDA Phase.
   - What do you hope to be able to achieve at the completion of this project?
-    - The intent of this question is to get at how this project can make a meaningful impact to the problem statement. **Data science projects can increase the understanding of a problem statement (e.g. *understanding* churn risks), but they also should have a clear strategy for making *actionable* change to the problem (e.g. *reducing* churn).** If a project is purely about *understanding* then it is probably not an appropriate scope for a data science project.
+    - The intent of this question is to get at how this project can make a meaningful impact to the problem statement. **Data science projects can increase the it/data-team/standing of a problem statement (e.g. *it/data-team/standing* churn risks), but they also should have a clear strategy for making *actionable* change to the problem (e.g. *reducing* churn).** If a project is purely about *it/data-team/standing* then it is probably not an appropriate scope for a data science project.
     - Some good follow-up questions to this may be: *"How do you envision the outcomes of this project to be used?"; "Who is the intended consumer of outputs from this project?"*
   - Has any analysis been done previously to try and address this problem/question?
     - If prior analysis exists, this is a good indication that data exists to answer the question.
@@ -65,7 +65,7 @@ graph
 
 **Considerations**:
 
-- Early in the conversation with the stakeholders it is critical to understand if the project is the appropriate scope for data science and if there appears to be the relevant data to answer the problem statement.
+- Early in the conversation with the stakeholders it is critical to it/data-team/stand if the project is the appropriate scope for data science and if there appears to be the relevant data to answer the problem statement.
 
 **Completion Criteria:**
 
@@ -76,14 +76,14 @@ graph
 
 **Sizing:** Small
 
-**Purpose:** Understanding previous analytic work is essential for developing efficient and effective data science projects. By knowing the work that has already done we can identify useful data sources, outcome (target) definitions, potential predictors (features), nuances in the data, and important insights.
+**Purpose:** it/data-team/standing previous analytic work is essential for developing efficient and effective data science projects. By knowing the work that has already done we can identify useful data sources, outcome (target) definitions, potential predictors (features), nuances in the data, and important insights.
 
 **Tasks:**
 
 - Schedule a call with the DRI of the prior analytics work
-- Understand what data sources were used (and why).
-- Understand what data sources were considered but not used (and why)
-  - Also includes understand if there are any potentially useful data sources were not used (and why)
+- it/data-team/stand what data sources were used (and why).
+- it/data-team/stand what data sources were considered but not used (and why)
+  - Also includes it/data-team/stand if there are any potentially useful data sources were not used (and why)
 - Any technical/syntax definitions that should be used for this project.
   - Links to any relevant code
 - What were the key insights and takeaways from the analysis?
@@ -96,7 +96,7 @@ graph
 
 **Completion Criteria:**
 
-- A solid understanding on the analysis based on the *Tasks* above
+- A solid it/data-team/standing on the analysis based on the *Tasks* above
 
 ## 3a: Review Data Sources and Exploratory Data Analysis (EDA)
 
@@ -104,13 +104,13 @@ _**Iterative with 3b & 3c***
 
 **Sizing:** Large
 
-**Purpose:** Review available relevant data and conduct analysis around the outcome/target and potential predictors (features). This will allow you to narrow in on the necessarily data sources to be used in the *Train MVP Model* phase. It is important to understand how your outcome/target relates to your potential predictor data and to set up the prediction timeframe appropriately.
+**Purpose:** Review available relevant data and conduct analysis around the outcome/target and potential predictors (features). This will allow you to narrow in on the necessarily data sources to be used in the *Train MVP Model* phase. It is important to it/data-team/stand how your outcome/target relates to your potential predictor data and to set up the prediction timeframe appropriately.
 
 ![prediction window](prediction_window.png)
 
 **Tasks:**
 
-- Understand if we have data available to measure the intended outcome/target of the project.
+- it/data-team/stand if we have data available to measure the intended outcome/target of the project.
   - This is the most critical element to establish before continuing. If we cannot quantify and measure the outcome, we cannot predict future instances of it.
   - E.g. Churn requires an examination of historical revenue figures to determine when a customer reduced spend. Therefore, historical snapshots of ARR data would need to exist for a sufficient period in order to build predictions. As a general rule, at least twice the amount of historical data will need to exist as your prediction timeframe. For example, if you are predicting churn in the next 12 months, then at least 24 months of revnue data will need to exist (12 months for your prediction window and 12 months prior to that window to capture predictors/features).
 - Determine if there are sufficient instances of the outcome/target that would make it reasonable to build a model on.
@@ -158,7 +158,7 @@ _**Iterative with 3b & 3c***
 - Behaviors make for great features. The best predictors about future behavior are often past behaviors.
 - Using historical data is a great way to create "change features". For example, instead of just looking at license utilization from one point in time, you can construct multiple features to see how it has changed over time and capture the magnitude, direction, and acceleration of the feature.
 - Eventually, the GitLab Data Science team will implement a feature store that will allow to easily creation and retrieval of features to be used for modeling.
-- Using a standard naming convention for fields ensures that someone else is able to pickup the and understand the code easily. Consider using the suffixes `_cnt, _pct, _amt, _flag` for fields containing counts, percents, currency amounts, and boolean flags, respectively.
+- Using a standard naming convention for fields ensures that someone else is able to pickup the and it/data-team/stand the code easily. Consider using the suffixes `_cnt, _pct, _amt, _flag` for fields containing counts, percents, currency amounts, and boolean flags, respectively.
 
 **Completion Criteria:**
 
@@ -176,7 +176,7 @@ _**Iterative with 3b & 3c***
 **Tasks:**
 In the project issue, document the following:
 
-- A clear, concise, and easy to understand project name. E.g. Propensity to Churn
+- A clear, concise, and easy to it/data-team/stand project name. E.g. Propensity to Churn
 - Clearly defined and specific outcome/target that is being measured, both in plain English and in syntax. E.g. "Likelihood for a paid account to reduce Annual Reoccuring Revenue (ARR) by at least 10% in the next 12 months". The definition should include the following elements:
   - Population: e.g. Paid Accounts
   - Measurable Outcome: e.g. 10% or greater reduction in ARR
@@ -230,7 +230,7 @@ In the project issue, document the following:
 
 - If you would like to use the Data Science Team model production process (see Phase 6), your code will need to be able to execute on the [data science jupyter container](https://gitlab.com/gitlab-data/data-science). Therefore, it is recommended that you use this container to train your model.
   - If your model requires packages that are not installed on the data-science repository, please raise an issue with the Data Science team, and we will add them.
-- The Data Science team has a number of tools and resources to assist you in this process. Visit the [Data Science Handbook page](/handbook/business-technology/data-team/organization/data-science/#data-science-tools-at-gitlab) for additional information. These include:
+- The Data Science team has a number of tools and resources to assist you in this process. Visit the [Data Science Handbook page](/handbook/it/data-team/organization/data-science/#data-science-tools-at-gitlab) for additional information. These include:
   - Pre-Configured JupyterLab Container
   - gitlabds python toolset
   - Modeling Process Templates
@@ -288,7 +288,7 @@ In the project issue, document the following:
 - Once you have your scoring notebook ready, a good way to check for errors is to run your training dataset through it. You should arrive at the same model score descriptives and decile breakdowns as you did in your training code.
   - If the numbers are not aligning up, it is most likely due to an issue with your scoring code. The best way to check this is to look at the descriptives of the features. Look at the descriptive right before they get scored in the training code and in the scoring code. If one or more features are off, then you have most likely located the issue.
 - Now you can run your code with your scoring dataset. Be sure update your sql code so it is parameterized to use the most current data available.
-- Examine the model decile distribution of your scored records. They should be roughly equal. If they are wildly off, or if they vary widely in each scoring run, it could be a sign that your model is overfit/underfit and cannot generalize beyond the training dataset.
+- Examine the model decile distribution of your scored records. They should be roughly equal. If they are wildly off, or if they vary widely in each scoring run, it could be a sign that your model is overfit/it/data-team/fit and cannot generalize beyond the training dataset.
 - Add .sql file, parameters.yml, model artifacts, and jupyter notebook to a production directory in your repo.
 - Create a new issue using the [Scheduling Notebook Request](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Project%20Process.md) template, follow any additional steps, and tag `@gitlab-data/engineers` when ready to operationalize
 
@@ -309,7 +309,7 @@ In the project issue, document the following:
 
 **Sizing:** Medium
 
-**Purpose:** The purpose of setting up dashboards for your model are two-fold: 1) Monitor model performance and lift "in the wild" and; 2) Provide an easy point of access to end-users to consume and understand model outputs. As we migrate to a new data visualization and data observability tools, we hope to streamline, automate, and simplify creating model dashboards.
+**Purpose:** The purpose of setting up dashboards for your model are two-fold: 1) Monitor model performance and lift "in the wild" and; 2) Provide an easy point of access to end-users to consume and it/data-team/stand model outputs. As we migrate to a new data visualization and data observability tools, we hope to streamline, automate, and simplify creating model dashboards.
 
 **Tasks:**
 

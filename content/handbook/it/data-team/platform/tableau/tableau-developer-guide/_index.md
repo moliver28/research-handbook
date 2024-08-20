@@ -13,7 +13,7 @@ In general, our recommended approach to creating data sources in Tableau is to c
 During the Tableau implementation, we experimented with the approach of bringing fct & dim tables into Tableau and creating the joins and relationships there. However, we prefer to create the data structures in dbt/Snowflake where possible for the following reasons:
 
 - By keeping business logic in the enterprise data warehouse as a rule and simply publishing the final mart/rpt tables for consumption, we avoid applying contradictory business logic in custom SQL across Tableau data sources.
-- This approach keeps all joins & reporting logic under version control via the dbt/git integration.
+- This approach keeps all joins & reporting logic it/data-team/ version control via the dbt/git integration.
 - This approach makes the final data source query-able using SQL; this makes it easier for an Analyst to compare the results in the dashboard and the final dataset against upstream tables, and makes it more accessible for an Analyst to troubleshoot logic when a dashboard is showing unexpected results.
 - This enables the same dataset to easily be used in a Tableau dashboard as well as an ad-hoc query, one-off export/analysis, or pulled into another downstream tool if needed (i.e. a Jupyter notebook).
 
@@ -40,7 +40,7 @@ If you are publishing a data source from Desktop to the Cloud/Online to be a Tab
 
 ![data window](images/data-window.png)
 
-Select the "Edit" button under "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
+Select the "Edit" button it/data-team/ "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
 
 ![authentication](images/authentication.png)
 
@@ -50,7 +50,7 @@ A workbook with a local connection is one whose data source is living inside of 
 
 ![local window](images/window-local.png)
 
-Select "Edit" under "Data Sources" and find "Authentication". Choose to embed your <rolename>.
+Select "Edit" it/data-team/ "Data Sources" and find "Authentication". Choose to embed your <rolename>.
 
 ![local authentication](images/auth-local.png)
 
@@ -119,7 +119,7 @@ It will take about a day for the URL to show up in [this list](/handbook/busines
 
 ### Workbook Synchronization
 
-Each workbook with views that are meant to be embedded in the public handbook must be tagged with the `Public` tag. This will ensure that the workbook, and their datasources are copied to the public GitLab Tableau site.  Only Creators and Explorers who can access the workbook can tag the workbook, see the Tableau [documentation](https://help.tableau.com/current/pro/desktop/en-us/tags.htm#add-tags) for more information.  The individual tagging must understand if the data should be shared publicly and if there is any question please work with the BI team to check and apply the tag.  Removing this tag from a workbook will delete the workbook from the public GitLab Tableau site, this will cause handbook pages trying to load a view from that workbook to display an error. It should be noted that it can currently take up to 48 hours for the synchronized workbook to show up in the list of [views available for embedding](/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding).
+Each workbook with views that are meant to be embedded in the public handbook must be tagged with the `Public` tag. This will ensure that the workbook, and their datasources are copied to the public GitLab Tableau site.  Only Creators and Explorers who can access the workbook can tag the workbook, see the Tableau [documentation](https://help.tableau.com/current/pro/desktop/en-us/tags.htm#add-tags) for more information.  The individual tagging must it/data-team/stand if the data should be shared publicly and if there is any question please work with the BI team to check and apply the tag.  Removing this tag from a workbook will delete the workbook from the public GitLab Tableau site, this will cause handbook pages trying to load a view from that workbook to display an error. It should be noted that it can currently take up to 48 hours for the synchronized workbook to show up in the list of [views available for embedding](/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding).
 
 ### Workbook Naming Convention
 
@@ -149,7 +149,7 @@ When publishing workbooks to the Ad-hoc or Production project, if the workbook i
 
 ![''](images/remove_tags.png)
 
-Applying tags allows us to provide more information on the workbook, so that we can easily discern them by their business function / department and distinguish draft content that is still in development. To filter workbooks by their tags, please click on the search box in the upper right-hand corner of the project. Under **Content types** select **Workbooks**:
+Applying tags allows us to provide more information on the workbook, so that we can easily discern them by their business function / department and distinguish draft content that is still in development. To filter workbooks by their tags, please click on the search box in the upper right-hand corner of the project. it/data-team/ **Content types** select **Workbooks**:
 
 ![''](images/search_tags.png)
 
@@ -300,7 +300,7 @@ Once you have a local development copy of the data source, open up the data sour
 
 On the left side is where you add new connections, and in the middle is where the tables that make up the workbook are visualized.
 
-If you have been granted access to query the MR database which is attached to the merge request you are looking for, then you will be able to see it as an option under the dropdown for "**Database**".
+If you have been granted access to query the MR database which is attached to the merge request you are looking for, then you will be able to see it as an option it/data-team/ the dropdown for "**Database**".
 
 ![''](images/dropdown_database.png)
 
@@ -351,7 +351,7 @@ Relationships are a feature in Tableau that allow you to combine data from multi
 
 3. Multiple tables at different levels of detail: You can easily relate tables with different levels of granularity without worrying about fanout or incorrect aggregations.
 
-4. Noodle diagrams: Relationships are represented visually as "noodles" connecting tables in the data model, making it easier to understand table associations.
+4. Noodle diagrams: Relationships are represented visually as "noodles" connecting tables in the data model, making it easier to it/data-team/stand table associations.
 
 5. Context-aware: Tableau only queries the tables and fields necessary for the current visualization, improving performance and reducing unnecessary data retrieval.
 

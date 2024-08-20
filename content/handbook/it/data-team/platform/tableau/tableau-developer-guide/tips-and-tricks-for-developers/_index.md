@@ -459,4 +459,4 @@ Some additional design tips that may help your workbook creation efficency.
 
 ### Add GitLab Colors
 
-You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)
+You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/it/data-team/platform/tableau-style-guide/#standard-color-palette)

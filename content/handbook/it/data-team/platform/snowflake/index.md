@@ -7,19 +7,19 @@ description: "Snowflake Data Warehouse Guide"
 
 ## What and why
 
-[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/business-technology/data-team/platform/#our-data-stack).
+[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/it/data-team/platform/#our-data-stack).
 
 ## What does Snowflake Contain?
 
-Snowflake contains all of our analytical data and [Data Source](/handbook/business-technology/data-team/platform/#data-sources)s defines the set of original/raw data available.
+Snowflake contains all of our analytical data and [Data Source](/handbook/it/data-team/platform/#data-sources)s defines the set of original/raw data available.
 
 ## Related Content
 
-- [Access](/handbook/business-technology/data-team/platform/#warehouse-access)
-- [Support Portal Access](/handbook/business-technology/data-team/platform/#data-warehouse)
-- [Compute Resources](/handbook/business-technology/data-team/platform/#compute-resources)
-- [Data Masking](/handbook/business-technology/data-team/platform/#data-masking)
-- [Backups](/handbook/business-technology/data-team/platform/#backups)
+- [Access](/handbook/it/data-team/platform/#warehouse-access)
+- [Support Portal Access](/handbook/it/data-team/platform/#data-warehouse)
+- [Compute Resources](/handbook/it/data-team/platform/#compute-resources)
+- [Data Masking](/handbook/it/data-team/platform/#data-masking)
+- [Backups](/handbook/it/data-team/platform/#backups)
 
 ## Logging In
 
@@ -189,14 +189,14 @@ For Creating lambda function select the following :
 1. Give unique name to lambda function
 1. Select any of the `Python` version (everything `>=3.10` is fine)
 1. Architecture `Default`
-1. Under `Change default execution role`  select `Use an existing role` and under this select `Gitlab-lambda-snowflake`
+1. it/data-team/ `Change default execution role`  select `Use an existing role` and it/data-team/ this select `Gitlab-lambda-snowflake`
 1. Click `Create function` button
 
 More details are shown in the image below.
 
 ![LambdaFunctionCreate.png](LambdaFunctionCreate.png)
 
-Once the function is created under code you can set up the basic Python code to send the `Slack` notification. Here is an example from our `gitlab_snowflake_notification` lambda code:
+Once the function is created it/data-team/ code you can set up the basic Python code to send the `Slack` notification. Here is an example from our `gitlab_snowflake_notification` lambda code:
 
 ``` python
 import urllib3

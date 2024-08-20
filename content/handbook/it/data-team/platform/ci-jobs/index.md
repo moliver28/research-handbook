@@ -29,7 +29,7 @@ CI jobs are grouped by stages.
 
 ### ❄️ Snowflake
 
-These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab-ci.yml). All Snowflake objects created by a CI clone job will exist until dropped, either manually or by the [weekly clean up of Snowflake objects](/handbook/business-technology/data-team/platform/ci-jobs/#what-to-do-if-a-pipeline-fails).
+These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab-ci.yml). All Snowflake objects created by a CI clone job will exist until dropped, either manually or by the [weekly clean up of Snowflake objects](/handbook/it/data-team//platform/ci-jobs/#what-to-do-if-a-pipeline-fails).
 
 #### `clone_prep_specific_schema`
 
@@ -256,7 +256,7 @@ This gets the list of files that have changed from the master branch (i.e. targe
 
 `orchestration/tableau_dependency_query/src/tableau_query.py`
 
-We leverage [Monte Carlo](/handbook/business-technology/data-team/platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
+We leverage [Monte Carlo](/handbook/it/data-team//platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
 
 If no dependencies are found for the model, then you would get an output in the CI jobs logs - `INFO:root:No dependencies returned for model <model_name>` and the job will be marked as successful.
 
@@ -277,7 +277,7 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 
 #### `🚫safe_model_script`
 
-In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
+In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/it/data-team//how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
 
 <details><summary>how `safe_model_script` works - under the hood</summary>
 
@@ -425,7 +425,7 @@ This job updates `roles.yml` automatically based on changes to `snowflake_users.
 
 - To add new user entries to `roles.yml`, add the new username(s) to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
 - Likewise, to remove user entries from `roles.yml`, delete the username(s) from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
-- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](/handbook/business-technology/data-team/platform/#common-custom-templates) section of the handbook.
+- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](/handbook/it/data-team//platform/#common-custom-templates) section of the handbook.
 
 <details><summary>Further Explanation</summary>
 
@@ -445,11 +445,11 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
     - Defaults to the usernames **removed** from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
     - To override, pass in a string value like so `USERS_TO_REMOVE: username_to_remove1 username_to_remove2`
 1. `DATABASES_TEMPLATE`:
-    - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](/handbook/business-technology/data-team/platform/#databases) for more details/examples.
+    - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](/handbook/it/data-team//platform/#databases) for more details/examples.
 1. `ROLES_TEMPLATE`:
-    - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](/handbook/business-technology/data-team/platform/#roles) for more details/examples.
+    - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](/handbook/it/data-team//platform/#roles) for more details/examples.
 1. `USERS_TEMPLATE`:
-    - Defaults to the standard user entry, see ['Users' handbook section](/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
+    - Defaults to the standard user entry, see ['Users' handbook section](/handbook/it/data-team//platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
 
 Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>

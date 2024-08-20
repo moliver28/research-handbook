@@ -70,7 +70,7 @@ The following KPIs are guidelines we plan to use for the internship. These may b
 
 ### What Does A Data Team Intern Do?
 
-An internship gives you insight into a [Data Team role](/handbook/business-technology/data-team/organization/#data-roles-and-career-development) by providing you opportunities to learn and contribute to GitLab results. You will be fully integrated into the team through Data Onboarding and be assigned **real** projects that contribute to Quarterly Objectives and the [Data Team Roadmap](/handbook/business-technology/data-team/direction/). In the GitLab Data Team we believe in full end-to-end ownership of the work we do, ranging from requirements gathering all the way to production deployment and operations. During your internship you will be assigned a Senior team member as a mentor-manager, who will help you to navigate in daily tasks.  Examples of your tasks will include:
+An internship gives you insight into a [Data Team role](/handbook/it/data-team/organization/#data-roles-and-career-development) by providing you opportunities to learn and contribute to GitLab results. You will be fully integrated into the team through Data Onboarding and be assigned **real** projects that contribute to Quarterly Objectives and the [Data Team Roadmap](/handbook/it/data-team/direction/). In the GitLab Data Team we believe in full end-to-end ownership of the work we do, ranging from requirements gathering all the way to production deployment and operations. During your internship you will be assigned a Senior team member as a mentor-manager, who will help you to navigate in daily tasks.  Examples of your tasks will include:
 
 - Requirements gathering
 - Extraction of data from various sources to support project's objective

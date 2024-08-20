@@ -42,9 +42,9 @@ When it comes to training and scoring machine learning models, there are trade-o
 
 ## Getting Started
 
-This section covers, in detail, the mechanisms behind how these pipelines is created and configured. **If you are just interested in getting your data science CI training pipeline up and running, skip directly to the [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+This section covers, in detail, the mechanisms behind how these pipelines is created and configured. **If you are just interested in getting your data science CI training pipeline up and running, skip directly to the [Model Training Step-by-Step Instructions](/handbook/it/data-team//platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
-**If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Scoring and Productionalization Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#scoring-and-productionalization-step-by-step-instructions)**
+**If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Scoring and Productionalization Step-by-Step Instructions](/handbook/it/data-team//platform/ci-for-ds-pipelines#scoring-and-productionalization-step-by-step-instructions)**
 
 ### Key Repository Files
 
@@ -209,4 +209,4 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 - We've setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
 - <img src="slack_notifications.png" width="700" alt="">
 
-**And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). If you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**
+**And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/it/data-team//organization/data-science/). If you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**

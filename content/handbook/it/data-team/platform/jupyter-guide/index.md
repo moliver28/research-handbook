@@ -72,7 +72,7 @@ By default, the local install will use the data-science folder as the root direc
 
 The data science team has created modeling templates that allow you to easily start building predictive models without writing python code from scratch. To enable these templates:
 
-- In your `jupyter_lab_config.py` that you created as part of the [Mounting a local directory](/handbook/business-technology/data-team/platform/jupyter-guide/#mounting-a-local-directory), add the following lines, replacing `/Users/{your_user_name}/repos/` with the path to the `data-science/templates` repo on your local machine:
+- In your `jupyter_lab_config.py` that you created as part of the [Mounting a local directory](/handbook/it/data-team//platform/jupyter-guide/#mounting-a-local-directory), add the following lines, replacing `/Users/{your_user_name}/repos/` with the path to the `data-science/templates` repo on your local machine:
 
 ```py
 c.JupyterLabTemplates.template_dirs = ['/Users/{your_user_name}/repos/data-science/templates']
@@ -121,7 +121,7 @@ By default, rancher will allocate a small percentage of your machine's memory to
     1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
 1. Launch Jupyter. You should now be able to initialize the experiment tracker via the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
 
-**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/it/data-team//platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
 ## Updating the Image
 
