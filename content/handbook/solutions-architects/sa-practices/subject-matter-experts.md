@@ -19,12 +19,9 @@ The goals of the SME Program are:
 The SME Program will initially focus on the following areas:
 
 - AI
-
-Other areas may be added in the future, depending on customer and SA demand, such as:
-
 - Security
 - Agile planning
-- Infrastructure
+- GitLab Dedicated
 
 ## Tasks
 
@@ -45,3 +42,17 @@ SMEs will be responsible for the following tasks:
 - The existence of SMEs does not guarantee the availability of their engagement.
 - The main focus of SMEs are their regular SA responsibilities and then, their assistance as SMEs
 - There will be multiple SME per region (EMEA, APAC, US East, US West) but they will be a cross-regional group of SMEs
+
+## SMEs
+
+| SME Areas | AI | App Security | Agile Planning | GitLab Dedicated |
+| --- | --- | --- | --- | --- |
+|SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
+| APJ | | Tomasz Skora | | |
+| EMEA North Europe | Kristoff Goossens | | Gabriela Dobrescu | |
+| EMEA South Europe | | Paul Dumaitre | | |
+| EMEA DACH/META | Alexander Dess | Mirko Brandner | | |
+| US East | Sam Morris | Bernard Park | Dan Rabinovitz | Adam Zwickey |
+| US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | |
+| High Velocity AMER | | Jefferson Jones | Sophia Manicor | |
+| High Velocity EMEA | | Claire Marie Champernowne | | |
