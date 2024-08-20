@@ -191,6 +191,23 @@
 /job-families/marketing/product-marketing-manager-public-sector/ /job-families/marketing/product-marketing-manager/ 301
 /job-families/product/program-manager/ /job-families/product/technical-program-manager/ 301
 
+# Moved pages - remove 2024-11-20
+/handbook/business-technology/data-team/ /handbook/it/data-team/ 301
+/handbook/business-technology/data-team/* /handbook/it/data-team/:splat 301
+/handbook/business-technology/end-user-services/ /handbook/it/end-user-services/ 301
+/handbook/business-technology/end-user-services/* /handbook/it/end-user-services/:splat 301
+/handbook/business-technology/enterprise-applications/quote-to-cash/ /handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/ 301
+/handbook/business-technology/enterprise-applications/quote-to-cash/* /handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/:splat 301
+/handbook/business-technology/enterprise-applications/tools/ /handbook/business-technology/tools/ 301
+/handbook/business-technology/enterprise-applications/tools/* /handbook/business-technology/tools/:splat 301
+/handbook/business-technology/gitlab-business-continuity-plan/ /handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/ 301
+/handbook/business-technology/it-compliance/ /handbook/business-technology/enterprise-applications/it-compliance/ 301
+/handbook/business-technology/it-compliance/* /handbook/business-technology/enterprise-applications/it-compliance/:splat 301
+/handbook/business-technology/okta/ /handbook/it/okta/ 301
+/handbook/business-technology/okta/* /handbook/it/okta/:splat 301
+/handbook/business-technology/pmo/ /handbook/business-technology/enterprise-applications/pmo/ 301
+/handbook/business-technology/pmo/* /handbook/business-technology/enterprise-applications/pmo/:splat 301
+
 # Files with Underscores in their Name - remove 2024-12-01
 /handbook/security/External_Security_Communications_Procedure.html /handbook/security/external-security-communications-procedure/ 301
 /handbook/security/gitlab_projects_baseline_requirements.html /handbook/security/gitlab_projects_baseline_requirements/ 301
