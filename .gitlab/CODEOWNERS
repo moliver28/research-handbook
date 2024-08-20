@@ -47,7 +47,6 @@
 
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
-/content/handbook/business-technology/documentation/ @NabithaRao
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
@@ -682,7 +681,7 @@
 ## Controlled Documents must be in this section, and it must be the last section
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
-/content/handbook/business-technology/documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/_index.md @cdu1 @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
