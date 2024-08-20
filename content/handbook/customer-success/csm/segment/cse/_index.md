@@ -21,17 +21,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 - Builds trust and fosters long-term relationships.
 
-2\. **Onboarding Cohort Initiative:**
-
-- Seamless and successful onboarding experience.
-
-- Personalized support in small groups (cohorts).
-
-- Reduces learning curve, and accelerates time-to-value.
-
-- Improves overall customer satisfaction.
-
-3\. **[Pooled CSE Model for Key Accounts:](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process)**
+2\. **[Pooled CSE Model for Key Accounts:](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process)**
 
 - Collaboration with sales for high-risk or expansion accounts.
 
@@ -41,7 +31,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 - Drives ultimate customer success.
 
-4\. **Automated Email Campaign Process:**
+3\. **Automated Email Campaign Process:**
 
 - Timely automated emails at key customer lifecycle points.
 
