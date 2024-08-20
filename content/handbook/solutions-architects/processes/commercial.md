@@ -270,11 +270,6 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 - Net ARR >$50K
 - Stage: 3+ (potentially 2+)
 
-
-### Commercial SA Win/Lost Retro
-
-Quarterly review of wins and losses to identify patterns and things we can do to keep winning, prevent losses, and improve GitLab as a product. Encourage everyone to try to add at least one thing.
-
 #### Structure
 
 - Win/Lost Retros are hosted the first week of each quarter
