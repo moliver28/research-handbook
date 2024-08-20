@@ -35,6 +35,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-08-08 | **[Duo Enterprise Launch Updates & Key Dates](https://drive.google.com/file/d/1QT_yKG1AQyiI_F6hjyfuMeSYz4M7riQM/view?usp=sharing)** | Private |
 | 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
 | 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
 | 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
