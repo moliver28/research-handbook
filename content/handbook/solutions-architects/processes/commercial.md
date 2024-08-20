@@ -64,7 +64,7 @@ The Commercial SA Triage Process is a structured approach to managing and priori
    - Fast-track prioritization is available for time-sensitive requests.
 
 6. Communication:
-   - The assigned SA communicates with the Account Executive to confirm details, set expectations, and discuss possible account strategies
+   - The assigned SA communicates with the Account Executive within a shared Slack channel to confirm details, set expectations, and discuss possible account strategies
    - The SA and AE disucss timeline, next steps, agenda for the next meeting and roles they will play in the call
    - Any additional information or clarification needed is requested at this stage.
 
