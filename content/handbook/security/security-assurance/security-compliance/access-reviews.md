@@ -38,6 +38,8 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 | :---: | :---: |
 | Security Compliance Team | *Execution of Full Entitlement Review, Privilaged Access, Terminated User Reviews<br><br>* Creation of observations and oversight of remediation activities for any identified findings|
 | System Owners | *Validation of privileged entitlements<br><br>* Validation of user entitlements<br><br>*Timely evidence support <br><br>* Execution of remediation plans for identified observations<br><br>* Execution of access removal(s)|
+| System Administrators | *Validation of privileged entitlements<br><br>* Validation of user entitlements<br><br>*Timely evidence support <br><br>* Execution of remediation plans for identified observations<br><br>* Execution of access removal(s)|
+| Managers | *Support validation of privileged entitlements<br><br>* Support validation of user entitlements|
 | IT Operations | * Execution of access removal(s)|
 | Managers | *Support validation of privileged entitlements<br><br>* Support validation of user entitlements|
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |

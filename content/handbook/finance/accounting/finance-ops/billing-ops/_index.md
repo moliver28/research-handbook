@@ -19,16 +19,17 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 
 ## Meet the Team
 
-- [Sarah McCauley](/handbook/company/team/#s_mccauley) - Director, Billing & Accounts Receivable
-- [Anna Piaseczna](/handbook/company/team/#annapiaseczna) - Senior Manager, GPO Billing Operations
-- [Simone Polverini](/handbook/company/team/#spolverini) - Manager, Billing Operations EMEA and APAC
-- [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations AMER
-- [Karen McKinney](/handbook/company/team/#k.mckinney) - Billing Operations Specialist
-- [Kinga Polgardi](/handbook/company/team/#kingapolgardi) - Senior Billing Operations Specialist
-- [Ausha Saptouw](/handbook/company/team/#aushas) - Billing Operations Specialist
-- [Laura Robins](/handbook/company/team/#laurarobins) - Billing Operations Specialist
-- [Christian Willis](/handbook/company/team/#christianwillis) - Senior Billing Operations Specialist
-- [Diana Quitevis](/handbook/company/team/#dquitevis) - Billing Operations Specialist
+- [Sarah McCauley](/handbook/company/team/#s_mccauley) - Senior Director, Billing & Accounts Receivable (Global)
+- [Anna Piaseczna](/handbook/company/team/#annapiaseczna) - Senior Manager, GPO Billing Operations (Global)
+- Josephine Hararah - Senior Manager, Billing Operations (Global)
+- [Simone Polverini](/handbook/company/team/#spolverini) - Manager, Billing Operations (EMEA and APAC)
+- [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations (AMER)
+- [Karen McKinney](/handbook/company/team/#k.mckinney) - Senior Billing Operations Analyst (AMER)
+- [Kinga Polgardi](/handbook/company/team/#kingapolgardi) - Senior Billing Operations Analyst (EMEA)
+- [Ausha Saptouw](/handbook/company/team/#aushas) - Senior Billing Operations Analyst (EMEA)
+- [Laura Robins](/handbook/company/team/#laurarobins) - Senior Billing Operations Analyst (EMEA)
+- [Christian Willis](/handbook/company/team/#christianwillis) - Senior Billing Operations Analyst (AMER)
+- [Diana Quitevis](/handbook/company/team/#dquitevis) - Billing Operations Specialist (AMER)
 
 *The Billing Team works closely with Sales, Deal Desk, Accounts Receivable, and Revenue Operations.*
 

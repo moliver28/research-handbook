@@ -7,6 +7,8 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
+<!-- markdownlint-disable MD013 -->
+
 ## What are the signs of remote work burnout?
 
 Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture]({{< ref "culture#culture-at-gitlab" >}}) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.

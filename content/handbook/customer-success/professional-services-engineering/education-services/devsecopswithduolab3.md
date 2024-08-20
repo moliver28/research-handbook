@@ -3,7 +3,7 @@ title: "DevSecOps with GitLab Duo - Hands-On Lab: Working with Issues and Merge 
 description: "This Hands-On Guide walks you through using GitLab Duo to create Issues and merge requests."
 ---
 
-> Estimated time to complete: 30 minutes
+> Estimated time to complete: 20 minutes
 
 ## Objectives
 
@@ -21,11 +21,13 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. If your editor is in **rich text editing** mode, Select `Switch to plain text editing` at the bottom of the issue description.
 
-   > The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
+   > GitLab Duo will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
 
 1. In the Description box, select the Tanuki button, then select **Generate issue description**.
 
 1. In the issue description generation box, type the prompt: `We want to make our "hello world" application more visually appealing for the end user. We want to incorporate the Go Figure module into our application to print out more exciting text.`
+
+1. Select **Submit**.
 
    The response will look similar to the following:
 
@@ -47,11 +49,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. From the issue you just created, select **Create merge request**.
 
-1. Select the Tanuki icon, then select **Fill in merge request template**.
-
-1. Select **Apply AI-generated description**.
-
-   > GitLab Duo can also provide a summary of code changes in an MR. We will return to this feature later in the course.
+1. Add a brief description similar to `This MR introduces the Go Figure module to our "hello world" application`. 
 
 1. Leave all other options as default and select **Create merge request**.
 
@@ -78,15 +76,17 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
    }
    ```
 
-1. Select the repository icon from the left sidebar.
+1. Copy the generated code.
+
+1. From the left sidebar, select the Explorer icon.
 
 1. Select `main.go`.
 
 1. Replace the contents of `main.go` with the AI generated code.
 
-1. Select **Source Control** from the left sidebar.
+1. From the left sidebar, select **Source Control**.
 
-1. Select the **Commit** button to commit the code changes.
+1. Enter any commit message and select the **Commit** button to commit the code changes.
 
 1. Select **Go to MR** to return back to your merge request.
 
@@ -96,23 +96,25 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Just above the Description input, select **Summarize code changes**.
 
-1. Select **Save changes**.
+1. Review the new AI generated description.
 
-1. Note that at the bottom of the MR description, there is now an outline of the changes included in the MR.
+1. Select **Save changes**.
 
 ## Task E. Root Cause Analysis
 
 > Uh-oh! You may have noticed that our pipeline failed.
 
-1. From the MR, click on the most recent pipeline run that failed.
+1. From the MR, select the most recent pipeline run that failed.
 
-1. Click on the job that failed.
+1. Select the job that failed.
 
-1. At the top of the output of the job click the button that says **Root cause analysis**.
+1. At the bottom of the job output, select **Troubleshoot**.
 
-1. Select **Generate root cause analysis**.
+1. This will open a Duo chat window with a description of the `root cause of failure`. **Note:** You could have also opened Duo chat and used the `/troubleshoot` command to generate this explanation. 
 
-1. This will generate an explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job.
+1. Review the explanation of the failed job and the example fix.
+
+   > The suggested fix follows a good practice of updating your Go dependencies locally. For our demo purposes we will add this dependency in the `.gitlab-ci.yml` file. Follow the steps below to apply this change. These instructions mirror the suggested fix from GitLab Duo.
 
 1. Return to your merge request.
 
@@ -138,13 +140,15 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
        - go run main.go
    ```
 
-   This will fix the pipeline and in the output you should see a fun version of hello world printed in the job log!
+1. From the left sidebar, select the Source Control icon.
 
-1. Select Source Control from the left sidebar.
-
-1. Select the **Commit** button to commit the code changes.
+1. Enter any commit message and select the **Commit** button to commit the code changes.
 
 1. Select **Go to MR** to return back to your merge request.
+
+1. From your merge request, wait for the pipeline to complete. You should see that your pipeline passed.
+
+1. If you set your merge request as `Draft`, select `Mark as ready`.
 
 1. Select **Merge** to merge your code updates into the main branch.
 

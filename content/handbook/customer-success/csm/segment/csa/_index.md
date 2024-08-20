@@ -1,7 +1,5 @@
 ---
 title: "Customer Success Architects (CSA)"
-aliases:
-- /handbook/customer-success/csm/segment/csa/
 ---
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.

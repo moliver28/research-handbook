@@ -1,7 +1,5 @@
 ---
 title: "Paid Time Off at GitLab"
-aliases:
-- /handbook/paid-time-off/
 ---
 
 ## Introduction
@@ -103,7 +101,7 @@ Communicate broadly when you will be away so other people can manage time effici
         1. "Comments by covering team member" - Very useful to asynchronously get updates quickly when you return from your PTO.
         1. Pro tip: Use color codes (e.g. green, red) and symbols (e.g. ✅, ❗️) to let others easily & quickly identify most important entries.
             - Please don't use colors only as people with [color blindness](https://www.mayoclinic.org/diseases-conditions/poor-color-vision/symptoms-causes/syc-20354988) may not be able to distinguish between them
-    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule mesages in slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
+    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
         - > Hey team, just a reminder that I'm out today.  Please take a look at my open tickets. Thanks!
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
 1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
@@ -575,9 +573,7 @@ Team members are encouraged to review additional information on [working time in
 
 ### GitLab Canada Corp (Canada)
 
-GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws.
-
-#### GitLab Canada Corp observes provincial laws regarding vacation time and vacation pay. For more information, refer to the applicable employment standards legislation of the Province in which you reside
+GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
 - [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)

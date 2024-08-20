@@ -1,8 +1,5 @@
 ---
 title: "CSEs"
-aliases:
-- /handbook/customer-success/csm/segment/cse/
-- /handbook/customer-success/csm/segment/scale/
 ---
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.

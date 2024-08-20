@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/follow-the-sun-coverage.html
-
 title: "Follow the Sun Coverage - Development Department"
 description: "How the development department uses follow the sun coverage and pairing"
 ---

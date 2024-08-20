@@ -1,7 +1,5 @@
 ---
 title: "Security and Technology Policies Management"
-aliases:
-- /handbook/security/security-assurance/security-and-technology-policies-management
 ---
 
 ## Purpose

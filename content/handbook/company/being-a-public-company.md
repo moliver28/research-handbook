@@ -1,7 +1,5 @@
 ---
 title: Being a public company
-aliases:
-- /handbook/being-a-public-company/
 ---
 
 ## GitLab as a Public Company

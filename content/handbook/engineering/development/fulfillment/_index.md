@@ -770,8 +770,8 @@ Complete the following details when creating the issue.
 
 In the threads below consider the following:
 
-- Why was it (un)successful? If successful, how did it meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc)?
-- How did the example not meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc)? In what ways could you have iterated differently? List specific examples.
+- Why was it (un)successful? If successful, how did it meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)?
+- How did the example not meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)? In what ways could you have iterated differently? List specific examples.
 - Identify areas of improvement for the team that can be incorporated into our processes and workflows.
 
 Follow [these rules](/handbook/engineering/management/group-retrospectives/) for an effective retrospective.

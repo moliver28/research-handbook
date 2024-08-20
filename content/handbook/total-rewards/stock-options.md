@@ -1,8 +1,6 @@
 ---
 title: "Equity Compensation"
 description: "Learn more about Equity Compensation at GitLab"
-aliases:
-- /handbook/stock-options/
 ---
 
 ## About Your Ownership in GitLab
@@ -28,14 +26,14 @@ If a team member leaves GitLab, they have 90 days post termination to exercise t
 
 ## Stock Options
 
-In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.
-
-These stock option grants since becoming a public company are limited as to grants.
+In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.  
 
 The difference in these two types of grants are, generally, as follows:
 
 - ISOs are issued to US employees and carry a special form of tax treatment recognized by the US Internal Revenue Service (IRS).
 - NQs are granted to contractors and non-US employees.
+
+GitLab is not giving equity grants in the form of options at this time.
 
 ### Restricted Stock Units (RSUs)
 
@@ -43,7 +41,7 @@ In September 2021, in connection with our IPO that occurred on October 14, 2021,
 
 ### Sell-to-cover - RSUs
 
-Shares are sold to pay the taxes due on the RSU vesting.  This is an automatic sale and the shares sold are based on the tax rate for your country.  For example, if 100 shares vest, and your tax rate is 30%, then 30 shares will be sold to cover the tax and the remaining shares will be placed in your E*TRADE account.  (The assumption is $100 per share).Taxation for selling of options or GitLab stock owned:
+Shares are sold to pay the taxes due on the RSU vesting.  This is an automatic sale and the shares sold are based on the tax rate for your country.  For example, if 100 shares vest, and your tax rate is 30%, then 30 shares will be sold to cover the tax and the remaining shares will be placed in your E*TRADE account.  Taxation for selling of options or GitLab stock owned:
 
 Taxation of Ordinary Income - RSU - More Detail
 

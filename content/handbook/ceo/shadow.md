@@ -134,14 +134,14 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-08-19 | 2024-08-23 | OPEN | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
 | 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
-| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | OPEN | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
 | 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
 | 2024-10-14 | 2024-10-18 | OPEN| [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
 | 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
-| 2024-10-28 | 2024-11-01 | OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
+| 2024-10-28 | 2024-11-01 | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 

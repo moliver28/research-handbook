@@ -90,7 +90,10 @@ Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illust
 To ensure that our efforts consistently deliver value to our users, each iteration must adhere to the following guidelines:
 
   1. Define Expected Impact: Clearly articulate the expected measurable positive impact of the iteration on users, ensuring alignment with our overall product direction and guided by a vision that has been informed by user research.
-  1. Establish Metrics for Success: Identify specific metrics that will be used to evaluate the success of the iteration post-launch. These should be concrete, measurable indicators that directly relate to the intended outcomes of the iteration.
+  1. Establish Metrics for Success: Identify specific metrics that will be used to evaluate the success of the iteration before declaring the feature GA or an iteration shippable. These should be concrete, measurable indicators that directly relate to the intended outcomes of the iteration.
+     - These metrics should define a measurable quality bar as part of the initial scoping as that allows the cross-functional team to understand what the success/quality criteria are before beginning to build, while also allowing these metrics to be measured during the entire development and post-release lifecycle. As part of defining the quality bar a test plan should be defined and agreed that it can measure against these measures for success. Quality targets include:
+     - No S1 or blocking S2 defects/bug that prevents the customer from using the feature
+     - Not impacting or severely degrading the stability of the GitLab instance
 
 Success of an initiative is not measured by the deployment of a change or the completion of an iteration. True success is determined by whether the iteration achieved its predefined objectives, as evidenced by tangible business and product metrics.
 
@@ -149,7 +152,7 @@ _If you have a failure that can serve as a learning opportunity, please make an 
 Just because something is [not invented here](https://en.wikipedia.org/wiki/Not_invented_here)
 doesn't mean it doesn't have a perfect home within our solution. GitLab is an
 Open Core product and is part of the broader ecosystem of Open Source tools in
-the market. Every day there are new innovative tools out there that solve
+the market. Every day there are new innovative open source tools out there that solve
 real-world customer problems; we should not be afraid of embedding these tools
 into our own products in order to solve those same problems for our customers
 too. Leveraging existing technology allows us to get to market much more quickly,

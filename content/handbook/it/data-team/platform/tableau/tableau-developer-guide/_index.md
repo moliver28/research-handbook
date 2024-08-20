@@ -89,6 +89,14 @@ From here, set up your datasource and develop as you would like. Then, when you 
 
 If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
 
+### Creating Connection Types that Allow Others Without Snowflake Access to Edit the Workbook
+
+Using a published connection, or a local extracted connection in your workbook will give the ability for others who do not have Snowflake access to edit your workbook. If a workbook is published using a local, live connection then any Explorer who wants to make edits to your workbook will need to sign-in to Snowflake, using their own credentials. This is the screen that an editor would be met with when trying to edit a workbook with a local, live connection.
+
+In the niche use-case that you want an Explorer without Snowflake access to be able to make small edits to your workbook, ensure you use only pulished, live connections, or extract the data.
+
+ ![sign in screen](images/singin.png)
+
 ## Embedding in the Handbook
 
 In order for views from workbooks to be embedded and viewable in the handbook, public or internal, the workbook and their data sources must be prepared in a specific way. To be embedded in the public handbook the workbook and relevant datasource must be copied from the [internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) site to the [public GitLab Tableau](https://us-west-2b.online.tableau.com/#/site/gitlabpublic) site. To facilitate correct viewing of embedded views and the synchronization of content to the public site, workbooks must be set up in a specific way and given a specific tag.  Views that are meant to be embedded on the internal site do not need to be in a specific project, but should still meet the set up guidelines.
@@ -243,13 +251,27 @@ Create a Data Source filter using the `USERNAME()` function and the `tableau_use
 
 ## Guidelines for Publishing Extracts to Production and Ad-Hoc Projects
 
-1. ~1 GB Storage Limit per published extract. This is ~10 million rows of data.
-2. Scheduled extract refreshes should run between 18:00 and 05:00 UTC
-3. Extracts are a performance management tool and should not be used by default. Live Connections should be the default selection and Extracts should only be considered when dashboard performance becomes an issue (i.e. most visualizations still aren't loading after one minute and performance optimizers have been applied)
-4. We currently have 200 GBs of storage on the Tableau Online site and have dedicated 100 GBs of that storage space for extracts
-5. After an extract is published to the Production or Ad-Hoc Project, the extract in the development folder should be deleted
-6. Extracts built directly from tables or marts can be published as a Datasource
-7. Extracts built with Custom SQL must be embedded in a workbook.
+1. **Data Source Live vs. Extract** - Extracts are primarily a performance optimization tool and should not be the default choice. Use Live Connections by default, and consider Extracts only in the following situations:
+
+   - **Dashboard Performance** - If visualizations take longer than one minute to load despite applying performance optimizers.
+
+   - **Heavy traffic data sources** - To reduce data warehouse costs, use scheduled Extract refreshes instead of numerous user live queries.
+
+1. **Extract Size** - We have 1 TB of storage on Tableau Cloud. Extracts should not exceed 5 GB, which accommodates up to ~50 million rows of data.
+
+1. **Extract Scheduling** - Schedule Extract refreshes between 18:00 and 05:00 UTC. Ideally, limit refreshes to business weekdays.
+
+1. **Optimize Extracts** - Consider the following strategies to shrink and improve extract refresh performance:
+   
+   - **Aggregate Data** - Aggregate data at a higher level before creating an extract to reduce size and improve performance.
+  
+   - **Filter Data** - Apply filters to include only relevant data in the extract. This can help reduce size and improve refresh times.
+  
+   - **Use Incremental Refreshes** - For large datasets, configure incremental refreshes instead of full refreshes. This updates only the new or changed data, which is more efficient. Consider using Tableau Prep to implement incremental and merge/update refreshes.
+
+1. **Clean up** - After an extract is published to the Production or Ad-Hoc Project, delete the corresponding Extract from the development folder. 
+
+1. **Extract Refresh Suspension** - Tableau Cloud will automatically suspend data sources that remain unused for 30 days.
 
 ## Improving Local Connection Timeouts
 

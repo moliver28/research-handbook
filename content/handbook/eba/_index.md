@@ -25,7 +25,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [People](/handbook/people-group/) | **Julia Nishioki**<br>EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
 | [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Angela Pesta (VP UX)|
-| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (Sr Director of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
+| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
 | [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Staff EBA | Chris Weber (CRO) |
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
@@ -225,7 +225,9 @@ More information can be found [here](/job-families/people-group/executive-busine
 
 ## Signature Request procedure
 
-### When requesting a wet signature for a document(s) please have the following questions answered in advance
+### Requesting a wet signature
+
+When requesting a wet signature for a document(s) please have the following questions answered in advance
 
 1. Is there an issue? If there is more than two documents you may want to consider creating an issue to track progress
 1. What is this for?

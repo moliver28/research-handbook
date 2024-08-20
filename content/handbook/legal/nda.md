@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/NDA
 title: "Non-Disclosure Agreement Process"
 description: "How to send or request an NDA"
 ---

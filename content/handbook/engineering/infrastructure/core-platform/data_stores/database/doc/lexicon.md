@@ -1,13 +1,7 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/lexicon.html
 title: Database Lexicon - terms and definitions relating to our database
 description: "This is not a comprehensive list of all of the commonly used terms, but rather it is a list of terms that are commonly confused or conflated with other terms.  In each section we will identify common phrases, define our specific usage and list external references for the term in question."
 ---
-
-
-
-
-
 
 ## Commonly Used Terminology
 

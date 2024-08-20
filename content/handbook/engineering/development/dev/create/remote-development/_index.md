@@ -189,7 +189,7 @@ javascript:(function(){var el=document.getElementsByClassName('boards-list');for
 
 TODO: We need to create a Web IDE version of this report and link it in the category slack channel - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
 
-In addition to the Velocity Board chrome extension, there is a [Workspace Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/workspaces-iteration-planning-report-latest.html) which is automatically published every 6 hours.
+In addition to the Velocity Board chrome extension, there is a [Workspace Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/workspaces-iteration-planning-report-latest.html) and [Web IDE Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/web-ide-iteration-planning-report-latest.html) which are automatically published every 6 hours.
 
 This report shows the same auto-calculated iteration/velocity data, and uses the same logic as the Velocity Board Chrome Extension, but you don't have to install the extension to see it.
 

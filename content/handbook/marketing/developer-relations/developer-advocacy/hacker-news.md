@@ -1,7 +1,5 @@
 ---
 title: "Hacker News"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/hacker-news/index.html
 ---
 
 ## Overview

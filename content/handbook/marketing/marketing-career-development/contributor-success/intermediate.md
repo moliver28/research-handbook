@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/career-development/matrix/marketing/community-relations/contributor-success/intermediate
 title: "Contributor Success Career Framework: Intermediate Fullstack Engineer"
 description: "These are the expected competencies of an Intermediate Fullstack Engineer, Contributor Success at GitLab."
 ---

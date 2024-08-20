@@ -1,8 +1,6 @@
 ---
 title: "CSE Content"
 description: "Learn about the Customer Success Engineering content team, catalog, creation and contribution workflows."
-aliases:
-- /handbook/customer-success/csm/segment/scale/content
 ---
 
 ## <i class="fa-solid fa-door-open" style="color: #B197FC;"></i> Welcome to the Customer Success Engineering Content Handbook
@@ -72,7 +70,23 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 | [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Architect | Quarterly Planning/Backlog Management, Content Creation (Non Demos), Content Operations |
 | [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demos/Lab Content Creation, Demo Operations, Demo Asset Maintenance |
 
-> **Note**: Details articulating what constitutes `Responsibilities` can be found [here](https://docs.google.com/spreadsheets/d/1oa8pl4bESeObNVXqlWt3cR3DEOkRRAnIKWz7vzZwjuo/edit?gid=0#gid=0) (internal) and will continually be updated as the team evolves and matures.
+> **Note**: The following RACI chart can be used to understand how content creation stakeholders interact on each area of `Responsibilities` listed above. The table will continually be updated as the team evolves and matures.
+
+### Content Team Responsibilities Matrix
+
+| Responsibilities | Content Strategist | Content Architect             | Demo Architect                   | CSEs      | CSSO | CSE Leadership |
+| ------------------------------------------------------------ | --------------------------- | ---------------------------------------- | ---------------------------------------- | --------- | -------------- | -------------- |
+| **Cross Functional Collaboration -**: maintain alignment with other content stakeholders - EDU, Field Marketing, SAs, DevRel | DRI                         | Consulted                                | Consulted                                | Informed  | Informed       | Consulted      |
+| **Content Strategy**: - oversee strategy and execution for driving GitLab adoption at scale thru multiple content delivery methods (aligned with CSE quarterly goals/initiatives) | DRI                         | Consulted                                | Consulted                                | Consulted | Informed       | Consulted      |
+| **Quarterly Planning/Backlog Management**: - organize and maintain visible backlog ensuring content creation is aligned with strategy/quarterly objectives. | Consulted                   | DRI                                      | Consulted                                | Informed  | Informed       | Consulted      |
+| **Marketing/Promotion**: - create and execute internal and external strategies designed to maximize visibility, engagement and impact through various channels | DRI                         | Consulted                                | Consulted                                | Informed  | Informed       | Informed       |
+| **Content Creation**: - develop and execute against content strategy. Work with SMEs to ensure workback plan for delivery | Consulted                   | DRI (Webinars, blogs)                    | DRI (Labs)                               | Consulted | Informed       | Informed       |
+| **Demos/Lab Content Creation**                                  | Consulted                   | Consulted (decks, talk tracks, delivery) | DRI (structure, architecture, messaging) | Consulted | Informed       | Informed       |
+| **Content Optimization**: use data to refine and enhance content performance, reach and engagement across various channels.  Includes creation/iteration of email text and monitoring effectiveness of campaigns | DRI                         | Consulted                                | Consulted                                | Informed  | Consulted      | Consulted      |
+| **Content Delivery**: oversee scheduling and ensure the right SMEs are delivering in the most impactful manner | DRI                         | Consulted                                | Consulted                                | Informed  | Informed       | Consulted      |
+| **Content Operations**:  Updating GLU Calendar (Thought Industries), Zoom registration process and uploading of all content.  Also management of email campaigns in GS. | Informed                    | DRI                                      | Informed                                 | Informed  | Consulted      | Informed       |
+| **Demo Operations -**: manage demo codes for hands on labs.  Collaborate with architecture team for CSE needs (SA DAs to cover for PTO) | Informed                    | Informed                                 | DRI                                      | Informed  | Informed       | Informed       |
+| **GL Release Management -**: update learn labs after each GL release.  Create monthly TLDR for CSE org to be used across all content delivery. Update content assets that change due to releases and ensure CSE or understands value and talk tracks as applicable | Consulted                   | Consulted                                | DRI                                      | Informed  | Informed       | Informed       |
 
 ## <i class="fa-solid fa-book" style="color: #B197FC;"></i> Content Catalog
 
@@ -133,4 +147,25 @@ We are always taking suggestions for new content to enable customers. Please vis
 
 Submissions will be reviewed and refined on a quarterly basis during our backlog review, facilitated by the team's Content Architect. If an idea is chosen for  creation, it will be promoted to an epic in the Customer Success Engineering Group and assigned issues for the creation process associated with that content type. While this is a collaborative process, the Director of the Customer Success Engineering team has the final say on which content will be created each quarter.
 
-While our goal is to establish a more structured process that we can measure to ensure it delivers value to our customers, CSEs are encouraged to research topics as needed for customer needs or personal growth. CSEs are asked to please discuss any content projects outside of the official CSE Content Team process and workflow directly with their managers. We are working toward a set of quality assurance guidelines and standards which one can use to independently evaluate personal projects that they may want to propose be adapted to a future webinar or lab. 
+While our goal is to establish a more structured process that we can measure to ensure it delivers value to our customers, CSEs are encouraged to research topics as needed for customer needs or personal growth. CSEs are asked to please discuss any content projects outside of the official CSE Content Team process and workflow directly with their managers. We are working toward a set of quality assurance guidelines and standards which one can use to independently evaluate personal projects that they may want to propose be adapted to a future webinar or lab.
+
+#### Content Idea Lifecycle
+
+```mermaid
+flowchart LR
+    A([Start]) --> B[/fa:fa-lightbulb Idea/]
+    B -->|Issue Created| C[(Backlog)]
+    C --> D[/fa:fa-star GitLab Priorities/]
+    C --> E[/fa:fa-chart-simple Historic Attendance/]
+    C --> F[/far:fa-lightbulb Existing Backlog/]
+    C --> G[/fa:fa-list-check Team Bandwidth/]
+    C --> H[/fa:fa-scale-balanced Customer Feedback/]
+    D --> I[fa:fa-people-group Idea Refinement]
+    E --> I
+    F --> I
+    G --> I
+    I -->|Promoted to Epic| J([fa:fa-laptop Development])
+
+    style H fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray:
+    style Future fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray:
+```

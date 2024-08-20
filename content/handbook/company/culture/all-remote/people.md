@@ -7,6 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
+<!-- markdownlint-disable MD013 -->
 On this page, we're spotlighting brilliant, creative, passionate people who have adopted a remote lifestyle.
 
 ## New possibilities and freedoms

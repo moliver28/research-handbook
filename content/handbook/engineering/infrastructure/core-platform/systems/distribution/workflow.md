@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/workflow.html
-
 title: "Distribution Team Workflow"
 description: "Overview of how work is performed by Distribution Engineers, for Omnibus, Helm and other Engineering projects."
 ---
