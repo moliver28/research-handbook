@@ -336,5 +336,5 @@ Cons:
   - Pros: Standards compliant solution
   - Cons: More effort is required up front before any value can be realized
 - Do nothing
-  - Pros: No work required
+  - Pros: Time and resources can be focused on other projects
   - Cons: See the Motivation section of this document for details
