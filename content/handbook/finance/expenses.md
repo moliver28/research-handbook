@@ -63,7 +63,11 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Expense items must clearly state if the spend includes amounts for clients / non-Team Members. Tax requirements in certain countries require us to account for client spending differently.
 - Anything submitted outside of these guidelines will be flagged as Out of Policy.
 - All work-related expenses (internet, co-working space, other monthly subscription, etc.) are not reimbursable while on Leave of any kind.
-- For PEO's, as you are aware with Navan, the system will automatically reimburse in the currency of the GitLab organization you are employed. To ensure you are reimbursed in the currency in which your PEO needs to be invoiced please submit your expenses in the payment currency you will be invoicing the PEO in. i.e. if you invoice your PEO in USD, then convert the expense into USD prior to submitting the expense report in Navan. This will then allow you to know the exact amount to invoice the PEO every month. If this is not doable then we will convert the currency using the FX rates from Netsuite on the day this expense is transferred to payroll for payment to the PEO.
+- For PEO's, as you are aware with Navan, the system will automatically reimburse in the currency of the GitLab organization you are employed.
+
+  To ensure you are reimbursed in the currency in which your PEO needs to be invoiced, please submit your expenses in the payment currency you will be invoicing the PEO in. That is, if you invoice your PEO in USD, then convert the expense into USD prior to submitting the expense report in Navan. This will then allow you to know the exact amount to invoice the PEO every month.
+  
+  If this is not doable, then we will convert the currency using the FX rates from Netsuite on the day this expense is transferred to payroll for payment to the PEO.
 - As with any third-party, it is best practice to limit the amount of personal data shared. The inclusion of personal data on your receipts is not required to submit an expense, so feel free to redact personal data for increased privacy. However, this is not a required step. For those that choose not to redact personal data from your expense receipts, the privacy and security controls in place at Navan were evaluated and they are designed to adequately protect your information.
 
 ### 3.1 Out of Policy Transactions
