@@ -424,7 +424,16 @@ BDR outbound lead generation is done by prospecting to companies and individuals
 
 BDRs will work closely with their dedicated SAE or AE to choose which accounts move into "Actively Working". Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
 
-The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs.
+The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs. To manage this process we use a set of datapoints on SFDC on the account-level that are marked under the section "BDR Comments". Please reference the guide below on an explanation on how they work. 
+
+| BDR Field              | Usage                                                                                                         |
+|------------------------|---------------------------------------------------------------------------------------------------------------|
+| BDR Prospecting Status | Denotes whether an account is currently actively being worked, marked queued for future review, is restricted from being worked, or has been worked in the past. |
+| Actively Working Start Date | Gets populated automatically when an account is moved to Actively Working (AW) Status and the rest of the field is populated, marking it a valid AW account. |
+| BDR Account Research   | A space for the BDR to document their research and rationale for prospecting this account. A template is provided in step 5 of the guide below. |
+| BDR Next Steps         | A space for the BDR to use as working notes for the current status of prospecting the account.                |
+| BDR Account Strategy   | A categorization system that we use to high-level denote what motion or play was used in trying to engage with an account. |
+| BDR Recycle Date       | Automatically populated two months out from the AW date. Can be manually changed if the BDR chooses to continue working an account. |
 
 #### Planning Phase (4-5 hours/week)
 
@@ -573,7 +582,7 @@ In Step 7, compile the selected prospects and create LinkedIn Sales Navigator li
 
 **To fill in the BDR fields, please follow the guidelines below:**
 
-Use the format found on this template
+Use the [format found on this template](https://docs.google.com/document/d/1EN2U8wrUdti4MTxCNceoOlltAmtUt4pqN1GxwRTCnK4/edit)
 Copy-Paste the Structure to the BDR Account Research field and populate accordingly.
 Populate the BDR Next Step Date to be at the end of the account's sequence length (typically one month out)
 
