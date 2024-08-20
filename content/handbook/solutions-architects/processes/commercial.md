@@ -135,6 +135,8 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 
 #### Post-Sales Engagement
 
+_Customer Success Manager assignment is not available for the majority of Commercial Accounts_
+
 As an opportunity enters into either the [Negotiating or Awaiting Signature](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) stage, the Solutions Architect and Account Executive ought to begin introducing the customer to a Customer Success Manager following the [Commercial CSM Transition Process](/handbook/customer-success/pre-sales-post-sales-transition/#commercial-csm-transition-process).
 
 Solutions Architects ought to be primarily engaged with accounts that have active opportunities in Salesforce.  When we work with customers, it's easy to build a trusted advisor relationship with them that persists past the end of the sale.  In these cases, SAs must use their judgment in determining when to redirect a customer to the proper support channel for follow-up questions.
