@@ -46,7 +46,7 @@ The Commercial SA Triage Process is a structured approach to managing and priori
    - Requests should include a completed Command Plan and MEDDPPICC information.
 
 2. Initial Review:
-   - SA Regional Team (EMEA or AMER) members review new requests within one business day.
+   - SA Regional Team (EMEA or AMER) members review new requests. The service level objective for these reviews is [one business day](#1-triage-within-one-business-day).
    - The review includes assessing the Command Plan, technical requirements, and opportunity details.
 
 3. Evaluation of the "[4 Questions](#the-4-questions)":
