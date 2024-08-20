@@ -8,7 +8,7 @@ The Commercial SA team is the best place for demonstrating technical talent and 
 
 ## Structure
 
-The Commercial Solutions Architecture team is a part of the global [SA Organization](/handbook/solutions-architects/) that focuses on primarily Mid-Market customers aiming to provide efficient and effective support. The team is divided into two main geographical regions: AMER and EMEA. Each region has its own team of Solutions Architects (SAs) who are responsible for supporting customers in their respective areas.
+The Commercial Solutions Architecture team is a part of the global [SA Organization](/handbook/solutions-architects/) that focuses on primarily Mid-Market customers aiming to lead technical evaluation efforts in an efficient and effective manner. The team is divided into two main geographical regions: AMER and EMEA. Each region has its own team of Solutions Architects (SAs) who are responsible for supporting customers in their respective areas.
 
 ### Team Roles
 
