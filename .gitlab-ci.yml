@@ -188,7 +188,6 @@ pages:
   stage: deploy
   dependencies: [build]
   environment:
-    # tracking DORA deployment frequency
     name: $ENVIRONMENT
     url: $HUGO_BASEURL
   variables:
