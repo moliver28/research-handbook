@@ -47,7 +47,7 @@
 
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
-
+/content/handbook/business-technology/documentation/ @NabithaRao
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
