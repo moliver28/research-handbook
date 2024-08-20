@@ -1358,7 +1358,7 @@ This should never be set to `RAW` as it will overwrite production data.
 
 #### Snapshots and GDPR
 
-Sometimes the data team receives requests to delete personal data from the Snowflake Data Warehouse, because of GDPR. To address these deletions, we use `dbt` macros. A macro scans all applicable data that needs to be removed, this also applies to snapshot tables.
+Sometimes the data team receives requests to delete personal data from the Snowflake Data Warehouse, because of GDPR. To address these deletions, we use `dbt` macros. A macro scans all applicable data that needs to be removed, this also applies to snapshot tables. These maros could be used manually following this [issue template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data:%20GDPR%20Deletion.md?ref_type=heads) and are also scheduled to be run in Airflow following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/gdpr_deletions/gdpr_deletions.md?ref_type=heads) and [handbook page](/handbook/business-technology/data-team/platform/gdpr-deletions/).
 
 There are 2 flavours:
 
