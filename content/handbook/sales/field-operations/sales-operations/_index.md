@@ -42,11 +42,6 @@ Sales Operations main focus is on the Sales organization.
 1. [Sales Operations Owned System Offboarding](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#bookmark=id.n9g37c7yy3q)
 1. [Sales Operations Owned System Provisioning](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#bookmark=id.fjf789g7j637)
 
-## **Sales Operations Tech Stack**
+## **Revenue Operations Tech Stack**
 
-1. Clari
-1. Leandata
-1. RingLead
-1. [Salesforce Inbox](https://docs.google.com/document/d/1b7_xJHra448hNKwP5pp2ZzhBmTtv8A6ni-SX5v71dqw/edit#heading=h.aj14ljatuu6r)
-1. [Chorus](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/)
-1. [LinkedIn Sales Insights](/handbook/sales/field-operations/sales-operations/linkedin-sales-insights.html)
+Details on the Revenue Tech Stack can be found in the [internal handbook page](https://internal.gitlab.com/handbook/sales/sales-tools/).
