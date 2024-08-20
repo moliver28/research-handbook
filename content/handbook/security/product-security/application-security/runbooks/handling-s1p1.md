@@ -47,6 +47,10 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 
 If a vulnerability requires using features listed above for successfuly exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
 
+## Communicate
+
+E-group debrief document TODO
+
 ## Mitigate
 
 Mitigation of critical security issues has to strike a balance between securing GitLab and our users as fast as possible and doing it in a reliable way that will not require another patch shortly after.
