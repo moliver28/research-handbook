@@ -86,6 +86,9 @@ variables:
   RESTORE_CACHE_ATTEMPTS: 3
   EXECUTOR_JOB_SECTION_ATTEMPTS: 3
 
+  ### BUILD / PAGES DEFAULTS **
+  ENVIRONMENT: 'production'
+  HUGO_BASEURL: 'https://handbook.gitlab.com/'
   PAGES_PREFIX: ""
 
   ### TOOLING ###
@@ -187,11 +190,8 @@ pages:
   environment:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
-    deployment_tier: production
     url: $HUGO_BASEURL
   variables:
-    ENVIRONMENT: production
-    HUGO_BASEURL: https://handbook.gitlab.com/
     GIT_STRATEGY: none
   pages:
     path_prefix: "$PAGES_PREFIX"
@@ -205,14 +205,14 @@ pages:
     - <<: *scheduled-pipeline
     - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
       variables:
-        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
     - <<: *merge-request-only
       variables:
-        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
       when: manual
       allow_failure: true
 
