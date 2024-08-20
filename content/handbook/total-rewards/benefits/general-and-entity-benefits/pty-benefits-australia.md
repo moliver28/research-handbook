@@ -96,11 +96,11 @@ Team members in Australia have the option to make concessional super contributio
 
 ### Life insurance
 
-GitLab does not plan to offer life insurance at this time as Australians can access [government payments and services](https://www.humanservices.gov.au/individuals/subjects/payments-people-living-illness-injury-or-disability) if they get ill, injured or have a disability. Most Australians who choose to have life insurance take out cover from their super fund.
+GitLab does not plan to offer life insurance at this time as Australians can access [government payments and services](https://www.servicesaustralia.gov.au/living-with-disability) if they get ill, injured or have a disability. Most Australians who choose to have life insurance take out cover from their super fund.
 
 ### Workers' Compensation
 
-[Fair Work statement](https://www.fairwork.gov.au/leave/workers-compensation)
+[Fair Work statement](https://www.fairwork.gov.au/employment-conditions/workers-compensation)
 
 GitLab renews the Workers' Compensation premium annually for each state. Premium are based on the annual declared wages.
 
@@ -300,7 +300,7 @@ This leave runs concurrently with GitLab PTO. Team members should select `Bereav
 
 <summary>Public Holidays</summary>
 
-- All team members are entitled to at least their base pay rate for all hours worked on [public holidays](https://www.fairwork.gov.au/leave/public-holidays).
+- All team members are entitled to at least their base pay rate for all hours worked on [public holidays](https://www.fairwork.gov.au/employment-conditions/public-holidays).
 - Team members who take time off for public holidays are entitled to their base pay rate for the ordinary hours they would have worked. GitLab encourages all team members to take time off for the holidays they observe.
 - Team members must select `Public Holiday` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
@@ -475,7 +475,7 @@ If it's impossible to find a replacement and the team member ends up taking the 
 - If the team member is not called in to work during their on-call shift, a regular time-in-lieu compensation for the shift should be applied.
 - If the team member is called in to work during their on call shift, they are responsible for recording their hours worked during the shift and report to payroll/manager in order for overtime payment processing.
 
-*Note: To stay in compliance with local laws we would follow [the New Zealand government website](https://www.employment.govt.nz/leave-and-holidays/public-holidays/employees-working-shifts-or-on-call/) with regards to compensation for worked time during on-call.*
+*Note: To stay in compliance with local laws we would follow [the New Zealand government website](https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-rights-for-employees#scroll-to-7) with regards to compensation for worked time during on-call.*
 
 ## Statutory Sick Leave
 
