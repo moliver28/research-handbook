@@ -272,21 +272,6 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 - Net ARR >$50K
 - Stage: 3+ (potentially 2+)
 
-#### Structure
-
-- Win/Lost Retros are hosted the first week of each quarter
-- This is a 50 minute meeting with the entire Commercial SA team
-- Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
-
-#### Process
-
-- Make a copy of [\[Template\] FYxx'Qx Commercial SA Win/Loss Retro](https://docs.google.com/document/d/13hcCRxbuNQhllce2nmoYfbBxiv5X4pzMp3ebmW_jod4/edit#heading=h.h61ejaw1pq0t)
-- During the session:
-  - 00:00 - 00:05 - Add the items to the table of the document
-  - 00:05 - 00:20 - Review Wins
-  - 00:20 - 00:35 - Review Losses
-  - 00:35 - 00:50 - Review Action Items
-
 ## Team Meetings
 
 Commercial SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the Commercial SA team's schedule:
