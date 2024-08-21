@@ -216,7 +216,7 @@ At GitLab, we standardize the definition of 'first day of week' across all our s
 
 ###### Key Points
 
-- The week starts on Sunday and ends on Suturday.
+- The week starts on Sunday and ends on Saturday.
 - This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter. (After setting the Snowflake `WEEK_START` parameter to 7 at account-level)
 - This standard is consistent with many functional analyst teams' practices.
 
