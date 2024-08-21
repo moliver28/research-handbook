@@ -229,13 +229,13 @@ At GitLab, we standardize the definition of 'first day of week' across all our s
 ###### Implementation
 
 - The `first_day_of_week` is calculated in the `date_details_source` model using the following logic:
-  
+
   ```sql
   CASE WHEN day_name = 'Sun' THEN date_day
        ELSE DATE_TRUNC('week', date_day)
   END AS first_day_of_week
   ```
-  
+
   - This field can be cascaded down to the downstream models through the `dim_date` model.
 - All date dimensions and related fields should use this definition of week.
 - When using `DATE_TRUNC('week', date)`, the result will automatically align with this standard.
