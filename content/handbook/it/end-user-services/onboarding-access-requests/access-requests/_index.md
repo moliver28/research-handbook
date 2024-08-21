@@ -1,5 +1,4 @@
 ---
-controlled_document: true
 title: "Access Requests (AR)"
 ---
 
