@@ -291,7 +291,7 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
 ### Regional Team Meeting (EMEA or AMER)
 
 - AMER
-  - Frequency: Weekly on Mondays
+  - Frequency: Weekly on Monday
   - Duration: 50 minutes
   - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
 - EMEA
