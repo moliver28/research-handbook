@@ -965,6 +965,10 @@ Save the changes and wait for Google Mail to reload.
 Use this general [GitLab Slide Template](https://docs.google.com/presentation/d/1XhGp21FKlIBiJMI9OpvwyneF6fkrQeOQjFxDJF678Ys/edit#slide=id.g1e546bbceaf_0_817g) when creating slide decks for internal and external use.
 Make a copy of the slide deck and only edit the copy; please do not edit the template itself. To avoid potentially editing the source deck, you can go to the [Template gallery](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d) and click on the `GitLab Slide Template vYear-Month` to quickly make a copy and begin a new deck. Ensure that all pages in the slide deck are numbered, with the title page always being number 1.
 
+#### Sales slide decks
+
+Slide decks are available in [Highspot](/handbook/sales/field-communications/gitlab-highspot/) in [GitLab's Official Sales Deck Library](https://gitlab.highspot.com/items/650461a504701b188c124951?lfrm=shp.6).
+
 ### Google Jamboard
 
 Jamboard is a collaborative whiteboarding platform, accessible at <https://jamboard.google.com/>. The results are persisted in Drive and are shareable like any other object.
