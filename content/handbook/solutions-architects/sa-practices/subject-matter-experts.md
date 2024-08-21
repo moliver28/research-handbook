@@ -43,6 +43,8 @@ SMEs will be responsible for the following:
   - Enablement sessions
   - [Deliberate practice](/handbook/solutions-architects/sa-practices/deliberate-practice/)
 - **Collateral** in the Handbook or Highspot to be used indepenently by account teams, including:
+  - Creating a list of discovery questions to be used during discovery process by SAs
+  - Creating frequently asked questions by customers per category
   - List of SMEs
   - Recorded enablement sessions
   - FAQs
