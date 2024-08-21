@@ -13,7 +13,7 @@ The Data Team follows the GitLab SAFE [Framework](/handbook/legal/safe-framework
 
 ### Tableau
 
-Access to Tableau dashboards is based on license type (see Tableau Licenses in our [Tableau](/handbook/it/data-team/platform/tableau/) handbook page), which can be prioritized by job roles, and governed by the [SAFE Data Access Framework](/handbook/legal/safe-framework/). In Tableau, we apply the SAFE security framework using [User Groups](/handbook/it/data-team/platform/tableau/#user-groups). There are four primary projects/folders where dashboards can exist - Development, Production, Ad-hoc, and Resources. The Development, Production, and Ad-hoc folders each have a sub-folder for various teams at GitLab, such as Finance and Sales. Within each team's folder there are generally two main folders to which content can be published: General, and SAFE.
+Access to Tableau dashboards is based on license type (see Tableau Licenses in our [Tableau](/handbook/marketing/data-team/platform/tableau/) handbook page), which can be prioritized by job roles, and governed by the [SAFE Data Access Framework](/handbook/legal/safe-framework/). In Tableau, we apply the SAFE security framework using [User Groups](/handbook/marketing/data-team/platform/tableau/#user-groups). There are four primary projects/folders where dashboards can exist - Development, Production, Ad-hoc, and Resources. The Development, Production, and Ad-hoc folders each have a sub-folder for various teams at GitLab, such as Finance and Sales. Within each team's folder there are generally two main folders to which content can be published: General, and SAFE.
 
 - The General folders contain data that can be viewed by anyone at GitLab.
 - The SAFE folders contain any dashboards with material non-public information (MNPI) and are only accessible by users belonging to the General SAFE Access user group.
@@ -22,7 +22,7 @@ The development workflow for Tableau Creators that work with data meeting [GitLa
 
 #### Accessing a GitLab General Access Dashboard
 
-General Access Dashboards are available to all GitLab Team members. An Access Request to gain access to Tableau (if a team member does not already have access) will be required, but no further Access Requests are required to view these general access dashboards. You can read more about permissions and access in the [Tableau Section](/handbook/it/data-team/platform/tableau/#permissions) of the handbook.
+General Access Dashboards are available to all GitLab Team members. An Access Request to gain access to Tableau (if a team member does not already have access) will be required, but no further Access Requests are required to view these general access dashboards. You can read more about permissions and access in the [Tableau Section](/handbook/marketing/data-team/platform/tableau/#permissions) of the handbook.
 
 #### Accessing a SAFE Dashboard
 
@@ -38,17 +38,17 @@ To gain access to SAFE dashboards:
 3. Once the request is approved, follow the instructions in the tech_stack.yml file for provisioning.
 4. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access.
 
-Please see the [Accessing](/handbook/it/data-team/platform/#warehouse-access) SAFE Data in Snowflake for instructions on to access the SAFE data in Snowflake.
+Please see the [Accessing](/handbook/marketing/data-team/platform/#warehouse-access) SAFE Data in Snowflake for instructions on to access the SAFE data in Snowflake.
 
-SAFE Data in Google Sheets files can be accessed using the instructions for [Accessing a SAFE Dashboard](/handbook/it/data-team/platform/safe-data/#accessing-a-safe-dashboard). Please follow those instructions to gain access to SAFE Data in Google Sheets.
+SAFE Data in Google Sheets files can be accessed using the instructions for [Accessing a SAFE Dashboard](/handbook/marketing/data-team/platform/safe-data/#accessing-a-safe-dashboard). Please follow those instructions to gain access to SAFE Data in Google Sheets.
 
 ##### Deprovisioning SAFE Dashboard access
 
-Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/it/data-team/data-management/). In this audit the Data Team also checks for inactive usage. In case a GitLab Team Member hasn't used the SAFE Dashboard space for more than 90 days, access will be deprovisioned. To get access again to the SAFE Dashboard space, a new AR needs to be created and all approvals need to be obtained again.
+Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/marketing/data-team/data-management/). In this audit the Data Team also checks for inactive usage. In case a GitLab Team Member hasn't used the SAFE Dashboard space for more than 90 days, access will be deprovisioned. To get access again to the SAFE Dashboard space, a new AR needs to be created and all approvals need to be obtained again.
 
 #### Accessing Various Limited Access User Groups
 
-There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/it/data-team/platform/tableau/#limited-access-user-groups), as well as how to request access.
+There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/marketing/data-team/platform/tableau/#limited-access-user-groups), as well as how to request access.
 
 ### Snowflake
 
@@ -66,7 +66,7 @@ To gain access to SAFE Data:
 
 ## Data Development
 
-SAFE Data in Snowflake is stored in separate schemas. Schemas with SAFE Data are prefixed with: `RESTRICTED_SAFE_*`. All models that contain MNPI data must be stored in these schemas. There is a [CI-Pipeline](/handbook/it/data-team/platform/ci-jobs/#safe_model_script) (`safe_model_script`) that secures this process. Every model that is created or changed, will be checked by the CI-Pipeline. As a developer, the following governance needs to be taken into account:
+SAFE Data in Snowflake is stored in separate schemas. Schemas with SAFE Data are prefixed with: `RESTRICTED_SAFE_*`. All models that contain MNPI data must be stored in these schemas. There is a [CI-Pipeline](/handbook/marketing/data-team/platform/ci-jobs/#safe_model_script) (`safe_model_script`) that secures this process. Every model that is created or changed, will be checked by the CI-Pipeline. As a developer, the following governance needs to be taken into account:
 
 - `mnpi` tag to be applied when reading out of a table/model that holds MNPI data and MNPI is used in the model. Subsequently the data must be stored in a `RESTRICTED_SAFE_*` schema.
 - `mnpi_exception` tag to be applied when reading out of a table/model that holds MNPI data and MNPI is **not** used in the model. I.e. only a NON-MNPI field is used from a MNPI model.

@@ -7,14 +7,14 @@ description: "GitLab Data Team Workflow"
 
 ### <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
 
-- [Calendar](/handbook/it/data-team//how-we-work/calendar/)
-- [MR Roles and Responsibilities](/handbook/it/data-team//how-we-work/mr-review/)
-- [New Data Source](/handbook/it/data-team//how-we-work/new-data-source/)
-- [Planning Drumbeat](/handbook/it/data-team//how-we-work/planning/)
-- [Triage](/handbook/it/data-team//how-we-work/triage/)
+- [Calendar](/handbook/marketing/data-team//how-we-work/calendar/)
+- [MR Roles and Responsibilities](/handbook/marketing/data-team//how-we-work/mr-review/)
+- [New Data Source](/handbook/marketing/data-team//how-we-work/new-data-source/)
+- [Planning Drumbeat](/handbook/marketing/data-team//how-we-work/planning/)
+- [Triage](/handbook/marketing/data-team//how-we-work/triage/)
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
-- [Data Team Programs](/handbook/it/data-team//programs/#data-programs)
-- [Weekly Roll Up with Rolly Bot](/handbook/it/data-team//how-we-work/#weekly-roll-up-reporting)
+- [Data Team Programs](/handbook/marketing/data-team//programs/#data-programs)
+- [Weekly Roll Up with Rolly Bot](/handbook/marketing/data-team//how-we-work/#weekly-roll-up-reporting)
 
 ## How We Work
 
@@ -26,11 +26,11 @@ The Data Team strives to spend the majority of its time developing and operating
 
 | Rank | Priority | Description| Target Allocation | Prioritization Method |
 | --- | --- | --- | --- | --- |
-| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/it/data-team//platform/#slos-service-level-objectives-by-data-source). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
-| 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/it/data-team//how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/it/data-team//how-we-work/planning/) |
-| 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/it/data-team//how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
+| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/marketing/data-team//platform/#slos-service-level-objectives-by-data-source). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
+| 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/marketing/data-team//how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/marketing/data-team//how-we-work/planning/) |
+| 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/marketing/data-team//how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
 
-We use [scoped labels in GitLab](/handbook/it/data-team//how-we-work/#issue-labeling) to track our issues across these priorities.
+We use [scoped labels in GitLab](/handbook/marketing/data-team//how-we-work/#issue-labeling) to track our issues across these priorities.
 
 In addition to the above priorities focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends 5 to 10% of our time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
 
@@ -41,7 +41,7 @@ Here's the process to follow to create a new Data issue:
 1. Open a **New Issue** in the [Data Team Analytics Project](https://gitlab.com/gitlab-data/analytics/-/issues).
 2. Choose a **Template** from the table below that best matches the work you are requesting.
 3. Complete the templated **Description** as completely as possible.
-4. Leave the **Assignees** blank. The Data Team will process your request as a part of our [Daily Triage](/handbook/it/data-team//how-we-work/triage/).
+4. Leave the **Assignees** blank. The Data Team will process your request as a part of our [Daily Triage](/handbook/marketing/data-team//how-we-work/triage/).
 <!--need to review the activities that are part of triage process -->
 
 **New Issue**
@@ -57,7 +57,7 @@ Here's the process to follow to create a new Data issue:
 
 The monthly Data Leadership Forum includes representation from partner teams across GitLab (Marketing, Sales, Customer Success, Finance, IT, Support, Product, Engineering, People, Security, Legal) and is used to oversee and drive the strategic direction of GitLab data management and analytics initiatives, including project prioritization. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security.
 
-In order for OKRs / projects to be prioritized through the Data Leadership Forum, an opportunity canvas is required. An opportunity canvas is a specific [issue template](https://gitlab.com/gitlab-data/analytics/-/issues) that contains detailed information about the work that is being requested, the expected business impact from that work, a rough estimate of the level of effort to accomplish the work, and known risks/dependencies. The opportunity canvas also includes a business value score based on our [Value Calculator](/handbook/it/data-team//how-we-work/#data-team-value-calculator), which is one factor in prioritizing and ranking our backlog of work.
+In order for OKRs / projects to be prioritized through the Data Leadership Forum, an opportunity canvas is required. An opportunity canvas is a specific [issue template](https://gitlab.com/gitlab-data/analytics/-/issues) that contains detailed information about the work that is being requested, the expected business impact from that work, a rough estimate of the level of effort to accomplish the work, and known risks/dependencies. The opportunity canvas also includes a business value score based on our [Value Calculator](/handbook/marketing/data-team//how-we-work/#data-team-value-calculator), which is one factor in prioritizing and ranking our backlog of work.
 
 In the instance that a new project is raised mid-quarter and is proposed to be prioritized sooner than the next quarterly planning cycle, the forum will review the Opportunity Canvas for the new project, determine if the business value and impact warrants re-prioritization, and will come to a decision on the necessary trade-offs (i.e. to prioritize that new work, other planned work must be deprioritized).
 
@@ -71,7 +71,7 @@ Requests to expedite responses, triage issues, or MR reviews are rare. Given the
 
 ### Deciding What And How To Build
 
-Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/it/data-team//data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/it/data-team//data-development/#trusted-data-development).
+Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/marketing/data-team//data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/marketing/data-team//data-development/#trusted-data-development).
 
 ### Design Spike
 
@@ -100,7 +100,7 @@ The calculator below is based on the following [Value Calculator](https://docs.g
 
 ### Quarterly and Iteration Planning
 
-Our planning process is called the [Planning Drumbeat](/handbook/it/data-team//how-we-work/planning) and it encompasses Quarterly Planning and [Iteration Planning](/handbook/it/data-team//how-we-work/planning/#iteration-planning). The Planning Drumbeat is one of the most important activities the Data Team performs because it helps us align our work with the broader company, while remaining agile enough to manage shifting business priorities.
+Our planning process is called the [Planning Drumbeat](/handbook/marketing/data-team//how-we-work/planning) and it encompasses Quarterly Planning and [Iteration Planning](/handbook/marketing/data-team//how-we-work/planning/#iteration-planning). The Planning Drumbeat is one of the most important activities the Data Team performs because it helps us align our work with the broader company, while remaining agile enough to manage shifting business priorities.
 
 #### Quarterly KR Status Reporting
 
@@ -172,7 +172,7 @@ Think of each of these groups of labels as ways of bucketing the work done.
 
 All issues should get the following classes of labels assigned to them:
 
-- **Team:** The Data Team that will perform the work ([Fusion Team](/handbook/it/data-team//#data-fusion-teams) or [Data Platform Team](/handbook/it/data-team//#the-data-platform-team))
+- **Team:** The Data Team that will perform the work ([Fusion Team](/handbook/marketing/data-team//#data-fusion-teams) or [Data Platform Team](/handbook/marketing/data-team//#the-data-platform-team))
 - **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
 - **Workflow:** The status of the work
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
@@ -183,7 +183,7 @@ Optional labels that are useful to communicate state or other priority:
   - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
   - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
-- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/it/data-team//how-we-work/#prioritization).
+- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/marketing/data-team//how-we-work/#prioritization).
 
 ##### Merge Request Workflow
 
@@ -196,7 +196,7 @@ _Ideally_, your workflow should be as follows:
 1. Push your work to the branch
 1. Update the MR with an [appropriate template](https://gitlab.com/gitlab-data/analytics/-/tree/master/.gitlab%2Fmerge_request_templates). Our current templates are:
 
-    - [**dbt Changes**](/handbook/it/data-team//how-we-work/dbt-change-workflow/) - used for any change involving dbt. Analysts will most often use this one
+    - [**dbt Changes**](/handbook/marketing/data-team//how-we-work/dbt-change-workflow/) - used for any change involving dbt. Analysts will most often use this one
     - **add_manifest_tables** - for adding tables to pgp extract
     - **periscope** - for getting a Periscope dashboard reviewed
     - **python_changes** - for general changes to Python code
@@ -204,7 +204,7 @@ _Ideally_, your workflow should be as follows:
 
 1. Run any relevant jobs to the work being proposed
 
-    - e.g. if you're working on dbt changes, run the job most appropriate for your changes. See the [CI jobs page](/handbook/it/data-team//platform/ci-jobs/) for an explanation of what each job does.
+    - e.g. if you're working on dbt changes, run the job most appropriate for your changes. See the [CI jobs page](/handbook/marketing/data-team//platform/ci-jobs/) for an explanation of what each job does.
 
 1. Document in the MR description what the purpose of the MR is, any additional changes that need to happen for the MR to be valid, and if it's a complicated MR, how you verified that the change works. See [this MR](https://gitlab.com/gitlab-data/analytics/merge_requests/658) for an example of good documentation. The goal is to make it easier for reviewers to understand what the MR is doing so it's as easy as possible to review.
 1. Request a review by assigning the MR to a peer using the [Merge Request Reviewer](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/) feature.
@@ -239,7 +239,7 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 ### SLO for Issues and Merge Requests
 
 - First-Response SLO for a new Issue or MR: 36 hours from the time of creation
-- Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/it/data-team//how-we-work/#issue-pointing) assigned by the Data Team.
+- Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/marketing/data-team//how-we-work/#issue-pointing) assigned by the Data Team.
   - Issue weight of 1-5 points: 4 weeks (2 iterations)
   - Issue weight > 5 points: No SLO
 - MR Review SLO

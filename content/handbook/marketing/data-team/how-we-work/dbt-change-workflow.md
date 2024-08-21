@@ -213,17 +213,17 @@ Models that will be reconstructed as part of building or testing changes are cla
 Using the environment defined during the planning, construct the local development environment using the following steps:
 
 1. Clean local database tables by dropping all schemas found with in the `<user_name>_PREP` and `<user_name>_PROD`.  This will ensure that the data used for testing is only the data added recently.  This can be done through the Snowsight UI or using a SQL command and query details can be found in the [Snowflake Dev Clean Up](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) runbook.
-1. Using the environment models command, [clone](/handbook/it/data-team//platform/dbt-guide/#cloning-into-local-user-db) tables necessary for development and testing.  This ensures that the data is up to date, and cloning the tables is more efficient than rebuilding the tables from the source data.
+1. Using the environment models command, [clone](/handbook/marketing/data-team//platform/dbt-guide/#cloning-into-local-user-db) tables necessary for development and testing.  This ensures that the data is up to date, and cloning the tables is more efficient than rebuilding the tables from the source data.
     - The clone job will not clone under the following conditions. Any models meeting those conditions must be included in the subsequent build steps:
       - The table is new
       - The table has a new name
       - The table is an external table
       - The table is a partition other than the current partition
-1. If the build models require more 10 minutes to build on an XL warehouse then the environment models directly used for the build models should be [sampled](/handbook/it/data-team//platform/dbt-guide/#sample-data-in-development). Sampling the data will improved the build time and increase the iterations that can be performed during development.
+1. If the build models require more 10 minutes to build on an XL warehouse then the environment models directly used for the build models should be [sampled](/handbook/marketing/data-team//platform/dbt-guide/#sample-data-in-development). Sampling the data will improved the build time and increase the iterations that can be performed during development.
 
 ### Change Code
 
-The Change Code step is where any draft changes are translated into language and format used in the code repository.  The process starts with documentation, keeping with the spirit of Handbook First, and iterates through the Test Change Locally step until the changes pass the tests added in the documentation and the target changes are effected.  As part of this step the [SQL style](/handbook/it/data-team//platform/sql-style-guide/) guide and [linter](/handbook/it/data-team//platform/sql-style-guide/#sqlfluff) must be used so that there is a consistent form and feel to all of the SQL used in the dbt code base.
+The Change Code step is where any draft changes are translated into language and format used in the code repository.  The process starts with documentation, keeping with the spirit of Handbook First, and iterates through the Test Change Locally step until the changes pass the tests added in the documentation and the target changes are effected.  As part of this step the [SQL style](/handbook/marketing/data-team//platform/sql-style-guide/) guide and [linter](/handbook/marketing/data-team//platform/sql-style-guide/#sqlfluff) must be used so that there is a consistent form and feel to all of the SQL used in the dbt code base.
 
 ### Test Changes Locally
 
@@ -233,8 +233,8 @@ Test all components, integrations, and system tests locally to ensure that the c
 
 To ensure an isolated environment, documentation of results, and to improve collaboration during reviews, all tests must be run in a remote environment. Using the environment defined during planning, construct the remote environment using the provided CI Jobs.
 
-1. Using the environment models command, [clone](/handbook/it/data-team//platform/ci-jobs/#%EF%B8%8Fclone_model_dbt_select) tables necessary for development and testing.
-    - If the environment models command only contains models with direct changes and their ancestors, then the [`run_changed_models_sql`](/handbook/it/data-team//platform/ci-jobs/#%EF%B8%8Frun_changed_%EF%B8%8Fclone_model_dbt_select) CI job can be used.
+1. Using the environment models command, [clone](/handbook/marketing/data-team//platform/ci-jobs/#%EF%B8%8Fclone_model_dbt_select) tables necessary for development and testing.
+    - If the environment models command only contains models with direct changes and their ancestors, then the [`run_changed_models_sql`](/handbook/marketing/data-team//platform/ci-jobs/#%EF%B8%8Frun_changed_%EF%B8%8Fclone_model_dbt_select) CI job can be used.
     - The clone job will not clone under the following conditions. Any models meeting those conditions must be included in the subsequent build steps:
       - The table is new
       - The table has a new name
@@ -246,9 +246,9 @@ To ensure an isolated environment, documentation of results, and to improve coll
 Test all components, integrations, and system tests remotely to ensure that the changes have been implemented as planned. Any test failure requires an iteration cycle with the Change Code step until all tests pass.
 
 1. Using the build models command from the defined environment build the changed models.  This will build the changed models and perform any tests that have been included with the changes.
-   - This can be performed with one of the [`specify_model`](/handbook/it/data-team//platform/ci-jobs/#specify_model) CI Jobs.  If the build command only contains models with direct changes then one of the [`run_changed_models_sql`](/handbook/it/data-team//platform/ci-jobs/#%EF%B8%8Frun_changed_models_sql) CI jobs can be used.
-   - If the changed models are incremental models, the models run more than one hour on a full refresh, and a full refresh does not need to be explicitly tested then the full refresh overridden should be used by adding the `REFRESH =` [variable](/handbook/it/data-team//platform/ci-jobs/#%EF%B8%8F-dbt-run).
-1. Run the [grant_clones](/handbook/it/data-team//platform/ci-jobs/#grant_clones) CI job, to grant permissions to yourself and run any remaining components, integrations, and system tests on the build models, adding the results of the tests to the MR.
+   - This can be performed with one of the [`specify_model`](/handbook/marketing/data-team//platform/ci-jobs/#specify_model) CI Jobs.  If the build command only contains models with direct changes then one of the [`run_changed_models_sql`](/handbook/marketing/data-team//platform/ci-jobs/#%EF%B8%8Frun_changed_models_sql) CI jobs can be used.
+   - If the changed models are incremental models, the models run more than one hour on a full refresh, and a full refresh does not need to be explicitly tested then the full refresh overridden should be used by adding the `REFRESH =` [variable](/handbook/marketing/data-team//platform/ci-jobs/#%EF%B8%8F-dbt-run).
+1. Run the [grant_clones](/handbook/marketing/data-team//platform/ci-jobs/#grant_clones) CI job, to grant permissions to yourself and run any remaining components, integrations, and system tests on the build models, adding the results of the tests to the MR.
     - If the table is new then the grant_clones job will not be able to grant access the table. In this case documentation of local tests are required for verification and validation.
 
 ### Reviews

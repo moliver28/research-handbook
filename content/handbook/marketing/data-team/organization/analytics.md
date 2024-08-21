@@ -5,11 +5,11 @@ description: "GitLab Data Analytics Team Handbook"
 
 The mission of the Data Analytics team is to **maximize** the impact of business decisions and strategy with data solutions that are trusted and scalable.
 
-We do this by helping all GitLab teams move up the [**Data Value Pyramid**](/handbook/it/data-team/direction/#data-value-pyramid) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/it/data-team/#data-team-principles).
+We do this by helping all GitLab teams move up the [**Data Value Pyramid**](/handbook/marketing/data-team/direction/#data-value-pyramid) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/marketing/data-team/#data-team-principles).
 
 ## Data Analytics Responsibilities
 
-Of the [Data Team's Responsibilities](/handbook/it/data-team/#responsibilities) the **Data Analytics Team** is **directly responsible** for:
+Of the [Data Team's Responsibilities](/handbook/marketing/data-team/#responsibilities) the **Data Analytics Team** is **directly responsible** for:
 
 - Managing and governing the company's Key Performance Indicator definitions, database, and data visualizations
 - Providing customizable Data Services, including Data Visualization, Data Modeling, Data Quality, and Data Integration
@@ -20,7 +20,7 @@ Additionally, the **Data Analytics Team** supports the following responsibilitie
 - With the **Data Leadership Team**:
   - Defining and publishing a Data Strategy to help maximize the value of GitLab's Data Assets
   - Broadcasting regular updates about data deliverables, ongoing initiatives, and upcoming plans
-- With the [**Data Platform Team**](/handbook/it/data-team/organization/engineering/#data-platform-responsibilities):
+- With the [**Data Platform Team**](/handbook/marketing/data-team/organization/engineering/#data-platform-responsibilities):
   - Building and maintaining the company's central Enterprise Data Warehouse to support Reporting, Analysis, Dimensional Modeling, and Data Development for all GitLab teams
   - Developing Data Management features such as master data, reference data, data quality, data catalog, and data publishing
   - Providing Self-Service Data capabilities to help everyone leverage data and analytics
@@ -41,7 +41,7 @@ At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-f
 
 ## What Is Analytics And Why Do We Do It?
 
-**Analytics** is the practice of turning **data** into [**information, knowledge, and wisdom**](/handbook/it/data-team/direction/#data-value-pyramid) to:
+**Analytics** is the practice of turning **data** into [**information, knowledge, and wisdom**](/handbook/marketing/data-team/direction/#data-value-pyramid) to:
 
 1. **Improve Efficiency & Avoid Costs**
     1. Human Capital - Location Factor, Offer Accept Rate, Cost Per Hire
@@ -59,12 +59,12 @@ At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-f
 
 ## Short Term Direction
 
-Our short term goal for `FY21-2H` is to move GitLab up the [**Data Capability Model**](/handbook/it/data-team/direction/#data-capability-model) from **Level (1) Reactive** to **Level (2) Advanced**.
+Our short term goal for `FY21-2H` is to move GitLab up the [**Data Capability Model**](/handbook/marketing/data-team/direction/#data-capability-model) from **Level (1) Reactive** to **Level (2) Advanced**.
 
 To do this, the Data Analytics team will be:
 
-- operating in [Data Fusion teams](/handbook/it/data-team/organization/#fusion-teams) towards the same business goals at the same pace
-- strengthening the [Data Analysis Process](/handbook/it/data-team/organization/analytics/#data-analysis-process)
+- operating in [Data Fusion teams](/handbook/marketing/data-team/organization/#fusion-teams) towards the same business goals at the same pace
+- strengthening the [Data Analysis Process](/handbook/marketing/data-team/organization/analytics/#data-analysis-process)
 - advancing GitLab's [Data Visualization](https://datavizcatalogue.com/) & [Data Storytelling](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#71f2f94852ad) skills
 
 ## Data Analysis Process
@@ -100,9 +100,9 @@ In the `Pre-Processing` step, Data Analyst prepare and cleanse the data and exam
 
 ### Modeling
 
-In the `Modeling` step, we aim to create new data models in the [Enterprise Dimensional Model](/handbook/it/data-team/platform/edw/) format for all GitLab team members. We start first with an **Entity Relationship Diagram (ERD)** to ensure that the new data structures reflect accurate business processes. All data models are reviewed by the [Data Platform Team](/handbook/it/data-team/organization/engineering/#data-platform-responsibilities).
+In the `Modeling` step, we aim to create new data models in the [Enterprise Dimensional Model](/handbook/marketing/data-team/platform/edw/) format for all GitLab team members. We start first with an **Entity Relationship Diagram (ERD)** to ensure that the new data structures reflect accurate business processes. All data models are reviewed by the [Data Platform Team](/handbook/marketing/data-team/organization/engineering/#data-platform-responsibilities).
 
-When GitLab reaches **Level (4) Predictive** of the [**Data Capability Model**](/handbook/it/data-team/direction/#data-capability-model), this step will include [Exploratory Data Analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis) and Data Feature Engineering, which should include supervised & unsupervised machine learning techniques.
+When GitLab reaches **Level (4) Predictive** of the [**Data Capability Model**](/handbook/marketing/data-team/direction/#data-capability-model), this step will include [Exploratory Data Analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis) and Data Feature Engineering, which should include supervised & unsupervised machine learning techniques.
 
 ### Presentation
 

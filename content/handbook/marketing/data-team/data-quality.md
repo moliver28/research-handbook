@@ -358,7 +358,7 @@ Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master
 
 ### Transformation Data Quality
 
-We use dbt for all transformations in the warehouse. [We require tests on all new dbt models](/handbook/it/data-team/#transformation) and regularly update tests as needed. These tests, as well as the extraction tests and checks, should be written in line with the data quality philosophy described above.
+We use dbt for all transformations in the warehouse. [We require tests on all new dbt models](/handbook/marketing/data-team/#transformation) and regularly update tests as needed. These tests, as well as the extraction tests and checks, should be written in line with the data quality philosophy described above.
 
 ### Data Quality Incidents Resulting in Permanently Lost Data
 

@@ -459,7 +459,7 @@ Some additional design tips that may help your workbook creation efficency.
 
 ### Add GitLab Colors
 
-You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/it/data-team/platform/tableau-style-guide/#standard-color-palette)
+You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/marketing/data-team/platform/tableau-style-guide/#standard-color-palette)
 
 ## Developer Tips and Tricks
 
@@ -467,6 +467,6 @@ A collection of tips and tricks to make the Tableau development experience faste
 
 1. You can duplicate a pill on any worksheet (column, row, or item on the Marks Card - 'pills' are either blue or green and they are the field you are using). Simply hold down command (cmd) and click an drag the blue or green pill, and instead of moving it, it will be duplicated.
 
-2. When you drag a field into the view for the first time, you can choose the aggregation/measure type by holding down the option key (Mac) as you drag and drop the field. For date fields, this will pop up a window asking about the date granularity (such as year, month, day, month/day/year). This saves time because the default option is 'Year', and you have to let the view load before changing the granularity. 
+2. When you drag a field into the view for the first time, you can choose the aggregation/measure type by holding down the option key (Mac) as you drag and drop the field. For date fields, this will pop up a window asking about the date granularity (such as year, month, day, month/day/year). This saves time because the default option is 'Year', and you have to let the view load before changing the granularity.
 
 This also works on non-measure fields. For example, if you hold option while dragging Opportunity Id into the view, it will give you the option to drop it as COUNT(Opportunity Id).

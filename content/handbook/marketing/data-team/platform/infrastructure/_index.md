@@ -10,6 +10,6 @@ title: "Data Infrastructure"
 
 - [Airflow](https://airflow.gitlabdata.com)
 - [Data Image Project](https://gitlab.com/gitlab-data/data-image)
-- [Monte Carlo](/handbook/it/data-team//platform/monte-carlo)
-- [Python Guide](/handbook/it/data-team//platform/python-guide)
-- [Snowflake Guide](/handbook/it/data-team//platform/snowflake)
+- [Monte Carlo](/handbook/marketing/data-team//platform/monte-carlo)
+- [Python Guide](/handbook/marketing/data-team//platform/python-guide)
+- [Snowflake Guide](/handbook/marketing/data-team//platform/snowflake)

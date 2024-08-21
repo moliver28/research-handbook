@@ -9,7 +9,7 @@ description: "Data Programs."
 
 Welcome to the **Data Programs** page. Here you'll find information about the various Data Programs around GitLab and those the Data Team supports, ranging from onboarding to day-to-day operations.
 
-- **[Data Slack Channels](/handbook/it/data-team/#data-slack-channels)**
+- **[Data Slack Channels](/handbook/marketing/data-team/#data-slack-channels)**
 - **Primary Data Slack Channel**: `#data`
 - **Data Lounge Channel**: `#data-lounge`
 
@@ -31,7 +31,7 @@ If you are onboarding to GitLab and will be working in the Data Program as an En
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Data Proof of Value Guide
 
-The Data Team performs Proof of Value Evaluations (PoVs) for all new technologies we are considering adding to the [Data Platform](/handbook/it/data-team/platform) or the broader [Technology stack](/handbook/business-technology/tech-stack-applications/). This Guide is intended to help you perform a PoV efficiently and with great results.
+The Data Team performs Proof of Value Evaluations (PoVs) for all new technologies we are considering adding to the [Data Platform](/handbook/marketing/data-team/platform) or the broader [Technology stack](/handbook/business-technology/tech-stack-applications/). This Guide is intended to help you perform a PoV efficiently and with great results.
 
 ### Phase 1: Calculate Value and Define Requirements
 
@@ -77,10 +77,10 @@ Evaluation Design is the most complex part of the PoV.
 
 | Program Name | Purpose |
 | :--- | :--- |
-| [Data Catalog](/handbook/it/data-team/data-catalog/) | Catalog of dashboards, data sets, and analytics projects |
-| [Data for Product Managers](/handbook/it/data-team/programs/data-for-product-managers/) | Information to help Product Managers |
+| [Data Catalog](/handbook/marketing/data-team/data-catalog/) | Catalog of dashboards, data sets, and analytics projects |
+| [Data for Product Managers](/handbook/marketing/data-team/programs/data-for-product-managers/) | Information to help Product Managers |
 | [Data for Product Analysis](/handbook/product/product-analysis/) | Information to help Product Analysts |
 | [Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
 | [Data for Marketing Analysts](/handbook/marketing/inbound-marketing/search-marketing/analytics/) | Information to help Marketing Analysts |
 | [Data for Sales Analysts](/handbook/sales/field-operations/sales-strategy/) | Information to help Sales Analysts |
-| [Data Triage](/handbook/it/data-team/how-we-work/triage/) | Daily process to ensure the data platform remains available for analytics. |
+| [Data Triage](/handbook/marketing/data-team/how-we-work/triage/) | Daily process to ensure the data platform remains available for analytics. |

@@ -6,25 +6,25 @@ This page is intended to help Product Managers at GitLab understand what data is
 
 ## How to Consume Data at GitLab
 
-The user-facing end of GitLab's data stack is comprised of our BI Tool, Tableau which is connected to our Snowflake data warehouse. The [Tableau handbook page](/handbook/it/data-team/platform/tableau/) of the data team handbook has general information about Tableau aimed for a wider GitLab audience.
+The user-facing end of GitLab's data stack is comprised of our BI Tool, Tableau which is connected to our Snowflake data warehouse. The [Tableau handbook page](/handbook/marketing/data-team/platform/tableau/) of the data team handbook has general information about Tableau aimed for a wider GitLab audience.
 
 ### Useful links for Product Managers
 
 Here are some useful links that we recommend for you to bookmark:
 
-- [Product Manager Toolkit](/handbook/it/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html)
-- [Data Catalog](/handbook/it/data-team/data-catalog)
+- [Product Manager Toolkit](/handbook/marketing/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html)
+- [Data Catalog](/handbook/marketing/data-team/data-catalog)
 - [DBT documentation](https://gitlab-data.gitlab.io/analytics/#!/overview) (where most of our models are documented)
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/service_ping/)
-- [Snowplow documentation](/handbook/it/data-team/platform/snowplow/)
+- [Snowplow documentation](/handbook/marketing/data-team/platform/snowplow/)
 - [Analytics Instrumentation Quick Links](https://about.gitlab.com/direction/analytics/analytics-instrumentation/#quick-links)
 - [Product Data Insights handbook](/handbook/product/product-analysis/)
 
 ### Getting Access
 
 - Everybody at GitLab should automatically have view access granted through Okta.
-- To create your own charts + dashboard, you'll need to have a Creator or Explorer license - you can read more about the Tableau license types [here](/handbook/it/data-team/platform/tableau/#capabilities). Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New+Access+Request) asking for the appropriate license type. These access requests can be assigned to a data team manager.
+- To create your own charts + dashboard, you'll need to have a Creator or Explorer license - you can read more about the Tableau license types [here](/handbook/marketing/data-team/platform/tableau/#capabilities). Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New+Access+Request) asking for the appropriate license type. These access requests can be assigned to a data team manager.
 
 ### The 2 basic building blocks in Tableau are charts and dashboards
 
@@ -36,25 +36,25 @@ Here are some useful links that we recommend for you to bookmark:
 
 - The data team uses a tool called [dbt](https://www.getdbt.com/) for our data transformation layer. A nice feature of dbt is dbt docs, which automatically creates documentation for all of the models in our schema. Our dbt docs instance can be found [here](https://gitlab-data.gitlab.io/analytics/#!/overview).
   - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
-  - ![''](/handbook/it/data-team/programs/data-for-product-managers/schemas.png)
+  - ![''](/handbook/marketing/data-team/programs/data-for-product-managers/schemas.png)
   - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
 
 #### How can I update or add more information to the dbt docs?
 
-You will need to locate the file you wish to update or create in the [gitlab-data analytics project](https://gitlab.com/gitlab-data/analytics). Please be sure to read and follow the [SQL style guide](/handbook/it/data-team/platform/sql-style-guide/) when creating the changes. If you wish to update only the descriptions or information about tables you will be looking for a `schema.yml` file. If you wish to actually change the structure of tables it will be a `*.sql` file.
+You will need to locate the file you wish to update or create in the [gitlab-data analytics project](https://gitlab.com/gitlab-data/analytics). Please be sure to read and follow the [SQL style guide](/handbook/marketing/data-team/platform/sql-style-guide/) when creating the changes. If you wish to update only the descriptions or information about tables you will be looking for a `schema.yml` file. If you wish to actually change the structure of tables it will be a `*.sql` file.
 
-Next, create a branch and then submit an MR using the `dbt Model Changes` template to the [gitlab-data analytics project](https://gitlab.com/gitlab-data/analytics). When creating your branch and MR please folow the [data team workflow](/handbook/it/data-team/how-we-work/#merge-request-workflow) and use the appropriate [data team labels](/handbook/it/data-team/how-we-work/#issue-labeling).
+Next, create a branch and then submit an MR using the `dbt Model Changes` template to the [gitlab-data analytics project](https://gitlab.com/gitlab-data/analytics). When creating your branch and MR please folow the [data team workflow](/handbook/marketing/data-team/how-we-work/#merge-request-workflow) and use the appropriate [data team labels](/handbook/marketing/data-team/how-we-work/#issue-labeling).
 
 #### How does data get into the warehouse?
 
-- Through a couple different ways which are detailed [here](/handbook/it/data-team/platform/#extract-and-load).
+- Through a couple different ways which are detailed [here](/handbook/marketing/data-team/platform/#extract-and-load).
 
 #### How can I get help?
 
 - If you ever get stuck or have a question, please ask for help in the #data slack channel and cross-post in your #g_, #s_, or #product channels. Many PMs have data related expertise and can provide you quick assistance for common product data questions.
 - Remember, it's helpful for us to know the context behind your question. Don't just say _what_ you want to know but also _why_ so others can point you to a more efficient way to get your answer.
 - This document is meant to serve as a guide of best practices. Please add what you learn when you need help to this content.
-- As a last resort, you may create an issue in the [data team project](https://gitlab.com/gitlab-data/analytics/issues/new) with the Product label and assign it to a [product data analyst](/handbook/it/data-team/#product). There are issue templates that are useful for specifying your request. The data team has limited bandwidth and is primarily focused on [improving self-serve capabilities](/handbook/it/data-team/direction/self-service/). When creating issues please ping your [Section Leader](/handbook/product/product-leadership/#product-leaders) on the issue to ensure it is prioritized appropriately within the data team.
+- As a last resort, you may create an issue in the [data team project](https://gitlab.com/gitlab-data/analytics/issues/new) with the Product label and assign it to a [product data analyst](/handbook/marketing/data-team/#product). There are issue templates that are useful for specifying your request. The data team has limited bandwidth and is primarily focused on [improving self-serve capabilities](/handbook/marketing/data-team/direction/self-service/). When creating issues please ping your [Section Leader](/handbook/product/product-leadership/#product-leaders) on the issue to ensure it is prioritized appropriately within the data team.
 
 ## Key Data Sources for Product Managers at GitLab
 
@@ -88,7 +88,7 @@ LIMIT 100
 Published data Tableau sources are great ways to allow Tableau users to build charts without writing any SQL or modeling. The data team has created several Published data Tableau sources that have the official badge. Any published data sources that are trusted data will have the [TD] prefix.
 
 We created several snippets that allow you to get quickly without any SQL writing some feature usage from the Service Pings data source.
-You can find details about those snippets on the [Product Manager Toolkit](/handbook/it/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html) handbook page.
+You can find details about those snippets on the [Product Manager Toolkit](/handbook/marketing/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html) handbook page.
 
 ### GitLab.com Postgres Database
 
@@ -136,7 +136,7 @@ To get started, use the [Snowplow event tracking template](https://gitlab.com/gi
 
 #### Snowplow structured event taxonomy
 
-Please read our [Snowplow Guide](/handbook/it/data-team/platform/snowplow/) for more information around the recommended taxonomy.
+Please read our [Snowplow Guide](/handbook/marketing/data-team/platform/snowplow/) for more information around the recommended taxonomy.
 
 #### Testing your events
 
@@ -149,7 +149,7 @@ Testing Snowplow events can be tricky. Snowplow doesn't have a proper testing in
 
 #### Visualize your events in Tableau
 
-The data you have instrumented is useful only if it can be visualized in a chart. Refer to the [Tableau section](/handbook/it/data-team/platform/tableau/) of the handbook for information on creating charts.
+The data you have instrumented is useful only if it can be visualized in a chart. Refer to the [Tableau section](/handbook/marketing/data-team/platform/tableau/) of the handbook for information on creating charts.
 
 - Check if they are correctly stored in Snowflake in the [Snowplow Event Exploration Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2294309). You can use the filters to find your events. If you are not sure of the value of the different attributes, they should have been captured in your issue using [Snowplow event tracking template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Snowplow%20event%20tracking.md). If not, check with your engineering manager.
 - Once you have verified that your events is properly stored. You are ready to query and visualize the data! Please be aware that we are collecting several millions of events (page views, structured events) per month, so the whole dataset is quite slow to query. In order to make  it easy to explore this data source we have created several smaller and more compact tables:
@@ -181,7 +181,7 @@ TODO
 ### Other data sources\*\*
 
 - **Sheetload**
-- You can load your own Google Sheets into the data warehouse. Read more [here](/handbook/it/data-team/platform/#using-sheetload).
+- You can load your own Google Sheets into the data warehouse. Read more [here](/handbook/marketing/data-team/platform/#using-sheetload).
 
 ## Analytics Instrumentation
 

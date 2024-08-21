@@ -88,8 +88,8 @@ Every MR follows the applicable MR template. When a MR is ready for review, assi
 Because of quality and [security](/handbook/security/gitlab_projects_baseline_requirements/#mr-approval-rule-configurations) we require every MR to be approved before merged with multiple Team Members involved. By default the CODEOWNER file sets that an approval is needed and by who. But if a file or folder is not present in the CODEOWNER file a MR still can be merged without approval or without other Team Members involvement. To enforce the following 2 settings must be applied on each project within the [GitLab-Data Group](https://gitlab.com/gitlab-data/).
 
 1. `Approvals required` = `1`
-[setting 1](/handbook/it/data-team//how-we-work/sett1.png)
+[setting 1](/handbook/marketing/data-team//how-we-work/sett1.png)
 2. `Prevent approval by author` is `TRUE`
-[setting 2](/handbook/it/data-team//how-we-work/sett2.png)
+[setting 2](/handbook/marketing/data-team//how-we-work/sett2.png)
 
 Note: The `Approvals required` project setting is also a workaround to make the CI variable `$CI_MERGE_REQUEST_APPROVED` work correctly, [see issue](https://gitlab.com/gitlab-data/analytics/-/issues/20383#note_1922395425) for more details.

@@ -38,7 +38,7 @@ graph
   - Modeling & Implementation Plan
   - Present Model Results and Insights to Stakeholders
 
-- For defintions of some of the terms used, please refer to [Common Data Science Terms](/handbook/it/data-team/organization/data-science/#common-data-science-terms). For definitions around sizing, please see [T-Shirt Sizing Approach](/handbook/it/data-team/how-we-work/planning/#t-shirt-sizing-approach).
+- For defintions of some of the terms used, please refer to [Common Data Science Terms](/handbook/marketing/data-team/organization/data-science/#common-data-science-terms). For definitions around sizing, please see [T-Shirt Sizing Approach](/handbook/marketing/data-team/how-we-work/planning/#t-shirt-sizing-approach).
 
 - **Create a new issue using the [Data Science Process Template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Project%20Process.md)**
 
@@ -230,7 +230,7 @@ In the project issue, document the following:
 
 - If you would like to use the Data Science Team model production process (see Phase 6), your code will need to be able to execute on the [data science jupyter container](https://gitlab.com/gitlab-data/data-science). Therefore, it is recommended that you use this container to train your model.
   - If your model requires packages that are not installed on the data-science repository, please raise an issue with the Data Science team, and we will add them.
-- The Data Science team has a number of tools and resources to assist you in this process. Visit the [Data Science Handbook page](/handbook/it/data-team/organization/data-science/#data-science-tools-at-gitlab) for additional information. These include:
+- The Data Science team has a number of tools and resources to assist you in this process. Visit the [Data Science Handbook page](/handbook/marketing/data-team/organization/data-science/#data-science-tools-at-gitlab) for additional information. These include:
   - Pre-Configured JupyterLab Container
   - gitlabds python toolset
   - Modeling Process Templates

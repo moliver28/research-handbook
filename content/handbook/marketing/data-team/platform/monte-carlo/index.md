@@ -7,7 +7,7 @@ description: "Monte Carlo (MC) is our Data Observability tool and helps us deliv
 
 [Monte Carlo](https://www.montecarlodata.com/) (MC) is our [Data Observability](https://www.montecarlodata.com/blog-what-is-data-observability/) tool and helps us **deliver better results more efficiently**.
 
-The Data Team default for observing the status of the data is using Monte Carlo. Creating any tests (called monitors in MonteCarlo) are done via the UI of Monte Carlo and reported according to the [notification strategy](/handbook/it/data-team//platform/monte-carlo/#notification-strategy). On another iteration in the near future we plan to implement [Monitors as Code](https://docs.getmontecarlo.com/docs/monitors-as-code) and these tests will also be version controlled. Currently dbt still used for existing tests, there is no roadmap in place to migrate these to Monte Carlo.
+The Data Team default for observing the status of the data is using Monte Carlo. Creating any tests (called monitors in MonteCarlo) are done via the UI of Monte Carlo and reported according to the [notification strategy](/handbook/marketing/data-team//platform/monte-carlo/#notification-strategy). On another iteration in the near future we plan to implement [Monitors as Code](https://docs.getmontecarlo.com/docs/monitors-as-code) and these tests will also be version controlled. Currently dbt still used for existing tests, there is no roadmap in place to migrate these to Monte Carlo.
 
 ## How We Operate Monte Carlo
 
@@ -15,7 +15,7 @@ We use the [#data-pipelines](https://gitlab.slack.com/archives/C0384JBNVDJ) Slac
 We are planning on using the [#data-analytics](https://gitlab.slack.com/archives/CBZD1BA5S) Slack channel in the near future for model related alerts, as soon as we have implemented the full notification strategy for Monte Carlo.
 This work is planned under this epic for F23Q3: [Onboard Analytics Engineers to the Monte Carlo Tool](https://gitlab.com/groups/gitlab-data/-/epics/615)
 
-Monte Carlo is an integral part of our [Daily Data Triage](/handbook/it/data-team//how-we-work/triage/) and will replace the [TD Trusted Data Dashboards](/handbook/it/data-team//platform/dbt-guide/#trusted-data-operations-dashboard).
+Monte Carlo is an integral part of our [Daily Data Triage](/handbook/marketing/data-team//how-we-work/triage/) and will replace the [TD Trusted Data Dashboards](/handbook/marketing/data-team//platform/dbt-guide/#trusted-data-operations-dashboard).
 
 ```mermaid
 graph TD
@@ -37,7 +37,7 @@ Login to Monte Carlo is done via Okta. Go to https://getmontecarlo.com/signin.
 The following screen appears upon login and after providing your email and clicking "Sign in with SSO", you should be redirected to your Okta login.
 Please note, you need to login via SSO and not via username/password.
 
-![image](/handbook/content/handbook/it/data-team//platform/monte-carlo/screenshot-1.png)
+![image](/handbook/content/handbook/marketing/data-team//platform/monte-carlo/screenshot-1.png)
 
 A runbook of how everything is technically set up can be found in the [Monte Carlo Runbook](https://gitlab.com/gitlab-com/business-technology/team-member-enablement/runbooks/-/wikis/IT-Runbooks/App-Setup/Monte-Carlo:-How-It's-Built).
 
@@ -49,7 +49,7 @@ For that you should submit an AR (similar ARs: [Example AR 1](https://gitlab.com
 
 Once logged in, you should be able to see the Monte Carlo Monitors dashboard with details on the objects being monitored and several custom monitors that have already been set up.
 
-![image](/handbook/content/handbook/it/data-team//platform/monte-carlo/screenshot-2.png)
+![image](/handbook/content/handbook/marketing/data-team//platform/monte-carlo/screenshot-2.png)
 
 You can create a new monitor or view existing monitor details, such as definition and schedule and any anomalies related to it.
 Alternatively, you can also list all the incidents by clicking on the Incidents menu item on the top menu bar, you can search for a specific model by querying the Catalog view or check Pipelines for a detailed lineage information on how the data flows from the source to the production model.
@@ -76,7 +76,7 @@ If you want to modify an existing monitor, depending on the type of monitor, you
 Currently, when we are getting notifications on different Slack channels, we can already triage the issue via Slack by assigning a status to it choosing from: `Fixed`, `Expected`, `Investigating`, `No action needed` and `False positive` (`No status` is a default status by MonteCarlo).
 Once we start investigating and we have a finding, if we write a comment on Slack in the same notification thread, that comment will automatically be added to the incident on Monte Carlo.
 
-Our goal is to be able to integrate Monte Carlo with GitLab so that whenever we get an alert on Slack, a triage issue would automatically be opened on GitLab and we'd follow the same [Data Triage procedure](/handbook/it/data-team//how-we-work/triage/) as usual.
+Our goal is to be able to integrate Monte Carlo with GitLab so that whenever we get an alert on Slack, a triage issue would automatically be opened on GitLab and we'd follow the same [Data Triage procedure](/handbook/marketing/data-team//how-we-work/triage/) as usual.
 
 There is detailed information including a video section in the official Monte Carlo documentation on [how to respond to an alert](https://docs.getmontecarlo.com/docs/explore-monte-carlo-incidents).
 
@@ -147,7 +147,7 @@ We have the availability to use [domains](https://vimeo.com/646676972) in our Mo
 
 In Monte Carlo UI in the top right corner there is a dropdown box available which you can select a particular domain or all domains.
 
-![image](/handbook/content/handbook/it/data-team//platform/monte-carlo/Screenshot_MC_domain.png)
+![image](/handbook/content/handbook/marketing/data-team//platform/monte-carlo/Screenshot_MC_domain.png)
 
 ## BI Integrations
 

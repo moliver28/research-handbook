@@ -188,7 +188,7 @@ This documentation was creating using RStudio version 2022.07.1.
 - Create an SSH key by following the instructions it/data-team/ the [Generate an SSH Key Pair](https://docs.gitlab.com/ee/user/ssh.html) section.
   - ED25519 is recommended
   - Once complete, add the private key path to the **SSH RSA Key** field
-  - ![Git-SVN](/handbook/it/data-team/platform/rstudio/Git1.png)
+  - ![Git-SVN](/handbook/marketing/data-team/platform/rstudio/Git1.png)
 - Configure Git by setting your **GitLab user name** and **GitLab email** in RStudio
   - To open the Git prompt go to **Tools** > **Shell** and enter the following:
     - `git config --global user.name 'yourGitHubUsername'`
@@ -199,13 +199,13 @@ This documentation was creating using RStudio version 2022.07.1.
 
 - To create a new project based on a remote Git repository:
   - Select **File** > **New Project** > **Version Control**
-  - ![Git-Project](/handbook/it/data-team/platform/rstudio/Git2.png)
+  - ![Git-Project](/handbook/marketing/data-team/platform/rstudio/Git2.png)
   - Choose **Git**, then provide the repository URL:
-    - ![Git-Repo](/handbook/it/data-team/platform/rstudio/Git3.png)
+    - ![Git-Repo](/handbook/marketing/data-team/platform/rstudio/Git3.png)
     - Access the GitLab project you want to clone
     - Select the **Clone** drop-down button at the top right
     - Copy the URL for **Clone with HTTPS**
-    - ![Git-Clone](/handbook/it/data-team/platform/rstudio/Git5.png)
+    - ![Git-Clone](/handbook/marketing/data-team/platform/rstudio/Git5.png)
     - Paste this link into the **Repository URL** section in RStudio
     - Select **Create New Project**
 - The GitLab Project should now be visible in R Studio
@@ -228,9 +228,9 @@ This documentation was creating using RStudio version 2022.07.1.
 ## How to Update a GitLab Project with Updates from R Studio
 
 - Before uploading changes made locally to a GitLab project ensure that you are working with the most current branch by selecting **Pull with Rebase** from the **Git** section in R (Ensure that you are rebasing from the **main** branch)
-  - ![Pull](/handbook/it/data-team/platform/rstudio/Pull.png)
+  - ![Pull](/handbook/marketing/data-team/platform/rstudio/Pull.png)
 - Once changes are complete and ready to be uploaded select the new branch icon and enter a name for the branch (no spaces allowed). Select **Create**
-  - ![Push](/handbook/it/data-team/platform/rstudio/Push.png)
+  - ![Push](/handbook/marketing/data-team/platform/rstudio/Push.png)
 - In the **Review Changes** window that opens in R ensure that changes on the left side of the screen are checked for **Staged** and that a commit message is entered on the right side of the screen.
 - Select **Commit**
 - In GitLab, navigate to the project you have made updates to. You should see a merge request that needs to be created and it will have the changes you made in R. Select the relevant reviewers and approvers to merge the changes.

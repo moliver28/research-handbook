@@ -45,15 +45,15 @@ If you wish to use dbt and contribute to the data team project, you'll need to g
 
 ### Local environment
 
-We use user-dedicated development databases and [virtual environments](/handbook/it/data-team/platform/dbt-guide/#venv-workflow) via [make](https://www.gnu.org/software/make/manual/make.html) recipes in order to facilitate a 'local' development environment for GitLab team members contributing to our dbt project(s)
+We use user-dedicated development databases and [virtual environments](/handbook/marketing/data-team/platform/dbt-guide/#venv-workflow) via [make](https://www.gnu.org/software/make/manual/make.html) recipes in order to facilitate a 'local' development environment for GitLab team members contributing to our dbt project(s)
 
 #### 'Local' User-Dedicated Development Databases
 
-When needed for team members we create local development databases corresponding to the snowflake user with `_PREP` and `_PROD` suffixes, corresponding to the `PREP` and `PROD` databases in snowflake. These will be targeted by our main dbt project when run within the local environment so that contributors can develop and test changes to our dbt project. More detail on our development process within our dbt project can be found on the [dbt Change Workflow page](/handbook/it/data-team/how-we-work/dbt-change-workflow/).
+When needed for team members we create local development databases corresponding to the snowflake user with `_PREP` and `_PROD` suffixes, corresponding to the `PREP` and `PROD` databases in snowflake. These will be targeted by our main dbt project when run within the local environment so that contributors can develop and test changes to our dbt project. More detail on our development process within our dbt project can be found on the [dbt Change Workflow page](/handbook/marketing/data-team/how-we-work/dbt-change-workflow/).
 
 Any data built within these development databases should be considered ephemeral as they're only to be used for local development. To ensure the optimal use of dbt, as well as appropriate security and compliace, these databases should be cleaned by the owning user regularly. [This Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) can be used to make that process quick and easy, and it's suggested to be run at the end or beginning of each development cycle. Additionaly, in order to ensure compliance with our data retention policies and procedures we will automatically drop all tables in development environments after **80 days** without alteration. This retention period is set within the dbt project with the `dev_db_object_expiration` variable and tables are deleted each weekend.
 
-Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/it/data-team/data-management/#snowflake-1). There is not [backup]/handbook/it/data-team/platform/#backups) process for development databases.
+Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/marketing/data-team/data-management/#snowflake-1). There is not [backup]/handbook/marketing/data-team/platform/#backups) process for development databases.
 
 #### Configuration
 
@@ -63,7 +63,7 @@ Note: Development databases are dropped as soon as the corresponding Team Member
 - In the `~/.dbt/` folder there should be a `profiles.yml`file that looks like this [sample profile](https://gitlab.com/gitlab-data/analytics/blob/master/admin/sample_profiles.yml)
 - The smallest possible warehouse should be stored as an environment variable. Our dbt jobs use `SNOWFLAKE_TRANSFORM_WAREHOUSE` as the variable name to identify the warehouse. The environment variable can be set in the `.bashrc` or `.zshrc` file as follows:
   - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="DEV_XS"`
-  - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/it/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
+  - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/marketing/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
 - Clone the [analytics project](https://gitlab.com/gitlab-data/analytics/)
 - If running on Linux:
   - Ensure you have [Rancher Desktop Installed](https://rancherdesktop.io/)
@@ -144,26 +144,26 @@ We use virtual environments for local dbt development because it ensures that ea
 
 #### Build Changes Locally
 
-To clone and build all of the changed models in the local development space the same `build_changes` process can be used that is used in the [CI Job](/handbook/it/data-team/platform/ci-jobs/#build_changes).  The primary difference is that instead of a `WAREHOUSE` variable the developer can pass a `TARGET` variable to use a target configured with a different warehouse size.  To run the process, run the `make build-changes` command from within the virtual environment.
+To clone and build all of the changed models in the local development space the same `build_changes` process can be used that is used in the [CI Job](/handbook/marketing/data-team/platform/ci-jobs/#build_changes).  The primary difference is that instead of a `WAREHOUSE` variable the developer can pass a `TARGET` variable to use a target configured with a different warehouse size.  To run the process, run the `make build-changes` command from within the virtual environment.
 
 ```console
  ~/repos/analytics/transform/snowflake-dbt
-╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model" 
+╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model"
 ```
 
 [Video Introduction](https://youtu.be/0WiljW6Bihw)
 
 #### SQLFluff linter
 
-We use SQLFluff to enforce [SQL style guide](/handbook/it/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
+We use SQLFluff to enforce [SQL style guide](/handbook/marketing/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
 
 ```console
 ~/repos/analytics/transform/snowflake-dbt
-╰─$ make lint-models 
+╰─$ make lint-models
 sqlfluff lint models/workspaces/workspace_data/mock/data_type_mock_table.sql
 
 ~/repos/analytics/transform/snowflake-dbt
-╰─$ make lint-models FIX="True" MODEL="dim_date"  
+╰─$ make lint-models FIX="True" MODEL="dim_date"
 sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
 ```
 
@@ -268,7 +268,7 @@ dbt specific:
     - `dbt run --models +folder.subfolder` - will run all models in the subfolder and all parents
 - `dbt run --full-refresh` - will refresh incremental models
 - [`dbt test`](https://docs.getdbt.com/reference/commands/test) - will run custom data tests and schema tests; TIP: `dbt test` takes the same `--model` and `--exclude` syntax referenced for `dbt run`
-- [`dbt seed`](https://docs.getdbt.com/reference/commands/seed) - will load csv files specified in the `data-paths` [directory](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt/data) into the data warehouse. Also see the [seeds section of this guide](/handbook/it/data-team/platform/dbt-guide/#seeds)
+- [`dbt seed`](https://docs.getdbt.com/reference/commands/seed) - will load csv files specified in the `data-paths` [directory](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt/data) into the data warehouse. Also see the [seeds section of this guide](/handbook/marketing/data-team/platform/dbt-guide/#seeds)
 - [`dbt compile`](https://docs.getdbt.com/reference/commands/compile) - compiles the templated code within the model(s) and outputs the result in the `target/` folder.
     This isn't a command you will need to run regularly as dbt will compile the models automatically when you to 'dbt run'.
     One common use-case is the compiled code can be run in Snowflake directly for debugging a model.
@@ -280,13 +280,13 @@ dbt specific:
 
 ### VSCode extension: dbt Power User
 
-[dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/it/data-team/platform/dbt-guide/#Venv-workflow).
+[dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/marketing/data-team/platform/dbt-guide/#Venv-workflow).
 
 Before we start, there are some settings to adjust in your VScode:
 
 - Go in Code > Settings > Settings…
   - Search for 'Python info visibility' > Set this setting as 'Always'
-  - In a terminal, run `make run-dbt` as described in the [Using dbt](/handbook/it/data-team/platform/dbt-guide/#using-dbt) section. Once it ran and the new shell spawned, run `echo $VIRTUAL_ENV`. Copy that value.
+  - In a terminal, run `make run-dbt` as described in the [Using dbt](/handbook/marketing/data-team/platform/dbt-guide/#using-dbt) section. Once it ran and the new shell spawned, run `echo $VIRTUAL_ENV`. Copy that value.
     - Search for 'venv path' in VScode settings.
     - Set this setting to the path that you copied last step, which should look like `/Users/<username>/Library/Caches/pypoetry/virtualenvs/` if you followed a standard installation. Remove the last part of the path `analytics-*******-py3.10` at the time of writing.
 - Open VScode in /analytics (File > Open Folder... or Workspace...)
@@ -552,7 +552,7 @@ In the sensitive model, the dbt macro [`nohash_sensitive_columns`](https://dbt.g
 
 All hashing includes a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) as well. These are specified via environment variables. There are different salts depending on the type of data. These are defined in the [`get_salt` macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.get_salt) and are also set when using the dbt container for local development.
 
-In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt.html). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/it/data-team/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
+In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt.html). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/marketing/data-team/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
 
 ##### Dynamic Masking
 
@@ -853,7 +853,7 @@ An exception to the grouping recommendation is when we control the extraction vi
 
 [Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags/) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
 
-Tags can be added in YAML files or in the config settings of any model. Review the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml) file for several examples of how tags are used. Specific examples of adding tags for the [Trusted Data Framework](/handbook/it/data-team/platform/dbt-guide/#tagging) are shown below.
+Tags can be added in YAML files or in the config settings of any model. Review the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml) file for several examples of how tags are used. Specific examples of adding tags for the [Trusted Data Framework](/handbook/marketing/data-team/platform/dbt-guide/#tagging) are shown below.
 
 Within the `analytics` and `data-tests` projects we enforce a Single Source of Truth for all tags. We use the [Valid Tags CSV](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/data/valid_tags.csv) to document which tags are used. Within merge requets, there is a validation step within every dbt CI job that will check this csv against all tags used in the project and fail the job if there is a mismatch. In the future, we aim to include more metadata about tags within this csv file.
 
@@ -904,7 +904,7 @@ With a sample table the developer creates a table that represents a sub set of t
 Workflow steps:
 
 - Clone the target sample tables
-  - Using a command such as [`clone-dbt-select-local-user`](/handbook/it/data-team/platform/dbt-guide/#cloning-into-local-user-db) ensure that there is a full data table to sample from.
+  - Using a command such as [`clone-dbt-select-local-user`](/handbook/marketing/data-team/platform/dbt-guide/#cloning-into-local-user-db) ensure that there is a full data table to sample from.
 - Configure the sample for each table to be created
   - Samples are configured in the `samples` macro in the `samples_yml` variable
 
@@ -978,11 +978,11 @@ For more details on how the macros used in sampling function see the following d
 
 ### Trusted Data Framework
 
-See the [Trusted Data Framework](/handbook/it/data-team/platform/#tdf) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
+See the [Trusted Data Framework](/handbook/marketing/data-team/platform/#tdf) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
 
 #### Schema To Golden Data Coverage
 
-We implement 12 categories of Trusted Data Framework (TDF) monitors and tests (monitors are created in and executed by [Monte-Carlo](/handbook/it/data-team/platform/monte-carlo/), tests are created with and executed by dbt):
+We implement 12 categories of Trusted Data Framework (TDF) monitors and tests (monitors are created in and executed by [Monte-Carlo](/handbook/marketing/data-team/platform/monte-carlo/), tests are created with and executed by dbt):
 
 1. `Freshness monitors` Monitor for unusual delays in table and field updates
 1. `Schema monitors` Monitor fields that are added, removed or changed
@@ -991,10 +991,10 @@ We implement 12 categories of Trusted Data Framework (TDF) monitors and tests (m
 1. `SQL rule monitor` Write a SQL statement to check for any expressable condition across 1 or more tables in your data.
 1. `JSON schema monitor` Monitor for schema changes in JSON data added to a table field.
 1. `Dimension tracking` Monitor for changes in the distribution of values within a low-cardinality table field.
-1. [Schema tests](/handbook/it/data-team/platform/dbt-guide/#schema-tests) to validate the integrity of a schema
-1. [Column Value tests](/handbook/it/data-team/platform/dbt-guide/#column-value-tests) to determine if the data value in a column matches pre-defined thresholds or literals
-1. [Rowcount tests](/handbook/it/data-team/platform/dbt-guide/#rowcount-tests) to determine if the number of rows in a table over a pre-defined period of time match pre-defined thresholds or literals
-1. [Custom SQL tests](/handbook/it/data-team/platform/dbt-guide/#custom-sql) any valid SQL that doesn't conform to the above categories
+1. [Schema tests](/handbook/marketing/data-team/platform/dbt-guide/#schema-tests) to validate the integrity of a schema
+1. [Column Value tests](/handbook/marketing/data-team/platform/dbt-guide/#column-value-tests) to determine if the data value in a column matches pre-defined thresholds or literals
+1. [Rowcount tests](/handbook/marketing/data-team/platform/dbt-guide/#rowcount-tests) to determine if the number of rows in a table over a pre-defined period of time match pre-defined thresholds or literals
+1. [Custom SQL tests](/handbook/marketing/data-team/platform/dbt-guide/#custom-sql) any valid SQL that doesn't conform to the above categories
 
 Our tests are stored in 2 primary places - either in a YAML file within our [main project](https://gitlab.com/gitlab-data/analytics) or within our [Data Tests](https://gitlab.com/gitlab-data/data-tests) project.
 
@@ -1184,7 +1184,7 @@ Any valid SQL can be written here and any dbt models or source tables can be ref
 
 There are a few scenarios to think about when adding or updating tests.
 
-The first scenario is modifying or adding a test in a YAML file within our main project. This follows our standard MR workflow and nothing is different. Run the [CI jobs](/handbook/it/data-team/platform/ci-jobs) as you normally would.
+The first scenario is modifying or adding a test in a YAML file within our main project. This follows our standard MR workflow and nothing is different. Run the [CI jobs](/handbook/marketing/data-team/platform/ci-jobs) as you normally would.
 
 The second scenario is adding any test or golden data records within the `data-tests` project against tables that are being updated or added via an MR in the `analytics` project. This is the most common scenario. In this case, no pipelines need to be executed in the `data-tests` project MR. The regular dbt pipelines in the `analytics` MR can be run and the only change is the branch name of the `data-tests` project needs to be passed to the job via the `DATA_TEST_BRANCH` environment variable.
 
@@ -1250,7 +1250,7 @@ Instead, each source table will have only one corresponding snapshot table, and 
 
 For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots).
 
-Take note of how we [talk about and define snapshots](/handbook/it/data-team/platform/#snapshots-definition).
+Take note of how we [talk about and define snapshots](/handbook/marketing/data-team/platform/#snapshots-definition).
 
 #### Create snapshot tables with `dbt snapshot`
 
@@ -1292,7 +1292,7 @@ While the DBT Snapshot tables are built directly over sources to capture changed
 1. A DBT Snapshot model captures changed records for a single table.
    - The single table being snapshotted may be a Source table or a table already being used for analysis.
    - A Snapshot table is defined with {% snapshot table_name %} in the configuration section of the model.
-   - The snapshot model has to be added to the `sources.yml` file to be recognized by other models.  This is further described in the [Make snapshots table available in prod database](/handbook/it/data-team/platform/dbt-guide/#make-snapshots-table-available-in-prod-database) section below.
+   - The snapshot model has to be added to the `sources.yml` file to be recognized by other models.  This is further described in the [Make snapshots table available in prod database](/handbook/marketing/data-team/platform/dbt-guide/#make-snapshots-table-available-in-prod-database) section below.
    - These tables have to be referenced as Source tables by other models because they are built in RAW.  ie. {{ source(location,name)}} syntax.
 2. DBT models built over snapshot tables include snapshot data and are used for historical analysis. Multiple snapshots may be joined and logic added to provide a historical view of fully built out derived dimensions.
 
@@ -1312,7 +1312,7 @@ DBT Snapshots, by default, are loaded incrementally. Records that have changed a
 
 **DBT Model built over Snapshots:**
 
-- [Building Models on top of snapshots](/handbook/it/data-team/platform/dbt-guide/#building-models-on-top-of-snapshots) is further defined below.
+- [Building Models on top of snapshots](/handbook/marketing/data-team/platform/dbt-guide/#building-models-on-top-of-snapshots) is further defined below.
 - DBT Snapshots are Source level data and are not queried directly for user analysis.  These tables may include the `dbt_valid_from` and `dbt_valid_to` columns to identify the `record version` which comes from the Dbt Snapshot table.
 - `date spining` is used to show the record value for any day in history.  Rows are included for all dates between dbt_valid_from and dbt_valid_to.  This allows for easy analysis and joins for particular dates.
 - These models may be configured as `incremental` because the underlying dbt snapshots are appended to and not modified.
@@ -1331,7 +1331,7 @@ Some basic features of Snapshot models are:
 
 **Snapshot Model Type Examples:**
 
-- Snapshot Methods used for ARR Data can be found [HERE](/handbook/it/data-team/data-catalog/finance-arr/)
+- Snapshot Methods used for ARR Data can be found [HERE](/handbook/marketing/data-team/data-catalog/finance-arr/)
 - Here are examples of snapshot models with the variation of features that help determine the type:
 
 | DBT Snapshot | Over Snapshot | Spined Dates | History ReBuild | Example                          |
@@ -1350,7 +1350,7 @@ dbt does a great job of handling schema changes in snapshots, but given the brea
 
 #### Testing Snapshots
 
-Testing of a snapshot can be done in a merge request using the [specify_snapshot](/handbook/it/data-team/platform/ci-jobs/#specify_snapshot) CI job.
+Testing of a snapshot can be done in a merge request using the [specify_snapshot](/handbook/marketing/data-team/platform/ci-jobs/#specify_snapshot) CI job.
 Engineers should test locally using Airflow, as the proper environment variables are handled based on the git branch.
 Testing should NOT be done while on the master branch.
 It is not recommended to test locally by setting the `SNOWFLAKE_SNAPSHOT_DATABASE` environment variable.
@@ -1369,7 +1369,7 @@ Specific to the second flavour, check when creating a new snapshot model or rena
 
 #### Make snapshots table available in prod database
 
-Once a snapshot is taken, it becomes, and should be treated as, a [data source](/handbook/it/data-team/platform/dbt-guide/#sources).
+Once a snapshot is taken, it becomes, and should be treated as, a [data source](/handbook/marketing/data-team/platform/dbt-guide/#sources).
 
 We currently follow the legacy method for generating models based on snapshots.
 This means we don't have source models.
@@ -1410,7 +1410,7 @@ To manually review the downstream impacts a change to a model may have use the a
 Models are dropped by removing files in your local IDE session and committing these changes to be run in the CI Pipes on the MR.  Snowflake tables in Production have to be removed separately by a DE.  This should be specified on the MR and communicated directly to the DE. Some tables may need to be retained as history, even though the Dbt Models are removed.
 Here is an [Example MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/6990) that shows Models being deprecated with some of the tables being retained in the database.
 
-## Model Efficiency 
+## Model Efficiency
 
 A model's efficiency is a measure of how well the model uses the Snowflake resources to produce the model. At this time, it is not a measure of the queries used as we have not found a way to procedurally and reliably quantify the actions taken within a query.  The efficiency score of a model can be determined for each model invocation and is a based on three numbers determined from the queries executed by the model.  The component numbers are intended to provide an insight into where to investigate when the overall number does not meet the intend targets.  These scores can be aggregated to show the overall efficiency of a grouping of models, such as a run or day.
 
@@ -1424,7 +1424,7 @@ For each model the queries executed are first filtered and aggregated. Only the 
 
 - Where \\(S_l\\) is the model Bytes Spilled to Local Storage
 - Where \\(E_l\\) is the model Local Storage Efficiency
-- Where \\(s\\) is the model Bytes Scanned 
+- Where \\(s\\) is the model Bytes Scanned
 
 The metric is calculated as the model bytes scanned less the model bytes spilled to local storage divided by the model bytes scanned and limited to values between 0 and 1.  This calculation allows for a number that is independent of other models but still comparable to other models.
 
@@ -1603,7 +1603,7 @@ Not all models need to be incremental due to the increased design complexity.
 #### Check never full refresh viability
 
 - Event stream data that does not change is a prime candidate for never full refreshing.
-- Check data source [guidelines from the handbook](/handbook/it/data-team/platform/infrastructure/#data-source-and-data-lineage-information-used-to-determine-full-refresh-policy).
+- Check data source [guidelines from the handbook](/handbook/marketing/data-team/platform/infrastructure/#data-source-and-data-lineage-information-used-to-determine-full-refresh-policy).
 
 #### Check Warehouse Size viability
 
