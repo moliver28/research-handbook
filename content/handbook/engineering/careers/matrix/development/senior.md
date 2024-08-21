@@ -15,7 +15,6 @@ title: "Development Department Career Framework: Senior"
 ### Senior Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
-{{% include "includes/engineering-careers/development-senior-leadership-competency.md" %}}
   
 ### Senior Technical Competencies
 

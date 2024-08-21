@@ -19,8 +19,6 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
 
-{{$ include "includes/engineering/development-senior-leadership-competency.md" %}}
-
 #### Distribution
 
 - Presents training or demos within their domain on a regular cadence.

@@ -19,7 +19,6 @@ title: "Dev Career Framework: Senior Backend Engineer"
 ### Senior Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
-{{% include "includes/engineering-careers/development-senior-leadership-competency.md" %}}
 
 - Leads technical architecture discussions and help drive technical decisions
 - Performs Code Reviews across multiple stages on a regular cadence

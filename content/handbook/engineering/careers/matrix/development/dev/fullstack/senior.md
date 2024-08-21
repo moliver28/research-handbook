@@ -17,7 +17,6 @@ title: "Dev Career Framework: Senior Fullstack Engineer"
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
-{{% include "includes/engineering-careers/development-senior-leadership-competency.md" %}}
 
 ### Technical Competencies
 
