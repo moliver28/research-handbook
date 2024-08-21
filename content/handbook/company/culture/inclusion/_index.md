@@ -102,7 +102,6 @@ Source: GitLab's People Analytics Team, WorkDay
 ## Diversity, Inclusion and Belonging Team
 
 - [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
-- [Marina Brownrigg](/handbook/company/team/#mbrownrigg) - Diversity, Inclusion and Belonging Partner
 - [Sherida McMullan](/handbook/company/team/#sheridam) - Vice President, Diversity, Inclusion and Belonging
 
 ## Request Needed or Want to Learn More?
