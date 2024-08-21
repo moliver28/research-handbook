@@ -105,7 +105,7 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [1:1 Dashboards - Accounts: COMM/ENTG APJ](https://gitlab.my.salesforce.com/01ZPL000001I5qH)   | 1:1 dashboard for accounts in the Commercial and Enterprise APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
-| [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Wh)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
+| [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01ZPL000001Mcm1)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
 | [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
 | [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
 | [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
