@@ -40,7 +40,7 @@ The following members of other functional teams are our stable counterparts, and
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "subashis">}}
 
 ### Projects
 
