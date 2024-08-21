@@ -312,7 +312,7 @@ In order to protect PII (Personally Identifiable Information), ensure that your 
 
 ### Frequently Asked Questions
 
-#### I'm a Product Manager and I'd like to use Dovetail to keep track of the calls I have with customers. Is that okay?
+#### I'm a Product Manager. Can I use Dovetail to keep track of the calls I have with customers?
 
 Yes! When creating a new project, please select the `Customer calls` template. In the ReadMe file, update the name of your project from `Customer calls` to something more recognisable. Continue to follow the steps outlined under the UX Research team's guide to documenting insights in Dovetail starting with [Importing raw data into Dovetail](/handbook/product/ux/dovetail/index.html#importing-raw-data-into-dovetail).
 

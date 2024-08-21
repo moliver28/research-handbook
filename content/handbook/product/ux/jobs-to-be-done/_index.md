@@ -151,7 +151,7 @@ Bad examples:
 - Find the best home quickly (Why? No verb indicating direction, ‘best’ is not specific enough to be useful.)
 - Have the most attractive house on the street (Why? No direction, ‘most attractive’ is not a good unit of measure.)
 
-### **Emotional and Social Aspects:** How does the Job Performer feel while doing the job? How do they want to be perceived while doing the job?
+### **Emotional/Social Aspects:** How does the Job Performer feel and want to be perceived?
 
 When considering the emotional and social aspects of the job, explore how the Job Performer feels and how they want to be perceived while doing the Main Job . These are sort of the ‘experiential’ side of the job, as opposed to the functional aspect of the job.
 
@@ -181,7 +181,7 @@ Good Social Aspect examples:
 
 These aspects can vary widely and provide insights into the Job Performer's emotional and social motivations and challenges, which can be crucial in determining how potential solutions ought to be delivered. For example, if a programmer is worried about appearing fast to his coworkers, we can design a solution that includes lots of time-saving features (code completion, AI summarization, other automatic actions, and so on).
 
-### **Job Differentiators:** What are the factors or conditions that make a difference in how the job gets done?
+### **Job Differentiators:** What factors influence how the job gets done?
 
 Job Differentiators are the factors or circumstances that influence how the job gets done. They often encompass time, manner, or place, among other characteristics. Job Differentiators are introduced with the word "if", indicate a range of options, and use "versus/vs." when applicable to show a comparison.
 
