@@ -17,9 +17,7 @@ canonical_path: "/company/culture/inclusion/neurodiversity-resources/"
 - [Neurodiversity as a competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage)
 - [ADHD in the workplace](https://www.webmd.com/add-adhd/adhd-in-the-workplace)
 - [Free neurodiversity peer mentorships](https://www.neurodiver-city.org/)
-- [Digital magazine with articles on ADD/ADHD including latest research](https://www.additudemag.com/)
 - [Youtube channel with significant amounts of information, interviews, and personal experiences relating to ADHD](https://www.youtube.com/c/HowtoADHD)
-
 - [The Autistic Life Resources Store](https://www.theautistic.life/shop?Collection=Worksheets)
 - Join the [#neurodiversity](https://gitlab.slack.com/archives/CQRDJ0TLN) Slack Channel for support & community with other GitLab Team Members or to learn more about the experiences of others
 - Join the [#bodydouble_friends](https://gitlab.slack.com/archives/C03EX45QPGB) Slack Channel to find others to participate in a ["body-doubling"](https://healthyadhd.com/body-doubling-for-adhd/) virtual work session that can help you begin projects or tasks with the support of another person as a "virtual-anchor" and accountability buddy. Use this channel to request a body double session with another GitLab Team Member which aligns with our value of [collaboration](/handbook/values/#collaboration) and [diversity, inclusion, and belonging](/handbook/values/#diversity-inclusion).
@@ -90,5 +88,4 @@ It is important to have a discussion with the team member regarding the best way
 
 ### References for more ideas
 
-- [Neurodiversity in the Workplace](https://askearn.org/topics/neurodiversity-in-the-workplace/#1557151728256-a74a15bb-64c5)
 - [Attention Deficit/ Hyperactivity Disorder (AD/HD)](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm)
