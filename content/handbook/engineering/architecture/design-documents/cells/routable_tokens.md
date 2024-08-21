@@ -144,7 +144,7 @@ that are required to be made Routable in Phase 4: Personal Access Token, CI Job 
 - The `<payload>` is `base64` encoded structured string that is line delimited.
 - Each line starts with a character indicating a type of value it describes.
 - The high entropy of a token is provided by required usage of `r:` param with a random string, so the token cannot be forged.
-- The `base64` encoding should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>-[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` to force the usage of the `[0-9a-zA-Z_-]` character set.
+- The `base64` encoding should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>-[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
 
 ### Pseudo code generation
 
@@ -228,7 +228,7 @@ decoding other payloads, like `JWT` tokens.
 ]
 ```
 
-#### HTTP Router support for JWT tokens
+#### HTTP Router support for JWT
 
 The [JWT](https://en.wikipedia.org/wiki/JSON_Web_Token) is built from 3 different dot separated base64 url encoded sections:
 JSON header, JSON payload and signature.
