@@ -214,29 +214,35 @@ It is critical to be intentional when organizing a self-service data environment
 
 At GitLab, we standardize the definition of 'first day of week' across all our systems to consistently use Sunday as the first day of the week. This standard applies to all data models, reports, and analyses within the Enterprise Data Warehouse.
 
-###### Key Points:
+###### Key Points
+
 - The week starts on Sunday and ends on Suturday.
 - This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter. (After setting the Snowflake `WEEK_START` parameter to 7 at account-level)
 - This standard is consistent with many functional analyst teams' practices.
 
-###### Rationale:
+###### Rationale
+
 1. **Consistency**: This standardization improves consistency in our reporting across different teams and systems.
 2. **Accuracy**: It prevents potential misreporting of metrics, especially as we increase our use of weekly reporting.
 3. **Alignment**: It aligns our practices with common business standards and the preferences of many of our functional teams.
 
-###### Implementation:
+###### Implementation
+
 - The `first_day_of_week` is calculated in the `date_details_source` model using the following logic:
+  
   ```sql
   CASE WHEN day_name = 'Sun' THEN date_day
        ELSE DATE_TRUNC('week', date_day)
   END AS first_day_of_week
   ```
+  
   - This field can be cascaded down to the downstream models through the `dim_date` model.
 - All date dimensions and related fields should use this definition of week.
 - When using `DATE_TRUNC('week', date)`, the result will automatically align with this standard.
 - Existing reports and dashboards should be updated to reflect this standard definition.
 
-###### Note for Analysts and Developers:
+###### Note for Analysts and Developers
+
 When working with weekly data, always ensure you're using this standard definition. If you encounter any discrepancies or have questions about implementing this standard in your work, please reach out to the Data team for assistance.
 
 ##### Additional Guidelines
