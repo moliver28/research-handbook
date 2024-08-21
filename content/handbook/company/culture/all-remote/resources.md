@@ -109,7 +109,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [YouTube: TFiR Interview - He Built A $1 Billion Open Source Company With No Headquarters: Sid Sijbrandij of GitLab](https://www.youtube.com/watch?v=ha4aMKl3MRA)
 - [Skills For Mars — Darren Murph On Transparency, Values & Leadership when All-Remote](https://youtu.be/g78mzVYjDY0)
 - [How to build and manage a distributed team - GitLab and Arch Systems](https://youtu.be/tSp5se9BudA)
-- [Building a distributed company](https://outklip.com/blog/gitlab-building-a-distributed-company/)
+- [Building a distributed company](https://web.archive.org/web/20230929130804/https://outklip.com/blog/gitlab-building-a-distributed-company/)
 - [Using video for effective collaboration for remote teams](https://youtu.be/6mZqzK_40FE)
 - [GitLab and Turtle's CEOs talk about running remote companies](https://youtu.be/-23DGyIMorE)
 - [Opening keynote from GitLab Contribute, 2019](https://youtu.be/kDfHy7cv96M?t=735)
@@ -156,7 +156,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [GitLab's secret to managing 160 employees in 160 locations - Interview by Y Combinator](https://blog.ycombinator.com/gitlab-distributed-startup/)
 - [GitLab's remote-only presentation, 2017](https://docs.google.com/presentation/d/1JHHYQvAhsudGz8QB8nqp5ScJjqyhPD3ehCoKOlZb7VE/edit#slide=id.g1d6fee80ee_0_348)
 - [Software Engineering Daily: GitLab with Sid Sijbrandij](https://softwareengineeringdaily.com/2019/03/15/gitlab-with-sid-sijbrandij/)
-- [Outklip Blog: Using Video for Remote Work: Q&A with GitLab CEO](https://outklip.com/blog/using-video-for-remote-work/)
+- [Outklip Blog: Using Video for Remote Work: Q&A with GitLab CEO](https://web.archive.org/web/20230929141545/https://outklip.com/blog/using-video-for-remote-work/)
 - [Arc Blog: Work Like Automattic, Buffer & GitLab - Remote Operations at Top Distributed Companies](https://arc.dev/blog/remote-operations-automattic-buffer-gitlab-9rihtsu120)
 
 ### Threads and conversations

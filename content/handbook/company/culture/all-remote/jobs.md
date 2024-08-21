@@ -45,7 +45,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Jamm](https://jamm.app/) Fully remote team building an app to help remote teams work better together.
 1. [Anybox](https://anybox.fr/), see their feedback (in French) [Télétravail généralisé, notre retour d'expérience](https://blog.anybox.fr/teletravail-generalise-confiance-et-seminaires/).
 1. [Screenly](https://www.screenly.io), this is [how they work](https://www.screenly.io/blog/2016/11/23/how-we-work-at-screenly/).
-1. [Soshace](https://soshace.com), see their [jobs page](https://soshace.com/careers).
+1. [Soshace](https://soshace.com), see their [jobs page](https://soshace.com/jobs-seekers/).
 1. [Innolitics](http://innolitics.com), see their [handbook](http://innolitics.com/about/handbook/) which describes how they work remotely.
 1. [IOpipe](https://iopipe.com)
 1. [HiringThing](https://www.hiringthing.com/), see their post about what it is like to work [remote-only](https://blog.hiringthing.com/what-its-like-to-work-at-hiringthing).

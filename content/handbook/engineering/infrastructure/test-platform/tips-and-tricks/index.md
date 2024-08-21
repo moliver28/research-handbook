@@ -204,7 +204,7 @@ To do so, follow these steps:
 1. SSH into the VM instance (using GCP's Web interface).
 1. Follow [the installation steps for auto-scaled runners manager](https://docs.gitlab.com/runner/executors/docker_machine.html#preparing-the-environment):
    1. [Install `gitlab-runner`](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner).
-   1. [Install Docker Machine](https://docs.docker.com/machine/install-machine/).
+   1. [Install Docker Machine](https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/install-machine/).
    1. [Register the runner](https://docs.gitlab.com/runner/register/#linux)
       1. Make sure to set a specific tag for the runner.
       1. Set `docker+machine` as the runner executor.

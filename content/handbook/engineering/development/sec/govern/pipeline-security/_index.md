@@ -10,7 +10,7 @@ We provide security in the software supply chain process, ensuring the right lev
 Our team is responsible for delivering on the following categories:
 
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
-- [Secrets Management](https://about.gitlab.com/direction/govern/secrets_management/)
+- [Secrets Management](https://about.gitlab.com/direction/govern/pipeline_security/secrets_management/)
 
 The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 

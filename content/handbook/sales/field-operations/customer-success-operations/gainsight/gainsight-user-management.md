@@ -92,7 +92,7 @@ Once you have confirmed the user has synced from Salesforce successfully, you wi
    - *(If applicable)* If the user is a PubSec CSM or leader, set the US PubSec User field to Yes.
    - *(If applicable)* From the main User Management page there will be a status next to the user's name. Occasionally the user is inactive, and you will need to click the ... menu and select Activate User
 6. Add the user to the Okta gainsight user group:
-   1. Navigate to https://groups.google.com/ (you must be a groups.google.com admin any groups to appear).
+   1. Navigate to <https://groups.google.com/> (you must be a groups.google.com admin any groups to appear).
    2. Go to the okta-gainsight-users group
    3. Go to Members, then Add Members and use the new user's email address to add them to the group. Once they have been added successfully, they will see a Gainsight tile in Okta (this may take some time to appear).
 

@@ -54,7 +54,7 @@ One potential downside for all-remote teams is having timely and adequate access
 
 {{< youtube "ejlb9tPzjZs?start=1510" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab team members discuss the challenges and reasoning behind intentional documentation with Miki and Sandra from [Job Portraits](https://www.jobportraits.com).*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab team members discuss the challenges and reasoning behind intentional documentation with Miki and Sandra from Job Portraits.*
 
 Learning involves much more than comprehending what's necessary to complete a job. In fact, we hope candidates aspire to learn about GitLab's [history]({{< ref "history" >}}), [all-remote culture](/handbook/company/culture/), and [values](/handbook/values/) prior to joining the company.
 

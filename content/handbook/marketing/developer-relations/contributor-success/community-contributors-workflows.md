@@ -21,7 +21,7 @@ See the [partial issue triage checklist](/handbook/engineering/infrastructure/en
 
 ## Merge Requests
 
-Wider community merge requests are MRs opened by a person that's not present on https://about.gitlab.com/company/team/ (excluding any bot, service account users or individual contractors).
+Wider community merge requests are MRs opened by a person that's not present on <https://about.gitlab.com/company/team/> (excluding any bot, service account users or individual contractors).
 
 ### Labels
 

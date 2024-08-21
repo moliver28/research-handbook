@@ -47,7 +47,7 @@ Particularly in a company where [results](/handbook/values/#results) are valued 
 
 Though it sounds counter to conventional wisdom, clarity comes through time away from work. Just as a human must inhale and exhale to survive, one cannot expect to remain healthy and productive if only inhaling more work.
 
-As John Fitch describes in the book [Time Off](https://www.timeoffbook.com), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
+As John Fitch describes in the book [Time Off](https://maxfrenzel.com/time-off), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
 
 1. Preparation
 1. Incubation

@@ -457,7 +457,7 @@ Not at this time. All content must be manually added to Highspot via designated 
 
 **Is it possible to see the speaker notes when viewing a Google Slide?**
 
-This is not a Highspot capability at this time due to limitations with Google's API. The Highspot team is aware that this is a needed feature and are hoping to offer it soon. In addition to speaker notes, there are other limitations to Google Slides in Highspot that include supporting gifs or slide animations as well as skipped slides. This means that animations will not display and skipped slides will show by default in Highspot or when sharing with a customer. Please take this into consideration when building slide content for Highspot.
+This is not a Highspot capability at this time due to limitations with Google's API. The Highspot team is aware that this is a needed feature and are hoping to offer it soon. In addition to speaker notes, there are other limitations to Google Slides in Highspot that include supporting GIFs or slide animations as well as skipped slides. This means that animations will not display and skipped slides will show by default in Highspot or when sharing with a customer. Please take this into consideration when building slide content for Highspot.
 
 **How does Highspot differ from the Handbook?**
 

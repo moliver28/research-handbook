@@ -214,7 +214,7 @@ The [default branch](https://docs.gitlab.com/ee/user/project/repository/branches
 
 ## 17. Environment Branching strategies
 
-It might be a good idea to have an [environment](https://docs.gitlab.com/ee/topics/gitlab_flow.html#environment-branches-with-gitlab-flow) that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
+It might be a good idea to have an [environment](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/) that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
 
 ![GitLab Flow](gitlab-flow.png){width="356" height="340"}
 

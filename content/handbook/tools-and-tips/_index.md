@@ -24,7 +24,7 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 #### STEP 1: Request your new username
 
 - Access the username you want to request via `https://gitlab.com/mary`.
-- Check its activity and projects to see if they are an inactive user [according to the name squatting policy]({{< ref "namesquatting_policy" >}}).
+- Check its activity and projects to see if they are an inactive user [according to the name squatting policy](/handbook/support/workflows/namesquatting_policy/).
 - There's no guarantee that the username will be available for you.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
@@ -155,13 +155,13 @@ The documentation for the site itself is in markdown documents under the
 [doc/development.md](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/development.md)
 is probably the best place to start.
 
-## Image and gif tips
+## Image and GIF tips
 
 Many of the tips shown in this section require ImageMagick, an image manipulation tool. The installation is described in the [ImageMagick section](#imagemagick).
 
 ### ImageMagick
 
-[ImageMagick](https://imagemagick.org/) provides the `convert` CLI command which can be used to resize images, add drop shadows, edit gifs, etc.
+[ImageMagick](https://imagemagick.org/) provides the `convert` CLI command which can be used to resize images, add drop shadows, edit GIFs, etc.
 
 On macOS, install ImageMagick with Homebrew:
 
@@ -176,7 +176,7 @@ sudo dnf install ImageMagick
 sudo apt install imagemagick
 ```
 
-### Creating gifs
+### Creating GIFs
 
 We have a [dedicated section](/handbook/product/making-gifs) for that in the handbook.
 
@@ -365,7 +365,7 @@ Team member dotfiles projects:
 - [Michael Friedrich's dotfiles](https://gitlab.com/dnsmichi/dotfiles), more details in [this blog post](https://about.gitlab.com/blog/2020/04/17/dotfiles-document-and-automate-your-macbook-setup/)
 - [Brendan O'Leary's dotfiles](https://gitlab.com/brendan/dotfiles)
 
-## Travelling
+## Traveling
 
 ### Long haul flights
 
@@ -373,7 +373,7 @@ Note: you have to pay for these items yourself.
 
 - [Quiet comfort 35 Bose over ear noise canceling headphones](https://www.bose.com/p/headphones/bose-quietcomfort-45-headphones/QC45-HEADPHONEARN.html) (so it doesn't touch your dried out eyes)
 - Custom molded ear plugs (can be up to $200 hearing aid store but are usable in many situations, there are also [DYI kits](https://www.amazon.com/Radians-CEP001-Custom-Molded-Earplugs/dp/B003A28P4I) but Sid has not tried that)
-- [Melatonin](https://www.webmd.com/vitamins-supplements/ingredientmono-940-melatonin.aspx?activeingredientid=940) (possible unsafe during pregnancy and breast-feeding)
+- Melatonin (possible unsafe during pregnancy and breast-feeding)
 - Sleeping pills (over the counter is fine)
 
 ### WorkFrom

@@ -583,7 +583,7 @@ docker-machine create \
 --driver virtualbox $ENV_NAME
 ```
 
-- Resource: [https://docs.docker.com/machine/drivers/virtualbox/](https://docs.docker.com/machine/drivers/virtualbox/)
+- Resource: [https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/drivers/virtualbox/](https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/drivers/virtualbox/)
 
 ### Creating GitLab test instance with docker machine
 
@@ -682,8 +682,8 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 #### Resources
 
 - <https://docs.gitlab.com/ee/install/docker.html>
-- <https://docs.docker.com/machine/get-started/>
-- <https://docs.docker.com/machine/reference/ip/>
+- <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
+- <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 
 ## Windows
 

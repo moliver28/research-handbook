@@ -324,7 +324,7 @@ sustainability strategy and programs. This includes creating and managing
 ESG disclosures and public ESG reports, identifying and prioritizing key
 issues to advance GitLab's social and environmental goals, and creating
 partnerships with nonprofit organizations that support GitLab's values
-and mission. [Read GitLab's FY23 ESG report for more information](http://about.gitlab.com/environment-social-governance).
+and mission. [Read GitLab's FY23 ESG report for more information](https://about.gitlab.com/environmental-social-governance/).
 
 #### Partnerships
 

@@ -27,7 +27,7 @@ factors:
 
 ### Exit Criteria
 
-1. CSS utilities are generated with Tailwind: https://docs.gitlab.com/ee/architecture/blueprints/tailwindcss/.
+1. CSS utilities are generated with Tailwind: <https://docs.gitlab.com/ee/architecture/blueprints/tailwindcss/>.
     1. They strictly enforce Pajamas specifications through the use of design tokens.
     1. Color utilities support dark theme overrides.
     1. Any necessary migrations have been completed: https://gitlab.com/groups/gitlab-org/-/epics/12108.

@@ -139,7 +139,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-secret-detection`
 - GitLab.com label: ~"Category:Code Quality"
-- Docs: https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html
+- Docs: https://docs.gitlab.com/ee/ci/testing/code_quality.html
 - CI/CD Template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
 - GitLab Code Quality Analyzer Codebase: https://gitlab.com/gitlab-org/ci-cd/codequality
 

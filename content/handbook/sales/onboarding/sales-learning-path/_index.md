@@ -205,7 +205,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
    -This module includes information to help you learn GitLab, and walks you through Projects, Issues, Merge Requests, Pipelines, Settings, User & Admin Area. It includes the Git Basics Training commonly delivered to customers by Professional Services and documentation to help you feel more comfortable with using GitLab.
    -[Learning GitLab with Git Basics](https://gitlab-training.gitlab.io/basics/deck/both.html#/1)
    -[GitLab Basics Guides](https://docs.gitlab.com/ee/tutorials/)
-   -[Introduction to GitLab Workflow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+   -[Introduction to GitLab Workflow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
    -[Description Templates](https://gitlab.com/help/user/project/description_templates)
 - **GitLab Tech Stack Details (Material - Handbook - 10 Minutes)**
   - Take a look to understand all the [tools that GitLab uses](/handbook/business-technology/tech-stack/) to keep the business running smoothly.

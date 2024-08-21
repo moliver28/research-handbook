@@ -24,7 +24,7 @@ Individual Not Authorized to Sign on Behalf of Company. IF THE INDIVIDUAL ACCEPT
 
 "Improvements" means all modifications and derivative works to Pre-Existing Works resulting from the Professional Services contemplated by this Agreement.
 
-"Order Form" is a transactional document that includes a description of the Professional Services being purchased, the applicable Fees, payment terms and other transaction details, and where no SOW is contemplated, the Order Form will include a predefined scope, level of effort and deliverables as set forth at https://about.gitlab.com/services/catalog/ and sold on either a time and materials basis for specified rates or for a fixed fee as applicable.
+"Order Form" is a transactional document that includes a description of the Professional Services being purchased, the applicable Fees, payment terms and other transaction details, and where no SOW is contemplated, the Order Form will include a predefined scope, level of effort and deliverables as set forth at <https://about.gitlab.com/services/catalog/> and sold on either a time and materials basis for specified rates or for a fixed fee as applicable.
 
 "Pre-Existing Work" means all rights, title and interest in and to a party's technology and Confidential Information, including all intellectual property rights imbued to a party as of the Effective Date of this Agreement, or as applicable, the effective date of any SOW or Order Form.
 
@@ -32,7 +32,7 @@ Individual Not Authorized to Sign on Behalf of Company. IF THE INDIVIDUAL ACCEPT
 
 "SOW" means a written statement of work executed by GitLab and Customer describing Professional Services to be provided hereunder setting forth the time and materials-based objectives (unless otherwise stated as a fixed-fee) including, without limitation, project-specific activities and estimated level of effort.  An SOW may be entered into, or incorporated within an Order Form, by and between Customer and GitLab, any GitLab Affiliate, or an Authorized Partner.
 
-"Subscription Agreement" means the separate agreement available here: https://about.gitlab.com/terms/ as between GitLab and Customer governing the parties' rights and obligations with respect to the Subscription Products.
+"Subscription Agreement" means the separate agreement available here: <https://about.gitlab.com/terms/> as between GitLab and Customer governing the parties' rights and obligations with respect to the Subscription Products.
 
 "Subscription Products" means software, and other branded offerings made available by GitLab or its Affiliate(s), including but not limited to, GitLab's "DevOps Lifecycle Application Platform" offered as self-managed Software or as hosted SaaS Software and as more fully described and defined in GitLab's Subscription Agreement. Notwithstanding the foregoing, all Professional Services purchased under an Order Form as referenced herein are purchased separately from the Subscription Products and all references to "Order Form" herein shall not apply in any way to any Subscription Products, including without limitation, with respect to payment obligations and termination rights.
 
