@@ -192,8 +192,8 @@
 /job-families/product/program-manager/ /job-families/product/technical-program-manager/ 301
 
 # Moved pages - remove 2024-11-20
-/handbook/business-technology/data-team/ /handbook/it/data-team/ 301
-/handbook/business-technology/data-team/* /handbook/it/data-team/:splat 301
+/handbook/business-technology/data-team/ /handbook/enterprise-data/ 301
+/handbook/business-technology/data-team/* /handbook/enterprise-data/:splat 301
 /handbook/business-technology/end-user-services/ /handbook/it/end-user-services/ 301
 /handbook/business-technology/end-user-services/* /handbook/it/end-user-services/:splat 301
 /handbook/business-technology/enterprise-applications/quote-to-cash/ /handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/ 301

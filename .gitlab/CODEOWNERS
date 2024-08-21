@@ -275,6 +275,9 @@
 /content/handbook/engineering/readmes/sean-carroll.md @sean_carroll
 /content/handbook/engineering/readmes/thong-kuah.md @tkuah
 
+^[enterprise-data]
+/content/handbook/enterprise-data/ @amiebright
+
 ^[entity]
 /content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
 
@@ -302,7 +305,6 @@
 
 ^[it]
 /content/handbook/it/ @NabithaRao
-/content/handbook/it/data-team/ @amiebright
 
 ^[legal]
 /content/handbook/company/esg.md @robin @slcline

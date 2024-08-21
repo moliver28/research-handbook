@@ -229,6 +229,8 @@
           url: /handbook/marketing/brand-and-product-marketing/design
         - name: Content
           url: /handbook/marketing/brand-and-product-marketing/content
+    - name: Enterprise Data
+      url: /handbook/enterprise-data/
     - name: Integrated Marketing
       url: /handbook/marketing/integrated-marketing
       links:
@@ -361,11 +363,9 @@
   - name: Product Development Timeline
     url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers
-    url: /handbook/it/data-team/programs/data-for-product-managers
+    url: /handbook/enterprise-data/programs/data-for-product-managers
   - name: Product Pricing Model
     url: /handbook/company/pricing
-  - name: Data analysis
-    url: /handbook/it/data-team/
   - name: Corporate Development / Acquisitions
     url: /handbook/acquisitions
   - name: UX Department
