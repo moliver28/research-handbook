@@ -4,7 +4,7 @@ title: Elevate+ Round 3 Pilot - FY25 Q3
 
 Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
-**This page outlines the updated format of Elevate+, for particpants starting mid-September in our pilot program.**
+**This page outlines the updated format of Elevate+, for particpants starting mid-September in our pilot program. Enrollment is currently open for Directors and Senior Directors. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSemDp8r_K1QiuV6x5Vue1uEV4qvrrLyrM3fxPfMky-UM2EUAA/viewform?usp=sf_link).**
 
 Through interactive workshops, 1:1 coaching, self-paced learning, and small group connections, Elevate+ enables senior leaders at GitLab to better understand and practice behaviors anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
