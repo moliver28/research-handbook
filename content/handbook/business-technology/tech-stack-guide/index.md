@@ -191,7 +191,7 @@ CustomersDot data to Zuora via [IronBank GEM](https://gitlab.com/gitlab-org/cust
 
 #### Zuora to Snowflake
 
-Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data//platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
+Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
 
 #### Zuora to NetSuite
 

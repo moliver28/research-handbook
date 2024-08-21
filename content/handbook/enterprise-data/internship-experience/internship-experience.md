@@ -10,4 +10,4 @@ This page is created to share the internship experience with various teams withi
 
 ## Internship Experience
 
-* [Lessons from the Trenches: Insights from an SRE Internship](/handbook/enterprise-data//internship-experience/lessons-from-the-trenches-ved-prakash.md)
+* [Lessons from the Trenches: Insights from an SRE Internship](/handbook/enterprise-data/internship-experience/lessons-from-the-trenches-ved-prakash.md)

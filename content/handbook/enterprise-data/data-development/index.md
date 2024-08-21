@@ -5,7 +5,7 @@ description: "This page defines the Data Development lifecycle"
 
 ## Data Development at GitLab
 
-GitLab deploys two distinct but interrelated approaches to build data solutions that help drive insights and business decisions. These approaches are complementary to one another and are focused on delivering results at a level of speed, quality, and reliability required by the business, problem being solved, and question being asked. The approaches are complementary and evolutionary in nature, enabling development in an earlier stage to be leveraged in a later stage if required. Data solutions developed at an early stage can be improved and enhanced to a later stage if there is sufficient business need to do so. All analysis follows the well-established [Data Analysis Process](/handbook/enterprise-data//organization/analytics/#data-analysis-process).
+GitLab deploys two distinct but interrelated approaches to build data solutions that help drive insights and business decisions. These approaches are complementary to one another and are focused on delivering results at a level of speed, quality, and reliability required by the business, problem being solved, and question being asked. The approaches are complementary and evolutionary in nature, enabling development in an earlier stage to be leveraged in a later stage if required. Data solutions developed at an early stage can be improved and enhanced to a later stage if there is sufficient business need to do so. All analysis follows the well-established [Data Analysis Process](/handbook/enterprise-data/organization/analytics/#data-analysis-process).
 
 The two approaches are `Ad-Hoc` and `Trusted Data`. `Ad-hoc` development is done in the `WORKSPACE` schemas in Snowflake and in the `Ad-hoc` folders in Tableau. `Trusted Data` development is done in the `COMMON` and `SPECIFIC` schemas in Snowflake and in the `Trusted Data` folders in Tableau.
 
@@ -14,12 +14,12 @@ The two approaches are `Ad-Hoc` and `Trusted Data`. `Ad-hoc` development is done
 | When To Use | **Prototyping / Directional / Urgent Analysis** | **Mission Critical Analysis / Operational Analysis**  |
 | Manual adding data | optional | N/A |
 | Creating own data structures | optional |  N/A |
-| Visualization using [Tableau](/handbook/enterprise-data//platform/tableau/) | optional | **required** |
-| Built Using the [Enterprise Dimensional Model](/handbook/enterprise-data//platform/edw) | optional | optional |
+| Visualization using [Tableau](/handbook/enterprise-data/platform/tableau/) | optional | **required** |
+| Built Using the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw) | optional | optional |
 | Built Using Data from the `COMMON` or `SPECIFIC` schemas | optional | **required** |
-| Registered in the [Data Catalog](/handbook/enterprise-data//data-catalog/) | N/A | **required** |
-| Follows [Trusted Data Development](/handbook/enterprise-data//data-development/#trusted-data-development) process | N/A | **required** |
-| Tested using the [Trusted Data Framework](/handbook/enterprise-data//platform/#tdf) | N/A | **required** |
+| Registered in the [Data Catalog](/handbook/enterprise-data/data-catalog/) | N/A | **required** |
+| Follows [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) process | N/A | **required** |
+| Tested using the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf) | N/A | **required** |
 | Auditable w/linkage to source systems | N/A | **required** |
 | `Trusted Data Branded` |  N/A | **required** |
 
@@ -51,9 +51,9 @@ All Trusted Data solutions must meet the following criteria:
 1. Scope is defined for v1.0 and v1.1, with a release cycle established up-front (e.g. weekly, bi-weekly, monthly)
 1. A Dashboard Wireframe is created in Lucid or Sisense and shared with users, iterating to "final draft"
 1. If a Dimensional Data Model solution is indicated, then the Dimensional Data Model is designed and integrated into the [Enterprise Dimensional Model Bus Matrix](https://docs.google.com/spreadsheets/d/1j3lHKR29AT1dH_jWeqEwjeO81RAXUfXauIfbZbX_2ME/edit#gid=742713121). This step is not applicable for data modeled in the `SPECIFIC` application schema.
-1. (`DRAFT: Under review with Monte Carlo Project`) [Trusted Data Tests](/handbook/enterprise-data//platform/dbt-guide/#trusted-data-framework) are created and deployed
+1. (`DRAFT: Under review with Monte Carlo Project`) [Trusted Data Tests](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework) are created and deployed
 1. The solution enters a User Acceptance Testing phase, including data validations to source systems
-1. The solution is registered in the [Data Catalog](/handbook/enterprise-data//data-catalog/)
+1. The solution is registered in the [Data Catalog](/handbook/enterprise-data/data-catalog/)
 1. The solution is deployed, including any required training and user enablement
 
 ## Database Implementation

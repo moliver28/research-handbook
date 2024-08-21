@@ -139,12 +139,12 @@ For issue triaging, the triager should add the appropriate labels to the issue t
 The Triager:
 
 - is not expected to know the answer to all the questions
-- should cc (mention) other team members who are subject matter experts (SME) or [functional DRIs](/handbook/enterprise-data//#-team-organization) for their feedback
+- should cc (mention) other team members who are subject matter experts (SME) or [functional DRIs](/handbook/enterprise-data/#-team-organization) for their feedback
 - should document any issues stumbled upon and help to disseminate knowledge amongst all team members
 
 The Central Data Team triager will create [an issue in the Data Team project](https://gitlab.com/gitlab-data/analytics/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=&issuable_template=Data%20Triage). Task and duties are stated in the issue template.
 
-[Read](/handbook/enterprise-data//how-we-work/triage/) the FAQ and common issues.
+[Read](/handbook/enterprise-data/how-we-work/triage/) the FAQ and common issues.
 
 ### Incident
 
@@ -168,9 +168,9 @@ This means the following events (not extensive) are likely to be incidents:
 
 #### Severity
 
-Depending on the nature and impact of the [incident](/handbook/enterprise-data//how-we-work/#incidents) a severity needs to be determined. Currently we don't have a decision matrix in place. To determine the severity, take the following aspects into consideration:
+Depending on the nature and impact of the [incident](/handbook/enterprise-data/how-we-work/#incidents) a severity needs to be determined. Currently we don't have a decision matrix in place. To determine the severity, take the following aspects into consideration:
 
-- In case of a data source or data pipeline incident, check the [Data Source Tier](/handbook/enterprise-data//platform/#data-sources).
+- In case of a data source or data pipeline incident, check the [Data Source Tier](/handbook/enterprise-data/platform/#data-sources).
 - Number of users impacted
 - Impacting Trusted Data models
 
@@ -321,7 +321,7 @@ Follow the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Gitlab_
 
 ### Automated service ping issue
 
-In a situation when [Service ping](/handbook/enterprise-data//data-catalog/saas-service-ping-automation/#service-ping-overview) fail while it generates metrics, we should be informed either via `Trusted data dashboard` or `Airflow` log - generally, the error log is stored in `RAW.SAAS_USAGE_PING.INSTANCE_SQL_ERRORS` table. Follow the instructions from the link [error-handling-for-sql-based-service-ping](/handbook/enterprise-data//data-catalog/saas-service-ping-automation/#error-handling-for-sql-based-service-ping) in order to fix the issue.
+In a situation when [Service ping](/handbook/enterprise-data/data-catalog/saas-service-ping-automation/#service-ping-overview) fail while it generates metrics, we should be informed either via `Trusted data dashboard` or `Airflow` log - generally, the error log is stored in `RAW.SAAS_USAGE_PING.INSTANCE_SQL_ERRORS` table. Follow the instructions from the link [error-handling-for-sql-based-service-ping](/handbook/enterprise-data/data-catalog/saas-service-ping-automation/#error-handling-for-sql-based-service-ping) in order to fix the issue.
 
 ### Zuora Stitch Integration single or set of table-level reset
 
@@ -428,7 +428,7 @@ When got an error for model `version_usage_data_unpacked` and error looks like:
 
 The root cause of this issue is when new metrics are introduced in an upstream model - and this model (along with model `version_usage_data_unpacked_intermediate`) try to pivot values to columns. Without full refresh, this will not happen under the pipeline.
 
-Full refresh required as per instructions from [dbt models full refresh](/handbook/enterprise-data//platform/infrastructure/#dbt-models-full-refresh).
+Full refresh required as per instructions from [dbt models full refresh](/handbook/enterprise-data/platform/infrastructure/#dbt-models-full-refresh).
 
 An example for this failure is the issue: **[#11524 (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/11524)**
 
@@ -504,7 +504,7 @@ It includes all the failures since the last person did sign off and will create 
 If any data pipeline has broken and there is expected to be a delay in getting data loaded or refreshed. The concerned team has to be notified using the [Triage Template (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/new)
 
 **Is there ETA for a different kind of issue?** <br>
-If the pipeline is broken it needs to be fixed, currently we are working on defining SLO's for our data assets. For our data extraction pipelines, there is a comprehensive overview [here](/handbook/enterprise-data//platform/#extract-and-load/).
+If the pipeline is broken it needs to be fixed, currently we are working on defining SLO's for our data assets. For our data extraction pipelines, there is a comprehensive overview [here](/handbook/enterprise-data/platform/#extract-and-load/).
 
 **If I work my normal hours on triage day i.e. till 11 AM of US timeline. What happens when the pipeline breaks post my normal hours and there is a delay in data availability?** <br>
 Yes, the benefit of our presence is that we have a wide overage of hours. If the person who is on Triage is ahead of US timelines, we have an advantage of solving issues timely. The downside is that we have not full coverage that day for US timelines. This is an attention point towards the future.
