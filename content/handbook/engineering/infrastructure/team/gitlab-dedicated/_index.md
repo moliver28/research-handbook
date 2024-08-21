@@ -595,7 +595,7 @@ initiate further assessment for potential remediation action,
 and actively manage any such ongoing issues that are assigned to you.
 
 At the start of your shift review the
-[handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
+[handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/?label_name%5B%5D=capacity-planning-handover)
 from the prior shift and close it when you are up to speed.
 
 At the start of each work week while you are on duty,
