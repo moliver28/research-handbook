@@ -942,6 +942,15 @@ List your inbox and preview mails in one view with this configuration change:
 - Save changes
 - Reload inbox
 
+#### Inbox Zero
+
+To utilitze Gmail to it's full potential, consider adopting the [Inbox Zero](https://www.youtube.com/watch?v=oLdHnWLbn4A) strategy. It's the same way Google employees use Gmail.
+
+There's also an internal training recording about this. It goes into more details and more "power user" focused, covering keyboard shortcuts, etc.
+
+- [Video](https://youtu.be/IwngC9NmcRs) (It’s set to private, so log in with GitLab Unfiltered to watch it: upper right corner > click on your profile picture > switch account > GitLab Unfiltered)
+- [Meeting notes](https://docs.google.com/document/d/1EXEIENJrUkP75MmG6Nn9Ld4-T0P9SfpcQA4xmpx9Bck/edit?usp=sharing)
+
 ### Disable Google Meet and Chat in Google Mail
 
 The integration for Google Meet and Google Chat is enabled by default. It can consume too much space in the left menu listing mailbox folders. In order to disable the integration in Google Mail, navigate to `Settings` at the right top, `See all settings`, `Mail and Chat` and select the following:
