@@ -181,7 +181,9 @@ _to be updated_
 
 * Complete this [sign off workflow](/handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html)
 * Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
-* Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)
-* Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`
+* Follow the [Project Retrospective Process](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/processes/#reporting-within-the-iteration-schedule-and-project)
+* The full PS retrospective report can be found [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=PSretro&first_page_size=100)
+   * Issues are sorted by the label ~PSretro and you can search by Milestone to sort respective quarter. Eg, "FY25Q2 - PS Delivery Project Retro Report"
+* Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team
 * Request/capture CSAT responses from Customer
 * Close Project in Kantata
