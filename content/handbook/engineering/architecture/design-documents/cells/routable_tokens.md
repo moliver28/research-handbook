@@ -10,26 +10,24 @@ used by Cells.
 
 ## Purpose
 
-GitLab uses machine generated tokens extensively to provide a various way to
-authenticate users, or provide a project specific tokens. Some of the, but not all
-include: [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication).
+GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication).
+Tokens have different scopes as for example User, [project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), and [group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
 
-[HTTP Routing Service](http_routing_service.md) does require that tokens are routable,
-so we can make decision based on a token itself which Cell is the correct one to
-authenticate the token.
+[HTTP Routing Service](http_routing_service.md) require the tokens to be routable,
+so it can route the request to the correct Cell.
 
 ## Goals
 
 This documents tries to describe the following goals:
 
-- Routable tokens to be decode by HTTP Router
+- Routable tokens to be decoded by HTTP Router
 - Capture and describe usage of existing tokens
 - Define support for many encryption keys
 - Define the pattern allowing online encryption keys rotation
-- Deprecate and remove legacy encryption keys, or legacy strategies
+- Document how to deprecate and remove legacy encryption keys, or legacy strategies
 - Unify storing of secrets and tokens
 - Move away from `attr-encrypted` to use a single secrets framework
-- Introduce transit/shared key to be used with Org Mover
+- Introduce transit/shared key to be used with [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857)
 
 ## Non-goals
 
@@ -53,7 +51,7 @@ This single secret used makes it impossible to rotate tokens for a live system.
 
 ### TokenAuthenticatable
 
-Majority of the tokens in application use `TokenAuthenticatable` framework making it easy to change how the token is generated. Only some of the tokens use a custom `generator`.
+Majority of the tokens in application use `TokenAuthenticatable` framework making it easy to change how the token is generated. Only some of the tokens use a custom `token_generator`, as in the following example:
 
 ```ruby
 module Clusters
@@ -98,7 +96,7 @@ and sometimes there are many strategies hidden behind the name:
 ```
 
 That configuration implies usage of the sha256 hashing function with salt stored as `token_digest`.
-If the `fallback: true` is additionally configured it will try to get/check token by plaintext value in `token` value when trying to access it.
+If `fallback: true` is additionally configured it will try to get/check the token by plaintext value in `token` value when trying to access it from the database.
 
 ```ruby
   add_authentication_token_field :token, encrypted: :required, format_with_prefix: :prefix_for_deploy_token
@@ -121,14 +119,14 @@ In this case since encryption is optional, if token is being accessed it is to a
 
 ### attr_encrypted
 
-This framework is used to store encrypted data at rest. It is not required to change `attr_encrypted` usage by Routable Tokens. However, there would be a big benefit of moving away from using `attr_encrypted` framework in favour of using a single `TokensAuthenticatable` as a single framework to offer encryption of data at rest, with an ability to manage many keys.
+This framework is used to store encrypted data at rest in the database. It is not required to change `attr_encrypted` usage by Routable Tokens. However, there would be a big benefit of moving away from using `attr_encrypted` framework in favor of using a single `TokensAuthenticatable` as a single framework to offer encryption of data at rest, with an ability to manage many keys.
 
 ## Proposal
 
 There are two changes proposed in this document:
 
 - Routable Tokens: directly required by Cells 1.0.
-- Support for many encryption keys: directly required by Org Mover to be able to re-encrypt data stored at rest.
+- Support for many encryption keys: directly required by [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857) to be able to re-encrypt data stored at rest.
 
 ### Routable Tokens
 
