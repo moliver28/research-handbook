@@ -1,11 +1,11 @@
 ---
-title: "Data Team"
+title: "Enterprise Data Team"
 description: "The GitLab Enterprise Data Team is responsible for empowering every GitLab team member to contribute to the data program and generate business value from our data assets."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## Welcome to the Data Team Handbook
+## Welcome to the Enterprise Data Team Handbook
 
 * Our Vision is to **Contribute to GitLab's journey of becoming the leading AllOps platform by responsibly harnessing the power of data.**
 * In pursuit of our vision, we will focus on 4 outcomes:
@@ -34,7 +34,7 @@ The collective set of people, projects, and initiatives focused on advancing the
 The GitLab Data Program includes teams focused in the following areas:
 
 * [Customer Success Operational Data Team](/handbook/customer-success/product-usage-data/)
-* [Data Team](/handbook/enterprise-data/)
+* [Enterprise Data Team](/handbook/enterprise-data/)
 * [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/)
 * [Finance Analytics & Insights](/handbook/enterprise-data/analytics-and-insights/)
 * [Marketing Strategy and Performance](/handbook/marketing/strategy-performance/)
