@@ -1204,7 +1204,7 @@ run vulture . --min-confidence 100
 
 ##### Few more handy libraries
 
-For more elements on how we automated linter to keep code quality on the elevated level, refer to [🐍 Python CI jobs](/handbook/it/data-team/platform/ci-jobs/#-python). All of these linters can be tested automatically and for that purpose, we created a comprehensive set of commands using [Makefile](https://gitlab.com/gitlab-data/analytics/-/blob/master/Makefile).
+For more elements on how we automated linter to keep code quality on the elevated level, refer to [🐍 Python CI jobs](/handbook/enterprise-data/platform/ci-jobs/#-python). All of these linters can be tested automatically and for that purpose, we created a comprehensive set of commands using [Makefile](https://gitlab.com/gitlab-data/analytics/-/blob/master/Makefile).
 
 In addition, recommendation to check, explore and considering:
 
@@ -1217,7 +1217,7 @@ In addition, recommendation to check, explore and considering:
 #### Tools for automating our coding quality standards
 
 For automating code quality and testing, we are using our own product [GitLab CI/CD pipeline](https://docs.gitlab.com/ee/ci/pipelines/).
-Details of pipelines we use for python should be found on the page [CI jobs (Python)](/handbook/it/data-team/platform/ci-jobs/#-python).
+Details of pipelines we use for python should be found on the page [CI jobs (Python)](/handbook/enterprise-data/platform/ci-jobs/#-python).
 
 #### When not to use Python
 

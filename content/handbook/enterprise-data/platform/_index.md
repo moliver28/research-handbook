@@ -9,7 +9,7 @@ The Data Platform is used for data analytics purposes. This document conceptuall
 
 ## Scope
 
-This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the Data Pipelines and the [infrastructure](/handbook/it/data-team/platform/infrastructure/)/
+This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the Data Pipelines and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)/
 
 ## Roles & Responsibilities
 
@@ -23,25 +23,25 @@ This document is limited to describe the Data Platform conceptually. There are o
 
 ## <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
 
-- [Data Infrastructure](/handbook/it/data-team/platform/infrastructure/)
-- [Data Pipelines](/handbook/it/data-team/platform/pipelines/)
-- [Data CI Jobs](/handbook/it/data-team/platform/ci-jobs/)
-- [dbt Guide](/handbook/it/data-team/platform/dbt-guide/)
-- [Enterprise Data Warehouse](/handbook/it/data-team/platform/edw/)
-- [Data Pump](/handbook/it/data-team/platform/#data-pump)
-- [Jupyter Guide](/handbook/it/data-team/platform/jupyter-guide/)
-- [Permifrost](/handbook/it/data-team/platform/permifrost/)
-- [Python Guide](/handbook/it/data-team/platform/python-guide/)
-- [Python/Tools package management and inventory](/handbook/it/data-team/platform/python-tool-package-management/)
-- [Snowplow](/handbook/it/data-team/platform/snowplow/)
-- [SQL Style Guide](/handbook/it/data-team/platform/sql-style-guide/)
+- [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
+- [Data Pipelines](/handbook/enterprise-data/platform/pipelines/)
+- [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/)
+- [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/)
+- [Enterprise Data Warehouse](/handbook/enterprise-data/platform/edw/)
+- [Data Pump](/handbook/enterprise-data/platform/#data-pump)
+- [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/)
+- [Permifrost](/handbook/enterprise-data/platform/permifrost/)
+- [Python Guide](/handbook/enterprise-data/platform/python-guide/)
+- [Python/Tools package management and inventory](/handbook/enterprise-data/platform/python-tool-package-management/)
+- [Snowplow](/handbook/enterprise-data/platform/snowplow/)
+- [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
 - [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
-- [R/RStudio](/handbook/it/data-team/platform/rstudio/)
-- [Tableau](/handbook/it/data-team/platform/tableau/)
+- [R/RStudio](/handbook/enterprise-data/platform/rstudio/)
+- [Tableau](/handbook/enterprise-data/platform/tableau/)
 
 ## <i class="fas fa-cubes fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Our Data Stack
 
-![Enterprise Data Platform](/handbook/it/data-team/platform/enterprise_data_platform.png)
+![Enterprise Data Platform](/handbook/enterprise-data/platform/enterprise_data_platform.png)
 
 We use GitLab to operate and manage the analytics function.
 Everything starts with an issue.
@@ -66,7 +66,7 @@ Stitch and Fivetran handle the start of the data pipeline themselves. This means
 Other solutions we use to extract data are:
 
 1. [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
-1. Custom pipelines built in [Python](/handbook/it/data-team/platform/python-guide/) and orchestrated via [Airflow](/handbook/it/data-team/platform/infrastructure/#airflow)
+1. Custom pipelines built in [Python](/handbook/enterprise-data/platform/python-guide/) and orchestrated via [Airflow](/handbook/enterprise-data/platform/infrastructure/#airflow)
 1. Flows built in Tableau Prep and orchestracted by Tableau Cloud
 1. Snowflake [data share](https://docs.snowflake.com/en/user-guide/data-sharing-intro.html)
 
@@ -74,7 +74,7 @@ For source ownership please see [the Tech Stack Applications data file.](https:/
 
 ### Data Sources
 
-The following table indexes all of the RAW data sources we are loading into the data warehouse from external locations. We manage the development backlog and priorities in the [New Data Source/Pipeline Project Management](https://docs.google.com/spreadsheets/d/14uqsAIqRnyyL9Ta39QYwheXnf0k86yTTIKhrkY_1el8/edit#gid=0) sheet, with links to GitLab issues for up-to-date status and progress management. The [new data source handbook](/handbook/it/data-team/how-we-work/new-data-source/) page describes how the Data Team handles any request for new data sources.
+The following table indexes all of the RAW data sources we are loading into the data warehouse from external locations. We manage the development backlog and priorities in the [New Data Source/Pipeline Project Management](https://docs.google.com/spreadsheets/d/14uqsAIqRnyyL9Ta39QYwheXnf0k86yTTIKhrkY_1el8/edit#gid=0) sheet, with links to GitLab issues for up-to-date status and progress management. The [new data source handbook](/handbook/enterprise-data/how-we-work/new-data-source/) page describes how the Data Team handles any request for new data sources.
 
 **The link in the pipeline column in the table below will bring you to the detailed page of the specific data pipeline if applicable.**
 
@@ -83,13 +83,13 @@ The following table indexes all of the RAW data sources we are loading into the 
 - Pipeline: The technology we use to replicate data.
 - RF (Replication Frequency): How often we load new and updated data.
 - Raw Schema: The schema in the `RAW` database where data is stored.
-- Prep Schema: The schema in the `PREP` database where [source models](/handbook/it/data-team/platform/dbt-guide/#source-models) are materialized.
+- Prep Schema: The schema in the `PREP` database where [source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are materialized.
 - Audience: The primary users of the data.
 - SLO: Service Level Objective. Our SLO is the time between real-time and the data made available for consumption.
   - Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
 - `x` indicates undefined or not run
 
-| [Data Source](/handbook/it/data-team/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
+| [Data Source](/handbook/enterprise-data/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
 |-------------|----------|------------|-------------|----------|----------|------|------|
 | [Adaptive](https://www.adaptiveplanning.com/) | Airflow | `adaptive_custom` | x | Finance |  | Yes | Tier 2 |
 | [Adobe / Bizible](https://experienceleague.adobe.com/docs/bizible/using/home.html) | Airflow | `bizible` | `sensitive` | Marketing | 24h / 36h | No | Tier 2 |
@@ -141,7 +141,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
 | [Snowplow](https://snowplowanalytics.com/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
 | [Tableau Cloud](https://www.tableau.com/products/cloud-bi) | Tableau Prep | `tableau_cloud` | `tableau_cloud` | Data Team | 24h / 24h | No | Tier 3 |
-| [Tableau Back-end Data](https://fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |  
+| [Tableau Back-end Data](https://fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
 | [Thanos](https://thanos-query.ops.gitlab.net/graph) | Snowflake Task | `prometheus` | `prometheus` | Engineering | 24 h / x | No | Tier 3 |
 | [Version DB](https://version.gitlab.com/users/sign_in) | Automatic Process | `version_db` | `version_db` | Product | 24 h / 48 h | No | Tier 1 |
 | [Workday](https://www.workday.com/) | Fivetran | `workday` | `workday` | People | 6h / 24h / | No | Tier 2 |
@@ -191,11 +191,11 @@ Sensitive data is locked down through the security paradigms listed below;
 
 ### Snowplow Infrastructure
 
-Refer to the [Snowplow Infrastructure page](/handbook/it/data-team/platform/snowplow) for more information on our setup.
+Refer to the [Snowplow Infrastructure page](/handbook/enterprise-data/platform/snowplow) for more information on our setup.
 
 ## <i class="fas fa-clock fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Orchestration
 
-We use Airflow on Kubernetes for our orchestration. Our specific setup/implementation can be found [here](https://gitlab.com/gitlab-data/data-image). Also see the [Data Infrastructure](/handbook/it/data-team/platform/infrastructure/) page for more information.
+We use Airflow on Kubernetes for our orchestration. Our specific setup/implementation can be found [here](https://gitlab.com/gitlab-data/data-image). Also see the [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/) page for more information.
 
 ## <i class="fas fa-database fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true" id="data-warehouse"></i>Data Warehouse
 
@@ -272,7 +272,7 @@ To gain access to Snowflake:
 - Snowflake is part of the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/) and manager will be asked on a quarterly basis to review the access their team members have in Snowflake. It is expected from the manager to understand the available roles(structure) in Snowflake if approving an AR or reviewing their team member access.
   - In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. If a team member does have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherited roles in the `analyst_marketing` are not.
     - Roles could be distinguished between functional roles and object roles
-      - See this list of functional roles in Snowflake [here](/handbook/it/data-team/platform/#Functional_Role_Assignment) and object roles.
+      - See this list of functional roles in Snowflake [here](/handbook/enterprise-data/platform/#Functional_Role_Assignment) and object roles.
       - Object roles are directly related to systems and gives Team Members access to **all** of the data we extract from those upstream source systems.
       - To know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
       - If unsure, during AR process or Access Review, please reach out to a Data Platform Team Member to understand in detail what a specific role entails.
@@ -281,7 +281,7 @@ To gain access to Snowflake:
 
 Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](handbook/it/data-team/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
 
-In order to be granted access to Snowflake, an AR must be opened as [described](/handbook/it/data-team/platform/#warehouse-access). A new user will be created with access to query the `PROD` database.
+In order to be granted access to Snowflake, an AR must be opened as [described](/handbook/enterprise-data/platform/#warehouse-access). A new user will be created with access to query the `PROD` database.
 There are 2 levels of data access:
 
 - General data --> Adding the Snowflake `snowflake_analyst` role to their account.
@@ -293,7 +293,7 @@ All users will have access to `dev_xs` and `reporting` -(size M) warehouse. When
 
 We use [Permifrost](https://gitlab.com/gitlab-data/permifrost/) to help manage permissions for Snowflake.
 Our configuration file for our Snowflake instance is stored in [this roles.yml file](https://gitlab.com/gitlab-data/analytics/blob/master/permissions/snowflake/roles.yml).
-Also available is our [handbook page on Permifrost](/handbook/it/data-team/platform/permifrost/).
+Also available is our [handbook page on Permifrost](/handbook/enterprise-data/platform/permifrost/).
 
 We follow this general strategy for role management:
 
@@ -457,7 +457,7 @@ Prior to running Permifrost, the users/roles need to be first created in Snowfla
 
 The `snowflake_provisioning_snowflake_users` CI job allows the user to create these users/roles in Snowflake.
 
-See the [CI jobs page](/handbook/it/data-team/platform/ci-jobs/#snowflake_provisioning_snowflake_users) for more information on the available arguments and default values.
+See the [CI jobs page](/handbook/enterprise-data/platform/ci-jobs/#snowflake_provisioning_snowflake_users) for more information on the available arguments and default values.
 
 ### 2) Automating roles.yml
 
@@ -465,7 +465,7 @@ Once the users/roles have been created in Snowflake, `roles.yml` needs to be upd
 
 The `snowflake_provisioning_roles_yaml` CI job allows the end user to automatically update `roles.yml` with the desired permissions.
 
-See the [CI jobs page](/handbook/it/data-team/platform/ci-jobs/#snowflake_provisioning_roles_yaml) for more information on the available arguments and default values.
+See the [CI jobs page](/handbook/enterprise-data/platform/ci-jobs/#snowflake_provisioning_roles_yaml) for more information on the available arguments and default values.
 
 Furthermore, the next section provides additional details on optional **templated** arguments within `snowflake_provisioning_roles_yaml` CI job:
 
@@ -606,12 +606,12 @@ When you apply for a Snowflake account via an AR and get access provisioned it t
 
 When you don't select the right role in Snowflake, you only see the following Snowflake objects:
 
-![object_list](/handbook/it/data-team/platform/object_list_snowsight.png)
+![object_list](/handbook/enterprise-data/platform/object_list_snowsight.png)
 
 Selecting the right role can be done via the GUI.
 When in Snowsight home screen, in the up left corner.
 
-![select_role](/handbook/it/data-team/platform/select_role1.png)
+![select_role](/handbook/enterprise-data/platform/select_role1.png)
 
 1. Click on the arrow near your name
 2. Select Switch Role
@@ -619,7 +619,7 @@ When in Snowsight home screen, in the up left corner.
 
 When in Snowsight in a worksheet, in the up right corner.
 
-![select_role](/handbook/it/data-team/platform/select_role2.png)
+![select_role](/handbook/enterprise-data/platform/select_role2.png)
 
 1. Click on `public`
 2. Select your role
@@ -713,7 +713,7 @@ No dbt models exist for this data and so it may be the case that the data needs 
 
 This is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use. This database should not be used in Tableau.
 
-- [Source models](/handbook/it/data-team/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
+- [Source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
 - PREPARATION - this is the default schema where dbt models are built
 - SENSITIVE
 
@@ -721,8 +721,8 @@ This is the first layer of verification and transformation in the warehouse, but
 
 This database and all schemas and tables in it are queryable by Tableau. This data has been transformed and modeled for business use.
 
-With the exception of `public`, and [`boneyard`](/handbook/it/data-team/#mind-about-sheetload), all schemas are controlled by dbt.
-See the [dbt guide](/handbook/it/data-team/platform/dbt-guide) for more information.
+With the exception of `public`, and [`boneyard`](/handbook/enterprise-data/#mind-about-sheetload), all schemas are controlled by dbt.
+See the [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more information.
 
 #### Folder Structure in Analytics Project
 
@@ -784,7 +784,7 @@ Static data masking is applied during the transformation of the data and the mas
 
 #### Dynamic Masking
 
-Dynamic masking is currently applied on tables or views in the `prep` and `prod` layer at query run time based on assigned policies and user roles using the [Dynamic Data Masking](https://docs.snowflake.com/en/user-guide/security-column-ddm-use.html) capabilities of Snowflake. Dynamic masking allows for data to be unmasked for selected users wile masked for all other users. This is accomplished by creating masking policies that are then applied to the column at the time of table or view creation. Masking policies are maintained within the data warehouse source code repository. Please see the [dbt guide](/handbook/it/data-team/platform/dbt-guide/#dynamic-masking) to setup dynamic masking.
+Dynamic masking is currently applied on tables or views in the `prep` and `prod` layer at query run time based on assigned policies and user roles using the [Dynamic Data Masking](https://docs.snowflake.com/en/user-guide/security-column-ddm-use.html) capabilities of Snowflake. Dynamic masking allows for data to be unmasked for selected users wile masked for all other users. This is accomplished by creating masking policies that are then applied to the column at the time of table or view creation. Masking policies are maintained within the data warehouse source code repository. Please see the [dbt guide](/handbook/enterprise-data/platform/dbt-guide/#dynamic-masking) to setup dynamic masking.
 
 Note: Dynamic masking is not applied on `raw` database yet.
 
@@ -802,7 +802,7 @@ We use the term snapshots in multiple places throughout the data team handbook a
 
 #### dbt
 
-The most common usage is in reference to [dbt snapshots](https://docs.getdbt.com/docs/snapshots). When dbt snapshots is run, it takes the current state of the *source* data and updates the corresponding *snapshot* table, which is a table that contains the full history of the source table. It has `valid_to` and `valid_from` fields indicating the time period for which that particular snapshot is valid. See the [dbt snapshots](/handbook/it/data-team/platform/dbt-guide/#snapshots) section in our dbt guide for more technical information.
+The most common usage is in reference to [dbt snapshots](https://docs.getdbt.com/docs/snapshots). When dbt snapshots is run, it takes the current state of the *source* data and updates the corresponding *snapshot* table, which is a table that contains the full history of the source table. It has `valid_to` and `valid_from` fields indicating the time period for which that particular snapshot is valid. See the [dbt snapshots](/handbook/enterprise-data/platform/dbt-guide/#snapshots) section in our dbt guide for more technical information.
 
 The tables generated and maintained by dbt snapshots are the raw historical snapshot tables. We will build downstream models on top of these raw historical snapshots for further querying. The [snapshots folder](https://gitlab.com/gitlab-data/analytics/tree/master/transform/snowflake-dbt/snapshots) is where we store the dbt models. One common model we may build is one that generate a single entry (i.e. a single snapshot) for a given day; this is useful when there are multiple snapshots taken in a 24 hour period. We also will build models to return the most current snapshot from the raw historical table.
 
@@ -836,7 +836,7 @@ We've identified currently 2 types of unforeseen circumstances:
 
 This can be data manipulation action done by a GitLab Team member or by services with access to the data in Snowflake. Some examples are accidentally dropping/truncating a table or running incorrect logic in a transformation.
 
-The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/it/data-team/platform/#data-sources), which is all managed [idempotently](https://docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](/handbook/it/data-team/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/it/data-team/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/it/data-team/platform/infrastructure/#data-refresh).
+The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/enterprise-data/platform/#data-sources), which is all managed [idempotently](https://docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/enterprise-data/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/enterprise-data/platform/infrastructure/#data-refresh).
 
 However, there are some exceptions to this. Any data in snowflake which is not a result of idempotent processes or that cannot be refreshed in a practical amount of time should be backed up. For this we use Snowflake Time travel. Which includes:
 
@@ -907,11 +907,11 @@ To create the external stage, the new path to the bucket must be included (inclu
 ## <i class="fas fa-cogs fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Transformation
 
 We use [dbt](https://www.getdbt.com/) for all of our transformations.
-See our [dbt guide](/handbook/it/data-team/platform/dbt-guide) for more details on why and how we use this tool.
+See our [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more details on why and how we use this tool.
 
 ## <i class="fas fa-check-double fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Trusted Data Framework
 
-Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the [Enterprise Data Platform](/handbook/it/data-team/direction/#a-complete-enterprise-data-platform) is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
+Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the [Enterprise Data Platform](/handbook/enterprise-data/direction/#a-complete-enterprise-data-platform) is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
 
 - Enable everyone to contribute to trusted data, not just analysts and engineers
 - Enable data validations from top to bottom and across all stages of data processing
@@ -930,13 +930,13 @@ Data Customers expect Data Teams to provide data they can trust to make their im
 
 The primary elements of the TDF include:
 
-1. [A Virtuous Test Cycle](/handbook/it/data-team/platform/#virtuous-test-cycle) that embeds quality as a normal part of daily data development, ranging from new data solutions to break-fix issue resolution.
-1. [Test Cases Expressed As SQL and YAML](/handbook/it/data-team/platform/#test-cases-expressed-as-sql-and-yaml) which can be developed by anyone.
-1. The [Trusted Data Schema](/handbook/it/data-team/platform/#trusted-data-schema) saves test results for monitoring and alerting, and long-term analysis towards the path of developing wisdom around business processes and data platform performance.
-1. [Schema-to-Golden Record Coverage](/handbook/it/data-team/platform/dbt-guide/#schema-to-golden-data-coverage) to provide broad coverage of the data warehouse domain, ranging from schema to critical "Golden" data.
-1. The [Trusted Data Dashboard](/handbook/it/data-team/platform/#trusted-data-dashboard), a *business-friendly* dashboard to visualize overall test coverage, successes, and failures.
-1. The [Test Run](/handbook/it/data-team/platform/#test-run) is when a Test Cases are executed.
-1. [Row Count test](/handbook/it/data-team/platform/#row-count-test) to reconsile the amount of rows between source system and Snowflake
+1. [A Virtuous Test Cycle](/handbook/enterprise-data/platform/#virtuous-test-cycle) that embeds quality as a normal part of daily data development, ranging from new data solutions to break-fix issue resolution.
+1. [Test Cases Expressed As SQL and YAML](/handbook/enterprise-data/platform/#test-cases-expressed-as-sql-and-yaml) which can be developed by anyone.
+1. The [Trusted Data Schema](/handbook/enterprise-data/platform/#trusted-data-schema) saves test results for monitoring and alerting, and long-term analysis towards the path of developing wisdom around business processes and data platform performance.
+1. [Schema-to-Golden Record Coverage](/handbook/enterprise-data/platform/dbt-guide/#schema-to-golden-data-coverage) to provide broad coverage of the data warehouse domain, ranging from schema to critical "Golden" data.
+1. The [Trusted Data Dashboard](/handbook/enterprise-data/platform/#trusted-data-dashboard), a *business-friendly* dashboard to visualize overall test coverage, successes, and failures.
+1. The [Test Run](/handbook/enterprise-data/platform/#test-run) is when a Test Cases are executed.
+1. [Row Count test](/handbook/enterprise-data/platform/#row-count-test) to reconsile the amount of rows between source system and Snowflake
 
 #### Virtuous Test Cycle
 
@@ -951,7 +951,7 @@ Over time, it is not uncommon to develop hundreds of tests cases which are run o
 
 #### Test Cases Expressed As SQL and YAML
 
-SQL is the universal language in databases and nearly everyone who works with data has some level of SQL competency. However, not everyone may be familiar with SQL and we don't want that to limit who can contribute. We use [dbt](/handbook/it/data-team/platform/dbt-guide/) to support the TDF which enables the defining of tests via SQL *and* YAML.
+SQL is the universal language in databases and nearly everyone who works with data has some level of SQL competency. However, not everyone may be familiar with SQL and we don't want that to limit who can contribute. We use [dbt](/handbook/enterprise-data/platform/dbt-guide/) to support the TDF which enables the defining of tests via SQL *and* YAML.
 
 #### Trusted Data Schema
 
@@ -971,11 +971,11 @@ Note: This schema only containts views.
 
 The Data Warehouse environment can change quickly and the TDF supports predictability, stability, and quality with test coverage of the areas in the Data Warehouse that are most likely to change:
 
-1. [Schema tests](/handbook/it/data-team/platform/dbt-guide/#schema-tests) to validate the integrity of a schema
-1. [Column Value tests](/handbook/it/data-team/platform/dbt-guide/#column-value-tests) to determine if the data value in a column matches pre-defined thresholds or literals
-1. [Rowcount tests](/handbook/it/data-team/platform/dbt-guide/#rowcount-tests) to determine if the number of rows in a table over a pre-defined period of time match pre-defined thresholds or literals
+1. [Schema tests](/handbook/enterprise-data/platform/dbt-guide/#schema-tests) to validate the integrity of a schema
+1. [Column Value tests](/handbook/enterprise-data/platform/dbt-guide/#column-value-tests) to determine if the data value in a column matches pre-defined thresholds or literals
+1. [Rowcount tests](/handbook/enterprise-data/platform/dbt-guide/#rowcount-tests) to determine if the number of rows in a table over a pre-defined period of time match pre-defined thresholds or literals
 
-The implementation details of these tests are documented in our [dbt guide](/handbook/it/data-team/platform/dbt-guide/#schema-to-golden-data-coverage).
+The implementation details of these tests are documented in our [dbt guide](/handbook/enterprise-data/platform/dbt-guide/#schema-to-golden-data-coverage).
 
 #### Trusted Data Dashboard
 
@@ -1024,7 +1024,7 @@ This is all orchestrated in the Data Pump [Airflow DAG](https://airflow.gitlabda
 
 ### Adding a Data Pump
 
-**Step 1:** Create a data model [using dbt](/handbook/it/data-team/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/it/data-team/platform/sql-style-guide/) and [dbt](/handbook/it/data-team/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
+**Step 1:** Create a data model [using dbt](/handbook/enterprise-data/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/enterprise-data/platform/sql-style-guide/) and [dbt](/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
 
 **Step 2:** Add Model to [`pumps.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/pump/pumps.yml) using the 'Pump Changes' MR template with the following attributes:
 
@@ -1057,7 +1057,7 @@ The source model for the Daily Data Science Scores pump called [mart_crm_account
 
 #### Marketing Data Mart to Marketo
 
-The [Email Data Mart](/handbook/it/data-team/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
+The [Email Data Mart](/handbook/enterprise-data/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
 
 #### Trusted Data Model to Gainsight
 
@@ -1108,7 +1108,7 @@ The process for setting up a new Data Spigot is as follows:
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_paid_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_free_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.restricted_safe_common_mart_sales.mart_arr` | Yes |
-| Salesforce       | [Snowflake API](/handbook/it/data-team/platform/#Sales-Systems-Use-Case:-Using-the-Snowflake-API) | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
+| Salesforce       | [Snowflake API](/handbook/enterprise-data/platform/#Sales-Systems-Use-Case:-Using-the-Snowflake-API) | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
 | Zapier           | t.b.d. | `prod.workspace_customer_success.mart_product_usage_health_score` | No |
 
 Sales Systems Use-Case: Using the Snowflake API
@@ -1137,7 +1137,7 @@ We also rotate Snowflake user passwords the first Sunday of every 3rd month of t
 
 The data team is responsible for provisioning users within the tools managed by the Data Team. This includes tools like Tableau, MonteCarlo, Fivetran, Stitch, and Snowflake.
 
-For Snowflake, we have a robust process documented in the [Snowflake Permissions Paradigm](/handbook/it/data-team/platform/#snowflake-permissions-paradigm) section of this page.
+For Snowflake, we have a robust process documented in the [Snowflake Permissions Paradigm](/handbook/enterprise-data/platform/#snowflake-permissions-paradigm) section of this page.
 
 For other tools, add users via the UI and in the appropriate [Google Group](https://groups.google.com/my-groups) if one exists.
 
@@ -1268,4 +1268,4 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 
 ## References
 
-The platform [infrastructure](/handbook/it/data-team/platform/infrastructure/).
+The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/).

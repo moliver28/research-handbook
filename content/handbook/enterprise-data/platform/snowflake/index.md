@@ -7,19 +7,19 @@ description: "Snowflake Data Warehouse Guide"
 
 ## What and why
 
-[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/it/data-team/platform/#our-data-stack).
+[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#our-data-stack).
 
 ## What does Snowflake Contain?
 
-Snowflake contains all of our analytical data and [Data Source](/handbook/it/data-team/platform/#data-sources)s defines the set of original/raw data available.
+Snowflake contains all of our analytical data and [Data Source](/handbook/enterprise-data/platform/#data-sources)s defines the set of original/raw data available.
 
 ## Related Content
 
-- [Access](/handbook/it/data-team/platform/#warehouse-access)
-- [Support Portal Access](/handbook/it/data-team/platform/#data-warehouse)
-- [Compute Resources](/handbook/it/data-team/platform/#compute-resources)
-- [Data Masking](/handbook/it/data-team/platform/#data-masking)
-- [Backups](/handbook/it/data-team/platform/#backups)
+- [Access](/handbook/enterprise-data/platform/#warehouse-access)
+- [Support Portal Access](/handbook/enterprise-data/platform/#data-warehouse)
+- [Compute Resources](/handbook/enterprise-data/platform/#compute-resources)
+- [Data Masking](/handbook/enterprise-data/platform/#data-masking)
+- [Backups](/handbook/enterprise-data/platform/#backups)
 
 ## Logging In
 

@@ -18,8 +18,8 @@ Based on these needs, the Data Team is organized in the following way:
 
 1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. Pods are staffed with multiple data personas including Data Analyst, Data Scientist, Analytics Engineer, and supported by Data Engineer as stable counterpart.
 1. **[Analytics Engineering](handbook/it/data-team/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
-1. **[Data Platform & Engineering Team](/handbook/it/data-team/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
-1. **[Data Science Team](/handbook/it/data-team/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
+1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
+1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
 
 ## Data Pod Assignments
 
@@ -66,7 +66,7 @@ In support of the Data Pod and Stable Counterpart relationships, the Lead Analyt
 
 1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
 1. Co-DRI of Key Results along with the Manager, Data.
-1. Lead [work breakdown](/handbook/it/data-team/how-we-work/planning/#work-breakdowns) sessions for OKRs.
+1. Lead [work breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) sessions for OKRs.
 1. Work with functional stakeholders to prioritze `P3-Other` issues.
 1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
 1. Review the weekly stand-up and provide support as needed to unblock team members and answer questions.
@@ -85,14 +85,14 @@ The stable counterpart is expected to participate in the following meetings asyn
 Recruiting great people is critical to our success and we've invested much effort into making the process efficient. Here are some reference materials we use:
 
 - a [GitLab Data Recruiting](https://youtu.be/4DlwsBIPxUw) video to say "Hi" and give you some insight into how we work and what we work on. Enjoy!
-- [Data Roles and Career Development](/handbook/it/data-team/organization/#data-roles-and-career-development) to help existing team members and prospects it/data-team/stand growth opportunities
-- a [Take Home Test](/handbook/it/data-team/organization/#data-roles-and-career-development) that we ask each candidate to complete; this test is good for the candidate and for us because it represents the type of work we perform regularly and if the candidate is not interested in this work it helps them make a more informed decision about their application
+- [Data Roles and Career Development](/handbook/enterprise-data/organization/#data-roles-and-career-development) to help existing team members and prospects it/data-team/stand growth opportunities
+- a [Take Home Test](/handbook/enterprise-data/organization/#data-roles-and-career-development) that we ask each candidate to complete; this test is good for the candidate and for us because it represents the type of work we perform regularly and if the candidate is not interested in this work it helps them make a more informed decision about their application
 
 ## Data Roles and Career Development
 
 ## Data Internships
 
-See [Data Team Internships](/handbook/it/data-team/organization/internships/).
+See [Data Team Internships](/handbook/enterprise-data/organization/internships/).
 
 ## Data Platform
 
@@ -114,8 +114,8 @@ See [Data Team Internships](/handbook/it/data-team/organization/internships/).
 
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
-| Complete People and Data Onboarding | Perform [triage](/handbook/it/data-team/how-we-work/triage/) activities | Extract [new data sources](/handbook/it/data-team/how-we-work/new-data-source/) | Own a specific area of the data platform |
-| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/it/data-team/direction/#quarterly-objectives) | Propose new ideas and come up with Data Platform improvement initiatives |
+| Complete People and Data Onboarding | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | Extract [new data sources](/handbook/enterprise-data/how-we-work/new-data-source/) | Own a specific area of the data platform |
+| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Propose new ideas and come up with Data Platform improvement initiatives |
 | it/data-team/stand the current setup of the data platform | Make small/corrective changes to the platform infrastructure or data pipelines | Contribute on work breakdown | |
 
 ## Data Analyst
@@ -143,7 +143,7 @@ See [Data Team Internships](/handbook/it/data-team/organization/internships/).
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
-| Start attending [Data Fusion Team](/handbook/it/data-team/#data-fusion-teams) and Business Team synchronous meetings | Perform [triage](/handbook/it/data-team/how-we-work/triage/) activities | | |
+| Start attending [Data Fusion Team](/handbook/enterprise-data/#data-fusion-teams) and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ## Data Science
@@ -167,7 +167,7 @@ See [Data Team Internships](/handbook/it/data-team/organization/internships/).
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Meet stakeholders across the organization | Re-train or enhance an existing data science model |  Make a contribution to improve the Data Science handbook, packages, or processes |
-| Start attending Data Science Team meetings | Refine/improve one data science dashboard | Work on [OKR assignments](/handbook/it/data-team/direction/#quarterly-objectives) | Take ownership of at least one quarterly OKR |
+| Start attending Data Science Team meetings | Refine/improve one data science dashboard | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Take ownership of at least one quarterly OKR |
 | it/data-team/stand the current data science systems and processes |  | |  |
 
 ## Analytics Engineering
@@ -194,8 +194,8 @@ See [Data Team Internships](/handbook/it/data-team/organization/internships/).
 
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
-| Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/it/data-team/data-development/#trusted-data-development) | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts|
-| Start attending Data Fusion Team and Business Team synchronous meetings | Perform [triage](/handbook/it/data-team/how-we-work/triage/) activities | | |
+| Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/enterprise-data/data-development/#trusted-data-development) | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts|
+| Start attending Data Fusion Team and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ## Data Management
@@ -221,7 +221,7 @@ See [Data Team Internships](/handbook/it/data-team/organization/internships/).
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People, Data, and Manager Onboarding | Meet everyone on the team and business data champions | Complete a Team Assessment | Draft a people development Roadmap |
-| it/data-team/stand the current setup of the data platform | Work on [OKR assignments](/handbook/it/data-team/direction/#quarterly-objectives) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
+| it/data-team/stand the current setup of the data platform | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
 | Add a new page to the handbook | Make regular contributions to the handbook spanning your area of management | Become DRI for major portions of the Data Handbook | System/Application Change Control Management of one or more modules |
 
 ## Tool Technology Tandem
@@ -246,4 +246,4 @@ A single TTT consists of minimum 2 and maximum 3 GitLab Team Members with differ
 - We expect TTT to get in touch with our business partners and all functions that contribute to the data program or work with our Data Platform, to it/data-team/stand their challenges.
 - We expect TTT to get up to date with the latest in their area. They it/data-team/stand the full capabilities of the tool / technology, have regular touchpoints with the respective vendor and have a good it/data-team/standing of the latest released features.
 - TTT will guide and educate our business partners.
-- TTT will initiate [design-spikes](/handbook/it/data-team/how-we-work/#design-spike) for quarterly [planning](/handbook/it/data-team/how-we-work/planning/).
+- TTT will initiate [design-spikes](/handbook/enterprise-data/how-we-work/#design-spike) for quarterly [planning](/handbook/enterprise-data/how-we-work/planning/).

@@ -5,13 +5,13 @@ description: "The Data Management Page covers the content around managing, secur
 
 ## Purpose
 
-Data Management covers practices and policies around managing, securing, and governing the [Enterprise Data Platform](/handbook/it/data-team/platform/) and activities related to it. The technical components of the Enterprise Data Platform are listed in the [GitLab Tech Stack](/handbook/business-technology/tech-stack-applications/).
+Data Management covers practices and policies around managing, securing, and governing the [Enterprise Data Platform](/handbook/enterprise-data/platform/) and activities related to it. The technical components of the Enterprise Data Platform are listed in the [GitLab Tech Stack](/handbook/business-technology/tech-stack-applications/).
 
 ## Scope
 
 ### Data Security Practices
 
-The Enterprise Data Platform captures, processes, and stores [data collected from many systems](/handbook/it/data-team/platform/#extract-and-load). Not all of this data is of the same importance and we use the [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems.html) framework and [Data Classification Standard](/handbook/security/data-classification-standard.html#security-and-privacy-controls) to help us determine what data is most important and how to best secure it.
+The Enterprise Data Platform captures, processes, and stores [data collected from many systems](/handbook/enterprise-data/platform/#extract-and-load). Not all of this data is of the same importance and we use the [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems.html) framework and [Data Classification Standard](/handbook/security/data-classification-standard.html#security-and-privacy-controls) to help us determine what data is most important and how to best secure it.
 
 ## Roles & Responsibilities
 
@@ -27,15 +27,15 @@ The Enterprise Data Platform captures, processes, and stores [data collected fro
 
 We deploy a Role-Based Data Access Scheme in Snowflake:
 
-- User Access is managed with Okta and [Access Requests are managed with GitLab](/handbook/it/data-team/platform/#warehouse-access)
-- Each user is assigned one more [Roles based on their job function](/handbook/it/data-team/platform/#snowflake-permissions-paradigm) and this configuration is managed with [Permifrost](/handbook/it/data-team/platform/permifrost/)
+- User Access is managed with Okta and [Access Requests are managed with GitLab](/handbook/enterprise-data/platform/#warehouse-access)
+- Each user is assigned one more [Roles based on their job function](/handbook/enterprise-data/platform/#snowflake-permissions-paradigm) and this configuration is managed with [Permifrost](/handbook/enterprise-data/platform/permifrost/)
 - The Snowflake scheme interacts with the Sisense Data Access scheme to ensure a user does not have a "back door" into data from either system.
 
 Additional controls include:
 
-- Based on the Data Classification standard, [data is managed with Databases and Schemas](/handbook/it/data-team/platform/#data-storage)
-- Every query/user/process is assigned a [pre-defined Warehouse, or Compute Resource](/handbook/it/data-team/platform/#compute-resources)
-- [Passwords are rotated](/handbook/it/data-team/platform/#passwords)
+- Based on the Data Classification standard, [data is managed with Databases and Schemas](/handbook/enterprise-data/platform/#data-storage)
+- Every query/user/process is assigned a [pre-defined Warehouse, or Compute Resource](/handbook/enterprise-data/platform/#compute-resources)
+- [Passwords are rotated](/handbook/enterprise-data/platform/#passwords)
 
 ### Data Categorization
 
@@ -43,9 +43,9 @@ In the Data Platform at GitLab we have multiple categories. Its good to highligh
 
 | Data category | Description | Possible values | How to handle | Access controls |
 | ------------- | ----------- | --------------- | ------------- | --------------- |
-| Data Classification | The type and level of data. | Red, Orange, Yellow, Green. | Red data is not allowed to be stored in the Data Platform. Follow the [general data security controls](/handbook/it/data-team/data-management/#general-data-security-controls). | No particular controls in place. |
-| MNPI | This is material non public information. | MNPI or not MNPI. | Follow the [SAFE Data guide](/handbook/it/data-team/platform/safe-data/). | Access is granted by Permifrost. GitLab Team Members will become a designated insider. Manager and VP approval needed via an AR. |
-| Sensitive data | Data that is considered to be kept sensitive and not be shared with all GitLab Team members by default. | Sensitive or not Sensitive. | Sensitive data is [masked](/handbook/it/data-team/platform/dbt-guide/#sensitive-data) via DBT | Access is granted by Permifrost. Manager approval needed via an AR. |
+| Data Classification | The type and level of data. | Red, Orange, Yellow, Green. | Red data is not allowed to be stored in the Data Platform. Follow the [general data security controls](/handbook/enterprise-data/data-management/#general-data-security-controls). | No particular controls in place. |
+| MNPI | This is material non public information. | MNPI or not MNPI. | Follow the [SAFE Data guide](/handbook/enterprise-data/platform/safe-data/). | Access is granted by Permifrost. GitLab Team Members will become a designated insider. Manager and VP approval needed via an AR. |
+| Sensitive data | Data that is considered to be kept sensitive and not be shared with all GitLab Team members by default. | Sensitive or not Sensitive. | Sensitive data is [masked](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) via DBT | Access is granted by Permifrost. Manager approval needed via an AR. |
 
 ### General Data Security Controls
 

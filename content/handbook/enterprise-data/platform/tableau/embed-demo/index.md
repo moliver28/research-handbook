@@ -11,7 +11,7 @@ To view charts embedded in the handbook the browser will need to have third part
 
 ### Viz from Public Tableau site
 
-The source url for a view from the public Tableau site can be found by looking at a list of [views available for embedding](/handbook/it/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding).
+The source url for a view from the public Tableau site can be found by looking at a list of [views available for embedding](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding).
 
 [A short video demonstrating how to do the embed.](https://youtu.be/Vry_yqUP2C8)
 
@@ -56,8 +56,8 @@ There are a few extra steps to embed any views using a yml file, because you do 
 1. First. decide if the views you are using are public, or internal. For public views in the public handbook (no sign in needed), make sure that you follow these steps first to tag the workbook as public, get it moved over to the public Tableau site, and get the URL from the list of publicly embeddable workbooks. Our license and viewer agreement requires that those public views are coming from the "public" version of our Tableau cloud. Note the process takes about 24hrs.
 
     1. To do this, go to the workbook, select the "..." for more settings, and select "Tag". Then add "Public". Here is an example of a workbook that has the Public tag and is available for embedding.
-    1. You will need to make the data source an "extract" instead of "live" connection for the process to work correctly. If your extract is over 10 million rows or does not follow [the guidelines for extracts](/handbook/it/data-team/platform/tableau/tableau-developer-guide/#guidelines-for-publishing-extracts-to-production-and-ad-hoc-projects), reach out to the data team to use the service account's credentials to on the workbook so that you can use a live connection.
-    1. It will show up in [this list](/handbook/it/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding) once it is migrated and ready. Use the share URL from here in your embedding information. [Here](/handbook/it/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding) is where to find the URL's that are available to embed from the public site. ![image of embedding list](images/embedding-list.png)
+    1. You will need to make the data source an "extract" instead of "live" connection for the process to work correctly. If your extract is over 10 million rows or does not follow [the guidelines for extracts](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#guidelines-for-publishing-extracts-to-production-and-ad-hoc-projects), reach out to the data team to use the service account's credentials to on the workbook so that you can use a live connection.
+    1. It will show up in [this list](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) once it is migrated and ready. Use the share URL from here in your embedding information. [Here](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) is where to find the URL's that are available to embed from the public site. ![image of embedding list](images/embedding-list.png)
 
 2. If you the view is Internal (requires sign-on), you can use the normal URL of the view in Tableau. Make sure that you get the URL by navigating to the specific view you want to embed and clicking "share" and copying that URL - the URL from the top of the page in the normal URL bar may not work.
 
@@ -69,7 +69,7 @@ There are a few extra steps to embed any views using a yml file, because you do 
 
 4. Go to the [Gitlab.com repository](https://gitlab.com/gitlab-com/www-gitlab-com) and search "find file" for that file name, it should be a yml file.
 
-5. Update the yml file according to [these guidelines for the performance indicators YML files](/handbook/it/data-team/platform/tableau/tableau-developer-guide/#performance-indicators-yml) using a Merge Request.
+5. Update the yml file according to [these guidelines for the performance indicators YML files](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#performance-indicators-yml) using a Merge Request.
 
 ### Example MR's
 
