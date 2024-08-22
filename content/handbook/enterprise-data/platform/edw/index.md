@@ -216,7 +216,7 @@ At GitLab, we standardize the definition of 'first day of week' across all our s
 
 ###### Key Points
 
-- The week starts on _Monday_ and ends on _Sunday_.
+- The week starts on *Monday* and ends on *Sunday*.
 - This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter.
 - This standard is consistent with many functional analyst teams' practices.
 
