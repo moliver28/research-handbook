@@ -1,5 +1,5 @@
 ---
-title: Retrieval Augmented Generation (RAG) for GitLab Duo on self-managed
+title: "Retrieval Augmented Generation (RAG) for GitLab Duo on self-managed"
 status: proposed
 creation-date: "2024-01-25"
 authors: [ "@shinya.maeda", "@mikolaj_wawrzyniak" ]

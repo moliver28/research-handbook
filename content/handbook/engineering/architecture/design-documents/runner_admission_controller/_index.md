@@ -1,5 +1,5 @@
 ---
-title: GitLab Runner Admissions Controller
+title: "GitLab Runner Admissions Controller"
 status: proposed
 creation-date: "2023-03-07"
 authors: [ "@ajwalker", "@johnwparent"  ]

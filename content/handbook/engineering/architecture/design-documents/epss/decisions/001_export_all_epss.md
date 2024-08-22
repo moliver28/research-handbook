@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::secure"
 title: 'EPSS Support ADR 001: Export all EPSS entries'
+toc_hide: true
 ---
 
 ## Context

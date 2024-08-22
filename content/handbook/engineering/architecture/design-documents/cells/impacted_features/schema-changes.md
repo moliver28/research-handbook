@@ -2,6 +2,7 @@
 stage: enablement
 group: Tenant Scale
 title: 'Cells: Schema changes'
+toc_hide: true
 ---
 
 {{% alert %}}

@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::data stores" # because Tenant Scale is under this
 title: 'Cells ADR 006: Use Geo for Disaster Recovery'
+toc_hide: true
 ---
 
 ## Context

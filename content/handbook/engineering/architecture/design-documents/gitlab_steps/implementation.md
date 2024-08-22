@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::verify"
-title: Implementation details for CI Steps.
+title: "Implementation details for CI Steps."
+toc_hide: true
 ---
 
 ## Baseline Step Proto

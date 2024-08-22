@@ -1,5 +1,5 @@
 ---
-title: Repository Backups
+title: "Repository Backups"
 status: proposed
 creation-date: "2023-04-26"
 authors: [ "@proglottis" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 <!-- For long pages, consider creating a table of contents.  The `[_TOC_]`

@@ -1,13 +1,13 @@
 ---
+title: "References"
 status: proposed
 creation-date: "2023-06-21"
 authors: [ "@fabiopitino" ]
 coach: [ ]
 approvers: [ ]
 owning-stage: ""
+toc_hide: true
 ---
-
-# References
 
 ## Related design docs
 

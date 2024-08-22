@@ -1,9 +1,8 @@
 ---
 owning-stage: "~devops::data stores"
 title: 'Cells ADR 009: Initial Cell Sizes'
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 ## Context
 

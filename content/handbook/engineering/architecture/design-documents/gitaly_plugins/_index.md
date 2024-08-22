@@ -1,5 +1,5 @@
 ---
-title: Gitaly Plugins
+title: "Gitaly Plugins"
 status: proposed
 creation-date: "2023-02-01"
 authors: [ "@samihiltunen" ]

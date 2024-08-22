@@ -1,5 +1,6 @@
 ---
 title: "Compliance Standards Adherence Dashboard MVC"
+toc_hide: true
 ---
 
 ## Context

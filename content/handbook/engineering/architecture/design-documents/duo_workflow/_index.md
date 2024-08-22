@@ -1,5 +1,5 @@
 ---
-title: GitLab Duo Workflow
+title: "GitLab Duo Workflow"
 status: ongoing
 creation-date: "2024-05-17"
 authors: [ "@DylanGriffith", "@mikolaj_wawrzyniak"]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Execution Environment

@@ -1,5 +1,6 @@
 ---
 title: 'GitLab CI Events Proposal 4: Defining subscriptions in a dedicated configuration file'
+toc_hide: true
 ---
 
 Each project can have its own configuration file for defining subscriptions to

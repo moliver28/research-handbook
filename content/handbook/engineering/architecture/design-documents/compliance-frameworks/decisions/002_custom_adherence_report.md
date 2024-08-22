@@ -1,5 +1,6 @@
 ---
 title: "Compliance Frameworks ADR 002: Custom Adherence Report"
+toc_hide: true
 ---
 
 ## Context

@@ -1,5 +1,5 @@
 ---
-title: Prompts Migration
+title: "Prompts Migration"
 status: ongoing
 creation-date: "2024-07-22"
 authors: [ "@igor.drozdov" ]
@@ -11,7 +11,6 @@ toc_hide: true
 ---
 
 <!-- Design Doucments often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
