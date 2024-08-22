@@ -66,47 +66,21 @@ Cases are automatically created when;
 
 The cases that will be auto created, are split into 5 distinct categories;
 
-Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.  The cases are labeled as High Priority.
+Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab. 
 
-- Email to Case (customer emails sent to smallbusiness@)
-- Contact Sales Request
-- Hand-Raise PQL
-- Support Ticket
-- SDR Created
+Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption.
 
-Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption. The cases are labeled as Medium Priority.
+Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. 
 
-- Auto Renew recently turned off
-- Renewal with Payment Failure
-
-Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.
-
-- FO Opp
-- FO Opp (Startup)
-- QSRs with Payment Failure
-- Customer MQL
-- Duo Trial Started
-
-Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. The cases are labeled as Medium Priority.
-
-- PO Renewal (includes partner & alliance renewals)
-- EoA Renewal w/ >25 users
-- Multiyear Renewal
-- Renewal Risk: Will Churn
-- Auto Renewal due to fail
-- Free User Limit Sales-Assist
-- Renewal with Duo
-- Missing Renewal Opportunity Case
+Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. 
 
 High Value - These are only created for the highest spending accounts in the segment.
 
-- High Value Account
-- High Value Account check in
-- Future High Value Account
+Instructions and resources for working each case type are found in the consolidated SMB Case Enablement Deck:
 
-The case logic, context behind the case, and CTA can be viewed on the Case Trigger overview sheet.
+[FY25 SMB Advocate Case Instructions and Resources](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g2f4db661fd3_0_1928)
 
-[FY25 SMB Case Triggers](https://docs.google.com/spreadsheets/d/1ihpt5WDpoJmDWa5gA0eXvBJOgFOJgL1J_QxsBuDDowc/edit#gid=1223186811)
+[FY25 SMB Case Triggers](https://docs.google.com/spreadsheets/d/1ihpt5WDpoJmDWa5gA0eXvBJOgFOJgL1J_QxsBuDDowc/edit?gid=1223186811#gid=1223186811)
 
 ## Working with the Global Digital SMB Account Team
 
@@ -159,6 +133,8 @@ You can now return to this report at any time to check;
 ### SMB Advocate Case Workflow
 
 [FY25: SMB Advocate Enablement](https://docs.google.com/presentation/d/1IWgcHXbFN5UVNHCWXtF1fKj_9k5h5KlQGClY-2RbqUE/edit#slide=id.g12b319f6181_0_5)
+
+[FY25: SMB Advocate Enablement (H2 Update)](https://docs.google.com/presentation/d/1r3vvFUXvkfXFPYgjTlhCFw4heggj225PrJ7mLMU0lcY/edit#slide=id.g12b319f6181_0_5)
 
 - If a SMB Advocate has capacity, they will click on an open case in the AMER or EMEA SMB Sales Team Queue and assign it to themselves, by changing the Case Owner.
 - High Priority cases should always be picked up first.
@@ -345,13 +321,6 @@ Whilst working the case, the lead on the case should either be;
 If an opportunity is uncovered whilst working an Expansion Opportunity case, a new Growth/ Add On opp should be created, and linked to the case via the Opportunity lookup field. An Add On opp must be created from the prior closed won renewal opp that exists on the account.
 If the customer is looking to upgrade to Ultimate/ add users at the time of renewal, the existing Renewal opp should be linked to the case.  The renewal opp should also be used for any new quotes that are generated.
 
-## Email Templates
-
-In order to standardize outreach, and increase the efficiency in which Advocates can engage with cases.  We have pre-set email templates that can be used, based on which Case trigger you are engaging with.
-The email templates, and which Case Trigger they are relevant to, are listed in the below doc (as well as on the Case Trigger overview sheet).
-
-[SMB Email Templates](https://docs.google.com/document/d/1eQgdVObeQe5_xMdBeAKiWOzIaWZstWInodScm2Lm924/edit#heading=h.qzkw31beo6xk)
-
 ## Case Hygiene
 
 ### Case SLA
@@ -402,8 +371,8 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - [SMB AMER Case Queue](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000000LaDN2A0/view?queryScope=userFolders)
 - [SMB EMEA Case Queue](https://gitlab.lightning.force.com/one/one.app#/sObject/00OPL000000LaRt2AK/view)
 - [SMB AMER Team Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000UbBp2AK/view?queryScope=userFolders)
-- [SMB EMEA Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000WJU92AO/view?queryScope=userFolders)
-- [SMB Advocate Dash](https://gitlab.lightning.force.com/lightning/r/sObject/01ZPL000000VuM52AK/view?queryScope=userFolders)
+- [SMB EMEA Team Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000WJU92AO/view?queryScope=userFolders)
+- SMB Advocate Scorecard ([AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000013pi92AA/view?queryScope=userFolders)/ [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001E2PZ2A0/view?queryScope=userFolders))
 
 ## FAQ
 
@@ -420,7 +389,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. As an GitLab Team Member who is not part of the SMB Team, how do I engage with the team?
 - A. Follow the process above entitled *Working with the Global Digital SMB Account Team*.
 - Q.  What happens if the end user speaks a different language than I do?
-- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tab #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
+- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tag #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
 - Q. As an Advocate, if I pick up a FO Opp case, and discover the customer is actually a MM account, what do I do?
 - A. Follow the below steps;
   - If the FO Opp is still in Stage 0, advise the SDR via Chatter that they should loop in the MM AE.
