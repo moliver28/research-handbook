@@ -49,7 +49,7 @@ The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operat
 
 Active Campaigns: [Email Content - GitLab Internal Only](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit)
 
-For an additional overview of our CSE team-specific responsibilities, please reference our Job Family: [CSE Responsibilities & Requirements](/job-families/sales/customer-success-management/?_gl=1*fsm4r7*_ga*ODM3MjY1MzkwLjE2NDY0MTE4NTk.*_ga_ENFH3X7M5Y*MTY5MDgzODIzNC4yMzEuMS4xNjkwODQwMTY3LjAuMC4w#customer-success-engineer-cse)
+For an additional overview of our CSE team-specific responsibilities, please reference our Job Family: [CSE Responsibilities & Requirements](/job-families/sales/customer-success-engineer)
 
 ### <i class="fa-solid fa-book" style="color: #B197FC;"></i> **CSE Content Handbook**
 
