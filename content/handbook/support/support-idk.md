@@ -11,7 +11,7 @@ source when possible.
 
 The IDK was inspired by [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6327),
 with the goal of providing definitions for commonly-used support terms. This
-also aligns with handbook style item [acronyms and initialisms](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#acronyms-and-initialisms).
+also aligns with handbook style item [acronyms and initialisms](/../marketing/brand-and-product-marketing/brand/content-style-guide/#acronyms-and-initialisms).
 
 ## F
 
