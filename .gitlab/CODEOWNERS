@@ -649,6 +649,7 @@
 /.gitignore
 /.gitlab-ci.yml
 /.markdownlint-cli2.jsonc
+/.pre-commit-config.yaml
 /.vale.ini
 /.vale/
 /config/
