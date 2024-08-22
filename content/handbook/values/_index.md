@@ -8,9 +8,9 @@ no_list: true
 weight: -20
 ---
 
+<!-- markdownlint-disable MD001 MD051 -->
 ## CREDIT
 
-<!-- markdownlint-disable MD001 MD051 -->
 GitLab's six core values are
 [**🤝 Collaboration**](#collaboration),
 [**📈 Results for Customers**](#results),
