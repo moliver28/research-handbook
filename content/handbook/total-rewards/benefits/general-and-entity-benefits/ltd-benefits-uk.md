@@ -333,7 +333,7 @@ Team members are entitled to at least 28 vacation days which consist of 20 days 
 - Entitlement to vacation leave is pro rata for any part-time team members based on hours worked.
 - It is important for UK team members to utilize time off for public holidays as the total amount of annual leave is accrued here inclusive of public holidays.
 - Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
-- Under normal circumstances, there is no carryover for unused vacation days, with exceptions where a team member cannot take annual leave due to sickness or maternity leave; however, given the situation surrounding COVID-19, the UK government has relaxed measures on the carry over of annual leave for the following two calendar years: 2020-2021 and 2021-2022.
+- Under normal circumstances, there is no carryover for unused vacation days, with exceptions where a team member cannot take annual leave due to sickness or maternity leave.
 
 ### Parental Leave
 
