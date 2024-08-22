@@ -231,8 +231,8 @@ At GitLab, we standardize the definition of 'first day of week' across all our s
 - The `first_day_of_week` is calculated in the `date_details_source` model using the following logic:
 
   ```sql
-  CASE WHEN day_name = 'Sun' THEN date_day
-       ELSE DATEADD('day', -1, DATE_TRUNC('week', date_day))
+  CASE WHEN day_name = 'Mon' THEN date_day
+       ELSE DATE_TRUNC('week', date_day)
   END AS first_day_of_week
   ```
 
