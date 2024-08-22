@@ -319,8 +319,6 @@ for contributors to ask questions or get mentorship.
 
 ### First-time contributors
 
-The first-time contributors can be identified after each release in the [First time contributors MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/df97f810-f397-11e8-8fe1-b354a33b38be).
-
 Every time a contributor is opening a merge request to a GitLab namespace for the first time, the label "~1st contribution" is automatically applied to the merge request.
 
 Once the merge request is reviewed and merged, the contributor can apply for the `#myfirstMRmerged` gift via a self-nomination form on the [nominations for GitLab swag page](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#nomination-process).
