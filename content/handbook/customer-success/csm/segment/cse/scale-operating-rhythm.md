@@ -30,7 +30,7 @@ The CSE Team delivers monthly webinars and hands-on labs that are available to a
 
 #### Preparing for and Delivering a Webinar
 
-The upcoming month's webinar dates are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) and the CSE team is asked to sign up as host or Q&A support.  The zoom webinars are created by CS Operations and then the webinar details are added to the webinar calendar.
+The upcoming month's webinar dates are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) and the CSE team is asked to sign up as DRIs.
 
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
@@ -58,7 +58,7 @@ Here is a quick video guide on how to host the webinar, including steps for shar
 
 #### Preparing for and Delivering a Hands-on Lab
 
-The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support.
+The upcoming month's hands-on labs are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) (separate from the webinar schedule) and the CSE team is asked to sign up as DRIs.
 
 ##### Lab Environment Request
 
