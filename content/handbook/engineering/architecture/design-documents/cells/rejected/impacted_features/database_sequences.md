@@ -10,7 +10,6 @@ toc_hide: true
 
 _This was surpassed by the [Cells: Unique sequences](../../unique_sequences.md) blueprint._
 
-
 {{% alert %}}
 This document is a work-in-progress and represents a very early state of the
 Cells design. Significant aspects are not documented, though we expect to add

@@ -10,7 +10,6 @@ toc_hide: true
 
 _This proposal was superseded by the [routing service proposal](../http_routing_service.md)_
 
-
 {{% alert %}}
 This document is a work-in-progress and represents a very early state of the
 Cells design. Significant aspects are not documented, though we expect to add

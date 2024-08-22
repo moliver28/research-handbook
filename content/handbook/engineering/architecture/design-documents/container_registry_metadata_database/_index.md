@@ -12,7 +12,6 @@ toc_hide: true
 
 {{< design-document-header >}}
 
-
 ## Usage of the GitLab container registry
 
 With the [container registry](https://gitlab.com/gitlab-org/container-registry) integrated into GitLab, every GitLab project can have its own space to store its Docker images. You can use the registry to build, push and share images using the Docker client, CI/CD or the GitLab API.

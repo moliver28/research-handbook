@@ -10,9 +10,6 @@ participating-stages: [ "~section::dev" ]
 toc_hide: true
 ---
 
-<!-- Design Doucments often contain forward-looking statements -->
-
-
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 

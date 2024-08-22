@@ -59,7 +59,6 @@ Blueprint statuses you can use:
 
 -->
 
-
 {{< design-document-header >}}
 
 ## Summary

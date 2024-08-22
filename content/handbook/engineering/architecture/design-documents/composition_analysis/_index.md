@@ -11,15 +11,11 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Design Doucments often contain forward-looking statements -->
-
-
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
 <!--
 Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
-
 For long pages, consider creating a table of contents.
 -->
 

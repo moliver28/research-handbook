@@ -61,7 +61,6 @@ Blueprint statuses you can use:
 
 -->
 
-
 <!--
 This is the title of your blueprint. Keep it short, simple, and descriptive. A
 good title can help communicate what the blueprint is and should be considered

@@ -12,7 +12,6 @@ toc_hide: true
 
 {{< design-document-header >}}
 
-
 ## Summary
 
 Keeping Model experiments and model registry as two different features will add
