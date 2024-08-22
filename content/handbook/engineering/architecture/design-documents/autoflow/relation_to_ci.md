@@ -5,6 +5,8 @@ title: "Relation of GitLab AutoFlow to GitLab CI"
 toc_hide: true
 ---
 
+{{< design-document-header >}}
+
 GitLab CI and GitLab AutoFlow are different tools for solving different sets of problems. Here are the differences based
 on the
 [PoC](https://gitlab.com/groups/gitlab-org/-/epics/12571#note_1759648935) / [demo implementation](https://gitlab.com/gitlab-org/ci-cd/section-showcases/-/issues/54)
