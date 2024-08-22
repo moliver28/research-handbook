@@ -29,24 +29,25 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-The Package Metadata Database (PMDB) (formally [external license DB](https://gitlab.com/groups/gitlab-org/-/epics/8492)) houses both license
+The Package Metadata Database (PMDB) (formerly [external license DB](https://gitlab.com/groups/gitlab-org/-/epics/8492)) houses both license
 and advisory data in an external PostgreSQL database hosted in GCP. GitLab is investigating
 adding additional package metadata to this database which makes it infeasible to copy or
 export all data directly to customers instances.
 
 Current operation of this database assumes data is to be first collected in this GCP
 database, and then data is to be pulled down by individual GitLab instances, whether
-it's GitLab.com or customer managed on-premise systems.
+it's GitLab.com, self-managed, or Dedicated. There are also considerations to be made for
+Offline (air-gapped) instances.
 
-This proposal proposes different methods of storage or architectures to allow additional
-package metadata that may or may not be pulled directly to customers instances.
+This proposal includes different methods of storage or architectures to expand
+the package metadata information that is available to GitLab instances.
 
 ## Motivation
 
 The PMDB is a datastore that could benefit by being extended to house additional
-package metadata. This could include other data such as project health (OpenSSF scores),
-additional links to dependent packages, author information, and any other metadata that
-could be useful by GitLab or our customers to make security critical decisions about their
+package metadata. For example: project health (OpenSSF scores), additional links 
+to dependent packages, author information, and any other information that could 
+be used by GitLab or our customers to make security critical decisions about project
 dependencies.
 
 Customers may want to opt into collecting some of this data locally in their instances, where
@@ -58,15 +59,16 @@ or other information.
 
 ### Goals
 
-- Define how much data is "too much data" to be housed in the PMDB and GitLab instances
-- Determine additional architectures that would allow GitLab to collect additional metadata for packages and versions
+- Define data volume limits for PMDB and GitLab instances
+- Determine architecture choices that enable GitLab to extend the PMDB
 - Determine what types of additional data GitLab wishes to house
-- Make architectural decisions which will easily allow additional data sources in the future to be added
-- Agree and design an architecture which can allow for the above points in a performant manner
+- Make architectural decisions that enable future additions
+- Choose a proposal that allows the above in a performant manner
 
 ### Non-Goals
 
 - Move away from the current PMDB architecture and how data is fed into it.
+- Devise new synchronization mechanisms between the PMDB and GitLab instances.
 
 ## Proposal
 
