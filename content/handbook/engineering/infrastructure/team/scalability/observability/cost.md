@@ -32,11 +32,9 @@ You can find the view [here](https://lookerstudio.google.com/s/kJQfeVRUsdM).
 **How the Views Are Built**
 
 1. **GKE Cluster Cost and Usage Calculation**  
-   [Query Link]  
    This query assesses the cost of the GKE cluster and tracks CPU/memory usage for each namespace using data from the `gke_usage_metering.gke_cluster_resource_usage` table in BigQuery and GCP billing export. Costs are calculated based on the weighted average resource usage by namespace.
 
 2. **GCP SKU Resources Query**  
-   [Query Link]  
    This query lists all GCP SKU resources related to our tooling (e.g., Mimir, Thanos, Sentry), including their descriptions and daily prices.
 
 **What the Views Display**
