@@ -584,7 +584,7 @@
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
-/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2
+/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
@@ -638,31 +638,31 @@
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 
 ##
-## Please keep the required handbook sections near the end, with the exception of fallback items, such as `handbook` and `Job Families`
+## Please keep the _required_ handbook sections near the end
 ##
-[CODEOWNERS] @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
-/.gitlab/
+[CODEOWNERS]
+/.gitlab/ @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
 
-[handbook-operations] @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
-/.editorconfig
-/.gitignore
-/.gitlab-ci.yml
-/.markdownlint-cli2.jsonc
-/.vale.ini
-/.vale/
-/config/
-/content/_index.html
-/content/featured-background.png
-/CONTRIBUTING.md
-/Dangerfile
-/go.mod
-/go.sum
-/layouts/
-/LICENSE
-/package-lock.json
-/package.json
-/README.md
-/scripts/
+[handbook-operations]
+/.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.vale.ini @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.vale/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/Dangerfile @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/LICENSE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/package-lock.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/package.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
@@ -679,7 +679,6 @@
 [SOX-Documents]
 /content/handbook/engineering/gitlab-com/policies/teleport/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 
-## Controlled Documents must be in this section, and it must be the last section
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
