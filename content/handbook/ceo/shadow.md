@@ -99,7 +99,7 @@ If you have questions about your individual case, please contact the EBA to the 
 
 ### How to apply
 
-1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule), assigning yourself.
+1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule), assigning yourself. (Pro tip: if you're from a less technical background, consider pairing up with someone who is which will make the note-taking process easier for both as you'll bring different areas of expertise to the table.)
 1. Add your manager as a reviewer and ask them to approve (**but not to merge**) the merge request.
 1. Once your manager approves the merge request, add your e-group leader as a reviewer and ask them to also approve (**but not to merge**) the merge request.
 1. Once your e-group member approves, add the [Staff Executive Business Admin (EBA) to CEO](/handbook/eba/) as a reviewer.
