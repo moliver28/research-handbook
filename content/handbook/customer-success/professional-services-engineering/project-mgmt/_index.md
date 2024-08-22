@@ -24,10 +24,11 @@ Given the close collaboration between the PS Project Management and PS Operation
    * Step 3: PSops works with PMO Manager on PM assignment
    * Step 4: PM confirms information & PSops Schedules PSE
    * Step 5: [Introductions - EM/AE](https://docs.google.com/document/d/1g8ku5KxKZJwSHgXpldhS_YErELX0K8XOe1qL7jRgx9s/edit)
-   * Step 6: Collaboration approach & Onboarding Gathered by PM
-   * Step 7: Collaboration Space Preparation - PM
-   * Step 8: Conduct Stakeholder Meeting - PM
-   * Step 9: Step 9: Conduct Kickoff & Forecast Updates - PM
+   * Step 6: [Follow Up Email to Customer PM](https://docs.google.com/document/d/16f8P6Mg1ZXJ8L8nACVDGM2ziXtiMWe0oYyQT11AnNS0/edit)
+   * Step 7: Collaboration approach & Onboarding Gathered by PM
+   * Step 8: Collaboration Space Preparation - PM
+   * Step 9: [Conduct Stakeholder Meeting - PM](https://docs.google.com/presentation/d/1d4N8_tXbxZ_rCRy3tUnW1W3dZCfgI03wuhOyxNCeA7g/edit#slide=id.g59bfc474c5_2_145)
+   * Step 10: Conduct Kickoff & Forecast Updates - PM
 
 #### Collaboration Space Guidelines
 
