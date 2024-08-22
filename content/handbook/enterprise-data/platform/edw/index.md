@@ -212,19 +212,19 @@ It is critical to be intentional when organizing a self-service data environment
 
 ##### Definition of First Day Of Week
 
-At GitLab, we standardize the definition of 'first day of week' across all our systems to consistently use Sunday as the first day of the week. This standard applies to all data models, reports, and analyses within the Enterprise Data Warehouse.
+At GitLab, we standardize the definition of 'first day of week' across all our systems to consistently use **Monday** as the first day of the week. This standard applies to all data models, reports, and analyses within the Enterprise Data Warehouse.
 
 ###### Key Points
 
-- The week starts on Sunday and ends on Saturday.
-- This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter. (After setting the Snowflake `WEEK_START` parameter to 7 at account-level)
+- The week starts on _Monday_ and ends on _Sunday_.
+- This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter.
 - This standard is consistent with many functional analyst teams' practices.
 
 ###### Rationale
 
 1. **Consistency**: This standardization improves consistency in our reporting across different teams and systems.
 2. **Accuracy**: It prevents potential misreporting of metrics, especially as we increase our use of weekly reporting.
-3. **Alignment**: It aligns our practices with common business standards and the preferences of many of our functional teams.
+3. **Alignment**: It aligns our practices with common business and international standards (ISO 8601).
 
 ###### Implementation
 
@@ -232,7 +232,7 @@ At GitLab, we standardize the definition of 'first day of week' across all our s
 
   ```sql
   CASE WHEN day_name = 'Sun' THEN date_day
-       ELSE DATE_TRUNC('week', date_day)
+       ELSE DATEADD('day', -1, DATE_TRUNC('week', date_day))
   END AS first_day_of_week
   ```
 
