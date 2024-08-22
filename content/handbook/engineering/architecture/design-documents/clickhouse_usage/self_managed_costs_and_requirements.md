@@ -1,5 +1,6 @@
 ---
-title: ClickHouse Self-Managed component costs and maintenance requirements
+title: "ClickHouse Self-Managed component costs and maintenance requirements"
+toc_hide: true
 ---
 
 ## Summary

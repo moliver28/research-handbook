@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::data stores" # because Tenant Scale is under this
 title: 'Cells ADR 003: One GKE Cluster per Cell'
+toc_hide: true
 ---
 
 ## Context

@@ -1,5 +1,5 @@
 ---
-title: Pipeline Execution Policy
+title: "Pipeline Execution Policy"
 status: ongoing
 creation-date: "2023-11-23"
 authors: [ "@Andysoiron", "@g.hickman", "@mcavoj" ]

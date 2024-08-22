@@ -1,5 +1,5 @@
 ---
-title: CI/CD Build Speed
+title: "CI/CD Build Speed"
 status: ongoing
 creation-date: "2024-01-12"
 authors: [ "@grzesiek" ]
@@ -8,7 +8,6 @@ approvers: [ "@gabrielengel_gl"]
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

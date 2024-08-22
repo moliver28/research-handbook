@@ -1,5 +1,5 @@
 ---
-title: GitLab Housekeeper - automating merge requests
+title: "GitLab Housekeeper - automating merge requests"
 status: implemented
 creation-date: "2023-10-18"
 authors: [ "@DylanGriffith" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

@@ -1,10 +1,11 @@
 ---
-title: CI Build Speed Benchmarking Framework
+title: "CI Build Speed Benchmarking Framework"
 status: ongoing
 creation-date: "2024-01-12"
 authors: [ "@grzesiek" ]
 coach: "@grzesiek"
 approvers: [ "@gabrielengel_gl"]
+toc_hide: true
 ---
 
 In order to understand how GitLab CI performs in terms of CI build speed, we

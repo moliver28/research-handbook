@@ -1,5 +1,5 @@
 ---
-title: AutoFlow - workflows for automation
+title: "AutoFlow - workflows for automation"
 status: proposed
 creation-date: "2024-02-16"
 authors: [ "@ash2k", "@ntepluhina" ]
@@ -10,8 +10,6 @@ participating-stages: [ "~devops::plan" ]
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 Automation + Workflow = AutoFlow.

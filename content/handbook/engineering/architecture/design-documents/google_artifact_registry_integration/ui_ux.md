@@ -2,6 +2,7 @@
 stage: package
 group: container registry
 title: 'UI/UX for Google Artifact Registry Integration'
+toc_hide: true
 ---
 
 ## Structure and Organization

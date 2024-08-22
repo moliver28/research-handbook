@@ -1,5 +1,5 @@
 ---
-title: Reusable Rapid Diffs (RRD)
+title: "Reusable Rapid Diffs (RRD)"
 status: proposed
 creation-date: "2023-10-10"
 authors: [ "@patrickbajao", "@igor.drozdov", "@jerasmus", "@iamphill", "@slashmanov", "@psjakubowska", "@thomasrandolph" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

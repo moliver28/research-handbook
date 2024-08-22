@@ -1,5 +1,5 @@
 ---
-title: Automate CustomersDot Plan management
+title: "Automate CustomersDot Plan management"
 status: proposed
 creation-date: "2024-02-07"
 authors: [ "@vshumilo" ]

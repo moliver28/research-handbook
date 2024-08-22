@@ -1,5 +1,5 @@
 ---
-title: Next Runner Auto-scaling Architecture
+title: "Next Runner Auto-scaling Architecture"
 status: ongoing
 creation-date: "2022-01-19"
 authors: [ "@grzesiek", "@tmaczukin", "@josephburnett" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

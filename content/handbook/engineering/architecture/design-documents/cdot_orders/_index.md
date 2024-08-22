@@ -1,5 +1,5 @@
 ---
-title: Align CustomersDot Orders with Zuora Orders
+title: "Align CustomersDot Orders with Zuora Orders"
 status: proposed
 creation-date: "2023-10-12"
 authors: [ "@tyleramos" ]

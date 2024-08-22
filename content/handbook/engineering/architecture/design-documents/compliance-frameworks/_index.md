@@ -1,5 +1,5 @@
 ---
-title: Compliance Frameworks
+title: "Compliance Frameworks"
 status: ongoing
 creation-date: "2024-07-08"
 authors: [ "@nrosandich", "@huzaifaiftikhar1" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

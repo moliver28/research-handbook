@@ -6,6 +6,7 @@ creation-date: "2024-07-10"
 authors: [ "@rehab", "" ]
 coach:
 approvers: ["@josephburnett", "@tmaczukin", "@amknight", "@skarbek"]
+toc_hide: true
 ---
 
 {{< design-document-header >}}

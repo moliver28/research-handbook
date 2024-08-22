@@ -1,5 +1,6 @@
 ---
 title: "Compliance Frameworks ADR 001: Triggering Checks"
+toc_hide: true
 ---
 
 ## Context

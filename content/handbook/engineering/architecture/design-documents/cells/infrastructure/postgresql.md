@@ -1,5 +1,5 @@
 ---
-title: Database Platform
+title: "Database Platform"
 status: wip
 creation-date: "2024-02-06"
 authors: [ "@alexander-sosna" ]
@@ -7,6 +7,7 @@ coach: [ "@andrewn" ]
 approvers: [  ]
 owning-stage: "~devops::data_stores"
 participating-stages: []
+toc_hide: true
 ---
 
 {{< design-document-header >}}

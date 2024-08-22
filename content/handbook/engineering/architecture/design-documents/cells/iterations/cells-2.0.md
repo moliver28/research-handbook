@@ -2,6 +2,7 @@
 stage: core platform
 group: Tenant Scale
 title: 'Cells: 2.0'
+toc_hide: true
 ---
 
 This document describes a technical proposal for a Cells 2.0 that builds on top of [Cells 1.5](cells-1.5.md).

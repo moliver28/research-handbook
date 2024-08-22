@@ -1,5 +1,5 @@
 ---
-title: Use Zoekt For code search
+title: "Use Zoekt For code search"
 status: ongoing
 creation-date: "2022-12-28"
 authors: [ "@dgruzd", "@DylanGriffith" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

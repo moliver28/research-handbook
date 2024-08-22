@@ -1,6 +1,7 @@
 ---
 title: 'Use case study: using secrets in a CI job'
 owning-stage: "~devops::verify"
+toc_hide: true
 ---
 
 ## Objectives

@@ -1,5 +1,5 @@
 ---
-title: Utilize bundle-uri to reduce Gitaly CPU load
+title: "Utilize bundle-uri to reduce Gitaly CPU load"
 status: proposed
 creation-date: "2023-08-04"
 authors: [ "@toon" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

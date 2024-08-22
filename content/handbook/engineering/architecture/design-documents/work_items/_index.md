@@ -1,5 +1,5 @@
 ---
-title: Work Items
+title: "Work Items"
 status: accepted
 creation-date: "2022-09-28"
 authors: [ "@ntepluhina" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 This document is a work-in-progress. Some aspects are not documented, though we expect to add them in the future.

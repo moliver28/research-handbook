@@ -2,6 +2,7 @@
 stage: core platform
 group: Database
 title: 'Cells ADR 008: Cluster wide unique database sequences'
+toc_hide: true
 ---
 
 ## Context

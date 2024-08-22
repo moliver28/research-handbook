@@ -3,9 +3,8 @@ stage: core platform
 group: Tenant Scale
 title: 'Cells: Topology Service'
 status: accepted
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 This document describes design goals and architecture of Topology Service
 used by Cells.

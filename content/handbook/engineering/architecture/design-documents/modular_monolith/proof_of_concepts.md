@@ -1,12 +1,12 @@
 ---
+title: "Modular Monolith: PoCs"
 status: proposed
 creation-date: "2023-07-05"
 authors: [ "@grzesiek", "@fabiopitino" ]
 coach: [ ]
 owners: [ ]
+toc_hide: true
 ---
-
-# Modular Monolith: PoCs
 
 Modularization of our monolith is a complex project. There will be many
 unknowns. One thing that can help us mitigate the risks and deliver key

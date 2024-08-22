@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL
+title: "PostgreSQL"
 status: proposed
 creation-date: "2024-01-25"
 authors: [ "@shinya.maeda", "@mikolaj_wawrzyniak" ]
@@ -7,6 +7,7 @@ coach: [ "@stanhu" ]
 approvers: [ "@pwietchner", "@oregand", "@tlinz" ]
 owning-stage: "~devops::ai-powered"
 participating-stages: ["~devops::data stores", "~devops::create"]
+toc_hide: true
 ---
 
 ## Retrieve GitLab Documentation
