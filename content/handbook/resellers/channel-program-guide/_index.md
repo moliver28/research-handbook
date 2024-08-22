@@ -33,7 +33,7 @@ The GitLab Partner Program consists of three tracks and one designation to suppo
 | \# of Solutions Architect Verified Associates                                      | 1            | 2                           | 2                                                                                                                |
 | \# of GitLab Professional Services Engineer (PSE)                                  |              | 1                           | 3                                                                                                                |
 | Exec Sponsored Joint Business Plan                                                 |              | X                           |                                                                                                                  |
-| Business Plan Commitments                                                          |              | $300K                       | [PSP](../resellers/channel-program-guide/#gitlab-psp-designation-requirements) |
+| Business Plan Commitments                                                          |              | $300K                       | [PSP](#gitlab-partner-services-program) |
 |                                                                                    |              |                             |                                                                                                                  |
 | **Sales Benefits**                                                                     |              |                             |                                                                                                                  |
 | Deal Registration Discounts                                                        | X            | X                           | X                                                                                                                |
@@ -95,17 +95,17 @@ GitLab Professional Services Partner Designation (PSP) has partner program, comp
 
 - Delivery Requirements
 
- 1. Each PSP must enter an average of at least 2 [Service Attach Registrations](/handbook/resellers/channel-working-with-GitLab/#how-services-attached-registrations-work) per GitLab Fiscal Quarter.
- 2. As a note, the GitLab fiscal year starts on February 1 of each year.
- 3. When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
- 4. Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
+  1. Each PSP must enter an average of at least 2 [Service Attach Registrations](/handbook/resellers/channel-working-with-GitLab/#how-services-attached-registrations-work) per GitLab Fiscal Quarter.
+  2. As a note, the GitLab fiscal year starts on February 1 of each year.
+  3. When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
+  4. Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
 
 #### GitLab PSP Designation Information
 
-1.The GitLab Partner team will communicate new PSP designations via email and will reflect the designation in the GitLab Partner Locator.
-2.Partners who received their PSP designation prior to Nov. 2023 will have until their next annual audit to become compliant with the new criteria.
-3.The annual audits are performed quarterly, and will begin during Q1FY25 (Feb. 2024-Apr. 2024).
-4.Service delivery requirement will be prorated for the period between Nov. 2023-Nov. 2024.
+1. The GitLab Partner team will communicate new PSP designations via email and will reflect the designation in the GitLab Partner Locator.
+2. Partners who received their PSP designation prior to Nov. 2023 will have until their next annual audit to become compliant with the new criteria.
+3. The annual audits are performed quarterly, and will begin during Q1FY25 (Feb. 2024-Apr. 2024).
+4. Service delivery requirement will be prorated for the period between Nov. 2023-Nov. 2024.
 
 #### Maintaining PSP Designation
 
