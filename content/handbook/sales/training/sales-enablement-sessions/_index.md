@@ -13,7 +13,6 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Aug 22  | Data Driven Territory Planning  | RSOE Team |
 | Aug 29  | TBD |   |
 | Sep 5  | Gartner MQ Overview  | Marketing |
 | Sep 12  |  GitLab Click-through Demos & Product Tours    |  SA Team     |
@@ -32,6 +31,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-08-22  | **[Data Driven Territory Planning](https://drive.google.com/file/d/1k4BWX7N3w8zUsN52dMV7A5GqMD-Wa7Yr/view?usp=drive_link)**  | Private |
 | 2024-08-15  | **[Duo Enterprise Revenue Play & Accreditation](https://drive.google.com/file/d/1ohmyxBrGxhb7I9lfvnFW_KgGfQJPDMwy/view?usp=drive_link)** | Private |
 | 2024-08-08 | **[Duo Enterprise Launch Updates & Key Dates](https://drive.google.com/file/d/1QT_yKG1AQyiI_F6hjyfuMeSYz4M7riQM/view?usp=sharing)** | Private |
 | 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
