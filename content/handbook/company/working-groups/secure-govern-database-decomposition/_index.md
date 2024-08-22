@@ -98,13 +98,17 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 
 ##### Decomposition
 
-| Slice   | % Done | Estimated completion |
-| ---     | ---    | ---                  |
-| Slice 1 | 57%    | 2024-11              |
-| Slice 2 | 24%    | 2025-02              |
-| Slice 3 | 17%    | 2025-02              |
+| Slice              | % Done | Estimated completion |
+| ---                | ---    | ---                  |
+| [Slice 1][slice-1] | 57%    | 2024-11              |
+| [Slice 2][slice-2] | 24%    | 2025-02              |
+| [Slice 3][slice-3] | 17%    | 2025-02              |
 
 Last update: [2024-08-20](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2060146226).
+
+[slice-1]: https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true
+[slice-2]: https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true
+[slice-3]: https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true
 
 ### Plan
 
