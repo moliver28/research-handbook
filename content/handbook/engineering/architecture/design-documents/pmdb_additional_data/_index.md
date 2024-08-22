@@ -79,10 +79,6 @@ High Level:
 - Consider designing another system that could house dependency source code
 - Consider alternative database storage systems that would allow us to easy add additional data types/metadata to be collected
 
-This proposal is many a RFC where we collectively should discuss how we may want to move forward with adding additional data
-to allow a central location for all dependency related metadata. Additionally, where applicable, it may be worth adding more
-systems that augment the PMDB.
-
 ## Design and implementation details
 
 ### Too much data
@@ -111,6 +107,10 @@ simple Go hashmap where the key is a concatenation of: language + package name +
 
 Given that machines can easily and rather cheapily (compared to running a database server) run with 32-64GB of memory, it's not infeasible to run this API service 
 with all data directly from memory. Data could be periodicaly loaded from the GCP buckets directly.
+
+#### External API Concerns
+
+We will need to have a solution available to offline and dedicated instances. We would also need to have this infrastructure either managed by the infrastructure team, or have it added to the [GitLab IP Range](https://docs.gitlab.com/ee/user/gitlab_com/#ip-range).
 
 ### External Code Repository for dependencies
 
