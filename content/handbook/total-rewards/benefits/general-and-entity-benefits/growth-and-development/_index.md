@@ -176,9 +176,9 @@ Examples of English Language Courses:
 
 We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
 
-**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy](/handbook/travel/) for the most up-to-date information about booking and planning conference travel.
+**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy](/handbook/finance/travel/) for the most up-to-date information about booking and planning conference travel.
 
-Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim. 
+Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim.
 
 For any meals, lodging, or travel - these should not be categorised using the `G&D (Growth and Development)` expense type and should be claimed in line with the [Global Travel and Expense Policy](/handbook/finance/expenses/). However, when submitting your T&E expenses, please add a link to your G&D issue in the description.
 

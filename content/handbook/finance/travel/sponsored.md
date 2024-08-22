@@ -3,7 +3,7 @@ title: "Sponsored Travel"
 description: "Sponsored travel is travel usually to a customer site that is sponsored by the customer or entity usually though contractual services such as statements of work."
 ---
 
-Related [Travel](/handbook/travel/)
+Related [Travel](/handbook/finance/travel/)
 {.h3}
 
 Sponsored travel is travel usually to a customer site that is sponsored by the customer or entity usually though contractual services such as statements of work.  Sponsored travel is billable to the customer or entity for paid services.
@@ -78,5 +78,5 @@ Estimate the airfare and car rental prices by using the search sites and choosin
 
 If it is required to have a fixed contract price for sponsored travel, estimate the cost of other billable expenses such as parking, tolls, transportation to and from airport, internet services in hotel or flights, and other expenses that might be necessary to complete the contract successfully.
 
-For any policy not covered in this policy please refer to [Travel](/handbook/travel/)
+For any policy not covered in this policy please refer to [Travel](/handbook/finance/travel/)
 {.h3}

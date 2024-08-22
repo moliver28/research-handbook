@@ -52,7 +52,7 @@ Be transparent in your planning to maximize both attendance and engagement:
 
 1. **Ask for input from your team early and often:** What do folks on your team want to do during their time together? What are they not interested in?
 1. **Set expectations:** Leave nothing as a suprise. Build psychological safety by planning out in the open so folks know what to expect.
-1. **Share resources:** Share resources like our [expense handbook](/handbook/finance/expenses/), [travel handbook](/handbook/travel/), [support for nursing mothers](/handbook/finance/expenses/#supporting-nursing-mothers), and [considerations for working while traveling](/handbook/company/culture/all-remote/working-while-traveling/).
+1. **Share resources:** Share resources like our [expense handbook](/handbook/finance/expenses/), [travel handbook](/handbook/finance/travel/), [support for nursing mothers](/handbook/finance/expenses/#supporting-nursing-mothers), and [considerations for working while traveling](/handbook/company/culture/all-remote/working-while-traveling/).
 1. **Plan in advance:** Some functions and roles at GitLab are accustomed to work travel - others are not. Give time to plan and organize scheules to maximize attendance and presence.
 
 ### Develop a shared reality
@@ -132,7 +132,7 @@ Customize the templates as needed. We suggestion you start with the `Onsite Plan
 
 ## Additional Resources
 
-1. [Travel Guidelines](/handbook/travel/)
+1. [Travel Guidelines](/handbook/finance/travel/)
 1. [Travel support for nursing mothers](/handbook/finance/expenses/#supporting-nursing-mothers)
 1. [Expense Guidelines](/handbook/finance/expenses/)
 1. [Considerations for working while traveling](/handbook/company/culture/all-remote/working-while-traveling/)

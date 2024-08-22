@@ -24,7 +24,7 @@ A comprehensive examination of a Security program, Security Relevant System or S
 
 ### Internal Security Audit
 
-A Security Audit conducted by personnel under the employment of the organization conducting the Audit. For example the [Internal Audit Team](/handbook/internal-audit/) and [Security Compliance Team]({{< ref "security-compliance" >}}) at GitLab conduct Internal Audits of GitLab's Security Program.
+A Security Audit conducted by personnel under the employment of the organization conducting the Audit. For example the [Internal Audit Team](https://internal.gitlab.com/handbook/internal-audit/) and [Security Compliance Team]({{< ref "security-compliance" >}}) at GitLab conduct Internal Audits of GitLab's Security Program.
 
 ### External Security Audit
 

@@ -42,6 +42,10 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
+# Manage/Foundations restructure - Remove 2024-09-01
+/handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301
+/handbook/engineering/development/dev/manage/foundations/ /handbook/engineering/development/dev/foundations/ 301
+
 # Replace aliases - remove 2024-11-01
 /about/support/ /handbook/about/on-call/ 301
 /handbook/amas/ /handbook/company/amas/ 301
@@ -220,10 +224,6 @@
 /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/ 301
 /handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/ 301
 
-# Manage/Foundations restructure - Remove 2024-09-01
-/handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301
-/handbook/engineering/development/dev/manage/foundations/ /handbook/engineering/development/dev/foundations/ 301
-
 # Old redirect pre-migration - remove 2024-12-01
 /handbook/finance/accounting/prepaid/ https://internal.gitlab.com/handbook/finance/accounting/prepaid/ 301
 /handbook/finance/accounting/finance-ops/accounts-receivable/ https://internal.gitlab.com/handbook/finance/accounting/finance-ops/accounts-receivable/ 301
@@ -233,6 +233,17 @@
 /handbook/finance/financial-planning-and-analysis/marketing-finance/ https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/ 301
 /handbook/finance/financial-planning-and-analysis/sales-finance/ https://internal.gitlab.com/handbook/finance/finance-planning-and-analysis/sales-finance/ 301
 /handbook/finance/timekeeping/frequently-asked-questions/ https://internal.gitlab.com/handbook/finance/payroll/timekeeping/frequently-asked-questions/ 301
+
+# Moved out of top-level - remove 2024-12-01
+/handbook/editing-handbook/ /handbook/about/editing-handbook/ 301
+/handbook/editing-handbook/* /handbook/about/editing-handbook/:splat 301
+/handbook/infrastructure-standards/ /handbook/company/infrastructure-standards/ 301
+/handbook/infrastructure-standards/* /handbook/company/infrastructure-standards/:splat 301
+/handbook/internal-audit/ /handbook/finance/internal-audit/ 301
+/handbook/internal-audit/* /handbook/finance/internal-audit/:splat 301
+/handbook/tax/ /handbook/finance/tax/ 301
+/handbook/travel/ /handbook/finance/travel/ 301
+/handbook/travel/* /handbook/finance/travel/:splat 301
 
 # Growth section move from Marketing to Engineering - remove 2024-12-01
 /handbook/marketing/growth/engineering/* /handbook/engineering/development/growth/:splat 301

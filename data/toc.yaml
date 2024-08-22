@@ -79,7 +79,7 @@
   - name: Contribution Guide
     url: /docs/development/
   - name: Editing the handbook
-    url: /handbook/editing-handbook/
+    url: /handbook/about/editing-handbook/
   - name: Handbook Style Guide
     url: /handbook/about/style-guide/
   - name: Handbook maintenance
@@ -332,11 +332,11 @@
   - name: Procurement
     url: /handbook/finance/procurement
   - name: Tax
-    url: /handbook/tax
+    url: /handbook/finance/tax
   - name: Board meetings
     url: /handbook/board-meetings
   - name: Internal Audit
-    url: /handbook/internal-audit
+    url: /handbook/finance/internal-audit
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley

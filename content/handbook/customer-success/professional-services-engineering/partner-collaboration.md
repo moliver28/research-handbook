@@ -191,7 +191,7 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
         - Dates of work completed
         - Travel and expenses (if on site required)
 
-### Delivery Kits 
+### Delivery Kits
 
 Delivery kits are comprehensive packages of resources, tools, and documentation that partners can use to streamline the delivery of GitLab professional services. These kits include:
 
@@ -233,7 +233,7 @@ Before making a purchase of any type or booking travel for a customer project, b
 
 - Expense report per this [template](https://docs.google.com/spreadsheets/d/1fSn1G4opUDpnmGlcd35Zi_Mks5zTFoeg03FP__Xghes/edit?usp=sharing) that includes a separate line item for each expense
 - One PDF document to include receipts for each expense
-- Guidelines for [Traveling](/handbook/travel/#expenses-while-traveling)
+- Guidelines for [Traveling](/handbook/finance/travel/#expenses-while-traveling)
 - Expense [Guidelines](/handbook/finance/expenses/#expense-policy-outline)
 
 Expenses are to be invoiced in the month in which they have incurred

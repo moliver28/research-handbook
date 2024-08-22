@@ -141,7 +141,7 @@ Manual upkeep of the maintainer training issue can be time consuming. There are 
 
 ## Handbook Tips
 
-Refer to the [Handbook Development section](https://handbook.gitlab.com/docs/development/) to learn more about the architecture, structure and how to edit the handbook locally on your desktop. For how to edit the handbook in your browser, refer to [the editing handbook page](/handbook/editing-handbook/).
+Refer to the [Handbook Development section](https://handbook.gitlab.com/docs/development/) to learn more about the architecture, structure and how to edit the handbook locally on your desktop. For how to edit the handbook in your browser, refer to [the editing handbook page](/handbook/about/editing-handbook/).
 
 ## www-gitlab-com Tips
 

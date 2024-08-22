@@ -174,7 +174,7 @@ To cut it down:
 
 You can also do bulk find and replace operations using [Visual Studio Code](https://code.visualstudio.com/download) along with the [GitLab Workflow extension for VS Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html). The following steps were used in this [MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/106599) for updating `sub-value` to `operating principle`.
 
-On macOS this can be a fairly seamless experience if you clone the project ([`www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) for the Handbook) [using SSH](/handbook/editing-handbook/#clone-via-ssh) and then use [1Password for SSH & Git](https://developer.1password.com/docs/ssh/).
+On macOS this can be a fairly seamless experience if you clone the project ([`www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) for the Handbook) [using SSH](/handbook/about/editing-handbook/#clone-via-ssh) and then use [1Password for SSH & Git](https://developer.1password.com/docs/ssh/).
 
 Once you've configured and installed `Visual Studio Code` and logged into the `GitLab Workflow extension for VS Code` open the `www-gitlab-com` directory where you've synced the repo.
 

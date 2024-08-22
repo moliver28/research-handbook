@@ -190,7 +190,7 @@ As you learned in the technical terminology portion, a GitLab Merge Request (MR)
 
 ### How to create a GitLab Merge Request (i.e. How to make an update to the handbook)
 
-Follow the instructions to [Edit the Handbook](/handbook/editing-handbook/) which include creating a merge request to commit an edit.
+Follow the instructions to [Edit the Handbook](/handbook/about/editing-handbook/) which include creating a merge request to commit an edit.
 
 #### Video: How to create a GitLab Merge Request (~20 minutes)
 

@@ -1607,7 +1607,7 @@ The schema is implemented using [Rx](http://rx.codesimply.com/index.html).
 
 If you have trouble running the rake task, you can check the following troubleshooting steps:
 
-- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
+- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/about/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
 - Update your gems by running `bundle install`.
 - Your bundler version could be out of date, so you can try running `gem install bundler:2.1.4`.
 

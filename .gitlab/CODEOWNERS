@@ -29,7 +29,6 @@
 /content/ @sytses @streas @gitlab-com/egroup
 /content/handbook/about/handbook-usage.md @sytses @streas @gitlab-com/content-sites
 /content/handbook/about/ @gitlab-com/content-sites
-/content/handbook/editing-handbook/ @gitlab-com/content-sites
 
 # The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
 /content/job-families/ @cbednarz @anjali_kaufmann @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
@@ -293,15 +292,15 @@
 /content/handbook/finance/procurement/ @RendiMiller @emannix @brobins
 /content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
-/content/handbook/internal-audit/ @bjoshi2 @atoomer
-/content/handbook/tax/ @jgladen
+/content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
+/content/handbook/finance/tax/ @jgladen
 /content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 [Finance required approvals]
 /content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Infrastructure-Standards]
-/content/handbook/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
+/content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
 /content/handbook/it/ @NabithaRao
@@ -461,7 +460,7 @@
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
 /content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
-/content/handbook/travel/ @wendybarnes @pegan
+/content/handbook/finance/travel/ @wendybarnes @pegan
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]

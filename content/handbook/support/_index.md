@@ -598,7 +598,7 @@ Providing information by reacting to a message with a specific emoji.
 After getting promoted, make sure to update your title in:
 
 - our [Support team page](https://gitlab.com/gitlab-support-readiness/support-team), and the change would be reflected in Zendesk
-- the company team page following the same steps in [Add yourself to the Team Page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
+- the company team page following the same steps in [Add yourself to the Team Page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page)
 
 Consider updating the title on Slack and on Zoom, following the guidelines in [Zoom name format](#zoom-name-format).
 

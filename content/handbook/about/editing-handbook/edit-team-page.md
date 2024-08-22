@@ -78,13 +78,13 @@ Choose the method below that feels most comfortable and have the following infor
    - Update any data that was filled in but is incorrect
 
      **Important:** Do not use the `tab` character, and respect the spaces between lines to avoid breaking the page format. Referenced file names/extensions are case sensitive, and a file that is not found will cause a pipeline failure. The file should end with an empty newline or it will cause a pipeline failure.
-1. To upload your image, ensure that it is prepared according to the [Picture Requirements](/handbook/editing-handbook/#add-yourself-to-the-team-page).
+1. To upload your image, ensure that it is prepared according to the [Picture Requirements](/handbook/about/editing-handbook/#add-yourself-to-the-team-page).
    1. Navigate to find the `team` folder using the path `sites/uncategorized/source/images/team/`. To do this, you must first notice that you are in a file that is within the `person` folder, which is within the `team_members` folder, which is within the `data` folder. You can close folders by clicking on the ⋁ to the left of the folder name. Once you have closed the `data` folder, you will see the `sites` folder 6 folders down. Open `sites` by clicking the >, then `uncategorized`, then `source`, then `images`, and finally `team`.
    1. Right click on `team` and choose `Upload`.
    1. Select the image you want to upload and Open.
    1. Now you will navigate back to your team page entry. You can do this by either closing the `sites` folder and opening `data`, then `team members`, `person`, and the folder containing you file; or you can notice your file tab on the top bar, and you can click on it to be taken to that file.
    1. Update your `picture` field to your filename. Delete the content that is this line after the `picture:` that starts with `../gitlab` etc. Make sure to match the letter case of your picture file. The completed line should look like this: `picture: yournameinlowercase.jpg` for example.
-1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/editing-handbook/#web-ide-editing-steps).
+1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/about/editing-handbook/#web-ide-editing-steps).
 1. Create a title for your MR, and enter it in the box above the `Commit & Push` button. An example title would be `Updating My Team Page Entry`.
 1. Click the `Commit & Push` button.
 1. Click on `Yes Commit to a new branch`.
@@ -154,7 +154,7 @@ Choose the method below that feels most comfortable and have the following infor
 
 ## Add your pet(s) to the Team Pets Page
 
-Using what you learned in the [steps above](/handbook/editing-handbook/#add-yourself-to-the-team-page), consider adding your pet(s) to the [Team Pets page](/handbook/company/team-pets/). You can follow these instructions to add them via the Web IDE.
+Using what you learned in the [steps above](/handbook/about/editing-handbook/#add-yourself-to-the-team-page), consider adding your pet(s) to the [Team Pets page](/handbook/company/team-pets/). You can follow these instructions to add them via the Web IDE.
 
 1. Again, find the picture that you'd like to add to the team pets page, and update the picture's name to the following format: `petname.jpg` or `petname.png`. Ensure the picture size is around 400x400 (*it must be square*, see [picture requirements](#picture-requirements)).
 1. Go to the [GitLab.com / www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/) project.
@@ -164,7 +164,7 @@ Using what you learned in the [steps above](/handbook/editing-handbook/#add-your
 1. Select the image you want to upload and Open.
 1. Next, navigate to `data/pets.yml` and click on it to open the editor.
 1. Scroll to the end of the file. Add your pet by following the format of the existing pets on the page (you can copy and paste their lines of code, even). Ensure that you include your pet's name, your full name, and the name of the image you uploaded in step 1.
-1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/editing-handbook/practical-handbook-edits/#using-the-new-web-ide-to-edit-the-handbook).
+1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/about/editing-handbook/practical-handbook-edits/#using-the-new-web-ide-to-edit-the-handbook).
 1. Create a title for your MR. An example title would be `Adding my dog Gary to the Team Pets Page`.
 1. Click the `Commit & Push` button.
 1. Click on `Yes Commit to a new branch`.
