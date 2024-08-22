@@ -1,5 +1,5 @@
 ---
-title: Step Runner for executing GitLab Steps
+title: "Step Runner for executing GitLab Steps"
 status: proposed
 creation-date: "2023-08-23"
 authors: [ "@ayufan", "@josephburnett" ]

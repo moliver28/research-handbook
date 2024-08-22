@@ -1,5 +1,5 @@
 ---
-title: Iterate on the design of object pools
+title: "Iterate on the design of object pools"
 status: proposed
 creation-date: "2023-03-30"
 authors: [ "@pks-gitlab" ]

@@ -1,10 +1,11 @@
 ---
-title: Zonal Recovery
+title: "Zonal Recovery"
 status: ongoing
 creation-date: "2024-01-29"
 authors: [ "@jarv" ]
 coach:
 approvers: [  ]
+toc_hide: true
 ---
 
 ## Improving the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) for Zonal Recovery

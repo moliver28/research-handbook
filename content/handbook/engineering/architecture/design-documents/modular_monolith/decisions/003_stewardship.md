@@ -2,6 +2,7 @@
 title: "Modular Monolith ADR 003: Module stewardship"
 creation-date: "2024-05-08"
 authors: [ "@fabiopitino" ]
+toc_hide: true
 ---
 
 ## Context

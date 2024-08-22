@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::data stores"
 title: 'Cells ADR 001: Routing Technology using Cloudflare Workers'
+toc_hide: true
 ---
 
 ## Context

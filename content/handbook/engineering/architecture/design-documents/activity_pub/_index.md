@@ -1,5 +1,5 @@
 ---
-title: ActivityPub support
+title: "ActivityPub support"
 status: proposed
 creation-date: "2023-09-12"
 authors: [ "@oelmekki", "@jpcyiza" ]
@@ -10,8 +10,6 @@ participating-stages: [ "~section::dev" ]
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

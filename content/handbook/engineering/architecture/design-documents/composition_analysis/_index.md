@@ -1,5 +1,5 @@
 ---
-title: Dependency graph export only dependency scanning analyzer
+title: "Dependency graph export only dependency scanning analyzer"
 status: proposed
 creation-date: "2024-08-14"
 authors: [ "@hacks4oats" ]
@@ -11,9 +11,8 @@ participating-stages: []
 toc_hide: true
 ---
 
-
 <!-- Design Doucments often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
+
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}

@@ -1,5 +1,5 @@
 ---
-title: SSH certificates
+title: "SSH certificates"
 status: ongoing
 creation-date: "2023-07-28"
 authors: [ "@igor.drozdov" ]

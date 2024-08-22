@@ -1,5 +1,5 @@
 ---
-title: Cloud Native Build Logs
+title: "Cloud Native Build Logs"
 status: implemented
 creation-date: "2020-08-26"
 authors: [ "@grzesiek" ]

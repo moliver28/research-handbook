@@ -1,5 +1,5 @@
 ---
-title: Future of CI Pipeline Processing
+title: "Future of CI Pipeline Processing"
 status: proposed
 creation-date: "2023-05-15"
 authors: [ "@furkanayhan" ]

@@ -1,5 +1,5 @@
 ---
-title: SAST IDE Integration
+title: "SAST IDE Integration"
 status: ongoing
 creation-date: "2024-06-21"
 authors: [ "@erran", "@jleasure", "@julianthome", "@theoretick" ]
@@ -7,6 +7,7 @@ coach: "@theoretick"
 approvers: [ "@connorgilbert", "@dashaadu", "@tkopel", "@kisha.mavryck" ]
 owning-stage: "~devops::secure"
 participating-stages: ["~devops::create", "~devops::secure"]
+toc_hide: true
 ---
 
 <!--
@@ -58,8 +59,6 @@ Blueprint statuses you can use:
 
 -->
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 
 {{< design-document-header >}}
 

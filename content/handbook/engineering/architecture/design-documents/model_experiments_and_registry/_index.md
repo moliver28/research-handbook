@@ -1,5 +1,5 @@
 ---
-title: Merge Model experiments into Model registry
+title: "Merge Model experiments into Model registry"
 status: proposed
 creation-date: "2023-03-04"
 authors: [ "@eduardobonet" ]
@@ -11,8 +11,7 @@ toc_hide: true
 ---
 
 {{< design-document-header >}}
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
+
 
 ## Summary
 

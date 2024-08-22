@@ -5,9 +5,9 @@ description: 'Cells: Infrastructure'
 authors: [ "@sxuereb" ]
 coach: [ "@andrewn" ]
 status: proposed
+toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 # Cells: Infrastructure

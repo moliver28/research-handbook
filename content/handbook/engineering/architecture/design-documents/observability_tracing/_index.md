@@ -1,5 +1,5 @@
 ---
-title: Distributed Tracing Feature
+title: "Distributed Tracing Feature"
 status: proposed
 creation-date: "2023-06-20"
 authors: [ "@mappelman" ]

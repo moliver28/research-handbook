@@ -1,5 +1,6 @@
 ---
 title: 'AI Gateway ADR 002: Exposing proxy endpoints to AI providers'
+toc_hide: true
 ---
 
 ## Summary

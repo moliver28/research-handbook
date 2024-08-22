@@ -1,6 +1,7 @@
 ---
 title: 'GitLab Secrets Manager ADR 001: Use envelope encryption'
 owning-stage: "~devops::verify"
+toc_hide: true
 ---
 
 ## Context

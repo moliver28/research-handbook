@@ -1,5 +1,5 @@
 ---
-title: View and manage resources deployed by GitLab agent For Kubernetes
+title: "View and manage resources deployed by GitLab agent For Kubernetes"
 status: implemented
 creation-date: "2022-11-23"
 authors: [ "@shinya.maeda" ]
@@ -10,7 +10,6 @@ participating-stages: [Environments]
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

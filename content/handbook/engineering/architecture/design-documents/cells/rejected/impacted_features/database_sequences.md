@@ -3,13 +3,13 @@ stage: enablement
 group: Tenant Scale
 title: 'Cells: Database Sequences'
 status: rejected
+toc_hide: true
 ---
 
 {{< design-document-header >}}
 
 _This was surpassed by the [Cells: Unique sequences](../../unique_sequences.md) blueprint._
 
-<!-- vale gitlab.FutureTense = NO -->
 
 {{% alert %}}
 This document is a work-in-progress and represents a very early state of the

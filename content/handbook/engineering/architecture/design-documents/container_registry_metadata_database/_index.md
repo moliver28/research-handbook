@@ -1,5 +1,5 @@
 ---
-title: Container registry metadata database
+title: "Container registry metadata database"
 status: implemented
 creation-date: "2020-09-29"
 authors: [ "@jdrpereira" ]
@@ -12,7 +12,6 @@ toc_hide: true
 
 {{< design-document-header >}}
 
-<!-- vale gitlab.FutureTense = NO -->
 
 ## Usage of the GitLab container registry
 
