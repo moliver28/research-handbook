@@ -94,6 +94,18 @@ While application-level decomposition is ongoing, we are awaiting further detail
 
 If gradual decomposition is not possible, then we would pursue decomposition with the intention to reduce pressure on the primary Database through a single downtime or maintenance event before the rollout of Cells 2.0, estimated at May 2025.
 
+#### Progress
+
+##### Decomposition
+
+| Slice              | % Done | Estimated completion |
+| ---                | ---    | ---                  |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 57%    | 2024-11              |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 24%    | 2025-02              |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 17%    | 2025-02              |
+
+Last update: [2024-08-20](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2060146226).
+
 ### Plan
 
 1. Introduce separate `gitlab_sec` schema
