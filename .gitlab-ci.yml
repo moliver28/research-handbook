@@ -204,14 +204,14 @@ pages:
     - <<: *scheduled-pipeline
     - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
       variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
-        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
     - <<: *merge-request-only
       variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
-        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
       when: manual
       allow_failure: true
 
