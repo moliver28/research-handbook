@@ -121,12 +121,12 @@ details summary * {
 - opensource
 - pajamas-design-system
 - production
-- qa-master
+- e2e-run-master
 - qa-nightly
 - e2e-run-preprod
 - qa-production
 - qa-staging
-- quality
+- test-platform
 - review-apps-broken
 - terraform-provider
 - triage

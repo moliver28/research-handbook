@@ -45,7 +45,7 @@ and complete the issue.
   * [Release](https://release.gitlab.net)
   * [Customer-dot](https://customers.staging.gitlab.com/)
 * CI environments
-  * Main - Slack channel [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM)
+  * Main - Slack channel [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM)
   * Nightly - Slack channel [#qa-nightly](https://gitlab.slack.com/archives/CGLMP1G7M)
   * Performance - Slack channel [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49)
 * Code Review
@@ -61,7 +61,7 @@ These internal Slack channels may be helpful to join.
   * [#test-platform-lounge](https://gitlab.slack.com/archives/CGZQCTU8J) - channel where the Test Platform sub-department hangs out and posts their weekly updates
   * [#test-platform-maintainers](https://gitlab.slack.com/archives/C0437FV9KBN) - channel for test platorm maintainers to request. Can be used to request expedited maintainer reviews when required
   * [#infrastructure-managers](https://gitlab.slack.com/archives/C017BFF9CJU) - channel to communicate and collaborate with all engineering managers in Infrastructure
-  * [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM) - channel with end-to-end test results on master pipeline
+  * [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM) - channel with end-to-end test results on master pipeline
   * [#qa-nightly](https://gitlab.slack.com/messages/CGLMP1G7M) - channel with end-to-end test results against FIPS nightly package
   * [#e2e-run-preprod](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with  end-to-end test results for run against pre.gitlab.com
   * [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE) - channel with end-to-end test results for run against release.gitlab.net

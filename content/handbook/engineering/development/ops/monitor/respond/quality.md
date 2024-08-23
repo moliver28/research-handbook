@@ -35,7 +35,7 @@ These tests can only be run using `gitlab-qa` gem. This gem will launch a separa
 Omnibus config for GitLab instance to receive SMTP delivery from this container. The current issue is that docker
 doesn't recognize the `hostname` set in the command when run locally, it always ended up using `0.0.0.0` for hostname, which is not
 what the test expected - expected `gitlab-smtp.test`. The only place where this test can be executed appropriately is
-in our CI (MR pipelines, and pipelines for E2E tests against master - see [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM))
+in our CI (MR pipelines, and pipelines for E2E tests against master - see [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM))
 
 **Note:** Orchestrated tests are not run in dotcom(s) because we cannot control the configuration of these
 environments.
@@ -121,7 +121,7 @@ pipelines for that specific environment:
 - Preprod: [#e2e-run-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
 - Release: [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE)
 - Staging-ref: [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ)
-- Master: [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM)
+- Master: [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM)
 - Nightly: [#qa-nightly](https://gitlab.slack.com/archives/CGLMP1G7M)
 
 These pipelines' configuration can be found in [pipeline-common](https://gitlab.com/gitlab-org/quality/pipeline-common)
