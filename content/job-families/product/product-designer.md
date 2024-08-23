@@ -164,6 +164,18 @@ Everything in the various levels of product designer roles, plus:
 - **Creation and management of feature flags** Know when to use feature flags, how to create them, and monitor their progress and potential feedback.
 - **Familiarity with unit testing** The ability to fix, update, and write RSpec and Jest tests.
 
+## AI Specialty
+
+Everything in the various levels of product designer roles, plus:
+
+- knowledge of AI technologies, including subsets of GenAI and ML.
+- participate in prompt engineering to maximize user satisfaction. 
+- test prompts and prototype conversation flow happy paths.
+- understand model evaluation approaches, and use knowledge of user intents to enhance datasets to closely mirror human interactions.
+- stay up to data on emerging technology and UI design patterns.
+- leverage solution validation methods that go beyond usability to evaluate user satisfaction with model responses.
+- create learning materials that support designers who work on AI-powered features.
+
 ## Performance indicators
 
 - [Perception of usability (SUS)](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
