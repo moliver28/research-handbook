@@ -9,7 +9,7 @@ The Field Update Tickers serve as a weekly summary of news that is relevant to t
 
 ## Target Audience
 
-The updates and any associated actions included in each Update Ticker are geared towards  individual contributors within each region (e.g. Account Executives). The information contained in each Update Ticker is confidential and is, therefore, intended for internal audiences only unless otherwise stated.
+The updates and any associated actions included in each Update Ticker are geared toward all Field roles within each region. Cross functional team members in Marketing, Product and People Business Partners also receive the Ticker for visibility. The information contained in each Update Ticker is confidential and is, therefore, intended for internal audiences only unless otherwise stated.
 
 ## Delivery Mechanism
 
@@ -19,7 +19,7 @@ Each Update Ticker is created and maintained in Workshop and sent via email each
 
 How to use the Update Ticker:
 
-1. Review the information included in the ticker on a weekly basis. The information is structured and prioritized for you to read quickly and efficiently. However, you should schedule time to read and synthesize any supporting links (Slack messages, Highspot pages, Handbook pages, etc.) when appropriate. Account Executives can expect to receive a email notification on Thursdays when the Update Ticker has been updated.
+1. Review the information included in the ticker on a weekly basis. The information is structured and prioritized for you to read quickly and efficiently. However, you should schedule time to read and synthesize any supporting links (Slack messages, Highspot pages, Handbook pages, etc.) when appropriate. Members of the Target Audience (listed above) can expect to receive the Update Ticker via email on Thursdays.
 2. Complete action items as required. Items that require your action are categorized as 'Leadership Priorities' or 'Take action' for efficiency. Please complete these items by the associated due date.
 3. Note any key dates and resources. Included at the bottom of each Update Ticker is a summary of key dates and resources that you should be aware of. Note that this information is subject to change so we recommend that you check this information often.
 
@@ -41,6 +41,7 @@ This is the current iteration of the Update Ticker:
    - Take Action: Action that you are required to complete by a certain date
    - Need to Know: Customer or business critical information or updates that you are required to know in your role (i.e. pricing updates, updates directly related to selling, etc.)
    - Nice to Know: Information or updates that are not business critical but are still relevant to your role (i.e. upcoming events, new cross-functional processes not related to selling, etc.)
+   - Key Field Dates & Resources: Upcoming dates that you should be aware of and resources that are particularly applicable to the Field org (evergreen Highspot pages, timely resources, Field Enablement session recordings, etc.)
 
 ## Process
 
