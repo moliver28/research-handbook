@@ -13,7 +13,7 @@ The IDK was inspired by [this issue](https://gitlab.com/gitlab-com/support/suppo
 with the goal of providing definitions for commonly-used support terms. This
 also aligns with handbook style item [acronyms and initialisms](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#acronyms-and-initialisms).
 
-If you came to this page while reading a document missing a definition, be a helpful Tanuki and update that page with the definition. 
+If you came to this page while reading a document missing a definition, be a helpful Tanuki and update that page with the definition.
 
 ## C
 
@@ -43,8 +43,14 @@ If you came to this page while reading a document missing a definition, be a hel
 
 - OKR
   - Objective-Key Result
+ 
+## P
 
+- PD
+  - PagerDuty
 ## S
-
+ 
+- SLA
+  - Service Level Agreements
 - SMOC
   - Support Manager On-Call
