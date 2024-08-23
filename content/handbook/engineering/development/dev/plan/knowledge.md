@@ -49,12 +49,55 @@ Typically, 3-month rolling average is a good indicator of the team's capacity. K
 
 The PM and EM will work to fit ~Deliverable issues into no more than 75% of the team's capacity and allocate the rest to ~Stretch issues.
 
-#### Planning Rotation
+#### Refinement
 
-As a small team with distinct roles this team does not run an allocated planning rotation, as other Plan teams do.
+Engineering manager reviews `~"workflow::refinement"` issues on every team meeting.
+Issues with the [highest priority](#priority-labels) are assigned to individual engineers,
+who are responsible for moving issue to `~workflow::ready for development`.
 
-Instead, all members of the team get involved in estimation during the planning process. We rely on the person with the most context around a task
-to give an accurate estimate. This should start on the 5th and be completed by the 12th of the month.
+Engineers can put the following template into the issue description:
+
+```markdown
+### Implementation plan
+
+<!--
+Ready for development means replying yes to the following questions:
+
+- Is this issue sufficiently small enough? If not, break it into smaller issues
+- Is it assigned to the correct domain (e.g. frontend, backend)? If not, break it into two issues for the respective domains
+– Is the issue clear and easy to understand? If not, try asking further clarification questions and update the description once they are received
+
+If more than 2 MRs are needed, consider adding a table like the following to the description (e.g. under `Implementation plan`).
+-->
+
+| Description | MR |
+|-|-|
+| MR 1 | |
+| MR 2 | |
+| Documentation | |
+
+**Reasoning:**
+
+<!--
+Add some initial thoughts on how you might break down this issue. A bulleted list is fine.
+
+This will likely require the code changes similar to the following:
+
+- replace the hex driver with a sonic screwdriver
+- rewrite backups to magnetic tape
+- send up semaphore flags to warn others
+
+Links to previous examples. Discussions on prior art. Notice examples of the simplicity/complexity in the proposed designs.
+-->
+
+/label ~"workflow::ready for development"
+
+/label ~"frontend-weight::X"
+
+/label ~"backend-weight::X"
+
+/weight X
+```
 
 #### Weighing bugs
 
