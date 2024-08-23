@@ -13,7 +13,9 @@ For **Transformational planning** throughout iterations, please [reference here.
 
 ## EM>PS Transition
 
-We use the [Scheduling Intake issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads) as a guide for the meeting, as it will help us map the next steps with our Customers. The Scheduling Intake issue is created and attached to the Customer Epic.
+We use the [Scheduling Intake issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads) as a guide for the meeting, as it will help us map the next steps with our Customers. The Scheduling Intake issue is created and attached to the Customer Epic
+
+For larger/complex programs with multiple stakeholders, please use [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027) as guidance
 
 The Delivery team can use [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting to ensure all points are considered from the Scheduling Intake issue. For larger/Transformation Migrations, please be sure to reference the above.
 
