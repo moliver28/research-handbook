@@ -123,6 +123,10 @@ There is no strict frequency for posting updates, although we strive to make upd
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
 
+### Cost Management
+
+For details on the daily operational costs of our observability services refer to the [Cost of Observability Stack](cost.md) documentation. This resource includes access instructions and cost breakdowns.
+
 ## History and Accomplishments
 
 This section contains notes on team history and our accomplishments, but is not meant to be exhaustive.
