@@ -16,8 +16,6 @@
     </thead>
     <tbody>
     {{ range sort .Site.Data.support_glossary "acronym" "asc" }}
-      {{ .acronym }}
-    {{ end }}
       <tr id="<%= acronym.id %>">
         <td class="support-acronym">
           <ul>
