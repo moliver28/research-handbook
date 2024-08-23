@@ -19,7 +19,21 @@
 - acronym: 
   - NRT
   term: 
- - Next Response Time
+  - Next Response Time
  info: | 
    Support have a next response time service level objective (SLO) on all subsequent replies to tickets from subscribed customers. 
+
+- acronym:
+  - OKR
+  term:
+  - Objectives and key results
+  info: |
+  GitLab uses [OKRs](https://handbook.gitlab.com/handbook/company/okrs/) to support achieving our strategic goals. 
+
+-acronym:
+  - CMOC
+term:
+  - Communications Manager on-call
+info: |
+  Support is responsible for keeping customers informed in support of our incident response process when there is an active incident on gitlab.com.  The role has several [responsibilities](https://handbook.gitlab.com/handbook/support/workflows/cmoc_workflows/).
   
