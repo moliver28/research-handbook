@@ -204,4 +204,4 @@ curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/
 
 #### Downtime observed on the readiness and liveness probes 
 
-Customers may be using the `/-/readiness` and `/-/liveness` probes to track the uptime of their Dedicated instance, and report on downtime or 503 errors observed. These probes are not an accurate indicator of the availability of the instance as described in [Health check](https://docs.gitlab.com/ee/administration/monitoring/health_check.html). Customers can instead use the sign in page `https://<DEDICATED_URL>/users/sign_in` as an endpoint to track. 
+Customers may be using the `/-/readiness` and `/-/liveness` probes to track the uptime of their Dedicated instance, and report on downtime or 503 errors observed. These probes are not an accurate indicator of the availability of the instance as described in [Health check](https://docs.gitlab.com/ee/administration/monitoring/health_check.html). 
