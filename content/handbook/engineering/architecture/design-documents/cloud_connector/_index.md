@@ -1,5 +1,5 @@
 ---
-title: Cloud Connector architecture evolution
+title: "Cloud Connector architecture evolution"
 status: implemented
 creation-date: "2023-09-28"
 authors: [ "@mkaeppler" ]

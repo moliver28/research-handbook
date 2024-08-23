@@ -3,9 +3,8 @@
 stage: enablement
 group: Tenant Scale
 title: 'Cells: Problem A'
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 {{% alert %}}
 This document is a work-in-progress and represents a very early state of the

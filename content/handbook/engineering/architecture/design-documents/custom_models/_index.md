@@ -1,5 +1,5 @@
 ---
-title: Self-Hosted Model Deployment
+title: "Self-Hosted Model Deployment"
 status: proposed
 creation-date: "2024-03-29"
 authors: [ "@sean_carroll", "@eduardobonet" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 This Blueprint describes support for customer self-deployments of Mistral LLMs as a backend for GitLab Duo features, as an alternative to the default Vertex or Anthropic models offered on GitLab Dedicated and .com. This initiative supports both internet connected and air-gapped GitLab deployments.

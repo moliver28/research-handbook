@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::secure"
 title: 'EPSS Support ADR 002: Use a new bucket for EPSS data'
+toc_hide: true
 ---
 
 ## Context

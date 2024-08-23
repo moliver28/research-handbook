@@ -1,5 +1,5 @@
 ---
-title: Google Cloud Platform Integration
+title: "Google Cloud Platform Integration"
 status: ongoing
 creation-date: "2023-10-26"
 authors: [ "@sgoldstein" ]

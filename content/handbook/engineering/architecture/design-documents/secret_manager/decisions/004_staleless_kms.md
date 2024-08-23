@@ -1,6 +1,7 @@
 ---
 title: 'GitLab Secrets Manager ADR 004: Sateless Key Management Service'
 owning-stage: "~devops::verify"
+toc_hide: true
 ---
 
 In [ADR-002](../002_gcp_kms) we decided that we want to use Google's Cloud Key

@@ -1,6 +1,7 @@
 ---
 title: 'GitLab Secrets Manager ADR 002: Use GCP Key Management Service'
 owning-stage: "~devops::verify"
+toc_hide: true
 ---
 
 ## Context

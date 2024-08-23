@@ -1,5 +1,5 @@
 ---
-title: Organization
+title: "Organization"
 status: ongoing
 creation-date: "2023-04-05"
 authors: [ "@lohrc", "alexpooley" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 This document is a work in progress and represents the current state of the Organization design.

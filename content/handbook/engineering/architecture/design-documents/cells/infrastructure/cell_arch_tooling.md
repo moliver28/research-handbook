@@ -1,5 +1,5 @@
 ---
-title: Cell Architecture and Tooling
+title: "Cell Architecture and Tooling"
 status: proposed
 creation-date: "2024-03-22"
 authors: ["@pguinoiseau", "@jcstephenson", "@ayeung"]
@@ -7,10 +7,9 @@ coach: ["@sxuereb", "@andrewn"]
 approvers: ["@product-manager", "@sabrams"]
 owning-stage: "~devops::data stores"
 participating-stages: []
+toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

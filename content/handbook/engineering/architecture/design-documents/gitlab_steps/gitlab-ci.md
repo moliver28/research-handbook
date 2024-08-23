@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::verify"
-title: Usage of the GitLab Steps with .gitlab-ci.yml
+title: "Usage of the GitLab Steps with .gitlab-ci.yml"
+toc_hide: true
 ---
 
 This document describes how [GitLab Steps](index.md) are integrated into the `.gitlab-ci.yml`.

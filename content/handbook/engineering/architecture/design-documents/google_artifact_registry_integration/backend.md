@@ -2,6 +2,7 @@
 stage: Package
 group: Container Registry
 title: 'Backend changes for Google Artifact Registry Integration'
+toc_hide: true
 ---
 
 ## Client SDK

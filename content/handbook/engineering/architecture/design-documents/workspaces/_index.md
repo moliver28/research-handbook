@@ -1,5 +1,5 @@
 ---
-title: Remote development workspaces
+title: "Remote development workspaces"
 status: ongoing
 creation-date: "2022-11-15"
 authors: [ "@vtak" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Decisions

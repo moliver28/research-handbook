@@ -1,13 +1,13 @@
 ---
+title: "Convert domain module into packages"
 status: proposed
 creation-date: "2023-09-29"
 authors: [ "@fabiopitino" ]
 coach: [ ]
 approvers: [ ]
 owning-stage: ""
+toc_hide: true
 ---
-
-# Convert domain module into packages
 
 The general steps of refactoring existing code to modularization could be:
 

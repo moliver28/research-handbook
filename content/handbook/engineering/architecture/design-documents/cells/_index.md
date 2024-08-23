@@ -1,5 +1,5 @@
 ---
-title: Cells
+title: "Cells"
 status: ongoing
 creation-date: "2022-09-07"
 authors: ["@ayufan", "@fzimmer", "@DylanGriffith", "@lohrc", "@tkuah"]
@@ -11,7 +11,6 @@ toc_hide: true
 no_list: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 This document is a work-in-progress and represents a very early state of the Cells design. Significant aspects are not documented, though we expect to add them in the future.

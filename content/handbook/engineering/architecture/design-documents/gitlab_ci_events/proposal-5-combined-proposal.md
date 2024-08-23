@@ -1,5 +1,6 @@
 ---
 title: 'GitLab CI Events Proposal 5: Combined proposal'
+toc_hide: true
 ---
 
 In this proposal we have separate files for cohesive groups of events. The

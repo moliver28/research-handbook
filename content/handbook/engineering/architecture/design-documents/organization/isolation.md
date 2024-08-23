@@ -7,9 +7,8 @@ coach:
 approvers: [ "@lohrc", "@alexpooley" ]
 owning-stage: "~devops::data stores"
 participating-stages: []
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 This blueprint details requirements for Organizations to be isolated.
 Watch a [video introduction](https://www.youtube.com/watch?v=kDinjEHVVi0) that summarizes what Organization isolation is and why we need it.

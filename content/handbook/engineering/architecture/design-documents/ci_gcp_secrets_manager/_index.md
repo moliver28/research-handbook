@@ -1,5 +1,5 @@
 ---
-title: Support GCP Secrets Manager for CI External Secrets
+title: "Support GCP Secrets Manager for CI External Secrets"
 status: proposed
 creation-date: "2023-11-29"
 authors: [ "@alberts-gitlab" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

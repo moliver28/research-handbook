@@ -1,5 +1,5 @@
 ---
-title: CI Builds and Runner Fleet metrics database architecture
+title: "CI Builds and Runner Fleet metrics database architecture"
 status: proposed
 creation-date: "2023-01-25"
 authors: [ "@pedropombeiro", "@vshushlin"]

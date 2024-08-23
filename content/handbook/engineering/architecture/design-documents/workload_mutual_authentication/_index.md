@@ -1,4 +1,5 @@
 ---
+title: "Workload mutual authentication"
 status: proposed
 creation-date: "2024-07-01"
 authors: [ "@daveyleach" ]
@@ -6,9 +7,8 @@ coach: "@sxuereb"
 approvers: [ "@andrewn", "@glopezfernandez" ]
 owning-stage: "~devops::<stage>"
 participating-stages: []
+toc_hide: true
 ---
-
-# Workload mutual authentication
 
 We require that all communication between services and both parties are identified 
 and verified as identified in threat modelling exercises.

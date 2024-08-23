@@ -1,5 +1,5 @@
 ---
-title: Next GitLab Runner Token Architecture
+title: "Next GitLab Runner Token Architecture"
 status: ongoing
 creation-date: "2022-10-27"
 authors: [ "@pedropombeiro", "@tmaczukin" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

@@ -2,6 +2,7 @@
 stage: enablement
 group: Tenant Scale
 title: 'Cells: Goals'
+toc_hide: true
 ---
 
 ## Goals

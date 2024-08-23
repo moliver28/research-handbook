@@ -4,9 +4,9 @@ group: Engineering Productivity
 title: 'Cells: Feature Flags'
 authors: [ "@skarbek" ]
 coach: "@rymai"
+toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

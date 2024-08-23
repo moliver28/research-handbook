@@ -1,11 +1,12 @@
 ---
-title: Application Deployment with a Cellular Architecture
+title: "Application Deployment with a Cellular Architecture"
 owning-stage: "~devops::platforms"
 group: Delivery
 creation-date: "2024-01-09"
 authors: [ "@nolith", "@skarbek" ]
 coach:
 approvers: []
+toc_hide: true
 ---
 
 {{< design-document-header >}}

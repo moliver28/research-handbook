@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::secure"
 title: 'EPSS Support ADR 003: Use EPSS API over ZIP file'
+toc_hide: true
 ---
 
 ## Context

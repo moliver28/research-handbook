@@ -1,5 +1,5 @@
 ---
-title: EPSS Support
+title: "EPSS Support"
 status: ongoing
 creation-date: "2024-06-19"
 authors: [ "@YashaRise" ]
@@ -60,9 +60,6 @@ Blueprint statuses you can use:
 - "rejected"
 
 -->
-
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 
 <!--
 This is the title of your blueprint. Keep it short, simple, and descriptive. A

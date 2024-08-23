@@ -1,5 +1,6 @@
 ---
 title: 'CI Insights'
+toc_hide: true
 ---
 
 ## Summary
