@@ -9,10 +9,10 @@ description: >-
 
 There are five on-call rotations in Support:
 
-- [CMOC](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
-- [Customer Emergencies](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
-- [US Federal Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
-- [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) - in which Support Manager are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
+- [Communications Manager on-call (CMOC)](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
+- [Customer Emergencies on-call (CEOC)](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
+- [US Government Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
+- [Support Manager On-call (SMOC)](/handbook/support/workflows/support_manager-on-call) - in which Support Managers are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
 - [Support Operations On-call](/handbook/support/workflows/support_operations-on-call) - in which Support Readiness team members who focus on our Operations are available to be paged if there's an operational emergency
 
 For customers that have [Priority Support](https://about.gitlab.com/support/#priority-support), the Support Engineering Team is on-call in these capacities and available to assist with emergencies. What constitutes an emergency is defined in our [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact).
@@ -23,11 +23,11 @@ We take on-call seriously. There are [escalation policies](https://gitlab.pagerd
 
 ### Be alert and available
 
-When you are on call you are expected to be available and ready to respond to PagerDuty pings as soon as possible, and certainly within the emergency response time set by our [Service Level Agreements](https://about.gitlab.com/support/#priority-support).
+When you are on call you are expected to be available and ready to respond to PagerDuty pings as soon as possible, and certainly within the emergency response time set by our [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#priority-support).
 
 If you have plans outside of your work space while being on call, then being available may require bringing a laptop and reliable internet connection with you.
 
-You should not be chained to your desk, but you should be equipped to acknowledge and act on PD alerts in a timely manner.
+You should not be chained to your desk, but you should be equipped to acknowledge and act on PagerDuty alerts in a timely manner.
 
 Be proactive in communicating your availability. Sometimes you can't be *immediately* available for every minute of your on-call shift. If you expect to be unavailable for a short period of time, send an FYI in Slack.
 
@@ -96,14 +96,14 @@ PagerDuty is the single source of truth for on-call hours, rotation order and es
 
 There are several ways to view current and future schedules:
 
-1. In PagerDuty: View the [Customer Emergencies schedule](https://gitlab.pagerduty.com/schedules) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
+1. In PagerDuty: View the [Customer Emergencies schedule (CEOC)](https://gitlab.pagerduty.com/schedules) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
 1. In Google Calendar, [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts)
-1. In the `#spt-gg-forest` slack channel, you can see who is on-call for the different schedules today
+1. In the `#spt_leaders-daily` slack channel, you can see who is on-call for the different schedules today
 1. In the [Support Pagerduty Worksheet](https://drive.google.com/drive/u/0/search?q=Support%20Pagerduty%20Worksheet), you may be able to see who will be on-call for future quarters.
 
 #### Scheduling PagerDuty rotations
 
-PagerDuty schedules for Support should be filled in by DRIs (readiness, support managers, etc.) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
+PagerDuty schedules for Support should be filled in by the Directly Responsible Individuals (DRIs) (such as readiness, support managers, etc.) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
 The Readiness Team uses this sheet's contents to populate the following quarter's PagerDuty schedules during the first week of the final month of the quarter (Jan., Apr., Jul., Oct.). On the first Monday of the second month of a quarter the Readiness Team will post in the Slack [#support_leadership channel](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) a reminder  to the DRIs of the upcoming implementation due date.
 
 Once the Readiness Team has implemented the next quarter's schedule they remove the scheduled rows from the sheet and PagerDuty becomes the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet is the SSOT.
