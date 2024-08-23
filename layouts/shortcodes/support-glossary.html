@@ -1,0 +1,43 @@
+<!-- To edit the content, see: /data/support_glossary.yml -->
+<div class="responsive-table">
+  <table>
+    <thead>
+      <tr>
+        <th class="support-acronym">
+          Acronym
+        </th>
+        <th class="support-term">
+          Full name
+        </th>
+        <th class="more-info">
+          More information
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    {{ range .Site.data.support_glossary }}
+      <tr id="<%= term.id %>">
+        <td class="support-acronym">
+          <ul>
+          {{ range .acronym}}
+            <li class="anchor-link" id="{{ . | anchorize }}">{{ . }}</li>
+          {{ end }}
+          </ul>
+        </td>
+
+        <td class="support-term">
+          <ul>
+          {{ range .term }}
+            <li>{{ . | markdownify }}</li>
+          {{ end }}
+          </ul>
+        </td>
+
+        <td class="more-info">
+          <p>{{ .info | markdownify }}</p>
+        </td>
+      </tr>
+    {{ end }}
+    </tbody>
+  </table>
+</div>
