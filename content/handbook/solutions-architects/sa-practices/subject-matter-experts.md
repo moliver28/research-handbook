@@ -116,8 +116,8 @@ SMEs will be responsible for the following tasks:
 | SME Areas | AI | App Security | Agile Planning | GitLab Dedicated |
 | --- | --- | --- | --- | --- |
 |SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
-| APJ | | Tomasz Skora | | Martin McVay|
-| EMEA North Europe | Kristoff Goossens | | Gabriela Dobrescu | Martin McVay |
+| APJ | | Tomasz Skora | | |
+| EMEA North Europe | Kristoff Goossens | Dominique Top | Gabriela Dobrescu | Martin McVay |
 | EMEA South Europe | | Paul Dumaitre, Olivier Dupre | | |
 | EMEA DACH/META | Alexander Dess | Mirko Brandner | | Falko Sieverding|
 | US East | Sam Morris | Bernard Park | Dan Rabinovitz | Adam Zwickey |
