@@ -165,9 +165,22 @@ Once in the Workbooks section, click on the **Tags** dropdown to filter content 
 
 ![''](images/filter_tags.png)
 
+### Workbook and Data Source Descriptions
+
+Adding a description to a workbook or data source in Tableau enhances clarity and usability by providing context and helping users quickly grasp the content's purpose. Descriptions should be concise, ideally 1-2 sentences, and clearly outline the intended use case for the content.
+
+How to add a description:
+
+1. Navigate to the Workbook or Data Source
+1. Click on the three dots (...) next to the workbook or data source name and select Edit Details.
+1. In the Edit Details page, find the Description field. Enter the description you want to associate with the workbook or data source.
+1. Once you've added the description, click Save to apply the changes.
+
+![''](images/edit_content_description.png)
+
 ### Performance Indicators
 
-The full code for embedding performance indicators into the handbook is typcially not found on the same page as where the actual indicators are displayed. Instead, you might find something like this:
+The full code for embedding performance indicators into the handbook is typically not found on the same page as where the actual indicators are displayed. Instead, you might find something like this:
 
 ```Performance Indicator Shortcode
 {{/% performance-indicators "developer_relations_department" /%}}
