@@ -22,7 +22,7 @@ The views for Elastic Cloud are constructed using SQL queries (worksheets in Sno
 2. **ECU Spend (Monthly)**: Displays total ECU expenditure by SKU for each month.
 3. **Breakdown by Data Transfer**: Illustrates daily ECU spent on data transfer, including in, out, and between nodes.
 4. **ECU Burndown (Daily)**: Provides a burndown chart of daily ECU expenditure, starting from the total ECU available as of February 16th 2024 (when we started recording this data in Snowflake).
-5. **Estimated ECU Exhaustion**: Shows a table with the estimated ECU exhaustion date, calculated by dividing the remaining balance by the daily average cost.
+5. **Estimated ECU Exhaustion**: Shows a table with the estimated ECU exhaustion date, calculated by dividing the remaining balance by the daily average cost (The daily average cost is found by first adding up the daily costs for each day and then averaging these totals).
 
 ## GCP Cost (Looker Studio)
 
