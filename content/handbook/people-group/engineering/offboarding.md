@@ -22,7 +22,7 @@ graph TD
   H[Slack message is sent to the departing team member]
 ```
 
-> Terminations will be processed within a valid offboarding window for the day, according to the team members current timezone configured in Slack. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
+> Terminations will be processed within a valid offboarding window for the day, according to the team members current timezone of their primary address in Workday. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
 
 ## Automations
 
@@ -36,7 +36,7 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 Every 15 minutes, a pipeline scans Workday for any terminations.
 
-Offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding.
+Offboardings will be opened in the respective team members offboarding window for the day. This checks their timezone from Workday to find a *local* time to start the offboarding.
 
 - Monday - Thursday from 4:00pm to 5:00pm
 - Friday from 12:00pm to 1:00pm
