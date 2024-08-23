@@ -20,6 +20,18 @@ Okta Groups need to follow standardized naming conventions for better discovery,
 
 ### App assignments groups
 
-`app.{name_of_app}.{environment}.{role/permission}`
+`app.{system}.{environment}.{role/permission}`
 
 **Example:** `app.salesforce.prod.account_exec_emea`
+
+### App approver group
+
+`corpsys.approver.{system}`
+
+**Example:** `corpsys.approver.salesforce`
+
+### App provisioner group
+
+`corpsys.provisioner.{system}`
+
+**Example:** `corpsys.provisioner.salesforce`
