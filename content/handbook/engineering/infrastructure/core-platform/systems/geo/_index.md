@@ -19,7 +19,7 @@ repositories and projects, or can be part of a Disaster Recovery solution.
 
 ## Goals and Priorities
 
-Our priorities are aligned with the product direction. You can read more about this on the [Geo Product Vision page](https://about.gitlab.com/direction/geo/).
+Our priorities are aligned with the product direction. You can read more about them on the [Geo Product Vision page](https://about.gitlab.com/direction/geo/).
 
 Alongside the items listed in our Product Vision, we need to constantly assess issues that our customers bring to our
 attention. These could take the form of bug reports or feature requests. Geo users are often our largest
