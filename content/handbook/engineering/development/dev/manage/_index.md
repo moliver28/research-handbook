@@ -23,11 +23,11 @@ GitLab team members can also use [#s_manage](https://gitlab.slack.com/messages/C
 
 ## OKRs
 
-For a list of active OKRs, [check the OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Amanage&milestone_title=Started&first_page_size=50).
+For a list of active OKRs, [check the OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Afoundations&milestone_title=Started&first_page_size=50).
 
 ## Direction
 
-The direction and strategy for Manage is documented on [https://about.gitlab.com/direction/manage/](https://about.gitlab.com/direction/manage/). This page (and the category direction
+The direction and strategy for Foundations is documented on [https://about.gitlab.com/direction/foundations/](https://about.gitlab.com/direction/foundations/). This page (and the category direction
 pages under the "Categories" header) is the single source of truth on where we're going and why.
 
 * Direction pages should be reviewed regularly by Product. When updating these pages, please CC the relevant group to keep your teammates informed.
@@ -35,19 +35,19 @@ pages under the "Categories" header) is the single source of truth on where we'r
 
 ## Career Development
 
-{{% include "includes/engineering/manage-data-science-shared/career-development.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/career-development.md" %}}
 
 ## Team Days
 
-{{% include "includes/engineering/manage-data-science-shared/team-day.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/team-day.md" %}}
 
 ## Holiday Gift Exchange (2023)
 
-{{% include "includes/engineering/manage-data-science-shared/holiday-exchange.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/holiday-exchange.md" %}}
 
 ## Say/Do Ratio
 
-{{% include "includes/engineering/manage-data-science-shared/say-do-ratio.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
 ## Meetings
 
@@ -82,7 +82,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Links and resources
 
-{{% include "includes/engineering/manage/shared-links.md" %}}
+{{% include "includes/engineering/foundations/shared-links.md" %}}
 {{% include "includes/engineering/manage-data-science-shared/shared-links.md" %}}
 
 * Our Slack channels
