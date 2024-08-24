@@ -27,15 +27,16 @@ Please reach out to your aligned People Business Partner (PBP) (listed aplhabeti
 | Anjali Kaufmann   | Legal and Corporate Affairs |
 | Anjali Kaufmann   | Finance |
 | Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
-| Carolyn Bednarz   | Sales - APJ|
+| Carolyn Bednarz   | Sales & Marketing |
 | Giuliana Lucchesi | Product |
 | Giuliana Lucchesi | Security |
-| Jenny Burns       | Sales - EMEA |
+| Jenny Burns       | Sales & Marketing - EMEA |
 | Jess Durbin       | Engineering - Core Development, Expansion |
 | Kristina Bullock       |Chief of Staff to the CEO|
 | Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
 | Lauren Tepper     | Sales - AMER, Public Sector, Global Digital, Field Operations  |
 | Brandi McDonald | Marketing |
+| Tracy Lu | Sales & Marketing - APJ |
 
 ## How to partner with PBPs to foster high performance in your team
 
