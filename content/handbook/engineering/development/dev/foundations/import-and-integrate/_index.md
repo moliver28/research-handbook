@@ -510,7 +510,7 @@ Learn more about error budgets with these resources:
 
 ## Links and resources {#links}
 
-{{% include "includes/engineering/manage/shared-links.md" %}}
+{{% include "includes/engineering/foundations/shared-links.md" %}}
 
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels
