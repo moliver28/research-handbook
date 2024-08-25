@@ -56,7 +56,7 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 
 | Frequency | Meeting                              | DRI         | Possible topics                                                                                        |
 |-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
-| Every other Thursday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, con
+| Every other Thursday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, concerns, questions, etc.                               |
 
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in an internally available document.
 
