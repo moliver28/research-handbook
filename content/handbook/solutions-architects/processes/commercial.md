@@ -88,13 +88,13 @@ _It doesn't need to be within an hour.  You can eat lunch first_
 - Totally Acceptable Behavior: A new opportunity is created, and someone in the Team's Slack channel says "hey there is a new opp and I would like to discuss" and that the Team follow-up discussion doesn't come for 2, or even 4 hours, because the rest of the Team is busy with other things. This is still okay. The wait period is not a diss to anyone, the Team will get to it when they can, in natural pauses of the day.
 - One Full Business Day Defined:  If it comes in at 4pm, the Team has until 4pm the next day to triage.
 
-##### #2: Better Triage Happens with a second pair of eyes
+##### #2: Encourage a Second Pair of Eyes Without Delaying Assignment
 
-_If possible, two team members review a Command Plan before assignment_
+_If possible, two team members review a Command Plan before or after initial assignment_
 
-- Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed. But whenever possible, the Team aims to have at least 2 team members review the Command Plan before assignment.
-- The Team's Reporting Managers are considered a very valued 2nd person to review, when directly requested.
-- Other reason to skip the "two pairs of eyes" principle
+- Whenever possible, a second team member should review the Command Plan to provide additional insights and ensure thorough understanding. This second review can happen after the initial assignment to avoid any delays in responding to the request.
+-  Once an opportunity is assigned, the assigned team member is enouraged collaborate with another team member or a reporting manager to review the plan, verify goals, and identify next steps. This ensures that we maintain quality and strategic alignment without compromising our responsiveness.
+- There are cases where a second review may not be feasible or necessary, such as:
   - Fast-track prioritization for demos that were scheduled with less than 24 hours notice
   - Very specific communication language or skill required for the engagement (which means the request can be directly assigned to a specific SA)
 
