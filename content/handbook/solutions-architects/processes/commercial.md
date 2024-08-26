@@ -111,6 +111,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
   - Who will be attending the meeting?  Names and titles need to be identified (LinkedIn, here we come).
   - What are the specific use-cases they are looking for GitLab to address?
   - Why Now?
+  - It is totall fine if all the answers aren't known during triage — use this as an opportunity to do discovery, collaborate, and gather information together as the engagement progresses. 
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Team has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
     - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments. GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
