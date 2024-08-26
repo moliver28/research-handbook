@@ -217,7 +217,7 @@ This review process aims to help ensure on-site engagements have the highest lev
 In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering narrowlly-scoped technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
 
 - AMER: `#cs-commercial-amer-support`
-- EMEA: `#cs-commercial-emea-support`
+- EMEA: `#sa-commercial-emea-support`
 
 These Slack channels are considered to be a safe harbor for all Commercial AE <-> SA communication. When asking questions, please ensure you always provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
 Avoid using these Slack channels for cases that require technical discovery and solutioning. These have to be handled via standard SA Request process.
