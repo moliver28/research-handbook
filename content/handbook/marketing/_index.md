@@ -120,7 +120,7 @@ All teams are responsible for requesting social posts themselves. If you are not
 
 - Events: Jr. Content Editor
 - Release & technical posts/product updates: [Technical writing](/handbook/product/ux/technical-writing/)
-- User questions/comments on Twitter/X: [Social Marketing]() or [Developer Relations](/handbook/marketing/developer-relations/) team
+- User questions/comments on Twitter/X: [Social Marketing](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) or [Developer Relations](/handbook/marketing/developer-relations/) team
 - Leadgen campaigns: [Content](/handbook/marketing/brand-and-product-marketing/content/) team
 - UX Design: UX Lead
 - Press/media coverage: Post in `#external-comms` for assistance from the [Corporate Communications](/handbook/marketing/corporate-communications/) team
