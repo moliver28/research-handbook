@@ -67,37 +67,39 @@ custom abilities that cannot be assigned to regular user accounts.
 
 The following stages are outlined below:
 
-1. Use a User Account
+1. ~Use a User Account~
 1. Use a Service Account
 1. Use Declarative Permissions
 1. Integrate with our OAuth Provider
 
-### Stage 1: Use a User Account
+### ~Stage 1: Use a User Account~
 
-Currently, project owners can invite a user to a project with specific
+This stage is deemed too risky so it is being removed from the effort.
+
+~Currently, project owners can invite a user to a project with specific
 permissions using a custom role. We will leverage this mechanism to bind a
 specific account to all CI jobs within a project by using a convention for
 identifying the user account. This approach allows for quick feedback to
-identify gaps in the existing custom permissions.
+identify gaps in the existing custom permissions.~
 
-This immediate and temporary solution will help reduce the access currently
-granted through the `CI_JOB_TOKEN`.
+~This immediate and temporary solution will help reduce the access currently
+granted through the `CI_JOB_TOKEN`.~
 
-When a new build is created, we will search for a specific user account based
+~When a new build is created, we will search for a specific user account based
 on a naming convention. If the user account is found, it will be attached to
 the build, thereby restricting the `CI_JOB_TOKEN` to the permissions
-assigned to that account.
+assigned to that account.~
 
-The convention for searching for a user is as follows:
+~The convention for searching for a user is as follows:~
 
 1. The user must be a direct member of the project.
 2. The username must match the pattern `<project-id>-ci_user`.
 
-When a user matching this pattern is found, that user will be used as the
-security principal for generating the `CI_JOB_TOKEN`.
+~When a user matching this pattern is found, that user will be used as the
+security principal for generating the `CI_JOB_TOKEN`.~
 
-An example of how to implement this can be found in [this merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162599).
-Below is a snippet of code that summarizes the idea.
+~An example of how to implement this can be found in [this merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162599).
+Below is a snippet of code that summarizes the idea.~
 
 ```ruby
 module Gitlab
@@ -122,7 +124,7 @@ module Gitlab
 end
 ```
 
-Below is an alternative implementation to preserve the audit trail.
+~Below is an alternative implementation to preserve the audit trail.~
 
 ```ruby
 class Ci::Build
@@ -147,16 +149,16 @@ end
 
 **Pros:**
 
-- It is a straightforward solution.
-- It allows for fast feedback to help identify gaps in our custom permissions.
-- It can be used today.
+- ~It is a straightforward solution.~
+- ~It allows for fast feedback to help identify gaps in our custom permissions.~
+- ~It can be used today.~
 
 **Cons:**
 
-- This occupies a licensed seat.
-- It is not intuitive.
-- This artificially increases the number of registered users in the product metrics.
-- Requires us to clean up the users after this stage is complete
+- ~This occupies a licensed seat.~
+- ~It is not intuitive.~
+- ~This artificially increases the number of registered users in the product metrics.~
+- ~Requires us to clean up the users after this stage is complete~
 
 ### Stage 2: Use a Service Account
 
