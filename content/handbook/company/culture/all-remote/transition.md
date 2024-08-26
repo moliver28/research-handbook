@@ -113,7 +113,7 @@ Expect bumps along the road. As with any significant business transformation, it
 
 Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
-[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything](management/#applying-iteration-to-everything) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces](workspace/). This applies to business transformation as well. Implement the [smallest viable change](/handbook/values/#minimal-valuable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
+[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything](management/#applying-iteration-to-everything) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces](workspace/). This applies to business transformation as well. Implement the [smallest valuable change](/handbook/values/#minimal-valuable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
 
 ### Iteration requires empowered teams and workers
 
