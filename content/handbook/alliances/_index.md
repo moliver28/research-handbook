@@ -42,11 +42,11 @@ Mutually beneficial value exchange drives mutual partner success. We believe the
 There are a variety of ways to partner together to develop solutions. Partner type, solution and/or services offering, and route to market are all considerations when determining the best option, resale or co-sell.  Below are a few examples of how GitLab works with Alliance Partners to deliver consumable customer solutions.
 
 - **Marketplace** (resale)
-Solution listings sold through partner software marketplaces and other digital storefronts
+Solution listings sold through partner software marketplaces and other digital storefronts.
 - **OEM/Embedded** (resale)
-Integrated or bundled solution offerings sold through direct and indirect channels
+Integrated or bundled solution offerings sold through direct and indirect channels.
 - **ISV** (co-sell)
-Collaborative selling motions that stimulate sales of our respective products, independently
+Collaborative selling motions that stimulate sales of our respective products, independently.
 
 ### Program Benefits
 
@@ -54,8 +54,8 @@ GitLab Alliance Partners are a key part of GitLab's commitment to the DevOps com
 
 Brand Recognition
 
-- Partner logo displayed on GitLab Alliance Partner Program webpage. Partners benefit from the association and increased exposure to the rapidly DevOps community
-- GitLab brand use. Leverage for marketing purposes on websites, social media channels, and marketing and sales collateral
+- Partner logo displayed on GitLab Alliance Partner Program webpage. Partners benefit from the association and increased exposure to the rapidly DevOps community.
+- GitLab brand use. Leverage for marketing purposes on websites, social media channels, and marketing and sales collateral.
 
 Solution Validation
 
@@ -63,7 +63,7 @@ Solution Validation
 
 Sales & Marketing
 
-- Sales awareness and engagement. Promoting partners and solutions to stimulate sales
+- Sales awareness and engagement. Promoting partners and solutions to stimulate sales.
 - Go To Market assets and collateral. Equipping partners with resources designed to market and sell our joint solutions to prospects and customers.
 
 ## Additional Resources
