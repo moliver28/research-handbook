@@ -72,8 +72,8 @@ The following stages are outlined below:
 ### Use a Service Account
 
 We will create a dedicated service account for each project that will be used
-as the user bound to each CI job. This account will be assigned a custom
-role on the project that it is bound to or any other project.
+as the user bound to each CI job. This account can only be assigned to a custom
+role to ensure that it is only granted custom permissions.
 
 This service account can only be used to generate a `CI_JOB_TOKEN` for the
 project that it is bound to. This account cannot be used to generate a
