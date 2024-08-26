@@ -1,5 +1,5 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab Overview"
+title: "GitLab Duo Principles - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises in the DevSecOps with GitLab Duo course."
 ---
 
