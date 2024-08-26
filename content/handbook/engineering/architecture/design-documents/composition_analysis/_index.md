@@ -21,17 +21,6 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire document like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
-
 The dependency scanning feature is powered by a set of analyzers - `gemnasium`,
 `gemnasium-maven`, and `gemnasium-python`. Associated with CI templates, these analyzers have the
 responsibility of detecting supported projects, building the dependency graph or
@@ -54,6 +43,13 @@ dependency artifacts during this stage is a lot simpler than mapping existing
 build system configuration values to the ones used by the gemnasium set of
 analyzers.
 
+In addition, build jobs can take a considerably large amount of time, so removing
+the build process from dependency scanning reduces user's CI minute usage, and
+further tightens the development feedback loop. Further yet, building a
+project twice presents the possibility that the analyzer may build something that
+does not match what is deployed. This mismatch can lead to false positives and
+negatives, both of which skew a project's security status signal.
+
 ### Goals
 
 - Customers remove the need to set up a secondary build process. Historically,
@@ -62,7 +58,7 @@ analyzers.
   cases that are already handled by a customer in a previous build step, but were
   not accounted for by the analyzer's build implementation. These issues
   increase the code complexity, and cut into scheduled additions and improvements.
-- Offline support by default
+- Offline support by default.
 - Reduced security maintenance costs. Building projects means that the analyzer
   images need to ship with pre-installed versions of supported build systems, for
   example Gradle and Maven, and runtimes like Java or Python.
@@ -83,15 +79,19 @@ a dependency scanning CI/CD component that scans the generated artifacts.
 
 Because of the change to SBOM-based scanning in [epic 8026](https://gitlab.com/groups/gitlab-org/-/epics/8026),
 do not port over the vulnerability matching done by the Gemnasium analyzers,
-as this functionality is already [planned for deprecation](https://gitlab.com/groups/gitlab-org/-/epics/14146). 
+as this functionality is already [planned for deprecation](https://gitlab.com/groups/gitlab-org/-/epics/14146).
 The new analyzer should be based on a scratch image to reduce the attack surface introduced by container dependencies.
 
 ### Pros
 
 - Simplified integration tests. No need to test against various permutations of
-  package managers, runtime, and compiler  versions.
+  package managers, runtime, and compiler versions.
 - We should always have zero container-scanning vulnerabilities. This translates
   to a reduced workload on the engineers going through reaction rotation.
+- Smaller image sizes. Fast CI job start-up, reduced network traffic.
+- Simplified FIPS-compliance as the library does not use crypto libraries.
+- Improved community contribution experience due to simplified permissions for
+  development pipeline execution.
 
 ### Cons
 
@@ -101,31 +101,6 @@ The new analyzer should be based on a scratch image to reduce the attack surface
 - Users need to configure their build jobs as instructions. It doesn't work out of the box.
 
 ## Design and implementation details
-
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
-
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-an important context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
-
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
 
 At a high level, the new dependency scanning feature will operate as follows.
 
@@ -177,6 +152,20 @@ by default this is the project's repository, detect all supported files, parse
 them, and convert them into a CycloneDX SBOM that can be utilized by the
 services running in the GitLab monolith.
 
+### Pros
+
+- No preinstalled compilers, runtimes or system dependencies
+  required.
+- Small attack surface.
+- Runs offline by default.
+
+### Cons
+
+- Graph export documentation varies in quality. Some package managers like `npm`
+  document each version of the lock file, while others like `pnpm` do not.
+- Java and Python projects require additional configuration since they do not
+  capture graph information in their lock files by default.
+
 ## Alternative Solutions
 
 ### Require lock file, add graph information to it
@@ -191,45 +180,65 @@ benefit of improving the experience for our users by including the necesssary
 tooling out of the box, overall improving the workflow for getting started with
 GitLab's dependency scanning feature.
 
-That said, there are tradeoffs made for the benefits that are gained. In
-following this approach, we will be taking on additional risk with our
-development velocity. Package managers tend to have large code bases, and a
-large amount of edge cases that they have handled over time. Coupled with
-maintainence and backward compatibility concerns, this introduces the risk of
-lengthy implementation discussions, lengthy reviews, and even the possibility of
-an outright feature rejection. Because of these risks, this proposed solution
-will not be pursued.
+#### Pros
 
-### Directly use SBOMs
+- Does not require establishing new file requirements.
+- Works out of the box in majority of cases. Package managers usually generate
+  a lock file if one doesn't exist.
+
+#### Cons
+
+- Package managers tend to have large code bases that increase the onboarding
+  time required.
+- Lock files require domain expertise. For example, in [pnpm's issue 7685](https://github.com/pnpm/pnpm/issues/7685)
+  you can see the discussion of a very specific corner case that must be handled.
+- Project maintainers have their own sets of concerns that may not align with
+  our own. For example, they may prioritize stability and maintenance over new
+  features.
+
+### Rely on 3rd party CycloneDX generators
 
 This approach moves the direction of composition analysis so that we interface
-only with the provided SBOMs. It has the benefit of using an established unified
-format, and a further simplified analyzer. However, it's not without its own
-drawbacks. Some of the challenges that SBOM interfacing brings up are listed
-below:
+only with user provided `cyclonedx` CI reports from 3rd party CycloneDX generators.
 
-- Ingestion of various custom CycloneDX properties at the top level and
-  component level introduces many edge cases.
-- Users are at times still running dependency export jobs like in the case of
-  `cyclondex_py` and `pip freeze` analysis.
+#### Pros
 
-While we may not be pursuing the SBOM first approach in the first iteration, it
-is something that will be explored further in the future.
+- No CI/CD component integration testing.
+- No analyzer maintenance required.
 
-### Write dependency graph plugins
+#### Cons
+
+- Tied to the GitLab release schedule, so we can't deploy new features mid
+  milestone.
+- There are a lot of third party analyzers that can generate a CycloneDX report.
+  Supporting all of their custom [metadata properties](https://cyclonedx.org/docs/1.5/json/#metadata_properties)
+  and [component properties](https://cyclonedx.org/docs/1.5/json/#components_items_properties)
+  can be challenging.
+- Requires time to get up to speed with third party SBOM generator code bases.
+- Proposals to the generators may be rejected. If required, we could fork the
+  project, but that comes with its own set of challenges.
+- Dependency graphs may be incomplete like `cyclondex_py` in some circumstances.
+
+### Generate custom dependency graph exports with package manager plugins
 
 In the cases where package managers expose a public API, we are able to write a
-plugin that generates the dependency graph in a format of our choosing. This
-isn't a new concept as it's been used in the past for `gemansium-maven`
-dependency analysis.
+plugin to generate the dependency graph in a format of our choosing. This has
+been used for `gemansium-maven` dependency analysis.
 
-From past experience with `gemnasium-maven`, we have learned that maintaining a
-plugin in languages other than Go and Ruby cuts into our engineering resources.
-Plugins require their own separate testing, deployment, and when not
-autoexecuted, their success depends heavily on their adoption rate. In addition,
-using a separate language introduces context switching, and reduces the pool of
-experts who are able to review and approve merge requests. Because of this, the
-plugin proposal was not chosen.
+#### Pros
+
+- Choice of output format.
+- Can re-use the bundled `gemnasium-maven` plugins.
+
+#### Cons
+
+- Not all package managers have support for third party plugins. For example,
+  `pnpm` does not have documented plugin support.
+- Plugins that do not use Ruby or Go require new language expertise, which
+  lead to a smaller pool of plugin maintainers, and higher review load per
+  maintainer.
+- Additional overhead required for the maintenance, improvements, and
+  deployments of plugin projects.
 
 ## Appendix
 
