@@ -305,7 +305,7 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
 - Duration: 25 minutes
 - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters
 
-### Weekly Standups
+### Weekly Standups (EMEA)
 
 - Frequency: Weekly
 - Duration: 25 minutes
