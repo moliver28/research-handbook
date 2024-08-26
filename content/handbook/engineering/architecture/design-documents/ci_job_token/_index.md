@@ -34,11 +34,10 @@ job can use to interact with other GitLab resources. This token is generated
 on behalf of the user who triggered the CI job, effectively granting the CI
 job the same level of access as the user.
 
-This would allow us to enable authorization workflows by default with CI_JOB_TOKEN, resolving for issues like https://gitlab.com/gitlab-org/gitlab/-/issues/335465.
-
 ### Goals
 
-This proposal aims to decouple the access of the `CI_JOB_TOKEN` from a specific user, assigning it instead to an entity with more limited access.
+This proposal aims to decouple the access of the `CI_JOB_TOKEN` from a specific
+user, assigning it instead to an entity with more limited access.
 
 - We want to decouple the `CI_JOB_TOKEN` from the user who triggered the pipeline.
 - We want to reduce the access granted to the `CI_JOB_TOKEN`.
@@ -57,117 +56,31 @@ This proposal aims to decouple the access of the `CI_JOB_TOKEN` from a specific 
 Instead of generating a `CI_JOB_TOKEN` bound to the user who triggered the
 CI pipeline, we will generate a `CI_JOB_TOKEN` bound to a separate entity.
 This entity will be a specific account designated for use by CI jobs. This
-custom user will have limited permissions defined by the assigned role, which
-can be one of the [standard roles](https://docs.gitlab.com/ee/user/permissions.html#roles) or a [custom role](https://docs.gitlab.com/ee/user/custom_roles/abilities.html).
+account will have limited permissions defined by the assigned role, which
+must be a [custom role](https://docs.gitlab.com/ee/user/custom_roles.html).
 
-At this time, it is uncertain whether we will need to manage CI job-specific
-custom abilities that cannot be assigned to regular user accounts.
+This functionality is only available to projects that are licensed to use the
+custom role feature.
 
 ## Design and implementation details
 
 The following stages are outlined below:
 
-1. ~Use a User Account~
 1. Use a Service Account
 1. Use Declarative Permissions
-1. Integrate with our OAuth Provider
 
-### ~Stage 1: Use a User Account~
+### Use a Service Account
 
-This stage is deemed too risky so it is being removed from the effort.
+We will create a dedicated service account for each project that will be used
+as the user bound to each CI job. This account will be assigned a custom
+role on the project that it is bound to or any other project.
 
-~Currently, project owners can invite a user to a project with specific
-permissions using a custom role. We will leverage this mechanism to bind a
-specific account to all CI jobs within a project by using a convention for
-identifying the user account. This approach allows for quick feedback to
-identify gaps in the existing custom permissions.~
+This service account can only be used to generate a `CI_JOB_TOKEN` for the
+project that it is bound to. This account cannot be used to generate a
+`CI_JOB_TOKEN` for any job belonging to any other project.
 
-~This immediate and temporary solution will help reduce the access currently
-granted through the `CI_JOB_TOKEN`.~
-
-~When a new build is created, we will search for a specific user account based
-on a naming convention. If the user account is found, it will be attached to
-the build, thereby restricting the `CI_JOB_TOKEN` to the permissions
-assigned to that account.~
-
-~The convention for searching for a user is as follows:~
-
-1. The user must be a direct member of the project.
-2. The username must match the pattern `<project-id>-ci_user`.
-
-~When a user matching this pattern is found, that user will be used as the
-security principal for generating the `CI_JOB_TOKEN`.~
-
-~An example of how to implement this can be found in [this merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162599).
-Below is a snippet of code that summarizes the idea.~
-
-```ruby
-module Gitlab
-  module Ci
-    module Pipeline
-      module Chain
-        class Build < Chain::Base
-          def perform!
-            @pipeline.assign_attributes(user: ci_user)
-          end
-
-          private
-
-          def ci_user
-            conventional_username = "#{@command.project.id}-ci_user"
-            @command.project.users.find_by(username: conventional_username) || current_user
-          end
-        end
-      end
-    end
-  end
-end
-```
-
-~Below is an alternative implementation to preserve the audit trail.~
-
-```ruby
-class Ci::Build
-  def ci_user
-    conventional_username = "#{project.id}-ci_user"
-    project.users.find_by(username: conventional_username) || user
-  end
-end
-
-module Ci
-  class AuthJobFinder
-    # ...
-
-    def execute!
-      # ...
-        job.ci_user.set_ci_job_token_scope!(job) if job.ci_user.present?
-      # ...
-    end
-  end
-end
-```
-
-**Pros:**
-
-- ~It is a straightforward solution.~
-- ~It allows for fast feedback to help identify gaps in our custom permissions.~
-- ~It can be used today.~
-
-**Cons:**
-
-- ~This occupies a licensed seat.~
-- ~It is not intuitive.~
-- ~This artificially increases the number of registered users in the product metrics.~
-- ~Requires us to clean up the users after this stage is complete~
-
-### Stage 2: Use a Service Account
-
-In this stage, we will replace the conventional user lookup with a dedicated
-[Service Account](https://gitlab.com/gitlab-org/gitlab/-/blob/fe97111040fd82e283a0ac0034ed832cb592ba35/app/models/concerns/has_user_type.rb#L20).
-This service account will be used as the user bound to each CI job. Project
-owners will be able to assign permissions to this service account through a
-role. If the project has an Ultimate license, the service account can be
-assigned a custom role; otherwise, a standard role can be selected.
+This service account can be granted membership to other projects so that it may
+have read/write access to those projects via the REST API.
 
 **Pros:**
 
@@ -178,19 +91,21 @@ assigned a custom role; otherwise, a standard role can be selected.
 - Creates a user record for every project.
 - May add complexity to the UI for applying permissions to a service account.
 
-### Stage 3: Use Declarative Permissions
+### Use Declarative Permissions
 
-In this stage, we will introduce support for defining permissions for each job
-using a declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/) file.
+We will introduce support for defining permissions for each pipeline using a
+declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/)
+file to allow the generation of a `CI_JOB_TOKEN` with a reduced set of
+permissions than the full access available to the service account.
 
-The exact syntax for defining these permissions is yet to be determined, but the
-goal of this stage is to provide a way to restrict the permissions available to
-different jobs within the same pipeline. Currently, the default behavior is to
-grant each job full access to all the permissions available to the user bound to
-the job. This step will reduce the access from the full set of permissions
-available to the user down to the permissions specified in the YAML
-configuration.
+The `permissions` declared in the `.gitlab-ci.yml` file cannot be used to
+request access. It is used to generate a `CI_JOB_TOKEN` with a subset of the
+full set of permissions available to the service account. The access that is
+granted to the service account will be determined through [project membership](https://docs.gitlab.com/ee/user/project/members/).
 
+#### Syntax
+
+The exact syntax for defining these permissions is yet to be determined.
 Below are examples of what the syntax could look like:
 
 **Example 1: Custom Ability Name Encoding**
@@ -248,15 +163,17 @@ permissions available during the execution of the pipeline. The service account
 bound to the CI job will have, at a minimum, these permissions to perform the
 job. The intention of declaring these permissions is to specify the **desired**
 permissions. For the job to receive these permissions, the service account
-assigned to the build must have been granted these permissions prior to
-executing the pipeline.
+must have been granted these permissions prior to executing the pipeline.
+
+If the service account does not have the permissions that are specified in the
+`permissions` block of the `.gitlab-ci.yml` file then the pipeline with fail
+with an error indicating that the service account does not have specified
+permissions.
 
 These permissions will be encoded into an ephemeral job token that will be
-digitally signed to ensure authenticity and detect tampering. The digital
-signature algorithm will use a public/private key pair with a minimum of SHA256
-for computing the digest. Since this is a CPU-intensive operation, we will need
-to choose an algorithm that balances security and performance given the volume
-of CI jobs.
+digitally signed to ensure authenticity and to detect tampering. The digital
+signature algorithm will use a public/private key pair with a minimum of SHA-256
+for computing the digest.
 
 When an API receives the `CI_JOB_TOKEN`, it will verify the token's digital
 signature and honor the API request according to the permissions defined in the
@@ -274,13 +191,37 @@ was issued by a trusted authority. This approach allows us to encode permissions
 bound to a specific CI job session without significantly altering our
 authorization policies. The `Declarative Policy` checks require a specific user
 account as the subject of the policy decision, and we will use the service
-account created in Stage 2 as the subject of this check.
+account as the subject of this check.
 
-**Example 1: Single Project**
+#### Examples
+
+The following examples assume two projects with a service account for each
+project.
+
+| Resource | Symbol |
+| -------- | ------ |
+| Project A | `P-A` |
+| Project B | `P-B` |
+| Service Account for Project A | `SA-A` |
+| Service Account for Project B | `SA-B` |
+
+**Example 0: Project Configuration without declared permissions**
+
+When a project is configured without the `permissions` block in the
+`.gitlab-ci.yml` file then a `CI_JOB_TOKEN` will be generated with a token that
+has full access to any permission granted to the service account bound to the
+project.
+
+**Example 1: Single Project Configuration**
+
+When a project is configured with the `permissions` block in the
+`.gitlab-ci.yml` file then a `CI_JOB_TOKEN` will be generated with a token that
+has the specified permissions if the service account has been granted these
+permissions.
 
 | global_id                  | name             |
 | -------------------------- | ---------------- |
-| "gid://gitlab/Project/42"  | "acme-org/foo"   |
+| "gid://gitlab/Project/A"   | "acme-org/foo"   |
 
 The following `.gitlab-ci.yml` file can be used to configure what permissions
 will be encoded into the `CI_JOB_TOKEN`:
@@ -302,7 +243,7 @@ represented as an object rather than a single string value:
 ```json
 {
   "iss": "gitlab.com",
-  "sub": "gid://gitlab/Ci::Build/1",
+  "sub": "gid://gitlab/User/SA-A",
   "aud": "",
   "exp": 1300819380,
   "scope": {
@@ -313,16 +254,18 @@ represented as an object rather than a single string value:
 ```
 
 The CI service account will need to be granted the `read_issue` and `read_repo`
-permissions for the `acme-org/foo` project. Currently, these permissions are
-implicitly assigned through one of the standard roles, but we will need to make
-these individual permissions available through custom roles.
+permissions for the `acme-org/foo` project.
 
-**Example 2: Multi-Project**
+**Example 2: Multi-Project Configuration**
 
-| global_id                  | name             |
-| -------------------------- | ---------------- |
-| "gid://gitlab/Project/42"  | "acme-org/foo"   |
-| "gid://gitlab/Project/256" | "acme-org/bar"   |
+When a pipeline in Project A (`P-A`) needs to access resources in `Project B`
+(`P-B`) the service account for `P-A` (`SA-A`) will need to be granted
+membership to `P-B`.
+
+| global_id                | name            |
+| ------------------------ | --------------- |
+| "gid://gitlab/Project/A" | "acme-org/foo"  |
+| "gid://gitlab/Project/B" | "acme-org/bar"  |
 
 ```yaml
 # .gitlab-ci.yml
@@ -340,31 +283,24 @@ permissions:
 ```json
 {
   "iss": "gitlab.com",
-  "sub": "gid://gitlab/Ci::Build/1",
+  "sub": "gid://gitlab/User/SA-A",
   "aud": "",
   "exp": 1300819380,
   "scope": {
     "read_issue": [
-      "gid://gitlab/Project/42"
+      "gid://gitlab/Project/A"
     ],
     "read_repo": [
-      "gid://gitlab/Project/42",
-      "gid://gitlab/Project/256"
+      "gid://gitlab/Project/A",
+      "gid://gitlab/Project/B"
     ]
   }
 }
 ```
 
-To generate the token above, the service account used for jobs will need
-membership in the downstream project with the `read_repo` permission. Currently,
-this permission is not listed as one of the supported custom abilities but is
-implicitly available through one of the standard roles. We will need to
-enumerate each specific ability to generate documentation indicating which
-permissions can be configured through the `.gitlab-ci.yml` file.
-
 **Pros:**
 
-- Removes the need to write additional data to the database to represent temporary roles for each build.
+- Removes the need to write additional data to the database to represent temporary roles for each job.
 - Supports changes in permissions in the `.gitlab-ci.yml` file, allowing two concurrent pipelines in the same project for different commits to operate with appropriate access controls independently.
 
 **Cons:**
@@ -373,29 +309,6 @@ permissions can be configured through the `.gitlab-ci.yml` file.
 - Requires pipeline authors to opt in.
 - Requires pipeline authors to understand the new syntax.
 - Potential for over-permissioning if the new syntax is too complex or if pipelines are failing.
-
-### Stage 4: Integrate with our OAuth Provider
-
-In this stage, we will create and register a trusted OAuth app
-(`Doorkeeper::Application`) and use it to generate OAuth access tokens on behalf
-of the service account defined in stage 2. This approach will leverage our
-existing OAuth implementation and provide an extension point for any API outside
-of the [monolith](https://gitlab.com/gitlab-org/gitlab) to verify the claims
-associated with a `CI_JOB_TOKEN` by making an API call to the
-[token introspection endpoint](https://docs.gitlab.com/ee/api/oauth2.html#retrieve-the-token-information).
-
-An example of how to implement this can be found in [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162333).
-
-**Pros:**
-
-- The `CI_JOB_TOKEN` is an access token that is compatible with our OAuth Provider.
-- This creates an extension point that is standards compatible for better
-  interoperability between internal and external services.
-
-**Cons:**
-
-- Doesn't fully conform to the OAuth Token Exchange Protocol.
-- This will create a new record in the `oauth_access_tokens` for each job.
 
 ## Alternative Solutions
 
