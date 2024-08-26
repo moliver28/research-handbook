@@ -158,73 +158,38 @@ permissions:
   - read://repo@gitlab-com/gitlab
 ```
 
+#### Usage
+
 The permissions defined in the `.gitlab-ci.yml` file will **restrict** the
 permissions available during the execution of the pipeline. The service account
-bound to the CI job will have, at a minimum, these permissions to perform the
-job. The intention of declaring these permissions is to specify the **desired**
-permissions. For the job to receive these permissions, the service account
-must have been granted these permissions prior to executing the pipeline.
+bound to the CI job must have, at a minimum, these permissions to perform the
+job. The declaration of these permissions is to specify the minimal **required**
+permissions. In order for the job to receive a token with these permissions,
+the service account must have been granted these permissions prior to the
+exeution of the pipeline.
 
 If the service account does not have the permissions that are specified in the
-`permissions` block of the `.gitlab-ci.yml` file then the pipeline with fail
-with an error indicating that the service account does not have specified
+`permissions` block of the `.gitlab-ci.yml` file then the pipeline will fail
+with an error indicating that the service account does not have the necessary
 permissions.
 
-These permissions will be encoded into an ephemeral job token that will be
-digitally signed to ensure authenticity and to detect tampering. The digital
-signature algorithm will use a public/private key pair with a minimum of SHA-256
-for computing the digest.
+If the service account has been granted the declared permissions then the
+permissions will be encoded into an ephemeral job token that will limit the
+access that is available to the token. This token will follow the
+[JWT](https://datatracker.ietf.org/doc/html/rfc7519) standard and contain a
+digital signature that can be validated. When an API receives the
+`CI_JOB_TOKEN`, it will verify the token's digital signature and honor the API
+request according to the permissions defined in the `scope` claim of the token.
 
-When an API receives the `CI_JOB_TOKEN`, it will verify the token's digital
-signature and honor the API request according to the permissions defined in the
-`scope` claim.
+This allows a token to be issued for the service account but have less access
+than the full access that is granted to the service account.
 
-Currently, when we authorize any request in the HTTP APIs, we look up a token in
-a database to find the associated user. We then examine the user's role for a
-given resource (for example Project, Group) and enable `Declarative Policy`
-rules based on that role (for example an Owner also has `read_issue` and
-`read_repo` permissions on a project).
-
-In this stage, we will examine the permissions encoded in the token itself and
-enable the `Declarative Policy` rules after validating that the provided token
-was issued by a trusted authority. This approach allows us to encode permissions
-bound to a specific CI job session without significantly altering our
-authorization policies. The `Declarative Policy` checks require a specific user
-account as the subject of the policy decision, and we will use the service
-account as the subject of this check.
+If the `permissions` section is not specified in the `.gitlab-ci.yml` file then
+the `CI_JOB_TOKEN` will have full access to the service accounts permissions.
 
 #### Examples
 
-The following examples assume two projects with a service account for each
-project.
-
-| Resource | Symbol |
-| -------- | ------ |
-| Project A | `P-A` |
-| Project B | `P-B` |
-| Service Account for Project A | `SA-A` |
-| Service Account for Project B | `SA-B` |
-
-**Example 0: Project Configuration without declared permissions**
-
-When a project is configured without the `permissions` block in the
-`.gitlab-ci.yml` file then a `CI_JOB_TOKEN` will be generated with a token that
-has full access to any permission granted to the service account bound to the
-project.
-
 **Example 1: Single Project Configuration**
-
-When a project is configured with the `permissions` block in the
-`.gitlab-ci.yml` file then a `CI_JOB_TOKEN` will be generated with a token that
-has the specified permissions if the service account has been granted these
-permissions.
-
-| global_id                  | name             |
-| -------------------------- | ---------------- |
-| "gid://gitlab/Project/A"   | "acme-org/foo"   |
-
-The following `.gitlab-ci.yml` file can be used to configure what permissions
-will be encoded into the `CI_JOB_TOKEN`:
 
 ```yaml
 # .gitlab-ci.yml
@@ -235,10 +200,9 @@ permissions:
     - project: self
 ```
 
-The following is the JWT body portion of the `CI_JOB_TOKEN` that contains some
-of the standard claims as well as the [scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
-extension for encoding the necessary permissions. Note that the `scope` claim is
-represented as an object rather than a single string value:
+The configuration listed above will generate a `CI_JOB_TOKEN` with the following
+JWT body. Note that the [scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
+extension is used for specifying the list of permissions encoded into the token.
 
 ```json
 {
@@ -247,20 +211,17 @@ represented as an object rather than a single string value:
   "aud": "",
   "exp": 1300819380,
   "scope": {
-    "read_issue": ["gid://gitlab/Project/42"],
-    "read_repo": ["gid://gitlab/Project/42"]
+    "read_issue": ["gid://gitlab/Project/A"],
+    "read_repo": ["gid://gitlab/Project/A"]
   }
 }
 ```
 
-The CI service account will need to be granted the `read_issue` and `read_repo`
-permissions for the `acme-org/foo` project.
-
 **Example 2: Multi-Project Configuration**
 
 When a pipeline in Project A (`P-A`) needs to access resources in `Project B`
-(`P-B`) the service account for `P-A` (`SA-A`) will need to be granted
-membership to `P-B`.
+(`P-B`) the service account for Project A (`SA-A`) will need to be granted
+membership to Project B.
 
 | global_id                | name            |
 | ------------------------ | --------------- |
