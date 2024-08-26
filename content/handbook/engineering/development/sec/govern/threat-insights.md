@@ -54,9 +54,9 @@ DRI: {{< member-by-gitlab "ryaanwells" >}}
 
 [AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
 
-DRI: {{< member-by-gitlab "sming-gitlab" >}}
+DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "dpisek" "darbyfrey" "alexbuijs" >}}
+{{< member-and-role-by-gitlab "sming-gitlab" "dpisek" "subashis" "darbyfrey"  >}}
 
 ### Reporting Structure
 
