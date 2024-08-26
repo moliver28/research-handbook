@@ -195,6 +195,8 @@ GitLab's dependency scanning feature.
 - Project maintainers have their own sets of concerns that may not align with
   our own. For example, they may prioritize stability and maintenance over new
   features.
+- Older versions of package managers, or build tools, would not be compatible
+  with new additions.
 
 ### Rely on 3rd party CycloneDX generators
 
@@ -208,8 +210,8 @@ only with user provided `cyclonedx` CI reports from 3rd party CycloneDX generato
 
 #### Cons
 
-- Tied to the GitLab release schedule, so we can't deploy new features mid
-  milestone.
+- Tied to the GitLab release schedule, so we can't deploy new features,
+  enhancements, and bug fixes mid milestone.
 - There are a lot of third party analyzers that can generate a CycloneDX report.
   Supporting all of their custom [metadata properties](https://cyclonedx.org/docs/1.5/json/#metadata_properties)
   and [component properties](https://cyclonedx.org/docs/1.5/json/#components_items_properties)
