@@ -23,11 +23,15 @@
         </td>
 
         <td class="support-term">
-          <ul>
-          {{ range .term }}
-            <li>{{ . | markdownify }}</li>
+          {{ if reflect.IsSlice .term }}
+            <ul>
+            {{ range .term }}
+              <li>{{ . | markdownify }}</li>
+            {{ end }}
+            </ul>
+          {{ else }}
+            {{ .term | markdownify }}
           {{ end }}
-          </ul>
         </td>
 
         <td class="more-info">
