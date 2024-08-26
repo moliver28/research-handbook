@@ -1,0 +1,30 @@
+# for configuration see layouts/shortcodes/support-glossary.html
+# Example:
+#
+# - acronym: commonly used acronym - use one only per entry. If the same expanded term has multiple acronyms in use (does that happen?) create seperate entries for each
+#   term:
+#    - expanded version of the acronym
+#   info: |
+#     Explain and provide some links if needed. You can use markdown.
+#
+
+
+- acronym: FRT
+  term: First Response Time
+  info: |
+    Support have a first response time service level agreement (SLA) on all new tickets from subscribed customers.
+
+- acronym: NRT
+  term: Next Response Time
+  info: |
+    Support have a next response time service level objective (SLO) on all subsequent replies to tickets from subscribed customers. 
+
+- acronym: OKR
+  term: Objectives and key results
+  info: |
+    GitLab uses [OKRs](https://handbook.gitlab.com/handbook/company/okrs/) to support achieving our strategic goals. 
+
+- acronym: CMOC
+  term: Communications Manager on-call
+  info: |
+    Support is responsible for keeping customers informed in support of our incident response process when there is an active incident on gitlab.com. The role has several [responsibilities](https://handbook.gitlab.com/handbook/support/workflows/cmoc_workflows/).
