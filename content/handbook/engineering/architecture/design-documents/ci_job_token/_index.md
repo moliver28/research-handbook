@@ -160,32 +160,29 @@ permissions:
 
 #### Usage
 
-The permissions defined in the `.gitlab-ci.yml` file will **restrict** the
-permissions available during the execution of the pipeline. The service account
-bound to the CI job must have, at a minimum, these permissions to perform the
-job. The declaration of these permissions is to specify the minimal **required**
-permissions. In order for the job to receive a token with these permissions,
-the service account must have been granted these permissions prior to the
-exeution of the pipeline.
+The permissions defined in the `.gitlab-ci.yml` file **limit** the access
+available during pipeline execution. The service account linked to the CI job
+must, at a minimum, have these permissions to perform the job. The purpose of
+declaring these permissions is to specify the minimal **required** access.
 
-If the service account does not have the permissions that are specified in the
-`permissions` block of the `.gitlab-ci.yml` file then the pipeline will fail
-with an error indicating that the service account does not have the necessary
-permissions.
+To ensure the job receives a token with the necessary permissions, the service
+account must be granted these permissions before pipeline execution.
 
-If the service account has been granted the declared permissions then the
-permissions will be encoded into an ephemeral job token that will limit the
-access that is available to the token. This token will follow the
-[JWT](https://datatracker.ietf.org/doc/html/rfc7519) standard and contain a
-digital signature that can be validated. When an API receives the
-`CI_JOB_TOKEN`, it will verify the token's digital signature and honor the API
-request according to the permissions defined in the `scope` claim of the token.
+If the service account lacks the permissions specified in the `permissions`
+block of the `.gitlab-ci.yml` file, the pipeline will fail, with an error
+indicating the missing permissions.
 
-This allows a token to be issued for the service account but have less access
-than the full access that is granted to the service account.
+When the service account has the declared permissions, they will be encoded
+into an ephemeral job token. This token, following the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
+standard, will contain a digital signature that can be validated. When an API
+receives the `CI_JOB_TOKEN`, it will verify the token's signature and process
+the request according to the permissions defined in the token's `scope` claim.
 
-If the `permissions` section is not specified in the `.gitlab-ci.yml` file then
-the `CI_JOB_TOKEN` will have full access to the service accounts permissions.
+This mechanism allows a token to be issued with reduced access, even if the
+service account has broader permissions.
+
+If the `permissions` section is not specified in the `.gitlab-ci.yml` file, the
+`CI_JOB_TOKEN` will have full access to the service account's permissions.
 
 #### Examples
 
