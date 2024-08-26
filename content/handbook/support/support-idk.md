@@ -16,6 +16,6 @@ also aligns with handbook style item [acronyms and initialisms](/handbook/market
 If you came to this page while reading a document missing a definition, be a
 helpful Tanuki and update that page with the acronym expansion.
 
-To edit the content of this page, go to 
+<!-- To edit the definitions content for this page, go to ../../../data/support_glossary.yml
 
 {{< support-glossary >}}
