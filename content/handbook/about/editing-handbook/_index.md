@@ -55,7 +55,7 @@ A typical workflow to edit the handbook:
 
     ![Web IDE overview, upload files](images/practical_handbook_edits_web_ide_vs_code_file_upload_images.png)
 
-1. Open the `Source Control` icon on the left menu which has a blue marker for counting the file changes. Tip: Keyboard shortcut `Ctrl+Shift+G`.
+1. Open the `Source Control` icon on the left menu which has a colored marker for counting the file changes. Tip: Keyboard shortcut `Ctrl+Shift+G`.
 
     ![Web IDE menu, source control](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_menu_explorer_search_source_control.png)
 
