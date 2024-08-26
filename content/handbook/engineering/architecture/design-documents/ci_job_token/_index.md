@@ -197,9 +197,9 @@ permissions:
     - project: self
 ```
 
-The configuration listed above will generate a `CI_JOB_TOKEN` with the following
-JWT body. Note that the [scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
-extension is used for specifying the list of permissions encoded into the token.
+The configuration above will generate a `CI_JOB_TOKEN` with the following JWT
+payload. The [scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
+claim specifies the list of permissions encoded into the token.
 
 ```json
 {
@@ -216,11 +216,11 @@ extension is used for specifying the list of permissions encoded into the token.
 
 **Example 2: Multi-Project Configuration**
 
-When a pipeline in Project A (`P-A`) needs to access resources in `Project B`
-(`P-B`) the service account for Project A (`SA-A`) will need to be granted
-membership to Project B.
+When a pipeline in Project A (`P-A`) needs to access resources in Project B
+(`P-B`), the service account for Project A (`SA-A`) must be granted membership
+in Project B.
 
-| global_id                | name            |
+| Global ID                | Name            |
 | ------------------------ | --------------- |
 | "gid://gitlab/Project/A" | "acme-org/foo"  |
 | "gid://gitlab/Project/B" | "acme-org/bar"  |
@@ -235,8 +235,7 @@ permissions:
     - project: acme-org/bar
 ```
 
-Below is an example of the body of the JWT token that contains the requested
-permissions:
+Below is an example of the JWT payload containing the requested permissions:
 
 ```json
 {
