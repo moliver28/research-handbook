@@ -14,11 +14,18 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
 - [CI/CD Catalog Documentation](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
 
-### Team
+## Team Handles
+
+| Category | Handle |
+|---------------|------|
+|GitLab Team Handle | @verify-pa-team |
+| Slack Channel | [#g_pipeline-authoring](https://gitlab.slack.com/archives/C019R5JD44E) |
+| Slack Handle (Engineers) | @verify-pa-engineering |
+
+### Team Resources
 
 - [Team Resources](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/)
 - [Workflow board: `~group::pipeline authoring`](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started)
-- [Slack Channel: `#g_pipeline-authoring`](https://gitlab.slack.com/archives/C019R5JD44E)
 
 ### Videos
 
@@ -33,6 +40,51 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - CI/CD Catalog: publishing and releasing process to Catalog.
 - Pipeline creation: process of building and persisting a pipeline including multi-project
   or child pipelines.
+- Variables:  Simplifies your pipeline configuration and eliminates pipeline management issues caused by repeatedly used values getting out of sync. 
+
+## Technical Roadmap 
+
+`Remainder of FY25`
+
+These areas are our high-level engineering driven goals for the remainder of `FY25`. Though they are ambitious and subject to change, it gives insight into where our focus will be in these areas.
+
+### Performance & Cost Reduction
+
+**Pipeline Creation Speed**
+
+Goals:
+
+- Understand all endpoints that comprise of pipeline creation to improve speed.
+- Identify top 3 issue [candidates](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=ci%3A%3Apipeline%20creation&first_page_size=20) to optimize pipeline creation performance.
+
+### Scalability
+
+**CI/CD Variables**
+
+Goals:
+
+- Address top-level variables keyword problem - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6565)
+- Implement a new CI/CD variable from scratch to identify pitfalls and how we can improve for future variable additions. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
+
+### Efficiency
+
+**Auto-generating a JSON schema for spec keyword** 
+
+Goals:
+
+- Transition from entry classes to JSON schema for data structure validation.
+
+### Visibility 
+
+**CI Catalog instrumentation**
+
+Goals:
+
+- Work on top 3 issue [candidates](https://gitlab.com/groups/gitlab-org/-/epics/10120) to add more visibility for usage in CI/CD Catalog.
+
+### FY26 top of mind
+
+- Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
 
 ## Exciting things and accomplishments
 
@@ -48,6 +100,31 @@ This section will list the top three most recent, exciting accomplishments from 
 ## Stable Counterparts
 
 To find our stable counterparts, look at the Pipeline Authoring [product category listing](/handbook/product/categories/#pipeline-authoring-group).
+
+## Capturing User Feedback
+
+We highly value user feedback! Please use the issue below to capture feedback and insights for our newest feature, CI/CD Catalog:
+
+- [CI/CD Catalog Feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/407556)
+
+## Group Meetings 
+
+For every meeting, it is expected that it contains a list of agenda items to discuss along with the meeting notes when the meeting takes place. This will make it easier for people to catch up if they are unable to attend.
+
+Please note that sync meeting schedules are flexible and can be moved to accomodate required participants. For an up-to-date schedule of all team meetings, please consult the [Group's Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_n7totcsnoi7l2j0a2n9ps08g7s@group.calendar.google.com&ctz=UTC).
+
+The table below briefly outlines the objectives and key details of regular team meetings:
+
+| Meeting Title | Cadence | DRI | What |
+|---------------|------|------|------|
+| UX/Product/Engineering sync | Weekly | Product | Set overall direction and validate higher-priority issues/epics to be worked on in the upcoming releases.|
+| Team weekly sync * | Weekly | Engineering | Discuss announcements, product updates, open questions team wishes to discuss. |
+| Backlog clean-up | Monthly | Product |Review the current state of team backlog to ensure all issues are still valid so the backlog is clean and up-to-date. |
+| Milestone retrospective sync | Monthly | Engineering | Reflect on the milestone that recently completed and share takeaways as well as identify action items for improvement and/or future trialing. |
+| Design discussions | Bi-Weekly | UX | Review current design work that needs collaboration or feedback from Engineering. |
+| Technical discussions | Bi-Weekly | Engineers | Discuss current work and open questions that team members have for each other |
+
+- Starting in September 2024, the team will begin to trial team weekly syncs on Mondays.  If successful, weekly team syncs and ux/product/engineering syncs will be combined into 1 meeting starting in October.
 
 ## Dashboards
 
