@@ -57,7 +57,7 @@ The Commercial SA Triage Process is a structured approach to managing and priori
 
 4. Assignment:
    - Based on the evaluation, the request is assigned to an available SA with the appropriate skills and capacity.
-   - Assignment is done collaboratively within the SA Team, prioritizing "[two pairs of eyes](#2-better-triage-happens-with-a-second-pair-of-eyes)" principle.
+   - Assignment is done collaboratively within the SA Team, prioritizing "[two pairs of eyes](#2-encourage-a-second-pair-of-eyes-without-delaying-assignment)" principle.
 
 5. Prioritization:
    - Requests are prioritized based on factors such as deal size, strategic importance, and urgency.
@@ -93,7 +93,7 @@ _It doesn't need to be within an hour.  You can eat lunch first_
 _If possible, two team members review a Command Plan before or after initial assignment_
 
 - Whenever possible, a second team member should review the Command Plan to provide additional insights and ensure thorough understanding. This second review can happen after the initial assignment to avoid any delays in responding to the request.
--  Once an opportunity is assigned, the assigned team member is enouraged collaborate with another team member or a reporting manager to review the plan, verify goals, and identify next steps. This ensures that we maintain quality and strategic alignment without compromising our responsiveness.
+- Once an opportunity is assigned, the assigned team member is enouraged collaborate with another team member or a reporting manager to review the plan, verify goals, and identify next steps. This ensures that we maintain quality and strategic alignment without compromising our responsiveness.
 - There are cases where a second review may not be feasible or necessary, such as:
   - Fast-track prioritization for demos that were scheduled with less than 24 hours notice
   - Very specific communication language or skill required for the engagement (which means the request can be directly assigned to a specific SA)
