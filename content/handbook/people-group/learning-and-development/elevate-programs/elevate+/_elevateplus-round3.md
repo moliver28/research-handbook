@@ -69,12 +69,12 @@ The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-develo
 
 Being nominated to take this assessment means an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
 
-The stakeholder assessment is sent to participants direct reports, manager, and co-workers they have nominated. If you recieve a stakeholder assessment, we ask that you please take ~15 minutes to complete.
+The stakeholder assessment is sent to participants direct reports, manager, and co-workers they have nominated. If you receive a stakeholder assessment, we ask that you please take ~15 minutes to complete.
 
 Important things to note:
 
 1. Participants will not see names associated with feedback shared in Culture Amp. Feedback will be categorized based on who shares it: `Manager`, `Direct Reports`, and `Co-Workers`.
-1. You might be nominated by mulitiple Elevate+ participants to take the assessment. Please consider taking it for each person that's nominated you. You'll recieve a separate Culture Amp message and assessment link for each assessment.
+1. You might be nominated by mulitiple Elevate+ participants to take the assessment. Please consider taking it for each person that's nominated you. You'll receive a separate Culture Amp message and assessment link for each assessment.
 1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
 1. The People Analytics team will have access to the entire survey data set, including names, and will use this to pull aggregate themes from across all Elevate+ participants. The Talent Develompment team does **not** only has access to aggregate themes.
 1. If you're nominated to give feedback to someone that you feel you can't give adequate feedback to, based on your level of collaboration with them, please simply ignore the message from Culture Amp and any reminders.
