@@ -206,7 +206,7 @@ permissions:
     - project: gitlab-org/gitlab
 ```
 
-**Example 2: Extended Custom Ability Name Encoding **
+**Example 2: Extended Custom Ability Name Encoding**
 
 ```yaml
 permissions:
