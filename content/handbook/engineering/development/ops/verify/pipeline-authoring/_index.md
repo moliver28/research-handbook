@@ -154,7 +154,7 @@ We hold a bi-weekly design sync meeting open to all team members where we discus
 
 ## How We Work
 
-### Implementation template
+### Issue template
 
 A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue` is used to capture consistent details around implementation efforts. This template should be used when creating issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
 
@@ -608,14 +608,21 @@ When creating a follow-up issue for required tests:
 
 ### Technical Debt
 
-- We track our technical debt using the following [Pipeline Authoring Technical Debt issue board](https://gitlab.com/groups/gitlab-org/-/boards/2019541), where we track issues in the planning phase.
-- We schedule issues that are labeled as `workflow::ready for development`.
+- We track our team's technical debt using the following the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance), where we track issues with upcoming candidate labels and compare against current milestone.
+- In an effort to promote more transparency across the stage where collaboration may be needed, starting in August 2024, we've introduced a [Verify Pipeline teams Technical Debt board](https://gitlab.com/groups/gitlab-org/-/boards/1438885?not%5Blabel_name%5D%5B%5D=group%3A%3Ahosted%20runners&not%5Blabel_name%5D%5B%5D=group%3A%3Arunner&label_name%5B%5D=devops%3A%3Averify&label_name%5B%5D=type%3A%3Amaintenance) that shows the top of mind priorities in the Pipeline teams.
+
+Within the Pipeline Technical Debt Prioritization board, we have 6 main columns:
+
+1. Items with the current maintenance and refactor labeling needing severity are in the left-most column.
+2. The next column will always be the current milestone so team members have the opportunity to compare that list against what is coming up.
+3. The other columns are the upcoming 4 milestone candidate labels so team members can forecast out upcoming priorities.
+
+**NOTE:** Impact breakdown: We use `severity::n` labels to classify the impact of the specific tech debt item. These should map to the [severity definitions for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
 
 When creating a technical debt issue make sure to label it as such, in addition make sure to add labels based on the following guidelines:
 
 1. Issue readiness: We add the correct `~workflow::x` label in accordance with our [product development workflow](/handbook/engineering/development/ops/verify/pipeline-authoring/#workflow)
-
-1. Impact breakdown: We use `severity::n` labels to classify the impact of the specific tech debt item. These should map to the [severity definitions for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+2. Issue scheduling. The Engineering Manager will review the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance) and provide suggestions to the team to schedule for upcoming milestones by adding them to the respective planning issue for a milestone and communicating with Product a need to schedule the issue in an upcoming milestone. The issues selected should ideally align with the team's technical roadmap [themes](#technical-roadmap).
 
 #### Prioritization of Technical Debt
 
