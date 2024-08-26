@@ -337,8 +337,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Nevada
 
-- [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules_to_be_Observed_by_Employers_April_11_2022.pdf)
-- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules_to_be_Observed_by_Employers_April_11_%202022_SPANISH.pdf)
+- [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024.pdf)
+- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024_SPANISH.pdff)
 - [AB 190 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20190%20Required%20Posting.pdf)
 - [AB 190 - Spanish](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Spanish%20Version-%20AB%20190%20Required%20Posting.pdf)
 - [AB 307 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20307%20Required%20Posting.pdf)
