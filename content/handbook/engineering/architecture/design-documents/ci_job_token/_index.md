@@ -206,14 +206,29 @@ permissions:
     - project: gitlab-org/gitlab
 ```
 
-**Example 2: Conventional Encoding**
+**Example 2: Extended Custom Ability Name Encoding **
+
+```yaml
+permissions:
+  repositories: ["read"]            # read any repository - simple config
+  issues:
+    - allow: ["read", "write"]      # read and write issues on specific project-1 and project-2
+      projects: ["acme/project-1", "acme/project-2"]
+    - allow: ["read"]
+      projects: ["acme/project-3"]  # read issues on project-3
+  packages:
+    - allow: ["download"]
+      projects: "acme/*"            # download packages from any projects in the group
+```
+
+**Example 3: Conventional Encoding**
 
 ```yaml
 permissions:
   - write-issues@gitlab-com/www-gitlab-com
 ```
 
-**Example 3: URI Encoding**
+**Example 4: URI Encoding**
 
 - **Scheme:** `write|read|admin`
 - **Username:** Resource
