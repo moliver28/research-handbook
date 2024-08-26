@@ -112,7 +112,7 @@ A complete list of marketing slack channels can be found [here](/handbook/market
 
 ### CMO Requests
 
-Please follow the [CMO handbook] for review request workflows, and communication guidelines.
+Please follow the [CMO handbook](/handbook/marketing/cmo/) for review request workflows, and communication guidelines.
 
 ### Social Requests
 
@@ -120,7 +120,7 @@ All teams are responsible for requesting social posts themselves. If you are not
 
 - Events: Jr. Content Editor
 - Release & technical posts/product updates: [Technical writing](/handbook/product/ux/technical-writing/)
-- User questions/comments on Twitter/X: [Social Marketing] or [Developer Relations](/handbook/marketing/developer-relations/) team
+- User questions/comments on Twitter/X: [Social Marketing]() or [Developer Relations](/handbook/marketing/developer-relations/) team
 - Leadgen campaigns: [Content](/handbook/marketing/brand-and-product-marketing/content/) team
 - UX Design: UX Lead
 - Press/media coverage: Post in `#external-comms` for assistance from the [Corporate Communications](/handbook/marketing/corporate-communications/) team
@@ -155,13 +155,13 @@ Newsletter requests should be submitted no less than 5 business days before the 
 
 **Community Newsletter**
 
-The community newsletter is managed by the [Developer Relations] team, dedicated to sharing relevant developer content, highlighting contribution opportunities, and updating community members on upcoming events. We aim to keep our contributors involved and connected with the wider community. This newsletter will not be used to drive or generate leads.
+The community newsletter is managed by the [Developer Relations](/handbook/marketing/developer-relations/) team, dedicated to sharing relevant developer content, highlighting contribution opportunities, and updating community members on upcoming events. We aim to keep our contributors involved and connected with the wider community. This newsletter will not be used to drive or generate leads.
 
 To submit to the newsletter, please follow the [handbook instructions](/handbook/marketing/developer-relations/developer-advocacy/community-newsletter/#submissions).
 
 ### Sponsorship
 
-We are happy to sponsor events and meet-ups where a marketing benefit exists, subject to approval by [Field Marketing] Managers. These sponsorships may be in cash or in kind, depending on individual circumstances.
+We are happy to sponsor events and meet-ups where a marketing benefit exists, subject to approval by [Field Marketing](/handbook/marketing/field-marketing/) Managers. These sponsorships may be in cash or in kind, depending on individual circumstances.
 
 Organizational or project sponsorships may also be considered where a marketing benefit exists. Typically, these sponsorships will be in kind - e.g., developer time commitments, or [subsidized / free GitLab licenses](https://about.gitlab.com/blog/2018/06/05/gitlab-ultimate-and-gold-free-for-education-and-open-source/).
 
