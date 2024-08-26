@@ -200,7 +200,7 @@ Each quarter, E-Group can choose to invite an additional team member as a Key Ta
 
 Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
 
-GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines](/handbook/travel/#policy-and-guidelines).
+GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines](/handbook/finance/travel/#policy-and-guidelines).
 
 As part of joining the dinner, the Key Talent Guest should come prepared to discuss:
 

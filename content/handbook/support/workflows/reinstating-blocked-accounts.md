@@ -83,11 +83,11 @@ If the account is blocked, look for the admin note on the account to determine w
 If the Admin Note is `User deleted own account on {timestamp}`, this means the user initiated the self-serve deletion. See [Cancelling delayed account deletion](#cancelling-delayed-account-deletion).
 
 1. **Free user** accounts need to wait 7 days, starting the day of the deletion request, to create a new account with the same email address or username. Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro.
-    1. If the user is not part of a paid namespace but needs to be added to a paid namespace (user or top-level group owner creates the ticket), then they can request immediate deletion.
+1. **Exceptions in which Support can force deletion** - If a user is not part of a paid namespace but needs to be added to a paid namespace (user or top-level group owner creates the ticket), or if a paid user added below the top-level group and still subject to the 7-day delay period (True until [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/416651) is fixed): then Support can follow the steps below to bypass the 7 day delay:
         - Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro and ask for explicit permission from the user to bypass the 7d wait period and delete the account.
         - When confirmation is received, SE (with Admin access) deletes the account.
         - SE updates the ticket with the result of the deletion.
-1. **Paid user** accounts who are part of a paid namespace, the user has no deletion delayed and the account is deleted immediately, see [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/121912). Note: At present, this applies to members of top-level paid namespace only, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/416651). Paid users added below the top-level group will still be subject to the 7-day delay period.
+1. **Paid user** accounts that are direct members of a top-level paid namespace have no deletion delay and their account is deleted immediately (within 1 hour), see [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/121912).
 
 ### Embargoed countries
 

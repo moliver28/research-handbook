@@ -29,7 +29,6 @@
 /content/ @sytses @streas @gitlab-com/egroup
 /content/handbook/about/handbook-usage.md @sytses @streas @gitlab-com/content-sites
 /content/handbook/about/ @gitlab-com/content-sites
-/content/handbook/editing-handbook/ @gitlab-com/content-sites
 
 # The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
 /content/job-families/ @cbednarz @anjali_kaufmann @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
@@ -47,7 +46,6 @@
 
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
-/content/handbook/business-technology/data-team/ @amiebright
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
@@ -276,6 +274,9 @@
 /content/handbook/engineering/readmes/sean-carroll.md @sean_carroll
 /content/handbook/engineering/readmes/thong-kuah.md @tkuah
 
+^[enterprise-data]
+/content/handbook/enterprise-data/ @amiebright
+
 ^[entity]
 /content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
 
@@ -291,15 +292,15 @@
 /content/handbook/finance/procurement/ @RendiMiller @emannix @brobins
 /content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
-/content/handbook/internal-audit/ @bjoshi2 @atoomer
-/content/handbook/tax/ @jgladen
+/content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
+/content/handbook/finance/tax/ @jgladen
 /content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 [Finance required approvals]
 /content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Infrastructure-Standards]
-/content/handbook/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
+/content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
 /content/handbook/it/ @NabithaRao
@@ -459,7 +460,7 @@
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
 /content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
-/content/handbook/travel/ @wendybarnes @pegan
+/content/handbook/finance/travel/ @wendybarnes @pegan
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
@@ -583,7 +584,7 @@
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
-/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2
+/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
@@ -637,31 +638,31 @@
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 
 ##
-## Please keep the required handbook sections near the end, with the exception of fallback items, such as `handbook` and `Job Families`
+## Please keep the _required_ handbook sections near the end
 ##
-[CODEOWNERS] @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
-/.gitlab/
+[CODEOWNERS]
+/.gitlab/ @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
 
-[handbook-operations] @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
-/.editorconfig
-/.gitignore
-/.gitlab-ci.yml
-/.markdownlint-cli2.jsonc
-/.vale.ini
-/.vale/
-/config/
-/content/_index.html
-/content/featured-background.png
-/CONTRIBUTING.md
-/Dangerfile
-/go.mod
-/go.sum
-/layouts/
-/LICENSE
-/package-lock.json
-/package.json
-/README.md
-/scripts/
+[handbook-operations]
+/.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.vale.ini @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.vale/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/Dangerfile @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/LICENSE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/package-lock.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/package.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
@@ -678,23 +679,21 @@
 [SOX-Documents]
 /content/handbook/engineering/gitlab-com/policies/teleport/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 
-## Controlled Documents must be in this section, and it must be the last section
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
-/content/handbook/business-technology/end-user-services/onboarding-access-requests/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/_index.md @cdu1 @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @wendybarnes @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @wendybarnes @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @pegan @wendybarnes @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-and-technology-policies/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites

@@ -1,5 +1,5 @@
 ---
-title: GitLab Pages New Architecture
+title: "GitLab Pages New Architecture"
 status: implemented
 creation-date: "2019-05-16"
 authors: [ "@grzesiek" ]

@@ -123,7 +123,7 @@ details summary * {
 - production
 - qa-master
 - qa-nightly
-- qa-preprod
+- e2e-run-preprod
 - qa-production
 - qa-staging
 - quality
@@ -185,7 +185,7 @@ At this time, Core Team members are not added to the [`gitlab-com` group](https:
 
 ### Team page listing
 
-To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
+To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
 
 This will list their profile on [the Core Team page](https://about.gitlab.com/community/core-team/) as well.
 

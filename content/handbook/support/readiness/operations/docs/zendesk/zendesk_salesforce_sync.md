@@ -41,6 +41,7 @@ SELECT
   Latest_Sold_To_Contact__r.Name,
   Partner_Track__c,
   Partners_Partner_Type__c,
+  Support_Hold__c,
   (
     SELECT
       Id,
@@ -114,6 +115,7 @@ SELECT
   GS_Health_Score_Color__c,
   Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
+  Support_Hold__c,
   (
     SELECT
       Id,

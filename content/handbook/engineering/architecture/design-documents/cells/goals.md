@@ -2,6 +2,7 @@
 stage: enablement
 group: Tenant Scale
 title: 'Cells: Goals'
+toc_hide: true
 ---
 
 ## Goals
@@ -358,7 +359,9 @@ Organizations work under the following assumptions:
 1. Features need to work within an Organization.
 1. Only few features need to work across Organizations.
 1. Users understand that the majority of pages they view are only scoped to a single Organization at a time.
-1. Organizations are located on a single Cell.
+1. Organizations are located on a single Cell. An organization will not span across Cells.
+1. A Cell will be multi-tenant. For efficiency, and cost reasons, a Cell will accommodate multiple Organizations.
+1. An Organization is the intended top-level entity for a customer. We will not build features to support aggregation of functionality across multiple Organizations for a single customer. In other words, only one Organization is provisioned for one customer.
 
 Properties:
 

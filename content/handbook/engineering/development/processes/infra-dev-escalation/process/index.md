@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation/process.html
 title: Development Escalation Process
 ---
 {{% alert title="Quick escalation guide" color="danger" %}}

@@ -1,5 +1,6 @@
 ---
 title: 'GitLab CI Events Proposal 3: Using the .gitlab/ci/events folder'
+toc_hide: true
 ---
 
 In this proposal we want to create separate files for each group of events. We

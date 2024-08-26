@@ -146,7 +146,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/fmxftqvtg7U" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Take a look at [Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+- **Learn more**: Take a look at [Introduction to GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
 
 #### What are the differences around merge request approvals between the EE tiers?
 

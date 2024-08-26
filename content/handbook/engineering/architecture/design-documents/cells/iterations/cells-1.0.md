@@ -2,6 +2,7 @@
 stage: core platform
 group: Tenant Scale
 title: 'Cells: 1.0'
+toc_hide: true
 ---
 
 This document describes a technical proposal for a Cells 1.0.

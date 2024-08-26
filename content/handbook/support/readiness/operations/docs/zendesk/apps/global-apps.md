@@ -253,6 +253,10 @@ The current plugins are:
 
 - **Namespace Lookup**
   > This lets you search gitlab.com for a namespace. It then displays information based on the results. This is related to the one in the GitLab Super App, but instead it shows less information and shows the SFDC IDs it is associated with.
+- **Project Lookup**
+  > This lets you search gitlab.com for a project. It then displays information based on the results.
+- **Attempt Association**
+  > On tickets where the product type is `GitLab.com`, clicking the button on the plugin will attempt to auto-associate the requester to an organizaiton. If that is not possible, it will detail why it was not possible.
 
 App information:
 

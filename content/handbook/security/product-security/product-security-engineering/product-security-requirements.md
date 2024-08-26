@@ -169,6 +169,7 @@ A sunset roadmap describes the phases and steps needed to move functionality fro
     1. Link to existing issues, epics, blueprints
     1. Each phase should state "This phase is complete when ...".
     1. Consider any process changes that might be required.
+1. Open [sunsetting issues](/handbook/security/product-security/product-security-engineering/#sunsetting-issues) as needed. Each issue is intended to describe a piece of functionality required to deprecate the custom tool, which may align with a particular sunsetting roadmap phase or a culmination of phases.
 1. Have the Sunset Roadmap peer reviewed
 1. Inform a Product Security Manager that the Roadmap is ready for prioritization. This too can follow the same "Build vs. Wait vs. Buy" process documented above.
 

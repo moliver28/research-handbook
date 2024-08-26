@@ -5,6 +5,8 @@ title: Elevate+
 
 Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
+This page outlines the current format of Elevate+, for participants enrolled in Cohorts 1 through 6.
+
 Through small group cohorts and interactive workshops, Elevate+ is designed to enable senior leaders at GitLab to better understand and practice behaviours anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.

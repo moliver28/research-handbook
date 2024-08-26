@@ -1,5 +1,5 @@
 ---
-title: Next Generation Service-Catalog
+title: "Next Generation Service-Catalog"
 status: proposed
 creation-date: "2024-07-11"
 authors: [ "@reprazent" ]

@@ -1,5 +1,5 @@
 ---
-title: Permissions Changes required to enable Custom Roles
+title: "Permissions Changes required to enable Custom Roles"
 status: proposed
 creation-date: "2023-03-10"
 authors: [ "@jessieay", "@jarka" ]

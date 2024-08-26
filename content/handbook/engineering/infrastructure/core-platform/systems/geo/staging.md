@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/staging.html
-
 title: "Geo on staging.gitlab.com"
 description: "Document Geo installation on staging.gitlab.com"
 ---

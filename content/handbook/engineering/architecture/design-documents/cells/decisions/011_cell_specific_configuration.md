@@ -1,9 +1,8 @@
 ---
 owning-stage: "~devops::data stores"
 title: "Cells ADR 011: Cell Specific Configuration"
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 ## Context
 

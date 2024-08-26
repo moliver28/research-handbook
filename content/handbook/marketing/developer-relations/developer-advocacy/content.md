@@ -1,8 +1,6 @@
 ---
 title: "Content workflows for Developer Advocates"
 description: "Learn about the Developer Advocacy team's content library, creation and distribution workflows."
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/content/index.html
 ---
 
 ## Content Library
@@ -69,6 +67,17 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 - [GitLab Demos](https://www.youtube.com/watch?v=ZQBAuf-CTAY&list=PLFGfElNsQthYv5OtNEFoGwd0cAg-55Hdj) on the GitLab YouTube channel.
 - [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements, on the GitLab Unfiltered YouTube channel.
 - [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat) on the GitLab Unfiltered YouTube Channel.
+
+### Maintained documentation
+
+Developer advocates authored and maintain the following documentation pages, with practical and technical examples aiding adoption and efficiency use cases.
+
+| Title | Area | Created | DRI |
+|-------|------|--------------|-----|
+| [GitLab Duo use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) | Duo/AI | 2024-03 | @dnsmichi |
+| [CI/CD component examples](https://docs.gitlab.com/ee/ci/components/examples.html) | CI/CD | 2024-02 | @dnsmichi |
+| [Automate storage management](https://docs.gitlab.com/ee/user/storage_management_automation.html) | Utilization, API | 2023-08 | @dnsmichi |
+| [Pipeline efficiency](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) | CI/CD | 2020-09 | @dnsmichi |
 
 ### Maintained talks
 

@@ -1,8 +1,6 @@
 ---
 title: "Product Marketing Manager"
 summary: Help tell the story about the value of how GitLab helps to unlock the potential of sharing and contribution.
-aliases:
-- /job-families/marketing/product-marketing-manager-public-sector/
 ---
 Product Marketing Managers at GitLab have a unique opportunity to contribute to our [mission](/handbook/company/mission/#mission):
 

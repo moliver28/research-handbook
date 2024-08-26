@@ -93,7 +93,7 @@ These channels (prefixed with `ext-`) are used for communication with vendors or
 
 - **`#ext-gitlab-abc`**: Shared channel with Customer/Vendor ABC for project collaboration and support.
 
-WWhen using an external channel, ensure that you follow GitLab's guidelines for external communication, including keeping information [SAFE](/handbook/legal/safe-framework/). External channels with no activity in the last year will be removed by CorpSec. 
+When using an external channel, ensure that you follow GitLab's guidelines for external communication, including keeping information [SAFE](/handbook/legal/safe-framework/). External channels with no activity in the last year will be removed by CorpSec.
 
 Steps:
 
@@ -196,7 +196,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_nigeria`](https://app.slack.com/client/T02592416/CDB11DSRH) |  |
 | [`#loc_noco_aka_loconoco`](https://app.slack.com/client/T02592416/CJPLQ4LEM) | Connect GitLab team members who are in Boulder, Larimer and Weld Counties of Northern Colorado |
 | [`#loc_nuremberg`](https://gitlab.enterprise.slack.com/archives/C06R3T513E1) | Franconia, Germany - gingerbread, sausages, and more |
-| [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/   |
+| [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 <https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/>   |
 | [`#loc_nz`](https://app.slack.com/client/T02592416/CF8MAMD39) | 🇳🇿 For those visiting, living in or interested in Aotearoa New Zealand. Also half of `#loc_australia` is in here too. https://docs.google.com/document/d/1VijZowFu8WpyV17MtRtrvz1GUqw9Y5Bcf-OkUOEU774/edit |
 | [`#loc_ottawa`](https://app.slack.com/client/T02592416/C01KH7P3KBR) |  |
 | [`#loc_pdx`](https://app.slack.com/client/T02592416/CS7N7UFGR) | For GitLab team members in/around Portland Oregon |

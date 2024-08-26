@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/analytics/analytics-instrumentation/infrastructure.html
-
 title: Internal Analytics Infrastructure
 description: "Architecture of our internal analytics systems"
 ---

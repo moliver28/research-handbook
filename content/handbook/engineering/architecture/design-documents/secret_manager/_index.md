@@ -1,5 +1,5 @@
 ---
-title: GitLab Secrets Manager
+title: "GitLab Secrets Manager"
 status: proposed
 creation-date: "2023-08-07"
 authors: [ "@alberts-gitlab", "@iamricecake" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

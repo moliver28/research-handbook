@@ -268,7 +268,7 @@ If your event or tactic gets postponed to a new date, you only need to request a
 
 ### Travel Costs
 
-Travel expenses (food, hotel stays, arline tickets, etc.) must also be tracked utilizing Allocadia IDs/Campaign Tags. You will include the Allocadia ID/Campaign Tag in the `classification` field in Navan when you are completing your expense report. The instructions for how to request the Allocadia ID/Campaign Tag be created in NetSuite > Navan can be found [here](/handbook/marketing/#how-to-create-and-manage-allocadia-idscampaign-tags). Additional information regarding travel can be found [here](/handbook/travel/).
+Travel expenses (food, hotel stays, arline tickets, etc.) must also be tracked utilizing Allocadia IDs/Campaign Tags. You will include the Allocadia ID/Campaign Tag in the `classification` field in Navan when you are completing your expense report. The instructions for how to request the Allocadia ID/Campaign Tag be created in NetSuite > Navan can be found [here](/handbook/marketing/#how-to-create-and-manage-allocadia-idscampaign-tags). Additional information regarding travel can be found [here](/handbook/finance/travel/).
 
 ## <i class="fas fa-forward fa-fw color-orange font-awesome"></i> Marketing Rapid Response Process
 

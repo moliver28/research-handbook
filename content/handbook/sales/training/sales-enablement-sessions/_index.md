@@ -13,18 +13,14 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Aug 1 | **No Session**  | N/A  |
-| Aug 8  | Duo Enterprise Launch Updates & Key Dates | Marketing |
-| Aug 15  | Duo Enterprise Revenue Play & Accreditation | Marketing |
-| Aug 22  | Gartner MQ Overview  | Marketing |
-| Aug 29  | Renewals Manager Overview  |  Renewals Team |
-| Sep 5  | Field Dashboards Overview  | RSOE Team |
+| Aug 29  | TBD |   |
+| Sep 5  | Gartner MQ Overview  | Marketing |
 | Sep 12  |  GitLab Click-through Demos & Product Tours    |  SA Team     |
 | Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
 | Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
 | Oct 3  |  FY25-Q3 - Competitive Update | Marketing |
 | Oct 12  | TBD      |       |
-| Oct 17  | TBD     |       |
+| Oct 17  | FY25-Q3 Customer References Update     |  Customer Advocacy Team  |
 | Oct 24 | *No session during the last two weeks of the quarter* | N/A |
 | Oct 31 | *No session during the last two weeks of the quarter* | N/A |
 
@@ -35,6 +31,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-08-22  | **[Data Driven Territory Planning](https://drive.google.com/file/d/1k4BWX7N3w8zUsN52dMV7A5GqMD-Wa7Yr/view?usp=drive_link)**  | Private |
+| 2024-08-15  | **[Duo Enterprise Revenue Play & Accreditation](https://drive.google.com/file/d/1ohmyxBrGxhb7I9lfvnFW_KgGfQJPDMwy/view?usp=drive_link)** | Private |
+| 2024-08-08 | **[Duo Enterprise Launch Updates & Key Dates](https://drive.google.com/file/d/1QT_yKG1AQyiI_F6hjyfuMeSYz4M7riQM/view?usp=sharing)** | Private |
 | 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
 | 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
 | 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |

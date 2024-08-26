@@ -1,8 +1,5 @@
 ---
 title: "CSEs"
-aliases:
-- /handbook/customer-success/csm/segment/cse/
-- /handbook/customer-success/csm/segment/scale/
 ---
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
@@ -24,17 +21,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 - Builds trust and fosters long-term relationships.
 
-2\. **Onboarding Cohort Initiative:**
-
-- Seamless and successful onboarding experience.
-
-- Personalized support in small groups (cohorts).
-
-- Reduces learning curve, and accelerates time-to-value.
-
-- Improves overall customer satisfaction.
-
-3\. **[Pooled CSE Model for Key Accounts:](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process)**
+2\. **[Pooled CSE Model for Key Accounts:](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process)**
 
 - Collaboration with sales for high-risk or expansion accounts.
 
@@ -44,7 +31,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 - Drives ultimate customer success.
 
-4\. **Automated Email Campaign Process:**
+3\. **Automated Email Campaign Process:**
 
 - Timely automated emails at key customer lifecycle points.
 
@@ -62,7 +49,7 @@ The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operat
 
 Active Campaigns: [Email Content - GitLab Internal Only](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit)
 
-For an additional overview of our CSE team-specific responsibilities, please reference our Job Family: [CSE Responsibilities & Requirements](/job-families/sales/customer-success-management/?_gl=1*fsm4r7*_ga*ODM3MjY1MzkwLjE2NDY0MTE4NTk.*_ga_ENFH3X7M5Y*MTY5MDgzODIzNC4yMzEuMS4xNjkwODQwMTY3LjAuMC4w#customer-success-engineer-cse)
+For an additional overview of our CSE team-specific responsibilities, please reference our Job Family: [CSE Responsibilities & Requirements](/job-families/sales/customer-success-engineer)
 
 ### <i class="fa-solid fa-book" style="color: #B197FC;"></i> **CSE Content Handbook**
 

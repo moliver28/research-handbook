@@ -1,7 +1,5 @@
 ---
 title: "Community Newsletter"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/community-newsletter/index.html
 ---
 
 ## Overview of the Community Newsletter

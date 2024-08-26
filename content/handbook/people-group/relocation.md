@@ -85,14 +85,14 @@ Note: Assuming your relocation is approved, any applicable changes in compensati
 
 ### Approvals Phase
 
-Below are the steps to approve a long term relocation.
+Below are the steps to approve a long term relocation. See compensation calculator to determine location factor.
 
-#### Relocation Within Same Country and Same Location Factor (see Compensation Calculator to determine location factor)
+#### Relocation Within Same Country and Same Location Factor
 
 No approval is needed.  Team Members can [update their address](https://docs.google.com/document/d/1NiNKWd-H9FTnYkmsWWi79-DGDSUCiWMfwFaGQPRnj14/edit) in the Contact tab in their Workday profile. A People Connect Team member will [approve the address in Workday](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox) and reach out if there are any additional steps necessary to complete the relocation process.
 If the country and the location factor don't change, no change in compensation is allowed as part of the relocation action.
 
-#### Relocations To New Country or Different Location Factor (see Compensation Calculator to determine location factor)
+#### Relocations To New Country or Different Location Factor
 
 1. Complete the [Relocation Request Form](https://docs.google.com/forms/d/1u8O-AvzAJh993GWJyVsm7C7EjMpV9S0tjaXYoce8F7o/viewform?edit_requested=true) to submit the initial request to start the process. Upon completion, the form is sent automatically to People Connect.
 1. Once the relocation request form has been received by People Connect, they should review the form playing close attention to the following information:

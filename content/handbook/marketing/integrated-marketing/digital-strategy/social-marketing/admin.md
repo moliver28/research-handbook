@@ -343,7 +343,7 @@ Day of Giveaway </summary>
 <li>Announce each giveaway and use handles whenever possible, tell them to check their DMs</li>
 <li>DM the swag codes or whatever the item is</li>
 <li>In your copy, directly address the person/people like you are chatting with them irl</li>
-<li>RT and use gifs with abandon but also judgment</li>
+<li>RT and use GIFs with abandon but also judgment</li>
 </ul>
 
 </details>

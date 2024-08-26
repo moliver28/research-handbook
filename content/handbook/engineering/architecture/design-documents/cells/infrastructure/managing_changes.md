@@ -1,11 +1,12 @@
 ---
-title: Coordinating changes in Cells
+title: "Coordinating changes in Cells"
 owning-stage: "~devops::platforms"
 group: Delivery
 creation-date: "2024-07-16"
 authors: [ "@nolith" ]
 coach: "@andrewn"
 approvers: []
+toc_hide: true
 ---
 
 {{< design-document-header >}}

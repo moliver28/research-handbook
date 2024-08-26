@@ -38,9 +38,8 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 
 This section will list the top three most recent, exciting accomplishments from the team.
 
-- We welcomed [Rajendra Kadam](https://gitlab.com/rkadam3) as our newest backend engineer to the team!
-- Recently, we completed the next [phase](https://gitlab.com/groups/gitlab-org/-/epics/11674) of Beta release for CI Catalog.
-- 2023 team accomplishments can be found [here](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/122).
+- Recently, we released the CI/CD Catalog to [GA](https://gitlab.com/groups/gitlab-org/-/epics/12153).
+- We added usage statistics and a sort option for popularity in the CI/CD Catalog [index page](https://gitlab.com/gitlab-org/gitlab/-/issues/434333)
 
 ## Team Members
 
@@ -80,7 +79,7 @@ We hold a bi-weekly design sync meeting open to all team members where we discus
 
 ### Implementation template
 
-A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue Implementation` is used to capture consistent details around implementation efforts. This template should be used when creating `backend` or `frontend` issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general `backend` or `frontend` request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
+A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue` is used to capture consistent details around implementation efforts. This template should be used when creating issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
 
 ### Planning
 
@@ -114,6 +113,10 @@ Engineering uses the [following handbook guidance for determining weights](#weig
 1. If the issue is a `type::bug`, is it clear how to reproduce the behavior and can a sample CI configuration file be provided?
 
 Any one on the team can contribute to answering the questions in this checklist, but the final decisions are up to the PM and EMs.
+
+##### Use of Sub-tasks
+
+In May 2024, the team began to trial the use of sub-tasks in issues to help with refinement. The goal is that we have one SSOT issue that contains threaded discussions around all aspects of the team, including backend, frontend, UX, Product, and documentation. We will continue with this trial until the end of `FY25-Q3`. As we learn more in this trial, we are providing [feedback](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/169) so we can determine if sub-tasks are a good fit for us. A future recording will share our findings so others who are interested can learn from our experience.
 
 ##### Steps for Refining and Weighting Issues
 
@@ -171,7 +174,7 @@ GitLab does not have a versioning system for CI/CD configuration. Therefore, it 
 
 ### Release Plans
 
-To encourage more transparency and collaboration amongst the team and additionally align on the [Release Posts](/handbook/marketing/blog/release-posts/) we publish at the end of each milestone, we will be creating a separate issue to highlight a **Feature flag roll out plan** for each feature being released starting in 13.2, based on the [issue template for feature flag roll outs](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md). The engineer who implements the feature will be responsible for creating this separate issue to highlight the details of when and how the feature flag will be toggled, and subsquently link this issue to their feature issue.  The product manager will tag this issue as a blocker to their release post, so that everyone is aligned on the release plan of the feature.
+To encourage more transparency and collaboration amongst the team and additionally align on the [Release Posts](/handbook/marketing/blog/release-posts/) we publish at the end of each milestone, we will be creating a separate issue to highlight a **Feature flag roll out plan** for each feature being released starting in 13.2, based on the [issue template for feature flag roll outs](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md). The engineer who implements the feature will be responsible for creating this separate issue to highlight the details of when and how the feature flag will be toggled, and subsequently link this issue to their feature issue.  The product manager will tag this issue as a blocker to their release post, so that everyone is aligned on the release plan of the feature.
 
 ### Quad-planning
 
@@ -186,6 +189,8 @@ We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/gitlab-o
 We follow the [product development flow](/handbook/product-development-flow/) to ensure that the problems we're solving are well understood and the solutions are well defined and validated before the implementation.
 
 We aim to achieve key outcomes in each phase in order to de-risk subsequent phases. However, the product development flow doesn't dictate the order we go through the phases, or the time spent in each. We might skip certain phases if we think that the necessary outcomes for that phase have already been achieved.
+
+Our UX counterpart is the DRI for the SSOT designs, and they have the right to push any enhancement discussions in MRs into follow-up efforts in created and linked issues.
 
 Development moves through [workflow states](/handbook/product-development-flow/#workflow-summary) as follows:
 

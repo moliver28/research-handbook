@@ -24,7 +24,7 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 #### STEP 1: Request your new username
 
 - Access the username you want to request via `https://gitlab.com/mary`.
-- Check its activity and projects to see if they are an inactive user [according to the name squatting policy]({{< ref "namesquatting_policy" >}}).
+- Check its activity and projects to see if they are an inactive user [according to the name squatting policy](/handbook/support/workflows/namesquatting_policy/).
 - There's no guarantee that the username will be available for you.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
@@ -139,71 +139,29 @@ Manual upkeep of the maintainer training issue can be time consuming. There are 
 
 **Note:** When using these tools, avoid adding mentions to maintainers in existing comments. There is a [known issue](https://gitlab.com/gitlab-org/gitlab/-/issues/118779) where users are not notified by email when mentioned in an edited comment. It only generates a TODO which a maintainer may not use.
 
-## handbook Tips
+## Handbook Tips
 
-The [https://handbook.gitlab.com](/_index.html) site lives in the [content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook/)
-repo on GitLab.  The site is mostly a collection of Markdown documents and converted in to HTML by [Hugo](https://gohugo.io/).
-In addition to the handbooks content there is a [theme repo](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab])
-which is shared between the [Handbook](/_index.html) and the [Internal Handbook](https://internal.gitlab.com).
-This holds the [docs](/docs) and shared content for both sites as well shortcodes and other functional [Hugo](https://gohugo.io/)
-for producing the site.
-
-The documentation for the handbook site lives in the [README.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/README.md)
-at the root of the repository or in the [/docs](/docs) section of the Handbook.
-
-### Local development on the handbook
-
-Its easy to start local development of the handbook site.  You just need to clone the [repo](https://gitlab.com/gitlab-com/content-sites/handbook/)
-and either [Install Hugo Extended](https://gohugo.io/installation/) locally or use Docker.  In addition to Hugo you
-may also want to install [Markdownlint CLI](https://github.com/DavidAnson/markdownlint-cli2) as we use this in our pipelines.
-
-If you have Hugo Extended installed then to run the Handbook site locally just do this:
-
-```sh
-git clone https://gitlab.com/gitlab-com/content-sites/handbook.git
-cd handbook
-hugo server
-```
-
-Alternatively using Docker you can do the following:
-
-```sh
-git clone https://gitlab.com/gitlab-com/content-sites/handbook.git
-cd handbook
-docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.111.3-ext-ubuntu-onbuild server
-```
-
-You can then open your web browser to [http://localhost:1313](http://localhost:1313)
+Refer to the [Handbook Development section](https://handbook.gitlab.com/docs/development/) to learn more about the architecture, structure and how to edit the handbook locally on your desktop. For how to edit the handbook in your browser, refer to [the editing handbook page](/handbook/about/editing-handbook/).
 
 ## www-gitlab-com Tips
 
-The [https://about.gitlab.com](https://about.gitlab.com) site lives in the
-[www-gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/) repo.
+Portions of the [https://about.gitlab.com](https://about.gitlab.com) site lives in the
+[www-gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/) repo. The marketing website is maintained by the [digital experience team](/handbook/marketing/digital-experience/) in their [GitLab group](https://gitlab.com/gitlab-com/marketing/digital-experience).
+
+The `data/*.yml` files live in the `www-gitlab-com` repository, and are used by numerous sites including the marketing website and the handbook.
 
 The documentation for the site itself is in markdown documents under the
-[`doc` folder in the repo](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/doc).
-We have decided, for [various reasons](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/7234#note_371346396), not to include this documentation in the handbook itself.
-
-### Local development on www-gitlab-com
-
-If you are looking to do local development on the site,
+[`doc` folder in the repo](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/doc). If you are looking to do local development on the site,
 [doc/development.md](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/development.md)
 is probably the best place to start.
 
-### Cloud development on www-gitlab-com with gitpod.io
-
-If you don't want to configure your local machine, there is now a new alternative option
-to use gitpod.io for "local" development in a cloud based environment. See
-[doc/gitpod.md](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/gitpod.md)
-for more details.
-
-## Image and gif tips
+## Image and GIF tips
 
 Many of the tips shown in this section require ImageMagick, an image manipulation tool. The installation is described in the [ImageMagick section](#imagemagick).
 
 ### ImageMagick
 
-[ImageMagick](https://imagemagick.org/) provides the `convert` CLI command which can be used to resize images, add drop shadows, edit gifs, etc.
+[ImageMagick](https://imagemagick.org/) provides the `convert` CLI command which can be used to resize images, add drop shadows, edit GIFs, etc.
 
 On macOS, install ImageMagick with Homebrew:
 
@@ -218,7 +176,7 @@ sudo dnf install ImageMagick
 sudo apt install imagemagick
 ```
 
-### Creating gifs
+### Creating GIFs
 
 We have a [dedicated section](/handbook/product/making-gifs) for that in the handbook.
 
@@ -407,7 +365,7 @@ Team member dotfiles projects:
 - [Michael Friedrich's dotfiles](https://gitlab.com/dnsmichi/dotfiles), more details in [this blog post](https://about.gitlab.com/blog/2020/04/17/dotfiles-document-and-automate-your-macbook-setup/)
 - [Brendan O'Leary's dotfiles](https://gitlab.com/brendan/dotfiles)
 
-## Travelling
+## Traveling
 
 ### Long haul flights
 
@@ -415,7 +373,7 @@ Note: you have to pay for these items yourself.
 
 - [Quiet comfort 35 Bose over ear noise canceling headphones](https://www.bose.com/p/headphones/bose-quietcomfort-45-headphones/QC45-HEADPHONEARN.html) (so it doesn't touch your dried out eyes)
 - Custom molded ear plugs (can be up to $200 hearing aid store but are usable in many situations, there are also [DYI kits](https://www.amazon.com/Radians-CEP001-Custom-Molded-Earplugs/dp/B003A28P4I) but Sid has not tried that)
-- [Melatonin](https://www.webmd.com/vitamins-supplements/ingredientmono-940-melatonin.aspx?activeingredientid=940) (possible unsafe during pregnancy and breast-feeding)
+- Melatonin (possible unsafe during pregnancy and breast-feeding)
 - Sleeping pills (over the counter is fine)
 
 ### WorkFrom
@@ -983,6 +941,15 @@ List your inbox and preview mails in one view with this configuration change:
 - Select a position for the reading pane, Right of Inbox or Below Inbox
 - Save changes
 - Reload inbox
+
+#### Inbox Zero
+
+To utilitze Gmail to it's full potential, consider adopting the [Inbox Zero](https://www.youtube.com/watch?v=oLdHnWLbn4A) strategy. It's the same way Google employees use Gmail.
+
+There's also an internal training recording about this. It goes into more details and more "power user" focused, covering keyboard shortcuts, etc.
+
+- [Video](https://youtu.be/IwngC9NmcRs) (It’s set to private, so log in with GitLab Unfiltered to watch it: upper right corner > click on your profile picture > switch account > GitLab Unfiltered)
+- [Meeting notes](https://docs.google.com/document/d/1EXEIENJrUkP75MmG6Nn9Ld4-T0P9SfpcQA4xmpx9Bck/edit?usp=sharing)
 
 ### Disable Google Meet and Chat in Google Mail
 

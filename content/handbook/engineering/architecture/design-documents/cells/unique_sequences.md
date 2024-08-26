@@ -3,9 +3,8 @@ stage: core platform
 group: database
 title: 'Cells: Unique sequences'
 status: accepted
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 GitLab today ensures that every database row create has a unique ID, allowing to access a merge request, CI Job or Project by a known global ID.
 Cells will use many distinct and not connected databases, each of them having a separate ID for most entities.

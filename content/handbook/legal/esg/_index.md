@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/ESG
 title: "ESG"
 description: "Information and processes related to ESG"
 ---
@@ -12,9 +11,9 @@ Environmental, social, and governance (ESG) practices, although newly formalized
 
 In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab's business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
 
-Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets and plans for the future.  
+Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets and plans for the future.
 
-- [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/) 
+- [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/)
 - [FY24 ESG Report](handbook/company/esg/)
 
 ## ESG Request Process

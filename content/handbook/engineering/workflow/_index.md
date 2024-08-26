@@ -8,7 +8,7 @@ For the workflow that applies to the wider community see the [contributing guide
 
 ## GitLab Flow
 
-Products at GitLab are built using the [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html).
+Products at GitLab are built using the [GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/).
 
 We have [specific rules around code review](/handbook/engineering/workflow/code-review/).
 

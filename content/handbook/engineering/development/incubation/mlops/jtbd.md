@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/incubation/mlops/jtbd.html
-
 title: "MLOps Jobs to Be Done"
 description: "What are the problems users want MLOps to solve?"
 ---

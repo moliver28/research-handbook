@@ -21,7 +21,7 @@ See the [partial issue triage checklist](/handbook/engineering/infrastructure/en
 
 ## Merge Requests
 
-Wider community merge requests are MRs opened by a person that's not present on https://about.gitlab.com/company/team/ (excluding any bot, service account users or individual contractors).
+Wider community merge requests are MRs opened by a person that's not present on <https://about.gitlab.com/company/team/> (excluding any bot, service account users or individual contractors).
 
 ### Labels
 
@@ -318,8 +318,6 @@ Do not relate weight to time estimates.
 for contributors to ask questions or get mentorship.
 
 ### First-time contributors
-
-The first-time contributors can be identified after each release in the [First time contributors MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/df97f810-f397-11e8-8fe1-b354a33b38be).
 
 Every time a contributor is opening a merge request to a GitLab namespace for the first time, the label "~1st contribution" is automatically applied to the merge request.
 

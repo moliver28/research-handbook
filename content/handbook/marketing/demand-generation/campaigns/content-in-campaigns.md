@@ -316,7 +316,7 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-**[Video walkthrough](https://www.youtube.com/watch?v=G8NZV75H7lw) of adding a resource to https://about.gitlab.com/resources/ by using the CMS (Contentful).
+**[Video walkthrough](https://www.youtube.com/watch?v=G8NZV75H7lw) of adding a resource to <https://about.gitlab.com/resources/> by using the CMS (Contentful).
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=G8NZV75H7lw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

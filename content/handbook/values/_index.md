@@ -349,7 +349,7 @@ We give people agency to focus on what they think is most beneficial. If a meeti
 
 ##### Challenger mindset
 
-Challenging the status quo can lead to remarkable results - we must never stop. A [challenger mindset](https://books.forbes.com/author-articles/whats-a-challenger-mindset-and-why-adopt-it-in-2021/) requires that we continually ask ourselves bold, difficult questions about our business the problems we solve while resisting complacency. To succeed we must innovate and delight our customers with the value of the products we build. A challenger mindset requires a relentless pursuit of excellence - we must be [tenacious](/handbook/values/#tenacity). Each win for our customers builds reputational capital we can use to earn the trust of prospects in a competitive market. While competition is a feature of capitalism internally as GitLab team members we must focus our efforts inwardly on achieving our very best results for customers to win market share.
+Challenging the status quo can lead to remarkable results - we must never stop. A [challenger mindset](https://books.forbes.com/author-articles/whats-a-challenger-mindset-and-why-adopt-it-in-2021/) requires that we continually ask ourselves bold, difficult questions about our business the problems we solve while resisting complacency. To succeed we must innovate and delight our customers with the value of the products we build. A challenger mindset requires a relentless pursuit of excellence - we must be [tenacious](#embrace-tenacity). Each win for our customers builds reputational capital we can use to earn the trust of prospects in a competitive market. While competition is a feature of capitalism internally as GitLab team members we must focus our efforts inwardly on achieving our very best results for customers to win market share.
 
 ##### Growth mindset
 
@@ -1287,7 +1287,7 @@ In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitL
 
 ## Hierarchy
 
-Occasionally, values can contradict each other. For instance, transparency would dictate we publish all security vulnerabilities the moment they are found, but this would jeopardize our users. It's useful to keep in mind this hierarchy to resolve confusion about what to do in a specific circumstance, while remaining consistent with our core values.
+Occasionally, values can contradict each other. It's useful to keep in mind this hierarchy to resolve confusion about what to do in a specific circumstance, while remaining consistent with our core values.
 
 Think of the hierarchy as a weighting system. Values higher in the hierarchy do not automatically override values lower in the hierarchy. Here are some examples:
 

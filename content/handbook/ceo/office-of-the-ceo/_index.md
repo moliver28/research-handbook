@@ -1,9 +1,6 @@
 ---
 title: "Office of the CEO"
 description: "Details about Office of the CEO (OCEO) at GitLab"
-aliases:
-- /handbook/ceo/office-of-the-ceo/
-- /handbook/ceo/chief-of-staff-team/
 ---
 
 ## Office of the CEO Overview
@@ -310,7 +307,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 
 ## Quick Links and Fun Facts
 
-- [Chief of Staff to the CEO Job Family]({{< ref chief-of-staff >}})
+- [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
 - [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
 - [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
 - [Performance Indicators]({{< ref performance-indicators >}})

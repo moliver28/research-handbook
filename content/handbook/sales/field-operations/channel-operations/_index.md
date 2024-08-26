@@ -715,6 +715,17 @@ For more information on quoting or the Partner Program, please visit:
 - [Partner Program](/handbook/resellers/)
 - [Channel Discount Matrices for GitLab Team Members](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing).
 
+### Partner Rebate Exception Review Process
+
+While rebates are generally intended for Partner Sourced business only, there may be corner cases where GitLab wants to provide the partner a rebate for Sourced-like activities that resulted in a different outcome. The following `Partner Rebate Exception Review Process` can be used to requset a rebate exception.
+
+1. The Ecosystem Programs teams and GTM FP&A will collect Partner rebate exception requests up until the 15th of the last month of the quarter
+2. Around the 15th of the last month of the quarter, GTM FP&A, Ecosystem Programs, Ecosystem Operations, Ecosystem Strategy, and Ecosystem Sales Leadership will meet to review each case. Possible outcomes include:
+   - Rejecting the rebate request
+   - Approving the request, funded by Global Ecosystem budget
+   - Approving the request, funded by the involved account team’s budget
+3. Results will be shared with you and your leaders after review and will be documented via Chatter. If the request is approved, rebates will be paid out within 45 days of the new quarter.
+
 ## Partner Influence
 
 Partners can influence GitLab opportunities without transacting the deal. The Partner Team (ESM, Cloud ESM, or SA) can submit an internal Partner Influence record to track their partner's influence activities. 

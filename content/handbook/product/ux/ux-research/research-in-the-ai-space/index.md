@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research/research-in-the-AI-space
 title: "Doing UX research in the AI space"
 description: "How to conduct UX research in the Artificial Intelligence (AI) space, including research guidelines."
 ---
@@ -20,7 +19,7 @@ The guidelines on this page aim to provide direction on how to include the user'
 
 ## The guidelines
 
-### Guideline 1: Problem validation - Identify and understand user needs
+### Guideline 1: Start with identifying and understanding user needs
 
 AI solutions themselves won't reveal the user problem they are meant to solve. To identify and understand user needs (and to determine if the AI solution is addressing a real user problem), there are different approaches you can take:
 
@@ -53,7 +52,7 @@ AI solutions themselves won't reveal the user problem they are meant to solve. T
 - If you don't have a high level of confidence or understanding of the problem statement or user needs, you will want to take the time to conduct generative research to learn more about a user group and their needs. While this approach takes more time, it provides deep insights into users' needs, goals, and pain points that can be used to ideate on new solutions.
 - It's recommended to do this if you have the time. The output will provide a solid justification as to why the AI feature is important for users.
 
-### Guideline 2: Pre-Solution validation - Collect user feedback on your idea before building anything
+### Guideline 2: Collect user feedback on your idea before building anything
 
 Did you know that you can validate your future AI powered feature in parallel to the engineering team building it by using [Wizard of Oz prototyping](https://medium.com/@lizschemanski/wizard-of-oz-experiments-eed2c0a12081)? Validating before the AI solution is available is a great way to capture users' expectations and requirements early on. They can inform engineering efforts in training the AI.
 
@@ -67,7 +66,7 @@ It may be tempting, but don't ask users if they would use this AI feature. Peopl
 1. their problem or need, and
 1. how helpful the solution is with addressing those. In other words, does it provide value?
 
-### Guideline 3: Solution validation and more - Collect more than just usability feedback during solution validation of your AI powered prototype
+### Guideline 3: Collect more than just usability feedback during AI prototype validation
 
 Once an AI powered solution is available for validation, make sure to not only collect feedback on its usability, but also:
 
@@ -91,7 +90,7 @@ If you are maturing your AI feature towards [Generally Available](https://docs.g
 AI will make mistakes due to their probabilistic nature. It's important to understand how AI mistakes may affect users. Will certain mistakes result in turning users away from using it? Or using GitLab? Here's what you can do:
 
 - Plan for research activities to assess what mistakes are ok to do versus those that cause harm and need to be avoided at all cost.
-- There may also be opportunities to include questions related to AI mistakes when conducting solution validation, e.g. When evaluating early prototypes (see [Guidelines 2](#guideline-2-pre-solution-validation---collect-user-feedback-on-your-idea-before-building-anything) and [3](#guideline-3-solution-validation-and-more---collect-more-than-just-usability-feedback-during-solution-validation-of-your-ai-powered-prototype)).
+- There may also be opportunities to include questions related to AI mistakes when conducting solution validation, e.g. When evaluating early prototypes (see [Guidelines 2](#guideline-2-collect-user-feedback-on-your-idea-before-building-anything) and [3](#guideline-3-collect-more-than-just-usability-feedback-during-ai-prototype-validation)).
 - Set up your prototype in a way that it includes "wrong" recommendations to capture how people react to AI mistakes.
 
 ### Guideline 5: Plan ahead for longitudinal research

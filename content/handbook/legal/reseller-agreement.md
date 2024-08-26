@@ -1,7 +1,5 @@
 ---
 title: "Reseller Agreement"
-aliases:
-- /handbook/resellers/reseller-agreement/
 ---
 
 **Before submitting a Deal Registration, please review the Master Partner Agreement.**

@@ -116,7 +116,7 @@ If anyone does not feel ready to become an Incident Manager, [follow our process
 Note that we will consider exceptions on a case by case basis.  Please talk to your manager if you do not think you can participate or would need an alternative schedule.  Assignment and exemptions to participation will be coordinated by the VP of Infrastructure and the VP of Development
 or their designees, and the requests require approval from the participants' reporting managers. [This internal spreadsheet is being used to track exemptions from participating](https://docs.google.com/spreadsheets/d/1I_e3f4Xb3Z4RwEpmQGcIKA-59fjqJP9RS1sVGgS5VdM/edit#gid=0).
 
-### I am an engineer in Development. Am I exempt from the Dev On-call when I am on an Incident Manager rotation?
+### Development engineer: am I exempt from Dev On-call when I am on Incident Manager rotation?
 
 Yes. If you are an engineer and you are in the Incident Manager rotation, you are exempt from the [Dev On-call](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#eligibility). You will not be expected to sign up for shifts in the monthly Dev On-call scheduling sheet. Please confirm that your email address is listed on the [Development-Team-BE Google Spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=508978589), so that you are not auto-assigned a shift.
 

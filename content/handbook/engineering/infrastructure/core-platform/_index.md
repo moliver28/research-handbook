@@ -228,7 +228,7 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
 | August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
 | September |  @bshah11     |    TBD  ||
-| October |         |       |          |
+| October | @mkaeppler | Life of a Cloud Connector request |          |
 | November |        |       |          |
 | December |        |       |          |
 

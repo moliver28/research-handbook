@@ -11,8 +11,8 @@ Congratulations on your new GitLab subscription! Here are some steps to complete
 
 ## Key Terminology
 
-| Term | Definition | 
-|------|----------- | 
+| Term | Definition |
+|------|----------- |
 | [GitLab.com](https://gitlab.com/gitlab-org/gitlab) | Multi-tenant SaaS, subscription-based GitLab platform |
 | [Namespace](https://docs.gitlab.com/ee/user/namespace/)| One place to organize different projects, can be a group or personal namespace |
 | [Group](https://docs.gitlab.com/ee/user/group/) | Allows you to manage multiple projects and sub-groups |
@@ -41,7 +41,7 @@ Confirm the linkage by navigating to your group and selecting Settings > Billing
 
 ## (Paid Customers Only) Confirm Support Entitlement
 
-There are a few ways an account [may be created for you](https://about.gitlab.com/support/portal/#creating-a-support-portal-account) in the Support Portal. To access the Support Portal, first attempt to reset your password to see if an account was created for you. This may have happened on the backend if you are the named contact of your subscription, if you submitted a ticket via email, or if someone else from your organization added you as a support contact. Follow the reset instructions and then sign in. 
+There are a few ways an account [may be created for you](https://about.gitlab.com/support/portal/#creating-a-support-portal-account) in the Support Portal. To access the Support Portal, first attempt to reset your password to see if an account was created for you. This may have happened on the backend if you are the named contact of your subscription, if you submitted a ticket via email, or if someone else from your organization added you as a support contact. Follow the reset instructions and then sign in.
 
 If there is no existing account, create one manually and then sign in.
 
@@ -114,5 +114,5 @@ You can monitor the status of GitLab.com at [status.gitlab.com](https://status.g
 
 - [Professional Services Catalog](https://about.gitlab.com/services/catalog/)
 - [Get Started for Enterprise](https://about.gitlab.com/get-started/enterprise/)
-- [Customer Portal Documentation](https://docs.gitlab.com/ee/subscriptions/customers_portal.htmlhttps://docs.gitlab.com/ee/subscriptions/customers_portal.html)
+- [Customer Portal Documentation](https://docs.gitlab.com/ee/subscriptions/customers_portal.html)
 - [GitLab Adminstration on SaaS Webinar](https://www.youtube.com/watch?v=SWMD27dlnEc)

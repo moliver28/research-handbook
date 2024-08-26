@@ -1,6 +1,7 @@
 ---
 title: 'AI Context Management ADR 001: Keeping AI Context Policy Management close to AI Context Retriever'
 owning-stage: "~devops::ai-powered"
+toc_hide: true
 ---
 
 ## Summary

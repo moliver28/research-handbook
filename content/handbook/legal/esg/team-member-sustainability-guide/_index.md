@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
@@ -73,7 +72,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 - [Energy Star](https://www.energystar.gov/?s=mega) (US gov't): Find energy efficient household appliances
 - [Energy Saving Trust](https://energysavingtrust.org.uk/) (UK-based): an independent organization that provides resource for how to reduce energy use
 - [Project Drawdown](https://drawdown.org/): the world's leading resource for climate solutions
-- [Water's Worth Saving](https://watersworthsaving.org.uk/): (UK-based): tips for saving water at home
+- [Water's Worth Saving](https://web.archive.org/web/20240717112301/https://watersworthsaving.org.uk/): (UK-based): tips for saving water at home
 
 **Footnotes**
 

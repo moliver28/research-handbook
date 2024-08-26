@@ -1,5 +1,5 @@
 ---
-title: Database read model for Security policies
+title: "Database read model for Security policies"
 status: proposed
 creation-date: "2023-12-07"
 authors: [ "@mcavoj" ]

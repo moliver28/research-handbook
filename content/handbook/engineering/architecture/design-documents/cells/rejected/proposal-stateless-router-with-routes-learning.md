@@ -3,13 +3,12 @@ stage: enablement
 group: Tenant Scale
 title: 'Proposal: Stateless Router using Routes Learning'
 status: rejected
+toc_hide: true
 ---
 
 {{< design-document-header >}}
 
 _This proposal was superseded by the [routing service proposal](../http_routing_service.md)_
-
-<!-- vale gitlab.FutureTense = NO -->
 
 {{% alert %}}
 This document is a work-in-progress and represents a very early state of the

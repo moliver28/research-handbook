@@ -1,9 +1,5 @@
 ---
 title: Engineering Manager
-aliases:
-- /job-families/engineering/development/fullstack-manager
-- /job-families/engineering/development/backend/manager
-- /job-families/engineering/development/frontend/manager
 ---
 
 The Engineering Manager specializes in Engineering Management as a manager of people.

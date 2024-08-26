@@ -92,6 +92,29 @@ To ensure consistent and reliable performance results we need to effectively con
 
 For the above reasons we test against fully controlled environments and don't tests others such as Staging or Production.
 
+#### No performance test runs in merge requests
+
+GitLab Performance Tool tests are not executed in merge requests due to several critical factors:
+
+1. Requirement for Consistent Test Conditions: 
+   - Performance tests demand strictly repeatable conditions for accurate results.
+   - This includes identical server specifications, network conditions, and test data across runs.
+2. Cost, Time and Resource Constraints:
+   - A complete performance pipeline, including environment setup, data seeding, test execution, and teardown, can exceed 6 hours.
+   - This duration is not cost-effective for merge request pipelines and can significantly slow down the development process.
+   - Full-scale performance tests require a Reference Architecture environment, which is impractical and costly to build for each merge request.
+   - It may also consume excessive CI/CD resources, impacting other critical pipelines.
+3. Result Interpretation Complexity:
+   - Performance test results often have inherent variability or "noise".
+   - Accurate interpretation requires human expertise to distinguish between normal fluctuations and actual performance degradations.
+   - This manual review process is not feasible for every merge request.
+4. Focus on End-to-End Performance:
+   - These tests are designed to evaluate the overall system performance, which may not be significantly impacted by individual merge requests.
+
+Given these considerations, we adopt an approach of conducting comprehensive performance tests at the end of the test chain, where we can best control the conditions and allocate necessary resources.
+
+For shifting performance testing left, the recommended approach is to break down performance testing to specific components rather than the entire application. For example, GitLab team maintains performance testing for [Database Queries](https://docs.gitlab.com/ee/development/database/database_lab.html). Similar unit-level performance testing approach can be followed by creating dedicated test frameworks, where the components are configured only the mock data and stressed tested accordingly.
+
 ### Expanding the Tool
 
 The Quality Department aims to enhance the GPT and performance test coverage.

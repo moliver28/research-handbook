@@ -1,13 +1,6 @@
 ---
 title: "GitLab Strategy and Operations (Workplace) Team Handbook"
 description: GitLab Strategy and Operations (Workplace) Team Handbook
-twitter_image: "/images/opengraph/all-remote.jpg"
-twitter_image_alt: "GitLab's All-Remote Marketing branded image"
-twitter_site: "@gitlab"
-twitter_creator: "@gitlab"
-aliases:
-- /handbook/ceo/office-of-the-ceo/workplace/
-- /handbook/ceo/chief-of-staff-team/workplace/
 ---
 
 ## About the GitLab Strategy and Operations (Workplace) Team
@@ -200,7 +193,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
 1. **You must have a single source of truth**
    - It's not about blanket documentation. It's about working [handbook-first](/handbook/company/culture/all-remote/handbook-first/).
    - Start now! Designate a scribe if you have to. Start small, as an FAQ, and build it out.
-   - Show an example of a handbook page — a great example is our [Communication page]({{< ref communication >}}).
+   - Show an example of a handbook page — a great example is our [Communication page](/handbook/communication/).
 1. **Asynchronous over synchronous**
    - Explain how GitLab requires each meeting to have an agenda and someone [documenting](/handbook/company/culture/all-remote/meetings/#document-everything-live-yes-everything).
    - Explain how meeting takeaways then need to be contextualized and [added to relevant handbook pages](/handbook/company/culture/all-remote/self-service/#paying-it-forward).

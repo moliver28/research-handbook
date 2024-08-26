@@ -1,6 +1,7 @@
 ---
 title: 'GitLab Secrets Manager ADR 003: Implement Secrets Manager in Go'
 owning-stage: "~devops::verify"
+toc_hide: true
 ---
 
 Following [ADR-002](../002_gcp_kms) highlighting the need to integrate with GCP

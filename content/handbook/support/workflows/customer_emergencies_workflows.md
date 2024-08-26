@@ -267,7 +267,7 @@ As soon as the customer incident is resolved, mark the emergency ticket as solve
   - Be sure to let the customer know that follow up work will continue in this ticket.
 
 - **Option 2: There is no related ticket:**
-   1. Use a browser incognito window to create a new ticket via the [support portal](https://support.gitlab.com) (not via Zendesk itself). Use the customer email address in the "Your email address" field. Review the new ticket to ensure it is properly associated to the correct customer Organization.
+   1. Create a new ticket by following the steps provided in this doc [How can I open a new ticket on behalf of a customer?](/handbook/support/workflows/working-on-tickets/#how-can-i-open-a-new-ticket-on-behalf-of-a-customer).
    1. Let customer know in the ticket description that follow-up work will continue in this ticket.
    1. Add an internal comment linking to the (closed) emergency ticket.
    1. Add an internal comment in the emergency ticket, linking to this ticket as the follow-up ticket.

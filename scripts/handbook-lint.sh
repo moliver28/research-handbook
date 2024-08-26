@@ -85,7 +85,7 @@ fi
 rm /tmp/CODEOWNERS
 
 BROKEN_OWNERSHIP=""
-sed -n '/^.*\[Controlled-Documents\]/,$p' .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" > /tmp/CODEOWNERS
+sed -n '/^\[/,/^$/ p' .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" > /tmp/CODEOWNERS
 printf "%b" "${bold}Checking if files have broken ownership...${normal}"
 while read LINE; do
   if ! echo $LINE | grep -qE "@gitlab-com/content-sites|@gitlab-com/egroup"; then

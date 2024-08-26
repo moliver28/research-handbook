@@ -349,7 +349,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [Observation remediation Procedure]({{< ref "observation-remediation-procedure" >}})
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 - [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)
-- [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
+- [Sarbanes-Oxley (SOX) Compliance](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 
 ## Contact & Feedback
 

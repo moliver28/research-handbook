@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/cloud-connector/knowledge.html
 title: Application Performance Group - Knowledge Sharing
 ---
 
@@ -51,7 +50,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [RubyKaigi2018: Faster Apps No Memory Thrash - Google Slides](https://docs.google.com/presentation/d/1-WrYwz-QnSI9yeRZfCCgUno-KOMuggiGHlmOETXZy9c/edit#slide=id.p)
 - [Switching from Unicorn to Puma - FiNC Tech Blog - Medium](https://medium.com/finc-engineering/switching-to-puma-3a91575297af)
 - [The Limits of Copy-on-write: How Ruby Allocates Memory](https://brandur.org/ruby-memory)
-- [Tuning Ruby's Global Method Cache – Shopify Engineering](https://engineering.shopify.com/blogs/engineering/17489064-tuning-rubys-global-method-cache)
+- [Tuning Ruby's Global Method Cache – Shopify Engineering](https://shopify.engineering/17489064-tuning-rubys-global-method-cache)
 - [Understanding Ruby GC through GC.stat](https://www.speedshop.co/2017/03/09/a-guide-to-gc-stat.html)
 - [Unicorn vs. Puma vs. Passenger: which app server is right for you? - Scout APM Blog](https://scoutapm.com/blog/which-ruby-app-server-is-right-for-you)
 - [Untangling Ruby Threads](https://thoughtbot.com/blog/untangling-ruby-threads)

@@ -5,7 +5,7 @@ description: "A guide for working with Git, terminal, and the www-gitlab-com rep
 
 ## General Tips
 
-Please note that this guide assumes some knowledge of how to use GitLab, and how to use Git on your local machine. If you're unsure of what something means, you may need to go and review [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) or [Editing the handbook](/handbook/editing-handbook/#editing-the-handbook), which explains how to set up your computer to edit the website locally.
+Please note that this guide assumes some knowledge of how to use GitLab, and how to use Git on your local machine. If you're unsure of what something means, you may need to go and review [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) or [Editing the handbook](/handbook/about/editing-handbook/#editing-the-handbook), which explains how to set up your computer to edit the website locally.
 
 ### Make sure your Terminal is up to date
 

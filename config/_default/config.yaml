@@ -5,8 +5,6 @@ title: The GitLab Handbook
 enableRobotsTXT: true
 enableGitInfo: true
 
-googleAnalytics: G-41B5X0RBD8
-
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
