@@ -17,12 +17,9 @@
     <tbody>
     {{ range sort .Site.Data.support_glossary "acronym" "asc" }}
       <tr id="{{ .acronym | anchorize }}">
+
         <td class="support-acronym">
-          <ul>
-          {{ range .acronym}}
-            <li class="anchor-link" id="{{ . | anchorize }}">{{ . }}</li>
-          {{ end }}
-          </ul>
+          <span class="anchor-link" id="{{ .acronym | anchorize }}">{{ .acronym }}</span>
         </td>
 
         <td class="support-term">
