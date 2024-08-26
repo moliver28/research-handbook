@@ -1,13 +1,13 @@
 ---
 title: "Marketing"
-description: "GitLab Marketing Handbook: Brand and Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Platforms, Developer Relations, and Corporate Communications"
+description: "GitLab Marketing Handbook: Brand and Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Platforms, Enterprise Data, Developer Relations, and Corporate Communications"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
 <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Marketing Handbook
 {.h2}
 
-The GitLab Marketing team operates as one team and is organized by the following departments: [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Brand and Product Marketing](/handbook/marketing/#brand-and-product-marketing), [Marketing Operations and Analytics](/handbook/marketing/#marketing-operations-and-analytics), [Sales Development](/handbook/marketing/#sales-development), [Growth](/handbook/marketing/growth/), [Corporate Communications](/handbook/marketing/#corporate-communications), and [Developer Relations](/handbook/marketing/#developer-relations). This page documents our shared team philosophy and processes, while the individual department handbooks contain more detailed information.
+The GitLab Marketing team operates as one team and is organized by the following departments: [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Brand and Product Marketing](/handbook/marketing/#brand-and-product-marketing), [Marketing Operations and Analytics](/handbook/marketing/#marketing-operations-and-analytics), [Sales Development](/handbook/marketing/#sales-development), [Enterprise Data](/handbook/marketing/#enterprise-data), [Corporate Communications](/handbook/marketing/#corporate-communications), and [Developer Relations](/handbook/marketing/#developer-relations). This page documents our shared team philosophy and processes, while the individual department handbooks contain more detailed information.
 
 ## Marketing Purpose
 
@@ -95,12 +95,12 @@ Weekly Direct Reports Meetings (Each manager with their direct reports)
 
 | Topic | Where to reach out | Sub-Team |
 | ------ | ------ | ------ |
-| Blog posts, webcasts, the newsletter or other marketing content | `#content`  | [Content] |
-| Swag | `#swag` | [Brand] strategy |
-| Design requests, logo usage questions | `#marketing-design` | [Brand] |
-| External PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities | `#external-comms` | [Corporate Communications] |
-| Anything regarding the marketing website and website development | `#digital-experience-team` | [Digital experience] |
-| Questions about tools in the [marketing tech stack](marketing-operations/), evaluating new marketing tools, marketing system process improvement | `#mktgops` | Marketing Operations |
+| Blog posts, webcasts, the newsletter or other marketing content | `#content`  | [Content](/handbook/marketing/brand-and-product-marketing/content/) |
+| Swag | `#swag` | [Brand](/handbook/marketing/brand-and-product-marketing/brand/) |
+| Design requests, logo usage questions | `#marketing-design` | [Brand](/handbook/marketing/brand-and-product-marketing/brand/) |
+| External PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities | `#external-comms` | [Corporate Communications](/handbook/marketing/corporate-communications/) |
+| Anything regarding the marketing website and website development | `#digital-experience-team` | [Digital experience](/handbook/marketing/digital-experience/) |
+| Questions about tools in the [marketing tech stack](/handbook/marketing/marketing-operations/), evaluating new marketing tools, marketing system process improvement | `#mktgops` | Marketing Operations |
 | Salesforce | `#sfdc-users` | Sales Operations (not marketing) |
 
 A complete list of marketing slack channels can be found [here](/handbook/marketing/#marketing-slack-channels).
@@ -112,32 +112,32 @@ A complete list of marketing slack channels can be found [here](/handbook/market
 
 ### CMO Requests
 
-Please follow the [CMO handbook] for review request workflows, and communication guidelines.
+Please follow the [CMO handbook](/handbook/marketing/cmo/) for review request workflows, and communication guidelines.
 
 ### Social Requests
 
-All teams are responsible for requesting social posts themselves. If you are not the DRI on a specific category or campaign and want to request a social post, please reach out to the teams' point person identified below as a first step. Team Members in these roles reserve the right to say no to your request. If they say yes, coordinate with them to [create a new social request issue](integrated-marketing/digital-strategy/social-marketing/) so that the social team can process the request and schedule the post(s). The point person on the team or a member of the marketing or social teams may adjust copy to ensure consistency in brand voice.
+All teams are responsible for requesting social posts themselves. If you are not the DRI on a specific category or campaign and want to request a social post, please reach out to the teams' point person identified below as a first step. Team Members in these roles reserve the right to say no to your request. If they say yes, coordinate with them to [create a new social request issue](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) so that the social team can process the request and schedule the post(s). The point person on the team or a member of the marketing or social teams may adjust copy to ensure consistency in brand voice.
 
 - Events: Jr. Content Editor
-- Release & technical posts/product updates: [Technical writing]
-- User questions/comments on Twitter/X: [Social Marketing] or [Developer Relations] team
-- Leadgen campaigns: [Content] team
+- Release & technical posts/product updates: [Technical writing](/handbook/product/ux/technical-writing/)
+- User questions/comments on Twitter/X: [Social Marketing](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) or [Developer Relations](/handbook/marketing/developer-relations/) team
+- Leadgen campaigns: [Content](/handbook/marketing/brand-and-product-marketing/content/) team
 - UX Design: UX Lead
-- Press/media coverage: Post in `#external-comms` for assistance
-- Social media, RTs of mentions, CEO Statements/posts: Post in `#social_media_action` for assistance
+- Press/media coverage: Post in `#external-comms` for assistance from the [Corporate Communications](/handbook/marketing/corporate-communications/) team
+- Social media, reshares of mentions, CEO Statements/posts: Post in `#social_media_action` for assistance
 
 ### Company Spokesperson
 
-Speaking on behalf of GitLab at a conference, to media or on a podcast as a GitLab team member is a significant responsibility. Please see the [Corporate Communications Handbook Page](corporate-communications/) for guidelines and trainings.
+Speaking on behalf of GitLab at a conference, to media or on a podcast as a GitLab team member is a significant responsibility. Please see the [Corporate Communications Handbook Page](/handbook/marketing/corporate-communications/) for guidelines and trainings.
 
 ### Blog post editing
 
 - Product release posts: [Product team](/handbook/product/)
-- Technical community posts/tutorials: [Developer Advocate] and Blog editorial team
-- CEO statements/updates: [CMO](cmo/)
-- All other blog posts: [Blog editorial team](brand-and-product-marketing/content/)
+- Technical community posts/tutorials: [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) and [Blog editorial](/handbook/marketing/brand-and-product-marketing/content/) team
+- CEO statements/updates: [CMO](/handbook/marketing/cmo/)
+- All other blog posts: [Blog editorial team](/handbook/marketing/brand-and-product-marketing/content/)
 
-Guidelines for how to pitch and submit a blog, including templates and formatting, can be found in the [Blog Handbook](blog/).
+Guidelines for how to pitch and submit a blog, including templates and formatting, can be found in the [Blog Handbook](/handbook/marketing/blog/).
 
 ### Newsletter
 
@@ -155,13 +155,13 @@ Newsletter requests should be submitted no less than 5 business days before the 
 
 **Community Newsletter**
 
-The community newsletter is managed by the [Developer Relations] team, dedicated to sharing relevant developer content, highlighting contribution opportunities, and updating community members on upcoming events. We aim to keep our contributors involved and connected with the wider community. This newsletter will not be used to drive or generate leads.
+The community newsletter is managed by the [Developer Relations](/handbook/marketing/developer-relations/) team, dedicated to sharing relevant developer content, highlighting contribution opportunities, and updating community members on upcoming events. We aim to keep our contributors involved and connected with the wider community. This newsletter will not be used to drive or generate leads.
 
 To submit to the newsletter, please follow the [handbook instructions](/handbook/marketing/developer-relations/developer-advocacy/community-newsletter/#submissions).
 
 ### Sponsorship
 
-We are happy to sponsor events and meet-ups where a marketing benefit exists, subject to approval by [Field Marketing] Managers. These sponsorships may be in cash or in kind, depending on individual circumstances.
+We are happy to sponsor events and meet-ups where a marketing benefit exists, subject to approval by [Field Marketing](/handbook/marketing/field-marketing/) Managers. These sponsorships may be in cash or in kind, depending on individual circumstances.
 
 Organizational or project sponsorships may also be considered where a marketing benefit exists. Typically, these sponsorships will be in kind - e.g., developer time commitments, or [subsidized / free GitLab licenses](https://about.gitlab.com/blog/2018/06/05/gitlab-ultimate-and-gold-free-for-education-and-open-source/).
 
@@ -180,10 +180,10 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - `#cfp`: All event call for papers will be posted here. Learn more in the [speaking resources](/handbook/marketing/corporate-communications/speaking-resources/) handbook.
 - `#cmo`: [CMO review requests](/job-families/chief-marketing-officer/) and content shares.
 - `cmo-staff`: (Private) CMO's private staff discussion room
-- `#content`: Questions about blog posts, webcasts, the newsletter or other [marketing content](brand-and-product-marketing/content/)? This is the place to ask.
+- `#content`: Questions about blog posts, webcasts, the newsletter or other [marketing content](/handbook/marketing/brand-and-product-marketing/content/)? This is the place to ask.
 - `#developer-relations`: A channel for the [developer relations](/handbook/marketing/developer-relations/) team to collaborate.
-- `#dev-advocacy-team`: Discuss the latest tech in DevSecOps and Cloud-Native with the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) tea. You can request speakers and ask for technical content collaboration and guidance.
-- `#digital-experience-team`: Channel for connecting with the [website development and design teams](digital-experience/)
+- `#dev-advocacy-team`: Discuss the latest tech in DevSecOps and Cloud-Native with the [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) team. You can request speakers, customer consultancy and technical content collaboration and guidance.
+- `#digital-experience-team`: Channel for connecting with the [website development and design teams](/handbook/marketing/digital-experience/)
 - `#digital-marketing`: Channel for all advertising, website analytic and general digital programs.
 - `#external-comms`: To collaborate with our external PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities.
 - `#fieldmarketing`: Discuss, ask questions, stay up-to-date on events that are being organized by Field Marketing
@@ -250,35 +250,35 @@ Product and Brand Marketing represents the GitLab story at the brand, solution, 
 Handbook Links
 {.h4}
 
-- [Brand]
-  - [Merchandise Handling (Swag)]
-- [Product and Solution Marketing](brand-and-product-marketing/product-and-solution-marketing/)
-  - [Core Product Marketing](brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/)
-  - [Competitive Intelligence](brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/)
-  - [Analyst Relations](brand-and-product-marketing/product-and-solution-marketing/analyst-relations/)
-  - [Customer Advocacy](brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
-- [Design](brand-and-product-marketing/design/)
-- [Content](brand-and-product-marketing/content/)
+- [Brand](/handbook/marketing/brand-and-product-marketing/brand/)
+  - [Merchandise Handling (Swag)](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
+- [Product and Solution Marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/)
+  - [Core Product Marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/)
+  - [Competitive Intelligence](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/)
+  - [Analyst Relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/)
+  - [Customer Advocacy](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
+- [Design](/handbook/marketing/brand-and-product-marketing/design/)
+- [Content](/handbook/marketing/brand-and-product-marketing/content/)
 
 ### Integrated Marketing
 
 The Integrated Marketing team is focused on creating awareness, generating demand and collaborating with the broader ecosystem globally, through a co-ordinated and unified approach.  We connect the dots and bring content and messaging to life by leveraging various channels as our levers to communicate across segments, regions and personas.
 
-The team includes [Field Marketing], [Channel](/handbook/marketing/channel-marketing/), [Corporate Events], [Account Based Marketing], [Campaigns], [Lifecycle Marketing], [Digital Strategy] and [Digital Experience].
+The team includes [Field Marketing](/handbook/marketing/field-marketing/), [Global Channel Marketing](/handbook/marketing/channel-marketing/), [Corporate Events](/handbook/marketing/integrated-marketing/corporate-events/), [Account Based Marketing](/handbook/marketing/account-based-marketing/), [Integrated Campaigns](/handbook/marketing/campaigns/), [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/), [Digital Strategy](/handbook/marketing/integrated-marketing/digital-strategy/) and [Digital Experience](/handbook/marketing/digital-experience/).
 
 <a href="/handbook/marketing/integrated-marketing/" class="btn btn-primary">Handbook</a>
 
 Handbook Links
 {.h4}
 
-- [Field Marketing](field-marketing/)
-- [Channel Marketing](channel-marketing/)
-- [Corporate Events](integrated-marketing/corporate-events/)
-- [Account Based Marketing](account-based-marketing/)
-- [Campaigns](campaigns/)
-- [Lifecycle Marketing](lifecycle-marketing/)
-- [Digital Strategy](integrated-marketing/digital-strategy/)
-- [Digital Experience](digital-experience/)
+- [Field Marketing](/handbook/marketing/field-marketing/)
+- [Channel Marketing](/handbook/marketing/channel-marketing/)
+- [Corporate Events](/handbook/marketing/integrated-marketing/corporate-events/)
+- [Account Based Marketing](/handbook/marketing/account-based-marketing/)
+- [Integrated Campaigns](/handbook/marketing/campaigns/)
+- [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/)
+- [Digital Strategy](/handbook/marketing/integrated-marketing/digital-strategy/)
+- [Digital Experience](/handbook/marketing/digital-experience/)
   - [Marketing Website](https://about.gitlab.com)
 
 ### Sales Development
@@ -302,15 +302,15 @@ BDRs contact people who work at large organizations to uncover or create early-s
 Handbook Links
 {.h4}
 
-- [Marketing Operations](marketing-operations/)
-- [Marketing Strategy & Analytics](strategy-performance/)
-- [Globalization & Localization]((localization/))
+- [Marketing Operations](/handbook/marketing/marketing-operations/)
+- [Marketing Strategy & Analytics](/handbook/marketing/strategy-performance/)
+- [Globalization & Localization](/handbook/marketing/localization/)
 
-### Growth
+### Enterprise Data
 
-The GitLab Growth department is dedicated to making it easier for teams to find value and increased efficiency within the GitLab platform. We work across stages within the product experience to make the product as easy as possible to adopt and use.
+The GitLab Enterprise Data Team is responsible for empowering every GitLab team member to contribute to the data program and generate business value from our data assets.
 
-<a href="/handbook/marketing/growth/" class="btn btn-primary">Handbook</a>
+<a href="/handbook/enterprise-data/" class="btn btn-primary">Handbook</a>
 
 ### Developer Relations
 
@@ -321,11 +321,11 @@ Developer Relations drives platform awareness and adoption by reaching deep into
 Handbook Links
 {.h4}
 
-- [Contributor Success](developer-relations/contributor-success/)
-- [Developer Advocacy](developer-relations/developer-advocacy/)
-- [Community Programs](developer-relations/community-programs/)
-  - [Education Program](developer-relations/community-programs/education-program/)
-  - [Open Source Program](developer-relations/community-programs/opensource-program/)
+- [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
+- [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
+- [Community Programs](/handbook/marketing/developer-relations/community-programs/)
+  - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
+  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/opensource-program/)
 
 ### Corporate Communications
 
@@ -336,9 +336,9 @@ The mission of GitLab's Corporate Communications team is to amplify GitLab's pro
 Handbook Links
 {.h4}
 
-- [Social Marketing](integrated-marketing/digital-strategy/social-marketing/)
-- [Speaking Resources](corporate-communications/speaking-resources/)
-- [Incident Communications Plan](corporate-communications/incident-communications-plan/)
+- [Social Marketing](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/)
+- [Speaking Resources](/handbook/marketing/corporate-communications/speaking-resources/)
+- [Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/)
 
 ## <i class="fas fa-calendar-check fa-fw color-orange font-awesome"></i> Marketing Calendar
 
