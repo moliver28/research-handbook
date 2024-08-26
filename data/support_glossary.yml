@@ -73,4 +73,4 @@
 - acronym: SLO
   term: Service level objective
   info: |
-    I don't know if we actually have this defined anywhere definitive.
+    Support has an internal service level objective on all subsequent responses to tickets after the first response. We use the SLA timer in Zendesk to track this. 
