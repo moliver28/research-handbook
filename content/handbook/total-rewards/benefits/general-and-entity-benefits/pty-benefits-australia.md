@@ -132,13 +132,13 @@ Engineers based in Australia who are part of the Development and Infrastructure 
 - 8-hour shift = 1 day time in lieu
 - 24-hour shift = 3 days time in lieu
 
-For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [unlimited PTO policy]({{< ref "paid-time-off#paid-time-off" >}}) to complement time in lieu.
+For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [flexible PTO policy]({{< ref "paid-time-off#paid-time-off" >}}) to complement time in lieu.
 
 *Note: The full shift (state of readiness) is compensated by time in lieu - rather than only the "actual time worked"*
 
 #### What should I do when I want to take more time off after an on-call shift?
 
-If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Unlimited [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
+If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Flexible [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
 
 #### When can time in lieu be taken?
 
@@ -241,7 +241,7 @@ Unpaid carer's leave can be taken:
 #### Long Service Leave
 
 - Team members may be eligible for long service leave in accordance with state/territory based legislation as varied from time to time.
-- This leave runs concurrently with GitLab PTO.  Team members should select `Vacation` in Time Off by Deel to ensure that leave entitlements are properly tracked.
+- This leave runs concurrently with GitLab PTO. Team members should select `Vacation` in Time Off by Deel to ensure that leave entitlements are properly tracked.
 
 #### Other Types of Leave
 
@@ -365,6 +365,42 @@ Eligible employees who are the carer of a child born or adopted from 1 July 2024
 
 - Team members who get Australian Government Parental Leave Pay have to be given a pay slip for each payment. The pay slip must specify that the payments are Parental Leave Pay under the Australian Government Paid Parental Leave Scheme.
 - Ordinary pay slip requirements apply to pay slips given to team members getting government-funded Parental Leave Pay.
+
+### GitLab PTY Australia Right to Disconnect
+
+At GitLab (the “Company”), we care about the safety, health, and well-being of all team members and focus not on hours worked but rather on [asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication) and results. We believe that [family and friends come first and work comes second](/handbook/values/#family-and-friends-first-work-second). In line with the Company’s values, we understand that “[unplugging](/handbook/company/culture/all-remote/mental-health/#your-rest-ethic-is-as-important-as-your-work-ethic)” from work is essential to a [healthy and balanced life](/handbook/company/culture/all-remote/people/#worklife-harmony). Technological advancements, global events, and work demands can sometimes make us forget that we need a break to recharge.
+
+Team members are expected to disconnect from work and work-related communications outside of normal working hours and during PTO and there are many suggestions in the Handbook for [communicating when you will be away](/handbook/people-group/paid-time-off/#communicating-your-time-off) so other people can manage their time efficiently, projects don’t slip through the cracks, and so that team members are not disturbed while away.
+
+This guidance reminds team members in Australia of their workplace right to disconnect (codified from 26 August 2024) and how the Company is committed to supporting team members in doing so.
+
+The right to disconnect means that a team member is not required, outside of their working hours, to monitor, read or respond to contact, or attempted contact, from an employer or a third party (where the contact relates to their work), unless it would be unreasonable to refuse.
+
+In addition to the suggestions for communicating when you will be away, take a look at these tips to increase a team member’s ability to disconnect from work:
+
+- unsubscribe from any MRs that will likely resolve while you’re away, and then you won’t have to deal with all the emails from them when you return;
+- set up some email filters to move emails into buckets that you can address one-at-a-time when you return;
+- disconnect yourself from Slack and Gmail in any of these ways (*note: Time Off by Deel is supposed to turn off Slack notifications on your phone and set DND mode):
+  - log out from Slack and Gmail on your phone, or
+  - remove Slack and Gmail from your phone, or
+  - pause the Slack and Gmail apps on your phone, or
+  - manually configure Slack and Gmail not to send notifications on your phone
+
+At GitLab, team members should communicate respectfully and professionally at all times, in line with the Company’s values, with a bias towards asynchronous communication and documentation-first and should [assume positive intent in dealings with others](/handbook/values/#assume-positive-intent) (including in relation to the tone and timing of communications).
+
+In considering whether contact is unreasonable, think about:
+
+- the reason for contact;
+- how contact might be made and the level of disruption contact may cause;
+- the extent to which the team member is being compensated (eg with time off after an on-call rotation):
+  - to remain available to perform work during the period in which contact is made; or
+  - for working additional hours outside of their ordinary hours of work;
+- the nature of the team member’s role and their level of responsibility; and 
+- the team member’s personal circumstances.
+
+In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
+
+The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/agreements-awards/awards/find-award).
 
 ## GitLab PTY New Zealand Specific Benefits
 
