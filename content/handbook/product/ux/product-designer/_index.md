@@ -236,7 +236,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
   - Use [collapsed content sections](/handbook/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](/handbook/markdown-guide/#collapse).
   - **Reguest feedback from your Product Design Manager**:
   - `@mention` your Product Design Manager for feedback. They can provide strategic alignment, ensure quality, and maintain functional consistency across the product.
-- **Focuc on the customer and problem**:
+- **Focus on the customer and problem**:
   - Frame design discussions around the customer and the problem being solved, not the UI or functionality. Begin with the current state, explain how it fails to meet user needs, and present the proposed solution from the user's perspective. Continuously relate everything back to the user's experience.
 - **Anticipate and address questions**:
   - Anticipate potential questions and address them in your proposal comments. Explain your rationale to reduce feedback loops and unnecessary discussions. This is especially important when proposing changes to established patterns.
