@@ -187,7 +187,7 @@ Practicing [iteration 👣](/handbook/values/#iteration) at GitLab requires inte
 
 Asynchronous work can feel taxing and inefficient if you're only working on a single project and you're stuck waiting for another person's contribution. Scheduling your work so you can pick up other tasks while waiting to be unblocked can reduce this downtime.
 
-Now suppose you have five ongoing projects. It's much easier to make iterative progress on one, tag a person or team within a GitLab epic, issue, or merge request for desired input or action, and switch to another ongoing project while you wait. Suppose you cycle through your assigned tasks, making iterative improvements on each before handing off. In that case, you're able to create [minimum viable change](/handbook/values/#minimal-valuable-change-mvc) for many more projects while being less concerned over the immediate response to any one of the projects in particular.
+Now suppose you have five ongoing projects. It's much easier to make iterative progress on one, tag a person or team within a GitLab epic, issue, or merge request for desired input or action, and switch to another ongoing project while you wait. Suppose you cycle through your assigned tasks, making iterative improvements on each before handing off. In that case, you're able to create [minimum valuable change](/handbook/values/#minimal-valuable-change-mvc) for many more projects while being less concerned over the immediate response to any one of the projects in particular.
 
 Async works well when managing multiple projects, although it does require discipline and an ability to switch contexts and compartmentalize.
 
