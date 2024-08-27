@@ -13,7 +13,7 @@ This role will help enable communication, collaboration, strategy execution, and
 #### Projects
 
 - Organize and determine a program for a potential CTO Staff Offsite (virtual or on-site) in the last month of your term.
-- Initiate and guide the CTO team OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule/) (in partnership with the Chief of Staff to the CEO team).
+- Initiate and guide the CTO team OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule/) (in partnership with the [Office of the CEO](/handbook/ceo/office-of-the-ceo/)).
 - Manage, track, and moderate OKRs for Engineering to ensure CTO Staff remain on track, and know their attention points throughout the quarter.
 - Lead the retrospection of the previous quarter OKRs in the first month of your term.
 - Drive future special projects, such as past examples like

@@ -435,7 +435,7 @@ There are also a number of videos on GitLab's [YouTube channel](https://www.yout
 
 To contribute an idea or [proposal](/handbook/values#make-a-proposal) to further GitLab's all-remote mission:
 
-1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
+1. Please put each new idea/topic in a new issue within the [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
 1. Put `Proposal: [IDEA]` as the subject
 1. Assign to `@streas`
 1. Please [set a due date](/handbook/values/#set-a-due-date) using GitLab's `Due Date` feature and provide context for the deadline(s).
