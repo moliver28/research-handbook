@@ -80,36 +80,36 @@
 - acronym: ASE
   term: assigned support engineer
   info: |
-  Customers can subsribe to our assigned support engineer service which allocates them a named support engineer. You can read more about this role in the [handbook](https://handbook.gitlab.com/handbook/support/workflows/assigned-support-engineer/).
+    Customers can subsribe to our assigned support engineer service which allocates them a named support engineer. You can read more about this role in the [handbook](https://handbook.gitlab.com/handbook/support/workflows/assigned-support-engineer/).
 
 - acronym: CES
   term: 
    - customer effort score
    - candidate experience specialist
   info: |
-  In the support context, customer effort score is an approach to measuring customer satisfaction.  In the wider GitLab context, we also have [dandidate experience specialists](https://handbook.gitlab.com/job-families/people-group/candidate-experience/) who are part of our recruiting team. 
+    In the support context, customer effort score is an approach to measuring customer satisfaction.  In the wider GitLab context, we also have [dandidate experience specialists](https://handbook.gitlab.com/job-families/people-group/candidate-experience/) who are part of our recruiting team. 
 
 - acronym: DRI
   term: directly responsible individual
   info: | 
-  [Directly responsible individuals](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) at GitLab own particular projects, initiatives, or activity.
+    [Directly responsible individuals](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) at GitLab own particular projects, initiatives, or activity.
 
 - acronym: MFA
   term: multi-factor authentication
   info: |
-  A commonly used [industry term](https://en.wikipedia.org/wiki/Multi-factor_authentication). 
+    A commonly used [industry term](https://en.wikipedia.org/wiki/Multi-factor_authentication). 
 
 - acronym: MTTR
   term: mean time to resolution
   info: | 
-  A measurement of the average time it takes for a ticket to progress from creation to solved.
+    A measurement of the average time it takes for a ticket to progress from creation to solved.
 
 - acronym: SBOM
   term: software bill of materials
   info: |
-  You can read all about SBOMs in our [blog post](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/).
+    You can read all about SBOMs in our [blog post](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/).
 
 - acronym: SSAT
   term: Support Satisfaction
   info: |
-  We use SSAT to capture customer feedback and measure customer satisfaction.
+    We use SSAT to capture customer feedback and measure customer satisfaction.
