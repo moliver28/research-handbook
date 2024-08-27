@@ -90,11 +90,15 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 **EMEA/APAC TEAM:**
 
-- Manager, Deal Desk (EMEA/APAC)
-  - Deal Desk Analyst (APAC)
+- Manager, Deal Desk (EMEA) TBD
   - Deal Desk Analyst (EMEA)
   - Deal Desk Specialist (EMEA)
-  - Deal Desk Analyst (Alliances) (Open Req)
+  - Deal Desk Analyst (TBD)
+
+  - Manager, Deal Desk (APAC)
+  - Deal Desk Strategist (APAC)
+  - Deal Desk Analyst (APAC)
+  
 
 ### Communicating with the Deal Desk Team
 
