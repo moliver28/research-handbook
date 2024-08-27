@@ -89,14 +89,17 @@ Normally at the beginning of the Milestone the EM will discuss an overview of th
 
 If you are ever looking for additional issues to work on:
 
-1. Look at the [Development board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/4463190)
-2. Identify an issue in the Ready for Development or Open columns that are unassigned.
-3. Assign yourself to the issue.
-4. Add a `workflow:in dev` label to the issue
-5. If the scope or description are unclear, connect with the EM and or PM for clarification or (if feeling confident) groom the issue yourself and proceed.
-6. Begin working on the issue.
-7. Once you are done with the issue, make sure any relevant MRs are linked and close the issue.
-8. Repeat.
+1. Look at the [Milestone board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/5213948)
+1. Identify an issue that is unassigned.
+1. Assign yourself to the issue.
+1. Add a `workflow:in dev` label to the issue
+1. If the scope or description are unclear, connect with the EM and or PM for clarification or (if feeling confident) groom the issue yourself and proceed.
+1. Begin working on the issue.
+1. Once all relevent MRs are merged, set the `~workflow::verification` label.
+    * Ensure any MRs do not auto-close issues. (Use `Relates to #11111` rather than `Closes #11111` in MR descriptions.)
+1. Verify the changes and comment on the issue which environment you used for verification, for example `Verified on production`.
+1. Close the issue! 🎉
+1. Repeat.
 
 ### How to enable Observability Beta for a customer?
 
