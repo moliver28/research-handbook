@@ -171,12 +171,14 @@ SELECT
   Name,
   Email,
   Account.Account_ID_18__c,
-  Account.Name
+  Account.Name,
+  Role__c
 FROM Contact
 WHERE
   Inactive_Contact__c = false AND
   Name != '' AND
   Email != '' AND
+  Role__c = 'Gitlab Admin' AND
   (
     NOT Email LIKE '%gitlab.com'
   ) AND
