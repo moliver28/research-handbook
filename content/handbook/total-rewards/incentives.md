@@ -295,7 +295,7 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 - In the past, we had a tiered system of referral bonuses, but we've simplified the structure to add a flat bonus amount.
 - [$1,500](/handbook/total-rewards/compensation/#exchange-rates) base referral bonus for a new hire.
 
-We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
+We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether there are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
 Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
 
