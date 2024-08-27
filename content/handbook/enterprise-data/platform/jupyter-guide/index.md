@@ -13,14 +13,14 @@ See related [repository](https://gitlab.com/gitlab-data/data-science)
 - Natively connected to Snowflake using your dbt credentials. No login required!
 - Git functionality: push and pull to Git repos natively within JupyterLab ([requires ssh credentials](https://docs.gitlab.com/ee/user/ssh.html))
 - Run any python file or notebook on your computer or in a GitLab repo
-- Linting python code using [black](https://pypi.org/project/black/) natively within Jupyter
+- Linting python code using [black](https://pypi.org/project/black/) natively within JupyterLab
 - Need a feature you use but don't see? Let us know on [#bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E)
 
 ## Getting Started
 
-Jupyter is configured to run in a [virtual environment](https://docs.python.org/3/library/venv.html) on your local machine. If you prefer not to setup a virtual environment, you can instead use our of the [data science docker images](https://gitlab.com/gitlab-data/data-science/container_registry) (both CUDA and non-CUDA images are available)
+JupyterLab is configured to run in a [virtual environment](https://docs.python.org/3/library/venv.html) on your local machine. If you prefer not to setup a virtual environment, you can instead use the [data science docker image](https://gitlab.com/gitlab-data/data-science/container_registry/6712928) with CUDA support.
 
-You have two options when setting up Jupyter using the Data Science project. Choose from one of the following:
+You have two options when setting up JupyterLab using the Data Science project. Choose from one of the following:
 
 - **Full install (Recommended)**: Creates a [`pipenv`](https://pypi.org/project/pipenv/) virtual environment on your local machine, installs [Mambaforge](https://github.com/conda-forge/miniforge) and the libraries defined in this [Pipfile](https://gitlab.com/gitlab-data/data-science/-/blob/main/Pipfile)
 - **Minimal install**: ***Only*** Creates a `pipenv` virtual environment using your existing python flavor and installs the libraries defined in this [Pipfile](https://gitlab.com/gitlab-data/data-science/-/blob/main/Pipfile). This install should be used if you already have a python environment on your local machine that you would like to use instead of Mambaforge. Requires Python 3.10.
@@ -38,7 +38,15 @@ You have two options when setting up Jupyter using the Data Science project. Cho
     - ***For full install***: `make setup-jupyter-local`
     - ***For minimal install***: `make setup-jupyter-local-no-mamba`
 1. `make jupyter-local`
-1. Jupyter Lab will launch automatically in your default browser.
+1. JupyterLab will launch automatically in your default browser.
+
+### Running from Docker
+
+Although we recommend running JupyterLab from a virtual environment, sometimes that is not always possible. In those instances, we have created a docker image that can be used.
+
+1. Pull the image `registry.gitlab.com/gitlab-data/data-science/datascienceimage:latest` into your container manager (we prefer [Rancher Desktop](https://rancherdesktop.io/))
+1. Use the [docker-compose.yml](https://gitlab.com/gitlab-data/data-science/-/blob/main/docker-compose.yml) to launch JupyterLab. In your terminal, navigate to the location of the data-science repository on your local machine and type `make jupyter-docker`
+1. You will need to manually copy and paste the URL shown in the terminal into your web browser to load JupyterLab
 
 ### Linting the repository
 
@@ -60,7 +68,7 @@ From the root of the Data Science project, this will find and correct and issues
 
 ### Mounting a local directory
 
-By default, the local install will use the `data-science` folder as the root directory for Jupyter. This is not terribly useful when your code, data, and notebooks are in other locations on your computer. To change, this you will need to create and modify a Jupyter Notebook config file:
+By default, the local install will use the `data-science` folder as the root directory for JupyterLab. This is not terribly useful when your code, data, and notebooks are in other locations on your computer. To change, this you will need to create and modify a Jupyter Notebook config file:
 
 1. Open terminal and nagivate to the data-science repo, e.g. `cd repos/data-science`. The config file must be created with the `pipenv` we setup in the above steps: `pipenv run jupyter-lab --generate-config`. This creates the file `/Users/{your_user_name}/.jupyter/jupyter_lab_config.py`.
 1. Browse to the file location and open it in a text editor
@@ -84,7 +92,7 @@ c.JupyterLabTemplates.include_default = False
 
 ### Setting Up Jupyter Extensions
 
-- The data-science repo comes with many useful Jupyter Lab extensions pre-installed, including [git](https://github.com/jupyterlab/jupyterlab-git) and [execute time](https://github.com/deshaw/jupyterlab-execute-time), and [system monitor](https://github.com/jtpio/jupyterlab-system-monitor).
+- The data-science repo comes with many useful JupyterLab extensions pre-installed, including [git](https://github.com/jupyterlab/jupyterlab-git) and [execute time](https://github.com/deshaw/jupyterlab-execute-time), and [system monitor](https://github.com/jtpio/jupyterlab-system-monitor).
 - To get the most out of these (and to avoid having to configure them every time you run the container), create the following file: `/Users/{your_user_name}/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings`
 - Within that file, paste the following and save:
 
@@ -111,9 +119,9 @@ c.JupyterLabTemplates.include_default = False
     1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/{your-project-id}/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
     1. Save the file
     1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
-1. Launch Jupyter. You should now be able to initialize the experiment tracker with the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
+1. Launch JupyterLab. You should now be able to initialize the experiment tracker with the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in JupyterLab
 
-**Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/enterprise-data/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+**Note:* If looking to connect to the Model Experiments when using CI, refer to [Model Training Step-by-Step Instructions](/handbook/enterprise-data/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
 ## Updating the Virtual Environment
 
@@ -121,7 +129,7 @@ c.JupyterLabTemplates.include_default = False
 1. Re-run on of the following installation commands:
     - ***For full install***: `make setup-jupyter-local`
     - ***For minimal install***: `make setup-jupyter-local-no-mamba`
-1. Launch Jupyter Lab`make jupyter-local`
+1. Launch JupyterLab: `make jupyter-local`
 
 ## Some interesting libraries included
 
