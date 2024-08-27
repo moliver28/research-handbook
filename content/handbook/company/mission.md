@@ -60,11 +60,7 @@ A group discussion reiterating the importance of everyone being able to contribu
 
 To **enable everyone to contribute to GitLab, the company** we have open business processes.
 This allows all team members to suggest improvements to our
-handbook. We hire remotely so everyone with an internet connection can come
-work for us and be judged on results, not presence in an office. We offer
-equal opportunity for every nationality. We are agnostic to location and
-create more equality of opportunity in the world. We engage on Hacker News,
-Twitter, and our blog post comments. And we strive to take decisions guided
+handbook. We hire remotely so our team members can be judged on results, not presence in an office. And we strive to take decisions guided
 by [our values](/handbook/values/).
 
 #### Everyone can contribute to about.gitlab.com
