@@ -15,7 +15,7 @@ Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqA
 
 ## Group Health Coverage
 
-GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
+GitLab offers medical, dental, and vision coverage at no cost to the team member. 
 
 ### Medical, Dental, and Vision Coverages
 
