@@ -156,28 +156,6 @@ permissions:
       projects: "acme/*"            # download packages from any projects in the group
 ```
 
-**Example 3: Conventional Encoding**
-
-```yaml
-permissions:
-  - write-issues@gitlab-com/www-gitlab-com
-```
-
-**Example 4: URI Encoding**
-
-- **Scheme:** `write|read|admin`
-- **Username:** Resource
-- **Host:** Group
-- **Path:** Project
-- **Query String:** Optional configuration
-
-```yaml
-permissions:
-  - write://issue@gitlab-com/www-gitlab-com?confidential=true
-  - read://issue@gitlab-com/gitlab
-  - read://repo@gitlab-com/gitlab
-```
-
 #### Usage
 
 The permissions defined in the `.gitlab-ci.yml` file **limit** the access
