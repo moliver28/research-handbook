@@ -30,8 +30,8 @@
 
 - acronym: NRT
   term: 
-  - Next response time
-  - Next reply time
+   - Next response time
+   - Next reply time
   info: |
     Support have a next response time service level objective (SLO) on all subsequent replies to tickets from subscribed
     customers. 
@@ -84,8 +84,8 @@
 
 - acronym: CES
   term: 
-  - customer effort score
-  - candidate experience specialist
+   - customer effort score
+   - candidate experience specialist
   info: |
   In the support context, customer effort score is an approach to measuring customer satisfaction.  In the wider GitLab context, we also have [dandidate experience specialists](https://handbook.gitlab.com/job-families/people-group/candidate-experience/) who are part of our recruiting team. 
 
