@@ -20,15 +20,15 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 ## Career Development
 
-{{% include "includes/engineering/manage-data-science-shared/career-development.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/career-development.md" %}}
 
 ## Team Days
 
-{{% include "includes/engineering/manage-data-science-shared/team-day.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/team-day.md" %}}
 
 ## Say/Do Ratio
 
-{{% include "includes/engineering/manage-data-science-shared/say-do-ratio.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
 ## Meetings
 
@@ -40,4 +40,4 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 
 ## Links and resources
 
-{{% include "includes/engineering/manage-data-science-shared/shared-links.md" %}}
+{{% include "includes/engineering/foundations-data-science-shared/shared-links.md" %}}

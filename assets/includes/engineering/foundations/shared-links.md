@@ -1,3 +1,3 @@
 - Stage links
   - Discussions and issues are located at [`gitlab-org/manage`](https://gitlab.com/gitlab-org/manage/)
-  - General Slack [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX)
+  - General Slack [#s_foundations](https://gitlab.slack.com/messages/CBFCUM0RX)

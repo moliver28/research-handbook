@@ -45,6 +45,7 @@
 # Manage/Foundations restructure - Remove 2024-09-01
 /handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301
 /handbook/engineering/development/dev/manage/foundations/ /handbook/engineering/development/dev/foundations/ 301
+/handbook/engineering/development/dev/manage/ /handbook/engineering/development/dev/foundations/ 301
 
 # Replace aliases - remove 2024-11-01
 /about/support/ /handbook/about/on-call/ 301
