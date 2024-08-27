@@ -125,7 +125,7 @@ details summary * {
 - qa-nightly
 - e2e-run-preprod
 - qa-production
-- qa-staging
+- e2e-run-staging
 - test-platform
 - review-apps-broken
 - terraform-provider

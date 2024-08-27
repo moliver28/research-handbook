@@ -116,7 +116,7 @@ These tests are considered blocking if they fail.
 Similar to test pipelines against master or nightly. There are dedicated slack channels that can direct you to the test
 pipelines for that specific environment:
 
-- Staging, staging-cananry, customers-dot: [#qa-staging](https://gitlab.slack.com/archives/CBS3YKMGD)
+- Staging, staging-canary, customers-dot: [#e2e-run-staging](https://gitlab.slack.com/archives/CBS3YKMGD)
 - Production, canary: [#qa-production](https://gitlab.slack.com/archives/CCNNKFP8B)
 - Preprod: [#e2e-run-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
 - Release: [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE)

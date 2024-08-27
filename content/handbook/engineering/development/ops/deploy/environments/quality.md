@@ -44,7 +44,7 @@ It is also possible to see which jobs failed in the `e2e:package-and-test` pipel
 #### How can I find tests results for staging or staging canary?
 
 Tests running in [staging](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines) need access to https://ops.gitlab.net/gitlab-org/quality/staging/.
-The results of test runs can be found also in the `#qa-staging` Slack channel. The jobs in the staging pipeline that are relevant to Environments are:
+The results of test runs can be found also in the `#e2e-run-staging` Slack channel. The jobs in the staging pipeline that are relevant to Environments are:
 
 - `ee-qa-api`
 - `qa-browser_ui-7_configure`
