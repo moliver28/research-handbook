@@ -23,9 +23,9 @@ with other GitLab APIs to accomplish a task. Currently, this token has the same
 level of access as the user who triggered the pipeline, which violates the
 [principle of least privilege (PoLP)](https://csrc.nist.gov/glossary/term/least_privilege).
 
-This proposal outlines the stages of development needed to reduce the access
-granted by this token in order to adhere to the principle of least privilege,
-while delivering incremental value along the way.
+This proposal outlines the development needed to reduce the access granted by
+this token in order to adhere to the principle of least privilege, while
+delivering incremental value along the way.
 
 ## Motivation
 
@@ -36,14 +36,10 @@ job the same level of access as the user.
 
 ### Goals
 
-~This proposal aims to decouple the access of the `CI_JOB_TOKEN` from a specific
-user, assigning it instead to an entity with more limited access.~
-
 This proposal seeks to limit the scope of access granted to the `CI_JOB_TOKEN`
 by introducing a mechanism to define the minimum necessary permissions for the
 token.
 
-- ~We want to decouple the `CI_JOB_TOKEN` from the user who triggered the pipeline.~
 - The `CI_JOB_TOKEN` should be ephemeral and grant minimal access.
 - Configuration of permissions should be straightforward for Pipeline authors.
 - Permissions should be customizable for each CI pipeline.
@@ -61,54 +57,12 @@ token.
 
 ## Proposal
 
-~Instead of generating a `CI_JOB_TOKEN` bound to the user who triggered the
-CI pipeline, we will generate a `CI_JOB_TOKEN` bound to a separate entity.
-This entity will be a specific account designated for use by CI jobs. This
-account will have limited permissions defined by the assigned role, which
-must be a [custom role](https://docs.gitlab.com/ee/user/custom_roles.html).~
-
-~This functionality is only available to projects that are licensed to use the
-custom role feature.~
-
 Rather than generating a `CI_JOB_TOKEN` with full access to all resources
 available to the user who triggered the pipeline, we will generate a token with
 a reduced set of permissions that grants access only to the specific resources
 defined in the `.gitlab-ci.yml` file.
 
 ## Design and implementation details
-
-The following stages are outlined below:
-
-1. ~Use a Service Account~
-1. Use Declarative Permissions
-
-### ~Use a Service Account~
-
-The use of a service account has been removed from this proposal.
-See [this thread](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7775#note_2076623221)
-for context.
-
-~We will create a dedicated service account for each project that will be used
-as the user bound to each CI job. This account can only be assigned to a custom
-role to ensure that it is only granted custom permissions.~
-
-~This service account can only be used to generate a `CI_JOB_TOKEN` for the
-project that it is bound to. This account cannot be used to generate a
-`CI_JOB_TOKEN` for any job belonging to any other project.~
-
-~This service account can be granted membership to other projects so that it may
-have read/write access to those projects via the REST API.~
-
-**Pros:**
-
-- ~Does not occupy a licensed seat.~
-
-**Cons:**
-
-- ~Creates a user record for every project.~
-- ~May add complexity to the UI for applying permissions to a service account.~
-
-### Use Declarative Permissions
 
 We will introduce support for defining permissions for each pipeline using a
 declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/)
@@ -126,7 +80,7 @@ be determined through [project membership](https://docs.gitlab.com/ee/user/proje
 The exact syntax for defining these permissions is yet to be determined.
 Below are examples of what the syntax could look like:
 
-**Example 1: Custom Ability Name Encoding**
+**Example 1: Ability Name Encoding**
 
 ```yaml
 permissions:
@@ -141,7 +95,7 @@ permissions:
     - project: gitlab-org/gitlab
 ```
 
-**Example 2: Extended Custom Ability Name Encoding**
+**Example 2: Extended Ability Name Encoding**
 
 ```yaml
 permissions:
