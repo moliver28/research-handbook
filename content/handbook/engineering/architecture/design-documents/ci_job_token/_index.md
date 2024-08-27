@@ -113,12 +113,13 @@ have read/write access to those projects via the REST API.~
 We will introduce support for defining permissions for each pipeline using a
 declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/)
 file to allow the generation of a `CI_JOB_TOKEN` with a reduced set of
-permissions than the full access available to the service account.
+permissions than the full access available to the user that triggerred the
+pipeline.
 
 The `permissions` declared in the `.gitlab-ci.yml` file cannot be used to
 request access. It is used to generate a `CI_JOB_TOKEN` with a subset of the
-full set of permissions available to the service account. The access that is
-granted to the service account will be determined through [project membership](https://docs.gitlab.com/ee/user/project/members/).
+full set of permissions available to the user. The access that is granted will
+be determined through [project membership](https://docs.gitlab.com/ee/user/project/members/).
 
 #### Syntax
 
@@ -180,28 +181,32 @@ permissions:
 #### Usage
 
 The permissions defined in the `.gitlab-ci.yml` file **limit** the access
-available during pipeline execution. The service account linked to the CI job
-must, at a minimum, have these permissions to perform the job. The purpose of
-declaring these permissions is to specify the minimal **required** access.
+available during pipeline execution. The user who triggers the CI job must have,
+at a minimum, these permissions to perform the job. The purpose of declaring
+these permissions is to specify the minimal **required** access.
 
-To ensure the job receives a token with the necessary permissions, the service
+To ensure the job receives a token with the necessary permissions, the user's
 account must be granted these permissions before pipeline execution.
 
-If the service account lacks the permissions specified in the `permissions`
-block of the `.gitlab-ci.yml` file, the pipeline will fail, with an error
-indicating the missing permissions.
+If the user's account lacks the permissions specified in the `permissions` block
+of the `.gitlab-ci.yml` file, the pipeline will fail with an error indicating
+the missing permissions.
 
-When the service account has the declared permissions, they will be encoded
-into an ephemeral job token. This token, following the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
-standard, will contain a digital signature that can be validated. When an API
+When the user has the declared permissions, they will be encoded into an
+ephemeral job token. This token, adhering to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
+standard, will include a digital signature that can be validated. When an API
 receives the `CI_JOB_TOKEN`, it will verify the token's signature and process
 the request according to the permissions defined in the token's `scope` claim.
 
 This mechanism allows a token to be issued with reduced access, even if the
-service account has broader permissions.
+user's account has broader permissions.
 
 If the `permissions` section is not specified in the `.gitlab-ci.yml` file, the
-`CI_JOB_TOKEN` will have full access to the service account's permissions.
+`CI_JOB_TOKEN` will have full access to the user's permissions. This default
+behavior will change in a future major release, where the token will be encoded
+with only the minimum permissions required to complete a build (e.g., updating
+job status, uploading artifacts, sending job logs, and retrieving Git
+repositories).
 
 #### Examples
 
@@ -234,15 +239,6 @@ claim specifies the list of permissions encoded into the token.
 ```
 
 **Example 2: Multi-Project Configuration**
-
-When a pipeline in Project A (`P-A`) needs to access resources in Project B
-(`P-B`), the service account for Project A (`SA-A`) must be granted membership
-in Project B.
-
-| Global ID                | Name            |
-| ------------------------ | --------------- |
-| "gid://gitlab/Project/A" | "acme-org/foo"  |
-| "gid://gitlab/Project/B" | "acme-org/bar"  |
 
 ```yaml
 # .gitlab-ci.yml
