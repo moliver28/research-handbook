@@ -30,7 +30,7 @@ The CSE Team delivers monthly webinars and hands-on labs that are available to a
 
 #### Preparing for and Delivering a Webinar
 
-The upcoming month's webinar dates are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) and the CSE team is asked to sign up as host or Q&A support.  The zoom webinars are created by CS Operations and then the webinar details are added to the webinar calendar.
+The upcoming month's webinar dates are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) and the CSE team is asked to sign up as DRIs.
 
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
@@ -58,9 +58,24 @@ Here is a quick video guide on how to host the webinar, including steps for shar
 
 #### Preparing for and Delivering a Hands-on Lab
 
-The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support.
+The upcoming month's hands-on labs are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) (separate from the webinar schedule) and the CSE team is asked to sign up as DRIs.
 
-The presenter for a lab needs to register the hands-on lab at least one week before the lab date.  Instructions for how to register the lab can be found in [How to Register Hands-on Labs](https://docs.google.com/document/d/1GEmAXlOqxOzHHpFZRbLWIJoX92v-peXQl5bd4daVekQ/edit?usp=sharing).  A registration code will then be created for the lab manually by the Demo Architect Partner assigned to the CSE team on the Admin section of gitlabdemo.com.  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and a subgroup created to use for the hands-on exercises, [provisioned through gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
+##### Lab Environment Request
+
+> As a Lab DRI, you are responsible for submitting a Lab Request for an environment. This should be submitted ideally at least one week before the date of delivery. For assistance/questions please reach out on the `#demo-architect-partners` Slack channel.
+
+1. Navigate and login to the [Demo Architect Portal](https://cloud.gitlabdap.com/).
+1. Select **Customer Workshop/Lab** from the dropdown list.
+1. Fill in the form to the best of your knowledge.
+1. Click `Submit Request`.
+
+This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team. 
+
+A pair of invitation codes, one for production and one for testing will be generated and shared in a comment on the issue. The Demo Architecture team will assign DRIs ownership of the session (Top level group) and verify invitation codes and associated runners are operational.
+
+Lab attendees will redeem the invitation code when joining the lab to secure access and provision their subgroup to use for the hands-on exercises, [accessed through gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
+
+##### Lab Preparation
 
 Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.
 
