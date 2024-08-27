@@ -63,7 +63,7 @@ Support will be provided based on the following business hours in the respective
 |     Region    | Standard Support Hours |
 |:-------------:|------------------------|
 | APAC          | 8:00AM to 5:00PM (IST)   |
-| EMEA          | 8:00AM to 5:00PM (GMT)   |
+| EMEA          | 8:00AM to 5:00PM (CET)   |
 | AMER / LATAM  | 7:00AM to 5:00PM (PT)    |
 
 ##### Support Model - Public Holidays, Friends & Family Days
