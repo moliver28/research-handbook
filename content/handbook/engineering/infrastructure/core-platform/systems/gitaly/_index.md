@@ -118,15 +118,16 @@ Gitaly team is in the process of establishing an oncall rotation to provide focu
 #### Training material
 
 - https://handbook.gitlab.com/handbook/engineering/on-call/#expectations-for-on-call
-- TBD
+- [Debugging Gitaly](debug.md)
+- [Production Training](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Production%20Training) issues
 
 #### Joining the rotation
 
-TBD
+File and complete a [Production Training](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Production%20Training) issue. It includes instructions for joining the rotation.
 
 #### Who is oncall
 
-The source of truth is the PagerDuty rotation. If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
+The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/schedules#POS76YN). If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
 
 #### Roster management
 
