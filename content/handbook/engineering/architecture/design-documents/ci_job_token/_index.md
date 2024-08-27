@@ -39,21 +39,25 @@ job the same level of access as the user.
 ~This proposal aims to decouple the access of the `CI_JOB_TOKEN` from a specific
 user, assigning it instead to an entity with more limited access.~
 
-This proposal aims to minimize the scope of access granted to the `CI_JOB_TOKEN`
-by introducing a mechanism to specify the minimum set of permissions required
-for the token.
+This proposal seeks to limit the scope of access granted to the `CI_JOB_TOKEN`
+by introducing a mechanism to define the minimum necessary permissions for the
+token.
 
 - ~We want to decouple the `CI_JOB_TOKEN` from the user who triggered the pipeline.~
-- We want to reduce the access granted to the `CI_JOB_TOKEN`.
-- We want to provide a way to configure permissions for each CI pipeline.
+- The `CI_JOB_TOKEN` should be ephemeral and grant minimal access.
+- Configuration of permissions should be straightforward for Pipeline authors.
+- Permissions should be customizable for each CI pipeline.
+- The token should support extensions for additional fields, like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856).
+- Existing [permissions](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` should be maintained.
 
 ### Non-Goals
 
-- We will not add [auditing](https://gitlab.com/gitlab-org/gitlab/-/issues/480022) for token usage and generation.
-- We will not create a [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693).
-- We will not focus on reducing the duration of access for a `CI_JOB_TOKEN`.
-- We will not unify [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with existing [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities).
-- We will not unify the [types of tokens](https://docs.gitlab.com/ee/security/token_overview.html) into a single authoritative token.
+- [Auditing](https://gitlab.com/gitlab-org/gitlab/-/issues/480022) for token usage and generation will not be added.
+- A [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693) will not be created.
+- Reducing the duration of `CI_JOB_TOKEN` access is not a focus.
+- Unifying [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities) will not be pursued.
+- [Token types](https://docs.gitlab.com/ee/security/token_overview.html) will not be consolidated into a single token.
+- The [permission set](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` will not be expanded.
 
 ## Proposal
 
@@ -66,9 +70,9 @@ must be a [custom role](https://docs.gitlab.com/ee/user/custom_roles.html).~
 ~This functionality is only available to projects that are licensed to use the
 custom role feature.~
 
-Instead of generating a `CI_JOB_TOKEN` with full access to all resources
+Rather than generating a `CI_JOB_TOKEN` with full access to all resources
 available to the user who triggered the pipeline, we will generate a token with
-a reduced set of permissions that allows access only to the specific resources
+a reduced set of permissions that grants access only to the specific resources
 defined in the `.gitlab-ci.yml` file.
 
 ## Design and implementation details
