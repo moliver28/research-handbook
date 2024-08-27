@@ -593,6 +593,7 @@
 ^[support]
 /content/handbook/support/ @gitlab-com/support
 /content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
+/content/handbook/support/support-idk.md @irisb @jgianoutsos @klang
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [support-required-approvals]
