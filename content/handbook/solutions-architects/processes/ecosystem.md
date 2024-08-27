@@ -28,7 +28,17 @@ The ESA primary contribution is to help the GitLab Global Ecosystem team drive o
 
 Get personal. We don’t “enable partners.”  We develop champions.  Share and enable on simple messages that unlock services and consumption.  Requires focus, achieves scale.
 
-### TODO Working with Strategic Alliance Partners
+### Working with Strategic Alliance Partners
+
+The Ecosystem SA is an influential technical representative from GitLab to our strategic an technical alliance partners. This role involves pre-sales and driving partner solutions and joint GTM initiatives.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product Management, and driving integration intitiatives with our Product Marketing and Engineering counterparts. 
+
+In terms of key responsibilities, the Ecosystem SA is responsible for supporting these Strategic Alliance Partnerships through the following activities:
+
+- Partner Go To Market (GTM): Proactively identifies market demand prior to solutioning. Engages business leaders with proposal development and estimate preparation to validate business alignment to solution development.  Works across technical and services partners to identify and develop joint solutinos, enablement and messaging, both internal and external.  
+- Subject Matter Expertise: Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and “hands on the keyboard” depth. 
+- Internal and External Evangelism: Communicates, grows and evolves awareness of applicable Partner technology, services, success stories, market trends and best practices.
+- GitLab Strategy: Generates ideas for and participates in Ecosystem group strategy formulation for both business and technical considerations.
+- Content Curation: Sources and curates content with Partner Enablement team that is easy to find and use, and helps meet the goals of GitLab and its partners.
 
 ### TODO Working with Services Partners
 
