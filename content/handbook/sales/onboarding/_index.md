@@ -170,3 +170,9 @@ By comparing the learners' pre-training and post-training confidence levels, we 
 **Level 4: Results** - Finally, we evaluate the overall long term business impact of the sales onboarding program on the company's sales performance. This includes tracking key performance indicators such as time to ramp and sales cycle length for each market segment.
 
 By using the Kirkpatrick model to evaluate the sales onboarding program at each of these four levels, we gain a holistic view of the program's effectiveness and make data-driven decisions to improve it.
+
+### Sales Quick Start Onboarding Workshop & e-learning Feedback 
+
+Your feedback on the onboarding process and content is important to us and we welcome your thoughts and ideas about how we can improve in the future. 
+
+Please share your feedback by opening an issue using the following [SQS Feedback issue template.](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new)
