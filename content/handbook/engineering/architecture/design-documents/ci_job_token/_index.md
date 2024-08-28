@@ -324,15 +324,15 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Update a release link](https://docs.gitlab.com/ee/api/releases/links.html#update-a-release-link) | `:update_release`  |
 | [Delete a release link](https://docs.gitlab.com/ee/api/releases/links.html#delete-a-release-link) | `:destroy_release` |
 
-##### [Secure Files](https://docs.gitlab.com/ee/ci/secure_files/index.html#use-secure-files-in-cicd-jobs)
+##### Secure Files
 
-| Permission(s)         | Route                                                     |
-| -------------         | -----                                                     |
-| `:admin_secure_files` | DELETE `/projects/:id/secure_files/:secure_file_id`       |
-| `:admin_secure_files` | POST `/projects/:id/secure_files`                         |
-| `:read_secure_files`  | GET `/projects/:id/secure_files/:secure_file_id/download` |
-| `:read_secure_files`  | GET `/projects/:id/secure_files/:secure_file_id`          |
-| `:read_secure_files`  | GET `/projects/:id/secure_files`                          |
+| Action                                                                                                  | Permission(s)                               |
+| --------                                                                                                | -------------                               |
+| [List project secure files](https://docs.gitlab.com/ee/api/secure_files.html#list-project-secure-files) | `:read_secure_files OR :admin_secure_files` |
+| [Show secure file details](https://docs.gitlab.com/ee/api/secure_files.html#show-secure-file-details)   | `:read_secure_files OR :admin_secure_files` |
+| [Create secure file](https://docs.gitlab.com/ee/api/secure_files.html#create-secure-file)               | `:admin_secure_files`                       |
+| [Download secure file](https://docs.gitlab.com/ee/api/secure_files.html#download-secure-file)           | `:read_secure_files OR :admin_secure_files` |
+| [Remove a secure file](https://docs.gitlab.com/ee/api/secure_files.html#remove-secure-file)             | `:admin_secure_files`                       |
 
 ##### [Terraform](https://docs.gitlab.com/ee/user/infrastructure/index.html)
 
