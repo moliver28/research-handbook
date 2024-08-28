@@ -25,7 +25,7 @@ Are you looking for security certifications/attestations for GitLab Dedicated? P
 
 ### Current
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html): Security, Confidentiality and Availability Criteria
+- [SOC 2 Type 2 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2): Security, Confidentiality and Availability Criteria
   - The SOC 2 Type 2 report is available for customers and potential customers upon request. The report is scoped to GitLab.com. There are elements of the report that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab.com as a SaaS product and speak to the mature state of GitLab's information security program.
 - [SOC 3 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-3): Security, Confidentiality and Availability Criteria
   - The SOC 3 report is available for general use by both customers and potential customers upon request. Please see SOC 2 Type 2 Report above for scope.
