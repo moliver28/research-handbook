@@ -110,6 +110,107 @@ permissions:
       projects: "acme/*"            # download packages from any projects in the group
 ```
 
+#### Permissions
+
+| Ability                                | HTTP Method | Path                                                                                        |
+| -------                                | ----------- | ----                                                                                        |
+| admin_container_image                  | DELETE      | `projects/:id/registry/repositories/:repository_id/tags`                                    |
+| admin_container_image                  | DELETE      | `projects/:id/registry/repositories/:repository_id`                                         |
+| admin_secure_files                     | DELETE      | `projects/:id/secure_files/:secure_file_id`                                                 |
+| admin_secure_files                     | POST        | `projects/:id/secure_files`                                                                 |
+| admin_terraform_state                  | DELETE      | `/projects/:id/terraform/state/:name/versions/:serial`                                      |
+| admin_terraform_state                  | DELETE      | `projects/:id/terraform/state/:name/lock`                                                   |
+| admin_terraform_state                  | DELETE      | `projects/:id/terraform/state/:name`                                                        |
+| admin_terraform_state                  | POST        | `projects/:id/terraform/state/:name/lock`                                                   |
+| admin_terraform_state                  | POST        | `projects/:id/terraform/state/:name`                                                        |
+| create_deployment + create_environment | POST        | `projects/:id/deployments`                                                                  |
+| create_environment                     | POST        | `projects/:id/environments`                                                                 |
+| create_on_demand_dast_scan             | POST        | `/internal/dast/site_validations/:id/transition`                                            |
+| create_package                         | POST        | `groups/:id/-/packages/npm/*package_name/dist-tags`                                         |
+| create_package                         | POST        | `projects/:id/-/packages/npm/*package_name/dist-tags`                                       |
+| create_package                         | POST        | `projects/:id/packages/composer`                                                            |
+| create_package                         | PUT         | `groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                    |
+| create_package                         | PUT         | `projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                                  |
+| create_release                         | POST        | `/projects/:id/releases/:tag_name/assets/links`                                             |
+| destroy_container_image                | DELETE      | `:id/registry/repositories/:repository_id/tags/:tag_name`                                   |
+| destroy_deployment                     | DELETE      | `projects/:id/deployments/:deployment_id`                                                   |
+| destroy_package                        | DELETE      | `groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                    |
+| destroy_package                        | DELETE      | `projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                                  |
+| destroy_package                        | DELETE      | `projects/:id/packages/:package_id/package_files/:package_file_id`                          |
+| destroy_package                        | DELETE      | `projects/:id/packages/:package_id`                                                         |
+| destroy_release                        | DELETE      | `/projects/:id/releases/:tag_name/assets/links/:link_i`                                     |
+| read_build + read_job_artifacts        | GET         | `projects/:id/jobs/:job_id/artifacts/*artifact_path`                                        |
+| read_build + read_job_artifacts        | GET         | `projects/:id/jobs/:job_id/artifacts`                                                       |
+| read_build + read_job_artifacts        | GET         | `projects/:id/jobs/artifacts/:ref_name/download`                                            |
+| read_build + read_job_artifacts        | GET         | `projects/:id/jobs/artifacts/:ref_name/raw/*artifact_path`                                  |
+| read_build                             | GET         | `job/allowed_agents`                                                                        |
+| read_build                             | GET         | `job`                                                                                       |
+| read_build                             | GET         | `jobs/:id/artifacts`                                                                        |
+| read_container_image                   | GET         | `projects/:id/registry/repositories/:repository_id/tags/:tag_name`                          |
+| read_container_image                   | GET         | `projects/:id/registry/repositories/:repository_id/tags`                                    |
+| read_container_image                   | GET         | `projects/:id/registry/repositories`                                                        |
+| read_deployment + update_deployment    | PUT         | `projects/:id/deployments/:deployment_id`                                                   |
+| read_deployment                        | GET         | `projects/:id/deployments/:deployment_id`                                                   |
+| read_deployment                        | GET         | `projects/:id/deployments`                                                                  |
+| read_environment + destroy_environment | DELETE      | `projects/:id/environments/:environment_id`                                                 |
+| read_environment + destroy_environment | DELETE      | `projects/:id/environments/review_apps`                                                     |
+| read_environment + stop_environment    | POST        | `projects/:id/environments/:environment_id/stop`                                            |
+| read_environment + stop_environment    | POST        | `projects/:id/environments/stop_stale`                                                      |
+| read_environment                       | GET         | `projects/:id/environments/:environment_id`                                                 |
+| read_environment                       | GET         | `projects/:id/environments`                                                                 |
+| read_group + read_package              | GET         | `groups/:id/-/packages/maven/*path/:file_name`                                              |
+| read_group + read_package              | GET         | `groups/:id/-/packages/maven/*path/:file_name`                                              |
+| read_group + read_package              | GET         | `groups/:id/-/packages/pypi/files/:sha256/*file_identifier`                                 |
+| read_group + read_package              | GET         | `groups/:id/-/packages/pypi/simple/*package_name`                                           |
+| read_group + read_package              | GET         | `groups/:id/-/packages/pypi/simple`                                                         |
+| read_group                             | GET         | `group/:id/-/packages/composer/:package_name`                                               |
+| read_group                             | GET         | `group/:id/-/packages/composer/p/:sha`                                                      |
+| read_group                             | GET         | `group/:id/-/packages/composer/p2/:package_name`                                            |
+| read_group                             | GET         | `group/:id/-/packages/composer/package`                                                     |
+| read_package + read_pipeline           | GET         | `projects/:id/packages/:package_id/pipelines`                                               |
+| read_package                           | GET         | `groups/:id/-/packages/npm/*package_name/dist-tags`                                         |
+| read_package                           | GET         | `groups/:id/-/packages/npm/*package_name`                                                   |
+| read_package                           | GET         | `packages/maven/*path/:file_name`                                                           |
+| read_package                           | GET         | `packages/maven/*path/:file_name`                                                           |
+| read_package                           | GET         | `projects/:id/packages/:package_id/package_files`                                           |
+| read_package                           | GET         | `projects/:id/packages/:package_id`                                                         |
+| read_package                           | GET         | `projects/:id/packages/go/*module_name/@v/:module_version.info`                             |
+| read_package                           | GET         | `projects/:id/packages/go/*module_name/@v/:module_version.mod`                              |
+| read_package                           | GET         | `projects/:id/packages/go/*module_name/@v/:module_version.zip`                              |
+| read_package                           | GET         | `projects/:id/packages/go/*module_name/@v/list`                                             |
+| read_package                           | GET         | `projects/:id/packages/npm/*package_name/-/*file_name`                                      |
+| read_package                           | GET         | `projects/:id/packages/npm/*package_name`                                                   |
+| read_package                           | GET         | `projects/:id/packages/npm/-/package/*package_name/dist-tags`                               |
+| read_package                           | GET         | `projects/:id/packages`                                                                     |
+| read_package                           | POST        | `groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                               |
+| read_package                           | POST        | `groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                  |
+| read_package                           | POST        | `projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                             |
+| read_package                           | POST        | `projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                |
+| read_project + create_package          | POST        | `projects/:id/-/packages/pypi/authorize`                                                    |
+| read_project + create_package          | POST        | `projects/:id/-/packages/pypi`                                                              |
+| read_project + create_package          | PUT         | `projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize` |
+| read_project + create_package          | PUT         | `projects/:id/packages/maven/*path/:file_name/authorize`                                    |
+| read_project + create_package          | PUT         | `projects/:id/packages/maven/*path/:file_name/authorize`                                    |
+| read_project + create_package          | PUT         | `projects/:id/packages/maven/*path/:file_name`                                              |
+| read_project + read_package            | GET         | `projects/:id/-/packages/pypi/files/:sha256/*file_identifier`                               |
+| read_project + read_package            | GET         | `projects/:id/-/packages/pypi/simple/*package_name`                                         |
+| read_project + read_package            | GET         | `projects/:id/-/packages/pypi/simple`                                                       |
+| read_project + read_package            | GET         | `projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
+| read_project + read_package            | GET         | `projects/:id/packages/maven/*path/:file_name`                                              |
+| read_project + read_package            | GET         | `projects/:id/packages/maven/*path/:file_name`                                              |
+| read_project                           | PUT         | `projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
+| read_project                           | PUT         | `projects/:id/packages/maven/*path/:file_name`                                              |
+| read_release                           | GET         | `projects/:id/releases/:tag_name/assets/links/:link_id`                                     |
+| read_release                           | GET         | `projects/:id/releases/:tag_name/assets/links`                                              |
+| read_secure_files                      | GET         | `projects/:id/secure_files/:secure_file_id/download`                                        |
+| read_secure_files                      | GET         | `projects/:id/secure_files/:secure_file_id`                                                 |
+| read_secure_files                      | GET         | `projects/:id/secure_files`                                                                 |
+| read_terrafor_state                    | GET         | `projects/:id/terraform/state/:name/versions/:serial`                                       |
+| read_terraform_state                   | GET         | `projects/:id/terraform/state/:name`                                                        |
+| update_environment                     | PUT         | `projects/:id/environments/:environment_id`                                                 |
+| update_pipeline                        | PUT         | `projects/:id/pipelines/:pipeline_id/metadata`                                              |
+| update_release                         | PUT         | `/projects/:id/releases/:tag_name/assets/links/:link_id`                                    |
+
 #### Usage
 
 The permissions defined in the `.gitlab-ci.yml` file **limit** the access
