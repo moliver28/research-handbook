@@ -121,7 +121,7 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2024-10-15 | Thursday 2024-10-17 | |
+| Tuesday 2024-10-15 | Thursday 2024-10-17 |Milidou Afroditi |
 | Tuesday 2024-10-29 | Thursday 2024-10-31 | |
 | Tuesday 2024-11-05 | Thursday 2024-11-07 | |
 | Tuesday 2024-11-12 | Thursday 2024-11-14 | |
