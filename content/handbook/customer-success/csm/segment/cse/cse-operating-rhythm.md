@@ -196,3 +196,36 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
 1. After the call is complete, set expectations for follow up email in the upcoming 2-3 days.
 1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer's timeline in Gainsight.
 1. Review call and/or sync with AE if applicable and produce follow up email for customer.
+
+##### Follow up
+
+CSE should follow up with the customer within 2-3 business days after the engagement. This follow-up should include:
+
+1. A summary of the key points discussed during the meeting
+2. Any action items or next steps agreed upon
+3. Relevant resources or documentation that may be helpful for the customer
+4. An invitation for the customer to reach out with any additional questions or concerns
+
+The CSE should also update the CTA in Gainsight with the outcome of the engagement and any important notes for future reference. If there are any outstanding items that require further attention, the CSE should create appropriate follow-up tasks or escalate to the relevant teams as needed.
+
+It's important to maintain clear communication with the account/opportunity owner (AE/RM) throughout this process, keeping them informed of the engagement's progress and any significant outcomes or concerns.
+
+##### Additional questions from the customer after the follow up mail
+
+If a customer has additional questions after receiving the follow-up email, the CSE should:
+
+1. Respond promptly to the customer's inquiries, ideally within 1 business day.
+2. Provide clear and concise answers to their questions, including any relevant documentation or resources.
+3. If the questions require more in-depth discussion or demonstration, offer to schedule a brief follow-up call.
+4. Update the CTA in Gainsight with the new information and any additional actions taken.
+5. Keep the account/opportunity owner (AE/RM) informed of any significant developments or concerns raised by the customer.
+6. If the customer's questions reveal a need for ongoing support or engagement, discuss with the account owner about the possibility of extending the CSE engagement or involving other GitLab teams as appropriate.
+7. Ensure all interactions and outcomes are properly documented in Gainsight for future reference and to maintain a comprehensive record of the customer engagement.
+
+**Important Notes**:
+
+* If the topic the customer wants to address is a new topic, a new request shall be opened to clearly distinguish the different topics/requests. We also consider anything that comes up after more than 4 weeks a new request.
+* Rule of thumb: We don't want to exceed more than 3 follow ups about the same topic. 
+* Please do not reopen requests from the previous quarter, even if it's related to the previous topic, it may result in uninteded consequences in regards to our metrics.
+
+If the customer comes back with additional questions to the AE or RM, please feel free to redirect them to the CSE who had the call previously with the customer.
