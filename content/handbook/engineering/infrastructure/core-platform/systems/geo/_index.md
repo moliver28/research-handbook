@@ -47,7 +47,7 @@ High Availability (HA) is also a step towards Disaster Recovery. At the moment G
 
 ## How to ask for support from Geo
 
-The first line of support will always be the support engineer assigned to the issue raised by the customer. However at times more expertise is required to resolve the customer concern and a Geo engineer needs to be involved.
+The first line of support will always be the support engineer assigned to the issue raised by the customer. However, at times more expertise is required to resolve the customer concern and a Geo engineer needs to be involved.
 This section outlines the process and expectations when requesting support from the team for Geo-related customer support issues.
 
 ### Before requesting support
@@ -56,7 +56,7 @@ Before submitting a request for support, please review Geo's [documentation](htt
 
 ### Asking a general question
 
-If you have a general question for which you can't find your answer, then feel free to ask your question in the #g_geo channel on Slack. Please keep in mind that engineers will do their best to support you and answer your question from the top of their heads. If they need to do more research and/or address more complicated scenarios, you will need to create a support issue (see next section).
+If you have a general question for which you can't find your answer, then feel free to ask your question in the [#g_geo](https://gitlab.slack.com/archives/C32LCGC1H) channel on Slack. Please keep in mind that engineers will do their best to support you and answer your question from the top of their heads. If they need to do more research and/or address more complicated scenarios, you will need to create a support issue (see next section).
 
 ### Create a support request issue
 
