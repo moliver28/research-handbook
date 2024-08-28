@@ -1,10 +1,9 @@
 ---
 title: Solutions Architects - Subject Matter Experts
+
+description: The Subject Matter Experts (SME) Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts in key areas, such as AI, security, and agile planning. SMEs are Solutions Architects who will help SAs in their region to answer more-in-depths questions, provide deep technical expertise, and assist with customer demos and presentations when needed.
+
 ---
-
-The Subject Matter Experts (SME) Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts in key areas, such as AI, security, and agile planning.
-
-SMEs are Solutions Architects who will help SAs in their region to answer more-in-depths questions, provide deep technical expertise, and assist with customer demos and presentations when needed.
 
 ## Goals
 
@@ -13,6 +12,17 @@ The goals of the SME Program are:
 - Provide fellow SAs with the knowledge and expertise they need to support customers effectively.
 - Improve the quality of customer support by reducing the number of questions that SAs have to answer.
 - Increase customer satisfaction by providing them with access to experts who can answer their questions quickly and accurately.
+
+In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
+
+1. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selectiom)  
+2. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request.md)  
+3. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral.md)  
+4. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral.md])  
+5. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm.md) and 
+6. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences.md])
+
+\*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
 ## Areas of Expertise
 
@@ -27,9 +37,17 @@ Other areas may be added in the future, depending on customer and SA demand, suc
 
 - GitOps
 - MLOps
-- Infrastructure
+- CICD
+- Embedded Systems
 
 ## Responsibilities
+
+In summary, the responsibilities of a SME includes
+
+- Provide technical guidance and expertise   
+- maintain collateral for each SME Area, Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).  
+- gather feedback from customers  
+- engage with product management.
 
 SMEs will be responsible for the following:
 
@@ -58,18 +76,9 @@ SMEs will be responsible for the following:
   - Communicating with PMs and updating the field via a shared medium of communication
   - Contributing to product documentation
 
-SME DRIs will be responsible for their area of expertise and leading their SME teams.
+Full SME Responsibilities for other roles including SME Associates, SME Area Lead/ DRI and SME Program Lead are detailed [here](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-responsibilities).
 
-## Nomination Process
-
-The nomination and selection process for SMEs will be as follows:
-
-1. Open call for applications: SAs interested in becoming SMEs can apply by submitting their areas of expertise and relevant experience. Product Management team is also invited to recommend a nominee.
-1. Review of applications: A panel consisting of senior SAs and leadership will review the applications.
-1. Selection: The panel will select SMEs based on their areas of expertise and relevant experience.
-1. Onboarding: Selected SMEs will undergo a brief onboarding process to familiarize with their new responsibilities and expectations.
-
-## Time Commitment
+## Time Commitment {#time-commitment}
 
 SMEs are expected to dedicate approximately 10-15% of their time to SME-related activities. This includes:
 
