@@ -37,10 +37,8 @@ twitter_creator: "@gitlab"
 - Rode NT USB - [Example](https://www.bhphotovideo.com/c/product/1540109-REG/rode_nt_usb_mini_usb_microphone.html)
 - Optional Boom Arm - [Example](https://www.bhphotovideo.com/c/product/484972-REG/Rode_PSA1_PSA_1_Studio_Boom_Arm.html)
 
-### Lighting Options (Choose One)
+### Lighting Option
 
-- LED Panel with Desk Clamp - [Example](https://favpackage.com/products/dazzne-desk-mount-led-video-light-d50-1pack-with-remote-and-c-clamp).
-**OR**
 - Elgato Key Light - [Example](https://www.amazon.com/Elgato-Key-Light-Professional-App-Enabled/dp/B07L755X9G)
 
 ## Advanced Desk Packages
