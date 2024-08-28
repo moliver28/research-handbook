@@ -214,7 +214,7 @@ The following list of permissions was compiled from [this investigation](https:/
 
 ##### Containers
 
-| Endpoint                                                                                                                                    | Permission(s)                                        |
+| Action                                                                                                                                      | Permission(s)                                        |
 | --------                                                                                                                                    | -------------                                        |
 | [Delete a registry repository tag](https://docs.gitlab.com/ee/api/container_registry.html#delete-a-registry-repository-tag)                 | `:admin_container_image OR :destroy_container_image` |
 | [Delete a registry repository tags in bulk](https://docs.gitlab.com/ee/api/container_registry.html#delete-registry-repository-tags-in-bulk) | `:admin_container_image OR :destroy_container_image` |
@@ -225,7 +225,7 @@ The following list of permissions was compiled from [this investigation](https:/
 
 ##### Deployments
 
-| Endpoint                                                                                                     | Permission(s)                                |
+| Action                                                                                                       | Permission(s)                                |
 | --------                                                                                                     | -------------                                |
 | [List project deployments](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments)         | `:read_deployment`                           |
 | [Get a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment)       | `:read_deployment`                           |
@@ -235,7 +235,7 @@ The following list of permissions was compiled from [this investigation](https:/
 
 ##### Environments
 
-| Endpoint                                                                                                                    | Permission(s)                                |
+| Action                                                                                                                      | Permission(s)                                |
 | --------                                                                                                                    | -------------                                |
 | [List environments](https://docs.gitlab.com/ee/api/environments.html#list-environments)                                     | `:read_environment`                          |
 | [Get a specific environment](https://docs.gitlab.com/ee/api/environments.html#get-a-specific-environment)                   | `:read_environment`                          |
@@ -246,24 +246,17 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Stop an environment](https://docs.gitlab.com/ee/api/environments.html#stop-an-environment)                                 | `:read_environment AND :stop_environment`    |
 | [Stop stale environments](https://docs.gitlab.com/ee/api/environments.html#stop-stale-environments)                         | `:read_environment AND :stop_environment`    |
 
+##### Jobs
 
-##### [Job Artifacts](https://docs.gitlab.com/ee/api/job_artifacts.html#get-job-artifacts)
-
-| Permission(s)                       | Route                                                           |
-| -------------                       | -----                                                           |
-| `:read_build + :read_job_artifacts` | GET `/projects/:id/jobs/:job_id/artifacts/*artifact_path`       |
-| `:read_build + :read_job_artifacts` | GET `/projects/:id/jobs/:job_id/artifacts`                      |
-| `:read_build + :read_job_artifacts` | GET `/projects/:id/jobs/artifacts/:ref_name/download`           |
-| `:read_build + :read_job_artifacts` | GET `/projects/:id/jobs/artifacts/:ref_name/raw/*artifact_path` |
-
-##### [Jobs](https://docs.gitlab.com/ee/api/jobs.html#get-job-tokens-job)
-
-| Permission(s)      | Route                                               |
-| -------------      | -----                                               |
-| `:read_build`      | GET `/job/allowed_agents`                           |
-| `:read_build`      | GET `/job`                                          |
-| `:read_build`      | GET `/jobs/:id/artifacts`                           |
-| `:update_pipeline` | PUT `/projects/:id/pipelines/:pipeline_id/metadata` |
+| Action                                                                                                                                                                         | Permission(s)                         |
+| --------                                                                                                                                                                       | -------------                         |
+| [Get job token's job](https://docs.gitlab.com/ee/api/jobs.html#get-job-tokens-job) | `:read_build` |
+| [Get GitLab agent by `CI_JOB_TOKEN`](https://docs.gitlab.com/ee/api/jobs.html#get-gitlab-agent-by-ci_job_token) | `:read_build` |
+| [Update pipeline metadata](https://docs.gitlab.com/ee/api/pipelines.html#update-pipeline-metadata) | `:update_pipeline` |
+| [Get job artifacts](https://docs.gitlab.com/ee/api/job_artifacts.html#get-job-artifacts)                                                                                       | `:read_build AND :read_job_artifacts` |
+| [Download the artifacts archive](https://docs.gitlab.com/ee/api/job_artifacts.html#download-the-artifacts-archive)                                                             | `:read_build AND :read_job_artifacts` |
+| [Download a single artifact file by job ID](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-by-job-id)                                       | `:read_build AND :read_job_artifacts` |
+| [Download a single artifact file from a specific tag or branch](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-from-specific-tag-or-branch) | `:read_build AND :read_job_artifacts` |
 
 ##### [Packages](https://docs.gitlab.com/ee/api/packages.html)
 
