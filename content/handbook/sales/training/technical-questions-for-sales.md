@@ -209,13 +209,6 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
 
 - **Learn more**: Review the [best practices documentation for using and administering GitLab Runner](https://docs.gitlab.com/runner/fleet_scaling/)
 
-### Package
-
-#### For what purpose or use case may the package repositories in GitLab be used? Will they replace Nexus or Artifactory?
-
-- **Short answer**: Coming soon
-- **Context video**: Coming soon
-
 ### Secure
 
 #### What are the GitLab security capabilities?
