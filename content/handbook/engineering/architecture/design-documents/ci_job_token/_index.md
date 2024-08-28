@@ -334,17 +334,17 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Download secure file](https://docs.gitlab.com/ee/api/secure_files.html#download-secure-file)           | `:read_secure_files OR :admin_secure_files` |
 | [Remove a secure file](https://docs.gitlab.com/ee/api/secure_files.html#remove-secure-file)             | `:admin_secure_files`                       |
 
-##### [Terraform](https://docs.gitlab.com/ee/user/infrastructure/index.html)
+##### Terraform
 
-| Permission(s)            | Route                                                         |
-| -------------            | -----                                                         |
-| `:admin_terraform_state` | DELETE `/projects/:id/terraform/state/:name/lock`             |
-| `:admin_terraform_state` | DELETE `/projects/:id/terraform/state/:name/versions/:serial` |
-| `:admin_terraform_state` | DELETE `/projects/:id/terraform/state/:name`                  |
-| `:admin_terraform_state` | POST `/projects/:id/terraform/state/:name/lock`               |
-| `:admin_terraform_state` | POST `/projects/:id/terraform/state/:name`                    |
-| `:read_terraform_state`  | GET `/projects/:id/terraform/state/:name/versions/:serial`    |
-| `:read_terraform_state`  | GET `/projects/:id/terraform/state/:name`                     |
+| Action                                                                                                                                                            | Permission(s)            |
+| --------                                                                                                                                                          | -------------            |
+| [Retrieve individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions) | `:read_terraform_state`  |
+| [Remove individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions)   | `:admin_terraform_state` |
+| [Remove a state file](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#remove-a-state-file-by-using-the-api)                               | `:admin_terraform_state` |
+| Retrieve a state file                                                                                                                                             | `:read_terraform_state`  |
+| Create a state file                                                                                                                                               | `:admin_terraform_state` |
+| Create a lock file                                                                                                                                                | `:admin_terraform_state` |
+| Delete a lock file                                                                                                                                                | `:admin_terraform_state` |
 
 ##### Miscellaneous
 
