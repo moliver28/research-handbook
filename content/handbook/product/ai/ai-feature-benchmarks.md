@@ -111,14 +111,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 ### 8. Usability
 
-**Definition**
-How easy the AI-powered feature is to learn and use.
-
-**Benchmark**
-Usability eval led by a member of UX. [See AI usability metric for details](../../product/ux/ux-research/research-in-the-ai-space/AI_usability_metric_chart.png).
-
-**Measurement**
-Scoring depends on feature maturity. 
+See [AI usability metric](../../product/ux/ux-research/research-in-the-ai-space/#ai-usability-metric) for details.
 
 ## Evaluation Stages
 
