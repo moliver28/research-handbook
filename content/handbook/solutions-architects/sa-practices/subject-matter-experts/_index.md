@@ -128,7 +128,7 @@ SMEs will be responsible for the following tasks:
 | APJ | | Tomasz Skora | | |
 | EMEA North Europe | Kristoff Goossens | Dominique Top | Gabriela Dobrescu | Martin McVay |
 | EMEA South Europe | | Paul Dumaitre, Olivier Dupre | | |
-| EMEA DACH/META | Alexander Dess | Mirko Brandner | | Falko Sieverding|
+| EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gätjens | Ted Gieschen | Falko Sieverding|
 | US East | Sam Morris | Bernard Park | Dan Rabinovitz | Adam Zwickey |
 | US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | |
 | High Velocity AMER | | Jefferson Jones | Sophia Manicor | |
