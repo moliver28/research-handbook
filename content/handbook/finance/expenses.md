@@ -371,6 +371,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
 - Any items outside this will fall under an exception to the policy and will be subjected to review.
 - In addition the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills and tablets.
+- You can purchase items from Private sellers (e.g. either new or used equipment). To expense them, attach the screenshot of your transaction with the seller showing the amount agreed upon, payment method, and item details in the description field. If paid via online transfer, attach the receipt for back up.
 - If you have any doubts please connect with the Expense Team on expenses@gitlab.com. Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
 
 ##### New Hires- 1,500 USD (or equivalent local currency) Guidelines
