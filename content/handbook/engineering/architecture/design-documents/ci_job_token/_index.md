@@ -223,8 +223,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [List registry repositories](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                          | `:admin_container_image OR :read_container_image`    |
 | [List registry repository tags](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                       | `:admin_container_image OR :read_container_image`    |
 
-
-##### [Deployments](https://docs.gitlab.com/ee/api/deployments.html)
+##### Deployments
 
 | Endpoint                                                                                                     | Permission(s)                                |
 | --------                                                                                                     | -------------                                |
@@ -234,18 +233,19 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Update a deployment](https://docs.gitlab.com/ee/api/deployments.html#update-a-deployment)                   | `:read_deployment AND :update_deployment`    |
 | [Delete a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#delete-a-specific-deployment) | `:destroy_deployment`                        |
 
-##### [Environments](https://docs.gitlab.com/ee/api/environments.html)
+##### Environments
 
-| Permission(s)                              | Route                                                  |
-| -------------                              | -----                                                  |
-| `:create_environment`                      | POST `/projects/:id/environments`                      |
-| `:read_environment + :destroy_environment` | DELETE `/projects/:id/environments/:environment_id`    |
-| `:read_environment + :destroy_environment` | DELETE `/projects/:id/environments/review_apps`        |
-| `:read_environment + :stop_environment`    | POST `/projects/:id/environments/:environment_id/stop` |
-| `:read_environment + :stop_environment`    | POST `/projects/:id/environments/stop_stale`           |
-| `:read_environment`                        | GET `/projects/:id/environments/:environment_id`       |
-| `:read_environment`                        | GET `/projects/:id/environments`                       |
-| `:update_environment`                      | PUT `/projects/:id/environments/:environment_id`       |
+| Endpoint                                                                                                                    | Permission(s)                                |
+| --------                                                                                                                    | -------------                                |
+| [List environments](https://docs.gitlab.com/ee/api/environments.html#list-environments)                                     | `:read_environment`                          |
+| [Get a specific environment](https://docs.gitlab.com/ee/api/environments.html#get-a-specific-environment)                   | `:read_environment`                          |
+| [Create a new environment](https://docs.gitlab.com/ee/api/environments.html#create-a-new-environment)                       | `:create_environment`                        |
+| [Update an existing environment](https://docs.gitlab.com/ee/api/environments.html#update-an-existing-environment)           | `:update_environment`                        |
+| [Delete an environment](https://docs.gitlab.com/ee/api/environments.html#delete-an-environment)                             | `:read_environment AND :destroy_environment` |
+| [Delete multiple stopped review apps](https://docs.gitlab.com/ee/api/environments.html#delete-multiple-stopped-review-apps) | `:read_environment AND :destroy_environment` |
+| [Stop an environment](https://docs.gitlab.com/ee/api/environments.html#stop-an-environment)                                 | `:read_environment AND :stop_environment`    |
+| [Stop stale environments](https://docs.gitlab.com/ee/api/environments.html#stop-stale-environments)                         | `:read_environment AND :stop_environment`    |
+
 
 ##### [Job Artifacts](https://docs.gitlab.com/ee/api/job_artifacts.html#get-job-artifacts)
 
