@@ -15,14 +15,14 @@ The goals of the SME Program are:
 - Improve the quality of customer support by reducing the number of questions that SAs have to answer.  
 - Increase customer satisfaction by providing them with access to experts who can answer their questions quickly and accurately.
 
-In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
+In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
 
-1. [SME Nomination and Onboarding \- How to Become a SME](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
-2. [How to Request a SME on an opportunity to provide technical guidance and expertise](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request.md)  
-3. [Maintaining Collateral for each SME Area\*](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral.md)  
-4. [Gather Feedback from Customers](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral.md])  
-5. [Engage with Product Management](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm.md) and  
-6. [Regular SME Cadences](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences.md])
+1. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
+2. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
+3. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
+4. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
+5. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/) and  
+6. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
 
 \*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
@@ -57,28 +57,28 @@ SMEs will be responsible for the following:
   - Opportunity consultations  
   - Demo or presentation reviews  
   - Customer calls  
-  - [Technical Close Plans](http:///handbook/solutions-architects/sa-practices/technical-close-plan/) reviews  
-  - [Customer Success Plans](http:///handbook/solutions-architects/sa-practices/customer-success-plan/) reviews  
+  - [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) reviews  
+  - [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) reviews  
   - Office hours  
   - Enablement sessions  
-  - [Deliberate practice](http:///handbook/solutions-architects/sa-practices/deliberate-practice/)  
+  - [Deliberate practice](/handbook/solutions-architects/sa-practices/deliberate-practice/)  
 - **Collateral** in the Handbook or Highspot to be used indepenently by account teams, including:  
   - Creating a list of discovery questions to be used during discovery process by SAs  
   - Creating frequently asked questions by customers per category  
   - List of SMEs  
   - Recorded enablement sessions  
   - FAQs  
-  - Golden [demos](http:///handbook/solutions-architects/demonstrations/)  
-  - [Hands-on workshops](http:///handbook/solutions-architects/tools-and-resources/workshop/)  
+  - Golden [demos](/handbook/solutions-architects/demonstrations/)  
+  - [Hands-on workshops](/handbook/solutions-architects/tools-and-resources/workshop/)  
   - Technical evaluation guidelines  
-  - [POV](http:///handbook/solutions-architects/tools-and-resources/pov/) templates  
+  - [POV](/handbook/solutions-architects/tools-and-resources/pov/) templates  
   - Common notional architecture diagrams  
   - Competitive intelligence  
 - **Gathering Feedback** from the field to share with product and account teams, such as:  
   - Communicating with PMs and updating the field via a shared medium of communication  
   - Contributing to product documentation
 
-Full SME Responsibilities for other roles including SME Associates, SME Area Lead/ DRI and SME Program Lead are detailed [here](http:///handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/\#sme-responsibilities).
+Full SME Responsibilities for other roles including SME Associates, SME Area Lead/ DRI and SME Program Lead are detailed [here](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-responsibilities).
 
 ## Time Commitment
 
@@ -106,13 +106,13 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 
 SMEs will be responsible for the following tasks:
 
-- Answering questions from SAs about their area of expertise. The preferred channel is our [StackOverFlow for Teams](http:///handbook/solutions-architects/tools-and-resources/\#stack-overflow-for-teams).  
+- Answering questions from SAs about their area of expertise. The preferred channel is our [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/\#stack-overflow-for-teams).  
 - Providing technical expertise to SAs during customer demos and presentations.  
 - Developing and delivering training materials on their area of expertise.  
 - Staying up-to-date on the latest trends in their area of expertise.  
 - Participating in field enablement activities.  
-- Form [communities of practices](http:///handbook/solutions-architects/sa-practices/communities-of-practice/) among the SMEs for the same topic and with fellow SAs to foster the knowledge in the team.  
-- Stable counter part in the coresponding [product group](http:///handbook/product/categories/\#devops-stages)
+- Form [communities of practices](/handbook/solutions-architects/sa-practices/communities-of-practice/) among the SMEs for the same topic and with fellow SAs to foster the knowledge in the team.  
+- Stable counter part in the coresponding [product group](/handbook/product/categories/\#devops-stages)
 
 ## Scope
 
