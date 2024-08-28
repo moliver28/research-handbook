@@ -6,7 +6,7 @@ title: Engineering Communication
 
 GitLab Engineering values clear, concise, transparent, asynchronous, and frequent communication. Here are our most important modes of communication:
 
-- [**CTO Staff issue tracker**](https://gitlab.com/gitlab-com/engineering-division/cto-staff): Private project that is accessible to all GitLab team members, issues are internal to the company. The tracker hosts topics and initiatives important to the Engineering division.
+- [**CTO Staff issue tracker**](https://gitlab.com/gitlab-com/engineering-division/cto-leadership): Private project that is accessible to all GitLab team members, issues are internal to the company. The tracker hosts topics and initiatives important to the Engineering division.
 - [**GitLab Issue Tracker**](https://gitlab.com/gitlab-org/gitlab/issues): Raise issues pertaining to GitLab product development.
 - [**Start with a Merge Request**](/handbook/communication/#start-with-a-merge-request): The most effective way to make a change to the company is to make a proposal in the form of a merge request to the handbook and assign it to the [DRI](/handbook/people-group/directly-responsible-individuals/).
 - [**Monitoring Dashboards**](/handbook/engineering/monitoring/): When we look to achieve a desired outcome, we must be able to quantify and measure progress towards that goal. By making the initial analysis that drives decision making repeatable, we continuously sanity check our initial assumptions along that journey.
