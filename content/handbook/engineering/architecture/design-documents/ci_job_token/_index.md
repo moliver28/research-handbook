@@ -262,15 +262,6 @@ The following list of permissions was compiled from [this investigation](https:/
 
 | Permission(s)                     | Route                                                                                            |
 | -------------                     | -----                                                                                            |
-| `:create_package`                 | POST `/groups/:id/-/packages/npm/*package_name/dist-tags`                                        |
-| `:create_package`                 | POST `/projects/:id/-/packages/npm/*package_name/dist-tags`                                      |
-| `:create_package`                 | POST `/projects/:id/packages/composer`                                                           |
-| `:create_package`                 | PUT `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                    |
-| `:create_package`                 | PUT `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                                  |
-| `:destroy_package`                | DELETE `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                 |
-| `:destroy_package`                | DELETE `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                               |
-| `:destroy_package`                | DELETE `/projects/:id/packages/:package_id/package_files/:package_file_id`                       |
-| `:destroy_package`                | DELETE `/projects/:id/packages/:package_id`                                                      |
 | `:read_group + :read_package`     | GET `/groups/:id/-/packages/maven/*path/:file_name`                                              |
 | `:read_group + :read_package`     | GET `/groups/:id/-/packages/maven/*path/:file_name`                                              |
 | `:read_group + :read_package`     | GET `/groups/:id/-/packages/pypi/files/:sha256/*file_identifier`                                 |
@@ -295,24 +286,33 @@ The following list of permissions was compiled from [this investigation](https:/
 | `:read_package`                   | GET `/projects/:id/packages/npm/*package_name`                                                   |
 | `:read_package`                   | GET `/projects/:id/packages/npm/-/package/*package_name/dist-tags`                               |
 | `:read_package`                   | GET `/projects/:id/packages`                                                                     |
-| `:read_package`                   | POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                              |
-| `:read_package`                   | POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                 |
-| `:read_package`                   | POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                            |
-| `:read_package`                   | POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`                               |
-| `:read_project + :create_package` | POST `/projects/:id/-/packages/pypi/authorize`                                                   |
-| `:read_project + :create_package` | POST `/projects/:id/-/packages/pypi`                                                             |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize` |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                    |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                    |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name`                                              |
 | `:read_project + :read_package`   | GET `/projects/:id/-/packages/pypi/files/:sha256/*file_identifier`                               |
 | `:read_project + :read_package`   | GET `/projects/:id/-/packages/pypi/simple/*package_name`                                         |
 | `:read_project + :read_package`   | GET `/projects/:id/-/packages/pypi/simple`                                                       |
 | `:read_project + :read_package`   | GET `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
 | `:read_project + :read_package`   | GET `/projects/:id/packages/maven/*path/:file_name`                                              |
 | `:read_project + :read_package`   | GET `/projects/:id/packages/maven/*path/:file_name`                                              |
+| `:create_package`                 | POST `/groups/:id/-/packages/npm/*package_name/dist-tags`                                        |
+| `:create_package`                 | POST `/projects/:id/-/packages/npm/*package_name/dist-tags`                                      |
+| `:create_package`                 | POST `/projects/:id/packages/composer`                                                           |
+| `:read_package`                   | POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                              |
+| `:read_package`                   | POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                 |
+| `:read_package`                   | POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                            |
+| `:read_package`                   | POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`                               |
+| `:read_project + :create_package` | POST `/projects/:id/-/packages/pypi/authorize`                                                   |
+| `:read_project + :create_package` | POST `/projects/:id/-/packages/pypi`                                                             |
+| `:create_package`                 | PUT `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                    |
+| `:create_package`                 | PUT `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                                  |
+| `:read_project + :create_package` | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize` |
+| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                    |
+| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                    |
+| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name`                                              |
 | `:read_project`                   | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
 | `:read_project`                   | PUT `/projects/:id/packages/maven/*path/:file_name`                                              |
+| `:destroy_package`                | DELETE `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                 |
+| `:destroy_package`                | DELETE `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                               |
+| `:destroy_package`                | DELETE `/projects/:id/packages/:package_id/package_files/:package_file_id`                       |
+| `:destroy_package`                | DELETE `/projects/:id/packages/:package_id`                                                      |
 
 ##### Releases
 
@@ -336,21 +336,21 @@ The following list of permissions was compiled from [this investigation](https:/
 
 ##### Terraform
 
-| Action                                                                                                                                                            | Permission(s)            |
-| --------                                                                                                                                                          | -------------            |
-| [Retrieve individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions) | `:read_terraform_state`  |
-| [Remove individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions)   | `:admin_terraform_state` |
-| [Remove a state file](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#remove-a-state-file-by-using-the-api)                               | `:admin_terraform_state` |
-| Retrieve a state file                                                                                                                                             | `:read_terraform_state`  |
-| Create a state file                                                                                                                                               | `:admin_terraform_state` |
-| Create a lock file                                                                                                                                                | `:admin_terraform_state` |
-| Delete a lock file                                                                                                                                                | `:admin_terraform_state` |
+| Action                                                                                                                                                            | Permission(s)                                     |
+| --------                                                                                                                                                          | -------------                                     |
+| [Retrieve individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions) | `:read_terraform_state OR :admin_terraform_state` |
+| [Remove individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions)   | `:admin_terraform_state`                          |
+| [Remove a state file](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#remove-a-state-file-by-using-the-api)                               | `:admin_terraform_state`                          |
+| Retrieve a state file                                                                                                                                             | `:read_terraform_state OR :admin_terraform_state` |
+| Create a state file                                                                                                                                               | `:admin_terraform_state`                          |
+| Create a lock file                                                                                                                                                | `:admin_terraform_state`                          |
+| Delete a lock file                                                                                                                                                | `:admin_terraform_state`                          |
 
-##### Miscellaneous
+##### Internal
 
-| Permission(s)                 | Route                                                 |
-| -------------                 | -----                                                 |
-| `:create_on_demand_dast_scan` | POST `/internal/dast/site_validations/:id/transition` |
+| Action                                                | Permission(s)                 |
+| --------                                              | -------------                 |
+| POST `/internal/dast/site_validations/:id/transition` | `:create_on_demand_dast_scan` |
 
 ## Alternative Solutions
 
