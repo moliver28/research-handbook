@@ -124,7 +124,7 @@ details summary * {
 - e2e-run-master
 - qa-nightly
 - e2e-run-preprod
-- qa-production
+- e2e-run-production
 - e2e-run-staging
 - test-platform
 - review-apps-broken

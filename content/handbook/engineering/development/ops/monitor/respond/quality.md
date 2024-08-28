@@ -117,7 +117,7 @@ Similar to test pipelines against master or nightly. There are dedicated slack c
 pipelines for that specific environment:
 
 - Staging, staging-canary, customers-dot: [#e2e-run-staging](https://gitlab.slack.com/archives/CBS3YKMGD)
-- Production, canary: [#qa-production](https://gitlab.slack.com/archives/CCNNKFP8B)
+- Production, canary: [#e2e-run-production](https://gitlab.slack.com/archives/CCNNKFP8B)
 - Preprod: [#e2e-run-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
 - Release: [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE)
 - Staging-ref: [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ)
