@@ -25,7 +25,7 @@ Are you looking for security certifications/attestations for GitLab.com? Please 
 
 ### Current
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) Trust Service Criteria: Security, Confidentiality, and Availability
+- [SOC 2 Type 2 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) Trust Service Criteria: Security, Confidentiality, and Availability
 - [ISO/IEC 27001:2013](https://www.iso.org/isoiec-27001-information-security.html) Certification: Surveillance
 - [TISAX](https://portal.enx.com/en-US/TISAX/) AL 2 certification for data with High protection requirements
 - [ISO/IEC 27018:2019](https://www.iso.org/standard/76559.html) attestation
@@ -49,12 +49,13 @@ Year(s): FY26
 - [FedRAMP Moderate Authorization](https://www.fedramp.gov/)
 - [Software Bill of Materials internal implementation plan]({{< ref "sbom-plan" >}})
 - [Post-Quantum Cryptography migration plan](https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF) ([internal epic](https://gitlab.com/groups/gitlab-org/-/epics/11364))
+- [StateRAMP](https://stateramp.org/)
 
 Under Consideration:
 
 - [ISO/IEC 27701:2019](https://www.iso.org/standard/71670.html)
-- [StateRAMP](https://stateramp.org/)
-- [DoD IL2 Provisional Authorization](https://public.cyber.mil/dccs/dccs-documents/)
+- [FedRAMP High](https://www.fedramp.gov/)
+- [DoD IL2 and IL4 Provisional Authorization](https://public.cyber.mil/dccs/)
 - [Supply-chain Levels for Software Artifacts (SLSA)](http://slsa.dev/)
 - [NIST SP 800-66 HIPAA Security Rule implementation](https://csrc.nist.gov/publications/detail/sp/800-66/rev-1/final)
 
