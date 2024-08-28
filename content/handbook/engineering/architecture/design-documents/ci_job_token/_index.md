@@ -185,6 +185,9 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
     ]
   }
 }
+
+
+
 ```
 
 - [`iss`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1): The entity that issued the token.
@@ -209,26 +212,27 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 
 The following list of permissions was compiled from [this investigation](https://gitlab.com/gitlab-org/govern/authorization/team-tasks/-/issues/55).
 
-##### [Containers](https://docs.gitlab.com/ee/api/container_registry.html)
+##### Containers
 
-| Permission(s)              | Route                                                                      |
-| -------------              | -----                                                                      |
-| `:admin_container_image`   | DELETE `/projects/:id/registry/repositories/:repository_id/tags`           |
-| `:admin_container_image`   | DELETE `/projects/:id/registry/repositories/:repository_id`                |
-| `:destroy_container_image` | DELETE `/projects/:id/registry/repositories/:repository_id/tags/:tag_name` |
-| `:read_container_image`    | GET `/projects/:id/registry/repositories/:repository_id/tags/:tag_name`    |
-| `:read_container_image`    | GET `/projects/:id/registry/repositories/:repository_id/tags`              |
-| `:read_container_image`    | GET `/projects/:id/registry/repositories`                                  |
+| Endpoint                                                                                                                                    | Permission(s)                                        |
+| --------                                                                                                                                    | -------------                                        |
+| [Delete a registry repository tag](https://docs.gitlab.com/ee/api/container_registry.html#delete-a-registry-repository-tag)                 | `:admin_container_image OR :destroy_container_image` |
+| [Delete a registry repository tags in bulk](https://docs.gitlab.com/ee/api/container_registry.html#delete-registry-repository-tags-in-bulk) | `:admin_container_image OR :destroy_container_image` |
+| [Delete registry repository](https://docs.gitlab.com/ee/api/container_registry.html#delete-registry-repository)                             | `:admin_container_image OR :destroy_container_image` |
+| [Get details of a registry repository tag](https://docs.gitlab.com/ee/api/container_registry.html#get-details-of-a-registry-repository-tag) | `:admin_container_image OR :read_container_image`    |
+| [List registry repositories](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                          | `:admin_container_image OR :read_container_image`    |
+| [List registry repository tags](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                       | `:admin_container_image OR :read_container_image`    |
+
 
 ##### [Deployments](https://docs.gitlab.com/ee/api/deployments.html)
 
-| Permission(s)                              | Route                                             |
-| -------------                              | -----                                             |
-| `:create_deployment + :create_environment` | POST `/projects/:id/deployments`                  |
-| `:destroy_deployment`                      | DELETE `/projects/:id/deployments/:deployment_id` |
-| `:read_deployment + :update_deployment`    | PUT `/projects/:id/deployments/:deployment_id`    |
-| `:read_deployment`                         | GET `/projects/:id/deployments/:deployment_id`    |
-| `:read_deployment`                         | GET `/projects/:id/deployments`                   |
+| Endpoint                                                                                                     | Permission(s)                                |
+| --------                                                                                                     | -------------                                |
+| [List project deployments](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments)         | `:read_deployment`                           |
+| [Get a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment)       | `:read_deployment`                           |
+| [Create a deployment](https://docs.gitlab.com/ee/api/deployments.html#create-a-deployment)                   | `:create_deployment AND :create_environment` |
+| [Update a deployment](https://docs.gitlab.com/ee/api/deployments.html#update-a-deployment)                   | `:read_deployment AND :update_deployment`    |
+| [Delete a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#delete-a-specific-deployment) | `:destroy_deployment`                        |
 
 ##### [Environments](https://docs.gitlab.com/ee/api/environments.html)
 
