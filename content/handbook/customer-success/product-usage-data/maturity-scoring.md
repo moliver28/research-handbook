@@ -192,7 +192,7 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 
 ### Usage Rollup Methodology
 
-Usage data is typically calculated at the Gitlab intance level. When we roll this data up to the customer account level, we apply the following methodology that weights each subscription's associated usage using the ARR for the subscription as a % of the customer's total ARR.
+Usage data is typically calculated at the Gitlab intance level. When we roll this data up to the customer account level we first identify a single instance to represent the subscription. At its basics, this is done by identifying the production instance with the most billable users (it is imperitive that CSM/Es make sure production instances are labeled as such). After tying a single instance to each subscription, we apply the following methodology that weights each subscription's associated usage using the ARR for the subscription as a % of the customer's total ARR.
 
 ![Usage Rollup Methodology](https://lucid.app/publicSegments/view/e8045d2a-3135-4e66-b52d-21e42b566d10/image.png)
 
