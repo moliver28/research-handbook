@@ -1,6 +1,6 @@
 ---
-title: "Nira (Google Drive Seecurity) User Guide"
-description: "Nira guide for end users on Nira functionality. This is not a guide for admins as end users do not have access to files they do not own. This can be a reference for admins, but this is not a complete admin guide. New updates coming soon"
+title: "Nira (Google Drive Security) User Guide"
+description: "Nira guide for end users on Nira functionality. If you are a Nira admin, this guide can provide some guidance, but is not all encompassing of admin functionality."
 ---
 
 ## Overview
