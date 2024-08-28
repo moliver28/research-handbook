@@ -1,5 +1,5 @@
 ---
-title: SME Process \- Gather Feedback from Customers 
+title: SME Gather Feedback from Customers 
 
 description: Gather Feedback from Customers
 

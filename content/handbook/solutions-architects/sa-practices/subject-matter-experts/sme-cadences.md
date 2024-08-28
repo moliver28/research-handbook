@@ -1,5 +1,5 @@
 ---
-title: SME Process \- SME Cadences/ Engage with Product Management 
+title:  SME Cadences 
 
 description: To Outline the framework for the SME Cadences and meetings that should occur during a quarter, for a smooth running of the program
 

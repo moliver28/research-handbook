@@ -1,5 +1,5 @@
 ---
-title: SME Process \- Engage with Product Management 
+title: SME Engage with Product Management 
 
 description: How to engage with product Management
 
