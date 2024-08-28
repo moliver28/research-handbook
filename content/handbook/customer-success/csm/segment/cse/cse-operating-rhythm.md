@@ -197,7 +197,7 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
 1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer's timeline in Gainsight.
 1. Review call and/or sync with AE if applicable and produce follow up email for customer.
 
-##### Follow up
+#### Follow up
 
 CSE should follow up with the customer within 2-3 business days after the engagement. This follow-up should include:
 
@@ -210,7 +210,7 @@ The CSE should also update the CTA in Gainsight with the outcome of the engageme
 
 It's important to maintain clear communication with the account/opportunity owner (AE/RM) throughout this process, keeping them informed of the engagement's progress and any significant outcomes or concerns.
 
-##### Additional questions from the customer after the follow up mail
+#### Additional questions from the customer after the follow up mail
 
 If a customer has additional questions after receiving the follow-up email, the CSE should:
 
@@ -224,8 +224,8 @@ If a customer has additional questions after receiving the follow-up email, the 
 
 **Important Notes**:
 
-* If the topic the customer wants to address is a new topic, a new request shall be opened to clearly distinguish the different topics/requests. We also consider anything that comes up after more than 4 weeks a new request.
-* Rule of thumb: We don't want to exceed more than 3 follow ups about the same topic. 
-* Please do not reopen requests from the previous quarter, even if it's related to the previous topic, it may result in uninteded consequences in regards to our metrics.
+- If the topic the customer wants to address is a new topic, a new request shall be opened to clearly distinguish the different topics/requests. We also consider anything that comes up after more than 4 weeks a new request.
+- Rule of thumb: We don't want to exceed more than 3 follow ups about the same topic. 
+- Please do not reopen requests from the previous quarter, even if it's related to the previous topic, it may result in uninteded consequences in regards to our metrics.
 
 If the customer comes back with additional questions to the AE or RM, please feel free to redirect them to the CSE who had the call previously with the customer.
