@@ -152,6 +152,10 @@ This ensures that a CSAT survey is deployed to the recipients of the email.
 
 ## General Guidelines for CSE Engagements
 
+### Playbooks
+
+A list of Playbooks can be found on the [CSE Playbooks](playbooks) sub page.
+
 ### CSE Escalations
 
 Qualifying the customer for an escalation is important in terms of ARR and LAM. ARR should be >=80% of the ceiling for your segment's ARR range. LAM ought to be > $100K. Another very weighty criterion is an upcoming renewal. If they are <= 3 months away from an upcoming renewal, an escalation could help turn their frown upside down.
