@@ -314,15 +314,15 @@ The following list of permissions was compiled from [this investigation](https:/
 | `:read_project`                   | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
 | `:read_project`                   | PUT `/projects/:id/packages/maven/*path/:file_name`                                              |
 
-##### [Releases](https://docs.gitlab.com/ee/api/releases/index.html)
+##### Releases
 
-| Permission(s)      | Route                                                          |
-| -------------      | -----                                                          |
-| `:create_release`  | POST `/projects/:id/releases/:tag_name/assets/links`           |
-| `:destroy_release` | DELETE `/projects/:id/releases/:tag_name/assets/links/:link_i` |
-| `:read_release`    | GET `/projects/:id/releases/:tag_name/assets/links/:link_id`   |
-| `:read_release`    | GET `/projects/:id/releases/:tag_name/assets/links`            |
-| `:update_release`  | PUT `/projects/:id/releases/:tag_name/assets/links/:link_id`   |
+| Action                                                                                            | Permission(s)      |
+| --------                                                                                          | -------------      |
+| [List links of a release](https://docs.gitlab.com/ee/api/releases/index.html)                     | `:read_release`    |
+| [Get a release link](https://docs.gitlab.com/ee/api/releases/links.html#get-a-release-link)       | `:read_release`    |
+| [Create a release link](https://docs.gitlab.com/ee/api/releases/links.html#create-a-release-link) | `:create_release`  |
+| [Update a release link](https://docs.gitlab.com/ee/api/releases/links.html#update-a-release-link) | `:update_release`  |
+| [Delete a release link](https://docs.gitlab.com/ee/api/releases/links.html#delete-a-release-link) | `:destroy_release` |
 
 ##### [Secure Files](https://docs.gitlab.com/ee/ci/secure_files/index.html#use-secure-files-in-cicd-jobs)
 
