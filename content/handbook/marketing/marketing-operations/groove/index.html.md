@@ -108,7 +108,7 @@ Labels are how Flows and Templates are organized in Groove. Currently there are 
 - Industry: Flows targeted at a particular industry
 - Lang: Language Flows 
 - Motion: Different sales motions, ex: Competitive GitHub, Closed Lost, CI/CD, Event
-- Persona: Targeted a particular buying persona
+- Persona: Targeted at a particular buying persona
 - SD: Sales Dev owned, this will be in front of all Sales Dev flows
 
 Important Notes on Searching using Labels:
