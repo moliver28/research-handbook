@@ -34,10 +34,10 @@ It is not possible to run these kind of tests against your local GDK without dir
 
 ### FAQ
 
-#### I triggered the e2e:package-and-test job. Where do I find the tests?
+#### I triggered the e2e:test-on-omnibus job. Where do I find the tests?
 
-If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `e2e:package-and-test` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a test report link.
-It is also possible to see which jobs failed in the `e2e:package-and-test` pipeline directly.
+If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `e2e:test-on-omnibus` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a test report link.
+It is also possible to see which jobs failed in the `e2e:test-on-omnibus` pipeline directly.
 
 **Note:** Currently, the tests most relevant for Environments run only on staging and staging canary environments.
 

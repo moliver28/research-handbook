@@ -83,17 +83,17 @@ so you need to have chromedriver installed. If the test is quarantined, you will
 the command to ignore this metadata. For list of supported environment variables, see
 [Supported GitLab environment variables](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#supported-gitlab-environment-variables)
 
-### 3. I triggered the e2e:package-and-test job. Where do I find the tests?
+### 3. I triggered the e2e:test-on-omnibus job. Where do I find the tests?
 
 If you have an MR and want to make sure it is running all the non-quarantined E2E tests to ensure no regression introduced
-anywhere, please trigger the manual `e2e:package-and-test` job under `qa` stage of the pipeline of your MR. After
+anywhere, please trigger the manual `e2e:test-on-omnibus` job under `qa` stage of the pipeline of your MR. After
 the pipeline runs there will be a comment on your MR says "Allure report" with a test report link to show which test
-example failed and their failure stacktrace. It is also possible to see which jobs failed in the `e2e:package-and-test`
+example failed and their failure stacktrace. It is also possible to see which jobs failed in the `e2e:test-on-omnibus`
 pipeline directly. All test jobs will produce artifacts from test execution (logs, screenshots etc...).
 
-**For example:** In this [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/110829), `e2e:package-and-test` was run and triggered
-a [downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219117) that runs all E2E tests. You want to
-inspect why [ee:instance-parallel 3/5](https://gitlab.com/gitlab-org/gitlab/-/jobs/3714070554) failed:
+**For example:** In this [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/110829), `e2e:test-on-omnibus` was run and triggered
+a [downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/1426934286) that runs all E2E tests. You want to
+inspect why [instance 4/5](https://gitlab.com/gitlab-org/gitlab/-/jobs/7664180534) failed:
 
 - First, check the job log. It contains stacktrace that can be helpful for investigation.
 - Or in the job's artifacts, under `gitlab-qa-run-*/gitlab-ee-qa-*/qa-test-*/`,  you will find screenshots of where
@@ -105,11 +105,6 @@ Therefore, to predict where your tests might be, first you need to know which sc
 `Test::Instance` where no special setups needed, these can be found under all of the **parallel** job groups unless
 specifically exclude with
 [:except](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/rspec_metadata_tests.html) metadata.
-
-**Note:** Some tests that are tagged with `:smoke` metadata are already automatically run in
-review-app pipeline - that is automatically triggered under `review` stage of your MR pipeline -
-[Example review-app downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219112).
-These tests are considered blocking if they fail.
 
 ### 4. How can I find tests results for staging or any other dotcom(s)?
 
