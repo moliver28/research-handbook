@@ -24,9 +24,9 @@ The ESA primary contribution is to help the GitLab Global Ecosystem team drive o
 
 ## Ecosystem Solutions Architecture Engagement Model
 
-### TODO Developing Partner Champions
+### Developing Partner Champions 
 
-Get personal. We don’t “enable partners.”  We develop champions.  Share and enable on simple messages that unlock services and consumption.  Requires focus, achieves scale.
+The Ecosystem SA goal is to effectively enable an entire ecosystem of associated services, platform, technology, and transaction partners.  We cannot do this unless we develop [GitLab Partner Champions](/handbook/resellers/partner-champions-program/) within our partner community.  Selling and services relationships are personal.  We don’t “enable partners."  We develop champions who can share and scale our reach delivering simple messages that unlock services and consumption.  This effort requires focus and achieves scale.
 
 ### Working with Strategic Alliance Partners
 
@@ -40,7 +40,7 @@ In terms of key responsibilities, the Ecosystem SA is responsible for supporting
 - GitLab Strategy: Generates ideas for and participates in Ecosystem group strategy formulation for both business and technical considerations.
 - Content Curation: Sources and curates content with Partner Enablement team that is easy to find and use, and helps meet the goals of GitLab and its partners.
 
-### TODO Working with Services Partners
+### TODO Working with Services Partners 
 
 ### MBO Guidelines
 
@@ -55,4 +55,4 @@ The charter of the Global Ecosystem Team is to develop an ecosystem of partners 
   - does not meet MBO expectations - 0% of the payment
   - meets some MBO expectations - 75% of the payment
   - meets majority of MBO expectations - 100% of the payment
-  - exceeds majority of MBO expectations - 100% of the payment
+  - exceeds majority of MBO expectations - 110% of the payment
