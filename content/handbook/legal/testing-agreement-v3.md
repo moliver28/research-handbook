@@ -1,8 +1,8 @@
 ---
-title: "GitLab Testing Agreement v2"
+title: "GitLab Testing Agreement V3"
 ---
 
-*Deprecated: 2023-06-29*
+*Deprecated 2024-08-29*
 
 This Testing Agreement ("Agreement") is between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 ("GitLab"), and either (i) the entity electronically accepting this Agreement; or (ii) the entity on behalf of which the Testing Features are enabled, as applicable and in either case, "Customer". This Agreement is effective as of the earlier date on which (i) Customer clicks to accept this Agreement within the GitLab software; or (ii) an individual acting on behalf of Customer opts to enable the Testing Features ("Effective Date"). The parties agree to the following terms and conditions related to Customer's use of the applicable Testing Feature.
 
@@ -28,7 +28,7 @@ An individual opting to enable the Testing Features subject to this Agreement re
 
 2.2. Customer acknowledges that the applicable Testing Feature (i) has not been made commercially available, (ii) may be unstable and could cause performance and stability issues, (iii) may not operate properly, and (iv) may contain errors, design flaws or other problems. GitLab is under no obligation to release a Testing Feature as a Generally Available Feature.
 
-2.3. To the extent a Testing Feature involves the processing of Customer's Personal Data, Customer agrees and represents that it has provided all required notices to and obtained all necessary consents from the data subjects whose Personal Data is processed under a Testing Feature. GitLab will process Customer's Personal Data on the basis of performing this Agreement with Customer.
+2.3. To the extent a Testing Feature involves the processing of Customer's Personal Data, Customer agrees and represents that it has provided all required notices to and obtained all necessary consents from the data subjects whose Personal Data is processed under a Testing Feature. GitLab will process Customer's Personal Data on the basis of performing this Agreement with Customer. Any sub-processors used to provide a Testing Feature will be listed at https://about.gitlab.com/privacy/subprocessors/ and all notifications of updates to that list will be done in accordance with Section 14 of the data processing addendum as set forth in the GLSA.
 
 2.4. Customer's use of and access to the applicable Testing Feature is solely at its own risk. Customer acknowledges that (i) it is responsible for any AI Assisted work product (including source code) generated using the applicable Testing Feature, including (a) verifying the suitability and accuracy of any AI Assisted work product for the desired purpose, and (b) any suggestions Customer may incorporate from AI Assisted Testing Features or any suggestions to Customer's work product; and (ii) the Testing Feature(s) may cause unexpected results, corruption or loss of data, or other forms of loss or damage.
 
