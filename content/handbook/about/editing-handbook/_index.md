@@ -4,7 +4,7 @@ description: "Information on how to edit the handbook including tips and trouble
 ---
 
 This page focuses on how to edit the handbook.
-Please see the [handbook usage page]({{< ref "handbook-usage" >}}) for how and why we use the handbook, and other [docs pages]({{< ref "docs" >}}) for further reference.
+Please see the [handbook usage page](../handbook-usage.md) for how and why we use the handbook, and other [docs pages](https://handbook.gitlab.com/docs/) for further reference.
 
 This page is intended to be complementary to [Using GitLab at GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency).
 We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/) if you haven't already.
@@ -17,7 +17,7 @@ For how to add yourself to the team page, see the [add yourself to team guide](/
 
 ## Markdown formatting
 
-For how to format markdown in the handbook, see the [markdown style guide](/docs/markdown-guide),
+For how to format markdown in the handbook, see the [markdown style guide](https://handbook.gitlab.com/docs/markdown-guide),
 which includes how to embed videos.
 
 ## Use the Web IDE to edit the handbook
@@ -35,7 +35,7 @@ A typical workflow to edit the handbook:
 1. Navigate to the handbook page you want to edit. At the bottom, or on the right, click on the URL `Edit this page` to open the new Web IDE.
     - Alternatively, open the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook) project and select `Web IDE` from the edit actions. This requires you to navigate into the source tree where the handbook files are located.
 
-   ![Handbook page at the bottom, action: Edit in Web IDE](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_bottom_handbook_action.png)
+   ![Handbook page at the bottom, action: Edit in Web IDE](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_bottom_handbook_action.png)
 
 1. Familiarize yourself with the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/):
     - The menu sections are located on the left
@@ -44,12 +44,12 @@ A typical workflow to edit the handbook:
     - Additional meta information is provided at the bottom. Git branch, problems, current line number, spaces for indentation, encoding, end-of-line sequence, language mode, layout, notifications.
     - **Tip:** Hover over the menu sections and items to learn more about their purpose and keyboard shortcuts.
 
-    ![Web IDE overview, handbook page highlighted in the file tree](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_file_tree_edit_handbook_page.png)
+    ![Web IDE overview, handbook page highlighted in the file tree](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_tree_edit_handbook_page.png)
 
 1. Edit the selected file, and try the Markdown preview. `Cmd+Shift+P` on macOS opens the Web IDE command palette to search for commands. For example, type `Markdown`, select `Markdown: Open Preview to the Side` and try the preview.
     - Note that the [handbook markdown engine](/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](https://docs.gitlab.com/ee/ci/review_apps/) to preview the page, such as to verify embedded images.
 
-    ![Web IDE editor, Markdown preview](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
+    ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 
 1. Upload new files by right-clicking and selecting `Upload...` for example images into `static/images/handbook/` and the corresponding file tree, following the handbook directories.
 
@@ -57,39 +57,35 @@ A typical workflow to edit the handbook:
 
 1. Open the `Source Control` icon on the left menu which has a colored marker for counting the file changes. Tip: Keyboard shortcut `Ctrl+Shift+G`.
 
-    ![Web IDE menu, source control](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_menu_explorer_search_source_control.png)
+    ![Web IDE menu, source control](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_menu_explorer_search_source_control.png)
 
-1. Review the changed files, and once ready, specify a Git commit message and click `Commit & Push`. Keyboard shortcut:  `Cmd+Enter`.
+1. Review the changed files, and once ready, specify a Git commit message, click on the ⋁ on the right side of the `Commit and push` button, and choose the `Create new branch and commit` option. Keyboard shortcut:  `Cmd+Enter`.
 
-    ![Web IDE, commit and push: Commit message](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_source_control_commit_message.png)
-
-1. Commit the changes to a new Git branch (leave selection, press `Enter`).
-
-    ![Web IDE, commit and push: Create a new branch](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_source_control_commit_to_a_new_branch.png)
+    ![Web IDE, commit and push: Commit message](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_source_control_commit_message.png)
 
 1. Specify a new Git branch name (optional). Press `Enter` to continue. This action pushes the changes into the Git repository. The changes are persisted on the GitLab server and are immediately visible in the project view.
 
-    ![Web IDE, commit and push: Branch name](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_source_control_commit_new_branch_name.png)
+    ![Web IDE, commit and push: Branch name](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_source_control_commit_new_branch_name.png)
 
 1. Check the pop-up at the bottom right, and click `Create Merge Request` to open the GitLab MR tab. Tip: The notification bell icon at the bottom brings back the notification, if accidentally dismissed.
 
-    ![Web IDE, commit and push: Create Merge Request](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_source_control_popup_create_mr.png)
+    ![Web IDE, commit and push: Create Merge Request](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_source_control_popup_create_mr.png)
 
-1. Fill in the MR template, provide why the merge request is created, add labels (e.g. using quick actions `/label ~handbook`), assign yourself (`/assign me`), and set the branch to delete when merged. Optionally, use the [draft option](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to prevent merging until ready.
+1. Fill in the MR template, provide why the merge request is created, add labels (such as, using quick actions `/label ~handbook`), assign yourself (`/assign me`), and set the branch to delete when merged. Optionally, use the [draft option](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to prevent merging until ready.
 
-    ![GitLab Merge Request view](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_gitlab_create_mr.png)
+    ![GitLab Merge Request view](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_gitlab_create_mr.png)
 
 1. Make additional changes to the MR: Select `Code > Open in Web IDE` on the upper right menu. This opens the Web IDE again to make changes. All changed files are opened automatically.
 
-    ![Merge request, open in Web IDE](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_gitlab_mr_open_in_web_ide.png)
+    ![Merge request, open in Web IDE](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_gitlab_mr_open_in_web_ide.png)
 
-1. Make changes, commit and push them, and select the MR associated branch again (follow [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/383801#note_1214559713) for UX commit flows).
+1. Make changes, commit and push them (follow [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/383801#note_1214559713) for UX commit flows).
 
-    ![Web IDE, commit and select MR associated branch](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_from_mr_changes_source_control_select_branch.png)
+    ![Web IDE, commit and select MR associated branch](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_from_mr_changes_source_control_select_branch.png)
 
 1. Optional: Follow the pop-up notification to navigate back to the MR.
 
-    ![Web IDE, go back to MR after commit and push](/handbook/about/editing-handbook/images/practical_handbook_edits_web_ide_vs_code_from_mr_changes_popup_go_to_mr.png)
+    ![Web IDE, go back to MR after commit and push](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_from_mr_changes_popup_go_to_mr.png)
 
 **Tip**: Practice the keyboard shortcuts for your workflows: After making changes, `Control+Shift+G` to commit, `Cmd+Enter`, Cursor to select the branch, `Enter`, etc.
 
@@ -141,7 +137,7 @@ Additional notes:
 
 If you recently created a merge request that was labeled as a Community contribution, you can fix this mislabeling issue going forward by updating the GitLab username in your personal entry in the team member directory to match the GitLab account you use for work.
 
-Use the [team page editing instructions]({{< ref "edit-team-page" >}}) to find your team page entry file, and update the `gitlab` attribute (typically found on line 10) to be an **exact match** for the GitLab.com username you use for work.
+Use the [team page editing instructions](edit-team-page.md) to find your team page entry file, and update the `gitlab` attribute (typically found on line 10) to be an **exact match** for the GitLab.com username you use for work.
 
 ## Preview changes on GitLab
 
@@ -234,7 +230,7 @@ To see why your pipeline is failing, there are two main places to look:
 In the job log, error messages typically provide you:
 
 1. the error
-1. the file where the error occured
+1. the file where the error occurred
 1. the line number
 1. the character number (where on the line it is)
 
@@ -260,7 +256,7 @@ To the ensure consistency, quality and correctness of the GitLab Handbook we use
 
 ### Prettier is formatting markdown files
 
-If you have `prettier` set up in VSCode and it is formatting the `.md` files when they are not supposed to, check if you have Prettier set to be your default formatter with `"editor.defaultFormatter": "esbenp.prettier-vscode"` in your user settings.
+If you have `prettier` set up in VS Code and it is formatting the `.md` files when they are not supposed to, check if you have Prettier set to be your default formatter with `"editor.defaultFormatter": "esbenp.prettier-vscode"` in your user settings.
 
 Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/api/references/vscode-api#GlobPattern) in the extension settings to specify which files to prettify automatically.
 
@@ -271,7 +267,7 @@ There is a special linter that validates links and anchors across the handbook. 
 ![Link linter error](/handbook/about/images/link-linter-error.png)
 
 1. It is a path to the file where the broken link was detected.
-    (filepath - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
+    (file path - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
 1. It is an error message. An anchor `expense-reimbursement` is defined in the file path from step 1 but does not exist in the file path from step 3.
 1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`)
 
@@ -342,7 +338,7 @@ In this case, [the handbook code was made more robust](https://gitlab.com/gitlab
 
 ## Additional tips
 
-For additional tips, such as how to replace strings in files, refer to the [practical handbook edits examples]({{< ref "practical-handbook-edits" >}}).
+For additional tips, such as how to replace strings in files, refer to the [practical handbook edits examples](practical-handbook-edits.md).
 
 ## Need help?
 
