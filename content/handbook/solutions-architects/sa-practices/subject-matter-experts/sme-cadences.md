@@ -7,10 +7,10 @@ description: To Outline the framework for the SME Cadences and meetings that sho
 
 ### **SME Cadence Framework**
 
-1. The SME Program Lead should set up the calendar of SME calls and cadences as specified by the framework below.  
-2. Each program should have two calls per month, one, to calibrate, manage, allocate, categorize and prioritize requests, as well as update the lifecycle and the second to meet with the PMs for any updates.  
+1. The SME Program and SME Area Leads should set up the calendar of SME calls and cadences as specified by the framework below.  
+2. Each program should have two calls per month, one, to calibrate, manage, allocate, categorize and prioritize requests, and the second to meet with the PMs for any updates.  
 3. The SME Program Lead should ensure that SME Area Leads are represented in the ARR Driver meeting and PMs would be in attendance.  
-4. The SME Program Lead should set up appropriate slack channels
+4. The SME Area Leads should set up appropriate [SME slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)
 
 | Month | 1 |  |  |  | 2 |  |  |  | 3 |  |  |  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -38,7 +38,7 @@ The objective of this meeting is to provide a forum in which SME Leads, along wi
 
 ---
 
-### **SME Area Pod Meeting**
+### **SME Area Pod Meeting** {#sme-area-pod-cadence}
 
 Each SME Area Lead should hold a synchronous meeting with their regional SMEs per Area at least once a month. SME Associates can also attend.
 
@@ -72,7 +72,7 @@ Since SMEs are located globally, the meeting should be scheduled every month, wi
 
 ---
 
-### **Product Management/ SME Area Cadence Meeting**
+### **Product Management/ SME Area Cadence Meeting** {#sme-product-cadence}
 
 SME Area Leads would chair the meeting along with their PM counterparts, review the SME Area Issue board, and give context on any prioritized new requests.
 
@@ -94,16 +94,26 @@ Since GitLab releases are once a month, this also can be an opportunity for PMs 
 
 #### **Agenda**
 
-* SME Area Lead would review new customer requests with PMs. Set Status as reviewed  
-* PMs to highlight which requests would be backlogged, or accepted as per SLA  
-* PMs to relay any updates to any requests, that can be relayed backed to customers  
-* PMs to demo, enable, or solicit feedback from SMEs on upcoming changes, or even solicit beta participants for future functionality.  
-* PMs to update roadmap presentations, walk through any new functionality, and share with SMEs so that they can deliver roadmap presentations as appropriate.  
-* Review the topic for the next Technical Skills exchange.
+* SMEs to Review New and Updated Customer Requests
+  * SME Area Lead would review new customer requests with PMs. Set Status as reviewed  
+  * PMs to highlight which requests would be backlogged, or accepted as per SLA  
+  * PMs to relay any updates to any requests, that can be relayed backed to customers  
+  * Facilitate joint customer visits or calls between SMEs and Product Managers to gather direct feedback and understand customer needs.
+* Customer Trends and Adoption
+  * Implement a system for SMEs to track and report on new feature adoption and impact in their regions, providing valuable data to Product Management.
+  * Feedback loop where SMEs can share customer insights and market trends with Product Management to inform product decisions.
+* Collateral Updates
+  * Involve SMEs in updating or creating FAQs for the handbook to ensure accurate and up-to-date information.
+  * Review the topics for the next Technical Skills exchange.
+* SME Enablement Updates
+  * Organize opportunities for SMEs to shadow Product Managers to better understand the product development process and decision-making.
+  * PMs can engage requst SMEs to participate in beta programs to test and provide feedback on new features before general release.
+  * PMs to demo, enable, or solicit feedback from SMEs on upcoming changes, or even solicit beta participants for future functionality.  
+  * PMs to update roadmap presentations, walk through any new functionality, and share with SMEs so that they can deliver roadmap presentations as appropriate.
 
 ---
 
-### **Regional SME Corner Updates**
+### **Regional SME Corner Updates** {#sme-corner}
 
 The SMEs during their regional SA calls should have an opportunity to provide updates or get feedback from the SAs within the region.
 
@@ -113,9 +123,28 @@ The SMEs during their regional SA calls should have an opportunity to provide up
 
 ---
 
+### **Technical Skills Exchange** {#sme-tech-skills}
+
+The [Technical Skills Exchange initiative](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2800) should be supported by all SMEs.
+
+* On a bi-weekly basis, PMs and SMEs can meet to enable the SA and CSM community, to facilitate demos, and update the SA, and CS org on topics that can reduce the gap of knowledge the field has.
+* SMEs should use the Technical Skills Exchange to suggest and present on topics, as appropriate.  This is the forum by which SMEs can learn and share their knowledgein the form of demos, mini workshops, and other formats.
+* The SME Area is responsibile to ensure that recordings are categorized by Area: AI, App Security, Agile, Dedicated, CICD, Observation and placed in HighSpot or in the Handbook to form a list of resources by which we can onboard and train new SMEs. This should be used by all SME Associates to gain expertise in different areas.
+* Each Technical Skills Exchange, no matter the topic or format, should cover:
+  * Context (Why does this feature exist)
+    * What was the thinking behind the new functionality, why was it needed
+    * What is the experience without this functionality? What would a customer resort to, or risk not having this functionality
+    * Any Architectural principles for implementation.
+  * Solution \<-- What is the GitLab solution/ demo it
+  * Value (What happens when you have 100's of this thing)
+    * What is the value to customers
+    * What are the principles to adopt this at scale.
+
+---
+
 ### **SME Leaders Meeting**
 
-SME Program Lead should meet with al SME Area Leads at least once a quarter
+SME Program Lead should meet with all SME Area Leads at least once a quarter
 
 #### **Audience:**
 

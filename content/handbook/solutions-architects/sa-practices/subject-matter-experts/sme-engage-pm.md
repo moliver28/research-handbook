@@ -5,17 +5,43 @@ description: How to engage with product Management
 
 ---
 
-### **Use Case/ Functionality Training/ Beta Programs**
+## How to Engage with Product Management as a SME (TBD)
 
-1. Every month there is a GitLab release. At times there is some major new functionality or use case provided that the SAs need be made aware of.  
-2. While there can be technical enablement for all SAs, the PMs or TPMs should present changes in architecture, new use cases, features and functionalities to SMEs at least once a quarter to give a first look as it were, obtain feedback or solicit meetings with customers for a beta program  
-3. Allow the SMEs to be part of any beta programs also to try and test new functionality  
-4. TPMs and PMs should provide demos, or demo snippets to SMEs to demonstrate new functionality for feedback  
-5. SMEs can also be involved in the updates or creation of FAQs that can be placed in a handbook  
-6. SMEs can guide Demo architects on updates to workshops etc., and help guide SAs on these new features.  
-7. SMEs can also present on regional calls any updates or present at their region's quarterlies.
-
-TODO:
+TODO:  Need to reveiw the processes in tha handbook with Product Management, and determine hwat updates are needed with the introduction of the SME Program.
 
 1. Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
 2. How to [Engage Product Managers](/handbook/product/product-management/\#how-to-engage-product-managers)
+
+As an example, SAs should now [request a SME](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) for the following scenarios as opposed to always engaging or requesting a Product Manager:
+
+1. Invite SMEs to participate in product discovery sessions and strategy workshops to leverage their domain expertise.
+2. Scenario 2
+3. Scenario 3
+
+Product Managers can still be engaged to present roadmaps to the customer (TBD)
+
+---
+
+### **Opportunities to Engage with Product Management**
+
+#### Technial Skills Exchange
+
+1. [During Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/sme-tech-skills)Technical Product Managers and Product Managers to provide demos or demo snippets to SMEs for new functionality feedback.
+
+#### Product Management Roadmap Meetings
+
+1. Monthly meetings between SMEs and Product Managers to discuss upcoming releases, major new functionalities, and gather feedback.
+2. Organize quarterly presentations by Product Managers or Technical Product Managers to SMEs, covering:
+   - Changes in architecture
+   - New use cases
+   - Features and functionalities
+   - Product roadmap updates
+3. Establish a regular cadence for SMEs to review and provide input on product roadmaps, ensuring alignment with customer needs and market trends.
+
+#### SME Slack Channels
+
+1. Product Management should also be included in SME Slack channels to create forum for SMEs to provide ongoing feedback and suggestions to Product Management.
+
+#### SME/Product Management Cadence Meetings
+
+See [SME/ Product Management Cadence Meetings](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-product-cadence) for suggested cadence and agenda.
