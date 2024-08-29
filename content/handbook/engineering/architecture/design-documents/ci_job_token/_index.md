@@ -284,16 +284,16 @@ The following list of permissions was compiled from [this investigation](https:/
 
 **Pypi**
 
-| Permission(s)                                                      | Route                             |
-| -------------                                                      | -----                             |
-| GET `/groups/:id/-/packages/pypi/files/:sha256/*file_identifier`   | `:read_group + :read_package`     |
-| GET `/groups/:id/-/packages/pypi/simple/*package_name`             | `:read_group + :read_package`     |
-| GET `/groups/:id/-/packages/pypi/simple`                           | `:read_group + :read_package`     |
-| POST `/projects/:id/-/packages/pypi/authorize`                     | `:read_project + :create_package` |
-| POST `/projects/:id/-/packages/pypi`                               | `:read_project + :create_package` |
-| GET `/projects/:id/-/packages/pypi/files/:sha256/*file_identifier` | `:read_project + :read_package`   |
-| GET `/projects/:id/-/packages/pypi/simple/*package_name`           | `:read_project + :read_package`   |
-| GET `/projects/:id/-/packages/pypi/simple`                         | `:read_project + :read_package`   |
+| Permission(s)                                                                                                                      | Route                             |
+| -------------                                                                                                                      | -----                             |
+| [Download a package file from a group](https://docs.gitlab.com/ee/api/packages/pypi.html#download-a-package-file-from-a-group)     | `:read_group + :read_package`     |
+| [Group-level simple API index](https://docs.gitlab.com/ee/api/packages/pypi.html#group-level-simple-api-index)                     | `:read_group + :read_package`     |
+| [Group level simple API entry point](https://docs.gitlab.com/ee/api/packages/pypi.html#group-level-simple-api-entry-point)         | `:read_group + :read_package`     |
+| [Download a package file from a project](https://docs.gitlab.com/ee/api/packages/pypi.html#download-a-package-file-from-a-project) | `:read_project + :read_package`   |
+| [Project-level simple API index](https://docs.gitlab.com/ee/api/packages/pypi.html#project-level-simple-api-index)                 | `:read_project + :read_package`   |
+| [Project-level simple API entry point](https://docs.gitlab.com/ee/api/packages/pypi.html#project-level-simple-api-entry-point)     | `:read_project + :read_package`   |
+| [Upload a package](https://docs.gitlab.com/ee/api/packages/pypi.html#upload-a-package)                                             | `:read_project + :create_package` |
+| POST `/projects/:id/-/packages/pypi/authorize`                                                                                     | `:read_project + :create_package` |
 
 **Composer**
 
