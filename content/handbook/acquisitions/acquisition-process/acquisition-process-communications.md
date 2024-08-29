@@ -46,11 +46,10 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Legal
             1. Corporate Development Champion
     1. Company-wide internal Slack Message
-        1. Responsible Team: People Team/Talent Brand & Engagement
+        1. Responsible Team: Communications
         1. Reviewers and Approvers
             1. People Team/Talent Brand & Engagement
             1. Product Champion
-            1. Product Marketing
             1. Legal
             1. Corporate Development Champion
     1. Field Communications & FAQ
