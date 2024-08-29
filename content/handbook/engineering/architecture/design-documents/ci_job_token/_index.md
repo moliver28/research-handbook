@@ -258,19 +258,19 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Download a single artifact file by job ID](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-by-job-id)                                       | `:read_build AND :read_job_artifacts` |
 | [Download a single artifact file from a specific tag or branch](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-from-specific-tag-or-branch) | `:read_build AND :read_job_artifacts` |
 
-##### [Packages](https://docs.gitlab.com/ee/api/packages.html)
+##### Packages
 
-| Route                                                                                            | Permission(s)                     |
-| -----                                                                                            | -------------                     |
-| DELETE `/projects/:id/packages/:package_id/package_files/:package_file_id`                       | `:destroy_package`                |
-| DELETE `/projects/:id/packages/:package_id`                                                      | `:destroy_package`                |
-| GET `/projects/:id/packages/:package_id/pipelines`                                               | `:read_package + :read_pipeline`  |
-| GET `/projects/:id/packages/:package_id/package_files`                                           | `:read_package`                   |
-| GET `/projects/:id/packages/:package_id`                                                         | `:read_package`                   |
-| GET `/projects/:id/packages`                                                                     | `:read_package`                   |
-| PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize` | `:read_project + :create_package` |
-| GET `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           | `:read_project + :read_package`   |
-| PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           | `:read_project`                   |
+| Route                                                                                             | Permission(s)                     |
+| -----                                                                                             | -------------                     |
+| [List packages](https://docs.gitlab.com/ee/api/packages.html#for-a-project)                       | `:read_package`                   |
+| [Get a project package](https://docs.gitlab.com/ee/api/packages.html#for-a-project)               | `:read_package`                   |
+| [List package files](https://docs.gitlab.com/ee/api/packages.html#list-package-files)             | `:read_package`                   |
+| [List package pipelines](https://docs.gitlab.com/ee/api/packages.html#list-package-pipelines)     | `:read_package + :read_pipeline`  |
+| [Delete a project package](https://docs.gitlab.com/ee/api/packages.html#delete-a-project-package) | `:destroy_package`                |
+| [Delete a package file](https://docs.gitlab.com/ee/api/packages.html#delete-a-package-file)       | `:destroy_package`                |
+| PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize`  | `:read_project + :create_package` |
+| GET `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`            | `:read_project + :read_package`   |
+| PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`            | `:read_project`                   |
 
 **Maven**
 
