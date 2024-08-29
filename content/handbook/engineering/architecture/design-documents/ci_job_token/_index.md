@@ -297,13 +297,12 @@ The following list of permissions was compiled from [this investigation](https:/
 
 **Composer**
 
-| Permission(s)                                         | Route             |
-| -------------                                         | -----             |
-| POST `/projects/:id/packages/composer`                | `:create_package` |
-| GET `/group/:id/-/packages/composer/:package_name`    | `:read_group`     |
-| GET `/group/:id/-/packages/composer/p/:sha`           | `:read_group`     |
-| GET `/group/:id/-/packages/composer/p2/:package_name` | `:read_group`     |
-| GET `/group/:id/-/packages/composer/package`          | `:read_group`     |
+| Permission(s)                                                                                            | Route             |
+| -------------                                                                                            | -----             |
+| [Base repository request](https://docs.gitlab.com/ee/api/packages/composer.html#base-repository-request) | `:read_group`     |
+| [V1 packages list](https://docs.gitlab.com/ee/api/packages/composer.html#v1-packages-list)               | `:read_group`     |
+| [V2 Package Metadata](https://docs.gitlab.com/ee/api/packages/composer.html#v2-package-metadata)         | `:read_group`     |
+| [Create a package](https://docs.gitlab.com/ee/api/packages/composer.html#create-a-package)               | `:create_package` |
 
 **NPM**
 
