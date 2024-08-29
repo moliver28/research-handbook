@@ -529,11 +529,6 @@ To create the contract:
 GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
 
 - India
-- Phillipines
-- Kenya
-- Costa Rica
-- Latvia
-- Chile
 
 The process for creating and sending an agreement is as follows:
 
@@ -564,7 +559,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 
