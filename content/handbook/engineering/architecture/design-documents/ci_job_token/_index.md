@@ -260,85 +260,84 @@ The following list of permissions was compiled from [this investigation](https:/
 
 ##### [Packages](https://docs.gitlab.com/ee/api/packages.html)
 
-| Permission(s)                     | Route                                                                                            |
-| -------------                     | -----                                                                                            |
-| `:destroy_package`                | DELETE `/projects/:id/packages/:package_id/package_files/:package_file_id`                       |
-| `:destroy_package`                | DELETE `/projects/:id/packages/:package_id`                                                      |
-| `:read_package + :read_pipeline`  | GET `/projects/:id/packages/:package_id/pipelines`                                               |
-| `:read_package`                   | GET `/projects/:id/packages/:package_id/package_files`                                           |
-| `:read_package`                   | GET `/projects/:id/packages/:package_id`                                                         |
-| `:read_package`                   | GET `/projects/:id/packages`                                                                     |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize` |
-| `:read_project + :read_package`   | GET `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
-| `:read_project`                   | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           |
+| Route                                                                                            | Permission(s)                     |
+| -----                                                                                            | -------------                     |
+| DELETE `/projects/:id/packages/:package_id/package_files/:package_file_id`                       | `:destroy_package`                |
+| DELETE `/projects/:id/packages/:package_id`                                                      | `:destroy_package`                |
+| GET `/projects/:id/packages/:package_id/pipelines`                                               | `:read_package + :read_pipeline`  |
+| GET `/projects/:id/packages/:package_id/package_files`                                           | `:read_package`                   |
+| GET `/projects/:id/packages/:package_id`                                                         | `:read_package`                   |
+| GET `/projects/:id/packages`                                                                     | `:read_package`                   |
+| PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize` | `:read_project + :create_package` |
+| GET `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           | `:read_project + :read_package`   |
+| PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`           | `:read_project`                   |
 
-Maven
+**Maven**
 
-| Permission(s)                     | Route                                                                                            |
-| -------------                     | -----                                                                                            |
-| `:read_group + :read_package`     | GET `/groups/:id/-/packages/maven/*path/:file_name`                                              |
-| `:read_group + :read_package`     | GET `/groups/:id/-/packages/maven/*path/:file_name`                                              |
-| `:read_package`                   | GET `/packages/maven/*path/:file_name`                                                           |
-| `:read_package`                   | GET `/packages/maven/*path/:file_name`                                                           |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                    |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                    |
-| `:read_project + :create_package` | PUT `/projects/:id/packages/maven/*path/:file_name`                                              |
-| `:read_project + :read_package`   | GET `/projects/:id/packages/maven/*path/:file_name`                                              |
-| `:read_project + :read_package`   | GET `/projects/:id/packages/maven/*path/:file_name`                                              |
-| `:read_project`                   | PUT `/projects/:id/packages/maven/*path/:file_name`                                              |
+| Permission(s)                                                 | Route                             |
+| -------------                                                 | -----                             |
+| GET `/groups/:id/-/packages/maven/*path/:file_name`           | `:read_group + :read_package`     |
+| GET `/groups/:id/-/packages/maven/*path/:file_name`           | `:read_group + :read_package`     |
+| GET `/packages/maven/*path/:file_name`                        | `:read_package`                   |
+| GET `/packages/maven/*path/:file_name`                        | `:read_package`                   |
+| PUT `/projects/:id/packages/maven/*path/:file_name/authorize` | `:read_project + :create_package` |
+| PUT `/projects/:id/packages/maven/*path/:file_name/authorize` | `:read_project + :create_package` |
+| PUT `/projects/:id/packages/maven/*path/:file_name`           | `:read_project + :create_package` |
+| GET `/projects/:id/packages/maven/*path/:file_name`           | `:read_project + :read_package`   |
+| GET `/projects/:id/packages/maven/*path/:file_name`           | `:read_project + :read_package`   |
+| PUT `/projects/:id/packages/maven/*path/:file_name`           | `:read_project`                   |
 
-Pypi
+**Pypi**
 
-| Permission(s)                     | Route                                                                                            |
-| -------------                     | -----                                                                                            |
-| `:read_group + :read_package`     | GET `/groups/:id/-/packages/pypi/files/:sha256/*file_identifier`                                 |
-| `:read_group + :read_package`     | GET `/groups/:id/-/packages/pypi/simple/*package_name`                                           |
-| `:read_group + :read_package`     | GET `/groups/:id/-/packages/pypi/simple`                                                         |
-| `:read_project + :create_package` | POST `/projects/:id/-/packages/pypi/authorize`                                                   |
-| `:read_project + :create_package` | POST `/projects/:id/-/packages/pypi`                                                             |
-| `:read_project + :read_package`   | GET `/projects/:id/-/packages/pypi/files/:sha256/*file_identifier`                               |
-| `:read_project + :read_package`   | GET `/projects/:id/-/packages/pypi/simple/*package_name`                                         |
-| `:read_project + :read_package`   | GET `/projects/:id/-/packages/pypi/simple`                                                       |
+| Permission(s)                                                      | Route                             |
+| -------------                                                      | -----                             |
+| GET `/groups/:id/-/packages/pypi/files/:sha256/*file_identifier`   | `:read_group + :read_package`     |
+| GET `/groups/:id/-/packages/pypi/simple/*package_name`             | `:read_group + :read_package`     |
+| GET `/groups/:id/-/packages/pypi/simple`                           | `:read_group + :read_package`     |
+| POST `/projects/:id/-/packages/pypi/authorize`                     | `:read_project + :create_package` |
+| POST `/projects/:id/-/packages/pypi`                               | `:read_project + :create_package` |
+| GET `/projects/:id/-/packages/pypi/files/:sha256/*file_identifier` | `:read_project + :read_package`   |
+| GET `/projects/:id/-/packages/pypi/simple/*package_name`           | `:read_project + :read_package`   |
+| GET `/projects/:id/-/packages/pypi/simple`                         | `:read_project + :read_package`   |
 
-Composer
+**Composer**
 
-| Permission(s)                     | Route                                                                                            |
-| -------------                     | -----                                                                                            |
-| `:create_package`                 | POST `/projects/:id/packages/composer`                                                           |
-| `:read_group`                     | GET `/group/:id/-/packages/composer/:package_name`                                               |
-| `:read_group`                     | GET `/group/:id/-/packages/composer/p/:sha`                                                      |
-| `:read_group`                     | GET `/group/:id/-/packages/composer/p2/:package_name`                                            |
-| `:read_group`                     | GET `/group/:id/-/packages/composer/package`                                                     |
+| Permission(s)                                         | Route             |
+| -------------                                         | -----             |
+| POST `/projects/:id/packages/composer`                | `:create_package` |
+| GET `/group/:id/-/packages/composer/:package_name`    | `:read_group`     |
+| GET `/group/:id/-/packages/composer/p/:sha`           | `:read_group`     |
+| GET `/group/:id/-/packages/composer/p2/:package_name` | `:read_group`     |
+| GET `/group/:id/-/packages/composer/package`          | `:read_group`     |
 
-NPM
+**NPM**
 
-| Permission(s)                     | Route                                                                                            |
-| -------------                     | -----                                                                                            |
-| `:create_package`                 | POST `/groups/:id/-/packages/npm/*package_name/dist-tags`                                        |
-| `:create_package`                 | POST `/projects/:id/-/packages/npm/*package_name/dist-tags`                                      |
-| `:create_package`                 | PUT `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                    |
-| `:create_package`                 | PUT `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                                  |
-| `:destroy_package`                | DELETE `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`                                 |
-| `:destroy_package`                | DELETE `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`                               |
-| `:read_package`                   | GET `/groups/:id/-/packages/npm/*package_name/dist-tags`                                         |
-| `:read_package`                   | GET `/groups/:id/-/packages/npm/*package_name`                                                   |
-| `:read_package`                   | GET `/projects/:id/packages/npm/*package_name/-/*file_name`                                      |
-| `:read_package`                   | GET `/projects/:id/packages/npm/*package_name`                                                   |
-| `:read_package`                   | GET `/projects/:id/packages/npm/-/package/*package_name/dist-tags`                               |
-| `:read_package`                   | POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                              |
-| `:read_package`                   | POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                 |
-| `:read_package`                   | POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                            |
-| `:read_package`                   | POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`                               |
+| Permission(s)                                                         | Route              |
+| -------------                                                         | -----              |
+| POST `/groups/:id/-/packages/npm/*package_name/dist-tags`             | `:create_package`  |
+| POST `/projects/:id/-/packages/npm/*package_name/dist-tags`           | `:create_package`  |
+| PUT `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`         | `:create_package`  |
+| PUT `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`       | `:create_package`  |
+| DELETE `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`      | `:destroy_package` |
+| DELETE `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`    | `:destroy_package` |
+| GET `/groups/:id/-/packages/npm/*package_name/dist-tags`              | `:read_package`    |
+| GET `/groups/:id/-/packages/npm/*package_name`                        | `:read_package`    |
+| GET `/projects/:id/packages/npm/*package_name/-/*file_name`           | `:read_package`    |
+| GET `/projects/:id/packages/npm/*package_name`                        | `:read_package`    |
+| GET `/projects/:id/packages/npm/-/package/*package_name/dist-tags`    | `:read_package`    |
+| POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`   | `:read_package`    |
+| POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`      | `:read_package`    |
+| POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk` | `:read_package`    |
+| POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`    | `:read_package`    |
 
-Go mod
+**Go mod**
 
-| Permission(s)                     | Route                                                                                            |
-| -------------                     | -----                                                                                            |
-| `:read_package`                   | GET `/projects/:id/packages/go/*module_name/@v/:module_version.info`                             |
-| `:read_package`                   | GET `/projects/:id/packages/go/*module_name/@v/:module_version.mod`                              |
-| `:read_package`                   | GET `/projects/:id/packages/go/*module_name/@v/:module_version.zip`                              |
-| `:read_package`                   | GET `/projects/:id/packages/go/*module_name/@v/list`                                             |
-
+| Permission(s)                                                        | Route           |
+| -------------                                                        | -----           |
+| GET `/projects/:id/packages/go/*module_name/@v/:module_version.info` | `:read_package` |
+| GET `/projects/:id/packages/go/*module_name/@v/:module_version.mod`  | `:read_package` |
+| GET `/projects/:id/packages/go/*module_name/@v/:module_version.zip`  | `:read_package` |
+| GET `/projects/:id/packages/go/*module_name/@v/list`                 | `:read_package` |
 
 ##### Releases
 
