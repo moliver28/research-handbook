@@ -14,7 +14,9 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 
 ## Foundational Knowledge
 
-[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
+[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)
+
+- Provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 
 [Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
 
@@ -88,7 +90,9 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
   - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Please refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
-  - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab.  Check out the README for further guidance.
+  - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab. Check out the README for further info.
+- [GitLab Learn Labs - Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) (GitLab Project)
+  - A collection of always up-to-date workshops. These can be used either individually for self-learning, delivered for customers as hands-on workshops or serve as a basis for in-depth demos. Check out the README for further info.
 - [Building Pipelines Episode 011](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Video)
   - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
