@@ -323,14 +323,14 @@ The following list of permissions was compiled from [this investigation](https:/
 | POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                                            | `:read_package`    |
 | POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                               | `:read_package`    |
 
-**Go mod**
+**Go Proxy**
 
-| Permission(s)                                                        | Route           |
-| -------------                                                        | -----           |
-| GET `/projects/:id/packages/go/*module_name/@v/:module_version.info` | `:read_package` |
-| GET `/projects/:id/packages/go/*module_name/@v/:module_version.mod`  | `:read_package` |
-| GET `/projects/:id/packages/go/*module_name/@v/:module_version.zip`  | `:read_package` |
-| GET `/projects/:id/packages/go/*module_name/@v/list`                 | `:read_package` |
+| Permission(s)                                                                                          | Route           |
+| -------------                                                                                          | -----           |
+| [List packages](https://docs.gitlab.com/ee/api/packages/go_proxy.html#list)                            | `:read_package` |
+| [Version metadata](https://docs.gitlab.com/ee/api/packages/go_proxy.html#version-metadata)             | `:read_package` |
+| [Download module file](https://docs.gitlab.com/ee/api/packages/go_proxy.html#download-module-file)     | `:read_package` |
+| [Download module source](https://docs.gitlab.com/ee/api/packages/go_proxy.html#download-module-source) | `:read_package` |
 
 ##### Releases
 
