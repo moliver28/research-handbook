@@ -639,7 +639,7 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## AMER Field Marketing Swag
 
-The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Boundless](https://www.boundlessnetwork.com/), and their contracted warehouse, [A51 Logistics](https://a51logistics.weebly.com/) for all of our swag and event asset requirements. Boundless is available to produce, ship and store swag and event assets.
+The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Brilliantmade](https://www.brilliantmade.com/), and their contracted warehouse, [A51 Logistics](https://a51logistics.weebly.com/) for all of our swag and event asset requirements. Boundless is available to produce, ship and store swag and event assets.
 
 ### Boundless Portal
 
