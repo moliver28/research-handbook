@@ -71,3 +71,23 @@ When team members return from military service, they will be entitled to return 
 Team members should first review their own country's Military Leave policies to ensure they are reporting their leave in accordance with any reporting requirements. Whenever possible team members need to provide at least 30 days advanced notice by selecting `Mandatory Civilian Service` in Time Off by Deel. GitLab reserves the right to request documentation related to the team member's Military service. The Absence Management Team will contact you if documentation is needed.
 
 - For any questions about how to initiate a military leave or requests for reinstatement, please contact the Absence Management team (`leaves@gitlab.com`). For GitLab Inc or GitLab Federal team members, please additionally review the [Military Leave]({{< ref "us#military-leave" >}}) policy.
+
+#### Unpaid leave
+
+GitLab does not have a process to request an extended (unpaid) leave. But in general, you should talk to your manager before requesting an extended leave. 
+
+##### Unpaid leave after 5 years of employment
+
+After 5 years of continuous employment at GitLab, team members are eligible for an unpaid leave of absence for up to 4 months. This leave should be always discussed with your manager, but in general it should be approved. To request this leave:
+
+1. Discuss the possibility with your manager at least 2 months in advance.
+2. If approved by your manager, contact the Absence Management team at `leaves@gitlab.com` to initiate the process.
+3. The Absence Management team will review your eligibility and provide guidance on next steps.
+
+During this unpaid leave:
+- Your job will be protected, and you will be able to return to your position upon the conclusion of the leave.
+- You are still employer of GitLab but you are responsible for social and health insurance contributions.
+- Stock options will not be vesting for the duration of the leave, they will start vesting again once you return to your position.
+
+This leave is separate from and does not replace any statutory leaves you may be entitled to. It is designed to provide long-term team members with additional flexibility for personal or professional development, extended travel, or other personal reasons. One of the main reasons employers can benefit from this leave is preventing burn-out.
+
