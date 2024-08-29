@@ -306,23 +306,22 @@ The following list of permissions was compiled from [this investigation](https:/
 
 **NPM**
 
-| Permission(s)                                                         | Route              |
-| -------------                                                         | -----              |
-| POST `/groups/:id/-/packages/npm/*package_name/dist-tags`             | `:create_package`  |
-| POST `/projects/:id/-/packages/npm/*package_name/dist-tags`           | `:create_package`  |
-| PUT `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`         | `:create_package`  |
-| PUT `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`       | `:create_package`  |
-| DELETE `/groups/:id/-/packages/npm/*package_name/dist-tags/:tag`      | `:destroy_package` |
-| DELETE `/projects/:id/-/packages/npm/*package_name/dist-tags/:tag`    | `:destroy_package` |
-| GET `/groups/:id/-/packages/npm/*package_name/dist-tags`              | `:read_package`    |
-| GET `/groups/:id/-/packages/npm/*package_name`                        | `:read_package`    |
-| GET `/projects/:id/packages/npm/*package_name/-/*file_name`           | `:read_package`    |
-| GET `/projects/:id/packages/npm/*package_name`                        | `:read_package`    |
-| GET `/projects/:id/packages/npm/-/package/*package_name/dist-tags`    | `:read_package`    |
-| POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`   | `:read_package`    |
-| POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`      | `:read_package`    |
-| POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk` | `:read_package`    |
-| POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`    | `:read_package`    |
+| Permission(s)                                                                                                    | Route              |
+| -------------                                                                                                    | -----              |
+| [Project-level: Download a package](https://docs.gitlab.com/ee/api/packages/npm.html#download-a-package)         | `:read_package`    |
+| [Project-level: Upload a package](https://docs.gitlab.com/ee/api/packages/npm.html#upload-a-package-file)        | `:create_package`  |
+| [Group-level: Package Metadata](https://docs.gitlab.com/ee/api/packages/npm.html#metadata)                       | `:read_package`    |
+| [Project-level: Package Metadata](https://docs.gitlab.com/ee/api/packages/npm.html#metadata)                     | `:read_package`    |
+| [Group-level: List tags](https://docs.gitlab.com/ee/api/packages/npm.html#list-tags)                             | `:read_package`    |
+| [Project-level: List tags](https://docs.gitlab.com/ee/api/packages/npm.html#list-tags)                           | `:read_package`    |
+| [Group-level: Create or update a tag](https://docs.gitlab.com/ee/api/packages/npm.html#create-or-update-a-tag)   | `:create_package`  |
+| [Project-level: Create or update a tag](https://docs.gitlab.com/ee/api/packages/npm.html#create-or-update-a-tag) | `:create_package`  |
+| [Group-level: Delete a tag](https://docs.gitlab.com/ee/api/packages/npm.html#delete-a-tag)                       | `:destroy_package` |
+| [Group-level: Delete a tag](https://docs.gitlab.com/ee/api/packages/npm.html#delete-a-tag)                       | `:destroy_package` |
+| POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                                              | `:read_package`    |
+| POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                                 | `:read_package`    |
+| POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                                            | `:read_package`    |
+| POST `/projects/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                               | `:read_package`    |
 
 **Go mod**
 
