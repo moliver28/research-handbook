@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-GitLab is one of the world's largest all-remote companies with over 1,500 [team members](/handbook/company/team/) located in more than 65 countries around the world.
+GitLab is one of the world's largest all-remote companies with over 2,000 [team members](/handbook/company/team/) located in more than 65 countries around the world.
 
 Our all-remote workforce implementation is featured in [The Journal of Organizational Design](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8). It is also the centerpiece of case studies authored by [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://publishing.insead.edu/case/gitlab).
 
