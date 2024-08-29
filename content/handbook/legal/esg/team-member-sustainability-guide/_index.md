@@ -3,12 +3,12 @@ aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
-
+Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072)
 ## Introduction
 
-The GitLab Team Member Sustainability Guide provides guidance for team members to reduce their impact on the global environment. As a fully remote workforce without daily commutes or physical offices, GitLab doesn't have the typical environmental footprint that many other companies have. That doesn't mean we don't have an environmental impact, and this guide helps team members identify ways that they can reduce carbon emissions.
+Welcome to the first iteration of GitLab's Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don't have the typical environmental footprint that many other companies have, but that doesn't mean we don't have an environmental impact.
 
-[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
+[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, investments, and **emissions associated with remote work**.
 
 Working remotely comes with its own sustainability challenges and opportunities. For example, our laptops, monitors and lamps use energy that generates carbon emissions. The meals we eat during our work day generate waste that may end up in a landfill. The purpose of this guide is to provide actionable steps for team members to take at home to reduce individual environmental impact.
 
@@ -33,7 +33,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 2. Replace traditional heating systems, such as furnaces, boilers and baseboards with a heat pump. [Heat pumps](https://www.energy.gov/energysaver/heat-pump-systems) are 2-3x more efficient than traditional heating systems.<sup>4</sup>
 3. Turn your thermostat down. You can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting.<sup>5</sup>
 4. Insulate your home. A leaky home is expensive! You can cut your utility bills by $500 - $1,000 just by sealing leaky windows and doors.<sup>6</sup> One easy way to do this is to use weather strips to seal windows and doors to prevent energy leakage. Check out [this guide](https://energysavingtrust.org.uk/energy-at-home/reducing-home-heat-loss/) from Energy Savings Trust for more information on other ways to insulate your home.
-5. Switch to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). These are more energy efficient than conventional storage tank water heaters.<sup>7</sup>
+5. Consider switching to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). Typically, these are more energy efficient than conventional storage tank water heaters. Check with a contractor to ensure compatibility with your heat source.<sup>7</sup>
 
 ## Waste
 
