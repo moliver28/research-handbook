@@ -297,13 +297,13 @@ The following list of permissions was compiled from [this investigation](https:/
 
 **Maven**
 
-| Permission(s)                                                                                                                                                                    | Route                             |
-| -------------                                                                                                                                                                    | -----                             |
-| [Download a package file at the instance level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-instance-level)                                | `:read_package`                   |
-| [Download a package file at the group level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-group-level)                                      | `:read_group + :read_package`     |
-| [Download a package file at the project level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-project-level)  `:read_project + :read_package` |                                   |
-| [Upload a package file](https://docs.gitlab.com/ee/api/packages/maven.html#upload-a-package-file)  `:read_project + :create_package`                                             |                                   |
-| PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                                                                                                    | `:read_project + :create_package` |
+| Permission(s)                                                                                                                                     | Route                             |
+| -------------                                                                                                                                     | -----                             |
+| [Download a package file at the instance level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-instance-level) | `:read_package`                   |
+| [Download a package file at the group level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-group-level)       | `:read_group + :read_package`     |
+| [Download a package file at the project level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-project-level)   | `:read_project + :read_package`   |
+| [Upload a package file](https://docs.gitlab.com/ee/api/packages/maven.html#upload-a-package-file)                                                 | `:read_project + :create_package` |
+| PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                                                                     | `:read_project + :create_package` |
 
 **Pypi**
 
