@@ -8,7 +8,8 @@ The Plan:Knowledge team develops [Knowledge Management categories](handbook/prod
 
 - Wiki
 - GitLab Pages
-- Rich Text Editor and Markdown
+- Text Editors
+- Markdown
 
 Learn more on our [direction page](https://about.gitlab.com/direction/plan/knowledge/).
 
