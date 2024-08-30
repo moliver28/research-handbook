@@ -161,16 +161,3 @@ When a new SME for any area is selected, the following steps will be taken:
 2. Add the SME to the appropriate Stack OverFlow team area to begin answering questions
 3. Add the SME to the appropriate [SME Slack Channel](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)
 4. TBD
-
-## New SME Areas Selection and Onboarding
-
-TBD \- Define the process of adding new Program Areas to SME Process in the future (e.g. MLOps, Observability)
-
-* List of [slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)  
-* List of issue labels  
-* List of Stack Overflow teams  
-* List of Google groups  
-* Selection of SME Area Leads, SMEs  
-* Who decides on new SME Area  
-* Rollout to SA and CS Community  
-* Enrolling PMs

@@ -17,12 +17,13 @@ The goals of the SME Program are:
 
 In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
 
-1. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
-2. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
-3. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
-4. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
-5. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
-6. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)
+1. [SME Operations - Collab Project, Groups, Slack Channels](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
+2. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
+3. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
+4. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
+5. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
+6. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
+7. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)
 
 \*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
