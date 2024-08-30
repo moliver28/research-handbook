@@ -24,32 +24,32 @@ description: "Tableau at GitLab"
 
 ## Terms and Definitions
 
-- Connections: The method Tableau used to communicate with a source of data.
-  - Direct to Source: When Tableau uses a built in connector to communicate with source of data like Snowflake or Google Drive.
-  - Virtual Connection: A curated connection where the communication to the source of data has been set by the admin team.  Will generally simulate a Direct to Source connection.
-  - Published Data Source: A curated connection to a single tableau that is the result of data modeling. It is stored on Tableau Online.
-  - Connect to A File: A method of getting data from the files in your system into Tableau. This includes Excel files, CSV, PDF, etc.
-  - Connect to A Server: A method of connecting to an online data source. This includes any connection to any online data sources, including Tableau Online and Snowflake
-- Connection Credentials: The information used to certify connection to a source of data.
-  - Embedded: Credentials are saved as part of the connection.
-  - Prompt User: Credentials must be input every time the connection is used.
-- Connection Freshness: Determines how often a connection will communicate with the source of data.
-  - Live: Will send a query to the source of data each time the data is needed.
-  - Extract: Well send a query when prompted to the source of data storing the result in custom micro database.
-  - Scheduled Extract: An extract hosted on Tableau Online that will, on a fixed frequency, communicate with the source of data and update the stored data.
-- Data Modeling: The method of combining multiple tables of data into a single result table.
-  - Data Warehouse: The query to combine the table is stored in the data warehouse repository and is materialized in the data warehouse.
-  - Tableau Data Modeling: Relationships are defined between tables, in the connection interface, directly in Tableau.
-  - Tableau Blending: Relationships between data sources defined in the visualization construction interface.
-  - Custom SQL: Using SQL within a connection to define the relationships between tables.
-- Tableau Objects: The elements that a developer will work with to create visualizations.
-  - Project: The folder structure maintained in Tableau Online.  This is where content permissions are administered.
-  - Workbook: The base file time for creating visitations.
-    - View: The element that represent a chart or other visualization.
-    - Dashboard: A collection of views and layout elements.
-    - Story: A collection of views and layout elements where the views can be set to a specific filter or parameter value and displayed in a sequential structure.
-  - Data Source: A collection of connections and data modeling that results in a single result table that can be published and a stand alone file.
-  - Flow: A collection of connections and transformation steps that will typically result in creating one or more Data Sources.
+- **Connections:** The method Tableau used to communicate with a source of data.
+  - **Direct to Source:** When Tableau uses a built in connector to communicate with source of data like Snowflake or Google Drive.
+  - **Virtual Connection:** A curated connection where the communication to the source of data has been set by the admin team.  Will generally simulate a Direct to Source connection.
+  - **Published Data Source:** A curated connection to a single tableau that is the result of data modeling. It is stored on Tableau Online.
+  - **Connect to A File:** A method of getting data from the files in your system into Tableau. This includes Excel files, CSV, PDF, etc.
+  - **Connect to A Server:** A method of connecting to an online data source. This includes any connection to any online data sources, including Tableau Online and Snowflake
+- **Connection Credentials:** The information used to certify connection to a source of data.
+  - **Embedded:** Credentials are saved as part of the connection.
+  - **Prompt User:** Credentials must be input every time the connection is used.
+- **Connection Freshness:** Determines how often a connection will communicate with the source of data.
+  -**Live:** Will send a query to the source of data each time the data is needed.
+  - **Extract:** Well send a query when prompted to the source of data storing the result in custom micro database.
+  - **Scheduled Extract:** An extract hosted on Tableau Online that will, on a fixed frequency, communicate with the source of data and update the stored data.
+- **Data Modeling:** The method of combining multiple tables of data into a single result table.
+  - **Data Warehouse:** The query to combine the table is stored in the data warehouse repository and is materialized in the data warehouse.
+  - **Tableau Data Modeling:** Relationships are defined between tables, in the connection interface, directly in Tableau.
+  - **Tableau Blending:** Relationships between data sources defined in the visualization construction interface.
+  - **Custom SQL:** Using SQL within a connection to define the relationships between tables.
+- **Tableau Objects:** The elements that a developer will work with to create visualizations.
+  - **Project:** The folder structure maintained in Tableau Online.  This is where content permissions are administered.
+  - **Data Source:** A collection of connections and data modeling that results in a single result table that can be published and a stand alone file.
+  - **Flow:** A collection of connections and transformation steps that will typically result in creating one or more Data Sources. A Flow is created using the Tableau application called Prep which performs data transformations. Some individuals may use the works Prep and Flow interchangeably. At GitLab we prefer all transformations go through DBT at the Data Warehosue Level.
+  - **Workbook:** The base file time for creating visitations.
+    - **View:** The element that represent a chart or other visualization.
+    - **Dashboard:** A collection of views and layout elements.
+    - **Story:** A collection of views and layout elements where the views can be set to a specific filter or parameter value and displayed in a sequential structure.
 
 ## Roadmap
 
@@ -83,13 +83,13 @@ Having completed the migration to Tableau in FY25-Q1, we are now focused on impr
   - Accelerate certified data source creation with support from Functional Analytics teams, publishing X additional certified data sources
   - Repoint X dashboards to leverage certified data sources
   - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
-  - Refresh assessment of Tableau environment and quantative metrics for Tableau health
+  - Refresh assessment of Tableau environment and quantitative metrics for Tableau health
 
 ## Governance Model
 
 Governance is the combination of controls, roles, and repeatable processes that creates trust and confidence in data and analytics. Both IT and business stakeholders on the project team are responsible for defining data and content governance together. In a successful self-service environment, the appropriate levels of governance create accountability and enable, rather than restrict, access to trusted content for users at GitLab. Governance is a spectrum, different kinds of data and content require different kinds of governance. It's not a one-time effort because skills and expectations will evolve. Periodically evaluating governance processes will allow us to evolve and delegate more responsibilities as new analytical skills and use cases develop.
 
-We use a self-governing model at GitLab. In a self-governing model, there is strong collaboration between IT and business users. Certified content and data sources are available, and ad-hoc content is being created regularly by Creators and Explorers. Viewers understand the delineation between certified, ad-hoc, and sandbox content states. The process of validation, promotion, and certification is well-defined and well-understood by users of all skill levels. With increasing analytical skills across the organization, the boundaries between the roles of the Modern Analytics Workflow are fluid as users switch from consuming to creating to promoting content with the appropriate level of permissions.
+We use a self-governing model at GitLab. In a self-governing model, there is strong collaboration between IT and business users. Certified content and data sources are available, and one off content is being created regularly by Creators and Explorers. Viewers understand the delineation between certified, one off, and sandbox content states. The process of validation, promotion, and certification is well-defined and well-understood by users of all skill levels. With increasing analytical skills across the organization, the boundaries between the roles of the Modern Analytics Workflow are fluid as users switch from consuming to creating to promoting content with the appropriate level of permissions.
 
 ### BIOps
 
@@ -102,7 +102,6 @@ The Project Architecture in Tableau Online is replicated and governed in the Git
 The top-level folders in our Tableau Project, and their corresponding levels of governance, include:
 
 - `Development`: content in this folder intentionally includes no governance, in order to enable users to quickly prototype. As such it should be considered to be sandbox content.
-- `Ad Hoc`: content in this folder has been reviewed and approved by a sub-project leader, with traceability via an MR. (see [project-permission-structure](handbook/it/data-team/platform/tableau/#biops-roles-and-responsibilities) for a list of sub-project leaders.)
 - `Production`: content in this folder has been reviewed and approved by sub-project leader(s) as well as project leader(s). This is the highest level of certification for Tableau content.
 - `Resources`: content in this folder includes workbook templates and certified data sources that can be used in workbook development
 
@@ -110,7 +109,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 <summary><b>Project and Sub-Project Folder Descriptions</b></summary>
 
-- **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are four top level projects; Production, Ad-hoc, Development, and Resources. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content, an Ad-hoc path to view Ad-Hoc content, a development path to view sandbox content, or a resources path to access workbook templates and certified data sources to be used in workbook development.
+- **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are three top level projects; Production, Development, and Resources. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content, development path to view sandbox content, or a resources path to access workbook templates and certified data sources to be used in workbook development.
   - **2nd Level Sub-Project Folders:** **The 2nd level project provides who the primary owner of the workbook is.** This level of the architecture contains sub-projects for each department and cross-functional business motion such as the Go To Market Motion. Each department and cross-functional business motion will have their own sub-project. This gives us flexibility to create different types of security at the sub-project level based on specific departmental and business motion needs.
     - **3rd Level Sub-Project Folders:**  **The 3rd level project provides security around who can see the workbook.** Our SAFE Data Program is applied on this level of the architecture. This allows us flexibility to apply more security controls, by department, in the future to include enhanced SAFE Data program controls, row and column level security, and security around confidential information. Applying the security at this level will allow for customized, and scalable security programs by department and business motion.
 
@@ -138,23 +137,6 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
             1. Data Source Name
             2. Workbook Name
         1. Workbook Name
-    2. **Data Team**
-    3. **Engineering**
-    4. **Finance**
-    5. **Go To Market**
-    6. **Marketing**
-    7. **People**
-    8. **Product**
-    9. **Sales**
-    10. **Security**
-1. **Ad-hoc** (Maps to our [Ad-Hoc Data Development Process](/handbook/enterprise-data/data-development/#ad-hoc-data-development))
-    1. **Customer Success**
-        1. **General**
-            1. Data Source Name
-            2. Workbook Name
-        1. **SAFE**
-            1. Data Source Name
-            2. Workbook Name
     2. **Data Team**
     3. **Engineering**
     4. **Finance**
@@ -193,7 +175,7 @@ Please see the [project-permission-structure](/handbook/enterprise-data/platform
 
 ### BIOPs Workflows
 
-The BIOps Workflow consists of 4 stages; Access Request, Development, Ad-Hoc Publishing, and Production Publishing. Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) in the GitLab Tableau Project for detailed steps on the workflow to include the process for submitting a Merge Request for Tableau Production publishing, submitting an Issue for Tableau Ad-Hoc publishing, and receiving the necessary maintainer and code owner approvals from Project and Sub-Project leaders for publishing content.
+The BIOps Workflow consists of 3 stages; Access Request, Development, and Production Publishing. Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) in the GitLab Tableau Project for detailed steps on the workflow to include the process for submitting an [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new#) for Tableau Production publishing and receiving the necessary maintainer and code owner approvals from Project and Sub-Project leaders for publishing content.
 
 ```mermaid
 graph LR
@@ -205,9 +187,8 @@ graph LR
 ```
 
 1. **Access Request:** The Access Request stage requires completion of an Access Request. Please see the [Access](/handbook/enterprise-data/platform/tableau/#access) section of the Tableau handbook page for more details.
-2. **Development:** All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing.  **The Development Folder will have the same user experience as our old Sisense BI tool where team members can create and share content on demand without any approvals being required from the BI Platform team.** Tableau Creators should follow [SAFE development workflow guidelines](/handbook/enterprise-data/platform/safe-data/#tableau) when working with MNPI data in the development folder.
-3. **Ad-Hoc Publishing:** When content in the Development Project Folder is ready for publishing, it can be published in the Ad-Hoc Project Folder if it adheres to the [Ad-Hoc Data Development](/handbook/enterprise-data/data-development/#data-development-at-gitlab) methodology. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Ad-Hoc Project Folder.**
-4. **Production Publishing:** When content in the Development or Ad-Hoc Project Folders is ready for Production publishing, it can be published in the Production Project Folder if it adheres to the [Trusted Data Development](/handbook/enterprise-data/data-development/#data-development-at-gitlab) methodology. Content that adheres to the Trusted Data Development process will get a Certified Stamp in Production. If the content does not adhere to the Trusted Data Development requirements, but is still considered SSOT, Production grade content, the content can still be published in Production, but it will not receive a Certified Stamp. In such cases, there should be an issue with a project plan for the Tableau content to receive a Certified Stamp. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Production Project Folder.**
+1. **Development:** All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing.  **The Development Folder will have the same user experience as our old Sisense BI tool where team members can create and share content on demand without any approvals being required from the BI Platform team.** Tableau Creators should follow [SAFE development workflow guidelines](/handbook/enterprise-data/platform/safe-data/#tableau) when working with MNPI data in the development folder.
+1. **Production Publishing:** When content in the Development Project Folders is ready for Production publishing, it can be published in the Production Project Folder if it adheres to the [Trusted Data Development](/handbook/enterprise-data/data-development/#data-development-at-gitlab) methodology. Content that adheres to the Trusted Data Development process will get a Certified Stamp in Production. If the content does not adhere to the Trusted Data Development requirements, but is still considered SSOT, Production grade content, the content can still be published in Production, but it will not receive a Certified Stamp. In such cases, there should be an issue with a project plan for the Tableau content to receive a Certified Stamp. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Production Project Folder.**
 
 ### BIOps Workflow Examples
 
@@ -215,35 +196,7 @@ The flowchart below illustrates 3 examples of the BIOps publication workflow.
 
 In Example 1, a developer is publishing a dashboard to their own **Development** space. No governance or approval is required.
 
-In Example 2, a developer is publishing a dashboard to a sub-folder within the **Ad Hoc** space. This requires review and approval by the project leads (i.e. Functional Team leaders) of the sub-folder the dashboard will be published to. For example, if the developer is publishing a dashboard to the Sales sub-folder within the Ad Hoc space, a Sales sub-project leader will need to review and approve it.
-
 In Example 3, a developer is publishing a dashboard to a sub-folder within the **Production** space. This requires review and approval by the project leaders (i.e. Functional Team leaders) of the sub-folder the dashboard will be published to, *as well as* review and approval by the top-level project leaders (i.e. project leaders from the Enterprise Data Team). For example, if the developer is publishing a dashboard to the Sales sub-folder within the Production space, a Sales sub-project leader will need to review and approve it, and an Enterprise Data Team project leader will need to additionally review and approve it.
-
-```mermaid
-flowchart TD
-    A["Developer creates dashboard"]
-
-    subgraph C["No Approval Required"]
-        p1["Developer publishes\ndashboard"]
-    end
-
-    subgraph D["Requires Functional Approval"]
-        mr1["Developer creates Tableau\nproject issue"] -->
-        mr2["BI Team creates\nMR for approval"] -->
-        mr3["Sub-project leader MR approval\nkicks off dashboard publication"]
-    end
-
-    subgraph E["Requires Functional & BI Team Approval"]
-        mr4["Developer creates Tableau\nproject issue"] -->
-        mr5["Data team creates\nMR for approval"] -->
-        mr6["Sub-project leader\napproves MR"] -->
-        mr7["Project leader's MR approval\nkicks off publication"]
-    end
-
-A --> |to publish to Development|C
-A --> |to publish to Ad Hoc|D
-A --> |to publish to Production|E
-```
 
 ### BI Development Excellence
 
@@ -253,7 +206,7 @@ Tableau Workbooks must satisfy all of the below requirements in order to be publ
 1. The content adheres to the Development workflow.
 1. The content is the Single Source of Truth (SSOT) for a business area. The SSOT should be documented in the handbook either in a Business Domain Handbook Page, Data Guide in the Data Catalog, or both.
 1. Business owner has signed off on both the functionality of the content and the validity of the numbers.
-1. Technical owner has signed off on validity of the numbers.
+1. Technical owner has signed off on the validity of the numbers.
 1. The workbook uses a Certified Virtual Connection or a Certified Published Data Source.
 1. Performance tuning has been performed and the workbook refreshes within 5 minutes max.
 
@@ -275,11 +228,7 @@ Tableau Data Sources that meet all requirements for [Trusted Data Development](/
 
 **Production Publishing SLO**
 
-The BI Platform team will publish production content once a week on Thursday. The due date for submitting content for publishing is Friday of the prior week which allows 4 days for the BI Platform team to review the content and publish it on Thursday of the following week.
-
-**Ad-Hoc Publishing SLO**
-
-The department sub-project leaders will publish ad-hoc content within 24 to 48 hours after it is submitted for publishing.
+Project Leaders are responsible for their respective department folders. They provide review and approvals for requests to promote content to Production.
 
 **Development Publishing SLO**
 
@@ -331,51 +280,28 @@ Limited access user groups will allow business teams to manage accessibility to 
 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
-##### **General SAFE Access**
-
-- This group allows viewing of and development with data that contains material non-pulic information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
+- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
 
-##### **ASM AMER Commercial Restricted Access**
+- **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
 
-- This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
-- Please work with Keith Gliksman @keith.gliksman for access approval.
+- **ASM EMEA Commercial Restricted Access:** This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
 
-##### **ASM EMEA Commercial Restricted Access**
+- **ASM Restricted Access:** Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
 
-- This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
-- Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Customer Success Access:** Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
 
-##### **ASM Restricted Access**
+- **Internal Audit Restricted Access:** Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
 
-- Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
+- **People Restricted Access:** Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
 
-##### **Customer Success Access**
+- \***RSA SAFE Access:** This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
 
-- Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
+- \***Sales Development SAFE Access:** Please work with Keith Gliksman @keith.gliksman for access approval.
 
-##### **Internal Audit Restricted Access**
+- \***Self-Service SAFE Access:** - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
 
-- Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
-
-##### **People Restricted Access**
-
-- Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
-
-##### **RSA SAFE Access**
-
-- This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Team members must be on the Designated Insiders list to be added to this group.
-- Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
-
-##### **Sales Development SAFE Access**
-
-- Team members must be on the Designated Insiders list to be added to this group.
-- Please work with Keith Gliksman @keith.gliksman for access approval.
-
-##### **Self-Service SAFE Access**
-
-- Team members must be on the Designated Insiders list to be added to this group.
-- Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
+*Note: Groups with asterisk are where team members must be on the Designated Insiders list to be added to this group.
 
 <details markdown=1>
 
@@ -408,18 +334,17 @@ users:
 
 #### Project Permission Structure
 
-User Groups are applied at the Project and Sub-Project levels. We have two types of User Groups that we apply, Administrator User Groups and Access Control User Groups. The Admistrator User Group gives permissions relating to what administrative tasks the user can do on the project such as moving content, deleting content, and changing permissions on the project. The Access Control User Group gives permissions relating to what access the user has such as viewing and publishing content.
+User Groups are applied at the Project and Sub-Project levels. We have two types of User Groups that we apply, Administrator User Groups and Access Control User Groups. The Administrator User Group gives permissions relating to what administrative tasks the user can do on the project such as moving content, deleting content, and changing permissions on the project. The Access Control User Group gives permissions relating to what access the user has such as viewing and publishing content.
 
-The Admistrator User Group and the Access Control User Group can be customized to meet the unique needs and requirements of each Project and Sub-Project on the Tableau site. This allows for flexibility to add or customize security controls on an as-needed basis. The assignment of a User Groups permission rule set for a Project or Sub-Project will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
+The Administrator User Group and the Access Control User Group can be customized to meet the unique needs and requirements of each Project and Sub-Project on the Tableau site. This allows for flexibility to add or customize security controls on an as-needed basis. The assignment of a User Groups permission rule set for a Project or Sub-Project will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
 
-No content is published in the top level Production, Ad-Hoc, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production, Ad-Hoc, and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/enterprise-data/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
+No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/enterprise-data/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
 
 The standard permission rules for top level Projects are noted below:
 
 | Project     | View             | Publish             | Administer                      |
 |-------------|------------------|---------------------|---------------------------------|
 | Development | All Team Members | All Team Members    | Project and Sub Project Leaders |
-| Ad-hoc      | All Team Members | Sub Project Leaders | Project Leaders                 |
 | Production  | All Team Members | Project Leaders     | Project Leaders                 |
 | Resources   | All Team Members | Project Leaders     | Project Leaders                 |
 
@@ -590,7 +515,7 @@ Once approved, the BI Platform team will then add the user to the `okta-tableau-
 
 #### Tableau Desktop Access
 
-Creators with an active license to Tableau Online is encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Online. All Creators will be assigned access to Tableau Online and Desktop. The BI Platform team will assign Dekstop keys from the [Licenses](https://customer-portal.tableau.com/s/my-keys) section of the [Tableau Customer Portal](https://customer-portal.tableau.com/s/). Those assigned a Desktop key can follow email instructions from Tableau to set up their client.
+Creators with an active license to Tableau Online are encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Online. All Creators will be assigned access to Tableau Online and Desktop. The BI Platform team will assign Desktop keys from the [Licenses](https://customer-portal.tableau.com/s/my-keys) section of the [Tableau Customer Portal](https://customer-portal.tableau.com/s/). Those assigned a Desktop key can follow email instructions from Tableau to set up their client.
 
 One can download Tableau Desktop using the links below, or follow the link from the [Home Page](https://10az.online.tableau.com/#/site/gitlab/home) of Tableau Online.
 
@@ -601,7 +526,7 @@ If you want to automatically download the latest version of Tableau Desktop for 
 
 ### Tableau Desktop vs. Tableau Cloud
 
-Tableau offers two ways to create / edit workbooks and data sources, either via the Desktop client or Cloud (web) version. However, we recommend to develop in Desktop, as this version will have full functionality for editing and development.
+Tableau offers two ways to create / edit workbooks and data sources, either via the Desktop client or Cloud (web) version. However, we recommend developing in Tableau Desktop, as this version will have full functionality for editing and development.
 
 Benefit of each version:
 
@@ -846,7 +771,7 @@ In addition to the proactive steps we've taken with self-service help resources 
 
 <summary><b>Tableau Office Hours</b></summary>
 
-We hold weekly office hours (8:30-8:55AM PST) for Tableau users to be able to regularly meet and showcase their work, as well as discuss topics / ask questions on anything relating to the tool. Please refer to our running [Meeting Agenda and Question & Answer document](https://docs.google.com/document/d/1i23bIsoupKC7rTepbU2lVXTHB5vxKuAgl07kAQq2EBA/edit) for content covered in our sessions.
+We hold weekly office hours (8:30-8:55 AM PST) for Tableau users to be able to regularly meet and showcase their work, as well as discuss topics / ask questions on anything relating to the tool. Please refer to our running [Meeting Agenda and Question & Answer document](https://docs.google.com/document/d/1i23bIsoupKC7rTepbU2lVXTHB5vxKuAgl07kAQq2EBA/edit) for content covered in our sessions.
 
 For additional troubleshooting support you can [submit a support case](https://kb.tableau.com/articles/howto/submitting-a-case-from-the-customer-portal) to Tableau via the [Customer Portal](http://customer.tableausoftware.com/).
 
@@ -862,7 +787,7 @@ For additional troubleshooting support you can [submit a support case](https://k
 | Tableau Online | Invalid Consent Request when opening a workbook that asks you to log into Snowflake. | If the data source for the workbook was created using Oauth, have the workbook owner republish it using the `Embed password for data source` feature, or alternatively ask the Data Team to switch it to using the service account instead. |
 | Tableau Desktop | When publishing to Tableau Online from Tableau Desktop, all project folders are greyed out. | Click on the `>` icon next to your department's foldername to see the subfolders. You should be able to publish into those subfolders. |
 | Tableau eLearning | Error Message: "Missing Authentication Cookie" |  Change your browser settings as described on the [Skilljar Help Center](https://support.skilljar.com/hc/en-us/articles/360033553054) |
-| Tableau Online or Desktop | When using "Initial SQL": "An error occured when connecting to Snowflake" | To run your own SQL queries in Tableau, don't use the `Initial SQL` functionality. Snowflake doesn't support that in this context. Use `Customer SQL Query` instead. It will be found on the bottom left of the screen after connecting to Snowflake, picking a warehouse and schema. It's found underneath the listed tables. |
+| Tableau Online or Desktop | When using "Initial SQL": "An error occurred when connecting to Snowflake" | To run your own SQL queries in Tableau, don't use the `Initial SQL` functionality. Snowflake doesn't support that in this context. Use `Customer SQL Query` instead. It will be found on the bottom left of the screen after connecting to Snowflake, picking a warehouse and schema. It's found underneath the listed tables. |
 | Tableau Online or Desktop | Error "There was a problem connecting to the data source "Untitled Data Source"" when connecting to Virtual Connections  |  The password for the Snowflake service account expired. For Tableau admins: Connect to Snowflake via Oath as the service account. It will prompt you to change the password. Afterwards, edit all the virtual connections and republish them. |
 | Tableau Online or Desktop | Nondescript error when connecting to Virtual Connections |  The underlying table changed, likely with fields removed. Ask a Tableau admin to Edit the virtual connection, find the affected table/field (check 'Alerts' when editing the virtual connection), and `Exclude` the deleted field. Then republish the virtual connection. |
 | Tableau Desktop | Screen gets stuck on authenticating to Okta when connecting Tableau Desktop to Tableau Online |  Use a Yubikey to connect to Okta when using Tableau Desktop. Fingerprint authentication will not work. |
@@ -890,7 +815,7 @@ For additional troubleshooting support you can [submit a support case](https://k
 1. Post your questions in the `#ext-gitlab-tableau` external slack channel if you need someone from Tableau to look at it.
 1. Post your questions in the [Tableau Community](https://community.tableau.com/s/) to see if someone in the wider Tableau user community has the answer.
 1. Open a support case with [Tableau Support](https://www.tableau.com/support) if you're experiencing a technical issue with the Tableau Online platform or Tableau Desktop.
-    - Anyone can open a support case, however if you want expediated response and resolutions times based on [Tableau Premium Support's](https://www.tableau.com/resources/teams-organizations/premium-support) SLAs ask one of the designated support contacts to open the support case for you instead. Currently the listed contacts are:
+    - Anyone can open a support case, however if you want expedited response and resolutions times based on [Tableau Premium Support's](https://www.tableau.com/resources/teams-organizations/premium-support) SLAs ask one of the designated support contacts to open the support case for you instead. Currently the listed contacts are:
         - `@ttnguyen28`
         - `@snalamaru`
         - `@pempey`
