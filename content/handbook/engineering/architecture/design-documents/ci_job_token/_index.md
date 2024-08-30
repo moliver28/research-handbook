@@ -77,52 +77,37 @@ be determined through [project membership](https://docs.gitlab.com/ee/user/proje
 
 #### Syntax
 
-The exact syntax for defining these permissions is yet to be determined.
-Below are examples of what the syntax could look like:
-
-**Example 1: Ability Name Encoding**
+The precise syntax for defining these permissions has not been finalized.
+However, the following example illustrates what the syntax might look like:
 
 ```yaml
 permissions:
-  read_issue:
+  admin_releases:
+    - project: gitlab-org/gitlab
+  read_containers:
     - project: gitlab-org/gitlab
     - project: self
       confidential: true
-  read_repo:
+  read_packages:
     - project: gitlab-org/gitlab
     - project: gitlab-org/www-gitlab-com
-  create_release:
-    - project: gitlab-org/gitlab
-```
-
-**Example 2: Extended Ability Name Encoding**
-
-```yaml
-permissions:
-  repositories: ["read"]            # read any repository - simple config
-  issues:
-    - allow: ["read", "write"]      # read and write issues on specific project-1 and project-2
-      projects: ["acme/project-1", "acme/project-2"]
-    - allow: ["read"]
-      projects: ["acme/project-3"]  # read issues on project-3
-  packages:
-    - allow: ["download"]
-      projects: "acme/*"            # download packages from any projects in the group
 ```
 
 #### Usage
 
-The permissions defined in the `.gitlab-ci.yml` file **limit** the access
-available during pipeline execution. The user who triggers the CI job must have,
+The permissions defined in the `.gitlab-ci.yml` file **restrict** the access
+available during pipeline execution. The user triggering the CI job must have,
 at a minimum, these permissions to perform the job. The purpose of declaring
 these permissions is to specify the minimal **required** access.
 
 To ensure the job receives a token with the necessary permissions, the user's
 account must be granted these permissions before pipeline execution.
 
-If the user's account lacks the permissions specified in the `permissions` block
-of the `.gitlab-ci.yml` file, the pipeline will fail with an error indicating
-the missing permissions.
+If the user's account lacks the permissions specified in the `permissions`
+block of the `.gitlab-ci.yml` file, a token will be generated with the
+permissions that the user does have access to. This will result in runtime
+failures when API calls are made to endpoints that the user is not authorized
+to access.
 
 When the user has the declared permissions, they will be encoded into an
 ephemeral job token. This token, adhering to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
@@ -134,11 +119,11 @@ This mechanism allows a token to be issued with reduced access, even if the
 user's account has broader permissions.
 
 If the `permissions` section is not specified in the `.gitlab-ci.yml` file, the
-`CI_JOB_TOKEN` will have full access to the user's permissions. This default
-behavior will change in a future major release, where the token will be encoded
-with only the minimum permissions required to complete a build (e.g., updating
-job status, uploading artifacts, sending job logs, and retrieving Git
-repositories).
+`CI_JOB_TOKEN` will have full access to the user's permissions. However, this
+default behavior will change in a future major release, where the token will be
+encoded with only the minimum permissions required to complete a build
+(e.g., updating job status, uploading artifacts, sending job logs, and
+retrieving Git repositories).
 
 ##### .gitlab-ci.yml
 
@@ -185,9 +170,6 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
     ]
   }
 }
-
-
-
 ```
 
 - [`iss`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1): The entity that issued the token.
