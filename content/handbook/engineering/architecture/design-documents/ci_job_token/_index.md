@@ -42,7 +42,7 @@ token.
 
 - The `CI_JOB_TOKEN` should be ephemeral and grant minimal access.
 - Configuration of permissions should be straightforward for Pipeline authors.
-- Permissions should be customizable for each CI pipeline.
+- Permissions should be customizable for each CI job.
 - The token should support extensions for additional fields, like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856).
 - Existing [permissions](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` should be maintained.
 
@@ -132,10 +132,8 @@ retrieving Git repositories).
 ```yaml
 # .gitlab-ci.yml
 permissions:
-  read_containers:
-    - project: self
-  read_packages:
-    - project: self
+  - read_containers
+  - read_packages
 ```
 
 **Example 2: Multi-Project Configuration**
@@ -158,7 +156,7 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 
 ```json
 {
-  "iss": "gitlab.com",
+  "iss": "gid://gitlab/Ci/Build/1",
   "sub": "gid://gitlab/User/13390928",
   "aud": "",
   "exp": 1893456000,
