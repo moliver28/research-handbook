@@ -120,12 +120,12 @@ If all of the automated checks succeed, the user will receive a set of [Verifica
 
 At this stage, do the following:
 
-1. If the account in question is a `FREE` account, add the `account-deletion::personal` label to the issue. If the account is tied to a paid namespace with a signed contract in Salesforce (a corporate request), add the `account-deletion::corporate` label to the issue.
+1. If the account in question is a `FREE` account, add the `account-deletion::personal` label to the issue. If the account is tied to a paid namespace with a signed contract in Salesforce (a corporate request), add the `account-deletion::corporate` label to the issue. If the user has added comments in their form submission that reference lost 2FA or loss of access to the email address connected to the account, add the `RequestReason::lost_2fa` or `RequestReason::lost_access` labels, as appropriate.
 1. Add the `Awaiting::Challenge Answers` label and wait for the user to reply with the answers to the questions. If they do not reply within **7** calendar days, proceed to [No Response](#no-response). If they do reply within 7 calendar days, proceed to [**Step 2:** Evaluate](#step-2-evaluate).
 
 ###### No Response
 
-If the user fails to respond within 7 calendar days, close it using the following snippet (note the 2 labels that are set: `Account Verification Failed` and `deletion request::denied`):
+If the user fails to respond within 7 calendar days, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
 
 <details>
   <summary markdown="span">Request Closed - No Response</summary>
@@ -136,7 +136,7 @@ If the user fails to respond within 7 calendar days, close it using the followin
 
   <p>Regards,</p>
 
-  `/label ~"Account Verification Failed" ~"deletion request::denied"`
+  `/label ~"Account Verification Failed" ~"deletion request::denied" ~"denied-reason::no_response"`
 </details>
 
 ##### **Step 1.5:** Blocked or Banned Accounts
@@ -286,7 +286,7 @@ The requestor will receive an initial reply with a set of verification challenge
 IMPORTANT NOTE: If at any point you are unsure of next steps or have any questions or concerns about the information in which the requester has provided, please reach out to the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel for help.
 
 1. Add the `Awaiting::Challenge Answers` label, and wait for the requestor to reply.
-   1. If no response is received after 10 calendar days, apply the `Account Verification Failed` and `deletion request::denied` labels to the issue, and close it using the following snippet:
+   1. If no response is received after 10 calendar days, apply the `Account Verification Failed` `deletion request::denied` and `denied-reason::no_response` labels to the issue, and close it using the following snippet:
 
 <details>
   <summary markdown="span">Request Closed - No Response (Account Deletion - Deceased User) </summary>
@@ -315,8 +315,8 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 </details>
 
 1. If the requester passes the challenge questions, or #privacy-team-help has provided instruction to continue with this request:
-   1. comment on [the gitlab#330669 feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/330669) to note that we're having to manually process a relevant request.
-   1. let the requester know they have been verified and that you are initiating the deletion process by leaving a comment on the issue with the following snippet.
+   1. Comment on [the gitlab#330669 feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/330669) to note that we're having to manually process a relevant request.
+   1. Let the requester know they have been verified and that you are initiating the deletion process by leaving a comment on the issue with the following snippet.
 
 <details>
 <summary markdown="span">Request Closed - Verification Pass</summary>
@@ -363,7 +363,7 @@ Users can request the following to obtain information about their data. Use this
 
 Use the following workflows based on the type of request submitted.
 
-1. [ ] Support Engineer: Ensure the user has replied from the same email on the request issue. If the user fails to respond within 7 calendar days, close the issue using the following snippet, and apply the `Account Verification Failed` label to the issue:
+1. [ ] Support Engineer: Ensure the user has replied from the same email on the request issue. If the user fails to respond within 7 calendar days, close the issue using the following snippet, and apply the `Account Verification Failed` `data-access-request::denied` and `denied-reason::no_response` labels to the issue:
 
 <details>
   <summary markdown="span">Request Closed - No  Response to Verify Email</summary>
