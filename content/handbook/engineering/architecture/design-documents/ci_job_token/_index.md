@@ -145,9 +145,11 @@ permissions:
 permissions:
   read_containers:
     - project: self
+      tag_name: latest
   read_packages:
     - project: self
     - project: gitlab-org/gitlab
+      type: go_proxy
 ```
 
 ##### JWT Schema
@@ -161,16 +163,20 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
   "aud": "",
   "exp": 1893456000,
   "scope": {
-    "gid://gitlab/Ci::Build/1" => [
-      "admin_jobs"
-    ],
-    "gid://gitlab/Project/13083" => [
-      "read_containers",
-      "read_packages"
-    ],
-    "gid://gitlab/Project/278964" => [
-      "read_packages"
-    ]
+    "gid://gitlab/Ci::Build/1": {
+      "admin_jobs": {}
+    },
+    "gid://gitlab/Project/13083": {
+      "read_containers": {
+        "tag_name": "latest"
+      },
+      "read_packages": {}
+    },
+    "gid://gitlab/Project/278964": {
+      "read_packages": {
+        "type": "go_proxy"
+      }
+    }
   }
 }
 ```
@@ -182,6 +188,8 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 - [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions associated with the token. See the [Permissions](#permissions) section below for a comprehensive list.
   - Each key in this object represents a single resource, identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids), with an array of allowed permissions.
   - Initially, we will support encoding `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, and `gid://gitlab/Ci::Build/<id>` to limit the types of resources that can be encoded.
+  - Each permission can have modifiers that further limit the scope of access. In the example above, the modifiers restrict access to containers with a `latest` tag and specific Go proxy packages.
+  - Future support may include extending the Global ID format to allow wildcard operators.
 
 **Pros:**
 
