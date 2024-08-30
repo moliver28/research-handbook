@@ -44,6 +44,7 @@ toc_hide: true
 - `Configuration change`: When we change any configuration on the application or infrastructure. Example: We did a _configuration change_ on labels added to VMs.
 - `Tenant`: A GitLab instance provisioned through GitLab Dedicated tooling ([Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor)). A Tenant can be _either_ a GitLab Dedicated Customer Instance, _or_ a Cell Instance.
 - `Cell`: A Tenant provisioned to be a part of GitLab.com where multiple customers are served through a single Tenant.
+- `Legacy Cell`: The existing GitLab.com deployment.
 - `Ring`: A collection of Cells grouped as single deployment stage target. Example: Cells in Ring 2 will deploy changes after Cells in Ring 1.
 - `Cluster`: A collection of Cells, and the existing GitLab.com infrastructure. Example: We need to change the version of Registry in the Cluster.
 - `Fleet`: The collection of all SaaS environments, both single-tenant and multi-tenant, that collectively form our production environments.
