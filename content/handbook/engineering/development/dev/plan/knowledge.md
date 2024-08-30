@@ -141,15 +141,13 @@ are essential. The table below describes these and gives the reason why.
 | ~type::* | Communicates the type of work being done. Used to quantify and report the split of work to roles inside and outside GitLab. | [Work Type Classification](/handbook/engineering/metrics/#work-type-classification) | |
 | ~Deliverable/~Stretch | ~Deliverable communicates to customers and stakeholders that we intend to deliver an issue within the assigned milestone. ~Stretch indicates that it might be started during the milestone but is not expected to complete. | [Release Scoping Labels](https://docs.gitlab.com/ee/development/labels/#release-scoping-labels) | Engineering Manager |
 
-### Collaboration
+### Collaboration with other teams
 
-Close collaboration outside of Knowledge group or Engineering discipline is often required. To mitigate the effect of [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law), where siloes in the organization are reflected in the design of the product, and to promote efficiency, here are some guidelines for engaging with counterparts across the organization.
+To avoid rework we reach out to other teams early when working on the following domains:
 
-#### Pipeline Authoring
-
-Changes to the pages product often require changes to pipeline configuration. Help is available from the [Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/) team, who are directly responsible for this functionality.
-
-It's encouraged to engage with this team when spiking and planning new work for the pages product. Reference your spike or planning issue when reaching out to [#g_pipeline-authoring](https://gitlab.slack.com/archives/C019R5JD44E) for any requested guidance. You can use the `@verify-pa-backend` Slack group to specifically ping the backend team. Engaging with the team at the earliest ensures they're able to set aside capacity to help with minimal disruption to their own roadmap.
+| Team | Domain overlap |
+| ---  | ---    |
+| [Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/) | GitLab Pages [.gitlab-ci.yml syntax](https://docs.gitlab.com/ee/ci/yaml/) |
 
 ### Dashboards
 
