@@ -132,9 +132,9 @@ retrieving Git repositories).
 ```yaml
 # .gitlab-ci.yml
 permissions:
-  read_issue:
+  read_containers:
     - project: self
-  read_repo:
+  read_packages:
     - project: self
 ```
 
@@ -143,11 +143,11 @@ permissions:
 ```yaml
 # .gitlab-ci.yml
 permissions:
-  read_issue:
+  read_containers:
     - project: self
-  read_repo:
+  read_packages:
     - project: self
-    - project: acme-org/bar
+    - project: gitlab-org/gitlab
 ```
 
 ##### JWT Schema
@@ -157,16 +157,19 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 ```json
 {
   "iss": "gitlab.com",
-  "sub": "gid://gitlab/User/1",
+  "sub": "gid://gitlab/User/13390928",
   "aud": "",
-  "exp": 1300819380,
+  "exp": 1893456000,
   "scope": {
-    "read_issue": [
-      "gid://gitlab/Project/42"
+    "gid://gitlab/Ci::Build/1" => [
+      "admin_jobs"
     ],
-    "read_repo": [
-      "gid://gitlab/Project/42",
-      "gid://gitlab/Project/43"
+    "gid://gitlab/Project/13083" => [
+      "read_containers",
+      "read_packages"
+    ],
+    "gid://gitlab/Project/278964" => [
+      "read_packages"
     ]
   }
 }
@@ -174,9 +177,11 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 
 - [`iss`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1): The entity that issued the token.
 - [`sub`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.2): The subject of the token, represented as a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
-- [`aud`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.3): The intended audience of the token (e.g., the REST API, GraphQL API, Docker Registry API, etc.).
+- [`aud`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.3): The intended audience of the token (e.g., REST API, GraphQL API, Docker Registry API, etc.).
 - [`exp`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4): The token's expiration time (defaults to the maximum duration of a CI job).
-- [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions available to the token. See the [Permissions](#permissions) section below for a comprehensive list.
+- [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions associated with the token. See the [Permissions](#permissions) section below for a comprehensive list.
+  - Each key in this object represents a single resource, identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids), with an array of allowed permissions.
+  - Initially, we will support encoding `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, and `gid://gitlab/Ci::Build/<id>` to limit the types of resources that can be encoded.
 
 **Pros:**
 
