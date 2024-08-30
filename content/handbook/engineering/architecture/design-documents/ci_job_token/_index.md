@@ -158,7 +158,7 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 
 ```json
 {
-  "iss": "gitlab.com",
+  "iss": "gid://gitlab/Ci/Build/1",
   "sub": "gid://gitlab/User/13390928",
   "aud": "",
   "exp": 1893456000,
