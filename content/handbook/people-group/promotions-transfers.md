@@ -55,7 +55,7 @@ Our promotion philosophy comprises core pillars surrounding the approach and pro
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligble for promotion to the next level in the same job family after twelve months in their current position.
+- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
 - Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
 - When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
 - All in-line promotions at GitLab require a [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
@@ -327,7 +327,7 @@ The steps below outline the process promotion candidates should follow to reques
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
         - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
         - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
-    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and inidividual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
+    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and individual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
     - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
 5. Team member sends out feedback form copy to feedback providers
     - This references the form promotion candidates made a copy of in Step 3.
@@ -356,7 +356,7 @@ A goal through this process is to continue to facilitate opportunity to provide 
 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
-Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Busines Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 #### Resources
 
@@ -426,7 +426,7 @@ When reviewing compensation for a transfer in Greenhouse, the Total Rewards team
 
 This section describes the approval chain after the People Business Partner submits a promotion request in Workday.
 
-1. The changes will route for approval to the manager, next level manager,and e-Group leader.
+1. The changes will route for approval to the manager, next level manager, and e-Group leader.
 1. If the request is approved, the People Connect Team will stage the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) in DocuSign.
 1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack #team-member-updates channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
 1. For change of departments and managers, People Connect Team members will create a Career Mobility Issue.
@@ -548,7 +548,7 @@ Job title specialties are used to indicate a stage, group and/or a specific focu
 
 ### Job Title Specialty Guidance For Managers
 
-Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they thing through job title specialties to ensure a consistent approach.
+Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
 
 To easily access a report for what current job title specialties are for your team, you can follow these steps:
 
