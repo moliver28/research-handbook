@@ -551,9 +551,10 @@ The sales nominated process allows for records to be added to the campaign in or
 
 ##### PubSec booth presentation material
 
+- [PubSec Highspot Page](https://gitlab.highspot.com/items/66a2a2f049bdbcfc00ba8a65)
+- [PubSec Capabilities Statement](https://gitlab.highspot.com/items/66b272dc507fd7be6ee32565)
+- [Education Capabilities Statement](https://gitlab.highspot.com/items/66a18f125f5fc07fbdf83989)
 - [GitLab's Hardened Container Image for Secure Software Development](https://docs.google.com/document/d/1Rl0050Z-PYogJAraHNdLPvgpwAmqlJ7-81PpCMpw_Fw/edit#)
-- [PubSec Capabilities Statement](https://about.gitlab.com/images/press/gitlab-capabilities-statement.pdf)
-- [Speed to Mission (whitepaper)](https://about.gitlab.com/resources/whitepaper-speed-to-mission/)
 - [The Hidden Costs of DevOps Toolchains (with guest speaker from Forrester)](https://about.gitlab.com/webcast/simplify-to-accelerate/)
 - [DevOps Powering Your Speed to Mission (webcast)](https://about.gitlab.com/webcast/devops-speed-to-mission/)
 - [Mission Mobility: A DevSecOps Discussion (webcast)](url)
