@@ -4,11 +4,13 @@ title: Plan:Knowledge Engineering Team
 
 ## Plan:Knowledge team
 
-The Plan:Knowledge team works on both the backend and frontend parts of
-GitLab's [Knowledge](/handbook/product/categories/#knowledge-group) categories in the [Plan project](/handbook/engineering/development/dev/plan/).
+The Plan:Knowledge team develops [Knowledge Management categories](handbook/product/categories/#knowledge-group):
 
-For more details about the vision for this area of the product, see the
-[Plan project](/handbook/engineering/development/dev/plan/) page.
+- Wiki
+- GitLab Pages
+- Rich Text Editor and Markdown
+
+Learn more on our [direction page](https://about.gitlab.com/direction/plan/knowledge/).
 
 ### Team members
 
