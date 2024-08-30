@@ -126,7 +126,7 @@ To facilitate effective communication and collaboration between Subject Matter E
    - AI
      - #sme-ai-sme-team
      - #cs-sme-ai
-   - App Securitt & Compliance
+   - App Security & Compliance
      - #appsec-sme-team
      - #cs-sme-security-compliance
    - Agile Planning
