@@ -25,11 +25,10 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
 |------|------------|----------|----------|--------------|
 | Aug 22, 2024 | 10:30a ET | 11:20a ET | Welcome Call | Field Enablement  |
-| Sep 2, 2024 | 10:30a ET | 12:20p ET | Command of the Message: Essential Questions Exercise | Field Enablement  |
-| Sep 3, 2024 | 10:00a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement  |
-| Sep 4, 2024 | 10:00a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement  |
-| Sep 5, 2024 | 10:00a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement  |
-| Sep 6, 2024 | 10:00a ET | 11:50a ET | Mock Discovery Call | Mock Customers  |
+| Sep 3, 2024 | 10:30a ET | 12:20p ET | Command of the Message: Essential Questions Exercise | Field Enablement  |
+| Sep 4, 2024 | 10:00a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement  |
+| Sep 5, 2024 | 10:00a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement  |
+| Sep 6, 2024 | 10:00a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement  |
 | Sep 9, 2024 | 10:30a ET | 10:50a ET | Operational Excellence: Into to GitLab Field Security | Field Security Team |
 | Sep 9, 2024 | 11:00a ET | 11:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
 | Sep 10, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
@@ -39,3 +38,5 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Sep 12, 2024 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Management Overview | Customer Success Team |
 | Sep 12, 2024 | 11:00a ET | 11:50a ET | Operational Excellence: Working with Sales Dev | Marketing Enablement |
 | Sep 13, 2024 | 10:30a ET | 11:50a ET | Intro to Partner Sales | Partner Team |
+| Sep 16, 2024 | 10:00a ET | 10:30a ET | Intro to Renewals Manager Orginization | Renewals Team |
+| Sep 19, 2024 | 10:30a ET | 11:50a ET | Intro to GitLab Product & Personas | Field Enablement |
