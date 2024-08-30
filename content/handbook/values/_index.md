@@ -469,6 +469,7 @@ Use the simplest and most boring solution for a problem, and remember that ["bor
 The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun;
 using established, popular tech will ensure a more stable and more familiar experience for you and other contributors.
+
 Make a conscious effort to **recognize** the constraints of others within the team.
 For example, sales is hard because you are dependent on another organization, and development is hard because you have to preserve the ability to quickly improve the product in the future.
 
