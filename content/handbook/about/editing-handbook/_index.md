@@ -71,7 +71,7 @@ A typical workflow to edit the handbook:
 
     ![Web IDE, commit and push: Create Merge Request](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_source_control_popup_create_mr.png)
 
-1. Fill in the MR template, provide why the merge request is created, add labels (such as, using quick actions `/label ~handbook`), assign yourself (`/assign me`), and set the branch to delete when merged. Optionally, use the [draft option](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to prevent merging until ready.
+1. Fill in the MR template, provide why the merge request is created, add labels (optionally using quick actions, `/label ~handbook`), assign yourself (`/assign me`), and set the branch to delete when merged. Optionally, use the [draft option](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to prevent merging until ready.
 
     ![GitLab Merge Request view](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_gitlab_create_mr.png)
 
