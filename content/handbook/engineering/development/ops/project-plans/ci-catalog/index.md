@@ -14,12 +14,12 @@ The following page may contain information related to upcoming products, feature
 #### Goals
 
 - Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
-  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) 
+  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) (in-dev)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
-  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev) - 1 MR remaining
 - Inputs enhancements
   - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
-  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (complete)
 
 ### Milestone 17.5 (September 14, 2024 - October 11, 2024)
 
