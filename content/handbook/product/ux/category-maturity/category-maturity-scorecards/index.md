@@ -198,15 +198,15 @@ It's possible to conduct CM Scorecard testing unmoderated.  The key is to make s
 
 #### Calculating the CM Scorecard score
 
-As participants attempt to complete a scenario, for our purposes, the end result will either be: Success or Failure. To move to the next category maturity level, a minimum % pass rate is required, along with the minimum score.The chart below illustrates the relationships between: Minimum % pass rate, the UX Scorecard grades, SUS, CM Scorecard level, and the CM Scorecard score.
+As participants attempt to complete a scenario, for our purposes, the end result will either be: Success or Failure. To move to the next category maturity level, a minimum % pass rate is required, along with the minimum score.The chart below illustrates the relationships between: Minimum % pass rate, SUS, CM Scorecard level, and the CM Scorecard score.
 
-| Minimum % pass rate | UX Scorecard grade | Scale option | CM Scorecard score range | CM Scorecard level | SUS (for reference) |
-| :-----------------: | :----------------: | ------------ | :----------------------: | :----------------: | :-----------------: |
-| 100% | A | Extremely good/easy, Strongly agree | 3.95 - 5.00 | Complete | 78.9 - 100 |
-| > 80% | B | Good/Easy, agree | 3.63 - 3.94 | Competitive | 72.6 - 78.8 |
-| > 80% | C | Neither | 3.14 - 3.62 | Viable | 62.7 - 72.5 |
-| n/a | D | Difficult/Bad, disagree | 2.59 - 3.13 | -- | 51.7 - 62.6 |
-| n/a | F | Extremely bad/difficult, Strongly disagree | 1.00 - 2.58 | -- | 0 - 51.6 |
+| Minimum % pass rate | Scale option | CM Scorecard score range | CM Scorecard level | SUS (for reference) |
+| :-----------------: | ------------ | :----------------------: | :----------------: | :-----------------: |
+| 100% | Extremely good/easy, Strongly agree | 3.95 - 5.00 | Complete | 78.9 - 100 |
+| > 80% | Good/Easy, agree | 3.63 - 3.94 | Competitive | 72.6 - 78.8 |
+| > 80% | Neither | 3.14 - 3.62 | Viable | 62.7 - 72.5 |
+| n/a | Difficult/Bad, disagree | 2.59 - 3.13 | -- | 51.7 - 62.6 |
+| n/a | Extremely bad/difficult, Strongly disagree | 1.00 - 2.58 | -- | 0 - 51.6 |
 
 **CM Scorecard score:** The CM Scorecard score can easily be calculated for each scenario:
 
