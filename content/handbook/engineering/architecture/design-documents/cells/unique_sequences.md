@@ -18,7 +18,7 @@ Is to have non-overlapping sequences across the cluster, so that there will not 
 
 ## 2. Decision
 
-Secondary cells will have bigint IDs while provisioning and each cell will reach out to the Topology Service to get
+Cells will have bigint IDs while provisioning and each cell will reach out to the Topology Service to get
 the sequence range, TS will ensure that the sequence ranges are not colliding with other cells.
 
 The range got from the SequenceService will be used to set `maxval` and `minval` for all existing ID sequences and any
