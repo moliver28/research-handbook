@@ -203,10 +203,10 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 
 **Cons:**
 
-- Token revocation is more challenging with a stateless token.
-- Requires pipeline authors to opt in.
-- Requires pipeline authors to understand the new syntax.
-- Potential for over-permissioning if the new syntax is too complex or if pipelines are failing.
+- Revoking a JWT token can be more challenging compared to other token types.
+- Pipeline authors need to actively opt in to use the new syntax.
+- Pipeline authors must understand the new syntax to implement it correctly.
+- There's a risk of over-permissioning if the new syntax is too complex or if pipelines fail, leading to potential security concerns.
 
 #### Permissions
 
