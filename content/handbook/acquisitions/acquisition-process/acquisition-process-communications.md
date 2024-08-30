@@ -116,7 +116,7 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
     1. Either port to GitLab or deactivate acquired company's social channels, depending on volume of followers (social team)
     1. Retro of announcement and process (corporate development team)
 
-1. Acquisition Leaks and Rumors 
+4. Acquisition Leaks and Rumors 
     1. If news of a potential acquisition leaks, the GitLab Communications team will direct and own the response.
         1. If any GitLab team member is contacted regarding a leaked acquisition or rumor, GitLab Communications directs the person to follow the [media mentions, incoming media requests and interviews process](/handbook/marketing/corporate-communications/#media-mentions-incoming-media-requests-and-interviews-including-podcasts) handbook direction.
         1. The Corporate Development Deal Process Manager will inform the target company representatives of the GitLab Communications response and process.
