@@ -176,15 +176,15 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 
 #### FY25 Engagement Survey Action Epics
 
-[Company wide focus areas](https://gitlab.com/groups/gitlab-com/people-group/-/epics/109)
-Product (forthcoming)
-Engineering (forthcoming)
-[Sales](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/114)
-Marketing (forthcoming)
-[Finance](https://gitlab.com/groups/gitlab-com/-/epics/2416)
-People (forthcoming)
-[LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
-CISO (forthcoming)
+- [Company wide focus areas](https://gitlab.com/groups/gitlab-com/people-group/-/epics/109)
+- Product (forthcoming)
+- Engineering (forthcoming)
+- [Sales](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/114)
+- Marketing (forthcoming)
+- [Finance](https://gitlab.com/groups/gitlab-com/-/epics/2416)
+- People (forthcoming)
+- [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
+- CISO (forthcoming)
 
 ### Summit Pulse Surveys Overview
 
