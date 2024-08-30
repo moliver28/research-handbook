@@ -122,15 +122,18 @@ To facilitate effective communication and collaboration between Subject Matter E
    - Cross-domain collaboration
    - Sharing best practices and success stories
    - Coordinating SME activities across different areas of expertise
-2. SME Area Channels:
+2. SME Area Slack Channels:
    - AI
-     - #sme-ai-sme-team
+     - #sa-ai-sme-team
      - #cs-sme-ai
    - App Securitt & Compliance
      - #appsec-sme-team
      - #cs-sme-security-compliance
    - Agile Planning
      - #cs-sme-plan
+     - #sa-sme-plan
+   - Dedicated
+     - #dedicated-sme-team
    - Dedicated
    - Metrics and Observability
      - #cs-sme-metrics

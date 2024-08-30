@@ -56,7 +56,7 @@ TODO: Review [Customer Issues Prioritization Framework](/handbook/product/produc
 
 ### **SME Review Process**
 
-1. Schedule [bi-weekly meetings for SMEs in each Program Area](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-pod-cadence) to:
+1. Schedule [SMEs pod meetings in each Program Area](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-area-pod-cadence) to:
    - Review and validate point assignments
    - Adjust priorities as needed
    - Provide context to SME Area DRIs

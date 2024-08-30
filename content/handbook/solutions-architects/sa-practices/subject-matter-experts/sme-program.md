@@ -9,9 +9,10 @@ description: The Structure of the SME Program, Roles and Responsibilities are de
 
 The SME program will be chaired and led by an overall **SME Program Lead,** responsible for establishing and  ensuring that all the SME processes are being adhered to by each SME Area.
 
-The SME Program will consist of one or more [SME Areas of expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/_index.md), each with a **SME Area Lead/ DRI**, one from the SA org, and one from the CS org, responsible for the proper functioning of each area.
+The SME Program will consist of one or more [SME Areas of expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/#areas-of-expertise). 
+Each SME Area will be represented by two **SME Area Lead/ DRI**, one representative from the SA org, and one from the CS org. They will be responsible for the proper functioning of each area.
 
-So for SME Area of Expertise, there will be both a SA and a CSM representative that will lead that area.
+Each SME Area should be supported by at least one Product Manager and/or Engineering Manager representative.
 
 In total, each SME AREA will consist of
 
@@ -33,9 +34,9 @@ Each SME Area, therefore with both SA and CS Area Leads and all SA and CS SMEs c
 | SA Regional SME 2 | CS SME 2 |
 | SA Regional SME 3 | CS SME 3 |
 
-While it is highly recommended to have only one SA SME for each area per region, there can exist other subject matter experts (SME) or SME Associates.  The difference being is that there should be one designated regional SME per area who will take on the responsibilities of being a SME DRI in the SME program, including maintaining collateral, gathering feedback from customers, engaging with product management.
+While it is highly recommended to have only one SA SME for each area per region, there can exist other subject matter experts (SME) or SME Associates.  However one SA should be designated regional SME per area who will take on the responsibilities of being a SME DRI in the SME program, including maintaining collateral, gathering feedback from customers, engaging with product management.
 
-Here is the list of the [current SA SMEs for each Area](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list).
+Here is the list of the [current SA SMEs for each Area](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list).  This is the list of the corresponding [CS SMEs for each Area](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on).
 
 ## SME Roles
 
@@ -46,7 +47,7 @@ SMEs are expected in general to fulfill two main responsibilities:
 * Be experts and maintain a high level of expertise in their area, craft and domain  
 * Be the DRI and be responsible for leading and directing various aspects associated with the SME program including, maintaining collateral, gathering feedback from customers, engaging with product management.
 
-However there would be number of SAs (and CSMs) who, as part of their career development, would not desire or are not ready to participate as a DRI in the SME program, but would express interest to focus and go technically deeper in one of the SE Areas: AI, App Security, Agile Planning, Dedicated. 
+However there would be number of SAs (and CSMs) who, as part of their career development, would not desire or are not ready to participate as a DRI in the SME program, but would express interest to focus and go technically deeper in one of the SE Areas: AI, App Security, Agile Planning, Dedicated, CI & Runners (TBD), Metrics and Observability (TBD) 
 
 Think of SME Associates as those potential SMES. who declare a major as they look to advance and graduate in their craft.
 

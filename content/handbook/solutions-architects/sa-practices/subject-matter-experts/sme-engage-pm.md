@@ -7,18 +7,29 @@ description: How to engage with product Management
 
 ## How to Engage with Product Management as a SME (TBD)
 
-TODO:  Need to reveiw the processes in tha handbook with Product Management, and determine hwat updates are needed with the introduction of the SME Program.
+TODO:  Need to review the processes in the handbook with Product Management, and determine what updates are needed with the introduction of the SME Program.
 
 1. Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
 2. How to [Engage Product Managers](/handbook/product/product-management/\#how-to-engage-product-managers)
 
-As an example, SAs should now [request a SME](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) for the following scenarios as opposed to always engaging or requesting a Product Manager:
+SMEs should relieve some load on the PMs for the most discussed and impactful product areas by:
 
-1. Invite SMEs to participate in product discovery sessions and strategy workshops to leverage their domain expertise.
-2. Scenario 2
-3. Scenario 3
+1. Delivering product roadmap overviews
+2. Delivering deep technical overviews
+3. Engaging with customers to gather feedback, better understand what they feel we are missing, or could be doing better
+4. Spotting opportunities to expand our product offering in SME areas
 
-Product Managers can still be engaged to present roadmaps to the customer (TBD)
+Also SMEs can assist Product Management By
+
+1. Participating in product discovery sessions and strategy workshops to leverage their domain expertise.
+2. Raising the feedback from the field with the PMs and EMs on a regular cadence
+3. Understanding product changes / updates since the last meeting
+4. Collaborate in / Create issues to improve the product in the key areas related to the SME area
+5. Enabling the rest of the team on the SME area - sharing new insights, updates, learnings, etc. on team calls
+
+SAs should now [request a SME](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) for the above scenarios as opposed to always engaging or requesting a Product Manager.
+
+Product Managers can still be engaged to present detail roadmaps to the customer (TBD)
 
 ---
 

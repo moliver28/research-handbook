@@ -20,15 +20,17 @@ In order to fulfill the above goals, the [SME Program is structured, appropriate
 1. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
 2. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
 3. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
-4. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
-5. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/) and
-6. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
+4. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
+5. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
+6. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)
 
 \*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
+This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area 
+
 ## Areas of Expertise
 
-The SME Program will initially focus on the following areas:
+The SME Program, with fomal PM engagement will initially focus on the following areas:
 
 - AI
 - Security
@@ -37,10 +39,11 @@ The SME Program will initially focus on the following areas:
 
 Other areas may be added in the future, depending on customer and SA demand, such as:
 
+- CICD & Runners (TBD - CS only; Can exist but with no formal PM engagement as yet)
+- Metrics and Observability (TBD - CS only; Can exist but with no formal PM engagement as yet)
+- Embedded Systems (TBD - SA only; Can exist but with no formal PM engagement as yet)
 - GitOps
 - MLOps
-- CICD
-- Embedded Systems
 
 ## Responsibilities
 
