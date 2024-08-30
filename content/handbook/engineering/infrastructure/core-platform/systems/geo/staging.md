@@ -5,7 +5,7 @@ description: "Document Geo installation on staging.gitlab.com"
 
 #### Summary
 
-Geo on staging is deprecated, you can find it currently enabled on [staging-ref](https://handbook.gitlab.com/handbook/engineering/infrastructure/environments/staging-ref/). All the remaining information in this document is outdated and 
+Geo on staging is deprecated, you can find it currently enabled on [staging-ref](/content/handbook/engineering/infrastructure/environments/staging-ref.md). All the remaining information in this document is outdated and 
 kept for historical purposes.
 
 Geo is fully operational on the staging environment of GitLab.com. This is a major dogfooding effort that allows the team to test and validate new features at scale, catch bugs, and identify performance issues. This is important for our customers because it increases our confidence in any Geo improvements we make.
