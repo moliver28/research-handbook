@@ -42,7 +42,7 @@ token.
 
 - The `CI_JOB_TOKEN` should be ephemeral and grant minimal access.
 - Configuration of permissions should be straightforward for Pipeline authors.
-- Permissions should be customizable for each CI pipeline.
+- Permissions should be customizable for each CI job.
 - The token should support extensions for additional fields, like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856).
 - Existing [permissions](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` should be maintained.
 
