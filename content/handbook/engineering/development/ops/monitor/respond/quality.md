@@ -117,7 +117,6 @@ pipelines for that specific environment:
 - Release: [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE)
 - Staging-ref: [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ)
 - Master: [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM)
-- Nightly: [#qa-nightly](https://gitlab.slack.com/archives/CGLMP1G7M)
 
 These pipelines' configuration can be found in [pipeline-common](https://gitlab.com/gitlab-org/quality/pipeline-common)
 project.

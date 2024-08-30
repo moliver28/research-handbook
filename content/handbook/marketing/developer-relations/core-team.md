@@ -122,7 +122,6 @@ details summary * {
 - pajamas-design-system
 - production
 - e2e-run-master
-- qa-nightly
 - e2e-run-preprod
 - e2e-run-production
 - e2e-run-staging
