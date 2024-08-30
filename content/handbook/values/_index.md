@@ -467,7 +467,8 @@ It is far more efficient to read a document at your convenience than to have to 
 
 Use the simplest and most boring solution for a problem, and remember that ["boring"](http://boringtechnology.club/) should [not be conflated with "bad" or "technical debt."](http://mcfunley.com/choose-boring-technology)
 The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps.
-
+Don't pick an interesting technology just to make your work more fun;
+using established, popular tech will ensure a more stable and more familiar experience for you and other contributors.
 Make a conscious effort to **recognize** the constraints of others within the team.
 For example, sales is hard because you are dependent on another organization, and development is hard because you have to preserve the ability to quickly improve the product in the future.
 
@@ -1055,7 +1056,7 @@ We demonstrate iteration when we do the smallest viable and valuable thing, get 
 
 Be open about as many things as possible. By making information public, we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible. Transparency is not communication. Just because something exists in the handbook or elsewhere doesn't mean it can't be communicated again or in a more robust way to the people who need to understand or acknowledge it. On a personal level, be direct when sharing information, and admit when you've made a mistake or were wrong. When something goes wrong, it is a great opportunity to say "What's the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 
-Even as a [public company](https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/), we know that our value of transparency will be key to our success. This value can be hard to follow at times. You might ask yourself: what should be shared, how much to share, whether or not to speak up but definitely take the time to always opt for maximum transparency by adhering to the operating principles below. Often, company values get diluted as they grow, most likely because they do not write anything down. But we will make sure our values scale with the company. Everything that can be transparent will continue to be so.
+Even as a [public company](https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/), we know that our value of transparency will be key to our success. This value can be hard to follow at times. You might ask yourself: what should be shared, how much to share, whether or not to speak up but definitely take the time to always opt for maximum transparency by adhering to the operating principles below. Often, company values get diluted as they grow, most likely because they do not write anything down. But we will make sure our values scale with the company. As a [public company](/handbook/company/being-a-public-company/), we declare everyone in the company as an insider, which allows us to remain transparent internally about our numbers, etc. Everything else that can be transparent will continue to be so.
 
 When there are exceptions, material that is [not public by default is documented](/handbook/communication/confidentiality-levels/#not-public).
 
