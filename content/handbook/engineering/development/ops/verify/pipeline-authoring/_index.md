@@ -64,7 +64,7 @@ Goals:
 Goals:
 
 - Address top-level variables keyword problem - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6565)
-- Implement a new CI/CD variable from scratch to identify pitfalls and how we can improve for future variable additions. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
+- Implement a new CI/CD variable structure from scratch. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
 
 ### Efficiency
 
