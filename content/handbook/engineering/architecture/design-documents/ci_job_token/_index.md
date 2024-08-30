@@ -75,7 +75,7 @@ request access. It is used to generate a `CI_JOB_TOKEN` with a subset of the
 full set of permissions available to the user. The access that is granted will
 be determined through [project membership](https://docs.gitlab.com/ee/user/project/members/).
 
-#### Syntax
+### Syntax
 
 The precise syntax for defining these permissions has not been finalized.
 However, the following example illustrates what the syntax might look like:
@@ -93,7 +93,7 @@ permissions:
     - project: gitlab-org/www-gitlab-com
 ```
 
-#### Usage
+### Usage
 
 The permissions defined in the `.gitlab-ci.yml` file **restrict** the access
 available during pipeline execution. The user triggering the CI job must have,
@@ -125,7 +125,7 @@ encoded with only the minimum permissions required to complete a build
 (e.g., updating job status, uploading artifacts, sending job logs, and
 retrieving Git repositories).
 
-##### .gitlab-ci.yml
+#### .gitlab-ci.yml
 
 **Example 1: Single Project Configuration**
 
@@ -203,7 +203,7 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 - Pipeline authors must understand the new syntax to implement it correctly.
 - There's a risk of over-permissioning if the new syntax is too complex or if pipelines fail, leading to potential security concerns.
 
-#### Permissions
+### Permissions
 
 Below is a proposed mapping of the name of permissions that can be defined in a
 `.gitlab-ci.yml` file and how they can be mapped to internal declarative policy
@@ -230,7 +230,7 @@ abilities.
 
 The following list of permissions was compiled from [this investigation](https://gitlab.com/gitlab-org/govern/authorization/team-tasks/-/issues/55).
 
-##### Containers
+#### Containers
 
 | Action                                                                                                                                      | Permission(s)                                        |
 | --------                                                                                                                                    | -------------                                        |
@@ -241,7 +241,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [List registry repositories](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                          | `:admin_container_image OR :read_container_image`    |
 | [List registry repository tags](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                       | `:admin_container_image OR :read_container_image`    |
 
-##### Deployments
+#### Deployments
 
 | Action                                                                                                       | Permission(s)                                |
 | --------                                                                                                     | -------------                                |
@@ -251,7 +251,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Update a deployment](https://docs.gitlab.com/ee/api/deployments.html#update-a-deployment)                   | `:read_deployment AND :update_deployment`    |
 | [Delete a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#delete-a-specific-deployment) | `:destroy_deployment`                        |
 
-##### Environments
+#### Environments
 
 | Action                                                                                                                      | Permission(s)                                |
 | --------                                                                                                                    | -------------                                |
@@ -264,7 +264,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Stop an environment](https://docs.gitlab.com/ee/api/environments.html#stop-an-environment)                                 | `:read_environment AND :stop_environment`    |
 | [Stop stale environments](https://docs.gitlab.com/ee/api/environments.html#stop-stale-environments)                         | `:read_environment AND :stop_environment`    |
 
-##### Jobs
+#### Jobs
 
 | Action                                                                                                                                                                         | Permission(s)                         |
 | --------                                                                                                                                                                       | -------------                         |
@@ -276,7 +276,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Download a single artifact file by job ID](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-by-job-id)                                       | `:read_build AND :read_job_artifacts` |
 | [Download a single artifact file from a specific tag or branch](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-from-specific-tag-or-branch) | `:read_build AND :read_job_artifacts` |
 
-##### Packages
+#### Packages
 
 | Route                                                                                             | Permission(s)                     |
 | -----                                                                                             | -------------                     |
@@ -350,7 +350,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Download module file](https://docs.gitlab.com/ee/api/packages/go_proxy.html#download-module-file)     | `:read_package` |
 | [Download module source](https://docs.gitlab.com/ee/api/packages/go_proxy.html#download-module-source) | `:read_package` |
 
-##### Releases
+#### Releases
 
 | Action                                                                                            | Permission(s)      |
 | --------                                                                                          | -------------      |
@@ -360,7 +360,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Update a release link](https://docs.gitlab.com/ee/api/releases/links.html#update-a-release-link) | `:update_release`  |
 | [Delete a release link](https://docs.gitlab.com/ee/api/releases/links.html#delete-a-release-link) | `:destroy_release` |
 
-##### Secure Files
+#### Secure Files
 
 | Action                                                                                                  | Permission(s)                               |
 | --------                                                                                                | -------------                               |
@@ -370,7 +370,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | [Download secure file](https://docs.gitlab.com/ee/api/secure_files.html#download-secure-file)           | `:read_secure_files OR :admin_secure_files` |
 | [Remove a secure file](https://docs.gitlab.com/ee/api/secure_files.html#remove-secure-file)             | `:admin_secure_files`                       |
 
-##### Terraform
+#### Terraform
 
 | Action                                                                                                                                                            | Permission(s)                                     |
 | --------                                                                                                                                                          | -------------                                     |
@@ -382,7 +382,7 @@ The following list of permissions was compiled from [this investigation](https:/
 | Create a lock file                                                                                                                                                | `:admin_terraform_state`                          |
 | Delete a lock file                                                                                                                                                | `:admin_terraform_state`                          |
 
-##### Internal
+#### Internal
 
 | Action                                                | Permission(s)                 |
 | --------                                              | -------------                 |
