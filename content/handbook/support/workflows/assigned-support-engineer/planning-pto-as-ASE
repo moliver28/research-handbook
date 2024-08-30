@@ -1,0 +1,34 @@
+---
+title: Planning PTO as ASE
+category: Assigned Support Engineer
+description: Planning PTO for Assigned Support Engineers
+---
+
+## ASE PTO planning
+
+As per ASE contract, the customer expects to have a named engineer to cover for ASE when not available. This means when an ASE plans to take some time off adequate coverage needs to be found. This workflow highlights the recommended steps to ensure adequate coverage of ASE on PTO.
+
+### Planning PTO
+
+As soon as ASE has plans to take PTO register your PTO following [Support Team Member Time Off](../support-time-off.md)
+
+Prior to two weeks from your time off, find adequate candidates that will be available to cover during the full length of the time off. 
+
+We suggest to look for possible backups within:
+- Other ASEs
+- SE interested in the ASE role
+- General Support team. 
+
+Once you have found suitable backups, create an issue in the [Assigned Support Engineerproject](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/issues/?sort=created_date&state=all&first_page_size=20). In the Issue make sure to tag your manager, the backups and highlight the dates you will be off. 
+
+### The week before PTO
+- Have adequate handover with your backups
+- Inform the customers, and CSM, who will be covering for you, the length of your absence, and how they can be reached. 
+
+Help the engineer that will be monitoring your account set up a customer notification in ZD using the [notifications app](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#notifications-app)] so that they will be notified of tickets appropriately.
+
+### Returning from PTO
+
+After returning from time, make sure you follow up with your backups and get adequate handover. As well inform the customers, and CSM of your return.
+
+Add any lessons learned from the process to the issue created in the [Assigned Support Engineer project](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/issues/?sort=created_date&state=all&first_page_size=20, and close the issue. Consider updating this process if needed. 
