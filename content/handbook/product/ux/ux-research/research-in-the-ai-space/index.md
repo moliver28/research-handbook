@@ -118,24 +118,38 @@ This survey is available for you to send to your participants who are working wi
 
 ## AI Usability Metric
 
-To effectively evaluate the usability of our AI experiences and track progress over time, we will follow the existing [Usability testing](/handbook/product/ux/ux-research/usability-testing/) process. Specific asks for AI usability:
+To effectively evaluate the usability of our AI capabilities and track progress over time, please follow the instructions below:
 
-- Use external users as your participants
-- Utilize the measures called out below
+### What to measure
 
-### Measures
-
-As with our standard approach to usability testing, not only do we measure pass/fail rates, we also have the participant rate each task using specific metrics, which were chosen for three reasons: they're lightweight, they focus on the mechanics/usability of the experience, and they should already be familiar because they're used in other validation research. This approach gives us observational and perceptive data to use when measuring a given task.
-
-For the purposes of AI Usability testing, the following measures are to be used for each task:
+We have leveraged the existing [Category Maturity Scorecard grading system](/handbook/product/ux/category-maturity/category-maturity-scorecards/#calculating-the-cm-scorecard-score) and focused on 3 pieces of data to be measured for AI capabilities:
 
 - [Effectiveness](/handbook/product/ux/ux-research/usability-testing/#effectiveness) (pass/fail)
 - [Efficiency](/handbook/product/ux/ux-research/usability-testing/#efficiency) (Single Ease Question)
 - [Satisfaction](/handbook/product/ux/ux-research/usability-testing/#satisfaction) of the experience
 
-These measures can be applied in either moderated or unmoderated tests.
+These measures are lightweight, focusing on both the mechanics and the usability of the experience, and can be applied in either moderated or unmoderated tests.
 
-### Scoring
+### When to measure
+
+All AI / Duo capabilities should be assessed in any of the following scenarios:
+
+- Before they become Generally Available (GA);
+- When a significant change to the experience is introduced.
+
+It's at the designer and the product team's discretion to regard a change as significant or not. And here are some examples to help you decide:
+
+- Insignificant changes might be minor tweaks that enhance the interface but do not fundamentally change the user’s experience or the way they perform tasks / interact with the product. An example could be changing the colour of a button.
+- Significant changes may significantly alter user behavior, and require users to adapt to a new way of interaction. An example could be an change to the information architecture of the product.
+
+### How to measure
+
+Follow the [steps for running a Category Maturity Scorecard study](/handbook/product/ux/category-maturity/category-maturity-scorecards/#steps-for-running-a-category-maturity-scorecard-study), and only make the following adaptations:
+
+- Recruit 5 external participants for the study;
+- When a participant has completed a scenario, ask the [Efficiency](/handbook/product/ux/ux-research/usability-testing/#efficiency) and [Satisfaction](/handbook/product/ux/ux-research/usability-testing/#satisfaction) questions only. You won't need to ask the UMUX Lite question, as it doesn't entirely pertain to our usablity focus.
+
+### Acceptance criteria
 
 Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI Usability score will be a number between 1.00 - 5.00. This is intended to give some granularity to the scores as regression/progression occurs. If need be, the score is translatable to an A-F grade scale.
 
@@ -145,18 +159,17 @@ Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI
 
 A new Google Sheet is located [here](https://docs.google.com/spreadsheets/d/1LeBsDFgE_UTinRLG4IVatSfzPB1bz9yIYP3ZaWhU58Q/edit?gid=1157931099#gid=1157931099), which will calculate the AI Usability score for you.
 
-### Goals
-
-The quality bar for AI experiences is just as high as our other experiences within GitLab. That translates to
+The quality bar for AI capabilities is just as high as our other experiences within GitLab. That translates to
 
 - a pass rate of 4/5 or 80%
-- a score range of 3.63-3.94, or a 'B' grade.
+- AND, a score range of 3.63-3.94, or a 'B' grade.
 
-### Considerations
+### Other considerations
 
 - Focus on user tasks that provide value to the user. JTBD may not exist yet in the space you're working in. That's ok; it shouldn't be a blocker for AI usability testing.
 - If you have 1 task failure, the failure (pass/fail) is documented, but their ratings aren't documented; find a replacement participant to meet the minimum of 5 participants.
 - If you have 2 task failures on the same task, stop testing that task. Understand what needs to be addressed, make adjustments, then start testing that task again.
+- If the adjustments introduce significant changes to user experience, [weigh confidence vs. risk](/handbook/product/ux/ux-research/when-to-conduct-ux-research/#additional-considerations-weighing-confidence-vs-risk) to decide whether you should start afresh with 5 new participants.
 - Testing AI experiences introduces new challenges to consider. For example, it's important to be clear and accurate on the capabilities of what's being shown to participants. This is to set the right kind of expectations. More details on this topic can be found in the **Challenges of Testing AI Products** section of [this article](https://www.uxmatters.com/mt/archives/2023/06/testing-the-future-a-guide-to-testing-ai-products-with-users.php).
 
 ### References
