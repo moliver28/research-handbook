@@ -28,16 +28,17 @@ Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ### Picking something to work on
 
-The team [build board](https://gitlab.com/groups/gitlab-org/-/boards/5454834) always shows
-work targeting the upcoming release, organized into workflow columns. The ~"workflow::ready for development" column is ordered by priority.
+The [build board](https://gitlab.com/groups/gitlab-org/-/boards/5454834) shows
+upcoming release work. The ~"workflow::ready for development" column is ordered by priority.
 
-The following labels are added by the Engineering Manager at the start of the milestone and communicate the priority of the issue to stakeholders:
+Engineering Manager adds the following labels at the start of the milestone:
 
-- The ~Deliverable label indicates that we have committed to customers that we will deliver this item in the current milestone.
-- The ~Stretch label indicates that we have not committed to deliver the item but will attempt to make progress on it.
+| Label | Meaning |
+| ---   | ---     |
+| `~Deliverable` | We have committed to customers that we will deliver this item in the current milestone. |
+| `~Stretch` | We have not committed to deliver the item but will attempt to make progress on it |
 
-It's OK not to take the top item if you are not confident you can solve it, but please post in #s_plan or #g_knowledge if that's the case, as this
-probably means the issue should be better specified.
+It's OK not to take the top item if you are not confident you can solve it, but please post in `#g_knowledge`.
 
 ### Capacity
 
