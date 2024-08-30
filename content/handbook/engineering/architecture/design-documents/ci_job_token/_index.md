@@ -141,11 +141,11 @@ permissions:
 ```yaml
 # .gitlab-ci.yml
 permissions:
-  read_containers:
-    - project: self
+  - read_containers:
+    - project: gitlab-org/gitlab-foss
       tag_name: latest
-  read_packages:
-    - project: self
+  - read_packages:
+    - project: gitlab-org/gitlab-foss
     - project: gitlab-org/gitlab
       type: go_proxy
 ```
