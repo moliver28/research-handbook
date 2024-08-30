@@ -24,22 +24,7 @@ Learn more on our [direction page](https://about.gitlab.com/direction/plan/knowl
 
 Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
-## Planning
-
-### Priority labels
-
-We use `~Knowledge::P1/P2/P3` labels to indicate issue priority within the `~workflow::*` steps and milestones.
-
-- Product Manager is the DRI for these labels, but everybody on the team can assign/adjust them.
-- Before the milestone starts, the PM and EM will review the priorities for all issues included in that milestone. It's expected that:
-      - 40% of issues have `~Knowledge::P1`
-      - 30% of issues have `~Knowledge::P2`
-      - 30% of issues have `~Knowledge::P3`, and those issues can't be `~Deliverable`'s
-- We also use these labels outside of milestones to keep track of our highest priorities.
-- If anyone on the team wants an issue to be scheduled, they should add the appropriate priority label.
-- We don't have a dedicated `P4` label, not having `~Knowledge::P*` label is equivalent to `~Knowledge::P4`.
-- When issues are moved to another `~workflow::*` stage, it's likely that the priority will be changed.
-- `~Knowledge::P*` labels are completely different from `~priority::*` labels that are used only for bugs.
+## How we work
 
 ### Picking something to work on
 
@@ -130,9 +115,9 @@ Using this label, it's possible to easily analyze the upcoming milestone. The [P
 
 When the new milestone starts, the milestone can be added all issues with the `~"Next Up"` label in a bulk action, and the label itself removed.
 
-## Workflow
+### Workflow
 
-### Use of Labels
+#### Use of Labels
 
 Proper labelling of issues helps with the classification, traceability and quantification of work the team can and is doing. Some labels
 are essential. The table below describes these and gives the reason why.
@@ -143,6 +128,21 @@ are essential. The table below describes these and gives the reason why.
 | ~type::* | Communicates the type of work being done. Used to quantify and report the split of work to roles inside and outside GitLab. | [Work Type Classification](/handbook/engineering/metrics/#work-type-classification) | |
 | ~Deliverable/~Stretch | ~Deliverable communicates to customers and stakeholders that we intend to deliver an issue within the assigned milestone. ~Stretch indicates that it might be started during the milestone but is not expected to complete. | [Release Scoping Labels](https://docs.gitlab.com/ee/development/labels/#release-scoping-labels) | Engineering Manager |
 
+### Priority labels
+
+We use `~Knowledge::P1/P2/P3` labels to indicate issue priority within the `~workflow::*` steps and milestones.
+
+- Product Manager is the DRI for these labels, but everybody on the team can assign/adjust them.
+- Before the milestone starts, the PM and EM will review the priorities for all issues included in that milestone. It's expected that:
+      - 40% of issues have `~Knowledge::P1`
+      - 30% of issues have `~Knowledge::P2`
+      - 30% of issues have `~Knowledge::P3`, and those issues can't be `~Deliverable`'s
+- We also use these labels outside of milestones to keep track of our highest priorities.
+- If anyone on the team wants an issue to be scheduled, they should add the appropriate priority label.
+- We don't have a dedicated `P4` label, not having `~Knowledge::P*` label is equivalent to `~Knowledge::P4`.
+- When issues are moved to another `~workflow::*` stage, it's likely that the priority will be changed.
+- `~Knowledge::P*` labels are completely different from `~priority::*` labels that are used only for bugs.
+
 ### Collaboration with other teams
 
 To avoid rework we reach out to other teams early when working on the following domains:
@@ -151,7 +151,7 @@ To avoid rework we reach out to other teams early when working on the following 
 | ---  | ---    |
 | [Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/) | GitLab Pages [.gitlab-ci.yml syntax](https://docs.gitlab.com/ee/ci/yaml/) |
 
-### Dashboards
+## Dashboards
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
@@ -171,7 +171,7 @@ To avoid rework we reach out to other teams early when working on the following 
 
 Detailed metrics are available on the [Engineering Metrics page](/handbook/engineering/metrics/dashboards/).
 
-#### Application Performance
+### Application Performance
 
 Additional dashboards are available in Grafana that show application performance of parts of the application for which the team is responsible.
 
