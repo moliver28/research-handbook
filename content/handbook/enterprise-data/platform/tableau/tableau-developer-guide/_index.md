@@ -152,13 +152,15 @@ Once in the Tag window, add in the *Draft* and department tags for the workbook:
 ![''](images/add_tags.png)
 
 ## Publishing to Tableau Cloud
+
 There are two environments for publishing: Development and Production.
 
 - **Development** is intended for testing and iterating on dashboards and data sources. This environment allows for experimentation and refinement before content is finalized.
 - **Production** is for deploying finalized content that has been validated and is ready for broader distribution and use.
 Refer to the workflow diagram below for details on the process to publish to Production.
 
-#### :first_place: Procedure for Publication to Production
+### :first_place: Procedure for Publication to Production
+
 ```mermaid
   flowchart LR
     A["1.Developer publishes Tableau workbook or data source to a Development Folder"]
@@ -202,7 +204,7 @@ Project Leaders have the ability to promote workbooks to Production. After a con
         1. Click **Edit Connection**
         1. From the pop-up click **Embedded credentials in the connection**
         1. From the drop down select your name and select **Save**
-    1. When you update a workbook to Production, you will still be left with the original workbook in Development. This workbook can be moved to Archive by asking the BI Team to move to Archive or it can be deleted. If you are deleting the original workbook, be sure you are deleting the correct developement workbook as deleted content cannot be restored. 
+      1. When updating a workbook in Production will leave the original workbook in Development. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored. 
 
 ## Tags
 
@@ -245,7 +247,7 @@ Two reminders, first - *make sure that any public views (does not need login acc
 
 Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
 
-#### YML
+### YML
 
 The `data/performance_indicators.yml` file in the handbook repositories is the basis for a system that automatically generates handbook pages with performance indicator content on them.  The structure can take a list of charts and each chart can take a list of filters and parameters.  Only charts not tagged as public should be included on internal handbook pages. The following is an example of how to add the needed information to the data file:
 
