@@ -13,53 +13,51 @@ description: "Solutions Architects (SA) are the trusted advisors to GitLab prosp
 
 "Leveraging our technical and domain-specific expertise, Solutions Architects strive to become trusted advisors, fostering a collaborative learning environment with our prospects, customers, and partners. Our primary objectives include:
 
-    Gaining a deep understanding of our customers' most pressing challenges and their business impact, collaborating strategically to develop solutions that deliver **measurable value**.
-    Crafting impactful value propositions that resonate with prospects, demonstrating the potential for transformative outcomes through GitLab adoption.
-    Championing successful adoption of the GitLab platform, ensuring our customers realize maximum value from their investment.
-    Cultivating a thriving business partner ecosystem by fostering partner capabilities and co-developing innovative solutions that expand market reach and customer value."
+- Crafting impactful value propositions that resonate with prospects, demonstrating the potential for transformative outcomes through GitLab adoption.
+- Championing successful adoption of the GitLab platform, ensuring our customers realize maximum value from their investment.
+- Cultivating a thriving business partner ecosystem by fostering partner capabilities and co-developing innovative solutions that expand market reach and customer value.
 
 Here's how the SA organization fosters value creation through the lens of a learning organization and DevOps culture:
 
 1. Shared Vision & Value Creation
 
-    The SA team aligns its goals with the overarching organizational vision of empowering customer success.
-    They prioritize customer value creation, understanding that their success is directly tied to the positive outcomes achieved by their customers.
-    This shared focus encourages collaboration and a sense of collective responsibility towards delivering value.
+- The SA team aligns its goals with the overarching organizational vision of empowering customer success.
+- They prioritize customer value creation, understanding that their success is directly tied to the positive outcomes achieved by their customers.
+- This shared focus encourages collaboration and a sense of collective responsibility towards delivering value.
 
 2. Personal Mastery & DevOps Expertise
 
-    SAs continually expand their technical, consultative, and domain-specific knowledge, embracing a mindset of lifelong learning.
-    They actively seek out new information, experiment with innovative solutions, deliberately practice, and share insights with their peers, contributing to the team's collective expertise.
-    This emphasis on personal mastery aligns with the DevOps culture of continuous improvement and adapting to evolving technology landscapes.
+- SAs continually expand their technical, consultative, and domain-specific knowledge, embracing a mindset of lifelong learning.
+- They actively seek out new information, experiment with innovative solutions, deliberately practice, and share insights with their peers, contributing to the team's collective expertise.
+- This emphasis on personal mastery aligns with the DevOps culture of continuous improvement and adapting to evolving technology landscapes.
 
 3. Systems Thinking & Customer-Centric Approach
 
-    SAs take a holistic view of the customer's challenges, understanding how different parts of their organization and technology stack interact and impact each other.
-    They identify potential bottlenecks or inefficiencies, working collaboratively to design solutions that optimize the entire system for maximum value creation.
-    This systems thinking approach echoes the DevOps philosophy of breaking down silos and promoting cross-functional collaboration to achieve shared goals.
-    SAs also leverage these concepts to improve processes internal to GitLab.
+- SAs take a holistic view of the customer's challenges, understanding how different parts of their organization and technology stack interact and impact each other.
+- They identify potential bottlenecks or inefficiencies, working collaboratively to design solutions that optimize the entire system for maximum value creation.
+- This systems thinking approach echoes the DevOps philosophy of breaking down silos and promoting cross-functional collaboration to achieve shared goals.
+- SAs also leverage these concepts to improve internal processes at GitLab.
 
 4. Challenging Mental Models & Innovation
 
-    SAs encourage customers to question assumptions and challenge traditional ways of thinking about their processes and technologies.
-    They introduce new perspectives and innovative solutions, helping customers overcome limitations and unlock new opportunities for growth.
-    This focus on challenging mental models and fostering innovation reflects the DevOps principle of experimentation and learning from both successes and failures.  SAs also challenge internal assumptions and approaches, looking to continuously improves GitLab's ability to help our customers.
+- SAs encourage customers to question assumptions and challenge traditional ways of thinking about their processes and technologies.
+- They introduce new perspectives and innovative solutions, helping customers overcome limitations and unlock new opportunities for growth.
+- This focus on challenging mental models and fostering innovation reflects the DevOps principle of experimentation and learning from both successes and failures.  SAs also challenge internal assumptions and approaches, looking to continuously improves GitLab's ability to help our customers.
 
 5. Teamwork & Knowledge Sharing
 
-    The SA team operates as a collaborative unit, sharing knowledge, experiences, and best practices freely.
-    They create a safe space for experimentation and learning, fostering an environment where individuals feel comfortable asking questions, seeking help, and offering insights.
-    This emphasis on teamwork and knowledge sharing reflects the core DevOps values of collaboration and transparency.
+- The SA team operates as a collaborative unit, sharing knowledge, experiences, and best practices freely.
+- They create a safe space for experimentation and learning, fostering an environment where individuals feel comfortable asking questions, seeking help, and offering insights.
+- This emphasis on teamwork and knowledge sharing reflects the core DevOps values of collaboration and transparency.
 
-6. Build and leverage continuous feedback loops
+6. Building and leveraging continuous feedback loops
 
-    The SA organization thrives on feedback, both between team members and through instrumentation of our practices.  By leveraging feedback and data, the SA organization makes data driven decision wherever possible.  A culture of feedback reflects the DevOps philosophy of continuous improvement and adapting to evolving technology landscapes.
+- The SA organization thrives on feedback, both between team members and through instrumentation of our practices.  By leveraging feedback and data, the SA organization makes data driven decisions wherever possible.  
+- A culture of feedback reflects the DevOps philosophy of continuous improvement and adapting to evolving technology landscapes.
 
 Conclusion:
 
 By embracing the principles of a learning organization and DevOps culture, the SA team becomes a powerful catalyst for customer success. They not only provide technical expertise but also foster a collaborative and innovative environment where customers are empowered to achieve their goals and maximize the value they derive from GitLab solutions.
-
-
 
 ## Role & Responsibilities
 
