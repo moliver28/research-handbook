@@ -1,6 +1,5 @@
 ---
 title: GitLab Security Logging Standards
-controlled_document: true
 ---
 
 ## Purpose and Scope

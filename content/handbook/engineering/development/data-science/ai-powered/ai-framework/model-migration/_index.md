@@ -1,21 +1,20 @@
 ---
 title: AI Model Migration Playbook
 description: "How to migrate an AI model at GitLab"
-aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
 ## Introduction
 
-LLM models are constantly changing and Gitlab needs to constantly update our AI features to support newer models. The following guide should give a general approach on how to update our AI features to reduce the time to migrate Gitlab tools.
+LLM models are constantly changing and GitLab needs to constantly update our AI features to support newer models. The following guide should give a general approach on how to update our AI features to reduce the time to migrate GitLab tools.
 
 ### Purpose
 
-Provide a guide for migrating AI models within GitLab. 
+Provide a guide for migrating AI models within GitLab.
 
 ### Scope
 
 Applicable to all AI model-related teams at GitLab. We currently only support using Anthropic and Google Vertex
-models. 
+models.
 
 ## Migration Tasks
 
@@ -25,15 +24,15 @@ Migration Tasks for updating Anthropic Model:
 
     - Make sure the newer model is supported exsiting [Messages API](https://docs.anthropic.com/en/api/messages). The migration of `Claude 2.1` to `Claude 3.0` required a change from the [Text Completions API](https://docs.anthropic.com/en/api/complete) to Messages API.
 
-2. Add the new model to our [available models list](https://gitlab.com/gitlab-org/gitlab/-/blob/32fa9eaa3c8589ee7f448ae683710ec7bd82f36c/ee/lib/gitlab/llm/concerns/available_models.rb#L5-10). 
+2. Add the new model to our [available models list](https://gitlab.com/gitlab-org/gitlab/-/blob/32fa9eaa3c8589ee7f448ae683710ec7bd82f36c/ee/lib/gitlab/llm/concerns/available_models.rb#L5-10).
 3. Change the default model in our [AI-Gateway client](https://gitlab.com/gitlab-org/gitlab/-/blob/41361629b302f2c55e35701d2c0a73cff32f9013/ee/lib/gitlab/llm/chain/requests/ai_gateway.rb#L63-67). Please do place the change around a feature flag. We may need to quickly rollback the change.
 4. Each tool we have in `ee/lib/gitlab/llm/chain/tools/*` will either pass a model or default to the existing `zero_shot` model. If we pass a model through the prompt `options`, you should the options key to the newer model.
 
-    - _**Note:**_ There's not an exact science to which model to select for each tool. Please see the testing section to how to evaluate 
+    - _**Note:**_ There's not an exact science to which model to select for each tool. Please see the testing section to how to evaluate
 
 Migration tasks for updating Vertex models:
 
-** Work in Progress* 
+** Work in Progress*
 
 ### Scope the Work
 
@@ -41,12 +40,12 @@ Migration tasks for updating Vertex models:
 
 - **Duo Chat Tools:**
   - `ci_editor_assistant/prompts/anthropic.rb` - CI Editor
-  - `gitlab_documentation/executor.rb` - Gitlab Documentation
+  - `gitlab_documentation/executor.rb` - GitLab Documentation
   - `epic_reader/prompts/anthropic.rb` - Epic Reader
   - `issue_reader/prompts/anthropic.rb` - Issue Reader
   - `merge_request_reader/prompts/anthropic.rb` - Merge Request Reader
 - **Chat Slash Commands:**
-  - `refactor_code/prompts/anthropic.rb` - Refactor 
+  - `refactor_code/prompts/anthropic.rb` - Refactor
   - `write_tests/prompts/anthropic.rb` - Write Tests
   - `explain_code/prompts/anthropic.rb` - Explain Code
   - `explain_vulnerability/executor.rb` - Explain Vulnerability
@@ -70,7 +69,7 @@ Migration tasks for updating Vertex models:
 ### Chat Tools
 
 - `ci_editor_assistant/prompts/anthropic.rb` - CI Editor
-- `gitlab_documentation/executor.rb` - Gitlab Documentation
+- `gitlab_documentation/executor.rb` - GitLab Documentation
 - `epic_reader/prompts/anthropic.rb` - Epic Reader
 - `issue_reader/prompts/anthropic.rb` - Issue Reader
 - **NOT PUT INTO PRODUCTION YET**
@@ -91,9 +90,9 @@ Migration tasks for updating Vertex models:
 
 ### Testing
 
-#### Model Evaluation 
+#### Model Evaluation
 
-The `ai-model-validation` team created the following library to evaluate the performance of prompt changes as well as model changes. The following [Prompt Library README.MD](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/how-to/run_duo_chat_eval.md) provides details on how to evaluate the performance of AI feature.  
+The `ai-model-validation` team created the following library to evaluate the performance of prompt changes as well as model changes. The following [Prompt Library README.MD](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/how-to/run_duo_chat_eval.md) provides details on how to evaluate the performance of AI feature.
 
 > Another use-case for running chat evaluation is during feature development cycle. The purpose is to verify how the changes to the code base and prompts affect the quality of chat responses before the code reaches the production environment.
 

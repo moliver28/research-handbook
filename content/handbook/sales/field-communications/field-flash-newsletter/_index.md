@@ -43,7 +43,7 @@ The newsletter will...
 **Be fun to look at and read**
 
 - A focus on multimedia is important in order to help the newsletter break the monotony of text we sift through each day.
-- We use images, gifs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
+- We use images, GIFs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
 
 **Help the Field operationalize key messages**
 
@@ -65,7 +65,7 @@ The newsletter will...
 
 **Be general enough to allow us to remain segment-agnostic**
 
-- The newsletter will include general updates and resources that are applicable to most, if not all, team members. Future field communications programs will enable individual field segments (CS, ENT, COMM, PubSec, etc.) with more frequent updates that are tailored to their teams (e.g. [Field Update Tickers] (https://about.gitlab.com/handbook/sales/field-communications/field-update-tickers/)).
+- The newsletter will include general updates and resources that are applicable to most, if not all, team members. Future field communications programs will enable individual field segments (CS, ENT, COMM, PubSec, etc.) with more frequent updates that are tailored to their teams (e.g. [Field Update Tickers] (/handbook/sales/field-communications/field-update-tickers/)).
 
 **Be built out in the open**
 

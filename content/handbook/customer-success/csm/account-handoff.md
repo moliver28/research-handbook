@@ -19,6 +19,7 @@ The first step once you are aware of a handoff is for the new CSM to open an [CT
 - Old CSM: Review account handoff handbook page
 - Old CSM: Ensure the success plan and any CTAs are updated, and that the Attributes tab in Gainsight contains links to the collaboration project, meeting notes doc, and triage issue (if applicable)
 - New CSM: Review account handoff handbook page
+- New CSM: Try to answer the handover questions listed below and discuss them together with the old CSM in the scheduled handover meeting
 - Old CSM: Schedule an internal meeting between the current CSM & new CSM to review account details (collaboration project, success/command plans, meeting notes, EBRs, account history, etc.)
 - Old CSM: Add new CSM to any Slack channels
 - New CSM: Turn on watch notifications for the collaboration project
@@ -28,7 +29,7 @@ The first step once you are aware of a handoff is for the new CSM to open an [CT
 - Old CSM: Assign any open CTAs and the success plan (and its objectives/tasks) to the new CSM
 - Old CSM: Delete the cadence call calendar events (if created internally); or, if the events were created by the customer, reach out to ask that the customer invites the new CSM to the events directly
 - New CSM: Create and send out a new invite for cadence calls, to ensure there is no disruption, as some customers' internal systems do not cooperate with Google Calendar
-- New CSM: Review open/pending support tickets and subscribe to all tickets, which the OLD CSM was watching
+- New CSM: Review open/pending support tickets and subscribe to all tickets, which the old CSM was watching
 - Old CSM: Remove yourself from all support tickets and its CC field
 - New CSM: Schedule additional sync with old CSM if needed; otherwise close this CTA
 
@@ -63,11 +64,15 @@ DRI: New CSM/A being assigned
 DRI: CSM/A that the customer is transferring away from
 
 1. On the day of transfer change the name listed as the Customer Success Manager in Gainsight to TAM Scale. This is the name that represents the CSE organization as a whole in our CRMs.
+1. Any open Success Plan with this customer should be closed and an update in Gainsight should be added which incidates the handover to CSE.
+1. Close all open / pending CTA's within Gainsight for the customer which is about to he handed over. 
 1. The CSM Compensation Pool will need to be changed. Change it to the CSE pool that represents the Geo of the customer:
     1. CSE_AMER_1
     1. CSE_EMEA_1
     1. CSE_APAC_1
     1. CSE_PUBSEC_1
+
+Generally speaking there is no direct assigment to a specific CSE like an account was assigned to a CSM. The CSE team will be best involved by letting the AE or SA opening a [CSE help request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process), in which the CSE can introduce their role to the customer and how CSE team works. Going forward, CSE help requests should be used again and again by the AE / SA / RM, when a situation at the customer arises, which needs help by a CSE team member.
 
 **CSE Organization to CSM/A**
 
@@ -81,6 +86,44 @@ DRI: CSM/A the customer is transferring to
 At Gitlab, we value [Collaboration](/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo's senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
 
 ## Topics to Cover
+
+### Valuable Questions for the Handover
+
+To ensure a smooth handover and provide clear guidelines for the handover meeting between the new and old CSM, we have developed a set of handover questions. Initially, these questions should be posed by the new CSM. Subsequently, the old CSM should address and answer the outstanding questions during the handover meeting. When answering these questions, it might be helpful to look at the Google Drive folder for the customer, Gainsight, Salesforce, Zendesk and the corresponding collaboration project.
+
+#### Communication / Collaboration
+
+- Company information (Vertical, Size, Internal Team structure)
+- Customer contacts (Names, Roles, Team, How involved are they?)
+- Who should I contact with my welcome email?
+- Do they have any other calls with GitLab apart from Cadence Calls?
+- How and how often are you in contact with the customer? (Collaboration Project, E-Mail)
+- How do you use the collaboration project? (Issue for every cadence call? Issue for every ongoing objective/ initiative? Is it up to date? Can we close any issues?)
+- How often does the customer usually communicate with you outside of calls?
+- Who are the most important contacts from the customer and who do you interact with regularly?
+- Who are the most important contacts within GitLab? Who should I talk to?
+- Do you have any Slack Channels for the Customer?
+
+#### Documentation
+
+- Where are all meetings notes of the customer?
+- Which documents are shared with the customer?
+
+#### Usage
+
+- What are their primary use cases for GitLab?
+- How do they use GitLab?
+- Which features do they use?
+- Do you have an architecture diagram?
+- Which other tools do they use (JIRA, Jenkins, GitHub, etc.)?
+
+#### Other
+
+- Do you have any training scheduled or planned with them?
+- What are the ongoing initiatives? What is the current status?
+- What are you currently working on with the customer/ what are your current efforts?
+- Are there any open CTAs in Gainsight?
+- Are there any open/ pending support tickets?
 
 ### License
 

@@ -1,9 +1,6 @@
 ---
 title: People Group
 description: "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle."
-aliases:
-- /handbook/people-group/
-- /handbook/people-group/people-group-vision/
 ---
 
 ## Welcome
@@ -33,9 +30,11 @@ You can also check out pages related to People Group in the section below. If yo
 - If you wonder who's available and/or in what time zone specific team members of the People Group are, you can easily check via Google Calendar or the [GitLab Team Page](/handbook/company/team/)
 - If you need help with any technical items, for example, 2FA, please ask in `#it_help`. The channel topic explains how to create an issue. For urgent matters you can mention `@it-ops-team`.
 
-## The People Group: [One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
+## The People Group: One Team Mosaic Video
 
-In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values]({{< ref "values" >}}).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
+[One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
+
+In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values](/handbook/values/).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
 
 The People Group works together as one team, made up of five departments: People Operations, Talent and Engagement, Total Rewards, People Business Partners, and Diversity, Inclusion, and Belonging (DIB).
 
@@ -242,7 +241,7 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 - [Offboarding]({{< ref "offboarding" >}})
 - [Celebrations]({{< ref "celebrations" >}})
 - [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
-- [People Analytics]({{< ref "./people-ops-tech-analytics/people-analytics/_index.md" >}})
+- [People Analytics](people-ops-tech-analytics/people-analytics/_index.md)
 
 ### Talent Acquisition
 

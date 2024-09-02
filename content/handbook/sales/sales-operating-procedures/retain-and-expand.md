@@ -23,7 +23,7 @@ In the retention and expansion phase, the roles and responsibilities of the CSM/
 
 1. Professional Services Implementation kick-off. CSM manages the kick-off and implementation plan catered to the customer.
 
-- [Professional Services](/handbook/customer-success/professional-services-engineering/sales-enablement/) helps your customer accelerate their DevOps Transformation by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption. We accomplish these by offering categories of services to help ensure the initial gitlab rollout goes smoothly so the end users can get value as fast as possible. It is important for a ISR/SAE to understand the services that certain types of customers typically engage in and how to position those services when building out a success plan. Utilize the [Positioning Professional Services](/handbook/customer-success/professional-services-engineering/positioning/) handbook page to understand all the services available to customers and how to market to them.
+- [Professional Services](/handbook/customer-success/professional-services-engineering/sales-enablement/) helps your customer accelerate their DevOps Transformation by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption. We accomplish these by offering categories of services to help ensure the initial GitLab rollout goes smoothly so the end users can get value as fast as possible. It is important for a ISR/SAE to understand the services that certain types of customers typically engage in and how to position those services when building out a success plan. Utilize the [Positioning Professional Services](/handbook/customer-success/professional-services-engineering/positioning/) handbook page to understand all the services available to customers and how to market to them.
 
 1. Solution Architect transitions customer meta-record and technical profile to PSE or CSM.
 1. Account Executive transitions customer meta-record and business profile to CSM
@@ -37,18 +37,18 @@ In the retention and expansion phase, the roles and responsibilities of the CSM/
 
 **Implementation** is focused on ensuring the customer has the right infrastructure to support GitLab solution operations. For self-managed customers, this could include setting up on-premises equipment and/or cloud infrastructure. For customers leveraging GitLab.com, this includes integration of the GitLab cloud service with the customers environment (e.g., SAML SSO integration). This is considered complete when production infrastructure is ready for use.
 
-### 2.1 [Success Planning](/handbook/customer-success/csm/success-plans/)
+### 2.1 Success Planning
 
-There are two types of success plans in Gainsight. The first is the **ROI Success Plan** described above. The second type is the **Stage Adoption Success Plan**. This success plan is an internal document allowing the CSM to track progress and goals on driving stage adoption within an account.
+There are two types of [success plans](/handbook/customer-success/csm/success-plans/) in Gainsight. The first is the **ROI Success Plan** described above. The second type is the **Stage Adoption Success Plan**. This success plan is an internal document allowing the CSM to track progress and goals on driving stage adoption within an account.
 
 The **Return on Investment (ROI) Success Plan** is a customer facing interactive map created by a CSM to align the purchase (or renewal!) reasons to customer outcomes, develop joint accountabilities, measure progress and evolve as customers' needs change. Put another way, it's the way the customer can see and know that they're attaining significantly more value than the cost of a product or service. Success Planning focuses on helping customers achieve their desired objectives and recognizes that the purchase transaction is just the beginning of the customer's journey with GitLab. This includes outlining a vision to customers that combines the GitLab road map with the customer road map.
 
 - CSM responsibilities include a full use-case, stakeholder, technology stack, and opportunity discovery with the account customer.  The information gathered for the customer's success plan is housed in **[GainSight](/handbook/customer-success/csm/gainsight/)**, which is embedded as an additional link within Salesforce.
 - CSM coordinates and educates customer and positions them for GitLab Certification with GitLab 101.
 
-### 2.2 [Stage Adoption](/handbook/customer-success/csm/stage-adoption/)
+### 2.2 Stage Adoption
 
-The objective is to support our customer's utilization of the GitLab solution to address the customer's original purchase intent (i.e., product stage(s) and capabilities, licenses).  Adoption is complete when the following questions can be answered:
+The objective is to support our customer's utilization of the GitLab solution to address the customer's original purchase intent (i.e., product stage(s) and capabilities, licenses). [Stage Adoption](/handbook/customer-success/csm/stage-adoption/) is complete when the following questions can be answered:
 
 - Have 80% of the licenses from the original purchases are activated?
 - Is the customer successfully adopting the capabilities or stages from their original purchase intent?
@@ -97,7 +97,7 @@ Below are the **WEEKLY TASK** you'll need to perform within Clari.
 
 For in-depth training on Clari go to the [Clari for Salespeople Instructional Videos](/handbook/sales/forecasting/).
 
-### 3.3 Conduct [Executive Business Reviews](/handbook/customer-success/csm/ebr/) (CSMs)
+### 3.3 Conduct Executive Business Reviews (CSMs)
 
 An [Executive Business Review (EBR)](/handbook/customer-success/csm/ebr/) is a strategic meeting with stakeholders from both GitLab and the customer. Together with the SAE/AE, a CSM is responsible for scheduling and conducting EBRs and working with their customers to achieve the primary objectives and desired business outcomes. The CSM will own the content creation, and together the SAE/AE and CSM will determine the flow of the review based on best practices and insight into the customer relationship.
 

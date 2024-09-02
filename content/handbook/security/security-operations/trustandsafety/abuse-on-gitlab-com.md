@@ -68,7 +68,7 @@ Disruptive activity such as that listed above can be researched freely on your o
   GitLab reporters with 3 or more valid reports are eligible for a 1-year Ultimate license for up to 5 users. As per the
   [H1 policy](https://gitlab.com/gitlab-com/gl-security/hackerone/configuration/-/blob/master/program-policy.md#gitlab-ultimate-license), reporters will request the license through a comment on one of their issues.
 
-  For more information, please refer to our [FAQ page]({{< ref "./faq#security-testing" >}}).
+  For more information, please refer to our [FAQ page](faq/#security-testing).
 
 ### Abuse Categories
 

@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/build-infrastructure.html
-
 title: "Distribution Team Infrastructure and Maintenance - Build Infrastructure"
 description: "Details and maintenance tasks for the Distribution Team's build nodes"
 ---

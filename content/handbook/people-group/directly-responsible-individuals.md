@@ -54,7 +54,7 @@ While they're empowered to make all final decisions, they should know how and wh
 DRIs are most often assigned at the task-level. For example, when building a new product feature [the Product Manager is the DRI for the prioritization and the Engineering Manager is the DRI for delivery](/handbook/product/product-processes/#working-with-your-group). As [managers of one](/handbook/values/#managers-of-one) GitLab team members are most often the DRI for the tasks they accomplish.
 
 At times, someone may be a DRI for an entire process or project. Because this comes with additional responsibility, there are some suggested characteristics to keep in mind when assigning the DRI.
-[Mike Brown](https://www.brainzooming.com/team#MikeBrownBio) in his November 2015 article, [Project Management – 8 Characteristics of a DRI](http://brainzooming.com/project-management-8-chracteristics-of-a-dri/25340/), lists the following:
+[Mike Brown](https://www.brainzooming.com/team#MikeBrownBio) in his November 2015 article, [Project Management – 8 Characteristics of a DRI](https://www.brainzooming.com/blog/project-management-8-chracteristics-of-a-dri), lists the following:
 
 1. Detail-orientated without ever losing a strong strategic perspective.
 1. Calm under the pressure of implementation and deadlines.

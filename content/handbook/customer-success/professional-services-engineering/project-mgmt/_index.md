@@ -3,7 +3,7 @@ title: "Professional Services Project Management"
 description: "Learn about the processes that the GitLab Project Management team uses to deliver successful engagements with Customers."
 ---
 
-Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of Gitlab products and PS
+Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of GitLab products and PS
 
 ![<PS Delivery Customer Journey Flow - Page 1 (10).png>](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
 
@@ -23,21 +23,18 @@ Given the close collaboration between the PS Project Management and PS Operation
    * Step 2: EM/Sales defines the roles and personalities of all customer stakeholders
    * Step 3: PSops works with PMO Manager on PM assignment
    * Step 4: PM confirms information & PSops Schedules PSE
-   * Step 5: Introductions - EM/AE
-   * Step 6: Collaboration approach & Onboarding Gathered by PM
-   * Step 7: Collaboration Space Preparation - PM
-   * Step 8: Conduct Stakeholder Meeting - PM
-   * Step 9: Step 9: Conduct Kickoff & Forecast Updates - PM
+   * Step 5: [Introductions - EM/AE](https://docs.google.com/document/d/1g8ku5KxKZJwSHgXpldhS_YErELX0K8XOe1qL7jRgx9s/edit)
+   * Step 6: [Follow Up Email to Customer PM](https://docs.google.com/document/d/16f8P6Mg1ZXJ8L8nACVDGM2ziXtiMWe0oYyQT11AnNS0/edit)
+   * Step 7: Collaboration approach & Onboarding Gathered by PM
+   * Step 8: Collaboration Space Preparation - PM
+   * Step 9: [Conduct Stakeholder Meeting - PM](https://docs.google.com/presentation/d/1d4N8_tXbxZ_rCRy3tUnW1W3dZCfgI03wuhOyxNCeA7g/edit#slide=id.g59bfc474c5_2_145)
+   * Step 10: Conduct Kickoff & Forecast Updates - PM
 
 #### Collaboration Space Guidelines
 
-1. Create Project in Gitlab.com using CP (Customer Project requirements) _new steps to CP coming soon_
-   * Create sub group with customer name under [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
-   * Create a blank project under your new subgroup with SOW-<sow_number>
-   * Add epics for each activity including labels: "PM::name" "PSD Workflow::Not Started" "SOW-00". Issues will be created at a later stage by the technical team under the right epic
-
-1. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery
-   * _add Methodology steps_
+1. We use Gitlab as our primary Project Management tool for Service Deivery with our Customers. We use CP (automation) to convert the SOW activities into trackable issues within Gitlab
+   * A list of our Projects can be found here: [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
+   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated
 
 #### For Consulting Blocks and Dedicated Engineer Projects
 
@@ -52,7 +49,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 ##### PS/PMO Cadence Schedule
 
 * Pinned to the ps_pmo Slack channel
-* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the Gitlab organization
+* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization
 
 ##### Kantata
 

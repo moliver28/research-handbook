@@ -96,11 +96,11 @@ Team members in Australia have the option to make concessional super contributio
 
 ### Life insurance
 
-GitLab does not plan to offer life insurance at this time as Australians can access [government payments and services](https://www.humanservices.gov.au/individuals/subjects/payments-people-living-illness-injury-or-disability) if they get ill, injured or have a disability. Most Australians who choose to have life insurance take out cover from their super fund.
+GitLab does not plan to offer life insurance at this time as Australians can access [government payments and services](https://www.servicesaustralia.gov.au/living-with-disability) if they get ill, injured or have a disability. Most Australians who choose to have life insurance take out cover from their super fund.
 
 ### Workers' Compensation
 
-[Fair Work statement](https://www.fairwork.gov.au/leave/workers-compensation)
+[Fair Work statement](https://www.fairwork.gov.au/employment-conditions/workers-compensation)
 
 GitLab renews the Workers' Compensation premium annually for each state. Premium are based on the annual declared wages.
 
@@ -132,13 +132,13 @@ Engineers based in Australia who are part of the Development and Infrastructure 
 - 8-hour shift = 1 day time in lieu
 - 24-hour shift = 3 days time in lieu
 
-For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [unlimited PTO policy]({{< ref "paid-time-off#paid-time-off" >}}) to complement time in lieu.
+For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [flexible PTO policy]({{< ref "paid-time-off#paid-time-off" >}}) to complement time in lieu.
 
 *Note: The full shift (state of readiness) is compensated by time in lieu - rather than only the "actual time worked"*
 
 #### What should I do when I want to take more time off after an on-call shift?
 
-If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Unlimited [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
+If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Flexible [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
 
 #### When can time in lieu be taken?
 
@@ -241,7 +241,7 @@ Unpaid carer's leave can be taken:
 #### Long Service Leave
 
 - Team members may be eligible for long service leave in accordance with state/territory based legislation as varied from time to time.
-- This leave runs concurrently with GitLab PTO.  Team members should select `Vacation` in Time Off by Deel to ensure that leave entitlements are properly tracked.
+- This leave runs concurrently with GitLab PTO. Team members should select `Vacation` in Time Off by Deel to ensure that leave entitlements are properly tracked.
 
 #### Other Types of Leave
 
@@ -300,7 +300,7 @@ This leave runs concurrently with GitLab PTO. Team members should select `Bereav
 
 <summary>Public Holidays</summary>
 
-- All team members are entitled to at least their base pay rate for all hours worked on [public holidays](https://www.fairwork.gov.au/leave/public-holidays).
+- All team members are entitled to at least their base pay rate for all hours worked on [public holidays](https://www.fairwork.gov.au/employment-conditions/public-holidays).
 - Team members who take time off for public holidays are entitled to their base pay rate for the ordinary hours they would have worked. GitLab encourages all team members to take time off for the holidays they observe.
 - Team members must select `Public Holiday` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
@@ -337,14 +337,18 @@ All team members are entitled to up to 12 months of unpaid parental leave if the
 
 **Australian Government Parental Leave Payment**
 
-Team members must pass the [income test](https://www.servicesaustralia.gov.au/meeting-parental-leave-pay-income-test?context=22191) to be eligible for the government's Parental Leave payments.  If a team member is not eligible, GitLab will provide 100% of their wages for up to 16 weeks of leave.
+Team members may be eligible for pay from either or both of the following:
+
+- [Australia's Government Parental Leave Pay Scheme](https://www.fairwork.gov.au/leave/parental-leave/during-parental-leave/payment-during-parental-leave#australian-government-parental-leave-pay)
+- GitLab's Parental Leave
+
+Eligible employees who are the carer of a child born or adopted from 1 July 2024 can get up to 22 weeks’ Parental Leave Pay, which is paid at the National Minimum Wage.  For more information visit [Services Australia – Parental Leave Pay] (https://www.servicesaustralia.gov.au/parental-leave-pay)
 
 - If you are applying for government-funded Parental Leave Pay, you can apply up to 3 months before your child's due date.
 
 **Applying for Parental Leave in Australia**
 
-- To initiate your parental leave, please review this [checklist](https://docs.google.com/document/d/17Nxh0Hg3A44i1HmJp0vQj0jMMzFoIQxy/edit?usp=sharing&ouid=108582647308078356493&rtpof=true&sd=true) to ensure reporting timelines are met.  All written requests for Parental Leave can be sent to leaves@gitlab.com.
-- After submitting your written request for Parental Leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` label.
+- To initiate your parental leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` label.
 
 **Record-keeping for paid Parental Leave:**
 
@@ -361,6 +365,42 @@ Team members must pass the [income test](https://www.servicesaustralia.gov.au/me
 
 - Team members who get Australian Government Parental Leave Pay have to be given a pay slip for each payment. The pay slip must specify that the payments are Parental Leave Pay under the Australian Government Paid Parental Leave Scheme.
 - Ordinary pay slip requirements apply to pay slips given to team members getting government-funded Parental Leave Pay.
+
+### GitLab PTY Australia Right to Disconnect
+
+At GitLab (the “Company”), we care about the safety, health, and well-being of all team members and focus not on hours worked but rather on [asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication) and results. We believe that [family and friends come first and work comes second](/handbook/values/#family-and-friends-first-work-second). In line with the Company’s values, we understand that “[unplugging](/handbook/company/culture/all-remote/mental-health/#your-rest-ethic-is-as-important-as-your-work-ethic)” from work is essential to a [healthy and balanced life](/handbook/company/culture/all-remote/people/#worklife-harmony). Technological advancements, global events, and work demands can sometimes make us forget that we need a break to recharge.
+
+Team members are expected to disconnect from work and work-related communications outside of normal working hours and during PTO and there are many suggestions in the Handbook for [communicating when you will be away](/handbook/people-group/paid-time-off/#communicating-your-time-off) so other people can manage their time efficiently, projects don’t slip through the cracks, and so that team members are not disturbed while away.
+
+This guidance reminds team members in Australia of their workplace right to disconnect (codified from 26 August 2024) and how the Company is committed to supporting team members in doing so.
+
+The right to disconnect means that a team member is not required, outside of their working hours, to monitor, read or respond to contact, or attempted contact, from an employer or a third party (where the contact relates to their work), unless it would be unreasonable to refuse.
+
+In addition to the suggestions for communicating when you will be away, take a look at these tips to increase a team member’s ability to disconnect from work:
+
+- unsubscribe from any MRs that will likely resolve while you’re away, and then you won’t have to deal with all the emails from them when you return;
+- set up some email filters to move emails into buckets that you can address one-at-a-time when you return;
+- disconnect yourself from Slack and Gmail in any of these ways (*note: Time Off by Deel is supposed to turn off Slack notifications on your phone and set DND mode):
+  - log out from Slack and Gmail on your phone, or
+  - remove Slack and Gmail from your phone, or
+  - pause the Slack and Gmail apps on your phone, or
+  - manually configure Slack and Gmail not to send notifications on your phone
+
+At GitLab, team members should communicate respectfully and professionally at all times, in line with the Company’s values, with a bias towards asynchronous communication and documentation-first and should [assume positive intent in dealings with others](/handbook/values/#assume-positive-intent) (including in relation to the tone and timing of communications).
+
+In considering whether contact is unreasonable, think about:
+
+- the reason for contact;
+- how contact might be made and the level of disruption contact may cause;
+- the extent to which the team member is being compensated (eg with time off after an on-call rotation):
+  - to remain available to perform work during the period in which contact is made; or
+  - for working additional hours outside of their ordinary hours of work;
+- the nature of the team member’s role and their level of responsibility; and 
+- the team member’s personal circumstances.
+
+In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
+
+The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/agreements-awards/awards/find-award).
 
 ## GitLab PTY New Zealand Specific Benefits
 
@@ -421,7 +461,7 @@ Team members are entitled to a minimum of four weeks' annual leave per year. Ann
 
 ## On-Call (Engineering-only)
 
-New Zealand employment law requires that work on a formal [Public Holiday](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/), including [on-call](https://www.employment.govt.nz/leave-and-holidays/public-holidays/employees-working-shifts-or-on-call/), is compensated with time-in-lieu. Overtime pay is also required in certain situations, for example: whether the on-call shift fell on a "normal" working day or not, and whether the team member was called to work during their on-call shift. The policy linked above covers for the [time-in-lieu requirement](#on-call-engineering-only) but we do not yet have a set mechanism for handling overtime pay requirements.
+New Zealand employment law requires that work on a formal [Public Holiday](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/), including [on-call](https://www.employment.govt.nz/leave-and-holidays/public-holidays/alternative-holidays), is compensated with time-in-lieu. Overtime pay is also required in certain situations, for example: whether the on-call shift fell on a "normal" working day or not, and whether the team member was called to work during their on-call shift. The policy linked above covers for the [time-in-lieu requirement](#on-call-engineering-only) but we do not yet have a set mechanism for handling overtime pay requirements.
 
 New Zealand-based team members *may not be on-call on a New Zealand Public Holiday*, and must seek/find a replacement for any shifts where they may be indicated as being on call on a Public Holiday. To ensure we remain compliant with local laws we team members to consider local laws when volunteering for/accepting shifts.
 
@@ -435,7 +475,7 @@ If it's impossible to find a replacement and the team member ends up taking the 
 - If the team member is not called in to work during their on-call shift, a regular time-in-lieu compensation for the shift should be applied.
 - If the team member is called in to work during their on call shift, they are responsible for recording their hours worked during the shift and report to payroll/manager in order for overtime payment processing.
 
-*Note: To stay in compliance with local laws we would follow [the New Zealand government website](https://www.employment.govt.nz/leave-and-holidays/public-holidays/employees-working-shifts-or-on-call/) with regards to compensation for worked time during on-call.*
+*Note: To stay in compliance with local laws we would follow [the New Zealand government website](https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-rights-for-employees#scroll-to-7) with regards to compensation for worked time during on-call.*
 
 ## Statutory Sick Leave
 
@@ -501,21 +541,6 @@ Partner Leave
 
 ### Other Types of Leave
 
-<details markdown="1">
-
-<summary>Stress Leave</summary>
-
-- A team member with workplace stress that amounts to an illness may take sick leave. The [ordinary conditions for sick leave](#statutory-sick-leave) apply.
-- This leave runs concurrently with GitLab PTO.
-
-*How to Apply:*
-
-- Team members must contact `leaves@gitlab.com` to report their leave.
-  - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
-- To designate and track Stress Leave properly, select as `Out Sick` in Time Off by Deel.
-
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/stress-leave/)
-
 </details>
 
 <details markdown="1">
@@ -541,7 +566,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) or volunteer at the polls.
 - This leave runs concurrently with GitLab PTO. Team members must select `Public Service/Volunteer` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/election-voting-leave/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/time-off-to-vote)
 
 </details>
 
@@ -577,23 +602,11 @@ For more information related to this policy, please reivew the [Employment New Z
 
 - This leave may also be taken to support a child who has experienced domestic violence as long as they live with the team member for some of the time.
 - A person is affected by family violence if they are a person against whom any other person is inflicting, or has inflicted family violence, and/or a person with whom there ordinarily or periodically resides a child against whom any other person is inflicting or has inflicted, family violence.
-- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/domestic-violence-leave/short-term-flexible-working/) for up to 2 months.
+- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/taking-family-violence-leave#scroll-to-8) for up to 2 months.
 - This leave runs concurrently with GitLab PTO. Team members should notify the Absence Management team (leaves@gitlab.com) if they need to make use of this leave.
 - Team members must designate this time off as `Out Sick` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
 For more information regarding this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/).
-
-</details>
-
-<details markdown="1">
-
-<summary>COVID-19 and the workplace</summary>
-
-GitLab and its team members need to work together to protect New Zealand and keep each other safe during the global COVID-19 pandemic. This means that normal obligations to keep in regular contact and to act in good faith are more important than ever.
-
-- This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Out Sick` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
-
-For more information pleave review the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/coronavirus-workplace/leave-and-pay-entitlements-during-covid-19/).
 
 </details>
 
@@ -608,9 +621,6 @@ However, employers should be aware that if an employee's employment agreement co
 - Is distracting other team members while they're in their notice period
 - Is being made redundant and the employer is not requiring them to report to work during their notice period so they can look for other job opportunities while they can still say they're currently employed
 - Has been dismissed on notice and their presence is creating an uncomfortable atmosphere for everyone.
-- Team members must designate this time off as `Vacation` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
-
-For more information pleave review the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/garden-leave/)
 
 </details>
 

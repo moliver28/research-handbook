@@ -11,7 +11,7 @@ description: "Overview of the Global Digital SMB Sales Model"
 
 All members of the Sales, Support, Billing and Deal Desk teams should familiarize themselves with the Global Digital SMB Model.
 The model leverages team-level account alignment so SMB customers have a team of SMB Advocates to assist them. Every SMB Advocate on the team is equipped to work with any SMB customer as the sales point of contact.
-The threshold for Global Digital SMB Accounts accounts is <$30k cARR, <101 employees, and excludes Ultimate Licenses and Japan.
+The threshold for Global Digital SMB Accounts is <$30k cARR, <101 employees, and excludes Japan.
 
 ## Account and Opportunity Ownership
 
@@ -32,21 +32,17 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 
 ### High Value Accounts
 
-Some Global Digital SMB Accounts are considered to be Tier 1/ High Value Accounts,  based on their cARR and LAM. These accounts, whilst owned by an SMB Sales User, will be managed in a 1:1 relationship between the SMB Advocate and the customer, via Cases.
+Some Global Digital SMB Accounts are considered to be Tier 1 / High Value Accounts,  based on their cARR. These accounts, whilst owned by an SMB Sales User, will be managed in a 1:1 relationship between the SMB Advocate and the customer, via Cases.
 
-The criteria that determines whether an SMB account is a Tier 1 account or not, can be found below. The table also highlights what type of Cases will be created for SMB Accounts, based on their respective Tier.
+The criteria that determines whether an SMB account is a Tier 1 account or not, can be found below.
 
-| Tier | Criteria                                                 | Digital Touch | High Value Cases | High Value 90/180/270 checkins (fallback)   | Urgent Renewal & TRX Support Case | Churn & Contraction Mitigation Cases | Expansion Opportunities Cases | Inbound Request Cases |
-|------|----------------------------------------------------------|---------------|------------------|---------------------------------------------|-----------------------------------|--------------------------------------|-------------------------------|-----------------------|
-| 1    | cARR > $7k                                               | Yes           | Yes              | Yes (if no other engagement within quarter) | Yes                               | Yes                                  | Yes                           | Yes                   |
-| 2    | cARR < $7k AND (cARR > $1k OR (cARR < $1k AND LAM > 10)) | Yes           | No               | No                                          | Yes                               | Yes                                  | Yes                           | Yes                   |
-| 3    | cARR < $1k AND LAM < 10                                  | Yes           | No               | No                                          | Yes                               | No                                   | No                            | Yes                   |
-
-[FY25 SMB Account Tiering](https://docs.google.com/spreadsheets/d/18xFnbi4xuHJGqcKDWf9HDdd0iS7YZNt4n4QC33qK67E/edit#gid=0)
+- Tier 1: cARR >= $7,000
+- Tier 2: cARR >= $3,000 OR LAM Dev Count >= 10
+- Tier 3: cARR < $3,000 AND Lam Dev Count < 10
 
 ## Engaging with Global Digital SMB Accounts
 
-Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case, and work it through to completion.
+Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case or be assigned to it, and work it through to completion.
 
 ### Why?
 
@@ -59,54 +55,28 @@ Cases are automatically created when;
 
 - A customer requires sales assistance in order to transact.
 - There is a high likelihood a customer will churn/ contract.
-- There is a high likelihood that a customer is considering upgrading.
+- There is a high likelihood that a customer is considering upgrading or adding additional products.
 - If none of the above apply, and the customer is on auto renew, a case will NOT be created.
 
 ## Case Types
 
 The cases that will be auto created, are split into 5 distinct categories;
 
-Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.  The cases are labeled as High Priority.
+Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab. 
 
-- Email to Case (customer emails sent to smallbusiness@)
-- Contact Sales Request
-- Hand-Raise PQL
-- Support Ticket
-- SDR Created
+Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption, or payments failed.
 
-Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption. The cases are labeled as Medium Priority.
+Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. 
 
-- Auto Renew recently turned off
-- Renewal with Payment Failure
-
-Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.
-
-- FO Opp
-- FO Opp (Startup)
-- QSRs with Payment Failure
-- Customer MQL
-- Duo Trial Started
-
-Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. The cases are labeled as Medium Priority.
-
-- PO Renewal (includes partner & alliance renewals)
-- EoA Renewal w/ >25 users
-- Multiyear Renewal
-- Renewal Risk: Will Churn
-- Auto Renewal due to fail
-- Free User Limit Sales-Assist
-- Renewal with Duo
-- Missing Renewal Opportunity Case
+Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. 
 
 High Value - These are only created for the highest spending accounts in the segment.
 
-- High Value Account
-- High Value Account check in
-- Future High Value Account
+Instructions and resources for working each case type are found in the consolidated SMB Case Enablement Deck:
 
-The case logic, context behind the case, and CTA can be viewed on the Case Trigger overview sheet.
+[FY25 SMB Advocate Case Instructions and Resources](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g2f4db661fd3_0_1928)
 
-[FY25 SMB Case Triggers](https://docs.google.com/spreadsheets/d/1ihpt5WDpoJmDWa5gA0eXvBJOgFOJgL1J_QxsBuDDowc/edit#gid=1223186811)
+[FY25 SMB Case Triggers](https://docs.google.com/spreadsheets/d/1ihpt5WDpoJmDWa5gA0eXvBJOgFOJgL1J_QxsBuDDowc/edit?gid=1223186811#gid=1223186811)
 
 ## Working with the Global Digital SMB Account Team
 
@@ -160,7 +130,10 @@ You can now return to this report at any time to check;
 
 [FY25: SMB Advocate Enablement](https://docs.google.com/presentation/d/1IWgcHXbFN5UVNHCWXtF1fKj_9k5h5KlQGClY-2RbqUE/edit#slide=id.g12b319f6181_0_5)
 
+[FY25: SMB Advocate Enablement (H2 Update)](https://docs.google.com/presentation/d/1r3vvFUXvkfXFPYgjTlhCFw4heggj225PrJ7mLMU0lcY/edit#slide=id.g12b319f6181_0_5)
+
 - If a SMB Advocate has capacity, they will click on an open case in the AMER or EMEA SMB Sales Team Queue and assign it to themselves, by changing the Case Owner.
+- As of 08/23/2024, some cases will be auto-assigned to Advocates using round-robin functionality.
 - High Priority cases should always be picked up first.
 - Information pertaining to the case will be displayed in the Case Reason, Context, CTA & Description box.
 - An Advocate must then update the Status to In Progress.(This shows the case is being worked, and takes it out of the queue).
@@ -191,49 +164,82 @@ The Required 10 acts a to do list which should be followed by all Advocates when
 Case: Status
 
 - Should be set to In Progress, (then Closed - Resolved/ Duplicate/ Unresponsive once worked).
+
 Case: Owner
+
 - Should always be set to the Advocate working the case.  Cases can be moved in rare circumstances i.e the end user wishes to converse in a language that you do not speak, but another Advocate does.
+
+- If a case needs to go back to the queue, the user should be set to SMB Sales Team, and the Status set to Open.
+
 Case: Contact
-- Advocate to add/ update the main contact, as the case is being worked
+
+- Advocate to add/ update the main contact, as the case is being worked.  If a lead exists on the case, it must be converted to a Contact before the case is closed out.
+- A case cannot be set to Closed Resolved unless a Contact is attached to the case. 
 
 ### Managing
 
 Case: Next Steps & Date
 
 - To act in the same fashion as Opp: Next Steps. Field is mandatory.
+- Format must be; Date, Advocate Initials, What the Next Step is
+- - 2024-07-12 MS Send quote to customer
+
 Account: GitLab Admin added
+
 - Only for cases related to an opportunity
 - Must be added in order to move opp to closed won.
+
+Related Opportunity
+
+- If the case involves an open opportunity, it should be linked to case in this field.
+
 Opp: Close Date
+
 - Only for cases related to an opportunity
-- To help with forecasting
+- To help with forecasting.  Must not be in the past. 
+
 Opp: Renewal Risk Category
+
 - Only for cases related to an opportunity
 - To help with forecasting
+
 Contact/ Account: Activity
+
 - Must be logged via Outreach on the Contact
 
 ### Closing
 
 Case: Resolution Action
 
-- Should always be populated when closing out a case
+- Mandatory when closing out a case.
+
 Opp: Status
+
 - Only for cases related to an opportunity
+
 - To mimic the case i.e if the case is closed, the opp should be closed won or lost
-Case: Feedback (Optional)
-- A place where an Advocate can share feedback pertaining to the case itself, or the customers use case
+
+Case: Feedback
+
+- A place where an Advocate can share feedback pertaining to the case itself, or the customers use case.  This is mandatory.  If there is no Feedback to share, NA should be entered in this field. Next Steps and general comments should not be listed in this field - feedback only.
+- - e.g Customer Feedback : “thank you for helping me resolve my problem very quickly”
 
 ## Case Closure Criteria
 
 Closed - Resolved
 
-- The Advocate was able to address the customers' concern/ transact the renewal.
+- The Advocate was able to address the customers' concern/ transact the renewal, and no further action is needed.  A case cannot be marked as Closed - Resolved if the Next Steps Date is in the future, and/ or the Contact field on the case is blank.
+
 Closed - Duplicate
+
 - An Advocate has already addressed the customer's concern via a similar case.
+
 Closed - Unresponsive
+
 - After 15 days of trying to contact the end user, no response have been received.
+
 Closed - N/A
+
 - All other scenarios.
 
 ## Use Case Specifics
@@ -316,13 +322,6 @@ Whilst working the case, the lead on the case should either be;
 If an opportunity is uncovered whilst working an Expansion Opportunity case, a new Growth/ Add On opp should be created, and linked to the case via the Opportunity lookup field. An Add On opp must be created from the prior closed won renewal opp that exists on the account.
 If the customer is looking to upgrade to Ultimate/ add users at the time of renewal, the existing Renewal opp should be linked to the case.  The renewal opp should also be used for any new quotes that are generated.
 
-## Email Templates
-
-In order to standardize outreach, and increase the efficiency in which Advocates can engage with cases.  We have pre-set email templates that can be used, based on which Case trigger you are engaging with.
-The email templates, and which Case Trigger they are relevant to, are listed in the below doc (as well as on the Case Trigger overview sheet).
-
-[SMB Email Templates](https://docs.google.com/document/d/1eQgdVObeQe5_xMdBeAKiWOzIaWZstWInodScm2Lm924/edit#heading=h.qzkw31beo6xk)
-
 ## Case Hygiene
 
 ### Case SLA
@@ -373,8 +372,8 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - [SMB AMER Case Queue](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000000LaDN2A0/view?queryScope=userFolders)
 - [SMB EMEA Case Queue](https://gitlab.lightning.force.com/one/one.app#/sObject/00OPL000000LaRt2AK/view)
 - [SMB AMER Team Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000UbBp2AK/view?queryScope=userFolders)
-- [SMB EMEA Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000WJU92AO/view?queryScope=userFolders)
-- [SMB Advocate Dash](https://gitlab.lightning.force.com/lightning/r/sObject/01ZPL000000VuM52AK/view?queryScope=userFolders)
+- [SMB EMEA Team Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000WJU92AO/view?queryScope=userFolders)
+- SMB Advocate Scorecard ([AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000013pi92AA/view?queryScope=userFolders)/ [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001E2PZ2A0/view?queryScope=userFolders))
 
 ## FAQ
 
@@ -391,7 +390,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. As an GitLab Team Member who is not part of the SMB Team, how do I engage with the team?
 - A. Follow the process above entitled *Working with the Global Digital SMB Account Team*.
 - Q.  What happens if the end user speaks a different language than I do?
-- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tab #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
+- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tag #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
 - Q. As an Advocate, if I pick up a FO Opp case, and discover the customer is actually a MM account, what do I do?
 - A. Follow the below steps;
   - If the FO Opp is still in Stage 0, advise the SDR via Chatter that they should loop in the MM AE.
@@ -416,7 +415,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. If a prospect/ customer emails me directly requesting assistance, what do I do?
 - A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to smallbusiness@gitlab.com
 - Q. As an Advocate, when I go on PTO, what happens to my cases?
-- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion
+- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion.  Also, be sure to follow the standard PTO guideline stated [here](/handbook/people-group/paid-time-off/#communicating-your-time-off). 
 
 ## Escalation Paths
 

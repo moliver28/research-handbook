@@ -43,14 +43,14 @@ The list below is ordered based on aligned priorities and includes primary domai
 | Project | Domain Knowledge | Documentation |
 | ------- | ------------------------------------------ | ----- |
 | GitLab CI Pipeline configuration optimization and stability | Jen-Shin, David, Jenn | [Pipelines for the GitLab project](https://docs.gitlab.com/ee/development/pipelines/index.html) |
-| Triaging master-broken | Jenn, Nao | [Broken Master](https://about.gitlab.com/handbook/engineering/workflow/#broken-master) |
+| Triaging master-broken | Jenn, Nao | [Broken Master](/handbook/engineering/workflow/#broken-master) |
 | GitLab Development Kit (GDK) continued development | Nao, Peter | [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit/) |
 | Triage operations for issues, merge requests, community contributions | Jenn, Alina | [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops/) |
 | Review Apps | David, Rémy | [Using review apps in the development of GitLab](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) |
 | Triage engine, used by GitLab triage operations | Jen-Shin, Rémy | [GitLab Triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage/) |
 | Danger & Dangerfiles (includes Reviewer roulette) for shared Danger rules and plugins | Rémy, Jen-Shin, Peter | [`gitLab-dangerfiles` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-dangerfiles) for shared [Danger](https://docs.gitlab.com/ee/development/dangerbot.html#danger-bot) rules and plugins |
-| JiHu | Jen-Shin | [JiHu Support](https://about.gitlab.com/handbook/ceo/office-of-the-ceo/jihu-support/) |
-| Development department metrics for measurements of Quality and Productivity | Jenn, Rémy | [Development Department Performance Indicators](https://about.gitlab.com/handbook/engineering/development/performance-indicators/) |
+| JiHu | Jen-Shin | [JiHu Support](/handbook/ceo/office-of-the-ceo/jihu-support/) |
+| Development department metrics for measurements of Quality and Productivity | Jenn, Rémy | [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/) |
 | RSpec Profiling Statistics for profiling information on RSpec tests in CI | Peter | [rspec_profiling_stats](https://gitlab.com/gitlab-org/rspec_profiling_stats) |
 | RuboCop & shared RuboCop cops | Peter | [`gitLab-styles` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-styles) for shared [RuboCop cops](https://docs.gitlab.com/ee/development/contributing/style_guides.html#ruby-rails-rspec) |
 | Feature flag alert for reporting on GitLab feature flags | Rémy | [Gitlab feature flag alert](https://gitlab.com/gitlab-org/gitlab-feature-flag-alert) |

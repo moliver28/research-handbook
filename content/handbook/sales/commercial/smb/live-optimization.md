@@ -24,7 +24,7 @@ The Live Optimization session should be viewed by the customer as a Post Sales a
 ### Limitations & Prerequisites
 
 1. Live Optimization sessions tap into the realm of existing post-sales roles. Therefore they are targeted towards accounts which don't qualify for a CSM/CSE (or when those roles are short on resources). It must not compete with a longer term engagement of a CSE, PS or partner. Prior to scheduling a Live Optimization session:
-   1. For accounts [qualifying](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for Scale CSE, consider requesting [Scale CSE Help](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-engagement-request-process)
+   1. For accounts [qualifying](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for Scale CSE, consider requesting [Scale CSE Help](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process)
    1. For accounts [qualifying](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSM, consider working directly with the CSM to identify best plan of activities
    1. For accounts sold via partners, consider utilizing partner's expertise and customer knowledge
 1. For now, we will limit Live Optimizations to a one-time engagement, although exceptions can be made for Ultimate opportunities. They will then be treated as a pre-sale activity. The exceptions are handled and confirmed by ASM.
@@ -35,7 +35,7 @@ The Live Optimization session should be viewed by the customer as a Post Sales a
     1. After closed-won: When the AE got a clear understanding of the customer's objectives and milestones and their clear interest in increasing GitLab adoption rapidly.
 1. During the Live Optimization session, the customer will commit to walk the GitLab team through their existing environment setup via a 'screen share'.
 1. When customers are interested in learning more about general best practices for an optimal usage of the platform, not related to a specific business goal, challenge or future Ultimate upsell, they are encouraged to make use of:
-    1. The monthly [Onboarding Cohort session](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-onboarding-cohorts), a serie of webinars on how to get started with GitLab for project management, CI/CD, deployments and more.
+    1. The monthly [Onboarding Cohort session](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm), a series of webinars on how to get started with GitLab for project management, CI/CD, deployments and more.
     1. Ad Hock webinars organised by the CSM team on specific topics such as Advanced CI/CD, Security & Compliance, AI in DevSecOps and much more. The schedule and links to registration can be found in the [CSM webinar calendar handbook page](/handbook/customer-success/csm/segment/scale/webinar-calendar/).
     1. Self-paced [Learning Courses](https://levelup.gitlab.com/catalog?labels=%5B%22Subject%22%2C%22Type%22%5D&values=%5B%22GitLab%20Product%20Training%22%2C%22Course%22%5D) and [Certifications](https://levelup.gitlab.com/pages/certifications/)
 
@@ -53,7 +53,7 @@ If a Live Optimization session wasn't discussed during the deal negotiations, th
 Once these points are documented, the AE may suggest a Live Optimization session:
 
 1. Make it known this is a one time Solutions Architect engagement.
-1. Prepare them for showing us their setup in a screenshare (a customer in regulated space or with concerns about their IP would need to prepare accordingly).
+1. Prepare them for showing us their setup in a screen share (a customer in regulated space or with concerns about their IP would need to prepare accordingly).
 
 #### Step 2: Synchronous AE Preparation: The Milestone meeting
 

@@ -65,10 +65,10 @@ The screenshots below illustrate the Merge Request Report Widgets before and aft
 
 {{< cardpane >}}
 {{% card header="**Before**" %}}
-![MR Widgets Before](./MR_Widgets_Before.png)
+![MR Widgets Before](MR_Widgets_Before.png)
 {{% /card %}}
 {{% card header="**After**" %}}
-![MR Widgets After](./MR_Widgets_After.png)
+![MR Widgets After](MR_Widgets_After.png)
 {{% /card %}}
 {{< /cardpane >}}
 

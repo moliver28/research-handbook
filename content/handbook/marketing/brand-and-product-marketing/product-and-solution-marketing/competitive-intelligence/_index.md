@@ -114,7 +114,7 @@ In order to mitigate the risk associated with Win/Loss communications, the follo
 
 At GitLab, anyone can contribute to the Competitive Intelligence process.   We strive to meet the following goals.
 
-1. **Fair**:  For any CI process to be credible it has to be fair.  That's a reason why we use the **[DevOps Category Maturity](https://about.gitlab.com/direction/maturity/)** as a guideline for our comparisons.  This ensures that there's common basis of understanding of each stage in the end to end DevOps lifecycle and it is not a cherry picket set of criteria just to make a vendor look good or bad.
+1. **Fair**:  For any CI process to be credible it has to be fair.  That's a reason why we use the **[DevOps Category Maturity](https://about.gitlab.com/direction/#maturity)** as a guideline for our comparisons.  This ensures that there's common basis of understanding of each stage in the end to end DevOps lifecycle and it is not a cherry picket set of criteria just to make a vendor look good or bad.
 2. **Accurate**: We strive to be as accurate as possible by taking input from websites, product documentation, demo videos, trails where allowed, information from customers, and even competitors.  For example, recently a Product Manager from a competitor reached out to us about a correction to the analysis, which we quickly made.
 3. **Easily consumable**:  We make the information easily consumable by making it available on the website.
 
@@ -133,9 +133,8 @@ As always the customer's voice is absolutely critical in this.  Fortunately ther
 
 ## Other comparison sites
 
-Comparison's at a deep level are challenging and time consuming.  We'd like to acknowledge some other sites that have done a sincere and strong effort at comparing DevOps tools.  Some of these are by competitors but in keeping with GitLab values of transparency and to provide our prospects a comprehensive picture - here they are:
+Comparisons at a deep level are challenging and time consuming.  We'd like to acknowledge some other sites that have done a sincere and strong effort at comparing DevOps tools.  Some of these are by competitors but in keeping with GitLab values of transparency and to provide our prospects a comprehensive picture - here they are:
 
-- [CA](https://assessment-tools.ca.com/tools/continuous-delivery-tools/en?embed)
 - [XebiaLabs](https://xebialabs.com/periodic-table-of-devops-tools/)
 - [CNCF](https://landscape.cncf.io/)
 - [Gitea](https://docs.gitea.io/en-us/comparison/).

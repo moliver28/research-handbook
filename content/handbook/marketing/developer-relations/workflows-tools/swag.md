@@ -7,9 +7,7 @@ title: "Swag: Process & FAQ"
 * Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
   * The file can be found in the Shared Google Drive `Contributor Success`, and is titled "[GitLab] Developer Relations Swag Coupon Codes & Delivery Tracking"
 * Swag Redemption portal
-  * https://gitlabcommunity.orderpromos.com
-* Inventory Portal
-  * https://gitlabstore.mybrightsites.com
+  * https://gitlab-contributor.brilliantmade.com/
 
 ## Swag Redemption Portal
 

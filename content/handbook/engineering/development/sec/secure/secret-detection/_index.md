@@ -6,10 +6,7 @@ title: Secret Detection Group
 
 The Secret Detection group was split from Static Analysis [on 2024-03-05](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/133169).
 
-The Secret Detection group maintains the following feature categories for customer software repositories:
-
-- [Secret Detection](https://about.gitlab.com/direction/secure/secret-detection/secret-detection/)
-- [Code Quality](https://about.gitlab.com/direction/secure/secret-detection/code_quality/)
+The Secret Detection group maintains the [Secret Detection](https://about.gitlab.com/direction/secure/secret-detection/secret-detection/) feature category for customer software repositories.
 
 ### Software Delivery
 
@@ -145,6 +142,11 @@ If you have any questions, don't hesitate to ask in `#g_secure_secret-detection`
 ```
 
 ### Observability
+
+#### Metrics
+
+The process to add metrics to our projects is documented in our
+[Metrics](metrics/) page.
 
 #### Runbooks
 

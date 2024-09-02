@@ -2,9 +2,8 @@
 title: "Cloud Native Ecosystem Sales Enablement"
 ---
 
-## [Video](https://www.youtube.com/watch?v=0DxQKVKB3nY)
-
-## [Slide deck](https://docs.google.com/presentation/d/1e8Eo35KOJMYyCTKvKYeFK1KtP0YOHJGj8LIX-2keoC4/edit#slide=id.g447dd6ad94_0_540)
+- [Video](https://www.youtube.com/watch?v=0DxQKVKB3nY)
+- [Slide deck](https://docs.google.com/presentation/d/1e8Eo35KOJMYyCTKvKYeFK1KtP0YOHJGj8LIX-2keoC4/edit#slide=id.g447dd6ad94_0_540)
 
 "The advent of cloud native has empowered engineering leaders to procure and purchase software that helps them ship faster and reliably. These engineering leaders are different from the usual high ticket item buyer and an understanding of their persona is critical to success when selling DevOps software." - [Priyanka Sharma](/handbook/company/team/#priyanka-sharma)
 
@@ -80,9 +79,8 @@ Reach out consistently and loop in the peers from time to time. Responsiveness i
 
 ### Newsletters
 
-- [Architect](https://architecht.io/) for wide coverage
-- [SRE Weekly](https://sreweekly.com/ )
-- [Monitoring Weekly](https://weekly.monitoring.love/ )
+- [SRE Weekly](https://sreweekly.com/)
+- [Monitoring Weekly](https://monitoring.love/)
 - [Heavybit Newsletter](https://www.heavybit.com/subscribe/)
 - [CNCF](https://www.cncf.io/newsroom/newsletter/)
 
@@ -90,11 +88,11 @@ Reach out consistently and loop in the peers from time to time. Responsiveness i
 
 - Folks that [Priyanka](https://twitter.com/pritianka) follows
 - [Bryan Cantrill](https://twitter.com/bcantrill)
-- [Cindy Sridharan](https://twitter.com/copyconstruct )
+- [Cindy Sridharan](https://twitter.com/copyconstruct)
 - [Peter Bourgon](https://twitter.com/peterbourgon)
 - [Kelsey Hightower](https://twitter.com/kelseyhightower)
-- [Chris Aniszczyk](https://twitter.com/cra )
-- [Guillermo Rauch](https://twitter.com/rauchg )
+- [Chris Aniszczyk](https://twitter.com/cra)
+- [Guillermo Rauch](https://twitter.com/rauchg)
 - [Scott Guthrie](https://twitter.com/scottgu)
 - [Brendand Burns](https://twitter.com/brendandburns)
 - [Idit Levine](https://twitter.com/Idit_Levine)

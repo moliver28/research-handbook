@@ -320,6 +320,8 @@ This also mitigates the issue of potential weak communication encryption since t
 
 It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-assembly), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
 
+If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
+
 ---
 
 ## During your Zoom Meeting
@@ -430,6 +432,12 @@ available. Processing takes about 15 minutes, so the video files appear before t
 1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
 1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
 1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+### Enabling email notifications for hosts when attendees join first
+
+1. Go to your Zoom account [settings](https://gitlab.zoom.us/profile/setting).
+1. Click the `Meeting` tab.
+1. Under `Email notification`, click the `When attendees join meeting before host` toggle to enable or disable it.
 
 ### How to share a presentation in Zoom
 
@@ -603,9 +611,9 @@ Note that you must start the `ZoomLauncher` binary and not the shell script wrap
 
 ### Virtual background
 
-With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call.
+With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call. You can also find more virtual backgrounds in our [GitLab-branded green screen library](https://drive.google.com/drive/folders/10DqQ8kBICPTuPNG0PGf-JWXBFytZHQ88) (*Google Drive access available to GitLab team members who are logged in*).
 
-Consider using a [custom GitLab Background](https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc454e6622b_0_3) (*Google Drive access available to GitLab team members who are logged in*).
+Consider using a [customizable GitLab Background](https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc454e6622b_0_3) (*Google Drive access available to GitLab team members who are logged in*).
 
 1. In your Zoom [In Meeting (Advanced)](https://zoom.us/profile/setting#advanced_meeting_options) settings, enable `Virtual background`
 1. In your Zoom application on your computer, open settings and click on the `Virtual Background` setting

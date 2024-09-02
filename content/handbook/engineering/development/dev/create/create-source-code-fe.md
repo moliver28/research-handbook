@@ -89,6 +89,8 @@ To prevent the creation of knowledge silos and also receiving input from people 
 
 **MRs important to the team:** these are changes to logic in our apps or meaningful component changes. Sequential work in a larger epic is also beneficial to have oversight from peers within the team. But bottom line, use your best judgement.
 
+{{% include "includes/engineering/create/conventional-comments.md" %}}
+
 ### Capacity planning
 
 {{% include "includes/engineering/create/capacity-planning-fe.md" %}}
@@ -97,11 +99,23 @@ To prevent the creation of knowledge silos and also receiving input from people 
 
 {{% include "includes/engineering/create/weights-fe.md" %}}
 
+#### Example of Weights
+
+w1: [Blame view - "authored" line leaking into next row](https://gitlab.com/gitlab-org/gitlab/-/issues/435124)
+
+w2: [CSV rendering hangs viewer for large files](https://gitlab.com/gitlab-org/gitlab/-/issues/340779)
+
+w3: [Edit Branch Rules: Update selector to support searching Deploy Keys](https://gitlab.com/gitlab-org/gitlab/-/issues/431769)
+
 #### Source code context
 
 When weighing issues that have to do with Blob view, make sure to take into account the duality of Blob. We use both HAML and Vue to render the Blob view. There is a high chance that you will implement your changes for both. Majority of file types uses Vue architecture. Though there are [some file types that need backend syntax highlighter](https://gitlab.com/gitlab-org/gitlab/-/blob/9fe882b3d1597a75a366755c8d894f2a52439d93/app/assets/javascripts/repository/constants.js#L91) and therefore are rendered with HAML. The same will happen, [when an error occurs](https://gitlab.com/gitlab-org/gitlab/-/blob/9fe882b3d1597a75a366755c8d894f2a52439d93/app/assets/javascripts/repository/components/blob_content_viewer.vue#L210).
 
 This duality will be resolved with the [Link to package managers when viewing dependency files with highlight.js](https://gitlab.com/groups/gitlab-org/-/epics/7888).
+
+#### Spike issues
+
+{{% include "includes/engineering/create/spike-issues.md" %}}
 
 ### Workflow labels
 

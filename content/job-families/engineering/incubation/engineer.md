@@ -4,7 +4,7 @@ description: "Incubation Engineers are experienced Full Stack Software Engineers
 canonical_path: "/job-families/engineering/incubation/engineer/"
 ---
 
-Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/maturity/#legend) level of maturity of their respective area within the GitLab project.
+Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/#maturity) level of maturity of their respective area within the GitLab project.
 
 Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/incubation/).
 
@@ -97,4 +97,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Next you will meet a Product Manager
 - The Final interview is with a senior member of the Incubation Engineering Department
 
-Additional details about our process can be found on our [hiring page](https://about.gitlab.com/handbook/hiring)
+Additional details about our process can be found on our [hiring page](/handbook/hiring)

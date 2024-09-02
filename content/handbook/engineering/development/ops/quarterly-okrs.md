@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/ops/quarterly-okrs.html
-
 title: Quarterly OKRs - Ops Sub-department
 description: "OKR issue tracking for the Ops Sub-Dept"
 ---

@@ -36,6 +36,8 @@ Please create an issue using the [blog submission template](https://gitlab.com/g
 
 The blog editor will review the pitch and either a) greenlight the post, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the blog and offer other ideas for getting the message out.
 
+**Note: You can also notify the Blog team of a typo or request a change via the [blog submission template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/blog/-/issues/new?issuable_template=blog-post-submission).
+
 ### External contributions
 
 **Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). If you are a GitLab community member and would like to pitch a blog post idea for consideration, please [email contributors@gitlab.com](mailto:contributors@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
@@ -176,8 +178,6 @@ You can include as many tags as you like, separated by commas. Please only inclu
 - demo
 - design
 - developer survey
-- DevOps
-- DevOps platform
 - DevSecOps
 - DevSecOps platform
 - education (articles about the education sector)
@@ -185,7 +185,6 @@ You can include as many tags as you like, separated by commas. Please only inclu
 - features
 - financial services
 - frontend
-- Group Conversations
 - git
 - GitOps
 - GKE
@@ -303,6 +302,10 @@ document.querySelectorAll('a[href^="#"]').forEach(elem => {
 });
 ```
 
+#### Mermaid charts
+
+Details about how to embed mermaid charts into your blog can be found in [this MR](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/merge_requests/211#usage-notes). Please read as there are nuances that might prevent your chart from rendering properly.
+
 #### Preparing images
 
 - If creating an original cover image, the dimensions should be 1800px x 945px for optimal quality on all displays.
@@ -370,9 +373,9 @@ We can publish blog posts in languages other than English. We currently support 
 
 | Language | URL structure|
 |---------|----------|
-| French |`/fr-fr/blog/YERAR/MONTH/DAY/Title/` |
-| German |`/de-de/blog/YERAR/MONTH/DAY/Title/` |
-| Japanese |`/ja-jp/blog/YERAR/MONTH/DAY/Title/` |
+| French |`/fr-fr/blog/YEAR/MONTH/DAY/Title/` |
+| German |`/de-de/blog/YEAR/MONTH/DAY/Title/` |
+| Japanese |`/ja-jp/blog/YEAR/MONTH/DAY/Title/` |
 
 ### Translating an English-language blog post to other languages
 
@@ -382,7 +385,7 @@ It's important to note that while we wait for Contentful to release locale-speci
 
 ### Publishing a blog post with no English-language equivalent
 
-Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
+Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages" with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
 
 Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
 
@@ -390,18 +393,18 @@ Contentful is currently developing a solution to address this workaround, which 
 
 Starting the process of getting a blog post translated is easy. Follow these steps:
 
-1. Create a translation request issue in the Localization project. Pro tip - add the URL for the blog post & a direct link to the Contentful entry. It will be super helpful to you as you track the project.
-2. Argo will export the enlish blog post JSON and inport the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review.
-3. Hop into the entry for the Blog post and review the translated content.
-4. Cordinate with @sandra on publishing the translated post
-5. Once published, always verify that it's working as expected on about.gitlab.com/blog
+1. Create a translation request issue in the Localization project. Pro tip - add the URL for the blog post and a direct link to the Contentful entry. It will be super helpful to you as you track the project.
+2. Argo will export the English blog post as JSON and import the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review.
+3. Hop into the entry for the blog post and review the translated content.
+4. Coordinate with @sgittlen on publishing the translated post.
+5. Once published, always verify that it's working as expected on about.gitlab.com/blog/.
 6. Celebrate your translated blog post by posting it in Slack.
 
-Here's a video walk thru of the fullprocess from creating the translation request to publishing on production.
+Here's a video walkthrough of the full process from creating the translation request to publishing on production.
 
 - Video recording comming soon that demonstrates the following
 - Create issue
-- Argo rountrip
+- Argo roundtrip
 - Translation show up in Contentful
 - Review the translations
 - Live previews/changing languages
@@ -411,12 +414,11 @@ Here's a video walk thru of the fullprocess from creating the translation reques
 
 Things to be careful about when localizing an EN blog post.
 
-- Dont change the slug!
-- Until Contentful introduces the async field publishing feature, we'll need to release all translations simultaneously
+- Don't change the slug!
 
 ### Tags to keep organized
 
-- If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
+- If a post in process of being translating, put the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
 - Remove and apply local label to languages the post is translated into.
 - Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated.
 - If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)

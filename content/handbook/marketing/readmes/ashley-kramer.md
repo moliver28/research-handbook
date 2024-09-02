@@ -1,5 +1,5 @@
 ---
-title: "Ashley Kramer README (Chief Marketing and Strategy Officer)"
+title: "Ashley Kramer README (Interim Chief Revenue Officer, and Chief Marketing & Strategy Officer)"
 description: "Learn more about working with Ashley Kramer"
 ---
 
@@ -19,15 +19,11 @@ Please feel free to contribute to this page by opening a merge request.
 
 ## Intro/Bio
 
-Ashley Kramer is the Chief Marketing and Strategy Officer of GitLab Inc., the DevOps Platform. GitLab's single application helps organizations deliver software faster and more efficiently while strengthening their security and compliance.
+Ashley Kramer is the Interim Chief Revenue Officer, and Chief Marketing & Strategy Officer of GitLab, the most comprehensive AI-powered DevSecOps platform for software innovation. A former GitLab customer, Ashley works closely with our customers and is the executive sponsor of many enterprise accounts. She leverages experience from her marketing, product, and technology roles to message and position GitLab as the leading DevSecOps platform through the next stage of growth. She is responsible for setting GitLab’s long-term strategy - including leading the company’s enterprise data team, open source strategy, and AI vision - and driving core marketing and pipeline generation.
 
-As CMO and CSO, Ashley leverages her leadership from roles in marketing, product and technology to message and position GitLab as the leading DevOps platform through the next stage of growth. She is responsible for GitLab's product marketing, brand awareness, communications, analyst relations, community, competitive positioning, marketing ops and revenue pipeline generation including all digital and sales development efforts. Ashley also leads the strategy for product-led growth and code contribution to the GitLab platform.
+Before joining GitLab, Ashley was CPO and CMO of Sisense and has held several post-IPO leadership roles, including SVP of Product at Alteryx (NYSE: AYX) where she led the messaging, positioning and roadmap for the Alteryx Analytics Platform and Head of Cloud at Tableau where she led the effort to transform Tableau (now a Salesforce company) to a cloud-first company and ran Tableau Online, its fastest-growing product. She also has held various marketing, product, and engineering leadership roles at Amazon (NASDAQ: AMZN), Oracle (NYSE: ORCL), and NASA. As a former engineer, Ashley understands and can capitalize on the value of GitLab’s unique ability to solve a deep developer pain point - streamlining the development process and bringing innovative ideas to customers more quickly and efficiently. She approaches everything with a customer-first mindset and is passionate about solving the challenge of positioning and messaging software platforms to technical audiences.
 
-Prior to joining GitLab, Ashley was CPO and CMO of Sisense and has held several post-IPO leadership roles including SVP of Product at Alteryx (NYSE: AYX) where she led the messaging, positioning and roadmap for the Alteryx Analytics Platform and Head of Cloud at Tableau where she led the effort to transform Tableau (now a Salesforce company) to a cloud-first company and ran Tableau Online, their fastest growing product. She also has held various marketing, product and engineering leadership roles at Amazon (NASDAQ: AMZN), Oracle (NYSE: ORCL) and NASA.
-
-As a former engineer, Ashley understands and can capitalize on the value of GitLab's unique ability to solve a deep developer pain point - streamlining the development process and bringing innovative ideas to customers in a quicker and more efficient way. She approaches everything with a customer-first mindset and has a passion for solving the challenge of positioning and messaging software platforms to technical audiences.
-
-Ashley has an MSBA with a Concentration in Computer Information Science from Colorado State University and a BS in Computer Science from Old Dominion University where she also played Division I soccer. She currently is on the Board of Seeq Corporation and advises several startups.
+Ashley has an MSBA with a Concentration in Computer Information Science from Colorado State University and a BS in Computer Science from Old Dominion University, where she also played Division I soccer. She is on the boards of Seeq Corporation and dbt Labs and is an advisor for Snorkel AI and several other startups.
 
 ## Interests
 

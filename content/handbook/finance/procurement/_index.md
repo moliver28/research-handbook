@@ -211,7 +211,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 - [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange / Red Data, software providers (SaaS and On-premise), and independent contractors / consultants. (Excluding field marketing events)
 - This activity cannot begin until **after** the supplier completes the security questionnaire and supplies their security documentation. Oftentimes, it can take 1-2 weeks for the supplier to respond and complete the requested materials. The security review SLA begins once that is completed. Time before this activity can begin is entirely dependent upon the supplier's response time and maturity of security protocols.
-- **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from ZenGRC for completion ASAP.
+- **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP.
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
 
 #### 3.D. PeopleOps Review: 1-4 Days
@@ -345,7 +345,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 ### Contract Templates
 
-- [GitLab Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
+- [GitLab Vendor Terms and Conditions](vendor-guidelines/)
 - [Logo Authorization Template](https://drive.google.com/file/d/1Vtq3UHc8lMfIbVFJ3Mc-PZZjb6_CKAvm/view?usp=sharing)
 - [Data Processing Addendum (unlocked for editing)](https://docs.google.com/document/d/1U8jCxpRc21fNu6_VsYxsSSun3G7s4b2Q/edit?usp=share_link&ouid=101595031187349560306&rtpof=true&sd=true)
 - [EU Standard Contractual Clauses](https://drive.google.com/file/d/17I4nirg99UPsrDi28VS1-R0B2FcKTKbz/view?usp=share_link)
@@ -364,11 +364,11 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 #### Other Services
 
-- [Home Office and Supplies]({{< ref "./office-equipment-supplies" >}})
-- [Individual Use Software]({{< ref "./individual-use-software" >}})
+- [Home Office and Supplies](office-equipment-supplies/)
+- [Individual Use Software](individual-use-software/)
 - [RFP and Vendor Selection Process](https://internal.gitlab.com/handbook/finance/procurement/)
-- [Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
+- [Vendor Terms and Conditions](vendor-guidelines/)
 - [Non-Disclosure Agreement (NDA)](/handbook/legal/NDA/#)
-- [Charitable Contributions]({{< ref "./charitable-contributions" >}})
-- [Non-Cost Related Agreements (Including Trials/Demos)]({{< ref "./trial-agreement" >}})
+- [Charitable Contributions](charitable-contributions/)
+- [Non-Cost Related Agreements (Including Trials/Demos)](trial-agreement/)
 <!-- markdownlint-enable MD051 -->

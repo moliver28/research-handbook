@@ -63,7 +63,7 @@ In FY23 Q1, 17% of mentees in current organized mentorship programs completed a 
 | **Iterate** | [Iterate](/handbook/values/#iteration) on goals throughout the mentorship. Focus on quick wins that the mentee can reach, then keep growing. |
 | **Confidentiality** | Respect the trust built between mentor and mentee. Challenges and conversations shared in mentorship sessions should be kept confidential unless the mentor and mentee are okay with them being shared. |
 
-*Adapted from the [NCWIT Mentoring-in-a-Box Mentoring Basics - A Mentor's Guide to Success](https://www.ncwit.org/sites/default/files/legacy/pdf/IMentor_MentorGuide.pdf), section What Are the "Dos" of Mentoring and [People Grove resources](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas)*
+*Adapted from the [NCWIT Mentoring-in-a-Box Mentoring Basics - A Mentor's Guide to Success](https://ncwit.org/resource/imentor/), section What Are the "Dos" of Mentoring and [People Grove resources](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas)*
 
 ## Find a mentor
 

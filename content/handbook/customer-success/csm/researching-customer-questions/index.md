@@ -38,7 +38,7 @@ There are a few ways to determine which product group works on which feature.
 1. Search within the [Product Categories](/handbook/product/categories/) handbook page. On this page, you can do a Command ⌘ + F search for the feature in question. For example, if the question is on Review Apps, you can do a Command ⌘ + F search to see that the Review Apps feature is under the [Pipeline Security](/handbook/product/categories/#pipeline-security-group) group. If the question is related to our product roadmap, you can review the direction page associated with each product group.
 
 1. Search within the documentation. Let's say you are wondering which product group could help with a question on [GitLab's Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/). If you scroll to the bottom of the page and click `View page source`, you'll see which product Stage and Group the Security Dashboard rolls up to. In this case, it's the Threat Insights group.
-![image-1.png](./image-1.png)
+![image-1.png](image-1.png)
 
 1. You can also determine the right product group by reviewing epics/issues related to the feature. For example, when researching [Customizable Roles and Permissions](https://gitlab.com/groups/gitlab-org/-/epics/4035), you see on the right-hand side under labels that Authentication and Authorization is the appropriate group.
 

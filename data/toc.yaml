@@ -79,7 +79,7 @@
   - name: Contribution Guide
     url: /docs/development/
   - name: Editing the handbook
-    url: /handbook/editing-handbook/
+    url: /handbook/about/editing-handbook/
   - name: Handbook Style Guide
     url: /handbook/about/style-guide/
   - name: Handbook maintenance
@@ -127,6 +127,8 @@
           url: travel
         - name: Visas
           url: visas
+    - name: Talent Assessment
+      url: /handbook/people-group/talent-assessment
     - name: Team Member Relations Philosophy
       url: /handbook/people-group/team-member-relations#team-member-relations-philosophy
     - name: Total Rewards
@@ -227,6 +229,8 @@
           url: /handbook/marketing/brand-and-product-marketing/design
         - name: Content
           url: /handbook/marketing/brand-and-product-marketing/content
+    - name: Enterprise Data
+      url: /handbook/enterprise-data/
     - name: Integrated Marketing
       url: /handbook/marketing/integrated-marketing
       links:
@@ -328,11 +332,11 @@
   - name: Procurement
     url: /handbook/finance/procurement
   - name: Tax
-    url: /handbook/tax
+    url: /handbook/finance/tax
   - name: Board meetings
     url: /handbook/board-meetings
   - name: Internal Audit
-    url: /handbook/internal-audit
+    url: /handbook/finance/internal-audit
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley
@@ -345,9 +349,9 @@
   - name: Release posts
     url: /handbook/marketing/blog/release-posts
   - name: About the GitLab Product
-    url: /handbook/product/gitlab-the-product
+    url: /handbook/product/categories/gitlab-the-product
   - name: Being a Product Manager at GitLab
-    url: /handbook/product/product-manager-role
+    url: /handbook/product/product-management
   - name: Product Principles
     url: /handbook/product/product-principles
   - name: Product Processes
@@ -359,11 +363,9 @@
   - name: Product Development Timeline
     url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers
-    url: /handbook/business-technology/data-team/programs/data-for-product-managers
+    url: /handbook/enterprise-data/programs/data-for-product-managers
   - name: Product Pricing Model
     url: /handbook/company/pricing
-  - name: Data analysis
-    url: /handbook/business-technology/data-team/
   - name: Corporate Development / Acquisitions
     url: /handbook/acquisitions
   - name: UX Department

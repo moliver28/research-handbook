@@ -10,7 +10,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -19,7 +19,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** In-Person
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -30,7 +30,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Official Speaking Session Name/Title of Talk:**
 * **Date of Speaking Session:**
 * **Campaign Name for Speaking Session:**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign for Speaking Session**]()
 * [ ] [**Marketo Program for Speaking Session**]()
 
@@ -53,7 +53,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -62,7 +62,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** Virtual
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -73,7 +73,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Official Speaking Session Name/Title of Talk:**
 * **Date of Speaking Session:**
 * **Campaign Name for Speaking Session:**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign for Speaking Session**]()
 * [ ] [**Marketo Program for Speaking Session**]()
 
@@ -95,7 +95,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -104,7 +104,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** Hybrid
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -115,7 +115,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Official Speaking Session Name/Title of Talk:**
 * **Date of Speaking Session:**
 * **Campaign Name for Speaking Session:**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign for Speaking Session**]()
 * [ ] [**Marketo Program for Speaking Session**]()
 
@@ -138,7 +138,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -147,7 +147,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Content Name:**
 * **Content Type:** (Whitepaper, eBook, Report, Video, or General)
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -168,7 +168,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -178,7 +178,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Direct Mail
 * **Tactic Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -203,7 +203,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -214,7 +214,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -239,7 +239,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -250,7 +250,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -275,7 +275,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -286,7 +286,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -313,7 +313,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -321,7 +321,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Sponsored Webcast
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -345,7 +345,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -355,7 +355,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Survey
 * **Tactic Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -380,7 +380,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -389,7 +389,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -410,13 +410,15 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit
 
 ## [Landing Page]() - `to be added when live`
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - `to be added`
 
-*If creating copy for a new or customized workshop that is not utilizing one of the existing workshops' copy, please make a clone of the template above and create a new copy doc to link above. If utilizing copy for one of our existing workshops below, please check the appropriate workshop copy doc and delete the rest. Once epic is created, FMC to ping `@lfstucker` in the epic to review and approve workshop copy within a 3 day SLA. Once copy is approved, FMC can triage asset sub-issues. If any copy is adjusted, please ping `@krogel` in the epic to adjust Marketo templates as well.*
+Please make a clone of the appropriate workshop copy doc below and create a new copy doc to link above. If you are making changes to the workshp copy that is specific to your particular workshop only, please remember not to remove important workshop notifications that are listed in the existing copy docs, as those are required for all workshops. 
+
+If you have copy changes that need to be implemented in the permanent workshop copy docs below (changes that will be permanent for future workshops), the FMC is to ping `@lfstucker` in the epic to review and approve new workshop copy within a 3 day SLA. Once copy is approved, the FMC can triage asset sub-issues and the FMC is to ping `@krogel` in the epic to adjust Marketo templates as well.
 
 **PLEASE NOTE: These copy docs are not to be altered by anyone other than `@lfstucker`.**
 
@@ -434,7 +436,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 
@@ -471,9 +473,9 @@ Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spr
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce
 
 ## [Landing Page]() - `to be added when live`
 
@@ -483,7 +485,7 @@ Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spr
 * **Campaign Type:** Webcast
 * **Official Name:**
 * **Campaign Name (SFDC/Marketo Name):**
-* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* **[Campaign UTM](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1101222914#gid=1101222914):** (UTM Formula (all lowercase and no spaces)): date + region + budget holder + campaign/event type + gtm (if applicable - add x if not) + language + campaign name. Example UTM - 20240826_amer_fmm_conference_x_en_dafitc)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
 

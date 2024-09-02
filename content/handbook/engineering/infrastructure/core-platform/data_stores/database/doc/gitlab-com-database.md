@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/gitlab-com-database.html
 title: Working with the GitLab.com database for developers
 ---
 
@@ -82,9 +81,9 @@ ssh gprd-psql-archive # opens a psql console on a replica
 
 #### DatabaseLabs
 
-##### Use postgres.ai to work with a thin clone of the database (includes direct psql access to the thin clone)
+##### Use postgres.ai to work with a thin clone of the database with psql 
 
-We have access to postgres.ai which gives us the ability to work with a thin clone of the database. This has the benefit of providing a fully isolated read-write database for a single user. Thin clones are inexpensive to create and can be used and destroyed as needed.
+We have access to postgres.ai which gives us the ability to work with a thin clone of the database. This has the benefit of providing a fully isolated read-write database for a single user. Thin clones are inexpensive to create and can be used and destroyed as needed.  This includes direct psql access to the thin clone.
 
 With the extended setup, you'll be able to use a psql console on a thin clone, too. This is the most flexible way of working with the database, as this even allows you to e.g. create new tables (e.g. for intermediate results) as needed.
 

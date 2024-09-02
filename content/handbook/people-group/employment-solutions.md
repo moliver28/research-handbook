@@ -8,7 +8,7 @@ The DRI for all Employment Solutions is the [Employment Solutions Partner](/job-
 
 ## Country Hiring Guidelines
 
-The GitLab team has members in countries and regions all over the world and from all walks of life. Diversity, Inclusion & Belonging is one of our [core values]({{< ref "values" >}}). Maintaining operations in a large number of countries, some of which have complex rules, laws, and regulations, can affect our ability to conduct business efficiently. Unfortunately, this affects the employability of the citizens and residents of those countries. We are continuously exploring our hiring capabilities in a variety of geographies.
+The GitLab team has members in countries and regions all over the world and from all walks of life. Diversity, Inclusion & Belonging is one of our [core values](/handbook/values/). Maintaining operations in a large number of countries, some of which have complex rules, laws, and regulations, can affect our ability to conduct business efficiently. Unfortunately, this affects the employability of the citizens and residents of those countries. We are continuously exploring our hiring capabilities in a variety of geographies.
 
 All of our roles are remote, however, some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions applicants may have about location after starting the recruiting process.
 
@@ -94,7 +94,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 |  Switzerland * | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
 |    Sweden *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
 
-This table reflects the countries in which we have utilize PEO's but are currently NOT open for hiring:
+This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring:
 
 | Country        | Agreement Type(s)    | Hiring Partner | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
 |----------------|----------------------|----------------|---------------------------------|---------------|---------|------------------|-----------------------|--------------------|-----------------------|

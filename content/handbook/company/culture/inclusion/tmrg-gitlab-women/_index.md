@@ -18,7 +18,7 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 | Pillar | Purpose | Example Results |
 | ----- | ----- | ----- |
 | Awareness and Education | Increase awareness of the experience of TMRG memebers at GitLab and educate allies. | |
-| Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program]({{< ref "./mentorship-program" >}}) |
+| Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program](mentorship-program/) |
 | Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
 | Business Influence | Start and contribute to discusses that influence GitLab the business. | Surface burnout data to People Leadership |
 
@@ -89,7 +89,7 @@ If you have a resource you'd like to include, please open a merge request and co
 
 | Resource | Description |
 | ----- | ----- |
-| [Women at GitLab Mentorship Program]({{< ref "./mentorship-program" >}}) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
+| [Women at GitLab Mentorship Program](mentorship-program/) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
 | [WISE: Women in Sales Everywhere Memberships](https://womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
 | [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
@@ -113,7 +113,9 @@ The following are books suggested by GitLab team members in the [#women Slack ch
 
 ## Past Events
 
-### Talking Confidently about your Accomplishments - Live Speaker Series with [Michelle Carrizosa](https://www.michellecarrizosa.com/)
+### Talking Confidently about your Accomplishments - Live Speaker Series with Michelle Carrizosa
+
+- [Michelle Carrizosa](https://www.michellecarrizosa.com/)
 
 {{< youtube "nXvTiBfEz-c" >}}
 

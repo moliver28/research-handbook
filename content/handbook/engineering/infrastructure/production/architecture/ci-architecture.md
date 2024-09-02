@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/production/architecture/ci-architecture.html
 title: "CI Service Architecture"
 controlled_document: true
 ---
@@ -7,9 +6,7 @@ controlled_document: true
 This document only covers our shared and GitLab shared runners, which are
 available for GitLab.com users and managed by the [Infrastructure teams](../).
 
-## General Architecture
-
-{: #ci-general-arch}
+## General Architecture {#ci-general-arch}
 
 Our CI infrastructure is hosted on Google Cloud Engine (GCE). In GCE we
 use the `us-east1-c` and `us-east1-d`  All of them are configured via
@@ -48,9 +45,7 @@ The runners are connected as follows:
   dev.gitlab.org. They are registered as specific runners to the GitLab
   application projects and used only by us. Privileged mode is on.
 
-## Detailed Architecture
-
-{: #ci-detailed-arch-diagram}
+## Detailed Architecture {#ci-detailed-arch-diagram}
 
 <img src="/images/handbook/engineering/infrastructure/production-architecture/ci-cd-gce-arch.png" alt="">
 
@@ -62,9 +57,7 @@ The runners are connected as follows:
 
 [Source](https://docs.google.com/drawings/d/1oApCYUuh7ft8hnm9ToWjG8Ce9g1Hvo8MKTBL5DtjDk8/edit)
 
-## Data Flow
-
-{: #ci-data-flow}
+## Data Flow {#ci-data-flow}
 
 ### Management Data Flow
 
@@ -120,9 +113,7 @@ The runners are connected as follows:
   using Docker Registry API, pulls Docker Images from external machines. This
   could be Docker Hub, GitLab Registry, or any other Docker compatible registry.
 
-## Deployment and Configuration Updates
-
-{: #ci-configuration}
+## Deployment and Configuration Updates {#ci-configuration}
 
 The Runner and it's configuration is handled with Chef and defined on
 chef.gitlab.com. The detailed upgrade process is described in the [associated runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/update-gitlab-runner-on-managers.md).
@@ -159,9 +150,7 @@ Some of the general configuration parameters can't be refreshed without
 restarting the process. In that case we need to use the same script as for the
 Runner Upgrade.
 
-## Important Links and Metrics
-
-{: #ci-important-info-links}
+## Important Links and Metrics {#ci-important-info-links}
 
 ### Monitoring Information
 

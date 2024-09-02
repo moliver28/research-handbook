@@ -18,7 +18,7 @@ allows developers to invent, create, and deploy modern applications.
 We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/concurrent-devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
 
 We work in a very unique way at GitLab, where flexibility and independence meet
-a high paced, pragmatic way of working. And everything we do is [in the open](https://about.gitlab.com/handbook/).
+a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
 
 We are looking for talented product managers that are excited by the idea to
 contribute to our vision. We know there are a million things we can and want to
@@ -62,7 +62,7 @@ In order for a PM to deeply understand the problems our users are facing and det
 - Communicate with users on issues and epics
 - Work with Pre-Sales and Post-Sales to connect with customers and prospects
 - Uncover insights through UX Research
-- Use other [sensing mechanisms](/handbook/product/product-processes/#sensing-mechanisms). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
+- Use other [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
 
 ### How does a PM ensure we build lovable products?
 
@@ -118,7 +118,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-manager-role/product-cdf-competencies/).
 
-### Intermediate Product Manager
+### Product Manager
 
 Product managers are expected to know their product domain and support the processes or ceremonies of planning of product development at GitLab. They are expected to prioritize and manage their products with some guidance from leadership or other product team members and may even have a mentor or Senior Product Manager assigned as a counterpart to support.
 
@@ -188,7 +188,7 @@ The Senior Product Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 Beyond the [base requirements](#base-pm-requirements), Senior Product Manager requirements are:
 
-- Indepedently manages and proactively identifies direction updates related to product areas
+- Independently manages and proactively identifies direction updates related to product areas
 - Create annual and quarterly plans to align product group to roadmap deliverables
 - Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
 - Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage

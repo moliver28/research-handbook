@@ -41,7 +41,7 @@ GitLab offers [a variety of support options](https://about.gitlab.com/support/) 
 1. If a call is necessary, the support engineer will invite your team to a call via the ticket.
 1. If a support engineer requests follow up items, please make sure to respond back with these items. This will help us resolve the issue as quickly as possible.
 
-## Automated linking of customer architecture / [Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) information in Zendesk tickets
+## Automated linking of customer architecture / Collaboration Project information in Zendesk tickets
 
 For each customer / org in Zendesk managed by a CSM, we can get a link to the collaboration project included, which then can point to the customers architecture details within existing tickets. This link helps our support team to access customer information from the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) without looking up the URL manually each time.
 
@@ -56,7 +56,7 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 
 **The AM ID should therefore be**: 17735787 and finally point to https://gitlab.com/<collaboration_project_url>
 
-**Ref. of handbook**: https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
+**Ref. of handbook**: https://handbook.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
 
 ---
 

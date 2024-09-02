@@ -28,7 +28,7 @@ You also need to have Visual Studio Code installed since this is the code editor
 
 Finally, you need to have your Git and SSH credentials correctly set up in your machine. If you haven't configured SSH access in your computer you can do so by completing the configuration explained in the following tutorial:
 
-- [Setting up SSH access](https://docs.gitlab.com/ee/ssh/)
+- [Setting up SSH access](https://docs.gitlab.com/ee/user/ssh.html)
 
 ## Step by step guide
 

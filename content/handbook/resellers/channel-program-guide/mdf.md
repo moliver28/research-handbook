@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/resellers/Channel-Program-Guide/MDF
 title: "Marketing Development Funds"
 description: "Marketing Development Funds Overview"
 ---
@@ -168,11 +167,11 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 
 - CMM to update Allocadia showing the MDF activity as canceled by going to the mdf sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. CMM to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - CMM to remove any planned/forecasted costs in Allocadia accordingly.
-- CMM to ping the Channel Marketing Programs Manager (CMPM) and staff/DRI's in the main MDF epic to communicate the cancelation and close out the issue.
+- CMM to ping the Channel Marketing Programs Manager (CMPM) and staff/DRI's in the main MDF epic to communicate the cancellation and close out the issue.
 
 ### Channel Marketing Programs Manager Tasks
 
-- The CMPM will comment regarding the cancelation in all open sub-issues and close out the issues.
+- The CMPM will comment regarding the cancellation in all open sub-issues and close out the issues.
 - If applicable, CMPM to delete the Zip req and comment that the MDF has been canceled.
 - If applicable, CMPM to ping procurement and finance in the Coupa req to notify them that the MDF has been canceled.
 - Once all sub-issues are closed, the CMPM will also note the cancellation in the epic and close the epic.

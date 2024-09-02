@@ -1,6 +1,5 @@
 ---
 title: "Content Websites"
-aliases: /handbook/content-websites/
 ---
 
 ## Overview
@@ -20,10 +19,12 @@ The maintainer of this page (as indicated in the sidebar) is considered the [DRI
 | Role | Owner | Current Individual(s) | Responsibilities |
 | ------ | ------ | ------ | ------ |
 | Issue triager | Office of the CEO | Cynthia (Arty) Ng | Triage and prioritize issues, Schedule work in consultation with Technical DRI |
-| Technical DRI | Incubation (Engineering) | Darby Frey | Development work as needed, Code reviews/approvals |
-| Content DRI | Office of the CEO | Stella Treas, Cynthia (Arty) Ng | Make decisions on handbook operations, Coordinate any major changes |
-| Keep pipeline green | Group of volunteers  | See [Escalation page](on-call#keep-main-green-group) | Help fix the pipeline if jobs are failing as needed  |
-| Code Maintainer | Group of volunteers | Technical DRI, plus [`@gitlab-com/content-sites/handbook-tools`](https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
+| Technical DRI | Incubation Engineering | Darby Frey | Development work (as needed), Code reviews/approvals |
+| Content DRI | Office of the CEO | Cynthia (Arty) Ng | Make decisions on handbook operations, Coordinate any major changes |
+| Keep pipeline green | Group of volunteers  | See [Escalation page](on-call/#keep-main-green-group) | Help fix the pipeline if jobs are failing (as needed) |
+| Code Maintainer[^1] | Group of volunteers | Technical DRI, plus [`@gitlab-com/content-sites/handbook-tools`](https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
+
+[^1]: Note: Team members are added to the `handbook-tools` group as Maintainer or Owner. The group has Maintainer access to the handbook projects, and the Docsy theme project.
 
 This page further documents the scope and responsibilities of the DRI and their engineering reports.
 

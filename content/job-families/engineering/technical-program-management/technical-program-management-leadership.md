@@ -12,7 +12,7 @@ Infrastructure TPM Leaders typically have a background in engineering or compute
 - Manage a team of Infrastructure Technical Program Managers.
 - Responsible for staffing requirements for the TPM organization.
 - Establish a reliable and visible cadence for initiative reviews, decision making, prioritization, and staffing management.
-- Lead and drive Infrastructure projects such as: Availability, Disaster Recovery, Releases, CI/CI pipeline Efficiency and Engineering Productivity
+- Lead and drive Infrastructure projects such as: Availability, Disaster Recovery, Releases, CI/CD Pipeline Efficiency, and Engineering Productivity
 - Provide technical project management, coordination, and inter/intra team communications to deliver outstanding program outcomes.
 - Work closely with Software Engineers, SREs, Engineering Leadership, and other Product & Engineer teams to deliver a high quality and resilient SaaS Infrastructure Platform with world class Availability.
 - Manage Infrastructure programs, define milestones and success criteria, staffing allocation to ensure successful on-time deliverables.

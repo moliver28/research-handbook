@@ -5,6 +5,8 @@ title: Elevate+
 
 Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
+This page outlines the current format of Elevate+, for participants enrolled in Cohorts 1 through 6.
+
 Through small group cohorts and interactive workshops, Elevate+ is designed to enable senior leaders at GitLab to better understand and practice behaviours anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.
@@ -70,11 +72,11 @@ During the session, you can expect the following:
 
 Elevate+ Certification is a time to demonstrate everything you've learned and celebrate your new skills and self awareness as you continue to grow as a leader of leaders at GitLab. It's not meant to be scary, and we want all participants to feel fully supported to pass.
 
-Certification will occur in a live, collaborative, 50 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
+Certification will occur in a live, collaborative, 60 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
 
-1. Intro to certification logistics (5 min)
-1. Part 1: Leadership presentations (25 min) - 5 min presentation/1 min scoring per person x 4 people
-1. Part 2: Coaching scenarios (20 min) - 5 min per person x 4 people
+1. Intro to certification logistics
+1. Part 1: Leadership presentations - 5 min presentation/1 min scoring per person x 4 people
+1. Part 2: Coaching scenarios - 5 min per person x 4 people
 
 Review these materials to best prepare for certification:
 

@@ -19,16 +19,17 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 
 ## Meet the Team
 
-- [Sarah McCauley](/handbook/company/team/#s_mccauley) - Director, Billing & Accounts Receivable
-- [Anna Piaseczna](/handbook/company/team/#annapiaseczna) - Senior Manager, GPO Billing Operations
-- [Simone Polverini](/handbook/company/team/#spolverini) - Manager, Billing Operations EMEA and APAC
-- [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations AMER
-- [Karen McKinney](/handbook/company/team/#k.mckinney) - Billing Operations Specialist
-- [Kinga Polgardi](/handbook/company/team/#kingapolgardi) - Senior Billing Operations Specialist
-- [Ausha Saptouw](/handbook/company/team/#aushas) - Billing Operations Specialist
-- [Laura Robins](/handbook/company/team/#laurarobins) - Billing Operations Specialist
-- [Christian Willis](/handbook/company/team/#christianwillis) - Senior Billing Operations Specialist
-- [Diana Quitevis](/handbook/company/team/#dquitevis) - Billing Operations Specialist
+- [Sarah McCauley](/handbook/company/team/#s_mccauley) - Senior Director, Billing & Accounts Receivable (Global)
+- [Anna Piaseczna](/handbook/company/team/#annapiaseczna) - Senior Manager, GPO Billing Operations (Global)
+- Josephine Hararah - Senior Manager, Billing Operations (Global)
+- [Simone Polverini](/handbook/company/team/#spolverini) - Manager, Billing Operations (EMEA and APAC)
+- [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations (AMER)
+- [Karen McKinney](/handbook/company/team/#k.mckinney) - Senior Billing Operations Analyst (AMER)
+- [Kinga Polgardi](/handbook/company/team/#kingapolgardi) - Senior Billing Operations Analyst (EMEA)
+- [Ausha Saptouw](/handbook/company/team/#aushas) - Senior Billing Operations Analyst (EMEA)
+- [Laura Robins](/handbook/company/team/#laurarobins) - Senior Billing Operations Analyst (EMEA)
+- [Christian Willis](/handbook/company/team/#christianwillis) - Senior Billing Operations Analyst (AMER)
+- [Diana Quitevis](/handbook/company/team/#dquitevis) - Billing Operations Specialist (AMER)
 
 *The Billing Team works closely with Sales, Deal Desk, Accounts Receivable, and Revenue Operations.*
 
@@ -38,11 +39,11 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 - [Order requirements](/handbook/sales/field-operations/order-processing/)
 - [Contacting the Legal team](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable-and-contacting-legal)
 - [Questions about licenses and plans](/handbook/support/internal-support#common-internal-requests---sales-team--customer-success-managers--accounts-receivable)
-- [Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})
+- [Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)
 
 ## Communicating with Billing
 
-Avoid contacting any Billing team members [directly via Slack]({{< ref "communication#avoid-direct-messages" >}}). Please tag `@billing-ops` in the #Finance channel.
+Avoid contacting any Billing team members [directly via Slack](/handbook/communication/#avoid-direct-messages). Please tag `@billing-ops` in the #Finance channel.
 
 - Email: `billing@gitlab.com`
 - Salesforce: `@billing-ops`
@@ -91,7 +92,7 @@ See also: [Business Operations - Salesforce Reference](/handbook/sales/field-ope
 
 ### Zuora
 
-[Zuora](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#zuora), a leader in the subscription management technology space, provides a platform which allows automation of subscription operations for businesses. We use Zuora's platform at GitLab to integrate with other platforms for billing and CRM, automate subscriptions flows and assist with reporting. The platform is considered the source of truth for many important business objects, like the product catalog, subscriptions, invoices, and more. See the **[Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})** for details regarding Zuora Billing implementation, including the [Zuora Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/D_Zuora_Business_Objects_Relationship) and integrations with systems like CustomersDot.
+[Zuora](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#zuora), a leader in the subscription management technology space, provides a platform which allows automation of subscription operations for businesses. We use Zuora's platform at GitLab to integrate with other platforms for billing and CRM, automate subscriptions flows and assist with reporting. The platform is considered the source of truth for many important business objects, like the product catalog, subscriptions, invoices, and more. See the **[Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)** for details regarding Zuora Billing implementation, including the [Zuora Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/D_Zuora_Business_Objects_Relationship) and integrations with systems like CustomersDot.
 
 - **Zuora is used for the following:**
   - Billing of all customer accounts
@@ -101,7 +102,7 @@ See also: [Business Operations - Salesforce Reference](/handbook/sales/field-ope
   - Integrated to Avalara Tax Reporting Software
   - Integrated with Zuora Revenue
 
-> See the **[Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})** for technical implementation details.
+> See the **[Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)** for technical implementation details.
 
 ### Zendesk
 

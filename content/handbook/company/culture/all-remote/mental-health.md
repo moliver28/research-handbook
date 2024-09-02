@@ -7,6 +7,8 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
+<!-- markdownlint-disable MD013 -->
+
 ## What are the signs of remote work burnout?
 
 Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture]({{< ref "culture#culture-at-gitlab" >}}) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.
@@ -29,7 +31,7 @@ In the [People Group Conversation](https://youtu.be/fH8nmtEoBh4) above, GitLab C
 >
 > Everyone is used to that [being pressured]. At every company I've been at, that was a celebrated thing. We have to be super, super careful that we do not celebrate that at GitLab. — *Sid Sijbrandij, GitLab co-founder and CEO*
 
-There's a fine line between [thanking someone publicly]({{< ref "communication#say-thanks" >}}) for going above and beyond to help out in a situation, and sending a message that work should always trump life.
+There's a fine line between [thanking someone publicly](/handbook/communication/#say-thanks) for going above and beyond to help out in a situation, and sending a message that work should always trump life.
 Burnout rarely happens all at once. Rather, it typically takes one by surprise, eventually coming to a head after days, weeks, or months of overwork creep.
 
 While working one additional hour to move a given project forward is likely not debilitating when viewed in a vacuum, it can trigger a revised baseline where you must *continue* to overwork in order to maintain the new status quo.
@@ -45,22 +47,22 @@ Particularly in a company where [results](/handbook/values/#results) are valued 
 
 Though it sounds counter to conventional wisdom, clarity comes through time away from work. Just as a human must inhale and exhale to survive, one cannot expect to remain healthy and productive if only inhaling more work.
 
-As John Fitch describes in the book [Time Off](https://www.timeoffbook.com), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
+As John Fitch describes in the book [Time Off](https://maxfrenzel.com/time-off), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
 
 1. Preparation
 1. Incubation
 1. Illumination
 1. Verification
 
-[John Fitch](https://twitter.com/johnwfitch), co-founder of [Time Off](https://www.timeoff.co), articulates this on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
+[John Fitch](https://twitter.com/johnwfitch), co-founder of Time Off, articulates this on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
 
 > Incubation and illumination are only activated through time off — by not doing the actual work, by doing something else. While you're resting, parts of you are still working. I came to this contrarian belief that your best work is actually cultivated outside of work.
 >
 > 50% of the creative process requires you to *not* be working.  — *John Fitch*
 
-Establishing a culture that gives voice to this reality is critical in removing the stigma from taking breaks and prioritizing wellbeing. Rest isn't at the expense of work; it's a core function of doing *excellent* work.
+Establishing a culture that gives voice to this reality is critical in removing the stigma from taking breaks and prioritizing well-being. Rest isn't at the expense of work; it's a core function of doing *excellent* work.
 
-As part of his session at [REMOTE by GitLab](https://remotebygitlab.com), John shares how organizations can intentionally build company policy and culture that support and encourage time off. Watch the session:
+As part of his session at REMOTE by GitLab, John shares how organizations can intentionally build company policy and culture that support and encourage time off. Watch the session:
 
 {{< youtube "bQMoF7oSh2o" >}}
 
@@ -85,7 +87,7 @@ Traditionally, we've emphasized the importance of having a strong work ethic. Fi
 Examples of how you might define your rest ethic:
 
 1. Commitment to taking [time off]({{< ref "paid-time-off" >}}) every month, and truly unplugging from your laptop or work projects when you're off
-1. Using a [non-linear workday]({{< ref "./non-linear-workday" >}}) to take a long break mid-day to walk, exercise, read, or work on a passion project
+1. Using a [non-linear workday](non-linear-workday/) to take a long break mid-day to walk, exercise, read, or work on a passion project
 1. Practice a morning routine to help prepare you for the workday
 1. Practice an evening routine to turn off work and be present with your friends, family, or time alone
 
@@ -107,15 +109,15 @@ GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiativ
 
 There are [many mental health benefits]({{< ref "remote-benefits#benefits-for-all-remote-employees" >}}) to remote work, but some that top the list are:
 
-1. Increased [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in your [daily life]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+1. Increased [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
 1. Less exposure to germs from sick coworkers.
-1. You can [choose your working hours]({{< ref "./people#worklife-harmony" >}}) based on when you're [most productive]({{< ref "./asynchronous" >}}).
+1. You can [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 
 ## What are the challenges of remote work for mental health?
 
-Remote work is not for everyone. We have done a deep dive on specific [remote-work challenges and solutions]({{< ref "./drawbacks#remote-work-challenges-and-solutions-for-employees" >}}), including mental health struggles that could be aggravated by:
+Remote work is not for everyone. We have done a deep dive on specific [remote-work challenges and solutions](drawbacks/#remote-work-challenges-and-solutions-for-employees), including mental health struggles that could be aggravated by:
 
 - the onboarding process
 - loneliness
@@ -136,13 +138,13 @@ Burnout, isolation, and anxiety are issues that impact team members across all c
 
 In a colocated setting, it's entirely possible for a team member to *appear* well, but struggle with these issues internally. That said, it tends to be easier for those in an office to reach out to a team member they trust (or their [people department](/handbook/people-group)) if burnout, isolation, or anxiety is impacting their ability to thrive in the workplace.
 
-In a remote setting, where [in-person interactions]({{< ref "./in-person" >}}) are less common, it's easier to fall victim to [isolation]({{< ref "./drawbacks" >}}). This is particularly true for those who are not well acclimated to remote work, or have [just started their first remote role]({{< ref "./getting-started" >}}).
+In a remote setting, where [in-person interactions](in-person/) are less common, it's easier to fall victim to [isolation](drawbacks/). This is particularly true for those who are not well acclimated to remote work, or have [just started their first remote role](getting-started/).
 
 Because you are likely to work alone most times, it's more difficult to remember that you **do** have colleagues to call on — especially if you're already overwhelmed, burned out, or suffering from anxiety/depression.
 
 #### Create clarity through documentation
 
-The aforementioned reality makes it all the more important for any company hiring remote workers to place a great deal of focus on [documenting processes]({{< ref "modern-health#what-does-modern-health-offer" >}}) for team members who face these difficulties. Along with offering professional assistance (see [GitLab Modern Health]({{< ref "benefits#employee-assistance-program" >}}) as an example), be sure to showcase documented resources of where to turn during [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), and reinforce this in ongoing [learning and development]({{< ref "./learning-and-development" >}}) sessions.
+The aforementioned reality makes it all the more important for any company hiring remote workers to place a great deal of focus on [documenting processes]({{< ref "modern-health#what-does-modern-health-offer" >}}) for team members who face these difficulties. Along with offering professional assistance (see [GitLab Modern Health]({{< ref "benefits#employee-assistance-program" >}}) as an example), be sure to showcase documented resources of where to turn during [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and reinforce this in ongoing [learning and development](learning-and-development/) sessions.
 
 Remote team members may feel less comfortable reaching out to a person when experiencing mental duress, so it's vital to ensure that answers and resources are easily discoverable within a company's handbook.
 
@@ -150,7 +152,7 @@ Remote team members may feel less comfortable reaching out to a person when expe
 
 This approach enables managers and leaders to experience less anxiety and worry of being a single point of failure. By documenting diligently, it is easier for managers to take time for themselves, prioritize family, and earnestly disconnect during holidays and vacation.
 
-[Documentation]({{< ref "./handbook-first" >}}) allows a significant portion of one's managerial expertise to be tapped into even while the manager is away recharging, and this intentional decentralization creates a greater sense of calm for both leaders and direct reports.
+[Documentation](handbook-first/) allows a significant portion of one's managerial expertise to be tapped into even while the manager is away recharging, and this intentional decentralization creates a greater sense of calm for both leaders and direct reports.
 
 [John Fitch](https://twitter.com/johnwfitch), co-author of [Time Off](https://www.timeoffbook.com) and the Chief Product Officer at [Voltage Control](https://voltagecontrol.com), shares a powerful anecdote on this approach on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
 
@@ -166,11 +168,11 @@ This approach enables managers and leaders to experience less anxiety and worry 
 
 Working entirely or primarily in a chat tool such as Microsoft Teams or Slack is a pathway to burnout. Humans were not designed to have hundreds or thousands of people demanding things from them with red bubbles. There is a reason your phone can only allow one conversation at a time.
 
-Leadership can create a more humane atmosphere by leaning on a tool (or tools) that enable asynchronous workflows, thereby [reducing meetings]({{< ref "./meetings" >}}) and creating more time for focused, deep work. [GitLab uses GitLab]({{< ref "./gitlab-for-remote" >}}) to accomplish this.
+Leadership can create a more humane atmosphere by leaning on a tool (or tools) that enable asynchronous workflows, thereby [reducing meetings](meetings/) and creating more time for focused, deep work. [GitLab uses GitLab](gitlab-for-remote/) to accomplish this.
 
 GitLab is a collaboration tool designed to help people work better together, whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page]({{< ref "./gitlab-for-remote" >}}).
+You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 ### Create a non-judgemental culture
 
@@ -179,7 +181,7 @@ You can learn more at GitLab's [remote team solutions page]({{< ref "./gitlab-fo
 
 [Transparency](/handbook/values/#transparency) is a core value at GitLab, and should be a value at any organization employing remote team members. Leaders should assume that some team members will feel uncomfortable surfacing issues involving isolation, burnout, and anxiety at work. This can stem from prior experiences, where bringing such issues to light could lead to negative consequences.
 
-To combat this and destigmatize such issues, leadership should work to [build and sustain a non-judgemental culture]({{< ref "./building-culture" >}}). This starts by celebrating a [diverse team](/handbook/values/#diversity-inclusion), and creating an [inclusive work environment]({{< ref "inclusion" >}}).
+To combat this and de-stigmatize such issues, leadership should work to [build and sustain a non-judgemental culture](building-culture/). This starts by celebrating a [diverse team](/handbook/values/#diversity-inclusion), and creating an [inclusive work environment](/handbook/company/culture/inclusion/).
 
 At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings]({{< ref "1-1" >}}). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
 
@@ -189,7 +191,7 @@ GitLab also offers a Slack channel — `#mental_health_aware` — dedicated to s
 
 Creating a non-judgmental culture requires leaders to cultivate [psychological safety]({{< ref "psychological-safety" >}}) within their teams. This means ensuring that team members feel safe to take healthy risks, openly admit when they make mistakes, and challenge one another in a productive, positive way.
 
-Not only can this affect each individual team member's performance and wellbeing, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy]({{< ref "being-a-great-remote-manager#empathy" >}}), communication, and intentionality.
+Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy]({{< ref "being-a-great-remote-manager#empathy" >}}), communication, and intentionality.
 
 Learn more about [how to build a psychologically safe environment]({{< ref "psychological-safety#strategies-for-cultivating-a-culture-of-psychological-safety" >}}).
 
@@ -238,8 +240,8 @@ Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-thi
 1. Remove Slack from your smartphone or at the very least, turn off notifications for it
 1. Keep each other accountable. When you notice someone in a different time zone should be asleep, tell them
 1. Use your Slack status to share a message with the team that you are unavailable
-1. Schedule [random coffee breaks]({{< ref "communication#random-room" >}})
-1. You can use [informal communication]({{< ref "./informal-communication" >}}) mechanisms such as virtual trivia sessions, talent shows, scavenger hunts, and global pizza parties/meals to help bond as a team and prevent work-related burnout.
+1. Schedule [random coffee breaks](/handbook/communication/#random-room)
+1. You can use [informal communication](informal-communication/) mechanisms such as virtual trivia sessions, talent shows, scavenger hunts, and global pizza parties/meals to help bond as a team and prevent work-related burnout.
 
 ### The power of being proactive
 
@@ -269,17 +271,17 @@ GitLab team members are welcome to join the `#daily-gratitude` Slack channel (an
 
 ### Be transparent about boundaries
 
-Whether you're communicating with a coworker or someone external to the company, it's helpful to be transparent about the boundaries you've set for your mental health, wellbeing, and life outside of work. This is especially impactful for managers and leaders, because it normalizes the conversation around mental health and sets an example for others on the team.
+Whether you're communicating with a coworker or someone external to the company, it's helpful to be transparent about the boundaries you've set for your mental health, well-being, and life outside of work. This is especially impactful for managers and leaders, because it normalizes the conversation around mental health and sets an example for others on the team.
 
-If you're invited to a sync meeting that you can [contribute to asynchronously]({{< ref "./asynchronous#how-to-decline-meetings-in-favor-of-async" >}}), this can be as simple as one line added to an email response. Here's an example from [Darren M.](https://gitlab.com/dmurph), GitLab's [Head of Remote]({{< ref "./head-of-remote" >}}):
+If you're invited to a sync meeting that you can [contribute to asynchronously](asynchronous/#how-to-decline-meetings-in-favor-of-async), this can be as simple as one line added to an email response. Here's an example from [Darren M.](https://gitlab.com/dmurph), GitLab's [Head of Remote](head-of-remote/):
 
-> "I'm intentionally limiting my sync sessions in 2021 to [prioritize wellbeing and family](/handbook/values/#family-and-friends-first-work-second). Thanks for understanding."
+> "I'm intentionally limiting my sync sessions in 2021 to [prioritize well-being and family](/handbook/values/#family-and-friends-first-work-second). Thanks for understanding."
 
-This is also something you can discuss live with your manager or team during regular 1:1 or team meetings. Sharing openly about these boundaries builds empathy, trust, and reinforces a [non-judgmental culture]({{< ref "./mental-health#creating-a-non-judgemental-culture" >}}).
+This is also something you can discuss live with your manager or team during regular 1:1 or team meetings. Sharing openly about these boundaries builds empathy, trust, and reinforces a [non-judgmental culture](mental-health/#creating-a-non-judgemental-culture).
 
 ### Set realistic expectations
 
-Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs]({{< ref "kpis" >}}) (key performance indicators) are unattainable without compromising company [values]({{< ref "remote-values" >}}), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
+Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values]({{< ref "remote-values" >}}), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
 
 It is foolish to expect a team member to maintain excellent mental health when their workload requires a sustained amount of sacrifice. There is a fine line between collaborating with a team member on an ambitious goal and assigning a task that will be perceived as impossible.
 
@@ -301,7 +303,7 @@ Learn more about [GitLab's approach and guidance on feedback]({{< ref "guidance-
 
 ### Create mental space
 
-One of the more challenging aspects of remote work is closing your mental "tabs" once you disconnect from work. Since remote enables you to work a [non-linear workday]({{< ref "./non-linear-workday" >}}), it's difficult to rationalize where one working session ends and another begins.
+One of the more challenging aspects of remote work is closing your mental "tabs" once you disconnect from work. Since remote enables you to work a [non-linear workday](non-linear-workday/), it's difficult to rationalize where one working session ends and another begins.
 
 #### Clear unread messages daily/weekly
 
@@ -313,7 +315,7 @@ Create a rudimentary README that clarifies how you work. Ideally, it's working f
 
 ### Be transparent on capacity
 
-In a remote setting, it's important to let others know you need uninterrupted focus. You should feel safe to manually adjust your status to indicate when you are at capacity or engaged in focus time. This models healthy boundaries while communicating that Slack and synchronous conversation [should not be the default]({{< ref "communication#internal-communication" >}}).
+In a remote setting, it's important to let others know you need uninterrupted focus. You should feel safe to manually adjust your status to indicate when you are at capacity or engaged in focus time. This models healthy boundaries while communicating that Slack and synchronous conversation [should not be the default](/handbook/communication/#internal-communication).
 
 ## What are some tips for managing time when working remotely?
 
@@ -344,14 +346,14 @@ The following tools and strategies are used by the GitLab team to manage burnout
 | Tool | Use |
 | ----- | ----- |
 | [Headspace](https://www.headspace.com/subscriptions) | Meditation app |
-| [Non-Linear Workdays]({{< ref "./non-linear-workday" >}}) | All-remote work strategy to increase life harmony |
+| [Non-Linear Workdays](non-linear-workday/) | All-remote work strategy to increase life harmony |
 | README Files | Space to share bio, remote work setup, and information about working style. Check out the [GitLab's Engineering Team README files](/handbook/engineering/readmes) as an example.|
 | Slack | Non-work conversation in channels like `#mindfulness` and `#mental-health-aware` |
-| [The donut bot]({{< ref "./informal-communication#the-donut-bot" >}}) | Random coffee chat meeting match bot |
-| [Modern Health Community Circles](https://circles.modernhealth.com) | Public community converstaions hosted by Modern Health |
-| [Coffee Chats]({{< ref "./informal-communication#coffee-chats" >}}) | Social calls with team members |
-| [Walk and Talk meeting structure]({{< ref "communication#walk-and-talk-calls" >}}) | An optional structure for both work and social calls |
-| [Burnout Index](https://burnoutindex.org) | Burnout assessment tool |
+| [The donut bot](informal-communication/#the-donut-bot) | Random coffee chat meeting match bot |
+| [Modern Health Community Circles](https://circles.modernhealth.com) | Public community conversations hosted by Modern Health |
+| [Coffee Chats](informal-communication/#coffee-chats) | Social calls with team members |
+| [Walk and Talk meeting structure](/handbook/communication/#walk-and-talk-calls) | An optional structure for both work and social calls |
+| [Burnout Index](https://web.archive.org/web/20240121220209/https://burnoutindex.yerbo.co/) | Burnout assessment tool |
 | [Burnout assessment](https://ssir.org/pdf/2005WI_Feature_Maslach_Leiter.pdf) | Burnout assessment tool |
 | [Daylio](https://daylio.net) |  Mood tracker app |
 
@@ -367,7 +369,7 @@ The following tools and strategies are used by the GitLab team to manage burnout
 
 ## GitLab Knowledge Assessment: Combating burnout, isolation, and anxiety in the remote workplace
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification](remote-certification/) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

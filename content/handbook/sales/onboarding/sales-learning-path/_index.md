@@ -78,7 +78,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 
 - **Our Portfolio**
   - Please click on the link below and go through the course modules.
-  - [Our Portfolio](https://gitlabtrainingcontent.s3-us-west-2.amazonaws.com/GitLab+Field+Enablement+Our+Portfolio+-+Storyline+output/story.html)
+  - Our Portfolio (no longer available)
 - **QUESTION: Pitch Deck Video (Material - Video - 15 Minutes)**
   - Please write one thing you learned or found interesting from watching the GitLab Pitch Deck video.
 - **GitLab Features & Functionality**
@@ -103,7 +103,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
     - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
 - **Product Maturity**
   - GitLab has a broad scope and vision, and we are constantly iterating on existing and new features. Some stages and features are more mature than others.
-  - To convey the state of our feature set and be transparent, we have developed a [GitLab Product Maturity framework](https://about.gitlab.com/direction/maturity/) for categories, application types, and stages.
+  - To convey the state of our feature set and be transparent, we have developed a [GitLab Product Maturity framework](https://about.gitlab.com/direction/#maturity) for categories, application types, and stages.
 - **Additional Resources**
   - The below are resources you might want to review or bookmark for later.
     - [GitLab Terms & Conditions](https://about.gitlab.com/terms/)
@@ -204,8 +204,8 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 - **Using GitLab: The Basics (Material - Handbook - 45 minutes)**
    -This module includes information to help you learn GitLab, and walks you through Projects, Issues, Merge Requests, Pipelines, Settings, User & Admin Area. It includes the Git Basics Training commonly delivered to customers by Professional Services and documentation to help you feel more comfortable with using GitLab.
    -[Learning GitLab with Git Basics](https://gitlab-training.gitlab.io/basics/deck/both.html#/1)
-   -[GitLab Basics Guides](https://docs.gitlab.com/ee/gitlab-basics/)
-   -[Introduction to GitLab Workflow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+   -[GitLab Basics Guides](https://docs.gitlab.com/ee/tutorials/)
+   -[Introduction to GitLab Workflow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
    -[Description Templates](https://gitlab.com/help/user/project/description_templates)
 - **GitLab Tech Stack Details (Material - Handbook - 10 Minutes)**
   - Take a look to understand all the [tools that GitLab uses](/handbook/business-technology/tech-stack/) to keep the business running smoothly.
@@ -344,7 +344,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 ### 13. Integrations (SA, CSM, and PSE Only)
 
 - **Category Overview**
-  - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/project_services.html#project-services) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
+  - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
 - **Jira**
   - GitLab Issues are a powerful tool for discussing ideas and planning and tracking work. However, many organizations have been using Jira for these purposes and have extensive data and business processes built into it. While you can always migrate content and process from Jira to GitLab Issues, you can also opt to continue using Jira and use it together with GitLab through our [integration.](https://docs.gitlab.com/ee/integration/jira/) For a video demonstration of integration with Jira, watch [GitLab workflow with Jira issues](https://youtu.be/fWvwkx5_00E)
 - **Jenkins**
@@ -372,7 +372,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
   - Create a project in a familiar framework and language. Add the following capabilities to the project:
     - Containerize the application and push to the container registry
     - Enable GitLab Kubernetes integration and [connect to the demo cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)
-    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/unit_test_reports.html)
+    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html)
     - Add [static analysis](https://docs.gitlab.com/ee/user/application_security/sast/) to identify vulnerabilities in the codebase
     - Add [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
     - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) and review gating mechanisms

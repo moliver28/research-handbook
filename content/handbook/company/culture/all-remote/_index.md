@@ -1,6 +1,7 @@
 ---
 title: All Remote
 description: GitLab is one of the world's largest all-remote companies
+note: Do not remove alias due to extensive external use where it cannot be updated.
 aliases:
 - /handbook/company/all-remote/
 ---
@@ -40,7 +41,7 @@ aliases:
         <p class="h3 my-3"><strong>Designing a remote team</strong></p>
         <p class="h5 my-4"><a href="{{< ref "head-of-remote" >}}">About the Head of Remote role <i class="fa-solid fa-chevron-right"></i></a></p>
         <p class="h5 my-4"><a href="{{< ref "stages" >}}">The 10 models of remote teams <i class="fa-solid fa-chevron-right"></i></a></p>
-        <p class="h5 my-4"><a href="{{< ref "./handbook-first" >}}">The importance of documentation for remote teams <i class="fa-solid fa-chevron-right"></i></a></p>
+        <p class="h5 my-4"><a href="handbook-first/">The importance of documentation for remote teams <i class="fa-solid fa-chevron-right"></i></a></p>
     </div>
 </div>
 
@@ -48,7 +49,7 @@ aliases:
     <div class="col p-4 m-2 bg-light rounded-3" style="min-width: 300px;">
         <svg width="33" height="33" viewBox="0 0 33 33" fill="currentColor" fill-opacity="0" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_7608_14923)"> <path d="M4.351 24.9684V9.93055C4.351 9.52324 4.5128 9.13261 4.80082 8.84459C5.08883 8.55658 5.47946 8.39478 5.88678 8.39478H10.8781" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M29.6352 24.9684V9.93055C29.6352 9.52324 29.4733 9.13261 29.1853 8.84459C28.8973 8.55658 28.5067 8.39478 28.0994 8.39478H23.2521" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3.17015 28.6223C2.76283 28.6223 2.3722 28.4605 2.08419 28.1724C1.79617 27.8844 1.63437 27.4938 1.63437 27.0865V24.9684H32.3499V27.0865C32.3499 27.4938 32.1881 27.8844 31.9001 28.1724C31.6121 28.4605 31.2215 28.6223 30.8142 28.6223H3.17015Z" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M24.3889 20.5786C24.3889 12.7941 10.1989 12.7685 10.1989 20.5786H24.3889Z" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M17.2964 12.0966C19.1818 12.0966 20.7103 10.5682 20.7103 8.68271C20.7103 6.79726 19.1818 5.2688 17.2964 5.2688C15.4109 5.2688 13.8824 6.79726 13.8824 8.68271C13.8824 10.5682 15.4109 12.0966 17.2964 12.0966Z" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_7608_14923"> <rect width="31.9954" height="31.9954" fill="white" transform="translate(0.995361 0.949402)"></rect> </clipPath> </defs> </svg>
         <p class="h3 my-3"><strong>Remote hiring & onboarding</strong></p>
-        <p class="h5 my-4"><a href="{{< ref "./hiring" >}}">How to hire for a remote team <i class="fa-solid fa-chevron-right"></i></p>
+        <p class="h5 my-4"><a href="hiring/">How to hire for a remote team <i class="fa-solid fa-chevron-right"></i></p>
         <p class="h5 my-4"><a href="./onboarding">The guide to remote onboarding <i class="fa-solid fa-chevron-right"></i></a></p>
         <p class="h5 my-4"><a href="{{< ref "evaluate" >}}">How to evaluate a remote job opportunity <i class="fa-solid fa-chevron-right"></i></a></p>
     </div>

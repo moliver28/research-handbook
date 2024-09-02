@@ -7,11 +7,11 @@ description: "The GitLab Verify:CI Platform Group Handbook page"
 
 Our team is responsible for the following categories:
 
-- [CI Scaling](https://about.gitlab.com/direction/verify/ci_scaling/)
+- [CI Scaling](https://about.gitlab.com/direction/verify/#continuous-integration-ci-scaling)
 
 ## Mission
 
-- Ensure that GitLab Continuous Integration is scalable, performant and reliable, by improving the resilency of our product, as well as futureproofing the CI platform as we grow.
+- Ensure that GitLab Continuous Integration is scalable, performant and reliable, by improving the resiliency of our product, as well as future proofing the CI platform as we grow.
 - Support database and infrastructure initiatives that our CI Platform requires to remain operational.
 
 ## Team Members
@@ -83,7 +83,7 @@ The CI Scaling group supports the feature categories described below:
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Continuous Intergration Scaling` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Continuous+Integration+Scaling) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3AContinuous%20Integration%20Scaling) | [Direction](https://about.gitlab.com/direction/verify/ci_scaling/) | Documentation - TBD |
+| `Category:Continuous Intergration Scaling` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Continuous+Integration+Scaling) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3AContinuous%20Integration%20Scaling) | [Direction](https://about.gitlab.com/direction/verify/#continuous-integration-ci-scaling) | Documentation - TBD |
 
 ## Developer Onboarding
 

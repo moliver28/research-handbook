@@ -1,8 +1,11 @@
 ---
 title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
 description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
-controlled_document: true
 ---
+
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/entity/iberia-srl-spain/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
 
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
@@ -16,7 +19,7 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 |-----------|-----------|
 | GitLab Team Members | Responsible for understanding and following the requirements in this document |
 | People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
-| People, Legal, Payroll, Total Rewards, Absence (Code Owners) | Responsible for approving changes to this document |
+| People, Legal, Payroll, Total Rewards, Absence (Code owners) | Responsible for approving changes to this document |
 
 ## Employment Contracts
 
@@ -121,7 +124,7 @@ Please note that Group Medical plan premiums are tax exempt up to €500 per yea
 </details>
 
 <details markdown="1">
-<summary>Medical Plan Enrollment and Life Event Enrollment</summary>
+<summary>Medical Plan Enrollment</summary>
 
 Team Members must enroll in to the plan upon hire.
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
@@ -150,15 +153,18 @@ No medical questionnaire required (pre existing illness will be accepted, except
 </details>
 
 <details markdown="1">
-<summary>Offboarding GitLab</summary>
-
-Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan. 
-
-**Life Event Enrollment**
+<summary>Life Event Enrollment</summary>
 
 Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.
 
 The Team Member portion of the dependent cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit.
+
+</details>
+
+<details markdown="1">
+<summary>Offboarding GitLab</summary>
+
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
 
 </details>
 

@@ -35,8 +35,7 @@ There are two primary Slack channels to communicate with platform DRIs and other
 
 The Highspot team creates GitLab Issue Templates within the Enablement Project for common requests:
 
-1. Can't find a Spot that meets your business needs? Use [this Highspot Spot Creation template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=Highspot-Spot-Creation-Request) to submit your request.
-1. Need Editor or Owner permissions within a Spot, or Analyst permissions within reporting? Use [this Highspot Permissions template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=highspot-spot-permissions-request) to submit your request.
+1. Looking for access to Highspot? Follow the typical [Access Request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to submit your request. Tech stack provisioners to review and approve your request can be found [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 1. Need to complete Highspot role-based onboarding? Following the instructions within [this template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=Highspot-Role-Onboarding).
 
 ### Key definitions
@@ -60,7 +59,7 @@ The Highspot team creates GitLab Issue Templates within the Enablement Project f
 
 | Spot Title | Description |  Viewable By | Contribution Status |
 | ------ | ------ | ------ | ------ |
-| **Channel & Alliances** | Channel marketing material to share with Partners and internal GitLab team members. | All internal team members | Locked |
+| **Global Ecosystem** | Partner marketing material to share within our Global Ecosystem, including channel,  alliances, and internal GitLab team members. | All internal team members | Locked |
 | **Competitive Intelligence** | All internal competitive matters; to be used for self-education about our competitors. | All internal team members | Locked |
 | **Customer Success** | CS Operations, Gainsight, Professional Services, Solutions Architects, Technical Account Management. | All internal team members | Locked |
 | **Customer Advocacy** | Customer case studies, video testimonials, quotes, peer reviews, and accolades from G2, Gartner, and Forrester. | All internal team members | Locked |
@@ -96,7 +95,7 @@ Access to the tool is provisioned via SSO in Okta. To access Highspot, please na
 
 ### Highspot Trainings
 
-There are two training courses for Highspot available in the GitLab Level Up platform:
+There are two training courses for Highspot available in the GitLab Level Up platform. These courses can also be found in the [Highspot User Guide Spot](https://gitlab.highspot.com/spots/61a55821bfc73fc1b19395f1#evt7szob8u) for later reference:
 
 1. [Highspot User Training](https://university.gitlab.com/learn/course/highspot-user/main/highspot-user-training?client=internal-team-members) - Foundational knowledge that all Highspot users should possess to get the most out of the platform. This includes a brief tour of the tool, how to search and discover content, how to share content for buyer engagement and how to leverage Highspot for personal organization and efficiency. All new Field team members should complete this course as a part of the [Sales Quick Start](/handbook/sales/onboarding/) training program in onboarding. Non-Field team members who gain access to Highspot via an [access request](/handbook/sales/field-communications/gitlab-highspot/#availability-and-access-requests) will be highly encouraged to complete this training upon being provisioned access.
 1. [Highspot Content Contributor Training](https://university.gitlab.com/learn/course/highspot-content-contributor-training/main/highspot-content-contributor-training) - All Content Owners and Content Contributors in Highspot are required to complete this training prior to being provisioned edit access to any spot. This ensures that all contributors are trained to uphold GitLab's Highspot governance best-practices to support the best end user experience.
@@ -458,7 +457,7 @@ Not at this time. All content must be manually added to Highspot via designated 
 
 **Is it possible to see the speaker notes when viewing a Google Slide?**
 
-This is not a Highspot capability at this time due to limitations with Google's API. The Highspot team is aware that this is a needed feature and are hoping to offer it soon. In addition to speaker notes, there are other limitations to Google Slides in Highspot that include supporting gifs or slide animations as well as skipped slides. This means that animations will not display and skipped slides will show by default in Highspot or when sharing with a customer. Please take this into consideration when building slide content for Highspot.
+This is not a Highspot capability at this time due to limitations with Google's API. The Highspot team is aware that this is a needed feature and are hoping to offer it soon. In addition to speaker notes, there are other limitations to Google Slides in Highspot that include supporting GIFs or slide animations as well as skipped slides. This means that animations will not display and skipped slides will show by default in Highspot or when sharing with a customer. Please take this into consideration when building slide content for Highspot.
 
 **How does Highspot differ from the Handbook?**
 

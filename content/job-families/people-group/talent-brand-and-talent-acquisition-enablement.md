@@ -47,7 +47,7 @@ The Senior Talent Brand Program Manager reports to the Senior Director of Talent
 
 #### Senior Talent Brand Program Manager Job Grade
 
-The Senior Talent Brand Program Manager is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Talent Brand Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Talent Brand Program Manager Responsibilities
 

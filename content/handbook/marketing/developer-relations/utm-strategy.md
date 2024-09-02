@@ -79,7 +79,7 @@ TBD
             <td> Where will you be sharing it: </td>
             <td>
                 <select class='utm_generator' id="utm_where" >
-                    <option value="social-linkedin">Linkedin</option>
+                    <option value="social-linkedin">LinkedIn</option>
                     <option value="social-twitter">Twitter</option>
                     <option value="display-blog">Blog Post</option>
                     <option value="display-partner">Partner Website</option>

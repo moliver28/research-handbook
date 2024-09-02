@@ -43,7 +43,7 @@ The "Welcome to GitLab" call will introduce the customer to the Customer Success
 1. Show customers the power of GitLab by using GitLab with them (ex: related issues, tracking milestones, threaded conversations, ability to interact directly with GitLab's product/engineering teams)
 1. Make sure you are responding in a timely manner to customer's open issues. When you are prompt to respond, the customer is more likely to continue using the account management projects
 1. Have discussions in the public issues as much as possible. If there is a question/discussion point that requires interaction with the GitLab Engineering and Product teams, post it in the public issue, as it most likely benefits everyone reading the public issue.
-1. When adding a SFDC link to a public issue, remember to [provide feedback](/handbook/product/how-to-engage/#customer-feature-requests) to the product managers using the [feedback template](/handbook/product/how-to-engage/#feedback-template)
+1. When adding a SFDC link to a public issue, remember to [provide feedback](/handbook/product/product-management/#customer-feature-requests) to the product managers using the [feedback template](/handbook/product/product-management/#feedback-template)
 1. In-person meetings are some of the most impactful and productive engagements, but they are also the most expensive in terms of time and money. To make sure both parties get the most out of an in-person meeting have an agenda planned well in advance and send the agenda to all parties attending the meeting. Also, if a GitLab E-group member is attending the meeting, an [Executive Briefing Doc](https://docs.google.com/document/d/1hyA12EN5iEwApAr_g4_-vhUQZohKxm5xkX9xxZ1JNog/edit) (internal link) will also be required (see the next section for more details on engaging with an e-group member).
 
 ### E-Group Customer Calls
@@ -114,7 +114,7 @@ Customer personas are attributed to individual contacts in Gainsight when viewin
 
 On the Gainsight Attributes section, the CSM can set the priority level per customer with levels 1 or 2, with 1 being the highest. A new CSM-assigned customer coming on to GitLab will default to Pr1 until their onboarding enablement is complete. Pr3 is solely for unmanaged child accounts, and Pr4 is only for our digital customers and not for the CSM-assigned segment, with the exception of the Public Sector that is trialing a CSM-assigned digital customer. Priority definitions vary by CSM segment.
 
-![Post-Sales Customer Segmentation](./img/segmentation.jpg "Post-Sales Customer Segmentation")
+![Post-Sales Customer Segmentation](img/segmentation.jpg "Post-Sales Customer Segmentation")
 
 Why do we use a prioritization system?
 

@@ -4,7 +4,7 @@ job: "Support Engineering Manager"
 description: Personal readme page for Angela Piotrowski, Support Engineering Manager, GitLab"
 ---
 
-Combo of Support Engineering Handbook "[Getting to know you](/handbook/support/managers/getting-to-know-you.html)" and Manager README (strongly inspired by "https://about.gitlab.com/handbook/engineering/readmes/mike-dunninger/")
+Combo of Support Engineering Handbook "[Getting to know you](/handbook/support/managers/getting-to-know-you.html)" and Manager README (strongly inspired by "https://handbook.gitlab.com/handbook/engineering/readmes/mike-dunninger/")
 
 ### **My Role and Responsibilities**
 

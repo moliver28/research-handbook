@@ -25,7 +25,7 @@ In order to officially "graduate" from Sales Onboarding at GitLab and be awarded
   - Operational Excellence: Intro to GitLab Legal - (30 minutes)
   - Customer Focus: Customer Success Management Overview - (50 minutes)
   - Customer Focus: Intro to Professional Services - (50 minutes)
-  - Operational Excellence: Into to Gitlab Field Security - (30 minutes)
+  - Operational Excellence: Into to GitLab Field Security - (30 minutes)
   - Operational Excellence: Working with Sales Dev - (50 minutes)
   - Mock Calls - (4 hours)
 - Complete [1 mock discovery call](https://docs.google.com/document/d/12YiOIVKA6BirVRWRnIO8sd0qfwQOPLfXsUADluJvM3Y/edit?usp=sharing) at the SQS Workshop with a PMM, Manager, or a more experienced SA or CSM

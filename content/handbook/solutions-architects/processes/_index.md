@@ -212,7 +212,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](https://about.gitlab.comhandbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
@@ -305,17 +305,13 @@ SA engagement for customer interactions, RFP's, audits and more ([how to engage 
 
 APAC SAs are aligned regionally into regions such as ANZ, SEA (South-East Asia), India, South Korea and Japan in close alignment to the Strategic Account Leaders, Commercial AEs and Channels Managers territories. Teams collaborate to the standards [Working Agreements](#working-agreements).
 
-### Alliances SA Engagement Model
+### Ecosystem SA Engagement Model
 
-The Alliance SA team is global. The Alliance SA's are aligned with Alliance Partner Managers/Directors and the Alliance Business Development Managers. In customer accounts where an Alliance partner technology is involved, an Alliance SA engagement for customer interactions can be requested by an Account Executive / SA / CSM using the appropriate issue board. For more details, click on [how to engage an Alliance SA](/handbook/solutions-architects/processes/alliance/). Here's the [Alliance Triage Board](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/boards/2245192) and the [issue template](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/issues/new?issuable_template=GitLab%20Internal%20Assistance)
+The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously with global and regional partners of all types based on the team member's experience and needs of the region.  Working alongside Ecosystem Sales Managers (ESM) in each region, Ecosystem SAs focus on developing Partner relationships as opposed to direct Customer relationships.  Ecosystems SAs do participate in direct customer engagments when the Partner needs support in the sales cycle and their account team is not ready to involve GitLab sales teams.  Ecosystem SAs will seek to document all customer interactions and as quickly as possible hand off to Field SAs to drive the opportunity with the partner and customer.  Ecosystem SAs can provide backup to the Field SA community in support of a Partner aligned opportunities.
 
-### Channel SA Engagement Model
+Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-The Channel SA's are aligned globally with the Channel program team as well as regionally with Channel Sales Directors and Channel Account Managers. Channel SA's are primarily focused on developing Partner relationships as opposed to direct Customer relationships.  Our primary community served are the regional Channel Sales Directors and their Channel Account Managers (CAMs), Partner teams, and our own managment.  Generally for direct customer opportunity support, engage the appropriate GitLab SA community for your customer.  Channel SA's can provide backup to the Customer SA community in support of a Partner aligned opportunity.
-
-Most Opportunity based enagement should start with the CAM and they should identify the appropriate Channel SA to engage.  If you do not know the CAM for your account / partner reach out via the `#channel-sales` slack channel for general sales questions about working with partners or finding help with a specific channel opportunity.
-
-In customer accounts where a Channel partner is involved, engagement with the Partner from a Channel SA can be requested by an Account Executive / SA / CSM.  For more details, click on [how to engage a Channel SA](/handbook/solutions-architects/processes/channel/).  The details on Channel SA engagement model can be found in this [RACI spreadsheet](https://docs.google.com/spreadsheets/d/1AxDrQp2HeIXfomw8QRrb0gemQCHktt_BR3ufpLTtxNc/).
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
 
 ### Subject Matter Expert Engagement Model
 

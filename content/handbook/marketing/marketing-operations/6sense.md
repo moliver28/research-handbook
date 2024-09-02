@@ -31,6 +31,8 @@ Salesforce users with a 6sense log in can also leverage the 6sense iframe in Sal
 
 Marketo activity is passed to 6sense to inform the predictive models. Marketo form fills and email activity are included in the intent model. Outbound email activity from Marketo is used in the reach model.
 
+Additionally, [Marketo monitors updates](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC53002B2ZN19) to the `6sense Account 6QA Start Date` field, which is used to add 20 `behavior` based points to identified `6QA` leads, with a limit to scoring on `6QA` once every 3 months. Once leads clear the initial filters, they are placed into a 6 day `wait` step before receiving scoring based on `6QA`. This delay allows Marketo to check that a lead has not been labeled `Accepted`, `Qualifying`, `Qualified`, `Disqualified`, `Ineligible` or `Recycle` since the checkbox status initially changed and prevents overscoring based on other lead behaviors, but still allows leads to receive points.
+
 ### Outreach
 
 ### Qualified
@@ -79,6 +81,12 @@ The following steps must be taken in order for users to access both the 6sense p
 - Insights User: This role has full access to 6sense insights for segments and accounts.
 - Sales User: This role has full access to 6sense insights for segments and accounts.
 
+### 6sense User Seat
+
+We have a limited user seat in 6sense, in order to manage our user seats and provide more seats for new users, we are eliminating inactive users. 
+
+During our user audit review, if the user hasn't logged into either the 6sense platform or the dashboards in Sales in the last 6 monmth, their seat willl be revoked.
+
 ## Training Resources
 
 ### Sales Dev Training Recordings
@@ -126,7 +134,6 @@ To push a segment to Marketo, you'll need an Add to Audience orchestration. You 
 
 ### Folder Naming Convention
 
-{: .no_toc}
 In order to keep segments and the general platform organized, please use the following folder naming convention:
 
 - `Team Name - FY## Q# - Name of Campaign/Account List`
@@ -138,12 +145,10 @@ For example:
 
 ### Tags
 
-{: .no_toc}
 Tags should be used to help organize lists by topic. For example, you may want to use a tag for a large campaign, segment (SMB, MM, etc.), tier, etc.
 
 ### Sales Dev Naming Convention
 
-{: .no_toc}
 Sales Dev users should name any lists with the same naming convention that is used in Outreach. The naming convention guidance can be found on the [Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/#sequences).
 
 ## Useful Terms

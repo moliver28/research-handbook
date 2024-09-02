@@ -8,7 +8,7 @@ GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contrib
 Contributions are part of the day-to-day jobs of the following people:
 
 - Principal Pricing Manager (Sean Hall)
-- Sr Director, Product Monetization (Justin Farris)
+- VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
 
@@ -409,7 +409,7 @@ Not sure what is normal in the market. Adobe did a good job, but they moved from
 
 ## When is a dollar not a dollar?
 
-This is the title of a [great article](https://codingvc.com/when-is-a-dollar-not-a-dollar/) of which we'll apply the 8 points to GitLab below:
+This is the title of a [great article](https://www.codingvc.com/p/when-is-a-dollar-not-a-dollar) of which we'll apply the 8 points to GitLab below:
 
 1. Cost vs. revenue: we can help both to reduce costs and increase revenue, make sure you align to what the priorities of the prospect are.
 1. Principle agent problem: for a VP of Engineering, you probably want to highlight our features that provide more visibility over features that save developers time.
@@ -599,7 +599,7 @@ These large organizations with a slow lifecycle benefit the most from GitLab, si
 
 ## Location based pricing
 
-As suggested by [a user on Twitter](https://twitter.com/javierfeldman/status/1101246338824572928).
+As suggested by [a user on X](https://x.com/javierfeldman/status/1101246338824572928)(X login required).
 This is a good suggestion to consider given the GitLab approach to adapting to local markets throughout the business. GitLab will assess viability of the idea in our overall pricing strategy planning. It is difficult to do and our assessment of this will consider:
 
 1. This is a complex issue and requires that all parties are better off if a change is made to account for geography. We fully admit that this would be hard to pull off successfully.

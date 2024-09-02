@@ -1,8 +1,6 @@
 ---
 title: Tenant Scale Group
 description: "The Tenant Scale Group is the direct outcome of applying our value of Iteration to the direction of the Database Scalability Working Group."
-aliases:
-- /handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/
 ---
 
 ## About
@@ -70,10 +68,9 @@ limited to that area and they also work in other areas as needed.
 | ------ | ------ | ------ |
 | Application Readiness questions | Manoj | |
 | [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
-| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj | |
-| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong | Bojan, Filipe Santos |
+| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj | Leonardo da Rosa, Krasimir Angelov |
 | Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Vasilii Iakliushin | |
-| Cells Services: [Topology Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Thong | Omar, Manoj, David Leach, Jonathon Sisson |
+| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) and [Topology Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Thong | Bojan, Filipe Santos, Omar, Manoj, David Leach, Jonathon Sisson |
 | Cells Services: [Database sequences](https://gitlab.com/groups/gitlab-org/-/epics/13155) | Prabakaran Murugesan | |
 
 ## Meetings

@@ -10,8 +10,8 @@ description: "There is a monthly GitLab CEO 101 call with new hires and the CEO.
 There is a quarterly GitLab CEO 101 call with new hires and the CEO. This is a zoom call that will be recorded and uploaded to Unfiltered on YouTube. Please read the history and values links provided below and come prepared with questions added to the notes doc included in the calendar invite. Questions that are more personal in nature or around family and friends are also welcomed and encouraged (example: What is your favorite food? Where is your favorite place to travel?) The call will be driven by questions asked by new team members.
 
 1. Questions about GitLab history [{{< ref "history" >}}]({{< ref "history" >}})
-1. Questions about our values [{{< ref "values" >}}]({{< ref "values" >}})
-1. Team structure [{{< ref "structure" >}}]({{< ref "structure" >}}) or [organization chart](https://comp-calculator.gitlab.net/org_chart)
+1. Questions about our values [/handbook/values/](/handbook/values/)
+1. Team structure [/handbook/company/structure/](/handbook/company/structure/) or [organization chart](https://comp-calculator.gitlab.net/org_chart)
 1. How we work [/handbook](/handbook)
 
    - Please pay special attention to the guideline about developing content and procedures in a public, transparent, [handbook-first](/handbook) manner
@@ -32,6 +32,6 @@ Below a few examples of the GitLab 101 calls
 
 ### Frequently Asked Questions about the GitLab Culture
 
-#### All previously asked questions have been integrated into our [handbook](/handbook)
+All previously asked questions have been integrated into our [handbook](/handbook).
 
 Future questions will be added to this FAQ section.

@@ -39,7 +39,7 @@ The above video shows how to set this up, but the general gist is:
 
 You need to be added to the GitLab Support group account to enable the
 Calendly Pro account features, including the ability to add multiple
-["event types"](https://help.calendly.com/hc/en-us/categories/203257248-Customize-Event-Types)
+["event types"](https://help.calendly.com/hc/en-us/articles/14073251046807-How-to-customize-your-event-types)
 for scheduling calls with customers and colleagues as recommended in the
 [suggestions](#suggestions) below.
 
@@ -163,11 +163,13 @@ curl -s -H "Authorization: Bearer <your Calendly API token>" \
 
 This will output something like the following:
 
-> <https://calendly.com/d/m6we-x8r7/support-call-with-me>
+```plaintext
+https://calendly.com/d/m6we-x8r7/support-call-with-me
+```
 
-### using [httpie](https://github.com/httpie/httpie)
+### using `httpie`
 
-The following uses the same setup, patterns, and output as above.
+The following uses the same setup, patterns, and output as above with [`httpie`](https://github.com/httpie/httpie).
 
 Get your personal URI:
 

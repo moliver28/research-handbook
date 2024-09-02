@@ -10,7 +10,7 @@ GitLab is building an open source, single application for the entire software de
 
 Right now, we're in a period of growth, we're quickly increasing the size of the [Support team](/handbook/support/), in step with the number of GitLab employees.
 
-At GitLab, we live and breathe open source principles. This means our entire [handbook](https://about.gitlab.com/handbook/) is online, and with a few clicks, you can find the details of [future releases](https://about.gitlab.com/direction/#future-releases), check out our [past releases](https://about.gitlab.com/releases/), and see some of the [customers you'd be supporting while working here](https://about.gitlab.com/customers/).
+At GitLab, we live and breathe open source principles. This means our entire [handbook](/handbook/) is online, and with a few clicks, you can find the details of [future releases](https://about.gitlab.com/direction/#future-releases), check out our [past releases](https://about.gitlab.com/releases/), and see some of the [customers you'd be supporting while working here](https://about.gitlab.com/customers/).
 
 Support Engineering Management at GitLab isn't your typical management opportunity because of our approach to the function. Support is embedded within the Engineering department and truly operates in an environment where Support and Engineering meet. Your team will be interacting with customers daily as they encounter the difficult edge cases of running GitLab in complex environments.
 
@@ -181,7 +181,7 @@ Support Management roles have the following spans of control:
 
 ### US Federal Support Manager
 
-Support Managers with verified US Citizenship may join the GitLab US Federal Support Team. This group works through the [US Federal Support portal](https://about.gitlab.com/support/us-federal-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
+Support Managers with verified US Citizenship may join the GitLab US Federal Support Team. This group works through the [US Federal Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
 The US Federal Support Portal is unique in that it is the first restricted support instance at GitLab, this provides managers an opportunity to shape the way engineers and customers interact in order to improve the support experience in measurable ways. This instance is also used as a testbed for process change as it is easier to implement and roll out changes on a smaller scale with less impact than attempting to deploy them globally. As GitLab's federal offerings grow, the US Support workflows may serve as a template that can be used to extend federal support to other areas of the globe.
 
@@ -211,11 +211,13 @@ This role also closely interacts with counterparts in Product, Development, QA, 
 - Manage multiple teams and projects affecting consistent global execution
 - Own the support readiness and operations across all products
 
-## [What it's like to work here](/handbook/hiring/candidate/faq/) at GitLab
+## What it's like to work here at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLabbers are currently located in over 51 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLabbers are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don't count the number of days you take off annually. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLabbers are currently located in over 51 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team members are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don't count the number of days you take off annually. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
 Also, every year or so, we'll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
+
+Find more information about what it's like to work here in [our candidate FAQ](/handbook/hiring/candidate-faq/).
 
 ## Hiring Process
 

@@ -44,9 +44,9 @@ Employees who want a blend of in-person and working may be attracted to the hybr
 - They may want to have regular "face time" with leadership, if senior leaders are based in the office.
 - They may prefer to have in-person whiteboarding or collaboration sessions with creative teammates.
 - It may be a pleasant way to maintain variety in their weekly routine.
-- Or, in an office-first company, hybrid-remote may be the closest option available to working [all-remote]({{< ref "./stages#9-all-remote" >}}).
+- Or, in an office-first company, hybrid-remote may be the closest option available to working [all-remote](stages/#9-all-remote).
 
-[Read more about the ten models of remote and hybrid teams.]({{< ref "./stages" >}})
+[Read more about the ten models of remote and hybrid teams.](stages/)
 
 ## Variations of the hybrid model
 
@@ -56,7 +56,7 @@ Remote and hybrid work come in a variety of forms, which are continually evolvin
 
 An office-centric hybrid organization looks like a team that is not changing how it works. Synchronous, undocumented meetings and disconnected whiteboards are still hallmarks of collaboration. People are expected in the office for a predetermined number of days per week, though the reasoning is flimsy at best (e.g. "We like seeing people around.").
 
-This approach roughly aligns with GitLab's definitions of [remote time / remote exceptions]({{< ref "./stages" >}}).
+This approach roughly aligns with GitLab's definitions of [remote time / remote exceptions](stages/).
 
 Leadership supports this model by continuing to do what it has always done.
 
@@ -64,40 +64,40 @@ Leadership supports this model by continuing to do what it has always done.
 
 This variation is marked by some initiative to introduce new tools and technologies into the workforce which are designed for distributed collaboration and contribution. Real estate exists for those who wish to work in the office, but there is not necessarily a set amount of forced days-in-office.
 
-This approach roughly aligns with GitLab's definitions of [remote time / remote allowed / remote days]({{< ref "./stages" >}}).
+This approach roughly aligns with GitLab's definitions of [remote time / remote allowed / remote days](stages/).
 
 Leadership supports this model by creating policies and approving new tools and technology to allow testing new flexibilities.
 
 - **The remote-friendly hybrid**
 
 Remote-friendly is marked by a wider acceptance of global distribution of people. Tools are in place that make it easy to work remotely, and processes are remote-friendly by design. Offices exist but serve more as complementary to remote work as opposed to being the first place people go to work.
-This approach roughly aligns with GitLab's definitions of [remote allowed / remote first]({{< ref "./stages" >}}).
+This approach roughly aligns with GitLab's definitions of [remote allowed / remote first](stages/).
 
 For leadership to support remote-friendly operation, remote work is supported at all levels of the company, with leaders modeling this behavior by working remotely on certain days themselves.
 
-Being remote-friendly implies that the company also allows people to work [asynchronously]({{< ref "./asynchronous" >}}) without forcing set working hours.
+Being remote-friendly implies that the company also allows people to work [asynchronously](asynchronous/) without forcing set working hours.
 
 This workplace approach has also been called ["fully flexible"](https://www.lyft.com/blog/posts/lyft-announces-fully-flexible-workplace) by Lyft.
 
 - **The virtual first approach**
 
-Virtual first is the same as [remote first]({{< ref "./stages" >}}), with digital-first and distributed-first also synonymous. This is marked by a deliberate, org-wide approach to pressure test culture, values, and workflows to guarantee that every element serves first the distributed workforce and not the vestiges of office-first workflows.
+Virtual first is the same as [remote first](stages/), with digital-first and distributed-first also synonymous. This is marked by a deliberate, org-wide approach to pressure test culture, values, and workflows to guarantee that every element serves first the distributed workforce and not the vestiges of office-first workflows.
 
 In the virtual-first workplace, everyone from top to bottom (and especially leadership) should ideally be out of the office.
 
-In virtual-first, the company defaults to [asynchronous work]({{< ref "./asynchronous" >}}).
+In virtual-first, the company defaults to [asynchronous work](asynchronous/).
 
 ## What is the difference between remote and hybrid working?
 
-In an [all-remote]({{< ref "./terminology" >}}) workplace, remote is the default, not the exception. Everything from how meetings are handled to onboarding new hires is [structured through a remote lens](https://stackoverflow.blog/2017/02/08/means-remote-first-company).
+In an [all-remote](terminology/) workplace, remote is the default, not the exception. Everything from how meetings are handled to onboarding new hires is [structured through a remote lens](https://stackoverflow.blog/2017/02/08/means-remote-first-company).
 
-Hybrid-remote generally requires more effort to execute well than all-colocated or all-remote given the [two-tier work environment]({{< ref "./what-not-to-do" >}}).
+Hybrid-remote generally requires more effort to execute well than all-colocated or all-remote given the [two-tier work environment](what-not-to-do/).
 
 Some hybrid-remote arrangements may involve *regular* commutes to the office, though not *daily* commutes. For example, a remote employee in a hybrid-remote organization may travel to an office one week each month for regularly scheduled in-person interactions, while working from a location of their choosing the rest of the month.
 
 ## What to consider when going hybrid-remote
 
-For some firms, shifting to [all-remote]({{< ref "./terminology" >}}) may be impractical or impossible. Hybrid-remote is a popular alternative, but one that should be embraced with great deliberation, care, and intentionality. Hybrid-remote generally requires more effort to execute well than all-colocated or all-remote given the [two-tier work environment]({{< ref "./what-not-to-do" >}}). Below are specific areas to consider and plan for to ensure the smoothest operation.
+For some firms, shifting to [all-remote](terminology/) may be impractical or impossible. Hybrid-remote is a popular alternative, but one that should be embraced with great deliberation, care, and intentionality. Hybrid-remote generally requires more effort to execute well than all-colocated or all-remote given the [two-tier work environment](what-not-to-do/). Below are specific areas to consider and plan for to ensure the smoothest operation.
 
 ### Only some days in the office
 
@@ -115,7 +115,7 @@ Leaders should reinforce a particular rigor on documenting takeaways following i
 
 ### Redesigned spaces for individual hybrid-remote meeting rooms
 
-Hybrid calls are [suboptimal for remote attendees]({{< ref "./meetings#avoid-hybrid-calls" >}}). Leaders transitioning to hybrid-remote should consider redesigning existing office space to optomize for individual workspaces and individual meeting rooms. This reinforces that the office is simply [another venue to work remotely from]({{< ref "how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}).
+Hybrid calls are [suboptimal for remote attendees](meetings/#avoid-hybrid-calls). Leaders transitioning to hybrid-remote should consider redesigning existing office space to optimize for individual workspaces and individual meeting rooms. This reinforces that the office is simply [another venue to work remotely from]({{< ref "how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}).
 
 Eliminating conference rooms serves as a forcing function to ensure collaboration is accessible to all and removes the temptation to have in-office team members gather around a single camera for a video call with remote attendees.
 
@@ -133,7 +133,7 @@ This is critical for process continuity regardless of where a team member is. In
 
 ### Coffee chats should be indiscriminate of location
 
-[Coffee chats]({{< ref "./informal-communication#coffee-chats" >}}) are an excellent way to broaden one's perspective and meet new people from across the organization. Hybrid organizations should take care to not enable selective coffee chat pairing based on who is onsite and who is remote, as it signals a two-tier work environment.
+[Coffee chats](informal-communication/#coffee-chats) are an excellent way to broaden one's perspective and meet new people from across the organization. Hybrid organizations should take care to not enable selective coffee chat pairing based on who is onsite and who is remote, as it signals a two-tier work environment.
 
 ### Record important conversations
 
@@ -141,17 +141,17 @@ The proximity of people in an office makes hallway, watercooler, and ad hoc conv
 
 ### Leadership's place in the office
 
-The best place for leaders and executives to be in a hybrid-remote environment is *[outside]({{< ref "./transition#make-the-executive-team-remote" >}})* of the office.
+The best place for leaders and executives to be in a hybrid-remote environment is *[outside](transition/#make-the-executive-team-remote)* of the office.
 
 1. This prevents remote team members from a perceived lack of "face time" with executives.
 1. This prevents senior leadership from conducting their work in ways which are counter to remote-first principles.
 1. This prevents cognitive dissonance from leadership on what tools, technologies, and training need to be prioritized to support remote-first workflows.
 1. This prevents team members from coming to the office to rub shoulders with executives.
-1. This reinforces that the office is no longer the [epicenter]({{< ref "./stages#7-remote-first" >}}) of power or decision making.
+1. This reinforces that the office is no longer the [epicenter](stages/#7-remote-first) of power or decision making.
 
 ### Ad hoc social events
 
-It's understandable for team members to long for social gatherings in and around office settings. Structuring [informal communication]({{< ref "./informal-communication" >}}) is vital in a remote setting, and some companies may choose to repurpose some of their office space to accommodate groups and gatherings. Libraries, fitness centers, game rooms, and music studios (among others) could be created to facilitate social gatherings for those who are onsite on any given day.
+It's understandable for team members to long for social gatherings in and around office settings. Structuring [informal communication](informal-communication/) is vital in a remote setting, and some companies may choose to repurpose some of their office space to accommodate groups and gatherings. Libraries, fitness centers, game rooms, and music studios (among others) could be created to facilitate social gatherings for those who are onsite on any given day.
 
 Leaders who enable this should be mindful of the following.
 
@@ -164,7 +164,7 @@ Leaders should carefully evaluate spoken and unspoken perks of the office, and s
 
 ### Authenticity in the interview process
 
-When growing your team in a hybrid-remote setting, be sure to present an authentic picture of your culture to all candidates. If you interview a candidate in your office when they'll primarily be working remotely, they're unlikely to get a full understanding of what the employee experience will be like once they're on board. This can lead to engagement and retention issues. During the [interview process]({{< ref "./hiring" >}}), focus on the aspects of your culture that are universal to all team members, no matter where their work gets done.
+When growing your team in a hybrid-remote setting, be sure to present an authentic picture of your culture to all candidates. If you interview a candidate in your office when they'll primarily be working remotely, they're unlikely to get a full understanding of what the employee experience will be like once they're on board. This can lead to engagement and retention issues. During the [interview process](hiring/), focus on the aspects of your culture that are universal to all team members, no matter where their work gets done.
 
 ### Expect rapid iteration
 
@@ -179,19 +179,19 @@ We believe it's useful for transitioning companies to see *how* others are embra
 1. Dropbox - *[Virtual First Toolkit](https://experience.dropbox.com/virtual-first-toolkit)*
 1. Slack - *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
 1. Hubspot - *[How we're building a hybrid company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
-1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://blog.coinbase.com/building-a-remote-first-company-our-biggest-lessons-so-far-bac75adb650b)*
+1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://www.coinbase.com/blog/building-a-remote-first-company-our-biggest-lessons-so-far)*
 1. Herman Miller - *[The Future of Work: Looking Forward](https://www.hermanmiller.com/research/categories/white-papers/looking-forward)*
 
 ## Companies embracing hybrid-remote
 
-COVID-19 created a wave of companies intentionally shifting to remote-first. For some organizations, unwinding all of their office space and [becoming an all-remote organazation]({{< ref "./transition" >}}) is not practical. Many are announcing their plan to embrace some variation of hybrid-remote. This is not an exhaustive list, so we welcome additions and contributions.
+COVID-19 created a wave of companies intentionally shifting to remote-first. For some organizations, unwinding all of their office space and [becoming an all-remote organization](transition/) is not practical. Many are announcing their plan to embrace some variation of hybrid-remote. This is not an exhaustive list, so we welcome additions and contributions.
 
 1. HubSpot — *[The Future of Work at HubSpot: How We're Building a Hybrid Company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
 1. Dropbox — *[Dropbox goes Virtual First](https://blog.dropbox.com/topics/company/dropbox-goes-virtual-first)*
 1. Robinhood — *[Robinhood is a Remote First Company](https://blog.robinhood.com/news/2022/1/12/robinhood-is-a-remote-first-company)*
 1. Reddit — *[Evolving Reddit's Workforce](https://redditblog.com/2020/10/27/evolving-reddits-workforce)*
 1. Figma — *[How work is changing at Figma](https://www.figma.com/blog/how-work-is-changing-at-figma)*
-1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://blog.coinbase.com/post-covid-19-coinbase-will-be-a-remote-first-company-cdac6e621df7)*
+1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://www.coinbase.com/blog/post-covid-19-coinbase-will-be-a-remote-first-company)*
 1. Shopify — *[Digital by default](https://www.shopify.com/careers/work-anywhere)*
 1. Twitter — *[Where We Work](https://careers.twitter.com/en/locations.html)*
 1. Slack — *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
@@ -203,7 +203,7 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://blog.asana.com/2021/04/reuniting-teams)*
 1. LinkedIn - *[A Sneak Peek at LinkedIn's New Hybrid Workplace Plans](https://www.linkedin.com/business/talent/blog/talent-engagement/sneak-peek-at-linkedins-new-hybrid-workplace-plans)*
 1. DoorDash - *[DoorDash's Hybrid Work Plan: Committing to Flexibility](https://doordash.news/company/doordashs-hybrid-work-plan-committing-to-flexibility)*
-1. Uber - *[Our Return to the Office](https://www.uber.com/blog/our-return-to-the-office)*
+1. Uber - *[Our Return to the Office](https://www.uber.com/blog/our-return-to-the-office/)*
 1. Cisco - *[Cisco Powers Hybrid Work](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2179907)*
 1. Intel - *[Creating a "Hybrid-First" Company](https://www.intel.com/content/www/us/en/newsroom/opinion/creating-hybrid-first-company.html#gs.t85vm4)*
 1. Lyft - *[We're Going Fully Flexible](https://www.lyft.com/blog/posts/lyft-announces-fully-flexible-workplace)*
@@ -228,11 +228,11 @@ While this scenario may still be preferred over one where remote employees are *
 
 ### Better work-life balance
 
-Hybrid-remote employees can plan for more [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in their [daily life]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+Hybrid-remote employees can plan for more flexibility in their [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 
 ### Optimize when and where you work
 
-A hybrid-remote schedule is often asynchronous, allowing an individual to [choose their working hours]({{< ref "./people#worklife-harmony" >}}) based on when they are [most productive]({{< ref "./asynchronous" >}}).
+A hybrid-remote schedule is often asynchronous, allowing an individual to [choose their working hours](people/#worklife-harmony) based on when they are [most productive](asynchronous/).
 
 They can also [set up and decorate an office or workspace](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset) in whatever way [works best for them](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
 
@@ -244,7 +244,7 @@ Especially after the global pandemic, people are concerned about decreasing thei
 
 ### Save on real estate expenses
 
-Some hybrid-remote options allow employees to choose where they live. At any given time, they are free to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals]({{< ref "./resources#organizations-for-traveling-remote-work" >}}).
+Some hybrid-remote options allow employees to choose where they live. At any given time, they are free to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
 
 ### Hire talent across the globe
 
@@ -260,14 +260,14 @@ There are considerations when accepting a role in a hybrid-remote company, and i
 
 1. **Hybrid-remote employees may have less access to information**. Unless you work for an employer that [documents everything](/handbook/values/#write-things-down), you may be asked to handle your day-to-day duties with less information — and incomplete information — compared to in-person colleagues. Over time, this can lead to more mistakes, confusion, frustration, and even [underperformance]({{< ref "underperformance" >}}).
 1. **Fewer career and development opportunities**. Hybrid-remote employees who are out of sight may be [passed over](https://hbr.org/2017/11/a-study-of-1100-employees-found-that-remote-workers-feel-shunned-and-left-out) for promotions, advancement, and development [opportunities](https://news.ycombinator.com/item?id=15994294). They may also have fewer opportunities to more horizontally within the organization, and less influence to create a new role to serve evolving business needs.
-1. **The feeling of being a satellite office**. Hybrid-remote employees must put effort towards not being treated as less-than within the organization. It is important to surface relevant inquiries during the interview process as to how remote colleagues are [onboarded]({{< ref "./learning-and-development" >}}), included, and perceived by others. Some employees may not be fazed by this treatment, but it can take a mental and emotional toll on others.
+1. **The feeling of being a satellite office**. Hybrid-remote employees must put effort towards not being treated as less-than within the organization. It is important to surface relevant inquiries during the interview process as to how remote colleagues are [onboarded](learning-and-development/), included, and perceived by others. Some employees may not be fazed by this treatment, but it can take a mental and emotional toll on others.
 1. **Managing guilt**. It is not uncommon to hear remote workers [express guilt](https://www.glassdoor.com/blog/work-from-home-guilt) if they work in a company which is primarily colocated. Their socializing involves colleagues who may complain about commutes, or express sadness due to an inability to attend a certain family function. There are inherit inequalities in this arrangement, requiring the remote employee to empathize with in-person colleagues despite not being required to endure the same commutes and inflexibility.
 1. **The burden of lobbying for remote**. If an employee is brought on in a remote capacity, but this arrangement is not supported equally across teams and managers, a situation may arise where the remote employee is constantly justifying the perceived privilege of not being forced to commute into a physical office.
 1. **Determining whether remote is truly offered and supported**. Many large companies will tolerate remote employees, but they will not openly advertise roles as remote, nor will they publicly admit that they support remote work. This creates an exhausting game of hide-and-seek when searching for roles, in addition to searching for remote-friendly managers and teams *within* such an organization.
 1. **Risk of being made an example of**. It is possible for remote employees in a primarily colocated company to be asked questions like "So, how did you finagle a remote arrangement?" This places remote employees in a difficult situation. Either they choose to champion the cause of empowering even more colleagues to work remotely, potentially harming their reputation in the process, or they appear unhelpful by keeping the perceived perk to themselves.
 1. **Demands for overperformance**. When you're a remote employee working with colleagues who endure long commutes each day, you may encounter pressure — however subtle — to deliver results beyond those expected of in-person team members. This stems from a toxic culture of envy, where colocated employees deduce that if they must endure inflexibility and commutes, remote colleagues must produce additional results as to not get off easier.
-1. **A culture built around the in-office experience**. Companies that rely heavily on physical perks and in-office experiences to define their culture have a difficult time translating those experiences to their remote employees in a hybrid-remote setting. You'll often see these perks highlighted for talent acquisition and retention purposes. In practice, remote employees will inherently miss out on the full employee experience unless the culture is more [intentionally and sustainably built](./building-culture).
-1. **Physiological stress linked to open-plan offices**. Some hybrid-remote firms may require team members to work in open-plan office environments. [Research published in 2021 by Cambridge University](https://theconversation.com/open-plan-office-noise-increases-stress-and-worsens-mood-weve-measured-the-effects-162843) shows a "significant causal relationship between open-plan office noise and physiological stress." Working *anywhere* — home, office, etc. — can trigger stress if conditions are suboptimal, though all-remote generally provides greater flexibility to shift your [workspace]({{< ref "./workspace" >}}) from home, co-working venues, offices, and nature to optimize for [greater calm](https://youtu.be/bQMoF7oSh2o).
+1. **A culture built around the in-office experience**. Companies that rely heavily on physical perks and in-office experiences to define their culture have a difficult time translating those experiences to their remote employees in a hybrid-remote setting. You'll often see these perks highlighted for talent acquisition and retention purposes. In practice, remote employees will inherently miss out on the full employee experience unless the culture is more [intentionally and sustainably built](building-culture/).
+1. **Physiological stress linked to open-plan offices**. Some hybrid-remote firms may require team members to work in open-plan office environments. [Research published in 2021 by Cambridge University](https://theconversation.com/open-plan-office-noise-increases-stress-and-worsens-mood-weve-measured-the-effects-162843) shows a "significant causal relationship between open-plan office noise and physiological stress." Working *anywhere* — home, office, etc. — can trigger stress if conditions are suboptimal, though all-remote generally provides greater flexibility to shift your [workspace](workspace/) from home, co-working venues, offices, and nature to optimize for [greater calm](https://youtu.be/bQMoF7oSh2o).
 
 ## Overcoming the hybrid-remote model's problems
 
@@ -275,7 +275,7 @@ Clear communication is one of the best ways to overcome hybrid-remote challenges
 
 Each department and team should set, share, and track both monthly and quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs). GitLab's OKRs are also clearly documented in our handbook for visibility across the company.
 
-Our unique approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}) by putting everything they need to know in one place.
+Our unique approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members](learning-and-development/) by putting everything they need to know in one place.
 
 Finally, we recommend developing an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). Hosting a panel, like our [GitLab 101](/handbook/company/culture/gitlab-101), allows new hires to ask questions.
 
@@ -302,11 +302,11 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%"}
 
-The [movement]({{< ref "./stages" >}}) from hybrid-remote to all-remote is defined at GitLab as an `All-Remote Upgrade`. For reference, in January 2020, 17% of new hires attending the [CEO 101 call](/handbook/company/culture/gitlab-101) moved from a hybrid-remote model to all-remote at GitLab.
+The [movement](stages/) from hybrid-remote to all-remote is defined at GitLab as an `All-Remote Upgrade`. For reference, in January 2020, 17% of new hires attending the [CEO 101 call](/handbook/company/culture/gitlab-101) moved from a hybrid-remote model to all-remote at GitLab.
 
-This highlights another reality: [not all remote models are equal](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), nor do they create [equality](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities). All-remote is the [purest](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies) form of remote work, where every individual is treated as a [first-class team member]({{< ref "./people" >}}).
+This highlights another reality: [not all remote models are equal](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), nor do they create [equality](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities). All-remote is the [purest](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies) form of remote work, where every individual is treated as a [first-class team member](people/).
 
-Through GitLab's [All-Remote Stories]({{< ref "./stories" >}}) and the [Remote Work GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc), you can learn more from GitLab team members on what all-remote has meant to them and how it has shaped their lives and communities.
+Through GitLab's [All-Remote Stories](stories/) and the [Remote Work GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc), you can learn more from GitLab team members on what all-remote has meant to them and how it has shaped their lives and communities.
 
 ## Differences between all-remote and remote-first
 
@@ -320,8 +320,8 @@ If you're considering working for a remote-first company, consider asking the fo
 1. Does the executive team work remotely, or do they all congregate in the same physical space day-to-day?
 1. Where and how are all-hands calls handled?
 1. Are interviews and onboarding handled on-premise or via video call?
-1. Do team members have [hybrid calls]({{< ref "communication#hybrid-calls-are-horrible" >}}), or does each person have their own equipment?
-1. What procedures are in place to ensure that remote employees are granted [learning and development]({{< ref "./learning-and-development" >}}) and promotion opportunities?
+1. Do team members have [hybrid calls](/handbook/communication/#hybrid-calls-are-horrible), or does each person have their own equipment?
+1. What procedures are in place to ensure that remote employees are granted [learning and development](learning-and-development/) and promotion opportunities?
 
 It is possible to find remote-first companies with a healthy, understanding culture that works to support both colocated and remote colleagues. Prospective employees should do their own due diligence to make sure the requisite values are established and lived out.
 

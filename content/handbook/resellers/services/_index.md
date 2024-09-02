@@ -12,7 +12,7 @@ To that end, we've mapped out our Partner Capabilities Journey that aligns types
 
 ### **Partner Capabilities Journey**
 
-![Partner Capabilities Journey](./images/Partner_Capabilities_Journey-1.1.png)
+![Partner Capabilities Journey](images/Partner_Capabilities_Journey-1.1.png)
 
 #### **Walk**
 

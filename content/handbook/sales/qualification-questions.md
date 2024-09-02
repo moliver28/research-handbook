@@ -62,12 +62,12 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
     - Microservices
     - Kubernetes
     - What tools do you use for project management?
-- What platforms/clouds are you deploying to?  (AWS/GCP/Azure/VMware/Openshift/other)
+- What platforms/clouds are you deploying to?  (AWS/GCP/Azure/VMWare/Openshift/other)
   - If AWS are you deploying to EC2, ECS, EKS, Fargate, or Lambda
   - If GCP are you deploying to GCE, GKE, App Engine, or Cloud Run
   - If Azure are you deploying to VMs, AKS, Functions
 - How would you describe your maturity level/progress with continuous integration and continuous delivery Is this something your group and company want to improve upon?
-- How are you using GitLab CE right now? (note: if applicable--check https://version.gitlab.com/ to identify if their company is on CE)
+- How are you using GitLab CE right now? (note: if applicable--check <https://version.gitlab.com/> to identify if their company is on CE)
 - Are other groups using Git? If no, why not and what Version Control System(s) are they using? If yes, what are they using?
 - How is security testing currently done in your organization?
 - What is the current process for finding vulnerabilities around Static Application Security Testing, Dependency Scanning, and/or License Compliance?
@@ -206,7 +206,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How many tools do you have to use to understand current status? How long does that take? How does that affect your teams?
   - If this line of questioning reveals challenges in lack of visibility across the DevOps toolchain, position GitLab Premium's [Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/index.html#doc-nav) which provides a holistic view of the overall health of an organization's operations
 - How would you assess your level of confidence in how your organization currently manages software deploys? Are there any risks you wish you could mitigate? If so, what are they and why? GitLab Premium offers a multitude of capabilities to allow organizations to deploy with confidence including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
-  - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/multi_project_pipelines.html) - Link CI pipelines from multiple projects to deliver integrated solutions
+  - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines) - Link CI pipelines from multiple projects to deliver integrated solutions
   - [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html) - Establish controls and limit the access to change specific environments
 
 #### Manage Development
@@ -222,8 +222,8 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
   - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_events.html) - Review changes by user and track access
   - [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html) - Read-only access to all projects, groups, and other resources on the GitLab instance
   - [Merge Request Reviews](https://docs.gitlab.com/ee/user/discussions/index.html#merge-request-reviews) - Draft multiple comments in a merge request code review and review/resolve comments together
-  - [Verified Committer](https://docs.gitlab.com/ee/push_rules/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
-  - [Require Signed Commits](https://docs.gitlab.com/ee/push_rules/push_rules.html#enabling-push-rules) - Enforce policy to require signed commits from contributors
+  - [Verified Committer](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
+  - [Require Signed Commits](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Enforce policy to require signed commits from contributors
 
 ### Discovery Questions for GitLab Ultimate
 

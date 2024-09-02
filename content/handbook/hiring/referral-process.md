@@ -65,7 +65,7 @@ As we continue to scale, so does the volume of referrals we receive. Referrals a
 1. Confirmed they live in a location we can hire in by checking the [Country Hiring Status](https://comp-calculator.gitlab.net/hiring_status/index) page in the Comp Calculator. If the country is **not** listed or is marked as `Not Open for Hiring`, we will have to reject the candidate so unfortunately they cannot be referred.
 1. Communication with the Referral
     - You have informed the person that you are referring them.
-1. Detailed Referral Description
+1. Candidate [referred through Greenhouse](/handbook.gitlab.com/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse) with a Detailed Referral Description
 
 - *Must complete* required fields, including a comprehensive description of how you know the candidate you are referring and why they are aligned to the role with GitLab. Provide detailed information such as specific qualifications, skills and relevant experiences that make the candidate a strong match for the specific role. The fields are:
     1. How do you know this person?
@@ -107,7 +107,7 @@ To see what positions are available to submit an external candidate for please v
 
 #### Referral Statuses
 
-You can stay up-to-date on the status of your referral(s) in the **My Referrals** section of your Greenhouse dashboard. If you have any questions regarding your referral, please send an email to the `referrals@gitlab.com`or post in the #talent-acquisition Slack channel and the relevant Recruiter will DM you. Please note that the Talent Acquisition Team is **unable** to provide candidate-specific feedback to Referrers (i.e you); only to the Candidate themselves. You can expect Referrals to be reviewed by the Hiring Team within **5 business days** of their submission.
+You can stay up-to-date on the status of your referral(s) in the **My Referrals** section of your Greenhouse dashboard. If you have any questions regarding your referral, please send an email to the `referrals@gitlab.com`or post in the #talent-acquisition Slack channel and the relevant Recruiter will DM you. Please note that the Talent Acquisition Team is **unable** to provide candidate-specific feedback to Referrers (i.e you); only to the Candidate themselves at later interview stages according to our typical feedback process. Due to the volume of submissions we receive and to treat all candidates fairly, we are unable to provide feedback on resume submissions; only post-interview. You can expect Referrals to be reviewed by the Hiring Team within **5 business days** of their submission.
 
 Although we place special emphasis on Referrals, we treat Referral interviews the same as we do non-Referrals. Referral interviews should not be more or less demanding than any other interview.
 

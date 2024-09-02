@@ -27,7 +27,7 @@ Most roles that require higher performance machines are approved for a 14" or 16
 ### Standard MacBook Model
 
 - MacBook Pro 14"
-- M3 Pro Processor (8c CPU, 10c GPU, 16c Neural)
+- M3 Processor (8c CPU, 10c GPU, 16c Neural)
 - 16GB Memory
 - 512GB Storage
 
@@ -65,7 +65,7 @@ If you are adamant on using a Linux machine, we approve Linux laptops for the fo
 
 ### Linux Hardware Models
 
-We have standardized on the [Dell Precision 5560/5570](https://www.dell.com/en-us/shop/laptops/new-15-5560-workstation/spd/precision-15-5570-laptop) Mobile Workstation laptops.
+We have standardized on the [Dell Precision 5690](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp) Mobile Workstation laptops.
 
 These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses. Dell do not currently sell laptops pre-installed with Linux in Australia and New Zealand; staff will need to install Linux themselves.
 
@@ -83,8 +83,8 @@ Due to supply constraints, specific models available may vary. Due to custom ord
 
 We will work with each person to find an available model meeting the following specifications:
 
-- 15.6" Display
-- Intel i9 CPU
+- 16" Display
+- Intel i9 CPU or equivalent 
 - 512GB SSD
 - 32GB Memory
 

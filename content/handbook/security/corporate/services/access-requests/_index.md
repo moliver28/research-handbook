@@ -51,7 +51,7 @@ If you have any access requests related questions, please reach out to `#it_help
   - [Shared Account Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Shared_account_access_request)
   - [External access to Greenhouse through Okta](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Okta_Access_Greenhouse_External)
 - Demo Accounts and Licenses
-  - [Shared Omnibus Instance](https://about.gitlab.com/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) - powered by Demo Systems
+  - [Shared Omnibus Instance](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) - powered by Demo Systems
   - [GitLab SaaS Ultimate License for User Account](https://docs.google.com/forms/d/e/1FAIpQLSddexI8VZTCiyxme1_7QtbQZ6WoIJRlHdaI2Gi6PD8Eti-DLQ/viewform)
   - [GitLab SaaS Ultimate License for (Demo/Test) Group](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request)
   - [GitLab Self Managed License](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request)
@@ -63,8 +63,8 @@ If you have any access requests related questions, please reach out to `#it_help
   - [Other API Token Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=API_Token_Request)
 - Tech Stack
   - [Okta new application setup](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request)
-  - [Add application to tech stack](https://about.gitlab.com/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack)
-  - [Update tech stack metadata](https://about.gitlab.com/handbook/business-technology/tech-stack-applications/#update-tech-stack-information)
+  - [Add application to tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack)
+  - [Update tech stack metadata](/handbook/business-technology/tech-stack-applications/#update-tech-stack-information)
   - [Update tech stack provisioner](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Update_Tech_Stack_Provisioner)
   - [Remove application from tech stack](https://gitlab.com/gitlab-com/business-technology/business-technology/-/issues/new?issuable_template=offboarding_tech_stack)
 
@@ -76,7 +76,7 @@ If you have any access requests related questions, please reach out to `#it_help
 
 - These templates cannot be edited to remove or add extra permissions once created, unless those changes are approved by a manager (or higher) of the team the role belongs to. Note that an approval is still required even if a change comes from a manager or higher on a baseline entitlement template to mitigate the risk of a permission change being pushed through by a single team member.
 
-- We have decided to remove all SOX applications from the Role-Based Entitlements templates.  Therefore, any access that is requested for our SOX-in-scope systems should follow the standard A/R process outlined here in our [handbook](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).  The impact to you is for any access going forward that was granted automatically via a role based entitlement will now need to be requested via a standard A/R so we can ensure approvals are properly captured.
+- We have decided to remove all SOX applications from the Role-Based Entitlements templates.  Therefore, any access that is requested for our SOX-in-scope systems should follow the standard A/R process outlined here in our [handbook](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).  The impact to you is for any access going forward that was granted automatically via a role based entitlement will now need to be requested via a standard A/R so we can ensure approvals are properly captured.
 
 - Please note when editing an existing template or creating a new one do not include access of any kind to a rolebased access template.  Full listing of SOX applications can be found [here](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
 

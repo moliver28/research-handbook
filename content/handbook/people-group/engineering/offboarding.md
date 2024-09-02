@@ -13,7 +13,7 @@ Note: this section only discusses items in the offboarding where People Engineer
 
 ```mermaid
 graph TD
-  A[Offboarding is logged into the tracker] --> |All offboardings| B
+  A[Offboarding is approved in Workday] --> |All offboardings on last day of Work| B
   A --> |When the offboarding is voluntary| G
   B[Offboarding issue is created, manager is assigned] --> C
   C[Offboarding merge request is created] --> D
@@ -21,6 +21,8 @@ graph TD
   G[Informational email is sent to the departing team member] --> |2 days before departure| H
   H[Slack message is sent to the departing team member]
 ```
+
+> Terminations will be processed within a valid offboarding window for the day, according to the team members current timezone of their primary address in Workday. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
 
 ## Automations
 
@@ -32,16 +34,23 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 ### Scheduled offboarding issue creation
 
-Every 15 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST).
+Every 15 minutes, a pipeline scans Workday for any terminations.
 
-- Involuntary offboardings will be opened as soon as they are available.
-- Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding
-  - Monday - Thursday @ 4pm
-  - Friday @ 12pm
+Offboardings will be opened in the respective team members offboarding window for the day. This checks their timezone from Workday to find a *local* time to start the offboarding.
+
+- Monday - Thursday from 4:00pm to 5:00pm
+- Friday from 12:00pm to 1:00pm
 
 For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 
 The manual process is kept as a backup process should the automation fail or for exceptional cases where a team member offboarding cannot be added to the offboarding spreadsheet.
+
+After the offboarding issue has been created, we send a follow up message to the `#offboardings` Slack channel contianing the team members name, last day of work, and a link to the opened offboarding issue.
+
+<details>
+  <summary>Automation Overview</summary>
+  <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/982e697f-797d-426e-ac2a-6065b8422460" id="_t~UzrcpTEIj"></iframe></div>
+</details>
 
 ### Manually initiated offboarding issue creation
 

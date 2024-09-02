@@ -35,8 +35,8 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
     - If you need to do a PO Change Request (e.g. to add funds in your current PO), please refer to this [video tutorial](https://www.loom.com/share/c932bc6308fd46939766dee333ca8401) from Procurement Team.
     - Vendors can process their invoice in their Coupa Supplier Portal using the PO Flip method. On this [link](https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/coupa-supplier-portal/set-up-the-csp/invoices/create-or-edit-an-invoice) please find **"Create an invoice from a PO"** for the video tutorial.
     - Vendors can also send their invoices to AP@gitlab.com. PO numbers are required to be reflected on the invoice copy or in the email body to avoid delays in processing.
-    - For Non-PO invoices sent by Gitlab DRI, please indicate the department to be charged instead and the Coupa approver.
-    - If the invoice is received without a PO, the AP Team will reach out to the Gitlab DRI and request to create a PO. Once the PO is created, DRI must email the AP Team for the PO number to proceed with processing.
+    - For Non-PO invoices sent by GitLab DRI, please indicate the department to be charged instead and the Coupa approver.
+    - If the invoice is received without a PO, the AP Team will reach out to the GitLab DRI and request to create a PO. Once the PO is created, DRI must email the AP Team for the PO number to proceed with processing.
     - External Supplier Forms are to be final approved by AP Team so that the vendor will be activated in Coupa, to provide our final approval, the vendor must comply with these two important documents so we can properly check the supplier form in our queue.
         - W9 for US vendors and W8 for NON US vendors
         - Bank details in a signed bank letterhead
@@ -63,7 +63,7 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
         - BSB Code: (For Australia)
     - For Speaker Reimbursement, kindly advise the related PO of the event that the speaker attended as we will align the recording of the expense same as the PO. The PO details can be indicated on the reimbursement template or in the email.
 
-## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fas fa-receipt"></i> Accounts Payable Payments
+## <i class="fas fa-receipt"></i> Accounts Payable Payments
 
 - The first step to getting an invoice paid is to review the appropriate [procurement process](/handbook/finance/procurement/).
 - Make note that invoices are paid per the due date on the invoice or per the vendors payment terms in their contract, whichever comes first.
@@ -77,18 +77,18 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
   - Interview Candidate Reimbursement
   - BOD Reimbursement
 
-## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fas fa-receipt"></i> Coupa Virtual Card
+## <i class="fas fa-receipt"></i> Coupa Virtual Card
 
 GitLab's preferred method of payment for suppliers is electronic funds transfer with supplier invoice provided as supporting documentation. In the instances where this option is not available with the supplier, [Virtual Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/), which is a temporary credit card, can be used as an alternative payment method.
 
-## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fab fa-gitlab fa-fw"></i> Fedex
+## <i class="fab fa-gitlab fa-fw"></i> Fedex
 
 - When needing to send a package on behalf of GitLab our main courier account is with FedEx.
 - The first step is to contact AP in the #AccountsPayable channel to request the corporate account number.
 - When sending a package **the Shipper MUST put their name under GitLab Inc in the sender field, or their full Cost Center for ex. Marketing - Field Marketing.** If you are unsure of your full cost center please go into your Workday application (click Profile icon > click Job > select Organization . look for Cost Center).
 - Anyone failing to provide the correct information which will hinder AP's ability to properly code courier charges will not be allowed to use the company account in the future.
 
-## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fab fa-gitlab fa-fw"></i> Global Travel and Expense
+## <i class="fab fa-gitlab fa-fw"></i> Global Travel and Expense
 
 - Please review the page on [Spending Company Money](/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab's [Expense policy](/handbook/finance/expenses/).
 - GitLab utilizes **Navan Travel** for all travel related Flights, Hotels, Train Travel and Vehicle Rental bookings and **Navan Expense** for all Employee reimbursable expenses.

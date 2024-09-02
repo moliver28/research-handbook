@@ -29,7 +29,7 @@ The process is comprised of five key stages:
     1. Company overview including team, products, financials, and funding
     1. Discuss which features could accelerate GitLab's roadmap
     1. Review the GitLab acquisition process including deal terms, as appropriate ([acquisitions handbook](/handbook/acquisitions/))
-    - TARGET TEAM: Ahead of this call please review our [roadmap](https://about.gitlab.com/direction/) and outline which of your current and future product features can be implemented into GitLab's product categories. Outline a simple integration timeline for those features, considering an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc) release on the first month after joining GitLab and monthly releases following with quick iterations.
+    - TARGET TEAM: Ahead of this call please review our [roadmap](https://about.gitlab.com/direction/) and outline which of your current and future product features can be implemented into GitLab's product categories. Outline a simple integration timeline for those features, considering an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) release on the first month after joining GitLab and monthly releases following with quick iterations.
 1. Share call summary Initial Acquisition Review Template (located in the Corp Dev shared drive under Acquisition Templates - GitLab internal-only) of companies that are aligned with GitLab's acquisition strategy ("Qualified Pipeline") with relevant product lead.
     - Create a new, private Slack channel (format: `#acq-company_name`) and add the internal GitLab document ("Main Acquisition Document") to the topic. Add Chief Product Officer (CPO) and the relevant product and engineering leaders to help with the initial assessment of the opportunity.
 1. Product call: If the [Product Champion](/handbook/acquisitions/acquisition-process/#acquisition-team) sees a potential fit and wants to proceed, set up an initial 90-minute product call to dive into the product and tech. The call must include the Product champion and may also include Stage Leaders and specific Product Managers relevant to the call. [Stage Leaders and Product Managers](/handbook/product/categories/#devops-stages) should keep in mind the early stage of this evaluation and attempt to think expansively about how the potential acquisition could be additive to GitLab. The agenda for the call is:
@@ -125,6 +125,7 @@ The process is comprised of five key stages:
     1. Deal Milestones:
         1. We aim to set 3 milestones at 2, 4 and 6 months from joining GitLab, to provide a concise set of goals which should cover the bulk of our product interest in the target company
         1. Milestones should be articulated as objectives as opposed to tasks. The structure of defining milestones should resemble that of OKRs, with each milestone having an objective and then a few key results which will be required to achieve the objective. This will help target companies focus on driving the objectives and not be tied to, and concerned with, a specific task as changes are likely to occur once integration work starts. The milestones outline the objectives to facilitate the work required in achieving the roadmap advancement the deal was identified with delivering. Each milestone should be broken down to the keys required to complete in order to achieve success for the milestone's objective.
+            1. Include GitLab Legal on Milestone formation discussion threads and synchronous calls to help ensure that Milestone language is meets GitLab Legal's level of specificity and clarity.
         1. First milestone shipped within 60 days of joining GitLab:
             1. Accounting for 3 weeks of onboarding, targets will ship the first milestone 5 weeks following the end of the onboarding period
             1. Critical to adopting our culture and successful future integration of the target's engineering team in GitLab
@@ -179,9 +180,9 @@ The process is comprised of five key stages:
             1. Link to final version of APA
 1. The Corporate Development Champion will coordinate the signing and closing of the deal
 
-### [Integration](/handbook/acquisitions/acquisition-process/integration/)
+### Integration
 
-The Corporate Development team is responsible for overseeing and facilitating the post-closing integration, working closely with Legal, Product, Engineering, People, Finance, and other GitLab divisions as appropriate. The DRI is the Senior Director Corporate Development.
+The Corporate Development team is responsible for overseeing and facilitating the post-closing [integration](/handbook/acquisitions/acquisition-process/integration/), working closely with Legal, Product, Engineering, People, Finance, and other GitLab divisions as appropriate. The DRI is the Senior Director Corporate Development.
 
 The integration process is outlined in our [acquisition integration page](/handbook/acquisitions/acquisition-process/integration/).
 

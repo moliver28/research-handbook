@@ -2,6 +2,8 @@
 title: "Board of Directors and Corporate Governance"
 ---
 
+**This page is intended to capture GitLab Board practices, but we evolve these over time and the page may not capture all changes. The source of truth for Board details is GitLab's [Investor Relations site](https://ir.gitlab.com/corporate-governance/documents-charters).**
+
 ## Board and Committee Composition
 
 ### Board of Directors
@@ -11,16 +13,11 @@ title: "Board of Directors and Corporate Governance"
 
 ### Audit Committee
 
-- **Chairperson:** Karen Blasing
-- **Members:**  Sunny Bedi
-- **Management DRI:** Chief Financial Officer
-- **Internal Management Members:** Chief Legal Officer, Chief Executive Officer
-
-> [Audit Committee Charter](/handbook/board-meetings/committees/audit/)
+> [Audit Committee Charter](https://ir.gitlab.com/static-files/f8d37e2d-d022-4194-996f-6d194cd02173)
 
 **Meeting Process**
 
-The Sr EBA to the CFO is the DRI of scheduling the quarterly Audit Committee meeting in conjunction with the Chairperson, Management DRI and their Sr. EBA
+The Staff EBA to the CFO is the DRI of scheduling the quarterly Audit Committee meeting in conjunction with the Chairperson, Management DRI and their Sr. EBA
 
 1. Timing: 2-3 weeks prior to the formal Board of Directors Meeting
 1. Duration: 110min (Q1-Q3) 140min (Q4)
@@ -37,12 +34,7 @@ Audit Committee meetings are attended by:
 
 ### Compensation and Leadership Development Committee
 
-- **Chairperson:** Sue Bostrom
-- **Members:** Matthew Jacobson, Merline Saintil
-- **Management DRI:** Chief People Officer
-- **Internal Management Members:** Chief Executive Officer, Chief Financial Officer, Chief Legal Officer (equity compliance)
-
-> [Compensation and Leadership Development Committee Charter](/handbook/board-meetings/committees/compensation/)
+> [Compensation and Leadership Development Committee Charter](https://ir.gitlab.com/static-files/d9cd5181-7886-4cac-8fcf-3bb9b69ce71f)
 
 **Meeting Process**
 
@@ -63,11 +55,7 @@ Compensation and Leadership Development Committee meetings are attended by:
 
 ### Nominating and Corporate Governance Committee
 
-- **Chairperson:** Matthew Jacobson
-- **Members:** Sue Bostrom, Godfrey Sullivan
-- **Management DRI:** Chief Legal Officer
-
-> [Nominating and Corporate Governance Committee Charter]({{< ref "nomgov" >}})
+> [Nominating and Corporate Governance Committee Charter](https://ir.gitlab.com/static-files/549b448d-bfd0-47cc-aa47-373121eff49e)
 
 **Meeting Process**
 
@@ -121,15 +109,10 @@ Board meetings can happen remotely or in-person. We establish the meeting calend
 
 ## Board Meeting Schedule
 
-1. Board of Directors meetings are held quarterly and they are all remote; everyone joins with their own video conference setup from a separate location.
+1. Board of Directors meetings are held quarterly.
 1. Meetings are scheduled on/around the Thursday 6 weeks after the end of the quarter, assuming availability of the Directors.
-1. The 2024 schedule of Board meetings is as follows:
-   - 2024-03-28
-   - 2024-06-27
-   - 2024-09-26
-   - 2024-12-12
 
-The Staff EBA to the CEO shall ensure that there are separate calendar invites for all attendees within each session, all including exact session start and end times, the appropriate Zoom link, and links to the agenda document. Any supplemental materials are required to be linked in the agenda document for each session:
+The Staff EBA to the CEO shall ensure that there are separate calendar invites for all attendees within each session, all including exact session start and end times, the appropriate Zoom link, and links to the agenda document. Any supplemental materials are required to be linked in the agenda document for each session. This is the outline of a past agenda, but we adapt agenda based on what is important to discuss:
 
 - Session 1: Closed Session (Part 1)
   - Duration: 15 minutes
@@ -156,35 +139,34 @@ The Staff EBA to the CEO shall ensure that there are separate calendar invites f
 1. 7 weeks before the Board meeting, the Lead Independent Director will reach out to the Board via email to discuss agenda topics.
 1. 6 weeks before the Board meeting, the Lead Independent Director, CEO, and CFO will have a meeting to discuss and finalize the agenda. Once finalized, the CFO will share the agenda with E-Group.
 1. The CFO sends a reminder to the E-Group 3 weeks in advance of the meeting.
-1. The CoS to the CEO shares the CEO Memo with E-Group for comments or edits 8 days prior to the Board Meeting.
 1. The E-Group has the complete presentation materials ready 10 business days prior to the meeting. All materials are submitted to the CLO and CFO for review within 48 hours of receipt.
-1. Once approved by the CLO and the CFO, the CFO authorizes the Corporate Paralegal to upload the materials into Nasdaq Boardvantage (NBV) and attach them to the corresponding NBV Meeting. All presentations and content should be finalized at this time with no further changes. The Corporate Paralegal is responsible for ensuring parity between the NBV Meeting and calendar invite. The Senior EBA to the CFO is responsible for the sharing settings on all materials. Materials should be shared with the E-Group, the Board (not via the @board alias), Board Observers, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping. The deadline for the document upload is 2p PT 7 days before the Board meeting.
-1. The Senior EBA to the CFO is responsible for linking all materials in the agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
+1. Once approved by the CLO and the CFO, the CFO authorizes the Corporate Paralegal to upload the materials into Nasdaq Boardvantage (NBV) and attach them to the corresponding NBV Meeting. All presentations and content should be finalized at this time with no further changes. The Corporate Paralegal is responsible for ensuring parity between the NBV Meeting and calendar invite. The Staff EBA to the CFO is responsible for the sharing settings on all materials. Materials should be shared with the E-Group, the Board (not via the @board alias), Board Observers, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping. The deadline for the document upload is 2p PT 7 days before the Board meeting.
+1. The Staff EBA to the CFO is responsible for linking all materials in the agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
 1. 7 days before the meeting, the CFO emails the Board notifying them that the materials are ready for review in NBV and includes any highlights or asks within the email.
-1. The CFO is the DRI for the Administrative deck and will share this with the CLO, the Corporate Paralegal, the Senior EBA to CFO, and the Staff EBA to the CEO at least 1 week before the Board meeting. The Corporate Paralegal will upload the materials into NBV and then the CFO will notify the Board of their availability for review in NBV 4 business days prior to the Board meeting.
-1. The day before the Board meeting, the Senior EBA to the CFO ensures that the Introduction section of the agenda is up to date with the latest attendees and ensures that the agenda document is up to date. Questions from the Board are added directly to the agenda document and are verbalized during the meeting.
+1. The CFO is the DRI for the Administrative deck and will share this with the CLO, the Corporate Paralegal, the Staff EBA to CFO, and the Staff EBA to the CEO at least 1 week before the Board meeting. The Corporate Paralegal will upload the materials into NBV and then the CFO will notify the Board of their availability for review in NBV 4 business days prior to the Board meeting.
+1. The day before the Board meeting, the Staff EBA to the CFO ensures that the Introduction section of the agenda is up to date with the latest attendees and ensures that the agenda document is up to date. Questions from the Board are verbalized during the meeting.
 1. The CFO is responsible for ensuring that the Board meeting runs according to the time allotted.
 1. The CLO is responsible for maintaining the Minutes of the meeting and submitting for Board approval.
 1. The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
-1. The Senior EBA to the CFO updates the Next Meeting's Timeline section of this page.
+1. The Staff EBA to the CFO updates the Next Meeting's Timeline section of this page.
 1. The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
 
 #### Next Meeting's Timeline
 
 This section is updated after every Board Meeting by the Staff EBA to the CFO for the next Board Meeting.
 
-1. Meeting is scheduled for 2024-06-27.
-1. 2024-05-06 - The Lead Independent Director will reach out to the Board to discuss agenda items.
-1. 2024-05-14 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
-1. 2024-06-03 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down]
-1. 2024-06-13 - The E-Group has the completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
-1. 2024-06-20 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
-1. 2024-06-20 - The Staff EBA to the CFO is responsible for linking all materials in the Google document agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
-1. 2024-06-20 - The Staff EBA to the CFO ensures that the Introduction and Materials section of the agenda is up to date with the latest attendees and ensures that the agenda document is locked to further questions 24 hours before the meeting is set to begin. Questions can still be raised verbally during the meeting.
-1. 2024-06-27 - Board of Directors Meeting; CFO ensures the meeting runs according to the time allotted.
-1. 2024-07-01 - The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
-1. 2024-07-01 - The Staff EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in September 2024.
-1. 2024-07-02 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
+1. Meeting is scheduled for 2024-09-26.
+1. 2024-08-05 - The Lead Independent Director will reach out to the Board to discuss agenda items.
+1. 2024-08-13 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
+1. 2024-09-03 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down]
+1. 2024-09-12 - The E-Group has completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
+1. 2024-09-19 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
+1. 2024-09-19 - The Staff EBA to the CFO is responsible for linking all materials in the Google document agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
+1. 2024-09-19 - The Staff EBA to the CFO ensures that the Introduction and Materials section of the agenda is up to date with the latest attendees.
+1. 2024-09-26 - Board of Directors Meeting; CFO ensures the meeting runs according to the time allotted.
+1. 2024-09-30 - The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
+1. 2024-09-30 - The Staff EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in September 2024.
+1. 2024-10-01 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
 
 #### Board Materials
 
@@ -192,7 +174,7 @@ GitLab uses Nasdaq's Boardvantage (NBV) portal for the electronic dissemination 
 
 For a more detailed overview of navigating the NBV portal, please click here to view the [Internal Reference Guide](https://docs.google.com/document/d/1O10S3JXA5W_Zj1WlvMWyb3welm4jLAHxrurY493U0IU/edit#heading=h.cyhfykp20l6r).
 
-### Agenda
+### Agenda Details
 
 1. Key Board material is presented during Board Meeting sessions. This includes:
    - E-Group and CEO memos
@@ -208,7 +190,7 @@ For a more detailed overview of navigating the NBV portal, please click here to 
 
 We usually have a Board Dinner on the evening before a Board Meeting. The EBA to the CEO is responsible for coordinating this dinner. Board Members, Local E-Group members, and the CoS to the CEO are all optional attendees. Bios for attendees of the Board Dinner should be sent by the EBA to the CEO 3 business days in advance of the Board Dinner.
 
-Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an additional team member as a Key Talent Guest. If this is desired in a specific quarter, at least a month before the dinner, the CoS to the CEO will gather nominations and ensure that E-Group has identified an invitee. Criteria for consideration includes:
+Each quarter, E-Group can choose to invite an additional team member as a Key Talent Guest. If this is desired in a specific quarter, at least a month before the dinner, the CoS to the CEO will gather nominations and ensure that E-Group has identified an invitee. Criteria for consideration includes:
 
 1. [Key Talent](/handbook/people-group/talent-assessment#key-talent)
 1. High performance
@@ -218,7 +200,7 @@ Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an
 
 Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
 
-GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines]({{< ref "travel#policy-and-guidelines" >}}).
+GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines](/handbook/finance/travel/#policy-and-guidelines).
 
 As part of joining the dinner, the Key Talent Guest should come prepared to discuss:
 
@@ -239,51 +221,17 @@ Past and future Key Talent Dinner Guests are listed below.
 | 2022-03-21 | [Christine Lee](https://gitlab.com/christinelee) |
 | 2022-12-12 | [Sherida McMullan](https://gitlab.com/sheridam) |
 
-## Board Recaps
-
-Board Members often engage with team members on individual topics. Examples include conversations around security, development priorities, or sales pipeline. When this happens, and a subset of Board Members are involved, the E-Group leader responsible for a specific topic should provide a brief, email recap to all Board Members. When the information can be shared with all of E-Group, the individual email addresses of E-Group members should be CCed. When the information cannot be shared with all of E-Group, folks who should have context within E-Group should be CCed. This helps to ensure that all Board Members and relevant E-Group members are kept in the loop.
-
-The Board Recap should include the following:
-
-1. The objective of the meeting
-1. Attendees, including titles
-1. Key takeaway. This should include any big decisions made in the conversation or changes that result from it
-1. A brief summary of what was discussed
-
-We don't include links to the handbook or full meeting notes as Board Recaps are designed to give the Board Members a quick overview. Emails can be sent from E-Group Members to board@gitlab.com. **Note:** a limited group of GitLab team members, including E-Group team members, have the permissions required for reaching the Board through this email alias. The Board cannot email e-group@gitlab.com directly, so individual team member email addresses should be added on Board correspondence.
-
-## Board Deep Dives
-
-Board Members may request additional time for a deep dive on a specific topic. This ask often occurs during a Board Meeting. In these instances, the E-Group owner most responsible for the topic is the DRI for preparing for and scheduling the follow up conversation. The Board Members who asked for the meeting should be in attendance. All Board Members should be added to the invite as optional. These meetings should usually be scheduled for 50 minutes. When appropriate, these meetings should be recorded and posted to the NBV portal. The loop should always be closed with a [Board Recap](#board-recaps) to the entire Board.
-
 ## Quarterly AMA with the Board
-
-We will have one Board member per quarter conduct an AMA (Ask Me Anything) session with the GitLab team. AMA's are 25 minutes and live streamed to GitLab Unfiltered on YouTube. These AMA's are scheduled by the Staff EBA to the CEO.
-
-- [David Hornik's AMA](https://www.youtube.com/watch?v=LwZNbF6_PX0%C2%A0)
 
 ## Board Selection Process
 
 ### Roles and Responsibilities
 
-- [Nominating and Corporate Governance Committee](#nominating-and-corporate-governance-committee) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
-- CEO and Selected Members of [E-Group]({{< ref "structure#e-group" >}}) - Meet and vet potential new board members; provide feedback on candidates.
+- [Nominating and Corporate Governance Committee](https://ir.gitlab.com/static-files/549b448d-bfd0-47cc-aa47-373121eff49e) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
+- CEO and Selected Members of E-Group also meet and vet potential new Board members; provide feedback on candidates.
 - [CLO](/job-families/legal-and-corporate-affairs/chief-legal-officer) - Nominating and Corporate Governance Committee DRI.
 - [CEO's Staff Executive Business Administrator](/job-families/people-group/executive-business-administrator) - DRI for Board and Committee scheduling.
 - [Executive Recruiter](/job-families/people-group/executive-recruiter) - Responsible for drafting communication to potential Board members as well as drafting email communication with Nominating and Corporate Governance Committee when questions arise.
-
-### Interview Process
-
-#### Independent
-
-1. First meeting with the nominating board member;  50-minute meeting.
-1. CEO and Board members: 50-minute meetings.
-1. GitLab CRO, CFO, CLO and other E-Group members as requested.
-1. Any parties as requested by the candidate.
-
-## Board Renewal Process
-
-Assuming GitLab adopts a three class structure, a Director can belong to Class I, Class II or Class III. Some of our Directors will be in Class 1 and will be up for reelection as early as the first year the company is public, while other Directors will not be up for reelection until 2 or 3 years after the company is public. The decision as to which director is in which class is typically made close to when a company goes public. Various factors in making this determination are taken into consideration; for example, some VC Directors may prefer to leave the Board earlier in the public company lifecycle due to the number of commitments or requirements imposed by their respective funds.
 
 ## Board Onboarding Process
 
@@ -334,9 +282,8 @@ New Director will be provided with:
 1. Summary of Director and Officer Liability Insurance
 1. Executed Indemnification Agreement
 
-#### Staff EBA DRI
+#### Staff EBA to the CEO Responsibilities
 
-1. Add new Director to our team page and update relevant Handbook pages (stable counterpart page, committee members, etc.)
 1. Update Board distribution list with Board Member and support staff
 1. Send calendar invites to Board member and support staff for:
 
@@ -358,6 +305,7 @@ New Director will be provided with:
    - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
    - [Company KPI's](/handbook/company/kpis/)
    - [Quarterly OKRs](/handbook/company/okrs/)
+   - [Yearlies](/company/yearlies/)
    - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
 
 1. Finance (CFO) - 80 minutes suggested
@@ -399,13 +347,3 @@ New Director will be provided with:
    - If available/applicable:
      - Share analyst reports from any new banks
      - Share copies of recent investor presentations
-
-## References
-
-1. [AVC post](http://avc.com/2016/02/do-you-want-better-board-meetings-then-work-the-phone/)
-1. [AVC comment](http://avc.com/2016/02/do-you-want-better-board-meetings-then-work-the-phone/#comment-2489615046)
-1. [Techcrunch article](http://techcrunch.com/2016/02/01/1270130/)
-
-## Corporate Governance Documents
-
-1. [Amended and Restated Bylaws ("Restated ByLaws") of GitLab Inc. (As Adopted September 14, 2021 and Effective October 18, 2021)]({{< ref "bylaws" >}})

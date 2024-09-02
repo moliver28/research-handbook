@@ -1,12 +1,23 @@
 ---
 title: "GitLab Ireland Ltd Right to Disconnect Policy"
 description: GitLab Ireland Ltd Right to Disconnect Policy
-controlled_document: true
 ---
+
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/people-policies/ireland-ltd/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
+
+## Roles and Responsibilities
+
+| Role | Responsibility |
+|-----------|-----------|
+| GitLab Ireland Ltd Team Members | Responsible for following the requirements in these policies |
+| People Ops | Responsible for implementing and executing these policies |
+| Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
 
 ## 1. Purpose
 
-At GitLab (the "Company"), we support the safety, health and [wellbeing](/handbook/company/culture/all-remote/mental-health/#introduction) of all team members and we operate with an emphasis on [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) and a focus on results, not hours worked. We believe that [family and friends should come first and work should come second](/handbook/values/#family-and-friends-first-work-second). In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
+At GitLab (the "Company"), we support the safety, health and [well-being](/handbook/company/culture/all-remote/mental-health/#introduction) of all team members and we operate with an emphasis on [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) and a focus on results, not hours worked. We believe that [family and friends should come first and work should come second](/handbook/values/#family-and-friends-first-work-second). In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
 
 It is expected that team members will disconnect from work and work-related communications outside of their normal working hours and during PTO, and the purpose of this Right to Disconnect Policy ("Policy") is to encourage disconnection, and to provide guidance on how the Company is committed to supporting all team members to do so.
 

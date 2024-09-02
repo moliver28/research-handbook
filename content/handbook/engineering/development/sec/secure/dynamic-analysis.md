@@ -248,7 +248,7 @@ Every Tuesday, a calendar event with an attached agenda exists for a synchronous
 
 #### Wednesday's Support Huddle
 
-Every Wednesday, a calendar event with an attached agenda exists for a synchronous support group meeting. This meeting is **support focused** and includes our primary support engineer, the engineering maanger, our product manager, and, as optional members, all engineers on the team engineering manager. The purpose of this meeting is to discuss active support cases and ensure they are added to our [delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis), improve out support runbooks, review live debugging and log reviews of recent support cases, spread support resolution knowledge, and suggest product improvements that will make resolving these support issues easier for the customer, GitLab support, and the team.
+Every Wednesday, a calendar event with an attached agenda exists for a synchronous support group meeting. This meeting is **support focused** and includes our primary support engineer, the engineering manager, our product manager, and, as optional members, all engineers on the team. The purpose of this meeting is to discuss active support cases and ensure they are added to our [delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis), improve our support runbooks, review live debugging and log reviews of recent support cases, spread support resolution knowledge, and suggest product improvements that will make resolving these support issues easier for the customer, GitLab support, and the team.
 
 #### Reaction Coordinator
 
@@ -260,7 +260,9 @@ Due to the unpredictable nature of all of the following triage items, it is hard
 
 The reaction coordinator of the week is responsible for triaging:
 
-##### [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) columns near their WIP limits
+##### Dynamic Analysis delivery board columns near their WIP limits
+
+[Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
 
 - Issues that need to be refined with the `~workflow::planning breakdown` label
 - Issues that need to be broken down in any status

@@ -31,7 +31,7 @@ Why is psychological safety important? When you have psychological safety in the
 - Collaboration
 - Innovation
 - Inclusion
-- Wellbeing
+- Well-being
 - Culture
 
 ![Psychological Safety How it Works](/images/handbook/leadership/psych-safety-how-it-works.png)
@@ -63,7 +63,7 @@ Psychological safety has impacts on diversity and inclusion in organizations. Ev
 1. Build a speak-up culture.
 1. Highlight competencies.
 
-The above list is from a [Grant Thornton article](https://www.grantthornton.com/library/articles/advisory/2020/psychological-safety-speak-up-culture.aspx).
+The above list is from a [Grant Thornton article](https://web.archive.org/web/20220528223316/https://www.grantthornton.com/library/articles/advisory/2020/psychological-safety-speak-up-culture.aspx).
 
 It is important to enable a human-to-human approach and realize the other party is more like you than different. The reflection activity called "Just Like Me", [developed by Paul Santagata](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it), asks you to consider:
 

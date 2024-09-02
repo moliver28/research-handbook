@@ -13,11 +13,11 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 * `dev.gitlab.org`: This internal GitLab instance runs nightly CE packages and
   is used for building official packages as well as hosting security release
   related MRs before publishing. Details of the node as well as the maintenance
-  tasks can be found in [the dev.gitlab.org specific docs](./dev-gitlab-org.html).
+  tasks can be found in [the dev.gitlab.org specific docs](dev-gitlab-org/).
 
 * Build Machines: Runner manager machines that spins up machines that are used
   by various CI jobs for building and publishing packages. Details of the node
-  as well as the maintenance tasks can be found in [the build infrastructure specific docs](./build-infrastructure.html)
+  as well as the maintenance tasks can be found in [the build machines specific docs](build-machines/)
 
 * `packages.gitlab.com`: This is a self-hosted package server managed by
   GitLab Infrastructure team. It's used by Distribution team to ship GitLab CE and EE
@@ -27,7 +27,7 @@ As part of the team tasks, team has responsibility towards the following nodes/t
   * _Distribution uses the package server as a tool and doesn't have any
   maintenance tasks associated with it. The package server is currently deployed
   on our own infrastructure from a package provided by Packagecloud.io. If the
-  Infrastructure team requires help, Distribution team should provde a best effort
+  Infrastructure team requires help, Distribution team should provide a best effort
   to resolve issues._
 
 * Keeping SSH public keys `gitlab.com` and `dev.gitlab.org` up-to-date: The CI
@@ -50,5 +50,5 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 As part of the team tasks, the team uses the following external services:
 
 * [dependencies.io](https://dependencies.io): This is used to automatically update
-software components required by GitLab. See [the specific docs](./dependencies.io.html)
+software components required by GitLab. See [the specific docs](dependencies.io.html)
 for how to work with this service.

@@ -33,7 +33,7 @@ Checkpoints for new starters who are working through their support hybrid learni
 ### Working in Support at GitLab
 
 - You are attending [crush sessions and started pairing](https://gitlab.com/gitlab-com/support/support-pairing/-/issues/?sort=popularity&state=all) for your training modules
-- You understand how to triage, assign and [provide a first response on a ticket](/handbook/support/workflows/working-on-tickets#providing-a-first-response-to-a-ticket) within your SGG
+- You understand how to triage, assign and [provide a first response on a ticket](/handbook/support/workflows/working-on-tickets#providing-a-first-response-to-a-ticket)
 - You understand the types of customer tickets that are being worked on by support engineers
 - You understand what your role as a support engineer entails
 - You know which teams and roles outside of Support work closely with Support Engineers
@@ -48,7 +48,6 @@ Checkpoints for new starters who are working through their support hybrid learni
 - You understand how to ask for help through the different channels
 - You know which views/dashboards to work from within Zendesk
 - You understand the organizational structure of GitLab
-- You understand what the [Success of your Support Global Group means](/handbook/support/support-global-groups/#success-of-their-group-means)
 
 ### Leading Customer-Facing Video Interactions
 

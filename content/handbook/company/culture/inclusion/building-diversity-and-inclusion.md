@@ -10,7 +10,7 @@ Those activities and behaviors include:
 - [DIB Events]({{< ref "diversity-and-inclusion-events" >}})
 - [DIB Advisory Group]({{< ref "inclusion#global-diversity-inclusion--belonging-advisory-group" >}})
 - [Diversity, Inclusion & Belonging  TMRGs - Team Member Resource Groups]({{< ref "inclusion#ergs---employee-resource-groups" >}})
-- [Our Values]({{< ref "values" >}})
+- [Our Values](/handbook/values/)
 - [Family and Friends first, Work second](/handbook/values/#family-and-friends-first-work-second)
 - [Inclusive language and pronouns](/handbook/values/#inclusive-language--pronouns)
 - [Parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}})
@@ -133,4 +133,4 @@ When you are dealing with a specific situation, you can mentally flip the situat
 
 - Consider joining a [TMRG]({{< ref "erg-guide" >}}) (Team Member Resource Group)
 - Support others as an Ally
-- Review the [Diversity, Inclusion & Belonging]({{< ref "inclusion" >}}) page
+- Review the [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) page

@@ -178,17 +178,17 @@ Candidates for this position can generally expect the hiring process to follow t
 - Next, candidates will be invited to schedule a 45 minute Deep Dive interview with a Product Director
 - Finally, candidates may be asked to schedule a 50 minute final interview with our CEO
 
-### Chief of Staff - Product
+### Chief of Staff, Product
 
-The Chief of Staff - Product acts as a trusted advisor to the Chief Product Officer (CPO). The Chief of Staff - Product and the CPO work closely together to get more than twice as much done as the CPO would be able to do alone. This is a unique opportunity to see every aspect of a public company at the CPO level.
+The Chief of Staff, Product acts as a trusted advisor to the Chief Product Officer (CPO). The Chief of Staff, Product and the CPO work closely together to get more than twice as much done as the CPO would be able to do alone. This is a unique opportunity to see every aspect of a public company at the CPO level.
 
-This is a senior leadership role within the Product Leadership team, reporting directly to the CPO, leading the Technical Program Management team who is responsible for driving operational alignment to the product strategy set by the CPO as well as overseeing R&D's product development operations. For example, the Chief of Staff - Product will drive the Objective and Key Results (OKR) process for R&D including alignment to GitLab's [R&D Investment Themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes). Furthermore, the Chief of Staff - Product will partner with the CPO to prepare content for high visibility meetings including Product Leadership Offsites, E-Group Offsites, and GitLab Board of Directors updates (including both quarterly GitLab Board of Directors meetings and semi-regular asynchronous updates).
+This is a senior leadership role within the Product Leadership team, reporting directly to the CPO, leading the Technical Program Management team who is responsible for driving operational alignment to the product strategy set by the CPO as well as overseeing R&D's product development operations. For example, the Chief of Staff,  Product will drive the Objective and Key Results (OKR) process for R&D including alignment to GitLab's [R&D Investment Themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes). Furthermore, the Chief of Staff, Product will partner with the CPO to prepare content for high visibility meetings including Product Leadership Offsites, E-Group Offsites, and GitLab Board of Directors updates (including both quarterly GitLab Board of Directors meetings and semi-regular asynchronous updates).
 
-A detailed list of the types of projects the Senior Director, Product - Strategy & Operations might work on can be found in the Product Handbook as well as on GitLab's [Direction](https://about.gitlab.com/direction/#fy25-rd-investment-themes), [Strategy](/handbook/company/strategy/), and [Vision](/handbook/company/vision/) pages.
+A detailed list of the types of projects the Chief of Staff, Product might work on can be found in the Product Handbook as well as on GitLab's [Direction](https://about.gitlab.com/direction/#fy25-rd-investment-themes), [Strategy](/handbook/company/strategy/), and [Vision](/handbook/company/vision/) pages.
 
 #### Chief of Staff - Job Grade
 
-The Chief of Staff - Product is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Chief of Staff, Product is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Chief of Staff - Responsibilities
 

@@ -1,9 +1,6 @@
 ---
 title: "Office of the CEO"
 description: "Details about Office of the CEO (OCEO) at GitLab"
-aliases:
-- /handbook/ceo/office-of-the-ceo/
-- /handbook/ceo/chief-of-staff-team/
 ---
 
 ## Office of the CEO Overview
@@ -262,9 +259,9 @@ If you are a team member who intends to decline a meeting, the [asynchronous com
 
 Meeting Cleanup Day is intentionally near the start of the new fiscal year. The Office of the CEO will launch this initiative annually a week in advance through posting in the `#whats-happening-at-gitlab` Slack channel, and by re-posting a reminder at 00:00 UTC on cleanup day. Office of the CEO (or CoS) will repost in the `#managers` channel for visibility.
 
-## Program managing [JiHu](https://about.gitlab.com/pricing/faq-jihu/)
+## Program managing JiHu
 
-A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
+A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with [JiHu](https://about.gitlab.com/pricing/faq-jihu/). Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
 For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu](https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 
@@ -288,18 +285,18 @@ We are evaluating different ways to measure our success as a team. These include
 
 ## Chief of Staff Shadow
 
-The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the `#ceo-chief-of-staff-team` Slack channel. The CoS to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
+The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Depending on the projec or initiative, the team member may spend most of their time with an Office of the CEO team member instead.
 
-Once a project or initiative to Shadow has been identified and the team member decides to participate, the team member should open a merge request to add their name to the below table. The MR should be shared through slack in the `#ceo-chief-of-staff-team` channel for review and merge.
+Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the `#ceo-chief-of-staff-team` Slack channel. The CoS to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
 
-|  Start Date | End Date | First & Last Name | GitLab Handle |
-| --- | --- | --- | --- |
-|2020-05-23|2020-08-21  | Mike Miranda | @mmiranda |
-|2020-08-31|2021-07-18  | Jerome Ng | @jeromezng |
-|2021-06-02 | 2021-09-01 | Samantha Lee  | @slee24  |
-| 2023-03-06 | 2023-11-01 | Cynthia "Arty" Ng | @cynthia |
-|   |  |  |  |
-|   |  |  |  |
+Once a project or initiative to Shadow has been identified and the team member decides to participate, the team member should open a merge request to add their name to the below table. The MR should be shared through Slack in the `#ceo-chief-of-staff-team` channel for review and merge. Optionally, the team member can make use of the [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) as a framework to guide the Shadow period.
+
+| Start Date | End Date   | First & Last Name | GitLab Handle | Project/Initiative |
+| ---------- | ---------- | ----------------- | ------------- | ------------------ |
+| 2020-05-23 | 2020-08-21 | Mike Miranda      | @mmiranda     |  |
+| 2020-08-31 | 2021-07-18 | Jerome Ng         | @jeromezng    | JiHu |
+| 2021-06-02 | 2021-09-01 | Samantha Lee      | @slee24       | Shadow Michelle Lee |
+| 2023-03-06 | 2023-11-01 | Cynthia "Arty" Ng | @cynthia      | [TeamOps](https://gitlab.com/gitlab-com/people-group/Training/-/issues/2178) and [OKRs](https://gitlab.com/gitlab-com/people-group/Training/-/issues/2249) (internal links) |
 
 ### Important things to note
 
@@ -310,7 +307,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 
 ## Quick Links and Fun Facts
 
-- [Chief of Staff to the CEO Job Family]({{< ref chief-of-staff >}})
+- [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
 - [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
 - [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
 - [Performance Indicators]({{< ref performance-indicators >}})

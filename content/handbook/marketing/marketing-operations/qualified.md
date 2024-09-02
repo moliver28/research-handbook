@@ -65,6 +65,12 @@ A seamless integration with Zoom is coming shortly. Until then, reps can either:
 
 2. Manually open the calendar invite in Google calendar and click `Add video conferencing details` to add a unique Zoom link.
 
+#### Marketo
+
+While Qualfied can create/edit person records, leads are typically created in SFDC first. Marketo utilizes triggers from SFDC activity or campaign membership for Interesting Moments and scoring for Qualified actions.
+
+Qualified also has an integration to view a program in Marketo, within Qualified. We have hundreds of programs, so to reduce visibility, we created a program tag type `UsedWithQualified` = `True` to surface the program to Marketo. You can do this in Marketo's individual program settings under `setup`. This tag is not required, so despite having a `false` value, you can simply not use it if you do not want to surface the program to Qualified.
+
 ### Performance Measurement
 
 The Rep Performance Dashboard helps you understand the metrics that mean the most to your success including:

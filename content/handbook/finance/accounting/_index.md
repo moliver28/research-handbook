@@ -14,7 +14,7 @@ Calculated billings is defined as revenue plus the sequential change in total de
 
 We do not believe that calculated billings provides a meaningful indicator of financial performance as billings can be impacted by timing volatility of renewals, co-terming upgrades and multi year prepayment of subscriptions.
 
-For order approval and invoicing process please view the [Billing Ops page.]({{< ref "./finance-ops/billing-ops" >}})
+For order approval and invoicing process please view the [Billing Ops page.](finance-ops/billing-ops/)
 
 **Invoicing: One Time Events**
 
@@ -84,7 +84,7 @@ Additionally, where subscriptions remain in an active status they can be renewed
 
 ### Invoice cancellations and refunds
 
-For step by step processes please view [Billing Ops page.]({{< ref "./finance-ops/billing-ops" >}})
+For step by step processes please view [Billing Ops page.](finance-ops/billing-ops/)
 
 **How to process a partial refund in Stripe**
 
@@ -192,7 +192,7 @@ In Netsuite:
 1. Fill the "Deposit to" with "Comerica Checking".
 1. Fill the "Amount Received" with the amount received from the incoming wire.
 
-For step by step cash collections process please view [Billing Ops page.]({{< ref "./finance-ops/billing-ops" >}})
+For step by step cash collections process please view [Billing Ops page.](finance-ops/billing-ops/)
 
 **Account receivable provisions, bad debts and other period close adjustments**
 
@@ -208,7 +208,7 @@ The time from when a deal is closed won in Salesforce to when the invoice is gen
 1. Future amortisation of commissions expenses related to reserved invoices should also be stopped to ensure alignment with pattern of revenue recognition.
 1. Allowance for doubtful debt will be shared with Sales Operations on a monthly basis to ensure they have visibility of what may be written off in the future.
 1. On a quarterly basis, Senior Billing Manager and Revenue Director will determine the aged invoices that are uncollectible. They will create an issue ten (10) days before the end of the quarter to seek approval according to the [signature auhorization matrix]({{< ref "../authorization-matrix" >}}) to write off invoices and to also notify the Sr. Director of Sales Operations. Sales Operations will then create decommission opportunities in SFDC for approved write offs before the end of the quarter and these will be synced to Zuora to reverse original invoicing and revenue. Sales Operations will claw back commissions accordingly.
-1. Revenue team will review write-offs processed in zuora to ensure correct revenue reversal and will book MJEs in Netsuite to reclass impact to Bad Debt Reserve.
+1. Revenue team will review write-offs processed in Zuora to ensure correct revenue reversal and will book MJEs in Netsuite to reclass impact to Bad Debt Reserve.
 1. Customers that have had their invoices written off, consider no discounts or credit given for future deals.
 1. Where payment is received for an invoice after it has been written off, the write off will be reversed and the related commission will be reinstated.
 
@@ -268,8 +268,9 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 
 Coupa is a Procurement and Invoicing Tool. Similarly to purchase requests for goods/services that must be initiated in Coupa, invoices are also created and approved in Coupa.
 
+{{% alert color="warning" %}}
 For all issues created before Coupa Go-Live (Phase I; 2021-06-01 and Phase II; 2021-12-13), the business will not be setting up Purchase Orders for those and the Accounts Payable team will manually enter the related invoices as Non PO-backed.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 Invoices in Coupa can be created via 4 different channels:
 
@@ -292,14 +293,15 @@ Invoices in Coupa can be created via 4 different channels:
 A NetSuite error log identifying invoice integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Invoices - Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the invoice number/document number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please review this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list invoices not exported to NetSuite. Under Invoices, select View = **Not Exported**
-![coupa-image-1](./finance-ops/coupainvoiceview.png)
+![coupa-image-1](finance-ops/coupainvoiceview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
 <br>
 
+{{% alert color="warning" %}}
 For vendors who invoice GitLab for multiple entities, all invoices are separated by subsidiary (due to audit standards). If the vendor onboards for the Coupa Supplier Portal (CSP), the vendor will only see the POs related to those entities, and will need to email the others. If you are a GitLab vendor who invoices for multiple entitites and you have any questions, please reach out to *ap@gitlab.com*.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Approving an Invoice in Coupa
 
@@ -406,7 +408,7 @@ For more information regarding how to set up SPAs or Coupa Pay, please check out
 A NetSuite error log identifying payment integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Pay Payments Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the payment number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please see this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Payment Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list payments not exported to NetSuite. Under Payments, select View = **Not Exported**
-![coupa-image-1](./finance-ops/coupapymtview.png)
+![coupa-image-1](finance-ops/coupapymtview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
@@ -493,7 +495,7 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
 
 When reducing spend, we will not take the easy route of (temporarily) reducing discretionary spending.
 Discretionary spending includes expenses like travel, conferences, gifts, bonuses, merit pay increases and summits.
-By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda's-are-no-longer-free/).
+By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%e2%80%93-soda%e2%80%99s-are-no-longer-free/).
 
 Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals.
 But, we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
@@ -600,12 +602,12 @@ Once the information is captured in NetSuite FAM a depreciation schedule will po
 
 ### Disposition of an Asset
 
-Assets will be disposed of if purchased by an employee upon termination (if approved by ITOps) or if the item is no longer useful before the useful life.
+Assets will be disposed of if purchased by an employee upon termination (if approved by IT Ops) or if the item is no longer useful before the useful life.
 
 1. If a team member would like to purchase an asset from the company (i.e. a laptop), they would request through an issue to IT Ops and Accounting to obtain the amount to be paid. This is derived from original cost less accumulated depreciation.  If an asset is purchased, Accounting will collect the funds and will book the appropriate accounting treatment to dispose of the asset.
 1. If an asset is no longer usable before the useful life has been reached the employee needs to submit an issue to IT Ops and Accounting to inform them.  IT Ops will evaluate and if they deem the item is no longer useful, Accounting will book the appropriate accounting treatment to dispose of the asset.
 
-ITOps will need to identify the asset and inform Accounting to properly dispose of the asset from NetSuite FAM.
+IT Ops will need to identify the asset and inform Accounting to properly dispose of the asset from NetSuite FAM.
 
 ## Accounting Policies
 
@@ -679,7 +681,7 @@ Investment Products (Rating, Sector Concentration, Issuer Concentration)
 This policy describes the methodology used to monitor and account for GitLab's prepaid expenses.
 
 {{% alert color="warning" %}}
-**Effective 2022-04-01 a new Accounting Prepaid Automation Process has been implemented. Please click [here](https://about.gitlab.com./prepaid/) to learn more about the process, which utilizes Coupa.**
+**Effective 2022-04-01 a new Accounting Prepaid Automation Process has been implemented. Please click [here](https://internal.gitlab.com/handbook/finance/accounting/prepaid/) to learn more about the process, which utilizes Coupa.**
 {{% /alert %}}
 
 **Prepaid Expenses Defined**

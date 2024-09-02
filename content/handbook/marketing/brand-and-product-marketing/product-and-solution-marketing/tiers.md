@@ -37,7 +37,7 @@ title: "GitLab tiers"
 In general each of the self-managed tiers match the features in the GitLab SaaS tiers. They have different names for two reasons:
 
 1. There is not complete feature parity between self-managed and GitLab SaaS plans. For example, GitLab self-managed Premium, and Ultimate include [LDAP Group Sync](https://docs.gitlab.com/ee/administration/auth/ldap/index.html#group-sync) but GitLab SaaS Premium and Ultimate do not.
-1. We want to know if a user is using self-managed or GitLab SaaS based on a just the tier name to prevent internal and external confusion.
+1. We want to know if a user is using self-managed or GitLab SaaS based on just the tier name to prevent internal and external confusion.
 
 When we need to specify which tier includes a particular feature using only one word (for example on our issue tracker), we reference the self-managed tiers by default because they tend to contain a superset of the GitLab SaaS tier features.
 Where we can, we highlight both the self-managed and the GitLab SaaS tiers (like in [a release post](https://about.gitlab.com/releases/2018/02/22/gitlab-10-5-released/#instant-ssl-with-lets-encrypt-for-gitlab)).

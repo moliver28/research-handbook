@@ -19,7 +19,7 @@ Associate Developer Relations Program Manager is a [grade 5](/handbook/total-rew
 
 ### Responsibilities
 
-- Support the [GitLab for Education](https://about.gitlab.com/solutions/education/), [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/), [GitLab for Startups](https://about.gitlab.com/solutions/startups/), and [GitLab for Non-Profits](https://about.gitlab.com/handbook/marketing/developer-relations/community-programs/education-program/#--gitlab-for-non-profits) programs (as well as any new programs that are created), as well as associated workflows. This includes responding to all in-bound requests from program members.
+- Support the [GitLab for Education](https://about.gitlab.com/solutions/education/), [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/), [GitLab for Startups](https://about.gitlab.com/solutions/startups/), and [GitLab for Non-Profits](/handbook/marketing/developer-relations/community-programs/education-program/#--gitlab-for-non-profits) programs (as well as any new programs that are created), as well as associated workflows. This includes responding to all in-bound requests from program members.
 - Actively participate in the implementation of, and then lead the maintenance of the Automated Developer Relations Programs workflows. This includes improving and troubleshooting related processes and working cross-functionally with associated teams in Product, Fulfillment, Legal, Sales Operations, and Customer Support.
 - Standardize communications for Developer Relations Programs. As we evolve our Developer Relations Programs, we'll need to make sure that we update all of our outreach and support materials. You will lead this effort and suggest ways we can make our messaging more customer-friendly and effective.
 - Improve efficiency of tools. Make sure we are using all of our current tools in the best way possible. Become the team's expert in using each tool and suggest improved ways to use them to help with program goals.
@@ -65,7 +65,7 @@ The Developer Relations Program Manager supports and grows GitLab's community by
 
 ### Job Grade
 
-The Developer Relations Program Manager is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Developer Relations Program Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 

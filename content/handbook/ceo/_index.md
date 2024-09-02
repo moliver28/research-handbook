@@ -2,6 +2,7 @@
 title: "CEO"
 description: "This page details processes specific to Sid, CEO of GitLab."
 ---
+<!-- vale handbook.InclusionLanguage = NO -->
 
 ## Intro
 
@@ -13,10 +14,11 @@ Many items on this page are a guidelines for our [Executive Business Administrat
 ### CEO Bio
 
 Sid Sijbrandij is the Co-founder, Chief Executive Officer and Board Chair of GitLab Inc., the most comprehensive AI-powered DevSecOps platform. GitLab's single application helps organizations deliver software faster and more efficiently while strengthening their security and compliance.
-
+<!-- vale handbook.Spelling = NO -->
 Sid's career path has been anything but traditional. He spent four years building recreational submarines for U-Boat Worx and while at Ministerie van Justitie en Veiligheid he worked on the Legis project, which developed several innovative web applications to aid lawmaking. He first saw Ruby code in 2007 and loved it so much that he taught himself how to program. In 2012, as a Ruby programmer, he encountered GitLab and discovered his passion for open source. Soon after, Sid commercialized GitLab, and by 2015 he led the company through Y Combinator's Winter 2015 batch. Under his leadership, the company has grown with an estimated 30 million+ registered users from startups to global enterprises.
 
 Sid studied at the University of Twente in the Netherlands where he received an M.S. in Management Science. Sid was named one of the greatest minds of the pandemic by Forbes for spreading the gospel of remote work.
+<!-- vale handbook.Spelling = YES -->
 
 ### Sijbrandij pronunciation hint
 
@@ -33,7 +35,7 @@ Moved to a google document internal to GitLab team only. Please search in Google
 
 ## Flaws
 
-Transparency and directness are part of our [values]({{< ref values >}}) and I want to live them by sharing the flaws I know I have.
+Transparency and directness are part of our [values](/handbook/values/) and I want to live them by sharing the flaws I know I have.
 I'm fully responsible for improving the things below, listing them is no excuse.
 They are listed here for two reasons.
 The first one is so that people know it is not them but my fault.
@@ -68,13 +70,13 @@ Sid is easy to talk to on any subject. He is good at drawing people out and chal
 1. Sid is also the driving force for our iteration value. For example, he may hold [Iteration Office Hours](#iteration-office-hours).
 1. Sid really values 1:1 preparation.
 1. Sid believes in "strong opinions, weakly held." He doesn't always seem like it, but he will change his mind quickly if you present him with compelling new information and a data driven perspective.
-1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It's not a "best practice", it's a "boring solution"`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms]({{< ref "communication#mecefu-terms" >}}) to keep communication efficient.
+1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It's not a "best practice", it's a "boring solution"`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms](/handbook/communication/#mecefu-terms) to keep communication efficient.
 
 ## Interviewing and conducting meetings
 
 This section was started by GitLab's Head of Remote Darren M. to coach and provide context to others who meet with and interview Sid. The below are suggestions based on a history of personal interviews, extracted lessons from [GitLab Unfiltered interviews](https://www.youtube.com/playlist?list=PL05JrBw4t0KpdkiYcuSO2EtNBzK2Nyzx5), and observations during a [CEO Shadow rotation](https://about.gitlab.com/blog/2020/05/22/gitlab-remote-ceo-shadow-takeaways/). Others are welcome to create a merge request and add more.
 
-1. ***How scripted are interviews?*** Sid does well in [unscripted interviews](https://youtu.be/7kMQj4O4ZGU), but prefers questions [outlined]({{< ref "eba#meeting-request-requirements" >}}) in a Google document and attached in the [meeting invite](/handbook/company/culture/all-remote/live-doc-meetings/) in advance. The EBA to the CEO can assist you with this. Interviews tend to go well when it is clear ahead of time what the crux of the conversation will be about, and there is documented context which can be consumed asynchronously ahead of time.
+1. ***How scripted are interviews?*** Sid does well in [unscripted interviews](https://youtu.be/7kMQj4O4ZGU), but prefers questions [outlined](/handbook/eba/#meeting-request-requirements) in a Google document and attached in the [meeting invite](/handbook/company/culture/all-remote/live-doc-meetings/) in advance. The EBA to the CEO can assist you with this. Interviews tend to go well when it is clear ahead of time what the crux of the conversation will be about, and there is documented context which can be consumed asynchronously ahead of time.
 1. ***What if questions arise which aren't in the agenda? Do you add them and keep the conversation going?*** Expert interviewers will actively anticipate that new and unexpected questions will arise. You may be surprised by the question, but *not* that the question happened. The interviewer is responsible for keeping the conversation on track according to the agenda. If you feel that a question veers the conversation too far off track, document the question and add a to-do for a follow-up or asynchronous answer. At GitLab, [agendas are revered](/handbook/company/culture/all-remote/live-doc-meetings/); feel confident in using the agenda to keep the interview crisp.
 1. ***Do you script perspective and commentary?*** Unscripted, authentic feedback and commentary is appreciated and shows preparation for the subject matter and an understanding of discussion flow. With Sid (and other interview subjects), practice gets you closer to perfection. Professional media training creates a deeper understanding of this concept.
 1. ***Do you worry about saying the wrong thing?*** This may be challenging to overcome. A list of tips for overcoming this are below.
@@ -99,7 +101,7 @@ I get many email on which I am only cc'd on, I would very much appreciate if you
 
 ### Presentations and slide decks
 
-Share slide decks in advance of meeting with me per [few meetings with presentations]({{< ref "communication#few-meetings-with-presentations" >}}) communication guideline. I can be tagged in a relevant Slack channel.
+Share slide decks in advance of meeting with me per [few meetings with presentations](/handbook/communication/#few-meetings-with-presentations) communication guideline. I can be tagged in a relevant Slack channel.
 
 When sharing slides with me, limit the content on each slide to one concept. Avoid condensing multiple concepts into one slide. Additionally, the slide title should be specific to the content on that slide. For example, instead of condensing two lists onto one slide, separate the lists onto two separate slides with slide titles specific to each list.
 
@@ -165,13 +167,13 @@ Please quote the subject line of the email in your chat message.
 
 ### Sending email
 
-If someone else in the company wants to have me send an email they should email me and cc [my EBA]({{< ref "eba#executive-business-administrator-team" >}}) with:
+If someone else in the company wants to have me send an email they should email me and cc [my EBA](/handbook/eba/#executive-business-administrator-team) with:
 
-1. Instruction: "Please email this, please bcc: me on the outgoing email, forward any responses, and cc: me on any further emails."
+1. Instruction: "Please email this, please BCC: me on the outgoing email, forward any responses, and cc: me on any further emails."
 1. Recipient name
 1. Recipient email
 1. Email subject
-1. Email body (text based, no html or rich text)
+1. Email body (text based, no HTML or rich text)
 
 When receiving such an email my EBA should stage a draft email to the recipient and a draft answer 'done'.
 
@@ -179,7 +181,7 @@ The email should only be the body. Greetings and niceties are handled by the EBA
 
 ## Meeting request requirements
 
-For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page]({{< ref "eba" >}}). Please do not use Zoom waiting rooms for meetings scheduled with me or on my behalf. If attendees are joining separate sections of a meeting, you can break the session into multiple Zoom calls or have a Slack channel to manage attendee entrances and exits.
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/). Please do not use Zoom waiting rooms for meetings scheduled with me or on my behalf. If attendees are joining separate sections of a meeting, you can break the session into multiple Zoom calls or have a Slack channel to manage attendee entrances and exits.
 
 ## CEO Meeting Cadence
 
@@ -187,11 +189,11 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Daily Meetings
 
-1. [Group Conversation]({{< ref group-conversations >}}). 25 minutes.
+1. [Group Conversation](/handbook/company/group-conversations/). 25 minutes.
 
 ### Weekly Meetings
 
-1. [1-1s](/handbook/leadership/1-1/) with my direct reports and [EBA]({{< ref eba >}}). 25-50 minutes.
+1. [1-1s](/handbook/leadership/1-1/) with my direct reports and [EBA](/handbook/eba/). 25-50 minutes.
 1. [E-Group](/handbook/company/structure/#e-group) Call. 120 minutes.
 1. If there are open positions Talent Acquisition Syncs on key Executive hires. 25 minutes.
 1. Topical conversations on top cross-functional initiatives or other areas of importance to the CEO. 25 minutes.
@@ -199,8 +201,8 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Monthly Meetings
 
-1. [Key Review]({{< ref key-review >}}) with Executives and function leaders. 25 minutes.
-1. [CEO Group Conversation]({{< ref group-conversations >}}). 25 minutes.
+1. [Key Review](/handbook/company/key-review/) with Executives and function leaders. 25 minutes.
+1. [CEO Group Conversation](/handbook/company/group-conversations/). 25 minutes.
 1. [1-1](/handbook/leadership/1-1/) with CEO Coach. 80 minutes.
 1. Industry Analyst Meetings. 25-50 minute meetings.
 1. [Coffee Chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats). 25 minutes.
@@ -224,7 +226,6 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Annual Meetings
 
-1. [Contribute](https://about.gitlab.com/events/gitlab-contribute/). Sunday-Friday.
 1. [Annual Planning](/handbook/finance/financial-planning-and-analysis/#annual-plan) with the GitLab Board of Directors. 50-80 minutes.
 1. Fiscal Year Kickoff. 50 minutes.
 1. Industry Conferences such as: DevOps Enterprise Summit, AWS re:Invent, KubeCon, Linux Summit
@@ -260,11 +261,11 @@ The recruiter should share a prep package with the Board Member at least 3 busin
 
 To schedule a Pick Your Brain interview with me, please see the [EBA handbook page]({{< ref "ceo-scheduling#pick-your-brain-meetings" >}}). To watch and read prior Pick Your Brain interviews about all-remote, please see the [Interviews page](/handbook/company/culture/all-remote/interviews/).
 
-For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page]({{< ref eba >}}).
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/).
 
 ## External Speaking Engagements
 
-To schedule Sid to speak at an external engagement please contact the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) with the details outlined in the [Executive External Event Brief]({{< ref "eba#meeting-request-requirements" >}}). The EBA to the CEO will gain approval from the function head of the requestor on whether the CEO will attend or not. Sid's preference is to participate in 1:1 fireside chats or conduct a stand alone presentation (audience Q&A is fine). He does not participate in panels with multiple speakers.
+To schedule Sid to speak at an external engagement please contact the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) with the details outlined in the [Executive External Event Brief](/handbook/eba/#meeting-request-requirements). The EBA to the CEO will gain approval from the function head of the requester on whether the CEO will attend or not. Sid's preference is to participate in 1:1 fireside chats or conduct a stand alone presentation (audience Q&A is fine). He does not participate in panels with multiple speakers.
 
 ### Requests for audio/visual check meetings
 
@@ -320,7 +321,7 @@ If possible, I use a teleprompter when giving keynotes. I prefer to use the tele
 ## Recording Content for Conferences
 
 I'm always willing to record [video content](https://www.youtube.com/watch?v=Y310ksxsUoQ) for conferences I'm unable to attend.
-Email [my EBA]({{< ref "eba#executive-business-administrator-team" >}}) to coordinate the recording.
+Email [my EBA](/handbook/eba/#executive-business-administrator-team) to coordinate the recording.
 
 ## Favorite Beverages
 
@@ -336,14 +337,14 @@ People regularly ask what I use for my home office setup. Below is a list of the
 - Boom Arm: [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://www.amazon.com/PSA-Swivel-Mount-Studio-Microphone/dp/B001D7UYBO/)
 - Camera: [Sony Alpha 7C Full-Frame Mirrorless Camera - Silver (ILCE7C/S)](https://www.amazon.com/Sony-Alpha-Full-Frame-Mirrorless-Camera/dp/B08HW132XW)
 - Camera Adapter: [Tengdaxing NP-FZ100 AC Power Supply Adapter](https://www.amazon.com/gp/product/B08NWR4R8J/)
-- Camera Holder: [Heron - 3FT Camera Mount with Desk Clamp](https://www.amazon.com/gp/product/B08BTW6W4N/)
+- Camera Holder: Heron - 3FT Camera Mount with Desk Clamp
 - Ports: [CalDigit ts3-plus](https://www.caldigit.com/ts3-plus/)
 - Desk: [Jarvis Laminate Standing Desk](https://www.fully.com/standing-desks/jarvis-adjustable-height-desk-laminate.html)
 - Laptop: [13-inch MacBook Pro](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-apple-m1-chip-with-8-core-cpu-and-8-core-gpu-256gb)
 - Stand: [rain design mStand](https://www.raindesigninc.com/mstand.html)
 - Keyboard: [Apple Magic Keyboard](https://www.apple.com/shop/product/MK2C3LL/A/magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-us-english-white-keys?)
 - Mouse: [Microsoft Pro IntelliMouse](https://www.amazon.com/Microsoft-Pro-Intellimouse-Dark-Shadow/dp/B07RPBXBMV?th=1)
-- Monitor: [Apple Pro Display XDR](https://www.apple.com/shop/buy-mac/pro-display-xdr/standard-glass) and/or [LG Ultrafine 5K](https://www.apple.com/shop/product/HMUB2LL/A/lg-ultrafine-5k-display )
+- Monitor: [Apple Pro Display XDR](https://www.apple.com/shop/buy-mac/pro-display-xdr/standard-glass) and/or [LG Ultrafine 5K](https://www.lg.com/us/monitors/lg-27md5kl-b-5k-uhd-led-monitor)
 - Light: [Elgato Keylight](https://www.amazon.com/Elgato-Key-Light-Professional-App-Enabled/dp/B07L755X9G/)
 - Green screen: I use a cloth one. Roll Down/up screens are a space saver but can be on the small side. Painting the room has mixed results because different surfaces reflect light different even with the same paint.
 
@@ -351,7 +352,7 @@ Note: I have paid for all of these items myself. Please refer to [GitLab's expen
 
 ## CEO Voice
 
-When preparing scripts or documents in my voice, please follow these guidelines. This list can help you prepare a draft that is as close as possible to my natural way of communicating. For additional information or questions, please contact the `#external-comms` Slack channel or the [Chief of Staff to the CEO]({{< ref chief-of-staff >}}).
+When preparing scripts or documents in my voice, please follow these guidelines. This list can help you prepare a draft that is as close as possible to my natural way of communicating. For additional information or questions, please contact the `#external-comms` Slack channel or the [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/).
 
 1. Avoid "we" or "our" when discussing the product. I don't wish to speak on behalf of others or to imply that GitLab team members are owners of GitLab or its users. Everyone can contribute = everyone has some ownership of GitLab.
 1. Less is more. If you can say something in fewer words, do so. I prefer speaking in shorter sentences.
@@ -360,7 +361,7 @@ When preparing scripts or documents in my voice, please follow these guidelines.
 1. Remove unnecessary words, assuming statements or lead-ins that don't add value. Ex: "As you know."
 1. When writing a script, read it out loud. If it's not easy to say in one try, edit the script to make it easy to speak.
 1. Any time you make a statement, consider whether there exist any data/proof points to back it up, and include the proof. This proof might exist internally through work our teams are doing, or externally through analyst reports or other such reporting.
-1. Familiarize yourself with [GitLab's Misused Terms]({{< ref top-misused-terms >}}) and avoid using these. For example, always use "Team members" instead of Employees.
+1. Familiarize yourself with [GitLab's Misused Terms](/handbook/communication/top-misused-terms/) and avoid using these. For example, always use "Team members" instead of Employees.
 1. Run text through a readability checker, such as [the ones on this page](https://readabilityformulas.com/free-readability-formula-tests.php). Aim to have a [Flesch Reading Ease score](https://readabilityformulas.com/flesch-reading-ease-readability-formula.php) above 80. This is the score for a document that is "easy" to read.
 1. No interrupters. [Interrupters](https://www.grammarly.com/blog/comma-with-interrupters/) are little thoughts in the middle of a thought and they complicate sentences. So use 'Q2 was a great quarter. I am pleased with the results.' instead of 'Q2, happily, was a great quarter.'
 1. Be exact, not approximate.
@@ -408,9 +409,9 @@ An applicant asked how we manage to do this and these are the factors that come 
 As the company keeps growing my use of the handbook is also changing.
 
 1. Until 20 people I mostly did things myself.
-1. From then on I focused on documenting things in the [handbook]({{< ref handbook >}}).
+1. From then on I focused on documenting things in the [handbook](/handbook/).
 1. Then I asked people to document things.
-1. Now we [documented to document it]({{< ref handbook-usage >}}).
+1. Now we [documented to document it](/handbook/about/handbook-usage/).
 
 ## Iteration Office Hours
 

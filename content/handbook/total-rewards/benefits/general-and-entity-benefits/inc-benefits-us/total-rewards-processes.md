@@ -26,7 +26,7 @@ Cadence: Ad hoc (check at least weekly)
     - Select "New Document Request" and paste the following text:
        > Hello,
        >
-       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
+       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
        >
        > If you have any questions or neeed any help uploading your documentation, please reach out to the Total Rewards team.
     - Choose acceptable documents for the team member's Life Event per the table below and click "Submit"

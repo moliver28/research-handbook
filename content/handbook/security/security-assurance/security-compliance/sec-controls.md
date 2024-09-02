@@ -1,5 +1,6 @@
 ---
 title: "GitLab Security Compliance Controls"
+controlled_document: true
 ---
 
 Security controls are a way to state our company's position on a variety of security topics. It's not enough to simply say "We encrypt data" since our customers and teams will naturally want to know "what data do we encrypt?" and "how do we encrypt that data?". When all of our established security controls are operating effectively this creates a security program greater than the sum of its parts. It demonstrates to our stakeholders that GitLab has a mature and comprehensive security program that will provide assurance that data within GitLab is reasonably protected.
@@ -62,7 +63,7 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 
 ## Security System Intake
 
-To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)]({{< ref "sec-controls#gitlab-control-framework-gcf" >}}) and compliance programs  (e.g., [Security Compliance Program]({{< ref "../security-compliance#-core-competencies" >}}) and [SOX Program](/handbook/internal-audit/sarbanes-oxley/)).
+To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)]({{< ref "sec-controls#gitlab-control-framework-gcf" >}}) and compliance programs  (e.g., [Security Compliance Program]({{< ref "../security-compliance#-core-competencies" >}}) and [SOX Program](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)).
 
 ### 1. System identification
 
@@ -81,7 +82,7 @@ If the system meets the criteria, we open up a new [Security Compliance Intake I
 - Key Contact Details
 - Deployment model and implementation status
 - Data classification
-- Regulatory scope (supported by Security Compliance and [Internal Audit](/handbook/internal-audit/))
+- Regulatory scope (supported by Security Compliance and [Internal Audit](https://internal.gitlab.com/handbook/internal-audit/))
 The author of the issue completes as much of the issue as they can and assigns it to the Security Risk team for completion/triage (if the issue is not originally created by the Security Risk team).
 
 ### 3. Security Compliance workflow

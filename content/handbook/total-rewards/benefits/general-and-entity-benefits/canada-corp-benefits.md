@@ -15,7 +15,7 @@ Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqA
 
 ## Group Health Coverage
 
-GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
+GitLab offers medical, dental, and vision coverage at no cost to the team member. 
 
 ### Medical, Dental, and Vision Coverages
 
@@ -59,6 +59,71 @@ Connect via your ManuLife App for services including:
 
 Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
 
+### Enrollment and Access
+
+You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). See this video on how to [navigate the ManuLife Portal](https://drive.google.com/file/d/13Lxx8EC8FsWm5q-dc3kNkbAswNndzX2D/view?usp=sharing) and this video on the [ManuLife Mobile App access](https://drive.google.com/file/d/16bmw-RpeL8YKiz7MOWCJA03hQ0jEfubV/view?usp=sharing)
+
+**For new hires:**
+Once you've determined your enrollment coverage (family plan or single plan), email your decision to total-rewards@gitlab.com. This step must be completed in order for your enrollment process to begin.
+
+During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.  
+Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
+
+More Details on setting up your ManuLife site can be found the [GitLab ManuLife Resource Page](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/) including the following guides:
+
+- Drug Plan Broucher
+- Pharmacy Savings Tool-E
+- HBD Personalized Medicine Program
+- How To Designate a Beneficiary
+- Emergency Travel Brochure
+- Videos on how to navigate the ManuLife Portal
+
+#### Updating Coverage Status, Life Events and Enrollment of Domestic Partners, Spouses, and Dependents
+
+Definition of dependents include legally married or common law spouses, children under 21, including children of common law spouses. Children under 25 are also covered if they are a full time student - proof of school enrollment is required. 
+
+Team Members can change their plan status during certain Life Events. These Life events include:
+
+- Marital Status
+- Dependent Child (birth, adoption, legal gaurdianship, stepchild, etc)
+- Death of a spouse or child
+- Loss of spousal coverage
+- Over-age student (ages 21-25) attends college/university each year (Sep 1- Aug 31)
+
+##### Adding Dependents on to the ManuLife platform
+
+If Team Members already have Dependents under the plan they can add more dependents during a life event themselves via the [ManuLife Portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Should you have any questions please reach out to ManuLife at 1-800-268-6195. 
+
+If this is the first dependent you are adding to the plan, please send Total-Rewards@gitlab.com an email with your request, please include your dependent's full legal name, date of birth, gender and if they have the additional coverage via their own employer or your spouse's employer for dependents. 
+
+#### Insurance Cards
+
+Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal. 
+
+This card provides your group plan number and member identification number. Keep this information with you at all times and use it when requested by a health or dental provider or in case of medical emergency when traveling.
+
+#### Offboarding and ManuLife Cover
+
+Your benefits will cease on the day of your termination. There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact our brokers, SC Insurance, for more information about your options. You can find contact information below. Options are limited to a period of time after your coverage terminates, typically 30 or 60 days.
+
+SC Insurance: info@scinsurance.ca or call 416.259.1166
+
+### Frequently asked questions
+
+- Can the pharmacist submit my prescription claim electronically without a drug card?
+  - Yes, as long as you have the necessary information, a physical card is not needed for your prescription claim to be electronically submitted. Here are a few options for you: Log-on and print out a paper copy of your drug card. Provide your pharmacist you plan number, identification number, date of birth and identify if the patient is the employee, spouse or dependent child.
+- Who should I contact with questions?
+  - For general questions about group coverage, claims and more, you can contact manulife at 1-800-268-6195 (8 a.m. to 8 p.m. EST, Mon. to Fri.)
+- What are my key responsibilities as a plan member?
+  - If you experience a major lifestyles event, you must advise your plan administrator within 31 days of the event and complete any corresponding paperwork. Failure to notify Canada Life of a lifestyle event within 31 days of the event, could result in limitations or declined coverage. Please see your plan administrator for support.
+  - Major lifestyles events include:
+    - Marriage - legal or common-law (1st day of cohabitation)
+    - Legal Separation
+    - Divorce or termination of a common-law relationship
+    - Death of spouse or insured child, Birth or adoption of a child
+    - Loss of spouse's benefits
+    - Dependents becoming ineligible for dependent coverage either because of their age or student status
+
 ## Life Insurance / AD&D
 
 - Benefit: 2 times annual earnings to a maximum of $500,000
@@ -79,47 +144,15 @@ It's important to have this information up to date to ensure that team member's 
 - Tax-Status: Taxable benefit at time of claim
 - Termination age: 65 or earlier retirement
 
-## Enrollment and Access
+## Personal Travel Assitance
 
-See this video on how to [navigate the ManuLife Portal](https://drive.google.com/file/d/13Lxx8EC8FsWm5q-dc3kNkbAswNndzX2D/view?usp=sharing) and this video on the [ManuLife Mobile App access](https://drive.google.com/file/d/16bmw-RpeL8YKiz7MOWCJA03hQ0jEfubV/view?usp=sharing)
+Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation. 
 
-**For new hires:**
-Upon your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.  
-Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
+Please see these resources for additional details:
 
-### Updating Coverage Status and Enrollment of Domestic Partners, Spouses, and Dependents
-
-TBD - Instructions will be updated after the launch of the benefit plan on July 1st.
-
-Domestic Partner Enrollment: tbd
-
-### Insurance Cards
-
-Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal. 
-
-This card provides your group plan number and member identification number. Keep this information with you at all times and use it when requested by a health or dental provider or in case of medical emergency when traveling.
-
-### Offboarding and ManuLife Cover
-
-Your benefits will cease on the day of your termination. There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact our brokers, SC Insurance, for more information about your options. You can find contact information below. Options are limited to a period of time after your coverage terminates, typically 30 or 60 days.
-
-SC Insurance: info@scinsurance.ca or call 416.259.1166
-
-## Frequently asked questions
-
-- Can the pharmacist submit my prescription claim electronically without a drug card?
-  - Yes, as long as you have the necessary information, a physical card is not needed for your prescription claim to be electronically submitted. Here are a few options for you: Log-on and print out a paper copy of your drug card. Provide your pharmacist you plan number, identification number, date of birth and identify if the patient is the employee, spouse or dependent child.
-- Who should I contact with questions?
-  - For general questions about group coverage, claims and more, you can contact manulife at 1-800-268-6195 (8 a.m. to 8 p.m. EST, Mon. to Fri.)
-- What are my key responsibilities as a plan member?
-  - If you experience a major lifestyles event, you must advise your plan administrator within 31 days of the event and complete any corresponding paperwork. Failure to notify Canada Life of a lifestyle event within 31 days of the event, could result in limitations or declined coverage. Please see your plan administrator for support.
-  - Major lifestyles events include:
-    - Marriage - legal or common-law (1st day of cohabitation)
-    - Legal Separation
-    - Divorce or termination of a common-law relationship
-    - Death of spouse or insured child, Birth or adoption of a child
-    - Loss of spouse's benefits
-    - Dependents becoming ineligible for dependent coverage either because of their age or student status
+- [Travel Assistance Brouchure](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/content/076f2343-1136-49f8-a1ff-2d17a9fca17a)
+- [Trip Cancellation Insurance](https://events.snwebcastcenter.com/manulife/GBRS/Prod/gbmessagecenter/Trip_Cancellation_InsEN.pdf)
+- See the page 20-23 of the [policy](https://drive.google.com/file/d/1xCtEk8bHHCkwdlQWeNBfTdQ7g-p1cSVM/view?usp=sharing)
 
 ## Registered Retirement Savings Plan (RRSP)
 
@@ -131,6 +164,7 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 - Match: GitLab will match up to 3% of base salary with a cap of 2,500 CAD. Team members may voluntarily choose to contribute more than 3% with no employer match.
 - Eligibility criteria: All full-time (defined as working at least 30 hours per week) team members of GitLab Canada Corp.
 - Contributions may be updated at any time, but please allow 1 - 2 payroll cycles for the new contribution amount to reflect in your paycheck.
+- Withdrawals are not permitted on the employer or member portion.  If the member has a voluntary account than they are permitted.
 
 ### RRSP Enrollment
 

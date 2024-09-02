@@ -127,8 +127,8 @@ all situations where documentation is required.
 <!--
   To update the table above:
 
-  - For tech writer's name per stage, change data/stages.yml and sites/handbook/includes/stages/tech-writing.html.haml
-  - To turn off a stage, set tw: false in data/stages.yml
+  - For tech writer's name per stage, change https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml and https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/layouts/shortcodes/tech-writing.html
+  - To turn off a stage, set tw: false in https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml
 
 Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 -->
@@ -156,14 +156,12 @@ For collaboration in other projects and subjects:
 |:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | The documentation site                                      | {{< member-by-name "Susan Tacker" >}}                                                                                                                              |
 | The documentation site backend (code, automation)                                             | {{< member-by-name "Sarah German" >}}                                                                                                                              |
-| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
-| [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
+| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
+| [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
+| [Left nav](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html) (information architecture of docs)                                                                                     | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
 | [Testing/Vale/markdownlint](#testing)                                                                           | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Documentation handbook](/handbook/product/ux/technical-writing/documentation/)                                                              | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Technical Writing handbook](/handbook/engineering/ux/technical-writing/)                                       | {{< member-by-name "Susan Tacker" >}}                                                                                                                                 |
 | [Tutorials](https://docs.gitlab.com/ee/tutorials/)                                                              | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
-| [What's new](https://docs.gitlab.com/ee/administration/whats-new.html)                                          | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
-| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)                            | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Fiona Neill" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
+| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)                            | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
 
@@ -281,7 +279,7 @@ When taking PTO, Technical Writers:
 
    ```text
    I'm off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
-   https://about.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
+   https://handbook.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
    For urgent _named time-sensitive task_ matters, ping _named TW_.
    ```
 
@@ -305,6 +303,9 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- November, 2024: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
+- October, 2024: {{< member-by-name "Russell Dickenson" >}}
+- September, 2024: {{< member-by-name "Marcel Amirault" >}}
 - August, 2024: {{< member-by-name "Jon Glassman" >}}
 - July, 2024: {{< member-by-name "Ashraf Khamis" >}}
 - June, 2024: {{< member-by-name "Evan Read" >}}
@@ -315,9 +316,6 @@ Schedule for Docs project maintenance tasks:
 - January, 2024: {{< member-by-name "Phillip Wells" >}}
 - December, 2023: {{< member-by-name "Achilleas Pipinellis" >}}
 - November, 2023: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
-- October, 2023: {{< member-by-name "Russell Dickenson" >}}
-- September, 2023: {{< member-by-name "Evan Read" >}}
-- August, 2023: {{< member-by-name "Kati Paizee" >}}
 
 ## Reviews
 

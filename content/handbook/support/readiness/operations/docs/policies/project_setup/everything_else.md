@@ -14,7 +14,7 @@ Some general advise would be:
 - Use a project template for the project's creation (whichever one is the
   closest match) to ensure the settings are close to what you need
 
-Make sure to setup the [.gitlab folder and its contents](./gitlab_folder_setup)
+Make sure to setup the [.gitlab folder and its contents](gitlab_folder_setup)
 for the project!
 
 ---

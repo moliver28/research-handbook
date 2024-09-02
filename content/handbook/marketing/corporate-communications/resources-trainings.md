@@ -24,9 +24,9 @@ As a GitLab team member, no matter your role, you are typically actively engagin
 
 The content amplification does not need to stop at that one event,blog post or webinar! Why not create a domino effect with your content to further the reach and increase viewership of the topic.
 
-#### 🔗 Watch the training [here](https://youtu.be/VrKd89vJizM) (you'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video)
+**🔗 Watch the training [here](https://youtu.be/VrKd89vJizM) (you'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video)**
 
-##### Follow along with the presentation here: [How to make your content work harder for you](https://docs.google.com/presentation/d/1RPSkAWtXtWfbuoHD9D1iSdt5o1d7a4MA5QPGjGeFFXM/edit#slide=id.g29a70c6c35_0_68)
+**Follow along with the presentation here: [How to make your content work harder for you](https://docs.google.com/presentation/d/1RPSkAWtXtWfbuoHD9D1iSdt5o1d7a4MA5QPGjGeFFXM/edit#slide=id.g29a70c6c35_0_68)**
 
 ### How to get in touch with GitLab PR/Content
 
@@ -41,7 +41,7 @@ The content amplification does not need to stop at that one event,blog post or w
 
 Anyone can test their knowledge of social media basics or get up to speed with our social media 101 training and certification. The video runs under 22 minutes and the knowledge assessment could be done in as little as 10 minutes. You could be more confident with social media in less than 45 minutes!
 
-#### 🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/c5UcbNYVTu4)
+**🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/c5UcbNYVTu4)**
 
 We're aware of a typo in the middle of the session. Instead of "do no" at 4:43 and 5:46, it should be "do not". Kristen says this in the session, but the slide is missing the last letter.
 

@@ -34,23 +34,29 @@ The following members of other functional teams are our stable counterparts, and
 
 {{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
-### [Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
+### Performance and Optimization
+
+[Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "subashis">}}
 
-### [Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
+### Projects
+
+[Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
 
 DRI: {{< member-by-gitlab "ryaanwells" >}}
 
 {{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
 
-### [AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
+### AI
 
-DRI: {{< member-by-gitlab "sming-gitlab" >}}
+[AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
 
-{{< member-and-role-by-gitlab "dpisek" "darbyfrey" "alexbuijs" >}}
+DRI: {{< member-by-gitlab "nmccorrison" >}}
+
+{{< member-and-role-by-gitlab "sming-gitlab" "dpisek" "subashis" "darbyfrey"  >}}
 
 ### Reporting Structure
 
@@ -175,7 +181,7 @@ If a support engineer requests assistance via Slack and it requires investigatio
 * [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
 * Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) project for support requests.
 
-Our preference is to utilise the [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) as much as possible. This helps with visibility, tracking and review. 
+Our preference is to utilise the [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) as much as possible. This helps with visibility, tracking and review.
 
 These items must be triaged continuously which means they must be checked multiple times a week.
 
@@ -226,7 +232,7 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 
 ### Running E2E specs in the MR pipeline
 
-We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
 
 * GraphQL (API response, query parameters, schema etc)
 * Gemfile (version changes, adding/removing gems)
@@ -240,7 +246,7 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 ### E2E tests with feature flags
 
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
-Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:package-and-test` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
+Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
 
 ## Monitoring
 
@@ -272,7 +278,7 @@ This will help ensure that the changes follow best practice, are well tested, ha
 
 The Threat Insights group welcomes community contributions. Any community contribution should get prompt feedback from one of the Threat Insights engineers. All engineers on the team are responsible for working with community contributions. If a team member does not have time to review a community contribution, please tag the Engineering Manager, so that they can assign the community contribution to another team member.
 
-If a team member creates an issue or finds an issue where we would be open to a community contribution, it should be labelled with ~"Seeking community contributions". If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
+If a team member creates an issue or finds an issue where we would be open to a community contribution, it should be labeled with ~"Seeking community contributions". If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
 
 ### Group discussion
 

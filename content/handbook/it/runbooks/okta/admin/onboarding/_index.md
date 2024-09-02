@@ -242,7 +242,7 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 
 > **Laptop Transfer?** You can skip this task.
 
-1. In the Gmail browser tab, open the email titled `Join gitlab on 1Password`.
+1. In the Gmail browser tab, open the email titled `Join GitLab on 1Password`.
     <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_1.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_1.png" />
 1. Click the **Join now** button.
     <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_2.png" />

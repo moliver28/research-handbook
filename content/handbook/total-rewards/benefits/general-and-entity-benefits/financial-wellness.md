@@ -48,7 +48,6 @@ Examples of Learning Courses include:
 
 - [Managing Your Personal Finances](https://www.linkedin.com/learning/managing-your-personal-finances-2021/what-s-your-money-story?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Behavioral Finance Foundations](https://www.linkedin.com/learning/behavioral-finance-foundations-2/behavioral-finance-and-the-stock-market?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-[The Five-step Guide to Mastering Your Money](https://www.linkedin.com/learning/the-five-step-guide-to-mastering-your-money/achieving-your-financial-goals?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Personal Finance Tips & Tricks](https://www.linkedin.com/learning/personal-finance-tips-and-tricks/welcome-to-the-series?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Managing Your Personal Investments](https://www.linkedin.com/learning/managing-your-personal-investments/taking-control-of-your-investments?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Financial Wellness: Managing Personal Cash Flow](https://www.linkedin.com/learning/financial-wellness-managing-personal-cash-flow/understanding-your-relationship-with-money?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
@@ -87,9 +86,9 @@ In order for *managers* to understand the full picture of their team members' to
 
 The Total Rewards Summary will be available to managers of team members who have been granted equity on or before 2021-09-03. All RSU grants will not be shown on these summaries as the next grant date for RSUs to be reviewed and approved is 2021-12-15.
 
-- Log into [BambooHR](https://gitlab.bamboohr.com/).
+- Log into Workday through your Okta dashboard.
 - Navigate to the profile of one of your direct reports. Select the Documents tab and expand the `Annual Compensation Review Total Rewards Statements` folder.
-- You can either select the linked document name to open a quick view of the Total Rewards Summary in BambooHR or select the download button that appears to the right of the letter. If you are a manager and are unable to see the Documents tab for your team member, please reach out to `total-rewards@ gitlab` and we will review your access level.
+- You can either select the linked document name to open a quick view of the Total Rewards Summary in Workday or select the download button that appears to the right of the letter. If you are a manager and are unable to see the Documents tab for your team member, please reach out to `total-rewards@ gitlab` and we will review your access level.
 - [Total Rewards Summary example](https://drive.google.com/file/d/1TxOdKxPuFvTRJIswZQEJTmd5IGEMZgx7/view?usp=sharing)
   - Each summary will have a Cash Compensation section outlining the current (FY22) compensation as of November 1st.
   - For team members who are paid a base salary only, the `Target Bonus (Variable)` column will show `Not Applicable`.

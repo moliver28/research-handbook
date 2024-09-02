@@ -2,8 +2,6 @@
 title: "GitLab Testing Agreement v2"
 ---
 
-## GitLab Testing Agreement
-
 *Deprecated: 2023-06-29*
 
 This Testing Agreement ("Agreement") is between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 ("GitLab"), and either (i) the entity electronically accepting this Agreement; or (ii) the entity on behalf of which the Testing Features are enabled, as applicable and in either case, "Customer". This Agreement is effective as of the earlier date on which (i) Customer clicks to accept this Agreement within the GitLab software; or (ii) an individual acting on behalf of Customer opts to enable the Testing Features ("Effective Date"). The parties agree to the following terms and conditions related to Customer's use of the applicable Testing Feature.
@@ -12,7 +10,7 @@ An individual opting to enable the Testing Features subject to this Agreement re
 
 **1. DEFINITIONS**
 
-1.1. "Testing Feature(s)" are experimental, alpha, or beta features that are not ready for production use. Testing Features are provided without, or with limited, support under commercially reasonable efforts, as determined in GitLab's discretion, as further described here: https://docs.gitlab.com/ee/policy/experiment-beta-support.html. The applicable Testing Feature may be listed as "experimental", "alpha", or "beta" as further described on the https://docs.gitlab.com/ page covering the Testing Feature along with additional details and applicable use terms incorporated herein by reference.
+1.1. "Testing Feature(s)" are experimental, alpha, or beta features that are not ready for production use. Testing Features are provided without, or with limited, support under commercially reasonable efforts, as determined in GitLab's discretion, as further described here: <https://docs.gitlab.com/ee/policy/experiment-beta-support.html>. The applicable Testing Feature may be listed as "experimental", "alpha", or "beta" as further described on the <https://docs.gitlab.com/> page covering the Testing Feature along with additional details and applicable use terms incorporated herein by reference.
 
 1.2. "AI Assisted" means the use of, or development of work product with the assistance of, artificial intelligence (including machine learning).
 

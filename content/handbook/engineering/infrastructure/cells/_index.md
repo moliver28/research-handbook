@@ -23,14 +23,17 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <td>
 
 [Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.0.html)
+
 </td>
 <td>
 
 [Cells 1.5](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.5.html)
+
 </td>
 <td>
 
 [Cells 2.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-2.0.html)
+
 </td>
 </tr>
 <tr>
@@ -187,275 +190,117 @@ DRI of Expansion Software Development
 
 </table>
 
-### Workstreams
+## Cells 1.0
 
-<table>
-<tr>
-<td>
+All Cells 1.0 work is tracked under the [Cells 1.0 Epic](https://gitlab.com/groups/gitlab-org/-/epics/12383).
+The Epic is split into multiple phases where each one represents a iteration to achieve Cells 1.0.
+Some of these phases have dependencies over one another, and some can be run in parallel.
 
-**Work stream**
-</td>
-<td>
+### Phase 1: PreQA Cell
 
-**Engineering DRI**
-</td>
+Exit Criteria:
 
-<td>
+- New GCP organizations created.
+- Break glass procedure.
+- Ring definition exists.
+- Cell provisioned using dedicated stack.
+- Able to do configuration changes to Cell.
+- Cell available at `xxx.cells.gitlab.com`.
+- Cell doesn't handle data uniqueness.
 
-**PM DRI**
-</td>
+![phase-1](img/phase-1.png)
 
-<td>
+[source](https://excalidraw.com/#json=DuwGFqR2LcS6k2TZlYu9u,LKDzUCdkiHLO11c3rgFVeQ)
 
-**TPM DRI**
-</td>
-</tr>
+Unblocks:
 
-<tr>
-<td>Application's Cell readiness</td>
-<td>
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): To provision runway deployment for Topology Service
+- Delivery team: Start testing deploys on rings
 
-[Kamil Trzciński](https://gitlab.com/ayufan)
-</td>
-<td>
+Dependencies:
 
-[Josh Lambert](https://gitlab.com/joshlambert)
-</td>
-<td>
+- None
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
+Epic:
 
-<tr>
-<td>Organization for Cells</td>
-<td>
+- <https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293>
 
-[Alex Pooley](https://gitlab.com/alex.pooley)
-</td>
-<td>
+### Phase 2: GitLab.com HTTPS Passthrough Proxy
 
-[Christina Lohr](https://gitlab.com/lohrc)
-</td>
-<td>
+Exit Criteria:
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
+- 100% of API traffic goes through router using passthrough proxy rule.
+- 100% of Web traffic goes through router using passthrough proxy rule.
+- 100% of Git HTTPS traffic goes through router using passthrough proxy rule.
+- Requests meet [latency target](https://docs.gitlab.com/ee/architecture/blueprints/cells/http_routing_service.html#low-latency)
+- registry.gitlab.com not proxied.
 
-<tr>
-<td>Architecture</td>
-<td>
+![phase-2](img/phase-2.png)
 
-[Kamil Trzciński](https://gitlab.com/ayufan)
-</td>
-<td>
+[source](https://excalidraw.com/#json=ymWufV5324javtKSrYiZW,5S-bkgtFS_yEIRxmVZ1rag)
 
-[Josh Lambert](https://gitlab.com/joshlambert)
-</td>
-<td>
+Unblocks:
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Router to be configured with additional rules in phase 3.
 
-<tr>
-<td>Cells Services  (includes Router and Topology services)</td>
-<td>
+Dependencies:
 
-[Thong Kuah](https://gitlab.com/tkuah)
-</td>
-<td>
+- None
 
-[Christina Lohr](https://gitlab.com/lohrc)
-</td>
-<td>
+Epic:
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
-<tr>
+- <https://gitlab.com/groups/gitlab-org/-/epics/12775>
 
-<td>Cell lifecycle automation and management</td>
-<td>
+### Phase 3: GitLab.com HTTPS Session Routing
 
-[Steve Xuereb](https://gitlab.com/sxuereb)
-</td>
-<td>
+Exit Criteria:
 
-[Christina Lohr](https://gitlab.com/lohrc)
-</td>
-<td>
+- PreQA Cell configured to generate `_gitlab_session` with prefix using rails config.
+- Route `_gitlab_session` with matching prefix to PreQA Cell using TopologyService::Classify (REST only) with static config file.
+- Continuous Delivery on Ring 0 with no rollback capabilities and doesn't block production deployments.
+- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment)
+- Topology Service gRPC endpoint not implemented.
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
+Unblocks:
 
-<tr>
+- [Phase 4](phase-4-gitlab-com-https-token-routing)
 
-<td>Observability</td>
-<td>
+Before/After:
 
-[Rachel Nienaber](https://gitlab.com/rnienaber)
-</td>
-<td>
+![phase-3](img/phase-3.png)
 
-[Christina Lohr](https://gitlab.com/lohrc)
-</td>
-<td>
+[source](https://excalidraw.com/#json=z7-ihTQ69trj5vdpXZ-7V,k0NtksWZMRdaR-lHoH3JMQ)
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
+Dependencies:
 
-<tr>
-<td>Application Deployment</td>
-<td>
+- [Phase 2](#phase-2-gitlabcom-https-passthrough-proxy): Passthrough proxy needs to be deployed.
+- [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
 
-[Dave Smith](https://gitlab.com/dawsmith)
-</td>
-<td>
+Epic:
 
-[Sam Wiskow](https://gitlab.com/swiskow)
-</td>
-<td>
+- <https://gitlab.com/groups/gitlab-org/-/epics/14509>
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
+### Phase 4: GitLab.com HTTPS Token Routing
 
-<tr>
-<td>Production readiness</td>
-<td>
+Exit Criteria:
 
-[Chun Du](https://gitlab.com/cdu1)
-</td>
-<td>
+- Framework to generate routable tokens in Rails.
+- Framework to classify routable tokens in HTTP Router.
+- Topology Service being able to classify based on more criteria.
+- Route Personal Access Tokens to different Cells using TopologyService::Classify.
+- Support `PRIVATE-TOKEN:` and `Authorization:` HTTP headers for Personal Access Tokens, create issues for other to be solved in following phases.
+- Each routing rule added should be covered with relevant e2e tests.
+- Route Job Tokens and Runner Registration to different Cells using TopologyService::Classify.
 
-[Josh Lambert](https://gitlab.com/joshlambert)
-</td>
-<td>
+Before/After:
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
-<tr>
+![phase-4](img/phase-4.png)
 
-<td>Operations</td>
-<td>
+[source](https://excalidraw.com/#json=rWNPd77fLEhwZpERiUYLA,Tb-v5Hen6NomaopcmE9_mw)
 
-[Rick Mar](https://gitlab.com/rmar1)
-</td>
-<td>
+Epic:
 
-[Josh Lambert](https://gitlab.com/joshlambert)
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
-
-<tr>
-<td>Performance validation of Cells</td>
-<td>
-
-[Andy Hohenner](https://gitlab.com/AndyWH)
-</td>
-<td>
-
-[Christina Lohr](https://gitlab.com/lohrc)
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-</td>
-</tr>
-</table>
-
-## Program Planning and Tracking
-
-All Cells 1.0 work is tracked under the [Cells 1.0 Epic](https://gitlab.com/groups/gitlab-org/-/epics/12383). We also have a planning [spreadsheet](https://docs.google.com/spreadsheets/d/1n1h99JKDuNJbfv46rFniCGg0Z0Mgm1QA8OyuSGxosFo/edit#gid=0) that provides a high level program structure and timelines (for planning purpose only).
-
-### Reference links
-
-- [Cells 1.0 Epic](https://gitlab.com/groups/gitlab-org/-/epics/12383)
-- [Cells 1.0 Status Dashboard](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_12383)
-- [Sharding Key migration work for Cells](https://cells-progress-tracker-gitlab-org-tenant-scale-g-f4ad96bf01d25f.gitlab.io/sharding_keys)
-- [Database schema migration](https://gitlab-org.gitlab.io/tenant-scale-group/cells-progress-tracker/schema_migration)
-
-### Cells 1.0 Milestones
-
-1. First Production Cell - Experiment
-   - label: [cells-1.0-milestone::Experiment](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aexperiment&first_page_size=20)
-   - Production system with No customer data. We have an environment that covers testing needs of Test Platform and Development teams.
-   - Entering criteria: A cell is brought up so that development teams and Infra teams have an environment to test their changes, Test platform team has a place to run different kind of tests, including E2E, automation test and etc.
-   - Exit criteria: All the application feature gaps are filled, a Cell is provisioned using the cells lifecycle automation tools, and we run our existing E2E tests on Cells as part of our deployment pipeline
-1. First Production Cell - Beta
-   - label: [cells-1.0-milestone::Beta](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Abeta&first_page_size=20)
-   - We have a production instance that an internal or external customer can do functional and performance test on
-   - Entering criteria: Exit criteria of Experiment milestone
-   - Exit criteria: Customer discovered issues are addressed, we meet our GA requirements
-1. First Production Cell - General Availability
-   - label: [cells-1.0-milestone::GA](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aga&first_page_size=20)
-   - We have a production instance that is ready for internal or external customer's production use
-   - Entering Criteria: Exit criteria of Beta
-
-### Cells 1.0 Timeline
-
-- 2024-11-30: Start of Beta
-- 2025-01-31: GA
-
-#### Cells 1.0 Development Phases
-
-The listed phases will be applied for both Staging then at a later stage to Production, if not stated otherwise. We use the `cells-1.0-milestone::Phase x` labels to categorize issues by phase.
-
-1. [Phase 1](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%201): Deploy router as a pass-through proxy for GitLab.com
-1. [Phase 2](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%202): Deploy router as a pass-through proxy for registry.GitLab.com
-   - Registry behind the WAF
-   - Pass through proxy to Cell 1
-1. [Phase 3](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%203): Routing via classification
-   - Topology Service deployed with classification with Runway
-   - mTLS between the router and topology service
-   - Works with GDK and Cell 2 (QA) to unblock development/testing of certain workflows.
-1. [Phase 4](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%204): Complete Cells Services
-   1. Phase 4a: Add Claim Service
-   1. Phase 4b: Enable Claim Service on Cell 1
-   1. Phase 4c: Backfill of Claims
-1. [Phase 5](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%205): Register existing GitLab.com as a Cell with Topology Service
-   1. Phase 5a: Legacy infrastructure becomes a cell
-   1. Phase 5b: Database Sequencing Service - Sequence claiming is enabled on Cell 1 (legacy GitLab.com)
-1. [Phase 6](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%206): Cell 2 Ready (QA cell, no external customers)
-   1. Phase 6a: Application Readiness
-      - Basic functionality across Cells such as sign-up, project creation, running pipelines.
-      - Enable organizations FF on Cell 2
-      - Hook up Fulfillment/License
-   1. Phase 6b: Continuous Deployment to Cell 2 (QA cell, no external customers)
-      - Dedicated on GCP pre-GA
-      - Able to run QA E2E tests across cells
-      - Hook up data replication to Snowplow/Tableau
-   1. Limitations
-      - No automation
-      - No internal and external customers
-1. [Phase 7](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%207): Reconfigure Gitlab Shell to use Topology Service
-1. [Phase 8](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%208): Production readiness
-1. [Phase 9](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%209): Cell 3
-   - Internal customers only
-1. [Phase 10](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%210): Create an organization for a GitLab internal customer, for example Finance
-   - Enable organization FF on Cell 3
-   - Move the internal customer to Cell 3 with Direct Transfer
-
-### Work Estimation
-
-We use t-shirt sizing to estimate the time and effort needed to deliver issues/epics. Sizes are not meant to be viewed as precise estimations or timeline commitments. Rather, these sizes help us identify risk areas and opportunities for cutting scope. Sizes map to the following definitions:
-
-| Size   | Time       |
-| ------ | ---------- |
-| Tiny   | 1-2 weeks  |
-| Small  | 1 month    |
-| Medium | 3 months   |
-| Large  | 6 months   |
-| XXL    | > 6 months |
+- <https://gitlab.com/groups/gitlab-org/-/epics/14510>
 
 ## Communication
 

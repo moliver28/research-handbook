@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html
 title: Sign-off
 category: Project Execution
 ---

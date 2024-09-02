@@ -46,7 +46,7 @@ for your search!
 In both cases, you can click on `Requested` or `Updated` to sort by most recent
 so that you'll be sure to have fresher information.
 
-#### Architecture diagram and [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/)
+#### Architecture diagram and Customer Collaboration Project
 
 The Architecture Diagrams app automatically checks for the presence of the
 relevant diagram if the customer has a [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) URL entered in

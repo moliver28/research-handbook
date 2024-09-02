@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg){: .medium.center}
+![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg)
 
 The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfElNsQthY6t1i0UXYr0wFW3DuvWww6) provides guidance and information to business owners, executives and managers on the ways in which they can transition to a remote workforce. Our audience of founders, CROs, CXOs, HR leaders, and managers work in all industries, particularly in tech and enterprise to midsize companies. For additional context, visit the GitLab [All-Remote Marketing Handbook](/handbook/ceo/office-of-the-ceo/workplace/).
 
@@ -37,7 +37,7 @@ Everyone can contribute content to the All-Remote Channel provided it follows th
 
 ## Audience
 
-![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg){: .medium.center}
+![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg)
 
 The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfElNsQthY6t1i0UXYr0wFW3DuvWww6) informs business leaders and stakeholders about the various aspects of implementing and managing remote teams. For the purposes of this channel, we split the audience into two groups:
 
@@ -46,7 +46,7 @@ The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfEl
 
 ## Content Types and Guidelines
 
-![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg){: .medium.center}
+![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 
 To keep the All-Remote Channel focused on its intended [audience](/handbook/ceo/office-of-the-ceo/workplace/#our-audience), please adhere to the following content guidelines and content types. Specifically, we are looking for content that spotlights:
 
@@ -80,7 +80,7 @@ Uploading criteria:
 
 ### How-To Videos
 
-![GitLab journey illustration](/images/all-remote/gitlab-journey-and-navigation.jpg){: .medium.center}
+![GitLab journey illustration](/images/all-remote/gitlab-journey-and-navigation.jpg)
 
 All-remote how-to videos will provide viewers with quick, actionable tips on remote work. When creating a how-to video, remember to keep the video focused on a single action and outcome. The [all-remote audience](/handbook/ceo/office-of-the-ceo/workplace/#our-audience) tends to prefer presentation-style videos, so keep this in mind as you prepare your content. If you find yourself explaining how to do multiple things, consider breaking up the video down into smaller videos, with each video covering one aspect. As a general rule of thumb, try to keep how-to videos to under 10 minutes.
 

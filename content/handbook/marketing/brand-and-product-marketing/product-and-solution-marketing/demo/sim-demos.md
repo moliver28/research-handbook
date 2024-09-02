@@ -47,9 +47,17 @@ Both the legacy click-through demos and the new sim demos are available from the
 
 #### MacOS Catalina
 
-| In MacOs Catalina you will get an error when you open the demo file.  | ![GitLab Project](/images/tech-pmm/errorcatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
-|  To open it,  right click on the demo file -> Open  | ![GitLab Repository](/images/tech-pmm/demofilecatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
-|  A new dialog will appear,  click Open.   | ![GitLab Repository](/images/tech-pmm/dialogopencatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
+In MacOs Catalina you will get an error when you open the demo file.
+
+![GitLab Project](https://about.gitlab.com/images/tech-pmm/errorcatalina.png)
+
+To open it, right click on the demo file -> Open
+
+![GitLab Repository](https://about.gitlab.com/images/tech-pmm/demofilecatalina.png)
+
+A new dialog will appear,  click Open.
+
+![GitLab Repository](https://about.gitlab.com/images/tech-pmm/dialogopencatalina.png)
 
 ## Creating sim demos
 

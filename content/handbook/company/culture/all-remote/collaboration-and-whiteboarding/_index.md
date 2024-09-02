@@ -36,7 +36,7 @@ When looking for the right tool for you and your team, consider what's most impo
 
 ## Does Google have a collaborative whiteboard?
 
-Remote teams should aim to [minimize their tool stack]({{< ref "remote-work-emergency-plan#minimize-your-tool-stack" >}}). It's good practice to consider how you can extract additional value from tools you already use, and [Google Docs]({{< ref "communication#google-docs" >}}) is a great example of this. While Google Docs is a fantastic shared editing tool, GitLab also uses it for temporal [meeting documentation]({{< ref "../meetings#document-everything-live-yes-everything" >}}) (prior to contextualizing takeaways for placement in relevant [handbook]({{< ref "handbook-first" >}}) sections).
+Remote teams should aim to [minimize their tool stack]({{< ref "remote-work-emergency-plan#minimize-your-tool-stack" >}}). It's good practice to consider how you can extract additional value from tools you already use, and [Google Docs](/handbook/communication/#google-docs) is a great example of this. While Google Docs is a fantastic shared editing tool, GitLab also uses it for temporal [meeting documentation]({{< ref "../meetings#document-everything-live-yes-everything" >}}) (prior to contextualizing takeaways for placement in relevant [handbook]({{< ref "handbook-first" >}}) sections).
 
 It also happens to be a great remote whiteboarding tool.
 
@@ -72,7 +72,7 @@ When a text-based document is too limited, try a collaborative, visual-oriented 
 
 ## Contributed all-remote whiteboard setups
 
-1. [Inexpensive Active Pen Tablet Setup and Three Whiteboarding Apps]({{< ref "./setups#samsung-8-active-pen-tablet-with-liveboard-app" >}})
+1. [Inexpensive Active Pen Tablet Setup and Three Whiteboarding Apps](setups/#samsung-8-active-pen-tablet-with-liveboard-app)
 
 ## How do I run a virtual whiteboard session?
 
@@ -100,11 +100,11 @@ Learn more about "the whiteboarding fixation" in our [guide to understanding the
 
 *In the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) video above, GitLab Head of Remote Darren M. discusses remote team collaboration with Till P. creator of remote collaboration platform [CoScreen](https://www.coscreen.co/).*
 
-Remote collaboration starts with people. Creating a [remote culture]({{< ref "building-culture" >}}) includes trusting that the people within the company will do their work. [Documentation]({{< ref "handbook-first" >}}) is vital to the independence of employees. This includes documenting everything from company [values]({{< ref "values" >}}) to daily [meetings]({{< ref "../meetings" >}}).
+Remote collaboration starts with people. Creating a [remote culture]({{< ref "building-culture" >}}) includes trusting that the people within the company will do their work. [Documentation]({{< ref "handbook-first" >}}) is vital to the independence of employees. This includes documenting everything from company [values](/handbook/values/) to daily [meetings]({{< ref "../meetings" >}}).
 
 Tools and technology will enable a company to operate efficiently, but ensuring that there is documentation with core standards is the first step in setting a collaborative remote environment.
 
-Remote collaboration requires an alignment of [principles and values]({{< ref "values" >}}) as a baseline for stakeholders. Creating mental methods, or frameworks, for collaborators sets a clear roadmap for expectations, ethics, and goals.
+Remote collaboration requires an alignment of [principles and values](/handbook/values/) as a baseline for stakeholders. Creating mental methods, or frameworks, for collaborators sets a clear roadmap for expectations, ethics, and goals.
 
 > "Without the principles and an understanding of which decision-making framework to use and when, people could apply the wrong tool to the job," — *Mike Long, UX Manager, GitLab*
 
@@ -126,7 +126,7 @@ Most design discussions and decisions at GitLab are created and worked in [GitLa
 
 ### Company handbook
 
-At GitLab, we believe that "everyone can contribute." The company handbook is where everything is documented — our [single source of truth]({{< ref "handbook-first#terminology-documentation-handbook-first-single-source-of-truth" >}}) — specifically laying out the six core [values]({{< ref "values" >}}) of the company. The handbook deliberately and intentionally describes each group's role within the company, including how the [UX teams](/handbook/product/ux/product-designer/) researches, designs and writes about the product.
+At GitLab, we believe that "everyone can contribute." The company handbook is where everything is documented — our [single source of truth]({{< ref "handbook-first#terminology-documentation-handbook-first-single-source-of-truth" >}}) — specifically laying out the six core [values](/handbook/values/) of the company. The handbook deliberately and intentionally describes each group's role within the company, including how the [UX teams](/handbook/product/ux/product-designer/) researches, designs and writes about the product.
 
 ### Iterate and iterate some more
 

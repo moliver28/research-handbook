@@ -1,7 +1,5 @@
 ---
 title: "Red Team Rules of Engagement"
-aliases:
-  - /handbook/security/threat-management/red-team/red-team-roe/
 ---
 
 This page outlines the general rules that apply to all work conducted by the Red Team. Individual operations may include additional rules defined during planning stages.
@@ -70,7 +68,7 @@ The sections below contain general rules that apply to all stealth operations.
     - The operation is disclosed internally and continues in the open to further validate security controls and detection mechanisms. Incident response is discontinued for known Red Team activities.
     - The entire operation is not disclosed internally, but the trusted participant informs the team that a specific activity or IoC belongs to the Red Team. The systems involved are considered "virtually contained" and the Red Team relinquishes any access to those systems.
     - The operation ceases completely.
-- We should always prioritize the security of the organization and the wellbeing of our team members. There may be times when we need to make a judgement call and answer these questions quickly, outside of the official channels.
+- We should always prioritize the security of the organization and the well-being of our team members. There may be times when we need to make a judgement call and answer these questions quickly, outside of the official channels.
 
 ### Engaging with SIRT
 

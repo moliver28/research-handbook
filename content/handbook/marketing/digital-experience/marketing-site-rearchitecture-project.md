@@ -111,7 +111,7 @@ We will require GCP Deployment Keys from Infrastructure. We would also like a ne
 ## Definitions
 
 1. Core Marketing Site: Key pages that drive ARR
-1. ARR: https://about.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/
+1. ARR: https://handbook.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/
 1. Vue.js: https://vuejs.org
 1. SSG: Static Site Generator
 1. Nuxt.js: https://nuxtjs.org

@@ -1,27 +1,27 @@
 ---
 title: GitLab Environmental, Social, and Governance
 description: "An overview of corporate sustainability at GitLab."
-aliases:
-- /handbook/esg/
 ---
 
-## GitLab Fiscal Year 2023 (FY23) ESG Report
+## GitLab Fiscal Year 2024 (FY24) ESG Report
 
 ### Message From Our Chief Executive Officer
 
-Welcome to GitLab's inaugural Environmental, Social, and Governance (ESG) report. ESG has been an integral part of GitLab's business and culture, even before we explicitly used the term "ESG." Our approach to ESG aligns with our [Values]({{< ref values >}}#:~:text=GitLab%27s%20six%20core%20values%20are,other%20by%20assuming%20good%20intent.). This can be seen in the management and oversight of our business and in the way we have managed risks and opportunities related to our team and our wider community. It is also evident in our customer-centric approach, our all remote philosophy, the development of our products, and our being an intentional force for good.
+At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance (“ESG”).
 
-GitLab has been a remote workplace since day one. That means we work to eliminate geographical constraints by relying on our scalable employment solution when it comes to recruiting our team members. We focus on skills, experience, enthusiasm, energy, and ability to get the job done well. This has proven to be a win-win, opening doors for us at GitLab and for those who want to work with us. Building an all-remote company is just one example of how we've authentically incorporated ESG principles into our structure and operations. The intentional investments we've made in ESG have been a natural extension of how we started.
+Our all-remote team drives GitLab’s strategy and business results in more than 60 countries worldwide. In FY24, we sharpened our focus on our people by emphasizing the foundational role of high-performing teams and continuing to leverage our core value of diversity, inclusion, and belonging (DIB) to drive innovation and impact across our business. These efforts included launching new training and development programs and additional resources to encourage and enable team members to contribute and to give our people leaders more of the skills they need to manage efficient and effective teams.
 
-Without it being formalized, ESG was already part of our core purpose to help people increase their lifetime earnings through access to opportunities and the DevSecOps platform. That said, we are excited to invest more in this area. This report offers ESG information and data in a single location in an effort to enhance our transparency and clarity.
+Our ESG strategy also encompasses efforts to minimize our environmental impact and better understand and address the potential effects of climate change on our business. In FY24, we continued to enhance our approach to measuring and reporting our greenhouse gas emissions. We conducted GitLab’s first climate risk assessment in alignment with the Task Force on Climate-related Financial Disclosures (TCFD) and launched the first iteration of a supplier engagement program focused on improving the visibility of emissions in our supply chain.
 
-In 2022, we completed our first materiality assessment in which we engaged with internal and external stakeholders to understand where we should prioritize our ESG efforts. Our materiality assessment uncovered the six ESG topics we will focus on to optimize results. We have since formalized our ESG program, identified areas of opportunity, and established a strategy to address and manage the key ESG priorities. This report dives into each of those key ESG priorities and shares how we've taken action.
+We are committed to good corporate governance and high standards of ethics and compliance. In particular, as we continue to harness the power of AI to enhance the GitLab platform, we recognize the importance of working within a robust framework of ethical principles and protecting our customers’ and users’ data. In early fiscal year 2025, we launched the GitLab AI Transparency Center, giving customers direct access to our AI Ethics Principles for Product Development, AI Continuity Plan, and AI features documentation so that they can adopt AI with confidence.
 
-We look forward to building on our efforts to date and continuing to share progress with our stakeholders.
+Lastly, our strategy and mission are also bolstered by engagement with the wider GitLab community. In the last fiscal year, we continued to expand outreach and drive social impact through community programs such as GitLab for Startups, GitLab for Open Source, and GitLab for Education. We also launched GitLab for Nonprofits, which provides free GitLab licenses to registered nonprofit organizations that align with our values and ESG strategy. Our charitable efforts are further complemented by the GitLab Foundation, which supports people in growing their lifetime earnings through education, training, access to opportunities, and systems changes on a global scale.
 
-Thank you,
+As ever, GitLab — the platform and the company — is made stronger by the support of our stakeholders, including our team members, customers, shareholders, and the wider community. I am thankful for the contributions so far and look forward to what we can accomplish together in the years ahead.
 
-Sid Sijbrandij
+Sincerely,
+
+**Sid Sijbrandij**
 
 GitLab Co-Founder and Chief Executive Officer
 
@@ -29,44 +29,41 @@ GitLab Co-Founder and Chief Executive Officer
 
 #### Our Mission and Vision
 
-It is GitLab's [mission](/handbook/company/mission/) to make it so that everyone can contribute. [We make this possible](/handbook/company/mission/#contribute-with-gitlab) by allowing anyone to create a proposal, at any time, without setup, and with confidence. This mission extends to contributions made *with* GitLab and contributions made *to* GitLab (both the application and our company). We believe that when everyone can contribute, the rate of innovation soars.
+GitLab’s [mission](/handbook/company/mission/) is to enable everyone to contribute to and co-create the software that powers our world.
 
-Our [vision](/handbook/company/vision/) captures where we're going over the next decade. Today, we offer a powerful DevSecOps platform. As we evolve, we're positioned to be on the leading edge of a trend toward breaking down silos and enabling streamlined, cross-team collaboration where operationalization reigns supreme. It is our vision to become *the* AllOps platform—a single application for all innovation.
+Our mission is the way we realize [our purpose](/handbook/company/purpose/): to help people increase their lifetime earnings through access to opportunities and the DevSecOps platform.
+
+Our [vision](/handbook/company/vision/) captures what we want to deliver to customers in the next 10 years. Today, GitLab is the most comprehensive AI-powered DevSecOps platform. The DevSecOps Platform shift is part of a larger trend: teams of all types are realizing that breaking down silos has compounding effects on productivity and collaboration. We see it with data and operations teams creating DataOps; we see it with machine learning and ops teams creating MLOps. As more companies (and more teams within a company) rely on our platform, we are positioned to become the **AllOps platform** — a single application for all R&D.
+
+Our efforts are guided by our six core [values](/handbook/values/) of Collaboration, Results for Customers, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency. Together, they spell the **CREDIT** we give each other by assuming good intent.
 
 #### About This Report
 
-*"In GitLab's inaugural ESG Report, we share our key programs, policies, and accomplishments in each of the areas we and our stakeholders consider most important. With our iteration value in mind, we are committed to driving progress across our material ESG topics to ensure we are always improving, meeting and exceeding expectations. I'm proud of how far we have come and excited for the impact GitLab will have as we continue on our ESG journey."*
--Robin Schulman, GitLab Chief Legal Officer and Head of Corporate Affairs
+*“With GitLab’s second ESG Report, we demonstrate our values of iteration and transparency, sharing how we continue to build on our approach to addressing the issues that matter most to our stakeholders and our business. One key example is the launch of our AI Transparency Center, underscoring how we are leveraging the power of AI within a clear framework of ethics, responsibility, and accountability. As our innovation continues to break down barriers, we recognize the increasing opportunity of integrating our business and sustainability strategies to create value for our customers, our shareholders, our team members, and the broader community.”* –**Robin Schulman**, Chief Legal Officer, Head of Corporate Affairs, and Corporate Secretary
 
-GitLab's ("GitLab," "we," "our") Environmental, Social, and Governance ("ESG") report details GitLab's priorities, progress, and performance across ESG key topics. Data about financial performance is not included in this report and may be found in our [financial and SEC filings](https://ir.gitlab.com/financial-information/sec-filings?field_nir_sec_date_filed_value=).
+GitLab’s Environmental, Social, and Governance (“ESG”) Report includes information on our key ESG focus areas, our programs and policies, achievements to date, metrics and targets that help define our ESG program, and our plans for the future. Data about GitLab’s financial performance is not included in this report and may be found in our [financial and SEC filings](https://ir.gitlab.com/financial-information/sec-filings?field_nir_sec_date_filed_value=).
 
-Unless otherwise specified, the information included in this Report was last updated on July 20, 2023. The content included in this report covers Fiscal Year 2023 ("FY23") (as of January 31, 2023). The report will be updated annually. Throughout the report, there may be mentions of Fiscal Year 2024 ("FY24") which runs February 1, 2023 through January 31, 2024. We maintain a public facing [Handbook]({{< ref handbook >}}) and throughout this Report, we link to certain [Handbook]({{< ref handbook >}}) pages. These [Handbook]({{< ref handbook >}}) pages are maintained separately and may reflect a different reporting period from what is found within this Report.
+Unless otherwise specified, the information included in this report was last updated on July 18, 2024. The content included covers Fiscal Year 2024 (“FY24”) (as of January 31, 2024) and we plan to update the report annually. Throughout the report, there may be mentions of Fiscal Year 2025 (“FY25”), which runs from February 1, 2024, through January 31, 2025. We would also like to note that GitLab maintains a public-facing [handbook](/handbook/), pages of which are linked throughout the report. These pages are maintained separately and may reflect a different reporting period than this report.
 
-This Report has been prepared with reference to the Global Reporting Initiative's ("GRI") standards released in October 2021. We also disclose in alignment with the Sustainability Accounting Standards Board ("SASB") under the Software & IT Services industry.
+This report has been prepared with reference to the Global Reporting Initiative (“GRI”) Standards released in October 2021 and the Sustainability Accounting Standards Board (“SASB”) Standard for Software & IT Services. We have also provided disclosures based on the framework of the Task Force on Climate-related Financial Disclosures (“TCFD”). Content indexes for these standards are available in the [Appendix](#appendix).
 
-This Report was first published on July 20, 2023.
+GitLab’s Nominating and Corporate Governance Committee on the Board of Directors (“Board”) has reviewed the information in this report.
 
-*Key ESG topics identified during GitLab's materiality assessment.
-
-For questions and information on GitLab's ESG Team, please visit the [ESG handbook page](/handbook/legal/esg/).
+For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/ESG/).
 
 #### Our Approach to ESG
 
 ##### ESG Strategy
 
-ESG practices, although newly formalized in GitLab's strategy, have been embedded in our work culture since inception. Deeply integrated into the business philosophy, GitLab's ESG strategy is driven by our [values]({{< ref values >}}) of Collaboration, Results, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT).
+GitLab’s ESG strategy is driven by our [values](/handbook/values/) and deeply integrated into the company's business philosophy. It reflects longstanding practices embedded in our work culture since GitLab’s inception, as well as updated policies and programs designed to meet the evolving needs and expectations of our stakeholders.
 
-GitLab's ESG [Team]({{< ref environmental-social-governance >}}) created and continuously maintains GitLab's corporate sustainability strategy and programs. This includes creating and managing GitLab's ESG disclosures and public ESG reports, identifying and prioritizing key issues to advance our social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab's values and mission.
+The [ESG Team](/handbook/legal/esg/) creates and maintains GitLab’s ESG/sustainability strategy and programs. This includes creating and managing GitLab’s ESG disclosures and public ESG reports, identifying and prioritizing key issues to advance our social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab’s values and mission.
 
-In December 2022, we completed an ESG materiality assessment to determine which ESG topics are most important to our business and to our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab's business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. GitLab leadership, including the Nominating and Governance Committee of GitLab's Board of Directors, were given the opportunity to engage in the assessment. Our materiality matrix was finalized in January 2023.
+##### ESG Materiality Assessment
 
-##### ESG Materiality Matrix
+Our ESG strategy is informed by an understanding of the ESG topics that matter most to our business and our stakeholders. Completed in December 2022, our ESG materiality assessment included engagement with internal and external stakeholders and a focus on “double materiality,” exploring both topics that have the greatest impact on GitLab’s business, as well as the actual and potential impact of our activities on the environment, society, and our global communities. GitLab senior leadership — including members of the Nominating and Corporate Governance Committee of GitLab’s Board of Directors — were engaged as part of the assessment.
 
-Six key topics, which drive GitLab's ESG strategy and program development, were identified in GitLab's materiality assessment.
-
-![Materiality_Matrix](/handbook/legal/esg/GitLab_2022_MaterialityMatrix_062123.PNG)
-
-GitLab's current key topics are listed below:
+The materiality assessment identified the following key ESG topics:
 
 **Social**
 
@@ -75,7 +72,7 @@ GitLab's current key topics are listed below:
 
 **Environment**
 
-- Greenhouse Gas Emissions
+- Climate Action and Greenhouse Gas Emissions
 
 **Governance**
 
@@ -83,303 +80,415 @@ GitLab's current key topics are listed below:
 - Responsible Product Development
 - Business Ethics
 
+We also include in this report other topics relevant to our business and stakeholders, including Community, Social Impact, and Corporate Governance.
+
 #### United Nations Sustainable Development Goals Alignment
 
-In developing our ESG strategy, we have aligned our efforts to the [United Nations Sustainable Development Goals ("UN SDGs")](https://sdgs.un.org/goals). The UN SDGs provide a shared blueprint for peace and prosperity for people and the planet, now and into the future. To that end, our ESG efforts align with five of the seventeen UN SDGs, and we seek to drive progress on the goals within our operations. We will continue to revisit and deepen our alignment as we make progress on our ESG strategy. Throughout this report we include the relevant UN SDG number in each section.
+The [United Nations Sustainable Development Goals (“UN SDGs”)](https://sdgs.un.org/goals) provide a shared blueprint for peace and prosperity for people and the planet, now and into the future. Our ESG efforts currently align with five of the 17 UN SDGs, and we seek to drive progress on the goals within our operations. We will continue to revisit and deepen our alignment as we make progress on our ESG strategy.
 
-![5_SDGs](/handbook/company/esg/All_5_Icons.png)
+![5_SDGs](/handbook/esg/All_5_Icons.png)
 
 ### Social
 
-#### Talent and Engagement*
+#### Talent and Engagement
 
 (UN SDG #8 and 10)
 
-We're a team of helpful, passionate people who want to see each other, GitLab, and the broader GitLab community succeed. [We care](/handbook/values/#results) about what our team members achieve: the code shipped, the user who was made happy, and the team member who was helped.
+We’re a team of helpful, passionate people who want to see each other, GitLab, and the broader GitLab community succeed. [Our mission](/handbook/company/mission/#mission) (to enable everyone to contribute to and co-create the software that powers the world) means that our team members can — and are expected to — make an impact across the company. We empower them by cultivating a high-performance and results-driven culture — one that enables people to do their best work and advance their careers while fully contributing towards advancing GitLab’s business results. We hire, promote, and recognize those team members who best live our [values](/handbook/values/).
 
-GitLab's [mission](/handbook/company/mission/#mission) to make it so that everyone can contribute extends to our team members who are empowered to make an impact across the company. While our mission drives GitLab, we believe that our [values]({{< ref values >}}) and work [culture](/handbook/company/culture/) are what make us successful. We believe that when team members seek feedback from a diverse group of peers and leaders, inside and outside of their group or function, it leads to better decisions and a greater sense of belonging. We work to make everyone feel welcome and to increase the participation of underrepresented groups in our community and company.
+We also leverage team members' unique skills and experiences to drive extraordinary outcomes. We believe that when team members seek feedback from a diverse group of peers and leaders, inside and outside of their group or function, they make better decisions and feel more connected. We work to make everyone feel welcome and increase the participation of underrepresented groups in our community and company.
 
-Our entire workforce is remote, allowing people of all backgrounds and abilities to join the team. As GitLab has grown, we've learned a lot about what it takes to build and manage a fully remote team, and we share what we have learned and our practices with our [Guide to All Remote](/handbook/company/culture/all-remote/guide/). Additionally, GitLab launched [TeamOps](https://about.gitlab.com/teamops/), an organizational operating model that helps teams maximize productivity, flexibility, and autonomy by managing decisions, information and tasks more efficiently.
-
-Four pillars anchor our [Team Member Relations Philosophy](/handbook/people-group/team-member-relations/#team-member-relations-philosophy), and each pillar is in alignment with our values. These pillars are:
-
-- Collaboration
-- Diversity, Inclusion, and Belonging
-- Results
-- Transparency
-
-Together, these pillars support GitLab's commitment to preserving the dignity of each team member. Every team member is expected to treat each other with fairness, respect, and transparency. Direct and honest communication is strongly encouraged between all team members, regardless of title or level. We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe, neutral process through which differences can be resolved.
-
-*"Our mission is to make it so everyone can contribute. We aim to create an environment where people feel empowered to make decisions and contribute in a safe space."*
--Wendy Barnes, GitLab Chief People Officer
+Our entire workforce is remote, making it easier for people of diverse backgrounds and abilities to join the team. As GitLab has evolved, we have learned a great deal about what it takes to build and manage a fully remote team, which we share through our publicly available [handbook](/handbook/).
 
 ##### Talent Management
 
-Our [values-based pillars](/handbook/people-group/team-member-relations/#team-member-relations-philosophy) extend to our approach to talent management. Transparency is a key element to our values, culture, and talent management at GitLab, and applies to how we share open positions at GitLab, [compensation calculations](/handbook/total-rewards/compensation/compensation-calculator/), [benefits](/handbook/total-rewards/), clarity of [job descriptions]({{< ref job-families >}}), [onboarding](/handbook/people-group/general-onboarding/) and [offboarding](/handbook/people-group/offboarding/) procedures, facilitating connections with various internal groups, and much more. Our [People Group](/handbook/people-group/) is a dedicated team that supports GitLab's mission by bringing top talent into GitLab and supporting team members to develop and fine tune their skill sets and further their careers. We offer development opportunities through [LevelUp](/handbook/people-group/learning-and-development/level-up/), our learning management software, to facilitate and centralize the learning experience for GitLab team members. The People Group also offers resources for team members to connect, share concerns, and seek support—helping to create a safe, transparent working environment.
+Our approach to talent management is underscored by our values, particularly of transparency and diversity, inclusion, and belonging. It is also bolstered by the resources we provide to help our team members grow and succeed.
 
-Successful talent management at GitLab is the direct result of the successful management of recruitment and retention of talent. In FY23, we established new and refined policies to ensure a consistent interview experience, increase representation, establish long-term partnerships, and formalize recruitment best practices. By strengthening our recruitment process, we can continue to build a strong pipeline of talent. Once at GitLab, we prioritize the development and enhancement of the skills, education, and experience of our team members.
+Through our website and [handbook](/handbook/), we are transparent about [available positions](https://about.gitlab.com/jobs/all-jobs/), [benefits](/handbook/total-rewards/), [job descriptions](/job-families/), [onboarding](/handbook/people-group/general-onboarding/) and [offboarding](/handbook/people-group/offboarding/) procedures, facilitating connections with various internal groups, and much more.
+
+We also work to build a diverse team to drive extraordinary outcomes by expanding outreach and inclusivity initiatives to increase the number of team members and our Manager+ population who identify as part of an underrepresented group.
+
+Our [People Group](/handbook/people-group/) is dedicated to supporting each team member through their career journey at GitLab. They enable GitLab’s [strategy](/handbook/company/strategy/) through a focus on attracting and retaining diverse talent, creating a high-performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture. This includes developing and maintaining our [talent brand](/handbook/people-group/employment-branding/), facilitating ongoing [learning and development](/handbook/people-group/learning-and-development/), and providing resources for team members to [connect](/handbook/people-group/#connect-with-us), share concerns, and seek [support](/handbook/people-group/#need-help).
+
+In FY24, we focused on accelerating GitLab’s 3-year strategy through re-emphasizing the foundational role of high-performing teams. At GitLab, high-performing teams:
+
+1. Act with urgency to deliver key results
+1. Hold individuals and teams accountable for great work
+1. Trust each other
+1. Deliver results on time
+1. Collaborate with open and effective communication
+
+We educate team members about our values through trainings, [videos](https://vimeo.com/899882089), workshops, forums, certifications, and ambassadors, which are designed to reinforce our values as key drivers of our high-performance, results-driven culture.
 
 **Developing Our Leaders**
 
-To continue to meet the needs of GitLab as we scale, we focused on developing our team members in FY23. Special attention has been given to developing our managers through targeted programs like [Elevate](/handbook/people-group/learning-and-development/elevate/), our Leadership Development course, which enrolled its first cohort of managers in FY23. We are aiming to have 85% of our leadership community (manager level) graduate from Elevate by the end of FY24.
+Managers at GitLab support our mission of enabling everyone to contribute to and co-create the software that powers our world. We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
+
+[Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) is GitLab’s leadership training program for Managers and Senior Managers, which prepares managers with skills they need to build high-performing teams. In FY24, we certified 73% of our eligible Managers and Senior Managers in Elevate. Although this fell short of our goal of 85%—due to business-critical initiatives, some team members had to delay certification for a year—it demonstrated positive momentum for the program and contributed to the company’s strong performance throughout the year.
+
+During FY24, we also developed and launched additional tools to help participants deepen and continue their learning beyond initial certification. [Elevate Applied](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/) is an ongoing resource that enables Managers and Senior Managers to connect with each other and practice, apply, and integrate concepts taught in Elevate in their day-to-day work at GitLab.
+
+In addition, we developed and announced the FY25 launch of [Elevate+](/handbook/people-group/learning-and-development/elevate-programs/elevate+/), a six-month program designed to enable senior leaders (Directors and Senior Directors) to better understand and practice behaviors anchored in GitLab’s values and leadership competencies, develop new skills to support high-priority business needs, and help establish and strengthen cross-functional connections.
 
 ##### Talent Engagement
 
-At GitLab, we actively promote a culture of [learning and development](/handbook/people-group/learning-and-development/). We strive to be recognized as a great place to work and as a leader in facilitating remote learning and development.
+We strive to foster a culture of continuous growth so that GitLab remains a great place to work. A positive impact on team member experience leads to a positive impact on results for GitLab and its customers.
 
-Our Learning and Development Team is committed to guiding team members on their career journeys, empowering individual contributors, and equipping leaders through self-service learning. The vision: a future where everyone contributes to a culture of curiosity. This is achieved through several initiatives including skill-based learning, resources designed to enhance career mobility, and the development of learning journeys for teams throughout the organization. We provide asynchronous access to learning opportunities to support our aim of facilitating accessible, remote-friendly development.
+Our [Talent Development](/handbook/people-group/learning-and-development/) team (commonly referred to as “Learning & Development'') enhances team member performance, expands capabilities, and further develops skills that make GitLab team members the top talent in the industry. Our vision is to be recognized as a top organization for remote learning and development and to create a future where everyone contributes to a culture of curiosity. We accomplish this by focusing on skill-based learning, providing resources to enhance career mobility, and developing learning journeys for teams throughout the organization.
 
-As a global, all-remote company, and a team of diverse backgrounds, experiences, and perspectives, we have a unique story to tell. Our [Talent Brand](/handbook/people-group/employment-branding/) helps tell this story by empowering team members to share their thoughts on 'what it's like to work here,' because these are the voices and stories that make GitLab unique and successful.
+To support our aim of facilitating accessible, remote-friendly development for all, we provide asynchronous access to learning opportunities, including:
 
-To capture honest feedback from our team members, we issue a number of [engagement surveys](/handbook/people-group/engagement/) that enable us to understand engagement levels across the organization and respond to changing needs. As an organization that prefers to make small iterations and move quickly, this provides us with the data needed to evolve engagement programs as needed. Several surveys support this purpose, including an annual Culture & Engagement survey, Employer Award surveys, and other ad hoc measures like Organizational Health surveys.
+- [Level Up](/handbook/people-group/learning-and-development/level-up/), our learning management software, which is designed to facilitate and centralize the learning experience for GitLab team members.
+- [Self-paced external trainings](/handbook/people-group/learning-and-development/self-paced-learning/), for accessing role-specific training courses and learning materials from industry-leading providers.
+- [Career Development and Mobility](/handbook/people-group/learning-and-development/career-development/), providing resources and direction to help team members engage in lifelong growth to meet their unique goals.
+- A [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/), enabling team members to access external resources to develop their skills and careers.
 
-**Our FY23 Q2 engagement survey results**
+As a global, all-remote company with a team of diverse backgrounds, experiences, and perspectives, GitLab offers a dynamic environment and culture where everyone is encouraged to do their best work. Our talent brand empowers team members to share their thoughts on [what it’s like to work here](https://vimeo.com/778157354) because their voices and stories make GitLab unique and successful.
 
-In FY23, we achieved an [82% participation rate](/handbook/people-group/engagement/#fy23-q2-pulse-engagement-survey-results) and an overall 'favorable' engagement score of 81%. We scored 4% lower than we did in the FY22 Q4 Engagement Survey overall, but this year's score is still 8% higher than our New Tech peer group, which consists of ~150 fast growing and disruptive tech companies with over 1,000 total team members each. Accordingly, GitLab remains an industry-leader from a scoring perspective.
+“By fully embracing the values, GitLab has changed the way I work. I have become more productive and satisfied with the work I do, while also having a better work-life balance. It’s motivating to work somewhere so amazing with such great people.” – Cynthia, Strategy and Operations, Office of the CEO
 
-#### Diversity, Inclusion, and Belonging*
+**Engagement Surveys**
+
+We conduct a number of [engagement surveys](/handbook/people-group/engagement/) that enable us to capture honest feedback from our team members, understand engagement levels across the organization, and respond to changing needs. By making small iterations and moving quickly, we can get the data needed to evolve engagement programs as needed and align our priorities to the areas team members care about most. Our key survey tools include the annual CultureAmp Engagement survey, Employer Award surveys, and other ad hoc measures like Organizational Health surveys.
+
+In FY24, our Annual [Engagement Survey](/handbook/people-group/engagement/#fy24-q2-engagement-survey-results) reached 88% participation and indicated an overall engagement score of 75% favorable. This is 2% higher than our [New Tech](https://www.cultureamp.com/science/insights/new-tech-1000-plus) peer group, which gives us confidence in knowing we have a highly engaged team member community. Additional highlights included:
+
+- 94% agree: “I enjoy engaging with my peers at GitLab.”
+- 92% agree: “It is easy to ask other members of your team for help.”
+
+Subsequently, our global year-end pulse survey demonstrated positive momentum with an overall engagement score of 79% favorable (+4%). In addition, 91% of participants said they’re proud to work at GitLab, while 86% rated GitLab as a great place to work.
+
+GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 4th year in a row in May 2024 with 93% of its U.S. based team members saying that they believe GitLab is a great place to work. [Great Place to Work](https://www.greatplacetowork.com/) recognizes companies for their outstanding workplace culture, benefits, and performance through successful completion of a survey for US-based team members and culture brief application.
+
+#### Diversity, Inclusion, and Belonging
 
 (UN SDG #5, 8, and 10)
 
-[Diversity, Inclusion, and Belonging](/handbook/company/culture/inclusion/#what-we-are-doing-with-diversity-inclusion--belonging) (DIB) is fundamental to the success of GitLab and as such, is one of our core values. We incorporate the value of Diversity, Inclusion, and Belonging into all that we do – it's not just an aspect of GitLab, it is GitLab. As a global company, we strive for a team that is representative of our users. As such, we aim to create a work environment that is transparent in nature and fosters a space in which everyone is welcomed. We are firm believers in promoting a work culture in which people can be their full selves and contribute to the best of their abilities. When people bring their authentic selves and feel welcome, they embrace our values to contribute and collaborate. Authentic collaboration results in innovative solutions and enhanced efficiencies and allows us to meet the needs of our customers.
+We are committed to a future where the [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) (“DIB”) value empowers everyone to contribute.
 
-At GitLab, we believe everyone can contribute. This informs our approach to DIB. The Diversity, Inclusion and Belonging Team is building a scalable strategy based on our acronym, A.D.A.P.T. which stands for Action, Do Good, Accountable, Policies, and Transparency.
+As a globally dispersed organization serving customers all over the world, we strive for a team that is representative of our users, an open and transparent work culture where all voices are heard and welcomed, and an environment where everyone can show up as their full selves and contribute to their best ability each day.
 
-- **A**ction - There is intentionality in how we hire and retain our team members, as well as in our customer and open source community engagement
-- **D**o Good – Provide opportunities for GitLab and team members to meaningfully contribute to our community and society
-- **A**ccountable – There is a responsibility and accountability for our work, products and services, and actions
-- **P**olicies - Actionable processes and policies inform and govern our program development and execution
-- **T**ransparent - Our internal efforts are shared externally
+We believe this not only makes GitLab a great place to work but also supports innovation and promotes better decision-making, helping us continue to deliver results for customers.
 
-*"What I love about the culture at GitLab is our ability to evolve. We have to ensure that as we move forward and expand in different ways, we also evolve as a culture. One of the things that makes us so special is our remote culture and CREDIT values. It is the uniqueness that we bring."*
--Sherida McMullan, GitLab Vice President of Diversity, Inclusion, and Belonging
+Our DIB focus also extends to how we show up for people outside of GitLab, through initiatives that promote DIB in our industry and the broader community. To put it simply, we need the contributions of everyone in order to empower our team members, help our users change the world, and transform the industry.
 
-To achieve our DIB mission, vision, and strategic objectives, the DIB Team has put together an extensive strategy that includes a variety of programs:
+We do this through our A.D.A.P.T. strategy:
 
-- Our [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/) (TMRGs) are voluntary, team member-led groups focused on fostering diversity, inclusion, and belonging. Prior to FY23, GitLab had eight TMRGs and in FY23 we established two new TMRGs, the Caregiving TMRG and the Global Voices TMRG. The Caregiving TMRG is focused on providing a safe space for every GitLab team member to better understand the role of being a caregiver and to build a network of caregivers and their allies at GitLab. Global Voices was created to increase awareness, give a voice to GitLab's globally diverse team, and improve the daily work life of our global team members.
+- **A**ction – Puts intentionality into how we attract, progress, and retain our team members, engage with our customers, and diversify the open source community.
+- **D**o Good – By providing avenues and opportunities for GitLab and team members to meaningfully contribute to our community and society.
+- **A**ccountable – We hold ourselves accountable in the commitments we make as well as being answerable for the outcome.
+- **P**olicies – scalable processes and policies inform and govern our program development and execution.
+- **T**ransparent – Our internal efforts are shared externally.
+Additionally, to continue to drive progress, we’ve organized our DIB work into three pillars: empowering our people, uplifting our communities, and building inclusivity into all we do.
 
-- We established a [TMRG recognition bonus](/handbook/company/culture/inclusion/erg-guide/#tmrg-lead) for our team members leading our TMRGs or DIB focused groups. This is to recognize the great work being done to support the DIB strategy, DIB Team, and further embed the DIB value at GitLab.
+##### Empowering Our People
 
-- We also launched our [Sponsorship Program Pilot](/handbook/company/culture/inclusion/erg-guide/#tmrg-lead), which partnered influential senior leaders from our sales division with Black sales team members to provide career development opportunities and senior-level visibility. This resulted in an 80% satisfaction rate from participants, measured through a post-program survey. 50% of the sponsors received additional exposure, stretch opportunities, or a promotion. Our second cohort will launch in FY24 and the program will be expanded to a larger group of underrepresented team members.
+**Growing Our Talent & Their Experience**
 
-- Our [DIB Speaker Series](/handbook/company/culture/inclusion/erg-guide/#tmrg-lead) has pioneered learning and development for DIB. We invite speakers who represent the global community to educate and inspire GitLab team members. Previous topics include Neurodiversity Inclusivity, Trans Visibility, and Black History Month.
+Our team members are critical to our success. We provide pathways for them to thrive individually and as a part of the GitLab community.
 
-**Leadership DIB Council Launched**
+- **[Level Up](/handbook/people-group/learning-and-development/level-up/)** – Our learning platform is designed to deploy learning content across GitLab internal team members.
 
-To support our corporate DIB strategy and to increase our reach and leadership accountability, 13 Director+ leaders representing every division across all regions, launched our [Leadership DIB Council](/handbook/company/culture/inclusion/leadership-dib-council/).
+- **[Career development and mobility](/handbook/people-group/learning-and-development/career-development/)** – We provide resources and direction to help team members engage in lifelong growth to meet their unique career goals.
 
-The Leadership DIB Council is a strategic group of senior leaders who assist the DIB Team in implementing the corporate DIB strategy and provide insights to the DIB Team on the division's strategic initiatives. More specifically, the Leadership DIB Council is responsible for:
+- **[Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/)** (TMRGs) – TMRGs cultivate an inclusive workplace and empower our employees by fostering a supportive environment where everyone can thrive. Our TMRGs are open to all team members, not just those who specifically identify with a particular group.
 
-- Aligning DIB initiatives with business goals
-- Providing division and/or geographic insights to the DIB Team
-- Representing DIB in the Executive Group
-- Actively advocating, challenging norms, and iterating to ensure that DIB remains top of mind at GitLab
+  - [Asian/Pacific Islander](/handbook/company/culture/inclusion/tmrg-gitlab-api/)
+  - [Black@GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-black/)
+  - [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/)
+  - [Disabilities and Neurodivergence](/handbook/company/culture/inclusion/erg-gitlab-diversability/)
+  - [Gente](/handbook/company/culture/inclusion/tmrg-gitlab-gente/)
+  - [Generational Understanding](/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding/)
+  - [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/)
+  - [Pride](/handbook/company/culture/inclusion/tmrg-gitlab-pride/)
+  - [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/)
 
-In FY24, the Leadership DIB Council is focused on several initiatives:
+- **[Team Member Advocacy Groups](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels)** (TMAGs) – TMAGs are groups that share common interests and work together to drive change on behalf of the community through education, action, and enablement across a specific need.
 
-- Assist in the creation of DIB behaviors to ensure alignment across all job levels of what it means to live the DIB value at GitLab
-- Actively promote and develop key results for their departments for neurodiversity inclusion
-- Assist in operationalizing global inclusion processes and initiatives
-- Help drive the DIB strategy at division level including objectives and key results (OKRs), key performance indicators (KPIs), and strategic initiatives
+  - [Career Enablement](/handbook/company/culture/inclusion/tmdg-gitlab-early-career/)
+  - Mental Health – Coming soon
 
-As we look toward FY24, we will continue to iterate on our programs, our metrics, and ensure the DIB value empowers everyone to contribute.
+**Leadership in Action**
+
+From education to mentorship, sponsorship, and advocacy, GitLab educates its leaders, provides resources for its team members, and holds its leaders accountable so that team members feel empowered to utilize the community they are surrounded by every day.
+
+- **[TMRG Executive Sponsors](/handbook/company/culture/inclusion/erg-guide/#executive-sponsorship)** – VP+ leaders who volunteer to support, advocate, and connect TMRG communities to our shared GitLab mission and vision and E-Group leaders.
+- **[Leadership DIB Council](/handbook/company/culture/inclusion/leadership-dib-council/)** – A strategic group of senior leaders who assist the DIB team in implementing and aligning the strategy to each division’s strategic imperatives.
+- **[Sponsorship](/handbook/company/culture/inclusion/dib-sponsorship/)** – VP+ leaders advocate and provide visibility and guidance to our team members for growth and career advancement.
+
+**Equipping Our People Leaders** – Our leadership training ensures that DIB is considered and threaded throughout the team member experience.
+
+- [Elevate – Manager training](/handbook/people-group/learning-and-development/elevate-programs/elevate/)
+- [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevate+/)
+- [Elevate Applied – Continuous learning for Elevate graduates](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/)
+
+##### Uplifting Our Communities
+
+Community partnerships are a great way for GitLab to engage with the community externally, provide opportunities for career development and networking for our team members, and also add layers of DIB to key areas of our organization. Partnerships are also how we measure our inclusive practices against industry standards and can act as accountability partners in achieving success.
+
+- **[External Engagement](/handbook/people-group/employment-branding/#external-engagement)** – We sponsor and support events worldwide that promote inclusion and belonging, and create learning and growth opportunities for our team. By networking with diverse talent at these events, we infuse our team with fresh perspectives and ideas. Reflecting on a year of impactful partnerships, we are inspired to further foster spaces where technology and diverse talent converge, giving everyone a voice.
+
+- **Do Good** – Throughout the year, the DIB and ESG teams collaborate to give back to the communities we serve by offering volunteer opportunities to team members, working with TMRGs to donate funds to relevant nonprofits, and providing in-kind donations to DIB related nonprofits through the [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/) program.
+
+##### Building Inclusivity Into All We Do
+
+When we think about DIB, it’s easy to see it only from a team member perspective. Our goal is to bring inclusivity into as many touch points as possible — from our open source contributors to how we engage with our customers and users.
+
+- **[DEI Project Badging Program](https://chaoss.community/chaoss-dei-project-badging/)** – In FY24, GitLab partnered with the Linux Foundation through the Community Health Analytics in Open Source Software ([CHAOSS](https://chaoss.community/)) project to enable open source projects to signal their focus on building and growing diverse communities.
+
+- **Digital Accessibility** – At GitLab, we build understanding, empathy, and allyship around accessibility. We do this through various methods internally, including [Inclusive Design Principles](https://design.gitlab.com/accessibility/inclusive-design-principles), Digital Accessibility Training, webinars, and workshops, to ensure that our Product and Engineering teams are equipped with the skills necessary to make our product more accessible.
+
+- **[Inclusive Hiring](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)** – GitLab strives to create an equitable application, interview, selection, and offer process for all candidates to ensure we’re building a diverse and inclusive workforce around the globe as the company continues to grow.
+
+- **[DIB Working Group](/handbook/company/culture/inclusion/dib-working-groups/)** – A strategic group of impactful team members who collaborate to drive action and results in support of DIB. This includes promoting inclusive practices in areas such as name pronunciation, pronoun education, and meeting etiquette in an all-remote workplace.
+
+##### Looking Ahead
+
+We followed through on our commitments and accomplished a lot in 2023, but we still have work to do. We are continuing to build DIB into every part of GitLab – both internally with our team members and externally with our customers, users, partners, and open source community.
+
+We have committed to four key objectives in FY25:
+
+1. **Deliver our supplier diversity strategy** – We have set an aspirational goal to double the number of suppliers categorized as diverse. To achieve this aspirational goal, we are engaging partners, strategically embedding diversity, inclusion and belonging practices into our procurement process, and evaluating our current suppliers’ practices in line with applicable anti-discrimination principles.
+
+1. **Increase representation** – Extend our representation of team members from our Disabilities, Neurodivergence and LGBTQIA+  communities. We are working with several partners to help us achieve this goal including but not limited to, Unicorns in Tech, DisabilityIN, and Anita B. Org. Visit [this Handbook page](/handbook/people-group/employment-branding/#external-engagement) to learn more about how we select partners and measure success in attracting team members from these communities.
+
+1. **[Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)** – Our mission is to attract, acquire, and activate talent to unlock their potential, connecting learning agility with employment opportunities, decoupled from academic-based prerequisites. This is anchored on the belief that building a balanced workforce will enable GitLab to scale effectively and inclusively, and that building a strong foundation today will greatly impact our future growth.
+
+1. **Ensure inclusive leadership** – Inclusive leadership is integrated into leadership development experiences and offered as voluntary resources to promote ongoing education and awareness. These experiences span all front-line and aspiring leaders in addition to VP and E-Group populations.
 
 #### GitLab Community
 
 (UN SDG #8)
 
-From the beginning, GitLab has been an [open source project](/handbook/company/stewardship/#:~:text=GitLab%20is%20open%20core%20built,Source%20As%20Part%20Of%20GitLab.) made possible by contributions from the [community](/handbook/marketing/developer-relations/community-pathway/#how-community-fits-into-gitlabs-strategy). Our active worldwide community has been fundamental to the transparency of GitLab helping to build trust in the product, as decisions, changes, and the overall direction of the open source project are open for everyone to see.
+From the beginning, GitLab has been an [open source project](/handbook/company/stewardship/#:~:text=GitLab%20is%20open%20core%20built,Source%20As%20Part%20Of%20GitLab.) made possible by contributions from its community. Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission.
 
-Contributors to GitLab, the platform and the company, make up the GitLab community and are a critical part of GitLab's strategy and mission to make it so that everyone can contribute.
+The [Developer Relations](/handbook/marketing/developer-relations/) team supports GitLab’s mission by working with our community to ensure they receive support and recognition for contributing to GitLab. This involves a multifaceted approach that includes creating educational content, organizing events and workshops, developing programs, and providing platforms for knowledge exchange and collaboration. The team focuses not only on promoting GitLab’s features and capabilities but also on actively listening to and incorporating feedback from our community to inform product development and improvements.
 
-Our work with the wider community goes beyond code and can include blog posts, documentation, discussions on forums/social media, meetups, presentations, translations, collaboration on UX design, and more. The [Community Relations Team](/handbook/marketing/developer-relations/) works with our GitLab community to ensure that all receive support and recognition for contributing to GitLab.
+##### GitLab Community Programs
 
-We also support community programs aimed at organizations that align with our [values]({{< ref values >}}). We strive to help these organizations grow and thrive by putting GitLab's most powerful features in the hands of communities that may not otherwise have the means to access them. Each program is unique in its organization and execution; however, in general, community programs offer GitLab customers benefits such as:
+GitLab’s [Community Programs](/handbook/marketing/developer-relations/community-programs/) aim to put GitLab’s most powerful features in the hands of communities that may not otherwise have the means to access them, helping them to grow and thrive. Members of the Community Programs team serve as liaisons, tracking the ways their respective communities prefer using GitLab and translating that knowledge into insights that help GitLab create a better product.
 
-- Complimentary subscriptions to GitLab Ultimate
+While each program is unique in its organization and execution, benefits may include:
+
+- Complimentary subscriptions of GitLab Ultimate
 - Direct lines of communication to GitLab team members
 - Opportunities to partner with GitLab for presentations and events
 
-GitLab community programs
+Our key community programs include the following:
 
-- The [GitLab for Education](/handbook/marketing/developer-relations/community-programs/education-program/) program's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe and to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce. As of January 2023, the GitLab for Education program has over 3 million seats of GitLab's top-tier subscription plan at over 1,000 educational institutions in more than 65 countries.
-- The [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/) program supports GitLab's mission to make the world a place where anyone can contribute. We help make GitLab the best place for open source projects to grow and thrive.
-- The [GitLab for Startups](/handbook/marketing/developer-relations/community-programs/startups-program/) program launched early in 2023 and helps qualifying startups get access to our top tiers for free or at a deep discount for up to two years.
+- Launched in FY24, [GitLab for Startups](/handbook/marketing/developer-relations/community-programs/startups-program/) helps qualifying startups streamline their development processes and improve collaboration by providing free access to GitLab Ultimate for one year, followed by deeply discounted access to any tier for a second year. Current participants include several startups focused on delivering innovative sustainability solutions, such as [Breathe Battery Technologies](https://breathebatteries.com/), [Verity Nature](https://www.veritynature.com/), and [ClimaSens](https://climasens.com/).
+- The [GitLab for Open Source](/handbook/marketing/developer-relations/community-programs/open-source-program/) program provides qualifying projects with no-cost subscriptions of GitLab Ultimate. By empowering open source projects with our most advanced features, GitLab for Open Source supports our mission and helps make GitLab the best place for open source projects to grow and thrive.
+- The [GitLab for Education](/handbook/marketing/community-relations/community-programs/education-program/) program aims to enable educational institutions to succeed in teaching, learning, and conducting research with GitLab. We seek to build an engaged community of GitLab users around the world who actively contribute to GitLab and each other’s success and ultimately become evangelists of GitLab in the workplace and beyond. As of January 2024, the GitLab for Education program provides over 3.5 million seats of GitLab Ultimate at more than 1,800 educational institutions in more than 74 countries.
 
-*"Community is core to who we are and what we do. Our mission is to help these communities experience GitLab's vision of a world where everyone can contribute."*
--Emilio Salvador, GitLab Vice President of Developer Relations
+For information on GitLab for Nonprofits, see [Social Impact](#social-impact) below.
+
+##### Other Community Initiatives
+
+Finding an open source community to learn, connect, and grow with can be a challenge for many developers. To better align on best practices for building inclusive open source communities and to ensure that our DIB value is reflected in our contributor community, GitLab has partnered with the [CHAOSS](https://chaoss.community/) project to integrate GitLab with their recently released [DEI Project Badging program](https://chaoss.community/chaoss-dei-project-badging/). The DEI Project Badging program enables open source projects to:
+
+- Clearly signal their focus on building diverse communities
+- More easily highlight the work they are doing to welcome and support new members
+- Add visual badges to their projects to indicate their community's reflection on the CHAOSS DEI badging metrics
+
+To learn more about how the program works and how GitLab and CHAOSS worked together to bring it to the wider community, see our [blog post](https://about.gitlab.com/blog/2024/01/29/building-a-more-inclusive-and-welcoming-open-source-community-on-gitlab/).
+
+In FY24, our Contributor Success Team sought to enhance community relations and contribute to sustainability by allowing teams to recognize contributors by sponsoring tree planting in lieu of traditional rewards like swag. Through a partnership with [Tree-Nation](https://tree-nation.com/profile/gitlab), we have the ability to plant trees on behalf of others, and others can also pay to plant trees in our forest. Similarly, our Marketing team offers attendees at GitLab events the opportunity to plant trees through [Rewards.Earth](https://rewards.earth/).
 
 #### Social Impact
 
 (UN SDG #4 and 10)
 
-GitLab launched its first [Philanthropy Policy](/handbook/legal/philanthropy-policy/) in March 2023. This policy supports the launch of a formal corporate social impact program in 2023. The purpose of this program will be to support nonprofit organizations that align with the focus areas identified in our materiality assessment and to support team member efforts to get involved with community organizations.
+##### Charitable Giving
 
-*"Giving back has been key to GitLab's culture since our inception. We are excited to formalize our corporate social impact program commitment to ensure that we continue to use our resources for good and in alignment with our Values."*
--Robin Schulman, GitLab Chief Legal Officer and Head of Corporate Affairs
+Launched in 2023, GitLab’s [Philanthropy Policy](/handbook/legal/philanthropy-policy/) supports GitLab teams that want to engage in charitable giving and activities benefiting registered nonprofit organizations that align with GitLab’s mission, values, and ESG strategy. By enabling teams to contribute to causes aligned with their work, we foster connections between GitLab’s purpose and values and the opportunity to drive impact in the broader community. For example, in FY24:
 
-#### GitLab Foundation
+- [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/), our TMRG that helps women advance their skills and leadership potential, donated funds to [Women Who Code](https://womenwhocode.com/), a national organization focused on empowering women to excel in technology careers.
+- Participants in our sales incentive program, GitLab President’s Club, built filter kits with [Water to Wine](https://www.wtw.org/), an international nonprofit committed to building a holistic, community-based model by supporting the life and dignity of all through the power of clean water.
 
-In September 2022, the GitLab Foundation (the "Foundation") launched with a mission to improve people's lifetime earnings through access to opportunities and a vision of a world in which one million more people can afford a better life. The Foundation was formed in part by GitLab as part of its [mission](/handbook/company/mission/) to create a world in which everyone can contribute. GitLab leadership believed it was important to support organizations that could further this goal on a global scale. When GitLab [went public]({{< ref "being-a-public-company#:~:text=GitLab%20began%20trading%20on%20the,part%20of%20realizing%20our%20mission." >}}) in October 2021, it dedicated 1% of its shares to further this aim. This was influenced by the [Pledge 1% movement](https://pledge1percent.org/), which encourages companies and founders desire to set aside equity for social impact.
+##### GitLab for Nonprofits
 
-The Foundation is funded by GitLab and its CEO, Sytse 'Sid' Sijbrandij. The Foundation is an independent nonprofit entity, and its operations are autonomous from GitLab.
+During FY24, we also launched our in-kind donation program, [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/), which gives free GitLab licenses to registered nonprofit organizations that align with our values and ESG strategy. Nonprofits accepted into the program are provided a free Ultimate license for one year for up to 20 seats. In the first six months of the program, we granted licenses to more than 100 qualified nonprofits.
 
-To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
+*“GitLab is our canvas for workflow across our nonprofit organization. It allows us to do everything from planning and managing the workloads for our teams all the way to the CI/CD pipelines, which automate efforts ranging from routine tasks to platform deployments in our various environments. Whether it's documenting processes in place with issue templates or structuring organization-wide initiatives with interdependent issues, epics, and milestones, GitLab gives us the structure we need, with the flexibility to meet our unique needs."* –Mike Bowie, Chief Technology Officer, Last Mile
+
+##### Volunteer Initiatives
+
+Through our [GiveLab program](/handbook/legal/esg/#givelab), we encourage team members to take part in volunteer initiatives that support and ultimately uplift their local communities.
+
+In FY24, GitLab provided virtual volunteer opportunities for team members through a partnership with [SuitUp](https://www.volunteersuitup.com/), a nonprofit that equips students for life beyond the classroom by partnering with schools/youth organizations and businesses to develop, organize, and implement engaging educational competitions in communities across the U.S. and beyond.
+
+*“We extend our heartfelt gratitude to GitLab for their invaluable partnership with SuitUp in 2023. GitLab's commitment to youth education has not only paved a clear pathway for our students' success, but has opened abundant opportunities for their development in STEM careers and beyond. We are deeply thankful to the GitLab team for their dedication and the transformative impact they have had on the lives and futures of our SuitUp students across the globe.”* –Kelsey English Smith, SuitUp's Interim Chief Executive Officer
+
+##### GitLab Foundation
+
+GitLab is dedicated to supporting charitable organizations with missions that align with our company’s values through the GitLab Foundation. Established in 2022, the GitLab Foundation focuses on supporting people to grow their lifetime earnings through education, training, access to opportunities, and systems change on a global scale. Its vision is a world in which one million more people can afford a better life.
+
+The GitLab Foundation is funded by GitLab and its CEO, Sid Sijbrandij. When GitLab went public in 2021, the Board approved a 1% share donation to capitalize the GitLab Foundation. In FY24, 1,635,545 shares of Class A common stock were registered to be issued to the GitLab Foundation.
+
+The GitLab Foundation is an independent nonprofit entity and its operations are autonomous from GitLab. To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
 
 ### Environment
 
-#### Climate Action and Greenhouse (GHG) Emissions*
+#### Climate Action and Greenhouse (GHG) Emissions
 
 (UN SDG #13)
 
-Part of doing responsible business means minimizing our environmental footprint. In May 2023, we partnered with [Watershed](https://watershed.com/) to complete our first greenhouse gas ("GHG") inventory for FY23. We will use the results of the inventory to better understand our key sources of emissions, set reduction goals using FY23 as a baseline, develop a reduction plan, and educate our fully remote team on how they can understand and reduce their GHG emissions at home.
+Around the world, many communities are already experiencing climate impacts such as warmer temperatures, more frequent severe weather events, and changes in water availability and other vital ecosystem services. With this in mind, GitLab is committed to doing our part to minimize our environmental footprint, including working to reduce GHG emissions associated with our operations.
 
-GitLab is a fully remote company without direct emissions from company owned facilities or direct energy consumption. Accordingly, our GHG inventory measures Scope 3 emissions only, specifically the emissions associated with remote work, purchased goods and services, cloud services, and business travel. Teams across GitLab including Finance, Procurement, People Analytics, Engineering, and Infrastructure, collaborated with the ESG team to collect data for the inventory.
+As a fully remote company, GitLab has no Scope 1 (direct) emissions or Scope 2 emissions from purchased electricity for company-owned facilities, meaning that 100% of our footprint comes from Scope 3 emissions. Our FY24 GHG inventory measures emissions associated with purchased goods and services (which includes cloud services), capital goods, employee commuting (which includes remote work), business travel, and investments (as defined under Category 15 of the GHG Protocol).
 
-![GHG_Inventory](/handbook/company/esg/GHG_Inventory.png)
+Our emissions increased in FY24 partially due to improvements in our methodology. For FY24, we estimated emissions using the Comprehensive Environmental Data Archive (CEDA), a multi-regional economic and environmental database, as it better reflects the global nature of supply chains, helping capture differences in emissions profiles that vary significantly from one country to another. We also expanded our measurement to include emissions from investments (as defined under Category 15 of the GHG Protocol).
 
-The results of our first GHG inventory are also available in the [Performance Data Table](https://about.gitlab.com/documents/PERFORMANCE_DATA_TABLE.pdf) and our third-party assurance letter is available [here](https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
+![GHG_Inventory](/handbook/legal/esg/FY24_GHG_Inventory.png)
 
-*"As a fully remote company without owned and operated facilities, GitLab does not have Scope 1 or 2 emissions. That said, we know there is still an opportunity to reduce our Scope 3 footprint and educate team members about climate change and how they can choose to take action in their own lives."*
--Stacy Cline, GitLab Senior Director of ESG
+More detailed results of our inventory are available in the [Performance Data Table](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf). Our third-party assurance letter of our FY24 GHG inventory is available [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
 
-As part of our commitment to iteration, GitLab began purchasing accredited carbon offsets in 2020, before we conducted our first GHG inventory. The purchases support projects that avoided unplanned deforestation, improved forest management, and contributed to afforestation, reforestation, and revegetation in a variety of countries such as Peru, Colombia, and the USA. To date, we have offset 24,100 metric tons of CO2, which is the equivalent of planting 13,621 trees or taking 5,239 passenger cars off the road for an entire year.
+In FY24, we took steps to further understand our climate impacts and advance the development of a formal emissions reduction strategy. This included initiating GitLab’s first climate risk assessment, to help us better understand climate-related risks and opportunities for our business. For more information on our climate risk assessment and scenario analysis, please see our [TCFD Index](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf).
 
-([GitLab Impact Report, Pachama](https://app.pachama.com/impact/a38abb85-0e3e-4543-86b6-4e8dfa13693e), data as of July 2023)
+In FY24, we also launched a supplier engagement program with a focus on climate. As an initial step, we engaged our top 20 suppliers by spend who are not currently disclosing emissions data, asking them to start measuring their emissions and sharing the data publicly. We will be expanding the scope of the engagement to include more suppliers in FY25.
+In FY25, we will continue working to establish GHG emissions reduction targets. We have also launched the first iteration of a team member [sustainability guide](/handbook/legal/esg/team-member-sustainability-guide/) with the goal of educating GitLab team members on how to be more sustainable.
+
+In January 2024, GitLab purchased and retired carbon removal credits worth 8,580 tonnes of CO2e. The purchase funds a reforestation program called Trees for Global Benefits, a long-running cooperative carbon offsetting program that combines community-led activities to increase carbon sequestration, encourage sustainable land-use practices, and provide farmers with performance-based payments. We also retired additional credits worth 877 tonnes of CO2e that were purchased in FY23.
 
 ### Governance
 
 #### Corporate Governance
 
-GitLab's [team members](/handbook/company/team/), [senior management](/handbook/company/team/e-group/), and members of our [Board of Directors](https://ir.gitlab.com/corporate-governance/board-of-directors-grid) ("Board") play critical roles in providing strategic direction for our responsible business practices. Implicit in this philosophy is the importance of sound corporate governance. GitLab's Board has fiduciary duties to GitLab and its shareholders. Our Board provides leadership, regular review and evaluation, and oversight—all in service of stakeholder interests. To help ensure Board members are performing their duties, the Board and its committees participate in annual assessments.
+GitLab is strongly committed to good corporate governance practices, which provide an important framework within which our [Board](https://ir.gitlab.com/corporate-governance/board-of-directors-grid) and [executive leadership](https://ir.gitlab.com/corporate-governance/executive-leadership-grid) can pursue our strategic objectives for the benefit of our shareholders.
 
-GitLab's [Corporate Governance Guidelines, Codes, Policies, and other governance documents](https://ir.gitlab.com/corporate-governance/documents-charters) guide our [Board](https://ir.gitlab.com/corporate-governance/board-of-directors-grid?_gl=1*zm99bl*_ga*ODA0NTM3Mjk4LjE2NjQ4OTc5MzQ.*_ga_ENFH3X7M5Y*MTY4MjA5OTQyOS4xMDcuMS4xNjgyMTAxNTY3LjAuMC4w) in fulfilling its responsibilities. Board committees oversee and review areas of risk that are particularly relevant to them based on the committee of which a particular Board member sits. GitLab's management regularly provides reports to support the Board's oversight obligations. This reporting cadence provides visibility and information regarding the identification, assessment, and management of critical risks and the company's s risk mitigation strategies.
+The Board's duty is to serve as a prudent fiduciary for shareholders and to oversee the management of the company's business. To fulfill its responsibilities and discharge its duty, the Board follows the procedures and standards set forth by GitLab’s [Corporate Governance Guidelines](https://ir.gitlab.com/static-files/f108c2c0-2426-4bf5-b1db-054498136c0b) and [other governance documents](https://ir.gitlab.com/corporate-governance/documents-charters).
 
-The Board's responsibilities include:
+Board members’ responsibilities include:
 
-- [Risk oversight](https://www.sec.gov/ix?doc=/Archives/edgar/data/0001653482/000162828023018206/gtlb-20230515.htm)
+- [Risk oversight](https://ir.gitlab.com/static-files/d05ac284-d5e9-4742-b1d4-2281fb5eb10c)
 - Monitoring the performance of the Chief Executive Officer (CEO) and other [Executive](/handbook/company/structure/#executives) leaders
-- Giving feedback on the [mission](/handbook/company/mission/#mission), [values](/handbook/company/mission/#values), and [strategy](/handbook/company/mission/#goals)
+- Giving feedback on the [mission](/handbook/company/mission/#mission), [values](/handbook/values/), and [strategy](/handbook/company/strategy/)
 - Evaluating if adequate resources are available to achieve our goals and that those resources are used effectively
 - Advocating for GitLab externally
 - Participating in [Board meetings](/handbook/board-meetings/)
 - Participating on [Board committees](/handbook/board-meetings/#board-and-committee-composition)
-- Participate in the process for certain executive hires
 
-Our Board has an Audit Committee, a Compensation and Leadership Development Committee, and a Nominating and Corporate Governance Committee. The composition and responsibilities of each committee are described in [our proxy](https://www.sec.gov/ix?doc=/Archives/edgar/data/0001653482/000162828023018206/gtlb-20230515.htm) and in [our Board section of the Investor Relations page](https://ir.gitlab.com/corporate-governance/board-of-directors-grid).
+The Board has an Audit Committee, a Compensation and Leadership Development Committee, and a Nominating and Corporate Governance Committee. The composition and responsibilities of each committee are described in our [Proxy Statement](https://ir.gitlab.com/static-files/d05ac284-d5e9-4742-b1d4-2281fb5eb10c) and in the [Investor Relations section](https://ir.gitlab.com/corporate-governance/committee-composition) of our website.
 
-GitLab's [Nominating and Corporate Governance Committee](https://ir.gitlab.com/static-files/549b448d-bfd0-47cc-aa47-373121eff49e?_gl=1*bos64y*_ga*MTkyOTUzNTQ4LjE2NjMzNTIxOTY.*_ga_ENFH3X7M5Y*MTY3MjkzMzgxNC4yMDIuMS4xNjcyOTM0NjIyLjAuMC4w) charter tasks the committee with overseeing any programs relating to corporate responsibility and sustainability, including environmental, social, and corporate governance matters. GitLab's Senior Director, ESG reports to the Chief Legal Officer & Head of Corporate Affairs weekly and GitLab's executive leadership as needed. The Nominating and Corporate Governance Committee meets at least twice a year and ESG topics are discussed with this committee as well as with the full Board as needed.
+Board committees oversee and review areas of risk that are particularly relevant to them based on their responsibilities and charters. GitLab’s management regularly provides reports to support the Board’s oversight obligations. This reporting cadence provides visibility and information regarding the identification, assessment, and management of critical risks and the company’s risk mitigation strategies.
 
-#### Information Security and Data Privacy*
+The [charter](https://ir.gitlab.com/static-files/549b448d-bfd0-47cc-aa47-373121eff49e?_gl=1*bos64y*_ga*MTkyOTUzNTQ4LjE2NjMzNTIxOTY.*_ga_ENFH3X7M5Y*MTY3MjkzMzgxNC4yMDIuMS4xNjcyOTM0NjIyLjAuMC4w) of the Nominating and Corporate Governance Committee tasks the committee with assisting the Board in overseeing company programs relating to corporate responsibility and sustainability, including ESG matters. GitLab’s Senior Director, ESG, reports to the Chief Legal Officer (who is also the Head of Corporate Affairs and Corporate Secretary) weekly and to GitLab’s executive leadership as needed. The Nominating and Corporate Governance Committee meets at least twice per year and ESG topics are discussed with this committee as well as with the full Board as needed.
 
-At GitLab, we know how much security and privacy matter to our customers and stakeholders. GitLab maintains a formal [Security Assurance](/handbook/security/security-assurance/) department responsible for monitoring and reporting on GitLab's compliance with various security frameworks and standards. For the most up-to-date list of current security frameworks, certifications, and instructions on obtaining assurance documentation, please reference GitLab's [Trust Center](https://about.gitlab.com/security/).
+#### Information Security and Data Privacy
 
-GitLab takes the security of our user's data seriously. We employ administrative, technical, and physical security controls when appropriate, to protect user information. For more information on our security practices, please see [Technical and Organizational Security Measures](/handbook/security/security-assurance/technical-and-organizational-measures.html) for GitLab.com.
+At GitLab, we recognize that to maintain trust and deliver the world’s leading DevSecOps platform, security and privacy must remain our top priorities. Our information security and privacy practices reflect our dedication to safeguarding customer data and building security into the core of our product and our company.
 
-GitLab acknowledges the importance of our privacy obligations and the requirements and rights of our customers and users. We provide detailed information to everyone on the personal data we collect to operate our business. For more information on the personal data we collect, please see our [Privacy Statement](https://about.gitlab.com/privacy/). GitLab makes the necessary documentation available to our customers to enable compliance with privacy regulations. Users also have the right to access, correct, restrict, or delete personal data, and to port personal data to another company. While these rights may vary by jurisdiction, GitLab provides users with the same rights and choices, no matter where they live. For more information on our privacy practices, see our [Privacy Statement](https://about.gitlab.com/privacy/).
+##### Security Assurance
 
-The [Privacy Team](/handbook/legal/privacy/), which is part of the [Legal and Corporate Affairs Team]({{< ref legal-and-corporate-affairs >}}), provides support and guidance to uphold consistent business processes around the protection of personal data as it relates to GitLab customers, users, team members, and other natural persons. The team serves as advocates to ensure that the data privacy practices of GitLab meet the needs of cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
+The GitLab [Security Division's](/handbook/security/) mission is to enable everyone to innovate and succeed on a safe, secure, and trusted DevSecOps platform. As part of this mission, the [Security Assurance](/handbook/security/security-assurance/) Department is responsible for monitoring and reporting on GitLab’s compliance with various security frameworks and standards and for providing GitLab customers with a high level of assurance around the security of GitLab Cloud Services, which is comprised of GitLab.com and GitLab Dedicated.
 
-GitLab maintains a [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html) using a color system to denote data classification levels: green, yellow, orange, and red. All customer-generated private data is classified as the most sensitive data in the environment and is automatically labeled as red, demonstrating GitLab's commitment to data security on behalf of our customers. This classification standard extends to customer application programming interfaces ("APIs"), code, private user profiles, and confidential repos/epics/issues. Red data classification is reserved exclusively for customer-generated data.
+To help ensure that user information is protected, we employ a range of administrative, technical, and physical security controls. For more information on our security practices, please see our [Technical and Organizational Security Measures](/handbook/security/security-assurance/technical-and-organizational-measures/) for GitLab Cloud Services.
 
-**ISO 27017:2015 & ISO 27018:2019 – A Certification in Our Cloud Security and Privacy Standards**
+We maintain various security certifications covering GitLab Cloud Services, including ISO/IEC 27001:2013, ISO/IEC 27017:2015, and ISO/IEC 27018:2019. In FY24, we expanded our compliance portfolio to include a SOC 2, Type II report for GitLab Dedicated and added TISAX AL-2 certification for GitLab Cloud Services.
 
-Over the last few years, GitLab has continued to hold the [ISO/IEC 27001:2013](/handbook/security/security-assurance/security-compliance/certifications.html) certification that specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system ("ISMS"). More recently GitLab received the expansion of its ISO 27001 certification to include ISO 27017:2015 cloud security standard, and ISO 27018:2019 privacy standard.
+In January 2024, we enhanced customer access to assurance resources with the launch of the updated GitLab [Trust Center](https://trust.gitlab.com/). The Trust Center provides a single, unified location for communicating our compliance and assurance credentials, hosting our security and privacy documentation for customer consumption, sharing important notices, and hosting our internal knowledge base where customers can readily access the same answers we provide in questionnaire responses. This self-service approach not only provides customers with increased visibility of critical information but also enables them to accomplish security and risk reviews quickly and efficiently.
 
-#### Responsible Product Development*
+##### Cybersecurity
 
-GitLab's [product mission](/handbook/product-development-flow/) is to consistently create products and experiences that users love and value. Responsible product development is integral to this mission.
+GitLab’s cybersecurity program was designed in alignment with industry standards and recognized best practices to identify, assess, and manage material risks from cybersecurity threats. Identified risks are assessed for criticality, prioritized for remediation, and reported by GitLab's security teams to various levels of our management. Our global incident response team iteratively evaluates security events for impact, using both qualitative and quantitative factors. Security incidents that are assessed as potentially material are escalated to designated members of our senior management and Board, as applicable.
 
-We are committed to secure and ethical operations as an organization and, beyond that, strive to set an example by empowering our wider GitLab [community](/handbook/marketing/developer-relations/community-pathway/#how-community-fits-into-gitlabs-strategy) to build and work with the highest levels of security through our DevSecOps platform.
+Our security program also accounts for potential cybersecurity risks associated with third parties with whom we do business. These risks are continually assessed throughout the vendor lifecycle, from onboarding to offboarding. We also engage in continuous monitoring of our cybersecurity risks and perform security assurance activities via independent, external third parties such as consultants, auditors, and assessors during our robust security certification audits, penetration tests, and bug bounty programs.
 
-Artificial Intelligence (AI) marks a big industry shift that will make it easier to develop, secure and operate software. GitLab infuses AI throughout the software development lifecycle by incorporating it into our comprehensive enterprise DevSecOps platform. We lead with a customer-centric approach focused on privacy first, helping customers secure their intellectual property.
+The Audit Committee has oversight responsibility for risks and incidents relating to cybersecurity threats, including compliance with disclosure requirements and related effects on financial and other risks, and it reports any findings and recommendations, as appropriate, to the full Board for consideration. Management is responsible for and regularly discusses identifying, assessing, and managing material cybersecurity risks on an ongoing basis through programs led by the Chief Information Security Officer, the Chief Legal Officer, and the Chief Financial Officer.
 
-*"With AI revolutionizing how companies develop, secure, and operate software, we believe GitLab is positioned as the leading AI-powered DevSecOps platform. Today, we deliver more AI-powered capabilities to customers than any other DevSecOps platform. Our vision builds on that foundation to encompass the full software development lifecycle - from planning and development to security, deployment, and maintenance. With GitLab, customers accelerate the time to value their digital transformation efforts."*
--Sid Sijbrandij, GitLab Co-Founder and Chief Executive Officer
+For more information, see our FY24 [Form 10-K](https://ir.gitlab.com/static-files/496790f5-db93-4a5c-b897-072c7aa67616) and our GitLab [Trust Center](https://trust.gitlab.com/).
 
-**Product Feature Enhancements in FY23**
+##### Data Privacy
 
-We believe we are best in class and the leading example in information security, innovation, and transparency. To that end, we devoted significant effort in FY23 to enhance the capabilities across our entire platform and further elevate our standards across the product development lifecycle.
+GitLab is fully committed to protecting the personal data of its customers, team members, suppliers, and other stakeholders in accordance with global comprehensive data privacy laws. We take the privacy of personal data very seriously and have initiated a variety of methods and controls so that we know what data we collect and hold and that it is protected appropriately.
 
-Our FY23 priorities in this area included:
+Our [Privacy Statement](https://about.gitlab.com/privacy/) provides details on how we collect, share, use, and protect personal information and on the choices that customers and users have regarding their personal data. Users also have the right to access, correct, restrict, or delete personal data and to port personal data to another company. Although legal and regulatory requirements related to data privacy may vary by jurisdiction, GitLab provides users with the same rights and choices no matter where they live. For more information on our privacy practices, see our [Privacy Statement](https://about.gitlab.com/privacy/).
 
-- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
+The [Privacy Team](/handbook/legal/privacy/) (part of GitLab’s Legal and Corporate Affairs Team) provides support and guidance to uphold consistent business processes around the protection of personal data. Privacy Team members collaborate cross-functionally and serve as advocates to ensure that the data privacy practices of GitLab meet the needs of our cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
 
-- **Extending our lead in GitLab continuous integration (CI)**, enabling testing, building, and publishing of software with no third-party application or integration needed
+The GitLab [Data Classification Standard](/handbook/security/data-classification-standard/) defines data categories and provides a matrix of security and privacy controls for the purposes of determining the level of protection to be applied to GitLab data throughout its lifecycle.
 
-- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/anti-abuse/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
+As part of our commitment to privacy, GitLab ensures that, where appropriate, projects and personal data processing activities are subject to Privacy Reviews and a [Data Protection Impact Assessment](/handbook/legal/privacy/dpia/) (DPIA) as key components of a ‘Privacy by Design’ approach.
 
-- **Enhancing platform security**, including improvements in [many industry certifications](https://about.gitlab.com/security/cap/).
+#### Responsible Product Development
 
-- **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html.) (FIPs) compliance
+GitLab’s [product mission](/handbook/product-development-flow/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
 
-- **Launched [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)**
+We strive to set an example by empowering our wider GitLab community to build and work with the highest levels of security through our DevSecOps platform. This extends to how we are incorporating artificial intelligence (AI) and continuously evolving the platform to enable secure, responsible development.
 
-    GitLab Dedicated, launched in beta in the spring 2022, removes the overhead of platform management to increase operational efficiency, reduce risk, and enhance the speed and agility of an organization. GitLab teams fully manage the maintenance and operations of each isolated instance so that customers can access our latest product improvements while meeting the most complex compliance standards.
+##### Responsible AI
 
-    In addition to GitLab Dedicated, we released several new security features in FY23. Releases included:
+GitLab is dedicated to responsibly building artificial intelligence (AI) into and throughout our comprehensive DevSecOps platform. We offer GitLab Duo, a [full suite of AI capabilities](https://about.gitlab.com/gitlab-duo/) across the GitLab platform so that our customers can ship better, more secure software faster. GitLab Duo follows a privacy- and transparency-first approach to help customers confidently adopt AI while keeping their valuable assets protected.
 
-- **Integrated security training feature (Ultimate tier only)**
+As we work to integrate new AI-powered features into the platform, we do not simply adopt the latest advancements for their own sake. Instead, we take a strategic, [intentional approach](https://design.gitlab.com/usability/ai-human-interaction), ensuring that the features we add have a clear purpose, appropriate controls, and safeguards to protect users’ data. This includes a [policy](https://about.gitlab.com/privacy/#information-processed-by-ai-powered-features) not to use customers’ or users’ AI inputs to train any language models without their instruction or prior consent.
 
-    GitLab already provides a comprehensive set of security scanning tools. This past year, we launched a new integrated security training functionality for our SaaS and Self-Managed Ultimate tier community members and customers to help developers learn how to address vulnerabilities. Developers can now view training from selected educational providers, relevant to the detected vulnerability.
+In early 2024, we launched the GitLab [AI Transparency Center](https://about.gitlab.com/ai-transparency-center/) to enable our customers to confidently unlock the enormous potential of AI and emphasize our customer-centric approach to responsible AI development and deployment. The AI Transparency Center currently includes GitLab’s [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/), [AI Continuity Plan](/handbook/product/ai/continuity-plan/), and [AI features documentation](https://docs.gitlab.com/ee/user/ai_features.html). The principles and policies in our AI Transparency Center govern how we responsibly select AI models to use based on an extensive model evaluation process. The launch of the center was a cross-functional effort led by the Legal and Corporate Affairs (LACA) team in partnership with the Product, Security, and Marketing teams.
 
-- **Supply Chain Levels for Software Artifacts ("SLSA") security framework feature (all tiers)**
+##### Security and Governance
 
-    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-L1 compliant attestation metadata for building artifacts.
+Our commitment to responsible product development also encompasses how we support customers in ensuring security and responsibility throughout the software development lifecycle. GitLab’s security and governance capabilities include a wide range of controls, such as automatic scanning of project dependencies for security vulnerabilities, license compliance, and other risks; vulnerability management and security scanning; security and compliance policies; and comprehensive anti-abuse tools. In FY24, we introduced several enhancements, including support for [custom roles](https://docs.gitlab.com/ee/development/permissions/custom_roles.html), expanded security [policies](https://docs.gitlab.com/ee/user/application_security/policies/), improved security scanner accuracy, and support for [group-level dependency lists](https://docs.gitlab.com/ee/user/application_security/policies/) for centralized dependency management.
 
-- **Group and subgroup-level scan result capabilities for security policies (Ultimate tier only)**
+##### Continuous Integration and Delivery
 
-    GitLab now supports the management of scan result policies at both the group and subgroup levels. These policies automatically flow down and apply to all projects in the group. This makes it easier to enforce policies uniformly for large organizations that have significant numbers of projects.
+The incorporation of end-to-end [continuous integration and delivery](https://about.gitlab.com/solutions/continuous-integration/) (CI/CD) features in GitLab supports the default integration of best practices, empowering users to focus on developing code with speed, security, and quality in mind. This includes automated code testing capabilities that make software development easier, faster, and less risky for developers.
 
-#### Business Ethics*
+In FY24, we continued to enhance GitLab’s CI/CD offering with new features such as [components](https://about.gitlab.com/blog/2023/05/01/how-to-build-reusable-ci-templates/), preconfigured CI/CD files that automate the process of building, testing, and deploying software applications, and [expanded runner machine types](https://about.gitlab.com/releases/2023/07/22/gitlab-16-2-released/#medium-saas-runners-on-linux-available-to-all-tiers) to enable faster CI/CD pipelines. We also improved key GitLab features such as [variables](https://about.gitlab.com/releases/2023/11/16/gitlab-16-6-released/#improved-ui-for-cicd-variable-management) and [secrets](https://about.gitlab.com/releases/2023/08/22/gitlab-16-3-released/#azure-key-vault-secrets-manager-support), helping users make more informed decisions about their data and application security while also supporting the best practices in design and secure workflows.
 
-GitLab is committed to the highest standards of legal and ethical business conduct. It has long operated its business consistent with written operating principles and policies that reinforce this commitment. GitLab complies with all laws and governmental regulations that are applicable to its activities, and expects all team members to adhere to our ethical standards, and legal and regulatory obligations. We require each team member to read and become familiar with the ethical standards described in GitLab's [policies](/handbook/legal/#gitlab-policies). A team member who violates the law and/or our corporate policies may face disciplinary action, up to and including dismissal.
+#### Business Ethics
 
-Compliance with GitLab's policies, and local and federal rules and laws is the individual responsibility of each team member. Team members are required to deal honestly, ethically, and fairly with customers, partners, suppliers, competitors, and other third parties. For example, we:
+GitLab is committed to the highest standards of legal and ethical business conduct. It has long operated its business consistent with operating principles and policies that reinforce this commitment. GitLab complies with all laws and regulations that are applicable to its activities and expects all team members to adhere to our ethical standards and legal and regulatory obligations. These expectations are reflected and reinforced by our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d?_gl=1*1ajdvmc*_ga*OTgxNjAzNjM1LjE2ODMyMDg3MTk.*_ga_ENFH3X7M5Y*MTY4NDk2MTE4MC4xMy4xLjE2ODQ5NjE3MDYuMC4wLjA.) (“Code of Conduct”) and various supporting [policies, procedures, and other resources](/handbook/legal/ethics-compliance-program/#compliance-standards-guidelines--other-resources) (collectively, “Compliance Standards”).
 
-- Prohibit bribes, kickbacks, or any other form of improper payment (and payment acceptance), direct or indirect, to (by) any representative of a government, labor union, customer, or supplier to obtain a contract, some other commercial benefit or government action; and
-- Protect, in accordance with applicable agreements and law, all proprietary data our customers, partners, or suppliers provided to us; and prohibit our representatives from otherwise taking unfair advantage of our customers, partners, or suppliers, or other third parties, through manipulation, concealment, abuse of privileged information, or any other unfair-dealing practice.
+In FY24, we centralized our compliance efforts. The [Ethics and Compliance Program](/handbook/legal/ethics-compliance-program/#ethics-and-compliance-program-charter), is designed to help GitLab team members maintain its culture of compliance and to promote ethical decision-making by:
 
-GitLab strives to foster a work environment in which ethical issues and concerns may be raised and discussed with supervisors or with others without [fear of retribution](/handbook/legal/anti-retaliation-policy/#:~:text=Any%20Team%20Member%20who%20participates,or%20substantiated%20following%20an%20investigation.). If a team member is aware of a suspected or actual policy violation by others, they have a responsibility to report it in accordance with the procedures outlined below and in our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d?_gl=1*1ajdvmc*_ga*OTgxNjAzNjM1LjE2ODMyMDg3MTk.*_ga_ENFH3X7M5Y*MTY4NDk2MTE4MC4xMy4xLjE2ODQ5NjE3MDYuMC4wLjA.).
+- Ensuring that Compliance Standards are current, easy to find, and widely available to team members;
+- Monitoring the regulatory landscape for developments and updating our policies, as necessary, to maintain compliance with applicable laws and regulations;
+- Educating our team members on our policies and reporting avenues through training, awareness initiatives, and other outreach efforts;
+- Providing guidance and resolving related inquiries involving, for example, conflicts of interests and gifts and entertainment; and,
+- Encouraging and facilitating appropriate risk assessment, due diligence, and remediation to deter, detect, and address unlawful, unethical, and discriminatory conduct.
 
-**Reporting of Concerns and Violations**
+##### Board Oversight
 
-GitLab offers team members a variety of ways to get answers to their questions about ethical issues and to raise any concerns about a possible violation of the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d?_gl=1*dvfsb7*_ga*OTgxNjAzNjM1LjE2ODMyMDg3MTk.*_ga_ENFH3X7M5Y*MTY4MzY0NDg3Mi40LjAuMTY4MzY0NDg3Mi4wLjAuMA..). Generally, each team member's direct supervisor or manager (or another supervisor or manager) will be in the best position to resolve the issue quickly. If, after raising an ethics or conduct concern, the issue is not resolved, it should be raised with GitLab's People Group or Chief Legal Officer. Team members can raise their concerns orally or in writing and may do so anonymously.
+The Board, through its Audit Committee, is responsible for administering the Code of Conduct, and for addressing material issues and risks concerning Compliance Standards and applicable laws and regulations. The Audit Committee has delegated day-to-day responsibility for administering and interpreting the Code of Conduct to GitLab’s Chief Legal Officer.
 
-At any time, team members may contact [EthicsPoint](/handbook/people-group/), GitLab's comprehensive and confidential 24-hour hotline provided by [Navex Global](https://www.navex.com/en-us/request-navex-demo/?utm_campaign=us_search_brand&utm_source=Google&utm_medium=CPC&utm_content=Paid&utm_term=navex%20global&gclid=CjwKCAjwv8qkBhAnEiwAkY-ahnNAKuxAjS3UxFMdE1PMC3BgGB-tTUCfkySHlt0htCPPSNbXH3zvURoCjnMQAvD_BwE). The purpose of EthicsPoint is to ensure that any team member wishing to submit a report anonymously about conduct addressed in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) can do so without fear of retribution. EthicsPoint toll-free numbers and other reporting methods are available 24 hours a day, 7 days a week for use by team members. In addition to EthicsPoint, GitLab has engaged [Lighthouse Services](/handbook/people-group/#how-to-report-violations) to provide an anonymous reporting hotline for GitLab team members to submit reports regarding team member relations.
+##### Team Member Responsibilities
 
-**Partner Ethics**
+Each team member is responsible for reading, understanding, and ultimately complying with GitLab’s Compliance Standards. Team members are expected to deal honestly, ethically, and fairly with customers, partners, suppliers, competitors, and other third parties. GitLab expressly prohibits team members from violating applicable laws and regulations, and any team member who does so may face disciplinary action, up to and including dismissal (subject to local law). To memorialize and reinforce GitLab’s expectations, we require each team member to review and acknowledge our Code of Conduct on an annual basis.
 
-Business ethics go beyond our immediate team members. GitLab will only do business with suppliers, contractors, resellers, agents, and consultants (collectively referenced as "Partners") who comply with applicable and controlling laws, rules, and regulations and at a minimum, with standards of business conduct consistent with those set forth in GitLab's [Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/).
+Team members are educated on GitLab’s policies and procedures and related laws and regulations through continuous training, both at onboarding and throughout the year, and awareness campaigns. Team members are encouraged to ask questions about our policies and seek guidance when necessary through various avenues, including a Slack channel dedicated to ethics and compliance.
 
-As with our own team members, GitLab holds the highest expectations for our Partners regarding ethical issues including human rights, health and safety, corruption, the working environment and more. GitLab expects that Partners, as well as their employees, sub-suppliers, and any other parties involved with the execution of GitLab work, similarly comply with the applicable laws and the standards set forth in the Partner Code of Ethics.
+##### Reporting of Concerns and Violations
 
-**Anti-Fraud Policy**
+GitLab strives to foster a work environment in which ethical issues and concerns may be raised and discussed with supervisors or others without [fear of retribution](/handbook/legal/anti-retaliation-policy/#:~:text=Any%20Team%20Member%20who%20participates,or%20substantiated%20following%20an%20investigation.). If a team member becomes aware of a suspected or actual violation of law, regulation, or GitLab Compliance Standards, they have a responsibility to promptly report their concern in accordance with GitLab’s Whistleblower Policy and Code of Conduct.
 
-GitLab is continually iterating to enhance policies that help guide team members in conducting business in a lawful and ethical manner. Most recently, GitLab formalized an [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/#:~:text=Any%20Team%20Member%20who%20has,%2C%20investigation%20and%2For%20prosecution.) in FY23. The policy builds on existing requirements set forth in other policies. The primary objectives of the policy are to prevent fraud, help maintain GitLab's culture of compliance and integrity in GitLab's business dealings, establish procedures and protections that allow team members to act on suspected fraud or corruption with potentially adverse ramifications, and achieve GitLab's legitimate business objectives.
+GitLab offers team members a variety of ways to report suspected or actual violations. Team members may raise their concerns orally or in writing to their direct supervisor or manager, to GitLab’s Chief Legal Officer, or to the Audit Committee.
 
-Team members are expected to immediately report suspected, observed, or otherwise known fraudulent activity to their direct supervisor (who shall notify GitLab's Chief Legal Officer and Head of Corporate Affairs, Chair of the Audit Committee, or outside counsel, as appropriate). If the team member has reason to believe that their direct supervisor may be involved in fraudulent activity, the team member is obligated to report the activity to the Chief Legal Officer and Head of Corporate Affairs. The reporting team member shall refrain from discussing the matter with any team member unless directed to do so by the Chief Legal Officer and Head of Corporate Affairs.
+At any time, team members may also submit reports using EthicsPoint, a GitLab-provided tool that is available 24 hours a day and allows for anonymous reporting about conduct addressed in the Code of Business Conduct and Ethics. Reports to EthicsPoint can be submitted using a toll-free hotline or through the EthicsPoint [website](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html). In addition to EthicsPoint, GitLab has engaged [Lighthouse Services](/handbook/people-group/#how-to-report-violations) to provide an anonymous hotline for team members to submit reports involving team member relations.
 
-As with other ethical concerns, team members may confidentially and anonymously report suspected or observed violations of the anti-fraud policy via [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html).
+GitLab treats all reports seriously. Notification of reports submitted via EthicsPoint is automatically provided to the Chief Legal Officer and Chairperson of the Audit Committee and those reports are promptly and thoroughly investigated by qualified personnel at the direction of the Chief Legal Officer, as appropriate. Reports involving team member relations are reported to the People Group team.
+
+##### Partner Ethics
+
+GitLab’s commitment to legal and ethical conduct extends to its suppliers, contractors, resellers, agents, and consultants (collectively,  “Partners”). GitLab expects all Partners, their employees, sub-suppliers, and any other party involved in the execution of GitLab work to comply with all applicable laws, regulations, and the standards set forth in GitLab’s [Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/), which includes standards relating to ethical conduct, including human rights and labor, health and safety, bribery and corruption, environmental impacts, and more.
 
 ### Appendix
 
-#### Measuring Results
-
-Disclosing our progress through data aligns with our [transparency](/handbook/values/#transparency) and [results](/handbook/values/#results) values. We have a section in our Handbook devoted to [key performance indicators (KPIs)](/handbook/company/kpis/) where we update our progress regularly. Every part of GitLab has KPIs linked to the company [objectives and key results (OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the Handbook.
-
-- [GRI disclosures](https://about.gitlab.com/documents/GRI_CONTENT_INDEX_FY23.pdf)
-- [SASB disclosures](https://about.gitlab.com/documents/SASB_INDEX_FY23.pdf)
-- [Performance data tables](https://esg-landing-page.about.gitlab-review.app/files/esg/PERFORMANCE_DATA_TABLES_FV.pdf)
+- [GRI disclosures](https://about.gitlab.com/documents/FY24_GRI_Index.pdf)
+- [SASB disclosures](https://about.gitlab.com/documents/FY24_SASB_Index.pdf)
+- [TCFD disclosures](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf)
+- [Performance Data Tables](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf)
 
 ### Contact
 
-For questions regarding GitLab's ESG report and data, please contact ESG@GitLab.com
+For questions regarding GitLab’s ESG report and data, please contact <ESG@GitLab.com>.
 
-### Forward looking statement
+### Forward-Looking Statements
 
 This report contains forward-looking statements within the meaning of the federal securities laws. These statements involve assumptions and are subject to known and unknown risks and uncertainties that could cause actual results to differ materially from those discussed or anticipated. For a complete discussion of risk associated with these forward-looking statements in our business, please refer to our SEC filings, including our most recent quarterly report on Form 10-Q and our most recent annual report on Form 10-K.
 
 Our forward-looking statements are based upon information currently available to us. We caution you to not place undue reliance on forward-looking statements, and we undertake no duty or obligation to update or revise any forward-looking statement, or to report any future events, or circumstances or to reflect the occurrence of unanticipated events.
 
 Additionally, this presentation contains information related to upcoming features and functionality. It is important to note that the information presented is for informational purposes only, so please do not rely on the information for purchasing or planning purposes. Just like with all projects, the items mentioned during the presentation are subject to change or delay, and the development, release, and timing of any products, features or functionality remain at the sole discretion of GitLab.
+
+### Previous ESG Reports
+
+- [FY23 ESG Report](/handbook/legal/esg/fy23-esg-report)

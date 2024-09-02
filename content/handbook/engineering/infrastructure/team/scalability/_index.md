@@ -26,25 +26,25 @@ title: "Scalability Group"
 
 The Scalability group is currently formed of two teams:
 
-* [Scalability:Observability](./observability) and
-* [Scalability:Practices](./practices).
+* [Scalability:Observability](observability/) and
+* [Scalability:Practices](practices/).
 
 {{< team-by-manager-slug "rachel-nienaber" >}}
 
 ### Scalability:Observability
 
-The [Observability team](./observability) focuses on observability, forecasting & projection systems that enable development engineering to predict
+The [Observability team](observability/) focuses on observability, forecasting & projection systems that enable development engineering to predict
 system growth for their areas of responsibility.
 
-The following people are members of the [Scalability:Observability team](./observability):
+The following people are members of the [Scalability:Observability team](observability/):
 
 {{< team-by-manager-slug "liam-m" >}}
 
 ### Scalability:Practices
 
-The [Practices team](./practices) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
+The [Practices team](practices/) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
 
-The following people are members of the [Scalability:Practices team](./practices):
+The following people are members of the [Scalability:Practices team](practices/):
 
 {{< team-by-manager-slug "kwanyangu" >}}
 
@@ -359,9 +359,9 @@ You can find more detailed information in the links below. If this is not enough
 
 1. [Expand and Contract pattern](https://docs.gitlab.com/ee/development/multi_version_compatibility.html)
 2. [Zero Downtime Updates](https://docs.gitlab.com/ee/update/zero_downtime.html)
-3. [Sidekiq Compatibility across Updates](https://docs.gitlab.com/ee/development/sidekiq_style_guide.html#sidekiq-compatibility-across-updates)
+3. [Sidekiq Compatibility across Updates](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html)
 4. [Avoiding downtime in migrations](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html)
-5. [Uploads development documentation](https://docs.gitlab.com/ee/development/uploads.html)
+5. [Uploads development documentation](https://docs.gitlab.com/ee/development/uploads/)
 
 ## Team History
 

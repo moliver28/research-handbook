@@ -6,8 +6,8 @@ title: "Deployments and Releases"
 
 This page describes the deployment and release approach used to deliver changes to users. The overall process consists of two significant parts:
 
-1 **Monthly self-managed release**: GitLab version (XX.YY.0) [published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [patch](https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/process.md), [non-critical](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#non-critical-security-releases), and [critical](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases) security releases are created as needed
-1 **GitLab.com deployment**: A Continous Delivery process to deploy [branches created from master branch](https://www.youtube.com/watch?v=_G-EWRpCAz4), on regular intervals.
+1. **Monthly self-managed release**: GitLab version (XX.YY.0) [published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [planned patches](/handbook/engineering/releases/patch-releases/) are scheduled twice a month and [unplanned critical patches](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process) are created as needed.
+2. **GitLab.com deployment**: A Continous Delivery process to deploy [branches created from master branch](https://www.youtube.com/watch?v=_G-EWRpCAz4), on regular intervals.
 
 For more details on the individual processes and how to use them please see the [Deployments page](/handbook/engineering/deployments-and-releases/deployments) for GitLab.com changes and the [Releases page](/handbook/engineering/releases/) for changes for self-managed users.
 
@@ -63,7 +63,7 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 
 1. Walkthrough [Auto-Deploy packages dashboard](https://dashboards.gitlab.net/d/delivery-auto_deploy_packages/delivery-auto-deploy-packages-information?orgId=1)
 1. Walkthrough the monthly view of [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) and [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=lead-time) - note any patterns
-1. Walkthrough of last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
+1. Walkthrough of [Deployment Blockers Dashboard](https://dashboards.gitlab.net/d/delivery-deployment_blockers/delivery3a-deployment-blockers?orgId=1) and last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
 1. Do we need to take action based on the previous week's MTTP?
 
 ## Resources

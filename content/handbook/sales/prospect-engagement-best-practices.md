@@ -37,7 +37,7 @@ To set this up:
 1. Go to the left sidebar and click 'Email'.
 1. Then click 'My Email to Salesforce'.
 1. Copy the email string.
-1. Go to My Acceptable Email Addresses and make sure your gitlab email address is there.
+1. Go to My Acceptable Email Addresses and make sure your GitLab email address is there.
 1. In 'Email Associations', make sure "Automatically assign them to Salesforce records" is checked.
 1. Check Opportunities, Leads, and Contacts.
 1. In the Leads and Contacts section, make sure to select "All Records".

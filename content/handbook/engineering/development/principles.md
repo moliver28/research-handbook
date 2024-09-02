@@ -26,7 +26,7 @@ engineering practice.
 
 ## Iteration
 
-We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)
+We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)
 that is on the direct path to achiving our goals.
 
 For complex initiatives we are using the [Architecture Design Workflow](/handbook/engineering/architecture/workflow/)
@@ -293,7 +293,7 @@ product offers. Dogfooding is not:
 1. Building a bot outside of GitLab.
 1. Writing scripts that leverage the GitLab API (if the functionality is on our
 roadmap and could be shipped within the GitLab Project).
-1. Using a component of GitLab that is part of our [components](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/applications.html).
+1. Using a component of GitLab that is part of our [components](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/management_project_template.html).
 1. Using templates or repos that are not part of the default UI (having to type or copy-paste to add them).
 1. Not deprecating the non-GitLab product or part as you introduce the functionality in GitLab, we need to eat the dogfood, not just serve it.
 1. Using it for something that isn't crucial or essential.

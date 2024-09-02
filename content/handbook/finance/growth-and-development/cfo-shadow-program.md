@@ -22,17 +22,17 @@ To benefit the most from the types of meetings that the CFO attends, it's recomm
 
 1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule)
 1. Assign your manager and ask them to approve (**but not to merge**) the merge request
-1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}})
+1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas)
 
 ## Additional Preparation
 
 ### Confidentiality
 
-Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here] https://handbook.gitlab.com/handbook/legal/publiccompanyresources/.
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here](/handbook/legal/publiccompanyresources/).
 
 ### Create an onboarding and offboarding issue
 
- We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) in the `#cfo-shadow` channel
+ We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) in the `#cfo-shadow` channel
 
  At this time, we do not have a "See One, Teach One" [rotational rhythm](/handbook/ceo/shadow#rotation-rhythm) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
 
@@ -48,7 +48,7 @@ It will be helpful to read more about introductions related to the [CEO Shadow P
 
 ### Review the CFO's calendar
 
-Schedule a call with the CFO's [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) to review the CFO's calendar to get an idea of what your upcoming days will be like.
+Schedule a call with the CFO's [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) to review the CFO's calendar to get an idea of what your upcoming days will be like.
 
 ## During the Program
 
@@ -96,7 +96,7 @@ Shadows are responsible for being aware of the current time and verbally providi
 **Tips for time-keeping:**
 
 - Decide who. Past shadows have found it helpful for the individual in the second week of the program to commit to keeping time when applicable.
-- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings]({{< ref "communication#scheduling-meetings" >}}).
+- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings](/handbook/communication/#scheduling-meetings).
 - Shadows should provide a 5-minute and a 1-minute notification. You can write "Time check, 5 minutes" on Zoom chat.
 - **If a meeting is running over the allocated time, unmute and verbally say "we're in overtime".** Don't wait for a break in the conversation.
 
@@ -113,7 +113,7 @@ To use the script:
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
 
-A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325) and [Android](https://play.google.com/store/apps/details?id=senzillo.talk_timer_free&hl=en_US&gl=US). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
+A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
 
 ## Rotation Schedule
 
@@ -121,9 +121,7 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2024-06-11 | Thursday 2024-06-13 | |
-| Tuesday 2024-07-09 | Thursday 2024-07-11 | |
-| Tuesday 2024-07-16 | Thursday 2024-07-18 | |
-| Tuesday 2024-07-23 | Thursday 2024-07-25 | |
-| Tuesday 2024-07-30 | Thursday 2024-08-01 | |
-| Tuesday 2024-08-06 | Thursday 2024-08-08 | |
+| Tuesday 2024-10-15 | Thursday 2024-10-17 | |
+| Tuesday 2024-10-29 | Thursday 2024-10-31 | |
+| Tuesday 2024-11-05 | Thursday 2024-11-07 | |
+| Tuesday 2024-11-12 | Thursday 2024-11-14 | |

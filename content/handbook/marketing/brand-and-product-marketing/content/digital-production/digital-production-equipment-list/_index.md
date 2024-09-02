@@ -20,7 +20,7 @@ twitter_creator: "@gitlab"
 
 ## Equipment
 
-[The Digital Production department](/handbook/marketing/brand-and-product-marketing/content/digital-production/) has organized several options for GitLab employees who need to record quality video content. Links have been provided to give a reference of the specificiations of each item (i.e. what it looks like). However, these are offered as examples only. Before you make your purchase, **[review GitLab's policy on spending company money](/handbook/finance/spending-company-money/)**. If you are unable to locate a suitable option for an item you wish to order, contact the Digital Production department about substutions.
+[The Digital Production department](/handbook/marketing/brand-and-product-marketing/content/digital-production/) has organized several options for GitLab employees who need to record quality video content. Links have been provided to give a reference of the specifications of each item (i.e. what it looks like). However, these are offered as examples only. Before you make your purchase, **[review GitLab's policy on spending company money](/handbook/finance/spending-company-money/)**. If you are unable to locate a suitable option for an item you wish to order, contact the Digital Production department about substitutions.
 
 ## Standard Desk Package
 
@@ -37,10 +37,8 @@ twitter_creator: "@gitlab"
 - Rode NT USB - [Example](https://www.bhphotovideo.com/c/product/1540109-REG/rode_nt_usb_mini_usb_microphone.html)
 - Optional Boom Arm - [Example](https://www.bhphotovideo.com/c/product/484972-REG/Rode_PSA1_PSA_1_Studio_Boom_Arm.html)
 
-### Lighting Options (Choose One)
+### Lighting Option
 
-- LED Panel with Desk Clamp - [Example](https://www.amazon.com/dp/B089K24NVF/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B089K24NVF&pd_rd_w=ujatQ&pf_rd_p=7d37a48b-2b1a-4373-8c1a-bdcc5da66be9&pd_rd_wg=d1OuW&pf_rd_r=PJA1YHHREH3X0YB9XY1D&pd_rd_r=3eb9317d-fd16-4547-99c5-b971c3a3e73f&smid=A1AGS4MWN9OLYN&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTzRLTjZHNVFMREkxJmVuY3J5cHRlZElkPUEwMzQ4ODMxMUYzUkw1OVNXQ0pWMSZlbmNyeXB0ZWRBZElkPUEwNzQyNjIyN045U1FQTkdOWEk0JndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==).
-**OR**
 - Elgato Key Light - [Example](https://www.amazon.com/Elgato-Key-Light-Professional-App-Enabled/dp/B07L755X9G)
 
 ## Advanced Desk Packages
@@ -94,7 +92,7 @@ twitter_creator: "@gitlab"
  *These are used to secure the diffusion filters over the light panels.*
 
 - Gaffer Tape - [Example](https://www.bhphotovideo.com/c/product/812203-REG/General_Brand_001UPCG255MBLA_General_Brands_Pro_Gaffer_s.html).
-  *This is specialized tape for securing cords against tripping (saftey first!). It has a light grip and will not leave marks when pulled up.*
+  *This is specialized tape for securing cords against tripping (safety first!). It has a light grip and will not leave marks when pulled up.*
 
 - HDMI Cable - [Example](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html)
 
@@ -151,7 +149,7 @@ This package is very advanced and intended for those with a high need of profess
 
 - Lavalier microphone kit - [Example](https://www.bhphotovideo.com/c/product/1385594-REG/sennheiser_ew_112p_g4_a1_ew_112p_g4_camera.html?gclid=CjwKCAiAkan9BRAqEiwAP9X6UcPXPNWTfrUHoz9YxiCTsjaXN0MTO3lKNQGHjHAO9Ys68UAY2aOA2xoC3jkQAvD_BwE&pcur=CAD)
 - Adapter to connect Lavalier microphone to Camera - [Example](https://www.bhphotovideo.com/c/product/1537930-REG/kondor_blue_kb_mxlr_16_bk_mini_xlr_male_to.html).
-- Shotgun Micrphone (for camera) - [Example](https://www.bhphotovideo.com/c/product/1183909-REG/rode_videomicro_compact_on_camera.html?sts=pi&pim=Y)
+- Shotgun Microphone (for camera) - [Example](https://www.bhphotovideo.com/c/product/1183909-REG/rode_videomicro_compact_on_camera.html?sts=pi&pim=Y)
 
 #### Green Screen
 
@@ -192,7 +190,7 @@ This package is very advanced and intended for those with a high need of profess
  *These are used to secure the diffusion filters over the light panels.*
 
 - Gaffer Tape - [Example](https://www.bhphotovideo.com/c/product/812203-REG/General_Brand_001UPCG255MBLA_General_Brands_Pro_Gaffer_s.html).
-  *This is specialized tape for securing cords against tripping (saftey first!). It has a light grip and will not leave marks when pulled up.*
+  *This is specialized tape for securing cords against tripping (safety first!). It has a light grip and will not leave marks when pulled up.*
 
 - HDMI Cable - [Example](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html)
 

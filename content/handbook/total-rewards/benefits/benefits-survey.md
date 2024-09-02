@@ -565,7 +565,7 @@ By demographic:
     |--------------------------------------------------------------------------------|-------|------------------|
     | Stress                                                                         | 333   | 42%              |
     | Example from my manager.                                                       | 391   | 50%              |
-    | Encouragement from my manager/peers to support my wellbeing through time off.  | 475   | 61%              |
+    | Encouragement from my manager/peers to support my well-being through time off.  | 475   | 61%              |
     | Example from leaders, for example Sid.                                         | 456   | 58%              |
     | Reduced workload.                                                              | 101   | 13%              |
     | Other (Expanded on below.)                                                     | 118   | 15%              |

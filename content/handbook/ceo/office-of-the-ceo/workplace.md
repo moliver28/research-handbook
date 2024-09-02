@@ -1,13 +1,6 @@
 ---
 title: "GitLab Strategy and Operations (Workplace) Team Handbook"
 description: GitLab Strategy and Operations (Workplace) Team Handbook
-twitter_image: "/images/opengraph/all-remote.jpg"
-twitter_image_alt: "GitLab's All-Remote Marketing branded image"
-twitter_site: "@gitlab"
-twitter_creator: "@gitlab"
-aliases:
-- /handbook/ceo/office-of-the-ceo/workplace/
-- /handbook/ceo/chief-of-staff-team/workplace/
 ---
 
 ## About the GitLab Strategy and Operations (Workplace) Team
@@ -15,7 +8,7 @@ aliases:
 The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote Marketing team. It is responsible for:
 
 1. The creation, curation, and continued iteration of [GitLab's guide to all-remote](/handbook/company/culture/all-remote/guide/), a deep library of guides that covers every facet of how GitLab functions as a remote team.
-1. Stewarding, iterating, and evangelizing GitLab's management philosophy and people practice, [TeamOps]({{< ref teamops >}}).
+1. Stewarding, iterating, and evangelizing GitLab's management philosophy and people practice, [TeamOps](/teamops/).
 1. Building an overarching methodology for the modern workplace.
 
 **This page is the single source of truth for TeamOps and all-remote positioning, evangelism, approvals, vision, and strategy**.
@@ -24,9 +17,9 @@ The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote 
 
 {{< youtube "GKMUs7WXm-E" >}}
 
-The mission of GitLab's Strategy and Operations (Workplace) team is to define, evolve, and scale [TeamOps]({{< ref teamops >}}). We also evolve and champion the company's [all-remote culture](/handbook/company/culture/all-remote/).
+The mission of GitLab's Strategy and Operations (Workplace) team is to define, evolve, and scale [TeamOps](/teamops/). We also evolve and champion the company's [all-remote culture](/handbook/company/culture/all-remote/).
 
-This involves close collaboration with [GitLab's CEO]({{< ref ceo >}}) and [Chief of Staff]({{< ref office-of-the-ceo >}}); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/).
+This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief of Staff](/handbook/ceo/office-of-the-ceo/); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/).
 
 ### All-Remote Flywheel
 
@@ -49,7 +42,7 @@ graph BT;
 
 GitLab is an influencer and educator in remote work and people operations. It serves the community by creating valuable content that furthers the proliferation and ubiquity of [remote-first](/handbook/company/culture/all-remote/how-to-work-remote-first/) and [all-remote](/handbook/company/culture/all-remote/terminology/) organizations, while enhancing the operations of colocated and [hybid-remote](/handbook/company/culture/all-remote/hybrid-remote/) companies by sharing implementable remote-first practices.
 
-We believe that the [people practice]({{< ref teamops >}}) and [operating principles]({{ ref "values#operating-principles" >}}) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
+We believe that the [people practice](/teamops/) and [operating principles]({{ ref "values#operating-principles" >}}) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
 
 ## Goals (OKR)
 
@@ -61,7 +54,7 @@ In Q4-FY23, our KR is: **Certify at least 100 GitLab team members and 1 person i
 
 ## TeamOps Trainer
 
-[TeamOps]({{< ref teamops >}}) is how GitLab works. It is an operations model that helps teams maximize productivity, flexibility, and autonomy by managing decisions, information, and tasks more efficiently.
+[TeamOps](/teamops/) is how GitLab works. It is an operations model that helps teams maximize productivity, flexibility, and autonomy by managing decisions, information, and tasks more efficiently.
 
 TeamOps Trainers are team members who are internal champions of GitLab's values, operating principles, and ways of working, inclusive of all functions and departments. They aspire to mentor and share with others GitLab's ways of working, both inside and outside of the organization.
 
@@ -161,9 +154,9 @@ Top questions from suddenly or newly-remote companies
    <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
    <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
    <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop videocalls)?</li>
-   <li>How we do handle <a href="https://about.gitlab.com/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
-   <li>How do we ensure that <a href="https://about.gitlab.com/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
+   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop video calls)?</li>
+   <li>How we do handle <a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
+   <li>How do we ensure that <a href="https://handbook.gitlab.com/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
    <li>How does one <a href="https://about.gitlab.com/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
    <li>How do you <a href="https://www.coursera.org/learn/remote-team-management">effectively lead remote teams</a>?</li>
    <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/onboarding/">onboard</a> and <a href="https://about.gitlab.com/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
@@ -171,9 +164,7 @@ Top questions from suddenly or newly-remote companies
    </ol>
 </details>
 
-### Key Points to Cover
-
-{: #foundational-presentation-areas}
+### Key Points to Cover {#foundational-presentation-areas}
 
 Regardless of the nuance in the request, here are the foundational areas that should be covered. Be sure to describe how GitLab implements these tactics using [low-context communication](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication), leaning on examples and detail such that a non-GitLab company can envision how such a tactic could be useful in their own organization.
 
@@ -189,7 +180,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
 1. **Guidance is about the here-and-now, but approach this for the long-term.**
    - Recognize that companies forced into work-from-home need communication gaps filled *now*.
    - The reason to do this with intention is that it will become a core part of a company's talent and operational strategy.
-   - Remote de-risks a company, making it less susceptiable to socioeconomic swings and crises.
+   - Remote de-risks a company, making it less susceptible to socioeconomic swings and crises.
 1. **Three biggest challenges!**
    - Workspace challenges and work/life separation.
    - Communications in a remote world, and keeping everyone engaged/informed.
@@ -202,7 +193,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
 1. **You must have a single source of truth**
    - It's not about blanket documentation. It's about working [handbook-first](/handbook/company/culture/all-remote/handbook-first/).
    - Start now! Designate a scribe if you have to. Start small, as an FAQ, and build it out.
-   - Show an example of a handbook page — a great example is our [Communication page]({{< ref communication >}}).
+   - Show an example of a handbook page — a great example is our [Communication page](/handbook/communication/).
 1. **Asynchronous over synchronous**
    - Explain how GitLab requires each meeting to have an agenda and someone [documenting](/handbook/company/culture/all-remote/meetings/#document-everything-live-yes-everything).
    - Explain how meeting takeaways then need to be contextualized and [added to relevant handbook pages](/handbook/company/culture/all-remote/self-service/#paying-it-forward).
@@ -230,7 +221,7 @@ More examples of how to talk about remote work
 <li>Changelog Podcast — <a href="https://changelog.com/podcast/397">Creating GitLab's remote playbook</a></li>
 <li>OpenFin MVP Podcast — <a href="https://openfin-mvp.simplecast.com/episodes/all-remote-before-it-was-mandatory-with-gitlabs-brendan-oleary">All-remote before it was mandatory with GitLab's Brendan O'Leary</a></li>
 <li>Skills for Mars — <a href="https://youtu.be/g78mzVYjDY0">Darren Murph On Transparency, Values & Leadership when All-Remote</a></li>
-<li>Bright & Early Podcast — <a href="https://www.brightandearlypodcast.com/33">Darren Murph: Remote Work at GitLab</a></li>
+<li>Bright & Early Podcast — <a href="https://www.youtube.com/watch?v=Vg0R9r4DcXw">Darren Murph: Remote Work at GitLab</a></li>
 <li>Working Without Borders: The Get on Board Podcast — <a href="https://medium.com/getonbrd/working-without-borders-s01e02-darren-murph-head-of-remote-at-gitlab-5567d7c634fd">Darren Murph on leading a remote culture at GitLab</a></li>
 <li>Outside The Valley: <a href="https://arc.dev/blog/podcast-ep23-gitlab-darren-murph-96ggw37q6t">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
 <li>Accelerating Support Podcast: <a href="https://soundcloud.com/acceleratingsupport/accelerating-support-export-v1/s-JylGQhxc7il">Darren Murph, Head of Remote at GitLab</a></li>
@@ -260,7 +251,7 @@ Anyone in the world (yes, this includes those who are not employed by GitLab) ma
 
 ## How does a company create their own handbook?
 
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png){: .shadow.medium.center}
+![GitLab all-remote team](https://about.gitlab.com/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png)
 
 Learn more in GitLab's [Handbook-First Documentation guide](/handbook/company/culture/all-remote/handbook-first/#tools-for-building-a-handbook) about how GitLab (the company) uses GitLab (the product) to build and maintain its handbook, as well as tools and tips for other companies who wish to start their own.
 
@@ -283,7 +274,7 @@ See below for an A/B comparison of how an inward-facing GitLab *handbook* page i
 
 ## Design and illustration assets
 
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg){: .shadow.medium.center}
+![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg)
 
 GitLab's [Brand and Digital Design](/handbook/marketing/digital-experience/) team are building out images and illustrations to visualize all-remote.
 
@@ -315,7 +306,7 @@ For example, 86% of respondents believe remote work is the future and 62% of res
 
 ### Work-from-Home Field Guide
 
-The [Work-from-Home Field Guide](/handbook/company/culture/all-remote/work-from-home-field-guide/) was co-created by GitLab and Herman Miller. It combines GitLab's expertise on [remote work](https://learn.gitlab.com/allremote/remote-playbook) and [management philosophy]({{< ref teamops >}}) with Herman Miller's deep understanding of workspaces and design.
+The [Work-from-Home Field Guide](/handbook/company/culture/all-remote/work-from-home-field-guide/) was co-created by GitLab and Herman Miller. It combines GitLab's expertise on [remote work](https://learn.gitlab.com/allremote/remote-playbook) and [management philosophy](/teamops/) with Herman Miller's deep understanding of workspaces and design.
 
 ### Remote Work playlist on GitLab Unfiltered
 
@@ -351,7 +342,7 @@ The audience we aim to reach with our all-remote and workplace initiatives is bo
 
 ## Key Messages for All-Remote and Workplace
 
-![GitLab all-remote computer](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Learning-Computer.jpg){: .shadow.medium.center}
+![GitLab all-remote computer](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Learning-Computer.jpg)
 
 ### GitLab: The Remote Strategy
 
@@ -402,11 +393,11 @@ Field Marketing will look up account ownership in SFDC (Salesforce.com) and make
 
 ## Channels
 
-![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg){: .shadow.medium.center}
+![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg)
 
 ### Web
 
-The team's primary home for publishing informational guides and content is the [all-remote section of GitLab's handbook](/handbook/company/culture/all-remote/). This will be the preeminent home to all-remote content, positioned for consumption by media, investors, prospective customers and candidates. This links readers to the guides that make up [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook), as well as [TeamOps]({{< ref teamops >}}). Future web experiences are being evaluated.
+The team's primary home for publishing informational guides and content is the [all-remote section of GitLab's handbook](/handbook/company/culture/all-remote/). This will be the preeminent home to all-remote content, positioned for consumption by media, investors, prospective customers and candidates. This links readers to the guides that make up [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook), as well as [TeamOps](/teamops/). Future web experiences are being evaluated.
 
 ### Video
 
@@ -444,7 +435,7 @@ There are also a number of videos on GitLab's [YouTube channel](https://www.yout
 
 To contribute an idea or [proposal](/handbook/values#make-a-proposal) to further GitLab's all-remote mission:
 
-1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
+1. Please put each new idea/topic in a new issue within the [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
 1. Put `Proposal: [IDEA]` as the subject
 1. Assign to `@streas`
 1. Please [set a due date](/handbook/values/#set-a-due-date) using GitLab's `Due Date` feature and provide context for the deadline(s).
@@ -488,4 +479,4 @@ For a good template to roll this out for your team, see the [Growth team's plann
 
 ---
 
-Return to the [Office of the CEO Handbook]({{< ref office-of-the-ceo >}}).
+Return to the [Office of the CEO Handbook](/handbook/ceo/office-of-the-ceo/).

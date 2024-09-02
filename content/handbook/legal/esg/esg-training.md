@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/esg/esg-training
 title: "ESG Training"
 description: "ESG Training for GitLab team members"
 ---
@@ -27,11 +26,9 @@ By ensuring that good ESG practices are embedded into the organization, this wil
   - According to a [report](https://www.georgeson.com/us/insights/early-2022-us-agm-season-data#:~:text=In%20its%202022%20Early%20Proxy,season%20and%20754%20in%202020.) from Georgeson, there was a record-breaking volume of shareholder proposal submissions on ESG matters in 2022 for Russell 3000 companies. Shareholders submitted 924 ESG shareholder proposals at Russell 3000 companies between July 1, 2021 and May 16, 2022, compared to 837 during the 2021 season and 754 in 2020.
 - Customers
   - [84%](https://www.ey.com/en_us/consumer-products-retail/make-sustainability-accessible-to-the-consumer#:~:text=84%25%20say%20sustainability%20is%20important,from%20the%20risk%20of%20infection.) of global consumers consider sustainability important when choosing a brand.
-  - [66%](https://www.porternovelli.com/wp-content/uploads/2021/05/2021-PN-Business-and-Social-Justice-Study.pdf) of Americans believe it's good for business when companies address social justice issues – and perhaps that is because individuals are prepared to put their power behind brands that align with them on important issues. Six-in-10 (61%) said they will reward companies that actively address social justice issues.
 - Team Members
   - Over the past three years, the [trends show](https://www.wespire.com/blog/state-of-employee-engagement) that more than half of all employees are open to leaving their current company for new roles, but this drops to less than 12% if they believe that their company is positively impacting the world.
   - [72%](https://www.ibm.com/downloads/cas/WLJ7LVP4) of employees are more likely to apply for a job at an organization they consider to be socially responsible.
-  - [43%](https://www.porternovelli.com/findings/2021-porter-novelli-focus-all-gender/) of employees are reconsidering their current job because their company is not doing enough to address social justice issues externally.
 - Regulators
   - New ESG disclosure requirements in the EU [(CSRD)](https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en) and [proposed requirements](https://www.sec.gov/news/press-release/2022-46) from the SEC will require public companies to disclose information on how companies manage ESG risks in addition to ESG metrics, such as greenhouse gas emissions (GHG). Many EU companies already require GHG data from their vendors, including GitLab, and for this reason, providing accurate and complete data is a priority. This will ensure that GitLab is in compliance with local regulations and continues to be easy to buy from.
 

@@ -19,7 +19,7 @@ It is the Talent Acquisition Team's mission to predictably build distributed, re
 
 As we set out over the next decade to achieve this vision, we will continue to rely on core guiding principles to define how we build toward the future.
 
-1. **Experience**: Stakeholder experience is central to all that we do. We are not purely a service provider but a partner and advisor in creating a best-in-class experience while building GitLab as a company. The Talent Acquisition team looks after building an experience for our customers, stakeholders, and partners that stands true to our [CREDIT]({{< ref "values" >}}) values and provides a level of care we are proud of - no matter the outcome.
+1. **Experience**: Stakeholder experience is central to all that we do. We are not purely a service provider but a partner and advisor in creating a best-in-class experience while building GitLab as a company. The Talent Acquisition team looks after building an experience for our customers, stakeholders, and partners that stands true to our [CREDIT](/handbook/values/) values and provides a level of care we are proud of - no matter the outcome.
 1. **Inclusivity**: Applying best practices in the craft of Talent Acquisition has an outsized impact on our ability to build a representative workforce here at GitLab. By embedding inclusivity as a guiding principle, we design fair and equitable processes into the fabric of all that we do, rather than retroactively adding parameters to solve systemic challenges in the societies we exist in
 1. **Predictability**: Our ability to have the right people, in the right jobs, at the right time is imperative to our ability to execute our commitments and plans as an organization. In order to achieve that, our team must design with an eye for accuracy and forecastability in any program, process or experience we enable.
 
@@ -270,7 +270,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Acquisitions
 
-- [**Acquisitions**]({{< ref "./talent-acquisition-framework/acquisitions" >}})
+- [**Acquisitions**](talent-acquisition-framework/acquisitions/)
 
 ### Internal Mobility
 
@@ -282,7 +282,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - [Executive Search]({{< ref "executive-search" >}})
 
-### [**Emerging Talent**]({{< ref "emerging-talent" >}})
+### Emerging Talent
+
+**[Emerging Talent](emerging-talent.md)**
 
 - [Associate Engineer Developmnet](/handbook/hiring/associate-engineer-development/)
 
@@ -347,5 +349,5 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
 - [GitLab talent ambassador]({{< ref "gitlab-ambassadors" >}})
 - [Onboarding]({{< ref "general-onboarding" >}})
-- [Stock options](https://about.gitlab.com/handbook/total-rewards/stock-options/)
+- [Stock options](/handbook/total-rewards/stock-options/)
 - [Visas]({{< ref "visas" >}})

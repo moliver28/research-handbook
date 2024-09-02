@@ -26,7 +26,7 @@ For any questions relating to the compensation calculator, reach out to [Total R
 
 ## The Compensation Calculator
 
-As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values]({{< ref "values" >}})) we developed a Compensation Calculator.
+As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
 The compensation of executives and anyone on a quota is not set with the calculator. We use a Compensation Calculator because it helps us align compensation to our values:
 
 1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don't have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual's circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they'll also be able to see the appropriate band for the change.
@@ -188,7 +188,7 @@ Once data has been collected, the Total Rewards team will review the compensatio
 To automate the process of pulling survey data from Comptryx and Radford to review benchmarks, GitLab has mapped each job title with a corresponding job code. As a first iteration GitLab will use the job codes Radford has outlined. Each job family and level must have a unique job code. The following structure is used:
 
 - Radford Code to be used as job code.
-- If there is a duplicate Radford code, the job code in BambooHR will have a letter behind to differentiate (A, B, C, etc).
+- If there is a duplicate Radford code, the job code in Workday will have a letter behind to differentiate (A, B, C, etc).
 - If there is no job code, GitLab will generate a four digit unique job code starting with "N".
 
 For example:

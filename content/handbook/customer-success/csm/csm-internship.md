@@ -58,7 +58,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
    1. [Learn Git Branching](https://learngitbranching.js.org/)
-   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://docs.gitlab.com/ee/topics/gitlab_flow.html))
+   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/))
 
 #### Week 2
 
@@ -130,9 +130,9 @@ In order to make the most of the internship, it's expected for the intern to do 
       1. Questions in the knowledge check that you got wrong, what the correct answer is, and why
       1. Prompts in the hands-on lab that you struggled to understand or complete, what the correct answer is, and why
       1. If available, review your score with your mentor to identify areas of improvement if you need to take the course again
-1. Review [account triage](https://about.gitlab.com/handbook/customer-success/csm/health-score-triage/)
+1. Review [account triage](/handbook/customer-success/csm/health-score-triage/)
    1. Ask your mentor to share their screen and walk through a customer's Gainsight 360, including scorecards, health updates in Timeline, and product usage data
-   1. Review customer [escalations](https://gitlab.slack.com/archives/CL0S629QB) and the [process](https://about.gitlab.com/handbook/customer-success/csm/escalations/)
+   1. Review customer [escalations](https://gitlab.slack.com/archives/CL0S629QB) and the [process](/handbook/customer-success/csm/escalations/)
       1. Schedule a coffee chat with a CSM currently managing or who recently closed an escalation in order to learn about their experience
 
 #### Week 7

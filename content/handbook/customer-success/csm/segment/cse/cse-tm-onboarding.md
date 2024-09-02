@@ -1,11 +1,8 @@
 ---
-title: "CSE New Team Member Onboarding"
-aliases:
-- /handbook/customer-success/csm/segment/cse/cse-tm-onboarding/
-- /handbook/customer-success/csm/segment/scale/cse-tm-onboarding/
+title: "CSE Team Member Onboarding"
 ---
 
-View the [CSME Handbook homepage](/handbook/customer-success/csm/) for additional CSME-related handbook pages.
+View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
 ---
 **Overview**
@@ -49,7 +46,7 @@ As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 - Identify how to request and track CSE engagement
 - Differentiate rules of engagement for the CSE and other account team members (i.e., AEs, SAs, CSMs, etc)
 - Apply use of Gainsight
-- Demonstrate comprehensive understanding of Gitlab Security
+- Demonstrate comprehensive understanding of GitLab Security
 - Complete certification GitLab Security Specialist
 - Demonstrate customer readiness by completing role play exercise
 
@@ -145,7 +142,7 @@ In order to be considered as having graduated from your CSE onboarding journey, 
 - Completed your role based learning path on GitLab University
 - Attained the following certificates:
   - GitLab Certified Git Associate
-  - Gitlab Certified CI/CD Associate
+  - GitLab Certified CI/CD Associate
   - GitLab Certified Project Management Associate
   - GitLab Certified Security Specialist
 - Completed role play activities and discussed feedback with your manager /  onboarding buddy

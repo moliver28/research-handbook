@@ -20,6 +20,7 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 
 ## Base Requirements For All Roles
 
+- Ability to use GitLab.
 - Several years professional experience designing for complex products.
 - Visual and interaction skills with experience designing responsively.
 - Thoughtful decision making motivated by data and research.
@@ -29,7 +30,7 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Strong [bias for action](/handbook/values/#bias-for-action) and ability to develop daily priorities to achieve goals ([manager of one](/handbook/values/#managers-of-one)).
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
-- Working knowlege of HTML/CSS, and familiarily with JavaScript.
+- Working knowledge of HTML/CSS, and familiarity with JavaScript.
 - General knowledge of Git (for example, branching, push/pulling, committing, squashing) and DevOps (for example, pipelines, deployments, security) flows.
 
 ## Levels
@@ -42,21 +43,21 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 
 #### Responsibilities
 
-- **Product knowledge:** Have working knowledge of the group you are assigned.
+- **Product knowledge:** Have working knowledge of your [group](/handbook/product/categories/#hierarchy).
 - **Research:** Conduct [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights into design decisions to fulfill user and business needs.
-- **Deliverables:** Create deliverables for the group(s) you support (for example: JTBD, UX Scorecards, competitive evaluations, user flows, low fidelity wireframes, high fidelity mockups, prototypes, and so on) that solve real user problems through the user experience.
-- **Communication:** Communicate the results of UX activities within your product area to the UX department, cross-functional partners within your product area, and other interested GitLab team-members using clear language that simplifies complexity.
-- **Usability:** Proactively identify both small and large usability issues within your group(s).
-- **Iteration:** Practice design iteration within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) and take part in the [monthly release process](http://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline) by [breaking down the designs](http://about.gitlab.com/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group(s). [Review and approve merge requests](http://about.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) submitted by developers within the [build track](http://about.gitlab.com/handbook/product-development-flow/#build-track).
+- **Deliverables:** Create deliverables for your group (for example: JTBD, UX Scorecards, competitive evaluations, user flows, low fidelity wireframes, high fidelity mockups, prototypes, and so on) that solve real user problems through the user experience.
+- **Communication:** Communicate UX activities to the department, your group, and other team members using clear language that simplifies complexity.
+- **Usability:** Proactively identify both small and large usability issues within your group.
+- **Iteration:** Practice design iteration within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) and take part in the [monthly release process](http://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline) by [breaking down the designs](http://about.gitlab.com/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group. [Review and approve merge requests](http://about.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) submitted by developers within the [build track](http://about.gitlab.com/handbook/product-development-flow/#build-track).
 - **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com) by keeping design components available and up to date in design and prototyping tools, and ensuring that components fit together visually and functionally.
 - **UI copy:** Collaborate closely with a technical writer on microcopy and documentation suggestions.
-- **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback in an appropriate way.
+- **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback appropriately.
 - **Deferred UX:** Understand Deferred UX and make recommendations for its resolution with the help from a senior or staff product designer or your product design manager.
 - **Recruiting:** Evaluate case studies during the product designer candidate interview process and interview product manager candidates.
 
 #### Requirements
 
-A Product Designer is expected to meet the base requirements and execute the responsibilities with a commitment to results and agreed actions.
+A Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a [commitment to results and agreed actions](/handbook/values/#results-competency).
 
 ### Senior Product Designer
 
@@ -68,23 +69,22 @@ The Senior Product Designer is a [grade 7](http://about.gitlab.com/handbook/tota
 
 Everything in the Product Designer role, plus:
 
-- **Product knowledge:** Deeply understand the technology and features of the group(s) you are assigned and proactively learn about other groups.
-- **Research:** Identify [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation) opportunities. Conduct research and incorporate insights into design decisions to fulfill user and business needs.
-- **Deliverables:** Create deliverables for the group you support (for example: JTBD, UX Scorecards, competitive evaluations, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, design vision, and so on) that help define the vision and execution of solving real user problems through the user experience.
-- **Communication:** Communicate the results of UX activities with a strong point of view to the UX department, cross-functional partners with your group(s), and other interested GitLab team-members using clear language that simplifies complexity.
-- **Usability:** Proactively identify both small and large usability issues within your group(s), and help influence your product manager to prioritize them.
-- **Iteration:** Lead and coach iteration of design work within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) for your group(s).
-- **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com), help determine whether components are single-use or multi-use, and provide recommendations to designers regarding new component requests.
+- **Product knowledge:** Deeply understand the technology and features of your [group](/handbook/product/categories/#hierarchy) and proactively learn about other groups.
+- **Research:** Proactively identify opportunities to do [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation).
+- **Deliverables:** Create deliverables for your group (for example: JTBD, UX Scorecards, competitive evaluations, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, design vision, and so on) that help define the vision and execution of solving real user problems through the user experience.
+- **Communication:** Communicate UX activities with a strong point of view that shows how iteration and collaboration drive specific results.
+- **Usability:** Proactively identify both small and large usability issues within your group, and help influence your product manager to prioritize them.
+- **Iteration:** Lead and coach iteration of design work within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) for your group.
+- **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com), help determine whether components are single-use or multi-use, and provide recommendations to other designers regarding new component requests.
 - **UI copy:** Collaborate early and often with a technical writer on microcopy to ensure user experiences are efficient. Help improve docs and incorporate documentation within the UI as needed to assist users in moving through their workflows.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), and model best practices for giving and receiving feedback.
-- **Deferred UX:** Help reduce the creation of additional deferred UX with [MVCs](http://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) and advocate within your group the importance of releasing value to users. Identify and influence the prioritization to fix deferred UX when it occurs.
+- **Deferred UX:** Help reduce the creation of additional deferred UX with [MVCs](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) and advocate within your group the importance of releasing value to users. Identify and influence the prioritization to fix deferred UX when it occurs.
 - **Public presence:** Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where appropriate.
 - **Cross-stage collaboration:** Support your product design manager and product manager in identifying dependencies between groups and stages and advocating for cross-stage collaboration when needed.
-- **Mentoring:** Mentor other members of the UX department, both inside and outside of your group(s) on how to approach design problems, solicit feedback, and drive for impactful outcomes.
 
-#### Requirements
+#### Senior Requirements
 
-A Senior Product Designer is expected to meet the base requirements and execute the responsibilities while modeling a sense of urgency and commitment to deliver results.
+A Senior Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while [modeling a sense of urgency and commitment to deliver results](/handbook/values/#results-competency).
 
 ### Staff Product Designer
 
@@ -96,29 +96,27 @@ The Staff Product Designer is a [grade 8](http://about.gitlab.com/handbook/total
 
 Everything in the Senior Product Designer role, plus:
 
-- **Product knowledge:** Deeply understand the technology and features of the group you are assigned and have a working knowledge of the end-to-end GitLab product.
+- **Product knowledge:** Deeply understand the technology and features of your [group](/handbook/product/categories/#hierarchy) and have a working knowledge of the end-to-end GitLab product.
 - **Research:** Understand the nuances and considerations between problem and solution validation, mentor other designers on how they plan their research, and work with your product design manager on potential strategic research needs.
-- **Deliverables:** Create tactical and strategic deliverables for the group you support (for example: JTBD, UX Scorecards, wireframes, competitive evaluations, prototypes, journey maps, storyboards, design vision, and so on).
-- **Communication:** Set an example for how to effectively communicate across groups and stages by frequently participating in asynchronous collaboration in issues and merge requests.
-- **Iteration:** Understand long-term goals in your group and help other product designers break down designs into actionable steps.
-- **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment, and model best practices for giving and receiving feedback.
+- **Deliverables:** Create tactical and strategic deliverables for your group (for example: JTBD, UX Scorecards, wireframes, competitive evaluations, prototypes, journey maps, storyboards, design vision, and so on).
+- **Communication:** Set an example for frequent and effective asynchronous communication.
+- **Iteration:** Understand long-term goals in your group and help other designers break down designs into actionable steps.
 - **Deferred UX:** Help the product teams of the group you support to prioritize and [close Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
-- **Thought leadership:** Teach and socialize decision-making frameworks to the GitLab community, so that designers can solve problems more efficiently on their own.
+- **Thought leadership:** Promote best practices and support other designers in advocating for them within their teams.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
-- **Cross-stage collaboration:** Drive cross-stage collaboration by helping designers to identify dependencies and areas for cross-department work.
-- **Mentoring:** Mentor designers on which deliverables and approaches are most valuable at each stage of validation, and create those artifacts with them (for example, personas at the problem stage, storyboards at the solution stage, and so on).
-- **Craft:** Push forward the craft of product design in regard to our standards and approaches to design at GitLab in an all-remote context (fostering a design studio atmosphere within GitLab).
-- **Vision:** Exert significant influence on the overall objectives and long-range goals of your section by actively contributing to vision pages in collaboration with product and engineering.
-- **Early adoption:** Drive innovation across the organization by driving the adoption of processes and tools.
+- **Cross-stage collaboration:** Promote a holistic UX by proactively helping other designers navigate the organization and consider product overlaps, connections, and potential collisions.
+- **Mentoring:** Provide impactful feedback to ICs of the UX department and mentor them throughout product development.
+- **Vision:** Collaborate with your group to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
+- **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve the product design practice.
 - **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
 
-#### Requirements
+#### Staff Requirements
 
-A Staff Product Designer is expected to meet the base requirements and execute the responsibilities while coaching team members to collaborate and work iteratively.
+A Staff Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while [coaching team members to collaborate and work iteratively](/handbook/product/performance-indicators/).
 
 ### Principal Product Designer
 
-#### Job Grade
+#### Principal Job Grade
 
 The Principal Product Designer is a [grade 9](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -126,28 +124,26 @@ The Principal Product Designer is a [grade 9](http://about.gitlab.com/handbook/t
 
 Everything in the Staff Product Designer role, plus:
 
-- **Product knowledge:** Deeply understand the technology and features within your stage and have knowledge of the end-to-end GitLab product.
-- **Research:** Collaboratively identify and conduct strategic research with a UX researcher, and help product designers make connections across the research efforts within your stage.
+- **Product knowledge:** Deeply understand the technology and features within your [stage](/handbook/product/categories/#hierarchy) and have knowledge of the end-to-end GitLab product.
+- **Research:** Collaboratively identify and conduct strategic research with a UX researcher, help other designers make connections across the research efforts in your stage, enable accountability for design choices through research, and cultivate a learning culture in the organization.
 - **Deliverables:** Solve design problems of the highest scope, complexity, and ambiguity for your stage.
 - **Communication:** Guide conversations to remove blockers and encourage collaboration across teams.
-- **Iteration:** Create 6-month visions and plans for your stage to deliver value to customers and the organization.
-- **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment to ensure high-quality output, and model best practices for giving and receiving feedback.
+- **Iteration:** Lead and coach iteration in your stage, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
 - **Deferred UX:** Help the stage you support to prioritize and close Deferred UX.
-- **Thought leadership:** Interface with product design managers and senior management, and enable staff designers to engage on UX department-level aspects of larger (stage or section-wide) initiatives.
+- **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with managers and leaders, and enable other designers to engage on large (stage or section-wide) initiatives.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
-- **Cross-stage collaboration:** Collaborate and make proposals across several teams, and help team members make informed decisions in alignment with your stages' strategic plans.
-- **Mentoring:** Teach, mentor, grow, and provide advice to other domain experts and individual contributors across your sections.
-- **Craft:** Look for innovation opportunities between several teams with a willingness to experiment and to boldly confront problems of large complexity and scope.
-- **Vision:** Play a central role in design, business, and organizational contributions affecting your stage or across the UX department.
-- **Goal setting:** Ensure that business objectives are aligned across the teams within your stage.
-- **Open processes:** Expose design and organizational needs throughout the department.
-- **Impact:** Provide positive influence on the [perception of system usability](http://about.gitlab.com/handbook/product/ux/performance-indicators/#perception-of-system-usability)
-through improved user experiences, leading to increased adoption of [stages per organization](http://about.gitlab.com/handbook/product/performance-indicators/#stages-per-organization-spo)
-and increased [ARR](http://about.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr).
+- **Cross-stage collaboration:** Identify innovation opportunities, and collaborate with teams to help them make informed decisions and iterate on those opportunities.
+- **Mentoring:** Actively engage with and support other designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
+- **Vision:** Influence the vision and roadmap of your stage, connecting it to the broader product and company objectives.
+- **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive results.
+- **Operations:** Expose cultural, operational, and organizational needs in the department, address them or enable others to help.
+- **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve practices in the UX department.
+- **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
+- **Supporting others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
 
-#### Requirements
+#### Principal Requirements
 
-A Principal Product Designer is expected to meet the base requirements and execute the responsibilities while fostering a culture of ownership of personal performance.
+A Principal Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while [fostering a culture of ownership of personal performance](/handbook/product/performance-indicators/).
 
 ## Foundations Specialty
 
@@ -165,17 +161,27 @@ Everything in the various levels of product designer roles, plus:
 
 - **Intermediate development skills** We work primarily with Vue, Rails, and SCSS, so designers should be comfortable updating, building, and reviewing code within those frameworks.
 - **Advanced Git knowledge** Since we spend most of our time working in merge requests, designers should be comfortable using Git effectively.
-- **Creation and management of feature flags** Know when to use feature flags, how to create them, and montitor their progress and potential feedback.
+- **Creation and management of feature flags** Know when to use feature flags, how to create them, and monitor their progress and potential feedback.
 - **Familiarity with unit testing** The ability to fix, update, and write RSpec and Jest tests.
+
+## AI Specialty
+
+Everything in the various levels of product designer roles, plus:
+
+- knowledge of AI technologies, including subsets of GenAI and ML.
+- participate in prompt engineering to maximize user satisfaction. 
+- test prompts and prototype conversation flow happy paths.
+- understand model evaluation approaches, and use knowledge of user intents to enhance datasets to closely mirror human interactions.
+- stay up to data on emerging technology and UI design patterns.
+- leverage solution validation methods that go beyond usability to evaluate user satisfaction with model responses.
+- create learning materials that support designers who work on AI-powered features.
 
 ## Performance indicators
 
-- [Perception of system usability](http://about.gitlab.com/handbook/product/ux/performance-indicators/#perception-of-system-usability)
-- [Ratio of proactive vs reactive UX work](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ratio-of-proactive-vs-reactive-ux-work)
-- [Beautifying our UI](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ui-beautification)
-- [Ratio of breadth vs depth work](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ratio-of-breadth-vs-depth-work)
-- [Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
-- [Pajamas component migrations](http://about.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
+- [Perception of usability (SUS)](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
+- [Product Customer Satisfaction (CSAT)](/handbook/product/ux/performance-indicators/#product-customer-satisfaction-csat-score)
+- [Pajamas component migrations](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
+- [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux)
 
 ## Relevant links
 
@@ -199,11 +205,11 @@ Candidates for this position can expect the hiring process to follow the order b
   - Towards the end of each interview, you'll be given some time to ask questions.
 - If you successfully pass the previous interviews, you'll meet with a senior manager of product design for a 50-minute interview. This interview will focus on assessing your research, strategy, and design skills. The interviewer will want to understand how you have incorporated research into your work and get a feel for your understanding of the fundamentals of research and UX methodology. Be prepared to answer questions around the soft skills product designers need, and be prepared to talk to the interviewer about how you apply these skills in the real world.
 - The final interview will be with a product manager and engineering manager. They'll focus on your ability to collaborate with product and engineering teams and determine how well your skills align with the needs of a specific stage group.
-- Successful candidates will subsequently be made an offer via a video call or phone call.
+- Successful candidates will subsequently be made an offer through a video call or phone call.
 
 ### Hiring process for UX Paper Cuts Specialty
 
-The UX Paper Cuts speciality has an emphasis on basic coding skills as the role involves making changes to the product by creating, reviewing, and merging MRs. The final interview will be with a member of the UX Paper Cuts team and will focus on discussing the technical exercise you'll receive a couple of days prior to the scheduled call. The technical exercise is brief and to be completed in advance. It's an opportunity to learn your comfort and capability in making small frontend changes. This final interview and exercise replaces the product manager and engineering manager mentioned above.
+The UX Paper Cuts specialty has an emphasis on basic coding skills as the role involves making changes to the product by creating, reviewing, and merging MRs. The final interview will be with a member of the UX Paper Cuts team and will focus on discussing the technical exercise you'll receive a couple of days prior to the scheduled call. The technical exercise is brief and to be completed in advance. It's an opportunity to learn your comfort and capability in making small frontend changes. This final interview and exercise replaces the product manager and engineering manager mentioned above.
 
 ### Preparing for your interviews
 

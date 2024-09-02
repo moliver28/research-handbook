@@ -15,7 +15,7 @@ Please see the instructions below.
 In Navan, click Add Transaction Select Upload receipt (or select Type in details)
 Under Expense Type field, please select "Team events & meals"
 Under Classification, please select "FY25 Team Building"
-Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
+Under Description field, please include this link: https://handbook.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
 Click Submit (or Save & close if you need to come back to add more information).
 
 ### Engineering Quarterly Achiever's Chat
@@ -148,6 +148,26 @@ These are the past award winners. The quarter indicated is the quarter the award
 | FY25-Q2 | Customer Results | Customer Kudos | Kaitlyn Chappell |
 | FY25-Q2 | Customer Results | Performance and Scalability | Chance Feick |
 | FY25-Q2 | Customer Results | Contribution to Sales or Renewal | Erika Miklós |
+
+### FY25-Q3
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q3 | Efficiency | Best Design Proposal | Bob Van Landuyt |
+| FY25-Q3 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q3 | Efficiency | Software Efficiency | Dmitry Gruzd |
+| FY25-Q3 | Efficiency | Proactive Avoidance |  **Not Awarded** |
+| FY25-Q3 | Efficiency | Security Improvement | Brett Walker |
+| FY25-Q3 | Excellence | Engineering Excellence | Angelo Rivera |
+| FY25-Q3 | Excellence | Excellence Under Pressure | **Not Awarded** |
+| FY25-Q3 | Excellence | Testing Excellence | **Not Awarded** |
+| FY25-Q3 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q3 | Excellence | Everyone-can-contribute | **Not Awarded** |
+| FY25-Q3 | Customer Results | Customer Centered Individual | Terri Chu |
+| FY25-Q3 | Customer Results | Customer Kudos | Sam Bernal-Damasco|
+| FY25-Q3 | Customer Results | Performance and Scalability | **Not Awarded**|
+| FY25-Q3 | Customer Results | Contribution to Sales or Renewal | Fabian Zimmer |
+
 ---
 
 ## Engineering Quarterly Achievers Process

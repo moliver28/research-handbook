@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/training/em-role/work_of_a_manager.html
-
 title: Work Of A Manager
 ---
 

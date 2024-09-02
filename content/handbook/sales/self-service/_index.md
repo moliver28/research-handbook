@@ -7,8 +7,9 @@ description: "The Self-Service Team is responsible for delivering a cohesive GTM
 
 ## Welcome to the Self-Service Handbook
 
-**The Self-Service Team is responsible for delivering a cohesive go-to-market (GTM) that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription.**
-{: .alert .alert-success}
+{{% alert color="success" %}}
+The Self-Service Team is responsible for delivering a cohesive go-to-market (GTM) that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription.
+{{% /alert %}}
 
 ## Self-Service Vision
 
@@ -107,7 +108,7 @@ Below is a list of our cross-functional partners and high-level description of h
 | Fulfillment | [Analytics Instrumentation](/handbook/product/analytics-instrumentation-guide/) | The Self-Service Team works with the product intelligence team in cases where our product data set is incomplete (i.e. instrumentation gaps, accessibility, accuracy) when the Self-Service Team team is attempting to answer product questions related to self-service. |
 | Fulfillment | License, Purchase, and Utilization | |
 | Growth | [Product Analysis](/handbook/product/product-analysis/#working-with-us) | Our teams have similar functions as it relates to product analytics (e.g. experiment analysis, product KPI tracking, ad hoc product analyses); however the lens through which we ask questions (product v. self-service) and our stakeholders (PMs v. Self-Service Team/sales) differ. <br> <br> We share knowledge, best practices and output of our analyses across our two teams. |
-| Growth | [Conversion](/handbook/marketing/growth/engineering/) | We partner on experiments related to trial/free to paid self-service conversion. Example: define product qualified lead strategy (PQL) to understand how we can maximize for nARR while emphasizing efficiency through self-service. |
+| Growth | [Conversion](/handbook/engineering/development/growth/) | We partner on experiments related to trial/free to paid self-service conversion. Example: define product qualified lead strategy (PQL) to understand how we can maximize for nARR while emphasizing efficiency through self-service. |
 | [Data](/handbook/business-technology/data-team/) | [GTM Data Fusion & R&D Data Fusion](/handbook/business-technology/data-team/#data-fusion-teams) | Self-Service Team is a ['spoke' and works closely with the core data team 'hub'](/handbook/business-technology/data-team/#how-data-teams-work-together). Self-Service Team digests the aggregated data tables created and maintained by the core data team. Self-Service Team provides input and creates issues for the core team when we have gaps in our data needed for decision making. In the case that analyses become important and repeatable, Self-Service Team works with the core data team to create long term solutions.<br> <br> Self-Service Team partners with the GTM Data Fusion Team on special projects that impact sales and marketing teams as it relates to self-service (e.g. surfacing product insights to sales teams, PTB). |
 | [Marketing](/handbook/marketing/) |  | |
 | [Sales](/handbook/sales/) |  | |

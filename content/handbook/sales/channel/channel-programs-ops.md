@@ -242,7 +242,7 @@ Create a [Single Access Request](https://gitlab.com/gitlab-com/team-member-epics
 4. _Assignee: *Your Manager,*_Yourself (so you can track)
 5. _Labels:_ IT::to do, AR-Priority::3 (other labels will be auto-added)
 6. Click _Submit Issue_ button
-7. In the _Comments_section below the body of the issue, type: @gitlab-com/business-technology/team-member-enablement and then click _Comment_ to post.
+7. In the _Comments_section below the body of the issue, type: @gitlab-com/gl-security/corp/helpdesk and then click _Comment_ to post.
 8. You may also want to comment to @your manager to ask them to label _AR-Approval Manager Approved_ and _ReadyForProvisioning_
 9. Once approved, it should be processed by IT-OPs within the timeframe needed
 
@@ -437,7 +437,7 @@ The newsletter will…
 **Be fun to look at and read**
 
 - A focus on multimedia is important in order to help the newsletter break the monotony of text Partners sift through each day.
-- We will use images, gifs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
+- We will use images, GIFs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
 
 **Help the Channel operationalize key messages**
 

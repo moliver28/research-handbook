@@ -27,18 +27,19 @@ Navan Expense is available via Okta. To access the platform:
   - Navan mobile app is compatible with iOS 15 or later.
 - Open the app and select `Sign in with Email`.
 
-![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.png)
+![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.jpg)
 
-- Add your gitlab email and click `Continue`.
+- Add your GitLab email and click `Continue`.
 
 ![navan-image-21](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/work-email.png)
 
 - Select `Sign in with Okta SSO`.
 
-![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.png)
+![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.jpg)
 
-**NOTE**: If you have the *TripActions Liquid* app, you can delete it from your device.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+If you have the *TripActions Liquid* app, you can delete it from your device.
+{{% /alert %}}
 
 > For more information on how to use the mobile app, check the *[Getting started with Navan expense on mobile](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-mobile)* article.
 
@@ -128,8 +129,9 @@ The `Drafts` tab contains transactions created from receipt forwarding or manual
 
 Use the `Add transaction` button from any tab on the `Transactions` page to manually enter transactions for purchases made using cash or a personal card.
 
-**NOTE**: To import manual expense from a personal card instead of manually entering in your transaction details, please use the Navan app.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+To import manual expense from a personal card instead of manually entering in your transaction details, please use the Navan app.
+{{% /alert %}}
 
 #### Cards
 
@@ -172,8 +174,14 @@ Users with a United States-issued personal card can link the card to their Navan
 
 Connect your bank account to Navan to receive reimbursements for out-of-pocket expenses. Bank accounts can be linked via [Plaid](https://plaid.com/en-eu/) (US-based bank accounts only) by entering your bank account login credentials. Additionally, US-based bank accounts and accounts based in [countries eligible for direct reimbursement](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#in-what-countries-are-direct-reimbursements-available) can be linked manually by inputting your bank account information.
 
+- For Canadian bank accounts, the format for routing number is 0XXXYYYYY
+  - add a zero in the beginning for electronic transfers
+  - XXX = last 3 digits institution number
+  - YYYYY = first 5 digits branch/transit number
+
+{{% alert color="warning" %}}
 Please note that you can link only one account at a time. To add a different account for reimbursements, you must first unlink the existing account.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ##### In the mobile app
 
@@ -224,8 +232,9 @@ There are several ways to submit for reimbursement, and all manual expenses can 
 
 <br>
 
-**TIP**: After beginning a manual expense, tap `Save & close` to save the transaction as a draft. Drafts are saved in the `Drafts` folder and can be accessed and modified at any time until you submit or delete them.
-{: .alert .alert-info}
+{{% alert title="Tip" color="info" %}}
+After beginning a manual expense, tap `Save & close` to save the transaction as a draft. Drafts are saved in the `Drafts` folder and can be accessed and modified at any time until you submit or delete them.
+{{% /alert %}}
 
 #### Receipt Scanner
 
@@ -235,8 +244,9 @@ When uploading a receipt image, most of the required transaction information wil
 
 ![liquid-image-11](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/receipt-scanner.png)
 
-**NOTE**: You will need to grant the Navan Expense app access to your phone's camera or camera roll in order to take or access a saved picture of your receipts.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+You will need to grant the Navan Expense app access to your phone's camera or camera roll in order to take or access a saved picture of your receipts.
+{{% /alert %}}
 
 #### Import from Personal Card (For United States-based bank account only)
 
@@ -244,8 +254,9 @@ To receive reimbursement for a business transaction charged to a personal card, 
 
 ![liquid-image-12](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/import.png)
 
-**TIP**: If you have recently been on a trip booked through Navan and would like to be reimbursed for a trip-related expense, toggle `View by trips` on to view only transactions that occurred on the date(s) of your trip(s).
-{: .alert .alert-info}
+{{% alert title="Tip" color="info" %}}
+If you have recently been on a trip booked through Navan and would like to be reimbursed for a trip-related expense, toggle `View by trips` on to view only transactions that occurred on the date(s) of your trip(s).
+{{% /alert %}}
 
 #### Type in details
 
@@ -374,8 +385,9 @@ To attach multiple receipts to transactions that have already been submitted, fo
 
 Navan Expense provides you with the ability to automatically split a single transaction into multiple items, allowing for the assignment of expense types, GL codes, custom fields, and the approval or rejection of the transaction by the admin on a per-item basis. A common use case for itemization is hotel expenses, where certain charges should be covered by GitLab (i.e. the hotel's nightly rate or parking cost) while others should be covered with your personal funds (i.e. spa services utilized at the hotel).
 
+{{% alert color="warning" %}}
 Users can itemize their own manual transactions at any time **before they have been submitted** or after submission only if a transaction has been flagged for review by the system admin and has not yet been actioned by them.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 {{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 
@@ -426,8 +438,9 @@ Once received, a push notification (if enabled on your device) will confirm that
 
 ![liquid-image-26](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/emailing-receipts.png)
 
+{{% alert color="warning" %}}
 If the receipt import is attached to the wrong transaction or if it needs to be replaced, see the next section, [Managing Imported Receipts](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#managing-imported-receipts), for instructions.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 <br>
 
@@ -478,8 +491,9 @@ To connect your calendar, access your profile by tapping the `Profile` icon loca
 
 Navan Expense provides you with a quick and simple way to get reimbursed for mileage driven for business in your personal vehicle. The expense policy assigned to you for on-the-job expenses by GitLab's Navan Expense admin will determine your mileage reimbursement eligibility.
 
+{{% alert color="warning" %}}
 Mileage is only available in the Navan Expense Mobile App. Download the app from your preferred [mobile app store](https://app.tripactions.com/app/liquid/user/redirect).
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Submitting a Mileage Expense (Available on the mobile app only)
 
@@ -528,8 +542,9 @@ If you would like to designate book or manage travel to another team member, fol
 
 If you no longer wish to have another team member book or manage travel on your behalf, select the `X` next to the name of the person you would like to remove. Once you have removed a delegate's access to your profile, they will receive an email notifying them of the change.
 
-**Note**: If you cannot remove a user from your list of delegates, this indicates that a Navan Expense admin has marked them as a company-wide delegate. Company-wide delegates can only be added or removed by a company administrator.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+If you cannot remove a user from your list of delegates, this indicates that a Navan Expense admin has marked them as a company-wide delegate. Company-wide delegates can only be added or removed by a company administrator.
+{{% /alert %}}
 
 #### Submitting a manual expense for another user
 
@@ -600,8 +615,9 @@ To access the dashboard, navigate to `Navan Travel > Manager > Analysis`. The `O
 
 The Users tab allow managers to view their direct reports' employee data such as their issuing currency, cost center, and more. Click on a user's name to view additional information including their transaction history and policy assignment. In addition to the Activity tab, designated approvers can review, approve, reject, and request more information for a transaction directly through a user's transaction history.
 
-**Note:** Users designated as a manager on the Navan user list will have access to the Manager Dashboard. If you do not see a Manager Dashboard option available, either you do not have any assigned direct reports or your direct reports do not have any spend activity.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+Users designated as a manager on the Navan user list will have access to the Manager Dashboard. If you do not see a Manager Dashboard option available, either you do not have any assigned direct reports or your direct reports do not have any spend activity.
+{{% /alert %}}
 
 > Check the *[Leveraging the Navan Expense manager dashboard](https://app.tripactions.com/app/helpcenter/articles/expense/myself/expense-approvals/expense-manager-dashboard)* article for more details.
 
@@ -689,8 +705,9 @@ Navan Expense product releases are shared in the following blog: [Navan Expense 
   <iframe src="https://www.youtube.com/embed/3lnIPfXwyk0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
+{{% /alert %}}
 
 This video covers:
 
@@ -713,8 +730,9 @@ This video covers:
   <iframe src="https://www.youtube.com/embed/3OJn7UbGAJ0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
+{{% /alert %}}
 
 This video covers:
 
@@ -737,5 +755,6 @@ This video covers:
 - For **functionality** related questions, the **Accounts Payable Team** should be the first point of contact for any questions related to how to use the Navan Expense platform and expenses related questions.
 - For **technical** related questions, the **Finance System Admins** should be the first point of contact for any technical issues and / or questions (eg. Access Requests, problems with login, bugs, etc).
 
+{{% alert color="info" %}}
 To contact the Accounts Payable Team or Finance System Admins, send a message to [#expense-reporting-inquiries](https://gitlab.slack.com/archives/C012ALM8P29) with your question.
-{: .alert .alert-info}
+{{% /alert %}}

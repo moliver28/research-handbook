@@ -19,7 +19,6 @@ At its peak, GitLab's Marketing site contained over 3500 pages. Many of these pa
 Another example is cases where we have several similar pages that may make sense from an inside-out perspective, but from a customer-centric perspective, they confuse our prospective customers. Example: CI/CD Pages:
 
 1. https://about.gitlab.com/stages-devops-lifecycle/continuous-integration
-1. https://about.gitlab.com/snapshots/continuous-integration
 1. https://about.gitlab.com/topics/ci-cd
 1. https://about.gitlab.com/resources/ebook-single-app-cicd
 1. https://about.gitlab.com/webcast/mastering-ci-cd

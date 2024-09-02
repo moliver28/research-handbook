@@ -8,7 +8,7 @@ This is the participation of Product Management, Development, UX, and Quality wh
 
 These [4 areas are the main pillars](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) to ensure we can continue to ship features while ensuring optimal test coverage. Velocity is only productive when we don't incur test debt. We want to be nimble while shipping fewer bugs thus improving our own velocity. One can look at the metaphor of the 4 legs of the Tanuki, without either one of its legs the Tanuki isn't able to run as fast.
 
-![gl-tanuki](./gl-quad.png)
+![gl-tanuki](gl-quad.png)
 
 ## Two dimensions of Quad Planning
 

@@ -14,7 +14,7 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
   - 2 - Reschedules
   - 3 - Schedule Interviews
   - 4 - Offboarding
-- The CES team utilizes a program called [Guide]({{< ref "./coordinator#using-the-candidate-guide" >}}) to enhance the candidate experience and create a more transparent view into the talent acquisition processes. This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
+- The CES team utilizes a program called [Guide](coordinator/#using-the-candidate-guide) to enhance the candidate experience and create a more transparent view into the talent acquisition processes. This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
 
 #### How the CES Team will run the Service Desk
 
@@ -25,7 +25,7 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
    - Close out the window
 1. On the left-side menu bar click Issues
    - This is where all our incoming CES emails will create an issue. You'll get an alert when someone sends an email to the CES email alias. Any "emails" that need to be addressed will be an open issue listed within this project.
-1. Each CES will begin their workday by triaging issues within the Service Desk based on the [identified priority list]({{< ref "./coordinator#best-practices" >}}) by adding the appropriate label to the issue and then will begin working on Level 0 priority requests and so on.
+1. Each CES will begin their workday by triaging issues within the Service Desk based on the [identified priority list](coordinator/#best-practices) by adding the appropriate label to the issue and then will begin working on Level 0 priority requests and so on.
    1. Click on the new Issue
    1. Assign it to yourself on the right-side toolbar
    1. Read the Issue message
@@ -53,7 +53,7 @@ No action is needed by the CES team on this step. For additional information:
   - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
 - If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring#interview-stages) for instructions.
-- CES will [send interview confirmations via Guide]({{< ref "./coordinator#using-the-candidate-guide" >}})
+- CES will [send interview confirmations via Guide](coordinator/#using-the-candidate-guide)
 - CES will not automatically schedule next interviews based off of scorecards
   - The Recruiter or Hiring Manager will need to follow the same scheduling procedures as above in Greenhouse to request scheduling assistance on the next round of interviews.
   - Any candidates who receive a no or definitely not scorecard should be discussed with the Recruiter and the Hiring Manager before declining.
@@ -108,7 +108,7 @@ The process below outlines the steps to be followed by the CES team in schedulin
 1. CES will schedule the interview through Prelude & send the calendar invite to the interviewer. Make sure the invite is always marked private.
 1. CES notifies EBA of scheduled interviews in the original slack message with a check mark emoji and close the ticket.
 
-This process not only applies to executive requisitions, but any reqs or interviews that include executive team members supported by EBAs. Please note that not every executive team member has EBA support and they may be scheduled directly in Prelude following the usual CES scheduling [process]({{< ref "./coordinator#team-interviews" >}}).
+This process not only applies to executive requisitions, but any reqs or interviews that include executive team members supported by EBAs. Please note that not every executive team member has EBA support and they may be scheduled directly in Prelude following the usual CES scheduling [process](coordinator/#team-interviews).
 
 **Note:**
 
@@ -215,7 +215,7 @@ Background Checks for hires in Japan will need to be conducted *before* the offe
 Global Reference Check Forms will have a question for hires asking if they are located in Japan. If the candidate selects  "Yes", you will need to perform the following steps:
 
 1. CES service desk receives a ticket indicating that the candidate has submitted Reference Check Process Information-Global. CES will note that the candidate has selected "Yes" for the Japan location question. CES will label that ticket with the "Japan BGC" label.
-1. CES will [initiate the background]({{< ref "./coordinator#initiating-a-background-screening-through-greenhouse" >}}) check in the candidates GH profile.
+1. CES will [initiate the background](coordinator/#initiating-a-background-screening-through-greenhouse) check in the candidates GH profile.
 
 CES will then need to track the request to know when the Background check clears and we can move forward with sending the offer. Please follow the following steps:
 

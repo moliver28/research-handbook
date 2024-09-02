@@ -45,8 +45,8 @@ Intermediate IT Enterprise Applications Engineer is a [grade 6](/handbook/total-
 
 ### Intermediate IT Enterprise Applications Engineer Requirements
 
-- 2-3 years of experience in a system administration role ideally with enterprise SaaS software model.
-- Hands-on entry-level administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- 2-3 years of experience in a system development role ideally with enterprise SaaS software model.
+- Hands-on developer experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 
 ## Senior IT Enterprise Applications Engineer
 

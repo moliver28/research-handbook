@@ -4,7 +4,7 @@ title: "Optimize Group"
 
 ## Plan:Optimize
 
-### [Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)
+**[Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)**
 
 ### How we work
 
@@ -71,7 +71,7 @@ Generally speaking, issues are in one of two states:
 - Discovery/refinement: we're still answering questions that prevent us from starting development,
 - Implementation: an issue is waiting for an engineer to work on it, or is actively being built.
 
-Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://www.feltpresence.com/hills.html).
+Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/features/hill-charts).
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
@@ -200,15 +200,15 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 
 ##### Deliverable and Stretch issues
 
-Issues labelled `Deliverable` are scheduled for the current milestone. They are considered top priority and are expected to be done in time for the release.
+Issues labeled `Deliverable` are scheduled for the current milestone. They are considered top priority and are expected to be done in time for the release.
 
-Issues labelled `Stretch` are stretch goals for delivering in the current milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
+Issues labeled `Stretch` are stretch goals for delivering in the current milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
 
 ##### Community contributions
 
-Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
+Issues that have previously been agreed upon and labeled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
 
-- A clear [implementation plan](/handbook/engineering/development/dev/create/ide/community-contributions/#treat-wider-community-as-primary-audience).
+- A clear [implementation plan](/handbook/engineering/development/dev/create/remote-development/community-contributions/#treat-wider-community-as-primary-audience).
 - A relevant weight estimate.
 - The `Seeking community contributors` label assigned.
 

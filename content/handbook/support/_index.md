@@ -131,12 +131,12 @@ At various times it's easy to over-optimize on one of the pillars to solve a pro
 The [Single Source of Truth](/handbook/company/culture/all-remote/remote-work-glossary/#single-source-of-truth-ssot)
 for information about Support Team Members - everything from email address and
 personal interests to product skills and group memberships - is the
-[support-team.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml).
-The [Support Team Home Page](https://gitlab-com.gitlab.io/support/team/) is
+[support-team project](https://gitlab.com/gitlab-support-readiness/support-team).
+The [Support Team Home Page](https://gitlab-support-readiness.gitlab.io/support-team/) is
 built from the information in that file. Many other Support tools and
 automations make use of it also. See the
-[Support team entry page](https://gitlab.com/gitlab-com/support/team/-/wikis/Support-team-entry)
-of the [Support Team wiki](https://gitlab.com/gitlab-com/support/team/-/wikis/home)
+[Support team entry page](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry)
+of the [Support Team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/home)
 for details of the structure of the file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
@@ -597,8 +597,8 @@ Providing information by reacting to a message with a specific emoji.
 
 After getting promoted, make sure to update your title in:
 
-- our [Support team page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml), and the change would be reflected in Zendesk
-- the company team page following the same steps in [Add yourself to the Team Page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
+- our [Support team page](https://gitlab.com/gitlab-support-readiness/support-team), and the change would be reflected in Zendesk
+- the company team page following the same steps in [Add yourself to the Team Page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page)
 
 Consider updating the title on Slack and on Zoom, following the guidelines in [Zoom name format](#zoom-name-format).
 
@@ -611,7 +611,7 @@ In GitLab Support, we have two mechanisms to organize support engineers as they 
 
 Global groups are organized by managers. Support Pods are engineer-lead. To join or start a Support Pod you can read more below.
 
-*See the [Working with Support Pods page](/handbook/support/workflows/working-with-pods) and [Support Pods project](https://gitlab.com/gitlab-com/support/support-pods).*
+*See the [Support Pods handbook page](/handbook/support/support-pods) and the [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).*
 
 ### Improving our processes - 'Active Now' issue board
 
@@ -673,22 +673,21 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
   - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
-  - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/README.html)
+  - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
   - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
   - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
 - Debugging GitLab
-  - [Log system](https://docs.gitlab.com/ee/administration/logs.html)
+  - [Log system](https://docs.gitlab.com/ee/administration/logs/)
   - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
   - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
-  - [Debugging Tips](https://docs.gitlab.com/ee/administration/troubleshooting/debug.html)
   - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
   - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
 - GitLab features
   - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
   - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
-  - [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html)
+  - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
   - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
 - Developing GitLab
   - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
   - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-  - [What requires downtime?](https://docs.gitlab.com/ee/development/what_requires_downtime.html)
+  - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)

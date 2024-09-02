@@ -19,7 +19,7 @@ Through onboarding issues, you should gain access to our team member [baseline e
 
 In certain instances, the People Connect team may not be able to assist with onboardings due to a national holiday or Family and Friends Day. These specific dates are documented in the People Connect team [availability](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_experience_team/#people-experience-team-availability).
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> TaNewKi Welcome Call {#tanuki-orange}
+## TaNewKi Welcome Call
 
 The People Connect team hosts a pre-onboarding call known as the Ta-New-Ki call (a play on the abstract Tanuki i.e. Japanese raccoon dog you will find in our logo). The purpose of this call, which is hosted in Zoom, is to give soon to onboard team members the chance to meet / socialise and to provide an opportunity to ask any lingering questions ahead of their start date. Internally we refer to this as an AMA (Ask Me Anything) call. **This call is open to all current team members, hiring managers.**
 
@@ -57,7 +57,6 @@ General Topics Covered
 By default, all new team members are added to the below Slack channels from day 1 to ensure that they are able to ask any questions or for assistance in the correct channels upfront:
 
 - `#new_team_members` (go say hi and introduce yourself)
-- `#people-connect` (anything relating to People Operations such as onboarding, GitLab Unfiltered channel, etc)
 - `#diversity_inclusion_and_belonging` (connect with other team members to find out more about what we do in Diversity, Inclusion and Belonging)
 - `#it_help` (any IT related support needed, such as issues with laptop, 1Password, Okta, JAMF, etc)
 - `#expense-reporting-inquiries` (need some info on your expenses, what can be expensed, approving expenses, etc)
@@ -70,7 +69,7 @@ By default, all new team members are added to the below Slack channels from day 
 
 ## Managers of New Team Members
 
-An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by adding a question in the `#people-connect` Slack channel.
+An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by creating a request via HelpLab.
 
 ### <i class="fas fa-tasks fa-fw color-orange font-awesome"></i>Compliance
 
@@ -121,7 +120,7 @@ The People team is not involved in the process for hiring, onboarding, or offboa
 - [GitLab onboarding buddies](/handbook/people-group/general-onboarding/onboarding-buddies)
 - [Merge Request buddies](/handbook/people-group/general-onboarding/mr-buddies)
 - [Onboarding Processes](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/)
-- [Quality team onboarding](/handbook/engineering/quality/onboarding/)
+- [Test Platform Onboarding](/handbook/engineering/infrastructure/test-platform/onboarding/)
 - [Sales team onboarding](/handbook/sales/onboarding/)
 - [Support team onboarding](/handbook/support/training)
 - [SRE onboarding](/handbook/engineering/infrastructure/team/reliability/sre-onboarding/)

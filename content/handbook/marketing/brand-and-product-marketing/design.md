@@ -16,7 +16,7 @@ We develop our brand visual identity design to ensure it stays relevant in the m
 
 *Why we exist*
 
-As stewards of the [GitLab brand](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/), our goal is to educate and enable the wider organization with resources to effetively and honestly communicate what the company does to our internal and external audiences.
+As stewards of the [GitLab brand](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/), our goal is to educate and enable the wider organization with resources to effectively and honestly communicate what the company does to our internal and external audiences.
 
 ### Vision
 
@@ -34,18 +34,18 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
-### Brand & Marketing Design Issue Templates
+### Brand Design & Video Issue Templates
 
-#### 1. [Brand Review Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request)
+#### 1. Brand Review Request
 
-Need a brand review? Please use this template to request a brand or design review of multiple or single assets.
+Need a brand review? Please use [this template to request a brand or design review](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) of multiple or single assets.
 
 - For brand review only - do NOT use this template for requesting new assets or designs*.
 - Do NOT use any of the below issues for brand review*.
 
-#### 2. [Content Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request)
+#### 2. Content Design Request
 
-Please use this issue request template for net new creative or refreshes needed for the following asset types:
+Please use [this issue request template for net new creative or refreshes](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request) needed for the following asset types:
 
 - eBook / Solution Briefs
 - Infographic / Diagrams
@@ -55,36 +55,48 @@ Please use this issue request template for net new creative or refreshes needed 
 - Whitepaper
 - Other but within the same category of assets
 
-#### 3. [Event Asset Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request)
+#### 3. Event Asset Request
 
-Please use this issue template when requesting net new or refreshing any of the following event-related assets:
+Please use [this issue template when requesting net new or refreshing](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) any of the following event-related assets:
 
 - Event Booth
 - Event Signage
 - Event Social Posts
 - Event Swag + Giveaways
 
-#### 4. [Illustration + Iconography Requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request)
+#### 4. Illustration + Iconography Requests
 
-Please use this issue template for any illustration and iconography needs.
+Please use [this issue template for any illustration and iconography needs](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request).
 
-#### 5. [Presentation Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request)
+#### 5. Presentation Request
 
-Please use this issue request template for updating existing presentation decks or when requesting design for net new decks.
+Please use [this issue request template for updating existing presentation decks or when requesting design for net new decks](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request).
 
-#### 6. [Social Media Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request)
+#### 6. Social Media Request
 
-Please use this issue template for net new or refreshing organic and/or paid social requests.
+Please use [this issue template for net new or refreshing organic and/or paid social requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request).
 
-#### 7. [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request)
+#### 7. Swag Request
 
-This issue request is for general branded swag for the store or TMRG programs. Please use the Event Asset Request, listed above, for event-related swag.
+This [issue request is for general branded swag](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request) for the store or TMRG programs. Please use the Event Asset Request, listed above, for event-related swag.
 
-#### 8. [General Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request)
+#### 8. General Design Request
 
-Does your design request not fall within one of the above categories? Please use this issue template to request a new design of multiple or a single asset.
+Does your design request not fall within one of the above categories? Please use [this issue template to request a new design of multiple or a single asset](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request).
 
 - Do NOT use this template for brand reviews.*
+
+#### 9. New Brand Video Request
+
+Please use [this issue when requesting a net new video](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request).
+
+#### 10. Upload Video Request
+
+Please us [this issue template when requesting to have a video uploaded](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request) to Vimeo, YouTube, or another similar platform.
+
+#### 11. Video Edit Request
+
+Please use [this issue when requesting an update to an existing video or edits to video footage](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) such as adding lower thirds, bumpers or slides to a zoom recording.
 
 #### **Not sure if you need a brand refresh?** Here's what has changed with our branding
 
@@ -100,23 +112,9 @@ Does your design request not fall within one of the above categories? Please use
 - When submitting your request, please title the request "CREATIVE REQUEST: [Descriptive name]"
 - Please complete the issue form to the best of your ability. The more information our team can receive upfront, the quicker we can get started on your request.
 - **Please note, all requests need a minimum of a two-week turnaround.**
-- **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager via Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.
+- **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager in Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.
 - When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
 - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
-
-### Brand Video Issue Templates
-
-#### 1. [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
-
-Please use this issue when requesting a net new video.
-
-#### 2. [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
-
-Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
-
-#### 3. [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
-
-Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
 
 #### Contacting the team
 
@@ -136,32 +134,6 @@ If your team works on a larger initiative, please refer to our [program lockup g
 ### Working with the brand
 
 To learn more about our [Brand Guidelines](https://design.gitlab.com/brand/overview?_gl=1%2a19y18w7%2a_ga%2aNzk5NDI4OTg0LjE2ODA4MDA5Nzk.%2a_ga_ENFH3X7M5Y%2aMTY4MjAyMjM3Ni4xMS4xLjE2ODIwMjI5MDUuMC4wLjA.), self-service resources and assets, and training materials, check out the [Brand Resources](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/#brand-resources) handbook. Below you will find more details about working with our brand and creative materials.
-
-## Brand extensions vs sub-brands
-
-`Brand extensions` and `sub-brands` are both governed by our [brand guidelines](https://design.gitlab.com/brand/overview), but take on additional creative elements that complement the core branding. Brand extensions help distinguish projects and initiatives that directly promote either the company or the product. Sub-brands are used to classify GitLab programs that bring awareness to topics that extend beyond the company and product.
-
-### Brand Extension Strategy
-
-Brand extensions are directly aligned with GitLab marketing initiatives and connect back to the company and/or product. Visually, they lean into GitLab core branding, while maintaining their own specific look and feel.
-
-An example of a brand extension is the [Partner Leadership Summit](https://twitter.com/hapapower/status/1529106372771577857). This brand extension builds upon the core branding by incorporating new elements, such as the distinct arrow motif, that make it stand apart from our standard marketing collateral.
-
-Here are the style guides for existing brand extensions:
-
-- [GitLab Duo](https://www.figma.com/proto/5MrZGllC83sH3HHnlOtyl7/GitLab-Duo-Style-Guide?type=design&node-id=2-2&t=04Rm1rOtcZUTjgBq-0&scaling=contain&page-id=0%3A1)
-- [Partner Leadership Summit](https://www.figma.com/proto/oXk59yUAsJm7ZAqSUK4LhI/Alliance-%26-Channel-Partner-Summit?page-id=296%3A153&node-id=296%3A321&viewport=3169%2C1327%2C1&scaling=contain)
-
-### Sub-branding Strategy
-
-Sub-brands are established for approved initiatives that generate awareness, but don't explicitly connect back to our product. They typically have their own marketing strategy but can be included in ongoing initiatives as well. Sub-brands embrace the guidelines of the core GitLab brand (visually and tonally), while incorporating unique additional creative elements (i.e. a distinct logo, alternative illustration style, etc.). Sub-brands should reflect GitLab's core branding and not feel like a complete departure from it.
-
-An example of a sub-brand is [Level Up](https://levelup.gitlab.com/), GitLab's certification program. While Level Up offers technical training for the product, it has a broader focus on DevOps as a whole, which extends beyond the company and product.
-
-Here are the style guides for existing sub-brands:
-
-- [Level Up](https://www.figma.com/proto/cnr9OJiJH7zKszF9VAD3rd/Level-Up-Style-Guide?page-id=0%3A1&node-id=2%3A2&viewport=296%2C240%2C0.09&scaling=contain)
-- [TeamOps](https://www.figma.com/proto/DlhZglOWzvCWh5UF3Jq4sh/TeamOps-style-guide?page-id=0%3A1&node-id=2%3A2&viewport=1044%2C682%2C0.5&scaling=contain)
 
 #### Stock photography
 
@@ -187,7 +159,7 @@ Artwork that draws inspiration from or is based on GitLab's intellectual propert
 **Do's:**
 
 - Add an "unofficial fanart" label to the Fanart to clarify that the content is not official GitLab content. The text can be small, but make sure it's conspicuous enough that anyone seeing the Fanart will also notice the label.
-- Only share Fanart you are authorized to share, e.g. Fanart that you yourself have created. If in doubt, please reach out to the Legal team via the #legal Slack channel.
+- Only share Fanart you are authorized to share, e.g. Fanart that you yourself have created. If in doubt, please reach out to the Legal team in the #legal Slack channel.
 - Share only on the following approved platforms:
 
   - Internal GitLab Slack channels and private messages to friends.
@@ -199,7 +171,7 @@ Artwork that draws inspiration from or is based on GitLab's intellectual propert
 **Don'ts:**
 
 - Do not create or share Fanart that uses the GitLab logo or wordmark.
-  - If your Fanart incorporates any other GitLab IP (e.g., screenshots, likenesses, or imagery taken directly from GitLab materials), reach out to #brand for review.
+  - If your Fanart incorporates any other GitLab IP (such as screenshots, likenesses, or imagery taken directly from GitLab materials), reach out to #brand for review.
 - Do not imply that the Fanart is official GitLab content. For example:
   - Do not use Fanart in any GitLab materials, such as slide decks, printed collateral, or swag.
   - Don't use or distribute Fanart to GitLab customers, or at events that you attend on GitLab's behalf.
@@ -209,7 +181,7 @@ Artwork that draws inspiration from or is based on GitLab's intellectual propert
 - Do not create or share any Fanart that is potentially offensive or otherwise detrimental to GitLab's brand or any other brand.
 - Do not combine Fanart with other companies' materials or anything else unrelated to GitLab.
 
-If you have questions, reach out to the Brand Design and Brand Strategy teams via the `#brand` Slack channel.
+If you have questions, reach out to the Brand Design and Brand Strategy teams in the `#brand` Slack channel.
 
 #### Team member resource group (TMRG) requests
 
@@ -282,10 +254,10 @@ Folders can contain Canva design files, sub-folders, and assets you upload from 
 
 - Add text from either the `Text` or `Styles` tab; this will automatically populate text boxes for you with Inter and the appropriate font weight. These text boxes will still need to be formatted according to our [typography guidelines](https://design.gitlab.com/brand-design/typography), though:
   - Left-align all text.
-  - Use Inter Semi Bold for headlines and calls-to-action and use Inter Regular for subheads and body copy.
-  - Set the line spacing to 1.2 and keep the letter spacing at 0.
+  - Use GitLab Sans Bold for headlines and calls-to-action and use Regular for subheads and body copy.
+  - Set the line spacing to 1.1 for headlines and 1.2 for all other text; keep the letter spacing at 0 for all copy.
   - For call-to-action styling, copy from an existing [templates](https://www.canva.com/design/DAEn7PYZ4qk/sPB7Q15nJttFdb3UVPnW1Q/view?utm_content=DAEn7PYZ4qk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview) or reference the guidelines.
-  - For legibility purposes, keep all text on a solid background.
+  - Make sure the background behind the text provides sufficient contrast for readability.
   - Use either White or Charcoal text for [accessibility](https://design.gitlab.com/brand-design/color#contrast-and-accessibility) purposes.
 
 **Graphics**
@@ -329,7 +301,7 @@ We are all brand designers, brand champions, critically thinking problem solvers
 - **Wear many hats:** have the flexibility to tackle a variety of tasks demanded by the role - all for the greater good of the team and company.
 - **Develop creative concepts:** drive the creative direction of your individual projects. For large-scale projects, Adam and Luke are responsible for core concept development, which is then presented to the wider team for discussion, feedback, and refinement.
 - **Carry out the creative:** bring a creative direction to life with touch-point collateral informed by the creative direction, all while [managing your time accordingly](/handbook/leadership/#managers-of-one).
-- **Advocate for the GitLab Brand:** know, contribute to, and uphold our [brand standards](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/), and review materials from within and outside our team to preserve our brand's integrity.
+- **Advocate for the GitLab Brand:** know, contribute to, and uphold our [Brand Guidelines](https://design.gitlab.com/brand/overview), and review materials from within and outside our team to preserve our brand's integrity.
 - **Know the tools:** be proficient in the Adobe Suite and Figma (for designing), Mural and
 FigJam (for brainstorming), Canva (for creating self-service assets), and the Google Suite
 (for company-wide materials).
@@ -340,37 +312,47 @@ The team should feel empowered to make the best decisions possible for the GitLa
 
 ### Team workflow
 
-- **Team check-ins:** We have three recurring team syncs: (1) Monday [design hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Tuesday async GeekBot status reports in the `#marketing-design` slack channel. (3) Wednesday design hours call where we get feedback and collaborate on topics that need to be addressed.
-- **Working in issues:** All design requests should use our [issue templates](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team's triage board](https://gitlab.com/groups/gitlab-com/-/boards/2233942?label_name%5B%5D=Corporate%20Marketing&label_name%5B%5D=design&label_name%5B%5D=mktg-status%3A%3Atriage). Michelle, the Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too. We use issue [weights](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html) (1 weight = approx. 4 hours of work) to measure bandwidth and [milestones](https://docs.gitlab.com/ee/user/project/milestones/) to track capacity for each week. Everyone can see their work for the week by looking at their individual [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html).
+- **Team check-ins:** We have two recurring team syncs: (1) Monday [Brand Creative hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Wednesday Brand Creative hours call where we get feedback on projects and collaborate on topics that need to be addressed.
+- **Working in issues:** All design requests should use our [issue templates](/design/#brand--marketing-design-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
+  - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
+  - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.
-- **Small projects:** Smaller projects are typically assigned to one designer and completed within 2 weeks. Given the quick turnaround at GitLab, we work in small iterations, referred to as the MVC ([minimum viable change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)) approach.
+- **Small projects:** Smaller projects are typically assigned to one designer and completed within 2 weeks. Given the quick turnaround at GitLab, we work in small iterations, referred to as the MVC ([minimum viable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)) approach.
 - **Medium and large projects:** For larger projects, we assess the request and then propose a timeline. For campaigns or projects with a unique concept, we kick off a brainstorming session either async or on a cross-functional call with the larger team, or whoever has been assigned, and then we pitch the concept(s) to the stakeholders.
-- **Sharing work:** Work should be shared early and often, either in our design hours calls or async in our private `#brand-design-team` slack channel. Drafts are typically shared async with the stakeholder using the [design tab](https://docs.gitlab.com/ee/user/project/issues/design_management.html) in issues or as a screenshot in comments.
+- **Sharing work:** Work should be shared early and often, either in our team calls or async in our private `#brand-design-team` slack channel. Drafts are typically shared async with the stakeholder using the [design tab](https://docs.gitlab.com/ee/user/project/issues/design_management.html) in issues or as a screenshot in comments.
 
 #### Saving work
 
-We upload and pull work locally from the [corporate-marketing repository](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design). For confidential projects, we store files in the team [Google Drive](https://drive.google.com/drive/u/2/folders/0AFNq7VkzIz5WUk9PVA).
+We upload and pull work locally from the [Brand Design repository](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design). Confidential projects and large print files are stored in the team [Google Drive](https://drive.google.com/drive/u/0/folders/0AG8nDFLsOkOvUk9PVA), which is organized the same way as the repository. We also have a team [Figma](https://www.figma.com/files/972612628770206748/team/997176040728593838/GitLab-Brand-Design?fuid=816750625196599153) for collaborative work.
 
-- The [highest folder level](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design) is organized by project type (ie: publications, campaigns, events, etc.). From there, they are broken down by category (ebook, whitepaper, campaign name, event year, etc.) Once you are in the relevant folder, create a new folder with your project's name.
-- Creative explorations or work-in-progress files can be stored in your respective [progress folder](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_progress), but make sure that final files are stored in a relevant project folder.
-- Each project folder should have at least two sub-folders: a folder for your source files (`_artwork`) and another folder for your exported files (ie: png, exports, pdf, etc.).
+- The top-level folders of the repository are organized by project type; from there, they are broken down by category, and in some cases fiscal year.
+- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (ie: print-ready files), please store and share them in the team Drive.
+- For folder names, use lowercase, dashes instead of space, and do not include any special characters.
+  - *Example:* field-marketing-events
+
+#### File naming conventions
+
+- Files should be named with the following convention: [[project-type](https://docs.google.com/document/d/10RVi2eyU4Nbl2no3RdoqhdTzHoasHwDdXvebY4OZDGg/edit#heading=h.lxkdoedvr3lk)]-[project-name]-[asset-type]-[issue-number]-[asset-dimensions]-[fiscal-year]
+  - *Example:* display-ad-banner-0842-160x600-fy25
+- Please do not add character symbols in file name: % , _ / (periods are okay, only if necessary)
+- If the vendor specs or project requires you to follow a specific naming convention, then that convention overrides ours. No need to rename files once delivered.
 - File names should be lowercase and use hyphens in place of spaces. Include the file dimensions in the file name. [Avoid acronyms](/handbook/communication/#writing-style-guidelines).
 - Both the Google Drive and repository save version history; for that reason, files can be saved over as edits to the file are made.
 
 #### Using git and terminal
 
 - [Push and pull](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#pull-and-push) work frequently, at least once a day, to keep our work up-to-date. If you are working on a file that others may be in as well, communicate it with the team so that no one saves over someone else's work.
-- To get started, [set up](https://docs.google.com/document/d/1u7iNFnbD4Nj4aeLRFpmnzHewgKBjCwdyjvTuOND0rfA/edit?usp=sharing) a local clone of the `corporate-marketing` repository to your machine. For your day-to-day work, here are the typical git commands for pulling and pushing work, in the order of which they should be used:
-  - `cd corporate-marketing` - this command only needs to be used once upon opening the [Terminal app](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac). The `cd` command may need to be done multiple times, followed by the parent folder name where you've stored the repository on your device, until you get into the `corporate-marketing` folder
+- To get started, [set up](https://docs.google.com/document/d/1u7iNFnbD4Nj4aeLRFpmnzHewgKBjCwdyjvTuOND0rfA/edit?usp=sharing) a local clone of the `brand-design` repository to your machine. For your day-to-day work, here are the typical git commands for pulling and pushing work, in the order of which they should be used:
+  - `cd brand-design` - this command only needs to be used once upon opening the [Terminal app](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac). Depending on where you've stored the repository on your machine, the `cd` [parent folder name] command may need to be done multiple times, until you get into the `brand-design` folder
   - `git pull` - this updates your local repository to mirror any changes made by the rest of the team; do this command before starting work or pushing any new work
   - `git status` - optional command; this provides a summary of all the changes you've made locally that need to be pushed back the repository
-  - `git checkout [`insert file path`]` - optional commnand; this can be used to remove any files you do not want to push to repository
+  - `git checkout [`insert file path`]` - optional command; this can be used to remove any files you do not want to push to repository
   - `git add .` - use this command before pushing your work; it will add all the files you have made changes to
-  - `git commit -m "`[insert description of changes]`"` - include a message with a summary of your changes; this is viewable to everyone and provides context
-  - `git push origin master` - this will push all your changes back to the repository, including the commit message to describe the changes
-  - `git pull --rebase`, followed by, `git push origin master` - use these two commands to reset if you receive an error when pushing
+  - `git commit -m “`[insert description of changes]`”` - include a message with a summary of your changes; this is viewable to everyone and provides context
+  - `git push origin main` - this will push all your changes back to the repository, including the commit message to describe the changes
+  - `git pull --rebase`, followed by, `git push origin main` - use these two commands to reset if you receive an error when pushing
 
-#### Ebooks, whitepapers, and one-pagers
+#### eBooks, whitepapers, and one-pagers
 
 - Design templates for each publication are located [here](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/templates).
 - Our publications are often sent to Smartling for translation; save out a .zip file of the packaged artwork for easy download.
@@ -378,7 +360,7 @@ We upload and pull work locally from the [corporate-marketing repository](https:
 
 #### Digital ads
 
-- Digital ads often need to be customized after creation, and for that reason we encourage Canva for easier self-service. Some ads need to be edited by Demandbase under certain specs and [file requirements](https://support.demandbase.com/hc/en-us/articles/360027082151-Ad-Banner-Specifications#h_39c21461-d044-42c3-8ac3-414ebd00977e).
+- Digital ads often need to be customized after creation, and for that reason we encourage Canva for easier self-service. Some ads need to be edited by Demandbase under certain specs and [file requirements](https://support.demandbase.com/hc/en-us/articles/4403962757133-Reference-Non-Personalized-Ad-Specifications).
 
 #### Events
 
@@ -387,7 +369,7 @@ We upload and pull work locally from the [corporate-marketing repository](https:
 
 #### Brand Guidelines
 
-The Brand Design team mantains the Brand Guidelines on [design.gitlab.com](https://design.gitlab.com/brand/overview) ([Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main)). For our team's purposes, we can make updates to the guidelines using [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide_beta/#web-ide-beta).
+The Brand Design team maintains the Brand Guidelines on [design.gitlab.com](https://design.gitlab.com/brand/overview) ([Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main)). For our team's purposes, we can make updates to the guidelines using [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide_beta/#web-ide-beta).
 
 To get started, follow the workflow outlined below and check out our [demo](https://youtu.be/d8vUeHCkbnk) with the Product team.
 

@@ -60,7 +60,7 @@ There are additional rollout plan processes to keep yourself aware of:
 
 * [Rolling out a low-risk feature flag](/handbook/product-development-flow/feature-flag-lifecycle/#rollout)
 * [Rolling out a high-risk feature flag](/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process)
-* [Running an experiment](/handbook/marketing/growth/engineering/experimentation/#experiment-rollout-issue)
+* [Running an experiment](/handbook/engineering/development/growth/experimentation/#experiment-rollout-issue)
 
 #### Rollout plan templates
 

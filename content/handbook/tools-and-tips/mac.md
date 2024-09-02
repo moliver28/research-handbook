@@ -178,7 +178,7 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | System control | [Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) | Prevents your macOS from entering sleep mode for a predefined duration or as long as it is activated |
 | System control | [Macs Fan Control](https://crystalidea.com/macs-fan-control) | Control fans on macOS computers |
 | System control | [ToothFairy](https://apps.apple.com/us/app/toothfairy/id1191449274) | If clicking on 2 things to connect your AirPods is too much, this makes it a single click |
-| System control | [Muzzle](https://muzzleapp.com/) | A simple macOS app to silence embarrassing notifications while screensharing |
+| System control | [Muzzle](https://muzzleapp.com/) | A simple macOS app to silence embarrassing notifications while screen sharing |
 | System control | [Choosy](https://www.choosyosx.com/) | Granular browser selection. Use Chrome for Google apps, Firefox for YouTube, or Zoom links without a browser redirect|
 | Window manager | [Rectangle](https://rectangleapp.com/) | Move and resize windows in macOS using keyboard shortcuts or snap areas (based on the no longer supported [Spectacle](https://www.spectacleapp.com/) |
 | Window manager | [Divvy](https://mizage.com/divvy/) | Allows you to quickly and efficiently "divvy up" your screen into exact portions and save arrangements to shortcuts and keybinds |

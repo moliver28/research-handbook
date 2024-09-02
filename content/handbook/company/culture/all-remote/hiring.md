@@ -9,9 +9,9 @@ twitter_creator: "@gitlab"
 
 ## Remote hiring, explained
 
-The [pandemic](https://www.cdc.gov/coronavirus/2019-ncov/index.html) forced many organizations to transition to be [all-remote companies]({{< ref "./guide" >}}). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
+The [pandemic](https://www.cdc.gov/coronavirus/2019-ncov/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
 
-As one of the world's largest [all-remote companies]({{< ref "./guide" >}}), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook](/handbook/hiring). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
+As one of the world's largest [all-remote companies](guide/), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook](/handbook/hiring). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
 
 ![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg)
 {style="max-width: 50%;"}
@@ -26,9 +26,9 @@ In addition to giving your organization a competitive edge, here are some other 
 
 - ### Remote hiring supports a stronger and more diverse candidate pool
 
-All-remote hiring widens the talent pool and allows you to hire from any countries where you have legal status. This can greatly improve your company's cultural diversity. [Diversity, Inclusion & Belonging (DIB)]({{< ref "inclusion" >}}) has been fundamental to GitLab's success, and we strongly encourage prioritizing DIB in hiring practices.
+All-remote hiring widens the talent pool and allows you to hire from any countries where you have legal status. This can greatly improve your company's cultural diversity. [Diversity, Inclusion & Belonging (DIB)](/handbook/company/culture/inclusion/) has been fundamental to GitLab's success, and we strongly encourage prioritizing DIB in hiring practices.
 
-GitLab strives to hire team members who are passionate, empathetic, kind, tenacious, and ambitious, regardless of their location. By opening the talent acquisition funnel to as broad a swath of the world as we can, we create a more inclusive hiring environment, lean on tight collaboration to drive progress [across time zones]({{< ref "./asynchronous" >}}), and focus our hiring decisions on results rather than location.
+GitLab strives to hire team members who are passionate, empathetic, kind, tenacious, and ambitious, regardless of their location. By opening the talent acquisition funnel to as broad a swath of the world as we can, we create a more inclusive hiring environment, lean on tight collaboration to drive progress [across time zones](asynchronous/), and focus our hiring decisions on results rather than location.
 
 - ### Remote hiring is a quicker process
 
@@ -48,9 +48,9 @@ Remote interviews for remote jobs enable you to gauge a person's ability to comm
 
 ### Commit to supporting remote work, not just allowing it
 
-[**Supporting** remote work]({{< ref "./phases-of-remote-adaptation" >}}) is different than [**allowing** it]({{< ref "./stages#remote-allowed" >}}). Before hiring for a remote role, ensure that it is [set up to be successful](https://about.gitlab.com./tips). Prepare management with training on [how to be a great remote manager](https://about.gitlab.com./management).
+[**Supporting** remote work](phases-of-remote-adaptation/) is different than [**allowing** it](stages/#remote-allowed). Before hiring for a remote role, ensure that it is [set up to be successful](evaluate/). Prepare management with training on [how to be a great remote manager](being-a-great-remote-manager/).
 
-Prepare a well-designed [remote interview process](https://about.gitlab.com./interviews) to ensure that you'll hire the right person and that they'll be prepared with accurate expectations.
+Prepare a well-designed [remote interview process](/handbook/hiring/candidate-faq/) to ensure that you'll hire the right person and that they'll be prepared with accurate expectations.
 
 ### Advertise accurately and transparently
 
@@ -60,7 +60,7 @@ While this may be unique, we see it as simply staying true to our [transparency 
 
 Letting candidates know what to expect allows them to focus on whether the role and the company are right for them, while we evaluate that too.
 
-In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab's Head of Remote speaks with [Remotefit](https://remotefit.netlify.com) co-founder Javier on building and sustaining culture while being open about processes in the talent acquisition and hiring process.
+In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab's Head of Remote speaks with [Remotefit](https://remotefit.netlify.app/) co-founder Javier on building and sustaining culture while being open about processes in the talent acquisition and hiring process.
 
 <!-- blank line -->
 <figure class="video_container">
@@ -92,19 +92,19 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 
 1. Benefits for families and caregivers (daycare stipend, cleaning/laundry stipend, meal stipend, enhanced health insurance options, continuing education, adoption/fertility support, etc.)
 1. [No ask, must tell vacation policy]({{< ref "paid-time-off" >}}) which senior leaders visibly model
-1. The ability to [expense](https://about.gitlab.com/handbook/spending-company-money#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
+1. The ability to [expense](/handbook/spending-company-money#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
 1. Caregiver leave (maternity, paternity, eldercare, etc.)
 1. [De-location stipend](https://zapier.com/blog/move-away-from-sf-get-remote-job) (supporting relocation away from a high cost-of-market location)
 1. 4-day workweek, Summer Fridays, no-meeting days, and other efforts that provide company-wide time off for employees to rest, recharge, and connect with community
-1. Supporting the purchase of a complete and ergonomic [remote workspace]({{< ref "./workspace" >}}) uniquely tailored to each team member
+1. Supporting the purchase of a complete and ergonomic [remote workspace](workspace/) uniquely tailored to each team member
 1. Transparent policies for investing in and championing [diversity, inclusion & belonging](/handbook/values/#diversity-inclusion) (and published goals for improvement)
 1. Restricted stock units (RSU) or stock options
 1. Enhanced hiring bonuses and higher salaries
 1. Large annual bonuses based on performance (*remote work [measures results](/handbook/values/#measure-results-not-hours), not hours spent, input, or time-in-seat*)
-1. Well-trained remote managers that default to [asynchronous workflows]({{< ref "./asynchronous" >}}) (*Confidently assuring prospective talent that they will endure fewer meetings and micromanagement is a solid way to differentiate from other employers.*)
-1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony]({{< ref "./people#worklife-harmony" >}}) and put [family and friends before work](/handbook/values/#family-and-friends-first-work-second)
+1. Well-trained remote managers that default to [asynchronous workflows](asynchronous/) (*Confidently assuring prospective talent that they will endure fewer meetings and micromanagement is a solid way to differentiate from other employers.*)
+1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony](people/#worklife-harmony) and put [family and friends before work](/handbook/values/#family-and-friends-first-work-second)
 1. Supporting (via time and money) learning for self-development
-1. Building and explicitly publishing a culture of trust, empowerment, and autonomy for employees to do great work regardless of location (*view [GitLab's guide on building culture]({{< ref "./building-culture" >}}) and its [Values page]({{< ref "values" >}}) for more*)
+1. Building and explicitly publishing a culture of trust, empowerment, and autonomy for employees to do great work regardless of location (*view [GitLab's guide on building culture](building-culture/) and its [Values page](/handbook/values/) for more*)
 1. Engage and respect *existing* employees, empowering them to become [talent brand ambassadors]({{< ref "gitlab-ambassadors" >}}) on platforms such as Glassdoor, LinkedIn, Twitter, and Comparably
 1. Permit open sourcing some of an employee's work and encourage building of their personal brands
 1. Clear opportunities for [growth]({{< ref "career-development" >}}) and professional development
@@ -123,7 +123,7 @@ There are nuances to loving remote work and being a great remote worker. An oper
 
 #### Communication skills
 
-GitLab is an [asynchronous]({{< ref "./asynchronous" >}}) company. Much of what we do is [communicated through text]({{< ref "./effective-communication" >}}). People with lengthy in-office careers, who default to verbal communication, may be uncomfortable communicating via text at first.
+GitLab is an [asynchronous](asynchronous/) company. Much of what we do is [communicated through text](effective-communication/). People with lengthy in-office careers, who default to verbal communication, may be uncomfortable communicating via text at first.
 
 How do you screen for text-communication skills? Whether they realize it or not, most people **have** worked remotely. If your company has multiple locations, there's a good chance you worked with people outside of your office.
 
@@ -131,11 +131,11 @@ How do you screen for text-communication skills? Whether they realize it or not,
 
 If someone has not worked in a remote environment, chances are that they *have* worked outside of their office (e.g., working while traveling, advancing a university project while away from campus, etc.) Ask candidates for examples of how they managed those instances, looking specifically for how they embrace autonomy and [blameless problem solving](/handbook/values/#blameless-problem-solving).
 
-Even if your company didn't define it this way, those offices [were remote to one another]({{< ref "./stages" >}}). You had to navigate Zoom calls, time zone differences, etc. For example, you may be based in Seattle with colleagues in Singapore and London. Asking applicants to dive into those situations will help uncover how they handle remote work.
+Even if your company didn't define it this way, those offices [were remote to one another](stages/). You had to navigate Zoom calls, time zone differences, etc. For example, you may be based in Seattle with colleagues in Singapore and London. Asking applicants to dive into those situations will help uncover how they handle remote work.
 
 #### Aligns with company values
 
-Look for ways candidates align with company [values]({{< ref "values" >}}). Share them in advance and ask the candidates to explain which values resonate with them and why.
+Look for ways candidates align with company [values](/handbook/values/). Share them in advance and ask the candidates to explain which values resonate with them and why.
 
 Having prior experience working remotely is appreciated, but even more are attributes like timeliness, dependability, respect, a heart for collaboration, perseverance, empathy, kindness, and ambition.
 
@@ -145,10 +145,10 @@ Self-awareness and agile thinking are required to thrive in an all-remote settin
 
 Other qualities unique to a remote workplace are:
 
-1. Inclination for [self-learning and self-service]({{< ref "./self-service" >}})
-1. Appreciation for [documentation]({{< ref "./handbook-first" >}})
+1. Inclination for [self-learning and self-service](self-service/)
+1. Appreciation for [documentation](handbook-first/)
 1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
-1. Capable of (and enjoys) working [asynchronously]({{< ref "./asynchronous" >}})
+1. Capable of (and enjoys) working [asynchronously](asynchronous/)
 
 When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](http://insead.edu) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
 
@@ -156,15 +156,15 @@ When asked if anyone could learn to work well in an all-remote setting during an
 >
 > You're not going to have someone expecting you at the office and hold your hand, so you have to be able to manage yourself and work independently.
 >
-> It is critical that you can write well — be concise and precise in your written communication- to bridge time zones and leverage [asynchronous communication]({{< ref "./asynchronous" >}})".— *GitLab co-founder & CEO Sid Sijbrandij*
+> It is critical that you can write well — be concise and precise in your written communication- to bridge time zones and leverage [asynchronous communication](asynchronous/)".— *GitLab co-founder & CEO Sid Sijbrandij*
 
 ### Tips for interviewing all-remote candidates
 
-We've created a guide on [How to Conduct a Remote Interview]({{< ref "./interviews" >}}), and included some highlights below.
+We've created a guide on [How to Conduct a Remote Interview](interviews/), and included some highlights below.
 
 #### The top 10 questions to ask a remote candidate
 
-The full list of [questions to ask a remote candidate]({{< ref "./interviews#interview-questions-to-assess-for-success-in-a-remote-environment" >}}) is here, but these are the most insightful:
+The full list of [questions to ask a remote candidate](interviews/#interview-questions-to-assess-for-success-in-a-remote-environment) is here, but these are the most insightful:
 
 1. What challenges have you faced working remotely, and how did you overcome them?
 1. What methods do you use to ensure you are communicating with a remote team?
@@ -179,7 +179,7 @@ The full list of [questions to ask a remote candidate]({{< ref "./interviews#int
 
 ### Use video calls to interview and engage
 
-Candidates need to be comfortable with video calls since they are a primary medium for communication in a remote role. At GitLab, we use [Zoom](/handbook/tools-and-tips#zoom) to connect with candidates via [video calls]({{< ref "communication#video-calls" >}}).
+Candidates need to be comfortable with video calls since they are a primary medium for communication in a remote role. At GitLab, we use [Zoom](/handbook/tools-and-tips#zoom) to connect with candidates via [video calls](/handbook/communication/#video-calls).
 
 This [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video demonstrates how to conduct a remote interview process.
 
@@ -191,7 +191,7 @@ For more, watch Shane Bouchard, UX Manager, and Jeremy Watson, Senior Product Ma
 
 ---
 
-This approach reinforces several of GitLab's [values]({{< ref "values" >}}).
+This approach reinforces several of GitLab's [values](/handbook/values/).
 
 - [Efficiency](/handbook/values/#efficiency): We can provide a better candidate experience and hire faster since neither candidate nor interviewer must travel.
 - [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion): We create a level playing field for all candidates by allowing them to interview from a space where they are comfortable.
@@ -200,7 +200,7 @@ This approach reinforces several of GitLab's [values]({{< ref "values" >}}).
 
 ### Invest in onboarding
 
-When [hiring in an all-remote organization]({{< ref "./hiring" >}}), it is critical to onboard new team members well. You have to give new hires the information they need to do their jobs, and you have to empower them to think remotely. Remote onboarding relies heavily on [documentation]({{< ref "./management#scaling-by-documenting" >}}), anticipating the needs of new team members, and a dedication to continuously improving the process based on feedback.
+When [hiring in an all-remote organization](hiring/), it is critical to onboard new team members well. You have to give new hires the information they need to do their jobs, and you have to empower them to think remotely. Remote onboarding relies heavily on [documentation](management/#scaling-by-documenting), anticipating the needs of new team members, and a dedication to continuously improving the process based on feedback.
 
 Onboarding is a continuous process during a team member's first year. Investing upfront in your onboarding process will yield long-term benefits:
 
@@ -218,17 +218,17 @@ Companies that invest in onboarding report [54% more productivity](https://www.m
 
 Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](http://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
 
-We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires]({{< ref "./onboarding" >}}). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational]({{< ref "./onboarding#organizational-onboarding" >}}), [technical]({{< ref "./onboarding#technical-requirements-for-all-remote-onboarding" >}}), and [social]({{< ref "./onboarding#social-requirements-for-all-remote-onboarding" >}})--we assign a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}).
+We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}).
 
 #### Assign a mentor or onboarding buddy
 
 To help prevent [New Job Anxiety](http://www.classycareergirl.com/2017/02/new-job-anxiety-conquer) and aid onboarding and the adjustment to an [all-remote]({{< ref "_index.md" >}}) culture, new team members are assigned an onboarding buddy.
 
-A mentor or onboarding buddy is a friendly point of contact for a new team member. This individual sets the example for building relationships and models how to communicate in a variety of ways, such as video calls, check-ins on Slack, and [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}).
+A mentor or onboarding buddy is a friendly point of contact for a new team member. This individual sets the example for building relationships and models how to communicate in a variety of ways, such as video calls, check-ins on Slack, and [coffee chats](informal-communication/#coffee-chats).
 
 ### Practice informal communication
 
-Knowing that remote workers can experience [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout]({{< ref "./mental-health" >}}), it's important to prioritize relationship-building through regular social interactions. Remote workers can socialize using [informal communication]({{< ref "./informal-communication" >}}).
+Knowing that remote workers can experience [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/), it's important to prioritize relationship-building through regular social interactions. Remote workers can socialize using [informal communication](informal-communication/).
 
 ### Perform regular check-ins
 
@@ -284,7 +284,7 @@ Beyond the administrative challenges associated with using various vehicles (ent
 
 While GitLab believes that there are far [more pros than cons to hiring globally]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}) — creating a geographically diverse team, finding the world's best talent, hiring in underserved areas and connecting with people from diverse socioeconomic backgrounds — it's wise to evaluate how nonuniform hiring mechanisms may conflict with a company's values.
 
-When leveraging a third-party to hire, it is difficult to ensure that they will treat your employees how you would ideally like to see them treated. Third-party companies are under no obligation to understand or implement your [values]({{< ref "values" >}}).
+When leveraging a third-party to hire, it is difficult to ensure that they will treat your employees how you would ideally like to see them treated. Third-party companies are under no obligation to understand or implement your [values](/handbook/values/).
 
 It is imperative that the hiring team communicate this in advance, ideally during the interview phase, to manage expectations of employees who are hired by a third-party firm that may not always act in accordance to your values.
 
@@ -296,7 +296,7 @@ This is a common question from remote-first and all-remote companies who are und
 
 Some PEOs serve an array of regions, but offer varying levels of service and disparate experiences from country to country. Seek out advice where possible to gather country-level feedback.
 
-Remote is a new company that [intends to tackle this challenge over time](https://blog.remote.com/solving-global-employment-through-remote).
+Remote is a new company that [intends to tackle this challenge over time](https://remote.com/blog/solving-global-employment-through-remote).
 
 > Remote is working on solving global employment by allowing companies to employ people *locally* through Remote. That is, full employment local to each and every employee, but a single invoice for the employer. Remote manages payroll, benefits, and compliance, according to the standards of the employer.
 
@@ -308,7 +308,7 @@ Even when the world is your talent pool, there will be niche roles requiring a s
 
 While GitLab is location-agnostic, we ensure that we have local Sourcers based in every macro-region (e.g., Americas, APAC, and EMEA) poised to share their market expertise and leverage our presence in these territories.
 
-Our sourcing effort is extremely important for bringing [diverse]({{< ref "inclusion" >}}) talent onboard. Our Sourcers regularly network with recruiters and business verticals so they can quickly tap into real-time knowledge of specific markets when a niche position comes available.
+Our sourcing effort is extremely important for bringing [diverse](/handbook/company/culture/inclusion/) talent onboard. Our Sourcers regularly network with recruiters and business verticals so they can quickly tap into real-time knowledge of specific markets when a niche position comes available.
 
 Driven by our [Collaboration value](/handbook/values/#collaboration), we organize [source-a-thons](/handbook/hiring/sourcing#source-a-thons), which become a place for everyone to share market insights and contribute to hiring. These sessions are extremely productive as they help Sourcers better partner with their hiring managers and calibrate expectations. You can learn more about how GitLab's Sourcing team operates [here](/handbook/hiring/sourcing).
 

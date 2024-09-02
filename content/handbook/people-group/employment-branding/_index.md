@@ -43,7 +43,7 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
     - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being]({{< ref "benefits" >}}) regardless of location.
     - [Career development]({{< ref "career-development" >}}), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
-    - Our [CREDIT values]({{< ref "values" >}}) drive a culture that's built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we're all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
+    - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we're all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
     - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.
 
 ## Key ways we bring this vision to life
@@ -205,7 +205,6 @@ Our goal on the site is to maintain our profile and keep the feedback up to date
 - [Builtin](https://builtin.com/company/gitlab)
 - [Indeed](https://www.indeed.com/cmp/Gitlab-Inc/about)
 - [AngelList](https://angel.co/company/gitlab/)
-- [RemoteFit](https://www.remotefit.io/c/gitlab)
 
 ### GitLab blog
 
@@ -275,7 +274,7 @@ For further detail from each sub-group please refer to the links below.
 
 1. [Talent Brand](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/issues/1014)
 1. [Talent Acquisition](https://docs.google.com/document/d/1Q9ui_BZLRPBAYpRtdtpHVSvGzW3g7JtVYkGj_KqwZBA/edit#heading=h.riu5wc8sjmum)
-1. [DIB](https://about.gitlab.com/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
+1. [DIB](/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
 
 Together, we partner to define and select organizations to partner with that allow us to engage with a target audience that includes members from underrepresented groups as defined [here](https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups).
 
@@ -287,7 +286,7 @@ Our decision-making process involves a comprehensive assessment of potential par
 
 **DIB Alignment**
 
-- Does this align with our stated DIB [KPIs](https://about.gitlab.com/handbook/people-group/people-success-performance-indicators/#executive-summary)?
+- Does this align with our stated DIB [KPIs](/handbook/people-group/people-success-performance-indicators/#executive-summary)?
 - Does this align with GitLab's [definition](https://about.gitlab.com/company/culture/inclusion/#definitions) of an underrepresented group?
 - Does this support talent globally?
 
@@ -299,7 +298,7 @@ Our decision-making process involves a comprehensive assessment of potential par
 **Location and Accessibility**
 
 - If this is related to an event, is the location viable for GitLab to attend?
-- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](https://about.gitlab.com/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) If related to interns see [here](https://docs.google.com/spreadsheets/d/1uHHbExS_mEY2mMtPeZcfJz21IMg-TXS2buWeLIUYUlA/edit#gid=402334717).
+- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) If related to interns see [here](https://docs.google.com/spreadsheets/d/1uHHbExS_mEY2mMtPeZcfJz21IMg-TXS2buWeLIUYUlA/edit#gid=402334717).
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
 - Does this partnership share clear ways that their space is accessible?
 - Is there a virtual option?

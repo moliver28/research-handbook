@@ -77,7 +77,7 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
 
 **Before escalating consider checking the "Activity" section of the account's Salesforce page to see if someone has reached out to the customer. If you see activity since your first chatter, consider confirming status with the customer or the sales rep instead of escalating.** To confirm with Sales, just reply to the original chatter asking them whether they reached out. If you see no activity since you started the chatter, escalate as described below.
 
-#### If the Salesforce `Account Owner` is incorrect or unable/unwilling to assist
+### If the Salesforce `Account Owner` is incorrect or unable/unwilling to assist
 
 - Examples of being unable/unwilling to assist:
   - Account owner no longer works at GitLab.
@@ -85,7 +85,7 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
   - Account owner says they have no time to help.
   - A reasonable amount of time has passed (> 24hrs) with no response
 
-##### If the Salesforce account has a named `Account Owner`
+#### If the Salesforce account has a named `Account Owner`
 
 - Mention the person's direct manager in a Chatter comment.
   - Suggested message text:
@@ -100,16 +100,21 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
     - It is helpful to refer to the [company organization chart](https://comp-calculator.gitlab.net/org_chart)
    to see who to escalate to.
 
-###### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
+#### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
 - If you have SFDC access to the case, and the case has an assigned owner
   - Ping the case owner in chatter on the case
-  - Mention the `@SMB Advocate Team` in chatter on the case
+  - Include the applicable Regional manager: 
+    - EMEA: @Miguel Nunes
+    - AMER/ APAC: @Taylor Lund
+  - notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness.
 - If you do not have SFDC access, or the case is not owned
   - Post a message in the [**#global-digital-smb_public**](https://gitlab.enterprise.slack.com/archives/C06H72XGQUD) slack channel.
   - In your post, include:
     - details of the request
     - the Zendesk ticket link
+    - cc: your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in your post for awareness. 
+- If you are unable to make contact with the Regional manager within a reasonable amount of time, escalate to: @Mike Smith via chatter on the case and notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness. 
 
 ## Determining whether **to pass** or **to NOT pass** to Sales
 
@@ -187,11 +192,11 @@ Workflow:
 
 ### Customer seeking a discount
 
-A customer is seeking a discount and their subscription is above the Starter/Bronze tier
+A customer is seeking a discount and their subscription is above the Starter tier
 
 Workflow:
 
-- Confirm their tier and the details of the discount requested, if they are not above Starter/Bronze or the discount request is unreasonable (use your discretion), explain that a discount is not available
+- Confirm their tier and the details of the discount requested, if they are not above Starter or the discount request is unreasonable (use your discretion), explain that a discount is not available
 - If you are unsure whether a discount should be given, consult with the Account Owner first
 - Chatter Sales and summarise the customer's request, ask for them to reach out if they confirm a discount is possible
 - Respond to the customer with the appropriate macro, set the expectation that a discount is not guaranteed and is at the discretion of the relevant approvers

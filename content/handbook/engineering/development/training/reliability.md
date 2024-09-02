@@ -120,7 +120,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html)
+[Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/)
 
 ## Error budgets
 <!-- blank line -->

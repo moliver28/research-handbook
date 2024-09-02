@@ -114,7 +114,7 @@ Remote has implemented a self-service model to facilitate this process, with a b
 
 ### Pension
 
-Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer's payment of the monthly salary to the team member.
+Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The pension contribution includes both the retirement savings and the associated insurance and administration fees. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
 
 ### Life Insurance
 
@@ -624,7 +624,7 @@ GitLab does not plan to offer pension benefit at this time as the Hungarian pens
 
 ### Life Insurance
 
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://tcs.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
+GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://www.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
 
 ### Hungary Statutory Leave Policies
 

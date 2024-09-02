@@ -44,7 +44,7 @@ As a best practice the Hiring Manager should reach out to each individual on the
 
 One way a Hiring Manager can help create more engagement in the open role is to create a short (1 minute) video discussing what the role will entail for a successful candidate.
 
-1. [Create a video, upload it to GitLab's unfiltered youtube channel, and in the description link to the job listing in question](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+1. [Create a video, upload it to GitLab's unfiltered YouTube channel, and in the description link to the job listing in question](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. If you're active on Twitter, post the YouTube link to Twitter and include the job listing in the body of the tweet.
 1. Upload the video to LinkedIn and create a post with a link to the job listing. It is better to upload the video directly to LinkedIn than use the YouTube link as this will help generate more traffic.
 1. Embed the YouTube video into the Job listing itself via [Greenhouse](https://boards.greenhouse.io/gitlab/jobs/6201785002) under the `work for this role` sub-heading.
@@ -118,7 +118,7 @@ You should not ask any questions about the person's race, gender, sexual prefere
 
 All reference check feedback should be entered into Greenhouse using the Reference Checks scorecard. To add this information, go to the candidate's profile, make sure they are in the "Reference Checks" stage, and click "Collect Feedback".
 
-It is the hiring manager's responsibility to do the reference checks, but the hiring team may also provide assistance and guidance. You can also refer to [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+It is the hiring manager's responsibility to do the reference checks, but the hiring team may also provide assistance and guidance. You can also refer to [these guidelines](https://bothsidesofthetable.com/how-to-make-better-reference-calls-d493a12714f0).
 
 ### If References Don't Provide Full References
 

@@ -13,9 +13,9 @@ This type of event is generally recommended for smaller virtual events (200 atte
 
 Please note this option does not allow for registration to be capped. You can require approval, but Zoom doesn't allow customization of the rejection email (and it isn't clear if a rejection email is even sent).
 
-#### [Owned Events Hosted on Personal Zoom Accounts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#owned-events-hosted-on-personal-zoom-accounts-1)
+#### Owned Events Hosted on Personal Zoom Accounts
 
-This is a light-weight virtual event that is hosted on any team member's personal Zoom.
+This is a light-weight virtual event that is [hosted on any team member's personal Zoom](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#owned-events-hosted-on-personal-zoom-accounts-1).
 
 #### Virtual Lunch and Learn Session (Owned Events)
 
@@ -35,9 +35,9 @@ In most cases we work closely with an advocate within an account to drive produc
 
 ## Hosted on Field Marketing Zoom License
 
-### [Virtual Workshops](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1)
+### Virtual Workshops
 
-Field Marketers will work with the Customer Success teams, Product Marketing & Solution Engineers to build various types of Virtual Workshops, depending on the needs of the region. These Virtual Workshops are designed to accelerate pipeline and attract new customers to GitLab by providing a hands-on experience.
+Field Marketers will work with the Customer Success teams, Product Marketing & Solution Engineers to build various types of [Virtual Workshops](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1), depending on the needs of the region. These Virtual Workshops are designed to accelerate pipeline and attract new customers to GitLab by providing a hands-on experience.
 
 For more information regarding workshop capacities, please review [these details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration).
 
@@ -52,9 +52,9 @@ Note that Virtual Workshops involve the SLA timeline below. Please make sure to 
 
 - **Virtual Workshops (-40 business day [SLA](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit#gid=1983708280&range=A48))** - These workshops utilize the material from the current workshops that have already been created. For these workshops, you will be re-utilizing all the existing content with either no content changes or *very* minor content adjustments (example - change of title from Advanced CI/CD Workshop to Advanced CI/CD Workshop for the PubSec).
 
-### [Webcasts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1)
+### Webcasts
 
-This is a GitLab-hosted virtual event with Webcast type configuration in Zoom. This is the preferred setup for larger GitLab-hosted virtual events (up to 1,000 attendees) that requires registration due to the integration with Marketo for automated lead flow and event tracking. GitLab-hosted webcast type is a single room virtual event that allows multiple hosts. Attendees cannot share audio/video unless manually grated access.
+This is a GitLab-hosted virtual event with [Webcast type](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1) configuration in Zoom. This is the preferred setup for larger GitLab-hosted virtual events (up to 1,000 attendees) that requires registration due to the integration with Marketo for automated lead flow and event tracking. GitLab-hosted webcast type is a single room virtual event that allows multiple hosts. Attendees cannot share audio/video unless manually grated access.
 
 #### Webcast SLA
 
@@ -172,9 +172,9 @@ Panelists have the ability to unmute, share screen, answer chat, answer Q&A, etc
 
 It's not recommended to have more than a few hosts because it can get a bit confusing when you go to end the meeting, stop recording, etc. Recommendation is the FMC sets themselves as host, the FMM also as a host and 1-2 SAs as hosts.
 
-#### [Zoom Configuration Training Video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be)
+#### Zoom Configuration Training Video
 
-This training video includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions.
+[This training video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be) includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions.
 
 *This video has been uploaded as a private video in GitLab Unfiltered. You MUST be logged into Unfiltered to view the video. Instructions on how to log into GitLab Unfiltered can be found [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).*
 
@@ -217,9 +217,9 @@ This training video includes Zoom configuration setup instructions, as well as M
 
 ### Step 2: Set up the webcast in Marketo/SFDC and integrate to Zoom
 
-#### [Marketo Program and SFDC Campaign Setup Training Video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be)
+#### Marketo Program and SFDC Campaign Setup Training Video
 
-Note: This training video includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions. Marketo program/SFDC Campaign setup instructions begin around the 9.5 minute mark.
+Note: This training video includes Zoom configuration setup instructions, as well as [Marketo program/SFDC Campaign setup instructions](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be). Marketo program/SFDC Campaign setup instructions begin around the 9.5 minute mark.
 
 *This video has been uploaded as a private video in GitLab Unfiltered. You MUST be logged into Unfiltered to view the video. Instructions on how to log into GitLab Unfiltered can be found [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).*
 
@@ -618,24 +618,24 @@ PLEASE NOTE: The below instructions are only for virtual workshops. If you are r
 
 ## Canceling a Workshop or Webcast
 
-PLEASE NOTE: The below instructions are only for virtual workshops. If you are canceling an in-person workshop (a workshop that is NOT utilizing our Zoom integration), then please follow our general cancelation instructions [here](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events).
+PLEASE NOTE: The below instructions are only for virtual workshops. If you are canceling an in-person workshop (a workshop that is NOT utilizing our Zoom integration), then please follow our general cancellation instructions [here](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events).
 
 ### FMM Tasks
 
 - FMM to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Cancelled?` dropdown. FMM to also add in `CANCELED` to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - FMM to remove any planned/forecasted costs in Allocadia accordingly.
-- FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the cancelation and close out the issue.
-- If there are registrations for the event, please either notify the registrants of the cancelation directly, or ask your FMC to create a cancelation email issue and provide copy in the copy doc. Note that this email must follow the [MOps SLA](/handbook/marketing/marketing-operations/campaign-operations/#slas).
+- FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the cancellation and close out the issue.
+- If there are registrations for the event, please either notify the registrants of the cancellation directly, or ask your FMC to create a cancellation email issue and provide copy in the copy doc. Note that this email must follow the [MOps SLA](/handbook/marketing/marketing-operations/campaign-operations/#slas).
 
 ### FMC Tasks
 
 - The FMC will update the [Marketing Calendar](/handbook/marketing/#marketing-calendar) by selecting the event line item and adding a strikethrough to indicate the event has been canceled.
 - The FMC will delete the invite in the [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
 - The FMC will submit an MR to delete the event listing on the [Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
-- The FMC will comment regarding the cancelation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specically in those issues to have them unschedule the sends first.
+- The FMC will comment regarding the cancellation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specically in those issues to have them unschedule the sends first.
 - The FMC will unschedule the Dry Run invite in the [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
-- If the FMM is not sending their own cancelation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
-- Once all sub-issues are closed, the FMC will also note the cancelation in the epic and close the epic.
+- If the FMM is not sending their own cancellation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
+- Once all sub-issues are closed, the FMC will also note the cancellation in the epic and close the epic.
 - SFDC: Add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown.
 - Marketo: Add `[CANCELED]` to the program name. Go to the `Salesforce campaign sync` field and click on the linked campaign, select `None` from the dropdown and click `Save.` This removes the SFDC and Marketo sync for the program. Deactivate any [activated smart campaigns](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-activate-marketo-smart-campaigns).
 - FMC to ping MOps with the Marketo program link in the `#mktgops` Slack channel and request the program be deleted (FM does not have access in Marketo to delete programs). Please Note: Once the Marketo program is deleted, the Marketo LP will also be deleted and not accessible by anyone with the registration link.
@@ -1159,15 +1159,21 @@ Note that our capacity for events run on personal Zoom accounts is 200 attendees
 
 **DRI: FMM & FMC**
 
-## [Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
+## Best Practices
+
+[Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
 
 **DRI: FMM**
 
-## [Promotion Guidelines](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
+## Promotion Guideline
+
+[Promotion Guidelines](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
 
 **DRI: FMM**
 
-## [Logistical Setup](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
+## Logistical Setup
+
+[Logistical Setup](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
 
 **DRI: FMM**
 
@@ -1179,12 +1185,18 @@ Note that our capacity for events run on personal Zoom accounts is 200 attendees
 - If you plan on sending a Marketo reminder email to attendees, you do not need to set up the reminder email in Zoom.
 In order for your FMC to triage your Marketo LP issues, you **must** have your Zoom event set up in advance and link your URL in the FMC Checklist section of your FM issue.
 
-## [During the Event](/handbook/marketing/virtual-events/self-service-virtual-events/#during-the-event)
+## During the Event
+
+[During the Event](/handbook/marketing/virtual-events/self-service-virtual-events/#during-the-event)
 
 **DRI: FMM**
 
-## [Post Event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
+## Post Event
+
+[Post Event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
 
 **DRI: FMM**
 
-## [Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)
+## Results
+
+[Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)

@@ -1,12 +1,10 @@
 ---
 title: Organizational Change Management
-aliases:
-- /handbook/organizational-change-management/
 ---
 
 ## Introduction
 
-GitLab is growing fast and we have been ranked as one of the [fastest-growing private software companies](https://about.gitlab.com/blog/2018/08/16/gitlab-ranked-44-on-inc-5000-list/). Headcount has nearly doubled in the last year and we have plans to [continue to grow](/handbook/company/strategy/). As we scale, there will be more and more changes to how we operate as an organization. New technology will be introduced to make us more efficient, new processes will be introduced to improve transparency, functional groups will be redesigned and adjusted to meet our growing headcount and strategic objectives, job families will change and policies in the handbook will be altered that have a big impact on how we operate.
+GitLab is growing fast and we have been ranked as one of the [fastest-growing private software companies](https://about.gitlab.com/blog/2018/08/16/gitlab-ranked-44-on-inc-5000-list/). Headcount has nearly doubled in the last year and we have plans to [continue to grow](/handbook/company/strategy/). As we scale, there will be more and more changes to how we operate as an organization. New technology will be introduced to make us more efficient, new processes will be introduced to improve transparency, functional groups will be redesigned and adjusted to meet our growing headcount and strategic objectives, job families will change, and policies in the handbook will be altered that have a big impact on how we operate.
 
 As we evolve, there is a need to implement organizational change management (OCM) processes and methodologies to ensure impacted team members are enabled with the knowledge, leadership, coaching, and training they need to adapt successfully. This handbook page will walk through a step-by-step approach to OCM within GitLab. People leaders and individual contributors can use this page when structuring an organizational change management process and campaign.
 
@@ -154,7 +152,6 @@ Please contact the [Learning & Development team](/handbook/people-group/learning
 
 - Change Management Primer ([Slides](https://docs.google.com/presentation/d/1KrFKBHS0IC15cn7q2CYGakCRfcq-A5tmRCxg8ys_v-Y/edit#slide=id.g82ed3c344a_0_0)) ([Video](https://www.youtube.com/watch?v=Gz6OpHnOGlM&feature=youtu.be)) from our Field Enablement Team
 - [Prosci change management resources](https://www.prosci.com/resources)
-- [Accenture Organization Change](https://www.accenture.com/_acnmedia/Accenture/Conversion-Assets/DotCom/Documents/Global/PDF/Strategy_4/Accenture-Organization-Change.pdf)
 - [Harvard Business Review Change Management Resources](https://hbr.org/topic/change-management)
 - [Five Levers of Change Management](https://www.prosci.com/resources/articles/five-levers-of-organizational-change-management) (article)
 - [Keys to Prepare for Change](https://blog.prosci.com/keys-to-prepare-for-change)

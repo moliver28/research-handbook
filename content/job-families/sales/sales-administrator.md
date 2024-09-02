@@ -40,7 +40,7 @@ If you are these things, and are passionate about sales support and can demonstr
 - Experience with Salesforce.com. You know how to create workflows and use Process Builder. Maybe you've done some APEX coding, but it's not required for this role.
 - You've supported at least 50 Salesforce users at some point in your sales operations career. Bonus points if you've scaled to 200+ users.
 - You've used (or at least are aware of) Marketo, Zuora, InsightSquared, DiscoverOrg, Zendesk, and LeanData.
-- You share our [values](https://about.gitlab.com/handbook/#values), and work in accordance with those values.
+- You share our [values](/handbook/#values), and work in accordance with those values.
 - Ability to use GitLab
 
 {{% job-families/sales/performance %}}

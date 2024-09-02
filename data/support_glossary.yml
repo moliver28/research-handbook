@@ -1,0 +1,115 @@
+# for configuration see layouts/shortcodes/support-glossary.html
+#
+# Guidelines:
+# 
+# 1. Add new definitions to the end of the support_glossary.yml. Entries do not need to be in alphabetical order.
+# 2. Be sure to search for an acronym to ensure it does not already exist.
+# 3. Use only one entry per acronym key. If there are multiple possible definitions for one acronym, create a separate
+#    entry for each one.
+# 4. Use sentence case for term expansions
+# 5. Keep info as concise as possible, and avoid adding new definition content. Instead, link to supporting handbook or
+#    docs pages.
+# 6. Leave a new line at the end of the file
+#
+# Example:
+#
+# - acronym: MWPS
+#   term:
+#    - Merge when pipeline succeeds
+#   info: |
+#     A common phrase used by GitLab team members when adding approved MRs to the merge train, when
+#     [auto-merge when using merge trains](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html#auto-merge-when-using-merge-trains)
+#     is configured
+#
+
+
+- acronym: FRT
+  term: First Response Time
+  info: |
+    Support have a first response time Service Level Agreement (SLA) on all new tickets from subscribed customers.
+
+- acronym: NRT
+  term: 
+   - Next Response Time
+   - Next Reply Time
+  info: |
+    Support have a next response time Service Level Objective (SLO) on all subsequent replies to tickets from subscribed
+    customers. 
+
+- acronym: OKR
+  term: Objectives and Key Results
+  info: |
+    GitLab uses [OKRs](https://handbook.gitlab.com/handbook/company/okrs/) to support achieving our strategic goals. 
+
+- acronym: CMOC
+  term: Communications Manager On-Call
+  info: |
+    Support is responsible for keeping customers informed in support of our incident response process when there is an
+    active incident on gitlab.com. The role has several
+    [responsibilities](https://handbook.gitlab.com/handbook/support/workflows/cmoc_workflows/).
+
+- acronym: CEOC
+  term: Customer Emergencies On-Call
+  info: |
+    [How to Perform Customer Emergencies Duties](https://handbook.gitlab.com/handbook/support/workflows/customer_emergencies_workflows/)
+
+- acronym: MVC
+  term: Minimal Valuable Change
+  info: |
+    [Minimal valuable change](https://handbook.gitlab.com/handbook/product/product-principles/#the-minimal-valuable-change-mvc)
+    was previously referred to as the minimal _viable_ change.
+    [This language was updated 2024-07-31](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/5520).
+
+- acronym: PD
+  term: PagerDuty
+  info: |
+    See [How Support On-call works](https://handbook.gitlab.com/handbook/support/on-call/#how-support-on-call-works) for
+    more information about how GitLab Support uses PagerDuty.
+
+- acronym: SLA
+  term: Service Level Agreement
+  info: |
+    GitLab Support [service level agreements](https://about.gitlab.com/support/#service-level-agreements) might differ
+    from other definitions in other departments.
+
+- acronym: SLO
+  term: Service Level Objective
+  info: |
+    Support has an internal service level objective on all subsequent responses to tickets after the first response. We use the SLA timer in Zendesk to track this. 
+
+- acronym: ASE
+  term: Assigned Support Engineer
+  info: |
+    Customers can subscribe to our assigned support engineer service which allocates them a named support engineer. You can read more about this role in the [handbook](https://handbook.gitlab.com/handbook/support/workflows/assigned-support-engineer/).
+
+- acronym: CES
+  term: 
+   - Customer Effort Score
+   - Candidate Experience Specialist
+  info: |
+    In the support context, customer effort score is an approach to measuring customer satisfaction.  In the wider GitLab context, we also have [candidate experience specialists](https://handbook.gitlab.com/job-families/people-group/candidate-experience/) who are part of our recruiting team. 
+
+- acronym: DRI
+  term: Directly Responsible Individual
+  info: | 
+    [Directly responsible individuals](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) at GitLab own particular projects, initiatives, or activity.
+
+- acronym: MFA
+  term: Multi-Factor Authentication
+  info: |
+    A commonly used [industry term](https://en.wikipedia.org/wiki/Multi-factor_authentication). 
+
+- acronym: MTTR
+  term: Mean Time To Resolution
+  info: | 
+    A measurement of the average time it takes for a ticket to progress from creation to solved.
+
+- acronym: SBOM
+  term: Software Bill Of Materials
+  info: |
+    You can read all about SBOMs in our [blog post](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/).
+
+- acronym: SSAT
+  term: Support Satisfaction
+  info: |
+    We use SSAT to capture customer feedback and measure customer satisfaction.

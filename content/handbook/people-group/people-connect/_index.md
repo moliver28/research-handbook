@@ -73,7 +73,7 @@ On occasion team member interactions i.e. ≤ 1% require the direct input of a S
 
 ### Team Member Satisfaction
 
-The People Connect model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values]({{< ref "values" >}}).
+The People Connect model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
 
 At the resolution of each interaction that runs through our Service Desk team members will receive a quick two question 'satisfaction pulse' from the People Connect Bot.
 

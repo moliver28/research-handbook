@@ -53,7 +53,9 @@ List the integrations between this app and other tech stack apps or systems. Inc
 
 List the important reports and dashboards used to operate the application, including links where available.
 
-## Tech Stack Guide Example #1: [Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
+## Tech Stack Guide Example #1: Thought Industries LMS Tech Stack Guide
+
+[Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
 
 Important Notes:
 
@@ -189,7 +191,7 @@ CustomersDot data to Zuora via [IronBank GEM](https://gitlab.com/gitlab-org/cust
 
 #### Zuora to Snowflake
 
-Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
+Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
 
 #### Zuora to NetSuite
 

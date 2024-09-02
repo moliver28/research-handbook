@@ -134,7 +134,7 @@ This policy is not intended to restrict communications or actions protected or r
 
 ### Approval for Outside Activities
 
-Before beginning outside employment, side projects, or other activities, whether paid or unpaid, that could potentially impair your ability to perform your obligations to GitLab or could be deemed a conflict of interest (collectively referred to as "outside activities"), you must disclose the activity in writing to your Manager, and further escalate as needed. Approval will not be granted if GitLab determines that the proposed outside activity would be a conflict of interest under the Code of Business Conduct and Ethics. Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab.
+Before beginning outside employment, side projects, or other activities, whether paid or unpaid (collectively referred to as "outside activities"), you must disclose the activity in writing to your Manager, and further escalate as needed. Approval will not be granted if GitLab determines that the proposed outside activity would be a conflict of interest under the Code of Business Conduct and Ethics or if it would compromise a team member's ability to perform their job effectively. Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab.
 
 #### Steps as a current candidate (actively engaged in the hiring process)
 
@@ -149,7 +149,6 @@ any inventions or side projects that should be listed on the PIAA.
     - Candidate's role in the outside employment, project, or activity
 1. Approval will follow the process set out for current team members. Any potential conflict of interest must be disclosed to and approved by the Chief Legal Officer in line with the Code of Business Conduct & Ethics.
 1. If the candidate entered No or None CES will continue processing the application.
-1. If the candidate discloses any inventions or side projects that should be listed on the PIAA, CES will notify the People Connect Team by emailing `people-connect@gitlab.com` with the link to the candidate's Greenhouse profile and PDF of the form. The subject line will include the candidate's name. From there, People Connect will follow their process per the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#piaa). Both teams can reach out to `legal_employment@gitlab.com` for review of the disclosures and specific wording that may need to be added to the PIAA if necessary.
 
 #### Steps as a current team member
 

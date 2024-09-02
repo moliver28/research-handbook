@@ -42,6 +42,14 @@ so that we can automatically add group labels and assignees based on our
 | ![Readiness Priority::This Fiscal Year](https://img.shields.io/badge/Readiness_Priority-This_Fiscal_Year-330066) | It is slated for a deplyoment in the current fiscal year |
 | ![Readiness Priority::Backlogged](https://img.shields.io/badge/Readiness_Priority-Backlogged-330066) | It is slated for the deplyoment in the future beyond the current fiscal year |
 
+### Readiness Specialization Labels
+
+| Label | Meaning |
+|-------|---------|
+| ![Readiness Specialization - Operations](https://img.shields.io/badge/Readiness_Specialization-Operations-330066) | https://handbook.gitlab.com/job-families/engineering/support-readiness-specialist/#operations |
+| ![Readiness Specialization - Training](https://img.shields.io/badge/Readiness_Specialization-Training-330066) | https://handbook.gitlab.com/job-families/engineering/support-readiness-specialist/#training |
+| ![Readiness Specialization - Data Analysis & Services Delivery](https://img.shields.io/badge/Readiness_Specialization-Data_Analysis_&_Services_Delivery-330066) | https://handbook.gitlab.com/job-families/engineering/support-readiness-specialist/#data-analysis--services-delivery |
+
 ### Category Labels
 
 | Label | Category | Used in | Description |

@@ -1,6 +1,6 @@
 ---
 title: "Observation Creation Procedure"
-controlled_document: true
+description: "This procedure details the creation process for observations."
 ---
 
 ## Purpose
@@ -55,7 +55,7 @@ Observations can be identified through the following channels:
 
 ### Assigning Observations
 
-The observation identifier is responsible for opening an observation in [ZenGRC]({{< ref "zg-activities" >}}). The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes validating the observation with the Remediation Owner, tracking all remediation progress and updating the associated ZenGRC issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a mirrored ZenGRC Issue (for Observation Managers). Each observation will be assigned a [risk rating]({{< ref "observation-management-procedure#observation-risk-ratings" >}}), which should drive the priority of remediation.
+The observation identifier is responsible for opening an observation in the GitLab Observation Project. The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes linking the observation to the associated control in Hyperproof, validating the observation with the Remediation Owner, tracking all remediation progress and updating the Gitlab issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a Hyperproof Issue (for Observation Managers). Each observation will be assigned a [risk rating]({{< ref "observation-management-procedure#observation-risk-ratings" >}}), which should drive the priority of remediation. Observation Managers are responsible for updating the Hyperproof Issue status once the observation has been confirmed remediated/closed/ignored/invalid.
 
 **See the associated runbooks below for detailed instructions on how to open and assign a new observation based on observation type:**
 
@@ -349,7 +349,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [Observation remediation Procedure]({{< ref "observation-remediation-procedure" >}})
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 - [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)
-- [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
+- [Sarbanes-Oxley (SOX) Compliance](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 
 ## Contact & Feedback
 

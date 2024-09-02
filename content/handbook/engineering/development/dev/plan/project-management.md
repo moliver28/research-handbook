@@ -1,7 +1,5 @@
 ---
 title: Plan:Project Management Team
-aliases:
-- /handbook/engineering/development/dev/plan/project-management/
 ---
 
 ## Plan:Project Management Team
@@ -44,7 +42,7 @@ You can see how we work as a stage at the [Plan stage page](/handbook/product/ca
 For the backend team specifically, we use the standard GitLab
 [engineering workflow](/handbook/engineering/workflow/). To get in touch with the Plan:Project Management
 backend team, it's best to create an issue in the relevant project
-(typically [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce)) and add the ~"group::project management" label, along
+(typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the ~"group::project management" label, along
 with any other appropriate labels. Then, feel free to ping the relevant
 Product Manager and/or Engineering Manager as listed above.
 
@@ -60,9 +58,9 @@ For more urgent items, feel free to use [#s_plan](https://gitlab.slack.com/archi
 
 #### Refining and organizing feature work
 
-To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-viable-change-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
+To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-valuable-changegegege-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
 
-- Feature (Epic) - Contains all of the necessary vertical feature slices to default the corresponding feature flag to "on". The feature epic will also serve as the location to generate a corresponding Release Post item MR. The feature epic should be scoped to the [minimal amount of functionality that still provides customer value](/handbook/product/product-principles/#the-minimal-viable-change-mvc). Additional scope planned for future enhancements should be stored in follow-on epics.
+- Feature (Epic) - Contains all of the necessary vertical feature slices to default the corresponding feature flag to "on". The feature epic will also serve as the location to generate a corresponding Release Post item MR. The feature epic should be scoped to the [minimal amount of functionality that still provides customer value](/handbook/product/product-principles/#the-minimal-valuable-change-mvc). Additional scope planned for future enhancements should be stored in follow-on epics.
   - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a [spike](#spikes)
   - UX (Issue) - For larger initiatives, UX creates a separate UX issue that serves as the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. [Learn more about UX issues](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-issue-management-weights-and-capacity-planning).
   - Vertical Feature Slice (Issue) - A subset of the feature that can be completed within a single milestone, tested, and verified within the `plan-stage` group on production.
@@ -90,10 +88,6 @@ DRI rotation:
 | Deepika Guliana | 2023-04-10 | 2023-04-21 | |
 | Eulyeon Ko | 2023-04-24 | 2023-05-05 | |
 
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 ### Collaboration between backend and frontend
 
 #### Using the ~"backend complete" label
@@ -104,14 +98,27 @@ functionally complete, merged and verified but frontend, or other, work is ongoi
 
 ### Picking something to work on
 
-The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) always shows work in the current
-release, with [workflow columns](/handbook/product-development-flow/) relevant to implementation. There is an
+The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) shows prioritized work with [workflow columns](/handbook/product-development-flow/) relevant to implementation. There is an
 additional column to show in-progress community contributions. Filtering it by
 ~backend shows issues for backend engineers to work on.
 
 It's OK to not take the top item if you are not confident you can solve
 it, but please post in [#s_plan](https://gitlab.slack.com/archives/s_plan) if that's the case, as this probably
 means the issue should be better specified.
+
+### Queueing Experimentation
+
+As part of our ongoing efforts to improve efficiency, we will experiment with [queuing techniques](https://www.brightball.com/articles/story-points-are-pointless-measure-queues) instead of traditional weight/story points for the [migration of legacy issues to work items project](https://gitlab.com/gitlab-org/gitlab/-/issues/461855). Starting in milestone 17.3, we will:
+
+1. **Refine Required Issues**: Review the [list of required issues for the first MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=work%20items::ga-issues&label_name%5B%5D=work%20items&first_page_size=100).
+
+    - Determine the best way to group bundles of tasks, using issues or epics.
+    - Break down large issues into tasks, aiming for tasks that are small enough to be moved from ~"workflow::in dev" to ~"workflow::in review" within 5 business days.
+
+2. **Prioritize Tasks**: Prioritize the tasks from step 1.
+3. **Update Workflow**: Update the #picking-something-to-work-on section to include the list of tasks, monitoring work in progress to keep it as low as possible.
+
+This will help us manage and report progress more effectively using queue management principles.
 
 #### High Severity Issues
 
@@ -129,9 +136,6 @@ in the handbook, and it is here to make those explicit:
    is important, you can [request for it to be scheduled](/handbook/engineering/workflow/#requesting-something-to-be-scheduled), or you can
    [work on a proposal yourself](/handbook/values/#iteration), as long as you keep your
    other tasks in mind.
-1. From time to time, there are events that GitLab team-members can participate
-   in, like the [issue bash](https://about.gitlab.com/community/issue-bash/). Anyone is welcome
-   to participate in these.
 1. If you feel like you want to have some specific time set aside, but
    aren't interested in the topics of an existing event, feel free to
    label issues with "For Scheduling" and copy your manager for visibility.

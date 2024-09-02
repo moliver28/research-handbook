@@ -77,7 +77,7 @@ If the request falls outside of such scenarios, see the [Other Requests section]
 
 ## US Government tickets in Global Support Portal
 
-Users of GitLab's [US Government Support](https://about.gitlab.com/support/us-federal-support/) offering may opt to raise a ticket in the Global Support Portal as well. The most common reason for this is the need for support outside of the US Government's [hours of operation](https://about.gitlab.com/support/us-government-support/#hours-of-operation). If during the triage process, a Global Agent comes across a ticket that is from an organization which appears to be a customer entitled to US Government Support, the agent can work this case the same as they would any other ticket.
+Users of GitLab's [US Government Support](https://about.gitlab.com/support/us-government-support/) offering may opt to raise a ticket in the Global Support Portal as well. The most common reason for this is the need for support outside of the US Government's [hours of operation](https://about.gitlab.com/support/us-government-support/#hours-of-operation). If during the triage process, a Global Agent comes across a ticket that is from an organization which appears to be a customer entitled to US Government Support, the agent can work this case the same as they would any other ticket.
 
 If a ticket is created through the Global Support Portal and a request is made that only agents with US citizenship handle the case, then the agent should direct the customer to file a new case via the US Government Support portal and make their account team aware.
 
@@ -89,7 +89,7 @@ We also receive non Support requests in our queue - if you see something not lis
 |--|--|
 |Training|Redirect requester to [Education from Professional Services](https://about.gitlab.com/services/education/)|
 |New Set Up/Installation|Follow the [Passing a Lead to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) workflow|
-|Requests for swag|Ask in the #swag internal slack channel or direct to [the FAQ](https://shop.gitlab.com/faq) for existing orders. For general requests for free swag, use the `General::Free Swag Request` Macro.|
+|Requests for swag|Ask in the #swag internal slack channel or direct to [the FAQ](https://shop.gitlab.com/policies) for existing orders. For general requests for free swag, use the `General::Free Swag Request` Macro.|
 |Questions related to status of job application| Use the `General::Job Application Questions` [macro](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Job%20Application%20Questions.yaml) and send a note to the internal `#talent acquisition` Slack channel.|
 |Legal Questions and Concerns|Ask in the #legal internal slack channel|
 |Missing Learning and Development Certificates | Direct requester to review  Missed Certificate and contact `learning@` with a note about which certificate/knowledge assessment is missing. |

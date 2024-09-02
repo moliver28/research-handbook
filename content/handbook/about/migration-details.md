@@ -1,7 +1,6 @@
 ---
 title: "Migration Details"
 description: "Handbook Content is on the move.  This gives the time table and the individual files which are being migrated."
-aliases: /handbook/content-websites/handbook-migration/migration-details/
 ---
 
 ## Migration Timetable and Status
@@ -1317,7 +1316,7 @@ product/product-leadership/index.html.md.erb
 product/product-manager-responsibilities/index.html.md.erb
 product/tiering-guidance-for-features/index.html.md.erb
 product/performance-indicators/index.html.md.erb
-product/how-to-engage/index.html.md
+product/product-management/index.html.md
 product/packaging-and-pricing/gitlab-for-campuses/index.html.md
 product/product-safe-guidance/index.html.md.erb
 product/works-by-default/index.html.md.erb

@@ -62,7 +62,7 @@ Our SVG repository manages all GitLab SVG assets by creating an SVG sprite out o
 
 ### Jobs to be Done (JTBD)
 
-We use the JTBD framework for viewing products and solutions in terms of the jobs customers are trying to achieve. It's about understanding the goals that people want to accomplish. JTBD is used throughout the design process to determine scope, validate direction, evaluate existing experiences with [UX Scorecards](/handbook/product/ux/ux-scorecards/), and assess our [Category Maturity](https://about.gitlab.com/direction/maturity/) with [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
+We use the JTBD framework for viewing products and solutions in terms of the jobs customers are trying to achieve. It's about understanding the goals that people want to accomplish. JTBD is used throughout the design process to determine scope, validate direction, evaluate existing experiences with [UX Scorecards](/handbook/product/ux/ux-scorecards/), and assess our [Category Maturity](https://about.gitlab.com/direction/#maturity) with [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
 
 - [JTBD Overview](/handbook/product/ux/jobs-to-be-done/)
 - [JTBD Deep Dive](/handbook/product/ux/jobs-to-be-done/deep-dive/)
@@ -96,9 +96,9 @@ Everyone in the UX department and all Product Managers can get a Figma account w
 The UX team is encouraged to make improvements directly in the product when they find something that is small and easy to change.
 
 - [Technical Tutorials for Product Designers](https://www.youtube.com/playlist?list=PL05JrBw4t0Kra6RseLWXFIXtu9UPzjzbT) - video playlist for best practices on technical topics
-- [How to do UI Code Contributions](./designers-guide-to-contributing-ui-changes-in-gitlab/)
-- [Step by Step Guide to Make Code Changes](./designers-step-by-step-guide-to-make-code-changes/)
-- [Using data for design decisions](./designers-guide-to-data/)
+- [How to do UI Code Contributions](designers-guide-to-contributing-ui-changes-in-gitlab/)
+- [Step by Step Guide to Make Code Changes](designers-step-by-step-guide-to-make-code-changes/)
+- [Using data for design decisions](designers-guide-to-data/)
 - [Implementing frontend click tracking for designers](https://www.youtube.com/watch?v=95wNcGMrpMg&ab_channel=GitLabUnfiltered)
 
 ### Prototypes

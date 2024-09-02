@@ -91,12 +91,12 @@ In order to better inform a decision, the manager should privately reach out to 
 
 After merging, the manager should:
 
-1. Announce this change in the applicable channels listed under [keeping yourself informed section of the engineering handbook](/handbook/engineering/#keeping-yourself-informed) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
+1. Announce this change in the applicable channels listed under [Slack section of the engineering communications handbook](/handbook/engineering/engineering-comms/#slack) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
 1. Post an update in the **Engineering Week-in-Review document**. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
 
-#### Project maintainer process for [`gitlab-database`](https://gitlab.com/gitlab-org/gitlab)
+#### Project maintainer process for `gitlab-database`
 
 - Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
 - Familiarize with [migration helpers](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/database/migration_helpers.rb) and review usage in existing migrations.
@@ -111,7 +111,9 @@ Tips:
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
   reach out to the database group manager to get one.
 
-#### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
+#### Project maintainer process for `gitlab-components`
+
+[`gitlab-components`](https://gitlab.com/components)
 
 - Review our [documentation and best practices for creating CI/CD components](https://docs.gitlab.com/ee/ci/components/).
 - Familiarize with our [documentation on GitLab-maintained components](https://docs.gitlab.com/ee/development/cicd/components/).
@@ -125,7 +127,9 @@ Upon approval, the maintainer who merges the MR will:
 - Add the newly approved maintainer to the CI components maintainer group (`@gitlab-org/maintainers/ci-components`).
 - Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the *Engineering Week-in-Review document*
 
-#### Project maintainer process for [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
+#### Project maintainer process for `design.gitlab.com` or `gitlab-svgs`
+
+[`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
 
 - Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
 - All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
@@ -133,7 +137,9 @@ Upon approval, the maintainer who merges the MR will:
 - Your reviews should aim to cover maintainer responsibilities as well as reviewer responsibilities. Design Maintainers should be focused on MRs that have an impact on usability, iterate on existing user experience, and/or include usage of design guidelines, standards, and patterns. Your approval means you think it is ready to merge.
 - As maintainer, you must keep [relying on others](/handbook/values/#its-impossible-to-know-everything) for the expertise they have that you don't. In the MR description, highlight the efforts that showcase your results at a maintainer-level, what skills you want to continue working on, and add a link to this issue. ([Example](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/2395)).
 
-#### Project maintainer process for [`gitlab-quality`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
+#### Project maintainer process for `gitlab-quality`
+
+[`gitlab-quality`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 
 - Choose which Quality project(s) you would like to become a maintainer for:
   - [`GitLab (/qa)`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
@@ -145,13 +151,17 @@ Upon approval, the maintainer who merges the MR will:
   - [`GitLab Performance Tool (GPT)`](https://gitlab.com/gitlab-org/quality/performance)
 - The requirements for each project is different, please make sure to read the [maintainer section in the Quality handbook](/handbook/engineering/infrastructure/engineering-productivity/project-management/#reviewers-and-maintainers).
 
-#### Project maintainer process for [`gitlab-secure-analyzers`](https://gitlab.com/gitlab-org/security-products/analyzers)
+#### Project maintainer process for `gitlab-secure-analyzers`
+
+[`gitlab-secure-analyzers`](https://gitlab.com/gitlab-org/security-products/analyzers)
 
 - Understand our [Secure Team standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines).
 - Understand our [Secure Release Process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#versioning-and-release-process).
 - Understand our [Secure QA Process](/handbook/engineering/development/sec/secure/qa_process.html).
 
-#### Project maintainer process for [`gitlab-elasticsearch-indexer`](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
+#### Project maintainer process for `gitlab-elasticsearch-indexer`
+
+[`gitlab-elasticsearch-indexer`](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
 
 - Complete [`golang` training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md).
 - Review the [GitLab Elasticsearch Indexer development and release](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/blob/main/PROCESS.md) process.
@@ -159,7 +169,9 @@ Upon approval, the maintainer who merges the MR will:
 - Work on issues to gain familiarity with the project.
 - *Optional:* Reach out to an [existing maintainer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude) to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
 
-#### Project maintainer process for [`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
+#### Project maintainer process for `customers-gitlab-com`
+
+[`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
 
 - Understand our [standards and style guidelines](https://docs.gitlab.com/ee/development/development_processes.html).
 - Understand the [software architecture](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/doc/architecture) used in Fulfillment systems.
@@ -167,7 +179,9 @@ Upon approval, the maintainer who merges the MR will:
 - Contribute to issues and gain familiarity with the project.
 - Contribute to reviews demonstrating domain expertise and consistency with reviewer responsibilities.
 
-#### Project maintainer process for [`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
+#### Project maintainer process for `gitlab-secure-license-db`
+
+[`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
 
 - Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
 - Complete [Golang training issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md) if you don't have prior experience with Go.
@@ -177,7 +191,9 @@ Upon approval, the maintainer who merges the MR will:
 - Understand how [the scheduled pipelines](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) are used for the deployment project.
 - Author or review 3 merge requests in total to a specific project in the `license-db` namespace. Maintainership is granted per project.
 
-#### Project maintainer process for [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
+#### Project maintainer process for `gitlab-chart`
+
+[`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
 - Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
@@ -185,7 +201,9 @@ Upon approval, the maintainer who merges the MR will:
 - Contribute to issues and review merge requests.
 - Understand how the [GitLab Helm chart is tested using rspec](https://docs.gitlab.com/charts/development/rspec.html).
 
-#### Project maintainer process for [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
+#### Project maintainer process for `gitlab-operator`
+
+[`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
 - Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).

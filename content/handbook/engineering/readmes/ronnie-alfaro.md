@@ -16,12 +16,8 @@ Please feel free to contribute to this page by opening a merge request.
 ## Related pages
 
 * [My LinkedIn profile](https://www.linkedin.com/in/ronnie-a-4a4a6b31/)
-
 * [GitLab Team page](/handbook/company/team/#ronniealfaro)
-
 * [GitLab Profile](https://gitlab.com/ronniealfaro)
-
-* [Personal Website](https://www.ronniealfaro.com/)
 
 ## About me
 

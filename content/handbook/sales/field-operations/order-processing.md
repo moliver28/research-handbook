@@ -587,8 +587,8 @@ Prior to generating a standard (non-draft) quote to deliver to a client or prosp
    - **CRO Deal Approvals:**
      - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1thffIdwcjutUIhLW4tYlc_28O8ylPLB1WiFH98f20ac/edit) and provide a link to your copy within the request.
      - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
-     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Chris.
-     - *In all scenarios, please ensure Chris Weber has permission to access the form prior to submitting the quote for approval.*
+     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Jake Bielecki.
+     - *In all scenarios, please ensure Jake Bielecki has permission to access the form prior to submitting the quote for approval.*
 
 1. You will be able to see who the required approvers are on the quote prior to submitting the quote and why they are required.
 1. Click the `Submit for Approval` button on the quote screen.
@@ -1305,6 +1305,83 @@ Review the [Professional Services handbook page](/handbook/customer-success/prof
 
 </details>
 
+### Opportunity Approval Process
+
+When your deal has met [all opportunity booking requirements](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements), please submit the opportunity for approval.
+
+1. **To submit the opportunity for approval and closure, first ensure Stage = 6-Awaiting Signature, and then click on the "Submit for Approval" button on the opportunity.**
+1. After clicking "Submit for Approval," a pop-up page will display with a series of required fields. First, enter Closed Won Reason and Closed Won Details, then click Next. Second, select Competitors. Third, select Executed Agreement Type.
+
+- "Executed Agreement Type" refers to the documentation that you are submitting in support of the deal. The options are as follows:
+  - Signed Order Form
+  - Purchase Order
+  - Signed Order Form + Purchase Order
+  - Client/Prospect Form
+  - AWS Private Offer
+  - GCP Private Offer
+  - IBM OEM
+  - SOW
+  - Other
+
+- Note: Client/Prospect Form means that the signed document (whether Order Form or MSA) is on the customer's paper rather than a standard GitLab Order Form or Subscription Agreement template.
+
+- Note: If Client/Prospect Form or Other are selected, you will subsequently be required to paste a link to the document on the next page ("Executed Agreement Link")
+
+1. After the above steps have been completed, no further action is required from the Account Team. You will be notified by the Order Management team if further information is needed or if the opportunity is missing required information.
+
+**NOTE** - Orders will be processed as long as the Quote Start Date is within 15 calendar days from date of submission. If the Quote Start Date is more than 15 days in the future, Order Management will approve and update the close date to the earliest date that the opportunity can be booked. Only on or after that date will the Billing team review the opportunity for final booking. For more information, review the [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy).
+
+#### What happens when you Submit an Opportunity for approval?
+
+##### Scenario A: Standard Documentation
+
+If Executed Agreement Type = Signed Order Form, Purchase Order, Signed Order Form + Purchase Order, AWS Private Offer, GCP Private Offer, IBM OEM, or SOW, the below process applies:
+
+```mermaid
+
+graph LR;
+    A[Executed Agreement<br>attached to Opportunity] --> |Submit for Approval|B[Order Mgmt Reviews<br>Opportunity<br>Requirements];
+    B --> |Order Mgmt<br>Approved|C[Finance Review];
+    B --> |Order Mgmt<br>Rejected|D(Sales Resolves<br>Missing Opp<br>Requirements);
+    D --> |Submit Opp<br>For Approval|B
+    C --> F[Opportunity<br>Closed Won!<br>Congrats! ];
+    F --> G[License Fulfillment<br>Order Mgmt Ensures License Delivery<br> ];
+
+```
+
+##### Scenario B: Non-Standard Documentation
+
+If Executed Agreement Type = Client/Prospect Form or Other, additional review is required by the following users before the Deal Desk and Billing teams can book the opportunity:
+
+1. Senior Director, Deal Desk
+2. Revenue (Manager level or above)
+3. Senior Director, Legal (Commercial)
+
+Per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.n3wzwlv9dv7v), these reviewers will review the non-standard documentation to ensure that it is acceptable to book the deal per GitLab's internal Legal and Revenue Recognition requirements. Their approval does not constitute final approval to book the opportunity. An opportunity can only be booked after both Deal Desk and Billing have approved.
+
+```mermaid
+
+graph LR;
+    A[Executed Agreement<br>attached to Opportunity] --> |Submit for Approval|B[Sr. Dir., Deal Desk<br> Reviews Non-Standard<br> Executed Agreement];
+    B --> |Sr. Dir. Deal Desk<br>Approved|C[Revenue Team<br> Reviews Non-Standard<br>Executed Agreement]; 
+    C --> |Revenue Team<br>Approved|D[Sr. Dir., Legal<br> Reviews Non-Standard<br>Executed Agreement];
+    D --> |Sr. Dir., Legal<br>Approved|E[Order Management Reviews<br>Opportunity for Approval];
+    E --> |Order Mgmt<br>Approved|F[Finance Review];
+    E --> |Order Mgmt<br>Rejected|G(Sales Resolves<br>Missing Opp<br>Requirements);
+    G --> |Submit Opp<br>For Approval|E
+    F --> I[Opportunity<br>Closed Won!<br>Congrats! ];
+    I --> J[License Fulfillment<br>Order Mgmt Ensures License Delivery<br> ];
+
+```
+
+To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
+
+#### Common errors when submitting an opportunity for approval
+
+- Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
+- Once submitted, the opportunity's stage will update to "7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
+- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking "Recall Approval Request." Once you've made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
+
 #### Bookings Policy
 
 This policy dictates the timing of opportunity closure for all sales-assisted deals. The purpose of this policy is to ensure forecast predictability and proper revenue recognition.
@@ -1352,7 +1429,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - Relevant details about the account/opp seeking early booking
   - Why an exception is needed (justification)
   - Impact to the business (Net ARR or Renewal ARR loss)
-  - **Approval from both** CRO and CFO (or Principal Accounting Officer)
+  - **Approval from both** CRO and CFO (or Chief Accounting Officer, if CFO is not available)
   - Anticipated (revised) Renewal Close Date
   - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
 
@@ -1458,51 +1535,11 @@ If "PO Required" = "YES" and the customer's PO will be provided to GitLab at a f
 
 Note: If an exception is granted and the PO is not received within 10 days, on the 11th day the opportunity will be decommissioned, reversing all credit given for the booking.
 
-### Opportunity Approval Process
-
-When you have reviewed [all opportunity requirements](/handbook/sales/field-operations/order-processing/) and have met all necessary booking requirements, please submit the opportunity for approval.
-
-1. **To submit the opportunity for approval and closure, the Sales Rep should set the opportunity stage to 6-Awaiting Signature and afterwards click on the "Submit for Approval" button on the opportunity level.**
-    - The opportunity page will then display "edit" mode. Click Save.
-1. At this time, no further action is required from the Account Team. You will be notified by the Order Management team if further information is needed or if the opp is missing required information.
-
-**NOTE** - Orders will be processed as long as the Quote Start Date is within 15 calendar days from date of submission. If the Quote Start Date is more than 15 days out, Order Management will approve and update the close date to the earliest date that the opportunity can be booked. Only on or after that date will the Billing team review the opportunity for final booking. For more information, review the [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy).
-
-#### What happens when you Submit an Opportunity for approval?
-
-```mermaid
-
-graph LR;
-    A[Signed Order Form<br>attached to Opp] --> |Submit for Approval|B[Order Mgmt Reviews<br>Opportunity<br>Requirements];
-    B --> |Order Mgmt<br>Approved|C[Finance Review];
-    B --> |Order Mgmt<br>Rejected|D(Sales Resolves<br>Missing Opp<br>Requirements);
-    D --> |Submit Opp<br>For Approval|B
-    C --> F[Opportunity<br>Closed-Won!<br>Congrats! ];
-    F --> G[License Fulfillment<br>Order Mgmt Ensures License Delivery<br> ];
-
-```
-
-To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
-
-#### Common errors when submitting an opportunity for approval
-
-- Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
-- Once submitted, the opportunity's stage will update to "7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
-- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking "Recall Approval Request." Once you've made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
-
-#### Deal Desk + Finance Approval Workflow
-
-- **Deal Desk Review** is initiated. It is unnecessary to chatter Sales Ops after you submit an opportunity. A Deal Desk Analyst will assign themselves to review the deal via the "Deal Desk Analyst" opportunity field.
-- **Deal Desk Approval:** If Deal Desk approves the opportunity based on the criteria above, the "Approval Status" field will update to "Deal Desk Approved." The opportunity will remain in stage "7- Closing," but will route to the Billing team for Finance approval.
-- **Deal Desk Rejection:** If Deal Desk rejects the opportunity based on the criteria above, the "Approval Status" field will update to "Rejected" and the opportunity will unlock. The opportunity will revert to stage "6- Awaiting Signature." A rejection email will be sent to the Sales Rep with rejection comments and/or instructions. After taking the appropriate action(s) outlined in the rejection comments, the Sales Rep should re-submit the opportunity for approval.
-- **Finance Approval**: Once Deal Desk has reviewed and approved the transaction, Finance will review. If the opportunity is approved by Finance, the stage will update to "Closed Won" and the deal is officially booked. An approval email will be sent to the opportunity owner and Slack message will appear in the "wins" channel and the "wins-key-deals" channel where applicable.
-- **Finance Rejection:** Once Deal Desk has reviewed and approved the transaction, Finance may reject the opportunity. If Finance rejects the opportunity, the stage will remain in "7- Closing" and both the Sales Rep and Deal Desk Analyst will receive an alert email containing the rejection reason. The Sales Rep should work with the Deal Desk Analyst to rectify the issues that led to Finance rejection. Once the issues are resolved, the Deal Desk Analyst will approve the deal once more to submit it to Finance for final approval.
-
 ### **Post Sale Information**
 
 The opportunity closed! Congrats! Wait... my customer still has questions! Here are some of the most common questions that come up after an opportunity has closed... and how to resolve them.
 
-**[CustomersDot Access and Use handbook page](/handbook/product/fulfillment-guide/#customersdot-admin-panel)**
+**[CustomersDot Access and Use handbook page](/handbook/product/groups/fulfillment-guide/#customersdot-admin-panel)**
 
 #### How do I know if a License Key was sent to the Customer?
 

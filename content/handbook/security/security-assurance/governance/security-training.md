@@ -11,7 +11,7 @@ This page is for all information regarding GitLab security trainings. Security t
 
 ## Security Assurance
 
-The Security Assurance sub department handles security training needs that involve [Field Security]({{< ref "../field-security" >}}), [Security Governance]({{< ref "./_index.md" >}}), [Security Compliance]({{< ref "../security-compliance" >}}) and [Security Risk]({{< ref "../security-risk" >}}).
+The Security Assurance sub department handles security training needs that involve [Field Security]({{< ref "../field-security" >}}), [Security Governance](_index.md), [Security Compliance]({{< ref "../security-compliance" >}}) and [Security Risk]({{< ref "../security-risk" >}}).
 
 For more information on Security Assurance, visit the [Security Assurance]({{< ref "security-assurance" >}}) page.
 
@@ -19,7 +19,7 @@ For more information on Security Assurance, visit the [Security Assurance]({{< r
 
 GitLab team members are probably most familiar with [security awareness training]({{< ref "sec-awareness-training" >}}) which is a handbook first GitLab-customized training + annual policy reviews provided via [ProofPoint](https://gitlab.ws01-securityeducation.com/). GitLab requires all new hires to complete [New Hire security orientation training]({{< ref "sec-awareness-training#when-will-security-awareness-training-occur" >}}) as part of the onboarding process and annual training there after.
 
-GitLab security awareness training has been developed by [GitLab Security](/handbook/security/)'s [Governance Program]({{< ref "./_index.md" >}}). The goal of the training is to:
+GitLab security awareness training has been developed by [GitLab Security](/handbook/security/)'s [Governance Program](_index.md). The goal of the training is to:
 
 1. Make all GitLab team-members aware of the GitLab Security team, and familiarize them with our efforts, team structure, and people.
 1. Make all GitLab team-members aware of the importance of their role in securing GitLab on a daily basis, and to empower them to make the right decisions with security best-practices.

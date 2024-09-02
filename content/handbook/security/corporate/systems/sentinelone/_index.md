@@ -12,7 +12,7 @@ The use of a Windows endpoint requires a specific business reason and an approve
 
 - `#sentinelone` Slack Channel
 - [SentinelOne Setup Guide](/handbook/security/corporate/systems/sentinelone/setup)
-- [SentinelOne Troubleshooting Guide](/handboook/security/corporate/systems/sentinelone/troubleshooting)
+- [SentinelOne Troubleshooting Guide](/handbook/security/corporate/systems/sentinelone/troubleshooting)
 
 ### DRI
 
@@ -62,7 +62,7 @@ The EDR technology is in addition to Jamf MDM. While Jamf does offer security fe
 
 Do not attempt to modify or remove SentinelOne components, unless instructed to do so by Corporate Security for troubleshooting purposes.
 
-If SentinelOne is causing issues with your ability to fulfill the responsibilities of your role, you may request an exception to be granted using the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+If SentinelOne is causing issues with your ability to fulfill the responsibilities of your role, you may request an exception to be granted using the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 Exceptions will be granted based on the goal of least needs, attempting to maximize effectiveness, efficiency, and security risk mitigation of SentinelOne while minimizing the negative impact on the team member. For this reason, rarely will an exception be granted to completely disable SentinelOne. Rather, an exception will be granted for specific directory paths, specific applications, or specific collections of data that SentinelOne may be negatively impacting through quarantine or system performance degradation.
 

@@ -1,7 +1,6 @@
 ---
 title: Anti-Retaliation Policy
 description: "GitLab's Anti-Retaliation Policy to establish guidance for reporting ethics or compliance concerns or other inappropriate behavior while providing protection against retaliation for reporting in good faith."
-controlled_document: true
 ---
 
 GITLAB INC.

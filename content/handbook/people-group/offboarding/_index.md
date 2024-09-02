@@ -39,6 +39,16 @@ For any other offboarding questions from active team members please reach out to
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
 
+#### ***Country Specific Requirements for Resignation***
+
+##### France 
+
+Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+
+##### Singapore
+
+Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
+
 ### Termination
 
 1. **Manager:** Once the resignation has been approved you will receive a prompt in your Workday Inbox to terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
@@ -193,13 +203,8 @@ To ensure a successful completion of the offboarding issue, it is important that
 
 ## GitLab Alumni Program
 
-Voluntary exits that are eligible to be rehired will be added to the Slack channel `#gitlab-alumni`. The offboarding details provided by the Manager in Workday is how eligibility is determined and later shared with IT.
-
-Reasons that someone would not be permitted to join would be:
-
-1. Due to involuntary offboarding for extreme behavior or a violation of our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).
-1. Underperformance or other causes for involuntary offboarding are not a reason to exclude someone from the alumni program.
-1. Team members who are not eligible for rehire.
+All voluntary exits are eligible to be added to the Slack channel `#gitlab-alumni`, unless otherwise noted. Involuntary exits are not eligible for the alumni channel, unless otherwise noted by Team Member Relations.
+The offboarding details provided by the terminatino transaction in Workday is how eligibility is determined and later shared with IT.
 
 The purpose of this channel is to network and socialize with team members.
 
@@ -207,10 +212,6 @@ Joining the channel is voluntary and subject to GitLab's [Code of Conduct](https
 
 GitLab, the company, monitors the channel and can remove people from it at their sole discretion.
 The GitLab [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) is enforced in the channel.
-
-### Process for Team Members Outside of the US
-
-*To be documented*
 
 ## Communicating Departures
 

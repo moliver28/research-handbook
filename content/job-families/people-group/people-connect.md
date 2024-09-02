@@ -122,7 +122,7 @@ The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/
 - Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd).
 - Continuously improve offboarding of team members.
 - Along with the People Business Partners, create efficient people processes and clear hand-offs.
-- Work closely with payroll, SecOps, and ITOps to continue to improve the administration of offboarding the time it takes to complete.
+- Work closely with payroll, SecOps, and IT Ops to continue to improve the administration of offboarding the time it takes to complete.
 - Managing issue triaging and label review/ adding and reviewing contributions to the efficiency of our issue tracker.
 - Drive continued automation and efficiency to enhance the employee experience and maintain our efficiency value.
 - Announcing changes and improvements in the #whats-happening-at-gitlab Slack channel
@@ -176,7 +176,7 @@ The Senior Manager, People Connect is a [Grade 9](/handbook/total-rewards/compen
 - Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd)
 - Continuous improvement of offboarding for both voluntary and involuntary terms
 - Along with the People Business Partners, create a Terminations playbook to ensure the team can remain async and scale
-- Work closely with payroll, SecOps, and ITOps to continue to improve the administration of offboarding the time it takes to complete
+- Work closely with payroll, SecOps, and IT Ops to continue to improve the administration of offboarding the time it takes to complete
 - Mananging issue traiging and label review/ adding and reviewing contributions to the efficiency of our issue tracker. Provide strategic guidance and coaching on more difficult discussions and collaboration within issues.
 
 ### Requirements

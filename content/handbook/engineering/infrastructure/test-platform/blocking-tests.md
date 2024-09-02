@@ -32,6 +32,8 @@ is run once a week by a schedule named "Weekly reliable, unreliable E2E spec rep
 - A test should ideally not be promoted manually without it being identified in the reliable test report. However, if a
   test has been identified in the reliable test report did not make it to the top 10 number of runs, it can be promoted
   by manually creating an MR.
+- Orchestrated tests are also selected for promotion to blocking even though they do not currently run in the blocking GDK jobs (`gdk-qa-blocking`).
+  This will ensure we have a set of stable orchestrated tests when we make the [orchestrated tests block MRs](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2516)
 
 The flow of promotion to blocking as a decision tree:
 

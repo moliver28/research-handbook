@@ -43,9 +43,7 @@ There are four options:
 1. [set up a cluster on Azure Container Service (ACS)](../acs-setup/)
 1. [Offline local demo environment with Minikube](https://gitlab.com/charts/charts.gitlab.io/blob/add-minikube-support/minikube.md)
 
-If you need to use a license, GitLab team-members have access to [license.gitlab.com](https://license.gitlab.com). You can generate a license
-there to use in your demo, using the [manual creation option](https://license.gitlab.com/licenses/new). Please keep the users count low and the expiration date sometime in the near feature, so that if the license
-is ever leaked, there would be little benefit to anybody using it who shouldn't be.
+If you need to use a license, GitLab team-members can [request a license](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses).
 
 <!--### Enable Auto DevOps
 

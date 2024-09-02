@@ -7,6 +7,15 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 ## Specific to Netherlands based team members
 
+### Answering Queries
+
+| Team | How | For|
+|-----|-----|-----|
+| People Connect | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=e2367f49474c069067429ee0026d43fa) | All general people related inquiries including time off policies |
+| Non-US Payroll | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352) | All general payroll-related inquiries  |
+| Absence Management | leaves@gitlab.com | Leave of absence or sick leave questions and requests |
+| HR Savvy | payroll@savvy-group.eu | Bike to work/tax saver commuter scheme, Regeling internet thuis, 30% tax ruling inquiries, and visa/sponsorship |
+
 ## Vacation Money
 
 Dutch team members get the customary month of vacation money (Vakantiegeld) in the month of May, as defined [by the government](https://www.rijksoverheid.nl/onderwerpen/vakantiedagen-en-vakantiegeld/vraag-en-antwoord/hoe-hoog-is-mijn-vakantiegeld).
@@ -43,7 +52,7 @@ GitLab Team Members are not obligated to join CZ collective health policy. If th
 
 ### Occupational Safety and Health
 
-Due to the [Working Conditions Act](https://www.arboineuropa.nl/en/legislation/wetgeving-in-het-engels/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
+Due to the [Working Conditions Act](https://www.arboned.nl/en/compliance-law/dutch-working-conditions-act/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
 
 **Leuk Personeel, Dorresteinweg 72-08, 3763 LL, Soest, the Netherlands
 
@@ -60,7 +69,7 @@ Once Total Rewards approves, the team member should submit their reimbursement t
 
 ## Pension
 
-State pension (AOW) is standard and will be paid out at retirement age. Starting January 1, 2021, GitLab will offer a private pension plan through [ASR](https://asr.nl/doenpensioen)(formerly Brand New Day) for all team members over the age of 21 employed via a GitLab BV Netherlands employment contract. The pension plan will be a Defined Contribution Agreement with a flat rate of 5.00% of the pension base. The GitLab team member will contribute 2%, with the employer (GitLab) contributing 3%. The pension base equals the pensionable salary less the state pension offset. For additional training, ASR has provided [video](https://drive.google.com/drive/folders/1qjCicb0JxnCmG5i4l3Hv5CEs5q8mOuXX?usp=sharing) explanations on how the pension plan works. The pension plan is managed by HR savvy and team members are automatically enrolled upon hire.
+State pension (AOW) is standard and will be paid out at retirement age. Starting January 1, 2021, GitLab will offer a private pension plan through [ASR](https://asr.nl/doenpensioen)(formerly Brand New Day) for all team members over the age of 21 employed via a GitLab BV Netherlands employment contract. The pension plan will be a Defined Contribution Agreement with a flat rate of 5.00% of the pension base. The GitLab team member will contribute 2%, with the employer (GitLab) contributing 3%. The pension base equals the pensionable salary less the state pension offset. For additional training, ASR has provided [video](https://drive.google.com/drive/folders/1qjCicb0JxnCmG5i4l3Hv5CEs5q8mOuXX?usp=sharing) explanations on how the pension plan works. The pension plan is managed by our Netherlands benefits partner and team members are automatically enrolled upon hire.
 
 **Pension Plan Summary:**
 
@@ -108,13 +117,13 @@ The beneficiary is also entitled to an additional lifelong partner's pension tha
 
 ## 30% Tax Ruling
 
-Eligible team members may apply for the 30% Tax Ruling. More information can be found on our [Visas](/handbook/people-group/visas/#30-ruling-in-the-netherlands) page. Kindly note, this can also be [expensed](/handbook/people-group/visas/#expensing).
+Eligible team members may apply for the 30% Tax Ruling. More information can be found on our [Visas](/handbook/people-group/visas/#30-ruling-in-the-netherlands) page. Kindly note, this can also be [expensed](/handbook/people-group/visas/#expensing). Please submit any queries on the 30% tax ruling to HR Savvy (`payroll@savvy-group.eu`) and copy nonuspayroll@gitlab.com.
 
 ## Bike to Work/Tax Saver Commuter Scheme
 
 GitLab uses HR Savvy to assist with the administration of [the bike to work/tax saver commuter scheme](https://business.gov.nl/running-your-business/environmental-impact/making-your-business-sustainable/buy-or-lease-a-company-bicycle/).
 
-Effective 15-02-2024, The Cycle to work plan's maximum purchase limit will increase to 2000 EUR for a bike. The team members can avail this benefit every 2 years. This duration will be calculated based on the start date of the previously availed bike scheme benefit.
+Effective 2024-02-15, The Cycle to work plan's maximum purchase limit will increase to 2000 EUR for a bike. The team members can avail this benefit every 2 years. This duration will be calculated based on the start date of the previously availed bike scheme benefit.
 
 *Bike Applications:*
 
@@ -125,9 +134,13 @@ Effective 15-02-2024, The Cycle to work plan's maximum purchase limit will incre
 
 If a team member would want to purchase a bike more expensive than the 2000 EUR maximum the process is as follows:
 
-- HRSavvy will invoice the seller for the entirety of the bike.
+- HR Savvy will invoice the seller for the entirety of the bike.
 - The difference between the cost of the bike and 2000 EUR will be deducted from the team member's net salary.
 - This means the team member will only have a tax benefit over the first 2000 euro.
+
+## Regeling Internet
+
+See the relevant information in our [Global Travel and Expense Policy - Internet section](/handbook/finance/expenses/#internet).
 
 ## GitLab B.V. Netherlands Leave Policy
 
@@ -138,7 +151,7 @@ If a team member would want to purchase a bike more expensive than the 2000 EUR 
 - Statutory Vacation Leave
   - Team members are entitled to at least 20 vacation days per year which run concurrently with GitLab PTO. The days will accrue at 1.67 days/month from the team member's start date. Any unused days will be carried into the next calendar year, but expire on July 1st. Should the team member leave GitLab within the calendar year, an entitlement to a pro rata part vacation days exists. Team members must designate all vacation days taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
 
-The Absence Management Team will consult with HRSavvy to ensure that the statute is met.
+We ask that team members submit any queries related to leave of absence or sick leave to the Absence Management team at leaves@gitlab.com. The Absence Management Team will consult with HR Savvy to ensure that the statute is met.
 
 ## Work and Care Act *(Wet arbeid en zorg)*
 
@@ -149,8 +162,9 @@ Team members are eligible for leaves as included in the Work and Care Act. Pleas
 - The team member is entitled to a maximum six weeks' leave prior to the estimated date of childbirth and for ten weeks after that date; therefore totaling sixteen weeks.
 - The team member can reduce the leave period prior to the estimated date of childbirth to at least four weeks. In that case, the number of days not taken prior to the estimated date of childbirth is added to the leave period following the estimated date of childbirth.
 - In the event of incapacity for work from six weeks prior to the estimated date of childbirth, the sixteen-week period for pregnancy and childbirth leave commences at that time, regardless of which agreements have been made.
-- Besides this, you're also entitled to continuous wage during your leave which will still be paid out by GitLab. However, the [UWV](https://www.uwv.nl/overuwv/english/about-us-executive-board-organization/detail/about-us) offers GitLab a WAZO (Work and Care Act) settlement which is designed to cover your salary while on leave. The UWV ensures expert and efficient implementation of team member insurance and the WAZO settlement is one of these insurances. This maternity benefit (WAZO) lasts at least 16 weeks and covers 100% of the [daily wage](https://www.uwv.nl/werkgevers/werknemer-krijgt-kind/zwanger/werknemer-is-zwanger-wazo/detail/verlofperiode-zwangerschap) (GitLab will top this up to 100% of your normal base salary). In order for GitLab to receive this settlement HRSavvy will inform the UWV about your pregnancy via an application form. To apply, please inform the Absence Management Team (leaves@gitlab.com) when you'd wish for your maternity leave to start. The exact start date is up to you to decide. Please note that your leave can start 6 weeks prior to, but no later than, 4 weeks before your due date. HRSavvy will then work with you directly to apply and keep leaves@domain.com in cc.
+- Besides this, you're also entitled to continuous wage during your leave which will still be paid out by GitLab. However, the [UWV](https://www.uwv.nl/overuwv/english/about-us-executive-board-organization/detail/about-us) offers GitLab a WAZO (Work and Care Act) settlement which is designed to cover your salary while on leave. The UWV ensures expert and efficient implementation of team member insurance and the WAZO settlement is one of these insurances. This maternity benefit (WAZO) lasts at least 16 weeks and covers 100% of the [daily wage](https://www.uwv.nl/werkgevers/werknemer-krijgt-kind/zwanger/werknemer-is-zwanger-wazo/detail/verlofperiode-zwangerschap) (GitLab will top this up to 100% of your normal base salary). In order for GitLab to receive this settlement HR Savvy will inform the UWV about your pregnancy via an application form. To apply, please inform the Absence Management Team (leaves@gitlab.com) when you'd wish for your maternity leave to start. The exact start date is up to you to decide. Please note that your leave can start 6 weeks prior to, but no later than, 4 weeks before your due date. HR Savvy will then work with GitLab directly to apply and keep leaves@domain.com in cc.
 - If the team member is eligible for GitLab parental leave, the statutory leave will run concurrently with GitLab parental leave.
+- Please do not communicate with HR Savvy directly, we ask that team members submit any queries related to leave to our Absence Management team by emailing leaves@gitlab.com.
 
 ### Statutory Paternity/Partner Leave Policy
 
@@ -205,18 +219,17 @@ Parents will be eligible for up to [9 weeks of partial payment through the UWV](
 
 ### Applying for Leave in the Netherlands
 
-HRSavvy can assist in applying for maternity leave covered by social security. In this application the company can decide whether the benefit is paid to the team member directly, or the employer continues paying the salary and receives the benefit. The last option is done in most of the cases.
+HR Savvy will assist GitLab in applying for maternity leave covered by social security. In this application GitLab can decide whether the benefit is paid to the team member directly, or the employer continues paying the salary and receives the benefit. The last option is done in most of the cases. Please do not communicate with HR Savvy directly, we ask that team members submit any queries related to leave to our Absence Management team by email at leaves@gitlab.com.
 
 ### Administration for Group Accident Policy
 
 The Group Accident Policy is based on calculation in arrears. At the end of the insurance year, Hienfeld will send by post (in dutch) a letter with information requesting details to perform the premium payment in arrears. Once this letter is received, Total Rewards will send the letter to our HR Savvy contact, agnes@savvy-group.eu. HR Savvy will use the payroll data to share the updated Employee details with Heinfeld to calculate the final premium of previous years and a supplmentary premium is invoiced.
 
-On the invoice, a bank account number will be provided to pay the annual premium.
-Total Rewards will send the invoice to Accounts Payable for payment.
+On the invoice, a bank account number will be provided to pay the annual premium. Total Rewards will send the invoice to Accounts Payable for payment.
 
 ### Administration for Medical Allowance
 
-All Full-Time team members and New Hires will automatically recieve a medical allowance that will be taxed.
+All Full-Time team members and New Hires will automatically receive a medical allowance that will be taxed.
 Payroll will add the allowance to New Hires' pay.
 Payroll will continue to pay out the allowance during sick pay or unpaid parental leave
 Payroll will cease payment of the allowance when team members are on other unpaid leave

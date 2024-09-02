@@ -8,9 +8,10 @@ title: "E-mail response workflow"
 
 Respond to e-mails sent to our `community@`, `education@`, `merch@`, `opensource@`, `startups@` addresses. Deprecated e-mail aliases: `movingtogitlab@`, `swag@shop.gitlab.com`. You might still receive occasional e-mails from those addresses. If you do, please reply from the appropriate active e-mail address from within Zendesk.
 
+{{% alert color="warning" %}}
 <i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59)
 ;"></i> Please ensure that all e-mail traffic happens within Zendesk. This enables team members to collaborate on tickets, to bring visibility on conversations, and to make our response time metrics more accurate.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ## Best practices
 

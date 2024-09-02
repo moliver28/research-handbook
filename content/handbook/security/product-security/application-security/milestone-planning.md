@@ -131,3 +131,13 @@ Sometimes high-priority and/or urgent work comes up after a milestone starts. Wh
 ### Missed milestones
 
 Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, attach the `missed::X.Y` label.
+
+### Backlog
+
+Isses that:
+
+- Have unfinished work
+- Are ideas from team members but not yet prioritized
+- Are not planned in any milestone
+
+Should have the milestone set to `AppSec Backlog`.

@@ -72,7 +72,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **My Messaging:**
 
   - Create secure code faster with continuous improvment through accelerated feedback loops
-  - Do less with more with built-in support automation and integrations with 3rd-party sevices
+  - Do more with less with built-in support automation and integrations with 3rd-party sevices
   - Enforce compliance, have visibility, and better prepare for audits
   - Have visibility across your entire SDLC and Supply Chain
 

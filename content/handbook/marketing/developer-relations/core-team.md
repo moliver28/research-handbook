@@ -26,7 +26,7 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 
 ## Offboarding and stepping down gracefully
 
-If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
+If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
 
 1. Move the individual from the `team.yml` file to the `alumni.yml` file.
 2. Create an issue in [team-member-epics/employment](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) using the [`offboarding` template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding_core_team_member.md) and fill out the "Core Team Members" section to remove the individual from GitLab Slack, [the Core Team Group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/community-members/-/group_members), gitlab-org etc.
@@ -101,11 +101,13 @@ details summary * {
 - g_engineering_productivity
 - g_observability
 - g_pipeline-security
+- g_product-planning
 - g_project-management
 - g_runner
 - gck
 - gdk
-- gitpod-gdk
+- gdk-gitpod
+- gdk-workspaces
 - golang
 - is-this-known
 - jetbrains-ide
@@ -119,12 +121,11 @@ details summary * {
 - opensource
 - pajamas-design-system
 - production
-- qa-master
-- qa-nightly
-- qa-preprod
-- qa-production
-- qa-staging
-- quality
+- e2e-run-master
+- e2e-run-preprod
+- e2e-run-production
+- e2e-run-staging
+- test-platform
 - review-apps-broken
 - terraform-provider
 - triage
@@ -183,7 +184,7 @@ At this time, Core Team members are not added to the [`gitlab-com` group](https:
 
 ### Team page listing
 
-To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
+To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
 
 This will list their profile on [the Core Team page](https://about.gitlab.com/community/core-team/) as well.
 

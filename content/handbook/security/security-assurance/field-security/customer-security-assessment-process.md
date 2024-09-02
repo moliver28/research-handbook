@@ -89,5 +89,5 @@ In the spirit of iteration, GitLab is continuously evolving our list of complian
 If the Account Owner or Customer Success point of contact feel they have sufficient knowledge and resources to complete a Customer Assessment, this procedure does not have to used. These exceptions will not be tracked.
 
 <div class="d-grid gap-2 my-4">
-<a href="https://about.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="https://handbook.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
 </div>

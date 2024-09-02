@@ -55,7 +55,7 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
 
 ## 6 Month Planning Cycle with quarterly reviews: Channel Marketing Managers
 
-The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quartely reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
+The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quarterly reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
 
 - Feb - July - Plans due second week of December
 - August - January - Plans due second week of June
@@ -178,7 +178,7 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
           - `MDF-POP` and use the scoped labels below to work through the approval process:
           - `MDF::POP Pending`: issues created but POP has not yet been received
           - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisition can be created
           - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
   - Once all sub-issues are completed, close out the epic.
 
@@ -223,7 +223,7 @@ In the Marketing Center, Partners will have access to real time reporting.
 
 ### Key Features
 
-Social Syndication - SMARTlink technlogy directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
+Social Syndication - SMARTlink technology directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
 Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
 
 #### How to Participate
@@ -302,7 +302,7 @@ and
 
 ## Channel Marketing Campaigns
 
-This handbook page is to walk through the technical and operational setup of different partner campaign types from Marketo → SFDC → Vartopia, including Marketo and SFDC campaign set up for MDF, Joint GitLab and Partner, Trials and Partner Managed Campaigns.
+This handbook page is to walk through the technical and operational setup of different partner campaign types from Marketo → SFDC → Vartopia, including Marketo and SFDC campaign set up for MDF, Joint GitLab and Partner, and Partner Managed Campaigns.
 
 The general steps required for creating a partner campaign include:
 
@@ -384,6 +384,62 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 The list import issue will be automatically be created via [Allocadia - GitLab issue integration](/handbook/marketing/strategy-performance/allocadia/#how-to-create-a-channel-marketing-epicissues-from-allocadia).
 
 Skip to step 2 of the list import [instructions](/handbook/marketing/channel-marketing/#list-import-for-partner-leads) for partner leads.
+
+#### FY25 GitLab Sales Dev Working Partner Leads
+
+As part of a [pilot program in FY25](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
+
+We are treating these leads as non-partner leads with Source = `Partner Qualified Lead`. They will be scored, assigned to BDRs, and have LIM. The source will remain as Partner Qualified Lead as we will use this to track partner ownership, while allowing our GitLab Sales Dev team to work these leads and not lose insight into where the lead came from.
+
+The Marketing team will use FM Marketo template to set up the campaigns, and these **MDF campaigns** will follow the **High Priority routing rules** - if the lead is part of an actively working account with BDR assigned, they are assigned to BDR, and if the lead is an MQL, then it will follow the regular lead routing rules. However, if the lead is neither Actively Working nor MQL, they will be shared with the Partner.
+
+Note, that when a lead is already shared with a Partner, it will not go to the Sales Dev team.
+
+##### Indicators
+
+- Campaign - `High Priority = True AND Campaign Type = Partner - MDF`
+- Lead/Contact - `Source = Partner Qualified Lead AND/OR Partner Lead Worked by Sales Dev = True`
+- Opportunity - `Source = Partner Qualified Lead AND/OR Partner Lead Worked by Sales Dev = True`
+
+##### Process
+
+This process requires the following platforms: Allocadia, Marketo, Salesforce, Traction and Vartopia.
+
+[Flow Chart >](https://www.figma.com/file/6LFKq2rQaw16YFhq1zej5d/Sales-Dev---Partner-Sales-Collaboration?type=whiteboard&node-id=0-1&t=GQvBSLo14kJcVzGu-0)
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dzu4zZQVPbHpeR8S0-1" allowfullscreen></iframe>
+
+1. Allocadia - Create the subcategory and line item in Allocadia.
+
+   1. In the details panel, update `Worked by Sales Dev` to `True` on the subcategory (required)
+   2. Open GitLab epic and issues using the GitLab issue - Allocadia integration. The Gitlab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
+
+2. Follow the [instructions](/handbook/marketing/channel-marketing/#types-of-partner-campaigns) to set up Marketo Program and SFDC Campaign.
+
+   1. Setup in Marketo
+      1. Clone the appropriate [FM program template](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns)
+      2. Go to the Program > My Token - Fill out the Tokens
+
+   2. Add Allocadia Subcategory ID to Marketo Program/SFDC campaign description, then sync to Salesforce Campaign
+
+   3. Update Salesforce Campaign
+      1. Update `Is the Channel Partner Involved?` = Yes (Automated with Allocadia integration)
+      2. Update `Channel Partner Name` with Partner Name (Automated with Allocadia integration)
+      3. Mark campaign as `High Priority`.
+      4. Campaign Type changes to `Partner - MDF` (Automated - Updated in Minutes).
+      5. Sync the campaign to Vartopia so it shows in the `GitLab Marketing Campaign` field dropdown. (Automated - Every Hour).
+
+3. Import 
+
+   1. Change the CRM Partner ID column to say Partner.
+   2. Add `Partner Lead Worked by Sales Dev` = `True` column.
+   3. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead`.
+
+4. Traction Routing
+
+   1. Since it's a High Priority campaign, only MQLs and Actively Working Accounts will be routed to BDRs/SDRs.
+   2. If the lead is not MQL nor Actively Working, then Vartopia Partner Account will be added and Lead Acquisition Source if blank =\ MDF Campaign and reassigned to the Partner Queue.
+5. Marketo -  Leads that are sent back to the partner will be updated with the partner fields ie. Partner Consent, Do Not Email = Partner Lead, Marketing Suspended, etc (Automated).
 
 ### Joint GitLab and Partner Campaigns
 
@@ -491,45 +547,42 @@ Note that this type of campaign are not generated by MDF.
 
 Follow the steps in [List Import for Partner Leads](/handbook/marketing/channel-marketing/#list-import-for-partner-leads).
 
-## FY25 Q2 GitLab Sales Dev Working Partner Leads
+## Distributor Campaigns
 
-As part of a [pilot program in FY25 Q2](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
+### Carahsoft
 
-We are treating these leads as non-partner leads with Source = `Partner Qualified Lead`. They will be scored, assigned to BDRs, and have LIM. The source will remain as Partner Qualified Lead as we will use this to track partner ownership, while allowing our GitLab Sales Dev team to work these leads and not lose insight into where the lead came from.
+#### Campaigns Without Leads
 
-The Marketing team will use FM Marketo template to set up the campaigns, and these **MDF campaigns** will follow the **High Priority routing rules** - if the lead is part of an actively working account with BDR assigned, they are assigned to BDR, and if the lead is an MQL, then it will follow the regular lead routing rules. However, if the lead is neither Actively Working nor MQL, they will be shared with the Partner.
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI, which doesn't require a lead list.
 
-Note, that when a lead is already shared with a Partner, it will not go to the Sales Dev team.
+1. Carahsoft - Add the Event/Activity Name and Campaign Code to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit)
+1. Gabby - Assign Salina to the Campaign Code column
+1. Salina - Create the SFDC campaign and add Campaign Name and Campaign Code to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1). This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Salina - Add SFDC Campaign ID, SFDC Campaign Link and confirm the campaign name has been added to the Smartsheet under the `Added to smartsheet` column.
 
-### Indicators
+#### Campaigns Worked by Sales Dev
 
-- Campaign - `High Priority = True AND Campaign Type = Partner - MDF`
-- Lead/Contact - `Source = Partner Qualified Lead AND/OR Partner Lead Worked by Sales Dev = True`
-- Opportunity - `Source = Partner Qualified Lead AND/OR Partner Lead Worked by Sales Dev = True`
+This is not an MDF campaign, as referenced in the name, it's a value-added where the leads will be worked by the Sales Dev team. [Video recording](https://youtu.be/WwWYFCmPs7M) available
 
-### Process
-
-This process requires the following platforms: Allocadia, Marketo, Salesforce, Traction and Vartopia.
-
-[Flow Chart >](https://www.figma.com/file/6LFKq2rQaw16YFhq1zej5d/Sales-Dev---Partner-Sales-Collaboration?type=whiteboard&node-id=0-1&t=GQvBSLo14kJcVzGu-0)
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dzu4zZQVPbHpeR8S0-1" allowfullscreen></iframe>
-
-1. Allocadia - Create the subcategory and line item in Allocadia.
-   1. [Create Sales Dev - Partner Campaign Alignment issue (automated when Worked by Sales Dev = True)](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
-2. Marketo - Clone the appropriate [FM Marketo template](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns). Follow the [instructions](/handbook/marketing/channel-marketing/#types-of-partner-campaigns) to set up Marketo Program and SFDC Campaign.
-   1. Add Allocadia Subcategory ID to Marketo Program/SFDC campaign description, then sync to Salesforce Campaign
-3. SFDC - Update Salesforce Campaign
-   1. Mark Campaigns as High Priority
-   2. Campaign Type changes to Partner - MDF (Automated - Updated in Minutes)
-   3. Sync the campaign to Vartopia so it shows in the GitLab Marketing Campaign field dropdown. (Automated - Every Hour)
-4. Import - Import leads without the `CRM Partner ID`
-   1. Add `Partner Lead Worked by Sales Dev` = `True` column
-   2. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead`
-5. Traction Routing
-   1. Since it's a High Priority campaign, only MQLs and Actively Working Accounts will be routed to BDRs/SDRs
-   2. If the lead is not MQL nor Actively Working, then Vartopia Partner Account will be added and Lead Acquisition Source if blank =\ MDF Campaign and reassigned to the Partner Queue.
-6. Marketo - Leads that are sent back to the partner will be updated with the partner fields ie. Partner Consent, Do Not Email = Partner Lead, Marketing Suspended, etc (Automated)
+1. Setup Allocadia
+    1. Create a subcategory and line item
+    1. Update `Worked by Sales Dev` to `True` on the subcategory (required)
+    1. Open GitLab epic and issues using the GitLab issue - Allocadia integration. The Gitlab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
+       1. Tag the Public Sector Business Development & AMER SDR on the Partner Sales Campaign BDR issue for visibility.
+1. Follow the [instructions](/handbook/marketing/channel-marketing/#partner-campaigns) to setup Marketo Program and SFDC Campaign.
+   1. Setup in Marketo
+       1. Clone the appropriate FM program template
+       1. Go to the Program > My Token - Fill out the Tokens
+   1. Sync to Salesforce Campaign
+   1. Update Salesforce Campaign
+       1. Update `Is the Channel Partner Involved?` = Yes (Automated with Allocadia integration)
+       1. Update `Channel Partner Name` with Partner Name (Automated with Allocadia integration)
+       1. Mark campaign as `High Priority`
+1. Spreadsheet - Assign Salina to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit) to  Add Salesforce Campaign to [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1) (Interim process until the next iteration)
+1. Upload lead list via Google Drive
+    1. Include `CRM Partner ID`
+    1. Add `Partner Lead Worked by Sales Dev` = `True` column
+    1. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead` (Automated)
 
 ## Alliance Marketing Campaigns
 
@@ -666,7 +719,7 @@ Step 3: Export Leads from Salesforce
 1. Once spreadsheet is completed, proceed with [self service list import](/handbook/marketing/marketing-operations/automated-list-import/) instructions.
 1. (no setup needed) Marketo will process.
     1. If there is a `CRM Partner ID` that equals to a Channel Partner Account ID (18),
-        1. Set `Vartopia Partner Account` - if CRM Partner ID is asociated to a Channel Partner.
+        1. Set `Vartopia Partner Account` - if CRM Partner ID is associated to a Channel Partner.
         1. Set `Partner Consent` = `True`
     1. If `CRM Partner ID` equals to a Alliance Partner Account ID (18),
         1. Do nothing.
@@ -676,13 +729,13 @@ Step 3: Export Leads from Salesforce
 
 The UTM parameter URL plays a huge part on partner lead routing and reporting. We utilize `utm_partnerid` in the UTM parameter URL to capture the Account ID (18) of the Partner Account, which populates into the `CRM Partner ID`. This process is embedded as a hidden field in all our partner-related Marketo forms. Each page must have the `utm_partnerid` in the URL, otherwise we cannot pass to the partner.
 
-You can use the [UTM link builder](/handbook/marketing/utm-strategy/#utm-builder) to create your URLs.
+You can use the [Partner UTM Builder](/handbook/marketing/utm-strategy/#how-to-create-utms) to create your URLs.
 
-Note that, the `Account ID (18)` is case sensitive when populating `utm_partnerid` into the URL. This means it has to be an **exact match** when you input the ID in the URL, otherwise partners will not receive their leads.
-
-For a running list of Channel Partners and their CRM IDs, which is critical to the channel partner lead flow, click [here](https://gitlab.my.salesforce.com/00O4M000004aSq6), while the `CRM Partner ID` for Alliance Partners can be found [here](https://gitlab.my.salesforce.com/00O8X000008mxIb).
-
-If you are working with an Open or Select partner who is not listed in the linked SFDC report, their partner ID which can be found in their Partner Account record within SFDC, in the 9th section called `Vartopia Deal Registration Access`. If you can't find the field, do a quick `commandF` for the word `Account ID (18)` and that will take you to the ID or you can retrieve the 18 character ID from the Salesforce URL. If for some reason the ID is missing, reach out in the [#channel-programs-ops](https://gitlab.slack.com/archives/CTM4T5BPF) slack room.
+- utm_medium = `partner` (never changes)
+- utm_soure = `partner` (never changes)
+- GTM = `x` (never changes)
+- Partner Name - utm_partnerid is a dropdown show all Channel Partners, and two Alliance Partners (AWS, and GCP). Select the partner you are working with.
+- Fill out the rest of the UTM parameters
 
 ## Field Glossary
 
@@ -725,7 +778,7 @@ The lookup field retrieves the name of the partner account associated with the `
 
 ### Lead Acquisition Source
 
-This field records the source type of the partner lead. The biggest driver for this field is to isolate the source type that applies to the recall process including `Owned Event` and `Trial - Enterprise`.
+This field records the source type of the partner lead. The biggest driver for this field is to isolate the source type that applies to the recall process including `Owned Event`, `Service Management`.
 
 The reason why [`Initial Source`](/handbook/marketing/marketing-operations/#initial-source) isn't used for this use case is because the field value must equal to `Partner Qualified Lead` to be attributed to and sourced by Partner.
 

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation/process.html
 title: Development Escalation Process
 ---
 {{% alert title="Quick escalation guide" color="danger" %}}
@@ -240,7 +239,7 @@ There is additional information regarding weekend shifts, which can be found in 
 
   1. Post a message to the existing incident thread in the [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) channel, or create a new thread requesting volunteers to take over the shift.
 
-  1. Message the [on-call IMOC](https://thanos.gitlab.net/graph?g0.expr=count(pagerduty_schedule_oncall%7BscheduleID%3D~%22PK4YI6X%22%2Ctype%3D%22startTime%22%7D%0A*%20on%20(userID)%20group_left(userName)%20(pagerduty_user_info))%20by%20(userName)&g0.tab=1&g0.stacked=0&g0.range_input=1h&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D) and ask them for help finding an engineer to take over the shift.
+  1. Message the [on-call IMOC](https://dashboards.gitlab.net/goto/5CwoDarSg?orgId=1) and ask them for help finding an engineer to take over the shift.
 
 - In the instance of an ongoing escalation being handed over to
   another incoming on-call engineer the current on-call engineers
@@ -416,7 +415,9 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
 
 If you have questions about the process, please reach out to `#dev-oncall` in Slack or to the [DRI](#development-on-call-dri) directly.
 
-### Pagerslack statistics ([Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views))
+### Pagerslack statistics
+
+[Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views)
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/ofEscalationsperMonth" >}}
 {{< /tableau >}}

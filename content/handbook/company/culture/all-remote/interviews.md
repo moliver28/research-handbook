@@ -32,7 +32,7 @@ Remote interviews are similar to in-person interviews in many ways: You're still
 
 ### Camera
 
-For a remote interview, being able to easily navigate a [video call]({{< ref "communication#video-calls" >}}) is vital. First, consider how you want to present yourself visually by choosing a camera quality:
+For a remote interview, being able to easily navigate a [video call](/handbook/communication/#video-calls) is vital. First, consider how you want to present yourself visually by choosing a camera quality:
 
 1. Inbuilt webcam on a phone, laptop, or external display (baseline)
 1. Dedicated USB webcam (mid-tier)
@@ -85,14 +85,14 @@ To help make a great first impression, prepare by researching the company and re
 
 ## What traits do remote interviewers look for?
 
-In an [all-remote]({{< ref "./hybrid-remote#all-remote-upgrade" >}}) organization, each individual is empowered to [work and live]({{< ref "./people" >}}) where they are most fulfilled.
+In an [all-remote](hybrid-remote/#all-remote-upgrade) organization, each individual is empowered to [work and live](people/) where they are most fulfilled.
 
 During the interview phase, it's vital to get an understanding of how a potential employee understands and plans to participate effectively in remote work. To be a great remote worker, potential hires should be:
 
-- able to work [asynchronously]({{< ref "./asynchronous" >}})
+- able to work [asynchronously](asynchronous/)
 - self-disciplined and able to be a [manager of one](/handbook/values/#managers-of-one)
-- comfortable with remote communication, much of which is [communicated through text]({{< ref "./effective-communication" >}})
-- ready to engineer an [optimal workspace]({{< ref "./workspace" >}})
+- comfortable with remote communication, much of which is [communicated through text](effective-communication/)
+- ready to engineer an [optimal workspace](workspace/)
 - able to focus and pinpoint both [when and where you prefer to work on a daily basis](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office)
 - prepared to create work/life boundaries and balance in a [work from anywhere scenario](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr)
 
@@ -112,7 +112,7 @@ The team at [We Work Remotely](https://weworkremotely.com/blog) addressed the qu
 
 ## What are the benefits of conducting a remote interview?
 
-Remote interviews expand the possibilities for recruiting a more diverse and [inclusive]({{< ref "inclusion" >}}) workforce. Remote gives your company a competitive advantage by opening the recruiting pipeline to unlimited geographic regions and sourcing employees from any location.
+Remote interviews expand the possibilities for recruiting a more diverse and [inclusive](/handbook/company/culture/inclusion/) workforce. Remote gives your company a competitive advantage by opening the recruiting pipeline to unlimited geographic regions and sourcing employees from any location.
 
 Not only does this create a more competitive hiring process by reaching a more diverse set of candidates, but it also allows your organization to hire great people not limited by the basis of [salary](https://hired.com/blog/highlights/hired-releases-2023-state-of-software-engineers-report).
 
@@ -128,11 +128,11 @@ For many, it is assumed that culture is simply the aura, energy, or vibe one get
 
 A company culture is a company's list of values. Culture is an assurance that each employee respects, admires, and feels invested in a company's values, and that leadership works to ensure values are not violated. As GitLab, an operating principle within our Diversity, Inclusion & Belonging  value is "[culture fit is a bad excuse](/handbook/values/#culture-fit-is-a-bad-excuse)."
 
-Remote interviewers should link a company's values during the interview and have a conversation to assess a candidate's alignment and understanding of those values. Particularly in a remote setting, [values]({{< ref "values" >}}) serve as the north star, guiding every business decision by people you cannot physically see and shaping how colleagues treat one another.
+Remote interviewers should link a company's values during the interview and have a conversation to assess a candidate's alignment and understanding of those values. Particularly in a remote setting, [values](/handbook/values/) serve as the north star, guiding every business decision by people you cannot physically see and shaping how colleagues treat one another.
 
 ### Remote job seekers and candidates
 
-When you're searching for a remote career opportunity, it can be daunting to know where to start. We've curated a [list of companies and job boards]({{< ref "./jobs" >}}) to help narrow your search, as well as a [list of qualities to look for]({{< ref "./evaluate" >}}) as you're evaluating a potential employer.
+When you're searching for a remote career opportunity, it can be daunting to know where to start. We've curated a [list of companies and job boards](jobs/) to help narrow your search, as well as a [list of qualities to look for](evaluate/) as you're evaluating a potential employer.
 
 ## Interview questions to assess for success in a remote environment
 
@@ -189,7 +189,7 @@ Below is an archive of past interview guests, answering the above questions and 
 
 An archive of Pick Your Brain interviews are below. We've also created a [Pick Your Brain Playlist](https://www.youtube.com/playlist?list=PLFGfElNsQthafBVmoPPVMvBc_Gg2nsyQb) on [GitLab's YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
-Learn more about scheduling a GitLab [Pick Your Brain series]({{< ref "eba#pick-your-brain-meetings" >}}).
+Learn more about scheduling a GitLab [Pick Your Brain series](/handbook/eba/#pick-your-brain-meetings).
 
 1. [GitLab CEO Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein)
 1. [GitLab CEO Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese)
@@ -206,15 +206,15 @@ Learn more about scheduling a GitLab [Pick Your Brain series]({{< ref "eba#pick-
 
 ## GitLab All-Remote Snapshot interviews
 
-GitLab's all-remote culture empowers team members to [live and work where they are most fulfilled]({{< ref "./people" >}}), and to structure their day in a manner that suits them.
+GitLab's all-remote culture empowers team members to [live and work where they are most fulfilled](people/), and to structure their day in a manner that suits them.
 
-If you have yet to work within an all-remote environment, it can be difficult to fully understand the potential. Each individual is [able to approach all-remote differently]({{< ref "./people" >}}), leveraging the autonomy it enables to improve one's life.
+If you have yet to work within an all-remote environment, it can be difficult to fully understand the potential. Each individual is [able to approach all-remote differently](people/), leveraging the autonomy it enables to improve one's life.
 
 {{< youtube "QTPeyRW766Q" >}}
 
 *In the [GitLab Unfiltered video](https://youtu.be/QTPeyRW766Q) above, two GitLab team members share their experiences on working in an all-remote setting, providing a glimpse at what's possible when embracing this style of work.*
 
-To provide insight and [transparency](/handbook/values/#transparency) into the lives of GitLab team members — and give those considering remote work [ideas for structuring their own lives]({{< ref "./resources#blogs-from-gitlab-team-members" >}}) — we ask the below questions in a video interview. While GitLab's entire team is remote, there can be great diversity in answers.
+To provide insight and [transparency](/handbook/values/#transparency) into the lives of GitLab team members — and give those considering remote work [ideas for structuring their own lives](resources/#blogs-from-gitlab-team-members) — we ask the below questions in a video interview. While GitLab's entire team is remote, there can be great diversity in answers.
 
 1. Who are you, how long have you been at GitLab, and what do you do at GitLab?
 1. What attracted you to GitLab?

@@ -12,6 +12,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 July | 99.99% |  |
 | 2024 June | 99.99% |  |
 | 2024 May | 100.00% |  |
 | 2024 April | 99.96% | |
@@ -86,28 +87,18 @@ We use our apdex based measurements to report official availability (see above).
 * a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
 * [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
-### Main Monitoring Dashboards
+#### Monitoring Infrastructure
 
-We collect data using InfluxDB and Prometheus, leveraging available exporters like the node or the postgresql exporters, and we build whatever else is necessary. The data is visualized in graphs and dashboards that are built using Grafana. There are two interfaces to track this, as described in more detail below.
+We use Grafana [Mimir](https://grafana.com/oss/mimir/) to ingest and query metrics. Mimir is an open-source, distributed time series database that extends Prometheus. You can read more about its implementation in our [Runbook Docs](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/mimir?ref_type=heads#architecture).
 
-#### Prometheus
+### Monitoring Dashboards
 
-We have 3 prometheus clusters: main prometheus, prometheus-db, and prometheus-app. They provide an interface to query metrics using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/). Each prometheus cluster collects a set of related metrics:
+Metrics can be viewed in [Grafana](https://dashboards.gitlab.net/). The Grafana [Explore](https://dashboards.gitlab.net/explore) dashboard allows querying of all data in Mimir using PromQL. 
 
-* [main prometheus](https://prometheus.gprd.gitlab.net/graph): It collects various [metrics](https://prometheus.gprd.gitlab.net/targets) such as consul and haproxy.
-* [prometheus-db](https://prometheus-db.gprd.gitlab.net/graph): It collects Postgresql database related [metrics](https://prometheus-db.gprd.gitlab.net/targets)  such as pg-bouncer exporter and postgres-exporter.
-* [prometheus-app](https://prometheus-app.gprd.gitlab.net/graph): It collects application related [metrics](https://prometheus-app.gprd.gitlab.net/targets).
-
-#### Thanos
-
-[Thanos Query](https://thanos-query.ops.gitlab.net) can be used to query metrics aggregated across Prometheus clusters.
-
-#### [Monitoring Infrastructure](https://dashboards.gitlab.net)
-
-* Private GitLab account is required to access
+* Access requires a `@gitlab.com` email address through Google SSO
 * Highly Available setup
 * Alerting feeds from this setup
-* Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB.
+* Separated from the public for compliance, security and availability reasons
 
 #### Adding Dashboards
 
@@ -225,6 +216,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview)
+* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
 * [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
 * [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

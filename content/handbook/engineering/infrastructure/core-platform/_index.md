@@ -126,7 +126,7 @@ List of frontend collaborations:
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
 
-The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
+The frontend roadmap items above are broken down into specific epics and issues, and they can also be labeled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
 
@@ -202,6 +202,35 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | packagecloud.io | [https://packagecloud.io/](https://packagecloud.io/) | Annual | March 30th | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/485), [last renewal PO](https://gitlab.coupahost.com/requisition_headers/618)  |
 | dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
 | postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1310) |
+
+## Lunch and Learns
+
+We hold monthly "lunch and learn" knowledge sharing sessions where Core Platform team members can learn about work happening in other teams and gain experience presenting.
+
+In order to accommodate our globally distributed team, we have the following async/timezone considerations:
+
+- Schedule in a time slot that is convenient for whoever is presenting that month.
+- Share agenda with slide deck, recording, and any other relevant materials at least a couple of days before so that team members can review and add questions/comments ahead of time.
+
+These sessions were [intially proposed and piloted](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/100) in the Data Stores stage and are now expanded to include the entire sub-department.
+
+Sessions are recorded and added to the [Monthly Lunch and Learn YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kr4pV627OR9u26ZXX3JrgSf).
+
+### 2024 Schedule
+
+To sign up for a month, simply open an MR to the schedule below to add yourself and assign `@nhxnguyen` for review.
+
+| Month | Presenter | Topic | Recording |
+| ----  | --------- | ----  | --------- |
+| April |     @bshah11       |  Postgress: [Zero-downtime Postgres Major Version Upgrade](https://postgresconf.org/conferences/2024/program/proposals/zero-downtime-postgres-major-version-upgrade)     | https://youtu.be/lv3otnWBMzY |
+| May   |  @manojmj | Progress: The story of how we leveraged housekeeper, YAML & GitLab Pages to build alignment | https://youtu.be/zUl5dMF5gz0  |
+| June  |           |       |          |
+| July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
+| August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
+| September |  @bshah11     |    TBD  ||
+| October | @mkaeppler | Life of a Cloud Connector request |          |
+| November |        |       |          |
+| December |        |       |          |
 
 ## Internal Opportunities Pilot
 

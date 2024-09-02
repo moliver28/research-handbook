@@ -47,7 +47,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Who is the Right Candidate for the Program?
 
-**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](https://about.gitlab.com/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 
 **- Passion for GitLab:** Genuine passion for GitLab and a desire to drive practice building within the partner organization.
 
@@ -81,12 +81,12 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Internal Champion Approval and Onboarding
 
-### Program Manager
+### Champions Program Manager and Ecosystem Specialists
 
-1. Monitor the Champions Nomination form for new applicants
-1. Work with the nominee to create an account on partners.gitlab.com
-1. Request the "GitLab Champion" user field in Impartner be set to "Nominated"
-1. Once approval is granted, notify the Sponsor GitLab SA to begin onboarding the new Champion.
+1. The Champions Nomination form will email the Champions Program Manager (Manager) and Partner Support for new nominees.
+1. A partner support case will automatically open for an Ecosystem Specialist to follow up on the status of the Nominee Approval with the Manager.
+1. The Manager will communicate internally to determine approval.  If granted, the Manager will request Partner Support set the "GitLab Champion" user field in the Partner Portal to "Approved"
+1. Once approval is set in the Partner Portal, the Manager will notify the Sponsor GitLab SA to begin onboarding the new Champion.
 
 ### Sponsor GitLab SA
 

@@ -1,9 +1,9 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab Overview"
-description: "This Hands-On Guide walks you through the lab exercises in the DevSecOps with GitLab Duo course."
+title: "GitLab Duo Principles - Hands-On Lab Overview"
+description: "This Hands-On Guide walks you through the lab exercises in the GitLab Duo Principles course."
 ---
 
-## DevSecOps with GitLab Duo
+## GitLab Duo Principles
 
 | Lab Name | Lab Link |
 |-----------|------------|
@@ -15,8 +15,8 @@ description: "This Hands-On Guide walks you through the lab exercises in the Dev
 
 ## Quick links
 
-* DevSecOps with GitLab Duo Course Description
+* GitLab Duo Principles Course Description
 
 ## Suggestions?
 
-If you'd like to suggest changes to the *DevSecOps With GitLab Duo*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Duo Principles*, please submit them via merge request.

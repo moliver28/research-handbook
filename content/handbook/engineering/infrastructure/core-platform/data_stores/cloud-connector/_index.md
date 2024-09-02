@@ -1,6 +1,5 @@
 ---
 title: Cloud Connector Group
-aliases: /handbook/engineering/infrastructure/core-platform/systems/cloud-connector/
 ---
 
 ## Vision
@@ -72,8 +71,8 @@ The Cloud Connector group's [Roadmap](https://gitlab.com/groups/gitlab-org/-/roa
 
 ### Knowledge sharing and lessons learned
 
-* [Cloud Connector group's Approach](./approach.html)
-* [Cloud Connector group's Knowledge Sharing](./knowledge.html)
+* [Cloud Connector group's Approach](approach.html)
+* [Cloud Connector group's Knowledge Sharing](knowledge.html)
 
 #### Blog posts (when team was working as Application Performance)
 
@@ -82,7 +81,7 @@ The Cloud Connector group's [Roadmap](https://gitlab.com/groups/gitlab-org/-/roa
 
 ### More about how we work
 
-* [Cloud Connector group's (as Application Performance) 2020 Recap](./2020.html)
+* [Cloud Connector group's (as Application Performance) 2020 Recap](2020.html)
 * [Cloud Connector group's YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq_5ZWIHYfbcAYjtXYcEZA3)
 * [Cloud Connector group's subgroup](https://gitlab.com/gitlab-org/cloud-connector-team)
 * [Retrospective page](https://gitlab.com/gl-retrospectives/cloud-connector-team)

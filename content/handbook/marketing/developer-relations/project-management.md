@@ -23,7 +23,7 @@ Please use this template when creating Epics for activities that should appear i
 ```markdown
 <!--  Epic Title Formatting Guide:
 
-Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines
+Dates should be using ISO dates, see https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines
 
 Event: Event Name, Location, Date
 Content: Title, Date

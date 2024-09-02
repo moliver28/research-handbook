@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/education-services/tech_stack/credly.html
 title: "Credly Tech Stack Guide"
 description: "Tech Stack Guide for Credly Digital Credentialing System"
 ---

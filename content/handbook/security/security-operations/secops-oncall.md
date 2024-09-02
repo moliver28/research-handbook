@@ -2,7 +2,6 @@
 title: "Security Operations On-Call Guide"
 description: " "
 weight: 30
-controlled_document: true
 ---
 
 The Security Operations sub-department is collectively responsible for responding to reports of actual or potential security incidents on a 24/7/365 basis.

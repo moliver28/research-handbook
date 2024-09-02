@@ -106,7 +106,7 @@ A: You can find when a Customer is up for renewal by checking the *Next Renewal 
 
 Q: How can I check to see if my customer has successfully linked their GitLab.com user account to their CDot user account?
 
-A: First, navigate to https://customers.gitlab.com/admin/customer/.  From this page, you can use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches CustomerDot
+A: First, navigate to <https://customers.gitlab.com/admin/customer/>.  From this page, you can use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches CustomerDot
 
 Q: How can I check to see if my customer has successfully linked their GitLab subscription to the GitLab namespace?
 
