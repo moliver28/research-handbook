@@ -107,7 +107,7 @@ By default, we monitor all tables in the `RAW`, `PREP`, and `PROD` databases in 
 
 ### Exclude sandbox schemas
 
-Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reaso we exclude monitoring schemas that contains `sandbox` to avoid getting any alerts from them. This has been set via an exclude rule in Monte Carlo. 
+Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason we exclude monitoring schemas that contain `sandbox` to avoid getting any alerts from them. This has been set via an exclude rule in Monte Carlo. 
 
 ## Notification strategy
 
