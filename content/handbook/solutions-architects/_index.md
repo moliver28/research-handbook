@@ -42,7 +42,7 @@ Here's how the SA organization fosters value creation through the lens of a lear
 
 - SAs encourage customers to question assumptions and challenge traditional ways of thinking about their processes and technologies.
 - They introduce new perspectives and innovative solutions, helping customers overcome limitations and unlock new opportunities for growth.
-- This focus on challenging mental models and fostering innovation reflects the DevOps principle of experimentation and learning from both successes and failures.  SAs also challenge internal assumptions and approaches, looking to continuously improves GitLab's ability to help our customers.
+- This focus on challenging existing mental models and fostering innovation reflects the DevOps principle of experimentation and learning from both successes and failures.  SAs also challenge internal assumptions and approaches, looking to continuously improves GitLab's ability to help our customers.
 
 5. Teamwork & Knowledge Sharing
 
