@@ -84,16 +84,6 @@ class project_compliance_violations {
     audit_event_id: bigint
 }
 
-class project_compliance_violations {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    project_id: bigint
-    namespace_id: bigint
-    compliance_check_id: bigint
-    audit_event_id: bigint
-}
-
 class audit_events {
     id: bigint
     created_at: timestamp
