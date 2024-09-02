@@ -28,7 +28,7 @@ In [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architectu
 ![Cell runner diagram](../../diagrams/term-cell-runner.drawio.png)
 
 - There's a 1:n relationship between a Cell and a Runner, i.e, one Cell can have many Runners, while a Runner is only registered to one Cell.
-- Primary Cell (GitLab.com) is using Runners that are managed via [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo), while the Secondary Cells are using [Transistor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor/)-like setup, which vendors in GRIT.
+- Legacy Cell (GitLab.com) is using Runners that are managed via [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo), while the Cells are using [Transistor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor/)-like setup, which vendors in GRIT.
 
 Note, there's currently no Runner Reference Architectures, however, some links the reader can reference:
 
@@ -41,7 +41,7 @@ Note, there's currently no Runner Reference Architectures, however, some links t
 
 Cells are expected to follow provisioning design and tooling similar to that of Dedicated; Runners in this case would utilize a tool similar to [Transistor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor/), which in a nutshell, is a collection of Terraform modules and bash scripts.
 
-Transistor's [development guidelines](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor/-/blob/main/DEVELOPMENT.md) have more elaborate info, but a simplified version of the provisioning steps of a Runner could look like the following: 
+Transistor's [development guidelines](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor/-/blob/main/DEVELOPMENT.md) have more elaborate info, but a simplified version of the provisioning steps of a Runner could look like the following:
 
 1. Generate a runner model.
 1. Provision the runner via one of the following steps:

@@ -365,7 +365,7 @@ frame "Ring 3" <<cells 1.5+>> {
         component "01HWRY6Y745RS405F6"
       }
 
-      component "Main stage\nPrimary Cell" <<legacy>> as Primary
+      component "Main stage\nLegacy Cell" <<legacy>> as Legacy
     }
   }
 }
