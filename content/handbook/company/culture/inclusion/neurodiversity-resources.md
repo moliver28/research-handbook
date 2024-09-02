@@ -16,7 +16,6 @@ canonical_path: "/company/culture/inclusion/neurodiversity-resources/"
   - **Coaching & Therapy**: GitLab Team Members have access to [coaching and therapy sessions]({{< ref "modern-health#care" >}}). Modern Health has counselors and therapist who specialize in working with people across the spectrum of neurodiversity. Any member can write into help@joinmodernhealth.com and ask for a provider with this kind of specialization (the more specific, the better).
 - [Neurodiversity as a competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage)
 - [ADHD in the workplace](https://www.webmd.com/add-adhd/adhd-in-the-workplace)
-- [Free neurodiversity peer mentorships](https://www.neurodiver-city.org/)
 - [Youtube channel with significant amounts of information, interviews, and personal experiences relating to ADHD](https://www.youtube.com/c/HowtoADHD)
 - [The Autistic Life Resources Store](https://www.theautistic.life/shop?Collection=Worksheets)
 - Join the [#neurodiversity](https://gitlab.slack.com/archives/CQRDJ0TLN) Slack Channel for support & community with other GitLab Team Members or to learn more about the experiences of others
