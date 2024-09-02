@@ -111,4 +111,4 @@ projects --> project_compliance_violations : has_many
 projects <-- project_compliance_violations : belongs_to
 compliance_checks --> project_compliance_violations : has_one
 compliance_checks <-- project_compliance_violations : belongs_to
-audit_events --> project_compliance_violations : has_one
+audit_events <-- project_compliance_violations : has_one
