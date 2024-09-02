@@ -98,9 +98,9 @@ class security_policy_requirements {
     id: bigint
     created_at: timestamp
     updated_at: timestamp
-    compliance_framework_security_policy_id bigint
-    compliance_requirement_id bigint
-    namespace_id bigint
+    compliance_framework_security_policy_id: bigint
+    compliance_requirement_id: bigint
+    namespace_id: bigint
 }
 
 security_policies {
@@ -134,3 +134,4 @@ security_policies --> projects : has_many
 security_policies --> compliance_management_frameworks : has_many
 security_policies <-- security_policy_requirements : has_many
 security_policies --> security_policy_requirements : has_many
+```
