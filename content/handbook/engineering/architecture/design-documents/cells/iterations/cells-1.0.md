@@ -37,7 +37,7 @@ From a development and infrastructure perspective we want to achieve the followi
 1. Cells need to be able to run independently with different versions.
 1. A cluster-wide service is provided to synchronize state between all Cells.
 1. A routing solution that is robust, but simple.
-1. All identifiers (primary keys, user, group, and project names) are unique across the cluster, so that we can perform logical re-balancing at a later time. This includes all database tables, except ones using schemas `gitlab_internal`, or `gitlab_shared`.
+1. All identifiers (primary keys, user names, group, and project paths) are unique across the cluster, so that we can perform logical re-balancing at a later time. This includes all database tables, except ones using schemas `gitlab_internal`, or `gitlab_shared`.
 1. Because all users and groups are unique across the cluster, the same user can access other Organizations and groups at GitLab.com in [Cells 2.0](cells-2.0.md).
 1. The overhead of managing and upgrading Cells is minimal and similar to managing a GitLab Dedicated instance. Secondary Cells should not be a linear increase in operational burden.
 1. The Cell should be deployed using the same tooling as GitLab Dedicated.
