@@ -13,17 +13,14 @@ whether their projects are compliant to a standard or not.
 
 To allow users to create checks on their own as per their requirements we need to have the following types of checks:
 
-1. [Internal checks](#internal-checks): Enable users to create logical expressions with the all the available project settings.
+1. [Custom checks](#custom-checks): Enable users to create logical expressions with all available project settings.
 1. [External checks](#external-checks): Enable users to create checks that rely on their external services like HTTP servers.
-1. [Predefined checks](#predefined-checks): These checks are defined by GitLab, like "At least two approvals" and
-security scanner checks like SAST and DAST that we're working on adding in
-[this epic](https://gitlab.com/groups/gitlab-org/-/epics/12661).
 
-### Internal checks
+### Custom checks
 
 We would allow users to create logical expressions with all the available project settings. These expressions would
 be the checks against which the projects would be evaluated. We would store these as a structured JSON in the
-`compliance_checks` table with 'internal' as the `check_type`.
+`compliance_checks` table with 'custom' as the `check_type`.
 
 As an example: Consider expression `'merge_method' = 'merge commit' AND ('project_name' LIKE "%-team" OR 'compliance_framework' != 'SOC2')`.
 This expression will be saved in the database as JSON with the following structure:
@@ -56,6 +53,17 @@ This expression will be saved in the database as JSON with the following structu
 }
 ```
 
+We can also store simple expressions like `merge_method = 'merge commit'`, this would be stored in the database as the
+following JSON:
+
+```json
+{
+  "operator": "=",
+  "field": "merge_method",
+  "value": "merge commit"
+}
+```
+
 We would create schema validators for validating the input and store these in the `expression` jsonb column of the
 `compliance_checks` database table.
 
@@ -66,70 +74,83 @@ The above JSON would be parsed using an evaluator and the expression would be ev
 evaluator class would look like:
 
 ```ruby
-class QueryEvaluator
-  def initialize(query, project)
-    @query = query
-    @project = project
-  end
+module ComplianceManagement
+  module ComplianceChecks
+    class QueryEvaluator
+      def initialize(query, project)
+        @query = query
+        @project = project
+      end
 
-  def evaluate
-    evaluate_node(@query)
-  end
+      def evaluate
+        evaluate_node(@query)
+      end
 
-  private
+      private
 
-  def evaluate_node(node)
-    if node['operator']
-      evaluate_operator_node(node)
-    else
-      evaluate_condition(node)
+      def evaluate_node(node)
+        if node['operator']
+          evaluate_operator_node(node)
+        else
+          evaluate_condition(node)
+        end
+      end
+
+      def evaluate_operator_node(node)
+        operator = node['operator'].upcase
+        conditions = node['conditions']
+
+        # Handle the case of a single condition
+        if conditions.nil? || conditions.empty?
+          return evaluate_condition(node)
+        end
+
+        results = conditions.map { |condition| evaluate_node(condition) }
+
+        case operator
+        when 'AND'
+          results.all?
+        when 'OR'
+          results.any?
+        else
+          raise "Unknown operator: #{operator}"
+        end
+      end
+
+      def evaluate_condition(condition)
+        field_value = get_field_value(condition['field'])
+
+        case condition['operator']
+        when '='
+          field_value == condition['value']
+        when '!='
+          field_value != condition['value']
+        when 'LIKE'
+          field_value.to_s.match?(like_to_regex(condition['value']))
+        else
+          raise "Unknown condition operator: #{condition['operator']}"
+        end
+      end
+
+      def get_field_value(field)
+        case field
+        when 'merge_method'
+          @project.merge_method.to_s
+        when 'project_name'
+          @project.name
+        when 'compliance_framework'
+          frameworks = @project.compliance_management_frameworks
+          frameworks ? frameworks.map(&:name) : []
+        else
+          raise "Unknown field: #{field}"
+        end
+      end
+
+      def like_to_regex(pattern)
+        regex_pattern = Regexp.escape(pattern).gsub('%', '.*')
+        Regexp.new("^#{regex_pattern}$", Regexp::IGNORECASE)
+      end
     end
-  end
-
-  def evaluate_operator_node(node)
-    results = node['conditions'].map { |condition| evaluate_node(condition) }
-
-    case node['operator'].upcase
-    when 'AND'
-      results.all?
-    when 'OR'
-      results.any?
-    else
-      raise "Unknown operator: #{node['operator']}"
-    end
-  end
-
-  def evaluate_condition(condition)
-    field_value = get_field_value(condition['field'])
-
-    case condition['operator']
-    when '='
-      field_value == condition['value']
-    when '!='
-      field_value != condition['value']
-    when 'LIKE'
-      field_value.to_s.match?(like_to_regex(condition['value']))
-    else
-      raise "Unknown condition operator: #{condition['operator']}"
-    end
-  end
-
-  def get_field_value(field)
-    case field
-    when 'merge_method'
-      @project.merge_method
-    when 'project_name'
-      @project.name
-    when 'compliance_framework'
-      @project.compliance_management_frameworks.map { |f| f.name }
-    else
-      raise "Unknown field: #{field}"
-    end
-  end
-
-  def like_to_regex(pattern)
-    regex_pattern = Regexp.escape(pattern).gsub('%', '.*')
-    Regexp.new("^#{regex_pattern}$", Regexp::IGNORECASE)
   end
 end
 ```
@@ -137,13 +158,19 @@ end
 We can then use the above evaluator on the stored JSON expression:
 
 ```ruby
-query = {
+simple_query = {
+  "operator" => "=",
+  "field" => "merge_method",
+  "value" => "merge"
+}
+
+complex_query = {
   "operator" => "AND",
   "conditions" => [
     {
        "field" => "merge_method",
        "operator" => "=",
-       "value" => "merge commit"
+       "value" => "merge"
     },
     {
        "operator" => "OR",
@@ -163,7 +190,10 @@ query = {
   ]
 }
 
-evaluator = QueryEvaluator.new(query, project)
+evaluator = ComplianceManagement::ComplianceChecks::QueryEvaluator.new(complex_query, project)
+result = evaluator.evaluate # Returns true or false
+
+evaluator = ComplianceManagement::ComplianceChecks::QueryEvaluator.new(simple_query, project)
 result = evaluator.evaluate # Returns true or false
 ```
 
@@ -173,12 +203,6 @@ We would store the external HTTP/HTTPS URLs for the user's external services in 
 'external' as the `check_type`.
 
 We would POST the latest project settings to these external services and expect a boolean status as the response.
-
-### Predefined checks
-
-These checks are similar to the existing ones and would be created by GitLab. These would be stored in the
-`compliance_checks` table with 'predefined' as the `check_type`. These checks are the ones that are not directly mapped
-to a project's setting such as security scanner checks like SAST and DAST.
 
 ## Workflow
 
@@ -224,8 +248,7 @@ class compliance_checks {
     description: text
     check_type: smallint
     external_url: text
-    predefined_check: smallint
-    internal_expression: jsonb
+    expression: jsonb
 }
 
 class project_compliance_adherence {
@@ -254,13 +277,13 @@ compliance_checks <-- project_compliance_adherence : belongs_to
 ```
 
 We would update the existing table `compliance_checks` with the above schema. The `check_type` column can either have
-'internal', 'external' or 'predefined' as the valid values.
+'custom' or 'external' as the valid values.
 
-The columns `internal_expression`, `predefined_check` and `external_url` are mutually exclusive and depending upon the
-`check_type` one of these columns would be non null. In an unforeseen circumstance where more than one of these columns
-are filled, we would only honour the column associated with the given check type. For example: for a row, if
-`external_url` and `internal_expression` both have values but the value of `check_type` column is 'internal', we would
-ignore the value stored in the external_url column and will consider this row as an internal check.
+The columns `expression` and `external_url` are mutually exclusive and depending upon the `check_type` one of these
+columns would be non null. In an unforeseen circumstance where more than one of these columns are filled, we would only
+honour the column associated with the given check type. For example: for a row, if `external_url` and `expression` both
+have values but the value of `check_type` column is 'custom', we would ignore the value stored in the external_url
+column and will consider this row as a custom check.
 
 We would create a new table `project_compliance_adherence` to store the results of the checks. Unlike the current
 implementation we would only store results for compliance checks for the projects that have compliance requirements
@@ -282,7 +305,7 @@ on the adherence dashboard.
 1. We should limit the maximum number of compliance frameworks a project can have.
 1. We should limit the maximum number of compliance requirements a framework can have.
 1. We should limit the maximum number of compliance checks a requirement can have.
-1. We should limit the maximum number of fields an internal expression can have.
+1. We should limit the maximum number of fields an expression can have.
 1. Without the above limitations it would be very easy for users to abuse our system leading to query timeouts
 and poor user experience.
 
