@@ -120,8 +120,8 @@ compliance_checks --> project_compliance_adherence : has_one
 projects --> project_compliance_violations : has_many
 compliance_checks --> project_compliance_violations : has_one
 project_compliance_violations --> audit_events : has_one
-security_policy_requirements --> compliance_requirements : has_many
+security_policy_requirements <-- compliance_requirements : has_many
 security_policies --> projects : has_many
 security_policies --> compliance_management_frameworks : has_many
-security_policies --> security_policy_requirements : has_many
+security_policies <-- security_policy_requirements : has_one
 ```
