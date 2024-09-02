@@ -36,7 +36,6 @@ We are a global team, and we know there are sustainability initiatives and offer
 4. Insulate your home. A leaky home is expensive! You can cut your utility bills by $500 - $1,000 just by sealing leaky windows and doors.<sup>6</sup> One easy way to do this is to use weather strips to seal windows and doors to prevent energy leakage. Check out [this guide](https://energysavingtrust.org.uk/energy-at-home/reducing-home-heat-loss/) from Energy Savings Trust for more information on other ways to insulate your home.
 5. Consider switching to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). Consult a professional to understand your options for a tankless water heater based on your house size, hot water needs, and energy source. <sup>7</sup>
 
-
 ## Waste
 
 1. Reuse. Before throwing something away, consider if you can reuse it at least one more time.
