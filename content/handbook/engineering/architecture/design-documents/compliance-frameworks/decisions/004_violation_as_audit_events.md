@@ -103,6 +103,13 @@ class security_policy_requirements {
     namespace_id bigint
 }
 
+security_policies {
+    id: bigint,
+    created_at: timestamp,
+    updated_at: timestamp,
+    ...(more columns)
+}
+
 compliance_requirements --> compliance_checks : has_many
 compliance_requirements <-- compliance_checks : belongs_to
 compliance_management_frameworks --> compliance_requirements : has_many
@@ -123,3 +130,8 @@ compliance_checks <-- project_compliance_violations : belongs_to
 audit_events <-- project_compliance_violations : has_one
 security_policy_requirements <-- compliance_requirements : has_many
 security_policy_requirements --> compliance_requirements : has_many
+security_policies --> projects : has_many
+security_policies --> compliance_management_frameworks : has_many
+security_policies <-- security_policy_requirements : has_many
+security_policies --> security_policy_requirements : has_many
+
