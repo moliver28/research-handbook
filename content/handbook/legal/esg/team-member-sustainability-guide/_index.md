@@ -34,7 +34,8 @@ We are a global team, and we know there are sustainability initiatives and offer
 2. Replace traditional heating systems, such as furnaces, boilers and baseboards with a heat pump. [Heat pumps](https://www.energy.gov/energysaver/heat-pump-systems) are 2-3x more efficient than traditional heating systems.<sup>4</sup>
 3. Turn your thermostat down. You can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting. <sup>5</sup>
 4. Insulate your home. A leaky home is expensive! You can cut your utility bills by $500 - $1,000 just by sealing leaky windows and doors.<sup>6</sup> One easy way to do this is to use weather strips to seal windows and doors to prevent energy leakage. Check out [this guide](https://energysavingtrust.org.uk/energy-at-home/reducing-home-heat-loss/) from Energy Savings Trust for more information on other ways to insulate your home.
-5. If you don't have a heatpump, consider switching to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). These are more energy efficient than conventional storage tank water heaters. <sup>7</sup>
+5. Consider switching to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). Consult a professional to understand your options for a tankless water heater based on your house size, hot water needs, and energy source. <sup>7</sup>
+
 
 ## Waste
 
