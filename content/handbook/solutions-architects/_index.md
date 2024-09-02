@@ -38,7 +38,7 @@ Here's how the SA organization fosters value creation through the lens of a lear
 - This systems thinking approach echoes the DevOps philosophy of breaking down silos and promoting cross-functional collaboration to achieve shared goals.
 - SAs also leverage these concepts to improve internal processes at GitLab.
 
-4. Challenging Mental Models & Innovation
+4. Challenging Established Mental Models & Encouraging Innovation of Thought
 
 - SAs encourage customers to question assumptions and challenge traditional ways of thinking about their processes and technologies.
 - They introduce new perspectives and innovative solutions, helping customers overcome limitations and unlock new opportunities for growth.
