@@ -14,9 +14,9 @@ and there was a violation of the requirement.
 The decision has been made to use audit events and store if at the time of the audit event the project was in violation
 of the requirement.
 
-Audit events will be created for all the possible compliance checks in GitLab. When an audit event for a project is 
-triggered the system will assess all the configured checks for that project and if there is a requirement for that 
-audit event it will store a connection between the compliance check and the audit event. 
+Audit events will be created for all the possible compliance checks in GitLab. When an audit event for a project is
+triggered the system will assess all the configured checks for that project and if there is a requirement for that
+audit event it will store a connection between the compliance check and the audit event.
 
 ## Design Details
 
@@ -50,6 +50,17 @@ class compliance_requirements {
     framework_id: bigint
     name: text
     description: text
+}
+
+class compliance_framework_security_policies {
+    id: bigint
+    created_at: timestamp
+    updated_at: timestamp
+    framework_id: bigint
+    policy_configuration_id: bigint
+    policy_index: smallint
+    project_id: bigint
+    namespace_id: bigint
 }
 
 class compliance_checks {
@@ -94,25 +105,10 @@ class audit_events {
     ...(more columns)
 }
 
-class security_policy_requirements {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    compliance_framework_security_policy_id: bigint
-    compliance_requirement_id: bigint
-    namespace_id: bigint
-}
-
-class security_policies {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    ...(more columns)
-}
-
 compliance_requirements --> compliance_checks : has_many
+compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
 compliance_management_frameworks --> compliance_requirements : has_many
-compliance_management_frameworks <--> projects : many_to_many
+compliance_management_frameworks <--> projects : has_and_belongs_to_many
 namespaces --> projects : has_many
 namespaces --> compliance_management_frameworks : has_many
 projects --> project_compliance_adherence : has_many
@@ -120,8 +116,4 @@ compliance_checks --> project_compliance_adherence : has_one
 projects --> project_compliance_violations : has_many
 compliance_checks --> project_compliance_violations : has_one
 project_compliance_violations --> audit_events : has_one
-security_policy_requirements <-- compliance_requirements : has_many
-security_policies --> projects : has_many
-security_policies --> compliance_management_frameworks : has_many
-security_policies <-- security_policy_requirements : has_one
 ```
