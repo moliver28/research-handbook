@@ -136,7 +136,7 @@ that are required to be made Routable in Phase 4: Personal Access Token, CI Job 
 
 - Currently tokens are generated with the follow pattern: `<prefix>-<random-string>`.
 - The Routable Token would change the `<random-string>` to become a `<JSON payload>` that is base64 encoded.
-- The `<payload>` encodes a easily decodable information about the cell.
+- The `<JSON payload>` contains information about the cell where the token can be used.
 - The tokens as stored and validated by the application would not change. We would still store the whole token
   as-is and validate it by value as we are doing today. This is contrary to JWT which usually a signature is used
   to validate authenticity of the token itself.
@@ -240,7 +240,7 @@ JSON header, JSON payload and signature.
       {
         "type": "header",
         "key": "CI_JOB_JWT",
-        "value": "^(.*)\.(<payload>\.(.*)$"
+        "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
       }
     ],
     "validate": [
