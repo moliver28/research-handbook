@@ -33,9 +33,7 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
 
 ## What concepts are taught in Elevate+?
 
-Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
-
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
+The updated Elevate+ experience is organized into 2 live workshops, 1:1 professional coaching, and cohort connections.
 
 ## Time Committment
 
