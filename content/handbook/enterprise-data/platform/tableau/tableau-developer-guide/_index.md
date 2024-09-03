@@ -131,7 +131,7 @@ Each workbook with views that are meant to be embedded in the public handbook mu
 
 ### Workbook Naming Convention
 
-When publishing workbooks to our Tableau Cloud site for the first time please name the workbook with their intended / official title, so that the resulting URL will capture just this title (this will allow us to keep the same URL when the workbook is published to the Ad-hoc or Production spaces):
+When publishing workbooks to our Tableau Cloud site for the first time please name the workbook with their intended / official title, so that the resulting URL will capture just this title (this will allow us to keep the same URL when the workbook is published to the Production spaces):
 
 ![''](images/naming_tableau_workbook.png)
 
@@ -151,11 +151,63 @@ Once in the Tag window, add in the *Draft* and department tags for the workbook:
 
 ![''](images/add_tags.png)
 
-Publishing to the [Ad-hoc](https://10az.online.tableau.com/#/site/gitlab/projects/361929) or [Production](https://10az.online.tableau.com/#/site/gitlab/projects/361859) project:
+## Publishing to Tableau Cloud
 
-When publishing workbooks to the Ad-hoc or Production project, if the workbook is being published for the first time, please select **Move** and then remove the *Draft* by navigating to the ellipse to the right of the workbook, select *Tag...* and then clicking on the *X* within the tag label. If publishing over / updating a workbook that is already in Ad-hoc or Production with a newer version from Development in Tableau Cloud, then select **Edit Workbook**, click on **Publish As**. Please make sure to name the workbook JUST AS it is currently named:
+There are two environments for publishing: Development and Production.
 
-![''](images/remove_tags.png)
+- **Development** is intended for testing and iterating on dashboards and data sources. This environment allows for experimentation and refinement before content is finalized.
+- **Production** is for deploying finalized content that has been validated and is ready for broader distribution and use.
+Refer to the workflow diagram below for details on the process to publish to Production.
+
+### :first_place: Procedure for Publication to Production
+
+```mermaid
+  flowchart LR
+    A["1.Developer publishes Tableau workbook or data source to a Development Folder"]
+    B["2.Developer creates a <a href='https://gitlab.com/gitlab-data/tableau/-/issues/new'><u>GitLab issue</u></a> requesting to promote to Production. *Use the issue template: Tableau Publish to Production"]
+    C["3.Developer confirms the content meets promotion criteria"]
+    D["4.Department Project Lead reviews issue and validates"]
+    E["5.Project Lead Publishes to Production"]
+
+    A  
+    subgraph Create Content
+    A
+    end
+    A ---> B
+    subgraph Verifications and Approvals 
+    B ---> C ---> D
+    end
+    D ---> E
+    subgraph Deploy
+    E
+    end
+```
+
+#### Procedure for Promotion to Production
+
+Project Leaders have the ability to promote workbooks to Production. After a content promotion issues has been reviewd and approved Project Leads should fulfill by completing the following:
+
+- If the workbook is being published for the first time
+  1. Select **Move** by navigating to the ellipse to the right of the workbook
+  1. From the pop-up window select the appropriate department folder for the workbook promotion. Be sure to place sensitive workbooks in SAFE or restricted folders. 
+  1. If the workbook title contains \[Draft\], rename the workbook and remove *Draft* from the title. The workbook may have a tag `Draft` which should also be removed by clicking the ellipse and selecting **Tags**. The associated tag can then be removed by clicking the `X` next to the tag.
+- If publishing over / updating a workbook that is already Production with a newer version from Development in Tableau Cloud then:
+  1. Select **Edit Workbook**
+  1. Click on **Publish As**
+  1. Please make sure to name the workbook JUST AS it is currently named and select the corresponding Production folder.
+  1. Updating in this manner will retain revision history, viewership counts, and custom views. Although updating this way  will place the workbook in your name. To change the owner to the original developer complete the following:
+     1. Click the ellipse next to the workbook title and click **Change Owner**
+     1. Select the proper **owner** for the workbook
+     1. When workbook ownership is changed in Tableau, for security reasons Tableau will drop data source credentials. In order to resolve this
+        1. On the Workbook click **Data Sources**
+        1. Click the elipse next to each data source
+        1. Click **Edit Connection**
+        1. From the pop-up click **Embedded credentials in the connection**
+        1. From the drop down select your name and select **Save**
+      
+     1. When updating a workbook in Production will leave the original workbook in Development. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored. 
+
+## Tags
 
 Applying tags allows us to provide more information on the workbook, so that we can easily discern them by their business function / department and distinguish draft content that is still in development. To filter workbooks by their tags, please click on the search box in the upper right-hand corner of the project. it/data-team/ **Content types** select **Workbooks**:
 
@@ -165,7 +217,7 @@ Once in the Workbooks section, click on the **Tags** dropdown to filter content 
 
 ![''](images/filter_tags.png)
 
-### Workbook and Data Source Descriptions
+## Workbook and Data Source Descriptions
 
 Adding a description to a workbook or data source in Tableau enhances clarity and usability by providing context and helping users quickly grasp the content's purpose. Descriptions should be concise, ideally 1-2 sentences, and clearly outline the intended use case for the content.
 
@@ -178,7 +230,7 @@ How to add a description:
 
 ![''](images/edit_content_description.png)
 
-### Performance Indicators
+## Performance Indicators
 
 The full code for embedding performance indicators into the handbook is typically not found on the same page as where the actual indicators are displayed. Instead, you might find something like this:
 
@@ -196,7 +248,7 @@ Two reminders, first - *make sure that any public views (does not need login acc
 
 Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
 
-#### YML
+### YML
 
 The `data/performance_indicators.yml` file in the handbook repositories is the basis for a system that automatically generates handbook pages with performance indicator content on them.  The structure can take a list of charts and each chart can take a list of filters and parameters.  Only charts not tagged as public should be included on internal handbook pages. The following is an example of how to add the needed information to the data file:
 
@@ -262,7 +314,7 @@ Create a Data Source filter using the `USERNAME()` function and the `tableau_use
 
 ![''](images/data_source_filter.png)
 
-## Guidelines for Publishing Extracts to Production and Ad-Hoc Projects
+## Guidelines for Publishing Extracts
 
 1. **Data Source Live vs. Extract** - Extracts are primarily a performance optimization tool and should not be the default choice. Use Live Connections by default, and consider Extracts only in the following situations:
 
@@ -281,8 +333,6 @@ Create a Data Source filter using the `USERNAME()` function and the `tableau_use
    - **Filter Data** - Apply filters to include only relevant data in the extract. This can help reduce size and improve refresh times.
   
    - **Use Incremental Refreshes** - For large datasets, configure incremental refreshes instead of full refreshes. This updates only the new or changed data, which is more efficient. Consider using Tableau Prep to implement incremental and merge/update refreshes.
-
-1. **Clean up** - After an extract is published to the Production or Ad-Hoc Project, delete the corresponding Extract from the development folder. 
 
 1. **Extract Refresh Suspension** - Tableau Cloud will automatically suspend data sources that remain unused for 30 days.
 
