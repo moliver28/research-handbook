@@ -98,7 +98,19 @@ In the niche use-case that you want an Explorer without Snowflake access to be a
  ![sign in screen](images/singin.png)
 
  ### Common Connection Errors and How to Solve Them
- 
+
+ Are you or one of your users experiencing an error screen when trying to access Tableau? See if the issue is on this list, and how to resolve it.
+
+ 1. "Confirm that you have provided valid credentials for this data source. Tableau detected that your OAuth refresh token is expired. Reauthenticate with new credentials. Ask your Tableau admin if you need help" and "This sheet uses data that's on a Snowflake database. You need to sign into that server".
+
+ This error message can be challenging to diagnose, as it can be the result of numerous causes. 
+
+| Cause                     | Solution             | 
+|---------------------------|----------------------|
+|The developer used a local, live connection         | [Follow these steps](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
+| Data Team Project Leaders | Administrator Group  |
+| Data Team                 | Access Control Group |
+| All Team Members          | Access Control Group |
 
 ## Embedding in the Handbook
 
