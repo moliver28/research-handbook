@@ -164,17 +164,17 @@ For more technical details, please check [Language selector initial implementati
 
 ## Core Web Vitals (CWV) Testing Documentation
 
-#### Overview
+### Overview
 
 Core Web Vitals (CWV) are a set of metrics that Google considers essential for a healthy website. These metrics measure key aspects of user experience, including loading performance, interactivity, and visual stability. CWV is critical as it directly impacts SEO rankings and overall user satisfaction.
 
-#### Key Metrics in CWV
+### Key Metrics in CWV
 
--   **Largest Contentful Paint (LCP):** Measures loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
--   **First Input Delay (FID):** Measures interactivity. To provide a good user experience, pages should have an FID of less than 100 milliseconds.
--   **Cumulative Layout Shift (CLS):** Measures visual stability. To provide a good user experience, pages should maintain a CLS of less than 0.1.
+- **Largest Contentful Paint (LCP):** Measures loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
+- **First Input Delay (FID):** Measures interactivity. To provide a good user experience, pages should have an FID of less than 100 milliseconds.
+- **Cumulative Layout Shift (CLS):** Measures visual stability. To provide a good user experience, pages should maintain a CLS of less than 0.1.
 
-#### CWV Testing Procedure
+### CWV Testing Procedure
 
 When you makes changes that might affect CWV, it is crucial to perform before and after tests to measure the impact of those changes. Here’s the process:
 
@@ -194,15 +194,15 @@ When you makes changes that might affect CWV, it is crucial to perform before an
     - For significant changes, it may take approximately **one week** after the change is merged for Google Search Console to reflect the impact on CWV based on real user data.
     - Monitoring these metrics in Google Search Console helps to confirm whether the changes have had the desired effect on actual site users.
 
-#### Reporting and Follow-Up
+### Reporting and Follow-Up
 
--   After the testing is completed, results will be documented and shared with the team.
--   Any necessary adjustments or further optimizations based on the test results will be discussed and implemented accordingly.
+- After the testing is completed, results will be documented and shared with the team.
+- Any necessary adjustments or further optimizations based on the test results will be discussed and implemented accordingly.
 
-#### Best Practices
+### Best Practices
 
--   Always initiate CWV testing for any changes that could impact loading performance, interactivity, or visual stability.
--   Utilize DebugBear for reliable monitoring, avoiding the use of Lighthouse in DevTools due to its inconsistencies.
--   Regularly monitor Google Search Console for any unexpected changes in CWV metrics.
+- Always initiate CWV testing for any changes that could impact loading performance, interactivity, or visual stability.
+- Utilize DebugBear for reliable monitoring, avoiding the use of Lighthouse in DevTools due to its inconsistencies.
+- Regularly monitor Google Search Console for any unexpected changes in CWV metrics.
 
 By following these guidelines, we ensure that any changes made to the website are thoroughly tested for their impact on user experience, maintaining a high standard for CWV across all pages.
