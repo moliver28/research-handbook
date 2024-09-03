@@ -268,7 +268,7 @@ Potentially we could also support checking JWT signature:
       {
         "type": "header",
         "key": "CI_JOB_JWT",
-        "value": "^(?<jwt_token>.*\.(?<payload>)\..*)$"
+        "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
       }
     ],
     "validate": [
