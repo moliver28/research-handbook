@@ -105,12 +105,11 @@ In the niche use-case that you want an Explorer without Snowflake access to be a
 
  This error message can be challenging to diagnose, as it can be the result of numerous causes. 
 
-| Cause                     | Solution             | 
+| Cause                     | Solution/Prevention             | 
 |---------------------------|----------------------|
-|The developer used a local, live connection         | [Follow these steps](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
-| Data Team Project Leaders | Administrator Group  |
-| Data Team                 | Access Control Group |
-| All Team Members          | Access Control Group |
+|The developer used a local, live connection         | [Follow these steps.](handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
+| The credential is truly expired (it was published weeks ago) | Refresh the credentials, or publish the content to production, so the data team can manage and cycle the credentials. |
+| The last person to publish changes to the workbook/data source forgot to embed their credentials when publishing.                | [Follow these steps when publishing.](handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)|
 
 ## Embedding in the Handbook
 
