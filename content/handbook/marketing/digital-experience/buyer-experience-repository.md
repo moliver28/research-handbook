@@ -1,7 +1,7 @@
 ---
 title: Buyer Experience Repository
 description: >-
-    Learn more about the Buyer Experience repository.
+  Learn more about the Buyer Experience repository.
 ---
 
 ## Overview
@@ -36,11 +36,11 @@ See the [Marketing Site Information Architecture Refresh epic](https://gitlab.co
 
 Other keywords that may help folks find this section when searching the handbook:
 
--   Missing content on the marketing website
--   My changes in the website get overwritten
--   Can't find my files anymore
--   Files were moved
--   Information architecture migrated my content
+- Missing content on the marketing website
+- My changes in the website get overwritten
+- Can't find my files anymore
+- Files were moved
+- Information architecture migrated my content
 
 In order to meet the goals of the information architecture refresh and serve the business, the Digital Experience team will need to move existing content, and in some cases, remove existing content.
 
@@ -116,16 +116,16 @@ A manual/scheduled pipeline job will be run at the end of each iteration cycle, 
 
 Here is the list of types that can be used in the commit message:
 
--   **build**: Changes that affect the build system
--   **chore**: Changes to external dependencies (gulp, npm)
--   **ci**: Changes to our CI configuration files and scripts (gitlab-ci)
--   **docs**: Documentation only changes
--   **feat**: A new feature
--   **fix**: A bug fix
--   **perf**: A code change that improves performance
--   **refactor**: A code change that neither fixes a bug nor adds a feature
--   **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
--   **test**: Adding missing tests or correcting existing tests
+- **build**: Changes that affect the build system
+- **chore**: Changes to external dependencies (gulp, npm)
+- **ci**: Changes to our CI configuration files and scripts (gitlab-ci)
+- **docs**: Documentation only changes
+- **feat**: A new feature
+- **fix**: A bug fix
+- **perf**: A code change that improves performance
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- **test**: Adding missing tests or correcting existing tests
 
 Here are some commit message examples and how they affect the version increase:
 
