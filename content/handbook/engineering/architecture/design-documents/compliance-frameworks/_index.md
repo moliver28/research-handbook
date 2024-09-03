@@ -141,6 +141,17 @@ class compliance_requirements {
     description: text
 }
 
+class compliance_framework_security_policies {
+    id: bigint
+    created_at: timestamp
+    updated_at: timestamp
+    framework_id: bigint
+    policy_configuration_id: bigint
+    policy_index: smallint
+    project_id: bigint
+    namespace_id: bigint
+}
+
 class compliance_checks {
     id: bigint
     created_at: timestamp
@@ -162,6 +173,7 @@ class project_compliance_standards_adherence {
 
 compliance_requirements --> compliance_checks : has_many
 compliance_requirements <-- compliance_checks : belongs_to
+compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
 compliance_management_frameworks --> compliance_requirements : has_many
 compliance_management_frameworks <-- compliance_requirements : belongs_to
 compliance_management_frameworks <--> projects : many_to_many
