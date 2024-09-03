@@ -46,9 +46,9 @@ and complete the issue.
   * [Customer-dot](https://customers.staging.gitlab.com/)
 * CI environments
   * Main - Slack channel [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM)
-  * Performance - Slack channel [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49)
+  * Performance - Slack channel [#gpt-performance-run](https://gitlab.slack.com/archives/CH8J9EG49)
 * Code Review
-  * [Quality team's code review checklists](https://gitlab.com/gitlab-org/quality/code-review-checklists)
+  * [Test Platform team's code review checklists](https://gitlab.com/gitlab-org/quality/code-review-checklists)
 
 ### Slack channels
 
@@ -66,7 +66,7 @@ These internal Slack channels may be helpful to join.
   * [#e2e-run-staging](https://gitlab.slack.com/messages/CBS3YKMGD) -  channel with  end-to-end test results for run against staging.gitlab.com
   * [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ) - channel with end-to-end test results for run against staging-ref.gitlab.com
   * [#e2e-run-production](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with end-to-end test results for run against gitlab.com
-  * [#qa-performance](https://gitlab.slack.com/messages/CH8J9EG49) - channel with performance testing results
+  * [#gpt-performance-run](https://gitlab.slack.com/messages/CH8J9EG49) - channel with performance testing results
   * [#quality-reports](https://gitlab.slack.com/archives/C02MH85L5EF) - channel with various end-to-end test metrics reports
 * Company
   * [#product](https://gitlab.slack.com/messages/C0NFPSFA8) - observe and interact with members of the product team
