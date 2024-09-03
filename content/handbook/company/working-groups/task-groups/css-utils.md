@@ -38,10 +38,12 @@ factors:
 
 ### Roles and Responsibilities
 
-| Task Group Role | Person                   | Title                                                |
-| --------------- | ------------------------ | ---------------------------------------------------- |
-| DRI             | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Manage::Foundations        |
-| Member          | Florie Guibert           | Senior Frontend Engineer, Plan::Product Planning     |
-| Member          | José Iván Vargas López   | Senior Frontend Engineer, Verify::Pipeline Execution |
-| Member          | Peter Hegman             | Senior Frontend Engineer, Data Stores::Tenant Scale  |
-| Member          | Savas Vedova             | Senior Frontend Engineer, Govern::Threat Insights    |
+| Task Group Role | Person                   | Title                                                        |
+| --------------- | ------------------------ | ------------------------------------------------------------ |
+| DRI             | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity |
+| Member          | Florie Guibert           | Senior Frontend Engineer, Plan::Product Planning             |
+| Member          | José Iván Vargas López   | Senior Frontend Engineer, Verify::Pipeline Execution         |
+| Member          | Peter Hegman             | Senior Frontend Engineer, Data Stores::Tenant Scale          |
+| Member          | Savas Vedova             | Staff Frontend Engineer, Govern::Threat Insights             |
+| Member          | Vanessa Otto             | Senior Frontend Engineer, Foundations::Design System         |
+| Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity  |
