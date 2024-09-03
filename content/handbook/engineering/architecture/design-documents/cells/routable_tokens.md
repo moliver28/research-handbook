@@ -275,7 +275,7 @@ Potentially we could also support checking JWT signature:
       {
         "type": "jwt-signature",
         "key": "env.GITLAB_CI_JWT_PUBLIC_KEY",
-        "value": "{jwt_token}"
+        "value": "{headers}.{payload}"
       },
       {
         "type": "base64-json",
@@ -325,10 +325,10 @@ end
 
 This change would imply the following:
 
-- A strategy is meant to only implement a single way to store encrypted information. As such a new strategy
+- A strategy is meant to only implement a single way to store encrypted information. As a result, a new strategy
   should be introduced if encryption scheme changes.
-- A `legacy_*` strategies depends on usage of `db_key_base`.
-- A `legacy_*` can only be used as a `fallback_strategy`.
+- A `legacy_*` strategy depends on the usage of `db_key_base`.
+- A `legacy_*` strategy can only be used as a `fallback_strategy`.
   As such legacy strategies cannot be used to store new data.
 - A new strategy `generated_nonce` is introduced that supports new `secrets.yml:encryption_keys` which retains
   information about used encryption key hash.
@@ -388,4 +388,4 @@ they can be migrated. This to be happen by the organization itself.
 
 ## References
 
-- https://docs.gitlab.com/ee/security/token_overview.html#token-prefixes
+- https://docs.gitlab.com/ee/security/tokens/index.html#token-prefixes
