@@ -205,7 +205,7 @@ Project Leaders have the ability to promote workbooks to Production. After a con
         1. From the pop-up click **Embedded credentials in the connection**
         1. From the drop down select your name and select **Save**
       
-      1. When updating a workbook in Production will leave the original workbook in Development. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored. 
+     1. When updating a workbook in Production will leave the original workbook in Development. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored. 
 
 ## Tags
 
