@@ -97,29 +97,35 @@ In the niche use-case that you want an Explorer without Snowflake access to be a
 
  ![sign in screen](images/singin.png)
 
- ### Common Connection Errors and How to Solve Them
+### Common Connection Errors and How to Solve Them
 
  Are you or one of your users experiencing an error screen when trying to access Tableau? See if the issue is on this list, and how to resolve it.
 
- 1. "Confirm that you have provided valid credentials for this data source. Tableau detected that your OAuth refresh token is expired. Reauthenticate with new credentials. Ask your Tableau admin if you need help" and "This sheet uses data that's on a Snowflake database. You need to sign into that server".
+1. "Confirm that you have provided valid credentials for this data source. Tableau detected that your OAuth refresh token is expired. Reauthenticate with new credentials. Ask your Tableau admin if you need help" and "This sheet uses data that's on a Snowflake database. You need to sign into that server".
 
- This error message can be challenging to diagnose, as it can be the result of numerous causes. Unfortunately, there is no easy way to diagnose which possible cause is the reason you are seeing this message when it occurs.
+   This error message can be challenging to diagnose, as it can be the result of numerous causes. Unfortunately, there is no easy way to diagnose which possible cause is the reason you are seeing this message when it occurs.
 
-| Cause                     | Solution/Prevention             | 
-|---------------------------|----------------------|
-|The developer used a local, live connection         | [Follow these steps.](/handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
-| The last person to publish changes to the workbook/data source forgot to embed their credentials when publishing.                | [Follow these steps when publishing.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)|
-| The credential is truly expired (it was published weeks ago) | Refresh the credentials, or publish the content to production, so the data team can manage and cycle the credentials. |
+  | Cause                     | Solution/Prevention             | 
+  |---------------------------|----------------------|
+  |The developer used a local, live connection         | [Follow these steps.](/handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
+  | The last person to publish changes to the workbook/data source forgot to embed their credentials when publishing.                | [Follow these steps when publishing.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)|
+  | The credential is truly expired (it was published weeks ago) | Refresh the credentials, or publish the content to production, so the data team can manage and cycle the credentials. |
 
 2. "Upon trying to sign in to view a dashboard, you recieve the error message "invalid consent request".
 
-This generally occurs because you do not have access to something you are trying to view. This can be:
-- The a database or table the view is built off of.
-- The credentials the developer embedded into the workbook. [See here.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)
+  This generally occurs because you do not have access to something you are trying to view. This can be:
+  - The a database or table the view is built off of.
+  - The credentials the developer embedded into the workbook. [See here.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)
 
-If the last person to publish the data source / workbook followed the steps linked above for correctly embedding their credentials, then it is likely an access issue. The simplest solution would be for the developer to publish the connection as a published and extracted data source.
+  __Solution:__ If the last person to publish the data source / workbook followed the steps linked above for correctly embedding their credentials, then it is likely an access issue. The simplest solution would be for the developer to publish the connection as a published and extracted data source.
 
-If you need access and using an extracted connection is not suitable, you can check with the developer if they used a "large" warehouse which you do not have access to, or if there are non-standard tables used in the workbook that have restricted access.
+  If you need access and using an extracted connection is not suitable, you can check with the developer if they used a "large" warehouse which you do not have access to, or if there are non-standard tables used in the workbook that have restricted access.
+
+3. "An unexpected error occurred. If you continue to receive this error please contact your Tableau Server Administrator" combined with "TableauException: ERROR: The field '[name]' in the datasource 'sqlproyx._______' does not exist in your database. It was either modified or removed. Would you like to reset the view?".
+
+  This indicates that the connection is looking for a column that does not exist/ is broken. It may have been dropped or modified in Snowflake, and now those changes are causing a breakage in Tableau.
+
+  __Solution:__ Contact the owner of the workbook for assistance. The easiest way to resolve errors like this is by downloading a local copy of the data source or workbook to Tableau Desktop and deleting or replacing the fields there. 
 
 ## Embedding in the Handbook
 
