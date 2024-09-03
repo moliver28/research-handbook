@@ -48,7 +48,7 @@ DRI: {{< member-by-gitlab "nmccorrison" >}}
 
 DRI: {{< member-by-gitlab "ryaanwells" >}}
 
-{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
+{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" "srushik" "anarinesingh" >}}
 
 ### AI
 
