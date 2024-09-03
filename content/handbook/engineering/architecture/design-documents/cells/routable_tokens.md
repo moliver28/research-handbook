@@ -10,7 +10,7 @@ used by Cells.
 
 ## Purpose
 
-GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication).
+GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/token_overview.html).
 Tokens have different scopes as for example User, [project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), and [group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
 
 [HTTP Routing Service](http_routing_service.md) require the tokens to be routable,
@@ -67,6 +67,7 @@ end
 All places that are today using `TokenAuthenticatable`:
 
 ```ruby
+$ grep -r --include="*.rb" add_authentication_token_field app/models/ ee/app/models/
 app/models/application_setting.rb:  add_authentication_token_field :runners_registration_token, encrypted: :required
 app/models/application_setting.rb:  add_authentication_token_field :health_check_access_token
 app/models/application_setting.rb:  add_authentication_token_field :static_objects_external_storage_auth_token, encrypted: :required
@@ -156,7 +157,7 @@ def generate_pat(user, project)
     c: Gitlab.cell.id,
     o: project.organization_id,
     u: user.id,
-    r: Devise.friendly_token(16)
+    r: Devise.friendly_token
   }
 
   payload = params.map { |k, v| "#{k}#{v}" }.join("\n")
@@ -259,7 +260,10 @@ JSON header, JSON payload and signature.
 ]
 ```
 
-Potentially we could also support checking JWT signature:
+Potentially we could also support checking JWT signature. However, this
+does require HTTP Router to be aware of JWT secrets in order to validate signature.
+Since signature check is an expensive operation this will have meaningful impact
+on CPU compute cost:
 
 ```json
 [
@@ -340,6 +344,7 @@ This change would imply the following:
   all existing legacy tokens to `<token>_payload_json`.
 - The usage of `json` would allow us to add temporary or permanent indexes to look for
   all tokens using a particular `key_hash`.
+- The usage of `routable_token` can be controlled with feature flags to ensure safe rollout.
 
 The `secrets.yml` structure:
 
