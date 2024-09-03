@@ -103,13 +103,13 @@ In the niche use-case that you want an Explorer without Snowflake access to be a
 
  1. "Confirm that you have provided valid credentials for this data source. Tableau detected that your OAuth refresh token is expired. Reauthenticate with new credentials. Ask your Tableau admin if you need help" and "This sheet uses data that's on a Snowflake database. You need to sign into that server".
 
- This error message can be challenging to diagnose, as it can be the result of numerous causes. 
+ This error message can be challenging to diagnose, as it can be the result of numerous causes. Unfortunately, there is no easy way to diagnose which possible cause is the reason you are seeing this message when it occurs.
 
 | Cause                     | Solution/Prevention             | 
 |---------------------------|----------------------|
 |The developer used a local, live connection         | [Follow these steps.](handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
-| The credential is truly expired (it was published weeks ago) | Refresh the credentials, or publish the content to production, so the data team can manage and cycle the credentials. |
 | The last person to publish changes to the workbook/data source forgot to embed their credentials when publishing.                | [Follow these steps when publishing.](handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)|
+| The credential is truly expired (it was published weeks ago) | Refresh the credentials, or publish the content to production, so the data team can manage and cycle the credentials. |
 
 ## Embedding in the Handbook
 
