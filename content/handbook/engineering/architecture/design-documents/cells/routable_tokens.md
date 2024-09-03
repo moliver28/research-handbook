@@ -44,7 +44,7 @@ This document focuses only on Routable Tokens, not secrets stored at rest, like 
 
 ### Encryption keys
 
-All (or almost all) tokens today are encrypted with a single `db_key_base` secret stored in `secrets.yml`.
+All (or almost all) tokens today are encrypted at rest (in the database) with a single `db_key_base` secret stored (unencrypted) in `secrets.yml` on disk.
 This single secret used makes it impossible to rotate tokens for a live system.
 
 ## Existing implementation
@@ -135,7 +135,7 @@ for which the token is attached. This document does focus specifically first on 
 that are required to be made Routable in Phase 4: Personal Access Token, CI Job Token and CI Runner Token:
 
 - Currently tokens are generated with the follow pattern: `<prefix>-<random-string>`.
-- The Routable Token would change the `<random-string>` to become a `<payload>` that is base64 encoded.
+- The Routable Token would change the `<random-string>` to become a `<JSON payload>` that is base64 encoded.
 - The `<payload>` encodes a easily decodable information about the cell.
 - The tokens as stored and validated by the application would not change. We would still store the whole token
   as-is and validate it by value as we are doing today. This is contrary to JWT which usually a signature is used
