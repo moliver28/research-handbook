@@ -19,13 +19,14 @@ Engineering Manager: Kassandra Svoboda
 | S.No     | Section                   | Stage/ Group/ Tool         | SET Counterpart    |
 |------    |-------------------------|----------------------------|--------------------|
 | 1        | [Core Platform](/handbook/product/categories/#core-platform-section)          | [Data Stores](/handbook/product/categories/#data-stores-stage)              | John McDonnell     |
-| 2     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Tenant Scale](/handbook/product/categories/#tenant-scale-group)             | Andy Hohenner      |
-| 3     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Systems](/handbook/product/categories/#systems-stage)                  | Vishal Patel       |
-| 4     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Geo](/handbook/product/categories/#geo-group)                      | Nick Westbury      |
-| 5        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [GitLab Dedicated](/handbook/product/categories/#gitlab-dedicated-group)         | Brittany Wilkerson |
-| 6        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [US Public Sector Services](/handbook/product/categories/#us-public-sector-services-group) | Jim Baumgardner    |
-| 7        |          -              | [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) & [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures)  | Grant Young    |
-| 8        |          -              | [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)   | Nailia Iskhakova    |
+| 2        | [Core Platform](/handbook/product/categories/#core-platform-section)          | [Foundations](/handbook/product/categories/#foundations-stage)              | Nivetha Prabakaran   |
+| 3     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Tenant Scale](/handbook/product/categories/#tenant-scale-group)             | Andy Hohenner      |
+| 4     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Systems](/handbook/product/categories/#systems-stage)                  | Vishal Patel       |
+| 5     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Geo](/handbook/product/categories/#geo-group)                      | Nick Westbury      |
+| 6        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [GitLab Dedicated](/handbook/product/categories/#gitlab-dedicated-group)         | Brittany Wilkerson |
+| 7        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [US Public Sector Services](/handbook/product/categories/#us-public-sector-services-group) | Jim Baumgardner    |
+| 8        |          -              | [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) & [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures)  | Grant Young    |
+| 9        |          -              | [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)   | Nailia Iskhakova    |
 
 ## OKRs
 
