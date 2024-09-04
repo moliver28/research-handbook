@@ -114,6 +114,6 @@ namespaces --> compliance_management_frameworks : has_many
 projects --> project_compliance_adherence : has_many
 compliance_checks --> project_compliance_adherence : has_one
 projects --> project_compliance_violations : has_many
-compliance_checks --> project_compliance_violations : has_one
+compliance_checks --> project_compliance_violations : has_many
 project_compliance_violations --> audit_events : has_one
 ```
