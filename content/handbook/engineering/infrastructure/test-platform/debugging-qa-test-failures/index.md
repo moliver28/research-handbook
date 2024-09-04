@@ -654,7 +654,8 @@ Here is an [example quarantine merge request](https://gitlab.com/gitlab-org/gitl
 If a test is placed under quarantine, it is important to specify *why*. By specifying a quarantine type we can see
 quickly the reason for the quarantine.
 
-The report accepts the quarantine types below:
+Below is a list of quarantine types you may use, and their purpose. If the reason for quarantine is not listed
+below, please consider contributing to this list:
 
 | Quarantine Type | Description |
 | --------------- | ----------- |
@@ -665,6 +666,7 @@ The report accepts the quarantine types below:
 | `:waiting_on` | This test is quarantined temporarily due to an issue or MR that is a prerequisite for this test to pass |
 | `:investigating` | This test is a `:flaky` test but it might be blocking other MRs and so should be quarantined while it's under investigation |
 | `:test_environment` | This test is failing due to problems with the test environment and will not be fixed within 24 hours |
+| `:dependency` | This test is failing due to an external dependency the test is reliant on, but is outside of GitLab's control |
 
 > **Note**: Be sure to attach an `issue` to the quarantine metadata. We use this issue for tracking the average age of the quarantined tests.
 
