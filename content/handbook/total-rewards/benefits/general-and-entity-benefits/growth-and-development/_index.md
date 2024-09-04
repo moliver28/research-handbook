@@ -67,7 +67,9 @@ Please go back and close your G&D issue once you have received reimbursement for
 
 Growth & Development requests follow a reimbursement workflow. Approved experiences will be reimbursed upon completion. *This means requestors carry the financial responsibility associated with the growth experience through completion*.
 
-As an option, requests over $1,000 USD can take advantage of the split disbursement option designed to help team members carry the financial lift of costly experiences. The split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
+#### 50% Upfront Reimbursement
+
+As an option, all requests can take advantage of a split disbursement option designed to help team members carry the financial lift of costly experiences. This split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
 
 Here's how this workflow works:
 
