@@ -1,10 +1,10 @@
 ---
-title: "Tech Lead at GitLab"
+title: "Technical Leads at GitLab"
 ---
 
-## Tech Lead at GitLab
+## Technical Leads
 
-At GitLab, Tech Lead is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
+At GitLab, a Technical Lead ("Tech Lead") is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
 about "Tech Lead" as an archetype we mean that Staff+ Engineers at GitLab are
 supposed to exhibit patterns of behavior that make them act as technical
 leaders, who partner with Engineering Managers and Product Managers to support
