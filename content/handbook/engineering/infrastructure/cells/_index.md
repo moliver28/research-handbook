@@ -82,11 +82,38 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 [Sabrina Farmer](https://gitlab.com/sabrinafarmer)
 
 </td>
-<td>Executive Sponsor</td>
+<td>CTO</td>
 <td>
-
+1. Executive Sponsor
 </td>
 </tr>
+
+<tr>
+<td>
+
+[Mek Stittri](https://gitlab.com/meks)
+
+</td>
+<td>VP of Technical Infrastructure</td>
+<td>
+1. Engineering DRI
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+[Gerardo Lopez-Fernandez](https://gitlab.com/glopezfernandez )
+
+</td>
+<td>Engineering Fellow</td>
+<td>
+1. Responsible for overall technical architecture planning
+</td>
+</tr>
+
+
 <tr>
 <td>
 
@@ -108,7 +135,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <td>
 
 1. Liaison between project team and cross-functional engineering leaders
-2. Coordinating temporary staffing arrangements within the Data Stores stage
+2. Responsible for staffing plan for the cells project
 
 </td>
 </tr>
@@ -189,6 +216,13 @@ DRI of Expansion Software Development
 </tr>
 
 </table>
+
+## Cells Phased Execution
+
+We have adopted a phased execution where each phases represent serialized deliveries of Cells-related infrastructure and functionality. This structure has provided clarity between the inter-dependencies and allows us to assign engineering leads to lead each phases.
+
+
+
 
 ## Cells 1.0
 
