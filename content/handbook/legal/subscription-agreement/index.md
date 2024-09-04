@@ -16,7 +16,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 “Acceptance” of an Order Form shall occur at the earliest of the following: (a) execution of an Order Form, (b) reference to an Order Form Quote No. within a purchase order or similar document, or (c) the use of Software.
 
-“Additional Terms” are separate terms and conditions governing Customer’s accesupdates to and use of certain (a) features in the Software, , or (b) Supplemental Services available for purchase,  as set forth here: <https://about.gitlab.com/terms/>.
+“Additional Terms” are separate terms and conditions governing Customer’s access to and use of certain (a) features in the Software, or (b) Supplemental Services available for purchase,  as set forth here: <https://about.gitlab.com/terms/>.
 
 “Add-On User(s)” are additional Users in excess of those that have been purchased under a Subscription via an executed Order Form or web-portal purchase.
 
@@ -68,7 +68,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 “Subscription Term” shall begin on the Subscription Start Date and continue for twelve (12) months, unless the term length is otherwise agreed to in an Order Form or web-portal purchase.
 
-“Supplemental Services” means additional capacity, functionality, storage, professional and success services and/or other elements that Customer may procure separately for additional Fees.   Supplemental Services may be purchased by Order Form,web-portal, or statement of work as applicable. Supplemental Services will be: (i) provided as a separate line item in an Order Form or web-portal purchase, and (ii) co-termed to the underlying Subscription Term if not purchased on the Subscription Start Date.
+“Supplemental Services” means additional capacity, functionality, storage, professional and success services and/or other elements that Customer may procure separately for additional Fees.   Supplemental Services may be purchased by Order Form, web-portal, or statement of work as applicable. Supplemental Services will be: (i) provided as a separate line item in an Order Form or web-portal purchase, and (ii) co-termed to the underlying Subscription Term if not purchased on the Subscription Start Date.
 
 "Testing Features” means the experiment, alpha, or beta features that are not ready for production use as further described in Section 15.3.
 
@@ -298,7 +298,7 @@ Customer Success Services include additional assistance with respect to Customer
 
 ## APPENDIX 2: Software as a Service (SaaS) Offering
 
-With respect to Customer’s purchase and/or use of the SaaS Software , the following additional terms shall apply.
+With respect to Customer’s purchase and/or use of the SaaS Software, the following additional terms shall apply.
 
 ### AVAILABILITY
 
