@@ -13,11 +13,19 @@
   {{- end }}
 {{- end }}
 
+<!-- {{< team-by-manager-role "Engineering Manager(.*)Manage:Import and Integrate" >}} -->
+{{- /* Find any characters past the '(.*)' in the managerRole and store as teamRole */}}
+{{- $teamRole := index (findRE `\(\.\*\)(.*)` $managerRole) 1 }}
+
 {{- $manager := index (where site.Data.public.team "role" "like" $managerRole) 0 }}
 {{- $members := slice }}
-{{- $members = where site.Data.public.team "reports_to" "eq" $manager.slug }}
-{{- with (.Get "team") }}
-  {{- $members = where $members "role" "like" . }}
+{{- if eq $manager "" }}
+  {{- $members = where site.Data.public.team "role" "like" $teamRole }}
+{{- else }}
+  {{- $members = where site.Data.public.team "reports_to" "eq" $manager.slug }}
+  {{- with (.Get "team") }}
+    {{- $members = where $members "role" "like" . }}
+  {{- end }}
 {{- end }}
 
 <table>
