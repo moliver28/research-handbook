@@ -51,7 +51,7 @@ In System Preferences, navigate to Keyboard settings and click "Customize Contro
 1. Click on the Apple logo  menu
 1. Click "Lock Screen"
 
-Alternatively, you can use the keyboard shortcut `⌃+⌘+Q` (`ctrl+cmd+Q`).
+Alternatively, you can use the keyboard shortcut `⌃+⌘+Q` (`ctrl+cmd+Q`) or press Touch ID, if it’s available on your Mac or Magic Keyboard.
 
 ### On your macOS Touch Bar
 
