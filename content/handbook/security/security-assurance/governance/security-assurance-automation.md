@@ -138,6 +138,38 @@ During the this stage, code is written to satisfy the requirements of a particul
 
 Security Assurance Automation Engineers run tests on their code to identify bugs, vulnerabilities, and usability conflicts.
 
+#### Coding Standards
+
+When developing software, our high level objective is to follow [The Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python), which is a part of core Python and can be accessed by simply importing the `this` module. For example, at the CLI execute: `python -c "import this"`.
+
+Based upon technical requirements, scope, and customer deadlines, our standards can be grouped into two categories: `Scripts` and `Modules`. From a high level, a `script` is a `.py` file which is intended to be executed directly while a `module` is a `.py` file (or set of files) which is published to a PyPi registry & imported into `scripts` to provide more in-depth functionality.
+
+The general philosophy is to solve new requests via scripts, which live in the [scripts repository](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/scripts) and once enough commonality is seen across multiple scripts, the functionality can be converted to a module, in an independent repository.
+
+Templates for each of these will be found under the [SAA Project Templates](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/project-templates) subgroup.
+
+The `.gitlab-ci.yml` of module repositories will be used to test and package the code then publish it to Gitlab's [PyPi Registry](https://docs.gitlab.com/ee/user/packages/pypi_repository/). Meanwhile, in the scripts repo, LINT and security scanning will be the focus. Finally, scheduled / periodic executions should be managed in projects created under the SAA [schedules](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/schedules) subgroup. 
+
+Below is a list of libraries we use to assist with standardization:
+
+  1) All Projects
+     - GitLab REST API Connection: [python-gitlab](https://python-gitlab.readthedocs.io/en/stable/)
+     - Logging: [loguru](https://loguru.readthedocs.io/en/stable/)
+     - Test Framework: [pytest](https://docs.pytest.org/en/stable/)
+     - Test Coverage: [coverage](https://coverage.readthedocs.io/en/coverage-5.3/)
+        - Test Coverage (Badge): [coverage-badge](https://github.com/nedbat/coveragepy-badge)
+     - LINT & Code Format: [ruff](https://docs.astral.sh/ruff/configuration/#pyprojecttoml-discovery) 
+     - [Pre-Commit Hooks](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/-/wikis/Pre-Commit-Hooks)
+  2) Scripts
+     - Dependency Management: [Pipenv](https://pipenv.pypa.io/en/latest/)
+     - CLI: [argparse](https://docs.python.org/3/library/argparse.html)
+  3) Modules
+     - Dependency Management: [PDM](https://pdm.fming.dev/)
+        - [PDM](https://pdm-project.org/latest/) has been selected over [Poetry](https://python-poetry.org/) due to PDM's direct support of [PEP 621](https://peps.python.org/pep-0621/), [PEP631](https://peps.python.org/pep-0631/), and [PEP 517](https://peps.python.org/pep-0517/)
+     - CLI: [click](https://click.palletsprojects.com/en/7.x/)
+
+As `Simple is better than complex.`, this standard definition will remain minimal.
+
 ### Implementation
 
 During this stage, code is moved from the Sec Auto Dev pipeline into the Sec Auto Live pipeline. If an automation request requires web hosting or a server, the automation will live in the Sec Auto Live private GCP instance.
