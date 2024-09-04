@@ -1,5 +1,4 @@
 ---
-
 title: Home Page for Support's Maple Group
 description: Home Page for Support's Maple Group
 ---
@@ -14,9 +13,9 @@ Introductory text, logos, or whatever the group wants here
 - Our Slack Channel: [spt_gg_maple](https://gitlab.slack.com/archives/C03C9EHQ97V)
 - Our Team: [Maple Members](https://gitlab-com.gitlab.io/support/team/sgg.html?search=maple)
 - Aligned Managers:
-   - **AMER** -- Izzy, Ronnie
-   - **EMEA** -- Rebecca, Tine
-   - **APAC** -- no alignment
+  - **AMER** -- Izzy, Ronnie
+  - **EMEA** -- Rebecca, Tine
+  - **APAC** -- no alignment
 
 ## Maple workflows and processes
 
@@ -53,7 +52,7 @@ We aim for not having any unassigned tickets and at least no > 5 days NRT breach
 
 ### PTO
 
-Maple follows the [general guidelines](https://handbook.gitlab.com/handbook/support/support-time-off/#choosing-and-recording-time-off) laid out in the handbook for taking time off. In addition to following those guidelines, consider making a post in `#spt_gg_maple` several days before your planned PTO that includes a list of your active tickets that will require either a complete handover to another engineer or an infrequent check up while you're away.
+Maple follows the [general guidelines](/handbook/support/support-time-off/#choosing-and-recording-time-off) laid out in the handbook for taking time off. In addition to following those guidelines, consider making a post in `#spt_gg_maple` several days before your planned PTO that includes a list of your active tickets that will require either a complete handover to another engineer or an infrequent check up while you're away.
 
 For extended PTO (five days or longer), consider sharing your plans with the team in one of the daily Maple standup threads in `#spt_gg_maple`. This allows the team to plan accordingly or make any adjustments.
 
@@ -96,7 +95,6 @@ We also added some experimental pairings:
 - EMEA/AMER Maple Hour every 2 weeks on Mondays 14:00 UTC
 - Maple NRTea Party (EMEA) on Thursdays 12:00 UTC
 
-
 ### Sync Calls
 
 The purpose is to facilitate conversations on topics like continuous development of collaboration, psychological safety, group processes, responsibilities and group results/SLAs.
@@ -104,4 +102,4 @@ The purpose is to facilitate conversations on topics like continuous development
 Scheduled Sync Calls:
 
 - APAC: Every third Thursday of the month at 02:00 UTC
-- EMEA: Every first Wednesday of the month at at 11:00 UTC
+- EMEA: Every first Wednesday of the month at 11:00 UTC

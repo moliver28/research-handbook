@@ -1,5 +1,4 @@
 ---
-
 title: "Marketing Department Efficiency Working Group - FY24"
 description: "The Efficiency Working Group aims to identify and solution 3-5 key areas for efficiency improvement within the Marketing Department."
 ---
@@ -20,7 +19,7 @@ The FY'24 Pulse Engagement survey ran from 2023-05-16 to 2023-06-27.
 
 Efficiency was identified a Marketing Department focus area. This working group was established to identify and solution 3-5 key areas for efficiency improvement.
 
-## Objectives 
+## Objectives
 
 1. Agree 3-5 key areas for efficiency improvement. As a team, identify the WHY & ROI, solution the improvement.
 2. Develop communication and change management plan.
@@ -39,6 +38,7 @@ TBD
 FY24 Q3: 2023-08-01 - 2023-10-31
 
 ## Roles and Responsibilities
+
 - DRI: [Nikki Silverberg](https://gitlab.com/nikkiroth)
 - Sponsor: [Denise Parsonage](https://gitlab.com/dparsonage)
 - Working Group Members: [Allison Graban](https://gitlab.com/agraban), [Amruta Kulkarni](https://gitlab.com/akulks), [Brian Mason](https://gitlab.com/brianmason), [Eirini Panagiotopoulou](https://gitlab.com/eirinipan), [Ginny Reib](https://gitlab.com/Greib), [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene), [Katie Rogel](https://gitlab.com/krogel), [Mao Nogales Lazarini](https://gitlab.com/mnogales),  [Michael Friedrich](https://gitlab.com/dnsmichi)

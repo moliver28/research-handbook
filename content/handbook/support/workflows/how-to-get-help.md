@@ -12,7 +12,7 @@ When [working on tickets](/handbook/support/workflows/working-on-tickets), colla
 
 If you are stuck on a ticket, the following workflow seeks to help Support Engineers realize and utilize all of the resources available to progress a ticket to resolution. This workflow lists some common resources, you can lean on to get the help you need.
 
-**If you’re stuck on a ticket…..**
+**If you're stuck on a ticket…..**
 
 Identify what's causing you to get stuck. Some examples are:
 
@@ -23,17 +23,6 @@ Identify what's causing you to get stuck. Some examples are:
 Then consider these options to help unblock you. And remember that
 [escalating to unblock](/handbook/values/#escalate-to-unblock)
 is an operating principle of Results.
-
-#### Ask in your SGG
-
-Ask in [your group's Slack channel](/handbook/support/support-global-groups/#slack) for help. You might get all the help you
-   need in responses right there, or you might open up the group's Zoom room
-   for an impromptu pairing session to work on the ticket. And remember:
-
-   1. Be sure to provide a link to the ticket
-   1. Be specific about the help you need
-      - For example: "Kubernetes Runner help needed: user is running into X
-        error, logs are saying Y, and we've tried Z. What else could it be?"
 
 #### Bring the ticket before a group of peers
 
@@ -46,16 +35,13 @@ Other Support Engineers are a great resource to help out with tickets. To get he
     - Senior Support Office Hours (varying times)
 1. Ask for help in one of the broader
    [Support Slack channels](/handbook/support/#slack).
-1. Initiate a [Branch Out session](/handbook/support/support-global-groups/branch-out-sessions)
-   - This is like a crush session, with the specific intention of helping 1 or 2
-     groups with FRTs
 
 #### Expand to Support Pods and other subject matter experts
 
 You can also do one or more of the following:
 
 1. See if there is a [Support Pod]({{< ref "working-with-pods" >}}) that covers the area your ticket is in and ask one of the Pod members for help.
-1. Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject)
+1. Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
    Support page to see who might have the skills to assist, or reach out
    to the [Support Stable Counterpart]({{< ref "support-stable-counterparts" >}})
    for the appropriate product area. Mention those
@@ -79,7 +65,9 @@ Especially if you feel you're stalled on a ticket and need assistance identifyin
 
 ### How to formally Request Help from the GitLab Development Team
 
-Starting from `2022-06-13` the Support Team and the Development Team are rolling out a series of projects that will enable support engineers to request help from a GitLab Development group, for more information on this please review the [associated proposal](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4023). The aim is to provide a formal and accountable workflow process for Support Engineers to request assistance from the various Development Sections for any technical issues which they are currently unable to progress.  Please note that this is an iterative process, which aims to roll out the process for each of the 10 development sections at GitLab. If the Development Section that you require assistance from is not listed in the table below then please continue to use the existing methods for contacting the relevant Development Teams, such as Slack.
+To enhance collaboration between the support and development teams, GitLab has implemented the Request for Help (RFH) process. This allows support engineers to formally request assistance from the specific GitLab development groups responsible for the relevant functionality when facing technical challenges that impede ticket resolution. This section outlines the necessary steps to effectively utilize the RFH process.
+
+It's important to note that this process is part of a broader, iterative strategy aimed at deploying this workflow across all development sections and groups at GitLab. If the RFH template for a particular development group is not yet available, please reach out to [John Lyttle](https://gitlab.com/jlyttle) to initiate the creation of the required RFH template.
 
 #### Are you requesting for Dev help too soon?
 
@@ -93,7 +81,7 @@ NO! To drive this point home, here's what our Devs have to say about this:
 
   -- **Lesley Razzaghian**
 
-> _Most are happy to help anytime. My only suggestion is to search docs first. That’s really helpful for devs because we might link you to docs anyway. But then it’s also helpful to know “the docs didn’t address my question”. Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
+> _Most are happy to help anytime. My only suggestion is to search docs first. That's really helpful for devs because we might link you to docs anyway. But then it's also helpful to know "the docs didn't address my question". Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
 
   -- **Drew Blessing**
 
@@ -108,7 +96,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 
   -- **Charlie Ablett**
 
-> _If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
+> _If both Support and the Customer are confused about what the next steps are, at a minimum it's an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
 
   -- **Chad Woolley**
 
@@ -117,14 +105,14 @@ _Devs love a puzzle, so I'm always keen.[...]_
 The easiest way to determine the correct place for a Support Request for Help issue is to use the docs pages. One possible workflow is as follows:
 
 1. Locate a documentation page for the feature or topic on which you need help.
-1. Scroll down to the bottom of the page and click on either the "Edit this page" link.
+1. Scroll down to the bottom of the page and click on either the "View page source" link.
 1. This will open up the `.md` source file of that docs page, which contains both the `stage` and `group` responsible for it noted on the top.
 1. Now go to the [Product Categories handbook page](/handbook/product/categories/) and search for the Development Section to which the group identified on the previous step belongs to.
 1. Use the table and workflow below to create a Request for Help issue in the project identified above.
 
 Alternatively, if you have set up the [Support dotfiles](https://gitlab.com/gitlab-com/support/toolbox/dotfiles), you can use the `gls_request_for_help` command to quickly retrieve the "New issue" link with the correct issue template.
 
-*NOTE:* A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
+_NOTE:_ A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
 
 #### List of Development Sections and corresponding links to the Projects for requesting help
 
@@ -164,7 +152,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. If the Zendesk ticket is escalated then add the label `Support::escalated`.
 1. Add a 'Customer Impact' statement if necessary, advocating for the customer.
 1. Ensure to follow any instructions on the template itself, such as who to assign the issue to (if not automatically assigned).
-1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note.
+1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note and also to the ticket field named `GitLab Issues`.
 
 #### Tips on getting timely responses
 
@@ -172,6 +160,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. Mention the engineer who is helping or assigned with _every_ comment where you need them to review or respond.
 1. If an issue is moved to another group (through a label change or moving to another project), check the corresponding template for the new group to see who to assign or mention in a comment.
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
+1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
 #### Escalate to unblock a request
 
@@ -195,7 +184,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 - Create a Support [pairing session issue](https://gitlab.com/gitlab-com/support/support-pairing).
 - [Support Workflows](/handbook/support/workflows/) to follow relevant troubleshooting workflow.
 - [Support Documentation links](/handbook/support/#documentation) for quick references to helpful GitLab documentation.
-- [Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject) to find a Support Engineer scoped to the skill set needed for help.
+- [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find a Support Engineer scoped to the skill set needed for help.
 - [DevOps Stages](/handbook/product/categories/#devops-stages) to find the right development or product team to reach out to.
 - [Emergency runbooks](https://gitlab.com/gitlab-com/support/emergency-runbook/-/tree/master/.gitlab/issue_templates) with troubleshooting tips, even if not an emergency.
 - See which [manager is on-call](https://gitlab.pagerduty.com/escalation_policies#PGNLUZ1) if guidance is needed on something urgent.

@@ -11,15 +11,15 @@ The following criteria are considered required for candidates to be eligible for
 
 1. Current law student, with preference given to those students who have completed their 2L studies by the time the internship begins. Available full-time in the Pacific time zone for the duration of the internship (2021-05-15 - 2021-08-15)
 
-#### Duration and Timing
+### Duration and Timing
 
 The Legal Internship is for a 3-month period beginning 2021-05-15 and ending on 2021-08-15.
 
-#### Location
+### Location
 
 The internship program will be remote and primarily operate in the Pacific time zone.
 
-#### Compensation
+### Compensation
 
 Internships at GitLab offered in the framework described on this page will be paid and follow the same logic as that depicted in our [Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator/calculator/) and according to our [Global Compensation Principles](/handbook/total-rewards/compensation/). This means that, as usual, the San Francisco benchmark, location and experience factors will be taken into account during the recruitment process and before making an offer. Depending on country regulations, we will have to align with national labor laws.
 The Legal Intern is a grade 4 (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -35,7 +35,7 @@ The Legal Intern is a grade 4 (/handbook/total-rewards/compensation/compensation
 - Proactive, dynamic and result driven individual with attention to detail
 - Enthusiasm and "self-starter" qualities enabling the intern  to manage responsibilities with an appropriate sense of urgency; the ability to function effectively and efficiently in a fast-paced & dynamic environment
 - Superior analytical, project management experience, and communication skills
-- Outstanding interpersonal skills, including diplomacy and flexibility, and the ability to interface effectively and engender trust and confidence with with all business functions throughout the organization
+- Outstanding interpersonal skills, including diplomacy and flexibility, and the ability to interface effectively and engender trust and confidence with all business functions throughout the organization
 - A curious mind who does not back down from a challenge.
 - Ability to use GitLab
 

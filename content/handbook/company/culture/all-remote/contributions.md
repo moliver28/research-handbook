@@ -17,5 +17,4 @@ Here's how you can participate:
 - [Create an issue](https://gitlab.com/gitlab-com/content-sites/handbook/issues/) if you have any questions or if you see an inconsistency.
 - Help spread the word about all-remote organizations by sharing it on social media, using the `#allremote` hashtag.
 
-
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

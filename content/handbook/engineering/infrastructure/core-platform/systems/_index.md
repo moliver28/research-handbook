@@ -1,13 +1,6 @@
 ---
-
 title: Core Platform:Systems Stage
 ---
-
-
-
-
-
-
 
 ## Vision
 

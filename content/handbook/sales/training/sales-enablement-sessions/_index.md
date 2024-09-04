@@ -1,41 +1,49 @@
 ---
-
 title: "Field Enablement Spotlight: Continuous Education at GitLab"
-description: "Continuous education webcast series for GitLab sales team members" 
+description: "Continuous education webcast series for GitLab sales team members"
 ---
 
-
-
-
-
-
-
-
-
-----
-
-# Field Enablement Spotlight Sessions
+## Field Enablement Spotlight Sessions
 
 ## Upcoming Training
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Spring 2024 Lineup**
+**Fall 2024 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Apr 18 | GitLab Duo AI + Competitive Update | Product Marketing |
-| Apr 25 | *No session during the last week of the quarter* | N/A |
-
+| Aug 29  | TBD |   |
+| Sep 5  | Gartner MQ Overview  | Marketing |
+| Sep 12  |  GitLab Click-through Demos & Product Tours    |  SA Team     |
+| Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
+| Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
+| Oct 3  |  FY25-Q3 - Competitive Update | Marketing |
+| Oct 12  | TBD      |       |
+| Oct 17  | FY25-Q3 Customer References Update     |  Customer Advocacy Team  |
+| Oct 24 | *No session during the last two weeks of the quarter* | N/A |
+| Oct 31 | *No session during the last two weeks of the quarter* | N/A |
 
 ## Past Sessions
 
 <details>
 <summary markdown="span">Click here to see links to past sessions on YouTube</summary>
 
-
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-08-22  | **[Data Driven Territory Planning](https://drive.google.com/file/d/1k4BWX7N3w8zUsN52dMV7A5GqMD-Wa7Yr/view?usp=drive_link)**  | Private |
+| 2024-08-15  | **[Duo Enterprise Revenue Play & Accreditation](https://drive.google.com/file/d/1ohmyxBrGxhb7I9lfvnFW_KgGfQJPDMwy/view?usp=drive_link)** | Private |
+| 2024-08-08 | **[Duo Enterprise Launch Updates & Key Dates](https://drive.google.com/file/d/1QT_yKG1AQyiI_F6hjyfuMeSYz4M7riQM/view?usp=sharing)** | Private |
+| 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
+| 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
+| 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
+| 2024-06-13 | **[Business Value Services & Ecosystems](https://drive.google.com/file/d/1Y1cm7tGc8_-Kx4av4ML2135AhWFpemVX/view?usp=drive_link)**  | Private |
+| 2024-05-30 | **[Partner e-marketplace](https://drive.google.com/file/d/13pJQu_gAIwtFDvvc-Xriq1g4huOZkaOb/view?usp=drive_link)** | Private |
+| 2024-05-23 | **[Winning with Analyst Relations](https://drive.google.com/file/d/13kyzyQ6CYMampDNCTkF5I6_CMA_G1Cbc/view?usp=drive_link)** | Private  |
+| 2024-05-16 | **[GitLab Ultimate vs. GitHub Advanced Security Comparison](https://drive.google.com/file/d/1G93ZjvcGL1UmBl9R5Rm-DqBq0wSamW8u/view?usp=drive_link)** | Private |
+| 2024-05-09 | **[New CSE Workflow Overview](https://drive.google.com/file/d/1KPPbmBGByrdy14F9dUCqD3e0sSaPJWvx/view?usp=drive_link)** | Private  |
+| 2024-05-02  | **[New GitLab x Google Cloud Integrations](https://drive.google.com/file/d/1wd8d5lVVsLUeOkbScmlp-eZTAokgxqqx/view?usp=drive_link)** | Private  |
+| 2024-04-18 | **[GitLab Duo AI + Competitive Update](https://drive.google.com/file/d/1tHoBhnRyGooHduEryOUPfXJwVpesZcG4/view?usp=drive_link)** | Private |
 | 2024-04-11 | **[FY25-Q1 - GitLab Cloud Partnerships Update](https://drive.google.com/file/d/1hcoGgS7u_Ea_h93aprWhHezRVoEOxood/view?usp=drive_link)** | Private |
 | 2024-03-27 | **[Success Plan Services](https://drive.google.com/file/d/1R3aA-aOMSwoMYAIG8B-plxoS-QJYi76u/view?usp=drive_link)** | Private  |
 | 2024-03-28 | **[FY25-Q1 Revenue Play: GitLab Dedicated](https://drive.google.com/file/d/1qUhi8UKnCmz7B9ItdjrYo_22IJqMI9I3/view?usp=drive_link)** | Private  |
@@ -60,7 +68,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2023-08-03 |  **[FY24-Q3 - Deal Desk Update: Quote Approvals](https://drive.google.com/file/d/1cSDLF-pPUZgWd1FQB5BzWBpfzlY0oNcT/view?usp=sharing)** | Private |
 | 2023-07-13 | **[GitLab Security Competitors Overview](https://drive.google.com/file/d/1-AWkTHU5h1AhpNJTaWwDJCBYuNS4YNXw/view?usp=sharing)**  | Private |
 | 2023-06-15 | **[New Gartner & Forrester Reports: GitLab Named DevOps Platform Leader](https://drive.google.com/file/d/1cEy97VfXZ80UbywyeD5l6fMvlTuuBHMJ/view?usp=drive_link)** | Private |
-| 2023-06-08 | **[GitLab’s AI Vision & Strategy AMA & Course Launch](https://drive.google.com/file/d/1JHsZWwzzhaJQKYpUxSi8sn61cNMIGyyu/view?usp=sharing)**  | Private |
+| 2023-06-08 | **[GitLab's AI Vision & Strategy AMA & Course Launch](https://drive.google.com/file/d/1JHsZWwzzhaJQKYpUxSi8sn61cNMIGyyu/view?usp=sharing)**  | Private |
 | 2023-06-01 | **[GitLab Dedicated - General Availability Launch](https://gitlab.highspot.com/items/6478cd2f94e64c47fe04e6f5)** | Private |
 | 2023-05-25 | **[GitLab AI Competitors Overview](https://gitlab.highspot.com/items/6474ca9b3df78ba1b4baac4c)** | Private |
 | 2023-05-18 | **[Global DevSecOps Trends - Survey Results](https://gitlab.highspot.com/items/64668846776d67e6807de286?lfrm=shp.0)** | Private |
@@ -85,7 +93,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2022-09-29 | **[Collaborating with Community Programs](https://youtu.be/B75IPB5L4yI)**  | Private  |
 | 2022-09-15 | **[FY23 - Q3 Sales Ops Update - Clari Data Analytics & Best Practices](https://youtu.be/tNgYhYQH_N0)** | Private  |
 | 2022-09-08 | **[Basics of Legal Subscription Agreements](https://youtu.be/8cmfmqc6iag)**  | Private  |
-| 2022-09-01 | **[VMware Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
+| 2022-09-01 | **[VMWare Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
 | 2022-08-25 | **[Q3 Rev Program Update](https://youtu.be/nBV-_LrTqKQ)**  | Private  |
 | 2022-08-18  | **[Automated Software Delivery (AutoSD) Integrated Campaign](https://youtu.be/Eq-DdOGkAlk)**  | Private  |
 | 2022-08-11 | **[FY23 - Q3 Channel Update](https://youtu.be/7H4tJptEJ_Y)**  | Private  |
@@ -147,8 +155,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2020-11-12 | **[How GitLab Evaluates and Completes Software Purchases](https://youtu.be/55dkX_hNd4s)** | Private |
 | 2020-11-05 | **[Co-Selling with Google - Alliance Overview](https://youtu.be/albyLzQNo7U)** | Private |
 | 2020-10-15 | **[Proof Points & Analyst Resources Update](https://youtu.be/B0-Y4SNVfXU)**  | Private      |
-| 2020-10-08 | **[Deal Structure Best Practices](https://youtu.be/t55rDyNd0wE)**             | Private
-| 2020-10-01 | **[Leveraging the GitLab/VMware Alliance](https://youtu.be/unpgyIR9yH0)**      | Private
+| 2020-10-08 | **[Deal Structure Best Practices](https://youtu.be/t55rDyNd0wE)**             | Private |
+| 2020-10-01 | **[Leveraging the GitLab/VMWare Alliance](https://youtu.be/unpgyIR9yH0)**      | Private |
 | 2020-09-24 | **[Q3 FY21 Competitive Update](https://youtu.be/fOeLdLwAgOI)**                 | Private |
 | 2020-09-10 | **[Accelerating Your Pipeline with AWS](https://youtu.be/iPDPtOUuNls)**            | Private |
 | 2020-09-03 | **[GitLab Standard ROI Models](https://youtu.be/znCrnpTDRoE)** | Public |
@@ -200,7 +208,6 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 </details>
 
-
 **Note: To watch private videos on GitLab Unfiltered, please look at the Handbook page on [watching private videos.](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube) which includes a link to [this 2-minute video](https://www.youtube.com/watch?v=dZtCuOf5aGk).**
 
 ## Get an invite to the weekly session
@@ -224,7 +231,7 @@ There are a few places to see previous Sales Enablement sessions:
 
 ## Recording
 
-#### Public vs Private
+### Public vs Private
 
 - Some enablement sessions, typically those that focus on industry or technical product knowledge, are [made public](/handbook/values/#public-by-default), including the Q&A
 - Other sessions that focus on topics like competitive analysis or openly discussing customers are [kept private](/handbook/communication/confidentiality-levels/#not-public)
@@ -250,27 +257,30 @@ There are a few places to see previous Sales Enablement sessions:
 ## Scheduling trainings
 
 **4-6 weeks before the start of a new quarter**
+
 - Solicit input from sales leaders, Product Marketing, Channel, Alliances, Competitive Intelligence, Analyst Relations, and others (e.g. Sales Ops) on sales enablement topics for the next quarter
 
 **2-4 weeks before the start of a new quarter**
+
 - Alignment call to finalize topics & tentative schedule with
-    - Sales Training Facilitator (John Blevins)
-    - Director, Sales & Customer Enablement (David Somers)
+  - Sales Training Facilitator (John Blevins)
+  - Director, Sales & Customer Enablement (David Somers)
 - After alignment call, John Blevins to open issues for each enablement session with
-    - Documentation of preliminary learning objectives, title, expected outcomes, etc.
-    - Tentative dates listed as “TENTATIVE - ZZZ”
-    - Intended SME/speaker(s) assigned to the issue
-    - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
+  - Documentation of preliminary learning objectives, title, expected outcomes, etc.
+  - Tentative dates listed as "TENTATIVE - ZZZ"
+  - Intended SME/speaker(s) assigned to the issue
+  - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
 
 **1-2 weeks before the start of a new quarter**
-- John Blevins to schedule meeting with all SMEs/speakers
-    - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
-        - Review schedule, outcomes, objectives
-        - Answer questions
-        - Adjust as needed
-    - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
 
-    - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
+- John Blevins to schedule meeting with all SMEs/speakers
+  - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
+    - Review schedule, outcomes, objectives
+    - Answer questions
+    - Adjust as needed
+  - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
+
+  - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
 - Sessions picked to execute on should be chosen from the backlog, or a new issue created, and moved to the `status:plan` column.
 - Assign the issue to the speaker and add `Moderator: <name>` to the issue description.
   - The speaker will then research and generate the conent for the training.
@@ -299,20 +309,13 @@ Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calen
   - Add an `index.html.md` file to that directory.
     - Use this template:
 
-    ```
-    ---
-    
-    title: "Title goes here"
-    ---
+      ```markdown
+      ---
+      title: "Title goes here"
+      ---
 
-    
-    
-
-    
-    
-
-    ## Title goes here
-    ```
+      ## Title goes here
+      ```
 
   - Add your content to this page.
   - Add links to any other pages you need to reference on this page so you can present from training page.
@@ -344,7 +347,6 @@ The moderator should serve as the host of the call and overall wingperson for th
 
 - Monitor the time. If the presentation goes longer than 15 minutes, interrupt to remind the speaker that we are at 15 minutes and we want to leave time for Q&A.
 - Stop the recording.
-
 
 **Moderator tasks after the session**
 

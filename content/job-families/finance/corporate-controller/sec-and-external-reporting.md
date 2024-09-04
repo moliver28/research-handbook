@@ -1,5 +1,5 @@
 ---
-title: "SEC & SOX Reporting or Corporate Controller"
+title: "SEC & Technical Accounting"
 ---
 
 ## Levels
@@ -33,6 +33,38 @@ The Senior SEC Analyst is a [grade 7](/handbook/total-rewards/compensation/compe
 - Proficiency in Word, Excel and PowerPoint required.
 - Knowledge and proficient experience with WDesk and Netsuite highly preferred.
 
+### SEC Reporting and Technical Accounting Manager
+
+The SEC Reporting and Technical Accounting Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsbilities
+
+- The technical accounting expert for complex accounting issues related to non revenue contracts: asset acquisitions, business combinations, impairments, strategic investments, contract acquisition costs, VIEs, non-gaap, etc 
+- Perform thorough research and assessment to draft technical accounting memos and policies
+- Partner with the FP&A and accounting teams to prepare and review quarterly and annual financial statements, including the cash flow statement, statement of equity, non-gaap, earnings per share, etc
+- Perform the review of non-revenue contracts and assist with the conclusion of the accounting treatment of non-routine deals 
+- Assist with development and maintenance of internal controls for external reporting, equity, stock-based compensation
+- Prepare Forms 10-Q and 10-K, earnings releases and other regulatory filings as needed
+- Manage the preparation of supporting schedules and documentation for SEC filings and perform tie-outs of the numbers
+- Support external audits and testing of internal controls
+- Prepare quarterly and annual disclosure checklists
+- Prepare earnings release tables
+- Lead the implementation and ongoing monitoring of new accounting pronouncements that may have a material impact on the financial statements or disclosures 
+- Own the stock-based compensation and equity accounting
+- Process automation and implementation of best practices
+
+#### Requirements
+
+- Relevant work experience with a Bachelor’s Degree and at least 6-8 years of work experience
+- Excellent knowledge of U.S. GAAP, including ability to research accounting guidance, establish a position, and develop processes and procedures for implementation
+- Proven ability to collaborate cross-functionally with multiple departments across the organization
+- Experience mentoring and coaching other team members for technical accounting areas
+- CPA certification
+- Combination of relevant years of Big 4 public accounting experience and industry/public company experience
+- Workiva wDesk experience is a plus
+- Strong Excel skills
+- Ability to use GitLab
+
 ### Manager, SEC
 
 The Manager, SEC reports to the Director, SEC.
@@ -43,9 +75,9 @@ The SEC Manager is a [grade 8](/handbook/total-rewards/compensation/compensation
 
 #### Responsibilities
 
-- Lead the preparation of the Company’s financial statements and SEC filings, including Forms 10-Q, 10-K, 8-K and proxy
+- Lead the preparation of the Company's financial statements and SEC filings, including Forms 10-Q, 10-K, 8-K and proxy
 - Coordinate the review of SEC filings with external auditors, outside legal counsel, accounting staff, and executive management
-- Manage the preparation and maintain support for all areas of our external reporting process, including the Statement of Cash Flows, Statement of Stockholders’ Equity, EPS calculations, and Share-Based Compensation
+- Manage the preparation and maintain support for all areas of our external reporting process, including the Statement of Cash Flows, Statement of Stockholders' Equity, EPS calculations, and Share-Based Compensation
 - Prepare documentation supporting internal controls related to financial reporting cycle
 - Assist in the implementation of significant new accounting pronouncements, including ongoing communication with other company departments
 - Assist with corporate or technical accounting topics (for e.g. quarter or year-end close adjustments) as needed
@@ -74,13 +106,13 @@ The Senior Manager, SEC and Technical Reporting is a [grade 9](/handbook/total-r
 
 #### Senior Manager, SEC and Technical Reporting Responsibilities
 
-- Lead the preparation of the Company’s financial statements and SEC filings, including Forms 10-Q, 10-K, 8-K and proxy
+- Lead the preparation of the Company's financial statements and SEC filings, including Forms 10-Q, 10-K, 8-K and proxy
 - Coordinate the review of SEC filings with external auditors, outside legal counsel, accounting staff, and executive management
 - Develop and maintain effective internal controls in relation to the Financial External Reporting process (SOX compliance)
 - Must take initiative and ready to guide the business for best industry practices around non-GAAP metrics, etc
 - Lead the evaluation and adoption of accounting standard updates, including drafting and maintaining relevant accounting policies.
 - Lead the preparation of accounting memos for the Company's accounting position on complex technical nonroutine transactions.
-- Manage the preparation and maintain support for all areas of our external reporting process, including the Statement of Cash Flows, Statement of Stockholders’ Equity, EPS calculations, and Share-Based Compensation
+- Manage the preparation and maintain support for all areas of our external reporting process, including the Statement of Cash Flows, Statement of Stockholders' Equity, EPS calculations, and Share-Based Compensation
 - Review earnings releases, earnings scripts and investor presentations
 - Partner with external auditors on business transactions to ensure accounting issues are properly concluded
 - Develop formal Company-wide accounting policies to ensure alignment with business and relevant accounting guidance
@@ -88,7 +120,7 @@ The Senior Manager, SEC and Technical Reporting is a [grade 9](/handbook/total-r
 
 #### Senior Manager, SEC and Technical Reporting Requirements
 
-- Relevant work experience with a Bachelor’s Degree or at least 6-8 years of work experience
+- Relevant work experience with a Bachelor's Degree or at least 6-8 years of work experience
 - Proven ability to collaborate cross-functionally with multiple departments across the organization
 - Experience coaching other team members for technical accounting areas
 - Extends that of the Manager, SEC Requirements
@@ -96,55 +128,40 @@ CPA
 - Relevant years of Big 4 public accounting experience, industry experience
 - Ability to use GitLab
 
-### Director, Record to Report
+### Director, SEC Reporting and Technical Accounting
 
-The Director, Record to Report reports to the [Corporate Controller](/job-families/finance/corporate-controller/#director-corporate-controller).
+The Director, SEC Reporting and Technical Accounting reports to the [Corporate Controller](/job-families/finance/corporate-controller/#director-corporate-controller).
 
-#### Director, Record to Report
+#### Director, SEC Reporting and Technical Accounting
 
-The Director, Record to Report is a [grade #10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Record to Report is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Record to Report Responsibilities
+#### Director, SEC Reporting and Technical Accounting Responsibilities
 
-- Responsible for collecting, processing and delivering relevant, timely and accurate information used for providing strategic, financial and operational feedback to understand how GitLab is performing
-- Includes responsibility for SOX review of compliance to controls for monthly/quarterly/yearly controls. The position will review the tests completed by the Internal Audit team and drive necessary changes as required by the Accounting team.
-- Responsible for leading the GL Accounting team
-- Responsible for the integrity and accuracy of GitLab monthly and quarterly financial filings
-- Oversight and participation in planning, drafting and other activities that facilitate the efficient completion of those filings.
-- Such activities include: (i) planning the quarterly drafting and review cycle; (ii) leading quarterly meetings with senior management; (iii) developing an in-depth understanding and analysis of significant transactions to assess their impact for SEC disclosure purposes; and (iv) monitoring the activities of all accounting standard setting bodies to ensure timely identification of emerging accounting pronouncements to ensure compliance with all GAAP and disclosure requirements.
-- Partners closely with the Technical Accounting side of the team, occasionally participating in technical accounting analysis of significant or unusual transactions, or recently issued accounting updates.
-- Interacts regularly with external auditors, Legal and Investor Relations, with routine exposure to the CFO and Audit Committee.
-- Lead the monthly and quarterly close & reporting process, including owning the preparation of balance sheet reporting, monthly account reconciliation and supplemental data requests
-- Drive financial integrity while completing consistent and effective policies and procedures
-- Supervise month end financial close activities and year end reporting
-- Collaborate with FP&A, Stock-Admin, Treasury, Legal and Corporate Tax on strategic projects and process improvements. Involvement will require strong problem solving, communication, presentation skills and analytical skills
-- Lead efforts related to system changes and/or implementations impacting team
-- Ensure processing efficiencies utilizing innovative technical and processing solutions
-- Serve as liaison with internal and external audit regarding audit management and issue remediation
-- Develop and assist in automating accounting processes, analysis techniques and reporting functionality
+- Own all aspects of the external reporting processes and ensure the high quality of the Form 10-Ks and 10-Qs, as well as earnings releases
+- Review the supporting documentation of the external filings, including the financials, f-page disclosures, non-gaap schedules, statement of stockholders’ equity, cash flow statements, EPS calculations, and share-based compensation
+- Coordinate the review of SEC filings with external auditors, outside legal counsel, investor relations, and executive management
+- Own the design and operating effectiveness of internal controls related to the external reporting cycle, business combinations, equity.
+- Oversee the accounting of share-based compensation, goodwill, intangible assets, asset impairments, M&A activity, etc.
+- Perform the review of the non-revenue contracts and propose the accounting treatment of non-routine deals
+- Lead the implementation efforts of new accounting pronouncements that would have a material impact on the financials or the f-page disclosures
+- Provide technical accounting guidance and the review of the technical memos related to special terms contracts or projects, including asset acquisitions, business combinations, impairments, strategic investments, contract acquisition costs, VIEs, non-gaap, etc. 
+- Drive increased automation efforts of the day-to-day tasks and reporting, reducing the manual work required
 
-#### Director, Record to Report Requirements
+#### Director, SEC Reporting and Technical Accounting Requirements
 
-- Relevant work experience with a Bachelor’s Degree or at least 8 years of work experience
-- An advanced degree with an active CPA license is preferred
-- Bachelor's Degree in Accounting or Finance
-- Certified Public Accountant
-- Minimum of 8-10 years of relevant work experience, including Big 4 public accounting experience and SEC reporting experience, with a large publicly-traded company.
-- Strong technical knowledge of U.S. GAAP and SEC accounting and reporting requirements.
-- Excellent communication skills, both written and verbal.
-- Experience with and handling of SOX requirements and manager of SOX review with 3-5 years of experience.  As part of this requirement, has worked with the internal audit team driving and reviewing testing.
-- Demonstrated knowledge and experience researching and documenting disclosure guidance and the accounting treatment of issues.
+- The requirements for a Director extend from the foundational requirements of SEC Reporting and Technical Accounting Manager 
+- A minimum 10+ years public accounting and/or industry experience
+- Demonstrated experience with executive communication and presentations
+- Proven technical expertise related to U.S. GAAP and external reporting, including SEC reporting, share-based compensation accounting, business combinations, valuations, etc.
+- Strong analytical and problem-solving skills
+- Excellent communication skills, both written and verbal, and Demonstrated experience with executive communication and presentations
 - Ability to effectively facilitate and present in group meetings.
-- Strong analytical, problem-solving, and strategic-thinking skills with a forward-looking focus.
-- Teamwork is essential to the group, so it is critical that the candidate interact with other team members and managers collaboratively and effectively.
+Strong analytical, problem-solving, and strategic-thinking skills with a forward-looking focus.
+- Proven ability to collaborate cross-functionally with multiple departments across the organization
 - Excellent time management, organizational, and project management skills with experience in working toward tight deadlines.
-- Experience with SOX 404 and internal control over financial reporting.
-- Advanced proficiency with Workiva and XBRL.
-- Demonstrated professional commitment, initiative, accountability and ownership of assignments.
+- Extensive team management skills, including career development and coaching
 - Driven to add value and continuously seek opportunities for improvement both individually and as a team.
-- Comfortable working in a fast-paced environment and adept at handling change.
-- Can effectively work in an all remote environment.
-- Ability to use GitLab.
 
 ## Performance Indicators
 

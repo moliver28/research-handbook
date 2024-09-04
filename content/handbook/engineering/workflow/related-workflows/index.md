@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/workflow/related-workflows.html
 title: Related Engineering Workflows
 description: "At GitLab we have a number of engineering processes that we use on a daily basis."
 ---
@@ -8,7 +7,7 @@ At GitLab we have a number of engineering processes that we use on a daily basis
 
 The diagram below shows how these processes interact with one another. Links to each process are available below the image.
 
-<img src="engineering-processes.png">
+<img src="engineering-processes.png" alt="">
 
 ## Links
 

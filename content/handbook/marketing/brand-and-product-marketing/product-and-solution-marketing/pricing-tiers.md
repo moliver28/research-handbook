@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab tiers for sales assessment"
 ---
-
-
-
-
-
-
 
 ## Tiers
 

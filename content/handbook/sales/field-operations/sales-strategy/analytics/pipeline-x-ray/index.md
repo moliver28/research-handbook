@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Strategy - Pipeline X-Ray Report"
 ---
-
-
-
-
-
-
 
 ## Pipeline X-Ray dashboard
 
@@ -86,8 +79,3 @@ Here is a table of the created models with links to their respective DBT model d
 | [report_targets_totals_per_quarter](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_sales_report_targets_totals_per_quarter)  | Totals / Target table pre-aggreagated. Targets are used for current and future quarter, and totals for previous quarters |
 | [sfdc_opportunity_snapshot_history_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_sales_sfdc_opportunity_snapshot_history_xf)  | Legacy model with extra metrics definitions and helper fields  |
 | [sfdc_opportunity_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_sales_sfdc_opportunity_xf)  | Legacy model with extra metrics definitions and helper fields |
-
-
-
-
-

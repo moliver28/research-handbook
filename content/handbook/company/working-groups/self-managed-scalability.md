@@ -11,7 +11,7 @@ description: "This group within GitLab ensure all new customers are set up in a 
 | Target End Date | June 23, 2020 |
 | Slack           | [#wg_sm-scalability](https://gitlab.slack.com/messages/CJBEAQ589) (only accessible from within the company) |
 | Google Doc      | [Self-managed Scalability Working Group Agenda](https://docs.google.com/document/d/1H9ENjGO5vNI1e0j3lm2e6zeK8F8o8H-69M3V7m3uYt8/edit) (only accessible from within the company) |
-| Issue Board     | [gitlab-org boards 1131633](https://gitlab.com/groups/gitlab-org/-/boards/1131633)
+| Issue Board     | [gitlab-org boards 1131633](https://gitlab.com/groups/gitlab-org/-/boards/1131633) |
 
 ## Business Goal
 

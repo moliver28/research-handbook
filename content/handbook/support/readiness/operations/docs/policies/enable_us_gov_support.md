@@ -17,7 +17,7 @@ For this process, the
 [Support Super Form Processor](https://gitlab.com/gitlab-support-readiness/processors/support-super-form-processor)
 and the scripts in the
 [Enable US Gov Support project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/enable-us-gov-support)
-do all the heavy lifting, we we just need to double-check the data provided in
+do all the heavy lifting, we just need to double-check the data provided in
 the generated issue and kick off the pipeline that does the change itself.
 
 To start, a requester (with Zendesk US Government agent access) will fill out
@@ -111,15 +111,14 @@ this, you can determine your next steps:
   >
   > /close
 
-
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline Error '1: Restforce::ErrorCode::UnableToLockRow'
 
 This will cause an actual pipeline failure.
 
 This error indicates that when trying to do a create/update, which requires
-locking a row in SFDC, it was was unable to do so. This usually means something
+locking a row in SFDC, it was unable to do so. This usually means something
 in either the specific reference (i.e. the case) or the parent reference (i.e
 the SFDC account) already had a lock in place that conflicts with the newly
 needed lock.

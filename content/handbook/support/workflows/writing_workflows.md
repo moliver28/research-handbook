@@ -19,7 +19,7 @@ Making it easier for a team member to follow a process while also allowing them 
 
 Creating, updating, and improving workflows fits with [GitLab values]/handbook/values/) and emphasizes many of our operating principles and approaches including:
 
-- [Handbook first](/handbook/handbook-usage/#why-handbook-first)
+- [Handbook first](/handbook/about/handbook-usage/#why-handbook-first)
 - [See something, say something](/handbook/values/#see-something-say-something)
 - [Everyone can contribute](/handbook/values/#mission)
 
@@ -97,7 +97,7 @@ When creating a new workflow, please keep the [above guidelines](#basic-guidelin
 There is no specific template for a workflow (except the metadata noted below). Some possible places to start:
 
 1. Use another workflow as a template.
-1. Use the [GitLab documentation structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html).
+1. Use the [GitLab documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
 
 #### Metadata
 

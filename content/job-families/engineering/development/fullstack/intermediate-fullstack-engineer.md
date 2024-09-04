@@ -27,22 +27,17 @@ The Intermediate Fullstack Engineer is a [grade](/handbook/total-rewards/compens
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
 - Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
-- Comfort working in a highly agile, [intensely iterative][iteration] software development process
+- Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 - Demonstrated ability to onboard and integrate with an organization long-term
 - Positive and solution-oriented mindset
-- Effective communication skills: [Regularly achieve consensus with peers][collaboration], and clear status updates
+- Effective communication skills: [Regularly achieve consensus with peers](/handbook/values/#collaboration), and clear status updates
 - An inclination towards communication, inclusion, and visibility
 - Experience owning a project from concept to production, including proposal, discussion, and execution.
-- [Self-motivated and self-managing][efficiency], with strong organizational skills.
+- [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills.
 - Demonstrated ability to work closely with other parts of the organization
-- Share [our values][values], and work in accordance with those values
+- Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to use GitLab
 - Ability to thrive in a fully remote organization
-
-[values]: /handbook/values/
-[collaboration]: /handbook/values/#collaboration
-[efficiency]: /handbook/values/#efficiency
-[iteration]: /handbook/values/#iteration
 
 ## Nice-to-haves
 
@@ -65,7 +60,7 @@ The Intermediate Fullstack Engineer is a [grade](/handbook/total-rewards/compens
 
 ### Growth
 
-The [Growth sub-department](/handbook/marketing/growth/engineering/) analyzes the entire customer journey from the acquisition of a customer, to the flow across multiple GitLab features, and even reactivation of lost users. They work in small groups with a product manager, product designer, and a data analyst to scale GitLab usage by connecting users to the existing value that GitLab already delivers.
+The [Growth sub-department](/handbook/engineering/development/growth/) analyzes the entire customer journey from the acquisition of a customer, to the flow across multiple GitLab features, and even reactivation of lost users. They work in small groups with a product manager, product designer, and a data analyst to scale GitLab usage by connecting users to the existing value that GitLab already delivers.
 
 #### Growth Requirements
 

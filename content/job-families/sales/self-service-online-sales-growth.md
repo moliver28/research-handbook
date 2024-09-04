@@ -2,7 +2,7 @@
 title: Self-Service Growth
 ---
 
-The Self Service Growth team is focused on building an easy self-service experience for our customers. The Growth team is accountable for the growth of our online sales KPI’s. The Growth team drives those numbers by experimenting with: programs that drive GTM or product improvements and campaigns to drive self-service customer adoption.
+The Self Service Growth team is focused on building an easy self-service experience for our customers. The Growth team is accountable for the growth of our online sales KPI's. The Growth team drives those numbers by experimenting with: programs that drive GTM or product improvements and campaigns to drive self-service customer adoption.
 
 ## Levels
 
@@ -109,7 +109,7 @@ The Director, Online Sales & Self Service Growth is a [grade 10](/handbook/total
 - Same responsibilities as the Senior Manager listed above and also:
 - Provide visibility to Self-Service leadership team into the outputs your team is producing
 - Create methodology for tracking program launches and success of those programs
-- Provide feedback to leadership on identified process improvement areas that will increase GitLab’s efficiency while increasing customer adoption of self-service
+- Provide feedback to leadership on identified process improvement areas that will increase GitLab's efficiency while increasing customer adoption of self-service
 - Provide detailed and accurate sales forecasting for online sales by segment, channel, and region.
 - Plan and manage short and long term coordination with marketing and sales leadership
 
@@ -131,7 +131,7 @@ The Senior Director, Online Sales & Self Service Growth is a [grade 11](/handboo
 ### Responsibilities
 
 - Same requirements as the Director listed above and also:
-- The Directly Responsible Individual (DRI) for our self-service KPI’s
+- The Directly Responsible Individual (DRI) for our self-service KPI's
 - Set the charter and focus areas for the Growth team based on business needs
 - Represent the Self-Service team in GTM planning discussions and forecast calls
 - Mentor, guide, and grow the careers of all team members

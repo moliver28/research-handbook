@@ -1,14 +1,7 @@
 ---
-
 title: "Customer 360"
 description: "An overview of the key components in Customer 360."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
@@ -46,20 +39,18 @@ If you'd like, you can toggle the "Scrolling" button at the top of any 360 page 
 
 Note at the top of the 360 page, there is a button for [Timeline](/handbook/customer-success/csm/gainsight/timeline/), which shows all logged activities for that specific customer. Gainsight has a number of options for logging a CSM's interactions with a customer. These are useful to build a historical record of what the customer has done with us, and the initiatives we've worked on.
 
-#### Following accounts
+### Following accounts
 
 On each account's 360, there is a "Follow" button next to the account name. If you are assigned as a CSM to an account, there is no need to follow the account, as you will automatically receive all notifications for that account. If you are not the CSM assigned to an account, you can follow the account to receive the same notifications the CSM assigned does.
 
-#### Referenceable customers
+### Referenceable customers
 
-The `Referenceable Customers` field on the C360 Attributes section highlights [if a customer is a Referenceable Customer](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). If a Customer is *not* a Referenceable Customer and they would make a great one, follow the process to [Nominate a Reference Customer]().
+The `Referenceable Customers` field on the C360 Attributes section highlights [if a customer is a Referenceable Customer](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). If a Customer is *not* a Referenceable Customer and they would make a great one, follow the process to Nominate a Reference Customer.
 
-#### Chorus Opt Out
+### Chorus Opt Out
 
 The `Chorus/Notetaker Opt Out` field on the C360 Attributes section allows a CSM to check the box if they know that the customer does not want calls to be recorded. This field is currently only for the CSM's information and does not update any other system.
 
-#### NPS and CSAT Scores
+### NPS and CSAT Scores
 
 For information on customer surveys and how the NPS and CSAT scores are calculated and the types of questions asked, please refer to the [NPS and CSAT scores handbook page](/handbook/customer-success/csm/gainsight/c360-overview/nps-csat-scores).
-
-

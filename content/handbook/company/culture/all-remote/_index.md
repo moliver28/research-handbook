@@ -1,6 +1,7 @@
 ---
 title: All Remote
 description: GitLab is one of the world's largest all-remote companies
+note: Do not remove alias due to extensive external use where it cannot be updated.
 aliases:
 - /handbook/company/all-remote/
 ---
@@ -8,7 +9,7 @@ aliases:
 <div class="row my-4" style="max-width: 80%; margin-left: auto; margin-right: auto;">
     <div class="col p-4 m-2">
         <p class="h1 mt-5"><strong>A world leader in remote work</strong></p>
-        <p class="h3 my-4">Learn how we’ve scaled as an asynchronous, no-office company that’s consistently recognized as a great place to work.</p>
+        <p class="h3 my-4">Learn how we've scaled as an asynchronous, no-office company that's consistently recognized as a great place to work.</p>
         <p class="h4 my-4"><a href="https://learn.gitlab.com/allremote/remote-playbook" class="me-4 my-2 btn btn-lg btn-primary">Get the Remote Playbook</a>
         <a href="https://about.gitlab.com/teamops/" class="btn btn-lg my-2 btn-white">TeamOps Course <i class="fa-solid fa-chevron-right"></i></a>
     </div>
@@ -40,7 +41,7 @@ aliases:
         <p class="h3 my-3"><strong>Designing a remote team</strong></p>
         <p class="h5 my-4"><a href="{{< ref "head-of-remote" >}}">About the Head of Remote role <i class="fa-solid fa-chevron-right"></i></a></p>
         <p class="h5 my-4"><a href="{{< ref "stages" >}}">The 10 models of remote teams <i class="fa-solid fa-chevron-right"></i></a></p>
-        <p class="h5 my-4"><a href="{{< ref "./handbook-first" >}}">The importance of documentation for remote teams <i class="fa-solid fa-chevron-right"></i></a></p>
+        <p class="h5 my-4"><a href="handbook-first/">The importance of documentation for remote teams <i class="fa-solid fa-chevron-right"></i></a></p>
     </div>
 </div>
 
@@ -48,7 +49,7 @@ aliases:
     <div class="col p-4 m-2 bg-light rounded-3" style="min-width: 300px;">
         <svg width="33" height="33" viewBox="0 0 33 33" fill="currentColor" fill-opacity="0" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_7608_14923)"> <path d="M4.351 24.9684V9.93055C4.351 9.52324 4.5128 9.13261 4.80082 8.84459C5.08883 8.55658 5.47946 8.39478 5.88678 8.39478H10.8781" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M29.6352 24.9684V9.93055C29.6352 9.52324 29.4733 9.13261 29.1853 8.84459C28.8973 8.55658 28.5067 8.39478 28.0994 8.39478H23.2521" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3.17015 28.6223C2.76283 28.6223 2.3722 28.4605 2.08419 28.1724C1.79617 27.8844 1.63437 27.4938 1.63437 27.0865V24.9684H32.3499V27.0865C32.3499 27.4938 32.1881 27.8844 31.9001 28.1724C31.6121 28.4605 31.2215 28.6223 30.8142 28.6223H3.17015Z" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M24.3889 20.5786C24.3889 12.7941 10.1989 12.7685 10.1989 20.5786H24.3889Z" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M17.2964 12.0966C19.1818 12.0966 20.7103 10.5682 20.7103 8.68271C20.7103 6.79726 19.1818 5.2688 17.2964 5.2688C15.4109 5.2688 13.8824 6.79726 13.8824 8.68271C13.8824 10.5682 15.4109 12.0966 17.2964 12.0966Z" stroke="currentColor" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_7608_14923"> <rect width="31.9954" height="31.9954" fill="white" transform="translate(0.995361 0.949402)"></rect> </clipPath> </defs> </svg>
         <p class="h3 my-3"><strong>Remote hiring & onboarding</strong></p>
-        <p class="h5 my-4"><a href="{{< ref "./hiring" >}}">How to hire for a remote team <i class="fa-solid fa-chevron-right"></i></p>
+        <p class="h5 my-4"><a href="hiring/">How to hire for a remote team <i class="fa-solid fa-chevron-right"></i></p>
         <p class="h5 my-4"><a href="./onboarding">The guide to remote onboarding <i class="fa-solid fa-chevron-right"></i></a></p>
         <p class="h5 my-4"><a href="{{< ref "evaluate" >}}">How to evaluate a remote job opportunity <i class="fa-solid fa-chevron-right"></i></a></p>
     </div>
@@ -72,10 +73,9 @@ aliases:
     <div class="col p-4 m-2 bg-light rounded-3" style="min-width: 300px;">
         <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <g id="handbook-gitlab"> <path id="Vector" d="M5.00882 3.37281C5.00967 2.64774 5.2983 1.95265 5.81131 1.44024C6.32431 0.927831 7.01974 0.640014 7.74482 0.640015H28.1832V21.9072" stroke="currentColor" fill="none" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path id="Vector_2" d="M5.00882 27.2032V6.42883" stroke="currentColor" stroke-width="1.27982" fill="none" stroke-linecap="round" stroke-linejoin="round"></path> <path id="Vector_3" d="M25.7288 29.9361H28.1832V24.4705H7.74482C7.38594 24.47 7.0305 24.5403 6.69878 24.6773C6.36706 24.8142 6.06556 25.0151 5.8115 25.2686C5.55744 25.5221 5.35579 25.8231 5.21807 26.1545C5.08034 26.4859 5.00924 26.8412 5.00882 27.2001V27.2001C5.00882 27.5592 5.07961 27.9148 5.21715 28.2466C5.35468 28.5784 5.55627 28.8798 5.81037 29.1336C6.06447 29.3874 6.36611 29.5886 6.69804 29.7258C7.02997 29.8629 7.38567 29.9333 7.74482 29.9329H19.8856" stroke="currentColor" fill="none" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path id="Vector_4" d="M25.5238 31.3601L22.8006 30.0225L20.0774 31.3601V26.8833H25.5238V31.3601Z" stroke="currentColor" fill="none" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> <path id="Vector_5" d="M16.5993 16.8L21.3289 13.3088C21.3929 13.2615 21.4404 13.1953 21.4646 13.1194C21.4887 13.0435 21.4883 12.962 21.4633 12.8864L19.8345 7.7888C19.8229 7.7507 19.7994 7.71733 19.7674 7.69362C19.7354 7.66991 19.6967 7.6571 19.6569 7.6571C19.6171 7.6571 19.5783 7.66991 19.5463 7.69362C19.5143 7.71733 19.4908 7.7507 19.4793 7.7888L18.3977 11.1744H14.7977L13.7129 7.7888C13.7013 7.7507 13.6778 7.71733 13.6458 7.69362C13.6138 7.66991 13.5751 7.6571 13.5353 7.6571C13.4955 7.6571 13.4567 7.66991 13.4247 7.69362C13.3927 7.71733 13.3692 7.7507 13.3577 7.7888L11.7289 12.8864C11.7039 12.962 11.7034 13.0435 11.7276 13.1194C11.7517 13.1953 11.7992 13.2615 11.8633 13.3088L16.5993 16.8Z" stroke="currentColor" fill="none" stroke-width="1.27982" stroke-linecap="round" stroke-linejoin="round"></path> </g> </svg>
         <p class="h3 my-3"><strong>Learn more</strong></p>
-        <p class="h4 my-4">For in-depth resources on everything you need to know about remote work, see GitLab’s full Guide to Remote.</p>
-        <p class="h5 my-4"><a href="{{< ref "guide" >}}">Read GitLab’s full Guide to Remote <i class="fa-solid fa-chevron-right"></i></a></p>
+        <p class="h4 my-4">For in-depth resources on everything you need to know about remote work, see GitLab's full Guide to Remote.</p>
+        <p class="h5 my-4"><a href="{{< ref "guide" >}}">Read GitLab's full Guide to Remote <i class="fa-solid fa-chevron-right"></i></a></p>
     </div>
 </div>
-
 
 {{< include "includes/take-gitlab-for-a-spin.md" >}}

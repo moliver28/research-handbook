@@ -1,7 +1,6 @@
 ---
-
-title: Working on Zendesk automations, triggers, macros and views
-description: "How to collaborate on Zendesk automations, triggers, macros and views"
+title: Working on Zendesk automations, triggers, macros, views, etc.
+description: "How to collaborate on Zendesk automations, triggers, macros, views, etc."
 category: Zendesk
 ---
 
@@ -19,22 +18,30 @@ The [tables in the Readiness handbook](/handbook/support/readiness/operations/do
 
 Refer to the corresponding projects and create a merge request with your changes:
 
- - [gitlab-com/support/zendesk-global/automations](https://gitlab.com/gitlab-com/support/zendesk-global/automations)
- - [gitlab-com/support/zendesk-global/macros](https://gitlab.com/gitlab-com/support/zendesk-global/macros)
- - [gitlab-com/support/zendesk-global/triggers](https://gitlab.com/gitlab-com/support/zendesk-global/triggers)
- - [gitlab-com/support/zendesk-global/views](https://gitlab.com/gitlab-com/support/zendesk-global/views)
+- [gitlab-com/support/zendesk-global/automations](https://gitlab.com/gitlab-com/support/zendesk-global/automations)
+- [gitlab-com/support/zendesk-global/macros](https://gitlab.com/gitlab-com/support/zendesk-global/macros)
+- [gitlab-com/support/zendesk-global/triggers](https://gitlab.com/gitlab-com/support/zendesk-global/triggers)
+- [gitlab-com/support/zendesk-global/views](https://gitlab.com/gitlab-com/support/zendesk-global/views)
+- [gitlab-com/support/support-pages](https://gitlab.com/gitlab-com/support/support-pages) (also known as articles)
 
 Whether you're proposing minor changes directly or something bigger following an RFC discussion, tag a Support Manager for review and ask them to merge the changes. Once changes have been merged in one of these projects, you'll notice that the `Sync Stage` badge says `Awaiting Deployment` on the project overview page. This indicates that there's changes in the project that will be rolled out during the next [regular deployment](/handbook/support/readiness/operations/docs/change_management/#standard-change-management).
 
 #### Macros
 
-Macros are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](/handbook/support/readiness/operations/docs/zendesk/macros/).
+Macros are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/##ad-hoc-deployments). For information on macros, please see [Zendesk Global Macros](/handbook/support/readiness/operations/docs/zendesk/macros/).
 
 - If you want to edit the wording of a macro, make an MR to the repo (Zendesk Global or Zendesk US Government).
 - If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Edit a Zendesk macro' option.
 - If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Create a Zendesk macro' option.
 - To discuss a macro (but not actually action on anything), use a support-team-meta issue.
 
+#### Articles
+
+Articles (also called pages) are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#ad-hoc-deployments). For information on articles, please see [Zendesk Articles](/handbook/support/readiness/operations/docs/zendesk/articles/).
+
+- If you want to edit the wording of an article, make an MR to the repo.
+- If you want to create a new article, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Create a Zendesk article' option.
+- To discuss an article (but not actually action on anything), use a support-team-meta issue.
 
 ## Previewing variable replacement
 

@@ -13,9 +13,9 @@ twitter_creator: "@gitlab"
 
 GitLab is a pioneer in the all-remote space. As one of the largest all-remote companies in the world, we have developed a custom course to test and apply knowledge attained throughout the [all-remote]({{< ref "_index.md" >}}) section of the handbook. Emerging leaders must quickly learn and deploy remote-first practices and skills while expanding their knowledge of remote management and overall remote fluency.
 
-Presented at a self-directed pace, the GitLab Remote Work Foundation course is designed to give [new managers]({{< ref "./being-a-great-remote-manager" >}}) and [individual contributors]({{< ref "./getting-started" >}}) an opportunity to master all-remote business concepts and build key skills in remote subject areas.
+Presented at a self-directed pace, the GitLab Remote Work Foundation course is designed to give [new managers](being-a-great-remote-manager/) and [individual contributors](getting-started/) an opportunity to master all-remote business concepts and build key skills in remote subject areas.
 
-Participants will gain a point of view on all-remote through [self-paced learning]({{< ref "./self-service" >}}) and reading.
+Participants will gain a point of view on all-remote through [self-paced learning](self-service/) and reading.
 
 ## Course benefits
 
@@ -47,7 +47,6 @@ GitLab is actively building new courses and certifications for FY24 and beyond. 
 
 If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

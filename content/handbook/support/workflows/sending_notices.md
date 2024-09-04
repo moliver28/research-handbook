@@ -1,11 +1,8 @@
 ---
-
 title: Sending Notices
 category: GitLab.com
 description: How to send notices out to GitLab.com users and customers to inform them of various actions on namespaces under their control
 ---
-
-
 
 ## Overview of the process
 
@@ -40,17 +37,11 @@ review the
 [Support Readiness documentation](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
 for more information.
 
-### Customer Ticket Generator (Deprecated)
-
-The [Customer Ticket Generator](https://gitlab-com.gitlab.io/support/support-ops/forms/customer-ticket-generator/) is a form that can be used to send multiple tickets out at once. Once the form is submitted, an issue will be created in the [customer ticket generator tracker](https://gitlab.com/gitlab-com/support/support-ops/forms/customer-ticket-generator) where a member of SupportOps will then run it. This can also be used in conjunction with the [Email Grab Script](#email-grab-script), whose output can be provided as the CSV for the form.
-
-The limit of 500 tickets is defined in order not to hit API rate limits on Zendesk side.
-
 ### Mass Emails through Marketing Department
 
 Outside of Zendesk we may be asked to be involved in the process of sending mass notices to users. For larger email campaigns, involve the marketing team:
 
-1. [Open an issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email) in the [marketing/demand-generation/campaigns](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns) issue tracker using the `request-email` template. You may also need to create a supplementary issue using [request-confirm-target-list template](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-confirm-target-list).
+1. [Open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-operational-email) in the [marketing/marketing-operations](https://gitlab.com/gitlab-com/marketing/marketing-operations) issue tracker using the `request-operational-email` template. You may also need to create a supplementary issue using [request-target-list template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-target-list).
 1. Fill the template out in its entirety.
 1. Submit the issue and be ready to adjust the subject and/or body of the notice based on feedback.
 

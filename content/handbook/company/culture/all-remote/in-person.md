@@ -20,13 +20,13 @@ Small teams located in the same city or region may be able to still gather in pe
 
 For example, at GitLab, we hosted our 2020 [Contribute](https://about.gitlab.com/events/gitlab-contribute) virtually. We used this time to take a break from our daily projects, celebrate the achievements of the team, and get to know one another better. By focusing this time on bonding rather than active work, we were able to boost engagement and invest in strengthening the relationships across the organization.
 
-Between these larger gatherings, informal communication is another important element to maintain. We've curated a list of ways to approach this in our [informal communication guide]({{< ref "./informal-communication" >}}).
+Between these larger gatherings, informal communication is another important element to maintain. We've curated a list of ways to approach this in our [informal communication guide](informal-communication/).
 
 ## Benefits of remote meetings
 
 ### Attendance is optional
 
-GitLab has a meeting policy we like to call "[No agenda, no attenda]({{< ref "communication#external-communication" >}})." Every work-related meeting has purpose, which is outlined a live doc agenda affixed to the calendar invite: here's a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) you can copy and use in your organization. As an all-remote company, we [do not look to a meeting by default]({{< ref "./asynchronous#question-every-meeting" >}}); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
+GitLab has a meeting policy we like to call "[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting has purpose, which is outlined a live doc agenda affixed to the calendar invite: here's a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) you can copy and use in your organization. As an all-remote company, we [do not look to a meeting by default](asynchronous/#question-every-meeting); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
 ### Meetings are recorded
 
@@ -50,7 +50,7 @@ On a virtual call, you're limited to viewing a certain number of faces at a time
 
 ## How to prepare for an in-person meeting
 
-In-person meeting prep is similar to getting ready for a [video call]({{< ref "communication#video-calls" >}}). In these situations, you should plan to:
+In-person meeting prep is similar to getting ready for a [video call](/handbook/communication/#video-calls). In these situations, you should plan to:
 
 1. Start and end on time
 1. Build in social interactions and plan to get to know the people in your group
@@ -61,13 +61,13 @@ In-person meeting prep is similar to getting ready for a [video call]({{< ref "c
 
 ## The importance of social interaction
 
-We believe that [in-person interactions]({{< ref "./in-person" >}}) are extremely important, especially in an all-remote [culture]({{< ref "culture#culture-at-gitlab" >}}). Remote workers have increased risk of experiencing [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout]({{< ref "./mental-health" >}}).
+We believe that [in-person interactions](in-person/) are extremely important, especially in an all-remote [culture]({{< ref "culture#culture-at-gitlab" >}}). Remote workers have increased risk of experiencing [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/).
 
 One way to prevent loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
 
 Informal communication enables friendships to form at work related to matters *other* than work. Those who feel they have genuine friends at work are [more likely to enjoy their job](https://onlinelibrary.wiley.com/doi/full/10.1111/peps.12109), perform at a high level, feel invested in the company, and serve others within the organization.
 
-Here, we value informal communication as a complement to [in-person interactions]({{< ref "./in-person" >}}) and regularly offer [more than 20 different ways for team members to participate in social interactions]({{< ref "./informal-communication" >}})!
+Here, we value informal communication as a complement to [in-person interactions](in-person/) and regularly offer [more than 20 different ways for team members to participate in social interactions](informal-communication/)!
 
 ## Meetups
 
@@ -93,7 +93,7 @@ Learn more about how GitLab organizes community events in the [GitLab Meetup Gui
 {{% /card %}}
 {{% /cardpane %}}
 
-It is common for colocated companies to send a lean contingent to [work-related conferences]({{< ref "./events" >}}), which is rational given the relative high costs involved. In colocated settings, work conferences add marginal bonding benefit given that attendees already spend a significant amount of time together in a shared physical office.
+It is common for colocated companies to send a lean contingent to [work-related conferences](events/), which is rational given the relative high costs involved. In colocated settings, work conferences add marginal bonding benefit given that attendees already spend a significant amount of time together in a shared physical office.
 
 In remote-first and all-remote settings, the value proposition is drastically different. Conferences serve as an opportunity to send a team of colleagues to not only execute on business objectives, but also to spend time bonding with one another as humans.
 
@@ -113,7 +113,7 @@ As an example, [GitLab Commit](https://about.gitlab.com/events/commit) — a ser
 
 *GitLab Contribute 2019 recap reel.*
 
-While [virtual events]({{< ref "./events" >}}) and ongoing touch points through [informal communication]({{< ref "./informal-communication" >}}) mechanisms are vital for a team's growth, all-remote companies should consider a regularly scheduled gathering or summit for the entire company.
+While [virtual events](events/) and ongoing touch points through [informal communication](informal-communication/) mechanisms are vital for a team's growth, all-remote companies should consider a regularly scheduled gathering or summit for the entire company.
 
 These gatherings should be optional, though encouraged, and should focus primarily on bonding. Hosting a summit only to inundate colleagues with presentations is not recommended. At [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute), for example, numerous excursions are planned throughout the week in order to bring people together in the same physical space for non-work activities.
 
@@ -129,7 +129,7 @@ In all-remote settings, these known touch points are critical for morale. Team m
 {{% /card %}}
 {{% /cardpane %}}
 
-As an all-remote team [scales]({{< ref "./scaling" >}}), you may find that certain regions of the world are home to multiple team members. At GitLab, we encourage colleagues to join [Location Channels](/handbook/communication/chat#location-channels-loc_) in Slack, which allow them to easily connect with others who live relatively nearby.
+As an all-remote team [scales](scaling/), you may find that certain regions of the world are home to multiple team members. At GitLab, we encourage colleagues to join [Location Channels](/handbook/communication/chat#location-channels-loc_) in Slack, which allow them to easily connect with others who live relatively nearby.
 
 This creates an easy path for gathering in a central location to bond. Common reasons for scheduling a get-together are holidays and milestone celebrations, though active local communities may consider coming together on a regular basis (monthly, quarterly, etc.) simply to maintain a physical connection.
 
@@ -145,9 +145,9 @@ GitLab recognizes that not everyone can or will prefer to work from their home. 
 
 Savings on real estate — and the litany of associated costs with operating one or more offices — is a key financial reason for a company to organize itself as completely remote. Consider returning some of those savings to employees by [subsidizing travel costs](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release) associated with [visiting colleagues around the globe](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases).
 
-GitLab's [Visiting Grant incentive]({{< ref "incentives#visiting-grant" >}}) is one such example. While some colleagues may prefer to stay put, there is value in transparently encouraging colleagues to [spend time](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) with one another in a physical space. When a colleague travels to visit someone else, they are [immersed]({{< ref "./people#travelers" >}}) in a new place and new culture, which leads to greater empathy and understanding.
+GitLab's [Visiting Grant incentive]({{< ref "incentives#visiting-grant" >}}) is one such example. While some colleagues may prefer to stay put, there is value in transparently encouraging colleagues to [spend time](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) with one another in a physical space. When a colleague travels to visit someone else, they are [immersed](people/#travelers) in a new place and new culture, which leads to greater empathy and understanding.
 
-This also reinforces a company's ability to create a more [geographically diverse and inclusive work environment]({{< ref "inclusion" >}}).
+This also reinforces a company's ability to create a more [geographically diverse and inclusive work environment](/handbook/company/culture/inclusion/).
 
 ## Coworking excursions and retreats
 
@@ -155,7 +155,7 @@ This also reinforces a company's ability to create a more [geographically divers
 
 *The Cowork Experience assists remote companies with planning excursions that bring colleagues together in the same physical space.*
 
-As an all-remote company [scales]({{< ref "./scaling" >}}), it becomes more challenging to get the entire company in one place during the same window of time. As the once-a-year company annual becomes a standard offering (and less a differentiator) for remote companies, there is opportunity to host smaller, more frequent excursions and retreats.
+As an all-remote company [scales](scaling/), it becomes more challenging to get the entire company in one place during the same window of time. As the once-a-year company annual becomes a standard offering (and less a differentiator) for remote companies, there is opportunity to host smaller, more frequent excursions and retreats.
 
 [The Cowork Experience](https://thecoworkexperience.com), for instance, develops bespoke programs with more intimate engagements at the team or regional level to foster deeper trust amongst colleagues. These usually include team-building activities as well as non-work excursions. They present an opportunity to bring colleagues together in a unique, refreshing locale, catalyzing things like planning while enabling personal bonds to be built.
 
@@ -165,6 +165,6 @@ Leadership should be mindful of personal strain placed on team members when they
 
 Anyone can test their knowledge on considerations for in-person interactions in a remote company by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdJF6Gdal_o6g4a3qAwwas9glPMOQAiPDvPNbz3GQI5E5cvaw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

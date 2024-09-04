@@ -29,6 +29,12 @@ admin level abilities currently. If an organization needs to be edited, an issue
 should be filed using the
 [support ops issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
 
+## Deleting Organizations
+
+For more information on organization deletion, please see the
+[Organization Deletion](/handbook/support/readiness/operations/docs/policies/org_deletion)
+policy page.
+
 ## Organization Notes for Zendesk Global
 
 There are two forms of organization notes we utilize:
@@ -74,7 +80,7 @@ In your due diligence, you would want to create an issue via the
 [Zendesk Organization Repo](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new)
 so support-ops can double check to ensure there is nothing blocking the sync.
 
-## Organization Permissions
+### Organization Permissions
 
 By default, organizations are setup so that the users within it can only see and
 comment on their own tickets. This security measure often doesn't work for some
@@ -129,7 +135,7 @@ ensure the drop-downs use the default options:
 - Organizatin: `Can view own tickets only`
 - User: `Can view and edit own tickets only`
 
-## User association
+### User association
 
 There are specific processes and policies around this, so please see
 [User Association](/handbook/support/readiness/operations/docs/zendesk/user_association)

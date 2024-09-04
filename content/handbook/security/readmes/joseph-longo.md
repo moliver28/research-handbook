@@ -1,5 +1,4 @@
 ---
-
 title: "Joseph Longo README"
 job: "Senior Manager, Governance and Field Security"
 ---

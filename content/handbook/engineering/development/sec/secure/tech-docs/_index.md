@@ -1,19 +1,12 @@
 ---
-
 title: Secure Technical Documentation
 ---
-
-
-
-
-
-
 
 ## Architecture
 
 - [Overview](#overview)
 - [Severity Levels](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/severities.html)
-- [Feedback](./feedback/)(Dismiss, create an issue or a Merge Request)
+- [Feedback](feedback/)(Dismiss, create an issue or a Merge Request)
 
 ## Overview
 
@@ -38,7 +31,7 @@ flowchart LR
 ### Scanning
 
 The scanning part is responsible for finding vulnerabilities in given resources and exporting results.
-The scans are executed in CI jobs via several small projects called [Analyzers](https://docs.gitlab.com/ee/user/application_security/terminology/#analyzer) which can be be found in our [Analyzers sub-group](https://gitlab.com/gitlab-org/security-products/analyzers).
+The scans are executed in CI jobs via several small projects called [Analyzers](https://docs.gitlab.com/ee/user/application_security/terminology/#analyzer) which can be found in our [Analyzers sub-group](https://gitlab.com/gitlab-org/security-products/analyzers).
 The Analyzers are small wrappers around in-house or external security tools called [Scanners](https://docs.gitlab.com/ee/user/application_security/terminology/#scanner) to integrate them into GitLab.
 The Analyzers are mainly written in Go and rely on our [Common Go library](https://gitlab.com/gitlab-org/security-products/analyzers/common).
 
@@ -77,13 +70,13 @@ In these cases, the introduction of [ClickHouse](https://clickhouse.com) to the 
 
 ClickHouse as a datastore has the potential to power several key workflows within the section including:
 
-#### Security Dashboards
+### Security Dashboards
 
 Security dashboards provide historical aggregate data for tracking active vulnerabilities across projects and namespaces. These requests are analytical aggregation queries of read-only data for which ClickHouse is heavily optimized.
 
 Beyond improving the performance of the existing aggregations, use of an OLAP datastore provides more open-ended options in allowing on-demand aggregation by additional fields; i.e. report types and classifications alongside severity.
 
-#### Vulnerability Lists
+### Vulnerability Lists
 
 Vulnerability lists provide tabular data and interactivity for reviewing, assessing, and triaging vulnerabilities within projects and namespaces. These requests are high-read, wide-column and (often) filtered. With a shift towards query-based view aggregation, columnar stores provide significant advantages in fetching limited columns for a given table rather than needing full record access.
 
@@ -91,7 +84,7 @@ In addition, with ongoing architecture aimed at reducing persistence to user-int
 
 ## Researches
 
-- [Data model for dependencies information](./data-model-for-dependencies-information/)
+- [Data model for dependencies information](data-model-for-dependencies-information/)
 
 ## Brown bag sessions
 

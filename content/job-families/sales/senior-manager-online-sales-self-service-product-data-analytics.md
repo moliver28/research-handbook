@@ -6,7 +6,7 @@ The Online Sales & Self Service Product & Data Analytics job family is responsib
 
 ## Analyst, Online Sales & Self Service Data
 
-The Data Analyst role is responsible for assisting in the creation and scaling our use of data for GitLab’s self-service business. This function will work with a variety of data: sales, quotes/subscription, product, billing, and case data.
+The Data Analyst role is responsible for assisting in the creation and scaling our use of data for GitLab's self-service business. This function will work with a variety of data: sales, quotes/subscription, product, billing, and case data.
 The Analyst, Online Sales & Self Service Data reports to the Senior Manager, Online Sales & Self Service Product & Data Analytics.
 
 ### Job Grade
@@ -17,7 +17,7 @@ The Analyst, Online Sales & Self Service Growth is a [grade 6](/handbook/total-r
 
 - Comfortable working with large data sets via query languages and BI tools for dashboards and reporting
 - Develop reporting structure to track success of self-service business and experiments
-- Gather and track KPI’s requirements from Self-Service Customer Engagement team in order to understand efficiency impact of Low Touch GTM model
+- Gather and track KPI's requirements from Self-Service Customer Engagement team in order to understand efficiency impact of Low Touch GTM model
 - Partner with finance and sales strategy teams to develop target setting methodology for online business
 - Create dashboards and reports to understand and monitor key business metrics
 - Take ad-hoc analyses and turn them into a repeatable, scalable data views that our team can leverage on their own
@@ -37,7 +37,7 @@ The Analyst, Online Sales & Self Service Growth is a [grade 6](/handbook/total-r
 
 ## Senior Analyst, Online Sales & Self Service Data
 
-The Senior Data Analyst role is responsible for creating and scaling our use of data for GitLab’s self-service business. This is a dynamic role focusing on product analytics, target setting, performance tracking and ad hoc strategic products.
+The Senior Data Analyst role is responsible for creating and scaling our use of data for GitLab's self-service business. This is a dynamic role focusing on product analytics, target setting, performance tracking and ad hoc strategic products.
 
 The Senior Analyst, Online Sales & Self Service Data reports to the Senior Manager, Online Sales & Self Service Product & Data Analytics.
 
@@ -74,7 +74,7 @@ The Senior Analyst, Online Sales & Self Service Growth is a [grade 7](/handbook/
 
 ## Manager, Online Sales & Self Service Product & Data Analytics
 
-The Data Manager role is the hub of the analytical function of our team: responsible for creating and scaling our use of data for GitLab’s self-service business and delivering visibility of the self-service experience to Sales. This role will focus on building our foundational data infrastructure, tools, and insights.
+The Data Manager role is the hub of the analytical function of our team: responsible for creating and scaling our use of data for GitLab's self-service business and delivering visibility of the self-service experience to Sales. This role will focus on building our foundational data infrastructure, tools, and insights.
 
 The Manager, Online Sales & Self Service Data reports to the Senior Manager, Online Sales & Self Service Product & Data Analytics.
 
@@ -94,7 +94,7 @@ The Manager, Online Sales & Self Service Growth is a [grade 8](/handbook/total-r
 - Provide feedback to core data teams about data gaps and tools
 - Comfortable working with large data sets via query languages and BI tools for dashboards and reporting
 - Develop strategies and drive team focus based on data insights and findings
-- Monitor performance and be able to explain why trends occur (e.g. investigating the ‘why’ behind target attainment)
+- Monitor performance and be able to explain why trends occur (e.g. investigating the 'why' behind target attainment)
 - Be proactive and identify trends or flag potential issues
 
 ### Requirements

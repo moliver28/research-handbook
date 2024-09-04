@@ -33,20 +33,20 @@ title: "Developer Relations Workflows and Tools"
 - [Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
 - [Twitter](/handbook/marketing/developer-relations/workflows-tools/twitter/)
 
-
 ## Tool Stack Overview
 
 These are the tools the Developer Relations team is the DRI for:
 
 {{< workflows-tools >}}
 
-##### Community Operations Tool Stack (deprecated)
+### Community Operations Tool Stack (deprecated)
 
+{{% alert color="warning" %}}
 <i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59)
 ;"></i> This overview is currently being deprecated as we attempt to migrate from
 the manually-generated list to one automatically-generated from the `data/tech_stack.yml` file.
 Please use the [automatically-generated table instead](#tool-stack-overview)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 <details>
 <summary markdown="span">Click to show deprecated table</summary>
@@ -65,7 +65,7 @@ These are the tools the Developer Relations team is the DRI for:
 
 </details>
 
-##### Tools pending addition to tech stack
+### Tools pending addition to tech stack
 
 The Developer Relations team is also the DRI for these tools which are [pending addition to the tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack):
 
@@ -73,7 +73,7 @@ The Developer Relations team is also the DRI for these tools which are [pending 
 |---|---|---|
 | SheerId | [SheerId](https://www.sheerid.com/) is the platform we use to automatically qualify applications to our community programs | |
 
-##### Other tools we rely on
+### Other tools we rely on
 
 These are the tools that are essential to some Community programs, but the Developer Relations team are not the DRI for:
 
@@ -85,8 +85,7 @@ These are the tools that are essential to some Community programs, but the Devel
 | Salesforce      | [Salesforce](https://www.salesforce.com) is our [CRM](https://en.wikipedia.org/wiki/Customer_relationship_management)                                                                                                                     | We use Salesforce (SFDC) to [support the Education, Open Source and Startup Programs](/handbook/marketing/developer-relations/community-programs/community-program-applications)                                                                                                     |
 | Canva           | [Canva](https://www.canva.com/) is the tool we use to create a lot of our GitLab-branded materials.                                                                                                                                       | Community team members should creat an account using their `@gitlab.com` email and [request access](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to Canva Enterprise from the Design team.                                        |
 
-#### Adding a new tool to the Developer Relations tool stack
+### Adding a new tool to the Developer Relations tool stack
 
 1. Please follow the procurement process as you would for [adding any new tool to GitLab's tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack).
 1. Ensure that the `group_owner` field on the tech stack file entry is set to `Developer Relations`. This will make the tool to be automatically listed on the [Developer Relations toolstack](#tool-stack-overview).
-

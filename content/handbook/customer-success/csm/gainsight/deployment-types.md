@@ -1,5 +1,4 @@
 ---
-
 title: "Customer Deployment Types"
 description: "Definition guide for customer deployment types, conversion sources, hosting, deployer method, and provider."
 ---
@@ -12,7 +11,7 @@ During customer onboarding, these fields should be filled out in Gainsight. Depl
 The purpose is understanding where the customer came from — this is about sourcing (e.g., marketing/SDR'ing as an analogy). Each customer should fit into one of three buckets regardless of when they started using GitLab:
 
 - Community conversion (first value waived) - A customer who was using the free community version and is converting (or converted) to a paid subscription tier.
-- New Customer - This is a brand new customer who doesn’t (or didn't) have an existing GitLab deployment.
+- New Customer - This is a brand new customer who doesn't (or didn't) have an existing GitLab deployment.
 - Existing - New CSM (first value waived) - The customer was already a paying customer and is being (or was) assigned a CSM (e.g., upgraded from a small deployment to large).
 
 ### Hosting

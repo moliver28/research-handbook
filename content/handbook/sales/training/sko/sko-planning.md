@@ -1,24 +1,19 @@
 ---
-aliases: /handbook/sales/training/SKO/SKO-planning
 title: "Sales Kickoff Planning"
 description: "This page outlines the GitLab Sales Kickoff core team structure and planning process"
 ---
 
-
-
-
-
-
-
-# Sales Kickoff Core Team
+## Sales Kickoff Core Team
 
 Sales Kickoff is too big to have a single DRI for everything. The Field Enablement leader is ultimately accountable for delivery of a successful, on-budget SKO and will be responsible for the following:
+
 - Overall story arc
 - SKO agenda
 - CRO leader interlocks & communication
 - SKO Ambassador program
 
 See the [SKO 2023 parent epic](https://gitlab.com/groups/gitlab-com/sales-team/sales-kick-off/-/epics/10). Additional SKO responsibilities will be split into 3 sub-teams with category DRIs responsible for specific aspects of SKO as outlined below. The SKO core team will include the following sub-teams, all of which have supporting team members underneath them:
+
 1. **Event Support & Logistics DRI**
     - See the [SKO 2023 Event Support & Logistics epic](https://gitlab.com/groups/gitlab-com/sales-team/sales-kick-off/-/epics/11) for additional details
 1. **Content DRI**
@@ -27,6 +22,7 @@ See the [SKO 2023 parent epic](https://gitlab.com/groups/gitlab-com/sales-team/s
     - See the [SKO 2023 Communications epic](https://gitlab.com/groups/gitlab-com/sales-team/sales-kick-off/-/epics/12) for additional details
 
 The SKO core team also includes an executive sponsor (VP, Field Ops) with responsibilities that include:
+
 - Champion and socialize CRO Leaders' POV in SKO planning conversations
 - Ensure regular CRO leader check-ins with executives
 - Help drive alignment across CRO leadership team
@@ -48,7 +44,7 @@ The SKO core team also includes an executive sponsor (VP, Field Ops) with respon
 | Mainstage | - Keynote content<br>- Customer and/or partner speaker sessions<br>- Motivational speaker | - Events<br>- Corp Comms<br>- Execs|
 | Non-mainstage | - Role-based breakouts<br>- Birds of a Feather sessions | - Events<br>- Portfolio Marketing<br>- Field org |
 | Partner Summit | - Partner Summit sessions<br>- Partner sponsorships | - Events<br>- Portfolio Marketing<br>- Field Enablement |
-| Awards & Compensation | - Tracking final results<br>- Awards<br>- President’s Club winners<br>- Comp Overview | - Events<br>- CRO leaders |
+| Awards & Compensation | - Tracking final results<br>- Awards<br>- President's Club winners<br>- Comp Overview | - Events<br>- CRO leaders |
 | Production Video | - Video for mainstage sessions <br>- Video content production for SKO and Partner Summit, Event recording, and Other | - Events<br>- Digital Production<br>- Field Enablement<br>- Channel |
 
 ## Managing SKO Work
@@ -74,9 +70,9 @@ The sub-team DRIs are responsible for maintaining the efficacy of this document 
 The SKO planning team has one 50-minute planning meeting that includes ALL DRIs and sub-DRIs + team members leading planning and content for keynote sessions.
 
 - SKO Core Team Weekly Meeting
-   - Q2: Monthly
-   - Q3: Weekly
-   - Q4: 2x weekly (consider making one occurrence 25 min)
+  - Q2: Monthly
+  - Q3: Weekly
+  - Q4: 2x weekly (consider making one occurrence 25 min)
 
 In addition, the SKO planning team delivers CRO Leader Status Updates in the following cadence:
 
@@ -122,6 +118,7 @@ Below are the activities that Field Enablement Managers and Sales Kickoff (SKO) 
 Below is are the criteria used to select submissions for SKO breakout sessions.
 
 **Criteria**
+
 1. Content directly supports the [SKO objectives](/handbook/sales/training/SKO/#sales-kickoff-sko-overview)
 1. Proposed session is interactive and takes advantage of in-person modality
 1. High content quality
@@ -130,6 +127,7 @@ Below is are the criteria used to select submissions for SKO breakout sessions.
 1. Content fits well in the landscape of all other topics being chosen (i.e. a blend of technical, functional/soft skill topics)
 
 **Selection Process**
+
 1. All Field Enablement Program Managers and the Field Enablement leader meet in a working session to review submissions for each segment and select the winning submissions based on the criteria.
    1. Note: Doing this in a working session vs. silo will help the team have healthy discussions around relevance and will uncover any areas of overlap.
 1. Field Enablement Program Managers review/justify selections with their segment area VPs to ensure alignment.

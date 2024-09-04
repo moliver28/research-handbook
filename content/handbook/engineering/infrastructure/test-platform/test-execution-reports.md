@@ -5,7 +5,6 @@ description: "Data on all E2E test runs"
 
 ## E2E test execution reports
 
-
 This page contains overview of all the automated end-to-end test execution reports across different environments and pipelines.
 
 ## Master
@@ -16,11 +15,11 @@ E2E test execution against [`gitlab-development-kit`](https://gitlab.com/gitlab-
 
 - {{< test-execution-allure-link "e2e-test-on-gdk" >}}
 
-### package-and-test
+### test-on-omnibus
 
 E2E test execution against various configurations of `omnibus` images.
 
-- {{< test-execution-allure-link "e2e-package-and-test" >}}
+- {{< test-execution-allure-link "e2e-test-on-omnibus" >}}
 
 ## Nightly
 

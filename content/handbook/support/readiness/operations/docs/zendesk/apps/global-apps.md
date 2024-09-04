@@ -18,6 +18,16 @@ App information:
   available in the
   [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
 
+## GitLab Duo
+
+This app enables the use of GitLab Duo in Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/gitlab-duo).
+
 ## GitLab Reminders App
 
 <sup>*Introduced via [support-team-meta#3036](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3036)*</sup>
@@ -40,6 +50,17 @@ App information:
 - Located in the navbar
 - This application was developed in-house and can be found
   [GitLab Reminders App project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/reminders-app).
+
+## GitLab Search
+
+This app lets you use the gitlab.com API to search for issues/merge requests
+within Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/gitlab-search).
 
 ## GitLab Super App
 
@@ -128,7 +149,7 @@ App information:
 - This applicate was developed in-house and can be found at
   [Notification app project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/notification-app)
 
-#### Current events that trigger the app
+### Current events that trigger the app
 
 The following events will send data to the app for notification processing:
 
@@ -137,8 +158,10 @@ The following events will send data to the app for notification processing:
 - Customer public comment made on ticket
 - Emergency ticket created
 - Escalated ticket created
+- Tickets being STAR'd
+- Tickets created by specific organizations
 
-#### User settings
+### User settings
 
 The current user settings, which will determine what notifications you will (and
 will not) recieve are:
@@ -150,7 +173,6 @@ will not) recieve are:
   - Values:
     - Assigned tickets only
     - CC'd tickets only
-    - Tickets within my SGG only
     - All tickets
 - Notify me about
   - This tells the app what kind of events to notify you for
@@ -163,10 +185,10 @@ will not) recieve are:
 - Notify me only for tickets with priority
   - This tells the app which priorities to notify you on
   - Values:
-    - Urgent
-    - High
-    - Medium
-    - Low
+    - at least Urgent
+    - at least High
+    - at least Medium
+    - at least Low
   - **Note** A blank value is assumed to be "all priorities"
 - Also notify me for escalated ticket creation
   - This dictates if you want to be notified via the app when an escalated
@@ -197,7 +219,7 @@ will not) recieve are:
 For information on editing your personal user settings, please see
 [Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/4408819930906-Editing-your-personal-settings-in-Zendesk-Chat-Support-accounts#topic_gfh_rqm_4fb).
 
-#### Future iterations
+### Future iterations
 
 This app is slated to grow consistently with new forms of notifications. Keep an eye on
 [Support Readiness milestones](https://gitlab.com/groups/gitlab-com/support/support-ops/-/milestones?search_title=Support+Ops+Deployment&state=&sort=),
@@ -231,6 +253,10 @@ The current plugins are:
 
 - **Namespace Lookup**
   > This lets you search gitlab.com for a namespace. It then displays information based on the results. This is related to the one in the GitLab Super App, but instead it shows less information and shows the SFDC IDs it is associated with.
+- **Project Lookup**
+  > This lets you search gitlab.com for a project. It then displays information based on the results.
+- **Attempt Association**
+  > On tickets where the product type is `GitLab.com`, clicking the button on the plugin will attempt to auto-associate the requester to an organizaiton. If that is not possible, it will detail why it was not possible.
 
 App information:
 
@@ -259,7 +285,7 @@ App information:
 - This application was developed by Unbabel and is available in the
   [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
 
-#### Configuring Unbabel in Zendesk
+### Configuring Unbabel in Zendesk
 
 Every Agent profile in Zendesk needs to be individually configured so that only
 tickets submitted in the [supported languages](https://about.gitlab.com/support/portal/#language-support) are translated.
@@ -276,7 +302,7 @@ You can also do the configuration manually by following these steps.
    ![Languages](/images/support/Unbabel_Languages_New.png)
 1. When you are finished, click the Save button.
 
-#### Replying with a Translation
+### Replying with a Translation
 
 To request a translation automatically, simply reply as you normally would as
 an internal note with the #unbabel hashtag included at the top of your content.
@@ -305,7 +331,7 @@ incorrectly set the ticket status as **Open**. You must do this with an *empty
 comment* (remove any `#unbabel` added by the plugin, before you Submit as
 Pending).
 
-#### Excluding Text from Translation
+### Excluding Text from Translation
 
 The highlighted code can be skipped for translation by adding 3 brackets around
 the text:
@@ -317,7 +343,7 @@ the text:
 The above can also be used to protect sensitive information from a human
 translator when sending a translation request.
 
-#### Disabling Unbabel in a Specific Ticket
+### Disabling Unbabel in a Specific Ticket
 
 Sometimes Unbabel is triggered if a customer's signature was written in a
 language that requires translation but the customer replies in English, and the
@@ -330,14 +356,14 @@ this specific ticket:
 
 From now on, Unbabel will not be triggered in this ticket.
 
-#### Help with Translation
+### Help with Translation
 
 If for some reason you have difficulty in understanding the automated
 translation, an actual human intervention can actually be requested. Simply
-click the link `Can’t understand the translation?` in the Unbabel app box and
+click the link `Can't understand the translation?` in the Unbabel app box and
 this will send your response for translation to Unbabel editors.
 
-#### Best Practices for Unbabel
+### Best Practices for Unbabel
 
 As indicated in the training session, please keep in mind of the following best
 practices when writing a response for translation.
@@ -358,7 +384,23 @@ practices when writing a response for translation.
   - It is likely that the response you are sending may be lost in translation,
     for example the word `pass` would differ to a `boarding pass`.
 
-#### Zendesk Triggers
+### Troubleshooting Errors in the Unbabel App
+
+**Error: Unexpected Error (The HTTP call to /api/zendesk/v3/tickets/translate/ returned 403)**
+
+![Unbabel_403_error](/images/suport/Unbabel_App_403_error.png)
+
+This error usually occurs when a request to translate Zendesk ticket fails with a 403 status code. This is often due to Cloudflare's security system incorrectly detecting the ticket content as potentially malicious, thus preventing the request from reaching Unbabel's servers.
+
+To verify if Cloudflare is blocking the request, check the `Network` response in your browser’s developer tools when the error occurs.
+
+![Unbabel_cloudfare_error](/images/support/Unbabel_403_cloudfare.png)
+
+If you see this error, reach out to Unbabel Support Team by emailing `customer.happiness@unbabel.com`. Provide the ticket ID, details of the error, and what you observed in the `Network` response within the browser’s developer tools.
+
+*Temporary workaround:* While Unbabel Support is investigating the issue, you can advise the ticket assignee to temporarily use [Unbabel's TowerLLM demo](https://mtdemo.unbabel.com/) to manually translate their ticket replies.
+
+### Zendesk Triggers
 
 Unbabel relies on two Zendesk triggers to work properly. These should *never*
 be changed, as it can cause significant problems.
@@ -374,6 +416,8 @@ A plugin controlled app that can do several things Zendesk related
 
 The current plugins are:
 
+- **Create new ticket**
+  > Allows an agent to create a new ticket using the same user as the ticket they are currently on.
 - **Due date picker**
   > This allows you to customize what the Due Date for a Task ticket is set for. By default, Zendesk only allows setting the date. This enables you to set the date, time, and timezone.
   >

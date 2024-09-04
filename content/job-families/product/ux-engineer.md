@@ -8,7 +8,6 @@ description: At GitLab, UX engineers collaborate closely with product designers,
 
 At GitLab, UX engineers collaborate closely with [product designers](/job-families/product/product-designer/), [product managers](/job-families/product/product-manager/), and [engineers](/job-families/engineering/) to create a productive, minimal, and human experience.
 
-
 A UX Engineer reports to a [Product Design Manager](/job-families/product/product-design-management/#product-design-manager).
 
 ## Responsibilities
@@ -64,7 +63,7 @@ The Senior UX Engineer reports to a [product design manager](/job-families/produ
 
 #### Job Grade
 
-The Senior UX Engineer is a [grade 7](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior UX Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -87,15 +86,15 @@ The Senior UX Engineer role extends the UX Engineer role and is expected to exec
 
 ## Performance Indicators
 
-- [Pajamas component migrations](http://about.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
-- [SUS-impacting issues](http://about.gitlab.com/handbook/product/ux/performance-indicators/#sus-impacting-issues-openedclosed-each-month)
+- [Pajamas component migrations](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
+- [SUS-impacting issues](/handbook/product/ux/performance-indicators/#sus-impacting-issues-openedclosed-each-month)
 - [Deferred UX](http://gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](http://about.gitlab.com/handbook/hiring/interviewing/#screening-call) with one of our global recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our global recruiters.
 - If a candidate successfully passes the screening call, they'll be assigned a brief technical exercise to be completed ahead of the next interview with a product designer or UX engineer. It's an opportunity to learn your comfort and capability working with design systems and building components.
 - Next, the candidate will meet with the hiring product design manager. They'll want to learn how you work in teams and about your past relevant experience.
 - If the candidate successfully passes the previous interviews, they'll meet with a senior manager of product design for a 50-minute interview.

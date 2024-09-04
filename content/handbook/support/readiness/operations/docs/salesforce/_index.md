@@ -4,7 +4,7 @@ description: Support Operations documentation page for Salesforce
 canonical_path: "/handbook/support/readiness/operations/docs/salesforce/"
 ---
 
-## Sections of a Salesforce Account page
+### Sections of a Salesforce Account page
 
 There are many sections to an account page, but the ones most important to us in
 Support Ops are detailed here.
@@ -71,7 +71,7 @@ This section contains the products tied to subscriptions. Here we can determine
 if the support level is accurate or not based on the subscription name and the
 effective end date.
 
-## Searching in Salesforce
+### Searching in Salesforce
 
 Go to the any Salesforce page (the main page works, but all pages contain the
 search form) and click in the textbox in the top-left of the page. In this box,

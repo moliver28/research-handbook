@@ -5,7 +5,6 @@ description: "How to create and manage a research participant panel"
 
 A research panel is a frequently used means for recruiting participants when conducting research consisting of studying the same group of opted-in participants through various methods and stages that are developed as part of a research effort. This page walks through a self-service process to create and manage panels.
 
-
 ### When should I use a research panel?
 
 Recruiting participants for research with niche topics can take a lot of time and effort to find. Frequency, subject-matter, scope, and scale are all areas of consideration as to when a panel may be needed. If you have a need for a larger group surrounding a certain niche criteria focusing on an issue (that will contain multiple research studies) over a longer period of time, this would be a time to consider using a panel. For example, larger enterprise users or users that are on Ultimate that have experience using a SAST tool and a role that involves using security tools or practices.
@@ -18,18 +17,16 @@ It is also important to consider the various pros and cons when utilizing a pane
 - Better chance of gaining in-depth knowledge and an understanding of your participants through their consistent involvement with the research.
 - Ability to recruit participants on an expedited timeline, especially when you have a difficult or niche user profile.
 
-
 **Cons:**
 
 - Participant fatigue if users are contacted too frequently about participating in studies, which may also lead to having to refresh panel participants.
 - Bias may begin to occur if the same people are surveyed multiple times, possibly causing us to over-index on feedback from a few users, instead of representing as many users as possible. Participants may also begin to recognize your research patterns and respond in a less natural manner.
 - Periodically having to update the panel to ensure the appropriate participants are still included and there is an appropriate mix of individuals.
 
-
 Initially, answering the following questions will help determine whether a panel is the right solution for your project.
 
 - *Why do you need a panel?*
-  - It's best use a panel for users who are typically hard to recruit, either because there aren’t many of them (for example, Enterprise users), because they have attributes that are specialized and make them harder to find (for example, extensive experience with Kubernetes), or because they have been harder for us to recruit in the past (for example, self-managed users).
+  - It's best use a panel for users who are typically hard to recruit, either because there aren't many of them (for example, Enterprise users), because they have attributes that are specialized and make them harder to find (for example, extensive experience with Kubernetes), or because they have been harder for us to recruit in the past (for example, self-managed users).
 - *How long will this panel need to be sustained?*
   - For panels to be the most effective, setting a duration is crucial to ensure you are not over-indexing on feedback from a few users which will bias your results. Research Operations recommends a panel to last no longer than 6 months to help ensure that you are not over-indexing on panel participants.
 - *How large will the panel need to be?*
@@ -88,14 +85,13 @@ After you have established your panel, follow these steps to utilize panel parti
 
 **As you use your panel, you will need to continually manage and track panelist information and engagement. Refer to the [Panel management and tracking](/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking) section.**
 
-
 ### Guidelines when communicating with panelists
 
 One goal of a panel is to keep participants engaged and not to incur fatigue from over communication to where they no longer want to participate. Below are some guidelines on how to communicate with your panel:
 
 - Outline communication guidelines initially within the recruiting screener, such as how often they'll be contacted, who will contact them, how they'll be contacted, and how team members will coordinate contact. To stay within your guidelines, set up reminders on your Google calendar.
 - Consistency is key. If you communicate to participants that they will receive a total of three communications a month, send no less than and no more than three. Detouring from the set expectations could potentially make the panelist think that the research is not organized or serious, causing disengagement.
-- Track how often we’re communicating with panelists in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). Do not reach out more than once a month to panelists.
+- Track how often we're communicating with panelists in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). Do not reach out more than once a month to panelists.
 - If participants contact the designated point of contact, you must reply in a 24-hour time window if it is during the week (otherwise, the next business day will suffice). It is a top priority to be responsive and consistently engaged.
   - When the designated point of contact goes on PTO, ensure there is someone to cover communication with panelists.
 
@@ -163,11 +159,11 @@ Always follow these best practices for handling PII within panels:
 Do not collect data just to have it available for a non-specific purpose. For example, do not collect "time in a role" if role tenure is not relevant to the research effort.
 
 - If someone is working from a public workspace, screens should not show panel information.
-- Report any compromised data (see [GitLab’s data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
-- Remember to follow [GitLab’s privacy policy](https://about.gitlab.com/privacy/).
+- Report any compromised data (see [GitLab's data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
+- Remember to follow [GitLab's privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
   - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.
-  - **To see their personal data:** They can submit a [Personal data request](/handbook/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
+  - **To see their personal data:** They can submit a [Personal data request](/handbook/legal/privacy/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
 
 ### What is an example of a panel in action at GitLab?
 

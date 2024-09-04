@@ -3,7 +3,7 @@ title: "Engineering Career Framework: Intern"
 ---
 
 ## Engineering Function Competencies: Intern
- 
+
 **Interns at GitLab are expected to exhibit the following competencies:**
 
 - [Intern Leadership Competencies](#intern-leadership-competencies)

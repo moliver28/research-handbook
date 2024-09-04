@@ -27,7 +27,7 @@ The Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/c
 - Experience managing managers
 - Agile project management skills
 - Commitment to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Understanding of how to be successfully manage at a remote-only company
 - Humble, servant leader
 

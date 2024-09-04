@@ -23,7 +23,7 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 - Manage operational components of the [Data Platform](/handbook/business-technology/data-team/platform/infrastructure/) to ensure updated data are available per [established SLOs](/handbook/business-technology/data-team/platform/#extract-and-load)
 - Work with all divisions to continually grow the value of our Data Platform by [onobarding new data](/handbook/business-technology/data-team/platform/#adding-new-data-sources-and-fields) from our SaaS, Telemetry, Product, and Corporate systems
 - Understand the big picture and demonstrate how your team supports it through prioritization, planning, and solutioning
-- Participate in [Monthly Key Reviews](/handbook/key-review/) to represent Data and stay up-to-date of company developments
+- Participate in [Monthly Key Reviews](/handbook/company/key-review/) to represent Data and stay up-to-date of company developments
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Continuously develop the [Data Team Handbook](/handbook/business-technology/data-team/) to ensure it represents the current state of our strategy, processes, and operations
 
@@ -50,6 +50,11 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 - [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
 - Legacy Data Removal Iterations
 - Data Platform Performance and Security Audits
+- Contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact)
+    1. Data Platform Stability
+    1. Data Quality & Governance
+    1. Data Adoption
+    1. Revenue/Efficiency Impact
 
 ### Senior Manager, Data
 
@@ -82,10 +87,14 @@ The Senior Manager, Data is a [grade 9](/handbook/total-rewards/compensation/com
 
 #### Performance Indicators (PI)
 
-- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
-- [CSAT](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
-- [SLO Achievement per Data Source](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source)
-- WIP: % of queries supported by Enterprise Dimensional Model >= 75%
+- [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
+- Legacy Data Removal Iterations
+- Data Platform Performance and Security Audits
+- Contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact)
+    1. Data Platform Stability
+    1. Data Quality & Governance
+    1. Data Adoption
+    1. Revenue/Efficiency Impact
 
 ## Career Ladder
 

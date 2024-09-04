@@ -1,7 +1,6 @@
 ---
 title: "Migration Details"
 description: "Handbook Content is on the move.  This gives the time table and the individual files which are being migrated."
-aliases: /handbook/content-websites/handbook-migration/migration-details/
 ---
 
 ## Migration Timetable and Status
@@ -1317,7 +1316,7 @@ product/product-leadership/index.html.md.erb
 product/product-manager-responsibilities/index.html.md.erb
 product/tiering-guidance-for-features/index.html.md.erb
 product/performance-indicators/index.html.md.erb
-product/how-to-engage/index.html.md
+product/product-management/index.html.md
 product/packaging-and-pricing/gitlab-for-campuses/index.html.md
 product/product-safe-guidance/index.html.md.erb
 product/works-by-default/index.html.md.erb
@@ -3047,7 +3046,7 @@ engineering/development/growth/activation/index.html.md.erb
 engineering/development/growth/sisense_alert.html.md
 engineering/development/growth/index.html.md.erb
 engineering/development/secure-coding/index.html.md.erb
-engineering/development/dev/plan-project-management/index.html.md.erb
+engineering/development/dev/plan/project-management/index.html.md.erb
 engineering/development/dev/plan/plan-fe/internship/index.html.md.erb
 engineering/development/dev/plan/plan-fe/index.html.md.erb
 engineering/development/dev/plan/product-planning/index.html.md.erb
@@ -3072,7 +3071,6 @@ engineering/development/dev/plan/_product_planning_planning_rotation.md.erb
 engineering/development/dev/plan/_capacity_planning.md.erb
 engineering/development/dev/plan/_scalability_targets.md.erb
 engineering/development/dev/plan/knowledge/index.html.md.erb
-engineering/development/dev/plan/plan-project-management-be/index.html.md.erb
 engineering/development/dev/plan/_product_planning_backend_okrs.md.erb
 engineering/development/dev/plan/_project_management_dashboard.md.erb
 engineering/development/dev/plan/_historical_capacity.md.erb
@@ -3461,7 +3459,6 @@ engineering/readmes/craig-miskell/index.html.md
 engineering/readmes/ben-king/index.html.md
 engineering/readmes/_toc.html.haml
 engineering/readmes/savas-vedova/index.html.md
-engineering/readmes/wayne-haber/index.html.md
 engineering/readmes/katrin-leinweber/index.html.md
 engineering/readmes/lyle-kozloff/index.html.md
 engineering/readmes/mlunoe/index.html.md

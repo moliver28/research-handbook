@@ -31,7 +31,6 @@
 {{- $d = merge $d (dict "display_name" .name) }}
 {{ partial "categories/section-heading.html" $d }}
 
-
 {{ with .categories }}
 <table>
     <thead>

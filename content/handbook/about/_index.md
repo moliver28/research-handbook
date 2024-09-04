@@ -27,7 +27,7 @@ We established these processes because we saw these benefits:
 
 One common concern newcomers to the handbook express is that the strict documentation makes the company more rigid.
 In fact, writing down our current process in the handbook has the effect of empowering contributors to propose change.
-As a result, this handbook is far from rigid. You only need to look at the [handbook changelog](https://about.gitlab.com/handbook/CHANGELOG.html) to see the evidence. Every attempt is made to document guidelines and processes in the handbook. However, it is not possible to document every possible situation or scenario that could potentially occur. Just because something is not yet in the handbook does not mean that it is allowed. GitLab will review each team member's concern or situation based on local laws to determine the best outcome and then update the handbook accordingly. If you have questions, please discuss with your manager or contact the [People Success](/handbook/people-group/) team.
+As a result, this handbook is far from rigid. You only need to look at the [handbook changelog](/handbook/about/changelog/) to see the evidence. Every attempt is made to document guidelines and processes in the handbook. However, it is not possible to document every possible situation or scenario that could potentially occur. Just because something is not yet in the handbook does not mean that it is allowed. GitLab will review each team member's concern or situation based on local laws to determine the best outcome and then update the handbook accordingly. If you have questions, please discuss with your manager or contact the [People Success](/handbook/people-group/) team.
 
 ## Handbook Interpretation
 
@@ -63,7 +63,7 @@ Note: If you need to go back to an earlier version of the handbook, use ``git ch
 
 On this page you can see handbook trends and discover popular pages that you may not know about.
 
-GitLab uses [Snowplow](https://docs.gitlab.com/ee/development/snowplow/) to track handbook usage; the information can be viewed on [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/PDGitlabHandbookPageTraffic/GitLabHandbookTraffic).
+GitLab uses [Snowplow](/handbook/business-technology/data-team/platform/snowplow/) to track handbook usage; the information can be viewed on [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/PDGitlabHandbookPageTraffic/GitLabHandbookTraffic).
 
 <iframe class="dashboard-embed" src="https://app.periscopedata.com/shared/91e74f80-a1e7-4e88-976b-727a9e4454ed??embed=true" width="600" height="400"> </iframe>
 
@@ -71,7 +71,7 @@ GitLab uses [Snowplow](https://docs.gitlab.com/ee/development/snowplow/) to trac
 
 We've gathered *some* information about the handbook here, but there's still more elsewhere.
 
-- [Handbook usage](/handbook/handbook-usage/)
+- [Handbook usage](/handbook/about/handbook-usage/)
 - [Evolution of the handbook](/handbook/ceo/#evolution-of-the-handbook) on the [CEO page](/handbook/ceo/)
-- [Changelog](https://about.gitlab.com/handbook/CHANGELOG.html)
-- [Handbook editing examples](/handbook/editing-handbook/practical-handbook-edits/)
+- [Changelog](/handbook/CHANGELOG.html)
+- [Handbook editing examples](/handbook/about/editing-handbook/practical-handbook-edits/)

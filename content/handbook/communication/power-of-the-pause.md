@@ -29,9 +29,8 @@ Take a moment and step away from the situation.  If you can even take a moment t
 Unfortunately when there is conflict, rational thought can succumb to negative emotions, making it hard to form an appropriate response.  Take time to **pause** and calm down while using one of the techniques above.  When you have had a chance to adjust your attitude, understand the facts and have taken a moment to breathe you can move forward in a calm and rational manner.
 
 Here are a few articles for additional reading:
+
 - [The Pause Principle](http://cashmanleadership.com/the-pause-principle-book/)
 - [The Power of Pause, Discover how to up your game and perform your best](https://www.mindful.org/the-power-of-pause/)
 - [The Power of pause in leadership](https://leadonpurposeblog.com/2019/12/30/the-power-of-pause-in-leadership/)
 - [The Power of Pause](https://hbr.org/2012/01/the-power-of-pause)
-
-

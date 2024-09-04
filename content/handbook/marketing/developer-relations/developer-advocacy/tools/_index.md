@@ -1,8 +1,5 @@
 ---
-
 title: "Developer Advocacy Tools"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/tools/index.html
 ---
 
 ## Overview
@@ -24,7 +21,6 @@ Helpful Buffer extensions/apps:
 - [Android app](https://play.google.com/store/apps/details?id=org.buffer.android): Share with app functionality.
 
 Read more in [this article](https://buffer.com/library/save-time-social-media-scheduling/).
-
 
 ## Grammarly
 

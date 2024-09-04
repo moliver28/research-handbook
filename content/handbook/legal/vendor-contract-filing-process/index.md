@@ -53,7 +53,7 @@ Vendor Name-GitLab Contract Type - yyyy.mm.dd.pdf
 
 Vendor Name-GitLab Contract Type (Event Name) - yyyy.mm.dd.pdf
 
-There should not be any underscores in your file name. Spaces between words are fine. Contract Type will normally be the heading you find on the contract itself. Some examples include “Master Service Agreement”, “Partnership Incentive Agreement”, “Addendum to Subscription Terms”. The date should be the Effective Date, which is usually the date when the last signature is added (unless it is specified otherwise in the contract).
+There should not be any underscores in your file name. Spaces between words are fine. Contract Type will normally be the heading you find on the contract itself. Some examples include "Master Service Agreement", "Partnership Incentive Agreement", "Addendum to Subscription Terms". The date should be the Effective Date, which is usually the date when the last signature is added (unless it is specified otherwise in the contract).
 
 **Terminated Contracts**
 
@@ -65,19 +65,19 @@ When a contract is terminated, an Omega sign should be added to the front of the
 
 Please watch the [ContractWorks tutorial](https://securedocs.wistia.com/medias/28tju1vqmw) for tagging your document.
 
-#### 1. Choose the Correct Template for the Contract Type.
+#### 1. Choose the Correct Template for the Contract Type
 
-Click on the greyed out tags in your file line. This will take you to a screen entitled “Manage Tags”. From the drop-down menu, select the template that best fits your contract.
+Click on the greyed out tags in your file line. This will take you to a screen entitled "Manage Tags". From the drop-down menu, select the template that best fits your contract.
 
 ![tag](tag.png)
 
 ![template](template.png)
 
-#### 2. Tag the Contract.
+#### 2. Tag the Contract
 
 Fill in the tags with the information you collected during the contract approval process. See details below for best practices for recurrence, notifications, and attaching documents to a Master Agreement.
 
-When you’ve filled everything in, click Submit.
+When you've filled everything in, click Submit.
 
 #### Best Practices for Tagging
 

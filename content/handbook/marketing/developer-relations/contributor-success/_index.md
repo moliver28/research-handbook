@@ -4,17 +4,19 @@ description: "Contributor Success Team"
 ---
 
 ## Common Links
+
 |  | |
 |-----|-----|
 | **GitLab Team Handle** | [`@gitlab-org/developer-relations/contributor-success`](https://gitlab.com/gitlab-org/developer-relations/contributor-success) |
-| **Slack Channel** | [`#contributor-success`](https://gitlab.slack.com/archives/C02R0NE6P6C) & [`#contributor-success-confidential`](https://gitlab.slack.com/archives/C04KENT97K7)
+| **Slack Channel** | [`#contributor-success`](https://gitlab.slack.com/archives/C02R0NE6P6C) & [`#contributor-success-confidential`](https://gitlab.slack.com/archives/C04KENT97K7) |
 | **Slack Channels from initiatives that we help drive**| [`#leading_organizations`](https://gitlab.slack.com/archives/C03KC7N184D)  |
 | **Team Boards** | [`gitlab-org/-/boards/4296693`](https://gitlab.com/groups/gitlab-org/-/boards/4296693) |
 | **Issue Tracker** | [`gitlab-org/developer-relations/contributor-success/team-task`](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues) |
 
-- - -
+---
 
 ## Sub-pages
+
 |  | |
 |-----|-----|
 | **Workflows** | [Contributor Success Contributor Workflows](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows) |
@@ -24,7 +26,7 @@ description: "Contributor Success Team"
 | **Community pairing sessions** | [Community pairing sessions](/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions) |
 | **Innovation Pitch Competition** | [Innovation Pitch Competition](/handbook/marketing/developer-relations/contributor-success/innovation-pitch-competition) |
 
-- - -
+---
 
 ## Strategy
 
@@ -39,8 +41,7 @@ ambition of [1000+ contributors with merged MRs per month to GitLab](/handbook/c
 
 Note: FY24 Direction will come up shortly
 
-In FY23 we will be focused on growing the number of unique new monthly contributors, reducing [Open Community MR Age
-(OCMA)](#open-community-mr-age-ocma) and increasing [MRARR](#mrarr). This will increase development velocity without
+In FY23 we will be focused on growing the number of unique new monthly contributors, reducing [Open Community MR Age (OCMA)](#open-community-mr-age-ocma) and increasing [MRARR](#mrarr). This will increase development velocity without
 requiring additional engineering resources.
 
 Parallel to this we'll increase
@@ -55,7 +56,7 @@ ranges from supporting customers on contributions, supporting various open sourc
 #### Unique New Monthly Contributors
 
 1. Minimize reliance on human interaction
-1. Reduce volatility through introducing [automations](#community-merge-request-workflow-automations) that drive contributions
+1. Reduce volatility through introducing automations that drive contributions
    forward automatically
 1. Capitalize on untapped potential - MRs that have become stale but have received a seal of approval as useful addition to GitLab.
 1. Invest into attracting more new contributors
@@ -99,7 +100,7 @@ to the program.
 - Improve GitLab's Contribution Efficiency and [merge request coaching](/job-families/expert/merge-request-coach/) process.
 - Contribute as a [merge request coach](/job-families/expert/merge-request-coach/) in one or more specialties by providing guidance to community contributors on technical and non-technical aspects.
 - Be a point of escalation for community contributors and identify GitLab DRIs to resolve blockers.
-- Organize community contributors into [community teams](#gitlab-community-teams-structure) and ensure their success.
+- Organize community contributors into [community teams](#team-members) and ensure their success.
 - Track [contribution](https://about.gitlab.com/community/contribute/) delivery of the Community Contributors and Cohorts.
 - Nominate impactful community contributors and contributions for recognition.
 - Select and recognize a [GitLab MVP](/handbook/marketing/developer-relations/contributor-success/mvp-process) for each release post
@@ -188,7 +189,9 @@ Note: Due to the switch to GitLab's OKR system, we no longer have the ability to
 
 We have the following Performance Indicators
 
-#### [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
+### Unique Wider Community Contributors per Month
+
+[Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
 
 - Activities:
   - Partnership with Developer Relations team.
@@ -199,7 +202,7 @@ We have the following Performance Indicators
 
 More details can be found in the [Unique Wider Community Contributors per Month Marketing PI section](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
 
-#### Leading Organizations MR Time-to-review
+### Leading Organizations MR Time-to-review
 
 - Activities:
   - Check in with the Leading Organizations.
@@ -208,7 +211,7 @@ More details can be found in the [Unique Wider Community Contributors per Month 
 
 More details can be found at the [Leading Organizations MR Time-to-review Quality PI section](/handbook/marketing/developer-relations/performance-indicators/#leading-organizations-mr-time-to-review)
 
-#### Open Community MR Age (OCMA)
+### Open Community MR Age (OCMA)
 
 - Activities:
   - Shorten CI time
@@ -219,7 +222,7 @@ More details can be found at the [Leading Organizations MR Time-to-review Qualit
 
 More details can be found in the [OCMA Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#open-community-mr-age)
 
-#### MRARR
+### MRARR
 
 - Activities:
   - Reach out to top tier enterprise customers
@@ -234,17 +237,17 @@ account from being linked to a customer account, and being counted into the MRAR
 
 More details can be found at the [MRARR Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#mrarr)
 
-#### Community Coaches per Month
+### Community Coaches per Month
 
 - Activities:
   - Work with Development Department (Christopher L, VP of Development) for volunteers.
   - Work with UX Department (Christie L, VP of UX) Christie for volunteers.
-  - Refresh MR coaches as “Community coaches” so non-code review work can be encouraged (design, etc)
+  - Refresh MR coaches as "Community coaches" so non-code review work can be encouraged (design, etc)
   - Launch training materials for coaches
 
 More details can be found at the [Community Coaches per Month Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#community-mr-coaches-per-month)
 
-#### Community Contribution MRs as Features per Month
+### Community Contribution MRs as Features per Month
 
 - Activities:
   - Encourage features at Developer Relations hackathons.
@@ -301,7 +304,6 @@ Everything that we're working actively is present above the cut-line. Our planni
   - Everything that relates to [Scaling the Community](/handbook/engineering/open-source/growth-strategy.html#scale-the-community) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy.html)
 - `~contributorgrowth::internal`
   - Everything that relates to internal processes such as onboarding, internal issues such as tooling or customer & company specific tasks.
-
 
 ### Monthly planning meeting
 
@@ -406,7 +408,7 @@ Discord: https://discord.gg/gitlab
   - Questions
     - We could ask ourselves a few questions we intend to answer, or let the community ask all the questions
   - Live pairing and/or issue housekeeping
-    - We could link to the team's issues labelled with `quick win` for example
+    - We could link to the team's issues labeled with `quick win` for example
 ```
 
 It is your meeting and you can adapt the agenda to suit your needs.

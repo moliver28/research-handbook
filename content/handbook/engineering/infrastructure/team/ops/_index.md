@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/reliability/general.html
 title: "Production Engineering Ops Team"
 ---
 
@@ -15,12 +14,9 @@ The Ops teams vision is to enable service onwers to operate their own services u
 
 There are two areas that are the Ops team primary focus:
 
-1. Incident Management - Ops is responsible for improving the processes Gitlab uses for incident management
+1. Incident Management - Ops is responsible for improving the processes GitLab uses for incident management
 2. Disaster Recovery - Ops is responsible for managing our disaster recovery processes with a particular focus on reducing our RTO
-
-### Services
-
-The Ops team has inherited assignment of services with `owner: reliability_general` in the [Service Catalog](https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml). Our goal is to help find appropriate owners for those services.
+3. Patching Processes - Ops is responsible for defining and maintaining the GitLab.com patching process
 
 ## How We Work - Prioritization
 
@@ -45,7 +41,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2"
 \`\`\`
 
 ## References
@@ -82,7 +78,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
 
-   ```
+   ```text
    /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 
@@ -111,9 +107,9 @@ The Ops team coordinates the monthly process to identify incident and pager tren
 - Identify actions to address issues identified in the Reliability Team Monthly Availability Reports.
 - Generate action items based on the review of key metrics for incidents and pages.
 - Generate and delegate action items to the relevant teams based on the review process.  This includes:
-   - [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
-   - [Infradev Issues](/handbook/engineering/workflow/#infradev)
-   - [Reliability Improvement Issues](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new)
+  - [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
+  - [Infradev Issues](/handbook/engineering/workflow/#infradev)
+  - [Reliability Improvement Issues](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new)
 
 These efforts are coordinated asynchronously via the [GitLab Incident and Pager Trends Monthly Review Agenda](https://docs.google.com/document/d/1SBoyuKK_g3RbYMcwJZs6dFqCGH9NCqu-M3QsHIwiKMw/edit#)
 
@@ -131,7 +127,7 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 1. Week 2: Reply to the announcement thread and solicit additional feedback.
 1. Week 2: Review the agenda and respond to any questions or comments
 1. Week 3: Review the `Identified Trends` section of the agenda and coordinate the creation of any required Corrective Actions, Infradev Issues, or Infrastructure Improvement Issues.
-1. Week 4: Reply to the announcement thread that the the process is coming to a close
+1. Week 4: Reply to the announcement thread that the process is coming to a close
 1. Week 4: Add an item to the [Reliability Leadership Sync Agenda](https://docs.google.com/document/d/1K-od3_I1TsMcyLag-KyUw-iuCAaaqjR0GIbrmBwVU4M/edit#) and include a summary of action items created.  Please include severity for each item.
 1. Week 4: Send a final reply to the announcement thread indicating that the process is closed for the month.
 
@@ -141,6 +137,6 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 
 ## Common Links
 
-- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176 
+- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176
 - Issue Board: [All issue by priority](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/3993753?label_name[]=team%3A%3AOps)
 - Slack Channel: #g_infra_ops

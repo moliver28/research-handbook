@@ -1,6 +1,6 @@
 ---
 title: "Dogfood Plan Working Group"
-description: "This working group will integrate new Plan stage features in GitLab’s own agile planning process."
+description: "This working group will integrate new Plan stage features in GitLab's own agile planning process."
 ---
 
 ## Attributes
@@ -14,30 +14,30 @@ description: "This working group will integrate new Plan stage features in GitLa
 
 ## Business Goal
 
-This working group will integrate new Plan stage features in GitLab’s own agile planning process. Additionally, there may be some existing features we can consume. We would start with the Plan stage group itself, asking the people who are responsible for the features to implement their usage locally. Assuming success we might roll this out further across R&D (other stages) in a future iteration. The benefits we hope to achieve are:
+This working group will integrate new Plan stage features in GitLab's own agile planning process. Additionally, there may be some existing features we can consume. We would start with the Plan stage group itself, asking the people who are responsible for the features to implement their usage locally. Assuming success we might roll this out further across R&D (other stages) in a future iteration. The benefits we hope to achieve are:
 
 - Our current process is not standardized and some teams are probably planning releases in a sub-optimal (not efficiently, transparently, async, etc) because they are not benefitting from what other teams have figured out works well
 - Dogfooding
-    - If we’re going to standardize on a tool it should be our own product
-    - It’ll make the product better for users/customers
+  - If we're going to standardize on a tool it should be our own product
+  - It'll make the product better for users/customers
 - This will reiterate to the team, users, and customers how invested we are in our own planning feature set while GitLab also integrate with other planning tools because they are entrenched in customer organizations
 
 ## Exit Criteria
 
 - [x] Determine feature within plan that will be used for dogfooding
-    - [Iterations](https://docs.gitlab.com/ee/user/group/iterations/) => **Done** We selected Iterations in Q and drove it internally in Plan to be used across the quarter
+  - [Iterations](https://docs.gitlab.com/ee/user/group/iterations/) => **Done** We selected Iterations in Q and drove it internally in Plan to be used across the quarter
 - [x] Finalized Q3 OKR's => **Done**
-    - [FY21-Q3 Engineering Division OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8303)
-    - Development: [KR: Project planning & Portfolio management](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8429)
-      - [KR: 50% of ~devops::plan ~"type::feature" issues moved to ~"workflow::In Dev" should have an iteration assigned](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9058) => 86%
-      - [KR: 50% of the ~devops::plan issues in a single iteration is burned down](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9059) => 100%
-    - UX: [KR: Dogfood the Iterations feature in Plan to decrease the time issues spend in workflow::design](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8436)
-    - Quality: [KR: Dogfood project planning and project management feature for proactive quality test-planning processes](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8369)
-    - PM: [KR: Dogfood iterations](https://gitlab.com/gitlab-com/Product/-/issues/1406)
+  - [FY21-Q3 Engineering Division OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8303)
+  - Development: [KR: Project planning & Portfolio management](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8429)
+    - [KR: 50% of ~devops::plan ~"type::feature" issues moved to ~"workflow::In Dev" should have an iteration assigned](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9058) => 86%
+    - [KR: 50% of the ~devops::plan issues in a single iteration is burned down](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9059) => 100%
+  - UX: [KR: Dogfood the Iterations feature in Plan to decrease the time issues spend in workflow::design](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8436)
+  - Quality: [KR: Dogfood project planning and project management feature for proactive quality test-planning processes](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8369)
+  - PM: [KR: Dogfood iterations](https://gitlab.com/gitlab-com/Product/-/issues/1406)
 - [x] An epic with issues that are needed to effectively use iterations within the greater GitLab organization => **Done**
-    - [Iterations in GitLab](https://gitlab.com/groups/gitlab-org/-/epics/2422)
+  - [Iterations in GitLab](https://gitlab.com/groups/gitlab-org/-/epics/2422)
 - [x] Define a future target plan feature for dogfooding to introduce to all stages => **Done**
-    - In Q4 we are introducing Epic Swimlanes to all stages and want to see usage in 13 stages until the end of the quarter
+  - In Q4 we are introducing Epic Swimlanes to all stages and want to see usage in 13 stages until the end of the quarter
 - [x] A recorded YouTube demo video suitable for teaching other stages how to modify their processes to use iterations => **Will happen as more vital features are added**
 
 ## Roles and Responsibilities

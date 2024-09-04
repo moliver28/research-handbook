@@ -1,6 +1,6 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab: Create a project and issue"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+title: "GitLab with Git Fundamentals - Hands-On Lab: Create a project and issue"
+description: "This Hands-On Guide walks you through creating projects, issues, labels, as well as using quick actions."
 ---
 
 > Estimated time to complete: 30 minutes
@@ -19,9 +19,9 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
+   > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
 
-### Self-Paced Training:
+### Self-Paced Training
 
 1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
@@ -29,7 +29,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
 
-1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided.
 
 1. Select **Provision Training Environment**.
 
@@ -39,29 +39,29 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
-    > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
-
-    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
+   > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+   >
+   > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
 1. Continue to Task B.
 
-### Instructor-led Training:
+### Instructor-led Training
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
 1. Click the **Download Credentials** button to download your temporary GitLab credentials.
 
-1. Click on **GitLab Dashboard** or the GitLab URL.
+1. Click on **My Group**.
 
 1. Login with your temporary GitLab Credentials.
-  
-    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+
+   > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
 1. Click on the '**Create a project tile**.
 
-    >  From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
+   > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
 ## Task B. Create a project
 
@@ -69,13 +69,13 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. In the **Project name** field, enter `Top Level Project`.
 
-    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
+   > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it’s pointing to a **group name** (starts with `gitlab-learn-labs/*`) and not a **username**. You should create this project inside a group, not directly in your user’s namespace.
+1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it's pointing to a **group name** (starts with `gitlab-learn-labs/*` for Self-paced training, and `training-users/*` for Instructor-Lead Training) and not a **username**. You should create this project inside a group, not directly in your user's namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Check **Initialize repository with a README**.
 
@@ -95,27 +95,27 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. The description is an optional section, but feel free to type in your own description for this issue.
 
-    >  In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
+   > In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
 
 1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 
-    > Alternatively, you can also click **Assign to me** directly beside the Assignees dropdown to assign an issue to yourself.
+   > Alternatively, you can also click **Assign to me** directly beside the Assignees dropdown to assign an issue to yourself.
 
 1. While we will leave the options as they are for now, it is important to understand what they do:
 
-    - **[Epic](https://docs.gitlab.com/ee/user/group/epics/):** Associates the issue with an epic. An epic is a parent grouping of one or more child issues. You can think of an epic as a initiative or meta-level topic and an issue as an objective or detailed task for that initiative.
+   - **[Epic](https://docs.gitlab.com/ee/user/group/epics/):** Associates the issue with an epic. An epic is a parent grouping of one or more child issues. You can think of an epic as a initiative or meta-level topic and an issue as an objective or detailed task for that initiative.
 
-    - **[Milestone](https://docs.gitlab.com/ee/user/project/milestones/):** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time, usually associated with a release and/or version number.
+   - **[Milestone](https://docs.gitlab.com/ee/user/project/milestones/):** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time, usually associated with a release and/or version number.
 
-    - **[Labels](https://docs.gitlab.com/ee/user/project/labels.html):** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
+   - **[Labels](https://docs.gitlab.com/ee/user/project/labels.html):** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
 
-    - **[Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html):** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
+   - **[Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html):** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
 
-    - **[Due date](https://docs.gitlab.com/ee/user/project/issues/due_dates.html):** Use in issues to keep track of deadlines and make sure features are shipped on time. You will receive an email reminder when an issue due date is approaching if it has not been closed yet.
+   - **[Due date](https://docs.gitlab.com/ee/user/project/issues/due_dates.html):** Use in issues to keep track of deadlines and make sure features are shipped on time. You will receive an email reminder when an issue due date is approaching if it has not been closed yet.
 
-    - **[Iteration](https://docs.gitlab.com/ee/user/group/iterations/):** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
+   - **[Iteration](https://docs.gitlab.com/ee/user/group/iterations/):** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
 
-2. Click the **Create issue** button.
+1. Click the **Create issue** button.
 
 ## Task D. Create custom labels
 
@@ -171,4 +171,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

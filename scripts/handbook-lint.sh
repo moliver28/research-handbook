@@ -6,12 +6,127 @@ yellow="\033[93m"
 red="\033[31m"
 ERROR_FOUND=false
 
-# If markdownlint passed without issue we'll need to create a
-# a code-quality report to populate
+# Create a code-quality report to populate if it doesn't exist
 if ! [ -f handbook-codequality.json ]; then
   echo "[]" > handbook-codequality.json
 fi
 
+## MEDIA file checks ##
+# Check if newly added images are in /static/images
+printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
+INCORRECT_IMAGE_PATHS=""
+BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
+git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+while read -r image; do
+  if ! [[ "$image" =~ ^static/images/ ]]; then
+    ERROR_FOUND=true
+    INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"
+    fingerprint=$(sha256sum "$image")
+    markdownlinjson=$(cat handbook-codequality.json)
+    cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "IMAGES/Incorrect Path",
+    "description": "The image \`$image\` is not in the /static/images directory. Please move it to the correct location.",
+    "severity": "minor",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$image",
+      "lines": {
+        "begin": 0
+      }
+    }
+  }
+]
+EOF
+  fi
+done < /tmp/IMAGES
+if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
+  printf "%b" " ${red}${bold}Failed.${normal}\n"
+else
+  printf "%b" " ${green}${bold}Success.${normal}\n"
+fi
+rm /tmp/IMAGES
+
+# Check if newly added images are under 500KB
+printf "%b" "${bold}Checking that images are less than 500KB in size...${normal}"
+LARGE_IMAGE_PATHS=""
+BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
+git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+while read -r image; do
+  IMAGE_SIZE=$(du -k "$image" | cut -f 1)
+  if [[ IMAGE_SIZE -ge 500 ]]; then
+    ERROR_FOUND=true
+    LARGE_IMAGE_PATHS="$LARGE_IMAGE_PATHS- $image\n"
+    fingerprint=$(sha256sum "$image")
+    markdownlinjson=$(cat handbook-codequality.json)
+    cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "IMAGES/Too Large",
+    "description": "The image \`$image\` is $IMAGE_SIZE KB, which is more than 500KB. Please make it smaller.",
+    "severity": "minor",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$image",
+      "lines": {
+        "begin": 0
+      }
+    }
+  }
+]
+EOF
+  fi
+done < /tmp/IMAGES
+if [[ $LARGE_IMAGE_PATHS != "" ]]; then
+  printf "%b" " ${red}${bold}Failed.${normal}\n"
+else
+  printf "%b" " ${green}${bold}Success.${normal}\n"
+fi
+rm /tmp/IMAGES
+
+# Check if newly added videos are in /static/videos
+printf "%b" "${bold}Checking that added videos are in static/videos directory...${normal}"
+INCORRECT_VIDEO_PATHS=""
+git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+while read -r video; do
+  if ! [[ "$video" =~ ^static/videos/ ]]; then
+    ERROR_FOUND=true
+    INCORRECT_VIDEO_PATHS="$INCORRECT_VIDEO_PATHS- $video\n"
+    fingerprint=$(sha256sum "$INCORRECT_VIDEO_PATHS")
+    markdownlinjson=$(cat handbook-codequality.json)
+    cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "VIDEOS/Incorrect Path",
+    "description": "The video \`$video\` is not in the /static/videos directory. Please move it to the correct location.",
+    "severity": "minor",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$video",
+      "lines": {
+        "begin": 0
+      }
+    }
+  }
+]
+EOF
+  fi
+done < /tmp/VIDEOS
+if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
+  printf "%b" " ${red}${bold}Failed.${normal}\n"
+else
+  printf "%b" " ${green}${bold}Success.${normal}\n"
+fi
+rm /tmp/VIDEOS
+
+## CODEOWNERS checks ##
 printf "%b" "${bold}Checking for broken CODEOWNER entries...${normal}"
 cat .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" | sed "s/[[:space:]].*//" | sed "s~^/~./~" | sort | uniq > /tmp/CODEOWNERS
 MISSING_FILE_ENTRY=""
@@ -76,7 +191,7 @@ $markdownlinjson
   }
 ]
 EOF
-done
+done < /tmp/CODEOWNERS
 if [[ $DUPLICATE_ENTRIES != "" ]]; then
   printf "%b" " ${red}${bold}Failed.${normal}\n"
 else
@@ -85,7 +200,7 @@ fi
 rm /tmp/CODEOWNERS
 
 BROKEN_OWNERSHIP=""
-sed -n '/^.*\[Controlled-Documents\]/,$p' .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" > /tmp/CODEOWNERS
+sed -n '/^\[/,/^$/ p' .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" > /tmp/CODEOWNERS
 printf "%b" "${bold}Checking if files have broken ownership...${normal}"
 while read LINE; do
   if ! echo $LINE | grep -qE "@gitlab-com/content-sites|@gitlab-com/egroup"; then
@@ -206,6 +321,18 @@ rm /tmp/CODEOWNERS
 
 if [[ $ERROR_FOUND == "true" ]]; then
   printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
+  if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
+    printf "%b" "The following images are being added, but are not located in the static/images folder:\n\n"
+    printf "%b" "$INCORRECT_IMAGE_PATHS\n"
+  fi
+  if [[ $LARGE_IMAGE_PATHS != "" ]]; then
+    printf "%b" "The following images are being added, but are larger than 500KB each:\n\n"
+    printf "%b" "$LARGE_IMAGE_PATHS\n"
+  fi
+  if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
+    printf "%b" "The following videos are being added, but are not located in the static/videos folder:\n\n"
+    printf "%b" "$INCORRECT_VIDEO_PATHS\n"
+  fi
   if [[ $MISSING_FILE_ENTRY != "" ]]; then
     printf "%b" "The following files are listed in CODEOWNERS but don't exist in the repo:\n\n"
     printf "%b" "$MISSING_FILE_ENTRY\n"
@@ -229,5 +356,4 @@ if [[ $ERROR_FOUND == "true" ]]; then
   exit 1
 else
     printf "%b" "\n${green}Success!${normal} - No issues found with CODEOWNERS or Controlled Documents\n"
-    rm handbook-codequality.json
 fi

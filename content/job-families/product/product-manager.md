@@ -18,7 +18,7 @@ allows developers to invent, create, and deploy modern applications.
 We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/concurrent-devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
 
 We work in a very unique way at GitLab, where flexibility and independence meet
-a high paced, pragmatic way of working. And everything we do is [in the open](https://about.gitlab.com/handbook/).
+a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
 
 We are looking for talented product managers that are excited by the idea to
 contribute to our vision. We know there are a million things we can and want to
@@ -43,7 +43,7 @@ In addition, as a PM, you also play a critical role in the regular development a
 | Maintain and update [Direction pages](https://about.gitlab.com/direction/#devops-stages) | Direction pages communicate our [vision](https://about.gitlab.com/direction/) and plan externally and internally. |
 | Review PIs and update [PI pages](/handbook/product/performance-indicators/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
 | Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues and [kick-off](/handbook/product/product-processes/#kickoff-meetings) videos. |
-| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted.
+| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted. |
 | Drive alignment with stable counterparts via [OKRs](/handbook/product/product-processes/#objectives-and-key-results-okrs) | PMs play a role in facilitating alignment by ensuring individual functional groups' objectives are appropriately prioritized within their development group. |
 | Connect user and customer insights with [product prioritization](/handbook/product/product-processes/#issues-important-to-customers) | Customer interviewing, collecting insights about customer adoption, pain points, and reprioritizing "What's Next". PMs are responsible for continuously refining the most important feature, bugs, and tech debt to ensure relevance to the market, install base, and expansion. |
 | [Triage new issues](/handbook/product/product-processes/#prioritization) (features, bugs, security vulnerabilities, etc) | PMs [share responsibility](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs) for prioritizing the most important issues based on [work type](/handbook/engineering/metrics/#work-type-classification). |
@@ -62,7 +62,7 @@ In order for a PM to deeply understand the problems our users are facing and det
 - Communicate with users on issues and epics
 - Work with Pre-Sales and Post-Sales to connect with customers and prospects
 - Uncover insights through UX Research
-- Use other [sensing mechanisms](/handbook/product/product-processes/#sensing-mechanisms). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
+- Use other [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
 
 ### How does a PM ensure we build lovable products?
 
@@ -112,13 +112,13 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 [Stage Monthly Active Users](/handbook/product/performance-indicators/)
 
-----
+---
 
 ## Career paths
 
-The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](https://handbook.gitlab.com/handbook/product/product-manager-role/product-cdf-competencies/).
+The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-manager-role/product-cdf-competencies/).
 
-### Intermediate Product Manager
+### Product Manager
 
 Product managers are expected to know their product domain and support the processes or ceremonies of planning of product development at GitLab. They are expected to prioritize and manage their products with some guidance from leadership or other product team members and may even have a mentor or Senior Product Manager assigned as a counterpart to support.
 
@@ -143,11 +143,11 @@ The unique needs and circumstances of individual roles may vary; however, the li
 ##### Product Roadmap & Product Led Growth (PM)
 
 - Maintain a one year direction for your group in partnership with your manager.
-- Champion feature development in your group and advocate for what you need to contribute to GitLab’s success.
+- Champion feature development in your group and advocate for what you need to contribute to GitLab's success.
 - Maintain a roadmap that helps to progress your categories toward the next level of maturity.
 - Be adept at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
-   - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
-- Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to prioritize higher demand items over lower demand items. Remove or deprioritize items that don’t have enough demand.
+  - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+- Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to prioritize higher demand items over lower demand items. Remove or deprioritize items that don't have enough demand.
 - Collaborate with your manager as needed to push back appropriately on requests to prioritize items that provide comparatively lower value.
 - Ensure that milestone priorities are ready to go into development and that requirements are clear for engineering.
 - Make a significant business impact (revenue, usage) within the Group.
@@ -163,12 +163,12 @@ The unique needs and circumstances of individual roles may vary; however, the li
 
 - Be knowledgeable about the features and functionality in your group. Be capable of describing your existing feature set as well as your roadmap plans to customers.
 - Have a good level of understanding of your group-specific domain.
-- Collaborate with marketing and technical writing teams to update docs, publish blog posts, revise our marketing materials, or make other changes as necessary to disseminate information about your group’s features and functionality.
+- Collaborate with marketing and technical writing teams to update docs, publish blog posts, revise our marketing materials, or make other changes as necessary to disseminate information about your group's features and functionality.
 - Actively work to improve on the features that your group owns to improve your portion of our scores in key analyst reviews (Gartner MQs for example).
 
 ##### Aligning Teams with Values (PM)
 
-- Apply GitLab’s values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) in the way you do your work.
+- Apply GitLab's values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) in the way you do your work.
 - Collaborate effectively with your stable counterparts (EM, UX, SET).
 - Work with your manager as necessary to resolve any conflicts that arise.
 - Work with your manager as necessary to respond appropriately to requests (from sales, customers, developers, executives, others) that are not inline with your vision.
@@ -188,11 +188,10 @@ The Senior Product Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 Beyond the [base requirements](#base-pm-requirements), Senior Product Manager requirements are:
 
-- Indepedently manages and proactively identifies direction updates related to product areas
+- Independently manages and proactively identifies direction updates related to product areas
 - Create annual and quarterly plans to align product group to roadmap deliverables
 - Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
 - Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage
-
 
 #### Example Behaviors
 
@@ -204,9 +203,9 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Surface investment needs that are truly required for the success of your group.
 - Curate and maintain a list of what epics are specifically required to advance your categories to the next level of maturity.
 - Be skilled at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in regular strategy reviews.
-   - Counterparts are familiar with your strategy at a high level.
-   - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
-- Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to ensure that the effort required by the top priorities is justified by the expected impact on GitLab’s profits. Remove or de-prioritize items from the roadmap that are unlikely to impact profits.
+  - Counterparts are familiar with your strategy at a high level.
+  - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+- Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to ensure that the effort required by the top priorities is justified by the expected impact on GitLab's profits. Remove or de-prioritize items from the roadmap that are unlikely to impact profits.
 - Push back appropriately on requests to prioritize items that provide comparatively lower value.
 - Ensure that 12-month roadmap priorities are clear for engineering.
 - Make a significant business impact (drive revenue, reduce costs, increase expansion, reduce churn, etc.) within the Stage.
@@ -223,12 +222,12 @@ The unique needs and circumstances of individual roles may vary; however, the li
 
 - Be knowledgeable about the features and functionality in your group. Be capable of effectively and convincingly pitching your existing feature set as well as your roadmap plans to customers. Demonstrate an ability to effectively handle objections and dissatisfied customers.
 - Have a good level of understanding of your group-specific domain and at least a basic understanding of most aspects of your stage-specific domain.
-- Collaborate with marketing and technical writing teams to update docs, publish blog posts, revise our marketing materials, or make other changes as necessary to disseminate information about your stage’s features and functionality.
-- Actively work to improve on the features that your group owns to improve your portion of our scores in key analyst reviews (Gartner MQs for example). Engage regularly with domain-specific analysts as appropriate and work to influence the analyst’s perception and understanding of your area’s features and roadmap.
+- Collaborate with marketing and technical writing teams to update docs, publish blog posts, revise our marketing materials, or make other changes as necessary to disseminate information about your stage's features and functionality.
+- Actively work to improve on the features that your group owns to improve your portion of our scores in key analyst reviews (Gartner MQs for example). Engage regularly with domain-specific analysts as appropriate and work to influence the analyst's perception and understanding of your area's features and roadmap.
 
 ##### Aligning Teams with Values (SPM)
 
-- Apply GitLab’s values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) in the way you do your work. Coach others within your stage on living values as needed.
+- Apply GitLab's values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) in the way you do your work. Coach others within your stage on living values as needed.
 - As applicable, collaborate well with PMs across groups and within your stage in planning, prioritizing, and releasing cross-group features.
 - Collaborate effectively with your stable counterparts (EM, UX, SET).
 - Resolve conflicts as they arise.
@@ -257,7 +256,6 @@ Beyond the [base requirements](#base-pm-requirements) and Senior Product Manager
 - Coach and mentor to other Product Managers or active in career development for others
 - Recognized as thought leader in the industry (e.g. published author or regular speaker at conferences)
 
-
 #### Example Behaviors
 
 The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
@@ -267,12 +265,12 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Have a clear understanding and well articulated message showing how your 3+ year strategy relates to the overall stage strategy and the overall company strategy.
 - Advocate for investment decisions that are in the best interest of the company. Present clear business reasons to support your proposed investment decisions.
 - Be an expert at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
-   - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
-   - Key sales, support, and internal team members are familiar with your strategy at a high level.
-   - Executives and customers can find and understand your strategy when they go to look for it.
+  - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
+  - Key sales, support, and internal team members are familiar with your strategy at a high level.
+  - Executives and customers can find and understand your strategy when they go to look for it.
 - Use your strategy to guide and drive your roadmap priorities. Artfully balance near-term and long-term impact to profit against the need to also make progress on key strategic initiatives.
-- Demonstrate that you place the needs of the stage and company ahead of the needs of your own group. Advocate for your group when that is in the company’s best interest and willingly help others when success is best achieved by working outside your group.
-- Actively explore partnership and acquisition opportunities for your group. Cultivate and recommend next steps for opportunities that make sense and also avoid investing time in those that don’t.
+- Demonstrate that you place the needs of the stage and company ahead of the needs of your own group. Advocate for your group when that is in the company's best interest and willingly help others when success is best achieved by working outside your group.
+- Actively explore partnership and acquisition opportunities for your group. Cultivate and recommend next steps for opportunities that make sense and also avoid investing time in those that don't.
 - Make a significant business impact (revenue, usage) across Stages within the Section.
 
 ##### Sensing Mechanisms (PPM)
@@ -280,7 +278,7 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Cultivate high quality key relationships with a variety of trusted stakeholders who can provide quick feedback on ideas. These stakeholders ideally would include a mix of customers, internal field (Sales/SAs/CSMs) team members, and internal team members matching personas that are relevant to the stage.
 - Develop a deep understanding of the closest competitors to the extent possible (reading technical docs, evaluating a free or trial version of the product, discussing with other users).
 - Monitor market trends and proactively predict where the market is headed. Engage in collaboration with others as needed when market trends impact other groups or necessitate cooperative efforts across groups.
-- Excel at extracting valuable insights from customer discussions even when they don’t apply to your area. Ensure that those insights are passed on appropriately to the relevant PM.
+- Excel at extracting valuable insights from customer discussions even when they don't apply to your area. Ensure that those insights are passed on appropriately to the relevant PM.
 - Adapt the level of time and effort spent validating based on your level of confidence in the problem/solution and based on the urgency of starting development.
 - Lead cross-stage initiatives, feature development, and/or joint projects.
 - Perform build vs buy analysis as needed to evaluate the best strategic approach for adding to product capabilities.
@@ -290,16 +288,16 @@ The unique needs and circumstances of individual roles may vary; however, the li
 
 - Be capable of reliably pitching any of the functionality in the section. Be able to expertly describe the value-add that comes from purchasing GitLab. Be informed (at a high level) about roadmap plans across the entire section and be able to field general questions about any part of the section roadmap.
 - Be well informed about nearly all key aspects of your stage-specific domain and deeply informed at an expert level about the domain area related to your group. Capable of speaking at both internal and external events such as domain-specific conferences or running webinars as the need arises.
-- Collaborate with marketing and technical writing teams to help sell and explain GitLab’s features in terms of more holistic use cases which may span across multiple stages and feature sets.
+- Collaborate with marketing and technical writing teams to help sell and explain GitLab's features in terms of more holistic use cases which may span across multiple stages and feature sets.
 - Collaborate with analysts to identify ways that GitLab can advance its position in the market or to sell analysts on the potential of your vision and roadmap. Be able to speak to the broader value that GitLab provides beyond just your area.
-- As appropriate, identify opportunities for your group to work together with other groups in delivering solutions that have a significant impact on GitLab’s value proposition. Appropriately inspire others with your vision.
+- As appropriate, identify opportunities for your group to work together with other groups in delivering solutions that have a significant impact on GitLab's value proposition. Appropriately inspire others with your vision.
 - Drive alignment on cross-stage roadmap internally based on a shared vision across the product.
 - Build alignment across sections and with senior leadership.
 - Lead out and drive partnership conversations as needed.
 
 ##### Aligning Teams with Values (PPM)
 
-- Be an example for others in the way you apply GitLab’s values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) as you do your work. Help to foster GitLab’s values across the section.
+- Be an example for others in the way you apply GitLab's values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) as you do your work. Help to foster GitLab's values across the section.
 - As applicable, collaborate well with PMs across stages and within your section in planning, prioritizing, and releasing cross-group and cross-stage features.
 - As required, demonstrate an ability to have difficult conversations or to make potentially unpopular but necessary changes in a way that maintains the support and trust of those you work with.
 - Provide a sense of stability, calm, and direction to others around you, even when there are significant changes.
@@ -401,7 +399,7 @@ solving customers problems on a daily basis make great fits for Customer Success
 - **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
 transition from Product Management to General Management.
 
-----
+---
 
 ## Specialties
 
@@ -535,9 +533,9 @@ Are you a PM who loves data? Are you interested in being at the nexus of GitLab'
 
 ### Product Analytics
 
-Do you have a passion for ensuring what gets shipped to users is valuable? Are you a Product Manager who has always wanted to build tools that enable other Product Managers and whole organization to make data driven decsions? GitLab’s Analytics section will enable different stakeholders (from product, engineering to finance) to answer the key question of DevOps delivery - is what I built valuable to my users?
+Do you have a passion for ensuring what gets shipped to users is valuable? Are you a Product Manager who has always wanted to build tools that enable other Product Managers and whole organization to make data driven decsions? GitLab's Analytics section will enable different stakeholders (from product, engineering to finance) to answer the key question of DevOps delivery - is what I built valuable to my users?
 
-We’re looking for a Product Manager to chart GitLab’s course in this new stage specifically as we invest in it’s key category - Product Analytics.
+We're looking for a Product Manager to chart GitLab's course in this new stage specifically as we invest in it's key category - Product Analytics.
 
 #### Requirements
 
@@ -561,7 +559,7 @@ We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat add
 
 ### Platforms - GitLab Dedicated
 
-We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
+We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
 
 #### Requirements
 
@@ -706,7 +704,7 @@ We're looking for a product manager to drive the roadmap for portfolio managemen
 
 ### ModelOps (Anti-abuse)
 
-We're looking for a Product Manager to drive the roadmap for [Anti-Abuse](https://about.gitlab.com/direction/anti-abuse/) at GitLab! Your goal is to help GitLab protect our flagship SaaS product, GitLab.com and self-managed customer instances from abuse and misuse. You’ll help eradicate fake accounts, proactively identify and remove bad actors, and help GitLab better understand our legitimate users. This role will directly protect the stability, performance, and scalability of GitLab for millions of users across the world ensuring they can effectively use GitLab for their daily development needs.
+We're looking for a Product Manager to drive the roadmap for [Anti-Abuse](https://about.gitlab.com/direction/anti-abuse/) at GitLab! Your goal is to help GitLab protect our flagship SaaS product, GitLab.com and self-managed customer instances from abuse and misuse. You'll help eradicate fake accounts, proactively identify and remove bad actors, and help GitLab better understand our legitimate users. This role will directly protect the stability, performance, and scalability of GitLab for millions of users across the world ensuring they can effectively use GitLab for their daily development needs.
 
 #### Requirements
 
@@ -719,7 +717,7 @@ We're looking for a Product Manager to drive the roadmap for [Anti-Abuse](https:
 
 ### ModelOps (MLOps)
 
-We're looking for a Product Manager to drive the roadmap for [MLOps](https://about.gitlab.com/direction/modelops/mlops) at GitLab! This group is focused on enabling GitLab users to build and run data science workloads across [GitLab’s One DevOps Platform](https://about.gitlab.com/stages-devops-lifecycle/). This individual will lead an expansion of GitLab’s [core personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas) to address the needs of data science teams and will work cross-functionality with [other GitLab stages](/handbook/product/categories/#devops-stages) to ensure our platform supports ML/AI workloads and drive our [core differentiators](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#top-3-gitlab-differentiators) for ML/AI use cases. This individual will be responsible for developing new revenue-generating products and enhancing existing product features used by millions of users across the world.
+We're looking for a Product Manager to drive the roadmap for [MLOps](https://about.gitlab.com/direction/modelops/mlops) at GitLab! This group is focused on enabling GitLab users to build and run data science workloads across [GitLab's One DevOps Platform](https://about.gitlab.com/stages-devops-lifecycle/). This individual will lead an expansion of GitLab's [core personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas) to address the needs of data science teams and will work cross-functionality with [other GitLab stages](/handbook/product/categories/#devops-stages) to ensure our platform supports ML/AI workloads and drive our [core differentiators](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#top-3-gitlab-differentiators) for ML/AI use cases. This individual will be responsible for developing new revenue-generating products and enhancing existing product features used by millions of users across the world.
 
 #### Requirements
 

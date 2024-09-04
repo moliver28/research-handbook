@@ -1,12 +1,9 @@
 ---
-
 title: "Marketing Operations"
 description: "Marketing Operations (MktgOps) supports the entire Marketing team to streamline processes and manage related tools. Due to those tools, we often support other teams at GitLab as well."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Charter
 
@@ -17,17 +14,15 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
 - Data cleanliness and accuracy
 - Best practices and strategy on marketing technology
 - Continuous improvement of marketing systems
-- System integrations and data flow
 - Evaluate new marketing technology
 - Support procurement of new marketing technology
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Meet the Team
 
-
 | Person | Role |
 | ------ | ------ |
 | [Christine Lee](https://gitlab.com/christinelee ) | VP, Marketing Ops and Analytics |
-| [Amy Waller](https://gitlab.com/amy.waller) | [Director, Marketing Operations](/job-families/marketing/marketing-operations-manager/#director-marketing-operations) |m
+| [Amy Waller](https://gitlab.com/amy.waller) | [Director, Marketing Operations](/job-families/marketing/marketing-operations-manager/#director-marketing-operations) |
 | [Gillian Murphy](https://gitlab.com/gillmurphy) | [Manager, Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#manager-marketing-operations) |
 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Jenny Tiemann](https://gitlab.com/jennyt) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
@@ -51,7 +46,7 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
   </div>
 </div>
 
-#### Handbook Updates
+### Handbook Updates
 
 When making an update to a handbook page for `ABM`, `FMM`, `MOps`, or `SDR` handbook pages (or sub-pages), we have a Zapier workflow set up that will push the MR (upon merge) to the related Slack channel to ensure our teams are aware of any change that is made to the page. In order for the merged MR to show up in the respective Slack channel, you must add one of the following corresponding `labels` on the MR. Slack updates will also trigger for MktgOps MRs when created.
 
@@ -70,7 +65,7 @@ We do not use or create tool-specific Slack channels (e.g. `#marketo`).
 
 - [#hbupdate-mktgops](https://gitlab.slack.com/archives/mktgops) - This channel is used to automatically post new [handbook updates](#handbook-updates) that have been merged.
 - [#mktgops](https://gitlab.slack.com/archives/mktgops) - We use this channel for general marketing operations support, weekly marketing operations team standup updates, and key system status updates. We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
-   - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
+  - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
 
 | Inquiry | Slack Reaction |
 | ------ | ------ |
@@ -84,18 +79,17 @@ We do not use or create tool-specific Slack channels (e.g. `#marketo`).
 **Salesforce**
 
 The Marketing Operations team has created the '@mktgops-support' Chatter in Salesforce to help you make changes or manage Lead objects in Salesforce. Please note, the more information you can provide in your support request, the faster the request can be resolved. Use the '@mktgops-support' Chatter for support with:
-* Assigning leads to a new owner
-* Merging duplicate leads in different ownership
-* Investigating routing logic if you think a lead was routed improperly
-* Requesting additional lead support from the Marketing Operations team
-* The Marketing Ops team does not manage requests related to Contact, Account, or Opportunity objects.
-* Please refrain from mentioning individual Marketing Ops team members and use this Chatter instead. Thank you!
+
+- Assigning leads to a new owner
+- Merging duplicate leads in different ownership
+- Investigating routing logic if you think a lead was routed improperly
+- Requesting additional lead support from the Marketing Operations team
+- The Marketing Ops team does not manage requests related to Contact, Account, or Opportunity objects.
+- Please refrain from mentioning individual Marketing Ops team members and use this Chatter instead. Thank you!
 
 **Emergency Comms**
 
 If an emergency communication needs to be send out, Marketing Ops will need to assist. Follow directions on this [page](/handbook/marketing/emergency-response/) to initiate the emergency response and view the [coverage matrix](/handbook/marketing/emergency-response#coverage-matrix). You can also follow the [security incident communication plan](/handbook/security/security-operations/sirt/security-incident-communication-plan.html) for security related issues.
-
-
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How We Work
 
@@ -112,28 +106,17 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 ### Issues
 
-
 The MktgOps team works from issues and issue boards. If you are needing our assistance with any project, please open an issue or for small checks and questions, use the `~MktgOps::00: Triage` label anywhere within the GitLab repo.
 
  If you have a bug, error or discrepancy you'd like the team to help and investigate, please use the [bug-request template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=bug_request).
 
-With [Agile Delivery](https://about.gitlab.com/solutions/agile-delivery/) being one of the solutions that GitLab (as a product) addresses, the Marketing Operations team aims to follow many of the agile methodologies.
-
 Please do not reopen issues that have been closed in a previous milestone. If you find that you have additional questions about a closed issue, comment in the issue and ping the marketing ops DRI who worked the issue. The DRI within our team will determine whether an issue needs to be reopened and pulled into a current milestone.
 
-
 ### OKRs
-
 
 To track progress on and provide visibility to team OKRs each quarter, Marketing Operations uses the OKR feature in GitLab to organize our team-wide work. Current Marketing Operations OKRs can be found [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=MktgOps&first_page_size=100).
 
 Check out our [quarterly highlights trackers](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=all&label_name%5B%5D=mktgops-highlights&first_page_size=20) to learn more about the key results we've accomplished.
-
-
-
-### Epics
-
-If an issue includes a weight of 21 or more, that issue may be promoted to an epic in order to properly scope the work across multiple issues. Epics will also be used by our team if it relates to an OKR and requires multiple issues in scope to complete the work. Tool implementations also often are tracked within epics.
 
 ### Labeling
 
@@ -148,10 +131,9 @@ We use labels for three purposes:
 Categories
 </summary>
 
-
 - `MktgOps - FYI`: Issue is not directly related to operations, no action items for MktgOps but need to be aware of the issue
 - `MktgOps - List Import`: Used for list imports of any kind - event or general/ad hoc (do not also use To Be Triaged scoped label)
-- `Marketo`, `Bizible`, `Demandbase`, `Qualified`, `LinkedIn Sales Navigator`, `Outreach-io`, `PathFactory`,  `ZoomInfo`, `On24`: used to highlight one of our tech stack tools
+- `Marketo`, `Bizible`, `6sensee`, `Qualified`, `LinkedIn Sales Navigator`, `Outreach-io`, `PathFactory`, `ZoomInfo`, `On24`, `Groove`: used to highlight one of our tech stack tools
 - `MktgOps - bug`: A bug issue to be addressed or identified by MktgOps
 - `MktgOps - changelog`: Used to track issues or epics that would need to be logged in the marketing changelog to track major changes across marketing
 - `SMOps/Systems - Changelog`: Used to track changelog issues that will impact Sales Operations or Systems
@@ -172,7 +154,7 @@ Proccess Steps with Sales Systems
 - `MktgOpsPrio::02: In Queue - Mops`: Issues that are ready for prioritization with Sales Systems
 - `MktgOpsPrio::03: In Queue - Systems`: Discussed in prioritization and added to a temporary milestone
 - `MtkgOpsPrio::04: Actioned`: Issue is in current or future milestone, not yet ready for UAT
-- `MktgOpsPrio:: 05: Business Owner UAT`: Issue is in UAT by the business owner, Systems cannot move forward without signoff
+- `MktgOpsPrio::05: Business Owner UAT`: Issue is in UAT by the business owner, Systems cannot move forward without signoff
 - `MtkgOpsPrio::06: Pending Release`: Issue fully tested and approved in staging. Awaiting deploy by systems team
 - `MtkgOpsPrio::07: Complete`: Issue has been deployed into production
 
@@ -184,8 +166,10 @@ Systems Related Labels
 </summary>
 
 - `EntAppsCustomer: MOPS`: Used on issues that require Sales Systems support
+- `MktgSystems-PMO`: Used for issues on committed PMO projects to help with prioritization and to determine work streams
 
 Business Impact Labels: What business impact or subject area is driving these changes
+
 - `MktgImpact - Partner Lead Lifecycle` - Impacts to Vartopia and Partner Lead Lifecycle. Such as the Lead Module, Campaign Module and ROI for channel events and lead tracking.
 - `MktgImpact - Sales Enablement` - Marketing initiatives that will help Sales productivity and efficiency
 - `MktgImpact - Sales Dev Productivity` - Improves productivity of Sales Dev team, such as SLAs, and visibility
@@ -195,13 +179,13 @@ Business Impact Labels: What business impact or subject area is driving these ch
 - `MktgImpact - TBD` - New labels will be created for large-cross function projects, like FY25
 
 Type Labels: What type of SFDC work is required
+
 - `MktgType - Break/Fix`
 - `MktgType - Tool Installation / Configuration`
 - `MktgType - Package Updates`
 - `MktgType - FLS or Access`
 - `MktgType - Tech Debt`
 - `MktgType - Operational Improvements`
-
 
 </details>
 
@@ -217,7 +201,6 @@ Priorities
 
 </details>
 
-
 <details>
 <summary markdown='span'>
 Stage
@@ -225,7 +208,7 @@ Stage
 
 - `MktgOps::00: Triage`: General label for any issue that needs MktgOps attention, request for work and/or involvement
 - `MktgOps::01: Needs More Information`: Issues awaiting for information from the requester, needs more clarity in requirements, no milestone, and not assigned to MktgOps team member yet
-- `MktgOps::02: Ready for Assignment `: Issues that are acknowledged (in review), gathering requirements, no milestone, and not assigned to MktgOps team membe
+- `MktgOps::02: Ready for Assignment`: Issues that are acknowledged (in review), gathering requirements, no milestone, and not assigned to MktgOps team membe
 - `MktgOps::03: Assigned`: Issues that are ready to move forward, slotted to a milestone (not current), and assigned to MktgOps team member's queue
 - `MktgOps::04: In Progress`: Issues that are in the current milestone, assigned to MktgOps team member, and are actively being worked
 - `MktgOps::05: Business Owner Review`: Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
@@ -234,7 +217,6 @@ Stage
 - `MktgOps::08: Completed`: MktgOps has completed their task on this issue although the issue may not be closed.
 
 </details>
-
 
 ### Milestones
 
@@ -254,18 +236,15 @@ A milestone cannot be closed nor marked complete until the milestone's accompany
 
 [Our team google calendar is available to GitLab team members here](https://calendar.google.com/calendar/u/0?cid=Y191M2dhYWltcWhyYzNkNzUzbmJvbDNob3VrZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). It shows upcoming team PTO and holidays.
 
-
 ### Marketing Changelog
 
 Periodically Marketing Operations and other teams through the marketing org make significant changes to our system and processes that affect overall tools, data and reporting or uncovers significant changes that affected reporting. As such we have a shared [changelog](https://docs.google.com/spreadsheets/d/1FHiKhQukMVfwKsBJDzyrsuzuw2bv97xQFhegvFXTeNQ/edit#gid=0). The MktgOps and Strategy/Perf teams update this document as needed as changes are made. If you are working on an issue or epic that will have a significant impact across marketing, add the label `MktgOps - changelog` so marketing oeprations can track changes across GitLab.
 
-
 ## <i class="far fa-handshake" id="biz-tech-icons"></i> Teams We Work Closely With
 
-###  Working with Channel Partner Marketing
+### Working with Channel Partner Marketing
 
 #### Channel Partner Marketing Expectation
-
 
 - To open [issues](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) for any new request using the problem statement.
 - Channel Partner Team to respond to mktgops queries on the issue
@@ -273,7 +252,6 @@ Periodically Marketing Operations and other teams through the marketing org make
 - Optional - suggested solution for this issue.
 
 #### Marketing Ops Expectation
-
 
 - To use [labels](/handbook/marketing/marketing-operations/#labeling) to denote where the issue is
 - To use [Milestones](/handbook/marketing/marketing-operations/#milestones) to denote when the work will be done
@@ -285,6 +263,7 @@ Periodically Marketing Operations and other teams through the marketing org make
  New issues will be prioritized within the bi-weekly meeting where Salina can understand if/what work should be deprioritised to complete the new work.
 
 Salina to
+
 - Add [Priority label](/handbook/marketing/marketing-operations/#labeling)
 - Add [Stage Label](/handbook/marketing/marketing-operations/#labeling)
 - Add milestone to the issue of when she thinks the work will be started
@@ -304,19 +283,21 @@ Video: [Marketing Salesforce.com Sandbox Training - Creating Changesets](https:/
 If a field needs to be created in Marketo AND SFDC, it must be created in SFDC first and then added to the Marketo User Permission set within SFDC. From there, the field will sync down to Marketo. If you miss this order of operations and the field is created in Marketo first, you will need to still follow the directions above and then open a support to re-map the fields. **Use [documentation for Marketo](https://developers.marketo.com/rest-api/lead-database/fields/field-types/) for field types.
 
 If you need assistance with Sales Systems follow the next steps:
-1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`.
+
+1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`. 
+    - If the issue is a part of a committed PMO project, please add the label `MktgSystems-PMO`
 2. If Mops member can create a changeset, please do so shortly after creating the issue to decrease time to deploy,
 3. Add [prioritization label](/handbook/marketing/marketing-operations/#labeling) of `MktgOpsPrio::00: Requested`
 4. Business process owner (Amy or Christine) will review, and if they approve of the request from a business standpoint, they will check the appropriate box and add the `MktgOpsPrio::01: Approved` label. If not, the request will stay in `MktgOpsPrio::00: Requested` status until blockers or outstanding questions are resolved.
-5. Once approved, requests will be added to the prioritization queue by the business proess owner to review with with Sales Systems or the PMO and labeled `MktgOpsPrio::02: In Queue - Mops`
-4. Once Systems or PMO has agreed to take on work, the request will be added to a `Temp` holding milestone for further prioritization, and labeled `MktgOpsPrio::03: In Queue - Systems`
-5. Once a milestone is added and the issue is discussed, the label will be updated to `MktgOpsPrio::04: Actioned` by the MktgOps representative that is in the prioritization call.
-    * Once the label has been updated to `MktgOpsPrio::04: Actioned`, follow along with the Sales Systems labels for next steps.
-6. Systems will work on the issue and push any updates to the Staging environment first
-7. Once systems build, it is the responsibility of the Business Owner to test and accept. The Business Owner must show proof (such as a testing plan, or screenshot) that the solution is working correctly in the staging environment. This is an important step that represents acceptance of the solution, its testing, and the authority to change the related process. The issue will stay in `MktgOpsPrio:: 05: Business Owner UAT` during this time.
-8. Once ready to deploy, Systems manager will add `SFDCReleaseHelp` to flag to release managers it is ready for production release. Marketing Ops label should be updated to `MktgOpsPrio::05: Pending Release`
-7. Once in production, MktgOps should confirm again that the field/update in SFDC and corresponding/impacted systems is working as anticipated. Label updated to `MktgOpsPrio::06: Completed`
-8. Issue is closed and completed.
+5. Once approved, requests will be added to the prioritization queue by the business proess owner to review with Sales Systems or the PMO and labeled `MktgOpsPrio::02: In Queue - Mops`
+6. Once Systems or PMO has agreed to take on work, the request will be added to a `Temp` holding milestone for further prioritization, and labeled `MktgOpsPrio::03: In Queue - Systems`
+7. Once a milestone is added and the issue is discussed, the label will be updated to `MktgOpsPrio::04: Actioned` by the MktgOps representative that is in the prioritization call.
+    - Once the label has been updated to `MktgOpsPrio::04: Actioned`, follow along with the Sales Systems labels for next steps.
+8. Systems will work on the issue and push any updates to the Staging environment first
+9. Once systems build, it is the responsibility of the Business Owner to test and accept. The Business Owner must show proof (such as a testing plan, or screenshot) that the solution is working correctly in the staging environment. This is an important step that represents acceptance of the solution, its testing, and the authority to change the related process. The issue will stay in `MktgOpsPrio:: 05: Business Owner UAT` during this time.
+10. Once ready to deploy, Systems manager will add `SFDCReleaseHelp` to flag to release managers it is ready for production release. Marketing Ops label should be updated to `MktgOpsPrio::05: Pending Release`
+11. Once in production, MktgOps should confirm again that the field/update in SFDC and corresponding/impacted systems is working as anticipated. Label updated to `MktgOpsPrio::06: Completed`
+12. Issue is closed and completed.
 
 **Other helpful links:**
 
@@ -334,44 +315,49 @@ Workato is a low-code/no-code tool used to for automations and integrations acro
 
 2. Bug fixing or deploying recipes developed in the testing environment
       - For fixing issues with currently working recipes or to test and review an independently built recipe before moving it into production. Due to SOX compliance, any change to a recipe in production needs to be acompanied by a change management issue.
-        1. Open an issue in the [Integrations Work Project](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/issues/new) and depending on your specific need, choose a template for *Bug*, *Change*, or *Default* and follow the instructions in the issue template.
+        1. Open an issue in the [Integrations Work Project](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/issues/new) and depending on your specific need, choose a template for _Bug_, _Change_, or _Default_ and follow the instructions in the issue template.
         2. Open an issue in the [Change Management Project](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new) and copy and paste [this template](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/blob/main/.gitlab/issue_templates/change%20management.md?ref_type=heads) in the issue description
         3. Follow the instructions in the template, it contains all labels and tags necessary to notify the Integrations Team
         4. Set a meeting with Durgesh Thakkar and Karuna Singh to go over and review your changes/recipe/issue.
 
 **Helpful links**
+
 - [How Integrations Team works](/handbook/business-technology/enterprise-applications/integrations/how-we-work/)
 - [Workato Playbook](/handbook/business-technology/enterprise-applications/integrations/workato-playbook/)
 
-
-
-
 ## Stakeholder Mapping
+
 Stakeholder mapping is a tool to help define roles and to delegate cross-functional responsibilities among the team. Stakeholder mapping connects key functions and jobs across marketing with a primary marketing operations stakeholder, a supporting team of marketing operations team members, and stakeholders outside of marketing operations. The main purpose of stakeholder mapping is to identify and connect the stakeholders involved in setting the strategic direction of marketing operations initiatives.
 
 Stakeholder mapping is NOT a way to gatekeep, nor is it meant to stifle communication, collaboration, or efficiency. A particular function is not limited to communicating only with the strategic partner or supporting team members mapped to that function. Similarly, marketing operations team members who are not strategic partners or supporting team members for a particular function may still support that function in various ways.
 
 ### Why is Stakeholder Mapping important?
+
 Stakeholder mapping is important because it helps to formalize a process for setting the strategic direction of marketing operations initiatives. Stakeholder mapping will help marketing operations better understand the challenges and opportunities that our stakeholders face, allowing the marketing operations team to be more proactive business partners, and better able to plan for and deliver on strategic projects.
 
 Additionally, Stakeholder Mapping creates tighter alignment between Marketing Operations and our stakeholders. It provides our stakeholders with a specific point of contact and a predictable cadence with which they can collaborate on strategic initiatives.
 
 #### What does it mean to be a strategic partner?
+
 Strategic partners are the main point of contact for understanding, documenting, and sharing strategic opportunities from the functions to which they are mapped. This can be done by conducting Marketing Operations Discovery research, which typically happens twice per fiscal year.
 
 Findings of Discovery research are then used as inputs for the marketing operations roadmap and backlog.
 
 ### What does it mean to be a supporting team member?
+
 Supporting team members are typically subject matter experts in a specific use case or area within a function. Supporting team members participate in Discovery research and should feel free to ask questions directed toward their particular focus area in order to capture additional insights. Supporting team members typically take point on note taking during Discovery research calls.
 
 ### What is Discovery research and how do we conduct it?
+
 Discovery research is a way to learn more about our users. Our users are members of the marketing division who use tier 1 and 2 marketing technology. Discovery research can be conducted through synchronous interviews or asynchronously. When possible, synchronous interviews are preferred because they allow us to build relationships and ask follow up questions in real time. Discovery research calls should happen quarterly, up to the discretion of the strategic partner and the stakeholder.
 
 #### What will Discovery research insights be used for?
+
 Insights from Discovery research calls will be used to inform the Marketing Operations strategic planning and roadmapping.
 
+## <i class="fas fa-file-import" id="biz-tech-icons"></i> List Imports
 
-## <i class="fas fa-file-import" id="biz-tech-icons"></i> [List Imports](/handbook/marketing/marketing-operations/list-import)
+[List Imports](/handbook/marketing/marketing-operations/list-import)
 
 ## <i class="fas fa-toolbox" id="biz-tech-icons"></i> Marketing Technology Stack
 
@@ -419,11 +405,9 @@ Below are tools in the Marketing Technology stack, organized by tier.
 #### Management Technology - Tier 3
 
 - [Litmus](/handbook/marketing/marketing-operations/litmus)
-- [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/)
+- [Brilliant Gifts](/handbook/marketing/marketing-operations/brilliant/)
 - Google Analytics (Search Discovery/Further) (DEX)
-- Survey Monkey
 - [Terminus Email Experiences](/handbook/marketing/marketing-operations/terminus-email-experiences)
-- [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
 #### Functional Technology - Tier 4
 
@@ -436,13 +420,13 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - Figma (UX)
 - [Launch Darkly](handbook/marketing/digital-experience/engineering-ab-tests/)
 - [MeetUp](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
-- [Quantum Metric](https://handbook.gitlab.com/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
+- [Quantum Metric](/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
 - [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
-- [SheerID](https://handbook.gitlab.com/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
+- [SheerID](/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
 - [Sprout Social + Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
 - [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
-
+- [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
 ### Requesting access to an existing tool
 
@@ -463,25 +447,21 @@ Below is a collection of links leading to status pages of several listed MktgOps
 Click to see dropdown list of available status page URLs.
 </summary>
 
-- 6sense
-- Traction
+- [Asana](https://status.asana.com/)
 - [Marketo/Marketo Measure (formerly Bizible)](https://status.adobe.com/products/503491)
 - [Qualified](https://status.qualified.com/)
 - [LinkedIn Sales Navigator](https://www.linkedin-apistatus.com/)
 - [Outreach.io](https://status.outreach.io/)
 - [PathFactory](https://status.pathfactory.com/)
-- ReachDesk
-- RingLead
-- Terminus Email Experiences
+- [Terminus Email Experiences](https://status.terminus.com/)
 - [ZoomInfo](https://status.zoominfo.com/)
-- Vartopia - Lead Sharing Module
-- Allocadia
-- [Hopin](https://status.hopin.com/)
+- [Allocadia](https://support.allocadia.com/hc/en-us/sections/115001724228-System-Maintenance-Alerts)
 - [Iterable](https://status.iterable.com/)
 - [Litmus](https://status.litmus.com/)
-- On24
-- [Survey Monkey](https://help.surveymonkey.com/en/surveymonkey/site/site-status-information/)
-- [Typeform](https://status.typeform.com/)
+- [On24](https://on24.my.site.com/Support/s/platform-status)
+- [OneTrust](https://status.onetrust.com/)
+- [Hightouch](https://status.hightouch.io/)
+- [Groove](https://status.groovehq.com/)
 
 </details>
 
@@ -494,13 +474,14 @@ Click to see dropdown list of available status page URLs.
 - No auto-renewals
 
 Align with Procurement and Finance:
+
 - Work with Procurement to structure and negotiate the contract. As well, look to do an RFP with multiple vendors for competitive pricing.
 - Align with Finance to confirm budget is accounted for in FY24.
 
 Marketing Operations role:
+
 - Marketing Operations will help to define requirements and be a trusted advisor.
 - Submit an issue ([example](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6513#note_1079813146)) for new software evaluations.
-
 
 ## MarTech Change Management
 
@@ -509,6 +490,7 @@ Marketing Operations role:
 If you are interested in or would like to request a new tool be added to the tech stack, [please submit an issue using the tools eval issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=tools_eval) in the Marketing Operations repository. Marketing Operations should be included in new tool evaluations to account for system integrations, budget, etc. Any new tools desired after the budget is set will be handled by transferring budget from the other department to Marketing Operations. Once an issue is submitted, Marketing Operations will evaluate the request and assign the tool a tier.
 
 The process for requesting a new tool is:
+
 1. [Tool Eval issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=tools_eval) is submited
 1. A Marketing Operations member is assigned to review the request. This person scores the requested tool in order to determine its tier. The business and technical owners of the tool are identified.
 1. For tier 1 and 2 tools, once the request has been reviewed, the Marketing Operations manager will:
@@ -519,6 +501,7 @@ The process for requesting a new tool is:
 1. The business owner is the DRI for tier 4 tool evaluations and implementations.
 
 Once the evaluation Epic is created, the following evaluation steps should be followed:
+
 1. Discovery - understand the request/problem we're trying to solve
 1. Stakeholder identification - build the evaluation team based on the roles and responsibilities outlined below
 1. Requirements gathering - document user stories, requirements, impacted processes, and features using [this requirements gathering template](https://docs.google.com/spreadsheets/d/1JsUcCnePqWnc8ownZQEsjsDtMea6pLPk2k-6TV3M_uI/edit#gid=0)
@@ -544,7 +527,6 @@ Once the evaluation Epic is created, the following evaluation steps should be fo
 | **Leadership Sponsor** | Responsible for staying plugged into the project, supporting the leads, and supporting escalations (if required) |
 | **Peer Reviewer (optional)** | Review and ensure requested change has been documented and there are no undocumented downstream impacts |
 | **Post-Implementation Reviewer(s) (optional)** | Review of the change in production after the change is made to ensure everything is working as expected |
-
 
 #### Resources
 
@@ -630,19 +612,17 @@ Status in the table below means:
 | Web Direct | web direct | Created when purchase is made direct through the portal (check for duplicates & merge record if found) | Active |
 | Investor | outbound | Sourced by our investors (i.e. - GV, Khosla, ICONIQ). The `Investor` value is coupled with the `Investor Name` custom field | Active |
 | GitLab DataMart|core| Created by the GitLab Marketing Database data pump. Contains leads from various internal sources|Active|
-| GitLab Subscription Portal|Signed up for customers portal account, but did not upgrade|Active|
-|Free Registration|core| Sign up via Free User registration|Active|
-|Paid Social|inbound|Sourced from Paid Social Campaigns|Active|
-|Vendor Arranged Meetings|paid demand gen| Registered or attended a vendor arranged meeting|Active|
-| Trust Center | inbound | Requested access to the GitLab [Trust Center](https://handbook.gitlab.com/handbook/security/security-assurance/field-security/trust_center_guide/) | Active |
+| GitLab Subscription Portal|Signed up for customers portal account, but did not upgrade| |Active|
+| Free Registration|core| Sign up via Free User registration|Active|
+| Paid Social|inbound|Sourced from Paid Social Campaigns|Active|
+| Vendor Arranged Meetings|paid demand gen| Registered or attended a vendor arranged meeting|Active|
+| Trust Center | inbound | Requested access to the GitLab [Trust Center](/handbook/security/security-assurance/field-security/trust_center_guide/) | Active |
 
 | Source | Source Bucket | Definition and/or transition plan | Status* |
 | ------ | ------------- | --------------------------------- | ------- |
 | Startup Application | inbound |  | Inactive |
 | Consultancy Request | inbound |  | Inactive |
 | Promotion | paid demand gen |  | Inactive |
-
-
 
 ## Lead and Contact Statuses
 
@@ -662,6 +642,7 @@ The Lead & Contact objects in Salesforce have unified statuses with the followin
 | Ineligible | All leads/contacts that are ineligible to go through the sales process after an initial review |
 
 One of the following must occur to have a lead move from `Raw` to `Inquiry`
+
 1. Become a member of a marketing program (except no-action/default statuses, nor email)
 1. Fill out a form (social or website)
 1. [Behavior score](/handbook/marketing/marketing-operations/marketo/#behavior-scoring) > 10 pts.
@@ -671,12 +652,13 @@ One of the following must occur to have a lead move from `Raw` to `Inquiry`
 On the lead object we have three types of address information, the local/personal address information for that lead, which is stored on the `Person Address` (address type field), the `Ultimate Parent Account Company` information stored on `Company Address: [XXX]` text fields,  and the `Zoominfo enrichment address information` for both the Contact (local information) and the Company level information:
 
 - `Person Address` is partially filled in from Marketo Form Fills and is also completed by ZI enrichment when it is missing;
-     - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
+  - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
 - `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach.
   1. `Account Demographics Fields` (i.e: `Account Demographics: UPA City`) - If the lead matches to an existing account the address is populated through the Account Demographic fields, taken from the account associated with this lead;
   2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](/handbook/marketing/sales-development/#overriding-incorrect-account-assignments) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).
   3. `Zoominfo Company Address Fields` (i.e: `[ZI] Company Country`) - If the lead doesn't match an account, it was not overwritten using the Admin Override Fields mentioned above and the lead matches to Zoominfo's database, the Company Address fields are populted with Zoominfo Company Address information from the Zoominfo Company Address fields.
 - `Zoominfo enrichment address information` which as can be of two types, personal (local) or company level address;
+
 1. Zoominfo personal (local) address information can be found in the `[ZI] Contact Country`, `[ZI] Contact State`, `[ZI] Contact City`, `[ZI] Contact Street`, `[ZI] Contact Zip Code` fields;
 2. Zoominfo Company Address Information can be found on the `[ZI] Company Country`, `[ZI] Company State`, `[ZI] Company City`, `[ZI] Company Street`, `[ZI] Company Zip Code` fields;
 
@@ -695,12 +677,12 @@ This cleaning & enrichment process has 5 main priorities:
 3. **Enriching net new leads with Scheduled Enrich** - As a back-up to the Instant Enrich functionality (in case it fails for any reason), all leads created in the last 24h are enriched through scheduled enrichment, to make sure they contain the most updated information.
 4. **Existing Database Enrichment** - All lead records in SFDC are enriched regularly to make sure that the leads who change roles/companies are updated with the lastest information.
 5. **Assure Data Cleanliness & Accuracy** - The Marketing Operations team is following the recommended deduplication order of operations as detailed below:
-    * Lead to Lead Deduplication  (*Paused* to fix duplicates being created by different tools)
-    * Account Deduplication (This part is currently performed using Openprise by Sales Operations)
-    * Converting Leads to New Contacts (This step is skipped in our case since it would impact sales workflow considerably. We will re-evaluate if the sales team is not as heavily focused on leads as we are now.)
-    * Contact to Contact Deduplication (Testing unwanted contact merging effects on order processin and open quotes)
-    * Lead to Contact Deduplication (This part of the process will start once Contact Deduplication is completed)
-    * Deduplication of Custom Objects (Bizible Person IDs - On hold until Contact Deduplication and Lead to Contact Deduplication are completed)
+    - Lead to Lead Deduplication  (_Paused_ to fix duplicates being created by different tools)
+    - Account Deduplication (This part is currently performed using Openprise by Sales Operations)
+    - Converting Leads to New Contacts (This step is skipped in our case since it would impact sales workflow considerably. We will re-evaluate if the sales team is not as heavily focused on leads as we are now.)
+    - Contact to Contact Deduplication (Testing unwanted contact merging effects on order processin and open quotes)
+    - Lead to Contact Deduplication (This part of the process will start once Contact Deduplication is completed)
+    - Deduplication of Custom Objects (Bizible Person IDs - On hold until Contact Deduplication and Lead to Contact Deduplication are completed)
 
 For more information regarding our data deduplication process visit the [Ringlead Handbook Page](/handbook/marketing/marketing-operations/ringlead/).
 
@@ -747,8 +729,10 @@ With Marketo automation we are then using these two fields to hide the phone num
 For more information, please visit this [figjam flow chart](https://www.figma.com/file/wzZ7RDnB1cZdnvusqwW5gN/Communication-Compliance---Process-Updates---External-DNC-Lists_2023-09-11_14-17-56?type=whiteboard&t=5P5tqzwIXFwJe8jd-1).
 
 #### Do Not Do Business
+
 In some cases, there are companies we do not do business with. If an account is flagged, Mops should take the following steps to ensure they are not included in any of our communications moving forward.
-1. Add the customer account to the [DNDB campaign](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC34761A1ZN19) in Marketo. Use the SFDC Account ID and update `contains` with the email domain, if sepcific to that company. Click Schedule > `Run once`. (This will also run nightly.) This flow updates the lead/contacts to `unsubscribe``, removes them  from Security Distro, marks email as invalid, marks as `Do Not Call``, updates person status to `Ineligible`, and marks the reason as `ECCN - Do Not do Business`
+
+1. Add the customer account to the [DNDB campaign](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC34761A1ZN19) in Marketo. Use the SFDC Account ID and update `contains` with the email domain, if sepcific to that company. Click Schedule > `Run once`. (This will also run nightly.) This flow updates the lead/contacts to `unsubscribe``, removes them  from Security Distro, marks email as invalid, marks as`Do Not Call``, updates person status to `Ineligible`, and marks the reason as `ECCN - Do Not do Business`
 2. No need to check Iterable for the email address. They will be removed via API, as Marketo sends unsubscribes over via webhook to Iterable automatically once `unsubscribe = true`.
 
 ### Zoominfo Opt Out Lists

@@ -12,7 +12,7 @@ The FP&A team partners with executive team members across the company to provide
 - Planning and Financial Analysis: Participate in annual planning, long-term planning, rolling forecast and variance process, make recommendations to improve the process. Explore investment options and present risk and opportunities.
 - Data Analysis: Summarize key data driven actionable insights to members of the executive team to drive better outcomes, an increase in revenue or decrease in cost. Participate in monthly key reviews for your functional area.
 - Financial Process Improvement: Execute improvements to processes within your own workflow. Document in the company handbook.
-- Communication: Prepare and review visualizations of financial data to promote internal and external understanding of the company’s financial results. Clearly articulate insights.
+- Communication: Prepare and review visualizations of financial data to promote internal and external understanding of the company's financial results. Clearly articulate insights.
 - Share our [values](/handbook/values/), and work in accordance with those values.
 
 ## Requirements
@@ -95,7 +95,7 @@ The FP&A Manager is a [grade 8](/handbook/total-rewards/compensation/compensatio
 - Communication: Target audience basic influence to CFO, CFO staff and functional EVPs.
 - Mentorship: As a senior individual contributor, you mentor other team members in modeling, analysis and finance.
 - Autonomy: independently delivers and effectively prioritizes projects assigned with clear scope
-  
+
 #### FP&A Manager Requirements
 
 - Extends the Senior FP&A Analyst requirements.
@@ -175,7 +175,7 @@ The Director, FP&A is a [grade 10](/handbook/total-rewards/compensation/compensa
 
 ### Senior Director, FP&A
 
-The Senior Director, FP&A reports to the [Vice President of Financial Planning and Analysis](/job-families/finance/vp-finance/).  
+The Senior Director, FP&A reports to the [Vice President of Financial Planning and Analysis](/job-families/finance/vp-finance/).
 
 #### Senior Director, FP&A Job Grade
 

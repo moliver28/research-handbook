@@ -2,7 +2,7 @@
 title: Instructional Designer
 ---
 
-The Learning & Development Instructional Designer is responsible for designing and developing learning practices and experiences for GitLab’s People Group Learning & Development team. This is achieved by enhancing synchronous and asynchronous learning for GitLab team members and the wider community. The goal of this job family is to help audiences achieve their desired learning outcomes by developing new, engaging, and effective learning solutions and instructional experiences.
+The Learning & Development Instructional Designer is responsible for designing and developing learning practices and experiences for GitLab's People Group Learning & Development team. This is achieved by enhancing synchronous and asynchronous learning for GitLab team members and the wider community. The goal of this job family is to help audiences achieve their desired learning outcomes by developing new, engaging, and effective learning solutions and instructional experiences.
 
 ## Responsibilities
 
@@ -33,7 +33,7 @@ The Learning & Development Instructional Designer is responsible for designing a
 - Demonstrated experience working with multiple industry recognized instructional design models preferred
 - Experience working with a variety of Learning Management and Learning Experience Systems and various virtual meeting management tools such as Zoom is a plus
 - Ability to use GitLab
-- Bachelor’s degree or equivalent experience in Instructional Development, Training Education/Communication is preferred
+- Bachelor's degree or equivalent experience in Instructional Development, Training Education/Communication is preferred
 - You share our [values](/handbook/values/), and work in accordance with those values
 
 ## Levels
@@ -96,7 +96,7 @@ The Senior Instructional Designer is a [grade 7](/handbook/total-rewards/compens
 #### Senior Instructional Designer Requirements
 
 - Extends the Instructional Designer (Intermediate) requirements
-- Bachelor’s degree required; Master’s Degree in Instructional Development, Training Education/Communication is preferred
+- Bachelor's degree required; Master's Degree in Instructional Development, Training Education/Communication is preferred
 - 5+ years related work experience in instructional design (or equivalent combination of transferable experience and education)
 - Deep experience designing and developing learning programs across delivery mediums and content types (mobile learning, e-learning, video, gamification, virtual learning, live simulation, and live classroom)
 
@@ -109,7 +109,7 @@ The Technical Instructional Designer is responsible for designing and developing
 #### Technical Instructional Designer Requirements
 
 - Knowledge of the software development life cycle, DevOps, and/or open source software is preferred
-- Familiarity with statically generated websites are preferred, as we take a [handbook-first](/handbook/handbook-usage/#why-handbook-first) approach to Learning & Development
+- Familiarity with statically generated websites are preferred, as we take a [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) approach to Learning & Development
 
 #### Technical Instructional Designer Responsibilities
 

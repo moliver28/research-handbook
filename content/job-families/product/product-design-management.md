@@ -16,9 +16,9 @@ The Product Design Manager is a [grade 8](/handbook/total-rewards/compensation/c
 - **Product knowledge:** Understand the technology and features of the areas you are assigned and have working knowledge of the end-to-end GitLab product.
 - **Cross-product collaboration:** Proactively identify large, strategic UX opportunities that span both inside your areas and across the product. Work with other product design managers, staff, and principal product designers to drive cross-product initiatives through awareness and prioritization.
 - **Design quality:** Be a frequent and active participant in milestones by reviewing UX deliverables (such as research and designs) that your team creates, and provide feedback to ensure high-quality output.
-- **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts. Help product designers identify when research is needed for their stage group.  
+- **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts. Help product designers identify when research is needed for their stage group.
 - **UX evangelism:** Communicate the value of UX to cross-functional GitLab team members and work with them to leverage the [product development flow](/handbook/product-development-flow/). Work closely with PMs to provide visibility and awareness into UX initiaties (including OKRs) and advocate for their prioritization.
-- **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux), triage and resolution of UX bugs, and overall usability improvements to the product. Lead [UX Scorecard](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards) initiatives in order to consistently measure the experience of your product areas and show improvements over time.
+- **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux), triage and resolution of UX bugs, and overall usability improvements to the product. Lead [UX Scorecard](/handbook/product/ux/ux-scorecards) initiatives in order to consistently measure the experience of your product areas and show improvements over time.
 - **UX process**: Set up and manage collaborative processes within your team to ensure product designers, technical writers, and researchers are actively working together. Make sure they have exposure to the work that is happening within the broader team. Collaborate with your peers to make improvements to how we work across the design organization.
 - **Hiring:** Help source talent, interview, and conduct portfolio reviews of product design candidates to hire a world-class team. Review and provide feedback on interview scorecards to maintain a high-quality interview process.
 - **Vision and direction:** Contribute to product direction conversations, with emphasis on leading the experience vision for your product areas.
@@ -29,7 +29,7 @@ The Product Design Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 The Foundations team works on building a cohesive and consistent user experience, both visually and functionally. You'll be responsible for leading the direction of the experience design, visual style, and technical tooling of the GitLab product. You'll act as a centralized resource, helping to triage large-scale experience problems as the need arises.
 
-You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), helping to implement our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams design and build products. A breakdown of the vision you’ll help to deliver within the Foundations group can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
+You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), helping to implement our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams design and build products. A breakdown of the vision you'll help to deliver within the Foundations group can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
 
 ### Requirements
 
@@ -47,7 +47,7 @@ You'll spend your time collaborating with a [cross-functional team](/handbook/pr
 
 #### UX Paper Cuts
 
-The UX Paper Cuts team is responsible for identifying and fixing small but impactful usability issues in the GitLab product. The team occasionally takes on larger efforts that target known challenges users face within the DevSecOps lifecycle. Like the Foundations team, UX Paper Cuts does not work within a specific product area, but across the product as a whole, identifying issues and creating merge requests to continually [improve the user experience](https://nicolasdular.gitlab.io/gitlab-polish-gallery/?&label=UX%20Paper%20Cuts).
+The UX Paper Cuts team is responsible for identifying and fixing small but impactful usability issues in the GitLab product. The team occasionally takes on larger efforts that target known challenges users face within the DevSecOps lifecycle. Like the Foundations team, UX Paper Cuts does not work within a specific product area, but across the product as a whole, identifying issues and creating merge requests to continually [improve the user experience](https://papercuts.gitlab.com/).
 
 ### UX Paper Cuts Requirements
 
@@ -85,14 +85,14 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 
 - **Product knowledge:** Understand the technology and features across all [product sections](/handbook/product/categories/) in order to drive cross-product workflows and identify improvement opportunities.
 - **Cross-product collaboration:** Actively advocate for product design throughout the organization. Coach product design managers on how to identify large, strategic UX opportunities and how to move them forward.
-- **Design quality:** Use your product knowledge across all stages to have a positive impact in design reviews, UX Showcases, and group conversations. Mentor product design managers to be an active participant in monthly milestones to ensure high-quality output.
-- **Research:** Improve research quality and [frequency](/handbook/product/ux/performance-indicators/#average-research-projects-per-product-designer) by helping product design managers identify strategic user research initiatives.
+- **Design quality:** Use your product knowledge across all stages to have a positive impact in design reviews, UX Forum, and group conversations. Mentor product design managers to be an active participant in monthly milestones to ensure high-quality output.
+- **Research:** Improve research quality and [frequency](/handbook/product/ux/performance-indicators/#average-research-projects-per-product-designer) by helping designers and design managers identify strategic user research initiatives.
 - **UX evangelism:** Ensure UX is prioritized by working with product leadership to identify opportunities for validation and better cross-functional collaboration.
 - **UX process:** Improve processes across the organization to ensure that product design is an active participant throughout the entire [product development flow](/handbook/product-development-flow/). Identify efficiency improvements and scale them across the organization.
-- **Hiring:** Help identify growth opportunities needed to support business goals. Hire and retain a world-class team of product designers and product design Mmanagers.
-- **Vision and direction**: Actively influence and guide the experience strategy and vision of the areas you’re assigned.
+- **Hiring:** Help identify growth opportunities needed to support business goals. Hire and retain a world-class team of product designers and product design managers.
+- **Vision and direction**: Actively influence and guide the experience strategy and vision of the areas you're assigned.
 - **Career development:** Provide coaching for those on your team to grow management/coaching skills and develop career paths using methods such as weekly [1:1s](/handbook/leadership/1-1), individual growth plans, and routine career development check-ins.
-- **People management:** Coach product design managers on how to recognize and prevent burnout while managing performance. Impact the happiness and productivity of your team through methods such as capacity management coaching. Conduct quarterly skip-levels with your reports' direct reports.
+- **People management:** Coach your team on how to recognize and prevent burnout while managing performance. Impact the happiness and productivity of your team through methods such as capacity management coaching. Conduct quarterly skip-levels with your reports' direct reports.
 - **Goal setting and performance tracking:** Define and manage [performance indicators](/handbook/product/ux/performance-indicators/) and [FY directional next steps](/handbook/product/ux/#fy23-direction) for the product design team. Facilitate the creation and execution of product design [OKRs](/handbook/company/okrs/) in collaboration with the product design team and UX leadership.
 
 ### Requirements
@@ -131,7 +131,7 @@ The Director of Product Design is a [grade 10](/handbook/total-rewards/compensat
 
 - **Performance tracking:** Define and manage performance indicators for the product design team by independently managing product design KPIs on the [UX KPIs](/handbook/product/ux/performance-indicators/) page in the handbook.
 - **Cross-product collaboration:** Actively advocate for product design throughout the organization by ensuring product design responsibilities are reflected in the product development flow.
-- **Product knowledge:** Help drive cross-product workflows by having an awareness of what's happening across all sections through active participation in design reviews, UX Showcases, and group conversations.
+- **Product knowledge:** Help drive cross-product workflows by having an awareness of what's happening across all sections through active participation in design reviews, UX Forum, and group conversations.
 - **Goal setting:** Independently manage the creation and execution of product design [OKRs](/handbook/company/okrs/) with feedback from the product design team and UX leadership.
 - **UX evangelism:** Ensure UX is prioritized by working with product leadership to identify opportunities for validation and better cross-functional collaboration.
 - **Design strategy:** Communicate significant product design strategy decisions to leadership and the wider company.

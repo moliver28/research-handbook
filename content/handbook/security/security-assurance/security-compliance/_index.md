@@ -1,8 +1,9 @@
 ---
-title: "Security Compliance, Commercial Team Page"
+title: "Security Compliance Commercial Team"
+description: "Security Compliance, Commercial Team Page"
 ---
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Compliance Mission
+## Security Compliance Mission
 
 Security Compliance (Commercial) Mission:
 
@@ -54,7 +55,7 @@ Work that overlaps with other teams including Dedicated Compliance can be found 
 
 We also utilize external tooling including:
 
-- ZenGRC: control testing and observations
+- Hyperproof: control testing and observations
 - Authomize: User access review campaigns
 
 ## How we work
@@ -84,12 +85,12 @@ We utilize GitLab Epics and Issue to track projects, deliverables and milestones
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 
 - Slack
-   - Feel free to tag us with `@commerical_compliance`
-   - The #sec-assurance slack channel is the best place for questions relating to our team (please add the above tag)
+  - Feel free to tag us with `@commerical_compliance`
+  - The #sec-assurance slack channel is the best place for questions relating to our team (please add the above tag)
 - Tag us in GitLab
-   - `@gitlab-com/gl-security/security-assurance/team-commercial-compliance`
+  - `@gitlab-com/gl-security/security-assurance/team-commercial-compliance`
 - Email
-   - `security-compliance@gitlab.com`
+  - `security-compliance@gitlab.com`
 - [Commercial Compliance team project](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance)
 - Interested in joining our team? Check out more [here](/job-families/security/security-assurance-job-family)!
 

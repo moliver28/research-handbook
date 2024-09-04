@@ -16,4 +16,4 @@ The purpose of Support Readiness is to:
 ## Support Readiness Links
 
 - [Readiness Subgroup](https://gitlab.com/gitlab-com/support/readiness)
-- [Operations Team](./operations)
+- [Operations Team](operations/)

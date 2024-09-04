@@ -18,6 +18,7 @@ When any lead/contact is created in SFDC, it will automatically sync and create 
 Alternatively, Marketo does not automatically push all records to SFDC and a deleted record in Marketo will not delete in SFDC unless specifically told to.
 
 A lead will sync from Marketo to SFDC in these scenarios:
+
 1. Member of Program that is synced to SFDC
 1. When a person reaches `Inquiry` status
 1. When they reach `MQL` status
@@ -82,11 +83,12 @@ Sales Systems refreshes the [SFDC staging environment](/handbook/sales/field-ope
 
 ## Forms
 
-Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms. 
+Use the instructions below with the documentation [here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/operational-setup-marketo/). Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms.
 
-We primarily use Global forms, which means the form is used on multiple landing pages and the automation for the form is handled on the individual Marketo programs. If you need fields that are not avaiable on the global forms, you need to request a custom form. 
+We primarily use Global forms, which means the form is used on multiple landing pages and the automation for the form is handled on the individual Marketo programs. If you need fields that are not avaiable on the global forms, you need to request a custom form.
 
-A few examples of when you need a custom form: 
+A few examples of when you need a custom form:
+
 - Adding a field that is not visible on a current form
 - Using a single landing page and collect registrations for multiple related events
 - Addition of drop downs or checkboxes for specific event dates
@@ -97,13 +99,15 @@ If you aren't sure if your program requires a custom form but your program requi
 
 If you need a new custom form created, please open a [form creation issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). The general timeline for form creation and complex automation is 2 weeks.
 
-If you are using an existing form on a NEW page in Contentful, please [enter a request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_processing) so that we can build the automation behind the form. If there is no automation created for the form, the person filling out the form will enter Marketo, but will not be processed into a campaign or sent for follow up. 
+If you are using an existing form on a NEW page in Contentful, please [enter a request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_processing) so that we can build the automation behind the form. If there is no automation created for the form, the person filling out the form will enter Marketo, but will not be processed into a campaign or sent for follow up.
 
 Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1cV_hI2wAzLxYYDI-NQYF5-FDDPXPXH0VV5qRBUJAQQk). It contains all of our current forms, as well as standardized country and state picklists.
 
 **Translated Forms Available**: Spanish, French, Italian, Korean, German, Portuguese, and Japanese. These are global forms, go to the Design Studio > Forms > Translated Forms. It is important to use these (and not clone) as they influence the [localization segmentation](/handbook/marketing/marketing-operations/marketo/#segmentations) of `Language Preference`.
 
-If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). Due to resource constraints, we are only creating new forms for [P0 countries](/handbook/marketing/localization/#priority-countries).
+Localized forms require special hidden fields to properly capture `Preferred Language`. Refer to [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10025) for detailed set-up instructions.
+
+If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). 
 
 All forms should follow these guidelines:
 
@@ -112,7 +116,7 @@ All forms should follow these guidelines:
 - Fields should be stacked in a vertical line
 - `Country` field label should be `Country/Region`
 - `State/Province` only visible when `Country` = `United States` or `Canada` or `Australia`; the visibility rule dynamically displays `Province` when `Canada` is selected or `State` when `United States` or `Australia` is selected
-    - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
+  - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
 - Generally `City` is only visible when `Country` = `Ukraine`
 - Forms should all contain a checkbox to obtain consent to `opting in` to communications via email
 - When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of the Ukraine
@@ -151,7 +155,9 @@ dataLayer.push(
 
 ### Program Asset Expiration
 
-Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page.
+Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page. 
+
+Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
 
 ### Product data in Marketo
 
@@ -212,6 +218,7 @@ Some leads are exluded from scoring if they:
 - Status = `Disqualified` or `Ineligible`
 - Company name of `student`, `personal`, `test` and similar
 - Actively worked by a partner (`Prospect Share Status` = `Sending to Partner`, `Accepted`, or `Pending`)
+  - Scores are time-stamped at the time of being shared with partners and saved for when the leads return to the in-house SDR teams. The scores are re-applied to leads, with score decay, when returning to our team members for further prospecting
 
 #### Why Do We Use A Scoring Model?
 
@@ -225,19 +232,17 @@ For details on the data driven changes made to lead scoring at the beginning of 
 
 Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is considered to be part of the `Behavior` score category. The scenarios are listed below:
 
-WIP
-
 <!-- Self-Managed Trial + Business email domain
 - SaaS Trial - Signed Up + Business email domain
 - SaaS Trial Signed Up + `Setup for Company/Use = TRUE`-->
 
 | Auto-MQL Behavior | Campaign Description | Points Assigned | Schedule/Flow Limit |
 | ------ | ------ | ------ | ------|
-|   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime | 
-|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day | 
-| [PTP Score]((https://internal.gitlab.com/handbook/sales/propensity_models/))  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
-| Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day | 
-|* Inbound - Med|Inbound form, not above |    +100|1/day|
+|   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime |
+|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day |
+| [PTP Score](https://internal.gitlab.com/handbook/sales/propensity_models/)  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
+| Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day |
+|* Inbound - Med|Inbound form, not above and excluding Startup applicants |    +100|1/day|
 
 #### Behavior Scoring
 
@@ -256,10 +261,9 @@ Behavior scoring is based on the actions that person has taken. The cadence of h
 |* Survey - Low|Googleforms, <br> Default    |+15|  Everytime|
 |* PathFactory |Consumes PF content|+10| Everytime|
 |Subscription|Fills out Subscription Form    |+5|1/week    |
-|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
-|* Trial - Default | SaaS,<br>Subscription Portal   |    +40| 1/day    |
-|* Trial - Personal | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +65|1/day    |
-|* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +100| 1/day    |
+|* Trial - Default | SaaS,<br>Subscription Portal   |    +20| 1/day    |
+|* Trial - Personal | Signed up with generic email domain: <br> SaaS,<br>Self-Managed,<br>Subscription Portal   |    +10|1/day    |
+|* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +30| 1/day    |
 
 ##### Interaction Boosters
 
@@ -268,6 +272,8 @@ Boosts to scores occur when a special action takes place above the traditional a
 |**Interaction Boosters**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
 |Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
+|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
+| [6QA identified](/handbook.gitlab.com/handbook/marketing/marketing-operations/6sense/#marketo) | When 6sense's predictive intent data model identifies leads and contacts showing interest in GitLab | +20| 1/ 3 month|
 
 <!--|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
 |PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
@@ -276,7 +282,7 @@ Boosts to scores occur when a special action takes place above the traditional a
 
 #### Demographic Scoring
 
-For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 60 pt hard limit on demographic scoring that applies to both demographic and person score.
+For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 70 pt hard limit on demographic scoring that limits further person score accumulation as it relates to demographic score after the max is reached.
 
 |**Demographic Characteristic**|Campaign Type|**Points**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
@@ -292,6 +298,8 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 
 #### Score Decay
 
+Please note that score decay also applies to scores frozen by the lead being in `partner` status
+
 |**Behavior Decay**|**Campaign Description**|**Points Removed**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
 |No activity in 30 days|No web, scoring, program activity in last 30, not created in last 30|    -10    |    1/month|
@@ -303,12 +311,11 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Seniority - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -10    |    Once|
 |Function - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -20    |  Once|
 
-
 ### Lead Score Classification
 
 The Lead Classification Matrix and the Lead Classification Definitions Table [exist in Figma](https://www.figma.com/file/U4GBe693vvyyrXZnMGGjS7/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=PZBNGKUfGQo8Ocvn-1), if the handbook page ever becomes broken.
 
-To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and and `Contact Detail` section of contacts.
+To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and `Contact Detail` section of contacts.
 
 A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`.
 
@@ -327,8 +334,6 @@ In order to best utilize the lead score classification, read the definition prov
 |   **3**     |   Wrong fit, little interest     |    Not ideal prospect, little interest    |    Good fit, little interest   |   Right prospect, little interest      |
 |    **4** <br>**(Behavior - Low)**    |  Wrong fit, no interest      |    Not ideal prospect, no interest    |    Good fit, no interest   |     Right prospect, no interest    |
 
-
-
 ## Lists and Segmentation
 
 ### Segmentations
@@ -337,7 +342,9 @@ Marketo segmentations are used similar to a smartlist, but they are permanent an
 
 The following segmentations that are approved and live.
 
-<details><summary>[Buyer Personas - Function](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1008A1)</summary>
+<details><summary>Buyer Personas - Function</summary>
+[Segmentation in Marketo](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1008A1)
+
 Based off of guidance on [Buyer Persona page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#buyer-personas).
 
 - App Dev
@@ -350,8 +357,8 @@ Based off of guidance on [Buyer Persona page](/handbook/marketing/brand-and-prod
 - Release
 - Tech Leader
 - Default
-</details>
 
+</details>
 
 [Compliant and Emailable](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1016A1)
 
@@ -365,8 +372,8 @@ Based off of guidance on [Buyer Persona page](/handbook/marketing/brand-and-prod
 - Student / intern
 - Blank title
 - Default
-</details>
 
+</details>
 
 <details><summary>[Sales Segment](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1017A1)</summary>
 
@@ -375,6 +382,7 @@ Based off of guidance on [Buyer Persona page](/handbook/marketing/brand-and-prod
 - SMB
 - PUBSEC
 - Default
+
 </details>
 
 <details><summary>[Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1013A1)</summary>
@@ -385,6 +393,7 @@ Not recommended for email. `Region` uses the country of the parent account, whic
 - APAC
 - LATAM
 - Default
+
 </details>
 
 <details><summary>[Person Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1031A1)</summary>
@@ -395,6 +404,7 @@ Recommended for email lists. `Person Region` uses the country of the lead/contac
 - APAC
 - LATAM
 - Default
+
 </details>
 
 <details><summary>[Funnel Stage](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1021A1)</summary>
@@ -404,6 +414,7 @@ Recommended for email lists. `Person Region` uses the country of the lead/contac
 - MQL > SAO - `Status = Qualified` OR `1 Open Opportunity` OR `Has an Open Opportunity`
 - Customer - `Current Customer = TRUE` OR `Status = Web Portal Purchase` OR `Is Paid Tier = True`
 - Disqualified - Status is `Disqualified or Bad Data`
+
 </details>
 
 <details><summary>[Priority Countries](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1024A1)</summary>
@@ -414,6 +425,7 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - Tier 3
 - Embargoed
 - Default
+
 </details>
 
 <details><summary>[Language Preference](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1023A1)</summary>
@@ -425,7 +437,9 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - Spanish
 - Portuguese
 - Italian
+- Non-English, not otherwise listed
 - Default (English)
+
 </details>
 
 <details><summary>[Personas - Role](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1020A1)</summary>
@@ -447,12 +461,14 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - C-Level (President / CEO/ COO)
 - Retired
 - Default
+
 </details>
 
 <details><summary>[Sales Territories](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1026A1)</summary>
 
 - Currently available for US Public Sector only
 - List of available segments can be found in [this doc](https://docs.google.com/spreadsheets/d/1UAD3JKqe5y-NJBPB5CbjmN5Wq1OObzh_vsLqbuGk9dk/edit#gid=0)
+
 </details>
 
 <details><summary>[Order Type](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1028A1)</summary>
@@ -460,6 +476,7 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - First Order
 - Growth
 - Default
+
 </details>
 
 <details><summary>[Product](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1027A1)</summary>
@@ -472,12 +489,12 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - Free User - with previous trial
 - Free User
 - Default
+
 </details>
 
 ### Snippets
 
 [Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsusbcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
-
 
 {{% details summary="How to use the localized email footer snippet" %}}
 To use the Localized email footer snippet in an email:
@@ -509,6 +526,7 @@ The instructions below are for MOps Admin users.
 ### Other Field Documentation and Definitions
 
 {{% details summary="Email Validations - Populated by ZoomInfo connection and other Marketo datapoints such as bounces." %}}
+
 |Field Name|Definition              | OK to send?|
 |----------|------------------------|------------|
 |Valid     |Verified as real address| Yes |
@@ -516,6 +534,7 @@ The instructions below are for MOps Admin users.
 |Disposable|A temporary, disposable address    | No|
 |Accept all (Unverifiable)| A domain-wide setting (learn more)| Yes/No|
 |Unknown   |The server cannot be reached| No|
+
 {{% /details %}}
 
 ### Account Based Marketing List
@@ -532,6 +551,7 @@ The Geographic DMA (direct marketing area) were built for the Field Marketing an
 If a new DMA list is needed, please open an issue in the Marketing Operations project & utilize the [DMA_request issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=dma_request).
 
 #### Focused Email Lists
+
 The Field Marketing and Marketing Campaigns teams use targeted email lists as a tool when pursuing specific regions, sectors or companies. Email list requests must be submitted using [this template](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new#request-confirm-target-list). From there, the campaign managers or marketing ops will build or review the list
 
 #### SLA for Targeted Lists
@@ -540,6 +560,7 @@ The Field Marketing and Marketing Campaigns teams use targeted email lists as a 
 - Final Smart List is available 2 days prior to email deployment - MOps
 
 #### List Exports
+
 If you need a list export, please fill out an [export request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=export_request).
 
 A few users have permissions to export, they should follow proper data management procedures and avoid downloading PII for data analysis.

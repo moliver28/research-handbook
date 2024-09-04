@@ -1,8 +1,7 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Container Scanning"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through enabling and using Container Scanning in a GitLab project."
 ---
-
 
 > Estimated time to complete: 15 to 20 minutes
 
@@ -14,9 +13,9 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 ## Prerequisites
 
-1. Open your browser to to the **Security Labs** project that you created in Lab 1.
+1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, or https://ilt.gitlabtraining.cloud if you are in Instructor-Lead Training, and the project should appear in your history.
 
 1. Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this in Lab 2.
 
@@ -52,7 +51,6 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     ```
 
 1. Add a commit message, set the target branch to `main` and click **Commit changes**.
-
 
 ## Task B. Build the Docker image
 
@@ -264,7 +262,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     #    - docker push $IMAGE
     ```
 
-    > Note that we need to keep at least one job enabled for the pipeline to succeed. In this example, the SAST job is left enabled since it is the quickest to complete. 
+    > Note that we need to keep at least one job enabled for the pipeline to succeed. In this example, the SAST job is left enabled since it is the quickest to complete.
 
 1. Set the commit message to `Lab 3 pipeline reset` and commit your changes to the `main` branch.
 

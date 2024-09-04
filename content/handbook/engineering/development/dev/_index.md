@@ -17,7 +17,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
     - [Manage:Foundations](/handbook/engineering/development/dev/manage/foundations/)
     - [Manage:Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate)
 1. [Plan](/handbook/product/categories/#plan-stage)
-    - [Plan:Project Management](/handbook/engineering/development/dev/plan-project-management/)
+    - [Plan:Project Management](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan:Product Planning](/handbook/engineering/development/dev/plan/product-planning/)
     - [Plan:Optimize](/handbook/engineering/development/dev/plan/optimize)
     - [Plan:Editor](/handbook/engineering/development/dev/plan/editor/)
@@ -26,7 +26,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
     - [Create: Source Code FE](/handbook/engineering/development/dev/create/code-review/frontend/)
     - [Create: Code Review BE](/handbook/engineering/development/dev/create/code-review/backend/)
     - [Create: Code Review FE](/handbook/engineering/development/dev/create/code-review/frontend/)
-    - [Create: IDE](/handbook/engineering/development/dev/create/ide/)
+    - [Create: Remote Development](/handbook/engineering/development/dev/create/remote-development/)
     - [Create: Code Creation](/handbook/engineering/development/dev/create/code-creation/)
     - [Create: Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)
     - [Create Frontend](/handbook/engineering/frontend/create/)
@@ -59,7 +59,6 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Plan:Knowledge
 
-
 {{< team-by-manager-role role="Senior Manager, Engineering(.*)Plan" team="[,&] (Plan:Knowledge)" >}}
 
 ### Create
@@ -80,7 +79,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 {{% team-by-manager-role role="(.*)Manager(.*)Create:Editor Extensions" %}}
 
-#### Create:IDE
+#### Create:Remote Development
 
 {{< team-by-manager-slug "adebayo_a" >}}
 
@@ -132,7 +131,7 @@ A [Slack workflow](https://gitlab.com/gitlab-com/gl-infra/scalability/-/snippets
 
 - Issue Tracker
 - Slack Channels
-    - #sd_dev_engineering
-    - #s_manage
-    - #s_plan
-    - #s_create
+  - #sd_dev_engineering
+  - #s_manage
+  - #s_plan
+  - #s_create

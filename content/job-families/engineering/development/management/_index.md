@@ -32,7 +32,7 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 - Ability to use GitLab
@@ -65,7 +65,7 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 - Experience managing managers
 - Agile project management skills
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 
@@ -89,13 +89,13 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 
 #### Responsibilities
 
-The Distinguished Engineer role extends the [Staff Frontend Engineer](/job-families/engineering/development/frontend#staff-frontend-engineer) and the [Staff Backend Engineer](/job-families/engineering/development/backend/#staff-backend-engineer) roles as the individual equivalent of a Director, Engineering.
+The Distinguished Engineer role extends the [Principal Engineer](/job-families/engineering/development/management/principal-engineer/) role as the individual equivalent of a Director, Engineering.
 
 - At this level the person's contribution plays to their strength and role on the team. These contributions come in different forms such as: Ship *large* feature sets with team, completes *feature discovery* independently, publishes technical blogs and speaks at conferences, interfaces with customers and provides technical direction to stakeholders (Product, Sales, others)
 - *Generate* technical and process improvements
 - Contribute to the sense of psychological safety on your team
 - Work cross-departmentally
-- Be a technical mentor for other backend engineers
+- Be a technical mentor for other engineers
 - Author architecture documents for epics
 - Hold team members accountable within their roles
 

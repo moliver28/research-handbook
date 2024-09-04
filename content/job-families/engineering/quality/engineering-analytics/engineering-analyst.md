@@ -4,7 +4,7 @@ title: "Engineering Analyst"
 
 Engineering Analysts at GitLab build and improve on the data capabilities needed to support a highly productive Engineering Division.
 They equip Engineering leaders with metric intelligence and actionable performance indicators.
-They work closely with GitLab’s Data team to enable new data capabilities that drives our analysis and visualizations.
+They work closely with GitLab's Data team to enable new data capabilities that drives our analysis and visualizations.
 
 ## Responsibilities
 

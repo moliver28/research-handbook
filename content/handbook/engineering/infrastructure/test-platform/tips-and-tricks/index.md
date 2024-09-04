@@ -1,14 +1,7 @@
 ---
-
 title: "Quality Engineering Tips and Tricks"
 description: "This page lists a number of tips and tricks we have found useful in day to day Quality Engineering related tasks."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -22,8 +15,8 @@ against a specific release of the [GitLab project](https://gitlab.com/gitlab-org
 due reasons such as that particular GitLab release containing specific code needed for validating the changes made
 in GitLab-QA. To run a [GitLab-QA pipeline](https://gitlab.com/gitlab-org/gitlab-qa/pipelines) against
 a specific GitLab release, we need to know the GitLab release version created and tagged by the omnibus pipeline.
-This can be found by either observing the `RELEASE` variable in any of the `package-and-test` test jobs or
-in the last output line of the `Trigger:gitlab-docker` job triggered by the `package-and-test` job. Here is an example of what the `RELEASE` string
+This can be found by either observing the `RELEASE` variable in any of the `test-on-omnibus` test jobs or
+in the last output line of the `Trigger:gitlab-docker` job triggered by the `test-on-omnibus` job. Here is an example of what the `RELEASE` string
 looks like:
 
 ```bash
@@ -32,7 +25,7 @@ registry.gitlab.com/gitlab-org/omnibus-gitlab/gitlab-ee:41b42271ff37bf79066ef308
 
 Copy this string and create a new [GitLab-QA pipeline](https://gitlab.com/gitlab-org/gitlab-qa/pipelines)
 with a `RELEASE` variable and use the copied string as its value. Create another variable called `QA_IMAGE` and set it to the value
-that can be found in the `package-and-test` upstream job. Here is an example of what the `QA_IMAGE` string looks like:
+that can be found in the `test-on-omnibus` upstream job. Here is an example of what the `QA_IMAGE` string looks like:
 
 ```bash
  registry.gitlab.com/gitlab-org/gitlab/gitlab-ee-qa:qa-shl-use-unique-group-for-access-termination-specs
@@ -42,28 +35,33 @@ Note that the string is the same as `RELEASE` except for the `-qa` suffix on the
 
 Now run the pipeline against the branch that has your changes.
 
-It's also possible to trigger a manual GitLab-QA pipeline against a specific [GitLab environment](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) using the `RELEASE` and `QA_IMAGE` variable from the `package-and-test` job of GitLab's Merge Request.
+It's also possible to trigger a manual GitLab-QA pipeline against a specific [GitLab environment](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) using the `RELEASE` and `QA_IMAGE` variable from the `test-on-omnibus` job of GitLab's Merge Request.
 For example, here is the link to run a manual GitLab QA pipeline [against Staging](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines/new?var[RELEASE]=%27insert_docker_release_image_name_from_the_MR%27&var[QA_IMAGE]=%27insert_docker_qa_image_name_from_the_MR%27&var[GITLAB_QA_CONTAINER_REGISTRY_ACCESS_TOKEN]=%27insert_gitlab_qa_user_production_access_token%27).
+
 - Note: If `registry.gitlab.com` is used, you will also need to include the `GITLAB_QA_CONTAINER_REGISTRY_ACCESS_TOKEN` variable with the value set to the production `gitlab-qa` user's access token to avoid authentication errors.
 
 ## Running end-to-end test pipelines using code from a specific GitLab-QA branch
 
 ### Running from a specific GitLab-QA branch against a live environment
+
 It is often needed to test the impact of changes in the [GitLab-QA codebase](https://gitlab.com/gitlab-org/gitlab-qa) on
 [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules), [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines),
-[Pre-Prod](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipelines), [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/-/pipelines) 
+[Pre-Prod](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipelines), [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/-/pipelines)
 or [Production](https://ops.gitlab.net/gitlab-org/quality/production/-/pipelines) pipelines.
 This can be achieved by manually triggering a pipeline in any of these projects and setting the `QA_BRANCH` variable to the branch name you are working on in the [GitLab-QA project](https://gitlab.com/gitlab-org/gitlab-qa).
 As a result, the pipeline will checkout the specified branch and build the `gitlab-qa` gem instead of using the latest published gem.
 
-### Running from a specific GitLab-QA branch against a GitLab branch MR 
+### Running from a specific GitLab-QA branch against a GitLab branch MR
+
 You can checkout a test branch and edit the `Gemfile` to change the `gitlab-qa` line to install via the GitLab-QA branch.
 
 For example in the `qa/gemfile`:
-```
+
+```console
 gem 'gitlab-qa', git: 'https://gitlab.com/gitlab-org/gitlab-qa.git', branch: '<GitLab-QA-branch>'
 ```
-Make sure to also `bundle install` and commit the `Gemfile.lock` as well. 
+
+Make sure to also `bundle install` and commit the `Gemfile.lock` as well.
 Doing so successfully will allow the `gitlab-qa` gem to be built from a custom branch.
 
 ## Determine the version, revision, branch and package deployed in GitLab environments
@@ -206,7 +204,7 @@ To do so, follow these steps:
 1. SSH into the VM instance (using GCP's Web interface).
 1. Follow [the installation steps for auto-scaled runners manager](https://docs.gitlab.com/runner/executors/docker_machine.html#preparing-the-environment):
    1. [Install `gitlab-runner`](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner).
-   1. [Install Docker Machine](https://docs.docker.com/machine/install-machine/).
+   1. [Install Docker Machine](https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/install-machine/).
    1. [Register the runner](https://docs.gitlab.com/runner/register/#linux)
       1. Make sure to set a specific tag for the runner.
       1. Set `docker+machine` as the runner executor.
@@ -234,7 +232,7 @@ To do so, follow these steps:
         "FF_USE_DIRECT_DOWNLOAD=true",
         "FF_GITLAB_REGISTRY_HELPER_IMAGE=true"
       ]
-    
+
       [runners.custom_build_dir]
         enabled = true
 

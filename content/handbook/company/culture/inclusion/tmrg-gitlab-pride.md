@@ -13,12 +13,12 @@ To ensure that GitLab is proactive in supporting, retaining, and recruiting from
 
 ### Leads
 
-- [Alex Hanselka](/handbook/company/team/#ahanselka)
-- [Helen Mason](/handbook/company/team/#hmason)
+- [Alex Hanselka](https://about.gitlab.com/company/team/#ahanselka)
+- [Andrew Chapman](https://about.gitlab.com/company/team/#andrwchapman)
 
 ### Executive Sponsor
 
-- [Robin Schulman](/handbook/company/team/#rschulman)
+- [Robin Schulman](https://about.gitlab.com/company/team/#robin)
 
 ### Members
 
@@ -52,6 +52,6 @@ To ensure that GitLab is proactive in supporting, retaining, and recruiting from
 - Gladd.org: [10 Ways to Be an Ally & a Friend](https://www.glaad.org/resources/ally/2)
 - TechStars: Out At Work: [How To Support And Be An Ally To LGBTQ+ Colleagues](https://www.techstars.com/the-line/advice/out-at-work-how-to-support-and-be-an-ally-to-lgbtq-colleagues)
 - Forbes: [How To Be An LGBTQ Ally At Work](https://www.forbes.com/sites/brianhonigman/2016/07/20/lgbtq-ally-at-work/#30a6ee0142fc)
-- Vox: [Here’s what a good LGBTQ ally looks like](https://www.vox.com/identities/2019/6/22/18700875/lgbtq-good-ally)
-- PFLAG’s [Resources to Being a Lifelong Ally](https://pflag.org/resource/resources-to-being-a-lifelong-ally/)
-- Oprah’s [Guide to being an LGBTQ Ally](https://www.oprahmag.com/life/relationships-love/a28159555/how-to-be-lgbtq-ally/)
+- Vox: [Here's what a good LGBTQ ally looks like](https://www.vox.com/identities/2019/6/22/18700875/lgbtq-good-ally)
+- PFLAG's [Resources to Being a Lifelong Ally](https://pflag.org/resource/resources-to-being-a-lifelong-ally/)
+- Oprah's [Guide to being an LGBTQ Ally](https://www.oprahmag.com/life/relationships-love/a28159555/how-to-be-lgbtq-ally/)

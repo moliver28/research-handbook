@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Nominations for Community Swag"
 ---
-
-
-
-
-
-
 
 ## Let's Award Contributors Together
 
@@ -20,16 +13,17 @@ If you think that someone deserves a swag prize, nominate them!
 If you reached an important campaign milestone (e.g. #myfirstMRmerged) with your contribution, you can also nominate yourself!
 
 ## Eligibility
- 
+
 Anyone who you feel deserves an extra special something for their contribution, comment, or community involvement is eligible for swag.
 
-This can include, (but is not limited to): 
+This can include, (but is not limited to):
+
 * Great contributions to the GitLab product via issues or merge requests
 * Representing the voice of GitLab at a speaking event, with a blog post, at a Meetup, or with a presentation
 * Achieving the `#myfirstMRmerged` milestone
 * Leaving a great answer on our [community forum](https://forum.gitlab.com/)
 * Posting a great answer to on a [GitLab StackOverflow](https://stackoverflow.com/questions/tagged/gitlab) or [GitLab subreddit](https://www.reddit.com/r/gitlab/) question
-* Bug Bounty reporters who submitted a quality report that did not qualify for monetary reward in our [Bug Bounty program](https://hackerone.com/gitlab?type=team). 
+* Bug Bounty reporters who submitted a quality report that did not qualify for monetary reward in our [Bug Bounty program](https://hackerone.com/gitlab?type=team).
 
 For cases not listed above, use your best judgement, and create a merge request to add new cases to the list.
 
@@ -47,7 +41,8 @@ If you've contributed to our community or reached an important campaign mileston
 ## Nomination Process
 
 The following process can be used either
-*  To nominate a wider community member for swag, or nominate yourself for swag, please fill the [nomination form](https://docs.google.com/forms/d/e/1FAIpQLSfGo-3kEimVPpC5zKKxXHkFjgYx8-vQAanzAX2LxGgXQqXikQ/viewform). Make sure to include links that show your community contribution ready before you send the form.
+
+* To nominate a wider community member for swag, or nominate yourself for swag, please fill the [nomination form](https://docs.google.com/forms/d/e/1FAIpQLSfGo-3kEimVPpC5zKKxXHkFjgYx8-vQAanzAX2LxGgXQqXikQ/viewform). Make sure to include links that show your community contribution ready before you send the form.
 
 That's it! Contributor Success team members will be in touch with the person nominated on how to get the swag!
 
@@ -76,6 +71,7 @@ If you have any questions, don't hesitate to reach out. Thanks for your contribu
 ```
 
 ## Finding Community Member Contact Information
+
 This section outlines the strategies that GitLab team member might use to contact community members during this process
 
 * Always default to email communication. Email information of a contributor, if not known, can be requested from the Director of Contributor Success (only for Developer Relations team members)

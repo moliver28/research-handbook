@@ -21,7 +21,7 @@ There are three creation types for new requisitions: Annual Planned Headcount, [
 How is headcount communicated:
 
 1. Annual Planned headcount: Communicated by FP&A partners to TA, PBPs and business leadership at the beginning of each fiscal year.
-1. RLoA headcount: Communicated by FP&A partners to TA, PBPs and business leadership upon approval by egroup (typically at the beginning of each fiscal quarter).
+1. RLoA headcount: Communicated by FP&A partners to TA, PBPs and business leadership upon approval by e-group (typically at the beginning of each fiscal quarter).
 1. Backfills: Upon a resignation, hiring managers are to submit official notice to Workday to trigger alignment about backill req (see below).
 
 All headcount, once funded and released, will show up in department LIVE Interlock Reports (linked below). The Talent Acquisition leadrship will then allocate a recruiter to the role based off of capacity and domain alignment. The recruiter is the main driver for moving the hiring process forward at a reasonable pace and will partner with the hiring manager on creating a requisition.
@@ -43,7 +43,6 @@ In order to open a backfill:
 *For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
 
-
 ### Create or Review the Job Family (DRI: Hiring Manager)
 
 The Hiring Manager will review the position description in the `/job-families` folder and update it, if needed. If there is no existing job family, they should follow the steps to [create a new job family](/handbook/hiring/job-families#job-families). A compensation benchmark for the role should be set by working with the Compensation & Benefits team.
@@ -64,18 +63,17 @@ There are a few options for what to open in Greenhouse.
 
 - **Open a new job**
 - **Open an additional opening onto an existing job**
-   - If the job is currently open, recruiters can add an additional opening through the approvals page. It is vital that each opening is opened, associated with the correct GHPiD and documented in Greenhouse so reporting can tell us how many positions are open.
+  - If the job is currently open, recruiters can add an additional opening through the approvals page. It is vital that each opening is opened, associated with the correct GHPiD and documented in Greenhouse so reporting can tell us how many positions are open.
 - **Reopen an old job**
-   - We do not reopen old jobs.
+  - We do not reopen old jobs.
 - **Evergreen job**
-   - An Evergreen Job is a requisition that is `always open`... more specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka - an opening with a single corresponding GHPiD).
+  - An Evergreen Job is a requisition that is `always open`... more specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka - an opening with a single corresponding GHPiD).
 - **When should an Evergreen req be used?**
    TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. Typically, EVG postings will be utilized when there are multiple openings for a set of roles (3 or more) that have very similar technical qualifications and are expected to be hired on a regular basis (for example, Business Development Rep, AMER). These roles usually span multiple teams and hiring managers., but are all interviewed with the same process by the same interviewer 'pool'. `Regular basis` refers to consistent volume over a period of 3+ quarters.
 - **How do I open an evergreen req?**
    All evergreen reqs need to be approved by TALT (Jake Foster or Jess Dallmar) prior to opening.
 
 If you are looking to open a job for pipeline reasons, because a Hiring Manager has requested that you work on a role that will be open in the future but has not been approved, instead of an EVG role use our Greenhouse CRM.
-
 
 **The Recruiter will:**
 
@@ -88,11 +86,12 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. The `Internal Job Name` is only viewable within Greenhouse, and the `External Job Name` is what appears on the jobs page. Enter in the requisition's title in these fields, including *Specialty*, if applicable. These two fields will almost always be the same.
 1. `Department` is the department this role will fall under. Always choose a department and **not** a division (e.g. for a Security Engineer opening, choose **Security** within the `Engineering` division, and do **not** choose `Engineering`). If you are unsure of what department to choose, reach out to your FP&A partner.
 1. If a requisition can be located anywhere GitLab hires, check `Anywhere` next to `Office`. If an opening is dedicated to a certain region or time zone, uncheck the `Anywhere` box and select any of the predetermined regions or time zones.
-1. Click `Generate IDs` to create a requisition ID. You’ll need this again when you set up your opening(s).
+1. Click `Generate IDs` to create a requisition ID. You'll need this again when you set up your opening(s).
+1. Under `Job Family URL`, ensure you are linking to the correct job family page. It is the Recruiter's responsibility to ensure that the job family has the specific job listed before submitting the requisition for approval. If the job family is currently in approvals, please contact Total Rewards to ensure you are clear before moving forward. If you skip this step and the job makes it to the offer stage, the process will stall during Total Rewards approval and will take significantly longer to get approved. It is OK if the job title in Greenhouse is not identical to the job family for posting purposes.
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
 1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `CA/CO/HI/NY/NJ/WA Salary` and will be input by the Total Rewards Team if the role accepts US applicants, unless the role is state-specific outside of the states listed. Recruiters can use `1-1` as the range as a placeholder when submitting the req for approval. The Recruiter will use the approved ranges from Total Rewards in their job post.
-1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is not the GHPID.
+1. `CA/CO/HI/NY/NJ/WA/DC Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
+1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
 1. Under `Type` choose if this is a *New Hire*, *Evergreen*, or a *Backfill*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. If you choose *Evergreen*, ensure this is first approved by Jess Dallmar.
 1. Enter the `GHP ID` listed on the GitLab Hiring Plan. If you do not have a GHPID for any reason, FP&A will not approve your opening and you cannot post your position.
@@ -100,22 +99,19 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 
 The next page consists of **attributes** interviewers will be evaluating in their scorecards across the full interview process. These may not be known until after the Kick-off Session and may be skipped during the initial setup of the req.
 
-The `Interview Plan` is where you'll craft the hiring process and scorecards for each step in the process. The interview plan may not be known until after the Kick-off Session and may be skipped during the initial setup of the REQ. This section, however, is not optional: It is important that all interview rounds are determined **prior** to opening a req. They should be formatted as `Topic/Competency, Interviewer Name, Interview length` (ie “Ruby Technical Interview, Harry Potter, 60 mins”).
+The `Interview Plan` is where you'll craft the hiring process and scorecards for each step in the process. The interview plan may not be known until after the Kick-off Session and may be skipped during the initial setup of the REQ. This section, however, is not optional: It is important that all interview rounds are determined **prior** to opening a req. They should be formatted as `Topic/Competency, Interviewer Name, Interview length` (ie "Ruby Technical Interview, Harry Potter, 60 mins").
 
 The `Hiring Team` is where you select who will be working on this opening and what access they should have.
 
 - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
 - Ensure that only necessary team members have Hiring Manager access in the bottom section. Filter by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need Job Admin access and should be removed.
 
-Set up Notifications where appropriate. You should make sure that you are always notified for internal candidates and referrals, but the rest is up to your preferences. Most recruiters prefer to use their own names, rather than `Candidate’s Recruiter`, because it ensures they are notified even if the candidate is interviewing for multiple positions and therefore has a different default recruiter.
+Set up Notifications where appropriate. You should make sure that you are always notified for internal candidates and referrals, but the rest is up to your preferences. Most recruiters prefer to use their own names, rather than `Candidate's Recruiter`, because it ensures they are notified even if the candidate is interviewing for multiple positions and therefore has a different default recruiter.
 
 Scroll to the bottom of the page and click `Request Approval`.
 
-In order to fully open a requisition in Greenhouse, you will need to complete the following approval paths:
+In order to fully open a requisition in Greenhouse, you will need to complete the following approval path:
 
-1. `Start Recruiting` Approval:
-   1. Total Rewards
-1. `Official Job` Approval:
    1. Finance
    1. Department Lead
 
@@ -155,7 +151,6 @@ If you find that someone is delayed in responding to an approval request, you ca
    - Uncheck `Include 'Apply with SEEK' button`
 1. Click `Save`, then click the red button to publish the opening to our internal job board.
 1. After publishing, announce on Slack in `#new-vacancies` for team members to apply or send in referrals.
-
 
 ```text
 Slack message template:
@@ -230,8 +225,8 @@ If you are applying rules to reject candidates based on visa sponsorship needs i
    - Finally, under `Additional Settings`, check `This interview requires scorecards to be submitted` and leave **unchecked** `Hide candidate name and details from grader`.
    - Then click `Save`.
 1. The next stage is the `Screening` call stage, which should be standard across the organization. Click `Edit` on this stage, scroll to the bottom, and choose the recruiter as the default interviewer and set interview duration to 30 minutes. It is important for this stage to be named the same across the organization for reporting purposes.
-1. The next stage is `Initial Interview`, where the R&D candidates usually have their technical interview and all other departments usually have a hiring manager interview. Under this stage, you usually will only have one interview. They are typically called “Topic of interview, Interviewer, length of interview”. For example: Technical Interview, Harry Potter (60 mins). This will help CES know what to schedule.  *Please note that this stage operates independently, so you cannot collect availability for a different stage's interviews while in this stage, and you cannot collect scorecards after you've left the stage. Never move a candidate out of this stage while they have a planned interview.* Please see the stage below for additional guidelines.
-1. The next stage is `Team Interview`, where the candidates will meet with peers and the hiring manager. Under this stage, you should see multiple interviews. They are typically called “Topic of interview, Interviewer, length of interview”. For example: Technical Interview, Harry Potter (60 mins). This will help CES know what to schedule.
+1. The next stage is `Initial Interview`, where the R&D candidates usually have their technical interview and all other departments usually have a hiring manager interview. Under this stage, you usually will only have one interview. They are typically called "Topic of interview, Interviewer, length of interview". For example: Technical Interview, Harry Potter (60 mins). This will help CES know what to schedule.  *Please note that this stage operates independently, so you cannot collect availability for a different stage's interviews while in this stage, and you cannot collect scorecards after you've left the stage. Never move a candidate out of this stage while they have a planned interview.* Please see the stage below for additional guidelines.
+1. The next stage is `Team Interview`, where the candidates will meet with peers and the hiring manager. Under this stage, you should see multiple interviews. They are typically called "Topic of interview, Interviewer, length of interview". For example: Technical Interview, Harry Potter (60 mins). This will help CES know what to schedule.
    - The `Team Interview` stage should be laid out according to the order the interviews must take place.
    - The interview plan should be defined during the intake call to include what attributes from the scorecard each interviewer is addressing as well as standard questions each interviewer should ask. **You should always know the interview plan prior to beginning any candidate screens.**
    - The interview plan should be duplicated in the [hiring process repo](https://gitlab.com/gitlab-com/people-ops/hiring-processes).
@@ -367,18 +362,18 @@ Sometimes we need to post vacancies on specialist job boards to attract talent. 
 ### Creating an Evergreen Requisition
 
 - After securing approval from Jess Dallmar, Follow the Req Creation process found here. In addition, please be aware of these added steps:
-  - Start the Req title with “Evergreen” followed by the name of the req (example Evergreen - Sales Development Representative)
-  - Select “Evergreen” when selecting opening Type
-  - Set the GHPID to “EVERGREEN”. Both of the steps to label the job as an Evergreen help ensure they do not show up in some reporting.
+  - Start the Req title with "Evergreen" followed by the name of the req (example Evergreen - Sales Development Representative)
+  - Select "Evergreen" when selecting opening Type
+  - Set the GHPID to "EVERGREEN". Both of the steps to label the job as an Evergreen help ensure they do not show up in some reporting.
 
 #### Hiring a Candidate from an Evergreen Requisition
 
 - It is important that before a candidate can be hired, there must be a separate, team-specific req that is tied to the approved headcount and lists the appropriate GHP ID required to hire a candidate. This approved, team-specific headcount req is not posted for applications.
 - Once a candidate is identified in the Evergreen req and you have an approved, team-specific headcount req to move the candidate to, proceed with the following steps:
-  - Once interviews are completed, BEFORE you move the candidate to the offer stage, click “Add, transfer, or remove candidates jobs.”
+  - Once interviews are completed, BEFORE you move the candidate to the offer stage, click "Add, transfer, or remove candidates jobs."
 (NOTE: It is important that all interviews and scorecards are completed before you take any action to move a candidate from an Evergreen req. Interviews and open scorecards will not transfer once the candidate is moved.)
-  - Select “Transfer to a Different Job”
-(NOTE: Please be sure to select “Transfer” as opposed to “Add”)
+  - Select "Transfer to a Different Job"
+(NOTE: Please be sure to select "Transfer" as opposed to "Add")
   - Once a candidate is Transferred to the approved headcount req, you can move to offer in that req.
 
 #### Sourcing Candidates for an Evergreen Req

@@ -1,9 +1,9 @@
 ---
-aliases: /handbook/engineering/development/incubation/mlops/jtbd.html
-
 title: "MLOps Jobs to Be Done"
 description: "What are the problems users want MLOps to solve?"
 ---
+
+NOTE: The MLOps Incubation Engineering project has become the MLOps team. These pages are left fir historical purposes, but are not actively maintained. Please refer to the [MLOps team page](/handbook/engineering/development/data-science/modelops/mlops) for updated information.
 
 ## What is this
 
@@ -19,7 +19,7 @@ While MLOps goals is the exact same as DevOps, the JTBD are a result of the diff
 
 When working with software that includes Machine Learning, I want be able to iterate on the models with confidence, so that I can deliver the most value to my users.
 
-## MLOps JTBD per stage     
+## MLOps JTBD per stage
 
 ### Plan
 
@@ -54,7 +54,6 @@ When working with software that includes Machine Learning, I want be able to ite
 | <a id="IE_MLOPS_VR_5">IE_MLOPS_VR_5</a> | When working with ML, I want minimize how often each step of the DAG is run, so that costs are reduced |
 | <a id="IE_MLOPS_VR_6">IE_MLOPS_VR_6</a> | When a model is deployed, I want to verify whether the labeling was done correctly, and is still valid, so that I am sure the targets were correct |
 
-
 ### Packaging
 
 | Code          | Job Description |
@@ -76,7 +75,6 @@ When working with software that includes Machine Learning, I want be able to ite
 | <a id="IE_MLOPS_RL_6" href="#IE_MLOPS_RL_6">IE_MLOPS_RL_6</a> | For deployed models, I want to make predictions on streaming data, so that my model reacts quickly to new data |
 | <a id="IE_MLOPS_RL_7" href="#IE_MLOPS_RL_7">IE_MLOPS_RL_7</a> | When deploying a machine learning model, I need to compare prior and current version on live data, so that I can publish the best version  |
 
-
 ### Secure
 
 | Code          | Job Description |
@@ -96,7 +94,7 @@ When working with software that includes Machine Learning, I want be able to ite
 | Code          | Job Description |
 |---------------|-----------------|
 | <a id="IE_MLOPS_MN_1">IE_MLOPS_MN_1</a> | When input data configuration changes, I want to be warned, so that I can retrain my machine learning model                                                                      |
-| <a id="IE_MLOPS_MN_2">IE_MLOPS_MN_2</a> | When the performance of a a Machine Learning model degrades, I want to be informed, so that I can retrain my machine learning model                                              |
+| <a id="IE_MLOPS_MN_2">IE_MLOPS_MN_2</a> | When the performance of a Machine Learning model degrades, I want to be informed, so that I can retrain my machine learning model                                              |
 | <a id="IE_MLOPS_MN_3">IE_MLOPS_MN_3</a> | When a deployed machine learning model is taking too much resources, I want to be informed, so that I don't incur into too much cost                                             |
 | <a id="IE_MLOPS_MN_4">IE_MLOPS_MN_4</a> | After deploying a model, I want to run adhoc analysis on the prediction data, to explore the outcomes and potential improvements                                                 |
 | <a id="IE_MLOPS_MN_5">IE_MLOPS_MN_5</a> | After deploying a model, I want to run adhoc analysis on the prediction data, so that I can answer questions from the business                                                   |
@@ -108,10 +106,3 @@ When working with software that includes Machine Learning, I want be able to ite
 - [Machine Learning Operations: Overview, Definition, and Architecture](https://arxiv.org/abs/2205.02302)
 - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 - [Practical MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/)
-
-
-
-
-
-
-

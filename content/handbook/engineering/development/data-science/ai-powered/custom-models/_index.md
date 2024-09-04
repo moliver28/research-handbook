@@ -1,7 +1,6 @@
 ---
 title: Custom Models Group
 description: "The Custom Models group focuses on additional, custom models that power GitLab Duo functionality in support of our customers unique data and use-cases."
-aliases: /handbook/engineering/development/data-science/custom-models
 ---
 
 ## Vision
@@ -10,13 +9,9 @@ The Custom Models group focuses on additional, custom models that power GitLab D
 
 ## Organisation
 
-The AI-powered:Custom Models team focuses on GitLab's suite of Custom Model features and is responsible for all backend aspects of the product categories that fall under the [Custom Models group][group] of the [AI Powered stage][stage] of the [DevOps lifecycle][lifecycle]. Our Product direction is found on the [Category Direction - Custom Models Management](https://about.gitlab.com/direction/ai-powered/ai_framework/custom_models/) page.
+The AI-powered:Custom Models team focuses on GitLab's suite of Custom Model features and is responsible for all backend aspects of the product categories that fall under the [Custom Models group](/handbook/product/categories/#custom-models-group) of the [AI Powered stage](/handbook/product/categories/#ai-powered-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages). Our Product direction is found on the [Category Direction - Custom Models Management](https://about.gitlab.com/direction/ai-powered/custom_models/) page.
 
 The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#custom-models).
-
-[group]: /handbook/product/categories/#custom-models-group
-[stage]: /handbook/product/categories/#ai-powered-stage
-[lifecycle]: /handbook/product/categories/#devops-stages
 
 ### Team OKRs
 
@@ -48,16 +43,15 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 
 - `~"group::custom models"`
 - `~"devops::ai-powered"`
-- `~"section::dev"`
-- `~"category::model personalization"`
-- `~"category::self-hosted model deployment"`
-
+- `~"section::data science"`
+- `~"Category:Model personalization"`
+- `~"Category:Self-Hosted models"`
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
 
 ## Team Milestone Planning Process
 
-Custom Models follows the [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/) and uses a planning issue and boards to manage the planning process.
+Custom Models follows the [Product Development Flow](/handbook/product-development-flow/) and uses a planning issue and boards to manage the planning process.
 [Planning issues](https://gitlab.com/groups/gitlab-org/-/epics/12950) for each milestone are created by the PM and are used to coordinate upcoming work between the PM, EM and stable counterparts.
 
 In the last week of a milestone, planning is completed for the next milestone. The following activities are undertaken.
@@ -79,7 +73,7 @@ The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7472416?miles
 
 ### Ready for Development Status
 
-Issues that are ready to be worked on by an engineer are labelled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
+Issues that are ready to be worked on by an engineer are labeled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
 
 ### Capacity Planning Spreadsheet
 
@@ -102,7 +96,7 @@ A weight is assigned to each issue as an estimation of work to close the issue. 
 
 ### Planning and Delivery Boards
 
-All workflow statuses in the [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/) are valid, and the statuses and milestones tied to boards are below.
+All workflow statuses in the [Product Development Flow](/handbook/product-development-flow/) are valid, and the statuses and milestones tied to boards are below.
 
 The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_title=Next%201-3%20releases&label_name[]=group%3A%3Acustom%20models) and [Next 4-6 milestones](https://gitlab.com/groups/gitlab-org/-/boards/7472821?milestone_title=Next%204-6%20releases&label_name[]=group%3A%3Acustom%20models) boards are used to house issues which need refinement or are ready to be worked on.
 
@@ -111,7 +105,7 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 | Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
 | Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
 | Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
-| Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |  
+| Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |
 
 ### Issue Milestones
 
@@ -121,17 +115,19 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 
 The [issue triage report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/17099) highlights issues which need a milestone assignment.
 
-## Shared calendars
+## Blog Posts
 
-TBD
+Blog posts written by Custom Model's team members
+
+- [Developing GitLab Duo: How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) [@susie.bee](https://gitlab.com/susie.bee)
 
 ## Communication
 
 The Custom Models communicates based on the following guidelines:
 
 1. Always prefer async communication over sync meetings.
-1. Don't shy away from arranging a [sync call](#-ad-hoc-sync-calls) when async is proving inefficient, however endevour record it to share with team members.
-1. [Transparency by Default](https://handbook.gitlab.com/handbook/security/transparency-by-default/)
+1. Don't shy away from arranging a [sync call](#ad-hoc-sync-calls) when async is proving inefficient, however endevour record it to share with team members.
+1. [Transparency by Default](/handbook/security/transparency-by-default/)
 1. The primary channel for work-related communication is the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 1. Internal team issues and projects are namespaced under [`gitlab-org/ai-powered/custom-models`](https://gitlab.com/gitlab-org/ai-powered/custom-models)
 
@@ -148,37 +144,10 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 ## Time Off
 
-Team members should add any [Paid Time Off](https://handbook.gitlab.com/handbook/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
+Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
 It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
 
 ## Ad-hoc sync calls
 
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
-
-## Metrics
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="custom models" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="custom models" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="custom models" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="custom models" >}}
-{{< /tableau >}}
-
-<!-- LINKS START -->
-
-[slack]: TBA
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0Kpt0DsmS5WSZbeiMgrBeZXv
-[paid-time-off]: /handbook/paid-time-off/#paid-time-off
-[gdoc]: https://docs.google.com/document/d/1rSJNmRZJ0q8hd9S6W_AXlCMvtNTC6cfWr6VU0e2fJCQ/edit#heading=h.3xbjtjtrp0e9
-
-<!-- LINKS END -->

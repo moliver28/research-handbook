@@ -30,7 +30,7 @@ The Associate Renewals Manager is a grade 5.
 - Maximize customer retention rates through effective sales techniques over the phone, video and email while also minimizing customer churn and contraction.
 - Execute the renewal process to ensure ARR is retained or expanded
 - Evaluate license usage and complete the true-up requirements
-- Understand and align customer’s business needs and goals to generate renewal quotes
+- Understand and align customer's business needs and goals to generate renewal quotes
 - Provide renewals adminstration support to Renewals Managers, and Account Executives
 - Ensure that renewals are closed on a timely basis
 - Collaborate with Sales and Customer Success Managers on renewals strategy and plans, leveraging customer analytics and metrics

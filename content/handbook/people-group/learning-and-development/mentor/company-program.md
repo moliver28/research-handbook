@@ -14,7 +14,6 @@ Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RS
 | **Mentor/Mentee Workbook** | [Mentorship resources]({{< ref "mentor#resources" >}}) are available for all mentor/mentee pairs, including suggested articles, strategies for goal setting, and sample meeting agendas. Use of resources is **encouraged**. |
 | **End of Program Celebration and Feedback** | Async discussion to share mentorship success. Participation is **strongly encouraged**. An end of program feedback form will be shared with all mentors and mentees and is **required.** |
 
-
 ### Async First Mentorship
 
 This program includes an opt-in, async first structure to increase opportunity for team members in any time zone to pair with mentors company-wide. Async-first means that mentees can pair with mentors in any time zone. In order to be paired in an async mentorship, both mentor and mentee must opt in while applying.
@@ -150,7 +149,7 @@ Success of this program will be measured by:
 #### Participant Testimonials
 
 1. `Every time I engage in a mentorship program, I have a sense of fulfillment in coaching others but I also learn something new about myself through the engagement. I absolutely love mentorship!`
-1. `The mentorship program was transformative for me. I plan to move towards leadership positions and I received the feedback that I need to improve my communication skills. This program helped me to uplevel my "communicating up" skill through real-life examples shared by my mentor and by discussing specific topics I faced during the programme. I feel confident now about communicating with executives and preparing documents for such discussions. I strongly recommend the programme to everyone who wants to grow at GitLab.`
+1. `The mentorship program was transformative for me. I plan to move towards leadership positions and I received the feedback that I need to improve my communication skills. This program helped me to uplevel my "communicating up" skill through real-life examples shared by my mentor and by discussing specific topics I faced during the programme. I feel confident now about communicating with executives and preparing documents for such discussions. I strongly recommend the program to everyone who wants to grow at GitLab.`
 1. `Mentorship program is a great way to connect with the team members within GitLab who are expert leaders, it is a always nice to have a communication with them knowing that there is no prejudice or preconceived notion. You are free to talk to your mentor, be more collaborative, make a strategy around what works best for you to grow in the field that you are in, build more interpersonal skills and develop more leadership qualities. I loved this program and I am grateful for my mentor.`
 1. `Participating in this mentorship program was highly valuable for me. As a first year GitLab Team Member, establishing a connection with someone outside of my organization was truly helpful. At face value, the networking aspect allowed me to gain valuable insights into my team dynamic. But truthfully, the real impact was that my mentor fostered an environment of empowerment and encouragement. He provided validation and a sounding board for my concerns, as well as offered solutions whenever possible. I looked forward to our conversations every other week because I knew it was a safe space where I could be heard.`
 1. `I was paired with a Front-end Engineer. I am not a developer, but wanted to learn the product and he encouraged me to try and resolve an issue that would require coding. He found an easy issue and coached me through resolving it. It was super informative and gave me the skills to find and potentially resolve issues in the future.`
@@ -168,6 +167,4 @@ What mentors and mentees learned from the program:
 1. `Learned more about the intersection of XDR and sales teams.`
 1. `See every question or feedback as an opportunity to learn and grow.`
 1. `How engineers can help non-engineers be successful in the company.`
-1. `We don’t know everything. Don’t be afraid to say I don’t know.`
-
-
+1. `We don't know everything. Don't be afraid to say I don't know.`

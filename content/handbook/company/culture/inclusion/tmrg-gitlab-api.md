@@ -18,7 +18,7 @@ The API TMRG provides a safe space for every GitLab team member to better unders
 
 ## Mission
 
-“To promote the advancement, cultural awareness, talent recruitment, retention, and professional development for API individuals by giving a voice to the diverse backgrounds of the Asian and Pacific Islander communities within GitLab in order to ensure the GitLab messaging continues to reflect its core value of Diversity, Inclusion and Belonging.”
+"To promote the advancement, cultural awareness, talent recruitment, retention, and professional development for API individuals by giving a voice to the diverse backgrounds of the Asian and Pacific Islander communities within GitLab in order to ensure the GitLab messaging continues to reflect its core value of Diversity, Inclusion and Belonging."
 
 ## Leads
 
@@ -28,7 +28,7 @@ The API TMRG provides a safe space for every GitLab team member to better unders
 
 ## Executive Sponsors
 
-- [David Sakomoto](https://gitlab.com/dsakamoto)
+- [Nabitha Rao](https://gitlab.com/NabithaRao)
 
 ## How To Get Involved
 

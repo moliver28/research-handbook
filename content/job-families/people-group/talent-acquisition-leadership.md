@@ -1,8 +1,8 @@
 ---
 title: Talent Acquisition Leadership
 ---
- 
-## Levels
+
+### Levels
 
 #### Associate Recruiting Manager
 
@@ -163,7 +163,6 @@ The Senior Director, Talent Acquisition is a [grade 11](/handbook/total-rewards/
 - A team player who acts with a sense of urgency and adapts to a fast-paced and ever-changing environment
 - Resourceful and takes initiative to seek internal and external resources when problem solving
 - Have implemented talent acquisition tools while delivering internal OKRs
-
 
 ### VP, Talent Acquisition
 

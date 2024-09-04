@@ -16,15 +16,15 @@ The Customer Success Architect (CSA) team focuses on hands-on technical enableme
 | Role | Grade |
 | -- | - |
 | [Customer Success Architect](#customer-success-architect-csa-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Manager, Customer Success Architects](#manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Manager, Customer Success Architects](#senior-manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-
+| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Manager, Success Services](/job-families/sales/success-service-management/#manager-success-services) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Success Services](/job-families/sales/success-service-management/#senior-manager-success-services) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Director, Success Services](/job-families/sales/success-service-management/#director-success-services) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ### Customer Success Architect (CSA) (Intermediate)
 
-The CSA (Intermediate) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
+The CSA (Intermediate) reports to the [Manager/Senior Manager/Director, Success Services](/job-families/sales/success-service-management/).
 
 #### CSA (Intermediate) Job Grade
 
@@ -58,12 +58,12 @@ Strong team player but self-starter
 - Project management experience & skills
 - Strong technical, analytic, and problem-solving skills
 - Alignment with our values, and willingness to work in accordance with those values
-- Ability to travel if needed and comply with the company’s travel policy
+- Ability to travel if needed and comply with the company's travel policy
 - Demonstrated progressive experience in a related function is required with direct customer advocacy and engagement experience in post-sales or professional services functions
 
 ### Senior Customer Success Architect (CSA)
 
-The Senior CSA reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
+The Senior CSA reports to the [Manager/Senior Manager/Director, Success Services](/job-families/sales/success-service-management/).
 
 #### Senior CSA Job Grade
 
@@ -72,16 +72,18 @@ The Senior CSA is a job grade [level 7](/handbook/total-rewards/compensation/com
 #### Senior CSA Responsibilities
 
 Includes all responsibilities of the Intermediate Customer Success Architect (CSA) role and expands on that in the following ways:
+
 - Establish a trusted/strategic advisor relationship with each assigned customer and drive continued value of our solution and services
 - Assist and provide expert deployment, operational best practices, and establishing a GitLab Center of Excellence
 - Assist in workshops to help customers leverage the full value of GitLab solution
-- Measure and monitor customers’ achievement of critical and key performance indicators, reporting both internally to GitLab account stakeholders and externally to Customer Sponsors and Executives
+- Measure and monitor customers' achievement of critical and key performance indicators, reporting both internally to GitLab account stakeholders and externally to Customer Sponsors and Executives
 - Translate customer product usage data into actionable advice for customers
 - Establish regular touchpoints with assigned customers per the established SLAs, to review progress against strategic and technical objectives
 
 #### Senior CSA Requirements
 
 Meets the requirements of the Intermediate Customer Success Architect (CSA) role and the following requirements:
+
 - Understanding of Git and typical branching strategies
 - Knowledge of software development lifecycle and development pipeline
 - Understanding of continuous integration, continuous deployment, DevSecOps
@@ -90,7 +92,7 @@ Meets the requirements of the Intermediate Customer Success Architect (CSA) role
 
 Market Justification: The business need for an individual contributor Staff CSA role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSAs.
 
-The Staff CSA reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/).
+The Staff CSA reports to the [Manager/Senior Manager/Director, Success Services](/job-families/sales/success-service-management/).
 
 #### Staff CSA Job Grade
 
@@ -99,55 +101,24 @@ The Staff CSA is a job grade [level 9](/handbook/total-rewards/compensation/comp
 #### Staff CSA Responsibilities
 
 Includes all responsibilities of the Intermediate and Senior Customer Success Architect (CSA) roles and expands on that in the following ways:
+
 - Strategize on the overall objectives and long-range goals of the team
 - Provide mentorship for Associate and Intermediate CSMs to help them grow in their technical knowledge and provide premium customer experience
 - Work cross-departmentally to find solutions to complex scenarios and integration issues
 - Demonstrate leadership in new feature and technology adoption and teaching by providing regular enablement and solution overview sessions and documentation for customers and other GitLab team-members
 - Help drive team expertise and technical thought leadership
 - Maintain deep knowledge of the GitLab platform
-- Clearly communicate and drive adoption of complex technical solutions, with constant attention to promoting “boring solutions”
+- Clearly communicate and drive adoption of complex technical solutions, with constant attention to promoting "boring solutions"
 
 #### Staff CSA Requirements
 
 Meets the requirements of the Intermediate and Senior Customer Success Architect (CSA) roles and the following requirements:
+
 - Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
 - Strong knowledge of Customer Success best practices, with experience defining process and providing enablement programs to promote adoption in CS and across the company
 - Expert in GitLab usage and able to train others in its usage
 - Advanced knowledge of software development lifecycle and development pipeline
 - Advanced project management experience & skills
-
-### Manager, Customer Success Architects (CSA)
-
-The Manager, CSA, reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
-
-#### Manager, CSA Job Grade
-
-The Manager, CSA is a job grade [level 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Manager, CSA Responsibilities
-
-- [content to be added when the need for the role arises]
-
-#### Manager, CSA Requirements
-
-- [content to be added when the need for the role arises]
-
-### Senior Manager, Customer Success Architects (CSA)
-
-The Senior Manager, CSA reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
-
-#### Senior Manager, CSA Job Grade
-
-The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Senior Manager, CSA Responsibilities
-
-- [content to be added when the need for the role arises]
-
-#### Senior Manager, CSA Requirements
-
-- [content to be added when the need for the role arises]
-
 
 ## Specialties
 
@@ -160,6 +131,7 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 #### Public Sector CSA Requirements
 
 In addition to the corresponding Customer Success Architect level requirements:
+
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
@@ -170,7 +142,7 @@ In addition to the corresponding Customer Success Architect level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.  
+Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.
 
 ## Hiring Process
 
@@ -204,4 +176,3 @@ The panel interview consists of several members of the Customer Success team. It
 Once the candidate has successfully completed all interview stages with positive recommendations at each stage, GitLab will complete [reference checks](/handbook/hiring/interviewing/#reference-check-process) and a [background check](/handbook/hiring/interviewing/#background-checks).
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/interviewing/).
-

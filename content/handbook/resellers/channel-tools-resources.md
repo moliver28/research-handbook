@@ -1,23 +1,14 @@
 ---
-
 title: "Channel Partner Tools and Resources"
 description: "Channel Partner tools and resources to help grow your GitLab business."
 ---
 
-GitLab Channel Partners are the primary audience for this Handbook page.
-
-
-
-
-
-
-# Channel Partner Tools and Resources
-  
 **We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
 ## **GitLab Partner Portal**
 
 Partners are given access to our [Partner Portal](https://partners.gitlab.com) when they are onboarded. This serves as the primary source of information and transactions for our Partners. The GitLab Partner Portal has the following capabilities:
+
 - Partner registration and account management
 - Deal registration and opportunity management
 - Training accreditation and other learning
@@ -38,7 +29,7 @@ GitLab Channel Partners need a landing page with information about GitLab as par
 
 - Your organization's GitLab webpage should use the Authorized Reseller logo (available on the Partner Portal) and link back to us at [about.gitlab.com](https://about.gitlab.com/).
 
-- Your webpage should include a “What Is GitLab?” paragraph which can be found in our [press kit](https://about.gitlab.com/press/press-kit/) along with our logo. You can find additional information in our [reseller marketing kit](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/reseller-kit/).
+- Your webpage should include a "What Is GitLab?" paragraph which can be found in our [press kit](https://about.gitlab.com/press/press-kit/) along with our logo. You can find additional information in our [reseller marketing kit](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/reseller-kit/).
 
 - To ensure you are consistently representing our product on your website, we ask that wherever you mention the GitLab product or features, there should be a link back to the corresponding item on [about.gitlab.com](https://about.gitlab.com/).
 
@@ -89,7 +80,7 @@ Select Partners may be eligible for [Marketing Development Funds, or MDF,](/hand
 
 #### Requesting Marketing Development Funds
 
-Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/Channel-Program-Guide/MDF/) page or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
+Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/Channel-Program-Guide/MDF/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
 
 ### **GitLab Branded Item Requests**
 
@@ -109,11 +100,12 @@ GitLab uses the Partner Portal, and our News on Demand Platform to communicate w
 
 - **Not receiving communications?** Typically a person has opted out. Contact the Partner Help Desk, and we can add you back in. Partners can access archived articles by accessing the News tab at the top of the portal.
 
-- **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](https://about.gitlab.com/handbook/).
+- **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](/handbook/).
 
 ## **More Channel Partner Program Information**
 
 If you are looking for additional information on the GitLab Partner program see the following handbook pages.
+
 - [Channel Partner Program Overview](/handbook/resellers/)
 - [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/)
 - [Channel Services Program](/handbook/resellers/services/)

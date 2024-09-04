@@ -1,26 +1,19 @@
 ---
-
 title: "Using Gainsight as a CSM"
 description: "The key aspects of how Customer Success Managers use Gainsight to drive success for customers."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
 ## Gainsight for Customer Success Managers
 
-CSMs use Gainsight for a multitude of purposes, including logging their customer calls, updating their call-to-actions (CTAs), updating success plans, and gaining insights on their customer’s product usage data.
+CSMs use Gainsight for a multitude of purposes, including logging their customer calls, updating their call-to-actions (CTAs), updating success plans, and gaining insights on their customer's product usage data.
 
 One of our CSMs created an [8 minute video](https://youtu.be/yk95b6u26So) (internal-only) of her workflow and how she integrates Gainsight into her day to day tasks to reduce the lift and ensure her accounts stay up to date.
 
 The table below represents the steps a CSM would typically take in Gainsight. Please reference each handbook page for further information.
 
-#### Overview
+### Overview
 
 - [Using Gainsight at GitLab](/handbook/sales/gainsight/)
 - [Gainsight Dashboards](/handbook/customer-success/csm/gainsight/dashboards-overview)
@@ -105,6 +98,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 #### Video enablement
 
 The videos listed here are internal to GitLab only. You will need to be logged in to the "GitLab Unfiltered" YouTube channel to access them.
+
 - [Gainsight Overview and Demo](https://youtu.be/6NuyNSNipgc)
 - [Gainsight Foundations](https://education.gainsight.com/gainsight-foundations-nxt-fka-101)
 - [Gainsight Enablement 1](https://youtu.be/PL9shBdCMmo): health score, call logging, and creating a success plan
@@ -119,7 +113,6 @@ The videos listed here are internal to GitLab only. You will need to be logged i
 - [License Usage in Gainsight](https://youtu.be/ZqpmxoUy6EE)
 - [Product Usage Data - Overview](https://youtu.be/5_J9Kfbu5JA)
 - [At Risk Customer Video](https://www.youtube.com/watch?v=MQqfL3WT1zo)
-
 
 ### Sally the Slack bot
 
@@ -172,4 +165,3 @@ To add customer contacts to an account, you can add them in either Salesforce or
 1. When we send emails to contacts (monthly release, marketing, etc.), the contact needs to be loaded into Gainsight.
 1. To share a Success Plan, they need to be a contact in Gainsight.
 1. Sponsor Tracking component requires the contact to be in Gainsight.
-

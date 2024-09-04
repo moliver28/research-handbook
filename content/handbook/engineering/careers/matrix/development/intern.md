@@ -27,4 +27,3 @@ title: "Development Department Career Framework: Intern"
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-intern-values-competency.md" %}}
-

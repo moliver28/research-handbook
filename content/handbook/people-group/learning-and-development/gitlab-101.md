@@ -1,5 +1,4 @@
 ---
-
 title: GitLab 101
 ---
 
@@ -8,7 +7,6 @@ Welcome to the GitLab 101 page! Here you will find some basic info on how to use
 ### Who can benefit from this 101 training?
 
 Everyone at GitLab needs to know how to use GitLab and be technical to some level. This training is geared toward GitLab team members who are in non-engineering roles (i.e. talent acquisition, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
-
 
 ## Objectives
 
@@ -31,7 +29,7 @@ This will make more sense once you understand all of the terminology.
 1. Board
    1. **Definition:** make it possible to visualize and manage lists of issues which can be defined by one of three ways: Labels, Team members, and Milestones.
 1. Branch
-   1. **Definition:** a version of a project’s working tree. You create a branch for each set of related changes you make. This keeps each set of changes separate from each other, allowing changes to be made in parallel, without affecting each other.
+   1. **Definition:** a version of a project's working tree. You create a branch for each set of related changes you make. This keeps each set of changes separate from each other, allowing changes to be made in parallel, without affecting each other.
 1. Commit
    1. **Definition:** a change, or set of changes, to one or more files in the source code on a given Git branch. A commit allows you to mark the project in its current state as a kind of snapshot in time.
    1. **Example:** This is a [commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/e539128d235c084199047788d121141777a7fe2c).
@@ -39,19 +37,19 @@ This will make more sense once you understand all of the terminology.
    1. **Definition:** is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
 1. Epic
    1. **Definition:** provides a way to organize and manage a set of issues and sub-epics that share the same theme.
-   1. **Example:** This is an [epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/15).
+   1. **Example:** This is an [epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/15) (internal).
 1. Git
    1. **Definition:** is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 1. Groups
-   1. **Definition:** are used to manage one or more related projects at the same time. You can use groups to manage permissions for your projects. If someone has access to the group (it’s a member of the group), they get access to all the projects, issues, and merge requests  in the group.
+   1. **Definition:** are used to manage one or more related projects at the same time. You can use groups to manage permissions for your projects. If someone has access to the group (it's a member of the group), they get access to all the projects, issues, and merge requests  in the group.
    1. **Example:** This is a [group](https://gitlab.com/gitlab-com).
 1. Handbook-first approach
-   1. **Definition:** it’s a process that describes documenting in the handbook before taking an action, without using other forms of communication. This ensures no duplication and having the Handbook up to date.
+   1. **Definition:** it's a process that describes documenting in the handbook before taking an action, without using other forms of communication. This ensures no duplication and having the Handbook up to date.
 1. Issue
    1. **Definition:** the fundamental medium for collaborating on ideas and planning work in GitLab
-   1. **Example:** This is an [Issue](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training/-/issues/1).
+   1. **Example:** This is an [Issue](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training/-/issues/1) (internal).
 1. Labels
-   1. **Definition:** They help you organize and tag your work so you can track and find the work items you’re interested in. You can use descriptive titles like bug, feature request, or docs, as well as customizable colors.
+   1. **Definition:** They help you organize and tag your work so you can track and find the work items you're interested in. You can use descriptive titles like bug, feature request, or docs, as well as customizable colors.
    1. **More information on:** [labels](https://docs.gitlab.com/ee/user/project/labels.html).
 1. Local
    1. **Definition:** your machine. You can also use GitLab locally, on your machine, not just in the browser.
@@ -115,7 +113,7 @@ To open a GitLab issue:
 1. In the Description add any relevant information
 1. Click the "preview" button at the top of the issue box to preview your issue and make sure you have formatted everything correctly
 1. Decide whether the issue needs to be confidential or not
-   1. **How do you know if your issue should be confidential or not?** [Transparency]({{< ref "values#transparency" >}}) is one of our values so we try to be open about as many things as possible. Only use confidential issues, if the issue must contain [non-public information]({{< ref "confidentiality-levels#not-public" >}}).
+   1. **How do you know if your issue should be confidential or not?** [Transparency](/handbook/values/#transparency) is one of our values so we try to be open about as many things as possible. Only use confidential issues, if the issue must contain [non-public information]({{< ref "confidentiality-levels#not-public" >}}).
 1. Assign the issue to the relevant person (that might be you!)
 1. If relevant: assign a milestone
 1. If relevant: add a label (or multiple)
@@ -150,9 +148,8 @@ To comment on a GitLab issue:
 
 1. Open the issue that you want to comment on
 1. If there are other comments, scroll to the bottom and add your comment there
-1. It is also possible that you may want to reply to someone's comment that is already on the issue. To do this, you will click the speech balloon on their comment (when you hover over it it will say "reply to comment") and it will add a box for you to type your reply.
+1. It is also possible that you may want to reply to someone's comment that is already on the issue. To do this, you will click the speech balloon on their comment (when you hover over it, it will say "reply to comment") and it will add a box for you to type your reply.
 1. When you are done typing your comment, click the green "Comment" button to add it to the issue
-
 
 ### How to search for a GitLab Issue
 
@@ -193,7 +190,7 @@ As you learned in the technical terminology portion, a GitLab Merge Request (MR)
 
 ### How to create a GitLab Merge Request (i.e. How to make an update to the handbook)
 
-Follow the instructions to [Edit the Handbook](/handbook/editing-handbook/) which include creating a merge request to commit an edit.
+Follow the instructions to [Edit the Handbook](/handbook/about/editing-handbook/) which include creating a merge request to commit an edit.
 
 #### Video: How to create a GitLab Merge Request (~20 minutes)
 
@@ -208,5 +205,5 @@ You can search for a GitLab Merge Request in the same way as you search for a Gi
 1. Who can merge your Merge Request (MR)? - your manager should have the ability to merge (i.e. [maintainer access](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)). If they don't have the ability to merge, they will know who you can assign it to for review/merging.
 1. If you assign your MR to someone who isn't a Maintainer, there will be a yellow triangle with an exclamation point by their picture.
 1. Soft Wrap - when you are editing your MR, you can either select soft wrap or no wrap. If you select "soft wrap" you will be able to see all of the text in one screen. If you select "no wrap" (which is the default) you will have to scroll to the right if the text on the line is wider than the page.
-1. Squash Commits - when obtaining a merge request, there is an option to enable or disable [“Squash commits when merge request is accepted”](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html). If enabled, it combines all your merge request’s commits into one and retain a clean history.
-1. Delete Branch - when creating or editing your merge request, you can also select the [“Delete source branch when merge request accepted”](https://docs.gitlab.com/ee/user/project/merge_requests/#delete-the-source-branch-on-merge-by-default) option.
+1. Squash Commits - when obtaining a merge request, there is an option to enable or disable ["Squash commits when merge request is accepted"](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html). If enabled, it combines all your merge request's commits into one and retain a clean history.
+1. Delete Branch - when creating or editing your merge request, you can also select the ["Delete source branch when merge request accepted"](https://docs.gitlab.com/ee/user/project/merge_requests/#delete-the-source-branch-on-merge-by-default) option.

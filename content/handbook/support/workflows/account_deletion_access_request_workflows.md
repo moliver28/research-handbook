@@ -287,6 +287,7 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 
 1. Add the `Awaiting::Challenge Answers` label, and wait for the requestor to reply.
    1. If no response is received after 10 calendar days, apply the `Account Verification Failed` and `deletion request::denied` labels to the issue, and close it using the following snippet:
+
 <details>
   <summary markdown="span">Request Closed - No Response (Account Deletion - Deceased User) </summary>
 
@@ -341,8 +342,17 @@ Use this workflow for requests to delete user data from the Portal (customers.gi
 
 Use this workflow for requests to delete user data from Sales or Marketing systems.
 
+1. No confirmation or verification is required for this request type under data privacy laws. Unless the user responds back in the issue that they did not submit the request, proceed with the workflow.
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Marketing](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Marketing) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
+1. Let the requester know the deletion process is complete by leaving a comment on the original issue with the following snippet. 
+
+<details>
+  <summary markdown="spam">Request Closed - Deletion Complete</summary>
+  <p>Greetings,</p>
+  <p>Your request to delete your data has been completed.</p>
+  <p>Regards,</p>
+</details>
 
 ### **Data Access Requests**
 
@@ -372,29 +382,32 @@ Use the following workflows based on the type of request submitted.
 
   <p>Greetings,</p>
 
-  <p>You've opened a Data Access Request which is used specifically to obtain a copy of any personal data GitLab holds on you. In the course of filing this request, you've asked for data beyond the scope of what can be provided.
+  <p>You've opened a Data Access Request which is used specifically to obtain a copy of any personal data GitLab holds on you. In the course of filing this request, you've asked for data beyond the scope of what can be provided.</p>
 
-  Usage and other out-of-scope account data can be obtained by logging into your GitLab.com account and cannot be provided through a Data Access Request. If you have specific questions about this kind of data, please review your options for support at https://about.gitlab.com/support.
+  <p>Usage and other out-of-scope account data can be obtained by logging into your GitLab.com account and cannot be provided through a Data Access Request. If you have specific questions about this kind of data, please review your options for support at https://about.gitlab.com/support.</p>
 
-  Regarding this request, we can:
+  <p>Regarding this request, we can:</p>
 
-  - continue the process and provide a report of all in-scope personal data.
-  - close this request with no further action
+  <ul>
+  <li>continue the process and provide a report of all in-scope personal data.</li>
+  <li>close this request with no further action.</li>
+  </ul>
 
-  Please let us know how you would like to proceed. </p>
+  <p>Please let us know how you would like to proceed. </p>
 
   <p>Regards,</p>
-</details>
 
+</details>
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
 
 ### **Data Export Requests (Right to Portability)**
 
-Use this workflow for data export request submissions. Note that we can only action on this if the request is for personal namespace projects, or projects in groups where the user is the *only* member. You can visit the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel if you have any questions.
+Use this workflow for data export request submissions. Note that we can only action on this if the request is for personal namespace projects, or projects in groups where the user is the *only* member. This workflow cannot be completed if the request indicates the user's country is Cuba, Iran, North Korea, Syria, Russia, Belaru or the Crimea, Donetsk or Luhanks regions of Ukraine as these are embargoed countries and we are not permitted under Trade Compliance laws to engage with individuals in those locations. You can visit the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel if you have any questions.
 
 1. The user will receive an auto-response directing them to [the project export steps for self-serve](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data). Keep this issue opened for 7 days and close after that time if there are no further updates. Apply the `Export Request::self-serve` label.
+1. If the user is located in an embargoed country they will receive an auto-response informing them that GitLab is unable to fulfill their request and the Issue will be auto-closed
 1. If the user runs into any issues using the self-serve steps, they can reply to the auto-response with more details about the error they are receiving. If they reply *after* the issue has been closed, re-open the issue.
 1. Before we continue to assist, we must validate their identity. Manually send the customer the [Verification Challenge questions](https://internal.gitlab.com/handbook/support/#account-verification-challenge-questions) through the issue. Users have a total of **7 calendar days** to respond to the challenge questions.
 1. Follow the same steps we use for account deletion requests to validate their account:

@@ -1,13 +1,6 @@
 ---
-
 title: Low-Code / No-Code Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Low-Code / No-Code Single-Engineer Group
 
@@ -16,6 +9,7 @@ The LCNC SEG is a [Single-Engineer Group](/handbook/company/structure/#single-en
 Low-code and no-code are [two distinct concepts](https://lowcode.com/articles/low-code-vs--no-code--the-differences--similarities--and-how-to-.html) that target different personas and require separate product strategies. This page presents low-code and no-code work streams in two sections.
 
 ### Latest video
+
 <figure class="video_container">
     <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KrvsoO39e_NFtFMTIYgSJ7t" frameborder="0" allowfullscreen></iframe>
 </figure>
@@ -24,11 +18,11 @@ Low-code and no-code are [two distinct concepts](https://lowcode.com/articles/lo
 
 | Date       | Summary                                                                                                                                          | Video                                                                          |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2023-02-01 | [Showcase #1](https://docs.google.com/presentation/d/1uU7wEd0E0hOxdK-TfR1a3OmzNOHHkzRnQ84hiTcIejQ/)                                              | [https://youtu.be/7RQreQQk1NY](https://youtu.be/7RQreQQk1NY){:target="_blank"} |
-| 2022-12-17 | [Visual Workflow Builder POC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/25)                            | [https://youtu.be/DI-IcY6vm6g](https://youtu.be/DI-IcY6vm6g){:target="_blank"} |
-| 2022-11-28 | [Automation UX POC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/24)                                      | [https://youtu.be/w-dGDBlIr0Y](https://youtu.be/w-dGDBlIr0Y){:target="_blank"} |
-| 2022-10-31 | [Workflow Automation MVC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/23)                                | [https://youtu.be/L_pvpjtYdLk](https://youtu.be/L_pvpjtYdLk){:target="_blank"} |
-| 2022-10-24 | [Introduce low-code/no-code SEG](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/22)                         | [https://youtu.be/r3Ib00Z5Dj0](https://youtu.be/r3Ib00Z5Dj0){:target="_blank"} |
+| 2023-02-01 | [Showcase #1](https://docs.google.com/presentation/d/1uU7wEd0E0hOxdK-TfR1a3OmzNOHHkzRnQ84hiTcIejQ/)                                              | [https://youtu.be/7RQreQQk1NY](https://youtu.be/7RQreQQk1NY) |
+| 2022-12-17 | [Visual Workflow Builder POC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/25)                            | [https://youtu.be/DI-IcY6vm6g](https://youtu.be/DI-IcY6vm6g) |
+| 2022-11-28 | [Automation UX POC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/24)                                      | [https://youtu.be/w-dGDBlIr0Y](https://youtu.be/w-dGDBlIr0Y) |
+| 2022-10-31 | [Workflow Automation MVC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/23)                                | [https://youtu.be/L_pvpjtYdLk](https://youtu.be/L_pvpjtYdLk) |
+| 2022-10-24 | [Introduce low-code/no-code SEG](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/22)                         | [https://youtu.be/r3Ib00Z5Dj0](https://youtu.be/r3Ib00Z5Dj0) |
 
 ### No-code (current focus)
 
@@ -62,6 +56,7 @@ Given the current focus on the project management automation, the [Project Manag
 #### Problem Statement
 
 Gartner predicts by 2024, 75% of software solutions will be delivered with some help of low-code tools. While developers appreciate the efficiency gain, they also share several concerns with room for improvement. For example:
+
 - Overwhelmed by the number of competing solutions and their interoperability.
 - Worried about vendor lock-in.
 - Concerned about the lack of version control, CI/CD and other fundamental DevOps capabilities.

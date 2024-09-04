@@ -4,14 +4,14 @@ description: "Incubation Engineers are experienced Full Stack Software Engineers
 canonical_path: "/job-families/engineering/incubation/engineer/"
 ---
 
-Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/maturity/#legend) level of maturity of their respective area within the GitLab project.
+Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/#maturity) level of maturity of their respective area within the GitLab project.
 
 Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/incubation/).
 
 ### Responsibilities
 
 - Develop features and improvements in a secure, well-tested, and performant way
-- Work closely with company leadership to guide GitLab’s entry into the market represented by the SEG
+- Work closely with company leadership to guide GitLab's entry into the market represented by the SEG
 - Interact with community members and help drive initial user adoption
 - Develop strategies for scaling beyond the Incubation phase
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
@@ -20,8 +20,8 @@ Incubation Engineers work within the [Incubation Engineering Department](/handbo
 
 ### Requirements
 
-- Good technical skills - Ability to work across backend and frontend.  Experience with Ruby, Go, or Vue.js are particularly relevant given GitLab’s current tech stack.
-- Desire to work in a “startup within a startup” with a broad scope of ownership and high degree of autonomy.
+- Good technical skills - Ability to work across backend and frontend.  Experience with Ruby, Go, or Vue.js are particularly relevant given GitLab's current tech stack.
+- Desire to work in a "startup within a startup" with a broad scope of ownership and high degree of autonomy.
 - Demonstrated interest and experience in the subject matter.
 - They must be excited about the ability to work independently, or have prior success in a similar model.
 - Understand the competitive landscape and market opportunities in their area.
@@ -97,4 +97,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Next you will meet a Product Manager
 - The Final interview is with a senior member of the Incubation Engineering Department
 
-Additional details about our process can be found on our [hiring page](https://about.gitlab.com/handbook/hiring)
+Additional details about our process can be found on our [hiring page](/handbook/hiring)

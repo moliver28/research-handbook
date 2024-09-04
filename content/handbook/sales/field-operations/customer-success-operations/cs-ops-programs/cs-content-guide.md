@@ -1,18 +1,8 @@
 ---
-
 title: "Customer Programs Content & Style Guide"
 description: "Style and content guide information for Digital Customer Programs."
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
-
-
 
 ## CS Ops Content Guide
 
@@ -41,12 +31,12 @@ You may be asked to perform a review of current or new content. This review shou
 <details>
 <summary markdown='span'>SME review guidelines</summary>
 <br>
-As a subject matter expert (SME) reviewer, you’ll be asked to review content for technical accuracy and completeness.
+As a subject matter expert (SME) reviewer, you'll be asked to review content for technical accuracy and completeness.
 
 ### The review process
 
 1. A draft version of a Google Doc may be provided to you, or you may be asked to review an MR for the content.
-1. You’ll have a set amount of time to review the document and add comments to it with any suggestions, corrections, or additions. *If, for any reason, you can’t complete the review, please comment in the issue*.
+1. You'll have a set amount of time to review the document and add comments to it with any suggestions, corrections, or additions. *If, for any reason, you can't complete the review, please comment in the issue*.
 1. When your review is complete, comment in the issue.
 1. The content requester and writer will complete a final review after all other reviews are complete.
 
@@ -54,13 +44,13 @@ When reviewing, please keep the following in mind:
 
 - Typos and grammatical errors are likely to be present. We fix these documents once all revisions have been made.
 - We use the [GitLab Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) for emails to retain consistency with the Handbook and other GitLab communications.
-- Additions are always welcome! If there’s something that should be in a document, please add it.
-- Don’t be afraid to request a removal of information in the document. If it doesn’t belong there, let us know.
+- Additions are always welcome! If there's something that should be in a document, please add it.
+- Don't be afraid to request a removal of information in the document. If it doesn't belong there, let us know.
 - We try to keep our content brief. The content we create has to toe a line between persuasive, like a sales or marketing piece, and educational, which is concise.
 
 ### What to look for
 
-- Is the What’s In It For Me (WIIFM) clearly stated? As a SME, you have a good idea of why this product or feature is important to a customer. Are we clearly communicating that? Consider why a customer may not know what this can do for them, and how you’d address that.
+- Is the What's In It For Me (WIIFM) clearly stated? As a SME, you have a good idea of why this product or feature is important to a customer. Are we clearly communicating that? Consider why a customer may not know what this can do for them, and how you'd address that.
 - Is the information presented technically correct?
 - Is each step, if applicable, correct, in the right order, and results as expected?
 - Are any terms used incorrect or outdated?
@@ -79,7 +69,7 @@ Our email programs go to many different customers, including paid and free, self
 
 ### Style
 
-We use the [Handbook Style Guide](/handbook/style-guide/) as our base. This covers things like punctuation, capitalization, and branding. For example, whether we use contractions or not, and how to capitalize brand names.
+We use the [Handbook Style Guide](/handbook/about/style-guide/) as our base. This covers things like punctuation, capitalization, and branding. For example, whether we use contractions or not, and how to capitalize brand names.
 
 We also use the [Pajamas Design System](https://design.gitlab.com/brand/overview) to guide our own brand principles and tone.
 
@@ -135,5 +125,3 @@ We can send email to the following regions:
 - EMEA
 
 Email programs can be set to send to any region at a locally relative time.
-
-

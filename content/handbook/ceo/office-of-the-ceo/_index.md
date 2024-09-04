@@ -1,14 +1,11 @@
 ---
 title: "Office of the CEO"
-description: "Details about Office of the CEO at GitLab"
-aliases: 
-- /handbook/ceo/office-of-the-ceo/
-- /handbook/ceo/chief-of-staff-team/
+description: "Details about Office of the CEO (OCEO) at GitLab"
 ---
 
 ## Office of the CEO Overview
 
-GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
+GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) (OCEO for short) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
 
 ## Team Mission
 
@@ -22,7 +19,7 @@ The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 1. [Strategy and Operations team members](job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
 1. [EBAs](/handbook/eba/) to the CEO: EBAs who support the CEO and the Chief of Staff to the CEO.
 
-When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](https://handbook.gitlab.com/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](https://handbook.gitlab.com/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
+When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
 
 ## Kinds of projects Strategy and Operations team members work on {#what-projects-does-the-cost-work-on}
 
@@ -37,7 +34,6 @@ The Chief of Staff to the CEO and their team may work on projects that fit *any 
 1. projects that are so broad that they can't live within a function but are too much work for the CEO or Chief of Staff to the CEO
 1. projects that are important to the CEO
 
-
 This is not an exhaustive list of the types of work the Office of the CEO might do.
 
 #### Many Functional
@@ -48,6 +44,7 @@ In many cases, a member of the Office of the CEO will be the [directly responsib
 Whether it's a product feature proposal, a new initiative roll-out, or questions from the board, the Office of the CEO is the group that can be trusted to get things done, get them done quickly, and get them done right.
 
 Examples of a cross-functional project:
+
 - Helping shepherd KPI and/or OKR progress
 - Helping to launch a foreign entity
 - Supporting pricing and packaging change initiatives
@@ -63,6 +60,7 @@ A member of the Office of the CEO might help source candidates for a strategic h
 The team helps with work that other teams may not have the bandwidth to do but is important to the organization and/or the CEO.
 
 Examples of an under-resourced project:
+
 - Creating materials for a keynote the CEO will deliver in a rushed timeline
 - Supporting planning for a global conference
 - Supporting launch of a new SKU
@@ -72,7 +70,7 @@ Examples of an under-resourced project:
 There may be projects with no clear leader for a myriad of reasons, including that we're still hiring the point person or the lead is on leave.
 Because of the team's ability to come up to speed quickly, they may be tasked with something totally out of their domain with the expectation that they bring their leadership experience to the table, will do the work to make good decisions, and will lean on team members who are subject-matter experts.
 
-For example, there has historically been no DRI for the [handbook or related content sites]({{< ref content-websites >}}). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership.
+For example, there has historically been no DRI for the [handbook or related content sites](/handbook/about/maintenance/). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership until an owner could be identified.
 
 Examples of projects with no clear leader:
 
@@ -102,14 +100,14 @@ Examples of tasks or initiatives that are important to the CEO:
 - Values updates
 - Preparing for calls
 - Special projects. These have included:
-    - Operationalizing charitable donations
-    - Supporting updates to GitLab's expense policy
-    - Quantifying the value of transparency
-    - Auditing training resources and creating an accessible source of truth
-    - Calculating GitLab's carbon emissions and leading a first iteration of a carbon reduction initiative
-    - Identifying the underlying reasons for why we didn't meet targets for a core GTM KPI and identifying optimizations
-    - Supporting an initiative to increase customer CI adoption
-    - Serving as the DRI for the [SaaS free user initiative](https://docs.gitlab.com/ee/user/free_user_limit.html#:~:text=A%20five%2Duser%20limit%20applies,applied%20on%20June%2013%2C%202023)
+  - Operationalizing charitable donations
+  - Supporting updates to GitLab's expense policy
+  - Quantifying the value of transparency
+  - Auditing training resources and creating an accessible source of truth
+  - Calculating GitLab's carbon emissions and leading a first iteration of a carbon reduction initiative
+  - Identifying the underlying reasons for why we didn't meet targets for a core GTM KPI and identifying optimizations
+  - Supporting an initiative to increase customer CI adoption
+  - Serving as the DRI for the [SaaS free user initiative](https://docs.gitlab.com/ee/user/free_user_limit.html#:~:text=A%20five%2Duser%20limit%20applies,applied%20on%20June%2013%2C%202023)
 
 ## How to Work
 
@@ -199,6 +197,7 @@ In addition, the CoS to the CEO is responsible for preparing the CEO for offsite
 In Q1 of a new fiscal year, the Chairperson of the Compensation Committee conducts the annual CEO Evaluation. The Chairperson meets with all members of GitLab's Board and E-Group for their feedback on the CEO's performance over the past Fiscal Year. The Chairperson meets with the CEO for their self-assessment at the beginning of the evaluation cycle.
 
 The CEO's self-assessment is centered on three main areas
+
 1. Areas of Notable Success
 1. Areas of Disappointment
 1. Areas for Improvement and Focus in the next fiscal year
@@ -221,7 +220,7 @@ The CoS to the CEO enables and manages this group.
 
 ## Maintaining the Mitigating Concerns
 
-We outline our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/) in the handbook.
+We outline our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/) in the handbook.
 The CoS to the CEO is responsible for maintaining this list.
 There is an issue to also [add DRIs and review the mitigations](https://gitlab.com/gitlab-com/cos-team/-/issues/20).
 
@@ -243,10 +242,10 @@ At the start of each new fiscal year, we have a meeting cleanup day to encourage
 With the goals of increasing efficiency and looking at how to make recurring meetings more productive, this practice acts as a reminder to:
 
 1. Cancel meetings or change the frequency if you feel that the current cadence does not add sufficient value
-2. Discuss removing yourself as an attendee with the meeting owner if you don’t feel that you are contributing or supporting business results through participation
+2. Discuss removing yourself as an attendee with the meeting owner if you don't feel that you are contributing or supporting business results through participation
 3. Ask other team members to reexamine how existing meetings are managed
 
-If you’re looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
+If you're looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
 ```
 
 When cancelling a meeting, a team member can copy and paste this message to send to attendees:
@@ -260,11 +259,11 @@ If you are a team member who intends to decline a meeting, the [asynchronous com
 
 Meeting Cleanup Day is intentionally near the start of the new fiscal year. The Office of the CEO will launch this initiative annually a week in advance through posting in the `#whats-happening-at-gitlab` Slack channel, and by re-posting a reminder at 00:00 UTC on cleanup day. Office of the CEO (or CoS) will repost in the `#managers` channel for visibility.
 
-## Program managing [JiHu](https://about.gitlab.com/pricing/faq-jihu/)
+## Program managing JiHu
 
-A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
+A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with [JiHu](https://about.gitlab.com/pricing/faq-jihu/). Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
-For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu] (https://about.gitlab.com/pricing/faq-jihu/#customer-details):
+For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu](https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 
 1. After the Customer's request of novation from GitLab to JiHu is approved, the member of the Office of the CEO opens a new issue as soon as the contract is issued, and assigns the issue to GitLab Accounting department.
 1. This issue triggers the Accounting development to update SFDC, Zuora and NS.
@@ -286,18 +285,18 @@ We are evaluating different ways to measure our success as a team. These include
 
 ## Chief of Staff Shadow
 
-The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the `#ceo-chief-of-staff-team` Slack channel. The CoS to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
+The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Depending on the projec or initiative, the team member may spend most of their time with an Office of the CEO team member instead.
 
-Once a project or initiative to Shadow has been identified and the team member decides to participate, the team member should open a merge request to add their name to the below table. The MR should be shared through slack in the `#ceo-chief-of-staff-team` channel for review and merge.
+Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the `#ceo-chief-of-staff-team` Slack channel. The CoS to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
 
-|  Start Date | End Date | First & Last Name | GitLab Handle |
-| --- | --- | --- | --- |
-|2020-05-23|2020-08-21  | Mike Miranda | @mmiranda |
-|2020-08-31|2021-07-18  | Jerome Ng | @jeromezng |
-|2021-06-02 | 2021-09-01 | Samantha Lee  | @slee24  |
-| 2023-03-06 | 2023-11-01 | Cynthia "Arty" Ng | @cynthia |
-|   |  |  |  |
-|   |  |  |  |
+Once a project or initiative to Shadow has been identified and the team member decides to participate, the team member should open a merge request to add their name to the below table. The MR should be shared through Slack in the `#ceo-chief-of-staff-team` channel for review and merge. Optionally, the team member can make use of the [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) as a framework to guide the Shadow period.
+
+| Start Date | End Date   | First & Last Name | GitLab Handle | Project/Initiative |
+| ---------- | ---------- | ----------------- | ------------- | ------------------ |
+| 2020-05-23 | 2020-08-21 | Mike Miranda      | @mmiranda     |  |
+| 2020-08-31 | 2021-07-18 | Jerome Ng         | @jeromezng    | JiHu |
+| 2021-06-02 | 2021-09-01 | Samantha Lee      | @slee24       | Shadow Michelle Lee |
+| 2023-03-06 | 2023-11-01 | Cynthia "Arty" Ng | @cynthia      | [TeamOps](https://gitlab.com/gitlab-com/people-group/Training/-/issues/2178) and [OKRs](https://gitlab.com/gitlab-com/people-group/Training/-/issues/2249) (internal links) |
 
 ### Important things to note
 
@@ -308,7 +307,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 
 ## Quick Links and Fun Facts
 
-- [Chief of Staff to the CEO Job Family]({{< ref chief-of-staff >}})
+- [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
 - [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
 - [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
 - [Performance Indicators]({{< ref performance-indicators >}})
@@ -332,4 +331,3 @@ As of 2023-08 there's no automatic syncing between these groups so Office of the
 #### GitLab Project
 
 The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team). Please file issues here as needed to track work being done.
-

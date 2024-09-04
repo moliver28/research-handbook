@@ -1,104 +1,117 @@
 ---
 title: "Engineering Productivity team"
-description: "The Engineering Productivity team increases productivity of GitLab team members and contributors by shortening feedback loops and improving workflow efficiency for GitLab projects."
+description: "The Engineering Productivity team maximizes the value and throughput of Product Development teams and wider community contributors by improving the developer experience, streamlining the product development processes, and keeping projects secure, compliant, and easy to work on for everyone."
 ---
 
 ## Mission
 
-- Constantly improve efficiency for our entire engineering team, to ultimately increase value for our customer.
+- Constantly improve efficiency for our entire engineering and product teams to increase customer value.
 - Measure what matters: quality of life, efficiency, and toil reduction improvements with quantitative and qualitative measures.
-- Build partnerships across organizational boundaries to deliver broad efficiency improvements.
+- Build partnerships across organizational boundaries to deliver maintainability and efficiency improvements for all stakeholders.
 
-## Team
+## Vision
 
-### Members
+The Engineering Productivity team's vision is to focus on the satisfaction of the Product Development teams and wider community contributors while keeping GitLab projects
+secure, compliant, and easy to work on.
 
-| Team Members                                     | Role                                                |
-|------------------------------------------------- | --------------------------------------------------  |
-| {{< member-by-name "Ethan Guo" >}}               | Acting Engineering Manager                          |
-| {{< member-by-name "Alina Mihaila" >}}           | Senior Backend Engineer, Engineering Productivity   |
-| {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
-| {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
-| {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
-| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
-| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
-| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
+Integral parts of this vision:
 
-### Stable Counterpart
+- Developer experience: Provide stable development environments and tools, as well as a consistent and streamlined contributing experience.
+- Product development processes: Help product and engineering managers see the whole picture about their group's bugs, feature proposals, planned and started work,
+  as well as automate issues and merge requests hygiene (labels, milestones, staleness etc.).
+- Maintainability and security of GitLab's projects: Enforce configuration consistency (project settings, CI/CD pipelines) for all GitLab projects
+  –[including JiHu](https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35)– to ensure they're maintainable, compliant and secure in the long-term.
 
-| Person | Role |
-| --- | --- |
-| {{< member-by-name "Greg Alfaro" >}} | [GDK Project Stable Counterpart](/handbook/engineering/infrastructure/engineering-productivity/gdk/), Application Security |
+## Our principles
 
-## Core Responsibilities
+- **See it and find it**: Build automated measurements and dashboards to gain insights into the productivity of the Engineering organization to identify opportunities for improvement.
+  - Implement new measurements to provide visibility into improvement opportunities.
+  - Collaborate with other Engineering teams to provide visualizations for measurement objectives.
+  - Improve existing performance indicators.
+- **Do it for any contributor**: Increase contributor productivity by making measurement-driven improvements to the development tools / workflow / processes, then monitor the results, and iterate.
+  - Identify and implement quantifiable improvement opportunities with proposals and hypothesis for metric improvements.
+  - Automated [merge request quality checks](https://docs.gitlab.com/ee/development/dangerbot.html) and [code quality checks](https://docs.gitlab.com/ee/development/contributing/style_guides.html).
+  - [GitLab project pipeline](https://docs.gitlab.com/ee/development/pipelines/) improvements to improve efficiency, quality or duration.
+- **Dogfood use**: Dogfood GitLab product features to improve developer workflow and provide feedback to product teams.
+  - Use new features from related product groups (Analytics, Monitor, Testing).
+  - Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) for GitLab development and testing.
+- **Engineering support**:
+  - [`#master-broken`](/handbook/engineering/workflow/#broken-master) pipeline monitoring.
+  - KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate).
+  - [Merge Request Coach](/job-families/expert/merge-request-coach/) for ~"Community contribution" merge requests.
+- **Engineering workflow**: Develop automated processes for improving label classification hygiene in support of product and Engineering workflows.
+  - [Automated issues and merge requests triage](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
+  - Improvements to the labelling classification and automation used to support Engineering measurements.
+- **Dogfood build**: Enhance and add new features to the GitLab product to ultimately improve productivity and efficiency of GitLab customers.
+
+## Areas of responsibilities
 
 ```mermaid
 graph LR
     A[Engineering Productivity Team]
 
-    A --> B[Planning & Reporting]
+    A --> C[Developer Experience]
+    C --> C1[GitLab Development Kit<br>Providing a reliable development environment]
+    click C1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
+    C --> C2[GitLab Remote Development<br>Providing a remote reliable development environment]
+    click C2 "https://gitlab.com/groups/gitlab-org/-/epics/11799"
+    C --> C3[Merge Request Review Process<br>Ensuring a smooth, fast and reliable review process]
+    click C3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/34"
+    C --> C4[Merge Request Pipelines<br>Providing fast and reliable pipelines]
+    click C4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/28"
+    C --> C5[Automated main branch failing pipelines management<br>Providing a stable `master` branch]
+    click C5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/30"
+    C --> C6[Review apps<br>Providing review apps to explore a merge request changes]
+    click C6 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
+
+    A --> B[Product development processes]
     B --> B1[Weekly team reports<br>Providing teams with an overview of their current, planned & unplanned work]
     click B1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
     B --> B2[Issues & MRs hygiene automation<br>Ensuring healthy issue/MR trackers]
     click B2 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
+    B --> B3[Metrics and dashboards<br>Making data-driven decisions]
+    click B3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/36"
 
-    A --> C[Development Tools]
-    C --> C1[GitLab Development Kit<br>Providing a reliable development environment]
-    click C1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
-    C --> C2[GitLab Remote Development<br>Providing a remote reliable development environment]
-    click C1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
-
-    A --> F[Review & CI]
-    F --> F2[Merge Request Review Process<br>Ensuring a smooth, fast and reliable review process]
-    click F2 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/34"
-    F --> F3[Merge Request Pipelines<br>Providing fast and reliable pipelines]
-    click F3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/28"
-    F --> F4[Review apps<br>Providing review apps to explore a merge request changes]
-    click F4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
-
-    A --> D[Maintenance & Security]
+    A --> D[Maintainability and security of GitLab's projects]
     D --> D1[Automated dependency updates<br>Ensuring dependencies are up-to-date]
     click D1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/40"
     D --> D2[Automated management of CI/CD secrets<br>Providing a secure CI/CD environment]
     click D2 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/46"
-    D --> D3[Automated main branch failing pipelines management<br>Providing a stable `master` branch]
-    click D3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/30"
-    D --> D4[Static analysis<br>Ensuring the codebase style and quality is consistent and reducing bikeshedding]
-    click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
-    D --> D5[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
-    click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
-
-    A --> G[JiHu Support]
-    click G "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
+    D --> D3[Static analysis<br>Ensuring the codebase style and quality is consistent and reducing bikeshedding]
+    click D3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
+    D --> D4[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
+    click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
+    D --> D5[Support of the JiHu development team]
+    click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```
 
-* **See it and find it**: Build automated measurements and dashboards to gain insights into the productivity of the Engineering organization to identify opportunities for improvement.
-  * Implement new measurements to provide visibility into improvement opportunities.
-  * Collaborate with other Engineering teams to provide visualizations for measurement objectives.
-  * Improve existing performance indicators.
-* **Do it for internal team**: Increase contributor and developer productivity by making measurement-driven improvements to the development tools / workflow / processes, then monitor the results, and iterate.
-  * Identify and implement quantifiable improvement opportunities with proposals and hypothesis for metric improvements.
-  * Automated [merge request quality checks](https://docs.gitlab.com/ee/development/dangerbot.html) and [code quality checks](https://docs.gitlab.com/ee/development/contributing/style_guides.html).
-  * [GitLab project pipeline](https://docs.gitlab.com/ee/development/pipelines/) improvements to improve efficiency, quality or duration.
-* **Dogfood use**: Dogfood GitLab product features to improve developer workflow and provide feedback to product teams.
-  * Use new features from related product groups (Analytics, Monitor, Testing).
-  * Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) for GitLab development and testing.
-* **Engineering support**:
-  * [`#master-broken`](/handbook/engineering/workflow/#broken-master) pipeline monitoring.
-  * KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate).
-  * [Merge Request Coach](/job-families/expert/merge-request-coach/) for ~"Community contribution" merge requests.
-* **Engineering workflow**: Develop automated processes for improving label classification hygiene in support of product and Engineering workflows.
-  * [Automated issues and merge requests triage](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
-  * Improvements to the labelling classification and automation used to support Engineering measurements.
-  * See the [`gitlab-triage` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage), and [Triage operations](https://gitlab.com/gitlab-org/quality/triage-ops) projects for examples.
-* **Do it for wider community**: Increase efficiency for wider GitLab Community contributions.
-* **Dogfood build**: Enhance and add new features to the GitLab product to improve engineer productivity.
+## Team structure
+
+### Members
+
+| Team Members                                     | Role                                                |
+|------------------------------------------------- | --------------------------------------------------  |
+| {{< member-by-name "Vincy Wilson" >}}            | Acting Engineering Manager                          |
+| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
+| {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
+| {{< member-by-name "Kev Kloss" >}}               | Frontend Engineer, Engineering Productivity         |
+| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
+| {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
+
+### Stable counterpart
+
+| Person | Role |
+| --- | --- |
+| {{< member-by-name "Greg Alfaro" >}} | [GDK Project Stable Counterpart](/handbook/engineering/infrastructure/engineering-productivity/gdk/), Application Security |
 
 ## Metrics
 
 ### KPIs
 
 [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators/) are our single source of truth
+
 - [Master Pipeline Stability](/handbook/engineering/infrastructure/performance-indicators/#master-pipeline-stability)
 - [Merge request pipeline duration](/handbook/engineering/infrastructure/performance-indicators/#merge-request-pipeline-duration)
 
@@ -107,6 +120,10 @@ graph LR
 - [Review App deployment success rate](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate)
 - [Time to First Failure P80](/handbook/engineering/infrastructure/performance-indicators/#time-to-first-failure-p80)
 - [Time to First Failure](/handbook/engineering/infrastructure/performance-indicators/#time-to-first-failure)
+
+### SPACE
+
+- [SPACE](/handbook/engineering/infrastructure/engineering-productivity/space/)
 
 ### Shared
 
@@ -155,10 +172,7 @@ Engineering productivity has monthly office hours on the 3rd Wednesday of the mo
 
 ### Meetings
 
-Engineering Productivity has [weekly team meeting ](https://docs.google.com/document/d/1yzHuosvykzb_kaldjGP9I6wxpNpMXdNEvEFBkHyZpXs/edit#) in two parts (EMEA / AMER) to allow for all team members to collaborate in times that work for them.
-
-- Part 1 is Tuesdays 11:00 UTC, 04:00 PST
-- Part 2 is Tuesdays 22:00 UTC, 15:00 PST
+Engineering Productivity has [weekly team meeting](https://docs.google.com/document/d/1yzHuosvykzb_kaldjGP9I6wxpNpMXdNEvEFBkHyZpXs/edit#) on Wednesdays 15:00 UTC, 08:00 PST.
 
 ### Communication guidelines
 
@@ -170,12 +184,6 @@ GitLab contributors. The team will follow these guidelines in the spirit of [Git
 ##### Critical pipeline changes
 
 Pipeline changes that have the potential to have an impact on the GitLab.com infrastructure should follow the [Change Management](/handbook/engineering/infrastructure/change-management) process.
-
-Pipeline changes that meet the following criteria must follow the [Criticality 3](/handbook/engineering/infrastructure/change-management/#criticality-3) process:
-
-- update to the [`cache-repo` job](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/cache-repo.gitlab-ci.yml) job
-
-These kind of changes [led to production issues in the past](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3013).
 
 ##### Non-critical pipeline changes
 
@@ -191,7 +199,7 @@ Other pipeline changes will be communicated based on the team's discretion.
 
 #### Automated triage policies
 
-Be sure to give a heads-up to `#development`,`#eng-managers`,`#product`, `#ux` Slack channels
+Be sure to give a heads-up to `#development`, `#eng-managers`, `#product`, `#ux` Slack channels
 and the Engineering week in review when an automation is expected to triage more
 than 50 notifications or change policies that a large stakeholder group use (e.g. team-triage report).
 

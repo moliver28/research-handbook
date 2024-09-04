@@ -3,7 +3,6 @@ title: "General Ledger Accounting"
 description: "The General Ledger Accounting team are responsible for providing timely and accurate month end close financials, that are GAAP compliant."
 ---
 
-
 The General Ledger Accounting team are responsible for providing timely and accurate month end close financials, that are GAAP compliant.
 
 ## Responsibilities
@@ -114,7 +113,7 @@ The Senior Accountant is a [grade 7](/handbook/total-rewards/compensation/compen
 - Part of the development and implementation of systems related to the accounting team.
 - Work with and support the accounting team in day-to-day activities, special projects, and workflow process improvements.
 - Producing error-free accounting reports and present their results
-- Help update the Controller’s package that will be presented to the CFO
+- Help update the Controller's package that will be presented to the CFO
 - Analyzing financial information and summarizing financial status
 - Spot errors and suggest ways to improve efficiency of systems or processes
 - Support overall department goals and objectives.
@@ -137,11 +136,11 @@ The Lead General Ledger Accountant, Accounting is a [grade 7](/handbook/total-re
 
 - Leads meetings on their topic area, topics such as payroll, AP, cash or commissions
 - Guides the general accounting activities for their assigned areas, including recording company transactions, reviewing transactions, classifications, and reconciliation of account balances in accordance with GAAP and company policy
-- Play a vital part in the company’s financial management which includes account reconciliations and reporting to necessary parties, including Senior Manager of Accounting, Director of Accounting, and VP Controller
+- Play a vital part in the company's financial management which includes account reconciliations and reporting to necessary parties, including Senior Manager of Accounting, Director of Accounting, and VP Controller
 - Help manage a timely and accurate month end close by reviewing various journal entries and account reconciliations for various accounts.
-- Key participant in process improvement initiatives in Financial Close, Commissions Accounting and Director’s Bonus
+- Key participant in process improvement initiatives in Financial Close, Commissions Accounting and Director's Bonus
 - Responsible for the timely and accurate preparation and reporting of financial information and ensuring that information adheres to GAAP and internal company policies
-- Prepare flux analysis for the month end that summarizes and tells the “story” of the activity
+- Prepare flux analysis for the month end that summarizes and tells the "story" of the activity
 - Ensure compliance with Sarbanes-Oxley Section 404 key controls in the financial areas of responsibility, as applicable, and work with IA to update key controls as necessary
 - Monitor the need for business process improvements and assist with the design processes, procedures, and reporting enhancements to improve financial and operational processes.
 - Part of the development and implementation of systems related to the accounting team.

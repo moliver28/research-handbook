@@ -1,30 +1,20 @@
 ---
-
-
 title: "Customer Advocacy at GitLab"
 
 ---
 
-
-
-
-
-
-
-
-
 **The Customer Advocacy Team is dedicated to forging evergreen co-marketing relationships with top advocates and enterprise brands that fuel an integrated strategy aligned to pipeline-driving initiatives, threading the customer voice into all GTM motions.**
 
-  - We create programs and opportunities that put Enterprise logos and advocates in the spotlight.
-  - We partner with Sales and CS to identify, capture, and tell the right stories that help us sell.
-  - We support the bottom line by fueling our integrated campaign motion with the customer voice.
+- We create programs and opportunities that put Enterprise logos and advocates in the spotlight.
+- We partner with Sales and CS to identify, capture, and tell the right stories that help us sell.
+- We support the bottom line by fueling our integrated campaign motion with the customer voice.
 
 **Meet the team:**
 
 - Nicole Smith — Director, Product Marketing, Customer Advocacy
 - Steve George — Product Marketing Manager, Customer Advocacy
 
-# Programs we drive and support
+## Programs we drive and support
 
 **Evergreen customer story creation**
 
@@ -32,8 +22,8 @@ We partner with the content team to run a continual pipeline of customer case st
 
   Quick Links
 
-  - [External Case Study Process](https://docs.google.com/document/d/1o4DpwU20RJ3Q_rc-pzBzbXP2F0EXoUWSGgDXLpQ3egc/edit?usp=sharing)
- - [Publication Process](https://docs.google.com/document/d/1gu97xEv3WMYQO2aUUHqzdtUbXAx6s_VPWXSgDN9mg5E/edit?usp=sharing)
+- [External Case Study Process](https://docs.google.com/document/d/1o4DpwU20RJ3Q_rc-pzBzbXP2F0EXoUWSGgDXLpQ3egc/edit?usp=sharing)
+- [Publication Process](https://docs.google.com/document/d/1gu97xEv3WMYQO2aUUHqzdtUbXAx6s_VPWXSgDN9mg5E/edit?usp=sharing)
 
 **Earnings Calls customer references**
 
@@ -41,11 +31,11 @@ Each quarter the Customer Advocacy Team proactively partners with Sales and Cust
 
   Quick Links
 
-  - [Earnings Customer Reference Playbook](https://docs.google.com/document/d/1PnpZ9zMW3__NX3QbH-GEyQWnZV22o1cj3EYn5bpEn5c/edit?usp=sharing)
+- [Earnings Customer Reference Playbook](https://docs.google.com/document/d/1PnpZ9zMW3__NX3QbH-GEyQWnZV22o1cj3EYn5bpEn5c/edit?usp=sharing)
 
 **Customer Advisory Board → Executive Advisory Board**
 
-The advocacy team has traditionally driven what we know as the “customer advisory board” at GitLab. As we evolve in FY24, we’re breaking out our advisory audiences into a Product Customer Advisory Board and an Executive Advisory Board.
+The advocacy team has traditionally driven what we know as the "customer advisory board" at GitLab. As we evolve in FY24, we're breaking out our advisory audiences into a Product Customer Advisory Board and an Executive Advisory Board.
 
   *For Product CAB questions (now driven by the Product Marketing team) head to #CAB-internal for any questions.*
 
@@ -55,9 +45,8 @@ The advocacy team has traditionally driven what we know as the “customer advis
 
   Quick Links
 
-  - [Internal Brief](https://docs.google.com/document/d/1IMqk_5yVlTZuYfplQM-OenI6C4Cx4gV20kqGoeq9EHQ/edit?usp=sharing)
+- [Internal Brief](https://docs.google.com/document/d/1IMqk_5yVlTZuYfplQM-OenI6C4Cx4gV20kqGoeq9EHQ/edit?usp=sharing)
 - [Customer Facing Brief](https://docs.google.com/document/u/1/d/e/2PACX-1vQcxe1ZdXvo1GVfjY9m4wJ2zqt46nu0Xw3ZXEtj2ot0FMXVC-II4ufPHAm9nCyXIYg-KID-uBeXtn-N/pub)
-
 
   *For any EAB questions, head to #fy24-executive-advisory-bard.*
 
@@ -81,30 +70,28 @@ For Tier 1 events, please notify the advocacy team during quarterly OKR planning
 
 For other events, we are currently unable to support speaker sourcing. We will however assist in sharing suggestions based on our relationships with advocates. Please tag Steve George into your event content issue and we will be happy to share ideas directly.
 
-
 **Quarterly Customer Advocacy Award**
 
 To formally recognize members of our revenue organization who partner with marketing to identify and create customer stories, our Customer Advocacy team is launching a new quarterly Customer Advocacy Award. The winner of this award will receive an exclusive GitLab-branded Yeti cooler and tumbler gift kit delivered to their door. For Q1, the winner will be announced at SKO. For other quarters the winners will be sharing on the WW Field Call.
 
   FY23 Q4 Winner: April Marks, Enterprise AE
 
-# How do I work with the team?
-
+## How do I work with the team?
 
 **Make a request**
 To create a general request for the Customer Advocacy team, [open an issue here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing) and assign it to Nicole Smith.
 
 **Nominate an advocate**
-This process is evolving. While we’re under construction, please [nominate an advocate here](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link), or post in #customer-advocacy-and-references for any questions.
+This process is evolving. While we're under construction, please [nominate an advocate here](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link), or post in #customer-advocacy-and-references for any questions.
 
 **Ask a question**
 Find us on Slack at #customer-advocacy-and-references.
 
-# How do I find a customer story?
+## How do I find a customer story?
 
   [**HighSpot**](https://gitlab.highspot.com/spots/636e91aed5e577c7525c583a)
 
-  Visit our Customer Advocacy spot on HighSpot to find all of our existing customer story content and filter based on industry, use case, region, and more! Here you can create a “pitch” and share out your content of choice directly from the platform.
+  Visit our Customer Advocacy spot on HighSpot to find all of our existing customer story content and filter based on industry, use case, region, and more! Here you can create a "pitch" and share out your content of choice directly from the platform.
 
   [**Website**](https://about.gitlab.com/customers/)
 
@@ -122,9 +109,7 @@ Find us on Slack at #customer-advocacy-and-references.
 
 - *More coming soon.*
 
-
-
-# KPIs
+## KPIs
 
 - Number of stories, including case studies, blogs, videos, and podcast episodes
   - Content metrics including traffic, CTR, time on page, conversion, etc.
@@ -142,14 +127,14 @@ Find us on Slack at #customer-advocacy-and-references.
   - Survey feedback / NPS
   - Associated pipeline
 
-# Approved Customer Logos for promotion
+## Approved Customer Logos for promotion
 
 We are actively working on a single source of truth document. In the meantime, please contact the advocacy team for any logo inquiries.
 
-# Which customer reference team member should I contact?
+## Which customer reference team member should I contact?
 
 While the team is growing, please start in the #customer-advocacy-and-references channel and your question will be triaged.
 
-# Base Customer Advocacy Platform
+## Base Customer Advocacy Platform
 
 Base is a B2B Customer Marketing & Advocacy automation platform that uses AI to enable marketers to streamline engagement, generate customer references, gain insights, capture VoC, and scale advocacy. The team is currently working to implement Base. Stay tuned on this page for more info soon. If you have questions, feel free to reach out on #customer-advocacy-and-references slack channel.

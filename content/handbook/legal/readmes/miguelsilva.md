@@ -17,7 +17,7 @@ My main focus is providing legal support to all functions that bring revenue to 
 ## Areas of Improvement
 
 1. I struggle to be empathic when someone (i) is not willing to do their job and does not take ownership on matters that they should be responsible for; and (ii) asks the same question over and over again when it was already properly explained and acknowledged by the requester;
-1. As I come from a non-technical background sometimes I struggle with more technical issues – please be patient and assume I don’t know the basics, I will definitely not get offended;
+1. As I come from a non-technical background sometimes I struggle with more technical issues – please be patient and assume I don't know the basics, I will definitely not get offended;
 1. As a non-English speaking native sometimes my pronunciation, choice of words, and grammar are not the best - I welcome corrections!
 
 ## Communication

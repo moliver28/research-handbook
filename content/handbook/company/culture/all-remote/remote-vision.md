@@ -23,7 +23,7 @@ There are a few important outcomes we expect to see as remote work becomes even 
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-Being able to [recruit]({{< ref "talent-acquisition-framework" >}}) and [hire]({{< ref "./hiring" >}}) from most countries in the world is a distinct competitive advantage for GitLab. We will judge our impact and legacy on the world by how we influence the proliferation of all-remote companies.
+Being able to [recruit]({{< ref "talent-acquisition-framework" >}}) and [hire](hiring/) from most countries in the world is a distinct competitive advantage for GitLab. We will judge our impact and legacy on the world by how we influence the proliferation of all-remote companies.
 
 We are hopeful that our hiring advantage will diminish over time. This will signal that all-remote is shifting toward being commonplace, with prospective employees having a broader selection of companies who offer such a structure.
 
@@ -41,11 +41,11 @@ We aren't just seeing these impacts for all-remote companies. In fact, in some o
 
 *In the above [interview](https://youtu.be/eIs71f5IEUU) with [Stuart Miniman](https://twitter.com/stu) of [theCUBE](https://www.thecube.net), GitLab CEO and co-founder Sid Sijbrandij discusses the merits of operating a 100% remote organization, and why he believes it's the future of work.*
 
-> At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles]({{< ref "./effective-communication" >}}) and being intentional about [informal communication]({{< ref "./informal-communication" >}}).
+> At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles](effective-communication/) and being intentional about [informal communication](informal-communication/).
 >
 > If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
-> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members]({{< ref "./people" >}}).
+> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members](people/).
 
 Here are some of the key factors that make all-remote work possible:
 
@@ -61,6 +61,6 @@ Here are some of the key factors that make all-remote work possible:
 1. Increasing traffic congestion in cities
 1. More demand for flexibility from new professionals entering the workforce
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

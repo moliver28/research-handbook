@@ -14,6 +14,7 @@ Deploy team is focused on installation and upgrade mechanisms to ensure smooth d
 In addition to [product deliverables](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adistribution&label_name%5B%5D=Deliverable&milestone_title=Any), both groups review a large number of MR's authored outside the team. These include dependency and security updates along with configuration controls and other bundled components like PostgreSQL, Consul, Patroni.
 
 ## Target Consumers
+
 The primary user persona for Distribution are system administrators who are responsible for managing GitLab instances. Team goals are to make it as easy as possible to deploy, upgrade and configure GitLab on a range of on-prem and cloud platforms at a variety of scales.
 
 Deployments include everything from single node deployments for evaluating GitLab all the way through the 50K user reference architecture and beyond. The primary goal is to ensure end users have a high-speed, low-friction experience when managing GitLab with limited downtime or sevice disruptions.
@@ -22,6 +23,7 @@ Omnibus packages, Helm Charts and Operators are primary deployment methods Distr
 
 ### Distribution Build
 
+<!-- markdownlint-disable MD051 -->
 [Team](#distribution-build-team)    |
 [Charter](#distributionbuild-charter)
 
@@ -38,8 +40,9 @@ Responsibilities:
 
 ### Distribution Deploy
 
-[Team](#distribution-deploy-team)    |
+[Team](#distribution-deploy-team)
 [Charter](#distributiondeploy-charter)
+<!-- markdownlint-enable MD051 -->
 
 Responsibilities:
 
@@ -86,7 +89,7 @@ Distribution ensures the experience of installing and maintaining GitLab is easy
 
 ### Distribution:Build Charter
 
-Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 ### Distribution:Deploy Charter
 
@@ -104,7 +107,7 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 The following people are members of the Distribution:Build Team:
 
-{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
+{{< team-by-manager-slug manager="plu8" team="Build" >}}
 
 ### Distribution Deploy Team
 
@@ -120,8 +123,8 @@ The following members of other functional teams are our [stable counterparts](/h
 
 ## Common links
 
-* [Distribution team issue tracker][issue tracker]
-* [Slack chat channel](https://gitlab.slack.com/archives/distribution)
+- [Distribution team issue tracker](https://gitlab.com/gitlab-org/distribution/team-tasks)
+- [Slack chat channel](https://gitlab.slack.com/archives/distribution)
 
 ## Team responsibility
 
@@ -217,7 +220,6 @@ graph TD
 
 ## All Projects
 
-
 | Name | Location | Description |
 | -------- | -------- | -------- |
 | Omnibus GitLab | [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | Build Omnibus packages with HA support for LTS versions of all major Linux operating systems such as Ubuntu, Debian, CentOS/RHEL, OpenSUSE, SLES |
@@ -229,7 +231,7 @@ graph TD
 | AWS images | [AWS marketplace](https://aws.amazon.com/marketplace/pp/B071RFCJZK?qid=1493819387811&sr=0-1&ref_=srh_res_product_title) | AWS image based on the omnibus-gitlab package |
 | Reference Architecture Tester | [gitlab-org/distribution/reference-architecture-tester](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester) | Spins up reference architecture based GitLab deployments using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and runs QA against them |
 | Omnibus GitLab Builder | [GitLab Omnibus Builder](https://gitlab.com/gitlab-org/gitlab-omnibus-builder) | Create environment containing build dependencies for the omnibus-gitlab package |
-| Licenses of bundled dependencies | [Licenses page on GL Pages](http://gitlab-org.gitlab.io/omnibus-gitlab/licenses.html)  | Webpage listing the bundled dependencies in each package along with their license.
+| Licenses of bundled dependencies | [Licenses page on GL Pages](http://gitlab-org.gitlab.io/omnibus-gitlab/licenses.html)  | Webpage listing the bundled dependencies in each package along with their license. |
 
 ## Working with the community
 
@@ -263,13 +265,13 @@ In Distribution we strive to:
 
 All work carried out by the Distribution team is public. Some exceptions apply:
 
-* Work has possible security implications - If during the course of work security concerns are no longer valid, it is expected for this work to become public.
-* Work is done with a third party - Only when a third party requests that the work is not public.
-* Work has financial implications - Unless financial details can be omitted from the work.
-* Work has legal implications - Unless legal details can be omitted from the work.
+- Work has possible security implications - If during the course of work security concerns are no longer valid, it is expected for this work to become public.
+- Work is done with a third party - Only when a third party requests that the work is not public.
+- Work has financial implications - Unless financial details can be omitted from the work.
+- Work has legal implications - Unless legal details can be omitted from the work.
 
 Some of the team work is carried out on our development server at `dev.gitlab.org`.
-[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/README.html#infrastructure) lists the reasons.
+[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/#infrastructure) lists the reasons.
 
 Unless your work is related to the security, all other work is carried out in projects on `GitLab.com`.
 If you need to submit a sensitive issue, please use confidential issues.
@@ -280,16 +282,16 @@ If you are unsure whether something needs to remain private, check with the team
 
 The team regularly publishes demos, discussions and meetings to these playlists:
 
-* [Distribution Team Demos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) (Public) More on [team demos](demo.html).
-* [Distribution Team Discussions](https://www.youtube.com/playlist?list=PL05JrBw4t0KotcsilVcbCc1NBXUmWqEWy) (Mostly public, but some private content)
-* [Distribution Team Meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoigLGkdYj9x2erU2NC24ij) (Private)
+- [Distribution Team Demos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) (Public) More on [team demos](demo.html).
+- [Distribution Team Discussions](https://www.youtube.com/playlist?list=PL05JrBw4t0KotcsilVcbCc1NBXUmWqEWy) (Mostly public, but some private content)
+- [Distribution Team Meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoigLGkdYj9x2erU2NC24ij) (Private)
 
 ## Onboarding and offboarding
 
 In addition to general company on-boarding and off-boarding, Distribution team
 has its own process to get new team members up to speed more quickly.
 
-If you are starting with your onboarding, open an issue in [Distribution team issue tracker][issue tracker], select `Team-onboarding` template and assign the issue to yourself.
+If you are starting with your onboarding, open an issue in [Distribution team issue tracker](https://gitlab.com/gitlab-org/distribution/team-tasks), select `Team-onboarding` template and assign the issue to yourself.
 
 Going through the steps noted in the issue should be your top priority, higher
 than the general company on-boarding issue. This is because items in team on-boarding are specific to your role and it will allow you to get up-to-speed quicker.
@@ -306,13 +308,13 @@ In the Distribution team specifically, everyone should have access to the
 following resources:
 
 - Google projects in [Google Cloud Platform](https://console.cloud.google.com/)
-   - `testground`
-   - `cloud-native`
-   - `omnibus-build-runners`
+  - `testground`
+  - `cloud-native`
+  - `omnibus-build-runners`
 - AWS build infrastructure
-   - Distribution group AWS sandbox account
-   - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
-   - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
+  - Distribution group AWS sandbox account
+  - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
+  - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
 
 If you don't have access to any of these resources, create an
 [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) and
@@ -335,15 +337,15 @@ is further explained and summarized on the [Distribution workflow page](workflow
 
 The following important areas of the GitLab Handbook impact how we work and are worth reading.
 
-* [Distribution workflow page](workflow.html)
-* [General engineering workflow page](/handbook/engineering/workflow/)
-* [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
-* [Continue to serve smaller users](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns#serve-smaller-users) (internal only)
-* [Promises to our Open Source community](/handbook/company/stewardship/#promises)
-* [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
-* [Principles of our company strategy](/handbook/company/strategy/#principles)
-* [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
-* [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
+- [Distribution workflow page](workflow.html)
+- [General engineering workflow page](/handbook/engineering/workflow/)
+- [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
+- [Continue to serve smaller users](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#serve-smaller-users) (internal only)
+- [Promises to our Open Source community](/handbook/company/stewardship/#promises)
+- [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
+- [Principles of our company strategy](/handbook/company/strategy/#principles)
+- [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
 
 ## Work/life harmony
 
@@ -361,7 +363,7 @@ The following GitLab Handbook areas are key in maintaining a healthy work/life b
 
 - [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second)
 - [Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
-- [Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)
+- [Recognizing Burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)
 
 ## How to work with Distribution
 
@@ -418,14 +420,12 @@ request.
 
 There are occasions where the experise of the Distribution team may be needed in
 support of a customer issue. When this does occur, the appropriate method of requesting
-our engagement is by opening an issue on the [Distribution team tracker][issue tracker]
+our engagement is by opening an issue on the [Distribution team tracker](https://gitlab.com/gitlab-org/distribution/team-tasks)
 using the `Support Request` template. This process allows us to track time involved
 and ensure that the right parties are involved at the correct time.
 
 Requests should be opened **two or more** business
 days before action is needed to ensure the team has time to prepare.
-
-[issue tracker]: https://gitlab.com/gitlab-org/distribution/team-tasks
 
 ## Trivia
 

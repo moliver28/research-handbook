@@ -1,29 +1,20 @@
 ---
-
-title: Accessibility  
+title: Accessibility
 description: >-
-  Defining Accessibility for the Digital Experience team 
+  Defining Accessibility for the Digital Experience team
 ---
 
+## Surface accessibility issues on about.gitlab.com
 
+[Open an issue to the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new) and add the `dex-category::accessibility` label.
 
-
-
-
-
-# Surface accessibility issues on about.gitlab.com
-
-[Open an issue to the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new) and add the `dex-category::accessibility` label. 
-
-# Resolving Accesibility issues
+## Resolving Accesibility issues
 
 ## Quick and dirty (Start here)
 
 > I have run [Axe Devtools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
- 
-> I have run Google Lighthouse 
-
-
+>
+> I have run Google Lighthouse
 
 ## Notes about tabbing across browsers
 
@@ -49,6 +40,4 @@ Tools like Axe and Google Lighthouse only take you so far, and are a good starti
 
 > Run through this Accessibility spreadsheet: [https://docs.google.com/spreadsheets/d/1pCfGv8xHjY39Oeft37pGjgot_lg0_j3cSyty0H9njv8/edit#gid=0](s://docs.google.com/spreadsheets/d/1pCfGv8xHjY39Oeft37pGjgot_lg0_j3cSyty0H9njv8/)
 
-
 Example of testing accessibility on our home page: [https://www.youtube.com/watch?v=jtVMFUQLJEE](https://www.youtube.com/watch?v=jtVMFUQLJEE)
-

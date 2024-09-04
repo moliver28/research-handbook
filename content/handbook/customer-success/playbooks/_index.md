@@ -1,17 +1,10 @@
 ---
-
 title: Customer Success Playbooks
 ---
 
-
-
-
-
-
-
 View the [Customer Success homepage](/handbook/customer-success/) for additional Customer Success handbook content.
 
-- - -
+---
 
 Customer Success playbooks assist in selling, driving adoption, and ultimately delivering more value to customers via GitLab's DevOps platform. The below playbooks will include original content as well as links to other parts of the handbook.
 

@@ -15,15 +15,15 @@ The Employer is required by law to provide preventative occupational healthcare 
 
 Both Employer and Employee must pay pension insurance contributions in Finland. The Employer must withhold the contributions through the Payroll and pay both the employee and employer social insurance contributions to the pension insurance company. GitLab administers all pension Insurance contributions through [ELO](https://www.elo.fi/en/about-elo#:~:text=We%20are%20Elo%2C%20a%20large,funds%20profitably%2C%20securely%20and%20responsibly.).
 
-#### 2022 Contributions:
+#### 2022 Contributions
 
 | Pay to your insurance company                                                                                                                                              |    2022 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-| Employee's pension insurance contribution (worker’s ages 17 to 52)                                                                                                         |  7,15 % |
-| Employee's pension insurance contribution (worker’s ages 53 to 62)                                                                                                         |  8,65 % |
-| Employee's pension insurance contribution (worker’s ages 63 to 67)                                                                                                         |  7,15 % |
+| Employee's pension insurance contribution (worker's ages 17 to 52)                                                                                                         |  7,15 % |
+| Employee's pension insurance contribution (worker's ages 53 to 62)                                                                                                         |  8,65 % |
+| Employee's pension insurance contribution (worker's ages 63 to 67)                                                                                                         |  7,15 % |
 | An employer with an insurance contract: pension insurance contribution (average rate) An employer with an insurance contract is an employer who constantly employs people. | 17,40 % |
-| Employer’s pension insurance contribution (seafarers)                                                                                                                      |  11,4 % |
+| Employer's pension insurance contribution (seafarers)                                                                                                                      |  11,4 % |
 
 ### Group Life & Accident insurance
 
@@ -33,12 +33,12 @@ Is administered by [IF](https://www.if-insurance.com/large-enterprises/insurance
 
 The employer must pay an unemployment insurance contribution if the total amount of wages paid to employees during the calendar year exceeds €1,300. The unemployment insurance contribution is paid for employees aged 17 to 64.
 
-Employees must also pay unemployment insurance contributions. The employer must calculate the contribution based on the total wages and fringe benefits and deduct the employee’s contribution from their net wages.
+Employees must also pay unemployment insurance contributions. The employer must calculate the contribution based on the total wages and fringe benefits and deduct the employee's contribution from their net wages.
 
 | Pay to the Employment Fund (Työllisyysrahasto/Sysselsättningsfonden)                                                                                                                                                                                         |                                                                                                                                        2022 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------:|
-| Employer’s unemployment insurance contribution                                                                                                                                                                                                               | 0,50 %, if paid wages no more than €2,197,500 a year 2,05 %, if paid wages go over €2,197,500 a year 0,50 % for partial owners of a company |
-| Employee's unemployment insurance contribution collected 1 January–31 July 2022 if the employee is 17 to 64 years old collected as of 1 August 2022 if the employee is 18 years old (from the beginning of the month following the employee’s 18th birthday) |                                                                                                                                      1,50 % |
+| Employer's unemployment insurance contribution                                                                                                                                                                                                               | 0,50 %, if paid wages no more than €2,197,500 a year 2,05 %, if paid wages go over €2,197,500 a year 0,50 % for partial owners of a company |
+| Employee's unemployment insurance contribution collected 1 January–31 July 2022 if the employee is 17 to 64 years old collected as of 1 August 2022 if the employee is 18 years old (from the beginning of the month following the employee's 18th birthday) |                                                                                                                                      1,50 % |
 | The unemployment insurance contribution of a shareholder-employee                                                                                                                                                                                            |                                                                                                                                      0,74 % |
 
 ## Finland Statutory Leave Policies
@@ -49,13 +49,13 @@ Annual holiday entitlement is based on the number of holiday credit months earne
 
 ### Family Leave
 
-Recent reforms of family leave types in Finland will apply to parents expecting a baby with a due date of 4 September 2022 or later and to parents adopting a child if the child is placed in the parents’ care on or after 31 July 2022. The types of leave are pregnancy leave and parental leave and in order to be eligible to receive the benefits, you must live in Finland or be covered by the Finnish social security system.
+Recent reforms of family leave types in Finland will apply to parents expecting a baby with a due date of 4 September 2022 or later and to parents adopting a child if the child is placed in the parents' care on or after 31 July 2022. The types of leave are pregnancy leave and parental leave and in order to be eligible to receive the benefits, you must live in Finland or be covered by the Finnish social security system.
 
 Whenever allowed by law GitLab's 16 weeks [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) will run concurrently with these benefits. Team members can request pregnancy or parental leave by selecting the Parental Leave option in Time Off by Deel. The Absence Management team will contact you with more details after your request is received.
 
 #### Pregnancy Leave
 
-For [pregnancies with an expected due date of 4 September 2022 or later](https://www.kela.fi/quick-guide-expected-due-date-on-or-after-04-09-2022), the Finnish Social Insurance Institution (Kela) will pay pregnancy leave allowance allowance for 40 continuous working days, to start from 14 to 30 days before the estimated due date.
+For [pregnancies with an expected due date of 4 September 2022 or later](https://www.kela.fi/quick-guide-expected-due-date-on-or-after-04-09-2022), the Finnish Social Insurance Institution (Kela) will pay pregnancy leave allowance for 40 continuous working days, to start from 14 to 30 days before the estimated due date.
 
 #### Parental leave
 
@@ -91,7 +91,7 @@ You can claim special care allowance (erityishoitoraha) if you, as the parent of
 
 ##### Adoption Leave
 
-Adoptive parents are entitled to unpaid parental leave for a period of 233 days calculated from the date of the child’s birth. Team Members are entitled to an allowance from social security. However, the parental allowance is paid for at least 200 workdays. If the child is received later than 54 weekdays after the child’s birth, parental allowance is paid for 200 weekdays. Adoptive parent’s paternity leave must be taken during the two years following the date the child is taken into care.
+Adoptive parents are entitled to unpaid parental leave for a period of 233 days calculated from the date of the child's birth. Team Members are entitled to an allowance from social security. However, the parental allowance is paid for at least 200 workdays. If the child is received later than 54 weekdays after the child's birth, parental allowance is paid for 200 weekdays. Adoptive parent's paternity leave must be taken during the two years following the date the child is taken into care.
 
 If you adopt a child from abroad, you can claim an adoption grant from [Kela](https://www.kela.fi/web/en/families) to meet some of the cost of the adoption. You can make the claim as soon as the international adoption agency has identified a child under 18 years of age for placement in your care and the Finnish Board of Inter-Country Adoption Affairs has authorised the adoption.
 
@@ -175,7 +175,7 @@ A Team Member who has been employed by the same employer for a period of at leas
 
 In the case of parents of a disabled child or a child with a long-term illness in need of particular care and support may be granted partial child-care leave until the child turns 18. Both the parents are entitled to such leave during the same calendar year but they cannot take the leave simultaneously.
 
-The length of the leave and its time are determined by the team member’s presentation. Partial care leave is then granted by reducing the daily working time to 6 hours. Part-time work must be uninterrupted, except for rest breaks. If working time is organized on average, it should be reduced to an average of 30 hours per week. Employment Contract Act,(as amended 2021) Sec 4 (Chap 4).
+The length of the leave and its time are determined by the team member's presentation. Partial care leave is then granted by reducing the daily working time to 6 hours. Part-time work must be uninterrupted, except for rest breaks. If working time is organized on average, it should be reduced to an average of 30 hours per week. Employment Contract Act,(as amended 2021) Sec 4 (Chap 4).
 
 </details>
 
@@ -183,7 +183,7 @@ The length of the leave and its time are determined by the team member’s prese
 
 <summary>Temporary Child Care Leave</summary>
 
-The parents of children under the age of 10 have a right to a 4 working days’ temporary unpaid child care leave in case of a sudden illness of the child. The team member must inform GitLab of the temporary care leave and its estimated duration as soon as possible. Employment Contract Act,(as amended 2021) Sec 6 (Chap 4).
+The parents of children under the age of 10 have a right to a 4 working days' temporary unpaid child care leave in case of a sudden illness of the child. The team member must inform GitLab of the temporary care leave and its estimated duration as soon as possible. Employment Contract Act,(as amended 2021) Sec 6 (Chap 4).
 
 </details>
 
@@ -193,7 +193,7 @@ The parents of children under the age of 10 have a right to a 4 working days’ 
 
 A team member shall be entitled to a temporary absence from work if their immediate presence is necessary for an unforeseeable and compelling reason affecting their family due to illness or accident. The team member must inform GitLab of the absence and the reason for it as soon as possible. At the request of GitLab, the employee must provide a reliable explanation of the reason for the absence.
 
-If the team members’s absence is necessary for the special care of a member of their family or another person close to them, GitLab shall endeavor to arrange the work so that the team member may be absent from work for a specified period. GitLab and the team member agree on the duration of the leave and other arrangements. Employment Contract Act,(as amended 2021) Sec 7 – 7a (Chap 4).
+If the team members's absence is necessary for the special care of a member of their family or another person close to them, GitLab shall endeavor to arrange the work so that the team member may be absent from work for a specified period. GitLab and the team member agree on the duration of the leave and other arrangements. Employment Contract Act,(as amended 2021) Sec 7 – 7a (Chap 4).
 
 </details>
 

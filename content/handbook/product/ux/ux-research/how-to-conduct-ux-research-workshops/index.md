@@ -7,7 +7,7 @@ UX research workshops are activities that UX Researchers can utilize to collabor
 
 ## Benefits of UX research workshops
 
-UX research workshops are useful because they offer UX Researchers a way to collaborate with their Product teams to plan out a future research study or align on how to tackle users’ pain points. They are a very collaborative activity, especially when teams are not co-located or lack a recurring meeting time to focus on a research project.
+UX research workshops are useful because they offer UX Researchers a way to collaborate with their Product teams to plan out a future research study or align on how to tackle users' pain points. They are a very collaborative activity, especially when teams are not co-located or lack a recurring meeting time to focus on a research project.
 
 ## Getting started
 
@@ -54,7 +54,7 @@ Any async tasks assigned to attendees should include a clear due date with ample
 
 ### Sync workshops
 
-The length of a sync workshop depends on the size and scope of the effort. UX Researchers can estimate the amount of time needed in general by thinking through how long the individual workshop tasks should take. Since there will often be group discussions happening during a sync workshop, it is better to overestimate the amount of time allotted to each task, so UX Researchers don’t end up rushing through their planned agenda.
+The length of a sync workshop depends on the size and scope of the effort. UX Researchers can estimate the amount of time needed in general by thinking through how long the individual workshop tasks should take. Since there will often be group discussions happening during a sync workshop, it is better to overestimate the amount of time allotted to each task, so UX Researchers don't end up rushing through their planned agenda.
 
 When sync workshops are expected to last longer than **2 hours**, UX Researchers need to include ample breaks or consider splitting up the workshop across multiple days to avoid burning out their attendees. It is important that attendees are able to stay focused in the workshop. By limiting what you ask attendees to accomplish in a single sync session, UX Researchers will get a higher quality of output from them.
 
@@ -70,7 +70,7 @@ UX Researchers need to ensure that they are being inclusive of any team members 
 - UX Researchers who support other teams (if applicable)
 - UX Research Managers (if applicable)
 
-If UX Researchers are unsure about who to invite to the workshop, they can ask the team’s Product Manager or their UX Research Manager for guidance.
+If UX Researchers are unsure about who to invite to the workshop, they can ask the team's Product Manager or their UX Research Manager for guidance.
 
 ## Step 5: Provide workshop materials
 

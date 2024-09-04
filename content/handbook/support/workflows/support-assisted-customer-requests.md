@@ -1,12 +1,8 @@
 ---
-
 title: Support Assisted Customer Requests
 description: "GitLab Support Assisted customer requests"
 category: References
 ---
-
-
-
 
 ## Overview
 
@@ -143,6 +139,7 @@ In the rollback plan, we provide a link for the steps to revert the actions perf
 
 #### Pre-call checklist
 
+```plain
 [x] - Inform on `#support_gitlab-com` or `#support_self-managed` and `#support_manager` slack channel about the work to be done with a runbook link
 
 [x] - Verify that any rollback plan can be execute by an engineer from every region
@@ -152,6 +149,7 @@ In the rollback plan, we provide a link for the steps to revert the actions perf
     `Dry-run cannot be completed due to change requirements`
 
 [x] - Do we have a way to create logs from the actions performed.
+```
 
 #### Runbook - Tasks
 

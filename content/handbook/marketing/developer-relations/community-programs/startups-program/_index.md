@@ -1,5 +1,4 @@
 ---
-
 title: "Startups Program"
 description: "Learn about the GitLab for Startups Program from GitLab's Developer Relations team"
 ---
@@ -66,7 +65,27 @@ During **Year Two**, you'll receive:
 
 * 25% discount on any tier; up to 20 seats
 
+### How to Quote
+
+When creating a quote at either 50% (Seed Y2, Early Y1 ) or 25% discount (Early Y2), please follow the below steps;
+
+Chatter Sales-Support on the opp to request quote approval override. Use the below template, and amend it as required.
+
+*Deals Desk, please provide approval overide for this Startup opportunity*;
+
+* *Startup Program - Seed Y2 - 50% Discount*
+* *Startup Program - Early Y1 - 50% Discount*
+* *Startup Program - Early Y2 - 25% Discount*
+
+*Please also;*
+
+* *Disable Auto-Renewal*
+* *Diable QSRs*
+* *Change the Opportunity Order Type from 3. Growth to 1. First Order (if Seed Y2 or Early Y1)*
+
+Note:  Also include this chatter message content in the quote Submitter Comments.
+
 ## Additional information
 
 * Upon acceptance, program members are subject to the [GitLab Subscription Agreement](/handbook/legal/subscription-agreement/). The decision to issue a GitLab Startup license is always at the sole discretion of GitLab.
- * For self-hosted instances, users must enable usage and analytics features.
+* For self-hosted instances, users must enable usage and analytics features.

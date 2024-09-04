@@ -1,12 +1,8 @@
 ---
-
 title: Working with reseller related requests
 category: General
 description: This is a guide on how to handle requests involving Reseller.
 ---
-
-
-
 
 ## Overview
 
@@ -36,7 +32,7 @@ Check if a subscription was purchased through a reseller by locating the `Invoic
 1. Once you have identified the customer, click on the `Show` button (represented by an i) which will provide details on the customer
 1. Click on the `Zuora Subscriptions` tab and then the subscription name (i.e. A-S000860000)
 1. This will launch the associated subscription page in `Zuora`
-1. Look under `Basic Information` and the the reseller should be listed in the `Invoice Owner` field in the subscription page
+1. Look under `Basic Information` and the reseller should be listed in the `Invoice Owner` field in the subscription page
 1. You can also search the `Zuora Subscription` page for the text `SSPChannel` which will have the text value `Reseller`
 
 Note:  Sometimes you can also see Partners section in the end-user's SFDC account.

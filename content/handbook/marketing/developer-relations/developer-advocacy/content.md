@@ -1,15 +1,21 @@
 ---
 title: "Content workflows for Developer Advocates"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/content/index.html
+description: "Learn about the Developer Advocacy team's content library, creation and distribution workflows."
 ---
-
 
 ## Content Library
 
 The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
 
 You can search for relevant content and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
+
+The following sections provide an overview of all content assets, and links to find them.
+
+> **Note**: If you need an updated or newly created content asset, please follow the [content request workflow](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team).
+
+### Highspot
+
+The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd).
 
 ### Product Adoption Initiatives
 
@@ -31,10 +37,13 @@ You can search for relevant content and contact the team in the linked content e
 
 Click-through demos are product simulation demonstrations that can be used for self-guided training. They are invaluable for delivering demos to customers in areas with limited internet connectivity or complex environments, where preparation is necessary to showcase the flow. Toggle off the click boxes and speaker notes using fn+F2 to experience the real look and feel of the product.
 
-* [GitLab Duo (AI) - 2023-07-23](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-* [Remote Development - 2023-05-23](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-* [Feature Flags - 2023-06-23](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-* [CI Overview - 2023-10-23](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+| Title | Area | Last updated |
+|-------|------|--------------|
+| [Duo chat](https://tech-marketing.gitlab.io/static-demos/duo-chat.html) | GitLab Duo | 2024-06-19 |
+| [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html) | GitLab Duo | 2023-07-23 |
+| [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html) | Dev section, Create | 2023-05-23 |
+| [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html) | CD | 2023-06-23 |
+| [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html) | CI | 2023-10-23 |
 
 Note: The demos can be run offline in the absence of internet connectivity. To do so, you can directly obtain the necessary HTML files from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
 
@@ -42,11 +51,41 @@ Note: The demos can be run offline in the absence of internet connectivity. To d
 
 Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects.
 
-* [Interactive infographic - 2024-03-24](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html)
-* [Resolving vulnerabilities with GitLab Duo (AI) - 2024-02-24](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
-* [CI/CD Catalog beta - 2024-01-24](https://gitlab.navattic.com/cicd-catalog)
-* [Integrating security to the pipeline - 2024-01-24](https://gitlab.navattic.com/gitlab-scans)
-* [Code Suggestions - 2024-01-24](https://gitlab.navattic.com/code-suggestions)
+| Title | Area | Last updated | DRI |
+|-------|------|--------------|-----|
+| [AI Impact analytics](https://gitlab.navattic.com/ai-impact) | GitLab Duo | 2024-08-13 | @iganbaruch |
+| [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise) | GitLab Duo | 2024-07-28 | @iganbaruch |
+| [Value Stream Management](https://gitlab.navattic.com/vsm) | DevSecOps Platform | 2024-06-25 | @iganbaruch |
+| [Interactive infographic](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html) | DevSecOps Platform | 2024-03-24 | @iganbaruch |
+| [Resolving vulnerabilities with GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html) | GitLab Duo | 2024-02-24 | @iganbaruch |
+| [CI/CD Catalog](https://gitlab.navattic.com/cicd-catalog) | CI/CD | 2024-01-24 | @iganbaruch |
+| [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans) | DevSecOps | 2024-01-24 | @iganbaruch |
+| [Code Suggestions](https://gitlab.navattic.com/code-suggestions) | GitLab Duo | 2024-01-24 | @iganbaruch |
+
+### YouTube playlists
+
+- [GitLab Demos](https://www.youtube.com/watch?v=ZQBAuf-CTAY&list=PLFGfElNsQthYv5OtNEFoGwd0cAg-55Hdj) on the GitLab YouTube channel.
+- [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements, on the GitLab Unfiltered YouTube channel.
+- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat) on the GitLab Unfiltered YouTube Channel.
+- [GitLab Snapshots](https://www.youtube.com/playlist?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)
+- [GitLab Snapshots - español](https://www.youtube.com/playlist?list=PLFGfElNsQthbm-EfY2AyFNr8o6qT5A2ud)
+- [GitLab Snapshots - português](https://www.youtube.com/playlist?list=PLFGfElNsQthaRSNTv93cM57GBB1l_95Px)
+- [GitLab Duo Snapshots](https://www.youtube.com/playlist?list=PLFGfElNsQthZGazU1ZdfDpegu0HflunXW)
+
+### Vimeo folder
+
+- [Developer Relations](https://vimeo.com/user/115027220/folder/17153021?isPrivate=false)
+
+### Maintained documentation
+
+Developer advocates authored and maintain the following documentation pages, with practical and technical examples aiding adoption and efficiency use cases.
+
+| Title | Area | Created | DRI |
+|-------|------|--------------|-----|
+| [GitLab Duo use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) | Duo/AI | 2024-03 | @dnsmichi |
+| [CI/CD component examples](https://docs.gitlab.com/ee/ci/components/examples.html) | CI/CD | 2024-02 | @dnsmichi |
+| [Automate storage management](https://docs.gitlab.com/ee/user/storage_management_automation.html) | Utilization, API | 2023-08 | @dnsmichi |
+| [Pipeline efficiency](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) | CI/CD | 2020-09 | @dnsmichi |
 
 ### Maintained talks
 
@@ -54,24 +93,29 @@ These golden talk slide decks provide storytelling for lightning talks at events
 
 These talks are maintained throughout FY25:
 
-- "Efficient DevSecOps workflows with a little help from AI" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources))
-- "Efficient DevSecOps workflows with reusable CI/CD components" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources))
+| Title | Area | Last updated | DRI |
+|-------|------|--------------|-----|
+| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | GitLab Duo | 2024-01-31 | @dnsmichi |
+| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | | 2024-01-31 | @dnsmichi |
 
 ### Projects
 
-Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Remote Development, GitLab API, etc.
+Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Workspaces, GitLab API, etc.
 
-### YouTube playlists
+## Content Creation
 
-- [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
-- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat)
+### Guideline and tips for creating GitLab tours with Navattic
 
+1. Keep the product tours concise, ideally consisting of 8 to 12 steps, each highly focused on delivering clear value. In contrast, demos in documentation may adopt a more instructional "how-to" approach with longer steps.
+1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
+1. In the demo settings, under 'theme' select 'GitLab Branding [Navattic Team]'.
+1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
+
+- Open your browser at 1920x1080 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
+- Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
+- Use the keyboard shortcut Shift+Command+4 to Capture selected portion of the screen.
 
 ## Content Distribution
-
-### Highspot
-
-The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd).
 
 ### UTMs for URL tagging and tracking
 
@@ -114,8 +158,7 @@ For GitLab teams:
 1. Content that can be useful to our Field Teams, should also be posted in [Highspot](https://gitlab.highspot.com/).
 1. Share an update in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel using the following message template:
 
-
-```
+```text
 :results-tanuki: <Content type> published: <title>
 
 Social short UTM URLs:
@@ -131,7 +174,7 @@ Thanks/cc @teammembers
 
 Example:
 
-```
+```text
 :results-tanuki:  Blog published: Set up your infrastructure for on-demand, cloud-based development environments in GitLab
 
 Social short UTM URLs:

@@ -1,5 +1,4 @@
 ---
-
 title: "Running Click-throughs off-line"
 ---
 
@@ -16,6 +15,7 @@ MAKE SURE you do the above instructions with the SAME Google login you will use 
 They are located in the [Company Google drive](https://drive.google.com/drive/u/1/folders/1Qm8Y3oVLRa0nS1BARA631Ex6SKVzYp3C)
 
 The specific files are:
+
 - [Secure Capabilities](https://docs.google.com/presentation/d/1fdTmdepdaq03OSfcA3pYduDxDnQEyvY4ARPqXEX8KrY/edit#slide=id.g2823c3f9ca_0_9) (11.8) - **New as of 2019-03-09**
 - [Auto DevOps Run](https://docs.google.com/presentation/d/1oKHU3MsbJmxVQyO-7c6JLMoCOS80uS-0NlcI-mRxAAY/edit?usp=sharing) (11.3)
 - [Auto DevOps Setup (GKE)](https://docs.google.com/presentation/d/1AGABPlNzMm5-rrYfwGIzueXIbPleVkGpnc2Qk6JtnWk/edit?usp=sharing) (11.3)
@@ -26,11 +26,11 @@ The specific files are:
 ### Using the demo files while off-offline
 
 Once off-line, to run these presentations:
+
 1. Open up your Chrome browser and make sure you are logged in as the same user you used in the previous setup
 1. Go to [http://docs.google.com/presentation](http://docs.google.com/presentation)
 1. Find the files you want to present (they should be in the same folder structure that you previously looked at them in)
 1. Open the presentation you want to show and it should just work.
-
 
 ### Misc
 

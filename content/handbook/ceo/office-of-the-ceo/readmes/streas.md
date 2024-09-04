@@ -1,19 +1,14 @@
 ---
 title: "Stella Treas's README"
-aliases:
-- /handbook/ceo/office-of-the-ceo/readmes/streas/
-- /handbook/ceo/chief-of-staff-team/readmes/streas/
 ---
-
-<!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. -->
 
 ## Stella's README
 
 **Stella Treas, Chief of Staff to the CEO**
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -26,7 +21,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 - I'm from Southern California, but I left home when I was 18. I've since lived in New Hampshire, Barcelona, New York, Boston, Washington, D.C., London, Rwanda, and San Francisco.
 - Before having children, my passion was travel. I've been to over 70 countries and aggressively checked off most of the items that had been on a bucket list that I created when I was 18 (swam with dolphins, lived abroad, jumped from a plane, visited mountain gorillas, went on a tiger safari, etc.).
-- I care about about a number of social causes. Before getting into technology, I worked for a number of nonprofits in various roles.
+- I care about a number of social causes. Before getting into technology, I worked for a number of nonprofits in various roles.
 - My husband and I met on a trip to climb [Half Dome](https://www.nps.gov/yose/planyourvisit/halfdome.htm) in Yosemite.
 - I have 2 young children who are the center of my world outside of work. While I look forward to the day when I can get an uninterrupted night of sleep, they are pretty awesome.
 - Starting the day with hot coffee brings me great happiness. I grow increasingly articulate as I work my way through the first cup.
@@ -61,6 +56,7 @@ Please feel free to contribute to this page by opening a merge request.
 ## Personality tests
 
 2022 [TeamSight](https://teamsight.co/):
+
 1. Ideas: 3 (how that would work here)
 1. Emotion: 3 (I want fair)
 1. Action: 5 (directs projects)
@@ -69,8 +65,8 @@ Please feel free to contribute to this page by opening a merge request.
 2016 [Five Dynamics by Simpli5](https://www.simpli5.com/): Effortless across 5 dimensions. Spikes in Examine and Execute.
 
 2007 [Meyers Briggs](https://www.themyersbriggs.com/): ENTP. Since self diagnosed as an E N T P/J
+
 1. Extrovert
 1. Intuition
 1. Thinking
 1. Prospecting / Judging
-

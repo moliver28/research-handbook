@@ -1,5 +1,4 @@
 ---
-
 title: "Community Programs Workflows"
 description: "Review various workflows associated with the GitLab for Education, GitLab for Open Source, and GitLab for Startups programs"
 ---
@@ -56,10 +55,10 @@ To generate new coupon codes, open an issue ([example](https://gitlab.com/gitlab
 
 Additionally, note the following:
 
-* We store sensitive, program-specific codes [internally](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/149); only Alex Karsten can access these codes.
-* SheerID provides coupon codes when requested via email to `productsupport@sheerid.com`.
-* SheerID provides codes in an individual .csv file specific to each program. The .csv file should only have one column, with no header.
-* SheerID provides sufficient coupon codes for one year of verifications for each program at a time. The number of coupon codes per year is determined using the following basic formula: `number of applications expected per quarter` + `number of expected renewals` * `an average re-verification factor`.
+- We store sensitive, program-specific codes [internally](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/149); only Alex Karsten can access these codes.
+- SheerID provides coupon codes when requested via email to `productsupport@sheerid.com`.
+- SheerID provides codes in an individual .csv file specific to each program. The .csv file should only have one column, with no header.
+- SheerID provides sufficient coupon codes for one year of verifications for each program at a time. The number of coupon codes per year is determined using the following basic formula: `number of applications expected per quarter` + `number of expected renewals` * `an average re-verification factor`.
 
 ### Booking
 
@@ -70,43 +69,43 @@ See GitLab's internal handbook for links to these portals.
 
 During the checkout process:
 
-* Applicants must enter the unique coupon codes they receive in their verification emails
-* Applicants must accept a program agreement:
+- Applicants must enter the unique coupon codes they receive in their verification emails
+- Applicants must accept a program agreement:
 
-  * [GitLab for Education Program Agreement](/handbook/legal/education-agreement/)
-  * [GitLab for Open Source Agreement](/handbook/legal/opensource-agreement/)
-  * GitLab for Startups Agreement is presented directly upon checkout
+  - [GitLab for Education Program Agreement](/handbook/legal/education-agreement/)
+  - [GitLab for Open Source Agreement](/handbook/legal/opensource-agreement/)
+  - GitLab for Startups Agreement is presented directly upon checkout
 
 The GitLab for Startups Terms:
 
-> If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as “Free Software”.
+> If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as "Free Software".
 
 ### Provisioning
 
 Licenses are provisioned directly during process via the WebDirect flow and according to one of the following SKUs:
 
-* `[EDU Program] SaaS - Ultimate (formerly Gold) - 1 Year [EDU Program] SaaS - Ultimate - 1 Year`
-* `[EDU Program] SaaS - Ultimate (formerly Gold) w/ Support - 1 Year [EDU Program] SaaS - Support - 1 Year [EDU Program] SaaS - Ultimate - 1 Year`
-* `[EDU Program] Self-Managed - Ultimate - 1 Year [EDU Program] Self-Managed - Ultimate - 1 Year`
-* `[EDU Program] Self-Managed - Ultimate w/ Support - 1 Year [EDU Program] Self-Managed - Ultimate - 1 Year [EDU Program] Self-Managed - Support - 1 Year`
+- `[EDU Program] SaaS - Ultimate (formerly Gold) - 1 Year [EDU Program] SaaS - Ultimate - 1 Year`
+- `[EDU Program] SaaS - Ultimate (formerly Gold) w/ Support - 1 Year [EDU Program] SaaS - Support - 1 Year [EDU Program] SaaS - Ultimate - 1 Year`
+- `[EDU Program] Self-Managed - Ultimate - 1 Year [EDU Program] Self-Managed - Ultimate - 1 Year`
+- `[EDU Program] Self-Managed - Ultimate w/ Support - 1 Year [EDU Program] Self-Managed - Ultimate - 1 Year [EDU Program] Self-Managed - Support - 1 Year`
 
-* `[OSS Program] SaaS - Ultimate (formerly Gold) - 1 Year [OSS Program] SaaS - Ultimate - 1 Year`
-* `[OSS Program] SaaS - Ultimate (formerly Gold) w/ Support - 1 Year [OSS Program] SaaS - Support - 1 Year [OSS Program] SaaS - Ultimate - 1 Year`
-* `[OSS Program] SaaS - Ultimate (formerly Gold) w/ Support - 3 Year [OSS Program] SaaS - Support - 3 Year [OSS Program] SaaS - Ultimate - 1 Year`
-* `[OSS Program] Self-Managed - Ultimate - 1 Year [OSS Program] Self-Managed - Ultimate - 1 Year`
-* `[OSS Program] Self-Managed - Ultimate w/ Support - 1 Year [OSS Program] Self-Managed - Support - 1 Year [OSS Program] Self-Managed - Ultimate - 1 Year`
-* `[OSS Program] Self-Managed - Ultimate w/ Support - 1 Year [OSS Program] Self-Managed - Support - 3 Year [OSS Program] Self-Managed - Ultimate - 3 Year`
+- `[OSS Program] SaaS - Ultimate (formerly Gold) - 1 Year [OSS Program] SaaS - Ultimate - 1 Year`
+- `[OSS Program] SaaS - Ultimate (formerly Gold) w/ Support - 1 Year [OSS Program] SaaS - Support - 1 Year [OSS Program] SaaS - Ultimate - 1 Year`
+- `[OSS Program] SaaS - Ultimate (formerly Gold) w/ Support - 3 Year [OSS Program] SaaS - Support - 3 Year [OSS Program] SaaS - Ultimate - 1 Year`
+- `[OSS Program] Self-Managed - Ultimate - 1 Year [OSS Program] Self-Managed - Ultimate - 1 Year`
+- `[OSS Program] Self-Managed - Ultimate w/ Support - 1 Year [OSS Program] Self-Managed - Support - 1 Year [OSS Program] Self-Managed - Ultimate - 1 Year`
+- `[OSS Program] Self-Managed - Ultimate w/ Support - 1 Year [OSS Program] Self-Managed - Support - 3 Year [OSS Program] Self-Managed - Ultimate - 3 Year`
 
-* `[Startups Program] SaaS - Ultimate (formerly Gold) - 1 Year [Startups Program] SaaS - Ultimate - 1 Year`
-* `[Startups Program] SaaS - Ultimate (formerly Gold) w/ Support - 1 Year [Startups Program] SaaS - Ultimate - 1 Year [Startups Program] SaaS - Support - 1 Year`
-* `[Startups Program] Self-Managed - Ultimate - 1 Year [Startups Program] Self-Managed - Ultimate - 1 Year`
-* `[Startups Program] Self-Managed - Ultimate w/ Support - 1 Year [Startups Program] Self-Managed - Ultimate - 1 Year [Startups Program] Self-Managed - Support - 1 Year`
+- `[Startups Program] SaaS - Ultimate (formerly Gold) - 1 Year [Startups Program] SaaS - Ultimate - 1 Year`
+- `[Startups Program] SaaS - Ultimate (formerly Gold) w/ Support - 1 Year [Startups Program] SaaS - Ultimate - 1 Year [Startups Program] SaaS - Support - 1 Year`
+- `[Startups Program] Self-Managed - Ultimate - 1 Year [Startups Program] Self-Managed - Ultimate - 1 Year`
+- `[Startups Program] Self-Managed - Ultimate w/ Support - 1 Year [Startups Program] Self-Managed - Ultimate - 1 Year [Startups Program] Self-Managed - Support - 1 Year`
 
 ### Compliance
 
 Sales-Support and Billing Ops handle compliance-related issues.
 This stage results in granting the license and notifying the customer of how to access the licenses.
-The Community Programs team ensures compliance with Program Agreements. 
+The Community Programs team ensures compliance with Program Agreements.
 
 In cases where the Community Programs team believes a program member's actions violate the terms of a Program Agreement, team members will report the suspected violation by opening a [Legal and Compliance issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/).
 The Community Programs team will then collaborate with GitLab's Legal team to determine the most appropriate method of assessing the issue.
@@ -116,10 +115,10 @@ In cases where the Community Programs team believes a program member's actions v
 First, the team will notify the program member of the suspected violation with a message that conforms to [the appropriate template](https://gitlab.com/gitlab-com/marketing/developer-relations/community-programs/operations/-/blob/main/support-macros/opensource/oss-program-eligibility-violation.md).
 The purpose of this message is to:
 
-* Serve as formal notice that under the terms of an applicable Agreement the program member's current use of the licenses granted is not in compliance with the terms of the applicable Agreement.
-* Signal the beginning of the 30-day cure period, by the conclusion of which the program member must rectify the failure
-* Express interest in and commitment to working with the program member to remedy the situation 
-* Offer to meet with (or communicate asynchronously with) the program member to answer additional questions about the member's use of GitLab under the terms of the Program Agreement
+- Serve as formal notice that under the terms of an applicable Agreement the program member's current use of the licenses granted is not in compliance with the terms of the applicable Agreement.
+- Signal the beginning of the 30-day cure period, by the conclusion of which the program member must rectify the failure
+- Express interest in and commitment to working with the program member to remedy the situation
+- Offer to meet with (or communicate asynchronously with) the program member to answer additional questions about the member's use of GitLab under the terms of the Program Agreement
 
 Members of the Community Programs team will then work with the program member to cure the failure before the 30-day cure period has concluded.
 
@@ -160,7 +159,7 @@ Each step of the automated application workflow has different set of potential e
 | Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
 | Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
-| Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team ](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|
+| Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|
 | Verification | SheerID Application | Applicant makes a case to SheerID that EDU rejection was in error but SheerID cannot resolve. | Education Program team | SheerID emails education@gitlab.com with details. GitLab EDU team resolves. |
 | Booking | GitLab Customers Portal | Coupon Code has already been used | GitLab Support |Error message on the portal. `The code has already been used.` There is no CTA on the portal, user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses)|
 | Booking | GitLab Customers Portal | Coupon Code is invalid | GitLab Support | Error message on the portal. `This code is not valid. Try re-entering the code from your email`. There is no CTA message on the portal, the user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) |
@@ -182,16 +181,19 @@ Sales team members receiving inbound requests regarding community programs shoul
 | How to apply for program membership | Send the relevant [marketing or application page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with instructions and an application form |
 | How to renew | Send the [relevant marketing or application page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with renewal instructions and the application form |
 | How to alter some aspect of a subscription | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance |
-| An edge case | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance | 
+| An edge case | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance |
 
 ## Common program-related Salesforce workflows
 
 ### Edit an address
 
 1. Navigate to the **Account** view in Salesforce. Scroll down to the *Address Information*, *Billing Address*.
-  - Note: The **Billing Address** can also be accessed from the **Contact** view.
+
+   - Note: The **Billing Address** can also be accessed from the **Contact** view.
+
 1. Click the edit button to edit the address. Click *OK* to save the changes.
-  - Note: The address should update for the **Account**, **Contact** and **Opportunity**.
+
+   - Note: The address should update for the **Account**, **Contact** and **Opportunity**.
 
 ### Reassign a Salesforce object
 
@@ -209,9 +211,10 @@ Sales team members receiving inbound requests regarding community programs shoul
 ### Apply naming conventions
 
 [Naming conventions](/handbook/sales/field-operations/gtm-resources/)
-  - Lead status: *Accepted* means Program Manager reached out to the lead/contact
-  - Lead status: *Qualifying* means Program Manager is in 2-way conversation with lead/contact
-  - Lead status: *Unqualified* means Applicant is not qualified for that program
+
+- Lead status: *Accepted* means Program Manager reached out to the lead/contact
+- Lead status: *Qualifying* means Program Manager is in 2-way conversation with lead/contact
+- Lead status: *Unqualified* means Applicant is not qualified for that program
 
 ### Check approval history
 
@@ -224,6 +227,7 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 Chatter is the primary method of communication between users and groups in Salesforce. Chatter can occur at *Account* or *Opportunity* level.
 Chatter notifications for individuals can be found on the individual's home tab in Salesforce.
+
 - Sales team members (operations and account owners) will chatter Program Managers or individuals when an action is required on a record.
 - When an individual is chattered the message will appear both at the top of the object from which the chatter initiated, i.e. *Account* or *Opportunity* and it will appear in the *Chatter* tab of Salesforce.
 - In order to chatter someone directly you can type *@{NAME}* in the chatter window and select the name of the person or group you wish to chatter.
@@ -260,4 +264,3 @@ If an error is made on a quote, for example, a missing zipcode or incorrect bill
 4. Update the Sold To/Bill To information by searching and selecting the correct contacts.
 5. After making the edits, click 'Save'
 6. Click 'Generate PDF Doc' and proceed with standard process for sending a quote through DocuSign.
-

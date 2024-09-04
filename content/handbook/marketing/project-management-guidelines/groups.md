@@ -12,7 +12,7 @@ GitLab helps to organize teams and work through a hierarchy of [Groups](https://
 
 Groups can contain other groups ([subgroups](https://docs.gitlab.com/ee/user/group/subgroups/index.html)) and projects.
 
-![groups and subgroups](/handbook/marketing/project-management-guidelines/images/groups-subgroups.svg){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width50pct }
+![groups and subgroups](/handbook/marketing/project-management-guidelines/images/groups-subgroups.svg)
 
 Groups and Projects are both similar and fundamentally different, which can be confusing when using GitLab
 
@@ -32,7 +32,7 @@ Groups and Projects are both similar and fundamentally different, which can be c
 
 Graphically, this illustrates the difference between groups and projects:
 
-![groups vs projects](/handbook/marketing/project-management-guidelines/images/groups-projects.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width50pct }
+![groups vs projects](/handbook/marketing/project-management-guidelines/images/groups-projects.png)
 
 ### Known limitations
 
@@ -67,7 +67,7 @@ classDef GRP_NMKTG fill:#F7ECF7, stroke: #333, stroke-dasharray: 5, 5
 
 ```mermaid
 graph LR
-	A(["Marketing &#128101;"]):::GRP
+    A(["Marketing &#128101;"]):::GRP
   A --> B(["Corporate Marketing &#128101;"]):::GRP
   A --> C(["Growth Marketing &#128101;"]):::GRP
   A --> D(["Revenue Marketing &#128101;"]):::GRP

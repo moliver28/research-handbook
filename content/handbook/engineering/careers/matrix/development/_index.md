@@ -9,13 +9,13 @@ title: Development Department Career Framework
 These are the expected competencies of team members at GitLab by Job Title and job grade.
 
 - Engineer
-    - [Intermediate](/handbook/engineering/careers/matrix/development/intermediate/)
-    - [Senior](/handbook/engineering/careers/matrix/development/senior/)
-    - [Staff](/handbook/engineering/careers/matrix/development/staff/)
-    - [Principal](/handbook/engineering/careers/matrix/development/principal/)
+  - [Intermediate](/handbook/engineering/careers/matrix/development/intermediate/)
+  - [Senior](/handbook/engineering/careers/matrix/development/senior/)
+  - [Staff](/handbook/engineering/careers/matrix/development/staff/)
+  - [Principal](/handbook/engineering/careers/matrix/development/principal/)
 - Engineering Manager
-    - Frontend, Backend, Fullstack
-    - Senior
+  - Frontend, Backend, Fullstack
+  - Senior
 - Director of Engineering
 - Senior Director of Engineering
 - Vice President of Development

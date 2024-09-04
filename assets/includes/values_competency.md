@@ -1,4 +1,5 @@
 ##### GitLab
+
 * Adhere to the [Collaboration Competencies](/handbook/values/#collaboration-competency) for this job grade.
 * Adhere to the [Results Competencies](/handbook/values/#results-competency) for this job grade.
 * Adhere to the [Efficiency Competencies](/handbook/values/#efficiency-competency) for this job grade.

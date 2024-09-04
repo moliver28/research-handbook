@@ -33,14 +33,16 @@ description: "Learn about GitLab Simplify Groups & Projects Working Group busine
 
  (✅ Done, ✏️ In-progress)
 
-##### [Identify high level vision, MCV, and an iteration plan to solve the problem](https://gitlab.com/gitlab-org/gitlab/-/issues/218333) `=> 100%`
+#### Identify high level vision, MCV, and an iteration plan to solve the problem `=> 100%`
+
+[Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/218333)
 
 - **Business viability:** Does the solution work for our business? ✅
 - **Technical feasibility:** Can we build it? ✅
 - **Usability:** Can the user figure out how to use it and is it better received than our current approach to Groups and Projects? ✅
 - **Value:** Will this drive an increase in key business metrics such as SpU, SPAN, SMAU, and AMAU? ✅
 
-Opportunity Canvas: https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit
+Opportunity Canvas: <https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit> (internal)
 
 ## Roles and Responsibilities
 

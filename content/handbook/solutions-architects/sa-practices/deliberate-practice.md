@@ -1,8 +1,6 @@
 ---
-
 title: "Deliberate Practice"
 ---
-
 
 They say that practice makes perfect.  While it's true that practice is important to hone one's skills, it's how you actually do that practice that matters.  [Deliberate Practice](https://jamesclear.com/beginners-guide-deliberate-practice) is a particular way of practicing that is persistant and intense.  When one practices deliberately, they are stretching beyond their normal comfort level and they are focusing on a particular piece of their routine or demonstration to work on with a specific goal of improving performance.
 
@@ -23,6 +21,7 @@ Finding a topic that you are unfamiliar with and putting some time into understa
 GitLab Solutions Architects should feel comfortable performing Lightning Talks in front of their peers
 
 Tips:
+
 - Give a quick intro to who you are and why you are discussing this topic today
 - A five minute Lightning Talk should have 10 slides at the most
 - Set a scenario, but get to your point quickly
@@ -31,10 +30,10 @@ Tips:
 - Solicit feedback from your peers and/or manager
 
 Examples:
+
 - [SAST for Helm Charts](https://www.youtube.com/watch?v=a1Y9927eC4I)
 - [Open Source MR Process](https://www.youtube.com/watch?v=7zWqacrcmzk)
 - [Parallel Matrix in GitLab CI](https://www.youtube.com/watch?v=rAKUvpECSa4)
-
 
 ## Demo Jam
 
@@ -64,6 +63,7 @@ This is a facilitation session where Solutions Architects will be assigned a [ra
 An SA peer review involves a collaborative exchange among members of the same SA team regarding ongoing opportunities. The primary SA and other team members engage in discussions aimed at enhancing teamwork and achieving improved outcomes. This entails sharing insights, best practices, and strategies for closing opportunities more effectively and efficiently. It provides a supportive environment for evaluating opportunities in progress, drawing lessons from colleagues' experiences, and exchanging valuable insights through questions and suggestions.
 
 The benefits of frequent peer review sessions include:
+
 1. **Quality Enhancement**: Peer review sessions help identify potential issues, errors, or gaps in pre-sales collateral materials and processes, ensuring that the value proposition and technical opportunity plans are of the highest quality before they reach the customer.
 1. **Diverse Perspectives**: Different team members bring unique viewpoints and expertise to the table. Peer reviews encourage the sharing of diverse perspectives, leading to well-rounded and comprehensive pre-sales strategies.
 1. **Knowledge Sharing**: Peer reviews facilitate the sharing of knowledge, best practices, and lessons learned. Team members can learn from each other's experiences, contributing to continuous improvement.
@@ -74,27 +74,26 @@ The benefits of frequent peer review sessions include:
 1. **Skill Development**: Participating in peer review sessions hones team members' analytical and critical thinking skills. Constructive feedback and discussions contribute to professional growth and development.
 1. **Confidence Boost**: Knowing that the approach and the action plan have undergone rigorous peer review instills confidence in the team's work and gives them assurance when presenting to prospects and customers.
 
-
-#### Process
+### Process
 
 - Process DRI (rotated monthly or quarterly )
   - Ensures that every session has one or multiple volunteers to present an opportunity for review. If no volunteers are identified, the process DRI is responsible for cancelling the meetong
   - Sends a reminder to team members BEFORE the meeting to ensure they review what has been filled in
 - Presenting SA
   - Creates a copy and fills out the [SA Peer Review template](https://docs.google.com/document/d/1d-2cmSAR-KQ9bGOIMxfWgJFMOad_nSgnsNBCf4pB-0s/edit) document before the session. This should not be a heavy lift preparation and the presenting SA is expected to spend max. 10-15 minutes on this. The document should incude:
-     - High level description of the account and opportunity;
-     - Technical Opportunity Plan; Timeline; Actions already executed or planned;
-     - Links to additional information (SFDC, slide decks, opportunity / strategy / success plans, etc.)
+    - High level description of the account and opportunity;
+    - Technical Opportunity Plan; Timeline; Actions already executed or planned;
+    - Links to additional information (SFDC, slide decks, opportunity / strategy / success plans, etc.)
 - Attending SAs
   - Review meeting notes / template beforehand
   - Ask questions & provide suggestions during the session. E.g.:
     - _Did you consider suggesting Scan Result Policies?_
     - _Your running notes have great info about the tech stack, how were you able to find that?_
 
-
-#### Choosing the right opportunity
+### Choosing the right opportunity
 
 A good opportunity for a peer review process should meet following requirements:
+
 - Any ongoing opportunity that would benefit from peers input
 - Accounts with growth potential
 - Technical discovery has already been completed

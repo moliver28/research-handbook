@@ -19,6 +19,7 @@ Scenario C: Supplier permanently paid by Virtual Card on invoice (card issued to
 **Scenario A** - there are no tasks for AP.
 
 **Scenario B** - AP will need to create a new Supplier Payment Account (SPA) type for the Supplier. See below steps to create the Virtual Card SPA.
+
 - Step 1. When the requisition arrives in the AP **To Do** queue, create a new Supplier Payment Account.
 
 ![apvcard1](../apvcard1.png)
@@ -36,9 +37,9 @@ Scenario C: Supplier permanently paid by Virtual Card on invoice (card issued to
 ## Allocadia suppliers to be paid permanently by Virtual Card
 
 AP will be tagged on the requisition requesting the permanent Virtual Card SPA set up for the supplier.
+
 - Follow Step 1 - 4 for above **Scenario B** to create the SPA. Note that the requisition will already be submitted with the actual supplier, AP just needs to set up the Virtual Card SPA.
 - Step 5. After the new SPA is active, update **Comments** section of the requisition stating the permanent Virtual Card SPA has been created.
-
 
 {{< panel header="**Note On Timing**" header-bg="danger" >}}
 **The Virtual Card SPA must be created BEFORE the requisition has been fully approved in order to generate the Virtual Card to the requester.**

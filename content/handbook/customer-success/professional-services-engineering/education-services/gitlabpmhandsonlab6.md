@@ -1,10 +1,9 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Use A Merge Request To Review And Merge Code"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+title: "GitLab Agile Portfolio Management- Hands-On Lab: Use A Merge Request To Review And Merge Code"
+description: "This Hands-On Guide walks you through creating a merge request and approval rules in GitLab."
 ---
 
 > Estimated time to complete: 45-60 minutes
-
 
 ## Objectives
 
@@ -84,7 +83,7 @@ Approval rules define how many approvals a merge request must receive before it 
     We are researching and testing additional tools to improve performance.
     ```
 
-1. Click **Source Control** in the the left pane (the third button from the top).
+1. Click **Source Control** in the left pane (the third button from the top).
 
 1. In the **Commit message** field, enter `Update docs with performance tools`
 

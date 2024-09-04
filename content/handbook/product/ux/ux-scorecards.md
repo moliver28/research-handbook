@@ -39,10 +39,11 @@ You can do a [formative evaluation](https://www.nngroup.com/articles/formative-v
 When doing a formative evaluation, do a "light" usability test to observe 3-5 internal or external users, as this provides valuable insights and removes subjectivity. This can be done in about a day, if the scenario you are evaluating is simple to set up in a test project. If your scenario is highly technical and requires complex customizations, plan ahead as it can take a couple of days just to set up an environment for the evaluation.
 
 In every case,
-- define the [JTBD](/handbook/product/ux/jobs-to-be-done/) prior to conducting the Scorecard.
-- use our [heuristics](/handbook/product/ux/heuristics/) when evaluating the experience.
-- use the [Grading Rubric](#grading-rubric) to provide an overall measurement that becomes the benchmark score for the experience.
-- observation of users is preferred over a purely heuristic evaluation as it will remove subjectivity.
+
+* define the [JTBD](/handbook/product/ux/jobs-to-be-done/) prior to conducting the Scorecard.
+* use our [heuristics](/handbook/product/ux/heuristics/) when evaluating the experience.
+* use the [Grading Rubric](#grading-rubric) to provide an overall measurement that becomes the benchmark score for the experience.
+* observation of users is preferred over a purely heuristic evaluation as it will remove subjectivity.
 
 This is a process intended to help inform the design process and maintain a high bar of quality.
 
@@ -50,38 +51,38 @@ This is a process intended to help inform the design process and maintain a high
 
 **When to create a UX Scorecard:**
 
-- To quickly identify and prioritize usability issues and opportunities for improvement within an experience.
-- When joining a new product area to become familiar with the workflows and to evaluate the experience from a fresh perspective.
-- In conjunction with usability testing workflows.
-- In order to evaluate the onboarding experience of your workflows.
+* To quickly identify and prioritize usability issues and opportunities for improvement within an experience.
+* When joining a new product area to become familiar with the workflows and to evaluate the experience from a fresh perspective.
+* In conjunction with usability testing workflows.
+* In order to evaluate the onboarding experience of your workflows.
 
 **When to create a [Category Maturity Scorecard](/handbook/product/ux/category-maturity/category-maturity-scorecards/):**
 
-- When more rigorous testing is required within a category in relation to a set of business requirements and/or features that are needed for the category to move up. This is a summative process (not for identifying usability concerns) that allows us to gather metrics and data that will help us understand how changes to the product impact the user experience over time. We grade the maturity of our product using this process.
+* When more rigorous testing is required within a category in relation to a set of business requirements and/or features that are needed for the category to move up. This is a summative process (not for identifying usability concerns) that allows us to gather metrics and data that will help us understand how changes to the product impact the user experience over time. We grade the maturity of our product using this process.
 
 ## Setup
 
 Below is a recommended step by step process for completing a UX Scorecard. Note that every scorecard is not the same. Product Designers are welcome to adapt the steps to their needs as long as they are as objective as possible and the spirit and outcome remains the same.
 
 1. Create an (or locate the existing) epic that will contain all UX Scorecards for that stage group.
-    > Example: “UX Scorecard - Create:Source Code”
+    > Example: "UX Scorecard - Create:Source Code"
 1. If not already done, add the stage group epic to the [UX Scorecards -- All Evaluations](https://gitlab.com/groups/gitlab-org/-/epics/1714) epic.
 1. Work with your Product Manager to identify the top jobs (in frequency or importance) for users of your stage group. Ideally, you will base this task list on user research (analytics or qualitative findings).
 1. Select one of the top jobs to complete a UX Scorecard.
-1. [Create an experience scoring issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%201), using the template “WIP: UX Scorecard Part 1”, and add it to the stage group epic.
+1. [Create an experience scoring issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%201), using the template "WIP: UX Scorecard Part 1", and add it to the stage group epic.
 
 This issue should have the **UX Scorecard** label. If it's related to an OKR, also apply the **OKR** label for easier tracking.
 
-1. [Create a recommendations issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202), using the template “WIP: UX Scorecard Part 2”, to be done after the experience scoring.
+1. [Create a recommendations issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202), using the template "WIP: UX Scorecard Part 2", to be done after the experience scoring.
     1. If you're doing a Heuristic Buddy Evaluation skip this step and continue using the [Heuristic Buddy Scorecard template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)
 1. Follow the instructions in the templates to complete the scorecard and use the Grading Rubric.
 1. Once you have completed the evaluation and provided your recommendations, remove the "WIP:" prefix from the issue title.
 
 If you'd like to view or edit the templates, you can find them here:
 
-- [Part 1 - UX Scorecard](https://gitlab.com/gitlab-org/gitlab-design/blob/master/.gitlab/issue_templates/UX%20Scorecard%20Part%201.md)
-- [Part 2 - Recommendations](https://gitlab.com/gitlab-org/gitlab-design/blob/master/.gitlab/issue_templates/UX%20Scorecard%20Part%202.md)
-- [Heuristic Buddy Scorecard](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)
+* [Part 1 - UX Scorecard](https://gitlab.com/gitlab-org/gitlab-design/blob/master/.gitlab/issue_templates/UX%20Scorecard%20Part%201.md)
+* [Part 2 - Recommendations](https://gitlab.com/gitlab-org/gitlab-design/blob/master/.gitlab/issue_templates/UX%20Scorecard%20Part%202.md)
+* [Heuristic Buddy Scorecard](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)
 
 ## Grading rubric
 
@@ -102,22 +103,22 @@ The onboarding experience of your product category can make a big difference in 
 
 Onboarding can refer to many different scenarios, and this can impact the experience:
 
-- a SaaS or self-managed user
-- a brand new GitLab admin setting up a SaaS or self-managed account/instance
-- a brand new GitLab user joining a company or team
-- a trial user
-- an existing user of GitLab joining a company or team
-- an existing user of GitLab trying a feature in a new stage or category
-- a GitLab feature, a set of features, or a complete DevOps stage
+* a SaaS or self-managed user
+* a brand new GitLab admin setting up a SaaS or self-managed account/instance
+* a brand new GitLab user joining a company or team
+* a trial user
+* an existing user of GitLab joining a company or team
+* an existing user of GitLab trying a feature in a new stage or category
+* a GitLab feature, a set of features, or a complete DevOps stage
 
 For example, an existing user of GitLab joining a new team might require some help on unfamiliar features, or getting oriented to the groups and projects on the team. While a brand new user would require more help getting oriented with the application itself.
 
 ### Steps to Evaluate Onboarding UX
 
-- Think about the most important tasks/scenarios related to your JTBD.
-- Identify the scenarios in which a user would do this task for the first time.
-- Conduct a UX scorecard or usability test on those tasks/scenarios, incorporating each scenario.
-- Focus your evaluation on the onboarding [heuristics and rubric](/handbook/product/ux/heuristics/) to rate the onboarding experience.
-- Document the onboarding score and date (location TBD).
+* Think about the most important tasks/scenarios related to your JTBD.
+* Identify the scenarios in which a user would do this task for the first time.
+* Conduct a UX scorecard or usability test on those tasks/scenarios, incorporating each scenario.
+* Focus your evaluation on the onboarding [heuristics and rubric](/handbook/product/ux/heuristics/) to rate the onboarding experience.
+* Document the onboarding score and date (location TBD).
 
 If you have a recent UX scorecard or a recent usability test with recordings, you can update these rather than starting over. For example, if you recently did a usability test on creating MRs, you can re-watch the sessions with the onboarding heuristics in mind to infer an initial score for the onboarding experience. However, it is highly recommended that at some point you intentionally evaluate the onboarding experience.

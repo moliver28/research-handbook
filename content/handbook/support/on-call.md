@@ -9,10 +9,10 @@ description: >-
 
 There are five on-call rotations in Support:
 
-- [CMOC](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
-- [Customer Emergencies](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
-- [US Federal Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
-- [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) - in which Support Manager are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
+- [Communications Manager on-call (CMOC)](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
+- [Customer Emergencies on-call (CEOC)](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
+- [US Government Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
+- [Support Manager On-call (SMOC)](/handbook/support/workflows/support_manager-on-call) - in which Support Managers are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
 - [Support Operations On-call](/handbook/support/workflows/support_operations-on-call) - in which Support Readiness team members who focus on our Operations are available to be paged if there's an operational emergency
 
 For customers that have [Priority Support](https://about.gitlab.com/support/#priority-support), the Support Engineering Team is on-call in these capacities and available to assist with emergencies. What constitutes an emergency is defined in our [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact).
@@ -23,11 +23,11 @@ We take on-call seriously. There are [escalation policies](https://gitlab.pagerd
 
 ### Be alert and available
 
-When you are on call you are expected to be available and ready to respond to PagerDuty pings as soon as possible, and certainly within the emergency response time set by our [Service Level Agreements](https://about.gitlab.com/support/#priority-support).
+When you are on call you are expected to be available and ready to respond to PagerDuty pings as soon as possible, and certainly within the emergency response time set by our [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#priority-support).
 
 If you have plans outside of your work space while being on call, then being available may require bringing a laptop and reliable internet connection with you.
 
-You should not be chained to your desk, but you should be equipped to acknowledge and act on PD alerts in a timely manner.
+You should not be chained to your desk, but you should be equipped to acknowledge and act on PagerDuty alerts in a timely manner.
 
 Be proactive in communicating your availability. Sometimes you can't be *immediately* available for every minute of your on-call shift. If you expect to be unavailable for a short period of time, send an FYI in Slack.
 
@@ -43,7 +43,6 @@ Before your scheduled on-call shift begins, check [the Customer Events calendar]
 
 **Note:** You may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
 
-
 ### Ask for help when needed
 
 Rest assured: escalation is okay -- other GitLab team members are happy to help. Caring for our customers is a shared responsibility. Tag a Slack support-team Group if you haven't gotten help in your Slack thread. Tag the support managers if you need to escalate further.
@@ -54,9 +53,10 @@ If another support engineer joins your emergency call, feel free to assign them 
 
 ### Take care of yourself
 
-Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](https://about.gitlab.com/handbook/paid-time-off). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
+Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](/handbook/people-group/paid-time-off/). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
 
 When you get a notification from PagerDuty give yourself a few minutes to prepare.
+
 - Get to someplace comfortable and quiet where you can devote your attention to the emergency.
 - Take care of any biological needs.
 - Grab a snack and some water.
@@ -64,6 +64,23 @@ When you get a notification from PagerDuty give yourself a few minutes to prepar
 
 When you're in a call, you do **not** need to provide *immediate* answers. You're allowed to pause for a few minutes for researching, asking for help, etc. Make sure to communicate -- let the other folks on the call know what you're doing. Example: "I need a few minutes to work through the code here and make sense of it".
 
+As well, consider taking breaks during emergency calls. Taking a break can help you to feel more refreshed while ensuring our customers get the best help we can provide.
+At the beginning of the call, set expectations with the customer by letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.
+
+When the call begins, set a timer to count down and notify you that it's time for a break. (If you forget, observe the call duration in Zoom.)
+
+When the timer goes off, summarize the current state, make sure everyone knows when the call will resume and how to join. If your timer expires but you're not at a reasonable stopping point, extend the timer by a small amount.
+
+During the break:
+
+- Stop actively working on the emergency
+- [Take care of yourself](#take-care-of-yourself)
+- Step away from your working area
+- Reflect on the current troubleshooting strategy, the goal, and other options or possible causes
+
+A 15 minute break during active troubleshooting can be a good way to reset, and help your brain come up with new, creative ideas to solve the problem at hand.
+
+While the break should be restorative, in some cases it can be helpful to use some of the break time to form a plan for what you plan to try next when the call resumes.
 If you've had a long week with multiple pages from PagerDuty or particularly long calls, consider asking someone to cover a day or some portion of a day so you can get some rest.
 
 ## How Support On-call works
@@ -79,14 +96,14 @@ PagerDuty is the single source of truth for on-call hours, rotation order and es
 
 There are several ways to view current and future schedules:
 
-1. On gitlab.io: [View the current and next week's assignments](https://gitlab-com.gitlab.io/support/team/oncall)
-1. In PagerDuty: View the [Customer Emergencies schedule](https://gitlab.pagerduty.com/schedules) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
+1. In PagerDuty: View the [Customer Emergencies schedule (CEOC)](https://gitlab.pagerduty.com/schedules) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
 1. In Google Calendar, [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts)
-1. In the `#spt-gg-forest` slack channel, you can see who is on-call for the different schedules today
+1. In the `#spt_leaders-daily` slack channel, you can see who is on-call for the different schedules today
+1. In the [Support Pagerduty Worksheet](https://drive.google.com/drive/u/0/search?q=Support%20Pagerduty%20Worksheet), you may be able to see who will be on-call for future quarters.
 
 #### Scheduling PagerDuty rotations
 
-PagerDuty schedules for Support should be filled in by DRIs (readiness, support managers, etc.) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
+PagerDuty schedules for Support should be filled in by the Directly Responsible Individuals (DRIs) (such as readiness, support managers, etc.) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
 The Readiness Team uses this sheet's contents to populate the following quarter's PagerDuty schedules during the first week of the final month of the quarter (Jan., Apr., Jul., Oct.). On the first Monday of the second month of a quarter the Readiness Team will post in the Slack [#support_leadership channel](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) a reminder  to the DRIs of the upcoming implementation due date.
 
 Once the Readiness Team has implemented the next quarter's schedule they remove the scheduled rows from the sheet and PagerDuty becomes the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet is the SSOT.
@@ -99,7 +116,7 @@ DRIs are free to use the spreadsheet to create the schedule in advance for up to
 
 To make changes to the PagerDuty schedule, create a support team meta issue to discuss the changes with the affected participants. Once you decide on what changes to make, mention the support operations team in the issue to request that they implement those changes.
 
-More details can be found in the Operations Team [Pagerduty change management documentation](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/pagerduty/change_management/).
+More details can be found in the Operations Team [Pagerduty change management documentation](/handbook/support/readiness/operations/docs/pagerduty/change_management/).
 
 #### Your first on-call shift
 
@@ -171,13 +188,14 @@ When your on-call shift starts, you should get notification(s) that your shift i
 ### Ending your on-call shift
 
 Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next engineer in the rotation.
-This may mean [paging the next on-call engineer](#paging-the-next-on-call-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
+This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
 you have handled that have some follow-up action. For example:
-   - if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
-     - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
-   - if a SaaS customer paged in looking for log analysis and we're waiting on the SIRT team, let the incoming on-call know and consider having them send a message in the ticket informing the customer of the handover
-   - if a customer is still in a heightened state and is monitoring after an outage and *may* page the on-call engineer, let the incoming on-call know
-   - if a SaaS incident ended and we're monitoring the queues for new customer reports, provide the incoming on-call engineer with a list of actions they should take
+
+- if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
+  - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
+- if a SaaS customer paged in looking for log analysis and we're waiting on the SIRT team, let the incoming on-call know and consider having them send a message in the ticket informing the customer of the handover
+- if a customer is still in a heightened state and is monitoring after an outage and *may* page the on-call engineer, let the incoming on-call know
+- if a SaaS incident ended and we're monitoring the queues for new customer reports, provide the incoming on-call engineer with a list of actions they should take
 
 Generally: if there's a situation that occurred (or is actively happening) during your shift it's your responsibility to prepare the next on-call engineers.
 
@@ -192,31 +210,76 @@ You may want to monitor all on-call pages received by the Support team. You can
 do this by joining the [`#spt_on-call`](https://gitlab.slack.com/archives/C02TSECGGV8)
 Slack channel.
 
-### Seeing which manager is on-call
+### Determining the On-call Support Engineer (CEOC)
 
-To see who the current manager on-call is you can:
+To see who the *current* Support Engineer on-call is, you can:
 
-- use ChatOps to query the on-call schedule with `/chatops run oncall manager`
-- log in to PagerDuty view the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
-- View the individual on-call schedules for
-    - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
-    - [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
-    - [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
-- In the `#spt-gg-forest` slack channel, the regional bot message lists who is on-call for the different schedules today
-- Ask in `#support_leadership` (where you may or may not be referred to the above steps!)
+- [Look up](https://slack.com/help/articles/360003534892-Browse-people-and-user-groups-in-Slack#browse-user-groups) who currently is a member of the `@ceoc` group/handle in Slack
+- Log in to PagerDuty to view the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
+- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
 
-### Paging the next on-call engineer
+To see who the *upcoming* Support Engineer on-call is, you can view the individual on-call schedules for:
 
-- First, try pinging the on-call engineer in Slack using the `@ceoc` handle.
-- If it's important and urgent or a weekend, you can:
-   - Manually create a new incident from the [Customer Support Service](https://gitlab.pagerduty.com/service-directory/PL3TX00)
+- [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
+- [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
+- [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
+- [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
+- [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
+- [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
 
-### Paging the on-call manager
+When in doubt, you can always ask in `#support_leadership`.
 
-- First, try pinging the on-call manager by tagging `@support-manager-oncall` in Slack.
-- If it's important and urgent or a weekend, you can:
-    - Tag the Support Manager On-Call by name in Slack to page the on-call manager
-    - Manually create a new incident from the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
+### Determining the On-call Manager
+
+To see who the *current* manager on-call is, you can:
+
+- [Look up](https://slack.com/help/articles/360003534892-Browse-people-and-user-groups-in-Slack#browse-user-groups) who currently is a member of the `@support-manager-oncall` group/handle in Slack
+- Log in to PagerDuty to view the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
+
+To see who the *upcoming* manager on-call is, you can view the individual on-call schedules for:
+
+- [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
+- [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
+- [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
+
+When in doubt, you can always ask in `#support_leadership`.
+
+### Engaging the next On-call Support Engineer
+
+In this context it is assumed that your shift has ended and the "next" Support Engineer on-call is the *current* one as far as PagerDuty is concerned. In that case:
+
+You can ping the current Support Engineer On-call in Slack by tagging `@ceoc`.
+
+You should page the Support Engineer On-call via PagerDuty
+
+- immediately on a weekend or a holiday.
+- if you don't get a reply to your Slack ping after ten minutes.
+
+To page the current Support Engineer On-call, you can:
+
+- Use the `/pd trigger` command in Slack to create a new incident (for the `Customer Support` service)
+- Manually create a new incident from the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
+
+If your shift has **not** ended yet and you want to coordinate with the *upcoming* Support Engineer on-call, see [determining the On-call Support Engineer](#determining-the-on-call-support-engineer-ceoc).
+
+### Engaging the On-call Manager
+
+In some situations, you may need to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
+
+You can ping the current Support Manager On-call in Slack by tagging `@support-manager-oncall`.
+
+You should page the Support Manager On-call via PagerDuty
+
+- immediately on a weekend or a holiday.
+- if you don't get a reply to your Slack ping after ten minutes.
+
+To page the current Support Manager On-call, you can:
+
+- Use the `/pd trigger` command in Slack to create a new incident (for the `Support Managers` service)
+- Manually create a new incident from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+
+This is for engaging the *current* on-call manager. If you need to coordinate with the upcoming on-call manager, see [determining the On-call Manager](#determining-the-on-call-manager).
 
 ## Mobile phone service and data reimbursement
 
@@ -249,7 +312,6 @@ To make sure this stays separated from our normal PagerDuty notifications, we'll
 1. Add the email address, and use the "Test" button to send a test notification
 
 ![Adding a new notification email target in PagerDuty](/images/support/oncall-pagerduty-setup-new-notification-email.png)
-
 
 1. Change to the "Notication Rules" tab
 1. Your new email will already have been added in the "When a high-urgency incident is assigned to me" section – remove it from there, and also from any other sections it might have been added to

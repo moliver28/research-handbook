@@ -103,6 +103,9 @@ If the problem is with the customers portal account email, you can send the user
 
 ### Checking Mailgun logs
 
+NOTE:
+The `mg.gitlab.com` domain contains relevant data for Support troubleshooting. You will not see this list as a domain option in the drop-down on any pages. You must select the domain under Send > Sending > Domains. There is an email.mg.gitlab.com domain which appears by default, but will not work.
+
 On the first attempt, if our email system could not get through (usually server says it's non-existent or similar), then our mail server will put a suppression on sending further emails.
 
 This is useful to check if emails have been delivered successfully from our end, which could mean that the error is with the users' email provider.
@@ -115,6 +118,23 @@ This is useful to check if emails have been delivered successfully from our end,
     - If email is delayed, respond to the user and ask them to wait.
     - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
     - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
+
+### How to see or resend emails in Mailgun
+
+This is to check the content of an email sent:
+
+1. Follow the steps from the section [Checking Mailgun logs](#checking-mailgun-logs) to locate an email in Mailgun - The email subject must be "Verify your identity".
+1. Access the log details by clicking on the dented wheel icon at the right end of the log entry.
+1. In the log details, go to the third tab named "quick view" to display the full email.
+![Mailgun_email_body](../assets/Mailgun_email_body.png)
+
+To resend an email:
+
+**Important note**: Any email resend to a **different** email address must be approved by a manager and performed after an ownership verification. *No approval or ownership verification is needed if you resend to the same email address.*
+
+1. On the dented wheel icon at the right end of the log entry, click on the "Resend message" button.
+1. From there you can enter an email address and press "Send".
+![Mailgun_resend_email](../assets/Mailgun_resend_email.png)
 
 ### Identifying Multiple Suppressions on a Single Domain
 

@@ -1,6 +1,6 @@
 ---
 title: "Corporate Development"
-description: Corporate Development team members prospect, pursue and integrate acquisitions to accelerate GitLab’s roadmap and offer better tools to customers more quickly.
+description: Corporate Development team members prospect, pursue and integrate acquisitions to accelerate GitLab's roadmap and offer better tools to customers more quickly.
 
 ---
 
@@ -33,7 +33,7 @@ The Analyst, Corporate Development is a [grade 6](/handbook/total-rewards/compen
 
 - Bachelors or equivalent in Finance, Accounting, Economics, Computer Science, Engineering, or a related field
 - Minimum of 2 years of corporate development, venture capital, private equity, or competitive analysis ideally focused on the technology industry
-- Adept with technology and a strategic thinker – knows what’s best for the business
+- Adept with technology and a strategic thinker – knows what's best for the business
 - Excellent judgment, mature personality, and experience working with executives; a sophisticated, worldly businessperson
 - Proactive and action-oriented, anticipates needs
 - Experience in a deal environment and buyer-seller conducts
@@ -53,7 +53,7 @@ The Corporate Development Manager is a [grade 8](/handbook/total-rewards/compens
 Prospecting:
 
 - Develop relationships with tech incubators, investors, and other sources of acquisition targets
-- Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
+- Validate targets' fit for GitLab's product roadmap, terms and other criteria quickly and with little information
 - Develop a strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 
 Deal execution:
@@ -96,7 +96,7 @@ The Senior Corporate Development Manager is a [grade 9](/handbook/total-rewards/
 Prospecting:
 
 - Develop relationships with tech incubators, investors, and other sources of acquisition targets
-- Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
+- Validate targets' fit for GitLab's product roadmap, terms and other criteria quickly and with little information
 - Establish strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 - Own the pipeline of opportunities - generate prospects and lead sourcing efforts
 
@@ -174,7 +174,6 @@ The Director, Corporate Development is a [grade 10](/handbook/total-rewards/comp
 - [Acquisition success](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
 
-
 ### Senior Director of Corporate Development
 
 As the Senior Director of Corporate Development, you will be responsible for
@@ -215,7 +214,7 @@ The Senior Director of Corporate Development is a [grade 11](/handbook/total-rew
 ### VP of Corporate Development
 
 As the VP of Corporate Development, you will be responsible for
-leading the team to source, negotiate, close and integrate [acquisitions](https://about.gitlab.com/handbook/acquisitions/) successfully at GitLab through influence into the company's strategy.
+leading the team to source, negotiate, close and integrate [acquisitions](/handbook/acquisitions/) successfully at GitLab through influence into the company's strategy.
 
 #### Job Grade
 
@@ -254,7 +253,6 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 - [Acquisition velocity](/handbook/product/performance-indicators/)
 - [Acquisition success](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
-
 
 ## Hiring Process
 

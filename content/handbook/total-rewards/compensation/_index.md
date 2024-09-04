@@ -28,11 +28,11 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We use a [compensation calculator]({{< ref "compensation-calculator" >}}) to ensure transparent and consistent compensation.
 1. We do not disclose individual compensation since compensation is [not public](/handbook/communication/confidentiality-levels/#not-public).
 1. We adjust our calculator based on survey data, feedback from applicants and team members, and candidate data. Please email `total-rewards@ gitlab` if you want to contribute.
-1. We offer [restricted stock units (RSUs)](/handbook/stock-options/) for most positions.
+1. We offer [restricted stock units (RSUs)](/handbook/total-rewards/stock-options/) for most positions.
 1. We base compensation on current position and performance at GitLab – not on what we paid you last month – and, generally, we don't reduce compensation.
 1. Increases within the market pay bands will be based on performance.
     - At hire, we base our compensation offer on the position and experience in the market.
-    - For promotions, increases are based on ensuring alignment to the new role’s market range.
+    - For promotions, increases are based on ensuring alignment to the new role's market range.
     - At [Annual Compensation review]({{< ref "compensation-review-cycle#annual-compensation-review" >}}), increases will ensure alignment to the market (by being within the entire range of the calculator), and resources will be allocated to top performing team members within the organization.
 1. GitLab will continue to monitor [pay equality](/handbook/people-group/people-success-performance-indicators/#sts=Pay%20Equality) to ensure underrepresented groups are paid at the same rate as the company.
 1. We want to follow the processes on this page for everyone, please email `total-rewards@ gitlab` when we don't. If you have a specific question around your compensation or one of your direct reports' please schedule a call with `total-rewards@ gitlab` to review.
@@ -97,7 +97,7 @@ We have a market-based approach to compensation because:
 1. It allows for us to adapt to market changes, thus remaining competitive for local talent
 1. Role, location, and level benchmarks keep compensation bands consistent. Market-based benchmarks also help with keeping it fair and consistent rather than expecting our team members to negotiate their pay.
 1. Prevents wage compression which occurs when new employees negotiate and get higher wages than those being paid to current team members.
-1. As long as budget permits, we do what’s right for the market even if it means paying a team member higher than their “expected” pay.
+1. As long as budget permits, we do what's right for the market even if it means paying a team member higher than their "expected" pay.
 
 ## Compensation Group
 
@@ -121,8 +121,8 @@ Effective Q2 of FY 2021, we have established a one time bonus payment process fo
 
 - For an interim role to be considered, the need for coverage would need to be longer than a 30 day time period.
 - The interim role has to be at a higher level than the current role of the team member.
-    - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
-    - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
+  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
+  - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
 - In case the interim role is within another job family, team members will also be eligible for the interim compensation on a lateral level.
 
 *Since Acting roles do not typically end in promotion, the decision on whether the acting role meets the eligible criteria rests with the Hiring Manager and the Department head.*
@@ -137,15 +137,16 @@ For team members on a base salary compensation plan, your bonus will be an addit
 
 - `(Annual Base Salary in Local Currency/365) x .10 (10%) x # of Calendar Days in the Interim Role`
 
-For team members on an OTE (On Target Earnings) compensation plan in Go-to-Market roles, interim compensation will be based on results achieved by the interim team in the interim period:
+For team members on an OTE (On Target Earnings) compensation plan in Go-to-Market roles, interim compensation will generally be based on results achieved by the interim team in the interim period:
 
 - Interim leaders will dotted-line manage the new team, meaning they will not assume direct management of the team in Workday, but will instead act as a temporary leader. As such, quotas will not change during the interim period.
 - When interim managing a lateral team:
-    - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate), calculated based on the leader's OTI and the interim role's annual quota
+  - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate), calculated based on the leader's OTI and the interim role's annual quota
 - When interim covering for a higher leadership position:
-    - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate) for the higher leadership position
+  - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate) for the higher leadership position
 - Standard commissions payments will continue for the duration of the interim role
 - All in-plan (within OTI) components are eligible to be included in an interim bonus calculation for a GTM role, e.g. Net ARR, New Logo, Professional Services Bookings, etc.
+- For teams measured on pooled compensation plans (e.g. SAs and CSMs), interim bonuses will be based on OTE for the interim role while in seat instead of performance: (Annual OTE in local currency/365) / x .10 (10%) x # of Calendar Days in the Interim Role
 - All people managers in GTM roles are candidates for interim management assignments, outside of members of the CRO or CMO leadership teams, i.e. direct reports of the CRO or CMO
 - Total bonus payments for GTM team members in an interim management role shall not exceed $50,000 USD for a single interim leadership assignment
 
@@ -155,7 +156,7 @@ For team members on an OTE (On Target Earnings) compensation plan in Go-to-Marke
 
 #### Tracking
 
-Interim/acting roles should be tracked in Workday, in some cases the process is initated in Greenhouse or may also be tracked in the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0) managed by the People Connect Team.
+Interim/acting roles should be tracked in Workday, in some cases the process is initiated in Greenhouse or may also be tracked by the manager by completing a Submission of Acting Role for a Team Member [form](https://forms.gle/KdB4TBtfuHxgGLzE8).
 
 Guidance on different processes can be found below:
 
@@ -174,21 +175,21 @@ Workday examples:
 - An Engineering Manager takes on an interim role as a Senior Engineering Manager
 - A Product Manager takes on an interim role as a Senior Backend Engineer (after having gone through an interview process)
 
-The process for tracking interim/acting roles in both cases is as follows:
+The process for tracking interim/acting roles is as follows:
 
-1. Managers send an email to `people-connect@gitlab.com` with their People Business Partner in copy with the following information:
+1. *(For Acting)*, Managers will align with their Manager and People Business Partner and align on the following:
     - Whether the role is interim or acting
     - Whether the role is in a new job family or the same job family
     - Whether the interim/acting role is lateral or a higher level
     - The effective start date of the interim/acting period
-1. *(for interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to  to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday, but exclusively on the spreadsheet.
-1. People Connect will either, 1) confirm that the interim/acting period has been added to the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0), or 2) confirm that the job title has been added to Workday.
+    - Once agreed and approved, Managers will submit the [Submission of Acting Role for a Team Member form](https://docs.google.com/forms/d/e/1FAIpQLSd5CkHvcDYx6oaNzrAm8QqFZpCVLcoDrcTpaAl-cuKCUERc2A/viewform).
+1. *(For Interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday.
 
 #### Submitting
 
 When the interim/acting period ends, the following process should be followed to submit the interim bonus request:
 
-- *(For Acting bonuses)* The manager replies to the initial email to `people-connect@gitlab.com` and their People Business Partner to confirm the start/end date of the acting period and their initial bonus calculation
+- *(For Acting bonuses)* The manager references the start/end dates Acting period as initially submitted through the Acting form for the bonus calculation.
 - *(For Interim bonuses)* The manager references the Workday `Job` tab and clicks into `Job History` and review the 'Business Title' column to confirm the start date of the interim period
 - Once confirmed, the Manager submits the bonus in Workday. Follow the [Request a One-Time Payment job-aid](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit?usp=sharing) to submit an OTP. Manager must also provide the start and end date of the of interim period in Workday under the *Additional Information* section in Workday
 
@@ -297,7 +298,7 @@ Directors and above are eligible for the Company Bonus Plan.
 
 - The bonus will be paid out semi-annually.
 - The first semi-annual payment will be funded up to a maximum of 80% of target bonus amount for the period of February through July. Any full plan year adjustments will be made as part of the final bonus payout.
-     - Example: A director who has been eligible for the bonus plan from February 1 has an annual target of 30,000 USD. Their target bonus amount for the first half of the fiscal year, February through July, is 15,000 USD. Therefore, they will receive 80% of 15,000 USD or 12,000 USD for their first semi-annual payment.
+  - Example: A director who has been eligible for the bonus plan from February 1 has an annual target of 30,000 USD. Their target bonus amount for the first half of the fiscal year, February through July, is 15,000 USD. Therefore, they will receive 80% of 15,000 USD or 12,000 USD for their first semi-annual payment.
 - The final bonus payout will be based on actual performance against plan less amount paid at the semi-annual payout.
 - If the first semi-annual bonus is achieved but Company performance falls below the annual threshold the second half bonus will not be achieved but the first half bonus will not be rescinded or otherwise payable back to the Company.
 

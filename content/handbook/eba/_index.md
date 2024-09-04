@@ -10,25 +10,29 @@ This page details processes and general guidelines specific to the Executive Bus
 
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
-| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA, **Liki Simonot**<br>Sr EBA  | Sid Sijbrandij (CEO) |
-| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Liki Simonot**<br>Sr EBA  | Stella Treas (Chief of Staff) |
+| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA<br>**Carla Sylva**<br>Sr EBA  | Sid Sijbrandij (CEO) |
+| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Carla Sylva**<br>Sr EBA  | Stella Treas (Chief of Staff) |
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
+| [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Mek Stittri (VP of Infrastructure & Quality)<br>Tim Zallmann (Sr. Director of Engineering, Core Development) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
 | [Finance](/handbook/finance/) | **OPEN**<br> EBA| Erin Mannix (Chief Accounting Officer)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
-| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations)
-| [Legal](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
-| [Legal](/handbook/legal/)  | **Lauren Lopez**<br>EBA  | Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (Sr. Director of Legal & Corporate Affairs, Corporate)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
-| [Marketing](/handbook/marketing/)| **Laura Vickerman**<br> Sr EBA | Ashley Kramer (CMSO) |
-| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Carrie Maynard (VP of Integrated Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development) |
+| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
+| [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
+| [Legal $ Corporate Affairs](/handbook/legal/)  | **Lauren Lopez**<br>EBA  | Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
+| [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO) |
+| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development)<br>Laura Fagan (Sr. Chief of Staff, CMSO) |
 | [Marketing](/handbook/marketing/)| **Erin Talanda**<br>EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
 | [People](/handbook/people-group/) | **Julia Nishioki**<br>EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
-| [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Hillary Benson (Sr Director of Product Management)<br>Mike Flouton (VP of Product Management) |
+| [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Angela Pesta (VP UX)|
+| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
 | [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Staff EBA | Chris Weber (CRO) |
-| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) | <br> Kevin Lake (VP of Professional Services & Education)
-| [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Patty Cheung (VP of WW Channels & Alliances) |
+| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
+| [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
+| [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Nick Cayou (VP of WW Channels & Alliances) |
 | [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
-| [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) |
+| [Sales](/handbook/sales/) | **Oana Migeon**<br>EBA | Michel Isnard (VP of EMEA Sales) |
+| [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) <br> Julie Davila (VP of Product Security)  |
 
 ## Contact us
 
@@ -37,6 +41,7 @@ Please feel free to ping/hang out with us in slack at #eba-team. If you need to 
 ## Meeting request requirements
 
 If you would like to schedule a meeting with a Leader at GitLab, please slack the appropriate EBA in #eba-team with the following information (or DM if confidential):
+
 1. Must have/optional attendees
 1. Meeting type: internal prep, client facing/customer, prospective customer, etc
 1. Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
@@ -60,12 +65,14 @@ Please follow the instructions above for scheduling a call with your customer, p
 ### E-Group / VP In-Person Customer Visit Requests
 
 If you would like to request that an E-Group member / VP travel to visit a customer, please review [this template](https://docs.google.com/spreadsheets/d/1HxjfvOSRkZ61s6MGLINCjdgsjlz5AouwIQSPDM4ODrY/edit?usp=sharing) in its entirety to understand expectations.
+
 - Please coordinate with [respective EBAs](https://docs.google.com/presentation/d/1_tRO-5bDjcwUfqsLazfy4AcqeCLe8jOvDl04BHYlhEE/edit?usp=sharing) on aligning all visit details. If the requested GitLab Executive does not have an EBA, please work with them directly. Please tag applicable EBAs in the #eba-team Slack channel to get the process started.
 - Note: It is encouraged that an [Internal Briefing Document](https://docs.google.com/document/d/1eTFV_U16mmKkeI_GcXeFl1eHc5KsN6nI8Kf64UTxFmM/edit?usp=sharing) has been completed prior to requesting. Executive attendance to ensure proper background and prioritization.
 
 ### Requesting Customer Meetings for your Executive
 
 If your Executive is requesting customer meetings while onsite on virtually, please refer to the following contacts as a helpful starting point. These contacts will assist in engaging the proper Sales representatives:
+
 - **AMER**: Darren Moffett, VP AMER Sales
 - **APJ - APACJ/Japan**: Craig Nielsen, VP Sales APAC
 - **EMEA**: Michel Isnard, VP of Enterprise Sales
@@ -122,14 +129,14 @@ When sending a calendar invite for an in-person meeting at Mission Control, plea
 ### General scheduling guidelines
 
 - For meetings spanning across multiple time zones and with external parties, [Time & Date Calculator](https://www.timeanddate.com/worldclock/meeting.html) can help determine the best time to schedule
-- When scheduling internally with multiple attendee's, please utilize Google [calendars](https://calendar.google.com)[Find a Time feature](https://gsuitetips.com/tips/calendar/find-a-time-in-google-calendar/) to see when GitLab team-members are free to schedule a meeting with. Please be cognizant of people time zones. If in doubt, please reach out to the team member directly in slack
+- When scheduling internally with multiple attendee's, please utilize Google [calendars](https://calendar.google.com)[Find a Time feature](https://support.google.com/calendar/answer/6294878) to see when GitLab team-members are free to schedule a meeting with. Please be cognizant of people time zones. If in doubt, please reach out to the team member directly in slack
 - When researching flights, consider using a tool like [Skyscanner](https://www.skyscanner.com) or [Google Flights](https://www.google.com/flights?hl=en) to explore options for flights
 - Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time
 - Holds on the schedule should be removed at least 60 minutes before the preceding meeting starts. Preferably 24hr in advance of the meeting when possible
 - Meetings should be scheduled for 25 minutes or 50 minutes.  As a general guideline meetings should not be scheduled to the full 30/60 minute mark
 - If the call is with any Google company, use Hangouts instead of Zoom.
 - For meetings at Mission Control and another guest joining via video call: The EBA will schedule an additional ten minutes before the appointment to test the zoom room system.
-- For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled.
+- For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it's scheduled.
 - Make sure to plan travel time (in a separate calendar item, just for the exec) before and after the meeting in case another meeting or call should follow.
 - After each meeting with a potential investor, make sure to update Airtable with the information on these meetings.
 
@@ -156,7 +163,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. Must be a speedy meeting
 1. Agenda for the meeting must be complete 24hrs or 1 business day before the meeting and include any links to materials and pre-recorded presentations
    - [Live doc meetings](/handbook/company/culture/all-remote/live-doc-meetings/) provides a great overview of how we use live docs in our meetings.
-   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://about.gitlab.com/handbook/communication/#few-meetings-with-presentations
+   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://handbook.gitlab.com/handbook/communication/#few-meetings-with-presentations
 1. Plan to join the meeting on time. We start on time and do not wait for folks to join.
    - As most of our meetings are conducted over zoom, please join with your camera on and with a headset or dedicated microphone whenever possible
 1. The meeting may be recorded or live streamed to GitLab Unfiltered on YouTube, please determine in advance if the meeting should be live streamed or recorded
@@ -218,13 +225,15 @@ More information can be found [here](/job-families/people-group/executive-busine
 
 ## Signature Request procedure
 
-### When requesting a wet signature for a document(s) please have the following questions answered in advance.
+### Requesting a wet signature
+
+When requesting a wet signature for a document(s) please have the following questions answered in advance
 
 1. Is there an issue? If there is more than two documents you may want to consider creating an issue to track progress
 1. What is this for?
 1. Electronic signature or physical wet signature?
 1. Who needs to sign? See [Authorization Matrix](/handbook/finance/authorization-matrix/)
-1. Why is this person’s signature required?
+1. Why is this person's signature required?
 1. If a wet signature is required,  is there a specific ink color that should be use?
 1. Is there a specific paper size that is required? For example, Ireland requires A4.
 1. Is Legal required to review and/or stamp approved?
@@ -233,15 +242,14 @@ More information can be found [here](/job-families/people-group/executive-busine
 1. When is this due?
 1. Where should the originals be sent? Include the recipient's name, company name, address and phone number.
 
-### Specific directions for signature request:
+### Specific directions for signature request
 
 - Indicate page numbers of document where signature is required, per document. For example Jane Doe is required to sign pages 3, 5 in two places and 8.
 - If there is more than one signature line on the signature page without details (name / company name) please indicate where to sign.
 - Should the document be dated? If yes, are we using the date the document is actually signed or different date? If we are using a different date please explain why.
 
-### Directions for executed documents:
+### Directions for executed documents
 
 - Scan and upload to Google drive?
 - Scan and email?
 - Send originals where?
-

@@ -3,15 +3,15 @@ title: TaNewKi Tips
 description: A guide for new team members
 ---
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Welcome!
+## Welcome
 
 Hello! We could not be more excited to have you at GitLab. This page is here to help walk you through what you can expect before and during your first few weeks as a new team member.
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Meet the People Connect team!
+## Meet the People Connect team
 
 The [People Connect team](/handbook/company/team/?department=people-connect-team) is here to help guide you in your journey here at GitLab. A member of the team will be assigned to your Onboarding Issue, and will be there to provide guidance as you begin onboarding. You can learn more about us below by reading our bios on the team page.
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Onboarding Issues
+## Onboarding Issues
 
 Are you curious about what onboarding looks like here at GitLab? We currently use our own product to facilitate onboarding through issues. If you have never seen a GitLab issue before, take some time to watch the video below to see what you'll be working out of during your onboarding.
 
@@ -19,7 +19,7 @@ Are you curious about what onboarding looks like here at GitLab? We currently us
   <iframe src="https://www.loom.com/embed/7acd42bc463f48a4a8dca9afa2f9bf27" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Timeline
+## Timeline
 
 After you sign your offer and complete your background check and references, you can expect your onboarding to go like this:
 
@@ -31,11 +31,13 @@ After you sign your offer and complete your background check and references, you
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
-  - France: Papaya
-  - Netherlands: HR Savvy
-  - Singapore: Global Upside / Safeguard
-  - South Korea: Global Upside / Safeguard
-  - UK: Papaya
+
+   - France: Papaya
+   - Netherlands: HR Savvy
+   - Singapore: Global Upside / Safeguard
+   - South Korea: Global Upside / Safeguard
+   - UK: Papaya
+
 1. If you are hired through a PEO location, the PEO will reach out to you prior to your start date to obtain the necessary documents and start their onboarding process.
 1. The next email you will receive, is a [TaNEWki call](/handbook/people-group/general-onboarding#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
 1. You may receive an email from Okta (our SAAS application portal) with an invite to register. **Please ignore this email** until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
@@ -46,7 +48,7 @@ After you sign your offer and complete your background check and references, you
 1. The first thing you'll want to do is check your personal email where you will have received an onboarding email from GitLab with directions on how to access Okta, your GitLab email and all other applications. Most of GitLab applications are accessed through Okta so make sure you follow the directions in the email in order. You will be required to create a strong password, which you need to keep a note of. Once you have accessed your GitLab email, you will receive a invite from 1Password where you can store all your important personal passwords, along with creating strong/er passwords if required.
 1. Once you accept your GitLab access invites, you'll be able to open up and see your own personalized version of the [onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md).
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Helpful Resources
+## Helpful Resources
 
 1. [TaNEWki Tips](/handbook/people-group/general-onboarding/tanewki-tips/) - This page is here to help walk you through what you can expect before and during your first few weeks as a new team member.
 1. [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en)
@@ -54,9 +56,18 @@ After you sign your offer and complete your background check and references, you
 1. [OneTab](https://www.one-tab.com/) - Tab organizer for Chrome, Firefox, Edge, or Safari
 1. [Early Career Discussion Group Slack Channel](https://gitlab.slack.com/archives/C0340TYR7AA) This group is for anyone, but specifically for helping those who are transitioning to a new or first career! Everyone is welcome, and all your questions that you may not know where to ask are welcome here.
 1. [Brag Docs](https://jvns.ca/blog/brag-documents/) are a way of tracking the work you've done. It can be a very helpful document when talking with managers, leadership, or when seeking promotions. Here's a [recording](https://youtu.be/oVd3jN76b5c) of an event hosted by the Early Career Team Member Discussion Group to talk about some advice for keeping a brag doc and more.
+1. To manage timezone pains:
 
+    - [Clocker App](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Acronym Dictionary
+        <img src="/handbook/people-group/general-onboarding/images/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
+
+    - [Find a Time in Google Calendar](https://www.getclockwise.com/blog/google-calendar-find-a-time)
+    - [See Other TimeZone in Google Calendar](https://support.google.com/calendar/answer/37064?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csee-other-time-zones)
+    - [Better Team Page](https://leipert-projects.gitlab.io/better-team-page/timezones/) - Okta Sign In Required
+    - [Every Timezone](https://everytimezone.com/)
+
+## Acronym Dictionary
 
 As point 23 on our [communication handbook page](/handbook/communication/#writing-style-guidelines) outlines, we try to avoid using acronyms at GitLab as much as possible however, sometimes we forget. Below you can find common acronyms used here that may help you. If you come across any not in this list during your onboarding, feel empowered to do a merge request to add it below!
 
@@ -78,10 +89,9 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | MR | Merge Request  |
 | MVC| [Minimum Viable Change](/handbook/values/#minimal-viable-change-mvc) (not related to Model-View-Controller)|
 | OKRs | [Objectives & Key Results](/handbook/company/okrs) |
-| PTO | [Paid Time Off](/handbook/paid-time-off) |
+| PTO | [Paid Time Off](/handbook/people-group/paid-time-off/) |
 | SIRT | [Security Incident Response Team](/handbook/security/security-operations/sirt) |
 | TMRG | [Team Member Resource Group](/handbook/company/culture/inclusion/#tmrgs---team-member-resource-groups) |
-
 
 **Customer Success Related Acronyms**
 
@@ -124,7 +134,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | TAM | Total Addressable Market |
 | TCV | Total Contract Value |
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Equipment and Expenses
+## Equipment and Expenses
 
 If you're nearing your start date and still haven't received your laptop, please reach out to people-connect@gitlab.com for us to check in with the IT department and see where your laptop is in transit.
 
@@ -132,25 +142,24 @@ If you're nearing your start date and still haven't received your laptop, please
 
 GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/) reimbursement tool. All team members will have access to Navan within 2 days from their hire date. If you don't see a tile for Navan in your Okta dashboard, please contact `ap@gitlab.com`.
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Onboarding Expectations
+## Onboarding Expectations
 
 1. As an all remote company, it is important to remember that we all work in different time zones, [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#introduction) is key to ensure that everyone is included. Don't feel like you need to stay up late at night or early morning to keep up with your fellow team members, this is where we pride oursleves on [our async way](/handbook/company/culture/all-remote/asynchronous/). **This means that you may not have meetings on your first day, or your first week but it's not because we're not excited to have you here. It's just our way of working!**
 1. Take your time! There is a lot to go through, and you may feel like you have to get to everything each day. If you do great! If not, that's great too.
    - The entire onboarding issue is [self-paced and self-learning](/handbook/values/#self-service-and-self-learning) however, anything marked with a big red dot - 🔴 - should be completed with importance on the assigned day it is under.
 1. There is a lot to complete in your onboarding issue and you may feel eager to do them all as soon as possible but remember, pace yourself! You have a dedicated 2 weeks to complete your onboarding tasks and have support from your manager, onboarding buddy, assigned People Connect Team member, and the entire company to help you if you need it along the way.
-    - Two of the best Slack channels to get yourself into to ask questions are `#it-help` and `#people-connect`
+    - You can reach out to the People Connect team or IT Ops team anytime via HelpLab for assistance and/or guidance.
 1. There is a lot of Handbook content in this issue, that can at times require quite a bit of reading. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above.
 1. We use Slack as our formal/informal communications tool. This allows us to communicate with our team members, teams and wider company. New to Slack? No problem! This [quick start guide](https://slack.com/intl/en-za/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) will share all the helpful tips on getting you started.
 1. We do not use the standard operating software and instead have a business account with Google Workspace. We use the [Gmail](https://workspace.google.com/intl/en/products/gmail/) feature to retrieve our emails, we use [Drive](https://workspace.google.com/intl/en/products/drive/) to store all our important documents, and Google [Docs](https://workspace.google.com/intl/en/products/docs/)/[Sheets](https://workspace.google.com/intl/en/products/sheets/) for anything we need to document.
 
-
-
+{{% alert color="info" %}}
 <i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
 Want to learn more about Onboarding from current team members? View their feedback [here](/handbook/people-group/general-onboarding/onboarding-feedback)!
 &nbsp;&nbsp;<i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-{: .alert .alert-webcast}
+{{% /alert %}}
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Frequently Asked Questions
+## Frequently Asked Questions
 
 ### Equipment and Expenses
 
@@ -182,7 +191,7 @@ A: Depending on where you are located, you can find the payroll cut off dates [h
 
 **Q: I have preplanned vacations or commitments, how should I handle this upon starting and ensuring the PTO?**
 
-A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel).
+A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel).
 
 **Q: How long do I have to enroll in benefits?**
 
@@ -200,13 +209,17 @@ A: You will receive the dollar figure listed on your contract, however the numbe
 
 **Q: Where can I find information about ESPP (Employee Stock Purchase Program)?**
 
-A: You can read about our ESPP program [here](/handbook/stock-options/#employee-stock-purchase-plan-espp).
+A: You can read about our ESPP program [here](/handbook/total-rewards/stock-options/#employee-stock-purchase-plan-espp).
 
 ### Access
 
 **Q: I received an email from Okta about access, do I need to do anything with it?**
 
 A: You won't need to action anything until day one! We are going to want you to review your `Welcome to GitLab Onboarding` email first and follow the instructions within that email to make sure that all your access is set up correctly. This will include creating your GitLab account, getting access to your GitLab email, and all other systems!
+
+**Q: I already have an existing personal GitLab username, can I use this for my account at GitLab?**
+
+A: Whilst this is possible, it is not a recommended option. If you ever choose to leave GitLab the account will be disabled and you will no longer have any access to it per our [access management policy](/handbook/security/access-management-policy/#reclaiming-gitlab-accounts-during-offboarding). We like to encourage new hires to create a new username as a mark that starts their career at GitLab :) If you would still like to use your personal GitLab username, please reach out to the IT Ops team on day one for them to link this to your GitLab account with the relevant permissions.
 
 ### GitLab Culture
 
@@ -218,7 +231,6 @@ A: GitLab has an entire team dedicated to providing the best tools to be success
 
 A: We have many location slack channels here tht allows team members to schedule informal local get togethers or coworking days. You can find the list of those channels [here](/handbook/communication/chat/#location-channels-loc_). If you don't see one for your area, feel free to create one!
 
-
 **Q: What is Family & Friend's Day?**
 
-A: In an ongoing pandemic with COVID-19 affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a monthly "Family and Friends Day". On this day, we will close the doors to the GitLab virtual office, reschedule all meetings, and have a publicly visible shutdown. You can read up more about it and view the schedule in our [Handbook](/handbook/company/family-and-friends-day/).
+A: Following on from the global pandemic affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a quarterly "Family and Friends Day". On this day, we will "close the doors" to the GitLab virtual office, reschedule all meetings, and have a publicly visible shutdown. You can read up more about it and view the schedule in our [Handbook](/handbook/company/family-and-friends-day/).

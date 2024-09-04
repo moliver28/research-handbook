@@ -31,34 +31,40 @@ allows everyone to contribute.
 
 ## Engineering Initiatives
 
-Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 80% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/#how-we-prioritize-work) to ensure that our project stays ahead in these areas.   Engineering prioritizes 20% of time on initiatives that improve the underlying platform and foundational technologies we use.
+Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/cross-functional-prioritization) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform and foundational technologies we use.
 
+Work in the 40% time budget should be coordinated and prioritized by the engineering manager of a team. Use the label "Engineering Time" for issues and MRs that are done as part of it so we can follow the work and the results across the engineering division.
+
+- Contributing to broad engineering initiatives and participating in working group-related tasks.
 - Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label.  You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
 - Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
-- Improvements to the performance, stability and scalability of a feature.  Again, the Product team should be involved in the definition of these issues but Engineering may lead here by clearly defining the recommended improvements.
+- Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
+- Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
+- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites
+- Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
 
 ### Community Contributions
 
-We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren’t on our roadmap, and even translate our product into multiple languages.
+We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren't on our roadmap, and even translate our product into multiple languages.
 
 ### Diversity
 
-[Diverse teams perform better.](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html#:~:text=With%20diversity%20comes%20multiple%20perspectives,better%20decisions%20based%20on%20facts.) They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative.](https://hbr.org/2016/11/why-diverse-teams-are-smarter) By hiring globally and increasing the numbers of women and ethnic minorities in the Engineering division, we’re helping everyone bring their best selves to work.
+[Diverse teams perform better.](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html#:~:text=With%20diversity%20comes%20multiple%20perspectives,better%20decisions%20based%20on%20facts.) They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative.](https://hbr.org/2016/11/why-diverse-teams-are-smarter) By hiring globally and increasing the numbers of women and ethnic minorities in the Engineering division, we're helping everyone bring their best selves to work.
 
 ### Growing our team
 
-Hiring is still a top priority in FY24, and we're excited to continue hiring people who are passionate about our product and have the skills to make it the best DevSecOps tool in the market. Our current focus areas include reducing the amount of time between offer and start dates and hiring a diverse team (see above). We're also implementing industry-standard approaches like structured, behavioral, and situational interviewing to help ensure a consistent interview process that helps to identify the best candidate for every role. We’re excited to have a recruiting org to partner with as we balance the time that managers spend recruiting against the time they spend investing in their current team members.
+Hiring is still a top priority in FY24, and we're excited to continue hiring people who are passionate about our product and have the skills to make it the best DevSecOps tool in the market. Our current focus areas include reducing the amount of time between offer and start dates and hiring a diverse team (see above). We're also implementing industry-standard approaches like structured, behavioral, and situational interviewing to help ensure a consistent interview process that helps to identify the best candidate for every role. We're excited to have a recruiting org to partner with as we balance the time that managers spend recruiting against the time they spend investing in their current team members.
 
 ### Expand customer focus through depth, and stability
 
 As expected, a large part of our focus in FY24 is on improving our product.
 
-For **Enterprise customers**, we’re refining our product to meet the levels of security and reliability that customers rightfully demand from SaaS platforms _(SaaS Reliability)_. We’re also providing more robust utilization metrics to help them discover features relevant to their own DevOps transformations _(Usage Reporting)_ and offering the ability to purchase and manage licenses without spending time contacting Sales or Support _(E-Commerce and Cloud Licensing)_. Lastly, in response to Enterprise customer requests, we're adding features to support Suggested Reviewers, better portfolio management through Work Items, and Audit Events that provide additional visibility into user passive actions.
+For **Enterprise customers**, we're refining our product to meet the levels of security and reliability that customers rightfully demand from SaaS platforms _(SaaS Reliability)_. We're also providing more robust utilization metrics to help them discover features relevant to their own DevOps transformations _(Usage Reporting)_ and offering the ability to purchase and manage licenses without spending time contacting Sales or Support _(E-Commerce and Cloud Licensing)_. Lastly, in response to Enterprise customer requests, we're adding features to support Suggested Reviewers, better portfolio management through Work Items, and Audit Events that provide additional visibility into user passive actions.
 
-For **Free Users**, we’re becoming more efficient with our open core offering, so that we can continue to support and give back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits
+For **Free Users**, we're becoming more efficient with our open core offering, so that we can continue to support and give back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits
 
-For **Federal Agencies**, we’re obtaining FedRAMP certification to strengthen confidence in the security standards required on our SaaS offering. This is a mandated prerequisite for United States federal agencies to use our product.
+For **Federal Agencies**, we're obtaining FedRAMP certification to strengthen confidence in the security standards required on our SaaS offering. This is a mandated prerequisite for United States federal agencies to use our product.
 
 For **Hosted Customers**, we're supporting feature parity between Self-Managed and GitLab Hosted environments through the Workspace initiative. We're also launching GitLab Dedicated for customers who want the flexibility of cloud with the security and performance of a single-tenant environment.
 
@@ -92,12 +98,12 @@ There are four departments within the Engineering Division:
 
 ### Workflows
 
-- [Developer onboarding](/handbook/developer-onboarding/)
+- [Developer onboarding](/handbook/engineering/developer-onboarding/)
 - [Engineering Demo Process](/handbook/engineering/demos/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
-    - [Code Review](/handbook/engineering/workflow/code-review/)
-    - [Security Issues](/handbook/engineering/workflow/#security-issues)
-    - [Architecture Design](/handbook/engineering/architecture/workflow/)
+  - [Code Review](/handbook/engineering/workflow/code-review/)
+  - [Security Issues](/handbook/engineering/workflow/#security-issues)
+  - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
@@ -171,7 +177,7 @@ FCL xxxx - [team name]
 - Incident Issue: `<issue link>`
 - Incident Review Issue: `<issue link>`
 - Incident Timeline: `<link to Timeline tab of the Incident issue>`
-   - e.g. time to detection, time to initiate/complete rollback (as applicable), time to mitigation
+  - e.g. time to detection, time to initiate/complete rollback (as applicable), time to mitigation
 - Cause of Incident
 - Mitigation
 - Status of Planned/completed work associated with FCL
@@ -197,7 +203,7 @@ In certain cases we may need to manually verify in the production environment.
 
 If you need to test features that are built for GitLab Ultimate then you can get added to the [issue-reproduce](https://gitlab.com/issue-reproduce)
 group on production and staging environments by asking in the [#development](https://gitlab.slack.com/archives/C02PF508L) Slack channel.
-These groups are are on an Ultimate plan.
+These groups are on an Ultimate plan.
 
 ## Critical Customer Escalations
 
@@ -249,11 +255,10 @@ Following this procedure will:
 
 ## Canary Testing
 
-Information on canary testing has been moved to dedicated page [covering the
-canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
+Information on canary testing has been moved to dedicated page [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
 
 ## Engineering private handbook
 
 There are some engineering handbook topics that we cannot be publicly transparent about.  These topics can be viewed by GitLab team members in the [engineering section of the private handbook](https://internal.gitlab.com/handbook/engineering/).
 
-If you experience a page not found (404) error when attempting to access the internal handbook, you may need to register to use it via first browsing to the [internal handbook authorization page](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io/).
+If you experience a page not found (404) error when attempting to access the internal handbook, you may need to register to use it via first browsing to the [internal handbook authorization page](https://gitlab.com/internal-handbook/internal.gitlab.com/).

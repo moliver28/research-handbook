@@ -40,25 +40,25 @@ conversation at least once a quarter.
 
 ### Opportunity
 
-The GitLab Engineering career track offers a full path of opportunity for individuals to contribute. The availability of senior engineering roles starting at Staff Engineer will be governed by the IC Gearing Ratios (TBD).
+The GitLab Engineering career track offers a full path of opportunity for individuals to contribute.
 There are scenarios where a position must become available before a promotion can occur. On the engineering track, there must be a position of need to be promoted from a Senior Engineer to either a Staff Engineer or an Engineering Manager, depending on your chosen path. Progression beyond these types of roles (e.g. Senior Engineer) are not guaranteed by time in role. There must be a justifiable need for the role and the candidate must have some level of demonstrated ability to thrive in these roles to be considered for the new position.
 
 These next level opportunities are not guaranteed to be available and should not be viewed as career limiting. Again, using the Senior Engineering role as an example, is a critical role within GitLab. It is an accomplishment to thrive at the Senior level and should be celebrated as such.
 
-## Mobility Principles 
+## Mobility Principles
 
 The Engineering Mobility Principle is an add-on to the company's mobility guidelines. For cases not covered in this section, please visit the [People Ops Internal Mobility guidelines](/handbook/people-group/promotions-transfers/#internal-mobility)
 
-Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed 
+Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed
 
-- Internal mobility should not be an easier path than a promotion for level change 
+- Internal mobility should not be an easier path than a promotion for level change
 - All new roles will follow inclusive hiring guidelines for posting and making them available to all potential internal candidates (must be open for a minimum of 5 days before any offer is made)
-- All new roles have a recommended level that is determined by the expected return on investment for the given budget. Managers who wish to consider candidates above or below the given role may offer an interested internal candidate, the following two options: 
+- All new roles have a recommended level that is determined by the expected return on investment for the given budget. Managers who wish to consider candidates above or below the given role may offer an interested internal candidate, the following two options:
   - Re-level the role with a business justification for how this change will benefit the company.
     - A [template (google document)](https://docs.google.com/document/d/1BAIty-x7otBpohe5w6Kl8DKD-C2nUS9MCm4JwognfVI/edit#heading=h.5onpwyv1o0vg) has been provided, please create a copy and fill in the business justification.
   - After evaluating the potential readiness of the candidate to meet the expected criteria within a given time period, accept the candidate for an interim period, up to 6 months, and evaluate readiness and impact of level change at the end of the interim period.
 - Transfers between career paths (IC->EM, EM->IC) the person should be moved into an available role on an [interim/acting](/handbook/engineering/careers/#types-of-interim-roles) basis for 4-6 months before the change is made permanent with a promotion/evaluation rationale based on performance
-- All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request. 
+- All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request.
 - All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway.
 
 ## Individual Contribution vs. Management
@@ -155,7 +155,7 @@ For more details on logistics of ending an interim or acting period please refer
 
 ## Roles
 
-#### Development Department
+### Development Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -255,7 +255,7 @@ For more details on logistics of ending an interim or acting period please refer
 </div>
 </div>
 
-#### Quality Department
+### Quality Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -300,7 +300,7 @@ For more details on logistics of ending an interim or acting period please refer
 </div>
 </div>
 
-#### Support Department
+### Support Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -332,7 +332,7 @@ For more details on logistics of ending an interim or acting period please refer
 </div>
 </div>
 
-#### Infrastructure Department
+### Infrastructure Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -414,7 +414,7 @@ subgraph Based on Merit & Company Need
 </div>
 </div>
 
-#### Incubation Engineering Department
+### Incubation Engineering Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -445,7 +445,7 @@ subgraph Based on Merit & Company Need
 
 ## Apprenticeship for Learning
 
-Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It’s surface-level learning geared towards team members who are still exploring their interests and deciding what options they’d like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
+Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It's surface-level learning geared towards team members who are still exploring their interests and deciding what options they'd like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
 
 Eligibility criteria:
 
@@ -471,13 +471,11 @@ If you wish to apprentice with an Engineering team, start by speaking with your 
 
 **Important**: The Apprenticeship for Learning program should differ from any situations where there is actual temporary or permanent [realignment/redeployment/secondment](/handbook/people-group/promotions-transfers/#realignment-of-resources-impacting-multiple-team-members) as a result of changing business needs. If you are unsure whether your situation is aligned with the Apprenticeship for learning program or falls into a resources realignment, please discuss with your aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
 
-## Internships in Engineering
+## Associates Engineers 
 
-An internship is a position meant for someone who has decided on a career path and is looking to gain in-depth experience in a specific field. At GitLab this is the entry level of roles in Engineering.
+Learn more about the career and skill growth support we provide our Associate Engineers [here](/handbook/hiring/associate-engineer-development/).
 
-In May 2020 we launched an internship pilot program as part of a [Working Group](/handbook/company/working-groups/internship-pilot/). [The pilot internship program](/handbook/engineering/internships/) has proven to be a great mechanism for hiring as well as offered great opportunities for our team members to gain mentoring experience. Due to the program's success currently we have decided to roll out internships on a continuous basis in Engineering.
-
-With the roll out of the intern level in Engineering we have decided to deprecate what previously has been called the junior level (former entry level). Going forward all teams within Engineering can open an intern requisition when there's an organizational need. All information on Internships in Engineering can be found on [this page](/handbook/engineering/internships/).
+As of 2024 this is currently being piloted with the Core Development and Expansion sub-departments.
 
 ## Senior Engineers
 
@@ -485,7 +483,7 @@ Note that we have a specific section for [Senior Engineer](/job-families/enginee
 
 The Senior Engineer role is a critical role where we need the most contributions. It should also be considered a destination role. It is not a given that you will naturally progress into the next role, whether it is Staff or Management. There are different needs and expectations for the next role. Individual growth and progression is supported and encouraged at GitLab, however progression beyond the Senior Engineering role is gated on availability and need. There may not be a need for another Staff or Management position.
 
-Senior engineers typically receive fewer trivial comments on their merge requests. Attention to detail is very important to us. They also receive fewer _major_ comments because they understand the application architecture and select from proven patterns. We also expect senior engineers to come up with simpler solutions to complex problems. Managing complexity is key to their work. [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer) and [Distinguished](/job-families/engineering/infrastructure/distinguished-engineer/) positions extend the Senior Engineer role.
+Senior engineers typically receive fewer trivial comments on their merge requests. Attention to detail is very important to us. They also receive fewer *major* comments because they understand the application architecture and select from proven patterns. We also expect senior engineers to come up with simpler solutions to complex problems. Managing complexity is key to their work. [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer) and [Distinguished](/job-families/engineering/infrastructure/distinguished-engineer/) positions extend the Senior Engineer role.
 
 ## Promotion
 

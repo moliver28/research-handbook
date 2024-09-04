@@ -18,10 +18,10 @@ This page is about one of the four Guiding Principles of TeamOps: Shared Reality
 All teamwork must be based on and informed by an objective — and shared — reality. A collective team member experience that your team shares to develop trust, direct contributions, motivate productivity and empowers new team members to quickly ramp up in their roles. Typically, this shared reality is composed of three elements:
 
 - *Information* - All team members should be able to autonomously consume the information and resources that enable productivity in their role.
-- *Objectives* - Ironically, the day-to-day of your shared reality is usually defined by what you are trying to bring to reality – a result that you’re collaborating to develop.
-- *Values* - Team member experience is influenced by more than company operations, it’s most directly manifested as team behaviors which can be observed, recorded, and quantified.
+- *Objectives* - Ironically, the day-to-day of your shared reality is usually defined by what you are trying to bring to reality – a result that you're collaborating to develop.
+- *Values* - Team member experience is influenced by more than company operations, it's most directly manifested as team behaviors which can be observed, recorded, and quantified.
 
-Once defined and activated, this reality then is preserved for continuous and universal access and accountability through documentation in a knowledge management system, or “single source of truth.”
+Once defined and activated, this reality then is preserved for continuous and universal access and accountability through documentation in a knowledge management system, or "single source of truth."
 
 Action tenets of building a Shared Reality, including real-world examples of each, are below.
 
@@ -48,11 +48,13 @@ In conventional organizations, multiple departments may maintain their own versi
 {{% details summary="Change management support for Single Source of Truth" %}}
 
 **Quick Start Tips:**
+
 - *Individual:* Set a cadence (including calendar reminders!) to update your SSoT with information relevant to your role and its FAQs at least monthly.
-- *Team:* At least once per quarter, schedule a 1-2 day sprint to audit and update your team’s section of the SSoT. Confirm that all documentation is complete and current, including team member information, workflows, templates, policies, protocols, hyperlinks, etc.
-- *Company:* Update your company’s onboarding and continuing education programs to include training about how to navigate and utilize your SSoT.
+- *Team:* At least once per quarter, schedule a 1-2 day sprint to audit and update your team's section of the SSoT. Confirm that all documentation is complete and current, including team member information, workflows, templates, policies, protocols, hyperlinks, etc.
+- *Company:* Update your company's onboarding and continuing education programs to include training about how to navigate and utilize your SSoT.
 
 **Recommended TeamOps Partners:**
+
 - [Almanac](https://almanac.io/) (tool)
 - [Distribute Consulting](https://www.distributeconsulting.com/) (consultant)
 {{% /details %}}
@@ -77,6 +79,7 @@ In a conventional organization, this interaction would likely be private and not
 
 {{% details summary="Change management support for public by default" %}}
 **Quick Start Tips:**
+
 - *Individual:* When a team member initiates a non-confidential conversation via email or direct message, move the thread to a public channel for visibility and broader contributions.
 - *Team:* If team members refer to conversations, decisions, or approvals that were hidden or inaccessible, ask if they can share documentation of the conversation with the rest of the group. Or, at least, ask for a commitment for those conversations to be facilitated in public channels in the future.
 - *Company:* Confirm that all engagement and employee satisfaction surveys are measuring feelings of isolation, information accessibility, and effective communication.
@@ -95,23 +98,24 @@ Guidelines should be included in your team's [Single Source of Truth (SSoT)](/ha
 {{% details summary="Examples and resources for collaboration guidelines" %}}
 **Example:** [Setting Internal Communication Guidelines for Standardized Tool Use](/handbook/communication/)
 
-To minimize miscommunications that can stem from cultural diversity, contextual interpretations, or various levels of software experience, GitLab maintains a handbook page about [internal communication guidelines](/handbook/communication/). These rules, instructions, and examples ensure that our internationally distributed workforce is using the same tools in the same way, and handing off results to one another without the risk of important information getting “lost in translation.”
+To minimize miscommunications that can stem from cultural diversity, contextual interpretations, or various levels of software experience, GitLab maintains a handbook page about [internal communication guidelines](/handbook/communication/). These rules, instructions, and examples ensure that our internationally distributed workforce is using the same tools in the same way, and handing off results to one another without the risk of important information getting "lost in translation."
 
 **Resource:** [How to Create a Team Working Agreement](https://www.mural.co/blog/team-agreement-guide) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for collaboration guidelines" %}}
 **Quick Start Tips:**
-- *Individual:* Confirm that your SSoT includes a section for collaboration guidelines. If it does, commit to making at least one contribution to it per week. If it doesn’t, contact the DRI for the SSoT to resolve.
-- *Team:* Build a “suggestion box” communication channel or form where all team members can make suggestions for Collaboration Guideline additions.
-- *Company:* Update your company’s onboarding and continuing education programs to include training about collaboration guidelines.
+
+- *Individual:* Confirm that your SSoT includes a section for collaboration guidelines. If it does, commit to making at least one contribution to it per week. If it doesn't, contact the DRI for the SSoT to resolve.
+- *Team:* Build a "suggestion box" communication channel or form where all team members can make suggestions for Collaboration Guideline additions.
+- *Company:* Update your company's onboarding and continuing education programs to include training about collaboration guidelines.
 
 **Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
 {{% /details %}}
 
 ## Shared values
 
-The reality of your teams’ day-to-day life at work – or team member experience – is influenced by more than company operations; it’s manifested as team behaviors that can be observed, recorded, and quantified. These behaviors are best designed and managed in the context of a shared set of organizational values, which are one of the prerequisites for TeamOps. Without explicit cultural values, there is no group identity or basis for group cohesiveness.
+The reality of your teams' day-to-day life at work – or team member experience – is influenced by more than company operations; it's manifested as team behaviors that can be observed, recorded, and quantified. These behaviors are best designed and managed in the context of a shared set of organizational values, which are one of the prerequisites for TeamOps. Without explicit cultural values, there is no group identity or basis for group cohesiveness.
 
 Each organization may create its unique values, but whatever they are, values must be recorded in the SSoT for reference and accountability, then operationalized through habits, rituals, and workflow practices. Include definitions, examples, and measurable success criteria so that any team member within the organization can understand and activate them.
 
@@ -131,9 +135,10 @@ Starting communication and collaboration with an external team (be it prospectiv
 
 {{% details summary="Change management support for shared values" %}}
 **Quick Start Tips:**
+
 - *Individual:* When responding or providing feedback to team members, highlight when their contributions activate one (or more) of your company values.
 - *Team:* When beginning a new project, discuss which values should be specifically prioritized for project success, and how they will influence the project roadmap or group dynamics.
-- *Company:* Update your company’s onboarding and continuing education programs to include training about your company values.
+- *Company:* Update your company's onboarding and continuing education programs to include training about your company values.
 
 **Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
 {{% /details %}}
@@ -161,8 +166,9 @@ Additionally, she posted a Slack message in the public `#values` channel asking 
 
 {{% details summary="Change management support for inclusivity" %}}
 **Quick Start Tips:**
+
 - *Individual:* Commit to spending 1 hour per week to building professional relationships with your team members. Prioritize team members that work in independent roles, have quiet personalities, or you suspect are at risk for feeling underappreciated.
-- *Team:* Connect with your company’s diversity and inclusion director to ask for ideas on how to support your company’s current goals. To help measure your status, specifically request scores, resources, events, or trainings that might be available.
+- *Team:* Connect with your company's diversity and inclusion director to ask for ideas on how to support your company's current goals. To help measure your status, specifically request scores, resources, events, or trainings that might be available.
 - *Company:* Confirm that all engagement and employee satisfaction surveys are measuring feelings of connection, belonging, and trust.
 
 **Recommended TeamOps Partner:** [Flourish](https://www.flouriship.com/) (consultant)
@@ -189,9 +195,10 @@ Two GitLab team members have never worked together before, so they set up a [cof
 
 {{% details summary="Change management support for informal communication" %}}
 **Quick Start Tips:**
+
 - *Individual:* Add 5 minutes of casual conversation time to the beginning or end of every meeting agenda.
 - *Team:* After a break, holiday, or company closure, reconnect as a team in your asynchronous communication platform by each sharing pictures of how you spent your time off.
-- *Company:* Build channels in your asynchronous communication platform dedicated exclusively to informal communication about topics like hobbies, local culture/events, pets, caretaking, etc. (Check out [GitLab’s Slack channel directory](/handbook/communication/chat/) for inspiration.)
+- *Company:* Build channels in your asynchronous communication platform dedicated exclusively to informal communication about topics like hobbies, local culture/events, pets, caretaking, etc. (Check out [GitLab's Slack channel directory](/handbook/communication/chat/) for inspiration.)
 
 **Recommended TeamOps Partner:** [Flourish](https://www.flouriship.com/) (consultant)
 {{% /details %}}

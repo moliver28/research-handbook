@@ -14,11 +14,18 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
 - [CI/CD Catalog Documentation](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
 
-### Team
+## Team Handles
+
+| Category | Handle |
+|---------------|------|
+|GitLab Team Handle | @verify-pa-team |
+| Slack Channel | [#g_pipeline-authoring](https://gitlab.slack.com/archives/C019R5JD44E) |
+| Slack Handle (Engineers) | @verify-pa-engineering |
+
+### Team Resources
 
 - [Team Resources](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/)
 - [Workflow board: `~group::pipeline authoring`](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started)
-- [Slack Channel: `#g_pipeline-authoring`](https://gitlab.slack.com/archives/C019R5JD44E)
 
 ### Videos
 
@@ -33,14 +40,58 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - CI/CD Catalog: publishing and releasing process to Catalog.
 - Pipeline creation: process of building and persisting a pipeline including multi-project
   or child pipelines.
+- Variables:  Simplifies your pipeline configuration and eliminates pipeline management issues caused by repeatedly used values getting out of sync. 
+
+## Technical Roadmap 
+
+`Remainder of FY25`
+
+These areas are our high-level engineering driven goals for the remainder of `FY25`. Though they are ambitious and subject to change, it gives insight into where our focus will be in these areas.
+
+### Performance & Cost Reduction
+
+**Pipeline Creation Speed**
+
+Goals:
+
+- Understand all endpoints that comprise of pipeline creation to improve speed.
+- Identify top 3 issue [candidates](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=ci%3A%3Apipeline%20creation&first_page_size=20) to optimize pipeline creation performance.
+
+### Scalability
+
+**CI/CD Variables**
+
+Goals:
+
+- Address top-level variables keyword problem - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6565)
+- Implement a new CI/CD variable structure from scratch. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
+
+### Efficiency
+
+**Auto-generating a JSON schema for spec keyword** 
+
+Goals:
+
+- Transition from entry classes to JSON schema for data structure validation.
+
+### Visibility 
+
+**CI Catalog instrumentation**
+
+Goals:
+
+- Work on top 3 issue [candidates](https://gitlab.com/groups/gitlab-org/-/epics/10120) to add more visibility for usage in CI/CD Catalog.
+
+### FY26 top of mind
+
+- Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
 
 ## Exciting things and accomplishments
 
 This section will list the top three most recent, exciting accomplishments from the team.
 
-- We welcomed [Rajendra Kadam](https://gitlab.com/rkadam3) as our newest backend engineer to the team!
-- Recently, we completed the next [phase](https://gitlab.com/groups/gitlab-org/-/epics/11674) of Beta release for CI Catalog.
-- 2023 team accomplishments can be found [here](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/122).
+- Recently, we released the CI/CD Catalog to [GA](https://gitlab.com/groups/gitlab-org/-/epics/12153).
+- We added usage statistics and a sort option for popularity in the CI/CD Catalog [index page](https://gitlab.com/gitlab-org/gitlab/-/issues/434333)
 
 ## Team Members
 
@@ -49,6 +100,31 @@ This section will list the top three most recent, exciting accomplishments from 
 ## Stable Counterparts
 
 To find our stable counterparts, look at the Pipeline Authoring [product category listing](/handbook/product/categories/#pipeline-authoring-group).
+
+## Capturing User Feedback
+
+We highly value user feedback! Please use the issue below to capture feedback and insights for our newest feature, CI/CD Catalog:
+
+- [CI/CD Catalog Feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/407556)
+
+## Group Meetings 
+
+For every meeting, it is expected that it contains a list of agenda items to discuss along with the meeting notes when the meeting takes place. This will make it easier for people to catch up if they are unable to attend.
+
+Please note that sync meeting schedules are flexible and can be moved to accomodate required participants. For an up-to-date schedule of all team meetings, please consult the [Group's Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_n7totcsnoi7l2j0a2n9ps08g7s@group.calendar.google.com&ctz=UTC).
+
+The table below briefly outlines the objectives and key details of regular team meetings:
+
+| Meeting Title | Cadence | DRI | What |
+|---------------|------|------|------|
+| UX/Product/Engineering sync | Weekly | Product | Set overall direction and validate higher-priority issues/epics to be worked on in the upcoming releases.|
+| Team weekly sync * | Weekly | Engineering | Discuss announcements, product updates, open questions team wishes to discuss. |
+| Backlog clean-up | Monthly | Product |Review the current state of team backlog to ensure all issues are still valid so the backlog is clean and up-to-date. |
+| Milestone retrospective sync | Monthly | Engineering | Reflect on the milestone that recently completed and share takeaways as well as identify action items for improvement and/or future trialing. |
+| Design discussions | Bi-Weekly | UX | Review current design work that needs collaboration or feedback from Engineering. |
+| Technical discussions | Bi-Weekly | Engineers | Discuss current work and open questions that team members have for each other |
+
+- Starting in September 2024, the team will begin to trial team weekly syncs on Mondays.  If successful, weekly team syncs and ux/product/engineering syncs will be combined into 1 meeting starting in October.
 
 ## Dashboards
 
@@ -68,19 +144,19 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
   {{< tableau/filters "GROUP_LABEL"="pipeline authoring" >}}
 {{< /tableau >}}
 
-#### Cross-functional prioritisation
+### Cross-functional prioritisation
 
-UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation. 
+UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
 
-#### Design Collaboration
+### Design Collaboration
 
 We hold a bi-weekly design sync meeting open to all team members where we discuss any design-related topic.
 
 ## How We Work
 
-### Implementation template
+### Issue template
 
-A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue Implementation` is used to capture consistent details around implementation efforts. This template should be used when creating `backend` or `frontend` issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general `backend` or `frontend` request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
+A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue` is used to capture consistent details around implementation efforts. This template should be used when creating issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
 
 ### Planning
 
@@ -89,6 +165,7 @@ Issues are refined and weighted prior to assigning them to a milestone. We use `
 We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) is the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 
 #### Finding issues that need refinement
+
 All issues that need refining will have the `~workflow::planning breakdown` label applied to them to show that the issues are ready to be weighted.
 You can access all these issues using this [issue filter](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 It's never too early to refine an issue, but we should prioritise the issues closest to starting.  We should also apply the `~workflow::refinement` label when there are still technical discussions that need to take place before weighting can occur during `~workflow::planning breakdown`.
@@ -114,15 +191,20 @@ Engineering uses the [following handbook guidance for determining weights](#weig
 
 Any one on the team can contribute to answering the questions in this checklist, but the final decisions are up to the PM and EMs.
 
+##### Use of Sub-tasks
+
+In May 2024, the team began to trial the use of sub-tasks in issues to help with refinement. The goal is that we have one SSOT issue that contains threaded discussions around all aspects of the team, including backend, frontend, UX, Product, and documentation. We will continue with this trial until the end of `FY25-Q3`. As we learn more in this trial, we are providing [feedback](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/169) so we can determine if sub-tasks are a good fit for us. A future recording will share our findings so others who are interested can learn from our experience.
+
 ##### Steps for Refining and Weighting Issues
 
 Engineers will:
+
 1. Go through the checklist above for refining issues they assign to themselves prior to each milestone.
 1. Add a [weight based on the definitions](#weighting-issues).
 1. Update the `~workflow::` label to the appropriate status, for example:
-   * ~"workflow::design" if further design refinement is needed, and let the designer know.
-   * ~"workflow::ready for development" when refinement is complete and a weight has been applied, signaling that it's ready for implementation and the issue can be scheduled accordingly.
-   * ~"workflow::planning breakdown" if more investigation or research is needed, the status does not move, and the PM and EMs should be pinged.
+   - ~"workflow::design" if further design refinement is needed, and let the designer know.
+   - ~"workflow::ready for development" when refinement is complete and a weight has been applied, signaling that it's ready for implementation and the issue can be scheduled accordingly.
+   - ~"workflow::planning breakdown" if more investigation or research is needed, the status does not move, and the PM and EMs should be pinged.
 1. Unassign themselves from the issue when they are done refining and weighting the issue.
 
 #### Weighting Issues
@@ -147,9 +229,10 @@ If an issue requires a feature flag rollout plan, consider increasing the weight
 
 Sometimes, issues that were originally weighted need to be updated to give a more accurate reflection of what the true work was.
 When this happens, team members are encouraged to:
-* Provide comments explaining why the weight is changing as the task is being implemented
-* Update the weight of the issue as limitations are realized during implementation, and validate that the weight is correct upon completion of the task
-* Note in the current milestone retrospective of this change as this will provide valuable context for historical reference of how much effort was involved with this work
+
+- Provide comments explaining why the weight is changing as the task is being implemented
+- Update the weight of the issue as limitations are realized during implementation, and validate that the weight is correct upon completion of the task
+- Note in the current milestone retrospective of this change as this will provide valuable context for historical reference of how much effort was involved with this work
 
 ### Syntax deprecation process
 
@@ -166,14 +249,13 @@ GitLab does not have a versioning system for CI/CD configuration. Therefore, it 
     This step is optional if the keyword usage is relatively low (Recommend minimal reach of ~5% impacted users).
 1. Keyword removal - The keyword will be removed from our code and schema and should happen in a major version. Once removed,  using the keyword will result in a lint error.
 
-
 ### Release Plans
 
-To encourage more transparency and collaboration amongst the team and additionally align on the [Release Posts](/handbook/marketing/blog/release-posts/) we publish at the end of each milestone, we will be creating a separate issue to highlight a **Feature flag roll out plan** for each feature being released starting in 13.2, based on the [issue template for feature flag roll outs](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md). The engineer who implements the feature will be responsible for creating this separate issue to highlight the details of when and how the feature flag will be toggled, and subsquently link this issue to their feature issue.  The product manager will tag this issue as a blocker to their release post, so that everyone is aligned on the release plan of the feature.
+To encourage more transparency and collaboration amongst the team and additionally align on the [Release Posts](/handbook/marketing/blog/release-posts/) we publish at the end of each milestone, we will be creating a separate issue to highlight a **Feature flag roll out plan** for each feature being released starting in 13.2, based on the [issue template for feature flag roll outs](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md). The engineer who implements the feature will be responsible for creating this separate issue to highlight the details of when and how the feature flag will be toggled, and subsequently link this issue to their feature issue.  The product manager will tag this issue as a blocker to their release post, so that everyone is aligned on the release plan of the feature.
 
 ### Quad-planning
 
-Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigos) process, Quad-planning is leveraging our "Quad" (Product, UX, Engineering and Quality) to help inform planning of work for the team. It also ensures a shared understanding about the scope of work in a milestone. The _Quad_ is invited to provide feedback on a Planning Issue to ensure that issues have been properly refined. Unlike the [regular product development workflow that details the Quad-planning process](/handbook/product-development-flow/#build-phase-1-plan), Engineering is not only represented by Engineering Management, but the Engineer DRIs as well. The SET counterpart representing Quality will also provide feedback earlier in the process following the [Quality department's guidelines for Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process), by working asynchronously and reviewing the issues in the Planning issue.
+Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigos) process, Quad-planning is leveraging our "Quad" (Product, UX, Engineering and Quality) to help inform planning of work for the team. It also ensures a shared understanding about the scope of work in a milestone. The *Quad* is invited to provide feedback on a Planning Issue to ensure that issues have been properly refined. Unlike the [regular product development workflow that details the Quad-planning process](/handbook/product-development-flow/#build-phase-1-plan), Engineering is not only represented by Engineering Management, but the Engineer DRIs as well. The SET counterpart representing Quality will also provide feedback earlier in the process following the [Quality department's guidelines for Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process), by working asynchronously and reviewing the issues in the Planning issue.
 
 The Product Manager will label relevant issues from the milestone planning issue with the `quad-planning:ready` label. Supplying these distinct viewpoints at this early stage of planning is valuable to informing the feasibility of the effort, as well as refining any unclear requirements or scope. Once acceptance criteria is agreed upon, the `quad-planning:complete` label is applied by the SET on each of the issues.
 
@@ -184,6 +266,8 @@ We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/gitlab-o
 We follow the [product development flow](/handbook/product-development-flow/) to ensure that the problems we're solving are well understood and the solutions are well defined and validated before the implementation.
 
 We aim to achieve key outcomes in each phase in order to de-risk subsequent phases. However, the product development flow doesn't dictate the order we go through the phases, or the time spent in each. We might skip certain phases if we think that the necessary outcomes for that phase have already been achieved.
+
+Our UX counterpart is the DRI for the SSOT designs, and they have the right to push any enhancement discussions in MRs into follow-up efforts in created and linked issues.
 
 Development moves through [workflow states](/handbook/product-development-flow/#workflow-summary) as follows:
 
@@ -220,7 +304,7 @@ Design <--> Scheduling <--> Engineering
 
 We use workflow labels to efficiently communicate an issue's state. Using these labels enables collaboration across teams and communicates an issue's current state. The DRIs throughout each phase of the workflow are responsible for keeping the workflow labels up-to-date.
 
-**Note:** `workflow::awaiting security release` is applied by an engineer after the security issue has been approved by an AppSec engineer and a maintainer, and the backports have been created. This label signals that the MR is ready for merging into production, but it is awaiting the next [monthly security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with the next security release's milestone.
+**Note:** `workflow::awaiting security release` is applied by an engineer after the security issue has been approved by an AppSec engineer and a maintainer, and the backports have been created. This label signals that the MR is ready for merging into production, but it is awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with the next security release's milestone.
 
 Issue descriptions shall always be maintained as the single source of truth. Issue description accuracy should be maintained by the DRIs throughout each phase. However all collaborators can and should contribute when they see discrepancies or needed updates.
 
@@ -229,10 +313,11 @@ Issue descriptions shall always be maintained as the single source of truth. Iss
 Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves.  When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **issue board** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion.
 
 Specifically, this means our work is prioritized in the following order:
- * Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
- * Conducting code reviews on issues that are `workflow::in review`
- * Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
- * Then, lastly, picking from the top of the `workflow::ready for development` for development column
+
+- Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
+- Conducting code reviews on issues that are `workflow::in review`
+- Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
+- Then, lastly, picking from the top of the `workflow::ready for development` for development column
 
 The goal of this process is to reduce the amount of work in progress (WIP) at any given time. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is **the author(s)**, to reflect the importance of teamwork without diluting the notion that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
 
@@ -261,7 +346,7 @@ If an issue misses the milestone, it is automatically assigned the `missed` labe
 the issue was originally targeting a later milestone. Be sure to leave a comment explaining why the label was removed.
 Additionally, if the team member is confident it will make the next milestone, they can update the milestone to match, even if it has not started yet.
 
-#### Using Verify::Cancel label when an issue is canceled.
+#### Using Verify::Cancel label when an issue is canceled
 
 Sometimes, we have issues that were originally created to be worked on and after analysis or change in direction of the issue, we decide that the issue is no longer needed. Additionally, we may also encounter issues that were addressed previously in other MRs. In these cases, use the `Verify::Cancel` label to make it clear that the issue was closed due to no longer being desired or needed, not due to being completed.
 
@@ -275,9 +360,11 @@ On the last week of the milestone, the DRI ([directly responsible individual](/h
 - `At Risk` - The issue is **unlikely** to be completed in the current milestone and will probably miss the release due dates.
 
 Please note that if an issue happens to roll over to the next milestone, the DRI should clear the health status once the next milestone begins to ensure the health status is accurate.
+
 #### Issue status updates
 
 When the DRI is actively working on an issue  (workflow status is `workflow::in dev`, `workflow::in review` or `workflow::verification` in the current milestone), they will add a comment into the issue with a status update, detailing:
+
 - the updated issue health status
 - notes on what was done based on the updated issue health status (especially if not `On Track`)
 - anything else the DRI feels is beneficial to reflect the progress
@@ -295,7 +382,7 @@ Expectations for DRIs when providing updates for work in progress:
 
 - Status updates are provided once per month, barring special circumstances (e.g. PTO)
 - Ideally updates are made at a logical part of a DRI's workflow to minimize disruption, and not necessarily at the same time/day each week
-  - Generally when there is a logical time to leave an update, such as a _change in issue health status_, that is the best time to do so
+  - Generally when there is a logical time to leave an update, such as a *change in issue health status*, that is the best time to do so
   - Can be used to present some technical findings or information relevant to other stakeholders
 
 #### Issues in `workflow::design`
@@ -364,7 +451,7 @@ The Pipeline Authoring group supports the product marketing categories described
 
 | Label                 | |  | Description |
 | ----------------------| -------| ----|------------|
-| `CI integrations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20integrations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20integrations) | Issues related to supporting different CI targets directly (for example, Java or Mobile). | Pipeline Authoring |
+| `CI integrations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20integrations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20integrations) | Issues related to supporting different CI targets directly (for example, Java or Mobile). Pipeline Authoring |
 | `CI persistence` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20persistence) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20persistence) | Issues related to Persistence (workspaces, caching). Does not include artifacts, which is its own label |
 | `CI rules` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20rules) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20rules) | Issues related to CI rules or linting |
 | `pipeline visualizations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=pipeline%20visualizations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=pipeline%20visualizations) | Issues related to pipeline visualization, including [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/), pipeline dependencies for triggers, cross-project pipelines, and child/parent pipelines. For job or pipeline execution, refer to [`pipeline processing`](../pipeline-execution/#feature-labels) (owned by the Pipeline Execution team) |
@@ -379,7 +466,6 @@ The Pipeline Authoring group supports the product marketing categories described
 | `Good for 1st time contributors` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Apipeline%20authoring&label_name[]=Good%20for%201st%20time%20contributors) | | Issues that are good for first time community contributors, and could similarly be labeled for `onboarding` |
 | `Seeking community contributions` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=group::pipeline+authoring&label_name[]=Seeking+community+contributions) | | Issues we would like the wider community to contrbute and may also be labeled `Seeking community contributions` |
 | `quick win` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=quick%20win&first_page_size=20) | | Issues we would like the wider community to contrbute and may also be labeled `quick win` |
-
 
 ### Collaboration with UX and Engineering
 
@@ -400,6 +486,7 @@ Our process of planning and development relies heavily on overcommunication rath
 For both planning and building this means direct, cross-functional, and other relevant stakeholders are included early into the process. This makes sure everyone is able to contribute to the best of their capabilities at the right time in the process. This can include, but is not limited to, GitLab objects, Slack, meetings, and daily standups.
 
 Some practical examples of this are:
+
 - When you open up or begin working on an epic, issue, or merge request consider if all stakeholders are aware of this or should be updated. If unsure, error on the side of updating rather than keeping silent.
 - When making significant progress make sure this is seen by the relevant stakeholders even if you don't require immediate feedback by mentioning them rather than relying on automated email notifications. Make their involvement explicit.
 
@@ -409,10 +496,10 @@ Note: A good practice when only wanting to inform rather than requesting a direc
 
 We suggest using the below steps to reach the best results in the shortest time:
 
-* Once, through user research, we have identified a user need and have generated the big idea to meet that need, Product Designer drives the process of moving that idea into a solution prototype involving PM and Engineering Team early and often.
-* We take that prototype through a user testing to validate it is solving the original problem.
-* When the solution is validated with users - it is time to break the big solution down into smaller issues involving a whole team (PM, Engineers, Product Designer, QA and Technical Writer).
-* Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out [iteration strategies](#iteration-strategies) for help.
+- Once, through user research, we have identified a user need and have generated the big idea to meet that need, Product Designer drives the process of moving that idea into a solution prototype involving PM and Engineering Team early and often.
+- We take that prototype through a user testing to validate it is solving the original problem.
+- When the solution is validated with users - it is time to break the big solution down into smaller issues involving a whole team (PM, Engineers, Product Designer, QA and Technical Writer).
+- Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out iteration strategies for help.
 
 We aim to design broadly for an epic or full feature at least one milestone ahead of time and then break the big solution into smaller issues to pick up in the next milestones.
 Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-viable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
@@ -438,9 +525,9 @@ If we find that solutions are consistently not matching the agreed upon design, 
 
 #### Avoiding crunch times between UX and Engineering
 
-* Ideally, the Product Manager works ahead of time with a Product Designer to validate the problem and work on the solution. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
-* Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement - we can have a put a direction on the board - see [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation) for details.
-* Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
+- Ideally, the Product Manager works ahead of time with a Product Designer to validate the problem and work on the solution. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
+- Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement - we can have a put a direction on the board - see [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation) for details.
+- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
 
 #### Iteration on UX and Engineering collaboration process
 
@@ -453,7 +540,6 @@ The results of the first UX collaboration survey can be found in the [UX Collabo
 It is always required that engineers should add all relevant tests (unit, component, integration or E2E) alongside a new feature or a bug fix.
 We recognize, however, that in the case of creating E2E tests this cannot be applied systematically for multiple reasons. This section
 lists some ways we work to deliver tests in a painless and efficient way.
-
 
 #### Plan ahead
 
@@ -522,19 +608,27 @@ When creating a follow-up issue for required tests:
 
 ### Technical Debt
 
-- We track our technical debt using the following [Pipeline Authoring Technical Debt issue board](https://gitlab.com/groups/gitlab-org/-/boards/2019541), where we track issues in the planning phase.
-- We schedule issues that are labeled as `workflow::ready for development`.
+- We track our team's technical debt using the following the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance), where we track issues with upcoming candidate labels and compare against current milestone.
+- In an effort to promote more transparency across the stage where collaboration may be needed, starting in August 2024, we've introduced a [Verify Pipeline teams Technical Debt board](https://gitlab.com/groups/gitlab-org/-/boards/1438885?not%5Blabel_name%5D%5B%5D=group%3A%3Ahosted%20runners&not%5Blabel_name%5D%5B%5D=group%3A%3Arunner&label_name%5B%5D=devops%3A%3Averify&label_name%5B%5D=type%3A%3Amaintenance) that shows the top of mind priorities in the Pipeline teams.
+
+Within the Pipeline Technical Debt Prioritization board, we have 6 main columns:
+
+1. Items with the current maintenance and refactor labeling needing severity are in the left-most column.
+2. The next column will always be the current milestone so team members have the opportunity to compare that list against what is coming up.
+3. The other columns are the upcoming 4 milestone candidate labels so team members can forecast out upcoming priorities.
+
+**NOTE:** Impact breakdown: We use `severity::n` labels to classify the impact of the specific tech debt item. These should map to the [severity definitions for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
 
 When creating a technical debt issue make sure to label it as such, in addition make sure to add labels based on the following guidelines:
 
 1. Issue readiness: We add the correct `~workflow::x` label in accordance with our [product development workflow](/handbook/engineering/development/ops/verify/pipeline-authoring/#workflow)
-
-1. Impact breakdown: We use `severity::n` labels to classify the impact of the specific tech debt item. These should map to the [severity definitions for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+2. Issue scheduling. The Engineering Manager will review the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance) and provide suggestions to the team to schedule for upcoming milestones by adding them to the respective planning issue for a milestone and communicating with Product a need to schedule the issue in an upcoming milestone. The issues selected should ideally align with the team's technical roadmap [themes](#technical-roadmap).
 
 #### Prioritization of Technical Debt
 
 Engineering Managers are responsible for collecting feedback from their engineering teams to help inform the Product Manager to decide on the priority of these technical debt issues.
 Engineers should label these issues accordingly with their assessment of severity, weight, and make a recommendation on a technical proposal.
+
 - For tech debt which carries the weight of 1 or 2, engineers can schedule them for the current or future milestone.
 - For tech debt that carries the weight of 3 and above should be scheduled by the Product Manager.
 In each milestone, we should try allocating time for fixing tech debt issues.

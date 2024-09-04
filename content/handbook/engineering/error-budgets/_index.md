@@ -3,15 +3,15 @@ title: "Engineering Error Budgets"
 description: "The error budget provides a clear, objective metric that determines how unreliable the service is allowed to be within a single quarter."
 ---
 
-As part of [our strategy][strategy] to [reinforce GitLab SaaS][product strategy] as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability][availability] and [Performance][performance] targets.
+As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/enablement/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance) targets.
 
 These targets give our users indication of the platform reliability.
 
-Additionally, [GitLab.com Service Level Availability][SLA methodology] is also a part of our contractual agreement with platform customers. The contract might define a specific target number, and not honouring that agreement may result in financial and reputational burdens.
+Additionally, [GitLab.com Service Level Availability](/handbook/engineering/monitoring/#gitlabcom-service-availability) is also a part of our contractual agreement with platform customers. The contract might define a specific target number, and not honouring that agreement may result in financial and reputational burdens.
 
 ## What are error budgets?
 
-The Google SRE book is generally a recommended read and under the ["Motivation for Error Budgets"][motivation] section, it states:
+The Google SRE book is generally a recommended read and under the ["Motivation for Error Budgets"](https://landing.google.com/sre/sre-book/chapters/embracing-risk/#id-na2u1S2SKi1) section, it states:
 
 > The error budget provides a clear, objective metric that determines how unreliable the service is allowed to be within a single quarter. This metric removes the politics from negotiations between the SREs and the product developers when deciding how much risk to allow.
 
@@ -22,18 +22,20 @@ Future iterations of our error budgets will seek to further develop the importan
 ## What are the components of error budgets?
 
 Error Budgets first depend on establishing an SLO (Service Level Objective). SLOs are made up of an objective, a SLI (Service Level Indicator), and a timeframe.
+
 - **Objective**: The desired level of succcess, noted as a percentage
 - **SLI**: an evaluation used to distinguish number of failed events
 - **Timeframe**: enforcing a recency bias to the SLI
 
 Here is an example of these elements:
+
 - **Objective**: 99.95%
 - **SLI**: 95th percentile latency of api requests over 5 mins is < 100ms
 - **Timeframe**: previous 28 days
 
 Taken all together, the above example SLO would be: ***99.95% of the 95th percentile latency of api requests over 5 mins is < 100ms over the previous 28 days***
 
-The Error Budget is then 1 - Objective of the SLO, in this case (1 - .9995 = .0005).  Using our 28 day timeframe, **the "budget" for errors is 20.16 minutes** (.0005 * (28 * 24 * 60))
+The Error Budget is then 1 - Objective of the SLO, in this case (1 - .9995 = .0005).  Using our 28 day timeframe, **the "budget" for errors is 20.16 minutes** (.0005 *(28* 24 * 60))
 
 While the above example shows the SLI as a latency measurement, it is important to note that other measurements (such as % errors) are also good elements to use for SLIs.
 
@@ -70,7 +72,7 @@ Let's take look at a simplified violation scenario with different traffic
 patterns:
 
 | Endpoint   | Total requests | Slow requests | Apdex ratio | Traffic share |
-|------------|----------------|-----------------------------|---------------|
+|------------|----------------|---------------|-------------|---------------|
 | Endpoint A | 1 000          | 500           | 50%         | 1%            |
 | Endpoint B | 99 000         | 9 000         | 90%         | 99%           |
 
@@ -95,7 +97,7 @@ The number of violations for `Endpoint B` puts it below the apdex
 threshold, so if these two endpoints are the top violators we see, we
 should look into improving `Endpoint B`.
 
-# The Error Budget Policy for GitLab.com
+## The Error Budget Policy for GitLab.com
 
 The error budgets process has a few distinct items:
 
@@ -108,21 +110,20 @@ The error budgets process has a few distinct items:
 
 The stakeholders in the Error Budget process are:
 
-1. Stage teams (Product department and the supporting Engineering teams represented on the [product categories page][categories])
-1. Infrastructure teams (Teams represented on the [infrastructure team page][infra teams])
+1. Stage teams (Product department and the supporting Engineering teams represented on the [product categories page](/handbook/product/categories/))
+1. Infrastructure teams (Teams represented on the [infrastructure team page](/handbook/engineering/infrastructure/team/))
 1. [VP of Infrastructure and Infrastructure Leadership](/handbook/engineering/infrastructure/#mstaff)
 1. VP of Development and VP of Product
 
-
 ## Budget allocation
 
-Error budget is calculated based on the [availability] targets.
+Error budget is calculated based on the [availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) targets.
 
 With the current target of `99.95%` availability, allowed unavailability window is `20 minutes per 28 day period`.
 
 We elected to use the 28 day period to match Product reporting methods.
 
-The budget is set on the SaaS platform and is shared between stage and infrastructure teams. Service Availability calculation methodology is covered in details at [the GitLab.com Service Availability page][SLA methodology].
+The budget is set on the SaaS platform and is shared between stage and infrastructure teams. Service Availability calculation methodology is covered in details at [the GitLab.com Service Availability page](/handbook/engineering/monitoring/#gitlabcom-service-availability).
 
 This includes all Rails Controllers, API Endpoints, Sidekiq workers, and other SLIs defined in the service catalog. This is attributed to groups by defining a feature category. Documentation about feature categorization is available in the [developer guide](https://docs.gitlab.com/ee/development/feature_categorization/index.html#feature-categorization).
 
@@ -146,9 +147,9 @@ Feature categories with monthly spend above the allocated budget for three conse
 
 ## Budget spend(by service)
 
-The current budget spend can be found on the [general Service Availability dashboard][SLA dashboard].
+The current budget spend can be found on the [general Service Availability dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-30d&to=now).
 
-Spent budget is the time (in minutes) during which user facing services have experienced a percentage of errors below the specified threshold and latency is above the specified objectives for the service. The details on how Service  Availability is calculated can be  found at [the GitLab.com Service Availability page][SLA methodology].
+Spent budget is the time (in minutes) during which user facing services have experienced a percentage of errors below the specified threshold and latency is above the specified objectives for the service. The details on how Service  Availability is calculated can be  found at [the GitLab.com Service Availability page](/handbook/engineering/monitoring/#gitlabcom-service-availability).
 
 The budget spend is currently aggregated at the primary service level.
 
@@ -160,21 +161,23 @@ Details on what contributed to the budget spend can be further found by examinin
 
 ## Budget spend (by stage group)
 
-There is [an example available](error-budget-by-stage-group-example.html) with a more detailed look at how this is built.
+There is [an example available](error-budget-by-stage-group-example.md) with a more detailed look at how this is built.
 
-The current [28 day](/handbook/business-technology/data-team/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard][stage group dashboards]. Feature categories for that stage group are rolled up to a single value.
+The current [28 day](/handbook/business-technology/data-team/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups). Feature categories for that stage group are rolled up to a single value.
 
-Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html#check-where-budget-is-being-spent)
+Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/stage_group_dashboard.html)
 
 The formula for calculating availability:
-```
+
+```text
 the number of operations with a satisfactory apdex + the number of operations without errors
 /
 the total number of apdex measurements + the total number of operations
 ```
 
 This gives us the percentage of operations that completed successfully and is converted to minutes:
-```
+
+```text
 (1 - stage group availability) * (28 * 24 * 60)
 ```
 
@@ -235,9 +238,8 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 
 |**Stage Group**   | **Monthly Spend (28 days)** | **Business Reason** | **Review Date**|
 |------------------|---------------------|---------------------|---------------------|
-| Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2024-06-30 (or if total traffic share exceeds 5%) |
+| Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work (Cells) as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2025-01-31 (or if total traffic share exceeds 5%) |
 | Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2024-06-06 |
-| Create:Code Creation | 99.89% | [A bug was introduced while tuning some SLI thresholds](https://gitlab.com/gitlab-org/gitlab/-/issues/425095#note_1833203928) for AI Gateway leading to all apdex measurements for these SLIs were wrongly counted as failed measurements in March 2024. | 2024-04-30 |
 | Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-05-30 |
 
 **Exceptions**
@@ -270,7 +272,6 @@ Provide answers to the following questions:
 1. What portion of your team's budget is due to this exception? If you were to remove the offending endpoints covered by this exception would your error budget become green?
 1. What is the main contributor to your team's error budget spend? Is that the response time?
 1. What does success look like at the closure of referenced epic?
-
 
 Follow the guidance and instructions above to expedite the approval process.
 
@@ -317,23 +318,23 @@ The changes below aim to increase the maturity of the Error Budgets.
 - ***Completed*** SLI calculations used request duration threshold which was not appropriate for all endpoints. [The threshold was increased to 5s](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1243) on the 21st of Sept and it will take 28 days for the full effect to be shown in the Error Budgets.
 - **Completed** Stage groups will next be enabled to set their own SLI per endpoint by expanding on the configurability of SLI request duration threshold. [epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/525).
 - Endpoints that are currently `not_owned` will be attributed to the correct feature category. This will be addressed by
-   - **Completed** [using caller information for Sidekiq](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1200), and
-   - having [graphQL query-to-feature correlation](https://gitlab.com/gitlab-org/gitlab/-/issues/328535).
+  - **Completed** [using caller information for Sidekiq](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1200), and
+  - having [graphQL query-to-feature correlation](https://gitlab.com/gitlab-org/gitlab/-/issues/328535).
 - The [impact of system-wide outages on Error Budgets should be more clear](https://gitlab.com/gitlab-com/Product/-/issues/2884).
 - Provide guidance for PM's who report on both Error Budgets and Service Availability. (Such as Runner and Pages).
 
 **Product Development Activities**
 
 Product Development teams are encouraged to:
-- Continue working on [Rapid Action][rapid action], [Infradev][infradev], [Corrective Actions][corrective action], [Security][security vulnerabilities], and [Engineering Allocation][engineering allocation] issues per our [Prioritization guidelines][engineering prioritization]
+
+- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/engineering/#engineering-allocation) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
 - Propose SLOs for their endpoints
 - [Opt-in to using the new apdex calculation methods that use the custom target durations](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1451)
 - Provide further feedback for future improvements to Error Budgets
 
 #### 2. Increase visibility into Error Budgets (error portion)
 
-- Stage groups are provided with error count information. This can be supplemented with further detail by [making error information
-explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/396).
+- Stage groups are provided with error count information. This can be supplemented with further detail by [making error information explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/396).
 
 #### 3. Tune the scope of Error Budgets
 
@@ -344,27 +345,3 @@ explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/39
 - [Error Budget AMA](https://docs.google.com/presentation/d/1yYnLlTN8KOYNHww91nJgnbFK7l2xf3Cy1mRvUAxHa08/edit)
 - [Understanding Stage Level Error Budget Dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/#error-budget)
 - [Setting up recurring Slack updates](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/error-budget-weekly.md)
-
-[strategy]: /direction/#3-year-strategy
-[product strategy]: /direction/enablement/dotcom/
-[availability]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability
-[performance]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance
-[SLA methodology]: /handbook/engineering/monitoring/#gitlabcom-service-availability
-[embracing risk]: https://landing.google.com/sre/sre-book/chapters/embracing-risk/#id-AnCDFmtB
-[velocity]: /handbook/engineering/development/principles/#the-importance-of-velocity
-[motivation]: https://landing.google.com/sre/sre-book/chapters/embracing-risk/#id-na2u1S2SKi1
-[infradev]: /handbook/engineering/workflow/index.html#availability-and-performance-refinement
-[architecture]: /handbook/engineering/architecture/workflow/
-[categories]: /handbook/product/categories/
-[infra teams]: /handbook/engineering/infrastructure/team/
-[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability
-[okr]: /handbook/engineering/#engineering-okr-process
-[eng comms]: /handbook/engineering/#keeping-yourself-informed
-[SLA dashboard]: https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-30d&to=now
-[stage group dashboards]: https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups
-[rapid action]: /handbook/engineering/development/#rapid-action
-[infradev]: /handbook/engineering/workflow/#infradev
-[corrective action]: /handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership
-[security vulnerabilities]: /handbook/security/threat-management/vulnerability-management/#vulnerability-management-overview
-[engineering allocation]: /handbook/engineering/#engineering-allocation
-[engineering prioritization]: /handbook/engineering/development/principles/#prioritizing-technical-decisions

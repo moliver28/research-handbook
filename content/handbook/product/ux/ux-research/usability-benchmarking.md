@@ -95,6 +95,7 @@ Here is an example of a singular task as written in the task list:
 #### A note on cut-off time
 
 There isn't a hard and fast rule when it comes to assigning a cut-off time for your tasks. There are a few ways you might do this:
+
 - Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
 - Perform a [KLM](https://measuringu.com/predicted-times/) (Keystroke Level Modeling) calculation to get a rough estimate of time on task.
 - Run a pilot without enforcing any cut off. Measure time on task, and use that as a baseline. This comes with some caveats: you should consider adding time to the tasks that your pilot participant completed quickly and possibly subtracting time from the tasks that you felt took too long.
@@ -104,12 +105,13 @@ There isn't a hard and fast rule when it comes to assigning a cut-off time for y
 One way to do weighting is to look at the number of steps necessary in the completion criteria and use that number.  In the example above, note that there are five steps listed in the completion criteria section, and the assigned weight is five. This assigns weight as a proxy for task complexity (which may or may not be appropriate for your study). How you use the weight in your calculations is usually as a multiplier for reporting summative metrics.
 
 As a simple example:
- - Take 2 tasks: A and B.
- - The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
- - Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.
- - When scoring the grade for the **combined** tasks, multiply each score by its weight. The score for A stays at 20/20, and the score from B becomes 20/40 (10 *2 = 20, 20* 2 = 40).
- - Next, add the totals from the tasks to get the final weighted score (20 + 20 / 20 + 40).
- - The total score is 40/60 or .67, not the unweighted average of 30/40 or .75, because we weighed task B more and task B performed worse.
+
+- Take 2 tasks: A and B.
+- The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
+- Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.
+- When scoring the grade for the **combined** tasks, multiply each score by its weight. The score for A stays at 20/20, and the score from B becomes 20/40 (10 *2 = 20, 20* 2 = 40).
+- Next, add the totals from the tasks to get the final weighted score (20 + 20 / 20 + 40).
+- The total score is 40/60 or .67, not the unweighted average of 30/40 or .75, because we weighed task B more and task B performed worse.
 
 ### Metrics
 
@@ -193,7 +195,7 @@ As noted above, triangulating the pain points identified during your benchmark s
 Take the following steps to triangulate your benchmark study findings with the SUS verbatim for your stage.
 
 1. Compile a set of verbatims from your stage to use in your analysis.
-1. Take out verbatims that are positive-only (e.g., “it’s pretty slick with ci”) and those that are so brief as not to be informative (e.g., “ci”)
+1. Take out verbatims that are positive-only (e.g., "it's pretty slick with ci") and those that are so brief as not to be informative (e.g., "ci")
 1. Take a random sample of 25% of your verbatims to develop your categories.
 1. Start with a list of the benchmark pain points for each task and UX theme and add categories as needed to capture new themes like Learnabilty and Documentation. Break-up complex verbatims that reflect multiple themes into separate verbatims. That will help you to apply the categories in a mutually exclusive manner, which is needed to represent the percentage of verbatims that align with different themes.
 1. You should have a general category of NA (not applicable) for verbatims that can't be categorized. It makes sense that not all verbatim align with benchmark tasks and themes.
@@ -206,11 +208,11 @@ UX Researchers and their teams will identify [Actionable Insights](/handbook/pro
 
 Actionable Insights should get the following labels:
 
- - `Usability benchmark`
- - `Section::Stage` scoped labels to identify the section and stage(s) covered in the study
- - `Actionable Insight::Product change` or `Actionable Insight::Exploration needed`
- - NOTE: `Actionable Insight::Product change` require a Severity Label to be applied to each issue.
- - It's also helpful for stakeholders and for you to rate the severity level of each Actionable Insights so that teams know how to prioritize them. You can use the task level Severity ratings described above to attribute severity levels for each Actionable Insight.
+- `Usability benchmark`
+- `Section::Stage` scoped labels to identify the section and stage(s) covered in the study
+- `Actionable Insight::Product change` or `Actionable Insight::Exploration needed`
+- NOTE: `Actionable Insight::Product change` require a Severity Label to be applied to each issue.
+- It's also helpful for stakeholders and for you to rate the severity level of each Actionable Insights so that teams know how to prioritize them. You can use the task level Severity ratings described above to attribute severity levels for each Actionable Insight.
 
 #### Timeline
 
@@ -227,7 +229,7 @@ Preparing and conducting a benchmarking study takes time. Below is a sample time
 | Plan: Test environment | Set up your test environment with any projects and [sample data](/handbook/product/ux/ux-research/ux-cloud-sandbox) you will use for testing | 2 weeks |
 | Recruitment | Open a research recruitment issue at least a month prior to when you wish to run your sessions. A typical benchmarking study uses about 20 participants. | Opening ticket: 1 day. Recruitment itself: 1 month |
 | Run Pilot(s) | The week before your sessions, run 1 or 2 pilot sessions to perfect your protocol and tasks. | 1-2 days |
-| Run Sessions | Benchmarking sessions typically last from 90 minutes to two hours. Meaning that for 20 participants, conducting two sessions per day, you are looking at a solid two to four weeks of conducting sessions. Note that you will need to invite more participants than necessary to fill 20 sessions, since not everyone who qualifies will accept the research invite. In order to maximize participant attendance and avoid late cancelations, send reminder emails within 24 hours of each session. | 2-4 weeks |
+| Run Sessions | Benchmarking sessions typically last from 90 minutes to two hours. Meaning that for 20 participants, conducting two sessions per day, you are looking at a solid two to four weeks of conducting sessions. Note that you will need to invite more participants than necessary to fill 20 sessions, since not everyone who qualifies will accept the research invite. In order to maximize participant attendance and avoid late cancellations, send reminder emails within 24 hours of each session. | 2-4 weeks |
 | Analyze the results. | Calculate metrics, extract recommendations, pull verbatim, put things into Dovetail, and so on.  | 2 weeks |
 | Prepare the report and share it. | Produce research report, slides, recordings, and so on to disseminate your findings. | 2 weeks |
 

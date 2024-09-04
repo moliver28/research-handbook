@@ -12,13 +12,44 @@ Security Assurance Automation Engineers are a critical dedicated resource that e
 
 ### Intake process
 
-Security Assurance Automation maintains an internal [Security Assurance Automation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-assurance-automation) that is dedicated to the intake of Security Assurance related automation requests. As these requests are received, Security Assurance Automation Engineers triage and prioritize the requests. Once requests have been prioritized, an Epic is opened at the [GitLab Security Assurance Automation](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-assurance-automation-subgroup) sub-group level if appropriate or handled directly in the issue requesting the work. All work related to the automation request is tracked in its associated Epic.
+Security Assurance Automation maintains an internal [Security Assurance Automation Issue Landing project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing) that is dedicated to the intake of Security Assurance related automation requests. As these requests are received, Security Assurance Automation Engineers triage and prioritize the requests. Once requests have been prioritized, an Epic is opened at the [GitLab Security Assurance Automation](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup) sub-group level if appropriate or handled directly in the issue requesting the work. All work related to the automation request is tracked in its associated Epic.
 
 #### Intake process - Control Related Automations
 
 A specific `control_related_automation_request` template exists and should be used for any requests related to automating a component of control testing. These requests will always be promoted to an epic or added to an existing control-specific epic if one already exists. GitLab strives to have a true [Continous Control Monitoring](/handbook/security/security-assurance/#security-compliance-commercial-core-competencies) program in place, and iterating to that state for controls often involves many intermediate steps. For this reason, we aim to gather as many details up front about the MVP solution that we can work on and implement immediately for a control automation. Gaining an idea of "where we're going" enables a forward looking approach and allows us to maintain a healthy backlog of work to push forward and adapt as capabilities/systems shift throughout the company.
 
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-assurance-automation/-/issues/new?issuable_template=new_automation_issue" class="btn bg-primary text-white btn-lg">Open a Security Assurance Automation Request</a>
+<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new" class="btn bg-primary text-white btn-lg">Open a Security Assurance Automation Request</a>
+
+### Labels
+
+The Security Assurance Automation team uses scoped labels to identify the workflow stage of automation requests. These labels also define where the request is coming from and the type of work that is needed to satisfy the request.
+
+- `team::SAA` - This is a catch all label that will be applied to all security assurance automation related issues. Please apply this label, regardless of project, to get the SAA team to review.
+
+#### Stages
+
+- `SAA::In-Progress` - Issues that are currently in progress
+- `SAA::Ready` - Issues that have been triaged and are in the backlog
+- `SAA::Blocked` - Issues that are blocked or stalled
+- `SAA::UAT` - User acceptance testing, these issues will need to be reviewed by the stakeholder
+- `SAA::Vague` - Issues that require additional information before work can proceed.
+
+#### Type
+
+- `SAA-Type::Metrics` - Issues that are metric centric
+- `SAA-Type::Control-Automation` - Issues that are control process automations
+- `SAA-Type::API-Integration` - Issues that require API integration between systems
+- `SAA-Type::Process-Automation` - Issues that are manual processes, that are being upgraded
+- `SAA-Type::Maintenance` - Issues that are related to ongoing structure/maintenance of team processes
+
+#### Source
+
+- `SAA-Source::Risk` - Issues from the Risk team
+- `SAA-Source::Compliance` - Issues from the Compliance team
+- `SAA-Source::Assurance-Automation` - Issues from the Security Assurance Automation team
+- `SAA-Source::Governance` - Issues from the Governance team
+- `SAA-Source::Field-Security` - Issues from the Field Security team
+- `SAA-Source::Ad-Hoc` - Unplanned issues raised for the department that don't fall under a specific team (e.g. leadership asks etc.)
 
 ### SLAs
 
@@ -29,10 +60,9 @@ The Security Assurance team uses scoped labels to identify the priority and indi
 - Description - Criteria the issue must fit to be assigned the label.
 - Provide Solution - The time it will take to update the issue and provide a solution to the automation request.
 
-
 | Priority | Color | Description | Provide Solution |
 | -------- | ---------- | --------- | --- |
-| `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are “drop everything so the team can do work” types of requests.                 | 1 Business Day |
+| `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are "drop everything so the team can do work" types of requests.                 | 1 Business Day |
 | `~"SAA::2"` | Orange   | These issues have an effect on business continuity or are critical for compliance engagements. | 3 Business Days |
 | `~"SAA::3"` | Yellow | These issues are day to day automations that are not critical but greatly reduce time for manual tasks by the team. The bulk of automation issues will live here.                                  | 4 Business Days |
 | `~"SAA::4"` | Blue    | These issues are automation ideas that may not have a clear path forward or need additional resources to accomplish.                                          | 7 Business Days |
@@ -72,8 +102,8 @@ The planning stage occurs during 1:1s, bi-weekly sprint planning meetings, Slack
 - Who is requesting the automation project?
 - What are they requesting?
 - Why are they requesting this project?
-    - What efficiencies will be gained?
-    - How much time will be saved?
+  - What efficiencies will be gained?
+  - How much time will be saved?
 - When is this project expected to be completed by?
 - How is the automation expected to function?
 - What is the expected time savings? (If applicable)
@@ -107,6 +137,38 @@ During the design stage, we aim to accomplish the following:
 During the this stage, code is written to satisfy the requirements of a particular project. Development is accomplished in an iterative manner through many small changes. Project stakeholders may be consulted to ensure continued alignment with project expectations as code is being written.
 
 Security Assurance Automation Engineers run tests on their code to identify bugs, vulnerabilities, and usability conflicts.
+
+#### Coding Standards
+
+When developing software, our high level objective is to follow [The Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python), which is a part of core Python and can be accessed by simply importing the `this` module. For example, at the CLI execute: `python -c "import this"`.
+
+Based upon technical requirements, scope, and customer deadlines, our standards can be grouped into two categories: `Scripts` and `Modules`. From a high level, a `script` is a `.py` file which is intended to be executed directly while a `module` is a `.py` file (or set of files) which is published to a PyPi registry & imported into `scripts` to provide more in-depth functionality.
+
+The general philosophy is to solve new requests via scripts, which live in the [scripts repository](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/scripts) and once enough commonality is seen across multiple scripts, the functionality can be converted to a module, in an independent repository.
+
+Templates for each of these will be found under the [SAA Project Templates](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/project-templates) subgroup.
+
+The `.gitlab-ci.yml` of module repositories will be used to test and package the code then publish it to Gitlab's [PyPi Registry](https://docs.gitlab.com/ee/user/packages/pypi_repository/). Meanwhile, in the scripts repo, LINT and security scanning will be the focus. Finally, scheduled / periodic executions should be managed in projects created under the SAA [schedules](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/schedules) subgroup. 
+
+Below is a list of libraries we use to assist with standardization:
+
+  1) All Projects
+     - GitLab REST API Connection: [python-gitlab](https://python-gitlab.readthedocs.io/en/stable/)
+     - Logging: [loguru](https://loguru.readthedocs.io/en/stable/)
+     - Test Framework: [pytest](https://docs.pytest.org/en/stable/)
+     - Test Coverage: [coverage](https://coverage.readthedocs.io/en/coverage-5.3/)
+        - Test Coverage (Badge): [coverage-badge](https://github.com/nedbat/coveragepy-badge)
+     - LINT & Code Format: [ruff](https://docs.astral.sh/ruff/configuration/#pyprojecttoml-discovery) 
+     - [Pre-Commit Hooks](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/-/wikis/Pre-Commit-Hooks)
+  2) Scripts
+     - Dependency Management: [Pipenv](https://pipenv.pypa.io/en/latest/)
+     - CLI: [argparse](https://docs.python.org/3/library/argparse.html)
+  3) Modules
+     - Dependency Management: [PDM](https://pdm.fming.dev/)
+        - [PDM](https://pdm-project.org/latest/) has been selected over [Poetry](https://python-poetry.org/) due to PDM's direct support of [PEP 621](https://peps.python.org/pep-0621/), [PEP631](https://peps.python.org/pep-0631/), and [PEP 517](https://peps.python.org/pep-0517/)
+     - CLI: [click](https://click.palletsprojects.com/en/7.x/)
+
+As `Simple is better than complex.`, this standard definition will remain minimal.
 
 ### Implementation
 

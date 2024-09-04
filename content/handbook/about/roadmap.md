@@ -1,7 +1,6 @@
 ---
 title: "Handbook Roadmap"
 description: Documents development plans for the handbook
-aliases: /handbook/content-websites/handbook-migration/
 ---
 
 ## Introduction
@@ -334,50 +333,50 @@ A full breakdown of this sections content files can be viewed on our [Migration 
 
 - [x] Developer Onboarding
 - [x] Engineering
-    - [x] architecture
-    - [x] automation
-    - [x] career-development
-    - [x] communication
-    - [x] compensation-roadmaps
-    - [x] core-development
-    - [x] cross-functional-prioritization
-    - [x] cto-staff
-    - [x] demos
-    - [x] deployments-and-releases
-    - [x] development
-    - [x] engineering-allocation
-    - [x] error-budgets
-    - [x] expansion-development
-    - [x] fast-boot
-    - [x] fellow
-    - [x] frontend
-    - [x] gitlab-repositories
-    - [x] hiring
-    - [x] ic-leadership
-    - [x] incident-management
-    - [x] infrastructure
-    - [x] infrastructure-quality
-    - [x] internships
-    - [x] management
-    - [x] mentorship
-    - [x] metrics
-    - [x] monitoring
-    - [x] okrs
-    - [x] open-source
-    - [x] performance
-    - [x] performance-indicators
-    - [x] plato
-    - [x] projects
-    - [x] quality
-    - [x] readmes
-    - [x] recognition
-    - [x] releases
-    - [x] root-cause-analysis
-    - [x] secondments
-    - [x] starting-new-teams
-    - [x] tax-credits
-    - [x] volunteer-coaches-for-urgs
-    - [x] workflow
+  - [x] architecture
+  - [x] automation
+  - [x] career-development
+  - [x] communication
+  - [x] compensation-roadmaps
+  - [x] core-development
+  - [x] cross-functional-prioritization
+  - [x] cto-staff
+  - [x] demos
+  - [x] deployments-and-releases
+  - [x] development
+  - [x] engineering-allocation
+  - [x] error-budgets
+  - [x] expansion-development
+  - [x] fast-boot
+  - [x] fellow
+  - [x] frontend
+  - [x] gitlab-repositories
+  - [x] hiring
+  - [x] ic-leadership
+  - [x] incident-management
+  - [x] infrastructure
+  - [x] infrastructure-quality
+  - [x] internships
+  - [x] management
+  - [x] mentorship
+  - [x] metrics
+  - [x] monitoring
+  - [x] okrs
+  - [x] open-source
+  - [x] performance
+  - [x] performance-indicators
+  - [x] plato
+  - [x] projects
+  - [x] quality
+  - [x] readmes
+  - [x] recognition
+  - [x] releases
+  - [x] root-cause-analysis
+  - [x] secondments
+  - [x] starting-new-teams
+  - [x] tax-credits
+  - [x] volunteer-coaches-for-urgs
+  - [x] workflow
 
 A full breakdown of this sections content files can be viewed on our [Migration details page](/handbook/about/migration-details/#engineering)
 

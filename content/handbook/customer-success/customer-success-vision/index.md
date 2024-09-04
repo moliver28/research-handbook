@@ -1,15 +1,8 @@
 ---
-aliases: /handbook/customer-success/vision
 title: "Customer Success Vision"
 description: "Create a company-wide customer success approach, providing an engagement
   framework for the Customer Success organization"
 ---
-
-
-
-
-
-
 
 *"Customer Success is when customers achieve their desired outcome through interactions with your company with the appropriate experience."* - Lincoln Murphy
 
@@ -92,7 +85,6 @@ The intention, both of the P.R.O.V.E. components and overall philosophy, is that
 ![Customer Health Vision](images/customer-health-score-vision.jpeg)
 
 For a detailed description of Customer Health and Early Warning System methodology, see [Customer Health Scoring](/handbook/customer-success/customer-health-scoring/). This will include the methodology around how we score the health of accounts, along with how we enable the team toward a proactive renewal approach.
-
 
 ### Retention and Reasons for Churn
 

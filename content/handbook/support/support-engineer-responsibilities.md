@@ -23,10 +23,11 @@ description: A detailed listing of the responsibilities of Support Engineers in 
 
 We currently have two main areas of focus for Support Engineers:
 
-1. GitLab - helping customers who encounter product-related problems in SaaS (gitlab.com) or self-managed installations
+1. GitLab - helping customers who encounter product-related problems on any of
+   GitLab's platforms: gitlab.com, GitLab Dedicated or GitLab Self-Managed
 1. License and Renewals - helping customers with License and Renewals problems
 
-To view the team's current distribution among Areas of Focus, see our internal [Support Team info site](https://gitlab-com.gitlab.io/support/team/areas-of-focus).
+To view the team's current distribution among Areas of Focus, see our internal [Support Team info site](https://gitlab-support-readiness.gitlab.io/support-team/area-of-focus.html).
 
 During onboarding, your initial area of focus will be made clear.
 
@@ -42,10 +43,10 @@ tickets.
 This responsibility can be broken down into five key components:
 
 1. [Be appropriately available](#1-be-appropriately-available)
-1. [Work with your group to meet our FRT SLA target](#2-work-with-your-group-to-meet-our-frt-sla-target)
+1. [Work with your region to meet our FRT SLA target](#2-work-with-your-region-to-meet-our-frt-sla-target)
 1. [Maintain good progress through to resolution on all of your assigned tickets](#3-maintain-good-progress-through-to-resolution-on-all-of-your-assigned-tickets)
 1. [Manage customer expectations and communicate thoroughly through tickets and calls](#4-manage-customer-expectations-and-communicate-thoroughly-through-tickets-and-calls)
-1. [Help others in your group to maintain progress on their tickets](#5-help-others-in-your-group-to-maintain-progress-on-their-tickets)
+1. [Help others to maintain progress on their tickets](#5-help-others-to-maintain-progress-on-their-tickets)
 
 As you read through the components, keep in mind that the focus of an
 Intermediate Support Engineer differs from that of a Senior
@@ -69,10 +70,11 @@ support.
 Support Engineers are responsible for:
 
 - Creating their work schedule with their manager
-- Coordinating day-to-day availability for ticket work with their SGG
+- Coordinating with others, such as their manager and their Support Pods, their
+  day-to-day availability for ticket work
 - Working with any Support Manager to take on higher-priority tasks (such as STARs or account escalations) based on customer needs
 
-### 2. Work with your group to meet our FRT SLA target
+### 2. Work with your region to meet our FRT SLA target
 
 **Our goal, as stated on the
 [Support Performance Indicators page](/handbook/support/performance-indicators/#service-level-agreement-sla),
@@ -81,39 +83,24 @@ period specified by the
 [Service Level Agreement](https://about.gitlab.com/support/#gitlab-support-service-levels)
 we have with our customers on at least 95% of Priority Support tickets.**
 
-During each working day, each Support Engineer should work to help their group,
-and so all of Support, to meet that goal. How?
+During each working day, each Support Engineer should work with their region,
+and with other regions as needed, to help all of Support to meet that goal. How?
 
-1. Your group may have defined its own processes related to FRT. If so, please
-   follow those. If not, then expect that each person in the group, including
-   you, will be monitoring the group's view throughout each day, taking tickets
-   as they can, and calling out to the rest of the group when there are new
+1. Your region may have defined its own processes related to FRT. If so, please
+   follow those. If not, then expect that each person in the region, including
+   you, will be monitoring the global view throughout each day, taking tickets
+   as they can, and calling out to the rest of the region when there are new
    tickets that others could take.
 1. See our [Working on Tickets page](/handbook/support/workflows/working-on-tickets) for
    guidance on finding and selecting tickets on which to work, assigning
    tickets, and providing a first response.
-1. Watch your group's view for tickets showing up in the `Needs org` section
-   and process them right away if you can. Until those get
-   [processed](#processing-needs-org-tickets-triaging), we can't begin to help
-   the customers who submitted them.
-   If you are a Senior Support Engineer, put a higher priority on helping others
-   in your group to make a first response, than on taking tickets of your own.
-   *Please note that this section is about helping your own group. As can be seen
-   in [Prioritizing work](/handbook/support/support-global-groups/#prioritizing-work), all SEs
-   are encourage to help people in any group.*
 
-#### Processing 'Needs org' tickets (triaging)
+#### Triaging tickets
 
 Everyone is responsible for [Triaging tickets](/handbook/support/workflows/ticket_triage) to make sure they have:
 
-1. An associated organization
 1. The correct ticket form (such as `SaaS`, if they're asking for
    GitLab.com support).
-
-   *NOTE: A form change results in an auto-reply for tickets that don't have an
-    organization associated yet. Hence, it is recommended to associate the user
-    with the correct organization **first**. Then change the form to the most
-    relevant form type and fill in additional metadata where possible.*
 1. [The correct priority](/handbook/support/workflows/setting_ticket_priority#setting-ticket-priority)
 1. The correct 'Problem Type'
 
@@ -148,7 +135,7 @@ Here are a few tips for maintaining good progress:
    1. If you haven't completed the intended work by update time, let the
       customer know what progress you've made and then set a new update time
 1. If your ticket is [STARred](/handbook/support/internal-support/support-ticket-attention-requests/) during your business hours, work with the on-call manager and the person who submitted the STAR to help address any concerns.
-   1. You are not expected to respond or engage in a STAR if you are unavailable (for example, you are on PTO or its after hours). When you are back online, review the STAR thread to ensure you're up-to-speed, and address any follow-up actions, if applicable.
+   1. You are not expected to respond or engage in a STAR if you are unavailable (for example, you are on PTO or its after hours). When you are back online, review the STAR thread to ensure you're up to speed, and address any follow-up actions, if applicable.
 
 ### 4. Manage customer expectations and communicate thoroughly through tickets and calls
 
@@ -186,23 +173,23 @@ See the [Customer Calls page](/handbook/support/workflows/customer_calls)
 for our recommended practices and workflows for arranging, conducting and
 managing calls.
 
-### 5. Help others in your group to maintain progress on their tickets
+### 5. Help others to maintain progress on their tickets
 
 Collaboration is one of GitLab's values, and helping others with their tickets
 offers you a daily opportunity to live that value. When all higher priority
 items are under control (see
 [Prioritizing work](/handbook/support/support-global-groups/#prioritizing-work)),
-please find tickets in your group's view. See the
-[Support Global Groups FAQ page](/handbook/support/support-global-groups/sgg-faq) for topics
-about how to help other SEs.
+please look for ways to help other Support Engineers with their tickets, such
+as by engaging with your Support Pods, by contributing to senior help
+sessions, by contributing to crush sessions, by pairing on tickets,
+by looking for help requests in the various Slack channels, etc.
 
 **What does success look like?**
 
 Success will look like a healthy balance between solving your assigned support
-tickets and helping your group to be successful. For the group success, see the
-[criteria on the main SGG page](/handbook/support/support-global-groups/#success-of-their-group-means).
-For your individual ticket work, you and your manager should begin with the
-following two criteria, the first quantitative and the second qualitative:
+tickets and helping others to be successful. For your individual ticket work,
+you and your manager should begin with the following two criteria, the first
+quantitative and the second qualitative:
 
 1. Review a sampling of your tickets with your manager in your regular 1:1
    meetings. Look not only for evidence of your technical skills in solving the
@@ -215,7 +202,7 @@ following two criteria, the first quantitative and the second qualitative:
 
 #### Ticket baseline
 
-   The ticket baseline is useful in gauging a Support Engineer's
+The ticket baseline is useful in gauging a Support Engineer's
 volume of ticket work compared to that of the rest of the global Support Team.
 We use a **dynamic baseline** that is equal to 85% of the mean for each metric.
 [This dashboard](https://gitlab.zendesk.com/explore/dashboard/36925DBD1F5E3C7BA541DB38D11AC51E0EAAFDD30DCB63FDE83CF1389E555D96/tab/11700022)
@@ -256,7 +243,7 @@ Be sure to highlight notable incidents in your 1:1 notes doc.
 
 **What does success look like?**
 
-1. [Pairing sessions](https://gitlab.com/gitlab-com/support/support-pairing). You can see how you're doing on this [pairing summary page](https://gitlab-com.gitlab.io/support/team/pairings)
+1. [Pairing sessions](https://gitlab.com/gitlab-com/support/support-pairing). You can see how you're doing on this [pairing summary page](https://gitlab-support-readiness.gitlab.io/support-team/pairings.html)
 1. Ask and answer questions in Slack. (We don't have a way to easily make this visible, but feel free to share things you're proud of with your manager in your 1:1 notes doc.)
 1. If you have volunteered to be a [Support Stable Counterpart](/handbook/support/#support-stable-counterpart), collaborate with the group(s) you are assigned to and share knowledge with the Support Team.
 1. There are many other ways you can collaborate. Make a note of your collaborations in your 1:1 notes doc.
@@ -306,7 +293,7 @@ There's no goal for this area. You can see how you're doing using the 'Support F
 
 ## Improve GitLab and Support processes (Occasionally)
 
-We continuously evolve and improve our processes. You are encouraged to [update the handbook](/handbook/handbook-usage/) and improve Support processes by contributing to [issues in the Support Meta project](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues).
+We continuously evolve and improve our processes. You are encouraged to [update the handbook](/handbook/about/handbook-usage/) and improve Support processes by contributing to [issues in the Support Meta project](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues).
 
 There's a lot going on. It can be overwhelming if you try to contribute to everything. To help focus and find an area you're interested in look at the [Support Team Epics](https://gitlab.com/groups/gitlab-com/support/-/epics/) where issues are grouped into larger initiatives. Epics have a directly responsible individual's (DRI) name in parentheses after the title. Contact them and speak with your manager if you'd like to help out.
 

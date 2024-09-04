@@ -1,14 +1,13 @@
 ---
-aliases: /handbook/customer-success/csm/engagement/Non-engaged-customer-strategies
 title: "Strategies for Non-Engaged Customers"
 ---
 
 Gainsight contains a playbook for non-engaged customers that *will* trigger if:
+
 - The customer has had no engagement (no logged calls or meetings) in over 60 days AND is a priority 1 or 2 customer
 - The customer has an onboarding CTA that has been open for over 90 days
 
 This playbook is also available to be manually opened with the 'Risk' CTA Type.
-
 
 The playbook contains the following steps:
 
@@ -18,7 +17,7 @@ The playbook contains the following steps:
    - CSM to day to day contacts
    - SAE to buyers /influencers/ anyone else they have relationships with
    - SDR to any contacts outside of our relationship
-1. Create a compelling message (s) : Review objectives of the customer and fashion messaging for ‘why’ the customer should engage with us.  Consider the following:
+1. Create a compelling message (s) : Review objectives of the customer and fashion messaging for 'why' the customer should engage with us.  Consider the following:
    1. We know they are migrating from another platform, so offer training & enablement
    1. We know they are interested in xxx so reach out offering to discuss new feature yyy
    1. Review support tickets and build on any conversation that is happening to offer value
@@ -39,7 +38,6 @@ The playbook contains the following steps:
 - If different from who we normally work with, contact economic buyer from license app or SFDC
 - If large enough, ask exec group and board for networking/introductions
 - Perform a news search for any major events such as acquisitions, layoffs, product launches
-
 
 ### Executive Reachout
 

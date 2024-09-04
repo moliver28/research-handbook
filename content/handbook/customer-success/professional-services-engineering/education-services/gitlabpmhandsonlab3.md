@@ -1,10 +1,9 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Use GitLab Planning Tools"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Use GitLab Planning Tools"
+description: "This Hands-On Guide walks you through creating epics, iterations, and milestones in GitLab."
 ---
 
 > Estimated time to complete: 45-60 minutes
-
 
 ## Objectives
 
@@ -22,7 +21,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the left pane, click **Plan > Roadmap**. Epics and milestones in a group containing a start date or due date can be visualized in a form of a timeline (that is, a Gantt chart). The Roadmap page shows the epics and milestones in a group, one of its subgroups, or a project in one of the groups.
 
-1. On the epic bars, you can see each epic’s title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic’s title, start date, due date, and weight completed.
+1. On the epic bars, you can see each epic's title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic's title, start date, due date, and weight completed.
 
 1. You can expand epics that contain child epics to show their child epics in the roadmap. You can select the chevron (v) next to the epic title to expand and collapse the child epics.
 
@@ -54,7 +53,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
     - *To-Do: add contributing team member information*
     ```
 
-    > Note: There is no need to change any other options for the epic, but it is still important to understand the options.
+    > There is no need to change any other options for the epic, but it is still important to understand the options.
 
 1. There are additional options that you can configure or leave at their default setting.
 
@@ -92,11 +91,11 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. You will now designate the **Investment Tracking** epic as a child of the **Retirement Planning** epic. In the **Child issues and epics** tab, select the **Add** drop-down menu, and click **Add an existing epic**.
 
-> Note: You can also use this menu to create a child epic from scratch.
+    > You can also use this menu to create a child epic from scratch.
 
 1. Type `&` in the field provided, and select **Investment Tracking** from the list of epics.
 
-> Note: The `&` symbol lets you refer to epics by their unique epic ID rather than their name. This is useful for when you have a large number of epics with similar names.
+    > The `&` symbol lets you refer to epics by their unique epic ID rather than their name. This is useful for when you have a large number of epics with similar names.
 
 1. Click **Add** to link **Investment Tracking** as a child epic to the **Retirement Planning** parent epic.
 
@@ -116,7 +115,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the **End Date** section, use the calender to enter 2 days from today's date as the milestone end date.
 
-    > Note: While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
+    > While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
 
 1. Click **Create milestone**.
 
@@ -158,7 +157,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 1. Ensure the **Enable roll over** checkbox is selected.
 
-    > Note: At the end of the current iteration, all open issues are added to the next iteration when **Enable roll over** is selected.
+    > At the end of the current iteration, all open issues are added to the next iteration when **Enable roll over** is selected.
 
 1. Select **Create cadence**.
 
@@ -166,7 +165,7 @@ You will later assign individual tasks to iterations (sprints).
 
 ## Task F. Create a wiki for project documentation
 
-> If you don’t want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
+> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
 
 1. Navigate to your **Family Budget Calculator** project in the **Software > Core** subgroup.
 
@@ -190,7 +189,7 @@ You will later assign individual tasks to iterations (sprints).
 
 1. Click **Create Page**. You should see a new Wiki page with the content you created.
 
-> Note: If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
+> If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
 
 ## Suggestions?
 

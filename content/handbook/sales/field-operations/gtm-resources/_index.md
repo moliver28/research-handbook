@@ -1,19 +1,9 @@
 ---
-
 title: "Go to Market"
 description: "Operations, Procedures, Documentation"
 ---
 
-
-
-
-
-
-
-
-- - -
-
-
+---
 
 ## Reaching the Teams (internally)
 
@@ -57,7 +47,7 @@ description: "Operations, Procedures, Documentation"
 | IQM | Initial Qualifying Meeting |
 | LATAM | Latin America (includes all of Central & South America) |
 | MQL | Marketo Qualified Lead - an inquiry that has been qualified through systematic means (e.g. through demographic/firmographic/behavior lead scoring) |
-| MVC | [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc) (not Model View Controller) |
+| MVC | [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (not Model View Controller) |
 | NCSA | North, Central, South America (legacy region being phased out) |
 | NORAM | North America |
 | Qualified Lead | A lead a Business Development Rep or Sales Development Rep has qualified, converted to an opportunity and assigned to a Sales Representative (Stage `0-Pending Acceptance`) |
@@ -73,7 +63,7 @@ description: "Operations, Procedures, Documentation"
 | SQO | Sales Qualified Opportunity |
 | CSM | Customer Success Manager |
 | TEDD | Technology, Engineering, Development and Design - used to estimate the maximum potential users of GitLab at a company |
-| UPA | Ultimate Parent Account
+| UPA | Ultimate Parent Account |
 | Won Opportunity | Contract signed to Purchase GitLab |
 
 ## Customer Lifecycle
@@ -110,7 +100,7 @@ Opportunity: #opportunity-stages
 
 Sales Accepted Opportunity: #criteria-for-sales-accepted-opportunity-sao
 
-## SAE Sales Capacity
+## AE Sales Capacity
 
 The following calculation is used to measure/plan for sales capacity.
 This is a calculation only and should be used to set goals and plan.
@@ -146,15 +136,9 @@ A breakdown of MQLs and lead scoring can be found in the [marketing operations h
 ### Segmentation
 
 Sales Segmentation is based on `Account Demographics: Max Family Employees`, which is the maximum of all `Account Demographics: Employee Count` values from the accounts within this hierarchy.
+
 - The `Account Demographics: Employee Count` can differ from one account to another within a hierarchy, but the `Account Demographics: Max Family Employees` value will be the same for all accounts within a hierarchy.
 - If the employee count is unknown or blank and manual research cannot confirm, Sales Operations will mark the account as `SMB` with a placeholder of `-1` employees in the  Number of Employees: Manual - Admin field in order to get a Territory to populate and assign the account to an account rep.
-
-- `Large` = 2,001+ total employees
-- `Mid-Market` = 101-2000 total employees
-- `SMB` (Small Business) = 0-100 total employees
-
-![gtm-model](/handbook/sales/field-operations/gtm-resources/gtm-model1mm.png)
-
 
 We use a hierarchy structure to determine what the number of employees is for the account.
 The hierarchy of our data tools on *Accounts* as they relate to the `Account Demographic Max Family Employees` count is shown below.
@@ -175,23 +159,6 @@ In order to address issues when it is believed that the employee count, account 
 Provide the URL to validate the request. Examples of valid sources include but are not limited to financial filings, newspaper articles, reports directly from the company. During the Sales Ops review period it is at the discretion of the Sales Ops team to have the Total Employee count updated or to have it remain the same.
 
 If the number of employees, according to our sources based on our hierarchy as described in Segmentation has changed, the Sales Ops team will automatically update the accounts segment and follow the [Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement) account review process.
-
-### Regional Leadership
-
-**Enterprise Sales**
-- **VP Enterprise Sales**: Mike Pyle
-- **Europe, Middle East and Africa** (`#emea` Slack channel): Michel Isnard, VP ENT EMEA
-- **Asia Pacific** (`#apac` Slack channel): Rob Hueston (Interim), Regional Director
-- **North America - US East and West: David Helfer, VP ENT AMER
-    - **North America - US West** (`#us-east` Slack channel): Darren Moffett, Area Vice President
-    - **North America - US East** (`#us-west` Slack channel): Tanya Helin, Area Vice President
-- **Public Sector** (`#public-sector` Slack channel): Bob Stevens, Vice President
-
-**Commercial Sales**
-- **VP Commercial Sales** (Mid-Market & Small Business): Ryan O'Nell
-- **Mid Market Global Sales**: TBH, Regional Director
-- **SMB North America Sales** (`#smb` Slack channel): Nick Christou, Regional Director
-- **SMB EMEA/APAC Sales** (`#international-smb` Slack channel): Helen Mason, Area Sales Manager
 
 ### Territories
 
@@ -220,7 +187,6 @@ GitLab recognizes the grouping of companies that are related based on their prim
     - Sub-Industry is a more granular/detailed classification of Industry.
     - A list of GitLab's Sub-Industry values can be found [HERE](https://gitlab.my.salesforce.com/00N6100000HIhad).  This list aligns with the industries used by DemandBase
 
-
 The Industry and Sub-Industry of each account is determined by a combination of 3rd party data and manual overrides. The information is stored in the `Industry` and `Sub-Industry` fields on the Account object in SalesForce and inherit data in the following priority:
 
 1. Admin Manual Override
@@ -230,7 +196,6 @@ The Industry and Sub-Industry of each account is determined by a combination of 
 
 The Industry and Sub-Industry data on an Account is enriched and updated automatically on a daily cadence.
 
-
 ### Account Ranking for Enterprise Sales
 
 Account Ranking in SFDC allows sales to focus and prioritize activities for their target customers, easily nominate or flag accounts for both marketing support and ABM campaigns. Account ranking would also be leveraged to drive discussions during QBRs.
@@ -239,7 +204,7 @@ In order to rank accounts each Enterprise Sales rep would update the 'Account Ra
 
 [The Account Ranking Guide](https://docs.google.com/document/d/1u2Dg_jorRi_tgcC_2L-FjAmEqnMya76bvZ6WmAt4qGA/edit) can be used to help the Strategic Account Executive focus on a cadence to target each Account Rank.
 
-#### Definitions for Enterprise Account Ranking:
+#### Definitions for Enterprise Account Ranking
 
 - **Rank 1** highest priority accounts that require both sales focus, sales development, and marketing support in the next quarter. These are the accounts reviewed in QBR's each quarter by sales and include both Land and Expand accounts.
 - **Rank 2** accounts that match our ICP and should be a focus for sales and marketing in the current FY but are not a Rank 1 account. Should include both Land and Expand.
@@ -252,7 +217,6 @@ It is a requirement for the Commercial Sales Team to tier their accounts using t
 ### Account Ownership, Opportunity Ownership & Order Type Rules of Engagement
 
 [Go to Market Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/)
-
 
 ### Account Sources, Routing and Other Requirements
 
@@ -315,21 +279,22 @@ Rest of the World
 
 #### Lead and Contact Record Ownership
 
-Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](https://handbook.gitlab.com/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
+Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
+
 - Large Accounts
-   - BDR (If present, otherwise AE)
-   - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.
+  - BDR (If present, otherwise AE)
+  - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.
 - MM Accounts (Sales Segment = MM)
-   - Customer Accounts and BDR Prospecting Status not equal to Actively Working
-      - AE, (Actively Working, BDR)
-   - Non-Customer Accounts
-      - BDR (If present otherwise AE)
+  - Customer Accounts and BDR Prospecting Status not equal to Actively Working
+    - AE, (Actively Working, BDR)
+  - Non-Customer Accounts
+    - BDR (If present otherwise AE)
 - SMB Accounts (Sales Segment = SMB)
-    - AE 
+  - AE
 
-AE’s should use the following views to manage their contacts:
+AE's should use the following views to manage their contacts:
 
-- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you’re working them. Other statuses can be used to showcase you’ve seen the MQL and dispositioned accordingly. These should not stay in MQL status)
+- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you're working them. Other statuses can be used to showcase you've seen the MQL and dispositioned accordingly. These should not stay in MQL status)
 - [My Contacts w/ new LIM](https://gitlab.my.salesforce.com/003?fcf=00B4M000004taHN&rolodexIndex=-1&page=1)( showcases contacts in other statuses -not MQL - with a new Last Interesting Moment)
 - [My Contacts in Qualifying](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZFC&rolodexIndex=-1&page=1)(showcases contacts who have been in sequence and then engaged, should help with follow up)
 
@@ -374,12 +339,12 @@ To request an update to the opportunity owner, please tag @sales-support in Sale
 Contact Ownership follows the rules as laid out below. This contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership)
 
 - Large Accounts
-   - BDR (If present otherwise AE)
+  - BDR (If present otherwise AE)
 - MM & SMB Accounts
-   - Customer Accounts
-      - AE
-   - Non-Customer Accounts
-      - BDR (If present otherwise AE)
+  - Customer Accounts
+    - AE
+  - Non-Customer Accounts
+    - BDR (If present otherwise AE)
 
 ### Changing Lead Ownership in Salesforce
 
@@ -399,15 +364,16 @@ This is also only a temporary solution until we have a more scalable solution in
 
 ACCOUNT records in Salesforce are created in a number of ways - [list imports](/handbook/sales/field-operations/sales-operations/), [mass creation screen flows](#mass-create-contacts-on-opportunities-with-contact-roles), field event booth scans, research, networking, webcasts, content downloads.
 Ideally all ACCOUNTS exist in Salesforce and team members are only creating CONTACT records; however, if a connection is made at an event and follow up needs to be done *prior* to official event list upload occurs team members should do the following:
-   - Search Salesforce to be sure ACCOUNT does not already exist **AND** search using the person's email address to ensure duplicate record is not created
-   - Record **does not** exist:
-        - Create `Standard` ACCOUNT type - required fields are `Account Name` & `Account Type`
-        - Create `Standard` CONTACT type - required fields are `Last Name`, `Account Name` (use lookup tool to find ACCOUNT just created) & `Initial Source` (i.e. where is this name coming from `Conference` = Field Event, `SDR Generated` or `AE Generated` = regular networking event, etc)
-        - Be accurate where the name is collect from, `Unknown` is **not** acceptable.
-        - The `Initial Source` on a CONTACT record *does not* equal `Source` on an opportunity. Refer to [`Initial Source`](#initial-source) for guidance on why this is important.
-   - Record **does** exist:
-        - If LEAD or CONTACT is unowned or "owned by Sales Admin, James Harrison or Chad Malchow", this record is adoptable by anyone - change `Record Owner` to your name
-        - If LEAD or CONTACT is owned by a Sales Development team member, **before** reaching out Chatter on the record asking BDR/SDR to transfer ownership. Ownership *must* be transferred **before** reaching out to avoid confusion, cross-communication and/or multiple people reaching out to same contact.
+
+- Search Salesforce to be sure ACCOUNT does not already exist **AND** search using the person's email address to ensure duplicate record is not created
+- Record **does not** exist:
+  - Create `Standard` ACCOUNT type - required fields are `Account Name` & `Account Type`
+  - Create `Standard` CONTACT type - required fields are `Last Name`, `Account Name` (use lookup tool to find ACCOUNT just created) & `Initial Source` (i.e. where is this name coming from `Conference` = Field Event, `SDR Generated` or `AE Generated` = regular networking event, etc)
+  - Be accurate where the name is collect from, `Unknown` is **not** acceptable.
+  - The `Initial Source` on a CONTACT record *does not* equal `Source` on an opportunity. Refer to [`Initial Source`](#initial-source) for guidance on why this is important.
+- Record **does** exist:
+  - If LEAD or CONTACT is unowned or "owned by Sales Admin, James Harrison or Chad Malchow", this record is adoptable by anyone - change `Record Owner` to your name
+  - If LEAD or CONTACT is owned by a Sales Development team member, **before** reaching out Chatter on the record asking BDR/SDR to transfer ownership. Ownership *must* be transferred **before** reaching out to avoid confusion, cross-communication and/or multiple people reaching out to same contact.
 
 When official event list import is completed the created ACCOUNT or CONTACT record will be appended with the additional data collected at the event.
 If there are any questions or you need assistance, please ping Marketing or Sales OPS in Slack `#sfdc-users` channel.
@@ -437,7 +403,6 @@ It is important to note that by following this process that all contacts must me
 1. All of the contacts will be assigned a contact role on the opportunity.
 1. There already is a primary contact, or one of the new contacts will be the primary contact on the opportunity.
 
-
 Territories are assigned based on [Sales Segmentation](#segmentation) and routing for each type of inbound request is [through Traction Complete](/handbook/marketing/marketing-operations/traction-lead-complete).
 
 LEAD/CONTACT Records with the `Initial Source` of `GitLab.com` are **not** to be engaged, prospected or targeted unless they have taken a handraising 'active' activity, such as `Trial - Enterprise`, `Trial - GitLab.com`, `Contact Us`, `Demo`, 'Webcast', 'Content' and/or engaged in `Web Chat`.
@@ -464,11 +429,13 @@ Leveraging campaign aligns our efforts across Marketing, Sales and Finance. For 
 To ensure that we're engaged with those customers who were a part of the Starter/Bronze End of Availability initiative, Sales is asked to track their outreach (and other engagements) in SFDC by way of activities.  Below are the steps to ensure we're capturing that activity:
 
 **Process For Tracking EoA Customer Outreach:** You should follow your existing outreach cadence and tracking via SFDC activities.  However, for any/all outreach to EoA customers, you make two important updates in SFDC:
-1. Enter the words “Starter”, “Bronze” or “EoA” in some capacity in the Activity Comments
+
+1. Enter the words "Starter", "Bronze" or "EoA" in some capacity in the Activity Comments
 1. Update the `EoA Sentiment` field on the Account (red, yellow, green - defined in the help text)
 
 **Reporting**:
-- All EoA customers can now be tracked in SFDC leveraging the `FY22 On Starter/Bronze` field (if box is checked, they’re an EoA customer).  A full list by segment, region and owner can be found [HERE](https://gitlab.my.salesforce.com/00O4M000004ajNm)
+
+- All EoA customers can now be tracked in SFDC leveraging the `FY22 On Starter/Bronze` field (if box is checked, they're an EoA customer).  A full list by segment, region and owner can be found [HERE](https://gitlab.my.salesforce.com/00O4M000004ajNm)
 - EoA account list: https://gitlab.my.salesforce.com/00O4M000004ajNm
 - EoA accounts with activity: https://gitlab.my.salesforce.com/00O4M000004ajpR
 
@@ -486,14 +453,15 @@ Naming convention for reports and dashboards will leverage sequence of periods (
 
 - . [Name of Report or Dashboard]
 - **Example**:
-    - . Sales Dashboards
-    - .. APAC ENT Dashboards
+  - . Sales Dashboards
+  - .. APAC ENT Dashboards
 
 ## Opportunities
 
 ### Criteria for Inbound Sales Accepted Opportunity (SAO)
 
 The following criteria are **required** for inbound SAOs:
+
 1. An Opportunity is deemed a Sales Accepted Opportunity (SAO) when the Opportunity is moved from Stage `0-Pending Acceptance` to `1-Discovery` by the Strategic Account Executive.
 1. SDRs do not input the Net ARR $ value, the Sales Opportunity owners do.
 1. Required field settings to identify an SAO are:
@@ -505,7 +473,7 @@ The following criteria is required for a SDR to submit an opportunity to sales:
 
 **Authority**
 The prospect being met is directly involved in a project or team related to the potential purchase of GitLab within this buying group, either as an evaluator, decision maker, technical buyer, or *influencer.
-*If the “influencer” is not directly involved (i.e. is related to a "decision maker" in another group/division or someone who is not directly tied to the opportunity at hand) the SDR will continue to own the opportunity and will seek to set-up the next meeting with a key contact in the buying group (leaving 0-pending status until date/referral is confirmed), updating the current opportunity with the new directly-involved point of contact in the buying group once it's acquired.
+*If the "influencer" is not directly involved (i.e. is related to a "decision maker" in another group/division or someone who is not directly tied to the opportunity at hand) the SDR will continue to own the opportunity and will seek to set-up the next meeting with a key contact in the buying group (leaving 0-pending status until date/referral is confirmed), updating the current opportunity with the new directly-involved point of contact in the buying group once it's acquired.
 
 **Initiative**
 An initiative the company is working on has been identified and GitLab can potentially help the initiative.
@@ -520,7 +488,7 @@ The following fields have been obtained:
 
 **Timing**
 After the initial qualifying meeting with the account leader/executive, there must be a tangible next step scheduled with the prospect that is set to occur within a *60 day timeframe.
-(*If next step isn’t within a 60 day timeframe, the opportunity remains in stage 0 and in SDR ownership to nurture until the next step is actualized.)
+(*If next step isn't within a 60 day timeframe, the opportunity remains in stage 0 and in SDR ownership to nurture until the next step is actualized.)
 
 ***Sales Development best practice:***
 Ask prospect about their environment, what they develop software for etc. to try build a picture of the company and how we will be able to help them.
@@ -543,6 +511,7 @@ Opportunities should be moved to new stage within 48 hours of IQM.
 ### Criteria for Outbound Sales Accepted Opportunity (SAO)
 
 The following criteria are **required** for outbound SAOs:
+
 1. An Opportunity is deemed a Sales Accepted Opportunity (SAO) when the Opportunity is moved from Stage `0-Pending Acceptance` to `1-Discovery` by the Strategic Account Executive.
 1. BDRs do not input the Net ARR $ value, the Sales Opportunity owners do.
 1. Required field settings to identify an SAO are:
@@ -593,8 +562,6 @@ Once the initial setup is complete, the [OPPORTUNITY Stage](#opportunity-stages)
 
 #### Creating a New Business Opportunity from CONTACT record
 
-
-
 1. On CONTACT record, click the `New Opportunity` button. Required fields are:
     - Opportunity Name - using [Opportunity Naming Convention](#opportunity-naming-convention)
     - Account Name = This should NOT need to be changed as it pulls from the CONTACT object
@@ -615,8 +582,6 @@ Once the initial setup is complete, the [OPPORTUNITY Stage](#opportunity-stages)
 1. Enter in 'NEXT STEPS' with details that correlate to the NEXT STEP DATE FIELD.
 
 #### Creating a New Business Opportunity from LEAD record
-
-
 
 1. On LEAD record, fill out the required qualification questions, add additional notes to the optional sections, if gathered, AND update to `Lead Status` = `Qualified`. Click <b>`Save`</b>.
 1. Click the `Convert` button:
@@ -645,8 +610,6 @@ Once the initial setup is complete, the [OPPORTUNITY Stage](#opportunity-stages)
 
 #### Creating an Add-on Opportunity
 
-
-
 An `Add-On` OPPORTUNITY will inherit information from the *original* `New Business` OPPORTUNITY.
 The steps to create an `Add-on` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the `New Business` OPPORTUNITY **not** from a converted LEAD or CONTACT.
 
@@ -657,9 +620,9 @@ This creates a parent-child relationship between the *original* `New Business` O
 1. Click the `New Add-on Opportunity` button.
 1. **UPDATE** the OPPORTUNITY Name - see the [Opportunity Naming Convention] guidelines
 1. Define:
-    - `Initial Source` = see the [definition table](#initial-source) to choose the most correct source. It is important to be accurate as this does impact reporting and marketing attribution.
-    - Close Date = if no timeframe defined input close date on a rolling 9-months.
-    - Stage = All opportunities start as `0-Pending Acceptance`
+   - `Initial Source` = see the [definition table](#initial-source) to choose the most correct source. It is important to be accurate as this does impact reporting and marketing attribution.
+   - Close Date = if no timeframe defined input close date on a rolling 9-months.
+   - Stage = All opportunities start as `0-Pending Acceptance`
 1. Add any additional details on the OPPORTUNITY record
 1. Click `Save`
 
@@ -671,57 +634,55 @@ There are additional validation rules that are presently in effect:
 - A **Parent** OPPORTUNITY *cannot* be another `Add-on` OPPORTUNITY
 - All sales-assisted non-portal `Add-on` OPPORTUNITIES **must** have a parent opportunity.
 
-#### Creating an Upside IACV Opportunity
+#### Creating an Upside ARR Opportunity
 
+An `Upside ARR` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
+The steps to create an `Upside ARR` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
+An `Upside ARR` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
 
-
-An `Upside IACV` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
-The steps to create an `Upside IACV` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
-An `Upside IACV` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
-
-This creates a parent-child relationship between the *original* OPPORTUNITY and the `Upside IACV` OPPORTUNITY.
+This creates a parent-child relationship between the *original* OPPORTUNITY and the `Upside ARR` OPPORTUNITY.
 
 1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the `Upside IACV` button.
+1. Click the `Upside ARR` button.
 1. **UPDATE** the OPPORTUNITY Name - see the [Opportunity Naming Convention] guidelines
 1. Define:
-    - Close Date = if no timeframe defined input close date on a rolling 9-months.
-    - Amount = the upside value in addition to the Parent OPPORTUNITY value. If Parent OPPORTUNITY amount is $100,000 and total OPPORTUNITY amount potential is $150,000, then the Upside IACV amount is $50,000
+    - Opportunity Type should always be New Business
+    - The Net ARR value of the Upside ARR opportunity should always be the delta between the Most Likely scenario (Main opportunity) and the best possible case . 
+    - The stage and forecast category will always be lower than the ones in the main opportunity
+    - The close date of both opportunities will be the same
+    - The Upside ARR record does not require Next Steps or Command Plan completion as this will be completed on the main record. 
+    - Once the main opportunity is Closed Won or Closed Lost, the Upside ARR record needs to be closed as Duplicate
 1. Click `Save`
 
-When the PARENT OPPORTUNITY is changed to "Closed Won" or "Closed Lost," please update the stage of the UPSIDE IACV OPPORTUNITY to "Duplicate."
-In order to save this change, you must also enter the PARENT OPPORTUNITY name in the "Duplicate Opportunity" field on the UPSIDE IACV OPPORTUNITY.
-
-Note: Upside IACV opportunities exist for tracking purposes only.
-All final IACV (including any won upside IACV) will be attributed to the PARENT OPPORTUNITY.
+All final ARR (including any won upside ARR) will be attributed to the PARENT OPPORTUNITY.
 
 #### Creating a Professional Services Opportunity
-
-
 
 A `Professional Services` OPPORTUNITY will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately.
 To invoice separately a new quote and opportunity must be created.
 
-A full list of professional services can be found [here](/handbook/customer-success/professional-services-engineering/#professional-services-offerings).
+A full list of professional services can be found [here](about.gitlab.com/services/catalog).
 See [Working with Professional Services](/handbook/customer-success/professional-services-engineering/working-with/) for workflow details.
 
 ##### Steps for creating a Professional Services opportunity in SFDC
 
-*Here is [a video](https://drive.google.com/file/d/142csIZyrzIfSJOSJkIAK6d9c1JwTO_Rq/view?usp=sharing) explaining the below process.*
+*Here is [a video](https://gitlab.highspot.com/items/6655fc408e0d8cc5d7a7c166?lfrm=srp.0) explaining the below process.*
 
-1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the "New PS Opportunity" button and fill out the following:
-    - OPPORTUNITY Name = will already be set correctly; do not change
-    - Type = do not change it will populate from parent OPPORTUNITY
-    - Initial Source = do not change it will populate from parent OPPORTUNITY
-    - Close Date = if no timeframe defined input close date on a rolling 9-months.
-    - Stage = All opportunities start as `0-Pending Acceptance`
-    - Professional Services Value (ProServe Value) = enter dollar value, which is defined as the total value of all consulting, training, integration, or other professional services as outlined in the Statement of Work.
-    - ACV = **do not populate** an automated workflow will fill this information
-    - Amount = **do not populate** an automated workflow will fill this information
-    - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora.
-    - Verify the `Professional Services` OPPORTUNITY has the *original* OPPORTUNITY in the `Parent Opportunity` field. If this is not a validation rule error will occur while attempting to save the OPPORTUNITY.
-1. Click `Save`
+1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity. 
+1. Click the "Create Services Opportunity" button (in Lightning, this button is on the dropdown list in the top right of the page) and fill out the following:
+   <!-- - OPPORTUNITY Name = will already be set correctly; do not change
+   - Type = do not change it will populate from parent OPPORTUNITY
+   - Initial Source = do not change it will populate from parent OPPORTUNITY
+   - Close Date = if no timeframe defined input close date on a rolling 9-months.
+   - Stage = All opportunities start as `0-Pending Acceptance`
+   - Professional Services Value (ProServe Value) = enter dollar value, which is defined as the total value of all consulting, training, integration, or other professional services as outlined in the Statement of Work.
+   - ACV = **do not populate** an automated workflow will fill this information
+   - Amount = **do not populate** an automated workflow will fill this information
+   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora. -->
+   - Close Date 
+   - Stage
+   - Customer Folder URL (this will be auto-populated by a field **on the account object** that needs to be completed)
+1. Click `Next` and you're done! A child Professional Services opportunity will be created once submitted. Also, all of the scoping issue, estimation spreadsheet and proposal template will be automatically created and cross-linked!
 1. To create a quote, see the [Creating Quotes](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-professional-services) Deal Desk page.
 
 #### How to Share an Opportunity
@@ -741,10 +702,10 @@ The logic for the Sales Qualified Source is as follows:
 
 1. If the Sales Development Representative field (Opportunity) is populated, regardless of opportunity owner, the Sales Qualified Source is "SDR Generated"
 1. If the Sales Development Representative fields are NULL and the opportunity owner is:
-    - a Regional Director, Account Executive, or Account Manager, the Sales Qualified Source is "AE Generated"
-    - a GitLab team-member that is not a Regional Director, Account Executive, or Account Manager, the Sales Qualified Source is "Other"
-    - an authorized reseller, the Sales Qualified Source is "Channel Generated"
-    - the Sales Admin, the Sales Qualified Source is "Web Direct Generated"
+   - a Regional Director, Account Executive, or Account Manager, the Sales Qualified Source is "AE Generated"
+   - a GitLab team-member that is not a Regional Director, Account Executive, or Account Manager, the Sales Qualified Source is "Other"
+   - an authorized reseller, the Sales Qualified Source is "Channel Generated"
+   - the Sales Admin, the Sales Qualified Source is "Web Direct Generated"
 
 #### Reseller Opportunities
 
@@ -755,12 +716,12 @@ The partner record should be converted to their company channel type account.
 The end user record should be converted to the end user standard account type.
 
 Opportunity Name:
-If the partner is an authorized reseller, rename the opportunity with the partner’s nickname in front, then a dash.
+If the partner is an authorized reseller, rename the opportunity with the partner's nickname in front, then a dash.
 For instance; if it is a Perforce deal, the opportunity name should start with P4 - (whatever your opportunity name is)
 This is important for the workflow that solicits updates from the reseller.
 
 Account Name:
-It is important that opportunities using a reseller are created on the END CUSTOMER’s account, and not the reseller’s account.
+It is important that opportunities using a reseller are created on the END CUSTOMER's account, and not the reseller's account.
 The account name on an opportunity is never a reseller.
 Resellers do not buy licenses; they purchase them on the behalf of an end customer.
 For instance, the account name field on an opportunity should never be SHI.
@@ -772,57 +733,57 @@ Deal Registrant:
 The reseller who registered the deal.
 
 Associating Contact Roles:
-After creating the opportunity, click “New” in the contact section to associate contacts with the opportunity.
+After creating the opportunity, click "New" in the contact section to associate contacts with the opportunity.
 
-- The primary contact should always be a contact at the end user’s account and not a contact at the reseller.
+- The primary contact should always be a contact at the end user's account and not a contact at the reseller.
 This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
 - A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.
 NOTE: A contact that works for a reseller should never be added to an end user account.
 For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.
 
 Associating Partners to an Opportunity:
-After creating the opportunity, click “New” in the Partners section to associate the reseller with the opportunity.
+After creating the opportunity, click "New" in the Partners section to associate the reseller with the opportunity.
 
 - You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.
 This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
 - Unofficial resellers should never be marked primary
 - If there are any authorised resellers associated, at least 1 must be marked as primary
-    - In order of precedence this would be:
-        - The deal registrant (`Deal Registrar` field in SFDC, This should be confirmed with the appropriate channel manager)
-        - The deal fulfiller (i.e.: The one issuing the PO)
-        - The distributor
+  - In order of precedence this would be:
+    - The deal registrant (`Deal Registrar` field in SFDC, This should be confirmed with the appropriate channel manager)
+    - The deal fulfiller (i.e.: The one issuing the PO)
+    - The distributor
 
 Opportunity Team List:
-Add the reseller user to the Opportunity team list with the role of “Reseller” or else they cannot see the opportunity.
+Add the reseller user to the Opportunity team list with the role of "Reseller" or else they cannot see the opportunity.
 
 #### Opportunity Naming Convention
 
 Opportunities for subscriptions will use the following guidelines:
 
 - **New Business**: [Quantity]
-    - [Name of Company]- [Quantity] [Edition]
-    - Example: Acme, Inc- 50 Starter
+  - [Name of Company]- [Quantity] [Edition]
+  - Example: Acme, Inc- 50 Starter
 - **Add-On Business (seats only)**:
-    - [Name of Company]- Add [Quantity] [Product]
-    - Example: Acme, Inc- Add 25 Starter
+  - [Name of Company]- Add [Quantity] [Product]
+  - Example: Acme, Inc- Add 25 Starter
 - **Add-On Business (Upgrade from Starter to Premium)**:
-    - [Name of Company]- Upgrade to Ultimate
-    - Example: Acme, Inc- Upgrade to Ultimate
+  - [Name of Company]- Upgrade to Ultimate
+  - Example: Acme, Inc- Upgrade to Ultimate
 - **Renewal Business (no changes)**:
-    - [Name of Company]- [Quantity] [Product] Renewal [MM/YY]
-    - Example: Acme, Inc- 50 Premium Renewal 01/17
+  - [Name of Company]- [Quantity] [Product] Renewal [MM/YY]
+  - Example: Acme, Inc- 50 Premium Renewal 01/17
 - **Renewal Business + Add On Business (seats)**:
-    - [Name of Company]- [Quantity] [Product] Renewal [MM/YY]+ Add [Quantity]
-    - Example: Acme, Inc- 50 Premium Renewal 01/17 + Add 25
+  - [Name of Company]- [Quantity] [Product] Renewal [MM/YY]+ Add [Quantity]
+  - Example: Acme, Inc- 50 Premium Renewal 01/17 + Add 25
 - **Renewal Business + Upgrade**:
-    - [Name of Company]- [Quantity] Upgrade to Premium + Renewal [MM/YY]
-    - Example: Acme, Inc- 50 Upgrade to Premium + Renewal 01/17
+  - [Name of Company]- [Quantity] Upgrade to Premium + Renewal [MM/YY]
+  - Example: Acme, Inc- 50 Upgrade to Premium + Renewal 01/17
 - **Professional Services**:
-    - [Name of Company]- Professional Services [MM/YY]
-    - Example: Acme, Inc- Professional Services 06/18
+  - [Name of Company]- Professional Services [MM/YY]
+  - Example: Acme, Inc- Professional Services 06/18
 - **Refunds**:
-    - [Original Opportunity Name] - REFUND
-    - Example: Acme, Inc- 50 Upgrade to Premium + Renewal 01/17 - REFUND
+  - [Original Opportunity Name] - REFUND
+  - Example: Acme, Inc- 50 Upgrade to Premium + Renewal 01/17 - REFUND
 
 #### Subscription Cancellation Policy
 
@@ -831,24 +792,25 @@ Customer subscriptions will be moved to cancelled no more than 30 days after the
 #### Opportunity Requirements for Returning Customers
 
 - **Customers Returning within 180 Days of Subscription Term End Date**:
-    - If a customer returns to purchase another GitLab subscription **within 180 days** of the previous subscription term end date, the transaction must be booked under a **Renewal Opportunity**, using a new subscription quote. In this scenario, the following actions should be taken:
-        - **Sales**: A new renewal opportunity should be created, and Closed Won with the correct booking values.
-        - **Deal Desk**: A second new renewal opportunity should be created, and Closed Lost, where Amount, Net ARR and ARR Basis represent the inverse of the same values on the original Closed Lost opportunity.
-        - In this scenario, the Order Type 2.0 will be [3. Growth](/handbook/sales/sales-term-glossary/#growth-customers)
-        - Example:
+  - If a customer returns to purchase another GitLab subscription **within 180 days** of the previous subscription term end date, the transaction must be booked under a **Renewal Opportunity**, using a new subscription quote. In this scenario, the following actions should be taken:
+    - **Sales**: A new renewal opportunity should be created, and Closed Won with the correct booking values.
+    - **Deal Desk**: A second new renewal opportunity should be created, and Closed Lost, where Amount, Net ARR and ARR Basis represent the inverse of the same values on the original Closed Lost opportunity.
+    - In this scenario, the Order Type 2.0 will be [3. Growth](/handbook/sales/sales-term-glossary/#growth-customers)
+    - Example:
 
-            | **Opportunity** | **Stage** | **Net ARR** | **ARR Basis** | **ACV** |
-            | --- | --- | --- | --- | --- |
-            | New Business 2020| Closed Won | 100 | 0 | 100 |
-            | Renewal 2021| Closed Won | 0 | 100 | 100 |
-            | Renewal 2022 | Closed Lost | -100 | 100 | 100 |
-            | Renewal 2022 | Closed Won | 0 | 100 | 100 |
-            | Renewal 2022 | Closed Lost (Debook) | 100 | -100 | -100 |
+      ```markdown
+      | **Opportunity** | **Stage** | **Net ARR** | **ARR Basis** | **ACV** |
+      | --- | --- | --- | --- | --- |
+      | New Business 2020| Closed Won | 100 | 0 | 100 |
+      | Renewal 2021| Closed Won | 0 | 100 | 100 |
+      | Renewal 2022 | Closed Lost | -100 | 100 | 100 |
+      | Renewal 2022 | Closed Won | 0 | 100 | 100 |
+      | Renewal 2022 | Closed Lost (Debook) | 100 | -100 | -100 |
+      ```
 
 - **Customers Returning More Than 180 Days After Subscription Term End Date**:
-    - If a customer returns to purchase another GitLab subscription **more than 180 days** after the previous subscription term end date, the transaction must be booked under a **New Business Opportunity**.
-        - In this scenario, the original Closed Lost opportunity will not be reversed and the Order Type will be [1. New - First Order](/handbook/sales/sales-term-glossary/#first-order-customers) or [2. New - Connected](/handbook/sales/sales-term-glossary/#connected-new-customers) based on the Account Family.
-
+  - If a customer returns to purchase another GitLab subscription **more than 180 days** after the previous subscription term end date, the transaction must be booked under a **New Business Opportunity**.
+    - In this scenario, the original Closed Lost opportunity will not be reversed and the Order Type will be [1. New - First Order](/handbook/sales/sales-term-glossary/#first-order-customers) or [2. New - Connected](/handbook/sales/sales-term-glossary/#connected-new-customers) based on the Account Family.
 
 ## Opportunity Types
 
@@ -885,102 +847,102 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
 **0-Pending Acceptance**: This is the initial stage once an opportunity is created.
 
 - What to Complete in This Stage:
-    - For BDR/SDR sourced opportunities, the opportunity meets [Sales Accepted Opportunity criteria](/handbook/sales/field-operations/gtm-resources/#opportunities).
-    - The BDR/SDR has scheduled a call via Google Calendar, sent invites, created an event on the account object, named the event: GitLab Introductory Meeting - {{Account Name}}
-    - The opportunity will populate the Stage 1 XDR Net ARR field with an estimate of the Net ARR value of this opportunity based on a per-Geo/Segment/deal type average and median.
-    - Once it is confirmed that the opportunity meets our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to the next stage and the `Amount` field must be populated with estimated pipeline. This will then populate the Stage 1 Net ARR field which will demonstrate Net ARR value of this opportunity as it crosses into Stage 1. The date the opportunity moves from this to the next stage in the sales cycle will populate the `Sales Accepted Date` field on the opportunity record.
-    - If the details on the opportunity do not meet our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to an `9-Unqualified` stage (this is the only time an opportunity can move into `9-Unqualified` stage)
-    - All Opps that are sales assisted must first enter this stage before they can be moved further in the pipeline. If they do not enter this stage at some point you will encounter a validation rule error.
-    - For renewal opportunities, `0-Pending Acceptance` is only to be used if the renewal is not being actively worked by the Account Executive/Strategic Account Executive.
+  - For BDR/SDR sourced opportunities, the opportunity meets [Sales Accepted Opportunity criteria](/handbook/sales/field-operations/gtm-resources/#opportunities).
+  - The BDR/SDR has scheduled a call via Google Calendar, sent invites, created an event on the account object, named the event: GitLab Introductory Meeting - {{Account Name}}
+  - The opportunity will populate the Stage 1 XDR Net ARR field with an estimate of the Net ARR value of this opportunity based on a per-Geo/Segment/deal type average and median.
+  - Once it is confirmed that the opportunity meets our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to the next stage and the `Amount` field must be populated with estimated pipeline. This will then populate the Stage 1 Net ARR field which will demonstrate Net ARR value of this opportunity as it crosses into Stage 1. The date the opportunity moves from this to the next stage in the sales cycle will populate the `Sales Accepted Date` field on the opportunity record.
+  - If the details on the opportunity do not meet our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to an `9-Unqualified` stage (this is the only time an opportunity can move into `9-Unqualified` stage)
+  - All Opps that are sales assisted must first enter this stage before they can be moved further in the pipeline. If they do not enter this stage at some point you will encounter a validation rule error.
+  - For renewal opportunities, `0-Pending Acceptance` is only to be used if the renewal is not being actively worked by the Account Executive/Strategic Account Executive.
 
 **1-Discovery**: Uncover as much intelligence about the project as you can, which will be confirmed at later stages throughout the sales cycle.
 
 - What to Complete in This Stage:
-    - Begin filling out [MEDDPPICC](/handbook/sales/meddppicc/)
-    - Send Plan Letter/Recap Email to Attendees- [Example](https://docs.google.com/document/d/16Gurj_MVREmKoqXTdB1F0OQ3eyq1gzbTNU8LNHHuoEM/edit)
-    - Scheduled Scoping Call
-    - Provide an estimate for the `Expected Number of Users` and the `Expected Product` for the Opportunity. This information is used to help the customer success team to predict their future workload as well as to help them with their hiring plans.
-    - Should the opportunity progress from `1-Discovery` to the next stage (not 8-Closed Lost or 9-Duplicate), it will be considered a `Sales Qualified Opportunity`. The following values are entered once the opportunity progresses from this stage:
-        - `Sales Qualified` is True.
-        - `Sales Qualified Date` is the date the opportunity moves from this stage to the next open or won stage.
-        - `Initial IACV` captures the value in the `Incremental ACV` field. `Initial IACV` is a snapshot field that will not change, even when the `Incremental ACV` field is updated and will be used for `Deal Size` analysis.
+  - Begin filling out [MEDDPPICC](/handbook/sales/meddppicc/)
+  - Send Plan Letter/Recap Email to Attendees- [Example](https://docs.google.com/document/d/16Gurj_MVREmKoqXTdB1F0OQ3eyq1gzbTNU8LNHHuoEM/edit)
+  - Scheduled Scoping Call
+  - Provide an estimate for the `Expected Number of Users` and the `Expected Product` for the Opportunity. This information is used to help the customer success team to predict their future workload as well as to help them with their hiring plans.
+  - Should the opportunity progress from `1-Discovery` to the next stage (not 8-Closed Lost or 9-Duplicate), it will be considered a `Sales Qualified Opportunity`. The following values are entered once the opportunity progresses from this stage:
+    - `Sales Qualified` is True.
+    - `Sales Qualified Date` is the date the opportunity moves from this stage to the next open or won stage.
+    - `Initial IACV` captures the value in the `Incremental ACV` field. `Initial IACV` is a snapshot field that will not change, even when the `Incremental ACV` field is updated and will be used for `Deal Size` analysis.
 
 **2-Scoping**: Uncover business challenges/objectives, the competitive landscape, realizing fit.
 
 - What to Complete in This Stage:
-    - Complete a Demo (Optional)
-    - Schedule a Technical Evaluation Call
-    - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
-    - Make adjustments to expected opp amount as this will impact the field Stage 3 Net ARR which popluates the Net ARR value of this opportunity as it crosses into Stage 3.
+  - Complete a Demo (Optional)
+  - Schedule a Technical Evaluation Call
+  - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
+  - Make adjustments to expected opp amount as this will impact the field Stage 3 Net ARR which popluates the Net ARR value of this opportunity as it crosses into Stage 3.
 
 **3-Technical Evaluation**: Confirming technical requirements. A proof-of-concept (POC) might occur at this stage. This is also the stage to confirm information before a proposal is delivered.
 
 - What to Complete in This Stage:
-    - Enter POC Notes and POC Success Criteria (if applicable) and enter into the POC Notes and POC Success Criteria fields related to the opportunity.
-    - Confirm *Technical Requirements, POC Scope*
-    - Confirm *Technical Win/POC Success*
-    - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
+  - Enter POC Notes and POC Success Criteria (if applicable) and enter into the POC Notes and POC Success Criteria fields related to the opportunity.
+  - Confirm *Technical Requirements, POC Scope*
+  - Confirm *Technical Win/POC Success*
+  - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
 
 **4-Proposal**: Business and technical challenges and been uncovered and resolved. A proposal is drafted and delivered to the prospect.
 
 - What to Complete in This Stage:
-    - Confirm Bill to Information (who will receive the invoices), Sold to Information (who will receive the license key). You should also confirm whether or not the customer will issue a PO, and whether there is a vendor registration form required by the customer.
-    - Deliver formal contract to the prospect with complete bill to and sold to information. Remember that quotes with incomplete or incorrect information will be rejected by Deal Desk.
-    - An MSA may be delivered separately
-    - Clear understanding of purchase/contract review process and a close plan (actions to be taken, named of people to complete actions and dates for each action) documented in the Purchasing Plan field.
+  - Confirm Bill to Information (who will receive the invoices), Sold to Information (who will receive the license key). You should also confirm whether or not the customer will issue a PO, and whether there is a vendor registration form required by the customer.
+  - Deliver formal contract to the prospect with complete bill to and sold to information. Remember that quotes with incomplete or incorrect information will be rejected by Deal Desk.
+  - An MSA may be delivered separately
+  - Clear understanding of purchase/contract review process and a close plan (actions to be taken, named of people to complete actions and dates for each action) documented in the Purchasing Plan field.
 
 **5-Negotiating**: The prospect or customer has received the proposal and is in contract negotiations.
 
 - What to Complete in This Stage:
-    - Agreement on business terms
-    - All proposals should include the standard GitLab [Terms](https://about.gitlab.com/terms/#subscription/)
-    - Determine if customer will be referenceable when the opportunity closes. If the answer is:
-        - "Yes" update the `Referenceable Customer` section on the Account object with appropriate reference information
-        - "No" the discussion of being a reference can be revisited at a later date
-    - Modifications will not be accepted to the standard terms for any opportunity that is less than $25k, or for Starter edition.
-    - If the above threshold is met, requests for modifications to the standard terms should be sent to Legal by creating a legal case in SalesForce, following the process found [here](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable-and-contacting-legal).
-    - If the Account is seeking to use their own paper, requests will only be entertained if the opportunity is greater than $100k, and the request should be sent to Legal by creating a Legal case in SalesForce, following the process found [here](/handbook/sales/field-operations/order-processing/#request-for-gitlab-review-of-customer-edits-to-gitlab-template-or-review-of-customer-agreement-template).
+  - Agreement on business terms
+  - All proposals should include the standard GitLab [Terms](https://about.gitlab.com/terms/#subscription/)
+  - Determine if customer will be referenceable when the opportunity closes. If the answer is:
+    - "Yes" update the `Referenceable Customer` section on the Account object with appropriate reference information
+    - "No" the discussion of being a reference can be revisited at a later date
+  - Modifications will not be accepted to the standard terms for any opportunity that is less than $25k, or for Starter edition.
+  - If the above threshold is met, requests for modifications to the standard terms should be sent to Legal by creating a legal case in SalesForce, following the process found [here](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable-and-contacting-legal).
+  - If the Account is seeking to use their own paper, requests will only be entertained if the opportunity is greater than $100k, and the request should be sent to Legal by creating a Legal case in SalesForce, following the process found [here](/handbook/sales/field-operations/order-processing/#request-for-gitlab-review-of-customer-edits-to-gitlab-template-or-review-of-customer-agreement-template).
 
 **6-Awaiting Signature**: The prospect or customer has verbally agreed to the terms and conditions outlined in the proposal and has submitted for signature.
 
 - What to Complete in This Stage:
-    - Received signed order form, which signals agreement of all pricing and legal terms.
-    - Obtain a purchase order, if applicable.
-    - Work with GitLab AR to deliver any tax and/or complete any vendor registration processes.
-    - Ensure all relevant documents, MSA, PO, and other forms uploaded to SFDC in the Notes and Attachments section of the opportunity record.
-    - EULA (End User Licence Agreement) has been accepted by end-user organization (if applicable).
-    - Identify relevant `Competitors` and enter them on the opportunity
-    - Enter `Closed Won Reason` and `Closed Won Details` (a brief summary of why we won the opportunity that supports your Closed Won Reason selection).
-    - Subscription created in Zuora.
-    - Opportunity has been submitted for Finance approval.
+  - Received signed order form, which signals agreement of all pricing and legal terms.
+  - Obtain a purchase order, if applicable.
+  - Work with GitLab AR to deliver any tax and/or complete any vendor registration processes.
+  - Ensure all relevant documents, MSA, PO, and other forms uploaded to SFDC in the Notes and Attachments section of the opportunity record.
+  - EULA (End User Licence Agreement) has been accepted by end-user organization (if applicable).
+  - Identify relevant `Competitors` and enter them on the opportunity
+  - Enter `Closed Won Reason` and `Closed Won Details` (a brief summary of why we won the opportunity that supports your Closed Won Reason selection).
+  - Subscription created in Zuora.
+  - Opportunity has been submitted for Finance approval.
 
 **Closed Won**: Congratulations!! The terms have been agreed to by both parties and the quote has been approved by Finance.
 
 - What to Complete in This Stage:
-    - Introduce Customer Success/Account Management (if applicable)
-    - Set a calendar reminder for 30 day follow up
-    - If applicable, initiate Customer Onboarding or Premium Support onboarding
+  - Introduce Customer Success/Account Management (if applicable)
+  - Set a calendar reminder for 30 day follow up
+  - If applicable, initiate Customer Onboarding or Premium Support onboarding
 
 **8-Closed Lost**: An opportunity was lost and the prospect/customer has decided not to pursue the purchase of GitLab.
 
 - What to Complete in This Stage:
-    - Select all applicable Closed Lost Reasons
-        - If the loss is due to Competitive Loss, you are required to select the competitor(s) from the opportunity's `Competitor` field
-        - If the loss is due to Product Maturity, you are required to select the product stage(s) from the opportunity's `Product Maturity: Product Line` field.
-    - `Closed Lost/Unqualified Details` is required all opportunities with IACV of $1,000 or greater OR opportunities where Closed Lost Reason = Other. Enter as much detail as you can as to why we lost the deal. For example:
-        - If they selected a competitor, why? Was it due to features or pricing?
-        - If decided not to move forward with a project, what were the reasons? Did they not understand the value? Was there not a compelling event or reason?
-        - Again, please be as thorough as you can as this information will prove valuable as we learn from these experiences.
-    - Please note that for new business deals where the opportunity is with a Large/PubSec Account OR the Net ARR is equal or greater than USD 12,000, then a notification will be sent to the [#lost-deals](https://gitlab.slack.com/messages/C8RP2BBA7) Slack channel.
-    - Uncover a time for follow up (incumbent solution contract expiration date)
-    - Note that if an opportunity is dead/stalled, mark the Stage as 8-Closed Lost. Should the prospect/customer re-engage before 30 days, you can reopen this opportunity. However, if they re-engage beyond 30 days, you will need to create a new opportunity.
-    - If the `Closed Lost/Unqualified Reason` is "Merged into another opportunity" please link this closed opportunity to the opportunity you are merging it into by using the `Merged Opportunity` lookup field. Otherwise, you will encounter a validation rule error.
+  - Select the applicable Closed Lost Reason as [defined here](https://docs.google.com/presentation/d/1jHKfQn0qKEpfaMxohJctFWV_uNmXv51VJ3O8_UTTIuA/edit#slide=id.p)
+    - If the loss is due to Competitive Loss, you are required to select the competitor(s) from the opportunity's `Competitor` field
+    - If the loss is due to Product Maturity, you are required to select the product stage(s) from the opportunity's `Product Maturity: Product Line` field.
+  - `Closed Lost/Unqualified Details` is required all opportunities with a Net ARR value of $25,000 or greater OR opportunities where Closed Lost Reason = Other. Enter as much detail as you can as to why we lost the deal. For example:
+    - If they selected a competitor, why? Was it due to features or pricing?
+    - If decided not to move forward with a project, what were the reasons? Did they not understand the value? Was there not a compelling event or reason?
+    - Again, please be as thorough as you can as this information will prove valuable as we learn from these experiences.
+  - Please note that for new business deals where the opportunity is with a Large/PubSec Account OR the Net ARR is equal or greater than $12,000, then a notification will be sent to the [#lost-deals](https://gitlab.slack.com/messages/C8RP2BBA7) Slack channel.
+  - Uncover a time for follow up (incumbent solution contract expiration date)
+  - Note that if an opportunity is dead/stalled, mark the Stage as 8-Closed Lost. Should the prospect/customer re-engage, you will need to create a new opportunity.
+  - If the `Closed Lost/Unqualified Reason` is "Merged into another opportunity" please link this closed opportunity to the opportunity you are merging it into by using the `Merged Opportunity` lookup field. Otherwise, you will encounter a validation rule error.
 
 **9-Unqualified**: An opportunity was never qualified.
 
 - What to Complete in This Stage:
-    - Update the `Closed Lost/Unqualified Reason` and corresponding `Closed Lost/Unqualified Details` with any pertinent notes as to why the opportunity was not qualified.
-    - A notification will be sent to the Sales Development Team Lead and a feedback session should be scheduled between AE and Team Lead.
+  - Update the `Closed Lost/Unqualified Reason` and corresponding `Closed Lost/Unqualified Details` with any pertinent notes as to why the opportunity was not qualified.
+  - A notification will be sent to the Sales Development Team Lead and a feedback session should be scheduled between AE and Team Lead.
 
 **10-Duplicate**: A duplicate opportunity exists in the system. This usually happens when a web direct opportunity is won when an existing opportunity already exists in Salesforce. Another reason could be multiple renewals created for the same opportunity. This stage **should not** be used when disqualifying an opportunity or if it is discovered at some point after acceptance that the opportunity is really part of a larger initiative. If the opportunity was accepted, it cannot be marked as a duplicate. Instead, you must mark the opportunity as `8-Closed Lost` and select the appropriate reason. Possible selections could include "Consolidating order - part of another subscription" or "Merged into another opportunity" as reasons why a duplicate opportunity may have been created.
 
@@ -995,36 +957,38 @@ If you need to revert an opportunity you've previously qualified to one of these
 
 ### Reverting an Opportunity to a Previous Stage
 
-If a previously met criteria has become unmet, you are required to revert back to the latest stage where all activities were completed.
-For example, if a prospect had previously signed off on GitLab from a technical standpoint, requested a quote and has begun contract negotiations, you would set the opportunity to `5-Negotiating`.
-However, if at any point during the negotiations, additional technical questions or requirements arise that result in a re-evaluation of GitLab's technical capabilities, you would revert the opportunity back to `3-Technical Evaluation`.
-After the opportunity has once again met the stage completion criteria, you are able to move the opportunity to either `4-Proposal` if a new order form was created as a result of the additional technical requirements, or back to `5-Negotiating` if no changes were made to the original order form.
+Opportunity stages should align with GitLab's [Sales Stage Definitions](https://gitlab.highspot.com/items/623e24381f87632cd3327e93?lfrm=ssrp.0).  However, in the event that an opportunity has been progressed prematurely or circumstances of the sales process have significantly changed, a reversion of the opporunity stage can be requested.  Note that opportunity owners can only advance sales stages forward.  To make a stage reversion request, the opportunity owner must chatter sales-support with details and justification for the stage reversal along with their manager's approval.
 
 ### Early Stage Deals: Progression Requirements & Automation
 
 To help keep our pipeline clean and ensure that early stage deals are moving through the pipe at the desired velocity, all **New Business** opportunities in stage `1-Discovery` and `2-Scoping` are governed under the below process
 
 **Timelines:**  Inactivity Warning Day & Auto Closure Day by Segment
+
 - Large/PubSec: Day 45 / Day 90
 - Mid-Market: Day 21 / Day 45
 - SMB: Day 7 / Day 15
 
 **Definitions**: SFDC actions that constitute an **activity** include:
+
 - Stage Progression,
 - Command Plan Entries
 - Next Steps updated
 
-
 **Process for Stage 1-Discovery:**
- 1. At (Segment Specific) Warning day the Opportunity Owner and Opportunity Owner's Manager receive an email notification alerting both of inactivity
-    - To avoid auto closure, the Opportunity Owner must progress the stage or add an activity to the opportunity
- 2. If there's no activity between the warning day and auto closure day:
+
+1. At (Segment Specific) Warning day the Opportunity Owner and Opportunity Owner's Manager receive an email notification alerting both of inactivity
+   - To avoid auto closure, the Opportunity Owner must progress the stage or add an activity to the opportunity
+2. If there's no activity between the warning day and auto closure day:
+
    - The opportunity gets automatically closed (`8-Closed Lost`) with a `Closed Lost/Unqualified Reason` of "No Progression-Auto Close"
    - Email notification goes out to the Opportunity Owner, Opportunity Owner Manager and Marketing of this change
    - In scenarios where an opportunity is still vialbe but has been moved to Closed Lost through this automated process, the Opportunity Owner must create a new opportunity.
- 3. If there IS activity against the opportunity OR it progresses to Stage `2-Scoping`, the Warning and Auto Closure Day process starts over
+
+3. If there IS activity against the opportunity OR it progresses to Stage `2-Scoping`, the Warning and Auto Closure Day process starts over
 
 **Process for Stage 2-Scoping:**
+
 1. Same process for steps 1 & 2 above
 2. Step 3: If the opportunity progresses to Stage `3-Technical Evaluation`, there are no longer any activity requirements due to aging
 
@@ -1034,20 +998,18 @@ In order to be in compliance with US Regulations there is a need to screen oppor
 In order to comply with these regulations, opportunities are screened when they are created through a third party application, Visual Compliance.
 Visual Compliance is a dynamic screening tool that constantly compares our account information with those sanctioned parties listed on various Denied Party Lists.
 Visual Compliance will screen new information and will monitor existing information to ensure the integrity and legality of the parties with whom we do business.
-The more **accurate** information in the Account--the better! Partial information may trigger a false ‘hit’ and cause delays.
+The more **accurate** information in the Account--the better! Partial information may trigger a false 'hit' and cause delays.
 Please provide the full company name, company address, country and contact name(s).
 
 If you receive an error referencing export when attempting to update an Account:
-(i) Check if the Visual Compliance Section of the Account says “Pending”-- Wait 15-30 minutes for the system to run its initial check and update.
-(ii) If the Visual Compliance Section of the Account says “Yellow” or“Red”-- The legal team is manually reviewing the Account to ensure compliance. Manual reviews of hits are conducted three (3) times a day.
+(i) Check if the Visual Compliance Section of the Account says "Pending"-- Wait 15-30 minutes for the system to run its initial check and update.
+(ii) If the Visual Compliance Section of the Account says "Yellow" or"Red"-- The legal team is manually reviewing the Account to ensure compliance. Manual reviews of hits are conducted three (3) times a day.
 Changes by Legal will automatically update the Account, although updates may take 15-30 minutes to sync.
 
-- If the status has been updated to “Clear”, the order will process and account functionality will resume.
-- If the status is updated to “Escalate”, there is a concern with either the company itself or there is an attempt to sell in an embargoed country. Escalated orders will not process.
-(iii) If the Account requires immediate attention (i.e., to close a deal), open a Chatter message in the Account and message “@legal”. Upon receipt of a request, the Legal team can review and update in Visual Compliance.
+- If the status has been updated to "Clear", the order will process and account functionality will resume.
+- If the status is updated to "Escalate", there is a concern with either the company itself or there is an attempt to sell in an embargoed country. Escalated orders will not process.
+(iii) If the Account requires immediate attention (i.e., to close a deal), open a Chatter message in the Account and message "@legal". Upon receipt of a request, the Legal team can review and update in Visual Compliance.
 Please understand that if Legal finds a problem, the flag and the account will remain locked down.
-
-
 
 ## Types of Accounts
 
@@ -1082,5 +1044,3 @@ The adoption of any `Sales Admin` owned records will trigger an email alert that
 2. The Account Research Specialist will be responsible for reviewing the `Prospect - CE User` accounts on a regular basis to determine additional account records that should be worked either by a Sales Team member or Outbound BDR.
 3. When an account record has been identified for follow up, the Account Research Specialist will work with the appropriate Regional Director (RD) to determine Outbound BDR assignment based on work load and available capacity.
 4. The assigned Outbound BDR will work the `Prospect - CE User` account the same as any other known `CE User` account leveraging the tools at their disposal (Zoominfo, LinkedIn Sales Navigator, etc) to add contacts to the account record and populate the firmographic profile of the account.
-
-

@@ -1,1 +1,0 @@
-Page moved here: https://handbook.gitlab.com/handbook/marketing/channel-marketing/

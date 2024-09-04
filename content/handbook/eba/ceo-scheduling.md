@@ -1,5 +1,4 @@
 ---
-
 title: "CEO Scheduling & Preferences"
 ---
 
@@ -128,15 +127,16 @@ If people want advice on open source, remote work, or other things related to Gi
 > Thanks for being interested in GitLab. If we schedule a meeting it will follow GitLab's [Pick Your Brain format](/handbook/ceo/#pick-your-brain-interviews). Are you able to submit a draft post with us within 48 hours of interview?
 >
 > GitLab is a very transparent company and many things that are normally confidential can be found in our handbook, available online. Please consider looking at the following pages prior to our meeting.
->   - [Company strategy](/handbook/company/strategy/)
->   - [Our Objectives and Key Results per quarter](/handbook/company/okrs/)
->   - [All team members and numbers per department](/handbook/company/team/)
->   - [Handbook with all our processes](/handbook/)
->   - [Pricing plans](https://about.gitlab.com/pricing/)
->   - [Pricing strategy](/handbook/company/pricing/)
->   - [History](/handbook/company/history/)
->   - [About](/handbook/company/)
->   - [All Remote](/handbook/company/culture/all-remote/)
+>
+> - [Company strategy](/handbook/company/strategy/)
+> - [Our Objectives and Key Results per quarter](/handbook/company/okrs/)
+> - [All team members and numbers per department](/handbook/company/team/)
+> - [Handbook with all our processes](/handbook/)
+> - [Pricing plans](https://about.gitlab.com/pricing/)
+> - [Pricing strategy](/handbook/company/pricing/)
+> - [History](/handbook/company/history/)
+> - [About](/handbook/company/)
+> - [All Remote](/handbook/company/culture/all-remote/)
 
 1. If we receive a positive answer we schedule a 50 minute YouTube public livestream. For an example of an interview, see [this one about stress in remote work](https://www.youtube.com/watch?v=23XIx6n9SsQ).
 1. Within 48 hours you share a draft post with us in a Google Doc with suggestion or edit rights for anyone that knows the URL.
@@ -147,7 +147,6 @@ If people want advice on open source, remote work, or other things related to Gi
 Reply to emails: Thanks for wanting to chat. I propose we meet in the format proposed in GitLab's [Handbook](#pick-your-brain-meetings) so that other people benefit from our conversation too. If you're up for that please work with my EBA, XYZ (cc:) to schedule.
 
 Please note, requests for meeting about remote work, all-remote efforts, distributed workforces, etc should be scheduled with the Head of Remote versus Sid when possible.
-
 
 ### Scheduling Pick Your Brain meetings
 
@@ -165,8 +164,9 @@ Please note, requests for meeting about remote work, all-remote efforts, distrib
 - Emails that need the CEO's attention should be "starred" versus labeled
 - EBA to CEO should prepare draft responses
 - EBA to CEO should proactively schedule meetings requested via e-mail
+- Requests for introductions should follow "[The Double Opt-in Introduction](https://avc.com/2009/11/the-double-optin-introduction/))" guide: when introducing two people who don't know each other, ask each of them to opt-in to the introduction before making it.
 - Standard reply for recruiters:
-    - “We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](/handbook/hiring/candidate/faq/)."
+  - "We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](/handbook/hiring/candidate-faq/)."
 
 ### Travel preferences
 

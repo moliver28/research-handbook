@@ -21,6 +21,7 @@ Contracts are audited and updated on a regular basis. All suggested changes shou
 **No changes or edits should be made to the contracts without the required approval.**
 
 The Senior Manager, Global Enablement reviews if all Greenhouse tokens are correct
+
 1. See [here](https://drive.google.com/file/d/1rq4qTV5WYABDLMaAx76UqmjNwb008qVw/view?usp=sharing) for current set of tokens
 1. Update tokens on the contract if applicable
 1. Review in Greenhouse if all tokens are available (admin access is needed for that):
@@ -70,15 +71,15 @@ Please contact the Senior Background Check Specialist at backgroundchecks@gitlab
 
 Candidates (and, as applicable, current team members) will receive an email to fill out the background screening application. The application will ask for personal and professional information. The application process includes signing a disclosure and a consent form which explains the rights of an individual undergoing a background screening. The application process is designed to take less than fifteen minutes to complete.
 
-To prepare for the employment verification for those candidates being considered for Director level positions or higher, candidates should gather each previous employer's name and address, position title held, employment start and end dates, manager’s name and title, their phone number, and email address. Details for a Human Resources contact can be entered instead of a manager's contact details. Occasionally, and where permitted by law, Sterling will reach out to the candidate to retrieve additional information, such as backup documentation to act as proof of previous employment or picture IDs. Proof of employment can typically be provided in various ways, such as tax returns (e.g. W2s), pay stubs, LLC documentation, official company registrations, etc. In certain circumstances, the Senior Background Check Specialist may also reach out to candidates and/or team members for additional documentation.
+To prepare for the employment verification for those candidates being considered for Director level positions or higher, candidates should gather each previous employer's name and address, position title held, employment start and end dates, manager's name and title, their phone number, and email address. Details for a Human Resources contact can be entered instead of a manager's contact details. Occasionally, and where permitted by law, Sterling will reach out to the candidate to retrieve additional information, such as backup documentation to act as proof of previous employment or picture IDs. Proof of employment can typically be provided in various ways, such as tax returns (e.g. W2s), pay stubs, LLC documentation, official company registrations, etc. In certain circumstances, the Senior Background Check Specialist may also reach out to candidates and/or team members for additional documentation.
 
 Background screenings will act as an additional mechanism of transparency and will help to build trust with our clients.
 
 #### Review Criteria for Candidates and Team Members
 
-Reviews of the background screening are conducted by the Senior Background Check Specialist in accordance with the applicable law of the candidate’s jurisdiction. The Senior Background Check Specialist will first review the report for omissions, inaccuracies, and/or discrepancies with employment, including, but not limited to, dates of employment, employer names, or positions held. If the report includes discrepancies related to employment, the Senior Background Check Specialist will take the necessary steps to investigate and adjudicate the discrepancies and/or reach out to Team Member Relations for additional support and collaboration. The Senior Background Check Specialist and Team Member Relations may escalate the report, as necessary, to the Legal Employment team. Employment decisions based on the employment verification portions of the background screening report shall be finalized before any review of the criminal records information takes place.
+Reviews of the background screening are conducted by the Senior Background Check Specialist in accordance with the applicable law of the candidate's jurisdiction. The Senior Background Check Specialist will first review the report for omissions, inaccuracies, and/or discrepancies with employment, including, but not limited to, dates of employment, employer names, or positions held. If the report includes discrepancies related to employment, the Senior Background Check Specialist will take the necessary steps to investigate and adjudicate the discrepancies and/or reach out to Team Member Relations for additional support and collaboration. The Senior Background Check Specialist and Team Member Relations may escalate the report, as necessary, to the Legal Employment team. Employment decisions based on the employment verification portions of the background screening report shall be finalized before any review of the criminal records information takes place.
 
-If criminal record information has been provided, then it will be adjudicated in accordance with applicable local law. Generally, and subject to local law, criminal records are reviewed to determine if criminal convictions have a direct connection with an applicant’s ability to fulfill the job duty with competence and integrity, while also considering the safety and/or security of GitLab team members, customers, vendors, and/or overall business. Decisions are made that are job related and consistent with business necessity. Arrest records are not considered during the adjudication process, nor is any criminal conviction information that is prohibited from being reviewed by applicable local law.
+If criminal record information has been provided, then it will be adjudicated in accordance with applicable local law. Generally, and subject to local law, criminal records are reviewed to determine if criminal convictions have a direct connection with an applicant's ability to fulfill the job duty with competence and integrity, while also considering the safety and/or security of GitLab team members, customers, vendors, and/or overall business. Decisions are made that are job related and consistent with business necessity. Arrest records are not considered during the adjudication process, nor is any criminal conviction information that is prohibited from being reviewed by applicable local law.
 
 ## Probation Period
 
@@ -100,6 +101,7 @@ If an exception request is made to end a probation period early, this should be 
 1. The Hiring Manager will select the appropriate probation outcome in Workday based on the team member's performance. A helpful job aid can be found [here](https://docs.google.com/document/d/1NSIaigEqFnouax9s_NGB_nXGA1y_8zJB5aZUW63bvog/edit) on this process.
 
 ***For Team Members***
+
 1. If you have successfully passed your probation period, in addition to receiving the good news through your manager, you will also receive a probation period confirmation letter in Workday.
 1. In your inbox, you can review this letter and then select `Submit`. This letter will then be saved in your Workday documents for future reference if needed.
 
@@ -107,13 +109,13 @@ If an exception request is made to end a probation period early, this should be 
 
 {{< entities-with-probation >}}
 
-### Locations without Probation Periods:
+### Locations without Probation Periods
 
 {{< entities-without-probation >}}
 
 ## PIAA (Proprietary Information and Assignment Agreement)
 
-GitLab strives to help its team members maintain the ability to work on projects that are unrelated to GitLab’s business, including other open-source projects. Our PIAA does not grant GitLab any rights to any creations that you may make that are not related to GitLab's business or the work you do for GitLab. That is, you are free to develop those creations without requesting approval in advance from GitLab.
+GitLab strives to help its team members maintain the ability to work on projects that are unrelated to GitLab's business, including other open-source projects. Our PIAA does not grant GitLab any rights to any creations that you may make that are not related to GitLab's business or the work you do for GitLab. That is, you are free to develop those creations without requesting approval in advance from GitLab.
 
 If your employment contract was created prior to November 2017, we have created an amendment to the PIAA agreement which can be viewed [here](https://docs.google.com/document/d/1oEfDCIht7Vy6KdcGXWPHZBUXLUUZS9hsvYnOYhQjllg/edit). It amends the 2A section of the PIAA. Please email people-connect@ who will complete and stage the document for signatures. The Amendment will first be signed by the team member and then by the requisite Company signatory.
 
@@ -124,7 +126,7 @@ GitLab recognizes that Rest and Time Off are Productive and encourages our team 
 GitLab reminds these team members that their position with GitLab is their primary employment responsibility, and that GitLab positions are considered full-time employment and they require a team member's full effort and concentration, despite any outside activities.
 
 In order to honor the commitment team members make when they join GitLab, including protecting GitLab's confidential information, trade secrets, and other business interests while team members are engaged in outside activities, GitLab has adopted the following policies:
-Outside activities must not interfere with the team member’s work performance or duties; or create an actual or apparent conflict of interest with GitLab. If outside activities lead to a team member’s poor performance, abuse of leave policies, or other negative outcomes relating to their position, GitLab may discipline the team member, up to and including termination.
+Outside activities must not interfere with the team member's work performance or duties; or create an actual or apparent conflict of interest with GitLab. If outside activities lead to a team member's poor performance, abuse of leave policies, or other negative outcomes relating to their position, GitLab may discipline the team member, up to and including termination.
 In line with our core value of Transparency, prior to starting outside activities that could potentially interfere with their commitments to GitLab, team members must disclose it to their manager, as noted below. GitLab will not approve outside activities that compromise a team member's ability to perform their job effectively.
 Team members engaging in outside activities must comply with GitLab's Code of Business Conduct and Ethics, as well as all policies related to Conflicts of Interest, Confidentiality, Non-Competition during Employment, and the Protection of Confidential and Proprietary Information, where enforceable by applicable state or local law. Outside  activities cannot involve or compete with products or services provided or under development by GitLab. Outside activities also cannot make use of any of GitLab's proprietary or confidential information, and team members cannot work in any capacity for any of GitLab's suppliers, customers, or competitors.
 GitLab's [Internal Acceptable Use Policy]({{< ref "acceptable-use-policy#acceptable-use-and-security-requirements-of-computing-resources-at-gitlab" >}}) permits limited personal use of GitLab-managed assets, subject to any conflicting statements contained in individual employment contracts. Subject to such limited personal use, team members may not use GitLab's facilities, equipment, supplies, IT systems (such as computers, networks, or email), time, trademarks, brand, or reputation in connection with any outside activities.
@@ -132,7 +134,7 @@ This policy is not intended to restrict communications or actions protected or r
 
 ### Approval for Outside Activities
 
-Before beginning outside employment, side projects, or other activities, whether paid or unpaid, that could potentially impair your ability to perform your obligations to GitLab or could be deemed a conflict of interest (collectively referred to as "outside activities"), you must disclose the activity in writing to your Manager, and further escalate as needed. Approval will not be granted if GitLab determines that the proposed outside activity would be a conflict of interest under the Code of Business Conduct and Ethics. Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab.
+Before beginning outside employment, side projects, or other activities, whether paid or unpaid (collectively referred to as "outside activities"), you must disclose the activity in writing to your Manager, and further escalate as needed. Approval will not be granted if GitLab determines that the proposed outside activity would be a conflict of interest under the Code of Business Conduct and Ethics or if it would compromise a team member's ability to perform their job effectively. Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab.
 
 #### Steps as a current candidate (actively engaged in the hiring process)
 
@@ -144,10 +146,9 @@ any inventions or side projects that should be listed on the PIAA.
     - Name of the outside employment, project, or activity
     - GitLab clients who are involved in the project and scope of involvement (if applicable, please include tech stack used)
     - Estimated time investment per week (in hours)
-    - Candidate’s role in the outside employment, project, or activity
+    - Candidate's role in the outside employment, project, or activity
 1. Approval will follow the process set out for current team members. Any potential conflict of interest must be disclosed to and approved by the Chief Legal Officer in line with the Code of Business Conduct & Ethics.
 1. If the candidate entered No or None CES will continue processing the application.
-1. If the candidate discloses any inventions or side projects that should be listed on the PIAA, CES will notify the People Connect Team by emailing `people-connect@gitlab.com` with the link to the candidate's Greenhouse profile and PDF of the form. The subject line will include the candidate's name. From there, People Connect will follow their process per the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#piaa). Both teams can reach out to `legal_employment@gitlab.com` for review of the disclosures and specific wording that may need to be added to the PIAA if necessary.
 
 #### Steps as a current team member
 
@@ -223,10 +224,12 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 1. Take note of the team members details and reach out to the team members manager via email using the following [template](https://gitlab.com/gitlab-com/people-group/General/-/blob/master/.gitlab/email_templates/netherlands_temp_contract_renewal.md).
 1. Once you have received confirmation on next steps from the team members line manager, be sure to save the thread under the team member's profile in Workday in the 'Approvals - Confidential' document folder.
 1. Using the correct contract template from the [templates folder](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#employment-agreements) complete with required team member details. These details can be found on the team member's Workday profile.
+
 - As we would honour the original hire date in terms of GitLab seniority add the following sentence into the contract after the contract start date: "Your continuity of service for statutory purposes begins on the {{Original Hire Date}}."
 - Do not keep the `Stock Options` line in the Key Terms section, unless additional shares are being given.
 - Be sure to write both the Start date and Birth date of the team member in the **Month DD, YYYY** format to prevent confusion.
 - Remove any wording regarding Probation Period [if applicable](#probation-period).
+
 1. When you have a completed contract be sure to allow a team member to peer review it for you. This can be done by posting the document link in the connect-ops-team private slack channel. Indicate that you are reviewing it by using the 'Eyes' emoji.
 1. Once reviewed, stage the contract for signing in Docusign.
 1. Ensure that the GitLab signatory is the first to sign, followed by the team member. This can be done by selecting the assign signing order option.
@@ -240,15 +243,18 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 1. Two months before the contract ends, HR Savvy will send an email to the People Connect Team member email address.
 1. The People Connect Team member that is in charge of allocating contract renewals will assign a member of the People Connect team to complete the contract renewal process.
 1. The People Connect Team member adds the team member's contract details to the People Connect Task [Tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit?ts=5e7a2c42#gid=84302455) under the Netherlands Contracts tab.
-1. The People Connect Team member will send an [email](https://gitlab.com/gitlab-com/people-group/people-operations/General/-/blob/master/.gitlab/email_templates/netherlands_temp_contract_renewal.md) to the team member's manager two months before the team member's contract ends.
+1. The People Connect Team member will follow [this HelpLab Job Aid](https://docs.google.com/document/d/1hm707ieQVskaRhBl_89AHq-V3wXbsaiSbYmCiFF3_40/edit) to request approval from the team member's manager two months before the team member's contract ends.
 1. GitLab offers one fixed term 12-month contract to start. After the year-long fixed term contract, if the team member is in good standing, they are given an Indefinite Agreement beginning at the team member's second year with the company. If a team member has been with GitLab for over one year after their first fixed term contract finished due to a relocation, they are given an Indefinite Contract.
 1. The Manager has then 2 weeks to evaluate the performance of the team member.
+
 - If satisfied with the performance, the manager informs the People Connect team to extend the contract for an indefinite term.
 - If there are performance concerns the manager will discuss the planned course of action with the Team Member Relations Team. The contract may end or get extended for another fixed term. The Team Member Relations Team can help with providing guidance on the messaging.
+
 1. At least 1 month before the end of the contract, the manager informs the team member of the extension or not.
 1. If a salary increase is required due to updated [visa salary requirements]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) the People Connect Team member requests approvals from the team member's manager, total rewards and finally the team member's Division's E-Group leader.
 1. The People Connect Team member uploads the approval to the Workday Documents folder.
 1. If the contract extension is approved, the People Connect Team member creates the contract
+
 - As we would honour the original hire date in terms of GitLab seniority add the following sentence into the contract after the contract start date: "Your continuity of service for statutory purposes begins on the {{Original Hire Date}}."
 - Do not keep the `Stock Options` line in the Key Terms section, unless additional shares are being given.
 - Be sure to write both the Start date and Birth date of the team member in the **Month DD, YYYY** format to prevent confusion.
@@ -256,8 +262,11 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 - Remove any wording regarding Probation Period [if applicable](#probation-period).
 - Note: A second [probation period](#probation-period) should only be implemented if the team member's new contract reflects the start of an [entirely new role](https://wsadvocaten.nl/probationary-period-netherlands-dutch-law/). If the contract is simply a continuation of employment in the current role, a second probation period should not be applied.
 - Remove any wording regarding certificate of good conduct, as this was already requested as part of their first Netherlands contract.
+
 1. The People Connect team member stages the contract via Docusign for the [GitLab signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and the team member to sign. Add hr@savvy-group.eu to 'Receive a copy' once signed.
+
 - If another temporary contract is issued follow [these steps](https://gl-people-operations.gitlab.io/internal-handbook/people_connect/lead/#netherlands-renewal-process---temporary-contracts) and include the mentioned message when sending the contract via DocuSign
+
 1. The People Connect Team member uploads the signed contract to the team members Workday Documents folder.
 1. The People Connect Team member [updates Workday to reflect the new contract](https://docs.google.com/document/d/1qnRUH2vkBGDi1hWnpGjvfF0G1GvfZLVHUVFuKeu9vKI/edit?usp=sharing): Open the team member's Workday profile > Click on actions > Job Change > add contract. Fill in start and end date, contract type and reason (if applicable)
 1. Notify another People Connect Team member so that they may audit any Workday changes.
@@ -287,4 +296,3 @@ Standard practice is to automatically renew CXC contracts. The [offboarding proc
 ### GitLab, Inc with OTE
 
 - For Relocations, Promotions, and Transfers of current team members be sure to remove the draw information as it is not applicable.
-

@@ -25,7 +25,7 @@ open to a [soft-landing acquisition](https://about.gitlab.com/blog/2019/07/30/gi
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 
-#### Requirements
+## Requirements
 
 - Significant development experience as a sole developer to a stand-alone application or main component in one
 - Experience owning a project from concept to production, including proposal, discussion, and execution.
@@ -35,18 +35,18 @@ open to a [soft-landing acquisition](https://about.gitlab.com/blog/2019/07/30/gi
 - Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
 - Experience building web-crawlers at scale
 - Experience designing databases to match functional business needs for BI use and data extrapolation
-- Comfort working in a highly agile, [intensely iterative][iteration] software development process
+- Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 - Demonstrated ability to onboard and integrate with an organization long-term
 - Positive and solution-oriented mindset
-- Effective communication skills: [Regularly achieve consensus with peers][collaboration], and clear status updates
+- Effective communication skills: [Regularly achieve consensus with peers](/handbook/values/#collaboration), and clear status updates
 - An inclination towards communication, inclusion, and visibility
-- [Self-motivated and self-managing][efficiency], with strong organizational skills.
+- [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills.
 - Demonstrated ability to work closely with other parts of the organization
-- Share [our values][values], and work in accordance with those values
+- Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
 
-### Performance Indicators
+## Performance Indicators
 
 - [Acquisition velocity](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
@@ -61,8 +61,3 @@ Additional details about our process can be found on our [hiring page](/handbook
 - Dir. Corporate Development
 - Dir. Engineering
 - Chief Product Officer
-
-[values]: /handbook/values/
-[collaboration]: /handbook/values/#collaboration
-[efficiency]: /handbook/values/#efficiency
-[iteration]: /handbook/values/#iteration

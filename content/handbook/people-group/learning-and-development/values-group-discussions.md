@@ -1,5 +1,4 @@
 ---
-
 title: Values Group Discussions
 ---
 
@@ -9,7 +8,7 @@ Over the second half of FY24, the Talent & Engagement team (in partnership with 
 
 The objective of these group discussions is to determine where we may be able to streamline and simplify the operating principles associated with each value to make our values system more memorable and manageable.
 
-## How we’ll run the group discussions & other logistics
+## How we'll run the group discussions & other logistics
 
 - We will conduct one group discussion for each value, starting with Results, and then moving to Collaboration, Efficiency, DIB, Iteration, and Transparency.
 - Each discussion group will be 12-14 team members plus moderators. (allows for 3 breakouts of 4-5 people)
@@ -23,17 +22,17 @@ The objective of these group discussions is to determine where we may be able to
 - A round table of introductions and sharing what the particular value being discussed means to everyone in the room will be the next step.
 - Moderator will revisit the desired outcomes before then dividing the group into breakout groups.
 - Breakouts of 4-5 will begin using a modified version of the 1-2-4-all structure outlined here: https://www.liberatingstructures.com/1-1-2-4-all/
-- The objective of the breakouts will be to define the operating principles that show up most and which ones don’t.
-- After the breakouts, each group will present their outcomes and come back together to review where there’s alignment and where there are open questions.
+- The objective of the breakouts will be to define the operating principles that show up most and which ones don't.
+- After the breakouts, each group will present their outcomes and come back together to review where there's alignment and where there are open questions.
 
 ## Values Discussion flow
 
-- **Pre-work `<all>`:** Value meaning: We’ll start each session by asking everyone in advance to come prepared with a short description answering: what does `<value>` mean to you?
+- **Pre-work `<all>`:** Value meaning: We'll start each session by asking everyone in advance to come prepared with a short description answering: what does `<value>` mean to you?
 - **Intros `<all>`:** Very brief introductions, one or two sentences from each person to bring their voice into the room.
 - **Intros `<all>`:** Moderator sets the expectations for the meeting
 - **Defining Key Operating principles <breakout groups>:** In groups of 4, identify and define the operating principles for `<value>` that resonates with you and you see yourself living daily.
-    - TO DO PRIOR TO EACH SESSION: Prepare a doc for each group that lists each operating principle with definitions
-- **Identify less notable operating principles <breakout groups>:** Inversely, which operating principles don’t seem as important? Can these be combined with others?
+  - TO DO PRIOR TO EACH SESSION: Prepare a doc for each group that lists each operating principle with definitions
+- **Identify less notable operating principles <breakout groups>:** Inversely, which operating principles don't seem as important? Can these be combined with others?
 - **Sharing and discussing outcomes `<all>`:** Each group presents the principles they selected and the definitions they came up with as a group.
 - **Summarize `<all>`:** each group verbalizes if they changed their definitions or top principles. Each group can present less notable operating principle(s).
 - **Wrap up `<all>`:** Moderator summarizes the results and thanks the participants

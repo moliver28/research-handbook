@@ -1,4 +1,5 @@
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/product_priorities/software_supply_chain_security_wg.yml"}}
+{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/product_priorities/software_supply_chain_security_wg.yml" $publicHandbookRef}}
 {{ with resources.GetRemote $dataURL }}
 {{ with .Err}}
 

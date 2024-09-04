@@ -10,9 +10,9 @@ Those activities and behaviors include:
 - [DIB Events]({{< ref "diversity-and-inclusion-events" >}})
 - [DIB Advisory Group]({{< ref "inclusion#global-diversity-inclusion--belonging-advisory-group" >}})
 - [Diversity, Inclusion & Belonging  TMRGs - Team Member Resource Groups]({{< ref "inclusion#ergs---employee-resource-groups" >}})
-- [Our Values]({{< ref "values" >}})
-- [Family and Friends first, Work second]({{< ref "values#family-and-friends-first-work-second" >}})
-- [Inclusive language and pronouns]({{< ref "values#inclusive-language--pronouns" >}})
+- [Our Values](/handbook/values/)
+- [Family and Friends first, Work second](/handbook/values/#family-and-friends-first-work-second)
+- [Inclusive language and pronouns](/handbook/values/#inclusive-language--pronouns)
 - [Parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}})
 - [Asynchronous communication and workflows](/handbook/company/culture/all-remote/asynchronous)
 
@@ -20,7 +20,7 @@ Those activities and behaviors include:
 
 ### Defining Diversity, Inclusion & Belonging
 
-A great place to begin is to set a foundation of the basic understanding of how your company defines these terms. An example is GitLab's [Diversity, Inclusion & Belonging  value]({{< ref "values#diversity-inclusion" >}}), supported by an evolving list of operating principles.
+A great place to begin is to set a foundation of the basic understanding of how your company defines these terms. An example is GitLab's [Diversity, Inclusion & Belonging  value](/handbook/values/#diversity-inclusion), supported by an evolving list of operating principles.
 
 In other places, you may hear them used interchangeably. Understanding their differences is essential to driving the initiatives. As an example, you may hire many diverse candidates, but if you don't create an inclusive environment the work can be in vain.
 
@@ -43,15 +43,16 @@ Although Diversity, Inclusion & Belonging are often understood globally, there a
 
 ### Developing a mission statement
 
-When creating a diverse and inclusive culture, most companies will develop a mission statement to support their vision. Your mission statement should articulate the purpose of your strategy. In a few sentences, you should be able to succinctly provide the why and the how. Be sure to take into account your company’s current overall mission and vision. It is best to align your DIB mission and vision with your organization’s overarching mission and vision. To do this, you may consider how your DIB Strategy can build on, scale, or enhance the organization’s mission and vision.
+When creating a diverse and inclusive culture, most companies will develop a mission statement to support their vision. Your mission statement should articulate the purpose of your strategy. In a few sentences, you should be able to succinctly provide the why and the how. Be sure to take into account your company's current overall mission and vision. It is best to align your DIB mission and vision with your organization's overarching mission and vision. To do this, you may consider how your DIB Strategy can build on, scale, or enhance the organization's mission and vision.
 
 ### Creating TMRGs
 
 In general, TMRGs are an excellent support system and key to providing awareness, respect, and building diversity, inclusion & belonging within the workplace. These groups are a proven way to increase cultural competency, retention of team members, provide marketplace insights to the business, attract diverse talent, and more. The endorsement of TMRGs allows team members to identify common interests and decide how they can be shared with others. When creating TMRGs there are a few initial steps to consider:
+
 - [Creating guidelines to help support TMRGs being stood up within your company]({{< ref "erg-guide" >}})
-    - Naming of each TMRG
-    - Roles within each TMRG
-    - Aligning to company strategy
+  - Naming of each TMRG
+  - Roles within each TMRG
+  - Aligning to company strategy
 - Creating forms, Google groups, ways of tracking attendance for TMRG events, and membership metrics
 
 ### Creating a Diversity, Inclusion & Belonging  Advisory Group
@@ -82,27 +83,27 @@ Connecting to team members is key to understand who they are and what they bring
 
 ### Encourage Diversity of Thought and Speaking Up
 
-Don’t assume you know more than others. Give people a chance to add their perspective or expertise. Teach people how to disagree, set the expectation that it is OK to disagree, and encourage people to do it day-to-day. Celebrate diverse thoughts and thank people for making contributions, particularly if they disagree with you. It takes [courage to disagree publicly with a leader]({{< ref "values#see-something-say-something" >}}).
+Don't assume you know more than others. Give people a chance to add their perspective or expertise. Teach people how to disagree, set the expectation that it is OK to disagree, and encourage people to do it day-to-day. Celebrate diverse thoughts and thank people for making contributions, particularly if they disagree with you. It takes [courage to disagree publicly with a leader](/handbook/values/#see-something-say-something).
 
 ### Connect with your team members
 
 To help team members feel comfortable being themselves, leaders should consider authentic ways to connect to their team members. Everyone wants to feel visible and included in order to perform their best work. Being visible usually includes being seen for accomplishments, acknowledgment of contributions, what is the same, and what differs from team member to team member. Leaders and all team members should show an interest in and respect for differences and contributions.
 
-Considerations could be that of language/terminology such as “spouses” or “partners” instead of making assumptions about team members sexual orientation.  Being considerate of dietary restrictions when choosing food options for Contribute or other local gatherings.  Acknowledging birthdays, recalling personal things that might have been mentioned in past calls such as moving to a new home, an ill family member or team member, and following up authentically.
+Considerations could be that of language/terminology such as "spouses" or "partners" instead of making assumptions about team members sexual orientation.  Being considerate of dietary restrictions when choosing food options for Contribute or other local gatherings.  Acknowledging birthdays, recalling personal things that might have been mentioned in past calls such as moving to a new home, an ill family member or team member, and following up authentically.
 
 For more information see our [Inclusive Language.](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)
 
 ### Ask employees what pronouns they use
 
-Pronouns are a large piece of a person's identity and are often used to communicate a person’s gender, which is why it is so important to get it right. Asking for a person's pronouns and using those pronouns consistently shows that you respect their identity, but it also helps to create a more welcoming, safe, and supportive environment where people can feel comfortable being themselves. This is a change that goes a long way to foster inclusion.
+Pronouns are a large piece of a person's identity and are often used to communicate a person's gender, which is why it is so important to get it right. Asking for a person's pronouns and using those pronouns consistently shows that you respect their identity, but it also helps to create a more welcoming, safe, and supportive environment where people can feel comfortable being themselves. This is a change that goes a long way to foster inclusion.
 
 ### Be mindful of the times of your meetings
 
-It's important to consider global times and alternating meetings to accommodate regions. Be mindful of families, commitments, observances, holidays, and meeting times that may be out of team members' working hours. Every meeting time won't be perfect for everyone (which is why all meetings [have an agenda](/handbook/company/culture/all-remote/meetings#have-an-agenda)), but making a conscious effort to alternate times is to ensure the same people aren't being excluded. For more, view our [Inclusive Meetings]({{< ref "values#inclusive-meetings" >}}) operating principle.
+It's important to consider global times and alternating meetings to accommodate regions. Be mindful of families, commitments, observances, holidays, and meeting times that may be out of team members' working hours. Every meeting time won't be perfect for everyone (which is why all meetings [have an agenda](/handbook/company/culture/all-remote/meetings#have-an-agenda)), but making a conscious effort to alternate times is to ensure the same people aren't being excluded. For more, view our [Inclusive Meetings](/handbook/values/#inclusive-meetings) operating principle.
 
 ### Be a Role Model
 
-As a manager, you are in a unique position to model good DIB practices for the rest of your team. **Be authentic, own up to mistakes, and commit to doing better next time. Don’t dwell on it.** Set a good example by admitting that you make mistakes and invite people to help you and each other by speaking up in accordance with our feedback guidelines. By holding each other accountable, we get better as a team.
+As a manager, you are in a unique position to model good DIB practices for the rest of your team. **Be authentic, own up to mistakes, and commit to doing better next time. Don't dwell on it.** Set a good example by admitting that you make mistakes and invite people to help you and each other by speaking up in accordance with our feedback guidelines. By holding each other accountable, we get better as a team.
 
 ## Tips for Team Members
 
@@ -132,4 +133,4 @@ When you are dealing with a specific situation, you can mentally flip the situat
 
 - Consider joining a [TMRG]({{< ref "erg-guide" >}}) (Team Member Resource Group)
 - Support others as an Ally
-- Review the [Diversity, Inclusion & Belonging]({{< ref "inclusion" >}}) page
+- Review the [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) page

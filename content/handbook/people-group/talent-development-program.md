@@ -11,7 +11,7 @@ GitLab's Talent Development Program includes the following initiatives:
 
 - [Talent Assessment Tool](/handbook/people-group/talent-assessment)
 - [360 Feedback]({{< ref "360-feedback" >}})
-- [Organisational Structure and gaps]({{< ref "structure" >}})
+- [Organisational Structure and gaps](/handbook/company/structure/)
 - [Performance Assessments and Succession Planning](/handbook/people-group/talent-assessment)
 - [Career Development Conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}})
 - [Performance Improvement Plans (PIP)]({{< ref "underperformance#options-for-remediation" >}})
@@ -35,7 +35,7 @@ graph LR
   Gid1([Career Development<br> Conversations]):::classC --> Jid1([Performance<br> Improvement Plan]):::classD
 
 click Aid1 "/handbook/people-group/talent-assessment"
-click Bid1 "{{< ref "structure" >}}"
+click Bid1 "/handbook/company/structure/"
 click Did1 "{{< ref "360-feedback" >}}"
 click Eid1 "/handbook/people-group/talent-assessment"
 click Fid1 "/handbook/hiring/"
@@ -47,6 +47,5 @@ classDef classB fill:#f7dcf1, stroke:#521144
 classDef classC fill:#D6EAF8, stroke:#21618C
 classDef classD fill:#D7BDE2, stroke:#633974
 ```
-
 
 We are using this [Talent Development Program issue](https://gitlab.com/gitlab-com/people-group/General/-/issues/719) to work on the content and overall planning of this page and the program. Follow along and please contribute!

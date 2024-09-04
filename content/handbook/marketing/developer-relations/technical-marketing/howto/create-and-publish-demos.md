@@ -7,7 +7,7 @@ title: "Creating and Publishing Technical Marketing Demo Videos"
 This is the SSoT for the steps to creating and publishing video demos. These are designed to show up in our issue templates. There are several types of demo issue templates but this is what they have in common (with the exception of some specific publish locations details which need to be adjusted per issue template).
 
 ```markdown
-### Video should include:
+### Video should include
 Tell one story across the whole video (have one key take away), what is being shown, why it matters to the audience, show it in action.
 
 ### Production

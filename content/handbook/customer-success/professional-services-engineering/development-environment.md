@@ -1,14 +1,7 @@
 ---
-
 title: "Setting up your Development Environment"
 description: "Tutorial on setting up Professional Services development environment"
 ---
-
-
-
-
-
-
 
 This tutorial will walk you through setting up the following foundational technologies we use in Professional Services:
 

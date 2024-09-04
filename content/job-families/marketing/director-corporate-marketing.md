@@ -27,9 +27,9 @@ The Senior Director, Corporate Marketing is a [grade 11](/handbook/total-rewards
 - Proven track record developing and executing successful B2B corporate communications, content and brand campaigns.
 - Skilled and proven experience bringing new campaigns and ideas to life.
 - Experience leading the development of exciting and effective awareness and brand marketing campaigns that influence IT leadership and CxO buyers.
-- Track record of evolving a brand’s position to a new market category that aligns it with current market and customer priorities.
+- Track record of evolving a brand's position to a new market category that aligns it with current market and customer priorities.
 - History successfully utilizing events as a key platform for growth in the awareness and demand generation.
-- Proven track record in building, getting buy-in and executing marketing plans, and staying focused on “getting it done” in a fast-moving, technical environment.
+- Proven track record in building, getting buy-in and executing marketing plans, and staying focused on "getting it done" in a fast-moving, technical environment.
 - Able to coordinate across many teams and perform in fast-moving startup environment.
 - Proven ability to be self-directed and work with minimal supervision.
 - Outstanding written and verbal communications skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.

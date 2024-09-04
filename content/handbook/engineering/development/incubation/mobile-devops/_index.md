@@ -2,6 +2,10 @@
 title: Mobile DevOps Single-Engineer Group
 ---
 
+{{% alert title="Note" color="danger" %}}
+This Incubation Engineering project is currently [on hold](handbook/engineering/development/incubation/#on-hold--cancelled).
+{{% /alert %}}
+
 ## Mobile DevOps Single-Engineer Group
 
 The Mobile DevOps SEG is a [Single-Engineer Group](/handbook/company/structure/#single-engineer-groups) within our [Incubation Engineering Department](/handbook/engineering/development/incubation/).
@@ -10,7 +14,7 @@ The Mobile DevOps SEG is a [Single-Engineer Group](/handbook/company/structure/#
 
 GitLab's vision for Mobile DevOps is to provide high-value, best-in-class capabilities for enterprise flagship apps.
 
-## What’s Available Today?
+## What's Available Today?
 
 | Feature                                                                                                  | Status      |
 |----------------------------------------------------------------------------------------------------------|-------------|
@@ -19,7 +23,7 @@ GitLab's vision for Mobile DevOps is to provide high-value, best-in-class capabi
 | [Apple App Store Integration](https://docs.gitlab.com/ee/user/project/integrations/apple_app_store.html) | GA          |
 | [Google Play Integration](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/111621)                  | GA          |
 
-## What’s Next & Why?
+## What's Next & Why?
 
 The future roadmap for Mobile DevOps will look to mature the `build`, `sign`, and `release` capabilities that exist today while introducing new features to support the `test` and `secure` stages of the process. Below are the items we look to address in coming releases.
 

@@ -47,11 +47,11 @@ For a detailed step by step guide of how to make UI code changes against the Git
 
 [Step by Step Guide to Make Code Changes](/handbook/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/)
 
-### UX showcase video on finding opportunities to do UI code contributions
+### Finding opportunities to do UI code contributions
 
 {{< youtube "GUTalaJt_qU" >}}
 
-----
+---
 
 ## Contributing to GitLab UI (Component System)
 
@@ -64,13 +64,13 @@ For a detailed step by step guide of how to make UI code changes against the Git
 - We use [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-button--default) for development and component documentation, which is then displayed on component pages in [Pajamas](https://design.gitlab.com/).
 - We use [visual regression testing](https://gitlab.com/gitlab-org/gitlab-ui#visual-regression-tests) to prevent introducing unexpected regressions with CSS and layout changes on components. After committing changes to a GitLab UI merge request, run the manual job `update_screenshots` to check for visual regressions and update them automatically:
 
-![Update screenshots manual job](update_screenshots.png){: .small}
+![Update screenshots manual job](update_screenshots.png)
 
 ### Updating an existing GitLab UI component
 
 If you're updating an existing component, issues may arise if you've changed or removed properties currently in use on gitlab.com. In this case, you'll need to create an integration test merge request on the [gitlab repo](https://gitlab.com/gitlab-org/gitlab) to update existing components that may become broken with your GitLab UI changes. Luckily, this is as simple as running the manual job `create_integration_branch`:
 
-![Create integration branch job](create_integration_branch.png){: .small}
+![Create integration branch job](create_integration_branch.png)
 
 - After running this manual job, click on it and you will see a link to create a merge request from the created integration branch. Open this link to create your merge request:
 
@@ -82,11 +82,11 @@ Once the merge request is open, it will use your GitLab UI branch as the source 
 
 If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-button--default) locally to see your GitLab UI changes, you can select the checkbox `Include GitLab CSS bundle` to pull in the main GitLab CSS file to see if any of your component styles will be overridden. If there are style differences when selecting this checkbox, you may get pipeline failures as a result:
 
-![Include GitLab CSS bundle](include_gitlab_css.png){: .small}
+![Include GitLab CSS bundle](include_gitlab_css.png)
 
 **Note:** Don't be afraid to ask a [GitLab UI maintainer](/handbook/engineering/projects/#gitlab-ui) for help with setting up your integration test.
 
-### UX showcase video on updating GitLab UI
+### Updating GitLab UI
 
 {{< youtube "WWwQ2-UtWRg" >}}
 
@@ -97,19 +97,25 @@ If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/stor
 
 ## Video walkthroughs
 
-#### [Contributing to GitLab (Designer Edition!)](https://www.youtube.com/embed/SSo97VwVn4Y&feature=youtu.be) by [Annabel Dunstone Gray](https://gitlab.com/annabeldunstone).
+### Contributing to GitLab (Designer Edition!) by Annabel Dunstone Gray
+
+[Contributing to GitLab (Designer Edition!)](https://www.youtube.com/embed/SSo97VwVn4Y&feature=youtu.be) by [Annabel Dunstone Gray](https://gitlab.com/annabeldunstone)
 
 {{< youtube "SSo97VwVn4Y" >}}
 
-----
+---
 
-#### [How to Make UI text changes in GitLab (Designer Edition)](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@jj-ramirez`](https://gitlab.com/jj-ramirez).
+### How to Make UI text changes in GitLab (Designer Edition) by `@jj-ramirez`
+
+[How to Make UI text changes in GitLab (Designer Edition)](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@jj-ramirez`](https://gitlab.com/jj-ramirez)
 
 {{< youtube "AEv3XFw0xJQ" >}}
 
-----
+---
 
-#### [Updating a deprecated button](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@aregnery`](https://gitlab.com/aregnery).
+### Updating a deprecated button by `@aregnery`
+
+[Updating a deprecated button](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@aregnery`](https://gitlab.com/aregnery)
 
 {{< youtube "dqazqqwvnOs" >}}
 

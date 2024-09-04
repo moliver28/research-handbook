@@ -1,25 +1,19 @@
 ---
-
 title: "Quad Planning"
 description: "The Quality Engineering Sub-Department helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and Quality which aims to bring test planning as a topic before the development of any feature."
 ---
-
-
-
-
-
-
 
 The Quality Engineering Sub-Department helps facilitate the quad-planning process.
 This is the participation of Product Management, Development, UX, and Quality which aims to bring test planning as a topic before the development of any feature.
 
 These [4 areas are the main pillars](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) to ensure we can continue to ship features while ensuring optimal test coverage. Velocity is only productive when we don't incur test debt. We want to be nimble while shipping fewer bugs thus improving our own velocity. One can look at the metaphor of the 4 legs of the Tanuki, without either one of its legs the Tanuki isn't able to run as fast.
 
-![gl-tanuki](./gl-quad.png)
+![gl-tanuki](gl-quad.png)
 
 ## Two dimensions of Quad Planning
 
 The quad planning has two aspects attached to it, which is as follows:
+
   1. Test Planning: For now this is the main focus of the quad-planning process. This is discussed elaborately in the below section.
   1. Being involved in the design discussions: When there is a need to participate in design discussions, the PMs directly ping the corresponding [Software Engineer in Test](/job-families/engineering/software-engineer-in-test/) (SET) to participate.
 
@@ -27,6 +21,7 @@ The quad planning has two aspects attached to it, which is as follows:
 
 The [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRIs) collaboratively work on new features to ensure we ship quality software.
 The SET owns the completion of the `Availability and Testing` section in the Feature Proposal to complete the definition of done. As we grow to reach our [desired ratio](/handbook/engineering/quality/#staffing-planning), we will only have the quad approach in groups where we have an assigned SET in place.
+
    1. An automated [Quad Planning triage report](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/report/quad-planning-issues.yml) is created on a weekly basis for groups with dedicated SETs. The report is generated with issues that satisfy the below conditions:
       1. Issue has the label `workflow:ready for development` and `group::*` (this corresponding to the product group to which the SET is aligned to.)
       1. Issue should not have `bug`, `quad-planning::complete-action`, OR `quad-planning::complete-no-action` labels.
@@ -79,35 +74,33 @@ flowchart TB
    %% external links
    click add_avail_section_simple "https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md#L74"
    click add_avail_section_complex "https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md#L74"
-   
+
    %% diagram
 
    quad_planning_issue --> issues_to_triage
- 
+
    issues_to_triage -->|No| Done
    issues_to_triage -->|Yes| next_issue
    next_issue --> questions_issue
    questions_issue -->|Yes| discuss_issue
    questions_issue -->|No| document_issue
    discuss_issue --> document_issue
-   
+
    document_issue -->|Yes| documentation_recommendation
    document_issue -->|No| tests_needed
    tests_needed -->|Yes| add_avail_section
    tests_needed -->|No| documentation_recommendation
    e2e_tests -->|Yes| complex_recommendation
    e2e_tests -->|No| action_label
-   
+
    complex_recommendation --> track_new_test
    add_avail_section --> simple_recommendation
    simple_recommendation --> e2e_tests
-   
+
    documentation_recommendation --> no_action_label
    track_new_test --> action_label
-   
+
    no_action_label --> issue_done
    action_label --> issue_done
    issue_done --> issues_to_triage
 ```
-
-

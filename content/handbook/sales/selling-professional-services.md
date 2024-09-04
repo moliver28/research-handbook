@@ -1,5 +1,4 @@
 ---
-
 title: "Tips for Selling GitLab or Partner Professional Services"
 ---
 

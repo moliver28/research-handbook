@@ -10,8 +10,7 @@ The Professional Services Project Coordinator reports to Manager, Professional S
 
 #### Professional Services Project Coordinator, Associate Job Grade
 
-The Professional Services Project Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  
-
+The Professional Services Project Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Professional Services Project Coordinator, Associate Responsibilities
 
@@ -24,7 +23,7 @@ The Professional Services Project Coordinator is a [grade 5](/handbook/total-rew
 
 #### Professional Services Project Coordinator, Associate Requirements
 
-- Bachelor’s degree required, preferably in Finance, Accounting, Statistics, or Business Management
+- Bachelor's degree required, preferably in Finance, Accounting, Statistics, or Business Management
 - Demonstrated progressive industry experience in a Professional Services Operations or similar role for a high-tech product company
 - Professional Services Automation (PSA) tools experience recommended (i.e. NetSuite Openair, FinancialForce)
 - Previous experience in a data-driven, analytics-centric role
@@ -41,7 +40,7 @@ The Professional Services Project Coordinator reports to Manager, Professional S
 
 #### Professional Services Project Coordinator, Intermediate Job Grade
 
-The Professional Services Project Coordinator is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  
+The Professional Services Project Coordinator is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Professional Services Project Coordinator, Intermediate Responsibilities
 
@@ -57,11 +56,11 @@ The Professional Services Project Coordinator is a [grade 6](/handbook/total-rew
 - Continually provide suggestions and implement improvements to business and reporting processes that keep up with the changes in the organization.
 - Support Professional Services staff to better understand revenue, hours, and target attainment goals
 - Act as liaison between the Project Management Office, Finance department, and Services staff.
-- Ensure timely and complete new PS employee onboarding with content tailored to the new hires’ positions
+- Ensure timely and complete new PS employee onboarding with content tailored to the new hires' positions
 
 #### Professional Services Project Coordinator, Intermediate Requirements
 
-- Bachelor’s degree required, preferably in Finance, Accounting, Statistics, or Business Management
+- Bachelor's degree required, preferably in Finance, Accounting, Statistics, or Business Management
 - Demonstrated progressive industry experience in a Professional Services Operations or similar role for a high-tech product company
 - Professional Services Automation (PSA) tools experience recommended (i.e. NetSuite Openair, FinancialForce)
 - Previous experience in a data-driven, analytics-centric role
@@ -108,7 +107,7 @@ The Senior Professional Services Project Coordinator is a [grade 7](/handbook/to
 #### Requirements
 
 - Extends the Professional Services Project Coordinator requirements
-- Bachelor’s degree required, preferably in Finance, Accounting, Statistics, or Business Management
+- Bachelor's degree required, preferably in Finance, Accounting, Statistics, or Business Management
 - Demonstrated progressive industry experience in a Education Services Operations or similar role for a high-tech product company
 - Demonstrated progressive experience with Leaning Management Systems (LMS)/Learning Expirience Systems (LXP) such as EdCast, Absorb, Litmos LMS, etc.
 - Demonstrated progressive experience with remote delivery tools such as Zoom Webinar, WebEx, MS Teams, Slack, etc.
@@ -137,7 +136,7 @@ management across the Professional Service team
 #### Requirements
 
 - Extends the Professional Services Project Coordinator requirements
-- Bachelor’s degree required, preferably in Finance, Accounting, Statistics, or Business Management
+- Bachelor's degree required, preferably in Finance, Accounting, Statistics, or Business Management
 - Demonstrated progressive industry experience in a Professional Services Operations or similar role for a high-tech company
 - Professional Services Automation (PSA) tools experience recommended (i.e. Kantata, NetSuite Openair, FinancialForce)
 - Working understanding of Professional Services cost structures strongly preferred
@@ -164,13 +163,13 @@ This role will provide business operations support for the Professional Services
 - Play a contributory role in the weekly forecast review meetings
 - Participate in month and quarter end close activities
 - Act as liaison between the Project Management and  Finance department
-- Ensure timely and complete new PS team member onboarding with content tailored to the new hires’ positions
+- Ensure timely and complete new PS team member onboarding with content tailored to the new hires' positions
 - Maintain and contribute to all professional services operations department processes
 - Assist as a team backup to the project coordinators
 
 #### Requirements
 
-- Bachelor’s degree required, preferably in Finance, Accounting, Statistics, or Business Management
+- Bachelor's degree required, preferably in Finance, Accounting, Statistics, or Business Management
 - Demonstrated progressive industry experience in a Professional Services Operations or similar role for a high-tech company
 - Professional Services Automation (PSA) tools experience recommended (i.e. Kantata, NetSuite Openair, FinancialForce)
 - Previous experience in a data-driven, analytics-centric role
@@ -216,7 +215,7 @@ The Professional Services Program Manager is a [grade 7](/handbook/total-rewards
 - Subject matter expert for services personnel on all processes related to services revenue: time entry, project management processes relate to operations, customer billing, and staff utilization.
 - Support Professional Services staff to better understand revenue, hours, and target attainment goals
 - Act as liaison between the Project Management Office, Finance department, and Services staff.
-- Ensure timely and complete new PS employee onboarding with content tailored to the new hires’ positions
+- Ensure timely and complete new PS employee onboarding with content tailored to the new hires' positions
 - Act as a SME (subject matter expert) by providing mentorship and guidance to Training Project Coordinators
 -Oversee the training administrative processes and identify and implement improvements to the processes and tools used by Project Coordinators in support of internal and external training customers
 - Review Pre-Sales customer training order pipeline and assign projects to team members.
@@ -227,7 +226,7 @@ The Professional Services Program Manager is a [grade 7](/handbook/total-rewards
 
 ##### Requirements
 
-- Bachelor’s degree required, preferably in Finance, Accounting, Statistics, or Business Management
+- Bachelor's degree required, preferably in Finance, Accounting, Statistics, or Business Management
 - Professional Services Automation (PSA) tools experience recommended (i.e. NetSuite Openair, FinancialForce, Kantata)
 - Previous experience in a data-driven, analytics-centric role
 - Working understanding of Professional Services cost structures strongly preferred
@@ -242,7 +241,6 @@ The Professional Services Program Manager is a [grade 7](/handbook/total-rewards
 - Previous experience with resource management
 - Previous experience with establishing new processes and methodologies
 - 5+ years of Education Services and program management experience
-
 
 #### Consulting
 
@@ -262,7 +260,7 @@ To be drafted as the need for this specialty arises
 
 The Manager, Professional Services Operations reports to Sr. Director, Professional Services
 
-#### Manager, Professional Services Operations Job Grade is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Manager, Professional Services Operations Job Grade is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Manager, Professional Services Operations Responsibilities
 
@@ -283,18 +281,16 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 #### Manager, Professional Services Operations Requirements
 
-- Bachelor’s degree, and demonstrated progressive experience in professional services operations or delivery management.
+- Bachelor's degree, and demonstrated progressive experience in professional services operations or delivery management.
 - Experience in building and maintaining effective working relationships with coworkers, managers, and employees, working effectively in a global team environment with shared responsibilities.
 - Experience with basic system administration and knowledge of applications including: PSA tools (i.e. NetSuite Openair, FinancialForce) and Salesforce.
 - Some travel required.
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
 
-
 ### Senior Manager, Professional Services Operations
 
-
-#### Senior Manager, Professional Services Operations Job Grade is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Senior Manager, Professional Services Operations Job Grade is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Manager, Professional Services Operations Responsibilities
 
@@ -306,50 +302,49 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ### Global Services Partners Manager
 
-#### Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Global Services Partners Manager Responsibilities
 
 - Strategic Partnership Development:
-   - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
+  - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
 - Partnership Management and Optimization:
-   - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
-   - Responsible for facilitating and onboarding  consulting and training partners
+  - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
+  - Responsible for facilitating and onboarding  consulting and training partners
 - Program Development and Execution:
-   - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
-   - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
-   - Ensure that all consulting and training partners and subcontractors operate in compliance with GitLab's policies, industry standards, and regulatory requirements.
-   - Assisting with processing for receiving and integrating feedback from partners on training programs.
+  - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
+  - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
+  - Ensure that all consulting and training partners and subcontractors operate in compliance with GitLab's policies, industry standards, and regulatory requirements.
+  - Assisting with processing for receiving and integrating feedback from partners on training programs.
 - Market Expansion and Engagement:
-   - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
+  - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
 - Cross-Functional Collaboration:
-   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
+  - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 - This role will be required to flex into the PC reponsibilities as needed.
 
 #### Global Services Partners Manager Partners Requirements
 
-- Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
+- Bachelor's degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Excellent communication, analytical and organizational skills.
 - Great project & program management skills, ability to leverage, manage in a virtual environment
 - Strong Google including experience with pivot tables, analyzing and formatting data, use of filters, and creating charts and graphs
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
 
-### Senior Global Services Partners Manager  
+### Senior Global Services Partners Manager
 
-
-#### Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Global Services Partners Manager Responsibilities
 
 - Strategic Partnership Development
-   - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
-   - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
+  - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
+  - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
 - Partnership Management and Optimization:
-   - Serve as the primary point of contact for GitLab's consulting training partners and subcontractors, fostering strong, productive relationships.
-   - Regularly evaluate the performance and impact of partners and subcontractors, implementing strategies for continuous improvement and alignment with GitLab's consulting training objectives.
-   - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
-   - Responsible for facilitating and onboarding  consulting and training partners
+  - Serve as the primary point of contact for GitLab's consulting training partners and subcontractors, fostering strong, productive relationships.
+  - Regularly evaluate the performance and impact of partners and subcontractors, implementing strategies for continuous improvement and alignment with GitLab's consulting training objectives.
+  - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
+  - Responsible for facilitating and onboarding  consulting and training partners
 - Program Development and Execution:
   - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
   - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
@@ -362,10 +357,9 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Cross-Functional Collaboration:
   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
-
 #### Senior Global Services Partners Manager Requirements
 
-- Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
+- Bachelor's degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Experience in building,managing and automating partner program, preferably in the DevOps space,
 - Experience in Legal contracts and administration experience
 - Excellent communication, analytical and organizational skills.
@@ -375,12 +369,10 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
 
-
-
 ## Performance Indicator
 
-- [CSAT](https://about.gitlab.com/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
-- [Project Margin](https://about.gitlab.com/handbook/customer-success/professional-services-engineering/#long-term-profitability-targets ) > 20% for assigned projects
+- [CSAT](/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
+- [Project Margin](/handbook/customer-success/professional-services-engineering/#long-term-profitability-targets ) > 20% for assigned projects
 - Successfully manage the quarterly Education Services revenue forecast within a 5% margin
 
 ## Career Ladder

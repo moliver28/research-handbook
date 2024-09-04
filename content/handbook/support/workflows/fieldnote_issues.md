@@ -72,9 +72,9 @@ Creating a Fieldnote issue does not necessarily signal to other engineers that y
   | Key sequence | What it does |
   | -- | -- |
   | `/` | searches within GitLab for a string |
-  | `?` | show keyboard shortcuts
+  | `?` | show keyboard shortcuts |
   | `i` | creates a new ***I***ssue |
-  | `e`| ***E***dit issue Description
+  | `e`| ***E***dit issue Description |
   | `r` | ***R***eply (add a comment) |
   | `r ▲` (up arrow)| ***R***eply to thread |
   | `l` | change ***L***abels |
@@ -82,7 +82,7 @@ Creating a Fieldnote issue does not necessarily signal to other engineers that y
   | `g f` | ***G***oes to the ***F***iles |
   | `g s` | ***G***oes to the ***S***nippets |
 
-- Use the Fieldnotes issue board. In it you can see all Open, `~hpar`, and `~emergency` fieldnotes
+- Use the Fieldnotes issue board. In it you can see fieldnotes grouped by stage or interesting collaboration labels.
 
 - Remember that Tickets have one Assignee, who is the DRI, but Issues can have multiple Assignees who collaborate
 

@@ -38,8 +38,8 @@ The Vice President, Product Marketing is a [grade 12](/handbook/total-rewards/co
 - Technical background or clear understanding of developer products; familiarity with Git, Continuous Integration, Containers, Kubernetes and Project Management software a plus.
 - Experience with enterprise Software-as-a-Service offerings a plus.
 - Experience supporting an Integrated GTM motions that includes sales, channel and services partners, strategic alliances and technology eco-systems.
-- Bachelor’s degree in computer science, marketing, business, or related area; MBA is a plus.
-- Proven track record in building, getting buy-in and executing marketing plans, and staying focused on “getting it done” in a fast-moving, technical environment.
+- Bachelor's degree in computer science, marketing, business, or related area; MBA is a plus.
+- Proven track record in building, getting buy-in and executing marketing plans, and staying focused on "getting it done" in a fast-moving, technical environment.
 - Able to coordinate across many teams and perform in fast-moving startup environment.
 - Proven experience being self-directed and working with minimal supervision.
 - Demonstrated experience building credibility with and delivering results for product teams, sales teams and customers.

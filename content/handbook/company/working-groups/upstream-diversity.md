@@ -11,11 +11,11 @@ description: "This working group will design and launch a program to harness the
 | Target Date  | October 31, 2020 |
 | Slack        | [#wg_upstream_diversity](https://gitlab.slack.com/archives/C017XNA4LDA) (internal only) |
 | Google Doc   | [Upstream Diversity Working Group Agenda](https://docs.google.com/document/d/15m8If-AcX6DTnOHt89kzIetOeu8OhCzpC7Uk2OpP50E/edit) (internal only) |
-| Epic.        | [WG: Upstream Diversity Epic](https://gitlab.com/groups/gitlab-com/-/epics/824)
+| Epic.        | [WG: Upstream Diversity Epic](https://gitlab.com/groups/gitlab-com/-/epics/824) |
 
 ## Business Goal
 
-GitLab has switched to an outbound-only talent acquisition model in an effort to enhance both the quality of our hiring efforts and the diversity of our team simultaneously. One problem left unsolved by this approach is that our technical hiring efforts are downstream from bottlenecks such as the talent pool of the technology industry in general and the university system, both of which do not reflect society at large. Our diversity value means we have an ethical imperative to try and create more opportunity in the technology industry for currently [underrepresented groups](/handbook/incentives/#add-on-bonus-for-select-underrepresented-groups). This is despite the fact that it may not benefit GitLab directly because of the timespans involved, and even if it does it may not be measurable.
+GitLab has switched to an outbound-only talent acquisition model in an effort to enhance both the quality of our hiring efforts and the diversity of our team simultaneously. One problem left unsolved by this approach is that our technical hiring efforts are downstream from bottlenecks such as the talent pool of the technology industry in general and the university system, both of which do not reflect society at large. Our diversity value means we have an ethical imperative to try and create more opportunity in the technology industry for currently [underrepresented groups](/handbook/total-rewards/incentives/#add-on-bonus-for-select-underrepresented-groups). This is despite the fact that it may not benefit GitLab directly because of the timespans involved, and even if it does it may not be measurable.
 
 **Knowledge sharing:** This working group will design and launch a program to harness the technical talent of the GitLab team to teach technical skills (programming, networking, security, etc) or other skills (remote working, management etc.) if the curriculum requires that to members of underrepresented groups. To do this we may partner with an existing program that already has students and curriculum.
 

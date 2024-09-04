@@ -26,21 +26,16 @@ Fullstack Engineers at GitLab work on our product. This includes both the open s
 - Experience with any other technologies that may be required by the specialty
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
 - Demonstrated capacity to clearly and concisely communicate about technical, and/or organizational problems and propose thorough iterative solutions
-- Comfort working in a highly agile, [intensely iterative][iteration] software development process
+- Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 - Ability to onboard and integrate with an organization long-term
 - Positive and solution-oriented mindset
-- Effective communication skills: [Regularly achieve consensus with peers][collaboration], and clear status updates
+- Effective communication skills: [Regularly achieve consensus with peers](/handbook/values/#collaboration), and clear status updates
 - An inclination towards communication, inclusion, and visibility
-- [Self-motivated and self-managing][efficiency], with strong organizational skills.
+- [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills.
 - Ability to work closely with other parts of the organization
-- Share [our values][values], and work in accordance with those values
+- Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
-
-[iteration]: https://about.gitlab.com/handbook/values/#iteration
-[collaboration]: https://about.gitlab.com/handbook/values/#collaboration
-[efficiency]: https://about.gitlab.com/handbook/values/#efficiency
-[values]: https://about.gitlab.com/handbook/values
 
 <a id="associate-nice-to-haves"></a>
 
@@ -56,7 +51,7 @@ Fullstack Engineers at GitLab work on our product. This includes both the open s
 - Computer science education or equivalent experience
 - Passionate about/experienced with open source and developer tools
 
-#### Professional Experience
+### Professional Experience
 
 At GitLab, due to the pace we're moving, people joining our team will be expected to have **significant** professional experience in the
 [primary programming language](#primary-programming-language) of the specialty that they'll be joining.
@@ -64,9 +59,9 @@ Because the majority of our codebase is written in Ruby, even in specialized rol
 
 For context, see this merge request with some [history on this policy](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695).
 
-----
+---
 
-#### Primary programming language
+### Primary programming language
 
 Some specialties within GitLab are using primary programming languages other than Ruby.
 These programming languages are defined as being primary in terms of an engineer's experience and what they'll be writing day to day.

@@ -56,7 +56,7 @@ reasonable, both for the team as a whole and for each individual. The "weight
 budget" for a given cycle is determined based on the team's recent output, as
 well as the upcoming availability of each engineer.
 
-Since [things take longer than you think], it's OK if an issue takes longer
+Since [things take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html), it's OK if an issue takes longer
 than the weight indicates. The weights are intended to be used in aggregate, and
 what takes one person a day might take another person a week, depending on their
 level of background knowledge about the issue. **That's explicitly OK and expected.**
@@ -64,9 +64,6 @@ We should strive to be accurate, but understand that they are estimates!
 Change the weight if it is not accurate or if the issue becomes harder than
 originally expected. Leave a comment indicating why the weight was changed and tag
 your EM so that we can better understand weighting and continue to improve.
-
-
-[things take longer than you think]: https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html
 
 #### Weights
 
@@ -78,7 +75,7 @@ Anything larger than 5 should be broken down if possible.
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/patch.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
 

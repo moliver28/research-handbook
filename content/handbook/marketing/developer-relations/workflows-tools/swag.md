@@ -1,24 +1,13 @@
 ---
-
 title: "Swag: Process & FAQ"
 ---
 
-
-
-
-
-
-
-# Swag
-
 ## Assets
 
-* Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking". 
+* Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
   * The file can be found in the Shared Google Drive `Contributor Success`, and is titled "[GitLab] Developer Relations Swag Coupon Codes & Delivery Tracking"
 * Swag Redemption portal
-  * https://gitlabcommunity.orderpromos.com
-* Inventory Portal
-  * https://gitlabstore.mybrightsites.com
+  * https://gitlab-contributor.brilliantmade.com/
 
 ## Swag Redemption Portal
 
@@ -27,7 +16,7 @@ This portal shows the items you can claim, given the right coupon code. This is 
 ## Inventory Portal
 
 This portal shows everything we've ordered and that is in stock & ready to ship.
-Access can be requested through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request). Mention "MyBrightSites" as the tech stack, and ping a manager from the [Developer Relations department](/handbook/marketing/developer-relations/). 
+Access can be requested through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request). Mention "MyBrightSites" as the tech stack, and ping a manager from the [Developer Relations department](/handbook/marketing/developer-relations/).
 
 As of 2023-03-20, this tool is not present yet in the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file yet. This is a known issue that will soon be resolved. Only Boundless (the external vendor) has the capabilities to provision accounts today.
 
@@ -35,8 +24,8 @@ A list of the items in our inventory with the amount of items left to be claimed
 
 ## Sending Swag codes
 
-Note: You can also watch a recorded screencast: 
-<details> 
+Note: You can also watch a recorded screencast:
+<details>
 <summary>Screencast</summary>
 <div style="position: relative; padding-bottom: 83.46213292117464%; height: 0;"><iframe src="https://www.loom.com/embed/caebea98b6d84d33abb89737813d4231" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </details>
@@ -44,7 +33,7 @@ Note: You can also watch a recorded screencast:
 1. Go to the Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
 1. Go to the tab "One-time Coupon codes"
 1. Add the `Email recipient` to a code of the corresponding price Tier.
-   *  See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
+   * See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
 1. Select a `Prize` level.
    * First MR Merged
    * Grand Prize (Event result link required)
@@ -113,7 +102,7 @@ For details on what is available in each category, please see the Inventory tab 
    * Which category this item belongs to
 1. Boundless recommends planning swag requests 2.5 weeks in advance to order, especially for international shipping because there can be issues with customs.
 1. Provide the basic order requirements, optionally with the requirement of a custom notecard or a dedicated redemption page.
-1. Boundless places the order so that it's in the inventory. 
+1. Boundless places the order so that it's in the inventory.
 1. GitLab decide in which category the items belong
 1. Boundless adds the items to the store front.
 
@@ -123,10 +112,10 @@ There is a possibility to create access for, say, Meetup organizers, to self-ser
 
 ## Additional resources
 
-- [Merchandise handling](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
-- [Field Marketing](/handbook/marketing/field-marketing/)
-- [Email templates for sending swag links](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#templates-for-sending-swag-links)
-- [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#finding-community-member-contact-information)
+* [Merchandise handling](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
+* [Field Marketing](/handbook/marketing/field-marketing/)
+* [Email templates for sending swag links](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#templates-for-sending-swag-links)
+* [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#finding-community-member-contact-information)
 
 ## FAQ
 
@@ -139,9 +128,9 @@ Once individuals have ordered swag, Boundless updates the spreadsheet to let us 
 
 Create an issue within the [Developer Relations - Community Building](https://gitlab.com/gitlab-com/marketing/community-relations/community-building/-/issues) project and assign to @sugaroverflow (Fatima), and ping `@gitlab-org/developer-relations/contributor-success`
 
-### I don't understand why we should plan ahead.
+### I don't understand why we should plan ahead
 
-This is a strong request from Boundless. They need to move orders into the inventory so they need us to plan ahead and request number of items, which items, and by which date. After that, we can let contributors decide what to get. 
+This is a strong request from Boundless. They need to move orders into the inventory so they need us to plan ahead and request number of items, which items, and by which date. After that, we can let contributors decide what to get.
 
 If you'd like to make it easier, you could plan ahead for a lot of items, pay for the invoice and ask for the items to be added to an existing or new category
 
@@ -154,7 +143,7 @@ No, we simplified the historical situation on purpose as it was difficult to und
 Yes. You can request to add custom notecards to kits.
 
 * Boundless needs the verbiage to print on the card
-* Generally 3 x 5” with a GitLab logo on top
+* Generally 3 x 5" with a GitLab logo on top
 
 ### Who can help me with a declaration letter / support with getting Swag items released from customs?
 

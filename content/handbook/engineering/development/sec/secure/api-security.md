@@ -48,7 +48,7 @@ There are several maintenance tasks that need to be completed each milestone. Ea
 
 When opening up issues, the following label snippet often added:
 
-```
+```text
 /label ~"Category:API Security"
 /label ~"group::dynamic analysis"
 /label ~"devops::secure"

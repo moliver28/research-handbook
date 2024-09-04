@@ -54,13 +54,13 @@ When using Google Docs or Sheets, make sure to follow these steps and guidelines
 1. Give them `editor` access and type in a short note (if needed)
 1. Select `send`
 
-Depending on the number of expected diary entries and touchpoints, it is advised to open participants’ diary documents often to monitor their current progress. If participants have not filled out specific entries on time, you can leave a comment and @ mention them using their email address to send a reminder to complete the task(s).
+Depending on the number of expected diary entries and touchpoints, it is advised to open participants' diary documents often to monitor their current progress. If participants have not filled out specific entries on time, you can leave a comment and @ mention them using their email address to send a reminder to complete the task(s).
 
 ### Tips for conducting diary studies
 
 - Diary studies require providing a large amount of participant feedback, so it is crucial to find participants who are detailed in their diary entries and participants who are motivated to continue for the entire study.
-    - Include an open ended question in your screener (for example: describe the ways you currently look for content on GitLab) or set up an initial interview with them to determine how verbose they are in their responses before inviting them to participate in the study.
-    - Share study expectations with participants upfront, so they know what to expect from start to finish. By stating the overall research timeline to participants (number of touchpoints, number of expected diary entries), they will get a full understanding of what is required of them. This helps get buy-in from participants, so they are more motivated to see the study through until the end.
+  - Include an open ended question in your screener (for example: describe the ways you currently look for content on GitLab) or set up an initial interview with them to determine how verbose they are in their responses before inviting them to participate in the study.
+  - Share study expectations with participants upfront, so they know what to expect from start to finish. By stating the overall research timeline to participants (number of touchpoints, number of expected diary entries), they will get a full understanding of what is required of them. This helps get buy-in from participants, so they are more motivated to see the study through until the end.
 - Monitor and analyze participant diary entries as they are logged. This makes it easier to follow up with participants on any entries that are either unclear, lack sufficient detail, or do not correctly follow the study instructions.
 - Participants can often forget to record their diary entries as they go through the study, so periodically send them reminders to complete the study tasks.
 - Figure out the appropriate amount of touchpoints with participants in the study. In general, it's recommended to limit the number of total touchpoints to four at the most. If participants are starting to give the same kinds of responses after several diary entries, you may want to consider adjusting the number of overall touchpoints to avoid participants quitting the study early.

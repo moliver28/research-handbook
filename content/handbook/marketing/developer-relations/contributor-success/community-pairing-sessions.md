@@ -3,18 +3,9 @@ title: Community pairing sessions
 description: Informations and guidelines about community pairing sessions
 ---
 
+---
 
-
-
-
-
-
-
-
-
-- - -
-
-# Community pairing sessions
+## Community pairing sessions
 
 ## What are they?
 
@@ -68,7 +59,7 @@ During the session:
 - Explain what we're going to cover during the session.
 - Start having fun!
 
-# Organizers
+## Organizers
 
 Due to our current workflow to create and attend these sessions, at least one of
 the organizers must attend in order to be able to livestream to [our YouTube channel](https://www.youtube.com/@communitycodersforgitlab).

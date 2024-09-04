@@ -1,8 +1,6 @@
 ---
-
 title: SA Practices
 ---
-
 
 ## SA Practices
 
@@ -26,7 +24,7 @@ Solution Architects have various practices:
 
 [Monthly Release Quiz](/handbook/solutions-architects/sa-practices/monthly-release-quiz)
 
-[Subject Matter Expert program](/handbook/solutions-architects/sa-practices/subject-matter-experts)
+[SA Subject Matter Expert program](/handbook/solutions-architects/sa-practices/subject-matter-experts/)
 
 ## SA Practices - Pre-sales
 
@@ -43,5 +41,7 @@ The following practice and process are lead by the Solutions Architects during p
 [Selling Professional Services](/handbook/solutions-architects/sa-practices/selling-professional-services)
 
 [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/)
+
+[Mutual Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/)
 
 [Business Value Consulting](/handbook/solutions-architects/sa-practices/business-value-consulting/)

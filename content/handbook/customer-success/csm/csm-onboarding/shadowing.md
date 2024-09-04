@@ -1,13 +1,6 @@
 ---
-
 title: "Meeting Shadowing"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -16,6 +9,8 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 To learn how GitLab CSMs approach customer engagement and planning conversations, a new team member shadows an established, more senior member of the team in a variety of meetings and actions taken related to those meetings.
 
 Senior members of the team should proactively invite new CSMs for shadowing and include them on any prep or follow up that takes place for the call. New CSMs should also feel empowered to reach out to various members of the global CSM team (not just their regional team) to ask to shadow and learn from them. The goal is to get exposure to different types of calls, relationships, ways of working, topics, etc., without the pressure of owning the accounts.
+
+A new hired CSM should (ideally) shadow 2-3 calls with different CSMs from the same region (per week) for the first 2 months, beginning with week 2, to build up experience and knowledge to run customer facing calls. This will also help new CSMs understand processes like how we handle feature requests, product questions, emergency tickets, communication with other GitLab teams etc. The new hire should contact the onboarding buddy in SLACK for guidance on how to best set up the shadow calls within the region. The onboarding buddy is responsible for actively supporting the new hire getting shadow calls scheduled.
 
 ## Cadence calls
 

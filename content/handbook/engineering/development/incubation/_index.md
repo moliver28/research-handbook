@@ -12,13 +12,13 @@ The Department Head is the [VP of Incubation Engineering](/job-families/engineer
 
 ### FY25 Direction
 
-In FY25 we will continue to mature some of our key projects and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities. 
+In FY25 we will continue to mature some of our key projects and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities.
 
 Our success is tied to the community of developers and users that can benefit from our features, and strong collaboration and engagement with those groups is a key focus for this year. As our team matures, we need to be mindful of setting a culture of innovation and results. We do this through encouraging experimentation and autonomy, whilst being collaborative and transparent to internal teams and external stakeholders. The Incubation Engineering team is unique within GitLab in that the team members are not working on shared problems, but have the same challenges and shared experiences. We should ensure that successes and failures are documented and shared amongst team members to help each other grow and to minimise the inherent isolation and stress that can be part of this role.
 
 ### Investment Framework
 
-The aim of the SEG's in the Incubation Engineering Department is to get ideas for new markets into the Viable category from our [maturity](https://about.gitlab.com/direction/maturity/) framework.  Ideas that we successfully incubate will become a stage or feature within the relevant areas of our product, with full Product, Engineering, UX and Infrastructure support for future development.
+The aim of the SEG's in the Incubation Engineering Department is to get ideas for new markets into the Viable category from our [maturity](https://about.gitlab.com/direction/#maturity) framework.  Ideas that we successfully incubate will become a stage or feature within the relevant areas of our product, with full Product, Engineering, UX and Infrastructure support for future development.
 
 In some cases we may invest in an SEG and then decide to acquire an existing product or team in the same area. These situations are disruptive, but unavoidable, and we will work closely with the affected SEG to adapt.
 
@@ -55,7 +55,6 @@ Each SEG page has a list of the targets and progress for each month, and these s
 
 <div class="flex-row" markdown="0">
   <div>
-  <a href="/handbook/engineering/development/incubation/mobile-devops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Mobile DevOps</a>
   <a href="/handbook/engineering/development/incubation/mlops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">MLOps</a>
   <a href="/handbook/engineering/development/incubation/service-desk/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Service Desk</a>
 
@@ -74,7 +73,7 @@ Each SEG page has a list of the targets and progress for each month, and these s
 
 <div class="flex-row" markdown="0">
   <div>
-  
+
   <a href="/handbook/engineering/development/incubation/istio/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Istio</a>
   <a href="/handbook/engineering/development/incubation/secrets-rotation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Secrets Rotation</a>
   </div>
@@ -90,7 +89,7 @@ Each SEG page has a list of the targets and progress for each month, and these s
     <a href="/handbook/engineering/development/incubation/apm/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Application Performance Monitoring</a> matured to <a href="/handbook/product/categories/#observability-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Observability Group</a>
   </div>
   <div>
-    <a href="/handbook/engineering/development/incubation/server-runtime/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Server Runtime</a> matured to <a href="/handbook/product/categories/#ide-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">IDE Group</a>
+    <a href="/handbook/engineering/development/incubation/server-runtime/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Server Runtime</a> matured to <a href="/handbook/product/categories/#remote-development-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Remote Development Group</a>
   </div>
   <div>
     <a href="/handbook/engineering/development/incubation/okr/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">OKR Management</a> matured to <a href="/handbook/product/categories/#product-planning-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Product Planning Group</a>
@@ -109,7 +108,9 @@ Each SEG page has a list of the targets and progress for each month, and these s
   <a href="/handbook/engineering/development/incubation/cloud-seed/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">⛅🌱 Cloud Seed</a>
   <a href="/handbook/engineering/development/incubation/breach-and-attack-simulation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Breach and Attack Simulation (BAS)</a>
 </div>
-
+<div class="flex-row" markdown="0">
+  <a href="/handbook/engineering/development/incubation/mobile-devops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Mobile DevOps</a>
+</div>
 
 ## Demonstrating Progress
 
@@ -123,12 +124,12 @@ We do this in order to ensure alignment with impacted teams at GitLab, to provid
 
 Around the 15th of the month each SEG should provide a short update video that covers the following key points:
 
-* *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/maturity/) product or feature.
-* *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
-* *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
-* *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
-* *What is our next focus?* Our next demo is in a week - what do we want to showcase?
-* *What is the recommended video duration?* We strive to maintain an "executive briefing" format for these videos, thus keeping the length around the ~3 minute mark.
+- *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/#maturity) product or feature.
+- *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
+- *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
+- *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
+- *What is our next focus?* Our next demo is in a week - what do we want to showcase?
+- *What is the recommended video duration?* We strive to maintain an "executive briefing" format for these videos, thus keeping the length around the ~3 minute mark.
 
 ### End of Month Showcase
 
@@ -138,20 +139,20 @@ At the end of the month, we should have a monthly showcase which demonstrates th
 
 When uploading a video to our YouTube channel, we should:
 
-* Make sure they are public
-* Use a consistent naming convention for the SEG. Take these as inspiration:
-  * "Incubation Engineering - Mobile Ops - Update 4"
-  * "Incubation Engineering - Breach and Attack Simulation - Update 2023-02-21"
-  * "Incubation Engineering - Service Desk - January 2023 Showcase"
-* Add the video to the Incubation Engineering playlist, and the playlist dedicated to each section
-* Add it to the specific Incubation Engineer direction handbook page
+- Make sure they are public
+- Use a consistent naming convention for the SEG. Take these as inspiration:
+  - "Incubation Engineering - Mobile Ops - Update 4"
+  - "Incubation Engineering - Breach and Attack Simulation - Update 2023-02-21"
+  - "Incubation Engineering - Service Desk - January 2023 Showcase"
+- Add the video to the Incubation Engineering playlist, and the playlist dedicated to each section
+- Add it to the specific Incubation Engineer direction handbook page
 
 ### Latest Demos
 
 *YouTube Playlists*
 
-* [Latest Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
-* [All Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
+- [Latest Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
+- [All Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
 
 ## OKRs
 
@@ -175,12 +176,12 @@ You can also reach us on Slack at `#incubation-eng` in [Slack](https://gitlab.sl
 
 ## Playbook
 
-The [Incubation Engineer's Playbook](./playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.
+The [Incubation Engineer's Playbook](playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.
 
 ## Offsites
 
 From time-to-time Incubation Engineers get together to discuss and share ideas, learn from each other, and discuss the latest trends in the industry.
 
-Details are logged in the [Incubation Offsites](./offsites) page.
+Details are logged in the [Incubation Offsites](offsites/) page.
 
-The [Incubation Engineer's Playbook](./playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.
+The [Incubation Engineer's Playbook](playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.

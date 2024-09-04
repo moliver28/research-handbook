@@ -30,7 +30,6 @@ As of 2022-10-18:
 >
 >These quick snippets and tasks have been super cool, easy to follow and participate in. I've been using Slack for 10+ years now and there was a bunch of stuff in this training that I hadn't discovered. The moving from Slack to an Issue was particularly cool! Thanks all!
 
-
 ### Is this training right for me?
 
 This training is built for:
@@ -44,14 +43,13 @@ This training is **not** built for:
 1. Super experts in Slack: the training is focused on Slack basics and their connection to GitLab values.
 1. Learners looking for advanced used of Slack commands and automations (follow along with planning for [Slack Training 2.0](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/356) for more advanced resources)
 
-
 ## Learning Objectives
 
 GitLab team members participating in this training will:
 
 1. Build confidence in their ability to use Slack as a form of informal and formal communication at GitLab.
 1. Improve efficiency using tools built into the Slack app.
-1. Contribute to reaching our target of [percent of messages that are not DMs]({{< ref "communication#why-we-track--of-messages-that-are-not-dms" >}}).
+1. Contribute to reaching our target of [percent of messages that are not DMs](/handbook/communication/#why-we-track--of-messages-that-are-not-dms).
 1. Review and reinforce GitLab values within the scope of Slack.
 
 ## Requirements
@@ -82,16 +80,15 @@ Below you'll find the topics and links covered in each day of the training
 | ----- | ----- | ---------- |
 | 0 | Training introduction + Slack profile updates | N/A |
 | 1 | Organizing channels in the Slack side-bar | [Custom section Slack docs](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) |
-| 2 | Using public channels |[Why we avoid direct messages at GitLab]({{< ref "communication#avoid-direct-messages" >}})|
+| 2 | Using public channels |[Why we avoid direct messages at GitLab](/handbook/communication/#avoid-direct-messages)|
 | 3 | Marking all messages as read | [Quick commands Slack docs](https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts) |
 | 4 | Follow keywords in Slack | [Custom notifications Slack docs](https://slack.com/help/articles/4412437167251-Get-notified-about-topics-you-care-about) |
-| 5 | Using threads to organize conversations | [Slack usage at GitLab]({{< ref "communication#slack" >}}) |
+| 5 | Using threads to organize conversations | [Slack usage at GitLab](/handbook/communication/#slack) |
 | 6 | Review of `here` and `channel` tag usage | [Reducing reliance on Slack at GitLab](/handbook/company/culture/all-remote/asynchronous) |
 | 7 | Blocking time to catch up on Slack messages | [Do not Distrub mode Slack docs](https://slack.com/help/articles/214908388-Pause-notifications-with-Do-Not-Disturb#set-a-dnd-schedule) |
 | 8 | Using the `/remind` command | [Remind command Slack docs](https://slack.com/help/articles/208423427-Set-a-reminder)|
-| 9 | Moving conversations out of Slack and into Issues or MRs | [Slack usage at GitLab]({{< ref "communication#slack" >}}) |
+| 9 | Moving conversations out of Slack and into Issues or MRs | [Slack usage at GitLab](/handbook/communication/#slack) |
 | 10 | End of training survey | N/A |
-
 
 ## Metrics
 
@@ -100,7 +97,7 @@ We measure success using the following metrics:
 | Metrics | How we measure | Goal |
 | ----- | ----- | ----- |
 | Percentage of new team members who complete the training per quarter | Completions of end of program survey | 30% |
-| Impact on target of [percent of messages that are not DMs]({{< ref "communication#why-we-track--of-messages-that-are-not-dms" >}}) | Tracked on [Slack handbook page](/handbook/communication/#why-we-track--of-messages-that-are-not-dms) | Correlation of course completions and target |
+| Impact on target of [percent of messages that are not DMs](/handbook/communication/#why-we-track--of-messages-that-are-not-dms) | Tracked on [Slack handbook page](/handbook/communication/#why-we-track--of-messages-that-are-not-dms) | Correlation of course completions and target |
 
 ## Future improvements
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Test Coverage"
 description: "The Test Platform Department has coverage to support testing particular scenarios."
 ---
@@ -12,7 +11,7 @@ test scenarios. The suite runs against a test environment including [Gitaly Clus
 
 #### Test run schedule
 
-This is triggered on the [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/package-and-test-nightly/main.gitlab-ci.yml),
+This is triggered on the [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/test-on-omnibus-nightly/main.gitlab-ci.yml),
 where a near full suite of tests for CE and EE are executed (exclusions are made for tests of product features which depend on network connectivity
 such as importing data from external sources). Results of the `gitlab-org/gitlab` nightly schedule pipeline
 can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html),
@@ -49,8 +48,8 @@ and going up to system level testing with actual environments being built:
 |--------------------------------------------|---------------------|
 | Latest update stop → GitLab Merge Requests | [16.7.7 → MR in 16.11](https://gitlab.com/gitlab-org/gitlab/-/jobs/6488556764) |
 
-[`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate:multi-version-upgrade-job.html)
-validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author’s working branch.
+[`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate_multi_version_upgrade_job.html)
+validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author's working branch.
 It allows catching migration error(s) at unit-level without building an environment.
 Test job runs Database migrations against PostgreSQL dump created from the latest known GitLab version stop with test data.
 
@@ -67,9 +66,10 @@ GitLab QA scenario that verifies update from the previous (major or minor) versi
 ##### Test run schedule
 
 1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
-  - `e2e:package-and-test-ee` / `e2e:package-and-test-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-  - `e2e:package-and-test-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-  Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html),
+
+   - `e2e:test-on-omnibus-ee` / `e2e:test-on-omnibus-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+   - `e2e:test-on-omnibus-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+   Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-omnibus/master/index.html),
 where test states such as failures can be filtered on.
 The update test job names are `update-major`, `update-minor`, and `update-ee-to-ce`.
 
@@ -89,7 +89,7 @@ Detailed process is described on [Performance and Scalability](https://docs.gitl
 | Upgrade path scenarios               | Example                                                                                                                                          |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Latest update stop → GitLab Nightly | [16.7.7 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1234507969)                                                 |
-| Latest GitLab release → GitLab Nightly | [16.10.1 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1240098663)
+| Latest GitLab release → GitLab Nightly | [16.10.1 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1240098663) |
 | Custom path scenarios                | [15.0.0, 15.0.5, 15.4.6, 15.11.13, 16.1.6, 16.3.7, 16.7.7, 16.10.0](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1238546334) |
 
 Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the Upgrade Tester pipelines build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade differs depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/career-development
 title: "Marketing Career Development - Career Paths"
 ---
 
@@ -16,7 +15,6 @@ title: "Marketing Career Development - Career Paths"
 | GitLab Fellow                |                  | Senior Director, |
 |                              |                  | VP               |
 |                              |                  | CXO              |
-
 
 Note: `Manager` denotes a management of a certain specialty, whereas `Manager,` denotes a manager of people.
 
@@ -71,7 +69,7 @@ Note: `Manager` denotes a management of a certain specialty, whereas `Manager,` 
 | Manager, Online Marketing            | Senior Manager, Online Marketing          |                                   |
 | Senior Manager, Online Marketing    | Director, Online Marketing                |                                   |
 | Associate Designer                   | Designer                                  |                                   |
-| Designer                            | Senior Designer                           |                                   |                                  |
+| Designer                            | Senior Designer                           |                                   |
 | Developer Evangelist                | Senior Technical Evangelist               | Developer Evangelism Program Manager                                 |
 | Senior Developer Evangelist        | Manager, Developer Evangelism            | Senior Developer Evangelism Program Manager            |
 | Senior Developer Evangelism Program Manager                | Manager, Developer Evangelism              |                                   |
@@ -93,8 +91,8 @@ Note: `Manager` denotes a management of a certain specialty, whereas `Manager,` 
 | Manager, Market Research & Customer Insights              | Director, Market Research & Customer Insights              |                      |
 | Associate Competitive Intelligence Manager              | Competitive Intelligence Manager                   |                                 |
 | Competitive Intelligence Manager              | Senior Competitive Intelligence Manager                   |                                 |
-| Senior Competitive Intelligence Manager              | Manager, Competitive Intelligence Manager                   |
-| Manager, Competitive Intelligence Manager              | Director, Competitive Intelligence Manager                   |
+| Senior Competitive Intelligence Manager              | Manager, Competitive Intelligence Manager                   | |
+| Manager, Competitive Intelligence Manager              | Director, Competitive Intelligence Manager                   | |
 | Associate Partner Marketing Manager  | Partner Marketing Manager                  |                                   |
 | Partner Marketing Manager  | Senior Partner Marketing                  |                                   |
 | Senior Partner Marketing Manager  | Manager, Partner Marketing                  |                                   |

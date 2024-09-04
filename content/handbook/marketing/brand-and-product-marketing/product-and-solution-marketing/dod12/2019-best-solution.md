@@ -1,13 +1,6 @@
 ---
-aliases: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/dod12/2019-Best-Solution
 title: "2019 DevOps Dozen - Best DevOps Solution Provider: GitLab"
 ---
-
-
-
-
-
-
 
 *This is one of two pages submitted for the [2019 DevOps Dozen Awards](https://devopsdozen.com/), supporting GitLab for Best DevOps Solution Provider and supporting Sid Sijbrandij for Best DevOps Solution Provider Executive. We thank [MediaOps](https://mediaops.io/) and [DevOps.com](https://devops.com/) for their consideration and their service to the DevOps community.*
 
@@ -25,7 +18,7 @@ GitLab customers can have SCM, CI, security, and more in one browser window. The
 
 ### A partner like no other
 
-GitLab is uniquely open and transparent about our [vision and roadmap](https://about.gitlab.com/direction/), [our internal processes](/handbook/), our [product maturity](https://about.gitlab.com/direction/maturity/), and we invite and encourage [community and customer contributions and collaboration](https://about.gitlab.com/community/contribute/).
+GitLab is uniquely open and transparent about our [vision and roadmap](https://about.gitlab.com/direction/), [our internal processes](/handbook/), our [product maturity](https://about.gitlab.com/direction/#maturity), and we invite and encourage [community and customer contributions and collaboration](https://about.gitlab.com/community/contribute/).
 
 This short video summarizes our unique DevOps solution and bold way of working:
 
@@ -37,34 +30,35 @@ This short video summarizes our unique DevOps solution and bold way of working:
 
 ### What people are saying
 
-##### Customer case studies
+#### Customer case studies
 
 [Our case studies feature GitLab customers sharing their accomplishments, in their own words](https://about.gitlab.com/customers/), including the few introduced below.
 
-- Goldman Sachs had already started their DevOps journey, but progress had stalled before they began using GitLab. After reducing their toolchain complexity by implementing GitLab for development, source code control and reviews, builds, testing, QA, and production deployments, [Goldman Sachs’ build velocity was dramatically improved, from 1 build every 2 weeks to over 1,000 per day](https://about.gitlab.com/customers/goldman-sachs/).
+- Goldman Sachs had already started their DevOps journey, but progress had stalled before they began using GitLab. After reducing their toolchain complexity by implementing GitLab for development, source code control and reviews, builds, testing, QA, and production deployments, [Goldman Sachs' build velocity was dramatically improved, from 1 build every 2 weeks to over 1,000 per day](https://about.gitlab.com/customers/goldman-sachs/).
 
 - At BI Worldwide, they had built multiple, complex DevOps toolchains resulting in issues like lost bug reports and constant context shifting. Now [with broadening GitLab adoption, they describe their DevOps success](https://about.gitlab.com/customers/bi_worldwide/):
 
-> “One tool for SCM+CI/CD was a big initial win. Now wrapping security scans into that tool as well has already increased our visibility into security vulnerabilities. The integrated Docker registry has also been very helpful for us. Issue/Product management features let everyone operate in the same space regardless of role.”
+> "One tool for SCM+CI/CD was a big initial win. Now wrapping security scans into that tool as well has already increased our visibility into security vulnerabilities. The integrated Docker registry has also been very helpful for us. Issue/Product management features let everyone operate in the same space regardless of role."
 >
 >— Adam Dehnel, product architect, BI Worldwide
 
-From enterprise customers and [an established retailer like Fanatics](https://about.gitlab.com/customers/fanatics/), to [a growing startup like Glympse](https://about.gitlab.com/customers/glympse/), GitLab’s singular approach offers efficiency, velocity, reliability, and more at levels only possible with a truly seamless, continuous solution.
+From enterprise customers and [an established retailer like Fanatics](https://about.gitlab.com/customers/fanatics/), to [a growing startup like Glympse](https://about.gitlab.com/customers/glympse/), GitLab's singular approach offers efficiency, velocity, reliability, and more at levels only possible with a truly seamless, continuous solution.
 
-##### Peer reviews
+#### Peer reviews
 
-GitLab is a 2-time Gartner Peer Insights “Customers Choice” award winner, recently in the [2019 Enterprise Agile Planning Tools](https://www.gartner.com/reviews/market/enterprise-agile-planning-tools/vendor/gitlab/product/gitlab?months=12) following on our recognition in the [2018 Application Release Orchestration](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab). Below are a few select quotes from Gartner Peer Insights and G2 Crowd reviews:
+GitLab is a 2-time Gartner Peer Insights "Customers Choice" award winner, recently in the [2019 Enterprise Agile Planning Tools](https://www.gartner.com/reviews/market/enterprise-agile-planning-tools/vendor/gitlab/product/gitlab?months=12) following on our recognition in the [2018 Application Release Orchestration](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab). Below are a few select quotes from Gartner Peer Insights and G2 Crowd reviews:
 
-- “[GitLab, the central hub of DevOps. This is an overall application for the entire DevOps lifecycle, which is amazing.](https://www.gartner.com/reviews/review/view/1017404)”
-- “[Makes you highly efficient while developing software with big group of people.](https://www.gartner.com/reviews/review/view/987403)”
-- “[Our developers do not have to mind shift between coding and tracking their work. Having the source code available next to planning boards makes the shift that much simpler.](https://www.gartner.com/reviews/review/view/956352)”
-- “[Powerful team collaboration tool for managing software development projects.](https://www.g2.com/products/gitlab/reviews/gitlab-review-1976773)”
-- “[GitLab is an amazing solution with a very fast-paced feature release cycle. They are great at listening to our feedback and incorporate in future roadmaps.](https://www.gartner.com/reviews/review/view/612634)”
+- "[GitLab, the central hub of DevOps. This is an overall application for the entire DevOps lifecycle, which is amazing.](https://www.gartner.com/reviews/review/view/1017404)"
+- "[Makes you highly efficient while developing software with big group of people.](https://www.gartner.com/reviews/review/view/987403)"
+- "[Our developers do not have to mind shift between coding and tracking their work. Having the source code available next to planning boards makes the shift that much simpler.](https://www.gartner.com/reviews/review/view/956352)"
+- "[Powerful team collaboration tool for managing software development projects.](https://www.g2.com/products/gitlab/reviews/gitlab-review-1976773)"
+- "[GitLab is an amazing solution with a very fast-paced feature release cycle. They are great at listening to our feedback and incorporate in future roadmaps.](https://www.gartner.com/reviews/review/view/612634)"
 
-##### Analysts
+#### Analysts
 
-GitLab’s unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts’ categories and reports](/analysts/). A few highlights across the DevOps lifecycle include:
-- [GitLab named ‘Visionary’ in Gartner’s 2019 Enterprise Agile Planning Tool Magic Quadrant](https://about.gitlab.com/blog/2019/05/22/gitlab-identified-by-gartner-as-eapt-visionary/)
+GitLab's unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts' categories and reports](/analysts/). A few highlights across the DevOps lifecycle include:
+
+- [GitLab named 'Visionary' in Gartner's 2019 Enterprise Agile Planning Tool Magic Quadrant](https://about.gitlab.com/blog/2019/05/22/gitlab-identified-by-gartner-as-eapt-visionary/)
 - [Forrester named GitLab a leader in 2019 Wave for Cloud-Native Continuous Integration Tools](/analysts/forrester-cloudci19/)
 - [Forrester recognized GitLab as a Challenger in 2019 Wave for Software Composition Analysis](https://about.gitlab.com/blog/2019/04/12/gitlab-is-an-sca-contender/)
 

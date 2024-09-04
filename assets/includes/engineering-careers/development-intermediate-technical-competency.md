@@ -1,4 +1,5 @@
 ##### Development
+
 * Writes [tests](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html) with every MR and works to uplift the quality of the code.
 * When working in an existing area of the code base, is able to recognise and propose an improvement.
 * Able to give an estimate and execute on proposals that do not affect deliverables.

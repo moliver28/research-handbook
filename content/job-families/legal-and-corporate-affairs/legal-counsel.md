@@ -24,7 +24,7 @@ The Associate Legal Counsel is a [Grade 5](/handbook/total-rewards/compensation/
 - 1 - 3 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience working effectively across business units and internal functions to efficiently resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude
@@ -53,7 +53,7 @@ The Legal Counsel is a [Grade 6](/handbook/total-rewards/compensation/compensati
 - 4 - 8 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience working effectively across business units and internal functions to efficiently resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude
@@ -82,7 +82,7 @@ The Senior Legal Counsel is a [Grade 7](/handbook/total-rewards/compensation/com
 - 6 - 10 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience working effectively across business units and internal functions to efficiently resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude
@@ -112,7 +112,7 @@ The Lead Legal Counsel is a [Grade 8](/handbook/total-rewards/compensation/compe
 - 8 - 15 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience identifying and leading  initiatives effectively across business units and internal functions to efficiently and proactively resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Experience working across the globe in support of multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to influence and interface effectively with leadership across all business functions
@@ -175,7 +175,7 @@ The Principal Legal Counsel is a [Grade 9](/handbook/total-rewards/compensation/
 - 10 - 15 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience identifying and leading  initiatives effectively across business units and internal functions to efficiently and proactively resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Experience working across the globe in support of multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to influence and interface effectively with leadership across all business functions
@@ -218,7 +218,7 @@ The Senior Managing Legal Counsel is a [Grade 9](/handbook/total-rewards/compens
 
 ### Product and Privacy
 
-The Legal Counsel, Product and Privacy collaborates with clients across GitLab on a broad range of matters including IP, product, marketing and privacy. In addition to the general Responsibilities and and Requirements above, this role specifically requires:
+The Legal Counsel, Product and Privacy collaborates with clients across GitLab on a broad range of matters including IP, product, marketing and privacy. In addition to the general Responsibilities and Requirements above, this role specifically requires:
 
 - Experience providing counseling to product and engineering teams on products and features throughout the development lifecycle, and identifying legal issues
 - Knowledge and understanding of open source licensing

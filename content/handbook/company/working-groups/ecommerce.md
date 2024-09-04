@@ -33,7 +33,6 @@ The goal of this group is to ultimately define the most effective way to deliver
 | [SSO](https://gitlab.com/gitlab-org/customers-gitlab-com#1868) | As of 2022-02 a customer can have two logins, their GitLab.com account AND an account on customers.gitlab.com, we need to merge these and maintain a single SSO system (gitlab.com account) |
 | Account Management Access Controls & Billing Roles | The admin is not always the person at a customer's organization who is responsible to manage the subscription. We need a solution that support billing roles, billing perms or perm sets (actual solution still TBD) that ensures the right person at a customer's organization has access|
 
-
 ## Exit Criteria
 
 1. Identification and prioritization of all prerequisites on appropriate team roadmaps (WG will not cover delivery/execution)

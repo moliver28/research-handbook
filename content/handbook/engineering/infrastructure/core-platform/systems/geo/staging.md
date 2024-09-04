@@ -1,17 +1,14 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/staging.html
-
 title: "Geo on staging.gitlab.com"
 description: "Document Geo installation on staging.gitlab.com"
 ---
 
-
-
-
-
-
-
 #### Summary
+
+{{% alert color="warning" %}}
+Geo on staging is deprecated, you can find it currently enabled on [staging-ref](../../../environments/staging-ref.md). All the remaining information in this document is outdated and
+kept for historical purposes.
+{{% /alert %}}
 
 Geo is fully operational on the staging environment of GitLab.com. This is a major dogfooding effort that allows the team to test and validate new features at scale, catch bugs, and identify performance issues. This is important for our customers because it increases our confidence in any Geo improvements we make.
 
@@ -21,7 +18,7 @@ The following items describe some specific settings or how we addressed some of 
 
 We have one [Geo secondary node](https://geo.staging.gitlab.com) up and running for [staging.gitlab.com](https://staging.gitlab.com) configured as an [all-in-one box](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gstg-infra-geo-secondary.json) with all components colocated on one single node. We are currently *not* running [a Geo HA deployment](https://docs.gitlab.com/ee/administration/geo/replication/multiple_servers.html).
 
-![Geo Staging Diagram](geo_staging_diagram.png)
+![Geo Staging Diagram](/static/images/handbook/engineering/geo/geo_staging_diagram.png "Geo Staging Diagram")
 
 ##### PostgreSQL replication
 
@@ -36,6 +33,7 @@ Originally, the staging environment was still running PostgreSQL 9.6, and Geo be
 Since the 13.2 release, we have [improved Geo scalability by simplifying backfill operations](https://gitlab.com/groups/gitlab-org/-/epics/2851), eliminating these cross-database queries and removing the FDW requirement.
 
 ##### PostgreSQL version
+
 Staging currently uses PostgreSQL version 11.7. In May 2020, we [collaborated with the SRE Datastores team to update the Geo node to use Postgres 11](https://gitlab.com/gitlab-org/gitlab/-/issues/217629).
 
 ##### Gitaly shards
@@ -72,29 +70,30 @@ Every month, a Geo backend engineer will be the DRI for monitoring Geo on stagin
 
 In the last week of their rotation, the outgoing person should set up a meeting with the incoming person to make sure they:
 
-* have SSH access to the staging environment
-* can view the Geo admin UI on staging
-* have enabled notifications for the [geo-staging-gitlabcom project on Sentry](https://sentry.gitlab.net/gitlab/geo-staging-gitlabcom/)
-* are familiar with any current ongoing issues with staging geo
+- have SSH access to the staging environment
+- can view the Geo admin UI on staging
+- have enabled notifications for the [geo-staging-gitlabcom project on Sentry](https://sentry.gitlab.net/gitlab/geo-staging-gitlabcom/)
+- are familiar with any current ongoing issues with staging geo
 
 The main goals for this rotation:
-* Ensure Geo on staging works.
-* Distribute responsibility for keeping Geo on staging working.
-* Better understand the experience of a customer sysadmin
+
+- Ensure Geo on staging works.
+- Distribute responsibility for keeping Geo on staging working.
+- Better understand the experience of a customer sysadmin
 
 ##### DRI Daily Tasks
 
-* Check https://staging.gitlab.com/admin/geo/nodes. If anything seems weird, ask about it in `#geo-for-gitlab-dot-com`. Cross-post in `#g_geo` if needed. Make sure anything important is addressed.
-* Check Sentry. Right now there is a lot of noise, but it can help us identify some edge cases or if something is wrong under the hood.
-* Check for [triggered alerts](https://gitlab.com/gitlab-org/geo-team/geo-ci/-/alert_management). If any are found, follow the [documentation](scheduled_pipelines.html) for handling them
+- Check https://staging.gitlab.com/admin/geo/nodes. If anything seems weird, ask about it in `#geo-for-gitlab-dot-com`. Cross-post in `#g_geo` if needed. Make sure anything important is addressed.
+- Check Sentry. Right now there is a lot of noise, but it can help us identify some edge cases or if something is wrong under the hood.
+- Check for [triggered alerts](https://gitlab.com/gitlab-org/geo-team/geo-ci/-/alert_management). If any are found, follow the [documentation](scheduled_pipelines.html) for handling them
 
 ##### When Geo on Staging is not Working
 
-* Drive toward a diagnosis by:
-  * Investigating with Sentry, Kibana, Grafana, etc, and via SSH into the server.
-  * Opening issues
-  * Asking others for help
-* Help prioritize issues with Engineering Manager, Product Manager, and Infrastructure counterparts.
+- Drive toward a diagnosis by:
+  - Investigating with Sentry, Kibana, Grafana, etc, and via SSH into the server.
+  - Opening issues
+  - Asking others for help
+- Help prioritize issues with Engineering Manager, Product Manager, and Infrastructure counterparts.
 
 ##### Rotation Schedule
 
@@ -116,4 +115,3 @@ The main goals for this rotation:
 | March     | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
 | February  | [`@cat`](https://gitlab.com/cat) |
 | January   | [`@vsizov`](https://gitlab.com/vsizov) |
-

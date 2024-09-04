@@ -1,20 +1,12 @@
 ---
-
 title: Data Dictionary
 description: >-
-  Our goal is to to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
+  Our goal is to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
 ---
 
+## Digital definitions
 
-
-
-
-
-
-# Digital definitions
-
-
-Our goal is to to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
+Our goal is to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
 
 ## Data Attribute Usage
 
@@ -27,19 +19,19 @@ An example of this usage for a free trial button might be as follows:
 
 ### HTML
 
-```
+```html
 <a href="/free-trial/" data-ga-name="free trial" data-ga-location="header">Get free trial</a>
 ```
 
 ### HAML
 
-```
+```ruby
 %a{href: '/free-trial', :"data-ga-name" => "free trial", :"data-ga-location" => "header"}
 ```
 
 Or preferrably:
 
-```
+```ruby
 = link_to "Get free trial", "/free-trial", :"data-ga-name" => "free trial", :"data-ga-location" => "header"
 ```
 
@@ -63,15 +55,15 @@ The purpose of the `location` attribute is to discern between multiple links wit
 
 ### Utilities
 
-To facilitate finding links contained in markdown inside files that do not highlight markdown, developers may use this [regular expression](https://en.wikipedia.org/wiki/Regular_expression): 
+To facilitate finding links contained in markdown inside files that do not highlight markdown, developers may use this [regular expression](https://en.wikipedia.org/wiki/Regular_expression):
 
-```
+```text
 (?:__|[*#])|\[(.*?)\]\(.*?\)
 ```
 
 ## Google Enhanced Ecommerce
 
-We use Google's [enhanced ecommerce for tag manager](https://developers.google.com/analytics/devguides/collection/ua/gtm/enhanced-ecommerce) to collect information across our web properties. 
+We use Google's [enhanced ecommerce for tag manager](https://developers.google.com/analytics/devguides/collection/ua/gtm/enhanced-ecommerce) to collect information across our web properties.
 
 Our data needs to confrom to four APIs:
 
@@ -80,7 +72,7 @@ Our data needs to confrom to four APIs:
 1. [Checkout](https://developers.google.com/analytics/devguides/collection/ua/gtm/enhanced-ecommerce#checkout)
 1. [Purchases](https://developers.google.com/analytics/devguides/collection/ua/gtm/enhanced-ecommerce#purchases)
 
-The values we use in that API are described below by key/value pair, where arrays of each value are arrays of possible values. In practice, only one should be used: 
+The values we use in that API are described below by key/value pair, where arrays of each value are arrays of possible values. In practice, only one should be used:
 
 - `name`: `[Ultimate, Premium, Compute, Storage]`
 - `id`: `[0001, 0002, 0003, 0004]`

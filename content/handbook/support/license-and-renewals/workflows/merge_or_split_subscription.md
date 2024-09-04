@@ -1,12 +1,8 @@
 ---
-
 title: Merging or splitting license/subscription requests
 category: General
 description: This is a guide on how to handle requests to merge or split licenses or subscription(s).
 ---
-
-
-
 
 ## Overview
 

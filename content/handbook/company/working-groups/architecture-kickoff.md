@@ -22,7 +22,6 @@ The charter of this working group is to produce the first iteration of a 12 mont
 - 3 month artifact(s) in handbook
 - FY21-Q4 OKR proposals
 
-
 ## Roles and Responsibilities
 
 | Working Group Role                       | Person                          | Title                                    |

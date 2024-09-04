@@ -17,7 +17,6 @@ Field Security's goal is to take a holistic approach to security outreach. We wa
 - Communicating with Industry bodies and institutional Security agencies.
 - Reflecting on regulation, standards and frameworks impacting security of customers
 
-
 ## How can you help?
 
 Continuous and open feedback from all of our team members is more than appreciated. If you're interfacing with a prospect or a customer and you learn of a concern, a suggestion, a "want" or a "need", please forward that information to Field Security. Your feedback will help drive our roadmap and strategy so that we can help GitLab deliver more value to our customers and the industry.

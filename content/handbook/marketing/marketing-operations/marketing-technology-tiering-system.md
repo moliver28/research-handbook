@@ -1,33 +1,22 @@
 ---
-
 title: "Marketing Technology Tiering System"
 description: "The purpose of the Marketing Technology Tiering System is to support the Marketing organization in identifying and understanding the technology utilized across the department."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
-# Marketing Technology Tiering System
-
 ## Purpose
 
-The purpose of the Marketing Technology Tiering System is to support the Marketing organization in identifying and understanding the technology utilized across the department in order to build a best-in-class, integrated, and efficient marketing tech stack. Additionally, by classifying marketing technology into tiers, GitLab's Marketing Operations team will be in a better position to prioritize requests, provide support, and optimize processes. 
+The purpose of the Marketing Technology Tiering System is to support the Marketing organization in identifying and understanding the technology utilized across the department in order to build a best-in-class, integrated, and efficient marketing tech stack. Additionally, by classifying marketing technology into tiers, GitLab's Marketing Operations team will be in a better position to prioritize requests, provide support, and optimize processes.
 
-## Scope 
+## Scope
 
 The Marketing Technology Tiering System is applicable to any software, tool, or technology that is, at least partially, paid for by the Marketing department.
 
-## Tiers 
+## Tiers
 
 There are four tiers of technology within the Marketing Technology Tiering System:
+
 - Business Critical Technology - Tier 1
 - Operational Technology - Tier 2
 - Management Technology - Tier 3
@@ -35,7 +24,7 @@ There are four tiers of technology within the Marketing Technology Tiering Syste
 
 ## Criteria Categories
 
-Tools in the marketing tech stack are scored based on the following criteria: 
+Tools in the marketing tech stack are scored based on the following criteria:
 
 |  | Business criticality | Integrations | Risk |
 |--|----------------------|--------------|------|
@@ -46,6 +35,7 @@ Tools in the marketing tech stack are scored based on the following criteria:
 ## Scoring Methodology
 
 The combined score of all three criteria categories determines a tool's tier:
+
 - Score Range: 8-9 = Business Critical Technology - Tier 1
 - Score Range: 5-7 = Operational Technology - Tier 2
 - Score Range: 3-4 = Management Technology - Tier 3
@@ -55,28 +45,27 @@ The combined score of all three criteria categories determines a tool's tier:
 
 A list of tools in the marketing technology stack can be found [here](/handbook/marketing/marketing-operations/#-marketing-technology-stack).
 
+## Roles and Responsibilities
 
-## Roles and Responsibilities 
+Every tool, regardless of tier, should have at least one `business owner` and at least one `technical owner`. All `Business Critical Technology - Tier 1` tools will have a technical owner on the Marketing Operations team. Any `Operational Technology - Tier 2` tool that scores a 3 in any of the criteria categories will have a technical owner on the Marketing Operations team. `Operational Technology - Tier 2` tools that do not score a 3 in any of the criteria categories are responsible for identifying a technical owner within their function.
 
-Every tool, regardless of tier, should have at least one `business owner` and at least one `technical owner`. All `Business Critical Technology - Tier 1` tools will have a technical owner on the Marketing Operations team. Any `Operational Technology - Tier 2` tool that scores a 3 in any of the criteria categories will have a technical owner on the Marketing Operations team. `Operational Technology - Tier 2` tools that do not score a 3 in any of the criteria categories are responsible for identifying a technical owner within their function.  
+A member of the Marketing Operations team will be the technical owner for `Management Technology - Tier 3`. While these tools score lower in the criteria categories, they help support the broader Marketing department.
 
-A member of the Marketing Operations team will be the technical owner for `Management Technology - Tier 3`. While these tools score lower in the criteria categories, they help support the broader Marketing department. 
-
-`Functional Technology - Tier 4` tools are owned and managed within a specific function. Marketing Operations does not provide support (neither business nor technical) for these tools. 
+`Functional Technology - Tier 4` tools are owned and managed within a specific function. Marketing Operations does not provide support (neither business nor technical) for these tools.
 
 The SSoT for `business owner` and `technical owner` is the [GitLab Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). **Please note that we are currently updating the business and technical owners listed in the GitLab Tech Stack and there may be disparities. If you have questions during this update, please reach out in #mktgops on Slack.**
 
-### Business and Technical Owner Roles and Responsibilities 
+### Business and Technical Owner Roles and Responsibilities
 
-| Area | Business Owner Responsibilities | Technical Owner Responsibilities | 
+| Area | Business Owner Responsibilities | Technical Owner Responsibilities |
 |------|---------------------------------|----------------------------------|
 | Business Outcomes | Understands and documents the desired business outcomes of using the tool and drives toward these outcomes in collaboration with stakeholders including the technical owner, vendor contacts, internal users, etc. | Builds and manages the processes (including integrating the tool with the rest of the tech stack) that drive toward the desired business outcomes, as defined by the business owner. |
-| User Management | N/A | Owns user management, which includes provisioning/deprovisioning and user audits. | 
-| Renewals | Initiates and manages the renewal process, including recommending new features, descoping, replacement, etc. | Approves any changes in scope of the tool, including consideration of replacement. | 
-| Contact with vendor | Primary point of contact with vendor including facilitating standing syncs, business reviews, etc. | Point of contact to resolve bugs and technical issues. | 
-| Training and Enablement  | Trains users on general best practices and use cases. | Trains users on technical processes. Owns documentation and governance. | 
-| Measurement and Benchmarking | Determines how success is measured. | Builds reports or enables business owner to create reports within the tool to help show success.  | 
-| Optimizations | Stays up to date with product releases. Submits requests for optimizations.  | Stays up to date with product releases. Scopes, approves, and project manages optimization requests. |  
+| User Management | N/A | Owns user management, which includes provisioning/deprovisioning and user audits. |
+| Renewals | Initiates and manages the renewal process, including recommending new features, descoping, replacement, etc. | Approves any changes in scope of the tool, including consideration of replacement. |
+| Contact with vendor | Primary point of contact with vendor including facilitating standing syncs, business reviews, etc. | Point of contact to resolve bugs and technical issues. |
+| Training and Enablement  | Trains users on general best practices and use cases. | Trains users on technical processes. Owns documentation and governance. |
+| Measurement and Benchmarking | Determines how success is measured. | Builds reports or enables business owner to create reports within the tool to help show success.  |
+| Optimizations | Stays up to date with product releases. Submits requests for optimizations.  | Stays up to date with product releases. Scopes, approves, and project manages optimization requests. |
 
 ### Tier-Specific Expectations
 

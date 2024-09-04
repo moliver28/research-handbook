@@ -45,7 +45,7 @@ For senior+ engineers, being a maintainer is part of their job family unless the
 | ----------- | --------- |
 | Intermediate Engineers | Maintainership is optional |
 | Existing Senior+ Engineer | Existing senior+ engineers who are not already maintainers are encouraged to complete the trainee program in support of our team's productivity and motivation. There is no expected completion timeframe of the trainee program. |
-| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion.
+| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion. |
 | Promotions to Senior | For engineers moving into the Senior role, we expect that they have already become a maintainer prior to promotion. |
 
 ### Meeting the reviewer/maintainer
@@ -84,19 +84,19 @@ The manager/mentor should seek to understand any concern raised by a current mai
 1. In keeping with other values, the maintainer's concern(s) should not be personal or prejudicial.
 1. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-maintainer).
 1. The maintainer's concern(s) should be grounded in fact that:
-  1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
-  1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
+1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
+1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
 
 In order to better inform a decision, the manager should privately reach out to 2 existing maintainers without sharing any personal information regarding the feedback. The manager is ultimately responsible for the readiness of the trainee maintainer and owns the decision to entrust the trainee maintainer with maintainer responsibilities.
 
 After merging, the manager should:
 
-1. Announce this change in the applicable channels listed under [keeping yourself informed section of the engineering handbook](/handbook/engineering/#keeping-yourself-informed) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
+1. Announce this change in the applicable channels listed under [Slack section of the engineering communications handbook](/handbook/engineering/engineering-comms/#slack) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
 1. Post an update in the **Engineering Week-in-Review document**. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
 
-#### Project maintainer process for [`gitlab-database`](https://gitlab.com/gitlab-org/gitlab)
+#### Project maintainer process for `gitlab-database`
 
 - Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
 - Familiarize with [migration helpers](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/database/migration_helpers.rb) and review usage in existing migrations.
@@ -109,9 +109,11 @@ Interested reviewers for the projects below should complete the listed tasks in 
 Tips:
 
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
-  reach out to the database group manager to get one. 
+  reach out to the database group manager to get one.
 
-#### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
+#### Project maintainer process for `gitlab-components`
+
+[`gitlab-components`](https://gitlab.com/components)
 
 - Review our [documentation and best practices for creating CI/CD components](https://docs.gitlab.com/ee/ci/components/).
 - Familiarize with our [documentation on GitLab-maintained components](https://docs.gitlab.com/ee/development/cicd/components/).
@@ -121,18 +123,23 @@ Tips:
 - Have at least 2 approvals from existing maintainers in order to merge the MR.
 
 Upon approval, the maintainer who merges the MR will:
+
 - Add the newly approved maintainer to the CI components maintainer group (`@gitlab-org/maintainers/ci-components`).
-- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the _Engineering Week-in-Review document_
+- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the *Engineering Week-in-Review document*
 
-#### Project maintainer process for [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
+#### Project maintainer process for `design.gitlab.com` or `gitlab-svgs`
 
--  Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
+[`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
+
+- Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
 - All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
 - It is up to you to ensure that you are getting enough MRs to review, and of varied types. You could also seek out more reviews from your team, for example by asking for reviews on the `#ux` and `#pajamas-design-system` Slack channels. If you are not receiving enough MRs to advance in your training, be proactive and work on your own improvements to Pajamas. This will demonstrate overall understanding of the product, as well as quality contributions, and help propel your progress. Maintainers are available to help guide you.
 - Your reviews should aim to cover maintainer responsibilities as well as reviewer responsibilities. Design Maintainers should be focused on MRs that have an impact on usability, iterate on existing user experience, and/or include usage of design guidelines, standards, and patterns. Your approval means you think it is ready to merge.
 - As maintainer, you must keep [relying on others](/handbook/values/#its-impossible-to-know-everything) for the expertise they have that you don't. In the MR description, highlight the efforts that showcase your results at a maintainer-level, what skills you want to continue working on, and add a link to this issue. ([Example](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/2395)).
 
-#### Project maintainer process for [`gitlab-quality`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
+#### Project maintainer process for `gitlab-quality`
+
+[`gitlab-quality`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 
 - Choose which Quality project(s) you would like to become a maintainer for:
   - [`GitLab (/qa)`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
@@ -144,21 +151,27 @@ Upon approval, the maintainer who merges the MR will:
   - [`GitLab Performance Tool (GPT)`](https://gitlab.com/gitlab-org/quality/performance)
 - The requirements for each project is different, please make sure to read the [maintainer section in the Quality handbook](/handbook/engineering/infrastructure/engineering-productivity/project-management/#reviewers-and-maintainers).
 
-#### Project maintainer process for [`gitlab-secure-analyzers`](https://gitlab.com/gitlab-org/security-products/analyzers)
+#### Project maintainer process for `gitlab-secure-analyzers`
+
+[`gitlab-secure-analyzers`](https://gitlab.com/gitlab-org/security-products/analyzers)
 
 - Understand our [Secure Team standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines).
 - Understand our [Secure Release Process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#versioning-and-release-process).
 - Understand our [Secure QA Process](/handbook/engineering/development/sec/secure/qa_process.html).
 
-#### Project maintainer process for [`gitlab-elasticsearch-indexer`](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
+#### Project maintainer process for `gitlab-elasticsearch-indexer`
+
+[`gitlab-elasticsearch-indexer`](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
 
 - Complete [`golang` training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md).
 - Review the [GitLab Elasticsearch Indexer development and release](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/blob/main/PROCESS.md) process.
 - Join the `#g_global_search` Slack channel.
 - Work on issues to gain familiarity with the project.
-- _Optional:_ Reach out to an (existing maintainer)[https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude] to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
+- *Optional:* Reach out to an [existing maintainer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude) to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
 
-#### Project maintainer process for [`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
+#### Project maintainer process for `customers-gitlab-com`
+
+[`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
 
 - Understand our [standards and style guidelines](https://docs.gitlab.com/ee/development/development_processes.html).
 - Understand the [software architecture](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/doc/architecture) used in Fulfillment systems.
@@ -166,7 +179,9 @@ Upon approval, the maintainer who merges the MR will:
 - Contribute to issues and gain familiarity with the project.
 - Contribute to reviews demonstrating domain expertise and consistency with reviewer responsibilities.
 
-#### Project maintainer process for [`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
+#### Project maintainer process for `gitlab-secure-license-db`
+
+[`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
 
 - Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
 - Complete [Golang training issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md) if you don't have prior experience with Go.
@@ -176,7 +191,9 @@ Upon approval, the maintainer who merges the MR will:
 - Understand how [the scheduled pipelines](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) are used for the deployment project.
 - Author or review 3 merge requests in total to a specific project in the `license-db` namespace. Maintainership is granted per project.
 
-#### Project maintainer process for [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
+#### Project maintainer process for `gitlab-chart`
+
+[`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
 - Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
@@ -184,7 +201,9 @@ Upon approval, the maintainer who merges the MR will:
 - Contribute to issues and review merge requests.
 - Understand how the [GitLab Helm chart is tested using rspec](https://docs.gitlab.com/charts/development/rspec.html).
 
-#### Project maintainer process for [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
+#### Project maintainer process for `gitlab-operator`
+
+[`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
 - Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
@@ -206,8 +225,9 @@ Create a merge request and indicate your role as a `project-name: trainee_mainta
 After each review, reviewers should summarize why they believe a merge request is ready to be merged:
 
 For example:
-> Looks good!  I believe this MR resolves the issue and it looks safe because the code change is relatively isolated.
 
+> Looks good!  I believe this MR resolves the issue and it looks safe because the code change is relatively isolated.
+>
 > LGTM! I feel this MR is a good iteration. And it has low risk because it is behind a feature flag.
 
 Maintainers should respond to the comment from the reviewer with a 👍 if they agree, and upon merging if there were additional comments they feel should have been caught, they should ping any reviewers so they are aware of the comments.
@@ -222,12 +242,12 @@ Some reviewers find it helpful to track their progress. This is not required, bu
 
 #### After becoming a maintainer
 
-If you’ve become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
+If you've become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
 
-- Join the maintainer’s group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
+- Join the maintainer's group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
 - Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
 - Request access to the GitLab maintainer group you belong: [frontend](https://gitlab.com/gitlab-org/maintainers/frontend), [backend](https://gitlab.com/gitlab-org/maintainers/rails-backend), or [database](https://gitlab.com/gitlab-org/maintainers/database).
-- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you’ve created the issue, request another maintainer to grant you those permissions.
+- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you've created the issue, request another maintainer to grant you those permissions.
 
 ### Reviewer mentorship program
 
@@ -336,7 +356,7 @@ https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Engi
 
 We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1 
+https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1
 
 #### About this dashboard
 
@@ -359,7 +379,6 @@ Explanation of charts:
 - Project/Area Maintainership Health - The percentage of projects (GitLab) or areas (backend) that are not meeting the Minimum Maintainers Required over time.
 - Unhealthy Core Areas of Maintainership Health - The percentage of projects (GitLab) or areas (backend) that are not meeting the Minimum Maintainers Required, and are receiving more than 100 Incoming Merge Requests per month over time.
 - Part of Product Repos - Full Data - An all-inclusive chart for each project, area, and month that includes all metrics noted above.
-
 
 #### Monthly Review Targets
 
@@ -385,12 +404,11 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views 
+https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views
 
 ## Leading Organizations
 
-All wider community members, and their organizations, [can
-contribute](/handbook/company/mission/#contribute-with-gitlab). We strongly believe that contributing to
+All wider community members, and their organizations, [can contribute](/handbook/company/mission/#contribute-with-gitlab). We strongly believe that contributing to
 open source, and particularly to GitLab is a competitive advantage for organizations and their members, and want to
 reward those organizations for doing so. GitLab highly encourages, celebrates & rewards those that contribute in
 [frequent and atomic iterations](/handbook/values/#iteration). When an organization or individual without affiliations
@@ -398,8 +416,7 @@ reaches 20 merged merge requests or more within the last 3 completed months, we 
 a ```Leading Organization```.
 
 Organizations are matched based on the ```Organization``` field in [your profile](https://gitlab.com/-/profile). GitLab
-can also match individuals to organizations using other metadata available to the Contributor Success team. [Create an
- issue in the Contributor Success queue](https://gitlab.com/gitlab-com/quality/contributor-success/-/issues) if you
+can also match individuals to organizations using other metadata available to the Contributor Success team. [Create an  issue in the Contributor Success queue](https://gitlab.com/gitlab-com/quality/contributor-success/-/issues) if you
 think you or your organization should qualify but is not receiving the label ```Leading Organization``` on your merge
 requests.
 
@@ -492,18 +509,12 @@ time frame, let the author know as soon as possible in the comments
 and try to help them find another reviewer or maintainer who is able to, so that they can be unblocked
 and get on with their work quickly. Remove yourself as a reviewer.
 
-If you are at capacity and are unable to accept any more reviews until
-some have been completed, communicate this through your GitLab status by setting
-the 🔴 `:red_circle:` emoji and mentioning that you are at capacity in the status
-text. This guides contributors to pick a different reviewer, helping us to
-meet the SLO.
-
 Reviewers may also communicate their status through the use of several other emoji. For more details
 on these other statuses, please refer to the [code review](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 
@@ -517,20 +528,19 @@ When you are assigned to review an MR and you are not able to get to it within t
 
 As the author of an MR you should reassign to another reviewer or maintainer if the `Review-response` SLO has not been met and you have been unable to contact the assignee.
 
-[1:1 meetings]: /handbook/leadership/1-1/
-[dashboard]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
-[ratio]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Maintainers
-
 ## Code Owner approvals
 
 Some GitLab projects use GitLab's [CODEOWNERS file feature](https://docs.gitlab.com/ee/user/project/codeowners/) to manage approvals for specific file paths and types. In the `gitlab-org/gitlab` project, [we use a combination of CODEOWNERS approval rules plus MR approval settings](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) in order to follow segregation of duties best practices. This section describes the process for updating the eligible approvers for CODEOWNERS changes for the `gitlab-org/gitlab` project.
 
 The Code Owners for the [CODEOWNERS file](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) itself are managed with a rule in the file. For example:
 
-```
+```text
 CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 ```
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
+
 1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.
+
+The `@gitlab-org/development-leaders` group consists of team members from Senior Managers and above in the management track, and Distinguished Engineer and above in the individual contributor track in the development departments within Engineering.

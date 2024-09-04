@@ -1,17 +1,7 @@
 ---
-aliases: /handbook/engineering/development/processes/follow-the-sun-coverage.html
-
 title: "Follow the Sun Coverage - Development Department"
 description: "How the development department uses follow the sun coverage and pairing"
 ---
-
-
-
-
-
-
-
-# Follow the Sun Coverage
 
 Follow the Sun Coverage, also known as Follow-the-Sun Model, is a strategy commonly used by global organizations or teams that operate in different time zones. It aims to ensure continuous support and productivity by leveraging time zone differences.
 
@@ -25,7 +15,6 @@ The main idea behind Follow the Sun Coverage is to maximize efficiency and reduc
 - **Development and Collaboration**: GitLab's development teams, spread across different regions, can leverage Follow the Sun Coverage to ensure continuous progress on projects. This approach enables developers to seamlessly hand off work to team members in other time zones, ensuring that development efforts proceed without interruption and taking advantage of the diverse expertise and perspectives available.
 - **Incident Response**: In the event of critical incidents or emergencies, GitLab can employ Follow the Sun Coverage to have incident response teams available around the clock. By having teams distributed across different time zones, they can respond promptly to incidents and minimize the impact on customers and services.
 - **Project Management**: GitLab may utilize Follow the Sun Coverage to enable effective project management across global teams. With team members working in different time zones, project updates, coordination, and decision-making can happen continuously, ensuring smooth progress and reducing bottlenecks caused by time zone differences.
-
 
 ## Follow-the-Sun Pairing
 

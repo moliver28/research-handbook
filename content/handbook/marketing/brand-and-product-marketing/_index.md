@@ -1,5 +1,4 @@
 ---
-
 title: "Brand and Product Marketing"
 description: "GitLab Brand and Product Marketing Handbook"
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -7,21 +6,13 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand and Product Marketing Handbook
 
-
-
-
-
-
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand and Product Marketing Handbook
-
-{: .no_toc}
-
-**The Brand and Product Marketing** team’s goal is to accelerate GitLab’s path to market.
+**The Brand and Product Marketing** team's goal is to accelerate GitLab's path to market.
 
 - We tell the GitLab story at the brand, corporate, solution, and product levels.
 - We develop market insights, leadership positioning, messaging, and narratives that elevate our brand, show value in our solutions, and fuel demand for our platform.
-- We activate brand ambassadors and customer advocates to show GitLab’s momentum and trust in the market.
+- We activate brand ambassadors and customer advocates to show GitLab's momentum and trust in the market.
 
 ## Team Disciplines – What We Do, Why We Do It
 
@@ -37,7 +28,7 @@ We develop umbrella, corporate-level messaging to establish GitLab as market and
 
 Product and Solution Marketing consists of several specialities including [core product marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/),  [customer advocacy](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/), [market insights](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights/), [analyst relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/), and [competitive intelligence](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/).
 
-We create positioning and messaging to fuel demand and adoption of GitLab’s solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
+We create positioning and messaging to fuel demand and adoption of GitLab's solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
 
 ### Design
 
@@ -49,7 +40,7 @@ We develop our brand visual identity design to ensure it stays relevant in the m
 
 [Content](/handbook/marketing/brand-and-product-marketing/content/) - Showcase our leadership through easy-to-find content that is educational, thought-provoking, and market-defining.
 
-We create, review, and improve content to establish GitLab as the leader in modern software development and DevOps, while also sharing the company’s vision for the future. We create content that maintains and improves our search rankings around key terms. We create content for go-to-market campaigns that drive awareness, growth, engagement, and conversion.
+We create, review, and improve content to establish GitLab as the leader in modern software development and DevOps, while also sharing the company's vision for the future. We create content that maintains and improves our search rankings around key terms. We create content for go-to-market campaigns that drive awareness, growth, engagement, and conversion.
 
 ## Our core capabilities
 

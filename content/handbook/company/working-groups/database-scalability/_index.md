@@ -62,7 +62,7 @@ Although this working group is closing, our work to improve GitLab's database an
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
 | Track | A sub-group within the WG that tackles one scaling pattern. | | |
 
-![Database Terms](./DB-terminology.png)
+![Database Terms](DB-terminology.png)
 
 ### Overview
 
@@ -71,7 +71,6 @@ Our current architecture relies, almost exclusively and by design, on a [single 
 We explored [sharding]({{< ref "sharding" >}}) last year and scoped it to the database layer. We concluded that while there are solutions available in the market, they did not fit our requirements, both in financial and product fit terms, as they would have forced us into a solution that was difficult (if not impossible) to ship as part of the product.
 
 We are now kicking off a new iteration on this problem, where the scope is **expanded** from the database layer into the application itself, as we recognize this problem cannot be solved to meet our needs and requirements if we limit ourselves to the database: we must consider careful changes in the application to make it a reality.
-
 
 #### Data management as a discipline
 

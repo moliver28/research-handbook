@@ -1,15 +1,6 @@
 ---
-
 title: "Wedge conversation: Source Code Management"
 ---
-
-
-
-
-
-
-
-
 
 ## Looking for an overview of GitLab's Source Code Management(SCM) capabilities?
 
@@ -31,7 +22,7 @@ From a GitLab capabilities point of view - it includes DevOps essentials like SC
 
 Source Code Management is one part of the Software Delivery Automation solution. See how Source Code Management fits into the overall [Software Delivery Automation](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/) solution.
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Source Code Management (SCM)
 
@@ -53,7 +44,7 @@ Source Code Management is more than simply tracking changes, versions, and branc
 In general, [version control](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) is required because software is constantly changing. Regardless of the stage of development, there will be change to deal with.
 
 > No matter where we are in the system life cycle, the system will change, and the desire to change it will persist throughout the life cycle.
-
+>
 > E.H. Bersoff, 1980.
 
 Companies that excel at source code management create high quality code while integrating it at high frequency.
@@ -68,64 +59,63 @@ Companies that excel at source code management create high quality code while in
 
 Being the entry point to GitLab means that many user personas find utility and a solution to their problem in Source Code Management. Let's go through the list of power user personas and describe briefly their key motivations to use Source Code Management in GitLab:
 
-#### [Parker the Product Manager](/handbook/product/personas/#parker-product-manager)
+#### Parker the Product Manager
 
-- PMs coordinate feature development and project success among other things. The ability to monitor progress through commits, review app and validate those changes and provide feedback is key to they success of their role
+- [PMs](/handbook/product/personas/#parker-product-manager) coordinate feature development and project success among other things. The ability to monitor progress through commits, review app and validate those changes and provide feedback is key to they success of their role
 - These changes, in time will generate valuable statistical insight for the PM to assess accurately development efforts of planned new features
 
-#### [Delaney the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
+#### Delaney the Development Team Lead
 
-- Just like the PM, Team Leads need also to understand their team's capacity to assign upcoming tasks to meet goals on time accordingly
+- Just like the PM, [Team Leads](/handbook/product/personas/#delaney-development-team-lead) need also to understand their team's capacity to assign upcoming tasks to meet goals on time accordingly
 - Approval workflows in Code Review allows them to become faster real team work enablers
 
-#### [Sasha the Software Developer](/handbook/product/personas/#sasha-software-developer)
+#### Sasha the Software Developer
 
-- Sasha takes advantage of both Command Line Tools and GitLab's GUI to have complete control of every commit he does to complete his tasks
+- [Sasha](/handbook/product/personas/#sasha-software-developer) takes advantage of both Command Line Tools and GitLab's GUI to have complete control of every commit he does to complete his tasks
 - Even when scope changes, a frequent hurdle and a source of frustration, branching, merging and conflict resolution will be performed in Source Code Management and will trigger CI for fast resolution
 
-#### [Devon the DevOps Engineer](/handbook/product/personas/)
+#### Devon the DevOps Engineer
 
-- All information relevant to the role's goals is congregated in Source Code Management to take action on it. Time to resolution and, in general, any other key metric in DevOps is measured and its performance tracked in Source Code Management
+- All information relevant to [the role's](/handbook/product/personas/) goals is congregated in Source Code Management to take action on it. Time to resolution and, in general, any other key metric in DevOps is measured and its performance tracked in Source Code Management
 - Any improvement applied to the development process will reflect in Source Code Management's interfaces, whether its the Merge Requests or Issues.
 
-### [Cameron the Compliance Manger](/handbook/product/personas/#cameron-compliance-manager)
+### Cameron the Compliance Manger
 
-- Cameron needs to all the company's development processes are compliant. Given the amount of data that a software development and delivery lifecycle produces, he finds it difficult to find, aggregate, and report on all of the necessary data for audit purposes
+- [Cameron](/handbook/product/personas/#cameron-compliance-manager) needs to all the company's development processes are compliant. Given the amount of data that a software development and delivery lifecycle produces, he finds it difficult to find, aggregate, and report on all of the necessary data for audit purposes
 - He needs the information to be available quickly and easily so he can reduce the time and disruption involved in the evidence collection process
 
-### [Presely the Product Designer](/handbook/product/personas/#presley-product-designer)
+### Presely the Product Designer
 
-- Presley is responsible for understanding user needs and product requirements to create and iterate on design proposals to solve user needs
+- [Presley](/handbook/product/personas/#presley-product-designer) is responsible for understanding user needs and product requirements to create and iterate on design proposals to solve user needs
 - He would like to have clear, up-to-date requirements that he can reliably refer back to throughout the design process
 
-### [Sydney the Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
+### Sydney the Systems Administrator
 
-- She is in charge of making tools such as GitLab available and accessible to everyone.
+- [Sydney](/handbook/product/personas/#sidney-systems-administrator) is in charge of making tools such as GitLab available and accessible to everyone.
 - She needs to undertand in depth the provision and scalability of the infrastructure to provide the company with a solid, fault tolerant instance of the platform.
 
 ### Buyer Personas
 
 Source Code Management purchasing typically do not require executive involvement. It is usually acquired and installed via our freemium offering without procurement or IT's approval. This process is commonly known as shadow IT and its a great opportunity for us to eventually become a paid for service. When the upgrade is required the [VP of IT](https://docs.google.com/presentation/d/17Ucpgxzt1jSCs83ER4-LdDyEuermpDuriugPNYrz8Rg/) is the most frequent decision maker. The influence of the [VP Application Development](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is notable too to the owner of the budget.
 
-#### [Alex the Application Development Manager](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Alex the Application Development Manager
 
-- Highly technical, and only one step removed from an individual contributor.
+- [Alex](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is highly technical, and only one step removed from an individual contributor.
 - Managing his budget and ensuring that his team has the right skills and overall team engagement.
 
-#### [Dakota the Application Development Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Dakota the Application Development Director
 
-- Dakota is a key IT leader who manages and leads several teams of developers supporting a specific set of business applications. She has both technical and business skills and as a manager she's focused on delivering business innovation.
+- [Dakota](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is a key IT leader who manages and leads several teams of developers supporting a specific set of business applications. She has both technical and business skills and as a manager she's focused on delivering business innovation.
 - She balances her time between strategic planning with her business partners, and also resolving organizational issues and roadblocks her teams are facing. She develops organizational strategies and plans to secure budget and resources for her team.
 
-#### [Erin the Application Development Executive (VP, etc.)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Erin the Application Development Executive (VP, etc.)
 
-- Erin is a strategic leader focused on business challenges and the big picture.
+- [Erin](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is a strategic leader focused on business challenges and the big picture.
 - Her top goal is predictable Business Results
 
 ## Industry Analyst Resources
 
 Research relevant to this use case can be found in the [Analyst Reports - Use Cases](https://docs.google.com/spreadsheets/d/1vXpniM08Ql0v0yDd22pcNmXpDrA-NInJOwj25PRuHXA/edit#gid=2123394945) spreadsheet.
-
 
 ## Market Requirements
 
@@ -143,33 +133,31 @@ Market Requirements is a collection of capabilites we recognize are present in t
 | **Foster Collaboration** | The solution is designed to enable and foster collaboration among team members. The collaboration system includes manual gates and approvals as well as automated workflows. | Create fast new branches of the project, add new files/assets, collaborate on proposed changes, review comments, suggest changes, webIDE, suggestion approvals, conflict resolution, merge, diffing, hand-offs, Design management and operations, workflow automation, Wiki, snippets, version controlled snippets, Automatically update or close related issue(s) when a merge request is merged, Configurable issue closing pattern, display merge request status for builds in CI system, visibility into security scans and build stats. | Code quality increase and improved release velocity through team review and validation. |
 | **Secure Development** | The solution allows for security practices to be enabled at the creation phases of the project | Dependency scanning, SAST, License compliance scanning, DAST, Container scanning | Increasing resilience to external attacks, internal threats and ability to resume activity promptly |
 
-
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
 | Market Requirements | How GitLab Delivers | GitLab **Stage**/Category | Demos |
 | ------ | ------ | ------ | ------ |
-| **Protect and secure assets** | GitLab has built in access control: [LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/), [Active Directory](https://docs.gitlab.com/ee/administration/auth/ldap/), [SAML](https://docs.gitlab.com/ee/user/group/saml_sso/), [SSO](https://docs.gitlab.com/ee/administration/auth/). In-app access controls include [user roles](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) with different levels of access and permissions. The IP hosted in repos can be stored and accessed through [repos](https://docs.gitlab.com/ee/user/project/repository/), [projects](https://docs.gitlab.com/ee/user/project/), and [groups](https://docs.gitlab.com/ee/user/group/). There are mechanisms to restrict and track changes to the IP like [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html), [protected tags](https://docs.gitlab.com/ee/user/project/protected_tags.html), [push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), and [Codeowners](https://docs.gitlab.com/ee/user/project/codeowners/). Finally, admins are able to control events and stop non compliant ones through [audit events](https://docs.gitlab.com/ee/administration/audit_events.html), [block users](https://docs.gitlab.com/ee/administration/moderate_users.html#blocking-and-unblocking-users), [credentials inventory](https://docs.gitlab.com/ee/administration/credentials_inventory.html), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) and [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/). | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/)<br> [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html)<br> [**Release stage:**](https://about.gitlab.com/stages-devops-lifecycle/release/) [Release evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence) | [![Control Changes to Product Development Assets](../../images/youtube_social_icon_red-32x23.png) Control Changes to Product Development Assets](https://youtu.be/l6K3Xn2MPJw)<br> [![Manage, Track and Maintain Access](../../images/youtube_social_icon_red-32x23.png) Manage, Track and Maintain Access](https://youtu.be/nRxCz4vMv5Q)<br> [Blog post: How GitLab protects your IP](https://about.gitlab.com/blog/2020/08/07/how-gitlab-protects-your-ip/) |
+| **Protect and secure assets** | GitLab has built in access control: [LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/), [Active Directory](https://docs.gitlab.com/ee/administration/auth/ldap/), [SAML](https://docs.gitlab.com/ee/user/group/saml_sso/), [SSO](https://docs.gitlab.com/ee/administration/auth/). In-app access controls include [user roles](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) with different levels of access and permissions. The IP hosted in repos can be stored and accessed through [repos](https://docs.gitlab.com/ee/user/project/repository/), [projects](https://docs.gitlab.com/ee/user/project/), and [groups](https://docs.gitlab.com/ee/user/group/). There are mechanisms to restrict and track changes to the IP like [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html), [protected tags](https://docs.gitlab.com/ee/user/project/protected_tags.html), [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), and [Codeowners](https://docs.gitlab.com/ee/user/project/codeowners/). Finally, admins are able to control events and stop non compliant ones through [audit events](https://docs.gitlab.com/ee/administration/audit_events.html), [block users](https://docs.gitlab.com/ee/administration/moderate_users.html#blocking-and-unblocking-users), [credentials inventory](https://docs.gitlab.com/ee/administration/credentials_inventory.html), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) and [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/). | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/)<br> [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html)<br> [**Release stage:**](https://about.gitlab.com/stages-devops-lifecycle/release/) [Release evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence) | [![Control Changes to Product Development Assets](../../images/youtube_social_icon_red-32x23.png) Control Changes to Product Development Assets](https://youtu.be/l6K3Xn2MPJw)<br> [![Manage, Track and Maintain Access](../../images/youtube_social_icon_red-32x23.png) Manage, Track and Maintain Access](https://youtu.be/nRxCz4vMv5Q)<br> [Blog post: How GitLab protects your IP](https://about.gitlab.com/blog/2020/08/07/how-gitlab-protects-your-ip/) |
 | **Enterprise Ready** | GitLab provides capabilities to serve huge, geographically distributed teams organized into groups, subgroups, and projects with high availability requirements. GitLab SCM supports [Geo](https://docs.gitlab.com/ee/administration/geo/index.html replicates GitLab instances to create a [Disaster Recovery system](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) for failover scenarios. [Gitaly Clusters](https://docs.gitlab.com/ee/administration/gitaly/praefect.html) makes Git highly available for every team, hosted in gitlab.com or [on prem](https://docs.gitlab.com/charts/advanced/external-gitaly/external-omnibus-gitaly.html) | [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Subgroups](https://docs.gitlab.com/ee/user/group/subgroups/) [Code Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html) <br>[**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [Source Code Management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) which includes- [Gitaly](https://about.gitlab.com/direction/gitaly/)<br> [**Enablement stage:**](https://about.gitlab.com/direction/enablement/) [Geo](https://about.gitlab.com/solutions/geo/)<br> [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)<br> [Reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) | [![Enterprise ready](../../images/youtube_social_icon_red-32x23.png) Enterprise ready](https://youtu.be/gULEzPybJu8?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)<br> [![Support different system architectures and designs](../../images/youtube_social_icon_red-32x23.png) Support different system architectures and designs](https://youtu.be/t-xUDB41nW0?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)<br> [![Enterprise Ready - Project Templates](../../images/youtube_social_icon_red-32x23.png) Enterprise Ready - Project Templates](https://youtu.be/kNkUf1cScSc?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
 | **Support numerous assets** |  Repositories can host numerous types of assets such as Source Code, data narratives in [Jupyter notebooks](https://docs.gitlab.com/ee/user/project/repository/jupyter_notebooks/) for annotated, data-driven projects, and rendered markup like GitLab flavoured Markdown, Markdown, RDoc, AsciiDoc, and Org in [wikis](https://docs.gitlab.com/ee/user/project/wiki/). GitLab also hosts [graphic assets](https://docs.gitlab.com/ee/user/project/issues/design_management.html) and support the handover communication in issues | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html), [Wiki](https://docs.gitlab.com/ee/user/project/wiki/)<br> [Git LFS](https://docs.gitlab.com/ee/topics/git/lfs/)| [![Support numerous assets](../../images/youtube_social_icon_red-32x23.png) Support numerous assets](https://youtu.be/f9zmxOfP7AQ?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
-| **Foster Collaboration** |  GitLab is a platform to collaborate on proposals. Change proposals happen in any project through [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/reviewing_and_managing_merge_requests.html). Collaboration then can happen in multiple places like in [threaded conversations](https://docs.gitlab.com/ee/user/discussions/) for clarity, or in [merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) where changes can be approved or rejected. To understand the proposed changes a detailed vision of the changes is found in [resolving conflicts](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html), code reviewers can [comment on specific code line](https://docs.gitlab.com/ee/development/code_comments.html), [suggest changes](https://docs.gitlab.com/ee/user/discussions/#suggest-changes) applicable in one click, or propose to use [code snippets](https://docs.gitlab.com/ee/user/snippets.html). All these actions connect the different users through plenty of [in-app](https://docs.gitlab.com/ee/operations/incident_management/index.html), chat ([Slack](https://docs.gitlab.com/ee/user/project/integrations/slack.html) or [Discord](https://docs.gitlab.com/12.10/ee/user/project/integrations/discord_notifications.html)) or [email notifications](https://docs.gitlab.com/ee/user/profile/notifications.html) | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/), [WebIDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html), [Single file web editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html), [Live Preview](https://docs.gitlab.com/ee/user/project/web_ide/index.html#live-preview), [Snippets](https://docs.gitlab.com/ee/user/snippets.html)<br> [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html), [Insights](https://docs.gitlab.com/ee/user/group/insights/)<br> [**Plan stage:**](https://about.gitlab.com/stages-devops-lifecycle/plan/) [Issue tracking](https://docs.gitlab.com/ee/user/project/issues/)<br> [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) | [![Foster Collaboration](../../images/youtube_social_icon_red-32x23.png) Foster Collaboration](https://youtu.be/OFNUjvgm2_4?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
+| **Foster Collaboration** |  GitLab is a platform to collaborate on proposals. Change proposals happen in any project through [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/). Collaboration then can happen in multiple places like in [threaded conversations](https://docs.gitlab.com/ee/user/discussions/) for clarity, or in [merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) where changes can be approved or rejected. To understand the proposed changes a detailed vision of the changes is found in [resolving conflicts](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html), code reviewers can [comment on specific code line](https://docs.gitlab.com/ee/development/code_comments.html), [suggest changes](https://docs.gitlab.com/ee/user/discussions/#suggest-changes) applicable in one click, or propose to use [code snippets](https://docs.gitlab.com/ee/user/snippets.html). All these actions connect the different users through plenty of [in-app](https://docs.gitlab.com/ee/operations/incident_management/index.html), chat ([Slack](https://docs.gitlab.com/ee/user/project/integrations/slack.html) or [Discord](https://docs.gitlab.com/ee/user/project/integrations/discord_notifications.html)) or [email notifications](https://docs.gitlab.com/ee/user/profile/notifications.html) | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/), [WebIDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html), [Single file web editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html), [Live Preview](https://docs.gitlab.com/ee/user/project/web_ide/index.html#live-preview), [Snippets](https://docs.gitlab.com/ee/user/snippets.html)<br> [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html), [Insights](https://docs.gitlab.com/ee/user/group/insights/)<br> [**Plan stage:**](https://about.gitlab.com/stages-devops-lifecycle/plan/) [Issue tracking](https://docs.gitlab.com/ee/user/project/issues/)<br> [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) | [![Foster Collaboration](../../images/youtube_social_icon_red-32x23.png) Foster Collaboration](https://youtu.be/OFNUjvgm2_4?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
 | **Secure Development** | GitLab incorporates several security capabilities to make development more secure even before build happens. They can [detect secrets](https://docs.gitlab.com/ee/user/application_security/secret_detection/) and [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) issues, find vulnerabilities [in source code](https://docs.gitlab.com/ee/user/application_security/sast/) or in its [dependencies](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) before merging, find vulnerabilities in [running apps](https://docs.gitlab.com/ee/user/application_security/dast/) before merging too, and [in containers](https://docs.gitlab.com/ee/user/application_security/container_scanning/)  too. These capabilities can even reproduce what thousand of users input in seconds to detect faults and other issues with [Fuzz testing](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/)  | [**Secure stage:**](https://about.gitlab.com/stages-devops-lifecycle/secure/) [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [DAST](https://docs.gitlab.com/ee/user/application_security/dast/), [Fuzz Testing](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/), [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) | [![Secure Development](../../images/youtube_social_icon_red-32x23.png) Secure Development](https://youtu.be/T0JRxw8_kY8?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) Also see [DevSecOps resources](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#how-gitlab-meets-the-market-requirements) |
-
 
 ## Top 3 Differentiators
 
 | Differentiator | Value | Proof Point  | Demos |
 |-----------------|-------------|---------------|---------------|
-| **Distributed version control** | It allows for asynch, remote, collaborative work to flourish since a single copy of the complete project's history can be stored in any machine, branching is easy and powerful so almost endless workflow possibilities open in opposition to centralized VCS like Perforce or CVS. All the information different teams produce while collaborating on source code and other digital assets in GitLab can be easily analyzed, authorized and streamlined from the Merge Request with clockwork precision. This, in turn, allows for team leads to correctly implement best practice workflows like [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) | –  Stackoverflow's 2018 survey data states that [87% of respondents use Git](https://insights.stackoverflow.com/survey/2018#work-_-version-control) (jump from 69% in 2015) instead of other centralized and distributed VCSs. Similar trend is captured in the [Open Hub data](https://softwareengineering.stackexchange.com/questions/136079/are-there-any-statistics-that-show-the-popularity-of-git-versus-svn/136207#136207). In 2019, Stack Overflow [didn't even ask the question](https://insights.stackoverflow.com/survey/2019#development-practices) in the same survey.  –  [Gartner's Market Guide for Software Change and Configuration Management](https://www.gartner.com/en/documents/3118917/market-guide-for-software-change-and-configuration-manag) from 2015 lays out clearly the advantages of DVCS. In 2019 Gartner assess SCM as part of Application Release Orchestration of which [GitLab is a challenger as of 2019](/analysts/gartner-aro19/) – [Google trends since 2004](https://trends.google.com/trends/explore?date=all&q=git,svn,perforce,mercurial,tfs) compared to other DVCS and CVCSs. | [![Distributed Version control](../../images/youtube_social_icon_red-32x23.png) Distributed Version Control](https://youtu.be/JAgIEdYhj00)|
+| **Distributed version control** | It allows for asynch, remote, collaborative work to flourish since a single copy of the complete project's history can be stored in any machine, branching is easy and powerful so almost endless workflow possibilities open in opposition to centralized VCS like Perforce or CVS. All the information different teams produce while collaborating on source code and other digital assets in GitLab can be easily analyzed, authorized and streamlined from the Merge Request with clockwork precision. This, in turn, allows for team leads to correctly implement best practice workflows like [GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/) | –  Stackoverflow's 2018 survey data states that [87% of respondents use Git](https://insights.stackoverflow.com/survey/2018#work-_-version-control) (jump from 69% in 2015) instead of other centralized and distributed VCSs. Similar trend is captured in the [Open Hub data](https://softwareengineering.stackexchange.com/questions/136079/are-there-any-statistics-that-show-the-popularity-of-git-versus-svn/136207#136207). In 2019, Stack Overflow [didn't even ask the question](https://insights.stackoverflow.com/survey/2019#development-practices) in the same survey.  –  [Gartner's Market Guide for Software Change and Configuration Management](https://www.gartner.com/en/documents/3118917/market-guide-for-software-change-and-configuration-manag) from 2015 lays out clearly the advantages of DVCS. In 2019 Gartner assess SCM as part of Application Release Orchestration of which [GitLab is a challenger as of 2019](/analysts/gartner-aro19/) – [Google trends since 2004](https://trends.google.com/trends/explore?date=all&q=git,svn,perforce,mercurial,tfs) compared to other DVCS and CVCSs. | [![Distributed Version control](../../images/youtube_social_icon_red-32x23.png) Distributed Version Control](https://youtu.be/JAgIEdYhj00)|
 | **Single Application** | The ability to connect every phase of the Software Development Lifecycle in one single DevOps platform. One data layer, one design system, one set of commands to manage all the different stages of software design, development, build and deployment | [General proof points](/handbook/sales/command-of-the-message/proof-points/) of the single app | [![Single Application](../../images/youtube_social_icon_red-32x23.png) Single Application](https://youtu.be/SAfpdJ7jpHQ)  |
 | **Product Development Management** | GitLab is the only product that increasingly provides collaboration functionality to Product teams that work not only with source code but also and IP, graphic assets, animations and binaries to mention a few.  | Forrester's [Adopt Product Management to Connect Design and Development](https://www.forrester.com/report/Adopt+Product+Management+To+Connect+Design+And+Development/-/E-RES149995) clearly states that "Siloed Design And Dev Teams Deliver Subpar Software" | [![Product Development Management](../../images/youtube_social_icon_red-32x23.png) Product Development Management](https://youtu.be/YtbHkCzxFW4)  |
 
 ---
 
-## [Message House](./message-house/)
+## Message House
 
-A message house contains all the pieces of content that will clearly convey GitLab's values and differentiators in each touch point with prospects and clients. Each touchpoint should be worth their while and should also be relevant in their relationship with GitLab in order to move the needle in their decision-making process. In other words, every single item of the message house is in context with each persona, connect with their intents, resonates with their inflection points (value drivers) and provides an easy narrative of the SCM use case to lay out next steps and make progress.
+A [message house](message-house/) contains all the pieces of content that will clearly convey GitLab's values and differentiators in each touch point with prospects and clients. Each touchpoint should be worth their while and should also be relevant in their relationship with GitLab in order to move the needle in their decision-making process. In other words, every single item of the message house is in context with each persona, connect with their intents, resonates with their inflection points (value drivers) and provides an easy narrative of the SCM use case to lay out next steps and make progress.
 
 The message house for the use case provides a structure to describe and discuss the value and differentiators for the use case.
 
@@ -194,7 +182,7 @@ The sample discovery questions below are meant to provide a baseline and help yo
 
 *Remarks*:
 
-GitHub HA is not a real HA setup, it’s more like a [failover solution](https://help.github.com/en/enterprise/2.21/admin/installation/configuring-github-enterprise-server-for-high-availability) (with sync between 2 virtual machines, there is no bare metal solution)
+GitHub HA is not a real HA setup, it's more like a [failover solution](https://help.github.com/en/enterprise/2.21/admin/installation/configuring-github-enterprise-server-for-high-availability) (with sync between 2 virtual machines, there is no bare metal solution)
 Moreover, zero-downtime upgrade seems [not possible](https://help.github.com/en/enterprise/2.21/admin/installation/about-high-availability-configuration#targeted-failure-scenarios)
 
 - How long have you been operational on GitHub Actions?  Can you do whatever you want with GitHub Actions?
@@ -216,13 +204,13 @@ There are no Epics within GitHub
 
 *Remarks*:
 
-(pending verification) “security alerts for vulnerable dependencies” of GitHub need that your GitHub instance should [be connected to GitHub Enterprise Cloud](https://help.github.com/en/enterprise/2.21/admin/installation/enabling-security-alerts-for-vulnerable-dependencies-on-github-enterprise-server) (no air-gapped version)
+(pending verification) "security alerts for vulnerable dependencies" of GitHub need that your GitHub instance should [be connected to GitHub Enterprise Cloud](https://help.github.com/en/enterprise/2.21/admin/installation/enabling-security-alerts-for-vulnerable-dependencies-on-github-enterprise-server) (no air-gapped version)
 
 - Are you using Codespaces? If so, what for?
 
 *Remarks*:
 
-Chances are they haven’t used it yet because it’s in pre release. But even so, an excellent time to mention the webIDE: light weight, embedded in GitLab’s GUI, configurable, linting…
+Chances are they haven't used it yet because it's in pre release. But even so, an excellent time to mention the webIDE: light weight, embedded in GitLab's GUI, configurable, linting…
 If they mention the Super Linter recently released in GitHub you can mention our CodeQuality feature that supports almost as many languages as Super Linter and the fact that Super Linter can be run without much hassle in GitLab
 
 *Remarks*:
@@ -231,7 +219,7 @@ If they mention the Super Linter recently released in GitHub you can mention our
 
 ## Competitive Comparison
 
-Amongst the many competitors in the DevOps space, [GitHub, Perforce, Azure DevOps, SVN](https://about.gitlab.com/direction/create/source_code_management/#competitive-landscape) are the closest competitors offering SCM capabilities. [Phabricator, Gerrit, GitHub, BitBucket, Azure DevOps, Crucible, Review Board, Reviewable, CodeStream, GitLens, VS Live Share and Gitpod](https://about.gitlab.com/direction/create/code_review/#competitive-landscape) are the closest offering Code Review capabilities. [Cloud9, Codesandbox, Repl.it, Koding, StackBlitz, Theia, Gitpod, Coder, VS Online](https://about.gitlab.com/direction/create/ide/web_ide/#competitive-landscape) are the closest competitors offering a webIDE. [Psatebin, Blocks, Gist.io, Bitbucket Snippets, Codesandbox, JSBin, JSFiddle, Codepen](https://about.gitlab.com/direction/create/source_code_management/source_code_management/) are the closest offering snippets. [Invision, Figma, UX Pin](https://about.gitlab.com/direction/plan/design_management/#competitive-landscape) are the closest competitors offering Design Management capabilities.
+Amongst the many competitors in the DevOps space, [GitHub, Perforce, Azure DevOps, SVN](https://about.gitlab.com/direction/create/source_code_management/#competitive-landscape) are the closest competitors offering SCM capabilities. [Phabricator, Gerrit, GitHub, BitBucket, Azure DevOps, Crucible, Review Board, Reviewable, CodeStream, GitLens, VS Live Share and Gitpod](https://about.gitlab.com/direction/create/code_review/#competitive-landscape) are the closest offering Code Review capabilities. [Cloud9, Codesandbox, Repl.it, Koding, StackBlitz, Theia, Gitpod, Coder, VS Online](https://about.gitlab.com/direction/create/remote_development/web_ide/#competitive-landscape) are the closest competitors offering a webIDE. [Psatebin, Blocks, Gist.io, Bitbucket Snippets, Codesandbox, JSBin, JSFiddle, Codepen](https://about.gitlab.com/direction/create/source_code_management/source_code_management/) are the closest offering snippets. [Invision, Figma, UX Pin](https://about.gitlab.com/direction/plan/design_management/#competitive-landscape) are the closest competitors offering Design Management capabilities.
 
 ### Industry Analyst Relations (IAR) Plan
 
@@ -293,31 +281,33 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 ### Case Studies
 
 **[ESA (European Space Agency)](https://about.gitlab.com/customers/european-space-agency/)**
+
 - **Problem**  Geographic separation led to software deployment that used to take weeks.
 - **Solution** GitLab Core (SCM,CI)  allow opportunities for collaboration, synergies and multiple exploitations of efforts in visible way.
 - **Result** More than 140 groups adopted GitLab and more than 1500 software projects have been created. These range from mission control systems, onboard software for spacecraft, image processing and monitoring tools for Labs.
 - **Sales Segment:** Enterprise
 
 **[Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)**
+
 - **Problem** Needed to increase developer efficiency and software quality
 - **Solution:** GitLab Premium (CI/CD, SCM)
 - **Result:** Improved from **1 build every two weeks to over a 1000/day**, or releasing 6 times per day per developer, and an average cycle time from branch to merge is now 30 minutes; simplified workflow and simplified administration
-All the new strategic pieces of ’software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
+All the new strategic pieces of 'software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
 - **Sales Segment:** Enterprise
 
-
 **[Worldline](https://about.gitlab.com/customers/worldline/)**
+
 - **Problem** Worldline faced bottlenecks and lack of ownership when it was using Subversion. It took 1-2 weeks to get a source code repo.
 - **Solution** GitLab Core (SCM)
 - **Result:** With GitLab Core it now takes a few seconds. **Within six months, over 1,000 users were active users because GitLab is so easy to use.** People excited to contribute code reviews with GitLab Merge Requests. Previous code review tools had 10-20 developers using them, while Worldline currently has 3,000 active users of GitLab - an adoption rate increase of 12,000 percent.
 - **Sales Segment** Enterprise
 
 **NorthWestern Mutual [Commit San Francisco 2020: Why we chose GitLab as our Enterprise SCM](https://youtu.be/kPNMyxKRRoM)** [Deck](https://docs.google.com/presentation/d/1vxiFJShRjU98kvwK87PZnYnMzBVPT5VJTr1chUEiM_Y/edit#slide=id.g6d6088e69c_0_15)
+
 - **Problem**  Code base was fragmented and dev permissions were also complex to handle. This prevented devs from collaborating, deploying faster and fixing bugs and security holes.
 - **Solution** GitLab Premium (SCM, CI)
 - **Result**  A full migration to their Enterprise environment was completed in 8 months. After implementation they managed to reduce friction with the ease of use of GitLab's CI.
 - **Sales Segment:** Enterprise
-
 
 ### References to help you close
 
@@ -338,9 +328,9 @@ This table shows the recommended use cases to adopt, links to product documentat
 | Feature / Use Case                                           | F/C  | Basic | S/P  | G/U  | Notes                                                        | Product Analytics |
 | ------------------------------------------------------------ | :--: | :---: | :--: | :--: | :----------------------------------------------------------- | :-------: |
 | Adopt GitLab Flow                                            |  X   |   X   |  X   |  X   |                                                               |           |
-| Native Highly Available / Performance Git Storage Support    |  X   |   X   |  X   |  X   | Technical Support for Gitaly Cluster only availabe for Premium/Utlimate | [gitaly.clusters](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#gitalyclusters)|
-| Simplify Repository Management                               |      |   X   |  X   |  X   | CodeOwners file, push rules                                  | [usage_activity_by_stage_monthly.create.merge_requests_with_required_codeowners](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#usage_activity_by_stage_monthlycreatemerge_requests_with_required_codeowners) |
-| Merge Request Approval Workflow                              |      |   X   |  X   |  X   | MergeApproval                                                | [redis_hll_counters.code_review.i_code_review_user_approve_mr_monthly](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#redis_hll_counterscode_reviewi_code_review_user_approve_mr_monthly) |
+| Native Highly Available / Performance Git Storage Support    |  X   |   X   |  X   |  X   | Technical Support for Gitaly Cluster only availabe for Premium/Utlimate | [`gitaly.clusters`](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation.html#prometheus-metrics)|
+| Simplify Repository Management                               |      |   X   |  X   |  X   | CodeOwners file, push rules                                  | [`usage_activity_by_stage_monthly.create.merge_requests_with_required_codeowners`](https://docs.gitlab.com/ee/development/stage_group_observability/) |
+| Merge Request Approval Workflow                              |      |   X   |  X   |  X   | MergeApproval                                                | `redis_hll_counters.code_review.i_code_review_user_approve_mr_monthly` |
 | Templates for efficient workflows                            |      |       |  X   |  X   | Project templates, Group/Instance templates for gitlab-ci.yml etc | counts.template_repositories  |
 | Commit Protection                                            |      |       |  X   |  X   | Reject Unsigned Commits, Verified Committer                  |           |
 | Large distributed team                                       |      |       |  X   |  X   | GitLab Geo                                                   | counts.geo_nodes |
@@ -370,12 +360,10 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [Git and GitLab Basics training](https://about.gitlab.com/services/education/gitlab-basics/) - Training for team members new to Git SCM and the gitlab application
-- [GitLab training for Project Managers](https://about.gitlab.com/services/education/gitlab-basics/) - Training to teach Project Managers how to use gitlab issues and how that relates to the create stage in the development lifecycle
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) - Training to teach Project Managers how to use gitlab issues and how that relates to the create stage in the development lifecycle
+- [Git and GitLab Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) - Training for team members new to Git SCM and the GitLab application
+- [GitLab training for Project Managers](https://university.gitlab.com/pages/gitlab-fundamentals-training) - Training to teach Project Managers how to use GitLab issues and how that relates to the create stage in the development lifecycle
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) - Training to teach Project Managers how to use GitLab issues and how that relates to the create stage in the development lifecycle
 - [SCM Migration Services](https://about.gitlab.com/services/migration/) - Data and user migration from a previous software Version Control System to GitLab self-managed or cloud-delivered solutions
-
-
 
 ## Key Value (at tiers)
 
@@ -400,10 +388,9 @@ Serve your different remote teams with filtered LDAP access to specific IP hosti
 - Merge request reviews
 - Merge Request Dependencies
 
-
 ### Ultimate
 
-**Why choose GitLab Ultimate for SCM?** Keep your IP and teams compliant and secure all the time. Provide GitLab admin’s with state of the art capability to handle large, widely distributed instances of GitLab in the most secure and flexible way. Verify everything is in place and take immediate, concise action when something goes wrong in the Security Dashboard.
+**Why choose GitLab Ultimate for SCM?** Keep your IP and teams compliant and secure all the time. Provide GitLab admin's with state of the art capability to handle large, widely distributed instances of GitLab in the most secure and flexible way. Verify everything is in place and take immediate, concise action when something goes wrong in the Security Dashboard.
 
 Compliance programs are fully supported in GitLab. Compliance professionals can use the Compliance Dashboard to promptly find the information they need by having the relevant information surfaced from the different projects to the dashboard. Time required to manage compliance needs is thus dramatically reduced.
 
@@ -416,7 +403,6 @@ Compliance programs are fully supported in GitLab. Compliance professionals can 
 - Credentials Management
 - Compliance Dashboard
 - All [security scanners](https://docs.gitlab.com/ee/#secure)
-
 
 ## Resources
 
@@ -431,6 +417,7 @@ Compliance programs are fully supported in GitLab. Compliance professionals can 
 [6 months / 1 year roadmap slide](https://docs.google.com/presentation/d/17iqdi16o4Vux1Vyg7EVBRs1Q0yuM1H32ZtJIsC3vAJ0/edit?usp=sharing)
 
 ### Videos
+
 - [Source Code Walk Through, January 2020](https://www.youtube.com/watch?v=wTQ3aXJswtM) by James Ramsey, Group Product Manager for the Create Stage
 - [GitLab Flow pattern](https://youtu.be/InKNIvky2KE?list=WL)
 - [Design Management Walkthrough, January 2020](https://youtu.be/LzFRBMGl2SA) by Christen Dybenko, PM Knowledge Group
@@ -441,19 +428,23 @@ Compliance programs are fully supported in GitLab. Compliance professionals can 
 - [Rich Change Controls for Building Workflows you can Trust](https://youtu.be/uW95PV8d-w8?t=186) by Darwin Sanoy, Solutions Architect
 
 #### Git Training
+
 - [Git in Gifs](https://www.youtube.com/playlist?list=PLFGfElNsQthZcx-NEyMsPl-dl3Q_p-3yv)
 - [Why You Should Move To Git](https://www.youtube.com/watch?v=iVUqKJpHc5s)
 
 #### Integrations Demo Videos
+
 - [Jira & Jenkins Integration Video](https://www.youtube.com/embed/Jn-_fyra7xQ)
 - [How to setup the Jira Integration](https://www.youtube.com/watch?v=p56zrZtrhQE)
 - [GitHub Integration Video](https://www.youtube.com/embed/qgl3F2j-1cI)
 
 #### Clickthrough & Live Demos
+
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
 #### Talks and customer References
+
 - [GitLab All the Way Down - A small startup's tale of growing with GitLab](https://youtu.be/t0Eh1sq9r5s?t=221)
 - [GitLab Permissions as Code (Controlling permission to access repos)](https://youtu.be/W1YMBc6kwUE?t=74)
 - [What not to do while using GitLab](https://youtu.be/Qc8caRTcSa4?t=221)

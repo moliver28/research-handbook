@@ -1,7 +1,7 @@
 ##### Quality
 
 - Quad Planning & Test Coverage
-  - Lead [Quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
+  - Lead [Quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
   - Create test strategy and implement test automation for new features.
   - Provide risk analysis and input on test strategy.
   - Identify and communicate must-have test coverage for critical functionality.
@@ -20,7 +20,7 @@
   - Take initiative to recommend new approaches and processes that will improve our quality, productivity, and velocity.
   - Create and refine deploy processes, deployment scripts, and build pipelines.
 - Test Environments
-  - Grow your knowledge of GitLab provisioning and setup tools. Examples include Omnibus, the Orchestrator, Terraform, Ansible, Kubernetes, Helm Charts, GCP, or AWS. 
+  - Grow your knowledge of GitLab provisioning and setup tools. Examples include Omnibus, the Orchestrator, Terraform, Ansible, Kubernetes, Helm Charts, GCP, or AWS.
   - Maintain or set up new GitLab test environments for your stable counterpart group in collaboration with other Software Engineers in Test.
 - Task Management & OKRs
   - Owns KRs within team OKRs.

@@ -2,23 +2,14 @@
 title: "GitLab Education Services Support Handbook"
 description: "This handbook will detail how to handle support inquiries for the Education Services team and the applicable systems that are used."
 ---
-# GitLab Education Services Support Handbook
-
-
-
-
-
-
-
-
 
 ## Overview
 
 This handbook will detail how to handle support inquiries for the Education Services team and the applicable systems that are used.
 
-## Support Systems in Use:
+## Support Systems in Use
 
-------------------------
+---
 
 - [ZenDesk](https://gitlab.zendesk.com/agent)
 - [LevelUp Google Group](https://groups.google.com/a/gitlab.com/g/levelup) (Inbox for <levelup@gitlab.com>)
@@ -30,7 +21,7 @@ If you do not have access to these systems, please complete an [Access Request](
 
 ### Using ZenDesk
 
---------------
+---
 
 The education services team has limited licenses for ZenDesk full agent- which gives users access to respond to customer tickets. To determine who has full agent access on this team, please see [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/wikis/Education-Services-Support-Delegates).
 
@@ -45,11 +36,11 @@ The education services team has limited licenses for ZenDesk full agent- which g
     - If the ticket is not related to Level Up or Education Services and is about general questions around GitLab or Sales, click the **Apply Macro** button, and select the following: **General > Forms > Incorrect Form Used** and click **Submit**
     - If the ticket is regarding a Sales Training or Certification, reach out to the Field Enablement team in the following slack channel: #field-enablement-team and once you receive a resolution, respond to the ticket and close as Solved.
     - If the ticket is regarding a Learning and Development training or Certification such as Remote Foundations, TeamOps, etc, assign the ticket to the appropriate party listed [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/wikis/Education-Services-Support-Delegates).
-10. The Education Services team only handles the Professional Services- Triage and Professional Services- Paid views, the Learning and Development team owns the Professional Services- Free view.
+9. The Education Services team only handles the Professional Services- Triage and Professional Services- Paid views, the Learning and Development team owns the Professional Services- Free view.
 
 ### Managing the LevelUp Inbox
 
----------------------------
+---
 
 All members of the GitLab Education Services team have access to the GitLab Level Up support inbox. If you are not able to access this group, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). The team rotates responsibility for monitoring the inbox in weekly intervals, you can see who is currently assigned on the [GitLab Education Services Calendar](https://calendar.google.com/calendar/embed?src=c_2f86c1ceb88f08d428c3406c956335383e323ef8bbd19fde5379a8ab0f48b4b1%40group.calendar.google.com&ctz=America%2FDenver).
 
@@ -62,7 +53,7 @@ All members of the GitLab Education Services team have access to the GitLab Leve
 
 ### Zapier
 
--------
+---
 
 In order to access Zapier, which is used for integrations and webhooks between systems (issuing badges, automated messaging), you need to have access to the Zapier 1Pass Vault. If you do not have access, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
@@ -72,7 +63,7 @@ Please see the following handbook page for [Zapier Training](/handbook/support/r
 
 ### Credly
 
--------
+---
 
 In order to access Credly, login to the site [here](https://www.credly.com/). If you do not have access, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 

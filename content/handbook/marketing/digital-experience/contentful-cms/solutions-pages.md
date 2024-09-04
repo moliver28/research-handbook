@@ -3,11 +3,11 @@ title: "Contentful CMS Solutions Pages"
 description: "Editing and making unique Solutions pages with Contentful and custom components from Buyer Experience"
 ---
 
-# Solutions Pages
+## Solutions Pages
 
 The Digital Experience team has selected the solutions pages (`/solutions/*`) to be managed and served within Contentful. This page is designed to allow users to create a new solutions page from scratch using Contentful as CMS.
 
-For in-depth information about Contentful CMS, please visit our [Resource Deep Dive page](https://handbook.gitlab.com/handbook/marketing/digital-experience/contentful-cms/#resource-deep-dive).
+For in-depth information about Contentful CMS, please visit our [Resource Deep Dive page](/handbook/marketing/digital-experience/contentful-cms/#resource-deep-dive).
 
 ## How to make a solutions industry page from scratch
 
@@ -49,19 +49,19 @@ A component has to be named within the `industry template` for it to be recogniz
 
 _Some_ existing pages that follow the solutions `industry template` are:
 
--   `/solutions/agile-delivery/`
--   `/solutions/value-stream-management/`
--   `/solutions/continuous-integration/`
--   `/solutions/security-compliance/`
--   `/solutions/delivery-automation/`
--   `/solutions/public-sector/`
--   `/solutions/startups/`
--   `/solutions/startups/join/`
--   `/soluitons/open-source/`
--   `/solutions/open-source/join/`
--   `/solutions/open-source/partners/`
--   `/solutions/nonprofit/`
--   `/solutions/nonprofit/join/`
+- `/solutions/agile-delivery/`
+- `/solutions/value-stream-management/`
+- `/solutions/continuous-integration/`
+- `/solutions/security-compliance/`
+- `/solutions/delivery-automation/`
+- `/solutions/public-sector/`
+- `/solutions/startups/`
+- `/solutions/startups/join/`
+- `/soluitons/open-source/`
+- `/solutions/open-source/join/`
+- `/solutions/open-source/partners/`
+- `/solutions/nonprofit/`
+- `/solutions/nonprofit/join/`
 
 ### Available components
 
@@ -69,57 +69,57 @@ Components that can be used as of today within the solutions `industry template`
 
 Most used components:
 
--   `SolutionsHero`
--   `BySolutionValueProp`
--   `BySolutionIntro`
--   `ByIndustryIntro`
--   `ByIndustryQuotesCarousel`
--   `Copy`
--   `CopyMedia`
--   `SolutionsResourceCards`
--   `TierBlock`
--   `Faq`
--   `QuotesCarousel`
+- `SolutionsHero`
+- `BySolutionValueProp`
+- `BySolutionIntro`
+- `ByIndustryIntro`
+- `ByIndustryQuotesCarousel`
+- `Copy`
+- `CopyMedia`
+- `SolutionsResourceCards`
+- `TierBlock`
+- `Faq`
+- `QuotesCarousel`
 
 Can still be used as components:
 
--   `AnalyticsInsightsCustomerSuccessCard`
--   `AnalyticsInsightsFeatured`
--   `AnalyticsInsightsShowcaseFaq`
--   `GroupButtons`
--   `NewQuotesCarousel`
--   `NextStep`
--   `NextStepAlt`
--   `PricingTiers`
--   `ReportCta`
--   `SlpBreadcrumb`
--   `BySolutionAccordeon`
--   `BySolutionBenefits`
--   `BySolutionCasestudies`
--   `BySolutionHero`
--   `BySolutionLink`
--   `BySolutionListImage`
--   `BySolutionShowcase`
--   `BySolutionValueProp`
--   `ByIndustryCaseStudies`
--   `ByIndustrySolutionsBlock`
--   `OpenSourceBlog`
--   `OpenSourceFormSection`
--   `OpenSourcePartnersGrid`
--   `OverviewBlocks`
--   `PartnersGridFull`
--   `CtaBlock`
--   `ResourceCarousel`
--   `SolutionsHero`
--   `SolutionsVideoFeature`
--   `CustomerLogos`
--   `EducationCaseStudyCarousel`
--   `StartupsIntro`
--   `StartupsLink`
--   `StartupsOverview`
--   `NonprofitIntro`
--   `NonprofitOverview`
--   `SingleCtaBlock`
+- `AnalyticsInsightsCustomerSuccessCard`
+- `AnalyticsInsightsFeatured`
+- `AnalyticsInsightsShowcaseFaq`
+- `GroupButtons`
+- `NewQuotesCarousel`
+- `NextStep`
+- `NextStepAlt`
+- `PricingTiers`
+- `ReportCta`
+- `SlpBreadcrumb`
+- `BySolutionAccordeon`
+- `BySolutionBenefits`
+- `BySolutionCasestudies`
+- `BySolutionHero`
+- `BySolutionLink`
+- `BySolutionListImage`
+- `BySolutionShowcase`
+- `BySolutionValueProp`
+- `ByIndustryCaseStudies`
+- `ByIndustrySolutionsBlock`
+- `OpenSourceBlog`
+- `OpenSourceFormSection`
+- `OpenSourcePartnersGrid`
+- `OverviewBlocks`
+- `PartnersGridFull`
+- `CtaBlock`
+- `ResourceCarousel`
+- `SolutionsHero`
+- `SolutionsVideoFeature`
+- `CustomerLogos`
+- `EducationCaseStudyCarousel`
+- `StartupsIntro`
+- `StartupsLink`
+- `StartupsOverview`
+- `NonprofitIntro`
+- `NonprofitOverview`
+- `SingleCtaBlock`
 
 #### How to include a Sidenav
 

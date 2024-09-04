@@ -5,9 +5,9 @@ description: "The GitLab Women in Sales Mentorship Program pilot aims to create 
 
 ## Women in Sales Mentorship Program Pilot
 
-As discussed in [GitLab’s Remote Playbook](/handbook/company/culture/all-remote/), the intentionality behind communication, especially in remote settings, is a critical element of success. This pilot program aims to support GitLab’s communications plan by purposefully creating and cultivating opportunities for mentors, mentees, and connection.
+As discussed in [GitLab's Remote Playbook](/handbook/company/culture/all-remote/), the intentionality behind communication, especially in remote settings, is a critical element of success. This pilot program aims to support GitLab's communications plan by purposefully creating and cultivating opportunities for mentors, mentees, and connection.
 
-The goal of the Women in Sales Pilot Program is to provide mentorship opportunities to women in Sales as a ***pilot***. If successful, we will consider an expansion to other groups across the company. In the spirit of [iteration]({{< ref "values#iteration" >}}), we would like to get started soon and expand and improve as we go.
+The goal of the Women in Sales Pilot Program is to provide mentorship opportunities to women in Sales as a ***pilot***. If successful, we will consider an expansion to other groups across the company. In the spirit of [iteration](/handbook/values/#iteration), we would like to get started soon and expand and improve as we go.
 
 ## Program Benefits
 
@@ -121,6 +121,7 @@ Applications will be prioritized on a few different factors including:
 ### Mentors
 
 You are eligible to apply for the program if you meet the requirements below:
+
 - You have been with GitLab for at least 3 months at the time of application
 - In a role with a [job grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) of 10 or above (10 indicates you are in a "director" level role)
 
@@ -130,7 +131,7 @@ You are eligible to apply for the program if you meet the requirements below:
 
 **Q. Why is this program just for women?**
 
-- A. Across GitLab’s 5 primary divisions (Engineering, G&A, Marketing, Product, and Sales) 4 out of 5 of the divisions have a significantly higher number of men in management roles versus women.
+- A. Across GitLab's 5 primary divisions (Engineering, G&A, Marketing, Product, and Sales) 4 out of 5 of the divisions have a significantly higher number of men in management roles versus women.
 - While each participant will set the priorities for their mentor discussions, we are intentional with this cohort as we encourage discussions to include challenges, opportunities and issues unique to women in sales. We aim to keep removing barriers to those discussions and ensure transparent engagement across GitLab.
 
 **Q. Why is this program just for Sales?**
@@ -140,7 +141,6 @@ You are eligible to apply for the program if you meet the requirements below:
 **Q. Does participation in this program guarantee a promotion?**
 
 - A. No, participation in this program does not guarantee a promotion. Benefits for mentees include: Increased visibility with leadership in various areas of the organization, increased professional development opportunities, career coaching and guidance, and opportunity to form relationships with leaders on other teams. You can review these benefits in the [Program Benefits](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/source/handbook/people-group/women-in-sales-mentorship-pilot-program/index.html.md#program-benefits) section above.
-
 
 Interested in what other mentorship opportunities exist at GitLab? Check out the [Minorities in Tech](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/) pilot program!
 

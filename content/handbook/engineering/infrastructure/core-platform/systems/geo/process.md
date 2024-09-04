@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/process.html
-
 title: "Geo and Disaster Recovery - Planning"
 description: "How the Geo Team Operates"
 ---
@@ -15,13 +13,13 @@ Discussions are documented in this [GitLab project](https://gitlab.com/gitlab-or
 
 One aspect of planning that provides clarity for development execution is the breakdown of roadmap into a hierarchy of informational pieces that are organized in GitLab's own [work items](https://docs.gitlab.com/ee/development/work_items.html) as part of product management.
 
-This section describes the approach that the Geo team takes to break down the requirements into work-in-progress items that engineers move through the workflow of implementation. 
+This section describes the approach that the Geo team takes to break down the requirements into work-in-progress items that engineers move through the workflow of implementation.
 
 First, we describe general agile work item terminology to create alignment and use common industry vocabulary. We then map these general terms to the specific work item terminology used by GitLab.
 
 Finally we provide some guidelines and rules of thumb when creating new ites and about choosing the right level of granularity for them.
 
-The details of this are documented in our [Geo's Hierarchy of Agile Work Items](../agile-work-items.html) page. 
+The details of this are documented in our [Geo's Hierarchy of Agile Work Items](../agile-work-items.html) page.
 
 ### Kanban
 
@@ -38,6 +36,7 @@ graph LR;
 ```
 
 Three boards are used to monitor this process
+
 - [Plan](https://gitlab.com/groups/gitlab-org/-/boards/1181258)
 - [Schedule](https://gitlab.com/groups/gitlab-org/-/boards/981066)
 - [Build](https://gitlab.com/groups/gitlab-org/-/boards/1181257)
@@ -45,7 +44,7 @@ Three boards are used to monitor this process
 #### Plan
 
 We use the [Kanban Plan board](https://gitlab.com/groups/gitlab-org/-/boards/1181258)
-to triage issues that are not yet planned for a milestone. Issues in this board are labelled "geo::planning".
+to triage issues that are not yet planned for a milestone. Issues in this board are labeled "group::geo" and use the workflow labels "workflow::validation backlog", "workflow::problem validation", "workflow::design", "workflow::solution validation",  "workflow::planning breakdown" and "workflow::scheduling".
 
 The Product Manager(PM) owns this board and uses it to advance issues through to becoming feasible Epics. When work leaves this
 board, it is in a fit state for the engineering team to implement the issue.
@@ -77,6 +76,7 @@ It is also important to note that not all POCs will be successful, and that is O
 successful, and the POC will have saved us from investing significant time in a solution that will not meet our needs. The goal is to fail fast!
 
 The PM and the engineer will work together to create all of the [work items](../agile-work-items.html) required to build the solution. These items account for
+
 - Documentation
 - Testing
 - Post-release items such as rake tasks, migrations or monitoring issues
@@ -90,6 +90,9 @@ When they are satisfied that they have a reasonable solution including an estima
 for discussion and feedback. Planning is transparent anyway, but this serves to notify the team that the new work items are ready
 for development.
 
+For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development-flow/feature-flag-lifecycle/#development).
+The original issue should remain open and blocked on the FF rollout issue until the rollout issue is closed, in case the rollout does not go as planned.
+
 #### Schedule
 
 On an ongoing basis, the PM and EM will meet to discuss the work that is currently active, and queue prepared items for development.
@@ -97,6 +100,7 @@ On an ongoing basis, the PM and EM will meet to discuss the work that is current
 In this process, prepared items will be given the label "geo::active", which will pull items into the Build board.
 
 Part of the ongoing prioritization and scheduling effort includes providing answers to these questions
+
 1. What is active now?
 1. What needs to be active next?
 1. Are there any deliverables?
@@ -109,7 +113,7 @@ The outcome of these scheduling activities are reflected in an [Outlook Issue](h
 #### Build
 
 We use the [Kanban Build board](https://gitlab.com/groups/gitlab-org/-/boards/1181257)
-to look at issues that have the `geo::active` label in combination with the `group::geo` label.
+to look at issues that have the `%Started` milestone in combination with the `group::geo` label.
 
 The Engineering Manager(EM) owns this board and uses it to facilitate building out the Epics and issues that the team have decided
 are ready for development.
@@ -202,22 +206,22 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 
 ### Bugs Process
 
-Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](https://handbook.gitlab.com/handbook/product-development-flow/).
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](/handbook/product-development-flow/).
 
 #### Bug Triage
 
 Triaging bugs is a team effort. Ultimately the process of triage is necessary to avoid the following problems:
 
-* Bugs that are actually quite complex to address and the "bug" might be a symptom of a bigger architectural problem rather than a simple deficiency in existing functionality.
-* Bugs that are defined inconsistently and that are not easy to immediately comprehend.
-* Bugs that don't always have clear steps to reproduce the problem or clear "expected" outcomes or behaviours.
-* Some bugs can't be easily replicated because they require setting up complex configuration scenarios
-* Some bugs are not strictly bugs but rather investigations into customer-reported problems
-* Engineers struggle to tackle these kinds of large, ill-defined, or difficult-to-reproduce bugs along with the rest of their priorities in a given iteration
+- Bugs that are actually quite complex to address and the "bug" might be a symptom of a bigger architectural problem rather than a simple deficiency in existing functionality.
+- Bugs that are defined inconsistently and that are not easy to immediately comprehend.
+- Bugs that don't always have clear steps to reproduce the problem or clear "expected" outcomes or behaviours.
+- Some bugs can't be easily replicated because they require setting up complex configuration scenarios
+- Some bugs are not strictly bugs but rather investigations into customer-reported problems
+- Engineers struggle to tackle these kinds of large, ill-defined, or difficult-to-reproduce bugs along with the rest of their priorities in a given iteration
 
-The following process attempts to mitigate these issues and increase the efficiency of engineers working toward a resolution. 
+The following process attempts to mitigate these issues and increase the efficiency of engineers working toward a resolution.
 
-The entire process is broken down into phases, where issues classified as bugs are reviewed by different stakeholders, labelled in specific ways to be classified, and moved through a workflow through their resolution. 
+The entire process is broken down into phases, where issues classified as bugs are reviewed by different stakeholders, labeled in specific ways to be classified, and moved through a workflow through their resolution.
 
 ##### Phase 1: Screening
 
@@ -227,26 +231,26 @@ The initial screening should ensure all the necessary information about the natu
 
 The description for Bug issues should include the following key pieces of content:
 
-* Context: A short sentence that describes the context (systems, users, customers, conditions) under which the problem occurs.
-* Problem: A short sentence describing the problem
-* Steps to reproduce: A bullet list of step-by-step instructions to reproduce the problem
-* Expected result: What should happen when you follow the steps
-* Actual result: What currently happens when you follow the steps
-* Optionally, additional information: i.e. video, screenshots, error logs/logs etc.
+- Context: A short sentence that describes the context (systems, users, customers, conditions) under which the problem occurs.
+- Problem: A short sentence describing the problem
+- Steps to reproduce: A bullet list of step-by-step instructions to reproduce the problem
+- Expected result: What should happen when you follow the steps
+- Actual result: What currently happens when you follow the steps
+- Optionally, additional information: i.e. video, screenshots, error logs/logs etc.
 
 The group Product Manager (PM) is the DRI to do the initial screening soliciting support from the Engineering Manager when required. The PM and EM should make sure bugs are clear and completely defined, asking follow-up questions from authors of the bug issues before they are scheduled and moved ahead in the workflow.
 
 The PM should also make a determination if certain bugs should be immediately closed as "won't fix" for any reason. The PM should also stop "Bugs" that may actually be customer support requests and should be channelled to follow that process.
 
-The PM should use the [Triage Report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Ageo&label_name%5B%5D=triage%20report&first_page_size=20) generated and sent through email as one of the sources of untriaged bugs that need screening. Another source is any bug with the `group::geo` tag that does not have a workflow label. 
+The PM should use the [Triage Report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Ageo&label_name%5B%5D=triage%20report&first_page_size=20) generated and sent through email as one of the sources of untriaged bugs that need screening. Another source is any bug with the `group::geo` tag that does not have a workflow label.
 
-Once a Bug is under screening, it can be labelled with `geo::planning` and `workflow::problem validation`. If during screening the DRI needs to ask for more information, the bug can be labelled with `awaiting feedback`
+Once a Bug is under screening, it can be labeled with `geo::planning` and `workflow::problem validation`. If during screening the DRI needs to ask for more information, the bug can be labeled with `awaiting feedback`
 
-Once the bug has passed screening it should be relabelled to `workflow::solution validation`. 
+Once the bug has passed screening it should be relabeled to `workflow::solution validation`.
 
 Bugs that have been screened should meet the following criteria:
 
-- Labelled with: `group::geo`, `geo::planning` and `workflow::solution validation`
+- labeled with: `group::geo`, `geo::planning` and `workflow::solution validation`
 - A `severity` label has been set
 - The body of the issue is fully completed with the template information cited above
 - Should no longer have an `awaiting feedback` label
@@ -257,22 +261,22 @@ Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-
 
 Bugs that have gone through screening can then be assessed by the engineer that has the bug-triage rotation for the month (see below for the rotation schedule). The goal of the assessment is to:
 
-* Go through the steps to reproduce the bug, and confirm that it is reproducible
-* Identify any workarounds and update the severity label accordingly
-* Devise a high-level possible resolution approach and identify the type of bug it is
-* Roughly estimate the effort for resolution by assigning a weight
+- Go through the steps to reproduce the bug, and confirm that it is reproducible
+- Identify any workarounds and update the severity label accordingly
+- Devise a high-level possible resolution approach and identify the type of bug it is
+- Roughly estimate the effort for resolution by assigning a weight
 
-The backlog from where the DRI engineer works are all bugs labelled with `group::geo`, `geo::planning` and `workflow::solution validation`. These are the bugs that have gone through screening. 
+The backlog from where the DRI engineer works are all bugs labeled with `group::geo`, `geo::planning` and `workflow::solution validation` and `type::bug` and are listed on this [Geo Bug Awaiting Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/7636877). These are the bugs that have gone through screening.
 
 When trying to reproduce, the engineer may recruit help from the QA stable counterpart if needed (e.g. to get help setting up a test framework and/or environment that meets the conditions to reproduce the problem).
 
-When in doubt about the resolution approach, the DRI engineer can ask for help from other engineers. If during the technical assessment, the DRI needs to ask for more information, the bug can be labelled with `awaiting feedback`
+When in doubt about the resolution approach, the DRI engineer can ask for help from other engineers. If during the technical assessment, the DRI needs to ask for more information, the bug can be labeled with `awaiting feedback`
 
 Once the engineer has been able to reproduce and assigned a weight, the bug should be moved to `workflow::scheduling`
 
 Bugs that have been technically assessed should meet the following criteria:
 
-- Labelled with: `group::geo`, `geo::planning` and `workflow::scheduling`
+- labeled with: `group::geo`, `geo::planning` and `workflow::scheduling`
 - A `bug::<subtype>` label has been assigned
 - The severity label has been updated (if necessary) according to workaround options found
 - Weight value has been assigned
@@ -280,21 +284,21 @@ Bugs that have been technically assessed should meet the following criteria:
 - A conversation thread comment posted with the possible approach to resolution
 - Should no longer have an `awaiting feedback` label
 
-If after investing some time and reasonable effort the engineer is unable to reproduce the bug, the DRI engineer can work with the PM to close the issue with a note about the inability to reproduce. 
+If after investing some time and reasonable effort the engineer is unable to reproduce the bug, the DRI engineer can work with the PM to close the issue with a note about the inability to reproduce.
 
-If the bug was triggered by a customer, the PM can then work with the customer to open a customer support request to investigate the problem in the context of the customer's own data and infrastructure. This investigation may lead to a new bug being opened with more specific and reliable reproduction steps. 
+If the bug was triggered by a customer, the PM can then work with the customer to open a customer support request to investigate the problem in the context of the customer's own data and infrastructure. This investigation may lead to a new bug being opened with more specific and reliable reproduction steps.
 
-Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
+Refer to the [Geo Bug Awaiting Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/7636877).
 
 ##### Phase 3: Scheduling
 
 The PM is the DRI for scheduling bugs that have already been technically assessed. There are two scheduling scenarios to be considered:
 
-1. Bug issues estimated at weight = 1 or 2. These may be added to the active Geo build board for asap execution. For this purpose, the bug can be labelled with `geo::active` and `workflow::ready for development`. Engineers are then responsible to pick these up at their own discretion "in parallel" to their regular work during any given iteration. Engineers are expected to take at least one of these "small" bugs per iteration. 
+1. Bug issues estimated at weight = 1 or 2. These may be added to the active Geo build board for asap execution. For this purpose, the bug can be labeled with `geo::active` and `workflow::ready for development`. Engineers are then responsible to pick these up at their own discretion "in parallel" to their regular work during any given iteration. Engineers are expected to take at least one of these "small" bugs per iteration.
 
 2. Bugs weighted > 3. These should be treated as other feature work and prioritized in relation to other roadmap items. When the PM is ready to have these move ahead they can assign the labels `geo::active` and `workflow::ready for development`. It will then wait for an engineer to finish their long-term assignments before they can shift their focus to one of them.
 
-In both of these instances, the PM must assign a `priority` label to the issue. 
+In both of these instances, the PM must assign a `priority` label to the issue.
 
 For a bug to be ready for execution it must meet the following criteria:
 
@@ -303,67 +307,112 @@ For a bug to be ready for execution it must meet the following criteria:
   - Validated that it is a bug and the PM agrees that it must be resolved
   - The bug has been reproduced in staging or local development environment
   - The possible resolution approach is understood
-  - An effort estimate has been provided 
+  - An effort estimate has been provided
   - Its severity and priority are understood
-- Labelled with: `group::geo`, `geo::active` and `workflow::ready for development`
+- labeled with: `group::geo`, `geo::active` and `workflow::ready for development`
 - Labels for `severity` and `priority` have been set
 
 Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
 
-#### Engineering Triage Rotation Process
+#### Engineering Customer/Support Rotation Process (Trial Phase)
 
-Every month, a Geo engineer is assigned to be the DRI for doing the technical assessment of bugs (see section above on Phase 2 of the triage process). 
+Every week, a Geo engineer is assigned to be the DRI for doing the technical assessment of customer support tickets + monitoring [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel for support issues.
 
-A different backend engineer is assigned to triage rotation each month and we schedule monthly shifts 3 to 6 months in advance.
+A different backend engineer is assigned to support rotation each week and we schedule shifts 2 to 6 months in advance. This is a new rotation documented here in this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5118)
 
 Process summary:
-- Every month, a slack reminder in #geo-lounge channel will let the group know that a new shift is starting for technical assessment triage. 
-- Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder. 
-- The outgoing DRI should connect with the incoming DRI and transfer the knowledge of the current bug issues being triaged. Anything still `awaiting feedback` should be highlighted and discussed. 
-  - The outgoing DRI should post a summary to the current year's Geo Bug Triage - Rotation discussion issue (i.e. [this one](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5066) for 2023). 
-  - The summary should list the bugs that were triaged during the month with the corresponding outcome (i.e. either moved to `workflow::scheduling` or closed) 
-  - The summary should highlight any triage bugs that are in transition and awaiting feedback with a knowledge transfer note indicating the work that has been done and the next steps. 
-- The DRI currently assigned to the rotation should then dedicate a portion of their week (4-6 hours) to review issues from the bug backlog as defined in the "Phase 2: Technical Assessment" section of the triage process described above. 
+
+- Every week, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new support shift is starting for technical assessment triage.
+- Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
+- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/geo-customers/-/issues/?label_name%5B%5D=support) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
+  - Be first on point to triage questions in our [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel. Now that we have a slack workflow -> this should be taught/triggered per more complex questions and quickly answer anything that's short and sweet.
+  - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
+- If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
+- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5120) for example for the 2024 rotation similiar to the bug triage process.
+
+##### Combined Schedule
+
+| Rotation   | Month     | Start Date | End Date   | Name                                                 |
+| ---------- | --------- | ---------- | ---------- | ---------------------------------------------------- |
+| Support    | July      | 2024-07-08 | 2024-07-12 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | July      | 2024-07-15 | 2024-07-19 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Bug Triage |           | 2024-07-08 | 2024-07-19 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | July      | 2024-07-22 | 2024-07-26 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | July      | 2024-07-29 | 2024-08-02 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Bug Triage |           | 2024-07-22 | 2024-08-02 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | August    | 2024-08-05 | 2024-08-09 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | August    | 2024-08-12 | 2024-08-16 | [`@brodock`](https://gitlab.com/brodock)             |
+| Bug Triage |           | 2024-08-05 | 2024-08-16 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | August    | 2024-08-19 | 2024-08-23 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | August    | 2024-08-26 | 2024-08-30 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Bug Triage |           | 2024-08-19 | 2024-08-30 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | September | 2024-09-02 | 2024-09-06 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | September | 2024-09-09 | 2024-09-13 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Bug Triage |           | 2024-09-02 | 2024-09-13 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | September | 2024-09-16 | 2024-09-20 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | September | 2024-09-23 | 2024-09-27 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Bug Triage |           | 2024-09-16 | 2024-09-27 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Support    | September | 2024-09-30 | 2024-10-04 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | October   | 2024-10-07 | 2024-10-11 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Bug Triage |           | 2024-09-30 | 2024-10-11 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Support    | October   | 2024-10-14 | 2024-10-18 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Support    | October   | 2024-10-21 | 2024-10-25 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Bug Triage |           | 2024-10-14 | 2024-10-25 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | October   | 2024-10-28 | 2024-11-01 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | November  | 2024-11-04 | 2024-11-08 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Bug Triage |           | 2024-10-28 | 2024-11-08 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | November  | 2024-11-11 | 2024-11-15 |                                                      |
+| Support    | November  | 2024-11-18 | 2024-11-22 |                                                      |
+| Bug Triage |           | 2024-11-11 | 2024-11-22 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | November  | 2024-11-25 | 2024-11-29 |                                                      |
+| Support    | December  | 2024-12-02 | 2024-12-06 |                                                      |
+| Bug Triage |           | 2024-11-25 | 2024-12-06 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | December  | 2024-12-09 | 2024-12-13 |                                                      |
+| Support    | December  | 2024-12-16 | 2024-12-20 |                                                      |
+| Bug Triage |           | 2024-12-09 | 2024-12-20 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Support    | December  | 2024-12-23 | 2024-12-27 | Christmas Break?                                     |
+| Support    | December  | 2024-12-30 | 2025-01-03 | Christmas Break?                                     |
+| Bug Triage |           | 2024-12-23 | 2024-01-03 | Christmas Break?                                     |
+
+#### Engineering Bug Triage Rotation Process
+
+Every two weeks, a Geo engineer is assigned to be the DRI for doing the technical assessment of bugs (see section above on Phase 2 of the triage process) and monitor staging ref for any pipeline failures and creating issues when those occur.
+
+A different backend engineer is assigned to triage rotation each two weeks and we schedule monthly shifts 3 to 6 months in advance.
+
+Process summary:
+
+- Every two weeks, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new shift is starting for technical assessment triage.
+- Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
+- The outgoing DRI should connect with the incoming DRI and transfer the knowledge of the current bug issues being triaged. Anything still `awaiting feedback` should be highlighted and discussed.
+  - The outgoing DRI should post a summary to the current year's Geo Bug Triage - Rotation discussion issue (i.e. [this one](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5066) for 2023).
+  - The summary should list the bugs that were triaged during the month with the corresponding outcome (i.e. either moved to `workflow::scheduling` or closed)
+  - The summary should highlight any triage bugs that are in transition and awaiting feedback with a knowledge transfer note indicating the work that has been done and the next steps.
+  - The DRI should also summarize whether there were any issues raised from staging-ref failures.
+- The DRI currently assigned to the rotation should then dedicate a portion of their week (4-6 hours) to review issues from the bug backlog as defined in the "Phase 2: Technical Assessment" section of the triage process described above.
 - If the DRI is unable to perform an upcoming triage rotation shift due to PTO, they are expected to find a backup or notify the EM to find a backup.
 
-##### Schedule
+##### Schedule(Deprecated)
 
-| Month     | Name                                                   |
-| --------- | ------------------------------------------------------ |
-| **2024**  |                                                        |
-| December  |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |             
-| November  | [`@kyetter`](https://gitlab.com/kyetter)               |
-| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
-| September | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| August    | [`@mkozono`](https://gitlab.com/mkozono)               |
-| July      | [`@kyetter`](https://gitlab.com/kyetter)               |
-| June      |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |           
-| May       | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
-| April     | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| March     | [`@brodock`](https://gitlab.com/brodock)               |
-| February  | N/A                                                    |
-| January   | [`@mkozono`](https://gitlab.com/mkozono)               |
-| **2023**  |                                                        |
-| December  | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| November  | [`@jtapiab`](https://gitlab.com/jtapiab)               |
-| October   | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
-| September | [`@brodock`](https://gitlab.com/brodock)               |
-| August    | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
-| July      | [`@vsizov`](https://gitlab.com/vsizov)                 |
-| June      | [`@mkozono`](https://gitlab.com/mkozono)               |
-| May       | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| April     | [`@jtapiab`](https://gitlab.com/jtapiab)               |
-| March     | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
-| February  | [`@brodock`](https://gitlab.com/brodock)               |
-| January   | [`@brodock`](https://gitlab.com/brodock) (missed)      |
+| Month     | Name                                                 |
+| --------- | ---------------------------------------------------- |
+| **2024**  |                                                      |
+| December  | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| November  | [`@kyetter`](https://gitlab.com/kyetter)             |
+| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| September | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| August    | [`@mkozono`](https://gitlab.com/mkozono)             |
+| July      | [`@kyetter`](https://gitlab.com/kyetter)             |
+| June      | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| May       | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
 
 ## Retrospectives
 
-Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wrong-retrospectives-are-not-the-most-critical-part-of-agile-but-they-are-close) of the agile methodology. However, having a retro should not be about checking-off a mark in our agile todo list. The purpose of the retro is to learn and then take action that leads to a better place. We learn from our past actions and results and we use that knowledge to improve our future execution. 
+Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wrong-retrospectives-are-not-the-most-critical-part-of-agile-but-they-are-close) of the agile methodology. However, having a retro should not be about checking-off a mark in our agile todo list. The purpose of the retro is to learn and then take action that leads to a better place. We learn from our past actions and results and we use that knowledge to improve our future execution.
 
 At GitLab there is a general guideline to conduct [group retrospectives](/handbook/engineering/management/group-retrospectives/) and a process automation to run retrospectives [asynchronously](https://gitlab.com/gitlab-org/async-retrospectives). The Geo team however is working with a new process that combines elements of fully asynchronous work with the benefits of active conversation and the increased level of engagement that these types of interactions bring.
 
-The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page. 
+The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page.
 
 ## FAQ
 
@@ -372,6 +421,7 @@ The details of this process is documented in our [Geo Team Retrospectives](../re
 "Pull from the right". That means, start at the right hand side of the build board, and move towards the left.
 
 In order, that means:
+
 - Can you help anyone with reviews?
 - Can you unblock anyone in development?
 - Pick from the top of the "ready for development" column on the [Kanban Build board](https://gitlab.com/groups/gitlab-org/-/boards/1181257?milestone_title=%23started&&label_name[]=Geo).

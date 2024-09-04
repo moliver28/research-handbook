@@ -95,7 +95,7 @@ then selecting the `Test webhook` option.
 Either method brings up a side menu to test the webhook. The exact nature of
 what is there depends on the type request format the webhook uses.
 
-#### Form encoded webhook testing
+### Form encoded webhook testing
 
 For form encoded webhooks, you will be given the option to fill in key:value
 pairs (you can add as many as is needed by clicking `+ add parameters`). Once
@@ -103,7 +103,7 @@ you have all those filled out, click the `Send test` button to send run the
 webhook with your given values. It will then return the response from the
 webhook run for you to analyze.
 
-#### JSON webhook testing
+### JSON webhook testing
 
 For JSON webhooks, you will by given a drop-down with two options:
 
@@ -140,7 +140,7 @@ To ensure all webhooks we utilize are both consistent in nature and transparent
 in their actions, we strive to meet some standards on all webhooks we work
 with.
 
-#### Naming standards
+### Naming standards
 
 As Zendesk webhooks are selected when used in triggers and the like, you should
 aim to have the webhook's name reflect what it is doing. Whenever possible, be
@@ -152,12 +152,12 @@ As the webhook changes are unique in deployment, please see
 [Zendesk webhook change management](/handbook/support/readiness/operations/docs/change_management#zendesk-webhook-change-management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Zendesk webhooks, the label
 `Support-Ops-Category::Zendesk Settings` should be used.
 
-#### Change criticality
+### Change criticality
 
 As a webhook does nothing on its own, all issues/MRs related to Zendesk webhooks
 will be classified as

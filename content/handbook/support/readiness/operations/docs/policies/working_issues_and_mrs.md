@@ -13,7 +13,7 @@ time tracking to help with things like defining our hiring model and measuring
 workload. As you work issues and merge requests, make sure you utilize this
 feature.
 
-## Labeling
+### Labeling
 
 Labels help you tag issues, merge requests, and epics within GitLab.
 
@@ -105,7 +105,7 @@ deletion. Keep in mind that doing so will remove the label from all items it
 exists on. If you are sure you wish to confirm the deletion, click the red
 `Delete label` button.
 
-## Milestones
+### Milestones
 
 In regards to milestones, as per
 [GitLab](https://docs.gitlab.com/ee/user/project/milestones/):

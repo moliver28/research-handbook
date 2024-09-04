@@ -1,17 +1,7 @@
 ---
-
 title: "Professional Services Engagement Management"
 description: "Describes the workflow and responsibilities of the GitLab Professional Services Engagement Manager."
-
 ---
-
-
-
-
-
-
-
-# Professional Services Engagement Management
 
 ## Role of the Engagement Manager
 
@@ -28,7 +18,6 @@ The [Professional Services (PS) Engagement Manager](/job-families/sales/job-prof
 - Provide soft hand-off of the SOW to the Delivery team upon signature to ensure a smooth transition.
 
 [Detailed Job Responsibility Priortization](task-prioritization)
-
 
 ## Meet the Team
 

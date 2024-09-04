@@ -1,5 +1,4 @@
 ---
-
 title: "Reseller Marketing Kit"
 ---
 
@@ -11,13 +10,13 @@ The information contained in this section will provide you with solid understand
 - [GitLab elevator pitch](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/)
 - [GitLab solutions](https://about.gitlab.com/solutions/)
 - [GitLab pricing](https://about.gitlab.com/pricing/)
-    - [Value of selling GitLab Ultimate](https://about.gitlab.com/pricing/ultimate/)
+  - [Value of selling GitLab Ultimate](https://about.gitlab.com/pricing/ultimate/)
 - [GitLab product vision/roadmap](https://about.gitlab.com/direction/)
 - [GitLab personas](/handbook/product/personas/)
 - [GitLab competitive analysis](https://about.gitlab.com/why-gitlab/)
 - [Customer success stories](https://about.gitlab.com/customers/)
 
-Join GitLab’s Slack Reseller channel by emailing vgoetz@gitlab.com to keep current on new content assets, upcoming sales and technical training sessions and more.
+Join GitLab's Slack Reseller channel by emailing vgoetz@gitlab.com to keep current on new content assets, upcoming sales and technical training sessions and more.
 
 ## Training & Enablement
 

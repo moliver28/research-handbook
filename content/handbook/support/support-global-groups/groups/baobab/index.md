@@ -1,12 +1,10 @@
 ---
-
 title: Home Page for Support's Baobab Group
 description: Home Page for Support's Baobab Group
 ---
 
 <!-- Search for all occurrences of NAME and replace them with the group's name.
      Search for all occurrences of URL HERE and replace them with the appropriate url -->
-
 
 ## Baobab resources
 
@@ -31,13 +29,6 @@ Suggestions for improvements to these workflows are encouraged at any time, from
   - Consider keeping yourself CCed on ticket, at least till an assignee is found.
   - If nobody volunteered or has the knowledge to take it, maybe ask an expert from another SGG.
   - As a last resort, ask the manager on-call to help find an assignee.
-
-## How to handle HPAR tickets
-
-- Reply if you can or leave an internal comment, especially if the ticket is near breaching, and
-  take assignment of it.
-- Make sure to leave a word for the next region to keep an eye on the ticket (in a handover thread on slack),
-  or have other unofficial assignees in other regions. Identify those people and work with them towards resolution.
 
 ## How to handle NRTs
 
@@ -87,8 +78,8 @@ There are Ticket Crush sessions scheduled at the following times:
 There is also a social chat on Fridays at 10:30 UTC.
 
 Adding a trial NRTea party:
-- Mondays at 12:00 UTC (EMEA)
 
+- Mondays at 12:00 UTC (EMEA)
 
 ## Focus Time
 
@@ -104,9 +95,9 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Asmaa Hassan| 1:00 - 3:00 PM |  | | | 1:00 - 3:00 PM |
 | Katrin | | | | all day | |
-| Niklas |
-| Julius |
-| Paul |
+| Niklas | | | | | |
+| Julius | | | | | |
+| Paul | | | | | |
 | Olivier | 7:00 - 11:00 AM|||||
 
 **AMER Focus Time:**
@@ -115,11 +106,11 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Harish | |  | | |  |
 | Davin Walker | | | | | |
-| Caleb Williamson |
-| Alejandro Guerrero |
-| Bo Carbonell |
-| Jio Castillo |
-| Jessie Lee |
+| Caleb Williamson | | | | | |
+| Alejandro Guerrero | | | | | |
+| Bo Carbonell | | | | | |
+| Jio Castillo | | | | | |
+| Jessie Lee | | | | | |
 
 **APAC Focus Time:**
 
@@ -127,6 +118,6 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Matthew Badeau | | | 06:00 - 09:00 AM | 06:00 - 09:00 AM | |
 | James Reed | | | | | |
-| Shaik Azhar |
-| Sam Hewitt |
-| Justin Farmiloe |
+| Shaik Azhar | | | | | |
+| Sam Hewitt | | | | | |
+| Justin Farmiloe | | | | | |

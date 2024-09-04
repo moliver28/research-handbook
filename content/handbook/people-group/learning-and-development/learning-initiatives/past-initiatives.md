@@ -31,7 +31,7 @@ The following process outlines steps for the L&D team to take each month when pl
 
 **Planning Issue Template:** Open an Monthly Continuous Learning Call issue template in the L&D Project. Steps outlined below are also included in the issue template and are included here as reference.
 
-1. Post in the [#people-connect Slack channel](https://app.slack.com/client/T02592416/C02360SQQFR) to coordinate a Zoom meeting on the company calendar. This meeting should be set up to live stream to the GitLab unfiltered YouTube channel. Consider hosting the call at least 2 times to best accommodate for multiple time zones.
+1. Create a HelpLab request to coordinate a Zoom meeting on the company calendar. This meeting should be set up to live stream to the GitLab unfiltered YouTube channel. Consider hosting the call at least 2 times to best accommodate for multiple time zones.
 1. Create slide deck for presentation. Make a copy of a previous month's presention in the [Continuous Learning Campaign Google Folder](https://drive.google.com/drive/folders/1d4ksJXBMrATATxN0QyJ4FA6hzchMNdvb?usp=sharing)
 1. Coordinate slide deck with appropriate enablement audiences (i.e DIB, Field Enablement, Professional Services, Marketing Enablement, etc)
 1. Update slide deck for presentation with feedback from coordinated audiences

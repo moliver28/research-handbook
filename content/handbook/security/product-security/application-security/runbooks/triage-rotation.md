@@ -12,10 +12,10 @@ One application security engineer is assigned this task each week and can be fou
 The following rotations are defined:
 
 - (Weekly Assignment) HackerOne + Security Dashboard Review
-    - Point of contact for "New" HackerOne reports during that week.
-    - Responsible to escalating to other team members and management if the size of
+  - Point of contact for "New" HackerOne reports during that week.
+  - Responsible to escalating to other team members and management if the size of
     the either queue spikes.
-    - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
+  - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
 - (Weekly Assignment) Triage Rotation (mentions and issues), by order of priority:
   - Daily triage of [FedRAMP vulnerabilities reported by our scanners](https://internal.gitlab.com/handbook/security/application_security/runbooks/fedramp-scanner-triage-process/)
     - This is a mandatory daily check to make sure we do triage of vulnerabilities.

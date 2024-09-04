@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Version Check"
 ---
-
-
-
-
-
-
 
 [Blog post about version check](https://about.gitlab.com/blog/2015/05/07/version-check/)
 
@@ -32,9 +25,9 @@ relation to the upgrades available.
 
 **UI Representation**
 
-| Up to date | Update available | Update ASAP
+| Up to date | Update available | Update ASAP |
 | ------ | ------ | ------ |
-| <img src="images/up-to-date-badge.png" width="300px" /> | <img src="images/update-available-badge.png" width="300px" /> | <img src="images/update-asap-badge.png" width="300px" /> |
+| <img src="images/up-to-date-badge.png" width="300px" alt="" /> | <img src="images/update-available-badge.png" width="300px" alt="" /> | <img src="images/update-asap-badge.png" width="300px" alt="" /> |
 
 **UI Location(s)**
 
@@ -115,7 +108,7 @@ receive a response. None of this information is saved.
 
 ## What is version.gitlab.com?
 
-Version.gitlab.com responds to the requests mentioned above with 
+Version.gitlab.com responds to the requests mentioned above with
 up-to-date version information. It does not save any of the provided data.
 
 ## Which information can be derived from the HTTP referrer?

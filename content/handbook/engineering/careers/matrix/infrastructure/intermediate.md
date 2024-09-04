@@ -39,7 +39,7 @@ Intermediate-level engineers in Infrastructure are primarily focused on completi
 1. Completes required interview training and learns how to provide support to hiring managers for hiring and onboarding processes.
 1. Recognizes interrupts affecting the team throughput, and exposes them regularly to their manager.
 1. Supports colleagues who are currently on-call by assisting with investigations or making simple improvements to on-call tooling.
- 
+
 ## Engineering alignment
 
 ### Intermediate Leadership Competencies

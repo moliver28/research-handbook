@@ -26,6 +26,7 @@ Technology is a fast-evolving landscape. To avoid any surprises in the future, i
 ## Objective of performing a competitor evaluation
 
 There are several objectives for conducting competitor evaluations:
+
 - Highlight opportunities and make informed recommendations to improve products and place GitLab ahead of the competition.
 - Speed up the design process by making less risky assumptions and increasing our confidence in proposals based on the insights found.
 - Avoid the same pitfalls that our competitors face.
@@ -34,11 +35,10 @@ To help determine the maturity of a category across industry more accurately, ou
 
 ## How to get started
 
-Start by creating a new issue using the [competitor evaluation issue template](https://gitlab.com/gitlab-org/competitor-evaluations/-/blob/master/.gitlab/issue_templates/Competitor%20Evaluation.md?ref_type=heads). The issue template includes a list of steps, as well as helpful links on how to go about completing an evaluation. 
+Start by creating a new issue using the [competitor evaluation issue template](https://gitlab.com/gitlab-org/competitor-evaluations/-/blob/master/.gitlab/issue_templates/Competitor%20Evaluation.md?ref_type=heads). The issue template includes a list of steps, as well as helpful links on how to go about completing an evaluation.
 
 ## Legal considerations
 
 Follow the instructions on the [Legal Product Guidance](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/#guidelines-for-leveraging-third-party-saas-free-trials-to-gain-competitive-intelligence) internal handbook page when planning and conducting a competitor evaluation.
-
 
 [Learn more about performing competitor evaluations](https://gitlab.com/gitlab-org/competitor-evaluations#performing-a-competitor-evaluation)

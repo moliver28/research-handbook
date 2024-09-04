@@ -17,7 +17,7 @@ The VP, Online Sales and Self Service is a [grade 12](/handbook/total-rewards/co
 - Partner closely with Sales, Marketing, Product Management, Fulfillment and Support teams to optimize e-commerce processes to meet broad company objectives.
 - Consolidate self-service business requirements from all segments, channels, and geographies and provide a single business plan and interface for the product teams.
 - Establish and deliver on a strategy to land new customers with a mutual vision for expansion and expand existing accounts with purpose, driving customer success and predictable year-over-year ARR growth for GitLab.
-- Maintain key customer kpi for conversion and self-serve retention programs. Develop and implement strategies for expanding the company’s customer base via self service.
+- Maintain key customer kpi for conversion and self-serve retention programs. Develop and implement strategies for expanding the company's customer base via self service.
 - Build a team of program managers, analysts, sales support specialists and systems designers to define business requirements, test and iterate to fulfill needs of customer  experience.
 - Own both native and overlay quota.
 - Exceed growth and sales efficiency targets.
@@ -27,7 +27,7 @@ The VP, Online Sales and Self Service is a [grade 12](/handbook/total-rewards/co
 
 ## Requirements
 
-- A solid track record of online sales growth and target attainment  
+- A solid track record of online sales growth and target attainment
 - Has specialized knowledge of the Online Sales, Self Service/e-commerce space, and customers
 - Proven second-line management experience with deep domain experience in the Online Sales vertical, including a history of successfully selling through the e-commerce channel
 - Multiple repeatable proof points of recruiting, hiring, developing, and retaining leaders and individual contributors that make up a high performing online sales organization.
@@ -40,17 +40,17 @@ The VP, Online Sales and Self Service is a [grade 12](/handbook/total-rewards/co
 - Polished presentation skills
 - Ability to handle a fast-paced environment and ambitious workload
 - Bachelor degree
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Performance Indicators
 
-- As with all roles in the Sales department the VP of Enterprise Sales participates in the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary).
+- As with all roles in the Sales department the VP of Enterprise Sales participates in the [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary).
 - Specific to this role:
-  - [CAC Ratio](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#cac-ratio) (target: Monthly target set by Finance)
-  - [Percent of Ramped Reps at or Above Quota](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#percent-of-ramped-reps-at-or-above-quota) (target: greater than 55%)
-  - [Percent of Ramping Reps at or Above 70% of Quota](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#percent-of-ramping-reps-at-or-above-70-of-quota) (target: greater than 70%)
-  - [Churn and Contraction / ATR](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#churn-and-contraction-atr) (target: Quarterly target set by Sales & Finance)
-  - [ARPU](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#arpu) (target: 1.5% increase per month)
+  - [CAC Ratio](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#cac-ratio) (target: Monthly target set by Finance)
+  - [Percent of Ramped Reps at or Above Quota](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#percent-of-ramped-reps-at-or-above-quota) (target: greater than 55%)
+  - [Percent of Ramping Reps at or Above 70% of Quota](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#percent-of-ramping-reps-at-or-above-70-of-quota) (target: greater than 70%)
+  - [Churn and Contraction / ATR](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#churn-and-contraction-atr) (target: Quarterly target set by Sales & Finance)
+  - [ARPU](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#arpu) (target: 1.5% increase per month)
 
 ## Career Ladder
 

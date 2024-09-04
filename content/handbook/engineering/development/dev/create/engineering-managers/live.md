@@ -1,14 +1,6 @@
 ---
-
 title: How we live our values
 ---
-
-
-
-
-
-
-
 
 The Create Engineering Managers lead by example.  This page shares how the EMs live GitLab [values](/handbook/values/).
 
@@ -22,13 +14,13 @@ The Create Engineering Managers lead by example.  This page shares how the EMs l
 
 - Development and implementation of Quarterly OKRs
 - Planning Sprints with Product Managers
-- Manage Employee Development 
+- Manage Employee Development
 - Propose Cross Team or Cross stage Initiatives
 - Strive for 70-80% Create Say / Do  Metrics
 - Participation in Working Groups
 - Regularly Review Dashboards
-- Host Team Retrospectives 
-- Continuously refine and improve team processes based on feedback from Retrospectives, [Skip Level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/), 1-1’s, 360 Feedback and [Employee Engagement Surveys](/handbook/engineering/development/dev/create/engineers/engagement-survey/)
+- Host Team Retrospectives
+- Continuously refine and improve team processes based on feedback from Retrospectives, [Skip Level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/), 1-1's, 360 Feedback and [Employee Engagement Surveys](/handbook/engineering/development/dev/create/engineers/engagement-survey/)
 - Support Team Members in their Employee Development
 
 ## Efficiency
@@ -52,7 +44,7 @@ The Create Engineering Managers lead by example.  This page shares how the EMs l
 
 - Audit your work schedule by determining where you are spending the most time
 - Analyze your work schedule and determine if there are opportunities for delegation
-- Use the calendar to color code your activity categories to better visualize where you are spending your time (e.g: Focus Time, 1’1s, Coffee Chats, Team Sync Meetings, Meeting Prep, Focused Software Development, etc)
+- Use the calendar to color code your activity categories to better visualize where you are spending your time (e.g: Focus Time, 1'1s, Coffee Chats, Team Sync Meetings, Meeting Prep, Focused Software Development, etc)
 - Compare where you are spending your time to your Job Family and to the Engineering Career Framework and ensure you are working on the right things
 
 **Delegation**
@@ -75,7 +67,7 @@ The Create Engineering Managers lead by example.  This page shares how the EMs l
 - Online Diversity Training for Engineering Managers (5+ hours)
 - [GitLab Diversity Inclusion And Belonging Certification & Training](/handbook/company/culture/inclusion/dib-training/)
 - [Bias toward Async communication](/handbook/company/culture/all-remote/asynchronous/)
-- Make Family feel welcome through activities such as [Family and Friends Day](/handbook/company/family-and-friends-day/), and  Create Team Day 
+- Make Family feel welcome through activities such as [Family and Friends Day](/handbook/company/family-and-friends-day/), and  Create Team Day
 
 ## Iteration
 

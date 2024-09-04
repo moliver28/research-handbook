@@ -4,61 +4,6 @@ description: Support Operations policies page for Zendesk maintenance
 canonical_path: "/handbook/support/readiness/operations/docs/policies/zendesk_maintenance"
 ---
 
-## SGG issues
-
-**Note** This applies to Zendesk Global only.
-
-From time to time, human interference can cause routing issues with our support
-global groups (SGG) routing. You need to be aware of these issues and rectify
-them manually whenever possible. We recommend making two personal views to
-easily catch the two types of issues.
-
-#### Tickets in SGG void
-
-These are tickets using a support form that has a SGG value of "Not Applicable".
-This causes them to sit in a void where they will not normally get seen. When
-you come across these, you need to set the SGG to a blank value so they will get
-round robined.
-
-To help with this, we recommend setting up a view with the following conditions:
-
-- Tickets must meet all of these conditions to appear in the view
-  - Status less than closed
-  - SGG is not applicable
-  - Assignee is null
-- Tickets can meet any of these conditions to appear in the view
-  - Form is SaaS
-  - Form is SaaS Account
-  - Form is Self-Managed
-  - Form is GitLab Dedicated
-  - Form is Open Partner
-  - Form is Select Partner
-  - Form is Alliance Partners
-
-#### Incorrect SGG
-
-These are tickets in a support form assigned to an agent but the SGG value is
-"Not Applicable". This causes them to sit in a void where only the assignee
-would see them. When you come across these, you need to set the SGG to a
-assignee's SGG value (you can locate that via the
-[Support Global Groups page](https://gitlab-com.gitlab.io/support/team/sgg)
-of the Support team page).
-
-To help with this, we recommend setting up a view with the following conditions:
-
-- Tickets must meet all of these conditions to appear in the view
-  - Status less than closed
-  - SGG is not applicable
-  - Assignee is not null
-- Tickets can meet any of these conditions to appear in the view
-  - Form is SaaS
-  - Form is SaaS Account
-  - Form is Self-Managed
-  - Form is GitLab Dedicated
-  - Form is Open Partner
-  - Form is Select Partner
-  - Form is Alliance Partners
-
 ## Suspended and deleted tickets
 
 Once a shift, Support Ops should go through the Suspended and Deleted tickets in Zendesk. The objective is to clear these views out. For references, the views are:
@@ -68,7 +13,7 @@ Once a shift, Support Ops should go through the Suspended and Deleted tickets in
 - [Suspended tickets for ZD US Federal](https://gitlab-federal-support.zendesk.com/agent/filters/suspended)
 - [Deleted tickets for ZD US Federal](https://gitlab-federal-support.zendesk.com/agent/filters/deleted)
 
-#### Suspended tickets
+### Suspended tickets
 
 For the suspended tickets, you will need to review the contents of said ticket
 (done by clicking the subject) to determine if the ticket is legitimate or not.
@@ -82,7 +27,7 @@ has likely faced a delay and might be close to (if not) breaching SLA.
 If the ticket is not legitimate, you should click the arrow on the right hand
 side of the button and select Delete.
 
-#### Deleted tickets
+### Deleted tickets
 
 For deleted tickets, you should look over the tickets present and make sure
 they should be deleted. This will require looking at the reason and the

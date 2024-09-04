@@ -1,11 +1,8 @@
 ---
-
 title: Handling Internal Requests
 description: "Various templates and workflows that should be followed in order to properly handle GitLab.com related requests that Support receives in the internal requests issue tracker"
 category: GitLab.com
 ---
-
-
 
 **NOTE:** If you are a GitLab team member who wants to file an internal request, please see the [Support Internal Requests handbook page](/handbook/support/internal-support/).
 
@@ -61,11 +58,15 @@ For sales assisted trials, only we can override the credit card validation requi
 
 Sales team members will typically open this on behalf of their prospects in order to extend an active trial. You can follow the [L&R Workflow for Extending Trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials).
 
+## Ask for Support as a Solution Architect
+
+Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
+
 ## Inactive Namespace Request
 
 GitLab Team Members can no longer submit inactive namespace / namesquatting requests for their own use. See: [support-team-meta#5170](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170)
 
-Customers can submit a support ticket. See [Name Squatting Policy]({{< ref "namesquatting_policy" >}}).
+Customers can submit a support ticket. See [Name Squatting Policy](/handbook/support/workflows/namesquatting_policy/).
 
 ## Contact Request
 
@@ -136,3 +137,24 @@ Common or custom functions can be found in the [support runbooks](https://gitlab
 For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. Unless the situation is urgent, get another set of eyes in your code to confirm what you want to achieve.
 
 If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production.
+
+## CI Catalog Badge requests
+
+[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
+
+1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
+1. In the following query, replace `root-level-group` with the namespace and verification level (`GITLAB_PARTNER_MAINTAINED`, `VERIFIED_CREATOR_MAINTAINED`) provided in the internal request:
+
+   ```graphql
+   mutation {
+     verifiedNamespaceCreate(input: { namespacePath: "root-level-group",
+       verificationLevel: GITLAB_PARTNER_MAINTAINED
+       }) {
+       errors
+     }
+   }
+   ```
+
+1. Execute the query via GraphiQL
+   - In case of an error, reach out in [#g_pipeline-authoring](https://gitlab.enterprise.slack.com/archives/C019R5JD44E) for assistance
+1. When closing the internal request as actioned on, ping the requester to let them know the badge was applied

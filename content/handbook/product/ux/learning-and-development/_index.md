@@ -8,7 +8,7 @@ Welcome to Learning and Development for the UX Department at GitLab! You are wel
 
 The resources in this page are meant to support product designers, researchers, technical writers, and their managers to explore, learn and grow at their own pace. We aim to collect content that spans various skill levels, as well as various levels of depth/commitment. It is recommended that the UX Department engage with the resources here to help them have a successful journey at GitLab and in their career as a whole.
 
-Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/spending-company-money/).
+Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/spending-company-money/).
 
 ## Growth and Development
 
@@ -99,7 +99,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook
 
-- [Minimum Viable Experiment](/handbook/marketing/growth/engineering/experimentation/#minimum-viable-experiment-mve)
+- [Minimum Viable Experiment](/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 
@@ -107,13 +107,13 @@ Managers should add approved growth and development programs to the [department 
 
 - [GitLab Growth experiment discussion: Adding the "Invite members" option in assignee dropdowns](https://www.youtube.com/watch?v=J5h_SNH3Nt8&list=PL05JrBw4t0Kr_-AowJmbhGk9yj_zIZySf&index=17)
 - [Growth Coffee & Learn: Anuj — Author Growth Hacking for Dummies](https://www.youtube.com/watch?v=a3VIrCSq_k8&list=PL05JrBw4t0Kr_-AowJmbhGk9yj_zIZySf&index=4)
-- [UX Showcase: New user onboarding strategy](https://www.youtube.com/watch?v=pihqBsophmE&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=33)
-- [UX Showcase: New User Onboarding](https://www.youtube.com/watch?v=NLDzr69D2Pw&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=56)
-- [UX Showcase - Growth - Continuous Onboarding](https://www.youtube.com/watch?v=G345H1Fgpo4&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=32)
-- [UX Showcase: An improved Trial Signup for GitLab.com](https://www.youtube.com/watch?v=5WWZsdJcr2k&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=149)
-- [UX Showcase: Promoting the value of locked features](https://www.youtube.com/watch?v=9_5PFgRFN74&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=150)
-- [UX Showcase: Authoring a Pipeline for the first time](https://youtu.be/wM97njPA8-w)
-- [UX Showcase: Simple changes, significant results](https://www.youtube.com/watch?v=uV0alFo_wfI)
+- [UX Forum: New user onboarding strategy](https://www.youtube.com/watch?v=pihqBsophmE&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=33)
+- [UX Forum: New User Onboarding](https://www.youtube.com/watch?v=NLDzr69D2Pw&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=56)
+- [UX Forum: Growth - Continuous Onboarding](https://www.youtube.com/watch?v=G345H1Fgpo4&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=32)
+- [UX Forum: An improved Trial Signup for GitLab.com](https://www.youtube.com/watch?v=5WWZsdJcr2k&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=149)
+- [UX Forum: Promoting the value of locked features](https://www.youtube.com/watch?v=9_5PFgRFN74&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=150)
+- [UX Forum: Authoring a Pipeline for the first time](https://youtu.be/wM97njPA8-w)
+- [UX Forum: Simple changes, significant results](https://www.youtube.com/watch?v=uV0alFo_wfI)
 - [How to launch product experiments at GitLab](https://youtu.be/rEHxAfxr9eU)
 - [UX collaboration on Growth experiments at GitLab](https://youtu.be/wnww8aBoqRY)
 
@@ -198,4 +198,3 @@ Managers should add approved growth and development programs to the [department 
 - From time to time, we run an internal book club on a book from one of our resource lists. Join the conversation in `#ux-book-club`.
 - [GitLab Book Clubs project](https://gitlab.com/gitlab-com/book-clubs)
 - [Leadership Book clubs](/handbook/leadership/book-clubs/)
-

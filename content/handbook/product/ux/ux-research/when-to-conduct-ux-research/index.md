@@ -13,7 +13,7 @@ The content in the following sections is covered in more depth in a 20 minute, s
 
 In general, UX Research can be inserted **at any stage** of the product development life cycle. However, the types of research can vary depending on where teams are in the life cycle. As you continue to read through this page, you will learn more about what kinds of research you can do and **when it is (or isn't)** appropriate.
 
-### Double Diamond model and GitLab’s product development flow
+### Double Diamond model and GitLab's product development flow
 
 The British Design Council developed the [Double Diamond model](https://www.designcouncil.org.uk/our-resources/the-double-diamond/), a process model for UX design. It consists of two diamonds representing two distinct phases:
 
@@ -24,37 +24,37 @@ The British Design Council developed the [Double Diamond model](https://www.desi
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model))
 
-These two phases map to [GitLab’s product development flow, specifically the Validation track](/handbook/product-development-flow/#workflow-summary), where “Phase 1: Design the right thing” equals “[Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)” and “Phase 2: Design things right” equals “[Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)”.
+These two phases map to [GitLab's product development flow, specifically the Validation track](/handbook/product-development-flow/#workflow-summary), where "Phase 1: Design the right thing" equals "[Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)" and "Phase 2: Design things right" equals "[Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)".
 
-- In theory, you should do research to fit wherever you are in the product development workflow. However, in practice, if you already have a solution in place, but haven’t done any research, there’s still time to learn from your users.
+- In theory, you should do research to fit wherever you are in the product development workflow. However, in practice, if you already have a solution in place, but haven't done any research, there's still time to learn from your users.
 - Conduct research often because you can improve the product many times over whenever research is utilized. The goals for any research will evolve as the product begins to take shape.
 
 ### Design the right thing/Problem Validation
 
-Usually this phase starts when there is an initial problem statement about users that we aim to solve. For example, we may have heard something in a customer call or have seen customer feedback that shapes these initial problem statements. It’s also common that there is an assumption or hypothesis of what users may be experiencing without them having it shared directly.
+Usually this phase starts when there is an initial problem statement about users that we aim to solve. For example, we may have heard something in a customer call or have seen customer feedback that shapes these initial problem statements. It's also common that there is an assumption or hypothesis of what users may be experiencing without them having it shared directly.
 
-Either way, what follows next is a phase of discovery research where we aim to understand users' experiences in depth. This is the time to collect as much data as possible to thoroughly understand nuances and details. It’s about going broad, diverging, and embracing the complexity that comes with it. This phase is referred to as “Discover”.
+Either way, what follows next is a phase of discovery research where we aim to understand users' experiences in depth. This is the time to collect as much data as possible to thoroughly understand nuances and details. It's about going broad, diverging, and embracing the complexity that comes with it. This phase is referred to as "Discover".
 
-Once enough data is gathered a phase of convergence begins, the second half of the first diamond. This is when we aggregate learnings and revise the initial problem statement or create one if the discovery research started with an hypothesis or assumption. This phase is referred to as “Define”.
+Once enough data is gathered a phase of convergence begins, the second half of the first diamond. This is when we aggregate learnings and revise the initial problem statement or create one if the discovery research started with an hypothesis or assumption. This phase is referred to as "Define".
 
-For any problem validation research, we have the same goal: *“**A thorough understanding of the problem**: The team understands the problem, who it affects, when and why, and how solving the problem maps to business needs and product strategy.”*
+For any problem validation research, we have the same goal: *"**A thorough understanding of the problem**: The team understands the problem, who it affects, when and why, and how solving the problem maps to business needs and product strategy."*
 
 ### Design things right/Solution Validation
 
-The solution validation phase starts once the problem statement is clearly defined. At the beginning is again a divergent phase where Product Designers explore a lot of different solutions and iterate on them. It’s helpful to conduct solution validation during this time to inform and influence the different design iterations. At the end of the phase, there is one design solution to move forward with for implementation.
+The solution validation phase starts once the problem statement is clearly defined. At the beginning is again a divergent phase where Product Designers explore a lot of different solutions and iterate on them. It's helpful to conduct solution validation during this time to inform and influence the different design iterations. At the end of the phase, there is one design solution to move forward with for implementation.
 
-The goals of solution validation align with these goals: *“**High confidence in the proposed solution**: Confidence that the jobs to be done outlined within the problem statement can be fulfilled by the proposed solution.”*
+The goals of solution validation align with these goals: *"**High confidence in the proposed solution**: Confidence that the jobs to be done outlined within the problem statement can be fulfilled by the proposed solution."*
 
-### Don’t stop here - there’s more UX Research to do!
+### Don't stop here - there's more UX Research to do
 
-Once the feature is released to users, it’s important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the “Improve Phase” of GitLab’s Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
+Once the feature is released to users, it's important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the "Improve Phase" of GitLab's Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
 
 ![Product-Development-Workflow](Product-Development-Workflow.png)
 
 Goals of the Improve Phase:
 
 1. **Understand Qualitative Feedback**: To know how to improve something, it's important to understand the qualitative feedback that we're hearing from users and team members. User interviews, survey verbatims, and customer comments left within GitLab issues can all help inform teams of how well a new feature is being received.
-1. **Measure Quantitative Impact**: Qualitative data is great in helping us understand in detail the [Why, How or What of users’ behaviors](/handbook/product/ux/ux-research/problem-validation-and-methods/#descriptive-and-informative-research-methods). Going a step further and coupling it with quantitative data can help to paint the full picture of what is going on at scale. During implementation, set up dashboards in Tableau to be able to review the performance and engagement of your change.
+1. **Measure Quantitative Impact**: Qualitative data is great in helping us understand in detail the [Why, How or What of users' behaviors](/handbook/product/ux/ux-research/problem-validation-and-methods/#descriptive-and-informative-research-methods). Going a step further and coupling it with quantitative data can help to paint the full picture of what is going on at scale. During implementation, set up dashboards in Tableau to be able to review the performance and engagement of your change.
 
 Insights from the Improve phase may initiate a new round of Problem Validation or Solution Validation.
 
@@ -66,16 +66,16 @@ While research tends to be the most useful towards the beginning of the double d
 
 When considering the level of confidence you may have on a solution or any foundational research, risk needs to also be taken into account. To help with that, let's walk through how each are defined and pose some questions that should be thought about.
 
-**Confidence** - _how confident you are that your design won't negatively impact the UX?_
+**Confidence** - *how confident you are that your design won't negatively impact the UX?*
 
 Some questions to ask yourself to help gauge your level of confidence:
 
 - Can you demonstrate why you have a high level of confidence? (ex: This could be the result of a Solution Validation study, looking at past related research, etc. Mainly, you'll want to identify some concrete justification vs. a gut feeling. Referring to competitor solutions as a justification can be tempting, yet risky, as it's unclear to what extent competitors conducted research themselves to inform their solution.)
-- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](https://handbook.gitlab.com/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
+- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
 - Have you conducted a [UX Scorecard](/handbook/product/ux/ux-scorecards/)? If so, what was the outcome and what was done as a result of it?
 - Why do you think your design won't result in a negative user experience?
 
-**Risk** - _what would happen if the design negatively impacted the UX?_
+**Risk** - *what would happen if the design negatively impacted the UX?*
 
 Some questions to ask yourself to help weigh risk:
 
@@ -87,7 +87,7 @@ Some questions to ask yourself to help weigh risk:
 
 Obtaining answers to the above questions isn't a hard requirement, but more of a best practice when weighing confidence vs. risk in determining if research is needed on a particular topic. Note that this exercise can apply to both Problem Validation and Solution Validation.
 
-## When you shouldn’t do UX Research
+## When you shouldn't do UX Research
 
 There are many times where research is appropriate, but oftentimes we fail to consider reasons to NOT conduct research:
 
@@ -111,7 +111,7 @@ flowchart TB
 
 - **Time or resource constraints**: Situations where studies have very tight due dates, adequate funds are not available to answer research questions, or team members are at capacity. That being said, scrappy research (for example: fewer participants/data than desired, getting feedback from team members instead of recruiting users) when these kinds of limitations happen is always better than no research at all.
 - **Research questions are too broad**: In some cases, research questions can be too complex to undertake (example: what do our customers want in a DevOps platform). UX Researchers should determine whether the questions can be distilled into ones they can feasibly answer.
-- **Unclear goals or action plans**: When there are no plans to respond to user feedback to make meaningful changes to the product or decisions about the direction to take the product. Research findings should have a pathway into some kind of identified impact prior to the project kicking off. You should be able to clearly answer the question ‘What are the expected outcomes of this research?’.
+- **Unclear goals or action plans**: When there are no plans to respond to user feedback to make meaningful changes to the product or decisions about the direction to take the product. Research findings should have a pathway into some kind of identified impact prior to the project kicking off. You should be able to clearly answer the question 'What are the expected outcomes of this research?'.
 - **Using research to check a box**: These are cases where UX Researchers are brought in after a decision has already been made and are asked to conduct research to back up the decision. In these situations, there is little opportunity to make any changes based on research.
-- **When past research or internal data on the topic already exists**: Either teams aren’t aware that internal data is available or haven’t tried to look before requesting to do research on a given topic.
+- **When past research or internal data on the topic already exists**: Either teams aren't aware that internal data is available or haven't tried to look before requesting to do research on a given topic.
 - **Confusion around who the target user is or how to find them**: These are situations where the problem is not well understood enough to know which kinds of users could be impacted or the type of users sought is too narrow to recruit.

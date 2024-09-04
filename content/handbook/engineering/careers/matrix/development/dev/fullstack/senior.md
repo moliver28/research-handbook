@@ -24,7 +24,7 @@ title: "Dev Career Framework: Senior Fullstack Engineer"
 {{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-senior-values-competency.md" %}}

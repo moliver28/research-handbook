@@ -1,15 +1,6 @@
 ---
-
 title: "Hacker News"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/hacker-news/index.html
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -24,6 +15,7 @@ GitLab mentions on Hacker News are tracked on the [#hn-mentions](https://gitlab.
 In 2020, we ran multiple experiments to try to drive interest in new posts about GitLab. We learned that the key to a post reaching the front page was the content itself. Timing of when a post is shared can also help but is out of our control as we do not post our own content. Creating a coordinated response was not effective in driving interest in the posts without organic interest from the Hacker News community. The content is the key to success.
 
 We conducted an audit to see what types of posts about GitLab landed on the front page of Hacker News. We learned that the following types of GitLab-related content generated the most interest on Hacker News:
+
 - Major company news such as announcements about funding, acquisitions, or moving features to core
 - Release posts
 - Announcements from our open source program members including posts from Gnome, KDE, and WikiMedia and other open-source focused content
@@ -75,12 +67,11 @@ Follow the [formatting options documentation](https://news.ycombinator.com/forma
 2. Indent the lines with 2 spaces to format shell commands and code as code blocks (thanks to [this comment](https://news.ycombinator.com/item?id=33108536))
 3. When sharing more than 2 URLs, consider using `[0]`, `[1]`, etc. anchors with a list of URLs at the bottom of the comment. The list needs a blank line between items to render correctly. Separating URLs from text can increase readability and intention of the comment, and making the URLs less important. ([example](https://news.ycombinator.com/item?id=32155848)).
 
-
 ### Conveying without convincing
 
 Remember that your comments are being read by many more folks than the person to whom you are responding. Make sure that the information you share is helpful to them, too. Aim to make your replies valuable to everyone involved in the conversation, not just the person you are replying to. When addressing criticism or negative feedback, it is unlikely to change the mind of someone whose comment or point-of-view is antagonistic or disagreeable but your reply can be valuable to the folks who are simply there to read and learn.
 
-A [comment](https://news.ycombinator.com/item?id=30006193) on Hacker News sums it up well by suggesting to focus on "conveying without convincing". The commenter suggests, "Ensure the facts are made clear and point out disagreements. Share your motivations and reasoning. Ask people to clarify when they say something you don’t understand, or could parse multiple ways. Leave disagreement alone, and don’t press it to change into agreement."
+A [comment](https://news.ycombinator.com/item?id=30006193) on Hacker News sums it up well by suggesting to focus on "conveying without convincing". The commenter suggests, "Ensure the facts are made clear and point out disagreements. Share your motivations and reasoning. Ask people to clarify when they say something you don't understand, or could parse multiple ways. Leave disagreement alone, and don't press it to change into agreement."
 
 ## Blog comments
 
@@ -96,8 +87,8 @@ Blog comments can be easily monitored by filtering forum topics by the [feedback
 - If you comment yourself make sure it is interesting and relevant.
 - Review the Hacker News [Guidelines](https://news.ycombinator.com/newsguidelines.html) and [FAQ](https://news.ycombinator.com/newsfaq.html).
 - Make yourself familiar with [A List of Hacker News's Undocumented Features and Behaviors](https://github.com/minimaxir/hacker-news-undocumented) to understand Hacker News behaviour and moderation rules.
-- Check the tone of your response: Don’t be defensive, but instead share your point of view.
-- Try to teach people something interesting they didn’t know already.
+- Check the tone of your response: Don't be defensive, but instead share your point of view.
+- Try to teach people something interesting they didn't know already.
 - Add value to your post with data points or direct links.
 
 **Note:** You should [review our team member social media policy](/handbook/marketing/team-member-social-media-policy/) before using social media relating to GitLab.

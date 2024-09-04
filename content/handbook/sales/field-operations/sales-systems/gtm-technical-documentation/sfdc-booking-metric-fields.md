@@ -1,13 +1,6 @@
 ---
-
 title: "Booking Metric Technical Documentation"
 ---
-
-
-
-
-
-
 
 ## How to use this documentation
 
@@ -60,7 +53,6 @@ Logic Locations:
 
 - [ZuoraQuoteClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/ZuoraQuoteClass.cls)
 - [ZuoraQuoteTrigger.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/ZuoraQuoteTrigger.trigger)
-
 
 Code Units:
 

@@ -4,7 +4,7 @@ title: "Plan Stage"
 
 Plan teams:
 
-- [Plan:Project Management Team](/handbook/engineering/development/dev/plan-project-management/)
+- [Plan:Project Management Team](/handbook/engineering/development/dev/plan/project-management/)
 - [Plan:Product Planning Team](/handbook/engineering/development/dev/plan/product-planning/)
 - [Plan:Optimize Team](/handbook/engineering/development/dev/plan/optimize/)
 - [Plan:Knowledge Team](/handbook/engineering/development/dev/plan/knowledge/)
@@ -45,10 +45,6 @@ The second item is challenging and it's easy to understimate how much work is le
 The third item tells us how we've been doing previously. If the trend is downwards, we can look to discuss this in our [retrospectives](#retrospectives).
 
 Subtracting the carry over weight (item 2) from our expected capacity (the product of items 1 and 3) should tell us our capacity for the next release.
-
-##### Historical capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
 
 #### Issues
 
@@ -134,13 +130,9 @@ UX Research calls are scripted calls designed to mitigate bias and to address sp
 ### Board Refinement
 
 We perform many board refinement tasks asynchronously, using GitLab issues
-in the [Plan project]. The policies for these issues are defined in
-[triage-ops/policies/plan-stage]. A full list of refinement issues is available
-by [filtering by the ~"Plan stage refinement" label][refinement-issues].
-
-[Plan project]: https://gitlab.com/gitlab-org/plan
-[triage-ops/policies/plan-stage]: https://gitlab.com/gitlab-org/quality/triage-ops/tree/master/policies/plan-stage
-[refinement-issues]: https://gitlab.com/gitlab-org/plan/issues?label_name%5B%5D=Plan+stage+refinement
+in the [Plan project](https://gitlab.com/gitlab-org/plan). The policies for these issues are defined in
+[triage-ops/policies/plan-stage](https://gitlab.com/gitlab-org/quality/triage-ops/tree/master/policies/plan-stage). A full list of refinement issues is available
+by [filtering by the ~"Plan stage refinement" label](https://gitlab.com/gitlab-org/plan/issues?label_name%5B%5D=Plan+stage+refinement).
 
 ### Tracking Committed Work for an Upcoming Release
 
@@ -152,7 +144,7 @@ At the beginning of the Milestone, Deliverable issues will automatically be upda
 
 At specific points through the milestone the Health Status will be automatically degraded if the issue fails to progress. Assignees can override this setting any time if they disagree. The policy that manages this automation is [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/hygiene/adjust-health-status.yml). It can be disabled for any individual issue by adding the ~"Untrack Health Status" label.
 
-#### Health Status Definitions for Plan :
+#### Health Status Definitions for Plan
 
 - _On Track_ - We are confident this issue will be completed and live for the current milestone
 - _Needs Attention_ - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back On Track
@@ -166,11 +158,11 @@ We feel it is important to document and communicate, that changing of any item's
 
 #### Active Quarter OKRs
 
-FY25-Q1 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY25-Q1&first_page_size=20) (internal).
+FY25-Q2 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&amp;not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY25-Q2&first_page_size=20) (internal).
 
 #### Previous Quarter OKRs
 
-FY24-Q4 Stage-level Objectives all closed out between 82% and 89% and are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY24-Q4&first_page_size=20) (internal).
+FY25-Q1 Stage-level Objectives all closed out between 74% and 88% and are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&amp;not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY25-Q1&first_page_size=20) (internal).
 
 #### Drafting OKRs using GitLab
 
@@ -178,10 +170,10 @@ Guidance is available, including a video guide, on [how to use GitLab for OKRs](
 
 GitLab currently offers some freedom in how to structure OKR hierarchies. We take the following approach in Plan:
 
-* EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
-* Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
-* They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
-* Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development-flow/), and not in OKRs.
+- EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
+- Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
+- They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
+- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development-flow/), and not in OKRs.
 
 Doing this ensures the hierarchy will be as simple, consistent and shallow as possible. This improves navigability and visibility, as we currently don't have good hierarchy visualization for OKRs.
 
@@ -200,20 +192,21 @@ flowchart TD
 Ownership is indicated using labels and assignee(s). The label indicates the group and/or stage, assignee the DRI.
 
 OKRs should have the following labels:
-* Group, Stage, and Section (as appropriate).
-* Division (~"Division::Engineering") to distinguish from other functions.
-* updates::[weekly, semi-monthly, monthly] depending on how often the OKR is expected to be updated by the DRI.
+
+- Group, Stage, and Section (as appropriate).
+- Division (~"Division::Engineering") to distinguish from other functions.
+- updates::[weekly, semi-monthly, monthly] depending on how often the OKR is expected to be updated by the DRI.
 
 ### Retrospectives
 
-The Plan stage conducts [monthly retrospectives asynchronously using GitLab issues][retros]. Monthly retrospectives are performed in a Confidential Issue made Public upon Close. Confidentiality of these Issues while Open aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
+The Plan stage conducts [monthly retrospectives asynchronously using GitLab issues](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective). Monthly retrospectives are performed in a Confidential Issue made Public upon Close. Confidentiality of these Issues while Open aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
 
 The Plan Stage team encourages the use of Internal Notes as well to further adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group. Dogfooding this feature aligns with an FY23 Q4 OKR of improving the GitLab Product development flow by driving the adoption of Plan features.
 
 Examples of information that should remain Confidential per SAFE guidelines are any company confidential information that is not public, any data that reveals information not generally known or not available externally which may be considered sensitive information, and material non-public information.
 
 The retrospective issue is created by a scheduled pipeline in the
-[async-retrospectives] project. It is then updated once the milestone
+[async-retrospectives](https://gitlab.com/gitlab-org/async-retrospectives) project. It is then updated once the milestone
 is complete with shipped and missed deliverables. For more information on how
 it works, see that project's README.
 
@@ -227,14 +220,16 @@ summary and corrective actions. The rotation for upcoming milestones is as follo
 | 16.11 | Kushal Pandya |
 | 17.0 | John Hope |
 | 17.1 | Brandon Labuschagne |
-| 17.2 | Donald Cook |
+| 17.2 | Vladimir Shushlin |
 | 17.3 | Kushal Pandya |
-| 17.4 | Vladimir Shushlin |
+| 17.4 | Donald Cook |
 | 17.5 | John Hope |
-| 17.6 | Brandon Labuschagne |
-| 17.7 | Donald Cook |
-| 17.8 | Kushal Pandya |
-| 17.9 | Vladimir Shushlin |
+| 17.6 | Donald Cook |
+| 17.7 | Kushal Pandya |
+| 17.8 | Vladimir Shushlin |
+| 17.9 | John Hope |
+| 17.10 | Donald Cook |
+| 17.11 | Kushal Pandya |
 
 The role of the DRI is to facilitate a psychologically safe environment where team-members
 feel empowered to give feedback with candour. As such they should refrain from participating
@@ -243,11 +238,11 @@ process itself.
 
 #### Timeline
 
-* **27th (Previous Month)** A retrospective issue is automatically created for the milestone in progress.
-* **18th** The milestone is **closed** and open issues in the build phase are labelled with ~"missed deliverable".
-* **21st** The issue description is automatically updated with shipped and missed deliverables and the team are tagged to add feedback.
-* **4th (Next Month)** A final reminder is created automatically in #s_plan for final feedback.
-* **5th (Next Month)** The DRI [concludes the retrospective](#concluding-the-retrospective).
+- **27th (Previous Month)** A retrospective issue is automatically created for the milestone in progress.
+- **18th** The milestone is **closed** and open issues in the build phase are labeled with ~"missed deliverable".
+- **21st** The issue description is automatically updated with shipped and missed deliverables and the team are tagged to add feedback.
+- **4th (Next Month)** A final reminder is created automatically in #s_plan for final feedback.
+- **5th (Next Month)** The DRI [concludes the retrospective](#concluding-the-retrospective).
 
 #### Dogfooding Value Stream Analytics (VSA) in the Milestone Retrospective
 
@@ -255,22 +250,21 @@ To improve the retrospective data-driven experience, we are [dogfooding](/handbo
 With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
 
 For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
-   - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
-   - Types of work that move slower than other types.
-   - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
+
+- MRs that were bottlenecked due to limited reviewers/maintainers capacity.
+- Types of work that move slower than other types.
+- Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
 
 Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/issues/759).
 
 #### Concluding the Retrospective
 
 The DRI is responsible for completing the following actions:
-* Adding a comment to the retrospective issue summarizing actionable discussion items and suggesting corrective actions.
-* Finding a DRI for each corrective action. Creating an issue in `gl-retrospectives/plan` for each is optional, but doing so and adding the ~"follow-up" label will ensure they're included automatically in the next retrospective.
-* Recording a short summary video and sharing in #s_plan. This can be discussed in the next weekly team call and can be added to the Plan Stage playlist on Youtube so that it shows up on team pages.
-* Closing the issue and making it public.
 
-[async-retrospectives]: https://gitlab.com/gitlab-org/async-retrospectives
-[retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
+- Adding a comment to the retrospective issue summarizing actionable discussion items and suggesting corrective actions.
+- Finding a DRI for each corrective action. Creating an issue in `gl-retrospectives/plan` for each is optional, but doing so and adding the ~"follow-up" label will ensure they're included automatically in the next retrospective.
+- Recording a short summary video and sharing in #s_plan. This can be discussed in the next weekly team call and can be added to the Plan Stage playlist on Youtube so that it shows up on team pages.
+- Closing the issue and making it public.
 
 In both the summary comment and video the DRI should be particularly careful to ensure all information disclosed is [SAFE](/handbook/legal/safe-framework/). If the retrospective discussion contains examples of unSAFE information, the issue should not be made public.
 
@@ -280,9 +274,9 @@ Regressions contribute to the impression that the product is brittle and unrelia
 
 Engineering Managers are strongly encouraged to conduct a simple [Root Cause Analysis](/handbook/engineering/root-cause-analysis/#what-is-a-root-cause-analysis) (RCA) when a regression takes place in a feature owned by their group, in order to:
 
-* Inform the author and reviewers of the original MR that it caused a regression.
-* Define corrective actions that might prevent or reduce the likelihood of a similar regression in future.
-* Identify trends or patterns that can lead to human error.
+- Inform the author and reviewers of the original MR that it caused a regression.
+- Define corrective actions that might prevent or reduce the likelihood of a similar regression in future.
+- Identify trends or patterns that can lead to human error.
 
 The following RCA format was trialed in a FY23 Q2 OKR. It can be posted as a comment on the original MR when the regression has been successfully reverted.
 
@@ -304,9 +298,9 @@ _One-line description of the regression in behavior._
 
 Please reassure the participants that the purpose is not to apportion blame but to gather data, identify causal factors and implement corrective actions - but ask for a swift and brief response while the information is still fresh.
 
-### UX 
+### UX
 
-The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
+The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
 
 #### UX issue management, weights and capacity planning
 
@@ -316,11 +310,11 @@ Product Planning, Project Management and Optimize will create issues for UX work
 - Product requirement discussions should continue to happen in the main Issue or Epic as much as possible.
 - When the Product Designer wants to indicate that the design is ready for ~"workflow::planning breakdown", they should apply this label to their issue, notify the PM and EM, and close the issue.
 
-*When should a UX issue be used?*
+_When should a UX issue be used?_
 
 UX issues should be used for medium or large projects that will take more than one dev issue to implement (e.g., end-to-end flows, complicated logic, or multiple use cases / states that will be broken down by engineering into several implementation issues). If the work is small enough that implementation can happen in a single issue, then a separate [UX] issue is not needed, and the designer should assign themselves to the issue and use workflow labels to indicate that it's in the design phase.
 
-*Weighting UX issues*
+_Weighting UX issues_
 
 All issues worked on by a designer should have a UX weight before work is scheduled for a milestone.
 
@@ -337,8 +331,8 @@ When designing for objects that use the [work items architecture](https://docs.g
 The first objects built using the work items architecture support the [Parker](/handbook/product/personas/#parker-product-manager), [Delaney](/handbook/product/personas/#delaney-development-team-lead) and [Sasha](/handbook/product/personas/#sasha-software-developer) personas in tasks related to planning and tracking work. Additional objects will be added in the future, supporting a variety of user personas.
 
 Read more about work items
+
 - [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
-- [Work items Pajamas documentation](https://design.gitlab.com/objects/work-item)
 - [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
 
 ##### Terminology
@@ -346,12 +340,14 @@ Read more about work items
 Work items refers to objects that use the work items architecture. You can find more terms defined related to the architecture here: [work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology).
 
 When we talk about the user experience, we avoid using the term 'work items' for user facing concepts, because it's not specific to the experience and introduces confusion. Instead, we will use descriptors specific to the part of the product we're talking about and that support a similar JTBD. Here are examples of how we are categorizing these:
+
 - Team Planning Objects: Objects that belong to the Planning JTBD. Currently these are Epics, Issues and Tasks but could include others in the future.
 - Strategy Objects: Objects that support strategic, organization wide objects. Currently these are Objectives and Key results.
 - Development/Build Objects: Objects that support development tasks. These could be MRs, Test Cases, or Requirements
 - Protecting Objects: These may include Incidents, Alerts, Vulnerabilities, Service Desk Tickets
 
 This enables us to differentiate these by persona and workflow. While they may share a common architecture on the backend and similar layout on the frontend, in the UI they may:
+
 - appear in different workflows and areas of the application
 - have different data fields
 - have different actions users can take on them
@@ -362,11 +358,12 @@ This enables us to differentiate these by persona and workflow. While they may s
 - We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-research-for-work-items) for supporting work item initiatives.
 - [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
 - We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
-- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
 
 When designing with the work items architecuture, Product Designers should understand roughly how the architecture works and what implications exist for the user experience.
+
 - A work item has a type (epic, incident), and this controls which widgets are available on the work item and what relationships the work item can have to other work items and non-work item objects.
 - The behavior of the work item in terms of performing its targeted JTBD(s) is powered by the collection of widgets enabled for a work item type.
 - We want to avoid building logic or views specific to a type. When you need to support a workflow that isn't currently supported, you can introduce new behaviors through widgets (fields, apps, actions). A practical example: Epics can parent other Epics and Issues. Instead of interconnecting epics and issues this behavior is encapsulated in a 'hierarchy' widget, which could be utilized in other work item types that implement hierarchies; such as Objectives and Key Results.
@@ -377,7 +374,7 @@ If the quad discovers that the desired user experience would require a greater c
 
 ##### Design Process for Work Items
 
-*Problem Validation*
+_Problem Validation_
 
 The quad that owns the code for the object (incident, epic, etc) decides if something should use the work item architecture based on trade-offs around code reuse and user experience. This should be a cross-functional decision, and the group Product Designer should advise their team regarding how well the user's ideal workflow could or could not be supported by the work items architecture. This will allow the team to evaluate how much existing frontend pieces of the architecture could be re-used, and what would need to be added or customized in order to support the desired experience.
 
@@ -385,7 +382,7 @@ The quad that owns the code for the object (incident, epic, etc) decides if some
 1. During this phase, the Product Designer and Product Manager should ensure that success metrics are defined per our work item research process (link TBD)
 1. High level wireframes should be produced to ensure everyone has a shared understanding of what is wanted and to establish a medium term vision for the work.
 
-*Solution Validation*
+_Solution Validation_
 
 After the quad decides the work item architecture is suitable, the Product Designer will design the experience in detail. As part of the detailed design, Product Designers, in collaboration with the quad, will:
 
@@ -396,14 +393,11 @@ After the quad decides the work item architecture is suitable, the Product Desig
 
 ##### Research Process for Work Items
 
-We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/). 
+We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/).
 
 In addition to these, we're working on gaining an efficiency bonus by using a common screener and building a mini-database of qualified participants aligned to our research needs.
 
-We do a confidence check at different points in the process, particularly before moving a design into the build phase. Sometimes, a design solution is straightforward enough where we’re very confident to move ahead without solution validation. However, there are times when we’re unsure how the design solution will perform in production, thereby resulting in a low level of confidence. When this happens we will do usability testing to build confidence.
-
-
-
+We do a confidence check at different points in the process, particularly before moving a design into the build phase. Sometimes, a design solution is straightforward enough where we're very confident to move ahead without solution validation. However, there are times when we're unsure how the design solution will perform in production, thereby resulting in a low level of confidence. When this happens we will do usability testing to build confidence.
 
 #### UX Paper Cuts
 
@@ -437,52 +431,47 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-03-04 | Kushal Pandya |
-| 2024-03-11 | John Hope |
-| 2024-03-18 | Brandon Labuschagne |
-| 2024-03-25 | Donald Cook |
-| 2024-04-01 | Kushal Pandya |
-| 2024-04-08 | John Hope |
-| 2024-04-15 | Brandon Labuschagne |
-| 2024-04-22 | Donald Cook |
-| 2024-04-29 | Vladimir Shushlin |
-| 2024-05-06 | Kushal Pandya |
-| 2024-05-13 | John Hope |
-| 2024-05-20 | Brandon Labuschagne |
-| 2024-05-27 | Donald Cook |
-| 2024-06-03 | Vladimir Shushlin |
+| 2024-06-24 | Brandon Labuschagne |
+| 2024-07-01 | John Hope |
+| 2024-07-08 | Vladimir Shushlin |
+| 2024-07-15 | Kushal Pandya |
+| 2024-07-22 | John Hope |
+| 2024-07-29 | Vladimir Shushlin |
+| 2024-08-05 | Kushal Pandya |
+| 2024-08-12 | Donald Cook |
+| 2024-08-19 | John Hope |
+| 2024-08-26 | Vladimir Shushlin |
+| 2024-09-02 | Kushal Pandya |
+| 2024-09-09 | Donald Cook |
+| 2024-09-16 | John Hope |
 
 #### Links
 
-- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Issue Template](https://gitlab.com/gitlab-org/plan/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
+- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Issue Template](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
 
 ### Meetings
 
 Most of our group meetings are recorded and publicly available on
-YouTube in the [Plan group playlist][youtube].
+YouTube in the [Plan group playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0
-
 #### Weekly group meeting
 
-Plan held a weekly team-meeting as a stage until 2023-11-01. The [agenda] is still available.
+Plan held a weekly team-meeting as a stage until 2023-11-01. The [agenda](https://docs.google.com/document/d/1cbsjyq9XAt9UYLIxDq5BYFk47VA5aaTeHfkY2dttqfk/edit) is still available.
 
 The meeting was removed as its functions are now covered in other ways:
 
-* Slack
-* [Stage Working Groups]
-* Group meetings
-* Smaller ad-hoc meetings
-* Social call
-
-[Stage Working Groups]: #stage-working-groups
-[agenda]: https://docs.google.com/document/d/1cbsjyq9XAt9UYLIxDq5BYFk47VA5aaTeHfkY2dttqfk/edit
+- Slack
+- [Stage Working Groups](#stage-working-groups)
+- Group meetings
+- Smaller ad-hoc meetings
+- Social call
 
 #### Links / References
+
 - `~group::project management`
   - [Board](https://gitlab.com/groups/gitlab-org/-/boards/1285239)
   - [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproject%20management)
@@ -499,10 +488,11 @@ The meeting was removed as its functions are now covered in other ways:
 #### Shared calendar
 
 There is a shared Plan stage calendar which is used for visibility into meetings within the stage.
-* To add this shared calendar to your Google Calendar do one of the following:
-  * Visit this [link](https://calendar.google.com/calendar/u/1?cid=Y19iNzIwMjMxNzdmMDE4ZDYzMWM4NTJlZDFlODgyZTdmYTdhMDI0NGM4NjFmN2U4OWY5NjA4NTY4ODJkNWY1NDlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (GitLab internal) from your browser.
-  * Click the '+' next to 'Other calendars' in Google Calender, select 'Subscribe to calendar', paste `c_b72023177f018d631c852ed1e882e7fa7a0244c861f7e89f960856882d5f549a@group.calendar.google.com` into the form and hit enter.
-* To add an event to the shared calendar, create an event on your personal calendar and add `Plan Shared` as a guest.
+
+- To add this shared calendar to your Google Calendar do one of the following:
+  - Visit this [link](https://calendar.google.com/calendar/u/1?cid=Y19iNzIwMjMxNzdmMDE4ZDYzMWM4NTJlZDFlODgyZTdmYTdhMDI0NGM4NjFmN2U4OWY5NjA4NTY4ODJkNWY1NDlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (GitLab internal) from your browser.
+  - Click the '+' next to 'Other calendars' in Google Calender, select 'Subscribe to calendar', paste `c_b72023177f018d631c852ed1e882e7fa7a0244c861f7e89f960856882d5f549a@group.calendar.google.com` into the form and hit enter.
+- To add an event to the shared calendar, create an event on your personal calendar and add `Plan Shared` as a guest.
 
 ### Team Day
 
@@ -526,11 +516,11 @@ Sessions can be anything really, so long as it aligns with the [values](/handboo
 
 Some examples of sessions we've had on previous team days include:
 
-* A cooking class with a former professional chef.
-* Watching a holiday film together.
-* Lateral Thinking Games.
-* A home woodworking workshop tour and demonstration.
-* Remote games; such as Gartic Phone and Drawsaurus.
+- A cooking class with a former professional chef.
+- Watching a holiday film together.
+- Lateral Thinking Games.
+- A home woodworking workshop tour and demonstration.
+- Remote games; such as Gartic Phone and Drawsaurus.
 
 Free time slots can be used on the day to hold impromptu events requiring little or no preparation.
 
@@ -549,22 +539,23 @@ Some sessions may require small purchases to participate fully; for example, ing
 Unless communicated in advance these are **not expensable**.
 
 The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
-* What purchases qualify for reimbursement.
-* The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
-* Any additional handbook guidance that will help team-members utilize the budget.
+
+- What purchases qualify for reimbursement.
+- The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
+- Any additional handbook guidance that will help team-members utilize the budget.
 
 #### Past Team Days
 
-* [2023-10-13 Team Day](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/1004)
-* [2022-12-20 Holiday Party](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/787)
+- [2023-10-13 Team Day](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/1004)
+- [2022-12-20 Holiday Party](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/787)
 
 #### Tips for a Successful Team Day
 
-* Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
-* Secure expense budget and communicate at least a week in advance of the Team Day.
-* Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
-* Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).
-* Communicate this change in SSOT, and encourage participants to add their own sessions in the calendar as free slots.
+- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
+- Secure expense budget and communicate at least a week in advance of the Team Day.
+- Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
+- Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).
+- Communicate this change in SSOT, and encourage participants to add their own sessions in the calendar as free slots.
 
 ### Team Process
 
@@ -579,7 +570,7 @@ There are a couple of process-related improvements we'll continue to adopt:
 
 ### Stage Working groups
 
-Like all groups at GitLab, a working group is an arrangement of people from different functions. What makes a working group unique is that it has defined roles and responsibilities, and is tasked with achieving a high-impact business goal fast. A working group disbands when the goal is achieved (defined by exit criteria) so that GitLab doesn’t accrue bureaucracy.
+Like all groups at GitLab, a working group is an arrangement of people from different functions. What makes a working group unique is that it has defined roles and responsibilities, and is tasked with achieving a high-impact business goal fast. A working group disbands when the goal is achieved (defined by exit criteria) so that GitLab doesn't accrue bureaucracy.
 
 Stage Working Groups are focused on initiatives that require collaboration between multiple groups within the stage. The structure of stage working groups is similar to [company-wide working groups](/handbook/company/working-groups/), with DRI and well-defined roles. The initiatives are driven by a stage-level product direction rather than an [Executive Sponsor](/handbook/company/working-groups/#executive-sponsor),
 and can be formed of just Functional Leads and members who participate in fulfilling the exit criteria.
@@ -590,7 +581,7 @@ and can be formed of just Functional Leads and members who participate in fulfil
 
 ### Product Outreach
 
-There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot programme that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
+There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot program that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
 
 #### Product Shadowing schedule
 
@@ -608,14 +599,14 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
 ### Speed Runs
 
 - Labels
-    - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
+  - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
-    - [Description Change History](https://youtu.be/-JgfJSSLYlI)
+  - [Description Change History](https://youtu.be/-JgfJSSLYlI)
 - Epics
-    - [Organize sub-Epics with the Epic Tree](https://youtu.be/TzRCan5ki6o)
+  - [Organize sub-Epics with the Epic Tree](https://youtu.be/TzRCan5ki6o)
 - Requirements Management
-    - [Requirements MVC](https://youtu.be/uSS7oUNSEoU)
-    - [Satisfy Requirements from CI Pipeline](https://youtu.be/4m1mSEb2ywU)
+  - [Requirements MVC](https://youtu.be/uSS7oUNSEoU)
+  - [Satisfy Requirements from CI Pipeline](https://youtu.be/4m1mSEb2ywU)
 
 ### Engineering Scaling Targets
 
@@ -623,17 +614,25 @@ We're tracking a number of issues that we believe could cause scalability proble
 
 | Type | Description | Estimated Timeline for Failure | Resolution Due Date | 12 Month Target | Issue | Status |
 | ---- | ---          | ---                            | ---                | ---    | ---   | ---    |
-| Primary key int4 overflow | `system_note_metadata.id` column is at 50% saturation and must be converted to bigint (int8). | March 2024 - 2025 | 2023-12-22 | Sub-50% | [#424114](https://gitlab.com/gitlab-org/gitlab/-/issues/424114) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Urgent</span> |
-| Redis Primary CPU | Unexpected load on the Shared State Redis instance caused by `SUBSCRIBE`, `UNSUBSCRIBE` and `PUBLISH` commands. | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-| Redis Memory | Retention of Action Cable messages in Redis Shared State memory due to high numbers of and/or stalled/hung clients.  | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | [#326364](https://gitlab.com/gitlab-org/gitlab/-/issues/326364) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-| Various | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2023 | [100k Work Items][workitems] created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-
-[events]: https://gitlab.com/gitlab-org/gitlab/-/issues/220023
-notes
-[websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets
-workitems
+| Redis Primary CPU | Unexpected load on the Shared State Redis instance caused by `SUBSCRIBE`, `UNSUBSCRIBE` and `PUBLISH` commands. | Unknown | November 2023 | [150k Concurrent WebSocket Connections](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets) at peak | | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
+| Redis Memory | Retention of Action Cable messages in Redis Shared State memory due to high numbers of and/or stalled/hung clients.  | Unknown | November 2023 | [150k Concurrent WebSocket Connections](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets) at peak | [#326364](https://gitlab.com/gitlab-org/gitlab/-/issues/326364) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
+| Primary DB | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2024 | [50k Work Items](#work-items) created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
 
 Note: Work is ongoing on [migration helpers](https://gitlab.com/gitlab-org/gitlab/-/issues/292874) to mitigate Int4 Primary Key Overflows. These will provide a standard way to resolve these issues.
+
+#### Current Large Tables
+
+Some tables in our database have grown significantly and may pose scalability issues.
+
+| Table Name            | Current Size (Bytes) | Planned Mitigation Issue                             | Status                                                                                                                                          |
+| --------------------- | -------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| description_versions  | 424.2                | https://gitlab.com/gitlab-org/gitlab/-/issues/412704 | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Critical</span> |
+| issues                | 278.4                | https://gitlab.com/groups/gitlab-org/-/epics/10987   | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:orange;'>Warning</span>  |
+| resource_label_events | 165.3                | https://gitlab.com/gitlab-org/gitlab/-/issues/412705 | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:orange;'>Warning</span>  |
+| sent_notifications    | 508.1                | https://gitlab.com/gitlab-org/gitlab/-/issues/417233 | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Critical</span> |
+| system_note_metadata  | 173.5                |                                                      | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:yellow;'>Warning</span>  |
+
+By continually monitoring these tables and applying the planned mitigations, we aim to maintain optimal performance and prevent any scalability issues.
 
 ### Metrics
 

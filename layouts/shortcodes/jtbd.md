@@ -1,4 +1,4 @@
-{{- /*  Initialize. */}}
+{{- /*Initialize.*/}}
 {{- $stageKey := "" }}
 {{- /* Get params. */}}
 {{- with (.Get 0) }}

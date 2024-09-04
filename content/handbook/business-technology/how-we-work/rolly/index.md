@@ -1,18 +1,9 @@
 ---
-
 title: "Rolly"
 description: "A handy automation tool to generate status rollup issues for large projects and programs"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
-
 
 ## Problem
 
@@ -27,7 +18,7 @@ Rolly is an automated tool which extracts key status information from project/pr
 1. Rolly searches the group with the ID provided in the config `groupId` for all epics with the label `label`.
 1. For each epic's description, Rolly extracts the markdown in between the tokens `extractStatusStart` and `extractStatusEnd`.
 
-    ```
+    ```markdown
     # My heading
 
     <!-- Status Start -->
@@ -39,7 +30,7 @@ Rolly is an automated tool which extracts key status information from project/pr
     ```
 
 1. Rolly creates an issue in the project with ID `rollupProjectId` with the combined status updates in the description, plus some additional information.
-1. The text from `tags` is appended to the bottom of the description, and the issue is labelled with `rollupLabel`.
+1. The text from `tags` is appended to the bottom of the description, and the issue is labeled with `rollupLabel`.
 1. Rolly will find all open issues with the tag `rollupLabel` in the project with ID `rollupProjectId` and close them so that the new one is the only open status issue.
 1. Any errors that occur will be reported by email to the email addresses listed in `errorEmails`, as well as to the BT Integrations Engineering team.
 

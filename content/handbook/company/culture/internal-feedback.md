@@ -3,7 +3,7 @@ title: "Internal Feedback"
 description: "At GitLab we feel that a quick, quarterly check-in is more aligned to our values use Google forms to gather feedback anonymously."
 ---
 
-Companies will often wait to gather internal feedback until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company’s engagement.  We feel that a quick, quarterly check-in is more aligned to our [values]({{< ref "values" >}}) Collaboration and Iteration.  We use Google forms to gather feedback anonymously, and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of the feedback we collect but will paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately, out of respect for the recipient(s).
+Companies will often wait to gather internal feedback until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement.  We feel that a quick, quarterly check-in is more aligned to our [values](/handbook/values/) Collaboration and Iteration.  We use Google forms to gather feedback anonymously, and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of the feedback we collect but will paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately, out of respect for the recipient(s).
 
 In 2017, we rebranded our survey as a [Stay Interview](https://drive.google.com/file/d/0B4eFM43gu7VPX0RiRkV5NUtQREU/view?usp=sharing) because we are most interested in three things: why people join, what makes them stay, and what would make them consider leaving GitLab. Below is a summary of the responses from the 130 team members (69.5%) who participated.
 
@@ -145,7 +145,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Positive atmosphere
 1. Ability to help GitLab achieve the vision
 1. Remote opportunity
-1. All remote - “I didn’t want to be the only one not in the office”
+1. All remote - "I didn't want to be the only one not in the office"
 1. Open source community
 1. Referred by a team member
 1. Autonomy
@@ -168,10 +168,10 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Company spirit
 1. Values
 1. Boss is amazing
-1. Things are as “advertised” / discussed during interview
+1. Things are as "advertised" / discussed during interview
 1. People / Team / Colleagues
 1. Great product, working on developer tools
-1. The “experience”
+1. The "experience"
 1. Flexibility
 1. Working with people smarter than me
 1. Feel like I am contributing
@@ -181,7 +181,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Remote opportunity
 1. Relationships / camaraderie
 1. Encouraged to take time off
-1. It’s not bureaucratic
+1. It's not bureaucratic
 1. Feel empowered / autonomy
 1. Ownership / accountability
 1. Solve challenges, never bored
@@ -197,7 +197,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Peer mentality, even at the highest level of management
 1. The company is flat enough to encourage true collaboration which is vital to growth
 
-#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab:
+#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab
 
 1. Stagnation of career path, no opportunities to advance
 1. Pay decrease, not paid appropriately, below market pay
@@ -205,7 +205,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Leaders not leading, no clear direction
 1. Too many restrictions on side projects
 1. Changing the values or culture
-1. The “spirit” leaves the team
+1. The "spirit" leaves the team
 1. Change in the atmosphere, work model
 1. Company growth stops
 1. Volume of work drives quantity over quality
@@ -213,7 +213,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Ego gets in the way
 1. Lose feeling of openness (team call, transparency)
 1. Job becomes boring / less challenges
-1. If I am micro-managed, don’t feel empowered, lose autonomy
+1. If I am micro-managed, don't feel empowered, lose autonomy
 1. Not feeling like I am contributing, valued
 1. If purchased by a large corporation
 1. A bad boss
@@ -226,7 +226,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Job becomes unstable
 1. Communication no longer one of our strong points
 
-#### Other Comments or Concerns (broken down by categories):
+#### Other Comments or Concerns (broken down by categories)
 
 ##### Compensation
 
@@ -286,7 +286,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Make the handbook easier to navigate.
     - We have added an [Onboarding]({{< ref "general-onboarding" >}}) guide for new GitLab team-members. We also added Standard Operating Procedures for different departments to make what you are looking for easier to find. And don't forget, there is a search function at the top of the handbook that can help you find exactly what you are looking for! Update: This page has been moved to [Onboarding]({{< ref "general-onboarding" >}})
 1. Spend more time learning the technical side of our product.
-    - Check out [GitLab University](https://docs.gitlab.com/ee/university/) to learn more about Git and GitLab. We will also be rolling out additional training on Git and GitLab during 2017 see [issue](https://gitlab.com/gitlab-com/peopleops/issues/126).
+    - Check out [GitLab University](https://university.gitlab.com/) to learn more about Git and GitLab. We will also be rolling out additional training on Git and GitLab during 2017 see [issue](https://gitlab.com/gitlab-com/peopleops/issues/126).
 1. Refine the hiring process.
     - We have revamped our [hiring process](/handbook/hiring) to be more efficient. Our global recruiters are working hard to ensure that every candidate is kept in the loop about where they stand in the hiring process, and managers are not spending too much time in Lever reviewing candidates. If you have any questions please feel fee to reach out on the `#hiring` channel on Slack.
 1. Refine the compensation principles.
@@ -296,9 +296,9 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Focus on growth of GitLab team-members within the organization.
     - People Ops has instituted Grovo (individual contributor and management training), as well as Lattice (OKRs) to assist in the growth of GitLab team-members within their position at GitLab. We will continue to strive to work with managers to develop GitLab team-members at GitLab by drafting Professional Development Plans see [issue](https://gitlab.com/gitlab-com/peopleops/issues/170).
 1. More face-to-face meetings and ability to meet up with GitLab team-members close by.
-    - Please expense travel to visit GitLab team-members as described in [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money).
+    - Please expense travel to visit GitLab team-members as described in [Spending Company Money](/handbook/spending-company-money).
 1. Adjust the team call format to include more regular functional group updates.
-    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/group-conversations) are separate events.
+    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/company/group-conversations/) are separate events.
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
@@ -310,7 +310,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Less downtime on GitLab.com.
     - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](http://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
-    - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout]({{< ref "communication#random-room" >}}).
+    - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout](/handbook/communication/#random-room).
 1. Revise Lever Notifications.
     - Sometimes it can be hard to manage Lever notifications. Here are some [guidelines](/handbook/hiring#general-points-about-moving-applicants-through-the-process) to keep your inbox low.
 
@@ -319,7 +319,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Are we growing too fast?
     - Check out our [strategy](/handbook/company/strategy/) page for why we are growing faster than feels intuitive.
 1. How to improve myself as a professional?
-    - Aside from the internal tools at GitLab, you can expense any course or training that falls in line with [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money). Questions? Just ask your manager or People Ops.
+    - Aside from the internal tools at GitLab, you can expense any course or training that falls in line with [Spending Company Money](/handbook/spending-company-money). Questions? Just ask your manager or People Ops.
 1. How are we using our series B funding?
     - We have released our [master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) for how we plan on growing as a company as a result of our Series B Funding. Also, check out our [Strategy Page](/handbook/company/strategy).
 1. What are the plans for parental leave?
@@ -378,9 +378,7 @@ to focus on quality and testing more"
     Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
     issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.
-    But to individual users it feels like we've "[been squashing bugs and releasing
-    features rapidly while also decreasing the number of regressions introduced and
-    improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
+    But to individual users it feels like we've "[been squashing bugs and releasing features rapidly while also decreasing the number of regressions introduced and improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
     Obviously quality is and will always be a top concern, especially code quality
     since that enables better testing, faster fixes, and more contributions.
 1. "Better supervision in the first two months"
@@ -424,8 +422,7 @@ to focus on quality and testing more"
 
 ### Feedback from the GitLab team - September 2015
 
-Summarized in this presentation about ["Stuff the GitLab team likes and does not
-like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
+Summarized in this presentation about ["Stuff the GitLab team likes and does not like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
 here is what the team said in September of 2015.
 
 #### What we love about working at GitLab
@@ -443,10 +440,10 @@ the challenge of maintaining quality of people, product, brand etc,
 laser focus on improving collaboration through social coding, market adoption,
 our work is public so we can talk about it, and our ability to create new processes.
 
-#### What we wish we had or what we want to be doing & What we’re doing about it
+#### What we wish we had or what we want to be doing & What we're doing about it
 
 1. More GitLab team-members.
-    - We’re hiring
+    - We're hiring
 1. Bigger feature gap between CE and EE.
     - Current plan is to have one EE feature added per release, so over time the difference will grow.
 1. More summits.
@@ -462,10 +459,10 @@ our work is public so we can talk about it, and our ability to create new proces
 1. Global presence of Service Engineers, and dedicated trainer and training materials.
     - We're working on this through hiring. Also, we have high hopes of GLU, ongoing content creation, etc. to help out here.
 
-#### What we’re wondering about & the answers to our thoughts
+#### What we're wondering about & the answers to our thoughts
 
 1. Stock options: terms, conditions
-    - Does the handbook answer your questions? (/handbook/stock-options). Please feel free to ask Paul.
+    - Does the handbook answer your questions? (/handbook/total-rewards/stock-options/). Please feel free to ask Paul.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
     - The community and people using GitLab will keep growing. 12 months from now
     we'll answer all questions from the community on all platforms (from forum to

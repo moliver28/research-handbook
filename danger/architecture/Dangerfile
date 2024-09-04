@@ -1,0 +1,28 @@
+# frozen_string_literal: true
+
+return unless helper.ci?
+
+label = 'Architecture Evolution Design Doc'
+# For example `content/handbook/engineering/architecture/design-documents/email-ingestion/_index.md`
+paths = %r{^content/handbook/engineering/architecture/}
+
+architecture_changes = helper.changed_files(paths)
+return if architecture_changes.empty?
+
+short_message = <<~MSG
+This merge request might require a review from a [Coach Engineer](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/).
+MSG
+
+long_message = <<~MSG
+## Architecture Evolution Review
+
+#{short_message}
+
+The following files, which might require the additional review, have been changed:
+#{helper.markdown_list(architecture_changes.to_set)}
+MSG
+
+message(short_message)
+markdown(long_message)
+
+helper.labels_to_add.push(label) unless helper.mr_has_labels?(label)

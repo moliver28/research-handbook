@@ -1,14 +1,7 @@
 ---
-
 title: UnReview Overview
 description: "UnReview is an approach for finding appropriate code reviewers in the most effective way"
 ---
-
-
-
-
-
-
 
 ## Introducing UnReview
 
@@ -21,14 +14,14 @@ In a small project, finding an appropriate code reviewer is not a big issue. Thi
 UnReview focuses on achieving the following goals:
 
 * Eliminating the time wasted manually searching for an appropriate code reviewer to review code changes.
-* Making optimum recommendations that consider the reviewers’ experience and optimize the review load across the team, which additionally facilitates knowledge sharing.
+* Making optimum recommendations that consider the reviewers' experience and optimize the review load across the team, which additionally facilitates knowledge sharing.
 * Providing analytics on the state of code review in the project, explaining why a particular code reviewer is recommended.
 
 Today, UnReview is an early-stage technology.  However, significant testing and validation has been done on production data. After the [acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html) is complete, we continue to work on the approach, integrating UnReview into GitLab via iteration.
 
 ### How UnReview works
 
-To make recommendations, UnReview considers the reviewer’s experience in the part of the source code proposed by a merge request. For a given project, UnReview automatically collects the commit history and merge requests in order to identify who is responsible for reviewing and for which part of the source code. Using that information, UnReview then trains the model that is able to make appropriate recommendations.
+To make recommendations, UnReview considers the reviewer's experience in the part of the source code proposed by a merge request. For a given project, UnReview automatically collects the commit history and merge requests in order to identify who is responsible for reviewing and for which part of the source code. Using that information, UnReview then trains the model that is able to make appropriate recommendations.
 
 UnReview is able to resolve the cold start problem, i.e., when the proposed source code is unknown to the recommendation engine. When making recommendations, UnReview additionally tries to balance the review load across the team. Future versions will also consider the context of the merge request, i.e., which source code has been exactly changed and how it affects other parts of the project.
 
@@ -224,9 +217,9 @@ subgraph GCP
 end
 ```
 
-## Milestone 3:
+## Milestone 3
 
-### Overview:
+### Overview
 
 Milestone 3 focuses on further improving the UnReview functionality for GitLab.com customers, as well as planning to provide the functionality to self-managed customers. At this milestone, GitLab.com customers will continue seeing and experiencing value from the functionality, including the ability to intelligently assign code reviewers to merge requests based on ML models. Primary feedback from GitLab.com customers and dogfooding at GitLab should be considered and integrated into the product.
 
@@ -243,7 +236,7 @@ More information on Milestone 3 can be found by following its [epic](https://git
 
 ### Architecture
 
-Delivering the full UnReview functionality to self-managed customers may be challenging. Processing data and training ML models requires significant hardware power and administration efforts from the customer’s team itself. We continue to explore various approaches to addressing this issue. Additionally, we are looking towards privacy-preserving machine learning through data obfuscation.
+Delivering the full UnReview functionality to self-managed customers may be challenging. Processing data and training ML models requires significant hardware power and administration efforts from the customer's team itself. We continue to explore various approaches to addressing this issue. Additionally, we are looking towards privacy-preserving machine learning through data obfuscation.
 
 Overall, one way to support self-managed customers might be to:
 

@@ -13,11 +13,12 @@ GitLab does not plan on offering pension benefits at this time due to the govern
 
 GitLab will continue to review responses from the [Global Benefits Survey]({{< ref "benefits-survey#global-benefits-survey" >}}) as well as budgetary availability with respect to adding a Life Insurance policy for team members in Belgium.
 
-Annual Mandatory Indexation:  Each year Belgian’s Joint Industrial Committee 227 (JIC 227) completes a salary review and recommends an adjustment in keeping with the cost of living. That adjustment is referred to as salary indexation and affects employees of companies that are subject to the committee's oversight. GitLab processes these mandated increases as part of Annual Compensation Review. An email will be sent to affected team members that will state their salary increase is an advance payment (partly) on the given year indexation, aiming at compensating (partly) for the increased costs of living and will ask for an acknowledgment of receipt of said email to each employee.
+Annual Mandatory Indexation:  Each year Belgian's Joint Industrial Committee 227 (JIC 227) completes a salary review and recommends an adjustment in keeping with the cost of living. That adjustment is referred to as salary indexation and affects employees of companies that are subject to the committee's oversight. GitLab processes these mandated increases as part of Annual Compensation Review. An email will be sent to affected team members that will state their salary increase is an advance payment (partly) on the given year indexation, aiming at compensating (partly) for the increased costs of living and will ask for an acknowledgment of receipt of said email to each employee.
 
 ## Healthcare Allowance
 
 **Allowance: gross amount of 70 Euros Per month**
+
 - Healthcare Monthly Allowance will be paid by Payroll as an allowance to team members to help subsidize the cost for their own Healthcare plans.
 - Team Members will need to purchase their own healthcare plans. No documentation is needed to receive the allowance.
 - This amount will be paid on a monthly basis with the regular payroll and will be taxed accordingly.
@@ -31,7 +32,7 @@ Each year all employees will be sent ecocheques no later than July 31. In accord
 
 ## First Aid Kit
 
-Team members in Belgium should keep a basic first aid kit in their home, as per the Belgian Work Regulations and can purchase and expense one if needed. [This kit from Amazon](https://www.amazon.com.be/-/en/Medical-Outdoor-Survival-Emergency-Workplace/dp/B07R3RMFC4/ref%3Dsr_1_11?crid%3DBRSTI7BC72FQ%26keywords%3Dfirst%252Baid%252Bkit%252Bfor%252Bhome%252Boffice%26qid%3D1686872754%26sprefix%3Dfirst%252Baid%252Bkit%252Bfor%252Bhome%252Boffic%252Caps%252C198%26sr%3D8-11%26th%3D1&sa=D&source=docs&ust=1689883665744344&usg=AOvVaw3000OeBSFQU0GMfKNhd7KA) is suitable but team memebrs may purchase and expense a similar kit in a similar price range from elsewhere if preferred. Please, when expensing the first aid kit through Navan, add a link to this Handbook page in the description to assist the expenses team with approvals (https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/#first-aid-kit).
+Team members in Belgium should keep a basic first aid kit in their home, as per the Belgian Work Regulations and can purchase and expense one if needed. [This kit from Amazon](https://www.amazon.com.be/-/en/Medical-Outdoor-Survival-Emergency-Workplace/dp/B07R3RMFC4/ref%3Dsr_1_11?crid%3DBRSTI7BC72FQ%26keywords%3Dfirst%252Baid%252Bkit%252Bfor%252Bhome%252Boffice%26qid%3D1686872754%26sprefix%3Dfirst%252Baid%252Bkit%252Bfor%252Bhome%252Boffic%252Caps%252C198%26sr%3D8-11%26th%3D1&sa=D&source=docs&ust=1689883665744344&usg=AOvVaw3000OeBSFQU0GMfKNhd7KA) is suitable but team memebrs may purchase and expense a similar kit in a similar price range from elsewhere if preferred. Please, when expensing the first aid kit through Navan, add a link to this Handbook page in the description to assist the expenses team with approvals (/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/#first-aid-kit).
 
 ## Belgium Holiday Schedule
 
@@ -54,8 +55,8 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
 
 - Sick Leave
   - Every team member is entitled to have their remuneration to be paid by GitLab during the first 30-day period of incapacity for work, regardless of their seniority. This leave runs concurrently with GitLab's Sick Time policy. Team members must designate any time off for illness or injury as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.
-      - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
-      - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
+    - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
+    - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
 - Statutory Parental Leave
   - Pregnant team members are entitled to 15 weeks of maternity leave which consists of two periods: prenatal leave of 6 weeks and postnatal leave of 9 weeks.
     - Prenatal Leave: At the pregnant team member's request, this leave starts, at the earliest, six weeks before the expected date of delivery and is comprised of the following:
@@ -80,9 +81,6 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
   - Full-time team members are entitled to 20 statutory vacation days per year. If a team member leaves GitLab, the company will prepare a vacation certificate with the number of unused vacation days in the current year and early vacation pay for the vacation days that were already accrued for the following year. The employee can then hand over these documents to their next employer to determine vacation entitlements. Similarly, GitLab requires the vacation certificate from new team members' previous employer to ensure vacation pay is properly calculated and added to June payroll.
   - Vacation Leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
 
-***Note: GitLab has a global [`flexible paid time off policy`](/handbook/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
+***Note: GitLab has a global [`flexible paid time off policy`](/handbook/people-group/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
 
 People Ops will consult with Vistra to ensure that the statute is met.
-
-
-

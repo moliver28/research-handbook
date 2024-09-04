@@ -1,5 +1,4 @@
 ---
-
 title: "Manual Release Post Kickoff"
 description: "Guidelines to for manually kicking off the Release Post"
 ---
@@ -19,8 +18,6 @@ If the automated pipeline fails, the manual steps below can be done either local
    1. Create a new directory `X_Y` in the `data/release_posts` directory.
    1. Copy [`data/release_posts/unreleased/samples/mvp.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/release_posts/unreleased/samples/mvp.yml) into `data/release_posts/X_Y/mvp.yml`.
 
-{:.alert .alert-info .text-center}
-
 ### Create the release post MR
 
 Create a merge request with the introductory changes *after the previous post has been merged and before the feature freeze date* to make the post available to receive contributions from the team:
@@ -30,7 +27,7 @@ Create a merge request with the introductory changes *after the previous post ha
 1. Confirm that "Delete source branch when merge request is accepted" is selected.
 1. Use the release post template for your MR.
 
-   ![release post MR template](release-post-mr-template.png){:.shadow}
+   ![release post MR template](release-post-mr-template.png)
 
 Now that you have created the release post MR, refer to the checklist in the MR for each action that you need to take and the due dates of each action. Keep in mind the MRs for usability improvements, bugs, and performance improvements have their own checklists to be completed, including a task for the Release Post Manager to merge these MR by the 17th prior to final content assembly.
 
@@ -44,8 +41,9 @@ Now that you have created the release post MR, refer to the checklist in the MR 
 
 ### Content assembly: merging release post items (content blocks) to your branch
 
-**Important**: This procedure applies until the 18th, at <time datetime="07:59">7:59 am UTC (18th 2:59 am ET / 17th 11:59 pm PT)</time>. After this time, anyone who wants to include a change in the upcoming release post can either coordinate updates directly on the release post branch with the Release Post Manager or submit it in a separate MR, targeting the `release-X-Y` branch, and assign it to the Release Post Manager to merge. For more information, see our documentation on how to [Develop on a feature branch](https://docs.gitlab.com/ee/gitlab-basics/feature_branch_workflow.html).
-{:.alert .alert-info}
+{{% alert title="Important" color="info" %}}
+This procedure applies until the 18th, at <time datetime="07:59">7:59 am UTC (18th 2:59 am ET / 17th 11:59 pm PT)</time>. After this time, anyone who wants to include a change in the upcoming release post can either coordinate updates directly on the release post branch with the Release Post Manager or submit it in a separate MR, targeting the `release-X-Y` branch, and assign it to the Release Post Manager to merge. For more information, see our documentation on how to [Develop on a feature branch](https://docs.gitlab.com/ee/gitlab-basics/feature_branch_workflow.html).
+{{% /alert %}}
 
 When it is time to assemble the release post, this will be done by moving the
 content block files from `data/release_posts/unreleased` to
@@ -127,7 +125,7 @@ To install Ruby in the most popular Ruby version managers, try:
 
 If you're uncomfortable or encounter have difficulty here, you can reach out to the [release post DRI](https://gitlab.com/fseifoddini) for advisement.
 
-Note that the handbook currently [suggests](/handbook/editing-handbook/#4-install-ruby-version-manager-rvm) `rvm`, while engineering has adopted `asdf`. You may find other references to `rbenv` in this documentation too. Any of these are fine, but they all work a bit differently and you ***only need one Ruby version manager installed***.
+Note that the handbook currently [suggests](/handbook/about/editing-handbook/#4-install-ruby-version-manager-rvm) `rvm`, while engineering has adopted `asdf`. You may find other references to `rbenv` in this documentation too. Any of these are fine, but they all work a bit differently and you ***only need one Ruby version manager installed***.
 
 It is also possible that your ruby version manager is misconfigured or your settings have been altered because of an upgrade to macOS especially from earlier versions to Catalina or higher. It's difficult to suggest an action for this scenario, you may want to reach out to the [release post DRI](https://gitlab.com/fseifoddini) for advisement.
 

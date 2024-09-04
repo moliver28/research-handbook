@@ -1,7 +1,8 @@
 ---
 title: "Iteration at SpaceX"
 description: Learn more about how SpaceX and Elon Musk iterate
-canonical_path: "/handbook/values/iteration-examples/spacex/"
+toc_hide: true
+hide_summary: true
 ---
 
 ## Iteration at SpaceX
@@ -27,11 +28,11 @@ It is worth going into each of these in more detail, and how they can relate to 
 
 Elon says in the interview:
 
-> Your requirements are definitely dumb. It does not matter who gave them to you. It’s particularly dangerous if a smart person gave you the requirements because you might not question them enough.
+> Your requirements are definitely dumb. It does not matter who gave them to you. It's particularly dangerous if a smart person gave you the requirements because you might not question them enough.
 >
 > ...
 >
-> Everyone’s wrong, no matter who you are, everyone’s wrong some of the time. Also, whatever requirement or constraint you have it must come with a name, not a department. Because you can’t ask the department, you have to ask a person. And that person who’s pulling for the requirement or constraint must agree that they must take responsibility for that requirement.
+> Everyone's wrong, no matter who you are, everyone's wrong some of the time. Also, whatever requirement or constraint you have it must come with a name, not a department. Because you can't ask the department, you have to ask a person. And that person who's pulling for the requirement or constraint must agree that they must take responsibility for that requirement.
 
 For GitLab, one can translate this into two key actions:
 
@@ -44,11 +45,11 @@ These two actions help to ensure our requirements are "less dumb" and it is clea
 
 Elon says in the interview:
 
-> The bias tends to be very strongly towards lets’s add this part of the process in case we need it, but you can basically make “in case” arguments for so many things.
+> The bias tends to be very strongly towards lets's add this part of the process in case we need it, but you can basically make "in case" arguments for so many things.
 >
 > ...
 >
-> This is actually very important. If you’re not occasionally adding things back in, you are not deleting enough.
+> This is actually very important. If you're not occasionally adding things back in, you are not deleting enough.
 
 This is indeed important, especially as a company and a product scale and grow over time. As noted by Elon, there is a natural inclination to add a process or feature for every single scenario. This however leads to very sub-optimal outcomes.
 
@@ -58,7 +59,7 @@ As you are building new features or introducing new code/processes, ask whether 
 
 ### Simplify and optimize
 
-> Then only in the third step is “Simplify or optimize”. The third step, not the first step. The reason it’s at the third step is because it’s very common, as possibly the most common error of a smart engineer is to optimize a thing that should not exist
+> Then only in the third step is "Simplify or optimize". The third step, not the first step. The reason it's at the third step is because it's very common, as possibly the most common error of a smart engineer is to optimize a thing that should not exist
 
 For GitLab and software companies, one can translate this into a few recommended actions:
 
@@ -71,9 +72,9 @@ For GitLab and software companies, one can translate this into a few recommended
 
 Elon notes in the interview:
 
-> You’re moving too slowly, go faster. But don’t go faster until you work on the other three things first.
+> You're moving too slowly, go faster. But don't go faster until you work on the other three things first.
 >
-> If you’re digging, you know, your grave, don’t dig it faster. Stop digging your grave, you know.
+> If you're digging, you know, your grave, don't dig it faster. Stop digging your grave, you know.
 
 This principle aligns well with a few of GitLab's core values, such as:
 
@@ -88,4 +89,4 @@ While this may seem to be common sense as part of this flow, it is often times c
 
 As Elon notes in the interview:
 
-> The final step is “Automate”. Now, I have personally made the mistake of going backwards on all five steps multiple times. So I have to repeat this - yes, multiple times.
+> The final step is "Automate". Now, I have personally made the mistake of going backwards on all five steps multiple times. So I have to repeat this - yes, multiple times.

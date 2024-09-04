@@ -3,7 +3,7 @@ title: "Professional Services EM Scoping Guidelines"
 description: "Describes the process of scoping PS engagements."
 ---
 
-# Scoping Information
+## Scoping Information
 
 We use the [Engagement Estimate TEMPLATES](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit?usp=sharing) workbook as a starting point for determining the activities, duration, and price of a Professional Services opportunity.
 
@@ -28,6 +28,7 @@ See the detailed notes pages for each service type below.
 ## Escalations in Scoping
 
 There may be times when the EM and/or TA disagree with a solution approach that a customer has proposed for Professional Services.  In these cases, the scope should be escalated with the account team (SAE/AE, SA, CSM) by following these steps:
+
 1. Schedule an internal call with the account team (SAE and CSM or SA depending on who you've been working with on scoping, possibly both).  Both the TA and EM should attend the internal call.
 1. Lay out your reasoning for thinking the current solution path is not the correct path
 1. Define alternate solutions that would be a better fit

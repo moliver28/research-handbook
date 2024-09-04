@@ -77,12 +77,11 @@ dots at the top-right of the page, then select the option you are looking for
 Remember to test it all out and update this page to reflect the new workflow (if
 it is Support Readiness managed)!
 
-## Currently used Slack workflows
+### Currently used Slack workflows
 
 This section serves as a form of "backup" for the Slack workflows we manage, as
 the current implementation of Slack workflows does not allow an export/import
 option.
-
 
 #### Licensing  Internal Requests
 
@@ -106,12 +105,12 @@ Locate at
      > Thanks for seeking to help your customer.
      >
      > Because
-     > [Support cannot accept new work or customer-specific requests via Slack](https://about.gitlab.com/handbook/support/internal-support/#support-does-not-action-out-of-slack),
+     > [Support cannot accept new work or customer-specific requests via Slack](/handbook/support/internal-support/#support-does-not-action-out-of-slack),
      > we cannot assist you here.
      >
      > Please submit an Internal Request on their behalf (Zendesk Light Agent account required), or they can open a Support ticket. Details here:
      >
-     > - [Requesting Support for Customers](https://about.gitlab.com/handbook/support/internal-support/#support-tickets--customer-information)
+     > - [Requesting Support for Customers](/handbook/support/internal-support/#support-tickets--customer-information)
      > - [Submit an Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
      > - [Open a Support ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293)
 
@@ -311,14 +310,14 @@ Locate at
      > Thanks for seeking to help your customer.
      >
      > Because
-     > [Support cannot accept new work or customer-specific requests via Slack](https://about.gitlab.com/handbook/support/internal-support/#support-does-not-action-out-of-slack),
+     > [Support cannot accept new work or customer-specific requests via Slack](/handbook/support/internal-support/#support-does-not-action-out-of-slack),
      > we cannot assist you here.
      >
-     > To request attention on a ticket or issue, you’ll want to submit a
+     > To request attention on a ticket or issue, you'll want to submit a
      > Support Ticket Attention Request (STAR). Please follow the steps in the
      > link below to do so.
      >
-     > `https://about.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests#submitting-a-support-ticket-attention-request-star--starring-a-ticket`
+     > `https://handbook.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests#submitting-a-support-ticket-attention-request-star--starring-a-ticket`
 
      - Variables
        - User who sent the message that was reacted to (@display name)
@@ -337,7 +336,6 @@ Permissions:
   - Everyone in GitLab
 - Can copy this workflow
   - Workflow managers only
-
 
 #### Support Contact Management
 
@@ -416,7 +414,7 @@ Located at
      > is not permitted to be shared openly here.
      >
      > Refer to the
-     > [US Government Support Communication Guidelines](https://handbook.gitlab.com/handbook/support/workflows/usgovernment_tickets/#how-to-reference-customer-information-securely-in-chat)
+     > [US Government Support Communication Guidelines](/handbook/support/workflows/usgovernment_tickets/#how-to-reference-customer-information-securely-in-chat)
      > to see how you may reference customer information in a secure manner.
 
      - Variables

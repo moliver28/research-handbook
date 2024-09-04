@@ -15,7 +15,7 @@ The Senior Accountant, Accounting and External Reporting is a [grade 7](/handboo
 
 ### Responsibilities
 
-- Compile “provided by client” support for the consolidated and statutory audits and review processes conducted by external auditors and verify that all requested information is complete and accurate prior to submission.
+- Compile "provided by client" support for the consolidated and statutory audits and review processes conducted by external auditors and verify that all requested information is complete and accurate prior to submission.
 - Run reports and validate data for the production of consolidated financial statements on a monthly, quarterly and annual basis.
 - Ensure footnote disclosures in audited financial statements and SEC filings are accurately populated with supporting documentation.
 - Assist with running reports and data validation of stock based compensation and equity related accounts.

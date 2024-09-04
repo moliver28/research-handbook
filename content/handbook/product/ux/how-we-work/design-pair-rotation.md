@@ -20,32 +20,30 @@ Collaborating on key activities offers a unique opportunity to broaden your know
 - Perform design reviews on each other's designs.
 - Walk your design pair through your product areas primary use cases to familiarize them with it.
 - Use part of your pairing sessions to ensure local environments are set up and ready for reviews in your respective product areas. Collaborate on MR reviews to learn more about the product area and provide UX feedback to your design pair.
-- Perform Buddy [UX Scorecard: Heuristic Evaluations](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards/#option-a-conduct-a-heuristic-evaluation) ([Buddy Template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)) on each other’s primary use cases.
-- Collaborate on solution validation for each other’s product areas (write scripts, take notes, observe, assess interview data).
+- Perform Buddy [UX Scorecard: Heuristic Evaluations](/handbook/product/ux/ux-scorecards/#option-a-conduct-a-heuristic-evaluation) ([Buddy Template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)) on each other's primary use cases.
+- Collaborate on solution validation for each other's product areas (write scripts, take notes, observe, assess interview data).
 
 ### Schedule
 
-This is the rotation schedule for FY25-Q1 and Q2 (2024-02-01 until 2024-07-31).
+This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 
 <!-- TIP: To update the table below, create the schedule in a temporary spreadsheet, and then copy/paste the rows into an online markdown generator (https://www.google.com/search?q=copy-table-in-excel-and-paste-as-a-markdown-table) -->
 
-| Designer               | Design Pair                |
-|------------------------|----------------------------|
-| Michael Le             | Katie Macoy                |
-| Alex Fracazo           | Bonnie Tsang               |
-| Timothy Noah           | Annabel Gray               |
-| Julia Miocene          | Graham Bachelder           |
-| Veethika Mishra        | Chad Lavimoniere           |
-| Dan Mizzi-Harris       | Camellia Yang              |
-| Sunjung Park           | Sascha Eggenberger         |
-| Mike Nichols           | Taylor Vanderhelm          |
-| Amelia Bauerly         | Becka Lippert              |
-| Emily Bauman           | Austin Regnery             |
-| Ilonah Pelaez          | Gina Doyle                 |
-| Michael Fangman        | Jeremy Elder               |
-| Nick Leonard           | Divya Alagarsamy           |
-| Nick Brandt            | Ian Gloude                 |
-
-### Temporary pairing
-
-No temporary pairings at this time.
+| Designer          | Design Pair            |
+|-------------------|------------------------|
+| Libor Vanc        | Emily Bauman           |
+| Amelia Bauerly    | Chad Lavimoniere       |
+| Graham Bachelder  | Annabel Gray           |
+| Nicolle Merrill   | Nick Brandt            |
+| Alyssa Trinh      | Mike Nichols           |
+| Taylor Vanderhelm | Jeremy Elder           |
+| Lina Fowler       | Becka Lippert          |
+| Ian Gloude        | Michael Fangman        |
+| Nick Leonard      | Austin Regnery         |
+| Gina Doyle        | Timothy Noah           |
+| Ilonah Pelaez     | Katie Macoy            |
+| Veethika Mishra   | Pedro Moreira da Silva |
+| Dan Mizzi-Harris  | Julia Miocene          |
+| Camellia Yang     | Sascha Eggenberger     |
+| Sunjung Park      | Alex Fracazo           |
+| Bonnie Tsang      | Michael Le             |

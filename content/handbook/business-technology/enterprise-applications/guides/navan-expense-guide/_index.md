@@ -1,54 +1,47 @@
 ---
-
 title: "Navan Expense End Users Guide"
 description: "Navan Expense End Users Guide"
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
 
 ## What is Navan Expense
 
-Navan Expense is an expense and payments platform that improves managing expenses while you’re on the road.
+Navan Expense is an expense and payments platform that improves managing expenses while you're on the road.
 
 ### How to access Navan Expense
 
 **BROWSER**
 
 Navan Expense is available via Okta. To access the platform:
+
 - Login to your [Okta home page](https://gitlab.okta.com/app/UserHome).
 - Find the `Navan` tile.
-   - *Navan should open in a new tab with your user logged in.*
+  - *Navan should open in a new tab with your user logged in.*
 - Click on `Navan Travel` at the top-left corner of the page.
 - Select `Expenses`.
 
 **MOBILE APP**
+
 - Download the app from your preferred [mobile app store](https://app.tripactions.com/app/liquid/user/redirect).
-   - Navan mobile app is compatible with iOS 15 or later.
+  - Navan mobile app is compatible with iOS 15 or later.
 - Open the app and select `Sign in with Email`.
 
-![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.png)
+![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.jpg)
 
-- Add your gitlab email and click `Continue`.
+- Add your GitLab email and click `Continue`.
 
 ![navan-image-21](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/work-email.png)
 
 - Select `Sign in with Okta SSO`.
 
-![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.png)
+![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.jpg)
 
-**NOTE**: If you have the *TripActions Liquid* app, you can delete it from your device.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+If you have the *TripActions Liquid* app, you can delete it from your device.
+{{% /alert %}}
 
 > For more information on how to use the mobile app, check the *[Getting started with Navan expense on mobile](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-mobile)* article.
-
 
 ## Navan Expense - Getting Started
 
@@ -92,6 +85,7 @@ If a transaction requires your attention or follow-up, it will be placed in the 
 #### Profile
 
 Access your profile by tapping the `Profile` icon located in the top-right corner of the app, then `Expense settings`. From this page you can manage the following features:
+
 - **Calendar integration**: When enabled, this integration captures information from your calendar about events that are relevant to your card transactions (such as name, location, and participants) and automatically completes transaction details.
 - **Personal cards**: Link your personal payment method(s) to import out-of-pocket expenses or repay your company if a charge made on your Navan card has not been approved.
 - **Personal bank account**: Link your personal bank account to receive reimbursement for approved manual transactions (out-of-pocket expenses) .
@@ -135,8 +129,9 @@ The `Drafts` tab contains transactions created from receipt forwarding or manual
 
 Use the `Add transaction` button from any tab on the `Transactions` page to manually enter transactions for purchases made using cash or a personal card.
 
-**NOTE**: To import manual expense from a personal card instead of manually entering in your transaction details, please use the Navan app.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+To import manual expense from a personal card instead of manually entering in your transaction details, please use the Navan app.
+{{% /alert %}}
 
 #### Cards
 
@@ -144,7 +139,7 @@ Manage Navan cards and purchase cards under the `Cards` section. Click the `Nava
 
 #### Settings
 
-Use the settings tab to connect your work calendar using the Calendar integration and also add a bank account to receive reimbursements for approved manual transactions.  
+Use the settings tab to connect your work calendar using the Calendar integration and also add a bank account to receive reimbursements for approved manual transactions.
 
 - **Calendar integration**: When enabled, this integration captures information from your calendar about events that are relevant to your card transactions (such as name, location, and participants) and automatically completes transaction details.
 - **Personal cards**: Link your personal payment method(s) to import out-of-pocket expenses or repay your company if a charge made on your Navan card has not been approved.
@@ -161,13 +156,10 @@ If you have questions or need assistance with your Navan account, cards, or tran
 
 Connect your personal bank account or personal cards to Navan for quick and easy submission of manual expenses, reimbursement for out-of-pocket expenses, and repayments to the company.
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
+
 - If your personal bank account is not able to be connected, you will be reimbursed according to GitLab's regular payroll process..
-</div>
-</div>
+{{% /panel %}}
 
 #### Importing transactions
 
@@ -182,12 +174,19 @@ Users with a United States-issued personal card can link the card to their Navan
 
 Connect your bank account to Navan to receive reimbursements for out-of-pocket expenses. Bank accounts can be linked via [Plaid](https://plaid.com/en-eu/) (US-based bank accounts only) by entering your bank account login credentials. Additionally, US-based bank accounts and accounts based in [countries eligible for direct reimbursement](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#in-what-countries-are-direct-reimbursements-available) can be linked manually by inputting your bank account information.
 
+- For Canadian bank accounts, the format for routing number is 0XXXYYYYY
+  - add a zero in the beginning for electronic transfers
+  - XXX = last 3 digits institution number
+  - YYYYY = first 5 digits branch/transit number
+
+{{% alert color="warning" %}}
 Please note that you can link only one account at a time. To add a different account for reimbursements, you must first unlink the existing account.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ##### In the mobile app
 
 **Log in to your bank account**
+
 1. Navigate to the `Profile` icon on your Navan app, then tap `Expense settings`.
 2. Tap `Bank account`.
 3. Select `Login to bank account`.
@@ -195,6 +194,7 @@ Please note that you can link only one account at a time. To add a different acc
 5. `Enter your credentials`, then click `Submit`.
 
 **Link bank account manually**
+
 1. Navigate to the `Profile` icon on your Navan app, then tap `Expense settings`.
 2. Tap `Bank account`.
 3. Select `Link bank account manually`.
@@ -211,34 +211,30 @@ Please note that you can link only one account at a time. To add a different acc
 
 ![liquid-image-31](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/web-bank-account.png)
 
-
-
 > Check the *[How do I connect my personal banking information to Navan Expense?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/connect-personal-banking)* article to learn how to connect your card or account.
-
 
 ### How to get reimbursed for out-of-pocket spend
 
 Import business transactions paid in cash or charged to a personal card to receive reimbursement through the Navan mobile app. Known as manual expensing, these transactions will be automatically approved for reimbursement if they comply with your assigned policy. Transactions outside of your assigned policy are submitted for review by your company's admin team.
 
 There are several ways to submit for reimbursement, and all manual expenses can be saved as a draft before submitting:
+
 - **Receipt scanner:** Take or upload a photo of your receipt, and all relevant details will auto-populate into the corresponding fields.
 - **Personal card import:** Link your personal card(s) and import transactions for reimbursement.
-   - Note: This option is only available to users with a United States-based bank account.
+  - Note: This option is only available to users with a United States-based bank account.
 - **Type in expenses:** Manually type in your transaction details if you cannot link a personal card or have misplaced your receipt.
 - **Receipt Import:** Email Navan (*receipts@navan.com*) a copy of your receipt(s) and they will automatically be added to an existing Navan Expense transaction or created as a transaction draft.
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
-- Receipts need to be forwarded from your GitLab email to _receipts@navan.com_ in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
-</div>
-</div>
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
+
+- Receipts need to be forwarded from your GitLab email to *receipts@navan.com* in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
+{{% /panel %}}
 
 <br>
 
-**TIP**: After beginning a manual expense, tap `Save & close` to save the transaction as a draft. Drafts are saved in the `Drafts` folder and can be accessed and modified at any time until you submit or delete them.
-{: .alert .alert-info}
+{{% alert title="Tip" color="info" %}}
+After beginning a manual expense, tap `Save & close` to save the transaction as a draft. Drafts are saved in the `Drafts` folder and can be accessed and modified at any time until you submit or delete them.
+{{% /alert %}}
 
 #### Receipt Scanner
 
@@ -248,8 +244,9 @@ When uploading a receipt image, most of the required transaction information wil
 
 ![liquid-image-11](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/receipt-scanner.png)
 
-**NOTE**: You will need to grant the Navan Expense app access to your phone's camera or camera roll in order to take or access a saved picture of your receipts.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+You will need to grant the Navan Expense app access to your phone's camera or camera roll in order to take or access a saved picture of your receipts.
+{{% /alert %}}
 
 #### Import from Personal Card (For United States-based bank account only)
 
@@ -257,8 +254,9 @@ To receive reimbursement for a business transaction charged to a personal card, 
 
 ![liquid-image-12](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/import.png)
 
-**TIP**: If you have recently been on a trip booked through Navan and would like to be reimbursed for a trip-related expense, toggle `View by trips` on to view only transactions that occurred on the date(s) of your trip(s).
-{: .alert .alert-info}
+{{% alert title="Tip" color="info" %}}
+If you have recently been on a trip booked through Navan and would like to be reimbursed for a trip-related expense, toggle `View by trips` on to view only transactions that occurred on the date(s) of your trip(s).
+{{% /alert %}}
 
 #### Type in details
 
@@ -285,12 +283,13 @@ Modify Navan Expense transactions to provide additional details, such as adding 
 #### Accessing Transactions Details
 
 Transactions are organized into folders based on transaction type. Select a folder to view all transactions that fall under the transaction type, then choose a transaction to modify the transaction details following the steps below:
+
 - Navigate to the `My transactions` section of your Navan mobile app .
 - Select a folder based on the different transaction types:
-   - **Drafts:** Transactions created from the receipt forwarding feature or manual transactions that are saved but not submitted yet.
-   - **Manually added:** Transactions submitted for out-of-pocket expenses.
-   - **Navan card**: Transactions charged to a virtual or physical Navan card.
-   - **Purchase cards**: Transactions charged to a purchase card.
+  - **Drafts:** Transactions created from the receipt forwarding feature or manual transactions that are saved but not submitted yet.
+  - **Manually added:** Transactions submitted for out-of-pocket expenses.
+  - **Navan card**: Transactions charged to a virtual or physical Navan card.
+  - **Purchase cards**: Transactions charged to a purchase card.
 - Choose the transaction you would like to modify or withdraw and proceed with any of the changes outlined below.
 
 #### Add a Receipt
@@ -302,11 +301,12 @@ Depending on your assigned policy, you may be required to attach a copy of your 
 #### Add Participants
 
 Participants can be added to certain transaction types to provide your company admin or manager with additional context around your spend. For example, you may wish to add participant information to your transaction for a team event, meal or a transaction for an UberXL where multiple passengers were present to justify a higher cost. To add a participant(s):
+
 - On the transaction details page, tap the `Participants` field.
-   - *Note: If you do not see the participants field, this indicates the transaction type is not eligible to have this information submitted.*
+  - *Note: If you do not see the participants field, this indicates the transaction type is not eligible to have this information submitted.*
 - A `Search` box will appear where you can type in the name of each participant.
-   - Other Navan users from your company will appear on the list of participants to select from, and their information will be pre-populated.
-   - To add participants outside of your company, such as customers or guests, use the `+` icon to enter the new participant's information (first name, last name, and email address).
+  - Other Navan users from your company will appear on the list of participants to select from, and their information will be pre-populated.
+  - To add participants outside of your company, such as customers or guests, use the `+` icon to enter the new participant's information (first name, last name, and email address).
 - Tap `Save` to save your changes.
 
 ![liquid-image-1](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/add-participants.png)
@@ -322,6 +322,7 @@ Expense types for transactions charged to Navan cards will be automatically assi
 #### Add or Edit a General Ledger (GL) Code
 
 GitLab uses GL codes to map and track spend for specific types of expenses. If the system admins have provided you with the ability to add or edit the GL code associated with your transaction, you will be able to do so at the time you are submitting your transaction (for manual/out-of-pocket expenses). To add or edit a GL code, find the appropriate transaction and follow the steps below:
+
 - On the transaction details page, tap the `GL code` field.
 - Search for a GL code or scroll through the list provided.
 - Select a GL code and click `Save`.
@@ -332,6 +333,7 @@ GitLab uses GL codes to map and track spend for specific types of expenses. If t
 #### Link a Related Trip
 
 Transactions made with a Navan card during a business trip will automatically be associated with corresponding travel booked on the Navan platform. For manual (out-of-pocket expenses), you will need to ensure this information is correctly entered before submitting your expense. To associate an expense with a trip, follow the steps below:
+
 - On the transaction details page, tap the `Trip` field.
 - Navan Expense will provide a list of suggested trips booked in Navan for you to select from.
 - Once a trip has been selected, tap `Save` to save your changes.
@@ -341,6 +343,7 @@ Transactions made with a Navan card during a business trip will automatically be
 #### Withdraw a Transaction
 
 If you submit a manual transaction for an out-of-pocket expense that is not compliant with your assigned expense policy, it will be flagged for review by your expense approver. These transactions will be marked as `In review` and can be found in the `Manual` folder of the `My Transactions` section. If you would like to withdraw one of these transactions before your approver has taken action, you may do so by following the steps below:
+
 - On the transaction details page, tap the `ellipsis` in the top right corner.
 - Click `Withdraw transaction` to permanently delete the transaction.
 
@@ -357,6 +360,7 @@ Business expenses paid for in cash or charged on a personal card can be imported
 #### New Transactions
 
 To submit a manual expense with multiple receipts, open the Navan Expense mobile app, tap `Expense`, `+New transaction`, then follow the steps below:
+
 1. Select `Scan a receipt`, then tap the camera shutter button to capture each image(s) of the receipt. Alternatively, you can tap `Photos` or `PDF` to upload saved receipt images or PDFs. Tap `Email` to forward an email copy of the receipt to Navan. As you take each photo or add a saved image, you will see a thumbnail on the bottom right side of the screen with the number of photos taken.
 2. After reviewing your photos, tap the `Use photos` button.
 3. Use the `crop icon` if edits are needed. Use the trash can icon to remove unneeded images.
@@ -367,6 +371,7 @@ To submit a manual expense with multiple receipts, open the Navan Expense mobile
 #### Submitted Transactions
 
 To attach multiple receipts to transactions that have already been submitted, follow the steps below:
+
 1. Navigate to the `My transactions` section in the Navan mobile app, then `Navan card`.
 2. Find and select the transaction you would like to add your receipts to.
    - If you have not uploaded any receipts, tap `Add receipt`  then select the method you would like to upload (`Add photos`, `Add PDF`, or `Replace receipt`).
@@ -380,16 +385,14 @@ To attach multiple receipts to transactions that have already been submitted, fo
 
 Navan Expense provides you with the ability to automatically split a single transaction into multiple items, allowing for the assignment of expense types, GL codes, custom fields, and the approval or rejection of the transaction by the admin on a per-item basis. A common use case for itemization is hotel expenses, where certain charges should be covered by GitLab (i.e. the hotel's nightly rate or parking cost) while others should be covered with your personal funds (i.e. spa services utilized at the hotel).
 
+{{% alert color="warning" %}}
 Users can itemize their own manual transactions at any time **before they have been submitted** or after submission only if a transaction has been flagged for review by the system admin and has not yet been actioned by them.
-{: .alert .alert-warning}
+{{% /alert %}}
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
+
 - Transaction itemization is not currently available on the web app.
-</div>
-</div>
+{{% /panel %}}
 
 #### Itemizing a manual transaction
 
@@ -407,7 +410,7 @@ Users can itemize their own manual transactions at any time **before they have b
 
 #### Itemizing a manual transaction after expense submission
 
-Manual transactions are automatically approved when submitted if they fall within the parameters of your assigned expense policy and cannot be itemized. If a submitted non-itemized manual transaction has been flagged for review by the system admin for being non-compliant with your assigned expense policy, you will have the opportunity to itemize it before the admin has approved or rejected.  
+Manual transactions are automatically approved when submitted if they fall within the parameters of your assigned expense policy and cannot be itemized. If a submitted non-itemized manual transaction has been flagged for review by the system admin for being non-compliant with your assigned expense policy, you will have the opportunity to itemize it before the admin has approved or rejected.
 
 1. Tap the `Needs your review` tile on the homepage of your Navan Expense app.
 2. Select a transaction.
@@ -419,36 +422,32 @@ Manual transactions are automatically approved when submitted if they fall withi
 
 Forward email receipt to Navan Expense to automatically match it to existing transactions. Receipts sent to Navan will be imported and analyzed to auto-fill transaction details for you allowing to review, then submit.
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
+
 - Multiple receipts in an email will be cataloged as one transaction. If you need to submit receipts for more than one transaction, forward them as separate emails.
-</div>
-</div>
+{{% /panel %}}
 
 #### Emailing Receipts to Navan
 
 Receipts emailed to Navan will be scanned, and the transaction information will be imported to your Navan Expense account. Receipts that match an existing transaction will automatically be added to that transaction. If a match is not found, a new transaction draft will be created using the receipt and transaction details. To import a receipt, email a copy of your receipt to *receipts@navan.com* from your **GitLab work email**.
 
 Once received, a push notification (if enabled on your device) will confirm that your receipt was successfully imported and inform you of its status:
+
 - **Successful receipt/transaction match:** Shortly after emailing your receipt, you will receive a push notification that your receipt has been matched with an existing Navan Expense transaction. Tap the notification to be directed to the transaction in the mobile app, or navigate to the `My Transactions` section to view the transaction to which the receipt was added. Review the transaction to confirm that all of the information is correct.
 - **Draft created:** Shortly after emailing your receipt, you will receive a push notification that your receipt has been imported and that a transaction draft has been created and saved in the `Drafts` folder. Open the transaction to review, fill in all required fields, then submit.
 
 ![liquid-image-26](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/emailing-receipts.png)
 
+{{% alert color="warning" %}}
 If the receipt import is attached to the wrong transaction or if it needs to be replaced, see the next section, [Managing Imported Receipts](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#managing-imported-receipts), for instructions.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 <br>
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
+
 - All receipts contained in each email will be cataloged as one transaction. If you need to submit receipts for more than one transaction, forward them as separate emails.
-</div>
-</div>
+{{% /panel %}}
 
 #### Managing Imported Receipts
 
@@ -492,8 +491,9 @@ To connect your calendar, access your profile by tapping the `Profile` icon loca
 
 Navan Expense provides you with a quick and simple way to get reimbursed for mileage driven for business in your personal vehicle. The expense policy assigned to you for on-the-job expenses by GitLab's Navan Expense admin will determine your mileage reimbursement eligibility.
 
+{{% alert color="warning" %}}
 Mileage is only available in the Navan Expense Mobile App. Download the app from your preferred [mobile app store](https://app.tripactions.com/app/liquid/user/redirect).
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Submitting a Mileage Expense (Available on the mobile app only)
 
@@ -503,13 +503,10 @@ To submit a request for mileage reimbursement, tap `+New transaction`, then `Log
 - Your reimbursement amount is calculated based upon the total distance traveled multiplied by the mileage rate reimbursed by GitLab (click into the `Information` icon next to `Total` to see this value).
 - Lastly, enter in your `Date of travel` (required) and any additional details to provide your Navan Expense Admin team with more details and context for your expense (optional).
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**Note**" header-bg="danger" %}}
+
 - If you do not see the option to `Log distance driven`, this indicates that your company has not assigned you to an expense policy that allows for mileage reimbursement. Contact the Accounts Payable team for more information.
-</div>
-</div>
+{{% /panel %}}
 
 > Check the *[How do I submit a mileage reimbursement request?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/mileage-reimbursement)* article for more details.
 
@@ -545,8 +542,9 @@ If you would like to designate book or manage travel to another team member, fol
 
 If you no longer wish to have another team member book or manage travel on your behalf, select the `X` next to the name of the person you would like to remove. Once you have removed a delegate's access to your profile, they will receive an email notifying them of the change.
 
-**Note**: If you cannot remove a user from your list of delegates, this indicates that a Navan Expense admin has marked them as a company-wide delegate. Company-wide delegates can only be added or removed by a company administrator.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+If you cannot remove a user from your list of delegates, this indicates that a Navan Expense admin has marked them as a company-wide delegate. Company-wide delegates can only be added or removed by a company administrator.
+{{% /alert %}}
 
 #### Submitting a manual expense for another user
 
@@ -617,99 +615,102 @@ To access the dashboard, navigate to `Navan Travel > Manager > Analysis`. The `O
 
 The Users tab allow managers to view their direct reports' employee data such as their issuing currency, cost center, and more. Click on a user's name to view additional information including their transaction history and policy assignment. In addition to the Activity tab, designated approvers can review, approve, reject, and request more information for a transaction directly through a user's transaction history.
 
-**Note:** Users designated as a manager on the Navan user list will have access to the Manager Dashboard. If you do not see a Manager Dashboard option available, either you do not have any assigned direct reports or your direct reports do not have any spend activity.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+Users designated as a manager on the Navan user list will have access to the Manager Dashboard. If you do not see a Manager Dashboard option available, either you do not have any assigned direct reports or your direct reports do not have any spend activity.
+{{% /alert %}}
 
 > Check the *[Leveraging the Navan Expense manager dashboard](https://app.tripactions.com/app/helpcenter/articles/expense/myself/expense-approvals/expense-manager-dashboard)* article for more details.
 
 ## Navan Expense Frequently Asked Questions (FAQ)
 
-#### What happens if I enter incorrect bank account information?
+### What happens if I enter incorrect bank account information?
 
 Account information is validated upon submission. However, we cannot validate that it is the correct account for you. Please ensure that you enter your bank account information correctly. Navan is not liable for money sent to the wrong account.
 
-#### What if I have a bank account transacted in currency outside of those supported?
+### What if I have a bank account transacted in currency outside of those supported?
 
 If your bank account's currency is not currently supported or you wish to not link your bank account for other reasons, you can still receive reimbursements through GitLab's payroll. For details on GitLab's payroll cycle and process, contact the Accounts Payable Team.
 
-#### What if I don't want to link my personal card? How can I make repayments to my company?
+### What if I don't want to link my personal card? How can I make repayments to my company?
 
 If you do not link your personal card to Navan Expense and you owe GitLab a repayment for an expense that was not approved, you will need to connect with the Accounts Payable Team to determine the best method for repayment.
 
-#### In what countries are direct reimbursements available?
+### In what countries are direct reimbursements available?
 
 Please check [this section](/handbook/finance/expenses/#44-reimbursement-payout-timelines) of the Expense handbook page for information on reimbursements and payout timelines.
 
-#### How can I receive my funds if my reimbursement fails?
+### How can I receive my funds if my reimbursement fails?
 
 If your reimbursement fails, unlink, then relink your bank account from the `My reimbursements` tab on your mobile app or the `Settings` tab on the web app. Once relinked, Navan will resend the funds to your bank.
 
-#### Is it required that I include participants on my transactions?
+### Is it required that I include participants on my transactions?
 
 While it is not required, adding participants to your transactions will give your Admin Team a better understanding of cost per person and help provide justification for more costly expenses.
 
-#### If I add colleagues to my transaction as participants, whose policy will be applied?
+### If I add colleagues to my transaction as participants, whose policy will be applied?
 
 Adding participants to a transaction will not affect which policy is applied. Any transactions that you submit, regardless of participants entered, will be subject to the parameters set by your own assigned policies.
 
-#### Is it possible to expense mileage for a round trip drive?
+### Is it possible to expense mileage for a round trip drive?
 
 Yes, simply click on the `+` icon when entering your destinations to add a location.
 
-#### Will I be able to submit for reimbursement in kilometers instead of miles?
+### Will I be able to submit for reimbursement in kilometers instead of miles?
 
 The region assigned to you by your Navan Expense Admin Team will determine if you are able to submit in kilometers or miles. **Note:** If you are a US-based employee using your personal car on an international trip, you will still need to submit your reimbursement request in miles.
 
-#### Can I still submit mileage for travel, without attaching it to a trip booked on Navan?
+### Can I still submit mileage for travel, without attaching it to a trip booked on Navan?
 
 Yes, as long as your assigned expense policy allows for mileage reimbursement.
 
-#### What rideshare applications can Navan connect to?
+### What rideshare applications can Navan connect to?
 
 Navan offers connections with Lyft, Uber, and Grab so you can automatically share your location and destination information to access a ride while traveling.
 
 > Check the *[What rideshare applications can Navan connect to?](https://app.tripactions.com/app/helpcenter/articles/travel/myself/getting-started-for-travelers/rideshare-applications)* article for more details.
 
-#### Can I automatically submit Lyft expenses?
+### Can I automatically submit Lyft expenses?
 
 Navan Expense users can connect their Lyft account to Navan Expense to automatically send receipts and submit expenses for business travel-related Lyft rides. To leverage this option, you will first need to create a Lyft business profile with the same email address you use in Navan.
 
 > Check the *[How can I automatically submit Lyft expenses?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/lyft-expenses)* article for more details.
 
-#### Is there anything I can't do in the web app that I can do in the mobile app?
+### Is there anything I can't do in the web app that I can do in the mobile app?
 
 To view your assigned expense policies or log miles driven for reimbursement, please use the Navan app. These features are not currently available in the web app.
 
-#### Should I add tax details for Navan Expense transactions?
+### Should I add tax details for Navan Expense transactions?
 
 Team members are not required to add tax details to any expense transactions.
 
 > Check the *[How do I add tax information to my transactions?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/tax-details)* article for more details.
 
-#### If I submit multiple receipts at once and everything is auto-approved, are we paid in 1 lump sum or via multiple reimbursements?
+### If I submit multiple receipts at once and everything is auto-approved, are we paid in 1 lump sum or via multiple reimbursements?
 
 A deposit for each transaction will be made into your bank account. If you submit 5 manual expenses, you will receive 5 separate bank deposits for each individual transaction.
 
-#### If my expenses are rejected, can I go back to edit and resubmit?
+### If my expenses are rejected, can I go back to edit and resubmit?
 
 Expenses will need to be fully resubmitted if rejected.
 
-#### Where can I see Navan Expense product releases?
+### Where can I see Navan Expense product releases?
 
 Navan Expense product releases are shared in the following blog: [Navan Expense product release announcements](https://app.tripactions.com/app/helpcenter/articles/expense/admin/general-settings/navan-expense-product-release-announcements)
 
 ## Navan Expense Training
 
-#### End User Training
+### End User Training
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/3lnIPfXwyk0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
+{{% /alert %}}
 
 This video covers:
+
 - What is Navan Expense
 - Navan Mobile App
 - How to connect your bank account to Navan
@@ -723,16 +724,18 @@ This video covers:
 - Using the Navan Web App
 - Q&A
 
-#### Manager Training
+### Manager Training
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/3OJn7UbGAJ0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `Navan Expense` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
+{{% /alert %}}
 
 This video covers:
+
 - What is Navan Expense
 - Navan Mobile App
 - How to connect your bank account to Navan
@@ -752,8 +755,6 @@ This video covers:
 - For **functionality** related questions, the **Accounts Payable Team** should be the first point of contact for any questions related to how to use the Navan Expense platform and expenses related questions.
 - For **technical** related questions, the **Finance System Admins** should be the first point of contact for any technical issues and / or questions (eg. Access Requests, problems with login, bugs, etc).
 
+{{% alert color="info" %}}
 To contact the Accounts Payable Team or Finance System Admins, send a message to [#expense-reporting-inquiries](https://gitlab.slack.com/archives/C012ALM8P29) with your question.
-{: .alert .alert-info}
-
-
-{::options parse_block_html="false" /}
+{{% /alert %}}

@@ -1,17 +1,9 @@
 ---
-
 title: "Field-FYI Slack Channel"
 description: "GitLab's official field announcements channel"
 ---
 
-
-
-
-
-
-
 The #field-fyi channel is the official field announcements channel. This is a read-only channel with permission levels restricted to Field and Company Leadership as well as Field Operations. The purpose of this channel is to pull news and announcements out of #sales, where they can easily get buried, and consolidate them in a streamlined channel. Anyone is free to react to and comment on posts in this channel, and field team members are encouraged to star it to stay up-to-date. For general field channels, see #sales and #customer-success.
-
 
 ## Best Practices
 
@@ -69,17 +61,21 @@ Based on team member feedback, each #field-fyi post has a bolded header that hel
 ## Q&A
 
 **What are some examples of a post fit for #sales vs #field-fyi?**
+
 1. Examples of #sales posts: General team questions, reminders about meetings, general chatter from team members, non time-sensitive updates/resources.
 1. Examples of #field-fyi posts: Updates from CRO, noteworthy process changes, important and time-sensitive resources, (enablement, sales ops, marketing etc.) time-sensitive People Ops information.
 
 **What is the difference between #field-fyi and #cro channels?**
+
 1. The #cro channel is for announcements and communication specifically from/to the CRO about business-related topics. Examples include recognition, observations, CRO calls-to-action.
 1. In some rare cases, process-related updates that come from the CRO will be posted to #field-fyi.
 1. Alluding again to the format that we've taken with #company-fyi - the CEO still has their #ceo channel that they uses to communicate with the team/field questions, but organization-wide posts go on #company-fyi.
 
 **Do I have to run my #field-fyi post by Field Communications?**
+
 1. Yes! Field Comms' primary responsibility is to ensure that the Field team gets their information in the most effective and efficient way. They are here as a resource for you to help you get the largest reach possible out of your announcement by collaborating with you on the best timing and a milti-channel communication plan.
 
 **If someone has an update fitting for #field-fyi but doesn't have posting permissions, how can they get their news shared?**
+
 1. If it's a one-off request, please reach out to #field-enablement-team or create a brief issue summarizing your requested announcement using the [Field announcements request process](/handbook/sales/field-communications/#requesting-field-announcements).
 1. If a team member needs the ability to share updates on a recurring basis, they can work directly with the [Field Enablement team](/handbook/sales/field-operations/field-enablement/) to discuss posting permissions.

@@ -1,15 +1,8 @@
 ---
-
 title: 'GitLab Speakers Resources'
 ---
 
 The Corporate Communications and Developer Advocacy teams want to enable everyone to contribute and spread the message about GitLab, DevSecOps, AI, and cloud-native to the entire world. We are happy to help speakers in any way we can, including public speaking coaching and building out slides. Below you can find some resources for becoming a speaker, finding an event, submitting a talk, and putting together the presentation and speech.
-
-
-
-
-
-
 
 ## Becoming a Speaker
 
@@ -63,17 +56,18 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 1. You can also see CFPs we're tracking with the `CFP` label [in the Corporate Marketing project](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CFP) (internal)
 1. For a complete list of events we are tracking, see the [marketing calendar](/handbook/marketing/#marketing-calendar) and the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/).
 1. More sources for events and CFPs:
-  - [CFP Land](https://www.cfpland.com/)
-  - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
-  - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
+
+   - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
+   - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
 
 ### CFP Submission
 
 > 🤝 **These steps are required.**
 
 All talk submissions to the Call-for-Papers (CFP) process at events must be tracked in an issue, using the [`CFP-Meta` template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta).
-  - If you submitted a talk, or it was accepted already, please also create an issue.
-  - Inviting customers to speak, or co-submit a talk should also be coordinated in the CFP issue.
+
+- If you submitted a talk, or it was accepted already, please also create an issue.
+- Inviting customers to speak, or co-submit a talk should also be coordinated in the CFP issue.
 
 The CFP template provides guidance on the required event details (URL, location, dates, CFP notification dates, etc.). Please add as many details as possible. All DRIs are tagged automatically, and will be in touch for the next steps.
 
@@ -81,15 +75,15 @@ If you need help with abstract reviews, or slide deck reviews, please add a note
 
 For ideas to help you or your customers get their submissions accepted:
 
-  - Review [How to Get Your Presentation Accepted (video)](https://www.youtube.com/watch?v=wGDCavOCnA4).
-  - Join the [Speakers Lean Coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee).
-  - Schedule a chat with a [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/).
+- Review [How to Get Your Presentation Accepted (video)](https://www.youtube.com/watch?v=wGDCavOCnA4).
+- Join the [Speakers Lean Coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee).
+- Schedule a chat with a [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/).
 
 #### Event Requirements
 
 > 🤝 **These steps are required.**
 
-Before accepting an invitation to speak at an event, please ensure that the conference aligns with GitLab’s values around its mission that “everyone can contribute”. The event should have both good intentions and accurately reflect those intentions.
+Before accepting an invitation to speak at an event, please ensure that the conference aligns with GitLab's values around its mission that "everyone can contribute". The event should have both good intentions and accurately reflect those intentions.
 
 1. Any event where a GitLab team member is speaking "on behalf of GitLab," requires to have at least two speakers on the event agenda from [an underrepresented group](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) and any panel a GitLab team member participates on should have at least one speaker from an underrepresented group.
 1. Please ensure the event has an enforced, public Code of Conduct to ensure it is a safe environment for all contributing. If needed, event organizers are welcome to use GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
@@ -109,8 +103,7 @@ If there is an event you would like to attend, are attending, speaking, or have 
 1. Create a [CFP issue](/handbook/marketing/corporate-communications/speaking-resources/#cfp-submission), if not existing already.
 1. Contact your manager for approval to attend/ speak, and document it in the CFP issue.
 1. After getting approval from your manager to attend, follow the steps in the Corporate Communications handbook section on [Speaking Opportunities](/handbook/marketing/corporate-communications/#speaking-opportunities-conferences-meetups-webinars-and-other-events).
-1. If the conference does not cover your travel and expenses, GitLab will cover your expenses (transportation, meals, and lodging for days said event takes place). If those expenses exceed $500, please get approval from your manager. When booking your trip, use our [travel portal](/handbook/travel/), book early, and spend as if it is your own money. Note: Your travel and expenses will not be approved until your event/engagement has been added to the events page.
-1. If you are speaking, please note your talk in the description when you add it to the Events Page.
+1. If the conference does not cover your travel and expenses, GitLab will cover your expenses (transportation, meals, and lodging for days said event takes place). If those expenses exceed $500, please get approval from your manager. When booking your trip, use our [travel portal](/handbook/finance/travel/), book early, and spend as if it is your own money.
 1. If you are not already on the [speakers page](https://about.gitlab.com/speakers/), please [add yourself](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/#join-the-speakers-bureau).
 1. We suggest bringing swag and/or stickers with you. Check the [Requesting Swag handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) how to request/order swag and stickers.
 
@@ -146,4 +139,3 @@ Below are some tips on being a better presenter. For an in-depth book that cover
 To find a speaker for your event, you can see the following resources:
 
 - Speakers Bureau: a catalogue of talks, speaker briefs and speakers can be found on our [Speakers Bureau page](https://about.gitlab.com/speakers/). Feel free to add yourself to this page and submit a MR if you want to be in our speaker portal and are interested in being considered for any upcoming speaking opportunities.
-

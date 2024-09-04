@@ -1,17 +1,11 @@
 ---
-
 title: "Performance"
 ---
-
-
-
-
-
-
 
 ## Performance Facets
 
 We categorize performance into 3 facets
+
 1. [Backend](#backend-performance)
 1. [Frontend](#frontend-performance)
 1. [Infrastructure](#infrastructure-performance)
@@ -23,6 +17,7 @@ Backend performance is scoped to response time of API, Controllers and command l
 **DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
 
 Performance Indicators:
+
 - [Memory Utilization (backlog)](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8841)
 
 ### Frontend performance
@@ -32,6 +27,7 @@ Frontend performance is scoped to response time of the visible pages and UI comp
 **DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
 
 Performance Indicators:
+
 - [Largest Contentful Paint (LCP)](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp)
 
 ### Infrastructure performance
@@ -41,10 +37,10 @@ Infrastructure performance is scoped to the performance of GitLab SaaS Infrastru
 **DRI**: [Steve Loyd](https://gitlab.com/sloyd), VP of Infrastructure.
 
 Performance Indicators:
+
 - [GitLab.com known application scaling bottlenecks](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-known-application-scaling-bottlenecks)
 
 ## Other Related Pages
-
 
 - [GitLab.com (infra) Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Monitoring GitLab.com](/handbook/engineering/monitoring/)
@@ -54,7 +50,7 @@ Performance Indicators:
 
 **Meta issue** to track various issues listed here is at on the [infrastructure tracker](https://gitlab.com/gitlab-com/infrastructure/issues/2373).
 
-# GitLab's Application performance
+## GitLab's Application performance
 
 ## Measurement
 
@@ -85,24 +81,24 @@ We currently measure with an empty cache, the connection limited to `Cable` and 
 
 The URLs from GitLab.com listed in the table below form the basis for measuring performance improvements - these are heavy use cases. The times indicate time passed from web request to "the average time at which visible parts of the page are displayed" (per the definition of Speed Index). Since the "user" of these URLs is a controlled entity in this case, it represents an _external_  measure of our previous performance metric "Speed Index".
 
-| Type |  [2018-04] | [2019-09] | [2020-02] | Now* |
-| Issue List: [GitLab FOSS Issue List] | 2872 | <span class="text-success">1197</span> | - | N/A |
-| Issue List: [GitLab Issue List] |  |  | <span class="text-danger">1581</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab issue list] |
-| Issue: [GitLab FOSS #4058] | 2414 | <span class="text-success">1332</span> | <span class="text-danger">1954</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana 4058] |
-| Issue Boards: [GitLab FOSS repo boards] | 3295 | <span class="text-success">1773</span> | - | N/A |
-| Issue Boards: [GitLab repo boards] | | | <span class="text-danger">2619</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab boards] |
-| Merge request: [GitLab FOSS !9546] | 27644 | <span class="text-success">2450</span> | <span class="text-success">1937</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana 9546] |
-| Pipelines: [GitLab FOSS pipelines] | 1965 | <span class="text-danger">4098</span> | - | N/A |
-| Pipelines: [GitLab pipelines] | | | <span class="text-danger">4289</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab pipelines] |
-| Pipeline: [GitLab FOSS pipeline 9360254] | 4131 | <span class="text-success">2672</span> |  <span class="text-success">2546</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana pipeline 9360254] |
-| Project: [GitLab FOSS project] | 3909 | <span class="text-success">1863</span> | - | N/A |
-| Project: [GitLab project] | | | <span class="text-success">1533</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab project] |
-| Repository: [GitLab FOSS Repository] | 3149 | <span class="text-success">1571</span> | - | N/A |
-| Repository: [GitLab Repository] | | | <span class="text-danger">1867</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab repository] |
-| Single File: [GitLab FOSS Single File Repository] | 2000 | <span class="text-success">1292</span> | - | N/A |
-| Single File: [GitLab Single File Repository] | | | <span class="text-danger">2012</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab single file repository] |
-| Explore: [GitLab explore] | 2346 | <span class="text-success">1354</span> | <span class="text-success">1336</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab explore] |
-| Snippet: [GitLab Snippet 1662597] | 1681 | <span class="text-success">1082</span> | <span class="text-danger">1378</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana snippet] |
+| Type |  [2018-04](https://storage.googleapis.com/sitespeed-results-gitlab/gitlab.com/2018-04-24-17-10-35/pages.html) | [2019-09](https://storage.googleapis.com/sitespeed-results-gitlab/gitlab.com/2019-09-13-08-28-42/pages.html) | [2020-02](https://storage.googleapis.com/sitespeed-results-gitlab/gitlab.com/2020-02-27-00-22-14/pages.html) | Now* |
+| Issue List: [GitLab FOSS Issue List](https://gitlab.com/gitlab-org/gitlab-foss/issues) | 2872 | <span class="text-success">1197</span> | - | N/A |
+| Issue List: [GitLab Issue List](https://gitlab.com/gitlab-org/gitlab/issues) |  |  | <span class="text-danger">1581</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_issues&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Issue: [GitLab FOSS #4058](https://gitlab.com/gitlab-org/gitlab-foss/issues/4058) | 2414 | <span class="text-success">1332</span> | <span class="text-danger">1954</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_issues_4058&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Issue Boards: [GitLab FOSS repo boards](https://gitlab.com/gitlab-org/gitlab-foss/boards) | 3295 | <span class="text-success">1773</span> | - | N/A |
+| Issue Boards: [GitLab repo boards](https://gitlab.com/gitlab-org/gitlab/-/boards/) | | | <span class="text-danger">2619</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_boards&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Merge request: [GitLab FOSS !9546](https://gitlab.com/gitlab-org/gitlab-foss/merge_requests/9546) | 27644 | <span class="text-success">2450</span> | <span class="text-success">1937</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_9546&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Pipelines: [GitLab FOSS pipelines](https://gitlab.com/gitlab-org/gitlab-foss/pipelines) | 1965 | <span class="text-danger">4098</span> | - | N/A |
+| Pipelines: [GitLab pipelines](https://gitlab.com/gitlab-org/gitlab/pipelines) | | | <span class="text-danger">4289</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_pipelines&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Pipeline: [GitLab FOSS pipeline 9360254](https://gitlab.com/gitlab-org/gitlab-foss/pipelines/9360254) | 4131 | <span class="text-success">2672</span> |  <span class="text-success">2546</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_pipelines_9360254&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Project: [GitLab FOSS project](https://gitlab.com/gitlab-org/gitlab-foss) | 3909 | <span class="text-success">1863</span> | - | N/A |
+| Project: [GitLab project](https://gitlab.com/gitlab-org/gitlab) | | | <span class="text-success">1533</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Repository: [GitLab FOSS Repository](https://gitlab.com/gitlab-org/gitlab-foss/tree/master) | 3149 | <span class="text-success">1571</span> | - | N/A |
+| Repository: [GitLab Repository](https://gitlab.com/gitlab-org/gitlab/tree/master) | | | <span class="text-danger">1867</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_tree_master&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Single File: [GitLab FOSS Single File Repository](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/app/assets/javascripts/main.js) | 2000 | <span class="text-success">1292</span> | - | N/A |
+| Single File: [GitLab Single File Repository](https://gitlab.com/gitlab-org/gitlab/blob/master/app/assets/javascripts/main.js) | | | <span class="text-danger">2012</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_blob_master_app_assets_javascripts_main_js&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Explore: [GitLab explore](https://gitlab.com/explore) | 2346 | <span class="text-success">1354</span> | <span class="text-success">1336</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_explore&var-browser=chrome&var-connectivity=cable&var-function=median) |
+| Snippet: [GitLab Snippet 1662597](https://gitlab.com/snippets/1662597) | 1681 | <span class="text-success">1082</span> | <span class="text-danger">1378</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_snippets_1662597&var-browser=chrome&var-connectivity=cable&var-function=median) |
 
 *To access the sitespeed grafana dashboards you need to be logged into your Google account
 
@@ -118,98 +114,48 @@ The URLs from GitLab.com listed in the table below form the basis for measuring 
 
 If you activate the `runs` toggle you will have annotations with links to all full reports. Currently we are running measurements every 2 hours.
 
-
-<!-- issue links -->
-[GitLab FOSS Issue List]: https://gitlab.com/gitlab-org/gitlab-foss/issues
-[GitLab Issue List]: https://gitlab.com/gitlab-org/gitlab/issues
-[GitLab FOSS #4058]: https://gitlab.com/gitlab-org/gitlab-foss/issues/4058
-[2018-04]: https://storage.googleapis.com/sitespeed-results-gitlab/gitlab.com/2018-04-24-17-10-35/pages.html
-[2019-09]: https://storage.googleapis.com/sitespeed-results-gitlab/gitlab.com/2019-09-13-08-28-42/pages.html
-[2020-02]: https://storage.googleapis.com/sitespeed-results-gitlab/gitlab.com/2020-02-27-00-22-14/pages.html
-<!-- MR links -->
-[GitLab FOSS !9546]: https://gitlab.com/gitlab-org/gitlab-foss/merge_requests/9546
-<!-- Pipeline links -->
-[GitLab FOSS pipeline 9360254]: https://gitlab.com/gitlab-org/gitlab-foss/pipelines/9360254
-[GitLab FOSS pipelines]: https://gitlab.com/gitlab-org/gitlab-foss/pipelines
-[GitLab pipelines]: https://gitlab.com/gitlab-org/gitlab/pipelines
-<!-- Repo links -->
-[GitLab FOSS project]: https://gitlab.com/gitlab-org/gitlab-foss
-[GitLab project]: https://gitlab.com/gitlab-org/gitlab
-<!-- Issue board links -->
-[GitLab FOSS repo boards]: https://gitlab.com/gitlab-org/gitlab-foss/boards
-[GitLab repo boards]: https://gitlab.com/gitlab-org/gitlab/-/boards/
-<!-- GitLab Explore -->
-[GitLab explore]: https://gitlab.com/explore
-<!-- GitLab Repository-->
-[GitLab FOSS Repository]: https://gitlab.com/gitlab-org/gitlab-foss/tree/master
-[GitLab Repository]: https://gitlab.com/gitlab-org/gitlab/tree/master
-[GitLab FOSS Single File Repository]: https://gitlab.com/gitlab-org/gitlab-foss/blob/master/app/assets/javascripts/main.js
-[GitLab Single File Repository]: https://gitlab.com/gitlab-org/gitlab/blob/master/app/assets/javascripts/main.js
-<!-- GitLab Snippets -->
-[GitLab Snippet 1662597]: https://gitlab.com/snippets/1662597
-<!-- Grafana links -->
-[grafana issue list]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_issues&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab issue list]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_issues&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana 4058]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_issues_4058&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana 9546]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_9546&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana pipeline 9360254]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_pipelines_9360254&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce repo]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce boards]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_boards&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab boards]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_boards&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce pipelines]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_pipelines&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab pipelines]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_pipelines&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab explore]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_explore&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_tree_master&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_tree_master&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce single file repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_blob_master_app_assets_javascripts_main_js&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab single file repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_blob_master_app_assets_javascripts_main_js&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana snippet]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_snippets_1662597&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana gitlab project]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab&var-browser=chrome&var-connectivity=cable&var-function=median
-
 ---
 
 ## Steps
 
-### Web Request
-{: #flow-of-web-request}
+### Web Request {#flow-of-web-request}
 
 All items that start with the tachometer (<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>) symbol represent a step in the flow that we _measure_. Wherever possible, the tachometer icon links to the relevant dashboard in our [monitoring](/handbook/engineering/monitoring/). Each step in the listing below links back to its corresponding entry in the [goals table](#web-goals-table).
 
-
 Consider the scenario of a user opening their browser, and surfing to their dashboard by typing `gitlab.com/dashboard`, here is what happens:
 
-1. <a name="request-reaches-BE"></a> [**User request**](#tb-request-reaches-BE)
+1. <a name="request-reaches-be"></a> [**User request**](#tb-request-reaches-be)
     1. <a name="start-request"></a> User enters gitlab.com/dashboard in their browser and hits enter
-    1. <a name="lookup-IP"></a> [Lookup IP in DNS](#tb-lookup-IP) (not measured)
+    1. <a name="lookup-ip"></a> [Lookup IP in DNS](#tb-lookup-ip) (not measured)
        - Browser looks up IP address in DNS server
        - DNS request goes out and comes
     back (typically ~10-20 ms, [data?]; often times it is already cached so
       then it would be faster).
        - For more details on the steps from browser to application, enjoy reading <https://github.com/alex/what-happens-when>
-    1. <a name="browser2AzLB"></a> [Browser to Azure LB](#tb-browser2AzLB) (not measured)
+    1. <a name="browser2azlb"></a> [Browser to Azure LB](#tb-browser2azlb) (not measured)
        - Now that the browser knows where to find the IP address, browser sends the web
     request (for gitlab.com/dashboard) to Azure's load balancer (LB).
 1. <a name="backend-processes"></a> [**Backend processes**](#tb-backend-processes)
-    1. <a name="AzLB2HAProxy"></a> [Azure LB to HAProxy](#tb-AzLB2HAProxy) (not measured)
+    1. <a name="azlb2haproxy"></a> [Azure LB to HAProxy](#tb-azlb2haproxy) (not measured)
        - Azure's load balancer determines where to route the packet (request), and
        sends the request to our Frontend Load Balancer(s) (also referred to as
          HAProxy).
-    1. <a name="HAProxy-SSL"></a> [HAProxy SSL with browser](#tb-HAProxy-SSL) (not measured)
+    1. <a name="haproxy-ssl"></a> [HAProxy SSL with browser](#tb-haproxy-ssl) (not measured)
        - HAProxy (load balancer) does SSL negotiation with the browser
-    1. <a name="HAProxy2NGINX"></a> [HAProxy to NGINX](#tb-HAProxy-SSL) (not measured)
+    1. <a name="haproxy2nginx"></a> [HAProxy to NGINX](#tb-haproxy-ssl) (not measured)
        - HAProxy forwards the request to NGINX in one of our front end workers.
        In this case, since we are tracking a web request, it would be the NGINX box in the
          "Web" box in the [production-architecture diagram](/handbook/engineering/infrastructure/production/architecture/); but alternatively the request can come in via API or a git command
          from the command line, hence the API, and git "boxes" in that diagram.
-        - Since all of our servers are in ONE Azure VNET, the overhead of SSL
+       - Since all of our servers are in ONE Azure VNET, the overhead of SSL
           handshake and teardown between HAProxy and NGINX should be close to negligible.
-    1. <a name="NGINX-buffer"></a> [NGINX buffers request](#tb-NGINX-buffer) (not measured)
+    1. <a name="nginx-buffer"></a> [NGINX buffers request](#tb-nginx-buffer) (not measured)
        - NGINX gathers all network packets related to the request ("request
        buffering"). The request may be split into multiple packets by the intervening network,
        for more on that, read up on [MTUs](https://en.wikipedia.org/wiki/Maximum_transmission_unit).
        - In other flows, this won't be true. Specifically, request buffering is
        [switched off for LFS](https://gitlab.com/gitlab-org/gitlab-workhorse/issues/130).
-    1. <a name="NGINX2workhorse"></a> [NGINX to Workhorse](#tb-NGINX2workhorse) (not measured)
+    1. <a name="nginx2workhorse"></a> [NGINX to Workhorse](#tb-nginx2workhorse) (not measured)
        - NGINX forwards the full request to Workhorse (in one combined request).
     1. <a name="workhorse2various"></a> [Workhorse distributes request](#tb-workhorse2various)
        - Workhorse splits the request into parts to forward to:
@@ -273,10 +219,10 @@ Consider the scenario of a user opening their browser, and surfing to their dash
     1. <a name="html2browser"></a> [HTML to Browser](#tb-html2browser) (not measured)
        - The HTML blob is sent back to the Browser via the following path:
        - <a name="unicorn2workhorse"></a> [Unicorn to Workhorse](#tb-unicorn2workhorse) (not measured)
-       - <a name="workhorse2NGINX"></a> [Workhorse to NGINX](#tb-workhorse2NGINX) (not measured)
-       - <a name="NGINX2HAProxy"></a> [NGINX to HAProxy](#tb-NGINX2HAProxy) (not measured)
-       - <a name="HAProxy2AzLB"></a> [HAProxy to Azure LB](#tb-HAProxy2AzLB) (not measured)
-       - <a name="AzLB2browser"></a> [Azure LB to Browser](#tb-AzLB2browser) (not measured)
+       - <a name="workhorse2nginx"></a> [Workhorse to NGINX](#tb-workhorse2nginx) (not measured)
+       - <a name="nginx2haproxy"></a> [NGINX to HAProxy](#tb-nginx2haproxy) (not measured)
+       - <a name="haproxy2azlb"></a> [HAProxy to Azure LB](#tb-haproxy2azlb) (not measured)
+       - <a name="azlb2browser"></a> [Azure LB to Browser](#tb-azlb2browser) (not measured)
 1. <a name="renderpage"></a> [**Render Page**](#tb-renderpage)
     1. <a name="browser-firstbyte"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status?refresh=1m&panelId=14&fullscreen&orgId=1&from=now-90d&to=now) [**First Byte**](#tb-browser-firstbyte)
       - The time when the browser receives the first byte.
@@ -287,7 +233,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       first byte is recorded [elsewhere on this page](#external).
       - For any page, you can use your browser's "inspect" tool to look at "TTFB" (time to first byte).
       - [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)
-      `First Byte - External` is measured for a hand selected number of URLs using [SiteSpeed](https://sitespeed.io)
+      `First Byte - External` is measured for a hand selected number of URLs using [SiteSpeed](https://www.sitespeed.io/)
     1. <a name="reaching-speed-index"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [**Speed Index**](#tb-reaching-speed-index)
       - Browser parses the HTML blob and sends out further requests
       to GitLab.com to fetch assets such as javascript bundles, CSS, images, and
@@ -314,7 +260,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       loaded with `defer="true"`, so they are parsed and executed in the same
       order as they are called but only after html + css has been rendered.
       - Enough meaningful content is rendered on screen to calculated the "Speed Index".
-    1. <a name="reaching-fullyLoaded"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [Fully Loaded](#tb-reaching-fullyLoaded)
+    1. <a name="reaching-fullyloaded"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [Fully Loaded](#tb-reaching-fullyloaded)
       - When the scripts are loaded, Javascript compiles and evaluates them within the page.
       - On some pages, we use AJAX to allow for async loading. The AJAX call can
       be triggered by all kinds of things; for example a frontend element (button)
@@ -325,19 +271,17 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       are two separate AJAX calls, triggered by `DOMContentLoaded`. (The
       `DOMContentLoaded` event "marks the point when both the [DOM](https://css-tricks.com/dom/)
       is ready and there are no stylesheets that are blocking JavaScript
-      execution" (taken from an article about the [critical rendering
-      path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp))).
+      execution" (taken from an article about the [critical rendering path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp))).
       The alternative to using AJAX would be to include the full Rails code to
       generate the calendar and activity feed within the same controller that
       is called by the gitlab.com/username URL; which would lead to slower First
       Paint since it simply involves more calls to the database etc.
 
-
 ---
 
 ### Git Commit Push
 
-First read about the [steps in a web request](#flow-of-web-request) above, then pick up the thread here.
+First read about the [steps in a web request](#web-request) above, then pick up the thread here.
 
 After pushing to a repository, e.g. from the _web UI_:
 
@@ -359,9 +303,10 @@ After pushing to a repository, e.g. from the _web UI_:
 
 ### Web Request
 
-Consider the scenario of a user opening their browser, and surfing to their favorite URL on `GitLab.com`. The steps are described in the section on ["web request"](#flow-of-web-request). In this table, the steps are measured and goals for improvement are set.
+Consider the scenario of a user opening their browser, and surfing to their favorite URL on `GitLab.com`. The steps are described in the section on ["web request"](#web-request). In this table, the steps are measured and goals for improvement are set.
 
 Guide to this table:
+
 - All times are reported in milliseconds.
 - `# per request` : average number of times this step occurs per request. For instance, an average "transaction" may require [0.2 SQL calls, 0.4 git calls, 1 call to cache](https://docs.google.com/spreadsheets/d/15mhXjwkx2lOXJps7lsp_o0zbwGSyOdYOTc8-McwBy0A/pubhtml), and 30 nested views to be built.
 - `p99 Q2-17`: the p99 timing (in milliseconds) at the end of Q2, 2017
@@ -373,15 +318,15 @@ Guide to this table:
 
 | Step                                                    | # per request | p99 Q2-17 | p99 Now | p99 Q3-17 goal | Issue links and impact |
 |---------------------------------------------------------|--------------:|--------:|--------:|-------------:|------------------------|
-| <a name="tb-request-reaches-BE"></a>[**USER REQUEST**](#request-reaches-BE) |               |         |         |              |                        |
-| <a name="tb-lookup-IP"></a>[Lookup IP in DNS](#lookup-IP)                          |     1         |~10| ? |~10|  [Use a second DNS provider](https://gitlab.com/gitlab-com/infrastructure/issues/1711)  |
-| <a name="tb-browser2AzLB"></a>[Browser to Azure LB](#browser2AzLB)                    |     1         |~10| ? |~10|                        |
+| <a name="tb-request-reaches-be"></a>[**USER REQUEST**](#request-reaches-be) |               |         |         |              |                        |
+| <a name="tb-lookup-ip"></a>[Lookup IP in DNS](#lookup-ip)                          |     1         |~10| ? |~10|  [Use a second DNS provider](https://gitlab.com/gitlab-com/infrastructure/issues/1711)  |
+| <a name="tb-browser2azlb"></a>[Browser to Azure LB](#browser2azlb)                    |     1         |~10| ? |~10|                        |
 | <a name="tb-backend-processes"></a>[**BACKEND PROCESSES**](#backend-processes) |    |         |         |              | [Extend monitoring horizon](https://gitlab.com/gitlab-com/infrastructure/issues/1879) |
-|<a name="tb-AzLB2HAProxy"></a>[Azure LB to HAProxy](#AzLB2HAProxy)                     |     1         |~2| ? |~2|                        |
-|<a name="tb-HAProxy-SSL"></a>[HAProxy SSL with Browser](#HAProxy-SSL)                 |     1         |~10| ? |~10| [Speed up SSL](https://gitlab.com/gitlab-com/infrastructure/issues/2321) |
-|<a name="tb-HAProxy2NGINX"></a>[HAProxy to NGINX](#HAProxy2NGINX)              |     1         |~2| ? |~2|                        |
-|<a name="tb-NGINX-buffer"></a>[NGINX buffers request](#NGINX-buffer)                   |     1         |~10| ? |~10|                        |
-|[<a name="tb-NGINX2workhorse"></a>NGINX to Workhorse](#NGINX2workhorse)          |     1         |~2|  ? |~2|                        |
+|<a name="tb-azlb2haproxy"></a>[Azure LB to HAProxy](#azlb2haproxy)                     |     1         |~2| ? |~2|                        |
+|<a name="tb-haproxy-ssl"></a>[HAProxy SSL with Browser](#haproxy-ssl)                 |     1         |~10| ? |~10| [Speed up SSL](https://gitlab.com/gitlab-com/infrastructure/issues/2321) |
+|<a name="tb-haproxy2nginx"></a>[HAProxy to NGINX](#haproxy2nginx)              |     1         |~2| ? |~2|                        |
+|<a name="tb-nginx-buffer"></a>[NGINX buffers request](#nginx-buffer)                   |     1         |~10| ? |~10|                        |
+|[<a name="tb-nginx2workhorse"></a>[NGINX to Workhorse](#nginx2workhorse)          |     1         |~2|  ? |~2|                        |
 |<a name="tb-workhorse2various"></a>[Workhorse distributes request](#workhorse2various)      |     1         |         |         |      | [Adding monitoring to workhorse](https://gitlab.com/gitlab-com/infrastructure/issues/2025) |
 |<a name="tb-workhorse2unicorn"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to Unicorn_](#workhorse2unicorn) | 1 | 18  | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=13&fullscreen&orgId=1) | 10 | [Adding Unicorns](https://gitlab.com/gitlab-com/infrastructure/issues/1883) |
 |<a name="tb-workhorse2gitaly"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to Gitaly_](#workhorse2gitaly)   | |     | ?  |     |   |
@@ -395,22 +340,21 @@ Guide to this table:
 |<a name="tb-unicorn2html"></a>[Unicorn makes HTML](#unicorn2html) |  |    |   |  |       |
 |<a name="tb-html2browser"></a>[HTML to Browser](#html2browser) |  |    |   |  |       |
 |<a name="tb-unicorn2workhorse"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Unicorn to Workhorse_](#unicorn2workhorse) | 1 | ~2 | ?  | ~2  |  |
-|<a name="tb-workhorse2NGINX"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to NGINX_](#workhorse2NGINX)             |      1        | ~2| ? |~2|                        |
-|<a name="tb-NGINX2HAProxy"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_NGINX to HAProxy_](#NGINX2HAProxy)                 |      1        |~2| ? |~2| [Compress HTML in NGINX](https://gitlab.com/gitlab-org/gitlab-ce/issues/33719)  |
-|<a name="tb-HAProxy2AzLB"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_HAProxy to Azure LB_](#HAProxy2AzLB)               |      1        |~2| ? |~2|                        |
-|<a name="tb-AzLB2browser"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Azure LB to Browser_](#AzLB2browser)               |      1        |~20| ? |~20|                        |
+|<a name="tb-workhorse2nginx"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to NGINX_](#workhorse2nginx)             |      1        | ~2| ? |~2|                        |
+|<a name="tb-nginx2haproxy"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_NGINX to HAProxy_](#nginx2haproxy)                 |      1        |~2| ? |~2| [Compress HTML in NGINX](https://gitlab.com/gitlab-org/gitlab-ce/issues/33719)  |
+|<a name="tb-haproxy2azlb"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_HAProxy to Azure LB_](#haproxy2azlb)               |      1        |~2| ? |~2|                        |
+|<a name="tb-azlb2browser"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Azure LB to Browser_](#azlb2browser)               |      1        |~20| ? |~20|                        |
 |<a name="tb-renderpage"></a>[**RENDER PAGE**](#renderpage) |  |         |         |              |                        |
-|<a name="tb-browser-firstbyte"></a> [**FIRST BYTE**](#browser-firstbyte) (see [note 1](#note-blackbox))]  |   | **1080 - 6347** |   [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status)      | **1000**  |                        |
-|<a name="tb-reaching-speed-index"></a>[**SPEED INDEX**](#reaching-speed-index) (see [note 2](#note-fp-times)) |  | **3230 - 14454** | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |   **2000**     | [Remove inline scripts](https://gitlab.com/gitlab-org/gitlab-ce/issues/34903), [Defer script loading when possible](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/12759), [Lazy load images](https://gitlab.com/gitlab-org/gitlab-ce/issues/34361), [Set up a CDN for faster asset loading](https://gitlab.com/gitlab-com/infrastructure/issues/2092), [Use image resizing in CDN](https://gitlab.com/gitlab-org/gitlab-ce/issues/34364) |
-|<a name="tb-reaching-fullyLoaded"></a>[Fully Loaded](#reaching-fullyLoaded) (see [note](#note-fl-time)) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
+|<a name="tb-browser-firstbyte"></a> [**FIRST BYTE**](#browser-firstbyte) (see [note 1][^1])]  |   | **1080 - 6347** |   [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status)      | **1000**  |                        |
+|<a name="tb-reaching-speed-index"></a>[**SPEED INDEX**](#reaching-speed-index) (see [note 2][^2]) |  | **3230 - 14454** | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |   **2000**     | [Remove inline scripts](https://gitlab.com/gitlab-org/gitlab-ce/issues/34903), [Defer script loading when possible](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/12759), [Lazy load images](https://gitlab.com/gitlab-org/gitlab-ce/issues/34361), [Set up a CDN for faster asset loading](https://gitlab.com/gitlab-com/infrastructure/issues/2092), [Use image resizing in CDN](https://gitlab.com/gitlab-org/gitlab-ce/issues/34364) |
+|<a name="tb-reaching-fullyloaded"></a>[Fully Loaded](#reaching-fullyloaded) (see [note][^3]) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
 |---------------------------------------------------------|---------------|---------|---------|--------------|------------------------|
 
-
 **Notes:**
-- 1\. <a name="note-blackbox"></a> The range here corresponds to the range in First Byte times of the 4 sample URLs provided in the First Byte [table](#first-byte). However, based on all _non-staging_ URL's measured in [this dashboard](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status?refresh=1m&panelId=14&fullscreen&orgId=1&from=now-90d&to=now), between 2017-03-30 and 2017-06-28, the number would be 3,833 ms.
-- 2\. <a name="note-fp-times"></a> The range here corresponds to the range in Speed Indices of the 4 sample URLs provided in the Speed Index table.
-- 3\. <a name="note-fl-time"></a> The range here corresponds to the range in Fully Loaded times of the 4 sample URLs provided in the Speed Index table.
 
+[^1]: 1\. <a name="note-blackbox"></a> The range here corresponds to the range in First Byte times of the 4 sample URLs provided in the First Byte [table](#first-byte). However, based on all _non-staging_ URL's measured in [this dashboard](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status?refresh=1m&panelId=14&fullscreen&orgId=1&from=now-90d&to=now), between 2017-03-30 and 2017-06-28, the number would be 3,833 ms.
+[^2]: 2\. <a name="note-fp-times"></a> The range here corresponds to the range in Speed Indices of the 4 sample URLs provided in the Speed Index table.
+[^3]: 3\. <a name="note-fl-time"></a> The range here corresponds to the range in Fully Loaded times of the 4 sample URLs provided in the Speed Index table.
 
 ### Git Commit Push
 
@@ -419,6 +363,7 @@ _Table to be built; merge requests welcome!_
 ## Modifiers
 
 For any performance metric, the following modifiers can be applied:
+
 - **User**: how a _real_  GitLab user would experience and measure the time.
 - **Internal**: the time as measured from _inside_  GitLab.com's infrastructure (the boundary is defined as being at the "network | Azure load balancer" interface).
 - **External**: the time as measured from any specified point outside GitLab.com's infrastructure; for example a DO box with Prometheus monitoring or a browser in a specified geo-region on a specified network speed.
@@ -431,41 +376,17 @@ Timing history for First Byte are listed in the table below (click on the tachom
 
 | Type |  End of Q4-17 | Now |
 |------|--------------:|-------------:|-------------:|-----|
-| Issue: [GitLab CE #4058] | [857]| [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
-| Merge request: [GitLab CE !9546] | [18673] | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
-| Pipeline: [GitLab CE pipeline 9360254] | [1529] | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
-| Repo: [GitLab CE repo] | [1076] | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Issue: [GitLab CE #4058](https://gitlab.com/gitlab-org/gitlab-ce/issues/4058) | [857](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Merge request: [GitLab CE !9546](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546) | [18673](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Pipeline: [GitLab CE pipeline 9360254] | [1529](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Repo: [GitLab CE repo](https://gitlab.com/gitlab-org/gitlab-ce/tree/master) | [1076](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
 
-<!-- issue links -->
-[GitLab CE #4058]: https://gitlab.com/gitlab-org/gitlab-ce/issues/4058
-[3693]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-27-08-18-14/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html
-[1874]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html
-[857]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html
-<!-- MR links -->
-[GitLab CE !9546]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546
-[6347]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-27-08-18-14/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html
-[11547]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html
-[18673]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html
-<!-- Pipeline links -->
-[GitLab CE pipe 9360254]: https://gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254
-[2987]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-27-08-18-14/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html
-[1512]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html
-[1529]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html
-<!-- Repo links -->
-[GitLab CE repo]: https://gitlab.com/gitlab-org/gitlab-ce/tree/master
-[1071]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-29-07-44-06/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
-[1096]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
-[1076]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
-
-
-### Internal
-{: #first-byte-internal}
+### Internal {#first-byte-internal}
 
 To go a little deeper and measure performance of the application & infrastructure without consideration for frontend and network aspects, we look at "transaction timings" [as recorded by Unicorn](#unicorn2various). These timings can be seen on the
 [Rails Controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-controller=Projects::MergeRequestsController&var-action=show) _per URL that is accessed_ .
 
-## Availability and Performance labels
-{: #availability-performance-labels}
+## Availability and Performance labels {#availability-performance-labels}
 
 ### Availability
 
@@ -481,8 +402,7 @@ pick:
 1. How frequently something is used.
 2. How likely it is for something to cause an outage.
 
-For strictly performance related work you can use the [Controller Timings
-Overview](https://dashboards.gitlab.net/dashboard/db/controller-timings-overview?)
+For strictly performance related work you can use the [Controller Timings Overview](https://dashboards.gitlab.net/dashboard/db/controller-timings-overview?)
 Grafana dashboard. This dashboard categorises data into three different
 categories, each with their associated severity label:
 
@@ -498,27 +418,26 @@ For database related timings you can also use the
 This is the dashboard primarily used by the Database Team to determine the AP
 label to use for database related performance work.
 
-
 ## Database Performance
 
 Some general notes about parameters that affect database performance, at a very crude level.
 
 - From whitebox monitoring,
-   - Of time spent on/by Rails controllers, this much is spent in the database: <https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?viewPanel=13864&orgId=1> (for a specific Rails controller / page)
-   - _Global_ SQL timings: <https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=9&fullscreen&orgId=1&from=now-2d&to=now>
+  - Of time spent on/by Rails controllers, this much is spent in the database: <https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?viewPanel=13864&orgId=1> (for a specific Rails controller / page)
+  - _Global_ SQL timings: <https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=9&fullscreen&orgId=1&from=now-2d&to=now>
 - A single HTTP request will execute a single controller. A controller in turn will usually only use one available database connection, though it may use 2 if first a read was performed, followed by a write.
-   - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
+  - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
 is reached it will block pgbouncer connections until a PostgreSQL connection becomes available.
-    - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
-    - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
+  - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
+  - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
 - As long as the database CPU load < 100% (<https://dashboards.gitlab.net/dashboard/db/postgresql-overview?refresh=5m&orgId=1&from=now%2Fw&to=now&panelId=13&fullscreen>), then in theory the database can handle more load without adding latency. In practice database specialists like to keep CPU load below 50%.
-    - As an example of how load is determined by underlying application design:
+  - As an example of how load is determined by underlying application design:
        DB CPU percent used to be lower (20%, prior to 9.2, then up to 50-75% [when 9.2 RC1 went live](https://gitlab.com/gitlab-org/gitlab-ce/issues/32536), then back down to 20% by the time 9.2 was released.
 - pgbouncer
-   - What it does: pgbouncer maps _N_ incoming connections to _M_ PostreSQL connections, with _N_ >= _M_ (_N_ < _M_ would make no sense). For example, you can map 1024 incoming connections to 10 PostgreSQL connections. This is mostly influenced by the number of concurrent queries you want to be able to handle. For example, for GitLab.com our primary rarely goes above 100 (usually it sits around 20-30), while secondaries rarely go above 20-30 concurrent queries. The more secondaries you add, the more you can spread load and thus require fewer connections (at the
+  - What it does: pgbouncer maps _N_ incoming connections to _M_ PostreSQL connections, with _N_ >= _M_ (_N_ < _M_ would make no sense). For example, you can map 1024 incoming connections to 10 PostgreSQL connections. This is mostly influenced by the number of concurrent queries you want to be able to handle. For example, for GitLab.com our primary rarely goes above 100 (usually it sits around 20-30), while secondaries rarely go above 20-30 concurrent queries. The more secondaries you add, the more you can spread load and thus require fewer connections (at the
   cost of having more servers).
-   - Analogy: pgbouncer is a bartender serving drinks to many customers. Instead of making the drinks himself she instructs 1 out of 20 “backend” bartenders to do so. While one of these bartenders is working on a drink the other 19 (including the “main” one) are available for new orders. Once a drink is done one of the 20 “backend” bartenders gives it to the main bartender, which in turn gives it to the customer that requested the drink. In this analogy, the _N_ incoming connections are the patrons of the bar, and there are _M_ "backend"
+  - Analogy: pgbouncer is a bartender serving drinks to many customers. Instead of making the drinks himself she instructs 1 out of 20 "backend" bartenders to do so. While one of these bartenders is working on a drink the other 19 (including the "main" one) are available for new orders. Once a drink is done one of the 20 "backend" bartenders gives it to the main bartender, which in turn gives it to the customer that requested the drink. In this analogy, the _N_ incoming connections are the patrons of the bar, and there are _M_ "backend"
    bartenders.
-   - Pgbouncer frontend connections (= incoming ones) are very cheap, and you have lots of these (e.g. thousands). Typically you want _N_ >= _A_ with _N_ being the pgbouncer connection limit, and _A_ being the number of connections needed for your application.
-   - PostgreSQL connections are much more expensive resource wise, and ideally you have no more than the number of CPU cores available per server (e.g. 32). Depending on your load this may not always be sufficient, e.g. a primary in our setup will need to allow 100-150 connections at peak.
-   - Pgbouncer can be configured to terminate PostgreSQL connections when idle for a certain time period, conserving resources.
+  - Pgbouncer frontend connections (= incoming ones) are very cheap, and you have lots of these (e.g. thousands). Typically you want _N_ >= _A_ with _N_ being the pgbouncer connection limit, and _A_ being the number of connections needed for your application.
+  - PostgreSQL connections are much more expensive resource wise, and ideally you have no more than the number of CPU cores available per server (e.g. 32). Depending on your load this may not always be sufficient, e.g. a primary in our setup will need to allow 100-150 connections at peak.
+  - Pgbouncer can be configured to terminate PostgreSQL connections when idle for a certain time period, conserving resources.

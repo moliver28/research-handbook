@@ -9,7 +9,7 @@ We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-g
 
 ## Purpose
 
-The purpose of the Security Operational Risk Management (“StORM”) program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST’s SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
+The purpose of the Security Operational Risk Management ("StORM") program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST's SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
 
 ## Scope
 
@@ -29,18 +29,18 @@ A risk governance structure has been put in place to outline the overall roles a
 | ------ | ------ |
 | Executive Risk Owner | - Accountable for driving treatment for one or more of GitLab's Top 5 Security Risks <br>- Responsible for identifying one or more Risk Owners. Security Risk recommends identifying at least one Risk Owner per department involved in risk treatment <br>- Responsible for approving the long-term risk treatment plan including the creation of KRs to associated treatment milestones identified by Risk Owners and the Security Risk Team <br>- Note that most Executive Risk Owners will be CEO + 2 (Senior Director or VP-level) and will be responsible for cross-department collaboration to drive risk reduction over time |
 | Risk Owners |  - Responsible for the creation of a long-term risk treatment plan including treatment milestones meant to reduce  residual risk over time <br>- Accountable for executing risk treatment activies <br>- Responsible for collaborating with the Security Risk Team to ensure associated risk(s) and treatment status are reported periodically <br>- Note that most Risk Owners will be CEO + 3 (Senior Manager or Director level) |
-| Security Risk Manager | This role is assigned per risk to a specific Security Risk team member. Expectations include:<br>- Maintains knowledge on the history, current-state, and direction of their risk<br>- Works with the risk owner or owners to ensure the risk status and treatment is documented<br>- Identifies, monitors, and participates in associated issues/MRs/epics/working groups that are relevant to their assigned risk<br>- Validates remediation activities<br>- Maps risks to relevant <a href="https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf">GCF controls</a>, <a href="https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=Observation+Epics">Root Cause Observation Epics</a>, <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/issues/?sort=created_date&state=opened&label_name%5B%5D=ZenGRC%3A%3AObservation&first_page_size=100">Security Compliance Tier 3 Observations</a>, <a href="https://handbook.gitlab.com/handbook/security/security-assurance/field-security/field-security-study/">Field Security Study Observations</a>, and other observations noted from security-impacting assessments (internal-only) <br>- Collaborates with Executive Risk Owner and Risk Owners to create and monitor long-term risk treatment plans|
+| Security Risk Manager | This role is assigned per risk to a specific Security Risk team member. Expectations include:<br>- Maintains knowledge on the history, current-state, and direction of their risk<br>- Works with the risk owner or owners to ensure the risk status and treatment is documented<br>- Identifies, monitors, and participates in associated issues/MRs/epics/working groups that are relevant to their assigned risk<br>- Validates remediation activities<br>- Maps risks to relevant <a href="https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf">GCF controls</a>, <a href="https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=Observation+Epics">Root Cause Observation Epics</a>, Security Compliance Tier 3 Observations</a>, <a href="https://handbook.gitlab.com/handbook/security/security-assurance/field-security/field-security-study/">Field Security Study Observations</a>, and other observations noted from security-impacting assessments (internal-only) <br>- Collaborates with Executive Risk Owner and Risk Owners to create and monitor long-term risk treatment plans|
 | Security Risk Team | - Coordinates and executes StORM procedures including establishing risk appetite and conducting risk assessments<br>- Maintains the risk register to ensure accuracy and currency<br>- Acts in a Program Management capacity to support the tracking of risk treatment activities<br>- Coordinates peer validation testing after all risk remediation activities have been completed <br>- Periodically reports on the status of security operational risks <br> - Provides management level oversight of the StORM program, including continuing reviews of GitLab's Risk Register and acts as a point of escalation as needed <br>- Responsible for approving significant changes and exceptions to this procedure|
 
 ## StORM Procedures
 
 ### Establishing Risk Appetite and Tolerance
 
-**Tone at the Top**: GitLab's StORM methodology uses a defined Risk Appetite and Risk Tolerance as primary drivers to determine which risks GitLab are willing to accept/take versus which risks we will need to mitigate. These thresholds are defined by Senior Leadership across the organization to ensure the Tone at the Top is aligned with the StORM program. Risk Appetite and Tolerance are reassessed year-to-year. This is done through an annual [Risk Appetite Survey](https://gitlab.zengrc.com/survey_builder/119) (internal-only) based on the [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html). The survey is distributed to individuals operating in a Senior Leadership capacity with direct relations to Security Operations. The responses are averaged to arrive at an overall risk appetite and tolerance.
+**Tone at the Top**: GitLab's StORM methodology uses a defined Risk Appetite and Risk Tolerance as primary drivers to determine which risks GitLab are willing to accept/take versus which risks we will need to mitigate. These thresholds are defined by Senior Leadership across the organization to ensure the Tone at the Top is aligned with the StORM program. Risk Appetite and Tolerance are reassessed year-to-year. This is done through an annual Risk Appetite Survey based on the [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html). The survey is distributed to individuals operating in a Senior Leadership capacity with direct relations to Security Operations. The responses are averaged to arrive at an overall risk appetite and tolerance.
 
 #### How GitLab Determines Risk Appetite
 
-GitLab’s security risk appetite is determined based on the total average priority order determined by senior leadership on the following risk strategy statements:
+GitLab's security risk appetite is determined based on the total average priority order determined by senior leadership on the following risk strategy statements:
 
 - GitLab should seek solutions to transfer risks to others whenever possible (risk taking vs risk transfer)
 - GitLab should balance pursuing opportunities that align with organizational objectives against the associated risks (organizational objectives)
@@ -49,52 +49,12 @@ GitLab’s security risk appetite is determined based on the total average prior
 
 Each risk strategy statement is ranked in order of priority from Highest priority risk strategy to Lowest priority risk strategy by senior leadership. GitLab utilizes the following risk appetite matrix:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;color:black}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-674h{font-weight:bold;background-color:#380d75;color:#ffffff;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-yeut{font-weight:bold;background-color:#656565;color:#ffffff;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-747f{font-weight:bold;background-color:#6e49cb;color:black;border-color:inherit;text-align:center;vertical-align:middle}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-674h">RISK APPETITE<br>APPROACH</th>
-    <th class="tg-yeut">RISK SEEKING</th>
-    <th class="tg-yeut">RISK RECEPTIVE</th>
-    <th class="tg-yeut">RISK NEUTRAL</th>
-    <th class="tg-yeut">RISK AVERSE</th>
-  </tr>
-  <tr>
-    <td class="tg-747f">RISK TAKING vs<br>RISK TRANSFER</td>
-    <td class="tg-9wq8">Aggressive risk <br>taking is justified</td>
-    <td class="tg-9wq8">Seek opportunities to transfer risks <br>with pre-existing vendors as applicable<br>(e.g. don't bring in a new vendor to<br> transfer risks)</td>
-    <td class="tg-9wq8">Take a balanced approach to <br>risk taking vs risk transferring</td>
-    <td class="tg-9wq8">Exercise caution and accept as little <br>risk as possible by identifying risk <br>transfer solutions</td>
-  </tr>
-  <tr>
-    <td class="tg-747f">ORGANIZATIONAL<br>OBJECTIVES</td>
-    <td class="tg-9wq8">Willing to accept a large negative<br> impact to the organization to pursue <br>opportunities that align with objectives</td>
-    <td class="tg-9wq8">Willing to accept some negative impact <br>(e.g. LOW risks) to pursue opportunities<br> that align with objectives</td>
-    <td class="tg-9wq8">The potential for a negative impact <br>vs objectives are given equal <br>consideration when making a decision</td>
-    <td class="tg-9wq8">The potential for a negative impact vs <br>objectives are given equal consideration <br>when making a decision</td>
-  </tr>
-  <tr>
-    <td class="tg-747f">RISK RESPONSE<br>APPROACH</td>
-    <td class="tg-9wq8">All risks are acceptable as long <br>as they do not impact our legal <br>and regulatory obligations</td>
-    <td class="tg-9wq8">Determine risk response options to <br>help accept or reduce risk levels<br> through internal initiatives</td>
-    <td class="tg-9wq8">Risk remediation is favored over <br>risk acceptance</td>
-    <td class="tg-9wq8">Risks that cannot be effectively <br>treated or transferred are avoided</td>
-  </tr>
-  <tr>
-    <td class="tg-747f">RISK RESPONSE<br>DRIVERS</td>
-    <td class="tg-9wq8">No response action required for risks <br>unless they may represent a<br>contract or regulatory violation</td>
-    <td class="tg-9wq8">Risk response actions take into <br>consideration cost effectiveness, <br>management priorities, and return <br>on investment</td>
-    <td class="tg-9wq8">Risk response actions emphasize the <br>impact to security over the impact <br>to strategic objectives </td>
-    <td class="tg-9wq8">Risk response actions are always taken, <br>regardless of cost effectiveness, <br>management priorities, return on investment, <br>and overall organizational objectives</td>
-  </tr>
-</table>
+| RISK APPETITE<br>APPROACH | RISK SEEKING | RISK RECEPTIVE | RISK NEUTRAL | RISK AVERSE |
+| ---- | ---- | ---- | ---- | ---- |
+| **RISK TAKING vs**<br>**RISK TRANSFER** | Aggressive risk<br>taking is justified | Seek opportunities to transfer risks<br>with pre-existing vendors as applicable<br>(e.g. don't bring in a new vendor to<br>transfer risks) | Take a balanced approach to<br>risk taking vs risk transferring | Exercise caution and accept as little<br>risk as possible by identifying risk<br>transfer solutions |
+| **ORGANIZATIONAL**<br>**OBJECTIVES** | Willing to accept a large negative<br>impact to the organization to pursue<br>opportunities that align with objectives | Willing to accept some negative impact<br>(e.g. LOW risks) to pursue opportunities<br>that align with objectives | The potential for a negative impact<br>vs objectives are given equal<br>consideration when making a decision | The potential for a negative impact vs<br>objectives are given equal consideration<br>when making a decision |
+| **RISK RESPONSE**<br>**APPROACH** | All risks are acceptable as long<br>as they do not impact our legal<br>and regulatory obligations | Determine risk response options to<br>help accept or reduce risk levels<br>through internal initiatives | Risk remediation is favored over<br>risk acceptance | Risks that cannot be effectively<br>treated or transferred are avoided |
+| **RISK RESPONSE**<br>**DRIVERS** | No response action required for risks<br>unless they may represent a<br>contract or regulatory violation | Risk response actions take into<br>consideration cost effectiveness,<br>management priorities, and return<br>on investment | Risk response actions emphasize the<br>impact to security over the impact<br>to strategic objectives | Risk response actions are always taken,<br>regardless of cost effectiveness,<br>management priorities, return on investment,<br>and overall organizational objectives |
 
 *GitLab's Risk Appetite Matrix was formed through consideration of guidance set forth in NIST's [SP 800-39](https://csrc.nist.gov/publications/detail/sp/800-39/final) and [SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final).*
 
@@ -106,9 +66,9 @@ Our risk appetite is translated to a tolerance which defines a range in which a 
 
 |Risk Averse|Risk Neutral|Risk Receptive|Risk Seeking|
 |:---------:|:---------:|:---------:|:---------:|
-|1-5|1-10|1-15|1-20|
+|1-5|1-10|11-15|16-20|
 
-Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance for any risk appetite. In other words, risks that are rated High and Very High will never be monitored, but must be accepted.
+Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance. In other words, risks that are rated High and Very High must be treated.
 
 #### Historical and Current Record of GitLab's Security Risk Appetite
 
@@ -138,28 +98,10 @@ In order to effectively identify, manage, and treat operational risks, GitLab ha
 
 #### Example Threat Sources and Events Considered
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-clye{background-color:#380d75;color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-clye">Threat Source</th>
-    <th class="tg-clye">Example Threat Events</th>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">Adversarial</td>
-    <td class="tg-cly1">Fraud and theft, insider threat, malicious hacker, and malicious code</td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">Non-Adversarial</td>
-    <td class="tg-cly1">Errors and omission, loss of physical and infrastructure support (e.g. a natural disaster), exposure of sensitive information, changes to systems used to support the business, changes to external environments supporting GitLab, changes to GitLab's business model, or even changes in leadership</td>
-  </tr>
-</table>
+| Threat Source | Example Threat Events |
+| :-----------: | --------------------- |
+| **Adversarial** | Fraud and theft, insider threat, malicious hacker, and malicious code |
+| **Non-Adversarial** | Errors and omission, loss of physical and infrastructure support (e.g. a natural disaster), exposure of sensitive information, changes to systems used to support the business, changes to external environments supporting GitLab, changes to GitLab's business model, or even changes in leadership |
 
 #### Risk Drafting Guidance
 
@@ -175,128 +117,24 @@ To score each risk, we leverage a formula based on the Likelihood of the risk ev
 
 ##### Determining Likelihood of initiation of a threat event
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-nc7u{background-color:#d9ead3;text-align:center;vertical-align:middle}
-.tg .tg-clye{font-weight:bold;background-color:#380d75;color:#ffffff;text-align:center;vertical-align:middle}
-.tg .tg-f6g8{background-color:#fce5cd;text-align:center;vertical-align:middle}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-28x2{background-color:#ffcccc;text-align:center;vertical-align:middle}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-clye">Qualitative <br>Score</th>
-    <th class="tg-clye">Risk Level</th>
-    <th class="tg-clye">Scoring Guidelines</th>
-  </tr>
-  <tr>
-    <td class="tg-nrix">6</td>
-    <td class="tg-28x2">CRITICAL</td>
-    <td class="tg-cly1">No expertise required to initiate a threat event</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">5</td>
-    <td class="tg-28x2">VERY HIGH</td>
-    <td class="tg-cly1">Low level of expertise required to initiate a threat event</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">4</td>
-    <td class="tg-28x2">HIGH</td>
-    <td class="tg-cly1">Some expertise required to initiate a threat event</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">3</td>
-    <td class="tg-f6g8">MODERATE</td>
-    <td class="tg-cly1">Difficult to initiate a threat event, even with expertise</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">2</td>
-    <td class="tg-nc7u">LOW</td>
-    <td class="tg-cly1">Requires significant expertise to initiate a threat event</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">1</td>
-    <td class="tg-nc7u">VERY LOW</td>
-    <td class="tg-cly1">Theoretically impossible to initiate a threat event.</td>
-  </tr>
-</table>
+| Qualitative <br> Score | Risk Level | Scoring Guidelines |
+| :--------------------: | :--------: | ------------------ |
+| 6 | CRITICAL | No expertise required to initiate a threat event |
+| 5 | VERY HIGH | Low level of expertise required to initiate a threat event   |
+| 4 | HIGH | Some expertise required to initiate a threat event           |
+| 3 | MODERATE  | Difficult to initiate a threat event, even with expertise    |
+| 2 | LOW  | Requires significant expertise to initiate a threat event    |
+| 1 | VERY LOW  | Theoretically impossible to initiate a threat event |
 
 ##### Determining the impact of a threat event
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-6c9p{background-color:#d9ead3;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-1mkn{font-weight:bold;background-color:#380d75;color:#ffffff;border-color:#000000;text-align:center;vertical-align:middle}
-.tg .tg-747f{font-weight:bold;background-color:#6e49cb;color:#ffffff;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-oej3{background-color:#fce5cd;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-sy71{background-color:#ffcccc;border-color:inherit;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-1mkn" rowspan="2">IMPACT<br>SCORE</th>
-    <th class="tg-1mkn" colspan="6">IMPACT AREAS</th>
-  </tr>
-  <tr>
-    <td class="tg-747f">Organizational Output <br>(time, quality, resources)</td>
-    <td class="tg-747f">Brand<br>Reputation</td>
-    <td class="tg-747f">Business<br>Continuity</td>
-    <td class="tg-747f">Customers &amp;<br>Stakeholders</td>
-    <td class="tg-747f">Legal &amp;<br>Regulatory</td>
-    <td class="tg-747f">Financial</td>
-  </tr>
-  <tr>
-    <td class="tg-6c9p">VERY LOW (1)</td>
-    <td class="tg-lboi">Organizational output is <br>impacted by less than 20%</td>
-    <td class="tg-lboi">Limited to reputational damage <br>with no more than one customer <br>within a fiscal period</td>
-    <td class="tg-0pky">Outages of non-critical systems <br>that impact GitLab team members</td>
-    <td class="tg-0pky">Impact is limited to one <br>customer and/or stakeholder</td>
-    <td class="tg-0pky">Breach of company policy <br>occurring once in a fiscal <br>period</td>
-    <td class="tg-0pky">Loss up to $999</td>
-  </tr>
-  <tr>
-    <td class="tg-6c9p">LOW (2)</td>
-    <td class="tg-lboi">Organizational output is <br>impacted by 30% - 40%</td>
-    <td class="tg-lboi">Confined to a limited number of <br>parties (e.g. specific customers) <br>and not publicized</td>
-    <td class="tg-0pky">Outages which result in the inability <br>of GitLab to continue sales and finance <br>operations longer than 72+ hours</td>
-    <td class="tg-0pky">Impact is limited to 2-3 <br>customers and/or stakeholders</td>
-    <td class="tg-0pky">Breach of company policy <br>twice within a fiscal period</td>
-    <td class="tg-0pky">Loss between $1,000 <br>and $9,999</td>
-  </tr>
-  <tr>
-    <td class="tg-oej3">MODERATE (3)</td>
-    <td class="tg-0pky">Organizational output is <br>impacted by 40% - 50%</td>
-    <td class="tg-0pky">Public domain publicity but limited <br>to industry channels and not the <br>broader public</td>
-    <td class="tg-0pky">Outages that impact GitLab's <br>ability to do business across 3+ <br>departments</td>
-    <td class="tg-0pky">Impact is limited to 4-5 <br>customers and/or stakeholders</td>
-    <td class="tg-0pky">Breach of a regulatory and/or <br>contractual obligation</td>
-    <td class="tg-0pky">Loss between $10,000 <br>and $499,999</td>
-  </tr>
-  <tr>
-    <td class="tg-sy71">HIGH (4)</td>
-    <td class="tg-0pky">Organizational output is <br>impacted by 50% - 75%</td>
-    <td class="tg-0pky">Wide-spread publicity but limited <br>parties are impacted</td>
-    <td class="tg-0pky">Outages that result in the loss of <br>availability of GitLab for customers <br>for less than 4 hours</td>
-    <td class="tg-0pky">Major impact to many <br>customers and/or stakeholders</td>
-    <td class="tg-0pky">Regulatory censure and/or action <br>taken against GitLab</td>
-    <td class="tg-0pky">Loss between $500,000 <br>and $999,999</td>
-  </tr>
-  <tr>
-    <td class="tg-sy71">VERY HIGH (5)</td>
-    <td class="tg-0pky">Organizational output is <br>impacted by 75% or more</td>
-    <td class="tg-0pky">Widely publicized</td>
-    <td class="tg-0pky">Outages that result in the loss of <br>availability of GitLab for customers <br>for 4+ hours</td>
-    <td class="tg-0pky">Major impact to all <br>customers and/or stakeholders</td>
-    <td class="tg-0pky">Public regulatory fines and/or major <br>litigation against GitLab</td>
-    <td class="tg-0pky">Loss of $1,000,000+</td>
-  </tr>
-</table>
+| IMPACT<br>SCORE | Organizational Output<br>(time, quality, resources) | Brand<br>Reputation | Business<br>Continuity | Customers &<br>Stakeholders | Legal &<br>Regulatory | Financial |
+| :---------------: | ------------- | --- | -------- | ---------- | ----------- | ------- |
+| VERY LOW (1) | Organizational output is<br>impacted by less than 20% | Limited to reputational damage<br>with no more than one customer<br>within a fiscal period | Outages of non-critical systems<br>that impact GitLab team members | Impact is limited to one<br>customer and/or stakeholder | Breach of company policy<br>occurring once in a fiscal<br>period  | Loss up to $999   |
+| LOW (2) | Organizational output is<br>impacted by 30% - 40% | Confined to a limited number of<br>parties (e.g. specific customers)<br>and not publicized | Outages which result in the inability<br>of GitLab to continue sales and finance<br>operations longer than 72+ hours | Impact is limited to 2-3<br>customers and/or stakeholders | Breach of company policy<br>twice within a fiscal period | Loss between $1,000<br>and $9,999 |
+| MODERATE (3) | Organizational output is<br>impacted by 40% - 50% | Public domain publicity but limited<br>to industry channels and not the<br>broader public | Outages that impact GitLab's<br>ability to do business across 3+<br>departments | Impact is limited to 4-5<br>customers and/or stakeholders | Breach of a regulatory and/or<br>contractual obligation | Loss between $10,000<br>and $499,999  |
+| HIGH (4) | Organizational output is<br>impacted by 50% - 75% | Wide-spread publicity but limited<br>parties are impacted  | Outages that result in the loss of<br>availability of GitLab for customers<br>for less than 4 hours | Major impact to many<br>customers and/or stakeholders | Regulatory censure and/or action<br>taken against GitLab | Loss between $500,000<br>and $999,999 |
+| VERY HIGH (5) | Organizational output is<br>impacted by 75% or more | Widely publicized | Outages that result in the loss of<br>availability of GitLab for customers<br>for 4+ hours | Major impact to all<br>customers and/or stakeholders | Public regulatory fines and/or major<br>litigation against GitLab | Loss of $1,000,000+ |
 
 To arrive at a final impact score, the impact score of all impact categories is averaged.
 
@@ -335,50 +173,30 @@ There may be times that risks are identified outside of traditional risk assessm
 
 For each risk identified, a formal risk response decision is made to determine how GitLab will handle the risk. As part of the risk response procedures, the Risk Owner will make a determination on whether or not to accept a risk or pursue remediation based on our [Risk Appetite and Tolerances](#establishing-risk-appetite-and-tolerance). Treatment plans will be reviewed by the Security Risk Manager or delegate and approval captured via comment in the GRC application or associated GitLab issue.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-clye{font-weight:bold;background-color:#380d75;color:#ffffff;text-align:center;vertical-align:middle}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-clye">RESPONSE<br>OPTION</th>
-    <th class="tg-clye">DEFINITION</th>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">Monitor (do nothing)</td>
-    <td class="tg-cly1">The risk score falls within our <a href="#translating-gitlabs-security-risk-appetite-to-risk-tolerance">risk tolerance levels</a>  and no additional actions are required at this time. Risks that have been treated, resulting in a risk score that is within the risk tolerance level will be given the status of Monitor within our GRC system.</td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">Remediate the Risk</td>
-    <td class="tg-cly1">The risk is not within our risk tolerance. Complete a risk remediation plan to remediate the risk through: Sharing the risk (identify and implement solutions to share the risk with other parties), Reducing the likelihood of occurrence, and/or Reducing the level of impact to GitLab</td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">Accept the Risk</td>
-    <td class="tg-cly1">The risk is not within our risk tolerance. Accept or take the risk without executing a remediation plan because the cost to pursue remediation is higher than the potential benefit.</td>
-  </tr>
-</table>
+| RESPONSE<br>OPTION  | DEFINITION |
+| :-----------------: | ------------------------------------------- |
+| Monitor (do nothing) | The risk score falls within our [risk tolerance levels](/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance) and no additional actions are required at this time. Risks that have been treated, resulting in a risk score that is within the risk tolerance level will be given the status of Monitor within our GRC system. |
+| Remediate the Risk   | The risk is not within our risk tolerance. Complete a risk remediation plan to remediate the risk through: Sharing the risk (identify and implement solutions to share the risk with other parties), Reducing the likelihood of occurrence, and/or Reducing the level of impact to GitLab |
+| Accept the Risk | The risk is not within our risk tolerance. Accept or take the risk without executing a remediation plan because the cost to pursue remediation is higher than the potential benefit. |
 
 The risk object in the GRC application will be updated to reflect the agreed upon risk response. If "Remediate the Risk" is selected, the Risk Owner will execute a Risk Treatment Plan. The documented plan and status of the risk treatment will be captured within the GRC application as well. See below for more information about risk response options.
 
-#### Monitor (nothing beyond expected [iteration]({{< ref "values#iteration" >}}))
+#### Monitor (nothing beyond expected iteration)
 
 In the cases where a risk owner has concluded that a risk is within [tolerance](#translating-gitlabs-security-risk-appetite-to-risk-tolerance), no additional action is required besides ensuring that the StORM Program DRI agrees with the treatment option.
 
 #### Remediate the Risk
 
 When choosing to remediate the risk, a specific path must be selected:
+
 - Remediate by reducing the likelihood that the risk could occur
 - Remediate by reducing the impact to GitLab if the risk occurs
 - Remediate by sharing or transferring the risk with a third party
 - Remediate by avoiding the risk by deciding not to start or continue with the activity that gives rise to the risk
 
-Once a path is selected, the Risk Owner is required to provide a [SMART](https://en.wikipedia.org/wiki/SMART_criteria), detailed plan that includes milestones and due dates for working towards risk remediation. The treatment plan must be achievable and address the root cause of the risk event. Additionally and in alignment with our value of [Transparency]({{< ref "values#transparency" >}}), each treatment plan will include a step for documenting the results/outcome of the remediation within the Handbook. If the result of the remediation is considered [not public]({{< ref "values#not-public" >}}) and cannot be documented within the Handbook, it should be documented within our Internal Handbook or an internal runbook. The Security Risk Team will leverage these risk treatment plans to track the status of risk remediation.
+Once a path is selected, the Risk Owner is required to provide a [SMART](https://en.wikipedia.org/wiki/SMART_criteria), detailed plan that includes milestones and due dates for working towards risk remediation. The treatment plan must be achievable and address the root cause of the risk event. Additionally and in alignment with our value of [Transparency](/handbook/values/#transparency), each treatment plan will include a step for documenting the results/outcome of the remediation within the Handbook. If the result of the remediation is considered [not public](/handbook/values/#not-public) and cannot be documented within the Handbook, it should be documented within our Internal Handbook or an internal runbook. The Security Risk Team will leverage these risk treatment plans to track the status of risk remediation.
 
-If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (ex. the residual risk level goes from High to Moderate), validation of the remediation will be performed and captured within the associated risk object in ZenGRC. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
+If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (ex. the residual risk level goes from High to Moderate), validation of the remediation will be performed and captured within the associated risk object. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
 
 #### Accept the Risk
 
@@ -388,6 +206,7 @@ In the cases where a risk owner has opted to pursue a risk acceptance, the follo
 |-----|-----|
 |VERY HIGH|Risk Owner + VP Level Approval* + E-group Level Approval|
 |HIGH/MODERATE|Risk Owner + VP Level Approval*|
+
 `*` If the Risk Owner is a VP, no additional VP level approval is required
 
 By accepting the risk, the Risk Owner and risk acceptance approvers (if separate from Risk Owner), agree to reassess the risk on an annual basis to determine whether risk acceptance is the best response option for the respective risk. If risk acceptance is appropriate based on the annual assessment, approvals will be re-obtained based on the risk and approval requirements noted in the table above. Additionally, the Risk Owner will be on point for remediation in the event the risk is realized or risk acceptance is no longer appropriate.
@@ -396,25 +215,25 @@ By accepting the risk, the Risk Owner and risk acceptance approvers (if separate
 
 Identified risks are formally tracked via an internal risk register. Given the nature of the sensitivity of this information in aggregate, the risk register is [not made public]({{< ref "confidentiality-levels#not-public" >}}), and is not distributed externally. However, a publicly viewable GitLab Risk Register Template is available [here](https://docs.google.com/spreadsheets/d/1Lvn-ZjPNcZ-QMh-pkC6HqjwR-acUf70V9w2pquhRmH0/edit?usp=sharing) for those interested in getting some more insight into the type of information tracked in GitLab's risk register. StORM-related risk activities are centralized [within GitLab](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=weight_desc&state=opened&first_page_size=100) (internal only).
 
-We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=drive_link) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
+We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/document/d/1cpBbn_0kIWpEzbzLrzEcVesN-3Y0y1K6SD6wiv0-Vaw/edit?usp=sharing) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
 
-### Top 5 Risks
+## Top 5 Risks
 
 The Security Division's "Top 5 Risks" are established annually and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
-#### Long-Term Risk Treatment Planning
+### Long-Term Risk Treatment Planning
 
 Executive Risk Owners are accountable for ensuring that long-term treatment plans are established and executed for each of the Top 5 Risks. The Security Risk Team is responsible for coordinating long-term treatment planning with the Executive Risk Owner and the associated Risk Owner(s). The following template is leveraged during planning to ensure consistency in our approach and in reporting:
 
- - Establish success criteria that would move the risk within [tolerance](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance). These criteria will become Key Results (KRs) and are the milestones used to gauge progress of risk remediation. Completed KRs will correlate to a reduced risk score.
- - Identify dependencies for each KR.
- - Identify a Risk Owner responsible for delivering each KR. This person should be in the department responsible for implementing the treatment activity.
- - Establish realistic target delivery dates for each KR. Due to the nature of operational risks, we expect delivery dates to range up to 4 years in the future. Try to establish at least one KR per quarter to show incremental progress.
- - Scoring: Subtract '10' (our risk tolerance threshold based on the current risk appetite) from the current risk score to identify the reduction required to move the risk within tolerance. Divide this difference by the number of projected KRs. The quotient/remainder is the amount the score will be reduced each time a KR is completed. This number can be adjusted judgmentally as required.
+- Establish success criteria that would move the risk within [tolerance](/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance). These criteria will become Key Results (KRs) and are the milestones used to gauge progress of risk remediation. Completed KRs will correlate to a reduced risk score.
+- Identify dependencies for each KR.
+- Identify a Risk Owner responsible for delivering each KR. This person should be in the department responsible for implementing the treatment activity.
+- Establish realistic target delivery dates for each KR. Due to the nature of operational risks, we expect delivery dates to range up to 4 years in the future. Try to establish at least one KR per quarter to show incremental progress.
+- Scoring: Subtract '10' (our risk tolerance threshold based on the current risk appetite) from the current risk score to identify the reduction required to move the risk within tolerance. Divide this difference by the number of projected KRs. The quotient/remainder is the amount the score will be reduced each time a KR is completed. This number can be adjusted judgmentally as required.
 
  In the event the Executive Risk Owner chooses not to pursue a Risk Remediation-related KR in a given quarter due to competing priorities, a [Risk Acceptance](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) should be formalized to document the business rationale. This Risk Acceptance should contain rationale explaining why the risk of delaying additional Risk Remediation is less than the risk of not fulfilling the competing priority.
 
-#### StORM Reporting Schedule
+### StORM Reporting Schedule
 
 The table below outlines planned/completed activities for FY24.
 
@@ -432,7 +251,7 @@ The only exceptions to this procedure are those risks that are out of scope (as 
 ## References
 
 - GitLab Handbook References:
-    - [GitLab's Communication Page, Not Public Section]({{< ref "confidentiality-levels#not-public" >}})
+  - [GitLab's Communication Page, Not Public Section]({{< ref "confidentiality-levels#not-public" >}})
 - External References
-    - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
-    - [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)
+  - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
+  - [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)

@@ -1,12 +1,11 @@
 ---
-
 title: "Threat Modeling HowTo"
 description: "A howto for the threat modeling process at GitLab."
 ---
 
 ## TL;DR
 
-In very very short conclusion:
+In very, very short conclusion:
 
 Threat modeling should and can be done at almost any point in the development process, but really you should start it early in the process. You should take some "what-could-possibly-go-wrong" or attacker mentality and apply it to your feature.
 
@@ -21,7 +20,7 @@ For the impatient let's have the maybe shortest possible threat modeling guide:
 
 ## What is Threat Modeling
 
-Let's keep it short and simple here by just taking the initial sentence from our [Threat Modeling handbook]({{< ref "_index.md" >}}) page:
+Let's keep it short and simple here by just taking the initial sentence from our [Threat Modeling handbook](_index.md) page:
 
 > Threat modeling is the process of taking established or new procedures, and then assessing it for potential risks.
 
@@ -31,7 +30,7 @@ For the rest of this HowTo let's call the **thing** we're doing a threat model f
 
 What a threat model does, it let's you take apart and decompose the feature you're looking at **so that you can**, in some more or less formalized way, **identify** and describe **threats** towards the feature and its components. This description so far sounds really formal and might not help you to actually come up with a threat model, just take it as a vague baseline of what (**identify threats**) should be achieved and let's now see how we can get there.
 
-The [formal framework that GitLab uses is called PASTA]({{< ref "_index.md" >}}). This guide helps apply the PASTA principals in a lightweight manner to maximize their impact when followed by any GitLab team member.
+The [formal framework that GitLab uses is called PASTA](_index.md). This guide helps apply the PASTA principals in a lightweight manner to maximize their impact when followed by any GitLab team member.
 
 ## When and where to start
 

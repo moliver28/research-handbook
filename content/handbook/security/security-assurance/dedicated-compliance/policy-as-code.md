@@ -14,7 +14,6 @@ Secondly, PaC enables automation and efficiency in policy enforcement processes.
 
 Thirdly, PaC enhances auditing, accountability, and scalability within organizations. With policies defined as code, organizations gain greater visibility into their compliance posture and can easily track changes, audit trails, and historical compliance data. This transparency facilitates regulatory compliance and strengthens accountability by providing clear documentation of policy enforcement activities. Moreover, PaC offers scalability and flexibility, allowing policies to be updated and adapted as infrastructure requirements evolve without significant manual effort. This agility enables organizations to respond promptly to changing compliance mandates and business needs, ensuring continuous alignment between policies and operational practices.
 
-
 ## How and where does Security Compliance implement policy-as-code at GitLab?
 
 Security Compliance is planning to implement Policy as Code (PaC) through the utilization of existing tools, often involving code analysis and scanning Infrastructure-as-Code (IaC) tools like [SAST](https://docs.gitlab.com/ee/user/application_security/sast/) and Checkov.
@@ -30,12 +29,12 @@ Please see our confidential epic (internal only) to see how we are rolling out t
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 
 - Slack
-   - Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team
-   - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
-   - FedRAMP questions should be directed to the `# wg_fedramp` channel
+  - Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team
+  - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
+  - FedRAMP questions should be directed to the `# wg_fedramp` channel
 - Tag us in GitLab
-   - `@gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance`
+  - `@gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance`
 - Email
-   - `security-compliance@gitlab.com`
+  - `security-compliance@gitlab.com`
 - Here are our team's GitLab.com [subgroups and projects](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance)
 - Interested in joining our team? Check out more [here](/job-families/security/security-assurance-job-family)!

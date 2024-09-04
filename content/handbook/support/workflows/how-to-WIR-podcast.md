@@ -1,15 +1,12 @@
 ---
-
 title: How to do a WIR Podcast
 category: References
 description: General guide for creating a Support Week-in-Review Podcast
 ---
 
-
-
 ### Overview
 
-Use this workflow as a general guide when you want to record and publish a Support Week-in-Review Podcast.  
+Use this workflow as a general guide when you want to record and publish a Support Week-in-Review Podcast.
 
 Much of this is done in the [Support Week in Review Project](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review).  For more information about the CI/CD jobs used in this guide and what they do, refer to the project [readme](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/blob/main/README.md).
 
@@ -32,7 +29,7 @@ Much of this is done in the [Support Week in Review Project](https://gitlab.com/
          - [Publish](#publishing-the-podcast) the podcast
          - [Prepare SWIR for the next week](#prepare-swir-for-the-next-week)
    - Metrics analyst:
-      - take screenshots of the key metrics from the [Support Metrics Dashboard - SWIR](https://gitlab.zendesk.com/explore/dashboard/36925DBD1F5E3C7BA541DB38D11AC51E0EAAFDD30DCB63FDE83CF1389E555D96/tab/10602202) and insert them into the SWIR digest issue. Change your profile timezone in Zendesk to Pacific Time before screen grabbing this so that it is comparable to previous week's graphs (in your Zendesk profile, look for "Time zone" in the left side bar)
+      - take screenshots of the key metrics from the [Support Metrics Dashboard - Suport KPIs](https://gitlab.zendesk.com/explore/dashboard/D9951578C8EC2AC68212FD96F1B5DB90C7E9BD20D7119D47F08BD82BC5616498/tab/36611332) and insert them into the SWIR digest issue. Change your profile timezone in Zendesk to Pacific Time before screen grabbing this so that it is comparable to previous week's graphs (in your Zendesk profile, look for "Time zone" in the left side bar)
       - in text, enter key metrics into the appropriate sections of the SWIR digest issue (US Fed stats are shared by a manager in the private channel spt_managers-internal - copy and paste these in if you have access. Alternatively ask a manager to copy these to you in Slack. It is also ok to proceed without them on occasion if necessary).
       - gather pairing data by observing the number of issues against the current [pairing milestone](https://gitlab.com/groups/gitlab-com/support/-/milestones?search_title=pairing&state=&sort=) and compare to the previous week's digest issue data for the week on week (WoW) metric
       - read and record this section during the recording call
@@ -62,20 +59,21 @@ Once you have the compiled audio:
 #### Prepare SWIR for the next week
 
 1. Run the `close_week_and_create_new_milestone` pipeline
-1. Check pagerduty or the [Support Team Page](https://gitlab-com.gitlab.io/support/team/oncall.html?search=ssat) to find the incoming SSAT manager (the one starting on the current Thursday) and reassign the new Positive SSAT issue to them.
 1. You're done!
 
 #### Notes on SSAT content
 
 The purpose of including SSAT content in the Support Week in Review is two-fold:
+
 1. To highlight behaviors and ways of interaction that customers value in their own voices.
 1. To highlight the excellent work on the part of individuals and groups of individuals that take place in ticket interactions.
 
 We do not include every SSAT review every week, both for brevity and because not every SSAT review fulfills the purposes above.
 
-Depending on what the [SSAT Reviewing Manager](https://handbook.gitlab.com/handbook/support/workflows/how-to-respond-to-feedback/#who-is-responsible-for-reviewing-support-satisfaction-feedback) has populated the weekly SSAT issue with as a SWIR host you may need to edit the content.
+Depending on what [managers reviewing SSAT](/handbook/support/workflows/how-to-respond-to-feedback/#who-is-responsible-for-reviewing-support-satisfaction-feedback) have populated the weekly SSAT issue with as a SWIR host you may need to add additional content.
 
 With the above purposes in mind, SSAT comments in the Support Week in Review should:
+
 - be truly positive! Avoid SSAT ratings that disparage other engineers, GitLab teams or are back-handed compliments that include a mix of praise and negative feedback.
 - have significant, thoughtful or interesting comments.
 - be from a mix of Engineers. Sometimes a particular engineer may have multiple positive reviews in a week: try to get a cross-section of the team included.

@@ -1,8 +1,6 @@
 ---
 title: "Product Marketing Manager"
 summary: Help tell the story about the value of how GitLab helps to unlock the potential of sharing and contribution.
-aliases:
-- /job-families/marketing/product-marketing-manager-public-sector/
 ---
 Product Marketing Managers at GitLab have a unique opportunity to contribute to our [mission](/handbook/company/mission/#mission):
 
@@ -35,7 +33,7 @@ The Product Marketing Manager is a [grade 7](/handbook/total-rewards/compensatio
 
 #### Proof
 
-- Develop relationships with analysts and regularly brief them about GitLab’s unique value proposition.
+- Develop relationships with analysts and regularly brief them about GitLab's unique value proposition.
 - Document and demonstrate GitLab value in analyst market research reports.
 - Support the development of customer case studies and webinars that help to demonstrate the value of GitLab for our customers.
 
@@ -57,7 +55,7 @@ The Product Marketing Manager is a [grade 7](/handbook/total-rewards/compensatio
 - Experience designing sales collateral from scratch based on sales conversations, sales calls, product interviews, user interviews, market research, and your own experience.
 - You share our [values](/handbook/values/) and work according to those values.
 - Ability to use GitLab.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ## Senior Product Marketing Manager
@@ -86,7 +84,7 @@ The Senior Product Marketing Manager is a [grade 8](/handbook/total-rewards/comp
 - Experience with Software-as-a-Service offerings and open core software a plus.
 - Experience designing sales collateral from scratch based on sales conversations, sales calls, product interviews, user interviews, market research, and your own experience.
 - You share our [values](/handbook/values/) and work according to those values.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ## Principal Product Marketing Manager
@@ -146,10 +144,9 @@ As a Senior Product Marketing Manager, Public Sector, you will work bring your k
 - A security clearance is a plus.
 - Ability to use GitLab
 
-
 ### Security
 
-As a Product Marketing Manager, Security you will work closely with our marketing, engineering, business development and sales team, and partners to help them understand how GitLab security capabilities solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab’s security capabilities.
+As a Product Marketing Manager, Security you will work closely with our marketing, engineering, business development and sales team, and partners to help them understand how GitLab security capabilities solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab's security capabilities.
 
 #### Requirements
 
@@ -158,12 +155,12 @@ As a Product Marketing Manager, Security you will work closely with our marketin
 - Deep understanding of Agile and DevOps methodologies across the entire Software Development Lifecycle, especially as it relates to application security risks, threats, trends, and patterns.
 - Understand enterprise buyer and user personas tasked with security pain points and how to market security solutions to them.
 - Security certifications such as CISSP a plus.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Monitoring
 
-As a Sr. Product Marketing Manager, Monitoring you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab monitoring capabilities solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab’s monitoring capabilities.
+As a Sr. Product Marketing Manager, Monitoring you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab monitoring capabilities solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab's monitoring capabilities.
 
 #### Requirements
 
@@ -172,12 +169,12 @@ As a Sr. Product Marketing Manager, Monitoring you will work closely with our ma
 - Understand enterprise buyer and user personas tasked with enterprise IT operations and monitoring pain points and how to market monitoring solutions to them.
 - Experience with cloud native, datacenter, and hybrid infrastructure and applications desirable.
 - Operations certifications such as ITIL a plus.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Developer (create)
 
-As a Sr.  Product Marketing Manager, Developer (Create), you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab source code management capabilities and developer features help solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab’s scm capabilities.
+As a Sr.  Product Marketing Manager, Developer (Create), you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab source code management capabilities and developer features help solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab's scm capabilities.
 
 #### Requirements
 
@@ -185,12 +182,12 @@ As a Sr.  Product Marketing Manager, Developer (Create), you will work closely w
 - Understand market dynamics, the competition, and customer needs of the enterprise application developers.
 - Understand enterprise buyer and user personas tasked with developer tools and solutions and how to market developer solutions to them.
 - Experience with git, perforce, bitbucket, Gerrit, code reviews, pair programming, and open source software.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Verify (Continuous Integration)
 
-As a Product Marketing Manager, Verify you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab continuous integration, testing, and quality management capabilities help solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab’s CI capabilities.
+As a Product Marketing Manager, Verify you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab continuous integration, testing, and quality management capabilities help solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab's CI capabilities.
 
 #### Requirements
 
@@ -198,12 +195,12 @@ As a Product Marketing Manager, Verify you will work closely with our marketing,
 - Understand market dynamics, the competition, and customer needs of the enterprise application developers and software testing / QA.
 - Understand enterprise buyer and user personas tasked with both developer and QA tools and solutions and how to market to them.
 - Experience with jenkins, bamboo, circle CI, automated testing, quality management, traceability and cloud-native applications.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Agile-Planning (Plan)
 
-As a Product Marketing Manager, Agile-Planning you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab planning and portfolio management capabilities help solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab’s agile project management capabilities.
+As a Product Marketing Manager, Agile-Planning you will work closely with our marketing, engineering, business development, and sales team, and partners to help them understand how GitLab planning and portfolio management capabilities help solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab's agile project management capabilities.
 
 #### Requirements
 
@@ -211,7 +208,7 @@ As a Product Marketing Manager, Agile-Planning you will work closely with our ma
 - Understand market dynamics, the competition, and customer needs of the enterprise agile project and portfolio management.
 - Understand enterprise buyer and user personas tasked with both project and product manager tools and solutions and how to market to them.
 - Experience with Jira, Rally, Version One, Agile Craft and other planning and portfolio mgt tools.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Solutions Marketing & GTM Plays
@@ -219,7 +216,7 @@ As a Product Marketing Manager, Agile-Planning you will work closely with our ma
 #### Requirements
 
 - Experience managing or designing solutions and/or go-to-market strategies, plays, and campaigns.
-- Ability to work collaboratively with Marketing, Sales, and Product teams and effectively develop relationships with stakeholders at all levels of the organization. to remove impediments that block the team’s ability to meet project objectives.
+- Ability to work collaboratively with Marketing, Sales, and Product teams and effectively develop relationships with stakeholders at all levels of the organization. to remove impediments that block the team's ability to meet project objectives.
 - Exceptional communication and execution skills.
 - Proven track record of cross-stakeholder program management and execution with operational rigor.
 - Skills to build, maintain, update and optimize critical dashboards in Salesforce.com.
@@ -232,7 +229,7 @@ As a Product Marketing Manager, Agile-Planning you will work closely with our ma
 
 #### Principal Responsibilities
 
-- Translate the company’s revenue objectives into a formal, cohesive solutions marketing strategy, including key imperatives that GitLab solves for customers, how we solve them, and how we scale them through and with partners.
+- Translate the company's revenue objectives into a formal, cohesive solutions marketing strategy, including key imperatives that GitLab solves for customers, how we solve them, and how we scale them through and with partners.
 - Partner with Sales, Sales Development, Customer Success, Marketing, and Product Management to identify and prioritize quarterly GTM plays (including strategy, messaging, content, campaigns, and enablement) that drive quality pipeline and ARR.
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps.
 - Work with leaders and individual contributors across organizations, break down silos, and help to unify solutions strategies for optimal global impact.
@@ -245,7 +242,7 @@ As a Product Marketing Manager, Agile-Planning you will work closely with our ma
 
 ### Competitive Intelligence
 
-As a Competitive Intelligence Product Marketer, you will work closely with a wide range of cross-functional teams (Product, Marketing, Sales) to turn competitive insights into actionable advantages for GitLab’s go-to-market motion. To achieve this ambition, you will organize and distill competitive intelligence, educate our teams, and create specific competitive playbooks & content that increase our share of the market.
+As a Competitive Intelligence Product Marketer, you will work closely with a wide range of cross-functional teams (Product, Marketing, Sales) to turn competitive insights into actionable advantages for GitLab's go-to-market motion. To achieve this ambition, you will organize and distill competitive intelligence, educate our teams, and create specific competitive playbooks & content that increase our share of the market.
 
 #### Requirements
 
@@ -257,7 +254,7 @@ As a Competitive Intelligence Product Marketer, you will work closely with a wid
 - Understand enterprise buyer and user personas tasked with developer, security, and operations tools and solutions and how to market to them.
 - Ability to move iteratively with speed and urgency.
 - Written and verbal communication fit to engage customers, analysts, and influencers.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### Responsibilities
@@ -270,7 +267,7 @@ As a Competitive Intelligence Product Marketer, you will work closely with a wid
 
 #### Senior Responsibilities
 
-- Translate competitive developments into meaningful ‘so-what’ and ‘why’ insights for GitLab’s GTM strategy.
+- Translate competitive developments into meaningful 'so-what' and 'why' insights for GitLab's GTM strategy.
 - Develop specific playbooks iteratively that guide our Sales and Channel teams on how to compete in specific stages.
 - Drive deep competitor analysis including product strategy research, customer research, and technical research.
 - Train and enable sales and partner teams on a technical level to deeply understand competitor features and capabilities vs GitLabs.
@@ -279,7 +276,7 @@ As a Competitive Intelligence Product Marketer, you will work closely with a wid
 
 ### Customer Advocacy
 
-As a Customer Advocacy Product Marketer, you will identify, activate, and amplify the voice of the customer in order to improve sales success and demonstrate GitLab’s momentum as an enterprise-trusted brand. Customer proof points are a critical enabler of high growth and among the most powerful tools that can be used within the sales process. They help to establish credibility, trust, and reduce the customer’s perception of risk. The primary deliverables are customer references and case studies (written and video), customer quotes, Customer Advisory Board, product peer reviews, and customer speakers.
+As a Customer Advocacy Product Marketer, you will identify, activate, and amplify the voice of the customer in order to improve sales success and demonstrate GitLab's momentum as an enterprise-trusted brand. Customer proof points are a critical enabler of high growth and among the most powerful tools that can be used within the sales process. They help to establish credibility, trust, and reduce the customer's perception of risk. The primary deliverables are customer references and case studies (written and video), customer quotes, Customer Advisory Board, product peer reviews, and customer speakers.
 
 #### Requirements
 
@@ -298,15 +295,15 @@ As a Customer Advocacy Product Marketer, you will identify, activate, and amplif
 #### Responsibilities
 
 - Contribute to the GitLab worldwide customer advocacy program, working cross-functionally between sales, customer success, product, and marketing teams to identify, develop, and engage reference customers.
-- Create, grow, and manage a healthy community of reference customers in a way that respects our customer’s time and effort while maximizing the positive impact of their engagement to them, their organization, and GitLab.
+- Create, grow, and manage a healthy community of reference customers in a way that respects our customer's time and effort while maximizing the positive impact of their engagement to them, their organization, and GitLab.
 - Establish and maintain a robust Customer Reference Library. Library includes logos, logos + short quotes, logos + full story, and anonymized case studies broken out by vertical, solution, and company size. Multi-media: written, pull-quote images, and videos (for top tier)
 
 #### Senior Responsibilities
 
-- Define and develop a cross-functional programmatic strategy to create customer success content that reinforces key marketing messages including customer pain points, jobs-to-be-done, GitLabs’ solutions, and other marketing content areas as defined.
+- Define and develop a cross-functional programmatic strategy to create customer success content that reinforces key marketing messages including customer pain points, jobs-to-be-done, GitLabs' solutions, and other marketing content areas as defined.
 - Define and develop, in collaboration with Sales and other stakeholders, a customer incentive strategy and approach that results in additional net new and growth customer references.
-- Own internal advocacy efforts by cultivating and promoting champions; this includes embracing an “always-on” advocacy methodology that highlights the importance of customer references, a definition of internal economic/non-economic incentives and recognition programs for surfacing stories.
-- Leverage customer advocacy insights and lessons learned in relation to GitLab’s marketing plan and deliverables to influence the overall product marketing strategy and roadmap.
+- Own internal advocacy efforts by cultivating and promoting champions; this includes embracing an "always-on" advocacy methodology that highlights the importance of customer references, a definition of internal economic/non-economic incentives and recognition programs for surfacing stories.
+- Leverage customer advocacy insights and lessons learned in relation to GitLab's marketing plan and deliverables to influence the overall product marketing strategy and roadmap.
 
 ### Market Insights
 
@@ -318,7 +315,7 @@ As a Product Marketing Manager, Market Insights, you will bring your market know
 
 - Conduct research on current and future Enterprise IT trends through written reports, surveys, interviews and interactions with market analysts, industry conferences, self-study, and interactions with our customers to develop key insights for GitLab.
 - Help GitLab develop a deep knowledge and understanding of enterprise buyers including their challenges and goals that help them drive success for their companies.
-- Assess the DevOps ecosystem to distill the trends that influence GitLab’s addressable market.
+- Assess the DevOps ecosystem to distill the trends that influence GitLab's addressable market.
 - Contribute to a consumable deliverable (in-person discussion, presentation, written report) in collaboration with the senior/principal MIM
 
 **Grade 8:**
@@ -342,7 +339,7 @@ As a Product Marketing Manager, Market Insights, you will bring your market know
 - Understands the enterprise buyer and user personas tasked with the purchase of developer, security, and operations tools and solutions for a large SMB or enterprise-level organization and how to market to them.
 - Ability to move iteratively with speed and urgency.
 - Written and verbal communication fit to engage customers, analysts, and influencers.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Exec Engagement (Channel)
@@ -351,14 +348,14 @@ As a Product Marketing Manager, Market Insights, you will bring your market know
 
 - Work with our marketing, operations and sales teams to build the foundation for a world class global partner marketing program that will drive customer acquisition and revenue growth for GitLab.
 - develop programs focused on engagement programs that target our partner Executive team including but not limited to: Partner Summit, Executive Roundtables, Partner Awards and much, much more.  These programs will scale to support our growing partner and channel ecosystems.
-- Work cross-functionally with channel sales, channel operations, finance and legal to ensure our programs reflect GitLab’s culture, goals and objectives while mandating they are held to the highest ethical standards.
+- Work cross-functionally with channel sales, channel operations, finance and legal to ensure our programs reflect GitLab's culture, goals and objectives while mandating they are held to the highest ethical standards.
 
 #### Requirements
 
 - Design, develop and deploy an annual Regional Partner Summit program bringing the most strategic of our partners together to showcase their commitment to GitLab and our growing partnership.
 - Architect an agenda and cadence for Regional Partner Roundtable meetings that encourage continued engagement with partner executives.  These sessions will support our continued evolution of our channel strategy.
-- Develop thought leadership strategy to externally promote and amplify GitLab’s Partner Program and voice to our partners through a variety of paid and organic media channels inclusive of social media.
-- Develop a strategy for AR and PR engagements that support the Channel organization’s goals and objectives.
+- Develop thought leadership strategy to externally promote and amplify GitLab's Partner Program and voice to our partners through a variety of paid and organic media channels inclusive of social media.
+- Develop a strategy for AR and PR engagements that support the Channel organization's goals and objectives.
 - Develop standard, repeatable and stable processes that promote and enable operational efficiency.
 - Implement channel marketing initiatives, programs, communication vehicles, and sales tools to drive increased market adoption and channel revenue goals.
 - Assist sales team in the development of actionable and measurable programs for our channel partners.
@@ -367,7 +364,7 @@ As a Product Marketing Manager, Market Insights, you will bring your market know
 
 ## Career Ladder
 
-The next step in a Senior Product Marketing Manager's career at GitLab is to be a [Manager, Product Marketing.](/job-families/marketing/product-marketing-management/).
+The next step in a Senior Product Marketing Manager's career at GitLab is to be a [Principal Product Marketing Manager.](/https://handbook.gitlab.com/job-families/marketing/product-marketing-manager/#principal-product-marketing-manager/).
 
 ## Hiring Process
 

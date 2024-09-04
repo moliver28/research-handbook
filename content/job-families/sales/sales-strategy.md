@@ -202,7 +202,7 @@ The Vice President, Sales Strategy & Analytics is a [grade 12](/handbook/total-r
 
 - Extends that of the Senior Director, Sales Strategy responsibilities
 - Drive recruiting of a world-class team at all levels
-- Help team members from senior leaders, management and and analysts grow their skills and experience
+- Help team members from senior leaders, management, and analysts grow their skills and experience
 - Ensure the handbook is used and relevant references are maintained in a transparent way
 - Collaborate with senior leaders of Finance to drive planning cycles and ensure actual vs. plan throughout the year is within guidelines
 - Partner with senior leaders of GTM Teams and Field Enablement to leverage performance analytics and influence cross-functional revenue programs

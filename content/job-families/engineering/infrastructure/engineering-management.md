@@ -59,13 +59,14 @@ In addition to the same requirements, responsibilities, and performance indicato
 - Guiding self-managed release and GitLab.com continuous deployment processes
 - Owning the [Mean Time to Production](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
 
-### Manager, Infrastructure (Reliability)
+### Manager, Infrastructure (Production Engineering)
 
-The Manager, Infrastructure (Reliability) leads an engineering team composed of [SREs](/job-families/engineering/infrastructure/site-reliability-engineer/), primarily focused on the reliability of GitLab multi-tenant SaaS offering.
+The Manager, Infrastructure (Production Engineering) leads an engineering team composed of [SREs](/job-families/engineering/infrastructure/site-reliability-engineer/), primarily focused on the operational reliability and core infrastructure services of GitLab SaaS offerings.
 
-In addition to the same requirements, responsibilities, and performance indicators defined above for the Manager, Infrastructure, Reliability specialty is requires:
+In addition to the same requirements, responsibilities, and performance indicators defined above for the Manager, Infrastructure, the Production Engineering specialty requires:
 
-- Ensuring Incident Response, Change Management, and Observability
+- Ensuring Incident Response, Change Management, and Disaster Recovery
+- Experience and general knowledge of networking and cloud infrastructure
 
 ### Manager, Infrastructure (Scalability)
 
@@ -145,7 +146,7 @@ The Senior Engineering Manager, Infrastructure is a [grade 9](/handbook/total-re
 - Technical credibility: Past experience as a product engineer and managing teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Value and exhibit servant-leadership behaviors
 

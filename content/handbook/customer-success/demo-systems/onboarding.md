@@ -1,21 +1,15 @@
 ---
-
 title: "Demo Systems Onboarding"
 description: "This guide is meant for getting any new hire to the CS Org set up on demo systems and prepaired to start demoing the product"
 ---
 
-
-
-
-
-
-# Demo Systems Initial Set Up
+## Demo Systems Initial Set Up
 
 ### Preface
 
 If you experience any roadblocks while setting up your environment, open an [issue in the original project](https://gitlab.com/gitlab-com/customer-success/demo-engineering/demo-systems-initial-set-up/-/issues/new) or attend the office hours linked below.
 
-The goal is that you will  be able to use and contribute to this shared demo group: <https://gitlab.com/gitlab-learn-labs/webinars> by the time you complete this.  
+The goal is that you will  be able to use and contribute to this shared demo group: <https://gitlab.com/gitlab-learn-labs/webinars> by the time you complete this.
 
 You can collaborate with your onboarding buddy and your colleagues to remove this blocker, and open a merge request to improve the instructions and make onboarding easier for everyone.
 
@@ -59,7 +53,7 @@ Each team member can use the [GitLab Sandbox Cloud](/handbook/infrastructure-sta
 
 Please note that services may take a few minutes before being ready. If you log in and immediately see an error, wait a few minutes then try to access the account again.
 
-You can ask for help from other peers in the the `#sandbox-cloud-questions` or [#cs-questions](https://gitlab.slack.com/archives/CR5JLJEEM) Slack channel and tag `@Logan Stucker`.
+You can ask for help from other peers in the `#sandbox-cloud-questions` or [#cs-questions](https://gitlab.slack.com/archives/CR5JLJEEM) Slack channel and tag `@Logan Stucker`.
 
 ## Set Up the GitLab Agent for Kubernetes for Your Group
 
@@ -70,24 +64,15 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 > Our first task will be to set up a cluster on GKE.
 
 1. Login to your [Google Cloud console](https://console.cloud.google.com/).
-
-2. Check if the API for [Kubernetes Engine](https://console.cloud.google.com/kubernetes/) is enabled.
-
-3. Check if the API for [Compute Engine](https://console.cloud.google.com/compute/)  is enabled.
-
-4. Navigate to [**Kubernetes Engine > Clusters**](https://console.cloud.google.com/kubernetes/list/).
-
-5. From here we want to click **CREATE**,
-
-6. In the popup modal window click **Configure** next to the ***Autopilot: Google manages your cluster (Recommended)*** option.
-
-7. Rename the cluster to a not objectionable identifiable name.
-
-8. Choose the region closest to you.
-
-9. Leave the rest of the settings as-is.
-
-10. Click **create**. This will kick off the building of the cluster which will take around 10 minutes.
+1. Check if the API for [Kubernetes Engine](https://console.cloud.google.com/kubernetes/) is enabled.
+1. Check if the API for [Compute Engine](https://console.cloud.google.com/compute/)  is enabled.
+1. Navigate to [**Kubernetes Engine > Clusters**](https://console.cloud.google.com/kubernetes/list/).
+1. From here we want to click **CREATE**,
+1. In the popup modal window click **Configure** next to the ***Autopilot: Google manages your cluster (Recommended)*** option.
+1. Rename the cluster to a not objectionable identifiable name.
+1. Choose the region closest to you.
+1. Leave the rest of the settings as-is.
+1. Click **create**. This will kick off the building of the cluster which will take around 10 minutes.
 
 > While we wait for the cluster to spin up we are going to set up cluster management and a kubernetes agent connection in the ultimate group we set up in the first step. Let's start by navigating there.
 
@@ -96,192 +81,153 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 > This agent will enable you to pull any project into your group and deploy it out using the agent we set up. If you want to set up for both GCP and AWS you will need to define two sub groups and have an agent + cluster management in each.
 
 1. Navigate to your Ultimate group.
+1. Click on **New Project**.
+1. On the follow up screen click **Create from template**.
+1. In the template options you are going to want to scroll down to find the **GitLab Cluster Management** project then click **Use Template**.
+1. Name the project `Cluster Management`.
+1. Keep it at **Private** visibility level.
+1. Click **Create project**.
+1. After waiting a few seconds for the project to be created we will then want to click **Web IDE** so that we can start setting up the GitLab agent for Kubernetes.
+1. First click new file where you can then copy in the snippet below and click **Create file**: `.gitlab/agents/primary-agent/config.yaml`
+1. Within the `config.yaml` we want to add the code below, where you edit the & values to be the correct paths to your project & group. Both of these values can be grabbed from the URL you have the Web IDE open in. If you get stuck feel free to reference [this](https://gitlab.com/gitlab-learn-labs/webinars/cluster-management/-/blob/master/.gitlab/agents/primary-agent/config.yaml) agent config.
 
-2. Click on **New Project**.
+   ```yaml
+   gitops:
+     # Manifest projects are watched by the agent. Whenever a project changes,
+     # GitLab deploys the changes using the agent.
+     manifest_projects:
+     # Adjust the line below for your Project
+     # For Example: - id: gitlab-learn-labs/webinars/cicd-demo-project
+     - id: {path-to-your-group-and-project}
+       paths:
+       - glob: 'manifests/*.yaml'
 
-3. On the follow up screen click **Create from template**.
+     # The CI/CD tunnel is always enabled in the project where you register and configure the Agent.
+     # This connection can be shared with other groups and projects.
+     ci_access:
+       groups:
+       # Adjust the line below for your Project
+       # For Example: - id: gitlab-learn-labs/webinars
+       - id: {path-to-your-group}
+   ```
 
-4. In the template options you are going to want to scroll down to find the **GitLab Cluster Management** project then click **Use Template**.
+   > **Notice how the path example above does not include `https://gitlab.com` but only the path after it**
+   >
+   > This config is telling the agent to look at our Cluster Management project for any manfiest changes as well as to allow any other projects within our group to use it for deployments.
 
-5. Name the project `Cluster Management`.
+1. Once your agent config is set up, go ahead commit the changes to the `main` branch.
+1. Once committed, we can click our project name in the top left to get back to our project overview page.
+1. From the landing page use the left hand navigation menu to click through **Infrastructure > Kubernetes clusters**.
+1. We then want to click **Connect a cluster**.
+1. In the popup modal window select our new agent, `primary-agent`, from the dropdown and click **Register**.
 
-6. Keep it at **Private** visibility level.
+   > Throughout your demos you may get some questions about the differences between the GitLab agent for Kubernetes and our old certificate approach. In short, the agent is far more secure and offers alot of flexibility, but it is a good idea to research this further for when the question comes up.
 
-7. Click **Create project**.
-
-8. After waiting a few seconds for the project to be created we will then want to click **Web IDE** so that we can start setting up the GitLab agent for Kubernetes.
-
-9. First click new file where you can then copy in the snippet below and click **Create file**: `.gitlab/agents/primary-agent/config.yaml`
-
-10. Within the `config.yaml` we want to add the code below, where you edit the & values to be the correct paths to your project & group. Both of these values can be grabbed from the URL you have the Web IDE open in. If you get stuck feel free to reference [this](https://gitlab.com/gitlab-learn-labs/webinars/cluster-management/-/blob/master/.gitlab/agents/primary-agent/config.yaml) agent config.
-
-    ```yaml
-    gitops:
-      # Manifest projects are watched by the agent. Whenever a project changes,
-      # GitLab deploys the changes using the agent.
-      manifest_projects:
-      # Adjust the line below for your Project
-      # For Example: - id: gitlab-learn-labs/webinars/cicd-demo-project
-      - id: {path-to-your-group-and-project}
-        paths:
-        - glob: 'manifests/*.yaml'
-   
-      # The CI/CD tunnel is always enabled in the project where you register and configure the Agent.
-      # This connection can be shared with other groups and projects.
-      ci_access:
-        groups:
-        # Adjust the line below for your Project
-        # For Example: - id: gitlab-learn-labs/webinars
-        - id: {path-to-your-group}
-    ```
-
-    > **Notice how the path example above does not include <https://gitlab.com> but only the path after it**
-
-    > This config is telling the agent to look at our Cluster Management project for any manfiest changes as well as to allow any other projects within our group to use it for deployments.
-
-11. Once your agent config is set up, go ahead commit the changes to the `main` branch.
-
-12. Once committed, we can click our project name in the top left to get back to our project overview page.
-
-13. From the landing page use the left hand navigation menu to click through **Infrastructure > Kubernetes clusters**.
-
-14. We then want to click **Connect a cluster**.
-
-15. In the popup modal window select our new agent, `primary-agent`, from the dropdown and click **Register**.
-
-    > Throughout your demos you may get some questions about the differences between the GitLab agent for Kubernetes and our old certificate approach. In short, the agent is far more secure and offers alot of flexibility, but it is a good idea to research this further for when the question comes up.
-
-16. In the resulting popup we want to copy the helm command somewhere locally to reference later. Now that we can connect our agent we also want to navigate back to our Google Cloud console to see if our cluster has been created yet.
+1. In the resulting popup we want to copy the helm command somewhere locally to reference later. Now that we can connect our agent we also want to navigate back to our Google Cloud console to see if our cluster has been created yet.
 
 ### Task 3. Connecting the Agent
 
 1. If the cluster is ready to go you will see a green checkmark in the status column. If green lets go ahead and click into the cluster.
+1. On the resulting page click **CONNECT**.
+1. Click **RUN IN CLOUD SHELL**. Wait for the shell to spin up.
+1. Then run the from GCP auto generated command to connect to the right cluster. If a popup comes to authorize, press **authorize**.
+1. Copy and paste the helm command that we got from setting up our agent in GitLab into the gcloud terminal.
+1. We then want to navigate back to our GitLab.com tab where we can close the agent connection popup if it is still open. Go ahead and refresh the page to make sure that the agent has made the connection.
+1. In the GCP Cloud Shell still connected to your GCP C:uster, you can view the logs with this command: `kubectl logs -f -l=app=gitlab-agent -n gitlab-agent-primary-agent`
+1. Next using the bread crumbs at the top of the page navigate out to the top level of your group. Ensure that you are at the group level and not project level or the rest of the pipelines will fail. We then want to use the left hand navigation menu to click through **Settings > CI/CD**.
 
-2. On the resulting page click **CONNECT**.
+   > Not adding the variables to the group level is the most common mistake people make when trying to set this up. Take your time and read carefully.
 
-3. Click **RUN IN CLOUD SHELL**. Wait for the shell to spin up.
+1. In the CI/CD settings, locate the **Variables** section and expand it.
 
-4. Then run the from GCP auto generated command to connect to the right cluster. If a popup comes to authorize, press **authorize**.
+1. Click **Add variable** and use the key value pair example below to add the variable.
 
-5. Copy and paste the helm command that we got from setting up our agent in GitLab into the gcloud terminal.
+   ```text
+   KUBE_CONTEXT:{path-to-your-group-and-project}:primary-agent
+   ```
 
-6. We then want to navigate back to our GitLab.com tab where we can close the agent connection popup if it is still open. Go ahead and refresh the page to make sure that the agent has made the connection.
+   ```text
+   Example
+   KUBE_CONTEXT:gitlab-learn-labs/sample-project-testing/cm-test:primary-agent
+   ```
 
-7. In the GCP Cloud Shell still connected to your GCP C:uster, you can view the logs with this command: `kubectl logs -f -l=app=gitlab-agent -n gitlab-agent-primary-agent`
+   > This variable is used for any projects that have access and want to know where to look for the agent config. Without it, the Cluster Management project will fail because it dosent know what agent changes it is meant to compare to.
 
-8. Next using the bread crumbs at the top of the page navigate out to the top level of your group. Ensure that you are at the group level and not project level or the rest of the pipelines will fail. We then want to use the left hand navigation menu to click through **Settings > CI/CD**.
+1. Unselect Protected and Masked.
+1. When done click **Add variable**
+1. Next we want to click the name of our group in the top left then click back into our cluster management project.
+1. Once again we will click **Web IDE** to make some code changes.
+1. Once in the Web IDE click into the `helmfile.yaml`.
+1. Uncomment line 19. `- path: applications/ingress/helmfile.yaml`
 
-    > Not adding the variables to the group level is the most common mistake people make when trying to set this up. Take your time and read carefully.
+   > You can come back later to set up cert manager as well. Just keep in mind that you will need to set up your own domain name or use sslip.io due to cert limitations with nip.io.
 
-9. In the CI/CD settings, locate the **Variables** section and expand it.
+1. Once done go ahead and commit the change to master. This time you should see a pipeline kick off in the bottom left of the webpage. We want to click the hyperlink that starts with # in the bottom left to get a view of the cluster management pipeline.
 
-10. Click **Add variable** and use the key value pair example below to add the variable.
+   > Line 19 holds the command to install and ingress controller in the cluster. By doing this GCP allows our application to be accessible through a public IP
 
-    ```
-    KUBE_CONTEXT:{path-to-your-group-and-project}:primary-agent
-    ```
+1. Wait a few minutes for the first job to complete. If everything was set up correctly the job will pass and then we can manually start the sync job. If the job fails, reference the troubleshooting section before moving on.
+1. Once the pipeline has fully run (~5 minutes), go back to the tab we have the Google Cloud console open on and in the gcloud terminal run the command below.
 
-    ```
-    Example
-    KUBE_CONTEXT:gitlab-learn-labs/sample-project-testing/cm-test:primary-agent
-    ```
+   ```bash
+   kubectl get service --all-namespaces
+   ```
 
-    > This variable is used for any projects that have access and want to know where to look for the agent config. Without it, the Cluster Management project will fail because it dosent know what agent changes it is meant to compare to.
+1. Within the `gitlab-managed-apps` namespace, look for the service named `ingress-ingress-nginx-controller`. We then want to copy its EXTERNAL-IP value and use it locally.
+1. Now that we have the ingress value we want to go back to our GitLab.com tab for the last time and navigate to the groups top level. We will be adding another variable so to make sure your application deployments work ENSURE you are at the group level.
+1. Use the left hand navigation menu on the group level, to click through **Settings > CI/CD** and locate the variables section.
+1. Expand the section and click **Add variable**.
+1. Then add the variable below in addition to the existing ones making sure that ***protected*** and ***mask*** are not checked and the rest of the default settings are the same. The {your-external-ip} value is going to be the ingress ip we just copied from the gcloud console:
 
-11. Unselect Protected and Masked.
-
-12. When done click **Add variable**
-
-13. Next we want to click the name of our group in the top left then click back into our cluster management project.
-
-14. Once again we will click **Web IDE** to make some code changes.
-
-15. Once in the Web IDE click into the `helmfile.yaml`.
-
-16. Uncomment line 19. `- path: applications/ingress/helmfile.yaml`
-
-    > You can come back later to set up cert manager as well. Just keep in mind that you will need to set up your own domain name or use sslip.io due to cert limitations with nip.io.
-
-17. Once done go ahead and commit the change to master. This time you should see a pipeline kick off in the bottom left of the webpage. We want to click the hyperlink that starts with # in the bottom left to get a view of the cluster management pipeline.
-
-    > Line 19 holds the command to install and ingress controller in the cluster. By doing this GCP allows our application to be accessible through a public IP
-
-18. Wait a few minutes for the first job to complete. If everything was set up correctly the job will pass and then we can manually start the sync job. If the job fails, reference the troubleshooting section before moving on.
-
-19. Once the pipeline has fully run (~5 minutes), go back to the tab we have the Google Cloud console open on and in the gcloud terminal run the command below.
-
-    ```bash
-    kubectl get service --all-namespaces
-    ```
-
-20. Within the `gitlab-managed-apps` namespace, look for the service named `ingress-ingress-nginx-controller`. We then want to copy its EXTERNAL-IP value and use it locally.
-
-21. Now that we have the ingress value we want to go back to our GitLab.com tab for the last time and navigate to the groups top level. We will be adding another variable so to make sure your application deployments work ENSURE you are at the group level.
-
-22. Use the left hand navigation menu on the group level, to click through **Settings > CI/CD** and locate the variables section.
-
-23. Expand the section and click **Add variable**.
-
-24. Then add the variable below in addition to the existing ones making sure that ***protected*** and ***mask*** are not checked and the rest of the default settings are the same. The {your-external-ip} value is going to be the ingress ip we just copied from the gcloud console:
-
-    ```
-    KUBE_INGRESS_BASE_DOMAIN:{your-external-ip}.nip.io
-    ```
+   ```text
+   KUBE_INGRESS_BASE_DOMAIN:{your-external-ip}.nip.io
+   ```
 
 ### Task 4. Deploy Ruby on Rails Application
 
 1. Now that all of the variables are set up we should be good to go.
+1. Go back to your project overview page of your group.
+1. Click **New project**, **Create from template**.
+1. Select and import the ***Ruby on Rails** project with a name of your choice and public.
+1. Once the project is imported use the left hand navigation menu to click through **Settings > CI/CD** and
+1. Expand the ***Auto DevOps*** section.
+1. Click ***Default to Auto DevOps pipeline***, leave the ***Deployment strategy*** as the first option,  & **Save changes**
+1. We then want to click our project name in the top right and click **Web IDE** on the project homepage.
+1. Within the IDE we will want to locate the ***.gitlab-ci.yml*** file and delete it.
+1. Once deleted commit the changes to master and watch as the Auto DevOps pipeline uses our new agent & infra to push out an application.
 
-2. Go back to your project overview page of your group.
+   > This step also makes sure that your agent was set up correctly. If your Auto DevOps pipeline does not look like the one below make sure your agent config is correct. It may be a single indent is missing that invailidated the whole yaml.
 
-3. Click **New project**, **Create from template**.
+   ![Correct Auto DevOps Pipeline](ADO.png)
 
-4. Select and import the ***Ruby on Rails** project with a name of your choice and public.
+1. It is out of scope for onboarding but you could continue to modify the agent as you add more and more projects to this group. The below example is what your manifest definition might look like if you started adding multiple projects:
 
-5. Once the project is imported use the left hand navigation menu to click through **Settings > CI/CD** and
+   ```yml
+   gitops:
+     manifest_projects:
 
-6. Expand the ***Auto DevOps*** section.
+     - id: gitlab-learn-labs/gitops/2022-10-11-ultimate-gitops/jenlung/world-greetings-env-1
+       default_namespace: default
+       paths:
+         - glob: '/manifests/**/*.yaml'
+       reconcile_timeout: 3600s # 1 hour by default
+       dry_run_strategy: none # 'none' by default
+       prune: true # enabled by default
+       prune_timeout: 360s # 1 hour by default
+       prune_propagation_policy: foreground # 'foreground' by default
+       inventory_policy: must_match # 'must_match' by default
 
-7. Click ***Default to Auto DevOps pipeline***, leave the ***Deployment strategy*** as the first option,  & **Save changes**
-
-8. We then want to click our project name in the top right and click **Web IDE** on the project homepage.
-
-9. Within the IDE we will want to locate the ***.gitlab-ci.yml*** file and delete it.
-
-10. Once deleted commit the changes to master and watch as the Auto DevOps pipeline uses our new agent & infra to push out an application.
-
-    > This step also makes sure that your agent was set up correctly. If your Auto DevOps pipeline does not look like the one below make sure your agent config is correct. It may be a single indent is missing that invailidated the whole yaml.
-
-    ![Correct Auto DevOps Pipeline](./ADO.png)
-
-11. It is out of scope for onboarding but you could continue to modify the agent as you add more and more projects to this group. The below example is what your manifest definition might look like if you started adding multiple projects:
-
-    ```yml
-    gitops:
-      manifest_projects:
- 
-      - id: gitlab-learn-labs/gitops/2022-10-11-ultimate-gitops/jenlung/world-greetings-env-1
-        default_namespace: default
-        paths:
-          - glob: '/manifests/**/*.yaml'
-        reconcile_timeout: 3600s # 1 hour by default
-        dry_run_strategy: none # 'none' by default
-        prune: true # enabled by default
-        prune_timeout: 360s # 1 hour by default
-        prune_propagation_policy: foreground # 'foreground' by default
-        inventory_policy: must_match # 'must_match' by default
- 
-      - id: gitlab-learn-labs/gitops/2022-10-11-ultimate-gitops/lai_dai/world-greetings-env-1
-        default_namespace: default
-        paths:
-          - glob: '/manifests/**/*.yaml'
-        reconcile_timeout: 3600s # 1 hour by default
-        dry_run_strategy: none # 'none' by default
-        prune: true # enabled by default
-        prune_timeout: 360s # 1 hour by default
-        prune_propagation_policy: foreground # 'foreground' by default
-        inventory_policy: must_match # 'must_match' by default
-    ```
+     - id: gitlab-learn-labs/gitops/2022-10-11-ultimate-gitops/lai_dai/world-greetings-env-1
+       default_namespace: default
+       paths:
+         - glob: '/manifests/**/*.yaml'
+       reconcile_timeout: 3600s # 1 hour by default
+       dry_run_strategy: none # 'none' by default
+       prune: true # enabled by default
+       prune_timeout: 360s # 1 hour by default
+       prune_propagation_policy: foreground # 'foreground' by default
+       inventory_policy: must_match # 'must_match' by default
+   ```
 
 ## Sample Demo Projects
 
@@ -291,9 +237,9 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 
 There is a shared demo group for webinars at [https://gitlab.com/gitlab-learn-labs/webinars](https://gitlab.com/gitlab-learn-labs/webinars) that you can fork projects out of and into your new ulitmate group & have running in under 5 minutes.
 
-We suggest reading the [documentation](https://gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects) about how these shared projects works. These demos are great because they all come with suggested talk tracks as well for how you might present the various topics.  
+We suggest reading the [documentation](https://gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects) about how these shared projects works. These demos are great because they all come with suggested talk tracks as well for how you might present the various topics.
 
-By forking the project, you can use them how you want and then submit MRs to the original project to collaborate with others on fixing any bugs or add any new features.  
+By forking the project, you can use them how you want and then submit MRs to the original project to collaborate with others on fixing any bugs or add any new features.
 
 Learn more about setting up these demos at [gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects](https://gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects)
 
@@ -301,75 +247,75 @@ Learn more about setting up these demos at [gitlab.com/gitlab-learn-labs/webinar
 
 - [ ] **Install GitLab Runners**
 
-You only need to do this if you find yourself running out of shared runner minutes. It is typical that SAs + CSM/Es exhaust their quota of compute minutes. While installing and running an agent is an advanced topic, it is something that our customers ask a lot of questions about so it's best to be well versed on the topic. If you are brave you can follow our docs to set up the runner in a different way: https://docs.gitlab.com/runner/install/
+You only need to do this if you find yourself running out of shared runner minutes. It is typical that SAs + CSM/Es exhaust their quota of compute minutes. While installing and running an agent is an advanced topic, it is something that our customers ask a lot of questions about so it's best to be well versed on the topic. If you are brave you can [follow our docs](https://docs.gitlab.com/runner/install/) to set up the runner in a different way.
 
 1. First we need to set up an Ubuntu VM before moving forward. Navigate to your GCP project, and click through **Compute Engine > VM instances**.  Next click **CREATE INSTANCE**.
 
-2. On the creation page add a name (something runner related), then leave the settings as is until the **Boot disk** section. Click **Change** and change the ***Operating system*** to Ubuntu & the ***Version*** 20.04 LTS x86/64, amd64. Then click **SELECT**.
+1. On the creation page add a name (something runner related), then leave the settings as is until the **Boot disk** section. Click **Change** and change the ***Operating system*** to Ubuntu & the ***Version*** 20.04 LTS x86/64, amd64. Then click **SELECT**.
 
-    > If you hit "no space left on device", you can always [increase the volume size](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) at a later time
+   > If you hit "no space left on device", you can always [increase the volume size](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) at a later time
 
-3. From there scroll down to the **Firewall** section and make sure both **Allow HTTP traffic** and  **Allow HTTPS traffic** are selected.
+1. From there scroll down to the **Firewall** section and make sure both **Allow HTTP traffic** and  **Allow HTTPS traffic** are selected.
 
-4. Click **CREATE** and wait for the pod to spin up. Once its spun up click **SHH > View gcloud command**. If you have gcloud set up already on your machine copy the command and run it in your terminal of choice. If you don't, you can click **RUN IN CLOUD SHELL** which should auto paste in the command. Just keep in mind that the cloud shell is not reliable and you should get your local connection set up.
+1. Click **CREATE** and wait for the pod to spin up. Once its spun up click **SHH > View gcloud command**. If you have gcloud set up already on your machine copy the command and run it in your terminal of choice. If you don't, you can click **RUN IN CLOUD SHELL** which should auto paste in the command. Just keep in mind that the cloud shell is not reliable and you should get your local connection set up.
 
-5. Within your terminal shell first run the below command to enter privileged mode:
+1. Within your terminal shell first run the below command to enter privileged mode:
 
-    ```
-    sudo -i
-    ```
+   ```console
+   sudo -i
+   ```
 
-6. Install Docker.
+1. Install Docker.
 
-    ```
-    sudo apt-get update
-    sudo apt install docker.io
-    ```
+   ```console
+   sudo apt-get update
+   sudo apt install docker.io
+   ```
 
-    > If that doesn't succeed, please reference [docker's documentation](https://docs.docker.com/engine/install/ubuntu/).
+   > If that doesn't succeed, please reference [docker's documentation](https://docs.docker.com/engine/install/ubuntu/).
 
-7. Install GitLab Runner.
+1. Install GitLab Runner.
 
-    ```
-    # Add the GitLab repository
-    curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
-    ```
+   ```console
+   # Add the GitLab repository
+   curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+   ```
 
-    ```
-    # Install the GitLab Runner package.
-    sudo apt-get install gitlab-runner
-    ```
+   ```console
+   # Install the GitLab Runner package.
+   sudo apt-get install gitlab-runner
+   ```
 
-8. You can then check the status of the runner with this command:
+1. You can then check the status of the runner with this command:
 
-    ```
+    ```console
     sudo gitlab-runner status
     ```
 
-9. Now that the runner is up and running we need to connect it.
+1. Now that the runner is up and running we need to connect it.
 
-    - If you are configuring this at the group level, navigate to the group and using the left hand navigation menu click **CI/CD > Runners**. In the upper right corner, select **Register a group runner** and copy the registration token locally.
-    - If you are configuring this at the project level, navigate to the project and using the left hand navigation menu click through **Settings > CICD** and scroll down and expand the **Runner** section and copy the registration token locally.
-    - For more information, see the documentation for [registering runners](https://docs.gitlab.com/runner/register/).
+   - If you are configuring this at the group level, navigate to the group and using the left hand navigation menu click **CI/CD > Runners**. In the upper right corner, select **Register a group runner** and copy the registration token locally.
+   - If you are configuring this at the project level, navigate to the project and using the left hand navigation menu click through **Settings > CICD** and scroll down and expand the **Runner** section and copy the registration token locally.
+   - For more information, see the documentation for [registering runners](https://docs.gitlab.com/runner/register/).
 
-10. Copy this command into a text editor and replace the `REGISTRATION_TOKEN` placeholder below with the token that you copied locally. Copy the command into your Terminal and run it.
+1. Copy this command into a text editor and replace the `REGISTRATION_TOKEN` placeholder below with the token that you copied locally. Copy the command into your Terminal and run it.
 
-    ```
-    sudo gitlab-runner register -n \
-      --url https://gitlab.com/ \
-      --registration-token REGISTRATION_TOKEN \
-      --executor docker \
-      --description "My Docker Runner" \
-      --docker-image "docker:20.10.16" \
-      --docker-privileged \
-      --docker-volumes "/certs/client"
-    ```
+   ```console
+   sudo gitlab-runner register -n \
+     --url https://gitlab.com/ \
+     --registration-token REGISTRATION_TOKEN \
+     --executor docker \
+     --description "My Docker Runner" \
+     --docker-image "docker:20.10.16" \
+     --docker-privileged \
+     --docker-volumes "/certs/client"
+   ```
 
-    - If you configured a group runner, navigate back to the **CI/CD > Runners** page in your group. You should now see your runner listed with an **Online** status.
+   - If you configured a group runner, navigate back to the **CI/CD > Runners** page in your group. You should now see your runner listed with an **Online** status.
 
-        > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) for additional details)
+     > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) for additional details)
 
-    - If you configured a project runner, navigate back to the **Settings > CICD** page and and expand the **Runners** section. You should now see your runner listed with an **Online** status.
+   - If you configured a project runner, navigate back to the **Settings > CICD** page and expand the **Runners** section. You should now see your runner listed with an **Online** status.
 
 ### Troubleshooting The Agent
 
@@ -389,7 +335,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
 ### Next steps
 
-Now that you have your own instance and projects spun up, go ahead and try out some of our customer facing workshops we put on by clicking the link below.  
+Now that you have your own instance and projects spun up, go ahead and try out some of our customer facing workshops we put on by clicking the link below.
 
 Please ensure that you sign up with your GitLab provided email for access. These workshop will cover the basics of Advanced CI/CD & DevSecOps & can be a good reference point for later.
 

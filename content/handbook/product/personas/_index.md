@@ -1,13 +1,6 @@
 ---
-
 title: Personas
 ---
-
-
-
-
-
-
 
 ## Roles vs personas
 
@@ -22,7 +15,6 @@ Personas are a generalized way of talking about the ideal target we are aiming t
 ### Buyer personas
 
 We are iterating on updates to buyer personas on this [Buyer Persona](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) page.
-
 
 ### User personas
 
@@ -60,7 +52,7 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Presley, Product Designer](/handbook/product/personas/#presley-product-designer)
   1. [Sasha, Software Developer](/handbook/product/personas/#sasha-software-developer)
   1. [Priyanka, Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer)
-  2. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
+  1. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
   1. [Sidney, Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
   1. [Rachel, Release Manager](/handbook/product/personas/#rachel-release-manager)
   1. [Simone, Software Engineer in Test](/handbook/product/personas/#simone-software-engineer-in-test)
@@ -104,17 +96,15 @@ At the center of many facets in product development, I am responsible for shapin
 
 - Solving Complex Problems and Delivering User Value: I find deep satisfaction and motivation in tackling challenging problems head-on. My drive stems from the opportunity to develop innovative solutions that meet user needs and create real value, culminating in a richer user experience and making a positive impact in the day-to-day lives of our users while driving value and increasing revenue for my organization.
 - Taking Products from Concept to Launch: The process of taking a product from concept to launch excites and motivates me. I get satisfaction from taking part in the evolution of an idea into a fully realized product, navigating challenges, guiding development, and observing the impact with users.
-- Adapting to Change and Achieving Alignment: I’m proud when I can adapt to shifting company objectives and maintain effective communication with my team. I am always working to achieve alignment across teams, knowing that it fuels our ability to achieve ambitious goals and innovate together.
-
+- Adapting to Change and Achieving Alignment: I'm proud when I can adapt to shifting company objectives and maintain effective communication with my team. I am always working to achieve alignment across teams, knowing that it fuels our ability to achieve ambitious goals and innovate together.
 
 ##### Frustrations
 
-- Being Stuck in a "Project, Not Product”, Management Role: It's demotivating when I find myself primarily functioning as a project manager, focusing on tracking tasks and timelines rather than the dynamic and strategic responsibilities that come with being a product manager. This hinders my ability to address customer needs, devise effective market strategies, and maintain a clear product vision, which drives my job satisfaction.
+- Being Stuck in a "Project, Not Product", Management Role: It's demotivating when I find myself primarily functioning as a project manager, focusing on tracking tasks and timelines rather than the dynamic and strategic responsibilities that come with being a product manager. This hinders my ability to address customer needs, devise effective market strategies, and maintain a clear product vision, which drives my job satisfaction.
 - Wasting Time, Development Capacity, and Ultimately Money: Wasted efforts and resources on products that fail to gain traction or meet user needs is disheartening. I feel frustrated when we invest in solutions that go unused or lack a clear purpose, especially when there is little meaningful user value or overall product success.
 - Inability to access project status quickly: It can be frustrating when it is difficult to obtain the status of work efforts and I am forced to spend time chasing status. Timely awareness of project status, especially when it is off track, is crucial for my role because I need to ensure people invested in delivery are informed if we will not meet our commitments.
-- Balancing Product Vision and Capacity: I am constantly trying to make the most of our team’s capacity to execute on our product vision. It’s a challenging juggling act to ensure I am making the right decisions on what comes next to maximize our ability to deliver compelling value to the market.
+- Balancing Product Vision and Capacity: I am constantly trying to make the most of our team's capacity to execute on our product vision. It's a challenging juggling act to ensure I am making the right decisions on what comes next to maximize our ability to deliver compelling value to the market.
 - Unpredictable Timeframes, Feature Delays, and Deprioritization: It's frustrating when I'm tasked with providing clients and stakeholders with a reasonable timeframe for the delivery of a feature since development cycles can be unpredictable, and change is inevitable.
-
 
 #### Delaney (Development Team Lead)
 
@@ -142,7 +132,7 @@ I am responsible for meeting with the product management team to discuss and sch
 
 ##### Job Summary
 
-My goal is to translate the product’s mission into an effective, empathetic, and efficient user experience. I am responsible for understanding user needs and product requirements, in order to conceptualize and design the graphic elements and components needed to shape the user interface. I collaborate primarily with product managers and developers, in addition to working with other stakeholders such as UX research and marketing.
+My goal is to translate the product's mission into an effective, empathetic, and efficient user experience. I am responsible for understanding user needs and product requirements, in order to conceptualize and design the graphic elements and components needed to shape the user interface. I collaborate primarily with product managers and developers, in addition to working with other stakeholders such as UX research and marketing.
 
 ##### Motivations
 
@@ -153,7 +143,7 @@ My goal is to translate the product’s mission into an effective, empathetic, a
 
 ##### Frustrations
 
-- It’s frustrating to have to create a file in one tool, export the file, create a prototype in another tool, and use a separate tool to handoff the design to developers.
+- It's frustrating to have to create a file in one tool, export the file, create a prototype in another tool, and use a separate tool to handoff the design to developers.
 - It can be difficult to ensure that stakeholders are looking at up-to-date designs, when carrying out an iterative feedback process.
 - It can be challenging to get access to more resources, when my company does not have a defined way to prove design value to stakeholders.
 
@@ -167,18 +157,18 @@ I spend the majority of my time focused on completing planned development tasks,
 
 ##### Motivations
 
-- When I’m planning work, I want to have better communication between stakeholders, so I can deliver something they really need and use.
-- When I’m on-call, I want to be the expert on some part of the system, so I know that I’m a valuable part of the team.
-- When collaborating with a large number of developers, I want to see a record of everyone’s changes, so we can pinpoint and unwind mistakes.
-- When I’m pairing with my teammates, I want to learn new tools and skills, so I can keep growing in my career.
+- When I'm planning work, I want to have better communication between stakeholders, so I can deliver something they really need and use.
+- When I'm on-call, I want to be the expert on some part of the system, so I know that I'm a valuable part of the team.
+- When collaborating with a large number of developers, I want to see a record of everyone's changes, so we can pinpoint and unwind mistakes.
+- When I'm pairing with my teammates, I want to learn new tools and skills, so I can keep growing in my career.
 - When I'm making changes, I want to deliver secure and performant code, so I can ensure the integrity of my organization's software is not compromised.
 
 ##### Frustrations
 
-- I’m frustrated when requirements change after work has already begun on a project.
-- I’m frustrated when work is inaccurately scoped, because it causes stress and eats into time planned for other work.
-- I’m frustrated when I come across brittle code and something that should be an easy fix requires a lot of rework.
-- I’m concerned that by taking longer than expected on a task I may be judged or seen as blocking others’ work.
+- I'm frustrated when requirements change after work has already begun on a project.
+- I'm frustrated when work is inaccurately scoped, because it causes stress and eats into time planned for other work.
+- I'm frustrated when I come across brittle code and something that should be an easy fix requires a lot of rework.
+- I'm concerned that by taking longer than expected on a task I may be judged or seen as blocking others' work.
 
 #### Priyanka (Platform Engineer)
 
@@ -195,8 +185,8 @@ Depending on the organization and/or need of the development teams, I am part of
 - When developers plan a project that requires my support, I want to be notified, so I can avoid unnecessary reactive work.
 - When I resolve problems, I want to be able to track impact and other important success metrics, so I can raise my profile in the organization.
 - When I create a solution for developers, I want to see it being used, so I know that my contributions are reliable and valued.
-- When I’m facing a new or novel challenge, I want to whiteboard it with a teammate, so I have the satisfaction of helping solve a problem that has no manual.
-- When I’m advocating for a new process or tool, I want to point to a metric or test, so I can support my case with something objective.
+- When I'm facing a new or novel challenge, I want to whiteboard it with a teammate, so I have the satisfaction of helping solve a problem that has no manual.
+- When I'm advocating for a new process or tool, I want to point to a metric or test, so I can support my case with something objective.
 
 ##### Frustrations
 
@@ -247,15 +237,15 @@ I maintain and scale our infrastructure and configurations, and my priority is t
 ##### Motivations
 
 - When I get asked for help multiple times on the same task, I want to automate that task, to save time and avoid mistakes in the future.
-- When I’m on-call, I want to receive tiered notifications, so that the true emergencies don’t get lost in the noise.
-- When I’m releasing an improvement, I want no one to notice, so I know that it has gone smoothly.
+- When I'm on-call, I want to receive tiered notifications, so that the true emergencies don't get lost in the noise.
+- When I'm releasing an improvement, I want no one to notice, so I know that it has gone smoothly.
 
 ##### Frustrations
 
 - I'm frustrated by the large volume of reactive work that I face.
 - I'm frustrated by the number of channels (email, Skype, SMS, Slack, pager) on which I receive on-call notifications.
 - I'm frustrated when I get inundated by requests from people who have not followed the correct process.
-- I'm frustrated when developers do not implement my recommendations, and I’m responsible for fixing their preventable problems anyway.
+- I'm frustrated when developers do not implement my recommendations, and I'm responsible for fixing their preventable problems anyway.
 
 #### Rachel (Release Manager)
 
@@ -269,14 +259,14 @@ I maintain and scale our infrastructure and configurations, and my priority is t
 ##### Motivations
 
 - I want a smooth deployment
-- I want to make sure everything in the pipeline will work, because it’s the last thing that happens before it’s moved to production. If you ship something into production that shouldn’t be there, that can be catastrophic.
+- I want to make sure everything in the pipeline will work, because it's the last thing that happens before it's moved to production. If you ship something into production that shouldn't be there, that can be catastrophic.
 - Every time the CI/CD pipelines run to green or catch issues when needed, I can sleep calmly.
 
 ##### Challenges
 
 - Dealing with archaic infrastructure, such as slow connections and outdated equipment, can make it difficult to ensure everyone has the files they need to contribute and manage the pipeline.
 - Ensuring enough developers, Product Managers, etc. are available to support projects.
-- UI testing isn’t automated so that takes time out of the testing process.
+- UI testing isn't automated so that takes time out of the testing process.
 - Coordinating all the different teams across a release can be challenging and requires a lot of follow up to ensure they play their part when they should.
 
 ##### Tools
@@ -292,7 +282,7 @@ I maintain and scale our infrastructure and configurations, and my priority is t
 
 ##### My role
 
-I’m a software engineer in my organization with a keen interest in quality and the skills necessary to promote it. My objective is to **help build quality into the development process** and **promote ownership of quality across every team**. To accomplish this, I develop tooling to support test processes and quality reporting. I also write tests at every level in the [test pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html). I groom my organization's tests to make them both efficient and effective as well as help grow a quality mindset across departments.
+I'm a software engineer in my organization with a keen interest in quality and the skills necessary to promote it. My objective is to **help build quality into the development process** and **promote ownership of quality across every team**. To accomplish this, I develop tooling to support test processes and quality reporting. I also write tests at every level in the [test pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html). I groom my organization's tests to make them both efficient and effective as well as help grow a quality mindset across departments.
 
 ##### Jobs to be done
 
@@ -328,13 +318,13 @@ I’m a software engineer in my organization with a keen interest in quality and
 - **A cloud management console**: To access the infrastructure (Google Cloud Platform, Amazon Web Services, Azure)
 - **Environment Provisioning**: Terraform and Ansible
 - **Triage and mitigation**:
-    - Docker - to reproduce issues and emulate environments
-    - Accounts for different environments - for testing and infrastructure
-    - Data repositories and generators
-    - Logging tools
-        - Elastic Stack (Elasticsearch, Kibana, Beats, Logstash)
-        - Sentry
-        - Prometheus
+  - Docker - to reproduce issues and emulate environments
+  - Accounts for different environments - for testing and infrastructure
+  - Data repositories and generators
+  - Logging tools
+    - Elastic Stack (Elasticsearch, Kibana, Beats, Logstash)
+    - Sentry
+    - Prometheus
 
 ##### Collaboration with other teams
 
@@ -384,15 +374,15 @@ I have responsibility for providing, maintaining and operating the shared infras
 - When I own an infrastructure resource, I want to assure that it serves its purpose well, so I fulfill my SLAs.
 - When I own an infrastructure resource, I want to be mindful about its costs, so that I can run it within budget.
 - When I support developers, I want to automate the integration points, so I will not become a bottleneck in their processes.
-- When I’m on-call, I want to receive tiered notifications, so that the true emergencies don’t get lost in the noise.
-- When I’m releasing an improvement, I want no one to notice, so I know that it has gone smoothly.
+- When I'm on-call, I want to receive tiered notifications, so that the true emergencies don't get lost in the noise.
+- When I'm releasing an improvement, I want no one to notice, so I know that it has gone smoothly.
 
 ##### Frustrations
 
 - I'm frustrated by the large volume of reactive work that I face.
 - I'm frustrated by the number of channels (email, Skype, SMS, Slack, pager) on which I receive on-call notifications.
 - I'm frustrated when I get inundated by requests from people who have not followed the correct process.
-- I'm frustrated when developers do not implement my recommendations, and I’m responsible for fixing their preventable problems anyway.
+- I'm frustrated when developers do not implement my recommendations, and I'm responsible for fixing their preventable problems anyway.
 
 #### Dakota (Application Development Director)
 
@@ -429,7 +419,7 @@ I am responsibility for assessing potential business-critical vulnerabilities, p
 
 ##### Motivations
 
-- When I’m monitoring my vulnerability dashboards, I want to see everything I am monitoring in one tool, so I can do my job easier and more efficiently.
+- When I'm monitoring my vulnerability dashboards, I want to see everything I am monitoring in one tool, so I can do my job easier and more efficiently.
 - I want to make sure to run all necessary security scans before code is released to remain proactive.
 - When on the job, I want to stay up to date on the latest information and education in information security, so I can grow in my career.
 
@@ -465,7 +455,7 @@ I am responsibility for creating and maintaining security tools, monitoring prod
 
 ##### Motivations
 
-- When I’m monitoring my dashboards, I want to see everything I am monitoring in one tool, so I can do my job easier and more efficiently.
+- When I'm monitoring my dashboards, I want to see everything I am monitoring in one tool, so I can do my job easier and more efficiently.
 - When evaluating the security of production environments, I want to be more proactive than reactive, so I can anticipate potential threats or vulnerabilities before the bad guys do.
 - When I've done all I can do proactively, I also want to be able to enable reactive tools and investigate the data from them as a final layer of defense.
 - When on the job, I want to stay up to date on the latest information and education in information security, so I can grow in my career.
@@ -494,15 +484,15 @@ I am responsibility for creating and maintaining security tools, monitoring prod
 
 ##### My role
 
-I’m the firefighter of the Security team. My objective is to **prevent malicious attacks** and **mitigate active risks** to my organization as they pop up, as **quickly** as possible. In order to do that, I develop detection tooling that generates **trustworthy alerts**, and take part in an on-call rotation where I serve as an **Incident Responder**.
+I'm the firefighter of the Security team. My objective is to **prevent malicious attacks** and **mitigate active risks** to my organization as they pop up, as **quickly** as possible. In order to do that, I develop detection tooling that generates **trustworthy alerts**, and take part in an on-call rotation where I serve as an **Incident Responder**.
 
-*“I need to be jack of all trades: When SecOps get paged, it could be about anything, and there’s a high probability that the incident concerns something you’ve never dealt with before. The sky could be falling and there’s a lot at stake and so the role of a security operations person can be pretty stressful.”*
+*"I need to be jack of all trades: When SecOps get paged, it could be about anything, and there's a high probability that the incident concerns something you've never dealt with before. The sky could be falling and there's a lot at stake and so the role of a security operations person can be pretty stressful."*
 
 ##### Jobs to be done
 
 - **Manage incident response:** When I am on-call, I need to respond to and manage incidents as they pop up, so as to mitigate the risk to my organization as quickly as possible.
 - **Real-time documentation:** As an incident unfolds, I want to document as much of what is happening as possible, so that later on I could use that information as part of updating or creating a runbook, and possibly creating an RCA (Root Cause Analysis).
-- **Building detection tools:** When I’m not on-call, I want to build tools that enhance our detection and alerting capabilities, so as to improve my organization’s security stance.
+- **Building detection tools:** When I'm not on-call, I want to build tools that enhance our detection and alerting capabilities, so as to improve my organization's security stance.
 - **Short-term project management:** As an incident unfolds, I want to assign tasks and coordinate the work of multiple individuals across my organization, so I can move as quickly as possible to remediate the risk.
 
 ##### Skills & Personal Traits
@@ -518,14 +508,14 @@ I’m the firefighter of the Security team. My objective is to **prevent malicio
 
 ##### Motivations
 
-- When I’m monitoring my dashboards for security alerts or incidents, I want to see everything I am monitoring in one tool, so I can do my job easier and more efficiently.
+- When I'm monitoring my dashboards for security alerts or incidents, I want to see everything I am monitoring in one tool, so I can do my job easier and more efficiently.
 - When security testing, I want to be more proactive than reactive, so I can anticipate potential threats or vulnerabilities before the bad guys do.
 - When I've done all I can do proactively, I also want to be able to enable reactive tools and investigate the data from them as a final layer of defense.
 - When on the job, I want to stay up to date on the latest information and education in information security, so I can grow in my career.
 
 ##### Frustrations
 
-- It is cumbersome to edit description of timeline in real-time, and it’s especially difficult to do in hindsight. Often the timeline documentation isn’t completed.
+- It is cumbersome to edit description of timeline in real-time, and it's especially difficult to do in hindsight. Often the timeline documentation isn't completed.
 - Often important parts of the info I need in order to handle the incident are either not communicated fully, or are being communicated in an unstructured manner which makes aggregation and searching difficult.
 
 ##### Key Tools
@@ -536,13 +526,13 @@ I’m the firefighter of the Security team. My objective is to **prevent malicio
 - **Google Docs**: Real-time documentation
 - **Terminal, coding environment**: Mostly Python, some Go - for building and/or running tools
 - **The Hive**: A security incident management tracking tool
-    - Cortex - part of The Hive, allows for easy automation
+  - Cortex - part of The Hive, allows for easy automation
 - **A cloud management console**: To access the infrastructure
 - **Various tools for triage and mitigation**:
-    - Docker - to reproduce security issues and test approaches
-    - Accounts for different environments - to test against
-    - ELK stack - to go over logs
-    - Stackdriver or BigQuery - long-term storage, used for incidents that are open for a long period of time
+  - Docker - to reproduce security issues and test approaches
+  - Accounts for different environments - to test against
+  - ELK stack - to go over logs
+  - Stackdriver or BigQuery - long-term storage, used for incidents that are open for a long period of time
 
 ##### Collaboration with other teams
 
@@ -563,7 +553,7 @@ I’m the firefighter of the Security team. My objective is to **prevent malicio
 
 ##### Job Summary
 
-I’m in charge of ensuring that our organization’s use of third-party software adheres to internal company policy. This can consist of the SDLC, access management, change management, and a multitude of other policies. I interface regularly with our internal compliance, audit, and/or security teams to deliver the information they need for our organization’s compliance program.
+I'm in charge of ensuring that our organization's use of third-party software adheres to internal company policy. This can consist of the SDLC, access management, change management, and a multitude of other policies. I interface regularly with our internal compliance, audit, and/or security teams to deliver the information they need for our organization's compliance program.
 
 ##### Jobs to be done
 
@@ -573,15 +563,15 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 
 ##### Motivations
 
-- When I’m supporting an audit, I need the information to be available quickly and easily so I can reduce the time and disruption involved in the evidence collection process.
-- When I’m managing my teams and projects, I need to know I’m not introducing unnecessary risks so I can protect the company from liability.
+- When I'm supporting an audit, I need the information to be available quickly and easily so I can reduce the time and disruption involved in the evidence collection process.
+- When I'm managing my teams and projects, I need to know I'm not introducing unnecessary risks so I can protect the company from liability.
 
 ##### Frustrations
 
-- I’m frustrated because it’s difficult to find, aggregate, and report on all of the necessary data for audit purposes.
-- I’m frustrated when tools do not have features that give me peace of mind about our organization’s compliance posture.
-- It’s challenging to compile data in a format that’s efficient and valuable to my internal audit or compliance team.
-- It’s challenging to build custom tooling and services every time we identify a gap in the compliance posture of our tools.
+- I'm frustrated because it's difficult to find, aggregate, and report on all of the necessary data for audit purposes.
+- I'm frustrated when tools do not have features that give me peace of mind about our organization's compliance posture.
+- It's challenging to compile data in a format that's efficient and valuable to my internal audit or compliance team.
+- It's challenging to build custom tooling and services every time we identify a gap in the compliance posture of our tools.
 
 #### Daphne (Data Scientist)
 
@@ -589,7 +579,7 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 
 ##### Job Summary
 
-I collect, preprocess, and analyze data to derive insights and build predictive models. 
+I collect, preprocess, and analyze data to derive insights and build predictive models.
 
 ##### Jobs to be done
 
@@ -610,7 +600,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 - Data access
 - Lack of computational resources
 - Lack of data and/or ML/AI literacy in the organization
-- Lack of streamlined processes and automations 
+- Lack of streamlined processes and automations
 - Lack of data governance and ambiguity around policies, data ownership and data stewardship.
 
 #### Mia (ML Engineer)
@@ -619,7 +609,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 
 ##### Job Summary
 
-I am responsible for building, optimizing, and deploying machine learning models into production environments. 
+I am responsible for building, optimizing, and deploying machine learning models into production environments.
 
 ##### Jobs to be done
 
@@ -657,7 +647,7 @@ Internal personas reflect the workflow, needs, and challenges faced by GitLab te
 
 ##### Job Summary
 
-I am responsible for creating, updating, and curating content for my company’s site. I review and submit changes to existing pages and create pages to add new content as needed.
+I am responsible for creating, updating, and curating content for my company's site. I review and submit changes to existing pages and create pages to add new content as needed.
 
 ##### Motivations
 
@@ -666,10 +656,10 @@ I am responsible for creating, updating, and curating content for my company’s
 
 ##### Frustrations
 
-- It’s challenging to know which pages need to be updated, when I am responsible for managing a site with a lot of content.
+- It's challenging to know which pages need to be updated, when I am responsible for managing a site with a lot of content.
 - It can be intimidating to make content changes, if I am not used to working with technical editing tools in my workflow.
-- It’s frustrating to have to spend time figuring out where content lives in the directory structure, especially when making small changes.
-- It’s difficult to make bulk updates to a page without tools that allow me to find-and-replace content.
+- It's frustrating to have to spend time figuring out where content lives in the directory structure, especially when making small changes.
+- It's difficult to make bulk updates to a page without tools that allow me to find-and-replace content.
 
 #### Dana (Data Analyst)
 
@@ -690,6 +680,5 @@ My goal is to deeply understand the lifecycle of data from various sources and m
 
 - It can be frustrating to work with data that is not properly structured and low in quality and confidence as a result.
 - It can be difficult to know exactly how to approach analysis, when my colleagues are not clear about the questions they have and why they want to explore certain aspects of the data.
-- It’s hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
-- It’s difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren’t completely defined.
-
+- It's hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
+- It's difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren't completely defined.

@@ -1,21 +1,13 @@
 ---
-
 title: Transitioning from Individual Contributor to a Manager
 description: Information and resources for those who want to pursue the management track
 ---
-
-
-
-
-
-
 
 ## Transitioning from IC to a Manager Training Video
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/Zeull-tdy6o" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
 
 ## Is Management right for me?
 
@@ -123,7 +115,6 @@ While resources are valuable in their own right, having an experienced Manager a
 1. Aspiring Managers should locate a Manager that has an opening available in [manager_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/manager_mentorship.yml) and contact them directly.
 1. Manager and Aspiring Managers should check in at least every 6 weeks. This could happen async or via [Coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats).
 1. Discussion topics would be completely flexible based on needs and interests.
-
 
 ### Benefits
 

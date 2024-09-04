@@ -3,65 +3,52 @@ title: "GitLab Singapore Pte Ltd"
 description: "Discover GitLab's benefits for team members in Singapore"
 ---
 
+The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/drive/folders/1xoXT7VPy6LvHjBp-T6CnY57EE1Y05TYr) on 31-07-2024 with WTW to go over the benefit plans below. 
+
 ## Medical
 
-GitLab offers Supplementary Medical Insurance through [SingLife with AVIVA](https://singlife.com/en) Health Insurance which covers 100% of team member and eligible dependents (spouse & kids) contributions of premiums.
+Effective 2024-08-01 GitLab Singapore Team Members will be enrolled in Medical Insurance Benefits via HSBC Insurance. 
 
-The Medical Plan Coverage includes
+Coverage will inlcude: 
 
-- Group Hosptial & Surgical
-- Major Medical
-- Oupatient GP & SP
-- Dental
-   - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
+- Group Hospital and Surgical
+- Group Major Medical 
+- Group Maternity
+- Group Outpatient General Practitioner
+- Group Outpatient Specialist
+- Group Dental
 
-For a summary of the Medical plan details please refer to slides 8 - 26 of the [Singapore Benefits Deck.](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
+Please see an overview of coverage on the [GitLab Singapore Benefit Deck](https://drive.google.com/file/d/1EhdoC9Dgkf_5919-WZeuBJtdWeNz8hWp/view?usp=sharing) on Slide 15 - 38
+See Slide 51 for details on Claims procedures.
 
-Please also view the [Singapore Benefits Aug 2022 Webinar](https://drive.google.com/file/d/1YPBgHMjZxjq82mYdMfsHYRmIvwcnZPU7/view?usp=sharing) for addtional information
+Please see the list of [IHP Panel Clinics](https://drive.google.com/file/d/1FO3ZpkrHGuaqooMNDUrCI62i2JQOW6vE/view?usp=sharing)
 
-### MySingLife Portal and SingLife App
+### Team Members undergoing Specialist visits
 
-Login to the MySingLife portal or the SingLife App to:
+1. Confirm if your provider is under the [IHP Panel Clinics](https://drive.google.com/file/d/1FO3ZpkrHGuaqooMNDUrCI62i2JQOW6vE/view?usp=sharing)
+2. If your specialist is under the IHP Panel:, contact IHP at  +64 6715 9422,  before your appointment. IHP will inform the clinic in advance of your visit for a smooth cashless arrangement. 
+3. If your specialist is not under the IHP Panel:, please obtain a specialist memo indicating the purpose of the visit and medical diagnosis. Submit the memo along with your claim on the IHP portal.
+
+### IHP Portal Access 
+
+Login to the IHP Portal to
+
 - Submit your claims and view your claims history
-- Find a clinic near you
-- Access your policy details and benefit entitllments on the go
-- Update your personal details
-- Explore useful articles on topics on health and more
+- Teleconsultation
+- Find a panel provider location
+- Request of Letter of Gaurantee
+- View Entitlement Table
+- Connect to the Hotline
+- I-Health Palace - Market Place
+- Online Resources. 
 
 **How to register**
 
-Step 1 : Go to https://mysinglife.singlife.com/account/login to register and setup for MySinglife Portal account. This step can be skipped for existing MySinglife Portal user.
-
-Step 2 : Download the Singlife App from Google Play or Apple App Store, and login using MySinglife Portal’s email address and password.
-
-You are now able to access the claim features in the portal and the mobile app. You can only register your account via the portal, not the app.
-
-See these guides for information on navigating the [MySingLife Portal](https://drive.google.com/file/d/19xQUauxOwcsu89jx8xgtqeCbYuJ0gefD/view?usp=sharing) and the [SingLife App](https://drive.google.com/file/d/1EqnOm90tVDP7cKElDqfB5GOXO1MYBJ8d/view?usp=sharing)
-
-Effective March 31, 2024, the current Claims system, ClaimsConnect will no longer be available. Please find an [FAQ](https://drive.google.com/file/d/1VG7FKEwIS6FtLZVGHAdDNeboh68y0rNB/view?usp=sharing) on the details surrounding the transition from ClaimsConnect to the MySingLife Portal.
-
-**ClaimsConnect Instructions - no longer valid after March 31, 2024**
-
-Team Members can submit claims through the SingLife ClaimsConnect app. [See instructions](https://drive.google.com/file/d/1hMnxb1yurTpP9dNbpXvC2tyvfEnFny6F/view?usp=sharing) on how to use the app and submit claims. For more details, please refer to slides 34-37 of the [Singapore Benefits Deck](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
-
-
-
-For assistance with the ClaimsConnect App, AvivaOnline IT Helpdesk Contact Information:
-
-- Hotline: `1800 827 9955  or 6827 9955`
-- Fax: `(65) 6827 7700`
-- Email: `avivaonline_ithelpdesk@aviva-asia.com`
-- Address: `Aviva Asia Pte Ltd, 4 Shenton Way #01-01 SGX Centre 2, Singapore 068807`
-
-For Claims assistance, please contact [Willis Tower Watson](#willis-tower-watson-claims-assistance)
+See the [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on enrolling in to the portal and mobile guide.
 
 ### Letter of Guarantee (LOG)
 
-Effective 1 Aug 2022, a Letter of Guarantee (LOG) will be available for team members.
-
-The LOG will be on a pre-certified process via 24/7 SingLife PriorityCare Hotline at 1800 8800 880. Members can reach out for pre scheduled and emergency admission/surgery in Singapore.
-
-For pre-scheduled admission/surgery, please do request for LOG at least 3-5 days ahead of the admission date/surgery. Please see the [LOG FAQ](https://drive.google.com/file/d/1UEmuWptjUoyw2Nl5EIkEZcfpIBOPJaUx/view) and slides 38-39 of the [Singapore Benefits Deck](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing) for more information.
+Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on requesting a Letter of Gaurantee. 
 
 ### Willis Tower Watson Claims Assistance
 
@@ -69,13 +56,11 @@ For pre-scheduled admission/surgery, please do request for LOG at least 3-5 days
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 
-For escalations, please reach out to our dedicated account manager,  Heng Yeo  `heng.yeo@wtwco.com`.
-
 ### Enrollment
 
 New Team Members will be prompted to fill out a Singapore Benefits Onboarding Form during onboarding.
 Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Tower Watson, to enroll team members into the group plans.
-Team Members will receive underwriting forms from Aviva within the first month from their hire date.
+Team Members will receive underwriting forms from WTW within the first month from their hire date.
 
 Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at total-rewards@gitlab.com
 
@@ -91,11 +76,11 @@ When adding a new dependent to the plan, please include the following informatio
 
 Effective November 20, 2023, GitLab offers all Singapore Team Members an annual Health Screening through Fullerton Health.
 
-Team Members can book an Executive Health Screening at one of Fullerton Health’s locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab.  The benefit renews in the Calendar Year.
+Team Members can book an Executive Health Screening at one of Fullerton Health's locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab.  The benefit renews in the Calendar Year.
 
 Team Members can add Optional Tests and Screenings at their own cost. For additional details on the locations, what is included in the screenings, as well as information on how to book your appointment, please see the [Fullerton Health Guide](https://drive.google.com/file/d/1O7lgEE-lbo2I1lkekc39TDKBDpAV9FXG/view?usp=sharing).
 
-You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on “Sign Up”, fill out your information, and search for “GITLAB SINGAPORE PTE LTD” under the Company drop down.
+You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on "Sign Up", fill out your information, and search for "GITLAB SINGAPORE PTE LTD" under the Company drop down.
 
 Note: Since GitLab pays for the benefit directly, this benefit is not considered CPF payable
 
@@ -113,19 +98,17 @@ GitLab does not plan to offer a supplementary private pension benefit at this ti
 
 ## Life Insurance
 
-GitLab offers company paid Group Term Life through SingLife with AVIVA. Coverage is sum insured $500,000 SGD per member.
+GitLab offers company paid Group Term Life through HSBC Insurance. Coverage is sum insured $500,000 SGD per member. 
 
-**Underwriting**:  Members are automatically coverd up to the Free Cover Limit of $150,000 SGD. In order to recieve the full coverage of $500,000 SGD, team members must complete medical underwriting requirements. Underwriting forms will be sent directly to the team member from Aviva during enrollment.
+**Underwriting**:  Members are automatically coverd up to the Free Cover Limit of $150,000 SGD. In order to recieve the full coverage of $500,000 SGD, team members must complete medical underwriting requirements. 
 
-For more details on the coverage of the Life Insurance plan, please refer to slides 27-29 of the [Singapore Benefits Deck](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
-Please also view the [Singapore Benefits Aug 2022 Webinar](https://drive.google.com/file/d/1YPBgHMjZxjq82mYdMfsHYRmIvwcnZPU7/view?usp=sharing) for addtional information
+For more details on the coverage of the Life Insurance plan, please refer to slides 39-44 of the [GitLab Singapore Benefit Deck](https://drive.google.com/file/d/1EhdoC9Dgkf_5919-WZeuBJtdWeNz8hWp/view?usp=sharing)
 
 ## Group Personal Accident Insurance
 
 As of 1 Aug 2022, the Group Personal Accident plans will be covered by [Zurich](https://www.zurich.com/). Coverage is sum insured $500,000 SGD per member. Under the Zurich Personal Accident coverage, team members will also recieve extended benefits including ambulance cost coverage, emergency travel expenses, trauma counseling, and more.
 
-For more information on the Group Personal Accident insurance plan, please refer to slides 30-33, of the [Singapore Benefits Deck](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing) and the [Group Personal Accident Insurance Policy](https://drive.google.com/file/d/1LHYCWa0Q_8_giWC7-B-_H1okVNbo-qA8/view?usp=sharing).
-Please also view the [Singapore Benefits Aug 2022 Webinar](https://drive.google.com/file/d/1YPBgHMjZxjq82mYdMfsHYRmIvwcnZPU7/view?usp=sharing) for addtional information
+For more information on the Group Personal Accident insurance plan, please refer to slides 46-49, of the [GitLab Singapore Benefit Deck](https://drive.google.com/file/d/1EhdoC9Dgkf_5919-WZeuBJtdWeNz8hWp/view?usp=sharing) and the [Group Personal Accident Insurance Policy](https://drive.google.com/file/d/1LHYCWa0Q_8_giWC7-B-_H1okVNbo-qA8/view?usp=sharing).
 
 ## GitLab Singapore Pte Ltd Parental Leave
 

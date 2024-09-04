@@ -1,6 +1,6 @@
 ---
 title: "GitLab Professional Education Services"
-description: “Technical Learning and Certification from GitLab Professional Services”
+description: "Technical Learning and Certification from GitLab Professional Services"
 ---
 
 ## Professional Education Services Overview
@@ -15,21 +15,19 @@ The primary mission is to plan and implement effective and scalable educational 
 
 The Professional Education Services [job task analysis](https://docs.google.com/spreadsheets/d/114yAXzzUi3bKoOcN6zG4tOZ5I_-SmPU9luO8Ylp5XRI/edit?usp=sharing) is a blueprint that guides and defines courses and certifications through learning objectives aligned with the relevant industry job roles and jobs to be done.
 
-
 ## Current Offerings
 
 The GitLab Professional Education Services team currently provides the following offerings:
+
 - [Live Instructor-led training (ILT)](https://about.gitlab.com/services/education/)
 - [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/) as Professional Service offerings.
 - [Train-the-Trainer](https://about.gitlab.com/services/education/train-the-trainer/)
-
 
 ### Immediate Priorities
 
 - Standardize ILT deliveries to enable training delivery at scale
 - Offer self-paced certification preparation and assessment at scale on a per-learner basis
 - Establish a certified learning partner program to enable scalable delivery of content worldwide
-
 
 ### Long Term Goals
 
@@ -43,7 +41,7 @@ The GitLab Professional Education Services team currently provides the following
 - EdCast LXP/Marketplace User Instructions
 - [Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
 
-### GitLab Training Service Partner Requirements  
+### GitLab Training Service Partner Requirements
 
 <table>
   <tr>
@@ -77,6 +75,7 @@ Note that participation in this program is limited and requires GitLab program t
       <h3>Service Offerings</h3>
       </td>
       <td>
+
 TSP can provide [GitLab Education Services](https://about.gitlab.com/services/education) by purchasing GitLab student kits and then delivering instructor-led training courses in GitLab LevelUp.
       </td>
   </tr>
@@ -85,16 +84,17 @@ TSP can provide [GitLab Education Services](https://about.gitlab.com/services/ed
      <h3>Compliance Requirements</h3>
      </td>
      <td>
-     Each TSP must:
+Each TSP must:
 
-     - Hire and continually employ team members who achieve and maintain the competency requirements
-     - Ensure that GitLab licensed courses can only be delivered by a GitLab Certified Trainer who is certified for that specific course
-     - Maintain Customer Satisfaction (CSAT) score for training deliveries of at least 80%
+- Hire and continually employ team members who achieve and maintain the competency requirements
+- Ensure that GitLab licensed courses can only be delivered by a GitLab Certified Trainer who is certified for that specific course
+- Maintain Customer Satisfaction (CSAT) score for training deliveries of at least 80%
+
 1. CSAT = (Number of satisfied customers - 4s and 5s) ÷ (Number of survey responses) x 100
 1. Customer Satisfaction Surveys must be supplied prior to 30 days after the course delivery completion date
    - Submit service attach registration for each GitLab licensed training engagement within 30 days of the delivery completion date
      </td>
+
   </tr>
 
 </table>
-

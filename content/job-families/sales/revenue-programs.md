@@ -7,7 +7,7 @@ The Revenue Programs job family is responsible for developing and executing effe
 
 ## Responsibilities
 
-- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work cross-functionally (with Portfolio Marketing, Demand Gen, Revenue Marketing, Field Enablement, Sales Strategy, and more) to orchestrate the development, execution, and operationalization of scalable and measurable quarterly sales programs that deliver results
 - Own quarterly pipeline planning to ensure there is structure, scalability and transparency with clear in-quarter execution outputs
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps
@@ -18,7 +18,7 @@ The Revenue Programs job family is responsible for developing and executing effe
 
 - Experience managing or designing sales or pipeline/revenue acceleration programs, integrated marketing campaigns, and/or go-to-market strategies
 - Proven ability to design and operationalize prescriptive sales programs and strategies
-- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team’s ability to meet project objectives
+- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team's ability to meet project objectives
 - Exceptional communication and presentation skills
 - Proven track record of cross-stakeholder program management and execution with operational rigor
 - Skills to build, maintain, update and optimize critical dashboards in Salesforce.com and business intelligence (BI) tools for the purpose of tracking the impact of sales programs
@@ -41,7 +41,7 @@ The Revenue Programs Specialist (Intermediate) role is a [grade 6](/handbook/tot
 #### Revenue Programs Specialist (Intermediate) Responsibilities
 
 - Manage and execute region-, segment-, or industry-specific sales programs
-- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 
 #### Revenue Programs Specialist (Intermediate) Requirements
 
@@ -62,9 +62,9 @@ The Senior Revenue Programs Specialist role is a [grade 7](/handbook/total-rewar
 #### Senior Revenue Programs Specialist Responsibilities
 
 - Manage and execute region-, segment-, or industry-specific sales programs
-- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Analyze data to identify pipeline gaps
-- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps
 - Collaboratively define success measures and reporting frameworks for implemented programs
 
@@ -91,11 +91,11 @@ The Manager, Revenue Programs role is a [grade 8](/handbook/total-rewards/compen
 #### Manager, Revenue Programs Responsibilities
 
 - Build and/or lead a team of Revenue Program Specialists
-- Serve as a trusted advisor and business partner to Sales leaders to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Serve as a trusted advisor and business partner to Sales leaders to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps
-- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work cross-functionally (with Portfolio Marketing, Demand Gen, Revenue Marketing, Field Enablement, Sales Strategy, and more) to orchestrate the development, execution, and operationalization of scalable and measurable quarterly sales programs that deliver results
-- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Collaboratively define success measures and reporting frameworks for implemented programs
 - Conduct regular program reviews with leaders, providing status updates and risk mitigation strategies
 - Manage sales programs across multiple regions, segments, and/or industries
@@ -111,7 +111,7 @@ The Manager, Revenue Programs role is a [grade 8](/handbook/total-rewards/compen
 - Experience managing or designing sales and/or revenue/pipeline acceleration programs, integrated marketing campaigns, and/or go-to-market strategies
 - Proven ability to design and operationalize prescriptive sales programs and strategies
 - Ability to move fluidly from big picture to details
-- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team’s ability to meet project objectives
+- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team's ability to meet project objectives
 - Bachelor or University Degree, or relevant work experiences
 - Over achievement in a quota-carrying sales role strongly preferred
 
@@ -126,11 +126,11 @@ The Senior Manager, Revenue Programs role is a [grade 9](/handbook/total-rewards
 #### Senior Manager, Revenue Programs Responsibilities
 
 - Build and/or lead a team of Revenue Program Specialists and/or Revenue Program Managers
-- Serve as a trusted advisor and business partner to Sales leaders and collaborate with executives to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Serve as a trusted advisor and business partner to Sales leaders and collaborate with executives to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps
-- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work cross-functionally (with Portfolio Marketing, Demand Gen, Revenue Marketing, Field Enablement, Sales Strategy, and more) to orchestrate the development, execution, and operationalization of scalable and measurable quarterly sales programs that deliver results
-- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Collaboratively define success measures and reporting frameworks for implemented programs
 - Conduct regular program reviews with leaders, providing status updates and risk mitigation strategies
 - Manage sales programs across multiple regions, segments, and/or industries
@@ -147,7 +147,7 @@ The Senior Manager, Revenue Programs role is a [grade 9](/handbook/total-rewards
 - Experience managing or designing sales and/or revenue/pipeline acceleration programs, integrated marketing campaigns, and/or go-to-market strategies
 - Proven ability to design and operationalize prescriptive sales programs and strategies
 - Ability to move fluidly from big picture to details
-- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team’s ability to meet project objectives
+- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team's ability to meet project objectives
 - Strong executive presence
 - Proven track record of cross-stakeholder program management and execution with operational rigor
 - Bachelor or University Degree, or relevant work experiences
@@ -164,11 +164,11 @@ The Director, Revenue Programs role is a [grade 10](/handbook/total-rewards/comp
 #### Director, Revenue Programs Responsibilities
 
 - Build and/or lead a team of Revenue Program Specialists and/or Revenue Program Managers
-- Serve as a trusted advisor and business partner to Sales leaders and collaborate with executives to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Serve as a trusted advisor and business partner to Sales leaders and collaborate with executives to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps
-- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work cross-functionally (with Portfolio Marketing, Demand Gen, Revenue Marketing, Field Enablement, Sales Strategy, and more) to drive GTM alignment and orchestrate the development, execution, and operationalization of scalable and measurable quarterly sales programs that deliver results
-- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab’s go to market (GTM) motions
+- Provide reporting, analytics, and communications support for prioritized sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Collaboratively define success measures and reporting frameworks for implemented programs
 - Conduct regular program reviews with leaders, providing status updates and risk mitigation strategies
 - Manage sales programs across multiple regions, segments, and/or industries
@@ -185,7 +185,7 @@ The Director, Revenue Programs role is a [grade 10](/handbook/total-rewards/comp
 - Experience managing or designing sales and/or revenue/pipeline acceleration programs, integrated marketing campaigns, and/or go-to-market strategies
 - Proven ability to design and operationalize prescriptive sales programs and strategies
 - Ability to move fluidly from big picture to details
-- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team’s ability to meet project objectives
+- Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team's ability to meet project objectives
 - Strong executive presence
 - Proven track record of cross-stakeholder program management and execution with operational rigor
 - Proven ability to influence others including senior leadership
@@ -193,7 +193,7 @@ The Director, Revenue Programs role is a [grade 10](/handbook/total-rewards/comp
 - Bachelor or University Degree, or relevant work experiences
 - Over achievement in a quota-carrying sales role strongly preferred
 
-**********************************
+---
 
 ## Performance Indicators
 

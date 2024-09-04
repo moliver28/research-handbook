@@ -10,8 +10,7 @@ Description: Migration report for moving the handbooks communication section
 Please complete the following tasks:
 
 - [x] Review the MR in handbook for the new content
-  - MR Link: [https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/376](
-https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/376)
+  - MR Link: <https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/376>
 - [x] Fix outstanding markdown lint errors
 - [x] Merge MR for `handbook`
 - [x] Review the MR in `www-gitlab-com` for the removal of the old content

@@ -13,11 +13,11 @@ images:
 This page is about one of the four Guiding Principles of TeamOps: Decision Velocity. To learn more about the other three Principles, return to the main TeamOps page for a [complete overview of TeamOps](https://about.gitlab.com/teamops/), or enroll in the free [TeamOps course](https://levelup.gitlab.com/learn/course/teamops).
 {{% /alert %}}
 
-*Achieving faster, better results depends on decision-making velocity – a team’s ability to increase the quality and quantity of decisions made in a particular stretch of time through behavioral and logistical agreements.*
+*Achieving faster, better results depends on decision-making velocity – a team's ability to increase the quality and quantity of decisions made in a particular stretch of time through behavioral and logistical agreements.*
 
 Decisions are the fuel for high-performance teams, and represent a key success metric in the future of work. The more decisions are made, the more results can come from them. Conventional management philosophies often strive for consensus to avoid risk instead of developing a bias for action, which can result in delays, confusion, or unnecessary conflict.
 
-In TeamOps, success is correlated with the group’s decision velocity, which is evidenced by the average duration of a collaboration process; and quality, value, or accuracy of the changes made from a decision.
+In TeamOps, success is correlated with the group's decision velocity, which is evidenced by the average duration of a collaboration process; and quality, value, or accuracy of the changes made from a decision.
 
 Action tenets of maximizing decision velocity, including real-world examples of each, are below.
 
@@ -37,11 +37,13 @@ To keep their globally-distributed team equipped with instructions for a variety
 
 {{% details summary="Change management support for documented workflows" %}}
 **Quick Start Tips:**
+
 - *Individual:* As you are implementing a documented workflow, update as needed through the process in order to maintain the accuracy of the documentation.
 - *Team:* When starting a new project, discuss and document the anticipated workflow in either the SSoT (if the workflow will be repeated) or in the project management plan.
 - *Company:* Review the SSoT to confirm that the relevant departments have a documented workflow for every item in the cadence calendar.
 
 **Recommended TeamOps Partners:**
+
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
 - [Code Traveller HR](https://codetravellerhr.com) (consultant)
 {{% /details %}}
@@ -64,9 +66,10 @@ Giving agency begins in the most typical of places. Video calls are a natural pa
 
 {{% details summary="Change management support for give agency" %}}
 **Quick Start Tips:**
+
 - *Individual:* Ask your team members what their preferred task management systems, work environments, and typical working hours are. Set an example by publicly publishing your own. Celebrate the diversity of each.
-- *Team:* Replace your instinct to supervise with a mindset of support. Instead of asking, “Is this task going to be done by the due date?”, offer “Is there anything you need to ensure the task will be complete by the due date?”
-- *Company:* Update your company’s onboarding and continuing education programs to include training about what expectations are for operating as a manager of one.
+- *Team:* Replace your instinct to supervise with a mindset of support. Instead of asking, "Is this task going to be done by the due date?", offer "Is there anything you need to ensure the task will be complete by the due date?"
+- *Company:* Update your company's onboarding and continuing education programs to include training about what expectations are for operating as a manager of one.
 
 **Recommended TeamOps Partner:** [Workplaceless](https://www.workplaceless.com/) (training and consulting)
 {{% /details %}}
@@ -91,9 +94,10 @@ A Senior Developer Advocate at GitLab recognized that many coaching and mentorin
 
 {{% details summary="Change management support for push decisions to the lowest possible level" %}}
 **Quick Start Tips:**
+
 - *Individual:* If/when you see a task or decision that could be completed by a more junior team member, flag it and offer to facilitate the transition.
 - *Team:* When designing a project management plan, determine which decisions will be made by which team members. For decisions from anyone other than the DRI, document why the approval authority was moved to that level.
-- *Company:* Update your company’s management training program to include training to prioritize delegation and employee empowerment.
+- *Company:* Update your company's management training program to include training to prioritize delegation and employee empowerment.
 
 **Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
 {{% /details %}}
@@ -107,16 +111,17 @@ When facing decisions that may involve imperfect information or failures, having
 {{% details summary="Examples and resources for bias for action" %}}
 **Example:** [Setting Internal Communication Guidelines for Standardized Tool Use](/handbook/communication/)
 
-To minimize miscommunications that can stem from cultural diversity, contextual interpretations, or various levels of software experience, GitLab maintains a handbook page about [internal communication guidelines](/handbook/communication/). These rules, instructions, and demonstrations ensure that our internationally distributed workforce is using the same tools in the same way, and handing off results to one another without the risk of important information getting “lost in translation.”
+To minimize miscommunications that can stem from cultural diversity, contextual interpretations, or various levels of software experience, GitLab maintains a handbook page about [internal communication guidelines](/handbook/communication/). These rules, instructions, and demonstrations ensure that our internationally distributed workforce is using the same tools in the same way, and handing off results to one another without the risk of important information getting "lost in translation."
 
 **Resource:** [What is a bias for action, and how do you build it?](https://www.fingerprintforsuccess.com/blog/bias-for-action) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for bias for action" %}}
 **Quick Start Tips:**
-- *Individual:* Every time you’re about to ask for approval to do something, stop to consider, “Do I already have approval to do this as the DRI?” or “Is there any part of this task that I can get started on without approval?”
+
+- *Individual:* Every time you're about to ask for approval to do something, stop to consider, "Do I already have approval to do this as the DRI?" or "Is there any part of this task that I can get started on without approval?"
 - *Team:* Publicly recognize and celebrate when a team member demonstrates a strong bias for action for positive reinforcement.
-- *Company:* Update your company’s onboarding and continuing education programs to include training about proactivity and self-efficacy.
+- *Company:* Update your company's onboarding and continuing education programs to include training about proactivity and self-efficacy.
 
 **Recommended TeamOps Partner:** [Workplaceless](https://www.workplaceless.com/) (training and consulting)
 {{% /details %}}
@@ -152,9 +157,10 @@ GitLab's Recruitment Privacy Policy was updated. Rather than updating the policy
 
 {{% details summary="Change management support for low-context communication" %}}
 **Quick Start Tips:**
-- *Individual:* Before sending an asynchronous message to a team member that is any kind of request, proofread it at least once before sending while pretending that you have started working in this team today and know nothing about the project. Confirm that the “why” and the “ask” of the message are explicit and easy to find.
-- *Team:* Add “good” and “bad” examples of asynchronous messages to the collaboration guidelines section of your SSoT.
-- *Company:* Update your company’s onboarding and continuing education programs to include training about low-context communication.
+
+- *Individual:* Before sending an asynchronous message to a team member that is any kind of request, proofread it at least once before sending while pretending that you have started working in this team today and know nothing about the project. Confirm that the "why" and the "ask" of the message are explicit and easy to find.
+- *Team:* Add "good" and "bad" examples of asynchronous messages to the collaboration guidelines section of your SSoT.
+- *Company:* Update your company's onboarding and continuing education programs to include training about low-context communication.
 
 **Recommended TeamOps Partner:** [Workplaceless](https://www.workplaceless.com/) (training and consulting)
 {{% /details %}}
@@ -163,7 +169,7 @@ GitLab's Recruitment Privacy Policy was updated. Rather than updating the policy
 
 The importance of transparency in TeamOps is critical – the opportunities for learning that used to be available through observation in a physical workplace now have to be replaced with information-based observation, or documented updates. In this environment, your colleagues and supervisors don't have the same visibility into your daily activities as they would in a traditional office setting. Therefore, actively demonstrating your transparency and productivity becomes even more important.
 
-Your team’s ability to be transparent in your virtual-first ways of working is crucial for building trust, improving collaboration, and showcasing your productivity and value to each other and the rest of your organization. Easy ways to provide better operational transparency are:
+Your team's ability to be transparent in your virtual-first ways of working is crucial for building trust, improving collaboration, and showcasing your productivity and value to each other and the rest of your organization. Easy ways to provide better operational transparency are:
 
 - Set [clear goals](/teamops/measurement-clarity/#definition-of-done) and communicate them
 - Update the project management system and [SSoT](/teamops/shared-reality/#single-source-of-truth-ssot) often with your progress and status
@@ -176,20 +182,22 @@ Your team’s ability to be transparent in your virtual-first ways of working is
 By being transparent in your virtual work, your team can easily prove productivity and fulfillment of both individual and collective [KPIs](/teamops/measurement-clarity/#transparent-measurements), which over time ensures accountability, improves the perception of performance, and builds trust.
 
 {{% details summary="Examples and resources for operational transparency" %}}
-**Example:** [GitLab’s “While You Were Iterating” Newsletter](/handbook/people-group/employment-branding/people-communications/#people-communications--engagement-channels)
+**Example:** [GitLab's "While You Were Iterating" Newsletter](/handbook/people-group/employment-branding/people-communications/#people-communications--engagement-channels)
 
- Digital notifications from various tools can be noisy, distracting, and overwhelming. To help GitLab team members feel comfortable incorporating deep focus time into their schedule with full confidence that they won’t miss any important announcements, the internal communications team writes and distributes (via email) a twice-monthly newsletter that includes all important announcements, invitations, amd reminders.
+ Digital notifications from various tools can be noisy, distracting, and overwhelming. To help GitLab team members feel comfortable incorporating deep focus time into their schedule with full confidence that they won't miss any important announcements, the internal communications team writes and distributes (via email) a twice-monthly newsletter that includes all important announcements, invitations, amd reminders.
 
 **Resource:** [Operational Transparency by HBR](https://hbr.org/2019/03/operational-transparency) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for operational transparency" %}}
 **Quick Start Tips:**
-- *Individual:* In a 1:1 with your manager, ask them, “What is a time that you were most impressed with my productivity?” Then, consider how you can recreate that performance visibility.
+
+- *Individual:* In a 1:1 with your manager, ask them, "What is a time that you were most impressed with my productivity?" Then, consider how you can recreate that performance visibility.
 - *Team:* Design a cadence and channel for operational transparency between your team, such as asynchronously a weekly recap.
-- *Company:* Design and document suggestions for increasing operational transparency. Include a protocols for how to report and resolve when a team member doesn’t feel adequately valued at work.
+- *Company:* Design and document suggestions for increasing operational transparency. Include a protocols for how to report and resolve when a team member doesn't feel adequately valued at work.
 
 **Recommended TeamOps Partners:**
+
 - [Lance Robbins](http://lancehrobbins.com/) (consultant)
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
 {{% /details %}}

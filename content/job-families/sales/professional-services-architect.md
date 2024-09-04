@@ -28,7 +28,7 @@ You will play a critical role in the success of Professional Services engagement
 - Responsible for the detailed design of GitLab-related projects from inception through production support
 - Ensure that the deliverable accurately meets the defined expectations of the customer, ensuring that proper testing is implemented and performance requirements are closely monitored by working with the customer
 - Coordinate and oversee functional implementation activities for internal and partner consultants, developers, and customer points of contact (POC) on large scale enterprise projects
-- Mentor PS and partner consultants providing guidance regarding ‘Best Practices,’ communication, and implementation strategies
+- Mentor PS and partner consultants providing guidance regarding 'Best Practices,' communication, and implementation strategies
 - Provide mentorship and collaterol in the form of documentation, delivery kits, and training materials
 - Liaise with and support of other functional groups within GitLab – including (but not limited to) training, development, support, product, engineering
 - Review and provide input to PS training materials and presentations
@@ -60,7 +60,7 @@ You will play a critical role in the success of Professional Services engagement
 #### Responsibilities
 
 - All of the responsibilities of a Technical Architect plus the following:
-- Mentor PS and Partner Consultants providing guidance regarding “Best Practice” communication, and implementation strategies
+- Mentor PS and Partner Consultants providing guidance regarding "Best Practice" communication, and implementation strategies
 - Hold enablement sessions for PS or other team members to learn how to use or how to sell particular service offerings
 - Assists Regional Delivery Managers with
   - Technical Vetting of Partner Consultants

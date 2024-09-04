@@ -8,7 +8,7 @@ The VP, IT is a [grade 12](/handbook/total-rewards/compensation/compensation-cal
 
 ## Responsibilities
 
-1. Build, hire, develop and manage a strong information technology team that lives GitLab’s values.
+1. Build, hire, develop and manage a strong information technology team that lives GitLab's values.
 1. Deliver business results in the areas of IT Operations, IT Security and compliance, Enterprise business systems, business process, and system integration
 1. Lead IT strategic and operational planning to achieve business goals including managing a roadmap that will support rapid growth.
 1. Prioritize and coordinate project teams for IT initiatives company wide collaborating with a diverse set of stakeholders across Product, Engineering, Sales, Marketing, Security, People Ops, Finance and Legal.
@@ -30,7 +30,7 @@ The VP, IT is a [grade 12](/handbook/total-rewards/compensation/compensation-cal
 1. Have or had extensive experience with IT helpdesk function including hardware deployment and system access ideally in a globally distributed company.
 1. Demonstrated ability to set direction for an IT function, influence strategy with company wide impact, and lead through change
 1. Outstanding communication and interpersonal abilities and history of success working with executives across an organization.
-1. Ability to combine industry leading solutions with internal tools to create solutions that meet GitLab’s unique needs
+1. Ability to combine industry leading solutions with internal tools to create solutions that meet GitLab's unique needs
 1. Demonstrated success building, developing, and leading global, remote teams
 
 ## Performance Indicators

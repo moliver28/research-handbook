@@ -1,18 +1,12 @@
 ---
-
 title: "Digital Production Equipment List: Video Lights"
-description: A guide for use of Video lights. 
+description: A guide for use of Video lights.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-
-
-
-
-
-# Elgato Lights
+## Elgato Lights
 
 Elgato lights are packad with easy to follow directions in cardboard.
 
@@ -26,7 +20,6 @@ Elgato lights are packad with easy to follow directions in cardboard.
 1. Power on your light and look for it to appear in your Wifi Options.
 1. Connect to the light and use the Control Centre to input
 
-
 After setup, Elgato brand lights are controlled entirely via your computer or phone using the Elgato Control Center Software.
 
 *Please note: On MacBooks, the Elgato Control Software appears only at the top right corner of the screen. This will occasionally make it appear as if attempting to open the via the applications menu did nothing. Click on the icon in the upper right corner to open the controls for the light.*
@@ -35,7 +28,7 @@ After setup, Elgato brand lights are controlled entirely via your computer or ph
 
 Elgato has a guide to their desk lights [available here](https://help.elgato.com/hc/en-us/articles/360028244011-Key-Light-Quick-Start-Guide).
 
-# GVM Lights
+## GVM Lights
 
 ## Operation
 

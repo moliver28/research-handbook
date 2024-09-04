@@ -39,7 +39,7 @@
   - Free or Paid users to refer to types of users.
   - Enterprise Edition to refer to the specific distribution.
   reason: |
-    [Community Edition and Enterprise Edition are only distributions, and not a license of our code, nor a pricing tier](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/#how-we-used-the-terms-ce-and-ee).
+    [Community Edition and Enterprise Edition are only distributions, and not a license of our code, nor a pricing tier](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/#how-we-used-the-terms-ce-and-ee).
   exclude_from_exports: false
 
 - avoid:
@@ -50,7 +50,7 @@
   - Free or Paid users to refer to types of users.
   - Community Edition to refer to the specific distribution.
   reason: |
-    [Community Edition and Enterprise Edition are only distributions, and not a license of our code, nor a pricing tier](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/#how-we-used-the-terms-ce-and-ee).
+    [Community Edition and Enterprise Edition are only distributions, and not a license of our code, nor a pricing tier](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/#how-we-used-the-terms-ce-and-ee).
   exclude_from_exports: false
 
 - avoid:
@@ -72,7 +72,7 @@
   - Employees
   use_instead:
   - Team members
-  reason: We have team members who are [contractors](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#contract-factor)
+  reason: We have team members who are [contractors](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#contract-factor)
   exclude_from_exports: false
 
 - avoid:
@@ -136,7 +136,7 @@
   use_instead:
   - Delete
   - Remove
-  reason: We usually mean we're removing a document or feature whereas deprecation is leaving the thing intact while discouraging its use. Unlike other terms on this list, there *are* times where "deprecate" is the right word, for example in the formal [product process](https://about.gitlab.com/handbook/product/gitlab-the-product/#deprecating-and-removing-features).
+  reason: We usually mean we're removing a document or feature whereas deprecation is leaving the thing intact while discouraging its use. Unlike other terms on this list, there *are* times where "deprecate" is the right word, for example in the formal [product process](https://handbook.gitlab.com/handbook/product/gitlab-the-product/#deprecating-and-removing-features).
   exclude_from_exports: false
 
 - avoid:
@@ -184,12 +184,12 @@
   - Telemetry
   use_instead:
   - Seat link is the number of seats on a license
-  - "[Version check](https://about.gitlab.com/handbook/sales/process/version-check/) is what version of GitLab a subscription is using"
+  - "[Version check](https://handbook.gitlab.com/handbook/sales/process/version-check/) is what version of GitLab a subscription is using"
   - "[Usage ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#usage-ping) is high-level data of how GitLab is being used in a license"
-  - "[Snowplow](https://about.gitlab.com/handbook/business-technology/data-team/platform/snowplow/) is a dynamic site for web event analytics"
+  - "[Snowplow](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/snowplow/) is a dynamic site for web event analytics"
   - "[Google Analytics](/handbook/tools-and-tips/#google-analytics) is a static site for receiving data from `about.gitlab.com` and `docs.gitlab.com`"
   - "Database events is using the database records of GitLab.com to look at how people are using the application."
-  - "Product Usage Data is [data collected](https://about.gitlab.com/handbook/product/analytics-instrumentation-guide/#collection-framework) on the customer's account to be used within GTM tools such as Salesforce, Marketo, or Gainsight to improve retention and expansion"
+  - "Product Usage Data is [data collected](https://handbook.gitlab.com/handbook/product/analytics-instrumentation-guide/#collection-framework) on the customer's account to be used within GTM tools such as Salesforce, Marketo, or Gainsight to improve retention and expansion"
   reason: Avoid this word since it has the connotation of third-party analytics. It also is too broad so use something more specific.
   exclude_from_exports: false
 
@@ -267,6 +267,7 @@
   use_instead:
   - Go-between
   - intermediary
+  - middleperson
   reason: It is gender-specific and therefore exclusionary.
   exclude_from_exports: false
 
@@ -296,7 +297,7 @@
 - avoid:
   - Functional group leader
   use_instead:
-  - "[E-group](https://about.gitlab.com/handbook/leadership/#e-group) leader"
+  - "[E-group](https://handbook.gitlab.com/handbook/leadership/#e-group) leader"
   reason: |
     The term "functional group leader" is a past term that has now been updated. See [Org Structure](https://about.gitlab.com/company/team/structure/#organizational-structure).
   exclude_from_exports: false
@@ -335,7 +336,7 @@
   use_instead:
   - Refer to a Google doc agenda listing the customer name
   - Use a codename
-  reason: We want to train ourselves to not mention customer names to allow us to be as [transparent](/handbook/values/#transparency) as possible.  Whenever possible, we want to publicly stream our meetings to YouTube and to do that we need to be in the habit of not mentioning customer names. So we should avoid mentioning them even in [privately streamed meetings](https://about.gitlab.com/handbook/marketing/marketing-operations/youtube/#visibility).
+  reason: We want to train ourselves to not mention customer names to allow us to be as [transparent](/handbook/values/#transparency) as possible.  Whenever possible, we want to publicly stream our meetings to YouTube and to do that we need to be in the habit of not mentioning customer names. So we should avoid mentioning them even in [privately streamed meetings](https://handbook.gitlab.com/handbook/marketing/marketing-operations/youtube/#visibility).
   exclude_from_exports: true
 
 - avoid:
@@ -479,7 +480,7 @@
   - PII
   use_instead:
   - Personal Data
-  reason: PII is not the term used in most privacy laws and by definition PII is more narrow that what is legislated under global privacy laws. Personal Data is described in [in the Privacy Handbook](https://about.gitlab.com/handbook/legal/privacy/#privacy-terms) and [the GitLab Data Classification Levels](https://about.gitlab.com/handbook/security/data-classification-standard.html).
+  reason: PII is not the term used in most privacy laws and by definition PII is more narrow that what is legislated under global privacy laws. Personal Data is described in [in the Privacy Handbook](https://handbook.gitlab.com/handbook/legal/privacy/#privacy-terms) and [the GitLab Data Classification Levels](https://handbook.gitlab.com/handbook/security/data-classification-standard.html).
   exclude_from_exports: false
 
 - avoid:
@@ -489,4 +490,11 @@
   - GitLab.com or .com
   - GitLab Dedicated or Dedicated
   reason: Both GitLab.com and GitLab Dedicated are delivered as SaaS applications, which as a group we refer to SaaS.
+  exclude_from_exports: false
+
+- avoid:
+  - Consumption Pricing
+  use_instead:
+  - The more specific consumption building block from the [Internal Pricing Handbook](https://internal.gitlab.com/handbook/product/pricing/glossary-of-terms-and-resources/consumption-pricing/#core-consumption-building-blocks)
+  reason: Consumption can be defined in multiple ways, and when discussing a particular pricing strategy or product it's important to be specific.
   exclude_from_exports: false

@@ -12,20 +12,19 @@ The Field Security Team, Legal & Corporate Affairs, Field Ops and Sales have cre
 
 1. Upon receipt of a Request for Proposal (RFP) or Request for Information (RFI), the Sales Team Member should ensure that an Account and Opportunity are created in SFDC;
 1. If the RFP will require more than a quote being created (e.g. insight and assistance from various stakeholders), the Sales Team Member should request and receive ASM (or higher) approval via Chatter in the SFDC Opportunity.
-1. The Sales Team Member will review content in [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries) for any questions related to Security, Corporate, Privacy, Commercial Legal, and ESG. *NOTE:* All Team Members have a base-line entitlement.
+1. The Sales Team Member will review content in GitLab's Trust Center [Knowledgebase](https://trust.gitlab.com) for any questions related to Security, Corporate, Privacy, Commercial Legal, and ESG. *NOTE:* All Team Members have a base-line entitlement.
 1. Sales Team Member should engage [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/#communicating-with-the-deal-desk-team), per standard process, for any question related to pricing and/or quoting.
 1. For questions related to Product, Security, Corporate, Privacy, Commercial Legal, and ESG which were not answered following the steps above, the Sales Team Member can open an Issue [here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=RFP_Intake%20Form): **be sure to select the RFP Intake Issue Template**
 1. When filling out the **RFP Intake Issue Template** please do the following:
     - Select the box for the applicable Content Area(s); and
     - Delete any Content Area elements that are not applicable.
-1. RFP Intake Issues will be assigned to applicable DRIs and AnswerBase will be updated accordingly.
+1. RFP Intake Issues will be assigned to applicable DRIs.
 
 ## What Field Security Can't Do
 
 There are parts of the Request for Proposal or Request for Information process that fall outside of Field Security's scope. *We cannot write the proposals or provide the following: product or service specifications, implementation schedule, and plans; training or support specifications and terms; information surrounding GitLab's ability to provide the appropriate resources; other GitLab customers' experiences; and anything related to costs, values, pricing, payments, etc.*
 
 What *we can do* is respond to requests relating to security and facilitate other SME's responses to areas such as People/HR, Finance, Privacy, Commercial Legal, etc.
-
 
 ## Helpful resources
 

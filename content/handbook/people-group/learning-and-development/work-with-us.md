@@ -26,7 +26,6 @@ We work closely with leaders across GitLab to develop landing pages for learning
 
 To create new learning hub, open an issue in the [lxp-contributions project](https://gitlab.com/gitlab-com/people-group/learning-development/lxp-contributions) using the `learning-hub` issue template.
 
-
 ### Host a Live Learning event
 
 Anyone at GitLab should feel empowered to host a learning session. Why would you want to host a live learning event? Maybe **you** are the expert on something. Or maybe you just want to learn more about a specific topic and share those learnings with more people.

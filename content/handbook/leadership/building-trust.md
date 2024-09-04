@@ -10,17 +10,17 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Trust is the cornerstone of how we operate at GitLab. We trust team members to [do the right thing instead of having rigid rules]({{< ref "values#measure-results-not-hours" >}}). Trust at GitLab [increases results](/handbook/people-group/guidance-on-feedback/), [efficiency]({{< ref "values#efficiency" >}}), and [collaboration]({{< ref "values#collaboration" >}}).
+Trust is the cornerstone of how we operate at GitLab. We trust team members to [do the right thing instead of having rigid rules](/handbook/values/#measure-results-not-hours). Trust at GitLab [increases results](/handbook/people-group/guidance-on-feedback/), [efficiency](/handbook/values/#efficiency), and [collaboration](/handbook/values/#collaboration).
 
-Trust takes time and energy to build. We leverage [informal communication](/handbook/company/culture/all-remote/informal-communication/) to build trust, but there are additional strategies [people leaders]({{< ref "_index.md" >}}) and team members can implement on their teams.
+Trust takes time and energy to build. We leverage [informal communication](/handbook/company/culture/all-remote/informal-communication/) to build trust, but there are additional strategies [people leaders](_index.md) and team members can implement on their teams.
 
-Working remotely can be isolating for team members if managers do not take the [necessary steps](/handbook/company/culture/all-remote/being-a-great-remote-manager/) to build trust and social cohesion amongst their teams. In a remote environment, it can take team members longer to get to know each other compared to a colocated office setting. On this page, we’ve outlined additional strategies people leaders and team members can apply to build trust amongst their teams.
+Working remotely can be isolating for team members if managers do not take the [necessary steps](/handbook/company/culture/all-remote/being-a-great-remote-manager/) to build trust and social cohesion amongst their teams. In a remote environment, it can take team members longer to get to know each other compared to a colocated office setting. On this page, we've outlined additional strategies people leaders and team members can apply to build trust amongst their teams.
 
 ## Ten Dimensions of Trust
 
-Sid Sijbrandij, GitLab's CEO, shared what he has identified as the ten dimensions of trust. He notes that trust allows you to [assume positive intent]({{< ref "values#assume-positive-intent" >}}) in support of our [CREDIT values]({{< ref "values#credit" >}}). It also helps to [prevent political behavior]({{< ref "values#playing-politics-is-counter-to-gitlab-values" >}}) that runs counter to our values.
+Sid Sijbrandij, GitLab's CEO, shared what he has identified as the ten dimensions of trust. He notes that trust allows you to [assume positive intent](/handbook/values/#assume-positive-intent) in support of our [CREDIT values](/handbook/values/#credit). It also helps to [prevent political behavior](/handbook/values/#playing-politics-is-counter-to-gitlab-values) that runs counter to our values.
 
-1. Optimizing [efficiency for the right group]({{< ref "values#efficiency-for-the-right-group" >}})
+1. Optimizing [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group)
     1. We versus I optimization
     1. Organization versus individual
     1. Other teams versus your team
@@ -38,7 +38,7 @@ Sid Sijbrandij, GitLab's CEO, shared what he has identified as the ten dimension
 1. Information
     1. Providing and receiving [feedback](/handbook/people-group/guidance-on-feedback/)
     1. Bad news travels fast
-    1. [Transparency]({{< ref "values#transparency" >}}) (show your intermediate work)
+    1. [Transparency](/handbook/values/#transparency) (show your intermediate work)
     1. Wide access to information, meetings, and meeting notes
 1. Responsiveness
     1. Availability
@@ -51,7 +51,7 @@ Sid Sijbrandij, GitLab's CEO, shared what he has identified as the ten dimension
 1. Build
     1. Praise in a broader group
     1. Giving credit (for an idea)
-    1. Constructively picking arguments ([steel man vs. listening for weak arguments]({{< ref "values#assume-positive-intent" >}}))
+    1. Constructively picking arguments ([steel man vs. listening for weak arguments](/handbook/values/#assume-positive-intent))
     1. Make each other better
     1. Explain the why ([Simon Sinek](https://www.youtube.com/watch?v=zP9jpxitfb4))
     1. Celebrate successes
@@ -115,12 +115,11 @@ To be inclusive of time zones and those who may not prefer these types of social
 
 ### Zoom Background Ice-Breaker
 
-The Zoom feature to upload [any background image](/handbook/tools-and-tips/zoom#virtual-background) of your choice is a fun tool to use for an ice breaker. Managers can ask their team to come to a meeting with a background of their favorite place to vacation, or a place they hope to visit one day, and much more. It’s a great feature that can add some fun to calls and build unity. Spend the first five minutes of a meeting talking about the Zoom background and giving everyone in the meeting a voice.
+The Zoom feature to upload [any background image](/handbook/tools-and-tips/zoom#virtual-background) of your choice is a fun tool to use for an ice breaker. Managers can ask their team to come to a meeting with a background of their favorite place to vacation, or a place they hope to visit one day, and much more. It's a great feature that can add some fun to calls and build unity. Spend the first five minutes of a meeting talking about the Zoom background and giving everyone in the meeting a voice.
 
 One of our Managers said this about the Zoom Background Ice-Breaker:
 
 > One of my favorite things that the team and I have done over the last 3-4 months is to update our Zoom background. We all threw out TV shows and then agreed on our favorite, from there; we picked a scene from that show and showed up to a meeting with our background. Not only was it fun to listen to the shows our team members like, but it was also a conversation piece and a lot of fun!
-
 
 **How to apply Zoom background ice-breakers:** Team members can do this for as many meetings as they like. If it is a team discussion, spend the first five minutes of the meeting doing a round robin of the background. Managers can implement a rotation of DRIs ([directly responsible individuals](/handbook/people-group/directly-responsible-individuals/)) in charge of the ice-breaker by assigning different team members.
 
@@ -139,7 +138,6 @@ Take a [coaching approach]({{< ref "coaching" >}}) and have the team members tal
 **How to build trust in 1-1 meetings:** One way to do this is to ensure team members have plenty of time to talk about the weekend or what fun things are going on in their lives. Managers can spend the first 5-10 minutes of the call, letting it be about "them." Before diving straight into "work topics," especially at the beginning of a new working relationship, pause and ask about family, hobbies, the weekend, etc. Try to remember things team members mention about family, pets, hobbies, or other things going on in their life. If they live in a particular part of the world, managers can spend time getting to know what's happening regionally. Follow up with questions related to a team member's home.
 For some great tips on how to make small talk and build connection through communication listen to [Rachel Greenwald in Episode 89 of Think Fast, Talk Smart](https://www.youtube.com/watch?v=jLFH9Q3VQsc).
 
-
 ### Leverage the Building High Performing Teams Model
 
 The [Building High Performing Teams model](https://internal.gitlab.com/handbook/company/high-performing-teams/) is one of the most widely used and accepted models for team development. A big component of the model is building trust. To reach high performance, teams need to trust each other and share mutual regard where people are supported and respected. There is a willingness to be forthright, open, and free in working with team members. Review the [high performing teams page](https://internal.gitlab.com/handbook/company/high-performing-teams/) for strategies to build trust.
@@ -152,7 +150,7 @@ A [curated list of external resources](/handbook/people-group/learning-and-devel
 
 Managers should be open to [receiving feedback](/handbook/people-group/guidance-on-feedback/) from their team members. Often there is a barrier as employees feel uncomfortable sharing constructive feedback, let alone with their manager. But if managers are open to feedback, they can slowly grow a culture of feedback within their team, thereby increasing trust. Managers can show their openness by asking for feedback, through [1:1 calls]({{< ref "1-1" >}}) with direct reports or our performance management platform.
 
-**How to apply asking for feedback:** It may be difficult to ask for feedback from team members as a manager. However, people leaders should be in the habit of regularly asking for feedback. Every 1-1 can be an opportunity for team members to share feedback on your performance. Managers must establish an environment built on trust with [no ego]({{< ref "values#no-ego" >}}) to enable team members to be forthcoming.
+**How to apply asking for feedback:** It may be difficult to ask for feedback from team members as a manager. However, people leaders should be in the habit of regularly asking for feedback. Every 1-1 can be an opportunity for team members to share feedback on your performance. Managers must establish an environment built on trust with [no ego](/handbook/values/#no-ego) to enable team members to be forthcoming.
 
 ### Overcome Unconscious Bias
 
@@ -198,7 +196,6 @@ Below are potential team day activities:
 #### More Ideas for Activities
 
 - [Among Us](https://innersloth.com/gameAmongUs.php) - Free on mobile, multiple platforms.
-- [Battleship](https://battleship-teams.com/) - Free!
 - [Card & board game "table"](https://playingcards.io/) - Free!
 - [City Guesser](https://virtualvacation.us/guess) - Free!
 - [Drawasaurus](https://www.drawasaurus.org/) - Free!
@@ -211,7 +208,7 @@ Below are potential team day activities:
 
 ## Learning Speaker Series - Building Trust with Remote Teams
 
-On 2020-11-19, the L&D team launched our first [learning speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) on Building Trust with Remote Teams. We hosted [Dr. Jeb Hurley](https://onehabit.blog/building-trust-remote-teams/), CEO and Co-Founder of [Xmetryx](https://www.xmetryx.com/) to discuss how strategies and tips on how to build trust in a remote setting. The discussion was a [fireside chat](https://docs.google.com/document/d/17ziw6q-nioyzYGnnIa9LM1G3I4DwYfb2UxwN9XceFxg/edit) format where Dr. Hurley shared what remote team members can do to meaure trust on their teams.
+On 2020-11-19, the L&D team launched our first [learning speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) on Building Trust with Remote Teams. We hosted [Dr. Jeb Hurley](https://medium.com/@jebhurley/building-trust-on-remote-teams-99b937cbd5d0), CEO and Co-Founder of [Xmetryx](https://www.xmetryx.com/) to discuss how strategies and tips on how to build trust in a remote setting. The discussion was a [fireside chat](https://docs.google.com/document/d/17ziw6q-nioyzYGnnIa9LM1G3I4DwYfb2UxwN9XceFxg/edit) format where Dr. Hurley shared what remote team members can do to meaure trust on their teams.
 
 {{< youtube "hHMDY77upAE" >}}
 

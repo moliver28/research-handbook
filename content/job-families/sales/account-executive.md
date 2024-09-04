@@ -27,7 +27,6 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
 - Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 - Master MEDPICC and Command of the Message on all opportunities
 
-
 ### Requirements
 
 - A true desire to see customers benefit from the investment they make with GitLab
@@ -39,7 +38,31 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
 - Excellent negotiation, presentation and closing skills
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- Ability to travel regularly to meet with customers in person and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel regularly to meet with customers in person and comply with the company's [travel policy](/handbook/travel/)
+
+## Senior Commercial Account Executive - Mid-Market
+
+The Senior Commercial Account Executive - Mid-Market role extends the Commercial Account Executive - Mid-Market role outlined above.
+
+### Job Grade
+
+The Senior Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Extends that of the Commercial Account Executive - Mid-Market responsibilities
+- Provides team level support and influence by mentoring and coaching fellow team members, sharing knowledge and learnings, and taking on additional team level responsibilities to elevate the team in meeting their goals
+- Regularly meets on-site with Customers to further develop executive level relationships 
+
+## Requirements
+
+- Minimum one year of experience as a Commercial Account Executive - Mid-Market
+- Demonstrated consistent ability to sell Ultimate, Duo, Agile Planning, Services
+- Excellence in operational rigor for Deal Management in Salesforce and Clari Forecasting
+- Forecasting accuracy: strong understanding of your territory and how to forecast/manage this using both insight and data, culminating in a reliable forecast inside +/- 10%. 
+- Attainment repeatedly in top 10% of segment
+- Demonstrated ability to close larger, more complex deals - Repeatedly shows a recipe for success (i.e multi threading, negotiation, exec coverage, etc.)
+- Self-starter who is a manager of one when it comes to Territory Account Plan execution along with Quarterly and Annual KPIs set by Leadership
 
 ## Commercial Account Executive - Named
 
@@ -74,8 +97,33 @@ The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/c
 - Excellent negotiation, presentation and closing skills
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
+## Senior Commercial Account Executive - Named
+
+The Senior Commercial Account Executive - Named role extends the Commercial Account Executive - Named role outlined above.
+
+The Senior Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Extends that of the Commercial Account Executive - Named responsibilities
+- Leads and/or contributes to segment-wide efforts to improve our Commercial GTM strategies
+- Owns cross-functional initiatives designed to future-proof GitLab’s success within existing and future Named Accounts
+- Contributes to the broader GitLab community, which may include coaching and mentoring other Named Account Executives on the team
+- Partners with clients to build out a strategy to further adopt feature sets to ensure Accounts see the ROI and value in our tooling, protecting against churn
+- Regularly meets on-site with Customers to further develop executive level relationships 
+
+### Requirements 
+
+- Minimum one year of experience as a Commercial Account Executive - Named
+- Consistent and progressive experience selling large, complex deals through multi-level relationship building from user to C-suite
+- Demonstrated consistent ability to sell Ultimate, Duo, Agile Planning, Dedicated, Services
+- Master of Pipeline generation - Pipegen targets are achieved consistently, with a view on how to repeat and ability to get creative 
+- Excellence in operational rigor for Deal Management in Salesforce and Clari Forecasting
+- Forecasting accuracy: understands their business and how to forecast/manage this using both insight and data culminating in a reliable forecast inside +/- 10%. 
+- Attainment repeatedly in top 10% of segment
+- Self-starter who is a manager of one when it comes to Key Account Plan execution along with Quarterly and Annual KPIs set by Leadership
 
 ## Performance Indicators
 
@@ -84,8 +132,3 @@ As with all roles in the Sales Department the Strategic Account Executive partic
 ## Career Ladder
 
 The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) job family.
-
-
-
-
-

@@ -1,5 +1,4 @@
 ---
-
 title: Engagement Concierge
 ---
 
@@ -31,7 +30,7 @@ There may be situations where the Talent & Engagement team identifies that the t
 
 Due to current capacity constraints, the Talent & Engagement team will triage requests as received, communicate next steps, and share a proposed timeline with you as quickly as possible. Our current capacity allows for 2-3 bespoke engagement projects per quarter, depending on project size and complexity.
 
-To request support from the Engagement Concierge, please open an issue using the [`engagement-concierge` issue template](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new#). When requesting support in the issue template, please tag your relevant People Business Partner (PBP) for visibility. You can find the PBP that supports your division [here](/handbook/people-group#people-business-partner-alignment-to-division).
+To request support from the Engagement Concierge, please open an issue using the [`engagement-concierge` issue template](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new#). When requesting support in the issue template, please tag your relevant People Business Partner (PBP) for visibility. You can find the PBP that supports your division [here](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ## Features
 

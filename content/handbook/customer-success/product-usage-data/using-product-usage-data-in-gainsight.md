@@ -1,17 +1,9 @@
 ---
-
 title: "How to Use Product Usage Reporting"
 description: "Effective ways to apply product usage reporting for Sales and Customer Success teams to support their customers' top initiatives and business objectives."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
 
 ---
 
@@ -76,7 +68,7 @@ There will be several limitations with the MVC deployment. As you come across us
 | **C360: Instance and Namespace Details** | I need to know which GitLab version they're on to help them upgrade or patch their self-managed instance. | <br>&bull; Which version(s) are my customers on?<br>&bull; If multiple instances, how do I know the version for their instance?<br>&bull; What is their namespace? | C360: Instance and Namespace<br><br> Product Usage Data Dashboard (`Self Managed Instances - Current GitLab Version Details` report) |
 | **How many licenses has my customer deployed?** | Understand my customers' License Utilization (see above) to know how many licenses have been deployed  `billable_user_count/licensed seats`. <br> Example: a customer purchased 200 licenses and deployed 80 after 9 months, 80/200 = 40%. | <br>&bull; What trends can I see?<br>&bull; How do I understand my customer's License Utilization? | <br>&bull; [VIDEO: How to Find License Utilization and What it Means in Gainsight](https://youtu.be/Mezt6knBxI0)<br>&bull; C360: User Adoption Metrics<br>&bull; Product Usage Data dashboard<br>&bull; [License Utilization Handbook](/handbook/customer-success/product-usage-data/use-case-adoption/)<br>&bull; [VIDEO: Using Product Usage Data in Gainsight - Introduction](https://www.youtube.com/watch?v=bny-SoH-MNc) |
 | **Understand my customer's GitLab adoption** | Know the metrics per use case: SCM, CI, CD, and DevSecOps to understand their adoption.<br> Use the [Use Case Adoption guide](/handbook/customer-success/product-usage-data/use-case-adoption/) for use case adoption definitions. <br> See the [GitLab Adoption Journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey) for an explanation on the adoption of SCM, CI, CD, and DevSecOps. | <br>&bull; Which use cases has my customer adopted?<br>&bull; What degree have they adopted?<br>&bull; Which features have they adopted?</li><li>Does feature adoption align to customer purchase intent? | C360: Scorecard<br><br>Product Usage Data dashboard |
-| **How do I understand the health score with product usage reporting?** | Use Gainsight for a quick, high level roll-up of the customer's adoption. Identify if the customer is on track per GitLab use case. |<br>&bull; My customer’s Use Case health is red, yellow, or green — how is that calculated?<br>&bull; How is Product Usage Data weighted?<br>&bull; What is "good" health? | [Use Case Adoption methodology](/handbook/customer-success/product-usage-data/use-case-adoption/)<br><br>[Health Score Measure Weightings](/handbook/customer-success/csm/health-score-triage/#enterprise)<br><br>[VIDEO: What is Product Usage Reporting and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8)<br><br>[Usage Trends Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/ced1d18a-62f4-4e22-8efd-a7b1d7abcac2) |
+| **How do I understand the health score with product usage reporting?** | Use Gainsight for a quick, high level roll-up of the customer's adoption. Identify if the customer is on track per GitLab use case. |<br>&bull; My customer's Use Case health is red, yellow, or green — how is that calculated?<br>&bull; How is Product Usage Data weighted?<br>&bull; What is "good" health? | [Use Case Adoption methodology](/handbook/customer-success/product-usage-data/use-case-adoption/)<br><br>[Health Score Measure Weightings](/handbook/customer-success/csm/health-score-triage/#enterprise)<br><br>[VIDEO: What is Product Usage Reporting and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8)<br><br>[Usage Trends Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/ced1d18a-62f4-4e22-8efd-a7b1d7abcac2) |
 
 Remember, this is an MVC — please [create an issue to suggest new metrics](#requesting-new-metrics), different ways to evaluate the customer's journey, or other ideas.
 
@@ -90,10 +82,10 @@ A variety of product usage statistics are pushed back from Gainsight to Salesfor
 
 ### Definitions
 
-- **Instance**: a customer’s *self-managed* deployment of GitLab
-- **Namespace**: a customer’s *SaaS* deployment of GitLab on gitlab.com
+- **Instance**: a customer's *self-managed* deployment of GitLab
+- **Namespace**: a customer's *SaaS* deployment of GitLab on gitlab.com
 - **Labeling**: the practice of internally identifying instances as Production, Non-Production, etc. within Gainsight and syncing to Snowflake. See [link](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#viewing-all-unknown-self-managed-instances) for more information
-- **Project**: a specific project or folder within a customer’s GitLab instance (e.g., “field operations” project within the `gitlab-com` use)
+- **Project**: a specific project or folder within a customer's GitLab instance (e.g., "field operations" project within the `gitlab-com` use)
 
 ### Why it matters
 
@@ -103,7 +95,7 @@ As a general rule, each subscription has one production instance **or** namespac
 
 #### Self-Managed
 
-A customer’s server lacks identification of the type (production, test, non-production, mirror, etc.). When GitLab receives a customer’s service ping, we do not know if it is used to deploy production code, a test server, or as a mirror.
+A customer's server lacks identification of the type (production, test, non-production, mirror, etc.). When GitLab receives a customer's service ping, we do not know if it is used to deploy production code, a test server, or as a mirror.
 
 **Problem**: this is critical for self-managed customers because a customer may have anywhere from one to ten instances tied to a single subscription and GitLab could be receiving data from one production instance, several, or none based on whether the customer is air-gapped, blocking our IP ports, etc.
 
@@ -153,7 +145,7 @@ While the above process works for any account, we do require automation for the 
 
 #### SaaS
 
-Namespaces are automatically labeled within Gainsight, using the Gainsight Rule “[Load to Instance Data - Label SaaS Instances as Production](https://gitlab.gainsightcloud.com/v1/ui/rules#v2/rule/3027ca2b-34e6-4dbb-be5f-8f640a636074)”.
+Namespaces are automatically labeled within Gainsight, using the Gainsight Rule "[Load to Instance Data - Label SaaS Instances as Production](https://gitlab.gainsightcloud.com/v1/ui/rules#v2/rule/3027ca2b-34e6-4dbb-be5f-8f640a636074)".
 
 ### Caveats and risks
 
@@ -205,10 +197,11 @@ When an account has multiple GitLab instances identified as Production (Instruct
 
 1. On the account C360 scroll to the **Instance and Namespace Details Section**
 2. Scroll right to see the **Included in Health Measure** column
-3. To exclude instances, click **⋮**, **Edit**, and then select “Opt-Out” in the `Included in Health Measures` to EXCLUDE the instance section. NOTE: Make sure you select “Opt-Out” rather than null, or the system may overwrite your update. Then click Update
-4. To select your **primary** instance for health scoring, click on **⋮**, Edit, and click “Included in Health Score” then click "Update"
+3. To exclude instances, click **⋮**, **Edit**, and then select "Opt-Out" in the `Included in Health Measures` to EXCLUDE the instance section. NOTE: Make sure you select "Opt-Out" rather than null, or the system may overwrite your update. Then click Update
+4. To select your **primary** instance for health scoring, click on **⋮**, Edit, and click "Included in Health Score" then click "Update"
 
 **Best Practices**:
+
 1. Only have ONE instance marked as "Included in Health Measure"
 2. All Production instances are automatically marked "Included in Health Measure" unless they are marked "Opt-Out"
 3. Select "Opt-Out" rather than null, or the system may overwrite your update
@@ -220,7 +213,7 @@ When an account has multiple GitLab instances identified as Production (Instruct
 
 Because the DevSecOps health measure looks to the account as "Ultimate", this step was added to make sure the correct production instance is scored in the case of multiple subscriptions under a given account.
 
-If a CSM has marked a production instance under a Premium subscription, DevSecOps health will appear as be “NA”. Meaning, even if there are two subscriptions with one Premium and another Ultimate, as long as the CSM marked the Premium one for health scoring, you will no longer see a DevSecOps health score (generally red) on the account.
+If a CSM has marked a production instance under a Premium subscription, DevSecOps health will appear as be "NA". Meaning, even if there are two subscriptions with one Premium and another Ultimate, as long as the CSM marked the Premium one for health scoring, you will no longer see a DevSecOps health score (generally red) on the account.
 
 **Gainsight Rules:**
 
@@ -233,7 +226,7 @@ If a CSM has marked a production instance under a Premium subscription, DevSecOp
 
 ## Field definitions
 
-The Product Stage definitions have been extracted from the [Metrics Dictionary](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html). For more information on Stage metrics, please review the dictionary.
+The Product Stage definitions have been extracted from the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html). For more information on Stage metrics, please review the dictionary.
 
 Eventually, the metrics list and definitions will be embedded directly in the handbook. As a first iteration, the list of metrics and their definitions are in the [Data Mart - Table Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0) spreadsheet.
 
@@ -295,10 +288,10 @@ When they activate with Cloud Licensing, customers share `Subscription Data`, wh
 #### What is the relationship between Cloud Licensing, Service Ping and Operational Metrics?
 
 - **Cloud Licensing**: an activation method that allows a customer to share `Subscription Data`
-   - Available on 14.1+
-   - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
+  - Available on 14.1+
+  - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
 - **Service Ping**: a service that collects the payload including Subscription, Operational, and Optional Metrics
-   - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
+  - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
 - **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](https://about.gitlab.com/services/customer-success-services/))
   -. Available on 14.1+
 
@@ -418,6 +411,7 @@ Usage Statistics are received and collected weekly, and those stats are added to
 - Shows the data for the last 28 days, including the most recent usage ping date.<br>
 
 **Example:**<br>
+
 - Jan 9th ping shows data for Dec 12 - Jan 9
 - Jan 16th ping shows data for Dec 19 - Jan 16
 - Jan 23th ping shows data for Dec 26 - Jan 23
@@ -425,6 +419,7 @@ Usage Statistics are received and collected weekly, and those stats are added to
 - Since this is the final ping, January data is Jan 3 - Jan 30.
 - January data in Gainsight would include Jan 3 - Jan 30 and exclude Jan 1, 2, 31.
 - Feb 6th ping shows data for Jan 9 - Feb 6 <br>
+
 <details>
   <summary markdown="span"> Refer to the visual for example: </summary>
  ![28d Logic](https://lucid.app/publicSegments/view/0de4f2de-99f8-44a1-a47d-a7b31cab896e/image.png)
@@ -440,17 +435,17 @@ You may notice usage stats missing for the first week of a month up until a ping
 
 ### Is it true that if you set your CSM sentiment to yellow or green for an account that is Red for DevSecOps, you cannot influence the overall Red health score?
 
-There’s no DevSecOps-specific override, however, there is one option to override which is the CSM Sentiment. The CSM can change that to Red, making the overall account red. [HB Reference](/handbook/customer-success/csm/health-score-triage/#csm-sentiment). CSM Sentiment overall weighting is 25%, whereas Product is 50%
+There's no DevSecOps-specific override, however, there is one option to override which is the CSM Sentiment. The CSM can change that to Red, making the overall account red. [HB Reference](/handbook/customer-success/csm/health-score-triage/#csm-sentiment). CSM Sentiment overall weighting is 25%, whereas Product is 50%
 
 ---
 
 ## Data Definitions
 
-### What’s the best way to understand what a metric is measuring?
+### What's the best way to understand what a metric is measuring?
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 
-### What’s the best way to understand details about a metric, including availability for SaaS, and in which release we started measuring that metric?
+### What's the best way to understand details about a metric, including availability for SaaS, and in which release we started measuring that metric?
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 

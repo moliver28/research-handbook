@@ -1,14 +1,10 @@
 ---
-
 title: Handling L&R Internal Requests
 category: Working L&R requests
 description: Describes how to service internal requests for licensing & renewals.
 ---
 
-
-
-
-----
+---
 
 ### Servicing Internal Requests
 

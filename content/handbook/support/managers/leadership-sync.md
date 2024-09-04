@@ -1,10 +1,7 @@
 ---
-
 title: Support Leadership Sync
 description: "Weekly Support Leadership Sync meetings"
 ---
-
-
 
 ### Purpose
 

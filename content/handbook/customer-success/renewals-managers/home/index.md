@@ -1,28 +1,25 @@
 ---
-
-title: Renewals Managers 
+title: Renewals Managers
 ---
-
-
-
-
-
-
 
 ![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
 
 Global Renewals Organization
+
 ---
 
 View the Renewals Manager handbook pages:
+
 - [How We Do It](/handbook/customer-success/renewals-managers/how) - Information about how renewals managers execute on the mission.
 - [What we do](/handbook/customer-success/renewals-managers/what) - Information about what tasks and activities renewals managers perform.
 
 Renewals Managers (more resources)
---> Visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/)
---> Contribute to the Global Renewals Organization issue [board](https://gitlab.com/gitlab-com/customer-success/global-renewals-organization/-/boards/5465302?label_name[]=Global%20Renewals)
+
+- Visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/)
+- Contribute to the Global Renewals Organization issue [board](https://gitlab.com/gitlab-com/customer-success/global-renewals-organization/-/boards/5465302?label_name[]=Global%20Renewals)
 
 ---
+
 The Global Renewals Organization is part of the [GitLab Customer Success](/handbook/customer-success/) function. We partner with Customer Success, field sales, our ecosystem of partners, support and marketing organizations to deliver maximum value to GitLab customers throughout their subscription lifecycle.
 
 The Global Renewals Organization is made up of *renewals managers*. A renewals manager looks after a customers entire existing book of renewable business and manages those renewal opportuntities in Salesforce from inception (day one after a new sale) to renewal booking. A renewals manager is aligned to a territory and supports customers within that territory by working in coordination with an account team (typically made up of a Customer Success Manager/Engineer, a Solutions Architect, and an Account Executive).
@@ -40,16 +37,13 @@ Other ways to reach members of the Global Renewals Organization include:
 - Global renewals leadership slack channel: [#global-renewals-leadership] (private, managers wide channel used for updates, questions, best practices)
 - Global renewals organization feedback channel: [#renewals-org-ideas-and-feedback] (public, world-wide feedback channel)
 
-
 ## Mission Statement
 
 To maintain the highest renewal rate in the DevSecOps industry.
 
-
 ## Vision
 
 To be the defining subscription renewals organization among peers in the SaaS industry.
-
 
 ## Values
 
@@ -92,6 +86,7 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 - Trustworthy SFDC KPIs
 
 *Systems*
+
 - Management dashboards
 - Temp key tracking
 - Churn budgeting and forecasting
@@ -100,4 +95,6 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 - Renewal forecasting
 - Real time renewals performance tracking
 
+### RM New Team Member Onboarding
 
+As a [Renewals Manager (RM), your onboarding](/handbook/customer-success/renewals-managers/rm-onboarding) experience will be a blended learning experience that includes virtual synchronous meetings, a self-paced role-based learning path on GitLab University, and a hands-on virtual workshop called Sales Quick Start (SQS). Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1kc5tVFZxQLT5EcworXmeMzVYsXp-6hg6dthFQI8wNcM/edit#heading=h.5sepq0d8u5az). Please make a copy of this document and check off items as you complete them.

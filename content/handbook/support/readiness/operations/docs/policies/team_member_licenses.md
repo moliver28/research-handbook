@@ -20,7 +20,7 @@ The process for these is:
 1. Support Operations generates the license using the parameters in the issue.
 1. Support Operations updates the issue and closes it out.
 
-#### Checking for an existing license
+### Checking for an existing license
 
 1. Login to the
    [staging cDot app](https://customers.staging.gitlab.com/admins/sign_in) via
@@ -35,7 +35,7 @@ The process for these is:
 1. Review the clarification given and make a decision if a new license is
    warranted.
 
-#### Creating a license
+### Creating a license
 
 **Note** Before proceeding, please confirm the requested end date on the issue
 does not exceed 1 year. If it does, we cannot proceed with the request until
@@ -71,22 +71,41 @@ the requester changes that.
    | End date                | value from the issue               |
    | Notes                   | the issue link                     |
 
-#### Updating the issue
+### Updating the issue
 
 After you have generated the license, you need to reply and close out the issue.
+
 To do this, reply with the following:
 
-> The staging license has been generated at this time.
->
-> As this is a staging license, please keep in mind you *must* setup your GitLab
-> deployment to work with those. For more information on doing this, please see
-> [our documentation](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab).
+> The staging license has been generated at this time. Search for the subject
+> `Your GitLab License File` in your e-mail to locate it.
 >
 > For information on applying a license, please read through
 > [our documentation](https://docs.gitlab.com/ee/administration/license_file.html).
+>
+> As this is a staging license, please keep in mind you *must* setup your GitLab
+> deployment to work with those.
+>
+> - For non-GDK instances, please see
+>   [our documentation](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab).
+> - For GDK instances:
+>   - Ensure that you have a `env.runit` file created in the root directory of
+>     your GDK repository.
+>   - It should contain the following contents:
+>
+>     ```bash
+>     export GITLAB_LICENSE_MODE=test
+>     export CUSTOMER_PORTAL_URL="https://customers.staging.gitlab.com"
+>     ```
+>
+>   - After the `env.runit` file is setup, please run `gdk restart`
+>   - You should then be able to apply the license to your GDK instance
+>
+> If you get an error that your license key is invalid, this will indicate you
+> have not done the needed setup to work with a staging license.
 
 After sending that reply, do the following:
 
 - Add time spent on the issue
-- Add the label `~SupportOps::Completed` to the issue
+- Add the label `~Readiness::Completed` to the issue
 - Close the issue

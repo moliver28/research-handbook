@@ -17,7 +17,7 @@ You can find a more detailed breakdown of the benefits below [here](https://docs
 
 #### Housing Allowance
 
-Team members are eligible for a housing allowance which is paid monthly and the details will be outlined in the employment agreement. If circumstance arise in which a lump sum is required before the employment start date, there may be an option to request the first 3 months up front (with the monthly amount for remainder of the year being reduced accordingly). If this is required, the request will need to be sent to both Papaya Global and Total Rewards, where it will be be reviewed. If approved, the conditions of this variation will be outlined in a separate letter.
+Team members are eligible for a housing allowance which is paid monthly and the details will be outlined in the employment agreement. If circumstance arise in which a lump sum is required before the employment start date, there may be an option to request the first 3 months up front (with the monthly amount for remainder of the year being reduced accordingly). If this is required, the request will need to be sent to both Papaya Global and Total Rewards, where it will be reviewed. If approved, the conditions of this variation will be outlined in a separate letter.
 
 #### Child Education Allowance
 
@@ -43,7 +43,7 @@ The annual flights do not roll over year to year, in the event that the team mem
 
 During onboarding the eligible team members will have a policy set up in Navan where the team member can book their flights home. More information on the policy can be found [here](https://docs.google.com/spreadsheets/d/1eXT_0-mP2bNQtTO6opLjYSjdbH_Yuj8JIqMPM7DT80g/edit#gid=0). The trip purpose should be selected as 'UAE - Annual Flights'.
 
-Please refer to the GitLab Travel page of the Handbook on how to book flights through Navan [here]({{< ref "travel" >}})
+Please refer to the GitLab Travel page of the Handbook on how to book flights through Navan [here](/handbook/finance/travel/)
 
 ### Medical
 
@@ -60,13 +60,13 @@ Team members in UAE are entitled fully paid annual leave of
 - 30 days/22 working days after one year of service
 - 2 days per month after completing 6 months of service but have not worked a full year
 
-Part-time team members are entitled to annual leave according to the actual working hours they spent at work, as specified in the employment contract, and in accordance with the ‘Executive Regulations of the Labour Law’- Available in Arabic only- (PDF, 10.9 MB).
+Part-time team members are entitled to annual leave according to the actual working hours they spent at work, as specified in the employment contract, and in accordance with the 'Executive Regulations of the Labour Law'- Available in Arabic only- (PDF, 10.9 MB).
 
 ### Sick leave
 
 Eligibility for a sick leave (paid and unpaid)
 
-A UAE team member is entitled to a sick leave of not more than 90 days per year, only after the end of probationary period. The 90 days’ sick leave can be continuous or intermittent, and the salary is paid as follows:
+A UAE team member is entitled to a sick leave of not more than 90 days per year, only after the end of probationary period. The 90 days' sick leave can be continuous or intermittent, and the salary is paid as follows:
 
 - full pay for the first 15 days
 - half pay for the next 30 days

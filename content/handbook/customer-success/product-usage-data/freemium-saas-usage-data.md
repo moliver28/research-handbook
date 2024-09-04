@@ -1,17 +1,9 @@
 ---
-
 title: "Freemium SaaS Usage Data"
 description: "How to view and use usage data from freemium and trial SaaS namespaces in Salesforce."
 ---
 
-
-
-
-
-
-
 ---
-
 
 ## Purpose
 
@@ -27,13 +19,13 @@ Empower our internal team with lightweight Free/Trial usage insights in Salesfor
 
 For more information on general Product Usage Statistics, see [Using Product Usage Reporting in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/).
 
-##### Video Overview
+#### Video Overview
 
 For a high level overview (6 minutes), see:
 
 ([**SaaS Free Trial Usage Stats in SFDC: Training Video**](https://youtu.be/28_bgDL__BQ) above is Private on GitLab Unfiltered)
 
-##### Field Definitions
+#### Field Definitions
 
 Below are the fields, descriptions, and best practices for each field. These can be used to help us understand what the customer is using GitLab for and how we can help them achieve their desired outcomes. For example, high ci pipeline usage indicates we may want to start the conversation around CI, or that they've already accomplished that objective.
 
@@ -98,7 +90,6 @@ Priority 4: Number of billable members in the namespace<br>
 Priority 5: Number of stages used by namespace user in the last 3 months <br>
 Priority 6: Number of active users in the namespace using 1+ stages in the last 3 months<br>
 
-
 ### Additional Resources
 
 1. [List of all Free/Trial Accounts in SFDC](https://gitlab.my.salesforce.com/00O8X000008QZom)
@@ -106,8 +97,6 @@ Priority 6: Number of active users in the namespace using 1+ stages in the last 
 1. [Personalized Report for Account Owners](https://gitlab.my.salesforce.com/00O8X000008Qa7o) - This report will allow you to see a complete list of your assigned accounts which have Freemium SaaS usage, using an automated filter which should work for most Salesforce users. Please review and edit the date range if the report is lacking data.
 1. [Personalized Report for Account Owners](https://gitlab.my.salesforce.com/00O8X000008QaTa) - You can use this report if the one above does not populate for your user profile.  This report will allow you to see a complete list of your assigned accounts which have Freemium SaaS usage by manually inserting your name into the `Account Owner` filter. Please review and edit the date range if the report is lacking data.
 
-
 ### Providing feedback
 
 Please add your questions, data quality concerns, and general feedback on [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/1031). This is needed for us to continue to improve the SaaS Free/Trial experience!
-

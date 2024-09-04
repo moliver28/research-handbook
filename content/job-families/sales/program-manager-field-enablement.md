@@ -118,7 +118,7 @@ The Staff Program Manager, Field Enablement is a [grade 8](/handbook/total-rewar
 - Demonstrated experience in strategic selling, strategic consulting, and/or expertise in sales strategy.
 - Guides and directs others on how best to meet timelines for success and makes recommendations on how to prioritize enablement efforts and initiatives effectively, aligned to the Field Enablement GTM process.
 
-## Specialities
+### Specialities
 
 #### Sales Enablement Responsibilities
 

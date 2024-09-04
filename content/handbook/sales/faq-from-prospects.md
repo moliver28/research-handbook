@@ -1,25 +1,18 @@
 ---
-
 title: "FAQ from prospects"
 description: "See FAQs about GitLab's features, user management, statistics/logs, performance, installation, and support"
 ---
 
-
-
-
-
-
-
-### Features:
+### Features
 
 - Q: Does GitLab support a search engine based on Elasticsearch or alike?
 
   A: GitLab paid tiers allows to leverage the search capabilities of Elasticsearch as part of Advanced Search.
 
-  Documentation: https://docs.gitlab.com/ee/integration/elasticsearch.html
+  Documentation: https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html
 
 - Q: Is Advanced Search Avilable for Guest accounts?
-  
+
   A: Yes, In GitLab EE with Advanced Search enabled Guests accounts can use Advanced Search.
 
 - Q: Does GitLab provide project templates?
@@ -32,7 +25,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   A: GitLab uses the rouge ruby library for syntax highlighting. Rouge supports 77 languages and counting, including Ruby, JavaScript, Swift, Go, C++, and Haskell. For a complete list of supported languages and how to extend it, visit the rouge website: http://rouge.jneen.net/
 
-  Documentation: https://docs.gitlab.com/ee/markdown/markdown.html#code-and-syntax-highlighting
+  Documentation: https://docs.gitlab.com/ee/user/project/repository/files/highlighting.html
 
 - Q: Is there a max size (disk size) per project?
 
@@ -40,8 +33,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1366
 
-
-### User management:
+### User management
 
 - Q: Does GitLab supports groups of users?
 
@@ -53,7 +45,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   A: GitLab has three different visibility levels for each project: Public, internal, and private.
 
-  Documentation: https://docs.gitlab.com/ee/public_access/public_access.html
+  Documentation: https://docs.gitlab.com/ee/user/public_access.html
 
 - Q: Do you support default rights on users, not project?
 
@@ -71,14 +63,13 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   License FAQ: /pricing/licensing-faq/
 
-
-### Statistics / Logs:
+### Statistics / Logs
 
 - Q: What kind of usage statistics are available for GitLab admins?
 
   A: GitLab EE provides contribution analytics which provides an overview about the activity of issues, merge requests and push events of your organization and its members. The time period on which the analytics depend on, is spanned in three sections: last week, last month and last three months.
 
-  Documentation: https://docs.gitlab.com/ee/analytics/contribution_analytics.html
+  Documentation: https://docs.gitlab.com/ee/user/group/contribution_analytics/
 
 - Q: How does GitLab provide log analysis?
 
@@ -86,12 +77,11 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Documentation:
 
-  Log system: https://docs.gitlab.com/ee/administration/logs.html
+  Log system: https://docs.gitlab.com/ee/administration/logs/
 
   Audit Events: https://docs.gitlab.com/ee/administration/audit_events.html
 
-
-### Performance:
+### Performance
 
 - Q: What are the system requirements for a certain amount of users or repositories?
 
@@ -103,8 +93,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Documentation: missing
 
-
-### Installation and support:
+### Installation and support
 
 - Q: What is the process to request support?
 

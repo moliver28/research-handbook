@@ -4,7 +4,7 @@ title: "Optimize Group"
 
 ## Plan:Optimize
 
-### [Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)
+**[Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)**
 
 ### How we work
 
@@ -44,6 +44,7 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
 {{< /tableau >}}
 
 As a general guideline, we try to plan each release in this way:
+
 - **Bugs**: 25%
 - **Features**: 50%
 - **Maintenance**: 25%
@@ -53,6 +54,7 @@ These targets will be [reviewed monthly](/handbook/product/product-processes/) a
 #### Organizing the work
 
 We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
 1. `workflow::solution validation` - needs refinement and acceptance from engineering
@@ -69,7 +71,7 @@ Generally speaking, issues are in one of two states:
 - Discovery/refinement: we're still answering questions that prevent us from starting development,
 - Implementation: an issue is waiting for an engineer to work on it, or is actively being built.
 
-Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://www.feltpresence.com/hills.html).
+Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/features/hill-charts).
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
@@ -83,7 +85,7 @@ Backlog management is very challenging, but we try to do so with the use of labe
 
 ###### Refinement
 
-**The end goal is defined,** where all direct stakeholders says “yes, this is ready for development”. Some issues get there quickly, some require a few passes back and forth to figure out.
+**The end goal is defined,** where all direct stakeholders says "yes, this is ready for development". Some issues get there quickly, some require a few passes back and forth to figure out.
 
 The goal is for engineers to have buy-in and feel connected to the roadmap. By having engineering included earlier on, the process can be much more natural and smooth.
 
@@ -109,7 +111,7 @@ Depending on the complexity of an issue, it may be necessary to break down or pr
 
 If none of the above applies, then the issue is probably fine as-is! It's likely then that the weight of this issue is quite low, e.g., 1-2.
 
-##### Managing discussions, information, decisions, and action items in an issue.
+##### Managing discussions, information, decisions, and action items in an issue
 
 As part of [breaking down or promoting issues](#breaking-down-or-promoting-issues), you may find that there are a significant number of threads and comments in a given issue.
 
@@ -198,15 +200,15 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 
 ##### Deliverable and Stretch issues
 
-Issues labelled `Deliverable` are scheduled for the current milestone. They are considered top priority and are expected to be done in time for the release.
+Issues labeled `Deliverable` are scheduled for the current milestone. They are considered top priority and are expected to be done in time for the release.
 
-Issues labelled `Stretch` are stretch goals for delivering in the current milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
+Issues labeled `Stretch` are stretch goals for delivering in the current milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
 
 ##### Community contributions
 
-Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
+Issues that have previously been agreed upon and labeled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
 
-- A clear [implementation plan](/handbook/engineering/development/dev/create/ide/community-contributions/#treat-wider-community-as-primary-audience).
+- A clear [implementation plan](/handbook/engineering/development/dev/create/remote-development/community-contributions/#treat-wider-community-as-primary-audience).
 - A relevant weight estimate.
 - The `Seeking community contributors` label assigned.
 
@@ -246,7 +248,7 @@ release notes section or use a `release post item::` label.
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small pieces. Iteration can be hard, especially when you lack product context or are working in a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -278,8 +280,7 @@ opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
 
-1. We expect people to be [managers of one](/handbook/values/#managers-of-one), and we [use
-   GitLab ourselves](/handbook/values/#dogfooding). If you see something that you think
+1. We expect people to be [managers of one](/handbook/values/#managers-of-one), and we [use GitLab ourselves](/handbook/values/#dogfooding). If you see something that you think
    is important, you can request for it to be scheduled, or you can
    [work on a proposal yourself](/handbook/values/#dont-wait), _as long as you keep your
    other priorities in mind_.
@@ -307,6 +308,7 @@ Documentation is a crucial part of our [definition of done](https://docs.gitlab.
 Features within the Optimize scope require appropriate data in order to verify functionality and test during development. Data seeding scripts should be created and/or updated as part of our development process.
 
 Considerations for data seeding scripts:
+
 - Ensure scripts are parameterized allowing specification of group or project ID where relevant
 - Ensure scripts can be run repeatedly without failure
 
@@ -326,7 +328,6 @@ Agenda documents and recordings can be placed in the [shared Google drive](https
 Meetings that are not 1:1s or covering confidential topics should be added to the Manage Shared calendar.
 
 All meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
-
 
 ## Group Members
 

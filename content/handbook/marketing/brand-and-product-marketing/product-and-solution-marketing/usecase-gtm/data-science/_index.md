@@ -1,21 +1,15 @@
 ---
-
 title: "Proposed Usecase: Data Science"
 ---
 
+## The Market Viewpoint
 
+## Data Science — AKA DataOps, MLOps, etc
 
-
-
-
-
-# The Market Viewpoint
-
-## Data Science — AKA DataOps, MLOps, etc.
-
-#### Common challenges
+### Common challenges
 
 Common challenges in data science are described on the [Data Science with GitLab solution page](https://about.gitlab.com/solutions/data-science/) and generally include being cross-functional, agile, and iterative while unlocking the value in an organization's data. To do this, data teams need to:
+
 - Collaborate both inside and outside their teams, and often inside and outside their organization
 - Plan and manage projects and sprints, with tools flexible enough to support scrum, kanban, and more
 - Version control everything: manage and track different versions of files, models, test cases, data sets
@@ -23,9 +17,11 @@ Common challenges in data science are described on the [Data Science with GitLab
 - Streamline testing and validation of work, making it much faster and more repeatable
 - Simplify infrastructure management and often across multiple cloud providers
 
-To be fleshed out as with [other usecases](/handbook/use-cases/).
+To be fleshed out as with [other usecases](/handbook/marketing/use-cases/).
 
-#### [Keywords and definitions](./keywords/)
+### Keywords and definitions
+
+[Keywords and definitions](keywords/)
 
 ## Personas
 
@@ -49,9 +45,9 @@ Who are the [buyers](/handbook/product/personas/)
 - Engineering Manager of Data Products, or of Data Infrastructure
 - Director of Data and Analytics, or Chief Data Officer
 
-## [Message House](./message-house/)
+## Message House
 
-The message house provides a structure to describe and discuss value and differentiators for data science.
+The [message house](message-house/) provides a structure to describe and discuss value and differentiators for data science.
 
 ### Discovery Questions
 
@@ -59,9 +55,10 @@ The message house provides a structure to describe and discuss value and differe
 
 ## Analyst Coverage
 
-[Media coverage, 20 Feb. of Gartner’s 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
+[Media coverage, 20 Feb. of Gartner's 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
 
 Internal to GitLab:
+
 - [EMA research on the impact of AI on DevOps in the enterprise](https://drive.google.com/file/d/1pEum6vqD85v1A77z72e5U1EqtiQagl5d/view?usp=sharing)
 - [Gartner on App Dev in the Era of AI, at App Summit](https://drive.google.com/file/d/18op1VgbtEZgyU8WLiEST-0DzZ1JY96Wm/view?usp=sharing)
 - [Gartner on Git support as a baseline requirement in Data Science and Machine Learning Platforms](https://drive.google.com/file/d/1XPzdE-pT-1ThHZmNINn-ewyULeyThTSu/view) see pages 4, 7-8
@@ -87,7 +84,7 @@ Internal to GitLab:
 |  **Open Source; Everyone Can Contribute**  | Open core development model allows anyone to contribute to the functionality of the product. Uniquely transparent product development process engaging customers, partners, and the community. Strong and growing community - thousands of organizations and millions of users.  | Over 3,000 active community code contributors. [Siemens](https://about.gitlab.com/blog/2018/12/18/contributor-post-siemens) needed to improve and enhance their developer tools, and actively contribute to GitLab project with upstream commits.  |
 |  **Deploy Your Software Anywhere**  | Deploy and manage your models in any environment, including any cloud with support for GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, etc. Gain workflow portability - one deployment workflow regardless of destination. Provides a complete DevOps platform that allows teams to have the same productivity metrics, governance, and other connective tissue, no matter what cloud they use.  |  [Ask Media Group](https://www.askmediagroup.com/microservices-in-practice/) found it difficult to manage the process of building and deploying microservices. With GitLab Premium, their developers can immediately begin to contribute a new service that can be deployed to AWS as soon as they start.  [Gartner's 2019 Hype Cycle for Infrastructure and Operations Automation](https://www.gartner.com/en/documents/3947548/hype-cycle-for-i-o-automation-2019): GitLab helped to define the market, and is recognized as a relevant vendor for both Continuous Delivery and Toolchain Orchestration.  |
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## Competitive Comparison
 
@@ -125,16 +122,21 @@ NOTE: In short, concise value/ Proofpoint format
 ## Resources
 
 ### Presentations
+
 - LINK
 
 ### Whitepapers and infographics
+
 - LINK
 
 ### Videos (including basic demo videos)
+
 - LINK
 
 ### Integrations Demo Videos
+
 - LINK
 
 ### Clickthrough & Live Demos
+
 - Link

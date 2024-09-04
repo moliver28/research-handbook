@@ -1,15 +1,7 @@
 ---
-
 title: "YouTube uses and access"
 description: "We use YouTube as our single source of truth for video content including live streaming group conversations, marketing videos, demos, and more."
 ---
-
-
-
-
-
-
-
 
 ## Channels
 
@@ -38,7 +30,6 @@ But it can happen that you're not in a livestream and something interesting come
 In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube).
 
 ### Considerations for livestreams
-
 
 1. Please remember to [follow the guidelines on starting a recorded video](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 1. If you're not a host, you can't livestream direct from zoom, but the current host can promote another attendee to host.
@@ -80,6 +71,7 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
 ![stream link](/handbook/marketing/marketing-operations/youtube/youtube-stream-link.jpg)
 
 #### Video walkthough of how to Livestream to YouTube
+
 The following 5-minute video shows how to start a livestream from a Zoom Meeting to YouTube Unfiltered.
 
 <figure class="video_container">
@@ -93,16 +85,16 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Install and launch [OBS Studio](https://obsproject.com/download)
 
 1. Allow OBS to automatically configure your settings:
-	![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
+    ![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
 
 1. Accept the recommended video settings:
-	![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
+    ![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
 
 1. Select "Custom" service and configure OBS to livestream to [GitLab's Unfiltered channel](https://www.youtube.com/live_dashboard?nv=1#):
-	![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
+    ![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
 
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
-	![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
+    ![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
 
 ## Post everything
 
@@ -214,6 +206,7 @@ You can change the visibility of videos by clicking on the `Details` buttons whe
 
 If you get a "Video unavailable This video is private." error on youtube, the error may be caused because the video is private to GitLab Unfiltered and you are accessing the video with your individual YouTube account.
 In order to see the video,
+
 1. Click your photo or icon in the upper right corner of YouTube.
 
 1. Then Click > Switch Account
@@ -231,7 +224,7 @@ Check out [this video](https://www.youtube.com/watch?v=dZtCuOf5aGk) for a visual
 ## Access
 
 1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
-1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation in the `#people-connect` Slack channel.
+1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation with the People Connect Team via HelpLab.
 
 For People Connect troubleshooting:
 
@@ -261,7 +254,7 @@ The GitLab Unfiltered YouTube account is a shared space. Sometimes team members 
 
 If you see a channel subscription or comment that violates the rules of this handbook, please take a bias-for-action to keep the GitLab Unfiltered
 YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable
-to remove the relevant comment or subscription, please notify people-connect@gitlab.com immediately.
+to remove the relevant comment or subscription, please notify the People Connect Team immediately via HelpLab.
 
 ## Organizing
 
@@ -301,8 +294,7 @@ The below instructions apply to livestreams to YouTube.
 1. The host should do an introduction stating who they are, what their role is, and what the meeting is about, e.g. "I am Jane Doe, the VP of Widget Production, and today's Group Conversation is about the molding phase of widget production."
 1. Please note that if the recording starts a 'this meeting is being recorded' message the host should talk over that because otherwise the recorded video will needed editing to prevent an awkward pause. Livestreaming doesn't trigger this message, only recording does.
 
-#### Useful links
-
+### Useful links
 
 - [My Live Events: schedule and review upcoming live events](https://www.youtube.com/my_live_events)
 - [YouTube live streaming introduction page](https://support.google.com/youtube/answer/2474026?hl=en) - Here you can check if your channel meets all requirements for live streaming

@@ -17,7 +17,7 @@ This page defines how our People Communications & Engagement team operates to su
 - 👁 Be credible, transparent, open, and honest
 - 🤝 Provide context, reason, and a call to action.
 - 📈 Be consistent on delivery, cadence, and tone.
-- ⏱ Respect people’s time and attention.
+- ⏱ Respect people's time and attention.
 
 ## People Communications & Engagement Objectives
 
@@ -69,16 +69,16 @@ We use a variety of channels to communicate with various audiences within GitLab
         - Is this something all team members should know about and/or action?
         - Does it align with our GitLab values?
         - Make sure there is a team member action included
-        - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team’s background and knowledge - this is helpful when reviewing and finalizing the messaging.
-1. **Manager README Monthly Newsletter:** Monthly proactive communication to people managers containing: what’s coming up, reminders of what’s important, guidance on team member talking points and what actions to take
+        - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team's background and knowledge - this is helpful when reviewing and finalizing the messaging.
+1. **Manager README Monthly Newsletter:** Monthly proactive communication to people managers containing: what's coming up, reminders of what's important, guidance on team member talking points and what actions to take
     - 🤝 To contribute: Write a comment in the most current manager comms GitLab issue and tag @kaylagolden. Things to note when sending over content:
         - Is it globally relevant to more than 75% of GitLab People Managers?
         - Is this something all people managers should know about and/or action?
         - Does it align with our GitLab values?
         - Make sure there is a people manager action included
-        - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team’s background and knowledge - this is helpful when reviewing and finalizing the messaging.
+        - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team's background and knowledge - this is helpful when reviewing and finalizing the messaging.
 1. **All-team-member Slack channels (#company-fyi and #company-fyi-private):** Timely important and action-oriented important updates to all team members
-    - 🤝 To contribute: Read the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that’s the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @kaylagolden.
+    - 🤝 To contribute: Read the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that's the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @kaylagolden.
 1. **GitLab Handbook:** For permanent and non-confidential updates, we consider how information should live in the GitLab Handbook.
 1. **GitLab Assembly:** All-company synchronous time to hear from GitLab leaders and answer team member questions
     - 🤝 To contribute: Content creation is determined by the People Comms & Engagement Team with review by members of the E-Group.
@@ -88,6 +88,7 @@ We use a variety of channels to communicate with various audiences within GitLab
 GitLab Assembly is our quarterly all-company meeting and is an opportunity for team members to hear from leaders and teams across the company. Assembly provides a holistic view of top priorities, customer stories and data, cross-collaboration, department deep dives, and other team member stories to bolster team member engagement, shared visibility, and company connectedness. Assembly is a 50-minute meeting consisting of ~35 minutes of content and ~15 minutes of Q&A and is scheduled to take place late in the second month or early in the third month of each quarter (January, April, June, October). To give global team members an opportunity to join live, there will be two live-hosted Assembly events each quarter, with the first event at 5pm PT (12am UTC) and the second event the next day at 8am PT (3pm UTC).
 
 To produce each quarterly Assembly, the People Communications & Engagement DRI:
+
 1. Works with the EBA team to schedule a date six to eight weeks in advance
 1. Engages a production partner for the live event production
    - Collaborates with the production partner on run of show
@@ -139,7 +140,7 @@ After the second Assembly event:
 
 ## People Communications & Engagement Planning
 
-We operate an internal communications editorial calendar (confidential to a small internal group) with key company-wide announcements, campaigns, and events. To get added to this list, please review the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that’s the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @kaylagolden.
+We operate an internal communications editorial calendar (confidential to a small internal group) with key company-wide announcements, campaigns, and events. To get added to this list, please review the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that's the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @kaylagolden.
 
 ## Planning large-scale communications & engagement efforts across multiple channels
 
@@ -200,7 +201,7 @@ We have a runbook for internal announcements that could lead to heated conversat
 1. If the post includes a merge request (MR), we should ensure that we are following MR best practice before we post.
     1. If discussion is happening in an issue, we can ask for [manager mentions](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs).
     1. MRs should not already be merged. Team members should be invited to share feedback on a change and be clear on the intended merge timeline.
-    1. We shouldn’t use separate MRs for removing and adding content. This makes it harder for team members to track changes.
+    1. We shouldn't use separate MRs for removing and adding content. This makes it harder for team members to track changes.
 1. After a communication is shared, there should be a placeholder for the Executive Sponsor and designated team to connect synchronously to review feedback and (if agreed upon) respond. A calendar hold should be placed on the calendar for 25 to 50 minutes after the communication.
 1. A similar Executive Sponsor and designated team check in should be scheduled for the following day. This meeting can be canceled if it is agreed that it is not needed.
 1. If there will be an AMA or other synchronous touchpoint with team members, the Executive Sponsor or designated team member can choose to schedule a meeting shortly before the session (optimally 1-2 hours before), so participants can align on their roles and their plan for communication.

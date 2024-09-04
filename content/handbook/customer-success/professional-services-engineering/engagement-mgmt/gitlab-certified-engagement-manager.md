@@ -1,17 +1,7 @@
 ---
-
 title: "GitLab Certified Engagement Manager Professional"
 description: "Describes the Engagement Manager certification learning objectives and cirriculum."
-
 ---
-
-
-
-
-
-
-
-# GitLab Certified Engagement Manager Professional
 
 ## Overview
 
@@ -31,7 +21,3 @@ Individuals who earn GitLab Certified Engagement Manager Professional certificat
 - Understand GitLab service offerings to be able to build a proposal and cost estimate
 - Create Statements of Work (SOW) based on customer-approved estimates
 - Gain appropriate approvals to close business
-
-
-
-

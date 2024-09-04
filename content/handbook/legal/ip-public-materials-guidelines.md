@@ -12,34 +12,33 @@ These guidelines apply to the use of third-party content in all [external](/hand
 - Marketing collateral, including emails, blog posts, release posts, social media posts on GitLab accounts, and videos; and
 - Advertisements.
 
-If you’re unsure, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to confirm.
+If you're unsure, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to confirm.
 
 These guidelines do not apply to the use of trademarks in the GitLab product itself. Refer to the guidelines of the [Use of Third-party Trademarks in GitLab](/handbook/legal/policies/product-third-party-trademarks-guidelines/#dos--donts-for-use-of-third-party-trademarks-in-gitlab) instead.
 
 When used in these guidelines:
 
-“**external materials**” has the meaning given in the [Materials Legal Review Process](/handbook/legal/materials-legal-review-process/#external-vs-internal-use).
+"**external materials**" has the meaning given in the [Materials Legal Review Process](/handbook/legal/materials-legal-review-process/#external-vs-internal-use).
 
-“**third-party content**” means any content, including trademarks, visual content, and written content, created or owned by a third party.
+"**third-party content**" means any content, including trademarks, visual content, and written content, created or owned by a third party.
 
 ## Note about use of content obtained from the internet
 
-Just because something is available for free on the internet (including on Google Images, Google Maps, YouTube, blogs, social media, and news websites) does not mean it can be freely used. The vast majority of internet content is subject to copyright and/or trademark rights, and GitLab’s use of that content could constitute infringement.
-
+Just because something is available for free on the internet (including on Google Images, Google Maps, YouTube, blogs, social media, and news websites) does not mean it can be freely used. The vast majority of internet content is subject to copyright and/or trademark rights, and GitLab's use of that content could constitute infringement.
 
 ## Trademarks - logos and wordmarks
 
-“**Logo**” means a symbol used to identify a company, product, or service, like the [GitLab Tanuki logo](https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png).
+"**Logo**" means a symbol used to identify a company, product, or service, like the [GitLab Tanuki logo](https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png).
 
-“**Wordmark**” means unstylized words or letters used to identify a company, product, or service, like *GitLab*.
+"**Wordmark**" means unstylized words or letters used to identify a company, product, or service, like *GitLab*.
 
 ### Do
 
 - When using the **logo** or **wordmark** of a customer, partner, or other third party with which GitLab has a commercial relationship, for customers, refer to the [Customer Reference Program handbook page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). Discuss with [#customer_references](https://app.slack.com/client/T02592416/CLFCPMF8E) if unsure. For use of a partner's logo, discuss with [#channel-marketing](https://app.slack.com/client/T02592416/C013DF4A7QV) to confirm that rights and approvals are in place for your proposed use under the Partner Agreement. For use of an ISV technology partner's logo, discuss with [#partner-program-ops](https://app.slack.com/client/E03N1RJJX7C/CTM4T5BPF).
 
-- Use **wordmarks** referentially: refer to the wordmark owner, or the owner’s products and services associated with the mark, when the company, product or service in question cannot be easily identified without using the mark. For example, it’s much easier to refer to *GitLab* using the wordmark *GitLab* than to *the company behind the DevOps platform delivered as a single application*.
+- Use **wordmarks** referentially: refer to the wordmark owner, or the owner's products and services associated with the mark, when the company, product or service in question cannot be easily identified without using the mark. For example, it's much easier to refer to *GitLab* using the wordmark *GitLab* than to *the company behind the DevOps platform delivered as a single application*.
 
-### Don’t
+### Don't
 
 - Use a **logo** when referring to third-party companies, or their products or services. Trademark fair use applies to logos only in very exceptional circumstances; use the wordmark instead.
 - Remove, distort, alter, or otherwise modify a **logo**.
@@ -47,18 +46,19 @@ Just because something is available for free on the internet (including on Googl
 - Use a **logo** or **wordmark** in any way that denigrates or discredits the owner or their products or services.
 - Use a well-known wordmark in a general manner. For example, use `photo` rather than `Polaroid` unless refering to an actual Polaroid.
 
-## Visual content including videos, gifs, photographs, illustrations, graphics, and artwork
+## Visual content including videos, GIFs, photographs, illustrations, graphics, and artwork
 
 ### Do
 
-- Obtain visual content from permissively-licensed sources, like [unsplash.com*](https://unsplash.com/) for images, or use content created by GitLab. If you’re unsure, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to review the license covering the content you want to use.
+- Obtain visual content from permissively-licensed sources, like [unsplash.com*](https://unsplash.com/) for images, or use content created by GitLab. If you're unsure, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to review the license covering the content you want to use.
 - If required by the applicable license, provide attribution, ensuring you follow any attribution guidelines which apply.
 - For visual content containing identifiable individuals (including GitLab team members), review and follow the [Publicity Waiver and Release Guidelines and Process](/handbook/legal/publicity-waiver-release).
 - For stock house visual content that includes identifiable individuals, ensure the stock house has obtained a model release covering all individuals who appear.
 
-*For Unsplash images, it’s good practice to credit Unsplash as the source and photographer. This helps team members repurposing materials determine if images can be used, and is courteous to the photographer.
+*For Unsplash images, it's good practice to credit Unsplash as the source and photographer. This helps team members repurposing materials determine if images can be used, and is courteous to the photographer.
 
 {{% details summary="Expand for Unsplash attribution instructions" %}}
+
 1. Create a small text box at the bottom right of the relevant slide.
 1. Locate the image on [unsplash.com](https://unsplash.com).
 1. Click on `Download free` but ignore the downloaded file.
@@ -68,12 +68,12 @@ Just because something is available for free on the internet (including on Googl
 [Example Unsplash attribution](https://docs.google.com/presentation/d/1k4PWKJR9O1jEGxKblSQtjDsloQ95uvu6Ty9Pjpmin7E/edit#slide=id.g129bb425d32_0_273)
 {{% /details %}}
 
-### Don’t
+### Don't
 
 - Use visual content if you cannot confirm the source of the content.
 - Use visual content depicting children.
 - Use images which prominently feature a logo, famous building or structure, or well-known person, even if obtained from Unsplash or a stock house. Such images are likely subject to restrictions by virtue of their subject, irrespective of the license covering the content itself.
-- Use gifs from GIPHY.com, as the content on that site is solely for personal and non-commercial purposes.
+- Use GIFs from GIPHY.com, as the content on that site is solely for personal and non-commercial purposes.
 
 ## AI-generated images
 
@@ -82,7 +82,7 @@ The legal environment surrounding AI-generated creative works, including images,
 ### **General Requirements**
 
 - When using AI-generated images, do not misrepresent the nature of the work, i.e., do not claim or imply that the image was human-generated.
-- Don’t use prompts that reference an artist by name. For example, don’t use `in the style of [artist name]`. You can, however, use a prompt like `in the impressionist style`.
+- Don't use prompts that reference an artist by name. For example, don't use `in the style of [artist name]`. You can, however, use a prompt like `in the impressionist style`.
 - Use only written prompts -- don't use an existing image as a prompt.
 - Use of any text-to-image model besides those listed under `Model-Specific Requirements` below is not permitted without prior legal review of the model's license and any applicable restrictions.
 - Don't use AI image generation to create logos.
@@ -100,12 +100,12 @@ The legal environment surrounding AI-generated creative works, including images,
 
 - Use excerpts from written content for the purpose of criticism or comment.
 - Use as short an excerpt of the original content as possible for your given purpose. Fair use is more likely to be established when a small portion of the original content is copied.
-- Provide attribution, ensuring that you follow any attribution guidelines which apply to the content you’re using.
+- Provide attribution, ensuring that you follow any attribution guidelines which apply to the content you're using.
 
-#### Don’t
+#### Don't
 
 - Use the entirety, or a large portion, of an article, paper or blog post.
-- Use excerpts, quotes or headlines of print and online news articles without following Corporate Communications’ [Sharing Media Coverage guidelines](/handbook/marketing/corporate-communications/#sharing-media-coverage).
+- Use excerpts, quotes or headlines of print and online news articles without following Corporate Communications' [Sharing Media Coverage guidelines](/handbook/marketing/corporate-communications/#sharing-media-coverage).
 
 ## Industry Analyst Content Use
 
@@ -130,8 +130,8 @@ If you aren't sure if the author of the content you're quoting is an industry an
 
 ### Do
 
-- Obtain audio content from permissively-licensed sources which allow **commercial** use of the content without payment of royalties or obtaining a separate license, or use content created by GitLab. If you’re unsure, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to review the license covering the content you want to use.
+- Obtain audio content from permissively-licensed sources which allow **commercial** use of the content without payment of royalties or obtaining a separate license, or use content created by GitLab. If you're unsure, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to review the license covering the content you want to use.
 
-### Don’t
+### Don't
 
 - Assume that a re-recording or cover of a popular song can be used. The recording, melody, and lyrics of a song are each distinct works protected by independent copyrights; a midi rendition composed by a GitLab team member on GarageBand of [The Eagles' *Hotel California*](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley) would likely infringe the copyright in the melody of the original song.

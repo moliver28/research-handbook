@@ -1,4 +1,5 @@
 ##### Development
+
 * Gives positive feedback in public and negative feedback privately with care.
 * Executes tasks in team projects, demonstrating ownership of them from conception to completion.
 * Requires supervision to deliver projects in time, growing bias for action.

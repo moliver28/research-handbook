@@ -1,7 +1,8 @@
 <!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
+{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
-{{- $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" (.Get 0) }}
+{{- $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/performance_indicators/%s.yml" $publicHandbookRef (.Get 0) }}
 {{- with resources.GetRemote $dataURL }}
   {{- with .Err}}
     <h2>Unable to fetch performance indicator Data</h2>
@@ -70,8 +71,8 @@
 
 {{ partial "performance-indicators/data-def" }}
 
-
 {{- define "kpi" }}
+
 ### {{ .name }}
 
 {{ .definition | markdownify }}
@@ -104,7 +105,7 @@
     {{- partial "performance-indicators/chart" (dict "data" . "open" $open) -}}
   {{- end -}}
   {{- with .tableau_data -}}
-  	{{- partial "performance-indicators/tableau-chart" (dict "data" . "open" $open) -}}
+   {{- partial "performance-indicators/tableau-chart" (dict "data" . "open" $open) -}}
   {{ end }}
 {{- end -}}
 
@@ -112,9 +113,12 @@
 **URL(s):**
 
 {{- range .}}
+
 - [{{.}}]({{.}})
 {{ end }}
 
 {{- end }}
+
 ---
+
 {{- end }}

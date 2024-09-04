@@ -3,7 +3,7 @@ title: "Dev Career Framework: Staff Fullstack Engineer"
 ---
 
 ## Dev Staff Fullstack Engineer
- 
+
 {{% include "includes/engineering-careers/dev-fullstack-career-matrix-nav.md" %}}
 
 **Dev Staff Fullstack Engineers at GitLab are expected to exhibit the following competencies:**
@@ -24,7 +24,7 @@ title: "Dev Career Framework: Staff Fullstack Engineer"
 {{% include "includes/engineering-careers/staff-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-staff-technical-competency.md" %}}
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-staff-values-competency.md" %}}

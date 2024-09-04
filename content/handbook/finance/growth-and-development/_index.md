@@ -30,7 +30,7 @@ Every individual is ultimately responsible for their career plan and managers ar
 
 To align with career development plans, we will create opportunities for cross training with other team members. This will not only allow for knowledge transfer for growth, it will also allow leadership opportunities for team members that wish to train.
 
-With the success of several mentorship programs at GitLab, we will create a [similar program for the Finance Org]({{< ref "./mentorship" >}}). An example for us to align to is the [Women in Sales Mentorship Program]({{< ref "women-in-sales-mentorship-pilot-program#women-in-sales-mentorship-program-pilot" >}}).
+With the success of several mentorship programs at GitLab, we will create a [similar program for the Finance Org](mentorship/). An example for us to align to is the [Women in Sales Mentorship Program]({{< ref "women-in-sales-mentorship-pilot-program#women-in-sales-mentorship-program-pilot" >}}).
 
 We will create opportunities to shadow finance leaders for team members to gain perspective and business acumen.
 
@@ -45,4 +45,3 @@ The CFO Shadow Program is a rotation that runs over the course of 2 weeks, with 
 Together with GitLab L&D, we created the [Finance Learning Hub](https://levelup.gitlab.com/pages/finance-hub), a curated learning channel in Level Up.
 
 To align and support the broader GitLab L&D efforts, we will promote the training made available by the People team. This will allow us to give back and contribute in a way that makes this program even stronger. We will continue to look for ways to create a curriculum that fits the different areas of the finance org.
-

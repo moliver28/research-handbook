@@ -1,15 +1,7 @@
 ---
-
 title: Customer Success Reporting and Dashboarding framework
 description: This page describes the underlying philosophy and framework for how to consider and build toward the long term goal of effective and efficient reporting and dashboarding
 ---
-
-
-
-
-
-
-
 
 ## Problem statement
 
@@ -17,7 +9,7 @@ We have multiple systems (Salesforce, Gainsight, Tableau) where reporting can ta
 
 ## Vision
 
-Each tool has a different value driver. Each report must address, “what is the primary purpose of the report/dashboard? To be operationalized or develop visuals/insights?”
+Each tool has a different value driver. Each report must address, "what is the primary purpose of the report/dashboard? To be operationalized or develop visuals/insights?"
 
 ### Framework
 
@@ -52,6 +44,3 @@ Drive action: CSM-specific reporting for actioning CTAs, Success Plans, burn-dow
 1. **Mitigate duplication** across reporting tools (some duplication is necessary and encouraged)
 1. **Actionable** for end-users where applicable to drill down and complete tasks or update activity logs
 1. **Visually designed** to ensure clarity of recommendations
-
-
-

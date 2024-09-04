@@ -504,5 +504,3 @@ Category is empty
 | Nominee | Rank | Points |
 | ------- | ----:| ------:|
 | [@emanuele.divizio](https://gitlab.com/emanuele.divizio) | 1 | 300 |
-
-

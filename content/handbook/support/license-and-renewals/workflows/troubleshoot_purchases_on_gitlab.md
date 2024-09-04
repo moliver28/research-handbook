@@ -16,7 +16,7 @@ Many subscription and consumption purchases can be made through GitLab.com. At t
 Our most reported known issues are:
 
 1. [Blank lastname/surname field](https://gitlab.com/groups/gitlab-org/-/epics/5785)
-1. [3D Secure](https://en.wikipedia.org/wiki/3-D_Secure) credit-card authentication protocol is [not supported](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3811)
+1. [3D Secure](https://en.wikipedia.org/wiki/3-D_Secure) credit-card authentication protocol [is supported](https://gitlab.com/groups/gitlab-org/-/epics/7714). There are, however, a few exceptions where the payment might fail. See [3D Secure Authentication 3DS](#3d-secure-authentication-3ds) for more information.
 1. [Email already taken](https://gitlab.com/gitlab-org/gitlab/-/issues/330608)
 
 We use an Issue to [document any issues](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels/-/issues/19) that might be a result of the workarounds described in this workflow.
@@ -46,15 +46,28 @@ Request the user to add a second name in their GitLab account profile as a tempo
 1. Scroll to the bottom and click on `Update profile settings` (Don't forget this)
 1. Retry the purchase
 
-### 3D Secure Authentication (3DS)
+### 3D Secure Authentication 3DS
 
 >
 > Transaction declined.generic_decline - Your card was declined
 
-Our current integration with Zuora does not support authorizing payment methods which require 3DS.
-With the volume of users requiring this being low, the issue has not yet been prioritized.
+Our existing integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). The issue is actively being worked on and will [soon also cover the Customers Portal](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9069).
 
-For now, the first option is to request the user to try another card.
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+>
+> card_error/authentication_required/authentication_required
+
+Our existing integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). Such transactions will fail after the card is added.
+
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+>
+> invalid_request_error/setup_intent_authentication_failure
+
+The 3DS authentication failed.
+
+The first option is to request the user to try again, or with a different another card.
 You can also [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
 
 ### Check whether the linked accounts have matching emails
@@ -73,9 +86,9 @@ This fails when a CustomersDot account with the email already exists.
 
 See the example scenarios for a more detailed explanation.
 
-##### Example Scenarios
+#### Example Scenarios
 
-###### Unlinked CustomersDot account for GitLab purchases
+##### Unlinked CustomersDot account for GitLab purchases
 
 Let's say a Customer X has an existing Customers Portal account with their email <customerX@example.com> either because:
 
@@ -87,7 +100,7 @@ The error is reported because *they did not link their Customers Portal account 
 
 🔧 To fix the problem, Customer X needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 
-###### Unlinked CustomersDot account for purchases via Sales
+##### Unlinked CustomersDot account for purchases via Sales
 
 Let's say a Customer Y purchases a subscription through Sales. Their signed Order Form has the **Sold To** contact's email as <customerY@example.com>.
 Once the Quote is processed, Zuora's [callout service](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/zuora/zuora_callouts.md#purpose)
@@ -104,7 +117,7 @@ The error is reported because *they did not link their Customers Portal account 
 
 🔧 To fix the problem, Customer Y needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 
-###### Linked accounts have different emails
+##### Linked accounts have different emails
 
 Let's say a Customer Z has an existing Customers Portal account (<customerZ@example.com>) either from an existing purchase or by creating a new account.
 And this Customers Portal account has been linked to a GitLab account (check the `GitLab Groups` tab) whose email is <gitlabZ@example.com>.

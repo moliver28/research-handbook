@@ -29,7 +29,7 @@ The Manager, SDR Enablement Programs is a [grade 8](/handbook/total-rewards/comp
 
 - Demonstrated progressive software sales experience with expertise in DevOps and/or Open Source, preferably in sales enablement and management.
 - Working knowledge of sales training technology and methodologies; demonstrable experience with sales, partner, and customer success enablement concepts, practices, and procedures.
-- Relevant experience preparing, developing, and executing global sales teams’ effectiveness strategies, tactics and action plans for a technology platform.
+- Relevant experience preparing, developing, and executing global sales teams' effectiveness strategies, tactics and action plans for a technology platform.
 - Experience growing within a small start-up. Strong ability to interact and influence effectively with VP-level and Director-level executives and team members.
 - Exceptional written/verbal communication and presentation skills.
 - Team player with strong interpersonal skills, skilled at project management and cross-functional collaboration.
@@ -52,14 +52,13 @@ Senior Manager, Sales Development Strategy Programs & Enablement is a [grade 9](
 - Drives the strategy and success of larger projects which contribute to multiple areas of the Sales Development organization.
 - Quickly identifies where a plan or idea for a program could break down and then intervenes; owns the resolution of significant issues
 - Designs and delivers compelling roadmaps and clear milestones for projects, including those that are large and nebulous
-- Articulates risks to the organization’s work and capabilities across programs
+- Articulates risks to the organization's work and capabilities across programs
 - When identifying risks, makes a compelling case to senior leaders with options for how to address the anticipated problem
-- Constantly looks for and addresses gaps in knowledge or “misses” that can be prevented
+- Constantly looks for and addresses gaps in knowledge or "misses" that can be prevented
 - Anticipate shifts in direction, and knows when to prepare or adapt the team based on interactions with leaders and others
 - Communicates what is around the corner to team, partners, and leaders and creates excitement for new ideas
-- Understand market trends, customer requirements, usage and buying behavior, and the partner ecosystem to better identify market opportunities and customer demand for GitLab’s product offerings.
+- Understand market trends, customer requirements, usage and buying behavior, and the partner ecosystem to better identify market opportunities and customer demand for GitLab's product offerings.
 - Responsible for the Sales Development execution and planning of Quarterly revenue plays.
-
 
 #### Senior Manager, Sales Development Strategy Programs & Enablement Programs Requirements
 
@@ -67,9 +66,8 @@ Senior Manager, Sales Development Strategy Programs & Enablement is a [grade 9](
 - Proven experience driving cross functional projects, programs and collaboration.
 - Experience in hiring, scaling, managing and leading a team.
 - Experience managing external vendors and agencies.
-- Relevant experience evangelizing, developing, and executing global sales teams’ effectiveness strategies, tactics and action plans for a technology platform.
+- Relevant experience evangelizing, developing, and executing global sales teams' effectiveness strategies, tactics and action plans for a technology platform.
 - Proven experience communicating to senior leadership the effectiveness of sales development enablement programs
-
 
 ## Performance Indicators
 
@@ -78,7 +76,6 @@ Senior Manager, Sales Development Strategy Programs & Enablement is a [grade 9](
 - Pipeline conversion and velocity
 - Sales Accepted Opportunity Attainment vs Goal
 - Net ARR Pipeline Generated
-
 
 ## Career Ladder
 

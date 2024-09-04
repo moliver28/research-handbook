@@ -77,7 +77,7 @@ The Staff Brand Manager reports to the Director, Brand Strategy.
 
 The Staff Brand Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-**Market Justification:** The Staff Brand Manager provides a high level of expertise in brand, marketing, and strategy to develop integrated marketing campaigns in an effort to increase GitLab’s brand awareness. Additionally, this role is specialized due to industry experience required to collaborate with high-profile individuals, agencies, executives, and other senior stakeholders. This role will help shape GitLab’s brand through collaboration and iteration. A comparable role at GitLab is the [Staff Brand Designer](/job-families/marketing/brand-designer/#staff-brand-designer).
+**Market Justification:** The Staff Brand Manager provides a high level of expertise in brand, marketing, and strategy to develop integrated marketing campaigns in an effort to increase GitLab's brand awareness. Additionally, this role is specialized due to industry experience required to collaborate with high-profile individuals, agencies, executives, and other senior stakeholders. This role will help shape GitLab's brand through collaboration and iteration. A comparable role at GitLab is the [Staff Brand Designer](/job-families/marketing/brand-designer/#staff-brand-designer).
 
 #### Staff Brand Manager Responsibilities
 
@@ -86,7 +86,7 @@ The Staff Brand Manager is a [grade 8](/handbook/total-rewards/compensation/comp
 - Oversee the brand message creation process, as well as make sure the copy on our web properties align with the message.
 - Develop and execute marketing campaigns aimed at communicating our brand message.
 - Work cross collaboratively to educate and communicate our brand personality internally and align company around the message.
-- Help evolve and maintain GitLab's brand positioning, how it’s articulated, how it is best deployed, across all marketing touchpoints.
+- Help evolve and maintain GitLab's brand positioning, how it's articulated, how it is best deployed, across all marketing touchpoints.
 - Partner with brand design team to plan, manage, and implement a calendar of brand opportunities to bring the GitLab brand to life.
 - Measure and report on success of brand marketing campaigns.
 - Oversee merchandise management.
@@ -131,7 +131,7 @@ The Senior Brand Manager is a [grade 7](/handbook/total-rewards/compensation/com
 - Works collaboratively with key stakeholders to develop and propose brand campaigns.
 - Creates timelines for deliverables and collaborate between stakeholders to driver brand campaigns in a timely and consistent manner.
 - Reports on brand campaign performance and measurement data.
-- Helps evolve and maintain GitLab's brand positioning, how it’s articulated, how it is best deployed, across all marketing touchpoints.
+- Helps evolve and maintain GitLab's brand positioning, how it's articulated, how it is best deployed, across all marketing touchpoints.
 - Partners with brand design team to plan, manage, and implement a calendar of brand opportunities to bring the GitLab brand to life.
 - Measures and reports on success of brand marketing campaigns.
 - Provides support with brand team process establishment and documentation.

@@ -1,18 +1,14 @@
 ---
-aliases: /handbook/engineering/management/career-development
 title: "Engineering Management Career Development"
 description: "Career development information and process to follow for Engineering Managers at GitLab."
 ---
 
 Outside of [hiring](/handbook/engineering/management/hiring/), the best way to improve the strengths of your team
-is to practice career development coaching with your developers. Not all team members will want to become Staff Developers or Managers. Instead, identifying their individual career goals and proactively working towards those goal is the most effective way to help team members improve and have ownership over their careers. In addition to the company-wide notes on [career
-mapping and
-development](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development),
+is to practice career development coaching with your developers. Not all team members will want to become Staff Developers or Managers. Instead, identifying their individual career goals and proactively working towards those goal is the most effective way to help team members improve and have ownership over their careers. In addition to the company-wide notes on [career mapping and development](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development),
 here are some important considerations for the Engineering team:
 
 - **Technical or Professional Leadership?** This is the first section on our
-  [career development
-  page](/handbook/engineering/career-development/#individual-contribution-vs-management)
+  [career development page](/handbook/engineering/career-development/#individual-contribution-vs-management)
   for a reason. For Senior Developers, this is the most important question to
   ask about their career goals, as it will determine where they go next. For
   anyone who hasn't yet made Senior, this is less important - they need to
@@ -20,8 +16,7 @@ here are some important considerations for the Engineering team:
   fork in our career paths.
 - **Assess together.** Once you know where your Developer wants to go with their
   careers, it's time to assess their strengths and weaknesses for the position.
-  This is best done by reviewing the [responsibilities and
-  requirements](/job-families/engineering/backend-engineer/) of the job they're
+  This is best done by reviewing the [responsibilities and requirements](/job-families/engineering/backend-engineer/) of the job they're
   interested in. If you both assess it separately, you can compare and contrast
   your results.
 - **Create a behavior-based plan.** Once you understand the Developer's
@@ -41,5 +36,4 @@ here are some important considerations for the Engineering team:
   created will result in a promotion if the Developer "checks all the boxes,"
   and you should feel free to add to or remove from the plan as they grow and
   you learn more about them. If and when you feel that they are ready for
-  promotion, please follow the [normal promotion
-  process](/handbook/people-group/promotions-transfers/).
+  promotion, please follow the [normal promotion process](/handbook/people-group/promotions-transfers/).

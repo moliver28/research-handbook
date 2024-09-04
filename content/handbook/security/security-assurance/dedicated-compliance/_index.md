@@ -2,18 +2,18 @@
 title: "Security Compliance, Dedicated Markets Team"
 ---
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Compliance (Dedicated Markets) Mission
+## Security Compliance (Dedicated Markets) Mission
 
 Our Mission is to advance customer trust with a focus on customers operating in highly regulated industries or who otherwise have unique security and compliance requirements. We will accomplish this mission by:
 
 1. Enabling [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#gitlab-dedicated) to be the most trusted DevSecOps offering in the market, demonstrated by security certifications and attestations.
 1. Achieving and maintaining industry-specific security certifications such as [FedRAMP]({{< ref "fedramp-compliance" >}}) and [FIPS 140-2 compliance](https://docs.gitlab.com/ee/development/fips_compliance.html#fips-compliance) for the U.S. Public Sector.
 1. Applying compliance automation and compliance-as-code guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams.
-1. Use our own product ([dogfooding]({{< ref "values#dogfooding" >}})) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same.
+1. Use our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same.
 
 For more information on the direction of the GitLab Dedicated category, please see [this page](https://about.gitlab.com/direction/saas-platforms/dedicated/).
 
-## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies
+## Core Competencies
 
 As a member of the [Security Assurance]({{< ref "security-assurance" >}}) sub-department, and extension of the commercial [Security Compliance team]({{< ref "../security-compliance" >}}), we share many of the same core competencies. The difference between our teams is in the product/system scope (GitLab Dedicated and any future offerings for highly regulated markets) and the security certifications we are pursuing.
 
@@ -36,18 +36,18 @@ As a member of the [Security Assurance]({{< ref "security-assurance" >}}) sub-de
 
 Some of our work is [not public]({{< ref "confidentiality-levels#not-public" >}}) for now. Please see the [internal handbook](https://internal.gitlab.com/handbook/engineering/fedramp-compliance/) to find out more about what our team is working on, or reach out to us.
 
-## <i class="fa-solid fa-magnifying-glass"></i> Vision and Focus Areas
+## Vision and Focus Areas
 
 Security Compliance is part of the [2nd line of defense](https://www.isaca.org/resources/isaca-journal/issues/2018/volume-4/roles-of-three-lines-of-defense-for-information-security-and-governance#:~:text=While%20the%20three%20lines%20of,explore%20ways%20to%20optimize%20outputs) and our goal is identify and treat risks early before they have more severe impacts later on (i.e. regulatory or reputational). We strive to partner with the 1st line of defense (Engineering, Product, and other parts of the organization) to shift compliance left where it is both more effective and less burdensome. To achieve that vision, we need to focus on the following areas and solicit feedback from other parts of the organization:
 
 - Meet our stakeholders where they are
-   - Learn the key projects, architectures, and technologies of the products we support
+  - Learn the key projects, architectures, and technologies of the products we support
 - Reduce [toil](https://sre.google/sre-book/eliminating-toil/) for control owners and ourselves
-   - Automate controls as part of the 1st line of defense and look for efficiencies
+  - Automate controls as part of the 1st line of defense and look for efficiencies
 - Modernize and scale
-   - Identify and implement Governance, Risk, and Compliance (GRC) best practices and "cloud native compliance" solutions
+  - Identify and implement Governance, Risk, and Compliance (GRC) best practices and "cloud native compliance" solutions
 - Measure success and impact on customer trust
-   - Identify actionable key performance indicators (KPIs) and key risk indicators (KRIs) for leadership
+  - Identify actionable key performance indicators (KPIs) and key risk indicators (KRIs) for leadership
 
 ## Where we work
 
@@ -69,7 +69,7 @@ We also have weekly 1:1s and skip levels in line with the GitLab philosophy.
 
 We use an [agile project management](https://about.gitlab.com/solutions/agile-delivery/) approach for our work, leveraging as many GitLab platform features as we can. We use epics, issues, and issue/epic boards to organize our work, as they complement each other. For some of the work, we also use roadmaps, milestones, burndown charts.
 
-The single source of truth for *all* of our team's work across different functions is the top-level [Security Compliance (Dedicated Markets) team epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/248). In the future, the epic will contain a section that tracks the status all ongoing work. The following subsections are borrowed from the [GitLab Dedicated Group](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management).
+The single source of truth for *all* of our team's work across different functions is the top-level [Security Compliance (Dedicated Markets) team epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/248). In the future, the epic will contain a section that tracks the status all ongoing work. The following subsections are borrowed from the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management).
 
 #### Epic Hierarchy
 
@@ -145,7 +145,6 @@ Process to close phases:
 1. Management then determines roadmap adjustments so that planned work in future phases remains realistic after shifting open work.
 1. Roadmap changes are shared in the next weekly sync.
 
-
 #### Issue Board
 
 Similar to the epic board, all issues tied to work on our roadmap should use the appropriate labels and be tracked on the [SecComp Dedicated Markets issue board](https://gitlab.com/groups/gitlab-com/-/boards/5913253?label_name[]=Sub-Department%3A%3ASecComp%20Dedicated%20Markets).
@@ -182,7 +181,7 @@ If no update has been provided in an epic or issue for over a week, the issue wi
 
 #### Reporting
 
-We provide reports on status of GitLab Dedicated to meet [Top Cross-Functional Initiative requirements](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris).
+We provide regulat status reports in our epic descriptions in order to keep leadership informed, ensure the team is aligned and can find the latest information, and for purposes of reporting to applicable [Working Groups](/handbook/company/working-groups/_index.md#active-working-groups-alphabetic-order) we participate in.
 
 ### Backlog Refinement
 
@@ -226,15 +225,15 @@ Currently, we use monthly milestones and a burnup/burndown chart to track recurr
 1. [FedRAMP Vulnerability Posture (limited access)](https://10az.online.tableau.com/#/site/gitlab/views/Draft-FedRAMPVulnerabilityPosture/FedRAMPVulnerabilityPostureDashboard?:iid=1)
 1. [Vulnerability Deviation (Exception) Requests](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/insights/#/issues)
 
-## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
+## Contact the Team
 
 - Slack
-   - Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team
-   - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
-   - FedRAMP questions should be directed to the `# wg_fedramp` channel
+  - Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team
+  - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
+  - FedRAMP questions should be directed to the `# wg_fedramp` channel
 - Tag us in GitLab
-   - `@gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance`
+  - `@gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance`
 - Email
-   - `security-compliance@gitlab.com`
+  - `security-compliance@gitlab.com`
 - Here are our team's GitLab.com [subgroups and projects](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance)
 - Interested in joining our team? Check out more [here](/job-families/security/security-assurance-job-family)!

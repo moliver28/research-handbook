@@ -1,14 +1,7 @@
 ---
-
 title: "Environments Canary Stage"
 description: "Detailed information about how the Canary stage works in our Environments"
 ---
-
-
-
-
-
-
 
 ## Environments Canary Stage
 
@@ -126,17 +119,18 @@ for the environment will change it for both main and canary stages of an environ
 Some examples for the most commonly used environments are as follows
 
 Feature flags on staging and staging-canary:
-  * Enable:  `/chatops run feature set feature_flag_name true --staging`
-  * Disable: `/chatops run feature set feature_flag_name false --staging`
+
+* Enable:  `/chatops run feature set feature_flag_name true --staging`
+* Disable: `/chatops run feature set feature_flag_name false --staging`
 
 Feature flags on production and production-canary:
-  * Enable `/chatops run feature set feature_flag_name true`
-  * Disable `/chatops run feature set feature_flag_name false`
+
+* Enable `/chatops run feature set feature_flag_name true`
+* Disable `/chatops run feature set feature_flag_name false`
 
 ### How do I get console access to the canary stage?
 
-Currently the canary stage has no console access, you can [standard console
-access process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Rails_Console_via_Teleport.md)
+Currently the canary stage has no console access, you can [standard console access process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Rails_Console_via_Teleport.md)
 to access a console server in the environment running the main stage of the code
 only. Note that as the database is shared between stages, depending on what
 actions your perform in the console, it will affect the "canary" stage as well
@@ -153,21 +147,22 @@ an incident.
 
 The chatops command to disable canary in an environment is as follows
 
-```
-# Disable production-canary
+```markdown
+## Disable production-canary
 /chatops run canary --disable --production
 
-# Disable staging-canary
+## Disable staging-canary
 /chatops run canary --disable
 ```
+
 #### Re-enabling canary stage in an environment
 
 The chatops command to re-enable canary in an environment is as follows
 
-```
-# Disable production-canary
+```markdown
+## Disable production-canary
 /chatops run canary --enable --production
 
-# Disable staging-canary
+## Disable staging-canary
 /chatops run canary --enable
 ```

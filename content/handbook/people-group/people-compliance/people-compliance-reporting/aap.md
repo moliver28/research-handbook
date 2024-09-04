@@ -7,7 +7,7 @@ GitLab Inc (including GitLab Federal) is categorized as a U.S. federal contracto
 
 ## Why are we an Affirmative Action employer?
 
-A US employer is subject to US Federal affirmative action regulations if it has 50 or more employees and a Federal contract or subcontract of $50,000 or more. GitLab met those requirements in 2020.
+A US employer is subject to US Federal affirmative action regulations if it has 50 or more employees and a Federal contract or subcontract of $50,000 or more.
 
 ## What is involved as an Affirmative Action employer?
 
@@ -58,7 +58,7 @@ The 6 main categories that are applicable to GitLab are:
 
 The remaining four job groups are not applicable to GitLab: Craft Workers; Operatives; Laborers and Helpers; Service Workers.
 
-In addition to the 6 main EEO job group categories, GitLab sub-categorizes certain larger categories to ensure a better understanding of distribution, utilization, hiring and promotion according to similar roles and levels. Workday only contains the main categorization. Here are GitLab’s sub-categories and their definitions:
+In addition to the 6 main EEO job group categories, GitLab sub-categorizes certain larger categories to ensure a better understanding of distribution, utilization, hiring and promotion according to similar roles and levels. Workday only contains the main categorization. Here are GitLab's sub-categories and their definitions:
 
 ### 1A. Executive/Senior Level Officials and Managers
 

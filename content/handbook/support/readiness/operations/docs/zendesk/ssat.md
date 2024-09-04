@@ -9,7 +9,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/ssat"
 As per
 [Zendesk](https://support.zendesk.com/hc/en-us/articles/203660816-Customizing-your-customer-satisfaction-survey)
 
-> One of Zendesk Support’s most popular features is our built-in customer
+> One of Zendesk Support's most popular features is our built-in customer
 > satisfaction survey. Customer satisfaction allows you to track how well your
 > agents and customer service organization as a whole are performing on a
 > ticket by ticket basis. Because of our simplified approach, on average our

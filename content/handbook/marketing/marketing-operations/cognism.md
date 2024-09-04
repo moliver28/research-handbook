@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/marketing/marketing-operations/Cognism
 title: "Cognism"
 description: "Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline"
 ---
-
-
-
-
-
-
 
 ## About Cognism
 
@@ -22,7 +15,7 @@ Once you receive your login and enter the Cognism platform you will need to down
 
 Once you are logged in into your Cognism Web-App, start by connecting your tools (Salesforce & Outreach). This will allow you to export leads to both tools.
 
-Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/4403394602130-How-to-integrate-Cognism-to-Outreach) documentations if need be.
+Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/12127689794834-How-to-integrate-Cognism-to-Outreach) documentations if need be.
 
 ## Ways to access Cognism
 
@@ -34,7 +27,7 @@ For the moment, the Cognism Web App and the Cognism Chrome Extension are only us
 
 The Cognism data that was enriched on specific lead records, however, can be viewed by anyone by just checking the Cognism fields on the lead & contact objects.
 
-Note, we redistribute inactive seats to new Cognism users. Any users who have not logged in to Cognism in the last 2 months are at risk of losing their seats. If you wish to keep your Cognism seats, please be sure you are regularly logging in and using the platform. 
+Note, we redistribute inactive seats to new Cognism users. Any users who have not logged in to Cognism in the last 2 months are at risk of losing their seats. If you wish to keep your Cognism seats, please be sure you are regularly logging in and using the platform.
 
 ## Training
 
@@ -121,4 +114,3 @@ If a temporary license is assigned to a non-BDR role it can be revoked at any ti
 ### Pending Invites
 
 Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
-

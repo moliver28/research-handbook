@@ -144,7 +144,7 @@ The IT Compliance role is a [grade 8](/handbook/total-rewards/compensation/compe
 
 - Build, scale, and manage our IT Compliance team to support our needs as a distributed company
 - Be the IT Compliance Expert at GitLab
-- Hold regular 1:1’s with all members of the IT Compliance team
+- Hold regular 1:1's with all members of the IT Compliance team
 - Triage and manage priorities of the IT Compliance team
 - Represent the IT Compliance team in different company functions
 - Create and execute a plan to develop and mature our IT Compliance capabilities and Infrastructure
@@ -156,7 +156,7 @@ The IT Compliance role is a [grade 8](/handbook/total-rewards/compensation/compe
 This role includes all of the requirements above, plus:
 
 - Experience working with leadership to execute on IT Compliance processes and procedures
-- Contribute to and enable GitLab’s operational strategy by enabling distributed asynchronous operations while ensuring compliance with GDPR, SOX, ISO 27001, and other standards
+- Contribute to and enable GitLab's operational strategy by enabling distributed asynchronous operations while ensuring compliance with GDPR, SOX, ISO 27001, and other standards
 - Ability to use GitLab
 - Experience building and maintaining corporate IT Compliance policies and processes
 

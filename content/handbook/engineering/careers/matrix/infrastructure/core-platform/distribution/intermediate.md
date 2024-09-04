@@ -14,14 +14,13 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 ---
 
-
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
 
-{{$ include "includes/engineering/development-intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-leadership-competency.md" %}}
 
-##### Distribution
+#### Distribution
 
 - Participates in team trainings, issue triage, and process review.
 - Performs Code Reviews within their domain on a regular cadence.
@@ -35,7 +34,7 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 {{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
 
-##### Distribution
+#### Distribution
 
 - Capable of presenting training or demos, within their team domain.
 - Proficient or fluent with one or more languages to build, deploy and manage GitLab installations.
@@ -44,7 +43,7 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 - Develops documentation and instructions explaining how to configure, install and manage GitLab service components.
 - Able to install and review GitLab installations in multiple deployment configurations.
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 

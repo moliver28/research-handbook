@@ -6,7 +6,7 @@ canonical_path: "/company/structure/"
 
 ## Introduction
 
-On this page we plan to take you through the organizational structure, layers and Job Frameworks that build GitLab as a company. We are working with two Job Frameworks, one for Individual Contributors and one for People Managers. We aim to explain how we use those frameworks, other projects and further considerations in GitLab’s Organizational Structure.
+On this page we plan to take you through the organizational structure, layers and Job Frameworks that build GitLab as a company. We are working with two Job Frameworks, one for Individual Contributors and one for People Managers. We aim to explain how we use those frameworks, other projects and further considerations in GitLab's Organizational Structure.
 
 ## Organizational chart
 
@@ -36,7 +36,7 @@ While today the dual-career path is most built out in our Engineering division, 
 
 ## Job Frameworks
 
-We’ve developed Job frameworks to provide clarity and consistency in our expectations for each job level at GitLab. There are two Job Frameworks: [one for Individual Contributors and one for People Managers](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618) which are available to internal GitLab team members only, that map to the levels outlined in our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). If we make any updates to the frameworks we will always communicate that broadly. If you as a team member want to propose any changes we recommend that you to open a confidential issue in [the People Business Partner project](https://gitlab.com/gitlab-com/people-group/people-business-partners/-/issues?sort=created_date&state=opened).
+We've developed Job frameworks to provide clarity and consistency in our expectations for each job level at GitLab. There are two Job Frameworks: [one for Individual Contributors and one for People Managers](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618) which are available to internal GitLab team members only, that map to the levels outlined in our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). If we make any updates to the frameworks we will always communicate that broadly. If you as a team member want to propose any changes we recommend that you to open a confidential issue in [the People Business Partner project](https://gitlab.com/gitlab-com/people-group/people-business-partners/-/issues?sort=created_date&state=opened).
 
 ### Goals of the Job Frameworks
 
@@ -49,19 +49,20 @@ Having Job frameworks that managers and team members share will help us make thi
 ### How to use Job Frameworks
 
 We are using the Job Frameworks in the following programs:
+
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
-   - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
-   - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
+  - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
+  - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
 - [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/#having-career-development-conversations)
-   - Both managers and team members can leverage the frameworks in their conversations.
-   - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
+  - Both managers and team members can leverage the frameworks in their conversations.
+  - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
 - Organizational Design and Headcount Planning
-   - The frameworks will support Leadership and hiring teams in identifying the appropriate levels for to be opened roles.
-   - For expanding and introducing new job levels we will leverage the frameworks to review what distinctive competencies are that we would need.
+  - The frameworks will support Leadership and hiring teams in identifying the appropriate levels for to be opened roles.
+  - For expanding and introducing new job levels we will leverage the frameworks to review what distinctive competencies are that we would need.
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
-   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
+  - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-   - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
+  - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
 
 ### Competencies per Job
 
@@ -73,9 +74,9 @@ This ranges from focus on own work to cross-company and external influence in te
 This ranges from low/moderate complexity and problem solving to highly complex issues that influence the accomplishment of long-term goals of GitLab.
 - **Leadership & People Management/Communication**: The level of leadership they display and how they communicate within the organization. We expect that individual contributors also show leadership in their roles.
 This ranges from within their team to executives and board members.
-- [**Values Competencies**](/handbook/competencies/#values-competencies): Competencies that are aligned with our [CREDIT Values](/handbook/values/#credit).
-- [**Remote Working Competencies**](/handbook/competencies/#remote-work-competencies): Competencies that are aligned with our Remote working competencies.
-- [**Functional Competencies**](/handbook/competencies/#functional-competencies): Competencies that are specific per function. These are built out by each function themselves.
+- [**Values Competencies**](/handbook/people-group/competencies/#values-competencies): Competencies that are aligned with our [CREDIT Values](/handbook/values/#credit).
+- [**Remote Working Competencies**](/handbook/people-group/competencies/#remote-work-competencies): Competencies that are aligned with our Remote working competencies.
+- [**Functional Competencies**](/handbook/people-group/competencies/#functional-competencies): Competencies that are specific per function. These are built out by each function themselves.
 
 Besides the above competency categories we have added two categories to the Job Frameworks:
 
@@ -92,7 +93,7 @@ You can find [the Job Framework for People Managers in the tab here](https://doc
 
 #### General Expectations of all People Managers
 
-For all People Managers we have general expectations in behavior which [we describe below](#management-group). These are not captured in the Job Framework but rather can be used as a guide on how we expect people managers to behave and interact with their team/peers. The difference with the Job Framework is that it doesn’t describe high level competencies but rather sets very concrete expectations and GitLab basics.
+For all People Managers we have general expectations in behavior which [we describe below](#management-group). These are not captured in the Job Framework but rather can be used as a guide on how we expect people managers to behave and interact with their team/peers. The difference with the Job Framework is that it doesn't describe high level competencies but rather sets very concrete expectations and GitLab basics.
 
 #### Managers
 
@@ -134,7 +135,7 @@ Members of the S-group are expected to demonstrate leadership in the way all mem
 
 #### VP
 
-VP’s are members of our [S-group](#s-group). VP’s are typically managers of Senior Directors and/or Directors. Similar to Senior Directors they map to departments.
+VP's are members of our [S-group](#s-group). VP's are typically managers of Senior Directors and/or Directors. Similar to Senior Directors they map to departments.
 
 Typically a VP reports to an Executive.
 
@@ -204,11 +205,11 @@ Members of the management group are expected to demonstrate leadership in the wa
 1. Do not discuss raises in advance because the salary calculator may change before the amount of the raise is decided.
 1. Do not discuss promotions, salary increases, or bonuses until the changes have gone through the entire approval process. People Ops will inform the manager when they can inform the team member of the promotion and increase.
 1. Instead of prescribing a direction to your reports, it is best to ask questions following the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method) until you're happy with the direction. Your reports will have deeper knowledge in a more narrow area, so it is easy to draw different conclusions because they base theirs on different data. That is why the questions are so important.
-1. Follow [Berkshire's common injunction](https://www.hb.org/the-psychology-of-human-misjudgment-by-charles-t-munger/): "Always tell us the bad news promptly. It is only the good news that can wait." Make sure to inform your manager of bad news as quickly as possible. Promptly reporting bad news is essential to preserving the trust that is needed to recover from it.
-1. Try to avoid military analogies and imagery. We're not an army, we're not at war, there is no battle, we're not killing anyone, and we don't have weapons. Military language is [not inclusive](https://www.london.edu/faculty-and-research/lbsr/killing-the-competition) and can lead to zero sum thinking. We take competing and winning very seriously, but there is no need to describe things using vocabulary of physical violence. Similarly, non-collaborative and aggressive terms like "rockstar" and "badass" put up walls between people. If a term is standard in the industry, for example [killing a Unix process](https://shapeshed.com/unix-kill/#how-to-kill-a-process), it is acceptable to use it because that is more efficient. Do use "primary-secondary" instead of "master-slave" for replication mechanisms.
+1. Follow [Berkshire's common injunction](https://www.harrisonbarnes.com/the-psychology-of-human-misjudgment-by-charles-t-munger/): "Always tell us the bad news promptly. It is only the good news that can wait." Make sure to inform your manager of bad news as quickly as possible. Promptly reporting bad news is essential to preserving the trust that is needed to recover from it.
+1. Try to avoid military analogies and imagery. We're not an army, we're not at war, there is no battle, we're not killing anyone, and we don't have weapons. Military language is [not inclusive](https://www.london.edu/faculty-and-research/lbsr/killing-the-competition) and can lead to zero sum thinking. We take competing and winning very seriously, but there is no need to describe things using vocabulary of physical violence. Similarly, non-collaborative and aggressive terms like "rock star" and "badass" put up walls between people. If a term is standard in the industry, for example [killing a Unix process](https://shapeshed.com/unix-kill/#how-to-kill-a-process), it is acceptable to use it because that is more efficient. Do use "primary-secondary" instead of "master-slave" for replication mechanisms.
 1. Complain up and explain down. Raise concerns you hear to your manager. When peers or reports complain, explain why a decision was made. If you don't understand why, ask your manager.
 1. Create empathy for decisions from other leaders that negatively impact your team by explaining the reasons behind them. Organize a recorded AMA session with your team and the other leaders and encourage your team (as well as yourself) to ask any unanswered questions. Lead by example by ensuring that the discussion exposes what is [best for the organization as a whole](/handbook/values/#global-optimization). Never present yourself as protecting the team from the rest of the organization; this creates a [siege mentality](https://en.wikipedia.org/wiki/Siege_mentality) and hinders [collaboration](/handbook/values/#collaboration).
-1. Coach team members to establish good [remote work practices](/handbook/company/culture/all-remote/), by encouraging [asynchronous communication](/handbook/company/culture/all-remote/management/#asynchronous), being [handbook-first](/handbook/handbook-usage/#why-handbook-first), communicating poor audio or [video quality](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/), or pointing out an open microphone.
+1. Coach team members to establish good [remote work practices](/handbook/company/culture/all-remote/), by encouraging [asynchronous communication](/handbook/company/culture/all-remote/management/#asynchronous), being [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), communicating poor audio or [video quality](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/), or pointing out an open microphone.
 1. Ensuring that GitLab's policies are upheld is an essential part of a manager's responsibility. Managers have an obligation to look out for both their team members and the business's best interest. If a manager becomes aware that a team member is in violation of a GitLab policy (including *but not limited to* the [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) and [Relocation policy](/handbook/people-group/relocation/) as examples), it is their responsibility to communicate this to the [aligned People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) or Legal team immediately.
 
 #### Board Members
@@ -259,6 +260,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 #### Directs-Group Selection Criteria
 
 Each Directs-Group cohort must meet the following criteria:
+
 1. High growth and high performing team members in good standing
 1. Director + who are direct reports to an E-Group member
 1. Folks who consistently demonstrate [CREDIT Values](/handbook/values/)
@@ -292,7 +294,7 @@ Each cohort will have an E-Group sponsor for the duration of the cohort. This pe
 
 ### Directs-Group Participants
 
-Past, present and future Directs-Group Particpants will be listed here.
+Past, present and future Directs-Group Participants will be listed here.
 
 | Term | Directs-Group Cohort Members |
 |-------------|--------------------------------|
@@ -316,10 +318,10 @@ VP-Directs Group is largely made up of VP-Directs, VPs who report directly to me
 
 Through monthly meetings and a Slack channel, this group will be engaged to:
 
-1. **Cascade information:** E-Group has a specific message that the organization needs to absorb and understand and senior leaders can help in communicating the message. This is particularly important when heavy change management is required for a specific issue or challenge and E-Group needs broader leadership support. We’d ask this group to absorb it and drive the change through their organizations.
+1. **Cascade information:** E-Group has a specific message that the organization needs to absorb and understand and senior leaders can help in communicating the message. This is particularly important when heavy change management is required for a specific issue or challenge and E-Group needs broader leadership support. We'd ask this group to absorb it and drive the change through their organizations.
 1. **Provide information and share perspectives:** This group can be a senior sounding board as decisions are made or actions are being taken. For example, this group could be engaged when E-Group has identified a need for a strategic organizational pivot and broader senior level input is desired.
 1. **Provide cross-functional initiative leadership:** E-Group may ask this group to take on specific cross-functional initiatives. For example, this group could play a role in addressing feedback from the Employee Engagement Survey (alongside all functional leaders) or support strategic planning activities.
-1. **Hear from customers:** We’ll invite customers to speak to this group, so we can, as a leadership group, understand their perspective on GitLab and our challenges and opportunities and continue to drive customer-centricity throughout the organization.
+1. **Hear from customers:** We'll invite customers to speak to this group, so we can, as a leadership group, understand their perspective on GitLab and our challenges and opportunities and continue to drive customer-centricity throughout the organization.
 
 ### VP-Directs Group Commitment
 
@@ -331,9 +333,10 @@ Through monthly meetings and a Slack channel, this group will be engaged to:
 ### VP-Directs Group Management
 
 Initial management will include:
+
 1. Rotating E-Group sponsor: formal E-Group representative
 1. The Chief of Staff to the CEO: owns E-Group interlock, partners with sponsor
-1. VP of Talent and Engagement: Owns team engagement and partners with VP of Global comms on internal comms. VP of Global Comms owns broader communication where necessary.
+1. VP of Talent and Engagement: Owns team engagement and partners with VP of Global communications on internal communications. VP of Global communications owns broader communication where necessary.
 This initial management team will be responsible for getting the group up and running and starting to establish rigor & routine. We can iterate from this model as we better understand this
 The management team will:
 1. Coordinate with the EBA team to ensure that invite series are sent and established
@@ -378,6 +381,7 @@ Our groups operate on the principle of [stable counterparts](/handbook/leadershi
 For example, we have a Product Manager, Product Marketing Manager, Engineering Manager, Content Marketer, Backend Developers, Frontend Developers, and Product Designers that are all dedicated to a group called "Package". Collectively, these individuals form the "Package group". The word "Package" appears in their titles as a specialty, and in some cases, their team name.
 
 We distinguish between types of stable counterparts to these Product Groups with:
+
 - Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 - Complete Stable Counterparts - All team members assigned to product hierarchy from functions outside of the primary functions and defined in our [product categories page](/handbook/product/categories/). For example - we assign stable counterparts from Support, Product Marketing and Customer Success who are all considered part of the complete stable counterparts.
 
@@ -419,7 +423,7 @@ The [Learning & Development](/handbook/people-group/learning-and-development/) t
 
 #### Setting Product Group for Team Members
 
-Because it is our single source of truth (SSOT) for employee data, BambooHR serves as the SSOT for product group assignment. Each team member in R&D functions (Product/Engineering) is assigned a `specialty` field in their `team.yml` entry. While this entry is editable in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person), any adjustments will be [over-written by a daily sync](/handbook/people-group/engineering/miscellaneous/#specialty-field) from BambooHR. In order to adjust a team members specialty their manager must initiate a [Job Information Change](/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change).
+Because it is our single source of truth (SSOT) for employee data, Workday serves as the SSOT for product group assignment. Each team member in R&D functions (Product/Engineering) is assigned a `specialty` field in their `team.yml` entry. While this entry is editable in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person), any adjustments will be [over-written by a daily sync](/handbook/people-group/engineering/miscellaneous/#specialty-field) from Workday. In order to adjust a team members specialty their manager must initiate a [Job Information Change](/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change).
 
 When designating a team members `specialty` we use the smallest unit of our Product [hierarchy](/handbook/product/categories/#hierarchy) and their designated [names](/handbook/product/categories/#naming). So for example:
 
@@ -431,7 +435,7 @@ When designating a team members `specialty` we use the smallest unit of our Prod
 
 The goal of a Single-Engineer Group (SEG) is to initiate GitLab into a planned or minimal category within the GitLab project. The single-engineer group is not to invest in an existing viable or complete category.  Here is a [list](https://about.gitlab.com/direction/#single-engineer-groups) of product ideas that are candidates for a SEG to work on.
 
-At GitLab, we believe in the power of a single engineer to accomplish amazing feats.  Many open source projects started with a single engineer’s  decision to build around a problem they personally experienced. For instance, [Continuous Integration](https://docs.gitlab.com/ee/ci/) by [DZ](/handbook/company/team/#dzaporozhets) and [GitLab Runner](https://docs.gitlab.com/runner/) by [Kamil](/handbook/company/team/#ayufan). We want to create room for this energy.
+At GitLab, we believe in the power of a single engineer to accomplish amazing feats.  Many open source projects started with a single engineer's  decision to build around a problem they personally experienced. For instance, [Continuous Integration](https://docs.gitlab.com/ee/ci/) by [DZ](/handbook/company/team/#dzaporozhets) and [GitLab Runner](https://docs.gitlab.com/runner/) by [Kamil](/handbook/company/team/#ayufan). We want to create room for this energy.
 
 Our belief is that we can guarantee a higher rate of success by incubating ideas inside our larger organization and existing code base while limiting the negative aspects of friction that come from a larger organization. A few benefits of SEG include:
 
@@ -439,11 +443,11 @@ Our belief is that we can guarantee a higher rate of success by incubating ideas
 1. There is not enough code for multiple people to work on without running into merge conflicts.
 1. Starting work earlier allows for more time for other people to contribute. We need to have a head start many years ahead of commercialization.
 
-As a matter of process, we require that Single-engineer groups take part in our [Software Demo Process](/handbook/engineering/demos/#single-engineer-groups-demo) as a way to collaborate asyncronously with stakeholders, get iterative feedback, and maintain at least minimal alignment with the rest of GitLab while keeping their autonomy
+As a matter of process, we require that Single-engineer groups take part in our [Software Demo Process](/handbook/engineering/demos/#single-engineer-groups-demo) as a way to collaborate asynchronously with stakeholders, get iterative feedback, and maintain at least minimal alignment with the rest of GitLab while keeping their autonomy
 
-If the group finds great success, as measured by adoption, and needs to drive deeper category maturity then the next step is to consider forming a multi-person group. Sometimes the category is complete and the group can successfully dissolve. There are other times when the category does not yeild the adoption. We will gather the lessons learned and consider either dissolving the group or investing further based on the learnings.
+If the group finds great success, as measured by adoption, and needs to drive deeper category maturity then the next step is to consider forming a multi-person group. Sometimes the category is complete and the group can successfully dissolve. There are other times when the category does not yield the adoption. We will gather the lessons learned and consider either dissolving the group or investing further based on the learnings.
 
-We have a huge opportunity in front of us and we want to be ambitious. Therefore over time we want to invest 10% of our R&D to continue to pursue these. However, in the spirit of iteration, we will start with only a handful of Single-engineer groups. As we learn more, and we get more dollars to invest, we will gradualy add more SEGs.
+We have a huge opportunity in front of us and we want to be ambitious. Therefore over time we want to invest 10% of our R&D to continue to pursue these. However, in the spirit of iteration, we will start with only a handful of Single-engineer groups. As we learn more, and we get more dollars to invest, we will gradually add more SEGs.
 
 ##### Success criteria
 
@@ -468,7 +472,7 @@ Criteria for the engineer:
 - The engineer must be a senior engineer (or above)
 - They must be passionate about the subject matter
 - They must be excited about the ability to work independently, or have prior success in a similar model
-- Being a prior company technical cofounder
+- Being a prior company technical co-founder
 - Being an early contributor to a successful open source project
 - Working successfully on a prior single-engineer group
 
@@ -538,9 +542,9 @@ We want to optimize for IACV and customer success and .com is simply a way to de
 Our innovation and impact will slow down if we need to maintain two separate products and focus our energy on only one of them.
 The majority of work in any role applies to both ways of delivery GitLab, self-managed and .com.
 
-1. We have a functionally organized company, the functions need to as mutally exclusive as possible to be efficient, .com overlaps with a small part of many functions.
-1. Having .com specific people will increase the pressure to get to two codebases, that can be a big hindrance: "splitting development between two codebases and having one for cloud and one for on-prem is what doomed them", and "they split cloud and on-prem early on and it was a 10-year headache with the OP folks feeling left in line to jump in the pool but never could.  While cloud pushed daily/weekly with ease, OP was *easily* 6-mo behind leaving customers frustrated"
-1. The [reasons .com customers churned](https://drive.google.com/file/d/1QhGrofKbiUIJSv7ZI524FshoKnS-6y-P/edit) were all things that occur in both self-managed and .com
+1. We have a functionally organized company, the functions need to as mutually exclusive as possible to be efficient, .com overlaps with a small part of many functions.
+1. Having .com specific people will increase the pressure to get to two codebases, that can be a big hindrance: "splitting development between two codebases and having one for cloud and one for on-prem is what doomed them", and "they split cloud and on-prem early on and it was a 10-year headache with the OP folks feeling left in line to jump in the pool but never could.  While cloud pushed daily/weekly with ease, OP was *easily* 6-mo behind leaving customers frustrated".
+1. The reasons .com customers churned were all things that occur in both self-managed and .com.
 1. Improvements we can make in user growth might be informed by .com specific data but can be implemented for both delivery mechanisms.
 
 #### Exception: Product Management Senior Leader

@@ -1,13 +1,6 @@
 ---
-
 title: Incubation Engineer's Playbook
 ---
-
-
-
-
-
-
 
 ## Incubation Engineer's Playbook
 
@@ -50,7 +43,7 @@ Each SEG should add a section to their handbook page and create a table with 3 t
 
 **Job statements** should be written from the perspective of the user and describe the problem they are trying to solve. As in "When [situation], I want to [job], so I can [outcome]." See the JTBD page in the UX handbook for [guidance on writing job statements](/handbook/product/ux/jobs-to-be-done/#how-to-write-a-jtbd).
 
-The **Maturity Rating** should align with how maturity is measured in GitLab (minimal, viable, etc.), and should be measured using the same criteria as [described in the Product handbook](https://about.gitlab.com/direction/maturity/).
+The **Maturity Rating** should align with how maturity is measured in GitLab (minimal, viable, etc.), and should be measured using the same criteria as [described in the Product handbook](https://about.gitlab.com/direction/#maturity).
 
 The **Research Issue** should be a confidental issue in the SEG project with information that has been gathered by the SEG or other sources and should capture what has been learned about a specific JTBD. This can include notes or recordings from customer conversations, competitive research, or any other public industry information.
 
@@ -58,10 +51,9 @@ The **Roadmap Issue** (or Epic) should be a public resource for the SEG to commu
 
 An example of this structure can be seen on the [Mobile DevOps Handbook Page](/handbook/engineering/development/incubation/mobile-devops/#jobs-to-be-done).
 
-
 #### GitLab Product Development Group affinity
 
-List the the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
+List the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
 
 #### References
 
@@ -99,12 +91,12 @@ guidelines for said video:
    1. If you need more than 3 minutes, you can still do that but don't put it in the playlist `Incubation Engineering - latest`
 1. Quality should be 1080p or higher so content on screens shared is still readable
 
-
 #### Playlists
 
 There are 2 playlist in general:
-- [Incubation Engineering](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
-- [Incubation Engineering - Latest](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
+
+* [Incubation Engineering](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
+* [Incubation Engineering - Latest](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
 
 And then there are the SEG specific playlists, you might need to make one and follow the naming convention:
 `Incubation Engineering - <SEG>`
@@ -119,17 +111,17 @@ Incubation Engineering team members may discover issues for upcoming events, and
 
 The following issue boards are to be used to discover upcoming events:
 
-- [Field & Corporate, EMEA](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933459?label_name[]=EMEA)
-- [Field & Corporate, Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA)
-- [Field & Corporate, UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?label_name[]=UK%2FI)
+* [Field & Corporate, EMEA](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933459?label_name[]=EMEA)
+* [Field & Corporate, Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA)
+* [Field & Corporate, UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?label_name[]=UK%2FI)
 
 Highlighting EMEA because majority of Incubation Engineers reside here. Other regions can be discovered in the Boards dropdown by searching for "Field & Corporate {region_name}".
 
 Additionally, Field Marketing has active Slack channels where events are planned and prepped for. If useful, please consider joining:
 
-- #emea_northern_europe_fieldmarketing
-- #emea_central_europe_fieldmarketing
-- #emea_southern_europe_fieldmarketing
+* #emea_northern_europe_fieldmarketing
+* #emea_central_europe_fieldmarketing
+* #emea_southern_europe_fieldmarketing
 
 ...on Slack. Other relevant channels may be discovered via Slack search.
 
@@ -145,14 +137,13 @@ For Incubation Engineering team members not familiar with customer conversations
 
 Those comfortable with external interactions may offer their services to the Field Marketing event lead by means of answering questions and interacting with the participants when the GitLab speaker requests support.
 
-
 ### Quality & Support Guidelines for Incubation Projects
 
-- Is your feature behind a feature flag? It's preferrable that it is.
-- Can your feature be visually labeled as an `incubation` or `experimental` feature without distracting / taking away from the GitLab user experience?
-- Error messages  / stack traces / logs may indicate that this is an `incubation` feature.
-- Before feature flag roll-out, is the feature documented in sufficient detail? Documentation is the first resource for users and support agents working with the feature.
-- Pro-actively reach out and make introductions before feature roll-out / general availability.
+* Is your feature behind a feature flag? It's preferrable that it is.
+* Can your feature be visually labeled as an `incubation` or `experimental` feature without distracting / taking away from the GitLab user experience?
+* Error messages  / stack traces / logs may indicate that this is an `incubation` feature.
+* Before feature flag roll-out, is the feature documented in sufficient detail? Documentation is the first resource for users and support agents working with the feature.
+* Pro-actively reach out and make introductions before feature roll-out / general availability.
 
 ### Security Guidelines for Incubation Projects
 
@@ -160,9 +151,9 @@ Incubation Engineers should familiarize themselves with the [GitLab AppSec Revie
 
 Incubation Engineers are often required to create prototypes or demo applications as they are iterating on ideas and gathering feedback. Below are some security guidelines to keep in mind while building these applications:
 
-- Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
-- Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
-- Use of [Personal Access Tokens is discouraged](/handbook/security/#tokens), Project Access Tokens are often sufficient.
+* Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
+* Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+* Use of [Personal Access Tokens is discouraged](/handbook/security/#tokens), Project Access Tokens are often sufficient.
 
 ### UX Engagement with Incubation Projects
 
@@ -181,13 +172,12 @@ process.
 
 Due to the SEG-nature of our group the process is slightly different from
 the default. As you wear both the Engineer's and PM's hats, the process is
-faster, but you'll also lack a second pair of eyes. Check out the [PM
-Contributors](/handbook/marketing/blog/release-posts/#pm-contributors)
+faster, but you'll also lack a second pair of eyes. Check out the [PM Contributors](/handbook/marketing/blog/release-posts/#pm-contributors)
 section of the release post Handbook page for the default process. Here is a
 Incubation-adjusted TL;DR:
 
 1. If you created a feature issue that used the [feature issue template]
-   (https://about.gitlab.com/handbook/product/product-processes/#feature-templates),
+   (/handbook/product/product-processes/#feature-templates),
    use the [release post item generator](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/bin/release-post-item)
 2. Alternatively, create your [Release post MR manually](/handbook/marketing/blog/release-posts/#option-2-manual-mr-creation)
 3. Go through the "PM release post item checklist". Note that in Incubation
@@ -220,7 +210,7 @@ Incubation-adjusted TL;DR:
 1. Vim
 1. GitLab Web IDE
 
-### How do I...
+### How do I
 
 #### Add a new API endpoint?
 
@@ -246,4 +236,4 @@ A more successful strategy is to create a Google Form without too many freetext 
 Polywork embeds Google Forms, so the users don't have to leave the site.
 
 If you ask for contact details for follow up questions, you have a set of recruits that may be more open to follow up in-person interviews if needed.
- (Note: Contact details are PII data. Do not use it beyond the usecase indicated on the form, do not save it elsewhere and delete immediately after use. Refer to our [Privacy Page](/handbook/legal/privacy/) for details)
+ (Note: Contact details are PII data. Do not use it beyond the use case indicated on the form, do not save it elsewhere and delete immediately after use. Refer to our [Privacy Page](/handbook/legal/privacy/) for details)

@@ -5,7 +5,7 @@ description: "How to find the right participants for research studies at GitLab"
 
 At GitLab, our UX Research Operations Coordinators work closely with those requesting research to make sure the people they are gathering feedback from are the right ones. If you are filling in for a UX Research Operations Coordinator, use [this page](/handbook/product/ux/ux-research-coordination/research-coordinator-fill-in/) as a reference.
 
-#### How to recruit participants when you aren’t sure where to find them:
+#### How to recruit participants when you aren't sure where to find them
 
 1. [Identify your target audience](/handbook/product/ux/ux-research/recruiting-participants/#identify-your-target-audience) (i.e. what characteristics should they have?)
 1. [Craft your screener](/handbook/product/ux/ux-research/recruiting-participants/#craft-your-screener)
@@ -13,14 +13,14 @@ At GitLab, our UX Research Operations Coordinators work closely with those reque
 1. [Open a recruitment request issue](/handbook/product/ux/ux-research/recruiting-participants/#open-a-recruitment-request-issue)
 1. [Open an incentives request issue](/handbook/product/ux/ux-research/recruiting-participants/#reimbursing-participants-for-their-time)
 
-#### How to recruit participants who are customers you know:
+#### How to recruit participants who are customers you know
 
 1. [Identify your target audience](/handbook/product/ux/ux-research/recruiting-participants/#identify-your-target-audience) (i.e. what characteristics should they have?)
 1. Reach out to your customers and ask for their interest
 1. Coordinate directly with your customers to schedule their session. This may include [creating a Calendly event](/handbook/product/ux/ux-research/recruiting-participants/#create-a-calendly-event)
 1. [Open an incentives request issue](/handbook/product/ux/ux-research/recruiting-participants/#reimbursing-participants-for-their-time)
 
-#### How to recruit participants from issues:
+#### How to recruit participants from issues
 
 1. [Identify your target audience](/handbook/product/ux/ux-research/recruiting-participants/#identify-your-target-audience) to determine what characteristics they should have
 1. [Craft your screener](/handbook/product/ux/ux-research/recruiting-participants/#craft-your-screener)
@@ -29,7 +29,7 @@ At GitLab, our UX Research Operations Coordinators work closely with those reque
 1. [Open a recruitment request issue](/handbook/product/ux/ux-research/recruiting-participants/#open-a-recruitment-request-issue)
 1. [Open an incentives request issue](/handbook/product/ux/ux-research/recruiting-participants/#reimbursing-participants-for-their-time)
 
-*A UX Researcher or UX Research Operations Coordinator may collaborate with you throughout the process, and we’re always available to answer questions.*
+*A UX Researcher or UX Research Operations Coordinator may collaborate with you throughout the process, and we're always available to answer questions.*
 
 ### Identify your target audience
 
@@ -38,19 +38,19 @@ Collecting the data that will help you answer your questions is essential. The o
 - What research methodology have you chosen?
 - How many participants do you need?
 - Who do you want to hear from/speak with?
-     - What are the tasks your participants should be doing?
-     - What are the tools your participants should be using?
-     - What is their level of experience?
+  - What are the tasks your participants should be doing?
+  - What are the tools your participants should be using?
+  - What is their level of experience?
 
-The answers to these questions should flow directly from the [goals and objectives](/handbook/product/ux/ux-research/defining-goals-objectives-and-hypotheses/) that you’ve previously identified for your study. It’s important that everyone involved in the research study agrees on these and that they’re finalized *before* we start recruiting. It’s better to start with clear objectives than to try to shoehorn participants into a study for which they simply aren't a match.
+The answers to these questions should flow directly from the [goals and objectives](/handbook/product/ux/ux-research/defining-goals-objectives-and-hypotheses/) that you've previously identified for your study. It's important that everyone involved in the research study agrees on these and that they're finalized *before* we start recruiting. It's better to start with clear objectives than to try to shoehorn participants into a study for which they simply aren't a match.
 
-It’s best to think of tasks and responsibilities instead of job titles, because often a person’s job title doesn’t fully correspond to the tasks they perform.
+It's best to think of tasks and responsibilities instead of job titles, because often a person's job title doesn't fully correspond to the tasks they perform.
 
 ### Craft your screener
 
-The screener has a specific function - it’s meant to identify the people who are your target demographic, so that you can ask them the things you really want to know in the study. A best practice is to copy the [Screener Template](https://docs.google.com/document/d/1hMchH7C7Af2jCLeV9SK89F0ajT3m-hojJ0MmZnV5wmE/edit) (internal link only) in Google Docs and collaborate with your stakeholders until all questions are finalized. For tips on how to write an effective screener, check out [this page](/handbook/product/ux/ux-research/write-effective-screener/). Then, you’ll create a screener in Qualtrics that includes the questions. If you don’t have access to Qualtrics, [request it](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). Recruiting will not begin until the finalized screener is created in Qualtrics and shared with the UX Research Operations Coordinators.
+The screener has a specific function - it's meant to identify the people who are your target demographic, so that you can ask them the things you really want to know in the study. A best practice is to copy the [Screener Template](https://docs.google.com/document/d/1hMchH7C7Af2jCLeV9SK89F0ajT3m-hojJ0MmZnV5wmE/edit) (internal link only) in Google Docs and collaborate with your stakeholders until all questions are finalized. For tips on how to write an effective screener, check out [this page](/handbook/product/ux/ux-research/write-effective-screener/). Then, you'll create a screener in Qualtrics that includes the questions. If you don't have access to Qualtrics, [request it](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). Recruiting will not begin until the finalized screener is created in Qualtrics and shared with the UX Research Operations Coordinators.
 
-Your questions on the screener *must* match your participant criteria. This allows the UX Research Operations Coordinator to review your desired criteria and know which answers you want to see on the screener. The more abstract or open-ended you get in the screener, the harder it is for UX Research Operations Coordinators to parse which answer it is you’re looking for. A best practice is to avoid using open-ended questions in screeners.
+Your questions on the screener *must* match your participant criteria. This allows the UX Research Operations Coordinator to review your desired criteria and know which answers you want to see on the screener. The more abstract or open-ended you get in the screener, the harder it is for UX Research Operations Coordinators to parse which answer it is you're looking for. A best practice is to avoid using open-ended questions in screeners.
 
 Participants must agree to each of these questions to take part in moderated studies. *You must* include these questions in every screener:
 
@@ -83,21 +83,21 @@ Sometimes, we need to recruit participants from the same organization. In these 
 
 Sometimes, we are able to combine efforts by using a common screener across different studies. This is called a [Common Screener](/handbook/product/ux/ux-research/recruiting-participants/common-screener/).
 
-*It’s important to remember that a screener is not the same as a survey.* There can be a temptation to pile on extra questions that you want to know the answer to, but aren’t strictly necessary for determining whether that participant should get through the door. You will benefit from including these questions in your discussion guide or script instead.
+*It's important to remember that a screener is not the same as a survey.* There can be a temptation to pile on extra questions that you want to know the answer to, but aren't strictly necessary for determining whether that participant should get through the door. You will benefit from including these questions in your discussion guide or script instead.
 
 ### Create a Calendly event
 
 To schedule participants, you will need to create a Calendly event. The UX Research Operations Coordinator will send individual emails to qualified participants and ask them to book a time with you.  Set up Calendly [here](/handbook/tools-and-tips/other-apps/#calendly).
 
-1. Click ‘New Event Type’.
-1. Choose ‘Create’ for the One-on-One meeting option.
+1. Click 'New Event Type'.
+1. Choose 'Create' for the One-on-One meeting option.
 1. For the Event name, include the topic of the study.
 1. For Location, enter a Zoom meeting URL. A best practice is to use a recurring meeting.
 1. The Description/Instructions are optional.
 1. For Event link, use a short phrase to describe the topic of the sessions.
-1. For Event color, choose a color you’re not currently using.
+1. For Event color, choose a color you're not currently using.
 1. For Event Duration, reference your research method. Typically our user interviews and usability sessions run from 30-60 mins.
-1. For Date Range, click ‘Edit’ and choose ‘Over a Date Range’ from the drop down menu. Then choose the days you wish to hold your sessions. A best practice is to give yourself 5-7 business days to conduct research sessions.
+1. For Date Range, click 'Edit' and choose 'Over a Date Range' from the drop down menu. Then choose the days you wish to hold your sessions. A best practice is to give yourself 5-7 business days to conduct research sessions.
 1. You can click on each day in the calendar to indicate the time(s) you are available for sessions.
 
 ### Open a recruitment request issue
@@ -121,7 +121,7 @@ This step provides us with all the necessary information we need to complete you
 
 The UX Research Operations Coordinator will claim the study within one-two working days and work with you to find your participants. They will reach out to you with any further questions and an update on their timeline. When your study is claimed, the coordinator will remove the `ReOps::Triage` label. It will be replaced to identify they are working on it e.g. `ReOps::Cait` - for Caitlin Faughnan.
 
-#### What if I want to get a head start, but I’m not quite ready?
+#### What if I want to get a head start, but I'm not quite ready?
 
 If your study is not yet ready for recruitment and you're opening the request early, please start your title with WIP or DRAFT.
 The UX Research Operations Coordinator will claim the study ***but not work on the request until the issue leaves the WIP/DRAFT phase***.
@@ -157,11 +157,11 @@ The UX Research Operations Coordinator assigned to your request will handle payi
 
 #### When do I submit an Incentives Request with UX Research Operations?
 
-Since you created a Recruitment issue to kick off your process, this is automatically done; as this step is already built in as part of the process.  That means you don’t have to do anything and the incentives will automatically be handled by the assigned UX Research Operations Coordinator.
+Since you created a Recruitment issue to kick off your process, this is automatically done; as this step is already built in as part of the process.  That means you don't have to do anything and the incentives will automatically be handled by the assigned UX Research Operations Coordinator.
 
 #### What if I found my own participants and just need to hand out incentives?
 
-If you have a scenario where you didn’t create a Recruitment issue and need to distribute incentives, you’ll need to open an Incentives Request issue.
+If you have a scenario where you didn't create a Recruitment issue and need to distribute incentives, you'll need to open an Incentives Request issue.
 
 - Navigate to the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and open a new issue.
 - Select the `Incentives Request` template and fill in the information required.
@@ -194,21 +194,21 @@ For a video overview of how to use Respondent.io, please watch this [internal on
 Once the coordinator has created the campaign, they will invite the interviewers to join Respondent, advise the interviewer(s) to add their calendars and follow the project, and then move into a supporting role unless otherwise discussed. This means that the interviewer is responsible for monitoring the campaign and inviting their preferred users to schedule. The coordinator should plan to check in every few days, but it is the interviewer's responsibility to ping the coordinator if they have questions, or if they don't see any suitable participants after a couple of days.
 
 - Naming your project
-    - Create a public name that is not too specific; you don't want to give away too much about your criteria because people may game your screener. Example: `Seeking GitLab users!` is fine, while `Seeking daily GitLab CI/CD users with 3+ years of experience!` is too specific.
-    - Give a private name that will allow internal team members to see which project is theirs. For example: `Lorie: CI/CD pipeline set up exp.`
+  - Create a public name that is not too specific; you don't want to give away too much about your criteria because people may game your screener. Example: `Seeking GitLab users!` is fine, while `Seeking daily GitLab CI/CD users with 3+ years of experience!` is too specific.
+  - Give a private name that will allow internal team members to see which project is theirs. For example: `Lorie: CI/CD pipeline set up exp.`
 - Adding your calendar
-    - Respondent requires us to schedule, pay, and communicate with participants within the platform. It's a major taboo to try to lure platform participants elsewhere.
-    - Connect your Google calendar in the `calendars` tab of your project.
-    - Navigate to advanced settings and specify the minimum time before new bookings to `8 hours` or more. This will prevent people from scheduling surprise sessions for first thing in the morning while you are sleeping.
-    - Set the max number of bookings per day to whatever you are comfortable with. A recommendation is 3-4 sessions per day: more than that is quite taxing.
-    - Set a buffer time between sessions so you have time to finish your notes and take a quiick break before starting another session. A recommendation is 15 minutes.
+  - Respondent requires us to schedule, pay, and communicate with participants within the platform. It's a major taboo to try to lure platform participants elsewhere.
+  - Connect your Google calendar in the `calendars` tab of your project.
+  - Navigate to advanced settings and specify the minimum time before new bookings to `8 hours` or more. This will prevent people from scheduling surprise sessions for first thing in the morning while you are sleeping.
+  - Set the max number of bookings per day to whatever you are comfortable with. A recommendation is 3-4 sessions per day: more than that is quite taxing.
+  - Set a buffer time between sessions so you have time to finish your notes and take a quiick break before starting another session. A recommendation is 15 minutes.
 - Using Zoom
 When setting up your Respondent project make sure to use your personal Zoom room link, as you can't change the link per participant (this means each participant will have the same Zoom room link). Additionally, be sure to turn off the password requirement for these sessions.
 - Important platform etiquette:
-    - Mark participants as `attended` promptly after conducting the interview. This creates a notification for the coordinator that there are participants who need to be paid.
-    - Only mark someone as `no-show` if they made no effort to get in touch with you about rescheduling the interview. A `no-show` is highly punitive for participants' rating on the platform.
-    - Similarly, if you must reschedule a session, enable the participant to reschedule with as much advance notice as possible. If you do not show up for a session, or cancel within 24 hours, we get a negative rating and have to pay the participant anyway.
-    - Please keep an eye on your messages within the project. It is recommended that you check them first thing on days that you have interviews scheduled. Participants may reach out to reschedule, or to ask about a technical issue. It's best to address these up front, rather than waiting in an empty Zoom and getting increasingly frustrated 🙂
+  - Mark participants as `attended` promptly after conducting the interview. This creates a notification for the coordinator that there are participants who need to be paid.
+  - Only mark someone as `no-show` if they made no effort to get in touch with you about rescheduling the interview. A `no-show` is highly punitive for participants' rating on the platform.
+  - Similarly, if you must reschedule a session, enable the participant to reschedule with as much advance notice as possible. If you do not show up for a session, or cancel within 24 hours, we get a negative rating and have to pay the participant anyway.
+  - Please keep an eye on your messages within the project. It is recommended that you check them first thing on days that you have interviews scheduled. Participants may reach out to reschedule, or to ask about a technical issue. It's best to address these up front, rather than waiting in an empty Zoom and getting increasingly frustrated 🙂
 
 ##### Process for providing payment through Respondent.io
 
@@ -237,6 +237,7 @@ To understand how the above process works in action, the following research stud
 The stated goals of the study were:
 
 > As part of our continued effort to improve the automated testing capabilities of GitLab, we want to ship a new feature for accessibility testing. We want to validate some solutions for this feature. Questions we have are:
+>
 > - How exactly users want to see Accessibility issues introduced during their development shown to them.
 > - Which of the proposed designs suffice their use case for Automated Accessibility Testing as part of the CI process.
 
@@ -254,7 +255,7 @@ Frontend engineers was submitted, but that's too broad. Instead, focusing on the
 
 ### Crafting the screener
 
-In this example, the key questions that recruiting hinged on were really clear: the UX Research Operations Coordinator expected to see a question about job title, common tasks participants performed or job responsibilities they had, and something about how they perceived the importance of accessibility compliance. The UX Research Operations Coordinator also expected to see things that we almost always include, like company size and industry, which we try to get a mixture of when they’re not the object of the study.
+In this example, the key questions that recruiting hinged on were really clear: the UX Research Operations Coordinator expected to see a question about job title, common tasks participants performed or job responsibilities they had, and something about how they perceived the importance of accessibility compliance. The UX Research Operations Coordinator also expected to see things that we almost always include, like company size and industry, which we try to get a mixture of when they're not the object of the study.
 
 This study is unusual in that we're not asking about what tools people use. Often, we explicitly want to see what someone with or without GitLab experience thinks. It wasn't relevant for this study, so we're not collecting that information.
 

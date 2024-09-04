@@ -86,7 +86,7 @@ otherwise agreed with the Product Manager and Technical Writer:
 
 - Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html),
   and other resources linked from there, including:
-  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html) page.
+  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html) page.
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
   - [Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html).
 - Contact the Technical Writer for the relevant
@@ -129,7 +129,7 @@ must:
 - Ensure the issue contains:
   - Any new or updated feature name.
   - Overview, description, and use cases when applicable (as required by the
-    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html).
+    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
 
 Everyone is encouraged to draft the documentation requirements in the issue.
 However, a Product Manager will:
@@ -404,8 +404,7 @@ the [Structural Check](/handbook/marketing/blog/release-posts/#structural-check)
 
 ## Monthly documentation releases
 
-When a new GitLab version is released, the Technical Writing team releases [version-specific published
-documentation](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
+When a new GitLab version is released, the Technical Writing team releases [version-specific published documentation](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
 
 ## Documentation feedback and improvements
 
@@ -439,10 +438,10 @@ Routine review and triage of documentation feedback and improvement issues for y
 
 #### Prerequisites
 
-- An issue triage board for each group that you are the assigned technical writer for. If you don't have an issue triage board for your group, set one up called `Docs only backlog triage - group name`. See an [example board](https://gitlab.com/gitlab-org/gitlab/-/boards/5285286?not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&not%5Blabel_name%5D%5B%5D=type%3A%3Abug&label_name%5B%5D=documentation&label_name%5B%5D=group%3A%3Aproject%20management) for the `Project Management` group.
-    - The filter criteria should include **Label=**`documentation`, **Label=**`group::groupname`, **Label!=**`type::feature`, **Label!=**`type:bug`.
-    - In **Edit board**, make sure `Show the Open list` is selected.
-    - On the issue board, select **Create list**, and set Label to `tw:triaged`.
+- An issue triage board for each group that you are the assigned technical writer for. If you don't have an issue triage board for your group, set one up called `Docs only backlog triage - group name`. See an [example board](https://gitlab.com/gitlab-org/gitlab/-/boards/5285286?not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Abug&label_name%5B%5D=documentation&label_name%5B%5D=group%3A%3Aproject%20management) for the `Project Management` group.
+  - The filter criteria should include **Label=**`documentation`, **Label=**`group::groupname`, **Label!=**`type::feature`, **Label!=**`type:bug`.
+  - In **Edit board**, make sure `Show the Open list` is selected.
+  - On the issue board, select **Create list**, and set Label to `tw:triaged`.
 
 To review and triage documentation feedback and improvement issues for your groups:
 
@@ -454,10 +453,10 @@ To review and triage documentation feedback and improvement issues for your grou
 ## Stage leads (experiment)
 
 {{% alert title="Note" color="primary" %}}
-This section outlines a process that we have not yet used or implemented in the Technical Writing team. We plan to experiment with stage leads in Q1 and Q2 of 2024. This process is subject to change.
+This section outlines a process that we are implementing in the Technical Writing team. We plan to experiment with stage leads in Q1, Q2, and Q3 of FY2025. This process is subject to change.
 {{% /alert %}}
 
-Some Technical Writers are assigned as _stage leads_ for a given DevOps stage.
+Some Technical Writers are assigned as *stage leads* for a given DevOps stage.
 
 Stage leads might work across an entire stage, or a subset of groups in the stage.
 They support other Technical Writers assigned to groups in the stage.
@@ -465,7 +464,7 @@ They support other Technical Writers assigned to groups in the stage.
 Stage leads:
 
 - Assume the same [responsibilities](/job-families/product/technical-writer/#responsibilities) as Technical Writers, but with a more targeted focus on proactively creating and improving
-documentation for their assigned stage. 
+documentation for their assigned stage.
 - Spend approximately 30% of their time supporting technical writers in the stage to work on issues and review merge requests authored by developers for [new features and enhancements](#documentation-for-a-product-change). Issues and merge requests where they support other technical writers are labeled `tw-lead`.
   The remaining merge requests are reviewed by the supporting Technical Writers assigned to the groups in the stage.
 - Spend the remainder of their time creating and refining content to address documentation needs and gaps for their assigned stage.
@@ -561,7 +560,9 @@ After adding the `Technical Writing` label, we want to classify the type of effo
 - [`docs-technical-debt`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=docs-technical-debt)
 - `handbook`
 - [`Technical Writing Leadership`](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=tech+writing+leadership)
-- [`docs-channel`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=docs-channel) - Technical Writers use this label if they pick up an MR or issue from the `#docs` or `#tw-team` Slack channels, or from the roulette, *and* it's outside of their assigned groups.
+- [`docs-channel`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=docs-channel) - Technical Writers use this label if they pick up an MR or issue from the `#docs` or `#tw-team` Slack channels, or from the roulette, *and* it's outside of their assigned groups. Usage of this label is *optional*.
+- [`L10n-docs`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=L10n-documentation#) - Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure. Can be used in combination with `Technical Writing` to show Tech Writing team input into a `docs-localization` item.
+- [`Category:Docs Site`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=Category%3ADocs+Site) - Issues related to the Documentation website infrastructure or code. This is not needed for issues related to the documentation itself. Issues with this label are included on the [Docs Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/4340643?label_name[]=Category%3ADocs%20Site).
 
 Depending on the issue or merge request, you may include one or more of the preceding labels with the issue or merge request, depending on its contents. There may be occasions when *none* of the preceding labels apply to the issue or merge request; in that case, having only the `Technical Writing` label is enough.
 

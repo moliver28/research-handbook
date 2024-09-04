@@ -1,5 +1,4 @@
 ---
-
 title: "Quality Department SET Career Framework: Associate"
 description: "These are the expected competencies of an Associate Software Engineer in Test (SET) at GitLab."
 ---
@@ -19,7 +18,7 @@ description: "These are the expected competencies of an Associate Software Engin
 ### Associate Leadership Competencies
 
 {{% include "includes/engineering-careers/associate-leadership-competency.md" %}}
-  
+
 ### Associate Technical Competencies
 
 {{% include "includes/engineering-careers/quality-associate-technical-competency.md" %}}

@@ -18,6 +18,7 @@ description: The business goal is to run a pilot internship program to determine
 Run a pilot internship program to determine feasibility for future programs.
 
 Overview:
+
 1. Intention of hiring available candidates that perform well at the end of the internship
 1. Limit duration (see exit criteria)
 1. Open to anyone starting their career in tech (not just students)

@@ -12,21 +12,21 @@ twitter_creator: "@gitlab"
 
 ## Remote work conferences and summits
 
-Remote-work events can be a great place to meet others who have experience and connections in the space. They are particularly valuable for those who are [seeking a new role with an all-remote or remote-first company]({{< ref "./jobs" >}}).
+Remote-work events can be a great place to meet others who have experience and connections in the space. They are particularly valuable for those who are [seeking a new role with an all-remote or remote-first company](jobs/).
 
 ## What is a remote work conference?
 
 >A conference is a company or industry-specific meeting where people gather to discuss topics related to their field.
 >
 
-A remote work conference happens online and is usually somewhat formal. Speakers have been chosen ahead of time to deliver presentations or participate in panel discussions, such as the [REMOTE by GitLab](https://remotebygitlab.com/) and other global [conferences featuring GitLab speakers](https://about.gitlab.com/events/).
+A remote work conference happens online and is usually somewhat formal. Speakers have been chosen ahead of time to deliver presentations or participate in panel discussions, such as the "REMOTE by GitLab" and other global [conferences featuring GitLab speakers](https://about.gitlab.com/events/).
 
 ### REMOTE by GitLab
 
 ![REMOTE by GitLab banner](/images/all-remote/remote-hopin-banner-dark.png)
 {style="max-width: 50%;"}
 
-> [REMOTE by GitLab](https://remotebygitlab.com/) is a premier event exploring the future of workplace design, strategy, and culture. During this half-day symposium on **June 29, 2021**, attendees learned how to create and sustain scalable remote practices within their teams and organizations. **REMOTE by GitLab** featured sessions from top remote leaders, detailing how remote work is transforming lives, companies, and communities. As one of the largest all-remote companies, GitLab brought together the workplace design community to inspire the future of business and culture in the post-office world.
+> "REMOTE by GitLab" is a premier event exploring the future of workplace design, strategy, and culture. During this half-day symposium on **June 29, 2021**, attendees learned how to create and sustain scalable remote practices within their teams and organizations. **REMOTE by GitLab** featured sessions from top remote leaders, detailing how remote work is transforming lives, companies, and communities. As one of the largest all-remote companies, GitLab brought together the workplace design community to inspire the future of business and culture in the post-office world.
 >
 > **Couldn't join us live? [Watch the recordings](https://learn.gitlab.com/remotebygitlab2021/vrht3jm8roo) on demand.**
 
@@ -41,7 +41,7 @@ Remote summits may be by invitation only and encourage idea-sharing, discussion,
 
 {{< youtube "7DYy02_9Ebg" >}}
 
-> [Running Remote](https://runningremote.com/) is carefully curated to teach you next-level, actionable strategies, and tactics you can utilize the very next day to manage and grow your distributed team. Their mission is to provide the education and tools that founders and professionals need to succeed in the future of work. This is a gathering of leaders who will share everything they’ve learned running a remote first organisation.
+> [Running Remote](https://runningremote.com/) is carefully curated to teach you next-level, actionable strategies, and tactics you can utilize the very next day to manage and grow your distributed team. Their mission is to provide the education and tools that founders and professionals need to succeed in the future of work. This is a gathering of leaders who will share everything they've learned running a remote first organisation.
 
 ### The Remote Work Summit
 
@@ -53,11 +53,11 @@ Remote summits may be by invitation only and encourage idea-sharing, discussion,
 
 {{< youtube "H0KovHDg268" >}}
 
-> [Flex Summit](https://flexsummit.com/) 2021 is a week-long virtual summit devoted to the future of flexible work. In 2019, Fuze hosted the first-ever Flex Summit, an in-person destination summit for leaders engaging in the future of flexible work. This year, Flex Summit Week 2021 is re-imagining the traditional virtual event structure – releasing content daily. The week takes place from Monday, June 14 – Friday, June 18, 2021.
+> [Flex Summit](https://flexsummit21.splashthat.com/) 2021 is a week-long virtual summit devoted to the future of flexible work. In 2019, Fuze hosted the first-ever Flex Summit, an in-person destination summit for leaders engaging in the future of flexible work. This year, Flex Summit Week 2021 is re-imagining the traditional virtual event structure – releasing content daily. The week takes place from Monday, June 14 – Friday, June 18, 2021.
 
 ### RemoteCon
 
-> [RemoteCon](https://www.remotecon.org/index.html) is a remote conference on remote work. It took place April 7, 2020 on Zoom. RemoteCon is organized by [Marcel Salathé](https://twitter.com/marcelsalathe) and a group of volunteers at EPFL who believe that remote is not only changing how we work, but also how society organizes itself. Getting remote work right is thus one of the biggest challenges of the 21st century. It’s time to talk about it.
+> RemoteCon is a remote conference on remote work. It took place April 7, 2020 on Zoom. RemoteCon is organized by [Marcel Salathé](https://twitter.com/marcelsalathe) and a group of volunteers at EPFL who believe that remote is not only changing how we work, but also how society organizes itself. Getting remote work right is thus one of the biggest challenges of the 21st century. It's time to talk about it.
 
 ## What is the difference between a remote work **conference** and a remote work **summit**?
 
@@ -78,28 +78,28 @@ Given that remote work summits are engineered to be open to anyone, anywhere in 
 
 Remote work events welcome anyone interested in the future of workplace design. The beauty of remote work events is that everyone is welcome, even those who may still be skeptical of or learning about remote work.
 
-[All-remote and remote-first](https://about.gitlab.com./stages/) workflows change rapidly. Technology, tools, mobile network infrastructure, internet ubiquity, and a cultural understanding of virtual communication all contribute to making remote work [increasingly feasible]({{< ref "./remote-benefits" >}}). Those who have a [negative]({{< ref "./drawbacks" >}}) view of remote work, but are curious to see how the space is [evolving]({{< ref "./hybrid-remote" >}}), stand to gain much from attending remote work conferences and summits.
+All-remote and remote-first workflows change rapidly. Technology, tools, mobile network infrastructure, internet ubiquity, and a cultural understanding of virtual communication all contribute to making remote work [increasingly feasible](remote-benefits/). Those who have a [negative](drawbacks/) view of remote work, but are curious to see how the space is [evolving](hybrid-remote/), stand to gain much from attending remote work conferences and summits.
 
 #### The power of networking
 
-Networking takes additional consideration in the all-remote space, given that people congregate in the same physical space less often. This creates opportunity for conferences and summits to bring remote workers from all over the globe together, serving as a catalyst for collaboration, [communication]({{< ref "./informal-communication" >}}), and inspiration.
+Networking takes additional consideration in the all-remote space, given that people congregate in the same physical space less often. This creates opportunity for conferences and summits to bring remote workers from all over the globe together, serving as a catalyst for collaboration, [communication](informal-communication/), and inspiration.
 
-Those [seeking a remote role]({{< ref "./hiring" >}}) can learn about emerging and established firms in the all-remote and remote-first space, channeling their energy to [apply at companies that they are aligned with]({{< ref "./jobs" >}}).
+Those [seeking a remote role](hiring/) can learn about emerging and established firms in the all-remote and remote-first space, channeling their energy to [apply at companies that they are aligned with](jobs/).
 
-If you're a founder or hiring manager, these events offer a platform to promote your company to potential candidates who understand and appreciate the [benefits]({{< ref "./remote-benefits" >}}) and [drawbacks]({{< ref "./drawbacks" >}}) of all-remote.
+If you're a founder or hiring manager, these events offer a platform to promote your company to potential candidates who understand and appreciate the [benefits](remote-benefits/) and [drawbacks](drawbacks/) of all-remote.
 
 #### Renewed purpose and mission
 
 As remote work becomes more popular, a number of conferences and summits are emerging to serve a few key purposes.
 
-1. Educate the world on the [power]({{< ref "./remote-benefits" >}}) and [efficiency]({{< ref "values#efficiency" >}}) of working remotely, including those who have not yet embraced remote work.
-1. Bring remote workers and companies together to fuel [collaboration]({{< ref "values#collaboration" >}}) and share learnings.
-1. Provide a platform for experts to share knowledge with the [broader remote work community]({{< ref "./jobs" >}}).
-1. Create a tighter, more unified network of all-remote and remote-first advocates to evangelize for the creation of [more remote roles]({{< ref "./hiring" >}}).
+1. Educate the world on the [power](remote-benefits/) and [efficiency](/handbook/values/#efficiency) of working remotely, including those who have not yet embraced remote work.
+1. Bring remote workers and companies together to fuel [collaboration](/handbook/values/#collaboration) and share learnings.
+1. Provide a platform for experts to share knowledge with the [broader remote work community](jobs/).
+1. Create a tighter, more unified network of all-remote and remote-first advocates to evangelize for the creation of [more remote roles](hiring/).
 
 ### Benefits for speakers and presenters
 
-Speakers and presenters can present from anywhere. They may be on a stage with others in a shared physical space, or they may be presenting from anywhere in the world via computer and webcam. By removing the need to travel and carve out large chunks of one's schedule, the virtual nature of a remote work conference creates a significant opportunity for summit hosts to capture a [more diverse]({{< ref "inclusion" >}}) array of speakers.
+Speakers and presenters can present from anywhere. They may be on a stage with others in a shared physical space, or they may be presenting from anywhere in the world via computer and webcam. By removing the need to travel and carve out large chunks of one's schedule, the virtual nature of a remote work conference creates a significant opportunity for summit hosts to capture a [more diverse](/handbook/company/culture/inclusion/) array of speakers.
 
 #### Asynchronous engagement
 
@@ -113,6 +113,6 @@ The remote community welcomes outreach from others working remotely. If you view
 
 To find remote-focused events that GitLab is hosting or participating in,  please check the main [GitLab Events](https://about.gitlab.com/events/) page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

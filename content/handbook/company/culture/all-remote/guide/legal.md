@@ -11,6 +11,6 @@ twitter_creator: "@gitlab"
 
 We are building a remote guide for legal teams, which will be added to this page soon. *Pending legal review, of course.*
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "../_index.md" >}}).

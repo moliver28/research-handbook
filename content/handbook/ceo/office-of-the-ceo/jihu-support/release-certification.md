@@ -1,8 +1,5 @@
 ---
 title: Release Certification
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/release-certification/
-- /handbook/ceo/chief-of-staff-team/jihu-support/release-certification/
 ---
 
 ## Process for Release Certification

@@ -1,11 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Display Pipeline Info"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through the variables used inside a GitLab Runner"
 ---
 
 > Estimate time to complete: 15 - 20 minutes
-
-
 
 ## Objectives
 
@@ -17,7 +15,7 @@ When a job is executed in a pipeline, it runs inside of an environment. To ensur
 
 1. Click on your `.gitlab-ci.yml` file to view its contents. To edit the file, click **Edit > Edit single file**.
 
-1. Paste the contents of the following snippet at the bottom of `.gitlab-ci.yml`. There should be am empty line between the file's previous content and the pasted snippet content.
+1. Paste the contents of the following snippet at the bottom of `.gitlab-ci.yml`. There should be an empty line between the file's previous content and the pasted snippet content.
 
     ```yml
     environment echoes:

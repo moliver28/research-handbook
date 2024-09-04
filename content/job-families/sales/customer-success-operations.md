@@ -7,18 +7,16 @@ Customer Success Operations cross-functionally aligns GitLab for a superb custom
 
 ## Levels
 
-### Associate Customer Success Operations Analyst
-
-The Associate Customer Success Operations Analyst reports to the [Manager, Customer Success Operations](#manager-customer-success-operations).
+### Customer Success Operations Specialist
 
 #### Job Grade
 
-The Associate Customer Success Operations Analyst is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Customer Success Operations Specialist is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
 - Develop and implement lifecycle processes, policies, and metrics to support customer outcomes and business growth, assisting to define appropriate touch points (i.e., human-led and digital) throughout the customer journey (pre and post initial sale)
-- Develop methods, processes, systems, and tools to support our customers in each segment: enterprise, mid-market, and SMB
+- Develop methods, processes, systems, and tools to support our customers in each segment: Enterprise, Commercial, and Global Digital
 Create and coordinate key reporting for GitLab leadership team, partnering with the Analyst team to provide reporting on customer adoption, sentiment, advocacy, and business results (i.e., forecasts, renewals, expansions, churn)
 - Curate content and playbooks to allow the team to more efficiently and consistently deliver customer outcomes
 - Identify opportunities for process automation and optimization, with a focus on scalability and driving significant growth
@@ -41,8 +39,6 @@ Create and coordinate key reporting for GitLab leadership team, partnering with 
 
 ### Customer Success Operations Analyst (Intermediate)
 
-The Customer Success Operations Analyst (Associate) reports to the [Manager, Customer Success Operations](#manager-customer-success-operations).
-
 #### Job Grade
 
 The Customer Success Operations Analyst is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -50,12 +46,12 @@ The Customer Success Operations Analyst is a [grade 6](/handbook/total-rewards/c
 #### Responsibilities
 
 - Develop and implement lifecycle processes, policies, and metrics to support customer outcomes and business growth, assisting to define appropriate touch points (i.e., human-led and digital) throughout the customer journey (pre and post initial sale)
-- Develop methods, processes, systems, and tools to support our customers in each segment: enterprise, mid-market, and SMB
+- Develop methods, processes, systems, and tools to support our customers in each segment: Enterprise, Commercial, and Global Digital
 Create and coordinate key reporting for GitLab leadership team, partnering with the Analyst team to provide reporting on customer adoption, sentiment, advocacy, and business results (i.e., forecasts, renewals, expansions, churn)
 - Curate content and playbooks to allow the team to more efficiently and consistently deliver customer outcomes
 - Identify opportunities for process automation and optimization, with a focus on scalability and driving significant growth
 - Collaborate with Customer Success enablement to develop training and enablement to drive efficiency
-- Support the development and rollout of systems and digital tools to improve the team’s effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
+- Support the development and rollout of systems and digital tools to improve the team's effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
 
 #### Customer Success Operations Analyst Requirements
 
@@ -66,6 +62,7 @@ Create and coordinate key reporting for GitLab leadership team, partnering with 
 - Experience with support and/or professional services a plus
 - Excellent problem solving, project management, interpersonal and organizational skills
 - SaaS and B2B experience
+- Exposure to building business models
 - Interest in GitLab, and open source software
 - You share our values and work in accordance with those values
 - Ability to use GitLab
@@ -73,17 +70,17 @@ Create and coordinate key reporting for GitLab leadership team, partnering with 
 
 ### Senior Customer Success Operations Analyst
 
-The Senior Customer Success Operations Analyst reports to the [Manager, Customer Success Operations](#manager-customer-success-operations).
-
 #### Job Grade
 
-The Customer Success Operations Analyst (Senior) is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Customer Success Operations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
 - Extends that of the Customer Success Operations Analyst (Intermediate) Responsibilities
 - Significant oversight in Gainsight and/or other system architecture
 - Leads cross-functional team initiatives and provides oversight to Customer Success
+- Influences the Strategy and Operations teams delivery maturity through the developement and testing of best practies
+- Delivers data views mapped to current and future business needs
 
 #### Requirements
 
@@ -91,14 +88,15 @@ The Customer Success Operations Analyst (Senior) is a [grade 7](/handbook/total-
 - Extensive experience supporting Customer Success
 - Progressive experience building and maintaining tools such as Gainsight, Salesforce, Mavenlink, and/or other Customer Success and Professional Services systems
 - Relevant ownership of program management and/or operations
+- Strong business acumen of GTM teams and strategies
+- Multi-faceted delivery capabilities related to data systems and visualization
+- Collaborates with senior stakeholders to drives clear definitions of data needs
 
-### Staff Customer Success Operations Manager
-
-The Staff Customer Success Operations Manager reports to the [Senior Manager, Customer Success Operations](#senior-manager-customer-success-operations).
+### Customer Success Operations Manager
 
 #### Job Grade
 
-The Staff Customer Success Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Customer Success Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -106,11 +104,12 @@ The Staff Customer Success Operations Manager is a [grade 8](/handbook/total-rew
 - Triage and refine Customer Success Operations issues for streamlined review and effective and timely deployments
 - Manage Gainsight roadmap and agile milestone management to ensure timely completion of issues
 - Drive cross-functional programs and initiatives to support scaling of the business and integrate the Customer Success engagement processes with teams throughout GitLab (e.g., sales, marketing, product)
-- Lead the development and rollout of systems and digital tools to improve the team’s effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
+- Lead the development and rollout of systems and digital tools to improve the team's effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
 - Collaborate with Field Enablement to assist with training and enablement
 - Identify opportunities to improve current reporting formats, processes, and systems
 - Create and coordinate key reporting for GitLab leadership team, partnering with the Customer Success analyst to provide reporting on customer adoption, sentiment and advocacy and business results (i.e., forecasts, renew, expand, churn)
 - Assist implementing lifecycle processes, policies and metrics to support customer outcomes and business growth, defining the appropriate touch points (i.e., human-led and digital) throughout the customer journey (pre and post initial sale)
+- Operate as a thought partner to the Business by providing scalable approaches, operational priorities, and delivery insights that drive overall business outcomes
 
 #### Requirements
 
@@ -124,6 +123,7 @@ The Staff Customer Success Operations Manager is a [grade 8](/handbook/total-rew
 - Ability to use GitLab
 - Gainsight Admin certification, preferred
 - Understanding and knowledge of product usage date is preferred
+- Progressive experience with business model design, change and impact analysis, experiment design and metric design
 
 ### Manager, Customer Success Operations
 
@@ -140,7 +140,7 @@ The Manager Customer Success Operations is a [grade 8](/handbook/total-rewards/c
 - Develop and implement lifecycle processes, policies and metrics to support customer outcomes and business growth, defining the appropriate touch points (i.e., human-led and digital) throughout the customer journey (pre and post initial sale)
 - Develop methods, processes, systems and tools to appropriately support our customer segmentation strategies
 - Drive cross-functional programs and initiatives to support scaling of the business and integrate the customer success engagement processes with teams throughout GitLab (e.g., sales, marketing, product)
-- Lead the development and rollout of systems and digital tools to improve the team’s effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
+- Lead the development and rollout of systems and digital tools to improve the team's effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
 - Curate content and playbooks to allow the team to more efficiently deliver customer outcomes
 - Create and coordinate key reporting for GitLab leadership team, partnering with the Customer Success analyst to provide reporting on customer adoption, sentiment and advocacy and business results (i.e., forecasts, renew, expand, churn)
 - Act as liaison to Customer Success Enablement to drive training and enablement priorities, content and methods
@@ -179,7 +179,7 @@ The Senior Manager, Customer Success Operations is a [grade 9](/handbook/total-r
 - Develop and implement lifecycle processes, policies and metrics to support customer outcomes and business growth, defining the appropriate touch points (i.e., human-led and digital) throughout the customer journey (pre and post initial sale)
 - Acts as advisor to each CS Leader, providing relevant and timely insights to further develop each leader's strategy
 - Drive cross-functional programs and initiatives to support scaling of the business and integrate the customer success engagement processes with teams throughout GitLab (e.g., sales, marketing, product)
-- Lead the development and rollout of systems and digital tools to improve the team’s effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
+- Lead the development and rollout of systems and digital tools to improve the team's effectiveness and efficiency and provide increased customer insights through data, automation, and telemetry
 - Curate content and playbooks to allow the team to more efficiently deliver customer outcomes
 - Create and coordinate key reporting for GitLab leadership team, partnering with the Customer Success analyst to provide reporting on customer adoption, sentiment and advocacy and business results (i.e., forecasts, renew, expand, churn)
 
@@ -193,7 +193,7 @@ The Senior Manager, Customer Success Operations is a [grade 9](/handbook/total-r
 - Progressive years of experience in leading field teams (Customer Success Managers, Account Management, Professional Services, Solution Architects) and/or Operations
 - Experienced leading cross-functional initiatives in mid-sized or large organizations (i.e., 1000+ employees)
 - Management experience with a team of at least 5 team members
-- Experience with digital engagement approaches and methods preferred (i.e., Digital Customer Success / “tech touch,” Digital Marketing)
+- Experience with digital engagement approaches and methods preferred (i.e., Digital Customer Success / "tech touch," Digital Marketing)
 - Strong verbal and written skills with a strong ability to articulate and communicate strategies and plans
 - Demonstrated success with cross-functional coordination, including planning, execution tracking, decision making, and OKR management
 
@@ -217,4 +217,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Next, candidates will be invited to interview with 2-5 teammates
 - Finally, candidates may be asked to complete a final interview with our leadership team
 
-Additional details about our process can be found on our [hiring page](https://about.gitlab.com/handbook/hiring).
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
