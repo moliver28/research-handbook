@@ -14,7 +14,7 @@ This policy applies to anyone developing code at GitLab in support of GitLab's p
 
 | Role  | Responsibility |
 |-----------|-----------|
-| Security Governance | Responsible for creating and implementing this policy |
+| Security Governance | Responsible for maintaining and implementing this policy |
 | Team members | Responsible for execution of the policy statements |
 
 ## Policy
