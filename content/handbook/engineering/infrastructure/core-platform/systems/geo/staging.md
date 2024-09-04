@@ -18,7 +18,7 @@ The following items describe some specific settings or how we addressed some of 
 
 We have one [Geo secondary node](https://geo.staging.gitlab.com) up and running for [staging.gitlab.com](https://staging.gitlab.com) configured as an [all-in-one box](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gstg-infra-geo-secondary.json) with all components colocated on one single node. We are currently *not* running [a Geo HA deployment](https://docs.gitlab.com/ee/administration/geo/replication/multiple_servers.html).
 
-![Geo Staging Diagram](/static/images/handbook/engineering/geo/geo_staging_diagram.png "Geo Staging Diagram")
+![Geo Staging Diagram](/images/handbook/engineering/geo/geo_staging_diagram.png "Geo Staging Diagram")
 
 ##### PostgreSQL replication
 
