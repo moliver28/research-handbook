@@ -25,7 +25,7 @@ If you have any questions start by @ mentioning the product manager for the [Ana
 
 ### Office hours
 
-Every week Analytics Instrumentation team holds open office hours on Zoom for any questions that might arise. It's typically Wednesday for half an hour at 7:30 UTC. You can find the event in the [GitLab Team Meetings calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar).
+Every second week Analytics Instrumentation team holds open office hours on Zoom for any questions that might arise. It's typically Wednesday for half an hour at 7:30 UTC. You can find the event in the [GitLab Team Meetings calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar).
 The historical and upcoming meeting agendas can be accessed in [our agenda document](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
 
 ## Responsibilities
@@ -93,12 +93,13 @@ We're currently trialing a mixed retrospective format, we're team members pair o
 
 1. Every milestone the [async-retrospective project](https://gitlab.com/gitlab-org/async-retrospectives) automatically creates an
    issue in the [analytics-instrumentation retro project](https://gitlab.com/gl-retrospectives/analytics-instrumentation/-/issues) which contains a list of retro questions.
-1. Every 2nd week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
+1. Every 4th week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
 1. Every group of two should pair on filling out the retro issue for the current milestone together within that week:
    1. This should happen ideally through a sync meeting or alternatively via Slack.
    1. Focus on the what happened the last two weeks, since the last pairing.
    1. Pairing should involve taking the time to think through the questions, talking about the answers with your pair and coming up with action items based on the identified problems.
    1. Expect an overall time commitment of 30 minutes to an hour for the bi-weekly pairing.
+1. Every 2nd week we have a 30-minute time blocker event, that is meant for everyone to take the time to answer Retro discussions.
 
 ### Workflow
 
