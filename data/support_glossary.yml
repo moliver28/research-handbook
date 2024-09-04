@@ -113,3 +113,13 @@
   term: Support Satisfaction
   info: |
     We use SSAT to capture customer feedback and measure customer satisfaction.
+
+- acronym: CSM
+  term: Customer Success Manager
+  info: |
+    CSMs are accountable for customer adoption, measurable outcomes, customer satisfaction, and creating true customer advocacy. You can read more [here](https://handbook.gitlab.com/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm-at-gitlab)
+
+- acronym: SRE
+  term: Site Reliability Engineer
+  info: |
+    Site Reliability Engineers (SREs) are responsible for keeping all user-facing services and other GitLab production systems running smoothly. You can read more [here](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/)
