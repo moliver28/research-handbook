@@ -53,7 +53,7 @@ Considerations for design documents are:
 - Security: Developers must define how they will keep the application secure. This includes deciding how to protect user data and general application data.
 - Programming: Define the project's tech and tool stack.
 
-Design documents must be approved by relevant stakeholders prior to being merged (prototyping).
+Design documents must be approved by relevant stakeholders prior to reach the next "Development and Testing" stage (prototyping).
 
 ### Development and Testing
 
