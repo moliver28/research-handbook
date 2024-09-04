@@ -95,6 +95,8 @@ If you can't find what you're looking for please reach out to a member of the Sa
 
 Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can also review [the additional guidance here](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) on how to best use them.
 
+### Managers For Team Members
+
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
 | [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
@@ -106,6 +108,11 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01ZPL000001Mcm1)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
+
+### Managers For Leaders
+
+| Name/Link                                                            | Description                                            |
+|-----------------------------------------------------------------------|--------------------------------------------------------|
 | [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
 | [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
 | [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
@@ -114,9 +121,8 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.        |
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
-| [Global Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000cNmn) | A more granular dashboard that breaks down attainment further. |
-| [Regional Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL0000010KuD) | A regional dashboard that breaks down attainment into teams. |
-| [Last Q's attainment Dashboard](https://gitlab.my.salesforce.com/01ZPL000000uZKr) | A bird's-eye view of last Quarter's attainment per region. |
+| [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
+
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.my.salesforce.com/01ZPL000001KPuX) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
 
