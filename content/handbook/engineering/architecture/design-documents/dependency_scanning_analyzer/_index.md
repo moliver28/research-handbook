@@ -1,6 +1,6 @@
 ---
 title: "Dependency graph export only dependency scanning analyzer"
-status: proposed
+status: ongoing
 creation-date: "2024-08-14"
 authors: [ "@hacks4oats" ]
 coaches: [ "@hacks4oats" ]
