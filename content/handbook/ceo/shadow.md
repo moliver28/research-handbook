@@ -135,9 +135,9 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-09-09 | 2024-09-13 | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
 | 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 | VP DIRECTS ONLY | VP DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 | OPEN| [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
+| 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2) - Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
+| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Nupur Sharma](https://gitlab.com/nsharma2) - Solutions Architect | REMOTE - PT |
+| 2024-10-14 | 2024-10-18 | OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
 | 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
 | 2024-10-28 | 2024-11-01 | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 | 2024-11-04 | 2024-11-08 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
