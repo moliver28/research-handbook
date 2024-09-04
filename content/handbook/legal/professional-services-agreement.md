@@ -68,10 +68,6 @@ These Terms commence on the Effective Date and continue until the Agreement is t
 
 6.3 WARRANTY DISCLAIMER. SECTION 6.1 SETS FORTH GITLAB'S EXCLUSIVE WARRANTY WITH REGARD TO THE PROFESSIONAL SERVICES, AND IS IN LIEU OF ALL OTHER WARRANTIES. GITLAB DOES NOT MAKE ANY OTHER WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, GITLAB SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
 
-## 7. TERM AND TERMINATION
-
-These Terms will commence upon the Effective Date and will automatically expire upon (a) expiration or termination of the Subscription Agreement. The parties may terminate these Terms as provided in the Subscription Agreement. The rights and obligations of these Terms which by their nature are intended to survive termination or expiration of these Terms will survive.
-
-## 8. MISCELLANEOUS
+## 7. MISCELLANEOUS
 
 Capitalized terms used but not defined in these Terms will have the meaning in the Subscription Agreement. Except as provided in these Terms, the Subscription Agreement remains in full force and effect and governs Customer’s access to and use of Software. To the extent of any conflict or inconsistency between these Terms and the Subscription Agreement, these Terms will control.
