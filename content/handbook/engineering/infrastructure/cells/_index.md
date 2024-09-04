@@ -100,11 +100,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 </td>
 </tr>
 
-
 <tr>
 <td>
 
-[Gerardo Lopez-Fernandez](https://gitlab.com/glopezfernandez )
+[Gerardo Lopez-Fernandez](https://gitlab.com/glopezfernandez)
 
 </td>
 <td>Engineering Fellow</td>
@@ -112,7 +111,6 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 1. Responsible for overall technical architecture planning
 </td>
 </tr>
-
 
 <tr>
 <td>
@@ -222,8 +220,8 @@ DRI of Expansion Software Development
 We have adopted a phased execution where each phases represent serialized deliveries of Cells-related infrastructure and functionality. This structure has provided clarity of the project's inter-dependencies and allows us to assign engineering leads to lead each phases.
 
 A total of 13 phases are grouped into four Phase Sets
-- Phase Set A: GitLab.com HTTPS routing: delivering traffic to its destination
-- Phase Set B: Cluster Awareness and Initialization: making Cells
+- Phase Set A: GitLab.com HTTPS routing, routing traffic to its destination
+- Phase Set B: Cluster Awareness and Initialization
 - Phase Set C: Production Readiness and Deployment of first Production Cell
 - Phase Set D: First Internal Customer migration
 
