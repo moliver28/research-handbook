@@ -21,7 +21,7 @@ This policy applies to anyone developing code at GitLab in support of GitLab's p
 
 ### Inception
 
-This stage occurs across different mediums depending upon each team's individual processes.
+This stage occurs across different medium depending upon each team's individual processes.
 
 During this stage, the following information is established:
 
@@ -49,11 +49,8 @@ During the design stage, design documents are captured in the project management
 Considerations for design documents are:
 
 - Architecture: Teams define if they want a specific type of template or if they want to implement any type of industry practice.
-
 - User Interface: Teams define the way users will be interacting with the application or function.
-
 - Security: Developers must define how they will keep the application secure. This includes deciding how to protect user data and general application data.
-
 - Programming: Define the project's tech and tool stack.
 
 Design documents must be approved by relevant stakeholders prior to being merged (prototyping).
