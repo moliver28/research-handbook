@@ -59,4 +59,4 @@ To designate a team member as a Tech Lead, author an MR to update this table.
 
 | Team Member    | Tech Lead Designation | Team          | Start Date | End Date |
 |----------------|-----------------------|---------------|-----|----|
-| @igor.drozdov | [Prompt Migration to AI Gateway](https://gitlab.com/groups/gitlab-org/-/epics/14259)          | ~"group::custom models"    | 2024-06-24 | TBD |
+| [@igor.drozdov](https://gitlab.com/igor.drozdov) | [Prompt Migration to AI Gateway](https://gitlab.com/groups/gitlab-org/-/epics/14259)          | ~"group::custom models"    | 2024-06-24 | TBD |
