@@ -67,5 +67,10 @@ If you notice any gaps, please feel free to reach out to the Duo Chat group or m
 
 ### 📝 Dashboards (internal only)
 
+- [Duo Chat xAU, retention, event count, and response time](https://10az.online.tableau.com/#/site/gitlab/views/AiFeatures/Focusview?:iid=3) (see also sister dashboards, e.g. Duo Chat CRM)
+- [Slash command usage and user counts](https://10az.online.tableau.com/#/site/gitlab/views/SlashUseDuo/SlashUseDashboard/3e8fd0ba-f45b-4dd0-b649-84db3636553d/8db30355-e2c0-4636-9c43-5429bb952a41?:iid=4)
+- [Duo Chat Error Rate in Elastic](https://log.gprd.gitlab.net/app/dashboards#/view/5f334d60-cfd7-11ee-bc6b-0b206b291ea1?_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-2d,to:now)))
+- [Duo Chat Error Budget in Grafana](https://dashboards.gitlab.net/d/stage-groups-detail-duo_chat/6c28d63a-60e8-5db3-9797-39f988a1900b?orgId=1)
+- [Duo Feedback](https://10az.online.tableau.com/#/site/gitlab/views/DuoFeedbackDashboard/DuoFeedbackDashboard?:iid=1)
 - [Duo Chat Question Categorization](https://10az.online.tableau.com/#/site/gitlab/views/DuoCategoriesofQuestions/DuoCategory?:iid=1)
 - [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)
