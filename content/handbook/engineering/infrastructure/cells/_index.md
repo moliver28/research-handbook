@@ -219,10 +219,42 @@ DRI of Expansion Software Development
 
 ## Cells Phased Execution
 
-We have adopted a phased execution where each phases represent serialized deliveries of Cells-related infrastructure and functionality. This structure has provided clarity between the inter-dependencies and allows us to assign engineering leads to lead each phases.
+We have adopted a phased execution where each phases represent serialized deliveries of Cells-related infrastructure and functionality. This structure has provided clarity of the project's inter-dependencies and allows us to assign engineering leads to lead each phases.
 
+A total of 13 phases are grouped into four Phase Sets
+- Phase Set A: GitLab.com HTTPS routing: delivering traffic to its destination
+- Phase Set B: Cluster Awareness and Initialization: making Cells
+- Phase Set C: Production Readiness and Deployment of first Production Cell
+- Phase Set D: First Internal Customer migration
 
+### Timeline
 
+We are currently executing Phase Set A
+- Phase 1: Due on July 30, 2024
+- Phase 2: Due on August 27, 2024
+- Phase 3: Due in staging mid-september, Production to follow
+- Phase 4: Dates to be determined around mid-September 2024
+
+### Cells Phase Diagram
+
+We are currently tracking our progress in the [Cells Phased Diagram.](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#group_Unassigned,groups_Phase_1,groups_Phase_2,groups_Phase_3,groups_Phase_4,groups_Phase_5,groups_Phase_6,groups_Phase_7,groups_Phase_8) This will be kept up-to-date on a weekly basis.
+
+### Staffing plan
+
+The Cells project is one of the most critical projects for Engineeing in FY25, we will be regularly evaluating staffing investments to ensure we are meeting our goals.
+
+Staffing will be a combination of:
+1. Borrow of existing team members, by order of priority
+  1. Tecnical Infrastructure (Core Platform & Test Platform teams)
+  1. SaaS Platform (Production SREs)
+  1. Core Development & Expansion (based on application compatibility work)
+1. Net-new staffing investments 
+
+If all options have been exhausted, we may mitigate the risk to meet the deadline with a team re-structuring.
+
+Borrows executed to date:
+1. Borrow 2 SREs for Phase Set A [https://gitlab.com/gitlab-com/Product/-/issues/13544]
+1. Borrow 3 Backeng Engineering leads until Cells 1.5 [https://gitlab.com/gitlab-com/Product/-/issues/13619]
 
 ## Cells 1.0
 
