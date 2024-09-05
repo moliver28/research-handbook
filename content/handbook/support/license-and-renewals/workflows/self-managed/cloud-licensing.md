@@ -132,11 +132,15 @@ Knowing whether to provide an Offline or Legacy License will depend on the custo
 - Offline licenses are preferred by GitLab over Legacy Licenses as they allow the customer to more easily provide usage data. These work best for customers who cannot use a Cloud License because their instance is air-gapped or not connected to the internet. However, in order to use an Offline Cloud License, the customer must be on 15.0 or higher.
 - Legacy licenses can be sent when a customer is unwilling or unable to upgrade to GitLab version 14.1 or higher, or is concerned about sharing Subscription Data.
 
-#### 2. Are reseller purchases considered the same as sales-assisted? If a customer purchased after 2022-07-07 and needs a Legacy License, should we send them to their Account Manager to go through the exemption process, or do we treat them the same as web-direct and give them a Legacy License file, no questions asked?
+#### 2. Which workflow applies for reseller purchases?
 
-Reseller customers should be directed to sales as well using the same process.
+For example: if a customer purchased after 2022-07-07 and needs a Legacy License, should we send them to their Account Manager to go through the exemption process, or do we treat them the same as web-direct and give them a Legacy License file, no questions asked?
 
-#### 3. A customer would like to use a Legacy License on a dev instance after activating their production instance with a Cloud License activation code
+Reseller customers should be directed to sales using the same exemption process as for sales-assisted purchases.
+
+#### 3. Can multiple license types be active for one subscription? {#multiple-license-types}
+
+For example: a customer would like to use a Legacy License on a dev instance after activating their production instance with a Cloud License activation code.
 
 We can generate a legacy license in this situation, but only after an exemption has been approved. **Do not apply the exemption to the currently CL-enabled subscription.** Instead, generate a legacy license duplicate of the existing license.
 
