@@ -95,7 +95,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 
 Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can also review [the additional guidance here](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) on how to best use them.
 
-### Managers For Team Members
+### Dashboards For Team Members
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
@@ -109,7 +109,7 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01ZPL000001Mcm1)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
 
-### Managers For Leaders
+### Dashboards For Leaders
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
@@ -1182,6 +1182,8 @@ To help structure your usage of the above, you can follow the steps below during
 #### 1:1 Account and Lead Level Dashboard Coaching guidance
 
 The table below can help with structuring how you perceive and action the 1:1 Dashboards we have on SFDC and Tableau, the below connect to the [KPI page here.](/handbook/marketing/sales-development/#outbound-account-management) and the videos [here](https://drive.google.com/file/d/1mOUGPVqhogmT0-mmqyhtiVKs4wmdHEZ_/view?usp=sharing) and [here](https://drive.google.com/file/d/1L3a6-vpG562rY0u4Yve4d_y1148MIvNG/view?usp=sharing) are two quick compelementary resources to walk you through how we use the dashboards.
+
+Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC2XYryjxYmfdHvv/view?usp=sharing) explains the purpose of these dashboards, while this [3' video](https://drive.google.com/file/d/1Sf6vFSXb8iNaSGLGv-TtasuPS3xfz-Ni/view?usp=drive_link) walks you through a practical use case of how to use a report in these dashboards.
 
 | Dashboard | Component | Expectation/Action | Coaching Opportunity |
 | ------ | ------- | ------- | ------- |
