@@ -18,7 +18,7 @@ At GitLab, I lead our Talent Development function and I’ve been working as a l
 ## “Location, Location, Location”
 
 I live in San Francisco, California. 🌉
-Since joining GitLab, I’ve been able to travel much more, so over the past year, I haven’t been in the same place for longer than three weeks. I’ve been able to spend more time in Mobile (Saraland) Alabama, where I am from originally. 
+Since joining GitLab, I’ve been able to travel while working much more, so over the past year, I haven’t been in the same place for longer than three weeks. I’ve been able to spend more time in Mobile (Saraland) Alabama, where I am from originally. 
 
 ## Availability
 
