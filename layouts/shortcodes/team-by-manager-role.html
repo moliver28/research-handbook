@@ -13,7 +13,7 @@
   {{- end }}
 {{- end }}
 
-<!-- {{< team-by-manager-role "Engineering Manager(.*)Manage:Import and Integrate" >}} -->
+<!-- team-by-manager-role "Engineering Manager(.*)Manage:Import and Integrate" -->
 {{- /* Find any characters past the '(.*)' in the managerRole and store as teamRole */}}
 {{- $teamRole := index (findRE `\(\.\*\)(.*)` $managerRole) 1 }}
 
