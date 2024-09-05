@@ -97,3 +97,11 @@ spreadsheet we will list all the team members that we audited and mark the colum
 Every first of the month at 10AM UTC, we run the audit on all the active team members at GitLab. A spreadsheet is created
 in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the spreadsheet
 we will list all the team members that we audited *and* that had something marked as *needs to be checked*.
+
+## GitLab Group
+
+We utilize a GitLab.com group for internal communications ('pings') on GitLab.com. This helps ensure the appropriate team members from the team are alerted and reduces noise for others that may not need to be alerted.
+
+This group is public https://gitlab.com/gl-people-engineering, and can be mentioned by tagging `@gl-people-engineering` within an issue, merge request, or epic on GitLab.com.
+
+> Project creation for this group has been disabled, all People Group Engineering projects that can be public should be committed to https://gitlab.com/gitlab-com/people-group-public/engineering.

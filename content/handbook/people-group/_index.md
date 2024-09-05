@@ -92,7 +92,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | HelpLab | @people-connect-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
 | [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
-| [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | No alias, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | n/a | #people-ops-eng | n/a |  |
+| [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | @gl-people-engineering | No email group, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | #peopleops-eng | n/a | https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/3941171 |
 | [Diversity, Inclusion and Belonging](https://gitlab.com/gitlab-com/diversity-and-inclusion) | No alias yet, @mention the |  |  |  |  |
 | [Diversity, Inclusion and Belonging Partner]({{< ref "diversity-inclusion-partner" >}}) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
 | [Learning and Development](https://gitlab.com/gitlab-com/people-group/Training) | `@gitlab-com/people-group/learning-development` | learning@ gitlab.com | #learninganddevelopment | n/a | [L&D Issue Board](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/boards/1958538)  |
@@ -221,11 +221,11 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 
 ## Take Time Out to Learn
 
-At GitLab, we believe that [career growth is non-linear](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/). In practice, non-linear career growth is an opportunity for team members to increase efficiency with new skills, develop as leaders with new responsibilities, and grow as an expert in their field. 
+At GitLab, we believe that [career growth is non-linear](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/). In practice, non-linear career growth is an opportunity for team members to increase efficiency with new skills, develop as leaders with new responsibilities, and grow as an expert in their field.
 
 **But growth only happens when we make intentional time and space to learn.**
 
-As a People Group, we're embracing this attitude of continuous learning together, with the challenge that, as a team, we can spend a total of **300 hours** learning before the end of FY25 Q3! We encourage everyone to participate, spending approx. 2 hours per month learning something new, as a way to prioritize your development and use work time to uplevel and upskill. 
+As a People Group, we're embracing this attitude of continuous learning together, with the challenge that, as a team, we can spend a total of **300 hours** learning before the end of FY25 Q3! We encourage everyone to participate, spending approx. 2 hours per month learning something new, as a way to prioritize your development and use work time to uplevel and upskill.
 
 At the end of the quarter, we'll ask folks to self-report hours spent learning, and take a tally of total People Group learning hours.
 
