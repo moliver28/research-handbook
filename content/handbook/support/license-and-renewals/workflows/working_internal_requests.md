@@ -16,6 +16,13 @@ The L&R team works on licensing and subscription related internal requests that 
 
 A list of the different options available and example scenarios can be found in [this section](/handbook/support/internal-support/#common-internal-request-scenarios). Click for details.
 
+#### New section
+
+This workflow is very important, let's make sure to do the following:
+1. A
+2. B
+3. C
+
 ### Order Management
 
 **Note:** Team members who are part of Sales or another team should NOT use the `Order Management` option as the request will be rejected.
