@@ -84,7 +84,8 @@ GitLab Professional Services Partner Designation (PSP) has partner program, comp
 
 #### GitLab PSP Designation Requirements
 
-##### Program Entry Requirements, Each PSP must be:
+##### Program Entry Requirements
+Each PSP must be:
 
   1. An authorized GitLab partner
   2. Design, build and operate a professional service practice, and
