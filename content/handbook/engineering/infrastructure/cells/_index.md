@@ -231,9 +231,9 @@ A total of 13 phases are grouped into four Phase Sets
 We are currently executing Phase Set A
 
 - Phase 1: Due on July 30, 2024
-- Phase 2: Due on August 27, 2024
-- Phase 3: Due in staging mid-september, Production to follow
-- Phase 4: Dates to be determined around mid-September 2024
+- Phase 2: Due on November 22, 2024 (production deployment)
+- Phase 3: Due on December 16, 2024 (production deployment)
+- Phase 4: TBD
 
 ### Cells Phase Diagram
 
