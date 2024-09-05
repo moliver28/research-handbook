@@ -85,18 +85,20 @@ GitLab Professional Services Partner Designation (PSP) has partner program, comp
 #### GitLab PSP Designation Requirements
 
 ##### Program Entry Requirements, Each PSP must be:
+
   1. An authorized GitLab partner
   2. Design, build and operate a professional service practice, and
   3. Meet the Delivery Requirements, and
   4. Hire team members who have completed the competency requirements and/or sponsor the appropriate number of team members through the completion of the competency requirements.
 
 ##### Competency Requirements
-  - Each PSP must perpetually employ at least three (3) [GitLab Certified Professional Service Engineers](/handbook/resellers/training/#gitlab-professional-services-engineer-pse).
+
+- Each PSP must perpetually employ at least three (3) [GitLab Certified Professional Service Engineers](/handbook/resellers/training/#gitlab-professional-services-engineer-pse).
 
 ##### Delivery Requirements
 
 - Each PSP must complete an average of at least 2 service engagements per GitLab Fiscal Quarter.
-    - As a note, the GitLab fiscal year starts on February 1 of each year.
+  - As a note, the GitLab fiscal year starts on February 1 of each year.
 - Starting in Q3 FY25 (August 1, 2024), the following qualify as proof of completed service engagements:   
     1. [Service Attach Registrations](/handbook/resellers/channel-working-with-GitLab/#how-services-attached-registrations-work)
     1. [Managed Services Provider deal registrations](/handbook/resellers/channel-working-with-gitlab/#submitting-a-deal-registration)
