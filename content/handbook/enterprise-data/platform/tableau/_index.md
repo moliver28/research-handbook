@@ -16,13 +16,15 @@ description: "Tableau at GitLab"
 - [GitLab Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/)
 - [GitLab Tableau Administration Guide](/handbook/enterprise-data/platform/tableau/tableau-admin-guide/)
 - [Reporting Data Catalog](/handbook/enterprise-data/platform/tableau/reporting-data-catalog/)
-- [Handbook Embedding Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/)
+- [Tableau Embedding to Handbook Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/)
 
 ## Tableau
 
-[Tableau](https://www.tableau.com) is our new Enterprise Business Intelligence tool. It is a [leader](https://interworks.com/blog/2021/02/24/the-2021-gartner-bi-magic-quadrant-visualized-in-tableau/) in the Business Intelligence space. We are applying the [Tableau Blueprint](https://help.tableau.com/current/blueprint/en-us/bp_overview.htm) to launch our Tableau production environment. The Tableau Blueprint outlines the processes and best practices from thousands of Tableau customers. We will apply these processes and best practices in accordance GitLab's TeamOps and culture.
+[Tableau](https://www.tableau.com) is our new Enterprise Business Intelligence tool. It is a [leader](https://www.tableau.com/asset/gartner-magic-quadrant-2024) in the Business Intelligence space. We are applying the [Tableau Blueprint](https://help.tableau.com/current/blueprint/en-us/bp_overview.htm) to launch our Tableau production environment. The Tableau Blueprint outlines the processes and best practices from thousands of Tableau customers. We will apply these processes and best practices in accordance with GitLab's TeamOps and culture.
 
-## Terms and Definitions
+<details markdown=1>
+
+<summary><b>Tableau Terms and Definitions</b></summary>
 
 - **Connections:** The method Tableau used to communicate with a source of data.
   - **Direct to Source:** When Tableau uses a built in connector to communicate with source of data like Snowflake or Google Drive.
@@ -45,17 +47,20 @@ description: "Tableau at GitLab"
 - **Tableau Objects:** The elements that a developer will work with to create visualizations.
   - **Project:** The folder structure maintained in Tableau Online.  This is where content permissions are administered.
   - **Data Source:** A collection of connections and data modeling that results in a single result table that can be published and a stand alone file.
-  - **Flow:** A collection of connections and transformation steps that will typically result in creating one or more Data Sources. A Flow is created using the Tableau application called Prep which performs data transformations. Some individuals may use the works Prep and Flow interchangeably. At GitLab we prefer all transformations go through DBT at the Data Warehosue Level.
+  - **Flow:** A collection of connections and transformation steps that will typically result in creating one or more Data Sources. A Flow is created using the Tableau application called Prep which performs data transformations. Some individuals may use the works Prep and Flow interchangeably. At GitLab we prefer all transformations go through DBT at the Data Warehouse Level.
   - **Workbook:** The base file time for creating visitations.
     - **View:** The element that represent a chart or other visualization.
     - **Dashboard:** A collection of views and layout elements.
     - **Story:** A collection of views and layout elements where the views can be set to a specific filter or parameter value and displayed in a sequential structure.
 
-## Roadmap
+</details>
 
-### FY25 Tableau Roadmap
+<details markdown=1>
 
-Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and scaling our implementation to stregthen enterprise reporting.
+<summary><b>Roadmap</b></summary>
+FY25 Tableau Roadmap
+
+Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and scaling our implementation to strengthen enterprise reporting.
 
 - FY25-Q2 - Establish the framework for the Future State of Tableau, with input from Functional teams
   - Publish the Executive Landing Page to drive users towards critical dashboards
@@ -85,13 +90,15 @@ Having completed the migration to Tableau in FY25-Q1, we are now focused on impr
   - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
   - Refresh assessment of Tableau environment and quantitative metrics for Tableau health
 
+</details>
+
 ## Governance Model
 
 Governance is the combination of controls, roles, and repeatable processes that creates trust and confidence in data and analytics. Both IT and business stakeholders on the project team are responsible for defining data and content governance together. In a successful self-service environment, the appropriate levels of governance create accountability and enable, rather than restrict, access to trusted content for users at GitLab. Governance is a spectrum, different kinds of data and content require different kinds of governance. It's not a one-time effort because skills and expectations will evolve. Periodically evaluating governance processes will allow us to evolve and delegate more responsibilities as new analytical skills and use cases develop.
 
 We use a self-governing model at GitLab. In a self-governing model, there is strong collaboration between IT and business users. Certified content and data sources are available, and one off content is being created regularly by Creators and Explorers. Viewers understand the delineation between certified, one off, and sandbox content states. The process of validation, promotion, and certification is well-defined and well-understood by users of all skill levels. With increasing analytical skills across the organization, the boundaries between the roles of the Modern Analytics Workflow are fluid as users switch from consuming to creating to promoting content with the appropriate level of permissions.
 
-### BIOps
+## BIOps
 
 Our Tableau self-governing model is administered and enforced in the [GitLab Tableau Project](https://gitlab.com/gitlab-data/tableau) using BIOps. The BIOps approach will leverage GitLab's repository, maintainer and code review functionality to administer the governance model. Tableau does not currently have a Git integration so our BIOps is not fully automated and there are some limitations. The README file is coming soon which will describe the BIOps workflow. We will iterate on this approach with the GTM and Finance teams during Q1 and Q2 and adjust and adapt as needed.
 
@@ -102,7 +109,7 @@ The Project Architecture in Tableau Online is replicated and governed in the Git
 The top-level folders in our Tableau Project, and their corresponding levels of governance, include:
 
 - `Development`: content in this folder intentionally includes no governance, in order to enable users to quickly prototype. As such it should be considered to be sandbox content.
-- `Production`: content in this folder has been reviewed and approved by sub-project leader(s) as well as project leader(s). This is the highest level of certification for Tableau content.
+- `Production`: The Tableau Production folder environment is a designated area where validated, high-quality content is published and accessible to end users for business-critical reporting. Content in this folder has been reviewed and approved by Project Leaders.
 - `Resources`: content in this folder includes workbook templates and certified data sources that can be used in workbook development
 
 <details markdown=1>
@@ -166,63 +173,71 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 </details>
 
-### BIOps Roles and Responsibilities
+<details markdown=1>
+
+<summary><b>BIOps Roles and Responsibilities</b></summary>
 
 Please see the [project-permission-structure](/handbook/enterprise-data/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles.
 
 1. **Top Level Project Leader / Maintainer Responsibilities:** The Top Level Project leaders come from the BI Platform Team. These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Online Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Online Site Admins](/handbook/enterprise-data/platform/tableau/#tableau-online-admins).
 2. **Sub-Project Leader / Code Owner Responsibilities:** The Sub-Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. The [CODEOWNERS file](https://gitlab.com/gitlab-data/tableau/-/blob/main/CODEOWNERS?ref_type=heads) in the Tableau project is the source of truth for sub-project leads who are able to review and approve MRs to publish dashboards to Production.
 
-### BIOPs Workflows
-
-The BIOps Workflow consists of 3 stages; Access Request, Development, and Production Publishing. Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) in the GitLab Tableau Project for detailed steps on the workflow to include the process for submitting an [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new#) for Tableau Production publishing and receiving the necessary maintainer and code owner approvals from Project and Sub-Project leaders for publishing content.
-
-```mermaid
-graph LR
-  A[Access Request]-->B
-  B[Development]-->C
-  B[Development]-->D
-  C[Ad-Hoc Publishing]-->D
-  D[Production Publishing]
-```
-
-1. **Access Request:** The Access Request stage requires completion of an Access Request. Please see the [Access](/handbook/enterprise-data/platform/tableau/#access) section of the Tableau handbook page for more details.
-1. **Development:** All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing.  **The Development Folder will have the same user experience as our old Sisense BI tool where team members can create and share content on demand without any approvals being required from the BI Platform team.** Tableau Creators should follow [SAFE development workflow guidelines](/handbook/enterprise-data/platform/safe-data/#tableau) when working with MNPI data in the development folder.
-1. **Production Publishing:** When content in the Development Project Folders is ready for Production publishing, it can be published in the Production Project Folder if it adheres to the [Trusted Data Development](/handbook/enterprise-data/data-development/#data-development-at-gitlab) methodology. Content that adheres to the Trusted Data Development process will get a Certified Stamp in Production. If the content does not adhere to the Trusted Data Development requirements, but is still considered SSOT, Production grade content, the content can still be published in Production, but it will not receive a Certified Stamp. In such cases, there should be an issue with a project plan for the Tableau content to receive a Certified Stamp. **Please see the [README](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) for detailed steps on publishing content to the Production Project Folder.**
-
-### BIOps Workflow Examples
-
-The flowchart below illustrates 3 examples of the BIOps publication workflow.
-
-In Example 1, a developer is publishing a dashboard to their own **Development** space. No governance or approval is required.
-
-In Example 3, a developer is publishing a dashboard to a sub-folder within the **Production** space. This requires review and approval by the project leaders (i.e. Functional Team leaders) of the sub-folder the dashboard will be published to, *as well as* review and approval by the top-level project leaders (i.e. project leaders from the Enterprise Data Team). For example, if the developer is publishing a dashboard to the Sales sub-folder within the Production space, a Sales sub-project leader will need to review and approve it, and an Enterprise Data Team project leader will need to additionally review and approve it.
-
-### BI Development Excellence
-
-Tableau Workbooks must satisfy all of the below requirements in order to be published to Tableau Production. These requirements are included in the Merge Request Template for Production Publishing (Link coming soon...).
-
-1. The workbook uses a template in the Resources folder. If a template is not used, then at a minimum, the workbook should include the GitLab logo, handbook url, and the project path.
-1. The content adheres to the Development workflow.
-1. The content is the Single Source of Truth (SSOT) for a business area. The SSOT should be documented in the handbook either in a Business Domain Handbook Page, Data Guide in the Data Catalog, or both.
-1. Business owner has signed off on both the functionality of the content and the validity of the numbers.
-1. Technical owner has signed off on the validity of the numbers.
-1. The workbook uses a Certified Virtual Connection or a Certified Published Data Source.
-1. Performance tuning has been performed and the workbook refreshes within 5 minutes max.
-
-<details markdown=1>
-
-<summary><b>Tableau Style Guide</b></summary>
-
-For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) handbook page.
-
 </details>
+
+## Tableau Content Publication
+
+Tableau Workbooks and Data Sources can be published to two folder environments: Development and Production. The following details the publication process for each folder environment. 
+
+#### Publication to Development Folders
+
+All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing. Tableau Creators should follow [SAFE development workflow guidelines](/handbook/enterprise-data/platform/safe-data/#tableau) when working with sensitive SAFE/PII/MNPI data in the Development folders.
+
+### Publication to Production Requirements
+
+1. **Documentation**
+   * **Issue Creation**: Publication of content requires an issue which is automatically labeled for categorization and search-ability.
+   * **Documentation in Handbook:** Documentation to be created in GitLab Handbook and linked to in Tableau content description and listed on dashboards
+1. **Validation Approvals**
+   * **Tableau Project Lead (Business Department Owner) Approval**: The Tableau Project Lead must approve the promotion.
+   * **Technical Owner (Data Steward) Sign-off**: Project Lead may request a Technical Owner sign off on the validity of the data and content.
+   * **Cross-Division Development**: Content that is cross-division requires a review by multiple Business Owners. Cross Division content includes GTM, etc.
+1. **Data Security**
+   * **Data Security**: For SAFE or Restricted data, appropriate folder and/or data source access permission controls must be applied. For general access data, confirmation that no restricted (SAFE) data is used is required.
+1. **Uniqueness**
+   * **Content Uniqueness:** Content is unique to Production
+1. **Requirements for Workbook Formatting**
+   * **Workbook Formatting**: The workbook must include the GitLab logo.
+   * **Content Descriptions**: Workbooks and Data Sources should have a 1-2 concise description providing the purpose of the content.
+  
+### Publication to Production Procedure
+
+![Tableau Publication to Production](images/tableau_publication_to_prodcution.png)
+
+#### First-Time Promotion to Production
+
+1. **Developer Publish to Development**: The Developer publishes the content to a Tableau Development folder. This is the initial step where content is prepared for review and eventual promotion.
+1. **Developer Creates an Issue**: The Developer creates a [GitLab Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) which will document the promotion process to Production. Use the template `Tableau Publish Workbook or Data Source to Production` which lists all necessary request documentation and requirements. 
+1. **Developer Confirms Content Validity**: Developer ensures content meets promotion criteria requirements as documented in Issue. The Developer will then assign the issue to the associated [Department Project Lead](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views) for approval, signaling that the content is ready for review.
+1. **Review Process**: The Project Lead will review the issue and content. They will check for compliance with Production requirements and assess the content's readiness. If needed, the Approvers will propose corrections or updates to the content. The Developer will need to address these before proceeding.
+1. **Final Promotion**: Once all requirements are met and approval is granted, the Project Lead moves the content from Development to Production. This step officially makes the content available for business use.
+
+#### Editing and Updating Content in Production
+
+There are two options for editing or updating content which is in Production: 
+
+1. **Update and Overwrite Original:** This is required for any major changes to a workbook or data source. Changes include replacing or editing a data source, altering or adding logic, custom sql, or calculated fields. This is the preferred option where the developer edits the workbook or data source and save it to the Development folder. It is then reviewed and inspected. After approval it the Project Leader will overwrite it to Production.
+1. **Allow Developer to Edit in Production:** Allow me 48 hours to edit/update access to alter in Production content myself. This is only allowed for small changes such as cosmetic improvements, spelling corrections, small filter changes or urgent issues.
+
 
 ### Tableau Trusted Data Certification
 
-Tableau Workbooks that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) and meet all requirements for BI Development Excellence (Link coming soon...) will receive a `Trusted Data` Certification. The certification is applied by placing a `TD` in the workbook title.
+Tableau Workbooks that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied by placing a `TD` in the workbook title.
 
 Tableau Data Sources that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied using native [Tableau functionality](https://help.tableau.com/current/server/en-us/datasource_certified.htm) and a certified stamp is applied to the data source.
+
+### Tableau Style Guide
+
+For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) handbook page.
 
 ### Tableau Publishing Service Level Objectives (SLOs)
 
@@ -681,7 +696,7 @@ Business Owner / Stakeholder / Viewer / End User
 
 <summary><b>Training by Roles</b></summary>
 
-Below is a set of training courses and learning paths that are recommended for the following [roles](https://gitlab.com/gitlab-data/tableau/-/blob/main/README.md) based on their responsibilities and required skill sets:
+Below is a set of training courses and learning paths that are recommended for the following roles based on their responsibilities and required skill sets:
 
 Site Administrator
 
