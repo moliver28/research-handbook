@@ -153,6 +153,34 @@ dataLayer.push(
 });
 ```
 
+### Database Recurring Purge
+
+Marketing operations has created an automated process to purge inactive leads from the database on a recurring basis. This helps maintain data quality and reduce costs associated with storing unnecessary records. The leads are deleted from both Marketo and salesforce and follows these criteria:
+
+| Filter Description               | Criteria                                      | Date of Activity |
+|----------------------------------|-----------------------------------------------|------------------|
+| Not Clicked Link in Email        | Email: is any                                 | in past 2 years  |
+| Not Was Added to Opportunity     | Opportunity: is any                           | in past 2 years  |
+| Not Opened Email                 | Email: is any                                 | in past 2 years  |
+| Not Filled Out Form              | Form Name: is any                             | in past 2 years  |
+| Not Clicked Link on Web Page     | Link Name: is any                             | in past 2 years  |
+| Not Had Interesting Moment       | Type: is not empty                            | in past 2 years  |
+| Not Visited Web Page             | Web Page: is any                              | in past 2 years  |
+| Not Person was Created           |                          | in past 2 years  |
+| SFDC Type                        | SFDC Type: is Lead                            | -                |
+| Person Status                    | Person Status: is 'Raw', 'Inquiry', 'Disqualified', 'Recycle', 'Ineligible' | - |
+| Account Type                     | Account Type: is not Customer; Partner; Reseller | -                |
+| Not SFDC Activity was Logged          | Subject: is any                         | in past 2 year   |
+|Not currently sequencing in Outreach|||
+
+The purge process runs weekly and permanently deletes leads meeting all of the above criteria. 
+
+It's important to note that this process does not affect leads with any recent activity, those who have been through programs, or those associated with opportunities or current customers. This ensures that valuable leads are retained while removing truly inactive records.
+
+Marketing Operations team members should regularly review the purge logs to ensure the process is running correctly and to identify any potential issues or exceptions that may need to be addressed.
+
+The process runs through [this smart campaign](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC53025A1ZN19) and deletes all records that meet the criteria [from this list](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SL52963827C3LA1).
+
 ### Program Asset Expiration
 
 Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page. 

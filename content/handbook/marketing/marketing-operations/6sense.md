@@ -9,7 +9,7 @@ description: 6sense is an Account Based Marketing platform that uses a predictiv
 
 [6sense](https://6sense.com/) is a an [Account Based Marketing](/handbook/marketing/account-based-marketing/) platform that uses a predictive model to identify the right customers at the ideal time.
 
-**This page contains public information about 6sense and how we use it. In addition to this page, additional, non-public information for GitLab team members can be found in the [internal handbook](https://internal.gitlab.com/handbook/marketing/marketing-strategy-and-platforms/marketing-operations/6sense/).**
+**This page contains public information about 6sense and how we use it. In addition to this page, additional, non-public information for GitLab team members can be found in the [internal handbook](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/).**
 
 ## Implementation
 
