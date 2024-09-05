@@ -519,6 +519,12 @@ The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerdu
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
 
+### On-call Shift Coverage in US Government
+
+In the event that a Support Engineer needs coverage for a scheduled On-call shift, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template.
+
+Dayshift engineers needing coverage on a **non-holiday weekday** may give the shift to the Support Bot.  To do so, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template and mention your manager for review. After ensuring that the shift(s) in question do not fall on a weekend or holiday remove the override for your shift in PagerDuty and ensure it falls back to the bot user.
+
 ### Emergencies outside on-call hours
 
 If a non-24x7 eligible customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
