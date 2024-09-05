@@ -95,7 +95,7 @@ GitLab Professional Services Partner Designation (PSP) has partner program, comp
 
 - Delivery Requirements
 
-  1. Each PSP must complete an average of at least 2 service engagements per GitLab Fiscal Quarter.
+1. Each PSP must complete an average of at least 2 service engagements per GitLab Fiscal Quarter.
   1. As a note, the GitLab fiscal year starts on February 1 of each year.
   2. Starting in Q3 FY25 (August 1, 2024), the following qualify as proof of completed service engagements:
             a. [Service Attach Registrations](/handbook/resellers/channel-working-with-GitLab/#how-services-attached-registrations-work)
