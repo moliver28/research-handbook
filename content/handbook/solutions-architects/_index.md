@@ -19,7 +19,6 @@ description: "Solutions Architects (SA) are the trusted advisors to GitLab prosp
 
 Here's how the SA organization fosters value creation through the lens of a learning organization and DevOps culture:
 
-
 1. Shared Vision & Value Creation
    - The SA team aligns its goals with the overarching organizational vision of empowering customer success.
    - They prioritize customer value creation, understanding that their success is directly tied to the positive outcomes achieved by their customers.
