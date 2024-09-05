@@ -138,7 +138,7 @@ For example: if a customer purchased after 2022-07-07 and needs a Legacy License
 
 Reseller customers should be directed to sales using the same exemption process as for sales-assisted purchases.
 
-#### 3. Can multiple license types be active for one subscription?
+#### 3. Can multiple license types be active for one subscription? {#multiple-license-types}
 
 For example: a customer would like to use a Legacy License on a dev instance after activating their production instance with a Cloud License activation code.
 
