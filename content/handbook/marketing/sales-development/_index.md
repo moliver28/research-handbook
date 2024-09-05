@@ -440,6 +440,7 @@ The FO Outbound process is split in four phases, which should be followed on a w
 | BDR Next Steps         | A space for the BDR to use as working notes for the current status of prospecting the account.                |
 | BDR Account Strategy   | A categorization system that we use to high-level denote what motion or play was used in trying to engage with an account. |
 | BDR Recycle Date       | Automatically populated two months out from the AW date. Can be manually changed if the BDR chooses to continue working an account. |
+| 6QA Acceptance Status and 6QA Dispute Reason. | When an account has been automatically moved to Actively Working and Showing Intent, as per the 6QA project outlined [here](/handbook/marketing/sales-development/#6sense-6qa-automations), you will need to review the account and change this field to Accepted or Disputed within 48 hours. In case of choosing to Dispute the account you will need to choose a Dispute reason. These accounts will be flagged on the 1:1 Dashboard for you to review with your manager and other collaborators. |
 
 #### Planning Phase (4-5 hours/week)
 
@@ -1841,6 +1842,7 @@ In addition to the above, BDR team members are expected to:
 | Volume of Actively Working Accounts per Quarter               | **- Enterprise:** <br> - 75 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 65 6QAd accounts per Quarter, per BDR. <br> **- Mid-Market:** <br> - 125 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 25 6QA'd accounts per Quarter, per BDR.  |
 | Research Quality            | >80% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
 | Volume of Prospects per Account | 5-10 prospects sequenced per account, whose titles and personas match our ICPs. |
+| 6QA Account Review | All automatically 6QA'd accounts to be reviewed, and either accepted or rejected, within 48 hours. | 
 
 ### PTO and Flexible Working
 
