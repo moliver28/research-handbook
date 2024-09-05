@@ -102,8 +102,8 @@ GitLab Professional Services Partner Designation (PSP) has partner program, comp
     1. [Service Attach Registrations](/handbook/resellers/channel-working-with-GitLab/#how-services-attached-registrations-work)
     1. [Managed Services Provider deal registrations](/handbook/resellers/channel-working-with-gitlab/#submitting-a-deal-registration)
 
-2. When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
-3. Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
+1. When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
+1. Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
 
 #### GitLab PSP Designation Information
 
