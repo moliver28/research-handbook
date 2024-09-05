@@ -1,5 +1,11 @@
+---
+title: "Tre Ely's README"
+description: "This page is Tre Ely's README and is intended to be helpful when interacting with him."
+---
 
-# “What about ME!?!” (Tre's README)
+<!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. -->
+
+## “What about ME!?!” (Tre's README)
 
 Well HELLO! I’m Tre, short for “Trenholm” (ask me about it later), and I am intrinsically enthusiastic about almost everything. My pronouns are HE/HIM/HIS, and my name is pronounced just like “TRAY” as in ice tray or serving tray; because I serve all day every day, haha. I like to have fun and actively choose JOY whenever I can. I don’t take things too seriously, unless it’s about proper brunch hours.
 
