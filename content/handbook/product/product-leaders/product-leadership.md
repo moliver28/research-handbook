@@ -42,40 +42,20 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-05-20 | Steve Evangelista | [17.1 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13349) |
 | 2024-06-18 | Mike Flouton | [17.2 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13455) |
 | 2024-07-18 | Justin Farris | [17.3 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13519) |
-| 2024-08-19 | Hillary Benson | To be added |
+| 2024-08-16 | Hillary Benson | [17.4 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13573) |
 | 2024-09-18 | Steve Evangelista | To be added |
 | 2024-10-17 | Mike Flouton | To be added |
 | 2024-11-18 | Justin Farris | To be added |
 | 2024-12-18 | Hillary Benson | To be added |
 
-## Product Key Review Leader Rotation
+## Product Key Review 
 
-The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
-| 2024-02-21 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/13121 |
-| 2024-06-17 | Justin Farris | -- |
-| 2024-XX-XX | Mike Flouton | -- |
-| 2024-XX-XX | Hillary Benson | -- |
+The Product [Key Review](/handbook/company/key-review/) is hosted by the David DeSanto, CProdO. The CoS to the CProdO will create and manage the deck. Once completed the CProdO will review and approve. The recording DRI is the Sr EBA to CProdO.
 
 ## Product Group Conversation Leader Rotation
 
-The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
+The Product [Group Conversation](/handbook/company/group-conversations/) is an async update. The Product EBA creates the Group Conversation Issue using this [template](https://gitlab.com/gitlab-com/group-conversations/-/issues/new). The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Product Leaders will be assigned to the issue for visibility on Questions and Comments added by the team. The Product EBA will post in #group-conversations the day before the Async meeting, and will follow up as needed to ensure questions are answered within the set timeframe.
 
-For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 |
-| 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
-| 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
-| 2024-06-20 | Mike Flouton | -- |
-| 2024-XX-XX | Hillary Benson | To be added |
-| 2024-XX-XX | Justin Farris | To be added |
-| 2024-XX-XX | Mike Flouton | To be added |
-| 2024-XX-XX | Hillary Benson | To be added |
 
 ## Product Leadership ReadMe's
 
