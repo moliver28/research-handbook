@@ -31,7 +31,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
   - Reason: Acknowledges the evolving nature of AI technology and user needs, allowing for ongoing refinement of features.
   - Example: Implement a feedback loop where user acceptance rates of Code Suggestions (measured by Tab presses vs. Esc presses) inform model fine-tuning and improvement of the suggestion algorithm.
 - Embrace automatic testing of AI output
-  - Reason: Without such in place, efficient development iteration and following up on user feedback is hard to impossible.
+  - Reason: Without such in place, efficient development iteration and following up on user feedback is hard.
   - Example: Develop automated tests that evaluate the quality of Code Suggestions against project-specific criteria, such as adherence to coding standards, successful compilation, and passing of existing unit tests.
 
 ## Potential Evaluation Metrics
