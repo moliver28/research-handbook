@@ -54,6 +54,12 @@ Team Page: [Dynamic Analysis](dynamic-analysis/)
 
 {{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Dynamic Analysis" team="Engineer" >}}
 
+### Secret Detection
+
+Team Page: [Secret Detection](secret-detection/)
+
+{{< team-by-departments departments="Secure:Secret Detection BE Team" >}}
+
 ### Vulnerability Research
 
 Team Page: [Vulnerability Research](vulnerability-research/)
