@@ -37,7 +37,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Manage:Foundations
 
-{{< team-by-manager-role "Engineering Manager(.*)Manage:Foundations" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Manage:Foundations" team="[,&] (Manage:Foundations)">}}
 
 #### Manage:Import and Integrate
 
@@ -65,11 +65,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Code Review
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Code Review" >}}
-
-#### Create:Code Review Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Code Review" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Code Review" team="[,&] (Create:Code Review)" >}}
 
 #### Create:Code Creation
 
@@ -77,7 +73,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Editor Extensions
 
-{{% team-by-manager-role role="(.*)Manager(.*)Create:Editor Extensions" %}}
+{{% team-by-manager-slug "kisha.mavryck" %}}
 
 #### Create:Remote Development
 
@@ -85,11 +81,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Source Code
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" >}}
-
-#### Create:Source Code Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Source Code" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Source Code" team="[,&] (Create:Source Code)">}}
 
 ## Stable Counterparts
 
