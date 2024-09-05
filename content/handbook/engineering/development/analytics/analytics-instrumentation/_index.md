@@ -23,11 +23,6 @@ You can learn more about what we're building next on the [Analytics Instrumentat
 
 If you have any questions start by @ mentioning the product manager for the [Analytics Instrumentation Group](/handbook/product/categories/#analytics-instrumentation-group) or by creating an issue in our [issue board](/handbook/engineering/development/analytics/analytics-instrumentation/#issue-boards).
 
-### Office hours
-
-Every second week Analytics Instrumentation team holds open office hours on Zoom for any questions that might arise. It's typically Wednesday for half an hour at 7:30 UTC. You can find the event in the [GitLab Team Meetings calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar).
-The historical and upcoming meeting agendas can be accessed in [our agenda document](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
-
 ## Responsibilities
 
 ### Internal Events
