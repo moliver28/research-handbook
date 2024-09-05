@@ -31,19 +31,7 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
   </div>
 </div>
 
-## What concepts are taught in Elevate+?
-
-Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
-
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
-
 ## Time Committment
-
-![visual displaying the elevate+ round 1 timeline](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplustimeline.png)
-
-Elevate+ runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend approx. 4 hours in the following learning activities:
-
-5 Total Modules
 
 | Step | Week | Title | Description | Time |
 | ----- | ----- | ----- | ---------- | ----- |

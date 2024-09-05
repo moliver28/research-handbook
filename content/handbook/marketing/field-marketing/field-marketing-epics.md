@@ -10,7 +10,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -53,7 +54,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -95,7 +97,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -138,7 +141,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -168,7 +172,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## [Landing Page]() - `to be added when live`
 
@@ -203,7 +208,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## [Landing Page]() - `to be added when live`
 
@@ -239,7 +245,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## [Landing Page]() - `to be added when live`
 
@@ -275,7 +282,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## [Landing Page]() - `to be added when live`
 
@@ -313,7 +321,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -345,7 +354,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## [Landing Page]() - `to be added when live`
 
@@ -380,7 +390,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -410,7 +421,8 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit
+## [Dry Run Agenda]()
+   - [Template](https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit)
 
 ## [Landing Page]() - `to be added when live`
 
@@ -473,9 +485,11 @@ Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spr
 
 ## [Main Issue]()
 
-## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
+## [Copy Document]() 
+   - [Template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
-## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce
+## [Dry Run Agenda]() 
+   - [Template](https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce)
 
 ## [Landing Page]() - `to be added when live`
 

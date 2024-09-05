@@ -149,8 +149,6 @@ Information for and about the different parts of the Support Team can be found i
 
 Below we also have some commonly referenced pages:
 
-- [Support Global Groups](/handbook/support/support-global-groups/index.html) - all
-  about the smaller groups in which Support Engineers work on support tickets
 - [Support Engineer responsibilities](/handbook/support/support-engineer-responsibilities)
 - [Support Engineer knowledge areas](/handbook/support/workflows/knowledge_areas)
 - [Support Engineer career path](/handbook/support/support-engineer-career-path)
@@ -314,11 +312,13 @@ issue trackers or customer tickets.
 
 When naming channels, "spt" is meant for internal channels, meaning those that will be of use to the Support Team mainly. They should be public so others may join if they choose. If a channel has a "support" prefix, it is meant as a public interface where other teams will interact with the Support Team.
 
-The "spt_gg_" prefix is used for [Support Global Groups](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3879) internal channels.
-
 #### Daily Stand-up bot
 
-The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) Daily Stand-up posts at the commencement of each region's [Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) regularly, in a number of channels to advise global groups of different information. For further details of the different variations, please refer to the SGG handbook page of the group you are curious about.
+The [Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+is an automated tool designed to facilitate daily standup Slack threads across
+various teams and regions at GitLab. It posts customized messages to specific
+Slack channels based on type and target. For further details of the different
+variations, please refer to the [README file](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot/-/blob/main/README.md?ref_type=heads).
 
 #### Channels
 
@@ -604,12 +604,10 @@ Consider updating the title on Slack and on Zoom, following the guidelines in [Z
 
 ### Support Pods
 
-In GitLab Support, we have two mechanisms to organize support engineers as they work:
-
-- Support Global Groups: A cross-region, cross-skillset group of engineers that coordinate on issues and hand off tickets"
-- Support Pods: A cross,region, single skill group of engineers that are experts or soon to be experts on that specific product area.
-
-Global groups are organized by managers. Support Pods are engineer-lead. To join or start a Support Pod you can read more below.
+In GitLab Support, we use `Support Pods` to organize support engineers as they
+work. Each Support Pod is a cross-region, single skill group of engineers who
+are interested in their Support Pod's specific product area. They are engineer-
+lead. To join or start a Support Pod you can read more below.
 
 *See the [Support Pods handbook page](/handbook/support/support-pods) and the [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).*
 

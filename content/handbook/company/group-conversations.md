@@ -160,8 +160,8 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Thursday 2024-07-25 | Data | Amie Bright | July 18 |
 | Monday 2024-08-05 | Infrastructure & Quality | Mek Stittri | July 25 |
 | Thursday 2024-08-22 | IT | Nabitha Rao | August 14 |
-| Wednesday 2024-08-28 | Product | Product Leadership | - |
 | Thursday 2024-08-29 | Finance | Brian Robins | - |
+| Wednesday 2024-09-11 | Product | Product Leadership | August 30 |
 | Thursday 2024-09-12 | People | Wendy Barnes | - |
 | Thursday 2024-09-26 | Support | Johnny Scarborough | September 18 |
 | Monday 2024-09-30 | Security | Josh Lemos | September 19|
