@@ -8,6 +8,7 @@ The following page may contain information related to upcoming products, feature
 {{% /alert %}}
 
 [CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
+[CI Component and Catalog Product Direction](https://about.gitlab.com/direction/verify/component_catalog/)
 
 ### Milestone 17.4 (August 9, 2024 - September 13, 2024)
 
@@ -16,7 +17,7 @@ The following page may contain information related to upcoming products, feature
 - Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
   - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) (in-dev)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
-  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev) - 1 MR remaining
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-review)
 - Inputs enhancements
   - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
   - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (complete)
