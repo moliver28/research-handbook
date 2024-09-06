@@ -26,8 +26,8 @@ To overcome this, a SAST developer image has been added to the EC2 AMI catalog a
 1. For the instance type, `c6a.xlarge` is recommended as it should provide decent single core performance which is useful for the integration tests.
 1. In "Network Settings", ensure the check box "Allow SSH traffic from" is selected and choose "My IP" in the dropdown select.
 1. Create or select a key pair and download the private key `.pem`.
-1. Wait for the instance to start.
-1. Navigate to the instance page and note the public IP address.
+1. Click on "Launch Instance". You'll be redirected to another page and see a message stating "Successfully initiated launch of instance".
+1. Click on "View all instances" and note the public IP address of the instance.
 1. SSH into the instance using `ssh -i <path-to-pem> ubuntu@<ip>`.
 
    Note: If you see a warning message such as `WARNING: UNPROTECTED PRIVATE KEY FILE!!` along with `Permissions 0644 for '<path/to/private-key.pem>' are too open.`, then you'll need to change the mode of the file using `chmod 600 <path/to/private-key.pem>`
