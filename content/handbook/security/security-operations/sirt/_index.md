@@ -19,24 +19,24 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 | | |
 |---|---|
-|Matt Coons|[Security Manager]({{< ref "security-operations#manager-security-operations" >}})|
-|Robbie Dickson|[Security Manager]({{< ref "security-operations#manager-security-operations" >}})|
+|Matt Coons|[Security Manager]({{< ref "security-operations-team#manager-security-operations" >}})|
+|Robbie Dickson|[Security Manager]({{< ref "security-operations-team#manager-security-operations" >}})|
 
 | | |
 |---|---|
-|Bala Allam|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Chathura Kuruwita|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Ellis Coulson|[Security Engineer]({{< ref "security-operations#security-operations-engineer-intermediate" >}})|
-|Harjeet Sharma|[Staff Security Engineer]({{< ref "security-operations#staff-security-operations-engineer" >}})|
-|Janina Roppelt|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Jason Hawkins|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Laurens Van Dijk|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Leslie Anzures|[Security Engineer]({{< ref "security-operations#security-operations-engineer-intermediate" >}})|
-|Mitra Jozenazemian|[Staff Security Engineer]({{< ref "security-operations#staff-security-operations-engineer" >}})|
-|Neil McDonald|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Sean Gillespie|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
-|Valentine Mairet|[Staff Security Engineer]({{< ref "security-operations#staff-security-operations-engineer" >}})|
-|Yunus Khan|[Senior Security Engineer]({{< ref "security-operations#senior-security-operations-engineer" >}})|
+|Bala Allam|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Chathura Kuruwita|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Ellis Coulson|[Security Engineer]({{< ref "security-operations-team#security-operations-engineer-intermediate" >}})|
+|Harjeet Sharma|[Staff Security Engineer]({{< ref "security-operations-team#staff-security-operations-engineer" >}})|
+|Janina Roppelt|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Jason Hawkins|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Laurens Van Dijk|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Leslie Anzures|[Security Engineer]({{< ref "security-operations-team#security-operations-engineer-intermediate" >}})|
+|Mitra Jozenazemian|[Staff Security Engineer]({{< ref "security-operations-team#staff-security-operations-engineer" >}})|
+|Neil McDonald|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Sean Gillespie|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
+|Valentine Mairet|[Staff Security Engineer]({{< ref "security-operations-team#staff-security-operations-engineer" >}})|
+|Yunus Khan|[Senior Security Engineer]({{< ref "security-operations-team#senior-security-operations-engineer" >}})|
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
