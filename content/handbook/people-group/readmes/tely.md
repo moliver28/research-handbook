@@ -18,7 +18,7 @@ At GitLab, I lead our Talent Development function and I’ve been working as a l
 ## “Location, Location, Location”
 
 I live in San Francisco, California. 🌉
-Since joining GitLab, I’ve been able to travel much more, so over the past year, I haven’t been in the same place for longer than three weeks. I’ve been able to spend more time in Mobile (Saraland) Alabama, where I am from originally. 
+Since joining GitLab, I’ve been able to travel much more. Over the past 9 months, I haven’t been in the same place for longer than three weeks. I’ve been able to spend more time in Mobile (Saraland) Alabama, where I am from originally. It's been nice having the flexibility to transcend space and time. 🪐 
 
 ## Availability
 
@@ -28,7 +28,7 @@ I pride myself on my flexibility and balanced boundaries. Every day is different
 
 - **GitLab:** I manage my work and my team’s work in GitLab. Still getting the hang of things, but I’m generally responsive when the conversation is directly related to a work stream, project, or program.
 - **Slack:** quick/Instant messaging and brief discussions are for Slack. I’m flexible on this. There are times where longer form comms via Slack are appropriate as well. Note: While I try to organize Slack as best I can, messages do get lost in the shuffle. I’m typically very responsive, so if a lot of time has elapsed it’s not because I don’t love you, it’s likely I missed it. Nudges are welcomed!
-    - **Long Slack Messages:** (My Pref) Organize it! Subheaders, Bullets, Tables. If it’s more than 1500 characters or multiple paragraphs, give a little TL;DR and highlight ACTIONS if there are any. Use the rest for additional context and share in sections. If it’s related to an active project, be sure to link the GitLab work item.
+  - **Long Slack Messages:** (My Pref) Organize it! Subheaders, Bullets, Tables. If it’s more than 1500 characters or multiple paragraphs, give a little TL;DR and highlight ACTIONS if there are any. Use the rest for additional context and share in sections. If it’s related to an active project, be sure to link the GitLab work item.
 - **Slack Huddle:** I mean, sure. If that works best for you. 
 - **ZOOM:** I am always up to connect live. I do believe in having an agenda for every live work discussion. Coffee Chat agendas are optional, but totally welcomed if that works well for you. I’ve also been leaning into “Coffee Chat+” where we do a bit of connecting and learning more about each other, AND maybe some quick discussion on active work. 
 - **Email:** I check this as much as I check Slack, and while we use Slack internally, there is a lot of external communication happening in my  world as well.
