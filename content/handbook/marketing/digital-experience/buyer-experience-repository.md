@@ -162,6 +162,12 @@ We are committed to improving the site's localization efforts and providing user
 
 For more technical details, please check [Language selector initial implementation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/merge_requests/177)
 
+## SEO
+
+### No-index pages
+
+In the common/no-index URLs file, we have a list of our no-index URLs to prevent hreflang from appearing on these pages. Please do not remove any pages from this file unless you're changing them to indexable URLs.
+
 ## Core Web Vitals (CWV) Testing Documentation
 
 ### Overview
