@@ -52,11 +52,9 @@ Innovation
 
 ## “Stronger, Better, Faster, Sleepy” (My Leadership Strengths and Areas of Improvement)
 
-### Building High Performing Teams
-
-### My approach
-
-### What I’ve learned
+- **Building High Performing Teams**
+- **My approach**
+- **What I’ve learned**
 
 ### Baseline Expectations for My Team Members
 
