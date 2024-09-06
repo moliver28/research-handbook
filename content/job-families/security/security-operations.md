@@ -1,11 +1,11 @@
 ---
 title: "Security Operations Team"
-description: "As members of GitLab's Security Operations department, the Security Operations team is divided into three focus areas: Security Incident Response, Trust & Safety, and Security Logging."
+description: "As members of GitLab's Security Operations department, the Security Operations team is divided into two focus areas: Security Incident Response and Trust & Safety."
 extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Security Operations department](/handbook/security/security-operations/), the [Security Operations](/handbook/security/security-operations/sirt/) is divided into three focus areas: Security Incident Response, Trust & Safety, and Security Logging, and is operational 24/7 with a follow-the-sun rotation. The Security Operations (SecOps) team detects, manages, and remediates security incidents across GitLab. Members of SecOps are the defenders and firefighters of the GitLab Security division. SecOps works to create and maintain a safe and secure operating environment for the organization and its customers and responds to active security incidents. As a Security Engineer on SecOps you will build and maintain the tools we use to detect and respond to emerging threats in efficient and scalable ways, work to increase our observability over the organisation to catch threats early, respond to security incidents and drive them to resolution, and develop and deploy preventative security measures for the GitLab organization and GitLab.com. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe in an ever changing threat landscape.
+As members of GitLab's [Security Operations department](/handbook/security/security-operations/), the [Security Operations](/handbook/security/security-operations/sirt/) team is divided into two focus areas: Security Incident Response and Trust & Safety, and is operational 24/7 with a follow-the-sun rotation. The [Red Team](/handbook/security/security-operations/sirt/) is in the same department, working hand in hand with the Security Operations (SecOps) team. The SecOps team detects, manages, and remediates security incidents across GitLab. Members of SecOps are the defenders and firefighters of the GitLab Security division. SecOps works to create and maintain a safe and secure operating environment for the organization and its customers and responds to active security incidents. As a Security Engineer on SecOps you will build and maintain the tools we use to detect and respond to emerging threats in efficient and scalable ways, work to increase our observability over the organisation to catch threats early, respond to security incidents and drive them to resolution, and develop and deploy preventative security measures for the GitLab organization and GitLab.com. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe in an ever changing threat landscape.
 
 ## Responsibilities
 
@@ -26,16 +26,6 @@ There are three functional responsibilities within the Security Operations team.
 - Create, maintain and improve operational workflows in Trust and Safety
 - Utilize log ingestion platforms for analyzing and identifying the tactics, techniques and patterns of abusive users
 - Assist with training and onboarding of new team members
-
-### Security Logging
-
-- Be part of the architectural direction, administration, maintenance, documentation, and oversight of the Security information and event management ([SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)) solution
-- Create and maintain integrations and solutions for the log collection, aggregation, indexing, search, alerting
-- Manage implementation, enhancement and adoption of the solutions built by the team into operations
-- Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
-- Collect and review security logs from all systems (Cloud Providers, GitLab, OS, G-Suite, OKTA, IDS, etc.)
-- Adequately forecast capacity, cost and log volumes. Ensure log volume and costs remain within budget and avoid overages, communicating capacity risks with plenty of time to plan for financial forecasting.
-- Ensure compliance with internal policies, standards, and regulatory requirements
 
 ## Requirements
 
@@ -143,7 +133,6 @@ The Staff Security Operations Engineer is a [grade 8](/handbook/total-rewards/co
 - Make critical decisions during incidents, including containment actions, ensuring a timely and effective response
 - Build and maintain cross-functional relationships with other Staff Engineers and Managers, acting as an extension of leadership and fostering collaboration
 - Evangelize best practices, promote security awareness, and drive continuous improvement within the organization
-- Provide cross-training and coverage for Security Logging until adequate coverage is achieved
 
 #### Staff Security Operations Engineer Requirements
 
@@ -234,12 +223,12 @@ The Security Operations Senior Manager is a [grade 9](/handbook/total-rewards/co
 
 ```mermaid
   graph LR;
-  sec:se(Security Incident Response Engineer)-->sec:sse(Senior Security Incident Response Engineer);
-  sec:sse(Senior Security Incident Response Engineer)-->sec:stse(Staff Security Incident Response Engineer);
-  sec:stse(Staff Security Incident Response Engineer)-->sec:dse(Distinguished Security Incident Response Engineer);
-  sec:sse(Senior Security Incident Response Engineer)-->sec:sem(Security Incident Response Manager);
-  sec:sem(Security Incident Response Manager)-->sec:sesm(Security Incident Response Senior Manager);
-  sec:sesm(Security Incident Response Senior Manager)-->sec:ds(Director of Security Operations);
+  sec:se(Security Operations Engineer)-->sec:sse(Senior Security Operations Engineer);
+  sec:sse(Senior Security Operations Engineer)-->sec:stse(Staff Security Operations Engineer);
+  sec:stse(Staff Security Operations Engineer)-->sec:dse(Distinguished Security Operations Engineer);
+  sec:sse(Senior Security Operations Engineer)-->sec:sem(Security Operations Manager);
+  sec:sem(Security Operations Manager)-->sec:sesm(Security Operations Senior Manager);
+  sec:sesm(Security Operations Senior Manager)-->sec:ds(Director of Security Operations);
 ```
 
 For details on the Security division leadership roles, to include the Security Operations Director and VP of Security, see the [Security Leadership](/job-families/security/security-leadership/) page.
