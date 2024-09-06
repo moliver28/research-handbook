@@ -153,7 +153,7 @@ Starting from GitLab 17.0, we introduced fixed windows during which breaking cha
 
 Breaking changes should only be enabled during the breaking change windows. This means that where breaking changes are behind feature flags, the changes (feature flag) should only be switched during one of these windows to ensure customers workflows are not impacted outside of these communicated periods.
 
-Product Managers will be responsible for making sure that as part of the deprecations and removals process, where applicable the deprecation/removal is aligned with a publically communicated Breaking Change Window.
+Product Managers will be responsible for making sure that as part of the deprecations and removals process, where applicable the deprecation/removal is aligned with a publicly communicated Breaking Change Window.
 
 #### Video on deprecations and removals process
 
