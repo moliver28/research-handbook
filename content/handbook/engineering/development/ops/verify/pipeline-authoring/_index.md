@@ -54,7 +54,8 @@ These areas are our high-level engineering driven goals for the remainder of `FY
 
 Goals:
 
-- Understand all endpoints that comprise of pipeline creation to improve speed.
+- Understand the components of the pipeline creation service to improve speed. 
+  - This [graph](https://log.gprd.gitlab.net/app/r/s/r5Owf) captures data around the pipeline creation performance.
 - Identify top 3 issue [candidates](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=ci%3A%3Apipeline%20creation&first_page_size=20) to optimize pipeline creation performance.
 
 ### Scalability
