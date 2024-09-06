@@ -106,9 +106,23 @@ The following sections provide an overview of all content assets, and links to f
 
 ### Environments/Infrastructure to support Demonstrating Content
 
-- Build Your Own - Self service. GCP/AWS [Cloud Sandoxes](handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
-- Self-Managed - Shared Omnibus instance [cs.gitlabdemo.cloud](https://cs.gitlabdemo.cloud) (internal) with visibility of Admin areas.
-- SaaS - GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request) (internal)
+- **Build Your Own -** Self service public cloud infrastructure/tooling/environments. Individual AWS account or GCP project access documented in the [Sandbox Cloud Realm](/handbook/infrastructure-standards/realms/sandbox) handbook pages and accessed through [gitlabsandbox.cloud](https://gitlabsandbox.cloud).
+  - *Use Cases:*
+    - *Competitor analysis/demonstration/exploration*
+    - *Personal runner/fleet demonstration/exploration*
+    - *Self-managed deployment*
+    - *Customer environment simulation*
+    - *Self maintained deployment target(s)*
+- **Self-Managed -** Shared Customer Success Omnibus instance [cs.gitlabdemo.cloud](https://cs.gitlabdemo.cloud) (internal) with visibility of Admin areas accessed through [gitlabdemo.cloud](https://gitlabdemo.cloud), maintained by the Demo Architecture team.
+  - *Use Cases:*
+    - *Self-managed demonstration/exploration*
+    - *Admin area demonstration/exploration*
+    - *User impersonation*
+- **SaaS -** GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request) (internal).
+  - *Use Cases:*
+    - *License tier comparisons*
+    - *Personal exploration of the platform*
+    - *Adhoc demonstration area*
 - [Produce effective demos with OBS Studio](https://docs.google.com/document/d/1kchnm55N8zx8tBBsxilWadGqBndhvb5d4eG9LsSS6DA/edit#heading=h.quzn6r2hna1l) (internal)
 
 ### Webinars
