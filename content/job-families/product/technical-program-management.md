@@ -64,7 +64,7 @@ The next step in the Manager, Technical Program Management is to move to a Senio
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - 50 minute interview with the hiring manager
 - 50 minute interview with a member of Product Leadership
 - 50 minute deep dive interview with the Chief of Staff - Product
