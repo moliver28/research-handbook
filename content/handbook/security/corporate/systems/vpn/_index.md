@@ -36,13 +36,13 @@ NordLayer is also used for system administration purposes, providing secure acce
 
 2. Multi-Factor Authentication: For enhanced security, NordLayer is implemented with Okta Device Trust Authentication policies.
 
-4. Secure Remote Access: System administrators can securely access internal systems from any location, enabling efficient remote work and incident response.
+3. Secure Remote Access: System administrators can securely access internal systems from any location, enabling efficient remote work and incident response.
 
-5. Network Segmentation: NordLayer supports network segmentation, allowing administrators to isolate sensitive systems and limit potential security risks.
+4. Network Segmentation: NordLayer supports network segmentation, allowing administrators to isolate sensitive systems and limit potential security risks.
 
-6. Encrypted Communication: All traffic between the administrator's device and internal systems is encrypted, protecting sensitive data in transit.
+5. Encrypted Communication: All traffic between the administrator's device and internal systems is encrypted, protecting sensitive data in transit.
 
-7. Centralized Management: The NordLayer admin panel provides a centralized interface for managing user access, monitoring connections, and configuring security policies.
+6. Centralized Management: The NordLayer admin panel provides a centralized interface for managing user access, monitoring connections, and configuring security policies.
 
 When using NordLayer for system administration, always follow GitLab's security best practices and ensure that you have the appropriate permissions before accessing any systems or data.
 
