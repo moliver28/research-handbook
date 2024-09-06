@@ -9,9 +9,9 @@ As members of GitLab's [Security Operations department](/handbook/security/secur
 
 ## Responsibilities
 
-There are three areas of focus within the Security Operations team. 
+There are three functional responsibilities within the Security Operations team. 
 
-### Security Incident Response Team
+### Security Incident Response
 
 - Detect and respond to company-wide security incidents, coordinating cross-functional teams to mitigate and eradicate threats
 - Monitor and analyze emerging threats, vulnerabilities and exploits
@@ -34,6 +34,7 @@ There are three areas of focus within the Security Operations team.
 - Manage implementation, enhancement and adoption of the solutions built by the team into operations
 - Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
 - Collect and review security logs from all systems (Cloud Providers, GitLab, OS, G-Suite, OKTA, IDS, etc.)
+- Adequately forecast capacity, cost and log volumes. Ensure log volume and costs remain within budget and avoid overages, communicating capacity risks with plenty of time to plan for financial forecasting.
 - Ensure compliance with internal policies, standards, and regulatory requirements
 
 ## Requirements
@@ -45,7 +46,7 @@ There are three areas of focus within the Security Operations team.
 - Experience with Google Cloud Platform (preferred) or Amazon Web Services
 - Substantial knowledge of the Linux operating system
 - Technical knowledge of systems in a multi-tenant, cloud environment
-- Experience with one or more programming languages (Python and either Ruby, Go, or PHP)
+- Proficiency with one or more programming languages (Python or Ruby is required, other popular programming languages are a bonus)
 - Demonstrated experience with running systems at scale
 - You are a team player and enjoy collaborating with cross-functional teams
 - You are a great communicator
