@@ -20,7 +20,7 @@ description: "Tableau at GitLab"
 
 ## Tableau
 
-[Tableau](https://www.tableau.com) is our new Enterprise Business Intelligence tool. It is a [leader](https://www.tableau.com/asset/gartner-magic-quadrant-2024) in the Business Intelligence space. We are applying the [Tableau Blueprint](https://help.tableau.com/current/blueprint/en-us/bp_overview.htm) to launch our Tableau production environment. The Tableau Blueprint outlines the processes and best practices from thousands of Tableau customers. We will apply these processes and best practices in accordance with GitLab's TeamOps and culture.
+Tableau is our Enterprise Business Intelligence tool. It is a [leader](https://www.tableau.com/asset/gartner-magic-quadrant-2024) in the Business Intelligence space. We are applying the [Tableau Blueprint](https://help.tableau.com/current/blueprint/en-us/bp_overview.htm) to launch our Tableau production environment. The Tableau Blueprint outlines the processes and best practices from thousands of Tableau customers. We will apply these processes and best practices in accordance with GitLab's TeamOps and culture.
 
 <details markdown=1>
 
@@ -188,30 +188,30 @@ Please see the [project-permission-structure](/handbook/enterprise-data/platform
 
 Tableau Workbooks and Data Sources can be published to two folder environments: Development and Production. The following details the publication process for each folder environment. 
 
-#### Publication to Development Folders
+### Publication to Development Folders
 
 All Tableau Content Development starts in the Development Project Folder. The Development Folder is a Sandbox environment where Tableau developers are free to experiment and iterate with content and share with team members for initial peer reviews. Tableau Developers can organize their Sandbox work using [Collections](https://help.tableau.com/current/pro/desktop/en-us/collections.htm) for easy access and sharing. Tableau Creators should follow [SAFE development workflow guidelines](/handbook/enterprise-data/platform/safe-data/#tableau) when working with sensitive SAFE/PII/MNPI data in the Development folders.
 
 ### Publication to Production Requirements
 
 1. **Documentation**
-   * **Issue Creation**: Publication of content requires an issue which is automatically labeled for categorization and search-ability.
-   * **Documentation in Handbook:** Documentation to be created in GitLab Handbook and linked to in Tableau content description and listed on dashboards
+   - **Issue Creation**: Publication of content requires an issue which is automatically labeled for categorization and search-ability.
+   - **Documentation in Handbook:** Documentation to be created in GitLab Handbook and linked to in Tableau content description and listed on dashboards
 1. **Validation Approvals**
-   * **Tableau Project Lead (Business Department Owner) Approval**: The Tableau Project Lead must approve the promotion.
-   * **Technical Owner (Data Steward) Sign-off**: Project Lead may request a Technical Owner sign off on the validity of the data and content.
-   * **Cross-Division Development**: Content that is cross-division requires a review by multiple Business Owners. Cross Division content includes GTM, etc.
+   - **Tableau Project Lead (Business Department Owner) Approval**: The Tableau Project Lead must approve the promotion.
+   - **Technical Owner (Data Steward) Sign-off**: Project Lead may request a Technical Owner sign off on the validity of the data and content.
+   - **Cross-Division Development**: Content that is cross-division requires a review by multiple Business Owners. Cross Division content includes GTM, etc.
 1. **Data Security**
-   * **Data Security**: For SAFE or Restricted data, appropriate folder and/or data source access permission controls must be applied. For general access data, confirmation that no restricted (SAFE) data is used is required.
+   - **Data Security**: For SAFE or Restricted data, appropriate folder and/or data source access permission controls must be applied. For general access data, confirmation that no restricted (SAFE) data is used is required.
 1. **Uniqueness**
-   * **Content Uniqueness:** Content is unique to Production
+   - **Content Uniqueness:** Content is unique to Production
 1. **Requirements for Workbook Formatting**
-   * **Workbook Formatting**: The workbook must include the GitLab logo.
-   * **Content Descriptions**: Workbooks and Data Sources should have a 1-2 concise description providing the purpose of the content.
+   - **Workbook Formatting**: The workbook must include the GitLab logo.
+   - **Content Descriptions**: Workbooks and Data Sources should have a 1-2 concise description providing the purpose of the content.
   
 ### Publication to Production Procedure
 
-![Tableau Publication to Production](images/tableau_publication_to_prodcution.png)
+![Tableau Publication to Production](/images/tableau_publication_to_prodcution.png)
 
 #### First-Time Promotion to Production
 
@@ -227,7 +227,6 @@ There are two options for editing or updating content which is in Production:
 
 1. **Update and Overwrite Original:** This is required for any major changes to a workbook or data source. Changes include replacing or editing a data source, altering or adding logic, custom sql, or calculated fields. This is the preferred option where the developer edits the workbook or data source and save it to the Development folder. It is then reviewed and inspected. After approval it the Project Leader will overwrite it to Production.
 1. **Allow Developer to Edit in Production:** Allow me 48 hours to edit/update access to alter in Production content myself. This is only allowed for small changes such as cosmetic improvements, spelling corrections, small filter changes or urgent issues.
-
 
 ### Tableau Trusted Data Certification
 
