@@ -279,6 +279,8 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 
 In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/enterprise-data/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
 
+This [video](https://www.youtube.com/watch?v=ICOuerPeAUU) provides an overview of the SAFE Data Program implementation on Snowflake.
+
 <details><summary>how `safe_model_script` works - under the hood</summary>
 
 The CI job is set-up in `snowflake-dbt-ci.yml` and these are the pertinent lines:
