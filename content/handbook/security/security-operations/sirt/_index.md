@@ -20,7 +20,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 | | |
 |---|---|
 |Matt Coons|[Security Manager]({{< ref "security-operations#manager-security-operations" >}})|
-|Robbie Dickson Mairet|[Security Manager]({{< ref "security-operations#manager-security-operations" >}})|
+|Robbie Dickson|[Security Manager]({{< ref "security-operations#manager-security-operations" >}})|
 
 | | |
 |---|---|
