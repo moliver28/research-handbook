@@ -85,6 +85,7 @@ Goals:
 ### FY26 top of mind
 
 - Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
+  - Upcoming tentative [iterations](https://gitlab.com/groups/gitlab-org/-/epics/15101) - **NOTE:** Subject to change
 
 ## Exciting things and accomplishments
 
