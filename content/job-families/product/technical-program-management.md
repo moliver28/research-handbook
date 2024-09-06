@@ -36,7 +36,7 @@ The Manager, Technical Program Management is a [grade 8](/handbook/total-rewards
 - Align TPM team activities with organizational goals and product roadmaps
 - Drive the Objective and Key Results (OKR) process for R&D
 - Drive PLT offsite planning, facilitation, and follow-ups
-- Demonstrate leadership as [expected of Managers across GitLab](https://handbook.gitlab.com/handbook/company/structure/#management-group)
+- Demonstrate leadership as [expected of Managers across GitLab](/handbook/company/structure/#management-group)
 
 *Please note: If the Manager, Technical Program Management has less than 4 direct reports, some [individual contributor responsibilities](https://handbook.gitlab.com/job-families/product/technical-program-manager/#staff-technical-program-manager) may be expected to be maintained.*
 
