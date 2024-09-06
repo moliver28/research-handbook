@@ -130,7 +130,7 @@ The Staff Security Operations Engineer is a [grade 8](/handbook/total-rewards/co
 
 #### Staff Security Operations Engineer Responsibilities
 
-- Extends Senior Security Incident Response Engineer responsibilities, plus:
+- Extends Senior Security Operations Engineer responsibilities, plus:
 - Subject Matter Expert (SME) in security operations, providing mentoring and training to other members of the Security Operations team
 - Lead the design, evaluation, implementation, and deployment of new security technologies to enhance the organization’s security posture
 - Maintain up-to-date knowledge of emerging threats, security technologies, and academic research for application in the protection of the organization and GitLab.com
