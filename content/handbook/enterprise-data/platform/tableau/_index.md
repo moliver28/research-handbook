@@ -211,7 +211,7 @@ All Tableau Content Development starts in the Development Project Folder. The De
   
 ### Publication to Production Procedure
 
-![Tableau Publication to Production](/images/tableau_publication_to_prodcution.png)
+![Tableau Publication to Production](static/images/handbook/enterprise-data/tableau/publication_to_production.png)
 
 #### First-Time Promotion to Production
 
