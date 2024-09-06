@@ -32,8 +32,6 @@ TPMs typically have a background in engineering or computer science, and have a 
 
 ### Intermediate Technical Program Manager
 
-This position reports into Engineering leadership.
-
 #### Intermediate Technical Program Manager Job Grade
 
 The role is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -60,8 +58,6 @@ All responsibilities listed above (applicable to all roles) plus:
 - Ability to work effectively in a fast-paced and dynamic environment
 
 ### Senior Technical Program Manager
-
-This position reports to a Director+ at GitLab.
 
 #### Senior Technical Program Manager Job Grade
 
@@ -92,8 +88,6 @@ All requirements of previous roles plus:
 
 ### Staff Technical Program Manager
 
-This position reports to a Sr Director+ at GitLab.
-
 #### Staff Technical Program Manager Job Grade
 
 The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -117,8 +111,6 @@ All requirements of previous roles plus:
 - Advanced anaytical skills for assessing and recommending solutions based on data and research
 
 ### Principal Technical Program Manager
-
-This position reports to a Sr Director+ at GitLab.
 
 #### Principal Technical Program Manager Job Grade
 
@@ -164,10 +156,10 @@ All requirements of previous roles plus:
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 1. Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-1. Candidates will be invited to schedule a 50-minute interview with an Engineering Leader.
+1. Candidates will be invited to schedule a 50-minute interview with a Manager/Sr. Manager within Engineering.
 1. Candidates will be invited to schedule a 50-minute interview with a Director/Sr. Director in Engineering.
 1. Candidates will be invited to schedule a 50-minute interview with a cross-functional stakeholder.
-1. Candidates will be invited to schedule a 50-minute interview with a existing TPM/Program Manager.
+1. Candidates will be invited to schedule a 50-minute interview with an existing TPM/Program Manager.
 1. Candidates will be invited to schedule a 50-minute interview with the CTO.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
