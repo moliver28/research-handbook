@@ -35,13 +35,11 @@ I pride myself on my flexibility and balanced boundaries. Every day is different
 - **Phone/Text:** No. Unless you let me know you want to do a walking meeting or something like that, or if there’s any kind of emergency. 
 - **Smoke Signals and Pigeons:** Look, whatever works for you, I’m typically pretty accommodating by default so I’ll figure it out.
 
-
 ## Meeting Mantra
 
 - **Meetings Welcomed:** I WELCOME live connections for coffee chats and work-related meetings! There are things that you just need to do syncronously and I fully encourage any GitLab team members to add time to my calendar freely.
 - **Recurring Meetings:** Recurring meetings must be continuously optimized and frequently evaluated if they need to be recurring.
 - **Random:** Ad-hoc is great and I’m always open to ad-hoc connections. Have that agenda in the invite.
-
 
 ## My Values
 
