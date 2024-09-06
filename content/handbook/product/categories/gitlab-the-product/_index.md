@@ -64,22 +64,11 @@ them, as that introduces other issues).
 
 For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
 
-### Deprecations, removals, and breaking changes
+### Deprecations, Removals, and Breaking Changes Policy
 
 #### Definitions
 
 See the [terminology of deprecations](https://docs.gitlab.com/ee/update/terminology.html).
-
-#### Breaking changes
-
-A breaking change is defined as a non-backward compatible change that:
-
-- causes other areas of the GitLab product to fail, or
-- alters product behavior such that dependent workflows can no longer be completed and no workaround can be provided.
-
-A breaking change may occur when you intentionally plan to change or remove functionality. Breaking changes can sometimes result from the addition of new features. It is the responsibility of the PM and EM for a category to carefully consider the risk and impact of introducing a breaking change as they can cause severe disruption to users.
-
-If you are introducing a breaking change, you must notify the user community and users through a deprecation notice in the monthly release post as soon as possible. Follow the [process outlined below for deprecations and removals](#process-for-deprecating-and-removing-a-feature).
 
 #### Is this a breaking change?
 
@@ -108,42 +97,9 @@ In both cases, the PM or EM must [follow the Request a Breaking Change process](
 
 Deprecating and removing a feature needs to follow a specific process because it is important that we minimize disruption for our users. As you move through the process, use the language `deprecated` or `removed` to specify the current state of the feature that is going to be or has been removed.
 
-**Note** - some deprecations or removals do not result in a breaking change. So in your notice, you need to be explicit about the following:
-
-- Does the deprecation or removal result in a breaking change?
-- If the deprecation or removal results in a breaking change, then what does it break?
-- If the deprecation or removal results in a breaking change, what is the user's remediation?
-
 #### Process for deprecating and removing a feature
 
-**As soon as possible, but no later than the third milestone preceding intended removal:**
-
-_For example, if the intended removal milestone is `16.0`, given the following release schedule: `15.9, 15.10, 15.11, 16.0`, then `15.9` is the third milestone preceding intended removal._
-
-1. Make sure the deprecation has an issue leveraging the [deprecation issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md).
-    - Leveraging this template to create a deprecation issue is required because it serves as the SSOT/communication cross-functionally and across other stable counterparts, such as CSMs and Marketing, who need awareness of upcoming removals.
-1. Identify if deprecating the feature creates a breaking change. If so, you will need to wait until a XX.0 major release for removal. (Consider providing a notice as much in advance as you can - especially for features that have large impact.)
-
-**If you believe you need to push a breaking change outside a major release, tag your manager into the deprecation issue for approval. Upon manager approval, tag in [Delivery group](/handbook/product/categories/features/#saas-platformsdelivery-group) PM `@swiskow` into the deprecation issue for advisement/collaboration on whether any additional communication to users is required. Communicating to SaaS users on breaking changes is critical, it is recommended you set up a [broadcast message](/handbook/product/product-processes/#gitlabcom-in-app-messages-broadcast-messaging) one milestone ahead of the milestone in which the breaking change will happen.**
-
-1. Review the overall [workflow for announcing deprecations and removals](/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes) and follow guidance to [announce the deprecation in GitLab Docs and the release post](/handbook/marketing/blog/release-posts/#deprecations-and-other-planned-breaking-change-announcements).
-1. Potentially mention it in the [Kickoff Videos](/handbook/product/product-processes/#kickoff-meetings).
-1. Engage the support team to discuss support procedures for deprecated features and update the [Statement of Support](https://about.gitlab.com/support/statement-of-support/) as necessary
-1. Label the feature accordingly in documentation and the application
-1. Remove the feature from marketing pages
-
-**Milestone of Removal:**
-
-1. Engage the support team to update the [Statement of Support](https://about.gitlab.com/support/statement-of-support/) as necessary
-
-The release post automatically shows all removals that occur during a milestone. (In the deprecation yaml file, the `removal_milestone`.)
-
-**Important Notes**
-
-- The deprecation notice and the linked issue must have clear language describing the change and the impact to users.
-- It is the responsibility of the PM and EM for a category to carefully review the language in the linked issue for clarity.
-- Regardless of whether the Product Manager or Engineering Manager creates the initial deprecation epic/issue, they must @mention the following stable counterparts for their category on each deprecation epic/issue to keep them informed: Support, Customer Success, and Product Marketing.
-  - To make this easy and consistent across teams, using the [deprecations issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md) is required.
+Please follow the [process outlined in the docs](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release). This page is primarily focused on the breaking change policy and not necessarily process guidance/details
 
 #### Breaking Change Windows on GitLab.com
 
