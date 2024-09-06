@@ -66,6 +66,10 @@ For more guidance on feature tiers and pricing, visit [tiering guidance for feat
 
 ### Deprecations, removals, and breaking changes
 
+#### Definitions
+
+See the [terminology of deprecations](https://docs.gitlab.com/ee/update/terminology.html).
+
 #### Breaking changes
 
 A breaking change is defined as a non-backward compatible change that:
@@ -110,10 +114,6 @@ Deprecating and removing a feature needs to follow a specific process because it
 - If the deprecation or removal results in a breaking change, then what does it break?
 - If the deprecation or removal results in a breaking change, what is the user's remediation?
 
-#### Definitions
-
-See the [terminology of deprecations](https://docs.gitlab.com/ee/update/terminology.html).
-
 #### Process for deprecating and removing a feature
 
 **As soon as possible, but no later than the third milestone preceding intended removal:**
@@ -144,6 +144,16 @@ The release post automatically shows all removals that occur during a milestone.
 - It is the responsibility of the PM and EM for a category to carefully review the language in the linked issue for clarity.
 - Regardless of whether the Product Manager or Engineering Manager creates the initial deprecation epic/issue, they must @mention the following stable counterparts for their category on each deprecation epic/issue to keep them informed: Support, Customer Success, and Product Marketing.
   - To make this easy and consistent across teams, using the [deprecations issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md) is required.
+
+#### Breaking Change Windows on GitLab.com
+
+We continuously roll out changes to GitLab.com, many times a day. Because changes roll out to gitlab.com regularly as part of the continuous delivery process, they are not as predictable for customers. This includes breaking changes.
+
+Starting from GitLab 17.0, we introduced fixed windows during which breaking changes are rolled out to GitLab.com. The fixed windows are set as the Monday, Tuesday and Wednesday of the three weeks preceding the major release date, typically following the X.11 release date. A detailed example of what this looks like can be found in [our 17.0 introduction issue](https://gitlab.com/gitlab-com/Product/-/issues/13238).
+
+Breaking changes should only be enabled during the breaking change windows. This means that where breaking changes are behind feature flags, the changes (feature flag) should only be switched during one of these windows to ensure customers workflows are not impacted outside of these communicated periods.
+
+Product Managers will be responsible for making sure that as part of the deprecations and removals process, where applicable the deprecation/removal is aligned with a publically communicated Breaking Change Window.
 
 #### Video on deprecations and removals process
 
