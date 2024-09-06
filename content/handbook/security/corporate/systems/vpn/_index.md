@@ -58,7 +58,6 @@ Dedicated IP's are listed below for reference by Security teams or incident resp
 | GitLab - Japan | 146.70.138.86 |
 | GitLab - Australia | 88.216.59.30 |
 
-
 ## System Owner and Support
 
 - DRI: `@adamhuss`
