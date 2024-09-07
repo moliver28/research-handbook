@@ -10,7 +10,7 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 | **GitLab Team Handle**  | [`@gl-quality/tp-test-tools-infrastructure`](https://gitlab.com/gl-quality/tp-test-tools-infrastructure) |
 | **Slack Channel**               | [`#test-tools-infrastructure-team`](https://gitlab.slack.com/archives/C064M4D2V37) |
 | **Slack Handle**               | `@test-tools-infrastructure` |
-| **Team Boards**         | [`Milestone Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti::support-request&amp;not%5Blabel_name%5D%5B%5D=failure::*&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure) <br> [`Support Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=tti::support-request)  |
+| **Team Boards**         | [`Team Capacity Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=failure::*&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure)  |
 | **Issue Tracker**       | [`quality/team-tasks`](https://gitlab.com/gitlab-org/quality/team-tasks/issues/) |
 
 ## Vision
@@ -42,28 +42,24 @@ The key components of our mission are to:
 ```mermaid
 graph LR
     A[Test & Tools Infrastructure Team]
-
-    A --> B[Test Frameworks & Efficiency]
-    B --> B1[Test Distribution Strategy<br>Optimizing testing across the testing pyramid]
-    B --> B2[Test Framework Enhancements<br>Upgrading testing frameworks to meet evolving needs]
-
-    A --> C[Test Reliability & Execution]
-    C --> C1[Faster Test Feedback<br>Reducing continuous testing execution time]
-    C --> C2[Reduce Test Flakiness<br>Tackling test instability to ensure predictable results]
-    C --> C3[Reliable Test Environment<br>Collaborate with the Delivery team to support reliable test environment needs for realistic production simulation]
-
-    A --> D[Test Innovation & Optimization]
-    D --> D1[Generative & Predictive Test Analysis<br>Employing AI for enhanced testing accuracy]
-    D --> D2[Cost Effective Test Operation<br>Optimizing test infrastructure utilization]
-    D --> D3[Test Advocacy<br>Promoting best testing practices and process improvement]
+    
+    A --> B[Test Infrastructure Optimization]
+    B --> B1[Framework Enhancements<br>Upgrading testing frameworks to meet evolving needs]
+    B --> B2[Infrastructure Efficiency<br>Optimizing test infrastructure utilization and cost]
+    B --> B3[Reliability & Execution<br>Reducing test flakiness and improving execution speed]
+       
+    A --> C[AI-Powered Evaluation]
+    C --> C1[Assessment Tools<br>Developing comprehensive tools for AI model evaluation]
+    C --> C4[Generative & Predictive Test Analysis<br>Employing AI for enhanced testing accuracy]
+    
+    A --> D[Test Observability & Analytics]
+    D --> D1[Metric Collection<br>Gathering comprehensive data and actionable insights on test execution]
+    D --> D2[Performance Monitoring<br>Tracking key indicators of testing efficiency and effectiveness]
 ```
 
-## Current Roadmap and OKR
+## Team Roadmap
 
-Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKRs)](/company/okrs/).
-
-- [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
-- [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)
+As part of our commitment to aligning with GitLab's company goals, our team conducts a thorough review of company-level Roadmap and [Objectives and Key Results (OKRs)](/company/okrs/) at the beginning of each quarter. This process ensures that our efforts are strategically focused on delivering high-impact results that contribute to the broader organizational objectives. View the [Test and Tools Infrastructure Roadmap](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/97) for detailed insights and upcoming priorities
 
 ## Metrics & Dashboards
 
@@ -104,7 +100,7 @@ The dashboards, owned by Test and Tools Infrastructure team, can be found in the
 We estimate ~20% of weekly time for support tasks, and balancing our roadmap work with emerging support needs. Please note this estimate varies depending upon ongoing priorities.
 
 - For individual questions please reach out to the team via our slack channels: `#test-platform`, `#test-tools-infrastructure-team`.
-- Raise support requests as [issues in the team-tasks project](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues). Add `~"team::Test and Tools Infrastructure"` and `~"tti::support-request"` labels in the issues to track them in the [team's support request board](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure&label_name%5B%5D=tti%3A%3Asupport-request).
+- Raise support requests as [issues in the team-tasks project](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues). Add `~"team::Test and Tools Infrastructure"` and `~"tti::support-request"` labels.
 - Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](handbook/engineering/metrics/#work-type-classification).
 - Team members analyze the issue and add a priority based on the [Reliability Department's prioritization framework](/handbook/engineering/infrastructure/team/reliability/issues/#priority). P1 issues will be taken up on an urgent basis the same week based on the availability of the relevant team members. Lower-priority issues are scheduled for review and discussion in our next bi-weekly meeting for capacity planning.
 - The issues should be following the [workflow label guidelines](../project-management/index.md#workflow-labels).
