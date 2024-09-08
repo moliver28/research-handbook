@@ -120,7 +120,7 @@ flowchart LR
     E[Exporter] -->|loads|DD
     E --> |exports| B[CVE Enrichment Public Bucket]
     GitLab[GitLab instance] --> |syncs| B
-    GitLab --> |stores| GitLabDB (pm_cve_enrichments)
+    GitLab --> |stores| GitLabDB[(pm_cve_enrichments)]
 ```
 
 ## Design and implementation details
