@@ -323,8 +323,8 @@ desynchronized
 Dev
 devfile
 devfiles
-DevOps
 Devo
+DevOps
 Dhall
 dialogs
 Diffblue
@@ -354,6 +354,7 @@ dogfoods
 DOMPurify
 donut
 dotenv
+dotfiles
 doublestar
 downvoted
 downvotes
@@ -768,6 +769,7 @@ Nokogiri
 nosniff
 noteable
 noteables
+notetakers
 npm
 NSOs
 NuGet
@@ -827,6 +829,7 @@ passwordless
 Pathfactory
 Patroni
 PBPs
+PCLs
 PDFs
 PEOs
 performant
@@ -1277,6 +1280,7 @@ uncomment
 uncommented
 uncommenting
 unconference
+unconfident
 uncordon
 underperform
 underperformance
@@ -1305,6 +1309,7 @@ unmerges
 unmerging
 unmocked
 unmoderated
+unmute
 unoptimize
 unoptimized
 unoptimizes

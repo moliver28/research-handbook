@@ -48,7 +48,7 @@ There are five teams in the Security Assurance sub-department.
   </tr>
 </table>
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Core Competencies of Security Assurance Teams
+## <i class="fab fa-gitlab fa-fw" style="font-size:.85em" aria-hidden="true"></i> Core Competencies
 
 ### Field Security Core Competencies
 

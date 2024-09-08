@@ -227,7 +227,7 @@ As contributors start to accumulate points, we need to reward active and recent 
 ## Open Questions or further iterations
 
 - Using this point system & having organizations combine their users to more easily "level-up"
-  - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to https://www.drupalcontributions.org/ or
+  - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to <https://www.drupalcontributions.org/> or
   - We are blocked to execute on that and need to solve https://gitlab.com/gitlab-org/gitlab/-/issues/368130 to proceed.
 - Recognizing organizational support for the contributors is critical.
   - We should start to recognize partners that contribute

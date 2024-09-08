@@ -3,6 +3,7 @@ title: 'Cells 1.0 Disaster Recovery'
 stage: core platform
 group: Tenant Scale
 status: proposed
+toc_hide: true
 ---
 
 {{< design-document-header >}}

@@ -68,7 +68,7 @@ When creating feature descriptions, follow these guidelines:
    - Less than 1 normal paragraph might be not enough. On the other hand, if the text is too long, participants will more likely skim through the content and not develop a full grasp of the feature.
 1. Include only new features
    - Including features that are already developed can set a benchmark; however, it is mostly not actionable and therefore useless in this context.
-1. Enrich the descriptions with images or gifs
+1. Enrich the descriptions with images or GIFs
    - Having a visual aid can help participants understand the concept being described in the feature description.
 
 In general, feature descriptions should follow this basic structure:

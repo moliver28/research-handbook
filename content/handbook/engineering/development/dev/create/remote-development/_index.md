@@ -189,7 +189,7 @@ javascript:(function(){var el=document.getElementsByClassName('boards-list');for
 
 TODO: We need to create a Web IDE version of this report and link it in the category slack channel - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
 
-In addition to the Velocity Board chrome extension, there is a [Workspace Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/workspaces-iteration-planning-report-latest.html) which is automatically published every 6 hours.
+In addition to the Velocity Board chrome extension, there is a [Workspace Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/workspaces-iteration-planning-report-latest.html) and [Web IDE Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/web-ide-iteration-planning-report-latest.html) which are automatically published every 6 hours.
 
 This report shows the same auto-calculated iteration/velocity data, and uses the same logic as the Velocity Board Chrome Extension, but you don't have to install the extension to see it.
 
@@ -496,15 +496,15 @@ The Remote Development Group collates all video recordings related to the group 
 Automations should be set up via [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops/) if possible.
 
 Other more complex automations may be set up in the
-[Workspace Team Automation project](https://gitlab.com/gitlab-org/remote-development/remote-development-team-automation).
+[Remote Development Team Automation project](https://gitlab.com/gitlab-org/remote-development/remote-development-team-automation).
 
-### Automations for Workspace Workflow
+### Automations for Group Workflow
 
-Ideally we should automate as much of the [Workspace Planning Process](#-remote-development-planning-process) workflow as possible.
+Ideally we should automate as much of the [Remote Development Planning Process](#-remote-development-planning-process) workflow as possible.
 
 We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/remote-development).
 
-TODO: None of these are set up for the Web IDE category and `webide-workflow::*` labels yet - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
+TODO: None of these are set up yet for the Web IDE category and `webide-workflow::*` labels yet - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218). These need to be set up, and the references to "`workspace`" in the table below should be updated accordingly to also include "`webide`".
 
 | ID | Goal | Automation | Link(s) to implementation |
 | --- | --- | --- | --- |
@@ -517,7 +517,7 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 | <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~workspaces-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
 | <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
 | <a id="automation-09">09</a> | Apply correct ~workspaces-workflow label to reopened issues | Re-opened issues which are open but in `~workspaces-workflow::done` should have `~"workspaces-workflow::prioritized"` assigned. | TODO: implement |
-| <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests  <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests | TODO: implement |
+| <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> | TODO: implement |
 | <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `workspaces-workflow::ignored` label assigned. | TODO: implement |
 | <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~workspaces-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
 | <a id="automation-13">13</a> | Assign a `rd-maturity::*` label of `viable`, `complete`, etc based on epic hierarchy | All issues should have appropriate labels added/removed based on epic hierarchy | TODO: implement |

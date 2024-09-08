@@ -33,10 +33,10 @@ The SA people leader shadow program is open to all team members who complete the
 
 | Start Date| Shadow Name |
 |-----------|-------------|
-| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) |
+| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg)|
 | FY25 Q4 | |
-| FY26 Q1 | |
-| FY26 Q2 | |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |
 | FY26 Q3 | |
 | FY26 Q4 | |
 | FY27 Q1 | |

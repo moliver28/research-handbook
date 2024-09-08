@@ -1,8 +1,5 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
-title: KEV Support
+title: "KEV Support"
 status: proposed
 creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
@@ -10,12 +7,8 @@ coaches: [ "@theoretick" ]
 approvers: [ "@johncrowley", "@tkopel" ]
 owning-stage: "~devops::secure"
 participating-stages: [ ]
-# Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
-
-<!-- Design Doucments often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}

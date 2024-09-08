@@ -8,7 +8,7 @@ GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contrib
 Contributions are part of the day-to-day jobs of the following people:
 
 - Principal Pricing Manager (Sean Hall)
-- Sr Director, Product Monetization (Justin Farris)
+- VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
 
@@ -599,7 +599,7 @@ These large organizations with a slow lifecycle benefit the most from GitLab, si
 
 ## Location based pricing
 
-As suggested by [a user on Twitter](https://twitter.com/javierfeldman/status/1101246338824572928).
+As suggested by [a user on X](https://x.com/javierfeldman/status/1101246338824572928)(X login required).
 This is a good suggestion to consider given the GitLab approach to adapting to local markets throughout the business. GitLab will assess viability of the idea in our overall pricing strategy planning. It is difficult to do and our assessment of this will consider:
 
 1. This is a complex issue and requires that all parties are better off if a change is made to account for geography. We fully admit that this would be hard to pull off successfully.

@@ -1,11 +1,11 @@
 ---
-title: "Partner Operations"
-description: "This page serves as the Partner Operations team page and includes standard channel reporting links, and details for managing partner opportunities"
+title: "Ecosystem Operations"
+description: "This page serves as the Ecosystem Operations team page and includes standard channel reporting links, and details for managing partner opportunities"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## Welcome to the Partner Operations Page
+## Welcome to the Ecosystem Operations Page
 
 ### Vision
 
@@ -28,18 +28,18 @@ Trusted subject matter experts for GitLab's internal and partner teams, providin
 
 ### How to Contact Us
 
-The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Partner Operations Team and the Channel Programs Team monitor this slack channel.
-If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
+The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Ecosystem Operations Team and the Channel Programs Team monitor this slack channel.
+If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
 
-### The Partner Operations Issue Board
+### The Ecosystem Operations Issue Board
 
-On the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?&label_name[]=Channel%20Ops), each column represents a type of request (feature request, alliances, data & reporting, etc.). When you submit a request to the Partner Operations board, the team will assign the issue and add the corresponding tags. The Partner Operations Board also uses progress tags on issues to show the status of open issues. Each issue is updated regularly with notes and progress tags and should be checked before reaching out to the team for status updates.
+On the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?&label_name[]=Channel%20Ops), each column represents a type of request (feature request, alliances, data & reporting, etc.). When you submit a request to the Ecosystem Operations board, the team will assign the issue and add the corresponding tags. The Ecosystem Operations Board also uses progress tags on issues to show the status of open issues. Each issue is updated regularly with notes and progress tags and should be checked before reaching out to the team for status updates.
 
-To open an issue with Partner Operations and select [New Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/channel-operations/-/issues).
+To open an issue with Ecosystem Operations and select [New Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/channel-operations/-/issues).
 
 #### Issue Templates
 
-[**Utilizing Issue Templates:**](https://docs.google.com/presentation/d/13E7WITgquG-oqnvTwP_aIh4zdqbMnRjB1NCZEX7Xc1U/edit#slide=id.g20a53d489f_0_213) In an effort to have a standard way of taking in requests from the cross-functional teams and help **guide users** through providing the right information to diagnose issues, the Partner Operations team has created issue templates.
+[**Utilizing Issue Templates:**](https://docs.google.com/presentation/d/13E7WITgquG-oqnvTwP_aIh4zdqbMnRjB1NCZEX7Xc1U/edit#slide=id.g20a53d489f_0_213) In an effort to have a standard way of taking in requests from the cross-functional teams and help **guide users** through providing the right information to diagnose issues, the Ecosystem Operations team has created issue templates.
 
 **How to get started**
 
@@ -55,7 +55,7 @@ Once a template has been selected, the description box will be populated with th
 - Select `Data Upload Request` for bulk updates to data.
 - Select `Feature Request` for requesting enhancements to current systems.
 - Select `Partner M&A and Name Changes` when requesting a partner account change related to mergers and acquisitions, merging duplicate accounts or moving them into an account hierarchy, or to change a partner account name.
-- Select `Procedures & HB Updates` to request edits or reviews for certain procedures/processes or handbook updates managed by Partner Operations, especially if more discussion is needed prior to submitting a MR for a page.
+- Select `Procedures & HB Updates` to request edits or reviews for certain procedures/processes or handbook updates managed by Ecosystem Operations, especially if more discussion is needed prior to submitting a MR for a page.
 - Select `Partner Funding Request` to request _non-MDF_ funding for partner events, MOUs, funded heads, SPIFFS, etc.
 
 **3. Before you submit**
@@ -256,12 +256,11 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 
 ### Section III: Partner Contribution Data
 
-- **Influence Partner**: Partner for which a Partner Influence Registration was submitted and approved. Partner influenced the opportunity but did not source or transact the deal
 - **Referral**: A link to the Labra/AWS registration record
-- **PTM/PAM Notes**: PTMs and PAMs enter partner opportuity notes and next steps here
-- **Alliance Partner Opp ID**: PTMs and PAMs enter the cloud partner(AWS or GCP) co-sell registration ID here
+- **ESM/Cloud ESM Notes**: ESMs and Cloud ESMs enter partner opportuity notes and next steps here
+- **Alliance Partner Opp ID**: ESMs and Cloud ESMs enter the cloud partner (AWS or GCP) co-sell registration ID here
 - **Platform Partner**:  Customer's platform that GitLab is being deployed
-- **Hyperscaler Engaged**: PTMs and PAMs can select the cloud partner (AWS or GCP) engaged on early stage marketplace deals to identify the opportuity for forecasting in Clari. Refer to [Clari Cheat Sheet](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g133719dda83_2_102) for more details
+- **Hyperscaler Engaged**: ESMs and Cloud ESMs can select the cloud partner (AWS or GCP) engaged on early stage marketplace deals
 
     ![Partner_Contribution](image-11.png)
 
@@ -310,7 +309,6 @@ The process to request the [legal team's involvement in partner contracts](/hand
 1. **Deal Path**: How the deal is transacted. Values can be Partner, Direct, Web Direct. _Note, Partner includes Referral and Influence opportunities_
 1. **Partner Sourced Deal Reg**: Partner submits a Registration for their sourced opportunity via the Partner Portal. For the purposes of this matrix the assumption is the Deal Reg is approved. If the deal is not Partner Sourced then Deal Reg does not apply
 1. **DR - Deal Type**: The type of Partner Sourced Deal Registration submitted by the Partner. Options include Resale, Referral, and MSP. _Note, this field will be blank if there is no Partner Source Deal Registration_
-1. **Influence Partner**: Partner Team (PTM, PAM, or Partner SA) submits an internal Partner Influence Registration to log contribution for a partner that did not source or transact the deal. For the purposes of this matrix the assumption is the Partner Influence Registration is approved. Partner Influence Registration should only be submitted and approved for _one partner_ that _did not_ source and/or transact the opportunity
 1. **Initial Source**: SFDC Lead value that is populated based on lead source. Defaults to PQL (Partner Qualified Lead) when a Partner submits a Partner Sourced Deal Reg and an Opportunity does not already exist in the system
 1. **Sales Qualified Sourced (SQS)**: Who converts/creates the Opportunity in SFDC. Can only be 1 value
 1. **Order Type**: Customer order designation in SFDC. New First Order or Growth
@@ -329,9 +327,6 @@ The process to request the [legal team's involvement in partner contracts](/hand
 
 - **Number 4**
   - Deal is transacting thru the partner but was sourced by either a GitLab AE or SDR
-
-- **Number 5**
-  - Opportunity was not sourced or transacted by a partner, but was influenced by a partner
 
 ### Default Logic
 
@@ -396,7 +391,7 @@ The Partner Sourced Deal Registration program rewards partners for bringing net-
 
 Refer to the following sections for step-by-step instructions on how to process each registration type: [Resale](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-resale-opportunities), [MSP](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-msp-opportunities), and [Referral](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-referral-opportunities).
 
-GitLab's Partner Territory Managers, Sales Reps, and Area Sales Managers collaborate to review and action Partner Sourced Deal Registration submissions. Refer to the [Partner Sourced Deal Registration: How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) section for details on the review and approval process.
+GitLab's Ecosystem Sales Managers, Sales Reps, and Area Sales Managers collaborate to review and action Partner Sourced Deal Registration submissions. Refer to the [Partner Sourced Deal Registration: How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) section for details on the review and approval process.
 
 **The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.**
 
@@ -412,33 +407,33 @@ The partner submits a Partner Sourced Deal Registration and then the following o
 
 1. An email is sent to the partner acknowledging that the deal registration has been successfully created and submitted. The registration is also viewable in the deal registration section of the partner's portal account.
 2. The system creates a Registration record on the Registration object in SFDC that includes all the details of the registration.
-3. The system notifies the Partner Operations team to review the registration.
+3. The system notifies the Ecosystem Operations team to review the registration.
 
-**Partner Operations**
+**Ecosystem Operations**
 
-The Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = "Submitted"). If there is:
+The Ecosystem Operations team reviews the registration after it is submitted by the partner (`DR-Status` = "Submitted"). If there is:
 
-- _an existing customer account in SFDC_, they will link the account and contact to the registration, assign the appropriate Partner Territory Manager, then submit the registration for Partner Territory Manager approval.
-- _no existing customer account in SFDC_, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Partner Operations will assign the appropriate Partner Territory Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Territory Manager approval.
+- _an existing customer account in SFDC_, they will link the account and contact to the registration, assign the appropriate Ecosystem Sales Manager, then submit the registration for Ecosystem Sales Manager approval.
+- _no existing customer account in SFDC_, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Ecosystem Operations will assign the appropriate Ecosystem Sales Manager to the registration after customer account assignments are completed by system, then submit the registration for Ecosystem Sales Manager approval.
 
-The Partner Territory Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. Partner Operations will reassign the registration to the correct Partner Territory Manager as part of their review in cases where adjustment is required to align the appropriate Partner Territory Manager based on customer account territory or ownership. The Partner Operations team has a 2 hour SLA to action registrations within their working hours, Monday through Friday.
+The Ecosystem Sales Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. Ecosystem Operations will reassign the registration to the correct Ecosystem Sales Manager as part of their review in cases where adjustment is required to align the appropriate Ecosystem Sales Manager based on customer account territory or ownership. The Ecosystem Operations team has a 2 hour SLA to action registrations within their working hours, Monday through Friday.
 
-**GitLab Partner Territory Manager**
+**GitLab Ecosystem Sales Manager**
 
-The Partner Territory Manager receives an email notification to review the Partner Sourced Deal Registration once the Partner Oprations Team has actioned the registration and submitted it for approval (`DR-Status` = "Pending Sales Review"). Partner Territory Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Territory Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Territory Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
+The Ecosystem Sales Manager receives an email notification to review the Partner Sourced Deal Registration once the Ecosystem Operations Team has actioned the registration and submitted it for approval (`DR-Status` = "Pending Sales Review"). Ecosystem Sales Managers can also view registrations in their list view within the SFDC Registration tab. The Ecosystem Sales Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Ecosystem Sales Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
 
 **GitLab Area Sales Manager (ASM)**
 
-The GitLab ASM for the opportunity is responsible for final review of any Partner Sourced Deal Registration approved by a Partner Territory Manager, and must either approve, reject, or return the registration for additional information. The ASM receives an email notification to review the registration only if/when the Partner Territory Manager approves (`DR-Status` = "Pending ASM Review"). ASMs can also view registrations in their list view within the SFDC Registration tab.
+The GitLab ASM for the opportunity is responsible for final review of any Partner Sourced Deal Registration approved by a Ecosystem Sales Manager, and must either approve, reject, or return the registration for additional information. The ASM receives an email notification to review the registration only if/when the Ecosystem Sales Manager approves (`DR-Status` = "Pending ASM Review"). ASMs can also view registrations in their list view within the SFDC Registration tab.
 
 ****Alliance and GSI Partners**
 
-Alliance marketplace and OEM partners, and GSI partners do source opportunities for GitLab; however, they do not submit their own Partner Sourced Deal Registrations for these opportunities. The Registration process for these partners is instead initiated by the GitLab Partner Territory Manager on behalf of the partner.
+Alliance marketplace and OEM partners, and GSI partners do source opportunities for GitLab; however, they do not submit their own Partner Sourced Deal Registrations for these opportunities. The Registration process for these partners is instead initiated by the GitLab Ecosystem Sales Manager on behalf of the partner.
 
 The steps below outline how a Partner Sourced Deal Registration is submitted on behalf of an alliance or GSI partner to initiate the Deal Registration process:
 
-1. The GitLab Partner Territory Manager opens the [Alliance and GSI Partner Sourced Deal Registration](https://docs.google.com/document/d/16wTiDbwBoomUmnu2y4OmAAdC4VpvMIUGL1k4vdSrl2Y/edit?usp=sharing) document and follows the instructions to submit a Registration via the google form.
-1. Partner Operations team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
+1. The GitLab Ecosystem Sales Manager opens the [Alliance and GSI Partner Sourced Deal Registration](https://docs.google.com/document/d/16wTiDbwBoomUmnu2y4OmAAdC4VpvMIUGL1k4vdSrl2Y/edit?usp=sharing) document and follows the instructions to submit a Registration via the google form.
+1. Ecosystem Operations team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
 1. The standard Partner Sourced Deal Registration process is then followed beginning with the "Partner" paragraph at the top of this handbook section.
 
 _Note, Partner Sourced Deal Registration incentives do not apply to alliance partners, as our alliance partner agreements supersede these programmatic incentives._
@@ -450,20 +445,20 @@ _Note, Partner Sourced Deal Registration incentives do not apply to alliance par
   - Only one partner can earn a Partner Sourced discount per opportunity. Partners will generally receive the Co-Sell discount rate if they do not have an approved Partner Sourced Deal Registration.
 - **Approval Criteria**
   - Partner Sourced Deal Registration approval is based on who sourced that particular opportunity. If the partner brought us the deal, then the registration should be approved. For clarity, it is not about first touch with the customer, but the actual creation/conversion of an opportunity.
-  - The GitLab Partner Territory Manager should communicate and align with the GitLab Sales Rep and ASM prior to approving or rejecting the Deal Registration.
-  - The GitLab ASM should communicate and align with the GitLab Partner Territory Manager and Sales Rep prior to approving or rejecting the Deal Registration.
+  - The GitLab Ecosystem Sales Manager should communicate and align with the GitLab Sales Rep and ASM prior to approving or rejecting the Deal Registration.
+  - The GitLab ASM should communicate and align with the GitLab Ecosystem Sales Manager and Sales Rep prior to approving or rejecting the Deal Registration.
 - **GitLab SLAs**
   - The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.
-  - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM _must_ communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA.
+  - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM _must_ communicate with the GitLab Ecosystem Sales Manager if their approval is anticipated to push beyond the one business day SLA.
 - _Identify and Notify Backup Approvers_
 
-  - GitLab Partner Territory Managers and ASMs should _always_ identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
-  - Partner Territory Managers
+  - GitLab Ecosystem Sales Managers and ASMs should _always_ identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
+  - Ecosystem Sales Managers
 
-    - Communicate that you will be out of office to your backup approver. The backup approver should monitor the `Pending Deal Reg's by PM` component of their [Partner Forecast Dashboard](/handbook/sales/field-operations/channel-operations/#partner-forecast-salesforce-dashboards) to identify and action Deal Registrations in Pending Sales Review for the Partner Territory Manager they are covering.
+    - Communicate that you will be out of office to your backup approver. The backup approver should monitor the `Pending Deal Reg's by PM` component of their [Partner Forecast Dashboard](/handbook/sales/field-operations/channel-operations/#partner-forecast-salesforce-dashboards) to identify and action Deal Registrations in Pending Sales Review for the Ecosystem Sales Manager they are covering.
     - If you find an ASM is out of office while communicating with the Sales Rep and ASM during your approval process (see **Approval Criteria** above), align with their backup approver. If you approve the Deal Registration, chatter the backup approver to request their final approval on the record, as aligned to your discussion.
 
-  - ASMs - Communicate that you will be out of office to your backup approver. Partner Territory Managers will raise Deal Registrations for their review in your absence. Ensure your backup approver is prepared to action these requests while you are out.
+  - ASMs - Communicate that you will be out of office to your backup approver. Ecosystem Sales Managers will raise Deal Registrations for their review in your absence. Ensure your backup approver is prepared to action these requests while you are out.
 
 - **Standard Term and Extension**
   - Approved deal registrations have a standard 90-day expiration from the date of original approval.
@@ -484,7 +479,7 @@ _Note, Partner Sourced Deal Registration incentives do not apply to alliance par
 ### Partner Sourced Deal Registration: Reporting & Tools
 
 - Deal Registration Views by Role
-  - [Partner Territory Manager](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7)
+  - [Ecosystem Sales Manager](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7)
   - [Sales Rep](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004tokk)
   - [ASM](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS)
 - [ASM Deal Registration Guide](https://docs.google.com/document/d/1HpN7Hh2HJL8H2Cds9xBzqqk_ZrxGbhbWvvh-IRITVB8/edit?usp=sharing)
@@ -499,12 +494,12 @@ Partner Sourced Deal Registrations for resale opportunities reward partners for 
 
 Follow the steps below to process a Partner Sourced Deal Registration for a resale opportunity:
 
-#### Partner Territory Manager for first review and action
+#### Ecosystem Sales Manager for first review and action
 
-1. Partner Operations Team:
+1. Ecosystem Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
-   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Ecosystem Sales Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Ecosystem Sales Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Ecosystem Sales Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is "Resale" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
@@ -520,7 +515,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
     ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
-1. Navigate to the Partner Territory Manager Approvals section of the registration record. If you are going to:
+1. Navigate to the Ecosystem Sales Manager Approvals section of the registration record. If you are going to:
 
    - **Approve**, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
    - **Reject**, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
@@ -530,10 +525,10 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
 
    ![19-Change_Opp_Owner_Button](/handbook/sales/field-operations/channel-operations/images/19-Change_Opp_Owner_Button.png)
 
-#### Area Sales Manager (ASM) for final review and action (if approved by Partner Territory Manager)
+#### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
-2. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
+2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
     ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
@@ -549,12 +544,12 @@ A Managed Service Provider (MSP) purchases licenses on behalf of an end user. Th
 
 Follow the steps below to process a Partner Sourced Deal Registration for an MSP opportunity:
 
-#### Partner Territory Manager for first review and action
+#### Ecosystem Sales Manager for first review and action
 
-1. Partner Operations Team:
+1. Ecosystem Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
-   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Ecosystem Sales Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Ecosystem Sales Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Ecosystem Sales Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is "MSP" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
@@ -583,10 +578,10 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 1. Connect the GitLab Sales Rep to the MSP Partner Rep so they can discuss and align on opportunity and quote details.
 1. Provide [Deal Desk MSP quoting](/handbook/sales/field-operations/sales-operations/deal-desk/#msp-quotes) and [Internal Partner Program discounting](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing) links to the GitLab Sales Rep so they have the process details necessary to manage the opportunity and create a quote.
 
-#### Area Sales Manager (ASM) for final review and action (if approved by Partner Territory Manager)
+#### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
-2. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
+2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
     ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
@@ -600,12 +595,12 @@ Partner Sourced Deal Registrations for referral opportunities reward partners fo
 
 Follow the steps below to process a Partner Sourced Deal Registration for a Referral opportunity:
 
-#### Partner Territory Manager for first review and action
+#### Ecosystem Sales Manager for first review and action
 
-1. Partner Operations Team:
+1. Ecosystem Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
-   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Ecosystem Sales Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Ecosystem Sales Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Ecosystem Sales Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is "Referral" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
@@ -628,10 +623,10 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` to the Sales Rep who owns the customer account using the `Change Opportunity Owner` button on the opportunity.
     ![19-Change_Opp_Owner_Button](/handbook/sales/field-operations/channel-operations/images/19-Change_Opp_Owner_Button.png)
 
-#### Area Sales Manager (ASM) for final review and action (if approved by Partner Territory Manager)
+#### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
-2. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
+2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
     ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
@@ -647,18 +642,18 @@ To track the Partner Services, the partner must register the deal on the [Partne
 
 Follow the steps below to process a Service Attached Registration for an applicable GitLab software sale opportunity:
 
-#### Partner Territory Manager for first review and action
+#### Ecosystem Sales Manager for first review and action
 
-1. Partner Operations Team:
+1. Ecosystem Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
-   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Ecosystem Sales Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Ecosystem Sales Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Ecosystem Sales Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Program Name` is "Service Attached Registration", `Services Attach Type` is populated with the relevant service, and that the partner provided sufficient detail to proceed with the registration. If registration details are _accurate and complete_, proceed to the next step. If registration details are _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process. **Important to note:**
    - There may also be a Resale or Referral Partner Sourced Deal Registration for the license sale. The Resale or Referral registration will populate in the opportunity fields, while the Service Attached registration will only be linked to the opportunity.
    - A Service Attached Registration **must** attach to a license sale opportunity.
-   - There should already be an existing license sale opportunity in the system prior to processing approvals on a Service Attached Registration. If there is no existing license opportunity, the Partner Territory Manager should request that the partner submit a Partner Sourced Deal Registration for the license sale. Once the Partner Territory Manager has processed the Partner Sourced Deal Registration, they can attach the Service Attached Registration to the existing opportunity and proceed with approvals.
+   - There should already be an existing license sale opportunity in the system prior to processing approvals on a Service Attached Registration. If there is no existing license opportunity, the Ecosystem Sales Manager should request that the partner submit a Partner Sourced Deal Registration for the license sale. Once the Ecosystem Sales Manager has processed the Partner Sourced Deal Registration, they can attach the Service Attached Registration to the existing opportunity and proceed with approvals.
     ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
 1. Discuss the Service Attached registration with the GitLab Sales Rep and ASM and decide to either approve or reject.
 1. Click `Link/Create Opportunity`.
@@ -668,7 +663,7 @@ Follow the steps below to process a Service Attached Registration for an applica
    - **If there is no matching opportunity**, and you plan to:
      - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
      - _**Reject**_ the registration, click the `Back` button and proceed to the next step.
-   - **The opportunity must be less than 6 months old to qualify for the incentive**. If the opportunity is greater than 6 months old, the Partner Territory Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
+   - **The opportunity must be less than 6 months old to qualify for the incentive**. If the opportunity is greater than 6 months old, the Ecosystem Sales Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
      ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/handbook/sales/field-operations/channel-operations/images/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
 
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
@@ -676,10 +671,10 @@ Follow the steps below to process a Service Attached Registration for an applica
    - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
     ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
 
-#### Area Sales Manager (ASM) for final review and action (if approved by Partner Territory Manager)
+#### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
-2. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
+2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
     ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
@@ -700,9 +695,9 @@ Follow the steps below to process a Service Attached Registration for an applica
    - Services delivered more than six months before or after the opportunity closes do not qualify for the Services Attach Rebate.
 
 1. The Partner provides Proof of Execution (POE) to `partnersupport@gitlab.com` which can include customer signed statement of work (SOW) or other customer-verified POE.
-1. The Partner Operations team will ensure the `DR - Deal ID` is listed on the POE, upload it to the opportunity, and chatter the Partner Territory Manager. The Partner Operations team will then update the Service Attached Registration Status to Closed-Won.
-1. After the close of quarter in which the software deal is closed-won (rebate payouts are reported and paid after each GitLab quarter close), Partner Operations will pull a report of Closed-Won Service Attached Registrations for rebate payments.
-1. Partner Operations submits the payments to Coupa for reseller payouts. Resellers should receive payment within 45 days of the start of the new quarter.
+1. The Ecosystem Operations team will ensure the `DR - Deal ID` is listed on the POE, upload it to the opportunity, and chatter the Ecosystem Sales Manager. The Ecosystem Operations team will then update the Service Attached Registration Status to Closed-Won.
+1. After the close of quarter in which the software deal is closed-won (rebate payouts are reported and paid after each GitLab quarter close), Ecosystem Operations will pull a report of Closed-Won Service Attached Registrations for rebate payments.
+1. Ecosystem Operations submits the payments to Coupa for reseller payouts. Resellers should receive payment within 45 days of the start of the new quarter.
 
 Rebate payouts will be reported and paid after each GitLab quarter close.
 
@@ -712,7 +707,7 @@ Rebate payouts will be reported and paid after each GitLab quarter close.
 - Partner Service Attach incentives are outlined in the [GitLab Channel Partner Program Discounts and Incentive Guide](https://gitlab.highspot.com/items/626018776705c7e7d2df0bce?lfrm=rhp.0)
 - Partners must hold an approved Service Attached Registration and provide proof of performance/execution to qualify for the incentive.
 - Rebates and referral fees may require CRO approval.
-- Discounts are off list price.  If GitLab is deeply discounting a large ARR customer engagement, the partner can reasonably expect to share in that with a discount reduction.  The Partner, GitLab Sales, Partner Territory Manager must agree on the negotiated discount amount.
+- Discounts are off list price.  If GitLab is deeply discounting a large ARR customer engagement, the partner can reasonably expect to share in that with a discount reduction.  The Partner, GitLab Sales, Ecosystem Sales Manager must agree on the negotiated discount amount.
 
 For more information on quoting or the Partner Program, please visit:
 
@@ -720,11 +715,22 @@ For more information on quoting or the Partner Program, please visit:
 - [Partner Program](/handbook/resellers/)
 - [Channel Discount Matrices for GitLab Team Members](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing).
 
+### Partner Rebate Exception Review Process
+
+While rebates are generally intended for Partner Sourced business only, there may be corner cases where GitLab wants to provide the partner a rebate for Sourced-like activities that resulted in a different outcome. The following `Partner Rebate Exception Review Process` can be used to requset a rebate exception.
+
+1. The Ecosystem Programs teams and GTM FP&A will collect Partner rebate exception requests up until the 15th of the last month of the quarter
+2. Around the 15th of the last month of the quarter, GTM FP&A, Ecosystem Programs, Ecosystem Operations, Ecosystem Strategy, and Ecosystem Sales Leadership will meet to review each case. Possible outcomes include:
+   - Rejecting the rebate request
+   - Approving the request, funded by Global Ecosystem budget
+   - Approving the request, funded by the involved account team’s budget
+3. Results will be shared with you and your leaders after review and will be documented via Chatter. If the request is approved, rebates will be paid out within 45 days of the new quarter.
+
 ## Partner Influence
 
-Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Team (PTM, PAM, or Partner SA) is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
+Partners can influence GitLab opportunities without transacting the deal. The Partner Team (ESM, Cloud ESM, or SA) can submit an internal Partner Influence record to track their partner's influence activities. 
 
-Qualifying partner influence activities include customer executive engagement and advocacy and/or working side by side with GitLab on the customer pursuit, and at least one of the following must be met to submit a Registration:
+Partner influence activities include customer executive engagement and advocacy and/or working side by side with GitLab on the customer pursuit in the following ways:
 
 - Intro to customer decision maker/C-Suite
 - Host/participate in Exec briefing, advocating for GitLab
@@ -734,16 +740,7 @@ Qualifying partner influence activities include customer executive engagement an
 - Deliver customer strategy that recommends GitLab
 - Advise GitLab acct. Team on customer strategy/use case/pain points
 
-Partner Influence Registration should only be submitted and approved for:
-
-1. a partner that did not source and/or transact the opportunity
-2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
-
-The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
-
-Follow the steps below to register partner influence on an opportunity:
-
-### Partner Team for Submission
+Follow the steps below to track a partner's influence on an opportunity:
 
 1. From the Related List Quick Links at the top of the opportunity page, hover your cursor over Influence Partners and select `New Influence Partner`
     ![Alt text](image.png)
@@ -760,31 +757,10 @@ Follow the steps below to register partner influence on an opportunity:
    - Develop customer strategy that recommends GitLab
    - Advise GitLab account team on customer strategy/use case/pain points
 1. Provide a detailed description of the partner's influence activities using `Description of Partner Influence`
-1. Do not edit `Opportunity Owner`, `ASM`, `Partner Territory Manager` and `Customer Account`. These will auto-populate upon save
+1. Do not edit `Opportunity Owner`, `ASM`, `Ecosystem Sales Manager` and `Customer Account`. These will auto-populate upon save
 1. `Save` the Influence Partner Record
     ![Alt text](image-1.png)
 1. Attach any supporting documentation that highlights the partner's influence on the opportunity via `Google Docs, Notes, & Attachments` section.
-1. Click `Submit for Approval` to route the Influence Registration to the ASM for final review and action
-    ![Alt text](image-2.png)
-
-### Area Sales Manager (ASM) for final review and action
-
-1. You will receive an approval request email when an influence registration has entered your queue for review and approval. Click the link in your email to open the influence record in SFDC.
-1. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the influence registration.
-1. Click `Approve/Reject`
-    ![Alt text](image-3.png)
-1. Add any message for the Partner Team in the Comments field if applicable. Select `Approve`or `Reject` to complete the process.
-    ![Alt text](image-4.png)
-
-_Please reach out to @Partner Operations via chatter if you have any questions or if the ASM approver needs to be reassigned._
-
-### Partner Influence: Reporting
-
-- [Global Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036nh32AA/view?queryScope=userFolders)
-- [AMER Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XZ6x2AG/view?queryScope=userFolders)
-- [APJ Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036n7a2AA/view?queryScope=userFolders)
-- [EMEA Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003Xkoj2AC/view?queryScope=userFolders)
-- [PUBSEC Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XkSA2A0/view?queryScope=userFolders)
 
 ## Channel Approvals
 
@@ -796,7 +772,7 @@ If an approver will not be able to approve opportunities due to PTO or some othe
 
 When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the "Letter of Authorization" button along the top of the page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
 
-The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Partner Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Partner Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
+The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Ecosystem Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Ecosystem Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
 
 ## Partner Support and Communication
 
@@ -804,16 +780,16 @@ The partner will be prompted to input basic company information that will auto-f
 
 **External Communication:** Email partnersupport@gitlab.com to include a partner or other external stakeholder for help with partner-related requests. PHD team members monitor the queue and email inbox throughout the day in all time zones.
 
-### Tagging Partner Operations in Salesforce
+### Tagging Ecosystem Operations in Salesforce
 
 Here is a general list of items you can chatter `@Partner Operations` for assistance with in Salesforce. Please continue to refer to our respective handbooks for in-depth information before tagging.
 
 Most internal Salesforce (SFDC) and Vartopia system questions and changes, including:
 
 - Channel Compensation Questions
-- Channel Manager Territory Mapping and Account Assignment
+- Ecosystem Manager Territory Mapping and Account Assignment
 - Deal Registration Record Updates
-- Specific Channel Quoting Questions (Discounts, Approvals,etc.)
+- Specific Ecosystem Quoting Questions (Discounts, Approvals,etc.)
 - Distributor Quote Requests
 - SFDC Reporting Issues
 
@@ -828,7 +804,7 @@ Most partner-facing questions and changes to the Impartner (Partner Portal) syst
 
 ## Program and Incentive Definitions
 
-- The GitLab Partner Program provides partners with set discounts based on their program status and whether or not there is an active deal registration.
+- The GitLab Ecosystem Program provides partners with set discounts based on their program status and whether or not there is an active deal registration.
 - At least one partner employee must complete the GitLab Foundations for Partners training for the partner to qualify for deal registration and program discounts.
 - GitLab employees can access the [partner discount guidance here](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing)
 - Partners can find the discount table in the Asset Library on the [GitLab Partner Portal](https://partners.gitlab.com/).
@@ -844,7 +820,7 @@ The following price files are provided by Partner Ops in Google Sheet, Excel, an
 
 ### How to Access the Price Files (Partners)
 
-Distributor and Reseller partners can access the [Partner Portal](https://partners.gitlab.com/English/) for the current GitLab Price File. If you have any issues accessing the Partner Portal, please contact the Partner Operations team at [partnersupport@gmail.com](mailto:partnersupport@gmail.com).
+Distributor and Reseller partners can access the [Partner Portal](https://partners.gitlab.com/English/) for the current GitLab Price File. If you have any issues accessing the Partner Portal, please contact the Ecosystem Operations team at [partnersupport@gmail.com](mailto:partnersupport@gmail.com).
 
 ### How to Access and Share the Price Files (GitLab Team Member, Internal Use Only)
 
@@ -854,7 +830,7 @@ Price Files for internal use can be found [in this folder](https://drive.google.
 
 ## Price File Update Process
 
-At the beginning of the [second month of every quarter](/handbook/finance/#fiscal-year), Partner Operations will create an issue and tag product and professional services (PS) departments to collect information on any new changes, additions, or discontinuations of part numbers. It is the **responsibility of the product/PS departments** to provide any and all information about SKUs that will be active on the first date of the next quarter.
+At the beginning of the [second month of every quarter](/handbook/finance/#fiscal-year), Ecosystem Operations will create an issue and tag product and professional services (PS) departments to collect information on any new changes, additions, or discontinuations of part numbers. It is the **responsibility of the product/PS departments** to provide any and all information about SKUs that will be active on the first date of the next quarter.
 
 The following departments/people will be tagged for gathering this information:
 
@@ -867,7 +843,7 @@ The following departments/people will be tagged for gathering this information:
 
 The following departments/people will be tagged for FYI/Additional Input:
 
-- **Partner Operations:** Nick Scala, Marcella Summers
+- **Ecosystem Operations:** Nick Scala, Marcella Summers
 - **Partner Programs**: David Forsch
 - **Deal Desk**: Jesse Rabbits
 - **PubSec Channel**: Pilar Meija
@@ -897,16 +873,27 @@ Partner Support will post a message on the slack channel #partner-fyi to share t
 
 The Channel Managers use a [tracking system](https://docs.google.com/presentation/d/1fPJutBp85WPNqf3ErQEk7Xp2042UPupTjmSLUMOmXnE/edit?usp=sharing) in Salesforce to record their sales and marketing activities. This tracker allows them to extract data for sales analysis and goal setting (QBRs, OKRs, [Business Plans](https://docs.google.com/presentation/d/1lSXI1cnJQkv5RFwTEO2-J1FNTs0ykp25WA-orJj-Fok/edit#slide=id.g29a70c6c35_0_68), 1:1s). In addition, it enables the creation of [activity frameworks](https://docs.google.com/presentation/d/15rCXjsOj6r6BFYqWMgST5WB6R_XWJiIqYq2eppUoeDw/edit?usp=sharing) to set engagement standards and further develop relationships with GitLab's partners. This activity tracker is available to all Channel Managers.
 
+## GitLab Ecosystem Certification Dashboard
+
+The [GitLab Ecosystem Certification Dashboard](https://docs.google.com/spreadsheets/d/1qdEpjeYEl1MWOmaCiumTSNM2pIjTxXrdtCbtHsllAQY/edit?gid=1542659641#gid=1542659641) is an interactive scorecard that provides a comprehensive outline of certification and accreditation journeys by partner and region.
+
+Dashboard Features:
+
+- The `Partner Scorecard` provides a holistic view of GitLab partner certification totals. You can drill down by quarter and badge.
+- The `Regional Scorecard` provides certification counts by badge, and by partner and user. You can drill down by country, quarter, and badge.
+- The `PSE Vouchers Used` tab lists partner PSE voucher codes and expiration dates
+- The `PSP Eligibility` tab provides visibility into each partners PSP and compliance status
+
 ## Partner Insights
 
-The Partner Operations team provides [Partner Insights](https://docs.google.com/spreadsheets/d/1DfwnsWbKSUbY21KIzCh2hZH3cgJZltmjXSsCeObLT58/edit#gid=98500586) data to Channel Managers to help with building partner Business Plans and preparing for QBRs and partner meetings. These insights are intended to help Channel Managers have productive conversations with partners to identify what is going well so it can be replicated, as well as address opportunities for improvement to develop stronger and more valuable partnerships.
+The Ecosystem Operations team provides [Partner Insights](https://docs.google.com/spreadsheets/d/1DfwnsWbKSUbY21KIzCh2hZH3cgJZltmjXSsCeObLT58/edit#gid=98500586) data to Ecosystem Sales Managers to help with building partner Business Plans and preparing for QBRs and partner meetings. These insights are intended to help Ecosystem Sales Managers have productive conversations with partners to identify what is going well so it can be replicated, as well as address opportunities for improvement to develop stronger and more valuable partnerships.
 
-Channel Managers can:
+Ecosystem Sales Managers can:
 
 - generate their Partner Insights data by accessing this self-service [spreadsheet](https://docs.google.com/spreadsheets/d/1DfwnsWbKSUbY21KIzCh2hZH3cgJZltmjXSsCeObLT58/edit?usp=sharing). Please follow the instructions on the first tab of the spreadsheet to generate a PDF with charts and metrics for your selected partner.
 - create a Partner Insights PowerPoint by accessing this [step-by-step guide](https://docs.google.com/document/d/1XoyxxF8Ni8HpXqj17Tsoyd47zxpFpCCtnXJJ_WrO5aM/edit?usp=sharing).
 
-If you need assistance with accessing the spreadsheet or PowerPoint step-by-step guide, please contact us at [#partner-program-ops](https://gitlab.slack.com/archives/CTM4T5BPF) in Slack. If you have a customized reporting request that's not on the self-service spreadsheet, [please open an issue on the Partner Operations board](/handbook/sales/field-operations/channel-operations/#the-channel-operations-issue-board).
+If you need assistance with accessing the spreadsheet or PowerPoint step-by-step guide, please contact us at [#partner-program-ops](https://gitlab.slack.com/archives/CTM4T5BPF) in Slack. If you have a customized reporting request that's not on the self-service spreadsheet, [please open an issue on the Ecosystem Operations board](/handbook/sales/field-operations/channel-operations/#the-channel-operations-issue-board).
 
 ## Partner Award Program
 
@@ -953,7 +940,7 @@ Winners receive a physical award, virtual badge for use on the partner's website
 GitLab will announce the Partner Award winners at a Global-level event within their Q1 timeframe. Awards will be shipped to the winners 4-6 weeks post-announcement. Award celebrations will be held at Partner Leadership Summit or other similar event.
 
 **Awards Criteria (taken from previous FY):**
-The GitLab Partner Operations team is responsible for compiling the reports outlined in the criteria below from our SSOT data in SFDC.  Channel Sales Directors and the VP of Global Channel and Alliances will review, assess and evaluate these reports based on the criteria outlined below.
+The GitLab Ecosystem Operations team is responsible for compiling the reports outlined in the criteria below from our SSOT data in SFDC.  Channel Sales Directors and the VP of Global Channel and Alliances will review, assess and evaluate these reports based on the criteria outlined below.
 
 - [Regional] Partner of the Year
   - Total revenue
@@ -979,24 +966,15 @@ The GitLab Partner Operations team is responsible for compiling the reports outl
   - Number of accreditations
   - Pipeline generated
 
-## Partner Forecast Salesforce Dashboards
+## Ecosystem Forecast Salesforce Dashboards
 
 The following partner forecast dashboards have been published for FY25. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
 
-- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000gIzp2AE/view?queryScope=userFolders)
-- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000ZuQj2AK/view?queryScope=userFolders)
-- [APAC](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000glNV2AY/view?queryScope=userFolders)
-- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000eZ2H2AU/view?queryScope=userFolders)
-- [Japan](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hFmz2AE/view?queryScope=userFolders)
-- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hF3p2AE/view?queryScope=userFolders)
-
-## Clari Forecasting for Partner Territory Managers and Leaders
-
-All forecasting for the partner organization is done in Clari. Please use the following enablement guides to learn how to naivgate the tool and understand the forecasting process.
-
-- [Clari Partner Handbook](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#partner-forecasting)
-- [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g28468b8eaf0_0_36)
-- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8)
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001JF612AG/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KUHV2A4/view)
+- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001Jwir2AC/view?queryScope=userFolders)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KZlp2AG/view)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KNG12AO/view?queryScope=userFolders)
 
 ## Alliances and OEMs
 
@@ -1061,7 +1039,7 @@ For more information on our AWS CPPO Program, please reference the following [pr
 
 ### Registering Opportunities with Marketplace Providers
 
-Just as our partners register opportunities with GitLab, Partner Territory Managers should register their marketplace opportunities with the prospective cloud provider. Instructions for submitting registrations to AWS and GCP are shown below.
+Just as our partners register opportunities with GitLab, Ecosystem Sales Managers should register their marketplace opportunities with the prospective cloud provider. Instructions for submitting registrations to AWS and GCP are shown below.
 
 #### Amazon Web Services
 
@@ -1073,7 +1051,7 @@ GCP registrations are submitted on GitLab's behalf by the GCP team. To register 
 
 [New GitLab Opportunity Registration for GCP](https://docs.google.com/forms/d/e/1FAIpQLScEsVcfRBILkrSs73vUeqkzfi_nTuK4Tluv-HBUw230pWuRXw/viewform)
 
-## Compensation on Partner Opportunities
+## Compensation on Ecosystem Opportunities
 
 The executed compensation letter should be the approved and legal source of truth for compensation. However please use the following resources to assist in clarification or exceptions.
 

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/migrations/SM-to-GitLab-com
 title: "Migrating from Self-Managed GitLab to GitLab.com"
 description: "Things to know when helping customers migrate to GitLab.com."
 ---

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/dod12/2019-Best-Executive
 title: "2019 DevOps Dozen - Best DevOps Solution Provider Executive: Sid Sijbrandij"
 ---
 

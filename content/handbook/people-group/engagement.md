@@ -109,11 +109,82 @@ Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-2
 - 2024-07-10: High-level summary shared with E-Group
 - 2024-07-15: Vice President, Sr. Director, and Director level reports shared in CultureAmp*
 - 2024-07-16: Sr. Manager and Manager level reports shared in CultreAmp*
-- 2024-07-31: High-level summary release (company-wide) and followed by handbook updates
-- 2024-07-18 through 2024-07-31: Division-level results summary shared by division leaders
+- 2024-08-19: High-level summary release (company-wide) and followed by handbook updates
+- 2024-07-18 through 2024-08-30: Division-level results summary shared by division leaders
 - Q3 - Finalize Division specific action plans
 
 *Only leaders with 5 or more respondents will receive a report in CultreAmp
+
+### FY'25 Engagement Survey Results
+
+Our FY'25 Annual Engagement Survey ran from 2024-06-17 to 2024-06-28. The survey was open to team members hired before 2024-05-31.
+
+- We reached 83% participation which is 8% higher than the Post-Summit Survey and 5% lower than the FY24 Engagement survey.
+- Overall engagement score of 78% favourable, 14%  neutral and 8% unfavourable.
+- We scored 3% higher than we did in the FY'24 Engagement Survey overall, and 7% higher than our New Tech peer group, which consists of ~200 fast growing and disruptive tech companies who have ~1000+ total team members.
+- GitLab remains in a strong position from an overall engagement score perspective with several opportunities highlighted in the detailed results section.
+
+Below you will find a summary of our overall results, as well as key insights and opportunities. A huge thanks to everyone who completed the survey and made their voices heard. Your feedback helps us to continually improve the experience of working at GitLab.
+
+#### Company Results (Overall)
+
+| **Favourable** | **Neutral** | **Unfavourable** |
+| ---------- | ------- | ------------ |
+| 78% | 14% | 8% |
+
+### Detailed Results (Overall)
+
+We've documented our detailed FY25 Annual Engagement Survey results in a [presentation](https://docs.google.com/presentation/d/1LnUaYi52EcAFululv6ok2z1VdAGKIl4F1aRZvTbxQrU/edit#slide=id.g1d24c3e4ddd_5_252) that is available only for GitLab team members.
+
+Those detailed results highlight the strengths and opportunities shared below in greater detail.
+
+#### Top Three Scores
+
+In addition to Engagement, we asked questions about other factors regarding our workplace and culture. A factor score is the average score of all questions within that factor.
+
+| **Factor** | **Favourability Rating** |
+| ------ | -------------------- |
+| Psychological Safety | 90% |
+| Your Manager | 83% |
+| Values | 82% |
+
+| **Top Scores - Individual statements** | **Favourability Rating** |
+| ------ | -------------------- |
+| I enjoy engaging with my peers at GitLab | 94% |
+| It is easy to ask other members of your team for help | 92% |
+| No one on my team would deliberately act in a way that undermines my efforts | 91% |
+
+#### Top Three Opportunities
+
+| **Factor** | **Favourability Rating** |
+| ------ | -------------------- |
+| Action | 60% |
+| Benefits & Compensation | 63% |
+| Company Confidence | 64% |
+
+| **Opportunities - Individual statements** | **Favourability Rating** |
+| ------ | -------------------- |
+| I believe action will take place as a result of this survey | 58% |
+| GitLab effectively directs resources (funding, people and effort) towards company goals | 59% |
+| Most of the systems and processes here support us getting our work done effectively | 59% |
+
+#### Using Epics and Issues to Create an Action Plan
+
+All divisions are recommended to create an Epic to store Engagement Survey Action Issues. Every Division should create an Epic that gives an overview of the engagement survey results that includes: highlights, lowlights, recommended actions, and resources. Epics can be created in division issue boards or projects that are applicable to the organization.
+
+In addition, Managers can create an Engagement Survey Action Issue that links to the division wide Epic. In the Issue, managers can link team wide actions to the division. Here is the recommended [action planning tips](https://docs.google.com/document/d/17C41zQRSRBfI-8_mzHYu91svF94b00DMNCfy6gW-hFI/edit#heading=h.cbt5f5ipulcx) for managers. 
+
+#### FY25 Engagement Survey Action Epics
+
+- [Company wide focus areas](https://gitlab.com/groups/gitlab-com/people-group/-/epics/109)
+- Product (forthcoming)
+- Engineering (forthcoming)
+- [Sales](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/114)
+- Marketing (forthcoming)
+- [Finance](https://gitlab.com/groups/gitlab-com/-/epics/2416)
+- People (forthcoming)
+- [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
+- CISO (forthcoming)
 
 ### Summit Pulse Surveys Overview
 

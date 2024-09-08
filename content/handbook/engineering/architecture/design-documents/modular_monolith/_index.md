@@ -1,5 +1,5 @@
 ---
-title: GitLab Modular Monolith
+title: "GitLab Modular Monolith"
 status: proposed
 creation-date: "2023-05-22"
 authors: [ "@grzesiek", "@fabiopitino" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

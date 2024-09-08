@@ -1,11 +1,12 @@
 ---
-title: Application Deployment with a Cellular Architecture
+title: "Application Deployment with a Cellular Architecture"
 owning-stage: "~devops::platforms"
 group: Delivery
 creation-date: "2024-01-09"
-authors: [ "@nolith", "@skarbek" ]
+authors: ["@nolith", "@skarbek"]
 coach:
 approvers: []
+toc_hide: true
 ---
 
 {{< design-document-header >}}
@@ -23,8 +24,9 @@ The complexity of this transition will require many teams in the Platforms secti
 From a high level perspective, a Cell Cluster is a system made of only 3 items:
 
 1. **Router** - An HA routing system deployed independently from the GitLab application.
-1. **Primary Cell** - The GitLab installation that is the leader for all the cluster wide data and services. This will be the legacy GitLab.com deployment.
-1. Zero or more **Secondary Cells** - GitLab installations authoritative for a limited number of Organizations. Those Cells are deployed using GitLab Dedicated tools.
+1. **Legacy Cell** - The existing GitLab.com infrastructure.
+1. Zero or more **Cells** - GitLab installations authoritative for a limited number of Organizations. Those Cells are deployed using GitLab Dedicated tools.
+1. **Topology Service** - An HA system used for Cluster-wide uniqnesss and classification of resources.
 
 ```plantuml
 @startuml
@@ -35,21 +37,24 @@ cloud router {
 component Router as R
 }
 
-component "Primary Cell" as Primary
-collections "Secondary Cells" as Secondary
+component "Legacy Cell" as Legacy
+component "Topology Service" as TopologyService
+collections "Cells" as Cells
 
 User ==> R
-R ==> Primary
-R ==> Secondary
+R ==> Legacy
+R ==> Cells
 
-Secondary --> Primary : "Internal API"
+Cells --> TopologyService
+Legacy --> TopologyService
+R --> TopologyService
 
 @enduml
 ```
 
-As we can see from the diagram, users interact with the system through the router only. Secondary Cells communicate with the Primary Cell using internal API and have a local copy of all the database rows necessary to operate.
+As we can see from the diagram, users interact with the system through the router only. Cells communicate with the Topology Service and have a local copy of all the database rows necessary to operate.
 
-It is important to note that even if a Secondary Cell supports GitLab Geo out of the box, we will not be able to provide this feature to our users until the Router supports it.
+It is important to note that even if Cell supports GitLab Geo out of the box, we will not be able to provide this feature to our users until the Router supports it.
 
 ### Key Terms
 
@@ -59,8 +64,8 @@ It is important to note that even if a Secondary Cell supports GitLab Geo out of
 - `perimeter` - the ring marking the "definition of done" for Release Managers, a package validated inside the perimeter is allowed to rollout in the rest of the fleet
 - `graduated` version - The version deemed safe to deploy to cells outside of the perimeter
 - `.com` - Our old existing or currently running infrastructure
-- Primary Cell - The GitLab installation that is the leader for all the cluster wide data and services. Initially this will be the legacy GitLab.com deployment. This implicitly includes .com as our legacy infrastructure.
-- Secondary Cell(s) - GitLab installation(s) authoritative for a limited number of Organizations. Deployed using GitLab Dedicated tools.
+- Legacy Cell - The existing GitLab.com infrastructure.
+- Cell(s) - GitLab installation(s) authoritative for a limited number of Organizations. Deployed using GitLab Dedicated tools.
 
 ### Ring deployment
 
@@ -99,7 +104,7 @@ frame "Ring 3" as r3 {
         end note
       }
 
-      component "Main stage\nPrimary Cell" <<legacy>> as Primary
+      component "Main stage\nLegacy Cell" <<legacy>> as Legacy
 
       note as perimeter_note
       The perimeter marks the definition of done for an auto_deploy package.
@@ -119,7 +124,7 @@ frame "Ring 3" as r3 {
 @enduml
 ```
 
-In the image above we are showing a possible ring layout with a cluster made of the Primary Cell and 10 Secondary cells, the upper bound of the Cell 1.0 milestone.
+In the image above we are showing a possible ring layout with a cluster made of the Legacy Cell and 10 Cells, the upper bound of the Cell 1.0 milestone.
 
 The general rule is that:
 
@@ -127,11 +132,11 @@ The general rule is that:
 1. Rings are a collection of Cells sharing the same risk factor associated to a deployment.
 1. Deployments can get halted at any stage and the package will not reach the outer rings.
 1. We define the "perimeter" ring that marks the "definition of done" for the Release Managers.
-   - Crossing perimeter is the logical point in time of a given package lifecycle after the PDM has successfully run on the Main Stage. Effectively, between Ring 1 and Ring 2 as described throughout this document.
-   - A successful run of the Post Deploy Migrations inside the perimeter marks a package as `graduated`.
-   - A `graduated` package is a valid candidate for the monthly release.
-   - A `graduated` package is rolled out to the rest of the rings automatically.
-   - Deployments must be automated: inside the perimeter are responsibility of Release Managers, outside of it are responsibility of Team:Ops.
+    - Crossing perimeter is the logical point in time of a given package lifecycle after the PDM has successfully run on the Main Stage. Effectively, between Ring 1 and Ring 2 as described throughout this document.
+    - A successful run of the Post Deploy Migrations inside the perimeter marks a package as `graduated`.
+    - A `graduated` package is a valid candidate for the monthly release.
+    - A `graduated` package is rolled out to the rest of the rings automatically.
+    - Deployments must be automated: inside the perimeter are responsibility of Release Managers, outside of it are responsibility of Team:Ops.
 
 #### Application changes lifecycle
 
@@ -277,22 +282,22 @@ The changes from the co-existing scenario are the following ones:
 
 ## Requirements
 
-Before we can integrate Secondary Cells to our deployment pipeline, we need a few items immediately:
+Before we can integrate Cells to our deployment pipeline, we need a few items immediately:
 
 1. The router should exist, it must be HA, and have an independent deployment pipeline
-   - This is required for appropriate testing. As noted below, we'll need a QA cell to direct a deployment to for which QA will execute tests against. A router will need to route QA tests to the appropriate Cell.
+    - This is required for appropriate testing. As noted below, we'll need a QA cell to direct a deployment to for which QA will execute tests against. A router will need to route QA tests to the appropriate Cell.
 1. Assets Deployment
-   - This already exists today for .com. Today this is handled via HAProxy, but with Cells, the routing layer will become the responsible party to redirect assets in a similar fashion.
-   - If assets are chosen to be managed differently, this changes both how Delivery need to deploy said assets in order to provide as close to Zero-Downtime Upgrades as possible, and configuration to the Cell installation to support routing to assets properly.
+    - This already exists today for .com. Today this is handled via HAProxy, but with Cells, the routing layer will become the responsible party to redirect assets in a similar fashion.
+    - If assets are chosen to be managed differently, this changes both how Delivery need to deploy said assets in order to provide as close to Zero-Downtime Upgrades as possible, and configuration to the Cell installation to support routing to assets properly.
 1. Feature Flags
-   - We are assuming that the current Feature Flags workflows and tooling will just work on the Primary Cell and that Secondary Cells will not be affected.
-   - The use of feature flags to mitigate incidents is limited to only the Primary Cell.
-   - Tooling may need to mature to ensure that Cells do not drift for long periods of time with feature flags. This ensures that customers have a similar experience if their work expands across Cells and that we as operators of .com need not worry about version drift and the implications of code differing behind the feature flag.
-   - Further guidance, documentation will need to be developed for this area. Engineers shouldn't care what cell an organization is a part of. Thus Feature Flag toggles abstract away the need for engineers to care.
+    - We are assuming that the current Feature Flags workflows and tooling will just work on the Legacy Cell and that Cells will not be affected.
+    - The use of feature flags to mitigate incidents is limited to only the Legacy Cell.
+    - Tooling may need to mature to ensure that Cells do not drift for long periods of time with feature flags. This ensures that customers have a similar experience if their work expands across Cells and that we as operators of .com need not worry about version drift and the implications of code differing behind the feature flag.
+    - Further guidance, documentation will need to be developed for this area. Engineers shouldn't care what cell an organization is a part of. Thus Feature Flag toggles abstract away the need for engineers to care.
 
 ## Proposed plan of action
 
-From a delivery perspective not much changes between the 3 proposed Cells iterations (1.0, 1.5, and 2.0). The split is an iterative approach based on cutting the scope of the features available for Organizations bound to a given Cell. From a deployment point of view, it should be possible to have multiple Secondary Cells from the first iteration so we have to figure out a roadmap to get there that is independent from the Cell architecture version.
+From a delivery perspective not much changes between the 3 proposed Cells iterations (1.0, 1.5, and 2.0). The split is an iterative approach based on cutting the scope of the features available for Organizations bound to a given Cell. From a deployment point of view, it should be possible to have multiple Cells from the first iteration so we have to figure out a roadmap to get there that is independent from the Cell architecture version.
 
 ### Iterations
 
@@ -301,45 +306,45 @@ From a delivery perspective not much changes between the 3 proposed Cells iterat
 The intent in this iteration is to focus our efforts on building and integrating our own tooling that builds and manages Cells. The following milestones, and their exit criterion, are a collaborative effort of the Platforms section and spans across many teams.
 
 1. The Dedicated technology stack expansion:
-   - Instrumentor and AMP support GCP
-   - A cell is defined as a reference architecture in Instrumentor
+    - Instrumentor and AMP support GCP
+    - A cell is defined as a reference architecture in Instrumentor
 1. Control Plane for Cells - Cell Cluster Coordinator
-   - Switchboard is currently leveraged by Dedicated but is not an appropriate tool for Cells. We should evaluate the capabilities of other tooling created by Dedicated, `amp` and `instrumentor`, to determine how they could be integrated into a deployment workflow.
-   - Implement Cell deployment converging the entire infrastructure of the cell (current dedicated capability)
-   - Implement the concept of Rings: initially only Rings 0 and 2
-1. First Secondary Cell: the QA Cell in Ring 0
-   - Build integration with our current tooling to perform deployments to the QA cell via the Coordinator
-   - The QA Cell runs it's own QA smoke tests
-   - The QA Cell is updated in parallel with the production canary stage: QA cell failures are considered soft and do not block auto_deploy
+    - Switchboard is currently leveraged by Dedicated but is not an appropriate tool for Cells. We should evaluate the capabilities of other tooling created by Dedicated, `amp` and `instrumentor`, to determine how they could be integrated into a deployment workflow.
+    - Implement Cell deployment converging the entire infrastructure of the cell (current dedicated capability)
+    - Implement the concept of Rings: initially only Rings 0 and 2
+1. First Cell: the QA Cell in Ring 0
+    - Build integration with our current tooling to perform deployments to the QA cell via the Coordinator
+    - The QA Cell runs it's own QA smoke tests
+    - The QA Cell is updated in parallel with the production canary stage: QA cell failures are considered soft and do not block auto_deploy
 1. Control Plane for Cells - Individual dashboards and alerting
-   - observability is at least on par with the legacy infrastructure
-   - alerting is at least on par with the legacy infrastructure
-1. First Customer Secondary Cell: Ring 2
-   - release-tools can `graduate` a package after the PDM execution
-   - the Coordinator can manage Ring 2 deployments
-1. Support for multiple Secondary Cells
-   - the Coordinator can converge multiple cells in the same Ring to the desired version
+    - observability is at least on par with the legacy infrastructure
+    - alerting is at least on par with the legacy infrastructure
+1. First Customer Cell: Ring 2
+    - release-tools can `graduate` a package after the PDM execution
+    - the Coordinator can manage Ring 2 deployments
+1. Support for multiple Cells
+    - the Coordinator can converge multiple cells in the same Ring to the desired version
 
 > - Limitations:
->   - all Secondary Cells will be in the same ring, Ring 2
->   - Rollbacks are possible but require downtime to achieve on all secondary cells
+>   - all Cells will be in the same ring, Ring 2
+>   - Rollbacks are possible but require downtime to achieve on all Cells
 
 #### Cells 1.5 and 2.0
 
 The following features can be distributed between Cell 1.5 and 2.0, they are all improving the operational aspects and we should prioritize them as we learn more about operating Cells.
 
 1. Control Plane for Cells - Additional rings
-   - Secondary Cells can be spread over multiple rings
-   - Deployment to the next ring starts automatically after the current ring converged
-   - Emergency brake: ability to block package rollout to the next ring
+    - Cells can be spread over multiple rings
+    - Deployment to the next ring starts automatically after the current ring converged
+    - Emergency brake: ability to block package rollout to the next ring
 1. The QA Cell becomes a blocker for auto-deploy
 1. Control Plane for Cells - Cluster dashboards and alerting
-   - A dashboard should indicate what package is expected for any given Cell and Ring deployment
-   - Any cell not running the desired version should be easily visible and alert if not converged in a reasonable amount of time
-   - Deployment health metrics to block package rollout inside a ring (z-score on the four golden signals?)
+    - A dashboard should indicate what package is expected for any given Cell and Ring deployment
+    - Any cell not running the desired version should be easily visible and alert if not converged in a reasonable amount of time
+    - Deployment health metrics to block package rollout inside a ring (z-score on the four golden signals?)
 1. The Post Deploy Migration (PDM) step of deployments needs to be segregated from the application deployment to ensure we have the ability to perform rollbacks on Cells.
-   - Without this capability, a Cell must suffer downtime in order for a rollback to complete successfully. This is disruptive and should not be considered a wise solution.
-   - The separation of the PDM on the primary Cell already functions as desired. Thus our Primary Cell will have rollbacks as an option to mitigate incidents.
+    - Without this capability, a Cell must suffer downtime in order for a rollback to complete successfully. This is disruptive and should not be considered a wise solution.
+    - The separation of the PDM on the Legacy Cell already functions as desired. Thus our Legacy Cell will have rollbacks as an option to mitigate incidents.
 1. Modified tooling that enables us to target only Deploying the GitLab application. Currently the destined tooling to be leveraged employs a strategy where the entire installation is converged. This includes the infrastructure and the version of GitLab which creates a lengthy CI pipeline and long running jobs.
 1. Automated Rollbacks - if a deployment fails for any reason, a rollback procedure should be initiated automatically to minimize disruption to the affected Cell. We should be able to use a health metric for this.
 
@@ -352,10 +357,10 @@ The focus here is productionalizing what has been built and cleaning up areas of
 mindmap
   root((Cells Deployment))
     Core concepts 📚
-      Current .com infra is the Primary Cell
+      Current .com infra is the Legacy Cell
       It is possible to have multiple Cells in Cell 1.0
       Cell isn't an HA solution
-      Secondary Cells talks to the Primary Cell using internal API
+      Cells talks to the Topology Service
 
     Prerequisites 🏗️
         router
@@ -369,13 +374,13 @@ mindmap
         Ring style deployment
             Ring 0: Current Canary + a new QA Cell
             Ring 1: Current Main stage
-            Ring 2+: New Secondary Cells for customers
+            Ring 2+: New Cells for customers
             The Perimenter
                 Marks the handover point between Release Managers and Team:Ops
                 Inside: Ring 0 and 1
                 Outside: Ring 2+
         Running PDM inside the perimeter graduates a package
-            A graduated pacage is a valid candidate for the monthly release
+            A graduated package is a valid candidate for the monthly release
         We are not porting staging to Cell
             A new QA Cell will validate the package without affecting users
 
@@ -399,7 +404,7 @@ The GitLab Dedicated stack features its own method of controlling installs of Gi
 
 In this paragraph we describe an ideal interaction where a data store is updated with a desired version to be deployed, and a Cell Cluster Coordinator is created to support Cell deployments.
 
-In Cell 1.0, inside the perimeter, we will have a single Secondary Cell, the QA Cell.
+In Cell 1.0, inside the perimeter, we will have a single Cell, the QA Cell.
 We should expand release-tools to command some-tool to perform a Cell update on demand.
 
 ```plantuml
@@ -407,7 +412,7 @@ We should expand release-tools to command some-tool to perform a Cell update on 
 participant "release-tools" as rt
 participant "Cell Cluster Coordinator" as sb
 participant "AMP Cluster" as AMP
-collections "Secondary Cells" as cells
+collections "Cells" as cells
 participant QA
 
 rt -> sb: update QA Cell
@@ -433,11 +438,11 @@ Cell Cluster Coordinator will be leveraged to help coordinate automated version 
 @startuml
 participant "Cell Cluster Coordinator" as sb
 participant "AMP Cluster" as AMP
-collections "Secondary Cells" as cells
+collections "Cells" as cells
 
 loop
 sb -> sb: pull ring-version mapping
-opt version missmatch
+opt version mismatch
 sb -> AMP: schedule configure job
 AMP -> cells: CellX: version rollout
 cells --> AMP
@@ -454,7 +459,7 @@ end
 
 #### Auto-Deploy
 
-Auto-deploy shall continue to work as it does today as our Primary Cell is equivalent to our legacy .com infrastructure. Thus our existing procedures related to auto-deploy can still be continued to be leveraged. Think hot-patching, rollbacks, auto-deploy picking, the PDM, the existing auto-deploy schedule, etc. A new procedure will be added to ensure that `release-tools` knows to trigger a deployment after a PDM is executed to the next Ring. Currently `release-tools` doesn't understand anything related to Ring Deployments, this is functionality that will need to be added.
+Auto-deploy shall continue to work as it does today as our Legacy Cell is equivalent to our legacy .com infrastructure. Thus our existing procedures related to auto-deploy can still be continued to be leveraged. Think hot-patching, rollbacks, auto-deploy picking, the PDM, the existing auto-deploy schedule, etc. A new procedure will be added to ensure that `release-tools` knows to trigger a deployment after a PDM is executed to the next Ring. Currently `release-tools` doesn't understand anything related to Ring Deployments, this is functionality that will need to be added.
 
 - Auto-deploy is limited to Rings 0 and 1:
   - Ring 0 contains a QA Cell plus the canary stage of the .com infra
@@ -463,27 +468,27 @@ Auto-deploy shall continue to work as it does today as our Primary Cell is equiv
   - `release-tools` will interact with the Coordinator to pilot the deployments to Ring 0 as part of its coordinator pipeline
 - Release-tools must be able to `graduate` a package:
   - A `graduate` version of GitLab is any `auto-deploy` version which has a successful deploy onto the Main Stage of Production and the [Post Deploy Migration (PDM)](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/post_deploy_migration/readme.md) has completed.
-  - This could mean we expect to see a single package deploy each day to our Secondary Cells. Currently, the PDM is only run 1 time per day. Note that there are exceptions to this rule.
+  - This could mean we expect to see a single package deploy each day to our Cells. Currently, the PDM is only run 1 time per day. Note that there are exceptions to this rule.
   - This will enable us to use our existing procedures to remediate high severity incidents where application code may be at fault.
-  - We do not want to run official released versions of GitLab as these are produced far slower than auto-deploys thus we risk missing SLA's on incident response. In the cell architecture, most issues should be found in the Primary Cell and fixed prior to being deployed to any Secondary Cell.
+  - We do not want to run official released versions of GitLab as these are produced far slower than auto-deploys thus we risk missing SLA's on incident response. In the cell architecture, most issues should be found in the Legacy Cell and fixed prior to being deployed to any Cell.
   - We'll need new procedures, runbooks, and documentation such that when a problem is found through manual testing, we have some ability to halt deployments of what may be labeled a `graduated` package from actually being deployed.
   - It would be wise to track these failure cases as realistically, QA should be finding issues to enable us to run a automated deployments.
 
-Note that currently, some smaller components deploy themselves to the .com infrastructure. Notably, Zoekt, Container Registry, and Mailroom, have their own cadence of providing newer versions to .com. This aspect will not be carried over into secondary cells, as currently, the tooling we'll leverage does not allow a segregation of components to enable this functionality. Instead, we'll rely on the current defined versions as specified in the default branch which built the `auto-deploy` package. This mimics how our releases are accomplished and thus should carry over well with Cells.
+Note that currently, some smaller components deploy themselves to the .com infrastructure. Notably, Zoekt, Container Registry, and Mailroom, have their own cadence of providing newer versions to .com. This aspect will not be carried over into Cells, as currently, the tooling we'll leverage does not allow a segregation of components to enable this functionality. Instead, we'll rely on the current defined versions as specified in the default branch which built the `auto-deploy` package. This mimics how our releases are accomplished and thus should carry over well with Cells.
 
 #### Rollbacks
 
-Long term, we should aim to modify the deployment tooling such that Cells are provided a grace period to enable each of them to be able to be safely rolled back in the event of a deployment failure, or mitigating a failure that is noticed post deployment. Currently for the legacy .com or the Primary Cell, we hold the PDM to execute 1 time per day at the discretion of Release Managers. The tooling that performs deployments to Cells currently do not have a way to NOT run the PDM, thus no there does not currently exist a way to rollback without inducing downtime on a particular Cell. Procedures and tooling updates will be required in this area.
+Long term, we should aim to modify the deployment tooling such that Cells are provided a grace period to enable each of them to be able to be safely rolled back in the event of a deployment failure, or mitigating a failure that is noticed post deployment. Currently for the legacy .com or the Legacy Cell, we hold the PDM to execute 1 time per day at the discretion of Release Managers. The tooling that performs deployments to Cells currently do not have a way to NOT run the PDM, thus no there does not currently exist a way to rollback without inducing downtime on a particular Cell. Procedures and tooling updates will be required in this area.
 
 #### Hot patching
 
-Hot patching is one source of our ability to mitigate problems. If we rely on `graduate` versions, the hot patcher has no place for secondary cells. It could still be leveraged for our Primary Cell, however. Though, it would be wise if we can eliminate hot patching in favor of safer deployment methodologies.
+Hot patching is one source of our ability to mitigate problems. If we rely on `graduate` versions, the hot patcher has no place for Cells. It could still be leveraged for our Legacy Cell, however. Though, it would be wise if we can eliminate hot patching in favor of safer deployment methodologies.
 
 > For reference, we've only hot patched production 1 time for year 2023.
 
 #### Deployment Health Metrics
 
-Currently we do not automate a deployment to the Main stage of the .com legacy infrastructure, or the Primary Cell. In order to reduce operational overhead we should be able to rely on existing metrics which form a health indicator for a given installation and automatically trigger a deployment at the appropriate time. This deployment health indicator would also need to be carried into each of our cells. Tooling that triggers a deployment at various rings should be made aware to continue or halt a deploy given the status of earlier rings and the health state of the next target ring.
+Currently we do not automate a deployment to the Main stage of the .com legacy infrastructure, or the Legacy Cell. In order to reduce operational overhead we should be able to rely on existing metrics which form a health indicator for a given installation and automatically trigger a deployment at the appropriate time. This deployment health indicator would also need to be carried into each of our cells. Tooling that triggers a deployment at various rings should be made aware to continue or halt a deploy given the status of earlier rings and the health state of the next target ring.
 
 #### Feature Flags
 
@@ -496,10 +501,10 @@ will become more prominent with Cells. As implied in various formats above,
 auto-deploy shall operate relatively similarly to how it operates today. Cells
 becomes an addition to the existing `release-tools` pipeline with triggers in
 differing areas. When and what we trigger will need to be keenly defined. It is
-expected that Secondary Cells only receive `graduated` versions of GitLab. Thus,
+expected that Cells only receive `graduated` versions of GitLab. Thus,
 we'll leverage the use of our Post Deployment Migration pipeline as the
 gatekeeper for when a package is considered `graduated`. In an ideal world, when
-the PDM is executed successfully on the Primary Cell, that package is then
+the PDM is executed successfully on the Legacy Cell, that package is then
 considered `graduated` and can be deployed to any outer ring. This same concept
 is already leveraged when we build releases for self managed customers. This
 break point is already natural to Release Managers and thus is a good carry over
@@ -520,7 +525,7 @@ No. Our current labeling schema is primarily to showcase that the commit landed 
 Cells are still a part of .com, thus our existing
 [bug](../../../infrastructure/engineering-productivity/issue-triage/#severity-slos)
 and [vulnerability](../../../../security/threat-management/vulnerability-management/#remediation-slas)
-SLA's for remediation apply. We can deploy whatever we want to secondary cells
+SLA's for remediation apply. We can deploy whatever we want to Cells
 so long as it's considered `graduated`. If a high priority issue comes about, we
 should be able to freely leverage our existing procedures to update our code
 base and any given auto-deploy branch for mitigation, and maybe after some extra
@@ -566,8 +571,7 @@ change how preprod is managed.
 **What happens with Staging**
 
 Staging is crucial for long term instance testing of a deployment alongside QA.
-Hypothetically staging could completely go away in favor of a deployment to Tier
-0. Reference the above Iteration 3 {+TODO add proper link+}
+Hypothetically staging could completely go away in favor of a deployment to Tier 0. Reference the above Iteration 3 {+TODO add proper link+}
 
 **What happens to Ops**
 

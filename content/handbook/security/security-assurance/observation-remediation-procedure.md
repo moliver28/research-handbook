@@ -1,6 +1,6 @@
 ---
-title: "Observation Remediation Procedure"
-description: "This procedure details the remediation process for observations."
+title: "Observation Remediation"
+description: "This details the remediation process for observations."
 ---
 
 ## Purpose
@@ -95,7 +95,7 @@ OFI's do not have defined remediation SLA's as they are process improvements or 
 - Observations will **always** impact control effectiveness ratings
 - OFIs will **never** impact control effectiveness ratings
 
-### Criteria for Upgrading Observations (i.e. tier 3 information system level risks) to Security Operational Risks (tier 2)
+### Criteria for Upgrading Observations
 
 The observation program is a key input to the [StORM program]({{< ref "storm-program" >}}), which manages tier 2 security operational risks. When the following criteria is met, it is an indicator that a larger risk exists and is upgraded to a tier 2 operational risk and therefore included in the StORM program. This criteria is as follows:
 
@@ -175,7 +175,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy]({{< ref "../_index.md" >}})
 - [GCF Control Lifecycle]({{< ref "security-control-lifecycle" >}})
-- [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
+- [Sarbanes-Oxley (SOX) Compliance](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 - [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 - [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)

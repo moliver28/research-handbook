@@ -8,38 +8,31 @@ The following page may contain information related to upcoming products, feature
 {{% /alert %}}
 
 [CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
-
-### Milestone 17.3 (July 13, 2024 - August 9, 2024)
-
-#### Goals
-
-- Allow administrator to [restrict users](https://gitlab.com/groups/gitlab-org/-/epics/14060) from publishing to CI/CD Catalog
-  - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (blocked by outcome of POC)
-- Inputs enhancements
-  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
-  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
+[CI Component and Catalog Product Direction](https://about.gitlab.com/direction/verify/component_catalog/)
 
 ### Milestone 17.4 (August 9, 2024 - September 13, 2024)
 
 #### Goals
 
 - Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
-  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) 
-- Security & Compliance workflow for CI Catalog (Multi milestone effort)
-  - Allow administrator to restrict users from publishing to Catalog - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14060)
-  - Allow administrator to restrict usage of 3rd party components - [#441102](https://gitlab.com/gitlab-org/gitlab/-/issues/441102)
+  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) (in-dev)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
-  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
-  - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
-  - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
-- Index/Details page enhancements
-  - Add the last_30_day_usage_count field to ComponentType - [#474479](https://gitlab.com/gitlab-org/gitlab/-/issues/474479)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-review)
+- Inputs enhancements
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (complete)
 
 ### Milestone 17.5 (September 14, 2024 - October 11, 2024)
 
 #### Goals
 
+- Security & Compliance workflow [epic](https://gitlab.com/groups/gitlab-org/-/epics/14060) for CI Catalog (Multi milestone effort)
+  - Allow administrator to restrict usage of 3rd party components - [#441102](https://gitlab.com/gitlab-org/gitlab/-/issues/441102)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
+  - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
+  - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
 - Index/Details page enhancements
+  - Add the last_30_day_usage_count field to ComponentType - [#474479](https://gitlab.com/gitlab-org/gitlab/-/issues/474479)
   - Add `version` dropdown in details page - [#419114](https://gitlab.com/gitlab-org/gitlab/-/issues/419114)
   - Better visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
 - Search/Filter enhancements
@@ -53,6 +46,18 @@ The following page may contain information related to upcoming products, feature
 <details markdown="1">
 
 <summary markdown="span">Past Milestones</summary>
+
+### July to August (Milestone 17.3)
+
+### Milestone 17.3 (July 13, 2024 - August 9, 2024)
+
+#### Goals
+
+- Allow administrator to [restrict users](https://gitlab.com/groups/gitlab-org/-/epics/14060) from publishing to CI/CD Catalog
+  - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (blocked by outcome of POC)
+- Inputs enhancements
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
 
 ### June to July (Milestone 17.2)
 

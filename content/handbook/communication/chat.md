@@ -70,9 +70,9 @@ To get in touch with the [e-group](/handbook/company/team/?department=executive)
 To raise an issue with a specific team, please use below most commonly used channels;
 
 - **`#people-connect`**: For general People Operations tasks such us onboarding, offboarding, letter of employment, Team calender events management etc
-- **`#it-help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
-- **`#payroll_expenses`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
-- **`#talent acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
+- **`#it_help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
+- **`#payroll`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
+- **`#talent-acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
 - **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
 
 ### Channel Categories
@@ -84,6 +84,22 @@ These channels (prefixed with a `a_`) are for team members to collaborate and co
 To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
 
 Commercial (Mid-Market and SMB) accounts have specific guidelines around having Slack channels with customers.
+
+#### External Channels (ext-)
+
+These channels (prefixed with `ext-`) are used for communication with vendors or partners. They are typically shared channels between GitLab's Slack workspace and the external organization's Slack workspace.
+
+**Example**
+
+- **`#ext-gitlab-abc`**: Shared channel with Customer/Vendor ABC for project collaboration and support.
+
+When using an external channel, ensure that you follow GitLab's guidelines for external communication, including keeping information [SAFE](/handbook/legal/safe-framework/). External channels with no activity in the last year will be removed by CorpSec.
+
+Steps:
+
+1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new#) with template "slack_googlegroup_1Passwordgroupvault".
+1. After the access request is approved by your manager, please invite the external party to our Slack workspace. This will generate a message in #shared-channels.
+1. Please share that access request by replying to the message generated in #shared-channels. An administrator will then approve the request.
 
 #### Feature Channels (f_)
 
@@ -180,7 +196,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_nigeria`](https://app.slack.com/client/T02592416/CDB11DSRH) |  |
 | [`#loc_noco_aka_loconoco`](https://app.slack.com/client/T02592416/CJPLQ4LEM) | Connect GitLab team members who are in Boulder, Larimer and Weld Counties of Northern Colorado |
 | [`#loc_nuremberg`](https://gitlab.enterprise.slack.com/archives/C06R3T513E1) | Franconia, Germany - gingerbread, sausages, and more |
-| [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/   |
+| [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 <https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/>   |
 | [`#loc_nz`](https://app.slack.com/client/T02592416/CF8MAMD39) | 🇳🇿 For those visiting, living in or interested in Aotearoa New Zealand. Also half of `#loc_australia` is in here too. https://docs.google.com/document/d/1VijZowFu8WpyV17MtRtrvz1GUqw9Y5Bcf-OkUOEU774/edit |
 | [`#loc_ottawa`](https://app.slack.com/client/T02592416/C01KH7P3KBR) |  |
 | [`#loc_pdx`](https://app.slack.com/client/T02592416/CS7N7UFGR) | For GitLab team members in/around Portland Oregon |

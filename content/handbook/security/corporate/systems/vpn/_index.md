@@ -31,4 +31,4 @@ We tested many options and while a number fit a few of these, NordLayer fit the 
 ## System Owner and Support
 
 - DRI: `@adamhuss`
-- `#it_security_help` Slack channel
+- `#security-corpsec` Slack channel

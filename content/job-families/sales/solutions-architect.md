@@ -289,53 +289,28 @@ The Vice President of Solution Architecture is a job grade [12](/handbook/total-
 
 Specialty responsibilities and requirements may extend or overlay [Level roles](#levels) for a team member who has a specialty role.
 
-### Partner Solutions Architect
+### Ecosystem Solutions Architect
 
-#### Partner Solutions Architect Responsibilities
+#### Ecosystem Solutions Architect Responsibilities
 
-- Since this role deals primarily with partner relationships, any responsibilities in an individual's [Role Level](#levels) that reference customers can also be fulfilled by Partners. If responsibilities appear duplicated, the version in this description has priority due to being more specific to your role.
-- Engage in a technical consultancy role for channel, system integrator and technology alliance partners, providing technical assistance and guidance specific to the selling and service delivery readiness of GitLab partners.
+- Since this role deals primarily with partner relationships, any responsibilities in an individual's [Role Level](#levels) that reference customers can also be fulfilled by Ecosystem Partners. If responsibilities appear duplicated, the version in this description has priority due to being more specific to your role.
+- Engage in a technical consultancy role for cloud, channel, system integrator, and technology alliance partners, providing technical assistance, guidance, and solutions architecture consulting both remotely and on-site. This involves ensuring the selling and service delivery readiness of GitLab partners, transferring knowledge, and earning "trusted advisor" status with strategic partners.
 - Create and maintain relationships with external partner leaders that contribute to large Net ARR deals and customer success.
-- Build and deliver solutions, reference implementations and demos highlighting the alliance partners' technologies as they work with GitLab.
-- In partnership with the partner sales team, formulate and execute a sales, solution and practice strategy to exceed revenue targets through the delivery of solutions & services that drive the adoption of GitLab.
-- Work with Customer Success teams (SA, CSM, Sales) to ensure the partner is acting in good faith and effectively when delivering GitLab services to a customer.
+- Build and deliver solutions, reference implementations, and demos that highlight alliance partners' technologies in conjunction with GitLab. Additionally, contribute to GitLab's customer-facing publications, including whitepapers, blogs, diagrams, reference architectures, and the GitLab Handbook.
+- In partnership with the ecosystem sales team, formulate and execute a sales, solution and practice strategy to exceed revenue targets through the delivery of solutions & services that drive the adoption of GitLab.
+- Work with Customer Success and Sales teams to ensure the partner is acting in good faith and effectively when delivering GitLab services to a customer.
 - Educate partners of all sizes on the value proposition of GitLab, and participate in all levels of discussions throughout the organization to ensure our solution is set up for successful deployment.
-- Work on site with strategic partners, delivering solutions architecture consulting, technical guidance, knowledge transfer, and earn "trusted advisor" status.
-- Enable the partners to provide technical evaluations via POC/POV ownership, RFP/audit support, and workshop design.
-- Capture and share best-practice knowledge amongst the GitLab community and other (partner) solutions architects.
-- Author or otherwise contribute to GitLab customer-facing publications such as whitepapers, blogs, diagrams, reference architectures, or the GitLab Handbook.
+- Enable the ecosystem partners to provide technical evaluations via POC/POV ownership, RFP/audit support, and workshop design.
+- Capture and share best-practice knowledge amongst the GitLab community and other Ecosystem Solutions Architects.
 - Serve as the partner advocate to other GitLab teams, including Product Development, Sales, and Marketing.
 - As part of internal and external evangelism, communicate, grow and evolve awareness of applicable partner technology, services, success stories, market trends and best practices.
 
-#### Partner Solutions Architect Requirements
+#### Ecosystem Solutions Architect Requirements
 
 - Extends the Solutions Architect requirements
-- Experience building solutions and professional services through partnerships
-- Knowledge of all or most of the following categories in the DevOps space: Consulting, Integration, and or Technical Advisory.
-- Technical background with key partnerships such as AWS, GCP, Red Hat. Certifications from these vendors is a plus.
-
-### Director, Channel & Alliances Solutions Architects
-
-GitLab's Director, Alliances & Channels Solution Architects provides strategic vision and builds and develops an exceptional team of partner-focused Solution Architects. This person leads the team responsible for providing technical consultancy for channel and alliance partners of all types.  Partnering closely with Sales, Channel / Alliances, and Customer Success teams, this leader will create strategies and operations to effectively and efficiently accelerate GitLab's growth by continuously improving the GitLab partner ecosystem.
-
-#### Director, Channel & Alliances Solutions Architects Responsibilities
-
-- Hire, mentor and develop an exceptional team of Solutions Architects.
-- Develop strategies and operations to improve GitLab partner practices and solutions as they pertain to delivering GitLab-based solutions for our customers.
-- Lead by example through direct channel and alliance partner engagement while growing the team.
-- Identify and lead initiatives and programs to scale the organization and its operations for future growth.
-- Develop processes and metrics and KPIs to improve effectiveness and efficiency of partner engagements.
-- Partner with Sales, Customer Success, Channels, and Alliances teams to align on overall strategy and priorities and provide support for specific partners and strategic revenue opportunities.
-- Develop and foster relationships for key partners at the technical sponsor and executive level.
-- Partner with channel and alliance sales team leadership to align with and deliver to regional and partner plans, strategies and quarterly goals.
-- Collaborate with Sales and Customer Success to improve GitLab's ability to leverage partners to drive Net ARR.
-- Partner with Product, Engineering, Marketing, and Services teams to provide feedback to improve products, services and value messaging based on partner experiences and feedback.
-- Partner with Sales Operations to ensure efficient and ongoing enablement and development of the team.
-- Be a role model for GitLab's values and culture.
-
-### Director, Channel & Alliances Solutions Architects Requirements
-
-- Extends the Director, Solutions Architects requirements.
+- Experience building solutions and professional services through partners
+- Knowledge of all or most of the following categories in the DevSecOps space: Consulting, Integration, and or Technical Advisory.
+- Technical background with key partnerships such as AWS, Google Cloud, Red Hat. Certifications from these vendors is a plus.
 
 ### Public Sector Solutions Architect
 

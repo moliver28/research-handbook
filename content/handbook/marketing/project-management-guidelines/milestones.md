@@ -92,7 +92,7 @@ Every team and every project is unique and there is no one answer for milestone 
 
 ### Define iterations at highest level required
 
-Define iterations at the HIGHEST level required of the organization as possible (for a cohsive approach using the same time-basis).
+Define iterations at the HIGHEST level required of the organization as possible (for a cohesive approach using the same time-basis).
 
 ### Iteration Naming Convention - Mktg in name
 

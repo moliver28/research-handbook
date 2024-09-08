@@ -40,7 +40,7 @@ The following members of other functional teams are our stable counterparts, and
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "subashis">}}
 
 ### Projects
 
@@ -48,15 +48,15 @@ DRI: {{< member-by-gitlab "nmccorrison" >}}
 
 DRI: {{< member-by-gitlab "ryaanwells" >}}
 
-{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
+{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" "srushik" "anarinesingh" >}}
 
 ### AI
 
 [AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
 
-DRI: {{< member-by-gitlab "sming-gitlab" >}}
+DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "dpisek" "darbyfrey" "alexbuijs" >}}
+{{< member-and-role-by-gitlab "sming-gitlab" "dpisek" "subashis" "darbyfrey"  >}}
 
 ### Reporting Structure
 
@@ -232,7 +232,7 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 
 ### Running E2E specs in the MR pipeline
 
-We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
 
 * GraphQL (API response, query parameters, schema etc)
 * Gemfile (version changes, adding/removing gems)
@@ -246,7 +246,7 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 ### E2E tests with feature flags
 
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
-Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:package-and-test` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
+Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
 
 ## Monitoring
 

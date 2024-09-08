@@ -1,16 +1,14 @@
 ---
 title: "GitLab Testing Agreement v1"
 ---
-
-## GitLab Testing Agreement
-
+<!-- vale off -->
 *Deprecated: 2023-05-18*
 
 This Testing Agreement ("Agreement") is between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 ("GitLab"), and the entity electronically accepting this Agreement ("Customer"). This Agreement is effective as of the date Customer clicks to accept this Agreement within the GitLab software ("Effective Date"). The parties agree to the following terms and conditions related to Customer's use of applicable Testing Feature.
 
 **1. DEFINITIONS**
 
-1.1. "Testing Feature(s)" are experimental, alpha, or beta features that are not ready for production use. Testing Features are provided without, or with limited, support under commercially reasonable efforts, as determined in GitLab's discretion, as further described here: https://docs.gitlab.com/ee/policy/experiment-beta-support.html. The applicable Testing Feature may be listed as "experimental", "alpha", or "beta" as further described on the https://docs.gitlab.com/ page covering the Testing Feature along with additional details and applicable use terms incorporated herein by reference.
+1.1. "Testing Feature(s)" are experimental, alpha, or beta features that are not ready for production use. Testing Features are provided without, or with limited, support under commercially reasonable efforts, as determined in GitLab's discretion, as further described here: <https://docs.gitlab.com/ee/policy/experiment-beta-support.html>. The applicable Testing Feature may be listed as "experimental", "alpha", or "beta" as further described on the <https://docs.gitlab.com/> page covering the Testing Feature along with additional details and applicable use terms incorporated herein by reference.
 
 1.2. "AI Assisted" means the use of, or development of work product with the assistance of, artificial intelligence (including machine learning).
 

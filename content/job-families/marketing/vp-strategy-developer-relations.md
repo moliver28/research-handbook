@@ -7,11 +7,11 @@ The VP, Strategy & Developer Relations is responsible for driving the company’
 
 #### Job Grade
 
-The VP, Strategy & Developer Relations is a grade 12. (https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+The VP, Strategy & Developer Relations is a grade 12. (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 ## Responsibilities
 
-**Strategy** 
+**Strategy**
 
 - Drive the company’s strategic objectives as well as industry trends related to AI (GTM) / hyperscalers to identify, recommend and execute on initiatives that meet the company’s growth objectives.
 - Meet with customers to validate the strategies and iterate as needed

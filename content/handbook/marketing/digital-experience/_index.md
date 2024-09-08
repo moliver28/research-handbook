@@ -301,7 +301,7 @@ The structure of Repository Health Day is as follows:
 1. Each team member will submit a single merge request to the [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui), [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), or [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) repository by the end of repository health day.
 1. This merge request will be related to an issue from any partner or group within GitLab.
 
-By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We're all good at different things and come from different backgrounds. Let's use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
+By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for <https://about.gitlab.com/>. We're all good at different things and come from different backgrounds. Let's use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
 
 ## Analytics
 
@@ -313,7 +313,7 @@ For any Digital Experience analytics request, please create an issue within the 
 
 #### SMB
 
-1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
+1. Contact a Sales Development Manager ([Jonathan Rivat](https://gitlab.com/jrivat)) or Director, of Sales Dev Operations ([Ramona Elliott](https://gitlab.com/monaelliott)).
 2. Let them know what team you're from and that you'd like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you're trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
 3. Inform the Sales Development Manager or Director, Sales Development how many shadows you'd like to do and a rough timeline for when you'd like to do them.
 4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).

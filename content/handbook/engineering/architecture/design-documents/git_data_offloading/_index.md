@@ -1,5 +1,5 @@
 ---
-title: Offload data to cheaper storage
+title: "Offload data to cheaper storage"
 status: proposed
 creation-date: "2023-05-19"
 authors: [ "@jcai-gitlab", "@toon" ]

@@ -6,7 +6,7 @@ description: "Security Governance Program"
 [Governance and Field Security team charter](/handbook/security/security-assurance/governance_and_field_security_team_charter.html)
 {.h2}
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Governance Mission
+## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Mission
 
 The 'G' in [GRC](https://www.oceg.org/about/what-is-grc/), GitLab's security governance discipline helps to define, train and measure security strategies and progress towards security objectives by creating a set of processes and practices that run across departments and functions. By following a Governance framework, GitLab ensures accountability, fairness and transparency in how the company runs and how it communicates with its stakeholders.
 

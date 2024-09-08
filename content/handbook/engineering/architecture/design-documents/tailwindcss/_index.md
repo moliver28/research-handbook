@@ -1,5 +1,5 @@
 ---
-title: Delegating CSS utility classes generation to Tailwind CSS
+title: "Delegating CSS utility classes generation to Tailwind CSS"
 status: ongoing
 creation-date: "2023-12-21"
 authors: [ "@peterhegman", "@svedova", "@pgascouvaillancourt" ]
@@ -9,8 +9,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

@@ -1,7 +1,7 @@
 ---
 title: GitLab for Education Program Agreement
 ---
-
+<!-- vale off -->
 ## Education Program Agreement
 
 Date of last revision: 2022/11/16
@@ -18,7 +18,7 @@ This Education Program Agreement ("Agreement") is between GitLab Inc. with offic
 
 "Educational Institution" means a degree-granting academic facility that: (i) has been accredited by an authorized governmental agency within its applicable local, state, provincial, federal or national government and has the primary purpose of teaching its enrolled students, (ii) is a non-for-profit institution.
 
-"GitLab for Education Program" means the program guidelines and overview as found at https://about.gitlab.com/solutions/education/join/ as updated from time to time, which include directions, rules and requirements for participation.
+"GitLab for Education Program" means the program guidelines and overview as found at <https://about.gitlab.com/solutions/education/join/> as updated from time to time, which include directions, rules and requirements for participation.
 
 "Software" means software, and other branded offerings made available by GitLab or its Affiliate(s), including but not limited to, GitLab's DevOps Lifecycle Application Platform.
 

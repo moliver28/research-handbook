@@ -29,7 +29,7 @@ The codeowners feature was launched on GitLab in 2019, and this requirement was 
 
 ### Goals
 
-The goal of putting controls and approvals in place is to ensure that all changes to the GitLab Marketing site (about.gitlab.com, not including about.gitlab.com/handbook/*or about.gitlab.com/direction/*) support the defined objectives of GitLab's Marketing team. We will operate the same way as our Product team in that the appropriate people approve all MRs before going into production.
+The goal of putting controls and approvals in place is to ensure that all changes to the GitLab Marketing site (`about.gitlab.com`, not including `handbook.gitlab.com/*` or `about.gitlab.com/direction/*`) support the defined objectives of GitLab's Marketing team. We will operate the same way as our Product team in that the appropriate people approve all MRs before going into production.
 
 ### Hypothesis
 

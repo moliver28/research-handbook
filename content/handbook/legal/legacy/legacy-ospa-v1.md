@@ -1,7 +1,7 @@
 ---
 title: "Legacy v1: GitLab Open Source Program Agreement"
 ---
-
+<!-- vale off -->
 ## **Open Source Program Agreement**
 
 Deprecated to Legacy: 2022-08-19

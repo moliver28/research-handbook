@@ -1,7 +1,7 @@
 ---
 title: "LEGACY: Privacy Statement"
 ---
-
+<!-- vale off -->
 ## LEGACY: Privacy Statement (Effective Dates June 10, 2022 - March 18, 2024)
 
 ### Introduction
@@ -131,7 +131,7 @@ In addition, if you choose to become a member of a project, your username, email
 
 *Sharing with Service Providers:* We share your Personal Data with our service providers. These are companies who provide services on our behalf, such as hosting our Services, marketing, advertising, social, analytics, support ticketing, credit card processing, security and other such similar services. These companies are subject to contractual requirements that govern the security and confidentiality of your information.
 
-For example, we use analytics providers, such as Google Analytics, to help us understand the operation and performance of our Services. To learn about how Google uses and shares data it collects through its services, please visit https://www.google.com/policies/privacy/partners/. In addition, please visit our [Sub-Processors page](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) to see the list of our Sub-Processors that we use in order to provide customer support and host the Services.
+For example, we use analytics providers, such as Google Analytics, to help us understand the operation and performance of our Services. To learn about how Google uses and shares data it collects through its services, please visit <https://www.google.com/policies/privacy/partners/>. In addition, please visit our [Sub-Processors page](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) to see the list of our Sub-Processors that we use in order to provide customer support and host the Services.
 
 *Sharing with Partners and Resellers:* GitLab works with third-parties who provide sales, consulting, support and technical services for our Services. Where permitted and with your consent (if required), we may share your data with these partners and resellers.
 

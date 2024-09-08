@@ -817,7 +817,7 @@ Should you prefer to continue to contribute to an issue under active development
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
   - Secondary features (#secondary-features)
-  - [Illustrations](#illustrations) (screenshots, gifs, or videos)
+  - [Illustrations](#illustrations) (screenshots, GIFs, or videos)
   accompanying their respective features
 - [UI improvements, performance improvements and bug fixes](#ui-improvements-performance-improvements-and-bug-fixes)
 - [Omnibus improvements](#omnibus-improvements) (added as a secondary feature)
@@ -1345,7 +1345,7 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
 - Each image should be compressed with [ImageOptim](https://imageoptim.com),
   [TinyPNG](https://tinypng.com/), or similar tool. You can also try [automation tools like Hazel or Automator](https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots/)
 - Each image should not surpass 150KB (300KB for cover
-  image), gifs included
+  image), GIFs included
 - [pngbot](https://gitlab.com/jramsay/pngbot) will compress PNG images added in
   merge request by converting each PNG to PNG 8 (8 bit, 256 colors) using
   [pngquant](https://pngquant.org) before losslessly compressing with
@@ -1375,9 +1375,9 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
     page load time significantly.
   - Screenshots throughout the post should be harmonic and consistent in terms
     of their size and quality.
-- **Animated gifs**:
-  - If a gif isn't necessary, replace it with a static image (.png, .jpg)
-  - If an animation is necessary but the gif > 300KB, use a video instead
+- **Animated GIFs**:
+  - If a GIF isn't necessary, replace it with a static image (.png, .jpg)
+  - If an animation is necessary but the GIF > 300KB, use a video instead
 - **Cover image**:
   Cover images for 16.x releases have been created by the marketing team and can be found [here](https://drive.google.com/drive/folders/18YNR93JyKbhL16iImVGUErpGfIyZ2UvM)
   For cover images after 16.x, [raise a similar request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/8049).
@@ -1607,7 +1607,7 @@ The schema is implemented using [Rx](http://rx.codesimply.com/index.html).
 
 If you have trouble running the rake task, you can check the following troubleshooting steps:
 
-- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
+- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/about/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
 - Update your gems by running `bundle install`.
 - Your bundler version could be out of date, so you can try running `gem install bundler:2.1.4`.
 

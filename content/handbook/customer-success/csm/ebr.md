@@ -123,7 +123,7 @@ Sessions should be planned and scheduled in advance, with proactively prepared t
 
 ##### Travel & Accommodations
 
-Travel should be booked & planned two weeks prior to the EBR to ensure all client stakeholders and attendees are still confirmed for the day of. Travel and expenses are to be booked through [Navan](/handbook/business-technology/-applications/guides/navan-expense-guide/). Do a suggested review of the [travel](/handbook/travel/) & [expense](/handbook/finance/expenses/) handbook pages prior to planning.
+Travel should be booked & planned two weeks prior to the EBR to ensure all client stakeholders and attendees are still confirmed for the day of. Travel and expenses are to be booked through [Navan](/handbook/business-technology/-applications/guides/navan-expense-guide/). Do a suggested review of the [travel](/handbook/finance/travel/) & [expense](/handbook/finance/expenses/) handbook pages prior to planning.
 
 #### Cadence call mini-EBR
 

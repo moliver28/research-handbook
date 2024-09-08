@@ -1,5 +1,5 @@
 ---
-title: Gitaly - Handle upload-pack traffic in a pure HTTP/2 server
+title: "Gitaly - Handle upload-pack traffic in a pure HTTP/2 server"
 status: proposed
 creation-date: "2023-06-15"
 authors: [ "@qmnguyen0711" ]
@@ -8,7 +8,6 @@ owning-stage: "~devops::enablement"
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

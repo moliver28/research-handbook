@@ -119,7 +119,7 @@ everything you need available at all times makes for more efficient work.
 blocked no longer requires detective work. It's available everywhere and
 accessible to everyone.
 
-This is highlighted by analyst specified benefits of [Value Stream Delivery Platforms](/analysts/gartner-vsdp21/), of which GitLab is considered a representative vendor.
+This is highlighted by analyst specified benefits of [Value Stream Delivery Platforms](https://about.gitlab.com/analysts/gartner-vsdp21/), of which GitLab is considered a representative vendor.
 
 Some additional example benefits include:
 

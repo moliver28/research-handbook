@@ -293,6 +293,14 @@ You can learn more about parental leave and how to apply in the [Benefits sectio
 
 ### Return-to-work Resources
 
+#### Team member connections
+
+It can be helpful to connect with other team members who are parents or caregivers as you return to work. Consider:
+
+- Joining the `#intheparenthood` Slack channel to share tips, photos, and stories.
+- Attending a [Caregivers Team Member Resource Group (TMRG)](/handbook/company/culture/inclusion/tmrg-caregivers/) event or participating in the group.
+- Making a merge request to add contributions to this page.
+
 #### Your 4th Trimester
 
 [Your 4th Trimester](https://drive.google.com/file/d/1NOkpt1oBruKunt3IdR6bQuvR0P2ht6Tg/view) is a 90-day coaching program to help parents transition back to work.
@@ -331,8 +339,6 @@ Jonathan's recommendation adds a layer of nuance to [Accepting Uncertainty](/han
 > Take advantage of GitLab's bias towards [asynchronous communication](/handbook/company/culture/all-remote/management/#asynchronous). A child's schedule shifts rapidly, and I've found it useful to structure my days around my son's routine rather than force him to operate on a rigid timeline. Being a part of a [100% remote team](/handbook/company/culture/all-remote/) empowers team members to [embrace work/life harmony](/handbook/company/culture/all-remote/people/#worklife-harmony) in whatever way suits them. Moreover, it's liberating to be able to shift when and where I work depending on the needs of my family.
 >
 > It's important to talk about family. For a company to sustain a culture that embraces parents and empathizes with the associated needs, these realities must be shared in the open and not allowed to become taboo. — [*Darren M.*](https://gitlab.com/dmurph)
-
-Parents at GitLab are encouraged to join the `#intheparenthood` Slack channel to share tips, photos, and stories, and make a merge request to add contributions to this page.
 
 ### Returning to work at 50% capacity
 

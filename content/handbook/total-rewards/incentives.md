@@ -1,8 +1,6 @@
 ---
 title: "Incentives at GitLab"
 description: "The page contains information about incentives available for GitLab team members."
-aliases:
-- /handbook/incentives/
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
@@ -297,7 +295,7 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 - In the past, we had a tiered system of referral bonuses, but we've simplified the structure to add a flat bonus amount.
 - [$1,500](/handbook/total-rewards/compensation/#exchange-rates) base referral bonus for a new hire.
 
-We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
+We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether there are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
 Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
 
@@ -355,7 +353,7 @@ Start your quarter off by getting to know someone new at GitLab, or meeting some
 
 ### Group Get Togethers
 
-Please review the latest [Covid-19 guidance for in-person GitLab events that include more than 5 attendees](/handbook/travel/#travel-safety--covid-19) before planning a Group Get Together.
+Please review the latest [Covid-19 guidance for in-person GitLab events that include more than 5 attendees](/handbook/finance/travel/#travel-safety--covid-19) before planning a Group Get Together.
 
 In areas where many GitLab team members live, stay tuned in Slack and on this page for planned events where we'll invite all GitLab team members in that area to join together in person. For team members who participate in Group Get Togethers, individual Get Togethers in person or remote will not be available in the month the Group Get Together takes place.
 

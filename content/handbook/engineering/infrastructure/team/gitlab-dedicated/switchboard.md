@@ -151,6 +151,7 @@ Switchboard team process to refine issues:
 1. If the implementation requires modification or creation of an API endpoint, a plan on endpoint, params structure and return data structure should be agreed upon between Frontend and Backend as early as possible to avoid re-work.
 1. Frontend and backend implementation should be delivered in separate MRs
 1. If the implementation cannot be done in parallel, or there is a likely to be a meaningful delay between backend and frontend implementations, or if the backend can deliver value independently the issue should be split and the relationship clearly identified by linking the issues
+1. SRE dependencies should be called out as early as possible with requirements clearly documented in issues ([example SRE dependency issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2798))
 
 #### Issue & Epic tracking
 
@@ -342,6 +343,7 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 * [ ] UX Requirements are highlighted UX Designer
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
+* [ ] Frontend, Backend and SRE dependencies highlighted and / or unknowns highlighted
 
 ### Roll out Plan :speaker:
 <!--

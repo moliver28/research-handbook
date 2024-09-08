@@ -52,8 +52,8 @@ to the current and previous two GitLab versions:
 
 * **Step 1a: Bug fix prepared** - A merge request backporting a bug fix to the current version is prepared by
    GitLab engineers:
-  * The merge request executes end-to-end tests via package-and-test pipeline to guarantee the bug fix meets the quality standards.
-  * If the package-and-test pipeline fails, a review from a Software Engineer in Test is required.
+  * The merge request executes end-to-end tests via test-on-omnibus pipeline to guarantee the bug fix meets the quality standards.
+  * If the test-on-omnibus pipeline fails, a review from a Software Engineer in Test is required.
   * The merge request is merged by a GitLab maintainer in the stable branch associated
 * **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository](https://gitlab.com/gitlab-org/security). A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology) with the following:
   * All checkboxes checked to show all steps have been completed.

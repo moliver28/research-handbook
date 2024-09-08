@@ -37,7 +37,9 @@ Note: Depending on the scope of the change, different impact levels can apply to
 
 1. All Spotlights will be set to expire in two weeks from the announcement date unless otherwise specified to avoid system clutter. 
 1. All Speks will be set to expire in six months from the announcement date unless otherwise specified to avoid system clutter. 
+   1. Spek author should add the Spek expiration date in the custom field within the Spek in the GitLab YYY-MM-DD format. 
 1. Email notification feature will not be leveraged at this time to avoid creating too much noise for the Field team. This can be reevaluated at a later date.
+1. Spotlights should incorporate [GitLab-branded imagery](/handbook/sales/field-operations/release-schedule/#gitlab--branded-imagery-in-spekit) to ensure they are not ignored or mistaken for native tool notifications.
 1. No more than 1-2 Spotlights should be sent in Spekit in a given week to avoid overloading the Field team. If we have hit our cap for the week, Field Comms will advise pushing to the following week. No spotlights should be sent during the [End-of-Quarter Quiet Period](/handbook/sales/field-communications/#field-comms-quiet-periods). Exceptions will be considered based on priority but are not encouraged.
 1. If an update relates to a specific part of a page (ex. new field), the default should be to embed the spek to increase visibility unless it overrides something existing. 
 
@@ -53,6 +55,18 @@ If you have Spekit access, you can find the template [here](https://app.spekit.c
 > - **DRI:** Provide name(s)
 > - **Timeline:** Is there a time limit/end date/etc. associated with this change, or is it evergreen moving forward? --> Time-bound / Evergreen
 >   - If time-bound --> Provide ending date/time-range
+
+### GitLab-Branded Imagery in Spekit
+
+Creators have six custom images to choose from to use when building Spotlights in Spekit. Those images can be found in [this Drive file](https://drive.google.com/drive/folders/11GwsupAb3dayfSSP_SZ_w0w7KkkPsXIc?usp=sharing) and consist of: 
+
+1. 3 - Generic GitLab images 
+1. 3 - Text-based images to call out 
+   1. Process Update
+   1. Tool Update 
+   1. Incident Report 
+
+In addition, a [Canva template](https://www.canva.com/design/DAGOCmVEVoI/-J-pk80dtxI59EyYqIp5Eg/edit?utm_content=DAGOCmVEVoI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) is available to custom-create a text-based image that is inline with our Brand guidelines if one of the three pre-existing images is not applicable. If you do not have access to Canva, please open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). 
 
 ### Phase 2: GitLab Spekit Experts for Field Updates
 

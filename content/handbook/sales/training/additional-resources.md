@@ -121,7 +121,7 @@ Another way to check whether your sales conversations are productive for your pr
 
 To test his understanding of a prospect's problems, Dan Tyre, a sales director at HubSpot, tries to define three reasons his prospects would buy, three reasons his prospects would balk, and what the next step should be. If he can't, he knows he needs to get on another call with his prospect to further understand what they want and discuss how to move forward in a mutually productive way.
 
-### Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity <a name="reciprocity"></a>
+### Ways to influence decision making by using the Psychology of Persuasion
 
 Dr. Robert Cialdini's theory of influence from his book "Influence: The Psychology of Persuasion" defines six principles that guide human behavior. The first principle is reciprocity, the desire to give back to someone who has given to us. E.g. if someone does you a favor you feel obligated to return a favor.
 

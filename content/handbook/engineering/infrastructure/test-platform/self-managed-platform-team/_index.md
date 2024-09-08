@@ -10,7 +10,7 @@ description: "Self-Managed Platform team in Test Platform sub-department"
 | **GitLab Team Handle** | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/enablement-qe) |
 | **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/978354) |
 
-Engineers in this team support the product sections supported by the [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) along with maintaining the self managed platform tools.
+Engineers in this team support the product sections supported by the [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) along with maintaining the self-managed platform tools.
 
 ## Team members
 
@@ -19,13 +19,14 @@ Engineering Manager: Kassandra Svoboda
 | S.No     | Section                   | Stage/ Group/ Tool         | SET Counterpart    |
 |------    |-------------------------|----------------------------|--------------------|
 | 1        | [Core Platform](/handbook/product/categories/#core-platform-section)          | [Data Stores](/handbook/product/categories/#data-stores-stage)              | John McDonnell     |
-| 2     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Tenant Scale](/handbook/product/categories/#tenant-scale-group)             | Andy Hohenner      |
-| 3     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Systems](/handbook/product/categories/#systems-stage)                  | Vishal Patel       |
-| 4     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Geo](/handbook/product/categories/#geo-group)                      | Nick Westbury      |
-| 5        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [GitLab Dedicated](/handbook/product/categories/#gitlab-dedicated-group)         | Brittany Wilkerson |
-| 6        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [US Public Sector Services](/handbook/product/categories/#us-public-sector-services-group) | Jim Baumgardner    |
-| 7        |          -              | [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) & [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures)  | Grant Young    |
-| 8        |          -              | [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)   | Nailia Iskhakova    |
+| 2        | [Core Platform](/handbook/product/categories/#core-platform-section)          | [Foundations](/handbook/product/categories/#foundations-stage)              | Nivetha Prabakaran   |
+| 3     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Tenant Scale](/handbook/product/categories/#tenant-scale-group)             | Andy Hohenner      |
+| 4     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Systems](/handbook/product/categories/#systems-stage)                  | Vishal Patel       |
+| 5     | [Core Platform](/handbook/product/categories/#core-platform-section)         | [Geo](/handbook/product/categories/#geo-group)                      | Nick Westbury      |
+| 6        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [GitLab Dedicated](/handbook/product/categories/#gitlab-dedicated-group)         | Brittany Wilkerson |
+| 7        | [SaaS Platforms](/handbook/product/categories/#saas-platforms-section)        | [US Public Sector Services](/handbook/product/categories/#us-public-sector-services-group) | Jim Baumgardner    |
+| 8        |          -              | [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) & [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures)  | Grant Young    |
+| 9        |          -              | [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)   | Nailia Iskhakova    |
 
 ## OKRs
 
@@ -75,7 +76,7 @@ The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/g
 | [Upgrade Tester](https://gitlab.com/gitlab-org/quality/upgrade-tester) | The Upgrade Tester pipeline builds environments using GET that are based on different Reference Architectures. Each pipeline will build an environment, seed it with data and then upgrade and test the environment with each upgrade to either a specified version or the latest nightly package. |
 | [Backup and Restore](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/backup-and-restore) | The Backup and Restore pipelines are designed to build environments using GET that are based on different Reference Architectures. Each is designed to run through the backup and restore process and verify the data that has been restored. |
 | [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)| A sister pipeline to GPT's backend performance pipelines, these pipelines are designed to specifically test web page frontend performance in browsers. |
-| [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)| This Project serves as a LFS data repository for the GitLab Performance Tool |
+| [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)| This Project serves as an LFS data repository for the GitLab Performance Tool |
 | [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)| Docker builder and registry for GitLab Performance testing |
 | [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)| A testing tool designed to monitor any downtime that occurs during a zero downtime upgrade by continuously performing git operations and sending requests to the readiness?all=1 endpoint. |
 | [Self Managed Platform Team Channels Issue Tracker](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker) | The issue tracker project is used to track requests and questions from Self Managed Platform Team Slack channels |
@@ -86,11 +87,11 @@ There are occasions where the expertise of the Reference Architecture or Self-Ma
 
 For any requests relating to customer environments, either proposed or existing, they must be raised in the [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/new) project with the appropriate template. Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons. Any requests made outside of this process such as direct asks to join customer calls or projects will be rejected and should instead be directed to Support or Professional Services accordingly.
 
-For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) (ie. feature request, bug) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) (ie. request for help, performance testing of a new feature*, bug) issues can be raised in each respective project.
+For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) (i.e. feature request, bug) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) (i.e. request for help, performance testing of a new feature*, bug) issues can be raised in each respective project.
 
 *To request for help with performance testing of a new feature, please create a new issue within the GPT project with the request for help template.
 
-For individual questions please reach out to the team via our slack channels.
+For individual questions please reach out to the team via our Slack channels.
 
 ### Slack Channels
 
@@ -98,7 +99,7 @@ For individual questions please reach out to the team via our slack channels.
 | :---: | :--- |
 | [#reference-architectures](https://gitlab.slack.com/archives/C015V8PDUSW) | Channel to ask questions relating to Reference Architectures |
 | [#gitlab_environment_toolkit](https://gitlab.slack.com/archives/C01DE8TA545) | Channel to discuss and any ask questions relating to GitLab Environment Toolkit |
-| [#gitlab_performance_tool](https://gitlab.slack.com/archives/C02JMABFT2R) | Channel to discuss and ask any questions relating to GitLab Performance Tool and QE performance testing |
+| [#gitlab_performance_tool](https://gitlab.slack.com/archives/C02JMABFT2R) | Channel to discuss and ask any questions relating to GitLab Performance Tool and TP performance testing |
 | [#self-managed-platform-team](https://gitlab.slack.com/archives/CTP7N0PM4) | Channel to engage with the Self-Managed Platform Team |
 
 ## How we work
@@ -112,7 +113,7 @@ The team does have a set of regular synchronous calls:
 * Self-Managed Environment Triage
 * 1-1s between the Individual Contributors and Engineering Manager
 
-Stand-up twice per week on Tuesday and Thursday via our teams slack channel
+Stand-up twice per week on Tuesday and Thursday via our teams Slack channel
 
 ### Project Management
 
@@ -122,7 +123,7 @@ We track our work on the following issue boards:
 
 * [Test Platform: Self-Managed Platform Team Milestones](https://gitlab.com/groups/gitlab-org/-/boards/7333962?label_name[]=team%3A%3ASelf-Managed%20Platform)
 * [Test Platform: Self-Managed Platform Team Members](https://gitlab.com/groups/gitlab-org/-/boards/978354?label_name%5B%5D=team%3A%3ASelf-Managed%20Platform)
-* [GPT Pipeline Triage](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform) 
+* [GPT Pipeline Triage](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform)
 
 #### Capacity Planning
 
@@ -167,20 +168,20 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
     * Date of Update (YYYY-MM-DD)
     * Brief update (~sentence or couple bullets) for each of these four bullets:
       * Status update - Progress has been updated to X %.
-      * What was done :white_check_mark: - Unblocked blockers, any other progress acheived
+      * What was done :white_check_mark: - Unblocked blockers, any other progress achieved
       * Next steps :construction_worker:
       * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
-* ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
+* ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionnaire on Slack.
 
 #### GPT Pipeline Triage
 
-Self Managed Platform Team members who are currently on Pipeline DRI on call rotation will also monitor the [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49) slack channel. Open issues to be reviewed can be found in the [GPT pipeline triage board](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform).
+Self Managed Platform Team members who are currently on Pipeline DRI on call rotation will also monitor the [#gpt-performance-run](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel. Open issues to be reviewed can be found in the [GPT pipeline triage board](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform).
 
 #### Self Managed Platform Channels Issue Tracker
 
 The issue tracker is used to track requests and questions from Self Managed Platform Team Slack channels - GitLab Environment Toolkit, Reference Architectures and GitLab Performance Tool - to create issues for tracking purposes.
 
-Navigate to [Wiki page](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker/-/wikis/home) for more details how issue tracker project is impletmented.
+Navigate to [Wiki page](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker/-/wikis/home) for more details how issue tracker project is implemented.
 
 ### Metrics
 

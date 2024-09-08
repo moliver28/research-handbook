@@ -17,30 +17,30 @@ While compliance is certainly a company-wide effort, it is as importantly the in
 
 Listed below are GitLab's policies and procedures, as well as guidance and other resources. This list will be updated, as needed, in order for GitLab to address the constantly evolving worldwide regulatory landscape, and partner with GitLab customers to allow them to meet their own regulatory requirements.
 
-- [Acceptable Use Policy](https://about.gitlab.com/handbook/legal/acceptable-use-policy/)
-- [Anti-Corruption Policy](https://about.gitlab.com/handbook/legal/anti-corruption-policy/)
-- [Anti-Fraud Policy](https://about.gitlab.com/handbook/legal/anti-fraud-policy/)
-- [Anti-Harassment Policy](https://about.gitlab.com/handbook/people-group/anti-harassment/)
-- [Anti-Retaliation Policy](https://about.gitlab.com/handbook/legal/anti-retaliation-policy/)
-- [Authorization Matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/)
+- [Acceptable Use Policy](/handbook/legal/acceptable-use-policy/)
+- [Anti-Corruption Policy](/handbook/legal/anti-corruption-policy/)
+- [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
+- [Anti-Harassment Policy](/handbook/people-group/anti-harassment/)
+- [Anti-Retaliation Policy](/handbook/legal/anti-retaliation-policy/)
+- [Authorization Matrix](/handbook/finance/authorization-matrix/)
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
-- [Corporate Communication Policy](https://about.gitlab.com/handbook/legal/corporate-communications/)
-- [Data Privacy Impact Assessment (DPIA) Policy](https://about.gitlab.com/handbook/legal/privacy/dpia-policy)
-- [Employee Privacy Policy](https://about.gitlab.com/handbook/legal/privacy/employee-privacy-policy/)
-- [Entity-Specific Employment Policies](https://about.gitlab.com/handbook/people-policies/#entity-specific-employment-policies)
+- [Corporate Communication Policy](/handbook/legal/corporate-communications/)
+- [Data Privacy Impact Assessment (DPIA) Policy](/handbook/legal/privacy/dpia-policy)
+- [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
+- [Entity-Specific Employment Policies](/handbook/people-policies/#entity-specific-employment-policies)
 - [Events Code of Conduct](https://about.gitlab.com/company/culture/ecoc/)
-- [Gifts & Entertainment, Political Activities & Contributions, and Charitable Contributions](https://about.gitlab.com/handbook/legal/policies/gifts-contributions/#)
+- [Gifts & Entertainment, Political Activities & Contributions, and Charitable Contributions](/handbook/legal/policies/gifts-contributions/#)
 - [GitLab Federal Code of Ethics](https://drive.google.com/file/d/1whEuxvIwy3M33N3vbUUkGrOKvkow5LAw/view)
 - [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view)
-- [Internal Acceptable Use Policy](https://about.gitlab.com/handbook/people-group/acceptable-use-policy/)
-- [Partner Code of Ethics](https://about.gitlab.com/handbook/legal/partner-code-of-ethics/)
+- [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
+- [Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/)
 - [Privacy Statement](https://about.gitlab.com/privacy/)
-- [Record Retention Policy](https://about.gitlab.com/handbook/legal/record-retention-policy/)
-- [Record Retention and Disposal Standards](https://about.gitlab.com/handbook/security/records-retention-deletion.html)
-- [Related Party Transactions](https://about.gitlab.com/handbook/legal/gitlab-related-party-transactions-policy/)
-- [SAFE Framework](https://about.gitlab.com/handbook/legal/safe-framework/)
-- [Social Media Policy](https://about.gitlab.com/handbook/marketing/team-member-social-media-policy/)
-- [Third-Party Risk Management Process](https://about.gitlab.com/handbook/finance/procurement/#-third-party-risk-management)
+- [Record Retention Policy](/handbook/legal/record-retention-policy/)
+- [Record Retention and Disposal Standards](/handbook/security/records-retention-deletion.html)
+- [Related Party Transactions](/handbook/legal/gitlab-related-party-transactions-policy/)
+- [SAFE Framework](/handbook/legal/safe-framework/)
+- [Social Media Policy](/handbook/marketing/team-member-social-media-policy/)
+- [Third-Party Risk Management Process](/handbook/finance/procurement/#-third-party-risk-management)
 - [UK Modern Slavery Act Transparency Statement](https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view?usp=sharing)
 - [Whistleblower Policies](/handbook/legal/whistleblowing/#whistleblowing-at-gitlab)
 
@@ -51,13 +51,13 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 ### Guidelines and Other Resources
 
 - [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
-- [Data Classification Standards](https://about.gitlab.com/handbook/security/data-classification-standard.html)
+- [Data Classification Standards](/handbook/security/data-classification-standard.html)
 - [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#heading=h.b3pm8ljoip1y)
-- [External Materials Compliance Checklist](https://about.gitlab.com/handbook/legal/external-materials-compliance-checklist/)
+- [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist/)
 - [Insider Trading Policy FAQs](https://docs.google.com/document/d/1vKFiYuieDQtKmrak-aAB2dTT3B3Q-aU4DtbcRm27X4U/edit)
-- [IP Public Materials Guidelines](https://about.gitlab.com/handbook/legal/ip-public-materials-guidelines/)
+- [IP Public Materials Guidelines](/handbook/legal/ip-public-materials-guidelines/)
 - [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/)
-- [Materials Legal Review Process](https://about.gitlab.com/handbook/legal/materials-legal-review-process/)
+- [Materials Legal Review Process](/handbook/legal/materials-legal-review-process/)
 - [Trade Controls relating to Russia, Belarus, and Ukraine - Sales](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
 - [FAQ](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
 
@@ -69,7 +69,7 @@ We anticipate the need for policy amendments and new policies and procedures, as
 
 Compliance training is critical to GitLab's success and the success of its team members. Effective training helps team members achieve a more meaningful understanding of what our Compliance Standards require and puts them in a better position to recognize and escalate (as required) unethical and unlawful behavior when they see it.
 
-All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through either [NavexEngage](https://lms.navexglobal.com/topclass5/) and [WILL Interactive](https://learning.willinteractive.com/). GitLab's [General Security Awareness Training](https://about.gitlab.com/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training).
+All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through either [NavexEngage](https://lms.navexglobal.com/topclass5/) and [WILL Interactive](https://learning.willinteractive.com/). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training).
 
 We recognize that some team members are subject to additional or heightened compliance requirements as a result of their roles and responsibilities or the geographies in which they operate. Depending on these factors, those team members may receive additional training. As an example, team members employed by or working closely with GitLab Federal, our United States public sector entity, must complete a training course titled Government Contracting: Gifts, Gratuities, and Bribery.
 
@@ -83,7 +83,7 @@ Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/medi
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
-Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab's [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](https://about.gitlab.com/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab's Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab's Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](https://about.gitlab.com/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](https://about.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab's [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab's Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab's Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 
@@ -96,7 +96,7 @@ Reports can be made using the platform or through the following avenues, which a
 - E-mail: <reports@lighthouse-services.com> (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
 
-Team members may, in the alternative, report concerns about team member relations, including violations of GitLab's Anti-Harassment Policy, to GitLab's [Chief Legal Officer](mailto:rschulman@gitlab.com), [Chief People Officer](mailto:wbarnes@gitlab.com), the [Team Member Relations Team](https://about.gitlab.com/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](https://about.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members may, in the alternative, report concerns about team member relations, including violations of GitLab's Anti-Harassment Policy, to GitLab's [Chief Legal Officer](mailto:rschulman@gitlab.com), [Chief People Officer](mailto:wbarnes@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
 
 ### Manager Roles and Responsibilities
 
@@ -104,7 +104,7 @@ Team members should report misconduct, workplace harassment, and other concerns 
 
 ### Investigations
 
-GitLab takes allegations of misconduct very seriously and want an opportunity to resolve them. Reports submitted through any avenue described above will be reviewed promptly and addressed in accordance with GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) and [Anti-Retaliation Policy](https://about.gitlab.com/handbook/legal/anti-retaliation-policy/#reporting-procedure). Potential instances of non-compliance are taken seriously, and unethical behavior and/or violations of GitLab policies may lead to termination of employment.
+GitLab takes allegations of misconduct very seriously and want an opportunity to resolve them. Reports submitted through any avenue described above will be reviewed promptly and addressed in accordance with GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) and [Anti-Retaliation Policy](/handbook/legal/anti-retaliation-policy/#reporting-procedure). Potential instances of non-compliance are taken seriously, and unethical behavior and/or violations of GitLab policies may lead to termination of employment.
 
 ## Ethics and Compliance Program Charter
 
@@ -120,7 +120,7 @@ The Ethics and Compliance Program is intended to help GitLab team members achiev
 
 #### Board of Directors
 
-The GitLab Inc.'s [Board of Directors](https://about.gitlab.com/handbook/board-meetings/), through its Audit Committee, is responsible for administering the Code of Conduct and for addressing material issues and risks concerning Compliance Standards and applicable laws and regulations.
+The GitLab Inc.'s [Board of Directors](/handbook/board-meetings/), through its Audit Committee, is responsible for administering the Code of Conduct and for addressing material issues and risks concerning Compliance Standards and applicable laws and regulations.
 
 #### Chief Legal Officer
 

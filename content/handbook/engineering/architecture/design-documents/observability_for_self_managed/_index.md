@@ -1,5 +1,5 @@
 ---
-title: GitLab Observability in GitLab.com and Self-Managed GitLab Instances
+title: "GitLab Observability in GitLab.com and Self-Managed GitLab Instances"
 status: ongoing
 creation-date: "2023-09-11"
 authors: [ "@mappelman" ]

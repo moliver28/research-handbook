@@ -127,6 +127,10 @@ This helps us break down silos, balance the workload, and prevent disruptive re-
 
 To help with prioritizing within the list of available `Verify candidate` issues, it's recommended to reference the issue types in the [Product Priorities](/handbook/product/product-processes/#prioritization) list, noting any severities applied on the issues as well.
 
+### Shared technical debt 
+
+In the Verify stage, prioritizing our technical debt so that we can move faster is a top priority. Starting in August 2024, the Pipeline teams in the Verify stage have created a [board](https://gitlab.com/groups/gitlab-org/-/boards/1438885?not%5Blabel_name%5D%5B%5D=group%3A%3Ahosted%20runners&not%5Blabel_name%5D%5B%5D=group%3A%3Arunner&label_name%5B%5D=devops%3A%3Averify&label_name%5B%5D=type%3A%3Amaintenance) for Pipeline teams in the Verify stage that is intended to help us prioritize technical debt and bring alignment across team members of what is the most critical technical debt work to be focusing on. An engineer DRI from each team will work closely with their EM to align on which issues should be advocated for the most at a given time.
+
 ### Issue Health Status Definitions & Async Issue Updates
 
 Across Verify we value [Transparency](/handbook/values/#transparency), we live our values of [Inclusion](/handbook/values/#bias-towards-asynchronous-communication), and we expect [Efficiency](/handbook/values/#write-things-down) by dogfooding using Issue Health Statuses and providing regular updates on active issues. Each team in the Verify Stage will define the cadence of updates and specific definition of the statuses, but generally the expectation is a weekly update on in progress issues with the following Health Statuses:
@@ -155,7 +159,7 @@ or no issues were found by the Verify maintainer.
 
 Pipeline Authoring and Pipeline Execution are closely related but they also represent different stages in the cycle of a user's interaction with a pipeline. At a very high-level, this image illustrates the main focus of each group and how they can both support a better pipeline experience.
 
-![Verify Groups](/handbook/product/categories/verify_groups_banner.jpg)
+![Verify Groups](/handbook/product/groups/verify_groups_banner.jpg)
 
 ### Async Work Week
 

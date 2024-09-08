@@ -1,6 +1,7 @@
 ---
 owning-stage: "~sec::govern"
 title: 'GitLab Secrets Manager ADR 006: Use AppRole authentication method between Rails and OpenBao'
+toc_hide: true
 ---
 
 ## Context

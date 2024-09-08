@@ -4,7 +4,7 @@ title: IT EntApps Program Management Office
 
 ## Associate IT EntApps Program Manager
 
-The Associate Program Manager is a [grade 5](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Associate Program Manager is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -25,7 +25,7 @@ The Associate Program Manager is a [grade 5](https://about.gitlab.com/handbook/t
 
 ## IT EntApps Program Manager
 
-The IT Program Manager is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The IT Program Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -55,7 +55,7 @@ The IT Program Manager is a [grade 6](https://about.gitlab.com/handbook/total-re
 
 ## Senior IT EntApps Program Manager
 
-The Senior IT Program Manager is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior IT Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -86,7 +86,7 @@ The Senior IT Program Manager is a [grade 7](https://about.gitlab.com/handbook/
 
 ## Staff IT EntApps Program Manager
 
-The Staff IT Program Manager is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff IT Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -116,7 +116,7 @@ Extends the Senior IT Program Management responsibilities plus:
 
 ## Principal, IT EntApps Program Management
 
-The Principal, IT Program Management is a [grade 9](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Principal, IT Program Management is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -181,7 +181,7 @@ The Principal, IT Program Management is a [grade 9](https://about.gitlab.com/ha
 
 ## Senior Manager, IT EntApps Program Management
 
-The Senior Manager, IT Program Management is a [grade 9](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, IT Program Management is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -209,7 +209,7 @@ The Senior Manager, IT Program Management is a [grade 9](https://about.gitlab.c
 
 ## Director, IT EntApps Program Management
 
-The Director, IT Program Management is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, IT Program Management is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -235,7 +235,7 @@ The Director, IT Program Management is a [grade 10](https://about.gitlab.com/ha
 
 ## Senior Director, IT EntApps Program Management
 
-The Senior Director, IT Program Management is a [grade 11](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Director, IT Program Management is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 

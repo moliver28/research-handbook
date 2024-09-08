@@ -26,16 +26,16 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
 | GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab France S.A.S. | Rob Allen & Pattie Egan|
-| GitLab GK, Japan | Jess Dallmar, Rob Allen. Backup: Simon Mundy|
+| GitLab France S.A.S. | Rob Allen & Pattie Egan & Jake Foster|
+| GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
-| GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors & Pattie Egan|
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan |
-| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
-| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Jim Gladen|
-| GitLab South Korea | Jess Dallmar & Rob Allen |
+| GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
+| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
+| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
+| GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
@@ -529,11 +529,6 @@ To create the contract:
 GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
 
 - India
-- Phillipines
-- Kenya
-- Costa Rica
-- Latvia
-- Chile
 
 The process for creating and sending an agreement is as follows:
 
@@ -564,7 +559,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 

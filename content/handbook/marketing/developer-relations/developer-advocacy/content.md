@@ -1,8 +1,6 @@
 ---
 title: "Content workflows for Developer Advocates"
 description: "Learn about the Developer Advocacy team's content library, creation and distribution workflows."
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/content/index.html
 ---
 
 ## Content Library
@@ -55,6 +53,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [AI Impact analytics](https://gitlab.navattic.com/ai-impact) | GitLab Duo | 2024-08-13 | @iganbaruch |
 | [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise) | GitLab Duo | 2024-07-28 | @iganbaruch |
 | [Value Stream Management](https://gitlab.navattic.com/vsm) | DevSecOps Platform | 2024-06-25 | @iganbaruch |
 | [Interactive infographic](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html) | DevSecOps Platform | 2024-03-24 | @iganbaruch |
@@ -68,6 +67,25 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 - [GitLab Demos](https://www.youtube.com/watch?v=ZQBAuf-CTAY&list=PLFGfElNsQthYv5OtNEFoGwd0cAg-55Hdj) on the GitLab YouTube channel.
 - [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements, on the GitLab Unfiltered YouTube channel.
 - [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat) on the GitLab Unfiltered YouTube Channel.
+- [GitLab Snapshots](https://www.youtube.com/playlist?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)
+- [GitLab Snapshots - español](https://www.youtube.com/playlist?list=PLFGfElNsQthbm-EfY2AyFNr8o6qT5A2ud)
+- [GitLab Snapshots - português](https://www.youtube.com/playlist?list=PLFGfElNsQthaRSNTv93cM57GBB1l_95Px)
+- [GitLab Duo Snapshots](https://www.youtube.com/playlist?list=PLFGfElNsQthZGazU1ZdfDpegu0HflunXW)
+
+### Vimeo folder
+
+- [Developer Relations](https://vimeo.com/user/115027220/folder/17153021?isPrivate=false)
+
+### Maintained documentation
+
+Developer advocates authored and maintain the following documentation pages, with practical and technical examples aiding adoption and efficiency use cases.
+
+| Title | Area | Created | DRI |
+|-------|------|--------------|-----|
+| [GitLab Duo use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) | Duo/AI | 2024-03 | @dnsmichi |
+| [CI/CD component examples](https://docs.gitlab.com/ee/ci/components/examples.html) | CI/CD | 2024-02 | @dnsmichi |
+| [Automate storage management](https://docs.gitlab.com/ee/user/storage_management_automation.html) | Utilization, API | 2023-08 | @dnsmichi |
+| [Pipeline efficiency](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) | CI/CD | 2020-09 | @dnsmichi |
 
 ### Maintained talks
 

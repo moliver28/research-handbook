@@ -360,6 +360,8 @@ As mentioned above, there is a listing of available FY23 SFDC campaigns to choos
 
 In addition, we will be sending over planned amounts into the SFDC Campaign Budget field and actuals will synch nightly. This ONLY happens if the connection is there by having a campaign selected in the `Existing SFDC Campaign` field. If there are multiple line items for a given SFDC campaign, they will be combined for the updated SFDC Campaign Budget, since we use the Allocadia sub-category ID to sync Allocadia to the SFDC campaign.
 
+There may be times when new values for existing fields need to be added to account for changing intiatives. If a new value needs to be added to an existing field that syncs to the SFDC campaign, that value will need to exist in SFDC first. An issue will need to be opened with the Sales Systems team to add the new value. Once the new value exists in SFDC, that matching value can be added in the master settings of Allocadia. 
+
 Full detailed instructions on how to set this synch up, which does have to be done campaign by campaign, can be [found here](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up).
 
 #### Influenced MQLs

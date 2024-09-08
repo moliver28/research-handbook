@@ -17,7 +17,7 @@ However, it is the responsibility of the Infrastructure Department to drive the 
 
 If you're a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
-Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
+For all other queries, please see the [getting assistance](/getting-assistance) page.
 
 ## Vision
 
@@ -74,8 +74,6 @@ flowchart LR
     click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SS --> DD[Distribution::Deploy]
     click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SS --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/"
 
     C --> DS[Data Stores Stage]
     click DS "/handbook/engineering/infrastructure/core-platform/data_stores/"
@@ -85,6 +83,8 @@ flowchart LR
     click Database "/handbook/engineering/infrastructure/core-platform/data_stores/database/"
     DS --> GS[Global Search]
     click GS "/handbook/engineering/infrastructure/core-platform/data_stores/search/"
+    DS --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
 
     SP --> DE[Delivery]
     click DE "/handbook/engineering/infrastructure/team/delivery/"

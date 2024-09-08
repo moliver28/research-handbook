@@ -35,7 +35,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [2024 Minimum Wage](https://www.azica.gov/sites/default/files/2023-12/2024%20THE%20FAIR%20WAGES%20AND%20HEALTHY%20FAMILIES%20ACT%20English.pdf)
 - [Unemployment Insurance](https://des.az.gov/sites/default/files/legacy/dl/POU-003.pdf)
 - [Workers' Compensation - Inc.](https://drive.google.com/file/d/1ve97o6Rlln4gnh4wvgvVi399HCYuj9Vi/view?usp=sharing)
-- [Bodily Fluids Work Exposure](https://www.azica.gov/forms/bodily-fluids-work-exposure-form) and [REPORT OF SIGNIFICANT WORK EXPOSURE TO BODILY FLUIDS OR OTHER INFECTIOUS MATERIAL](https://www.ica.state.az.us/sites/default/files/migrated_pdf/Claims_Poster_WorkExpToMRSA_SpMen_TB.pdf)
+- [Bodily Fluids Work Exposure](https://www.azica.gov/forms/bodily-fluids-work-exposure-form) and [Work Exposure to MRSA, Spinal Meningitis, or Tuberculosis](https://www.azica.gov/sites/default/files/migrated_pdf/Claims_Poster_WorkExpToMRSA_SpMen_TB.pdf)
 
 ### Arkansas
 
@@ -207,10 +207,11 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [All in One](https://workforce.iowa.gov/media/229/download?inline=)
 - [Unemployment Insurance](https://workforce.iowa.gov/media/1389/download?inline=)
-- [Safety and Health Protection on the Job](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/2018/UnemploymentFlyer70-8010.pdf)
+- [Safety and Health Protection on the Job](https://workforce.iowa.gov/media/232/download?inline)
 - [Your Rights Under Iowa's Minimum Wage](https://workforce.iowa.gov/media/234/download?inline=)
 - [Equal Employment Opportunity](https://workforce.iowa.gov/media/316/download?inline=)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1X2jlSjVqY06iLnd55pxZMNoYHkoo1j2u/view?usp=sharing)
+- [Summary of Work-Related Injuries and Illnesses](https://workforce.iowa.gov/media/231/download?inline)
 
 ### Kansas
 
@@ -223,7 +224,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Safety and Health on the Job](https://labor.ky.gov/Documents/KY%20OSH%20Poster%20English.pdf)
 - [Wage and Hour Laws](https://labor.ky.gov/Documents/KY%20Wage%20and%20Hour%20Poster%20English.pdf)
 - [Wage Discrimination Because of Sex](https://labor.ky.gov/Documents/KY%20Wage%20Discrimination%20Poster%20English.pdf)
-- [Equal Employment Opportunity](https://kchr.ky.gov/Resources/Brochures%20and%20Posters/EqualEmploymentOpportunitiyPoster2019.pdf)
+- [Equal Employment Opportunity](https://kchr.ky.gov/Resources/Brochures%20and%20Posters/FINALEqualEmploymentOpportunityPoster2024.pdf)
 - [Unemployment Compensation Benefits](https://kcc.ky.gov/Documents/Forms%20and%20Posters/ui_ben5_1_0108.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1VB2kPE0C8uzf8sNwZf-Kf2dE1AxpLHmD/view?usp=sharing)
 
@@ -336,8 +337,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Nevada
 
-- [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules_to_be_Observed_by_Employers_April_11_2022.pdf)
-- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules_to_be_Observed_by_Employers_April_11_%202022_SPANISH.pdf)
+- [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024.pdf)
+- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024_SPANISH.pdff)
 - [AB 190 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20190%20Required%20Posting.pdf)
 - [AB 190 - Spanish](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Spanish%20Version-%20AB%20190%20Required%20Posting.pdf)
 - [AB 307 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20307%20Required%20Posting.pdf)

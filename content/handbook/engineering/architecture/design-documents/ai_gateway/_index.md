@@ -1,5 +1,5 @@
 ---
-title: AI-gateway
+title: "AI-gateway"
 status: ongoing
 creation-date: "2023-07-14"
 authors: [ "@reprazent" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

@@ -1,7 +1,5 @@
 ---
 title: "Key Reviews"
-aliases:
-- /handbook/key-review/
 ---
 
 ## Purpose
@@ -30,7 +28,7 @@ Key Reviews are once per quarter.
 ## Scheduling
 
 The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule a four hour block during the week after [Sales QBRs](../sales/qbrs/index.md).
-They will break up the block into 8 blocks of 25 minutes each (one for each function) and invite relevant attendees to each session. 
+They will break up the block into 8 blocks of 25 minutes each (one for each function) and invite relevant attendees to each session.
 
 The Key Review meeting invitations will utilize the CFO's Zoom account. The functional DRI and corresponding EBA will be set as co-hosts. The Key Reviews should always be recorded, with the functional DRI's EBA as the recording DRI.
 
@@ -73,3 +71,18 @@ We encourage each group to conform to this simple [company-wide template](https:
      1. OKR for non-Yearly OKRs, if relevant
 1. **Upcoming OKR goals:** mapped as appropriate to Yearlies
 1. **Other additional topics:** topics not covered by slides above, and relevant to the organization
+
+### **Important notes:**
+
+1. Key Reviews are the primary forum for synchronously getting alignment and dependency commitments on function-level OKRs.
+1. Before every Key Review, Key Review leads should update OKRs to capture progress from the previous quarter [Maintaining the status of OKRs](/company/okrs/#maintaining-the-status-of-okrs). As the Key Reviews often falls deep into the first month of the quarter, this update can include updates up until the date of the meeting.
+1. An agenda document will be linked from the calendar invite for participants to log questions or comments for discussion and to any additional track decisions & action items.
+1. Every department KPI should be covered. This can be in the presentation and/or links to the handbook.
+1. Wherever possible, the KPI or KR being reviewed should be compared to Plan, Target, or industry benchmark.
+1. There is no presentation; the meeting is purely Q&A. Of course, people can ask to talk them through a slide. If you want to present, please [post a YouTube video](/marketing/marketing-operations/youtube/) and link that from the slide deck, agenda, and/or Slack.
+1. The Staff EBA to the CFO is responsible for coordinating a central submission document for materials to be linked in 5 business days in advance of the meeting. 
+1. All Key Review material, including videos, should be linked 5 business days in advance in the [FY25 & FY26 Key Reviews SSOT](https://docs.google.com/spreadsheets/d/1cAomghJzvww1iikBVgbanOIgg4nuEKZRnK1hDh7sN6k/edit?gid=0#gid=0) on the KR Summary & Materials tab.
+1. The agenda document should include a presentation link that is accessible to all team members on the invite, as well as a Q&A section.
+1. All Key Review's are private recordings due to MNPI and are not to be shared outside of the attendees on the specific Key Review invite. 
+1. If the function DRI is not available to attend their Key Review, the function DRI can designate a person or people from their leadership team to provide updates, share views, and cascade information.
+1. Repetition in recognizing what is working or not working each Key Review is okay as repetition can be an organizational tool for teaching people what’s important amidst all the noise.

@@ -1,5 +1,5 @@
 ---
-title: Next Rate Limiting Architecture
+title: "Next Rate Limiting Architecture"
 status: accepted
 creation-date: "2022-09-08"
 authors: [ "@grzesiek", "@marshall007", "@fabiopitino", "@hswimelar" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

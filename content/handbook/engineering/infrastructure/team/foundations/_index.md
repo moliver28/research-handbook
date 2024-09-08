@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/reliability/foundations.html
 title: "Production Engineering Foundations Team"
 ---
 

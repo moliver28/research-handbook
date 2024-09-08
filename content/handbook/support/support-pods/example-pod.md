@@ -11,8 +11,8 @@ To serve as a template for team members who want to create their own Support Pod
 
 Having a clearly defined scope makes it easier for others to know what topics to bring to the pod.
 Try using the existing lines within GitLab to define the scope of a Pod: GitLab product groups as
-defined in the [DevOps stages](https://about.gitlab.com/handbook/product/categories/#devops-stages)
-are the SSOT for where which [part/feature of the product](https://about.gitlab.com/handbook/product/categories/features/)
+defined in the [DevOps stages](/handbook/product/categories/#devops-stages)
+are the SSOT for where which [part/feature of the product](/handbook/product/categories/features/)
 is at home.
 
 ## Current objectives

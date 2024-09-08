@@ -8,7 +8,7 @@ The Gitaly team is responsible for building and maintaining systems to ensure
 that the Git data storage tier of GitLab instances, and _GitLab.com in particular_,
 is reliable, secure and fast. For more information about Gitaly, see the [README in the repository](https://gitlab.com/gitlab-org/gitaly/-/blob/master/README.md) and the [roadmap](#roadmap) below.
 
-Gitaly team consists of two subgroups, [Gitaly:Cluster team](#cluster-team) and [Gitaly:Git team](#git-team), together referred to as **Gitaly**.
+Gitaly team consists of two subgroups, [Gitaly:Cluster team](#cluster-team) and [Gitaly:Git team](#git-team), together referred to as **Gitaly**. The team includes [Backend Engineers](/job-families/engineering/development/backend/#gitaly) and [SREs](/job-families/engineering/infrastructure/site-reliability-engineer/#gitaly) collaborating to deliver a reliable, scalable and fast data storage to our customers.
 
 ### Functional boundary
 
@@ -118,15 +118,16 @@ Gitaly team is in the process of establishing an oncall rotation to provide focu
 #### Training material
 
 - https://handbook.gitlab.com/handbook/engineering/on-call/#expectations-for-on-call
-- TBD
+- [Debugging Gitaly](debug.md)
+- [Production Training](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Production%20Training) issues
 
 #### Joining the rotation
 
-TBD
+File and complete a [Production Training](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Production%20Training) issue. It includes instructions for joining the rotation.
 
 #### Who is oncall
 
-The source of truth is the PagerDuty rotation. If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
+The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/schedules#POS76YN). If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
 
 #### Roster management
 

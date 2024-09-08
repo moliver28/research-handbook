@@ -1,11 +1,12 @@
 ---
-title: Hexagonal Rails Monolith
+title: "Hexagonal Rails Monolith"
 status: proposed
 creation-date: "2023-05-22"
 authors: [ "@fabiopitino" ]
 coach: [ ]
 approvers: [ ]
 owning-stage: ""
+toc_hide: true
 ---
 
 ## Background

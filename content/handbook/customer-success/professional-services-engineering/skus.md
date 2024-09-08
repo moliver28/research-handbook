@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/SKUs
 title: "PS Standard SKUs"
 description: "Discover GitLab's Professional Services Standard SKUs"
 ---
@@ -16,7 +15,7 @@ Below are the current SKUs broken out by services category. For a detailed list 
 
 ### Education Services Standard SKUs
 
-Currently, the following Education Services course SKUs are available within Zuora and can be added to any quote without using the Services Calculator or a SOW. Most courses have both an on-site and a remote delivery SKU. In the case of onsite delivery, travel and expenses (T&E) is billed separately to the customer based on our [Professional Services terms](https://about.gitlab.com/terms/#consultancy) and [sponsored travel policy](/handbook/travel/sponsored/). Customization of any of these standard courses will require use of the Services Calculator and further project scoping as well as the custom SOW approval process and signature by customers.
+Currently, the following Education Services course SKUs are available within Zuora and can be added to any quote without using the Services Calculator or a SOW. Most courses have both an on-site and a remote delivery SKU. In the case of onsite delivery, travel and expenses (T&E) is billed separately to the customer based on our [Professional Services terms](https://about.gitlab.com/terms/#consultancy) and [sponsored travel policy](/handbook/finance/travel/sponsored/). Customization of any of these standard courses will require use of the Services Calculator and further project scoping as well as the custom SOW approval process and signature by customers.
 
 #### Update: Per-Seat Training SKU
 

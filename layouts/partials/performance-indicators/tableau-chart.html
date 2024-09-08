@@ -1,7 +1,7 @@
 {{- $open := .open -}}
 {{- range .data.charts -}}
 <details {{ if eq $open true }}open="open"{{ end }}>	
-    <summary>Chart (<a class="external-link" href="{{ .url }}">Tableau↗</a>) </summary>
+    <summary>Chart</summary>
     <div style="min-height: {{ .height | default "300px" }};">
 			<tableau-viz src={{ .url | safeHTMLAttr }}
 				id="tableau-viz"

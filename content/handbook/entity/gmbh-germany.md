@@ -269,7 +269,7 @@ In case a birthing parent takes Parental Leave subsequently to the child's birth
   </tbody>
 </table>
 
-**Parental Leave and GitLab's Global Parental Leave Policy** 
+**Parental Leave and GitLab's Global Parental Leave Policy**
 
 GitLab GmbH employees in Germany are entitled to both the statutory German parental and Maternity Leave as well as [GitLab's global 16-week paid Parental Leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
 
@@ -297,7 +297,7 @@ The request must include the start and scope of the reduced working hours.
 
 For expecting non-birthing parents, team members can apply for a state benefit (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). If a team member is [eligible for Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Parental Leave pay for up to 16 weeks of Parental Leave or pay the team member's full salary for the 16-week Parental Leave, when used prior to the child’s first birthday. Please notify the Absence Management team at `leaves@domain` which state benefit you are applying for and how much you will be receiving so that payroll can process the appropriate supplementary amount. Team members can find further information on Parental Leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
-https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
+https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
 
 **Vacation Leave**
 

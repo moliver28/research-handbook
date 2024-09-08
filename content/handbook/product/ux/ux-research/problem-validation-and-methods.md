@@ -53,9 +53,9 @@ To choose the right ***foundational*** research method, you need to identify the
 
 |                                                  Overall Purpose for Research                                                  |            Research Method            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-| <ul><li>Understand a phenomenon</li> <li>Expand a theory</li> <li>Challenge the dominant view</li> <li>Propose a new theory</li> <li>Justify the need for a new technology</li></ul>| [Diary study](/handbook/product/ux/ux-research/diary-studies/)<br> [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
-| <ul><li>Redesign a product</li> <li>Make a technology more usable/accessible/inclusive</li> <li>Innovate</li> <li>Solve a new problem</li></ul>                            | [Diary study](/handbook/product/ux/ux-research/diary-studies/) <br>[Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
-| <ul><li>Motivate change</li> <li>Empower people</li> <li>Increase visibility and scrutiny</li> <li>Apply a critical lens</li></ul>                                        | [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)<br> [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html) |
+| <ul><li>Understand a phenomenon</li> <li>Expand a theory</li> <li>Challenge the dominant view</li> <li>Propose a new theory</li> <li>Justify the need for a new technology</li></ul>| [Diary study](/handbook/product/ux/ux-research/diary-studies/)<br> [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)        |
+| <ul><li>Redesign a product</li> <li>Make a technology more usable/accessible/inclusive</li> <li>Innovate</li> <li>Solve a new problem</li></ul>                            | [Diary study](/handbook/product/ux/ux-research/diary-studies/) <br>[Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)        |
+| <ul><li>Motivate change</li> <li>Empower people</li> <li>Increase visibility and scrutiny</li> <li>Apply a critical lens</li></ul>                                        | [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)<br> [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html) |
 
 ### Descriptive and informative research methods
 
@@ -63,7 +63,7 @@ To choose the right ***descriptive and informative*** research method, ask yours
 
 |                                                  What I need to understand better                                                  |            Research Method            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-| <ul><li>How users perform in their natural environment</li> <li>What tools they use</li> <li>How their space is set up</li></ul> | [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
+| <ul><li>How users perform in their natural environment</li> <li>What tools they use</li> <li>How their space is set up</li></ul> | [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)        |
 | <ul><li>What users' attitudes, beliefs, desires, and experiences are</li></ul>                             | [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html)        |
 | <ul><li>How users complete tasks over an extended period of time (hours, days or weeks)</li></ul>                                         | [Diary study](/handbook/product/ux/ux-research/diary-studies/) |
 | <ul><li>How my customers might solve product problems for themselves</li></ul>                                          | [Participatory design](https://uxmag.com/articles/participatory-design-in-practice) |

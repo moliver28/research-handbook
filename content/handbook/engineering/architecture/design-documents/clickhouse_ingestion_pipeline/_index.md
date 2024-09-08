@@ -1,5 +1,5 @@
 ---
-title: Scalable data ingestion abstraction for ClickHouse
+title: "Scalable data ingestion abstraction for ClickHouse"
 status: proposed
 creation-date: "2023-01-10"
 authors: [ "@ankitbhatnagar", "@ahegyi", "@mikolaj_wawrzyniak" ]

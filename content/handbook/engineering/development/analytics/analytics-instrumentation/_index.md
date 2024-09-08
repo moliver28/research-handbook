@@ -23,11 +23,6 @@ You can learn more about what we're building next on the [Analytics Instrumentat
 
 If you have any questions start by @ mentioning the product manager for the [Analytics Instrumentation Group](/handbook/product/categories/#analytics-instrumentation-group) or by creating an issue in our [issue board](/handbook/engineering/development/analytics/analytics-instrumentation/#issue-boards).
 
-### Office hours
-
-Every week Analytics Instrumentation team holds open office hours on Zoom for any questions that might arise. It's typically Wednesday for half an hour at 7:30 UTC. You can find the event in the [GitLab Team Meetings calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar).
-The historical and upcoming meeting agendas can be accessed in [our agenda document](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
-
 ## Responsibilities
 
 ### Internal Events
@@ -93,12 +88,13 @@ We're currently trialing a mixed retrospective format, we're team members pair o
 
 1. Every milestone the [async-retrospective project](https://gitlab.com/gitlab-org/async-retrospectives) automatically creates an
    issue in the [analytics-instrumentation retro project](https://gitlab.com/gl-retrospectives/analytics-instrumentation/-/issues) which contains a list of retro questions.
-1. Every 2nd week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
+1. Every 4th week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
 1. Every group of two should pair on filling out the retro issue for the current milestone together within that week:
    1. This should happen ideally through a sync meeting or alternatively via Slack.
    1. Focus on the what happened the last two weeks, since the last pairing.
    1. Pairing should involve taking the time to think through the questions, talking about the answers with your pair and coming up with action items based on the identified problems.
    1. Expect an overall time commitment of 30 minutes to an hour for the bi-weekly pairing.
+1. Every 2nd week we have a 30-minute time blocker event, that is meant for everyone to take the time to answer Retro discussions.
 
 ### Workflow
 
@@ -247,12 +243,13 @@ We may also use due dates as a way to timebox our iterations. Instead of spendin
 
 We estimate issues async and aim to provide an initial estimate (weight) for all issues scheduled for an upcoming milestone.
 
-We require a minimum of two estimations for weighing an issue. We consider reacting with a ➕ emoji to the estimation as agreeing with it (and thus contributing to the minimal count of estimations).
+We require a minimum of two estimations for weighing an issue. Exceptions can be made for issues that come up during the milestone or if only a single engineer with the required specialty is available. We consider reacting with a ➕ emoji to the estimation as agreeing with it (and thus contributing to the minimal count of estimations).
 If both estimations agree, the engineer who did the second estimation should add the agreed-upon weight to the issue. If there is disagreement, the second engineer should @-mention the first one to resolve the conflict.
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
+Estimating includes adding a "Proposed Solution" to the issue if none is documented yet or the estimation brings up a different one than originally documented.
+Spikes are exempted from this as discovering solutions is their main point and we default spike issues to a weight of 8.
 
-We default spike issues to a weight of 8.
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
 
 If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 

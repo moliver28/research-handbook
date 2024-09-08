@@ -39,7 +39,7 @@ This process addresses critical and high escalations for CSM-assigned customers.
 
 Based on the level of the escalation, the DRI for the escalation will be:
 
-1. Support for low or medium-level escalations
+1. Support for low or medium-level escalations that come through support, otherwise the CSM will be the DRI for account escalations
 2. The CSM for high and critical escalations that are **outside of a professional services project**,
 3. The Professional Services Project Manager for any escalation during/as a part of a professional services project.
 
@@ -216,10 +216,6 @@ Tips & Tricks:
 The CSM Manager's responsibility is to ensure that the CSM is familiar with the above process and is actively managing the escalation, including the Slack Channel updates and the management of the escalation doc.
 
 When a customer is in an escalated state, the path to resolution must continue to move forward, with both the internal stakeholders and the customer clear on current actions and next steps. The CSM manager is responsible for ensuring that this forward-motion and clear alignment is present and for stepping in and driving action or alignment where necessary.
-
-## Support Engineering's role in Escalations
-
-See the [Support Engineering Guide to Escalations](/handbook/support/internal-support/support-ticket-attention-requests.html) for more specific information on how support manages customers in an escalated state.
 
 ## Engineering's role in Escalations
 

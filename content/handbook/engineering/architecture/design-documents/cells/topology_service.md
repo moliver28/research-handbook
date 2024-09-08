@@ -3,9 +3,8 @@ stage: core platform
 group: Tenant Scale
 title: 'Cells: Topology Service'
 status: accepted
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 This document describes design goals and architecture of Topology Service
 used by Cells.
@@ -143,7 +142,7 @@ graph TD
 ```
 
 The provisioning service (it's not yet decided where/how this service will be), will assign unique auto-incrementing
-lease ID for each cell, starting with `zero` for the primary cell. It will use the above bit allocation to compute
+lease ID for each cell, starting with `zero` for the Legacy Cell. It will use the above bit allocation to compute
 sequence's `minval` and `maxval` for each cell and this data will be captured in TS's `config.toml`.
 
 ```toml

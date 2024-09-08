@@ -279,7 +279,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
-| 2024-07-30 00:00 UTC -> 2024-07-31 04:00 UTC | Soft | [Testing PG16 Logical replicatio](https://gitlab.com/gitlab-com/gl-infra/change-lock/-/merge_requests/47) |
+| 2024-09-03 15:00 UTC -> 2024-09-04 15:00 UTC | Hard | Aiding investigation for #18489 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |

@@ -5,6 +5,8 @@ title: Elevate+
 
 Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
+This page outlines the current format of Elevate+, for participants enrolled in Cohorts 1 through 6.
+
 Through small group cohorts and interactive workshops, Elevate+ is designed to enable senior leaders at GitLab to better understand and practice behaviours anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.
@@ -29,19 +31,7 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
   </div>
 </div>
 
-## What concepts are taught in Elevate+?
-
-Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
-
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
-
 ## Time Committment
-
-![visual displaying the elevate+ round 1 timeline](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplustimeline.png)
-
-Elevate+ runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend approx. 4 hours in the following learning activities:
-
-5 Total Modules
 
 | Step | Week | Title | Description | Time |
 | ----- | ----- | ----- | ---------- | ----- |
