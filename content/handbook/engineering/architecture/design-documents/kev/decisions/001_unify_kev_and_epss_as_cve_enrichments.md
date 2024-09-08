@@ -43,13 +43,12 @@ We have decided to:
 - Improved performance by storing related CVE enrichment data in a single table.
 - Simplified querying process through GraphQL.
 - Easier to extend for future CVE-based enrichments.
-- Reduces the complexity of the data model
+- Reduces the complexity of the data model.
 - Eliminates code duplication by using shared feature flags, sync ingestion, and
   export processes for both KEV and EPSS data.
 
 ### Negative:
 
-- Requires changes to existing EPSS implementation and terminology.
 - Loss of cursor functionality for KEV, requiring full data export each time due
   to EPSS data always being fully exported.
 - One-time performance cost during PMDB's export due to joining KEV and EPSS
