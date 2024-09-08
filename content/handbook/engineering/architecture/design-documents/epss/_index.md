@@ -184,7 +184,7 @@ flowchart LR
     AF -->|publishes| AP[Advisory Processor]
     AP -->|stores| DD[PMDB database]
     E[Exporter] -->|loads|DD
-    E --> |exports| B[CVE Enrichment Public Bucket]
+    E --> |exports| B[Public Bucket]
     GitLab[GitLab instance] --> |syncs| B
     GitLab --> |stores| GitLabDB
 ```
