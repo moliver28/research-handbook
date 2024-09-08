@@ -127,7 +127,7 @@ flowchart LR
     AF -->|publishes| AP[Advisory Processor]
     AP -->|stores| DD[PMDB database]
     E[Exporter] -->|loads|DD
-    E --> |exports| B[Public Advisory Bucket]
+    E --> |exports| B[CVE Enrichment Public Bucket]
     GitLab[GitLab instance] --> |syncs| B
     GitLab --> |stores| GitLabDB
 ```
@@ -135,6 +135,8 @@ flowchart LR
 ## Design and implementation details
 
 ### Decisions
+
+- [001: Unify KEV and EPSS as CVE Enrichments](decisions/001_unify_kev_and_epss_as_cve_enrichments.md)
 
 ### Important note
 
