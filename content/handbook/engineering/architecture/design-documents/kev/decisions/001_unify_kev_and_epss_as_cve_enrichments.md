@@ -44,7 +44,7 @@ We have decided to:
 - Simplified querying process through GraphQL.
 - Easier to extend for future CVE-based enrichments.
 - Reduces the complexity of the data model.
-- Eliminates code duplication by using shared feature flags, sync ingestion, and
+- Eliminates code duplication by using shared feature flags, sync, ingestion, and
   export processes for both KEV and EPSS data.
 
 ### Negative:
@@ -76,7 +76,7 @@ We have decided to:
         - Data redundancy.
         - Different approach between EPSS and KEV, leading to inconsistent data
           management.
-        - Duplicated ingestion and synchronization processes.
+        - Duplicated ingestion and sync processes.
 
 3. Store KEV data in `pm_advisories`:
     - Advantages:
