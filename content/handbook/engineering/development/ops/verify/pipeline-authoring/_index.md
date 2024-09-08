@@ -87,6 +87,7 @@ Goals:
 
 - Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
   - Upcoming tentative [iterations](https://gitlab.com/groups/gitlab-org/-/epics/15101) - **NOTE:** Subject to change
+- Support for GraphQL subscriptions - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15108)
 
 ## Exciting things and accomplishments
 
