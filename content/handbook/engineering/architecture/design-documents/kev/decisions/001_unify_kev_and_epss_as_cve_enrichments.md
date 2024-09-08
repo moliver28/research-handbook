@@ -5,7 +5,7 @@ title: 'KEV Support ADR 001: Unify KEV and EPSS as CVE Enrichments'
 
 ## Context
 
-We are implementing support for KEV data in GitLab. 
+We are implementing support for KEV data in GitLab.
 Initially, we considered storing KEV data separately from EPSS data.
 However, after [discussion](https://gitlab.com/groups/gitlab-org/-/work_items/11912#note_2075459748),
 we realized that unifying KEV and EPSS data as CVE
@@ -38,7 +38,7 @@ We have decided to:
 
 ## Consequences
 
-### Positive:
+### Positive
 
 - Improved performance by storing related CVE enrichment data in a single table.
 - Simplified querying process through GraphQL.
@@ -47,7 +47,7 @@ We have decided to:
 - Eliminates code duplication by using shared feature flags, sync, ingestion, and
   export processes for both KEV and EPSS data.
 
-### Negative:
+### Negative
 
 - Loss of cursor functionality for KEV, requiring full data export each time due
   to EPSS data always being fully exported.
@@ -89,4 +89,3 @@ We have decided to:
           performance.
         - May introduce complexity if KEV data needs to be accessed
           independently of advisory data.
-

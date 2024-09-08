@@ -99,8 +99,6 @@ the [KEV epic](https://gitlab.com/groups/gitlab-org/-/epics/11912), the proposed
 flow is:
 
 1. PMDB database is extended with a new table to store KEV data.
-
-
 1. PMDB infrastructure runs the KEV feeder daily to pull, process, and publish
    KEV data.
 1. The advisory-processor receives the KEV data and stores them to the PMDB DB.
