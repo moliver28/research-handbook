@@ -106,18 +106,16 @@ the [KEV epic](https://gitlab.com/groups/gitlab-org/-/epics/11912), the proposed
 flow is:
 
 1. PMDB database is extended with a new table to store KEV data.
-1. PMDB infrastructure runs the KEV feeder daily in order to pull, process and
-   publish KEV data.
+
+
+1. PMDB infrastructure runs the KEV feeder daily to pull, process, and publish
+   KEV data.
 1. The advisory-processor receives the KEV data and stores them to the PMDB DB.
-1. The exporter links each KEV data entry to its corresponding advisory using a
-   `CVE-ID` based join. Then, it exports KEV as part of the advisory data to an
-   existing advisory bucket.
-
-1. GitLab instances pull advisory data from the bucket.
-
-- Create a new boolean column in rails DB `pm_advisories` table to store KEV
-  status.
-
+1. The exporter combines KEV and EPSS data into a single CVE enrichments
+   dataset, exporting it to a dedicated bucket.
+1. GitLab instances pull the CVE enrichments data from the bucket.
+1. Create a new `pm_cve_enrichments` table in the GitLab database to store
+   unified KEV and EPSS data.
 1. GitLab instances expose KEV status through GraphQL API and present data in
    vulnerability report and details pages.
 
@@ -129,7 +127,7 @@ flowchart LR
     E[Exporter] -->|loads|DD
     E --> |exports| B[CVE Enrichment Public Bucket]
     GitLab[GitLab instance] --> |syncs| B
-    GitLab --> |stores| GitLabDB
+    GitLab --> |stores| GitLabDB (pm_cve_enrichments)
 ```
 
 ## Design and implementation details
@@ -155,16 +153,18 @@ flowchart LR
   and any necessary migrations.
 - Ingest KEV data into this new PMDB table. Make sure to remove advisories that
   do not exist in the JSON and have been removed from the catalog.
-- Export KEV data as part of the advisories.
+- Export KEV data along with EPSS data as a unified CVE enrichments dataset.
 - Add new pubsub topics to deployment to be used by PMDB components, using
   existing terraform modules.
 
 ### GitLab Rails backend
 
-- Create column in the pm_advisories table in rails backend to hold the KEV
-  status.
-- Configure Rails sync to ingest KEV status and save to the new column.
-- Include KEV status attribute in GraphQL API Occurrence objects.
+- Create a new `pm_cve_enrichments` table in the GitLab database to store
+  unified KEV and EPSS data.
+- Configure Rails sync to ingest the unified CVE enrichments data and save to
+  the new table.
+- Include KEV status attribute in GraphQL API Occurrence objects, querying from
+  the `pm_cve_enrichments` table.
 
 ### GitLab UI
 
