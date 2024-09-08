@@ -76,7 +76,7 @@ We have decided to:
         - Data redundancy.
         - Different approach between EPSS and KEV, leading to inconsistent data
           management.
-        - More complicated ingestion process.
+        - Duplicated ingestion and synchronization processes.
 
 3. Store KEV data in `pm_advisories`:
     - Advantages:
