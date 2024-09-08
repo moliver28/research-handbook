@@ -63,7 +63,7 @@ We have decided to:
         - Less frequent KEV data updates in GitLab DB (due to smaller dataset
           and less frequent changes compared to EPSS).
     - Disadvantages:
-        - Requires separate querying and potential data duplication.
+        - Requires separate querying.
         - Reduced performance in GraphQL queries due to the need to query
           multiple tables.
         - Increased complexity in ingestion and synchronizing two separate
