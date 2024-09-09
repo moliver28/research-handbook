@@ -7,7 +7,7 @@ description: "This page defines the Data Development lifecycle"
 
 GitLab deploys two distinct but interrelated approaches to build data solutions that help drive insights and business decisions. These approaches are complementary to one another and are focused on delivering results at a level of speed, quality, and reliability required by the business, problem being solved, and question being asked. The approaches are complementary and evolutionary in nature, enabling development in an earlier stage to be leveraged in a later stage if required. Data solutions developed at an early stage can be improved and enhanced to a later stage if there is sufficient business need to do so. All analysis follows the well-established [Data Analysis Process](/handbook/enterprise-data/organization/analytics/#data-analysis-process).
 
-The two approaches are `Ad-Hoc` and `Trusted Data`. `Ad-hoc` development is done in the `WORKSPACE` schemas in Snowflake and in the `Ad-hoc` folders in Tableau. `Trusted Data` development is done in the `COMMON` and `SPECIFIC` schemas in Snowflake and in the `Trusted Data` folders in Tableau.
+The two approaches are `Ad-Hoc` and `Trusted Data`. `Ad-hoc` development is done in the `WORKSPACE` schemas in Snowflake and in the `Development` folders in Tableau. `Trusted Data` development is done in the `COMMON` and `SPECIFIC` schemas in Snowflake and in the `Development` folders in Tableau.
 
 |             |  Ad-hoc |  Trusted Data |
 | :--         |     :-: |           :-: |
