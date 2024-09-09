@@ -30,7 +30,7 @@ The Digital Success team is expected to:
 [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)|
  [Manager, Digital Success](#manager-digital-success)|[Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)||
 |[Director, Digital Success](#director-digital-success)|
-|[ Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)|
+|[Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)|
 
 ### Associate Digital Success Manager
 
