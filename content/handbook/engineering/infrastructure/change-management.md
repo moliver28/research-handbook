@@ -126,6 +126,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. Most IaC changes to pets - Postgres, Redis, and other Single Points of Failure.
 1. Load Balancer Configuration - major changes to backends or front ends, fundamental to traffic flow.
 1. IaC changes to production Virtual Machines outside of Kubernetes when there is a decrease.
+1. Major changes to Teleport, which is essential for troubleshooting production issues.
 1. Major changes to alerting routing or integrations.
 1. Any procedural invocation such as a SQL script, a ruby script module, a rake task which is performed on a production console server, either using `gitlab-rails` or `gitlab-rake` should be considered as a Criticality 2 change.
 
