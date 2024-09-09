@@ -242,4 +242,5 @@ Candidates for this position can expect the hiring process to follow the order b
 Additional details about our process can be found on our [hiring page](/handbook/hiring/interviewing/).
 
 ## Compensation
+
 To view the relevant compensation range for your location, please visit our [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/). This role also includes equity and variable pay opportunities in addition to base compensation.
