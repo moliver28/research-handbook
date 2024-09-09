@@ -87,6 +87,8 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 **Demo resources to help you showcase the Platform**
 
+- [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) (Interactive demos)
+  - A great collection of self-guided, hands-on, interactive exercises for (potential) customers, powered by [Navattic](https://www.navattic.com/). They can also serve as substitutes or safe fallbacks for live demos.
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
   - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Please refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
