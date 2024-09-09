@@ -1280,38 +1280,6 @@ All GitLab donations to charitable organizations must follow the [Philanthropy A
 
 In alignment with the PubSec team's [process to lock down shared data](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/150) that is accessible to teams outside of our US PubSec team - (will link to handbook page once its been created!) the Public Sector Field Marketing Managers, by default, will mark their calendar details as private. Google calendar [has a feature](https://support.google.com/calendar/answer/37082?hl=en#zippy=%2Cunderstand-permission-settings-for-shared-calendars%2Cstop-sharing-your-calendar-publicly-with-your-organization-or-with-specific-people) that allows you to share your calendar with individuals once its been marketed as private and at a minimum, the FMM team member should share their calendar with both their direct manager as well as their aligned Field Marketing Specialist, pending those people are US Citizens.
 
-## PubSec Website
-
-Please see the PubSec website page [here](https://about.gitlab.com/solutions/public-sector/).
-
-### How to Edit the PubSec Website
-
-The content for the PubSec page lives in the `Buyer Experience` repository, in the [public-sector.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/solutions/public-sector.yml#L240) file (starting around line 240). To edit this file, please keep the same structure as the current content to avoid any errors. Feel free to use the Web IDE or single file editor to update the information.
-
-The event cards section of the file will look something like this:
-
-```yaml
-    -   icon: "/nuxt-images/features/resources/icon_partners.svg"
-        event_type: "Conference"
-        header: "AWS Summit Washington, DC 2022"
-        date: May 23-25, 2022
-        link_text: "Event Details"
-        image: "/nuxt-images/features/resources/resources_partners.png"
-        href: "https://portal.awsevents.com/events/DCSummit2022/registration?trk=b182ae87-ed10-41fb-844b-446696bfe55f&sc_channel=el"
-        data_ga_name: "Collaboration without Boundaries"
-        data_ga_location: resource cards
-```
-
-- **icon:** Can be either `/nuxt-images/icons/slp-webcast.svg` or `/nuxt-images/icons/slp-calendar.svg`.
-- **event_type:** Can be any value.
-- **header:** Can be any free text. If any colons or apostrophes are used, feel free to wrap in double quotes such as `header: "Space: The Final Frontier"`.
-- **date:** Can be any free text, but similar format is preferred for visual consistency.
-- **link_text:** Ideally this stays as "Event Details" for consistency.
-- **href:** Full link to the event.
-- **image:** Can be any image from this [folder](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/static/nuxt-images/features/resources) that starts with `resources_`
-- **data_{value}**: These are used for analytics - please don't edit.
-
-After making your edits, please tag an Engineer on the [Digital Experience Team](/handbook/marketing/digital-experience/#groups-metrics--team-members) as a `Reviewer`. For further assistance, feel free to post a question in the #digital-experience-team slack channel.
 
 ## GitLab Government User Group Program
 
