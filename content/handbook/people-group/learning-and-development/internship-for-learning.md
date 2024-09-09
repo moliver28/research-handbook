@@ -33,7 +33,7 @@ First step is to discuss this with your manager at your next 1:1. Come prepared 
 
 **How do I find a mentor?**
 
-A list of people who have indicated they are willing to be a mentor can be found on the Learning & Development [Mentor page](./mentor/).  
+A list of people who have indicated they are willing to be a mentor can be found on the Learning & Development [Mentor page](../mentor/#find-a-mentor).  
 
 **Does completing an internship guarantee me a role on the team?**
 
