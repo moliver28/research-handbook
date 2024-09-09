@@ -54,15 +54,28 @@ SELECT
     FROM Zuora__R00N40000001lGjTEAU__r
     WHERE
       Zuora__EffectiveEndDate__c != NULL
+  ),
+  (
+    SELECT
+      Name,
+      Zuora__SoldToWorkEmail__c
+    FROM Zuora__R00N40000001kyLcEAI__r
+    WHERE
+      IsDeleted = false
+    ORDER BY CreatedDate ASC
+    LIMIT 1
   )
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer') OR
+  Type != 'Prospect' AND
   (
-    Type = 'Partner' AND
-    Partners_Partner_Status__c IN ('Authorized', 'Former') AND
-    Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
-    Partner_Track__c IN ('Open', 'Select', 'Technology')
+    Type IN ('Customer', 'Former Customer') OR
+    (
+      Type = 'Partner' AND
+      Partners_Partner_Status__c IN ('Authorized', 'Former') AND
+      Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
+      Partner_Track__c IN ('Open', 'Select', 'Technology')
+    )
   )
 ```
 
