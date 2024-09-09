@@ -32,19 +32,18 @@ delivering incremental value along the way.
 Currently, when a CI job runs, it is provided with a `CI_JOB_TOKEN`, which the
 job can use to interact with other GitLab resources. This token is generated
 on behalf of the user who triggered the CI job, effectively granting the CI
-job the same level of access as the user.
+job a similar level of access as the user.
 
 ### Goals
 
-This proposal seeks to limit the scope of access granted to the `CI_JOB_TOKEN`
-by introducing a mechanism to define the minimum necessary permissions for the
+This proposal aims to reduce the scope of access granted to the `CI_JOB_TOKEN`
+by implementing a mechanism to define the minimum necessary permissions for the
 token.
 
-- The `CI_JOB_TOKEN` should be ephemeral and grant minimal access.
-- Configuration of permissions should be straightforward for Pipeline authors.
-- Permissions should be customizable for each CI job.
-- The token should support extensions for additional fields, like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856).
-- Existing [permissions](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` should be maintained.
+- The `CI_JOB_TOKEN` should be ephemeral and grant only the minimal required access.
+- Permissions should be customizable per CI job.
+- The token should support extensions, such as the inclusion of fields like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856).
+- Current [permissions](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` should be preserved.
 
 ### Non-Goals
 
@@ -57,124 +56,41 @@ token.
 
 ## Proposal
 
-Rather than generating a `CI_JOB_TOKEN` with full access to all resources
-available to the user who triggered the pipeline, we will generate a token with
-a reduced set of permissions that grants access only to the specific resources
-defined in the `.gitlab-ci.yml` file.
+Instead of generating a `CI_JOB_TOKEN` with full access to all resources
+available to the user who triggered the pipeline, we will issue a token with a
+reduced set of permissions, granting access only to the specific resources
+required for the job.
 
 ## Design and implementation details
 
-We will introduce support for defining permissions for each pipeline using a
-declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/)
-file to allow the generation of a `CI_JOB_TOKEN` with a reduced set of
-permissions than the full access available to the user that triggerred the
-pipeline.
+We will introduce support for defining `CI_JOB_TOKEN` with specific permissions
+encoded into it, allowing for a reduced set of permissions as needed.
 
-The `permissions` declared in the `.gitlab-ci.yml` file cannot be used to
-request access. It is used to generate a `CI_JOB_TOKEN` with a subset of the
-full set of permissions available to the user. The access that is granted will
-be determined through [project membership](https://docs.gitlab.com/ee/user/project/members/).
+To ensure that the job receives a token with the appropriate permissions, the
+user's account must be granted these permissions prior to pipeline execution,
+and CI allowlist rules must be established for any permissions on external
+project resources.
 
-### Syntax
-
-The precise syntax for defining these permissions has not been finalized.
-However, the following example illustrates what the syntax might look like:
-
-```yaml
-permissions:
-  admin_releases:
-    - project: gitlab-org/gitlab
-  read_containers:
-    - project: gitlab-org/gitlab
-    - project: self
-      confidential: true
-  read_packages:
-    - project: gitlab-org/gitlab
-    - project: gitlab-org/www-gitlab-com
-```
-
-### Usage
-
-The permissions defined in the `.gitlab-ci.yml` file **restrict** the access
-available during pipeline execution. The user triggering the CI job must have,
-at a minimum, these permissions to perform the job. The purpose of declaring
-these permissions is to specify the minimal **required** access.
-
-To ensure the job receives a token with the necessary permissions, the user's
-account must be granted these permissions before pipeline execution.
-
-If the user's account lacks the permissions specified in the `permissions`
-block of the `.gitlab-ci.yml` file, a token will be generated with the
-permissions that the user does have access to. This will result in runtime
-failures when API calls are made to endpoints that the user is not authorized
-to access.
-
-When the user has the declared permissions, they will be encoded into an
-ephemeral job token. This token, adhering to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
-standard, will include a digital signature that can be validated. When an API
-receives the `CI_JOB_TOKEN`, it will verify the token's signature and process
-the request according to the permissions defined in the token's `scope` claim.
+When the user has the necessary permissions, they will be encoded into an
+ephemeral job token. This token, which adheres to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
+standard, will include a digital signature for validation. Upon receiving the
+`CI_JOB_TOKEN,` an API will verify the token's signature and process the request
+according to the permissions specified in the token's `scope` claim.
 
 This mechanism allows a token to be issued with reduced access, even if the
 user's account has broader permissions.
 
-If the `permissions` section is not specified in the `.gitlab-ci.yml` file, the
-`CI_JOB_TOKEN` will have full access to the user's permissions. However, this
-default behavior will change in a future major release, where the token will be
-encoded with only the minimum permissions required to complete a build
-(e.g., updating job status, uploading artifacts, sending job logs, and
-retrieving Git repositories).
-
-#### .gitlab-ci.yml
-
-**Example 1: Single Project Configuration**
-
-```yaml
-# .gitlab-ci.yml
-permissions:
-  - read_containers
-  - read_packages
-```
-
-**Example 2: Multi-Project Configuration**
-
-```yaml
-# .gitlab-ci.yml
-permissions:
-  - read_containers:
-    - project: gitlab-org/gitlab-foss
-      tag_name: latest
-  - read_packages:
-    - project: gitlab-org/gitlab-foss
-    - project: gitlab-org/gitlab
-      type: go_proxy
-```
-
-##### JWT Schema
-
-The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
+The `CI_JOB_TOKEN` will be encoded with the following JWT body.
 
 ```json
 {
-  "iss": "gid://gitlab/Ci/Build/1",
-  "sub": "gid://gitlab/User/13390928",
-  "aud": "",
+  "iss": "https://gitlab.com",
+  "sub": "gid://gitlab/Ci/Build/1",
+  "aud": "https://gitlab.com",
   "exp": 1893456000,
   "scope": {
-    "gid://gitlab/Ci::Build/1": {
-      "admin_jobs": {}
-    },
-    "gid://gitlab/Project/13083": {
-      "read_containers": {
-        "tag_name": "latest"
-      },
-      "read_packages": {}
-    },
-    "gid://gitlab/Project/278964": {
-      "read_packages": {
-        "type": "go_proxy"
-      }
-    }
+    "build_read_project": ["gid://gitlab/Project/13083"],
+    "update_pipeline": ["gid://gitlab/Project/13083"]
   }
 }
 ```
@@ -184,22 +100,17 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT payload.
 - [`aud`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.3): The intended audience of the token (e.g., REST API, GraphQL API, Docker Registry API, etc.).
 - [`exp`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4): The token's expiration time (defaults to the maximum duration of a CI job).
 - [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions associated with the token. See the [Permissions](#permissions) section below for a comprehensive list.
-  - Each key in this object represents a single resource, identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids), with an array of allowed permissions.
-  - Initially, we will support encoding `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, and `gid://gitlab/Ci::Build/<id>` to limit the types of resources that can be encoded.
-  - Each permission can have modifiers that further limit the scope of access. In the example above, the modifiers restrict access to containers with a `latest` tag and specific Go proxy packages.
-  - Future support may include extending the Global ID format to allow wildcard operators.
+  - Each key represents a permission with an array of resources identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
+  - Initially, supported resource types include `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, and `gid://gitlab/Ci::Build/<id>`.
 
 **Pros:**
 
-- Removes the need to write additional data to the database to represent temporary roles for each job.
-- Supports changes in permissions in the `.gitlab-ci.yml` file, allowing two concurrent pipelines in the same project for different commits to operate with appropriate access controls independently.
+- Eliminates the need to store additional data in the database for temporary roles associated with each job.
+- Enabling concurrent pipelines within the same project for different commits to operate with appropriate access controls independently.
 
 **Cons:**
 
-- Revoking a JWT token can be more challenging compared to other token types.
-- Pipeline authors need to actively opt in to use the new syntax.
-- Pipeline authors must understand the new syntax to implement it correctly.
-- There's a risk of over-permissioning if the new syntax is too complex or if pipelines fail, leading to potential security concerns.
+- The size of the token may increase.
 
 ### Permissions
 
