@@ -61,6 +61,8 @@ You have now created a simple hello world program in Go! In the next section, yo
 
 1. You will see an explanation of all of the code you have highlighted as a result of the prompt.
 
+> You can also have GitLab Duo explain code when viewing single files in the GitLab UI. To do so, select the lines of code you want explained and on the left side select the question mark. This will open a Duo Chat window with the explaination. 
+
 ## Task C. Commit your Code
 
 > Now that you have code generated and you understand the code, you can commit the code into your project.
