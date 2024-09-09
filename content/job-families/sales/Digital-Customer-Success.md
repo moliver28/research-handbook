@@ -3,7 +3,7 @@ title: "Digital Success"
 description: "Digital Success team is a post-sales motion, accountable for driving customer adoption, measurable outcomes, and customer satisfaction through digital-first strategies."
 ---
 
-# Digital Success
+## Digital Success
 
 The Digital Success team is a post-sales motion, accountable for driving customer adoption, measurable outcomes, and customer satisfaction through digital-first strategies, primarily focused on GitLab's long-tail customer base. This team plays a crucial role in scaling our customer success efforts and increasing customer retention and expansion.
 
