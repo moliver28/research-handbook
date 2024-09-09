@@ -16,7 +16,3 @@ The labels are used to generate [this dashboard (internal only)](https://app.per
 - The volume of newly created actionable insights, by quarter
 
 Collectively, these data visualizations helps us understand more about incoming volume and lifespan of actionable insights.
-
-{{% sisense dashboard="1043584" chart="16148263" height="400" %}}
-
-{{% sisense dashboard="1043584" chart="15433038" height="400" %}}
