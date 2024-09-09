@@ -35,7 +35,8 @@ workflows, but for reference, the timing and messaging used is as follows:
 > before the first of next month!
 >
 > The schedules you need to ensure are updated are
-> [CEOC](https://gitlab.pagerduty.com/schedules#P9SV029),
+> [CEOC 1](https://gitlab.pagerduty.com/schedules#P9SV029),
+> [CEOC 2](https://gitlab.pagerduty.com/schedules#P7ML12U),
 > [CMOC](https://gitlab.pagerduty.com/schedules#P59382D),
 > [Managers](https://gitlab.pagerduty.com/schedules#PXQ2ZAZ), and
 > [SSAT](https://gitlab.pagerduty.com/schedules#P9UIIDY)
@@ -82,8 +83,10 @@ workflows, but for reference, the timing and messaging used is as follows:
 > before the first of next month!
 >
 > The schedules you need to ensure are updated are
-> [CEOC 1](https://gitlab.pagerduty.com/schedules#PQB9Q6K),
-> [CEOC 2](https://gitlab.pagerduty.com/schedules#PKPXM8K),
+> [CEOC 1A](https://gitlab.pagerduty.com/schedules#PQB9Q6K),
+> [CEOC 1B](https://gitlab.pagerduty.com/schedules#PKAUGWW),
+> [CEOC 2A](https://gitlab.pagerduty.com/schedules#PKPXM8K),
+> [CEOC 2B](https://gitlab.pagerduty.com/schedules#PZ42YQR),
 > [CMOC 1](https://gitlab.pagerduty.com/schedules#PGUP5OB),
 > [CMOC 2](https://gitlab.pagerduty.com/schedules#PMPKHZN),
 > [Managers](https://gitlab.pagerduty.com/schedules#PWBXTYX), and
@@ -148,7 +151,7 @@ Bundle complete! 5 Gemfile dependencies, 23 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
 
-After doing so, you should verify you have the five needed environment variables
+After doing so, you should verify you have the four needed environment variables
 set in your local environment (see the project's
 [README](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/tree/master#variables-needed)
 for more details).
@@ -235,14 +238,24 @@ transfers.
 We have several protections in place on the sheet to prevent editing cells that
 are not meant to be edited:
 
-| Name of protection                    | Sheet              | Definition                                      |
-|---------------------------------------|--------------------|-------------------------------------------------|
-| AMER - Customer Emergencies headers   | AMER - Emergencies | Whole sheet except F2:F1000, M2:M1000, T2:T1000 |
-| AMER - CMOC headers                   | AMER - CMOC        | Whole sheet except F2:F1000                     |
-| US Federal headers                    | US Federal         | Whole sheet except F2:F1000, M2:M1000, T2:T1000 |
-| APAC - Customer Emergencies headers   | APAC - Emergencies | Whole sheet except F2:F1000, M2:M1000           |
-| APAC - CMOC headers                   | APAC - CMOC        | Whole sheet except F2:F1000, M2:M1000           |
-| EMEA headers                          | EMEA               | Whole sheet except F2:F1000, M2:M1000           |
-| Managers headers                      | Managers           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 |
-| SSAT headers                          | SSAT               | Whole sheet except F2:F1000                     |
-| Available persons                     | People             | Whole sheet                                     |
+| Name of protection              | Sheet Name            | Definition                                      | Who can edit |
+|---------------------------------|-----------------------|-------------------------------------------------|--------------|
+| AMER - CEOC dropdowns           | AMER - CEOC           | 'AMER - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| AMER - CEOC headers             | AMER - CEOC           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
+| US Government - CEOC dropdowns  | US Government - CEOC  | 'US Government - CEOC'!4:1000                   | Support Readiness, Support Managers, Kate Grechishkina |
+| US Government - CEOC headers    | US Government - CEOC  | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
+| AMER - CMOC dropdowns           | AMER - CMOC           | 'AMER - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| AMER - CMOC headers             | AMER - CMOC           |  Whole sheet except F2:F1001                    | Support Readiness |
+| APAC - CEOC - Group 1 dropdowns | APAC - CEOC - Group 1 | 'APAC - CEOC - Group 1'!2:1000                  | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CEOC - Group 1 headers   | APAC - CEOC - Group 1 | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| APAC - CEOC - Group 2 dropdowns | APAC - CEOC - Group 2 | 'APAC - CEOC - Group 2'!2:1000                  | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CEOC - Group 2 headers   | APAC - CEOC - Group 2 | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| APAC - CMOC dropdowns           | APAC - CMOC           | 'APAC - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CMOC headers             | APAC - CMOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| EMEA - CEOC dropdowns           | EMEA - CEOC           | 'EMEA - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| EMEA - CEOC headers             | EMEA - CEOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| EMEA - CMOC dropdowns           | EMEA - CMOC           | 'EMEA - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| EMEA - CMOC headers             | EMEA - CMOC           | Whole sheet except F2:F1000                     | Support Readiness |
+| Managers dropdowns              | Managers              | 'Managers'!2:1000                               | Support Readiness, Support Managers, Kate Grechishkina |
+| Managers headers                | Managers              | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
+| Available persons               | People                | Whole sheet                                     | Support Readiness |
