@@ -33,7 +33,7 @@ First step is to discuss this with your manager at your next 1:1. Come prepared 
 
 **How do I find a mentor?**
 
-On the [team page](https://about.gitlab.com/company/team/), you can see who is willing to be a mentor by looking at the associated [expertise]({{< ref "structure#expert" >}}) on their entry.
+A list of people who have indicated they are willing to be a mentor can be found on the Learning & Development [Mentor page](./mentor/).  
 
 **Does completing an internship guarantee me a role on the team?**
 
