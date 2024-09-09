@@ -105,6 +105,13 @@ class audit_events {
     ...(more columns)
 }
 
+class security_policies {
+    id: bigint
+    created_at: timestamp
+    updated_at: timestamp
+    ...(more columns)
+}
+
 compliance_requirements --> compliance_checks : has_many
 compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
 compliance_management_frameworks --> compliance_requirements : has_many
@@ -116,4 +123,7 @@ compliance_checks --> project_compliance_adherence : has_one
 projects --> project_compliance_violations : has_many
 compliance_checks --> project_compliance_violations : has_many
 project_compliance_violations --> audit_events : has_one
+security_policies --> projects : has_many
+security_policies --> compliance_management_frameworks : has_many
+security_policies <-- compliance_framework_security_policies : has_one
 ```
