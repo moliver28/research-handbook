@@ -127,25 +127,26 @@ The following sections provide an overview of all content assets, and links to f
 
 ### Webinars
 
-| Title                                                        | Group         | Last updated |
-| ------------------------------------------------------------ | ------------- | ------------ |
-| [Holistic Approach to Securing the Development Lifecycle](https://drive.google.com/file/d/11-mPw0aNXcazOMVVVvxEo97meQz1TYMW/view?usp=drive_link) | Secure        | 2023-10-13   |
-| [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create        | 2023-10-13   |
-| [Intro to GitLab](https://drive.google.com/file/d/14vWu6oCIcWwrkNtcZw_pioC8K3c2hNEt/view?usp=drive_link) | All           | 2023-12-07   |
-| [Intro to CI/CD](https://drive.google.com/file/d/1V3sH4rTQSMzFfwZpzZgmi9wZJq8vSoMm/view?usp=drive_link) | Verify        | 2023-10-13   |
-| [Advanced CI/CD](https://drive.google.com/file/d/1GlGg0Q7p7gsAGGWgZ1vj82NZmap7PX3w/view?usp=drive_link) | Verify        | 2023-10-23   |
-| [AI Powered DevSecOps](https://drive.google.com/file/d/1Y426FrNWLIFl3u40-yXBEdy-D_RM4TAO/view?usp=drive_link) | Data Science  | 2024-06-25   |
-| [Getting Started with DevSecOps Metrics](https://drive.google.com/file/d/1YRBQzNyp1Fdb-kt_PUFk9fYWHpCR7gOz/view?usp=drive_link) | Plan          | 2023-10-23   |
-| [Continuous Change Management in a Secure Way](https://drive.google.com/file/d/1ctwS4FpaEbrywn_ybZlsZDGLkfdYKe8G/view?usp=drive_link) | Secure        | 2023-10-23   |
-| [Security and Compliance](https://drive.google.com/file/d/1UK56of57h-BVccZODI5awKTZUnpEq8fF/view?usp=drive_link) | Secure        | 2023-10-31   |
-| [Jira to GitLab](https://drive.google.com/file/d/1ME_oU5zGtySPoAf8_I-3u5jJZW-kBMSo/view?usp=drive_link) | Verify        | 2023-12-18   |
-| [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23   |
-| [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify        | 2024-01-17   |
-| [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern        | 2024-05-07   |
-| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern        | 2024-06-18   |
-| [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All           | 2024-06-04   |
-| [CI/CD Components](https://drive.google.com/file/d/1mSj3YhvTu5llgRzqRMZ0Lk08KlFLlhp4/view?usp=drive_link) | Create           | 2024-07-11   |
-| [DAST API and Security Testing](https://drive.google.com/file/d/1G8XeiaQDpGQAyd1gwLsYmaf-tp3N4p91/view?usp=drive_link) | Secure           | 2024-07-12   |
+| Title                                                        | Group         | Last updated | YouTube |
+| ------------------------------------------------------------ | ------------- | ------------ | ------- |
+| [Holistic Approach to Securing the Development Lifecycle](https://drive.google.com/file/d/11-mPw0aNXcazOMVVVvxEo97meQz1TYMW/view?usp=drive_link) | Secure        | 2023-10-13   | https://youtu.be/WWA7z2WtFvM  |
+| [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create        | 2023-10-13   | https://youtu.be/WMWoi6for1M | 
+| [Intro to GitLab](https://drive.google.com/file/d/14vWu6oCIcWwrkNtcZw_pioC8K3c2hNEt/view?usp=drive_link) | All           | 2023-12-07   | https://youtu.be/E1tKfOPKMA8 |
+| [Intro to CI/CD](https://drive.google.com/file/d/1V3sH4rTQSMzFfwZpzZgmi9wZJq8vSoMm/view?usp=drive_link) | Verify        | 2023-10-13   | https://youtu.be/bE2YXhAVBeE |
+| [Advanced CI/CD](https://drive.google.com/file/d/1GlGg0Q7p7gsAGGWgZ1vj82NZmap7PX3w/view?usp=drive_link) | Verify        | 2023-10-23   | https://youtu.be/9VTGW1pCTC8 |
+| [AI Powered DevSecOps](https://drive.google.com/file/d/1Y426FrNWLIFl3u40-yXBEdy-D_RM4TAO/view?usp=drive_link) | Data Science  | 2024-06-25   | https://youtu.be/4Tzp88KYzZM |
+| [Getting Started with DevSecOps Metrics](https://drive.google.com/file/d/1YRBQzNyp1Fdb-kt_PUFk9fYWHpCR7gOz/view?usp=drive_link) | Plan          | 2023-10-23   | https://youtu.be/3Tyad8o8E_A |
+| [Continuous Change Management in a Secure Way](https://drive.google.com/file/d/1ctwS4FpaEbrywn_ybZlsZDGLkfdYKe8G/view?usp=drive_link) | Secure        | 2023-10-23   | https://youtu.be/oerKHtULwa0 |
+| [Security and Compliance](https://drive.google.com/file/d/1UK56of57h-BVccZODI5awKTZUnpEq8fF/view?usp=drive_link) | Secure        | 2023-10-31   | https://youtu.be/cx2sPBJOStE |
+| [Jira to GitLab](https://drive.google.com/file/d/1ME_oU5zGtySPoAf8_I-3u5jJZW-kBMSo/view?usp=drive_link) | Verify        | 2023-12-18   | https://youtu.be/wGnl2fs75Pg |
+| [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23   | https://youtu.be/lXtBV9o7q68 |
+| [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify        | 2024-01-17   | https://youtu.be/Xq0kNaGxcaM |
+| [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern        | 2024-05-07   | https://youtu.be/CS_GlJGtnpM |
+| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern        | 2024-06-18   | https://youtu.be/vFbgzta5cyA |
+| [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All           | 2024-06-04   | https://youtu.be/3gROieX0-9Q |
+| [CI/CD Components](https://drive.google.com/file/d/1mSj3YhvTu5llgRzqRMZ0Lk08KlFLlhp4/view?usp=drive_link) | Create           | 2024-07-11   | https://youtu.be/2MosExpnxsw |
+| [DAST API and Security Testing](https://drive.google.com/file/d/1G8XeiaQDpGQAyd1gwLsYmaf-tp3N4p91/view?usp=drive_link) | Secure           | 2024-07-12   | https://youtu.be/R6nO_0u2UqA |
+| [Unlocking GitLab Duo Pro AI Webinar](https://drive.google.com/file/d/11zmxdA7XUGeqrHwZ2LuCtgdctajT5qu7/view?usp=drive_link) | AI           | 2024-08-29   | https://youtu.be/mI9F6QCtEI4 |
 
 > **Note**: Recordings are stored in the [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) (internal)
 
