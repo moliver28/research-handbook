@@ -190,8 +190,9 @@ The technical writing team supports a large amount of content.
 
 The number of pages in the five primary repositories (GitLab, Omnibus, Charts, Operator, and Runner):
 
-| Date          | # of pages | Increase from previous quarter |
+| Date          | # of pages | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Sept 2024     | 2,328      | -5 %        |
 | June 2024     | 2,456      | 6 %         |
 | Mar  2024     | 2,308      | 5 %         |
 | Dec  2023     | 2,201      | 5 %         |
@@ -204,20 +205,21 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Mar 2024:** 1,291 more pages (a 111% increase)
+**Change between May 2020 and Mar 2024:** 1,163 more pages (a 99% increase).
 
 #### Page count by area of the left nav
 
-In June, 2024, the page count by area of the left navigation:
+In August, 2024, the page count by area of the left navigation:
 
-![img](img/page_count_june2024.png)
+![img](img/page_count_aug2024.png)
 
 ### Word count
 
 The number of words in these repositories:
 
-| Date          | Word count | Increase from previous quarter |
+| Date          | Word count | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Sept 2024     | 3,191,353  | -4 %        |
 | June 2024     | 3,325,823  | 4 %         |
 | Mar  2024     | 3,183,647  | 6 %         |
 | Dec  2023     | 2,990,400  | 5 %         |
@@ -230,15 +232,15 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Mar 2024:** 2,135,452 more words (a 179% increase)
+**Change between May 2020 and Mar 2024:** 2,000,982 more words (a 168% increase)
 
 The word count has more than doubled in this timeframe.
 
 #### Word count by area of the left nav
 
-In June, 2024, the word count by area of the left navigation:
+In August, 2024, the word count by area of the left navigation:
 
-![img](img/word_count_june2024.png)
+![img](img/word_count_aug2024.png)
 
 ### Analytics
 
