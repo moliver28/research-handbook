@@ -103,10 +103,8 @@ We leverage the [issues API](https://docs.gitlab.com/ee/api/issues.html#list-iss
 
 We then iterate through the collection of issues to leave comments closing each issue out with the following message:
 
-```
+```text
 This issue has been opened for more than 90 days and is going to be automatically closed.
 If you have any remaining items on this issue complete them immediately.
 
 /close
-```
-
