@@ -152,30 +152,7 @@ end
 
 ### Permissions
 
-Below is a proposed mapping of the name of permissions that can be defined in a
-`.gitlab-ci.yml` file and how they can be mapped to internal declarative policy
-abilities.
-
-| Category     | Permission (`.gitlab-ci.yml`) | Abilities (declarative policy)                                                                      | Description                                                            |
-| --------     | ----------                    | ---------                                                                                           | -----------                                                            |
-| Containers   | :admin_containers             | :admin_container_image, :read_container_image, :destroy_container_image                             | CRUD all container images in a project                                 |
-| Containers   | :read_containers              | :read_container_image                                                                               | Read all container images in a project                                 |
-| Deployments  | :admin_deployments            | :create_deployment, :read_deployment, :update_deployment, :destroy_deployment                       | CRUD all deployments in a project                                      |
-| Deployments  | :read_deployments             | :read_deployment                                                                                    | Read all deployments in a project                                      |
-| Environments | :admin_environments           | :read_environment, create_environment, :update_environment, :destroy_environment, :stop_environment | CRUD + Stop all environments in a project                              |
-| Environments | :read_environments            | :read_environment                                                                                   | Read all environments in a project                                     |
-| Jobs         | :admin_jobs                   | :read_build, :read_job_artifacts, :update_pipeline                                                  | Read all job metadata, upload artifacts and update the pipeline status |
-| Jobs         | :read_jobs                    | :read_build, :read_job_artifacts                                                                    | Read all job metadata and artifacts                                    |
-| Packages     | :admin_packages               | :read_package, :create_package, :destroy_package                                                    | Read, create and delete packages                                       |
-| Packages     | :read_packages                | :read_package                                                                                       | Read all packages                                                      |
-| Releases     | :admin_releases               | :read_release, :create_release, :update_release, :destroy_release                                   | CRUD all releases in a project                                         |
-| Releases     | :read_releases                | :read_release                                                                                       | Read all releases in a project                                         |
-| Secure files | :admin_secure_files           | :admin_secure_files, :read_secure_files                                                             | CRUD all secure files in a project                                     |
-| Secure files | :read_secure_files            | :read_secure_files                                                                                  | Read all secure files in a project                                     |
-| Terraform    | :admin_terraform_state        | :admin_terraform_state, :read_terraform_state                                                       | CRUD all terraform state files/versions                                |
-| Terraform    | :read_terraform_state         | :read_terraform_state                                                                               | Read all terraform state files/version                                 |
-
-The following list of permissions was compiled from [this investigation](https://gitlab.com/gitlab-org/govern/authorization/team-tasks/-/issues/55).
+The following permissions were compiled based on findings from [this investigation](https://gitlab.com/gitlab-org/govern/authorization/team-tasks/-/issues/55).
 
 #### Containers
 
