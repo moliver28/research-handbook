@@ -63,6 +63,52 @@ You can find a comprehensive runbook for troubleshooting Duo Chat issues in our 
 
 If you notice any gaps, please feel free to reach out to the Duo Chat group or make an MR with your changes to the runbook.
 
+## How to Ask for Support From Duo Chat
+
+Like with any other GitLab feature, the first line of support should be the GitLab support team and the engineer assigned to the Zendesk ticket. However, at times more expertise is required to resolve the customer concern and a Duo Chat engineer needs to be involved. This section outlines the process and expectations when requesting support from the team for customer support issues related to Duo Chat.
+
+### Before requesting help
+
+Before reaching out for support, please first consider whether your inquiry is related to how Duo Chat works and the supported capabilities and/or requirements. That being the case, please review Duo Chat's [documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/).
+
+If you have specific error codes reported by the user you may also review the [troubleshooting page](https://docs.gitlab.com/ee/user/gitlab_duo_chat/troubleshooting.html).
+
+If you are a Support Engineer looking to investigate a problem reported by a customer, please go over the [Duo Chat Runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/duo-chat/README.md?ref_type=heads) before reaching out to the development team. This will ensure the Duo Chat engineer can support you better once you do reach out for help.
+
+### Asking a general question
+If you have a general question for which you can't find your answer, then feel free to ask your question in the *#g_duo_chat* channel on Slack. In this channel, there are numerous stakeholders with an ample breadth of knowledge about Duo Chat's usage and capabilities. 
+
+Duo Chat engineers monitor this channel regularly to offer support. Please keep in mind that engineers will do their best to support you and answer your questions from the top of their heads. However, if they need to do more research or address more complicated scenarios, it will be necessary to create a Duo Chat Support Issue (see next section).
+
+### Submitting a bug
+
+Consider if your request actually pertains to a software bug. A bug is a gap in the functionality that Duo Chat supports and that should be addressed to make the user experience complete as per the functional specifications. In this case, instead of creating support issues, please create an issue of type ‘bug’. Provide all the details for reproducing the problem and assign the group label to Duo Chat. You may ping the EM and PM for triage. Triaged bugs will be assigned to corresponding future iterations for resolution depending on their severity and other priorities of the team. 
+
+### Create a support request issue
+
+We like to use Issues when customers and their proxies need help from the Duo Chat Team which requires more than answering a simple question. This helps us prioritize work and make sure that we don't lose history and maintain context when the Slack retention policy expires. These requests are created in the [Duo Chat Support project](https://gitlab.com/gitlab-org/ai-powered/duo-chat/support).
+
+Duo Chat engineers can assist with the creation of the issue by leveraging Slack workflow automation. Once a Slack thread is deemed a Support Issue (i.e. not just a general question), the engineer will suggest moving the conversation to a support request and create a draft of the issue out of the Slack thread. The individual requesting help can then add more details like Zendesk links, log files, and any other supporting evidence of the problem or question at hand. 
+
+Alternatively, if you know that you have a complex request, you may want to save time by opening the issue directly and then ping the team in Slack with the link.
+You may assign a priority label to your request. A Duo Chat team member or the PM will review this priority assignment during the triage of the issue. Please use the table below as a reference of priority levels and expected response times.
+
+| Priority | Typically used for | Expected first response time |
+|----------|--------------------|------------------------------|
+| P4 | General questions that can't be easily answered on Slack by Duo Chat engineers off the top of their heads and will require a bit more investigation. Customer problems that are not urgent (i.e. they have an easy workaround, they are very niche or are experienced intermittently) | Within 1 week |
+| P3 | Customer problems that are not widespread, but that have been escalated (i.e. key customer or tied to a significant business opportunity) | Within 72 hours |
+| P2 | Customer problems that are time-sensitive, don’t have a workaround and are persistent. Plus, the problem is significantly blocking decisions or progress to be made on the customer side. | Within 36 hours |
+| P1 | Duo Chat outages (SaaS or SM) | ASAP |
+
+
+\* Support Response times are based on team member availability during weekdays (excluding holidays) within regular business hours in the time zones where team members are located (AMER, EMEA and APAC). Outages and other urgent matters outside regular ream member availability should be channelled through GitLab's [incident management](https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/) processes.
+
+### Support Engineer Pairing
+
+While Duo Chat engineers are uniquely positioned to effectively address some of the more complex customer support issues, it is important to have GitLab support engineers involved in every request. This will help them get acquainted with these types of problems and provide them with a learning opportunity on how to debug and resolve them. 
+
+To this end, support engineers should be assigned to Duo Chat support issues. They are expected to follow along and collaborate with Duo Chat engineers to get to a resolution. Support Engineers' involvement can also be very valuable in providing the necessary context of the customer and handling status updates and communications with the customer stakeholders. 
+
 ## 🔗 Other Useful Links
 
 ### 📝 Dashboards (internal only)
