@@ -114,7 +114,7 @@ defined in the `Declarative Policy` file for each resource specified in the
 permissions array.
 
 ```ruby
-jwt = ::Authz::Token.jwt(subject: user, permissions: {
+jwt = ::Authz::Token.jwt(subject: job, permissions: {
   build_read_project: [job.project],
   update_pipeline: [job.project, job.pipeline]
 })
