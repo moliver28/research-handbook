@@ -28,6 +28,36 @@ When it comes to our decision on NordLayer, we had a number of things to look at
 
 We tested many options and while a number fit a few of these, NordLayer fit the most with security being our most important criteria.
 
+## NordLayer for System Administration
+
+NordLayer is also used for system administration purposes, providing secure access to internal systems and resources. Here are some key points about using NordLayer for system administration:
+
+1. Access Control: NordLayer allows for granular access control, ensuring that only system administrators can access specific resources.
+
+2. Multi-Factor Authentication: For enhanced security, NordLayer is implemented with Okta Device Trust Authentication policies.
+
+3. Secure Remote Access: System administrators can securely access internal systems from any location, enabling efficient remote work and incident response.
+
+4. Network Segmentation: NordLayer supports network segmentation, allowing administrators to isolate sensitive systems and limit potential security risks.
+
+5. Encrypted Communication: All traffic between the administrator's device and internal systems is encrypted, protecting sensitive data in transit.
+
+6. Centralized Management: The NordLayer admin panel provides a centralized interface for managing user access, monitoring connections, and configuring security policies.
+
+When using NordLayer for system administration, always follow GitLab's security best practices and ensure that you have the appropriate permissions before accessing any systems or data.
+
+Dedicated IP's are listed below for reference by Security teams or incident response.
+
+| Location | IP |
+| --- | --- |
+| GitLab - Los Angeles | 146.70.49.165 |
+| GitLab - New York | 146.70.186.59 |
+| GitLab - Atlanta | 205.234.251.167 |
+| Gitlab - Belgium | 146.70.55.7 |
+| GitLab - Hungary | 217.138.192.12 |
+| GitLab - Japan | 146.70.138.86 |
+| GitLab - Australia | 88.216.59.30 |
+
 ## System Owner and Support
 
 - DRI: `@adamhuss`
