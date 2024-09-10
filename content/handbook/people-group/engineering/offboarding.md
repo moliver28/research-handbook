@@ -76,3 +76,37 @@ In the event that the merge request has become out of date and the `/rebase` qui
 1. Close the MR that is out of date, and ensure to delete the branch that this was created on.
 1. Run the offboarding team page Slack command to re-trigger the automation.
 1. Verify that the MR has been opened.
+
+### 90 Day Offboarding Issue Closer
+
+Every day, Monday-Friday, we run an automation to check for offboarding issues that have been open for longer than 90 days. If any are found, we leave a comment with the `/close` quick action to close the issue.
+
+#### Reasoning
+
+This aims to cleanup the employment project of any offboardings that have already been completed, as these issues are subject to a **5 day SLA** from when the issue is created, there should be no remaining tasks by the 90 day mark.
+
+More information regarding this addition in [this issue](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/599).
+
+#### Details
+
+We leverage the [issues API](https://docs.gitlab.com/ee/api/issues.html#list-issues) to search for related issues matching the following filters:
+
+```ruby
+{
+  created_before: "#{90.days.ago.end_of_day.iso8601}" # eg. 2019-03-15T08:00:00,
+  per_page: 100, # limit results to 100 issues per request
+  labels: [ 'offboarding' ] # only match issues with the 'offboarding' label
+  state: 'opened' # only match open issues
+  confidential: true # all offboardings are confidential by default
+}
+```
+
+We then iterate through the collection of issues to leave comments closing each issue out with the following message:
+
+```
+This issue has been opened for more than 90 days and is going to be automatically closed.
+If you have any remaining items on this issue complete them immediately.
+
+/close
+```
+
