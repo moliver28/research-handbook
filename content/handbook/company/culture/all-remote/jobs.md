@@ -78,7 +78,6 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Iterative](https://iterative.ai/), a company building open-source developer tools for machine learning
 1. [SearchApi](https://searchapi.io/), a remote-only company, see their [jobs page](https://www.searchapi.io/careers)
 
-
 ### Remote-first companies
 
 Chris H. of Firstbase [curates](https://twitter.com/chris_herd/status/1297223150049075201?s=27) an ongoing list of [Remote First Startups](https://airtable.com/shrUGf3xPZBhmg9B3/tblFTEZPAbhNnPyoo). Others are listed below.
