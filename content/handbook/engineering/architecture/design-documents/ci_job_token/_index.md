@@ -30,15 +30,16 @@ delivering incremental value along the way.
 ## Motivation
 
 Currently, when a CI job runs, it is provided with a `CI_JOB_TOKEN`, which the
-job can use to interact with other GitLab resources. This token is bound to
-the identity of the user who triggered the CI job, carrying a defined
-and immutable set of permissions based on that user's identity and access levels.
+job can use to interact with other GitLab resources. This token is bound to the
+identity of the user who triggered the CI job, carrying a defined and immutable
+set of permissions based on that user's identity and access levels.
 
 ### Goals
 
-This proposal aims to reduce the scope of access granted to the `CI_JOB_TOKEN`
-by implementing a mechanism to define the minimum necessary permissions for the
-token.
+This proposal aims to establish a consistent format for generating [different tokens](https://docs.gitlab.com/ee/security/tokens/),
+allowing for more granular control over access scopes. In particular, it seeks
+to limit the scope of the `CI_JOB_TOKEN` by defining the minimum necessary
+permissions for each token.
 
 - The `CI_JOB_TOKEN` should be ephemeral and grant only the minimal required access.
 - Permissions should be customizable per CI job.
@@ -60,6 +61,25 @@ Instead of generating a `CI_JOB_TOKEN` with full access to all resources
 available to the user who triggered the pipeline, we will issue a token with a
 reduced set of permissions, granting access only to the specific resources
 required for the job.
+
+The final set of permissions will be the intersection between 3 models:
+
+* `permissions` key (job level permissions): outbound permissions. Specify the minimal requirements.
+* Job token scope (allowlist): inbound permissions. Specify the maximum allowed permissions.
+* User role: Allows to maintain the audit trail and support protected vs non-protected environments/refs.
+
+
+Instead of issuing a `CI_JOB_TOKEN` with full access to all resources available
+to the user who triggered the pipeline, we will generate a token with a reduced
+permission set, granting access only to the resources necessary for the specific
+job.
+
+The final permissions for the token will be determined by the intersection of
+the following three models:
+
+- **User Role:** Governs the user’s overall permissions, ensuring proper audit trails and supporting different environments or refs, such as protected versus non-protected.
+- **Job Token Scope (Allowlist):** Inbound permissions that define the maximum allowable access for the token, acting as a boundary.
+- **Job-Level Permissions (`permissions` key):** Outbound permissions that define the minimal resource access required by the job.
 
 ## Design and implementation details
 
@@ -102,6 +122,36 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT body.
 - [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions associated with the token. See the [Permissions](#permissions) section below for a comprehensive list.
   - Each key represents a permission with an array of resources identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
   - Initially, supported resource types include `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, and `gid://gitlab/Ci::Build/<id>`.
+
+Below is an example demonstrating how to generate a JWT token using a
+standardized JWT payload. The permission names correspond to the abilities
+defined in the `Declarative Policy` file for each resource specified in the
+permissions array.
+
+```ruby
+jwt = ::Authz::Token.jwt(subject: user, permissions: {
+  build_read_project: [job.project],
+  update_pipeline: [job.project, job.pipeline]
+})
+```
+
+The next example illustrates how to integrate with `Declarative Policy` checks
+to determine whether a specific permission is directly encoded into the JWT
+token. During any access check, the system first verifies if the ability is
+encoded in the JWT token (stored in the request context for the user). If the
+ability is not found in the token, it falls back to the standard
+`Declarative Policy`.
+
+```ruby
+module Gitlab
+  module Allowable
+    def can?(user, ability, subject = :global, **opts)
+      ::Authz::Token.allowed?(user, ability, subject) ||
+        Ability.allowed?(user, ability, subject, **opts)
+    end
+  end
+end
+```
 
 **Pros:**
 
