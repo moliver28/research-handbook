@@ -178,7 +178,7 @@ The Senior Manager, Digital Success is a Grade 9.
 
 ### Director, Digital Success
 
-The Director, Digital Success reports to the VP of Customer Success.
+The Director, Digital Success reports to the [VP of Customer Success](handbook.gitlab.com/job-families/sales/customer-success-leadership/#vice-president-of-customer-success).
 
 #### Director, Digital Success Job Grade
 
