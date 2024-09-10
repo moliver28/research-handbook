@@ -211,7 +211,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 In August, 2024, the page count by area of the left navigation:
 
-![img](img/page_count_aug2024.png)
+![img](/images/handbook/product/us/technical-writing/page_count_aug2024.png)
 
 ### Word count
 
@@ -240,7 +240,7 @@ The word count has more than doubled in this timeframe.
 
 In August, 2024, the word count by area of the left navigation:
 
-![img](img/word_count_aug2024.png)
+![img](/images/handbook/product/us/technical-writing/word_count_aug2024.png)
 
 ### Analytics
 
