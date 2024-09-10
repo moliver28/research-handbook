@@ -30,9 +30,9 @@ delivering incremental value along the way.
 ## Motivation
 
 Currently, when a CI job runs, it is provided with a `CI_JOB_TOKEN`, which the
-job can use to interact with other GitLab resources. This token is generated
-on behalf of the user who triggered the CI job, effectively granting the CI
-job a similar level of access as the user.
+job can use to interact with other GitLab resources. This token is bound to
+the identity of the user who triggered the CI job, carrying a defined
+and immutable set of permissions based on that user's identity and access levels.
 
 ### Goals
 
