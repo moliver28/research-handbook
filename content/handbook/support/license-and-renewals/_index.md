@@ -226,9 +226,9 @@ channel in Slack. This ensures:
 > - Increased visibility in queries and shared knowledge
 > - Increased cohesion in the L&R team regardless of region
 
-At the commencement of the APAC region's Support Hours (23:00 UTC) there is a
-[Daily Stand-up Bot for Licensing and Renewals in APAC](/handbook/support/support-global-groups/#daily-stand-up-bot-for-licensing-and-renewals-in-apac)
-post which tags all Support Engineers who have some responsibility for L&R
+At the start of the APAC region's Support Hours (23:00 UTC) the
+[Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+post that tags all APAC Support Engineers who have some responsibility for L&R
 tickets. This thread notifies the team of who is away for the current week, and
 allows team members to provide updates to each other about when they're working
 on the queue. This helps ensure coverage reliability of the L&R tickets across
