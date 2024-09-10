@@ -85,8 +85,7 @@ For special definitions of what constitutes a breaking change for our APIs, see:
 
 #### Exceptions for breaking changes
 
-Introducing a breaking change in a minor release is against policy because it can disrupt our customers,
-however there are some rare exceptions:
+Introducing a **breaking change in a minor release is against policy** because it can disrupt our customers, however there are some rare exceptions:
 
 - When GitLab establishes that delaying a breaking change would overall have a _significantly_ more negative impact to customers compared to shipping it in a minor release.
 - If an integrated service shuts down, the integration can be removed during a minor release.
