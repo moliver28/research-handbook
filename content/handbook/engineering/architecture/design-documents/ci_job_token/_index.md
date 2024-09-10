@@ -57,18 +57,6 @@ permissions for each token.
 
 ## Proposal
 
-Instead of generating a `CI_JOB_TOKEN` with full access to all resources
-available to the user who triggered the pipeline, we will issue a token with a
-reduced set of permissions, granting access only to the specific resources
-required for the job.
-
-The final set of permissions will be the intersection between 3 models:
-
-* `permissions` key (job level permissions): outbound permissions. Specify the minimal requirements.
-* Job token scope (allowlist): inbound permissions. Specify the maximum allowed permissions.
-* User role: Allows to maintain the audit trail and support protected vs non-protected environments/refs.
-
-
 Instead of issuing a `CI_JOB_TOKEN` with full access to all resources available
 to the user who triggered the pipeline, we will generate a token with a reduced
 permission set, granting access only to the resources necessary for the specific
