@@ -90,6 +90,7 @@ however there are some rare exceptions:
 
 - When GitLab establishes that delaying a breaking change would overall have a _significantly_ more negative impact to customers compared to shipping it in a minor release.
 - If an integrated service shuts down, the integration can be removed during a minor release.
+- Is an [experimental](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#beta) feature.
 
 In both cases, the PM or EM must [follow the Request a Breaking Change process](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
 
@@ -99,7 +100,7 @@ Deprecating and removing a feature needs to follow a specific process because it
 
 #### Process for deprecating and removing a feature
 
-Please follow the [process outlined in the docs](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release). This page is primarily focused on the breaking change policy and not necessarily process guidance/details
+Please follow the [process outlined in the docs](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
 
 #### Breaking Change Windows on GitLab.com
 
@@ -110,10 +111,6 @@ Starting from GitLab 17.0, we introduced fixed windows during which breaking cha
 Breaking changes should only be enabled during the breaking change windows. This means that where breaking changes are behind feature flags, the changes (feature flag) should only be switched during one of these windows to ensure customers workflows are not impacted outside of these communicated periods.
 
 Product Managers will be responsible for making sure that as part of the deprecations and removals process, where applicable the deprecation/removal is aligned with a publicly communicated Breaking Change Window.
-
-#### Video on deprecations and removals process
-
-- Watch this [video](https://youtu.be/ehT1xBajCRI) for an overview of GitLab's deprecations and removals policy and recent updates to it. It also includes an overview of the process from the Runner engineering team for managing deprecations and removals between major releases.
 
 In June of 2023, we changed the process so that all deprecations and removals are displayed on [the Deprecations page](https://docs.gitlab.com/ee/update/deprecations.html).
 The announcements are grouped by the milestone they'll be removed. The deprecation announcement date is listed below each individual item.
