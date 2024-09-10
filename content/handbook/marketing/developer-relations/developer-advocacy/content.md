@@ -5,7 +5,7 @@ description: "Learn about the Developer Advocacy team's content library, creatio
 
 ## Content Library
 
-The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
+The Developer Advocacy team creates content that can be used for campaigns, field enablement, product launches and general learning and onboarding. All contents and activities the team participates in are tracked in issues following [team workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
 
 You can search for relevant content and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
 
@@ -24,14 +24,41 @@ The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in
 
 ### Blog posts
 
+This section provides examples from the many blog posts authored by the Developer Advovacy team. Click on the author names for a full list of blog posts.
+
 - [Abubakar Siddiq Ango](https://about.gitlab.com/blog/authors/abuango/)
+  - [GitLab Duo Chat 101: Get more done on GitLab with our AI assistant](https://about.gitlab.com/blog/2024/05/29/gitlab-duo-chat-101-get-more-done-on-gitlab-with-our-ai-assistant/)
+  - [Write Terraform plans faster with GitLab Duo Code Suggestions](https://about.gitlab.com/blog/2024/01/24/write-terraform-plans-faster-with-gitlab-duo-code-suggestions/)
+  - [How to migrate from Bamboo to GitLab CI/CD](https://about.gitlab.com/blog/2023/10/26/migrating-from-bamboo-to-gitlab-cicd/)
 - [Cesar Saavedra](https://about.gitlab.com/blog/authors/csaavedra1/)
+  - [5 videos and interactive tours to learn GitLab Duo fast](https://about.gitlab.com/blog/2024/08/28/5-videos-and-interactive-tours-to-learn-gitlab-duo-fast/)
+  - [Combine GitLab Flow and GitLab Duo for a workflow powerhouse](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
+  - [How to use feature flags to lower risk in deployments](https://about.gitlab.com/blog/2023/09/20/eliminate-risk-with-feature-flags-tutorial/)
+- [Daniel Helfand](https://about.gitlab.com/blog/authors/b9sRP0HJhdPsOEruWUfih/)
+  - [How to stream logs through the GitLab Dashboard for Kubernetes](https://about.gitlab.com/blog/2024/08/19/how-to-stream-logs-through-the-gitlab-dashboard-for-kubernetes/)
 - [Fatima Sarah Khalid](https://about.gitlab.com/blog/authors/sugaroverflow/)
+  - [Develop C++ unit testing with Catch2, JUnit, and GitLab CI](https://about.gitlab.com/blog/2024/07/02/develop-c-unit-testing-with-catch2-junit-and-gitlab-ci/)
+  - [Explore the Dragon Realm: Build a C++ adventure game with a little help from AI](https://about.gitlab.com/blog/2023/08/24/building-a-text-adventure-using-cplusplus-and-code-suggestions/)
+  - [How to choose the right static site generator](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/)
 - [Fernando Diaz](https://about.gitlab.com/blog/authors/fjdiaz/)
+  - [Get to know the security and governance updates in GitLab 17, 17.1](https://about.gitlab.com/blog/2024/07/17/get-to-know-the-security-and-governance-updates-in-gitlab-17-17-1/)
+  - [Migration guide: GitHub Advanced Security to GitLab Ultimate](https://about.gitlab.com/blog/2024/05/01/migration-guide-github-advanced-security-to-gitlab-ultimate/)
+  - [How to integrate custom security scanners into GitLab](https://about.gitlab.com/blog/2024/02/27/how-to-integrate-custom-security-scanners-into-gitlab/)
 - [John Coghlan](https://about.gitlab.com/blog/authors/johncoghlan/)
+  - [Developer Relations at GitLab: What we've learned since our start](https://about.gitlab.com/blog/2024/03/13/developer-relations-at-gitlab-what-weve-learned-since-our-start/)
+  - [Building GitLab with GitLab: How GitLab.com inspired Dedicated](https://about.gitlab.com/blog/2023/08/03/building-gitlab-with-gitlabcom-how-gitlab-inspired-dedicated/)
 - [Itzik Gan Baruch](https://about.gitlab.com/blog/authors/iganbaruch/)
+  - [FAQ: GitLab CI/CD Catalog](https://about.gitlab.com/blog/2024/08/01/faq-gitlab-ci-cd-catalog/)
+  - [Refactoring a CI/CD template to a CI/CD component](https://about.gitlab.com/blog/2024/03/04/refactoring-a-ci-cd-template-to-a-ci-cd-component/)
+  - [Jenkins to GitLab: The ultimate guide to modernizing your CI/CD environment](https://about.gitlab.com/blog/2023/11/01/jenkins-gitlab-ultimate-guide-to-modernizing-cicd-environment/)
 - [Michael Friedrich](https://about.gitlab.com/blog/authors/dnsmichi/)
+  - [Refactor code into modern languages with AI-powered GitLab Duo](https://about.gitlab.com/blog/2024/08/26/refactor-code-into-modern-languages-with-ai-powered-gitlab-duo/)
+  - [Top tips for efficient AI-powered Code Suggestions with GitLab Duo](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/)
+  - [10 best practices for using AI-powered GitLab Duo Chat](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/)
 - [William Arias](https://about.gitlab.com/blog/authors/warias/)
+  - [Building GitLab with GitLab: Why there is no MLOps without DevSecOps](https://about.gitlab.com/blog/2023/10/05/there-is-no-mlops-without-devsecops/)
+  - [Modern software development problems require modern AI-powered DevSecOps](https://about.gitlab.com/blog/2023/09/07/modern-software-development-problems-require-modern-ai-powered-devsecops/)
+  - [How Comet can streamline machine learning on The GitLab DevOps Platform](https://about.gitlab.com/blog/2021/11/08/machine-learning-on-the-gitlab-devops-platform/)
 
 ### Click-through Demos
 
@@ -64,13 +91,19 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 ### YouTube playlists
 
-- [GitLab Demos](https://www.youtube.com/watch?v=ZQBAuf-CTAY&list=PLFGfElNsQthYv5OtNEFoGwd0cAg-55Hdj) on the GitLab YouTube channel.
-- [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements, on the GitLab Unfiltered YouTube channel.
-- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat) on the GitLab Unfiltered YouTube Channel.
+GitLab YouTube channel:
+
+- [GitLab Demos](https://www.youtube.com/watch?v=ZQBAuf-CTAY&list=PLFGfElNsQthYv5OtNEFoGwd0cAg-55Hdj)
 - [GitLab Snapshots](https://www.youtube.com/playlist?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)
 - [GitLab Snapshots - español](https://www.youtube.com/playlist?list=PLFGfElNsQthbm-EfY2AyFNr8o6qT5A2ud)
 - [GitLab Snapshots - português](https://www.youtube.com/playlist?list=PLFGfElNsQthaRSNTv93cM57GBB1l_95Px)
 - [GitLab Duo Snapshots](https://www.youtube.com/playlist?list=PLFGfElNsQthZGazU1ZdfDpegu0HflunXW)
+
+GitLab Unfiltered YouTube channel:
+
+- [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talk recordings, workshops and community engagements.
+- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat), learning sessions with GitLab Duo and AI.
+- [DevOps with GitLab Duo](https://www.youtube.com/playlist?list=PL05JrBw4t0Krzu4U6gO3tS738hlsQGFz5), learning sessions with GitLab Duo, DevOps and AI.
 
 ### Vimeo folder
 
@@ -96,7 +129,7 @@ These talks are maintained throughout FY25:
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
 | [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | GitLab Duo | 2024-01-31 | @dnsmichi |
-| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | | 2024-01-31 | @dnsmichi |
+| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | 2024-01-31 | @dnsmichi |
 
 ### Projects
 
