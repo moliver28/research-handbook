@@ -88,13 +88,12 @@ according to the permissions specified in the token's `scope` claim.
 This mechanism allows a token to be issued with reduced access, even if the
 user's account has broader permissions.
 
-The `CI_JOB_TOKEN` will be encoded with the following JWT body.
+The `CI_JOB_TOKEN` will be encoded with the following JWT payload, adhering to
+the rules of the three models described in the [overview](#proposal).
 
 ```json
 {
-  "iss": "https://gitlab.com",
   "sub": "gid://gitlab/Ci/Build/1",
-  "aud": "https://gitlab.com",
   "exp": 1893456000,
   "scope": {
     "build_read_project": ["gid://gitlab/Project/13083"],
@@ -103,13 +102,11 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT body.
 }
 ```
 
-- [`iss`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1): The entity that issued the token.
 - [`sub`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.2): The subject of the token, represented as a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
-- [`aud`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.3): The intended audience of the token (e.g., REST API, GraphQL API, Docker Registry API, etc.).
-- [`exp`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4): The token's expiration time (defaults to the maximum duration of a CI job).
-- [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions associated with the token. See the [Permissions](#permissions) section below for a comprehensive list.
-  - Each key represents a permission with an array of resources identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
-  - Initially, supported resource types include `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, `gid://gitlab/Ci::Pipeline/<id>`, and `gid://gitlab/Ci::Build/<id>`.
+- [`exp`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4): The expiration time of the token (defaults to the maximum duration of a CI job).
+- [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The permissions associated with the token. See the [Permissions](#permissions) section for a detailed list.
+  - Each key represents a permission, with an array of resources identified by their [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
+  - Initially supported resource types include `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, `gid://gitlab/Ci::Pipeline/<id>`, and `gid://gitlab/Ci::Build/<id>`.
 
 Below is an example demonstrating how to generate a JWT token using a
 standardized JWT payload. The permission names correspond to the abilities
