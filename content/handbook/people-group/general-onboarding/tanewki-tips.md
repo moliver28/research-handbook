@@ -11,14 +11,6 @@ Hello! We could not be more excited to have you at GitLab. This page is here to 
 
 The [People Connect team](/handbook/company/team/?department=people-connect-team) is here to help guide you in your journey here at GitLab. A member of the team will be assigned to your Onboarding Issue, and will be there to provide guidance as you begin onboarding. You can learn more about us below by reading our bios on the team page.
 
-## Onboarding Issues
-
-Are you curious about what onboarding looks like here at GitLab? We currently use our own product to facilitate onboarding through issues. If you have never seen a GitLab issue before, take some time to watch the video below to see what you'll be working out of during your onboarding.
-
-<figure class="video_container">
-  <iframe src="https://www.loom.com/embed/7acd42bc463f48a4a8dca9afa2f9bf27" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
 ## Timeline
 
 After you sign your offer and complete your background check and references, you can expect your onboarding to go like this:
