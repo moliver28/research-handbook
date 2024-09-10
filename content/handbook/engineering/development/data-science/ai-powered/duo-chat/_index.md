@@ -93,7 +93,7 @@ Duo Chat engineers can assist with the creation of the issue by leveraging Slack
 Alternatively, if you know that you have a complex request, you may want to save time by opening the issue directly and then ping the team in Slack with the link.
 You may assign a priority label to your request. A Duo Chat team member or the PM will review this priority assignment during the triage of the issue. Please use the table below as a reference of priority levels and expected response times.
 
-| Priority | Typically used for | Expected first response time |
+| Priority | Typically used for | Expected Resolution |
 |----------|--------------------|------------------------------|
 | P4 | General questions that can't be easily answered on Slack by Duo Chat engineers off the top of their heads and will require a bit more investigation. Customer problems that are not urgent (i.e. they have an easy workaround, they are very niche or are experienced intermittently) | Within 1 week |
 | P3 | Customer problems that are not widespread, but that have been escalated (i.e. key customer or tied to a significant business opportunity) | Within 72 hours |
