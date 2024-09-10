@@ -98,7 +98,7 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT body.
   "exp": 1893456000,
   "scope": {
     "build_read_project": ["gid://gitlab/Project/13083"],
-    "update_pipeline": ["gid://gitlab/Project/13083"]
+    "update_pipeline": ["gid://gitlab/Project/13083", "gid://gitlab/Ci::Pipeline/1"]
   }
 }
 ```
@@ -109,7 +109,7 @@ The `CI_JOB_TOKEN` will be encoded with the following JWT body.
 - [`exp`](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4): The token's expiration time (defaults to the maximum duration of a CI job).
 - [`scope`](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim): The list of permissions associated with the token. See the [Permissions](#permissions) section below for a comprehensive list.
   - Each key represents a permission with an array of resources identified by a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
-  - Initially, supported resource types include `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, and `gid://gitlab/Ci::Build/<id>`.
+  - Initially, supported resource types include `gid://gitlab/Project/<id>`, `gid://gitlab/Group/<id>`, `gid://gitlab/Ci::Pipeline/<id>`, and `gid://gitlab/Ci::Build/<id>`.
 
 Below is an example demonstrating how to generate a JWT token using a
 standardized JWT payload. The permission names correspond to the abilities
