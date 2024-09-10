@@ -74,8 +74,10 @@ As an option, all requests can take advantage of a split disbursement option des
 Here's how this workflow works:
 
 1. After all necessary approvals, the requesting team member pays for the approved G&D experience.
-1. If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs.  When submitting in Navan, please state explicitly in the `Description` section of your expense claim that this is for a 50% reimbursement, with a link to your approved G&D issue.
+1. The team member can submit the proof of payment in a Navan expense request, and the approved GitLab issue, to receive a reimbursement of 50% of the total costs.  When submitting in Navan, please state explicitly in the `Description` section of your expense claim that this is for a 50% reimbursement, with a link to your approved G&D issue.
 1. Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
+
+Please note that upfront reimbursement does not extend to travel, hotel, or meals expenses as these are expensed from a separate budget, it can only be used for the cost of the Growth and Development opportunity, more details in the [Workshops and Conferences](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#workshops-and-conferences) section.
 
 ### Recoupment of Growth and Development Reimbursements
 
