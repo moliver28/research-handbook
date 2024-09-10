@@ -277,7 +277,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates | Reason |
 | --- | --- |
-| 2024-12-20 to 2024-01-03 | End of 2024, limited coverage |
+| 2024-12-20 to 2025-01-05 | End of 2024, limited coverage |
 
 During PCL periods, merge requests and deployments can only be made by senior team members, managers, and levels of management above our team.
 
