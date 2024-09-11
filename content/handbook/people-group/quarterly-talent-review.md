@@ -50,7 +50,8 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 The QTR report is designed to provide division leadership with key organizational metrics across multiple areas. Below is a breakdown of the core metrics, organized into relevant categories:
 
 **1. Workforce Metrics**
-    *Span of control*
+
+* **Span of control**
     * Attrition rates
     * Headcount
     * Promotion rate
