@@ -14,6 +14,26 @@ The Ecosystem Team’s north star is GitLab NetARR.  ESAs will support the Ecosy
 
 The ESA primary contribution is to help the GitLab Global Ecosystem team drive our sales strategy by empowering an ecosystem of partners with mature GitLab GTM solutions, services practices, and GTM solutions.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketings and other areas as appropriate. This role involves pre-sales and supporting partners. 
 
+## Field and Ecosystem SA Opportunity Responsibility
+
+### GitLab Sourced Opportunities
+
+If a new opportunity is sourced by a direct account team, regardless if there is a partner involved, the direct account SA owns the responsibility for progressing the technical aspects of the opportunity to close. The Ecosystem Solutions Architect (ESA) is there to support the progression of the deal by enabling an aligned Partner account team to collaborate with the GitLab SA on technical discovery and effective demos of a GitLab based solution.
+
+### Partner Sourced Opportunities
+
+If a new opportunity is sourced by a partner, it is the ESA who takes responsibility to enable the partner should they need assistance to progress the opportunity. Especially when the partner has yet to submit a Deal Registration, the ESA is the trusted advisor to the partner for the opportunity, and will even speak to prospects directly to enable the partner on effective Discovery and Demo practices. The Ecosystem team will encourage the partner to submit a Deal Registration and begin coordinating with the field account team.
+
+As soon as the partner's account team is willing, the ESA will hand over all customer intelligence to the field SA to take over ownership of the opportunity and begin working with the partner account team to progress it to close.
+
+### ESA Opportunity Handoff
+
+The ESA will not retain primary opportunity responsibility beyond GitLab deal Stage 2 unless approval is made by both the Global Ecosystem SA Manager and the Regional SA Manager.  
+
+### Furthermore
+
+The ESA also promotes partner Delivery teams to get trained and certified to provide great customer outcomes after the deal is won including implementation and adoption services.
+
 ### Team Charter and Mission
 
 - **Partner Champion Development:** Identify and empower partner technical teams to become Champions of GitLab through “last mile” technical enablement and evangelism sessions.  Develop Partner Champions who can evangelize GitLab solutions, conduct hands-on workshops and demos, and address competitive scenarios in the sales cycle.
