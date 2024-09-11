@@ -53,7 +53,7 @@ the various token types in use today, simplifying the process of authorization.
 One of the key benefits of this design is enabling service-to-service and direct
 client-to-API authorization without needing to access declarative policies or
 the database. This approach supports new services, such as those deployed by
-[Runway](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/tools/runway/),
+[Runway](../../infrastructure/platforms/tools/runway/),
 allowing them to expose public-facing APIs while ensuring secure authorization
 using the token's embedded information.
 
@@ -99,7 +99,7 @@ triggered the pipeline. This set will be progressively narrowed:
 
 1. First, by limiting access to projects that appear on the allowlist.
 2. Then, by restricting access based on the permissions defined for each project on the allowlist.
-3. Finally, by further refining permissions via the configuration in `.gitlab-ci.yml` or other sources.
+3. Finally, by further refining permissions by using the configuration in `.gitlab-ci.yml` or other sources.
 
 This process of starting with broad permissions and narrowing down through
 several layers will ensure that the token's access is minimized to the smallest
@@ -145,7 +145,7 @@ Once these conditions are met, an ephemeral job token will be generated. This
 token adheres to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
 standard and contains a digital signature to ensure its authenticity. When the
 `CI_JOB_TOKEN` is presented to the API, the signature will be validated, and the
-request will be processed based on the token’s `scope` claim, which defines the
+request will be processed based on the token's `scope` claim, which defines the
 permissions it carries.
 
 This approach allows us to issue tokens with reduced access, even when the user
@@ -331,7 +331,7 @@ The following permissions were compiled based on findings from [this investigati
 | [Upload a package file](https://docs.gitlab.com/ee/api/packages/maven.html#upload-a-package-file)                                                 | `:read_project + :create_package` |
 | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                                                                     | `:read_project + :create_package` |
 
-**Pypi**
+**PyPI**
 
 | Permission(s)                                                                                                                      | Route                             |
 | -------------                                                                                                                      | -----                             |
