@@ -35,16 +35,16 @@ The allowance will be prorated for New Hires that start in the middle of the mon
 
 ### Medical Collective Healthcare Policy
 
-GitLab has partnered with [CZ](https://www.cz.nl/en) to offer GitLab Team Members a collective healthcare policy in the Netherlands, effective 2023-10-01
+GitLab has partnered with [CZ](https://www.cz.nl/zorgverzekering/collectieve-zorgverzekering?015418634) to offer GitLab Team Members a collective healthcare policy in the Netherlands, effective 2023-10-01
 The collective policy offers discounted rates for team members towards their supplementary insurance policies.
 
 Instructions on enrolling on the policy, the policy number, and ID can be found on the [Netherlands CZ Collective Policy Enrollment Instructions](https://docs.google.com/document/d/1waw2rNECdmsinqqmtj4XNuL0zMQvFeyI17-0YBvKURM/edit).
 The policy number is also listed on the [CZ Insurance document](https://docs.google.com/document/d/1waw2rNECdmsinqqmtj4XNuL0zMQvFeyI17-0YBvKURM/edit).
 
 Team Members can include their dependents on the collective agreement as well.
-Team members who join the plan will be able to pay CZ directly through their own bank account through invoice or direct debit. For more details on the policy please see the [GitLab CZ page](https://www.cz.nl/collectief/015418634)
+Team members who join the plan will be able to pay CZ directly through their own bank account through invoice or direct debit. For more details on the policy please see the [GitLab CZ page](https://www.cz.nl/zorgverzekering/collectieve-zorgverzekering?015418634)
 
-In 2023 only, current Team Members can join the plan mid-year, starting in 2024 current Team Members can only enroll in the plans during the enrollment period at the end of each year. Team members must cancel their old insurance before January 1 and take out new insurance before February 1, you will be insured with a retroactive effective from January 1. For more details on transferring insurance, please see the ["Changing Health Insurance"](https://www.government.nl/topics/health-insurance/standard-health-insurance/changing-your-health-insurance) page on the Government of the Netherlands website.
+Team Members can enroll in the plans during the enrollment period at the end of each year. Team members must cancel their old insurance before January 1 and take out new insurance before February 1, you will be insured with a retroactive effective from January 1. For more details on transferring insurance, please see the ["Changing Health Insurance"](https://www.government.nl/topics/health-insurance/standard-health-insurance/changing-your-health-insurance) page on the Government of the Netherlands website.
 
 Team Members can contact CZ directly if they have any questions at 088 555 7777
 
