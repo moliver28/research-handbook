@@ -52,6 +52,8 @@ These areas are our high-level engineering driven goals for the remainder of `FY
 
 **Pipeline Creation Speed**
 
+**NOTE:** Pipeline creation feedback [issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/34984).  We welcome your thoughts on your experience with the pipeline creation process.
+
 Goals:
 
 - Understand the components of the pipeline creation service to improve speed. 
