@@ -38,13 +38,6 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 * **When:** The QTR should take place by the end of the first month of the quarter, giving adequat time for review and actions.
 * **Purpose:** During this meeting, PBPs and COEs will review the org health report with division leaders, discuss priorities for each division, address any COE-related initiatives, and agree on action items and follow-up steps.
 
-## Quarterly Talent Review Process (v2)
-
-**1. Report Distribution**
-
-* **When:** Reports will be shared to PBPs by the 15th day of the first month of each quarter.
-* **What:** Each report will contain the org health data specific to each division and any relevant metrics to be reviewed in the upcoming Talent QTR meetings. A detailed overview of data included in each report is included below.
-
 ## Report Overview
 
 The QTR report is designed to provide division leadership with key organizational metrics across multiple areas. Below is a breakdown of the core metrics, organized into relevant categories:
