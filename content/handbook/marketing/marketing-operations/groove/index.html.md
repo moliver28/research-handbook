@@ -30,8 +30,6 @@ Groove access is dependent on a Salesforce Groove permission set as well as a Gr
 - Managers, SMB Advocates
 - Renewals Managers
 - Managers, Renewals Managers
-- Customer Success Engineers
-- Managers, CSE
 
 Once you have access please take the following steps:
 
@@ -67,7 +65,17 @@ The creation of net new flows need to be approved. Currently, that approval proc
 
 ### Flow Approval Process
 
-In the transition period from Outreach to Groove, if you have identified a sequence that didn’t come over from Outreach, please provide a link to the sequence for approval in the #groove-flow-approvals Slack channel. Sales Op and Sales Dev Ops will review, and if approved, the appropriate team will rebuild the sequence for you as a Groove flow.
+In the transition period from Outreach to Groove, if you have identified a sequence that didn’t come over from Outreach, please provide a link to the sequence for approval in the #groove-flow-approvals Slack channel. The flow will be reviewed, and if approved, the appropriate team will rebuild the sequence for you as a Groove flow with an SLA of one (1) business day.
+
+**Approval Matrix**
+
+Approvers for net new flows are dependent on the team creating the flow.
+
+- Sales Development Org: `Panos Rodopoulos` or `Ed Bao`
+- Sales Org
+  - Account Executives: `Kathleen Rintelman-Betances`
+  - Renewals Managers: `Suzy Verdin`
+  - SMB Advocates: `Mike Smith`
 
 ### Sales Flows
 
