@@ -194,6 +194,7 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 1. Run the [Add Employee integration](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
 1. [Place team member in the appropriate benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) in Workday on the effective date
+1. While creating the contract, please remove the summary page as it is not needed for relocating team members. 
 
 ##### Relocating **From** The United States
 
