@@ -287,6 +287,17 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 | Add Quarterly True Up Language | Standard Quarterly True Up language will populate in the Notes section of the Order Form |
 | Remove Signature Block         | Signature Block will be removed. Use for customers with Existing Agreements (MSA)        |
 
+#### Billing/Payment Schedule
+
+At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you may use the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
+
+If you choose to add Annual Payments to a quote, please keep in mind the following:
+
+1. On a New Business quote, Initial Term must equal 24, 36, 48, or 60. On a Renewal quote, Renewal Term must equal 24, 36, 48, or 60.
+2. All quotes with Annual Payments must use the "1 Year" Product SKU. You will see an error message if you select Annual Payments and anything other than the 1 Year SKU.
+3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Billing Schedule" field.
+4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing.payment schedule. 
+
 #### Contact Requirements
 
 - **Select "Sold To" and "Bill To" contacts.** Note that the "Sold To" contact will receive the EULA or License file via email. Note: Each contact record must have a complete address, if the address is not fully populated, you will need to update this before you can proceed with the quote.
