@@ -2,13 +2,13 @@
 title: Using GitLab to plan work
 ---
 
-We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are: 
+We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are:
 
-- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes. 
+- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
 - [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
 - [Tasks](https://docs.gitlab.com/ee/user/tasks.html) (optional): Decompose an Issue into more detailed implementation steps.
-- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete. 
-- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning. 
+- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
+- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning.
 - [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
@@ -28,7 +28,7 @@ You should consider **not** creating an issue when:
 - You're breaking down work very far ahead of implementation. Create broad issues or epics for distant features to minimize the total number of issues and maintain flexibility to iterate on the plan closer to implementation.
 - There is already an existing issue. Even if the quality is low, people might
 have linked to it. Consider rewriting the description instead and leaving a comment
-that you did so. 
+that you did so.
 
 #### How to submit a new issue
 
@@ -45,8 +45,8 @@ to see if a similar issue already exists. We shouldn't create duplicates if we c
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
-1. Assign labels for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification). 
-1. Leave a comment and tag the product manager to triage the issue. 
+1. Assign labels for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+1. Leave a comment and tag the product manager to triage the issue.
 Mentioning someone in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
@@ -90,7 +90,7 @@ This epic should have a start and an end date, and it should not span more than
 When these issues are finished and closed, we should have successfully achieved the
 epic's goal. A good example of this kind of epic is the first iteration on a new
 feature. Epics representing MVCs should clearly state `MVC` at the end of the
-title and should have a parent epic relationship towards a category strategy or a meta epic. 
+title and should have a parent epic relationship towards a category strategy or a meta epic.
 
 ### Epics for multiple iterations
 
@@ -116,7 +116,7 @@ We try to avoid creating epics for time frames as reaching a certain date should
 
 To categorize issues and epics into themes or longer running items, we recommend using labels. You can also use epics to track many issues related to a specific topic, even if there
 isn't a specific timeline for shipping. These epics should be marked as ~meta, they
-may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship. 
+may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship.
 
 #### Work item state
 
@@ -125,6 +125,8 @@ It's important to close items that we're not considering implementing in the nea
 so that we avoid creating uncertainty with customers and colleagues.
 
 ##### When to close an issue or epic
+
+<DROP THIS>
 
 To clearly communicate to our stakeholders what we are going to do, it's critical that you not only
 provide the positive view (what we will do), but also articulate the negative view (what we will not
@@ -135,11 +137,11 @@ As a Product Manager you should close work items for the following reasons:
 
 1. Duplicated elsewhere
 1. Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
-1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around. 
-1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.  
+1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around.
+1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.
 1. Low priority: sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
-1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page. 
-1. No longer relevant. 
+1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page.
+1. No longer relevant.
 
 The 'not the next iteration' work items are the most important ones to resolve.
 It is very easy to create a large, comprehensive change with meta items and lots of improvements,
