@@ -65,7 +65,7 @@ The QTR report is designed to provide division leadership with key organizationa
 
 **4. Executive Summary and Actioin Items**
    * Executive summary of key takeaways
-    * Leadership action items for follow-up
+   * Leadership action items for follow-up
       * This slide will be updated at the beginning of each fiscal year with recommended actions for each division that are rooted in the data that is shared. This will serve as the core divisional “Talent Strategy” for the FY.
       * Actions on this slide will continue to be tracked during each review and updated as needed depending on progress made and what each quarter’s data reveals.
 
