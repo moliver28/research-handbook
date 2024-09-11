@@ -24,13 +24,16 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 **1. Report Distribution**
 * **When:** Reports will be shared to PBPs by the 15th day of the first month of each quarter.
 * **What:** Each report will contain the org health data specific to each division and any relevant metrics to be reviewed in the upcoming Talent QTR meetings. A detailed overview of data included in each report is included below.
+
 **1. Prep Call**
 * **When:** PBPs and COEs should schedule their initial prep call shortly after receiving the report and completing their initial review, ideally within one week of report delivery.
 * **Purpose:** The prep call allows PBPs and COEs to align on key topics, identify areas of focus, and strategize for the Talent QTR meeting with the division leadership.
 * **Attendees:** Division PBP(s), division TA partner, DIB VP 
+
 **1. Distribution of Report to Leadership**
 * **When:** 2 - 4 days prior to the QTR meeting with the division leader.
-* **Purpose:** Allow leaders time prior to the meeting to review the QTR report and add any questions/observations to the meeting agenda. 
+* **Purpose:** Allow leaders time prior to the meeting to review the QTR report and add any questions/observations to the meeting agenda.
+ 
 **1. Quarterly Talent Review with Leadership**
 * **When:** The QTR should take place by the end of the first month of the quarter, giving adequat time for review and actions.
 * **Purpose:** During this meeting, PBPs and COEs will review the org health report with division leaders, discuss priorities for each division, address any COE-related initiatives, and agree on action items and follow-up steps.
