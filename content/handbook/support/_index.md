@@ -333,7 +333,7 @@ variations, please refer to the [README file](https://gitlab.com/gitlab-com/supp
 | [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
 | [#spt_hiring](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
-| [#spt_us-federal](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
+| [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 
 ##### Private Channels
 
