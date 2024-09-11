@@ -1,7 +1,7 @@
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |   Ian Gloude           |
-| 2024-10-02 | Rayana Verissimo     | Sunjung Park           | Nick Brandt   |                         |
+| 2024-09-18 | Rayana Verissimo     | Nick Leonard           | Camellia X Yang        |   Ian Gloude           |
+| 2024-10-02 | Andy Volpe           | Sunjung Park           | Nick Brandt   |                         |
 | 2024-10-16 | Paul Wright          | Emily Bauman           | Veethika Mishra       |                        |
 | 2024-10-30 | Taurie Davis         | Jeremy Elder           | Taylor Vanderhelm      | Katie Macoy            |
 | 2024-11-06 | APAC                 | Alex Fracazo           | Bonnie Tsang           |                        |
