@@ -220,13 +220,13 @@ If it was identified that a single portion of our problem types exhibits poor pe
 
 ## Other
 
-### FRT+NRT are below target
+- FRT+NRT are below target
 
-### Our staffing isn't spread appropriately vs. the number of tickets that are raised/will breach per hour. We're not asking folks to work the right set of hours
+- Our staffing isn't spread appropriately vs. the number of tickets that are raised/will breach per hour. We're not asking folks to work the right set of hours
 
-#### Past Analysis
+### Past Analysis
 
-##### 2020-09-15: Our staffing isn't spread appropriately
+#### 2020-09-15: Our staffing isn't spread appropriately
 
 [2020-09-15: Our staffing isn't spread appropriately vs. the number of tickets that are raised/will breach per hour. We're not asking folks to work the right set of hours](https://gitlab.com/gitlab-com/support/metrics/-/issues/4)
 
@@ -241,7 +241,7 @@ If it was identified that a single portion of our problem types exhibits poor pe
 - Segment ticket responses by hour and by breached/achieved.
 - Segment ticket responses by hour and by preferred region of support.
 
-#### Shaping Actions
+##### Shaping Actions
 
 If it was identified that we're not asking folks to work the right set of hours:
 

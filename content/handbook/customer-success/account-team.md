@@ -247,7 +247,7 @@ The DCI matrix is an outcome of the work of this [OKR](https://gitlab.com/gitlab
 
 [Conduct a Day-in-the-Life of a Developer Session](/handbook/customer-success/pre-sales-post-sales-transition/#transition-quick-summary)
 </td>
-<td>Quick discovery to build recommendations for a developer’s workflow</td>
+<td>Quick discovery to build recommendations for a developer's workflow</td>
 <td>I</td>
 <td>
 
@@ -377,7 +377,7 @@ The DCI matrix is an outcome of the work of this [OKR](https://gitlab.com/gitlab
 
 </td>
 <td>Conduct a Value Stream Workshop</td>
-<td>Deep discovery to understand an organization's software delivery process and performance build current-state and recommended future-state for a specific application’s value stream</td>
+<td>Deep discovery to understand an organization's software delivery process and performance build current-state and recommended future-state for a specific application's value stream</td>
 <td>C,I</td>
 <td>
 
@@ -526,7 +526,7 @@ The DCI matrix is an outcome of the work of this [OKR](https://gitlab.com/gitlab
 
 </td>
 <td>Create Technical Close Plan</td>
-<td>A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer’s desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.</td>
+<td>A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.</td>
 <td>I</td>
 <td>C, I</td>
 <td>C, I</td>
@@ -1257,7 +1257,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>Facilitate Product Collaboration</td>
-<td>Clearly capture customer needs via feature requests to assist Product Managers with feature prioritisation and product enhancement</td>
+<td>Clearly capture customer needs through feature requests to assist Product Managers with feature prioritisation and product enhancement</td>
 <td>DRI</td>
 <td>
 
@@ -1328,7 +1328,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>SPS Accelerator</td>
-<td>Conduct regular health checks to identify areas for improvement. Provide access to GitLab’s Accelerators, helping them optimize their use of GitLab’s products for their specific needs, and assist in implementing them effectively</td>
+<td>Conduct regular health checks to identify areas for improvement. Provide access to GitLab's Accelerators, helping them optimize their use of GitLab's products for their specific needs, and assist in implementing them effectively</td>
 <td>C, I</td>
 <td>DRI</td>
 <td>C</td>
@@ -1347,6 +1347,89 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 </td>
 </tr>
 </table>
+
+## CSM interaction with Customers
+
+- Understand and align on customer needs and goals; establish a mutually agreed success plan focusing on driving product adoption and growth.
+- Act as a trusted advisor by reviewing adoption metrics, offering perspectives on beta features, and conducting presentations and demos to enhance customer product knowledge and interest in order to drive adoption.
+- Serve as the main point of contact for customer inquiries, including feature requests and support [ticket escalations / STAR](/handbook/support/internal-support/support-ticket-attention-requests/).
+- Facilitate communication between customers and the product team to translate requirements into feature requests; arrange meetings with [Product Managers (PMs](/handbook/product/)) when necessary.
+- Regularly update customers on the status of their feature requests and any new feature updates.
+- Maintain ongoing communication to manage customer expectations; provide regular updates and best practices to enhance product adoption.
+Identify and flag risks to the appropriate teams while maintaining communication with GitLab support for issue resolution.
+- Engage with PM and engineering teams to review releases and ensure they meet customer needs.
+- Triage technical queries effectively, redirecting to [Professional Services (PS)](/handbook/customer-success/professional-services-engineering/) or [Support team](/handbook/support/) as necessary.
+- Conduct regular calls and emails to maintain customer relations, and plan and deliver [Executive Business Reviews (EBRs)](/handbook/customer-success/csm/ebr/#overview) to realign on goals.
+- Update and engage key stakeholders to maintain alignment and uncover new opportunities.
+
+## CSM interaction with cross-functional teams
+
+- **With [Account Executives](/handbook/sales/)**
+  - Support on account planning
+  - Surface opportunities and renewals
+  - Regular touch points on customer health & assessing risk
+  - Continuous alignment on strategic initiatives & objectives
+  - Annual security and compliance questionnaires (part of renewal or procurement process)
+
+- **With [Customer Advocacy / Events](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)**
+  - Volunteering customers for speaking engagements
+  - Referral program
+  - Case studies to boost engagement
+
+- **With [Partners](/handbook/support/partnerships/)**
+  - Align with partner on customer needs and success plan
+  - Involve partner in all customer interactions
+  - Discuss and agree with the partner on customer enablement
+  - Update the partner on customer health
+
+- **With [Product Team](/handbook/product/)**
+  - Planning meeting for Feature Requests (FR), roadmaps, and SME sessions
+  - Providing customer feedback when possible
+  - Gathering first needs and use cases
+  - Collaborate (advocating) with the Product team to shape the future of the GitLab platform
+
+- **With [Professional Services Team](/handbook/customer-success/professional-services-engineering/)**
+  - Understand when to engage with PS and how they can support
+  - Initiate discussions with the customer on potential PS engagements
+  - Understand customer expectations and relay them to the Engagement Manager
+  - Keep up to date with progress and current actions
+  - Offer additional follow-up options, such as  [Expert Services](https://about.gitlab.com/services/catalog/))
+
+- **With [Renewal Managers](/job-families/sales/renewal-manager/)**
+  - Engaging with renewal manager 4 months before the renewal
+  - Prepare and support renewal discussion with renewal manager
+  - Actively working with [AE](/handbook/sales/) and renewal manager in case of risk
+
+- **With [Sales Development Representatives (SDRs)](/handbook/marketing/sales-development/) and [Business Development Representatives (BDRs)](/handbook/marketing/sales-development/)**
+  - [AEs](/handbook/sales/) serve as facilitators, bridging CSM expertise and Sales/Business Development efforts into a unified strategy for account expansion, with CSMs providing support and insights as needed
+    - Initiate early discussions about renewal, leveraging insights from the customer journey
+
+- **With [Solutions Architects Team](/handbook/solutions-architects/)**
+  - Solutions Architects own:
+    1. Pre-sales technical evaluation and relationships prior to the initial sale
+        - Document customer business value and product fit
+        - Define and engage key user personas for solution tailoring
+        - Create joint success plan with the customer in order to document customer goals and primary use cases
+    2. Tier upgrades and new business units (i.e., connected new) within an existing customer:
+        - Product demonstrations and workshops, particularly when linked to a new opportunity (such as a tier upgrade or GitLab Duo demos directly associated with a prospective opportunity)
+        - Identify and pursue upsell and cross-sell opportunities
+    3. Ensure detailed information transfer from sales to CS for seamless transition
+
+  - Customer Success Managers own:
+    1. Post-sales customer relationship:
+        - Demos and other product workshops when not associated to a new opportunity
+    2. License expansion within an existing customer
+    3. Update and engage with SA to maintain alignment and uncover new opportunities
+    4. Conduct regular assessments of account health to ensure ongoing customer success
+
+  - Collaboration on Mutual Customer Success Plan - Merging of the Pre-Sales Customer Success Plan (owned by the SA - [criteria](/handbook/solutions-architects/sa-practices/customer-success-plan/#which-opportunities-should-have-a-mutual-customer-success-plan)) and the Post Sales CSM Customer Success Plan (owned by the CSM - [criteria](/handbook/solutions-architects/sa-practices/customer-success-plan/#which-opportunities-should-have-a-mutual-customer-success-plan))
+
+- **With [Support Team](/handbook/support/):**
+  - Maintaining communication in case of [high and critical](/handbook/customer-success/csm/escalations/) escalation
+  - Effectively managing customer expectations for tickets that fall outside the scope of our usual support ([out-of-scope tickets](https://about.gitlab.com/support/statement-of-support/#out-of-scope))
+  - Educating customers on the GitLab Support process, which includes guiding them on managing contacts, explaining various SLAs based on priorities, and offering a comprehensive overview of GitLab Support coverage
+  - Clearly communicating urgency and dependencies for tickets that demand immediate attention ([STAR](/handbook/support/internal-support/support-ticket-attention-requests/))
+  - CSMs should ensure organization notes are kept up to date
 
 ## Account Team Meetings
 

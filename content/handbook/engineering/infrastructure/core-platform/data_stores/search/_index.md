@@ -81,6 +81,13 @@ Before a major milestone starts, we prepare an epic with all the breaking change
 
 Every MR that was created before the breaking change milestone should have this or a similar warning in the description: `:warning: This MR must be kept as a draft and cannot be merged until **DATE** :warning:`
 
+### Bugfix backport process
+
+We review the bugfix merge requests every week. To facilitate this process, we have created scoped labels: `backport::required`, `backport::skip`, and `backport::complete`.
+
+- The `backport::skip` label will be added to merge requests if no backport is needed.
+- The `backport::required` label will be added to the merge requests that need to be backported to a previous release in the initial review. The DRI will follow the [patch release process](/handbook/engineering/releases/#patch-releases-overview) to backport the fix to a previous release. Once the backport is done, the `backport::complete` label will be added to indicate the whole process is complete.
+
 ### Advanced Global Search Rollout on GitLab.com
 
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.

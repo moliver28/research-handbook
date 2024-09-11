@@ -42,7 +42,7 @@ The People Analytics team at GitLab is part of the [People Operations, Technolog
 
 ## Data Governance
 
-GitLab's commitment to transparency and efficiency is reflected in the Data team's use of technologies like dbt and Snowflake to provide reliable and timely data to company leaders. By adhering to strict data governance and best practices, the team ensures that the data is consistent and easy to work with, while also complying with all applicable laws and regulations.
+GitLab's commitment to transparency and efficiency is reflected in the Data team's use of technologies like [dbt](/handbook/business-technology/data-team/platform/dbt-guide/) and [Snowflake](/handbook/business-technology/data-team/platform/snowflake/) to provide reliable and timely data to company leaders. By adhering to strict data governance and best practices, the team ensures that the data is consistent and easy to work with, while also complying with all applicable laws and regulations.
 
 We have a data governance process in place to ensure that we are only extracting data that we are authorized to access. This involves working closely with our People and Legal teams. We also have a process in place for handling data requests from team members, which involves verifying their identity and ensuring that they have a legitimate business need for the requested data as well as approvals from stakeholders. You can find more information in our [Data Governance handbook page](data-governance.md).
 

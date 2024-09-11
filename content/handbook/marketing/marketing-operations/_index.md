@@ -386,6 +386,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Marketo](/handbook/marketing/marketing-operations/marketo)
 - [On24](/handbook/marketing/marketing-operations/on24)
 - [Outreach.io](/handbook/marketing/marketing-operations/outreach)
+- [Groove](/handbook/marketing/marketing-operations/groove)
 - [PathFactory](/handbook/marketing/marketing-operations/pathfactory/)
 - [Qualified](/handbook/marketing/marketing-operations/qualified/)
 - [Traction](/handbook/marketing/marketing-operations/traction-lead-complete)

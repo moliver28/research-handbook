@@ -88,9 +88,9 @@ Design thinking is a non-linear, iterative process that teams use to understand 
 
 Design thinking directly supports our GitLab values of Results, Collaboration, and  Efficiency. We balance being [ambitious](/handbook/values/#ambitious) along with a focus on [boring solutions]({{< ref "#boring-solutions" >}}) - both of which are solutions-oriented.
 
-Listen to [Tim Brown speak about the Design Thinking process in this TedTalk](https://www.ted.com/talks/tim_brown_designers_think_big/transcript?language=en).
+Listen to [Tim Brown speak about the Design Thinking process in this TedTalk](https://www.ted.com/talks/tim_brown_designers_think_big/transcript).
 
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/en/tim_brown_designers_think_big" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+{{< youtube UAinLaT42xY >}}
 
 Regardless of what your team is working on during time in person - whether it be long term planning, high stakes problem solving, or new idea generation - you can apply design thinking activities to achieve results. Here are some suggested activities you can explore:
 

@@ -182,7 +182,7 @@ Should the changes made fall outside the default selection of this job, it can b
 - `WAREHOUSE`: Defaults to `DEV_XL` but will accept `DEV_XS` and `DEV_L` as well.
 - `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed. When contiguous is `True`, other configurations are ignored, such as `DOWNSTREAM` and `EXCLUDE`. 
 - `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement. It overrides any other model selection.
-- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True`. It has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do. 
+- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True` (which it is by default). As a result, you must manually set `CONTIGUOUS` to `False` if you want to use `DOWNSTREAM`. `DOWNSTREAM` has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do. 
 - `FAIL_FAST`: Defaults to `True` but accepts `False` to continue running even if a test fails or a model can not build.  See the [documentation](https://docs.getdbt.com/reference/global-configs/failing-fast) for additional details.
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. `EXCLUDE` is bypassed if `CONTIGUOUS` is `True`. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
 - `FULL_REFRESH`: Defaults to `False` but accepts `True` to re-clone and rebuild any tables that would otherwise run in an incremental state. See the [documentation](https://docs.getdbt.com/reference/commands/run#refresh-incremental-models) for additional details.
@@ -278,6 +278,8 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 #### `🚫safe_model_script`
 
 In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/enterprise-data/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
+
+This [video](https://www.youtube.com/watch?v=ICOuerPeAUU) provides an overview of the SAFE Data Program implementation on Snowflake.
 
 <details><summary>how `safe_model_script` works - under the hood</summary>
 

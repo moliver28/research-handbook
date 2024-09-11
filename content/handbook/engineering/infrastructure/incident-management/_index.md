@@ -85,7 +85,7 @@ The EOC should reach out to the Incident Manager for support if help is needed o
 For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager Responsibilities](#incident-manager-im), second to mitigating and resolving the incident.
 
 1. **As EOC, your highest priority for the duration of your shift is the stability of GitLab.com.**
-1. The **first action of the EOC** is to evaluate whether the changes can be reverted. As soon as the impact is acknowledged, all application feature-flags should be reverted to their state before the start of the impact.
+1. When there is uncertainty of the cause of a degradation or outage, the **first action of the EOC** is to evaluate whether any changes can be reverted. It is always appropriate to toggle (to previous state) any recently changed application feature flags without asking for permission and without hesitation. The next step is to review Change Requests and validate the eligibility criteria for application rollbacks.
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
     1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#reliability-lounge` Slack channel.  If you are unable to find coverage reach out to a Reliability Engineering Manager for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.

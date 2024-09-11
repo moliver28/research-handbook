@@ -67,6 +67,8 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="product-security/application-security/">Application Security</a></li>
             <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
+            <li><a href="product-security/product-security-engineering/">Product Security Engineering</a></li>
+            <li><a href="product-security/architecture/">Security Architecture</a></li>
             <li><a href="product-security/security-research/">Security Research</a></li>
             <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
         </ul>

@@ -161,3 +161,54 @@ We are committed to improving the site's localization efforts and providing user
 ## Learn More
 
 For more technical details, please check [Language selector initial implementation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/merge_requests/177)
+
+## SEO
+
+### No-index pages
+
+In the common/no-index URLs file, we have a list of our no-index URLs to prevent hreflang from appearing on these pages. Please do not remove any pages from this file unless you're changing them to indexable URLs.
+
+## Core Web Vitals (CWV) Testing Documentation
+
+### Overview
+
+Core Web Vitals (CWV) are a set of metrics that Google considers essential for a healthy website. These metrics measure key aspects of user experience, including loading performance, interactivity, and visual stability. CWV is critical as it directly impacts SEO rankings and overall user satisfaction.
+
+### Key Metrics in CWV
+
+- **Largest Contentful Paint (LCP):** Measures loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
+- **First Input Delay (FID):** Measures interactivity. To provide a good user experience, pages should have an FID of less than 100 milliseconds.
+- **Cumulative Layout Shift (CLS):** Measures visual stability. To provide a good user experience, pages should maintain a CLS of less than 0.1.
+
+### CWV Testing Procedure
+
+When you makes changes that might affect CWV, it is crucial to perform before and after tests to measure the impact of those changes. Here’s the process:
+
+1. **Contact Point:**
+
+    - If you implement changes that could influence CWV metrics, contact [Miracle](https://gitlab.com/mirbanks) or [Hanif](https://gitlab.com/hsmith-watson) within the merge request (MR).
+    - Clearly describe the nature of the change and why it might affect CWV.
+
+2. **Before and After Testing:**
+
+    - [Miracle](https://gitlab.com/mirbanks) or [Hanif](https://gitlab.com/hsmith-watson) will create a set of before and after tests to evaluate the impact of the changes on CWV.
+    - Testing will be conducted on **3 URLs** that are representative of the site’s overall content and structure.
+    - The tests will be carried out using **DebugBear**, a reliable tool for monitoring CWV. **Lighthouse in DevTools should not be used** as it is known for discrepancies and may not provide consistent or accurate results.
+    - The goal is to compare the CWV metrics of these URLs before and after the change.
+
+3. **Monitoring in Google Search Console:**
+    - For significant changes, it may take approximately **one week** after the change is merged for Google Search Console to reflect the impact on CWV based on real user data.
+    - Monitoring these metrics in Google Search Console helps to confirm whether the changes have had the desired effect on actual site users.
+
+### Reporting and Follow-Up
+
+- After the testing is completed, results will be documented and shared with the team.
+- Any necessary adjustments or further optimizations based on the test results will be discussed and implemented accordingly.
+
+### Best Practices
+
+- Always initiate CWV testing for any changes that could impact loading performance, interactivity, or visual stability.
+- Utilize DebugBear for reliable monitoring, avoiding the use of Lighthouse in DevTools due to its inconsistencies.
+- Regularly monitor Google Search Console for any unexpected changes in CWV metrics.
+
+By following these guidelines, we ensure that any changes made to the website are thoroughly tested for their impact on user experience, maintaining a high standard for CWV across all pages.

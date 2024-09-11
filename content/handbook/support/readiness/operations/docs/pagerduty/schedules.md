@@ -148,7 +148,7 @@ This rotation is used for emergencies filed by customers during AMER hours.
     - Friday:    1800-0000
     - Saturday:  1800-0000
 
-### Customer Emergencies - APAC Group 1
+### Customer Emergencies - APAC Group 1 A
 
 This rotation is used for emergencies filed by customers during the first half
 of APAC hours.
@@ -167,7 +167,26 @@ of APAC hours.
     - Friday:    0000-0400
     - Saturday:  0000-0400
 
-### Customer Emergencies - APAC Group 2
+### Customer Emergencies - APAC Group 1 B
+
+This rotation is used for emergencies filed by customers during the first half
+of APAC hours.
+
+- [Schedule link](https://gitlab.pagerduty.com/schedules#PKAUGWW)
+- Timezone: UTC
+- Layer 4
+  - Rotation type: weekly
+  - Handoff time: Tuesday 0000
+  - Hours:
+    - Sunday:    0000-0400
+    - Monday:    0000-0400
+    - Tuesday:   0000-0400
+    - Wednesday: 0000-0400
+    - Thursday:  0000-0400
+    - Friday:    0000-0400
+    - Saturday:  0000-0400
+
+### Customer Emergencies - APAC Group 2 A
 
 This rotation is used for emergencies filed by customers during the second half
 of APAC hours.
@@ -186,11 +205,59 @@ of APAC hours.
     - Friday:    0400-0800
     - Saturday:  0400-0800
 
-### Customer Emergencies - EMEA
+### Customer Emergencies - APAC Group 2 B
+
+This rotation is used for emergencies filed by customers during the second half
+of APAC hours.
+
+- [Schedule link](https://gitlab.pagerduty.com/schedules#PZ42YQR)
+- Timezone: UTC
+- Layer 4
+  - Rotation type: weekly
+  - Handoff time: Tuesday 0400
+  - Hours:
+    - Sunday:    0400-0800
+    - Monday:    0400-0800
+    - Tuesday:   0400-0800
+    - Wednesday: 0400-0800
+    - Thursday:  0400-0800
+    - Friday:    0400-0800
+    - Saturday:  0400-0800
+
+### Customer Emergencies - EMEA Group 1
 
 This rotation is used for emergencies filed by customers during EMEA hours.
 
 - [Schedule link](https://gitlab.pagerduty.com/schedules#P9SV029)
+- Timezone: UTC
+- Layer 2 Hours:
+  - Rotation type: daily
+  - Handoff time: 0800
+  - Hours:
+    - Sunday:    N/A
+    - Monday:    0800-1600
+    - Tuesday:   0800-1600
+    - Wednesday: 0800-1600
+    - Thursday:  0800-1600
+    - Friday:    0800-1600
+    - Saturday:  N/A
+- Layer 3
+  - Rotation type: weekly
+  - Handoff time: Monday 0800
+  - Hours:
+    - Sunday:    0800-1600
+    - Monday:    N/A
+    - Tuesday:   N/A
+    - Wednesday: N/A
+    - Thursday:  N/A
+    - Friday:    N/A
+    - Saturday:  0800-1600
+
+### Customer Emergencies - EMEA Group 2
+
+This rotation is used for emergencies filed by customers during EMEA hours.
+
+- [Schedule link](https://gitlab.pagerduty.com/schedules#P7ML12U)
 - Timezone: UTC
 - Layer 2 Hours:
   - Rotation type: daily
@@ -291,9 +358,9 @@ hours.
     - Friday:    0800-1600
     - Saturday:  0800-1600
 
-### US Federal On-Call
+### US Government On-Call
 
-This rotation is used for emergencies filed by US Federal customers.
+This rotation is used for emergencies filed by US Government customers.
 
 - [Schedule link](https://gitlab.pagerduty.com/schedules#P89ZYHZ)
 - Timezone: Pacific Time (US & Canada)

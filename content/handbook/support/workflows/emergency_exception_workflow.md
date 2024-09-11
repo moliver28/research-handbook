@@ -28,7 +28,7 @@ An exception to the strict definition of emergency may be granted if any of the 
 
 Following is a sample list of problems a customer might submit to GitLab Support as an emergency. For each problem we describe variations that either would or would not qualify the problem as an emergency, and we provide a brief summary of our reasoning.
 
-#### A customer's license has expired and reached the end of the 14-day grace period, and the new license cannot be applied
+#### A license has expired and a new license cannot be applied
 
 - **Emergency**:  the absence of the paid features of GitLab is creating one or more of the problems listed under [Exception Criteria](#exception-criteria)
 - **Not Emergency**:  the customer is able to proceed with business mostly as usual without the paid features of GitLab

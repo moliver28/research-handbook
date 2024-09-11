@@ -12,9 +12,7 @@
         {{ if .is_key }}
         <li><a href="{{.base_path}}#{{ .name | anchorize }}">{{ .name }}
           {{ with .target}}(target: {{ . }}){{ end }}</a>
-          {{ if .sisense_data }}
-          <a href="https://app.periscopedata.com/app/gitlab/{{ .sisense_data.dashboard }}/?widget={{ .sisense_data.chart }}">📊</a>
-          {{ else if .urls }}
+          {{ if .urls }}
             {{$url := index .urls 0}}
             <a href="{{ $url }}">🔗</a>
           {{ else }}

@@ -54,6 +54,8 @@ The DRI for a given project can be identified by looking at the corresponding ep
 
 Additionally, we maintain a list of active projects and the assigned DRI on this page, in [What Are We Working On](#what-are-we-working-on).
 
+Authors of merge requests related to a specific project should request a review from the assigned DRI or backup DRI to ensure they are aware of the changes and can provide the necessary oversight.
+
 ## 📈 Measuring results
 
 ### OKRs

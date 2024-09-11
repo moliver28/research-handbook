@@ -149,9 +149,9 @@ Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions
 
 These are the projects that make the Demo Systems possible behind the scenes. You are welcome to study and learn from any of our source code. Each project is classified as `Public` or `Private` depenending on the security risk of the source code or information contained within.
 
-### Demo Systems v2
+### Demo Systems v2 (Deprecated)
 
-The Demo Systems v2 repositories can be found in [gitlab.com/gitlab-com/demo-systems](https://gitlab.com/gitlab-com/demo-systems).
+Please refer to this Handbook page for the latest information related to Demo Projects & Demo Repositories  [Shared CS Demos](/handbook/solutions-architects/demo-architect/#shared-cs-demos).
 
 - `Public` Underlying Terraform Modules and Ansible Role
   - [terraform-modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)

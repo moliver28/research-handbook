@@ -178,7 +178,7 @@ managing calls.
 Collaboration is one of GitLab's values, and helping others with their tickets
 offers you a daily opportunity to live that value. When all higher priority
 items are under control (see
-[Prioritizing work](/handbook/support/support-global-groups/#prioritizing-work)),
+[Prioritizing work](#prioritizing-work)),
 please look for ways to help other Support Engineers with their tickets, such
 as by engaging with your Support Pods, by contributing to senior help
 sessions, by contributing to crush sessions, by pairing on tickets,
@@ -214,7 +214,38 @@ shows the current values.
 - We believe in quality, not quantity. More is not necessarily better. GitLab
      gives you freedom to choose and trusts you to use good judgment in
      exercising that freedom as you make daily decisions about
-     [Prioritizing work](/handbook/support/support-global-groups/#prioritizing-work).
+     [Prioritizing work](#prioritizing-work).
+
+## Prioritizing work
+
+Each Intermediate and Senior Support Engineer should generally be prioritizing their daily work according to the following list. Interviews, training, special assignments and other time-bound commitments are examples of good temporary exceptions to these priorities.
+
+You should think of this list as a tool for helping you to make decisions. When there are multiple things to be done, these priorities should guide you toward deciding which of them to do first.
+
+1. Handle:
+   - emergencies if you are the Support Engineer On-Call, or if the Engineer On-Call needs help
+   - incidents if you are the CMOC
+   - [account escalations](/handbook/customer-success/csm/escalations/) if you are a DRI or contributing member on an active escalation
+1. Handle [STARred tickets](/handbook/support/internal-support/support-ticket-attention-requests/) that are assigned to you
+   - assigned tickets that are STARred will ping the assignee and on-call manager
+   - if your ticket is STARred during your business hours, plan to engage in the STAR thread created in the #support_ticket-attention-requests Slack channel to help address any questions or concerns
+   - if your ticket is STARred outside of your business hours, you are not expected to engage, but do plan to follow up when you’re back online. The on-call manager will address any immediate needs.
+1. Take tickets from the Global View, working from the top down
+   - for a new ticket, provide a meaningful first response within SLA
+   - for a rehomed ticket, let the customer know you've received their ticket,
+     and set expectations for what will happen next
+1. Participate in your [Support Pods](/handbook/support/workflows/working-with-pods/)' work
+1. Make sure your assigned tickets are all up to date and progressing appropriately
+1. Help on tickets assigned to others by:
+   - posting an internal note with relevant helpful information, OR
+   - answering questions the assignee has posted to Slack, OR
+   - asking the assignee if they’d like to pair on the ticket, OR
+   - responding directly to the customer, **preferably only if a response is
+     needed urgently AND the assignee is unavailable to work the ticket**
+1. Attend to indirect ticket work you have to do, such as:
+   - docs updates
+   - issue creation or contributions
+   - training
 
 ## Participate in on-call rotations to coordinate and resolve emergencies (Occasionally)
 

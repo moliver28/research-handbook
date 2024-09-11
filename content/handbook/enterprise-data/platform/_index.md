@@ -341,6 +341,7 @@ This list of functional roles gives a high level understanding of what the role 
 | `analyst_marketing` |  Access to all `PROD` data, meta data in the Data Platform and marketing related data sources. | Yes |
 | `analyst_people` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources, including sensitive people data. | Yes |
 | `analyst_sales` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources | Yes |
+| `analyst_support` |  Access to `PROD` data, meta data in the Data Platform and `raw` / `prep` Zendesk data, including sensitive Zendesk data | No |
 | `analytics_engineer_core` |  A combination of `analyst_core`, `data_team_analyst` role with some additions | Yes |
 | `data_manager` | Extension access to Snowflake data  | Yes |
 | `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |

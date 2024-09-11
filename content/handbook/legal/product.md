@@ -69,6 +69,10 @@ Contributions to a third-party project on behalf of GitLab should be made using 
 
 Alternatively, if looking for information on contributing to GitLab see [here](https://about.gitlab.com/community/contribute/dco-cla/).
 
+## Authorship Criteria
+
+GitLab has established guidance to aid with determining authorship of academic papers developed at GitLab. This guidance is accessible to team membery only [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/#authorship-criteria)
+
 ## GPL Cooperation Commitment
 
 The purpose behind this initiative is to ensure consistent and fair licensing enforcement for breaches of certain licensing terms, in order to support the continued growth of the open source community. Further information on this initiative is available [here](https://opensource.com/article/18/11/gpl-cooperation-commitment).

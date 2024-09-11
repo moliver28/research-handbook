@@ -73,6 +73,8 @@ SAFE Data in Snowflake is stored in separate schemas. Schemas with SAFE Data are
 - It's up to the engineer to determine if and which tag needs to be applied. Check the data that is exposed in your model against the GitLab SAFE [Framework](/handbook/legal/safe-framework/). If there is doubt, reach out in the. `#SAFE` channel in Slack.
 - The CI pipeline is there to help and check fact based (upstream model tags versus current model tags).
 
+This [video](https://www.youtube.com/watch?v=ICOuerPeAUU) provides an overview of the SAFE Data Program implementation on Snowflake.
+
 The following diagram describes the process in detail when handling or referencing SAFE Data.
 
 ![MR Process](mnpi_dbt_models.png)

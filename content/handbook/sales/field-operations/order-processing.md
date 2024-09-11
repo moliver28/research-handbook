@@ -162,7 +162,7 @@ The SuperSonics Billing and Subscription Management Experience applies to all el
 
 Specific fields have been added to the Quote object to support SuperSonics Functionality. These fields will appear on two sections of the quote object.
 
-**Zuora Fields**
+##### Zuora Fields
 
 This section contains a number of fields that show the current state of each SuperSonics feature (Auto-Renewal, Quarterly Subscription Reconciliation, Operational Data). The "Contract" fields show whether the customer is contractually eligible for the related feature. The "Turn On" fields show whether that feature is actually enabled on the subscription.
 
@@ -183,7 +183,7 @@ For customers who are not exempt, the default values will be "Yes" for all field
 
 Note: there is no contractual field for Cloud Licensing as sending Cloud License [Subscription Data](/handbook/legal/privacy/customer-product-usage-information/#subscription-data) is part of the standard GitLab's standard Subscription Agreement.
 
-**Cloud Licensing Fields**
+##### Cloud Licensing Fields
 
 The fields in this section enable contractual opt-outs for each SuperSonics feature. If you wish to request an opt-out of Auto-Renewal, Quarterly Subscription Reconciliation, or Operational Data, you must check the applicable box on the quote object. Checking these boxes will trigger an approval workflow, and will ultimately insert legal language onto the Order Form that opts the customer out of the related feature. If any of these boxes are checked, and the opt-out is approved, the related Zuora Fields will reset to "No."
 
@@ -198,18 +198,18 @@ The fields in this section enable contractual opt-outs for each SuperSonics feat
 
 The below process applies to any existing customers with an active subscription who have QSR enabled, and who exceed their billable user count during the subscription term.
 
-**Criteria:**
+##### Criteria
 
 - Existing customer has an active subscription with QSR enabled.
 - Customer exceeds their subscription amount (Max Users > Seats in Subscription) at any point during the quarter. This amount is "locked in" as the overage quantity for the quarter, "previewed" as invoice amount in Zuora, and stored in the CustomersDot database.
 
-**Timeline:**
+##### Timeline
 
 - A reconciliation occurs at the end of the first, second, and third quarter of the customer's subscription.
   - For SaaS, group owners receive an email on the reconciliation date. The email communicates the overage seat quantity and expected invoice amount.
   - For Self-Managed, administrators receive an email six days after the reconciliation date. This email communicates the overage seat quantity and expected invoice amount.
 
-**Opportunity Creation:**
+##### Opportunity Creation
 
 - On the date the reconciliation email is sent to the customer warning them of the planned QSR, an open Opportunity is created in Salesforce with the title: "[Account Name] - QSR - [Effective Date]"
   - Amount = Invoice Amount
@@ -217,7 +217,7 @@ The below process applies to any existing customers with an active subscription 
   - Stage = 6-Awaiting Signature
   - Close Date = Date of planned closure (7 days from opportunity creation)
 
-**Opportunity Closure:**
+##### Opportunity Closure
 
 - 7 days after opportunity creation,  we perform the reconciliation by committing an amendment to the subscription in Zuora and generating an invoice which is sent to the customer. At this time, in Salesforce:
   - The opportunity becomes Closed Won automatically
@@ -231,7 +231,7 @@ The below process applies to any existing customers with an active subscription 
 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
 
-**Steps to Request an Opt-Out:**
+##### Steps to Request an Opt-Out
 
 1. Navigate to the Cloud Licensing Fields section of the quote, and check the box next to the applicable SuperSonics Feature (i.e. Add Auto-Renewal Opt-Out). Click Save.
 
@@ -246,7 +246,7 @@ During the Sales process, a customer who would not otherwise be exempt from Auto
 
 During the Sales process, there may be a need for Sales to "pause" an upcoming Auto-Renewal or Quarterly Subscription Reconciliation while negotiating with the customer. Every pause will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If a pause is requested and approved, that feature will be temporarily disabled for the subscription in question until the next renewal occurs. A pause is not possible for Cloud Licensing.
 
-**Steps to Request a Pause:**
+##### Steps to Request a Pause
 
 1. Navigate to the applicable opportunity in SFDC.
 2. Write a message in chatter explaining why you'd like to pause Auto-Renewal or Quarterly Reconciliation for the subscription. Tag @Sales-Support to request approval. Note that justification will be required.

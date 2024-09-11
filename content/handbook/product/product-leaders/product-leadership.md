@@ -42,11 +42,11 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-05-20 | Steve Evangelista | [17.1 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13349) |
 | 2024-06-18 | Mike Flouton | [17.2 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13455) |
 | 2024-07-18 | Justin Farris | [17.3 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13519) |
-| 2024-08-19 | Hillary Benson | To be added |
-| 2024-09-18 | Steve Evangelista | To be added |
-| 2024-10-17 | Mike Flouton | To be added |
-| 2024-11-18 | Justin Farris | To be added |
-| 2024-12-18 | Hillary Benson | To be added |
+| 2024-08-19 | Hillary Benson | [17.4 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13573) |
+| 2024-09-18 | Jackie Porter | [17.5 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13636) |
+| 2024-10-17 | Steve Evangelista | To be added |
+| 2024-11-18 | Mike Flouton | To be added |
+| 2024-12-18 | Justin Farris | To be added |
 
 ## Product Key Review Leader Rotation
 

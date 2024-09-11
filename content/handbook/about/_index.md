@@ -65,8 +65,6 @@ On this page you can see handbook trends and discover popular pages that you may
 
 GitLab uses [Snowplow](/handbook/business-technology/data-team/platform/snowplow/) to track handbook usage; the information can be viewed on [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/PDGitlabHandbookPageTraffic/GitLabHandbookTraffic).
 
-<iframe class="dashboard-embed" src="https://app.periscopedata.com/shared/91e74f80-a1e7-4e88-976b-727a9e4454ed??embed=true" width="600" height="400"> </iframe>
-
 ## More about the handbook
 
 We've gathered *some* information about the handbook here, but there's still more elsewhere.

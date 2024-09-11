@@ -126,6 +126,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. Most IaC changes to pets - Postgres, Redis, and other Single Points of Failure.
 1. Load Balancer Configuration - major changes to backends or front ends, fundamental to traffic flow.
 1. IaC changes to production Virtual Machines outside of Kubernetes when there is a decrease.
+1. Major changes to Teleport, which is essential for troubleshooting production issues.
 1. Major changes to alerting routing or integrations.
 1. Any procedural invocation such as a SQL script, a ruby script module, a rake task which is performed on a production console server, either using `gitlab-rails` or `gitlab-rake` should be considered as a Criticality 2 change.
 
@@ -279,6 +280,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
+| 2024-09-11 14:00 UTC -> 2024-09-13 14:00 UTC | Hard | Providing space and preserving availability due to high S1/S2 incident rate. See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25799) for more information.  |
 | 2024-09-03 15:00 UTC -> 2024-09-04 15:00 UTC | Hard | Aiding investigation for #18489 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |

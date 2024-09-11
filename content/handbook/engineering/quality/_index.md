@@ -295,7 +295,7 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |
 | Quality Department Social Call | All team members | All team members | Every 2 weeks | Meet and Greet |
 | Quality Hiring Bi-Weekly | All QEMs, Directors, and VP | `TBD` | Every 2 weeks | Review meeting |
-| Ops section stakeholder review | `TBD` | `@dcroft` | Every 4 weeks | Review meeting |
+| Ops section stakeholder review | `TBD` | `TBD` | Every 4 weeks | Review meeting |
 | Enablement Sync with AppSec | `@vincywilson` | `TBD` | Monthly | Review meeting |
 
 ## Quality Engineering initiatives

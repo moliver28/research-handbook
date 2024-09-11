@@ -227,8 +227,8 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | June  |           |       |          |
 | July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
 | August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
-| September |  @bshah11     |    TBD  ||
-| October | @mkaeppler | Life of a Cloud Connector request |          |
+| September | @mkaeppler | Life of a Cloud Connector request |          |
+| October |  @bshah11     |    TBD  ||
 | November |        |       |          |
 | December |        |       |          |
 
@@ -251,3 +251,11 @@ The following conditions are followed when initiating the process:
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
 4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an 'Internship') with another team.'
+
+## Collaborations and Requests For Help Cross Org
+
+We are piloting a process within Core Platform to standardize how we interact and respond to Collaboration requests from other organizations such as Professional Services or Customer Success Teams. Each team will use a template similar to [this](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Collaboration%20Template.md) where specific information similar to an RFH template is used to help streamline any calls for Product/Engineering to participate in cross group collaborations or customer calls where engineer expertise is required.  
+
+### Collaboration and RFH Templates
+
+Refer to https://gitlab.com/gitlab-com/enablement-sub-department/section-enable-request-for-help for details.

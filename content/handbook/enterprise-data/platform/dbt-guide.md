@@ -169,6 +169,15 @@ sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
 
 [Video Introduction](https://youtu.be/MwVJHf7XvrI)
 
+#### SAFE Check Locally
+
+To test for SAFE coverage in model the same `safe_model_script` process can be used that is used in the [CI Job](/handbook/enterprise-data/platform/ci-jobs/#safe_model_script).  To run the process, run the `make safe-check` command from within the virtual environment.
+
+```console
+ ~/repos/analytics/transform/snowflake-dbt
+╰─$ make safe-check
+```
+
 #### Cloning models locally
 
 This command enables zero copy cloning using DBT selections syntax to clone entire lineages. This is far faster and more cost-effective than running the models using DBT but do not run any DBT validations. As such, all dbt users are encouraged to use this command to set up your environment.
