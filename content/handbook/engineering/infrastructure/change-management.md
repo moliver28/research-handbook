@@ -280,7 +280,6 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
-| 2024-09-11 14:00 UTC -> 2024-09-13 14:00 UTC | Hard | Providing space and preserving availability due to high S1/S2 incident rate. See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25799) for more information.  |
 | 2024-09-03 15:00 UTC -> 2024-09-04 15:00 UTC | Hard | Aiding investigation for #18489 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
