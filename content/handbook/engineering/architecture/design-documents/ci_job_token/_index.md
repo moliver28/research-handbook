@@ -210,6 +210,7 @@ class JobToken
   PERMISSIONS = [
     :admin_terraform_state,
     :build_create_container_image,
+    # ...
     :update_pipeline,
     :update_release
   ].freeze
