@@ -51,7 +51,7 @@ The QTR report is designed to provide division leadership with key organizationa
 
 **1. Workforce Metrics**
 
-* **Span of control**
+* **Span of control
     * Attrition rates
     * Headcount
     * Promotion rate
