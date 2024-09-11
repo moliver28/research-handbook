@@ -80,73 +80,81 @@ permissions for each token.
 
 ## Proposal
 
-Instead of issuing a `CI_JOB_TOKEN` with full access to all resources available
-to the user who triggered the pipeline, we propose generating a token with a
-reduced permission set, granting access only to the resources necessary for the
-specific job.
+This document proposes a change in the handling of `CI_JOB_TOKEN` to enhance
+security and fine-tune resource access. Rather than issuing a token with full
+access to all resources available to the user who triggered the pipeline, the
+new design will generate a token with a reduced permission set, providing access
+only to the resources needed for the specific job.
 
-The token's final permissions will be determined by the intersection of the
-following three models:
+The token's final set of permissions will be the result of the intersection of
+the following three models:
 
-- **User Role:** Defines the user's overarching permissions, ensuring auditability and support for varying environments or refs (e.g., protected vs. non-protected branches).
-- **Job Token Scope (Allowlist):** Inbound permissions that act as the boundary, specifying the maximum access the token can grant.
-- **Job-Level Permissions (`permissions` key):** Outbound permissions that specify the minimum resources required by the job.
+- **User Role:** Defines the overall permissions of the user, ensuring proper auditability and supporting different environments or refs, such as protected versus non-protected branches.
+- **Job Token Scope (Allowlist):** Serves as a boundary, specifying the maximum allowable access the token can grant.
+- **Job-Level Permissions (`permissions` key):** Specifies the minimal set of permissions required by the job to operate.
 
-To determine the level of access that a token should have we will take the full
-set of access that the user who triggerred the pipeline has. Then we will reduce
-that set of permissions down to projects that have an allow list entry. We can
-reduce this set of permissions down further to the set of permissions defined
-directly on the allow list entry. Then we can reduce the set of permissions down
-further to the permissions that are encoded in a `.gitlab-ci.yml` or other
-source. The act of starting with the widest set of permissions first and then
-narrowing it down further and further until we have the smallest set of
-allowable permissions will reduce the scope of access that this token can have.
-Initially, the set of permissions that can be encoded will be limited to the
-permissions listed in the [permissions section](#permissions) of this document.
-This fixed list of permissions ensures that the `CI_JOB_TOKEN` cannot access new
-API endpoints unless explicitly included in this list.
+To determine the exact level of access granted to a token, we will begin by
+identifying the full set of access permissions available to the user who
+triggered the pipeline. This set will be progressively narrowed:
+
+1. First, by limiting access to projects that appear on the allowlist.
+2. Then, by restricting access based on the permissions defined for each project on the allowlist.
+3. Finally, by further refining permissions via the configuration in `.gitlab-ci.yml` or other sources.
+
+This process of starting with broad permissions and narrowing down through
+several layers will ensure that the token's access is minimized to the smallest
+necessary set of permissions. Initially, the set of permissions that can be
+encoded into the token will be limited to those listed in the
+[permissions section](#permissions) of this document. This predefined list
+ensures that the `CI_JOB_TOKEN` cannot inadvertently access new API endpoints
+unless explicitly permitted.
 
 ### Current Authorization Logic
 
-At present, authorization checks typically validate whether a user can perform
-a specific action on a given resource, commonly expressed as:
+Authorization today typically follows this pattern:
 
 ```ruby
 can?(user, :ability, resource)
 ```
 
+This checks whether a user has permission to perform a specific action on a
+given resource. While effective, this approach requires repeated access checks
+at request time, which can become inefficient and introduce security risks as
+APIs evolve.
+
 ### Proposed Design
 
-The proposed approach encodes the authorization information directly into the
-token itself, enabling services to make authorization decisions based solely
-on the token's contents. By embedding the necessary permissions into the token,
-this design allows for authorization to be enforced in services that do not have
-access to declarative policies or a database. This shifts the evaluation of
-resource access from request-time to token generation, effectively pre-computing
-policy decisions and encoding them within the token.
+The new design encodes all necessary authorization information directly within
+the token. This shifts the burden of resource access evaluation from
+request-time to token generation, allowing services to enforce authorization
+decisions based solely on the token's contents, even if they lack access to
+declarative policies or the database. By pre-calculating and embedding policy
+decisions in the token, we reduce runtime authorization complexity while
+maintaining security.
 
-### CI_JOB_TOKEN with Pre-Defined Permissions
+### `CI_JOB_TOKEN` with Pre-Defined Permissions
 
-We will introduce support for generating `CI_JOB_TOKEN`s with a specific,
-reduced set of permissions tailored to the needs of each job.
+This design supports generating `CI_JOB_TOKEN`s with a tailored, reduced
+permission set to meet the needs of specific jobs.
 
-To ensure the job is issued a token with appropriate permissions, the user must
-have the required access prior to pipeline execution, and CI allowlist rules
-must be established for any external resources.
+To ensure the correct permissions are applied to the job, the user must have
+the required access prior to pipeline execution. Additionally, CI allowlist
+rules must be configured to manage access to external project resources.
 
-Once the user's permissions are confirmed, an ephemeral job token is generated,
-which adheres to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
-standard and contains a digital signature for validation. Upon receiving the
-`CI_JOB_TOKEN`, the API will verify the token’s signature and execute the
-request based on the permissions encoded within the token’s `scope` claim.
+Once these conditions are met, an ephemeral job token will be generated. This
+token adheres to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
+standard and contains a digital signature to ensure its authenticity. When the
+`CI_JOB_TOKEN` is presented to the API, the signature will be validated, and the
+request will be processed based on the token’s `scope` claim, which defines the
+permissions it carries.
 
-This mechanism allows for issuing tokens with restricted access, even if the
-user holds broader permissions.
+This approach allows us to issue tokens with reduced access, even when the user
+has broader permissions.
 
 ### JWT Token Structure
 
-The `CI_JOB_TOKEN` will include the following JWT payload, aligned with the
-permission models described in the proposal:
+The `CI_JOB_TOKEN` will follow this JWT structure, based on the permission
+models discussed:
 
 ```json
 {
@@ -159,14 +167,13 @@ permission models described in the proposal:
 }
 ```
 
-- `sub`: Represents the token subject as a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
-- `exp`: The token's expiration time, typically tied to the maximum duration of the CI job.
-- `scope`: Defines the permissions associated with the token. These are bound to specific resources, identified by their Global ID.
+- **`sub`**: The subject of the token, represented as a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
+- **`exp`**: Token expiration, usually tied to the maximum duration of the CI job.
+- **`scope`**: Permissions associated with the token, bound to specific resources by Global ID.
 
 ### Example: JWT Token Generation
 
-Below is an example demonstrating how to generate a JWT token using the defined
-JWT payload:
+Here's an example of how a JWT token would be generated using this design:
 
 ```ruby
 jwt = ::Authz::Token.jwt(subject: job, permissions: {
@@ -177,9 +184,8 @@ jwt = ::Authz::Token.jwt(subject: job, permissions: {
 
 ### Integration with Declarative Policy
 
-The system will check if the required permissions are encoded in the JWT token
-before falling back to the existing `Declarative Policy` framework if necessary.
-This is how the logic would look:
+The system will check the token's embedded permissions before falling back to
+the standard `Declarative Policy` checks if necessary:
 
 ```ruby
 module Gitlab
@@ -192,10 +198,10 @@ module Gitlab
 end
 ```
 
-### Example: Generating a `CI_JOB_TOKEN`
+### Example: `CI_JOB_TOKEN` Generation
 
-Here is an example of generating a `CI_JOB_TOKEN` using the rules outlined
-above:
+Here's an example of how a `CI_JOB_TOKEN` could be generated based on this
+proposal:
 
 ```ruby
 class JobToken
@@ -235,21 +241,21 @@ end
 
 ### Extending the Design
 
-The design can be extended to other token types, such as personal access tokens,
-while maintaining the same authorization logic. However, token generation can
-introduce domain-specific complexity and rules, providing flexibility for
-different contexts.
+This design can be extended to other token types, such as personal access
+tokens, while maintaining the same core authorization logic. However, the rules
+governing token generation may vary to accommodate domain-specific needs,
+offering flexibility while maintaining security.
 
 ### Pros
 
-- Reduces the need for storing temporary role-related data in the database.
-- Supports concurrent pipelines within the same project, with independent access controls.
-- Simplifies runtime authorization decisions by moving them to token generation.
-- Enables enforcement of authorization policies across different services.
+- Reduces the need to store temporary role-related data in the database.
+- Enables concurrent pipelines with independent access controls for different commits.
+- Simplifies runtime authorization decisions by shifting them to token generation.
+- Allows enforcement of authorization policies across various services.
 
 ### Cons
 
-- The token size may increase due to embedded permissions.
+- Token size may increase due to embedded permissions.
 
 ### Permissions
 
