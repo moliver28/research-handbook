@@ -92,38 +92,52 @@ following three models:
 - **Job Token Scope (Allowlist):** Inbound permissions that act as the boundary, specifying the maximum access the token can grant.
 - **Job-Level Permissions (`permissions` key):** Outbound permissions that specify the minimum resources required by the job.
 
-Currently, authorization logic typically verifies whether a user can perform an
-action on a specific resource, often represented as:
+To determine the level of access that a token should have we will take the full
+set of access that the user who triggerred the pipeline has. Then we will reduce
+that set of permissions down to projects that have an allow list entry. We can
+reduce this set of permissions down further to the set of permissions defined
+directly on the allow list entry. Then we can reduce the set of permissions down
+further to the permissions that are encoded in a `.gitlab-ci.yml` or other
+source. The act of starting with the widest set of permissions first and then
+narrowing it down further and further until we have the smallest set of
+allowable permissions will reduce the scope of access that this token can have.
+Initially, the set of permissions that can be encoded will be limited to the
+permissions listed in the [permissions section](#permissions) of this document.
+This fixed list of permissions ensures that the `CI_JOB_TOKEN` cannot access new
+API endpoints unless explicitly included in this list.
+
+## Design and implementation details
+
+Currently, authorization logic typically checks whether a user has the ability
+to perform a specific action on a resource, often represented as:
 
 ```ruby
 can?(user, :ability, resource)
 ```
 
-The proposed design encodes this information into the token itself, allowing
-authorization decisions to be made based on the token’s contents. By embedding
-all necessary information for authorization directly within the token, we enable
-enforcement in services that lack access to declarative policies or the
-database. This shifts the evaluation of resource access from request-time
-authorization to token generation, effectively pre-calculating policy decisions
-and encoding them within the token.
+The proposed design shifts this logic by encoding the necessary authorization
+information directly into the token. This allows authorization decisions to be
+made based on the token's contents. By embedding the required permissions within
+the token itself, we can enforce authorization in services that do not have
+access to declarative policies or the database. This approach moves the
+evaluation of resource access from request-time authorization to token
+generation, pre-calculating policy decisions and embedding them within the
+token.
 
-## Design and implementation details
+We will introduce support for generating `CI_JOB_TOKEN` with specific,
+pre-defined permissions, enabling a reduced permission set as needed.
 
-We will introduce support for defining `CI_JOB_TOKEN` with specific permissions
-encoded into it, allowing for a reduced set of permissions as needed.
-
-To ensure that the job receives a token with the appropriate permissions, the
-user's account must be granted these permissions prior to pipeline execution,
-and CI allowlist rules must be established for any permissions on external
-project resources.
+To ensure the job receives a token with appropriate permissions, the user's
+account must have the required permissions before pipeline execution, and CI
+allowlist rules must be configured for any external project resource access.
 
 When the user has the necessary permissions, they will be encoded into an
 ephemeral job token. This token, which adheres to the [JWT](https://datatracker.ietf.org/doc/html/rfc7519)
 standard, will include a digital signature for validation. Upon receiving the
-`CI_JOB_TOKEN,` an API will verify the token's signature and process the request
+`CI_JOB_TOKEN`, an API will verify the token's signature and execute the request
 according to the permissions specified in the token's `scope` claim.
 
-This mechanism allows a token to be issued with reduced access, even if the
+This mechanism allows for issuing a token with reduced access, even if the
 user's account has broader permissions.
 
 The `CI_JOB_TOKEN` will be encoded with the following JWT payload, adhering to
