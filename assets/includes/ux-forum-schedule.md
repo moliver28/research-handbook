@@ -1,7 +1,5 @@
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-08-21 | Justin Mandell       | Chad Lavimoniere       | Dan Mizzi-Harris       | Ilonah Pelaez          |
-| 2024-09-04 | Chris Micek          | Lina Fowler            | Becka Lippert          | Marcin Sędłak-Jakubowski and Lorena Ciutacu |
 | 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |   Ian Gloude           |
 | 2024-10-02 | Rayana Verissimo     | Sunjung Park           | Nick Brandt   |                         |
 | 2024-10-16 | Paul Wright          | Emily Bauman           | Veethika Mishra       |                        |
