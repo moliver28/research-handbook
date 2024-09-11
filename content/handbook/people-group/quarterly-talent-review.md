@@ -70,8 +70,8 @@ The QTR report is designed to provide division leadership with key organizationa
       * Actions on this slide will continue to be tracked during each review and updated as needed depending on progress made and what each quarter’s data reveals.
 
 **5. COE Updates (DIB, TA)**
-    * What’s top of mind for Diversity, Inclusion & Belonging (DIB)
+  * What’s top of mind for Diversity, Inclusion & Belonging (DIB)
       * This slide will allow DIB to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
-    * What’s top of mind for Talent Acquisition (TA) 
+  * What’s top of mind for Talent Acquisition (TA) 
       * This slide will allow TA to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
-    * Opportunity on an as-needed basis for other CoEs to spotlight key upcoming initiatives.
+  * Opportunity on an as-needed basis for other CoEs to spotlight key upcoming initiatives.
