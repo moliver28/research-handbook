@@ -223,19 +223,13 @@ class JobToken
 
   def to_jwt
     allowed = Hash.new { |hash, key| hash[key] = [] }
-    each_project do |project|
+    allowlist = ::Ci::JobToken::Allowlist.new(build.project)
+    allowlist.projects.each do |project|
       PERMISSIONS.each do |permission|
         allowed[permission] << project if can?(build.user, permission, project)
       end
     end
     ::Authz::Token.jwt(subject: build, permissions: allowed)
-  end
-
-  private
-
-  def each_project
-    allow_list = ::Ci::JobToken::Allowlist.new(build.project)
-    allow_list.projects.each { |project| yield project }
   end
 end
 ```
