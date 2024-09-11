@@ -190,10 +190,67 @@ module Gitlab
 end
 ```
 
+Below is an example of how we can generate a `CI_JOB_TOKEN` using the rules and
+API described above:
+
+```ruby
+class JobToken
+  include ::Gitlab::Allowable
+
+  PERMISSIONS = [
+    :admin_terraform_state,
+    :build_create_container_image,
+    # ...
+    :update_pipeline,
+    :update_release
+  ].freeze
+
+  attr_reader :build
+
+  def initialize(build)
+    @build = build
+  end
+
+  def to_jwt
+    allowed = Hash.new { |hash, key| hash[key] = [] }
+    each_project do |project|
+      PERMISSIONS.each do |permission|
+        allowed[permission] << project if can?(build.user, permission, project)
+      end
+    end
+    ::Authz::Token.jwt(subject: build, permissions: allowed)
+  end
+
+  private
+
+  def each_project
+    allow_list = ::Ci::JobToken::Allowlist.new(build.project)
+    allow_list.projects.each { |project| yield project }
+  end
+end
+```
+
+The code listed above includes a fixed list of permissions that restrict access
+to specific API endpoints. It reduces the access to a fixed list of projects
+governed by CI allow list rules and can be extended further to reduce the
+allowed set of permissions down further through new innovative product
+initiatives such as the introduction of the `permissions` syntax to the
+`.gitlab-ci.yml` file or by encoding explicit permissions into the allow list
+entry. The point is that each team has the autonomy to decide which permissions
+can be encoded in their respective product areas token and can reduce the set of
+permissions further by deciding where to store this information.
+
+This same design can be extended to other tokens as well such as the personal
+access token. The authorization logic would remain the same but the way that the
+token is generated can have domain specific complexity and rules to govern its
+creation.
+
 **Pros:**
 
 - Eliminates the need to store additional data in the database for temporary roles associated with each job.
 - Enabling concurrent pipelines within the same project for different commits to operate with appropriate access controls independently.
+- Reduces the complexity of runtime authorization policy decisions.
+- Creates an opportunity to enforce authz policies in additional services.
 
 **Cons:**
 
