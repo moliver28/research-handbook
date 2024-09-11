@@ -30,9 +30,32 @@ delivering incremental value along the way.
 ## Motivation
 
 Currently, when a CI job runs, it is provided with a `CI_JOB_TOKEN`, which the
-job can use to interact with other GitLab resources. This token is bound to the
-identity of the user who triggered the CI job, carrying a defined and immutable
-set of permissions based on that user's identity and access levels.
+job uses to interact with GitLab resources. This token is tied to the identity
+of the user who triggered the CI job, carrying a fixed set of permissions based
+on that user's roles and access levels.
+
+When an API request includes a `CI_JOB_TOKEN`, the authorization process checks
+the role of the user who triggered the pipeline and restricts access to the API
+using CI allowlist rules. However, this method of computing the runtime access
+of the `CI_JOB_TOKEN` can unintentionally expose new APIs, increasing the risk
+of abuse.
+
+Authorization behavior varies based on the type of token presented, and these
+differences can create gaps in enforcement as new API endpoints are introduced
+or modified.
+
+At present, authorizing a request requires access to both declarative policies
+and the database, with authorization decisions recalculated for every API
+request using the same token.
+
+This proposal introduces a standardized token format that can be applied across
+the various token types in use today, simplifying the process of authorization.
+One of the key benefits of this design is enabling service-to-service and direct
+client-to-API authorization without needing to access declarative policies or
+the database. This approach supports new services, such as those deployed by
+[Runway](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/tools/runway/),
+allowing them to expose public-facing APIs while ensuring secure authorization
+using the token's embedded information.
 
 ### Goals
 
@@ -58,16 +81,31 @@ permissions for each token.
 ## Proposal
 
 Instead of issuing a `CI_JOB_TOKEN` with full access to all resources available
-to the user who triggered the pipeline, we will generate a token with a reduced
-permission set, granting access only to the resources necessary for the specific
-job.
+to the user who triggered the pipeline, we propose generating a token with a
+reduced permission set, granting access only to the resources necessary for the
+specific job.
 
-The final permissions for the token will be determined by the intersection of
-the following three models:
+The token's final permissions will be determined by the intersection of the
+following three models:
 
-- **User Role:** Governs the user’s overall permissions, ensuring proper audit trails and supporting different environments or refs, such as protected versus non-protected.
-- **Job Token Scope (Allowlist):** Inbound permissions that define the maximum allowable access for the token, acting as a boundary.
-- **Job-Level Permissions (`permissions` key):** Outbound permissions that define the minimal resource access required by the job.
+- **User Role:** Defines the user's overarching permissions, ensuring auditability and support for varying environments or refs (e.g., protected vs. non-protected branches).
+- **Job Token Scope (Allowlist):** Inbound permissions that act as the boundary, specifying the maximum access the token can grant.
+- **Job-Level Permissions (`permissions` key):** Outbound permissions that specify the minimum resources required by the job.
+
+Currently, authorization logic typically verifies whether a user can perform an
+action on a specific resource, often represented as:
+
+```ruby
+can?(user, :ability, resource)
+```
+
+The proposed design encodes this information into the token itself, allowing
+authorization decisions to be made based on the token’s contents. By embedding
+all necessary information for authorization directly within the token, we enable
+enforcement in services that lack access to declarative policies or the
+database. This shifts the evaluation of resource access from request-time
+authorization to token generation, effectively pre-calculating policy decisions
+and encoding them within the token.
 
 ## Design and implementation details
 
