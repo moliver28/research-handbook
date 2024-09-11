@@ -124,9 +124,10 @@ This framework is used to store encrypted data at rest in the database. It is no
 
 ## Proposal
 
-There are two changes proposed in this document:
+There are three changes proposed in this document:
 
 - Routable Tokens: directly required by Cells 1.0.
+- Move away from storing new tokens as hashed. While it is considered more secure in terms of storage at rest, it prevents Org Mover from migrating these tokens. Instead, use asymmetric encryption, allowing tokens to be be decrypted if needed. However, this operation would not be accessible by default to running application.
 - Support for many encryption keys: directly required by [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857) to be able to re-encrypt data stored at rest.
 
 ### Routable Tokens
