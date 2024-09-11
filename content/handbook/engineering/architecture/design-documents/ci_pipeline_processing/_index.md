@@ -87,10 +87,14 @@ job1:
   stage: test
   when: manual
   allow_failure: true # default
+  script: exit 0
 
 job2:
   stage: deploy
+  script: exit 0
 ```
+
+![Problem 2 Example 1](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-2-example-1.png){width=50%}
 
 Currently;
 
@@ -120,15 +124,27 @@ For example;
 
 ```yaml
 job1:
+  stage: build
   script: ls
   when: manual
 
+next_job1:
+  stage: test
+  script: exit 0
+
 job2:
+  stage: test
   script: ls
   rules:
-    - if: $ALWAYS_TRUE
+    - if: $ALWAYS_TRUE != "asdsad"
       when: manual
+
+next_job2:
+  stage: deploy
+  script: exit 0
 ```
+
+![Problem 2 Example 2](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-2-example-2.png){width=50%}
 
 `job1` and `job2` behave differently;
 
@@ -168,6 +184,8 @@ test:
   needs: [build]
 ```
 
+![Problem 3-1 Example 1](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-3-1-example-1.png){width=50%}
+
 - `build` is ignored (skipped) because it's `when: manual` with `allow_failure: true`.
 - `test` is skipped because "ignored" is not a successful state in the DAG processing.
 
@@ -184,6 +202,8 @@ test:
   stage: test
   script: exit 0
 ```
+
+![Problem 3-1 Example 2](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-3-1-example-2.png){width=50%}
 
 - `build` is ignored (skipped) because it's `when: manual` with `allow_failure: true`.
 - `test2` runs and succeeds.
@@ -208,6 +228,8 @@ rollback_job:
   when: on_failure
 ```
 
+![Problem 3-2 Example 1](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-3-2-example-1.png){width=50%}
+
 - `build_job` runs and fails.
 - `test_job` is skipped.
 - Even though `rollback_job` is `when: on_failure` and there is a failed job, it is skipped because the `needs` list has a "skipped" job.
@@ -228,6 +250,8 @@ rollback_job:
   script: exit 0
   when: on_failure
 ```
+
+![Problem 3-2 Example 2](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-3-2-example-2.png){width=50%}
 
 - `build_job` runs and fails.
 - `test_job` is skipped.
@@ -253,6 +277,8 @@ test:
   script: exit 0
 ```
 
+![Problem 4-1 Example 1](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-4-1-example-1.png){width=50%}
+
 - `build` is in the "manual" state but considered as "skipped" (ignored) for the pipeline processing.
 - `test` runs because "skipped" is a successful state.
 
@@ -274,6 +300,8 @@ test:
   script: exit 0
 ```
 
+![Problem 4-1 Example 2](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-4-1-example-2.png){width=50%}
+
 - `build1` is in the "manual" state but considered as "skipped" (ignored) for the pipeline processing.
 - `build2` runs and succeeds.
 - `test` runs because "success" + "skipped" is a successful state.
@@ -290,6 +318,8 @@ test:
   stage: test
   script: exit 0
 ```
+
+![Problem 4-2 Example 1](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-4-2-example-1.png){width=50%}
 
 - `build` is skipped because it's `when: on_failure` and its previous status is not "failed".
 - `test` runs because "skipped" is a successful state.
@@ -310,6 +340,8 @@ test:
   stage: test
   script: exit 0
 ```
+
+![Problem 4-2 Example 2](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/problem-4-2-example-2.png){width=50%}
 
 - `build1` is skipped because it's `when: on_failure` and its previous status is not "failed".
 - `build2` runs and succeeds.
@@ -360,17 +392,24 @@ Let's define their differences first;
 ```yaml
 build:
   stage: build
-  script: sleep 10
+  script:
+    - sleep 10
+    - exit 1
   allow_failure: true
 
 test:
   stage: test
   script: exit 0
-  when: on_success
+  when: on_success # default
 ```
 
-- If `build` runs and gets `canceled`, then `test` runs.
-- If `build` runs and gets `failed`, then `test` runs.
+If `build` runs and gets `canceled`, then `test` runs.
+
+![Information 1 Example 1-a](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/information-1-example-1-a.png){width=50%}
+
+If `build` runs and gets `failed`, then `test` runs.
+
+![Information 1 Example 1-b](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/information-1-example-1-b.png){width=50%}
 
 #### An idea on using `canceled` instead of `failed` for some cases
 
@@ -404,6 +443,8 @@ test2:
   script: exit 0
   # needs: [] would lead to the same result
 ```
+
+![Information 2 Example 1](/images/handbook/engineering/architecture/design-documents/ci_pipeline_processing/information-2-example-1.png){width=50%}
 
 - `test1` runs because there is no job failed in the previous stages.
 - `test2` does not run because there is no job failed in the previous stages.
