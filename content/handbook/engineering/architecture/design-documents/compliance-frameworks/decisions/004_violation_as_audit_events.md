@@ -50,6 +50,8 @@ class compliance_requirements {
     framework_id: bigint
     name: text
     description: text
+    check_type: smallint
+    expression: jsonb
 }
 
 class compliance_framework_security_policies {
@@ -63,25 +65,15 @@ class compliance_framework_security_policies {
     namespace_id: bigint
 }
 
-class compliance_checks {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    requirement_id: bigint
-    namespace_id: bigint
-    name: text
-    description: text
-    check_type: smallint
-    expression: jsonb
-}
-
 class project_compliance_adherence {
     id: bigint
     created_at: timestamp
     updated_at: timestamp
     project_id: bigint
     namespace_id: bigint
-    compliance_check_id: bigint
+    compliance_requirement_id: bigint
+    compliance_requirement_expression: jsonb
+    compliance_requirement_result: smallint
     status: smallint
 }
 
@@ -91,7 +83,8 @@ class project_compliance_violations {
     updated_at: timestamp
     project_id: bigint
     namespace_id: bigint
-    compliance_check_id: bigint
+    compliance_requirement_id: bigint
+    compliance_requirement_expression: jsonb
     audit_event_id: bigint
 }
 
@@ -112,16 +105,15 @@ class security_policies {
     ...(more columns)
 }
 
-compliance_requirements --> compliance_checks : has_many
 compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
 compliance_management_frameworks --> compliance_requirements : has_many
 compliance_management_frameworks <--> projects : has_and_belongs_to_many
 namespaces --> projects : has_many
 namespaces --> compliance_management_frameworks : has_many
 projects --> project_compliance_adherence : has_many
-compliance_checks --> project_compliance_adherence : has_one
+compliance_requirements --> project_compliance_adherence : has_one
 projects --> project_compliance_violations : has_many
-compliance_checks --> project_compliance_violations : has_many
+compliance_requirements --> project_compliance_violations : has_many
 project_compliance_violations --> audit_events : has_one
 security_policies --> projects : many_to_many
 security_policies --> compliance_management_frameworks : many_to_many
