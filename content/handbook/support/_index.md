@@ -331,7 +331,7 @@ variations, please refer to the [README file](https://gitlab.com/gitlab-com/supp
 | [#support_ticket-attention-requests](https://gitlab.slack.com/archives/CBVAE1L48) | Discuss escalated tickets with the Support Manager On-Call |
 | [#support_operations](https://gitlab.slack.com/archives/C018ZGZAMPD) | Discuss operational items related to how Support works |
 | [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
-| [#spt_hiring](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
+| [#recruiting-support-engineering](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
 | [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 
