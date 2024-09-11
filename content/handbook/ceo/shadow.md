@@ -143,8 +143,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-11-04 | 2024-11-08 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
 | 2024-11-11 | 2024-11-15 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
 | 2024-11-18 | 2024-11-22 | OPEN | OPEN | REMOTE - PT |
-| 2024-11-25 | 2024-11-29 | OPEN | OPEN | REMOTE - PT |
-| 2024-12-02 | 2024-12-06 | OPEN | OPEN | REMOTE - PT |
+| 2024-11-25 | 2024-11-29 | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA | OPEN | REMOTE - PT |
+| 2024-12-02 | 2024-12-06 | OPEN |  [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA  | REMOTE - PT |
 | 2024-12-09 | 2024-12-13 | VP DIRECTS ONLY | VP DIRECTS ONLY | REMOTE - PT |
 | 2024-12-16 | 2024-12-20 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-23 | 2024-12-27 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING | 
