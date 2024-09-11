@@ -8,7 +8,7 @@ description: "Overview of GitLabs internal quarterly talent review process."
 The Quarterly Talent Review (QTR) is a strategic mechanism designed to bring together People Business Partners (PBPs) and People Group Centers of Excellence (COEs) to meet with division leaders and review key organizational health metrics.
 The QTR provides an opportunity for the People team to align on key priorities, discuss top-of-mind topics for each COE, and track action items, all while freeing up division leaders to focus on more strategic initiatives in partnership with the COEs. This approach ensures the People team shows up as one unified group and drives alignment across the organization and one team.
 
-## Talent QTR Timeline
+## QTR Timeline
 
 The QTR report will be delivered to PBPs on the 15th day at the start of each quarter (dates below). This report will serve as the foundation for the discussions with division leaders.
 FY25 Talent QTR Report Dates
@@ -16,7 +16,7 @@ Q1/Q2 - August 15th
 Q3 - November 15th 
 Q4 - January 15th
 
-## Talent QTR Process
+## QTR Process
 
 1. Report Distribution:
   - When: Reports will be shared to PBPs by the 15th day of the first month of each quarter.
@@ -34,7 +34,7 @@ Q4 - January 15th
 
 ## Report Overview
 
-The Talent Review report is designed to provide division leadership with key organizational metrics across multiple areas. Below is a breakdown of the core metrics, organized into relevant categories:
+The QTR report is designed to provide division leadership with key organizational metrics across multiple areas. Below is a breakdown of the core metrics, organized into relevant categories:
 1. Workforce Metrics
   - Span of control
   - Attrition rates
