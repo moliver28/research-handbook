@@ -280,6 +280,10 @@ Note: A team member cannot have more than three fixed term contracts with the sa
 
 1. GitLab is to take into consideration the entire tenure of the team member at time of relocation to determine the type of contract to create. Due to the usual 1-year tenure at GitLab prior to a team member requesting to [relocate and immigrate to the Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}), if the team member has been at GitLab more than one year, the best practice procedure would be to give the team member an indefinite contract, with approval from their manager.
 
+1. If the contract is a relocation contract, please remove mention of the follow:
+- Probation Period (if team member has been at GitLab for longer than 1 year
+- The VOG does not apply
+
 ## CXC Contract Renewal
 
 CXC contracts are issued on a yearly basis, with contracts expiring after one year. CXC remains the responsible PEO for ensuring the contract renewal is completed for each team member.
