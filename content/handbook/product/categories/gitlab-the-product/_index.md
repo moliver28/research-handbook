@@ -91,7 +91,7 @@ Introducing a **breaking change in a minor release is against policy** because i
 - If an integrated service shuts down, the integration can be removed during a minor release.
 - Is an [experimental](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#beta) feature.
 
-In both cases, the PM or EM must [follow the Request a Breaking Change process](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
+In all cases, the PM or EM must [follow the Request a Breaking Change process](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
 
 #### Deprecating and removing features
 
@@ -103,7 +103,7 @@ Please follow the [process outlined in the docs](https://docs.gitlab.com/ee/deve
 
 #### Breaking Change Windows on GitLab.com
 
-We continuously roll out changes to GitLab.com, many times a day. Because changes roll out to gitlab.com regularly as part of the continuous delivery process, they are not as predictable for customers. This includes breaking changes.
+We deploy changes to GitLab.com many times a day. Because they are part of a continuous delivery process, these changes, including breaking changes, are not as predictable for customers.
 
 Starting from GitLab 17.0, we introduced fixed windows during which breaking changes are rolled out to GitLab.com. The fixed windows are set as the Monday, Tuesday and Wednesday of the three weeks preceding the major release date, typically following the X.11 release date. A detailed example of what this looks like can be found in [our 17.0 introduction issue](https://gitlab.com/gitlab-com/Product/-/issues/13238).
 
