@@ -22,7 +22,7 @@ The Growth and Development Fund is designed to support GitLab team members in th
 
 Each team member is allocated up to $10,000 USD per fiscal year for growth and development activities. 
 
-### Approval Process: 
+### Approval Process
 
 Team members must have discussed the opportunity with their manager, and have a fully approved Growth and Development issue before any expenses can be reclaimed.
 
