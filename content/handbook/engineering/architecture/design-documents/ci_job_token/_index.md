@@ -66,7 +66,7 @@ permissions for each token.
 
 - The `CI_JOB_TOKEN` should be ephemeral and grant only the minimal required access.
 - Permissions should be customizable per CI job.
-- The token should support extensions, such as the inclusion of fields like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856).
+- The token should support extensions, such as the inclusion of fields like [`organization_id`](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/8527).
 - Current [permissions](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` should be preserved.
 
 ### Non-Goals
