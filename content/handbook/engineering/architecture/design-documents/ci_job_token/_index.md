@@ -182,7 +182,64 @@ jwt = ::Authz::Token.jwt(subject: job, permissions: {
 })
 ```
 
-When the user that triggered the job has a Developer role on a Project they will have the following permissions:
+### Integration with Declarative Policy
+
+The system will check the token's embedded permissions before falling back to
+the standard `Declarative Policy` checks if necessary:
+
+```ruby
+module Gitlab
+  module Allowable
+    def can?(user, ability, subject = :global, **opts)
+      if ::Authz::Token.provided_for?(user)
+        return ::Authz::Token.allowed?(user, ability, subject)
+      end
+
+      Ability.allowed?(user, ability, subject, **opts)
+    end
+  end
+end
+```
+
+### Example: `CI_JOB_TOKEN` Generation
+
+This example outlines how a `CI_JOB_TOKEN` would be generated under the proposed
+architecture. The following Ruby code demonstrates a class that generates the
+JWT token based on the permissions granted to the job:
+
+```ruby
+class JobToken
+  include ::Gitlab::Allowable
+
+  PERMISSIONS = [
+    :admin_terraform_state,
+    :build_create_container_image,
+    # ...
+    :update_pipeline,
+    :update_release
+  ].freeze
+
+  attr_reader :build
+
+  def initialize(build)
+    @build = build
+  end
+
+  def to_jwt
+    allowed = Hash.new { |hash, key| hash[key] = [] }
+    allowlist = ::Ci::JobToken::Allowlist.new(build.project)
+    allowlist.projects.each do |project|
+      PERMISSIONS.each do |permission|
+        allowed[permission] << project if can?(build.user, permission, project)
+      end
+    end
+    ::Authz::Token.jwt(subject: build, permissions: allowed)
+  end
+end
+```
+
+For users with the Developer role on a project, permissions span a wide range
+of actions including:
 
 - `:access_duo_features`
 - `:access_security_and_compliance`
@@ -335,7 +392,8 @@ When the user that triggered the job has a Developer role on a Project they will
 - `:write_model_experiments`
 - `:write_model_registry`
 
-For a `CI_JOB_TOKEN` this list will be limited to the following:
+In contrast, the `CI_JOB_TOKEN` restricts access to a subset of permissions that
+are directly related to CI/CD operations. For example:
 
 - `:admin_terraform_state`
 - `:build_create_container_image`
@@ -368,42 +426,11 @@ For a `CI_JOB_TOKEN` this list will be limited to the following:
 - `:update_pipeline`
 - `:update_release`
 
-That will produce the following list of permissions:
+The JWT token will encode permissions for the required actions and resources. If
+allowlist rules or `.gitlab-ci.yml` file permissions are present, the token's
+permissions will be reduced accordingly.
 
-- `:build_download_code`
-- `:build_read_container_image`
-- `:create_deployment`
-- `:create_environment`
-- `:create_package`
-- `:create_release`
-- `:destroy_container_image`
-- `:destroy_environment`
-- `:destroy_release`
-- `:read_build`
-- `:read_container_image`
-- `:read_deployment`
-- `:read_environment`
-- `:read_package`
-- `:read_project`
-- `:read_release`
-- `:read_secure_files`
-- `:read_terraform_state`
-- `:update_deployment`
-- `:update_environment`
-- `:update_pipeline`
-- `:update_release`
-
-If any inbound allow list rules exist for the source project then the projects
-identified by the allow list rules will be included as resources in the list and
-if any permissions are specified on the allow list entry then the list of
-permissions will be reduced down to the permissions specified in the allow list
-entry.
-
-If `permissions` are specified in the `.gitlab-ci.yml` file for this particular
-job then the list of permissions will be reduced further to be limited to the
-declared list of permissions.
-
-This might produce a JWT body such as the following:
+Here's a sample JWT body generated for a job:
 
 ```json
 {
@@ -506,68 +533,16 @@ This might produce a JWT body such as the following:
 }
 ```
 
-Although, the scope claim is large and there is redundancy in the permission
-names this fits into the existing declarative policies that are used to
-authorize requests today. By aligning the scope claim to align with the
-declarative policies framework we make it easier to transition to the new token
-format and to evolve it over time by removing duplication, compressing the data
-and reducing the # of resources that are checked in order to satisfy an
-authorization request.
+While the JWT token structure may include some redundancy in permission names,
+it is designed to fit seamlessly into the existing declarative policies
+framework currently used for authorizing requests. Aligning the JWT token
+structure with this framework allows for a smoother transition to the new token
+format. Over time, opportunities for optimization, such as removing duplication
+and compressing data, can be explored.
 
-### Integration with Declarative Policy
-
-The system will check the token's embedded permissions before falling back to
-the standard `Declarative Policy` checks if necessary:
-
-```ruby
-module Gitlab
-  module Allowable
-    def can?(user, ability, subject = :global, **opts)
-      if ::Authz::Token.provided_for?(user)
-        return ::Authz::Token.allowed?(user, ability, subject)
-      end
-
-      Ability.allowed?(user, ability, subject, **opts)
-    end
-  end
-end
-```
-
-### Example: `CI_JOB_TOKEN` Generation
-
-Here's an example of how a `CI_JOB_TOKEN` could be generated based on this
-proposal:
-
-```ruby
-class JobToken
-  include ::Gitlab::Allowable
-
-  PERMISSIONS = [
-    :admin_terraform_state,
-    :build_create_container_image,
-    # ...
-    :update_pipeline,
-    :update_release
-  ].freeze
-
-  attr_reader :build
-
-  def initialize(build)
-    @build = build
-  end
-
-  def to_jwt
-    allowed = Hash.new { |hash, key| hash[key] = [] }
-    allowlist = ::Ci::JobToken::Allowlist.new(build.project)
-    allowlist.projects.each do |project|
-      PERMISSIONS.each do |permission|
-        allowed[permission] << project if can?(build.user, permission, project)
-      end
-    end
-    ::Authz::Token.jwt(subject: build, permissions: allowed)
-  end
-end
-```
+By building on the current policy architecture, this approach offers flexibility
+for future enhancements, while maintaining compatibility with existing
+authorization systems.
 
 ### Extending the Design
 
