@@ -37,7 +37,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 * **Purpose:** Allow leaders time prior to the meeting to review the QTR report and add any questions/observations to the meeting agenda.
  
 **4. Quarterly Talent Review with E-Group**
-* **When:** The QTR should take place by the end of the first month of the quarter, giving adequate time for review and actions.
+* **When:** The QTR should take place by the end of the first month of the quarter, giving adequate time for review and actions. PBPs should work with E-Group EBAs to plan these sessions in advance as a standing ongoing touchpoint. 
 * **Purpose:** During this meeting, PBPs and COEs will review the org health report with division leaders, discuss priorities for each division, address any COE-related initiatives, and agree on action items and follow-up steps.
 
 ## Report Overview
