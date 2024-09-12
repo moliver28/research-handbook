@@ -131,7 +131,7 @@ Since the payload holds a structured information, each single latter has a parti
 
 ### Adding Classify to Topology Service
 
-It is strongly desired that Classify endpoint of Topology Service could accept routable token payload in full and make the best routing decision on its own based on available information.
+It is strongly desired that Classify endpoint of Topology Service could accept routable token payload in full (except for `r`), and make the best routing decision on its own based on available information.
 
 The Topology Service once it receives the full payload should look at making routing decision
 based on ID cardinality, preferring to search by Project ID, Group ID, Organization ID, User ID, Cell ID. As such adding support for new identifiers in Topology Service will not change HTTP Router implementation,
