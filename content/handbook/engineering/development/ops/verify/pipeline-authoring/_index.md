@@ -34,13 +34,23 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [Frontend CI product / codebase overview - June 2020](https://www.youtube.com/watch?v=7CUd7aAUiWo)
 - [CI/CD Catalog Demo](https://www.youtube.com/watch?v=oNcJCU-a-bM)
 
-### Core domain
+## Core domain
 
-- Pipeline configuration: YAML syntax, linter and configuration parser.
-- CI/CD Catalog: publishing and releasing process to Catalog.
-- Pipeline creation: process of building and persisting a pipeline including multi-project
-  or child pipelines.
-- Variables:  Simplifies your pipeline configuration and eliminates pipeline management issues caused by repeatedly used values getting out of sync. 
+### Products
+
+| Product | Navigation | Documentation |
+| ------- | ---------- | ------------- |
+| **CI/CD Pipelines** | [Build >> Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipelines) | [GitLab docs](https://docs.gitlab.com/ee/ci/pipelines/) |
+| **Pipeline editor** | [Build >> Pipeline editor](https://gitlab.com/gitlab-org/gitlab/-/ci/editor?branch_name=master) | [GitLab docs](https://docs.gitlab.com/ee/ci/pipeline_editor/) |
+| **CI/CD Catalog** | [Explore >> CI/CD Catalog](https://gitlab.com/explore/catalog) | [GitLab docs](https://docs.gitlab.com/ee/ci/components/) |
+
+### Features
+
+- [Pipeline creation](https://docs.gitlab.com/ee/ci/quick_start/)
+- [YAML syntax](https://docs.gitlab.com/ee/ci/yaml/)
+- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/lint.html)
+- [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
+- Additional features can be found [here](/handbook/product/categories/features/#verify-pipeline-authoring-group)
 
 ## Technical Roadmap 
 
@@ -94,10 +104,10 @@ Goals:
 ### FY26 top of mind
 
 - Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
-  - Upcoming tentative [iterations](https://gitlab.com/groups/gitlab-org/-/epics/15101) - **NOTE:** Subject to change
 - Support for GraphQL subscriptions - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15108)
 - Improve Feature/E2E specs - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15131)
 - MR Pipeline Tab migration to GraphQL - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15133)
+- Upcoming tentative [iterations](https://gitlab.com/groups/gitlab-org/-/epics/15101) - **NOTE:** Subject to change
 
 ## Exciting things and accomplishments
 
