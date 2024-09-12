@@ -53,7 +53,7 @@ the various token types in use today, simplifying the process of authorization.
 One of the key benefits of this design is enabling service-to-service and direct
 client-to-API authorization without needing to access declarative policies or
 the database. This approach supports new services, such as those deployed by
-[Runway](../../infrastructure/platforms/tools/runway/),
+[Runway](/handbook/engineering/infrastructure/platforms/tools/runway/),
 allowing them to expose public-facing APIs while ensuring secure authorization
 using the token's embedded information.
 
