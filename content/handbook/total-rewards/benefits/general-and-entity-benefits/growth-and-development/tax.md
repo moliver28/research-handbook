@@ -1,13 +1,42 @@
 ---
-title: Tax Impacts of Different Growth & Development Benefits
+title: Growth & Development Fund Policy Details & Tax Impacts 
 description: A description of tax impacts of different Growth & Development reimbursements by countries.
 ---
 
 ## Introduction
 
-The reimbursement of Growth & Development benefits may be considered as taxable income in some countries. Subject to changing local legislation, the table below outlines what the tax impact might be on receiving Growth & Development reimbursements from GitLab.
+This handbook page details the policy details of the Growth and Development Fund and the tax impact of different reimbursements, dependent on location, as it may be considered taxable income in some countries.
+
+## Policy Details
+
+The Growth and Development Fund is designed to support GitLab team members in their professional and personal growth. Here are the key policy details:
+
+### Eligibility
+
+- GitLab team members who have been with GitLab for 3 months or more and are meeting performance expectations in their role are eligible to use the Growth and Development Fund. If you have not been with GitLab for 3 months or more and would like to request an exception, please reach out in the #learninganddevelopment slack channel. 
+- Team members on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance, are not eligible for the G&D Fund.
+- Team members who are currently on “leave” status will not be eligible to use the growth and development fund.
+- Part-time team members may still be eligible to use the fund but with a reduced reimbursement limit.
+
+### Annual Allowance
+
+Each team member is allocated up to $10,000 USD per fiscal year for growth and development activities. 
+
+### Approval Process: 
+
+Team members must have discussed the opportunity with their manager, and have a fully approved Growth and Development issue before any expenses can be reclaimed.
+
+### Carryover
+
+Unused funds do not carry over to the next fiscal year. E.g. if you did not use the G&D Fund in 2024, this does not grant you $20,000 for 2025.
+
+### Involuntary Termination during G&D engagement
+
+If your employment with GitLab is terminated involuntarily whilst you have an active Growth and Development engagement for which you have not yet recouped the costs, please email: 
 
 ## Tax Impact Table
+
+Subject to changing local legislation, the table below outlines what the tax impact might be on receiving Growth & Development reimbursements from GitLab.
 
 | Country | Category | Tax Impact |
 | ------- | -------- | ---------- |
