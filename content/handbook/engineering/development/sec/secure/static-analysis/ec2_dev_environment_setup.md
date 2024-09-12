@@ -15,6 +15,7 @@ To overcome this, a SAST developer image has been added to the EC2 AMI catalog a
 1. Click on `Open AWS Web Console` and use the `Username` and `Password` from step `2` above.
 1. Once logged in to the `AWS Web Console`, click on the hamburger menu on the left hand side to open up the `Console Home` sidebar.
 1. Click on `All services` in the sidebar, then navigate to `Compute -> EC2`.
+1. Choose the `Sydney` region (`ap-southeast-2`) in the region selector at the top right
 1. Use the sidebar on the left to navigate to `Images -> AMI Catalog`.
 1. Once the `AMI Catalog` page has loaded, click on `My AMIs`.
 1. If you see the message `No results were found in My AMIs with your current filters.`, then click on the `Clear Filters` button.
