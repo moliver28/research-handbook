@@ -96,11 +96,11 @@ Additional context about this feature can be found [here](https://gitlab.com/gro
 
 Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
-### Creating an extension (from SDFC)
+### Creating an extension (from SFDC)
 
 Please watch SM demo [SM demo video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) or [Gitlab.com/Saas video](https://drive.google.com/file/d/1HGGf8IH5fRt4ftB0pKZfHpb7owECItjX/view) for an overview of creating an extension.
 
-The process of creating the temporary renewal extension from SDFC is also described below
+The process of creating the temporary renewal extension from SFDC is also described below
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
 1. Click on `Request Temporary Extension` button.
