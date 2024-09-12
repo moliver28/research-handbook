@@ -182,6 +182,338 @@ jwt = ::Authz::Token.jwt(subject: job, permissions: {
 })
 ```
 
+When the user that triggered the job has a Developer role on a Project they will have the following permissions:
+
+- `:access_duo_features`
+- `:access_security_and_compliance`
+- `:add_project_to_instance_security_dashboard`
+- `:admin_feature_flag`
+- `:admin_feature_flags_user_lists`
+- `:admin_issue`
+- `:admin_issue_board`
+- `:admin_issue_board_list`
+- `:admin_label`
+- `:admin_merge_request`
+- `:admin_milestone`
+- `:admin_tag`
+- `:award_emoji`
+- `:build_download_code`
+- `:build_read_container_image`
+- `:build_read_project`
+- `:build_service_proxy_enabled`
+- `:cancel_build`
+- `:cancel_pipeline`
+- `:create_build`
+- `:create_commit_status`
+- `:create_container_image`
+- `:create_deployment`
+- `:create_design`
+- `:create_environment`
+- `:create_feature_flag`
+- `:create_incident`
+- `:create_issue`
+- `:create_merge_request_from`
+- `:create_merge_request_in`
+- `:create_note`
+- `:create_package`
+- `:create_pipeline`
+- `:create_pipeline_schedule`
+- `:create_project`
+- `:create_release`
+- `:create_snippet`
+- `:create_task`
+- `:create_wiki`
+- `:create_work_item`
+- `:create_workspace`
+- `:daily_statistics`
+- `:destroy_container_image`
+- `:destroy_design`
+- `:destroy_environment`
+- `:destroy_feature_flag`
+- `:destroy_release`
+- `:developer_access`
+- `:download_code`
+- `:download_wiki_code`
+- `:duo_workflow`
+- `:enable_continuous_vulnerability_scans`
+- `:export_work_items`
+- `:fork_project`
+- `:guest_access`
+- `:import_issues`
+- `:import_work_items`
+- `:metrics_dashboard`
+- `:move_design`
+- `:push_code`
+- `:read_alert_management_alert`
+- `:read_analytics`
+- `:read_build`
+- `:read_build_report_results`
+- `:read_ci_cd_analytics`
+- `:read_ci_pipeline_schedules_plan_limit`
+- `:read_cluster`
+- `:read_cluster_agent`
+- `:read_code`
+- `:read_commit_status`
+- `:read_confidential_issues`
+- `:read_container_image`
+- `:read_cross_project`
+- `:read_cycle_analytics`
+- `:read_deploy_board`
+- `:read_deployment`
+- `:read_design`
+- `:read_design_activity`
+- `:read_environment`
+- `:read_external_emails`
+- `:read_feature_flag`
+- `:read_freeze_period`
+- `:read_grafana`
+- `:read_harbor_registry`
+- `:read_incident_management_timeline_event_tag`
+- `:read_insights`
+- `:read_internal_note`
+- `:read_issue`
+- `:read_issue_board`
+- `:read_issue_board_list`
+- `:read_issue_iid`
+- `:read_issue_link`
+- `:read_label`
+- `:read_limit_alert`
+- `:read_merge_request`
+- `:read_merge_request_iid`
+- `:read_merge_train`
+- `:read_milestone`
+- `:read_model_experiments`
+- `:read_model_registry`
+- `:read_note`
+- `:read_package`
+- `:read_pages_content`
+- `:read_pipeline`
+- `:read_pipeline_schedule`
+- `:read_pod_logs`
+- `:read_pre_receive_secret_detection_info`
+- `:read_product_analytics`
+- `:read_project`
+- `:read_project_audit_events`
+- `:read_project_for_iids`
+- `:read_project_member`
+- `:read_project_security_exclusions`
+- `:read_prometheus`
+- `:read_release`
+- `:read_repository_graphs`
+- `:read_resource_group`
+- `:read_secure_files`
+- `:read_security_configuration`
+- `:read_sentry_issue`
+- `:read_snippet`
+- `:read_statistics`
+- `:read_terraform_state`
+- `:read_vulnerability_merge_request_link`
+- `:read_wiki`
+- `:read_work_item`
+- `:reopen_issue`
+- `:reopen_merge_request`
+- `:reporter_access`
+- `:resolve_note`
+- `:set_pipeline_variables`
+- `:update_alert_management_alert`
+- `:update_build`
+- `:update_commit_status`
+- `:update_container_image`
+- `:update_deployment`
+- `:update_design`
+- `:update_environment`
+- `:update_escalation_status`
+- `:update_feature_flag`
+- `:update_issue`
+- `:update_merge_request`
+- `:update_pipeline`
+- `:update_release`
+- `:update_resource_group`
+- `:update_sentry_issue`
+- `:upload_file`
+- `:use_k8s_proxies`
+- `:write_model_experiments`
+- `:write_model_registry`
+
+For a `CI_JOB_TOKEN` this list will be limited to the following:
+
+- `:admin_terraform_state`
+- `:build_create_container_image`
+- `:build_destroy_container_image`
+- `:build_download_code`
+- `:build_push_code`
+- `:build_read_container_image`
+- `:create_deployment`
+- `:create_environment`
+- `:create_package`
+- `:create_release`
+- `:destroy_container_image`
+- `:destroy_deployment`
+- `:destroy_environment`
+- `:destroy_package`
+- `:destroy_release`
+- `:read_build`
+- `:read_container_image`
+- `:read_deployment`
+- `:read_environment`
+- `:read_job_artifacts, # not in project policy`
+- `:read_package`
+- `:read_project`
+- `:read_release`
+- `:read_secure_files`
+- `:read_terraform_state`
+- `:stop_environment`
+- `:update_deployment`
+- `:update_environment`
+- `:update_pipeline`
+- `:update_release`
+
+That will produce the following list of permissions:
+
+- `:build_download_code`
+- `:build_read_container_image`
+- `:create_deployment`
+- `:create_environment`
+- `:create_package`
+- `:create_release`
+- `:destroy_container_image`
+- `:destroy_environment`
+- `:destroy_release`
+- `:read_build`
+- `:read_container_image`
+- `:read_deployment`
+- `:read_environment`
+- `:read_package`
+- `:read_project`
+- `:read_release`
+- `:read_secure_files`
+- `:read_terraform_state`
+- `:update_deployment`
+- `:update_environment`
+- `:update_pipeline`
+- `:update_release`
+
+If any inbound allow list rules exist for the source project then the projects
+identified by the allow list rules will be included as resources in the list and
+if any permissions are specified on the allow list entry then the list of
+permissions will be reduced down to the permissions specified in the allow list
+entry.
+
+If `permissions` are specified in the `.gitlab-ci.yml` file for this particular
+job then the list of permissions will be reduced further to be limited to the
+declared list of permissions.
+
+This might produce a JWT body such as the following:
+
+```json
+{
+  "sub": "gid://gitlab/Ci::Build/1",
+  "exp": 1726164220,
+  "scope": {
+    "build_download_code": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "build_read_container_image": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "create_deployment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "create_environment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "create_package": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "create_release": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "destroy_container_image": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "destroy_environment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "destroy_release": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_build": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Pipeline/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_container_image": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_deployment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_environment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_job_artifacts": [
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_package": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_project": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_release": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_secure_files": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "read_terraform_state": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "update_deployment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "update_environment": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "update_pipeline": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ],
+    "update_release": [
+      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Build/1"
+    ]
+  }
+}
+```
+
+Although, the scope claim is large and there is redundancy in the permission
+names this fits into the existing declarative policies that are used to
+authorize requests today. By aligning the scope claim to align with the
+declarative policies framework we make it easier to transition to the new token
+format and to evolve it over time by removing duplication, compressing the data
+and reducing the # of resources that are checked in order to satisfy an
+authorization request.
+
 ### Integration with Declarative Policy
 
 The system will check the token's embedded permissions before falling back to
