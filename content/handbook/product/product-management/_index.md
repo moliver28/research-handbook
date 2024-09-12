@@ -27,6 +27,19 @@ It is then up to the PM to weigh all these inputs and decide on a prioritization
 
 Please see the [Product Categories](/handbook/product/categories/) to know which product manager handles which category.
 
+#### Escalating to Product leaders
+
+When you have a customer issue you'd like to escalate, start with the Product Manager who is the DRI for the relevant feature category.
+
+If you need further support, by default you should contact the Product leader for the relevant stage or section.
+You can find this person listed in the stage's entry on the [Product Categories page](/handbook/product/categories/), for example the [Secure stage](/handbook/product/categories/#secure-stage).
+
+_Generally, you will not achieve better or faster results by skipping levels_, such as by moving directly from working with a category's PM to requesting support from the Chief Product Officer.
+This is because:
+
+- the PMs and Product leaders closest to the relevant feature area often have the most context on the specific problems you want to discuss.
+- those responsible for larger parts of the product are less likely to have calendar availability, and will have to obtain context from the original PM anyway.
+
 ### How do I share feedback?
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
