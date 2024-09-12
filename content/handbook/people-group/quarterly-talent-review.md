@@ -30,7 +30,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 **2. Prep Call**
 * **When:** PBPs and COEs should schedule their initial prep call shortly after receiving the report and completing their initial review, ideally within one week of report delivery.
 * **Purpose:** The prep call allows PBPs and COEs to align on key topics, identify areas of focus, and strategize for the Talent QTR meeting with the division leadership.
-* **Attendees:** Division PBP(s), division TA partner, DIB VP
+* **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other CoEs where applicable (I.E. If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
 
 **3. Distribution of Report to Leadership**
 * **When:** 2 - 4 days prior to the QTR meeting with the division leader.
