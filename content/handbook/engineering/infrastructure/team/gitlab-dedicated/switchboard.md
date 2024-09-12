@@ -328,9 +328,9 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 ### Proposal :bulb:
 
 ### Open Questions :question:
-| Question | Added by | Discussion thread |
-|----------|----------|-------------------|
-|  |  |  |
+| Question | Added by | Discussion thread | Resolved |
+|----------|----------|-------------------| ------ |
+|  |  |  |  |
 
 ### Further details :mag:
 
