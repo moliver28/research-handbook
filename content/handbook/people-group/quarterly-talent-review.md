@@ -2,12 +2,14 @@
 title: Quarterly Talent Review (QTR)
 description: "Overview of GitLab's internal quarterly talent review process."
 ---
-<!-- markdownlint-disable MD051 -->
-## What is a Quarterly Talent Review?
-
-The Quarterly Talent Review (QTR) is a strategic mechanism designed to bring together People Business Partners (PBPs) and People Group Centers of Excellence (COEs) to meet with division leaders and review key organizational health metrics.
-
 The QTR provides an opportunity for the People team to align on key priorities, discuss top-of-mind topics for each COE, and track action items, all while freeing up division leaders to focus on more strategic initiatives in partnership with the COEs. This approach ensures the People team shows up as one unified group and drives alignment across the organization and one team.
+
+Goals and benefits of the QTR include the ability to: 
+- Connect dots and draw themes across multiple data sources that may not have been as evident reviewed in isolation
+- Create more connection and alignment across all departments within the People Group as one team
+- Optimize time and efficiency across the board for our E-Group leaders
+- Ensure we maintain a regular and proactive pulse on key Talent metrics as opposed to reviewing reactively 
+- Align on and communicate a divisionally tailored and data driven Talent Strategy going in to each fiscal year
 
 ## Quarterly Talent Review Timeline
 
