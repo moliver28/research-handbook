@@ -53,13 +53,18 @@ This document focuses only on Routable Tokens, not secrets stored at rest, like 
 Majority of the tokens in application use `TokenAuthenticatable` framework making it easy to change how the token is generated. Only some of the tokens use a custom `token_generator`, as in the following example:
 
 ```ruby
-class PersonalAccessToken
-  add_authentication_token_field :token,
-    encrypted: :required,
-    format_with_prefix: :prefix_from_application_current_settings
+module Clusters
+  class AgentToken < ApplicationRecord
+    TOKEN_PREFIX = "glagent-"
 
-  def prefix_from_application_current_settings
-    'glpat-'
+    add_authentication_token_field :token,
+      encrypted: :required,
+      token_generator: -> { Devise.friendly_token(50) },
+      format_with_prefix: :glagent_prefix
+
+    def glagent_prefix
+      TOKEN_PREFIX
+    end
   end
 end
 ```
@@ -67,14 +72,14 @@ end
 ## Proposal
 
 This proposal is to make all tokens to encode routable information about object
-for which the token is attached. This document does focus specifically first on tokens
+to which the token is attached. This document does focus specifically first on tokens
 that are required to be made routable in the Phase 4: Personal Access Token, CI Job Token and CI Runner Token:
 
 - Currently tokens are generated with the follow pattern: `<prefix>-<random-string>`.
 - The Routable Token would change the `<random-string>` to become a `<payload>`.
 - The ability to decode `<payload>` is a feature reserved for the HTTP Router.
 - Application should never decode `<payload>` and use it for authentication purposes.
-- The generated token is stored in whole as-is and being validate by a full value.
+- The generated token is stored in whole as-is and is validated against its full value.
   This is contrary to JWT which usually a signature is used to validate authenticity of the token itself.
 - The `<payload>` contains encoded information about the cell where the token can be used.
 - The `<payload>` is `base64` encoded structured string that is line delimited.
@@ -82,7 +87,7 @@ that are required to be made routable in the Phase 4: Personal Access Token, CI 
 - Extend `TokensAuthenticatable` framework to allow generating a structured routable token.
 - Each line starts with a character indicating a type of value it describes.
 - The high entropy of a token is provided by required usage of `r` param with a random string, so the token cannot be forged.
-- The `base64` encoding should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>-[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
+- The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>-[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
 
 ### Pseudo code generation
 
@@ -117,22 +122,22 @@ rd1c3475803a8c7ead2e053da6908f46b
 
 Since the payload holds a structured information, each single latter has a particular meaning:
 
-- `c`: a Cell ID
-- `o`: a Organization ID
-- `g`: a Group ID
-- `p`: a Project ID
-- `u`: a User ID
-- `r`: a random string to increase the token entropy
+- `c`: Cell ID
+- `o`: Organization ID
+- `g`: Group ID
+- `p`: Project ID
+- `u`: User ID
+- `r`: Random string to increase the token entropy
 
 ### Adding Classify to Topology Service
 
-It is strongly desired that Classify endpoint of Topology Service could accept routable token payload in full and make the best routing decision on it's own based on available information.
+It is strongly desired that Classify endpoint of Topology Service could accept routable token payload in full and make the best routing decision on its own based on available information.
 
 The Topology Service once it receives the full payload should look at making routing decision
-based on ID cardinality, preferring to search by Project ID, Group ID, Organization ID, Cell ID. As such adding support for new identifiers in Topology Service will not change HTTP Router implementation,
+based on ID cardinality, preferring to search by Project ID, Group ID, Organization ID, User ID, Cell ID. As such adding support for new identifiers in Topology Service will not change HTTP Router implementation,
 and will make those be automatically supported by Topology Service.
 
-The request send to Topology Service should never include `r` field that is meant to ensure that token is truly unique. Sending `r` is not required, and by us not sending it reduces attack surface on Topology Service, since Topology Service without `r` cannot reconstruct the token.
+The request sent to Topology Service should never include `r` field that is meant to ensure that token is truly unique. Sending `r` is not required, and by us not sending it reduces attack surface on Topology Service, since Topology Service without `r` cannot reconstruct the token.
 
 ```proto
 enum ClassifyType {
@@ -197,7 +202,7 @@ end
 
 ### Integration into Rules engine of HTTP Router
 
-We intentionally encode more information to be able to change over-time
+We intentionally encode more information to be able to change over time
 the routing criteria by modifying HTTP Router rules. The HTTP Router would
 introduce a stage of processing information: `process`.
 
@@ -207,7 +212,7 @@ introduce a stage of processing information: `process`.
     "match": [
       {
         "type": "header",
-        "key": "PRIVATE-TOKEN",
+        "key": "private-token",
         "value": "^glpat-(?<payload>.*)$"
       }
     ],
