@@ -191,8 +191,11 @@ the standard `Declarative Policy` checks if necessary:
 module Gitlab
   module Allowable
     def can?(user, ability, subject = :global, **opts)
-      ::Authz::Token.allowed?(user, ability, subject) ||
-        Ability.allowed?(user, ability, subject, **opts)
+      if ::Authz::Token.provided_for?(user)
+        return ::Authz::Token.allowed?(user, ability, subject)
+      end
+
+      Ability.allowed?(user, ability, subject, **opts)
     end
   end
 end
