@@ -184,8 +184,10 @@ jwt = ::Authz::Token.jwt(subject: job, permissions: {
 
 ### Integration with Declarative Policy
 
-The system will check the token's embedded permissions before falling back to
-the standard `Declarative Policy` checks if necessary:
+The system will first check if a JWT token has been provided. If a JWT token is
+present, the authorization decision will be based solely on the token. If no
+JWT token is provided, the system will fall back to using the standard
+`Declarative Policy` checks:
 
 ```ruby
 module Gitlab
