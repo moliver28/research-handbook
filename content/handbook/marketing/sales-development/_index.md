@@ -859,6 +859,17 @@ When a territory moves from one BDR to another but the previous BDR remains with
 - In instances where an account has been reassigned to the new BDR and the outgoing BDR had two-way engagement more than 30 days ago with the account but was unable to convert them to an SAO, and the account later returns unprompted and with no prior activity from the new BDR assigned to the territory and wants to pursue a conversation with sales, the team (manager) will receive SAO credit from any resulting opportunity.
 - Any other situations that arise which result in a credit dispute will be investigated and resolved by the BDRs' leader and senior leader.
 
+### Assigning SAO Credit when a Territory Change is Uncovered during Discovery
+
+There will be times when an SDR or BDR is working a prospect and, after connecting with the prospect, discovers that the corresponding account actually belongs to a different segment than originally thought. This could be due to newly uncovered information regarding employee count, HQ location, or parent account relationship. SAO credit in these situations will vary based on the circumstances and will be determined on a case-by-case basis.  Specifically:
+
+- If the SDR or BDR has done their due diligence to verify account information and still ends up finding an opportunity outside of their territory: as long as the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, and the SDR or BDR's manager has verified that the accurate information could not have been uncovered prior to engaging with the prospect, then that SDR or BDR and their team will get SAO credit.
+- If the related account is an AWA or there is related activity from an SDR in the past 30 days, SAO credit will belong to the BDR assigned to the AWA or the SDR working the lead related to the account.
+- If the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, but the SDR or BDR's manager determines that the accurate information should have been uncovered prior to engaging with the prospect, SAO credit will be assigned to the team manager assigned to the correct territory. 
+- Any other situations that arise which result in a credit dispute will be investigated and resolved by the SDR or BDR's leader and senior leader.
+
+ **In situations where an SDR or BDR has received conflicting information and it is unclear what the correct territory is for an account, they should Chatter the AEs assigned to the potential territories and have them figure out who owns it.**
+
 ### Working with Resellers
 
 The end-user account determines the BDR/SDR alignment: If you are the SDR assigned to the 3rd party lead, please gather the information in point 1 and pass the lead to the correctly assigned BDR (the BDR assigned to the end-user account) who will complete points 2-6
