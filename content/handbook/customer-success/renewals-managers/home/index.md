@@ -35,7 +35,7 @@ Other ways to reach members of the Global Renewals Organization include:
 
 - Global renewals manager slack channel --> [#global-renewals-managers] (public, world-wide team channel used for best practices, questions, updates)
 - Global renewals leadership slack channel: [#global-renewals-leadership] (private, managers wide channel used for updates, questions, best practices)
-- Global renewals organization feedback channel: [#renewals-org-ideas-and-feedback] (public, world-wide feedback channel)
+
 
 ## Mission Statement
 
