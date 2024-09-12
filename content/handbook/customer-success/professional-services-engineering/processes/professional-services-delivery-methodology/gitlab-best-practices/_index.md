@@ -202,7 +202,7 @@ Continuous integration helps developers deploy faster and get feedback sooner. U
 
 ## 16. Protected Branches
 
-A [protected branch](https://docs.gitlab.com/ee/user/project/protected_branches.html) controls:
+A [protected branch](https://docs.gitlab.com/ee/user/project/repository/branches/protected.html) controls:
 
 * Which users can merge into the branch.
 * Which users can push to the branch.

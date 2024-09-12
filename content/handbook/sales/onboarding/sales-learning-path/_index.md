@@ -376,7 +376,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
     - Add [static analysis](https://docs.gitlab.com/ee/user/application_security/sast/) to identify vulnerabilities in the codebase
     - Add [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
     - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) and review gating mechanisms
-    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html)
+    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/repository/branches/protected.html)
     - Create an [issue board with a workflow](https://docs.gitlab.com/ee/user/project/issue_board.html)
 - **ACTIVITY: Deliver Your Demo (Assignment - 60 minutes - 10 points)**
    -Deliver a short demo of your choice in the SA Bootcamp Demo Scenarios below. Access to Jenkins and Jira and the associated GitLab.com project are available in the [SA Vault within 1Password](https://docs.google.com/document/d/1tIaZUU5YYyQtvQwZ2EOpeCoIK2TGDHbVfJv7jbAI0kk/edit)
