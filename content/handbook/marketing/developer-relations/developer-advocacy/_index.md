@@ -201,6 +201,18 @@ GitLab team members can also reach us at any time on the [#dev-advocacy-team](ht
 
 We use [developer-advocacy-updates](https://gitlab.slack.com/archives/C04R2RME4F7) for content shares and other updates that don't warrant generating noise in the larger channel. Many updates are automated using [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 
+### Team meetings
+
+1. Dev Advocacy team meeting (bi-weekly) - Agenda: search for `Developer Advocacy Bi-Weekly` in GDrive.
+1. Developer Relations all-hands (monthly) - Agenda: search for `Developer Relations & Strategy | All Hands Agenda` in GDrive.
+1. Dev Advocacy Showcase (monthly) - Agenda: search for `Developer Advocacy Showcase [monthly]` in GDrive.
+
+### Reporting
+
+We organize our work through documented [team workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/), ensuring transparency and efficiency. Most of our results reporting is automated through triage bots and metrics collection.
+
+Additional reporting is provided in the weekly Developer Relations report, search for `Developer Relations - End of Week updates` in GDrive.
+
 ## <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
 
 The Developer Advocate calendar provides insights into speaking engagements, important events, CFP timelines, and other dates. Learn more in our [CFP handbook](/handbook/marketing/developer-relations/developer-advocacy/cfps/).
