@@ -134,7 +134,7 @@ maintaining security.
 
 ### `CI_JOB_TOKEN` with Pre-Defined Permissions
 
-This design supports generating `CI_JOB_TOKEN`s with a tailored, reduced
+This design supports generating a `CI_JOB_TOKEN` with a tailored, reduced
 permission set to meet the needs of specific jobs.
 
 To ensure the correct permissions are applied to the job, the user must have
@@ -203,9 +203,9 @@ end
 
 ### Example: `CI_JOB_TOKEN` Generation
 
-This example outlines how a `CI_JOB_TOKEN` would be generated under the proposed
-architecture. The following Ruby code demonstrates a class that generates the
-JWT token based on the permissions granted to the job:
+This example illustrates the `CI_JOB_TOKEN` generation process in the proposed
+architecture. The following Ruby code demonstrates how a JWT token is generated
+based on the job's granted permissions:
 
 ```ruby
 class JobToken
@@ -228,209 +228,54 @@ class JobToken
   def to_jwt
     allowed = Hash.new { |hash, key| hash[key] = [] }
     allowlist = ::Ci::JobToken::Allowlist.new(build.project)
+
     allowlist.projects.each do |project|
       PERMISSIONS.each do |permission|
         allowed[permission] << project if can?(build.user, permission, project)
       end
     end
+
     ::Authz::Token.jwt(subject: build, permissions: allowed)
   end
 end
 ```
 
-For users with the Developer role on a project, permissions span a wide range
-of actions including:
+This class dynamically constructs a JWT for the job, encoding only the
+permissions explicitly allowed for the job's user on a per-project basis. The
+resulting token is scoped to the job's specific requirements, ensuring minimal
+permissions are granted.
 
-- `:access_duo_features`
-- `:access_security_and_compliance`
-- `:add_project_to_instance_security_dashboard`
-- `:admin_feature_flag`
-- `:admin_feature_flags_user_lists`
+#### Developer Role Permissions
+
+For users with the Developer role, permissions cover a wide range of project
+management and CI/CD operations, including but not limited to:
+
 - `:admin_issue`
-- `:admin_issue_board`
-- `:admin_issue_board_list`
-- `:admin_label`
-- `:admin_merge_request`
-- `:admin_milestone`
-- `:admin_tag`
-- `:award_emoji`
-- `:build_download_code`
-- `:build_read_container_image`
-- `:build_read_project`
-- `:build_service_proxy_enabled`
-- `:cancel_build`
-- `:cancel_pipeline`
-- `:create_build`
-- `:create_commit_status`
-- `:create_container_image`
-- `:create_deployment`
-- `:create_design`
-- `:create_environment`
-- `:create_feature_flag`
-- `:create_incident`
-- `:create_issue`
-- `:create_merge_request_from`
-- `:create_merge_request_in`
-- `:create_note`
-- `:create_package`
 - `:create_pipeline`
-- `:create_pipeline_schedule`
-- `:create_project`
-- `:create_release`
-- `:create_snippet`
-- `:create_task`
-- `:create_wiki`
-- `:create_work_item`
-- `:create_workspace`
-- `:daily_statistics`
-- `:destroy_container_image`
-- `:destroy_design`
-- `:destroy_environment`
-- `:destroy_feature_flag`
-- `:destroy_release`
-- `:developer_access`
-- `:download_code`
-- `:download_wiki_code`
-- `:duo_workflow`
-- `:enable_continuous_vulnerability_scans`
-- `:export_work_items`
-- `:fork_project`
-- `:guest_access`
-- `:import_issues`
-- `:import_work_items`
-- `:metrics_dashboard`
-- `:move_design`
-- `:push_code`
-- `:read_alert_management_alert`
-- `:read_analytics`
-- `:read_build`
-- `:read_build_report_results`
-- `:read_ci_cd_analytics`
-- `:read_ci_pipeline_schedules_plan_limit`
-- `:read_cluster`
-- `:read_cluster_agent`
-- `:read_code`
-- `:read_commit_status`
-- `:read_confidential_issues`
-- `:read_container_image`
-- `:read_cross_project`
-- `:read_cycle_analytics`
-- `:read_deploy_board`
-- `:read_deployment`
-- `:read_design`
-- `:read_design_activity`
-- `:read_environment`
-- `:read_external_emails`
-- `:read_feature_flag`
-- `:read_freeze_period`
-- `:read_grafana`
-- `:read_harbor_registry`
-- `:read_incident_management_timeline_event_tag`
-- `:read_insights`
-- `:read_internal_note`
-- `:read_issue`
-- `:read_issue_board`
-- `:read_issue_board_list`
-- `:read_issue_iid`
-- `:read_issue_link`
-- `:read_label`
-- `:read_limit_alert`
-- `:read_merge_request`
-- `:read_merge_request_iid`
-- `:read_merge_train`
-- `:read_milestone`
-- `:read_model_experiments`
-- `:read_model_registry`
-- `:read_note`
-- `:read_package`
-- `:read_pages_content`
-- `:read_pipeline`
-- `:read_pipeline_schedule`
-- `:read_pod_logs`
-- `:read_pre_receive_secret_detection_info`
-- `:read_product_analytics`
-- `:read_project`
-- `:read_project_audit_events`
-- `:read_project_for_iids`
-- `:read_project_member`
-- `:read_project_security_exclusions`
-- `:read_prometheus`
-- `:read_release`
-- `:read_repository_graphs`
-- `:read_resource_group`
-- `:read_secure_files`
-- `:read_security_configuration`
-- `:read_sentry_issue`
-- `:read_snippet`
-- `:read_statistics`
-- `:read_terraform_state`
-- `:read_vulnerability_merge_request_link`
-- `:read_wiki`
-- `:read_work_item`
-- `:reopen_issue`
-- `:reopen_merge_request`
-- `:reporter_access`
-- `:resolve_note`
-- `:set_pipeline_variables`
-- `:update_alert_management_alert`
-- `:update_build`
-- `:update_commit_status`
-- `:update_container_image`
-- `:update_deployment`
-- `:update_design`
-- `:update_environment`
-- `:update_escalation_status`
-- `:update_feature_flag`
-- `:update_issue`
-- `:update_merge_request`
-- `:update_pipeline`
 - `:update_release`
-- `:update_resource_group`
-- `:update_sentry_issue`
-- `:upload_file`
-- `:use_k8s_proxies`
-- `:write_model_experiments`
-- `:write_model_registry`
+- `:read_project`
+- [Full list of permissions omitted for brevity]
 
-In contrast, the `CI_JOB_TOKEN` restricts access to a subset of permissions that
-are directly related to CI/CD operations. For example:
+#### Reduced Scope for `CI_JOB_TOKEN`
 
-- `:admin_terraform_state`
+However, when generating the `CI_JOB_TOKEN`, permissions are constrained to
+those relevant to CI/CD operations, ensuring tighter security and reducing
+exposure. The typical scope of a `CI_JOB_TOKEN` includes:
+
 - `:build_create_container_image`
-- `:build_destroy_container_image`
-- `:build_download_code`
-- `:build_push_code`
-- `:build_read_container_image`
 - `:create_deployment`
-- `:create_environment`
-- `:create_package`
-- `:create_release`
 - `:destroy_container_image`
-- `:destroy_deployment`
-- `:destroy_environment`
-- `:destroy_package`
-- `:destroy_release`
-- `:read_build`
-- `:read_container_image`
-- `:read_deployment`
-- `:read_environment`
-- `:read_job_artifacts, # not in project policy`
-- `:read_package`
-- `:read_project`
-- `:read_release`
-- `:read_secure_files`
-- `:read_terraform_state`
-- `:stop_environment`
-- `:update_deployment`
-- `:update_environment`
 - `:update_pipeline`
-- `:update_release`
+- `:read_build`
+- [Other permissions omitted for brevity]
 
-The JWT token will encode permissions for the required actions and resources. If
-allowlist rules or `.gitlab-ci.yml` file permissions are present, the token's
-permissions will be reduced accordingly.
+The JWT token encapsulates these permissions for specific actions and resources
+associated with the job. If additional access restrictions are defined in the
+allowlist or in `.gitlab-ci.yml`, the token's scope is further reduced.
 
-Here's a sample JWT body generated for a job:
+#### Sample JWT Payload
+
+Below is an example of the JWT payload generated for a CI job:
 
 ```json
 {
@@ -441,35 +286,7 @@ Here's a sample JWT body generated for a job:
       "gid://gitlab/Project/1",
       "gid://gitlab/Ci::Build/1"
     ],
-    "build_read_container_image": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
     "create_deployment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "create_environment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "create_package": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "create_release": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "destroy_container_image": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "destroy_environment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "destroy_release": [
       "gid://gitlab/Project/1",
       "gid://gitlab/Ci::Build/1"
     ],
@@ -478,71 +295,31 @@ Here's a sample JWT body generated for a job:
       "gid://gitlab/Ci::Pipeline/1",
       "gid://gitlab/Ci::Build/1"
     ],
-    "read_container_image": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_deployment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_environment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_job_artifacts": [
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_package": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_project": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_release": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_secure_files": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "read_terraform_state": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "update_deployment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "update_environment": [
-      "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
     "update_pipeline": [
       "gid://gitlab/Project/1",
-      "gid://gitlab/Ci::Build/1"
-    ],
-    "update_release": [
-      "gid://gitlab/Project/1",
+      "gid://gitlab/Ci::Pipeline/1",
       "gid://gitlab/Ci::Build/1"
     ]
   }
 }
 ```
 
-While the JWT token structure may include some redundancy in permission names,
-it is designed to fit seamlessly into the existing declarative policies
-framework currently used for authorizing requests. Aligning the JWT token
-structure with this framework allows for a smoother transition to the new token
-format. Over time, opportunities for optimization, such as removing duplication
-and compressing data, can be explored.
+This token structure includes the subject (the job), expiration, and a detailed
+list of allowed actions (like `create_deployment` or `read_build`) across the
+relevant projects. The `scope` field aligns with existing declarative policies,
+facilitating seamless integration with the current authorization system.
 
-By building on the current policy architecture, this approach offers flexibility
-for future enhancements, while maintaining compatibility with existing
-authorization systems.
+#### Alignment with Declarative Policies
+
+The design of this token generation aligns with the existing policy-driven
+authorization model, allowing for a smooth transition while maintaining backward
+compatibility. By leveraging the same permission structure, we can incrementally
+introduce optimizations, such as reducing redundancy in permission names or
+compressing token data, without disrupting the system.
+
+This approach offers a secure, flexible mechanism for generating CI job tokens
+tailored to the exact needs of each job, while remaining extensible for future
+enhancements.
 
 ### Extending the Design
 
