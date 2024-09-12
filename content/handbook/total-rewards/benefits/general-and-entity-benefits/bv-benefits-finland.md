@@ -55,7 +55,7 @@ Whenever allowed by law GitLab's 16 weeks [Parental Leave policy](/handbook/tota
 
 #### Pregnancy Leave
 
-For [pregnancies with an expected due date of 4 September 2022 or later](https://www.kela.fi/quick-guide-expected-due-date-on-or-after-04-09-2022), the Finnish Social Insurance Institution (Kela) will pay pregnancy leave allowance for 40 continuous working days, to start from 14 to 30 days before the estimated due date.
+For [pregnancies with an expected due date of 4 September 2022 or later](https://www.kela.fi/during-pregnancy), the Finnish Social Insurance Institution (Kela) will pay pregnancy leave allowance for 40 continuous working days, to start from 14 to 30 days before the estimated due date.
 
 #### Parental leave
 
@@ -121,7 +121,7 @@ Team members must designate any time off for illness as `Out Sick` in Time Off b
 
 #### Sickness Allowance
 
-If you become ill, you can [claim](https://www.kela.fi/web/en) sickness allowance (sairauspäiväraha) as compensation for loss of earnings.
+If you become ill, you can [claim](https://www.kela.fi/main-page) sickness allowance (sairauspäiväraha) as compensation for loss of earnings.
 
 Sickness allowance is calculated based on your annual income. The following are taken into account to calculate the annual income:
 
