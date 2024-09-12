@@ -824,7 +824,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-12 | 2024-02-23 | [Taimur Khan](https://gitlab.com/tkhan.gitlab) | Staff CSM, Industry Lead | |
 | 2024-02-20 | 2024-03-01 | [Emma Neuberger](https://gitlab.com/eneuberger) | Sr Product Analyst | |
 | 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | |
-| 2024-03-04 | 2024-03-22 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
+| 2024-03-04 | 2024-03-22 | [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
 | 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) | VP, Incubation Engineering | |
 | 2024-03-25 | 2024-03-29 | [Mek Stittri](https://gitlab.com/meks) | VP of Infrastructure & Quality | |
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
@@ -843,4 +843,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-07-22 | 2024-08-02 | [Lesley Razzaghian](https://gitlab.com/lesley-r) | Backend Engineer | |
 | 2024-07-29 | 2024-08-09 | [Gary Holtz](https://gitlab.com/garyh) | Senior Backend Engineer | |
 | 2024-08-12 | 2024-08-21 | [Emily Plotkin](https://gitlab.com/emilyplotkin) | Sr Director, Legal - Employment | |
-| 2024-08-26 | 2024-09-06 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT | |
+| 2024-08-26 | 2024-09-06 | [Sam Wiskow](https://gitlab.com/swiskow) | Senior Product Manager, Delivery & Scalability | |
+| 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
