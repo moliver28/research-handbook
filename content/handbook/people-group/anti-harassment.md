@@ -13,7 +13,7 @@ Everyone at GitLab has a responsibility to prevent and stop harassment. Working 
 
 ## Perspective
 
-GitLab is a San Francisco, California-based start-up that has grown into a global fully distributed team. We strive to ensure our team is fully aligned with GitLab's no tolerance harassment policy despite their location. We want everyone to feel confident and comfortable communicating concerns. GitLab respects, appreciates, understands and supports every aspect of diversity. We aim to continuously foster a globally aware team.
+GitLab is a global organization and our team is distributed all over the world, so we strive to ensure our team is fully aligned with GitLab's no tolerance harassment policy despite their location. We want everyone to feel confident and comfortable communicating concerns. GitLab respects, appreciates, understands and supports every aspect of diversity. We aim to continuously foster a globally aware team.
 
 ## Scope
 
@@ -26,6 +26,7 @@ This policy applies to all team members of GitLab, whether contractor or employe
 | GitLab Team Members | Responsible for following the requirements in these policies |
 | People Ops | Responsible for implementing and executing these policies |
 | Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
+| Ethics & Compliance, Legal Ops | Responsible for administrating related training |
 
 ## Types of Harassment
 
@@ -166,12 +167,7 @@ Serious cases, including any criminal offence.
 
 ## Training & Guidance
 
-Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. This training will be given annually or when new legal requirements are introduced.
-
-### Course
-
-[COM 001 Common Ground: Prevention of Harassment, Sexual Harassment, and Abusive Conduct in the workplace](https://learning.willinteractive.com/) (2 hrs for managers, 1 hr for non-managers). This training will be assigned to all team members and managers using [Will Interactive's content and LMS platform](https://willinteractive.com/) by email invitation. Details on how to use the platform can be found on the [learning and development page](/handbook/people-group/learning-and-development/#compliance-courses).
-Once the course has been completed, each team member and manager will receive a certificate of completion which will be kept in their employee record in Workday.
+Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](https://handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced. 
 
 ## Country & US State-Specific Requirements
 
