@@ -101,99 +101,95 @@ compliance frameworks in GitLab 17.3.
 
 - [001: Triggering Checks](decisions/001_triggering_checks.md)
 - [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
+- [003: Custom Checks](decisions/003_custom_checks.md)
 
 ### Design Details
 
 We decided to use [Sidekiq workers for creating checks](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
 and [storing the adherence configuration in database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
+It was [decided](decisions/003_custom_checks.md#decision) to combine `compliance_checks` and `compliance_requirements`
+table to reduce redundancy.
 
-The compliance requirements and checks would be stored in individual tables with the following schema:
+The compliance requirements would be stored in a separate table with the following schema:
 
 ```mermaid
     classDiagram
-class namespaces {
-    id: bigint
-    name: text
-    path: text
-    ...(more columns)
-}
-class projects {
-    id: bigint,
-    name: text
-    path: text
-    description: text
-    ...(more columns)
-}
-class compliance_management_frameworks {
-    id: bigint,
-    name: text,
-    description: text,
-    ...(more columns)
-}
+    class namespaces {
+        id: bigint
+        name: text
+        path: text
+        ...(more columns)
+    }
+    class projects {
+        id: bigint,
+        name: text
+        path: text
+        description: text
+        ...(more columns)
+    }
+    class compliance_management_frameworks {
+        id: bigint,
+        name: text,
+        description: text,
+        ...(more columns)
+    }
 
-class compliance_requirements {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    namespace_id: bigint
-    framework_id: bigint
-    name: text
-    description: text
-}
+    class compliance_requirements {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        namespace_id: bigint
+        framework_id: bigint
+        name: text
+        description: text
+        requirement_type: smallint
+        external_url: text
+        expression: jsonb
+    }
 
-class compliance_framework_security_policies {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    framework_id: bigint
-    policy_configuration_id: bigint
-    policy_index: smallint
-    project_id: bigint
-    namespace_id: bigint
-}
+    class project_compliance_status {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        project_id: bigint
+        namespace_id: bigint
+        compliance_requirement_id: bigint
+        status: smallint
+    }
 
-class compliance_checks {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    requirement_id: bigint
-    namespace_id: bigint
-    check_name: smallint
-}
+    class compliance_framework_security_policies {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        framework_id: bigint
+        policy_configuration_id: bigint
+        policy_index: smallint
+        project_id: bigint
+        namespace_id: bigint
+    }
 
-class project_compliance_standards_adherence {
-    id: bigint
-    created_at: timestamp
-    updated_at: timestamp
-    project_id: bigint
-    namespace_id: bigint
-    check_name: smallint
-    status: smallint
-}
-
-compliance_requirements --> compliance_checks : has_many
-compliance_requirements <-- compliance_checks : belongs_to
-compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
-compliance_management_frameworks --> compliance_requirements : has_many
-compliance_management_frameworks <-- compliance_requirements : belongs_to
-compliance_management_frameworks <--> projects : many_to_many
-projects <-- namespaces : has_many
-projects --> namespaces : belongs_to
-namespaces --> compliance_management_frameworks : has_many
-namespaces <-- compliance_management_frameworks : belongs_to
-projects --> project_compliance_standards_adherence : has_many
-projects <-- project_compliance_standards_adherence : belongs_to
+    compliance_management_frameworks --> compliance_requirements : has_many
+    compliance_management_frameworks <-- compliance_requirements : belongs_to
+    compliance_management_frameworks <--> projects : many_to_many
+    compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
+    projects <-- namespaces : has_many
+    projects --> namespaces : belongs_to
+    namespaces --> compliance_management_frameworks : has_many
+    namespaces <-- compliance_management_frameworks : belongs_to
+    projects --> project_compliance_status : has_many
+    projects <-- project_compliance_status : belongs_to
+    compliance_requirements --> project_compliance_status : has_one
+    compliance_requirements <-- project_compliance_status : belongs_to
 ```
 
-We have dropped the `standard` column from the `project_compliance_standards_adherence` since we don't want to
-associate checks with a standard anymore, therefore, allowing the users to customise and group checks as per their
-requirements.
+We created a new table `project_compliance_status` for storing the results of compliance requirements and would drop
+the existing `project_compliance_standards_adherence` table later on. We don't have a `standard` column anymore as we
+don't want to associate requirements with a standard anymore, therefore, allowing the users to customise and group
+requirements as per their need.
 
-We would be storing results for all the compliance adherence checks for ultimate projects, irrespective of the
-frameworks applied to that project, however, at the compliance standards adherence dashboard, we would only display
-the results of checks for the projects that have compliance frameworks applied with requirements configured. This means
-there is no need for a relationship between `compliance_checks` and `project_compliance_standards_adherence` database
-tables.
+Unlike the current implementation we would only store results for the projects that have compliance requirements
+configured. Instead of an enum we would store the `compliance_requirement_id` in the `project_compliance_status` table
+and would display these results at the compliance standards adherence dashboard.
 
 In the next iteration we would also allow importing and exporting the compliance adherence report configurations.
 
