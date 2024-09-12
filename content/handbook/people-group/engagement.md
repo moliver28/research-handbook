@@ -174,17 +174,17 @@ All divisions are recommended to create an Epic to store Engagement Survey Actio
 
 In addition, Managers can create an Engagement Survey Action Issue that links to the division wide Epic. In the Issue, managers can link team wide actions to the division. Here is the recommended [action planning tips](https://docs.google.com/document/d/17C41zQRSRBfI-8_mzHYu91svF94b00DMNCfy6gW-hFI/edit#heading=h.cbt5f5ipulcx) for managers. 
 
-#### FY25 Engagement Survey Action Epics
+#### FY25 Engagement Survey Action Planning Epics
 
 - [Company wide focus areas](https://gitlab.com/groups/gitlab-com/people-group/-/epics/109)
-- Product (forthcoming)
-- Engineering (forthcoming)
+- [Product](https://gitlab.com/groups/gitlab-com/-/epics/2402)
+- [Engineering](https://gitlab.com/groups/gitlab-com/engineering-division/-/epics/1)
 - [Sales](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/114)
-- Marketing (forthcoming)
+- [Marketing](https://gitlab.com/groups/gitlab-com/-/epics/2419)
 - [Finance](https://gitlab.com/groups/gitlab-com/-/epics/2416)
-- People (forthcoming)
+- [People](https://gitlab.com/groups/gitlab-com/-/epics/2420)
 - [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
-- CISO (forthcoming)
+- [CISO](https://gitlab.com/groups/gitlab-com/-/work_items/2399)
 
 ### Summit Pulse Surveys Overview
 
