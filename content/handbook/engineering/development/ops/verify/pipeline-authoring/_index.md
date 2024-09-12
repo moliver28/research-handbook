@@ -58,7 +58,10 @@ Goals:
 
 - Understand the components of the pipeline creation service to improve speed. 
   - This [graph](https://log.gprd.gitlab.net/app/r/s/r5Owf) captures data around the pipeline creation performance.
-- Identify top 3 issue [candidates](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=ci%3A%3Apipeline%20creation&first_page_size=20) to optimize pipeline creation performance.
+- Top 3 identified issues to optimize pipeline creation performance.
+  - [Bulk insert Sidekiq jobs when creating a pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/348553)
+  - [Expand CI variables lazily and selectively](https://gitlab.com/gitlab-org/gitlab/-/issues/410143)
+  - [Evaluate rules once for parallel jobs](https://gitlab.com/gitlab-org/gitlab/-/issues/450687)
 
 ### Scalability
 
@@ -75,7 +78,7 @@ Goals:
 
 Goals:
 
-- Transition from entry classes to JSON schema for data structure validation.
+- Transition from entry classes to JSON schema for data structure validation. - [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/463062)
 
 ### Visibility 
 
@@ -83,13 +86,18 @@ Goals:
 
 Goals:
 
-- Work on top 3 issue [candidates](https://gitlab.com/groups/gitlab-org/-/epics/10120) to add more visibility for usage in CI/CD Catalog.
+- Top 3 identified issues to add more visibility for usage in CI/CD Catalog with adding instrumentation.
+  - [Capture GraphQL call times](https://gitlab.com/gitlab-org/gitlab/-/issues/452247)
+  - [Implement instrumentation to track performance of Ci::Catalog::Listing queries](https://gitlab.com/gitlab-org/gitlab/-/issues/435440)
+  - [Capture page load times](https://gitlab.com/gitlab-org/gitlab/-/issues/452246)
 
 ### FY26 top of mind
 
 - Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
   - Upcoming tentative [iterations](https://gitlab.com/groups/gitlab-org/-/epics/15101) - **NOTE:** Subject to change
 - Support for GraphQL subscriptions - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15108)
+- Improve Feature/E2E specs - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15131)
+- MR Pipeline Tab migration to GraphQL - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15133)
 
 ## Exciting things and accomplishments
 
