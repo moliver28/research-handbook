@@ -42,7 +42,7 @@ This is because:
 
 ### How do I share feedback?
 
-Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
+Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, _if creating an issue does not suffice_.
 
 Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, Service Desk falls under the Monitor PM.
 
@@ -57,7 +57,7 @@ Whenever you're sharing feedback on an issue (e.g. "Customer X wants this"), ple
 - Link to the source. Usually, this is a link to Salesforce or Zendesk
   - Use the Salesforce Account URL when it's a paying customer and you want to relate the ARR
   - Use the Salesforce Opportunity URL when it's related to a prospect or significant growth opportunity
-- Provide context: if a customer wants this feature, include *why* they are interested in this. If you don't know, make sure to ask or bring the relevant PM in contact with the customer
+- Provide context: if a customer wants this feature, include _why_ they are interested in this. If you don't know, make sure to ask or bring the relevant PM in contact with the customer
 - Include any further useful context (e.g. what kind of software is this customer building, or how they will use the feature)
 - Mention the [Product Manager](/handbook/product/categories/)
   - Feel free to ask them anything that isn't clear to you (e.g. it's not clear what the status is of the issue, etc)
