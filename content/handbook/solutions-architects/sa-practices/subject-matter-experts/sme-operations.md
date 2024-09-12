@@ -28,7 +28,7 @@ Use list of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter
 | SME Area                | SME Group                                                    |
 |-------------------------|--------------------------------------------------------------|
 | SME Area Leads Group    | cs-sme-leaders<br>sa-sme-leaders<br>     |
-| AI                      | cs-sme-ai<br>sa-sme-ai<br>               |
+| AI                      | sme-ai                                   |
 | App Security            | cs-sme-appsec<br>sa-sme-appsec<br>       |
 | Dedicated               | cs-sme-dedicated<br>sa-sme-dedicated<br> |
 | Plan                    | cs-sme-plan<br>sa-sme-plan<br>           |
@@ -73,12 +73,12 @@ Purpose: These channels are mainly for SME Program Leads, SME Area Leads, SMEs a
 
 | SME Area                  | Slack Channel That Currently Exists                 | Slack Channels Created to be used Going Forward |
 |---------------------------|-----------------------------------------------------|-------------------------------------------------|
-| AI                        | #sa-ai-sme-team<br>#cs-sme-ai                       | #ai-sme-team                                    |
-| App Security & Compliance | #appsec-sme-team<br>#cs-sme-security-compliance | #appsec-sme-team                                |
-| Dedicated                 |                                                     | #dedicated-sme-team                             |
-| Plan                      | #cs-sme-plan                                        | #plan-sme-team                                  |
-| CICD/Runner               | #cs-sme-ci                                          | #cicd-runners-sme-team                          |
-| Metrics & Observability   | #cs-sme-metrics                                     | #metrics-sme-team                               |
+| AI                        | #sa-ai-sme-team<br>#cs-sme-ai                       | #sme-ai                                         |
+| App Security & Compliance | #appsec-sme-team<br>#cs-sme-security-compliance     | #sme-appsec                                     |
+| Dedicated                 |                                                     | #sme-dedicated                                  |
+| Plan                      | #cs-sme-plan                                        | #sme-plan                                       |
+| CICD/Runner               | #cs-sme-ci                                          | #sme-ci                                         |
+| Metrics & Observability   | #cs-sme-metrics                                     | #sme-metrics                                    |
 
 ### SME Request Channels
 
