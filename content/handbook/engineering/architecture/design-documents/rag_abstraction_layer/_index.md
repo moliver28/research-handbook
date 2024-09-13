@@ -39,11 +39,13 @@ We propose a layered abstraction model that provides both low-level APIs for spe
 
 ![Layered Abstraction](diagrams/abstraction_layer.png)
 
-1. **Data Stores** - The underlying storage solutions such as vector or graph databases.
-2. **Models** - These are the various embedding models that can be used, both third party and GitLab hosted, to embed the data prior to query / storing
-3. **Chunking utilities** - These will be utilities that can be used by teams to quickly develop their chunk strategy whether fixed or semantic. Teams should be able to define the chunk size, overlap, etc. This is a part of the abstraction layer since we don't want teams to have to develop their own mechanisms.
-4. **Encryption utilities** - Functions to encrypt data before it is stored in the data stores, ensuring data security.
-5. **Low Level APIs** - Fine-grained APIs to interact directly with the underlying storage and models. These APIs offer clients detailed control over their data operations. These include:
+> Note: The data stores mentioned here are for illustration purposes. We will start by picking a single data store to support and will progressively build support for others.
+
+- **Data Stores** - The underlying storage solutions such as vector or graph databases.
+- **Models** - These are the various embedding models that can be used, both third party and GitLab hosted, to embed the data prior to query / storing
+- **Chunking utilities** - These will be utilities that can be used by teams to quickly develop their chunk strategy whether fixed or semantic. Teams should be able to define the chunk size, overlap, etc. This is a part of the abstraction layer since we don't want teams to have to develop their own mechanisms.
+- **Encryption utilities** - Functions to encrypt data before it is stored in the data stores, ensuring data security.
+- **Low Level APIs** - Fine-grained APIs to interact directly with the underlying storage and models. These APIs offer clients detailed control over their data operations. These include:
 
 a. *Store APIs* - Store and search data in the underlying data stores.
 
@@ -68,7 +70,7 @@ decrypt(text, key)
 
 > Note: To begin with we will only build chunking, embeddings creation and vector search APIs
 
-6. **High Level APIs** - Composite APIs that combine multiple lower-level APIs to streamline feature development. These abstract complex operations into simple interfaces.
+- **High Level APIs** - Composite APIs that combine multiple lower-level APIs to streamline feature development. These abstract complex operations into simple interfaces.
 
 ```ruby
 insert_record(collection, text, metadata, model, chunking_options)
@@ -77,8 +79,7 @@ update_model(collection, old_model, new_model)
 
 > Note: To begin with we will only build the insert, search and update_model APIs
 
-
-7. **Clients**: These are various teams that will consume these APIs. One specific user of the API will be a data ingestion service that can be configured by customers to ingest data from their data sources such as Confluence docs into the RAG store.
+- **Clients**: These are various teams that will consume these APIs. One specific user of the API will be a data ingestion service that can be configured by customers to ingest data from their data sources such as Confluence docs into the RAG store.
 
 ## Architecture
 
