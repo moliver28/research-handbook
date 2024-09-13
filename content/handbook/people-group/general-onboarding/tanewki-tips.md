@@ -79,7 +79,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | MECC| [Managing so Everyone Can Contribute](/teamops/)|
 | MNPI | Material Non-Public Information  |
 | MR | Merge Request  |
-| MVC| [Minimum Viable Change](/handbook/values/#minimal-viable-change-mvc) (not related to Model-View-Controller)|
+| MVC| [Minimum Viable Change](/handbook/values/#minimal-valuable-change-mvc) (not related to Model-View-Controller)|
 | OKRs | [Objectives & Key Results](/handbook/company/okrs) |
 | PTO | [Paid Time Off](/handbook/people-group/paid-time-off/) |
 | SIRT | [Security Incident Response Team](/handbook/security/security-operations/sirt) |

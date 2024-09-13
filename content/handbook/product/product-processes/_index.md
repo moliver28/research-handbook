@@ -14,8 +14,8 @@ As a Product Organization, we work to create a flexible yet concise product deve
 ### Product Development Flow
 
 Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
-principles/#the-minimal-viable-change-mv
-This process should be both up front and on an on-going basis when building features.
+principles/#the-minimal-valuable-change-mv
+This process should be both up front and on an on-going basis when building features. 
 
 ### The Importance of Direction
 

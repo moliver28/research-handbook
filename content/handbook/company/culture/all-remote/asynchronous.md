@@ -187,7 +187,7 @@ Practicing [iteration 👣](/handbook/values/#iteration) at GitLab requires inte
 
 Asynchronous work can feel taxing and inefficient if you're only working on a single project and you're stuck waiting for another person's contribution. Scheduling your work so you can pick up other tasks while waiting to be unblocked can reduce this downtime.
 
-Now suppose you have five ongoing projects. It's much easier to make iterative progress on one, tag a person or team within a GitLab epic, issue, or merge request for desired input or action, and switch to another ongoing project while you wait. Suppose you cycle through your assigned tasks, making iterative improvements on each before handing off. In that case, you're able to create [minimum viable change](/handbook/values/#minimal-viable-change-mvc) for many more projects while being less concerned over the immediate response to any one of the projects in particular.
+Now suppose you have five ongoing projects. It's much easier to make iterative progress on one, tag a person or team within a GitLab epic, issue, or merge request for desired input or action, and switch to another ongoing project while you wait. Suppose you cycle through your assigned tasks, making iterative improvements on each before handing off. In that case, you're able to create [minimum valuable change](/handbook/values/#minimal-valuable-change-mvc) for many more projects while being less concerned over the immediate response to any one of the projects in particular.
 
 Async works well when managing multiple projects, although it does require discipline and an ability to switch contexts and compartmentalize.
 
@@ -195,7 +195,7 @@ Async works well when managing multiple projects, although it does require disci
 
 *GitLab CEO Sid and the [Learning and Development](/handbook/people-group/learning-and-development) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
 
-> There is a reason we are really good at async, and that is because we make things [smaller](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab CEO and co-founder*
+> There is a reason we are really good at async, and that is because we make things [smaller](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab CEO and co-founder*
 
 ### Aim for progress, not perfection
 
@@ -346,7 +346,7 @@ Suggesting to "hop on a quick videocall" may feel insignificant, but it can have
 
 ### When to pivot from asynchronous to synchronous
 
-When a back-and-forth asynchronous conversation is moving very slowly with a high volume of small statements between two people, sometimes a quick synchronous discussion leads to a quick micro-resolution. Generally, if two people go back-and-forth more than three times on the exact same topic — and it's impractical to [break it into smaller async-friendly decisions](/handbook/values/#minimal-viable-change-mvc) — it makes sense to temporarily pivot to synchronous **or** leverage a richer communication medium such as [Yac](http://yac.com/) or [Loom](https://www.loom.com/).
+When a back-and-forth asynchronous conversation is moving very slowly with a high volume of small statements between two people, sometimes a quick synchronous discussion leads to a quick micro-resolution. Generally, if two people go back-and-forth more than three times on the exact same topic — and it's impractical to [break it into smaller async-friendly decisions](/handbook/values/#minimal-valuable-change-mvc) — it makes sense to temporarily pivot to synchronous **or** leverage a richer communication medium such as [Yac](http://yac.com/) or [Loom](https://www.loom.com/).
 
 These tools allow messages to be conveyed asynchronously, though the use of audio and video as the medium may enable deeper connections to be made compared to raw text transmissions.
 
