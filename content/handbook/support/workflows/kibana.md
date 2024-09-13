@@ -295,9 +295,17 @@ Export errors can occur when a user attempts to export via the UI or [this API e
 
 Here are some suggestions for searching export logs in Kibana:
 
-- In `pubsub-sidekiq-inf-gprd` (Sidekiq), narrow the search by adding filters
-  - json.class: `ProjectExportWorker`
+- In `pubsub-sidekiq-inf-gprd` (Sidekiq), narrow the search by adding filters:
+  - json.class: `Projects::ImportExport`
   - json.meta.project `path/to/project`
+
+The `Projects::ImportExport` class will include the following subcomponents:
+
+- `Projects::ImportExport::RelationExportWorker`
+- `Projects::ImportExport::CreateRelationExportsWorker`
+- `Projects::ImportExport::ParallelProjectExportWorker`
+- `Projects::ImportExport::WaitRelationExportsWorker`
+- `Projects::ImportExport::AfterImportMergeRequestsWorker`
 
 If using the [Correlation Dashboard](#correlation-dashboard), you should be able to follow Sidekiq events throughout the export process, and locate errors by filtering json.severity: `ERROR`. Provided below is an example of an upload failing to AWS S3:
 
