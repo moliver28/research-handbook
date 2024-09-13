@@ -142,6 +142,8 @@ It's at the designer and the product team's discretion to regard a change as sig
 - Insignificant changes might be minor tweaks that enhance the interface but do not fundamentally change the user’s experience or the way they perform tasks / interact with the product. An example could be changing the colour of a button.
 - Significant changes may significantly alter user behavior, and require users to adapt to a new way of interaction. An example could be an change to the information architecture of the product.
 
+The full description of GA Scope and Definition of Done for Duo capabilities is [here](https://gitlab.com/gitlab-org/gitlab/-/issues/444274#ga-scope--definition-of-done) (internal access only).
+
 ### How to measure
 
 Follow the [steps for running a Category Maturity Scorecard study](/handbook/product/ux/category-maturity/category-maturity-scorecards/#steps-for-running-a-category-maturity-scorecard-study), and only make the following adaptations:
