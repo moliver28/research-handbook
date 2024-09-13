@@ -104,6 +104,16 @@ Feel free to adjust the length, timing and agenda of your calls to suit the need
 
 To the extent you can, try not to exceed the length of call you've arranged with the customer as this can set up unrealistic expectations for future Support Engineers working with the customer. If you feel that you're close to a resolution or need more time to collect info always pause and verify with the customer that they have the time to continue and note how much time you have left to continue.
 
+### Customer Care calls
+
+#### Purpose
+
+A Customer Care call is a short call with the sole purpose of addressing customer sentiment. These calls are typically conducted by a Support Leader (Manager+ or Staff+). These calls can be especially useful when a ticket has received a [STAR](/handbook/support/internal-support/support-ticket-attention-requests) or when a customer is in an [account escalation](/handbook/customer-success/csm/escalations/). 
+
+#### Duration
+
+15-30 minutes
+
 ### Discovery calls
 
 #### Purpose
