@@ -37,7 +37,7 @@ The RAG abstraction layer will provide several key benefits:
 
 We propose a layered abstraction model that provides both low-level APIs for specific data stores and high-level composite APIs. Teams can choose the appropriate API level based on their familiarity with the underlying technology. The abstraction layer will include the following components:
 
-![Layered Abstraction](diagrams/abstraction_layer.png)
+![Layered Abstraction](/images/handbook/engineering/architecture/design-documents/abstraction_layer.png)
 
 > Note: The data stores mentioned here are for illustration purposes. We will start by picking a single data store to support and will progressively build support for others.
 
