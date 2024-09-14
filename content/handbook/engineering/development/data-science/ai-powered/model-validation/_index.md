@@ -27,7 +27,6 @@ The team is composed of [ML engineers](/job-families/engineering/development/dat
 | [Andras Herczeg](/handbook/company/team/#andrasherczeg) | Senior ML Engineer |
 | [Stephan Rayner](/handbook/company/team/#srayner) | Senior ML Engineer |
 | [Tan Le](/handbook/company/team/#tle_gitlab) | Senior ML Engineer |
-| [Monmayuri Ray](/handbook/company/team/#mon) | Engineering Manager |
 | [Susie Bitters](/handbook/company/team/#susie.bee) | Senior Product Manager |
 
 ## ☎️ How to contact us
