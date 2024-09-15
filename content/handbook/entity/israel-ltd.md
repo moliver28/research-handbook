@@ -183,4 +183,8 @@ Team members should enter the time away into 'Time off by Deel' by selecting the
 
 In Israel, team members serving on reserve duty must still be paid by their employer. Military service is mandatory in Israel.
 
-Team members should enter the time away into 'Time Off by Deel' by selecting the label `Mandatory Civilian Service`.
+Team members should enter the time away into Time Off by Deel by selecting the label `Mandatory Civilian Service`.
+
+The reserve service benefit will be paid by GitLab, and the team members will continue to receive the usual compensation at the current wage amount.
+
+Important! Sometimes the [Israel National Insurance Institute](https://www.btl.gov.il/English%20Homepage/Updates-security-situation/KizbeotHB/ReserveService/Pages/MsrtimMiloeim.aspx) pay the employer a differential for a benefit of a higher amount than the usual compensation wage, and this differential too must be paid to the team members. For example, there is a "Supplement for days of service" - this supplement is calculated as follows: the days of service are divided by 7, and the remainder determines the level of the supplement. For more details how this benefit is calculated, please visit the [Israel National Insurance Institute Reserve Service page](https://www.btl.gov.il/English%20Homepage/Updates-security-situation/KizbeotHB/ReserveService/Pages/MsrtimMiloeim.aspx).
