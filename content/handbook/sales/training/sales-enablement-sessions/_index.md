@@ -13,8 +13,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Sep 12  |  GitLab click-through Demos & Product Tours    |  SA Team     |
 | Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
+| Sep 25  | Advanced SAST Launch | Product Marketing Team |
 | Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
 | Oct 3  |  FY25-Q3 - Competitive Update | Marketing |
 | Oct 10  | Renewals Manager Overview   |   Renewals Team    |
@@ -29,6 +29,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-09-12  |  **[GitLab click-through Demos & Product Tours](https://drive.google.com/file/d/1CyiLcxFFvW5IEt5j-SX8L-fD02c9df7i/view?usp=drive_link)**    |  Private     |
 | 2024-09-05  | **[Gartner MQ for DevOps Platforms & AI Code Assistants Overview](https://drive.google.com/file/d/1YK2oWyAYewtDq_pHsQwtXhFRwaueqS5G/view?usp=drive_link)**  | Private |
 | 2024-08-22  | **[Data Driven Territory Planning](https://drive.google.com/file/d/1k4BWX7N3w8zUsN52dMV7A5GqMD-Wa7Yr/view?usp=drive_link)**  | Private |
 | 2024-08-15  | **[Duo Enterprise Revenue Play & Accreditation](https://drive.google.com/file/d/1ohmyxBrGxhb7I9lfvnFW_KgGfQJPDMwy/view?usp=drive_link)** | Private |
