@@ -1,25 +1,24 @@
 ---
 title: "Customer Success Engineer"
-description: "The Customer Success Engineering (CSE) team focuses on the themes of align, enable, and expand."
+description: "The Customer Success Engineering (CSE) team focuses on driving adoption at scale."
 ---
 
 ### Customer Success Engineer (CSE)
 
-The Customer Success Engineer (CSE) role provides deep subject matter expertise on GitLab technical and product solutions and best practices. CSEs work alongside CSMs to provide customers with technical guidance, go in-depth on use case implementation, and demonstrate the value of GitLab product capabilities.
+CSEs drive customer adoption through one-to-many (TODO: Add link) and targeted one-to-one interactions (TODO: Add Link). Operating within a pooled model, CSEs serve clients within a specific ARR range, except SMB customers. One-to-one customer interactions stem from internal field requests and targeted email campaigns tailored for customers within this specific cohort.
 
-The Senior CSE reports to the Manager/Senior Manager, CSE.
+The CSE reports to the Manager/Senior Manager, CSE.
 
 #### Customer Success Engineer Responsibilities
 
-- Engage with customers, via Zoom calls and emails, in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
-- Providing technical, architectural and best practice guidance
-- Drive the achievement of measurable value (business outcomes), leading to product adoption, renewal, and expansion
-- Align with Account Executives and Renewals Managers to provide customer-facing subject matter expertise based on the customer's business objectives
-- Focus on solution-based programs that are customized to fit an individual customer's needs
-- Develop and collaborate on customer workshops, demos, and other enablement
-- Maintain specialty competency in one or more technologies related to GitLab's market focus through activities such as training, certification and creation of working examples for reuse internally and by customers and partners
-- Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
-- Contributes to our docs, YouTube channel, and other enablement programs such as the Digital Journey
+- Engage with customers, via video conference calls and emails, in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
+- Provide technical best practice guidance and sharing relevant resources
+# - Drive the achievement of measurable value (business outcomes), leading to product adoption, renewal, and expansion
+- Align with Account Executives and Renewals Managers to provide customer-facing subject matter expertise based on the customer's business and technical objectives
+- Partner with the content team to create and deliver customer webinars and labs in support of 1:many engagements
+- Maintain competency in GitLab's platform and use cases
+- Continuously improve professional skills and promote team learning through activities such as training, reading, and seeking mentorship
+- Continous contribution to the CSE motion and surrounding departments
 
 #### Customer Success Engineer Requirements
 
@@ -31,6 +30,7 @@ The Senior CSE reports to the Manager/Senior Manager, CSE.
 - Have demonstrated the ability to become a trusted technical advisor to customer and business leaders
 - Exceptional verbal, presentation, and written communication skills
 - Excellent time management and ability to work with several different teams at any given time
+- Ability to translate business requirements into business value and work with the account teams to provide value-driven solutions
 
 ### Senior Customer Success Engineer
 
@@ -53,8 +53,8 @@ The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/com
 ### Senior Customer Success Engineer Requirements
 
 - Extends the Customer Success Engineer requirements
-- Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
 - Expert in GitLab usage and able to train others in its usage
+- Capable of seamlessly demoing the product for customers on the fly, adapting to their needs and questions in real time
 - Advanced knowledge of software development lifecycle and development pipeline
 - Advanced project management experience & skills
 
