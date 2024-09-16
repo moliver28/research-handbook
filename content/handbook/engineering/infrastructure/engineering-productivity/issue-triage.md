@@ -225,7 +225,7 @@ Some UX-related issues are known to impact our [System Usability Scale (SUS) sco
 
 #### Deferred UX
 
-Issues labeled as `~Deferred UX` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying `~"type::bug"` label. [Deferred UX](/handbook/engineering/workflow/#deferred-ux) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~Deferred UX` should not have a severity higher than `~"severity::3"`, because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a Deferred UX issue that is higher than `~"severity::3"`, please talk to your stage group team about reincorporating that issue into the MVC.
+Issues labeled as `~Deferred UX` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying `~"type::bug"` label. [Deferred UX](/handbook/engineering/workflow/#deferred-ux) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~Deferred UX` should not have a severity higher than `~"severity::3"`, because [MVCs](/handbook/values/#minimal-valuable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a Deferred UX issue that is higher than `~"severity::3"`, please talk to your stage group team about reincorporating that issue into the MVC.
 
 ### Transient bugs
 

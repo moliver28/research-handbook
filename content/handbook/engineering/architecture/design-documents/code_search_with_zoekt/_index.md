@@ -94,7 +94,7 @@ An
 [initial implementation of a Zoekt integration](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/105049)
 was created to demonstrate the feasibility of using Zoekt as a drop-in
 replacement for Elasticsearch code searches. This blueprint will extend on all
-the details needed to provide a minimum viable change as well steps needed to
+the details needed to provide a minimal valuable change as well steps needed to
 scale this to a larger customer rollout on GitLab.com.
 
 ## Design and implementation details

@@ -14,7 +14,7 @@ As a Product Organization, we work to create a flexible yet concise product deve
 ### Product Development Flow
 
 Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
-principles/#the-minimal-viable-change-mv
+
 This process should be both up front and on an on-going basis when building features.
 
 ### The Importance of Direction
@@ -110,7 +110,7 @@ the most important being a clear communication of the problem we're solving for 
 
 When writing about a feature, make sure to cover [these messaging guidelines](/handbook/marketing/blog/release-posts/#messaging-review)
 which help produce clear internal and external
-messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Viable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
+messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Valuable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
 
 Let's highlight the messaging guidelines mentioned above with a concrete example, Preventing Secrets in your repositories,
 that [we shipped in 8.12](https://about.gitlab.com/releases/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).

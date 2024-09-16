@@ -49,7 +49,7 @@ Values
 - Results: It's important we do what we promised to each other, customers, users, and investors. You'll demonstrate this in your approach to leadership.
 - Efficiency: You'll bring boring solutions to the team, constantly look for efficiency improvements across GitLab, and holding other e-group members accountable for upholding their efficiency too.
 - Diversity: You'll help us increase the diversity of the team, and better the feelings of inclusion and belonging at GitLab.
-- Iteration: You'll do the smallest thing possible and get it out as quickly as possible. Minimal Viable Change is how we all work here.
+- Iteration: You'll do the smallest thing possible and get it out as quickly as possible. Minimal Valuable Change is how we all work here.
 - Transparency: You'll be committed to making the People Team as open and transparent as possible.
 - You'll demonstrate the ability to engage, motivate & inspire a global People team
 

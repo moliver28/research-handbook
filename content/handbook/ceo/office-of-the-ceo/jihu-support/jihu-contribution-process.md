@@ -42,7 +42,7 @@ Bigger product feature contributions should follow GitLab
 [Iteration training](/handbook/engineering/development/onboarding/manager/#iteration-training) is available to coach on GitLab's value of iteration. This can be helpful to understand the expectations of GitLab product teams for feature iteration.
 
 Not every features can follow the same strategy, but the first strategy we
-try should be [crafting the minimal viable change](/handbook/product/product-processes/#crafting-an-mvc), and for creating
+try should be [crafting the minimal valuable change](/handbook/product/product-processes/#crafting-an-mvc), and for creating
 merge requests, always try to [keep merge requests small](/handbook/engineering/workflow/iteration/#how-to-keep-a-merge-request-small).
 
 In the above guidelines to keep merge requests small, we mentioned:

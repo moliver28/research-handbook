@@ -134,7 +134,7 @@ When applying iterative design, consider the longer-term strategy and collaborat
 - **Design reviews**: Participate in [Design Reviews](#design-reviews) with other Product Designers for objective feedback and new ideas, helping to improve your work and gain additional context.
 - **Collaborate with Technical Writers**: For substantial UI text changes, work closely with your group's Technical Writer. For smaller changes, involve them in the review process.
 - **Involve your Product Design Manager**: For significant UX changes, include your Product Design Manager in feedback sessions for broader insights and alignment with other initiatives.
-- **Validate with users**: If high-risk or uncertain directions, validate solutions with users through [UX research](/handbook/product/ux/ux-research/solution-validation-and-methods/). For lower-risk directions, gather feedback from users after releasing the minimal viable change (MVC).
+- **Validate with users**: If high-risk or uncertain directions, validate solutions with users through [UX research](/handbook/product/ux/ux-research/solution-validation-and-methods/). For lower-risk directions, gather feedback from users after releasing the minimal valuable change (MVC).
 - **Use the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)**:  Refer to the design and UI changes checklist to ensure your design's readability, appearance, and functionality.
 
 #### GitLab Design Talks: Iteration

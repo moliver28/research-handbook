@@ -1030,7 +1030,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | LATAM                     | Latin America (includes all of Central & South America)                                                                                                                     |
 | META                      | Middle East, Turkey and Africa Region                                                                                                                                       |
 | MQL                       | Marketing Qualified Lead - an inquiry that has been qualified through systematic means (e.g. through demographic/firmographic/behavior lead scoring)                        |
-| MVC                       | Minimal Viable Change (not Model View Controller)                                                                                                                           |
+| MVC                       | Minimal Valuable Change (not Model View Controller)                                                                                                                           |
 | NEUR                      | Northern Europe Region                                                                                                                                                      |
 | NORAM                     | North America                                                                                                                                                               |
 | Qualified Lead            | A lead that a BDR or SDR has qualified, converted to an opportunity and assigned to a Sales Representative (Stage 0-Pending Acceptance)                                     |

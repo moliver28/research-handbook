@@ -523,7 +523,7 @@ When team members have freedom and responsibility over rigidity, they have more 
 
 Not every problem should lead to a new process to prevent them. Additional processes make all actions more inefficient; a mistake only affects one. Once you have accepted the mistake, learn from it. When team members are free to accept mistakes, they can take more calculated risks.
 
-##### Move fast by shipping the minimal viable change
+##### Move fast by shipping the minimal valuable change
 
 We value constant improvement by iterating quickly, month after month. If a task is not the [smallest viable and valuable thing](#iteration), cut the scope.
 
@@ -876,7 +876,7 @@ Short iterations reduce [our cycle time](https://about.gitlab.com/stages-devops-
 
 Small iterations make it easier to work with the wider community. Their work looks more like our work, and our work is also quicker to receive feedback.
 
-##### Minimal Viable Change (MVC)
+##### Minimal Valuable Change (MVC)
 
 We encourage MVCs to be as small as possible. Always look to make the quickest change possible to improve the user's outcome. If you validate that the change adds more value than what is there now, then do it. This may be additive (adding something) or subtractive (removing something). No need to wait for something more robust. More information is in the [product handbook](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), but this applies to everything we do in all functions. Specifically for product MVCs, there is additional responsibility to validate with customers that we're adding useful functionality without obvious bugs or usability issues.
 

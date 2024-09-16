@@ -179,7 +179,7 @@ Some MRs require additional set up:
 **After review**:
 
 - Remove yourself as a reviewer and post a summary comment, indicating if any changes are required.
-- Create follow-up issues for any outstanding UX concerns that deviate from the Minimum Viable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
+- Create follow-up issues for any outstanding UX concerns that deviate from the Minimal Valuable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
 
 **Follow-up with authors**:
 

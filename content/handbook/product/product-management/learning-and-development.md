@@ -380,7 +380,7 @@ _Please contribute your favorite resources here_
 #### Quick reads and videos
 
 - What does [Iteration](/handbook/values/#iteration) mean for GitLab?
-- What is a [Minimal Viable Change](/handbook/product/product-principles/#sts=The%20Minimal%20Viable%20Change%20(MVC))?
+- What is a [Minimal Valuable Change](/handbook/product/product-principles#the-minimal-valuable-change-mvc)?
 - [Product Processes: Iteration Strategies](/handbook/product/product-processes/#iteration-strategies)
 - A [video by Sid and Leif on iteration](https://www.youtube.com/watch?v=tPTweQlBS54) (24 min video)
 - [Product Leadership discusses examples of iteration that they've learned from](https://www.youtube.com/watch?v=tPTweQlBS54) (19 min video)
