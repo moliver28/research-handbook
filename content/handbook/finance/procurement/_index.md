@@ -270,13 +270,12 @@ If you are unable to plan and have a legitimate reason to escalate a purchase re
 
 Exceptions to the PO Policy are:
 
-1. Purchases under $5K
+1. One time purchases under $5K (or less than $5K annually)
 1. Charitable Contributions (Donations)
-1. Computer/Hardware Advances (if unable to be paid through Payroll Dept)
 1. Interview Candidate Reimbursement
-1. Legal Fees
-1. Audit, Tax, and Insurance Fees
-1. Benefits, PEO Providers and Payroll
+1. Confidential outside counsel legal fees
+1. Statutory Tax fees
+1. PEO Providers
 1. AR/Customer Refunds
 1. Board of Director Payments
 1. Financing, Banking and Investing (incl interest, debt, FX, fees)
