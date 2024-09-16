@@ -4,13 +4,13 @@ title: Elevate+ Round 3 Pilot - FY25 Q3
 
 Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
-**This page outlines the updated format of Elevate+, for particpants starting mid-September in our pilot program. Enrollment is currently open for Directors and Senior Directors. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSemDp8r_K1QiuV6x5Vue1uEV4qvrrLyrM3fxPfMky-UM2EUAA/viewform?usp=sf_link).**
+**This page outlines the updated format of Elevate+, for particpants starting mid-September in our pilot program.**
 
 Through interactive workshops, 1:1 coaching, self-paced learning, and small group connections, Elevate+ enables senior leaders at GitLab to better understand and practice behaviors anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.
 
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/936433544?h=4499172070&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="gitlab___elevate+___final (1080p)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/936433544?h=4499172070&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Welcome to Elevate+"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Learner Outcomes
 
