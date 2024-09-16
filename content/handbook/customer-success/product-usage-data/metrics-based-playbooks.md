@@ -3,7 +3,7 @@ title: "Product usage playbooks with usage metrics"
 description: "Using metrics to trigger product usage playbooks and leading discovery with data"
 ---
 
-GitLab collects product usage metrics via [service ping](https://docs.gitlab.com/ee/development/service_ping/index.html#service-ping-guide) from self-managed customers. For each of the GitLab use-cases, we have at least a single usage metric reported in the service ping. These metrics are used to trigger Product Usage playbooks in Gainsight to prompt CSMs to reach out to customers in a consultative context to help the customer adopt GitLab features as use-case solutions and maximize their return on investment with GitLab. Below is a list of the metrics used to trigger each of the current product usage playbooks. Furthermore, there is information defining the triggers for each playbook and discovery questions that CSMs can use to guide the consultation process with the customer.
+GitLab collects product usage metrics via [service ping](https://handbook.gitlab.com/handbook/customer-success/csm/service-ping-faq/) from self-managed customers. For each of the GitLab use-cases, we have at least a single usage metric reported in the service ping. These metrics are used to trigger Product Usage playbooks in Gainsight to prompt CSMs to reach out to customers in a consultative context to help the customer adopt GitLab features as use-case solutions and maximize their return on investment with GitLab. Below is a list of the metrics used to trigger each of the current product usage playbooks. Furthermore, there is information defining the triggers for each playbook and discovery questions that CSMs can use to guide the consultation process with the customer.
 
 ## CI/CD Use Case
 
