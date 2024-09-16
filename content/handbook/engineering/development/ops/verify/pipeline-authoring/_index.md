@@ -103,11 +103,9 @@ Goals:
 
 ### FY26 top of mind
 
-- Future of CI Pipeline Processing - [Design Doc](/handbook/engineering/architecture/design-documents/ci_pipeline_processing/) 
 - Support for GraphQL subscriptions - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15108)
 - Improve Feature/E2E specs - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15131)
 - MR Pipeline Tab migration to GraphQL - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15133)
-- Upcoming tentative [iterations](https://gitlab.com/groups/gitlab-org/-/epics/15101) - **NOTE:** Subject to change
 
 ## Exciting things and accomplishments
 
