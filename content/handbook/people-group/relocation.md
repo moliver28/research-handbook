@@ -94,7 +94,7 @@ If the country and the location factor don't change, no change in compensation i
 
 #### Relocations To New Country or Different Location Factor
 
-1. Complete the [Relocation Request Form](https://docs.google.com/forms/d/1u8O-AvzAJh993GWJyVsm7C7EjMpV9S0tjaXYoce8F7o/viewform?edit_requested=true) to submit the initial request to start the process. Upon completion, the form is sent automatically to People Connect.
+1. Complete the [Relocation Request Form](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=3537489247173d1067429ee0026d43b7) to submit the initial request to start the process. Upon completion, the form is sent automatically to People Connect.
 1. Once the relocation request form has been received by People Connect, they should review the form playing close attention to the following information:
 
    - [Location Eligibility](https://comp-calculator.gitlab.net/hiring_status/index) Check the [Compensation calculator, country hiring status](https://comp-calculator.gitlab.net/hiring_status/index) to confirm that the country is currently an entity country open to further hiring.  These are the only countries where team members can relocate.
