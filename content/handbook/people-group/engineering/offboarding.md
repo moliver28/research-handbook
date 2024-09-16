@@ -93,11 +93,11 @@ We leverage the [issues API](https://docs.gitlab.com/ee/api/issues.html#list-iss
 
 ```ruby
 {
-  created_before: "#{90.days.ago.end_of_day.iso8601}" # eg. 2019-03-15T08:00:00,
+  created_before: "#{90.days.ago.end_of_day.iso8601}", # eg. 2019-03-15T08:00:00
   per_page: 100, # limit results to 100 issues per request
-  labels: [ 'offboarding' ] # only match issues with the 'offboarding' label
-  state: 'opened' # only match open issues
-  confidential: true # all offboardings are confidential by default
+  labels: [ 'offboarding' ], # only match issues with the 'offboarding' label
+  state: 'opened', # only match open issues
+  confidential: true, # all offboardings are confidential by default
 }
 ```
 
