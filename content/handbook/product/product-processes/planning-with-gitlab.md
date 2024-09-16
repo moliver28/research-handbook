@@ -138,7 +138,7 @@ As a Product Manager you should close work items for the following reasons:
 1. **It presents a security risk.** Some requests may require you to evaluate if the proposal can be delivered without presenting a security risk to GitLab or our customers. You should reach out to [Application Security](/handbook/security/product-security/application-security/) if you are unsure about any requests.
 1. **Too complex:** We want to have a simple, user-friendly product that does complex things, not the other way around.
 1. **We don’t want another setting:** whenever we can, we try to avoid having settings. GitLab follows the [Convention over Configuration](/handbook/product/product-principles/#convention-over-configuration) principle when evaluating new proposals. It's important to consider all of the user experience impacts an additional setting can add and while some settings are unavoidable; most aren’t.
-1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already [addressed in the Stewardship page](https://handbook.gitlab.com/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
+1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already [addressed in the Stewardship page](/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
 1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
 
 The 'not the next iteration' work items are the most important ones to resolve.
