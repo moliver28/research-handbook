@@ -183,7 +183,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
   - Identity and Access Management
     - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
     - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
-  - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
+  - [@gitlab-com/gl-security/security-operations/redteam](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam)
   - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
   - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
 

@@ -16,7 +16,7 @@ Third-party systems that are used by GitLab for official business purposes are a
 
 All other systems managed by GitLab are in scope for all types of Red Team operations.
 
-Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new).
+Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new).
 
 ### Company-Issued Laptops
 
