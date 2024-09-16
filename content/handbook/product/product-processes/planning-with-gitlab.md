@@ -126,8 +126,6 @@ so that we avoid creating uncertainty with customers and colleagues.
 
 ##### When to close an issue or epic
 
-<DROP THIS>
-
 To clearly communicate to our stakeholders what we are going to do, it's critical that you not only
 provide the positive view (what we will do), but also articulate the negative view (what we will not
 do). While this should be communicated in stage and category strategies,
@@ -135,14 +133,13 @@ it starts with your work items (issues, epics and tasks). Rejecting a feature re
 
 As a Product Manager you should close work items for the following reasons:
 
-1. Duplicate Issue: GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests.
-1. Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#vision). GitLab is a large platform and not all requests will align with the long term direction of the product. It's ok to close issues that we'll never do because they do not align with this vision.
-1. It presents a security risk.
-1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around.
-1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.
-1. Low priority: sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
+1. **Duplicate Issue:** GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests. You should use the [`/duplicate` quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) to close these and link them to the canonical issue.
+1. **Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#vision).** GitLab is a large platform and not all requests will align with the long term direction of the product. It's ok to close issues that we'll never do because they do not align with this vision.
+1. **It presents a security risk.** Some requests may require you to evaluate if the proposal can be delivered without presenting a security risk to GitLab or our customers. You should reach out to [Application Security](/handbook/security/product-security/application-security/) if you are unsure about any requests.
+1. **Too complex:** We want to have a simple, user-friendly product that does complex things, not the other way around.
+1. **We don’t want another setting:** whenever we can, we try to avoid having settings. GitLab follows the [Convention over Configuration](/handbook/product/product-principles/#convention-over-configuration) principle when evaluating new proposals. It's important to consider all of the user experience impacts an additional setting can add and while some settings are unavoidable; most aren’t.
 1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already [addressed in the Stewardship page](https://handbook.gitlab.com/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
-1. No longer relevant. You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
+1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
 
 The 'not the next iteration' work items are the most important ones to resolve.
 It is very easy to create a large, comprehensive change with meta items and lots of improvements,
@@ -156,6 +153,27 @@ Closing work items whenever possible is an important part of your job and helps 
 
 When closing a work item, leave a comment explaining why you're closing it, and link
 to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don’t forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
+
+###### Comment templates for closing issues
+
+If you find duplicates, you can post this message:
+
+```md
+Hey {{author}}! Thanks for submitting this issue. It looks like a duplicate of {{issue}}. I'm marking your issue as a duplicate and close it.
+Please add your thoughts and feedback on {{issue}}. Don't forget to upvote feature proposals.
+
+/duplicate {{issue}}
+```
+
+Don't make any forward looking statements around milestone targets that the duplicate issue may be assigned.
+
+##### When you should NOT close an issue or epic
+
+1. **Low priority:** sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
+1. **Not part of your direction:** While some items may be antithetical to our vision, most will fall into this category. These items are good ideas, but are not at the top of the list for PMs to prioritize within their group.
+1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize ~Awaiting further demand label.
+1. **Deinvested category:** Issues for categories in which we've made a deinvestment, but haven't removed the category. (we should create a label for this)
+1. **Age of Issue:** Closing due to age alone. Filtering by age to look for candidates to close is fine, but if the issue still aligns with product direction and there is community interest, we should keep these open for future opportunities.
 
 ### Roadmaps
 
