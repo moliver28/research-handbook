@@ -1,14 +1,7 @@
 ---
 title: Amazon Workspaces (VDI)
+description: Amazon WorkSpaces enables you to provision virtual, cloud-based Microsoft Windows, Amazon Linux 2, Ubuntu Linux, or Red Hat Enterprise Linux desktops. You would need a Windows VDI when you are using software that works only with Windows.
 ---
-
-description: AWS Workspaces VDI documentation page
-
-## Use cases
-
-Amazon WorkSpaces enables you to provision virtual, cloud-based Microsoft Windows, Amazon Linux 2, Ubuntu Linux, or Red Hat Enterprise Linux desktops.
-
-i.e. You would need a Windows VDI when you are using software that works only with Windows.
 
 ## How to request access
 
