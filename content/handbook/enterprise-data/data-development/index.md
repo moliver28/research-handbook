@@ -5,13 +5,17 @@ description: "This page defines the Data Development lifecycle"
 
 ## Data Development at GitLab
 
-GitLab deploys two distinct but interrelated approaches to build data solutions that help drive insights and business decisions. These approaches are complementary to one another and are focused on delivering results at a level of speed, quality, and reliability required by the business, problem being solved, and question being asked. The approaches are complementary and evolutionary in nature, enabling development in an earlier stage to be leveraged in a later stage if required. Data solutions developed at an early stage can be improved and enhanced to a later stage if there is sufficient business need to do so. All analysis follows the well-established [Data Analysis Process](/handbook/enterprise-data/organization/analytics/#data-analysis-process).
+GitLab deploys two distinct but interrelated approaches to build data solutions that help drive insights and business decisions. The two approaches are `Ad-Hoc` and `Trusted Data`.These approaches are complementary to one another and are focused on delivering results at a level of speed, quality, and reliability required by the business, problem being solved, and question being asked. The approaches are complementary and evolutionary in nature, enabling development in an earlier stage to be leveraged in a later stage if required. Data solutions developed at an early stage can be improved and enhanced to a later stage if there is sufficient business need to do so. All analysis follows the well-established [Data Analysis Process](/handbook/enterprise-data/organization/analytics/#data-analysis-process).
 
-The two approaches are `Ad-Hoc` and `Trusted Data`. `Ad-hoc` development is done in the `WORKSPACE` schemas in Snowflake and in the `Development` folders in Tableau. `Trusted Data` development is done in the `COMMON` and `SPECIFIC` schemas in Snowflake and in the `Development` folders in Tableau.
+Development location per data Application
+* **Snowflake:** `Ad-hoc` development is done in the `WORKSPACE` schemas while `Trusted Data` development is done in the `COMMON` and `SPECIFIC`.
+* **Tableau:** `Ad-hoc` is done in the `Development` Project Folders while `Trusted Data` is delivered in the `Production` Project Folders
 
 |             |  Ad-hoc |  Trusted Data |
 | :--         |     :-: |           :-: |
 | When To Use | **Prototyping / Directional / Urgent Analysis** | **Mission Critical Analysis / Operational Analysis**  |
+| Snowflake Schema Location | `WORKSPACE` | `COMMON` and `SPECIFIC` |
+| Tableau Folder Locations | `Development` | `Production` |
 | Manual adding data | optional | N/A |
 | Creating own data structures | optional |  N/A |
 | Visualization using [Tableau](/handbook/enterprise-data/platform/tableau/) | optional | **required** |
