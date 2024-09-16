@@ -226,7 +226,7 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | May   |  @manojmj | Progress: The story of how we leveraged housekeeper, YAML & GitLab Pages to build alignment | https://youtu.be/zUl5dMF5gz0  |
 | June  |           |       |          |
 | July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
-| August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
+| August | @sxuereb | [PromQL Basics, Mimir and our exporters](https://docs.google.com/presentation/d/1BhH0Ga_gtwoaiILCQEWYo4XdFidznT5Uk2v6D3QF7hw)       | https://youtu.be/CPo1-__wdh8 |
 | September | @mkaeppler | Life of a Cloud Connector request |          |
 | October |  @bshah11     |    TBD  ||
 | November |        |       |          |
