@@ -76,7 +76,16 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP, Corporate Controller or CAO.
 - There will be occasions where if you have claimed an item and it needs to be reimbursed back to GitLab, you will need to follow the repayment process in Navan for submission of the funds.
 
-### 3.2 Other
+### 3.2 Trip Purpose Guidance
+
+- When booking travel in Navan, it's important to select the proper trip purpose type from the "Trip Purpose" dropdown menu. Selecting the correct trip type is essential for accurate data reporting.
+- The options for trip purpose include:
+  - Company meeting - any travel for internal meetings or events (that are not listed separately) with no customers present
+  - Customer visit - any travel for meetings or events where GitLab customers and prospects are in attendance including conferences, roadshows, field events, and customer meetings
+  - Partner visit - any travel for meetings or events where GitLab partners are in attendance
+  - Specific events - these will be visible in the trip purpose dropdown, ex: `FY25 GTM Onsite`
+
+### 3.3 Other
 
 - Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by the CFO.
 - Any exceptions to the policy must be documented via an issue or an email with proper approvals from their manager and Finance team.
