@@ -5,7 +5,7 @@ title: "FedRAMP Vulnerability Deviation Request Procedure"
 ## Submit a Request
 
 <div class="d-grid gap-2 my-4">
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests/-/issues" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>
+<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>
 </div>
 
 Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@dedicated_compliance` in the `# sec-assurance` Slack channel if you have any questions.
@@ -41,7 +41,7 @@ Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label appl
 
 ## Procedure
 
-Any GitLab team member can submit a deviation request (DR) via a [GitLab issue in this private project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests). DRs should be submitted as early as possible, and mustn't be submitted once the SLA for a vulnerability is already at risk of being breached. This allows time for approval and alternate mitigations to be explored without risking breaching the SLA if the DR is not appropriate for approval. All DRs are reviewed and approved by security, compliance, and our AO and they must meet the definitions and critieria defined within the DR issue templates to be eligable for review and potential approval.
+Any GitLab team member can submit a deviation request (DR) by [creating a new issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new) in the `Plan of Action and Milestones (POA&M) - Vulnerability Deviation Requests` private project. DRs should be submitted as early as possible, and mustn't be submitted once the SLA for a vulnerability is already at risk of being breached. This allows time for approval and alternate mitigations to be explored without risking breaching the SLA if the DR is not appropriate for approval. All DRs are reviewed and approved by security, compliance, and our AO and they must meet the definitions and critieria defined within the DR issue templates to be eligable for review and potential approval.
 
 To open a DR the applicable issue template must be selected and all information must be completed prior to submitting the issue for internal review. Each DR will undergo three rounds of review:
 
