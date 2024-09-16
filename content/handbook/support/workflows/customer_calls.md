@@ -108,7 +108,7 @@ To the extent you can, try not to exceed the length of call you've arranged with
 
 #### Purpose
 
-A Customer Care call is a short call with the sole purpose of addressing customer sentiment. These calls are typically conducted by a Support Leader (Manager+ or Staff+). These calls can be especially useful when a ticket has received a [STAR](/handbook/support/internal-support/support-ticket-attention-requests) or when a customer is in an [account escalation](/handbook/customer-success/csm/escalations/). 
+A Customer Care call is a short call with the sole purpose of addressing customer sentiment. These calls are typically conducted by a Support Leader (Manager+ or Staff+). These calls can be especially useful when a ticket has received a [STAR](/handbook/support/internal-support/support-ticket-attention-requests) or when a customer is in an [account escalation](/handbook/customer-success/csm/escalations/). A Customer Care call can also be helpful when a ticket is being rehomed or has been rehomed recently. Support Engineers are encouraged to work with their manager or another Support Leader to get a Customer Care call arranged for tickets that they are working on when they think that the additional attention would be helpful. 
 
 #### Duration
 
