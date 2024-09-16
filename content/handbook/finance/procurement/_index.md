@@ -1,5 +1,5 @@
 ---
-title: The GitLab Procurement Team
+title: The GitLab Procurement Team 
 ---
 <!-- markdownlint-disable MD051 -->
 ## What is Procurement?
