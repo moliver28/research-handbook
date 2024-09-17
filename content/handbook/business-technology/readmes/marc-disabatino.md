@@ -11,7 +11,7 @@ Hey! I'm Marc and I'm a [Senior, Business Systems Analyst](/handbook.gitlab.com/
 
 ### About me 
 
-I grew up and currently live in Newark, [Delaware](https://simple.wikipedia.org/wiki/Delaware) (the first state). I live with my fiance and four cats aka my fur children. I have been working in IT roles and in tech for ten years now. I enjoy the challenges and problem soliving opportunities this field provides but what I love most is the opportunity to help people while playing with the latest greatest tech. 
+I grew up and currently live in Newark, [Delaware](https://simple.wikipedia.org/wiki/Delaware) (the first state). I live with my fiance and four cats aka my fur children. I have been working in IT roles and in tech for ten years now. I enjoy the challenges and problem solving opportunities this field provides but what I love most is the opportunity to help people while playing with the latest and greatest tech. 
 
 ### My GitLab Story
 
@@ -21,7 +21,7 @@ I have worked for GitLab for over five years now, in my time here I....
 - Onboarded over a thousand employees between 2019-2022.
 - Maintained two separate roles and was promoted to Senior for both those roles. 
 - Reported directly to one Manager and three Directors in my tenure. 
-- Onboarded and became technial owner of a large portion of our current [Tech Stack](/handbook.gitlab.com/handbook/business-technology/tech-stack/).
+- Onboarded and became technical owner of a large portion of our current [Tech Stack](/handbook.gitlab.com/handbook/business-technology/tech-stack/).
 - Later on became CODEOWNER of the same tech stack and I work to maintain its accuracy.
 - Assisted our compliance teams with achieving and maintain SOC and ISO certifications. 
 - Provided Technical support for all first year company earnings calls.
@@ -34,7 +34,7 @@ I have worked for GitLab for over five years now, in my time here I....
 
 ### What its like working with me
 
-I am very much a product of my assertive debator personality type. I approach most work situations with a forward looking, out of the box thinking attitude. I will frequently question and challenge ideas and stratedgies, even if I agree with them. This is not because I am contrarian, it is because I geniunely have an interest into why you think that way and how that idea came to you. I am always looking for my next task to complete and opportunity to improve something. I hold my own personal integrity to highest standard and expect those I work with to do the same. I work best under pressure but I do need time to focus and complete smaller tasks assigned to me. I can be very blunt at times, in my opinion this has been a strength and a weakness.
+I am very much a product of my assertive debator personality type. I approach most work situations with a forward looking, out of the box thinking attitude. I will frequently question and challenge ideas and strategies, even if I agree with them. This is not because I am contrarian, it is because I genuinely have an interest into why you think that way and how that idea came to you. I am always looking for my next task to complete and opportunity to improve something. I hold my own personal integrity to highest standard and expect those I work with to do the same. I work best under pressure but I do need time to focus and complete smaller tasks assigned to me. I can be very blunt at times, in my opinion this has been a strength and a weakness.
 
 ### What I am working on now
 
