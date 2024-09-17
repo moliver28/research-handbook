@@ -477,6 +477,7 @@ The following is intended as a step by step guide for opportunity owners or ISRs
   - Populate **"Renewal Term"** in months. (i.e. for a two-year renewal, enter "24")
 
   - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank. **NOTE: If changing RTM at Renewal, please be sure to remove the previous "Resale Partner" from the "Invoice Owner" and "Invoice Owner Contact" field.
+  
     - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
     - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
     - "Invoice Owner Contact"
