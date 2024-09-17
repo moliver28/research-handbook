@@ -37,7 +37,7 @@ We strive to produce three case studies per quarter, and three marquee videos pe
 
 **Where to find customer stories:**
 
-- [Customer Advocacy “One Stop Shop” on Highspot](https://gitlab.highspot.com/spots/636e91aed5e577c7525c583a) - filter customer stories based on industry, use case, region, and more; create a “pitch” and share out your content of choice directly from Highspot
+- [Customer Advocacy “One Stop Shop” on Highspot](https://gitlab.highspot.com/spots/636e91aed5e577c7525c583a) - filter customer stories based on industry, use case, region, competitor, and more; create a “pitch” and share out your content of choice directly from Highspot
 - [Customer Advocacy & Case Study Slides](https://docs.google.com/presentation/d/1Sz0vQwOPL6OEc-VGTWGKXXlUddayKcz-3Xe5a9MhyZE/edit#slide=id.g1f9600f4746_0_0) - position the value of participating in advocacy opportunities to your customers, and leverage the case study slides for pitches and presentations as needed
 - [Customer Case Studies](https://about.gitlab.com/customers/) - on the GitLab website
 - [Customer Blogs](https://about.gitlab.com/blog/categories/customer-stories/) - on the GitLab website
@@ -97,22 +97,22 @@ For more details on the EAB program, review the [Internal Brief](https://docs.go
 > - **Federal Advisory Board** - for the PubSec customer audience (DRI: Kira Aubrey, PubSec)
 > - **Executive Sponsor Program** - for high value customers with high risk (DRI: Amelia Zaglul, Enablement)
 
-### **20 to Watch in DevSecOps — Customer Awards Program**
+### **20 to Watch in DevSecOps — Customer Awards Program [_Coming Soon_]**
 
-Launching in Q4 FY25, our annual customer awards program, 20 to Watch in DevSecOps, celebrates a diverse group of innovators who are delivering business results with a transformational DevSecOps strategy powered by GitLab solutions. Customers self-nominate for an award, and the winners (selected by an internal GitLab committee) are recognized as thought leaders in DevSecOps, receive a prize package, and gain access to GitLab executives and other exclusive opportunities.
+Our customer awards program, 20 to Watch in DevSecOps, celebrates a diverse group of innovators who are delivering business results with a transformational DevSecOps strategy powered by GitLab solutions. Customers self-nominate for an award, and the winners (selected by an internal GitLab committee) are recognized as thought leaders in DevSecOps, receive a prize package, and gain access to GitLab executives and other exclusive opportunities.
 
 20 to Watch in DevSecOps supports GitLab’s three-year strategy by helping to cultivate the platform buyer, drive brand and GTM efforts with a customer centricity focus, and generate testimonials and evidence to fuel our customer content pipeline.
 
 For more about the 20 to Watch in DevSecOps customer awards program, review the [Internal Brief](https://docs.google.com/document/d/17mq2QJo0035UJsgZJdUL6a1zQwjyFhE4tjbpjfLTlqA/edit).
 
-### **Customer-Facing Advocacy Program (Base) — [Under Construction]**
+### **Customer-Facing Advocacy Program [_Under Construction_]**
 
 Our emerging customer-facing advocacy program enables GitLab to celebrate, nurture, and reward our advocates at scale, while cultivating customer evidence through various advocacy “asks”. The program is hosted on Base, a B2B customer marketing and advocacy automation platform.
 
 > As we continue to build out the program, we encourage customer-facing teams to [nominate customer advocates](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link).
 
-### **Customer Advocacy SPIFFs**
+### **Customer References Contests**
 
-On an adhoc basis, the Customer Advocacy team runs SPIFFs to incentivize the field team to identify and secure customer references willing to be featured in publicly facing channels. The goal is to uncover new, high quality customer references whose names, logos, and stories can help strengthen our standing in the market.
+On an adhoc basis, the Customer Advocacy team runs contests to incentivize the Sales team to identify and secure customer references willing to be featured in publicly facing channels. The goal is to uncover new, high quality customer references whose names, logos, and stories can help strengthen our standing in the market.
 
-SPIFFs typically run throughout a designated quarter and offer a reward structure where individuals (usually AEs/account owners) can qualify for monetary incentives by securing customer reference agreements.
+The contest typically runs throughout a designated quarter and offers a reward structure where individuals (usually AEs/account owners) can qualify for monetary incentives by securing customer reference agreements.
