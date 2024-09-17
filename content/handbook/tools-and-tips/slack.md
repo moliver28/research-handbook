@@ -17,11 +17,11 @@ Fill in your Slack profile, as we use Slack profiles as our Team Directory to st
 - Time zone (useful for other GitLab team members to see when you're available)
 - Working hours (can help others to identify the times you are generally available)
 - GitLab Birthdays (opt in or out of the birthday celebrations in Slack by selecting yes or no)
-- State / Province and Country (optional)
-- You can add your personal email address, phone number including country code (optional)
-- Consider changing your "display name" if you prefer to be addressed by a nickname
+- Location field for City / State / Province and Country (optional)
+- You can add your personal phone number including country code (optional)
+- Consider changing your "Display Name" if you prefer to be addressed by a nickname
 - Consider adding your pronouns in the Pronouns field. By making it normal to set pronouns we create a more inclusive environment for people who use non-traditional pronouns.
-- Consider adding pronunciation guides for your full name Name pronunication field to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij).
+- Consider adding a pronunciation guide in the "Name Pronunication" field to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij).
 - Consider adding a "Name recording" to help with name pronunciation.
 - Do not enter anything in the G-Cal Booking! field unless you would like to set up and make use of a [Calendly Account](/handbook/tools-and-tips/other-apps/#calendly)
 
