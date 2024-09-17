@@ -4,17 +4,17 @@ description: "Information on what Kibana is, how to search it, interpret its res
 category: Infrastructure for troubleshooting
 ---
 
-### Overview
+## Overview
 
 This document provides information on what Kibana is, how to search it, interpret its results, and contains tips and tricks on getting specific information from it.
 
-### Using Kibana
+## Using Kibana
 
 [Kibana](https://log.gprd.gitlab.net/) is an [open source data visualization plugin](https://www.elastic.co/kibana) for [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch). It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Support Engineering uses Kibana to both search for error events on GitLab.com and to detect when specific changes were made to various aspects of it by a user.
 
->**Note:** Kibana does not retain logs older than 7 days.
+>**Note:** Kibana does not retain logs older than 7 days and defaults to the UTC time zone.
 
-#### Parameters
+### Parameters
 
 Knowing *where* to search in Kibana is paramount to getting the proper results. The area of the application (GitLab.com) that you're searching is known as the `Index` in Kibana. The default index used for searching is `pubsub-rails-inf-gprd-*` but you can change this by clicking the `(change)` button:
 
@@ -32,7 +32,7 @@ Along with the index, knowing *when* a specific error or event ocurred that you'
 
 ![Changing the date range](/images/support/kibana_changing-dates.jpg)
 
-#### Fields and Filters
+### Fields and Filters
 
 **Note:** As of March 2022, using `Filters` is the recommended way for searching Kibana. Using the general search box is discouraged as it may generate several errors in the form of `X of Y Shards Failed`. See [Infra Issue](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/15207).
 
@@ -58,21 +58,58 @@ The majority of results as entries that returned `200`, which aren't in the scop
 
 ![Filtered results for a specific username](/images/support/kibana_filtered-results.jpg)
 
-#### Identify cause of IP Blocks
+### Identify cause of IP Blocks
 
 There are some useful tips [here]({{< ref "ip-blocks" >}}) about searching kibana for errors related to IP blocks.
 
-#### Log Identification
+### Log Identification
 
 Not sure what to look for? Consider using a Self-Managed instance to replicate the bug/action you're investigating. This will allow you to confirm whether or not an issue is specific to GitLab.com, while also providing easily accessible logs to reference while searching through Kibana.
 
 Support Engineers looking to configure a Self-Managed instance should review our [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox/) for a list of available (company provided) hosting options.
 
-### Tips and Tricks
+### Sharing logs
+
+To share the current state of your log search, be sure to use  `Share > Get Links > Copy Link`. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
+
+### Dashboards
+
+There are a number of available dashboards that are designed to create visualizations that can help in identifying patterns. It can also be useful for narrowing in on specific areas of the product or a identifying a specific issue or bug. While any GitLab team member can create a dashboard that can be used by anyone, there are a few support specific dashboards:
+
+- Correlation Dashboard
+- Rate Limit & Requests Dashboard
+- Integrations Dashboard
+- Errors & Exceptions Dashboard
+
+You can access dashboards in Kibana under `Analytics > Dashboard` and filtering by the `Support` tag or by searching for the name of the dashboard.
+
+If you are interested in creating your own dashboard, you might want to consider reading [Elastic's guide on creating dashboards](https://www.elastic.co/guide/en/kibana/current/create-a-dashboard-of-panels-with-web-server-data.html). If you've created something that might have a wider use, consider adding the `Support` tag to your dashboard so it is easily found by other support team members.
+
+To use dashboards, be sure you are in `View` mode. In view mode, you can input values and it will update the visuals accordingly but not save it to the dashboard. Use `Share > Get Links` if you need to share the snapshot of what you captured.
+
+Before `editing` an existing dashboard, considering `cloning` it to make your own copy and label it accordingly.
+
+#### Correlation Dashboard
+
+If you found a Correlation ID that is relevant for your troubleshooting, you can utilize the correlation dashboard to quickly view all related components across indices without having to search each individual index. Once you view the dashboard, simply click on the `json.correlation_id` filter and enter in your found correlation ID. It will then search across web, workhorse, sidekiq, and gitaly indices.
+
+#### Rate Limit & Requests Dashboard
+
+Use this dashboard to quicky filter records by username, IP, path, or namespace. This is useful when you are trying to determine if a User or IP is being subject to rate limiting and you need to discover and visualize usage patterns.
+
+#### Integrations Dashboard
+
+This can be useful to track down errors related to specific integrations across an entire namespace.
+
+#### Errors & Exceptions Dashboard
+
+This dashboard can be used to get specific http statuses across a namespace or path/project and narrow in by class. This can be useful for understanding error patterns across a namespace or even across the entirety of GitLab.com.
+
+## Tips and Tricks
 
 This section details how you can find very specific pieces of information in Kibana by searching for and filtering out specific fields. Each tip includes a link to the group, subgroup, or project that was used in the example for reference.
 
-#### Runner Registration Token Reset
+### Runner Registration Token Reset
 
 Example group: [gitlab-bronze](https://gitlab.com/gitlab-bronze)
 
@@ -83,7 +120,7 @@ We can determine if the GitLab Runner registration token was reset for a group o
 1. Add a positive filter on `json.action` for `reset_registration_token`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the reset in the `json.username` field of the result.
 
-#### Deleted Group/Subgroup/Project
+### Deleted Group/Subgroup/Project
 
 - Example group: [gitlab-silver](https://gitlab.com/gitlab-silver/)
 - Example project: [gitlab-silver/test-project-to-delete](https://gitlab.com/gitlab-silver/test-project-to-delete)
@@ -101,7 +138,7 @@ To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 1. Filter `json.message` to "was deleted".
 1. Set a second filter `json.message` to `path/group`.
 
-#### Viewed CI/CD Variables
+### Viewed CI/CD Variables
 
 While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_events.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
@@ -111,7 +148,7 @@ While we do not specifically log *changes* made to CI/CD variables in our [audit
 1. You may also be able to search by `json.graphql.operation_name` `is` `getProjectVariables`.
 1. In general, a result in the `json.action` field that returns `update` and `json.controller` returning `Projects::VariablesController` is likely to mean that an update was done to the variables.
 
-#### Find Problems with Let's Encrypt Certificates
+### Find Problems with Let's Encrypt Certificates
 
 In some cases a Let's Encrypt Certificate will fail to be issued for one or more reasons. To determine the exact reason, we can look this up in Kibana.
 
@@ -119,7 +156,7 @@ In some cases a Let's Encrypt Certificate will fail to be issued for one or more
 1. In the search bar, enter in the GitLab Pages domain name. For example `json.pages_domain: "sll-error.shushlin.dev"`
 1. Filter by or find `json.acme_error.detail` This should display the relevant error message. In this case, we can see the error "No valid IP addresses found for sll-error.shushlin.dev"
 
-#### Deleted User
+### Deleted User
 
 Kibana can be used to find out if and when an account on GitLab.com was deleted if it occurred within the last seven days at the time of searching.
 
@@ -143,7 +180,7 @@ If you suspect an account was deleted by the cron job that deletes [unconfirmed 
 1. Add a positive filter on `json.meta.user` for the username of the user. (Alternatively, you can use `json.args.keyword` and use the User ID of the user if you have that).
 1. Add a positive filter on `json.class` for `DeleteUserWorker`.
 
-#### Disable Two Factor Authentication
+### Disable Two Factor Authentication
 
 - [Quick link to search](https://log.gprd.gitlab.net/goto/5598ea40-a651-11ed-9f43-e3784d7fe3ca)
 
@@ -155,13 +192,13 @@ Kibana can be used to find out which admin disabled 2FA on a GitLab.com account.
 1. To make things easier to read, only display the `json.location` and `json.username` fields.
 1. Observe the results.
 
-#### Enable/Disable SSO Enforcement
+### Enable/Disable SSO Enforcement
 
 Kibana can be used to find out if and when SSO Enforcement was enabled or disabled on a group on GitLab.com, and which user did so.
 
 - Example group: [gitlab-silver](https://gitlab.com/gitlab-silver/)
 
-##### Enable SSO Enforcement
+#### Enable SSO Enforcement
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
 1. Add a positive filter on `json.controller` for `Groups::SamlProvidersController`.
@@ -170,7 +207,7 @@ Kibana can be used to find out if and when SSO Enforcement was enabled or disabl
 1. Add a positive filter on `json.path` for the path of the group, `gitlab-silver` in this example case.
 1. If there are any results, observe the `json.params` field. If `\"enforced_sso\"=>\"1\"` is present, that entry was logged when SSO Enforcement was enabled by the user in the `json.username` field.
 
-##### Disable SSO Enforcement
+#### Disable SSO Enforcement
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
 1. Add a positive filter on `json.controller` for `Groups::SamlProvidersController`.
@@ -179,7 +216,7 @@ Kibana can be used to find out if and when SSO Enforcement was enabled or disabl
 1. Add a positive filter on `json.path` for the path of the group, `gitlab-silver` in this example case.
 1. If there are any results, observe the `json.params` field. If `\"enforced_sso\"=>\"0\"` is present, that entry was logged when SSO Enforcement was disabled by the user in the `json.username` field.
 
-##### SAML log in
+#### SAML log in
 
 To investigate SAML login problems:
 
@@ -190,7 +227,7 @@ In the `pubsub-rails-inf-gprd-*` log:
 
 After decoding the SAML response, and observing the results corresponding to your chosen filters, you can see if there are any missing or misconfigured attributes.
 
-##### SCIM provisioning and de-provisioning
+#### SCIM provisioning and de-provisioning
 
 To investigate SCIM problems:
 
@@ -214,7 +251,7 @@ In cases where the SCIM provisioned account is deleted:
 
 To investigate if the user was deleted due to an unconfirmed email, follow the [Deleted User](#deleted-user) procedure.
 
-#### Searching for Deleted Container Registry tags
+### Searching for Deleted Container Registry tags
 
 Kibana can be used to determine whether a container registry tag was deleted, when, and who triggered it, if the deletion happened in the last 7 days.
 
@@ -225,7 +262,7 @@ To find the log entry in `pubsub-rails-inf-gprd-*`:
 1. Add a positive filter on `json.graphql.variables` for `*ContainerRepository/<regitsry id>.*`.
 1. Add a positive filter on `json.graphql.operation_name` for `destroyContainerRepositoryTags`.
 
-#### Searching Kibana for 500 level errors
+### Searching Kibana for 500 level errors
 
 As of [14.7, a Correlation ID is provided](https://gitlab.com/gitlab-org/gitlab/-/issues/34113) on the 500 error page when using the interface. You can ask the customer to supply this and use Kibana to filter by `json.correlation_id`.
 
@@ -240,7 +277,7 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 
 See the [500 errors workflow]({{< ref "500_errors" >}}) for more information on searching and finding errors on GitLab.com
 
-#### Filter by IP Range
+### Filter by IP Range
 
 Customers will sometimes give us an IP Range of their resources such as their Kubernetes cluster or other external servers that may need to access GitLab. You can search a range by using Elasticsearch Query DSL.
 
@@ -263,7 +300,7 @@ Customers will sometimes give us an IP Range of their resources such as their Ku
 
 Note that depending on the range, this operation may be expensive so it is best to first narrow down your date range first.
 
-#### Import Errors
+### Import Errors
 
 Most timeout related imports end up with a partial import with very few or zero issues or merge requests. Where there is a relatively smaller difference (10% or less), then there are most likely errors with those specific issues or merge requests.
 
@@ -285,7 +322,7 @@ If there is an error, search for an existing issue. Errors where the metadata is
 
 If no error is found and the import is partial, most likely it is a timeout issue.
 
-#### Export Errors
+### Export Errors
 
 Export errors can occur when a user attempts to export via the UI or [this API endpoint](https://docs.gitlab.com/ee/api/project_import_export.html#schedule-an-export). A parameter in the API allows for exporting to an external URL such as a pre-signed AWS S3 URL. Typically, the export process consists of:
 
@@ -336,22 +373,18 @@ The XML response can provide an indication of the failure reason, such as the pr
 </Error>
 ```
 
-##### Known Import Issues
+#### Known Import Issues
 
 - **Imported project's size differs from where it originated**
   - See [this comment](https://gitlab.com/gitlab-org/gitlab/-/issues/27742#note_215721494) for an explanation as to why. As artifacts are part of repository size, whether they are present can make a big difference.
 - **Repository shows 0 commits**.
   - See [15348](https://gitlab.com/gitlab-org/gitlab/issues/15348).
 
-#### Correlation Dashboard
-
-If you found a Correlation ID that is relevant for your troubleshooting, you can utilize the correlation dashboard to quickly view all related components across indices without having to search each individual index. You can get to the correlation dashboard by navigating to `Analytics > Dashboard` in Kibana and typing in `correlation dashboard`. Once you view the dashboard, simply click on the `json.correlation_id` filter and enter in your found correlation ID. It will then search across web, workhorse, sidekiq, and gitaly indices.
-
-#### Purchase Errors
+### Purchase Errors
 
 Kibana can be used to search for specific errors related to a purchase attempt. Since purchases can be made either in GitLab.com or [CustomersDot](https://customers.gitlab.com/customers/sign_in), it is important to determine which system a customer was using to make the purchase; then use the tips specific to the system below. **Note:** the ticket submitter might not be the customer making the purchase.
 
-##### GitLab.com purchase errors
+#### GitLab.com purchase errors
 
 **Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [GitLab User Lookup Zendesk App](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app).
 
@@ -367,7 +400,7 @@ If you encounter a generic error message try checking CustomersDot purchase erro
 
 **Tip:** To see the details of a user's purchase attempt, go to `https://log.gprd.gitlab.net/goto/45bb89c0-6ccc-11ed-9f43-e3784d7fe3ca` and update the value of `json.username`.
 
-##### CustomersDot purchase errors
+#### CustomersDot purchase errors
 
 **Note**: You need to have the **CustomersDot customer ID** of the account used to make the purchase. Refer to `Step 1` under [this section](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases#getting-error-message-from-sentry) on how to get the customer ID.
 
@@ -381,7 +414,7 @@ Feeling Lazy? Go to `https://log.gprd.gitlab.net/goto/9c28ba80-9d9b-11ed-9f43-e3
 
 In case you have the namespace details, get the **Namespace ID** then go to `https://log.gprd.gitlab.net/goto/b598dfe0-9d9b-11ed-9f43-e3784d7fe3ca` and update the value of `json.params.gl_namespace_id`
 
-#### Check user actions on a repository
+### Check user actions on a repository
 
 When looking at the `pubsub-rails-inf-gprd-*` index, you can determine if a user has recently cloned/pushed (with HTTPS), or downloaded a repository. You can filter by `json.username`, `json.path` (the repository), and `json.action` to find specific events:
 
@@ -396,7 +429,7 @@ To search for `git` activity over SSH, you can instead look in the `pubsub-shell
 
 You can use the links in the lists above and fill in the `json.path` or `json.gl_project_path` for the project of interest.
 
-#### Webhook related events
+### Webhook related events
 
 [Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
 
