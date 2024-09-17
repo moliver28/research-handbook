@@ -43,7 +43,7 @@ G--> |No| K[You can consider speaking with a People Business Partner or the DIB 
 
 ## Resources for Team Members and Managers+
 
-- [Modern Health]({{< ref "modern-health" >}}) provides Coaching sessions for team members and managers supporting people in the neurodiverse community. Team Members can schedule a coaching sessions via the modern health platform. Please reach out to the Total-Rewards@gitlab.com should you need any help with scheduling a session.
+- [Modern Health]({{< ref "modern-health" >}}) provides Coaching sessions for team members and managers supporting people in the neurodiverse community. Team Members can schedule a coaching sessions via the modern health platform. Please reach out to the [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) should you need any help with scheduling a session.
 - [How to embed neurodiversity into your people management practices](https://www.hrzone.com/perform/people/how-to-embed-neurodiversity-into-your-people-management-practices)
 - [Autistic Advocacy Resources](https://autisticadvocacy.org/resources/accessibility/)
 - [Certified Neurodiverse Workplace](https://ibcces.org/certified-neurodiverse-workplace/)
