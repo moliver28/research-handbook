@@ -329,7 +329,7 @@ Process summary:
   - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
 - If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
 - The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5120) for example for the 2024 rotation similiar to the bug triage process.
-- The DRI should estimate the amount of time spent on support and track this via `Time Tracking` in each issue approximating to the hour how much they have spent on tickets and triaging.  Alternatively we can also just add time to the rotation issue for the total amount spent on triage/support each week. 
+- The DRI should estimate the amount of time spent on support and track this via `Time Tracking` in each issue approximating to the hour how much they have spent on tickets and triaging. This is a new part of the process which is in a trial phase. 
 
 #### Engineering Bug Triage Rotation Process
 
