@@ -1,3 +1,5 @@
+<!-- TODO: Integrate https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60618/diffs-->
+
 ## Software Supply Chain Security Guidelines for Open Source Dependencies
 
 This guide provides developers and security team members with best practices and considerations for evaluating and securing open source dependencies in their projects. By following these steps, one can minimize the risk of supply chain compromises and ensure the overall security of software.
