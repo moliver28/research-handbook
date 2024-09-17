@@ -296,7 +296,3 @@ In addition to weekly company group calls that bring us together, GitLab has Soc
 - **[`#mental_health_aware`](https://gitlab.slack.com/archives/mental_health_aware)**: Mental health is [super important](/handbook/company/culture/all-remote/mental-health/) and we realize that. This is a place to discuss concerns you might be having or find someone to talk to if you're feeling alone. We aim to be supportive and available for all who need it.
 - **[`#music`](https://gitlab.slack.com/archives/music)**: Share your current playlist or any interesting music you come across.
 - **[`#postcrossing`](https://gitlab.slack.com/archives/C2L1HK6TV)**: Send team members postcards from your home cities, towns and villages from around the world.
-
-## Security & Compliance
-
-On a quarterly basis, all users will be logged out of Slack and will need to re-authenticate on all of their devices via Okta.
