@@ -1,17 +1,18 @@
 ---
-title: "Compliance Frameworks ADR 003: Custom Checks"
+title: "Compliance Frameworks ADR 003: Custom Controls"
 toc_hide: true
 ---
 
 ## Context
 
-We want the ability to create custom checks so that users don't need to rely only on the exhaustive list of checks that
-GitLab supports or would support in the future. Users could also have external services that might impact
+We want the ability to create custom requirements so that users don't need to rely only on the exhaustive list of
+controls that GitLab supports or would support in the future. Users could also have external services that might impact
 whether their projects are compliant to a standard or not.
 
 ## Approach
 
-To allow users to create checks on their own as per their requirements we need to have the following types of requirements:
+To allow users to create controls on their own as per their requirements we need to have the following types of
+requirements:
 
 1. [Internal requirements](#internal-requirements): Enable users to create logical expressions with all available project settings.
 1. [External requirements](#external-requirements): Enable users to create requirements that rely on their external services like HTTP servers.
@@ -19,7 +20,7 @@ To allow users to create checks on their own as per their requirements we need t
 ### Internal requirements
 
 We would allow users to create logical expressions with all the available project settings. These expressions would
-be the checks against which the projects would be evaluated. We would store these as a structured JSON in the
+be the controls against which the projects would be evaluated. We would store these as a structured JSON in the
 `compliance_requirements` table with 'internal' as the `requirement_type`.
 
 As an example: Consider expression `'merge_method' = 'merge commit' AND ('project_name' LIKE "%-team" OR 'compliance_framework' != 'SOC2')`.
@@ -207,6 +208,8 @@ We would store the external HTTP/HTTPS URLs for the user's external services in 
 'external' as the `requirement_type`.
 
 We would POST the latest project settings to these external services and expect a boolean status as the response.
+We could also create a POST API that can be used to update the status of an external requirement, this would be a
+similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
 
 ## Workflow
 
@@ -245,7 +248,7 @@ class compliance_requirements {
     expression: jsonb
 }
 
-class project_compliance_status {
+class project_compliance_configuration_status {
     id: bigint
     created_at: timestamp
     updated_at: timestamp
@@ -274,10 +277,10 @@ projects <-- namespaces : has_many
 projects --> namespaces : belongs_to
 namespaces --> compliance_management_frameworks : has_many
 namespaces <-- compliance_management_frameworks : belongs_to
-projects --> project_compliance_status : has_many
-projects <-- project_compliance_status : belongs_to
-compliance_requirements --> project_compliance_status : has_one
-compliance_requirements <-- project_compliance_status : belongs_to
+projects --> project_compliance_configuration_status : has_many
+projects <-- project_compliance_configuration_status : belongs_to
+compliance_requirements --> project_compliance_configuration_status : has_one
+compliance_requirements <-- project_compliance_configuration_status : belongs_to
 ```
 
 We would drop the existing table `compliance_checks` and update the existing table `compliance_requirements` with the
@@ -289,8 +292,8 @@ would only honour the column associated with the given requirement type. For exa
 `expression` both have values but the value of `requirement_type` column is 'internal', we would ignore the value
 stored in the `external_url` column and will consider this row as an internal requirement.
 
-We would create a new table `project_compliance_status` to store the results of the requirements. Unlike the current
-implementation we would only store results for the projects that have compliance requirements configured.
+We would create a new table `project_compliance_configuration_status` to store the results of the requirements. Unlike
+the current implementation we would only store results for the projects that have compliance requirements configured.
 
 We would trigger and re-evaluate the results of all the requirements for a project if there is an update:
 
@@ -299,15 +302,15 @@ We would trigger and re-evaluate the results of all the requirements for a proje
 1. To a project's association like compliance management frameworks, labels, topics, etc.
 1. To the compliance requirement associated to that project
 
-This means that we need a relationship between `compliance_requirements` and `project_compliance_status` database
-tables.
+This means that we need a relationship between `compliance_requirements` and `project_compliance_configuration_status`
+database tables.
 
 Whenever there is a change in the status of a requirement we would create an audit event. This will help in capturing
 the historical changes of that requirement for the given project and would also help in identifying the user and the
 actions that led to the change in the status of the requirement.
 
-We would query the rows in the `project_compliance_status` table for the given namespace and display the results
-on the adherence dashboard.
+We would query the rows in the `project_compliance_configuration_status` table for the given namespace and display the
+results on the compliance dashboard.
 
 ## Constraints
 
@@ -322,5 +325,5 @@ and poor user experience.
 ## Decision
 
 We decided to store the internal compliance requirement expressions as `jsonb` columns and remove the
-`compliance_check` table and only use `compliance_requirements` instead. This would help in reducing redundancy and
-we could easily display the rows present in `project_compliance_status` table on the adherence dashboard.
+`compliance_checks` table and only use `compliance_requirements` instead. This would help in reducing redundancy and
+we could easily display the rows present in `project_compliance_configuration_status` table on the adherence dashboard.

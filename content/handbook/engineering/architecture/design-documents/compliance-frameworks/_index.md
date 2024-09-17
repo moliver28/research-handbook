@@ -101,14 +101,14 @@ compliance frameworks in GitLab 17.3.
 
 - [001: Triggering Checks](decisions/001_triggering_checks.md)
 - [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
-- [003: Custom Checks](decisions/003_custom_checks.md)
+- [003: Custom Controls](decisions/003_custom_controls.md)
 
 ### Design Details
 
 We decided to use [Sidekiq workers for creating checks](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
 and [storing the adherence configuration in database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
-It was [decided](decisions/003_custom_checks.md#decision) to combine `compliance_checks` and `compliance_requirements`
-table to reduce redundancy.
+It was [decided](decisions/003_custom_controls.md#decision) to combine `compliance_checks` and
+`compliance_requirements` tables to reduce redundancy.
 
 The compliance requirements would be stored in a separate table with the following schema:
 
@@ -182,16 +182,16 @@ The compliance requirements would be stored in a separate table with the followi
     compliance_requirements <-- project_compliance_status : belongs_to
 ```
 
-We created a new table `project_compliance_status` for storing the results of compliance requirements and would drop
-the existing `project_compliance_standards_adherence` table later on. We don't have a `standard` column anymore as we
-don't want to associate requirements with a standard anymore, therefore, allowing the users to customise and group
-requirements as per their need.
+We created a new table `project_compliance_configuration_status` for storing the results of compliance requirements and
+would drop the existing `project_compliance_standards_adherence` table later on. We don't have a `standard` column
+anymore as we don't want to associate requirements with a standard anymore, therefore, allowing the users to customise
+and group requirements as per their need.
 
 Unlike the current implementation we would only store results for the projects that have compliance requirements
-configured. Instead of an enum we would store the `compliance_requirement_id` in the `project_compliance_status` table
-and would display these results at the compliance standards adherence dashboard.
+configured. Instead of an enum we would store the `compliance_requirement_id` in the
+`project_compliance_configuration_status` table and would display these results at the compliance dashboard.
 
-In the next iteration we would also allow importing and exporting the compliance adherence report configurations.
+In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
 ### Implementation Details
 
