@@ -19,6 +19,8 @@ Welcome to the Sales Development Organization at GitLab! We are a team designed 
 
 Our Inbound-focused SDRs are known for their swift response times, ensuring global coverage and alignment with marketing initiatives. They operate with defined and prescriptive inbound processes, utilizing round-robin assignment rules. Additionally, the SDR team serves as a talent incubator for our Business Development Representatives (BDRs).
 
+fffffff
+
 **2. Business Development Representatives (BDRs) - Outbound Focused**
 
 **Key Attributes:**
