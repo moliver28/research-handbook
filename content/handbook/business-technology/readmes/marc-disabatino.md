@@ -7,12 +7,11 @@ job: "Senior, Business Systems Analyst - Enterprise Applications"
 
 ### Intro 
 
-Hey! I'm Marc and I'm a [Senior, Business Systems Analyst](https://handbook.gitlab.com/job-families/finance/business-system-analyst/#senior-business-systems-analyst) for the [IT Enterprise Applications](https://handbook.gitlab.com/handbook/business-technology/) division. 
+Hey! I'm Marc and I'm a [Senior, Business Systems Analyst](/handbook.gitlab.com/job-families/finance/business-system-analyst/#senior-business-systems-analyst) for the [IT Enterprise Applications](https://handbook.gitlab.com/handbook/business-technology/) division. 
 
 ### About me 
 
 I grew up and currently live in Newark, [Delaware](https://simple.wikipedia.org/wiki/Delaware) (the first state). I live with my fiance and four cats aka my fur children. I have been working in IT roles and in tech for ten years now. I enjoy the challenges and problem soliving opportunities this field provides but what I love most is the opportunity to help people while playing with the latest greatest tech. 
-
 
 ### My GitLab Story
 
@@ -22,7 +21,7 @@ I have worked for GitLab for over five years now, in my time here I....
 - Onboarded over a thousand employees between 2019-2022.
 - Maintained two separate roles and was promoted to Senior for both those roles. 
 - Reported directly to one Manager and three Directors in my tenure. 
-- Onboarded and became technial owner of a large portion of our current [Tech Stack](https://handbook.gitlab.com/handbook/business-technology/tech-stack/).
+- Onboarded and became technial owner of a large portion of our current [Tech Stack](/handbook.gitlab.com/handbook/business-technology/tech-stack/).
 - Later on became CODEOWNER of the same tech stack and I work to maintain its accuracy.
 - Assisted our compliance teams with achieving and maintain SOC and ISO certifications. 
 - Provided Technical support for all first year company earnings calls.
