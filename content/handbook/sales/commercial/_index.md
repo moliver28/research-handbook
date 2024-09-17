@@ -137,6 +137,11 @@ We have found following steps beneficial to make the process of time off easy fo
 - [ ] Submit time-off in Time Off by Deel in Slack, and add your chosen team member who is covering for you as the assignee role for all tasks, you can label it something like "immediate and general"
 - [ ] Create calendar invite with title:
   - Ex: "First and Last Name OOO - (First and Last Name) is Covering". Optional invite to your manager and person covering.
+- [ ] To continue delivering [results for customers](https://handbook.gitlab.com/handbook/values/#results), in case that any of the steps above are missed by the AE team, the Global Inbound Sales Development team will use SFDC Chatter to ping the Area Sales Manager or Regional Sales Director so that they can assist with moving pipeline forward. The cases that we would require to communicate about are outlined below, but not limited to:
+  - Assigning stage 0 opportunities to the appropriate covering Account Executives, in case that the Sales Development team is not aware of the covering DRI.
+  - Collaborating in ensuring that appropriate actions, like qualification and discovery process, are adhered to by the covering DRI for opportunities generated.
+  - Making sure that pipeline generated is timely moved down the funnel after the primary DRI became unavailable (ie. PTO) after the initial discovery meeting took place but no next steps were arranged. 
+
 - [ ] Block the morning of your return date on your calendar so you can return to work with catch-up time for things like:
   - Re-submitting forecast in Clari
   - Ranking new accounts that came through
