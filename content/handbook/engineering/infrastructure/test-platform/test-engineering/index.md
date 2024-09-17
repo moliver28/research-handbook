@@ -5,6 +5,37 @@ description: "The Quality Engineering Sub-Department helps facilitate the test p
 
 The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work.
 
+## Core Responsibilities
+
+```mermaid
+graph LR
+    A[Test Engineering Team]
+    
+    A --> B[Product Excellence Expertise]
+    B --> B1[Define test strategy for the critical feature releases]
+    B --> B2[Ensure adequate and robust test coverage for critical features]
+    B --> B3[Stay informed about the stage roadmap]
+    B --> B4[Perform post-incident anlysis]
+       
+    A --> C[Stage-level test tools and infrastructure]
+    C --> C1[Design and update test frameworks]
+    C --> C2[Build and update test environments]
+    C --> C3[Provide test data]
+    C --> C4[Continuously expand testing capabilities]
+    C --> C5[Monitor and address test flakiness]
+    
+    A --> D[Test guidance. Provide guidance and coach engineering teams in:]
+    D --> D1[writing e2e and integration tests]
+    D --> D2[debugging and fixing failures]
+    D --> D3[planning testing early in the development process]
+    D --> D4[anticipating test infrastructure needs and requesting change in advance] 
+    D --> D5[shift left and maintain appropriate ratio between unit, integration and e2e tests] 
+    D --> D6[monitoring and addressing test flakiness]
+    D --> D7[post-incident action]
+    D --> D8[Identifying test gaps]
+
+```
+
 ### General guidelines
 
 - **Test plans as collaborative design document**: Test Plans as documented in here are design documents that aim to flush out optimal test coverage.
