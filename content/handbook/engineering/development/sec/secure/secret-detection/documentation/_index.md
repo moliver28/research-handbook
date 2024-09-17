@@ -8,6 +8,7 @@ Documentation is an important part of delivering features and capabilities to
 our users and customers. This process is intended to make writing effective documentation easier and efficient for our team.
 
 This documentation should help you answer the following questions:
+
 1. When should I create documentation?
 1. What should I document?
 1. Where should I put the documentation?
@@ -24,7 +25,8 @@ prototype.
 
 First, when considering this, you should consider the intended audience.
 
-Is the documentation intedend for
+Is the documentation intended for
+
 - end users or customers?
 - GitLab teammates or external engineers?
 - managers or C-level executives?
@@ -54,6 +56,8 @@ made in the project it pertains to.
 ## How to write documentation
 
 1. Define the questions the documentation should answer
+1. Using the guide on [Documentation topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/), determine what type of
+   document this will be
 1. Create the outline of the page(s)
 1. Get feedback on the questions and outline and update accordingly
 1. Fill out the document's sections
@@ -67,6 +71,7 @@ If possible and appropriate, we should also create a video demo of the documente
 ## How to publicize the documentation
 
 This depends on the audience:
+
 - For engineering or management audiences, you should make an announcement in
 the proper Slack channel and possibly the Engineering Week in Review document.
 - For customers, you can let the customer service organization know via Slack.
