@@ -163,6 +163,11 @@ In the confirmation prompt you may also see a checkbox to *"Disable future attac
 As a workspace admin if you select the disable option **this will denylist the link/domain across the workspace and will impact every user**.
 If you do happen to denylist a link or a domain, they can be modified in the Workspace admin portal under [Settings & Permissions](https://gitlab.slack.com/admin/attachments).
 
+If you see a team member share posts with multiple link previews that you think are distracting, in channels like `#whats-happening-at-gitlab`, consider acting in the spirit of [Everyone is a moderator](/handbook/communication/#everyone-is-a-moderator) and either:
+
+- [Letting them know in a DM](/handbook/communication/#communicate-directly) that it's adding noise to their message.
+- Reacting to their message with the `:consider-removing-link-previews-to-keep-the-channel-tidy-please:` emoji.
+
 ## Custom theme
 
 The interface colors can be customized in Slack.
