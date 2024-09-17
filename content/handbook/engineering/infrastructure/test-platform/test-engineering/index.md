@@ -10,20 +10,20 @@ The Quality Engineering Sub-Department helps facilitate the test planning proces
 ```mermaid
 graph LR
     A[Test Engineering Team]
-    
+
     A --> B[Provide test expertise for critical Product releases]
     B --> B1[Define test strategy for the critical feature releases]
     B --> B2[Ensure adequate and robust test coverage for critical features]
     B --> B3[Stay informed about the stage roadmap]
     B --> B4[Perform post-incident anlysis]
-       
+
     A --> C[Stage-level test tools and infrastructure]
     C --> C1[Design and update test frameworks]
     C --> C2[Build and update test environments]
     C --> C3[Provide test data]
     C --> C4[Continuously expand testing capabilities]
     C --> C5[Monitor and address test flakiness]
-    
+  
     A --> D[Test guidance. Provide guidance and coach engineering teams in:]
     D --> D1[writing e2e and integration tests]
     D --> D2[debugging and fixing failures]
