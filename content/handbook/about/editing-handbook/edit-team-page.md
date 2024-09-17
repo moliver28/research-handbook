@@ -149,7 +149,7 @@ Choose the method below that feels most comfortable and have the following infor
 
 ## Add your pet(s) to the Team Pets Page
 
-Using what you learned in the [steps above](#add-yourself-to-the-team-page), consider adding your pet(s) to the [Team Pets page](/handbook/company/team-pets/).
+Using what you learned in the [steps above](#add-yourself-to-the-team-page), consider adding your pet(s) to the [Team Pets page](https://about.gitlab.com/company/team-pets/).
 
 The main differences are the names and locations of things.
 
