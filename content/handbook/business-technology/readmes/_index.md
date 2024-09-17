@@ -1,3 +1,3 @@
 ---
-title: Enterprise Applications READMEs
+title: "Enterprise Applications READMEs"
 ---
