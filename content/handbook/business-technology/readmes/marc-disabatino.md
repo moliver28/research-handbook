@@ -7,7 +7,7 @@ job: "Senior, Business Systems Analyst - Enterprise Applications"
 
 ### Intro 
 
-Hey! I'm Marc and I'm a [Senior, Business Systems Analyst](/handbook.gitlab.com/job-families/finance/business-system-analyst/#senior-business-systems-analyst) for the [IT Enterprise Applications](https://handbook.gitlab.com/handbook/business-technology/) division. 
+Hey! I'm Marc and I'm a [Senior, Business Systems Analyst](/handbook.gitlab.com/job-families/finance/business-system-analyst/#senior-business-systems-analyst) for the [IT Enterprise Applications](/handbook.gitlab.com/handbook/business-technology/) division. 
 
 ### About me 
 
