@@ -439,7 +439,7 @@ The FO Outbound process is split in four phases, which should be followed on a w
 | BDR Next Steps         | A space for the BDR to use as working notes for the current status of prospecting the account.                |
 | BDR Account Strategy   | A categorization system that we use to high-level denote what motion or play was used in trying to engage with an account. |
 | BDR Recycle Date       | Automatically populated two months out from the AW date. Can be manually changed if the BDR chooses to continue working an account. |
-| 6QA Acceptance Status and 6QA Dispute Reason. | When an account has been automatically moved to Actively Working and Showing Intent, as per the 6QA project outlined [here](/handbook/marketing/sales-development/#6sense-6qa-automations), you will need to review the account and change this field to Accepted or Disputed within 48 hours. In case of choosing to Dispute the account you will need to choose a Dispute reason. These accounts will be flagged on the 1:1 Dashboard for you to review with your manager and other collaborators. |
+| 6QA Acceptance Status and 6QA Dispute Reason. | When an account has been automatically moved to Actively Working and Showing Intent, as per the 6QA project outlined [here](/handbook/marketing/sales-development/#6sense-6qa-automations), you will need to review the account and change this field to Accepted or Disputed within 48 hours. In case of choosing to Dispute the account you will need to choose a Dispute reason. Use `Account in open opportunity` if there is an SDR with an active open opportunity. These accounts will be flagged on the 1:1 Dashboard for you to review with your manager and other collaborators. |
 
 #### Planning Phase (4-5 hours/week)
 
