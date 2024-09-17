@@ -8,8 +8,8 @@ At GitLab, we promote two paths for leadership in Engineering. While there is a
 healthy degree of overlap between these two ideas, it is helpful and efficient
 for us to specialize training and responsibility for each of:
 
-- **Technical leadership**, as represented by [Staff and higher-level engineers](/handbook/engineering/career-development#roles).
-- **Professional leadership**, as represented by [Engineering management](/handbook/engineering/career-development#roles).
+- **Technical leadership**, as represented by [Staff and higher-level engineers](/handbook/engineering/careers/#roles).
+- **Professional leadership**, as represented by [Engineering management](/handbook/engineering/careers/#roles).
 
 While technical leadership tends to come naturally to software engineers,
 professional leadership can be more difficult to master.
