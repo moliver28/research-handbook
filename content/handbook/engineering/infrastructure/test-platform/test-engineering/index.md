@@ -11,7 +11,7 @@ The Quality Engineering Sub-Department helps facilitate the test planning proces
 graph LR
     A[Test Engineering Team]
     
-    A --> B[Product Excellence Expertise]
+    A --> B[Provide test expertise for critical Product releases]
     B --> B1[Define test strategy for the critical feature releases]
     B --> B2[Ensure adequate and robust test coverage for critical features]
     B --> B3[Stay informed about the stage roadmap]
