@@ -209,7 +209,7 @@ To Update your Beneficiary please fill out the [beneficiary designation form](ht
 <summary>Joiners, Leavers, and Payroll Details</summary>
 
 Total Rewards Team will notify WTW whenever there is new hire, leaver, or salary change
-When a change in the life or medical premiums occur WTW will send total-rewards@gitlab.com and nonuspayroll@gitlab.com the updated report during the last week of the prior month (for example the June pay period will be sent the last week of May). Please note that the premiums are not prorated for the month.
+When a change in the life or medical premiums occur WTW will send the Total Rewards team and the Non-US Payroll Team the updated report during the last week of the prior month (for example the June pay period will be sent the last week of May). Please note that the premiums are not prorated for the month.
 
 Team Members are on leave whose salary is paid directly via the Spanish government, will remain on the medical and life insurance plans during leave. Any deductions missed while on leave will be deducted once the team member comes back from leave.
 
