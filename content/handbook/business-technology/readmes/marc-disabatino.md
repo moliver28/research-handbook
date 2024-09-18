@@ -34,11 +34,11 @@ I have worked for GitLab for over five years now, in my time here I....
 
 ### What its like working with me
 
-I am very much a product of my assertive debator personality type. I approach most work situations with a forward looking, out of the box thinking attitude. I will frequently question and challenge ideas and strategies, even if I agree with them. This is not because I am contrarian, it is because I genuinely have an interest into why you think that way and how that idea came to you. I am always looking for my next task to complete and opportunity to improve something. I hold my own personal integrity to highest standard and expect those I work with to do the same. I work best under pressure but I do need time to focus and complete smaller tasks assigned to me. I can be very blunt at times, in my opinion this has been a strength and a weakness.
+I am very much a product of my [assertive debator](https://www.xpersonalitytest.com/entp/entp-a) personality type. I approach most work situations with a forward looking, out of the box thinking attitude. I will frequently question and challenge ideas and strategies, even if I agree with them. This is not because I am contrarian, it is because I genuinely have an interest into why you think that way and how that idea came to you. I am always looking for my next task to complete and opportunity to improve something. I hold my own personal integrity to highest standard and expect those I work with to do the same. I work best under pressure and enjoy jumping into large or urgent projects but I do need time to focus and complete smaller tasks assigned to me. 
 
 ### What I am working on now
 
-Since my change of roles and divisions, I am now working on building out the Enterprise Applications Services team along with collaborating on a number of cross divisional projects and goals. 
+Since my change of roles, I am now working on building out the Enterprise Applications Services team along with collaborating on a number of cross divisional projects and goals. 
 
 ### Communication with me
 
