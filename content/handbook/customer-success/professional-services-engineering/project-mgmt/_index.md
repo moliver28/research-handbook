@@ -19,9 +19,10 @@ Given the close collaboration between the PS Project Management and PS Operation
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
    * The PS Ops team works to ensure all detail in the above template is populated before assigning Delivery resources
-   * For [Consulting Blocks](#for-consulting-blocks-and-dedicated-engineer-projects) please see below
-1. Once assigned by the PS Ops team, the PM reviews follows the Kantata steps outlined below, to ensure access to Kantata
+   * For [Consulting Blocks](#for-consulting-blocks-and-dedicated-engineer-projects) please see below, to ensure you have the right amount of material to begin
+1. Once assigned by the PS Ops team, the PM follows the Kantata steps outlined below, to ensure access to Kantata
 1. The PM then reviews the Scheduling intake and begins to work through the [Sales to Delivery Transition](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/sales-to-delivery-transition.md?ref_type=heads) issue, also tied to the Customer Epic
+1. You will notice a step within the transition issue calling out the initial configuration of the Customer Collaboration Project within Gitlab. Follow the below steps to initially setup your Project Plan and you refer to the [PSDM (Professional Services Delivery Methodology)](../processes/_index.md) "Iteration 0" for neccessary delivery collateral to begin the project
 
 #### Customer Project Space Guidelines
 
