@@ -196,6 +196,8 @@ You will find the lead views below. These views are split per use-case for your 
 | FY25 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
 | FY25 B6 - 6QA imported leads           | You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.                                                                  |
 | FY25 B7 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
+| FY25 B8 - UG changes - less than 3 months   | This view will surface leads that were automatically created by UserGems for job changed that happened in the last 3 months. | 
+| FY25 B9 - UG changes - more than 3 months | This view will surface leads that were automatically created by UserGems for job changed that happened more than 3 months ago. |
 
 #### Contact Views
 
@@ -1154,6 +1156,26 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 
 This is where you can find messaging related to GitLab vs some of our competiors such as GitHub, Atlassian, and Azure DevOps
 
+### UserGems
+
+[UserGems](handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
+
+We have two main cohorts we're tracking:
+
+#### 1. When a person that we are tracking leaves their current place of employment
+
+- UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
+- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
+- These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
+- If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
+- We'll also notify you via Slack and email about these Job Changes.
+
+#### 2. When a person that we are tracking leaves their current place of employment
+
+- These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).  
+  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally. 
+
 ### Sales Dev Manager Resources
 
 #### FY24Q3 Manager Tool Certification
@@ -1578,6 +1600,10 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
     **Yes:** The MQL should be worked by the owner of the existing MQL
 
     **No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
+
+13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field?
+
+    **Yes:** If it's an SMB lead it's worked by the inbound team, if it's a MM/ENTG lead it's passed to the BDR associated with the territory regardless of the rest of the RoE. BDR is expected to follow the outbound actively worked account process as per usual.
 
 If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active sequence if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
