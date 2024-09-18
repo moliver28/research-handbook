@@ -524,6 +524,57 @@ To create the contract:
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 1. The Candidate Experience Specialist will now [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 
+## Preparing Employment Agreements for GitLab team members employed via Global Expansion (GX)
+
+GitLab is working in partnership with Global Expansion to employ GitLab team-members located in:
+
+- Mexico
+- Costa Rica
+- Kenya
+- South Africa
+- UAE
+- Latvia
+- Philippines
+- Austria
+- Chile
+
+1. The Offer is made by the recruiter per the hiring process
+1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details
+1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required
+1. The Candidate Experience Specialist will check if there is a probationary period.
+1. Go to Probationary Periods for Team Members Employed by a PEO and check the candidate’s country
+1. Select the duration of the probationary period (if any) in the “Offer Details” dropdown. If there isn’t one, select “N/A” in that field
+1. The Candidate Experience Specialist will check if the contract is indefinite or fixed
+1. If the contract is indefinite, select “Indefinite” from the dropdown in “Offer Details”
+1. If the contract is fixed, select “Fixed Contract” from the dropdown in “Offer Details” and enter the end date under “End Date”
+1. Once additional details are obtained, update the offer details to reflect all information. The CES should be the signatory
+1. Generate “PEO New Hire Template” in Offer Documents to Send through DocuSign
+1. Choose template Offer through DocuSign -GX - Global Expansion -To User, Self (CES) -Sign and complete
+1. Log in to the GX 1 Platform using the log in credentials (you can find this information in the CES desk repository)
+1. Click + New Employee on the landing page
+1. Add personal information of new hire
+1. Add Position details
+1. Add benefits information:
+    - Benefits Policy Type: Use Country guide information located in CES Repository
+    - Signatory: copy and paste the following into that field: “Harley to advise via email” and for the email add: hdevlin@gitlab.com
+    - Expense approver: Leave blank for now
+    - Employment Benefits: Use Country guide information located in CES Repository
+    - Benefits Policy Duration: Select "auto renew" for contract duration
+    - Employment Retirement Insurance: Use Country guide information located in CES Repository
+    - If you see three check boxes for Visa & background screening: ONLY FOR UAE - Select YES (Visa only) and ALWAYS Select "No" for the background screenings for all countries
+1. GX Compensation
+    - Local currency: Per location - portal should auto adjust
+    - Enter just the number “1” (You are not expected to calculate this) In the additional notes section, you can copy/paste the Annual Salary figure
+1. If you have all the details click Initiate New Employee (or Save and Submit Later if you are missing data)
+1. GX will then review the details and compose the employee’s contract. They will then email ces@gitlab.com when it is complete and ask us to review. You will need to log into the GX platform FIRST, and then click the link in the email sent by GX
+1. Review all details of the contract to confirm accuracy
+    - If there are items missing, you have the ability to write feedback notes and send back to GX. Click the drop down and select “REJECT - the following changes are required” and submit
+    - If everything looks good, click the drop down and select “APPROVE - I am happy with this employment contract” and submit
+1. GX will also be sending a 1 page docusign to ces@gitlab.com where we need to confirm employment details again. Please review and sign the document if accurate. Docusign will auto populate a signature of “GL CES Team” but you can adjust and add your name in front of that title. Add your title and send
+1. GX will then release the employment contract to the candidate and notify us via email as soon as it is signed. We may also receive an email to our desk when they manually upload the contract to their portal, but these can be ignored if you have heard from them already
+1. Proceed with sending the correct Welcome Email
+1. Before making the candidate as hired in GH, please make sure all other candidates have been rejected. Once that is done, mark the candidate as hired in Greenhouse, adjust the ‘Accepted’ date to match the ‘Sent’ date, and close the req
+
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
 GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
