@@ -229,7 +229,7 @@ As a People Group, we're embracing this attitude of continuous learning together
 
 At the end of the quarter, we'll ask folks to self-report hours spent learning, and take a tally of total People Group learning hours.
 
-![visual progress bar for People team hours spent learning](/static/images/handbook/people-group/learning-hours.png)
+![visual progress bar for People team hours spent learning](/handbook/people-group/learning-hours.png)
 
 Here are a few ways you might spend time learning this quarter:
 
