@@ -81,6 +81,127 @@ The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/g
 | [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)| A testing tool designed to monitor any downtime that occurs during a zero downtime upgrade by continuously performing git operations and sending requests to the readiness?all=1 endpoint. |
 | [Self Managed Platform Team Channels Issue Tracker](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker) | The issue tracker project is used to track requests and questions from Self Managed Platform Team Slack channels |
 
+## Roadmap
+
+### Supporting internal customer initiatives 
+
+Self Managed Platform team prioritizes internal customer requests that have impact to large business initiatives. The team roadmap may change based on those ongoing priorities.
+
+### FY25 
+
+The key capabilities we plan to deliver in Self Managed Platform Team for FY25 are summarized below.
+
+Note: We aim to address user feedback and feature requests from the community for GET and Reference Architecture throughout every quarter.
+
+#### Q1 - Completed
+
+* Improve test coverage for upgrades 
+  * Create E2E Upgrade Tester 
+  * Enhance GitLab QA test scenario `Test::Omnibus::UpdateFromPrevious` for major and minor upgrades
+    * Improve GitLab QA output logs for GitLab containers
+    * Debug documentation for upgrade test jobs
+  * Migration testing for multi-version* upgrades without building an environment
+    * Create new required to pass test job db:migrate:multi-version-upgrade 
+    * Implement db:migrate:multi-version-upgrade to run against latest GitLab supported PostgreSQL versions
+    * Create PG Dump Generator project 
+    * Add Rubocop to enforce factories for new tables 
+* Improve Large Monorepo performance tests and validation
+  * Setup additional Chromium repo performance testing pipeline
+  * Identify monorepo performance hotspots
+
+#### Q2 - Completed
+
+* Improve test coverage for Switchboard
+  * Automate the onboarding flow of tenant creation
+* Improve Dedicated adoption speed of GET updates 
+  * Automate non-regression tests for GitLab Dedicated features at the infrastructure layer
+    * Scope and add blueprint for integration testing of Allow Listing
+    * Optimize use of Gitlab-QA for Dedicated 
+* Review cost of Reference Architecture internal usage
+  * Dashboard to track the costs of Reference Architectures
+  * Dedicated Development environment cost optimization
+  * Identify cost optimization opportunities within GitLab based on performance hotspots 
+* Improve test coverage for unified backup and restore
+  * Test framework and pipeline for Backup and Restore 
+* Enable confidence in the  multi region deployments of AI Gateway
+  * Test Framework and pipeline for client side latency metrics 
+  * Dashboard for historical data of baselines
+* GET feature enhancements and bug fixes
+  * [3.3.0 Release](https://gitlab.com/groups/gitlab-org/-/epics/12711) 
+    * GKE Workload Identity support
+    * GCP / AWS Customer Managed Encryption Keys expanded support
+    * EKS Node Group AMI expanded support
+    * Single Node expanded support
+    * RHEL 9 support
+
+#### Q3
+
+* Improve Dedicated adoption speed of GET updates 
+  * Automate non-regression tests for GitLab Dedicated features at the infrastructure layer
+    * Integration testing of Allow Listing
+    * Automate SAML tests
+    * Automate Advanced Search tests 
+* Enable confidence in the multi region deployments of AI Gateway
+  * Latency testing baselines for bypassing monolith
+* Establish feature pipeline for Self Managed Platform Team
+  * GitLab Environment Toolkit readiness template
+  * Reference Architecture readiness template
+* GET feature enhancements and bug fixes
+  * [3.4.0 Release](https://gitlab.com/groups/gitlab-org/-/epics/13646)
+    * Firewall Rules refactors
+    * GCP VPC Network Peering support
+    * GCP Cloud SQL Geo support
+    * Gitaly in Kubernetes experimental support
+  * GitLab Operator support
+* Test Data Generator enhancements for large data seeding
+* Upgrade Tester enhancements
+  * Geo support 
+* Reference Architecture Updates
+  * Reference Architecture Design Guide
+  * Blog post series
+  * Add customer testimonials to Reference Architecture
+
+#### Q4
+
+* Establish feature pipeline for Self Managed Platform Team
+  * Document requirements for a new component to be added to Reference Architecture
+* Improve Dedicated adoption speed of GET updates 
+  * Automate non-regression tests for GitLab Dedicated features at the infrastructure layer
+    * Automate PrivateLink tests
+    * Automate BYOK tests
+    * Automate the Logging Stack tests 
+* Upgrade Staging Ref to use latest GET version
+* GET feature enhancements
+
+### Future 
+
+* GPT feature enhancements
+  * Rate limits for Projects, Groups, and Users APIs (18.0)
+  * Grafana slack alerts for high Rails memory use
+  * GPT 3.0
+* Reference Architecture updates (GitLab feature readiness dependent)
+  * Gitaly on Kubernetes (Cloud Native Service Reference Architecture)
+  * Validation of RAFT 
+  * Container Registry Metadata Database support
+  * CI Decomp support
+  * Cloud Native Hybrid documentation impressions
+  * Add 10k Azure test pipeline to Reference Architecture performance test pipeline schedule
+* GET Feature Enhancements
+  * GitLab Pages (Linux Package) support
+  * Full Infra Custom Tags and Labels support
+  * More graceful Zero Downtime Upgrade support
+  * Azure Kubernetes support
+  * Azure PostgreSQL Flexible Server support
+  * Azure Redis service support
+* Validate ARM Cloud Native Hybrid environment performance
+* Test Data Generator enhancements 
+  * Expand data seeding for Gitaly
+* Chromium megarepo data seeding
+* Improve test coverage for GitLab Upgrades
+  * Running GitLab QA upgrade test jobs for unreleased patches
+  * Reduce functionality degradation in upgrades
+* Improve test coverage for Postgres Upgrades
+
 ## Working with us
 
 There are occasions where the expertise of the Reference Architecture or Self-Managed Platform team may be needed in support of a customer issue.
