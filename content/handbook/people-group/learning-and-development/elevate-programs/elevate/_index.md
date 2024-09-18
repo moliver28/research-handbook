@@ -2,6 +2,8 @@
 title: Elevate
 ---
 
+Elevate: a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
+
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
 The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
