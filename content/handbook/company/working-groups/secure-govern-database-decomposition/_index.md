@@ -90,21 +90,44 @@ Secure/Govern Data has a high degree of integration with CI and standard GitLab 
 
 ### Timeline
 
-While application-level decomposition is ongoing, we are awaiting further detail from [database logical replication testing](https://gitlab.com/gitlab-com/gl-infra/dbre/-/issues/95) to determine feasibility of a gradual or single-phase rollout to Gitlab.com.
-
-If gradual decomposition is not possible, then we would pursue decomposition with the intention to reduce pressure on the primary Database through a single downtime or maintenance event before the rollout of Cells 2.0, estimated at May 2025.
+The group has determined that a gradual rollout is not advisable since it doesn't relieve pressure
+on the main database cluster, and increases the amount of work to be done. As such, all slices will
+be rolled-out simultaneously to gitlab.com.
 
 #### Progress
+
+```mermaid
+gantt
+dateFormat YYYY-MM-DD
+title 50% confidence timeline
+
+section Work
+Decompose tables :active , decompose, 2024-07-01, 2024-11-30
+Slice 1 :active, slice1, 2024-07-23, 2024-11-30
+Slice 2 :active, slice2, 2024-08-06, 2024-10-04
+Slice 3 :active, slice3, 2024-07-15, 2024-11-30
+Table decomposition complete :milestone, allslices, after slice1 slice2 slice3, 0d
+Phase 1 & 2 : phase12, 2024-09-11, 4w
+Phase 3 : phase3, after phase12, 3w
+Phase 4 : phase4, after allslices phase3, 3w
+Phase 5 : phase5, after phase4, 3w
+Phase 6 : phase6, after phase4, 3w
+Phase 7 : phase7, after phase6, 4w
+Rollout complete :milestone, rollout, after phase7, 0d
+axisFormat  %Y-%m
+```
+
+[Source](https://gitlab.com/groups/gitlab-org/-/epics/15236#timeline).
 
 ##### Decomposition
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 57%    | 2024-11              |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 24%    | 2025-02              |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 17%    | 2025-02              |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 67%    | 2024-11              |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 76%    | 2024-10              |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 25%    | 2024-11              |
 
-Last update: [2024-08-20](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2060146226).
+Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2112587408).
 
 ### Plan
 
