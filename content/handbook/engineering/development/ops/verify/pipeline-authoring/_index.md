@@ -104,7 +104,8 @@ Goals:
 ### FY26 top of mind
 
 - Support for GraphQL subscriptions - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15108)
-- Improve Feature/E2E specs - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15131)
+- Pipeline performance improvements - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15244)
+- CI Variables improvements - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15250)
 - MR Pipeline Tab migration to GraphQL - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15133)
 
 ## Exciting things and accomplishments
