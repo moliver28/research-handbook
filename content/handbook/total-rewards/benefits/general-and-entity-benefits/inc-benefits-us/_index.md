@@ -255,7 +255,7 @@ See the [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR
 
 <details markdown="1">
 
-<summary>Cigna Transgender Beneit Coverage</summary>
+<summary>Cigna Transgender Benefit Coverage</summary>
 
 Cigna has advised they will provide [WPATH](https://www.wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
 
