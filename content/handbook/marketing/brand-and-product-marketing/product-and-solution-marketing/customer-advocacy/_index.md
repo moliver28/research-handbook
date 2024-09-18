@@ -31,7 +31,7 @@ Requests
 
 The Customer Advocacy team partners with Content, Brand, and Design to run a continual, evergreen pipeline of customer stories in various formats including case studies, blogs, and marquee videos, with narratives showcasing customer advocates’ successes with GitLab. Stories are aligned to strategic pillars that support sales needs and integrated initiatives.
 
-We strive to produce three case studies per quarter, and three marquee videos per year. A selection and prioritization process helps us tell the right customer stories in the right format. Selection criteria is based on GTM goals determined through cross-functional collaboration and strategic alignment, with additional prioritization based on account size, license type and number of users, and unique use cases.
+We strive to produce three case studies per quarter, and two marquee videos per year. A selection and prioritization process helps us tell the right customer stories in the right format. Selection criteria is based on GTM goals determined through cross-functional collaboration and strategic alignment, with additional prioritization based on account size, license type and number of users, and unique use cases.
 
 > **Know of a customer with a compelling story?** Please complete the [Account Discovery Document](https://docs.google.com/document/d/1H61Gt_xCwGBQ8tZfvt6kRZFfw9lAImkdiPo0fANNHLU/edit) and reach out to Jocelyn Hernández Vázquez to schedule an internal Discovery Call.
 
