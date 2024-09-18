@@ -50,7 +50,7 @@ The `Security Engineer On-Call` will determine the scope and [severity]({{< ref 
 | **Security Communications Manager on Call (SecCMOC):** | This is the Security Incident Manager On-Call (SIMOC), Security Incident Commander or Security Assurance Engineer who will coordinate external communications efforts according to this security incident response plan and liaise across the extended GitLab teams to ensure all parties are activated, updated and aligned. |
 | **Security External Communications:** | This function partners with and advises incident response teams in reviewing and improving messaging for external audiences (including customers, media, broader industry). This role laises with marketing teams for any necessary reviews or messaging deployment. This function should be engaged **once first draft content has been developed** using the [Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). |
 
-### <i class="fas fa-arrow-right" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> More about the CMOC responsibilities
+### More about the CMOC responsibilities
 
 As security practitioners and incident response engineers, our security assurance and security operations teams and engineers are best positioned to develop initial messaging and serve in the `CMOC`/`Communications manager on call` role.
 
@@ -63,7 +63,7 @@ As security practitioners and incident response engineers, our security assuranc
 - Routing and securing approvals from various parties (support, security/SIRT leadership, legal, etc)
 - Keeping stakeholders updated and informed on the progress of communications development in the related incident response slack channel and issue(s)
 
-### <i class="fas fa-arrow-right" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> More about the Security External Communications function responsibilities
+### More about the Security External Communications function responsibilities
 
 **The `Security External Communications function` is the DRI for:**
 
@@ -74,7 +74,7 @@ As security practitioners and incident response engineers, our security assuranc
 - Deploying the messaging via collaboration with our PR (media statement), Content Marketing (blog post) and Marketing Operations teams (email response)
 - Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-department` and `#customer-success`) for awareness and use.
   - `Support manager on call` will manage support team awareness
-  - **The following groups are auto-tagged on each communications tracking issue: PR, Support, Field Security, Customer Success, Legal, Developer Relations and Security department leadership**
+
 
 ## Extended team roles, responsibilities and points of contact
 
