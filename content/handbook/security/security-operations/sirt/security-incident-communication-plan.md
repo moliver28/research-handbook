@@ -75,7 +75,6 @@ As security practitioners and incident response engineers, our security assuranc
 - Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-department` and `#customer-success`) for awareness and use.
   - `Support manager on call` will manage support team awareness
 
-
 ## Extended team roles, responsibilities and points of contact
 
 - **Marketing Operations:** Responsible for sending incident-related email to impacted parties in a security incident.  This group has established a [Marketing emergency response process](/handbook/marketing/emergency-response/#marketing-emergency-response) and is engaged by [creating an incident communication request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications) using the `incident_communications` template, tagging in the assigned timezone's `coverage owner` and posting the issue in the #mktgops channel in Slack.
