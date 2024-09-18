@@ -628,7 +628,7 @@ Consider using a [customizable GitLab Background](https://docs.google.com/presen
 1. Click the `Background & Effects` tab. 
 1. Click the `Video Filters` tab. 
 1. Select the desired filter. (We have GitLab themed filters!)
-1. (Optional) Scroll down and select the `Apply to all future meetings` check box to to set this filter as a default for all meetings you join or host. 
+1. (Optional) Scroll down and select the `Apply to all future meetings` check box to set this filter as a default for all meetings you join or host. 
 
 ### External webcams and DSLRs
 
