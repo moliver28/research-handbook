@@ -3,23 +3,25 @@ title: "Customer Advocacy at GitLab"
 
 ---
 
+#### **Overview:**
+
 **The Customer Advocacy team is dedicated to fostering evergreen co-marketing relationships with top advocates and enterprise brands that fuel an integrated strategy aligned to pipeline-driving initiatives, threading the customer voice into all GTM motions.**
 
 - We create programs, content, and opportunities that put Enterprise logos and advocates in the spotlight.
 - We partner with Sales and Customer Success to identify, capture, and tell the right stories that help us sell and reinforce our enterprise-trusted brand promise.
 - We support the bottom line by fueling our integrated campaign motion with powerful customer evidence.
 
-**Meet the team:**
+#### **Meet the team:**
 
 - Nicole Smith — Director, Product Marketing, Customer Advocacy
 - Jocelyn Hernández Vázquez — Product Marketing Manager, Customer Advocacy
 - Rachel Lurie — Product Marketing Manager, Customer Advocacy
 
-**How to work with us:**
+#### **How to work with us:**
 
 Questions
 
-- Reach us in the _#customer-advocacy-and-references_ Slack channel, where questions will be triaged.
+- Reach us in the **#customer-advocacy-and-references** Slack channel, where questions will be triaged.
 
 Requests
 
@@ -101,7 +103,7 @@ For more details on the EAB program, review the [Internal Brief](https://docs.go
 
 Our customer awards program, 20 to Watch in DevSecOps, celebrates a diverse group of innovators who are delivering business results with a transformational DevSecOps strategy powered by GitLab solutions. Customers self-nominate for an award, and the winners (selected by an internal GitLab committee) are recognized as thought leaders in DevSecOps, receive a prize package, and gain access to GitLab executives and other exclusive opportunities.
 
-20 to Watch in DevSecOps supports GitLab’s three-year strategy by helping to cultivate the platform buyer, drive brand and GTM efforts with a customer centricity focus, and generate testimonials and evidence to fuel our customer content pipeline.
+20 to Watch in DevSecOps supports GitLab’s three-year strategy by helping to cultivate the platform buyer, drive brand and GTM efforts with a customer centricity focus, and generate testimonials and evidence to fuel our customer stories pipeline.
 
 For more about the 20 to Watch in DevSecOps customer awards program, review the [Internal Brief](https://docs.google.com/document/d/17mq2QJo0035UJsgZJdUL6a1zQwjyFhE4tjbpjfLTlqA/edit).
 
@@ -111,8 +113,8 @@ Our emerging customer-facing advocacy program enables GitLab to celebrate, nurtu
 
 > As we continue to build out the program, we encourage customer-facing teams to [nominate customer advocates](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link).
 
-### **Customer References Contests**
+### **Customer Reference Contests**
 
 On an adhoc basis, the Customer Advocacy team runs contests to incentivize the Sales team to identify and secure customer references willing to be featured in publicly facing channels. The goal is to uncover new, high quality customer references whose names, logos, and stories can help strengthen our standing in the market.
 
-The contest typically runs throughout a designated quarter and offers a reward structure where individuals (usually AEs/account owners) can qualify for monetary incentives by securing customer reference agreements.
+Such contests typically run throughout a designated quarter and offer a reward structure where individuals (usually AEs/account owners) can qualify for monetary incentives by securing customer reference agreements.
