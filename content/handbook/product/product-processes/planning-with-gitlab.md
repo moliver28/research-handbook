@@ -143,7 +143,7 @@ As a Product Manager you should close work items for the following reasons:
 
 The 'not the next iteration' work items are the most important ones to resolve.
 It is very easy to create a large, comprehensive change with meta items and lots of improvements,
-but it is essential that we iterate and ship the _minimal viable_ change.
+but it is essential that we iterate and ship the _minimal valuable_ change.
 We have to ship the iteration, wait for it to be used, and ask for feedback.
 As a product manager, you must think about the bigger picture when making a proposal to improve the product.
 It's important to avoid writing this down as a bunch of work items.
@@ -170,8 +170,8 @@ Don't make any forward looking statements around milestone targets that the dupl
 ##### When you should NOT close an issue or epic
 
 1. **Low priority:** sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
-1. **Not part of your direction:** While some items may be antithetical to our vision, most will fall into this category. These items are good ideas, but are not at the top of the list for PMs to prioritize within their group.
-1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize ~Awaiting further demand label.
+1. **Not part of your direction:** These items are good ideas, but are not at the top of the list for PMs to prioritize within their group.
+1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize "%Awaiting further demand" milestone.
 1. **Deinvested category:** Issues for categories in which we've made a deinvestment, but haven't removed the category. (we should create a label for this)
 1. **Age of Issue:** Closing due to age alone. Filtering by age to look for candidates to close is fine, but if the issue still aligns with product direction and there is community interest, we should keep these open for future opportunities.
 1. **Complex Solutions:** Sometimes issues may come with overly complex proposals or the current state of GitLab's architecture or other technical factor makes the solution too complex to implement. These issues should remain open if the problem to solve is valid as solutions can evolve as more is learned about the problem to be solved.
