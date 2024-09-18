@@ -621,6 +621,15 @@ Consider using a [customizable GitLab Background](https://docs.google.com/presen
 1. A video on how to set up a `Virtual Background` with Zoom is available [here](https://www.youtube.com/watch?time_continue=5&v=YL736HaaJCk)
 1. If you do not have a green screen, consider using a `Virtual Background` that is a similar color to whatever is behind you.
 
+### Applying Video Filters
+
+1. Sign into the Zoom desktop client.
+1. Click on your profile picture > `Settings`.
+1. Click the `Background & Effects` tab. 
+1. Click the `Video Filters` tab. 
+1. Select the desired filter. (We have GitLab themed filters!)
+1. (Optional) Scroll down and select the `Apply to all future meetings` check box to to set this filter as a default for all meetings you join or host. 
+
 ### External webcams and DSLRs
 
 It is possible to achieve high quality video output with a professional [bokeh](https://en.wikipedia.org/wiki/Bokeh) effect by using a DSLR or external webcam.
