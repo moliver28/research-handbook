@@ -31,7 +31,11 @@ A PSQuote quote contains one to many quote lines. Those quote lines map 1:1 to e
 
 We have a project called [CPR_GitOps](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops) that handles the process of automatically creating the foundation of groups, projects, epics, etc. per customer project. This automation is triggered by our Quilt API through PSQuote. We are currently using a merge request as the staging area to provide all the necessary details CPR_GitOps needs to properly scaffold out a project to deliver.
 
+1. please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated or send a message to the #ps-practice slack channel, requesting a CP project to be created
+
 ## What does the PM need to configure once the Project is ready?
 
 - issue board
 - readme
+
+## What are some helpful tips/shortcuts?
