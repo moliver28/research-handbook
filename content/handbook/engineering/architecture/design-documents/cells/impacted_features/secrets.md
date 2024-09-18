@@ -1,7 +1,7 @@
 ---
 stage: enablement
 group: Tenant Scale
-title: 'Cells: Secrets'
+title: 'Cells: Secrets & Credentials'
 toc_hide: true
 ---
 
@@ -19,21 +19,48 @@ However, there will be some secrets that will be required to be the same for all
 
 ## 1. Definition
 
-GitLab has a lot of [secrets](https://docs.gitlab.com/charts/installation/secrets.html) that need to be configured.
-Some secrets are for inter-component communication, for example, `GitLab Shell secret`, and used only within a Cell.
-Some secrets are used for features, for example, `ci_jwt_signing_key`.
+GitLab has a few [secrets](https://docs.gitlab.com/charts/installation/secrets.html) that need to be configured.
+These secrets are [stored in different locations depending on the installation method](https://docs.gitlab.com/ee/development/application_secrets.html#where-the-secrets-are-stored).
+
+- Secrets for encryption: `secret_key_base` (session data) and `db_key_base` (encryption at rest in the database).
+- Secrets for features: `otp_key_base` and `openid_connect_signing_key`.
+- Secret for encrypted files (similar to the [Rails credentials feature](https://guides.rubyonrails.org/security.html#custom-credentials)): `encrypted_settings_key_base`.
+
+In addition to secrets stored in the "secrets" file, GitLab also uses specific secret files for inter-component
+communication, for example, `GitLab Shell secret`, and used only within a Cell.
+
+Last but not least, many features need credentials to be set up. These credentials are stored in different locations depending on the installation method:
+
+- [`/etc/gitlab/gitlab.rb` for Omnibus](https://docs.gitlab.com/omnibus/settings/configuration.html)
+- [Kubernetes secrets](https://docs.gitlab.com/charts/installation/secrets.html#smtp-password) for Charts
+- [`config/gitlab.yml` for source installation](https://docs.gitlab.com/ee/administration/incoming_email.html#self-compiled-installations)
 
 ## 2. Data flow
 
 ## 3. Proposal
 
-1. Secrets used for features will need to be consistent across all Cells, so that the UX is consistent.
+1. Secrets for encryption (`secret_key_base` and `db_key_base`) will need to be consistent across all Cells, so that
+   data can be moved easily between Cells.
+   Investigation issues: [`secret_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451146), [`db_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451148).
    1. This is especially true for the `db_key_base` secret which is used for
       encrypting data at rest in the database - so that Projects that are
       transferred to another Cell will continue to work. We do not want to have
       to re-encrypt such rows when we move Projects/Groups between Cells.
-1. Secrets which are used for intra-Cell communication only should be uniquely generated
-   per Cell.
+   1. In the future, we might support rotating such secrets, so that if the Org mover needs to move an organization
+      from Cell1 to Cell2, it would decrypt data with Cell1 key and then re-encrypt it with Cell2 key. This is out of
+      scope for Cells 1.0.
+1. Secrets for features (`otp_key_base` and `openid_connect_signing_key`) will need to be consistent across all
+   Cells, so that the UX is consistent.
+   Investigation issues: [`otp_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451147), [`openid_connect_signing_key`](https://gitlab.com/gitlab-org/gitlab/-/issues/451149).
+   1. Since we'll support cluster-wide Application Settings, we should first migrate these secrets to
+      `ApplicationSetting` attributes first, so that the consistency of their value on each Cell is handled by
+      the Application Settings synchonization mechanism.
+1. Secrets for encrypted files can be different on each Cell, as long as the credentials inside the encrypted files
+   are the same. That said, it might be simpler to also use the same `encrypted_settings_key_base` on all Cells for
+   simplicity sake. [Investigation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/451150).
+1. Secrets for inter-component communication inside a Cell only should be uniquely generated per Cell.
+1. In general, credentials for various features should be the same on all Cells, unless a feature is set up in a
+   Cell-specific way (e.g. if LDAP needs to be set up on a specific Cell).
 
 ## 4. Evaluation
 
