@@ -1,7 +1,10 @@
 ---
 title: "Marc Di Sabatino's README"
+description: "Personal README page for Marc Di Sabatino"
 job: "Senior, Business Systems Analyst - Enterprise Applications"
 ---
+
+This page's intention is to give a little information about who I am and what it's like to work with me. 
 
 ## Marc Di Sabatino's README
 
