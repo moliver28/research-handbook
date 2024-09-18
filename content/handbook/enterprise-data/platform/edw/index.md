@@ -561,6 +561,46 @@ As the Enterprise Data Warehouse is designed to process and transform the data t
 
 The current design of the Enterprise Data Warehouse is build on the Snowflake cloud database.  This limits the formats and structures of data that can be processed to those that fit into structured tables.  While some processing of semi-structured data, such as JSON, is possible directly in the Enterprise Data Warehouse this is limited and must be first ingested as a column in a table decreasing efficiency.  Generally, any data input or output from the Enterprise Data Warehouse that is not in a structured table would be considered Big Data.  As an example the service ping payload from the Version database is JSON that requires extensive manipulation before in can be analyzed and would be considered Big Data.
 
+## Analytics Performance Policy Framework
+
+### Problem Statement
+
+Due to increasing data volumes and business logic complexity in the Enterprise Data Warehouse, the data model transformations built in the EDW have become increasingly non-performant overtime with the daily dbt model production run taking over 12 hours to complete. Query runtimes on some of our largest Snowplow, Service Ping, and GitLab.com data sets can take longer than several minutes to complete on L and XL size warehouses. Our daily Snowplow event data volumes are expected to increase by 2.5x within the next 12+ months. Therefore, we need an Analytics Performance Policy that can provide guidelines on how to architect performant data models in the transformation layer of the EDW that balance technical considerations with business needs and requirements.
+
+We think about dbt model runs along 3 major dimensions: performance, efficiency, and cost. 
+
+1. **Performance** relates to how long it takes a model to build
+1. **Efficiency** relates to how well a model uses local storage, remote storage, and partition pruning. 
+1. **Cost** relates to how many Snowflake credits are required to run a model and is impacted by both the performance and efficiency of the model. 
+
+The scope of this Analytics Performance Policy at this time is specifically focused on the performance of models. In the future, we will consider adding a separate efficiency and cost policy that would roll-up to an overall Analytics Scalability Policy.
+
+*The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake.*
+
+### Performance Targets 
+
+*These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
+
+1. Reduce dbt model production run time from 12 hours to 8 hours. Assumes we do not scale up and keep using a XL size warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
+1. Individual dbt model run time is consistently between 30 minutes to 1 hour maximum per model, overtime as data volumes continue to increase.
+1. A simple query of the Snowplow, Service Ping, and GitLab.com big data sets in Snowflake finishes in under 1 minute on a L or XL warehouse.
+
+### Architectural Approaches to Improve Performance
+
+1. Transform and Surface Smaller Amounts of Data in the Data Models.
+    1. Limit the amount of rows and/or columns surfaced in the atomic fact tables (lowest grain that captures ALL transactions for a business process), based on business needs weighed against technical and performance constraints. Ex. Limit the data in a model to the last 13 months of data that is both performant and required for business analysis.
+    1. Shard monolithic atomic fact tables (lowest grain that captures ALL transactions for a business process) that model the higher levels of abstraction of a business process into smaller data models that model sub-business processes. Ex. Model the SDLC (Software Development Lifecycle) into its component parts like SCM, CI, CD, Security etc. versus having the end to end SDLC modeled in one, montholic, super large data model.
+    1. Create aggregated data models at a level of detail purpose built for Business Analytics use cases. Ex. Consider aggregating product usage data to the user, namespace, installation, metric grains by week, month, quarter, and year timeframes as required by the business use case.
+1. Consider adding a clustering key to the data model that is aligned to commonly queried use cases in the model.
+1. Evaluate the use of the simple_cte macro in the data model and insure only the required columns that are needed for the model are selected.
+1. Consider setting the data model to be incremental.
+
+### Historical Archiving Process
+
+1. For non-idempotent data, which is data that cannot be recreated or otherwise surfaced in the data model due to a performance policy consideration, leverage a data platform archiving methodology to create an historical archive of the data. 
+
+For example, with only exposing 13 months of product usage data in atomic fact tables and creating an aggregated data table at the month, metric, namespace grain that only provides data for the past 13 months, an historical archive table would be able to provide insights from 2 or 3 years in the past for the aggregated table while the live data model would only provide the last 13 months of data.  
+
 ## Useful links and resources
 
 - [dbt Discourse about Kimball dimensional modelling](https://discourse.getdbt.com/t/is-kimball-dimensional-modeling-still-relevant-in-a-modern-data-warehouse/225/6) in modern data warehouses including some important ideas why we should still use Kimball
