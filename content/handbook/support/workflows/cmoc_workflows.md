@@ -418,6 +418,8 @@ The contents of the maintenance should be filled out according to the details pr
 
 ![Maintenance Details](/images/support/cmoc_maintenance_details_automation.png)
 
+If the maintenance event falls within the [C1 or C2 categories](../../engineering/infrastructure/change-management.md#change-criticalities) also add the event to the Production Calendar. Read more about the [Production Calendar here](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues/1547).
+
 ### Timezones and Dates for Maintenance
 
 The timezone of Status.io is set to UTC.
