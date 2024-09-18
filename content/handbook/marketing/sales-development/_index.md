@@ -1170,8 +1170,9 @@ We have two main cohorts we're tracking:
 - These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
+- You can also use one-off templates like [this one](https://groove.clari.com/templates?fId=284262) to continue a conversation with other stakeholders for opportunities that are affected by the departure of a tracked contact.
 
-#### 2. When a person that we are tracking leaves their current place of employment
+#### 2. When a company that we are tracking gets a new hire or promotion
 
 - These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).  
   - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally. 
