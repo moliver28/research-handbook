@@ -569,8 +569,7 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 
 **Tracking License Usage**
 
-- [Downgrade Check](https://10az.online.tableau.com/t/gitlab/views/UserDeprovisionCheck/UserDowngradeCheck)
-- [Deprovision Check](https://10az.online.tableau.com/t/gitlab/views/UserDeprovisionCheck/UserDeprovisionCheck)
+- [Utilization & Usage by License Type](https://10az.online.tableau.com/#/site/gitlab/workbooks/2447768/views)
 - [Assigned Licenses](https://10az.online.tableau.com/#/site/gitlab/users) (Admins only)
 - [Licenses Used](https://10az.online.tableau.com/#/site/gitlab/analysis/LoginBasedLicenseUsage)
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
