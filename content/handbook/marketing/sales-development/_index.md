@@ -1160,7 +1160,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 [UserGems](handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
-We have two main cohorts we're tracking:
+**We have two main cohorts we're tracking:**
 
 #### 1. When a person that we are tracking leaves their current place of employment
 
@@ -1170,12 +1170,18 @@ We have two main cohorts we're tracking:
 - These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
-- You can also use one-off templates like [this one](https://groove.clari.com/templates?fId=284262) to continue a conversation with other stakeholders for opportunities that are affected by the departure of a tracked contact.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
 - These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).  
   - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally. 
+
+#### 3. When people leave or join accounts where we have open oppourtunities
+
+- While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list.](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
+  - The Sales team for people that joined or left a stage 3 or beyond opportunity.
+  - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
+- These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.  
 
 ### Sales Dev Manager Resources
 
