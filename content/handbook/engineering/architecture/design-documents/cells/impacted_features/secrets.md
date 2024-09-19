@@ -61,9 +61,17 @@ Last but not least, many features need credentials to be set up. These credentia
 1. Secrets for inter-component communication inside a Cell only should be uniquely generated per Cell.
 1. In general, credentials for various features should be the same on all Cells, unless a feature is set up in a
    Cell-specific way (e.g. if LDAP needs to be set up on a specific Cell).
+   GitLab Dedicated already have a solution for
+   [sharing SMTP credentials in a multi-tenant environment](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/custom-smtp.md#sharing-smtp-credentials-in-a-multi-tenant-environment)
+   so we should use a similar solution to set up cluster-wide configuration.
 
 ## 4. Evaluation
 
 ## 4.1. Pros
 
+- Secrets are consistent accross most cells
+- No need to handle data migration between cells
+
 ## 4.2. Cons
+
+- Security of cells is not higher than the current GitLab.com installation

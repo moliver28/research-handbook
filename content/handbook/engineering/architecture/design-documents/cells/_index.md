@@ -66,7 +66,7 @@ Below is a list of known affected features with preliminary proposed solutions.
 - [Cells: Organizations](impacted_features/organizations.md)
 - [Cells: Personal Access Tokens](impacted_features/personal-access-tokens.md)
 - [Cells: Personal Namespaces](impacted_features/personal-namespaces.md)
-- [Cells: Secrets](impacted_features/secrets.md)
+- [Cells: Secrets & Credentials](impacted_features/secrets.md)
 - [Cells: Snippets](impacted_features/snippets.md)
 - [Cells: User Profile](impacted_features/user-profile.md)
 - [Cells: Your Work](impacted_features/your-work.md)
