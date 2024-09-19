@@ -170,7 +170,7 @@ region, you should follow these steps:
 
 ## Ticket handover (assignee change not related to preferred region)
 
-** When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
+When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
