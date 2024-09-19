@@ -141,14 +141,6 @@ As a Product Manager you should close work items for the following reasons:
 1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already [addressed in the Stewardship page](/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
 1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
 
-The 'not the next iteration' work items are the most important ones to resolve.
-It is very easy to create a large, comprehensive change with meta items and lots of improvements,
-but it is essential that we iterate and ship the _minimal valuable_ change.
-We have to ship the iteration, wait for it to be used, and ask for feedback.
-As a product manager, you must think about the bigger picture when making a proposal to improve the product.
-It's important to avoid writing this down as a bunch of work items.
-Come up with a direction, but only record the first step.
-This way we can preserve the efficiency of [our value of iteration](/handbook/values/#iteration).
 Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
 
 When closing a work item, leave a comment explaining why you're closing it, and link
