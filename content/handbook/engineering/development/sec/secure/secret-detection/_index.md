@@ -144,7 +144,7 @@ If you have any questions, don't hesitate to ask in `#g_secure_secret-detection`
 #### Documentation
 
 The team's process for documenting features is captured in our
-[Documentation](documentation/) page.
+[Documentation]({{< ref "documentation" >}}) page.
 
 ### Observability
 
