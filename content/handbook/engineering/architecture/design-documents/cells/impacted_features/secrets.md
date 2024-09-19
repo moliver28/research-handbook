@@ -39,9 +39,13 @@ Last but not least, many features need credentials to be set up. These credentia
 
 ## 3. Proposal
 
-1. Secrets for encryption (`secret_key_base` and `db_key_base`) will need to be consistent across all Cells, so that
+1. `secret_key_base` is used for: encrypted cookies, signed cookies, and Active Storage files, based on https://guides.rubyonrails.org/security.html#session-storage.
+   We don't use Active Storage, as far as I know, so it's only cookies that are affected. Given that for Cells 1.0, users will be tied to a single cell, and since
+   [the session cookie will include the cell ID in its name](../iterations/cells-1.0.md#proposal), it's fine to have a unique `secret_key_base` per Cell.
+   Investigation issue: [`secret_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451146).
+1. `db_key_base` is used for encryption at rest in the database, and will need to be consistent across all Cells, so that
    data can be moved easily between Cells.
-   Investigation issues: [`secret_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451146), [`db_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451148).
+   Investigation issue: [`db_key_base`](https://gitlab.com/gitlab-org/gitlab/-/issues/451148).
    1. This is especially true for the `db_key_base` secret which is used for
       encrypting data at rest in the database - so that Projects that are
       transferred to another Cell will continue to work. We do not want to have
