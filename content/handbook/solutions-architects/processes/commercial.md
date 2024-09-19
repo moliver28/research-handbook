@@ -259,13 +259,13 @@ The key aspects to take into consideration:
    1. Connection to the technical validator/buyer
    1. Established communication channel and responsiveness
 
-The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] + One line qualitative comment` with `[COLOR]` equals to:
+The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] Initials Date: One line qualitative comment` with `[COLOR]` equals to:
 
 - `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
 - `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
 - `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
 
-> Example: _[RED] No access to technical buyers, no clear use case_.
+> Example: _[RED] VD 17/10: No access to technical buyers, no clear use case_.
 
 Solutions Architects are required to fill out in their judgment on all opportunities meeting these criteria:
 
