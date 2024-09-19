@@ -25,7 +25,7 @@ The Deal Desk team's mission is to streamline the opportunity management process
   - [Troubleshooting: True Ups, Licenses + EULAS](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/)
   - [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/)
   - [Legal Authorization Matrix](/handbook/finance/authorization-matrix/)
-  - [Trade Compliance (Export/Import)](/handbook/sales/field-operations/order-processing/#trade-compliance-export--import-and-visual-compliance-tool-in-salesforce)
+  - [Trade Compliance (Export/Import)](/handbook/sales/field-operations/deal-desk/order-processing/#trade-compliance-export--import-and-visual-compliance-tool-in-salesforce)
 
 - **Other Resources**
   - [Quote Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.ag75fqu12pf0)
@@ -147,7 +147,7 @@ Supported topics include:
 
 #### Deal Desk AMA
 
-Deal Desk AMA's are an opportunity to invite someone from Deal Desk to your local team call. We can help address any questions regarding quote processes, best practices, or unique deal structures. Think of this as an opportunity for your team to learn together on general topics for quoting or opportunity management. For specific questions related to in-flight opportunities, it is best to join [Deal Desk Office Hours](/handbook/sales/field-operations/sales-operations/deal-desk/#deal-desk-office-hours).
+Deal Desk AMA's are an opportunity to invite someone from Deal Desk to your local team call. We can help address any questions regarding quote processes, best practices, or unique deal structures. Think of this as an opportunity for your team to learn together on general topics for quoting or opportunity management. For specific questions related to in-flight opportunities, it is best to join [Deal Desk Office Hours](/handbook/sales/field-operations/deal-desk/#deal-desk-office-hours).
 
 Chatter or Slack #sales-support if you are interested in having Deal Desk join your team call!
 
@@ -213,7 +213,7 @@ The Deal Desk team will be responsible for taking action on feedback received in
 
 ### Key Performance Indicators: Results
 
-To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/Deal-Desk-Order-Mgmt-KPIs/)
+To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/deal-desk/Deal-Desk-Order-Mgmt-KPIs/)
 
 ### Proactive Opportunity Review
 
@@ -388,7 +388,7 @@ F.  **Add Annual Payments** to a order form by:
 - Updating "Initial Term" to 24, 36, 48, or 60. **If Intital Term is not updated correctly, the quote will not generate the correct Total**"
 - **All Annual Payment quotes** must use the 1 - Year Product SKU. You will see an error message if you select Annual Payments and anything other than the 1 - Year SKU.
 
-G. SuperSonics: Review the Zuora fields to determine whether any Cloud Licensing features apply to the subscription. For more information on Cloud Licensing, see: [SuperSonics and Sales Assisted Transactions](/handbook/sales/field-operations/order-processing/#supersonics-and-sales-assisted-transactions)
+G. SuperSonics: Review the Zuora fields to determine whether any Cloud Licensing features apply to the subscription. For more information on Cloud Licensing, see: [SuperSonics and Sales Assisted Transactions](/handbook/sales/field-operations/deal-desk/order-processing/#supersonics-and-sales-assisted-transactions)
 
 H.  **Order Form Generation**
 
@@ -595,7 +595,7 @@ The following is intended as a step by step guide for opportunity owners or ISRs
   - Updating "Renewal Term" to 24, 36, 48, or 60. **If Renewal Term is not updated correctly, the quote will not generate the correct Total**".
   - All Annual Payment quotes **must use the 1 Year Product SKU**. You will see an error message if you select Annual Payments and anything other than the 1 Year SKU.
 
-- **SuperSonics**: Review the Zuora fields to determine whether any Cloud Licensing features apply to the subscription. For more information on Cloud Licensing, see: [SuperSonics and Sales Assisted Transactions](/handbook/sales/field-operations/order-processing/#supersonics-and-sales-assisted-transactions).
+- **SuperSonics**: Review the Zuora fields to determine whether any Cloud Licensing features apply to the subscription. For more information on Cloud Licensing, see: [SuperSonics and Sales Assisted Transactions](/handbook/sales/field-operations/deal-desk/order-processing/#supersonics-and-sales-assisted-transactions).
 
 ##### **B. Renewal Using a New Subscription Quote**
 
@@ -617,7 +617,7 @@ If the customer needs to change the Quote Start Date (typically for Billing purp
 
 ##### **C. Late renewal**
 
-For information on how to quote late renewals, [see here](/handbook/sales/field-operations/order-processing/#late-renewals) .
+For information on how to quote late renewals, [see here](/handbook/sales/field-operations/deal-desk/order-processing/#late-renewals) .
 
 **To supplement these steps, review the [Highspot Page](https://gitlab.highspot.com/items/63c04679ce74a0ae63ca5e49) or the [RISE Course](https://rise.articulate.com/share/HzJgdaWzK1C_SwlMSCwQchgV9PbpRNvi#/) to see each step live for a New Subscription quote.**
 
@@ -776,10 +776,10 @@ GitLab's Cloud Licensing experience allows for the activation and provisioning o
 
 To learn more about the SuperSonics Billing and Subscription Management experience and how it impacts your quote, review the following:
 
-- [SuperSonics and Sales Assisted Transactions](/handbook/sales/field-operations/order-processing/#auto-renewal-quarterly-subscription-reconciliation-and-operational-data-sales-assisted-transactions)
-- [How To Opt-Out of SuperSonics Features](/handbook/sales/field-operations/order-processing/#how-to-opt-out-of-auto-renewal-quarterly-subscription-reconciliation-and-operational-data)
-- [How to Temporarily Pause SuperSonics Features](/handbook/sales/field-operations/order-processing/#how-to-temporarily-pause-auto-renewal-quarterly-subscription-reconciliation-and-operational-data)
-- [More Resources](/handbook/sales/field-operations/order-processing/#resources)
+- [SuperSonics and Sales Assisted Transactions](/handbook/sales/field-operations/deal-desk/order-processing/#auto-renewal-quarterly-subscription-reconciliation-and-operational-data-sales-assisted-transactions)
+- [How To Opt-Out of SuperSonics Features](/handbook/sales/field-operations/deal-desk/order-processing/#how-to-opt-out-of-auto-renewal-quarterly-subscription-reconciliation-and-operational-data)
+- [How to Temporarily Pause SuperSonics Features](/handbook/sales/field-operations/deal-desk/order-processing/#how-to-temporarily-pause-auto-renewal-quarterly-subscription-reconciliation-and-operational-data)
+- [More Resources](/handbook/sales/field-operations/deal-desk/order-processing/#resources)
 
 #### Quoting Professional Services
 
@@ -920,7 +920,7 @@ For more information on ARR calculation for Multi-Year Deals, see [ARR in Practi
 A Ramp Deal is a multi-year deal in which products can vary in price, quantity, or discount over set annual schedule or can remain flat for the entire duration of the subscription term.
 Customer pays upfront or annually, for all users planned in the ramp schedule.
 
-- In a ramp [add-on](/handbook/sales/field-operations/sales-operations/deal-desk/#amend-subscription-quote), customer adds users throughout the subscription with no set schedule and pays a pro-rata rate.
+- In a ramp [add-on](/handbook/sales/field-operations/deal-desk/#amend-subscription-quote), customer adds users throughout the subscription with no set schedule and pays a pro-rata rate.
 - Ramp deals are limited to multi-year deals, with 12 month ramp periods. See [ARR in Practice](/handbook/sales/sales-term-glossary/arr-in-practice/#calculating-net-arr-for-ramp-deals) for more information.
 
 ##### How to Create a Ramp Deal
@@ -991,7 +991,7 @@ On the opportunity, Deal Desk will populate the "Opportunity Category" field wit
 
 ###### How to create a Ramp Deal via CPQ X: Quote Studio
 
-To create a ramp deal, follow the foundational steps shared in the relevant [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote), [Amend Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#amend-subscription-quote), or [Renew Subscription](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote) quote sections above.
+To create a ramp deal, follow the foundational steps shared in the relevant [New Subscription Quote](/handbook/sales/field-operations/deal-desk/#new-subscription-quote), [Amend Subscription Quote](/handbook/sales/field-operations/deal-desk/#amend-subscription-quote), or [Renew Subscription](/handbook/sales/field-operations/deal-desk/#renew-subscription-quote) quote sections above.
 
 **Quote Detail Section**
 
@@ -1083,7 +1083,7 @@ Can we have different term lengths on one quote?
 
 #### How to Create a Draft Proposal
 
-Follow the standard process for [quote creation](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes). The Quote Object **does not** need to be approved before generating a Draft proposal.
+Follow the standard process for [quote creation](/handbook/sales/field-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes). The Quote Object **does not** need to be approved before generating a Draft proposal.
 
 1. Click Edit Quote Details.
 2. Select the DRAFT - New Proposal quote template. Save.
