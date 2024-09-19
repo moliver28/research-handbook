@@ -505,6 +505,18 @@ We don't have a way today to track separately how many Ultimate seats are used a
 
 NOTE: this wouldn't be a problem if the customer goes from 50 to 25 users but their max billable users was 25 or less at renewal time. It's only a problem when they go below their current max billable users count.
 
+##### Payment Schedule for Amendment Quotes
+
+Amendment quotes on Multiyear Terms (13 or more months) will default to the same billibg schedule as the originating agreement (New Subscription Order Form or Renewal Order Form, whichever is most recent). This means:
+
+If the originating agreement's billing schedule was set up for:
+
+- Annual billing - any amendment quote will be billed annually as well (without the need for redundant Annual Terms language). If the Amend Order Form includes Annual Billing language, it will also be accepted for bookings so long as the originating agreement also included Annual Billing language.
+- Prepaid - the customer will be billed for the prorated amount for the remainder of the current subscription period.
+- For any custom billing schedule, please engage Deal Desk as your Order Form may need customizations.
+
+It's important to note that the term's billing schedule should not be changed mid-term. If a change in billing frequency mid-term is your intent, this should be done at renewal. Otherwise, updating billing schedule mid-term will require you to engage with Deal Desk.
+
 #### Renew Subscription Quote
 
 This quote type should be used when the customer has reached the end of their subscription term and wishes to renew the subscription for another term.
