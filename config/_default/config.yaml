@@ -58,6 +58,11 @@ params:
         desc: "Contribute to the handbook"
     developer: []
 
+caches:
+  getresource:
+    dir: :cacheDir/:project
+    maxAge: 24h
+
 staticDir:
         - data
         - static
