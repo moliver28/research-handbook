@@ -27,9 +27,9 @@ For all questions or requests related to a specific Partner and/or Customer, inc
 
 For matters opened in GitLab Issues that require the Commercial Legal Team's attention, follow the GitLab Commercial Legal [labeling instructions](/handbook/legal/customer-negotiations/#commercial-legal-issues) to notify the team.
 
-### Corporate
+### Corporate & Compliance
 
-The [Corporate Team](/handbook/legal/publiccompanyresources/) supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab's SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab's direct and indirect wholly owned international and domestic subsidiaries.
+The [Corporate & Compliance Team](/handbook/legal/publiccompanyresources/) supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab's SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab's direct and indirect wholly owned international and domestic subsidiaries.
 
 ### Corporate Development
 
