@@ -112,7 +112,7 @@ Breaking changes should only be enabled during the breaking change windows. This
 Product Managers will be responsible for making sure that as part of the deprecations and removals process, where applicable the deprecation/removal is aligned with a publicly communicated Breaking Change Window.
 
 In June of 2023, we changed the process so that all deprecations and removals are displayed on [the Deprecations page](https://docs.gitlab.com/ee/update/deprecations.html).
-The announcements are grouped by the milestone they'll be removed. The deprecation announcement date is listed below each individual item.
+The announcements are grouped by the milestone they will be removed in. The deprecation announcement date is listed below each individual item.
 
 #### Syntax deprecation process
 
