@@ -37,7 +37,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 
 1. Click on any of the running pipeline statuses in the leftmost column to view that pipeline's graph. The graph is a visual representation of the order of stages in a pipeline, as well as the statuses of the jobs in a stage. By default, all jobs in a stage must succeed in order for the next stage to run.
 
-    > There are exceptions to the rule that all jobs in a stage must succeed for the next stage to run. You can read more about the exceptions [here](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/).
+    > There are exceptions to the rule that all jobs in a stage must succeed for the next stage to run. You can read more about the exceptions [here](https://docs.gitlab.com/ee/ci/yaml/needs.html).
 
 1. Review the names of the pipeline's stages. The name of a stage can be whatever you want it to be. The order of the stages will be determined by the `.gitlab-ci.yml` file.
 
