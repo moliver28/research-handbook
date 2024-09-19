@@ -149,7 +149,7 @@ Team members who have been continuously employed by GitLab for at least 3 months
 
 - Team members must submit their leave request through Time Off by Deel by choosing the `Parental Leave` option.
 - Team members must submit a [GPPL Declaration](https://file.go.gov.sg/gppl1form.pdf) to the Absence Management team at `leaves@gitlab.com` as soon as possible.
-- GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://www.profamilyleave.msf.gov.sg/).
+- GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://www.profamilyleave.msf.gov.sg/schemes/maternity-leave).
 
 #### **Annual Leave**
 
