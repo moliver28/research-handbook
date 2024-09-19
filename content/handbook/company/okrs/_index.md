@@ -8,7 +8,7 @@ description: "OKRs stands for Objective-Key Results and are our quarterly object
 Our OKR process and timelines are public and listed on the pages below.
 
 - [FY25-Q3 Active](/handbook/company/okrs/fy25-q3/)
-- [FY25-Q3 Future](/handbook/company/okrs/fy25-q4/)
+- [FY25-Q4 Future](/handbook/company/okrs/fy25-q4/)
 - [Previous OKRs](#okr-archive)
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
