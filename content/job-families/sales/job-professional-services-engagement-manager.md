@@ -294,7 +294,7 @@ The Senior Manager, Professional Services Engagement Management is a [grade 9](/
 
 ### Director, Engagement Management
 
-The Director, Professional Services Engagement Management, reports to the Director, Professional Services Practice Management
+The Director, Professional Services Engagement Management, reports to the VP, Professional Services
 
 The Director, Professional Services Engagement Management is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#customer-success).
 
@@ -321,14 +321,59 @@ The Director, Professional Services Engagement Management is a [grade 10](/handb
 - Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners.
 - Ability to use GitLab
 
+### Sr. Director, Engagement Management
+
+A Senior Director of Professional Services is a high-level executive role responsible for overseeing the positioning, scoping and selling of consulting and education services to clients and ensuring the satisfaction and success of those clients. This position typically requires a blend of leadership, strategic planning, and client management skills, along with deep industry knowledge. Here’s an overview of job responsibilities and requirements you might find in a job posting for this role:
+
+The Sr. Director, Professional Services Engagement Management, reports to the VP, Professional Services
+
+The Sr. Director, Professional Services Engagement Management is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#customer-success).
+
+#### Responsibilities
+
+- Lead and mentor a team of Engagement Managers and Managers of EMs focused on Professional Services consultative selling.
+- Foster a culture of high performance, continuous improvement and customer centricity 
+- Set clear goals and objectives for the professional services team and ensure alignment with overall company strategy.
+- Oversee the Professional Services sales motion and ensure positive customer outcomes while meeting contractual obligations. 
+- Create and maintain relationships with Customer executives acting as a senior point of contact for escalations and critical issues. 
+- Ensure client satisfaction and drive client success leading to renewals, upsells and positive referrals. 
+- Develop and Execute the Global Services strategy, including service offerings, delivery models and go-to-market plans.
+- Collaborate with sales, product, and customer success teams to align on client needs and ensure cohesive service delivery.
+- Identify new service opportunities and drive innovation in service delivery to enhance client value and competitive positioning.
+- Manage under the professional services P&L, including budgeting, forecasting, and financial performance tracking.
+- Ensure services are positioned and sold efficiently and cost-effectively, standardizing on processes, maximizing profitability and mitigating risk.
+- Develop pricing strategies for services that reflect value delivered and market conditions.
+- Establish and enforce best practices, standards, and methodologies for service selling.
+- Continuously assess and improve service delivery processes to increase efficiency, quality, and customer satisfaction.
+- Implement metrics and KPIs to measure and improve the effectiveness of the professional services engagement management team.
+- Work closely with product development teams to ensure services are aligned with product capabilities and roadmap.
+
+#### Requirements
+
+- Bachelor’s degree in Business, Engineering, Computer Science, or a related field; a Master’s degree or MBA is often preferred.
+- Proven track record of successfully managing large-scale service selling motion and teams, preferably in a technology or software company.
+- Strategic thinking and business acumen, with the ability to develop and execute a services strategy that aligns with company goals.
+- Financial acumen, including experience managing budgets, forecasts, and P&L.
+- Contractual acumen, including negotiation and 
+- Strong analytical and problem-solving skills, with the ability to make data-driven decisions.
+- Excellent communication and interpersonal skills, with the ability to work effectively with cross-functional teams and senior executives.Demonstrated progressive experience managing, leading and/or delivering professional services
+- Proven experience building and leading a large team with global responsibility, fast-paced, growing company
+- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
+- Experience managing services sales, sales managers and partner sales executives. 
+- Demonstrated experience building and scaling a professional services business with accountability for financial targets
+- Experienced with software development lifecycle (i.e., SDLC), agile, DevOps, software development tools, technologies (e.g., Docker, Kubernetes), and/or cloud platforms (AWS, GCP, Azure)
+- Ability to be an evangelist for GitLab customers and serve according to GitLab’s values
+- Ability to use GitLab
+- Ability to travel 20% of the time, if needed, and comply with the company’s travel policy
+
 ## Performance Indicators
 
-- [Bookings per agreed plan (75%)](/handbook/sales/#closed-deal---won)
-- [Revenue per agreed plan (25%)](/handbook/sales/#pcv)
+- [Services Bookings per agreed plan (50%)](/handbook/sales/#closed-deal---won)
+- [Services Revenue per agreed plan (50%)](/handbook/sales/#pcv)
 
 ## Career Ladder
 
-The Professional Services Engagement Manager Job Family would move into the [Professional Services Engineer](/job-families/sales/professional-services-engineer/) Job Family or the [Professional Services Practice Manager](/job-families/sales/professional-services-practice-manager/) Job Family.
+The Professional Services Engagement Manager Job Family would move into the [Manager of Professional Services](/job-families/sales/director-of-professional-services/) Job Family.
 
 ## Hiring Process
 
