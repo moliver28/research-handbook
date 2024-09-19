@@ -96,22 +96,24 @@ Our individual question scores mirror the scale used for the overall SUS score. 
 
 Even though SUS scores are on a 100-point scale, they are not percentages and should not be treated as such. [Jeff Sauro recommends](https://measuringu.com/interpret-sus-score/) communicating SUS scores as percentiles. We include a percentile and letter grade using the proprietary scale Sauro developed whenever we report a SUS score.
 
-Company targets for our SUS score are: 73 by Q4-FY24, 77 by Q4-FY25, and 82 by Q4-FY26.
+![Semantic description of image](/content/handbook/product/SUSVisual.png)*SUS score mapped to percentile rank*
 
-| Grade | SUS | Percentile | Adjective |
-| ----- | ----------- | ------- | ---------------- |
-| A+    | 84.1-100    | 96-100  | Best Imaginable  |
-| A     | 80.8-84.0   | 90-95   | Excellent        |
-| A-    | 78.9-80.7   | 85-89   |                  |
-| B+    | 77.2-78.8   | 80-84   |                  |
-| B     | 74.1 – 77.1 | 70 – 79 |                  |
-| B-    | 72.6 – 74.0 | 65 – 69 |                  |
-| C+    | 71.1 – 72.5 | 60 – 64 | Good             |
-| C     | 65.0 – 71.0 | 41 – 59 |                  |
-| C-    | 62.7 – 64.9 | 35 – 40 |                  |
-| D     | 51.7 – 62.6 | 15 – 34 | OK               |
-| F     | 25.1 – 51.6 | 2– 14   | Poor             |
-| F     | 0-25        | 0-1.9   | Worst Imaginable |
+| SUS | Percentile | Adjective |
+| ----------- | ------- | ---------------- |
+| 84.1-100    | 96-100  | Best Imaginable  |
+| 80.8-84.0   | 90-95   | Excellent        |
+| 78.9-80.7   | 85-89   |                  |
+| 77.2-78.8   | 80-84   |                  |
+| 74.1 – 77.1 | 70 – 79 |                  |
+| 72.6 – 74.0 | 65 – 69 |                  |
+| 71.1 – 72.5 | 60 – 64 | Good             |
+| 65.0 – 71.0 | 41 – 59 |                  |
+| 62.7 – 64.9 | 35 – 40 |                  |
+| 51.7 – 62.6 | 15 – 34 | OK               |
+| 25.1 – 51.6 | 2– 14   | Poor             |
+| 0-25        | 0-1.9   | Worst Imaginable |
+
+See our company's target SUS score in the [UX Performance Indicators page](/content/handbook/product/ux/performance-indicators/).
 
 ## Communicating out the themes
 
