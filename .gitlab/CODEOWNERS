@@ -118,7 +118,7 @@
 
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/development/ @timzallmann @jeromezng @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 /content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
@@ -175,7 +175,7 @@
 /content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
 /content/handbook/engineering/expansion-development.md @jeromezng @pcalder
 /content/handbook/engineering/frontend/ @timzallmann
-/content/handbook/engineering/workflow/ @timzallmann @jeromezng @cdu1 @sgoldstein @dsatcher @m_gill @pcalder
+/content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @pcalder
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
