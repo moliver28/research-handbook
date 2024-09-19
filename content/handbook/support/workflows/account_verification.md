@@ -107,7 +107,7 @@ If an invoice can not be provided, suggest [sign in with legacy email/password](
 
 ### Step 2: Sending Challenges
 
-If you need a basis for a response where you send the challenges, or in a 2FA ticket, if the user has not answered the challenges, use the [`Support::SaaS::Gitlab.com::2FA::2FA Challenges` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Challenges.md?ref_type=heads). 
+If you need a basis for a response where you send the challenges, or in a 2FA ticket, if the user has not answered the challenges, use the [`Support::SaaS::Gitlab.com::2FA::2FA Challenges` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Challenges.md?ref_type=heads).
 
 ### Step 3: Evaluating Challenge Answers
 
@@ -133,7 +133,7 @@ Note: Due to this [bug](https://gitlab.com/gitlab-org/gitlab/-/issues/337939) so
 
 #### Additional challenges
 
-If the user is a sole owner requesting a 2FA reset for themselves, or the user fails the initial challenges, use the [`Support::SaaS::Gitlab.com::2FA::Additional 2FA Challenges` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/Additional%202FA%20Challenges.md?ref_type=heads) macro to send additional challenges, which are highlighted on the [Risk Factors for Account Ownership Verification table](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification).
+If the user is a sole owner requesting a 2FA reset for themselves, or the user fails the initial challenges, use the [`Support::SaaS::Gitlab.com::2FA::Additional 2FA Challenges` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/Additional%202FA%20Challenges.md?ref_type=heads) to send additional challenges, which are highlighted on the [Risk Factors for Account Ownership Verification table](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification).
 
 #### Backup methods for authenticating an owner
 
