@@ -489,3 +489,7 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 - [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
 - [Continuous Vulnerability Scanning (background processing on the gitlab.com rails platform)](https://log.gprd.gitlab.net/app/r/s/OBQOB)
+
+## Runbooks
+
+See our our [Composition Analysis Runbooks](runbooks/) page.
