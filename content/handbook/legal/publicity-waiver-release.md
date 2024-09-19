@@ -26,17 +26,17 @@ If a Release is required, the circumstances dictate which Release templates shou
 ```mermaid
 graph TD
   A{Are the only individuals<br> featured in the materials<br> GitLab team members?}-->|Yes|B{Will the materials<br> be used for paid<br> outbound advertising?}
-  A -->|No| C(Use the Material- and Purpose-Specific Template)
+  A -->|No| C(Use the Publicity Waiver and Release Template)
   B -->|No| D(Use the General Team Member Template)
   B -->|Yes| C
 
-click C "/handbook/legal/publicity-waiver-release/#material-and-purpose-specific-publicity-waiver-and-release"
+click C "/handbook/legal/publicity-waiver-release/#publicity-waiver-and-release"
 click D "/handbook/legal/publicity-waiver-release/#team-member-general-publicity-waiver-and-release"
 ```
 
 ## Team Member General Publicity Waiver and Release
 
-Use the Team Member General Publicity Waiver and Release template when the individuals featured in the materials are GitLab team members, and the materials will **not** be used for paid outbound advertising. For materials featuring individuals other than team members, and materials that will be used in paid outbound advertising, use the [Material- and Purpose-specific Publicity Waiver and Release](./#material--and-purpose-specific-publicity-waiver-and-release) instead.
+Use the Team Member General Publicity Waiver and Release template when the individuals featured in the materials are GitLab team members, and the materials will **not** be used for paid outbound advertising. For materials featuring individuals other than team members, and materials that will be used in paid outbound advertising, use the [Publicity Waiver and Release](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d) instead.
 
 Each team member need only sign the Team Member General Publicity Waiver and Release once.
 
@@ -48,14 +48,14 @@ Each team member need only sign the Team Member General Publicity Waiver and Rel
 1. Once all team members featured in the materials have completed the form accepting the Release, verify this in the [Tracker](https://docs.google.com/spreadsheets/d/1fOENNDeCoAzXSdHIcD7GGJnwpUYL1qlqzwB1WbHrdlg/edit#gid=249560389).
 {{% /details %}}
 
-## Material and Purpose Specific Publicity Waiver and Release
+## Publicity Waiver and Release
 
-Use the Material- and Purpose-specific Publicity Waiver and Release template for materials featuring individuals who are no GitLab team members, or for materials featuring individuals that will be used for paid outbound advertising. For materials that will not be used for paid outbound advertising and feature only GitLab team members, use the [Team Member General Publicity Waiver and Release](./#team-member-general-publicity-waiver-and-release) instead.
+Use the Publicity Waiver and Release template for materials featuring individuals who are not GitLab team members, or for materials featuring individuals that will be used for paid outbound advertising. For materials that will not be used for paid outbound advertising and feature only GitLab team members, use the [Team Member General Publicity Waiver and Release](https://docs.google.com/forms/d/1QACcbwfmEZzGSvBQ-UzPtQjsgduSxy5B5cV-C0DUmWs/edit) instead.
 
-{{% details summary="Expand for instructions for DRIs using the Material- and Purpose-specific Publicity Waiver and Release" %}}
+{{% details summary="Expand for instructions for DRIs using the Publicity Waiver and Release" %}}
 
 1. If you don't have DocuSign access, open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to get it.
-1. Once you has DocuSign access, access the [Material- and Purpose-specific Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
+1. Once you has DocuSign access, access the [Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:
    - Under `DRI`, enter your name and GitLab email address;
