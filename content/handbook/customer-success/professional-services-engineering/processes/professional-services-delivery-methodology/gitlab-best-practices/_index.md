@@ -191,7 +191,8 @@ In GitLab, [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/index.html) p
 
 Continuous integration helps developers deploy faster and get feedback sooner. Ultimately, the best continuous integration system is the one you actually use. Find [the right CI](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/) for your needs and then incorporate these best practices to make the most of your new CI workflow.
 
-## 14. CI best practice: Keep it safe: CI/CD is a shift left, so it offers a good opportunity to integrate security earlier in the process
+## 14. CI best practice
+Keep it safe: CI/CD is a shift left, so it offers a good opportunity to integrate security earlier in the process
 
 ## 15. Integrations with third-party
 
@@ -263,7 +264,8 @@ You can use the report to:
 
 The Compliance Report can be accessed in the top-level group by going to Security & Compliance \> Compliance Report.
 
-## 21. Implementation of Correct User Permissions and Roles will have below Positive effects over the entire DevOps lifecycle in GitLab
+## 21. Implementation of Correct User Permissions and Roles
+This will have below Positive effects over the entire DevOps lifecycle in GitLab
 
 [User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html)
 
