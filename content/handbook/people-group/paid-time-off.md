@@ -214,10 +214,6 @@ We do understand that during extended periods of time off team members may still
 
 For managers it is ok to reach out to a team member every 3-4 weeks to just to say hello. These conversations should remain social and avoid work related topics.
 
-## Unpaid Leave of Absence
-
-Details relating to Unpaid Personal Leave can be found on the [Leave of Absence page](/handbook/people-policies/leave-of-absence/).
-
 ## Time Off by Deel
 
 All team members and Managers, including those employed under a PEO, are expected to log all time away requests into Time Off by Deel (Vacation, Public Holiday, Friends & Family, Sick Time, etc.)
