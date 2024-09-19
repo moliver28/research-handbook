@@ -19,6 +19,10 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 
 ## Working the Queue
 
+### Namespace with Ultimate license for triaging
+
+Please ensure that you use [this namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/bug-reproduction) to create projects and groups required for testing vulnerabilities. This namespace is dedicated to reproduction of HackerOne issues.
+
 ### HackerOne Triage Team
 
 GitLab's bug bounty program is managed by HackerOne. The HackerOne triage team are the first responders, and will work with researchers to validate reports before assigning to `GitLab Team`.
