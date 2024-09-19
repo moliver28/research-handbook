@@ -159,6 +159,25 @@ Please add your thoughts and feedback on {{issue}}. Don't forget to upvote featu
 
 Don't make any forward looking statements around milestone targets that the duplicate issue may be assigned.
 
+You may also need to close issues because they are low interest, irrelevant or
+misaligned with the product direction. You can use the following message:
+
+```md
+## Issue review update
+
+After consideration, we have decided not to prioritize this and as such, will close this issue in an effort to reduce the noise in our product backlog. Here are some common reasons why we might make such a decision:
+
+1. **Low interest feature**: We have not seen compelling evidence that customers are interested in prioritizing this problem.
+2. **Irrelevant feature**: The request is so old that the suggestion may no longer be relevant.
+3. **Misaligned feature**: The product direction does not align with this request.
+
+We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+/close
+
+/label ~"won't do"
+```
+
 ##### When you should NOT close an issue or epic
 
 1. **Low priority:** sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
