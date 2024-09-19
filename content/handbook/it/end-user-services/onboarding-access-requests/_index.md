@@ -247,6 +247,8 @@ It will make the RMA process much easier in case you need it.
 
 If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year at the time of offboarding, they can opt to keep their laptop at no cost. Subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.  If GitLab needs to create an image of the team member's computer for preservation purposes, that may be accomplished via sending the computer to GitLab Corporate Security via prepaid package or remotely via [Backblaze](/handbook/security/corporate/systems/backblaze/).
 
+Note that the option to purchase a laptop or to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of GitLab’s Code of Business Conduct & Ethics, or other legal or security related inquiries.
+
 If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst can approve, and send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
 
 Retained laptops must be [wiped](#laptop-wipe).
