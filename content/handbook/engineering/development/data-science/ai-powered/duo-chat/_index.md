@@ -1,13 +1,9 @@
 ---
 title: Duo Chat Group
-description: "The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while supporting other product groups and the wider community in integrating more functionality."
+description: "We are dedicated to enhancing DevSecOps productivity by building an AI natural language interface to GitLab's Platform."
 ---
 
-## Vision
-
-The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while supporting other product groups and the wider community in integrating more functionality.
-
-### 🚀 Team Members
+## 🚀 Team Members
 
 **Engineering Manager & Engineers**
 
@@ -16,6 +12,14 @@ The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while 
 **Product, Design & Quality**
 
 {{% stable-counterparts manager-role="Engineering Manager(.*)Duo Chat" role="Duo Chat" %}}
+
+## Vision
+
+The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while supporting other product groups and the wider community in integrating more functionality. For more information on GitLab's Duo Chat as a product category, please see our [Product Category Direction](https://about.gitlab.com/direction/ai-powered/duo_chat/) page.
+
+### Technical Strategy
+
+As our team is developing an LLM-driven Chat application to enhance interactions within the GitLab DevSecOps platform, our technical strategy is focused on estabilishing the key engineering aspects that will ensure its reliability, scalability, and effectiveness. Please see our [Technical Strategy](technical-strategy.html) page for full details. 
 
 ## 📚 Internal Processes
 
