@@ -170,7 +170,7 @@
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
 /content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
-/content/handbook/engineering/development/sec/secure/composition-analysis.md @thiagocsf @gonzoyumo @fcatteau
+/content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
 /content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
 /content/handbook/engineering/expansion-development.md @jeromezng @pcalder
