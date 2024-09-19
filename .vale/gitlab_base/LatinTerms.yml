@@ -1,7 +1,8 @@
 ---
-# Warning: handbook.LatinTerms
+# Warning: gitlab_base.LatinTerms
 #
 # Checks for use of Latin terms.
+# Uses https://github.com/errata-ai/Google/blob/master/Google/Latin.yml for ideas.
 #
 # For a list of all options, see https://vale.sh/docs/topics/styles/
 extends: substitution
