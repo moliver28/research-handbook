@@ -59,7 +59,7 @@ If you would like to be added to a function's Key Review, ask your functional E-
 
 Each E-Group member will share its Board memo on the Board material submission date. This is the key collateral used in these meetings. 
 
-E-Group members can **optionally** choose to include additional material. Some may chooose to use a version of a [company-wide template](https://docs.google.com/presentation/d/1esfS19XLcVDQnEd8iBZJM_FXKJXE2NR8aRNqBYj8hCc/edit#slide=id.g278553b265c_0_3) that we have preivously used in these meetings. as much as possible to reduce duplicative efforts and streamline Key Reviews. Whether leveraging memos or other mediums, materials should capture:
+E-Group members can **optionally** choose to include additional material. Some may chooose to use a version of a [company-wide template](https://docs.google.com/presentation/d/1esfS19XLcVDQnEd8iBZJM_FXKJXE2NR8aRNqBYj8hCc/edit#slide=id.g278553b265c_0_3) that we have previously used in these meetings. as much as possible to reduce duplicative efforts and streamline Key Reviews. Whether leveraging memos or other mediums, materials should capture:
 
 1. **Functional Performance:** quarterly performance and insights from the quarter. Topics include:
      1. Comparisons against Plan, Forecast, benchmarks, or prior quarter / year
