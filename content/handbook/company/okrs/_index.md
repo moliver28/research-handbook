@@ -146,7 +146,7 @@ You should decide your scoring methodology ahead of time. You might score an OKR
 
 OKRs do not replace or supersede core team member responsibilities or performance indicators. OKRs are additive and are essentially a high signal request from your leadership team to prioritize the work. They typically are used to help galvanize the entire company or a set of teams to rapidly move in one direction together. You should aim to complete them unless you have higher priority work that is surfaced and agreed to by leadership.  When surfacing tradeoffs, team members should not factor in how an unmet OKR may impact your executive leadership bonus in their prioritization. They should instead focus on GitLab priorities. If your executive leader still feels that the OKR is more important, they will ask you to *disagree and commit*.
 
-## Who sets OKRs?
+## Company and funtion-level OKR expectations
 
 Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results. At a minimum, each Function should inherit the company-level Objectives for their function-level Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
 
@@ -166,24 +166,23 @@ Since OKRs create progress for our [Yearlies](/handbook/company/yearlies/), by a
 
 ## OKR Process at GitLab
 
-The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to the CFO schedules the [Key Review Meetings](/handbook/company/key-review/) that are forums for review.
+The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to the CEO assists in scheduling designated time during E-Group Weekly Meetings. 
 
 ### CEO initiates new quarter's OKRs
 
-**Three Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
+**About five Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
 
-The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/company/e-group-weekly/) which is **two weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO. **Unless there is a strong reason to adjust, CEO OKRs will directly reflect Yearly goals.**
-
-**Two Mondays** before the start of the quarter, the CoS to the CEO will share the company OKRs draft with E-Group. If there are no concerns voiced, it will then be shared with all of GitLab in the `#okrs` channel.
+The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/company/e-group-weekly/) which is **four weeks before** the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO. **Unless there is a strong reason to adjust, CEO OKRs will directly reflect Yearly goals.** If there are no concerns voiced, it will then be shared with all of GitLab in the `#okrs` channel.
 
 Company OKRs may continue to be refined in the lead up to the coming quarter.
 
 ### Executives propose OKRs for their functions
 
 Function objectives should cascade from one of the Company OKRs in GitLab.
-Functions can plan and start working on their OKRs ahead of the alignment meeting.
 
-**3-4 weeks after** the start of the fiscal quarter, about a week after Sales Leadership Quarterly Business Reviews, Executives propose OKRs for their functions in the [Key Review Meeting](/handbook/company/key-review/). After this meeting, as OKRS are finalized, functional OKRs should be posted in GitLab. This should be noted through a Slack message in the #okrs channel. The CEO and Chief of Staff to the CEO should be @ mentioned. The CEO will confirm sign-off on objectives by commenting directly on them. While the CEO is the DRI, this responsibility may be delegated to the CoS to the CEO. The CoS to the CEO will also post company OKRs in GitLab.
+**2-3 weeks before** the start of the fiscal quarter, during a designated block of time in an [E-Group Weekly](/company/e-group-weekly/), Executives propose OKRs for their functions. At a minimum, they should have 2-3 function KRs that cascade from each company-level objective. They may choose to have more OKRs for function management purposes and have discretion to what degree other goals are highlighted in this forum.
+
+After this meeting, as OKRS are finalized, functional OKRs should be posted in GitLab. This should be noted through a Slack message in the #okrs channel. The CEO and Chief of Staff to the CEO should be @ mentioned. The CEO will confirm sign-off on objectives by commenting directly on them. While the CEO is the DRI, this responsibility may be delegated to the CoS to the CEO. The CoS to the CEO will also post company OKRs in GitLab.
 
 The exact timeline for the upcoming quarter will be [available in the handbook](/handbook/company/okrs/#most-recent-okrs).
 
@@ -199,43 +198,42 @@ Executives shift their focus to finalizing OKRs within their team.
 
 This is also the opportunity to, if desired, create team OKRs in GitLab, and add them to the relevant CEO and executive OKR.
 
-Once a quarter, the relevant DRI for Company KRs are expected to provide updates ahead of [E-group quarterly touchpoint meetings](../offsite/_index.md#quarterly-touchpoint-meetings).
-They may also be requested to provide updates on Company KRs async, typically once a month.
+In advance of designated E-Group Weeklies, the relevant DRI for Company KRs are expected to provide updates.
 
 ### Dependency Commitments
 
-Top level dependencies should be identified in the Key Review Meeting, but it is likely that additional dependencies will be identified as OKRs cascade. We want to avoid situations where big asks are coming weeks into the quarter, or teams are being committed to doing work without first having input. This makes it difficult for teams to manage their own priorities and succeed in their own initiatives.
+Top level dependencies should be identified in the draft review session that happens in the E-Group Weekly. Additional dependencies may be identified as OKRs cascade. We want to avoid situations where big asks are coming weeks into the quarter, or teams are being committed to doing work without first having input. This makes it difficult for teams to manage their own priorities and succeed in their own initiatives.
 
 It is each team's responsibility to proactively identify dependencies in which the team cannot reach success without meaningful engagement from another team. In these instances, it is important that all teams required to make a significant contribution sign off on the KR and agree on the level of support to be provided. A [boring solution](/handbook/values/#boring-solutions) is to create a sister KR for other departments that will need to be actively involved and link the KRs using the dependency function. KRs with dependencies should not be considered final until other teams have confirmed support, but other teams should also respect department KRs as the top priorities for the overall business and do what they can to support them.
 
 ### Documenting How to Achieve
 
-[Key Review Meetings](handbook/company/key-review/) are the key forum to introducing new function OKRs and discussing progress and learnings since the previous quarter.
+A dedicated session during an [E-Group Weekly](/company/e-group-weekly/) is the key the forum for introducing new function OKRs. During the draft review meeting, each function should share:
 
-Updates on OKRs should include:
-
-1. Attainment against OKRs from the previous quarter, including:
-     1. Link to OKRs in GitLab
-     1. [DRI](/handbook/people-group/directly-responsible-individuals/)
-     1. Completion [score](#scoring-okrs)
-     1. Update summary
-     1. Learnings
-     1. Remaining dependencies to achievement
-     1. Next steps, if incomplete
-
-1. Plans for OKRs for the current quarter, including:
-     1. Link to OKRs in GitLab
-     1. [DRI](/handbook/people-group/directly-responsible-individuals/)
-     1. Score (work may have already started in quarter)
-     1. Health status (at risk, needs attention, on track)
-     1. Status
-     1. Risks and dependencies
+1. KRs that related to company-OKRs, including:
+     1. CEO OKR that cascade from
+     1. Any risks or dependenciees
+1.  (Optional) Functional level-OKRs that don't directly cascade from comapany OKRs **if** they require cross-functional support to achieve or important for cross-functional awareness.     
 
 ### The quarter begins
 
 The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The Office of the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
 
 The CoS to the CEO shares the handbook update MR in the #okr channel in Slack and notifies E-Group in an E-Group Weekly.
+
+### Reviewing progress within and after the quarter
+
+We will review company-level OKR progress once a month in an E-Group Weekly. Updates should include:
+1. KR 
+1. Link to OKRs in GitLab
+1. [DRI](/handbook/people-group/directly-responsible-individuals/)
+1. Completion [score](#scoring-okrs)
+1. Update summary
+1. Learnings
+1. Remaining dependencies to achievement
+1. Next steps, if incomplete
+
+This is also a time to discuss function [KPIs](/handbook/company/kpis/). 
 
 ### Making changes within quarter
 
@@ -255,7 +253,7 @@ In the event that a functional objective that is captured in GitLab needs to be 
 
 Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
-Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](key-review/#automated-kpi-slides) and [Quarterly Touchpoint Meeting](/handbook/company/offsite/#quarterly-touchpoint-meetings).
+Functional leaders are responsible for updating their objectives and KRs in GitLab before review meetings.
 
 ## How to Use GitLab for OKRs
 
@@ -409,9 +407,9 @@ Watch this video for a demo on how to find the OKRs you're looking for:
 
 ## Maintaining the status of OKRs
 
-Teams should update the score for their key results in GitLab regularly. KRs need to be updated a week before the [Key Review](key-review/), and a week before the [Quarterly Touch Point Meeting](/handbook/company/offsite/#quarterly-touchpoint-meetings). If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
+Teams should update the score for their key results in GitLab regularly. Company-level KRs should to be updated in the first week of a new month. They will be reviewed in the following E-Group Weekly meeting. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
 
-**If a function level OKR is meaningfully off track, it is the Exec Sponsor and DRI's joint obligation to proactively flag the issue. This may mean raising it outside of a Key Review or Monthly Touch Point Meeting.
+**If a function level OKR is meaningfully off track, it is the Exec Sponsor and DRI's joint obligation to proactively flag the issue. This may mean raising it outside of an E-Group Weekly.
 
 ### Health Status
 
