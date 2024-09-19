@@ -73,8 +73,9 @@ Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine en
   * Main channel: [`#g_govern_threat_insights`](https://gitlab.slack.com/archives/CV09DAXEW/p1663788936706469)
   * Stand-up updates: [`#g_govern_threat-insights_standup`](https://gitlab.slack.com/archives/C01U7T6DPNY)
   * Engineering - All: [`#g_govern_threat_insights_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
-  * Engineering - Team Navy: [`#g_govern_threat_insights_navy`](https://gitlab.slack.com/archives/C042WT4PJN9)
-  * Engineering - Team Tangerine: [`#g_govern_threat_insights_tangerine`](https://gitlab.slack.com/archives/C043G312PHS)
+  * Engineering - Team AI: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
+  * Engineering - Team Navy: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
+  * Engineering - Team Tangerine: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
 * Slack aliases: `@govern_threat_insights_be`, `@govern_threat_insights_fe`
 * Google groups: eng-dev-secure-threat-insights-members@gitlab.com
 * [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
