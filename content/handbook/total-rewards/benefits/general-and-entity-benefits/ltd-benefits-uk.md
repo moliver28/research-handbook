@@ -402,7 +402,7 @@ Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 w
 To apply for Paternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-forms) if applying for Shared Parental Leave pay.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Adoption Leave Payment
