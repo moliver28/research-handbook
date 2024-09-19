@@ -492,4 +492,4 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 ## Runbooks
 
-See our our [Composition Analysis Runbooks](runbooks/) page.
+See our [Composition Analysis Runbooks](runbooks/) page.
