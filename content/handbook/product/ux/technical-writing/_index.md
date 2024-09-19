@@ -498,7 +498,7 @@ question to the list of random Wednesday questions! To do so:
 
 ## Community contribution opportunities
 
-We welcome [improvements to content](https://about.gitlab.com/community/contribute/documentation/)
+We welcome [improvements to content](https://docs.gitlab.com/ee/development/contributing/)
 as well as to the development of our
 documentation website, at https://docs.gitlab.com.
 

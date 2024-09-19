@@ -198,7 +198,7 @@ We don't post:
 
 ### Never unlisted
 
-We never post [unlisted](https://support.google.com/youtube/thread/10480825?hl=en) videos on any channel: it is too insecure for sensitive materials and not findable enough for public materials.
+We never post [unlisted](https://support.google.com/youtube/answer/157177#zippy=%2Cunlisted-videos) videos on any channel: it is too insecure for sensitive materials and not findable enough for public materials.
 Sometimes, some videos are still posted as unlisted, they can be spotted with this [link](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos/upload?filter=%5B%7B%22name%22%3A%22VISIBILITY%22%2C%22value%22%3A%5B%22UNLISTED%22%5D%7D%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D) (while using the `GitLab Unfiltered` account).
 You can change the visibility of videos by clicking on the `Details` buttons when you hover a video in the list linked above.
 

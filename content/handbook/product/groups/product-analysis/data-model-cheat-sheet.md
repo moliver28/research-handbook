@@ -24,7 +24,7 @@ These categories are grouped by data source and subject area.
 
 ### Service Ping
 
-[Service Ping](https://docs.gitlab.com/ee/development/service_ping/) is GitLab's mechanism to collect data by generating a JSON payload of usage data every week to be sent to GitLab. It provides aggregated data to our Product, Customer Success, Support, and Sales teams to understand how GitLab is used. Service Ping is our only data source for understanding Self-Managed product behavior. Service Ping methodology allows us to protect our Self-Managed users' privacy by aggregating metrics at the installation level.
+[Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) is GitLab's mechanism to collect data by generating a JSON payload of usage data every week to be sent to GitLab. It provides aggregated data to our Product, Customer Success, Support, and Sales teams to understand how GitLab is used. Service Ping is our only data source for understanding Self-Managed product behavior. Service Ping methodology allows us to protect our Self-Managed users' privacy by aggregating metrics at the installation level.
 
 #### FAQs
 
@@ -40,7 +40,7 @@ These categories are grouped by data source and subject area.
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Service Ping Overview](https://docs.gitlab.com/ee/development/service_ping/)
+- [Service Ping Overview](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 
 - [Service Ping metrics dictionary](https://metrics.gitlab.com/)
 

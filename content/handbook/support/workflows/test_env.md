@@ -392,7 +392,7 @@ This guide involves configuring and setting up VMWare and Docker locally and ass
 
 #### Install VMWare (paid)
 
-1. Navigate to [VMWare store](https://store.vmware.com), and then purchase
+1. Navigate to [VMWare store](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion), and then purchase
    **VMWare Fusion 10 (for macOS)** (or current version).
 1. Download **VMWare Fusion 10 (for macOS)** using the provided link.
 1. Install VMWare Fusion 10.

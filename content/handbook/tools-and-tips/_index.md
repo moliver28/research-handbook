@@ -371,7 +371,7 @@ Team member dotfiles projects:
 
 Note: you have to pay for these items yourself.
 
-- [Quiet comfort 35 Bose over ear noise canceling headphones](https://www.bose.com/p/headphones/bose-quietcomfort-45-headphones/QC45-HEADPHONEARN.html) (so it doesn't touch your dried out eyes)
+- [Quiet comfort Bose over ear noise canceling headphones](https://www.bose.com/p/noise-cancelling-headphones/quietcomfort-acoustic-noise-cancelling-headphones/QC-HEADPHONEARN.html) (so it doesn't touch your dried out eyes)
 - Custom molded ear plugs (can be up to $200 hearing aid store but are usable in many situations, there are also [DYI kits](https://www.amazon.com/Radians-CEP001-Custom-Molded-Earplugs/dp/B003A28P4I) but Sid has not tried that)
 - Melatonin (possible unsafe during pregnancy and breast-feeding)
 - Sleeping pills (over the counter is fine)

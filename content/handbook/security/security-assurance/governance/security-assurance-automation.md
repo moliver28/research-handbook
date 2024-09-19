@@ -148,7 +148,7 @@ The general philosophy is to solve new requests via scripts, which live in the [
 
 Templates for each of these will be found under the [SAA Project Templates](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/project-templates) subgroup.
 
-The `.gitlab-ci.yml` of module repositories will be used to test and package the code then publish it to Gitlab's [PyPi Registry](https://docs.gitlab.com/ee/user/packages/pypi_repository/). Meanwhile, in the scripts repo, LINT and security scanning will be the focus. Finally, scheduled / periodic executions should be managed in projects created under the SAA [schedules](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/schedules) subgroup. 
+The `.gitlab-ci.yml` of module repositories will be used to test and package the code then publish it to Gitlab's [PyPi Registry](https://docs.gitlab.com/ee/user/packages/pypi_repository/). Meanwhile, in the scripts repo, LINT and security scanning will be the focus. Finally, scheduled / periodic executions should be managed in projects created under the SAA [schedules](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/schedules) subgroup.
 
 Below is a list of libraries we use to assist with standardization:
 
@@ -157,8 +157,8 @@ Below is a list of libraries we use to assist with standardization:
      - Logging: [loguru](https://loguru.readthedocs.io/en/stable/)
      - Test Framework: [pytest](https://docs.pytest.org/en/stable/)
      - Test Coverage: [coverage](https://coverage.readthedocs.io/en/coverage-5.3/)
-        - Test Coverage (Badge): [coverage-badge](https://github.com/nedbat/coveragepy-badge)
-     - LINT & Code Format: [ruff](https://docs.astral.sh/ruff/configuration/#pyprojecttoml-discovery) 
+        - Test Coverage (Badge): [coverage-badge](https://pypi.org/project/coverage-badge/)
+     - LINT & Code Format: [ruff](https://docs.astral.sh/ruff/configuration/#pyprojecttoml-discovery)
      - [Pre-Commit Hooks](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/-/wikis/Pre-Commit-Hooks)
   2) Scripts
      - Dependency Management: [Pipenv](https://pipenv.pypa.io/en/latest/)

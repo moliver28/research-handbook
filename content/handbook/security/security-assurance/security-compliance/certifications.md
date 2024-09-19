@@ -50,13 +50,13 @@ The following security certifications and attestations are currently on our road
 
 Year(s): FY25
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- [SOC 2 Type 2 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification
 - [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements (roll forward)
 
 Year(s): FY26
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- [SOC 2 Type 2 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Re-certification
 - [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements (roll forward)
 
@@ -64,7 +64,7 @@ Under Consideration:
 
 - [Software Bill of Materials (SBOM)](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
 - [Cloud Security Alliance (CSA) Star Level 2](https://cloudsecurityalliance.org/star/)
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) + Privacy Criteria
+- [SOC 2 Type 2 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) + Privacy Criteria
 
 ## Requesting Evidence of Certifications or Attestations
 

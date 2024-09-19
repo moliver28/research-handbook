@@ -589,7 +589,7 @@ To propose a change that impacts pricing or changes a feature's tier (e.g. movin
 
 What is interesting is that GitLab creates more value as you adopt more of it.
 This shouldn't be confused with DevOps maturity.
-DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/analytics/value_stream_analytics.html).
+DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/).
 With the best practices embedded in GitLab, you will mature faster than without it. GitLab enables a 200% faster DevOps lifecycle.
 But DevOps maturity is mostly about organizational change. GitLab the product is just an enabler of it.
 Even if an organization uses everything of GitLab (high DevOps score), they can still have a slow process (slow lifecycle).

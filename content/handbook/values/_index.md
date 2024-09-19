@@ -109,12 +109,12 @@ An example of giving positive feedback is our [thanks chat channel](/handbook/pe
 For managers, it's important to realize that team members react to a negative incident with their managers [six times more strongly](https://hbr.org/2013/03/the-delicate-art-of-giving-fee) than they do to a positive one.
 Keeping that in mind, if an error is so inconsequential that the value gained from providing criticism is low, it might make sense to keep that feedback to yourself.
 In the situations where negative feedback must be given, focus on the purpose for that feedback: to improve the team member's performance going forward.
-Give recognition generously, in the open, and often to [generate more engagement](https://humanresources.report/Resources/Whitepapers/3a779920-0dae-4fd5-95bf-58a1fc0c623d_How%20do%20I%20recognize%20thee,%20let%20me%20count%20the%20ways.PDF) from your team.
+Give recognition generously, in the open, and often to [generate more engagement](https://web.archive.org/web/20240308124752/https://humanresources.report/Resources/Whitepapers/3a779920-0dae-4fd5-95bf-58a1fc0c623d_How%20do%20I%20recognize%20thee,%20let%20me%20count%20the%20ways.PDF) from your team.
 
 ##### Get to know each other
 
 We use a lot of [text-based communication](/handbook/company/culture/all-remote/effective-communication/), and if you know the person behind the text, it will be easier to prevent conflicts.
-So we encourage people to get to know each other on a personal level through [informal communication](/handbook/company/culture/all-remote/informal-communication/), for example, virtual [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats), and during [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute/).
+So we encourage people to get to know each other on a personal level through [informal communication](/handbook/company/culture/all-remote/informal-communication/), for example, virtual [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats), and during [GitLab Contribute](/handbook/company/culture/summit/).
 
 ##### Reach across company departments
 
@@ -1327,7 +1327,7 @@ Whatever behavior you reward will become your values. We reinforce our values by
 1. What we include in our [offer letters](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
 1. Criteria we use to [manage underperformance](/handbook/leadership/underperformance/).
 1. What we do when we [let people go](/handbook/people-group/offboarding/).
-1. Giving value awards during [Contribute](https://about.gitlab.com/events/gitlab-contribute/).
+1. Giving value awards during [Contribute](/handbook/company/culture/summit/).
 1. Providing GitLab team members and [qualified individuals](/handbook/ceo/shadow/#eligibility) transparency into all aspects of the company through the [CEO Shadow Program](/handbook/ceo/shadow/#goal) to enable them to better engage and collaborate cross-functionally.
 1. Linking the takeaways of courses to our values, like we did for [the Crucial Conversations training](/handbook/leadership/crucial-conversations/#how-crucial-conversations-align-with-gitlab-values).
 1. The default settings of the software we use (for example: [Speedy meetings](/handbook/tools-and-tips/#speedy-meetings), [document sharing](/handbook/communication/#link-sharing), agendas, etc.)

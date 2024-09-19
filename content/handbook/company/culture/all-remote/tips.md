@@ -127,7 +127,7 @@ Here are some best practices that may help your all-remote team be successful.
 - Encourage [non-work related communication](informal-communication/) (talking about private life on a team call) for [relationship building](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926).
 - Encourage group video calls for [bonding](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto).
 - Encourage one-on-one [video calls](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto) between people (as part of onboarding).
-- Host [periodic summits](https://about.gitlab.com/events/gitlab-contribute) with the whole company to get to know each other in an informal setting.
+- Host [periodic summits](/handbook/company/culture/summit/) with the whole company to get to know each other in an informal setting.
 
 ### Hiring
 

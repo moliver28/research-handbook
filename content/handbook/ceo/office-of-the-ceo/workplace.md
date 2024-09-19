@@ -23,7 +23,7 @@ This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief
 
 ### All-Remote Flywheel
 
-The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
+The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
 
 Strong all-remote marketing may bolster industry trust in the GitLab brand and product due to the [halo effect](https://www.investopedia.com/terms/h/halo-effect.asp). E.g., If [The Remote Playbook](http://allremote.info/) inspires a firm's remote transition blueprint, said firm is likely to show favoritism to GitLab's product offerings and services.
 

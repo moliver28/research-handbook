@@ -2,7 +2,7 @@
 title: "2019 DevOps Dozen - Best DevOps Solution Provider Executive: Sid Sijbrandij"
 ---
 
-*This is one of two pages submitted for the [2019 DevOps Dozen Awards](https://devopsdozen.com/), supporting Sid Sijbrandij for Best DevOps Solution Provider Executive and supporting GitLab for Best DevOps Solution Provider. We thank [MediaOps](https://mediaops.io/) and [DevOps.com](https://devops.com/) for their consideration and their service to the DevOps community.*
+*This is one of two pages submitted for the [2019 DevOps Dozen Awards](https://devopsdozen.com/), supporting Sid Sijbrandij for Best DevOps Solution Provider Executive and supporting GitLab for Best DevOps Solution Provider. We thank MediaOps and [DevOps.com](https://devops.com/) for their consideration and their service to the DevOps community.*
 
 ### Sid Sijbrandij: True DevOps Practitioner-Executive
 

@@ -154,7 +154,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-composition-analysis`
 - GitLab.com label: ~"group::composition analysis"
-- Docs: https://docs.gitlab.com/ee/user/compliance/license_compliance/
+- Docs: https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/License-Scanning.gitlab-ci.yml
 
 ### Fuzz testing

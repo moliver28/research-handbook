@@ -91,7 +91,7 @@ Clear and proactive internal communication is essential to removing fear and ins
 1. Retain workspace consultants to ensure that team members are equipped to work [comfortably and ergonomically in their home](workspace/).
 1. Consider a policy that [reimburses fees associated with co-working spaces](/handbook/spending-company-money), understanding that some employees will thrive in settings that mimic the office.
 1. Invest in education, including [conferences](events/), courses, meetups, etc.
-1. Formalize and document an [in-person strategy](in-person/), embracing retreats, [company summits](https://about.gitlab.com/events/gitlab-contribute), etc. to show that bonding in a physical space is still valued.
+1. Formalize and document an [in-person strategy](in-person/), embracing retreats, [company summits](/handbook/company/culture/summit/), etc. to show that bonding in a physical space is still valued.
 1. Prepare for micro-groups to form as people relocate. Leverage [geographic Slack channels](/handbook/communication/chat#location-channels-loc_) to retain community even as people use newfound remote freedoms to move to a locale that is more personally fulfilling.
 1. Get intentional about [informal communication](informal-communication/). With the removal of daily in-person interactions, you'll need to formalize mechanisms such as coffee chats, team social calls, and co-working calls to form and foster relationships.
 

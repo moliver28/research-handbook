@@ -322,7 +322,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Remote Development group](/handbook/product/categories/#remote-development-group/)
 
-- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html)
+- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/)
 
 ### Other functionality in Verify
 

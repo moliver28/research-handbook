@@ -192,7 +192,7 @@ Make sure these settings are enabled in your personal zoom account settings as n
 4. To enable Breakout sessions feature:
     * Under In Meeting (Advanced) section, toggle `Breakout room` to active.
     * To enable pre-assigning for zoom users, check  `Allow host to assign participants to breakout rooms when scheduling`.
-5. Optional but [useful best practice set up from Zoom](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) to prevent [Zoom Bombing](https://www.forbes.com/sites/kateoflahertyuk/2020/03/27/beware-zoom-users-heres-how-people-can-zoom-bomb-your-chat/#26745c14618e) (hackers hijacking your meeting).
+5. Optional but [useful best practice set up from Zoom](https://www.zoom.com/en/blog/keep-uninvited-guests-out-of-your-zoom-meeting/) to prevent [Zoom Bombing](https://www.forbes.com/sites/kateoflahertyuk/2020/03/27/beware-zoom-users-heres-how-people-can-zoom-bomb-your-chat/#26745c14618e) (hackers hijacking your meeting).
 
 **Creating the event in Zoom**
 
@@ -219,8 +219,8 @@ Make sure these settings are enabled in your personal zoom account settings as n
 14. For meeting options configurations:
 15. Check `Enable join before host` option if you want to allow participants to join before the host(s).
 16. **(Recommended)** Check `Mute participants upon entry` to prevent disruption whenever someone joins mid-presentation.
-17. **(Recommended)** Check the `Enable waiting room` option if you'd like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/).
-18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).
+17. **(Recommended)** Check the `Enable waiting room` option if you'd like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://www.zoom.com/en/blog/keep-uninvited-guests-out-of-your-zoom-meeting/).
+18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://www.zoom.com/en/blog/keep-uninvited-guests-out-of-your-zoom-meeting/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).
 19. Check the `Breakout room pre-assign` if you'd like to pre-assign participants to the breakout sessions prior to the meeting. Please note that only participants/hosts with @gitlab email domain can be pre-assigned via the web interface. Participants with non @gitlab email addresses need to have zoom installed in their machine to be pre-assigned, and pre-assigning for this scenario can only be done through a CSV upload.
 20. **(Recommended except for meetings that are private in nature)** Check `Record the meeting automatically` either on your local computer or in the cloud to automatically record the meeting when the host join.
 21. Add alternate host as needed (need to be a GitLab employee). For  presenters that are not a GitLab employee, ask them to register as a regular participant and grant them co-host access during the meeting.

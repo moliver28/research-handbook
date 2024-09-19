@@ -111,7 +111,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 
 #### License Compliance
 
-[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) helps with the licenses introduced by third-party libraries in the application.
+[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
 Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
 
 #### Vulnerability Research
@@ -146,7 +146,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 Our team also must have a good sense of security, with at least basic skills in [application security](https://en.wikipedia.org/wiki/Application_security).
 
-We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
+We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
 
 ### Release process
 

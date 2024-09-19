@@ -1340,7 +1340,7 @@ There are a few different tools PM's can utilize to understand the operational c
 
 - Useful Dashboards to Visualize Infrastructure Costs:
 - [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) required)
-- [Service ping](https://docs.gitlab.com/ee/development/service_ping/)
+- [Service ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
 #### Links to learn more about infrastructure cost management initiatives

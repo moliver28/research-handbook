@@ -161,7 +161,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation](https://doas.ga.gov/sites/default/files/assets/Risk%20Management/Workers%20Compensation%20Publications%20and%20Forms/01-30-06_employee_brochure.pdf)
 - [Bill of Rights for the Injured Worker](https://doas.ga.gov/sites/default/files/assets/Human%20Resources%20Administration/Workplace%20Posters/workers%20comp%20bill%20of%20rights%20July%202022.pdf)
 - [Workers' Compensation Fraud](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/Georgia%20Workers%20Compensation%20Fraud_Notice.pdf)
-- [Human Trafficking](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/human%20trafficking%20notice%20(5-24-21).pdf)
+- [Human Trafficking](https://doas.ga.gov/sites/default/files/2024-09/Human%20Trafficking%20Notice.pdf)
 - [Equal Pay for Equal Work Act](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/Equal%20Pay%20for%20Equal%20Work%20Act%20notice.pdf)
 
 ### Hawaii

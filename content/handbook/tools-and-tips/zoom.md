@@ -25,7 +25,7 @@ Here are a few important things to keep in mind, especially as you read through 
 - Starting 2020-09-27, all meetings will be required to have a Passcode or a Waiting Room enabled.
 - With Zoom version 5.4.7, you can selectively turn on the requirement that meeting attendees must be authenticated to join a meeting (not recommended for customer-facing calls or recruitment interviews). There is a [Zoom article](https://support.zoom.us/hc/en-us/articles/360037117472-Authentication-Profiles-for-meetings-and-webinars) with more information.
 - Zoom supports end-to-end encryption if no Zoom connectors are in use.
-  More details can be found [here](https://blog.zoom.us/wordpress/2020/04/01/facts-around-zoom-encryption-for-meetings-webinars/).
+  More details can be found [here](https://www.zoom.com/en/blog/facts-around-zoom-encryption-for-meetings-webinars/).
   GitLab makes use of Zoom connectors for telephones, whenever we do webinars, and the vast majority of group meetings that end up on YouTube.
   Any time we are livestreaming via YouTube, we are using a connector.
   Any time we are recording a meeting, we are using a connector.
@@ -423,7 +423,7 @@ available. Processing takes about 15 minutes, so the video files appear before t
 
 1. Start a meeting with the Zoom desktop client.
 1. Click `AI Companion` in the meeting control toolbar.
-1. Click `Start summary`. 
+1. Click `Start summary`.
 1. Participants will see a notification that AI Companion is active and analyzing the discussion.
 1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
 

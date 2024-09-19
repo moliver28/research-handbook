@@ -193,7 +193,7 @@ Accounts and Subscriptions excluded from auto-renewal:
 1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
 1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
 1. Subscriptions with non-standard term (not in 12 month term increments).
-1. Multi-year subscriptions (with term greater than 12 months). 
+1. Multi-year subscriptions (with term greater than 12 months).
 1. Subscriptions with multiple (same) rate plans. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11916) is done.
 1. Subscriptions with GitLab Duo Pro and GitLab Duo Enterprise products. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11869) is done.
 1. Accounts with the following settings in Zuora:
@@ -733,7 +733,7 @@ You can look at sample code that generates the counts by searching for `subscrip
 Our [service usage data](/handbook/legal/privacy/customer-product-usage-information/) primarily aggregate counts from your instance (e.g. counts of issues or MRs) and is sent to GitLab on a weekly (or slower) cadence.
 
 1. Operational Data: This is the data that is tied to your subscription account/license. Our goal with this data is to capture aggregate counts to help the GitLab Customer Success and Sales teams help customers better adopt GitLab and get value out of their investment. Those counters can be viewed on metrics.gitlab.com by searching for "operational" and looking for the operational category. These operational events are agnostic of how you've activated your instance.
-2. Optional Data: [Optional Data](https://metrics.gitlab.com/?q=optional) is a similar type of metric (aggregate counts) but a much larger set than the Operational metrics. This is configured/opted-out by you, in your instance, and has nothing to do with your subscription. If you choose to share that data our Product teams would appreciate the insights to understand where to invest R&D resources to continue to mature our platform. Otherwise, you can ignore for your renewal and follow the opt-out steps documented [here](https://docs.gitlab.com/ee/development/service_ping/index.html#disable-service-ping).
+2. Optional Data: [Optional Data](https://metrics.gitlab.com/?q=optional) is a similar type of metric (aggregate counts) but a much larger set than the Operational metrics. This is configured/opted-out by you, in your instance, and has nothing to do with your subscription. If you choose to share that data our Product teams would appreciate the insights to understand where to invest R&D resources to continue to mature our platform. Otherwise, you can ignore for your renewal and follow the opt-out steps documented [here](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/#disable-service-ping).
 
 **Can a customer send subscription data ad-hoc, while keeping their GitLab instance airgapped/not connected to the internet?**
 

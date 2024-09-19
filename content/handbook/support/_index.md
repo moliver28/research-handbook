@@ -670,7 +670,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
   - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
-  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
   - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
   - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
   - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)

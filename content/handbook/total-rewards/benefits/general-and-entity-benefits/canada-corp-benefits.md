@@ -15,7 +15,7 @@ Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqA
 
 ## Group Health Coverage
 
-GitLab offers medical, dental, and vision coverage at no cost to the team member. 
+GitLab offers medical, dental, and vision coverage at no cost to the team member.
 
 ### Medical, Dental, and Vision Coverages
 
@@ -66,7 +66,7 @@ You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor
 **For new hires:**
 Once you've determined your enrollment coverage (family plan or single plan), email your decision to total-rewards@gitlab.com. This step must be completed in order for your enrollment process to begin.
 
-During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.  
+During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.
 Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
 
 More Details on setting up your ManuLife site can be found the [GitLab ManuLife Resource Page](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/) including the following guides:
@@ -80,7 +80,7 @@ More Details on setting up your ManuLife site can be found the [GitLab ManuLife 
 
 #### Updating Coverage Status, Life Events and Enrollment of Domestic Partners, Spouses, and Dependents
 
-Definition of dependents include legally married or common law spouses, children under 21, including children of common law spouses. Children under 25 are also covered if they are a full time student - proof of school enrollment is required. 
+Definition of dependents include legally married or common law spouses, children under 21, including children of common law spouses. Children under 25 are also covered if they are a full time student - proof of school enrollment is required.
 
 Team Members can change their plan status during certain Life Events. These Life events include:
 
@@ -92,13 +92,13 @@ Team Members can change their plan status during certain Life Events. These Life
 
 ##### Adding Dependents on to the ManuLife platform
 
-If Team Members already have Dependents under the plan they can add more dependents during a life event themselves via the [ManuLife Portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Should you have any questions please reach out to ManuLife at 1-800-268-6195. 
+If Team Members already have Dependents under the plan they can add more dependents during a life event themselves via the [ManuLife Portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Should you have any questions please reach out to ManuLife at 1-800-268-6195.
 
-If this is the first dependent you are adding to the plan, please send Total-Rewards@gitlab.com an email with your request, please include your dependent's full legal name, date of birth, gender and if they have the additional coverage via their own employer or your spouse's employer for dependents. 
+If this is the first dependent you are adding to the plan, please send Total-Rewards@gitlab.com an email with your request, please include your dependent's full legal name, date of birth, gender and if they have the additional coverage via their own employer or your spouse's employer for dependents.
 
 #### Insurance Cards
 
-Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal. 
+Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal.
 
 This card provides your group plan number and member identification number. Keep this information with you at all times and use it when requested by a health or dental provider or in case of medical emergency when traveling.
 
@@ -131,7 +131,7 @@ SC Insurance: info@scinsurance.ca or call 416.259.1166
 
 ### Beneficiary Designation
 
-Team Members can designate a beneficiary for their life insurance policy directly on the ManuLife portal. Please see the [Beneficiary Designation Instructions](https://drive.google.com/file/d/1P8ekxi7aWF5FxI2wdAkO1dDYSCDEJovm/view?usp=sharing). 
+Team Members can designate a beneficiary for their life insurance policy directly on the ManuLife portal. Please see the [Beneficiary Designation Instructions](https://drive.google.com/file/d/1P8ekxi7aWF5FxI2wdAkO1dDYSCDEJovm/view?usp=sharing).
 
 It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible. Please note that there is a separate process for electing a beneficiary for the RRSP plan.
 
@@ -146,7 +146,7 @@ It's important to have this information up to date to ensure that team member's 
 
 ## Personal Travel Assitance
 
-Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation. 
+Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation.
 
 Please see these resources for additional details:
 
@@ -325,12 +325,12 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 **Child Death Leave** *Team members who have been employed with GitLab for at least six consecutive months*
 
-- Up to 104 weeks of leave with respect to the death of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/programs/federal-income-support-parents-murdered-missing-children.html).
+- Up to 104 weeks of leave with respect to the death of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/services/parents-young-victims-crime.html).
 - Team Members should select `Bereavement` in Time Off by Deel.
 
 **Crime-related child disappearance leave** *Team members who have been employed with GitLab for at least six consecutive months*
 
-- Up to 104 weeks of leave with respect to the crime-related disappearance of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/programs/federal-income-support-parents-murdered-missing-children.html).
+- Up to 104 weeks of leave with respect to the crime-related disappearance of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/services/parents-young-victims-crime.html).
 - Team Members should select `Out Sick` in Time Off by Deel.
 
 **Domestic or sexual violence leave** *Team members who have been employed with GitLab for at least 13 consecutive weeks*

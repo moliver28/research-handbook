@@ -103,7 +103,7 @@ The following (private) Grafana dashboard are important / useful for database sp
 - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)
 - [Adding database indexes](https://docs.gitlab.com/ee/development/database/adding_database_indexes.html)
 - [Post Deployment Migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html)
-- [Background Migrations](https://docs.gitlab.com/ee/development/database/background_migrations.html)
+- [Background Migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html)
 - [SQL Migration Style Guide](https://docs.gitlab.com/ee/development/migration_style_guide.html)
 - [SQL Query Guidelines](https://docs.gitlab.com/ee/development/sql.html)
 - [Infrastructure runbooks and documentation](https://gitlab.com/gitlab-com/runbooks#postgresql)

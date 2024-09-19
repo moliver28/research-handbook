@@ -36,7 +36,7 @@ Service Ping provides insights into your teams' usage of GitLab to enable you to
 
 ### 1. What information is sent  via service ping?
 
-GitLab collects product usage data from self-managed GitLab instances (Community Edition and Enterprise Edition) through a service ping, you can view a [sample here](https://docs.gitlab.com/ee/development/service_ping/index.html#example-service-ping-payload). Please see [GitLab Privacy Policy](https://about.gitlab.com/privacy/) for additional details.
+GitLab collects product usage data from self-managed GitLab instances (Community Edition and Enterprise Edition) through a service ping, you can view a [sample here](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/#example-service-ping-payload). Please see [GitLab Privacy Policy](https://about.gitlab.com/privacy/) for additional details.
 
 ### 2. It's a corporate security policy that we don't send data to vendors
 

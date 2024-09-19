@@ -272,7 +272,7 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 ## Articles
 
-1. [Carta's Manager's FAQ](https://readthink.com/a-managers-faq-35858a229f84)
+1. [Carta's Manager's FAQ](https://medium.com/eshares-blog/a-managers-faq-35858a229f84)
 1. [Carta's How to hire](https://carta.com/blog/how-to-hire/)
 1. [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
 1. [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)

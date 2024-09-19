@@ -67,6 +67,5 @@ Various verticals and industries face specific challenges as they address their 
 | **Efficiency in an dynamic commodity market**  |  Speed to innovate and automation to reduce costs            |
 | **Need for scalable compute to process big data** |  GitLab support for kubernetes            |
 
-- [Oil and Gas Industry Challenges](https://www.stoutadvisory.com/insights/article/trends-and-challenges-oil-and-gas-industry)
 - [IBM - Oil and Gas exploration](http://www-935.ibm.com/services/us/gbs/bus/pdf/g510-3882-meeting-challenges-oil-gas-exploration.pdf)
 - [CXO Insights - Oil and Gas Tech Challenges](https://smart-grid.energycioinsights.com/cxo-insights/how-technology-is-changing-the-oil-and-gas-landscape-for-the-better-nwid-51.html)

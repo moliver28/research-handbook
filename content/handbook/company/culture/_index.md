@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](https://about.gitlab.com/events/gitlab-contribute/)
+Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](/handbook/company/culture/summit/)
 
 <!-- blank line -->
 <figure style="padding:56.25% 0 0 0;position:relative;">
@@ -104,7 +104,7 @@ Some key takeaways from the call include:
 ## Other pages related to culture
 
 1. [GitLab 101](gitlab-101/)
-1. [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute/)
+1. [GitLab Contribute](/handbook/company/culture/summit/)
 1. [Internal Feedback]({{< ref "internal-feedback" >}})
 1. [Diversity, Inclusion and Belonging](inclusion/)
 1. [All-Remote](all-remote/)

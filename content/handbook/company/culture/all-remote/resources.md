@@ -352,7 +352,6 @@ Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/f
 - [Co-work Paradise](http://www.coworkparadise.com/)
 - [Project Getaway](http://www.projectgetaway.com/)
 - [B-Digital Nomad](https://www.b-digitalnomad.com/)
-- [Remote Work Association](https://www.remoteworkassociation.com/)
 
 ### Guides for remote work
 

@@ -288,7 +288,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 >
 > Of course there are benefits to colocated meetings — it's easier to interrupt each other, it's easier to see what everyone around the room is thinking, you don't have wireless issues, it's easier to look each other in the eyes, it's easier to break bread before/after the meeting, it's easier to talk a walk or do something fun together.
 >
-> We try to take advantage of them, though. We have [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute) where we all come together to go on excursions and have informal chats. As an executive group, we [come together every quarter for 2.5 days for high-velocity meetings](/handbook/company/offsite). Those are augmented with Google Docs, and we allow people to attend remotely if they cannot join in person.
+> We try to take advantage of them, though. We have [GitLab Contribute](/handbook/company/culture/summit/) where we all come together to go on excursions and have informal chats. As an executive group, we [come together every quarter for 2.5 days for high-velocity meetings](/handbook/company/offsite). Those are augmented with Google Docs, and we allow people to attend remotely if they cannot join in person.
 >
 > There are benefits, but they aren't as big as people make them out to be.
 >

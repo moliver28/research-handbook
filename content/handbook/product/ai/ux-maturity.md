@@ -5,7 +5,7 @@ description: "How to mature an AI-assisted feature from a UX perspective."
 
 ## Summary
 
-The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/ee/policy/alpha-beta-support.html), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
+The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
 
 To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development-flow/):
 
@@ -65,7 +65,7 @@ Note: For Duo Enterprise, the [Definition of Done](https://gitlab.com/gitlab-org
 
 #### High Confidence & Low Risk
 
-When an AI-powered feature has high confidence in the output quality and low risk of producing harmful or incorrect results, the feature can rely primarily on the standard [feature maturity](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) definitions. In this case an evaluation dataset is not required, however the feature should have basic guardrails like unit tests and can rely mainly on the existing AI Framework and AI Gateway.
+When an AI-powered feature has high confidence in the output quality and low risk of producing harmful or incorrect results, the feature can rely primarily on the standard [feature maturity](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) definitions. In this case an evaluation dataset is not required, however the feature should have basic guardrails like unit tests and can rely mainly on the existing AI Framework and AI Gateway.
 
 Consider running a UX Bash with at least 10 external users validating the quality of the output. We have a framework for how to run them to evaluate output quality.
 

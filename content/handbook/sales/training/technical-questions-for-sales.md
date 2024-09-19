@@ -294,7 +294,7 @@ No questions at this time.
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Check out the [Backing up and restoring GitLab documentation](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
+- **Learn more**: Check out the [Backing up and restoring GitLab documentation](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
 
 #### What installation method does GitLab recommend customers use?
 

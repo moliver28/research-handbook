@@ -44,7 +44,7 @@ Year(s): FY25
 
 Year(s): FY26
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- [SOC 2 Type 2 Report](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Recertification
 - [FedRAMP Moderate Authorization](https://www.fedramp.gov/)
 - [Software Bill of Materials internal implementation plan]({{< ref "sbom-plan" >}})

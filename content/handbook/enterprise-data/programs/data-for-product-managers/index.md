@@ -16,7 +16,7 @@ Here are some useful links that we recommend for you to bookmark:
 - [Data Catalog](/handbook/enterprise-data/data-catalog)
 - [DBT documentation](https://gitlab-data.gitlab.io/analytics/#!/overview) (where most of our models are documented)
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
-- [Service Ping documentation](https://docs.gitlab.com/ee/development/service_ping/)
+- [Service Ping documentation](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - [Snowplow documentation](/handbook/enterprise-data/platform/snowplow/)
 - [Analytics Instrumentation Quick Links](https://about.gitlab.com/direction/analytics/analytics-instrumentation/#quick-links)
 - [Product Data Insights handbook](/handbook/product/product-analysis/)

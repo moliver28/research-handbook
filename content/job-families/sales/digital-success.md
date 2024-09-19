@@ -25,11 +25,11 @@ The Digital Success team is expected to:
 
 | Role                              | Grade                                                                                             |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| Associate Digital Customer Manager | [Grade 5](https://handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
-| Digital Success Manager           | [Grade 6](https://handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
-| Senior Digital Success Manager    | [Grade 7](https://handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
-| Manager, Digital Success          | [Grade 8](https://handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
-| Director, Digital Success         | [Grade 10](https://handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| Associate Digital Customer Manager | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
+| Digital Success Manager           | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
+| Senior Digital Success Manager    | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
+| Manager, Digital Success          | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)  |
+| Director, Digital Success         | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ### Associate Digital Success Manager
 
