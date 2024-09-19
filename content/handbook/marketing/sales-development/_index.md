@@ -55,7 +55,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined on the issue template called `FM-BDR-Collaboration-Template` that can be found [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new), but are always eager to collaborate in making your events more succesful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
 | I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/how-tos/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
 | I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
-| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/sales-development-vault/#field-marketing--bdr-collaboration-process) for creating new sequences on Outreach, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
+| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/sales-development-vault/#field-marketing--bdr-collaboration-process) for creating new flows on Groove, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
 | I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/sales-development-vault/#sdrbdr-to-ae-sao-handoff-process). |
 
 ## Our Slack Channels
@@ -85,7 +85,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [Sales Development Issues](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues) | The list of all issues we curently have on our project.           |
 | [Sales Dev Ops Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) | The main Kanban board we use to manage our operational projects, look here to see what we have in the pipeline. |
-| [Sequence Creation Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104) | The board we manage all new, and in-flight, sequences and messaging campaigns. |
+| [Flow Creation Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104) | The board we manage all new, and in-flight, Groove Flows and messaging campaigns. |
 | [FM Collaboration Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5665082) | The board we use to communicate with the Field Marketing team to help support their events. |
 | [PTO Requests Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/7220707) | The board we use to submit and manage Paid Time Off (PTO) requests.  |
 | [Sales Systems Issues](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues) | This is the Sales Systems issue list, we collaborate closely with them.     |
@@ -127,18 +127,6 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 
 ## The pages we frequently use
 
-| Name                                                                    | Description                                                                   |
-|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [Sales Development Issues](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues) | The list of all issues we curently have on our project.           |
-| [Sales Dev Ops Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) | The main Kanban board we use to manage our operational projects, look here to see what we have in the pipeline. |
-| [Sequence Creation Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104) | The board we manage all new, and in-flight, sequences and messaging campaigns. |
-| [FM Collaboration Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5665082) | The board we use to communicate with the Field Marketing team to help support their events. |
-| [PTO Requests Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/7220707) | The board we use to submit and manage Paid Time Off (PTO) requests.  |
-| [Sales Systems Issues](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues) | This is the Sales Systems issue list, we collaborate closely with them.     |
-| [Marketing Operations Issues](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues) | This is the Marketing Operation's team space, we also work closely with them too.  |
-
-### The complementary Resources
-
 | Resource | Description |
 | :------: | :---------: |
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
@@ -149,7 +137,7 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
 | [Sales Development Enablement Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrjbznnEEiCtxUfT8-OV6X8) | Playlist of enablement videos and how-tos for BDRs and SDRs. |
-| [Outreach sequence naming convention](https://docs.google.com/spreadsheets/d/12YXwIE126g0rmmNi7QYy2s0SewIV-2JWCr9YUPcqfaQ/edit#gid=0) | Document outlining the naming convention for Outreach sequences. |
+| [Groove flow naming convention](https://docs.google.com/spreadsheets/d/12YXwIE126g0rmmNi7QYy2s0SewIV-2JWCr9YUPcqfaQ/edit#gid=0) | Document outlining the naming convention for Groove Flows. |
 | [Lead Lifecycle Handbook Page](/handbook/marketing/marketing-operations/lead-lifecycle/) | Handbook page detailing different lead statuses and managing the lead lifecycle. |
 | [Marketing Resource Links](https://docs.google.com/spreadsheets/d/1NK_0Lr0gA0kstkzHwtWx8m4n-UwOWWpK3Dbn4SjLu8I/edit?usp=sharing) | GitLab whitepapers, ebooks, webcasts, analyst reports, and more for Sales & Sales Development education. |
 | [Marketing Events + Gated Content Assets + Webcasts](https://drive.google.com/drive/search?q=%22Events%20Gated%20Content%20Assets%22%20owner:jgragnola%40gitlab.com) | Resources for BDRs and SDRs to understand marketing assets consumed by prospects. |
@@ -183,16 +171,16 @@ You will find the lead views below. These views are split per use-case for your 
 | S1 - High Priority View | These are leads that are marked as High Priority because of some high Propensity To Purchase indication. |
 | S1 View | These are your net new leads that have scored high enough to reach MQL status.                                            |
 | S2 View | This is a view of your existing leads that also have an associated phone call so you can easily reference your callable pipeline. |
-| S3 View | Qualifying leads. These are leads that you are actively qualifying in a back and forth conversation either by email or through phone calls. Each lead needs to either be active in a follow-up sequence, have an active task, or have a future meeting scheduled which can be seen in a future "last activity" date. |
+| S3 View | Qualifying leads. These are leads that you are actively qualifying in a back and forth conversation either by email or through phone calls. Each lead needs to either be active in a follow-up Flow, have an active task, or have a future meeting scheduled which can be seen in a future "last activity" date. |
 
 #### BDR Lead Views
 
 | View                           | Description|
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FY25 B1 - My Leads, Action Needed       | Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and MQL's PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. High Priority leads belong to a High Priority campaign - you can find which one at the bottom of the page in the campaigns section.                                                                   |
-| FY25 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which to sequence. We do not surface leads that were sequenced in the last 14 days.                                                                                                                        |
+| FY25 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which one to add to Groove Flow. We do not surface leads that were added to Flows in the last 14 days.                                                                                                                        |
 | FY25 B3 - Change Owner AWA's (Clone)   | These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date. |
-| FY25 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Outreach to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Outreach and create additional call tasks for your leads currently in high touch sequences.                                                                                                                             |
+| FY25 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Groove to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Groove and create additional call tasks for your leads currently in high touch flows.                                                                                                                             |
 | FY25 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
 | FY25 B6 - 6QA imported leads           | You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.                                                                  |
 | FY25 B7 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
@@ -204,9 +192,9 @@ You will find the lead views below. These views are split per use-case for your 
 | View    | Description                                                                                                                                                                                                       |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | B1 View | Includes MQL's, Hot contacts that require quick follow up. NOTE: Not all of these contacts will be in your Actively Working Accounts list as all contacts where you are BDR Assigned on account are in your ownership, so please ensure that you set the account BDR Prospecting Status to Actively Working if you engage in discussions with the contact so that you can continue working the account and expand your outreach, otherwise any new lead MQLs for the account will route to the SDRs .                                                                                                                                                        |
-| B2 View | Contacts related to Actively working accounts that you can choose to sequence                                                                                                                      |
-| B3 View | Active HT sequenced leads that have a phone number - to help with call downs                                                                                                                                      |
-| B4 View | Qualifying leads. Contacts that you are actively qualifying in a back and forth conversation either on email or through phone calls. Each contact in this status needs to either be active in a follow up sequence, have an active task or have a future meeting scheduled which can be seen in a future "last activity" date. |
+| B2 View | Contacts related to Actively working accounts that you can choose to add to Flow                                                                                                                     |
+| B3 View | Active leads in HT Flows that have a phone number - to help with call downs                                                                                                                                      |
+| B4 View | Qualifying leads. Contacts that you are actively qualifying in a back and forth conversation either on email or through phone calls. Each contact in this status needs to either be active in a follow up Groove Flow, have an active task or have a future meeting scheduled which can be seen in a future "last activity" date. |
 
 #### Account Views
 
@@ -290,12 +278,12 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 
 ### How to action your leads
 
-**1. Determining High-touch or Low-touch sequence usage:**
+**1. Determining High-touch or Low-touch Groove Flow usage:**
 
-1. Determine if the lead qualifies for a high touch or low touch sequence.
-   - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline.
-   - Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort.
-1. Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections.
+1. Determine if the lead qualifies for a high touch or low touch Flow.
+   - High touch Flows are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline.
+   - Low touch Flows are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort.
+1. Research the appropriate Groove collections for relevant collateral to be used. Most typically our High-Touch Collection or Low-Touch collections.
 
 #### Cold-Calling and Email Checkbox
 
@@ -316,107 +304,84 @@ An unsubscribe link must be included on every email sent by a BDR, including res
 
 Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/do-not-contact/?search=do+not+call) for more information on the triggers.
 
-#### How to enroll to outreach
+### How to Enroll to Groove by Clari
 
-[Outreach.io](https://www.outreach.io/) is a tool used to automate emails in the form of sequences. Users can track open rates, click-through rates, response rates for various templates, and update sequences based on these metrics. Outreach.io also helps to track sales activities such as calls. All emails/calls/tasks that are made through Outreach.io are automatically logged in Salesforce with a corresponding disposition. See below for a list of current call dispositions, what they mean, and scenarios on when to use each of them.
+[Groove](https://handbook.gitlab.com/handbook/marketing/marketing-operations/groove/index.html/#about-grooveco) is a tool used to automate emails in the form of flows. Users can track open rates, click-through rates, and response rates for various templates, and update flows based on these metrics. Groove also helps to track sales activities such as calls. All emails/calls/tasks made through Groove are automatically logged in Salesforce with a corresponding disposition. See below for instructions on how to enroll leads in Groove:
 
-1. Go to your SDR views on SFDC and select the lead you want to sequence.
-1. Press `Import to Outreach`.
-1. Work from the Outreach extension on Chrome to then select the sequence you want to enroll the lead in.
-1. If manual steps are required for the sequence that you chose, select `Edit Steps`. Go through each step you want to edit, paying especial attention to manual variables.
-1. Once the first step of an Outreach sequence is complete, the lead status will automatically change from `MQL, Inquiry, or Raw` to `Accepted` status, marking that you are actively working on this lead.
-1. When a lead responds to you via email, their status will again automatically change from `Accepted` to `Qualifying`. Manage these leads from your S3 and B5 lead views.
-1. If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn't stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`.
-1. When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the `Follow up Ruleset Sequences`.
-1. Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard)
-1. In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.
-1. If a lead finishes an Outreach sequence without responding, the lead status will automatically change to `Unresponsive` or `Recycle` in seven days if there is still no response.
-1. If a lead responds, schedule a call/meeting using Outreach's meetings feature.
-1. Manually change lead status if you don't use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc.
-1. If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished.
-1. If you notice your leads are being reassigned to Inquiry Queue, that's due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT.
+1. Go to your SDR views in Salesforce and select the lead you want to add to a flow.
+2. Press `Add To Groove Flow`.
+3. Work from the Groove extension on Chrome to select the flow you want to enroll the lead in by using the labels feature.
+4. Once the first step of a Groove flow is complete, the lead status will automatically change from `MQL`, `Inquiry`, or `Raw` to `Accepted`, marking that you are actively working on this lead.
+5. When a lead responds to your outreach, their status will automatically change from `Accepted` to `Qualifying`. Manage these leads from your S3 and B5 lead views.
+6. If you are not actively qualifying this lead further, manually change the status to `Recycle`, so the lead is returned to the Marketing recycle pool and isn't stuck in your `My Qualifying` view.
+7. If you speak with the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`.
+8. When reviewing your `Qualifying` view, add leads with no recent activity, no active tasks, and not currently in a flow into one of our follow-up Groove Flows under the `MOTION: Follow-Up` category.
+9. Tasks and pipeline management can be done via Groove's [Actions View](https://groove.clari.com/actions).
+10. In the Actions View, review the list of leads assigned to you by navigating to the play-icon button for each to start their corresponding action for the day.
+11. If a lead completes a Groove flow without responding, the lead status will automatically change to `Unresponsive` or `Recycle` after seven days of no response.
+12. Manually change the lead status if you do not use a Groove flow to reach out or if you need to disqualify a lead (e.g., for bad data).
+13. If you mark a lead as `Inactive` or a contact as `Inactive`, signifying that this person no longer works at the company, any running Flow will automatically be marked as finished.
+14. If your leads are being reassigned to the `Inquiry Queue`, it’s likely due to a scheduled cleanup job in Traction that updates `Status = Inquiry` to `Inquiry Queue`. To resolve this, add your leads to a Groove flow. 
+    - **Note:** The cleanup job runs daily at 10:30 PM EST/EDT.
 
-#### Outreach Collections
+#### Groove Labels
 
-Ways to organize similar sequences and snippets
+We've organized our **Groove Labels** into key categories like **industry, region, play/motion**, or **language** to help you efficiently retrieve the most appropriate content quickly.
 
-- **Common Collections**
-  - [FY24 Global Inbound High Touch Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-  - [FY24 Global Inbound Low Touch Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-  - [FY24 Inbound Languages Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2270%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-  - [Events Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2266%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-  - [Good Outbound Collection](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2276%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-  - [Testing Outbound Collection](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2275%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+#### How to Use Groove Labels:
 
-#### Outreach Tags
+On the top-hand of the [flows page](https://groove.clari.com/flows), access the filter menu and search per `label`.
 
-A method of distinguishing sequences and snippets from others. Use tags to help narrow down which sequences you should be using in a particular situation
+1. **Industry**: Industry-specific labels that group flows per similar sectors.
+2. **Region**: Flows organized by geographical regions, enabling you to target leads with more region-appropriate cadences based on local business culture.
+3. **Play/Motion**: Each label within this category represents a specific sales play or marketing motion. These labels help you align leads with the appropriate strategy based a company's and customer's identified value-drivers.
+4. **Language**: Language-based labels to ensure that you can easily find non-English collateral for our global audience.
 
-##### Common Tag Examples
+#### Groove Templates
 
-- **Primary-** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
-- **High Touch/Low Touch-** Distinguish if the sequence is high or low touch
-- **Region-** Can be used to show which region the sequence
-- **GTM-** The message trying to be delivered. Ex. Security, CI/CD ect.
-- **Inbound/Outbound-** Whether the sequence is meant for inbound or outbound prospecting
-- **Language-** What language the sequence is written in
+We've organized our **Groove Templates** in the same way as our **Groove Labels** —by **industry, region, play/motion**, and **language**—to streamline your outreach efforts. These templates provide consistency and efficiency, and need to be created regardless if you're sending one-off messages or using templates to structure a flow.
 
-#### Outreach Snippets
+We currently have one master SalesDev folder for saving templates, please ensure that any templates that you create are saved under that folder, and tagged with the appropriate collection as per the logic outlined above.
 
-Content created for BDRS and SDRs to use to create hyper-personalized sequences, one-off emails, or to use for reaching out to prospects via LinkedIn.
+In both cases, it’s essential to tag your templates with the appropriate collection name to maintain consistency and help others easily locate them for future use.
 
-- **Common Snippet Examples**
+#### New Groove Flow creation
 
-  - [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
-  - [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
+In an effort to better iterate, and refresh, our Groove content and workflows, we have a structured process for BDRs to create/measure new Groove Flows.
 
-#### New Outreach Sequence/Workflow creation
+Please log an issue [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new) by selecting the template `BDR_Flow_Creation_Request.`
 
-In an effort to better iterate, and refresh, our outreach content and workflows, we have a structured process for BDRs to create/measure new Outreach sequences.
-
-Please log an issue [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new) by selecting the template `BDR_Sequence_Creation_Request.`
-
-The issue description will walk you through all the next steps.
-
-This process aims to:
+The issue description will walk you through all the next steps. This process aims to:
 
 **Implement Measurement Clarity and Decision Velocity**
 
-By dogfooding GitLab we have a structured and simplified cadence of quantifying sequence creation in terms of value and results without limiting agency.
+By dogfooding GitLab we have a structured and simplified cadence of quantifying Flowe creation in terms of value and results without limiting agency.
 
 **Maintain Equal Contributions in a Shared Reality**
 By maintaing a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
 
-**Ramping BDRs**
-Ramping BDRs should only be using OB sequences from the Good and Testing collections. A ramping BDR can only create a Sequence Creation Request if there is no sequences that fit their needs or strategy in our current library.
+**Important Note: Ramping BDRs**
+Ramping BDRs should only be using OB Flows from the Good and Testing collections. A ramping BDR can only create a Flow Creation Request if there is no Flows that fit their needs or strategy in our current library.
 
-#### Follow Up Outreach Sequences
+#### Follow Up Groove Flows
 
-- For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
+For SDRs and BDRs managing leads in their qualifying views, we've created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to guide you through using follow-up Groove Flows.
 
-- The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
+Please visit the Groove Flows page and search for the tag `MOTION: Follow-up` to review your available options.
 
-- For [guiding prospects](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817) to web-direct, we also have [a sequence that you should use](https://web.outreach.io/sequences/14652/overview) to ensure that you streamline their buyer's journey.
+#### White Glove Event Follow Up Flows
 
-#### White Glove Event Follow Up Sequence (SAEs Included)
+For more personal events, such as Executive Roundtables, there may be more detailed Last Event Notes that include a request to involve people who interacted with the prospect at the event. For these situations, we have specialized white glove Flows. These can be found by searching for the tag `MOTION: White Glove`
 
-For more personal events, such as Executive Roundtables, there many be more detailed Last Event Notes that have an ask to include the people who interacted with the prospect at the event. For these situations we have a [specialized white glove sequence.](https://app1a.outreach.io/sequences/12883)
+The goal of these Flows is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
 
- The goal of this sequence is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
-
-- The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
-- Next send a screenshot of the first email step to the SAE/AE's that will be CC'd. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
-
-#### Other Outreach Training Resources
-
-- [Intro Slide Deck](https://docs.google.com/presentation/d/1IpTVE4-Nkblfuiu6f1OUnFbi8IpjRPK7UDSx4eSfQCg/edit#slide=id.g5a343b482a_2_10) and [Training Video](https://gitlab.edcast.com/journey/weeks/cards/7257647)
-  - password should be in onboarding issue or ask your manager
-- GitLab Edcast: [Advanced Outreach Training](https://gitlab.edcast.com/journey/weeks)
-- Best Practices: [Our Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/)
+- The first step is to add the prospect to the Flow. Then, customize the first email step to include the individuals mentioned in the Last Event Notes. You can also delay the first email to allow time for feedback from the SAE/AE if needed.
+- Next, send a screenshot of the first email step to the SAE/AEs who will be CC'd. Explain that this strategy allows them to engage with more personalized messaging if the prospect remains unresponsive. 
+  - **Note:** There is a generic task on Day 12 to follow up with the SAE/AE if there has been no engagement. The goal is to keep them informed and work together to engage the prospect.
 
 #### How to Change your Email Signature
 
-You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours.
+You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Groove or Gmail your signature will revert back within 24 hours.
 
 **Steps to change your signature**
 
@@ -455,11 +420,11 @@ The main objective you should be focusing at is to measure and plan what activit
 
 Research your territory to identify the true First Order (FO) accounts, ensuring no other subsidiaries have licenses, verifying there hasn't been a lost renewal in the past 180 days, and confirming there are no open opportunities. The goal here is to vet your TAM (Total Addresable Market) so that you can start matching cohorts of accounts with the objectives that you've outlined in the previous step. Indicatively, you can export these accounts to a Google Sheet, or other SSoT of your preference, for tracking since these accounts will be marked as Actively Working at a future step further down the process.
 
-Utilizing these accounts, create an outreach strategy and plan for the upcoming month and quarter. This strategy should include considerations such as the number of accounts to include in sequences per week and per month, the quantity of prospects from these accounts to add into sequences weekly, whether you intend to target specific personas, if you plan to employ targeted messaging, whether sequences will be used for high-priority targets, and the messaging approach you will implement. As previously mentioned, knowing your equation is important for your planning here. Please refer to the sheet linked above to determine your exact metrics.
+Utilizing these accounts, create an outreach strategy and plan for the upcoming month and quarter. This strategy should include considerations such as the number of accounts to include in Flows per week and per month, the quantity of prospects from these accounts to add into Flows weekly, whether you intend to target specific personas, if you plan to employ targeted messaging, whether Flows will be used for high-priority targets, and the messaging approach you will implement. As previously mentioned, knowing your equation is important for your planning here. Please refer to the sheet linked above to determine your exact metrics.
 
 #### Account Research Phase (4-5 hours/week)
 
-During your research phase for accounts to include in your sequences, thoroughly investigate and document pertinent information, which may include:
+During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include:
 
 - Identifying new strategic hires.
 - Discovering recent job openings in DevOps.
@@ -578,7 +543,7 @@ To determine which prospects to enroll per account, please follow the steps belo
 
 You should explore the specific personas you intend to target, such as: VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers.
 
-Determine the number of prospects you plan to add to sequences, with a minimum of 25 per day. Utilize LinkedIn Sales Navigator, ZoomInfo or Cognism to identify these personas within your target companies.
+Determine the number of prospects you plan to add to Flows, with a minimum of 25 per day. Utilize LinkedIn Sales Navigator, ZoomInfo or Cognism to identify these personas within your target companies.
 
 In Step 7, compile the selected prospects and create LinkedIn Sales Navigator lists for each persona. Save these lists for future use.
 
@@ -592,13 +557,13 @@ In Step 7, compile the selected prospects and create LinkedIn Sales Navigator li
 
 Use the [format found on this template](https://docs.google.com/document/d/1EN2U8wrUdti4MTxCNceoOlltAmtUt4pqN1GxwRTCnK4/edit)
 Copy-Paste the Structure to the BDR Account Research field and populate accordingly.
-Populate the BDR Next Step Date to be at the end of the account's sequence length (typically one month out)
+Populate the BDR Next Step Date to be at the end of the account's Flows length (typically one month out)
 
 #### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration
 
 To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help.
 
-Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
+Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. <br> Prospects with Flow steps past due <br> iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
 ### How to Get SAO Credit and Create Opportunities
 
@@ -651,7 +616,7 @@ If the opportunity is for a new group of users in a Large account where sales is
    1. After making sure that the information is properly reflected on the `Company Address` fields (ie: **Company Address: Street**), please tick the `Company Address Checked` checkbox on the lead level. If this step is not completed, then you will receive a message to remind you on Salesforce when you try to convert the lead.
 
    If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records.
-1. **Schedule IQM**: For booking meetings, use [Outreach Meetings](https://www.outreach.io/resources/blog/meetings-pr) to expedite the experience for prospects.
+1. **Schedule IQM**: For booking meetings, use [Groove Meetings](https://clari.my.site.com/customer/articles/Knowledge/Meeting-Scheduler) to expedite the experience for prospects.
    1. Make sure to give a 24 hour notice to the AEs.
    1. Having sent a meeting invitation, ask the prospect to accept while on the phone/meeting with them.
 1. **AE Review**: Expect AEs to verify that they reviewed the opportunity beforehand.
@@ -662,7 +627,7 @@ If the opportunity is for a new group of users in a Large account where sales is
    - Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE.
 1. **IQM Notes**: SDR adds IQM notes to the Initiative section in the opportunity Title.
    - Include Attendees, Raw Notes, Questions, Summary, and Next Steps.
-1. **Rebooking no-shows**: The SDR's responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc).
+1. **Rebooking no-shows**: The SDR's responsibility lies only in rebooking no-shows using a structured Groove Flow.
    - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity.
 
 #### Trial Extensions and Ultimate to Premium Downgrades
@@ -720,7 +685,7 @@ Once you've audited an opp, you will create a task by logging a call, choose "ot
 | Check to see whether opportunity qualification fields are populated. | Marketing and Sales are expected to collaborate to move prospects down the funnel based on specific qualifiers. When it comes to Stage-0 opportunities these are the opportunity qualification fields. | It's common that individuals do not fill these fields in the name of agility. This however does not create accountability in progressing these prospects down the funnel in a predictable manner. |
 | Check the date of opportunity creation. | Creation of the opportunity should occur when you're engaged with the prospect and have begun the qualification process. There will sometimes be a child or related opp that needs to  be created based on needs discovered during the IQM with AE. Should that be the case, the created child/related opp should have the IQM activity as a related task on it. | Explain that creating opps as soon as engagement occurs will lead to better management of a BDRs/SDRs pipeline. |
 | Check to see if there is a contact associated to the opp and that there's meaningful engagement prior to the opp being created. | Our standard process requires that we work specific leads and that we convert the main contact person to a contact/opportunity upon qualification. | Explain that this best practice will help with measuring and moving an opportunity further down the pipeline because of accurately being able to communicate the decision-making team from the prospect's side. |
-| If activity shows up on the record, and the activity is a connected call with notes, verify that the activity matches in Outreach. | Activities on SFDC can be edited freely and therefore questioned by our audit team. | Explain that Outreach is a SSoT that can be used as irrefutable proof of outreach. Even if other systems fail, Outreach is always used as the last back-up. |
+| If activity shows up on the record, and the activity is a connected call with notes, verify that the activity matches in Groove. | Activities on SFDC can be edited freely and therefore questioned by our audit team. | Explain that Groove is a SSoT that can be used as irrefutable proof of outreach. Even if other systems fail, Groove is always used as the last back-up. |
 | If activity matches, check that activity happened in accordance with our Actively Working Rules Of Engagement (RoE). | Team members from both Sales and Marketing are expected to contribute pipeline only within their assigned territory. | Explain that making sure that being aligned to the RoE will not create any contigencies when measuring pipeline. |
 
 #### Typical Red Flags
@@ -735,11 +700,11 @@ _Directors, Ops and JB will select random opps each month to audit and ensure au
 
 #### Best practices to ensure credit for SAO
 
-1. Sequence all leads if you're reaching out
+1. Add all leads to Flows, if you're reaching out to them.
 2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
 3. Populate all qualification fields
 4. If activity was a phone call or a zoom call, log notes at the time of call
-5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps, ensure that prospect is guided to web-direct using the sequence [here](https://web.outreach.io/sequences/14652/overview), as per the conversation [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817).
+5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps, ensure that prospect is guided to web-direct using the Flow [here](https://groove.clari.com/flows/1097006), as per the conversation [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817).
 6. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
 7. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
 
@@ -836,22 +801,6 @@ Steps:
 - Have a brief but descriptive "Commit message" (e.g. "Add new section on 'How to Make Changes to the Handbook'") and commit your changes
 - Fill out the Merge Request details
 
-### Automatic Enrollment to Sequences
-
-From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach.
-
-#### Automatic High PTP Sequence
-
-As a first iteration, we will be automatically enrolling leads that indicate a high Propensity to Purchase (PTP) score to a full High Touch outreach sequence. The filters applicable for this trigger are:
-
-- Lead has direct phone in their record
-- Lead has a high PTP score (4 or 5)
-- Lead is actively enrolled to a Low Touch Sequence
-
-#### Automatic Bounced Sequence
-
-We have an additional process where leads that [were automatically moved to disqualify lead status because of a wrong email]https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/7718(), BUT have a phone number associated to them, will automatically be enrolled to a [sequence.](https://web.outreach.io/sequences/13842)
-
 ### BDR Territory Movement Rules of Engagement
 
 When a territory moves from one BDR to another but the previous BDR remains with the same team (ex: moves from one MM territory to another) the BDR vacating the territory will have the chance to temporarily retain ownership of accounts with which they have generated ongoing engagement (subject to manager approval). At the time of the holdover, an issue will be created that will be reviewed in 30 days to verify account ownership. This includes:
@@ -878,7 +827,7 @@ The end-user account determines the BDR/SDR alignment: If you are the SDR assign
 
 | Step                                           | Description                                                                                                                                                            |
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Gather billing and end-user details from the reseller | - Billing company name/address: <br> - Billing company contact/email address: <br> - End-user company name/address: <br> - End-user contact/email address: <br> - Snippet in outreach |
+| Gather billing and end-user details from the reseller | - Billing company name/address: <br> - Billing company contact/email address: <br> - End-user company name/address: <br> - End-user contact/email address: |
 | Create a new lead record with end-user details | - Ensure that all notes are copied over to the new LEAD as this is the LEAD that will be converted.                                                                     |
 | Converting the new lead                        | - Name opp to reflect reseller involvement as shown here: "End-user account name via reseller account name" <br> - Convert original reseller lead to a contact associated with the reseller account <br> - If an account does not already exist for the reseller, create one when converting the lead to a contact <br> - Assign the record to the same account owner <br> - Do NOT create a new opportunity with this lead. |
 | Attach activity to the opportunity            | - On the reseller contact, go to the activity and link each activity related to your opportunity to the opp. <br> - Activity History > click edit to the left of the activity > choose 'opportunity' from the 'related to' dropdown > find the new opportunity > save |
@@ -910,8 +859,8 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 **BDR steps after discovery call**
 
 - Summarize CoM principles uncovered during the call
-- Schedule next step through Outreach while being on the call with the prospect
-  - Meeting Type should be 45' Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect's needs.
+- Schedule next step through Groove while being on the call with the prospect
+  - Meeting Type should be a 45' Call and the body of invitation should be adjusted to meet the prospect's needs.
 - Send AE Intro Email
   - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
 - Log Required SFDC fields and populate Notes field.
@@ -927,8 +876,8 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 
 **BDR steps before discovery call**
 
-- Schedule next step through Outreach while being on the call with the prospect, and schedule straight to the AEs calendar.
-  - Meeting Type should be 15' Discovery Call.
+- Schedule next step through Groove while being on the call with the prospect, and schedule straight to the AEs calendar.
+  - Meeting Type should be a 15' Discovery Call.
 - Create SFDC opportunity, and log any pre-determined or relevant information from your past reseearch.
 - Communicate with AE, and create a mutual command plan for the call.
   - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
@@ -990,7 +939,7 @@ This complementary table can help structure your thinking around what outbound a
 
 | **Priority Level** | **Account Strategy Includes** | **Next Step Date** | **Next Step Notes** |
 | Priority 1 | Priority #, Any Details | Future based next steps | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
-| Priority 2 | Priority #, Weekly Plan or Length of Sequence | Future based next steps depending on account strategy | Include the weeks outreach and overall strategy |
+| Priority 2 | Priority #, Weekly Plan or Length of Groove Flow | Future based next steps depending on account strategy | Include the weeks outreach and overall strategy |
 | Priority 3 | Priority # | Update Next Step Date to next months outreach | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
 
 ### Growth Strategies, Ranking and RoE
@@ -1054,14 +1003,13 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | VIP (prospect)           | A Very Important Person, top officer, executive buyer, C-level prospect, or important influencer requiring hyper-personalization.                                            |
 | Influencer (prospect)    | An individual prospect suspected to be involved with IT decision-making, tooling, teams, roadmap, strategic projects, and/or budgets.                                         |
 | User (prospect)          | A prospect with limited influence within an IT organization.                                                                                                                 |
-| Groundswell               | An outbound strategy focused on filling the top of the funnel by generating engagement, opt-ins, MQLs, and uncovering intent signals.                                         |
-| Snippets                  | Content created for BDRs and SDRs to use to create hyper-personalized sequences, one-off emails, or to use for reaching out to prospects via LinkedIn.                      |
+| Groundswell               | An outbound strategy focused on filling the top of the funnel by generating engagement, opt-ins, MQLs, and uncovering intent signals.                                         |                  
 | Warm Calling              | The method used to strategically incorporate phone calls and voicemails into an outbound prospecting workflow.                                                               |
 | Rules of Engagement (RoE) | Defines ownership of a lead, SAO credit, and collaboration between SDRs and BDRs.                                                                                          |
 | BDR Prospecting Status    | Salesforce status includes Queued, Actively Working, Worked in FY, and Restricted.                                                                                         |
 | Vartopia Partner Account | If populated, the lead/contact is worked by a partner, and Sales Dev should not proceed with outreach.                                                                     |
 | Actively Working Status   | Accounts chosen for strategic outreach based on alignment, news, initiatives, etc. Recycles after 10 weeks if not worked.                                                    |
-| Actively Working Status Requirements | BDR Account Strategy field must be populated. Research and Next Steps notes within 10 days. Minimum 5 people in sequences.                                               |
+| Actively Working Status Requirements | BDR Account Strategy field must be populated. Research and Next Steps notes within 10 days. Minimum 5 people in Flows.                                               |
 | Queued status             | Accounts waiting to be moved into Actively Working. SDRs work MQLs in this status.                                                                                          |
 | Worked in FY status       | Indicates an account went through "Actively Working" this FY. Can be moved back to "Actively Working" later.                                                               |
 | Restricted status          | SAE-indicated restriction on the account. BDRs handle the status change, note the reason, and reroute to assigned BDR.                                                      |
@@ -1168,12 +1116,12 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
 - These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
-- If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
+- If you'd like to iterate on these flows please follow the content creation process outlined [here.](handbook/marketing/sales-development/#new-groove-flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
-- These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).  
+- These people will be automatically be enrolled to a [fully automated Flow](https://groove.clari.com/flows/1124157).  
   - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally. 
 
 #### 3. When people leave or join accounts where we have open oppourtunities
@@ -1228,14 +1176,14 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 | ------ | ------- | ------- | ------- |
 | 1:1 Accounts Dashboard | 0. Queued Accounts | **For accounts in AW (Actively Working):** <br> These accounts are to be cleared on a weekly basis by being moved to AWA status or by leaving a clear chatter note as feedback on why the account was not added to a prospecting pipeline. This should include datapoints from intent tools or another other SSoT as supporting evidence.  | Carefully vetting and working accounts that are queued by the Sales team will lead to better collaboration, and mutual accountability. Not only are we expected to timely review these accounts but to keep our counterparts accountable to their account ranking by providing data-driven feedback. |
 | 1:1 Accounts Dashboard | 1. Review Existing Pipeline | **For accounts in AW:** <br> These accounts are currently in the team member's name. The total volume should not be over 125 for Mid-Market BDRs and 75 for Enterprise BDRs. As a priority these should be reviewed weekly and action should be taken accordingly to remove or update these accounts. |  When clicking into the report the team member can screen all the datapoints that can help them gauge the status of their accounts at a glance. Activity and Research fields can be combined with intent datapoints to quickly see which accounts should be reviewed further manually. |
-| 1:1 Accounts Dashboard | 2. Research Accounts to be Recycled | **For accounts in AW:** <br> These reports are nearing their automated recycle date, which by default is two months after their actively started work date. This report acts as a fallback report to the report above. A BDR should have already reviewed these accounts as part of their actively working account screen done in the previous step. This report will act as a second reminder. | In theory an outbound account will have received at least 30 days worth of outreach since most sequences we use have at least a 30 day cadence. It's fine to leave an account in a team member's pipeline until it's removed automatically in hopes of getting some inbound MQLs assigned to the BDR. Regardless, there's a business decision to be made about whether expecting inbound MQLs is a sound strategy, based on the team members quota attainment and overall pipeline at the moment, and whether replacing the about to be expired for another account is a better route. |
+| 1:1 Accounts Dashboard | 2. Research Accounts to be Recycled | **For accounts in AW:** <br> These reports are nearing their automated recycle date, which by default is two months after their actively started work date. This report acts as a fallback report to the report above. A BDR should have already reviewed these accounts as part of their actively working account screen done in the previous step. This report will act as a second reminder. | In theory an outbound account will have received at least 30 days worth of outreach since most flows we use have at least a 30 day cadence. It's fine to leave an account in a team member's pipeline until it's removed automatically in hopes of getting some inbound MQLs assigned to the BDR. Regardless, there's a business decision to be made about whether expecting inbound MQLs is a sound strategy, based on the team members quota attainment and overall pipeline at the moment, and whether replacing the about to be expired for another account is a better route. |
 | 1:1 Accounts Dashboard | 3. Re-evaluate newly added flagged accounts | **For accounts in AW:** <br> These accounts were recently added to a team member's pipeline but at least one of our intent tools flags it as a weak account in terms of intent data. | In the spirit of hyper-targeted results, this account should be empty since all tools we have should agree that this account is good enough to be added to the team member's pipeline. If there are any accounts flagged it is wise to review them and ensure that they should indeed remain with the team member's pipeline. |
 | 1:1 Account Dashboard | 4. Check past opportunities for potential use | **For accounts not in AW:** <br> These are past opportunities that could be reviewed for re-engagement. | Closed: Lost opportunity re-engagement is one of the best converting sources of pipeline for our team. After having reviewed the pressing reports in the first three steps above, the quickest review to make to gauge some low-hanging fruit is this report. |
 | 1:1 Account Dashboard | 5, 6 and 7. Assess high priority individuals | **For accounts not in AW:** <br> These three reports show individuals that connect to actively working accounts in the team member's pipeline. These should be reviewed and any relevant next steps or actions should be made on the account-level bdr notes. | These three reports show individuals with high intent data, engagement in marketing campaigns or recent with interesting moments. While it's not necessary that there has to be action on the specific individuals, their behavior can give significant queues into the current situation within an account. |
 | 1:1 Account Dashboard | 8, 9, 10, 11 and 12. Review High Intent Accounts. |**For accounts not in AWA:** <br> These reports split not-AWA accounts in a few different buckets. While there will be significant overlap, having multiple reports help prioritize how a team member can review their account list for new accounts to add to their pipeline. These reports should be reviewed weekly and the majority of AWA accounts should be sourced from one of these. | These reports all reference our intent based tools, existing RoE around pursuit accounts and should guide the decision-making of team members. Referencing these as a first step should create a lot of internal efficiencies in researching accounts. |
 | 1:1 Account Dashboard | 13. Consider AE-ranked accounts. | **For accounts not in AWA:** <br> This report visualises accounts as per the ranking that the sales team manually gave them. They should be reviewed after the team member has reviewed intent-based tools. | The Sales team does not have access to the same data as us so their manual research can be used a good fallback report to cross-reference against the reports in the previous steps. |
 | 1:1 Account Dashboard | 14 and 15. Review individuals from not actively worked accounts | **For accounts not in AWA:** <br> These reports show individuals from non-actively worked accounts that either have been part of a marketing campaign, or show strong intent signals. | These individuals should be approcah as an indication that the account as a whole should be investigated for outbounding. |
-| 1:1 Account Dashboard | 16. Review individuals in flight. | **For accounts not in AWA:** <br> This report shows a breakdown of prospects currently on a sequence. Should be reviewed for any further actions to be taken. | Consider whether adding more individuals to a sequence for a particular account might make sense, or whether the individuals from the top prospect accounts should be getting additional outreach outside of the sequence steps. |
+| 1:1 Account Dashboard | 16. Review individuals in flight. | **For accounts not in AWA:** <br> This report shows a breakdown of prospects currently on a Groove Flow. Should be reviewed for any further actions to be taken. | Consider whether adding more individuals to a flow for a particular account might make sense, or whether the individuals from the top prospect accounts should be getting additional outreach outside of the flow steps. |
 | 1:1 Account Dashboard | 17. Consider past Actively Worked Accounts. | **For accounts not in AWA:** <br> As a final check, this report should accounts that were previously outbounded for the territory, do any of them make sense in terms of re-engagement? | Outbound efforts typically take a long time to convert an account, and reviewing new intent data is a great practice to maintaing a good re-engagememt pipeline. |
 | Tableau Dashboard | Inbound Interest Dashboard | This dashboard is an intuitive way for BDRs to manually screen their database. It should be used as a complementary resource to the account-level dashboards above. | While the account-level dashboards are pre-made, and there to guide the thinking of team members in terms of account research, this Tableau dashboard allows a team member more flexibility into sorting through the database. They can use the filters to replicate the permutations of the account level reports in any way that they please. |
 | Tableau Self-Dashboard | Self-Managed Instances Dashboard | This dashboard allows BDRs to track and manage instances that are self-deployed by prospects or clients. | It helps BDRs understand how self-managed instances are performing and identify any potential opportunities to convert them into fully managed accounts or upsell additional services. |
@@ -1313,7 +1261,7 @@ Example:
 
 - **Type**
   - Enablement - (Mandatory, Optional)
-  - Operations -  (Process Change, Tools, Sequences, Reports, System Changes/System Updates )
+  - Operations -  (Process Change, Tools, Flows, Reports, System Changes/System Updates )
   - New Event/Initiative/Resource
   - Survey
   - Org Wide Announcement
@@ -1331,9 +1279,9 @@ Example:
 - **Example Sales_Dev_fyi channel post titles**
   - `[All of Sales Development] | [Enablement - Mandatory] | [🚨 Action Required]`
 
-  - `[All BDRs] | [Operations - Outreach Process Cleanup] | [🧠 Need to Know ]`
+  - `[All BDRs] | [Operations - Groove Flow Process Cleanup] | [🧠 Need to Know ]`
 
-  - `[EMEA Enterprise Land] | [Operations - New Outreach Event Sequence] | [🚨 Action Required ]`
+  - `[EMEA Enterprise Land] | [Operations - New Groove Event Flows] | [🚨 Action Required ]`
 
   - `[All of Sales Development] | [Survey - People Group Survey Reminder] | [📊 Feedback Requested ]`
 
@@ -1443,35 +1391,35 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 - When a teamember is either leaving GitLab, leaving the Sales Dev Org, or transferring to another BDR team the departing team's manager must created a [Sales Dev Handover Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Exit_handover_template.md?ref_type=heads)
 
-### Sequence Creation
+### Flow Creation
 
-- We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+- We follow the process outlined [here](handbook/marketing/sales-development/#new-groove-flow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the Flows/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
-**1. Sequence needs to be a globally applicable**
+**1. Flow needs to be a globally applicable**
 
-- Only sequences that could be used by any team member globally can be added to the Good Collection.
-- If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
-- Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
+- Only Flows that could be used by any team member globally can be added to the Good Collection.
+- If a regionalized Flows can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
+- Field Marketing event Flows and any other similar type will not be considered for the Good Collection.
 
-**2. Sequence needs to have completed the requirements set out on the issue descrption**
+**2. Flows needs to have completed the requirements set out on the issue descrption**
 
-- At least 200 people enrolled and/or having completed the sequence on a timely manner.
-- ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
+- At least 200 people enrolled and/or having completed the Flows on a timely manner.
+- ( Flows has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Flows has over 5% meeting set rate.
 
-#### Things to look out for when reviewing a sequence as a Manager
+#### Things to look out for when reviewing a Flow as a Manager
 
-- Does the messaging of the sequence follow Command Of the Message?
+- Does the messaging of the Flows follow Command Of the Message?
   - Are all emails formatted appropriately with pain-probing questions and value propositions?
-  - Are the relevant value drivers for the personas targeted by this sequence used?
+  - Are the relevant value drivers for the personas targeted by this Flows used?
 - Is there a proper mix of automated and manual touches?
-  - Are 1-2 highly personalized emails used for High-Touch sequences?
-  - Are there at least 4 call steps for High-Touch sequences?
+  - Are 1-2 highly personalized emails used for High-Touch Flows?
+  - Are there at least 4 call steps for High-Touch Flows?
   - For Low-Touch/Awareness campaigns are all touchpoints automated?
-- Are proper Outreach elements used?
+- Are proper Groove elements used?
   - Are automated variables used all on all emails?
   - Are manual personalisation variables used on manual emails?
-- Is the purpose of the sequence clearly articulated on the issue description?
-  - Are there other sequences that are proven to work that could be used instead?
+- Is the purpose of the Flowsclearly articulated on the issue description?
+  - Are there other Flows that are proven to work that could be used instead?
   - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
   - Is the target demographic clearly thought out?
 
@@ -1570,7 +1518,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
     **Yes:** It is worked by the BDR Assigned <br>
     **No:** It is worked by the SDR Team.
 
-    **Next Steps:** SDR chatters the BDR Assigned and lets them know you didn't find activity and will go ahead and sequence the lead. FYI's the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR's research, the SDR should end the sequence if the prospect hasn't engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
+    **Next Steps:** SDR chatters the BDR Assigned and lets them know you didn't find activity and will go ahead and Flow the lead. FYI's the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR's research, the SDR should end the Flow if the prospect hasn't engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
 
 7. Is the Account in "Queued" Status?
 
@@ -1612,7 +1560,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
     **Yes:** If it's an SMB lead it's worked by the inbound team, if it's a MM/ENTG lead it's passed to the BDR associated with the territory regardless of the rest of the RoE. BDR is expected to follow the outbound actively worked account process as per usual.
 
-If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active sequence if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
+If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active Groove Flow if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
 #### Routing Workflow Chart
 
@@ -1622,8 +1570,8 @@ If the related SDR relays information that was not picked up in the new SDR's re
 
 #### General Sales Dev Trouble-shooting
 
-**Q:** I can't see certain Outreach collections!: <Br>
-**A:** You potentially were added to the incorrect Sales Dev Team in Outreach. Please reach out to Sales Dev Operations.
+**Q:** I can't see certain Groove collections!: <Br>
+**A:** You potentially were added to the incorrect Sales Dev Team in Groove. Please reach out to Sales Dev Operations.
 
 **Q:** My version of Salesforce seems very basic…: <br>
 **A:** Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select "Sales".
@@ -1640,8 +1588,8 @@ If the related SDR relays information that was not picked up in the new SDR's re
 **Q:** I received a personal data subject request by a prospect. <Br>
 **A:** Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request.](https://support.gitlab.io/account-deletion/) This messaging snippet can be [used and tailored.](https://web.outreach.io/snippets/1903)
 
-**Q:** Why are BDRs no longer the Account Owner in Outreach? <br>
-**A:** BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the 'BDR Assigned' field.
+**Q:** Why are BDRs no longer the Account Owner in SFDC? <br>
+**A:** BDRs are no longer listed as the account Owner in SFDC to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the 'BDR Assigned' field.
 
 **Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br>
 **A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect's account. Then follow the process to request SAO credit.
@@ -1671,7 +1619,7 @@ The Operations team and/or Director will review the information and decide wheth
 **A:** Yes, if they email, reply via LI, or call the BDR directly, the BDR will need to check that the lead is in queue ownership. If so, they must move the account back to "Actively Working", so that the lead can be put into their ownership.
 
 **Q:** Why are my leads being reassigned to Inquiry Queue? <br>
-**A:** Marketing Operations has a daily scheduled clean at 10:30 PM EST/EDT that update Status = Inquiry to Inquiry Queue. To prevent the reassignment, you'll want to update the leads from Inquiry to Accepted or add to an Outreach sequence.
+**A:** Marketing Operations has a daily scheduled clean at 10:30 PM EST/EDT that update Status = Inquiry to Inquiry Queue. To prevent the reassignment, you'll want to update the leads from Inquiry to Accepted or add to an Groove Flow.
 
 **Q:** What should BDRs do when a prospect or contact responds with a complince related question or objects to being contacted? <br>
 **A:** Immediately reach out to the Privacy Team via #privacy-team-help and forward any email from the contact to dpo@gitlab.com.
@@ -1723,7 +1671,7 @@ Announcement Channels
 | Ramping 2 | - Timeframe: Month 2 - Parameters: SDR is on 50% quota, leads are set at 100% in Traction, Qualified is off |
 | Ramping 3 | - Timeframe: Month 3 - Parameters: SDR is on 75% quota, leads are set at 100% in Traction, SDR is added to Qualified |
 | Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
-| | - SDR is now able to create their own Outreach sequences pending approval.               |
+| | - SDR is now able to create their own Groove Flows pending approval.               |
 
 #### Sales Development Credit Matrix
 
@@ -1854,11 +1802,11 @@ Announcement Channels
 
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Uphold Daily Activity Metrics   | - MQLs to be sequenced within expected activity metrics.                                                                                                                               |
-|                                    | - Work lead records within Salesforce by leveraging relevant sequence libraries in Outreach.                                                                                            |
-|                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Outreach data.                              |
+| 1. Uphold Daily Activity Metrics   | - MQLs to be added to Groove Flows within expected activity metrics.                                                                                                                               |
+|                                    | - Work lead records within Salesforce by leveraging relevant Flows tags in Groove.                                                                                            |
+|                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Groove data.                              |
 |                                    | - Maintain SFDC data integrity by following the outbound workflow in researching and prospecting accounts.                                                                             |
-|                                    | - Sequence steps to be actioned within the same day of them being due. Move steps to a further date only because of national holidays affecting outreach (i.e., Christmas day).      |
+|                                    | - Flow steps to be actioned within the same day of them being due. Move steps to a further date only because of national holidays affecting outreach (i.e., Christmas day).      |
 |                                    | - Maintain cross-functional relationships in terms of outbound account planning. Attend each initial qualifying meeting (IQM) with the AE/SAE you work with. Document accurate up-to-date notes in SFDC. |
 | 2. Displaying Business and Sales Acumen | - Display business acumen and sales skills in personalizing inbound/outbound leads, following our CoM email writing principles.                                                          |
 |                                           | - Display business acumen and sales skills in preparing for cold-calls, following our CoM cold-calling principles.                                                                    |
@@ -1874,7 +1822,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams:
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
 | Response Time for leads            | - Net New MQLs: 15 minutes <br> - Inbound Responses: 8 work hours |
-| Low vs High Touch Sequence Usage    | - Over 70% of inbound leads enrolled to High Touch sequences.        |
+| Low vs High Touch Groove Flow Usage    | - Over 70% of inbound leads enrolled to High Touch Flows.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
 
@@ -1886,7 +1834,7 @@ In addition to the above, BDR team members are expected to:
 |-----------------------------|------------------------------------------------------------------------|
 | Volume of Actively Working Accounts per Quarter               | **- Enterprise:** <br> - 75 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 65 6QAd accounts per Quarter, per BDR. <br> **- Mid-Market:** <br> - 125 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 25 6QA'd accounts per Quarter, per BDR.  |
 | Research Quality            | >80% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
-| Volume of Prospects per Account | 5-10 prospects sequenced per account, whose titles and personas match our ICPs. |
+| Volume of Prospects per Account | 5-10 prospects added to Groove Flow per account, whose titles and personas match our ICPs. |
 | 6QA Account Review | All automatically 6QA'd accounts to be reviewed, and either accepted or rejected, within 48 hours. | 
 
 ### PTO and Flexible Working
@@ -1906,7 +1854,7 @@ At GitLab we have flexible working hours. This means that you can organize your 
 With a prospect-facing role in Sales Development, do keep in mind when you are calling and emailing prospects:
 
 - The best times to call are early and late in the business day, so these may be best blocked for this activity.
-- Outreach allows you to schedule emails at set times. For outbound prospecting, the most effective emails are those that come in the early morning and early evening, so you can take advantage of this feature. On the other hand, inbound MQL's must be handled regularly throughout your day as they come in.
+- Groove allows you to schedule emails at set times. For outbound prospecting, the most effective emails are those that come in the early morning and early evening, so you can take advantage of this feature. On the other hand, inbound MQL's must be handled regularly throughout your day as they come in.
 - Lunchtimes are good for outreach as most prospects have meeting blocks for three hours in the morning and then two hours mid-afternoon.
 - The above blocks you can use for account research and planning, customer meetings, or meetings with your sales reps, manager, peers, and teams.
 - Although you are not expected to start work and end work at the same time every day, please do keep in mind the normal business hours of your prospects, and make sure to schedule your own working hours to ensure you maximize opportunities.
