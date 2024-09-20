@@ -29,7 +29,7 @@ For matters opened in GitLab Issues that require the Commercial Legal Team's att
 
 ### Corporate & Compliance
 
-The [Corporate & Compliance Team](/handbook/legal/publiccompanyresources/) supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab's SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab's direct and indirect wholly owned international and domestic subsidiaries.
+The [Corporate & Compliance Team](/handbook/legal/publiccompanyresources/) supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab's SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab's direct and indirect wholly owned international and domestic subsidiaries and [trade compliance](/handbook/legal/trade-compliance/).
 
 ### Corporate Development
 
@@ -47,9 +47,9 @@ The [ESG Team](/handbook/legal/esg/) creates and maintains GitLab's Corporate Su
 
 [Legal Operations](/handbook/legal/legalops/) supports Legal & Corporate Affairs processes with a focus on defining and driving initiatives that improve the team's efficiency and effectiveness. Operations also includes Legal's [Procurement](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) function, which reviews purchases made to ensure adequate terms are present for GitLab.
 
-### Privacy, Product, and Trade Compliance
+### Privacy, Product and IP
 
-The [Privacy](/handbook/legal/privacy/), [Product](/handbook/legal/product/), and [Trade Compliance](/handbook/legal/trade-compliance/) Team collaborates with all GitLab teams including engineering, security, product, and marketing to provide guidance and direction in a broad range of matters relating to data privacy, open source licensing, intellectual property protection and export compliance.
+The [Privacy](/handbook/legal/privacy/), [Product and IP](/handbook/legal/product/) Team collaborates with all GitLab teams including engineering, security, product, and marketing to provide guidance and direction in a broad range of matters relating to data privacy, open source licensing, intellectual property protection and export compliance.
 
 ### Risk Management and Dispute Resolution
 
