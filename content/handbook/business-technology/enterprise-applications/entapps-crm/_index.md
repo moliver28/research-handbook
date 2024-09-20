@@ -36,7 +36,7 @@ Description: This issue is completed. There was no setting, configuration or cod
 1. The most common use case are question or research issues.
 1. Data changes as part of a backfill for another operations team fall into this category.
 
-### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)
+**Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)**
 
 Label: `SalesSystems::Deployed - 1 - Settings Change`
 Description: This issue is completed. There was a setting change. Sign-off is required, No Change Set Used.
