@@ -53,19 +53,23 @@ The QTR report is designed to provide division leadership with key organizationa
 * Promotion rate
 
 **2. Learning and Development**
+
 * L&D program participation
 * G&D spend
 
 **3. Team Member Relations**
+
 * Team member relations cases
 
 **4. Executive Summary and Action Items**
+
    * Executive summary of key takeaways
    * Leadership action items for follow-up
       * This slide will be updated at the beginning of each fiscal year with recommended actions for each division that are rooted in the data that is shared. This will serve as the core divisional “Talent Strategy” for the FY.
       * Actions on this slide will continue to be tracked during each review and updated as needed depending on progress made and what each quarter’s data reveals.
 
 **5. COE Updates (DIB, TA)**
+
   * What’s top of mind for Diversity, Inclusion & Belonging (DIB)
       * This slide will allow DIB to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
   * What’s top of mind for Talent Acquisition (TA) 
