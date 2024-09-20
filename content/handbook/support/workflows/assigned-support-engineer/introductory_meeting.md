@@ -29,6 +29,35 @@ There are only a few goals for this meeting:
 - Begin the relationship building between you and the customers
 - Learn what the customers really want and need from you
 
+## **Optional** Pre-introductory meeting between ASE and CSM
+
+Before your introductory call, it's advisable to meet with the CSM you'll
+be working alongside. Here are some key points you should go over to ensure
+you're both aligned and can help each other succeed:
+
+- Brief Introduction / Chat: Discuss work styles, preferences, expectations,
+and how you can best support one another.
+
+In addition, it's also **highly recommended** to address the following items
+during the meeting, as these tips are essential for effective customer-facing
+interactions:
+
+- Avoid assigning labels to colleagues during all interactions, particularly 
+those that are customer-facing. For instance, a CSM should refrain from
+making statements like, "This ASE is really good at CI/CD."
+  - Such statements can inadvertently influence the customer’s expectations
+and perceptions, potentially leading to misalignment between what is promised
+and what is delivered
+  - Labeling can create preconceived notions about specific team members'
+roles or expertise, which may not accurately reflect their full
+capabilities or responsibilities.
+- Demonstrate Mutual Trust: Show a high level of trust in each other’s
+abilities. If any concerns arise, address them privately, away from customers,
+to maintain professionalism and avoid undermining confidence.
+- Coordinate Before Involving Additional Resources: Always communicate and
+discuss matters thoroughly before considering the need to involve other
+resources.
+
 ## Structure
 
 1. Introduce yourself
