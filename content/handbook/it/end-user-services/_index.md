@@ -56,7 +56,7 @@ Please visit the GitLab Laptop Offboarding page for information pertaining to th
 
 #### Self-help and troubleshooting
 
-Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](/handbook/business-technology/end-user-services/self-help-troubleshooting/)
+Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](https://internal.gitlab.com/handbook/it/end-user-services/self-help-troubleshooting/)
 
 #### GitLab IT 101
 
