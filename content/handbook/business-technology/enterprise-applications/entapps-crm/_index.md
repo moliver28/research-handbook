@@ -241,7 +241,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 - [ ] 4. [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 - [ ] 5. [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code)
 
-### [Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue
+**[Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue**
 
 #### [Business Program Owner] Business Process Owner sign-off :- Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
 
