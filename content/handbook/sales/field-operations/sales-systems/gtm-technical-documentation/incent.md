@@ -14,7 +14,7 @@ The Documentation below is organized to understand the flow of the data from Sal
 - Xactly Connect is part of Xactly that Xactly Administrators and Developers can work in to organize the flow of data from Salesforce into Xactly Incent.
 - Xactly Incent is where end users can monitor their compensation. The final output of Xactly Connect, alongside compensation plans and more as built out by the compensation team, is what feeds Xactly Incent
 
-### Xactly Conenct
+### Xactly Connect
 
 - Documentation for Xactly Connect is only accessible to users who are logged into Xactly and is accessible through the community portal
 - Key Terms
