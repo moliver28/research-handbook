@@ -19,8 +19,8 @@ Our mission is to develop a comprehensive context framework that will:
 
 | Name                                           | Team/Role           |
 |------------------------------------------------|---------------------|
-| {{< member-by-name "Matt Nohr" >}}             | Code Creation / EM  |
-| {{< member-by-name "Ben Venker" >}}            | Global Search / PM  |
+| {{< member-by-name "Matt Nohr" >}}             | Code Creation / EM and Engineering DRI  |
+| {{< member-by-name "Ben Venker" >}}            | Global Search / PM and Product DRI  |
 | {{< member-by-name "Allen Cook" >}}            | Code Creation       |
 | {{< member-by-name "Denys Mishunov" >}}        | AI Framework        |
 | {{< member-by-name "Michael Angelo Rivera" >}} | Editor Extensions   | 
