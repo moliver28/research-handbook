@@ -92,7 +92,7 @@ GitLab supports team members who wish to continue their education and growth wit
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
+The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## GitLab Summit
 
