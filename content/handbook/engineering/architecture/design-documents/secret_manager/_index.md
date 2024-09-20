@@ -84,6 +84,7 @@ This blueprint does not cover the following:
 - [ADR-004: Use OpenBao as the secrets management service](decisions/004_openbao/)
 - [ADR-005: Non-hierarchical key structure for secrets in OpenBao](decisions/005_secrets_key_structure/)
 - [ADR-006: Use AppRole authentication method between Rails and OpenBao](decisions/006_approle_authentication_rails/)
+- [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
 
 ### Superseded
 
