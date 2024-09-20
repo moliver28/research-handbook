@@ -3,7 +3,7 @@ title: "CSE Content"
 description: "Learn about the Customer Success Engineering content team, catalog, creation and contribution workflows."
 ---
 
-## <i class="fa-solid fa-door-open" style="color: #B197FC;"></i> Welcome to the Customer Success Engineering Content Handbook
+## <i class="fa-solid fa-door-open" style="color: #B197FC;"></i> Welcome to the CSE Content Handbook
 
 ## <i class="fa-solid fa-signs-post" style="color: #B197FC;"></i> QuickLinks
 
