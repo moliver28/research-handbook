@@ -162,6 +162,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 - [CSM Onboarding](/handbook/customer-success/csm/csm-onboarding/)
 - [CSM Rhythm of Business](/handbook/customer-success/csm/rhythm/)
 - [Using Gainsight](/handbook/customer-success/csm/gainsight/)
+- [CSM Quaterly Business Reviews](/handbook/customer-success/csm/qbr/)
 - [CSM Responsibilities and Services](/handbook/customer-success/csm/services/)
 - [CSM and Product Interaction](/handbook/customer-success/csm/product/)
 - [CSM and Professional Services Interaction](/handbook/customer-success/csm/engaging-with-ps/)
