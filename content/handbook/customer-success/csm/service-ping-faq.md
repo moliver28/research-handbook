@@ -58,7 +58,7 @@ Copy and paste this information into a text file, encrypt and send to GitLab or 
 
 At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
 
-## 5. How do we ensure that you don't change what's in the payload to include things we don't want to share? How do we re-verify this with each new release in a way that doesn't take a lot of time or effort?
+## 5. How do we ensure integrity and updates of the payload?
 
 Our documentation shows all usage statistics and content that is sent back to GitLab. When we change / update product analytics you can view the exact JSON payload in the administration panel. To view the payload: Navigate to the Admin Area > Settings > Metrics and profiling. Expand the Usage statistics section. Click the Preview payload button.
 
