@@ -36,8 +36,8 @@ In order to open a backfill:
 
 1. Manager of departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding).
 1. Talent Acquisition Leadership (Dir+) is notified via automated reporting once attrition is entered into the system.
-1. Leadership allocates the role to appropriate recruiter.
-1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member. *For Engineering roles only*, please skip this step and refer to the decision in the Interlock - Backfill Approval tab and move to step 6. 
+1. Talent Acquisition Leadership allocates the role to appropriate recruiter.
+1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member. *For Engineering roles only*, please skip this step and refer to the decision in the [Interlock - Backfill Approval](https://docs.google.com/spreadsheets/d/19xRXa23hQP6Tkfodz8R18RD2lhO0WufFtg9HIXy0AI0/edit?gid=111422377#gid=111422377) tab and move to step 6. 
 1. Recruiter works through backfill issue with the business and PBP to drive towards backfill approval: role is to be direct backfill, repurposed within a team or organization. Recruiters to ensure documentation in issue for each decision made.
 *For Sales roles only*: Once the backfill issue is created, TA leadership posts in Sales Leadership channel for approval from the VP of the department. Once approval is received, TA leader is to document approval in the backfill issue for future reference. For templates, GitLab team members can utilize [this link](https://docs.google.com/document/d/19LjNhyNhcqmBMHoaGbjPvUfjWQk0wR9w8iowPlgdfkU/edit)
 *For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
