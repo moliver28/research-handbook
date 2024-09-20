@@ -294,3 +294,7 @@
 
 # about.gitlab.com handbook guide redirects - remove 2025-05-25
 /handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
+
+# Growth and Development Pages Moved - remove 2024-12-20
+/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/ /handbook/people-group/learning-and-development/growth-and-development/ 301
+/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/* /handbook/people-group/learning-and-development/growth-and-development/:splat 301 
