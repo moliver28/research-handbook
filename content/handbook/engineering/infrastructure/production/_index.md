@@ -133,7 +133,7 @@ For some incidents, we may figure out that the usage patterns that led to the is
 
 ### Purpose
 
-This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.
 
 ### Scope
 
