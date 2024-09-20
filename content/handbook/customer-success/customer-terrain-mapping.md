@@ -41,7 +41,7 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 1. [Terrain Mapping for Self Managed Implementation Review](#terrain-mapping-for-self-managed-implementation-review)
 2. [Terrain Mapping for Developer Skill Ramping Onto GitLab CI and CD](#terrain-mapping-for-developer-skill-ramping-onto-gitlab-ci-and-cd)
-3. [Terrain Mapping Best Practices For Operating Self Managed GitLab as a Production-Grade Internal Service](#terrain-mapping-best-practices-for-operating-self-managed-gitlab-as-a-production-grade-internal-service)
+3. [Terrain Mapping Best Practices GitLab SelfManaged](#terrain-mapping-best-practices-gitlab-selfmanaged)
 4. [Terrain Mapping for GitLab Migration Review](#terrain-mapping-for-gitlab-migration-review)
 5. [Terrain Mapping for Gitflows, Workflow, Roles and Controls for SCM, CI and CD](#terrain-mapping-for-gitflows-workflow-roles-and-controls-for-scm-ci-and-cd)
 6. [Terrain Mapping for Implementing GitLab Secure](#terrain-mapping-for-implementing-gitlab-secure)
@@ -172,7 +172,7 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 ​ [Preparation materials (GitLab Team Members Only)](https://docs.google.com/presentation/d/106uQIXxy2tp3GLyl6WBdSwC7R7NUd9vTGaVePiDEo84/edit?usp=sharing)
 
-#### Outline: Terrain Mapping Best Practices For Operating Self Managed GitLab as a Production-Grade Internal Service
+#### Outline: Terrain Mapping Best Practices GitLab SelfManaged
 
 1. Teams and Users
 2. Existing Pipeline Code Analysis
