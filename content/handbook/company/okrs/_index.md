@@ -213,7 +213,7 @@ A dedicated session during an [E-Group Weekly](/company/e-group-weekly/) is the 
 1. KRs that related to company-OKRs, including:
      1. CEO OKR that cascade from
      1. Any risks or dependenciees
-1.  (Optional) Functional level-OKRs that don't directly cascade from comapany OKRs **if** they require cross-functional support to achieve or important for cross-functional awareness. 
+1.  (Optional) Functional level-OKRs that don't directly cascade from comapany OKRs **if** they require cross-functional support to achieve or important for cross-functional awareness.
 
 ### The quarter begins
 
