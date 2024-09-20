@@ -34,7 +34,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 * **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other CoEs where applicable (I.E. If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
 
 **3. Distribution of Report to Leadership**
-* **When:** 2 - 4 days prior to the QTR meeting with the division leader.
+* **When:** 3-4 business days prior to the QTR meeting with the division leader.
 * **Purpose:** Allow leaders time prior to the meeting to review the QTR report and add any questions/observations to the meeting agenda.
  
 **4. Quarterly Talent Review with E-Group**
