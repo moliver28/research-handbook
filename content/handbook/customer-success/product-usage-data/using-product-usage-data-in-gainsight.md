@@ -370,7 +370,7 @@ The customer or the account team may upload the JSON file using this link - http
 
 This process can take anywhere from 24-48 hours before it starts to populate Gainsight reports and scorecards.
 
-#### After updating an instance to be `Included in Health Measures` or alternatively, `Opt-out` an instance, how long does it take for the data to refresh in reports & scorecards?
+#### After updating instance data, how long does it take for the data to refresh?
 
 Please allow 24-48 hours after making any changes to the instances in Gainsight.
 
@@ -433,7 +433,7 @@ No. Please refer to [How do Last 28 Days metrics work?](#how-do-last-28-days-met
 
 You may notice usage stats missing for the first week of a month up until a ping is collected from the customer. The ping snapshot date will differ for each customer.
 
-### Is it true that if you set your CSM sentiment to yellow or green for an account that is Red for DevSecOps, you cannot influence the overall Red health score?
+### Does setting CSM sentiment to y/g for a Red DevSecOps score override the Red health score?
 
 There's no DevSecOps-specific override, however, there is one option to override which is the CSM Sentiment. The CSM can change that to Red, making the overall account red. [HB Reference](/handbook/customer-success/csm/health-score-triage/#csm-sentiment). CSM Sentiment overall weighting is 25%, whereas Product is 50%
 
@@ -445,7 +445,7 @@ There's no DevSecOps-specific override, however, there is one option to override
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 
-### What's the best way to understand details about a metric, including availability for SaaS, and in which release we started measuring that metric?
+### What's the best way to understand details about a metric?
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 
