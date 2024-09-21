@@ -104,7 +104,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 
 #### Airfare
 
-All business related flights need to be booked through Navan, and will be paid by GitLab travel card. For each flight search, Navan determines the price in real time. Also to note that while it is sometimes possible to find a cheaper flight outside of Navan, we get overall better rates in the aggregate with the buying power of the whole company. Even if a flight is cheaper outside of Navan, please book in Navan. Also email expenses@gitlab.com with screenshots of Navan's rate and the other airlines rate so the Expense team can address with Navan.
+All business related flights need to be booked through Navan, and will be paid by GitLab travel card. For each flight search, Navan determines the price in real time. Also to note that while it is sometimes possible to find a cheaper flight outside of Navan, we get overall better rates in the aggregate with the buying power of the whole company. Even if a flight is cheaper outside of Navan, please book in Navan. Also rasie a ticket on [HelpLab](https://helplab.gitlab.systems/esc) with screenshots of Navan's rate and the other airlines rate so the Expense team can address with Navan.
 
 #### Advance Purchase
 
