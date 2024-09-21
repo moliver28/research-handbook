@@ -79,7 +79,7 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-06-10.*
+*Last updated on 2024-09-20*
 
 Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities
 
@@ -91,6 +91,7 @@ Please note for Self Managed extensions:
 
 - The 14 day grace period does not apply and the customer will only get a 21 day extension [OPEN issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1827)
 - The temporary license generated will only be for the customer's base plan (Premium or Ultimate). If the customer has a GitLab Duo Pro or GitLab Duo Enterprise add-on, they will lose Duo access when the temporary renewal license is applied to their instance.
+- SM customers may have to manually apply their activation code or license key upon successful renewal if it does not appear automatically on their instance [Some instances may block the sync of renewed license key if the temporary extension is still active].
 
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
