@@ -1167,9 +1167,11 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
 - These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
+- For the BDR Team, please ensure that your `BDR Account Research` field will include a clear note of the keyword `UserGems` for our tracking purposes. 
 - These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
+- Generation of pipeline from these efforts is tracked on our [Pipeline Progress Dashboard on SFDC](https://gitlab.my.salesforce.com/01Z8X000000u6mP?)
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
