@@ -1140,15 +1140,13 @@ Specifically:
 
 [Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts.
 
-### Chorus
+### Gong
 
-Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywords, provides analytics, and transcribes calls into both Salesforce and Outreach. Chorus will be used to onboard new team members, provide ongoing training and development for existing team members, provide non-sales employees with access to sales calls, and allow sales reps to recall certain points of a call or demo. At this time, US Sales, US Customer Success, US SDRs will be considered recorders. Non-US Commercial and Non-US SDRs can request recorder access once they have completed the GDPR training course. Non-US recorders will also need access to the EMEZ Zoom Group. Everyone else can access the tool as a listener if they wish.
+Refer to the [Gong](https://internal.gitlab.com/handbook/sales/sales-tools/gong/) handbook page for full details on how Gong is leveraged at GitLab.
 
-#### Chorus Training Resources
+Sales Development Org team members are provided with Gong collaborator licenses for visibility to recorded sales conversations.
 
-- Chorus: [Tips for Getting Start](https://www.zoominfo.com/about/get-started-old/chorus)
-- GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
-- GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+SDR and BDR team members are able to leverage the `Gong Meeting` option when creating meeting invites for prospects and customers. By using this option and adding an Account Executive with Gong recorder access to the meeting invite, Gong will leverage the AE's recorder access to record the meeting, assuming all meeting participants consent to record. More details about the Gong consent page can be found in the [Gong internal handbook page](https://internal.gitlab.com/handbook/sales/sales-tools/gong/#global-privacy-compliance). Once the recording is processed, the Account Executive that was added to the invite will be listed in Gong as the host and owner of the call with the SDR or BDR as an attendee.
 
 ### Crayon Competitive Messaging Resources
 
@@ -1168,7 +1166,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. 
 - BDR Team members are to research UserGems leads that they receive, and proceed with following the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that your `BDR Account Research` field will include a clear note of the keyword `UserGems` for our tracking purposes. 
-- These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
+- These leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 - Generation of pipeline from these efforts is tracked on our [Pipeline Progress Dashboard on SFDC](https://gitlab.my.salesforce.com/01Z8X000000u6mP?)
