@@ -243,7 +243,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 **[Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue**
 
-#### [Business Program Owner] Business Process Owner sign-off :- Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
+**[Business Program Owner] Business Process Owner sign-off :- Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department**
 
 | Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
@@ -261,7 +261,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 | Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
 | Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
 
-#### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
+**[Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below**
 
 | Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
@@ -276,7 +276,7 @@ Once the issue has been deployed, the issue should be tagged with one of the fol
 - SalesSystems::Deployed - 2 - Configuration Change
 - SalesSystems::Deployed - 3 - Code Change
 
-#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set
+**[Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set**
 
 ## Milestone Review and QA
 
