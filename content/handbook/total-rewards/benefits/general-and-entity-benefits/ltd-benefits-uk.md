@@ -5,12 +5,12 @@ description: "GitLab LTD (UK) benefits specific to UK based team members."
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
 
-For any queries related to UK benefits, please email `total-rewards@gitlab.com` for further assistance.
+For any queries related to UK benefits, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) for further assistance.
 
 ## Medical Insurance
 
 For UK-based team members, GitLab provides 100% paid membership of medical insurance with AXA PPP. This private medical insurance level is named Business Health Select with core cover. Family members can be added to the insurance and GitLab will pay 66% of the cost to include them.
-Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please email 'nonuspayroll@gitlab.com' and 'total-rewards@gitlab.com'.
+Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please reach out via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
 ### Enrollment
@@ -48,7 +48,7 @@ The current coverage includes:
 \* Current team members enrolled and new joiners to the AXA plan will have cover for treatment of pre-existing medical issues they may have had before joining, without being a member for two years or being required to have 12 consecutive months of "trouble-free" from when the condition began (pre-existing moratorium terms no longer apply).
 
 For additional details regarding coverage please review the [AXA Coverage Summary](https://drive.google.com/file/d/1TMk8xTt6yfzm-wI1X_wMyYfJF3GAgb4k/view?usp=sharing).
-For claims assistance, please contact total-rewards@gitlab.com. While we are unable to take over the claims process on behalf of the team member, our broker can assist in reaching out to AXA to escalate.
+For claims assistance, please contact [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). While we are unable to take over the claims process on behalf of the team member, our broker can assist in reaching out to AXA to escalate.
 
 Please also note that this is a taxable benefit. Team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage.
 
