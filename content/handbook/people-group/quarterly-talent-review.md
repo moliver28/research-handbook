@@ -27,7 +27,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 
 **1. Report Distribution**
 
-* **When:** Reports will be shared to PBPs by the 15th day of the first month of each quarter.
+- **When:** Reports will be shared to PBPs by the 15th day of the first month of each quarter.
 * **What:** Each report will contain the org health data specific to each division and any relevant metrics to be reviewed in the upcoming Talent QTR meetings. A detailed overview of data included in each report is included below. Where applicable, CoE leaders will also have the opportunity to include a `Top of Mind` overview slide to ensure that there is an opportunity to share key strategic initiatives as part of this forum.
 
 **2. Prep Call**
