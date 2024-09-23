@@ -33,6 +33,34 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 | [Senior Manager, Total Rewards](#senior-manager-total-rewards) | 9 |
 | [Director, Total Rewards](#director-total-rewards) | 10 |
 
+## Total Rewards
+
+### Senior Total Rewards Program Manager
+
+#### Job Grade
+
+The Senior Total Rewards Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Lead all aspects of the planning, coordination and execution of new and revised Total Rewards programs
+- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind 
+- Support Total Rewards leadership in preparing communication materials, building enablement and change management content, 
+- Ensure programs are delivered with compliance, quality and on time with a one People Team mindset and brand
+- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues 
+
+#### Requirements
+
+- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment 
+- Experience in executive compensation in a public company
+- Experience with Workday and Aon Hewitt/Radford 
+- Experience working with People Business Partners and senior leaders in a business facing role to solve compensation challenges
+- Experience leading presentations to senior leaders teams and company-wide audiences
+- Tested ability to drive programs to completion amidst ambiguity and dynamic environment factors
+- A shared interest in our values, and working in accordance with those values
+- Ability to use GitLab
+- Excellent verbal and written communication skills
+
 ## Benefits
 
 ### Benefits Requirements
