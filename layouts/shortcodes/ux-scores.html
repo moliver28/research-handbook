@@ -1,0 +1,55 @@
+<table class="ux-score-table" style="font-size: 12px;">
+    <thead>
+      <tr>
+        <th>Product Area / Job</th>
+        <th>Job Score</th>
+        <th>Last Scored</th>
+        <th>Scenario</th>
+        <th>Latest Scorecard</th>
+        <th>Design DRI</th>
+      </tr>
+    </thead>
+    <tbody>
+        {{ range .Site.Data.ux_scores }}
+        <tr class="stage-row">
+            <td style="background-color: #28272d; color: #fff; font-weight: bold;">{{ .stage_name }}</td>
+            <td style="background-color: #28272d; color: #fff; font-weight: bold;">{{ .stage_score }}</td>
+            <td style="background-color: #28272d; color: #fff; font-weight: bold;"></td>
+            <td style="background-color: #28272d; color: #fff; font-weight: bold;"></td>
+            <td style="background-color: #28272d; color: #fff; font-weight: bold;"></td>
+            <td style="background-color: #28272d; color: #fff; font-weight: bold;">{{ .design_dri }}</td>
+        </tr>
+        {{ range .groups }}
+        <tr class="group-row">
+            <td style="background-color: #ececef; font-weight: bold;">{{ .group_name }}</td>
+            <td style="background-color: #ececef; font-weight: bold;">{{ .group_score }}</td>
+            <td style="background-color: #ececef; font-weight: bold;"></td>
+            <td style="background-color: #ececef; font-weight: bold;"></td>
+            <td style="background-color: #ececef; font-weight: bold;"></td>
+            <td style="background-color: #ececef; font-weight: bold;">{{ .design_dri }}</td>
+        </tr>
+        {{ range .jobs }}
+        <tr class="job-row" style="font-size: 10px;">
+            <td style="background-color: #fff;">{{ .main_job }}</td>
+            <td style="background-color: #fff;">{{ .job_score }}</td>
+            <td style="background-color: #fff;">{{ .last_scored }}</td>
+            <td style="background-color: #fff;">{{ .scenario }}</td>
+            <td style="background-color: #fff;">{{ .latest_scorecard }}</td>
+            <td style="background-color: #fff;"></td>
+        </tr>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </tbody>
+</table>
+<style>
+    table.ux-score-table {
+        tbody {
+            tr.job-row {
+                td {
+                    --bs-table-bg-type: #fff !important;
+                }
+            }
+        }
+    }
+</style>

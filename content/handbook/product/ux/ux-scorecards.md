@@ -106,3 +106,7 @@ For example, an existing user of GitLab joining a new team might require some he
 * Document the onboarding score and date (location TBD).
 
 If you have a recent UX scorecard or a recent usability test with recordings, you can update these rather than starting over. For example, if you recently did a usability test on creating MRs, you can re-watch the sessions with the onboarding heuristics in mind to infer an initial score for the onboarding experience. However, it is highly recommended that at some point you intentionally evaluate the onboarding experience.
+
+## UX Scores
+
+View all current [UX Scores](/handbook/product/ux/ux-scores.md).
