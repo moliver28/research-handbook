@@ -79,4 +79,4 @@ The QTR report is designed to provide division leadership with key organizationa
   - This slide will allow DIB to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
 - What is top of mind for Talent Acquisition (TA)
     - This slide will allow TA to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
-  - Opportunity on an as-needed basis for other People division key stakeholders to spotlight key upcoming initiatives.
+- Opportunity on an as-needed basis for other People division key stakeholders to spotlight key upcoming initiatives.
