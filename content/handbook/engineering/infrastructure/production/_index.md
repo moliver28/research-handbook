@@ -155,6 +155,7 @@ Backups of our production databases are taken every 24 hours with continuous inc
 - After 90 days, backups are deleted.
 - Snapshots of non Patroni-managed database (e.g. PostgreSQL DR replicas) and non-database (e.g. Gitaly, Redis, Prometheus) data filesystems are taken every hour and kept for at least 7 days.
 - Snapshots of Patroni-managed databases (a designated replica, in fact) are taken every 6 hours and kept for 7 days.
+- For the [PostgreSQL database disaster recovery process](https://handbook.gitlab.com/handbook/engineering/infrastructure/database/disaster-recovery/), we use Point-in-Time Recovery (PITR), which stores daily snapshots and transaction logs (WAL) in AWS S3. In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](https://handbook.gitlab.com/handbook/engineering/infrastructure/database/disaster-recovery/#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](https://handbook.gitlab.com/handbook/engineering/infrastructure/database/disaster-recovery/#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption in case of a recovery alongwith [Disaster Recovery Replicas](https://handbook.gitlab.com/handbook/engineering/infrastructure/database/disaster-recovery/#disaster-recovery-replicas) as an interim measure
 
 Data stored in Object Storage (GCS) such as artifacts, the container registry, and others have no additional backups, relying on the [99.999999999% annual durability](https://cloud.google.com/storage/docs/storage-classes#descriptions) and multi-region buckets.
 
@@ -167,6 +168,8 @@ Exceptions to this backup policy will be tracked in the [compliance issue tracke
 ### References
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
+
+## DR process
 
 ## Patching
 
