@@ -50,7 +50,7 @@ Click on the below boxes for more details of the process:
 
 <br>
 
-## <i class="fas fa-stream" id="biz-tech-icons"></i> Need more details on the Software, Field Marketing & Events or Professional Services processes?
+**<i class="fas fa-stream" id="biz-tech-icons"></i> Need more details on the Software, Field Marketing & Events or Professional Services processes?**
 
 Click on the below boxes for more details of the process:
 <div class="flex-row" markdown="0" style="height:110px;justify-content:center">

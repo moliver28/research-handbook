@@ -58,7 +58,7 @@ The customer is always free to renew for as many users as they would like, even 
 If a customer is having issues obtaining the number of licenses needed to purchase, you can [request a screenshot](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/#how-to-ask-the-customer-for-a-screenshot-needed-for-users-over-license-with-self-managed) from them or else access their usage ping data through the [version application](https://version.gitlab.com/).
 If there is no data available through usage ping, we can conclude that the usage ping has been disabled in the instance, and you will need to obtain this information manually.
 
-#### Customer Question: Why is there a discrepancy between "Maximum Users" and "Users" on the admin dashboard? (self-managed)
+**Customer Question: Why is there a discrepancy between "Maximum Users" and "Users" on the admin dashboard? (self-managed)**
 
 Everyday during the subscription, the instance records the Active User count for the day.
 
@@ -72,7 +72,7 @@ The following users *do not* count as billable Active Users:
 
 The "Maximum Users" count in the instance refers to this running list of active user counts and displays the maximum value.
 
-#### Customer Question: How do I purchase more user seats for a self-managed instance of GitLab?
+**Customer Question: How do I purchase more user seats for a self-managed instance of GitLab?**
 
 Communicate to customer
 
