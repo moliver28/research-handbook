@@ -556,7 +556,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 1. Add Position details
 1. Add benefits information:
     - Benefits Policy Type: Use Country guide information located in CES Repository
-    - Signatory: copy and paste the following into that field: “Harley to advise via email” and for the email add: hdevlin@gitlab.com
+    - Signatory: Name/Email of CES submitting candidate into Portal
     - Expense approver: Leave blank for now
     - Employment Benefits: Use Country guide information located in CES Repository
     - Benefits Policy Duration: Select "auto renew" for contract duration
