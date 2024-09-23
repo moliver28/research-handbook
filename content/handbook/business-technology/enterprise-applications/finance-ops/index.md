@@ -37,7 +37,7 @@ Our team ensures the availability of these applications through monitoring and a
 
 - A majority of our time is spent supporting and deploying smaller, non-project-sized tasks that will be prioritized into a milestone.These include adding or updating workflows, custom field enhancements, enabling a quick feature, updating expense policies, etc. 
 
-## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Operate - Intake, Planning and Milestones 
+**<i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Operate - Intake, Planning and Milestones**
 
 ### How do I submit a request to your team?
 
