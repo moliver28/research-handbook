@@ -1211,7 +1211,6 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <tr>
 <td>
 
-
 <td>Position co-create initiatives</td>
 <td>
 
