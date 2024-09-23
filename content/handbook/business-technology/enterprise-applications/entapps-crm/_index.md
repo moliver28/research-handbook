@@ -267,7 +267,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
 | Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
- **[Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label**
+**[Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label**
 
 Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue
 
