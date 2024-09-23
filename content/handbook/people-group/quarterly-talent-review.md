@@ -10,7 +10,7 @@ Goals and benefits of the QTR include the ability to:
 - Connect dots and draw themes across multiple data sources that may not have been as evident reviewed in isolation
 - Create more connection and alignment across all departments within the People Group as one team
 - Optimize time and efficiency across the board for our E-Group leaders
-- Ensure we maintain a regular and proactive pulse on key Talent metrics 
+- Ensure we maintain a regular and proactive pulse on key Talent metrics
 - Align on and communicate a tailored and data driven division Talent Strategy going in to each fiscal year
 
 ## Quarterly Talent Review Timeline
