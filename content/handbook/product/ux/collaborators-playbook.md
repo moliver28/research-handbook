@@ -58,3 +58,25 @@ We can't design in isolation. All the decisions we make are in the context of a 
 - [Salesforce Workdifferently](https://www.salesforce.com/workdifferently/)
 - [Salesforce Workdifferently: An Introduction To The 6 Principles To Work Differently (video)](https://www.salesforce.com/video/3642076/)
 - [IBM enterprise design thinking](https://www.ibm.com/design/thinking/)
+
+## Collaborative exercises
+
+As designers, we're generally embedded within stage groups. As we work to create designs, it can be helpful to include our engineering and product counterparts in our ideation processes. Collaborative exercises can sometimes be quite useful for this purpose. Conducting these exercises periodically within our teams can help build trust and generate buy-in. It can also help surface ideas and things to consider earlier rather than later in the design process.
+
+As we are distributed globally you may opt for either an async or a sync collaborative exercise, depending on your goals and desired outcomes.
+
+Below are a few of the exercises teams have run, with an explanation of when they can be helpful.
+
+### "Ask me anything" design review
+
+If you've developed a design direction and want to give the team space to ask questions synchronously, a 30 minute "ask me anything" design review can be useful.
+
+### Async feedback exercises
+
+Perhaps you would like feedback on common areas of [confusion](https://www.figma.com/board/1ikV7tqYaPV1g4gvWr4QbQ/AI-Settings-discussion-2024-04-25?node-id=0-1&t=47R6xGzEbcaJhx8g-1) or on the [product direction](https://www.figma.com/board/vNxxMxNDcD9LgcJONuqpZt/GitLab-Duo-Chat-product-direction?node-id=0-1&t=g57WxhygkTysMi17-1). Putting together an async board for your team to review can be a great way to start these conversations.
+
+### Lightning decision jam
+
+If you have a number of options you're weighing as a team, a sync [lighting decision jam](https://about.gitlab.com/blog/2022/01/19/collaboration-techniques-for-distributed-teams/) could help the team align on a way forward. 
+
+### Altitude exercise
