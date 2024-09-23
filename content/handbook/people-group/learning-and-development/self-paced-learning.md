@@ -11,20 +11,20 @@ The O'Reilly Learning library, contains thousands of books, videos and live lear
 
 ### How to get an O'Reilly license
 
-The Customer Success and Development departments each have a number of licenses available for team-members. If you would like access to O'Reilly, please check Okta for the O'Reilly App.
+The Customer Success, Development, and Infrastructure departments each have a number of licenses available for team-members. If you would like access to O'Reilly, please check Okta for the O'Reilly App.
 
 #### Customer Success
 
 - If the O'Reilly App isn't listed on Okta, please open an Access Request using instructions on this [handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 - If you are unable to log in from the Okta O'Reilly App, please contact [#it_help](https://gitlab.slack.com/archives/CK4EQH50E) with the AR number you created using the link above.
 
-#### Development
+#### Development and Infrastructure
 
-- If the O'Reilly App isn't listed on Okta, please contact [Tim Zallmann](https://gitlab.com/timzallmann) or [John Hope](https://gitlab.com/johnhope) via Slack or Email to be added to the corresponding Google Group.
+- If the O'Reilly App isn't listed on Okta, please contact [Tim Zallmann](https://gitlab.com/timzallmann) or [John Hope](https://gitlab.com/johnhope) via Slack in [#development_oreilly](https://gitlab.enterprise.slack.com/archives/C03LX42DP0F) or Email to be added to the corresponding Google Group.
 
 #### Other
 
-If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to purchase a license (Manager approval required).
+If you aren't in Customer Success, Development, or Infrastructure but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to purchase a license (Manager approval required).
 
 ### Accessing O'Reilly content
 
