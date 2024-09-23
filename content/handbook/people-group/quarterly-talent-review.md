@@ -33,7 +33,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 **2. Prep Call**
 
 - **When:** PBPs and People division key stakeholders should schedule their initial prep call shortly after receiving the report and completing their initial review, ideally within one week of report delivery.
-- **Purpose:** The prep call allows PBPs and COEs to align on key topics, identify areas of focus, and strategize for the Talent QTR meeting with the division leadership.
+- **Purpose:** The prep call allows PBPs and People Division key stakeholders to align on key topics, identify areas of focus, and strategize for the Talent QTR meeting with the division leadership.
 - **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other People division key stakeholders where applicable (for example If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
 
 **3. Distribution of Report to Leadership**
@@ -44,7 +44,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 **4. Quarterly Talent Review with E-Group**
 
 - **When:** The QTR should take place by the end of the first month of the quarter, giving adequate time for review and actions. PBPs should work with E-Group EBAs to plan these sessions in advance as a standing ongoing touchpoint.
-- **Purpose:** During this meeting, PBPs and COEs will review the org health report with division leaders, discuss priorities for each division, address any COE-related initiatives, and agree on action items and follow-up steps.
+- **Purpose:** During this meeting, PBPs and People Division key stakeholders will review the org health report with division leaders, discuss priorities for each division, address any COE-related initiatives, and agree on action items and follow-up steps.
 
 ## Report Overview
 
@@ -70,13 +70,13 @@ The QTR report is designed to provide division leadership with key organizationa
 
 - Executive summary of key takeaways
 - Leadership action items for follow-up
-  - This slide will be updated at the beginning of each fiscal year with recommended actions for each division that are rooted in the data that is shared. This will serve as the core divisional "Talent Strategy" for the FY.
+  - This slide will be updated at the beginning of each fiscal year with recommended actions for each division that are rooted in the data that is shared. This will serve as the core divisional Talent Strategy for the FY.
   - Actions on this slide will continue to be tracked during each review and updated as needed depending on progress made and what each quarter’s data reveals.
 
 **5. COE Updates (DIB, TA)**
 
-- What’s top of mind for Diversity, Inclusion & Belonging (DIB)
+- What is top of mind for Diversity, Inclusion & Belonging (DIB)
   - This slide will allow DIB to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
-  - What’s top of mind for Talent Acquisition (TA)
-      - This slide will allow TA to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
-  - Opportunity on an as-needed basis for other Peope division key stakeholders to spotlight key upcoming initiatives.
+  - What is top of mind for Talent Acquisition (TA)
+    - This slide will allow TA to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
+  - Opportunity on an as-needed basis for other People division key stakeholders to spotlight key upcoming initiatives.
