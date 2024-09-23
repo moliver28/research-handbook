@@ -9,7 +9,7 @@ For the avoidance of doubt, the benefits listed below in the General Benefits se
 
 ## Contact Total Rewards
 
-For any questions relating to benefits, please reach out to [Total Rewards](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group).
+For any questions relating to benefits, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 
 ## Entity Benefits
 
@@ -190,7 +190,7 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
 
 ## Fertility & Family Planning
 
-Team Members can refer to their [entity-specific](#entity-benefits) medical plans to understand the fertility and family planning benefits available to them, as applicable. Please contact [total-rewards@gitlab.com](mailto:Total-Rewards@gitlab.com) should you have any questions.
+Team Members can refer to their [entity-specific](#entity-benefits) medical plans to understand the fertility and family planning benefits available to them, as applicable. Please contact [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) should you have any questions.
 
 GitLab plans to continue to iterate on fertility benefits as we evaluate and enhance our overall benefit plans. In a future state, GitLab aims to expand fertility and family planning services (including adoption support) in order to help our team members grow their families.
 
