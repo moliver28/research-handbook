@@ -99,7 +99,7 @@ Below you can find instructions on how to login to the Salesforce mobile app via
 * Device is encrypted
 * Not jailbroken or rooted
 
-### I received an "OAuth client" error when attempting to login via the Alternative Method and cannot load the login screen. How do I fix this?
+### OAuth client error on Alternative Method login. Screen won't load. How to fix this login issue?
 
 * If you receive an error and cannot load the login screen, select the settings option and select `Clear Cookies`. Then close the app completely and reload it.
 

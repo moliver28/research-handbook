@@ -685,7 +685,7 @@ Team members are not required to add tax details to any expense transactions.
 
 > Check the *[How do I add tax information to my transactions?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/tax-details)* article for more details.
 
-### If I submit multiple receipts at once and everything is auto-approved, are we paid in 1 lump sum or via multiple reimbursements?
+### Are multiple receipts auto-approved paid in one lump sum or as separate reimbursements?
 
 A deposit for each transaction will be made into your bank account. If you submit 5 manual expenses, you will receive 5 separate bank deposits for each individual transaction.
 
