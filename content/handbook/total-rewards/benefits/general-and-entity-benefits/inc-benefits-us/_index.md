@@ -586,7 +586,7 @@ The company offers a 401(k)  plan in which you may make voluntary pre-tax contri
 1. Any changes to your plan information will be effective within 2 payroll cycles (typically updated within 1 payroll cycle, depending on when the change is made and cut-off changes dates).
 1. Once inside the platform you may elect your annual/pay-period contributions and investments.
 1. If you have any questions about making changes to your elections, we recommend that you reach out to Fidelity directly, by chat in the app, or by phone at 800-835-5097.
-1. Please review the [Summary Plan Document](https://drive.google.com/file/d/1I8JrLhxBH7rGBjfztsRyrjdhQXINQpBe/view?usp=sharing), [QDIA](https://drive.google.com/file/d/1dYIe2NRFCNeOY843KfSyMUhJiLuGGTXg/view?usp=sharing), [Fee Disclosure](https://drive.google.com/file/d/138hjLkXsQ0tdCCqoC-iWnaydkl33GdLn/view?usp=sharing). If you have any questions about the plan or the documents, please reach out to Total Rewards at `total-rewards@gitlab.com`. Total Rewards is not able to advise you on your financial decisions.
+1. Please review the [Summary Plan Document](https://drive.google.com/file/d/1I8JrLhxBH7rGBjfztsRyrjdhQXINQpBe/view?usp=sharing), [QDIA](https://drive.google.com/file/d/1dYIe2NRFCNeOY843KfSyMUhJiLuGGTXg/view?usp=sharing), [Fee Disclosure](https://drive.google.com/file/d/138hjLkXsQ0tdCCqoC-iWnaydkl33GdLn/view?usp=sharing). If you have any questions about the plan or the documents, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). Total Rewards is not able to advise you on your financial decisions.
 1. ADP payroll system monitors and will stop the 401(k) contribution when you have reached the IRS limit for the year. Please keep in mind, if you have prior contributions from another employer, ADP will not have access to this information.
 1. If your employment with GitLab terminates and you are unable to access your Fidelity account due to this being connected to your GitLab email, please contact Fidelity at 800-835-5097 to have the email address on file updated.
 
@@ -640,7 +640,7 @@ You may now convert money from your pre-tax source, to the Roth source, all with
 
 - To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
 - *If you'd like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
-- If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).
+- If you have general questions, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 
 </details>
 
@@ -713,7 +713,7 @@ information:
 Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
 password to complete your registration.
 
-If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
+If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
 
 </details>
 
