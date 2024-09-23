@@ -1187,9 +1187,10 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 ### Sales Dev Manager Resources
 
-#### FY24Q3 Manager Tool Certification
+#### Manager Tool Certification
 
 We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit).
+Our training playlist can [be found here](https://www.youtube.com/playlist?list=PL05JrBw4t0KpFZmMd8LLfqkcXr9lotTAb) 
 
 #### General leadership principles
 
