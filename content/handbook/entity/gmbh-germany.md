@@ -62,7 +62,7 @@ Team members can also email this form directly to WTW  to obtain further support
 
 - **Please note: you can choose to update your elections or enroll in the Direct Insurance Plan at any time throughout the year.** If a team member notifies Total Rewards before the 5th of the month that they want to join or change their Direct Insurance Plan election - their enrollment/changes will be reflected on the 1st of the current month. If they notify TR after the 5th of the month, enrollment/changes will be reflected the 1st of the following month.
 
-- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation, cc'ing total-rewards@gitlab.com
+- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation.
 - Team members can also email this [form](https://drive.google.com/file/d/1YFWOK4Wsh3g8bU4EMVwYvZyfyHqvES1V/view?usp=sharing) directly to WTW (meinebAV@wtwco.com) to obtain a quote for the salary sacrifice on the direct insurance plan.
 - Team Members should expect a contract (for their reference/records) from Allianz via post mail within 8 weeks of enrollment. If a team member does not receive a contract within the first 2 months of enrollment, please contact meinebAV@wtwco.com.
 
@@ -90,7 +90,7 @@ If a team member does not receive a contract within the first 2 months of enroll
 
 ### Enrolling or Changing Your Contributions into Direct Insurance
 
-Team members interested in enrolled into the Direct Insurance Plan will need to **complete the [Direct Insurance agreement](https://drive.google.com/file/d/1xHrUyRKjb9vISSdIBRha7pqOqmSLbInR/view?usp=sharing) with your desired contribution** and send it to Total-Rewards@gitlab.com and meinebAV@wtwco.com before the 5th of the month.
+Team members interested in enrolled into the Direct Insurance Plan will need to **complete the [Direct Insurance agreement](https://drive.google.com/file/d/1xHrUyRKjb9vISSdIBRha7pqOqmSLbInR/view?usp=sharing) with your desired contribution** and send it to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) and meinebAV@wtwco.com before the 5th of the month.
 Following receipt, the Benefits Team will countersign and confirm with WTW on your updated contribution change. **As a reminder team members must elect at least 1% to receive the Employer Match.**
 
 If a Team member notifies Total Rewards before the 5th of the month that they want to change their Direct Insurance Plan contributions, changes will be reflected on the 1st of the current month. If they notify Total Rewards after the 5th of the month enrollment/changes will be reflected the 1st of the following  month. Total Rewards will inform WTW and Non-US Payroll of the change and when to update the change.
