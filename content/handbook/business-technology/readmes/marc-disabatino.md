@@ -37,7 +37,7 @@ I have worked for GitLab for over five years now, in my time here I....
 
 ### What its like working with me
 
-I am very much a product of my [assertive debator](https://www.xpersonalitytest.com/entp/entp-a) personality type. I approach most work situations with a forward looking, out of the box thinking attitude. I will frequently question and challenge ideas and strategies, even if I agree with them. This is not because I am contrarian, it is because I genuinely have an interest into why you think that way and how that idea came to you. I am always looking for my next task to complete and opportunity to improve something. I hold my own personal integrity to highest standard and expect those I work with to do the same. I work best under pressure and enjoy jumping into large or urgent projects but I do need time to focus and complete smaller tasks assigned to me. 
+I am very much a product of my [commander](https://www.forbes.com/health/mind/entj-personality-type/) personality type. I approach most work situations with a forward looking, out of the box thinking attitude. I will frequently question and challenge ideas and strategies, even if I agree with them. This is not because I am contrarian, it is because I genuinely have an interest into why you think that way and how that idea came to you. I am always looking for my next task to complete and opportunity to improve something. I hold my own personal integrity to highest standard and expect those I work with to do the same. I work best under pressure and enjoy jumping into large or urgent projects but I do need time to focus and complete smaller tasks assigned to me. 
 
 ### What I am working on now
 
@@ -51,5 +51,5 @@ I am typically very informal and I like to keep conversations light and friendly
 
 - [LinkedIn Profile](https://www.linkedin.com/in/marc-disabatino/)
 - [GitLab Profile](https://gitlab.com/marc_disabatino)
-- [16 Personalities](https://www.16personalities.com/profiles/494e90f221560) (ENTP-A)
+- [16 Personalities](https://www.16personalities.com/profiles/494e90f221560) (ENTJ-A)
 - [Simpli5 Report](https://docs.google.com/document/d/152llveMp7nzM0DpQQo91eHBtzcovGyKRhpAIy-NI_1o/edit)
