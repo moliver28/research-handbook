@@ -162,7 +162,7 @@ What better way to convey a sense of who we are and how we work together, than b
 ![The Boat](/images/culture/boat.jpg)
 {{% /card %}}
 {{% card footer="We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!" %}}
-{{< youtube "JZG41C0aFfA" >}}
+{{< youtube JZG41C0aFfA >}}
 {{% /card %}}
 {{% /cardpane %}}
 
