@@ -176,6 +176,118 @@ Anyone should be able to read a refined issue's description and understand what 
 
 In order for someone to understand the issue and its implementation, they should **not** have to read through all the comments. The important bits should be captured in the description as the [single source of truth](/handbook/communication/#issues).
 
+#### Bug Diagnosis
+
+Note the following differences when refining bugs:
+
+1. As a guideline, spend no more than 1 hour per issue. Bugs that take too long to refine are
+   indicative of a more complex issue.
+1. Do not add weight. Our velocity represents the capacity to deliver new, bug-free features.
+1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be (high or low level).
+
+#### Refinement for Spikes
+
+1. Do not add weights[^3].
+1. Time-box how much time to spend on the issue.
+1. The deliverable is typically an answer or solution to be used in upcoming issues.
+
+[^3]: a spike doesn't directly add value to users so it shouldn't contribute to our velocity. The
+      information delivered by a spike is what will be useful to deliver direct value to users.
+
+#### Refinement for Security Issues
+
+The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md)
+can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security
+Issue Release Buddy".
+
+### Failing Refinement
+
+An issue should fail refinement if it can not be worked on without additional information or
+decisions to be made. To fail an issue:
+
+1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to
+    be done.
+2. Unassign yourself if you can not contribute further to issue at the current time.
+3. Assign the `workflow::blocked` label.
+
+### Weights
+
+Weights are used as a *rough* order of magnitude to help signal to the rest of the team how much
+work is involved.  Weights should be considered an artifact of the refinement process, not the
+purpose of the refinement process.
+
+It is perfectly acceptable if items take longer than the initial weight. We do not want to inflate
+weights, as [velocity is more important than predictability](/handbook/engineering/development/principles/#velocity-over-predictability)
+and weight inflation over-emphasizes predictability.
+
+We do not add weights to bugs as this would be double-counting points. When our delivery contains
+bugs, the velocity *should* go down so we have time to address any systemic quality problems.
+
+#### Possible Values
+
+We are using the Fibonacci sequence for issue weights. Definitions of each numeric value are associated with the [frontend-weight & backend-weight labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=-weight%3A%3A). Anything larger than 5 should be broken down whenever possible.
+
+Setting a `frontend-weight` or `backend-weight` label on an issue is optional, but ensure you set the **Weight** property on the issue during refinement.
+
+Examples of when it may be appropriate to set a weight label instead of / as well as setting the issue weight include:
+
+* On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
+* On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
+
+## Implementation Plan
+
+A list of the steps and the parts of the code that will need to get updated to implement this
+feature. The implementation plan should also call out any responsibilities for other team members
+or teams. [Example](https://gitlab.com/gitlab-org/gitlab/-/issues/326975#implementation-plan).
+
+The goal of the implementation plan is to spur critical analysis of the issue and have the engineer refining the issue
+think through what parts of the application will get touched. The implementation plan will also
+permit other engineers to review the issue and call out any areas of the application that might
+have dependencies or been overlooked.
+
+## Verification Steps
+
+A list of the steps that will need to be followed to verify this feature. The verification steps should also include additional test cases that should be covered. [Example](https://gitlab.com/gitlab-org/gitlab/-/issues/379110#verification-steps).
+
+The purpose of the issue verification procedures is to aid in better understanding the expected change in the application after implementing the issue. Other engineers will be able to evaluate the issue and identify any application components that may have dependencies or have been ignored and that require further testing thanks to the verification steps.
+
+When writing verification steps for a feature or bug fix, it's important to include both positive and negative scenarios. This helps ensure that the feature or fix only works when specific criteria are met and not in every situation. For example, when verifying MR Approval Policies, you should provide a scenario where approval is required when the policy is violated, and another scenario where approval is not needed when the policy is not violated. This approach allows for a more thorough and accurate testing process.
+
+## Verification
+
+The issue verification should be done by someone else other than the MR author[^4].
+
+1. All implementation issues should have verification steps in the description. Our [implementation issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation) conveniently provides this section.
+1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
+1. If possible, after the engineer has received the notification and verified their work in staging, they leave a comment summarizing the testing that was complete.
+1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.
+1. Unassigned issues in the `~workflow:verification` state are assigned randomly by the triage bot based on the [verification policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/assign_dev_for_verification.rb) to an applicable team engineer. This engineer should then additionally verify the issue.
+1. Once the issue has been verified in production by both engineers, add the `workflow::complete` label and close the issue.
+
+[^4]: To minimize cycle time between engineers, it's preferable that the writing engineer verify their work, as they will be able to start working on the issue again immediately if it turns out that the issue has not been sufficiently resolved. Waiting for another engineer to find obvious failures will increase turn around time.
+
+## Planning for PTO
+
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+
+## Epic Engineering DRI
+
+As an Epic is ready to move to the refinement stage, the EMs assigns someone as the DRI for each required tech stack. This may happen sooner, during planning breakdown.
+
+As the DRI for an Epic, the engineer is **not** responsible for executing all the work but they are responsible for:
+
+1. Suggesting the implementation issue breakdown and requesting feedback.
+1. Writing the agreed implementation issues.
+1. Identifying when further research is required and writing the spike issue(s).
+1. Making technical decisions.
+1. Providing status updates when requested.
+1. Identifying and communicating blockers.
+1. Identifying potential security implications and involve a security engineer if necessary
+1. Take measurements to [reduce the impact of far-reaching work](/handbook/engineering/expansion-development/#reducing-the-impact-of-far-reaching-work)
+
+The DRI may choose to refine and work on the issues they created but they're not expected to
+deliver the whole Epic on their own.
+
 ### Milestone Planning
 
 * On the second Tuesday of the month the Product Manager kicks off the planning issue. They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
