@@ -36,7 +36,7 @@ Understanding the different [Job types]<!--(handbook/product/ux/jobs-to-be-done/
 
 ### Job Maps
 
-The Job Map is a visual representation of the sequence of [Stages]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-stages)--> a [Job Performer]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-performers)--> goes through to complete the [Main Job]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#main-jobs)-->. It reveals the underlying patterns of intent and the subgoals that comprise accomplishing the overall Job.
+The Job Map is a visual representation of the sequence of [Stages]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-stages)--> a [Job Performer]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-performers)--> goes through to complete the [Main Job]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#main-jobs)-->. It reveals the underlying patterns of intent and the sub-goals that comprise accomplishing the overall Job.
 
 ![Job Map](Concepts_Job_Map.png)
 
