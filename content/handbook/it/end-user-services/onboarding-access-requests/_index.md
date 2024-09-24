@@ -52,11 +52,11 @@ The old laptop must be [wiped](/handbook/business-technology/end-user-services/#
 
 Laptops being requested as part of the refresh program use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade).
 
-If you qualify/complete a laptop refresh, please also refer to our [Laptop Buy back Policy](#laptop-buy-back-policy) below.
+If you qualify/complete a laptop refresh, please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
 
 ### GitLab Laptop Replacement Program
 
-We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you do not qualify for the 3 year refresh yet. Be advised, replaced laptops do not qualify for the [Laptop Buy back Policy](#laptop-buy-back-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
+We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you do not qualify for the 3 year refresh yet. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
 
 Replacement laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job dutied, screen and battery are damaged) also, please note replacements will require your manager's approval in the issue.
 
@@ -79,7 +79,7 @@ Do not provide the repair center with any credentials to your laptop. If they as
 
 Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-au/HT208496)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/business-technology/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
 
-If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buy back Policy](#laptop-buy-back-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
+If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
 
 In this case please open [an issue to replace](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement).
 When you receive the new laptop, please follow the guidelines in the template. After you have moved to the replacement laptop, we will have the old one sent off to be [recycled or repaired](#laptop-recyclereturn).
@@ -243,17 +243,9 @@ For laptops shipped with OEM Windows you may want to make a full drive backup (e
 That way you could restore your laptop to the original state at any time.
 It will make the RMA process much easier in case you need it.
 
-### Laptop Buy back Policy
+### Laptop Buyback Policy
 
-If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year at the time of offboarding, they can opt to keep their laptop at no cost. Subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.  If GitLab needs to create an image of the team member's computer for preservation purposes, that may be accomplished via sending the computer to GitLab Corporate Security via prepaid package or remotely via [Backblaze](/handbook/security/corporate/systems/backblaze/).
-
-If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst can approve, and send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
-
-Retained laptops must be [wiped](#laptop-wipe).
-
-If the departing team member opts not to retain or [donate](#laptop-donations) their laptop, they can return them to GitLab. See the [returning old/offboarded laptops](#laptop-recyclereturn) section for details.
-
-**If the team member is under an active Legal Hold or possesses material related to an active Company investigation, they must comply with the notice requirements. Failure to comply with an active Legal Hold may expose the team member or the Company to adverse consequences, including civil or criminal penalties and sanctions. Their obligation to follow the procedures outlined in the notice continues until the hold is lifted, even if they depart the Company. If the team member departs the Company, all Company devices and any material they're holding in accordance with any active Legal Hold Notice or active Company investigation should be turned over upon their departure.**
+Please refer to the [laptop buyback policy](/handbook/security/corporate/services/laptops/buyback/#overview).
 
 ### Laptop Recycle/Return
 
