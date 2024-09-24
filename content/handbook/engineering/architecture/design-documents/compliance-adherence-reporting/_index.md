@@ -102,6 +102,7 @@ compliance frameworks in GitLab 17.3.
 - [001: Triggering Checks](decisions/001_triggering_checks.md)
 - [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
 - [003: Custom Controls](decisions/003_custom_controls.md)
+- [004: Violations Engine](decisions/004_violations_engine.md)
 
 ### Design Details
 
@@ -168,10 +169,22 @@ The compliance requirements would be stored in a separate table with the followi
         namespace_id: bigint
     }
 
+    class project_compliance_violations {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        project_id: bigint
+        namespace_id: bigint
+        compliance_requirement_id: bigint
+        compliance_requirement_expression: jsonb
+        audit_event_id: bigint
+    }
+
     compliance_management_frameworks --> compliance_requirements : has_many
     compliance_management_frameworks <-- compliance_requirements : belongs_to
     compliance_management_frameworks <--> projects : many_to_many
     compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
+    compliance_requirements <--> project_compliance_violations : has_and_belongs_to_many
     projects <-- namespaces : has_many
     projects --> namespaces : belongs_to
     namespaces --> compliance_management_frameworks : has_many
