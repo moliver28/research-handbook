@@ -61,7 +61,7 @@ Main Jobs follow the [Job Statement]<!--(/handbook/product/ux/jobs-to-be-done/jt
 
 When looking through the lens of the Job Performer, there are several aspects of a product that must get done prior to, during, or after a Main Job can be achieved. For instance, the first thing that must be done is to evaluate a product for purchase, involving research, evaluation, and transaction. After buying a product, it must be received, installed, and set up. Users must learn how to use it, and they might also need to transport, clean, store, maintain, upgrade, repair, and eventually dispose of it. While people don't buy products to configure or maintain them, making these tasks easier can make a product more attractive.
 
-These tasks are called Consumption Chain Jobs. Each Job has its own set of desired outcomes and are often _consumed_ by a Main Job in order to help facilitate that Job's achievment.
+These tasks are called Consumption Chain Jobs. Each Job has its own set of desired outcomes and are often _consumed_ by a Main Job in order to help facilitate that Job's achievement.
 
 Focusing on increasing efficiencies of or entirely eliminating Consumption Chain Jobs can lead to better products and competitive advantages. For example, making it easier to configure, and optimize deployments or set up branch rules can set a product apart from its competitors.
 
