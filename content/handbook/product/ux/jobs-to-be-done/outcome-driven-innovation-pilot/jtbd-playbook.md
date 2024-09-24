@@ -102,7 +102,7 @@ After all interviews have been completed, it’s time to synthesize your data in
 1. **Identify Commonalities:**
   - Read through each participants Job Maps to familiarze yourself with each of them.
   - Look for commonalities among all Job Maps.
-2. **Create a Universal Job Map:**
+1. **Create a Universal Job Map:**
   - Start by gathering all of the related stickies across all participants for the Execute Stage. Refer back to your Main Job statement to ensure you're truly considering the steps when the user has begun to execute that Job.
   - Copy the sticky notes into the Execute Stage container that aligns most closely with the timing the Job Performer would complete each step within this Stage. Remove duplicates along the way.
   - Review each of the stickies within the Stage and group commonalities together.
