@@ -129,20 +129,20 @@ Job Stages follow the [Job Statement]<!--(/handbook/product/ux/jobs-to-be-done/j
    - People must set up the environment and organize the inputs in order to execute the job correctly. 
    - How must the user prepare the inputs and environment to do the job? Nearly all user jobs involve an element of setting up and organizing materials.
 - **Confirm**, Validate, Prioritize, Decide
-   - People want to know that the job will produce the desired results before the execution step begins. 
-   - Once preparation is complete, what does the user need to verify before proceeding with the job to ensure its successful execution? Here, the user makes sure that materials and the working environment have been properly prepared; validates the quality and functional capacity of material and informational components; and confirms priorities when deciding among execution options.
+  - People want to know that the job will produce the desired results before the execution step begins. 
+  - Once preparation is complete, what does the user need to verify before proceeding with the job to ensure its successful execution? Here, the user makes sure that materials and the working environment have been properly prepared; validates the quality and functional capacity of material and informational components; and confirms priorities when deciding among execution options.
 - **Execute**, Perform, Transact, Administer
-   - People consider the execution step the most important part of the job. It is closely tied to the job-to-be-done. 
-   - What must users do to execute the job successfully? Whether they’re printing a document or administering anesthesia, users consider the execution step the most important part of the job. Because execution is also the most visible step, users are especially concerned about avoiding problems and delays, as well as achieving optimal results.
+  - People consider the execution step the most important part of the job. It is closely tied to the job-to-be-done. 
+  - What must users do to execute the job successfully? Whether they’re printing a document or administering anesthesia, users consider the execution step the most important part of the job. Because execution is also the most visible step, users are especially concerned about avoiding problems and delays, as well as achieving optimal results.
 - **Monitor**, Verify, Track, Check
-   - People consider the execution of the job to ensure the outputs are predictable and effective. 
-   - What does the user need to monitor to ensure that the job is successfully executed? Users must keep an eye on the results or output during execution, especially to determine whether they have to make adjustments to get the task back on track in the event of a problem. For some jobs, users must also monitor environmental factors to see whether and when adjustments are necessary.
+  - People consider the execution of the job to ensure the outputs are predictable and effective. 
+  - What does the user need to monitor to ensure that the job is successfully executed? Users must keep an eye on the results or output during execution, especially to determine whether they have to make adjustments to get the task back on track in the event of a problem. For some jobs, users must also monitor environmental factors to see whether and when adjustments are necessary.
 - **Modify**, Update, Adjust. Maintain
-   - People make adjustments to job execution to help overcome issues that have been encountered. 
-   - What might the user need to alter for the job to be completed successfully? When there are changes in inputs or in the environment, or if the execution is problematic, the user may need help with updates, adjustments, or maintenance. At this step, users need help deciding what should be adjusted as well as determining when, how, and where to make changes.
+  - People make adjustments to job execution to help overcome issues that have been encountered. 
+  - What might the user need to alter for the job to be completed successfully? When there are changes in inputs or in the environment, or if the execution is problematic, the user may need help with updates, adjustments, or maintenance. At this step, users need help deciding what should be adjusted as well as determining when, how, and where to make changes.
 - **Conclude**, Store, Finish, Close
-   - People take a final step that signifies the job is complete. Not all jobs conclude-some are continuous. 
-   - What must the user do to finish the job? With some simple jobs such as hand washing, the conclusion is self-evident. Complex jobs, on the other hand, may involve some concluding process steps.
+  - People take a final step that signifies the job is complete. Not all jobs conclude-some are continuous. 
+  - What must the user do to finish the job? With some simple jobs such as hand washing, the conclusion is self-evident. Complex jobs, on the other hand, may involve some concluding process steps.
 
 >💡 Main Jobs typically have 8 ± 1 Job Stages. It's more typical to have all 8 Job Stages in a Main Job's Universal Job Map, though some may not align with the needs of the Main Job and can be left out, if appropriate.
 
