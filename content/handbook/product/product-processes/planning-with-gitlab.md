@@ -134,58 +134,132 @@ it starts with your work items (issues, epics and tasks). Rejecting a feature re
 As a Product Manager you should close work items for the following reasons:
 
 1. **Duplicate Issue:** GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests. You should use the [`/duplicate` quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) to close these and link them to the canonical issue.
+   You can save the following as a comment template to use:
+
+   ```md
+    Hey {{author}}! Thanks for submitting this issue. It looks like a duplicate of {{issue}}. I'm marking your issue as a duplicate and close it.
+    Please add your thoughts and feedback on {{issue}}. Don't forget to upvote feature proposals.
+
+    /duplicate {{issue}}
+    ```
 1. **Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#vision).** GitLab is a large platform and not all requests will align with the long term direction of the product. It's ok to close issues that we'll never do because they do not align with this vision.
+    You can save the following as a comment template to use:
+
+    ```md
+    Hey {{author}}! Thanks for submitting this issue. I'm closing this issue as it does not fit our vision for the area. You can read about our vision and direction at {{direction page link}}.
+
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /close
+    /label ~"won't do"
+    ```
 1. **It presents a security risk.** Some requests may require you to evaluate if the proposal can be delivered without presenting a security risk to GitLab or our customers. You should reach out to [Application Security](/handbook/security/product-security/application-security/) if you are unsure about any requests.
+    You can save the following as a comment template to use:
+
+    ```md
+    Hey {{author}}! Thanks for submitting this issue. After careful investigation with the GitLab Application Security team, I'm closing this issue as it presents a security risk.
+
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /close
+    /label ~"won't do"
+    ```
 1. **Too complex:** We want to have a simple, user-friendly product that does complex things, not the other way around. Uses of the product that are overly complex or only solve for narrow use cases might fall into this category.
+    You can save the following as a comment template to use:
+
+    ```md
+    Hey {{author}}! Thanks for submitting this issue. I'm closing this issue as the problem is overly complex to be tackled with a built-in GitLab solution.
+
+
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /close
+    /label ~"won't do"
+    ```
 1. **We don’t want another setting:** whenever we can, we try to avoid having settings. GitLab follows the [Convention over Configuration](/handbook/product/product-principles/#convention-over-configuration) principle when evaluating new proposals. It's important to consider all of the user experience impacts an additional setting can add and while some settings are unavoidable; most aren’t.
+    You can save the following as a comment template to use:
+
+    ```md
+    Hey {{author}}! Thanks for submitting this issue. I'm closing this issue as at GitLab we are working hard to avoid configuration sprawl. Our preference is either convention over configuration or better product discovery to build the right problem without unreasonable configuration options. Your feedback is welcome!
+
+    /close
+    /label ~"won't do"
+    ```
 1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already [addressed in the Stewardship page](/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
+    You can save the following as a comment template to use:
+
+    ```md
+    Hey {{author}}! Thanks for submitting this issue. I'm closing this issue as it would duplicate one of our Enterprise features in the Community Edition. You can read more about our approach and recommendations for [contributions to the Community Edition in our handbook](https://handbook.gitlab.com/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
+
+    /close
+    /label ~"won't do"
+    ```
 1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
+    You can save the following as a comment template to use:
+
+    ```md
+    I'm closing this issue as it is likely not relevant any longer given the features delivered in the past. Your feedback is welcome!
+
+    /close
+    ```
 
 Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
 
 When closing a work item, leave a comment explaining why you're closing it, and link
 to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don’t forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
 
-###### Comment templates for closing issues
-
-If you find duplicates, you can post this message:
-
-```md
-Hey {{author}}! Thanks for submitting this issue. It looks like a duplicate of {{issue}}. I'm marking your issue as a duplicate and close it.
-Please add your thoughts and feedback on {{issue}}. Don't forget to upvote feature proposals.
-
-/duplicate {{issue}}
-```
-
-Don't make any forward looking statements around milestone targets that the duplicate issue may be assigned.
-
-You may also need to close issues because they are low interest, irrelevant or
-misaligned with the product direction. You can use the following message:
-
-```md
-## Issue review update
-
-After consideration, we have decided not to prioritize this and as such, will close this issue in an effort to reduce the noise in our product backlog. Here are some common reasons why we might make such a decision:
-
-1. **Low interest feature**: We have not seen compelling evidence that customers are interested in prioritizing this problem.
-2. **Irrelevant feature**: The request is so old that the suggestion may no longer be relevant.
-3. **Misaligned feature**: The product direction does not align with this request.
-
-We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
-
-/close
-
-/label ~"won't do"
-```
-
 ##### When you should NOT close an issue or epic
 
-1. **Low priority:** sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
+1. **Low priority:** sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment. Use the `~low priority` label to signal low priority, preferably with adding a comment.
+    You can save the following as a comment template to use:
+
+    ```md
+    After consideration, we have decided not to prioritize this issue. We constantly thrive to prioritize the most valuable work to bring results to our customers. While this issue might be interesting to some customers, we don't consider it high-value to prioritize it in the foreseeable future.
+     
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /label ~"low priority"
+    /milestone %"Awaiting further demand"
+    ```
 1. **Not part of your direction:** These items are good ideas, but are not at the top of the list for PMs to prioritize within their group.
+    You can save the following as a comment template to use:
+
+    ```md
+    After consideration, we have decided not to prioritize this issue. Our product groups follow a direction described on their direction pages, and while your issue does seem valuable, it does not fit our direction currently.
+     
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /label ~"not in direction"
+    ```
 1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize the %"Awaiting further demand"  milestone.
+    You can save the following as a comment template to use:
+
+    ```md
+    After consideration, we have decided not to prioritize this issue. We constantly thrive to prioritize the most valuable work to bring results to our customers. While this issue might be interesting to some customers, we don't consider it high-value to prioritize it in the foreseeable future.
+     
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /label ~"low priority"
+    /milestone %"Awaiting further demand"
+    ```
 1. **Deinvested category:** Issues for categories in which we've made a deinvestment, but haven't removed the category. (we should create a label for this)
+    You can save the following as a comment template to use:
+
+    ```md
+    Given changing priorities, we decided to divest from this area of the product. As a result, we have to delay the delivery of this issue and remove it from our roadmap.
+     
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+
+    /label ~"divested"
+    ```
 1. **Age of Issue:** Closing due to age alone. Filtering by age to look for candidates to close is fine, but if the issue still aligns with product direction and there is community interest, we should keep these open for future opportunities.
-1. **Complex Solutions:** Sometimes issues may come with overly complex proposals or the current state of GitLab's architecture or other technical factor makes the solution too complex to implement. These issues should remain open if the problem to solve is valid as solutions can evolve as more is learned about the problem to be solved.
+1. **Complex Solutions:** Sometimes issues may come with overly complex proposals or the current state of GitLab's architecture or other technical factor makes the solution too complex to implement. These issues should remain open if the problem to solve is valid as solutions can evolve as more is learned about the problem to be solved. A possible commment template to explain the situation could be the following:
+
+    ```md
+    We value the problem surfaced and described in this issue, at the same time the current solution proposal is overly complex to implement and maintain. We are open to alternative proposals that will allow us to prioritize this work on our roadmap.
+
+    We appreciate your understanding and encourage you to continue sharing your feedback and ideas with us. Your input is invaluable in helping us improve our product. :handshake_tone2:
+    ```
 
 ### Roadmaps
 
