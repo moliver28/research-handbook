@@ -150,15 +150,15 @@ Next you'll use your interview videos/notes and Universal Job Map to write your 
 **Generate Outcome Statements:**
 
 1. **Gather Pain Points, Hurdles, Workarounds From Interviews:**
-  - Review your interview videos/notes for anything that your participant called out as a pain point, hurdle, or workaround that they have to deal with while achieving their Job. 
-  - Create a new sticky note for each one.
+   - Review your interview videos/notes for anything that your participant called out as a pain point, hurdle, or workaround that they have to deal with while achieving their Job.
+   - Create a new sticky note for each one.
 1. **Gather Pain Points, Hurdles, Workarounds From Job Map Steps:**
-    - Begin with Stage 1 (for example, Define) of your Job Map and then the first Job Step under it.
-    - Consider any pain points, hurdles, or workarounds your Job Performer may experience while performing that step. 
-     - Create a new sticky note for each one you come up with, being aware not to create any duplicates from the previous step.
+   - Begin with Stage 1 (for example, Define) of your Job Map and then the first Job Step under it.
+   - Consider any pain points, hurdles, or workarounds your Job Performer may experience while performing that step.
+   - Create a new sticky note for each one you come up with, being aware not to create any duplicates from the previous step.
 1. **Construct Outcome Statements:**
-    - For each sticky generated from the previous steps, construct an Outcome Statement for each of the three dimensions mentioned above (Speed, Predictability/Reliability, andEfficiency/Better Results).
-    - Continue this process until you have written Outcome Statements for every pain point, hurdle or workaround sticky you created. This will essentially cover problems for the entire Job Map.
+   - For each sticky generated from the previous steps, construct an Outcome Statement for each of the three dimensions mentioned above (Speed, Predictability/Reliability, andEfficiency/Better Results).
+   - Continue this process until you have written Outcome Statements for every pain point, hurdle or workaround sticky you created. This will essentially cover problems for the entire Job Map.
 
 **Note:** Your Job can have between 50-150 Outcome Statements. These statements will be validated through an [Outcome Statement survey]<!--(/handbook/product/UX/jobs-to-be-done/JTBD-Evaluation-Methods#benchmarking-the-domain)-->.
 
