@@ -239,3 +239,4 @@ Understanding and addressing underserved needs is a powerful strategy for achiev
 
 A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's]<!--(/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for)--> Main Job or Consumption Chain Job in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook]<!--(/handbook/product/ux/jobs-to-be-done/jtbd-playbook)-->, as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 Each canvas has different sections which combine to provide a **holistic picture of a Job Performer's Main Job or Consumption Chain Job**.
+ 
