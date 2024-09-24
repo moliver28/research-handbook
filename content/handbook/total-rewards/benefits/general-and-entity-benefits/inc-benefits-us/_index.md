@@ -788,9 +788,9 @@ There are three types of FSAs that team members may enroll in:
 
  Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2024-03-31 (should be no later than 2024-04-22).
 
-In 2023 the maximum salary deferral contribution has increased to $3,050 USD, with the maximum rollover amount increasing to $610 USD.
-
 In 2024 the maximum salary deferral contribution has increased to $3,200 USD, with the maximum rollover amount increasing to $$640 USD.
+Starting in 2025, a minimum amount of $5 USD will apply to the rollover. Note if the FSA rollover funds are $5 or less, the funds will be forefieted. 
+Team members can use the roll-over FSA amount the following year regardless if they enroll in the FSA the following year. Note that 
 
 </details>
 
