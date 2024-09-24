@@ -120,7 +120,7 @@ We assign issues for refinement to ensure we have focus on the highest-priority 
 
 Backlog refinement is the most important step to ensure an issue is ready to move into development and that the issue will match everyone's expectations when the work is delivered.
 
-The goal of the refinement process is to ensure an issue is ready to be worked on by doing this:
+The goal of the refinement process is to ensure an issue is ready to be worked on by:
 
 * Identify and resolve outstanding questions or discussions.
 * Identify missing dependencies (e.g. `backend` API).
