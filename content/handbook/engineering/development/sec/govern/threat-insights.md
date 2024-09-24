@@ -73,9 +73,9 @@ Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine en
   * Main channel: [`#g_govern_threat_insights`](https://gitlab.slack.com/archives/CV09DAXEW/p1663788936706469)
   * Stand-up updates: [`#g_govern_threat-insights_standup`](https://gitlab.slack.com/archives/C01U7T6DPNY)
   * Engineering - All: [`#g_govern_threat_insights_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
-  * Engineering - Team AI: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
-  * Engineering - Team Navy: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
-  * Engineering - Team Tangerine: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
+  * Engineering - AI Swimlane: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
+  * Engineering - Performance Swimlane: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
+  * Engineering - Projects Swimlane: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
 * Slack aliases: `@govern_threat_insights_be`, `@govern_threat_insights_fe`
 * Google groups: eng-dev-secure-threat-insights-members@gitlab.com
 * [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
@@ -105,6 +105,11 @@ We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/d
 ## Workflow
 
 The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).  In the sections below, we provide details about our teams specific Software Development Lifecycle.
+
+### Design Review
+During the design phase, engineers may be asked to review designs well before they are ready for refinement and/or development.  The goal is to validate technical possibilities of achieving the desired UX experience.  The sooner this happens, the better, as it reduces the time spent needlessly on designing and, later, developing solutions that are not scalable.  When asked to review designs please consider the following:
+
+TODO
 
 ### Refinement
 
@@ -176,7 +181,7 @@ Anyone should be able to read a refined issue's description and understand what 
 
 In order for someone to understand the issue and its implementation, they should **not** have to read through all the comments. The important bits should be captured in the description as the [single source of truth](/handbook/communication/#issues).
 
-#### Bug Diagnosis
+##### Bug Diagnosis
 
 Note the following differences when refining bugs:
 
@@ -185,7 +190,7 @@ Note the following differences when refining bugs:
 1. Do not add weight. Our velocity represents the capacity to deliver new, bug-free features.
 1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be (high or low level).
 
-#### Refinement for Spikes
+##### Refinement for Spikes
 
 1. Do not add weights[^3].
 1. Time-box how much time to spend on the issue.
@@ -194,13 +199,13 @@ Note the following differences when refining bugs:
 [^3]: a spike doesn't directly add value to users so it shouldn't contribute to our velocity. The
       information delivered by a spike is what will be useful to deliver direct value to users.
 
-#### Refinement for Security Issues
+##### Refinement for Security Issues
 
 The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md)
 can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security
 Issue Release Buddy".
 
-### Failing Refinement
+#### Failing Refinement
 
 An issue should fail refinement if it can not be worked on without additional information or
 decisions to be made. To fail an issue:
@@ -210,7 +215,7 @@ decisions to be made. To fail an issue:
 2. Unassign yourself if you can not contribute further to issue at the current time.
 3. Assign the `workflow::blocked` label.
 
-### Weights
+#### Weights
 
 Weights are used as a *rough* order of magnitude to help signal to the rest of the team how much
 work is involved.  Weights should be considered an artifact of the refinement process, not the
@@ -223,7 +228,7 @@ and weight inflation over-emphasizes predictability.
 We do not add weights to bugs as this would be double-counting points. When our delivery contains
 bugs, the velocity *should* go down so we have time to address any systemic quality problems.
 
-#### Possible Values
+##### Possible Values
 
 We are using the Fibonacci sequence for issue weights. Definitions of each numeric value are associated with the [frontend-weight & backend-weight labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=-weight%3A%3A). Anything larger than 5 should be broken down whenever possible.
 
@@ -234,7 +239,7 @@ Examples of when it may be appropriate to set a weight label instead of / as wel
 * On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
 * On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
 
-## Implementation Plan
+### Implementation Plan
 
 A list of the steps and the parts of the code that will need to get updated to implement this
 feature. The implementation plan should also call out any responsibilities for other team members
@@ -244,6 +249,11 @@ The goal of the implementation plan is to spur critical analysis of the issue an
 think through what parts of the application will get touched. The implementation plan will also
 permit other engineers to review the issue and call out any areas of the application that might
 have dependencies or been overlooked.
+
+## Development Guidelines
+In the spirit of iteration we want to identify and minimize risks as soon as possible.  It is recommended that engineers work towards a proof-of-concept quickly.  This could be something as simple as an SQL query to test performance.
+
+TODO
 
 ## Verification Steps
 
