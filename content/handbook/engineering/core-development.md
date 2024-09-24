@@ -4,21 +4,22 @@ title: Core Development Department
 
 ## Vision
 
-Scale and develop our diverse, global team to drive results that support our product and customer growth, while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
+Develop a best-in-class product that exceeds expectations across all user groups, meeting high-quality standards while ensuring reliability, ease of operation, and scalability to meet diverse customer needs. All team members should remain mindful of our varied customer base and the multiple platforms we support in everything we do.
+
+Put a focus that for our primary customer personas the product excels in all aspects, including scalability, usage adaptability, seamless upgrade paths, etc.. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated, and Software as a Service (SaaS).
+
+Develop our diverse, global team to drive results that support our product and customer growth, while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
 
 ## Mission
 
-GitLab's unique way of working asynchronously, handbook first, using the product we develop, and with clear focus on our values enables very high productivity. In delivering on growth, we maintain our values and ways of working while developing team members and increasing the diversity of our team. We focus on constantly improving usability and reliability of our product to reach maximum customer satisfaction. Community contributions and customer interactions rely on efficient and effective communication. We are a data-driven, customer experience first, open core organization delivering one secure, reliable, world leading DevOps platform.
+GitLab's unique way of working asynchronously, handbook first, using the product we develop, and with clear focus on our values enables very high productivity. In delivering on growth, we maintain our values and ways of working while developing team members and increasing the diversity of our team. We focus on constantly improving quality, usability and reliability of our product to reach maximum customer satisfaction. Community contributions and customer interactions rely on efficient and effective communication. We are a data-driven, customer experience first, open core organization delivering one secure, reliable, world leading DevSecOps platform.
 
-## FY23 Direction
+### Be strategic
 
-FY23 has similar ambitions as FY22. During FY22, the Development department focused on reliability/security, team, SUS, and product. We added EA (Engineering Allocation) and the FCL (Feature Change Lock) processes to support the improvements in reliability and security. We reduced the number of past due issues in both categories by 77% and 72% respectively, and continue focusing on reducing this further. We have grown the team by 22% during FY22 while retaining 90% of team members, and have set ourselves up for further growth in FY23. We have begun investing further in SUS improvements after seeing a 7% improvement via various activities, including component migrations. We have improved the product using standard product management and development processes. Users want to see these improvements as well as improvements in reliability and security.
+Technical roadmaps
 
-As we have set ourselves at the end of FY22, FY23 will focus on growth, efficiency, usability, product, and diversity.
 
-### Growth
 
-This year we have goals to increase the size of the Development Department by over 20% to increase our team's capacity to deliver in new and existing product areas. To achieve this, we are focused on collaborating closely with our recruiting team, building a diverse pipeline of candidates, and successfully onboarding new team members into our way of working. Each sub-department will set goals for their teams to hire based on planned headcount increases. We expect to meet our hiring goals while not going over, which is essential to 1) meeting the growing development needs of GitLab's [business strategy](/handbook/company/strategy/) and 2) hiring at a predictable rate in-line with our financial plans. We commit to investing dedicated time and budget in learning and development, specifically to development topics through internal courses, such as O'Reilly Learn, etc.
 
 ### Efficiency
 
