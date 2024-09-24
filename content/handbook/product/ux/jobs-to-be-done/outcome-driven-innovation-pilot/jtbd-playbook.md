@@ -87,11 +87,11 @@ The goal of the interview is to answer the following questions:
 It is recommended to have both a moderator and a notetaker during each interview, if possible. The notetaker is responsible for documenting the Job Steps on the FigJam JTBD Interview Participant Canvases during the interview. At the most opportune point during the interview, such as when it seems clear they've described their process from start to finish, show the map your notetaker generated to the participant to ensure it's an accurate interpretation of their process. Update it as necessary during this verification.
 
 1. Use the Figjam space provided for each participant and capture every step the participant mentions, using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as Job Stages or Job Statement formatting. Your goal is to capture the participants process from start to finish so you can show it back to them for verification.
-  - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards when reviewing your interviews videos/notes.
-2. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
-  - **Note:** You may skip this step if you do not have a notetaker.
-3. After the interview, rewrite each Job Step to ensure it is functional and follows the [Job Statement format]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements-->.
-4. Continue to follow this process for each interview participant.
+   - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards when reviewing your interviews videos/notes.
+1. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
+   - **Note:** You may skip this step if you do not have a notetaker.
+1. After the interview, rewrite each Job Step to ensure it is functional and follows the [Job Statement format]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements-->.
+1. Continue to follow this process for each interview participant.
 
 ### Step 2. Complete the Job Map and Construct Outcome Statements
 
