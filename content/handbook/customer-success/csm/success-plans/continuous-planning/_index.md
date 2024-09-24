@@ -36,16 +36,22 @@ __Continuous Planning__ focuses on automating the creation of presentation mater
 
 ## What we are currently working on
 
-- [Improve the efficiency of success plan data collection](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/epics/5) - This will have a dual benefit of improving the speed of data collection and creating a manager view of all success plans within the `account-management` sub-group.
+Our [issue board](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/boards) provides detailed insight into everything currently in flight.
 
-- [Incorporate recently closed objectives and initiatives into success plan reports](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/epics/3) - Currently, only open work items show in the presentation asset, we want also to highlight what's recently been accomplished.
+- Using a GraphQL query to collect all success plans within the GitLab [account-management](https://gitlab.com/gitlab-com/account-management) subgroup in one area. - This will allow managers and other team members working on an account to find the associated success plan for that customer.
 
-- [Rework versioning strategy for easier testing/updating at the target/artifact level](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/epics/4) - In addition to improving the version strategy, we're discussing having a monthly upgrade release cadence similar to Gitlab.com.
+- [Improve the efficiency of success plan data collection](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/epics/5) - This update decreases the pipeline run time by 60%.
+
+- [AMER Rollout (Q3)](https://gitlab.com/gitlab-sales-continuous-planning/gitlab-profile/-/issues/9) - All AMER CSMs will move their existing success plans to using Continuous Planning by the end of October.
 
 ## What's next for us
+
+- [EMEA and APJ Rollout (Q4)](https://gitlab.com/gitlab-sales-continuous-planning/gitlab-profile/-/issues/10) - We'll take our learnings from the AMER rollout and proceed with the rollout to the EMEA and APJ regions.
+
+## Future thinking
+
+- We'll iterate on Continuous Planning to have an API layer that runs a GraphQL query, combining the benefits from the two variations of Continuous Planning we're using today and moving forward with a unified standard.
 
 - We want to extend Continuous Plannings usage beyond CSMs to other GitLab business units and customers. For example, Product Managers can use Continuous Planning to update the "What we recently completed" and "What we're currently working on" sections of their group direction page. The PS team can use it to highlight updates to customers.
 
 - Work with the Gainsight admins to import the data collected from success plans into Gainsight.
-
-- Determine how to gather usage data to understand the effectiveness of Continuous Planning by its use.
