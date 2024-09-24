@@ -204,35 +204,35 @@ The information in this section is specific to GitLab's 16-week paid Parental Le
 
 ### Planning Your Parental Leave Dates
 
-In some cases a team member may choose to begin their leave earlier. While we encourage you to begin your leave when your child arrives (to be able to capture as much time as possible with the newest addition to your family) if you would like to start your leave on a different date please notify leaves@gitlab.com; otherwise your Parental Leave will be administered according to the start date entered in Time Off by Deel.
+In some cases a team member may choose to begin their leave earlier. While we encourage you to begin your leave when your child arrives (to be able to capture as much time as possible with the newest addition to your family) if you would like to start your leave on a different date please notify leaves@gitlab.com; otherwise your Parental Leave will be administered according to the start date entered in Workday.
 
-You don't have to take your Parental Leave in one continuous period, we encourage you to plan and arrange your Parental Leave in a way that suits you and your family's needs. You may take your leave all at once or split your Parental Leave into up to three segments, so long as all time is used prior to the child's first birth or first anniversary of the adoption event. The Absence Management team will receive a notification every time you edit your Parental Leave dates. Please use the label `Parental Leave` in Time Off by Deel, otherwise the Absence Management team won't get a notification.
+You don't have to take your Parental Leave in one continuous period, we encourage you to plan and arrange your Parental Leave in a way that suits you and your family's needs. You may take your leave all at once or split your Parental Leave into up to three segments, so long as all time is used prior to the child's first birth or first anniversary of the adoption event. The Absence Management team will receive a notification every time you edit your Parental Leave dates. Please request a Parental Leave in Workday, otherwise the Absence Management team won't get a notification.
 
 **A few things to note:**
 
 - If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO or any local statutory leave, please send an e-mail to leaves@gitlab.com.
-- When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Time Off by Deel request.
+- When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Workday request.
 
 ### Taking PTO After Taking Parental Leave
 
 If you need to take more time off after Parental Leave, you may utilize GitLab's [Paid Time Off policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) with manager coordination. This time off should be discussed with your Manager following the same reporting guidelines outlined in the PTO policy (double the amount of notice as the amount requested), but if business critical deadlines will be missed your Manager may ask you to change the dates.
 
-Please submit the dates of your PTO in [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}) by selecting `Vacation`.
+Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
 ### How to Initiate Your Parental Leave
 
 Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
 
-**30 days prior to the start of your leave** Enter your Parental Leave into Time Off by Deel by selecting the `Parental Leave` label. We understand the Parental Leave dates may change, so you can edit the dates in Time Off by Deel as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
+**30 days prior to the start of your leave** Enter your Parental Leave into Workday by selecting the `Parental Leave` option under the `Leaves` dropdown menu. We understand the Parental Leave dates may change, so you can edit the dates in Workday as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
 
-We realize that if you are going on adoptive parental leave, a 30 day notice period may not be possible. In these situations, you should notify your manager as soon as possible and enter the dates in Time Off by Deel when you can.
+We realize that if you are going on adoptive parental leave, a 30 day notice period may not be possible. In these situations, you should notify your manager as soon as possible and enter the dates in Workday when you can.
 
 Your manager and the Absence Management team will be notified after you submit your leave. The Absence Management team will send you an e-mail within 48 hours (whenever possible) confirming that they've been notified of your Parental Leave dates, and provide you with additional follow-up items (if applicable).
 
 **A few things to note:**
 
 - Parental leave includes public holidays and scheduled Family and Friends Days that occur within the start and end date of parental leave, but some countries allow team members to rollover public holidays that occured while on Parental Leave. Be sure to review your country's policy on this when planning the dates of your leave.
-  - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Time Off by Deel and add a note indicating "rolling over holidays which occured while on parental leave".
+  - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Workday and add a note indicating "rolling over holidays which occured while on parental leave".
 - Some countries require extra paperwork or have specific leave requirements, which are subject to change as legal requirements change. Please take a look at your [country's leave policy](#entity-benefits).
 
 ### Commission Payout and Quota Relief
@@ -279,11 +279,7 @@ You are entitled to and need to comply with your local regulations. They overrid
 
 #### Confirming your return
 
-A day before you return from Parental Leave, you'll receive a Time Off by Deel [Welcome Back message](/handbook/people-group/engineering/slack-integrations/#parental-leave-welcome-back) with buttons to confirm your return or to explore other options.
-
-- Clicking the `Confirm my return` button will open the email client with a pre-loaded template "Confirming my return from Parental PTO".
-  - *Please add the date you are intending to return to this email.*
-- Clicking the `Explore options` button will also open the email client with a pre-loaded template "I have exceeded my 16 weeks and like to look into further options".
+About a week before your expected return, the Absence Management team will send you a welcome back email.  Please confirm you are returning and the date you are expected to return.
 
 ### Returning to work after parental leave
 

@@ -106,7 +106,7 @@ Gitaly team is in the process of establishing an oncall rotation to provide focu
 - Rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of Gitaly team members, but without guarantees (see [Who is oncall](#who-is-oncall) below)
   - Weekends are explicitly out of scope (not staffed), and escalation must fall back to the current EOC rotation.
   - Given that responsibilities are only during working hours, there's no additional compensation unless explicitly specified otherwise.
-  - You can choose to take time in lieu via Time Off by Deel, selecting `the On-Call Time in Lieu` option after a shift.
+  - You can choose to take time in lieu via Workday, selecting `the On-Call Time in Lieu` option after a shift.
 - Gitaly team members are expected to provide technical assistance for ONLY the cases described in [Urgent issues and outages](#urgent-issues-and-outages)
   - There is no intention to trigger this rotation directly from monitoring at this time.
   - All contact **must** follow the process described in [How to contact the team](#how-to-contact-the-team) above, including who and why can page.

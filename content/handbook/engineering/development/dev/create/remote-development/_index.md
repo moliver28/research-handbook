@@ -447,7 +447,7 @@ The Remote Development Team communicates based on the following guidelines:
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the ["Time Off by Deel"](https://gitlab.slack.com/archives/D019WTM2F99) slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in Workday, so that the Engineering Manager can use the proper number of days off during capacity planning.
 
 ### 🤙 Ad-hoc sync calls
 

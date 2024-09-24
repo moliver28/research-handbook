@@ -250,7 +250,7 @@ We track our work on the following issue boards:
 
 We use a simple issue weighting system for capacity planning, ensuring a
 manageable amount of work for each milestone. We consider both the team's
-throughput and each engineer's upcoming availability from Time Off by Deel.
+throughput and each engineer's upcoming availability from Workday.
 
 The weights are intended to be used in aggregate, and what takes one person a
 certain amount of time may be different for another, depending on their level of

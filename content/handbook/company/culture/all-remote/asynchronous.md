@@ -271,7 +271,7 @@ This is an extension of another remote-first forcing function: [Always answer wi
 
 ### Communicating your async work days
 
-GitLab embraces asynchronous work and [non-linear workdays](non-linear-workday/) broadly, but there may be times when you're working outside your normal work hours (e.g. while traveling before/after a trip, working during a trip, working a weekend, etc.) and want to communicate that to team members. In these situations, team members should add a `Focus Time` calendar event and change their Slack status rather than entering `Vacation` in Time Off by Deel.
+GitLab embraces asynchronous work and [non-linear workdays](non-linear-workday/) broadly, but there may be times when you're working outside your normal work hours (e.g. while traveling before/after a trip, working during a trip, working a weekend, etc.) and want to communicate that to team members. In these situations, team members should add a `Focus Time` calendar event and change their Slack status rather than entering time off in Workday.
 
 ### Remove Slack from your phone
 

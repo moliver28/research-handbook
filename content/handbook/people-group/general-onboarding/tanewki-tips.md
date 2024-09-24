@@ -183,7 +183,7 @@ A: Depending on where you are located, you can find the payroll cut off dates [h
 
 **Q: I have preplanned vacations or commitments, how should I handle this upon starting and ensuring the PTO?**
 
-A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel).
+A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then enter the time off in Workday.
 
 **Q: How long do I have to enroll in benefits?**
 

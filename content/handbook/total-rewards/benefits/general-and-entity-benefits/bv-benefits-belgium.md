@@ -54,7 +54,7 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
 ## GitLab B.V. Belgium Leave Policy
 
 - Sick Leave
-  - Every team member is entitled to have their remuneration to be paid by GitLab during the first 30-day period of incapacity for work, regardless of their seniority. This leave runs concurrently with GitLab's Sick Time policy. Team members must designate any time off for illness or injury as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.
+  - Every team member is entitled to have their remuneration to be paid by GitLab during the first 30-day period of incapacity for work, regardless of their seniority. This leave runs concurrently with GitLab's Sick Time policy. Team members must designate any time off for illness or injury as `Out Sick` in Workday to ensure that sick leave entitlement is properly tracked.
     - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
     - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
 - Statutory Parental Leave
@@ -76,10 +76,10 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
   - Paternity / Co-Parent Leave: every team member is entitled to twenty days (fifteen days if birth has taken place before 1 January 2023) of leave following the birth of a child, to be used at the team member's discretion within four months following the date of child birth. This leave will run concurrently with [GitLab's 16-week Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), and team members will be entitled to 100% of their salary for up to 16 weeks (minus any statutory entitlements).
     - After the initial 3 days of leave, team members are eligible for payment through the mutual insurance fund for the next 12 days. The amount paid by the fund will be 82% of capped daily gross salary at €  139.97 (leave from 1 January 2022).  GitLab will 'top up' the remainder (minus these funds) up to 100% of the team member's regular wages.
     - To process this leave request, GitLab will notify the payroll provider who will conversely update the pay code and notify the social office.
-  - Team members should submit their request for Parental leave three months before the start of leave by selecting the `Parental Leave` label in Time Off by Deel.
+  - Team members should submit their request for Parental leave three months before the start of leave by selecting the `Parental Leave` label in Workday.
 - Statutory Vacation Leave
   - Full-time team members are entitled to 20 statutory vacation days per year. If a team member leaves GitLab, the company will prepare a vacation certificate with the number of unused vacation days in the current year and early vacation pay for the vacation days that were already accrued for the following year. The employee can then hand over these documents to their next employer to determine vacation entitlements. Similarly, GitLab requires the vacation certificate from new team members' previous employer to ensure vacation pay is properly calculated and added to June payroll.
-  - Vacation Leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
+  - Vacation Leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Vacation` in Workday to ensure that vacation entitlement is properly tracked.
 
 ***Note: GitLab has a global [`flexible paid time off policy`](/handbook/people-group/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
 
