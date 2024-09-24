@@ -111,7 +111,7 @@ The Job statement is a structured way to write clear and concise job statements 
 | Write as a utilitarian goal | Mention solutions or technologies |
 | Keep it focused on a single goal | Combine goals by using (and/or) |
 
-The key is to focus on the Job Performer's goal and desired outcome, rather than the means to achieve it (i.e. solutions). This allows for greater opportunities to come up with innovative solutions that may not have been considered before.
+The key is to focus on the Job Performer's goal and desired outcome, rather than the means to achieve it (that is, solutions). This allows for greater opportunities to come up with innovative solutions that may not have been considered before.
 
 ### Job Stages
 
