@@ -29,10 +29,18 @@
     "no-trailing-spaces": false
   },
   "ignores": [
+    ".gitlab/**",
+    "content/handbook/legal/ai-functionality-terms*",
+    "content/handbook/legal/education-agreement.md",
+    "content/handbook/legal/opensource-agreement.md",
+    "content/handbook/legal/legacy/**",
+    "content/handbook/legal/reseller-agreement.md",
+    "content/handbook/legal/reseller-flow-through.md",
+    "content/handbook/legal/technology-partner-agreement.md",
+    "content/handbook/legal/testing-agreement*",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
     "content/handbook/company/culture/all-remote/universal-remote.md",
     "layouts/shortcodes/pricing-themes.md",
-    "layouts/shortcodes/section-group-table.md",
-    ".gitlab/**"
+    "layouts/shortcodes/section-group-table.md"
   ]
 }

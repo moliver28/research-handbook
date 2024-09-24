@@ -12,7 +12,7 @@ When we go **back and forth three times,** we jump on a [synchronous video call]
 
 We communicate respectfully and professionally at all times.
 
-## Effective & responsible communication guidelines
+## Effective & Responsible Communication Guidelines
 
 1. **Assume [Positive Intent](/handbook/values/#collaboration).** Always begin with a position of positivity and grace.
 1. **Kindness Matters.** You are looking at a screen, but you are really talking to a person. If you wouldn't say it to a person's face, do not send it to them in a text message.
@@ -321,11 +321,11 @@ out to any of the other [C-level GitLab team members](https://comp-calculator.gi
 
 When possible, it's best practice to start a discussion with a [Merge Request (MR)](https://docs.gitlab.com/ee/user/project/merge_requests/) instead of an issue. An MR is associated with a specific change that is proposed and transparent for everyone to review and openly discuss. The nature of MRs facilitate discussions around a proposed solution to a problem that is actionable. An MR is actionable, while an issue will take longer to take action on.
 
-1. Always **open** an MR for things you are suggesting and/or proposing. Whether something is not working right or we are iterating on a new internal process, it is worth opening a merge request with the minimal viable change instead of opening an issue encouraging open feedback on the problem without proposing any specific change directly. Remember, an MR also invites discussion, but it's specific to the proposed change which facilitates focused decision.
+1. Always **open** an MR for things you are suggesting and/or proposing. Whether something is not working right or we are iterating on a new internal process, it is worth opening a merge request with the minimal valuable change instead of opening an issue encouraging open feedback on the problem without proposing any specific change directly. Remember, an MR also invites discussion, but it's specific to the proposed change which facilitates focused decision.
 1. Never ask someone to create an issue when they can default to the merge request.
 1. Starting with a Merge Request is part of [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and helps ensure the handbook is up-to-date when a decision is made. It is also how we make it possible for [Everyone to Contribute](/handbook/company/mission/#mission). This is true, not just for updating the handbook but for updating all things.
 1. Merge Requests, by default, are **non-confidential**. However, for [things that are not public by default](/handbook/communication/confidentiality-levels/#not-public) please open a confidential issue with suggestions to specific changes that you are proposing. The ability to create [Confidential Merge Requests](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#merge-requests-for-confidential-issues) is also available. When possible, consider not including sensitive information so the wider community can contribute.
-1. Not every solution will solve the problem at hand. Keep discussions focused by **defining the problem first** and **explaining your rationale** behind the [Minimal Viable Change (MVC)](/handbook/values/#minimal-viable-change-mvc) proposed in the MR.
+1. Not every solution will solve the problem at hand. Keep discussions focused by **defining the problem first** and **explaining your rationale** behind the [Minimal Valuable Change (MVC)](/handbook/values/#minimal-valuable-change-mvc) proposed in the MR.
 1. Be proactive and consistent with communication on discussions that have external stakeholders such as customers. It's important to keep communication flowing to keep everyone up to date. MRs can appear stale if there aren't recent discussions and no clear definition on when another update will be provided, based on feedback. This leaves those subscribed in the dark, causing unnecessary surprise if something ends up delayed and suddenly jumps to the next milestone. It is important that MRs are closed in a timely manner through approving or rejecting the open requests.
 1. Have a **bias for action** and [do not aim for consensus](/handbook/leadership/#making-decisions). Every MR is a [proposal](/handbook/values/#make-a-proposal), if an MRs author isn't responsive take ownership of it and complete it. Some improvement is better than none.
 1. **Cross link** issues or other MRs with related conversations. E.g. if there's a Zendesk ticket that caused you to create a GitLab.com MR, make sure to document the MR link in the Zendesk ticket and vice versa. And when approving or rejecting the MR, include reason or response from Zendesk. Put the link at the top of each MR's description with a short mention of the relationship (Report, Dependency, etc.) and use one as the central one and ideally close the alternate if duplicate.
@@ -747,7 +747,7 @@ For example:
    As a listener, advocate (verbally if necessary) for those who have raised their hand.
    Just like in-person meetings be cognizant of when, who, and how you interrupt, we don't want [manterrupting](http://time.com/3666135/sheryl-sandberg-talking-while-female-manterruptions/).
 1. We end on the scheduled time. It might feel rude to end a meeting, but you're actually allowing all attendees to be on time for their next meeting.
-1. Do not use the chat of products like Zoom to communicate during the call, use the linked document instead. This allows everyone to contribute additional questions, answers, and links in the relevant place. It also makes it easier for people in conflicting timezones to contribute questions before the call and makes it easier to review questions and answers after the call, which can be before watching the recording.
+1. Do not use the chat of products like Zoom to communicate during the call, use the linked document instead. Zoom Chat has been configured for a 30 day retention. This allows everyone to contribute additional questions, answers, and links in the relevant place. It also makes it easier for people in conflicting timezones to contribute questions before the call and makes it easier to review questions and answers after the call, which can be before watching the recording.
 1. You do not need to remind other people to vocalize their questions. Just say their name and a keyword of the question, e.g. 'Jay about credit-cards'.
 1. Every comment is document worthy, even small support comments such as `+1` or `Very Cool!`.
 1. We encourage the recording and [sharing of everything to our YouTube Unfiltered channel](/handbook/marketing/marketing-operations/youtube/).
@@ -925,7 +925,7 @@ This list offers additional guidance for written communication at GitLab:
 1. Do not use a hyphen when writing the term "open source" except where doing so eliminates ambiguity or clumsiness.
 1. If an email needs a response, write the answer at the top of it.
 1. Use the future version of words, just like we don't write internet with a capital letter anymore. We write frontend and webhook without a hyphen or space.
-1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
+1. Our homepage is <https://about.gitlab.com/> (with the `about.` and with `https`).
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
 1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
 1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.

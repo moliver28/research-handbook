@@ -111,7 +111,7 @@ If you are looking for additional information on the GitLab Partner program see 
 - [Channel Services Program](/handbook/resellers/services/)
 - [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
 - [Channel Partner Training and Certifications](/handbook/resellers/training/)
-- [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/)
+- [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-gitlab/)
 - [Channel Tools and Resources](/handbook/resellers/channel-tools-resources/)
 - [Alliance Program](https://about.gitlab.com/partners/technology-partners/)
 

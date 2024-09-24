@@ -1,7 +1,6 @@
 ---
 title: Custom Models Group
 description: "The Custom Models group focuses on additional, custom models that power GitLab Duo functionality in support of our customers unique data and use-cases."
-aliases: /handbook/engineering/development/data-science/custom-models
 ---
 
 ## Vision
@@ -145,7 +144,7 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 ## Time Off
 
-Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
+Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Workday" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
 It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
 

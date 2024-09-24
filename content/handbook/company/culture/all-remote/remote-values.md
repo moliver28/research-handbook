@@ -104,7 +104,7 @@ Referencing [GitLab's time at Y Combinator]({{< ref "history" >}}), Sid shares t
 >
 > We still believe that's true today. We want everyone comfortable with taking small steps without a lot of coordination, without a lot of predicting, and without a lot of explaining. — *GitLab co-founder and CEO Sid Sijbrandij*
 
-An embraced spirit of [iteration](/handbook/values/#iteration) helps maintain an all-remote culture. By encouraging small steps and empowering individuals to propose minimum viable change, all-remote teams are less burdened by the need for coordination.
+An embraced spirit of [iteration](/handbook/values/#iteration) helps maintain an all-remote culture. By encouraging small steps and empowering individuals to propose minimal valuable change, all-remote teams are less burdened by the need for coordination.
 
 Particularly as organizations scale, the friction of coordinating people and teams can lead to [dysfunction](/handbook/values/#five-dysfunctions) and frustration. Coordinating large groups across an array of time zones is impractical, which forces an all-remote team to not lean on the coordination crutch.
 

@@ -189,7 +189,9 @@ Note: Due to the switch to GitLab's OKR system, we no longer have the ability to
 
 We have the following Performance Indicators
 
-### [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
+### Unique Wider Community Contributors per Month
+
+[Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
 
 - Activities:
   - Partnership with Developer Relations team.

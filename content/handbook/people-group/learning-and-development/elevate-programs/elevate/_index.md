@@ -1,8 +1,8 @@
 ---
 title: Elevate
-aliases:
-- /handbook/people-group/learning-and-development/elevate/elevate
 ---
+
+Elevate: a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
@@ -168,7 +168,9 @@ We currently plan for a new group of ~30 people leaders to start this program ev
 
 ### Is there opportunity to participate in the program if I am an aspiring manager?
 
-Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+Team members who are not in people manager roles are considered on a case by case basis for involvement in Elevate, as of August 2024. If aspiring managers are interested in participating in Elevate, they should start by discussing their career growth goals with their manager and People Business Partner. Decisions on enrollment will be made on a case by case basis between managers, PBPs, and the Talent Development team.
+
+In addition, there is a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
 ### What if I get promoted while I'm part of Elevate?
 

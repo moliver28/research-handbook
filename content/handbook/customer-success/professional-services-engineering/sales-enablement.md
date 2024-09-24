@@ -65,7 +65,7 @@ Advisory Services typically follow a 3-step approach:
 
 #### Customer
 
-- **Faster value realization** - Help the customer setup the GitLab instance and migrate their data and users quickly to accelerate [time to first value](/handbook/customer-success/vision/#time-to-value-kpis). Paired with education services to ensure the users know how to use the newly setup GitLab system is the way to the fastest initial adoption and sets the foundation for future stage adoption.
+- **Faster value realization** - Help the customer setup the GitLab instance and migrate their data and users quickly to accelerate [time to first value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis). Paired with education services to ensure the users know how to use the newly setup GitLab system is the way to the fastest initial adoption and sets the foundation for future stage adoption.
 - **Improved customer experience** - Establishing best practices up front with our expert recommendations is the path to a great customer experience.
 - **Access to GitLab experts / best practices** - On top of our team of experts, we can reach back to engineering and support to put the full weight of GitLab into solving a customer issue.
 

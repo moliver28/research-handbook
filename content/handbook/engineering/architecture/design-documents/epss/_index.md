@@ -1,6 +1,6 @@
 ---
-title: EPSS Support
-status: proposed
+title: "EPSS Support"
+status: ongoing
 creation-date: "2024-06-19"
 authors: [ "@YashaRise" ]
 coach: [ "@theoretick" ]
@@ -60,9 +60,6 @@ Blueprint statuses you can use:
 - "rejected"
 
 -->
-
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 
 <!--
 This is the title of your blueprint. Keep it short, simple, and descriptive. A
@@ -168,7 +165,7 @@ Support EPSS on the GitLab platform.
 Following the discussions in the [EPSS epic](https://gitlab.com/groups/gitlab-org/-/epics/11544), the proposed flow is:
 
 1. PMDB database is extended with a new table to store EPSS scores.
-1. PMDB infrastructure runs the feeder daily in order to pull and process EPSS data. 
+1. PMDB infrastructure runs the feeder daily in order to pull and process EPSS data.
 1. The advisory-processor receives the EPSS data and stores them to the PMDB DB.
 1. PMDB exports EPSS data to a new PMDB EPSS bucket.
     - Create a new bucket to store EPSS data.
@@ -182,7 +179,7 @@ Following the discussions in the [EPSS epic](https://gitlab.com/groups/gitlab-or
 flowchart LR
     AF[Feeder] -->|pulls| A[EPSS Source]
     AF -->|publishes| AP[Advisory Processor]
-    AP -->|stores| DD[PMDB database] 
+    AP -->|stores| DD[PMDB database]
     E[Exporter] -->|loads|DD
     E --> |exports| B[Public Bucket]
     GitLab[GitLab instance] --> |syncs| B
@@ -206,6 +203,7 @@ compared with the pros and cons of alternatives.
 
 - [001: Export all EPSS entries](decisions/001_export_all_epss.md)
 - [002: Use a new bucket for EPSS data](decisions/002_use_new_bucket.md)
+- [003: Use an API over a ZIP File](decisions/003_use_epss_api.md)
 
 ### Important notes
 
@@ -274,8 +272,8 @@ each alternative solution/path.
   - **Feeder**: a scheduled job called by the PMDB deployment to publish data from the relevant sources to pub/sub messages consumed by PMDB processors.
   - **Advisory processor**: Runs as a Cloud Run instance and consumes messages published by the advisory feeder containing advisory related data and stores them to the PMDB database.
   - **PMDB database**: a PostgreSQL instance storing license and advisory data.
-  - **Exporter**: exports license/advisory data from the PMDB database to public GCP buckets. 
+  - **Exporter**: exports license/advisory data from the PMDB database to public GCP buckets.
 - **GitLab database**: the database used by GitLab instances.
 - **CVE** (Common Vulnerabilities and Exposures): a list of publicly known information-security vulnerabilities. "A CVE" usually refers to a specific vulnerability and its CVE ID.
-- **EPSS** (Exploit prediction scoring system) **score**: a score ranging from 0 to 1 representing the probability of exploitation in the wild in the next 30 days of a given vulnerability. 
+- **EPSS** (Exploit prediction scoring system) **score**: a score ranging from 0 to 1 representing the probability of exploitation in the wild in the next 30 days of a given vulnerability.
 - **EPSS score percentile**: for a given EPSS score (of some vulnerability), the proportion of all scored vulnerabilities with the same or a lower EPSS score.

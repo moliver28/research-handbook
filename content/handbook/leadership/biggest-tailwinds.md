@@ -49,7 +49,7 @@ GitLab's adherence to all-remote makes the company an attractive destination for
 
 [GitLab Guide to All-Remote](/handbook/company/culture/all-remote/guide/)
 
-[Work where you want, when you want](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8)
+[Work where you want, when you want](https://link.springer.com/article/10.1186/s41469-020-00087-8)
 
 [All-Remote Upgrade](/handbook/company/culture/all-remote/hybrid-remote/#all-remote-upgrade)
 

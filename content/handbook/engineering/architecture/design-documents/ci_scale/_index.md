@@ -1,5 +1,5 @@
 ---
-title: CI/CD Scaling
+title: "CI/CD Scaling"
 status: ongoing
 creation-date: "2021-01-21"
 authors: [ "@grzesiek" ]
@@ -9,7 +9,6 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

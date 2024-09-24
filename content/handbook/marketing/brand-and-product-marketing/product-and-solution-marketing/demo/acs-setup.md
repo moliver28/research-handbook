@@ -19,7 +19,6 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
 > - This script assumes the `tanuki.website` domain, but you should either:
 >   - Pick the least-recently used domain from the [Google Doc](https://docs.google.com/spreadsheets/d/1HZ-7XhDNzdCBxfjzDFIQi7EjliptkpY4CB3LbiLa9MY/edit#gid=0). (Let's Encrypt limits SSL cert creation on a weekly basis, so rotating usage helps reduce hitting the limits), or
 >   - Buy a new domain for your demo and substitute throughout the script.
->     - [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection.
 >     - [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
 >     - Click `Registrar Setup` to see what name servers to use.
 > - Disable desktop notifications (on a Mac, top-right corner, option click).

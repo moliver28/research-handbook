@@ -72,11 +72,12 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 
 ## Scheduling for Ashley Kramer, Interim Chief Revenue Officer, and Chief Marketing & Strategy Officer
 
-- To schedule meetings, please coordinate with Ashley's Staff EBA, Kato Faylor
+- To schedule Marketing/Strategy-related meetings, please coordinate with Kato Faylor, Staff EBA. (Please tag #cmso-cro-ebas in all requests)
+- To schedule CRO/Sales-related meetings, please coordinate with Alexa Schrauth, Staff EBA. (Please tag #cmso-cro-ebas in all requests)
 - Priority will be given to customer & E-Group meetings - even last minute.
-- Flexible for early/late calls to support EMEA & APAC, but please check with Staff EBA first.
+- Flexible for early/late calls to support EMEA & APAC, but please check with Staff EBAs first.
 - Prefers "appropriate length" conversations, so short meetings are okay on the calendar (e.g. if a topic only needs 10 mins, book 10 mins instead of 30, etc.).
-- For scheduling questions, please do not tag @Ashley, reach out/tag the Staff EBA
+- For scheduling questions, please do not tag @Ashley, reach out/tag #cmso-cro-ebas.
 - Include meeting agendas in invites and/or briefing docs (excluding coffee chats) at least 24 hours in advance.
 
 ## Scheduling for Sabrina Farmer, Chief Technology Officer

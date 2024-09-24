@@ -67,7 +67,7 @@ There will be several limitations with the MVC deployment. As you come across us
 | **Understand my customer's usage** | With usage data, quickly look up accounts to see which instances we are receiving usage data. <br> User story: see all instances and namespaces related to your account (Production and non-Production) and activity. <br> **Note*- : Must be tied to active subscriptions. | - Who is sending their service ping data? <br> &bull; Are they sending Production data? <br> &bull; Is their activity in line with my expectations? <br>&bull; Does the activity agree with what I know about their usage? | <br>&bull; [VIDEO: Using Product Usage Data in Gainsight - Introduction](https://www.youtube.com/watch?v=bny-SoH-MNc)<br> &bull; [VIDEO: What is Product Usage Data and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8) |
 | **C360: Instance and Namespace Details** | I need to know which GitLab version they're on to help them upgrade or patch their self-managed instance. | <br>&bull; Which version(s) are my customers on?<br>&bull; If multiple instances, how do I know the version for their instance?<br>&bull; What is their namespace? | C360: Instance and Namespace<br><br> Product Usage Data Dashboard (`Self Managed Instances - Current GitLab Version Details` report) |
 | **How many licenses has my customer deployed?** | Understand my customers' License Utilization (see above) to know how many licenses have been deployed  `billable_user_count/licensed seats`. <br> Example: a customer purchased 200 licenses and deployed 80 after 9 months, 80/200 = 40%. | <br>&bull; What trends can I see?<br>&bull; How do I understand my customer's License Utilization? | <br>&bull; [VIDEO: How to Find License Utilization and What it Means in Gainsight](https://youtu.be/Mezt6knBxI0)<br>&bull; C360: User Adoption Metrics<br>&bull; Product Usage Data dashboard<br>&bull; [License Utilization Handbook](/handbook/customer-success/product-usage-data/use-case-adoption/)<br>&bull; [VIDEO: Using Product Usage Data in Gainsight - Introduction](https://www.youtube.com/watch?v=bny-SoH-MNc) |
-| **Understand my customer's GitLab adoption** | Know the metrics per use case: SCM, CI, CD, and DevSecOps to understand their adoption.<br> Use the [Use Case Adoption guide](/handbook/customer-success/product-usage-data/use-case-adoption/) for use case adoption definitions. <br> See the [GitLab Adoption Journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey) for an explanation on the adoption of SCM, CI, CD, and DevSecOps. | <br>&bull; Which use cases has my customer adopted?<br>&bull; What degree have they adopted?<br>&bull; Which features have they adopted?</li><li>Does feature adoption align to customer purchase intent? | C360: Scorecard<br><br>Product Usage Data dashboard |
+| **Understand my customer's GitLab adoption** | Know the metrics per use case: SCM, CI, CD, and DevSecOps to understand their adoption.<br> Use the [Use Case Adoption guide](/handbook/customer-success/product-usage-data/use-case-adoption/) for use case adoption definitions. <br> See the [GitLab Adoption Journey](/handbook/customer-success/customer-success-vision/#high-level-visual-of-gitlab-adoption-journey) for an explanation on the adoption of SCM, CI, CD, and DevSecOps. | <br>&bull; Which use cases has my customer adopted?<br>&bull; What degree have they adopted?<br>&bull; Which features have they adopted?</li><li>Does feature adoption align to customer purchase intent? | C360: Scorecard<br><br>Product Usage Data dashboard |
 | **How do I understand the health score with product usage reporting?** | Use Gainsight for a quick, high level roll-up of the customer's adoption. Identify if the customer is on track per GitLab use case. |<br>&bull; My customer's Use Case health is red, yellow, or green — how is that calculated?<br>&bull; How is Product Usage Data weighted?<br>&bull; What is "good" health? | [Use Case Adoption methodology](/handbook/customer-success/product-usage-data/use-case-adoption/)<br><br>[Health Score Measure Weightings](/handbook/customer-success/csm/health-score-triage/#enterprise)<br><br>[VIDEO: What is Product Usage Reporting and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8)<br><br>[Usage Trends Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/ced1d18a-62f4-4e22-8efd-a7b1d7abcac2) |
 
 Remember, this is an MVC — please [create an issue to suggest new metrics](#requesting-new-metrics), different ways to evaluate the customer's journey, or other ideas.
@@ -370,7 +370,7 @@ The customer or the account team may upload the JSON file using this link - http
 
 This process can take anywhere from 24-48 hours before it starts to populate Gainsight reports and scorecards.
 
-#### After updating an instance to be `Included in Health Measures` or alternatively, `Opt-out` an instance, how long does it take for the data to refresh in reports & scorecards?
+#### After updating instance data, how long does it take for the data to refresh?
 
 Please allow 24-48 hours after making any changes to the instances in Gainsight.
 
@@ -378,12 +378,12 @@ Please allow 24-48 hours after making any changes to the instances in Gainsight.
 
 Service Ping is a GitLab process that collects customer analytics on self-managed instances and sends a weekly payload to GitLab. The payload provides important high-level statistics that helps our product, support, and sales teams understand how GitLab is used.
 
-- [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)
+- [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - [Service Ping FAQ](/handbook/customer-success/csm/service-ping-faq/)
 
 #### How can we confirm that a customer has opted into Service Ping?
 
-The only way to confirm if they have opted into Service Ping is if we have data for them. See the [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/) for more information.
+The only way to confirm if they have opted into Service Ping is if we have data for them. See the [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) for more information.
 
 #### Can my customer opt out of Service Ping?
 
@@ -433,7 +433,7 @@ No. Please refer to [How do Last 28 Days metrics work?](#how-do-last-28-days-met
 
 You may notice usage stats missing for the first week of a month up until a ping is collected from the customer. The ping snapshot date will differ for each customer.
 
-### Is it true that if you set your CSM sentiment to yellow or green for an account that is Red for DevSecOps, you cannot influence the overall Red health score?
+### Does setting CSM sentiment to y/g for a Red DevSecOps score override the Red health score?
 
 There's no DevSecOps-specific override, however, there is one option to override which is the CSM Sentiment. The CSM can change that to Red, making the overall account red. [HB Reference](/handbook/customer-success/csm/health-score-triage/#csm-sentiment). CSM Sentiment overall weighting is 25%, whereas Product is 50%
 
@@ -445,7 +445,7 @@ There's no DevSecOps-specific override, however, there is one option to override
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 
-### What's the best way to understand details about a metric, including availability for SaaS, and in which release we started measuring that metric?
+### What's the best way to understand details about a metric?
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 

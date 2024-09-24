@@ -2,6 +2,7 @@
 title: "Modular Monolith ADR 001: Modularize the application domain"
 creation-date: "2024-05-07"
 authors: [ "@fabiopitino" ]
+toc_hide: true
 ---
 
 ## Context

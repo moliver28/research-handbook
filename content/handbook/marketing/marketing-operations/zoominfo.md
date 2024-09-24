@@ -56,9 +56,9 @@ Your direct login allows for direct export into SFDC. However you can also acces
 
 Do you have a topic not covered you'd like to see? Slack #zoominfo room or reach out to marketing operations.
 
-To access Zoominfo training sessions specific for GitLab follow [this link](https://university.zoominfo.com/courses/gitlab-inc-recorded-trainings).
+To access Zoominfo training sessions specific for GitLab follow [this link](https://hello.chorus.ai/listen?guid=380d82a7cfbf46e6b0dff3b7957cb0e0).
 
-To access additional Zoominfo on-demand training follow [this link](https://university.zoominfo.com/pages/on-demand-training).
+To access additional Zoominfo on-demand training follow [this link](https://university.zoominfo.com/salesos-advanced-features-on-demand).
 
 ### Do Not Call and Do Not Email Automation
 
@@ -66,20 +66,13 @@ If the proper criteria is set, Zoominfo can cause a lead/contact in SFDC to be l
 
 ### Zoominfo Licensing Policy and Procedures
 
-ZoomInfo admin management is shared between the Data Intellgience team who manages and provisions licenses to the sales team members (field sales), and the Marketing Operations team who manages and provisions licenses to the marketing team members (sales development org).
-
-Marketing Operations (MOps) provisions ZI licenses for marketing team (BDAs/SDRs/BDRs) along with respective managers, and Data Intelligence provisions for field sales roles (AEs, SAEs, ASMs, ISRs).
-
-In ZI we use the following group roles to make this determination:
-
-BDA/BDR/SDR/BDR Manager/SDR Manager/XDR Manager falls under Marketing
-AEs/SAEs/ASMs/ISRs and their associated managers fall under Sales.
+ZoomInfo admin management is shared between the Sales Operations team who manages, provisions and deprovisions licenses for Field Sales roles (AEs/SAEs/ASMs/ISRs), while the Marketing Operations team manages, provisions and deprovisions licenses for the Sales Development Org (BDAs/SDRs/BDRs).
 
 ### Access & Help
 
 Members of the sales organization and sales development, should receive access to ZoomInfo as part of their role entitlement request. If the team member did not receive access or if access had been removed and you would like it back you will need to open an access request.
 
-Specifically, for a Marketing related role (SDRs/BDRs) please open an [individual access request - AR for short](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and tag your manager for approval and Rob Rosu (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and Briann Vandre (Data Intelligence).
+Specifically, for a Marketing related role (SDRs/BDRs) please open an [individual access request - AR for short](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) and tag your manager for approval and `RobRosu` (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and `@kbetances` (Sales Operations).
 
 If you are experiencing issues with ZoomInfo, your first point of contact is ZoomInfo. You can reach them via email at: helpmenow@zoominfo.com.
 
@@ -152,7 +145,7 @@ To do this, follow the steps below:
 - Create Lead List Views & Contact List Views and filter using the operational field;
 - Create & Schedule Zoominfo enrichment jobs for both leads & contacts and select enrichment via the list views created at the previous step.
 
-### Outreach Integration
+### Outreach Integration (Will be Deprecated Soon & Replaced with the Groove Integration)
 
 The ZoomInfo Outreach integration is now live and you may export contacts directly to Outreach. Any contacts you do export, will also be exported in SFDC. They will be initially missing some ZI information in SFDC but there will be an append job that will run automatically to update any missing information.
 
@@ -163,6 +156,16 @@ The ZoomInfo Outreach integration is now live and you may export contacts direct
 - Please do not upload any contact without an email address into Outreach- if you do, the prospect will not sync into SFDC and any activities you do on the prospect will not be recorded in SFDC.
 
 Any prospects created without email address will be found and deleted in the Outreach database management we will run monthly. To avoid uploading contacts with no email addresses, please use the ZoomInfo filtering available.
+
+### Groove Integration
+
+The Zoominfo Groove Integration is live and you may export leads directly using it. The records, once exported as leads, will be created in SFDC and added to the selected Groove flows.
+
+There are three basic ways to export as detailed in [this GitLab Unfiltered video](https://www.youtube.com/watch?v=EJ1y5XkzZ9I):
+
+- ZI Chrome Extension (Expand only);
+- Advanced Search in ZI;
+- Company Org Chart in ZI;
 
 ### Marketo Integration
 

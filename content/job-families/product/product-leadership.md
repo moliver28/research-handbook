@@ -91,7 +91,7 @@ The VP of Product Management is a [grade 12](/handbook/total-rewards/compensatio
 - Demonstrated understanding of DevOps markets, competition, and underlying technologies
 - Track record of leading products to successful commercial outcomes
 - Excellent at boardroom and big stage presentations, and able to inspire and motivate customers and employees through written and verbal communications
-- Demonstrated ability to teach and coach the product management skills as outlined [here](/handbook/product/product-manager-role/product-CDF-competencies/)
+- Demonstrated ability to teach and coach the product management skills as outlined [here](/handbook/product/product-management/product-cdf-competencies/)
 
 #### VP of Product Management - Hiring Process
 
@@ -122,7 +122,7 @@ The VP of Product Management - Monetization is the PM DRI for the Fulfillment Se
 
 - [Fulfillment Section](/handbook/product/categories/#fulfillment-section) - Fulfillment Stage
 - [Pricing](/handbook/company/pricing/) - Pricing team
-- [Product Data Insights](/handbook/product/product-analysis/) - Product Data Insights Stage
+- [Product Data Insights](/handbook/product/groups/product-analysis/) - Product Data Insights Stage
 
 ### Senior Director of Product Management
 
@@ -182,7 +182,7 @@ Candidates for this position can generally expect the hiring process to follow t
 
 The Chief of Staff, Product acts as a trusted advisor to the Chief Product Officer (CPO). The Chief of Staff, Product and the CPO work closely together to get more than twice as much done as the CPO would be able to do alone. This is a unique opportunity to see every aspect of a public company at the CPO level.
 
-This is a senior leadership role within the Product Leadership team, reporting directly to the CPO, leading the Technical Program Management team who is responsible for driving operational alignment to the product strategy set by the CPO as well as overseeing R&D's product development operations. For example, the Chief of Staff,  Product will drive the Objective and Key Results (OKR) process for R&D including alignment to GitLab's [R&D Investment Themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes). Furthermore, the Chief of Staff, Product will partner with the CPO to prepare content for high visibility meetings including Product Leadership Offsites, E-Group Offsites, and GitLab Board of Directors updates (including both quarterly GitLab Board of Directors meetings and semi-regular asynchronous updates).
+This is a senior leadership role within the Product Leadership team reporting directly to the CPO. The Chief of Staff, Product drives alignment to the product strategy set by the CPO as well as overseeing R&D's product development operations. For example, the Chief of Staff, Product will drive the Objective and Key Results (OKR) process for R&D including alignment to GitLab's [R&D Investment Themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes). Furthermore, the Chief of Staff, Product will partner with the CPO to prepare content for high visibility meetings including Product Leadership Offsites, E-Group Offsites, and GitLab Board of Directors updates (including both quarterly GitLab Board of Directors meetings and semi-regular asynchronous updates).
 
 A detailed list of the types of projects the Chief of Staff, Product might work on can be found in the Product Handbook as well as on GitLab's [Direction](https://about.gitlab.com/direction/#fy25-rd-investment-themes), [Strategy](/handbook/company/strategy/), and [Vision](/handbook/company/vision/) pages.
 
@@ -233,12 +233,10 @@ The responsibilities include both directed work that will mostly be triggered by
 - Proven success in project coordination and reporting including proactively flagging areas that need input or are offtrack
 - Demonstrated ability to take a project from ideation through to implementation.
 - Proven track record of effectively interacting with senior stakeholders on cross-functional projects.
-- Experience leading a team.
 - 5+ years combined experience in:
   - Senior operating role at a significant fast-growing startup,
   - Strategy consulting,
   - or Venture capital.
-- 6+ years of people management experience.
 - Master's degree in Engineering or Business Administration or equivalent experience preferred.
 - Ability to use GitLab.
 
@@ -248,7 +246,6 @@ Candidates for this position can expect the hiring process to follow the order b
 
 - 30 minute screening call with Recruiter
 - 50 minute interview with Chief Product Officer
-- 50 minute direct report panel interview
 - 50 minute peer panel interview with PM/UX leadership
 - 50 minute counterpart panel interview with Sales/Marketing leadership
 - 50 minute interview with Senior Manager, People Business Partner

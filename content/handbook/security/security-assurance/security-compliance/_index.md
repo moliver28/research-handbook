@@ -1,8 +1,9 @@
 ---
-title: "Security Compliance, Commercial Team Page"
+title: "Security Compliance Commercial Team"
+description: "Security Compliance, Commercial Team Page"
 ---
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Compliance Mission
+## Security Compliance Mission
 
 Security Compliance (Commercial) Mission:
 
@@ -54,7 +55,7 @@ Work that overlaps with other teams including Dedicated Compliance can be found 
 
 We also utilize external tooling including:
 
-- ZenGRC: control testing and observations
+- Hyperproof: control testing and observations
 - Authomize: User access review campaigns
 
 ## How we work

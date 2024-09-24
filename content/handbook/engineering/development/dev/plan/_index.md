@@ -358,7 +358,7 @@ This enables us to differentiate these by persona and workflow. While they may s
 - We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-research-for-work-items) for supporting work item initiatives.
 - [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
 - We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
-- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
 
@@ -443,7 +443,17 @@ The responsibility of the DRI is simply to collect information and to ensure the
 | 2024-08-26 | Vladimir Shushlin |
 | 2024-09-02 | Kushal Pandya |
 | 2024-09-09 | Donald Cook |
-| 2024-09-16 | John Hope |
+| 2024-09-16 | Donald Cook |
+| 2024-09-23 | Kushal Pandya |
+| 2024-09-30 | John Hope |
+| 2024-10-07 | John Hope |
+| 2024-10-14 | Kushal Pandya |
+| 2024-10-21 | Donald Cook |
+| 2024-10-28 | John Hope |
+| 2024-11-04 | Vladimir Shushlin |
+| 2024-11-11 | Kushal Pandya |
+| 2024-11-18 | Donald Cook |
+| 2024-11-25 | John Hope |
 
 #### Links
 
@@ -638,4 +648,4 @@ By continually monitoring these tables and applying the planned mitigations, we 
 
 #### Plan xMAU
 
-- [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
+- [Product Planning Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/)

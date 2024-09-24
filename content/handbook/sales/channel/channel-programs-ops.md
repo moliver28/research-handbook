@@ -437,7 +437,7 @@ The newsletter will…
 **Be fun to look at and read**
 
 - A focus on multimedia is important in order to help the newsletter break the monotony of text Partners sift through each day.
-- We will use images, gifs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
+- We will use images, GIFs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
 
 **Help the Channel operationalize key messages**
 

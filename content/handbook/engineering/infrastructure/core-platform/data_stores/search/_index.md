@@ -81,6 +81,13 @@ Before a major milestone starts, we prepare an epic with all the breaking change
 
 Every MR that was created before the breaking change milestone should have this or a similar warning in the description: `:warning: This MR must be kept as a draft and cannot be merged until **DATE** :warning:`
 
+### Bugfix backport process
+
+We review the bugfix merge requests every week. To facilitate this process, we have created scoped labels: `backport::required`, `backport::skip`, and `backport::complete`.
+
+- The `backport::skip` label will be added to merge requests if no backport is needed.
+- The `backport::required` label will be added to the merge requests that need to be backported to a previous release in the initial review. The DRI will follow the [patch release process](/handbook/engineering/releases/#patch-releases-overview) to backport the fix to a previous release. Once the backport is done, the `backport::complete` label will be added to indicate the whole process is complete.
+
 ### Advanced Global Search Rollout on GitLab.com
 
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.
@@ -128,7 +135,7 @@ We have the following guidelines for doing reviews on Global Search Team MRs:
 
 ### Oncall escalation coverage
 
-As the Global Search Team requires special domain knowledge, such as Elasticsearch, we borrow team members with this domain knowledge from other groups to cover the on-call escalation when we are understaffing, especially during the holiday seasons. In general, we will follow the [dev](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process) on-call process. The Elasticsearch domain experts, identified by domain_expertise on their profile, may be contacted when SRE and dev on-call engineers cannot resolve the production incidents. We don't expect the domain experts to work outside their normal working hours. In case of emergency, we will follow the rules and best practices outlined in our [Incident Management](/handbook/engineering/infrastructure/incident-management/) handbook. To assist team members in catching up on the latest development status and resolving potential incidents, we have created a [Global Search Incident Management document](https://gitlab.com/gitlab-org/search-team/training-materials/-/tree/main/2021-12-14-production-incident-management) as a reference.
+As the Global Search Team requires special domain knowledge, such as Elasticsearch, we borrow team members with this domain knowledge from other groups to cover the on-call escalation when we are understaffing, especially during the holiday seasons. In general, we will follow the [dev](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process) on-call process. The Elasticsearch domain experts, identified by domain_expertise on their profile, may be contacted when SRE and dev on-call engineers cannot resolve the production incidents. We don't expect the domain experts to work outside their normal working hours. In case of emergency, we will follow the rules and best practices outlined in our [Incident Management](/handbook/engineering/infrastructure/incident-management/) handbook. To assist team members in catching up on the latest development status and resolving potential incidents, we have created a [Global Search Incident Management document](https://gitlab.com/gitlab-org/search-team/training-materials/-/tree/main/2021-12-14-production-incident-management) as a reference.
 
 #### Onboard domain experts from other groups to cover production incident escalation
 

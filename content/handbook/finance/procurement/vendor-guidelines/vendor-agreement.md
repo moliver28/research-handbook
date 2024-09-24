@@ -137,7 +137,7 @@ the Professional Services and/or Products as agreed to in the applicable Transac
 
 ### 18. DATA PRIVACY
 
-18.1 To the extent Vendor collects, records, organizes, alters, accesses, consults or transmits personal data for which GitLab is responsible and as it relates to the provision of the Products or Professional Services, Vendor shall process such personal data in accordance with the GitLab Data Processing Addendum ("DPA") and Standard Contractual Clauses found at https://about.gitlab.com/handbook/legal/Vendor-DPA.  The terms of the DPA are valid upon the Effective Date of this Agreement, and as may be updated by GitLab from time to time, provided any such updates are required by applicable law.  In order to comply with applicable law and as provided for in Section 6.2 of the DPA, Vendor shall provide to GitLab its current Sub-processor List(s), prior to completing and/or providing any Services.
+18.1 To the extent Vendor collects, records, organizes, alters, accesses, consults or transmits personal data for which GitLab is responsible and as it relates to the provision of the Products or Professional Services, Vendor shall process such personal data in accordance with the GitLab Data Processing Addendum ("DPA") and Standard Contractual Clauses found at https://handbook.gitlab.com/handbook/legal/Vendor-DPA.  The terms of the DPA are valid upon the Effective Date of this Agreement, and as may be updated by GitLab from time to time, provided any such updates are required by applicable law.  In order to comply with applicable law and as provided for in Section 6.2 of the DPA, Vendor shall provide to GitLab its current Sub-processor List(s), prior to completing and/or providing any Services.
 
 ### 19. SEVERABILITY
 

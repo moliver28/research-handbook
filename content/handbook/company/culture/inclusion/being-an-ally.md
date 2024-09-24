@@ -191,8 +191,8 @@ What you will need:
 What you will do:
 
 1. **Session 1:** Async ally training and courses. Synchronous meeting to discuss what you have learned.
-    1. [Equality Ally Strategies](https://trailhead.salesforce.com/en/content/learn/modules/workplace_equality_ally_strategies)
-    1. [Cultivate Equality at Work](https://trailhead.salesforce.com/users/stormieseas/trailmixes/cultivating-equality-at-work)
+    1. [Explore Ally Allyship](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
+    1. [Cultivate Equality at Work](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals)
     1. [Communicating with Empathy](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
     1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?autoplay=true&resume=false&u=2255073)
     1. [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
@@ -226,8 +226,8 @@ We held a 50 minute [Live Learning](/handbook/people-group/learning-and-developm
 
 There are some essential skills that are required to be an ally, here are a number of trainings that will help you enhance your allyship skills. Some of these are not allyship specific but will sharpen your skills in those important areas.
 
-- [Equality Ally Strategies](https://trailhead.salesforce.com/content/learn/modules/workplace_equality_ally_strategies?trail_id=champion_workplace_equality)
-- [Champion Workplace Equality](https://trailhead.salesforce.com/en/content/learn/trails/champion_workplace_equality)
+- [Equality Ally Strategies](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
+- [Champion Workplace Equality](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/put-allyship-practices-into-play-external)
 - [Effective Listening](https://www.linkedin.com/learning/effective-listening/improve-your-listening-skills?u=2255073)
 - [How to engage meaningfully in Allyship](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
 - [Becoming a true ally](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally?u=2255073)

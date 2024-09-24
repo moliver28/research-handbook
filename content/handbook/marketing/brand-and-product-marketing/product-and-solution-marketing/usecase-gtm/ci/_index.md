@@ -2,11 +2,11 @@
 title: "DevOps Solution Resource: Continuous Integration"
 ---
 
-## Looking for a customer-facing overview of GitLab's Continuous Integration (CI) capabilities? See the [CI Solution](https://about.gitlab.com/features/continuous-integration/)
+**Looking for a customer-facing overview of GitLab's Continuous Integration (CI) capabilities? See the [CI Solution](https://about.gitlab.com/features/continuous-integration/)**
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
-### Who to contact
+## Who to contact
 
 | Product Marketing | Developer Advocate |
 | ---- | --- |
@@ -35,21 +35,21 @@ CI makes software development easier, faster, and less risky for developers. By 
 
 The typical **user personas** for this usecase are the Developer, Development team lead, and DevOps engineer.
 
-#### Software Developer [Sacha](/handbook/product/personas/#sasha-software-developer)
+#### Software Developer Sacha
 
-Software developers have expertise in all sorts of development tools and programming languages, making them an extremely valuable resource in the DevOps space. They take advantage of source code management and CI capabilities together to work fast and consistently deliver high quality code.
+[Software developers](/handbook/product/personas/#sasha-software-developer) have expertise in all sorts of development tools and programming languages, making them an extremely valuable resource in the DevOps space. They take advantage of source code management and CI capabilities together to work fast and consistently deliver high quality code.
 
 - Developers are problem solvers, critical thinkers, and love to learn. They work best on planned tasks and want to spend a majority of their time writing code that ends up being delivered to customers in the form of lovable features.
 
-#### Development Team Lead [Delaney](/handbook/product/personas/#delaney-development-team-lead)
+#### Development Team Lead Delaney
 
-Development team leads care about their team's productivity and ability to deliver planned work on time. Leveraging CI helps maximize their team's productivity and minimize disruptions to planned tasks.
+[Development team leads](/handbook/product/personas/#delaney-development-team-lead) care about their team's productivity and ability to deliver planned work on time. Leveraging CI helps maximize their team's productivity and minimize disruptions to planned tasks.
 
 - Team Leads need to understand their team's capacity to assign upcoming tasks, as well as help resolve any blockers by assigning to right resources to assist.
 
-#### DevOps Engineer [Devon](/handbook/product/personas/)
+#### DevOps Engineer Devon
 
-DevOps Engineers have a deep understanding of their organization's SDLC and provide support for infrastructure, environments, and integrations. CI makes their life easier by providing a single place to run automated tests and verify code changes integrated back into the SCM by development teams.
+[DevOps Engineers](/handbook/product/personas/) have a deep understanding of their organization's SDLC and provide support for infrastructure, environments, and integrations. CI makes their life easier by providing a single place to run automated tests and verify code changes integrated back into the SCM by development teams.
 
 - DevOps Engineers directly support the development teams and prefer to work proactively instead of reactively. They split their time between coding to implement features and bug fixes, and helping developers build, test, and release code.
 
@@ -94,7 +94,7 @@ Examples of comparative research for this use case are listed just below. Additi
 | Visibility and collaboration | See code quality analysis and code coverage details from source code. Get feedback on code changes directly in GitLab with [merge requests (MRs)](https://docs.gitlab.com/ee/user/project/merge_requests/) and [issues](https://docs.gitlab.com/ee/user/project/issues/): edit, comment, review, and share in one place. Preview changes in review apps, see commit history, and get automatic alerts on important events. | [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [CI](https://docs.gitlab.com/ee/ci/), [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html), [Code Testing and Coverage](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html) <br> [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/), [Source Code Management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html) <br> [**Configure stage:**](https://about.gitlab.com/stages-devops-lifecycle/configure/) [ChatOps](https://docs.gitlab.com/ee/ci/chatops/) <br> [**Release stage:**](https://about.gitlab.com/stages-devops-lifecycle/release/) [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/) | [![Visibility and collaboration](../../images/youtube_social_icon_red-32x23.png) Visibility and collaboration](https://youtu.be/z8r3rFQT8xg) |
 | Platform and language support | GitLab is multi-platform (Unix, Windows, OSX, and any other platform that supports Go) and multi-language (Java, PHP, Ruby, C, and any other language).  | [All](https://about.gitlab.com/stages-devops-lifecycle/) | tbd |
 | Pipeline security | Security automation and scanning capabilities are built into GitLab's CI pipelines (SAST, DAST, dependency scanning, container scanning). Use Security scanning capabilities with Auto DevOps as well. | [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [CI](https://docs.gitlab.com/ee/ci/) <br> [**Secure stage**](https://about.gitlab.com/stages-devops-lifecycle/secure/) | [![Shifting Security Left - GitLab DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Shifting Security Left - GitLab DevSecOps Overview](https://youtu.be/XnYstHObqlA) |
-| Built in compliance |  Compliance testing and audit controls are built into GitLab's CI pipelines.  |  [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html), [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html) <br> [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [CI](https://docs.gitlab.com/ee/ci/) <br> [**Secure stage:**](https://about.gitlab.com/stages-devops-lifecycle/secure/) [License compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html)|  [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
+| Built in compliance |  Compliance testing and audit controls are built into GitLab's CI pipelines.  |  [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html), [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html) <br> [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [CI](https://docs.gitlab.com/ee/ci/) <br> [**Secure stage:**](https://about.gitlab.com/stages-devops-lifecycle/secure/) [License compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html)|  [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
 | Easy to get started | GitLab supports config-as-code via .gitlab-ci.yml files and Auto DevOps to predefine configurations or a web UI to get started quickly and easily.  | [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [CI](https://docs.gitlab.com/ee/ci/) | [![Easy to get started](../../images/youtube_social_icon_red-32x23.png) Easy to get started](https://youtu.be/e0iQD1qgxZg) |
 | DevOps tools and integrations | Slack, Jira, Docker, Kubernetes, external repos like GitHub, Bitbucket, and any other Git-based repo. GitLab also supports various APIs and third-party libraries for connecting external services and build tools, as well as GDK and Frontend Foundations for community contributors. | [All](https://about.gitlab.com/stages-devops-lifecycle/) | tbd |
 | Analytics | Manage and optimize your software delivery lifecycle with metrics and value stream insight in order to streamline and increase your delivery velocity. Visualize pipelines and report on performance metrics such as memory usage, load testing results, code complexity, and code coverage stastics. | [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Insights](https://docs.gitlab.com/ee/user/group/insights/), [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) <br> [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [CI](https://docs.gitlab.com/ee/ci/), [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html), [Code Testing and Coverage](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html), [Web Performance](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html) | tbd |
@@ -124,13 +124,13 @@ Examples of comparative research for this use case are listed just below. Additi
 | 2) Uniquely enables rapid innovation |  Your organization's speed to market is directly impacted by how fast your development teams can move and adapt to change at an individual level. GitLab provides a complete DevOps platform that teams can use to innovate faster without sacrificing quality and enables cross-team collaboration in a central location. Combining powerful features "that just work" and leveraging automation in place of manual work wherever possible helps bring teams together across the entire SDLC regardless of role - product managers, designers, developers, managers, and all roles in between, can work more efficiently and stay involved as a part of a single conversation across the SDLC. | GitLab deploys over 160 times a day and is one of the [30 Highest Velocity Open Source Projects](https://about.gitlab.com/blog/2017/07/06/gitlab-top-30-highest-velocity-open-source/) from the CNCF, we're voted as a G2 Crowd Leader 2018 with more than 170 public reviews and a 4.4 rating noting "Powerful team collaboration for managing software development projects," and have over 2,900 active contributors. Forrester's [Total Economic Impact (TEI) of GitLab](https://about.gitlab.com/resources/report-forrester-tei/) study details the cost savings and business benefits of adopting GitLab. | [![Uniquely enabling rapid innovation](../../images/youtube_social_icon_red-32x23.png) Uniquely enabling rapid innovation](https://youtu.be/MLrqJ1sxkjQ) |
 | 3) Shift built in security and compliance "all the way left" | You get security features out-of-the-box and automated security testing with audit controls to facilitate policy compliance. Moving security testing farther left into the SDLC catches potential problems earlier and shortens feedback loops for developers. This means a faster time to market delivering secure, compliant, code and an increase in customer confidence. | Gartner mentions GitLab as a vendor in the Application Monitoring and Protection profile in its [2019 Hype Cycle for Application Security](https://www.gartner.com/en/documents/3953770/hype-cycle-for-application-security-2019). GitLab positioned in the [niche players quadrant of the 2020 Gartner Magic Quadrant for Application Security Testing](https://about.gitlab.com/press/releases/2020-05-11-gitlab-positioned-niche-players-quadrant-2020-gartner-magic-quadrant-application-security-testing.html). Wag! takes advantage of [built-in security and faster releases with GitLab](https://about.gitlab.com/blog/2019/01/16/wag-labs-blog-post/), and Glympse makes their [audit process easier and remediates security issues faster](https://about.gitlab.com/customers/glympse/). |  [![Built in security and compliance](../../images/youtube_social_icon_red-32x23.png) Built in security and compliance](https://youtu.be/Fd5DhebtScg) |
 
-## [CI Use Case Message House](message-house/)
+## CI Use Case Message House
 
-The message house provides a structure to describe and discuss the value and differentiators for Continuous Integration with GitLab.
+The [message house](message-house/) provides a structure to describe and discuss the value and differentiators for Continuous Integration with GitLab.
 
-### [GitLab Runner Messaging and Positioning](runner-message-house/)
+### GitLab Runner Messaging and Positioning
 
-The message house provides a structure to describe and discuss the value and differentiators for [GitLab Runner](https://docs.gitlab.com/runner/), the open source project that is used to run your jobs and send the results back to GitLab.
+The [runner message](runner-message-house/) house provides a structure to describe and discuss the value and differentiators for [GitLab Runner](https://docs.gitlab.com/runner/), the open source project that is used to run your jobs and send the results back to GitLab.
 
 ## Customer Facing Slides
 
@@ -239,14 +239,18 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 
 ### Blogs
 
-#### [Jaguar Land Rover](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)
+#### Jaguar Land Rover
+
+[Jaguar Land Rover](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)
 
 - **Problem:** JLR had **6 week feedback loops** resulting in slowdowns
 - **Solution:** Premium (CI)
 - **Result:** **Feedback loops reduced to 30 mins.** JLR is deploying within the engineering environment, 50-70 times per day of each individual piece of software to a target or to a vehicle.
 - **Sales Segment:** Enterprise
 
-#### [Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
+#### Ticketmaster
+
+[Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
 
 - **Problem:** Long Jenkins build times slowed down CI pipeline
 - **Solution:** Premium (CI)
@@ -255,7 +259,9 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 
 ### Case Studies
 
-#### [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)
+#### Goldman Sachs
+
+[Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)
 
 - **Problem** Needed to increase developer efficiency and software quality
 - **Solution:** GitLab Premium (CI/CD, SCM)
@@ -263,14 +269,18 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 All the new strategic pieces of 'software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
 - **Sales Segment:** Enterprise
 
-#### [Hotjar](https://about.gitlab.com/customers/hotjar/)
+#### Hotjar
+
+[Hotjar](https://about.gitlab.com/customers/hotjar/)
 
 - **Problem** Hotjar was looking to replace Jenkins and reduce complexity within their tool stack
 - **Solution:** GitLab Silver (CI/CD)
 - **Result:** Time of CI builds **decreased by 30%**, improved to 2-15 deploys per day, and 50% deployment time saved.
 - **Sales Segment:** SMB
 
-#### [CERN](https://about.gitlab.com/customers/cern/)
+#### CERN
+
+[CERN](https://about.gitlab.com/customers/cern/)
 
 - **Problem:** CERN was looking for an open source way to host their pipelines
 - **Solution:** GitLab Starter (CI)
@@ -313,7 +323,7 @@ This table shows the recommended features to adopt, links to product documentati
 |[Trigger Deployments](https://docs.gitlab.com/ee/ci/environments/)    |   x    |   x   |   x   |  usage_activity_by_stage_monthly.release.deployments         |     |
 | [Use Compliance Framework](https://docs.gitlab.com/ee/user/project/settings/#compliance-frameworks) | | x | x | usage_activity_by_stage.manage.projects_with_compliance_framework | |
 |[View Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html)    |      |   x   |   x   |  compliance_unique_visits.g_compliance_audit_events         |     |
-| [View Value Stream Analytics](https://docs.gitlab.com/ee/user/analytics/value_stream_analytics.html) | x | x | x | analytics_unique_visits.p_analytics_valuestream| |
+| [View Value Stream Analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/) | x | x | x | analytics_unique_visits.p_analytics_valuestream| |
 | [View DevOps Adoption](https://docs.gitlab.com/ee/user/group/devops_adoption/) | | | x | analytics_unique_visits.i_analytics_dev_ops_adoption| |
 | [Migrate projects to GitLab](https://docs.gitlab.com/ee/user/project/import/) | x | x | x | usage_activity_by_stage.manage.project_imports.total | |
 | [Authenticate with external providers](https://docs.gitlab.com/ee/administration/auth/) | x | x | x| usage_activity_by_stage.manage.user_auth_by_provider.standard| |
@@ -330,7 +340,7 @@ The SSOT Handbook Page for Product Adoption - Lighthouse Metrics and Leading Ind
 
 #### Additional Documentation Links
 
-- [Introduction to CI/CD with GitLab](https://docs.gitlab.com/ee/ci/introduction/)
+- [Introduction to CI/CD with GitLab](https://docs.gitlab.com/ee/ci/quick_start/)
 - [Getting started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
 - [GitLab CI/CD Examples](https://docs.gitlab.com/ee/ci/examples/)
 - [Migrating From CircleCI to GitLab](https://docs.gitlab.com/ee/ci/migration/circleci.html)

@@ -39,16 +39,18 @@ We envision a Field organization that has easy and intuitive access to the infor
 | ------ | ------ | ------ |
 | Ali Shahrazad  | Sr. Director, Field Enablement | Mgr |
 | Kelley Shirazi | Director, Global Sales and Customer Success Enablement | Mgr |
-| Monica Gomez | Sr. Manager, Field Communications & Content | Mgr |
-| Emelie Rodriguez | Staff Program Manager, Global Enterprise Sales | IC |
-| Shannon Thompson | Sr. Field Communications Specialist | IC |
-| Pallavi Daliparthi | Sr. Program Manager, Customer Success / Solutions Architect Enablement | IC |
-| John Blevins | Sr Program Manager, Onboarding & Continuing Education | IC |
-| Cristian Enache | Sr. Program Manager, EMEA Commercial Enablement | IC |
-| Misty Martin-Zimmerman | Sr Program Manager, AMER Commercial Enablement | IC |
-| Amelia Zaglul | Sr. Program Manager, Executive Sponsorship Program & Field Events | IC |
+| Monica Gomez | Director, Enablement Operations | Mgr |
+| Steve Wilson | Sr. Manager, Product Enablenent | IC | 
+| Emelie Rodriguez | Staff Program Manager, GTM Enablement | IC |
+| Shannon Thompson | Sr. Field Communications Manager | IC |
+| Pallavi Daliparthi | Staff Program Manager, Customer Success / Solutions Architect Enablement | IC |
+| Cristian Enache | Staff Program Manager, EMEA Field Enablement | IC |
+| Jess Stetson | Staff Program Manager, AMER Field Enablement | IC | 
+| John Blevins | Sr. Program Manager, Onboarding & Continuing Education | IC |
+| Joshua Jones | Sr. Program Manager, Partner Enablement | IC |
 | Omnia Radwan | Associate Program Manager, Customer Success / Solutions Architect Enablement | IC |
-| Tess Dutton | Program Manager, Field Enablement | IC |
+| Tess Dutton | Program Manager, Field Enablement Content | IC |
+| Emily Hiett | Field Communications Manager | IC |
 
 ### How We Measure Success
 

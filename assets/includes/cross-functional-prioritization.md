@@ -23,7 +23,7 @@ If one of these labels clearly doesn't apply for an issue, consider using the `t
 
 A team's ratio might change over time and different teams may have different ratios. Factors that influence what ratio is appropriate for a given team include the [product category maturity](/handbook/product/categories/), the area of the product they are working in, and the evolving needs of GitLab the business. Teams should review labeling for accuracy and minimize the number of `type::undefined` items. This allows us to review the plans at the group, section, and company level with team members to ensure we appropriately prioritize based on cross-functional perspectives.
 
-For more details on these three work types, please see the section on [work type classification](/handbook/engineering/metrics/#work-type-classification).  The development EM is the DRI to ensure that the merge requests are accurately labeled.
+For more details on these three work types, please see the section on [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).  The development EM is the DRI to ensure that the merge requests are accurately labeled.
 
 #### Prioritization for feature, maintenance, and bugs
 

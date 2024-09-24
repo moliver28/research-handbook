@@ -41,6 +41,7 @@ SELECT
   Latest_Sold_To_Contact__r.Name,
   Partner_Track__c,
   Partners_Partner_Type__c,
+  Support_Hold__c,
   (
     SELECT
       Id,
@@ -53,15 +54,28 @@ SELECT
     FROM Zuora__R00N40000001lGjTEAU__r
     WHERE
       Zuora__EffectiveEndDate__c != NULL
+  ),
+  (
+    SELECT
+      Name,
+      Zuora__SoldToWorkEmail__c
+    FROM Zuora__R00N40000001kyLcEAI__r
+    WHERE
+      IsDeleted = false
+    ORDER BY CreatedDate ASC
+    LIMIT 1
   )
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer') OR
+  Type != 'Prospect' AND
   (
-    Type = 'Partner' AND
-    Partners_Partner_Status__c IN ('Authorized', 'Former') AND
-    Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
-    Partner_Track__c IN ('Open', 'Select', 'Technology')
+    Type IN ('Customer', 'Former Customer') OR
+    (
+      Type = 'Partner' AND
+      Partners_Partner_Status__c IN ('Authorized', 'Former') AND
+      Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
+      Partner_Track__c IN ('Open', 'Select', 'Technology')
+    )
   )
 ```
 
@@ -114,6 +128,7 @@ SELECT
   GS_Health_Score_Color__c,
   Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
+  Support_Hold__c,
   (
     SELECT
       Id,
@@ -169,12 +184,14 @@ SELECT
   Name,
   Email,
   Account.Account_ID_18__c,
-  Account.Name
+  Account.Name,
+  Role__c
 FROM Contact
 WHERE
   Inactive_Contact__c = false AND
   Name != '' AND
   Email != '' AND
+  Role__c = 'Gitlab Admin' AND
   (
     NOT Email LIKE '%gitlab.com'
   ) AND

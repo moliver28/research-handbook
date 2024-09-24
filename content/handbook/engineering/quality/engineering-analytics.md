@@ -159,7 +159,7 @@ This team will have standing bi-weekly sync with the Data team to:
 These weights are used to estimate analyst time needed to fulfill a request by 1 engineering analyst. This is used when estimating total capacity of work that can be done by the team. If more than 2 weeks needed (>8 weight), then issue needs to be broken down into multiple issues.
 
 | Label Weight | 1 Analyst Time Estimate | Work Example |
-| ----------- | ----------- |
+| ----------- | ----------- |----------- |
 | 1 | 1 full day | basic handbook updates, changing basic parameters in Sisense charts|
 | 3 | 1/2 week | Creating new Performance Indicator from Data that already exists in data warehouse|
 | 5 | 1 week | Creating new dashboard with granular details around existing metric|

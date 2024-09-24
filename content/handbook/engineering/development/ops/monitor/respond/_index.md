@@ -56,7 +56,9 @@ You can follow along with the team's accomplishments by reading the [latest week
 
 ## Working Agreements
 
-### 🤝 [Collaboration](/handbook/values/#collaboration)
+### 🤝 Collaboration
+
+[Collaboration](/handbook/values/#collaboration)
 
 * Anything in an issue description is allowed to change. And YOU'RE allowed to do it. Since we have the description history, we can always go back to an old version with negligible effort.  If making a substantial change to the description, provide some explanation to explain why it's changing. **Issue descriptions are documentation, not a single person's opinion**.
   * Related: try to keep "I"s out of the issues you write, or differentiate your personal opinions/context by adding a disclaimer/bold/italics.  Personal opinions could also be added to the comments section so that others can respond and discuss them. If a description is less personal, it's easier for anyone else to feel like they can improve or refine it.
@@ -65,7 +67,9 @@ You can follow along with the team's accomplishments by reading the [latest week
 * Conversely, it's ok to say no or offer hard limits.
   * **When you do say "no", propose alternatives or a potential path forward** for that person to get what they want/need.
 
-### 📈 [Results](/handbook/values/#results)
+### 📈 Results
+
+[Results](/handbook/values/#results)
 
 * **Just declare a plan.** If people don't agree, they'll tell you.
   * If requirements are unclear, ask for help and explain exactly what you're looking for. Prefer questions like "What should happen in scenario X?" to "I'm not sure how Y should work." The responder should be able to tell whether they've unblocked you simply by making sure each of your questions has an answer.
@@ -74,7 +78,9 @@ You can follow along with the team's accomplishments by reading the [latest week
   * It's way easier to engage with your work if you believe in what you're building. Advocate for it.
 * Sometimes it's necessary to accept risk to make progress.
 
-### ⏱️ [Efficiency](/handbook/values/#efficiency)
+### ⏱️ Efficiency
+
+[Efficiency](/handbook/values/#efficiency)
 
 * It's ok to say "I'm so confused, can you explain it differently?"
 * When answering questions or posing questions, **always think "who is my audience, and what info do they need right now?"**
@@ -82,16 +88,22 @@ You can follow along with the team's accomplishments by reading the [latest week
   * If posing a question/problem to multiple groups, **categorize information & label it**. Let the reader choose what they want to read.
   * A question posed to a designer *should* be different from a question asked of an engineer. Our designer needs to know the impact of the decision on the user, how big of a pain a given solution is, or whether an option has implications for the design down the line. Conversely, an engineer needs to know which code is being discussed, any implicit assumptions that have been made, which requirements are already known, or why certain options have been ruled out. But in either circumstance, you want to provide the responder with exactly what they need to make an informed choice by the time they reach the end of the question/comment.
 
-### 🌐 [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion)
+### 🌐 Diversity, Inclusion & Belonging
+
+[Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion)
 
 * Communication is hard. Our attention spans are short. If possible, supplement with pictures.
   * If you are verbose, that's ok. **Include summaries, tldrs, tables, headers, and style your text to make it easier to consume your writing.**
 
-### 👣 [Iteration](/handbook/values/#iteration)
+### 👣 Iteration
+
+[Iteration](/handbook/values/#iteration)
 
 * If you already took an action down one path, but now you need to go a different direction, that's ok. That's iteration. You did not waste time or do anything wrong. You just moved forward.
 
-### 👁️ [Transparency](/handbook/values/#transparency)
+### 👁️ Transparency
+
+[Transparency](/handbook/values/#transparency)
 
 * If there's 80% of a decision but still some unknowns, **it can be ok to use "I'm just going to improvise" as the plan** for the remaining pieces. Just state it explicitly in advance & communicate the outcome afterward.
   * The best path forward is sometimes the path of least resistance. **It often doesn't matter *what* you do, as long as it's well communicated.**
@@ -310,7 +322,7 @@ The Respond team uses labels for issue tracking and to organize issue boards.  M
 
 ## Respond PTO
 
-Just like the rest of the company, we use [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) to track when team members are traveling, attending conferences, and taking time off. The easiest way to see who has upcoming PTO is to run the `/time-off-deel whosout` command in the `#g_respond_standup` slack channel. This will show you the upcoming PTO for everyone in that channel.
+Just like the rest of the company, we use Workday to track when team members are out of the office and taking time off. The easiest way to see who has upcoming PTO is to run the `/time-off-deel whosout` command in the `#g_respond_standup` slack channel. This will show you the upcoming PTO for everyone in that channel.
 
 ## Reading list
 

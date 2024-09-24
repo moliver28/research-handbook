@@ -33,23 +33,25 @@ TA Leadership Enablement for these sheets can be found [here](https://internal.g
 
 **Thursday - 5pm PT**: FP&A Partners update Adaptive as needed for aligned division.
 
-**Friday**: Weekly Snapshot set to Senior Leadership.
+**Friday**: Weekly Snapshot sent to Senior Leadership.
 
 **Headcount Releases**: All net new headcount is released in annual fiscal year plan. Backfill headcount will remain fluid throughout the quarter and all incremental net new headcount will be released through the RLoA Process that runs each quarter as according to [financial quarterly and monthly cycles](/handbook/finance/financial-planning-and-analysis/#quarterly--monthly-cycle-incl-close-variance-forecast-guidance).
 
 ### Quarterly Headcount Validation Exercise
 
-Our headcount management is a fluid process through the fiscal year. Starting with our annual plan, we will have changes throughout the quarter based on backfill activity, top down incremental releases, and our quarterly [RLoA process](/handbook/finance/financial-planning-and-analysis/#rolling-list-of-asks-rloa). Once roles are released, FP+A partners collaborate with Talent Acquisition leadership to set a forecasted start month. We use these forecasted start month to project our bottom line headcount projections through the course of the quarter, set hiring goals and manage headcount spend. Our goal is to come up with the most accurate forecast possible, and essential to doing that is business readiness to recruit on roles as we progress through our hiring plan.
+Our headcount management is a fluid process through the fiscal year. Starting with our annual plan, we will have changes throughout the quarter based on backfill activity, top down incremental releases, and our quarterly [RLoA process](/handbook/finance/financial-planning-and-analysis/#rolling-list-of-asks-rloa). 
 
-To support business readiness, we are introducing a Quarterly Headcount Validation exercise in our G&A, Marketing and R&D cost centers. The goal of this exercise is two-fold: (1) provide a structured point in time review of open headcount and reallocate as business needs change with the understanding of financial impact and (2) to collect all the necessary information needed for Talent Acquisition to drive efficiency in our recruitment process for the upcoming quarters set roles.
+Once roles are released, FP&A partners collaborate with Talent Acquisition leadership to set a forecasted start month. We use these forecasted start month to project our bottom line headcount projections through the course of the quarter, set hiring goals and manage headcount spend. Our goal is to come up with the most accurate forecast possible, and essential to doing that is business readiness to recruit on roles as we progress through our hiring plan.
+
+To support business readiness, we are introducing a Quarterly Headcount Validation exercise in our G&A, Marketing and R&D teams. The goal of this exercise is two-fold: (1) provide a structured point in time review of open headcount for the next quarter ahead of recruiting kick-offs, (2) reallocate resources as business needs change with the understanding of financial impact and (3) to collect all the necessary information needed for Talent Acquisition to drive efficiency and kick off roles in a timely fashion.
 
 **Process Outline**
 
 | DRI | Process | Timing |
 | --- | ----------- | ----------- |
-|TA Directors | VALIDATION: Create point-in-time data pull of all upcoming quarter headcount for business review [VP level audience] to share asynchronously with leaders. Data source for the pull should be the working Interlock sheet by cost center that we work through with FP+A, PBPs and the business each week. PBPs to advise and partner with leaders to work through exercise of reviewing and validating: All details on open requisitions - hiring manager, title, grade, location and start date. Provide information on likelihood of internal vs. external placement | mid-end of month 1 of Quarter |
-| TA Directors | STARTS REVIEW: Any start month adjustments rolled up to reviewed by TA and Finance | First week of month 2 of Quarter |
-| FP&A Partners | ADJUSTMENT APPROVAL: Approve all requested updates to start dates for following quarter and upload into Adaptive/Interlock sheets. | By 15th of month 2 of Quarter |
-| Hiring Managers | Hiring Managers with upcoming headcount needing new job families creation begin the process early to create necessary documentation ahead of recruiters being allocated to requisitions. | Last month of Quarter |
-| TA Manager+ | ROLE ALLOCATION: Allocate roles to recruiters for all net new roles for Q3.| By 15th of month 2 of Quarter|
-| Recruiters | OPEN ROLES: All Q3 roles to be opened in Greenhouse | By end of Quarter |
+|TA Directors | VALIDATION: Create point-in-time data pull of all upcoming quarter headcount for business review [VP level audience] to share asynchronously with leaders. Data source for the pull should be the working Interlock sheet by cost center that we work through with FP+A, PBPs and the business each week. PBPs to advise and partner with leaders to work through exercise of reviewing and validating: All details on open requisitions - hiring manager, title, grade, location and start date. Provide information on likelihood of internal vs. external placement | Month 2 of Quarter |
+| TA Directors | STARTS REVIEW: Any start month adjustments rolled up to reviewed by TA and Finance | Month 2 of Quarter |
+| FP&A Partners | ADJUSTMENT APPROVAL: Approve all requested updates to start dates for following quarter and upload into Adaptive/Interlock sheets. | Month 2 of Quarter |
+| Hiring Managers | Hiring Managers with upcoming headcount needing new job families creation begin the process early to create necessary documentation ahead of recruiters being allocated to requisitions. | Month 2 of Quarter |
+| TA Manager+ | ROLE ALLOCATION: Allocate roles to recruiters for all net new roles. Recruiters to kick-off with hiring managers| Last Month of Quarter|
+| Recruiters | OPEN ROLES: All roles to be opened in Greenhouse | No later than First week of Quarter |

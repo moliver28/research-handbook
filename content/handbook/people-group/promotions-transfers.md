@@ -55,7 +55,7 @@ Our promotion philosophy comprises core pillars surrounding the approach and pro
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligble for promotion to the next level in the same job family after twelve months in their current position.
+- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
 - Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
 - When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
 - All in-line promotions at GitLab require a [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
@@ -118,9 +118,8 @@ Status: In progress
 - Calibrations & Workday input by Director+: 2024-06-24 to 2024-07-10
 - PBP & E-Group leader approvals: 2024-07-12
 - Workday Approvals: 2024-07-16 to 2024-07-18
-- Communication: 2024-07-24 to 2024-08-01
+- Communication: 2024-07-24 to 2024-08-01 (after fully approved in Workday)
 - Effective date for promotions: 2024-08-01
-- Communication: After fully approved in Workday
 - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
@@ -328,7 +327,7 @@ The steps below outline the process promotion candidates should follow to reques
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
         - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
         - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
-    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and inidividual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
+    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and individual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
     - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
 5. Team member sends out feedback form copy to feedback providers
     - This references the form promotion candidates made a copy of in Step 3.
@@ -357,7 +356,7 @@ A goal through this process is to continue to facilitate opportunity to provide 
 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
-Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Busines Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 #### Resources
 
@@ -427,7 +426,7 @@ When reviewing compensation for a transfer in Greenhouse, the Total Rewards team
 
 This section describes the approval chain after the People Business Partner submits a promotion request in Workday.
 
-1. The changes will route for approval to the manager, next level manager,and e-Group leader.
+1. The changes will route for approval to the manager, next level manager, and e-Group leader.
 1. If the request is approved, the People Connect Team will stage the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) in DocuSign.
 1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack #team-member-updates channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
 1. For change of departments and managers, People Connect Team members will create a Career Mobility Issue.
@@ -439,7 +438,7 @@ This section describes the approval chain after the People Business Partner subm
 #### Job Change Letter
 
 1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
-1. Review the Signature requirements per country and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
+1. Review the [Signature requirements per country](https://docs.google.com/spreadsheets/d/1soc-j0Z_UUqHX8X04zJUzBrDv0I1SNCjkbO8-OTZQ24/edit?usp=sharing) and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
 1. Make a copy of the applicable Job Change Letter template and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
     - For sales personnel with a variable change, the effective date is always the 1st of the month regardless of their entity.
     - If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
@@ -483,7 +482,7 @@ As highlighted in the Definition section, all interim roles (regardless of the n
 
 When the interim period comes to a close, one of two outcomes can occur:
 
-- The team member successfully completes the interim period aligned with [the success criteria](/handbook/engineering/career-development/#interim-manager) and moves into the interim role permanently.
+- The team member successfully completes the interim period aligned with [the success criteria](/handbook/engineering/careers/#interim-manager) and moves into the interim role permanently.
   - As a general guideline, the interim period should last no *less* than 30 days, and no *more* than 4 months .
   - The People Business Partner should submit the promotion request through Workday using the [Change Job](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit) job aid including the promotion document to make the change official. In Workday, the reason for the change should be `Promotion - Promotion`. The accomplishments leading up to the interim and during the interim can be used for the promotion document. The manager is responsible for creating the promotion document and [recommending a compensation increase]({{< ref "promotions-transfers#recommending-a-compensation-increase" >}}). *Note: Promotion documents are only required if the team member's move results in a promotion. For lateral moves, we do not require promotion documents.*
 - The team member does not complete the interim period successfully or decides that the manager track is not something they want to pursue, and moves back to their role prior to the interim period.
@@ -510,7 +509,7 @@ Note: There are no changes that are made in Workday for acting roles. To track a
 
 A person "acting" in the role is someone who occupies a role temporarily and will move back to their original role. "Acting" in a role may be to experiment with the role to determine if it fits an individual's career development path goals, or may be filling in for a vacant role while we hire someone to fill the role permanently. While interim is only applicable to the Engineering division, acting is used across GitLab.
 
-*Interviews are not required role Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
+*Interviews are not required for Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
 
 - Upcoming Acting roles will be discussed during staff meetings.
 - Leadership can gather interest from their team members for the upcoming acting roles.
@@ -549,7 +548,7 @@ Job title specialties are used to indicate a stage, group and/or a specific focu
 
 ### Job Title Specialty Guidance For Managers
 
-Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they thing through job title specialties to ensure a consistent approach.
+Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
 
 To easily access a report for what current job title specialties are for your team, you can follow these steps:
 
@@ -598,7 +597,6 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 1. The People Connect Specialist logs into Workday via Okta to approve the transfer in Workday > click on Inbox in top right corner
 1. Review the business process titled 'Transfer' and reason 'Manager to Another Manager' > click: approve
-1. Log into BambooHR and update the manager, as this is currently connected to Time Off by Deel: Click on tab: Job > scroll to: Job Information > Click on: Add Entry > Fill in the following fields: Under 'Effective Date' add the same effective date as in Workday and select under 'Reports To' the applicable new manager > click: save
 
 **Process for EBA to update senior leadership:**
 
@@ -732,7 +730,7 @@ A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-oper
 - Migration from Manager to Individual Contributor (defined as a decrease in management level from Mgr+ to IC within Workday)
 - Migration of Team (for purposes of Career Mobility issues, team changes are defined as a change in both manager & cost center)
 
-Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
 

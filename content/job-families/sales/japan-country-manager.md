@@ -39,7 +39,7 @@ The Country Manager is a [grade 11](/handbook/total-rewards/compensation/compens
 - Reside in Japan and with the ability to travel throughout the country as needed.
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 {{% job-families/sales/performance %}}
 

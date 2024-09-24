@@ -63,7 +63,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Expense items must clearly state if the spend includes amounts for clients / non-Team Members. Tax requirements in certain countries require us to account for client spending differently.
 - Anything submitted outside of these guidelines will be flagged as Out of Policy.
 - All work-related expenses (internet, co-working space, other monthly subscription, etc.) are not reimbursable while on Leave of any kind.
-- For PEO's, as you are aware with Navan, the system will automatically reimburse in the currency of the GitLab organization you are employed. To ensure you are reimbursed in the currency in which your PEO needs to be invoiced please submit your expenses in the payment currency you will be invoicing the PEO in. i.e. if you invoice your PEO in USD, then convert the expense into USD prior to submitting the expense report in Navan. This will then allow you to know the exact amount to invoice the PEO every month. If this is not doable then we will convert the currency using the FX rates from Netsuite on the day this expense is transferred to payroll for payment to the PEO.
+- For PEO's, as you are aware with Navan, the system will automatically reimburse in the currency of the GitLab organization you are employed. To ensure you are reimbursed in the currency in which your PEO needs to be invoiced please submit your expenses in the payment currency you will be invoicing the PEO in. i.e. if you invoice your PEO in USD, then convert the expense into USD prior to submitting the expense report in Navan. This will then allow you to know the exact amount to invoice the PEO every month. If this is not doable then we will convert the currency using the FX rates from Netsuite on the day this expense is transferred to payroll for payment to the PEO. To find out the actual amount submitted in Navan, we can provide you a list of the expenses submitted for each month.  Please request this monthly by submitting a [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) ticket so we can provide you the needed information.
 - As with any third-party, it is best practice to limit the amount of personal data shared. The inclusion of personal data on your receipts is not required to submit an expense, so feel free to redact personal data for increased privacy. However, this is not a required step. For those that choose not to redact personal data from your expense receipts, the privacy and security controls in place at Navan were evaluated and they are designed to adequately protect your information.
 
 ### 3.1 Out of Policy Transactions
@@ -76,7 +76,16 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP, Corporate Controller or CAO.
 - There will be occasions where if you have claimed an item and it needs to be reimbursed back to GitLab, you will need to follow the repayment process in Navan for submission of the funds.
 
-### 3.2 Other
+### 3.2 Trip Purpose Guidance
+
+- When booking travel in Navan, it's important to select the proper trip purpose type from the "Trip Purpose" dropdown menu. Selecting the correct trip type is essential for accurate data reporting.
+- The options for trip purpose include:
+  - Company meeting - any travel for internal meetings or events (that are not listed separately) with no customers present
+  - Customer visit - any travel for meetings or events where GitLab customers and prospects are in attendance including conferences, roadshows, field events, and customer meetings
+  - Partner visit - any travel for meetings or events where GitLab partners are in attendance
+  - Specific events - these will be visible in the trip purpose dropdown, ex: `FY25 GTM Onsite`
+
+### 3.3 Other
 
 - Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by the CFO.
 - Any exceptions to the policy must be documented via an issue or an email with proper approvals from their manager and Finance team.
@@ -95,7 +104,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 
 #### Airfare
 
-All business related flights need to be booked through Navan, and will be paid by GitLab travel card. For each flight search, Navan determines the price in real time. Also to note that while it is sometimes possible to find a cheaper flight outside of Navan, we get overall better rates in the aggregate with the buying power of the whole company. Even if a flight is cheaper outside of Navan, please book in Navan. Also email expenses@gitlab.com with screenshots of Navan's rate and the other airlines rate so the Expense team can address with Navan.
+All business related flights need to be booked through Navan, and will be paid by GitLab travel card. For each flight search, Navan determines the price in real time. Also to note that while it is sometimes possible to find a cheaper flight outside of Navan, we get overall better rates in the aggregate with the buying power of the whole company. Even if a flight is cheaper outside of Navan, please book in Navan. Also submit a request under the `Expenses -> Travel Related Expenses` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) with screenshots of Navan's rate and the other airlines rate so the Expense team can address with Navan.
 
 #### Advance Purchase
 
@@ -111,12 +120,15 @@ The airfare policy in Navan is set up as a "Dynamic Policy" which calculates a f
 
 #### Domestic Flights
 
-- **Flights over 5 hours of consecutive flight time** - For domestic flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
+- **Flights over 5 hours of consecutive flight time** - For domestic flights with a duration greater than 5 hours of consecutive flight time (each segment must be 5+ hours), team members are authorized to book the next class up from standard economy as long as it is below business class.
 
 #### International Flights
 
-- **Flights greater than 5 hours of consecutive flight time** - For international flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
-- **Flights exceeding 8 hours of consecutive flight time** - For those who travel frequently, defined as 3 or more trips per quarter internationally on flights of 8 hrs+ continuous flight time (6 flight segments of 8+ hours continuous flight time), for a meeting with customers, a speaking engagement, or representing GitLab at a conference; business class is permitted.
+- **Flights greater than 5 hours of consecutive flight time** - For international flights with a duration greater than 5 hours of consecutive flight time (each segment must be 5+ hours), team members are authorized to book the next class up from standard economy as long as it is below business class.
+- **Flights exceeding 8 hours of consecutive flight time** - For those who travel frequently, defined as 3 or more trips per quarter internationally on flights of 8 hrs+ continuous flight time (minimum 6 flight segments with 8+ hours per segment), business class is permitted when traveling for any of the following reasons:
+  - Meeting with customers
+  - Speaking engagement
+  - Representing GitLab at a conference
 
 #### Frequent Flyer Programs
 
@@ -127,7 +139,7 @@ The airfare policy in Navan is set up as a "Dynamic Policy" which calculates a f
 
 - Team Members are responsible for canceling trips that they will no longer be able to attend.
 - Flight cancellations typically result in flight credit/unused tickets that can be used going forward.
-- Unused tickets must be used for future business travel whenever possible. If the Team Member knows they won't be able to use the ticket, please contact expenses@gitlab.com.
+- Unused tickets must be used for future business travel whenever possible. If the Team Member knows they won't be able to use the ticket, please submit a request under the `Expenses -> Travel Related Expenses` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/).
 - Team Members may not personally benefit from any unused airline tickets.
 - Please reach out to Navan Support if you need to change a flight.
 
@@ -335,7 +347,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Co-working spaces need to be a professionally managed space. Leasing of apartments or private properties is prohibited.
 - Coworking space is not reimbursable while on personal travel.
 - Up to 5 One-off Days in a calendar month related to co-working space do not require Manager or Finance approval.
-- If more than 5 days are booked in the month, then Manager and Finance approval (via email to expenses@gitlab.com ) is required and needs to be obtained prior to submission of expenses.
+- If more than 5 days are booked in the month, then Manager and Finance approval (via submitting a request under the `Expenses -> General Expenses` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)) is required and needs to be obtained prior to submission of expenses.
 - Copy of approved email must be submitted with first month submission.
 - No contracts are allowed to be under the GitLab name and it must be under the Team Members name.
 - The co-working space must be submitted monthly in the month it pertains to with full receipts to be provided.
@@ -364,14 +376,15 @@ The company will cover all work-related travel expenses. This includes lodging a
 #### Equipment
 
 - These amounts were set after a thorough analysis and review of Team Members' expense data during the previous two years and benchmarked with other remote companies. Anything over this amount will be at the expense of the Team Member and no exceptions will be made.
-- As you onboard and start your GitLab journey, new hires will receive a 1,500 USD (or equivalent local currency) stipend to help you towards setting up your home office in your first year. This will be issued to you as a Virtual Card, and you will be able to use that card to purchase items. The Virtual Card information will be sent to you by the Accounts Payable team via your Onboarding Issue. Please refer to the Navan Expense End Users Guide for instructions on using and accessing your Virtual Card.
+- As you onboard and start your GitLab journey, new hires will receive a 1,500 USD (or equivalent local currency) stipend to help you towards setting up your home office in your first year. This will be issued to you as a Virtual Card, and you will be able to use that card to purchase items. The Virtual Card information will be sent to you by the Accounts Payable team via your Onboarding Issue. Please refer to the  [Navan End Users Guide](/handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/) for instructions on using and accessing your Virtual Card.
 - Existing Team Members will get a yearly refresh of 500 USD (or equivalent local currency) to purchase upgrades, replacements, or enhancements to your home office setup. This only applies to Team Members who have been employed the entire previous fiscal year. This excludes laptops - please connect with the IT team if you require a replacement laptop.
 - We want you to set up your office the way you want it. Although we don't want to put any restrictions regarding which office equipment you may purchase, we would like to outline what is covered under the term Office Equipment.
 - What's included - Essential items which you will need to ensure you are able to perform your role in GitLab should include chair, desk, monitor, Laptop (provided), headset, external mic, external keyboard and external mouse.
 - Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
 - Any items outside this will fall under an exception to the policy and will be subjected to review.
 - In addition the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills and tablets.
-- If you have any doubts please connect with the Expense Team on expenses@gitlab.com. Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
+- Purchasing from Private Sellers (e.g. either new or used equipment) is allowed. To expense them, attach the screenshot of your transaction with the seller showing the amount agreed upon, payment method, and item details in the description field. If paid via online transfer, attach the receipt for back up. 
+- If you have any doubts please connect with the Expense Team by submitting a request under the `Expenses -> Home Office Equipment` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/). Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
 
 ##### New Hires- 1,500 USD (or equivalent local currency) Guidelines
 
@@ -402,7 +415,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - The cost of the gifts and flowers provided to GitLab Team Members will be allocated to the senders departmental budget. The allowable cost for gifts is up to $125 USD (including shipping) per gift.
 - If you would like to buy holiday gifts for your team, these need to be done personally and should not be expensed.
 - People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team `EmployeeGiftsFlowers` and the account 6028 in Navan Expense for the expense.
-- For further questions regarding expensing of gifts and flowers, please reach out to the AP team via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
+- For further questions regarding expensing of gifts and flowers, please reach out to the AP team by submitting a request under the `Expenses -> General Expenses` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/).
 
 {{% panel header="**Coding**" header-bg="green" %}}
 
@@ -432,7 +445,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Laptops, insurance and repairs
 
 - All laptops are purchased through GitLab unless a Team Member is in a region where GitLab cannot deliver a laptop.
-- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/) for your reference.
+- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/it/end-user-services/onboarding-access-requests/) for your reference.
 
 #### Repairs to company issued equipment
 
@@ -621,7 +634,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 **iiPay**
 
 - Team Members must submit their expenses through Navan.
-- All Individual contractors or C2C, with exception of Nigeria will be reimbursed by iiPay by the 22nd of each month. All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) by the 6th of each month to be included in the current month payment. For contractors with C2C status, be sure to contact the Payroll team via email at nonuspayroll@gitlab.com and expenses@gitlab.com if you need to set up a separate bank for your expense reimbursement.
+- All Individual contractors or C2C, with exception of Nigeria will be reimbursed by iiPay by the 22nd of each month. All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) by the 6th of each month to be included in the current month payment. For contractors with C2C status, be sure to contact the Payroll team via HelpLab and submit a request under the `Expenses -> General Expenses` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) if you need to set up a separate bank for your expense reimbursement.
 
 **CXC Global**
 

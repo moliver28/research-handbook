@@ -6,9 +6,8 @@ description: "This page has all the information for the GTM-CICD sales play."
 
 Note: Think of a sales play as a recipe. If you follow the recipe, we can achieve more predictable, consistent results. And if we find an asset or approach that works best (or flops), then we can tweak the recipe to continuously improve. **If you have improvements to suggest, please contribute comments to [this MR](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5095) to suggest your edits and upvote on others.
 
-## Jump to [Sales Play Tactics](#sales-play-tactics)
-
-### [Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing)
+* Jump to [Sales Play Tactics](#sales-play-tactics)
+* [Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing) (internal)
 
 ## Overview
 
@@ -156,7 +155,9 @@ Advantages of a single application for DevOps and Security together include unpa
 
 *see provided link for additional details including value and videos*
 
-### [Proof points](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#proof-points---customers)
+### Proof points
+
+[Proof points](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#proof-points---customers)
 
 ## Objection handling
 

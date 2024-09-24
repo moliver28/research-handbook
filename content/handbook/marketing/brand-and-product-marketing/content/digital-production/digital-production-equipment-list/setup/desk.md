@@ -40,7 +40,7 @@ OR
 
 ### Camera Support (Choose One)
 
-- Camera Desk Mount - [Example](https://www.corsair.com/us/en/Categories/Products/Elgato-Gaming/Multi-Mount/Master-Mount-L/p/10AAB9901#)
+- Camera Desk Mount - [Example](https://www.elgato.com/ca/en/p/master-mount-l#)
 
 OR
 

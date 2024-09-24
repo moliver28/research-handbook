@@ -2,13 +2,13 @@
 title: Using GitLab to plan work
 ---
 
-We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are: 
+We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are:
 
-- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes. 
+- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
 - [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
 - [Tasks](https://docs.gitlab.com/ee/user/tasks.html) (optional): Decompose an Issue into more detailed implementation steps.
-- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete. 
-- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning. 
+- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
+- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning.
 - [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
@@ -28,7 +28,7 @@ You should consider **not** creating an issue when:
 - You're breaking down work very far ahead of implementation. Create broad issues or epics for distant features to minimize the total number of issues and maintain flexibility to iterate on the plan closer to implementation.
 - There is already an existing issue. Even if the quality is low, people might
 have linked to it. Consider rewriting the description instead and leaving a comment
-that you did so. 
+that you did so.
 
 #### How to submit a new issue
 
@@ -45,8 +45,8 @@ to see if a similar issue already exists. We shouldn't create duplicates if we c
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
-1. Assign labels for [work type classification](/handbook/engineering/metrics/#work-type-classification). 
-1. Leave a comment and tag the product manager to triage the issue. 
+1. Assign labels for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+1. Leave a comment and tag the product manager to triage the issue.
 Mentioning someone in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
@@ -55,7 +55,7 @@ people in another channel after the issue has been created (Slack, email).
 
 Feature issues identify work to support the implementation of a feature and/or results in an improvement in the user experience.
 
-- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/#issues), refer to the [definition of an MVC](/handbook/values/#minimal-viable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases.
+- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/planning-with-gitlab/#issues), refer to the [definition of an MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases.
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
 - Whether the code results in user facing updates or not, if it is part of building the feature it should be labeled as such.
@@ -73,7 +73,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
-- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
+- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) for classifying a bug as `severity::1`.
 
 ### Epics
 
@@ -90,7 +90,7 @@ This epic should have a start and an end date, and it should not span more than
 When these issues are finished and closed, we should have successfully achieved the
 epic's goal. A good example of this kind of epic is the first iteration on a new
 feature. Epics representing MVCs should clearly state `MVC` at the end of the
-title and should have a parent epic relationship towards a category strategy or a meta epic. 
+title and should have a parent epic relationship towards a category strategy or a meta epic.
 
 ### Epics for multiple iterations
 
@@ -110,11 +110,13 @@ When creating a multi-iteration epic:
 
 It's important to balance between having a long-term vision and maintaining flexibility to adapt based on user feedback and changing priorities. Regularly reassess multi-iteration epics to ensure they still align with product strategy and user needs.
 
+We try to avoid creating epics for time frames as reaching a certain date shouldn't be considered an exit criteria for feature development. Instead scope epics for product features with a clear user experience goal in mind.
+
 #### Meta epics for longer term items
 
 To categorize issues and epics into themes or longer running items, we recommend using labels. You can also use epics to track many issues related to a specific topic, even if there
 isn't a specific timeline for shipping. These epics should be marked as ~meta, they
-may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship. 
+may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship.
 
 #### Work item state
 
@@ -133,15 +135,15 @@ As a Product Manager you should close work items for the following reasons:
 
 1. Duplicated elsewhere
 1. Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
-1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around. 
-1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.  
+1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around.
+1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.
 1. Low priority: sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
-1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page. 
-1. No longer relevant. 
+1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page.
+1. No longer relevant.
 
 The 'not the next iteration' work items are the most important ones to resolve.
 It is very easy to create a large, comprehensive change with meta items and lots of improvements,
-but it is essential that we iterate and ship the _minimal viable_ change.
+but it is essential that we iterate and ship the _minimal valuable_ change.
 We have to ship the iteration, wait for it to be used, and ask for feedback.
 As a product manager, you must think about the bigger picture when making a proposal to improve the product.
 It's important to avoid writing this down as a bunch of work items.
@@ -162,8 +164,8 @@ for your group can aid in tracking timeline oriented long-running efforts (here'
 As part of our planning process it is important that you maintain a prioritized
 [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html) for your group.
 It's customary to call these boards `STAGE - GROUP - Planning` and to configure them to filter
-to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/1131777?&label_name%5B%5D=group%3A%3Ahealth)).
+to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/4873470?label_name[]=group%3A%3Aproduct%20planning)).
 
-As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
+As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
 within and across milestones. This means the lowest priority in the current milestone would generally be the top priority in the next milestone.
 In this regard your planning exercise is a complete prioritization of the near term issues.

@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::verify"
 title: 'GitLab Steps ADR 001: Bootstrap Step Runner'
+toc_hide: true
 ---
 
 ## Context

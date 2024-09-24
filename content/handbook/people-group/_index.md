@@ -1,9 +1,6 @@
 ---
 title: People Group
 description: "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle."
-aliases:
-- /handbook/people-group/
-- /handbook/people-group/people-group-vision/
 ---
 
 ## Welcome
@@ -33,7 +30,9 @@ You can also check out pages related to People Group in the section below. If yo
 - If you wonder who's available and/or in what time zone specific team members of the People Group are, you can easily check via Google Calendar or the [GitLab Team Page](/handbook/company/team/)
 - If you need help with any technical items, for example, 2FA, please ask in `#it_help`. The channel topic explains how to create an issue. For urgent matters you can mention `@it-ops-team`.
 
-## The People Group: [One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
+## The People Group: One Team Mosaic Video
+
+[One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
 
 In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values](/handbook/values/).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
 
@@ -93,7 +92,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | HelpLab | @people-connect-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
 | [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
-| [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | No alias, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | n/a | #people-ops-eng | n/a |  |
+| [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | @gl-people-engineering | No email group, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | #peopleops-eng | n/a | https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/3941171 |
 | [Diversity, Inclusion and Belonging](https://gitlab.com/gitlab-com/diversity-and-inclusion) | No alias yet, @mention the |  |  |  |  |
 | [Diversity, Inclusion and Belonging Partner]({{< ref "diversity-inclusion-partner" >}}) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
 | [Learning and Development](https://gitlab.com/gitlab-com/people-group/Training) | `@gitlab-com/people-group/learning-development` | learning@ gitlab.com | #learninganddevelopment | n/a | [L&D Issue Board](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/boards/1958538)  |
@@ -216,9 +215,34 @@ Administrative access to CultureAmp will be limited based on role and responsibi
 - Survey Creator administrator access can create, manage and design surveys, select participants and share results.
 - Survey data analyst administrator can export raw data from all surveys enabled for raw data extract.
 
-To request access please open an access request with the type of account [access requested](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
+To request access please open an access request with the type of account [access requested](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
 
 If you need support with a specific CultureAmp Survey, please complete this [issue template](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/blob/main/.gitlab/issue_templates/survey_request.md) to alert the People Analytics Team.
+
+## Take Time Out to Learn
+
+At GitLab, we believe that [career growth is non-linear](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/). In practice, non-linear career growth is an opportunity for team members to increase efficiency with new skills, develop as leaders with new responsibilities, and grow as an expert in their field.
+
+**But growth only happens when we make intentional time and space to learn.**
+
+As a People Group, we're embracing this attitude of continuous learning together, with the challenge that, as a team, we can spend a total of **300 hours** learning before the end of FY25 Q3! We encourage everyone to participate, spending approx. 2 hours per month learning something new, as a way to prioritize your development and use work time to uplevel and upskill.
+
+At the end of the quarter, we'll ask folks to self-report hours spent learning, and take a tally of total People Group learning hours.
+
+![visual progress bar for People team hours spent learning](/handbook/people-group/learning-hours.png)
+
+Here are a few ways you might spend time learning this quarter:
+
+1. [Create an IGP](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/#start-your-igp) to track and monitor your growth goals
+1. Utilize the [Growth and Development Fund](/handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to engage in a class or conference
+1. Organize a [job shadow](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/#job-shadow-programs) or [internship for learning](/handbook.gitlab.com/handbook/people-group/learning-and-development/internship-for-learning/) to increase exposure and collaboration with different roles and teams.
+1. Attend an AMA or async Group Conversation, and contribute by asking a question.
+1. Organize a discussion on your team about a shared topic (i.e. article, book, or podcast on a topic that is relevant to your team's work)
+1. Attend a TMRG career growth event
+
+We encourage everyone to have an ongoing conversation about career growth with their manager during weekly 1:1s. If this isn't already part of your weekly check in, consider adding it to your agenda template now!
+
+**Investing in your growth is essential for both your individual success and the success of our entire team. Let’s start learning together!**
 
 ## Other pages related to the People Group
 

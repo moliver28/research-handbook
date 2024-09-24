@@ -26,7 +26,7 @@ For more information on general Product Usage Reporting, see [Using Product Usag
 | [GS] Hosting | What is their (primary) hosting setup? Manually filled by the CSM |  | [Link](/handbook/customer-success/csm/gainsight/deployment-types/#hosting) |
 | [GS] Last Activity Date | This field reflects the latest Call, Meeting, or Email activity entry logged for the customer. See handbook for details |  | [Link](/handbook/customer-success/csm/gainsight/timeline/#last-activity-date) |
 | [GS] Last CSM Activity Date | Last activity as recorded in GS by CSMs to track synchronous conversations with their customer |  | [Link](/handbook/customer-success/csm/gainsight/timeline/#last-activity-date) |
-| [GS] Lifecycle Stage | Each customer deployment goes through the following lifecycle stages: <br>Onboarding<br>Implementation<br>Adoption<br>Optimize & Grow |  | [Link](/handbook/customer-success/vision/#lifecycle-stages) |
+| [GS] Lifecycle Stage | Each customer deployment goes through the following lifecycle stages: <br>Onboarding<br>Implementation<br>Adoption<br>Optimize & Grow |  | [Link](/handbook/customer-success/customer-success-vision/#lifecycle-stages) |
 | [GS] Provider | Logs what (cloud) provide the customer uses or if they're on-premises. Manually filled by the CSM  |  | [Link](/handbook/customer-success/csm/gainsight/deployment-types/#provider) |
 | [GS] Slack Channel Link | Customer slack channel URL |  |  |
 | [GS] Summary | This is a general summary field for CSMs to add relevant and helpful information to manage the account.  |  | [Link](/handbook/sales/gainsight/account-planning/#the-account-snapshot) |

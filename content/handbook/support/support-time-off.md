@@ -83,9 +83,9 @@ to take reasonable actions to prepare the team and your customers for your
 absence. By making these preparations, you will also be making it easier for
 yourself to disconnect from work and make your time off effective.
 
-If you're taking off **less than half a day,** you do not need to make entries in Time Off by Deel or the Support Time Off Calendar, but please consider updating your Slack status. Also consider blocking the interval on your personal Google Calendar, so no one tries to book a pairing/meeting with you during that time.
+If you're taking off **less than half a day,** you do not need to make entries in Workday or the Support Time Off Calendar, but please consider updating your Slack status. Also consider blocking the interval on your personal Google Calendar, so no one tries to book a pairing/meeting with you during that time.
 
-If you're taking off **a half day or more,** enter the time off in Time Off by Deel.
+If you're taking off **a half day or more,** enter the time off in Workday.
 
 At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make unavailable` button on the row with your user information in it.
 
@@ -128,7 +128,8 @@ For high priority tickets, tend towards a handing over to someone else:
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
 1. To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):
-   - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads).
+
+   - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
    - Make sure to undo this change when you return from OOO.

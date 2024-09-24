@@ -57,7 +57,7 @@ The Partner Integration Engineer is a [grade 6](/handbook/total-rewards/compensa
   - Application performance monitoring
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Manager, Partner Integration Engineers
 

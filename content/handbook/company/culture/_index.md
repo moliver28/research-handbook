@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](https://about.gitlab.com/events/gitlab-contribute/)
+Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](/handbook/company/culture/summit/)
 
 <!-- blank line -->
 <figure style="padding:56.25% 0 0 0;position:relative;">
@@ -44,7 +44,7 @@ You'll need to think creatively, speak up to see how you can help, and be willin
 
 At GitLab, our [value of iteration](/handbook/values/#iteration) has a unique impact on the way we operate and get things done.
 
-Working this way means our team members are expected to quickly deliver the minimum viable change in their work instead of waiting to produce a polished, completed product.
+Working this way means our team members are expected to quickly deliver the minimal valuable change in their work instead of waiting to produce a polished, completed product.
 
 While this can be a challenging practice to adopt at first, it's liberating to be able to make mistakes, get feedback quickly, and course correct to reach a better outcome, faster.
 
@@ -104,7 +104,7 @@ Some key takeaways from the call include:
 ## Other pages related to culture
 
 1. [GitLab 101](gitlab-101/)
-1. [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute/)
+1. [GitLab Contribute](/handbook/company/culture/summit/)
 1. [Internal Feedback]({{< ref "internal-feedback" >}})
 1. [Diversity, Inclusion and Belonging](inclusion/)
 1. [All-Remote](all-remote/)

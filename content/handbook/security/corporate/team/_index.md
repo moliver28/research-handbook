@@ -31,8 +31,8 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/device">@gitlab-com/gl-security/corp/device</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -49,7 +49,7 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -67,7 +67,7 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -85,8 +85,8 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/device">@gitlab-com/gl-security/corp/device</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -106,10 +106,10 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_mgr_eng</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/identity">@gitlab-com/gl-security/corp/team/identity</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/managers">@gitlab-com/gl-security/corp/team/managers</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/platform">@gitlab-com/gl-security/corp/team/platform</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/identity">@gitlab-com/gl-security/corp/identity</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/managers">@gitlab-com/gl-security/corp/managers</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/code">@gitlab-com/gl-security/corp/code</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -128,9 +128,9 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_mgr_eng</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/managers">@gitlab-com/gl-security/corp/team/managers</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/device">@gitlab-com/gl-security/corp/device</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/managers">@gitlab-com/gl-security/corp/managers</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -148,8 +148,8 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/identity">@gitlab-com/gl-security/corp/team/identity</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/identity">@gitlab-com/gl-security/corp/identity</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -166,7 +166,7 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -185,9 +185,9 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/identity">@gitlab-com/gl-security/corp/team/identity</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/platform">@gitlab-com/gl-security/corp/team/platform</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/identity">@gitlab-com/gl-security/corp/identity</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/code">@gitlab-com/gl-security/corp/code</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -204,7 +204,7 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -225,9 +225,9 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_infra</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/identity">@gitlab-com/gl-security/corp/team/identity</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/infra">@gitlab-com/gl-security/corp/team/infra</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/platform">@gitlab-com/gl-security/corp/team/platform</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/identity">@gitlab-com/gl-security/corp/identity</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/infra">@gitlab-com/gl-security/corp/infra</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/code">@gitlab-com/gl-security/corp/code</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -244,7 +244,7 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -262,8 +262,8 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/device">@gitlab-com/gl-security/corp/device</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -298,8 +298,8 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/identity">@gitlab-com/gl-security/corp/team/identity</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/identity">@gitlab-com/gl-security/corp/identity</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -318,8 +318,8 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_mgr_program</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/device">@gitlab-com/gl-security/corp/device</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -336,7 +336,7 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -354,8 +354,8 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_logistics</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/logistics">@gitlab-com/gl-security/corp/team/logistics</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/logistics">@gitlab-com/gl-security/corp/logistics</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -374,9 +374,9 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_logistics</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/logistics">@gitlab-com/gl-security/corp/team/logistics</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/managers">@gitlab-com/gl-security/corp/team/managers</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/logistics">@gitlab-com/gl-security/corp/logistics</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/managers">@gitlab-com/gl-security/corp/managers</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -397,10 +397,10 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_infra</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/identity">@gitlab-com/gl-security/corp/team/identity</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/infra">@gitlab-com/gl-security/corp/team/infra</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/platform">@gitlab-com/gl-security/corp/team/platform</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/identity">@gitlab-com/gl-security/corp/identity</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/infra">@gitlab-com/gl-security/corp/infra</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/code">@gitlab-com/gl-security/corp/code</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -417,7 +417,7 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_helpdesk</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/helpdesk">@gitlab-com/gl-security/corp/team/helpdesk</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/helpdesk">@gitlab-com/gl-security/corp/helpdesk</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -435,7 +435,7 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_mgr_program</code><br>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/managers">@gitlab-com/gl-security/corp/team/managers</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/managers">@gitlab-com/gl-security/corp/managers</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -454,8 +454,8 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_svc_infra</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/infra">@gitlab-com/gl-security/corp/team/infra</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/platform">@gitlab-com/gl-security/corp/team/platform</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/infra">@gitlab-com/gl-security/corp/infra</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/code">@gitlab-com/gl-security/corp/code</a><br>
 </small></td>
 </tr>
 <!-- Team Member -->
@@ -473,8 +473,8 @@ N/A
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
 </small></td>
 <td><small>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
-<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/device">@gitlab-com/gl-security/corp/device</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/saas">@gitlab-com/gl-security/corp/saas</a><br>
 </small></td>
 </tr>
 </tbody>

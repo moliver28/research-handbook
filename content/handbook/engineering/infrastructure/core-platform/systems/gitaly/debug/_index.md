@@ -103,6 +103,65 @@ The query uses [PromQL](https://prometheus.io/docs/prometheus/latest/querying/ba
 - [hyperfine](https://github.com/sharkdp/hyperfine): a performance tool that can benchmarks over time
   - hyperfine can be used together with grpcurl to check the response time of a gPRC call
 
+### Enable Git trace
+
+The `gitaly_log_git_traces` feature flag allows you to enable logging of Git trace2 spans for a specific user, group, or project. When enabled, Git outputs all trace2 spans to
+gRPC logs issued by that particular actor.
+
+```bash
+/chatops run feature set --project=gitlab-org/gitlab gitaly_log_git_traces true
+/chatops run feature set --user=myusername gitaly_log_git_traces true
+```
+
+Because of the frequency and noisiness of logs streaming in, customers should use a filter on server side logs to match the key and value of either:
+
+- `"msg":"Git Trace2 API"`
+- `"component":"trace2hooks.log_exporter"`
+
+For more information, see:
+
+- [Profile Git operations](https://docs.gitlab.com/ee/administration/gitaly/troubleshooting.html#profile-git-operations).
+- [Use ChatOps to enable and disable feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls.html).
+
+On the client side, for Git trace v1, the customer can enable `GIT_TRACE*` variables, including:
+
+```bash
+GIT_TRACE=true
+GIT_TRACE_PACK_ACCESS=true
+GIT_TRACE_PACKET=true
+GIT_TRACE_PERFORMANCE=true
+```
+
+For Git trace v2:
+
+```bash
+# Debugging git operations
+# If GIT_TRACE2_PERF_BRIEF or trace2.perfBrief is true, the time, file, and line fields are omitted.
+GIT_TRACE2_PERF_BRIEF=1 GIT_TRACE2_PERF=true git clone http://gitlab.com/gitlab-org/gitaly
+GIT_TRACE2_PERF_BRIEF=1 GIT_TRACE2_PERF=$(pwd)/git-perf.log git clone http://gitlab.com/gitlab-org/gitaly
+
+# Output git events in json format
+GIT_TRACE2_BRIEF=true GIT_TRACE2_EVENT=$(pwd)/trace2.json git clone http://gitlab.com/gitlab-org/gitaly
+```
+
+Outputs can be configured in different formats:
+
+```bash
+# Normal format
+export GIT_TRACE2=~/log.normal
+# OR Performance format
+export GIT_TRACE2_PERF=~/log.perf
+# OR Event format
+export GIT_TRACE2_EVENT=~/log.event
+# OR JSON format
+export GIT_TRACE2_EVENT=~/log.json
+```
+
+For more information, see:
+
+- [Git Trace v1 API](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
+- [Git Trace v2 API](https://git-scm.com/docs/api-trace2)
+
 ### strace
 
 `strace(1)` a gitaly process:
@@ -139,6 +198,27 @@ To find the top 10 User, Project, Client by Duration calling that method:
 ```shell
 grep PostUploadPackWithSidechannel var/log/gitlab/gitaly/current | ~/bin/fast-stats --interval 60m top
 ```
+
+### git
+
+Snoop on Gitaly Git commands.
+
+1. Stop Gitaly
+1. Rename gitaly-git process `find /opt/gitlab/embedded/bin/gitaly-git-v* -exec mv {} {}_orig \;`
+1. Create wrapper script for each git version. Make sure you replace `opt/gitlab/embedded/bin/gitaly-git-vX.XX_orig` on the scrip with the right version.
+
+```shell
+#!/bin/bash
+GIT="/opt/gitlab/embedded/bin/gitaly-git-vX.XX_orig"
+FILE="/tmp/gitaly-$(date +%Y-%m-%d@%H:%M)"
+echo -e "\n$(date) $PPID $@\n" >> $FILE
+exec $GIT "$@" | tee -a $FILE
+echo -e "\n--------------\n" >> $FILE
+
+```
+
+1. Make scripts executable `find /opt/gitlab/embedded/bin/gitaly-git-v* -exec chmod 777 {} \;`
+1. Start Gitaly
 
 ## Log analysis
 

@@ -9,6 +9,8 @@ title: Okta Verify Device Trust macOS Setup Guide
 
 ## Overview
 
+**Note**: Occasionally after a macOS version update, Okta Verify will need to be set up again. Following these steps will resolve the issue. 
+
 1. Open the Okta Verify application on macOS via Spotlight by selecting the magnifying glass in the menu bar (top right corner of display). Another method to open Spotlight is to use `cmd + Space`
 ![Spotlight Search](/handbook/business-technology/okta/images/spotlight.png)
 

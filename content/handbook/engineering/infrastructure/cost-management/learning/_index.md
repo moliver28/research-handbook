@@ -96,4 +96,3 @@ This could also be called a "product", the two are interchangeable, and this can
 ## Resource Links
 
 - [MultiCloud Service Comparison](http://comparecloud.in/)
-- [MultiCloud Compute Pricing Comparison](https://banzaicloud.com/cloudinfo/)

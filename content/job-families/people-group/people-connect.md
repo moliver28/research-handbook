@@ -119,7 +119,7 @@ The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/
 - Continue to drive automation for easy access of employment confirmation letters, automatic invitations to Contribute, confirmation of business insurance, etc.
 - Continuously manage and improve both administrative efficiency and team member experiences during onboarding.
 - Partner closely with Managers at GitLab to gain feedback from various teams about onboarding, offboarding and transition issues.
-- Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd).
+- Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-success-performance-indicators/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-success-performance-indicators/#onboarding-task-completion--x-tbd).
 - Continuously improve offboarding of team members.
 - Along with the People Business Partners, create efficient people processes and clear hand-offs.
 - Work closely with payroll, SecOps, and IT Ops to continue to improve the administration of offboarding the time it takes to complete.
@@ -173,7 +173,7 @@ The Senior Manager, People Connect is a [Grade 9](/handbook/total-rewards/compen
 - Implementation of data retention strategies and partnering with People Leads to ensure this is implemented across all team member data consistently
 - Continuous Improvement of both administration and people experience during onboarding.
 - Partnering closely with Managers at GitLab to gain feedback from various teams about onboarding, offboarding and transition issues
-- Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd)
+- Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-success-performance-indicators/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-success-performance-indicators/#onboarding-task-completion--x-tbd)
 - Continuous improvement of offboarding for both voluntary and involuntary terms
 - Along with the People Business Partners, create a Terminations playbook to ensure the team can remain async and scale
 - Work closely with payroll, SecOps, and IT Ops to continue to improve the administration of offboarding the time it takes to complete
@@ -292,7 +292,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - [12 month team member retention](/handbook/people-group/people-success-performance-indicators/#team-member-retention-rolling-12-months)
 - [12 month voluntary team member turnover](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-retention-rolling-12-months)
-- [Onboarding Satisfaction Survey > 4.5](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat)
+- [Onboarding Satisfaction Survey > 4.5](/handbook/people-group/people-success-performance-indicators/#onboarding-satisfaction-osat)
 - Onboarding task completion < X (TBD)
 
 ## Career Ladder

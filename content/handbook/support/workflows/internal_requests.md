@@ -66,7 +66,7 @@ Solution Architects should use the [Support Super form](https://support-super-fo
 
 GitLab Team Members can no longer submit inactive namespace / namesquatting requests for their own use. See: [support-team-meta#5170](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170)
 
-Customers can submit a support ticket. See [Name Squatting Policy]({{< ref "namesquatting_policy" >}}).
+Customers can submit a support ticket. See [Name Squatting Policy](/handbook/support/workflows/namesquatting_policy/).
 
 ## Contact Request
 

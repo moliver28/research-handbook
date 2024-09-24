@@ -197,7 +197,7 @@ The following list of models (with dbt Docs links) are in use for creating Pipel
 | [restricted_safe_workspace_sales.ssa_coverage_fitted_curves](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.ssa_coverage_fitted_curves) <br> (model created from Jupyter Notebook export) | Model containing historical pipeline coverage (fitted curves) |
 | [workspace_sales.date_details](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.date_details) | Helper table containing different date fields |
 | [restricted_safe_workspace_sales.report_agg_demo_sqs_ot_keys](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.wk_sales_report_agg_demo_sqs_ot_keys) | Helper table containing different keys that can be used for aggregation |
-| ([EDM](/handbook/business-technology/data-team/platform/edw/) not `sales_workspace`) <br> [restricted_safe_common_mart_sales.mart_sales_funnel_target](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_sales_funnel_target) | Model with sales targets |
+| ([EDM](/handbook/enterprise-data/platform/edw/) not `sales_workspace`) <br> [restricted_safe_common_mart_sales.mart_sales_funnel_target](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_sales_funnel_target) | Model with sales targets |
 
 #### Models not Available in dbt
 
@@ -209,4 +209,4 @@ Each Google Sheet based dashboard has a `source` Google sheet pair which contain
 
 ### Permission Handling
 
-To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Environment. Also for non-Sisense dashboards (e.g. Pipeline X-Ray), access is automatically granted for those to have access to SAFE dashboards in Sisense.
+To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Environment. Also for non-Sisense dashboards (e.g. Pipeline X-Ray), access is automatically granted for those to have access to SAFE dashboards in Sisense.

@@ -3,9 +3,9 @@ title: "DevOps Solution Resource: DevSecOps"
 description: "How GitLab approaches the DevSecOps solution including messaging and key resources to help marketing and sales."
 ---
 
-## Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)
+**Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)**
 
-## GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
+**GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information**
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -344,13 +344,8 @@ GitLab customer, Arctic Engine, [shares their experience](https://about.gitlab.c
 
 #### G2
 
-- GitLab is a leader on the G2 Grid® for Static Application Security Testing (SAST)
-
-<div style="width: 300px;"><iframe src="https://www.g2.com/categories/static-application-security-testing-sast/grids.embed?wid=1613497323" id='g2-crowd-widget-default' width='300px' height='300px' frameborder='0' scrolling='no' style='border: solid 1px #eaeaea;  width:100%;min-height:100%;overflow:hidden;'></iframe> <a href="https://www.g2.com/categories/static-application-security-testing-sast" style='font-size: 12px; color: #515159; font-weight: 600'> G2 Grid® for <span class='fw-semibold'>Static Application Security Testing (SAST) Software</span> </a> </div>
-
-- GitLab is a leader on the G2 Grid® for Dynamic Application Security Testing (DAST)
-
-<div style="width: 300px;"><iframe src="https://www.g2.com/categories/dynamic-application-security-testing-dast/grids.embed?wid=1613497323" id='g2-crowd-widget-default' width='300px' height='300px' frameborder='0' scrolling='no' style='border: solid 1px #eaeaea;  width:100%;min-height:100%;overflow:hidden;'></iframe> <a href="https://www.g2.com/categories/dynamic-application-security-testing-dast" style='font-size: 12px; color: #515159; font-weight: 600'> G2 Grid® for <span class='fw-semibold'>Dynamic Application Security Testing (DAST) Software</span> </a> </div>
+- GitLab is a leader on the [G2 Grid® for Static Application Security Testing (SAST)](https://www.g2.com/categories/static-application-security-testing-sast/)
+- GitLab is a leader on the [G2 Grid® for Dynamic Application Security Testing (DAST)](https://www.g2.com/categories/dynamic-application-security-testing-dast/)
 
 ### Customer Case Studies
 

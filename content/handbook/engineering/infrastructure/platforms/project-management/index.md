@@ -27,14 +27,7 @@ This automation runs several times each day, and can be triggered by [running th
 #### Status updates on project epics
 
 Comments are automatically generated on project epics to report status.
-To enable this functionality, please ensure the following:
-
-1. `status_note_summaries: "Wednesday"` is set on [teams.libsonnet](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/master/teams/lib/teams.libsonnet). If it is not already set, add the `status_note_summaries:` item for your team and run `make generate` in the project repository.
-2. In the sub-epic that is collecting status updates, ensure the tags `<!-- STATUS NOTE START --><!-- STATUS NOTE END -->` is in the description.
-
-Once enabled, on every Wednesday a note will be left on the epic that will `@` mention the DRI for a status update with instructions.
-The DRI then is responsible for adding a status update by editing the note to provide an update.
-Periodically, the status update in the note will be promoted to the description of the epic.
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/c04662931be080c0b4d2b3495c2296476469c807/README.md#child-epics).
 
 #### When a project is finished
 
@@ -162,7 +155,7 @@ This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-inf
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/engineering/metrics/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers

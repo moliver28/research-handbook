@@ -27,6 +27,12 @@ The Package stage is made up of two groups:
 
 {{< team-by-manager-slug manager="crystalpoole" team="Package Registry" >}}
 
+### Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{< stable-counterparts manager="crystalpoole" role="[,&] Package" >}}
+
 ## 📈 Measuring results
 
 In order to better align our effort with our customer's needs we will use the following methodology to measure our results. We believe that our best measure of success and progress is our [product category maturity plan](/handbook/product/categories/#package-stage). Progress towards these goals will be measured as follows:
@@ -449,7 +455,7 @@ A merge request with the following properties:
 
 A Package group member will adopt the community contribution with the following tasks:
 
-* Confirm the community merge request (MR) is properly [triaged](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/). This step includes important labeling for [work type classification](/handbook/engineering/metrics/#work-type-classification), stage and group and the `Community Contribution` label.
+* Confirm the community merge request (MR) is properly [triaged](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/). This step includes important labeling for [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification), stage and group and the `Community Contribution` label.
 * If the MR addresses an open issue, ensure that the issue is still valid and the description is up to date. Consider [closing the issue](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#lean-toward-closing) and [closing the MR](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership) if it is outdated.
 * Evaluate the review effort and assign it using `package-review-weight::x` labels.
 * Consider reaching out to MR coaches or using the reviewer roulette to leverage support and provide contributors with a smoother and quicker experience.
@@ -581,6 +587,36 @@ There are times during the development lifecycle that changes need to be communi
 
 * If your work will impact rate-limits as in [GitLab-#778](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/778)
 * If you are considering adjusting the existing [Package limits](https://docs.gitlab.com/ee/administration/instance_limits.html#package-registry-limits)
+
+## Partnership Strategy
+
+At GitLab, our Package section's partnership strategy is guided by our primary goal: improving the lives of our users. We actively seek partnerships that can enhance the efficiency and effectiveness of developers and platform engineers in their package-related workflows.
+
+### Key Focus Areas for Partnerships
+
+1. **Workflow Efficiency Improvements**
+   We are open to collaborations that streamline and optimize package management processes. This includes potential integrations with industry leaders such as JFrog and Sonatype, among others. Our aim is to provide our users with seamless, efficient package management experiences within the GitLab ecosystem.
+
+2. **Dependency Firewall Enhancements**
+   We are committed to advancing our Dependency Firewall capabilities. We welcome partnerships with companies that can provide valuable data to assess risks and vulnerabilities. Such collaborations will strengthen our ability to offer robust security features, helping our users maintain safer, more secure package dependencies.
+
+3. **Third-Party Integrations**
+   Following the success of our integrations with platforms like Google Cloud Platform (GCP) and Harbor, we are interested in expanding our third-party integrations. Our goal is to enable users to easily connect external products to GitLab, leveraging predefined variables for smoother setup and usage. We're open to partnerships that can facilitate similar integrations, making it easier for our users to work with a variety of tools and services within their GitLab workflow.
+
+### Evaluation Criteria
+
+When considering potential partnerships, we assess how well they align with our core mission of user-centric improvement. Partnerships should demonstrably enhance the GitLab experience, particularly in the realm of package management and related workflows.
+
+We evaluate potential collaborations based on:
+
+* The potential to improve user efficiency and productivity
+* Alignment with GitLab's overall product strategy
+* The ability to address key pain points in package management workflows
+* Potential for long-term, mutually beneficial relationships
+
+### Get in Touch
+
+If you represent a company with innovative solutions in package management, security, or related fields, and believe your offering could benefit GitLab users, we'd love to hear from you. Please reach out to our partnerships team to explore potential collaboration opportunities.
 
 ## Feature Category Details
 

@@ -69,7 +69,7 @@ Share the link that is copied rather than the URL in your browser bar.
 
 Not sure what to look for? Consider using a Self-Managed instance to replicate the bug/action you're investigating. This will allow you to confirm whether or not an issue is specific to the specific GitLab Dedicated tenant, while also providing easily accessible logs to reference while searching through OpenSearch.
 
-Support Engineers looking to configure a Self-Managed instance should review our [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox/) for a list of company-provided hosting options.
+Support Engineers looking to configure a Self-Managed instance should review our [Sandbox Cloud page](/handbook/company/infrastructure-standards/realms/sandbox/) for a list of company-provided hosting options.
 
 ### Table vs JSON
 

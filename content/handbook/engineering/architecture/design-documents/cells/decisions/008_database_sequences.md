@@ -1,7 +1,8 @@
 ---
 stage: core platform
 group: Database
-title: 'Cells ADR 008: Cluster wide unique database sequences'
+title: "Cells ADR 008: Cluster wide unique database sequences"
+toc_hide: true
 ---
 
 ## Context
@@ -12,21 +13,21 @@ and different solutions were discussed in <https://gitlab.com/gitlab-org/core-pl
 
 ## Decision
 
-All secondary cells will have bigint IDs on creation. While provisioning, each of them will get a
+All Cells will have bigint IDs on creation. While provisioning, each of them will get a
 large range of sequences to use from the [Topology Service](../topology_service.md).
 On decommissioning the cell, these ranges will be
 returned back to the topology service. If the returned range is large enough for another cell, it could be handed out to
 them so that the short-lived cells won't exhaust large parts of the key range.
 
-We will update the primary cell's sequence to have a `maxval`, it will be a minimum possible range to make sure it
-won't collide with any secondary cells.
+We will update the Legacy Cell's sequence to have a `maxval`, it will be a minimum possible range to make sure it
+won't collide with any Cells.
 
 ## Consequences
 
 The above decision will support till [Cells 1.5](../iterations/cells-1.5.md) but not [Cells 2.0](../iterations/cells-2.0.md).
 
 To support Cells 2.0 (i.e: allow moving organizations from
-secondary cells to the primary), we need all integer IDs in the primary to be converted to `bigint`. Which is an
+Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`. Which is an
 ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
 and it is estimated to take around 12 months.
 
@@ -38,5 +39,5 @@ below solutions before making the final decision.
 - [Solution 1: Global Service to claim sequences](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/102#note_1853252715)
 - [Solution 2: Converting all int IDs to bigint to generate uniq IDs](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/102#note_1853260434)
 - [Solution 3: Using composite primary key [(existing PKs), original cell ID]](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/102#note_1853265147)
-- [Solution 4: Use bigint IDs only for Secondary cell](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/102#note_1853328985)
+- [Solution 4: Use bigint IDs only for Cell](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/102#note_1853328985)
 - [Solution 5: Using Logical replication](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/102#note_1857486154)

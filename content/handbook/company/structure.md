@@ -188,7 +188,7 @@ Members of the management group are expected to demonstrate leadership in the wa
 1. People should not be given a raise or a title because they ask for it or threaten to quit. We should pro-actively give raises and promote people without people asking. If you do it when people ask, you are being unfair to people that don't ask and you'll end up with many more people asking.
 1. Don't refer to GitLab [as a family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that, as this builds a stronger team. But *families* and *teams* are different. *Families* come together for the relationship and do what is critical to retain it. *Teams* are assembled for the task and do what is required to complete it. Don't put the relationship above the task. Besides, families don't have an [offboarding process](/handbook/people-group/offboarding/). Families should have unconditional love, while teams have conditional love. [The best companies are supporters of families.](https://twitter.com/myriadwill/status/917772249624702976). The idea that your team is your family can lead to unwarranted pressure: ["this office is like a family... in that there is vague pressure to be here on holidays"](https://twitter.com/emilieschario/status/1182454709925416961). You are the CEO of your own career, treat GitLab as a customer.
 1. Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons can be found in an [Ask MetaFilter thread](http://ask.metafilter.com/300002/My-best-manager-did-this) worth reading.
-1. Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
+1. Try to be aware of your [cognitive biases](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18).
 1. Combine [consistency and agility](https://hbr.org/2017/01/the-best-strategic-leaders-balance-agility-and-consistency).
 1. Consider maintaining a README file for your teams which documents your expectations and working style. Encourage MRs to it.
 1. Although our time scales are shorter, there is a great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b).
@@ -198,7 +198,7 @@ Members of the management group are expected to demonstrate leadership in the wa
 1. You are expected to [respond on social media](/handbook/marketing/team-member-social-media-policy/). If you have questions, please seek counsel in the `#social_media` chat channel.
 1. Make sure your reports experience a [sense of progress](http://tomtunguz.com/progress-principle/) in their work.
 1. A tweet by [Sam Altman](https://twitter.com/sama/status/804138512878473220) combined with a reply by [Paul Graham](https://twitter.com/paulg/status/804209365305659392) says it best: "People either get shit done or they don't. And it's easy to be tricked because they can be smart but never actually do anything." Watch for results instead of articulate answers to questions, otherwise you'll take too much time identifying under-performers.
-1. [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute/) (formerly GitLab summits) is meant for [informal communication](/handbook/company/culture/all-remote/informal-communication/) and [bonding](/handbook/company/culture/all-remote/in-person/) across the company. There is a limited time for business activities during GitLab Contribute so all our regular meetings should happen outside of it. We want informal, cross team, and open-ended meetings that include individual contributors. For example, inviting everyone to suggest currently missing functionality in GitLab.
+1. [GitLab Contribute](/handbook/company/culture/summit/) (formerly GitLab summits) is meant for [informal communication](/handbook/company/culture/all-remote/informal-communication/) and [bonding](/handbook/company/culture/all-remote/in-person/) across the company. There is a limited time for business activities during GitLab Contribute so all our regular meetings should happen outside of it. We want informal, cross team, and open-ended meetings that include individual contributors. For example, inviting everyone to suggest currently missing functionality in GitLab.
 1. Never delay a decision until GitLab Contribute. Instead, use them as a deadline to get things done earlier.
 1. We don't have explicit 20% time at GitLab. We measure [results and not hours](/handbook/values/#measure-results-not-hours). If people are getting good results in the work that is assigned to them they are free to contribute to other parts of the company or work on a pet project. Don't say, "Your work on that pet project is hurting your performance." Instead, say, "We agreed to get X done but it is delayed, what happened and how can I help?"
 1. Pick a metric before launching something new. 9 out of 10 launches fail. If a project is not working out shut it down completely. Starving a team of headcount to have it die a slow death is not frugal nor motivating. Fund the winners which will still take years to break even.
@@ -221,8 +221,6 @@ Members of the management group are expected to demonstrate leadership in the wa
 You may occasionally hear of the E-Group hosting an "CEO Skips" call or meeting.
 The CEO Skips group is made up of anyone who reports directly to the e-group. It also includes People Business Partners, Chief of Staffs, and internal communications.
 It is made up of some ICs, some managers, some directors, and some senior leaders.
-
-<iframe class="dashboard-embed" src="https://app.periscopedata.com/shared/eac267ee-22c2-4a1e-87c0-f90db206d930?embed=true" height="500" style="width: 80%"> </iframe>
 
 ## Functional Leaders
 
@@ -451,7 +449,7 @@ We have a huge opportunity in front of us and we want to be ambitious. Therefore
 
 ##### Success criteria
 
-The success of the Engineer relates to getting a rapid, high-quality answer to the question of product-market fit. That answer can absolutely be "no", so performance is not contingent on the group graduating to a larger, multi-person group. The measure of this is [GMAU](/handbook/product/performance-indicators/#group-monthly-active-users-gmau).
+The success of the Engineer relates to getting a rapid, high-quality answer to the question of product-market fit. That answer can absolutely be "no", so performance is not contingent on the group graduating to a larger, multi-person group. The measure of this is [GMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#group-monthly-active-users-gmau).
 
 ##### Sponsorship
 
@@ -553,7 +551,7 @@ We do have an exception to the above, which is a senior leader in Product Manage
 
 Here are some examples of the things that this senior leader will coordinate:
 
-- Growth Group: [Stages per User (SpU)](/handbook/product/performance-indicators/)
+- Growth Group: [Stages per User (SpU)](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
 - Pricing: [Tiers](https://about.gitlab.com/pricing/)
 - Infrastructure Department: Cloud spend (within limits, not cost per user)
 - Development Department: Prioritization of large enterprise features

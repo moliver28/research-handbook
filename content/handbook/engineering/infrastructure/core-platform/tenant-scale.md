@@ -1,8 +1,6 @@
 ---
 title: Tenant Scale Group
 description: "The Tenant Scale Group is the direct outcome of applying our value of Iteration to the direction of the Database Scalability Working Group."
-aliases:
-- /handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/
 ---
 
 ## About
@@ -70,7 +68,7 @@ limited to that area and they also work in other areas as needed.
 | ------ | ------ | ------ |
 | Application Readiness questions | Manoj | |
 | [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
-| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj | Leonardo da Rosa, Krasimir Angelov |
+| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
 | Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Vasilii Iakliushin | |
 | Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) and [Topology Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Thong | Bojan, Filipe Santos, Omar, Manoj, David Leach, Jonathon Sisson |
 | Cells Services: [Database sequences](https://gitlab.com/groups/gitlab-org/-/epics/13155) | Prabakaran Murugesan | |
@@ -321,7 +319,7 @@ to allow the group to focus on long-term scalability work.
 
 ## Dashboards
 
-You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/engineering/metrics/enablement/data-stores/tenant-scale).
+You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/enablement/data-stores/tenant-scale).
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}

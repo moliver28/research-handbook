@@ -1,6 +1,5 @@
 ---
 title: "International Accounting"
-description: " _add high level description of job family_ "
 ---
 
 ### Manager, Accounting, Global Consolidation & Reporting
@@ -129,6 +128,56 @@ The Director, International Accounting is a [10](/handbook/total-rewards/compens
 - Value adding and building efficiencies on cross-functional relationships within the company in setting up new foreign entities
 - Clean inter-company transactions and processes, including compliance with Inter-company Transfer Pricing agreements, as well as the completeness and accuracy of the Inter-company accounts, and eliminations
 - Improvement of automation and efficiency in the consolidation and reporting process
+
+##### Director, International Accounting and Finance Transformation
+
+##### Director, International Accounting Job Grade
+
+The Director, International Accounting and Finance Transformation is a [10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+###### Director, International Accounting and Finance Transformation Responsibilities
+
+- Lead and mentor the international accounting team
+- Complete review of annual US GAAP to Statutory GAAP adjustments at statutory audit completion, by country.
+- Review of Intercompany reconciliations and approval of journal entries.  Ensure ICO relationships are in balance, by entity, by currency
+- Collaborate with the Tax Team as needed for purposes of Stat to Tax Analysis, Intercompany contributions, Transfer Pricing related activities
+- Ensure Transfer Pricing profit per Statutory Financials are in line with Transfer Pricing agreements by country.
+- Collaborate with Tax and Treasury teams to identify and process intercompany settlements
+- Participate in Quarterly Subsidiary Board meetings. Provide and speak to quarterly financial statement results.
+- Strategic partner in the execution of GitLab’s global expansion strategy and country conversions from a PEO country to Legal Entity  
+- Ensure the international accounting team perform analysis to determine the impact of e.g. new accounting standards, changes in accounting policies, impact of non-GAAP policies on statutory reporting requirements for the non-US entities
+- Initiate, design, and implementation of new policies and procedures for non-US entities to support new audit requirements and business activities in non-US jurisdictions
+- Ensure all disclosures are properly included in the financial statements of non-US entities
+- Oversee US GAAP consolidations.  Monitor impact of foreign exchange 
+- Netsuite business administration.  Monitor and approve changes to Netsuite Chart of Accounts.
+- Manage integration of International M&A events
+- Develop and oversee Controllership & Accounting Operations transformation roadmap.  Ability to translate strategic vision and objectives into measurable and executable milestones. 
+- Execute multi-year plans to enable transformation efficiency and scale.
+- Participant in quarterly IT portfolio project prioritization process. 
+- Comfortable building and driving new frameworks and processes with cross-functional teams.
+- Interpersonal skills and the ability to collaborate effectively with stakeholders at all levels of the organization.
+- Build partnerships with Enterprise Applications, Business Technology Operations, Business Technology Program Management, and Integrations Engineering IT organizations
+- Identify, scope, and prioritize projects based on business needs. Prepare business cases and project plans.
+- Identify project phases and determine project timeline.   Consider Accounting  black out periods and management of project resources.  
+- Communicate changes to program status, risks and dependencies. Identify, assess, and escalate program blockers.  Ability to work through impasse. 
+- Possess an ownership mentality, intellectual curiosity, and an ability to execute in a dynamic fast-paced environment. 
+- Challenges the status quo.   Ability to influence new strategic / operational direction
+- Experience with design and solutions using next-generation technology such as data analytics, machine learning. and generative AI.
+
+###### Director, International Accounting and Finance Transformation Requirements
+
+- Bachelor’s degree or equivalent experience in finance, accounting, business administration or related field
+- 15+ years of progressive experience and a proven record of leading high performing diverse teams
+- 3+ years in a finance international role, leading various finance operations functions
+- Public company experience in a fast-growing global company
+- Systems experience with large GL applications (e.g., NetSuite, Workday)
+- Strong project management skills, with the ability to manage complex projects, multitask, and prioritize competing demands effectively.
+- Strong oral and written communication skills.
+- Ability to tailor communication and key messages to the audience.
+- High initiative and a self-starter who operates with a sense of urgency and is highly process-driven and detail-oriented
+- Change agent with the ability to influence and lead cross-functional teams
+- Strategic thinker capable of translating a vision into tactical execution
+- Ability to use GitLab
 
 ### Senior Director, International Accounting
 

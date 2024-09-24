@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/sec/secure/static-analysis/code_review.html
-
 title: "Static Analysis Group Code Review Process"
 ---
 

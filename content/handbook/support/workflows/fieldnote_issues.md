@@ -28,7 +28,7 @@ Be mindful of GitLab Support's [Guidelines on how to respond to a ticket](/handb
 
 At GitLab, [Support are encouraged to raise Issues]({{< ref "working-with-issues" >}}) and Merge Requests for Customer Tickets. This *Fieldnotes* Project in no way should replace that. If it's appropriate to raise an Issue in some other relevant Project, then continue to do that following the normal Workflow, and close this project's Fieldnote Issue with a link to the correct one.
 
-Creating a Fieldnote issue does not necessarily signal to other engineers that you are looking for help. If you would like help, follow the guidance in our [How to Get Help Workflow](/handbook/support/workflows/how-to-get-help), OOO Handover Workflow, or follow your [Support Global Group](/handbook/support/support-global-groups/)'s convention. Fieldnotes can greatly facilitate asynchronous (or synchronous!) collaboration, which is an aim, but they are also valuable to keep notes for later review and learning.
+Creating a Fieldnote issue does not necessarily signal to other engineers that you are looking for help. If you would like help, follow the guidance in our [How to Get Help Workflow](/handbook/support/workflows/how-to-get-help), OOO Handover Workflow. Fieldnotes can greatly facilitate asynchronous (or synchronous!) collaboration, which is an aim, but they are also valuable to keep notes for later review and learning.
 
 ## Fieldnote Workflow
 

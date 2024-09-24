@@ -179,14 +179,22 @@ First step in requesting an email from lifecycle begins by creating an issue usi
 <!-- DO NOT CHANGE THIS ANCHOR -->
 *Submit final email for QA and scheduling*
 
-* Step 1: Submit an email issue for the appropriate email type and assign yourself and a lifecycle counterpart to your email. Be sure to include the proper labels for the email calendar.
+* Step 1: Campaign manager: Submit an email issue for the appropriate email type and assign yourself and a lifecycle counterpart to your email. Be sure to include the proper labels for the email calendar. This needs to be done before the SLA date or at latest by Thursday at 9 am PT (with audience information) the week before send (i.e. if an email is going out the following Friday, it still needs to be in on Thursday the week before)
 * Step 2: Highlight your desired send date and time. (Will be reviewed and potentially modified by the Lifecycle team).
 * Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 * Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 * Step 5: Send a sample for lifecycle to QA
   * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+  * Customers/AMER = reviewed by [Alison](mailto:alee@gitlab.com)
   * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
-* Step 6: Make revisions & schedule the email. Can be done by lifecycle or campaigns team member.
+* Step 6: Lifecycle will make revisions and send the email back to the campaign manager.
+* Step 7: Lifecycle will schedule the email to send at requested time slot
+
+*SLAS:*
+
+1. Larger events (GitLab 17 is typically Lifecycle owned, but events of similar scale): 7 business days
+2. Tech demos: 5 business days
+3. Email follow-ups: 2 business days
 
 #### Field Marketing QA process
 <!-- DO NOT CHANGE THIS ANCHOR -->

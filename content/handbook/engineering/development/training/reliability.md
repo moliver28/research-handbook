@@ -159,7 +159,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Engineering metric dashboards](/handbook/engineering/metrics/#engineering-metrics-dashboards)
+[Engineering metric dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/#engineering-metrics-dashboards)
 
 ## Feedback on the training
 

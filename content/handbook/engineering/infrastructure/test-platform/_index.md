@@ -256,7 +256,7 @@ Milestones (product releases) are one of our [planning horizons](/handbook/produ
 - Maintenance - EM
 - Bug - QEM
 
-We use [type labels](/handbook/engineering/metrics/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
+We use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
 
 QEMs meet with their PM, EM, and UX counterparts to discuss the priorities for the upcoming milestone. The purpose of this is to ensure that everyone understands the requirements and to assess whether or not there is the capacity to complete all of the proposed issues.
 

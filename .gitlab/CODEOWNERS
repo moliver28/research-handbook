@@ -29,7 +29,6 @@
 /content/ @sytses @streas @gitlab-com/egroup
 /content/handbook/about/handbook-usage.md @sytses @streas @gitlab-com/content-sites
 /content/handbook/about/ @gitlab-com/content-sites
-/content/handbook/editing-handbook/ @gitlab-com/content-sites
 
 # The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
 /content/job-families/ @cbednarz @anjali_kaufmann @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
@@ -47,7 +46,6 @@
 
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
-/content/handbook/business-technology/data-team/ @amiebright
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
@@ -90,13 +88,13 @@
 /content/handbook/company/culture/inclusion/ @wendybarnes
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
 /content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sam.white @kchappell
-/content/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding.md @DarwinJS @wendybarnes @mdrussell @terrichu
+/content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @wendybarnes @mdrussell @terrichu
 /content/handbook/company/culture/inclusion/tmrg-gitlab-gente.md @pmejia @romerg
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
 /content/handbook/company/culture/internal-feedback.md @wendybarnes @mwilkins
 
 ^[customer-success]
-/content/handbook/customer-success/ @spatching @mrleutz
+/content/handbook/customer-success/ @spatching @mrleutz @kgeorgeson
 /content/handbook/customer-success/csm/segment/cse/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/csm/segment/cse/content/ @jwormwell @nesplin @talmendariz
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake @darmans
@@ -120,24 +118,26 @@
 
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/development/ @timzallmann @jeromezng @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 /content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020
-/content/handbook/engineering/development/data-science/modelops/ @m_gill @mray2020
+/content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
+/content/handbook/engineering/development/data-science/modelops/ @m_gill
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
-/content/handbook/engineering/development/dev/create/code-creation/ @mnohr
+/content/handbook/engineering/development/dev/create/code-creation/ @mnohr @jordanjanes
 /content/handbook/engineering/development/dev/create/editor-extensions.md @dashaadu @kisha.mavryck
 /content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
 /content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
-/content/handbook/engineering/development/dev/manage/foundations/ @samdbeckham @tauriedavis
-/content/handbook/engineering/development/dev/manage/import-and-integrate/ @wortschi
+/content/handbook/engineering/development/dev/foundations/ @m_gill @samdbeckham @wortschi
+/content/handbook/engineering/development/dev/foundations/design-system @samdbeckham
+/content/handbook/engineering/development/dev/foundations/import-and-integrate/ @wortschi
+/content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
@@ -155,7 +155,7 @@
 /content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
 /content/handbook/engineering/development/ops/monitor/respond/ @kbychu @francoisrose
 /content/handbook/engineering/development/ops/package/ @crystalpoole
-/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @shampton @marknuzzo @nicolewilliams
+/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @marknuzzo @nicolewilliams
 /content/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
@@ -170,12 +170,12 @@
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
 /content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
-/content/handbook/engineering/development/sec/secure/composition-analysis.md @thiagocsf @gonzoyumo @fcatteau
+/content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
 /content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
 /content/handbook/engineering/expansion-development.md @jeromezng @pcalder
 /content/handbook/engineering/frontend/ @timzallmann
-/content/handbook/engineering/workflow/ @timzallmann @jeromezng @cdu1 @sgoldstein @dsatcher @m_gill @pcalder
+/content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @pcalder
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
@@ -274,6 +274,9 @@
 /content/handbook/engineering/readmes/sean-carroll.md @sean_carroll
 /content/handbook/engineering/readmes/thong-kuah.md @tkuah
 
+^[enterprise-data]
+/content/handbook/enterprise-data/ @amiebright
+
 ^[entity]
 /content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
 
@@ -289,15 +292,15 @@
 /content/handbook/finance/procurement/ @RendiMiller @emannix @brobins
 /content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
-/content/handbook/internal-audit/ @bjoshi2 @atoomer
-/content/handbook/tax/ @jgladen
+/content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
+/content/handbook/finance/tax/ @jgladen
 /content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 [Finance required approvals]
 /content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Infrastructure-Standards]
-/content/handbook/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
+/content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
 /content/handbook/it/ @NabithaRao
@@ -430,7 +433,7 @@
 ^[People]
 /content/handbook/company/family-and-friends-day.md @pegan
 /content/handbook/company/structure.md @wendybarnes @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell
-/content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn
+/content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn @jconnors3
 /content/handbook/leadership/underperformance.md @wendybarnes @pegan @cbednarz @glucchesi
 /content/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
 /content/handbook/people-group/celebrations.md @wendybarnes @mpatel8
@@ -457,7 +460,7 @@
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
 /content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
-/content/handbook/travel/ @wendybarnes @pegan
+/content/handbook/finance/travel/ @wendybarnes @pegan
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
@@ -472,8 +475,9 @@
 
 ^[product]
 /content/handbook/product/ @david
-/content/handbook/product/fulfillment-guide.md @ofernandez2
-/content/handbook/product/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
+/content/handbook/product/groups/fulfillment-guide.md @ofernandez2
+/content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
+/content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
@@ -504,7 +508,7 @@
 /content/handbook/sales/channel/ @ecepulis
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @akramer @dsteer
-/content/handbook/sales/commercial/ @hmason @jvpotter @akramer @kyla @steve_xu @carolynharding
+/content/handbook/sales/commercial/ @bcaller @jvpotter @akramer @kyla @steve_xu @carolynharding
 /content/handbook/sales/commissions/ @james_harrison
 /content/handbook/sales/faq-from-prospects.md @akramer
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
@@ -534,7 +538,7 @@
 /content/handbook/sales/playbook/ @emelier @kshirazi
 /content/handbook/sales/prospecting.md @emelier @akramer @kshirazi
 /content/handbook/sales/public-sector.md @james_harrison
-/content/handbook/sales/qbrs/ @ashahrazad1 @azaglul @shannonthompson @monicaj
+/content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @akramer
 /content/handbook/sales/readmes/ @akramer
 /content/handbook/sales/revenue-programs.md @dsteer
@@ -568,7 +572,7 @@
 /content/handbook/security/product-security/application-security/ @jritchey
 /content/handbook/security/product-security/architecture/ @plafoucriere
 /content/handbook/security/product-security/security-research/ @estrike
-/content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @lcoleman @cynthiamiller
+/content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
 /content/handbook/security/security-operations/ @jfuentes2
 /content/handbook/security/security-operations/security-logging/ @mcoons
 /content/handbook/security/threat-management/ @smanzuik @estrike
@@ -580,7 +584,7 @@
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
-/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2
+/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
@@ -589,6 +593,7 @@
 ^[support]
 /content/handbook/support/ @gitlab-com/support
 /content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
+/content/handbook/support/support-idk.md @irisb @jgianoutsos @klang
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [support-required-approvals]
@@ -634,31 +639,32 @@
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 
 ##
-## Please keep the required handbook sections near the end, with the exception of fallback items, such as `handbook` and `Job Families`
+## Please keep the _required_ handbook sections near the end
 ##
-[CODEOWNERS] @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
-/.gitlab/
+[handbook-operations]
+/.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
+/.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.vale.ini @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.vale/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/Dangerfile @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/LICENSE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/package-lock.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/package.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 
-[handbook-operations] @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
-/.editorconfig
-/.gitignore
-/.gitlab-ci.yml
-/.markdownlint-cli2.jsonc
-/.vale.ini
-/.vale/
-/config/
-/content/_index.html
-/content/featured-background.png
-/CONTRIBUTING.md
-/Dangerfile
-/go.mod
-/go.sum
-/layouts/
-/LICENSE
-/package-lock.json
-/package.json
-/README.md
-/scripts/
+[CODEOWNERS]
+/.gitlab/CODEOWNERS @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
@@ -668,45 +674,42 @@
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technologies Policies]
-/content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/security-and-technology-policies-management.md @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 
 ## This section is for SOX related documents.
 [SOX-Documents]
 /content/handbook/engineering/gitlab-com/policies/teleport/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 
-## Controlled Documents must be in this section, and it must be the last section
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
-/content/handbook/business-technology/end-user-services/onboarding-access-requests/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/_index.md @cdu1 @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @wendybarnes @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @wendybarnes @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @pegan @wendybarnes @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/ @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-compliance/sec-controls.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-compliance/security-control-lifecycle.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-risk/storm-program/ @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-risk/storm-program/critical-systems.md @cynthiamiller @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-risk/third-party-risk-management.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-compliance/sec-controls.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-compliance/security-control-lifecycle.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-risk/storm-program/ @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-risk/storm-program/critical-systems.md @cynthiamiller @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-risk/third-party-risk-management.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/personal_data_access_account_deletion.md @lyle @jcolyer @gitlab-com/egroup @gitlab-com/content-sites

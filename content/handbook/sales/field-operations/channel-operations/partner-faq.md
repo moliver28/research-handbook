@@ -13,7 +13,7 @@ This page documents frequently asked questions from our partner community on how
 When should I submit a Deal Registration? What opportunities am I able to register?
 </summary>
 
-GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for (i) Resale, (ii) MSP, and (iii) Referral opportunities. You should submit a Partner Sourced DR for an opportunity where you are **sourcing net-new business for GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, there can only be one Partner Sourced DR approved for an opportunity, as only one partner can source a deal. You should not submit a Partner Sourced DR if you did not source the opportunity, and you will generally receive Co-Sell discounts for these deals. Partner Sourced and Co-Sell opportunities are discussed further in the [Partner handbook](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications).
+GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for (i) Resale, (ii) MSP, and (iii) Referral opportunities. You should submit a Partner Sourced DR for an opportunity where you are **sourcing net-new business for GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, there can only be one Partner Sourced DR approved for an opportunity, as only one partner can source a deal. You should not submit a Partner Sourced DR if you did not source the opportunity, and you will generally receive Co-Sell discounts for these deals. Partner Sourced and Co-Sell opportunities are discussed further in the [Partner handbook](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications).
 
 GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-operations/#service-attach-opportunities) program which applies to opportunities where partners are selling their own professional services into a customer environment at the time of a GitLab product sale.
 
@@ -26,7 +26,7 @@ I am unable to log into the Partner Portal to submit a Deal Registration (DR). H
 
 If you have a Partner Portal account but are unable to login, please [select "Forgot Password"](https://partners.gitlab.com/English/) to reset your password. If you do not have a Partner Portal account, please [select "Request Portal Access"](https://partners.gitlab.com/English/) to set up an account. Please contact `partnersupport@gitlab.com` for assistance ​​if you have followed the directions but are still having issues.
 
-Note, to submit a Deal Registration, you must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-GitLab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
+Note, to submit a Deal Registration, you must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-gitlab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
 
 </details>
 
@@ -48,7 +48,7 @@ The Channel Account Manager (CAM) assigned to the Deal Registration (DR) has rev
 Where can I find information on GitLab's partner discounts, incentives, and rebate programs?
 </summary>
 
-Please review the [GitLab Program Discounts and Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?collectionId=49440) in the GitLab Partner Portal which contains information on our partner discounts, incentives, rebate programs and more. You can also refer to the [Partner handbook](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications) for an overview.
+Please review the [GitLab Program Discounts and Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?collectionId=49440) in the GitLab Partner Portal which contains information on our partner discounts, incentives, rebate programs and more. You can also refer to the [Partner handbook](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications) for an overview.
 
 </details>
 

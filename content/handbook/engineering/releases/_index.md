@@ -8,7 +8,7 @@ This page describes the processes used to release packages to self-managed users
 
 **Monthly self-managed release**
 
-GitLab version (XX.YY.0) [is published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [planned](/handbook/engineering/releases/patch_releases/#planned-patch-release-process), and [unplanned critical](/handbook/engineering/releases/patch_releases/#unplanned-critical-patch-release-process) patch releases are created as needed.
+GitLab version (XX.YY.0) [is published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [planned](/handbook/engineering/releases/patch-releases/#planned-patch-release-process), and [unplanned critical](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process) patch releases are created as needed.
 
 Our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) describes in detail the cadence of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
 
@@ -119,7 +119,7 @@ Overview of the steps involved with creating a patch release:
 
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
-Details of the patch release lifecycle can be found on the [patch release section](/handbook/engineering/releases/patch_releases/)
+Details of the patch release lifecycle can be found on the [patch release section](/handbook/engineering/releases/patch-releases/)
 
 ### Patch release information dashboard
 
@@ -238,8 +238,8 @@ The different processes are documented here:
 
 - Self-managed releases:
   - [Monthly releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md)
-  - [Planned Patch releases](/handbook/engineering/releases/patch_releases/#planned-patch-release-process)
-  - [Unplanned critical Patch releases](/handbook/engineering/releases/patch_releases/#unplanned-critical-patch-release-process)
+  - [Planned Patch releases](/handbook/engineering/releases/patch-releases/#planned-patch-release-process)
+  - [Unplanned critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
 - GitLab.com releases:
   - [Auto-deploy releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md)
   - [Hot patch](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/post-deployment-patches.md)
@@ -250,8 +250,8 @@ Any high severity issue should start with an issue labeled with the appropriate 
 
 Depending on the bug details, follow one of the following processes:
 
-- For [high severity security bugs](/handbook/engineering/releases/patch_releases/#planned-patch-release-process)
-- For [high severity bugs affecting self-managed users](/handbook/engineering/releases/patch_releases/#planned-patch-release-process). If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B).
+- For [high severity security bugs](/handbook/engineering/releases/patch-releases/#planned-patch-release-process)
+- For [high severity bugs affecting self-managed users](/handbook/engineering/releases/patch-releases/#planned-patch-release-process). If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B).
 - For [high severity bugs affecting GitLab.com](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-pick-label)
 - For [high security bugs affecting security merge requests](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md)
 

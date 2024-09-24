@@ -140,7 +140,7 @@ Twice a milestone, on Tuesday we hold a milestone check up meeting, where we eit
 
 ### Issue refinement
 
-During the Team Sync Meeting the PM will bring 2 to 3 issues that need a refinement DRI. 
+During the Team Sync Meeting the PM will bring 2 to 3 issues that need a refinement DRI.
 During the meeting a DRI will be chosen who will be responsible for refining the issue. Team members are encouraged to refine issues that they create / stumble upon at any time during their work if they have the bandwidth to do so.
 
 The refinement process is described in the [issue template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement/-/blob/main/templates/default.erb).
@@ -190,7 +190,7 @@ For Merge Requests, it's up to the author and the project they are contributing 
 
 #### Team Domain Limitations
 
-The Environments team size is currently too smal to fully support the entire scope of our feature categories, to signal our priorities and do meaningful work we maintain a list of Feature Categories where we only do **Critical Maintenance**: 
+The Environments team size is currently too smal to fully support the entire scope of our feature categories, to signal our priorities and do meaningful work we maintain a list of Feature Categories where we only do **Critical Maintenance**:
 
 - Auto DevOps
 - Feature Flags
@@ -200,7 +200,7 @@ The Environments team size is currently too smal to fully support the entire sco
 
 With **Critical Maintenance** we mean that we will be able to take on only p2/s2 and above Security, Scalability and Availability issues and only p1/s1 bugs otherwise classified, or issues considered impactful to fix by the Product Manager.
 
-Issues falling out of the mentioned types will be marked with `Environments::No-Capacity` label and we will ignore their SLO. 
+Issues falling out of the mentioned types will be marked with `Environments::No-Capacity` label and we will ignore their SLO.
 While we do not have the capacity to work on them we welcome and will support any community contributions to those issues.
 
 #### Issue Weighting
@@ -494,7 +494,7 @@ To simplify the work of adding and keeping track of async updates [TalTal](https
 
 We want every team member to be advancing in their Career Development.
 
-We follow the Engineering Department [Career Development Framework](/handbook/engineering/career-development/).
+We follow the Engineering Department [Career Development Framework](/handbook/engineering/careers/).
 
 ## Maximize asynchronous performance in this team
 

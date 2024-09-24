@@ -29,15 +29,22 @@ Employ the following workflows for:
 
  Choosing Tickets:
 
-- Work from the top of `The Global Support Ticket View`. Tickets are sorted by `Ticket Weight` to prioritize the highest-impact tickets first. Tickets receive additional weight as they progress through their FRT and NRT life-cycles, ensuring that soon to breach tickets do not remain low in the view.  When everyone aims to start from the top of the of the queue, it supports our ability to achieve our SLAs.
-- Tickets with a preferred region that aligns to your region you can take and keep assignment of.  For other regions,  work them by putting out a quality first response, then follow the guidelines for [rehoming tickets](#ticket-rehome-transfer-to-the-preferred-region) to transfer them to the customers stated preferred region. (NOTE: APAC may also maintain assignment of low priority tickets with a preferred region of AMER.)
-- Both FRT and NRT tickets that do not have an assignee are presented in this view. Consider assigning tickets with a status of `open` or `pending` and a preferred region that aligns to your region. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
+- Work from the top of `The Global Support Ticket View`. Tickets are sorted by `Ticket Weight` to prioritize the highest-impact tickets first. Tickets receive additional weight as they progress through their FRT and NRT life-cycles, ensuring that soon to breach tickets do not remain low in the view.  When everyone aims to start from the top of the queue, it supports our ability to achieve our SLAs.
+- Take and keep assignment of tickets that have your region as the preferred one.
+  For tickets with other preferred regions, work them by putting out a quality
+  first response. Then follow the guidelines for
+  [rehoming tickets](#ticket-rehome-transfer-to-the-preferred-region) to transfer
+  them to the customers' stated preferred region. (NOTE: APAC may also maintain
+  assignment of low priority tickets with a preferred region of AMER.)
+- Both FRT and NRT tickets that do not have an assignee are presented in this view.
+  Consider assigning tickets that have a status of `open` or `pending` and that
+  have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
 
  Assigning Tickets:
 
 - Assign tickets to yourself using the "Take It" button and update status to
      `Open` or `Pending`.
-- Please Note that the SLA clock continues to run until you've sent a public
+- Please note that the SLA clock continues to run until you've sent a public
       response to the user.
 
 ## Managing ticket load
@@ -163,20 +170,33 @@ region, you should follow these steps:
 
 ## Ticket handover (assignee change not related to preferred region)
 
-**This section needs to be updated to describe the handover process in the light
-  of the 2024-08-01 [definition](#handover-definition) of handover.**
+When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
 
 1. Set the proper expectations to the customer.
-   1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving region.
+   1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving person or region.
    1. Please ensure that the receiving team is properly informed and aligned on any tasks and timelines before finalizing them with the customer.
 1. Use the Zendesk [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Out%20of%20Region/Handover%20Ticket%20Summary.md)
    to ensure all necessary information is included and the ticket is unassigned.
 1. Set the Zendesk Form Field `Handover Status` to `Need Handover`.
 1. CC yourself on the ticket and save the ticket to the `Open State`.
 
+</details>
+
+<details>
+  <summary markdown="span">Working tickets handed over from the same region due to PTO</summary>
+
+1. Update the `Handover Status` to `Handover Completed` to ensure accurate metric tracking.
+1. Review the `Handover Ticket Summary` and the Next Response Time (NRT) SLA.
+1. If ready to proceed:
+   - Introduce yourself to the customer, confirm the handover, and provide the
+     next technical response.
+1. If additional research is needed:
+   - Introduce yourself, inform the customer that further research is required,
+     and set expectations for the next steps.
+     
 </details>
 
 <details>
@@ -213,9 +233,9 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
 
 ### Helping with a ticket that has an Assigned Support Engineer
 
-Some customers have an Assigned Support Engineer (ASE) that will own their
+Some customers have an Assigned Support Engineer (ASE) who will own their
 tickets. This will be apparent from the org note in the ticket. For such
-customers, see [the ASE workflow](assigned-support-engineer/working-on-ase-tickets.html).
+customers, see [the ASE workflow](../assigned-support-engineer/working-on-ase-tickets.html).
 
 ## FAQ
 

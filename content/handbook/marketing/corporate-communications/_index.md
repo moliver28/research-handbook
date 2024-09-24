@@ -88,7 +88,7 @@ Please use the `#external-comms` Slack channel and please follow the [Communicat
 
 To mitigate a potential incident and/or if an incident has occurred, please follow the [incident communications plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
 
-## Speaking on behalf of GitLab (guidelines for media & podcasts, conferences & meetups, social media, blogs, research, books and in GitLab issues)
+## Speaking on behalf of GitLab 
 
 Speaking on behalf of GitLab via a public channel such as a media interview (in-person or via phone), on a podcast, in a public issue on GitLab.com, on a forum, at a conference/event (live or virtual), in a blog or an external platform is a significant responsibility.
 

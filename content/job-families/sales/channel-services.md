@@ -66,7 +66,7 @@ The Channel Services Manager is a [grade 6](/handbook/total-rewards/compensation
 - BS/BA required or equivalent experience; MBA a plus
 - DevOps experience a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Senior Channel Services Manager
 
@@ -102,7 +102,7 @@ The Senior Channel Services Manager is a [grade 7](/handbook/total-rewards/compe
 - BS/BA required or equivalent experience
 - DevOps experience a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Lead Channel Services Manager
 
@@ -144,7 +144,7 @@ The Lead Channel Services Manager is a [grade 8](/handbook/total-rewards/compens
 - BS/BA required or equivalent experience; MBA a plus
 - Experience in the DevOps space a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Manager, Channel Services
 
@@ -190,7 +190,7 @@ The Senior Manager, Channel Services is a [grade 9](/handbook/total-rewards/comp
 - Experience in the DevOps space a plus
 - Experience in recruiting and leading high performing teams.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Director, Channel Services
 
@@ -222,7 +222,7 @@ The Director, Channel Services is a [grade 10](/handbook/total-rewards/compensat
 - BS/BA required or equivalent experience; MBA a plus
 - Experience in the DevOps space a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Senior Director, Channel Services
 

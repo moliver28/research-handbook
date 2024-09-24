@@ -34,23 +34,29 @@ The following members of other functional teams are our stable counterparts, and
 
 {{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
-### [Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
+### Performance and Optimization
+
+[Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "subashis">}}
 
-### [Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
+### Projects
+
+[Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
 
 DRI: {{< member-by-gitlab "ryaanwells" >}}
 
-{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
+{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" "srushik" "anarinesingh" >}}
 
-### [AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
+### AI
 
-DRI: {{< member-by-gitlab "sming-gitlab" >}}
+[AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
 
-{{< member-and-role-by-gitlab "dpisek" "darbyfrey" "alexbuijs" >}}
+DRI: {{< member-by-gitlab "nmccorrison" >}}
+
+{{< member-and-role-by-gitlab "sming-gitlab" "dpisek" "subashis" "darbyfrey"  >}}
 
 ### Reporting Structure
 
@@ -67,8 +73,9 @@ Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine en
   * Main channel: [`#g_govern_threat_insights`](https://gitlab.slack.com/archives/CV09DAXEW/p1663788936706469)
   * Stand-up updates: [`#g_govern_threat-insights_standup`](https://gitlab.slack.com/archives/C01U7T6DPNY)
   * Engineering - All: [`#g_govern_threat_insights_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
-  * Engineering - Team Navy: [`#g_govern_threat_insights_navy`](https://gitlab.slack.com/archives/C042WT4PJN9)
-  * Engineering - Team Tangerine: [`#g_govern_threat_insights_tangerine`](https://gitlab.slack.com/archives/C043G312PHS)
+  * Engineering - Team AI: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
+  * Engineering - Team Navy: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
+  * Engineering - Team Tangerine: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
 * Slack aliases: `@govern_threat_insights_be`, `@govern_threat_insights_fe`
 * Google groups: eng-dev-secure-threat-insights-members@gitlab.com
 * [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
@@ -226,7 +233,7 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 
 ### Running E2E specs in the MR pipeline
 
-We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
 
 * GraphQL (API response, query parameters, schema etc)
 * Gemfile (version changes, adding/removing gems)
@@ -240,7 +247,7 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 ### E2E tests with feature flags
 
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
-Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:package-and-test` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
+Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
 
 ## Monitoring
 

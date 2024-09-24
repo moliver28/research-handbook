@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research-coordination/incentives
 title: "Research participation gratuities"
 description: "Learn about how UX Research Operations Coordinators recruit"
 ---
@@ -81,14 +80,14 @@ Contact `success@tangocard.com` with questions or to expand the options availabl
 
 ### Rybbon
 
-[Rybbon](https://www.rybbon.net) is another incentive distributor that we use, particularly when the country a participant is based in is unavailable on Tango Card/Rewards Genius.
+Rybbon is another incentive distributor that we use, particularly when the country a participant is based in is unavailable on Tango Card/Rewards Genius.
 
 Rybbon uses an API feature to present rewards that are relevant for each participant based on their location. As such, we only provide the USD reward value on the platform and Rybbon handles the conversion automatically. Each researcher has their own folder with a campaign set up to send incentives. This is so that the email communication that our participants receive is more personable. There's also a general folder for the UX Research Operations Coordinator for incentive requests from the wider team. Specific campaigns can also be set up for longer projects, as well as an integration with Qualtrics if required.
 
 Unsupported Countries in Rybbon: No rewards are available in the following countries.
 Belarus, Congo, Cuba, Iran, Iraq, Korea North, Lebanon, Libya, Somalia, South Sudan, Sudan, Syria, Ukraine, Yemen, Zimbabwe.
 
-Check out Rybbon's [FAQ page](https://www.rybbon.net/faqs/) or #uxr_reops_lounge in Slack.
+Check out Rybbon's FAQ page or #uxr_reops_lounge in Slack.
 
 ### Tremendous
 

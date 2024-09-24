@@ -129,7 +129,7 @@ Under the applicable Israeli law, team members are entitled to 1.5 days of sick 
 
 Under the Sick Pay Law amendment a team member suffering from a malignant disease (i.e. cancer) or a condition that requires regular dialysis treatments, or who recovered from such a disease, is eligible for full sick pay (100%) from the first day of absence, if on leave from work to receive care or undergo periodic examinations for that condition (up to a maximum of 90 days). Team members must provide a medical certificate from a medical professional confirming the necessity of treatment or examination because of the condition.
 
-Team members may be eligible for [GitLab's Sick Time Policy](../people-group/paid-time-off/#sick-time---taking-and-reporting), which runs concurrently with the statutory process, and will supplement a team member’s pay up to 100% of their regular salary for up to 25 working days of continuous absences. Eligibility is calculated on a rolling 12-month period and only pertains to absences when team members need to be away from work for 5 or more continuous days or non-continuous if related to the same illness. Team members must notify their manager first, and then enter the time away into 'Time Off by Deel' by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@domain.com).
+Team members may be eligible for [GitLab's Sick Time Policy](../people-group/paid-time-off/#sick-time---taking-and-reporting), which runs concurrently with the statutory process, and will supplement a team member’s pay up to 100% of their regular salary for up to 25 working days of continuous absences. Eligibility is calculated on a rolling 12-month period and only pertains to absences when team members need to be away from work for 5 or more continuous days or non-continuous if related to the same illness. Team members must notify their manager first, and then enter the time away into 'Workday' by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@domain.com).
 
 ### Maternity Leave
 
@@ -143,7 +143,7 @@ Team members who have worked for the company for less than one year are entitled
 
 Team members must take at least 7 weeks of maternity leave after the child is born.  After the 7th week of leave, the mother can choose to return to work and transfer the remaining maternity leave period to her spouse.
 
-Maternity leave runs concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into 'Time Off by Deel' by selecting the label `Parental Leave`.
+Maternity leave runs concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into 'Workday' by selecting the label `Parental Leave`.
 
 ### Adoption Leave
 
@@ -157,13 +157,13 @@ Team members who are intended parents in a surrogacy process are also qualified 
 
 Paternity leave begins immediately following a partner going into labor and up to 24 hours following the birth, a team member is allowed to be absent from work for up to 5 days as paternity leave. The first three days of this leave will be paid from their accrued annual vacation and the remaining two days will be deducted from their accrued sick leave.
 
-Paternity leave runs concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) and provides team members with up to 16 weeks of paid leave.  About 30 days before the expected due date, team members should enter their time away into 'Time Off by Deel' by selecting the label `Parental Leave`.
+Paternity leave runs concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) and provides team members with up to 16 weeks of paid leave.  About 30 days before the expected due date, team members should enter their time away into 'Workday' by selecting the label `Parental Leave`.
 
 ### Statutory Parental Leave
 
 If maternity leave is being shared, fathers can take days off after the birth of a child, but these days will be subtracted from the maternity leave. If maternity leave is not being shared, team members are still eligible for up to 16 weeks of GitLab Parental Leave.
 
-Any statutory Parental leave taken will run concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into 'Time Off by Deel' by selecting the label `Parental Leave`.
+Any statutory Parental leave taken will run concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into 'Workday' by selecting the label `Parental Leave`.
 
 ### Parenting Hour
 
@@ -177,10 +177,10 @@ Team members undergoing fertility treatment may be entitled to a leave from work
 
 In Israel, in the event of a death of an immediate family member, team members are entitled to up to seven calendar days of paid leave to grieve for their loss.
 
-Team members should enter the time away into 'Time off by Deel' by selecting the label `Bereavement`.
+Team members should enter the time away into 'Workday' by selecting the label `Bereavement`.
 
 ### Service Duty Leave
 
 In Israel, team members serving on reserve duty must still be paid by their employer. Military service is mandatory in Israel.
 
-Team members should enter the time away into 'Time Off by Deel' by selecting the label `Mandatory Civilian Service`.
+Team members should enter the time away into 'Workday' by selecting the label `Military Service` under the `Leaves` dropdown menu.

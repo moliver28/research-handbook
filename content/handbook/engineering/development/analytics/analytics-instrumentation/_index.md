@@ -23,11 +23,6 @@ You can learn more about what we're building next on the [Analytics Instrumentat
 
 If you have any questions start by @ mentioning the product manager for the [Analytics Instrumentation Group](/handbook/product/categories/#analytics-instrumentation-group) or by creating an issue in our [issue board](/handbook/engineering/development/analytics/analytics-instrumentation/#issue-boards).
 
-### Office hours
-
-Every week Analytics Instrumentation team holds open office hours on Zoom for any questions that might arise. It's typically Wednesday for half an hour at 7:30 UTC. You can find the event in the [GitLab Team Meetings calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar).
-The historical and upcoming meeting agendas can be accessed in [our agenda document](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
-
 ## Responsibilities
 
 ### Internal Events
@@ -82,6 +77,24 @@ A bot asks every team member autoamtically the following questions at the beginn
 - **What Victories did you have in the last week?**: This should be the most important achievements from the last week. They can also be personal achievements.
 - **What Impediments did you have in the last week? Which impediments do you anticipate this week?**: This is important information for other stakeholders, to understand where a team member might need support.
 - **Which Priorities do you have for the current week?**: This should be the most important things you want to achieve during the week.
+
+### Retrospective
+
+We believe that continuously evolving and improving the way we work is crucial to delivering good outcomes. Traditionally, retrospectives are used to facilitate this improvement.
+Due to our geographical distribution we cannot run typical sync retrospectives that include everyone.
+We've also found that completely async retrospectives only see limited participation and discussion.
+
+We're currently trialing a mixed retrospective format, we're team members pair on filling in the retro issue. The process is as follows:
+
+1. Every milestone the [async-retrospective project](https://gitlab.com/gitlab-org/async-retrospectives) automatically creates an
+   issue in the [analytics-instrumentation retro project](https://gitlab.com/gl-retrospectives/analytics-instrumentation/-/issues) which contains a list of retro questions.
+1. Every 4th week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
+1. Every group of two should pair on filling out the retro issue for the current milestone together within that week:
+   1. This should happen ideally through a sync meeting or alternatively via Slack.
+   1. Focus on the what happened the last two weeks, since the last pairing.
+   1. Pairing should involve taking the time to think through the questions, talking about the answers with your pair and coming up with action items based on the identified problems.
+   1. Expect an overall time commitment of 30 minutes to an hour for the bi-weekly pairing.
+1. Every 2nd week we have a 30-minute time blocker event, that is meant for everyone to take the time to answer Retro discussions.
 
 ### Workflow
 
@@ -199,22 +212,22 @@ We orient our planning around the code-cut off as the last day of the milestone
 
 #### Milestone Capacity
 
-Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous two milestones. This is multiplied with the actual working days available to us in a given milestone.
+Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous three milestones. This is multiplied with the actual working days available to us in a given milestone.
 
-**Previous Two Milestones:**
+**Previous Three Milestones:**
 
-- **Total weights completed:** 120 weights
-- **Available work days:** 40 days * 5 engineers = 200 days
-- **Actual work days:** 200 days - 20 days off = 180 days
-- **Average weight per engineer/day:** 120 weights / 180 days = 0,67 weights/day
+- **Total weights completed:** 140 weights
+- **Available work days:** 60 days * 5 engineers = 300 days
+- **Actual work days:** 300 days - 20 days off = 280 days
+- **Average weight per engineer/day:** 140 weights / 280 days = 0,5 weights/day
 
 **Next Milestone:**
 
-- **Available work days:** 21 days * 5 engineers = 105 days
-- **Actual work days:** 105 days - 10 days off = 95 actual days
-- **Maximum capacity:** 95 days * 0,67 weights/day = 64 weights
+- **Available work days:** 20 days * 5 engineers = 100 days
+- **Actual work days:** 100 days - 10 days off = 90 actual days
+- **Maximum capacity:** 90 days * 0,5 weights/day = 45 weights
 
-In this example, the next milestone's capacity is 64 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
+In this example, the next milestone's capacity is 0,5 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
 
 #### Milestone Commitment
 
@@ -230,12 +243,13 @@ We may also use due dates as a way to timebox our iterations. Instead of spendin
 
 We estimate issues async and aim to provide an initial estimate (weight) for all issues scheduled for an upcoming milestone.
 
-We require a minimum of two estimations for weighing an issue. We consider reacting with a ➕ emoji to the estimation as agreeing with it (and thus contributing to the minimal count of estimations).
+We require a minimum of two estimations for weighing an issue. Exceptions can be made for issues that come up during the milestone or if only a single engineer with the required specialty is available. We consider reacting with a ➕ emoji to the estimation as agreeing with it (and thus contributing to the minimal count of estimations).
 If both estimations agree, the engineer who did the second estimation should add the agreed-upon weight to the issue. If there is disagreement, the second engineer should @-mention the first one to resolve the conflict.
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
+Estimating includes adding a "Proposed Solution" to the issue if none is documented yet or the estimation brings up a different one than originally documented.
+Spikes are exempted from this as discovering solutions is their main point and we default spike issues to a weight of 8.
 
-We default spike issues to a weight of 8.
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-valuable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
 
 If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 
@@ -319,7 +333,7 @@ In case the issue is not created for the [GitLab project](https://gitlab.com/git
 
 ### Ratio of issues to MRs
 
-The ratio of issues to MRs is at the responsible engineer's discretion. MRs should follow the [MVC principle](/handbook/values/#minimal-viable-change-mvc).
+The ratio of issues to MRs is at the responsible engineer's discretion. MRs should follow the [MVC principle](/handbook/values/#minimal-valuable-change-mvc).
 If it is evident in advance that an issue will require more than 2 MRs we should evaluate whether we can split the issue further to document the split of the work more clearly.
 
 ### Merge request labels
@@ -330,7 +344,7 @@ MR labels should mirror issue labels (which is automatically done when created f
 
 - Section: `~section::analytics`
 - Group: `~group::analytics instrumentation`
-- [Type:](/handbook/engineering/metrics/#work-type-classification) `~"type::bug"`, `~"type::feature"`, `~"type::tooling"`, `~"type::maintenance"`
+- [Type:](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) `~"type::bug"`, `~"type::feature"`, `~"type::tooling"`, `~"type::maintenance"`
 
 ### Milestones
 
@@ -374,7 +388,7 @@ Our group holds synchronous meetings to gain additional clarity and alignment on
 
 ## Error budget
 
-We maintain [UsageData API endpoints](https://docs.gitlab.com/ee/development/service_ping/implement.html#usagedata-api) under the `service_ping` feature to track events, and because of this we must monitor our [budget spend](/handbook/engineering/error-budgets/).
+We maintain [UsageData API endpoints](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/implement.html#usagedata-api) under the `service_ping` feature to track events, and because of this we must monitor our [budget spend](/handbook/engineering/error-budgets/).
 
 To investigate budget spend, see the [overview](https://dashboards.gitlab.net/d/stage-groups-analytics_instrumentation?orgId=1) and [details](https://dashboards.gitlab.net/d/stage-groups-detail-analytics_instrument?orgId=1) Grafana dashboards for Analytics Instrumentation. You can also check requests contributing to spending the budget in Kibana by filtering by the `service_ping` feature. An example Kibana view can be found [here](https://log.gprd.gitlab.net/goto/8e82ff10-ecb8-11ec-8656-f5f2137823ba).
 
@@ -466,6 +480,6 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 | [Internal Analytics Docs](https://docs.gitlab.com/ee/development/internal_analytics/) | Docs for instrumenting internal analytics at GitLab |
 | [Analytics Instrumentation Monitoring and Troubleshooting](monitoring_troubleshooting.html) | Information around Troubleshooting Analytics Instrumentation infrastructure|
 | [Analytics Instrumentation Infrastructure](infrastructure.html) | Information about the infrastructure we run |
-| [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)     | An implementation guide for Service Ping      |
+| [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)     | An implementation guide for Service Ping      |
 | [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |

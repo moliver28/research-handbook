@@ -157,11 +157,10 @@ To log an email in Salesforce:
 
 Any time you email a customer, bcc your "email to Salesforce address" on the email so that it is tracked within Salesforce.
 
-Three alternatives exist:
+These alternatives exist:
 
 1. If you have an [Outreach](/handbook/business-technology/tech-stack/#outreachio) account which is linked to your GitLab email address and your Salesforce account, your emails will automatically sync with Salesforce
 1. If you do not have outreach, then consider the [Salesforce Chrome plugin](/handbook/sales/prospect-engagement-best-practices) to easily log customer-related emails
-1. If you do want to log the email to the customer's timeline in Gainsight, follow the instructions in [this help article](https://support.gainsight.com/SFDC_Edition/Timeline/Admin_Guides/Configure_Email_to_Timeline). This email will be synced back to Salesforce with the daily Gainsight-Salesforce sync.
 
 ### Building Reports in Salesforce
 

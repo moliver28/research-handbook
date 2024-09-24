@@ -8,7 +8,7 @@ GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contrib
 Contributions are part of the day-to-day jobs of the following people:
 
 - Principal Pricing Manager (Sean Hall)
-- Sr Director, Product Monetization (Justin Farris)
+- VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
 
@@ -23,7 +23,7 @@ this:
 
 1. We want to be a good [steward of our open source product](/handbook/company/stewardship/).
 1. Giving a great free product is part of our go to market, it helps create new users and customers.
-1. Having our scope available to all users increases adoption of our scope and helps people see the benefit of a [single application](/handbook/product/single-application/).
+1. Having our scope available to all users increases adoption of our scope and helps people see the benefit of a [single application](/handbook/product/categories/gitlab-the-product/single-application/).
 1. Including all major features in Free helps reduce merge conflicts between CE and EE
 
 Because we have a great free product we can't have one price. Setting it high
@@ -473,11 +473,11 @@ Selling only a suite has risks, after the => is how we mitigate those at GitLab:
 Companies evolve to selling only a suite for the following reasons, after the => is how this applies to GitLab:
 
 1. Makes it easier for organizations to adopt the other products. => This is essential; organizations have official solutions and GitLab grows with organic adoption from developers.
-1. Show customers the benefit of a [single application](/handbook/product/single-application/). => This is essential, since people are skeptical (showing beats telling).
+1. Show customers the benefit of a [single application](/handbook/product/categories/gitlab-the-product/single-application/). => This is essential, since people are skeptical (showing beats telling).
 1. More usage of all the products. => This is essential for us, due to our [seed then nurture](/handbook/company/strategy/) product strategy.
 1. Harder to displace the suite, once it is in place. => This will help if competitors offer a service based on our open source code.
 
-We're going even further than selling a suite by integrating everything in a single application. We do that because of the advantages mentioned on our [handbook page about us being single application](/handbook/product/single-application/). A secondary effect is that the user doesn't have to make a buying, or even an adoption, decision.
+We're going even further than selling a suite by integrating everything in a single application. We do that because of the advantages mentioned on our [handbook page about us being single application](/handbook/product/categories/gitlab-the-product/single-application/). A secondary effect is that the user doesn't have to make a buying, or even an adoption, decision.
 
 Charging one price that incorporate all our stages is the **perfect bundle**.
 
@@ -552,7 +552,7 @@ Also, see [fork and commoditize](https://internal.gitlab.com/handbook/leadership
 We should not hesitate to open source features. When we put a feature into too high of a tier we should move it quickly because not having it in all tiers limits who can use the feature and this hurts:
 
 1. Getting more users: having the product sell itself makes us much more efficient, for it to sell itself it has to get used, more open source features can increase the popularity of GitLab compared to rival offerings.
-1. Getting more [stages per user](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-user-spu) (internal): if an open-source feature gets a user to adopt a new stage, the value one user gets from GitLab increases greatly because the [single application](/handbook/product/single-application/) benefits grow exponentially when you adopt more stages.
+1. Getting more [stages per user](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-user-spu) (internal): if an open-source feature gets a user to adopt a new stage, the value one user gets from GitLab increases greatly because the [single application](/handbook/product/categories/gitlab-the-product/single-application/) benefits grow exponentially when you adopt more stages.
 1. Getting more open source contributions to improve the feature: since the number of contributions grows with the number of users.
 1. Increase demand for paid features on top of what you open source: When you move a feature down this increases the usage of the specific feature, for example our service desk functionality. When a feature is popular this creates more demand for paid features that we can add later like custom templates for service desks.
 
@@ -589,7 +589,7 @@ To propose a change that impacts pricing or changes a feature's tier (e.g. movin
 
 What is interesting is that GitLab creates more value as you adopt more of it.
 This shouldn't be confused with DevOps maturity.
-DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/analytics/value_stream_analytics.html).
+DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/).
 With the best practices embedded in GitLab, you will mature faster than without it. GitLab enables a 200% faster DevOps lifecycle.
 But DevOps maturity is mostly about organizational change. GitLab the product is just an enabler of it.
 Even if an organization uses everything of GitLab (high DevOps score), they can still have a slow process (slow lifecycle).
@@ -599,7 +599,7 @@ These large organizations with a slow lifecycle benefit the most from GitLab, si
 
 ## Location based pricing
 
-As suggested by [a user on Twitter](https://twitter.com/javierfeldman/status/1101246338824572928).
+As suggested by [a user on X](https://x.com/javierfeldman/status/1101246338824572928)(X login required).
 This is a good suggestion to consider given the GitLab approach to adapting to local markets throughout the business. GitLab will assess viability of the idea in our overall pricing strategy planning. It is difficult to do and our assessment of this will consider:
 
 1. This is a complex issue and requires that all parties are better off if a change is made to account for geography. We fully admit that this would be hard to pull off successfully.

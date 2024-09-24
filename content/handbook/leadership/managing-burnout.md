@@ -78,6 +78,4 @@ Below, you can access all the referenced in this guide:
 
 #### Additional Resources
 
-LinkedIn Learning Course: [How to Beat Burnout, Exhaustion, and Stress](https://levelup.gitlab.com/learn/course/avoiding-burnout/main/how-to-beat-burnout-exhaustion-and-stress?client=internal-team-members)
-
 [Modern Health](/handbook/total-rewards/benefits/modern-health/#mental-wellness-services): Burnout at work can also be influenced by a multitude of experiences happening inside and outside of work. EAP offers benefits the serve a variety of needs.

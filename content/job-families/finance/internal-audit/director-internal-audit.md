@@ -46,10 +46,10 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 
 ### Performance Indicators
 
-- [Percentage of Desktop procedures documented](/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
 - [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
 - Completing tasks and audits timely and efficiently
 - Utilizing Best Practices related to audit findings and recommendations.

@@ -96,15 +96,47 @@ The Senior Manager, Professional Services reports into the Director, Professiona
 - Ability to be an evangelist for GitLab customers and serve according to GitLab's values
 - Ability to travel up to 20%
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Senior Director of Professional Services
 
+A Senior Director of Professional Services (Delivery) is responsible for overseeing the delivery of services to clients and ensuring the satisfaction and success of those clients. This position typically requires a blend of leadership, strategic planning, and client management skills, along with deep industry knowledge.
+
+### Responsibilities
+
+- Lead, mentor, and develop a team of professional services managers, architects, engineers, and other staff.
+- Foster a culture of high performance, continuous improvement, and customer-centricity within the team.
+- Set clear goals and objectives for the professional services team and ensure alignment with overall company strategy.
+- Oversee the delivery of professional services to ensure they meet client expectations and contractual obligations.
+- Build and maintain strong relationships with key clients, acting as a senior point of contact for escalations and critical issues.
+- Ensure client satisfaction and drive client success, leading to renewals, upsells, and positive referrals.
+- Develop and execute the professional services strategy, including service offerings, delivery models, and go-to-market plans.
+- Collaborate with sales, product, and customer support teams to align on client needs and ensure cohesive service delivery.
+- Identify new service opportunities and drive innovation in service delivery to enhance client value and competitive positioning.
+- Manage under the professional services P&L, including budgeting, forecasting, and financial performance tracking.
+- Ensure services are delivered efficiently and cost-effectively, optimizing resources and maximizing profitability.
+- Develop pricing strategies for services that reflect value delivered and market conditions.
+- Establish and enforce best practices, standards, and methodologies for service delivery.
+- Continuously assess and improve service delivery processes to increase efficiency, quality, and customer satisfaction.
+- Implement metrics and KPIs to measure and improve the effectiveness of the professional services team.
+- Work closely with product development teams to ensure services are aligned with product capabilities and roadmap.
+
 ### Requirements
 
-- Demonstrated progressive experience managing, leading and/or delivering professional or consulting services globally
-- Proven experience building and leading a team of 50+ people in a fast-paced, growing company
-- Demonstrated experience building and scaling a professional services business
+- Bachelor’s degree in Business, Engineering, Computer Science, or a related field; a Master’s degree or MBA is often preferred.
+- Proven track record of successfully managing large-scale service delivery projects and teams, preferably in a technology or software company.
+- Strategic thinking and business acumen, with the ability to develop and execute a services strategy that aligns with company goals.
+- Financial acumen, including experience managing budgets, forecasts, and P&L.
+- Strong analytical and problem-solving skills, with the ability to make data-driven decisions.
+- Excellent communication and interpersonal skills, with the ability to work effectively with cross-functional teams and senior executives.Demonstrated progressive experience managing, leading and/or delivering professional services
+- Proven experience building and leading a team of 50+ people in fast-paced, growing company
+- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
+- Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
+- Demonstrated experience building and scaling a professional services business with accountability for financial targets
+- Experienced with software development lifecycle (i.e., SDLC), agile, DevOps, software development tools, technologies (e.g., Docker, Kubernetes), and/or cloud platforms (AWS, GCP, Azure)
+- Ability to be an evangelist for GitLab customers and serve according to GitLab’s values
+- Ability to use GitLab
+- Ability to travel 20% of the time, if needed, and comply with the company’s travel policy
 
 ## Vice President of Professional Services
 

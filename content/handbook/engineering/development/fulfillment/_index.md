@@ -231,7 +231,7 @@ Before work can begin on an issue, we should estimate it first after a prelimina
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
 | 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. In general departments at GitLab aim for [70% predictability] but in the Fulfillment sub-department we aim for 80% predictability since our work is typically cross-functional and we need to be in lockstep with other departments.
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-valuable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. In general departments at GitLab aim for [70% predictability] but in the Fulfillment sub-department we aim for 80% predictability since our work is typically cross-functional and we need to be in lockstep with other departments.
 
 - If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
@@ -535,7 +535,7 @@ The following list contains some of the standard departments and teams who shoul
 - IT Helpdesk
 - Support Team
 
-When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Deployment
 
@@ -770,8 +770,8 @@ Complete the following details when creating the issue.
 
 In the threads below consider the following:
 
-- Why was it (un)successful? If successful, how did it meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc)?
-- How did the example not meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc)? In what ways could you have iterated differently? List specific examples.
+- Why was it (un)successful? If successful, how did it meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)?
+- How did the example not meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)? In what ways could you have iterated differently? List specific examples.
 - Identify areas of improvement for the team that can be incorporated into our processes and workflows.
 
 Follow [these rules](/handbook/engineering/management/group-retrospectives/) for an effective retrospective.
@@ -857,7 +857,7 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 ## Performance indicators
 
 See the [Fulfillment Section Performance Indicators](/handbook/engineering/development/performance-indicators/fulfillment/) as well as the
-[Centralized Engineering Dashboards](/handbook/engineering/metrics/).
+[Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ## Maintainer ratios
 
@@ -899,7 +899,7 @@ This table lists recurring activities between managers and their reports. Most o
 | [1-1 Meetings](/handbook/leadership/1-1/)                                                               | Weekly    | Sync | Manager, Report                                 |
 | [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/) | Quarterly | Sync | Manager, Report                                 |
 | [Skip-Levels Meetings](/handbook/leadership/skip-levels/)                                               | Quarterly | Sync | Manager's Manager, Report                       |
-| [Promotion Planning](/handbook/engineering/career-development/#promotion)                               | Annually  | Sync | Manager, Report, Function Leadership, PeopleOps |
+| [Promotion Planning](/handbook/engineering/careers/#promotion)                               | Annually  | Sync | Manager, Report, Function Leadership, PeopleOps |
 | [Talent Assessment](/handbook/people-group/talent-assessment/)                                          | Annually  | Sync | Manager, Report, Function Leadership, PeopleOps |
 | [Annual Compensation Reviews](/handbook/total-rewards/compensation/compensation-review-cycle/)          | Annually  | Sync | Manager, Report, Function Leadership, PeopleOps |
 
@@ -923,9 +923,9 @@ Google groups can be used for easily sending calendar invites to members of the 
 | [s_fulfillment_daily](https://app.slack.com/client/T02592416/C01BNLX4085) | Used to share daily standup updates. |
 | [s_fulfillment_status](https://app.slack.com/client/T02592416/CL7SX4N86) | [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/) health monitoring channel. |
 
-### Guidelines to ask questions in [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel
+### Guidelines to ask questions in s_fulfillment slack channel
 
-1. The channel can be used to ask all product, engineering, and Fulfillment processes related questions.
+1. The [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel can be used to ask all product, engineering, and Fulfillment processes related questions.
 1. When your question has been answered, please react with the ✅ (`:white_check_mark:`) Slack emoji to the original question so that team members know that it has been answered and they do not need to look at it any longer.
 1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests.html#requesting-an-escalation) strategy.
 1. For [internal support requests](/handbook/support/internal-support/#internal-requests) regarding licensing, subscriptions, trials, grace period extensions, or any requests involving a customer, please fill out the [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).

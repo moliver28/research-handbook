@@ -4,7 +4,7 @@ title: "Oliver Falk's README"
 
 ## Oliver Falk's README
 
-**Oliver Falk, Manager, Customer Success Managers, DACH**
+**Oliver Falk, Manager, Customer Success Engineering, EMEA**
 
 This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 

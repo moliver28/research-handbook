@@ -57,7 +57,7 @@ The Intermediate level in the Engineering Division is a [grade 6](/handbook/tota
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale machine learning environment. Maintain and advocate for these standards through code review.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Participate as a reviewer or [project maintainer](/handbook/engineering/workflow/code-review/#maintainer) in one or more [engineering projects](/handbook/engineering/projects/). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 #### Requirements
 
@@ -93,7 +93,7 @@ The Senior level in the Engineering Division is a [grade 7](/handbook/total-rewa
 - Help to define and improve our internal standards for style, maintainability, and best practices for a high-scale machine learning environment. Maintain and advocate for these standards through code review.
 - Confidently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Improves the [engineering projects](/handbook/engineering/projects/) at GitLab via [the maintainer program](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) at own comfortable pace, while striving to become a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer).
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 #### Senior Requirements
 
@@ -123,7 +123,7 @@ The Staff level in the Engineering Division is a [grade 8](/handbook/total-rewar
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Improves the [engineering projects](/handbook/engineering/projects/) at GitLab via [the maintainer program](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) at own comfortable pace, while striving to become a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer).
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 #### Staff Requirements
 
@@ -178,7 +178,7 @@ Machine Learrning Managers have the same [engineering manager performance indica
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/) handbook page.
 
 ## Hiring Process
 

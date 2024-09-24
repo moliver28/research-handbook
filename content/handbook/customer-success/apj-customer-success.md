@@ -18,7 +18,7 @@ To deliver value to all customers by engaging in a consistent, repeatable, scala
 
 ## Vision Page
 
-The WW ["Customer Success Vision Page"](/handbook/customer-success/vision/) provides the long-term vision which we also follow in the APJ Customer Success team.
+The WW ["Customer Success Vision Page"](/handbook/customer-success/customer-success-vision/) provides the long-term vision which we also follow in the APJ Customer Success team.
 
 ## APJ Customer Success Team
 

@@ -328,7 +328,7 @@ The Director, Billing and Collections is a [grade 11](/handbook/total-rewards/co
 
 - [Average days of sales outstanding](/handbook/finance/accounting/#accounts-receivable-performance-indicators)
 - [Time for Invoices to be generated when a deal is closed won in Salesforce](/handbook/finance/accounting/#accounts-receivable-performance-indicators)
-- [Percentage of ineffective Sox Controls](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Percentage of ineffective Sox Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
 
 ## Career Ladder
 

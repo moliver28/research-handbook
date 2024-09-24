@@ -1,5 +1,5 @@
 ---
-title: Backup and Restore GitLab
+title: "Backup and Restore GitLab"
 status: ongoing
 creation-date: "2024-06-04"
 authors: [ "@aakriti.gupta", "@brodock", "@ibaum", "@kyetter" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

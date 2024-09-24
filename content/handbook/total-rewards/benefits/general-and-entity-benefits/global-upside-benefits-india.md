@@ -59,7 +59,7 @@ Sodexo Meal Cards are an optional benefit. These Meal Cards work like a Debit Ca
 
 #### Applying for Parental Leave in India
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 ### Gratuity
 
@@ -137,7 +137,7 @@ Team members are entitled to `five days` of paid vacation leave after 12 months 
 
 #### Applying for Parental Leave in the Philippines
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](general{{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](general{{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 ## Kenya
 
@@ -179,7 +179,7 @@ GitLab offers company paid International Group Life and Disability Plans through
 
 #### Applying for Parental Leave in Kenya
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 ## Chile
 
@@ -219,7 +219,7 @@ GitLab does not plan to offer life insurance at this time as team members can ac
 
 #### Applying for Parental Leave in Chile
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 #### Bereavement leave
 
@@ -271,7 +271,7 @@ The 13th salary is equal to a month's pay and must be paid within the first 20 d
 
 #### Applying for Parental Leave in Costa Rica
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 #### Adoption Leave
 
@@ -335,4 +335,4 @@ All team members are entitled to up to 1 ½ years of parental leave for the birt
 
 #### Applying for Parental Leave in Latvia
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting  `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).

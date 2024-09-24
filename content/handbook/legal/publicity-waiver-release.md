@@ -54,7 +54,7 @@ Use the Material- and Purpose-specific Publicity Waiver and Release template for
 
 {{% details summary="Expand for instructions for DRIs using the Material- and Purpose-specific Publicity Waiver and Release" %}}
 
-1. If you don't have DocuSign access, open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to get it.
+1. If you don't have DocuSign access, open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to get it.
 1. Once you has DocuSign access, access the [Material- and Purpose-specific Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:

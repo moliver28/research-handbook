@@ -1,6 +1,5 @@
 ---
 title: Security Policies and Threat Insights planning
-aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
 ---
 
 ## How we do planning
@@ -43,7 +42,7 @@ Engineers assigned to refine issues are encouraged to ask questions and push bac
 
 We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
 
-* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification).
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
 
 ### Release Scope final & kickoff
 

@@ -17,11 +17,10 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
 - [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
 - [Human Rights Campaign website](https://www.hrc.org/)
   - [HRC Sexual Orientation and Gender Identity Definitions](https://www.hrc.org/resources/sexual-orientation-and-gender-identity-terminology-and-definitions)
-  - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-faq)
+  - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-and-non-binary-faq)
 - [The Genderbread Person](https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/)
 - [A comprehensive list of LGBTQ+ term definitions](https://www.itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/)
 - [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://www.wearefamilycharleston.org/lgbt-glossary-az)
-- [NYU LGBTQ Terminology](https://www.nyu.edu/students/communities-and-groups/student-diversity/lesbian-gay-bisexual-transgender-and-queer-student-center/glossary-of-important-lgbt-terms.html)
 - [UC Davis LGBTQIA Resource Center Glossary](https://lgbtqia.ucdavis.edu/educated/glossary)
 - [Things not to say to a trans person](https://www.youtube.com/watch?v=pvBwWeG4Rpc)
 
@@ -199,7 +198,7 @@ This [Vox article on transgender mental health](https://www.vox.com/identities/2
 
 No, not all transgender people desire medical transition such as hormone therapy and surgeries. Additionally, some trans people do desire medical transition, but cannot afford it. [They are still trans none the less](https://www.vox.com/identities/2016/5/13/17938114/transgender-people-transitioning-surgery-medical).
 
-As [HRC says well](https://www.hrc.org/resources/transgender-faq),
+As [HRC says well](https://www.hrc.org/resources/transgender-and-non-binary-faq),
 
 > "Many transgender people cannot afford medical treatment nor can they access it. In light of these injustices, it is important that civil rights and protections are extended to all transgender people equally, regardless of their medical histories. It's also critical to continue advocating for full access to health care coverage for transgender people."
 

@@ -1,7 +1,6 @@
 ---
 title: "Govern:Pipeline Security Group"
 description: "The GitLab Govern:Pipeline Security Group Handbook page"
-aliases: /handbook/engineering/development/ops/verify/pipeline-security/
 ---
 
 ## Vision
@@ -11,7 +10,7 @@ We provide security in the software supply chain process, ensuring the right lev
 Our team is responsible for delivering on the following categories:
 
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
-- [Secrets Management](https://about.gitlab.com/direction/govern/secrets_management/)
+- [Secrets Management](https://about.gitlab.com/direction/govern/pipeline_security/secrets_management/)
 
 The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 
@@ -21,7 +20,7 @@ Our mission is to give organizations features which enable secure pipeline opera
 
 ## Performance Indicators
 
-We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
+We measure the value we contribute by using a [Product Performance Indicator](https://internal.gitlab.com/handbook/company/performance-indicators/product/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
 <!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). -->
 
 ## Team Members
@@ -122,7 +121,7 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 #### Design and Development collaboration
 
-When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-viable-change-mvc), while still providing value and a usable experience.
+When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
 
 To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#ux-definition-of-done-ux-dod) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
 

@@ -1,6 +1,6 @@
 ---
 title: "Campaigns and Programs"
-description: "Campaigns are used to track efforts of marketing tactics - field events, webcasts, content downloads."
+description: "Campaigns are used to track efforts of marketing tactics"
 ---
 
 ## Campaigns
@@ -195,7 +195,7 @@ Program type is included on the smart campaign meant to clear `dietary restricti
 
 #### Partner - MDF
 
-This is for an activity that our partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/channel-marketing/partner-campaigns/#mdf-campaigns).
+This is for an activity that our partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
@@ -397,7 +397,7 @@ An example of a folder setup in Marketo is:
 
 Be advised that some templates are being used for both `in-person` and `virtual events`. These templates have been marked as `Hybrid template`. For these templates, the naming convention is slightly different in that additional campaign information appears in the name. When naming the program, `EventType` is replaced with either `Virtual`, `In-Person`, or `Hybrid` (if an event will be both in-person and virtual).
 
-If this is to set up a program that involves a channel partner, you must also follow the directions on that [setup page](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns). You will still clone the program from the list below to get started.
+If this is to set up a program that involves a channel partner, you must also follow the directions on that [setup page](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns). You will still clone the program from the list below to get started.
 
 #### How to Clone the Marketo program
 
@@ -444,9 +444,9 @@ If this is to set up a program that involves a channel partner, you must also fo
 
 #### Partner Campaign Setup
 
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/partner-campaigns/#mdf-campaigns).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Partner Trials setup, go to [this page](/handbook/marketing/channel-marketing/partner-campaigns/#trials-from-partners)
+- Partner MDF Funded campaigns go [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
+- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
+- Partner Trials setup, go to [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners)
 
 ### Step 2: Sync to Salesforce
 
@@ -627,6 +627,19 @@ In the situations where you have an event that had the waitlist feature turned o
 - Click on `Change Status`
 - Select `Registered`
 Once you click `Registered`, the status will change and the `01c Waitlist to Registered` Smart Campaign will now update the `Interesting Moments` & `behavior score` and NOT send the Registration Confirmation email. After this is complete and they are moved to a registered stats, we can still send them a follow up email, based on the registered status. You will need to complete a no show, attended, and registered (all separate copy) email issues.
+
+### Setting up a controller Marketo program for a muti-day event
+
+This is an optional feature for anyone looking to run an event on multiple days while using the same form and landing page for all included days - but with each day having its own Marketo programs/SFDC campaigns. Note this streamlined workflow exists on only 2 templates at the moment but work similarly on both templates: [YYYYMMDD_EventName_Webcast_On24_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME12620A1) and [YYYYMMDD_WebcastTopic_Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME5512A1). If there is demand, this can be requested for other program templates via an issue.
+
+- First, determine the number of days needed for your event. If the event requires anything different than 3 days, complete as much setup as possible following the below directions and then ping MktgOps on your current issue so we can finish the setup. The intention here is to allow for use of a tokenized global form rather than individual forms for each program. The form is `FORM 1419: Webcast_MultipleTimeSlots`. If your event requires a different number of days, MktgOps needs to clone `1419` and change the number of days allotted in the dropdown
+- Clone the program template you will need for as many days as your multi-day event will require - then clone one more and name the extra program as your `controller` program - with a name that somewhat alludes to your child programs. Keep all of your programs near each other and within the same Q1/2/3 or Q4 folder, if possible. Be sure to list the programs in play in the issue if you require finishing touches by MktgOps
+- In the `controller` program, add `FORM 1419: Webcast_MultipleTimeSlots` to the Marketo landing page. `FORM 1419` is tokenkized with these local program tokens: `Date 1`, `Date 2`, `Date 3`, `Date 1 Option`, `Date 2 Option` and `Date 3 Option`. Fill in the `Date` tokens with the time, date and timezone **exactly** as they should appear on the dropdown menu on the landing page. The dropdown will appear on the landing page for users to select, so formatting is important. Fill in the `Option` tokens with a keyword relating to your individual multi-day events. e.g. `Day 1 = Aug 23 7:00` and `Day 2 = Sept 1 5:00` so `Day 1 Option = August` and `Day 2 Option = September`. There cannot be overlapping information on the `Option` tokens as they are part of some `contains` logic in the processing smart campaign
+- Speaking of that, still in the `controller` program, move on to the smart campaign `01 Registration Flow (Multi-timeslot)`. The rest of this setup continues to be similar as a regular program set up. Click on `Flow` and scroll down to `step 3`. Change `Option 1`, `Option 2` and `Option 3` to match the keywords from the `Date 1/2/3 Option` tokens. This will add leads to static lists for safe keeping. It will also help monitor for errors. If your events only span 2 days, remove `Option 3` and if there are more than 3 days MktgOps will handle adding more days as this requires more logic and tokens
+- On `Flow Step 4`, again change the `Option 1/2/3` to match your token keywords. In the `Requested Campaign` field, find the `registration` smart campaigns from your `child` programs and plug them in here. Be careful to select the correct smart campaigns here. Their names will start with the name of the child campaign but they will all have the same or similar smart campaign name of `01a Registration Flow - Form fill`
+  - Note, the registration processing smart campaigns in the children programs **need to be activated** in order to appear as a `request campaign` option in the `controller` program's `Multi-timeslot` smart campaign
+- Note there is an alert that will be set to an email of your choosing if there is something arry with the registration flow
+- On the controller campaign there is nothing left to set up. Activate the appropriate processing smart campaigns on your child programs (busy as usual), including all needed processings, such as `Interesting moments`, `Attended` flows, `Follow up Requested`, etc. Remember to sync the child campaigns to sfdc, but there is no need to sync the `controller` program to sfdc as it does not house program members with relevant program statuses
 
 ### Setting up assets for Late/In-person Registration
 
@@ -841,7 +854,9 @@ You must keep the same Asset number for existing assets, otherwise the existing 
   - Update `Region` and `Subregion`
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
 
-### Step 2: [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15954A1)
+### Step 2: Clone this program
+
+[Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15954A1)
 
 ContentSynd_Region_Vendor_DAP_Assets_Populated:
 This is the recommended template. Note that this program has the asset titles and types pre-populated. If you want a version without the asset tokens populated (not recommended only because it requires more set-up work), clone [ContentSynd_Region_Vendor](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15661A1). You will still need to add the SFDC campaign tokens in both versions.
@@ -913,7 +928,7 @@ There are a few common errors we see with Content Syndication leads. You can add
    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is active, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
 1. If you need to check the email deployment, change the "Filter" view to Email and confirm that the correct email was sent. In most cases, this should be the Welcome Email without a language specified.
 
-### Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP - adding a new asset
+### Steps to Setup Content Syndication - Campaigns through Integrate DAP - adding a new asset
 
 If your content syndication program is not running through DAP, please use the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc).
 
@@ -1130,7 +1145,9 @@ When someone fills out these forms, they will be automatically added to the [Lan
 - In `form details` select `download` as the call-to-action and select your new form
   - Note: If your new asset is launching in multiple regions, confirm you're adding the correct form to the correct regional campaign
 
-### Step 1: For new campaigns not listed above, [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
+### Step 1: For new campaigns not listed above
+
+[clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 
 - Use format `YYYY_Social_[Name]_[parameter]_LinkedIn Lead Gen`
 - Campaign parameter must be one of the [GTM campaign parameters](/handbook/marketing/utm-strategy/#utm-campaign) (usually used as utm_campaign - ex. `devopsgtm` or `autosd`). The Salesforce campaign name must include the campaign parameter for the responses to roll up to the correct campaign on the Sisense dashboards.

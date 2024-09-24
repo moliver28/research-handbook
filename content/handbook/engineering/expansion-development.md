@@ -32,11 +32,12 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 
 ## Organizational responsibilities
 
-The development team is responsible for developing products in the following categories:
+The Expansion department includes the following sub-departments and groups:
 
-- [Sec](/handbook/engineering/development/sec/)
-- [Data Science](/handbook/engineering/development/data-science/)
+- [Secure](/handbook/engineering/development/sec/secure/)
+- [Govern](/handbook/engineering/development/sec/govern/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
+- [Growth](/handbook/engineering/development/growth/)
 
 ## Team Members
 
@@ -391,7 +392,7 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 ### Development Escalation Process
 
 - [General information](/handbook/engineering/development/processes/Infra-Dev-Escalation/)
-- [Process outline](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html)
+- [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/)
 
 ### Reducing the impact of far-reaching work
 

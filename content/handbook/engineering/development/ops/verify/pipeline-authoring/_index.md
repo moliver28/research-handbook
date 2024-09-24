@@ -14,11 +14,18 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
 - [CI/CD Catalog Documentation](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
 
-### Team
+## Team Handles
+
+| Category | Handle |
+|---------------|------|
+|GitLab Team Handle | @verify-pa-team |
+| Slack Channel | [#g_pipeline-authoring](https://gitlab.slack.com/archives/C019R5JD44E) |
+| Slack Handle (Engineers) | @verify-pa-engineering |
+
+### Team Resources
 
 - [Team Resources](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/)
 - [Workflow board: `~group::pipeline authoring`](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started)
-- [Slack Channel: `#g_pipeline-authoring`](https://gitlab.slack.com/archives/C019R5JD44E)
 
 ### Videos
 
@@ -27,20 +34,86 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [Frontend CI product / codebase overview - June 2020](https://www.youtube.com/watch?v=7CUd7aAUiWo)
 - [CI/CD Catalog Demo](https://www.youtube.com/watch?v=oNcJCU-a-bM)
 
-### Core domain
+## Core domain
 
-- Pipeline configuration: YAML syntax, linter and configuration parser.
-- CI/CD Catalog: publishing and releasing process to Catalog.
-- Pipeline creation: process of building and persisting a pipeline including multi-project
-  or child pipelines.
+### Products
+
+| Product | Navigation | Documentation |
+| ------- | ---------- | ------------- |
+| **CI/CD Pipelines** | [Build >> Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipelines) | [GitLab docs](https://docs.gitlab.com/ee/ci/pipelines/) |
+| **Pipeline editor** | [Build >> Pipeline editor](https://gitlab.com/gitlab-org/gitlab/-/ci/editor?branch_name=master) | [GitLab docs](https://docs.gitlab.com/ee/ci/pipeline_editor/) |
+| **CI/CD Catalog** | [Explore >> CI/CD Catalog](https://gitlab.com/explore/catalog) | [GitLab docs](https://docs.gitlab.com/ee/ci/components/) |
+
+### Features
+
+- [Pipeline creation](https://docs.gitlab.com/ee/ci/quick_start/)
+- [YAML syntax](https://docs.gitlab.com/ee/ci/yaml/)
+- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/lint.html)
+- [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
+- Additional features can be found [here](/handbook/product/categories/features/#verify-pipeline-authoring-group)
+
+## Technical Roadmap 
+
+`Remainder of FY25`
+
+These areas are our high-level engineering driven goals for the remainder of `FY25`. Though they are ambitious and subject to change, it gives insight into where our focus will be in these areas.
+
+### Performance & Cost Reduction
+
+**Pipeline Creation Speed**
+
+**NOTE:** Pipeline creation feedback [issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/34984).  We welcome your thoughts on your experience with the pipeline creation process.
+
+Goals:
+
+- Understand the components of the pipeline creation service to improve speed. 
+  - This [graph](https://log.gprd.gitlab.net/app/r/s/r5Owf) captures data around the pipeline creation performance.
+- Top 3 identified issues to optimize pipeline creation performance.
+  - [Bulk insert Sidekiq jobs when creating a pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/348553)
+  - [Expand CI variables lazily and selectively](https://gitlab.com/gitlab-org/gitlab/-/issues/410143)
+  - [Evaluate rules once for parallel jobs](https://gitlab.com/gitlab-org/gitlab/-/issues/450687)
+
+### Scalability
+
+**CI/CD Variables**
+
+Goals:
+
+- Address top-level variables keyword problem - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6565)
+- Implement a new CI/CD variable structure from scratch. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
+
+### Efficiency
+
+**Auto-generating a JSON schema for spec keyword** 
+
+Goals:
+
+- Transition from entry classes to JSON schema for data structure validation. - [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/463062)
+
+### Visibility 
+
+**CI Catalog instrumentation**
+
+Goals:
+
+- Top 3 identified issues to add more visibility for usage in CI/CD Catalog with adding instrumentation.
+  - [Capture GraphQL call times](https://gitlab.com/gitlab-org/gitlab/-/issues/452247)
+  - [Implement instrumentation to track performance of Ci::Catalog::Listing queries](https://gitlab.com/gitlab-org/gitlab/-/issues/435440)
+  - [Capture page load times](https://gitlab.com/gitlab-org/gitlab/-/issues/452246)
+
+### FY26 top of mind
+
+- Support for GraphQL subscriptions - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15108)
+- Pipeline performance improvements - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15244)
+- CI Variables improvements - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15250)
+- MR Pipeline Tab migration to GraphQL - [epic](https://gitlab.com/groups/gitlab-org/-/epics/15133)
 
 ## Exciting things and accomplishments
 
 This section will list the top three most recent, exciting accomplishments from the team.
 
-- We welcomed [Rajendra Kadam](https://gitlab.com/rkadam3) as our newest backend engineer to the team!
-- Recently, we completed the next [phase](https://gitlab.com/groups/gitlab-org/-/epics/11674) of Beta release for CI Catalog.
-- 2023 team accomplishments can be found [here](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/122).
+- Recently, we released the CI/CD Catalog to [GA](https://gitlab.com/groups/gitlab-org/-/epics/12153).
+- We added usage statistics and a sort option for popularity in the CI/CD Catalog [index page](https://gitlab.com/gitlab-org/gitlab/-/issues/434333)
 
 ## Team Members
 
@@ -49,6 +122,31 @@ This section will list the top three most recent, exciting accomplishments from 
 ## Stable Counterparts
 
 To find our stable counterparts, look at the Pipeline Authoring [product category listing](/handbook/product/categories/#pipeline-authoring-group).
+
+## Capturing User Feedback
+
+We highly value user feedback! Please use the issue below to capture feedback and insights for our newest feature, CI/CD Catalog:
+
+- [CI/CD Catalog Feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/407556)
+
+## Group Meetings 
+
+For every meeting, it is expected that it contains a list of agenda items to discuss along with the meeting notes when the meeting takes place. This will make it easier for people to catch up if they are unable to attend.
+
+Please note that sync meeting schedules are flexible and can be moved to accomodate required participants. For an up-to-date schedule of all team meetings, please consult the [Group's Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_n7totcsnoi7l2j0a2n9ps08g7s@group.calendar.google.com&ctz=UTC).
+
+The table below briefly outlines the objectives and key details of regular team meetings:
+
+| Meeting Title | Cadence | DRI | What |
+|---------------|------|------|------|
+| UX/Product/Engineering sync | Weekly | Product | Set overall direction and validate higher-priority issues/epics to be worked on in the upcoming releases.|
+| Team weekly sync * | Weekly | Engineering | Discuss announcements, product updates, open questions team wishes to discuss. |
+| Backlog clean-up | Monthly | Product |Review the current state of team backlog to ensure all issues are still valid so the backlog is clean and up-to-date. |
+| Milestone retrospective sync | Monthly | Engineering | Reflect on the milestone that recently completed and share takeaways as well as identify action items for improvement and/or future trialing. |
+| Design discussions | Bi-Weekly | UX | Review current design work that needs collaboration or feedback from Engineering. |
+| Technical discussions | Bi-Weekly | Engineers | Discuss current work and open questions that team members have for each other |
+
+- Starting in September 2024, the team will begin to trial team weekly syncs on Mondays.  If successful, weekly team syncs and ux/product/engineering syncs will be combined into 1 meeting starting in October.
 
 ## Dashboards
 
@@ -78,9 +176,9 @@ We hold a bi-weekly design sync meeting open to all team members where we discus
 
 ## How We Work
 
-### Implementation template
+### Issue template
 
-A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue Implementation` is used to capture consistent details around implementation efforts. This template should be used when creating `backend` or `frontend` issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general `backend` or `frontend` request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
+A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue` is used to capture consistent details around implementation efforts. This template should be used when creating issues which could relate to the implementation of a validated problem with a refined solution proposal, or a general request that isn't related to a feature improvement or addition. This template is not intended to replace or duplicate any original design issues as the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)). When creating an issue for a feature change or addition, usability problems or bugs, use the `feature request` or `bug` issue templates.
 
 ### Planning
 
@@ -114,6 +212,10 @@ Engineering uses the [following handbook guidance for determining weights](#weig
 1. If the issue is a `type::bug`, is it clear how to reproduce the behavior and can a sample CI configuration file be provided?
 
 Any one on the team can contribute to answering the questions in this checklist, but the final decisions are up to the PM and EMs.
+
+##### Use of Sub-tasks
+
+In May 2024, the team began to trial the use of sub-tasks in issues to help with refinement. The goal is that we have one SSOT issue that contains threaded discussions around all aspects of the team, including backend, frontend, UX, Product, and documentation. We will continue with this trial until the end of `FY25-Q3`. As we learn more in this trial, we are providing [feedback](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/169) so we can determine if sub-tasks are a good fit for us. A future recording will share our findings so others who are interested can learn from our experience.
 
 ##### Steps for Refining and Weighting Issues
 
@@ -171,7 +273,7 @@ GitLab does not have a versioning system for CI/CD configuration. Therefore, it 
 
 ### Release Plans
 
-To encourage more transparency and collaboration amongst the team and additionally align on the [Release Posts](/handbook/marketing/blog/release-posts/) we publish at the end of each milestone, we will be creating a separate issue to highlight a **Feature flag roll out plan** for each feature being released starting in 13.2, based on the [issue template for feature flag roll outs](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md). The engineer who implements the feature will be responsible for creating this separate issue to highlight the details of when and how the feature flag will be toggled, and subsquently link this issue to their feature issue.  The product manager will tag this issue as a blocker to their release post, so that everyone is aligned on the release plan of the feature.
+To encourage more transparency and collaboration amongst the team and additionally align on the [Release Posts](/handbook/marketing/blog/release-posts/) we publish at the end of each milestone, we will be creating a separate issue to highlight a **Feature flag roll out plan** for each feature being released starting in 13.2, based on the [issue template for feature flag roll outs](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md). The engineer who implements the feature will be responsible for creating this separate issue to highlight the details of when and how the feature flag will be toggled, and subsequently link this issue to their feature issue.  The product manager will tag this issue as a blocker to their release post, so that everyone is aligned on the release plan of the feature.
 
 ### Quad-planning
 
@@ -186,6 +288,8 @@ We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/gitlab-o
 We follow the [product development flow](/handbook/product-development-flow/) to ensure that the problems we're solving are well understood and the solutions are well defined and validated before the implementation.
 
 We aim to achieve key outcomes in each phase in order to de-risk subsequent phases. However, the product development flow doesn't dictate the order we go through the phases, or the time spent in each. We might skip certain phases if we think that the necessary outcomes for that phase have already been achieved.
+
+Our UX counterpart is the DRI for the SSOT designs, and they have the right to push any enhancement discussions in MRs into follow-up efforts in created and linked issues.
 
 Development moves through [workflow states](/handbook/product-development-flow/#workflow-summary) as follows:
 
@@ -372,7 +476,7 @@ The Pipeline Authoring group supports the product marketing categories described
 | `CI integrations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20integrations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20integrations) | Issues related to supporting different CI targets directly (for example, Java or Mobile). Pipeline Authoring |
 | `CI persistence` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20persistence) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20persistence) | Issues related to Persistence (workspaces, caching). Does not include artifacts, which is its own label |
 | `CI rules` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20rules) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20rules) | Issues related to CI rules or linting |
-| `pipeline visualizations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=pipeline%20visualizations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=pipeline%20visualizations) | Issues related to pipeline visualization, including [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/), pipeline dependencies for triggers, cross-project pipelines, and child/parent pipelines. For job or pipeline execution, refer to [`pipeline processing`](../pipeline-execution/#feature-labels) (owned by the Pipeline Execution team) |
+| `pipeline visualizations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=pipeline%20visualizations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=pipeline%20visualizations) | Issues related to pipeline visualization, including pipeline dependencies for triggers, cross-project pipelines, needs keyword, and child/parent pipelines. For job or pipeline execution, refer to [`pipeline processing`](../pipeline-execution/#feature-labels) (owned by the Pipeline Execution team) |
 | `pipeline authoring` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=pipeline+authoring) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=pipeline+authoring) | Issues related to authoring the .gitlab-ci.yml file and CI YAML configuration (https://docs.gitlab.com/ee/ci/yaml/) but excludes issues handled by another label such as "CI rules" |
 
 #### Other Notable Labels
@@ -420,7 +524,7 @@ We suggest using the below steps to reach the best results in the shortest time:
 - Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out iteration strategies for help.
 
 We aim to design broadly for an epic or full feature at least one milestone ahead of time and then break the big solution into smaller issues to pick up in the next milestones.
-Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-viable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
+Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-valuable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
 
 #### Reviewing Merge Requests
 
@@ -526,14 +630,21 @@ When creating a follow-up issue for required tests:
 
 ### Technical Debt
 
-- We track our technical debt using the following [Pipeline Authoring Technical Debt issue board](https://gitlab.com/groups/gitlab-org/-/boards/2019541), where we track issues in the planning phase.
-- We schedule issues that are labeled as `workflow::ready for development`.
+- We track our team's technical debt using the following the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance), where we track issues with upcoming candidate labels and compare against current milestone.
+- In an effort to promote more transparency across the stage where collaboration may be needed, starting in August 2024, we've introduced a [Verify Pipeline teams Technical Debt board](https://gitlab.com/groups/gitlab-org/-/boards/1438885?not%5Blabel_name%5D%5B%5D=group%3A%3Ahosted%20runners&not%5Blabel_name%5D%5B%5D=group%3A%3Arunner&label_name%5B%5D=devops%3A%3Averify&label_name%5B%5D=type%3A%3Amaintenance) that shows the top of mind priorities in the Pipeline teams.
+
+Within the Pipeline Technical Debt Prioritization board, we have 6 main columns:
+
+1. Items with the current maintenance and refactor labeling needing severity are in the left-most column.
+2. The next column will always be the current milestone so team members have the opportunity to compare that list against what is coming up.
+3. The other columns are the upcoming 4 milestone candidate labels so team members can forecast out upcoming priorities.
+
+**NOTE:** Impact breakdown: We use `severity::n` labels to classify the impact of the specific tech debt item. These should map to the [severity definitions for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
 
 When creating a technical debt issue make sure to label it as such, in addition make sure to add labels based on the following guidelines:
 
 1. Issue readiness: We add the correct `~workflow::x` label in accordance with our [product development workflow](/handbook/engineering/development/ops/verify/pipeline-authoring/#workflow)
-
-1. Impact breakdown: We use `severity::n` labels to classify the impact of the specific tech debt item. These should map to the [severity definitions for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+2. Issue scheduling. The Engineering Manager will review the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance) and provide suggestions to the team to schedule for upcoming milestones by adding them to the respective planning issue for a milestone and communicating with Product a need to schedule the issue in an upcoming milestone. The issues selected should ideally align with the team's technical roadmap [themes](#technical-roadmap).
 
 #### Prioritization of Technical Debt
 

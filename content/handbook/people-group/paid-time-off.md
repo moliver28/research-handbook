@@ -1,7 +1,5 @@
 ---
 title: "Paid Time Off at GitLab"
-aliases:
-- /handbook/paid-time-off/
 ---
 
 ## Introduction
@@ -14,7 +12,7 @@ Time away from work can be extremely helpful for maintaining a [healthy work/lif
 
 Taking time off is not a selfish behavior. Not only is time away from work aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second), but it is vital to maintaining [mental health](/handbook/company/culture/all-remote/mental-health/). It is also a core part of the creative process.
 
-It is important to take time off to recharge batteries and refresh the mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
+It is important to take time off to recharge batteries and refresh mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
 
 This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
@@ -22,18 +20,14 @@ If you are taking Parental Leave, please see our [Parental Leave Policy](/handbo
 
 ## A GitLab Team Member's Guide to Time Off
 
-A support engineer remarked that "In the 3 months I've been at GitLab, I've taken more time off than the last 2 years at my previous job."
-
-Another great example of taking time off is a GitLab team member taking a day to do some spring cleaning. Vacations don't have to be trips to exotic places, but instead could be taking some time for oneself at home.
-
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
-Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days]({{< ref "family-and-friends-day" >}}). When accounting for in [Time Off by Deel](#time-off-by-deel), please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).
+Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days]({{< ref "family-and-friends-day" >}}). When accounting for time off in Workday, please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).
 
-As we all work remotely it can sometimes be difficult to know when and how to plan time off. Here is some advice and guidance on how this can be done in an easy and collaborative way. **Please note that for audit and compliance purposes, all team members are required to use [Time Off by Deel](#time-off-by-deel) as the single source of truth to accurately track and communicate all time off.**
+As we all work remotely it can sometimes be difficult to know when and how to plan time off. Here is some advice and guidance on how this can be done in an easy and collaborative way. **Please note that for audit and compliance purposes, all team members are required to use Workday as the single source of truth to accurately track and communicate all time off.**
 
 {{< note >}}
-Time off by Deel should not be used if working but working asynchronously. Instead, please follow the [communicating your async work days](/handbook/company/culture/all-remote/asynchronous/#communicating-your-async-work-days) section of the asynchronous handbook.
+Entering time off in Workday is not necessary if working but working asynchronously. Instead, please follow the [communicating your async work days](/handbook/company/culture/all-remote/asynchronous/#communicating-your-async-work-days) section of the asynchronous handbook.
 {{< /note >}}
 
 1. As of 2022-05-01, we've created a Flexible PTO policy to better outline communication expectations for team members and managers. This means that:
@@ -43,7 +37,7 @@ Time off by Deel should not be used if working but working asynchronously. Inste
     - What we care about are your results, not how long you work, but we require managers to ensure that appropriate coverage is in place for their team. This requires managers to assess all PTO against team deliverables.
     - Note that your manager is required to ensure that your PTO does not impact business results disproportionately and as such may request that you modify your dates when necessary.
     - When asking for PTO plans to be adjusted, managers are required to specify the goal or result that may be impacted by planned PTO and share how time off may interfere with that result or goal. Managers will be given the guidance that any requested changes they ask a team member to make need to be shared within 48 hours of the team member originally sharing their PTO plans. If there isn't a compromise that can be reached, the team member and manager should escalate to the manager's manager.
-    - At GitLab, team members are required to enter all days away (such as PTO, public holidays, Family & Friends Days, bereavement) in [Time Off by Deel](#time-off-by-deel). It creates an event, captures your out-of-office dates in Workday, and notifies your manager.
+    - At GitLab, team members are required to enter all days away (such as PTO, public holidays, Family & Friends Days, bereavement) in Workday. It creates an event, captures your out-of-office dates, and notifies your manager.
     - If your planned leave exceeds the 25 calendar days (including weekends and holidays), please make sure to reach out to your Manager, relevant [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division), and the Absence Management Team at `leaves@gitlab.com` for a special request. You will need additional permission if you want to take more than 25 consecutive calendar days (including weekends and holidays) off. The 25 calendar day limit is per vacation, not per year. You can have multiple vacations per year that add up to more than 25 calendar days in total; there is no limit to this.
     - If you're gone for 72 hours without notification, this could be deemed as [Job Abandonment](/handbook/people-policies/#job-abandonment).
     - It can be helpful to take longer breaks to re-energize. If this is helpful to you, we strongly recommend taking at least two consecutive weeks of time off and at minimum 25 days total throughout the year.
@@ -57,10 +51,10 @@ Time off by Deel should not be used if working but working asynchronously. Inste
 1. GitLab also encourages you to use your leave for jury duty, bereavement leave, or other needs. You are not expected to work during this time off, but we recommend following the guidance under [Communicating Your Time Off](#communicating-your-time-off) when these situations arise.
 1. GitLab also encourages you to take time off to vote, volunteer at the polls or volunteer in your community.
 1. It's important to take PTO while you have something you *want* to do – taking a mental health day, for example – rather than waiting until you *need* the time off.
-   - When taking PTO for a mental health day, please select the `🌴 Vacation` option in Time Off by Deel.
+   - When taking PTO for a mental health day, please select the Paid Time Off label in Workday.  If you'd like to add additional details, you can select Vacation from the drop down 'reason' menu, or add comments.
 1. GitLab runs as usual during regional official days off (including public or statutory holidays): we still help clients during those days, unless they are official days off in both the Netherlands *and* the U.S. On those days, only vital functions (such as incident remediation, emergency on-call, and customer support during [GitLab Global Support Hours](https://about.gitlab.com/support/#hours-of-operation) and [US Federal Support Hours](https://about.gitlab.com/support/us-government-support/#hours-of-operation)) will be staffed. If you need to work during an official day off in your country, you should take a different day off in return.
 1. Please also remember to turn on your out of office message and include the contact details of a co-worker in case anything urgent or critical comes into your inbox while you're away. If you have to respond to an incident while on-call outside of your regular working hours, you should feel free to take off some time the following day to recover and be well-rested. If you feel pressured to *not* take time off to rest, refer to this part of the handbook and explain that you had to handle an incident.
-1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, please email `leaves@gitlab.com` with your specific request and the Absence Management Team will complete your request, per the [instructions](#instructions-for-people-ops-and-total-rewards-to-update-time-off-by-deel-events). Events can only be changed after the Time Off by Deel event has completed itself.
+1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, log into Workday and correct the entry. Events can only be changed within 30 days of the intial request.
 
 ### Holidays
 
@@ -69,21 +63,21 @@ Time off by Deel should not be used if working but working asynchronously. Inste
     1. Select your country of residence
     1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
-We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Time Off by Deel.  For any questions related to holidays or how to categorize time off please reach out to `leaves@gitlab.com`.
+We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach out to `leaves@gitlab.com`.
 
 1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a PTO category, and in the section `What is this OOO for?` please clarify that this day is taken in lieu of the actual holiday date.
 
    ![picture-of-pto-ninja-OOO-request](/handbook/people-group/paid-time-off/pto_ninja_OOO.png)
 
-1. Please note that Public Holidays will be listed in Time Off by Deel with a Length of 0 days (0 hours).
+1. Please note that Public Holidays will be listed in Workday with a Length of 0 days (0 hours).
 
 ### Communicating Your Time Off
 
 Communicate broadly when you will be away so other people can manage time efficiently, projects don't slip through the cracks, and so that you don't get bothered while away.
 
-1. You should add the time off using [Time Off by Deel](#time-off-by-deel) in Slack. Please use the following syntax which uses the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date notation in order to avoid confusion: `OOO from YYYY-MM-DD to YYYY-MM-DD, please contact XXX for assistance`.
-    - Time Off by Deel will automatically add this time to BambooHR and as a busy event on your Google Calendar. Your manager will also receive a free event on their calendar.
-    - When your time off starts, Time Off by Deel will automatically update your Slack status to communicate your time off. This will prevent you from appearing in [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
+1. Please use the following syntax which uses the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date notation in order to avoid confusion: `OOO from YYYY-MM-DD to YYYY-MM-DD, please contact XXX for assistance`.
+    - Workday will automatically add this time to Time Off by Deel and as a busy event on your Google Calendar. Your manager will also receive a free event on their calendar.
+    - When your time off starts, Time off by Deel will automatically update your Slack status to communicate your time off. This will prevent you from appearing in [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
 1. As outlined above, it's expected that you provide your manager and team members who may expect to work with you with as much advanced notice as possible about your planned time off. You should give other team members advanced notice that is at least twice as many days as the time that you plan to take off. For example, if you plan to take 3 days off, you should let other team members know **at least** 6 business days before.
 1. Add an out of office automated response including the dates you plan to be away in your automated response.
 1. Consider using [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you're out of office") to create an out of office event that will automatically decline new and existing meetings for you.
@@ -107,7 +101,7 @@ Communicate broadly when you will be away so other people can manage time effici
         1. "Comments by covering team member" - Very useful to asynchronously get updates quickly when you return from your PTO.
         1. Pro tip: Use color codes (e.g. green, red) and symbols (e.g. ✅, ❗️) to let others easily & quickly identify most important entries.
             - Please don't use colors only as people with [color blindness](https://www.mayoclinic.org/diseases-conditions/poor-color-vision/symptoms-causes/syc-20354988) may not be able to distinguish between them
-    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule mesages in slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
+    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
         - > Hey team, just a reminder that I'm out today.  Please take a look at my open tickets. Thanks!
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
 1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
@@ -122,7 +116,7 @@ Communicate broadly when you will be away so other people can manage time effici
 
 ### Communicating Time Off for Emergency Situations
 
-Emergencies, by definition, are unexpected. They can range from natural disasters, terrorist events, accidents, family deaths, hospitalization and any other unexpected situation. During these times we ask team members to use their best judgement as well as listen to and adhere to public safety officials when possible. If an unexpected emergency occurs please contact your manager via Slack or email as soon as possible if you will be unavailable or unable to work. This will allow your manager to confirm your safety and reassign any critical work during your absence. Please make sure you've added at least one emergency contact in Workday. We will only contact your emergency contact if we are unable to reach you via Slack, email or phone. We also recommend that if you are able, to use the `Public Emergency` OOO category in Time Off by Deel.
+Emergencies, by definition, are unexpected. They can range from natural disasters, terrorist events, accidents, family deaths, hospitalization and any other unexpected situation. During these times we ask team members to use their best judgement as well as listen to and adhere to public safety officials when possible. If an unexpected emergency occurs please contact your manager via Slack or email as soon as possible if you will be unavailable or unable to work. This will allow your manager to confirm your safety and reassign any critical work during your absence. Please make sure you've added at least one emergency contact in Workday. We will only contact your emergency contact if we are unable to reach you via Slack, email or phone. We also recommend that if you are able, to use the `Public Emergency` OOO category in Workday.
 
 ### Returning from PTO
 
@@ -152,7 +146,7 @@ In keeping with our values of [CREDIT](/handbook/values/), we have crafted the f
 
 *Team members in France, Netherlands, and U.S, please read specific reporting procedures below.
 
-All team members, regardless of the duration of sick time, are required to notify GitLab of their absence.  Team members must notify their Manager, first, and then enter the time away in Time Off by Deel by selecting the label `Out Sick`.  If your sick time extends beyond 5 days, or less per your country's [statutory sick time reporting requirements](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits), team members are required to notify the Absence Management Team (leaves@gitlab.com) first, and then enter the time away into Time Off by Deel.
+All team members, regardless of the duration of sick time, are required to notify GitLab of their absence.  Team members must notify their Manager, first, and then enter the time away in Workday by selecting the label `Out Sick`.  If your sick time extends beyond 5 days, or less per your country's [statutory sick time reporting requirements](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits), team members are required to notify the Absence Management Team (leaves@gitlab.com) first, and then enter the time away into Workday.
 
 **Continuous Time Away (in excess of 5 days or more), or Non-Continuous if related to the same illness:**
 
@@ -162,9 +156,9 @@ We understand some team members may need additional time away to care for a sick
 
 **Non-Continuous Absences or absences less than 5 continuous days:**
 
-If you or a loved one is ill, we want you to take care of yourself or your loved one(s). To facilitate this, you should take sick time when you need it, but you still need to report when you take sick time by notifying GitLab first and then entering the dates in [Time Off by Deel](#time-off-by-deel) by selecting the label `Out Sick`.
+If you or a loved one is ill, we want you to take care of yourself or your loved one(s). To facilitate this, you should take sick time when you need it, but you still need to report when you take sick time by notifying GitLab first and then entering the dates in Workday by selecting the label `Out Sick`.
 
-- Once entered in Time Off by Deel, your sick time will be automatically updated in BambooHR and payroll can note and update any other systems if needed.
+- Once entered in Workday, your sick time will be automatically updated in Time Off by Deel.
 
 If you end up more than 5 consecutive calendar days, or 5 non-continuous calendar days related to the same illness, please follow the instructions in the [Communicating Illness-Related Leave](#communicating-illness-related-leave) section.
 
@@ -180,7 +174,7 @@ In the United States, team members may experience a qualifying condition under t
 Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/):
 
 - Team members must notify their manager of any sick leave needed.
-- Team members must then enter the sick time via Time Off by Deel as aligned above.
+- Team members must then enter the sick time via Workday as aligned above.
 - If the sick leave extends 8 days it should be reported to the Absence Management team via `leaves@gitlab.com` by the Manager and team member (if able).
 - If team members are reporting multiple instances of sick leave in a 28 day timeframe, please reach out to the Absence Management team.
 - Once the Absence Management team has been notified of the sick time they will inform HRSavvy.
@@ -214,92 +208,25 @@ The Absence Management Team will keep a log of all accommodation requests. What 
 
 ### Communicating with team members while they are leave of absence
 
-For team members who are on paid or unpaid leave of absence like [parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), [short or long-term disability](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#group-long-term-and-short-term-disability-insurance), or [other approved leaves](#unpaid-leave-of-absence) there is no expectation that work would be accomplished during this time. Team members should use their approved paid or unpaid leave as an opportunity to focus on their health and well being. For managers it is important that you do not reach out to team members and ask them to complete work while on an approved leave of absence. An occasional quick call for a simple question is acceptable but these should be infrequent and simple requests that can be answered during that conversation.
+For team members who are on paid or unpaid leave of absence like [parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), [short or long-term disability](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#group-long-term-and-short-term-disability-insurance), or other approved leaves there is no expectation that work would be accomplished during this time. Team members should use their approved paid or unpaid leave as an opportunity to focus on their health and well being. For managers it is important that you do not reach out to team members and ask them to complete work while on an approved leave of absence. An occasional quick call for a simple question is acceptable but these should be infrequent and simple requests that can be answered during that conversation.
 
 We do understand that during extended periods of time off team members may still want to feel connected. We encourage team members at their discretion to maintain a social connection with their peers and team members. This is completely up to the team member on leave on how or if they want to remain connected while on leave of absence.
 
 For managers it is ok to reach out to a team member every 3-4 weeks to just to say hello. These conversations should remain social and avoid work related topics.
 
-## Unpaid Leave of Absence
+## Workday
 
-Details relating to Unpaid Personal Leave can be found on the [Leave of Absence page](/handbook/people-policies/leave-of-absence/).
+All team members and Managers, including those employed under a PEO, are expected to log all time away requests into Workday (Vacation, Public Holiday, Friends & Family, Sick Time, etc.)
 
-## Time Off by Deel
+As of October 1, 2024, Workday and Workday Slack will be the primary point of entry for all time away needs.  This allows team members and managers to coordinate time off seamlessly.  The integration between Workday and Time Off by Deel will still be available, but all data will feed from Workday into Time Off by Deel; retaining Deel's functionality (reminds employees of their upcoming time off, assign roles and tasks for co-workers, Google Calendar synronization, and automatic OOO updates).
 
-All team members and Managers, including those employed under a PEO, are expected to log all time away requests into Time Off by Deel (Vacation, Public Holiday, Friends & Family, Sick Time, etc.)
+GitLab team member questions about Workday can be directed to the HelpLab portal.
 
-[Time Off by Deel](https://www.deel.com/engage/pto) allows team members and managers to coordinate time off seamlessly with intuitive Slack commands. The integration from Slack and BambooHR automatically monitors PTO balances and takes action; Time Off by Deel will automatically add any time off taken for sick and vacation accruals to BambooHR. Time Off by Deel also reminds employees of their upcoming time off and helps them assign roles and tasks for co-workers, giving all parties involved greater alignment and peace of mind.
-
-[Time Off by Deel Training Video](https://vimeo.com/469045356)
-
-Please be aware that new team members' Time Off by Deel accounts are activated and synced automatically once a day, so if you try to access Time Off by Deel on your first day and receive an error message, please attempt to access Time Off by Deel on Day 2. If you still receive an error message, let your assigned People Connect Team member know in your onboarding issue.
-
-GitLab team member questions about Time Off by Deel can be directed to the HelpLab portal.
-
-### Slack Commands
-
-- `/time-off-deel ooo` Create an OOO event.
-- `/time-off-deel whosout` See upcoming OOO for everyone in the channel where this command is used.
-- `/time-off-deel @username`  Check if a particular person is OOO and if they are, see which of your co-workers are covering for them.
-- `/time-off-deel @usergroup` See upcomming OOO for everyone on the particular user group.
-- `/time-off-deel feedback` This is your direct line to support. At any time, use this command to report bugs or share your thoughts on how the product can be improved or what's working well.
-- `/time-off-deel help` A top-level look at Time Off by Deel items that you may need help with, and how to receive help.
-
-### Home Tab
-
-You can find the Home Tab by visiting `Apps` in the menu bar within Slack, and search for or select Time Off by Deel. From the Home Tab you  can do the follwoing.
-
-- View your OOO dashboard to edit, add or remove OOO events.
-- Modify your profile and calendar settings.
-- Opt-in and out for reminders, including monthly messages prompting you to consider what PTO you may take this month.
-
-### Time Off by Deel / BambooHR Time Off Sync
-
-It should be noted that the sync between Time Off by Deel and BambooHR will only take place after an PTO event has taken place. BambooHR cannot see scheduled/future PTO events.
-
-- The **Vacation** OOO type in Time Off by Deel syncs to **Employee Accruals** in the team members Time Off tab in BambooHR.
-- The **Public Service / Volunteer** OOO type in Time Off by Deel syncs to **Employee Accruals** in the team members Time Off tab in BambooHR.
-- The **Public Emergency** OOO type in Time Off by Deel syncs to **Employee Accruals** in the Team Members Time Off tab in BambooHR.
-- The **Out Sick** OOO type in Time Off by Deel syncs to **Sick Time** in the team members Time Off tab in BambooHR.
-- The **Parental Leave** OOO type in Time Off by Deel syncs to **Parental Leave** in the team members Time Off tab in BambooHR.
-- The **Public Holiday**, **Bereavement**, **Mandatory Civilian Service**, and **Family and Friends Day** OOO types in Time Off by Deel **do not sync** to BambooHR.
-
-### Communicating Other Status Using Time Off by Deel
-
-Other OOO options include:
-
-| Type of OOO                 | PTO?  | Slack Status  |
-|-----------------------------|-------|---------------|
-| Mandatory Civilian Service  | No    | Unavailable   |
-| Family and Friends Day      | No    | Unavailable   |
-| Conference                  | No    | Unavailable   |
-| Customer Visit              | No    | Unavailable   |
-| Jury Duty                   | No    | Unavailable   |
-| CEO Shadow Program          | No    | Unavailable   |
-
-These other types of OOO categories do not count as PTO. These categories are an easy way to correctly track your time and communicate your status without manually updating both your calendar and your Slack status. If you prefer to do it manually, that's ok too. If you are called for Mandatory Civilian Service or Jury Duty, please notify your manager and team, as there may need to be added support for your tasks if your service is for a longer length of time.
-
-### Unable to access Time Off by Deel
-
-If you receive an error message **"Uh-oh! It doesn't look like you have access to Time Off by Deel"** please attempt the following steps.
-
-1. Check to see if your email address (GitLab) in your slack profile matches your email address in BambooHR -  it is important to note in this instance that BambooHR is case sensitive and that the addresses must match exactly.
-1. If these two are not the same exact email then the application will not recognize you as a team member.
-    - Update your Slack email - OR -
-        - Click on your image in the right corner of Slack
-        - Select `View Profile`
-        - Select the `More ...` Option
-        - Select `Account Settings`
-        - Select Email and follow the sets to change your email address.
-    - Update your BambooHR email by logging into BambooHR - selecting the personal tab and scroll to the bottom. Update the Work Email field with the correct email address.
-1. Once these two emails match, it will take a few hours for the sync to catch up to the change.
-1. If these two are the same, please reach out in HelpLab.
-
-### Additional Features
+### Workday to Time Off by Deel Synronization
 
 #### Google Calendar Sync
 
-Time Off by Deel allows you to sync time off requests with your Google Calendar.
+Workday time away entries will flow into Time Off by Deel allowing you to sync time off requests with your Google Calendar.
 
 A calendar invite will also be sent to your manager to help them keep track of their team's time away. This event will always be based on the calendar date and will not adjust for timezones. If you are a manager with team members in varying timezones, you may end up with calendar invites that do not accurately reflect the actual time away. As a manager, you can simply decline the calendar invite and manually create a correct entry on your own calendar without affecting the actual time off request.
 
@@ -311,29 +238,16 @@ Time Off by Deel can automatically set your OOO status in Slack and apply "Do No
 
 #### Roles and Task Handoffs
 
-Time Off by Deel provides an experience that allows you to set roles and tasks for co-workers while
+Time off by Deel provides an experience that allows you to set roles and tasks for co-workers while
 you're away. Accepted roles then become a part of a Slack away message that appears as
 co-workers try to tag you in discussions while you're OOO.
 
 Before assigning a `#channel` to a role, please ask for permission to do so in that channel.
 Especially in large channels and during popular vacation times, PTO's role reminders could create a lot of noise, so some teams may recommend against them until there is an option to allow turning off the PTO notifications.
 
-#### Bulk Add holidays
-
-{{% alert title="Note" color="primary" %}}
-It is worth considering the impact to your role/team before bulk adding regional holidays to your time off by Deel app. Many functions of GitLab necessitate coverage on holidays and if your team is region-centric you may want to opt to take alternative days off instead of the official regional holiday in order to provide coverage for others who are observing.
-{{% /alert %}}
-
-You can bulk add holidays based on your region and then modify them manually if needed. Any Public Holidays added to Time Off by Deel in your dashboard will not auto-set an OOO event for you, you will still need to create an OOO event if observing that holiday. To add a Public Holiday, follow the below instructions.
-
-- Visit `Apps` in the menu bar within Slack, and search for or select Time Off by Deel
-- Choose `Holidays` from the dropdown menu
-- Choose the desired year
-- Click on `Bulk Add By Region`
-
 #### Monthly reminder to consider taking PTO
 
-We get it — life gets busy. So busy, in fact, that you may need a little nudge to consider taking time off to recharge. Time Off by Deel allows you to subscribe (and unsubscribe) to a monthly prompt, sent on the first *working* day of each month, reminding you to pause and think about time away from work and prioritizing [mental health](/handbook/company/culture/all-remote/mental-health/).
+We get it — life gets busy. So busy, in fact, that you may need a little nudge to consider taking time off to recharge. Time off by Deel allows you to subscribe (and unsubscribe) to a monthly prompt, sent on the first *working* day of each month, reminding you to pause and think about time away from work and prioritizing [mental health](/handbook/company/culture/all-remote/mental-health/).
 
 The reminder will read as follows.
 
@@ -344,95 +258,59 @@ To subscribe or unsubscribe, follow the below instructions and [see an associate
 - Visit `Apps` in the menu bar within Slack and search for or select `Time Off by Deel`
 - On the application's `Home` tab, select `Notifications` from the dropdown
 - Beneath the dropdown, you'll see a line that says "Send me a monthly reminder about taking time off." Click the **Subscribe** button to trigger the notification, which will begin on the first *working* day (e.g. not a weekend or a public holiday) in the month following your subscription.
-- To unsubscribe, revisit Time Off by Deel within Slack Apps and click the button that says **Unsubscribe**.
+- To unsubscribe, revisit Workday within Slack Apps and click the button that says **Unsubscribe**.
 
 ##### Checking "Who's Out?"
 
 Considering GitLab has a [flexible time off policy](#a-gitlab-team-members-guide-to-time-off), it is helpful to know who else on your team is out of office prior to requesting time. In order to see who is out of your team, follow the steps below:
 
-- Go to the Time Off by Deel application in Slack
+- Go to the Time off by Deel application in Slack
 - In the `Home` section, select `Who's Out?` from the dropdown list
 - Click `new search` to view who is out by `#channel`, `@usergroup`, or `@username`
 
-#### Requesting and documenting new Time Off by Deel features
+#### Requesting and documenting new Workday features
 
-You can request a new Time Off by Deel feature by using the aforementioned `/time-off-deel feedback` command in Slack. If you receive feedback from the Time Off by Deel team, or a new feature is implemented, please document the discussion in [this GitLab issue](https://gitlab.com/gitlab-com/people-group/General/issues/285). You can also create an issue in the [People Group general project](https://gitlab.com/gitlab-com/people-group/General) and ping CEO Kevin Corliss `@pto-ninja` and CTO Doug Franklin `@doug17` for review.
+You can request a new Workday feature by using the aforementioned `/time-off-deel feedback` command in Slack. If you receive feedback from the Workday team, or a new feature is implemented, please document the discussion in [this GitLab issue](https://gitlab.com/gitlab-com/people-group/General/issues/285). You can also create an issue in the [People Group general project](https://gitlab.com/gitlab-com/people-group/General) and ping CEO Kevin Corliss `@pto-ninja` and CTO Doug Franklin `@doug17` for review.
 
-### Instructions for People Ops and Total Rewards to Update Time Off by Deel Events
+### Instructions for Team Members to update past events
 
-If a OOO event is in progress:
-
-1. People Specialist: In the Time Off by Deel app in Slack, in the Home tab, select the `override` option in Admin Tools and type the name of the team member you need to perform the override for.
-1. People Specialist: Select the team members name and find the OOO event in their history.
-1. People Specialist: Edit said entry.
-1. Total Rewards: No tasks are needed in BambooHR.
-
-If a OOO event has completed and synced to BambooHR:
-
-1. Total Rewards: Delete the relevant PTO entry from the team members BambooHR Time Off tab. People Connect Team members must contact Total Rewards to ask for their support here.
-1. People Connect Team: In the Time Off by Deel app in Slack, in the Home tab, select the `override` option in Admin Tools and type the name of the team member you need to perform the override for.
-1. People Connect Team: Select the team members name and find the OOO event in their history.
-1. People Connect Team: Delete said entry using the `[...]` overflow menu on the righthand side of the screen.
-1. People Specialist: Add a new OOO event(s) by clicking the +Add Event button.
-1. People Specialist: Monitor BambooHR for the next 24 hours to ensure that the corrected event synced successfully.
-
-To clarify, once the event has completed and synced to BambooHR, both the BambooHR and Time Off by Deel events have to be deleted for the new correct event to be saved to BambooHR.
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review.  Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.  
 
 ## Management's Role in Paid Time Off
 
 Managers have a duty to manage their direct reports well-being and ensure that time off is being taken. Sometimes, when working remotely from home, it can be hard to find a good work-life balance. It is also easy to forget that your team is working across multiple time zones, so some may feel obligated to work longer to ensure there is overlap. It is important that you check-in with your reports through one-to-ones, and if you think someone needs some time off, let them know they can do this.
 
-For audit and compliance purposes, managers are responsible for ensuring that their team members track and communicate all time off using [Time Off by Deel](#time-off-by-deel) as the single source of truth. Whether a team member is taking one day off, or 25+ calendar days off, all team members must use [Time Off by Deel](#time-off-by-deel).
+For audit and compliance purposes, managers are responsible for ensuring that their team members track and communicate all time off using Workday as the single source of truth. Whether a team member is taking one day off, or 25+ calendar days off, all team members must use Workday.
 
 For audit and compliance purposes, managers have a responsibility to be aware of their direct reports' [statutory time off policies](#statutory-vacation-requirements), as applicable in countries in which GitLab is the employer. Some countries require employers to ensure team members are taking time off, so it is recommended that managers review their direct reports' OOO time frequently, using the reports described in the section below. Managers do not need to understand the ins and outs of the policies; just that team member in specific country receives certain amount of days/year. The specifics of these policies (accrual maximums, rollover, accrual rates, etc) will still be managed within the People Ops team. Please feel free to reach out to `leaves@gitlab.com` with any questions.
 
 If you discover that multiple people in your team want to be off at the same time, see what the priorities are, review the impact to the business, and use your best judgement. Discuss this with your team so you can manage the time off together. It is also a good idea to remind your team to give everyone an early heads-up, if possible, about upcoming vacation plans. Reminders can be sent in Slack, shared on a team calendar, or noted during team meetings.
 
-If as a manager you are notified that your direct report has been incapacitated or unable to submit an OOO request in Time Off by Deel and needs to take time off, be it Sick Time or otherwise, please document this information, and relay it to the People Connect Team via HelpLab without disclosing private medical information in compliance with applicable privacy laws. The People Connect Team will submit an OOO request on the team members behalf and mark the reason as `Per Manager Name`, and save the email thread in the team members `Sickness` folder in Workday. This documentation will be unshared and will not contain any personal medical information.
+If as a manager you are notified that your direct report has been incapacitated or unable to submit an OOO request in Workday and needs to take time off, be it Sick Time or otherwise, please document this information, and relay it to the Absence Management Team via leaves@gitlab.com without disclosing private medical information in compliance with applicable privacy laws. The Absence Management Team will submit an OOO request on the team members behalf and mark the reason as `Per Manager Name`, and save the email thread in the team members profile in Workday. This documentation will be unshared and will not contain any personal medical information.
 
-### Time Off by Deel Manager Reporting
+### Workday Manager Reporting
 
-Reporting from the Time Off by Deel app helps managers:
+Reporting from Workday helps managers:
 
 1. Be sure their direct reports are taking enough PTO
 1. Review upcoming PTO of direct reports to make project management decisions and manage team member burnout
 
-Time Off by Deel sends an automated report to managers like the one below at the beginning of every month:
+Managers will have access to Time Away dashboards and other reports within Workday.  
 
-![example of auto PTO reports](automatic-pto-reports.png)
+#### How to use Workday data to support your team
 
-Managers can also access the **Reporting** view at any time by using the dropdown menu in the **Home** tab of the Time Off by Deel Slack app. Reports only show team members in their reporting tree - direct reports and below. When managers generate a report through the Time Off by Deel app, they select a time frame. That timeframe can be anything - YTD, this past week, the upcoming quarter, etc. The `Total` column will show what's taken/scheduled to be taken during the timeframe selected.
-
-![how to pull Time Off by Deel reports](pto-reports.png)
-
-More training materials for Time Off by Deel are found in the [Training & Kickoff Materials folder](https://drive.google.com/drive/folders/13GJGkLOtha_EtCAxBu7EGO13NCovaIcJ?usp=sharing) and the [Manager Overview document](https://docs.google.com/document/d/1Rxtlu4rwblUHZPrvi3gbhufR-fcLcwiOTNGaFBAjUxg/edit?usp=sharing).
-
-#### How to use Time Off by Deel data to support your team
-
-Understanding the PTO that teams have taken, and plan to take, helps managers have conversations about burnout and burnout management with their direct reports. Below are common scenarios faced by managers than can be supported using Time Off by Deel data.
-
-#### Discuss team member burnout
-
-1. Pull a report of PTO taken in the previous quarter
-1. Notice the kind of PTO that your team has taken. Consider the following questions and manager actions:
-    - How many vacation days did your team take? Remind team members to take time off of work to rest and recharge.
-        - How much sick leave did your team take? If you have a team member who has taken 5 or more consecutive sick days, or non-consecutive if related to the same illness, please contact the Absence Management Team at `leaves@gitlab.com` to address the next steps to take in line with applicable law.
-        - Did your team take days off for Family and Friends day? Remind team members to take off F&F day following the [documented policy]({{< ref "family-and-friends-day#im-in-a-role-which-requires-me-to-work-that-day-how-can-i-still-benefit-from-this-initiative" >}}) and labeling the time away as `Friends and Family` in Time Off by Deel.
-        - Has your team logged any local holiday time off? Remind team members to take off local holidays even if the rest of the team is working and labeling the time away as `Public Holiday` in Time Off by Deel.
-1. Use your 1:1s to check in with team members and make sure they are taking enough PTO.
+Understanding the PTO that teams have taken, and plan to take, helps managers have conversations about burnout and burnout management with their direct reports. Below are common scenarios faced by managers than can be supported using Workday data.
 
 #### Planning and decision making for future projects
 
-1. Pull a report of PTO planned for the upcoming quarter
+1. Review time away data planned for the upcoming quarter
 1. Use planned PTO to make decisions including
      - What does my team have capacity to achieve this quarter?
      - What weeks should I avoid scheduling key communication or planning?
      - What weeks are best to have synchronous team calls?
      - What weeks do I plan to take off, and how do those overlap with my team?
-1. If your team does not have any planned PTO when you run the report, consider sending a message or encouraging them in your next 1:1 to plan ahead to take PTO. Getting ahead of burnout is important and can be partially addressed with adequate rest.
-1. Confirm that you're getting calendar invitations for your direct reports PTO. This way, you can use your weekly and monthly calendar views to plan for your team. If you're not, ask your reports to add you following these steps:
-
-![how to pull Time Off by Deel reports](calendar-sync.png)
+1. If your team does not have any planned PTO, consider sending a message or encouraging them in your next 1:1 to plan ahead to take PTO. Getting ahead of burnout is important and can be partially addressed with adequate rest.
+1. Confirm that you're getting calendar invitations for your direct reports PTO.
 
 ### Supporting Team Members Taking Time Off
 
@@ -579,9 +457,7 @@ Team members are encouraged to review additional information on [working time in
 
 ### GitLab Canada Corp (Canada)
 
-GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws.
-
-#### GitLab Canada Corp observes provincial laws regarding vacation time and vacation pay. For more information, refer to the applicable employment standards legislation of the Province in which you reside
+GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
 - [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)
@@ -607,19 +483,3 @@ GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the se
 | Quebec Only | Less than 1 year - 1 day per full month of uninterrupted service, not to exceed 2 weeks; 1 year to less than 3 years - 2 consecutive weeks; 3 years or more - 3 consecutive weeks | 4% for first 3 years; 6% after 3 years |
 | Saskatchewan Only | 3 weeks after 1 year / 4 weeks after 10 years | 6% for the first 9 years, 8% after 9 years |
 | Ontario Only | 2 weeks after 1 year / 3 weeks after 4 years  | 4% for the first 5 years, 6% after 5 years |
-
-## Processing Vacation Requirements (People Ops Instructions)
-
-Review above section `Statutory Minimum Vacation Time` for questions around dates and amounts. Due to BambooHR's settings, it cannot automatically make some adjustments to the accruals. To keep these figures accurate we must perform some manual work.
-
-### GitLab BV (Netherlands)
-
-- In **January**, An [automation](/handbook/people-group/engineering/miscellaneous/#netherlands-accrual-adjustments) will run to ensure no team members are rolling over a negative balance.
-
-- In **June**, An [automation](/handbook/people-group/engineering/miscellaneous/#netherlands-accrual-adjustments) will run to ensure team member's PTO does not exceed 10 days in accordance with The Netherlands regulations.
-
-### GitLab BV (Belgium)
-
-- In **January**, People Ops will adjust any negative carryover back to zero for all accruals in BambooHR for the year.
-- Review the balance from December 31st of the previous year. If this balance is negative, move to the next step.
-- To do this, go to Time Off, Adjust Balance, and add the amount you determined in the previous step. Add a note "Adjustment to prevent negative rollover."

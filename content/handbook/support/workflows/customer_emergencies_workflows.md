@@ -267,11 +267,11 @@ As soon as the customer incident is resolved, mark the emergency ticket as solve
   - Be sure to let the customer know that follow up work will continue in this ticket.
 
 - **Option 2: There is no related ticket:**
-   1. Use a browser incognito window to create a new ticket via the [support portal](https://support.gitlab.com) (not via Zendesk itself). Use the customer email address in the "Your email address" field. Review the new ticket to ensure it is properly associated to the correct customer Organization.
+   1. Create a new ticket by following the steps provided in this doc [How can I open a new ticket on behalf of a customer?](/handbook/support/workflows/working-on-tickets/#how-can-i-open-a-new-ticket-on-behalf-of-a-customer).
    1. Let customer know in the ticket description that follow-up work will continue in this ticket.
    1. Add an internal comment linking to the (closed) emergency ticket.
    1. Add an internal comment in the emergency ticket, linking to this ticket as the follow-up ticket.
-   1. The new ticket will now be picked up by the round robin automation and assigned to an SGG, like any other ticket. Optionally, an engineer involved in the emergency can take ownership of the ticket instead.
+   1. Optionally, an engineer involved in the emergency can take ownership of the ticket.
 
 Why do follow up work in another ticket?
 
@@ -314,9 +314,9 @@ If you are still stuck *and* are having difficulty finding help, contact the [ma
 
 ### Triggering a Developer Escalation
 
-On rare occasions, you and the manager on-call may decide it's necessary to initiate the [developer escalation process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process) to get the needed developer input. Keep in mind that the developer who takes the escalation might not be familiar with the aspect of GitLab that is the focus of the emergency, and it can take them time to get up to speed.
+On rare occasions, you and the manager on-call may decide it's necessary to initiate the [developer escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process) to get the needed developer input. Keep in mind that the developer who takes the escalation might not be familiar with the aspect of GitLab that is the focus of the emergency, and it can take them time to get up to speed.
 
-To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline).
+To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
 ## License Emergencies
 
@@ -511,13 +511,19 @@ You can bulk edit tickets by:
 
 US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time for [severity one](https://about.gitlab.com/support/definitions/#severity-1) issues that arise with premium and ultimate customers who have purchased 12x5 US Gov support. Customers who have opted for the 24x7 ultimate for high and emergency coverage can page at any time.
 
-The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link), or in the [Support Team on-call page](https://gitlab-com.gitlab.io/support/team/oncall.html)(GitLab Employees only). The schedule is currently split into three, 8 hour shifts which roughly correlate with the dayshift, evening, and overnight team member hours:
+The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link). The schedule is currently split into three, 8 hour shifts which roughly correlate with the dayshift, evening, and overnight team member hours:
 
 - Dayshift: 05:00 - 13:00 PT
 - Evenings: 13:00 - 21:00 PT
 - Overnight: 21:00 - 05:00 PT
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
+
+### On-call Shift Coverage in US Government
+
+In the event that a Support Engineer needs coverage for a scheduled On-call shift, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template.
+
+Dayshift engineers needing coverage on a **non-holiday weekday** may give the shift to the Support Bot.  To do so, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template and mention your manager for review. After ensuring that the shift(s) in question do not fall on a weekend or holiday remove the override for your shift in PagerDuty and ensure it falls back to the bot user.
 
 ### Emergencies outside on-call hours
 

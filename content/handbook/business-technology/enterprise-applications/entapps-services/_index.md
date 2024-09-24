@@ -16,16 +16,7 @@ To provide frictionless, world class, Application Support Experience for the Git
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- **Carlo Curato - Director, Business Technology Operations** GitLab handle: [ccurato](https://gitlab.com/ccurato) Slack handle: @Carlo Curato
-- **Derek Isla - Manager, IT Compliance** GitLab handle: [disla](https://gitlab.com/disla) Slack handle: @Derek Isla
-- **Sarah Pang- Senior IT Compliance Engineer** GitLab handle: [sarahpang](https://gitlab.com/sarahpang) Slack handle: @Sarah Pang 
-- **Kavya Cheppudira Nanjappa - Associate IT Compliance** Engineer GitLab handle: [KavyaNanjappa](https://gitlab.com/KavyaNanjappa) Slack handle: @knanjappa
-- **David Kim - Business Technology Program Manager** GitLab handle: [dkim514](https://gitlab.com/dkim514) Slack handle: @David Kim
-- **Bien Balaba - Business Technology Service Desk Analyst** GitLab handle: [BienRCB](https://gitlab.com/BienRCB) Slack handle: @Bien Balaba
-- **Imran Khan- Senior IT Enterprise Applications Engineer** GitLab handle: [khan_imran](https://gitlab.com/khan_imran) Slack handle: @Imran Khan 
-- **Marc DiSabatino - Business Systems Analyst** GitLab handle: [marc_disabatino](https://gitlab.com/marc_disabatino) Slack handle: @Marc Di Sabatino
-- **Rey Manlangit- Associate IT Enterprise Applications Engineer** GitLab handle: [RManlangit](https://gitlab.com/RManlangit) Slack handle: @Rey Manlangit 
-- **Xander Liwanag - Business Technology Service Desk Analyst** GitLab handle: [xliwanag](https://gitlab.com/xliwanag) Slack handle: @Xander Liwanag
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/services-and-operations/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Our Services
 

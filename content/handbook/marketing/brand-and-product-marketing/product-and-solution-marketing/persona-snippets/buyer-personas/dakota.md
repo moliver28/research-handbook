@@ -4,13 +4,17 @@ title: "Dakota Persona snippets"
 
 ## SDR persona snippets by use case
 
-### [Dakota (App Dev Director)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#dakota---the-application-development-director)
+### Dakota (App Dev Director)
+
+[Dakota (App Dev Director)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#dakota---the-application-development-director)
 
 **Overview**
 
 - description
 
-#### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
+#### VC&C use case
+
+[VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
 
 ##### SDR Discovery Questions
 
@@ -20,7 +24,9 @@ title: "Dakota Persona snippets"
 
 - ...
 
-#### [CI use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas)
+#### CI use case
+
+[CI use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas)
 
 ##### SDR Discovery Questions
 
@@ -40,7 +46,9 @@ title: "Dakota Persona snippets"
 - GitLab comes with CI/CD built in so your teams can easily scale to changing needs and customer demands.
 - ...
 
-#### [CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
+#### CD use case
+
+[CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
 
 ##### SDR Discovery Questions
 
@@ -50,7 +58,9 @@ title: "Dakota Persona snippets"
 
 - ...
 
-#### [DevSecOps use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#personas)
+#### DevSecOps use case
+
+[DevSecOps use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#personas)
 
 ##### SDR Discovery Questions
 

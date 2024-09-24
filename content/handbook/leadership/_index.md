@@ -194,7 +194,7 @@ Folks who are escalating an issue should avoid surprising folks in the managemen
 
 There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
-After a team member escalates an issue, it is OK if they [disagree, commit, and disagree](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
+After a team member escalates an issue, it is OK if they [disagree, commit, and advocate](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
 
 ## Process gets a bad rep
 
@@ -204,13 +204,13 @@ But process also has good aspects. Having a documented process for how to commun
 
 ## Talent Acquisition and retention
 
-Managers have an tremendous responsibility around talent acquisition and [retention](/handbook/people-group/people-group-metrics/#team-member-retention) of team members.
+Managers have an tremendous responsibility around talent acquisition and [retention](/handbook/people-group/people-success-performance-indicators/#team-member-retention) of team members.
 
 - Voluntary departures should be low, especially unexpected ones. The most common reasons for resignations can be tied back to the manager.
 - We want few candidates to decline an offer, especially when the reason isn't compensation.
 - We need adequate candidate pipeline volume and quality, especially for crucial positions.
 - Candidates that have a proposed offer should meet the bar, especially for more senior positions.
-- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab) and the [Location Factor KPI](/handbook/people-group/people-group-metrics/#average-location-factor).
+- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab) and the [Location Factor KPI](/handbook/people-group/people-success-performance-indicators/#average-location-factor).
 
 ## High Output Management
 
@@ -272,7 +272,7 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 ## Articles
 
-1. [Carta's Manager's FAQ](https://readthink.com/a-managers-faq-35858a229f84)
+1. [Carta's Manager's FAQ](https://medium.com/eshares-blog/a-managers-faq-35858a229f84)
 1. [Carta's How to hire](https://carta.com/blog/how-to-hire/)
 1. [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
 1. [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
@@ -290,7 +290,7 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 ## Books
 
-Books in this section [can be expensed](/handbook/spending-company-money).
+Books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
 Notable books from the [E-Group Offsite Book Selections]({{< ref "offsite#previous-reads" >}}) may be added to the list below.
 

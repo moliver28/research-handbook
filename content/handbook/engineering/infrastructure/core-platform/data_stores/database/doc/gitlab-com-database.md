@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/gitlab-com-database.html
 title: Working with the GitLab.com database for developers
 ---
 
@@ -21,7 +20,7 @@ There are a couple ways to directly access the database for developers:
 
 This is the most straight forward type of access: You'll have access to a psql console to an actual replica of the database (which typically serves live traffic). The console will be read-only and a 15s statement timeout must be adhered to.
 
-How to get access: File an [access-request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *production database console access* (role: `db-console`)
+How to get access: File an [access-request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *production database console access* (role: `db-console`)
 to receive permanent SSH access, or [use Teleport to request temporary access](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Database_Console_via_Teleport.md) (Recommended).
 See below for setting up SSH access.
 
@@ -29,13 +28,13 @@ See below for setting up SSH access.
 
 In this case, you'll have access to a psql console to the "archive" replica. This is a replica of the database which does not serve live traffic and is prepared to be used in a rather "exploratory" fashion (suitable for rather analytical queries, too). The console access is read-only and a 15 minute statement timeout applies. You can verify this by going db console and issuing `show statement_timeout`  command.
 
-How to get access: File an [access-request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *console access to the archive database in production* (role: `db-console-archive`). See below for setting up SSH access.
+How to get access: File an [access-request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *console access to the archive database in production* (role: `db-console-archive`). See below for setting up SSH access.
 
 ##### Rails console access
 
 A Rails console can be used to access the database, too. Use with extreme care as this is typically a read-write console.
 
-How to get access: File an [access-request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *Rails console access in production* (role: `rails-console`)
+How to get access: File an [access-request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *Rails console access in production* (role: `rails-console`)
 to receive permanent SSH access, or [use Teleport to request temporary access](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Rails_Console_via_Teleport.md) (Recommended).
 See below for setting up SSH access.
 
@@ -82,9 +81,9 @@ ssh gprd-psql-archive # opens a psql console on a replica
 
 #### DatabaseLabs
 
-##### Use postgres.ai to work with a thin clone of the database (includes direct psql access to the thin clone)
+##### Use postgres.ai to work with a thin clone of the database with psql
 
-We have access to postgres.ai which gives us the ability to work with a thin clone of the database. This has the benefit of providing a fully isolated read-write database for a single user. Thin clones are inexpensive to create and can be used and destroyed as needed.
+We have access to postgres.ai which gives us the ability to work with a thin clone of the database. This has the benefit of providing a fully isolated read-write database for a single user. Thin clones are inexpensive to create and can be used and destroyed as needed.  This includes direct psql access to the thin clone.
 
 With the extended setup, you'll be able to use a psql console on a thin clone, too. This is the most flexible way of working with the database, as this even allows you to e.g. create new tables (e.g. for intermediate results) as needed.
 
@@ -107,7 +106,7 @@ Please reach out to `#database` on Slack and consider adding to this page afterw
 Various Product and Engineering processes are available to advocate database improvements that may not fit anywhere in the feature development roadmaps.
 
 1. Leverage the [Planning as a team](https://gitlab.com/gitlab-com/Product/-/issues/2185)
-According to [this finding](https://gitlab.com/gitlab-org/gitlab/-/issues/326555#note_563868873), more than 50% of known query performance issues were identified long time ago. Leverage the `planning as a team` to prioritize these issues with Product. The process is being implemented by [Introducing Error Budgets to Stage Groups](/handbook/product/performance-indicators/#other-pi-pages).
+According to [this finding](https://gitlab.com/gitlab-org/gitlab/-/issues/326555#note_563868873), more than 50% of known query performance issues were identified long time ago. Leverage the `planning as a team` to prioritize these issues with Product. The process is being implemented by [Introducing Error Budgets to Stage Groups](https://internal.gitlab.com/handbook/company/performance-indicators/product/#other-pi-pages).
 1. Follow the intructions in [Prioritize technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) when collaborating with Product in release planning, which also mirrored in the [Product handbook page](/handbook/product/product-processes/#prioritization).
 1. Consider [Engineering Allocation](/handbook/engineering/#engineering-allocation) for tech-debt issues, which is also mirrored in the [Product handbook](/handbook/product/product-processes/#engineering-allocation).
 1. Keep the [Architecture](/handbook/engineering/architecture/) process in mind when running into large scale fundamental design challenges.

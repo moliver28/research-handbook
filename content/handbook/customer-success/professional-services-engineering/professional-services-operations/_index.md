@@ -127,7 +127,7 @@ For FP projects, revenue is released when customer acceptance is received or pas
 The PM sends out the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata.  When sending out the acceptance email, the PM should copy the Operations Manager and the assigned Project Coordinator.  When counting the passive acceptance days, day 1 would be the date the notification is sent, from the date sent then business days is calculated for the passive acceptance.
 
  The PM is responsible for updating the following for the project milestone in Kantata:
- 
+
 - Update custom field, _Sign Off Sent_, when email request is sent
 - Update custom field, _Sign Off received_, when acceptance is received or Passive Acceptance is reached. and add the PDF email of acceptance to the Milestone
 - Update custom field, _Passive Acceptance Utilized for Sign Off_, if passive acceptance is utilized
@@ -325,7 +325,7 @@ Internal projects are set up to track internal time that is not customer project
 
 Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/Onsite-Travel-and-Expenses) for more information on onsite travel and expense processes.
 
-If there are other questions in regards to the GitLab Travel policy, refer to the [Travel Handbook Page](/handbook/travel/).
+If there are other questions in regards to the GitLab Travel policy, refer to the [Travel Handbook Page](/handbook/finance/travel/).
 
 ### Kantata Project Status/ Colors
 
@@ -498,7 +498,7 @@ CURRENT PROCESS VIA COUPA:
   - _New Epic_
     - Title - `Customer Name` Customer Project Epic
     - Description - copy and paste description markdown from the original epic (current in the other browser tab)
-    - _Create epic_ 
+    - _Create epic_
   - Put the url of the new epic in the copy paste buffer for use below
 - For each issue in the to-be-recreated epic:
   - Browse to the issue

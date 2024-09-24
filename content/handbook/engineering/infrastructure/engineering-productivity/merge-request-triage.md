@@ -110,7 +110,7 @@ A merge request is considered completely triaged when it:
 
 - is closed following the [closing policy for merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership).
 
-This triage process is being done manually on a case-by-case basis by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community) or the relevant [code owner](https://docs.gitlab.com/ee/user/project/code_owners.html).
+This triage process is being done manually on a case-by-case basis by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community) or the relevant [code owner](https://docs.gitlab.com/ee/user/project/codeowners/).
 
 ### Wider community merge request triage SLOs (`gitlab-com/www-gitlab-com`)
 

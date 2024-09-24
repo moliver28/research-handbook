@@ -43,7 +43,7 @@ At a high level, the Release post schedule is:
 - **TW Reviewers** finish review of Features, Deprecations, Removals, Upgrades, and Extras
 - **PMMs, Product Design Managers, Product Designers, and PM Leaders** do optional reviews of release post item MRs
 - **EMs**:
-  - Merge feature release post item MRs if the underlying code was merged *before* the Thursday, 1 week before release
+  - Merge feature release post item MRs if the underlying code was merged by the Thursday, 1 week before release
   - Merge feature release post item MRs if manually verified to be in the release
     - MRs can be manually verified using the `/chatops run release check <MR URL> <RELEASE>` chatops command
 - **TW Reviewers** merge deprecation and removal MRs
@@ -256,7 +256,7 @@ Keeping an eye on the various content reviews (TW, PMM, and Director) for the in
 
 The review and any needed adjustment to the ordering of secondary features due to stakeholder feedback is the responsibility of the Release Post Manager. Secondary features, removals, and upgrade notes are all sorted alphabetically by title, grouped by stage. To affect the sort order of the secondary features, a change to the content block's `title` is required. The Release Post Manager should work with the product managers of the content blocks to make these changes, to ensure accuracy and alignment.
 
-After the Review App for the release post has been generated, the Release Post Manager solicits additional feedback from the [product leaders](/handbook/product/product-leadership/#product-leadership-team-structure) via Slack in the #release-post channel.
+After the Review App for the release post has been generated, the Release Post Manager solicits additional feedback from the [product leaders](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) via Slack in the #release-post channel.
 
 It is the Release Post Manager's responsibility to make sure all content is completed by the Tuesday of release week, ensuring a one day buffer is left for final error fixes and small improvements.
 
@@ -345,15 +345,12 @@ The generator will not create an MR for a confidential issue. To add a release p
 
 ### Content
 
-Be sure to reference your Direction items and Release features. All items which appear
+We want to help people understand new features to increase adoption their adoption. In general, release posts should succinctly state the problem to solve, the solution, and how customers benefit from the solution. Be sure to reference your Direction items and Release features. All items which appear
 in our [Upcoming Releases page](https://about.gitlab.com/upcoming-releases/) should be included in the relevant release post.
-For more guidance about what to include in the release post please reference the [Product Handbook](/handbook/product/product-processes/#release-posts).
 
-When writing your content blocks, be sure to reference [Writing release blog posts](/handbook/product/product-processes/#writing-release-blog-posts) and [Writing about features](/handbook/product/product-processes/#writing-about-features) to ensure your release post item writeups align with how GitLab communicates. For example, we avoid formal phrases such as "we are pleased to announce" and generally speak directly to our users by saying "you can now do x" rather than "the user can now do x". Checking out the links to these guidelines will help you align our tone/voice as you write, ensuring a smoother and more speedy review process for your release post items.
+When writing your content blocks, be sure to reference [Writing about features](/handbook/product/product-processes/#writing-about-features) to ensure your release post item writeups align with how GitLab communicates. For example, we avoid formal phrases such as "we are pleased to announce" and generally speak directly to our users by saying "you can now do x" rather than "the user can now do x". Checking out the links to these guidelines will help you align our tone/voice as you write, ensuring a smoother and more speedy review process for your release post items.
 
 PM contributors are encouraged to use discretion if wanting to add new content blocks after the final merge deadline of the Thursday, 1 week before release, and especially after final content assembly happens at 8 AM PST (3 PM UTC). But if highly impactful features are released that can not wait till the next blog post, PMs should reach out and coordinate with the Release Post Manager. It is up to the discretion of the Release Post Manager to work with the PM to add more content blocks up until the Wednesday, day before release.
-
-Please make sure your feature maturity aligns with the [experiment, beta, and general availability guidelines](/handbook/product/gitlab-the-product/#experiment-beta-ga).
 
 #### Primary vs. secondary
 
@@ -401,17 +398,17 @@ To enable Engineering Managers to merge their feature blocks as soon as an issue
 
 After content block MRs are merged, they can be viewed on the [Preview page](https://about.gitlab.com/releases/gitlab-com/) and should be updated/edited via MRs to master up until the **final merge deadline of the Thursday, 1 week before release**. Starting on the Monday of release week, content block MRs should be viewed in the Review app of the release post branch after **final content assembly**, and updated/edited on the release post branch by coordinating with the Release Post Manager. From the [release date](/handbook/engineering/releases/) forward you should view the content blocks [on the blog](https://about.gitlab.com/releases/categories/releases/). It's important to check this page after the content block MR is merged because this page is LIVE to users and should be error free.
 
-### Adding, editing, or removing merged content blocks during [release week](/handbook/engineering/releases/) {#adding-editing-removing-before-release-date}
+### Adding, editing, or removing merged content blocks during release week {#adding-editing-removing-before-release-date}
 
-After the content assembly starts on the Monday of release week and before the end of Tuesday of release week, adding any new or removing any merged release post items **must be coordinated with the Release Post Manager**.
+After the content assembly starts on the Monday of [release week](/handbook/engineering/releases/) and before the end of Tuesday of release week, adding any new or removing any merged release post items **must be coordinated with the Release Post Manager**.
 
 This is necessary to allow them to assess the impact on the release post and coordinate any necessary adjustments with the release post team (Tech Writer, PM, etc.). Failure to do so might result in your changes not being picked into the release post.
 
 Before pinging the Release Post Manager, ask yourself if your content absolutely needs to be part of the current release post. At end-of-day on the Tuesday of release week, no late content blocks will be accepted.
 
-#### Requesting a late addition during [release week](/handbook/engineering/releases/) {#requesting-late-addition-before-release-date}
+#### Requesting a late addition during release week {#requesting-late-addition-before-release-date}
 
-- Ping the Release Post Manager (RPM) in `#release-post` to request adding a new late addition for the release post, and wait for the RPM to give confirmation to proceed. New late additions are release post items that were created after content assembly has already run. The Release Post Manager will do their best to accommodate the request, but it is not guaranteed.
+- Ping the Release Post Manager (RPM) in `#release-post` to request adding a new late addition for the [release post](/handbook/engineering/releases/), and wait for the RPM to give confirmation to proceed. New late additions are release post items that were created after content assembly has already run. The Release Post Manager will do their best to accommodate the request, but it is not guaranteed.
 - If the RPM approves the late addition, then PM and RPM will proceed by:
   - PM edits the release post item MR and updates the target branch to be on the release post `release-X-Y` branch.
   - PM [rebases](https://docs.gitlab.com/ee/topics/git/git_rebase.html#rebase-from-the-gitlab-ui) the release post item MR on top of `release-X-Y` branch.
@@ -429,9 +426,9 @@ Before pinging the Release Post Manager, ask yourself if your content absolutely
 - Either the Release Post Manager or the PM, with approval from the Release Post Manager, will remove YAML and image files from the `release X-Y` branch.
 - The PM will remove the feature from `features.yml` on master.
 
-### Adding, editing, or removing merged content blocks after the [release date](/handbook/engineering/releases/) {#adding-editing-removing-after-release-date}
+### Adding, editing, or removing merged content blocks after the release date {#adding-editing-removing-after-release-date}
 
-You can make changes to the release post after it's live to make edits to feature content blocks.
+You can make changes to the [release post](/handbook/engineering/releases/) after it's live to make edits to feature content blocks.
 
 To edit a content block:
 
@@ -704,7 +701,7 @@ The responsibilities of the Engineering Manager are documented in the
 
 ## Technical Advisors
 
-Each month, the Release Post Manager may need help with technical hurdles during the release post process. In order to provide the release post, which is a time-sensitive and highly visible asset for customers and users, with adequate technical advisement and support, we are piloting a partnership with the GitLab development team to leverage the [Dev Escalation process](/handbook/engineering/on-call/#development-team-on-call-rotation) via the Slack `#dev-escalation` channel as an extension. This ensures that at all times, if something breaks that the release post team can not resolve themselves, they have access to technical experts for resolution. It is recommended that technical advisors review the documented [technical aspects](/handbook/marketing/blog/release-posts/#technical-aspects) of the release post for reference, and the [escalation process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process).
+Each month, the Release Post Manager may need help with technical hurdles during the release post process. In order to provide the release post, which is a time-sensitive and highly visible asset for customers and users, with adequate technical advisement and support, we are piloting a partnership with the GitLab development team to leverage the [Dev Escalation process](/handbook/engineering/on-call/#development-team-on-call-rotation) via the Slack `#dev-escalation` channel as an extension. This ensures that at all times, if something breaks that the release post team can not resolve themselves, they have access to technical experts for resolution. It is recommended that technical advisors review the documented [technical aspects](/handbook/marketing/blog/release-posts/#technical-aspects) of the release post for reference, and the [escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process).
 
 Please note that unlike other monthly volunteers of the release post, the technical advisor is not expected to follow the release post process at all times. The Release Post Manager will reach out to the technical advisor on call via Slack in the `#dev-escalation` channel and then cross-post to the `#release-post` channel for transparency that issues are being worked on. It is then expected that the technical advisor will respond to the Release Post Manager or release post DRI as soon as possible, including evenings/weekends, as the release post asks are often time sensitive, **especially between the Monday of release week and the [release date](/handbook/engineering/releases/) of the month**. The technical advisor is responsible for determining if further dev escalation should proceed.
 
@@ -755,7 +752,7 @@ The Release Post Deployment is a critical and time-sensitive operation. Please r
 Following your best judgement with the following:
 
 - For minor incidents that can be recovered from your intervention alone or in concert with the Release Post Manager, do so while recording your diagnosis and the steps taken to resolve the incident so that we can improve the process and our preparedness. Deposit this info in a new issue or as part of the current release post retrospective.
-- For major incidents that require immediate assistance from an SRE, developer on call, or other team members with increased access rights, create an issue and follow the [dev escalation procedure](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process). Record the diagnosis and the steps taken to resolve so that we can improve the process and our preparedness. Deposit this info in a new issue or as part of the current release post retrospective.
+- For major incidents that require immediate assistance from an SRE, developer on call, or other team members with increased access rights, create an issue and follow the [dev escalation procedure](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process). Record the diagnosis and the steps taken to resolve so that we can improve the process and our preparedness. Deposit this info in a new issue or as part of the current release post retrospective.
 
 ## Incident Response
 
@@ -820,7 +817,7 @@ Should you prefer to continue to contribute to an issue under active development
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
   - Secondary features (#secondary-features)
-  - [Illustrations](#illustrations) (screenshots, gifs, or videos)
+  - [Illustrations](#illustrations) (screenshots, GIFs, or videos)
   accompanying their respective features
 - [UI improvements, performance improvements and bug fixes](#ui-improvements-performance-improvements-and-bug-fixes)
 - [Omnibus improvements](#omnibus-improvements) (added as a secondary feature)
@@ -1348,7 +1345,7 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
 - Each image should be compressed with [ImageOptim](https://imageoptim.com),
   [TinyPNG](https://tinypng.com/), or similar tool. You can also try [automation tools like Hazel or Automator](https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots/)
 - Each image should not surpass 150KB (300KB for cover
-  image), gifs included
+  image), GIFs included
 - [pngbot](https://gitlab.com/jramsay/pngbot) will compress PNG images added in
   merge request by converting each PNG to PNG 8 (8 bit, 256 colors) using
   [pngquant](https://pngquant.org) before losslessly compressing with
@@ -1378,9 +1375,9 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
     page load time significantly.
   - Screenshots throughout the post should be harmonic and consistent in terms
     of their size and quality.
-- **Animated gifs**:
-  - If a gif isn't necessary, replace it with a static image (.png, .jpg)
-  - If an animation is necessary but the gif > 300KB, use a video instead
+- **Animated GIFs**:
+  - If a GIF isn't necessary, replace it with a static image (.png, .jpg)
+  - If an animation is necessary but the GIF > 300KB, use a video instead
 - **Cover image**:
   Cover images for 16.x releases have been created by the marketing team and can be found [here](https://drive.google.com/drive/folders/18YNR93JyKbhL16iImVGUErpGfIyZ2UvM)
   For cover images after 16.x, [raise a similar request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/8049).
@@ -1610,7 +1607,7 @@ The schema is implemented using [Rx](http://rx.codesimply.com/index.html).
 
 If you have trouble running the rake task, you can check the following troubleshooting steps:
 
-- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
+- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/about/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
 - Update your gems by running `bundle install`.
 - Your bundler version could be out of date, so you can try running `gem install bundler:2.1.4`.
 

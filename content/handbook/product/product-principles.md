@@ -57,14 +57,14 @@ As a single-application for the entire DevOps lifecycle GitLab strives to enable
 
 ### The Minimal Valuable Change (MVC)
 
-Minimal Valuable Change (MVC) is the GitLab path to delivering the smallest measurable improvement for our users, customers, and the wider community. 
+Minimal Valuable Change (MVC) is the GitLab path to delivering the smallest measurable improvement for our users, customers, and the wider community.
 
-Our approach requires four pillars: 
+Our approach requires four pillars:
 
-- Relentless customer focus and commitment to understanding their workflows, using research and validation 
+- Relentless customer focus and commitment to understanding their workflows, using research and validation
 - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes.
-- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)  
-- Future vision to expand the MVC beyond the initial release 
+- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)
+- Future vision to expand the MVC beyond the initial release
 
 When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
@@ -85,12 +85,15 @@ An MVC approach is a byproduct of our spirit of iteration. That means we [break 
 
 Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illustrates how to build MVCs using Iteration. It shows Lego climbing obstacles. The first design fails. The second one can climb a book and so on. It also illustrates how modularity and good interfaces help with iteration as things get complex.
 
-#### Iteration speed and product excellence 
+#### Iteration speed and product excellence
 
 To ensure that our efforts consistently deliver value to our users, each iteration must adhere to the following guidelines:
 
   1. Define Expected Impact: Clearly articulate the expected measurable positive impact of the iteration on users, ensuring alignment with our overall product direction and guided by a vision that has been informed by user research.
-  1. Establish Metrics for Success: Identify specific metrics that will be used to evaluate the success of the iteration post-launch. These should be concrete, measurable indicators that directly relate to the intended outcomes of the iteration.
+  1. Establish Metrics for Success: Identify specific metrics that will be used to evaluate the success of the iteration before declaring the feature GA or an iteration shippable. These should be concrete, measurable indicators that directly relate to the intended outcomes of the iteration.
+     - These metrics should define a measurable quality bar as part of the initial scoping as that allows the cross-functional team to understand what the success/quality criteria are before beginning to build, while also allowing these metrics to be measured during the entire development and post-release lifecycle. As part of defining the quality bar a test plan should be defined and agreed that it can measure against these measures for success. Quality targets include:
+     - No S1 or blocking S2 defects/bug that prevents the customer from using the feature
+     - Not impacting or severely degrading the stability of the GitLab instance
 
 Success of an initiative is not measured by the deployment of a change or the completion of an iteration. True success is determined by whether the iteration achieved its predefined objectives, as evidenced by tangible business and product metrics.
 
@@ -149,7 +152,7 @@ _If you have a failure that can serve as a learning opportunity, please make an 
 Just because something is [not invented here](https://en.wikipedia.org/wiki/Not_invented_here)
 doesn't mean it doesn't have a perfect home within our solution. GitLab is an
 Open Core product and is part of the broader ecosystem of Open Source tools in
-the market. Every day there are new innovative tools out there that solve
+the market. Every day there are new innovative open source tools out there that solve
 real-world customer problems; we should not be afraid of embedding these tools
 into our own products in order to solve those same problems for our customers
 too. Leveraging existing technology allows us to get to market much more quickly,
@@ -211,7 +214,7 @@ Sometimes fast deployments are needed to fix a service or application outage tha
 
 #### Parity between SaaS and Self-managed deployments
 
-We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
+We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/categories/gitlab-the-product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
 
 In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience prior to recommending and supporting customers using it. All features will eventually be made available across SaaS and self-managed once those learnings have been applied.
 
@@ -299,7 +302,7 @@ Many crazy, over-ambitious ideas sound like they are impossible just
 because no one else is doing them.
 
 Since we have amazing engineers and a culture of shipping minimal
-viable changes, we are able to accomplish many more "impossible" things than other organizations.
+valuable changes, we are able to accomplish many more "impossible" things than other organizations.
 
 That's why we're shipping merge conflict resolution, why we shipped built-in CI
 before anyone else, why we built a better static pages solution, and why

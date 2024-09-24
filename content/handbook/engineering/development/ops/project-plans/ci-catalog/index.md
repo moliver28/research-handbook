@@ -8,6 +8,59 @@ The following page may contain information related to upcoming products, feature
 {{% /alert %}}
 
 [CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
+[CI Component and Catalog Product Direction](https://about.gitlab.com/direction/verify/component_catalog/)
+
+### Milestone 17.5 (September 14, 2024 - October 11, 2024)
+
+#### Goals
+
+- Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
+  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) (in-dev)
+- Security & Compliance workflow [epic](https://gitlab.com/groups/gitlab-org/-/epics/14060) for CI Catalog
+  - Spike + POC Security policies - publish vs usage ci components - [#474093](https://gitlab.com/gitlab-org/gitlab/-/issues/474093)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-review)
+  - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
+  - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
+- Index/Details page enhancements
+  - Update filtering options in CI/CD Catalog index page (Backend part) - [#437643](https://gitlab.com/gitlab-org/gitlab/-/issues/437643)
+  - Better visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
+- Search/Filter enhancements
+  - Add the `by publishing date` option to the sort dropdown in /explore - [#440508](https://gitlab.com/gitlab-org/gitlab/-/issues/440508)
+  - Add an illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
+
+### Milestone 17.6 (October 12, 2024 - November 8, 2024)
+
+#### Goals
+
+- [Security & Compliance workflow for CI Catalog](https://gitlab.com/groups/gitlab-org/-/epics/12713)
+  - https://gitlab.com/groups/gitlab-org/-/epics/14060+
+  - https://gitlab.com/gitlab-org/gitlab/-/issues/441102+
+- Search/Filter page enhancements
+  - Update filtering options in CI/CD Catalog index page (Frontend part) - [#437643](https://gitlab.com/gitlab-org/gitlab/-/issues/437643)
+- Spike issue for [Component visibility dashboard](https://gitlab.com/groups/gitlab-org/-/epics/14027)
+
+### Archive
+
+<details markdown="1">
+
+<summary markdown="span">Past Milestones</summary>
+
+### August to September (Milestone 17.4)
+
+### Milestone 17.4 (August 9, 2024 - September 13, 2024)
+
+#### Goals
+
+- Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
+  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) (in-dev)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-review)
+- Inputs enhancements
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (complete)
+
+### July to August (Milestone 17.3)
 
 ### Milestone 17.3 (July 13, 2024 - August 9, 2024)
 
@@ -18,41 +71,6 @@ The following page may contain information related to upcoming products, feature
 - Inputs enhancements
   - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
   - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
-
-### Milestone 17.4 (August 9, 2024 - September 13, 2024)
-
-#### Goals
-
-- Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
-  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) 
-- Security & Compliance workflow for CI Catalog (Multi milestone effort)
-  - Allow administrator to restrict users from publishing to Catalog - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14060)
-  - Allow administrator to restrict usage of 3rd party components - [#441102](https://gitlab.com/gitlab-org/gitlab/-/issues/441102)
-- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
-  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
-  - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
-  - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
-- Index/Details page enhancements
-  - Add the last_30_day_usage_count field to ComponentType - [#474479](https://gitlab.com/gitlab-org/gitlab/-/issues/474479)
-
-### Milestone 17.5 (September 14, 2024 - October 11, 2024)
-
-#### Goals
-
-- Index/Details page enhancements
-  - Add `version` dropdown in details page - [#419114](https://gitlab.com/gitlab-org/gitlab/-/issues/419114)
-  - Better visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
-- Search/Filter enhancements
-  - Add the `by publishing date` option to the sort dropdown in /explore - [#440508](https://gitlab.com/gitlab-org/gitlab/-/issues/440508)
-  - Add an illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
-  - Routing projects with a dot - [#468448](https://gitlab.com/gitlab-org/gitlab/-/issues/468448)
-  - Add batch data aggregation for the individual component - [#474482](https://gitlab.com/gitlab-org/gitlab/-/issues/474482)
-
-### Archive
-
-<details markdown="1">
-
-<summary markdown="span">Past Milestones</summary>
 
 ### June to July (Milestone 17.2)
 

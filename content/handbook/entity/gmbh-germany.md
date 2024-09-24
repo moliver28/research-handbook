@@ -146,7 +146,7 @@ GitLab does not plan to offer different Life Insurance Benefits because team mem
 
 ### GitLab GmbH Germany Parental Leave
 
-To initiate your Parental Leave, submit the dates in Time Off by Deel under the Parental Leave category. This will prompt the Absence Management team to process your leave. You can find out more information about our Parental Leave policy [here](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
+To initiate your Parental Leave, submit the dates in Workday by selecting `Parental Leave` under the `Leaves` dropdown menu. This will prompt the Absence Management team to process your leave. You can find out more information about our Parental Leave policy [here](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Statutory Leave Entitlement
 
@@ -269,7 +269,7 @@ In case a birthing parent takes Parental Leave subsequently to the child's birth
   </tbody>
 </table>
 
-**Parental Leave and GitLab's Global Parental Leave Policy** 
+**Parental Leave and GitLab's Global Parental Leave Policy**
 
 GitLab GmbH employees in Germany are entitled to both the statutory German parental and Maternity Leave as well as [GitLab's global 16-week paid Parental Leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
 
@@ -282,7 +282,7 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 - Team members must register their Parental Leave, in writing (wet signature), 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old. At the same time it must be declared for which periods within two years Parental Leave is to be taken.
 - A request for Parental Leave by facsimile or email does not comply with the written form requirement and is therefore void.
 - Please register your leave, in addition to the written application, by emailing leaves@domain.
-- Submit your Parental Leave in Time Off by Deel by selecting the `Parental Leave` option.
+- Submit your Parental Leave in Workday by selecting the `Parental Leave` option.
 - Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 **Part-time work during Parental Leave**
@@ -297,11 +297,11 @@ The request must include the start and scope of the reduced working hours.
 
 For expecting non-birthing parents, team members can apply for a state benefit (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). If a team member is [eligible for Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Parental Leave pay for up to 16 weeks of Parental Leave or pay the team member's full salary for the 16-week Parental Leave, when used prior to the child’s first birthday. Please notify the Absence Management team at `leaves@domain` which state benefit you are applying for and how much you will be receiving so that payroll can process the appropriate supplementary amount. Team members can find further information on Parental Leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
-https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
+https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
 
 **Vacation Leave**
 
-Team members are entitled to at least 20 vacation days which run concurrently with GitLab's PTO policy. The days will accrue from the team member's start date. In general, team members must take their annual vacation days during the calendar year, otherwise it is forfeited. However, unused vacation days can be carried forward until the 31st of March of the next calendar year if the team member was unable to take the holiday due to operational or personal reasons. Team members must designate all vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
+Team members are entitled to at least 20 vacation days which run concurrently with GitLab's PTO policy. The days will accrue from the team member's start date. In general, team members must take their annual vacation days during the calendar year, otherwise it is forfeited. However, unused vacation days can be carried forward until the 31st of March of the next calendar year if the team member was unable to take the holiday due to operational or personal reasons. Team members must designate all vacation time taken as `Paid Time Off` in Workday to ensure that vacation entitlement is properly tracked.
 
 ## Long-term Care Insurance (Pflegeversicherung)
 
@@ -340,7 +340,7 @@ Beginning January 1, 2023 team members with statutory health insurance are not r
 
 #### Reporting Guidelines
 
-Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Time Off by Deel using the label `Out Sick`.  The Absence Management Team will then "call up" the AU certficiate on behalf of the team member.
+Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Workday by selecting the label `Out Sick` under the `Time Offs` dropdown menu.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Workday using the label `Out Sick` under the `Leave Types` dropdown menu.  The Absence Management Team will then "call up" the AU certficiate on behalf of the team member.
 
 - Team Members with private health insurance will still be required to email leaves@domain a hard copy of their certificate no later than the 4th day of illness.
 

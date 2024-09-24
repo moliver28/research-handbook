@@ -40,7 +40,7 @@ Nomination reasons for how Brittany demonstrated Efficiency:
 
 - Being respectful of other's time making sure her communication was short and sweet
 - Manager of one having a clear overview / todo list of what needed to be done
-- Move fast by shipping the minimum viable change making sure decisions were made instead of delayed to not pile on work for later.
+- Move fast by shipping the minimal valuable change making sure decisions were made instead of delayed to not pile on work for later.
 
 ### October 2017 Top Team Member
 

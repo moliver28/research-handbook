@@ -1,8 +1,6 @@
 ---
 title: "Application Security"
 description: "The application security team's mission is to support the business and ensure that all GitLab products securely manage customer data."
-aliases:
-- /handbook/security/security-engineering/application-security
 ---
 <!-- markdownlint-disable MD052 -->
 
@@ -99,7 +97,7 @@ Learn how to identify or remediate security issues using real examples with GitL
 
 ## Reproducible Builds
 
-Learn how GitLab is implementing [Reproducable Builds]({{< ref "reproducible-builds" >}}) for our build processes.
+Learn how GitLab is implementing [Reproducible Builds]({{< ref "reproducible-builds" >}}) for our build processes.
 
 ## Milestone Planning
 

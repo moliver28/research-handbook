@@ -114,7 +114,7 @@ The collection and use of operational data will governed in accordance with the 
 
 ## Relevant Links
 
-- [Customer Success Vision Page](/handbook/customer-success/vision/)
+- [Customer Success Vision Page](/handbook/customer-success/customer-success-vision/)
 - [Operational Data in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/): Gainsight is a customer lifecycle management platform used for CSM and digital engagement
 - [Customer Use Case Adoption](/handbook/customer-success/product-usage-data/use-case-adoption/): includes definitions on how each product usage health score is calculated
 - [License Utilization in Gainsight](/handbook/customer-success/product-usage-data/use-case-adoption/): includes definitions and calculation methodology for License Utilization
@@ -122,4 +122,4 @@ The collection and use of operational data will governed in accordance with the 
 - [Product Usage in Gainsight FAQ Guide](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
 - [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html)
 - [Analytics Instrumentation Overview](/handbook/product/analytics-instrumentation-guide/) (details on operational data)
-- [Email Marketing Data Mart](/handbook/business-technology/data-team/data-catalog/email-data-mart/)
+- [Email Marketing Data Mart](/handbook/enterprise-data/data-catalog/email-data-mart/)

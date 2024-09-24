@@ -41,7 +41,7 @@ Since CSMs are assigned based on [certain criteria](/handbook/customer-success/c
 
 ## Scale Customer Success Engineer (CSE) engagement
 
-Some organizations do not have a dedicated CSM/CSE but could benefit from Customer Success engagement. In the Zendesk notes, you'll see `Customer Success Manager: CSM Scale`. In cases where it is appropriate, you can reach out to the Account Owner to discuss opening a [Scale Engagement Request](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-engagement-request-process).
+Some organizations do not have a dedicated CSM/CSE but could benefit from Customer Success engagement. In the Zendesk notes, you'll see `Customer Success Manager: CSM Scale`. In cases where it is appropriate, you can reach out to the Account Owner to discuss opening a [CSE Engagement Request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process).
 
 Some examples on when this might be appropriate:
 

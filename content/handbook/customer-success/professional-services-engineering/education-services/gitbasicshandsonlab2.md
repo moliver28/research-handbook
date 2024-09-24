@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-on Lab: Work With Git Locally"
+title: "GitLab with Git Fundamentals - Hands-on Lab: Work With Git Locally"
 description: "This Hands-on Guide walks you through using Git commands to work with both a remote and local repository."
 ---
 

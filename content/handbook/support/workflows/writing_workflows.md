@@ -52,7 +52,7 @@ The [original version](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/7d946
 
 1. Less than half a day
 1. Half day or more
-    1. Use Time Off by Deel
+    1. Use Workday
     1. PagerDuty shifts
     1. Meetings
 1. 1-2 days

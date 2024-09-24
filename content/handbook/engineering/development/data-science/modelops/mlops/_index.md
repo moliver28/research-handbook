@@ -17,11 +17,11 @@ There is a huge market opportunity, as more and more companies and organizations
 
 ### Team members
 
-The following people are permanent members of the Model Validation Group:
+The following people are members of the MLOps Group:
 
 | Who                                               | Role                     |
 |---------------------------------------------------|--------------------------|
-| [Monmayuri Ray](/handbook/company/team/#mray2020)      | Engineering Manager      |
+| [Sean Carroll](https://gitlab.com/sean_carroll)      | Engineering Manager      |
 | [Alper Akgun](/handbook/company/team/#alperakgun) | Staff Fullstack Engineer |
 | [Kevin Chu](/handbook/company/team/#kevinchu) | Product Manager |
 | [Fred de Gier](/handbook/company/team/#fdegier) | Staff Backend Engineer |
@@ -37,18 +37,6 @@ We are a small team and as we ramp up in a greenfield space favor tight connecti
 
 To keep others informed, we aim to:
 
-On a weekly basis:
-
-1. Publish a [weekly report](https://gitlab.com/gitlab-org/modelops/mlops/announcements/-/issues) highlighting our accomplishments, focus, discussion, and other relevant progress.
-
-On a monthly basis:
-
 1. Publish our plans for the upcoming milestone
 1. Update our ever-green [MLOps Direction page](https://about.gitlab.com/direction/modelops/mlops/)
 1. Include any shipped features in the [GitLab Release Post](/handbook/marketing/blog/release-posts/)
-
-## Performance Indicators
-
-[TBD]
-
-We will add relevant and publically shareable information here.

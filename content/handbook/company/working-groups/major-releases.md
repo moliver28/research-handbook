@@ -54,3 +54,4 @@ Exit Criteria are avaialable in the [Future Major Release Coordination & Improve
 | Member                       | Lyle Kozloff (@lyle)                      | Director of Support, Global Readiness |
 | Member                       | Stephen Denham (@denhams)                 | Engineering Manager, Environment Automation, Dedicated |
 | Member                       | Cheryl Li (@cheryl.li)                    | Senior Engineering Manager, Verify |
+| Member                       | Conley Rogers (@conleyr)                  | Staff Customer Success Architect |

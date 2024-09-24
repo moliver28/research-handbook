@@ -2,7 +2,7 @@
 title: "Fulfillment Reseller Flow-Through Terms"
 noindex: true
 ---
-
+<!-- vale off -->
 These Fulfillment Reseller Flow-Through Terms (the "Agreement") are made as of the date agreed to between the Authorized Partner (as defined below) and the Fulfillment Reseller (as defined below) (the "Effective Date"). Each shall be referred to herein as "Party", or collectively as the "Parties". For the avoidance of doubt, as further set forth in Section 10 (MISCELLANEOUS), GitLab Inc. or the applicable GitLab entity which has executed terms with the Authorized Partner ("GitLab") shall be a third-party beneficiary to this Agreement between the Parties, and shall have the right to enforce any terms and conditions onto the Fulfillment Reseller.  In consideration of the mutual agreements contained herein and intending to be legally bound hereby, the Parties agree as follows.
 
 ### 1. DEFINITIONS

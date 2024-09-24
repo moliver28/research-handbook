@@ -1,8 +1,6 @@
 ---
 title: "Threat Modeling"
 description: "The threat modeling process, and the framework used by the GitLab Security Team."
-aliases:
-- /handbook/security/threat-modeling/
 ---
 
 Threat modeling is the process of taking established or new procedures, and then assessing it for potential risks. For most tech companies, this usually involves code and coding changes. However this process can be adapted to any situation where there is a potential risk, and is something that many of us do every day. Choosing the longer well-lit walk to your car as opposed to the short cut through the darkened alley. Looking both ways before crossing the street. This is something we often do by instinct.
@@ -13,7 +11,7 @@ Within the context of GitLab, there are different risks we evaluate. Will my cod
 
 Here are a few resources to help get you started in threat modeling:
 
-We've developed an issue template available [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model) (private link) that you can use to create an issue documenting your threat model.
+We've developed an issue template available [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model) (private link) that you can use to create an issue documenting your threat model. It's required that Engineering provide technical documentation when creating a threat model issue. We also request that the application decomposition, use case, external entrypoints, trust levels, data flow diagram as well as the previous security issues (if any) sections are filled out. 
 
 The basis of our threat modeling is modeled after [PASTA](https://en.wikipedia.org/wiki/Threat_model#P.A.S.T.A.) It should be noted that a full PASTA threat model is usually not required as it involves 7 steps, and in many cases only the steps 4, 5, and 6 are needed. To make it even easier, you can use [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)) to help define the threats.
 

@@ -20,7 +20,7 @@ Data security is essential to protect the privacy and confidentiality of team me
 
 ### Data Ownership
 
-Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [Data Champion program](/handbook/business-technology/data-team/direction/data-champion/) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
+Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [Data Champion program](/handbook/enterprise-data/direction/data-champion/) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
 
 ### Data Retention
 
@@ -36,36 +36,36 @@ Access to people data is processed through an access request, which is approved 
 
 Here are some guidelines that the GitLab Data and other functional teams follow for management of people data:
 
-1. Only collect data that is necessary for the intended purpose. Avoid collecting excessive data that is not needed. You can read more about this topic in our [Data Minimization page](/handbook/business-technology/data-team/how-we-work/new-data-source/#data-minimisation)
+1. Only collect data that is necessary for the intended purpose. Avoid collecting excessive data that is not needed. You can read more about this topic in our [Data Minimization page](/handbook/enterprise-data/how-we-work/new-data-source/#data-minimisation)
 1. Ensure that the data collected is accurate and up-to-date. Outdated or inaccurate data should be deleted or updated.
 1. Limit access to personal data to only those who have a business need-to-know.
 1. Retain personal data for only as long as necessary for the intended purpose. Personal data should be deleted or anonymized when it is no longer needed.
 
 By following these guidelines, we can ensure that we are only collecting and processing personal data that is necessary for our business needs, and that we are protecting the privacy and security of our team members.
 
-When collecting and processing personal data related to people data analytics at GitLab, it is important to determine the lawful basis for processing. You can read more about this topic in [GitLab's Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/). In the data team, we use [Slowly Changing Dimensions](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots) to cover both the current and historical view of the data in the warehouse. Depending on the type of People Data collected, we use different slowly changing dimensions.
+When collecting and processing personal data related to people data analytics at GitLab, it is important to determine the lawful basis for processing. You can read more about this topic in [GitLab's Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/). In the data team, we use [Slowly Changing Dimensions](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots) to cover both the current and historical view of the data in the warehouse. Depending on the type of People Data collected, we use different slowly changing dimensions.
 
 - Where consent is the lawful basis
 
 Where Team Members have given clear consent to process their personal data for a *specific purpose*. Examples include: Gender, nationality, ethnicity, gender dropdown, pronouns, political affiliation, sexual orientation, religion, medical or health related info, trade union info, among others.
 
-When these fields are loaded into the warehouse, the Data Team uses a [type 1 Slowly Changing Dimension](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots) because any change to the field is a withdrawal of consent for the use of that old value.
+When these fields are loaded into the warehouse, the Data Team uses a [type 1 Slowly Changing Dimension](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots) because any change to the field is a withdrawal of consent for the use of that old value.
 
 - Where Strong Legitimate Interest is the Lawful Basis
 
 All fields where the Team Member can edit/change the field's info in the source system. Examples include: Home address, mobile or home phone, personal email, emergency contact information, among others.
 
-When these fields are loaded into the warehouse, the Data Team uses a [type 1 Slowly Changing Dimension](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots) because processing old historical values runs up against their Right to Correct data under privacy laws. If we need to keep history of these fields, a strong business justification that outweighs the Team Member's Right to Correct Data needs to be provided.
+When these fields are loaded into the warehouse, the Data Team uses a [type 1 Slowly Changing Dimension](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots) because processing old historical values runs up against their Right to Correct data under privacy laws. If we need to keep history of these fields, a strong business justification that outweighs the Team Member's Right to Correct Data needs to be provided.
 
 - Where Legal Obligation or Legitimate Interest is the Lawful Basis
 
 All fields where the Team Member cannot edit the field in the source system. These fields are usually required to run the company or to satisfy regulations. Examples include: Information we have to collect related to job title, bonuses, salary, turnover, department changes, among others.
 
-When these fields are loaded into the warehouse, the Data Team uses a [type 1 or a type 2 Slowly Changing Dimension](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots), depending on whether we have a business justification to keep the history of the fields in the warehouse.
+When these fields are loaded into the warehouse, the Data Team uses a [type 1 or a type 2 Slowly Changing Dimension](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots), depending on whether we have a business justification to keep the history of the fields in the warehouse.
 
 ### Access to People Data in Business Intelligence Software
 
-As part of our [self-service data program](/handbook/business-technology/data-team/direction/self-service/), all GitLab team members have access to all pre-built dashboards in Sisense. People Data is considered sensitive and it is therefore not readily available in Sisense by default. You can read more about this topic in our [Data Storage section](/handbook/business-technology/data-team/platform/#data-storage).
+As part of our [self-service data program](/handbook/enterprise-data/direction/self-service/), all GitLab team members have access to all pre-built dashboards in Sisense. People Data is considered sensitive and it is therefore not readily available in Sisense by default. You can read more about this topic in our [Data Storage section](/handbook/enterprise-data/platform/#data-storage).
 
 However, in the current business landscape, data is the key to unlock insights and make informed decisions. The same principle applies to people data, where people analytics plays a critical role in driving organizational success.
 

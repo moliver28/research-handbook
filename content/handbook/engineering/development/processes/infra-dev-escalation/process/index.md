@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation/process.html
 title: Development Escalation Process
 ---
 {{% alert title="Quick escalation guide" color="danger" %}}
@@ -336,7 +335,7 @@ For those eligible engineers, everyone is encouraged to explore options that wor
    1. When an engineer is in standby mode (e.g. not paged) during the weekend shift, they can take 1.25x time-off.
    1. When an engineer is in call-back mode (e.g. being paged) during the weekend shift, they can take double the time-off.
    1. For those who reside in Australia, please refer to these [guidelines of time in lieu](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/#on-call-engineering-only) in the handbook.
-   1. Please create an OOO event in Time Off by Deel and choose **On-Call Time in Lieu**.
+   1. Please create an OOO event in Workday and choose **On-Call Time in Lieu**.
 1. Other alternatives that promote work-life balance and have the least impact to your personal schedule.
 
 With the above alternatives we want to make sure we comply with local labor laws and not surpass the restricted weekly working hours (ranging from 38 to 60 hours) and offer enough rest time for the engineers who sign up on weekend on-call shifts.
@@ -416,7 +415,9 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
 
 If you have questions about the process, please reach out to `#dev-oncall` in Slack or to the [DRI](#development-on-call-dri) directly.
 
-### Pagerslack statistics ([Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views))
+### Pagerslack statistics
+
+[Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views)
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/ofEscalationsperMonth" >}}
 {{< /tableau >}}

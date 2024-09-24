@@ -102,7 +102,7 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 
 For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
-Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Breaks, and OOO**. Only enter “OOO” in the OOO column for any half or full days that you are Out of Office, whether it is paid or unpaid. **Team members must also accurately log all OOO time into Time Off by Deel and provide sick notes per statutory sick leave guidelines.**
+Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Breaks, and OOO**. Only enter “OOO” in the OOO column for any half or full days that you are Out of Office, whether it is paid or unpaid. **Team members must also accurately log all OOO time into Workday and provide sick notes per statutory sick leave guidelines.**
 
 ## Spain-Specific Team Member Benefits
 
@@ -239,7 +239,7 @@ If an occupational accident is involved, sick leave (including the first three d
 
 #### Reporting Sick Leave
 
-Team members must first notify their manager of their need for sick leave and then enter all sick time into Time Off by Deel by selecting the `Out Sick` label.  Then, team members must contact the Absence Management Team and provide a medical certificate in order to take sick leave and claim sick pay.
+Team members must first notify their manager of their need for sick leave and then enter all sick time into Workday by selecting the `Out Sick` label.  Then, team members must contact the Absence Management Team and provide a medical certificate in order to take sick leave and claim sick pay.
 
 ### Sick Pay
 
@@ -289,7 +289,7 @@ If you don't meet this requirement, you can still get your maternity leave and g
 
 To help plan your leave click: [How Much Exactly Will You Get Paid On Leave](https://balcellsgroup.com/maternity-leave-spain/#How_much_exactly_will_you_get_paid_during_maternity_leave).
 
-Please enter the dates of your leave in Time Off by Deel by selecting the `Parental leave` label about 30 days prior to the start of your leave.  The Absence Management team will contact you with more information.
+Please enter the dates of your leave in Workday by selecting the `Parental leave` label about 30 days prior to the start of your leave.  The Absence Management team will contact you with more information.
 
 ### Unpaid Maternity Leave
 
@@ -303,7 +303,7 @@ Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first s
 
 This leave must be taken in batches of one week as a minimum, but the weeks can be split over time if desired. The father is also entitled to take unpaid childcare leave until the child is three years old.
 
-Please enter the dates of your leave in Time Off by Deel by selecting the `Parental Leave` label.  The Absence Management team will contact you with more information.
+Please enter the dates of your leave in Workday by selecting the `Parental Leave` label.  The Absence Management team will contact you with more information.
 
 ### Paternity Leave Payments
 
@@ -313,7 +313,7 @@ This money comes from the Spanish government, not his employer, though employers
 
 ### Applying for Parental Leave in Spain
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` label in Time Off by Deel at least 30 days before your leave starts.
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` label in Workday at least 30 days before your leave starts.
 
 ### Breastfeeding leave
 

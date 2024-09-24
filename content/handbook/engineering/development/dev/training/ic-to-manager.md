@@ -97,7 +97,7 @@ Currently as an Individual Contributor, your day to day tasks probably do not in
 
 * Have regular meetings with counterparts in security, tech writing, quality, so on.
 * Volunteer to host a GitLab Team retrospective
-* Volunteer to be the [on-call coordinator](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#coordinator)
+* Volunteer to be the [on-call coordinator](/handbook/engineering/development/processes/infra-dev-escalation/process/#coordinator)
 
 ## Aspiring Manager mentorship pilot program
 

@@ -28,7 +28,7 @@ To benefit the most from the types of meetings that the CFO attends, it's recomm
 
 ### Confidentiality
 
-Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here] https://handbook.gitlab.com/handbook/legal/publiccompanyresources/.
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here](/handbook/legal/publiccompanyresources/).
 
 ### Create an onboarding and offboarding issue
 
@@ -113,7 +113,7 @@ To use the script:
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
 
-A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325) and [Android](https://play.google.com/store/apps/details?id=senzillo.talk_timer_free&hl=en_US&gl=US). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
+A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
 
 ## Rotation Schedule
 
@@ -121,9 +121,7 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2024-06-11 | Thursday 2024-06-13 | |
-| Tuesday 2024-07-09 | Thursday 2024-07-11 | |
-| Tuesday 2024-07-16 | Thursday 2024-07-18 | |
-| Tuesday 2024-07-23 | Thursday 2024-07-25 | |
-| Tuesday 2024-07-30 | Thursday 2024-08-01 | |
-| Tuesday 2024-08-06 | Thursday 2024-08-08 | |
+| Tuesday 2024-10-15 | Thursday 2024-10-17 |Milidou Afroditi |
+| Tuesday 2024-10-29 | Thursday 2024-10-31 | |
+| Tuesday 2024-11-05 | Thursday 2024-11-07 | |
+| Tuesday 2024-11-12 | Thursday 2024-11-14 |@disla |

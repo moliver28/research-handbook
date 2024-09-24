@@ -2,7 +2,7 @@
 title: "Security Compliance, Dedicated Markets Team"
 ---
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Compliance (Dedicated Markets) Mission
+## Security Compliance (Dedicated Markets) Mission
 
 Our Mission is to advance customer trust with a focus on customers operating in highly regulated industries or who otherwise have unique security and compliance requirements. We will accomplish this mission by:
 
@@ -13,7 +13,7 @@ Our Mission is to advance customer trust with a focus on customers operating in 
 
 For more information on the direction of the GitLab Dedicated category, please see [this page](https://about.gitlab.com/direction/saas-platforms/dedicated/).
 
-## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies
+## Core Competencies
 
 As a member of the [Security Assurance]({{< ref "security-assurance" >}}) sub-department, and extension of the commercial [Security Compliance team]({{< ref "../security-compliance" >}}), we share many of the same core competencies. The difference between our teams is in the product/system scope (GitLab Dedicated and any future offerings for highly regulated markets) and the security certifications we are pursuing.
 
@@ -36,7 +36,7 @@ As a member of the [Security Assurance]({{< ref "security-assurance" >}}) sub-de
 
 Some of our work is [not public]({{< ref "confidentiality-levels#not-public" >}}) for now. Please see the [internal handbook](https://internal.gitlab.com/handbook/engineering/fedramp-compliance/) to find out more about what our team is working on, or reach out to us.
 
-## <i class="fa-solid fa-magnifying-glass"></i> Vision and Focus Areas
+## Vision and Focus Areas
 
 Security Compliance is part of the [2nd line of defense](https://www.isaca.org/resources/isaca-journal/issues/2018/volume-4/roles-of-three-lines-of-defense-for-information-security-and-governance#:~:text=While%20the%20three%20lines%20of,explore%20ways%20to%20optimize%20outputs) and our goal is identify and treat risks early before they have more severe impacts later on (i.e. regulatory or reputational). We strive to partner with the 1st line of defense (Engineering, Product, and other parts of the organization) to shift compliance left where it is both more effective and less burdensome. To achieve that vision, we need to focus on the following areas and solicit feedback from other parts of the organization:
 
@@ -225,7 +225,7 @@ Currently, we use monthly milestones and a burnup/burndown chart to track recurr
 1. [FedRAMP Vulnerability Posture (limited access)](https://10az.online.tableau.com/#/site/gitlab/views/Draft-FedRAMPVulnerabilityPosture/FedRAMPVulnerabilityPostureDashboard?:iid=1)
 1. [Vulnerability Deviation (Exception) Requests](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/insights/#/issues)
 
-## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
+## Contact the Team
 
 - Slack
   - Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team

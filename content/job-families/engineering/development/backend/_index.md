@@ -55,7 +55,7 @@ requirements and responsibilities:
 - Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 ---
 
@@ -166,7 +166,7 @@ The Staff Backend Engineer is a [grade 8](/handbook/total-rewards/compensation/c
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team
+- Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team
 
 ## Engineering Management Roles at GitLab
 
@@ -307,7 +307,7 @@ and Continuous Deployment (CD) functionality in GitLab. Engineers should be will
 
 1. Provide value to the user and communicate such with product managers,
 1. Introduce features that work at scale and in untrusting environments,
-1. Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+1. Always focus on defining and shipping [the Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 We, as a team, cover end-to-end integration of CI/CD in GitLab, with components being written in Rails and Go.
 We work on a scale of processing a few million of CI/CD jobs on GitLab.com monthly.
@@ -408,10 +408,10 @@ address issues from the community.
 
 Engineering Productivity Engineers have the following job-family performance indicators.
 
-- [Average CE/EE pipeline duration per month](/handbook/engineering/quality/performance-indicators/#average-ce-ee-pipeline-duration-per-month)
-- [Successful vs failed CE/EE review app deployments per month](/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-review-app-deployments-per-month)
-- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
-- [New issue first triage SLO](/handbook/engineering/quality/performance-indicators/#new-issue-first-triage-slo)
+- [Average CE/EE pipeline duration per month](/handbook/engineering/infrastructure/performance-indicators/#average-ce-ee-pipeline-duration-per-month)
+- [Successful vs failed CE/EE review app deployments per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-review-app-deployments-per-month)
+- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
+- [New issue first triage SLO](/handbook/engineering/infrastructure/performance-indicators/#new-issue-first-triage-slo)
 
 ### Application Performance
 

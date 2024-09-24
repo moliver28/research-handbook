@@ -44,10 +44,10 @@ GitLab is the DevOps Platform, made possible by contributions from the community
 * [GitLab's strategy & open core model](/handbook/company/stewardship/#how-open-source-benefits-from-open-core)
 * Dual flywheel strategy and the value of community
   * [Dual Flywheel strategy](/handbook/company/strategy/#dual-flywheels)
-  * [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr)
-  * [Percent of MRs from Community](/handbook/engineering/quality/performance-indicators/#percent-of-mrs-from-community)
-  * [Unique Wider Community Contributors Per Month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month)
-  * [Percent of Feature Community Contributions](/handbook/engineering/quality/performance-indicators/#percent-of-feature-community-contribution-mrs)
+  * [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr)
+  * [Percent of MRs from Community](/handbook/engineering/infrastructure/performance-indicators/#percent-of-mrs-from-community)
+  * [Unique Wider Community Contributors Per Month](/handbook/engineering/infrastructure/performance-indicators/#unique-wider-community-contributors-per-month)
+  * [Percent of Feature Community Contributions](/handbook/engineering/infrastructure/performance-indicators/#percent-of-feature-community-contribution-mrs)
   * [Wider Community merged MRs per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release)
   * [Developer Advocate Monthly Impressions](/handbook/marketing/developer-relations/performance-indicators/#developer-advocacy-monthly-impressions)
 

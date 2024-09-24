@@ -38,7 +38,7 @@ The Professional Services Practice Manager is a [grade 6](/handbook/total-reward
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Senior Professional Services Practice Manager
 

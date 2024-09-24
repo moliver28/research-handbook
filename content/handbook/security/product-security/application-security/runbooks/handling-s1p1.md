@@ -89,6 +89,10 @@ Some scenarios where we would be very likely to opt for an ad-hoc critical secur
 - Unpatched critical severity vuln (CVSS 9+) with PoC/exploitation code publicly available
 - CVSS 10.0 vulns (e.g. unauth RCE or admin account takeover)
 
+## Initiate RCA
+
+If it's a product vulnerability, the AppSec DRI must [initiate a root cause analysis (RCA) investigation issue](/handbook/security/root-cause-analysis/#initiating-an-rca) as soon as possible. It is incredibly important that the underlying root cause of the vulnerability is well-understood and documented in order to prevent bypasses or similar incidents. Followup preventative and mitigative control issues will be created and prioritized as a result of this step.
+
 ## Handoff
 
 Appsec engineers are not on-call. That means when the assigned appsec engineer's end of day arrives, they are responsible for handing it off to an appsec engineer in a subsequent timezone.

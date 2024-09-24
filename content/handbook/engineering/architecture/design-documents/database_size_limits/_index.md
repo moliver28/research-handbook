@@ -1,6 +1,6 @@
 ---
 title: 'Database Scalability: Limit on-disk table size to < 100 GB for GitLab.com'
-status: proposed
+status: accepted
 creation-date: "2021-06-23"
 authors: [ "@abrandl" ]
 coach: ""

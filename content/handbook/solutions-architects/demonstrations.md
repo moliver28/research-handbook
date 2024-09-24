@@ -30,9 +30,6 @@ Back in FY23-Q1 we've started an OKR to create a [repeatable process for mainten
 ### Setup the demo and environment
 
 All GitLab assets are available in [this group](https://gitlab.com/tanuki-workshops/emea-sa-tam/p2m), refer to the [README](https://gitlab.com/tanuki-workshops/emea-sa-tam/p2m/README/-/blob/main/README.md) for more information on how to Get Started.
-<!-- - (**TODO**): Add video on how to *setup* the demo -->
-
-<div style="position: relative; padding-bottom: 54.79166666666666%; height: 0;"><iframe src="https://www.loom.com/embed/5ed6bda810fa4dba83e2da1614b08521" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### GitLab Flow-scenario
 
@@ -43,11 +40,6 @@ The main flow should be:
 - Introduction to the One GitLab Platform
 - Highlight of a select number of added capabilities and their value (if possible say thank you to the release MVP)
 - Demo of GitLab Flow
-
-<!-- ### Recording the demo
-
-Loom
-- (**TODO**): Add video on how to *record* the demo with Loom -->
 
 ## Existing Demonstrations
 

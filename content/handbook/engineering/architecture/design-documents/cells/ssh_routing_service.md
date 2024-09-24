@@ -1,5 +1,5 @@
 ---
-title: Routing Git over SSH requests
+title: "Routing Git over SSH requests"
 status: proposed
 creation-date: "2024-02-29"
 authors: [ "@igor.drozdov" ]
@@ -7,6 +7,7 @@ coach: "@ayufan"
 approvers: [ "@arturoherrero", "@sranasinghe" ]
 owning-stage: "~devops::create"
 participating-stages: ["~devops::data stores", "~devops::systems"]
+toc_hide: true
 ---
 
 {{< design-document-header >}}

@@ -86,7 +86,7 @@ There are four departments within the Engineering Division:
 - [Database Engineering](/handbook/engineering/development/database/)
 - [Development Principles](/handbook/engineering/development/principles/)
 - [Engineering Automation](/handbook/engineering/automation/)
-- [Engineering Metrics](/handbook/engineering/metrics/)
+- [Engineering Metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
 - [Engineering OKRs](/handbook/engineering/okrs/)
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Frequently Used Projects](/handbook/engineering/projects/)

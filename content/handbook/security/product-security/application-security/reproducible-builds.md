@@ -1,6 +1,6 @@
 ---
 title: "Reproducible Builds"
-description: "Learn how GitLab is implementing Reproducable Builds for our build processes"
+description: "Learn how GitLab is implementing Reproducible Builds for our build processes"
 ---
 
 ## What are Reproducible Builds?

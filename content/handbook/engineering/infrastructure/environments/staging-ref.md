@@ -39,7 +39,7 @@ Staging Ref is a sandbox environment used for pre-production testing of the late
 
 Staging Ref deployment runs parallel to Staging Canary deployment. [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer) triggers a job in [Staging-Ref GET Config](https://ops.gitlab.net/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref) to update the environment. Notifications about new deployments are sent to the [`#announcements`](https://gitlab.slack.com/archives/C8PKBH3M5) Slack channel.
 
-Staging Ref pipelines do not block the deployment. If there are any failures with deployment to `gstg-ref`, please reach out to `@release-managers`. After successful deployment, Sanity and Full QA pipelines are triggered. Results are posted to `#qa-staging-ref` and analysed by Test Platform on-call DRIs. Please refer to the [Test Platform Department pipeline triage rotation schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) to identify the current DRI.
+Staging Ref pipelines do not block the deployment. If there are any failures with deployment to `gstg-ref`, please reach out to `@release-managers`. After successful deployment, Sanity and Full QA pipelines are triggered. Results are posted to `#e2e-run-staging-ref` and analysed by Test Platform on-call DRIs. Please refer to the [Test Platform Department pipeline triage rotation schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) to identify the current DRI.
 
 ```plantuml
 @startuml staging-ref
@@ -91,7 +91,7 @@ After signing in you can proceed using the environment as required. If destructi
 
 #### Enable Feature Flags
 
-[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.
+[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#e2e-run-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.
 
 #### Admin access
 
@@ -112,7 +112,7 @@ If you have `gcloud` or `kubectl` set up locally, then follow [Connect from your
 1. Hover over **Exec** to reveal a sub menu
 1. Click **toolbox**
 1. A Cloud Shell should start up
-1. Edit the command `kubectl exec gitlab-toolbox-5955db475c-ng2xr -c toolbox -- ls` to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/engine/reference/commandline/container_exec/). It should look like `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix).
+1. Edit the command `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix) to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/engine/reference/commandline/container_exec/).
 1. At this point, you should be logged in to the toolbox pod. For Rails console, run `gitlab-rails console`.
 1. See [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#gitlab-specific-kubernetes-information) for more
 

@@ -92,13 +92,13 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Wait for the pipeline for the merge request to complete.
 
-1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected. Click **Full report**.
+1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected. 
 
-1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy.
+1. Return to the merge reqest overview.
 
-1. Return to the merge request overview.
+1. Click **Full report**.
 
-1. Note that the merge status will appear stating **Requires 1 approval from policy**.
+1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy Note that the merge status will appear stating **Requires 1 approval from policy**.
 
 1. A new comment is also added to the activity of the merge request, stating that a policy violation was detected.
 

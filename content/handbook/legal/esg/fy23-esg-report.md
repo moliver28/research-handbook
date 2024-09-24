@@ -4,7 +4,7 @@ title: GitLab Fiscal Year 2023 (FY23) ESG Report
 
 ## Message From Our Chief Executive Officer
 
-Welcome to GitLab's inaugural Environmental, Social, and Governance (ESG) report. ESG has been an integral part of GitLab's business and culture, even before we explicitly used the term "ESG." Our approach to ESG aligns with our [Values]({{< ref values >}}#:~:text=GitLab%27s%20six%20core%20values%20are,other%20by%20assuming%20good%20intent.). This can be seen in the management and oversight of our business and in the way we have managed risks and opportunities related to our team and our wider community. It is also evident in our customer-centric approach, our all remote philosophy, the development of our products, and our being an intentional force for good.
+Welcome to GitLab's inaugural Environmental, Social, and Governance (ESG) report. ESG has been an integral part of GitLab's business and culture, even before we explicitly used the term "ESG." Our approach to ESG aligns with our [Values](/handbook/values/#:~:text=GitLab%27s%20six%20core%20values%20are,other%20by%20assuming%20good%20intent.). This can be seen in the management and oversight of our business and in the way we have managed risks and opportunities related to our team and our wider community. It is also evident in our customer-centric approach, our all remote philosophy, the development of our products, and our being an intentional force for good.
 
 GitLab has been a remote workplace since day one. That means we work to eliminate geographical constraints by relying on our scalable employment solution when it comes to recruiting our team members. We focus on skills, experience, enthusiasm, energy, and ability to get the job done well. This has proven to be a win-win, opening doors for us at GitLab and for those who want to work with us. Building an all-remote company is just one example of how we've authentically incorporated ESG principles into our structure and operations. The intentional investments we've made in ESG have been a natural extension of how we started.
 
@@ -35,7 +35,7 @@ Our [vision](/handbook/company/vision/) captures where we're going over the next
 
 GitLab's ("GitLab," "we," "our") Environmental, Social, and Governance ("ESG") report details GitLab's priorities, progress, and performance across ESG key topics. Data about financial performance is not included in this report and may be found in our [financial and SEC filings](https://ir.gitlab.com/financial-information/sec-filings?field_nir_sec_date_filed_value=).
 
-Unless otherwise specified, the information included in this Report was last updated on July 20, 2023. The content included in this report covers Fiscal Year 2023 ("FY23") (as of January 31, 2023). The report will be updated annually. Throughout the report, there may be mentions of Fiscal Year 2024 ("FY24") which runs February 1, 2023 through January 31, 2024. We maintain a public facing [Handbook]({{< ref handbook >}}) and throughout this Report, we link to certain [Handbook]({{< ref handbook >}}) pages. These [Handbook]({{< ref handbook >}}) pages are maintained separately and may reflect a different reporting period from what is found within this Report.
+Unless otherwise specified, the information included in this Report was last updated on July 20, 2023. The content included in this report covers Fiscal Year 2023 ("FY23") (as of January 31, 2023). The report will be updated annually. Throughout the report, there may be mentions of Fiscal Year 2024 ("FY24") which runs February 1, 2023 through January 31, 2024. We maintain a public facing [Handbook](/handbook/) and throughout this Report, we link to certain [Handbook](/handbook/) pages. These [Handbook](/handbook/) pages are maintained separately and may reflect a different reporting period from what is found within this Report.
 
 This Report has been prepared with reference to the Global Reporting Initiative's ("GRI") standards released in October 2021. We also disclose in alignment with the Sustainability Accounting Standards Board ("SASB") under the Software & IT Services industry.
 
@@ -49,7 +49,7 @@ For questions and information on GitLab's ESG Team, please visit the [ESG handbo
 
 #### ESG Strategy
 
-ESG practices, although newly formalized in GitLab's strategy, have been embedded in our work culture since inception. Deeply integrated into the business philosophy, GitLab's ESG strategy is driven by our [values]({{< ref values >}}) of Collaboration, Results, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT).
+ESG practices, although newly formalized in GitLab's strategy, have been embedded in our work culture since inception. Deeply integrated into the business philosophy, GitLab's ESG strategy is driven by our [values](/handbook/values/) of Collaboration, Results, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT).
 
 GitLab's ESG [Team]({{< ref environmental-social-governance >}}) created and continuously maintains GitLab's corporate sustainability strategy and programs. This includes creating and managing GitLab's ESG disclosures and public ESG reports, identifying and prioritizing key issues to advance our social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab's values and mission.
 
@@ -92,7 +92,7 @@ In developing our ESG strategy, we have aligned our efforts to the [United Natio
 
 We're a team of helpful, passionate people who want to see each other, GitLab, and the broader GitLab community succeed. [We care](/handbook/values/#results) about what our team members achieve: the code shipped, the user who was made happy, and the team member who was helped.
 
-GitLab's [mission](/handbook/company/mission/#mission) to make it so that everyone can contribute extends to our team members who are empowered to make an impact across the company. While our mission drives GitLab, we believe that our [values]({{< ref values >}}) and work [culture](/handbook/company/culture/) are what make us successful. We believe that when team members seek feedback from a diverse group of peers and leaders, inside and outside of their group or function, it leads to better decisions and a greater sense of belonging. We work to make everyone feel welcome and to increase the participation of underrepresented groups in our community and company.
+GitLab's [mission](/handbook/company/mission/#mission) to make it so that everyone can contribute extends to our team members who are empowered to make an impact across the company. While our mission drives GitLab, we believe that our [values](/handbook/values/) and work [culture](/handbook/company/culture/) are what make us successful. We believe that when team members seek feedback from a diverse group of peers and leaders, inside and outside of their group or function, it leads to better decisions and a greater sense of belonging. We work to make everyone feel welcome and to increase the participation of underrepresented groups in our community and company.
 
 Our entire workforce is remote, allowing people of all backgrounds and abilities to join the team. As GitLab has grown, we've learned a lot about what it takes to build and manage a fully remote team, and we share what we have learned and our practices with our [Guide to All Remote](/handbook/company/culture/all-remote/guide/). Additionally, GitLab launched [TeamOps](https://about.gitlab.com/teamops/), an organizational operating model that helps teams maximize productivity, flexibility, and autonomy by managing decisions, information and tasks more efficiently.
 
@@ -189,7 +189,7 @@ Contributors to GitLab, the platform and the company, make up the GitLab communi
 
 Our work with the wider community goes beyond code and can include blog posts, documentation, discussions on forums/social media, meetups, presentations, translations, collaboration on UX design, and more. The [Community Relations Team](/handbook/marketing/developer-relations/) works with our GitLab community to ensure that all receive support and recognition for contributing to GitLab.
 
-We also support community programs aimed at organizations that align with our [values]({{< ref values >}}). We strive to help these organizations grow and thrive by putting GitLab's most powerful features in the hands of communities that may not otherwise have the means to access them. Each program is unique in its organization and execution; however, in general, community programs offer GitLab customers benefits such as:
+We also support community programs aimed at organizations that align with our [values](/handbook/values/). We strive to help these organizations grow and thrive by putting GitLab's most powerful features in the hands of communities that may not otherwise have the means to access them. Each program is unique in its organization and execution; however, in general, community programs offer GitLab customers benefits such as:
 
 - Complimentary subscriptions to GitLab Ultimate
 - Direct lines of communication to GitLab team members
@@ -365,7 +365,7 @@ Disclosing our progress through data aligns with our [transparency](/handbook/va
 
 - [GRI disclosures](https://about.gitlab.com/documents/GRI_CONTENT_INDEX_FY23.pdf)
 - [SASB disclosures](https://about.gitlab.com/documents/SASB_INDEX_FY23.pdf)
-- [Performance data tables](https://esg-landing-page.about.gitlab-review.app/files/esg/PERFORMANCE_DATA_TABLES_FV.pdf)
+- [Performance data tables](https://about.gitlab.com/files/esg/PERFORMANCE_DATA_TABLES_FV.pdf)
 
 ### Contact
 

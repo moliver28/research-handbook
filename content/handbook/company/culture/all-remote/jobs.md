@@ -45,7 +45,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Jamm](https://jamm.app/) Fully remote team building an app to help remote teams work better together.
 1. [Anybox](https://anybox.fr/), see their feedback (in French) [Télétravail généralisé, notre retour d'expérience](https://blog.anybox.fr/teletravail-generalise-confiance-et-seminaires/).
 1. [Screenly](https://www.screenly.io), this is [how they work](https://www.screenly.io/blog/2016/11/23/how-we-work-at-screenly/).
-1. [Soshace](https://soshace.com), see their [jobs page](https://soshace.com/careers).
+1. [Soshace](https://soshace.com), see their [jobs page](https://soshace.com/jobs-seekers/).
 1. [Innolitics](http://innolitics.com), see their [handbook](http://innolitics.com/about/handbook/) which describes how they work remotely.
 1. [IOpipe](https://iopipe.com)
 1. [HiringThing](https://www.hiringthing.com/), see their post about what it is like to work [remote-only](https://blog.hiringthing.com/what-its-like-to-work-at-hiringthing).
@@ -76,6 +76,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Animalz](https://www.animalz.co/), an agency providing content to B2B/SaaS organizations
 1. [Almanac](https://almanac.io/), see their [async collaboration norms](https://almanac.io/handbook/almanac-handbook-9SaCJX/async-collaboration-norms-almanac-nN7bF2BOfBRFJNBqwoj4uyRA91vFPLtT), [resources for leaders](https://almanac.io/async-review) in a world without offices and [current open roles](https://almanac.io/careers).
 1. [Iterative](https://iterative.ai/), a company building open-source developer tools for machine learning
+1. [SearchApi](https://searchapi.io/), a remote-only company, see their [jobs page](https://www.searchapi.io/careers)
 
 ### Remote-first companies
 

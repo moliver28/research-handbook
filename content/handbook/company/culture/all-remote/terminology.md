@@ -87,7 +87,7 @@ It's important to recognize that all-remote is *not* a synonym for outsourcing o
 ![GitLab in-person interactions at Commit SF 2020](/images/all-remote/gitlab-commit-sf-2020-in-person.jpg)
 {style="max-width: 50%;"}
 
-GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/spending-company-money#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/commit) events, and other opportunities such as conferences and trade shows.
+GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](/handbook/company/culture/summit/)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/finance/spending-company-money/#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/commit) events, and other opportunities such as conferences and trade shows.
 
 GitLab also gathers its [e-group]({{< ref "structure#e-group" >}}) for a [quarterly four-day offsite]({{< ref "offsite" >}}). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
 

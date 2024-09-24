@@ -67,14 +67,14 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 - [Best Workplaces for Innovators, Fast Company, 2022](https://www.fastcompany.com/best-workplaces-for-innovators/list)
 - [Best Medium Workplaces, Fortune, 2022](https://fortune.com/best-medium-workplaces/2022/gitlab/)
 - [Great Place to Work Certified, 2021-2022](https://www.greatplacetowork.com/certified-company/7013799)
-- [Best Workplaces in the SF Bay Area, Fortune, 2022](https://www.greatplacetowork.com/best-companies-in-the-us/)
+- [Best Workplaces in the SF Bay Area, Fortune, 2022](https://www.greatplacetowork.com/best-companies-in-the-us)
 
 </details>
 
 <details><summary>2021</summary>
 
 - [Best Tech Companies For Remote Jobs in 2021 according to Glassdoor, Forbes](https://www.forbes.com/sites/louiscolumbus/2020/12/20/the-best-tech-companies-for-remote-jobs-in-2021-according-to-glassdoor/?sh=2922f81c2ceb)
-- [Fortune's Best Small & Medium Workplaces in 2020](https://www.greatplacetowork.com/best-workplaces/smb/2020?category=medium)
+- [Fortune's Best Small & Medium Workplaces in 2020](https://www.greatplacetowork.com/best-workplaces/medium/2020)
 - [Great Place to Work Certified, 2020-2021](https://www.greatplacetowork.com/certified-company/7013799)
 - [Best Engingeering Departments, Comparably, 2021](https://www.businessinsider.com/companies-with-the-best-engineering-teams-according-to-employees-comparably-2021-4#here-is-the-full-list-of-companies-with-the-best-engineering-departments-26)
 

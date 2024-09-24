@@ -1,7 +1,6 @@
 ---
 title: AI Framework Group
 description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
-aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
 ## Vision
@@ -138,7 +137,7 @@ The AI Framework Team communicates based on the following guidelines:
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
 
 ### 🤙 Ad-hoc sync calls
 

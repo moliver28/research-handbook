@@ -1,5 +1,5 @@
 ---
-title: CI/CD data time decay
+title: "CI/CD data time decay"
 status: ongoing
 creation-date: "2021-09-10"
 authors: [ "@grzesiek" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

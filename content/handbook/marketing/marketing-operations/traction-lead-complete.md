@@ -34,7 +34,7 @@ GitLab collaborates with Channel Partners to develop co-marketing campaigns incl
 
 ### Partner Sponsored Event
 
-GitLab allows Channel Partners to sponsor our owned events. Traction completes the following steps when it recognizes a new campaign member is associated with a [partner sponsored event](/handbook/marketing/channel-marketing/partner-campaigns/#partner-sponsored-event):
+GitLab allows Channel Partners to sponsor our owned events. Traction completes the following steps when it recognizes a new campaign member is associated with a [partner sponsored event](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-sponsored-event):
 
 1. Reviews the lead fields for  `Lead Acquisition Source` = `Partner Sponsored Event` and `Vartopia Partner Account` is not empty
 1. Checks the lead fields for  `[Vartopia] Recalled Date` is empty and `Partner Recalled` equals `False`
@@ -43,7 +43,7 @@ GitLab allows Channel Partners to sponsor our owned events. Traction completes t
 
 ### MDF Campaign
 
-Traction completes the following steps when it recognizes a new campaign member is associated with a [MDF campaign](/handbook/marketing/channel-marketing/partner-campaigns/#partner-only-campaigns---mdf-funded):
+Traction completes the following steps when it recognizes a new campaign member is associated with a [MDF campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-only-campaigns---mdf-funded):
 
 1. Reviews the campaign field for `Will there be MDF funding` = `Yes` and lead field for `Vartopia Partner Account` is not empty.
 1. Checks the lead fields for  `[Vartopia] Recalled Date` is empty and `Partner Recalled` equals `False`
@@ -52,7 +52,7 @@ Traction completes the following steps when it recognizes a new campaign member 
 
 ### Free Trial Campaign
 
-Traction completes the following steps when it recognizes a new campaign member is associated with a [free trial campaign](/handbook/marketing/channel-marketing/partner-campaigns/#trials-from-partners):
+Traction completes the following steps when it recognizes a new campaign member is associated with a [free trial campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners):
 
 1. Reviews the campaign name if it starts with  `Partner - Trial` and the lead field for `Vartopia Partner Account` is not empty.
 1. Checks the lead fields for  `[Vartopia] Recalled Date` is empty and `Partner Recalled` equals `False`
@@ -61,7 +61,7 @@ Traction completes the following steps when it recognizes a new campaign member 
 
 ### Joint Partner Campaign
 
-Traction completes the following steps when it recognizes a new campaign member is associated with a [joint partner campaign](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-events):
+Traction completes the following steps when it recognizes a new campaign member is associated with a [joint partner campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-events):
 
 1. Reviews the campaign fields for `Is a Channel Partner Involved?` = `Yes` and  `Campaign Member Status` with regards to partner engagement, and the lead field for `Vartopia Partner Account` is not empty.
 1. Verifies the campaign member is not actively worked by GitLab, thus `Person Status` is not `Accepted`, `Qualifying` nor `Qualified`, or `Actively Being Sequenced` = `False`. <br>

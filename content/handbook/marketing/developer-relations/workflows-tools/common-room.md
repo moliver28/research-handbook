@@ -13,14 +13,14 @@ Access is granted through Okta and is billed per individual seat. Currently, the
 To request access to Common Room,
 
 1. Add your business case and description to this handbook page.
-2. Once the MR is merged, open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) for Common Room using the `Individual_Bulk_Access_Request` template.
+2. Once the MR is merged, open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) for Common Room using the `Individual_Bulk_Access_Request` template.
 3. In Step 2, for _Justification for this access_, please describe and link to your business case for using Common Room.
 
 ### Temporary access
 
 Temporary access is available for evaluating the potential purchase of a seat for a duration of 3 months. It requires meeting with Common Room for a 30 minute onboarding.
 
-1. Open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) using the Individual_Bulk_Access_Request template. Specify that this is a temporary seat for 3 months.
+1. Open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) using the Individual_Bulk_Access_Request template. Specify that this is a temporary seat for 3 months.
 2. Open a [confidential issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=common-room-temporary-access) in Developer Evangelism Meta to document temporary seat expiration date.
 3. `@sugaroverflow` will schedule a mandatory onboarding meeting with Common Room and deprovision seat in 3 months.
 

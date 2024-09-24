@@ -1,8 +1,5 @@
 ---
 title: "Red Team"
-aliases:
-  - /handbook/security/threat-management/red-team/
-simple_list: true
 ---
 
 GitLab's internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
@@ -65,13 +62,13 @@ As a Red Team, we emulate attackers. That means the information we share may be 
 
 ### Red Team Operation Workflow
 
-We maintain [public issue templates](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates) for planning, executing, and reporting on Red Team operations. At the start of an operation, we open a new epic and use these templates to create issues corresponding to each stage of work.
+We maintain [public issue templates](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates) for planning, executing, and reporting on Red Team operations. At the start of an operation, we open a new epic and use these templates to create issues corresponding to each stage of work.
 
 By using these templates, everyone on the team knows where we are at and what comes next. This helps us to operate asynchronously and to iterate on our processes based on how well the templates work.
 
 ### Red Team Report Delivery
 
-All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates).
+All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates).
 
 Security risks affect everyone, and it is essential to make our reports approachable and consumable to a broad audience. To achieve this, we make an effort to [use simple language](/handbook/communication/#simple-language). Our goal is to ensure that anyone in the company can understand the reports, even if they don't have a background in security.
 

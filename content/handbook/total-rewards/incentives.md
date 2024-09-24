@@ -1,8 +1,6 @@
 ---
 title: "Incentives at GitLab"
 description: "The page contains information about incentives available for GitLab team members."
-aliases:
-- /handbook/incentives/
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
@@ -54,7 +52,7 @@ Discretionary bonuses are to celebrate team members that live by our values. To 
 
 - The reason for the bonus is that this person (X, a Technical Writer) has single-handedly stepped in to act as a part-time documentation engineer in the absence of a full-time engineer.
 The person's history of contributions is plain to see here: (Nominator included links to boards, issues or merge requests)
-In particular, X's implementation of a Global Navigation and GitLab iconography for documentation are real highlights of X's impact for end-users. For developers, they have modernized the codebase and continue to work toward making `gitlab-docs` just like any other GitLab project for developers. X's dedication to the Technical Writing team over a long period of time motivates me to do more than just thank X in `#thanks` channel. X has specifically: Been active to see the Technical Writing team to [succeed](/handbook/values/#see-others-succeed). X delivers for the team in lots of [MVCs](/handbook/values/#minimal-viable-change-mvc), so we can get early value. For example, making iconography available using Markdown first, and planning to deliver other implementations later. X solutions are [boring](/handbook/values/#boring-solutions), in that X aims to reuse as much GitLab code as possible, and raising instances where that isn't the case as technical debt. For example, docs icons are the same library as icons in the product.
+In particular, X's implementation of a Global Navigation and GitLab iconography for documentation are real highlights of X's impact for end-users. For developers, they have modernized the codebase and continue to work toward making `gitlab-docs` just like any other GitLab project for developers. X's dedication to the Technical Writing team over a long period of time motivates me to do more than just thank X in `#thanks` channel. X has specifically: Been active to see the Technical Writing team to [succeed](/handbook/values/#see-others-succeed). X delivers for the team in lots of [MVCs](/handbook/values/#minimal-valuable-change-mvc), so we can get early value. For example, making iconography available using Markdown first, and planning to deliver other implementations later. X solutions are [boring](/handbook/values/#boring-solutions), in that X aims to reuse as much GitLab code as possible, and raising instances where that isn't the case as technical debt. For example, docs icons are the same library as icons in the product.
 - I'd like to nominate X for a discretionary bonus for exhibiting the values for results, efficiency, and collaboration. While the whole backend engineers in the X team were OOO, despite it wasn't his team, X stepped in and handled a problem (link) that was blocking a deploy. X was able to debug the problem, not an easy one by the way, communicate it to the different counterparts, and also fix it. X also spotted that it could affect other features and provide a way to fix them as well.
 - I am nominating X for the values efficiency and results for the Nominator Bot. This bot assists us to nominate a team member for Discretionary Bonus without logging into Workday. This new bot speeds up the process probably by half the time it took to get approvals (for both me that administers the process and managers for approval) and directly now impacts our PI to increase discretionary bonuses. X is managing all the debugging and going above and beyond to solve any problems, without anyone asking X or having to follow up and this is out of scope of "just building a nominator" bot.
 You can read more about the process in [our handbook](#nominator-bot-process)
@@ -260,7 +258,7 @@ We aim to make a significant impact in our efforts to foster an environment wher
 
 ##### Iteration Award
 
-We do the smallest thing possible and get it out as quickly as possible. The value award for [Iteration](/handbook/values/#iteration) should be awarded to a team member that contributed or displayed iteration that led to faster results through for example: setting a due date, minimal viable change (MVC) or low level of shame.
+We do the smallest thing possible and get it out as quickly as possible. The value award for [Iteration](/handbook/values/#iteration) should be awarded to a team member that contributed or displayed iteration that led to faster results through for example: setting a due date, minimal valuable change (MVC) or low level of shame.
 
 ##### Transparency Award
 
@@ -297,7 +295,7 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 - In the past, we had a tiered system of referral bonuses, but we've simplified the structure to add a flat bonus amount.
 - [$1,500](/handbook/total-rewards/compensation/#exchange-rates) base referral bonus for a new hire.
 
-We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
+We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether there are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
 Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
 
@@ -355,7 +353,7 @@ Start your quarter off by getting to know someone new at GitLab, or meeting some
 
 ### Group Get Togethers
 
-Please review the latest [Covid-19 guidance for in-person GitLab events that include more than 5 attendees](/handbook/travel/#travel-safety--covid-19) before planning a Group Get Together.
+Please review the latest [Covid-19 guidance for in-person GitLab events that include more than 5 attendees](/handbook/finance/travel/#travel-safety--covid-19) before planning a Group Get Together.
 
 In areas where many GitLab team members live, stay tuned in Slack and on this page for planned events where we'll invite all GitLab team members in that area to join together in person. For team members who participate in Group Get Togethers, individual Get Togethers in person or remote will not be available in the month the Group Get Together takes place.
 

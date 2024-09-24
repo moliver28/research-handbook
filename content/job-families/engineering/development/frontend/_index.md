@@ -77,7 +77,7 @@ Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compens
 
 ### Intern Frontend Engineer
 
-Intern Frontend Engineers, while sharing the same requirements and responsibilities outlined above, typically join with less or alternate experience than typical Frontend Engineers. More information on intern hiring and the intern program can be found [here](/handbook/engineering/career-development/#internships-in-engineering).
+Intern Frontend Engineers, while sharing the same requirements and responsibilities outlined above, typically join with less or alternate experience than typical Frontend Engineers. More information on intern hiring and the intern program can be found [here](/handbook/engineering/careers/#internships-in-engineering).
 
 ### Associate Frontend Engineer
 
@@ -234,7 +234,7 @@ The [culture](/handbook/company/culture/) here at GitLab is something we're incr
 
 Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team-members are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don't count the number of days you take off annually. You can work incredibly flexible hours, enabled by our asynchronous approach to [communication](/handbook/communication/).
 
-Also, every nine months or so, we'll invite you to our [Contribute](https://about.gitlab.com/events/gitlab-contribute/) event.
+Also, every nine months or so, we'll invite you to our [Contribute](/handbook/company/culture/summit/) event.
 
 ## Career Ladder
 

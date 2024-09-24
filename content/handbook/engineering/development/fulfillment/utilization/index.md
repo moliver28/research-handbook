@@ -143,7 +143,7 @@ We have [cross-functional prioritization](/handbook/product/cross-functional-pri
 #### Mechanics
 
 - The team uses the [#g_utilization_planning](https://gitlab.slack.com/archives/C04108X3FDG) Slack channel to discuss cross-functional prioritization.
-- The team reviews [this dashboard](/handbook/engineering/metrics/dashboards/) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
+- The team reviews [this dashboard](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
 - The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#sus-impacting) impacting issues.
 - For a quick view and controls on bugs by priority, [this board](https://gitlab.com/groups/gitlab-org/-/boards/2874336?label_name[]=group%3A%3Autilization&label_name[]=type%3A%3Abug) can be used. More detailed information on bugs, including backlog and open rate, both of which are factors in determining their desired bug percentage for the upcoming milestone, is shown in this [dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard) (select Utilization from filters).
 - The team collaborates on a prioritization issue that documents and discusses our current prioritization scheme.
@@ -456,7 +456,9 @@ Other boards where previous requests are tracked:
 
 Following a similar process to Milestone Retrospectives, we employ [Iteration Retrospectives](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/82623) on a quarterly basis.
 
-#### [May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
+#### May 2021
+
+[May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
 
 **Key Takeaways**
 
@@ -554,4 +556,4 @@ a typical DRI.
   {{< tableau/filters "GROUP_LABEL"="utilization" >}}
 {{< /tableau >}}
 
-You can find more centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).
+You can find more centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).

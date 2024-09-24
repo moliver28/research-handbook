@@ -64,70 +64,72 @@ The group level issue board makes it possible for oversight and governance of th
 
 ![GitLab Kanban Board](https://about.gitlab.com/images/gitlab-kanban-board.png)
 
-## [Scaled Agile Framework](https://v46.scaledagileframework.com/#)
+## Scaled Agile Framework
 
-The scaled agile framework is used by many large enterprises to define, organize, and synchronize the work of multiple agile teams.  Designed to help enable coordination, collaboration, governance and oversight of multiple agile teams in complex environments.
+The [scaled agile framework](https://v46.scaledagileframework.com/#) is used by many large enterprises to define, organize, and synchronize the work of multiple agile teams.  Designed to help enable coordination, collaboration, governance and oversight of multiple agile teams in complex environments.
 
 ![SAFe Model Board](https://about.gitlab.com/images/solutions/scaled-agile/safe_model.png)
 
 GitLab's structure of Groups, SubGroups and Projects makes it possible to model and support different variations of the Scaled Agile Framework.
 
-<center>![GitLab to SAFe](https://about.gitlab.com/images/solutions/scaled-agile/gitlab-safe-overview.png)</center>
+![GitLab to SAFe](https://about.gitlab.com/images/solutions/scaled-agile/gitlab-safe-overview.png)
 
 To support the entire model (the 4 layer SAFe model), an organization would start with a Group to represent the Portfolio planning work.  Then the Large Solution part of the model would be a Sub Group.  The Programs would each be listed as SubGroups below the Large Solution, and finally the agile teams would work in GitLab Projects, each modeled as part of "Programs".
 
-### [Team](https://v46.scaledagileframework.com/agile-teams/)
+### Team
 
-The agile team is the foundation of the Scaled Agile Framework, it is where teams organize, plan, and actually deliver new features. In GitLab, the **project** is the fundamental team work area.  In GitLab projects teams manage their backlog of use cases (issues), assign work (boards), collaborate on features (issue discussions), develop code (merge requests), review changes (merge request discussions), and integrate and deploy applications (CI/CD pipelines).
+The [agile team](https://v46.scaledagileframework.com/agile-teams/) is the foundation of the Scaled Agile Framework, it is where teams organize, plan, and actually deliver new features. In GitLab, the **project** is the fundamental team work area.  In GitLab projects teams manage their backlog of use cases (issues), assign work (boards), collaborate on features (issue discussions), develop code (merge requests), review changes (merge request discussions), and integrate and deploy applications (CI/CD pipelines).
 
-#### [Team backlog](https://v46.scaledagileframework.com/team-backlog/)
+#### Team backlog
 
-GitLab **issues and issue boards** enable the project team to capture, manage and prioritize their backlog. They can prioritize their issues directly in the issue board, or they can use labels to establish overall priority of issues.
+GitLab **issues and issue boards** enable the project team to capture, manage and prioritize [their backlog](https://v46.scaledagileframework.com/team-backlog/). They can prioritize their issues directly in the issue board, or they can use labels to establish overall priority of issues.
 
-#### [Scrum](https://v46.scaledagileframework.com/scrumxp/)
+#### Scrum
 
-Project level **milestones** are used to define time based sprints. Issues are added to the milestone and then GitLab enables burndown charts to visualize the progress of the team in closing issues and delivering new features.
+Project level **milestones** are used to define [time based sprints](https://v46.scaledagileframework.com/scrumxp/). Issues are added to the milestone and then GitLab enables burndown charts to visualize the progress of the team in closing issues and delivering new features.
 
-#### [Team Kanban](https://v46.scaledagileframework.com/team-kanban/)
+#### Team Kanban
 
-Project **issue board** helps teams to visualize and manage the flow of their work, with the ability to track the overall 'weight' of all the issues assigned to any specific stage in the board.
-
----
-
-### [Program](https://v5.scaledagileframework.com/program-and-solution-kanbans/)
-
-The Program layer of the Scaled Agile model is the Sub Group which contains related project teams.   At this level, Labels and Boards are used to define and manage the Program Increments and the Agile Release Trains
-
-#### [Agile Release Trains](https://v46.scaledagileframework.com/agile-release-train)
-
-Agile Release Trains enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group Level boards and labels** are used to define specific stages in the release train and to track how project level issues and merge requests are progressing toward being ready to release.
-
-#### [Program increment](https://v46.scaledagileframework.com/program-increment/)
-
-The Program Increment is a smaller time frame than the Agile Release Train, and is managed in GitLab using **group level boards and labels**.
+[Project **issue board**](https://v46.scaledagileframework.com/team-kanban/) helps teams to visualize and manage the flow of their work, with the ability to track the overall 'weight' of all the issues assigned to any specific stage in the board.
 
 ---
 
-### [Large Solution](https://v5.scaledagileframework.com/large-solution-safe/)
+### Program
 
-In order to coordinate how multiple dimensions of a complex solution are delivered, the Large Solution layer of the scaled agile framework is designed to facilitate cross project coordination.  In GitLab, a subgroup can enables oversight and coordination of both projects and additional subgroups.
+The [Program layer](https://v5.scaledagileframework.com/program-and-solution-kanbans/) of the Scaled Agile model is the Sub Group which contains related project teams.   At this level, Labels and Boards are used to define and manage the Program Increments and the Agile Release Trains
 
-#### [Solution Intent](https://v46.scaledagileframework.com/solution-intent/)
+#### Agile Release Trains
 
-#### [Solution Train](https://v46.scaledagileframework.com/solution-train/)
+[Agile Release Trains](https://v46.scaledagileframework.com/agile-release-train) enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group Level boards and labels** are used to define specific stages in the release train and to track how project level issues and merge requests are progressing toward being ready to release.
 
-Solution Trains enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group boards and labels** are used to define specific stages in the solution train and to track how project level issues and merge requests are progressing toward being ready to release.
+#### Program increment
+
+The [Program increment](https://v46.scaledagileframework.com/program-increment/) is a smaller time frame than the Agile Release Train, and is managed in GitLab using **group level boards and labels**.
 
 ---
 
-### [Portfolio](https://v5.scaledagileframework.com/portfolio-safe/)
+### Large Solution
 
-At the top of the Scaled Agile Framework is where portfolio and strategic planning drive decisions about future investments and business objectives.   In GitLab, the Group is able to contain both Projects and Subgroups, to enable reporting, tracking and management of strategic initiatives.
+In order to coordinate how multiple dimensions of a complex solution are delivered, the [Large Solution layer](https://v5.scaledagileframework.com/large-solution-safe/) of the scaled agile framework is designed to facilitate cross project coordination.  In GitLab, a subgroup can enables oversight and coordination of both projects and additional subgroups.
 
-#### [Strategic Themes](https://v46.scaledagileframework.com/strategic-themes/)
+#### Solution Intent
 
-Strategic themes are effectively long term goals and objectives at the portfolio level.  In GitLab, the **Epic** at the group level can be used to define the overall theme.
+[Solution Intent](https://v46.scaledagileframework.com/solution-intent/)
 
-#### [Epic](https://v46.scaledagileframework.com/epic/)
+#### Solution Train
 
-The epic is a way to package and organize work required to deliver specific business value.  In GitLab, Epics are a way to strategically organize work from multiple projects.
+[Solution Trains](https://v46.scaledagileframework.com/solution-train/) enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group boards and labels** are used to define specific stages in the solution train and to track how project level issues and merge requests are progressing toward being ready to release.
+
+---
+
+### Portfolio
+
+At the top of the Scaled Agile Framework is where [portfolio](https://v5.scaledagileframework.com/portfolio-safe/) and strategic planning drive decisions about future investments and business objectives. In GitLab, the Group is able to contain both Projects and Subgroups, to enable reporting, tracking, and management of strategic initiatives.
+
+#### Strategic Themes
+
+[Strategic themes](https://v46.scaledagileframework.com/strategic-themes/) are effectively long term goals and objectives at the portfolio level.  In GitLab, the **Epic** at the group level can be used to define the overall theme.
+
+#### Epic
+
+The [epic](https://v46.scaledagileframework.com/epic/) is a way to package and organize work required to deliver specific business value.  In GitLab, Epics are a way to strategically organize work from multiple projects.

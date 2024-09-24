@@ -1,5 +1,5 @@
 ---
-title: Composable GitLab Codebase
+title: "Composable GitLab Codebase"
 status: rejected
 creation-date: "2021-05-19"
 authors: [ "@ayufan", "@mkaeppler" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 NOTE:

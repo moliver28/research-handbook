@@ -1,7 +1,5 @@
 ---
 title: "HackerOne Process"
-aliases:
-- /handbook/security/security-engineering/hackerone-process
 ---
 
 GitLab utilizes [HackerOne](https://hackerone.com/gitlab) for its bug bounty program. Security researchers can report vulnerabilities in GitLab applications or the GitLab infrastructure via the HackerOne website. Team members authorized to respond to HackerOne reports use procedures outlined here.
@@ -20,6 +18,10 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 - During onboarding, new GitLab security team members will be invited to join the HackerOne program if their role requires it.
 
 ## Working the Queue
+
+### Namespace with Ultimate license for triaging
+
+Please ensure that you use [this namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/bug-reproduction) to create projects and groups required for testing vulnerabilities. This namespace is dedicated to reproduction of HackerOne issues.
 
 ### HackerOne Triage Team
 
@@ -88,7 +90,7 @@ the responsible engineering team:
   - Import the report into a GitLab issue using `/h1 import <report> [project] [options]` in Slack
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
   - On the imported GitLab issue:
-    - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/threat-management/vulnerability-management#remediation-slas))
+    - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
     - Assign the appropriate [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
     - Have a proper [`How to reproduce`]({{< ref "engaging-with-security#reproducibility-on-security-issues" >}}) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
     - If the report is a security-related documentation change, add the `~documentation` label
@@ -211,7 +213,7 @@ Sometimes researchers will report a vulnerability in features behind a [feature 
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
 
-- A vulnerability in a feature behind a feature flag that is not complex will be `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance)
+- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs. 
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.

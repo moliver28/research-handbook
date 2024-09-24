@@ -1,7 +1,7 @@
 ---
 title: "Legacy v1: GitLab Professional Services Agreement"
 ---
-
+<!-- vale off -->
 ## GitLab Professional Services Agreement
 
 Deprecated: October 31, 2021

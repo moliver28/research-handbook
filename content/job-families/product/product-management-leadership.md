@@ -7,20 +7,20 @@ This job family represents all Managers in the Product Management department. Th
 directly or indirectly GitLab team members performing in the role of [Product Manager](/job-families/product/product-manager/).
 These roles are responsible for managing and building teams which focus on specific specialties as part
 of GitLab's [product hierarchy](/handbook/product/categories/#hierarchy)
-([sometimes encompassing entire stages or a section](/handbook/product/product-leadership/#product-organizational-structure)).
+([sometimes encompassing entire stages or a section](/handbook/product/product-leaders/product-leadership/#product-organizational-structure)).
 
 ## References
 
 - [Product Handbook](/handbook/product/)
-- [Product Leadership](/handbook/product/product-leadership/)
+- [Product Leadership](/handbook/product/product-leaders/product-leadership/)
 - [Product Development Workflow](/handbook/product-development-flow/)
-- [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/)
+- [Product Management Career Development Framework](/handbook/product/product-management/product-cdf-competencies/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
 
 ## Responsibilities
 
 - Make sure you have a great product team (recruit and hire, coach and mentor, promote proactively, identify underperformance)
-- Work on the vision with the [Product Leadership](/handbook/product/product-leadership/) and CEO; and communicate this vision internally and externally
+- Work on the vision with the [Product Leadership](/handbook/product/product-leaders/product-leadership/) and CEO; and communicate this vision internally and externally
 - Distill the overall vision into a compelling roadmap
 - Make sure the vision advances in every release and communicate this
 - Communicate our vision though demo's, conference speaking, blogging, and interviews
@@ -54,7 +54,7 @@ The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/c
 **Team responsibilities**
 
 - Coach Product Managers through their [responsibilities](/job-families/product/product-manager/#responsibilities)
-- Ensure PMs receive regular [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) feedback and, if desired, Career Coaching
+- Ensure PMs receive regular [CDF](/handbook/product/product-management/product-cdf-competencies/) feedback and, if desired, Career Coaching
 - Ensure that Product Managers participate in [Validation](/handbook/product-development-flow/#validation-track) and [Build](/handbook/product-development-flow/#build-track) track activities while following our product principles so that our Product Performance indicators are met
 - Enable product managers to make the most effective decisions when [prioritizing R&D investment](/handbook/product/product-processes/#how-we-prioritize-work) in their [product groups](/handbook/company/structure/#product-groups) so that our upcoming releases contain relevant enhancements for our customers, users, prospects and us.
 - Convene a set of stable counterparts for your assigned [Product Hierarchy](/handbook/product/categories/#hierarchy) and Use Cases to ensure R&D and GTM [KPIs](/handbook/company/kpis/) are met
@@ -72,7 +72,7 @@ The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/c
 
 #### Group Manager, Product (GMP) - Requirements
 
-Requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/#cdf-for-product-leadership)
+Requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-management/product-cdf-competencies/#cdf-for-product-leadership)
 
 #### Group Manager, Product (GMP) - Career Ladder
 
@@ -159,7 +159,7 @@ The Director, Product Management is a [grade 10](/handbook/total-rewards/compens
 ##### Team responsibility
 
 - Perform all non-IC responsibilities of a [Group Manager of Product](#group-manager-product-gmp---responsibilities)
-- Contribute to the [job family](/handbook/hiring/job-families/), [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and [hiring content](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Product) for the Product function
+- Contribute to the [job family](/handbook/hiring/job-families/), [CDF](/handbook/product/product-management/product-cdf-competencies/) and [hiring content](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Product) for the Product function
 - Help the team to avoid shipping our org chart.
   - Within the area of ownership, ensure that team creates product experiences that solve the job-to-be-done.
   - Across your peer group - work to identify areas to partner with peers to create single app experiences that solve the job-to-be-done.
@@ -171,11 +171,11 @@ The Director, Product Management is a [grade 10](/handbook/total-rewards/compens
 - Exemplify, coach others on, and contribute to [GitLab values](/handbook/values/)
 - Drive cross-functional, high impact business workstreams outside of the direct area of ownership
 - Demonstrate leadership as [expected of Directors across GitLab](/handbook/company/structure/#director-group)
-- Contribute strategic improvements to how the [Product Leadership Team](/handbook/product/product-leadership/#product-leadership-team-structure) operates and shape the priorities of the Product Management function
+- Contribute strategic improvements to how the [Product Leadership Team](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) operates and shape the priorities of the Product Management function
 
 #### Director of Product Management - Requirements
 
-Requirements for the role are outlined as part of the [Product Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/#cdf-for-product-leadership).
+Requirements for the role are outlined as part of the [Product Career Development Framework](/handbook/product/product-management/product-cdf-competencies/#cdf-for-product-leadership).
 
 - Prior experience managing product management managers (e.g., [Group Manager, Product roles](#group-manager-product-gmp)) preferred however not required.
 
@@ -261,10 +261,10 @@ Candidates for this position can generally expect the hiring process to follow t
 
 Product Leadership is responsible for building the capacity and capability of their team and the groups they support to achieve:
 
-1. Their [relevant Product Performance Indicators](/handbook/product/performance-indicators/#structure)
+1. Their [relevant Product Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/#structure)
 1. Our global [Product KPIs](/handbook/company/kpis/#product-kpis)
 1. Job satisfaction of the team members who report to them (as measured by annual employee engagement survey)
-1. Hiring versus plan and [new hire location factor](/handbook/product/performance-indicators/#new-hire-location-factor)
+1. Hiring versus plan and [new hire location factor](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-hire-location-factor)
 1. IACV attained by assigned [use case](/handbook/marketing/use-cases/#specific-use-cases) as designated in `Why GitLab` of opportunity [Command Plans](/handbook/sales/command-of-the-message/command-plan/) ([Dashboard](https://app.periscopedata.com/app/gitlab/705822/Product-Management-+-Sales-Opportunity-Feedback)).
 
 In addition, some roles have role-specific activities and performance indicators.

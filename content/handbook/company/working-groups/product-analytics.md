@@ -17,7 +17,7 @@ description: "The GitLab Product Analytics Working Group fast track GitLab to be
 Fast track GitLab to becoming a data-driven organisation by meeting the data needs of the Product team. Specifically:
 
 - Enable Product to measure stage-specific usage activity, including read activity (frontend; a user in GitLab views a page) and write activity (backend; an object is created)
-- Track stage-specific health metrics like [SMAU](/handbook/product/performance-indicators/).
+- Track stage-specific health metrics like [SMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/).
 
 ## Exit Criteria
 

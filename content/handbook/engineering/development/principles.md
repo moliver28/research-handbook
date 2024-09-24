@@ -26,7 +26,7 @@ engineering practice.
 
 ## Iteration
 
-We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)
+We always push ourselves to be iterative and make the [minimal valuable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)
 that is on the direct path to achiving our goals.
 
 For complex initiatives we are using the [Architecture Design Workflow](/handbook/engineering/architecture/workflow/)
@@ -267,7 +267,7 @@ Due date pressure logically leads to a few outcomes:
 
 1. People are at [increased risk of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 1. We may compromise on our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
-1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change).
+1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change).
 1. We miss the due date.
 
 Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](/handbook/engineering/development/principles/#the-importance-of-velocity), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.

@@ -7,7 +7,7 @@ description: "Marketing Analytics creates and maintains dashboards using our mar
 
 Marketing Analytics uses a hierarchical system when building dashboards to help guide the allowable complexity and frame the data for the intended user.
 
-At the highest level, TD Marketing Key Dashboards are intended to provide insights into our top KPIs, while TD Marketing Functional Dashboards give the detailed insights functional marketing teams need. Ad hoc dashboards are meant to answer one-off questions, and are not meant to be used for ongoing KPI reporting. "TD" stands for Trusted Data, and it refers to models inside and from the common schema (see the [Data Team handbook page here](/handbook/business-technology/data-team/platform/#tdf) for more details)
+At the highest level, TD Marketing Key Dashboards are intended to provide insights into our top KPIs, while TD Marketing Functional Dashboards give the detailed insights functional marketing teams need. Ad hoc dashboards are meant to answer one-off questions, and are not meant to be used for ongoing KPI reporting. "TD" stands for Trusted Data, and it refers to models inside and from the common schema (see the [Data Team handbook page here](/handbook/enterprise-data/platform/#tdf) for more details)
 
 | Level              | Intended User                   | Intended Use (examples)      |
 |--------------------|---------------------------------|------------------------------|
@@ -59,7 +59,7 @@ Ad-Hoc dashboards do not have a stage.
 
 - User Acceptance Testing (UAT) - Primary development has been completed, and we are gathering feedback from the intended users and fixing bugs.
 
-- Production - For a dashboard to be considered production, it must be published in the Production area of Tableau and have gone through the [Tableau approval process](/handbook/business-technology/data-team/platform/tableau/#governance-model).
+- Production - For a dashboard to be considered production, it must be published in the Production area of Tableau and have gone through the [Tableau approval process](/handbook/enterprise-data/platform/tableau/#governance-model).
 
 ## Dashboard Building Guidelines
 

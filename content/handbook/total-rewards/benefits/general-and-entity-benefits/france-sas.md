@@ -65,13 +65,13 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 
 #### Applying for Parental Leave in France
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 ## GitLab France S.A.S. Paid Time Off (Vacation)
 
 - GitLab France S.A.S. team members can review [statutory requirements for paid time off in relation to vacation](/handbook/people-group/paid-time-off/#gitlab-sas-france).
 - GitLab France S.A.S. team members should be aware of their applicable leave categories and can review [the requirements for logging time away from work and the suggested order for using leave balances](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#logging-time-away). (*_internally accessible only_)
-- Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack.
+- Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** Workday in Slack.
 For all technical support inquiries or any inquiries relating to your balances in Mihi, please contact `support@mihi.info` and cc `gitlabHRSS@globalupside.com`.
 
 ## Sick Time
@@ -98,11 +98,17 @@ GitLab's Sick Time policy will run concurrently with this benefit for the first 
 
 ### Reporting Requirements
 
-Team members who fall ill are required to inform GitLab as soon as possible (but no later than 48 hrs) by selecting the `Out Sick` label in Time Off by Deel AND entering the time away into the Mihi platform. You must provide proof by sending the Absence Management Team (leaves@gitlab.com) the sheet no. 3 of the medical sheet drawn up by your physician specifying the dates and reasons for being unable to work. Sheet no. 1 & 2 should be sent to your social security organization.
+Team members who fall ill are required to inform GitLab as soon as possible (but no later than 48 hrs) by selecting `Out Sick` in Workday AND entering the time away into the Mihi platform. You must provide proof by sending the Absence Management Team (leaves@gitlab.com) the sheet no. 3 of the medical sheet drawn up by your physician specifying the dates and reasons for being unable to work. Sheet no. 1 & 2 should be sent to your social security organization.
 
 If an extension is needed, team members must notify GitLab as soon as possible (but no later than 48hrs) and send an updated sheet no. 3.
 
 For more information, read about the [sick time policies and procedures in France](https://ec.europa.eu/social/main.jsp?catId=1110&langId=en&intPageId=4535).
+
+## Additional Leave Types
+
+### Family Care Leave
+
+Team members in France are entitled to take up to 3 days of family care leave each year, or 5 days if the child is under 12 months old. These days are generally considered unpaid unless the team member is eligible for GitLab's Sick Time policy; which will run concurrently. If you would like to request Family Care Leave please contact the Absence Management Team (leaves@domain). Team members must include a medical certificate, regardless of the leave duration, along with their request.
 
 ## Tracking Working Hours
 

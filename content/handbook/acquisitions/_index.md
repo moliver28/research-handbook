@@ -28,7 +28,7 @@ Below is a set of general, yet not strict, characteristics of companies that are
 - Engineers that meet our [standard hiring guidelines](/job-families/engineering/backend-engineer/)
 - Ideally bring a solution which accelerates our maturity in a product category or fits into the new categories on our roadmap.
 - R&D team size under 30 people
-- Willing to [reimplement products into GitLab](/handbook/product/single-application/) in Ruby and Go
+- Willing to [reimplement products into GitLab](/handbook/product/categories/gitlab-the-product/single-application/) in Ruby and Go
 - Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](https://about.gitlab.com/install/ce-or-ee/)
 - Aligned to ship on the first month and iterate quickly
 - Strong founders looking to join GitLab
@@ -40,7 +40,7 @@ Below is a set of general, yet not strict, characteristics of companies that are
 
 ## Why join GitLab?
 
-1. Leverage the unique data and user-experience GitLab has as [complete DevOps platform](/handbook/product/single-application/) to act as a force-multiplier in helping you build the vision for your product area
+1. Leverage the unique data and user-experience GitLab has as [complete DevOps platform](/handbook/product/categories/gitlab-the-product/single-application/) to act as a force-multiplier in helping you build the vision for your product area
 1. Focus on building great technology at scale to reach millions of users and some of the largest enterprise companies. We can ensure what you made will be used by more than 100,000 organizations and millions of users.
 1. Quick transaction - We move fast and aim to close the deal in 2-4 months, if you are able to drive a fast process with us
 1. Upside - Financial outcome if GitLab is successful (GitLab stock)
@@ -81,7 +81,7 @@ Learn more about our internal [acquisition process](/handbook/acquisitions/acqui
 
 ## Performance indicators
 
-See our [performance indicators](/handbook/product/performance-indicators/#acquisition-impact).
+See our [performance indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/#acquisition-impact).
 
 ## Contact us
 

@@ -23,7 +23,7 @@ milestones to make it easier to think about planning.
 
 Here are some resources to learn more about story mapping:
 
-1. Agilevelocity [Story Mapping 101](https://agilevelocity.com/agile-tools/story-mapping-101/)
+1. Agilevelocity [Story Mapping 101](https://agilevelocity.com/blog/story-mapping-101/)
 1. Easyagile [Building Story Maps PDF](https://www.easyagile.com/training/building-user-story-maps.pdf)
 1. Jeff Patton [Story Map Concepts PDF](https://www.jpattonassociates.com/wp-content/uploads/2015/03/story_mapping.pdf)
 1. GitLab [story map training video](https://gitlab.zoom.us/recording/share/7g9gHwJm4xre4zbO5hmHW9MtkmlFHr0h3MimJWd80wCwIumekTziMw), [slide deck](https://docs.google.com/presentation/d/19csmEbXyxiTaGHYAOpC8IJivqBhV7hnKTXoSB7yQZjk/)

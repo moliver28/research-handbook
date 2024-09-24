@@ -2,6 +2,7 @@
 title: "Modular Monolith ADR 002: Define bounded contexts"
 creation-date: "2024-05-07"
 authors: [ "@fabiopitino" ]
+toc_hide: true
 ---
 
 ## Context

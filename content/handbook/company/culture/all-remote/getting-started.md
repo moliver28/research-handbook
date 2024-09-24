@@ -135,7 +135,7 @@ While you will naturally connect with people during your onboarding, you will al
 Below are a number of intentional facets of [GitLab's culture](/handbook/company/culture#culture-at-gitlab), created to foster connections.
 
 1. [Social call](/handbook/communication/#social-call): A series of optional calls once a month on a Tuesday, to which everyone in the organization is invited. We have no set agenda, but items can be added to the linked document. This is just a time set aside for everyone to openly talk where everyone is a moderator.
-1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
+1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
 1. [Group conversations]({{< ref "group-conversations" >}}): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a co-working space or getting dinner together.
@@ -167,7 +167,7 @@ When you're not working, disconnect by turning off Slack and closing down your e
 
 ### Get accustomed to the communication preferences of your co-workers
 
-GitLab encourages [non-work related communication](informal-communication/) (talking about private life on a team call) for [relationship building](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926). Take advantage of group video calls for [bonding](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/), one-on-one [video calls](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/) between people (as part of onboarding), and be sure to attend [periodic summits](https://about.gitlab.com/events/gitlab-contribute/) with the whole company to get to know each other in an informal setting.
+GitLab encourages [non-work related communication](informal-communication/) (talking about private life on a team call) for [relationship building](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926). Take advantage of group video calls for [bonding](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/), one-on-one [video calls](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/) between people (as part of onboarding), and be sure to attend [periodic summits](/handbook/company/culture/summit/) with the whole company to get to know each other in an informal setting.
 
 Ask your co-workers what their preferred methods of communication are; write them down; and be sure to use their preferred method/s.
 
@@ -195,7 +195,7 @@ Here are a few suggestions to avoid isolation.
 1. Experiment with working in a shared setting (e.g. a local coworking venue, [WiFi Tribe](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal/), etc.).
 1. Leverage [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) whenever practical, both at work and outside of work.
 1. Engage with colleagues on [non-work topics](/handbook/communication/chat#social-groups), via Slack, ad hoc video calls, or other communication tools.
-1. Prioritize work events where travel and physical interaction is involved (e.g. [company summits](https://about.gitlab.com/events/gitlab-contribute/), meetups, [events](events/), conferences, etc.).
+1. Prioritize work events where travel and physical interaction is involved (e.g. [company summits](/handbook/company/culture/summit/), meetups, [events](events/), conferences, etc.).
 
 For GitLab team members, be sure to join the `#mental_health_aware` Slack channel and read our [guide](mental-health/) on combating burnout, isolation, and anxiety in the remote workplace.
 

@@ -14,7 +14,7 @@ or creating a new issue in the Growth Product [Acquisition issues] list.
 
 ## Mission
 
-The Growth:Acquisition Group works on product priorities and [growth deliverables](/handbook/product/growth/#growth-deliverables)
+The Growth:Acquisition Group works on product priorities and [growth deliverables](/handbook/product/groups/growth/#growth-deliverables)
 with our [Growth product managers](/handbook/marketing/growth/)
 and contributes to Growth initiatives including the [Registration Flow](https://gitlab.com/groups/gitlab-org/-/epics/4745)
 and [Continuous onboarding](https://gitlab.com/groups/gitlab-org/-/epics/4817).

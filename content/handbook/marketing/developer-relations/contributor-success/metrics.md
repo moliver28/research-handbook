@@ -28,7 +28,7 @@ To view the dashboard your browser must allow third-party cookies.
 ### `product_community_contribution_mrs`
 
 Merge requests with ~"Community contribution" label, opened in
-[projects that are part of the product](/handbook/engineering/metrics/#projects-that-are-part-of-the-product).
+[projects that are part of the product](/handbook/product/groups/product-analysis/engineering/dashboards/#projects-that-are-part-of-the-product).
 
 The results include MR type, MR age, MR labels, MR stage, MR group, MR section.
 

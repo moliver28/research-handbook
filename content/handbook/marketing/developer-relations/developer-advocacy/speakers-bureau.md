@@ -1,8 +1,6 @@
 ---
 title: "Join the Speakers Bureau"
 description: "The Speakers Bureau is a group of GitLab team members and members of the wider GitLab community who are available to participate in events and deliver talks."
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/speakers-bureau/index.html
 ---
 
 ## What is the Speakers Bureau?
@@ -71,7 +69,7 @@ Once you have the above items, follow these steps to add yourself to create your
 1. Fill out the merge request details. Community members who are applying should tick the box to `Allow commits from members who can merge to target branch` as detailed on the [Allow collaboration on merge requests across forks](https://docs.gitlab.com/ee/user/project/merge_requests/allow_collaboration.html#enabling-commit-edits-from-upstream-members) page in our docs.
 1. Add the `speakers-bureau` label and assign to `@johncoghlan`. Community members should mention `@abuango` in a comment in the merge request so our team can review and merge.
 
-The practical handbook edits handbook provides a [step-by-step tutorial for using the Web IDE](/handbook/editing-handbook/practical-handbook-edits/#using-the-web-ide-to-edit-the-handbook).
+The practical handbook edits handbook provides a [step-by-step tutorial for using the Web IDE](/handbook/about/editing-handbook/practical-handbook-edits/#using-the-web-ide-to-edit-the-handbook).
 
 ### Linting
 

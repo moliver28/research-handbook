@@ -95,7 +95,7 @@ In addition to following the [Team Member Social Media Policy](/handbook/marketi
 
 ### Return of GitLab-Owned Assets
 
-All GitLab-owned computing resources must be [returned]({{< ref "offboarding#returning-property-to-gitlab" >}}) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) or the [Offboarding Tasks]({{< ref "offboarding#managing-the-offboarding-tasks" >}}), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
+All GitLab-owned computing resources must be [returned]({{< ref "offboarding#returning-property-to-gitlab" >}}) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) or the [Offboarding Tasks]({{< ref "offboarding#managing-the-offboarding-tasks" >}}), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
 
 ### Bring-Your-Own-Device (BYOD)
 
@@ -109,7 +109,7 @@ All personal mobile computing devices used to access GitLab-managed data, includ
 
 #### Unable to Use Company Laptop
 
-For new employees who have not received a company laptop, there are [exception processes](/handbook/business-technology/end-user-services/onboarding-access-requests/#exception-processes) for using non-company devices.
+For new employees who have not received a company laptop, there are [exception processes](/handbook/it/end-user-services/onboarding-access-requests/#exception-processes) for using non-company devices.
 
 The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration), and a Microsoft Windows system is still not allowed access under any circumstances.
 
@@ -129,7 +129,7 @@ As a reminder, Red Data may not be transmitted from an approved Red data source 
 
 ### Use of file sharing services other than GitLab's Google Drive
 
-Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
+Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
 
 When creating an account with and using a file sharing service other that Google Drive, Team Members must:
 

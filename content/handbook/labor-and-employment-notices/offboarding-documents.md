@@ -141,7 +141,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Washington
 
-- [Unemployment Benefits Poster](https://esdorchardstorage.blob.core.windows.net/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
+- [Unemployment Benefits Poster](https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
 
 ### West Virginia
 

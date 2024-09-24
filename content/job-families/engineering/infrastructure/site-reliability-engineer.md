@@ -278,6 +278,29 @@ a system that can scale to meet demand.
 
 In each of these responsibilities, we focus on the long-term mindset required to harden our systems for growth.
 
+### Gitaly
+
+SREs in [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/) work alongside [Backend Engineers](/job-families/engineering/development/backend/#gitaly) with a focus primarily on improving the availability, reliability and scalability  of the Gitaly fleet on GitLab.com. While the backend engineers approach their responsibilities from a software developer point of view, the SREs approach the same problems from the operational perspective and collaborate closely on finding an optimal solution, in addition to ensuring that new Gitaly features can run at scale and deployed to production safely.
+
+#### Responsibilities
+
+1. Work with peer SREs to maintain Gitaly’s environments within GitLab’s SaaS offerings, including cost and performance optimization, capacity planning, migrations and debugging production issues.
+1. Participate in architectural discussions and decisions surrounding Gitaly, within the greater GitLab ecosystem.
+1. Scope, estimate and describe tasks to reach the team’s goals.
+1. Develop production automation and tooling for Gitaly, for use both in SaaS and self-managed installations.
+1. Help ensure that Gitaly development tooling, releases and other processes serve the team and the product’s goals.
+1. Develop Gitaly in accordance with the product’s goals and a focus on reliability and maintainability.
+1. Instrument, monitor and profile Gitaly in the production environment.
+1. Build dashboards and alerts to monitor the health of your services.
+1. Conduct acceptance testing of the features you’ve built.
+1. Educate all team members on best practices relating to high availability and platform tooling.
+1. Write performant, maintainable, and elegant code and peer review others’ code.
+1. Be positive and solution-oriented.
+1. Constantly improve the quality & security of the product.
+1. Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer.
+1. Qualify developers for hiring.
+1. Respond to user emergencies, platform alerts and support requests, including regular on-call duties.
+
 #### On-call Alignment
 
 SREs in Scalability are expected to be part of the on-call rotation.

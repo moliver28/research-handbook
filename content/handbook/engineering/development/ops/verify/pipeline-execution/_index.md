@@ -50,7 +50,7 @@ The Verify:Pipeline Execution Group is focused on supporting the functionality w
 ## Performance Indicator
 
 We measure the value we contribute by using Performance Indicators (PI), which we define and use to track progress.
-The current [PI for the Pipeline Execution group](/handbook/product/performance-indicators/#verify-ci-verify-runner-count-of-pipelines-triggered-by-unique-users) is the `number of unique users who trigger ci_pipelines`. For more details, please check out the [Product Team Performance Indicators](/handbook/product/performance-indicators/#regular-performance-indicators). To view the latest Verify stage ci_pipeline data see our [Tableau Dashboard](https://10az.online.tableau.com/t/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyPerformanceIndicatorHub).
+The current [PI for the Pipeline Execution group](https://internal.gitlab.com/handbook/company/performance-indicators/product/#verify-ci-verify-runner-count-of-pipelines-triggered-by-unique-users) is the `number of unique users who trigger ci_pipelines`. For more details, please check out the [Product Team Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/#regular-performance-indicators). To view the latest Verify stage ci_pipeline data see our [Tableau Dashboard](https://10az.online.tableau.com/t/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyPerformanceIndicatorHub).
 
 ### Usage Funnel
 
@@ -306,9 +306,9 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 For information about `Engineering Time` see [Engineering Initiatives](/handbook/engineering/#engineering-initiatives).
 
-**PM** (with help from **EM** as needed) will curate the [list of `Candidate::x.x` + not `Engineering Time` list](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&not%5Blabel_name%5D%5B%5D=Engineering%20Time&first_page_size=20) to ensure there is a reasonable number of high priority issues to select from at any point. If there are no issues for the milestone you are looking for you may select from a future milestone. 
+**PM** (with help from **EM** as needed) will curate the [list of `Candidate::x.x` + not `Engineering Time` list](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&not%5Blabel_name%5D%5B%5D=Engineering%20Time&first_page_size=20) to ensure there is a reasonable number of high priority issues to select from at any point. If there are no issues for the milestone you are looking for you may select from a future milestone.
 
-**EM**  (with help from **PM** as needed) will maintain the [list of `Engineering Time` + `Candidate::x.x`](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Engineering%20Time&first_page_size=20) issues to ensure there is a reasonable number of high priority issues to select from at any point. If there are no issues for the milestone you are looking for you may select from a future milestone. 
+**EM**  (with help from **PM** as needed) will maintain the [list of `Engineering Time` + `Candidate::x.x`](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Engineering%20Time&first_page_size=20) issues to ensure there is a reasonable number of high priority issues to select from at any point. If there are no issues for the milestone you are looking for you may select from a future milestone.
 
 By the Friday 2 weeks before the end of the current milestone each **Engineer** will:
 
@@ -316,39 +316,39 @@ By the Friday 2 weeks before the end of the current milestone each **Engineer** 
   - **Note:** Any issues you have in progress that will not be completed in the current milestone can be used in lieu of selecting a new issue as long as the criteria matches
     - If you are unsure if the issues you have in progress are still a priority check with the EM and PM to verify.
     - Update the ~Deliverable or ~Stretch label if there is one if necessary
-- Select 1 [`Candidate::x.x` + not `Engineering Time` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&not%5Blabel_name%5D%5B%5D=Engineering%20Time&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=candidate%3A%3A17.x&first_page_size=20) that you will work on in the upcoming milestone. 
+- Select 1 [`Candidate::x.x` + not `Engineering Time` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&not%5Blabel_name%5D%5B%5D=Engineering%20Time&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=candidate%3A%3A17.x&first_page_size=20) that you will work on in the upcoming milestone. Start with ~priority::1 issues first followed by ~priority::2 and ~priority::3
   - Assign yourself
   - Assure there is a weight set
   - Set the milestone according to the milestone when you expect the work to complete
-    - If it is not the upcoming milestone, break the issue into multiple issues, one of which can be completed in the upcoming milestone if at all possible.  
+    - If it is not the upcoming milestone, break the issue into multiple issues, one of which can be completed in the upcoming milestone if at all possible.
       - Let the EM/PM know you have done this in an issue comment on the original issue so they can ensure the rest of the issues are planned for appropriately.
-  - Add the `Deliverable` label. 
-- Select 1 [`flaky-test` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=failure%3A%3Aflaky-test&first_page_size=20) to fix. 
-  - Do a quick check to see if there are multiple issues that are clearly caused by the same issue, link these as related and/or assign to themselves. 
-  - Set the milestone appropriately to indicate when the test will be fixed. 
-    - If you are unsure of the timeline, you can delay setting the milestone until you are comfortable committing to a milestone. 
+  - Add the `Deliverable` label.
+- Select 1 [`flaky-test` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=failure%3A%3Aflaky-test&first_page_size=20) to fix.
+  - Do a quick check to see if there are multiple issues that are clearly caused by the same issue, link these as related and/or assign to themselves.
+  - Set the milestone appropriately to indicate when the test will be fixed.
+    - If you are unsure of the timeline, you can delay setting the milestone until you are comfortable committing to a milestone.
 - Select 1 item to weight and refine for [upcoming work](https://gitlab.com/groups/gitlab-org/-/boards/4178322)
-  - Assign this item to yourself. You can unassign it once you have completed the refinement process. 
+  - Assign this item to yourself. You can unassign it once you have completed the refinement process.
     - You may want to add a comment indicating that you are assigning to yourself for refinement purposes only, so there is no confusion. This is entirely optional.
   - Do not set a milestone on the issue.
   - If refinement is going to take considerable effort, create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) (see also [Spikes](#spikes) and [Steps for Refining and Weighting Issues](#steps-for-refining-and-weighting-issues))
     - Tag the **EM** in a comment on the spike to let them know you have created this spike.
     - Use this as your `Engineering Time` item for the milestone.
 - Select 1 item to weight and refine for [community contribution](https://gitlab.com/groups/gitlab-org/-/boards/4178322)
-  - Assign this item to yourself. You can unassign it once you have completed the refinement process. 
+  - Assign this item to yourself. You can unassign it once you have completed the refinement process.
     - You may want to add a comment indicating that you are assigning to yourself for refinement purposes only, so there is no confusion. This is entirely optional.
   - Do not set a milestone on the issue.
   - If refinement is going to take considerable effort, create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) (see also [Spikes](#spikes) and [Steps for Refining and Weighting Issues](#steps-for-refining-and-weighting-issues))
     - Tag the **EM** in a comment on the spike to let them know you have created this spike.
     - Use this as your `Engineering Time` item for the milestone.
-- Select 1 [`Engineering Time` + `Candidate::x.x` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Engineering%20Time&first_page_size=20) to fix. 
+- Select 1 [`Engineering Time` + `Candidate::x.x` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Engineering%20Time&first_page_size=20) to fix.
 - Assign yourself
   - Assure there is a weight set
   - Set the milestone according to the milestone when you expect the work to complete
-    - If it is not the upcoming milestone, break the issue into multiple issues, one of which can be completed in the upcoming milestone if at all possible.  
+    - If it is not the upcoming milestone, break the issue into multiple issues, one of which can be completed in the upcoming milestone if at all possible.
       - Let the EM/PM know you have done this in an issue comment on the original issue so they can ensure the rest of the issues are planned for appropriately.
-  - add the `Deliverable` label or `Stretch` label.  
-- Add a comment to the milestone planning issue to indicate which issues that you have completed this planning work and the issues you have selected. 
+  - add the `Deliverable` label or `Stretch` label.
+- Add a comment to the milestone planning issue to indicate which issues that you have completed this planning work and the issues you have selected.
 
 Throughout the milestone, if an **Engineer** completes their tasks and has extra capacity:
 
@@ -482,7 +482,7 @@ More detail on the workflow is available on the [Product-Development Flow](/hand
 
 - check with your team members to see if they need help to complete their committed work. See [Working Right to Left to reduce WIP](#working-right-to-left-to-reduce-wip)
 - check with the EM or PM to see if there are any customer support requests you can help with.
-- consult the lists used in [planning](#planning) to find additional unclaimed items to work on. 
+- consult the lists used in [planning](#planning) to find additional unclaimed items to work on.
 
 #### What are the priorities for this milestone?
 
@@ -693,7 +693,7 @@ We follow the steps below to achieve the best results in the shortest time:
 1. When a solution is validated and the team has a clear understanding of the effort required, it is time to break the big solution down into smaller issues. This is usually done in the `workflow::planning breakdown` phase and the whole team (PM, Engineers, Product Designer, QA, and Technical Writer) is involved in the process. They work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out iteration strategies for help.
 
 We aim to design broadly for an epic or full feature at least one milestone ahead of time and then break the big solution into smaller issues to pick up in the next milestones.
-Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-viable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
+Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-valuable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
 
 #### Avoiding crunch times between UX, Product and Engineering
 
@@ -790,7 +790,7 @@ When creating a follow-up issue for required tests:
 
 ### Bugs
 
-As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/quality/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
+As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/infrastructure/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
 
 ### Features
 

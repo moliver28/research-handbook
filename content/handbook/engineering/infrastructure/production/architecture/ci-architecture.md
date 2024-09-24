@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/production/architecture/ci-architecture.html
 title: "CI Service Architecture"
 controlled_document: true
 ---

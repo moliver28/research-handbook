@@ -6,7 +6,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ---
 
-Customer Onboarding is the [beginning phase of the customer lifecycle](/handbook/customer-success/vision/#lifecycle-stages).
+Customer Onboarding is the [beginning phase of the customer lifecycle](/handbook/customer-success/customer-success-vision/#lifecycle-stages).
 
 ## Overview
 
@@ -101,6 +101,7 @@ By accomplishing the following tasks, you'll know you have completed onboarding:
   - [ ] Asks about the customer's DevSecOps toolstack
   - [ ] Asks about any additional customer stakeholders
   - [ ] Advises the customer on how to get [support](https://about.gitlab.com/support/) as well as how to sign up for security alerts
+  - [ ] Raises the awareness at the customer that they bookmark our page for platform/service changes and announcements ([https://about.gitlab.com/blog/categories/bulletin-board/](https://about.gitlab.com/blog/categories/bulletin-board/))
 - [ ] Complete initial draft of success plan, with the objective being their primary use case with the relevant [Stage Enablement playbook](/handbook/customer-success/playbooks/)
 - [ ] Complete second call (first cadence), where the CSM:
   - [ ] Discusses how they will work with the customer towards their goals, collecting metrics for success, milestones/timelines, and establishing next steps
@@ -114,7 +115,7 @@ If you haven't been able to achieve all of this by the end of the second call, [
 
 ## Time to Value Metrics
 
-The [Time to Value KPIs](/handbook/customer-success/vision/#time-to-value-kpis) are developed to help us understand key facts about how we are serving our customers, and how we could improve. Below are the processes for how CSMs should update and track their Time to Value KPIs. For definitions, please see [Time to Value KPIs](/handbook/customer-success/vision/#time-to-value-kpis). For data visualization, see [Customer Onboarding Dashboard](https://gitlab.gainsightcloud.com/v1/ui/home#58502af5-e7c2-4cbd-8645-d612b74424ff).
+The [Time to Value KPIs](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) are developed to help us understand key facts about how we are serving our customers, and how we could improve. Below are the processes for how CSMs should update and track their Time to Value KPIs. For definitions, please see [Time to Value KPIs](/handbook/customer-success/customer-success-vision/#time-to-value-kpis). For data visualization, see [Customer Onboarding Dashboard](https://gitlab.gainsightcloud.com/v1/ui/home#58502af5-e7c2-4cbd-8645-d612b74424ff).
 
 ### Time to Engage
 

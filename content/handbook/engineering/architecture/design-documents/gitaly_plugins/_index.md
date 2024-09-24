@@ -1,5 +1,5 @@
 ---
-title: Gitaly Plugins
+title: "Gitaly Plugins"
 status: proposed
 creation-date: "2023-02-01"
 authors: [ "@samihiltunen" ]
@@ -333,9 +333,9 @@ The plugin currently does not support dropping certain reference updates as is p
 
 ### Future opportunities
 
-#### Guaranteed post-receive notification deliveries ([#5411](https://gitlab.com/gitlab-org/gitaly/-/issues/5411))
+#### Guaranteed post-receive notification deliveries (#5411)
 
-Currently Gitaly does not guarantee the delivery of post-receive notifications. The delivery could fail for any reason. For example, Gitaly could crash or
+Currently Gitaly does not guarantee the delivery of post-receive notifications ([#5411](https://gitlab.com/gitlab-org/gitaly/-/issues/5411)). The delivery could fail for any reason. For example, Gitaly could crash or
 the Rails application could be unavailable. This can lead to unexpected behavior.
 
 1. The notifications trigger CI pipelines after writes. If the delivery fails, the pipelines may not be triggered.

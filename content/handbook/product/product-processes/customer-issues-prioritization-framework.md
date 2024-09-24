@@ -75,7 +75,7 @@ The framework is powered by a model that consists of several key components:
 
 ### Customer links
 
-To link an account, opportunity, or support ticket to an issue or epic, [use the feedback template and Salesforce/Zendesk link](/handbook/product/how-to-engage/#a-customer-expressed-interest-in-a-feature) to add a comment to the issue or epic in `gitlab-org` or any project or sub-group within this top-level namespace (ex: `/gitlab-org/gitlab`). For best results, only include one Salesforce or Zendesk link per comment. If you want to "unlink" an account from an issue or epic, simply remove the Salesforce or Zendesk link from the respective comment(s) on the issue or epic.
+To link an account, opportunity, or support ticket to an issue or epic, [use the feedback template and Salesforce/Zendesk link](/handbook/product/product-management/#a-customer-expressed-interest-in-a-feature) to add a comment to the issue or epic in `gitlab-org` or any project or sub-group within this top-level namespace (ex: `/gitlab-org/gitlab`). For best results, only include one Salesforce or Zendesk link per comment. If you want to "unlink" an account from an issue or epic, simply remove the Salesforce or Zendesk link from the respective comment(s) on the issue or epic.
 
 Supported link types:
 

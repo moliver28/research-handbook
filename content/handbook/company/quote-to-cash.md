@@ -19,7 +19,7 @@ An efficient Quote-to-Cash system makes purchasing, activating, and managing Git
 
 ## Teams
 
-Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/readiness/operations/), and [Data](/handbook/business-technology/data-team/).
+Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/readiness/operations/), and [Data](/handbook/enterprise-data/).
 
 ## Systems
 

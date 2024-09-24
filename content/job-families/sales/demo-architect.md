@@ -33,7 +33,7 @@ The Associate Demo Architect is a [grade 5](/handbook/total-rewards/compensation
 - Experience with modern development practices strongly preferred, including Kubernetes, Docker, Package Management, Application Security (SAST, DAST), Cloud infrastructure, and serverless
 - Excellent time management and self-organization skills while performing a wide range of tasks and quickly pivoting to respond to higher priorities
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Demo Architect
 

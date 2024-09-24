@@ -1,5 +1,5 @@
 ---
-title: Capacity planning for GitLab Dedicated
+title: "Capacity planning for GitLab Dedicated"
 status: implemented
 creation-date: "2023-09-11"
 authors: [ "@abrandl" ]
@@ -8,8 +8,6 @@ approvers: [ "@swiskow", "@lmcandrew", "@o-lluch" ]
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

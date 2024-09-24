@@ -13,9 +13,9 @@ This type of event is generally recommended for smaller virtual events (200 atte
 
 Please note this option does not allow for registration to be capped. You can require approval, but Zoom doesn't allow customization of the rejection email (and it isn't clear if a rejection email is even sent).
 
-#### [Owned Events Hosted on Personal Zoom Accounts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#owned-events-hosted-on-personal-zoom-accounts-1)
+#### Owned Events Hosted on Personal Zoom Accounts
 
-This is a light-weight virtual event that is hosted on any team member's personal Zoom.
+This is a light-weight virtual event that is [hosted on any team member's personal Zoom](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#owned-events-hosted-on-personal-zoom-accounts-1).
 
 #### Virtual Lunch and Learn Session (Owned Events)
 
@@ -35,9 +35,9 @@ In most cases we work closely with an advocate within an account to drive produc
 
 ## Hosted on Field Marketing Zoom License
 
-### [Virtual Workshops](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1)
+### Virtual Workshops
 
-Field Marketers will work with the Customer Success teams, Product Marketing & Solution Engineers to build various types of Virtual Workshops, depending on the needs of the region. These Virtual Workshops are designed to accelerate pipeline and attract new customers to GitLab by providing a hands-on experience.
+Field Marketers will work with the Customer Success teams, Product Marketing & Solution Engineers to build various types of [Virtual Workshops](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1), depending on the needs of the region. These Virtual Workshops are designed to accelerate pipeline and attract new customers to GitLab by providing a hands-on experience.
 
 For more information regarding workshop capacities, please review [these details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration).
 
@@ -52,9 +52,9 @@ Note that Virtual Workshops involve the SLA timeline below. Please make sure to 
 
 - **Virtual Workshops (-40 business day [SLA](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit#gid=1983708280&range=A48))** - These workshops utilize the material from the current workshops that have already been created. For these workshops, you will be re-utilizing all the existing content with either no content changes or *very* minor content adjustments (example - change of title from Advanced CI/CD Workshop to Advanced CI/CD Workshop for the PubSec).
 
-### [Webcasts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1)
+### Webcasts
 
-This is a GitLab-hosted virtual event with Webcast type configuration in Zoom. This is the preferred setup for larger GitLab-hosted virtual events (up to 1,000 attendees) that requires registration due to the integration with Marketo for automated lead flow and event tracking. GitLab-hosted webcast type is a single room virtual event that allows multiple hosts. Attendees cannot share audio/video unless manually grated access.
+This is a GitLab-hosted virtual event with [Webcast type](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1) configuration in Zoom. This is the preferred setup for larger GitLab-hosted virtual events (up to 1,000 attendees) that requires registration due to the integration with Marketo for automated lead flow and event tracking. GitLab-hosted webcast type is a single room virtual event that allows multiple hosts. Attendees cannot share audio/video unless manually grated access.
 
 #### Webcast SLA
 
@@ -172,9 +172,9 @@ Panelists have the ability to unmute, share screen, answer chat, answer Q&A, etc
 
 It's not recommended to have more than a few hosts because it can get a bit confusing when you go to end the meeting, stop recording, etc. Recommendation is the FMC sets themselves as host, the FMM also as a host and 1-2 SAs as hosts.
 
-#### [Zoom Configuration Training Video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be)
+#### Zoom Configuration Training Video
 
-This training video includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions.
+[This training video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be) includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions.
 
 *This video has been uploaded as a private video in GitLab Unfiltered. You MUST be logged into Unfiltered to view the video. Instructions on how to log into GitLab Unfiltered can be found [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).*
 
@@ -217,9 +217,9 @@ This training video includes Zoom configuration setup instructions, as well as M
 
 ### Step 2: Set up the webcast in Marketo/SFDC and integrate to Zoom
 
-#### [Marketo Program and SFDC Campaign Setup Training Video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be)
+#### Marketo Program and SFDC Campaign Setup Training Video
 
-Note: This training video includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions. Marketo program/SFDC Campaign setup instructions begin around the 9.5 minute mark.
+Note: This training video includes Zoom configuration setup instructions, as well as [Marketo program/SFDC Campaign setup instructions](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be). Marketo program/SFDC Campaign setup instructions begin around the 9.5 minute mark.
 
 *This video has been uploaded as a private video in GitLab Unfiltered. You MUST be logged into Unfiltered to view the video. Instructions on how to log into GitLab Unfiltered can be found [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).*
 
@@ -260,7 +260,7 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
 These will be completed by the FMC when setting up the Marketo program.
 
 - `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
-  - If this is a joint campaign with a partner, make sure the partner includes `utm_partnerid=` [more details here](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns). For a list of IDs for each partner, [go here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id).
+  - If this is a joint campaign with a partner, make sure the partner includes `utm_partnerid=` [more details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns). For a list of IDs for each partner, [go here](/handbook/marketing/marketing-operations/campaigns-and-programs/#crm-partner-id).
 - `{{my.partner name}}` - If this is a campaign run with a partner, you may list mulitple here
 - `{{my.webcastDate}}` - the webcast LIVE date
 - `{{my.webcastTime}}` - token with the webcast time in local timezone/UTC timezone
@@ -1159,15 +1159,21 @@ Note that our capacity for events run on personal Zoom accounts is 200 attendees
 
 **DRI: FMM & FMC**
 
-## [Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
+## Best Practices
+
+[Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
 
 **DRI: FMM**
 
-## [Promotion Guidelines](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
+## Promotion Guideline
+
+[Promotion Guidelines](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
 
 **DRI: FMM**
 
-## [Logistical Setup](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
+## Logistical Setup
+
+[Logistical Setup](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
 
 **DRI: FMM**
 
@@ -1179,12 +1185,18 @@ Note that our capacity for events run on personal Zoom accounts is 200 attendees
 - If you plan on sending a Marketo reminder email to attendees, you do not need to set up the reminder email in Zoom.
 In order for your FMC to triage your Marketo LP issues, you **must** have your Zoom event set up in advance and link your URL in the FMC Checklist section of your FM issue.
 
-## [During the Event](/handbook/marketing/virtual-events/self-service-virtual-events/#during-the-event)
+## During the Event
+
+[During the Event](/handbook/marketing/virtual-events/self-service-virtual-events/#during-the-event)
 
 **DRI: FMM**
 
-## [Post Event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
+## Post Event
+
+[Post Event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
 
 **DRI: FMM**
 
-## [Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)
+## Results
+
+[Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)

@@ -8,7 +8,7 @@ For the workflow that applies to the wider community see the [contributing guide
 
 ## GitLab Flow
 
-Products at GitLab are built using the [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html).
+Products at GitLab are built using the [GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/).
 
 We have [specific rules around code review](/handbook/engineering/workflow/code-review/).
 
@@ -57,22 +57,42 @@ There are two phases for fixing a broken `master` incident which have a target S
 
 | Phase | Service level objective | DRI |
 | --- | --- | --- |
-| [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labeled on the incident |
+| [Triage](#triage-broken-master) | 4 hours from the 2nd occurrence of a broken `master` incident creation until assignment | group labeled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
-Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
+Note: Recurring incidents are negatively impacting master pipeline stability and development velocity. Any untriaged, recurring incident will be automatically escalated to `#dev-escalation` following this timeline:
+
+```mermaid
+timeline
+  title Pipeline incident escalation
+    section Pipeline failure incident #1
+      not recurring in 24 hours and no human activity : Auto closed
+      any human update on incident #1
+        : labels incident #1 with escalation skipped
+        : does not trigger any group ping or escalation
+      same job failures recurring in incident #2
+        : closes incident #2 as duplicate of incident #1
+        : labels incident #1 with escalation needed
+        : pings attributed group channel after 10 minutes of inactivity
+        : 2nd ping to group channel after 30 minutes of inactivity
+        : pings stage channel in after 40 minutes of inactivity
+        : escalates to dev-escalation after 1 hour of inactivity
+        : labels incident #1 is escalated
+```
+
+If an incident becomes a blocker for MRs and deployments before being auto-escalated, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
 
 Additional details about the phases are listed below.
 
 ### Broken `master` escalation
 
-As mentioned above, broken `master` incidents are automatically escalated unless it is triaged by a triage DRI within 30 minutes.
+Recurring broken `master` incidents are automatically escalated to `#dev-escalation` unless it is triaged within 1 hour.
 
 If a broken `master` is blocking your team before auto-escalation (such as creating a security release) then you should:
 
 1. See if there is a non-resolved [broken `master` incident](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) with a DRI assigned and check discussions there.
 1. Check discussions on the failure notification in the triage DRI's group Slack channel to see if anyone is investigating the incident you are looking at. See [Triage broken master](#triage-broken-master) for information on who the triage DRI is.
-1. If there is not a clear DRI or action to resolve, use the [dev escalation](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) process to solicit help in the broken `master` incident.
+1. If there is not a clear DRI or action to resolve, use the [dev escalation](/handbook/engineering/development/processes/infra-dev-escalation/process/) process to solicit help in the broken `master` incident.
 
 ### Triage broken master
 
@@ -87,7 +107,7 @@ If a broken `master` is blocking your team before auto-escalation (such as creat
 
 If a failed test can be traced to a group through its `feature_category` metadata, the broken `master` incident associated with that test will be automatically labeled with this group as the triage DRI through [this line of code](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/5ad6a19bd1b37a304fbd02701a002f4dd83e1fcf/triage/triage/pipeline_failure/incident_creator.rb#L23). In addition, Slack notifications will be posted to the group's Slack channel to notify them about ongoing incidents. The triage DRI is responsible for monitoring, identifying, and communicating the incident. The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) is the backup triage DRI if the failure cannot be traced to a group, or if the current triage DRI requires assistance.
 
-When an incident is attributed to a group, a notification will be sent to the triage DRI's group channel. When an incident cannot be attributed, it will be posted in the `#master-broken` channel seeking attention from Engineering Productivity team.
+A notification will be sent to the attributed group's Slack channel, or the `#g_engineering_productivity` channel as a backup DRI.
 
 #### Triage DRI Responsibilities
 
@@ -154,19 +174,21 @@ When an incident is attributed to a group, a notification will be sent to the tr
       /label ~"master-broken::caching"
       /label ~"master-broken::ci-config"
       /label ~"master-broken::dependency-upgrade"
+      /label ~"master-broken::external-dependency-unavailable"
       /label ~"master-broken::flaky-test"
       /label ~"master-broken::fork-repo-test-gap"
       /label ~"master-broken::pipeline-skipped-before-merge"
       /label ~"master-broken::test-selection-gap"
       /label ~"master-broken::need-merge-train"
-      /label ~"master-broken::infrastructure"
-      /label ~"master-broken::runner-disk-full"
       /label ~"master-broken::gitaly"
-      /label ~"master-broken::external-dependency-unavailable"
-      /label ~"master-broken::failed-to-pull-image"
-      /label ~"master-broken::gitlab-com-overloaded"
+      /label ~"master-broken::state leak"
+      /label ~"master-broken::infrastructure"
+      /label ~"master-broken::infrastructure::failed-to-pull-image"
+      /label ~"master-broken::infrastructure::frunner-disk-full"
+      /label ~"master-broken::infrastructure::gitlab-com-overloaded"
       /label ~"master-broken::job-timeout"
       /label ~"master-broken::multi-version-db-upgrade"
+      /label ~"master-broken::missing-test-coverage"
       /label ~"master-broken::undetermined"
       ```
 
@@ -181,7 +203,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
 
 #### Pro-tips for Triage DRI
 
-1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
+1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) feature following [this documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#troubleshoot-failed-cicd-jobs-with-root-cause-analysis).
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
 
    - **Note**, The `retry_job` command can fail for the following reasons:
@@ -196,7 +218,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
 
 #### Responsibilities of the resolution DRI
 
-1. Prioritize resolving broken `master` incidents over new bug/feature work. Resolution options include:
+1. Prioritize resolving recurring broken `master` incidents over new bug/feature work. Resolution options include:
    - **Default**: Revert the merge request which caused the broken `master`. If a revert is performed,
      create an issue to reinstate the merge request and assign it to the author
      of the reverted merge request.
@@ -213,7 +235,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
    delays in releases / security releases.
    See [How to fix a broken stable branch guide](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/how-to-fix-broken-stable-branch.md) for more details.
 1. Communicate in `#master-broken` when the fix was merged
-1. Once the incident is resolved, click the "lightning bolt" shortcut icon in the `#master-broken` channel and select `Broadcast Master Fixed`, then click `Continue the broadcast`.
+1. Once the incident is resolved, select the `Broadcast Master Fixed` workflow in the `#master-broken` channel, and click `Continue the broadcast` to communicate it.
 1. When `master` build was failing and the underlying problem was quarantined /
    reverted / temporary workaround created but the root cause still needs to be
    discovered, the investigation should continue directly in the incident.
@@ -611,17 +633,17 @@ To help with prioritization and decision-making process here, we recommend think
 
 Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
+For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
 ## Deferred UX
 
-Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
 
 For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 
 These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
+As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/).
 
 ## UI polish
 

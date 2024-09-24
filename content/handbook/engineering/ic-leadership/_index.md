@@ -4,7 +4,7 @@ title: "Engineering IC Leadership"
 
 ## Engineering IC Leadership at GitLab: going beyond Senior level
 
-At GitLab, it is expected that everyone is [a manager of one](/handbook/leadership/#managers-of-one). For Individual Contributors (IC) a new type of challenge begins with the Staff Engineer role. Engineering IC Leadership is an alternative [career path](/handbook/engineering/career-development/#roles) to Engineering Management.
+At GitLab, it is expected that everyone is [a manager of one](/handbook/leadership/#managers-of-one). For Individual Contributors (IC) a new type of challenge begins with the Staff Engineer role. Engineering IC Leadership is an alternative [career path](/handbook/engineering/careers/#roles) to Engineering Management.
 
 Just like moving into management, also moving from Senior to Staff changes the day-to-day work and expectations placed on ICs.
 
@@ -90,7 +90,7 @@ At GitLab [Architecture is a practice](/handbook/engineering/architecture/) wher
 Complex problems often require a Staff+ Engineer to handle the first iterations in order to reduce the level of complexity to a manageable state.
 Routinely being handed the hardest, least-specified, or most-uncertain work is part of this archetype. As well as guiding other ICs in the team when they're struggling to find a solution.
 
-[Other teams may need a Staff+ Engineer on loan](/handbook/engineering/career-development/#team-members-on-loan-to-another-team). The receiving team may or may not already have a Staff+ Engineer, a Solver deals with the problem at hand, and makes sure the team is empowered to take care of the work once the complexity level is manageable.
+[Other teams may need a Staff+ Engineer on loan](/handbook/engineering/careers/#team-members-on-loan-to-another-team). The receiving team may or may not already have a Staff+ Engineer, a Solver deals with the problem at hand, and makes sure the team is empowered to take care of the work once the complexity level is manageable.
 
 #### Right Hand
 

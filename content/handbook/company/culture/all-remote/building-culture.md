@@ -166,7 +166,7 @@ Whatever behavior you reward will become your values. New hires and promotions s
 1. Criteria we use for [promotions]({{< ref "promotions-transfers" >}}).
 1. Criteria we use to [manage underperformance]({{< ref "underperformance" >}}).
 1. We do when we [let people go](/handbook/people-group/offboarding).
-1. We give value awards for during [Contribute](https://about.gitlab.com/events/gitlab-contribute/).
+1. We give value awards for during [Contribute](/handbook/company/culture/summit/).
 
 In negative feedback, one should be specific about what the problem is. For example, saying someone is "[not living the values](https://hbr.org/2017/05/how-corporate-values-get-hijacked-and-misused)" isn't helpful.
 
@@ -235,7 +235,7 @@ A remote culture is only as strong as it is lived. At GitLab, we encourage team 
 1. [Say Thanks](/handbook/communication/#say-thanks)
 1. Use values emoji — ![CREDIT emoji](/images/handbook/values-emoji.png) — to recognize messages that exemplify a company value.
 1. Recommend a colleague for a [discretionary bonus]({{< ref "incentives#discretionary-bonuses" >}}). If granted, the rationale and values lived are then documented and announced during a company call, serving as a beacon to others on how to improve the lives of others by living the values.
-1. Serving as a GitLab [Contribute Ambassador](https://about.gitlab.com/events/gitlab-contribute/#ambassadors), which helps the entire company get the most out of a [weeklong trip](https://about.gitlab.com/events/gitlab-contribute/) to spend time with each other in person every 9-12 months.
+1. Serving as a GitLab [Contribute Ambassador](/handbook/company/culture/summit/#ambassadors), which helps the entire company get the most out of a [weeklong trip](/handbook/company/culture/summit/) to spend time with each other in person every 9-12 months.
 1. Everyone can contribute to strengthening GitLab's values by creating [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) and fostering discussion.
 
 ## Put structure around culture

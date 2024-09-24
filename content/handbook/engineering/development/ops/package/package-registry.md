@@ -93,7 +93,7 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 ### Performance indicators
 
-We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
+We measure the value we contribute by using [performance indicator metrics](https://internal.gitlab.com/handbook/company/performance-indicators/product/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="package registry" >}}

@@ -702,11 +702,10 @@ The succession planning process might vary slightly for different areas of the b
 
 | Succession Readiness    | Description |
 |-----------|---|
-| Emergency (ER) | Someone who could take over this role if the current person were affected by a [lottery factor](/handbook/total-rewards/compensation/#competitive-rate) or had to take emergency leave. *Note: If there is no one who could assume the role today in an emergency situation, part of the succession coverage plan should include an overview of recommendation steps (i.e. engaging a consultancy, splitting up the team, etc.)* |
+| Emergency (ER) | Someone who could take over this role if the current person were affected by a [lottery factor](/handbook/total-rewards/compensation/#competitive-rate) or had to take emergency leave. Has competency and experience to provide coverage on an interim basis (~6 months), but may not be suitable for the role long-term *Note: If there is no one who could assume the role today in an emergency situation, part of the succession coverage plan should include an overview of recommendation steps (i.e. engaging a consultancy, splitting up the team, etc.)* |
 | Ready Now (RN) | Someone who has 90% of the competency & experience to take the role now |
-| Ready in 1-2 years | With additional responsibility & exposure, could take the role soon  |
-| Ready in 2-3+ years | Longer term candidate who requires significant development |
-| Interim coverage | Has competency and experience to provide coverage on an interim basis (~6 months), but may not be suitable for the role long-term |
+| Ready in 1-2 years | With additional responsibility & exposure, could take the role soon. Likely has the competency and experience to provide coverage on an interim basis if there is an urgent business need |
+| Ready in 2-3+ years | Longer term candidate who requires significant development. May also have the competency to provide coverage on an interim basis if there is an urgent business need. |
 
 *Note that the `Emergency Coverage` slide in the [template above](https://docs.google.com/presentation/d/1w-ODnm-S_sV7TAEDqfU6kUpZqr7-cDIFwAlPZI10HzU/edit#slide=id.gf99d467451_1_8) should only be used to if the identified successor could not provide temporary coverage for the current leader in an emergency situation.*
 

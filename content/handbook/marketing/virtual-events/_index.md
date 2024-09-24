@@ -202,7 +202,6 @@ You can also download the results of your poll - see [reporting](/handbook/marke
 
 * [Polling for webcasts](https://support.zoom.us/hc/en-us/articles/203749865-Polling-for-Webinars)
 * [Polling for meetings](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings)
-* [3 Ways To Use Polls In Meetings](https://blog.zoom.us/wordpress/2016/09/20/3-ways-to-use-polls-in-meetings/)
 
 #### Networking {#zoom-networking}
 

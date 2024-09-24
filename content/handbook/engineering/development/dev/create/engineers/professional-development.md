@@ -88,24 +88,24 @@ GitLab has several programs they have in place which offer additional learning o
 
 ## Shadow Programs
 
-### [Security Shadow Program](/handbook/security/security-shadow.html)
+### Security Shadow Program
 
-From converging on real-time critical events with SIRT, exploiting vulnerabilities with the Red Team or participating in live Customer Assurance calls with the Risk and Field Security team, you will have the opportunity to work next to security staff to gain valuable insight and working knowledge of security fundamentals across multiple domains.
+From converging on real-time critical events with SIRT, exploiting vulnerabilities with the Red Team or participating in live Customer Assurance calls with the Risk and Field Security team, you will have the opportunity to [work next to security staff](/handbook/security/security-shadow.html) to gain valuable insight and working knowledge of security fundamentals across multiple domains.
 
-### [CEO Shadow Program](/handbook/ceo/shadow/)
+### CEO Shadow Program
 
-The goal of the CEO Shadow Program is to give current and future [directors and senior leaders](/handbook/company/structure/) at GitLab an overview of all aspects of the [company](/handbook/company/).
+The goal of the [CEO Shadow Program](/handbook/ceo/shadow/) is to give current and future [directors and senior leaders](/handbook/company/structure/) at GitLab an overview of all aspects of the [company](/handbook/company/).
 
-### [Chief of Staff to the CEO Shadow Program](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow)
+### Chief of Staff to the CEO Shadow Program
 
-The Chief of Staff to the CEO may occasionally have a Chief of Staff to the CEO Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed period of time.
+The Chief of Staff to the CEO may occasionally have a [Chief of Staff to the CEO Shadow](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow), a GitLab team member who will participate in a specific project or initiative for a fixed period of time.
 
 ## Mentoring Programs
 
-### [Self Select Mentoring](/handbook/people-group/learning-and-development/mentor/#find-a-mentor)
+### Self Select Mentoring
 
-* If you choose, you can reach out to a team member who is more senior than you and request for them to Mentor you.
-* Here is a [format](/handbook/engineering/career-development/mentoring/) for how to build a mentoring relationship
+* If you choose, you can reach out to a team member who is more senior than you and [request for them to Mentor you](/handbook/people-group/learning-and-development/mentor/#find-a-mentor).
+* Here is a [format](/handbook/engineering/careers/mentoring/) for how to build a mentoring relationship
 
 ### Minorities in Tech Mentoring Program
 

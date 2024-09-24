@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::verify"
-title: The Syntactic Sugar extensions to the Step Definition
+title: "The Syntactic Sugar extensions to the Step Definition"
+toc_hide: true
 ---
 
 [The Step Definition](step-definition.md) describes a minimal required syntax

@@ -1,9 +1,9 @@
 ---
-title: Step Runner for executing GitLab Steps
+title: "Step Runner for executing GitLab Steps"
 status: proposed
 creation-date: "2023-08-23"
 authors: [ "@ayufan", "@josephburnett" ]
-coach: "@grzegorz"
+coach: "@grzesiek"
 approvers: [ "@dhershkovitch", "@DarrenEastman", "@cheryl.li" ]
 owning-stage: "~devops::verify"
 participating-stages: [ ]

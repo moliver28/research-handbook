@@ -13,18 +13,11 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Aug 1 | **No Session**  | N/A  |
-| Aug 8  | Duo Enterprise Launch Updates & Key Dates | Marketing |
-| Aug 15  | Duo Enterprise Revenue Play & Accreditation | Marketing |
-| Aug 22  | Gartner MQ Overview  | Marketing |
-| Aug 29  | Renewals Manager Overview  |  Renewals Team |
-| Sep 5  | Field Dashboards Overview  | RSOE Team |
-| Sep 12  |  GitLab Click-through Demos & Product Tours    |  SA Team     |
-| Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
-| Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
-| Oct 3  |  FY25-Q3 - Competitive Update | Marketing |
-| Oct 12  | TBD      |       |
-| Oct 17  | TBD     |       |
+| Sep 25  | Advanced SAST Launch | Product Marketing Team |
+| Sep 26  | Winning with Analyst Relations | Analyst Relations Team |
+| Oct 3  |  FY25-Q3 - Competitive Update | Product Marketing Team |
+| Oct 10  | New Forrester TEI Report   | Product Marketing Team  |
+| Oct 17  | FY25-Q3 Customer Advocacy Update     |  Customer Advocacy Team  |
 | Oct 24 | *No session during the last two weeks of the quarter* | N/A |
 | Oct 31 | *No session during the last two weeks of the quarter* | N/A |
 
@@ -35,9 +28,15 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-09-19  | **[Professional Services: Accelerating Customer Time to Value](https://drive.google.com/file/d/1LfsQRIsbgR2F3sONVgdFtR5iL1uVFH4a/view?usp=drive_link)** | Private |
+| 2024-09-12  |  **[GitLab click-through Demos & Product Tours](https://drive.google.com/file/d/1CyiLcxFFvW5IEt5j-SX8L-fD02c9df7i/view?usp=drive_link)**    |  Private     |
+| 2024-09-05  | **[Gartner MQ for DevOps Platforms & AI Code Assistants Overview](https://drive.google.com/file/d/1YK2oWyAYewtDq_pHsQwtXhFRwaueqS5G/view?usp=drive_link)**  | Private |
+| 2024-08-22  | **[Data Driven Territory Planning](https://drive.google.com/file/d/1k4BWX7N3w8zUsN52dMV7A5GqMD-Wa7Yr/view?usp=drive_link)**  | Private |
+| 2024-08-15  | **[Duo Enterprise Revenue Play & Accreditation](https://drive.google.com/file/d/1ohmyxBrGxhb7I9lfvnFW_KgGfQJPDMwy/view?usp=drive_link)** | Private |
+| 2024-08-08 | **[Duo Enterprise Launch Updates & Key Dates](https://drive.google.com/file/d/1QT_yKG1AQyiI_F6hjyfuMeSYz4M7riQM/view?usp=sharing)** | Private |
 | 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
 | 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
-| 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
+| 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Private |
 | 2024-06-13 | **[Business Value Services & Ecosystems](https://drive.google.com/file/d/1Y1cm7tGc8_-Kx4av4ML2135AhWFpemVX/view?usp=drive_link)**  | Private |
 | 2024-05-30 | **[Partner e-marketplace](https://drive.google.com/file/d/13pJQu_gAIwtFDvvc-Xriq1g4huOZkaOb/view?usp=drive_link)** | Private |
 | 2024-05-23 | **[Winning with Analyst Relations](https://drive.google.com/file/d/13kyzyQ6CYMampDNCTkF5I6_CMA_G1Cbc/view?usp=drive_link)** | Private  |
@@ -219,7 +218,7 @@ To get a calendar invite to the weekly Field Enablement Spotlight, make sure you
 - SDR Team `sdr@`
 - Marketing team `marketing@`
 
-You can [fill out an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ## Training Playlist
 

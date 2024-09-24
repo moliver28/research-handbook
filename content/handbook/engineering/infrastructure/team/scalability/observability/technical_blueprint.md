@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/technical_blueprint.html
 title: "Technical Blueprint"
 ---
 

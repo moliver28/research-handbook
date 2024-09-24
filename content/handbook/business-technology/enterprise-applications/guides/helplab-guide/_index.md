@@ -44,7 +44,7 @@ HelpLab is available via Okta. To access the platform:
 
 ### Create a ticket / request
 
-1. Log in to HelpLab via Okta.
+1. Log in to HelpLab via Okta. If you have a ServiceNow Fulfiller license, to open requests for other teams you will need to go to the [main dashboard](https://helplab.gitlab.systems/esc?id=ec_pro_dashboard), as by default you will see your team's requests only.
 1. Navigate to the main menu at the top and browse through the menu options to find the team you'd like to request assistance from.
 
 ![helplab1](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab1.png)

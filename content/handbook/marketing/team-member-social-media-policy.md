@@ -36,7 +36,9 @@ This policy is not intended to limit team members from sharing their feedback or
 
 Please adhere to the [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/), [Anti-Harrassment Policy](/handbook/people-group/anti-harassment/), which includes sexual harrassment and discrimination policies, and our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). These policies all apply to team member behavior within social media and in public online spaces.
 
-#### Social Media sometimes generates press and media attention or legal questions. Please refer all inquires to the Communications Team in the #external-comms Slack channel
+#### Social Media sometimes generates press and media attention or legal questions
+
+**Please refer all inquires to the Communications Team in the #external-comms Slack channel**
 
 ### What you should do
 

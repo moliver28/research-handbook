@@ -12,8 +12,8 @@ Please create a [app integration issue](https://gitlab.com/gitlab-com/Finance-Di
 
 You may be blocked from using an internal Google Apps Script, particularly if it runs from a Google Doc/Sheet/Slides. Please use the following steps to get your script authorized:
 
-1. If you don't already have a [Sandbox Cloud account](/handbook/infrastructure-standards/realms/sandbox/), please create an [account](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project), and request a GCP project be created.
-1. [Access your GCP project](/handbook/infrastructure-standards/realms/sandbox/#accessing-your-gcp-project)
+1. If you don't already have a [Sandbox Cloud account](/handbook/company/infrastructure-standards/realms/sandbox/), please create an [account](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project), and request a GCP project be created.
+1. [Access your GCP project](/handbook/company/infrastructure-standards/realms/sandbox/#accessing-your-gcp-project)
 1. Inside your newly created GCP project (formatted {emailHandle}-{cloudAccountShortId}), search for **OAuth consent screen**.
 1. Select **Internal**
 1. Select **Create**

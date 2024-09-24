@@ -31,7 +31,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [Atlassian Jira](https://about.gitlab.com/solutions/jira/)
 - [Asana](https://asana.com/)
 - [Trello](https://trello.com/)
-- [CollabNet VersionOne](https://www.collab.net/)
 - Basecamp
 - Wrike
 - Podio
@@ -43,7 +42,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Portfolio Management
 
-- [CollabNet VersionOne](https://www.collab.net/)
 - [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/portfolio)
 - [CA Technologies / Rally](https://www.ca.com/us.html)
 - Wrike

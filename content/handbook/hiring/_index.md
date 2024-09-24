@@ -3,30 +3,30 @@ title: "Hiring & Talent Acquisition Handbook"
 description: "Landing page for many of the handbook pages the talent acquisition team at GitLab uses."
 ---
 
-At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission]({{< ref "mission" >}}): to make it so that **everyone can contribute**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation.
+At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission]({{< ref "mission" >}}): to make it so that **everyone can contribute to and co-create the software that powers our world**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation.
 
 As a Talent Acquisition team, we have an outsized impact on GitLab's ability to make this mission a reality, by connecting top talent to profound careers from wherever they are in a truly distributed, remote workforce.
 
 ### Talent Acquisition Vision Statement
 
-To create globally inclusive access to opportunities so that **everyone can contribute**.
+To create globally inclusive access to opportunities so that **everyone can contribute to and co-create the software that powers our world**.
 
 ### Talent Acquisition Mission Statement
 
-It is the Talent Acquisition Team's mission to predictably build distributed, representative teams that enable our vision of creating globally inclusive access to opportunities so that **everyone can contribute**.
+It is the Talent Acquisition Team's mission to predictably build distributed, representative teams that enable team members to **co-create** the future of software. 
 
 ### Our Guiding Principles
 
-As we set out over the next decade to achieve this vision, we will continue to rely on core guiding principles to define how we build toward the future.
+As we set out to achieve this vision, we will continue to rely on core guiding principles to define how we build toward the future.
 
-1. **Experience**: Stakeholder experience is central to all that we do. We are not purely a service provider but a partner and advisor in creating a best-in-class experience while building GitLab as a company. The Talent Acquisition team looks after building an experience for our customers, stakeholders, and partners that stands true to our [CREDIT](/handbook/values/) values and provides a level of care we are proud of - no matter the outcome.
-1. **Inclusivity**: Applying best practices in the craft of Talent Acquisition has an outsized impact on our ability to build a representative workforce here at GitLab. By embedding inclusivity as a guiding principle, we design fair and equitable processes into the fabric of all that we do, rather than retroactively adding parameters to solve systemic challenges in the societies we exist in
-1. **Predictability**: Our ability to have the right people, in the right jobs, at the right time is imperative to our ability to execute our commitments and plans as an organization. In order to achieve that, our team must design with an eye for accuracy and forecastability in any program, process or experience we enable.
+1. **Experience**: Stakeholder experience is central to our craft. We are a partner, an advisor, and an essential component to building high performing teams and culture at GitLab. 
+1. **Inclusivity**: We design fair and equitable processes into the fabric of what we do. We believe Talent Acquisition has an outsized impact on the make-up of our teams, and we strive to continue to build them with inclusivity as a integral piece of our craft. 
+1. **Predictability**: Our ability to have the right team members, in the right roles, at the right time is imperative to execute on our commitments and plans as an organization. We strive for predictability: to build accuracy in our forecasts and enable the business to look around corners through strong relationships and data driven decision making. 
 
 ### Our Objectives and Roadmap
 
 We strive to be as transparent as possible, but these sections are only available for our GitLab team members.
-[FY24 TA Strategy](https://docs.google.com/document/d/1Q9ui_BZLRPBAYpRtdtpHVSvGzW3g7JtVYkGj_KqwZBA/edit#heading=h.riu5wc8sjmum)
+[Talent Acquisition Strategy](https://docs.google.com/presentation/d/1TxVaRaBommUMcRxCgrRq9kr2hWW25SBdAObMQdfylO8/edit#slide=id.g2832878d834_0_0)
 
 ## Talent Acquisition Pages and Processes
 
@@ -282,7 +282,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - [Executive Search]({{< ref "executive-search" >}})
 
-### [**Emerging Talent**]({{< ref "emerging-talent" >}})
+### Emerging Talent
+
+**[Emerging Talent](emerging-talent.md)**
 
 - [Associate Engineer Developmnet](/handbook/hiring/associate-engineer-development/)
 

@@ -152,7 +152,7 @@ Focus on the other person without judgment. Give your coachee your undivided att
 
 ### Different hats for different conversations
 
-Coaching is just one mode of conversation you might use as a [leader]({{< ref "_index.md" >}}). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/career-development/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
+Coaching is just one mode of conversation you might use as a [leader]({{< ref "_index.md" >}}). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/careers/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
 
 You may wear multiple hats in any given day:
 

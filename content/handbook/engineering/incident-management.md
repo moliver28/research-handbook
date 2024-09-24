@@ -61,7 +61,7 @@ Learning from incidents individually is important. Incidents should also be revi
 
 For most on-call schedule management, GitLab uses [PagerDuty](gitlab.pagerduty.com) to create schedules and set escalation policies.
 
-We also employ a [Development Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to get expertise from development teams as needed.
+We also employ a [Development Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/process/) to get expertise from development teams as needed.
 
 ## How we monitor and alert GitLab
 

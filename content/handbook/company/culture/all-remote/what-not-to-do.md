@@ -62,7 +62,7 @@ Merely [transferring planned office meetings to virtual meetings](https://www.ab
 
 While long-term remote workers have had years to tweak and iterate on their [home office](workspace/), those who are thrust into working from anywhere may be ill-prepared. Organizations should not expect team members to be masters in office design and ergonomics. Too, what works best for one person [will look different](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) than another person.
 
-If [transitioning to remote](transition/), organizations should empower team members to [spend company money as if it is their own](/handbook/spending-company-money) when constructing a home office. Consider [reimbursing](/handbook/spending-company-money#coworking-or-external-office--space) expenses related to coworking spaces and external offices, as some team members will prefer to work outside of their homes.
+If [transitioning to remote](transition/), organizations should empower team members to [spend company money as if it is their own](/handbook/finance/spending-company-money/) when constructing a home office. Consider [reimbursing](/handbook/finance/spending-company-money/#coworking-or-external-office--space) expenses related to coworking spaces and external offices, as some team members will prefer to work outside of their homes.
 
 ## Do this, not that
 

@@ -162,7 +162,7 @@ The SuperSonics Billing and Subscription Management Experience applies to all el
 
 Specific fields have been added to the Quote object to support SuperSonics Functionality. These fields will appear on two sections of the quote object.
 
-**Zuora Fields**
+##### Zuora Fields
 
 This section contains a number of fields that show the current state of each SuperSonics feature (Auto-Renewal, Quarterly Subscription Reconciliation, Operational Data). The "Contract" fields show whether the customer is contractually eligible for the related feature. The "Turn On" fields show whether that feature is actually enabled on the subscription.
 
@@ -183,7 +183,7 @@ For customers who are not exempt, the default values will be "Yes" for all field
 
 Note: there is no contractual field for Cloud Licensing as sending Cloud License [Subscription Data](/handbook/legal/privacy/customer-product-usage-information/#subscription-data) is part of the standard GitLab's standard Subscription Agreement.
 
-**Cloud Licensing Fields**
+##### Cloud Licensing Fields
 
 The fields in this section enable contractual opt-outs for each SuperSonics feature. If you wish to request an opt-out of Auto-Renewal, Quarterly Subscription Reconciliation, or Operational Data, you must check the applicable box on the quote object. Checking these boxes will trigger an approval workflow, and will ultimately insert legal language onto the Order Form that opts the customer out of the related feature. If any of these boxes are checked, and the opt-out is approved, the related Zuora Fields will reset to "No."
 
@@ -198,18 +198,18 @@ The fields in this section enable contractual opt-outs for each SuperSonics feat
 
 The below process applies to any existing customers with an active subscription who have QSR enabled, and who exceed their billable user count during the subscription term.
 
-**Criteria:**
+##### Criteria
 
 - Existing customer has an active subscription with QSR enabled.
 - Customer exceeds their subscription amount (Max Users > Seats in Subscription) at any point during the quarter. This amount is "locked in" as the overage quantity for the quarter, "previewed" as invoice amount in Zuora, and stored in the CustomersDot database.
 
-**Timeline:**
+##### Timeline
 
 - A reconciliation occurs at the end of the first, second, and third quarter of the customer's subscription.
   - For SaaS, group owners receive an email on the reconciliation date. The email communicates the overage seat quantity and expected invoice amount.
   - For Self-Managed, administrators receive an email six days after the reconciliation date. This email communicates the overage seat quantity and expected invoice amount.
 
-**Opportunity Creation:**
+##### Opportunity Creation
 
 - On the date the reconciliation email is sent to the customer warning them of the planned QSR, an open Opportunity is created in Salesforce with the title: "[Account Name] - QSR - [Effective Date]"
   - Amount = Invoice Amount
@@ -217,7 +217,7 @@ The below process applies to any existing customers with an active subscription 
   - Stage = 6-Awaiting Signature
   - Close Date = Date of planned closure (7 days from opportunity creation)
 
-**Opportunity Closure:**
+##### Opportunity Closure
 
 - 7 days after opportunity creation,  we perform the reconciliation by committing an amendment to the subscription in Zuora and generating an invoice which is sent to the customer. At this time, in Salesforce:
   - The opportunity becomes Closed Won automatically
@@ -231,7 +231,7 @@ The below process applies to any existing customers with an active subscription 
 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
 
-**Steps to Request an Opt-Out:**
+##### Steps to Request an Opt-Out
 
 1. Navigate to the Cloud Licensing Fields section of the quote, and check the box next to the applicable SuperSonics Feature (i.e. Add Auto-Renewal Opt-Out). Click Save.
 
@@ -246,7 +246,7 @@ During the Sales process, a customer who would not otherwise be exempt from Auto
 
 During the Sales process, there may be a need for Sales to "pause" an upcoming Auto-Renewal or Quarterly Subscription Reconciliation while negotiating with the customer. Every pause will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If a pause is requested and approved, that feature will be temporarily disabled for the subscription in question until the next renewal occurs. A pause is not possible for Cloud Licensing.
 
-**Steps to Request a Pause:**
+##### Steps to Request a Pause
 
 1. Navigate to the applicable opportunity in SFDC.
 2. Write a message in chatter explaining why you'd like to pause Auto-Renewal or Quarterly Reconciliation for the subscription. Tag @Sales-Support to request approval. Note that justification will be required.
@@ -1305,6 +1305,83 @@ Review the [Professional Services handbook page](/handbook/customer-success/prof
 
 </details>
 
+### Opportunity Approval Process
+
+When your deal has met [all opportunity booking requirements](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements), please submit the opportunity for approval.
+
+1. **To submit the opportunity for approval and closure, first ensure Stage = 6-Awaiting Signature, and then click on the "Submit for Approval" button on the opportunity.**
+1. After clicking "Submit for Approval," a pop-up page will display with a series of required fields. First, enter Closed Won Reason and Closed Won Details, then click Next. Second, select Competitors. Third, select Executed Agreement Type.
+
+- "Executed Agreement Type" refers to the documentation that you are submitting in support of the deal. The options are as follows:
+  - Signed Order Form
+  - Purchase Order
+  - Signed Order Form + Purchase Order
+  - Client/Prospect Form
+  - AWS Private Offer
+  - GCP Private Offer
+  - IBM OEM
+  - SOW
+  - Other
+
+- Note: Client/Prospect Form means that the signed document (whether Order Form or MSA) is on the customer's paper rather than a standard GitLab Order Form or Subscription Agreement template.
+
+- Note: If Client/Prospect Form or Other are selected, you will subsequently be required to paste a link to the document on the next page ("Executed Agreement Link")
+
+1. After the above steps have been completed, no further action is required from the Account Team. You will be notified by the Order Management team if further information is needed or if the opportunity is missing required information.
+
+**NOTE** - Orders will be processed as long as the Quote Start Date is within 15 calendar days from date of submission. If the Quote Start Date is more than 15 days in the future, Order Management will approve and update the close date to the earliest date that the opportunity can be booked. Only on or after that date will the Billing team review the opportunity for final booking. For more information, review the [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy).
+
+#### What happens when you Submit an Opportunity for approval?
+
+##### Scenario A: Standard Documentation
+
+If Executed Agreement Type = Signed Order Form, Purchase Order, Signed Order Form + Purchase Order, AWS Private Offer, GCP Private Offer, IBM OEM, or SOW, the below process applies:
+
+```mermaid
+
+graph LR;
+    A[Executed Agreement<br>attached to Opportunity] --> |Submit for Approval|B[Order Mgmt Reviews<br>Opportunity<br>Requirements];
+    B --> |Order Mgmt<br>Approved|C[Finance Review];
+    B --> |Order Mgmt<br>Rejected|D(Sales Resolves<br>Missing Opp<br>Requirements);
+    D --> |Submit Opp<br>For Approval|B
+    C --> F[Opportunity<br>Closed Won!<br>Congrats! ];
+    F --> G[License Fulfillment<br>Order Mgmt Ensures License Delivery<br> ];
+
+```
+
+##### Scenario B: Non-Standard Documentation
+
+If Executed Agreement Type = Client/Prospect Form or Other, additional review is required by the following users before the Deal Desk and Billing teams can book the opportunity:
+
+1. Senior Director, Deal Desk
+2. Revenue (Manager level or above)
+3. Senior Director, Legal (Commercial)
+
+Per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.n3wzwlv9dv7v), these reviewers will review the non-standard documentation to ensure that it is acceptable to book the deal per GitLab's internal Legal and Revenue Recognition requirements. Their approval does not constitute final approval to book the opportunity. An opportunity can only be booked after both Deal Desk and Billing have approved.
+
+```mermaid
+
+graph LR;
+    A[Executed Agreement<br>attached to Opportunity] --> |Submit for Approval|B[Sr. Dir., Deal Desk<br> Reviews Non-Standard<br> Executed Agreement];
+    B --> |Sr. Dir. Deal Desk<br>Approved|C[Revenue Team<br> Reviews Non-Standard<br>Executed Agreement]; 
+    C --> |Revenue Team<br>Approved|D[Sr. Dir., Legal<br> Reviews Non-Standard<br>Executed Agreement];
+    D --> |Sr. Dir., Legal<br>Approved|E[Order Management Reviews<br>Opportunity for Approval];
+    E --> |Order Mgmt<br>Approved|F[Finance Review];
+    E --> |Order Mgmt<br>Rejected|G(Sales Resolves<br>Missing Opp<br>Requirements);
+    G --> |Submit Opp<br>For Approval|E
+    F --> I[Opportunity<br>Closed Won!<br>Congrats! ];
+    I --> J[License Fulfillment<br>Order Mgmt Ensures License Delivery<br> ];
+
+```
+
+To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
+
+#### Common errors when submitting an opportunity for approval
+
+- Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
+- Once submitted, the opportunity's stage will update to "7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
+- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking "Recall Approval Request." Once you've made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
+
 #### Bookings Policy
 
 This policy dictates the timing of opportunity closure for all sales-assisted deals. The purpose of this policy is to ensure forecast predictability and proper revenue recognition.
@@ -1458,51 +1535,11 @@ If "PO Required" = "YES" and the customer's PO will be provided to GitLab at a f
 
 Note: If an exception is granted and the PO is not received within 10 days, on the 11th day the opportunity will be decommissioned, reversing all credit given for the booking.
 
-### Opportunity Approval Process
-
-When you have reviewed [all opportunity requirements](/handbook/sales/field-operations/order-processing/) and have met all necessary booking requirements, please submit the opportunity for approval.
-
-1. **To submit the opportunity for approval and closure, the Sales Rep should set the opportunity stage to 6-Awaiting Signature and afterwards click on the "Submit for Approval" button on the opportunity level.**
-    - The opportunity page will then display "edit" mode. Click Save.
-1. At this time, no further action is required from the Account Team. You will be notified by the Order Management team if further information is needed or if the opp is missing required information.
-
-**NOTE** - Orders will be processed as long as the Quote Start Date is within 15 calendar days from date of submission. If the Quote Start Date is more than 15 days out, Order Management will approve and update the close date to the earliest date that the opportunity can be booked. Only on or after that date will the Billing team review the opportunity for final booking. For more information, review the [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy).
-
-#### What happens when you Submit an Opportunity for approval?
-
-```mermaid
-
-graph LR;
-    A[Signed Order Form<br>attached to Opp] --> |Submit for Approval|B[Order Mgmt Reviews<br>Opportunity<br>Requirements];
-    B --> |Order Mgmt<br>Approved|C[Finance Review];
-    B --> |Order Mgmt<br>Rejected|D(Sales Resolves<br>Missing Opp<br>Requirements);
-    D --> |Submit Opp<br>For Approval|B
-    C --> F[Opportunity<br>Closed-Won!<br>Congrats! ];
-    F --> G[License Fulfillment<br>Order Mgmt Ensures License Delivery<br> ];
-
-```
-
-To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
-
-#### Common errors when submitting an opportunity for approval
-
-- Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
-- Once submitted, the opportunity's stage will update to "7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
-- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking "Recall Approval Request." Once you've made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
-
-#### Deal Desk + Finance Approval Workflow
-
-- **Deal Desk Review** is initiated. It is unnecessary to chatter Sales Ops after you submit an opportunity. A Deal Desk Analyst will assign themselves to review the deal via the "Deal Desk Analyst" opportunity field.
-- **Deal Desk Approval:** If Deal Desk approves the opportunity based on the criteria above, the "Approval Status" field will update to "Deal Desk Approved." The opportunity will remain in stage "7- Closing," but will route to the Billing team for Finance approval.
-- **Deal Desk Rejection:** If Deal Desk rejects the opportunity based on the criteria above, the "Approval Status" field will update to "Rejected" and the opportunity will unlock. The opportunity will revert to stage "6- Awaiting Signature." A rejection email will be sent to the Sales Rep with rejection comments and/or instructions. After taking the appropriate action(s) outlined in the rejection comments, the Sales Rep should re-submit the opportunity for approval.
-- **Finance Approval**: Once Deal Desk has reviewed and approved the transaction, Finance will review. If the opportunity is approved by Finance, the stage will update to "Closed Won" and the deal is officially booked. An approval email will be sent to the opportunity owner and Slack message will appear in the "wins" channel and the "wins-key-deals" channel where applicable.
-- **Finance Rejection:** Once Deal Desk has reviewed and approved the transaction, Finance may reject the opportunity. If Finance rejects the opportunity, the stage will remain in "7- Closing" and both the Sales Rep and Deal Desk Analyst will receive an alert email containing the rejection reason. The Sales Rep should work with the Deal Desk Analyst to rectify the issues that led to Finance rejection. Once the issues are resolved, the Deal Desk Analyst will approve the deal once more to submit it to Finance for final approval.
-
 ### **Post Sale Information**
 
 The opportunity closed! Congrats! Wait... my customer still has questions! Here are some of the most common questions that come up after an opportunity has closed... and how to resolve them.
 
-**[CustomersDot Access and Use handbook page](/handbook/product/fulfillment-guide/#customersdot-admin-panel)**
+**[CustomersDot Access and Use handbook page](/handbook/product/groups/fulfillment-guide/#customersdot-admin-panel)**
 
 #### How do I know if a License Key was sent to the Customer?
 

@@ -10,7 +10,7 @@ architecture_changes = helper.changed_files(paths)
 return if architecture_changes.empty?
 
 short_message = <<~MSG
-This merge request might require a review from a [Coach Engineer](https://about.gitlab.com/handbook/engineering/architecture/workflow/).
+This merge request might require a review from a [Coach Engineer](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/).
 MSG
 
 long_message = <<~MSG

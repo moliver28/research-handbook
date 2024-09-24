@@ -25,8 +25,8 @@ CSM EMEA is further divided into different regions. There are four different tea
 The GitLab _SME collaboration requests_ project contains a list of the [Subject Matter Experts](https://gitlab.com/gitlab-com/customer-success/emea/sme-collaboration-requests/-/blob/main/emea_sme_map.yml?ref_type=heads) within CSM EMEA.
 
 * **Staff team - Specific experts / DRIs for EMEA CSM**
-  * Martin Brümmer
-  * Sander Brienen
+  * [Manuel Kraft](/handbook/company/team/#mkraft)
+  * [Sander Brienen](/handbook/company/team/#sbrienen)
 
 ## Regional Specific Details
 

@@ -4,11 +4,11 @@ title: "Positioning Professional Services"
 
 ## Where to position PS in the Customer Journey
 
-Most professional service engagements happen during the onboarding, implementation, and adoption phases of the [customer journey](/handbook/customer-success/vision/).
+Most professional service engagements happen during the onboarding, implementation, and adoption phases of the [customer journey](/handbook/customer-success/customer-success-vision/).
 
 ![GitLab Customer Journey](/handbook/customer-success/customer-success-vision/images/customer-journey.png "GitLab Customer Journey")
 
-When opportunities are approaching closed/won and planning for these stages is occurring, its a good idea to consider bringing in professional services to help expedite the customer's transition to using GitLab to enable them to [realize value faster](/handbook/customer-success/vision/#time-to-value-kpis).
+When opportunities are approaching closed/won and planning for these stages is occurring, its a good idea to consider bringing in professional services to help expedite the customer's transition to using GitLab to enable them to [realize value faster](/handbook/customer-success/customer-success-vision/#time-to-value-kpis).
 
 This page aims to help the ISR/SAE understand the services that certain types of customers typically engage in and how to position those services when building out a success plan.
 
@@ -57,7 +57,7 @@ The larger the company, the higher likelihood they will be opting for GitLab sel
 
 They have a team that manages the current tooling at the highest level, and are often competing against shadow IT from setting up their own (less restrictive) instances of SDLC tools. This team has probably never managed a large migration and needs help with the rollout plan. Their engineering teams (end users of gitlab) are on the continuum of knowledge about latest git and GitLab best practices.
 
-To get to [first value](/handbook/customer-success/vision/#time-to-value-kpis) as soon as possible, you should consider:
+To get to [first value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) as soon as possible, you should consider:
 
 - [Implementation](/services/implementation/) (infrastructure deployment and GitLab configuration)
 - [Migration](/services/migration/) (SCM Data and user migration)
@@ -69,7 +69,7 @@ These customers typically move to GitLab for the benefits of an all-in-one SDLC 
 
 They will likely have a small team responsible for transformation that will be managing this transition. Its unlikely they have the expertise or time to manage a data and user migration without slowing down their business significantly. They will also probably want to integrate with other systems like LDAP, Jira, or Jenkins. Finally, their users will probably need upskilling on the basic and advanced features of GitLab to ensure they're getting the most value out of the gitlab.
 
-To get your customer the most [value](/handbook/customer-success/vision/#time-to-value-kpis) as soon as possible, you should consider:
+To get your customer the most [value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) as soon as possible, you should consider:
 
 - [Migration](/services/migration/) (SCM and/or CI/CD based on entry point)
 - [Integration](/services/implementation/integration/) (LDAP/SSO, Jira, Jenkins)

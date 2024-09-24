@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
@@ -21,7 +20,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 
 1. Unplug devices at the end of the day. You can save anywhere between $100 and $200 each year by unplugging devices not in use.<sup>1</sup>
 2. Use sleep mode instead of a screensaver. Screensavers might actually use more energy than not using one.<sup>2</sup>
-3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-repair).
+3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](/handbook/it/end-user-services/onboarding-access-requests/#laptop-repair).
 
 ## Lighting
 
@@ -51,7 +50,12 @@ We are a global team, and we know there are sustainability initiatives and offer
 
 ## Food
 
-1. Reduce your meat and dairy consumption. Animal-based foods have a much higher carbon footprint than planted-based foods. For example, producing a kilogram of beef produces 60 kilograms of greenhouse gasses. In contrast, peas emit just 1 kilogram per kg.<sup>9</sup> Check out [this visualization](https://ourworldindata.org/food-choice-vs-eating-local) that shows GHG emissions from 29 food products — from beef at the top to nuts at the bottom.
+1. Choose plant-based foods to reduce your meat and dairy consumption. Animal-based foods have a significantly higher carbon footprint than plant-based foods. For example, producing one kilogram of beef emits 60 kilograms of greenhouse gasses. In contrast, peas emit just 1 kilogram per kilogram produced.<sup>9</sup> Check out [this visualization](https://ourworldindata.org/food-choice-vs-eating-local) that shows GHG emissions from 29 food products — from beef at the top to nuts at the bottom.
+
+## Transportation
+
+1. Use public transit instead of driving or using ride hailing services like Uber or Lyft. If you're part of the GitLab, Inc. entity, check out [Commuter Benefits](../../../total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#commuter-benefits) to learn how to use pre-tax dollars for transit passes.
+2. For inter-city trips, use train or bus transportation instead of flying in order to reduce carbon emissions.<sup>10</sup>
 
 ## Transportation
 
@@ -78,7 +82,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 - [Energy Star](https://www.energystar.gov/?s=mega) (US gov't): Find energy efficient household appliances
 - [Energy Saving Trust](https://energysavingtrust.org.uk/) (UK-based): an independent organization that provides resource for how to reduce energy use
 - [Project Drawdown](https://drawdown.org/): the world's leading resource for climate solutions
-- [Water's Worth Saving](https://watersworthsaving.org.uk/): (UK-based): tips for saving water at home
+- [Water's Worth Saving](https://web.archive.org/web/20240717112301/https://watersworthsaving.org.uk/): (UK-based): tips for saving water at home
 
 **Footnotes**
 

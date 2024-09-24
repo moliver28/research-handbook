@@ -100,7 +100,7 @@ Managers should add approved growth and development programs to the [department 
 ### Handbook
 
 - [Minimum Viable Experiment](/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
-- [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
+- [How Growth launches experiments](/handbook/product/groups/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 
 ### Videos
@@ -191,7 +191,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook Links
 
-- [Product Management Learning and Development](/handbook/product/product-manager-role/learning-and-development/) - a comprehensive list of internal and external resources that Product Managers at GitLab can use to build their skills.
+- [Product Management Learning and Development](/handbook/product/product-management/learning-and-development/) - a comprehensive list of internal and external resources that Product Managers at GitLab can use to build their skills.
 
 ### Book Clubs
 

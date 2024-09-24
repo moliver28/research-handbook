@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/agile-work-items.html
-
 title: "Geo and Disaster Recovery - Hierarchy of Agile Work Items"
 description: "How the Geo Team organizes agile work items"
 ---
@@ -25,7 +23,7 @@ We start with the definition of a user story. This is a description of a low gra
 
 The point of a user story is that it is as small in scope as possible, while still being a complete piece of functionality. This means that it would be difficult to divide into smaller pieces of work. And if it were to be divided further, at that point it would be difficult to test or feel incomplete from the user's perspective (i.e. it would provide no actual value on its own).
 
-User Stories should not be confused with the concept of [Minimum Viable Change (MVC)](/handbook/product/product-principles/#the-minimal-viable-change-mvc) at GitLab. An MVC is used to define how much scope of functionality will be delivered by a single iteration of the product, while a user story is a technique or template used to describe individual pieces of business logic in a way that a developer can know when they are done with that part. In this way, an MVC could be composed of multiple user stories.
+User Stories should not be confused with the concept of [Minimal Valuable Change (MVC)](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) at GitLab. An MVC is used to define how much scope of functionality will be delivered by a single iteration of the product, while a user story is a technique or template used to describe individual pieces of business logic in a way that a developer can know when they are done with that part. In this way, an MVC could be composed of multiple user stories.
 
 User stories are typically expressed by a combination of the story itself and a list of acceptance criteria. The story has a structure like:
 > As a **\<role>**, I would like to **\<action>** so that **\<outcome and/or motivation>**.

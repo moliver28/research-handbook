@@ -34,10 +34,10 @@ If you have any access requests related questions, please reach out to `#it_help
   - [Access Change Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Access_Change_Request): Remove or change the level of access to an application/system/distro (non-urgent change).
   - [Access Reviews](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Access_Review)
 - Infrastructure
-  - [New AWS Account (Individual)](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
+  - [New AWS Account (Individual)](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
   - [New AWS Account (Group/Team/Service)](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request)
   - [Add IAM Users to AWS Account](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_iam_update_request)
-  - [New GCP Project (Individual)](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
+  - [New GCP Project (Individual)](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
   - [New GCP Project (Group/Team/Service)](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request)
   - [Add IAM Users to GCP Project](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_iam_update_request)
 - Sysadmin (BLACK) Account Requests

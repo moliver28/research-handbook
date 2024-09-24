@@ -5,12 +5,12 @@ description: "GitLab LTD (UK) benefits specific to UK based team members."
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
 
-For any queries related to UK benefits, please email `total-rewards@gitlab.com` for further assistance.
+For any queries related to UK benefits, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) for further assistance.
 
 ## Medical Insurance
 
 For UK-based team members, GitLab provides 100% paid membership of medical insurance with AXA PPP. This private medical insurance level is named Business Health Select with core cover. Family members can be added to the insurance and GitLab will pay 66% of the cost to include them.
-Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please email 'nonuspayroll@gitlab.com' and 'total-rewards@gitlab.com'.
+Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please reach out via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
 ### Enrollment
@@ -48,7 +48,7 @@ The current coverage includes:
 \* Current team members enrolled and new joiners to the AXA plan will have cover for treatment of pre-existing medical issues they may have had before joining, without being a member for two years or being required to have 12 consecutive months of "trouble-free" from when the condition began (pre-existing moratorium terms no longer apply).
 
 For additional details regarding coverage please review the [AXA Coverage Summary](https://drive.google.com/file/d/1TMk8xTt6yfzm-wI1X_wMyYfJF3GAgb4k/view?usp=sharing).
-For claims assistance, please contact total-rewards@gitlab.com. While we are unable to take over the claims process on behalf of the team member, our broker can assist in reaching out to AXA to escalate.
+For claims assistance, please contact [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). While we are unable to take over the claims process on behalf of the team member, our broker can assist in reaching out to AXA to escalate.
 
 Please also note that this is a taxable benefit. Team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage.
 
@@ -324,7 +324,7 @@ Team members are entitled to Statutory Sick Pay ("SSP")for up to 28 weeks, to be
 - A team member who is out sick for at least four days, but no more than 7 days will need to complete a [Company Self-Certification Form](https://docs.google.com/document/d/1Cy-xUgWwNKroUEEJ0ut80HGVA0d3RJV5mQO-amLjoCs/edit?usp=sharing) and return it to leaves@gitlab.com.
 - Team members who will be out sick for more than 7 days must provide a [fit note](https://www.gov.uk/taking-sick-leave) and notify the Absence Management team at `leaves@gitlab.com` as soon as possible.
 - Team members who have received SSP in the last 8 weeks who need additional sick pay will be paid for waiting days, including the initial 3-day period of the second leave.
-- Sick Leave runs concurrently with GitLab PTO. Team members must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that annual sick leave entitlement is properly tracked.  GitLab PTO is inclusive of any entitlement in respect of statutory sick pay.
+- Sick Leave runs concurrently with GitLab PTO. Team members must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.  GitLab PTO is inclusive of any entitlement in respect of statutory sick pay.
 
 ### Statutory Vacation Leave
 
@@ -332,8 +332,8 @@ Team members are entitled to at least 28 vacation days which consist of 20 days 
 
 - Entitlement to vacation leave is pro rata for any part-time team members based on hours worked.
 - It is important for UK team members to utilize time off for public holidays as the total amount of annual leave is accrued here inclusive of public holidays.
-- Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
-- Under normal circumstances, there is no carryover for unused vacation days, with exceptions where a team member cannot take annual leave due to sickness or maternity leave; however, given the situation surrounding COVID-19, the UK government has relaxed measures on the carry over of annual leave for the following two calendar years: 2020-2021 and 2021-2022.
+- Team members must designate any vacation time taken as `Paid Time Off` in Workday to ensure that vacation entitlement is properly tracked.
+- Under normal circumstances, there is no carryover for unused vacation days, with exceptions where a team member cannot take annual leave due to sickness or maternity leave.
 
 ### Parental Leave
 
@@ -383,7 +383,7 @@ Team members can receive Statutory Maternity Pay for up to 39 weeks:
 
 To apply for Maternity Leave:
 
-- Submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
+- Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
 - Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/maternity-certificate-form-mat-b1-guidance-on-completion) no later than 21 days before your leave start date.
 - The Absence Management team will then complete a [Risk Assessment Form](https://docs.google.com/document/d/1qHdbaeFSnqdwkQDTEurHD5QMbLPLuZGBQO_CBnRkpiE/edit) within 1-3 days of receiving notification of your leave. The purpose of the assessment is to make the team member aware of any hazards or "risks" to her in the workplace/home office to reduce potential injury to her or her baby.
 - The Absence Management team will notify payroll and email Vistra a copy of the MATB1, start date of leave, and outline what pay the team member is eligible for (statutory, supplemental, etc). Payroll will then automatically calculate the SMP due each pay period based on this information. The recovery of 90% will be outlined on the monthly payroll spreadsheet so that the finance team has indication of the amounts being offset each month.
@@ -401,8 +401,8 @@ Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 w
 
 To apply for Paternity Leave:
 
-- Submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-forms) if applying for Shared Parental Leave pay.
+- Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Adoption Leave Payment
@@ -417,7 +417,7 @@ Team members can receive statutory adoption pay for up to 39 weeks:
 
 To apply for Adoption Leave:
 
-- Submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
+- Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Unpaid Parental Leave
@@ -429,7 +429,7 @@ To apply for Adoption Leave:
 
 ### Other Job-Protected Leave
 
-The following leave types run concurrently with GitLab PTO. Team members should initiate leave by selecting the appropriate option in `Time Off by Deel`. If none applies, the team members should notify their manager and the Absence Management team `leaves@gitlab.com` to initiate leave.
+The following leave types run concurrently with GitLab PTO. Team members should initiate leave by selecting the appropriate option in `Workday`. If none applies, the team members should notify their manager and the Absence Management team `leaves@gitlab.com` to initiate leave.
 
 **Carer's Leave:** Team members are entitled to at least one week of unpaid leave (pro-rated) each year to provide or arrange care for a dependent with a long-term care need.
 

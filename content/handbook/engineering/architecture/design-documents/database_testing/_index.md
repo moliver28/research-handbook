@@ -1,5 +1,5 @@
 ---
-title: Database Testing
+title: "Database Testing"
 status: implemented
 creation-date: "2021-02-08"
 authors: [ "@abrandl" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 **Notice:** This blueprint has been partially implemented. We still plan to

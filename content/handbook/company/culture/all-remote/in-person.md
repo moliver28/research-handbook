@@ -18,7 +18,7 @@ While the Covid-19 pandemic has impacted many teams' ability to gather in person
 
 Small teams located in the same city or region may be able to still gather in person, but for an all-remote company where team members are distributed across many time zones, you'll need to lean on platforms like [Zoom](https://zoom.us), [Hopin](https://hopin.com), or [Virbela](https://www.virbela.com) to gather virtually in the meantime. It's important to maintain the purpose of these gatherings, and to be intentional and creative about continuing to bring the team together.
 
-For example, at GitLab, we hosted our 2020 [Contribute](https://about.gitlab.com/events/gitlab-contribute) virtually. We used this time to take a break from our daily projects, celebrate the achievements of the team, and get to know one another better. By focusing this time on bonding rather than active work, we were able to boost engagement and invest in strengthening the relationships across the organization.
+For example, at GitLab, we hosted our 2020 [Contribute](/handbook/company/culture/summit/) virtually. We used this time to take a break from our daily projects, celebrate the achievements of the team, and get to know one another better. By focusing this time on bonding rather than active work, we were able to boost engagement and invest in strengthening the relationships across the organization.
 
 Between these larger gatherings, informal communication is another important element to maintain. We've curated a list of ways to approach this in our [informal communication guide](informal-communication/).
 
@@ -115,7 +115,7 @@ As an example, [GitLab Commit](https://about.gitlab.com/events/commit) — a ser
 
 While [virtual events](events/) and ongoing touch points through [informal communication](informal-communication/) mechanisms are vital for a team's growth, all-remote companies should consider a regularly scheduled gathering or summit for the entire company.
 
-These gatherings should be optional, though encouraged, and should focus primarily on bonding. Hosting a summit only to inundate colleagues with presentations is not recommended. At [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute), for example, numerous excursions are planned throughout the week in order to bring people together in the same physical space for non-work activities.
+These gatherings should be optional, though encouraged, and should focus primarily on bonding. Hosting a summit only to inundate colleagues with presentations is not recommended. At [GitLab Contribute](/handbook/company/culture/summit/), for example, numerous excursions are planned throughout the week in order to bring people together in the same physical space for non-work activities.
 
 With no central office, these are remarkably flexible. Your company may choose a different location for each occurrence, or perhaps support a voting system where colleagues can offer up suggestions for ideal locations.
 

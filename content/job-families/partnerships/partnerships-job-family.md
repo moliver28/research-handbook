@@ -22,7 +22,7 @@ The Director, Partnerships is a [grade 10](/handbook/total-rewards/compensation/
 - Evaluate effectivity of partner relationships and engagements in delivering positive ROI.
 - Speak regularly in public as the voice for GitLab and the partner
 - SA level expertise with GitLab AND the partners technology
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Requirements
 
@@ -51,7 +51,7 @@ The VP, Business Development and Strategic Parterships is a [grade 12](/handbook
 - Coordinate and collaborate with cross-functional organizations within GitLab to include marketing, products, finance, legal, sales, engineering and people operations
 - Build and define the Business Development and Strategic Partnership strategy and vision for long term partner success
 - Identify and define measures of success for the Business Development and Strategic Partnership team, focusing on growth and development of the team
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Requirements
 
@@ -70,7 +70,7 @@ The VP, Business Development and Strategic Parterships is a [grade 12](/handbook
 
 - $ derived from GitLab + Technology partner joint customers
 - Size of Partner Practices - skilled, certified consultants and deliver resources
-- [SMAU](/handbook/product/performance-indicators/#stage-monthly-active-users-smau) acceleration by stage or # seats in named enterprise accounts
+- [SMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stage-monthly-active-users-smau) acceleration by stage or # seats in named enterprise accounts
 
 ## Career Ladder
 

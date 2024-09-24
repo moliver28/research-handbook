@@ -2,7 +2,6 @@
 title: "Working Groups"
 description: "Like all groups at GitLab, a working group is an arrangement of people from different functions. Learn more!"
 no_list: true
-aliases: /handbook/company/top-cross-functional-initative/
 ---
 
 ## What's a Working Group?
@@ -208,6 +207,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
 1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
 1. [Product Accessibility]({{< ref "product-accessibility" >}})
+1. [Secure Govern Database Decomposition]({{< ref "secure-govern-database-decomposition" >}})
 1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
 1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
 

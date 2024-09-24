@@ -127,6 +127,10 @@ This helps us break down silos, balance the workload, and prevent disruptive re-
 
 To help with prioritizing within the list of available `Verify candidate` issues, it's recommended to reference the issue types in the [Product Priorities](/handbook/product/product-processes/#prioritization) list, noting any severities applied on the issues as well.
 
+### Shared technical debt
+
+In the Verify stage, prioritizing our technical debt so that we can move faster is a top priority. Starting in August 2024, the Pipeline teams in the Verify stage have created a [board](https://gitlab.com/groups/gitlab-org/-/boards/1438885?not%5Blabel_name%5D%5B%5D=group%3A%3Ahosted%20runners&not%5Blabel_name%5D%5B%5D=group%3A%3Arunner&label_name%5B%5D=devops%3A%3Averify&label_name%5B%5D=type%3A%3Amaintenance) for Pipeline teams in the Verify stage that is intended to help us prioritize technical debt and bring alignment across team members of what is the most critical technical debt work to be focusing on. An engineer DRI from each team will work closely with their EM to align on which issues should be advocated for the most at a given time.
+
 ### Issue Health Status Definitions & Async Issue Updates
 
 Across Verify we value [Transparency](/handbook/values/#transparency), we live our values of [Inclusion](/handbook/values/#bias-towards-asynchronous-communication), and we expect [Efficiency](/handbook/values/#write-things-down) by dogfooding using Issue Health Statuses and providing regular updates on active issues. Each team in the Verify Stage will define the cadence of updates and specific definition of the statuses, but generally the expectation is a weekly update on in progress issues with the following Health Statuses:
@@ -139,7 +143,7 @@ These updates are an opportunity for the engineer to add detail to the status an
 
 ### Merge Requests in Verify
 
-In the Verify stage, we value [MR Rate](/handbook/engineering/metrics/#merge-request-rate) as a shared performance indicator for team collaboration, iteration, customer results. The entire team is responsible for iterative scope in issues. This starts with product management creating a clear problem statement connected to user insights. UX then adds interaction specifications and acceptance criteria to then be considered and weighed by the engineering team. Teams are encouraged to iterate on scope so as to delivery the [smallest thing possible](/handbook/values/#iteration).
+In the Verify stage, we value [MR Rate](/handbook/product/groups/product-analysis/engineering/dashboards/#merge-request-rate) as a shared performance indicator for team collaboration, iteration, customer results. The entire team is responsible for iterative scope in issues. This starts with product management creating a clear problem statement connected to user insights. UX then adds interaction specifications and acceptance criteria to then be considered and weighed by the engineering team. Teams are encouraged to iterate on scope so as to delivery the [smallest thing possible](/handbook/values/#iteration).
 
 By considering MR Rate as a measure of throughput, product management is focused on creating decomposed pieces of scope to improve the user experience. This encourages the UX and engineering teammates to provide simpler ways to solve the same problem, ultimately improving the throughput of the entire team.
 
@@ -155,7 +159,7 @@ or no issues were found by the Verify maintainer.
 
 Pipeline Authoring and Pipeline Execution are closely related but they also represent different stages in the cycle of a user's interaction with a pipeline. At a very high-level, this image illustrates the main focus of each group and how they can both support a better pipeline experience.
 
-![Verify Groups](/handbook/product/categories/verify_groups_banner.jpg)
+![Verify Groups](/handbook/product/groups/verify_groups_banner.jpg)
 
 ### Async Work Week
 
@@ -218,7 +222,7 @@ Availability and performance issues (commonly referred to as infradev) are also 
 We believe in supporting our open source community. We aim to support two main measure of success:
 
 1. [Merged MRs from community contributions](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&label_name[]=Community%20contribution&label_name[]=devops%3A%3Averify)
-1. [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr)
+1. [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr)
 
 Each team in the Verify Stage follows roughly the same process to ensure the community is effectively supported and free to add features or fixes to the product. How we manage the Community Contribution MRs is spread across three main areas: processing the contributions, reviewing the contributions, and merging the contributions.
 

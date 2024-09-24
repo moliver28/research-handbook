@@ -8,8 +8,8 @@ At GitLab, we promote two paths for leadership in Engineering. While there is a
 healthy degree of overlap between these two ideas, it is helpful and efficient
 for us to specialize training and responsibility for each of:
 
-- **Technical leadership**, as represented by [Staff and higher-level engineers](/handbook/engineering/career-development#roles).
-- **Professional leadership**, as represented by [Engineering management](/handbook/engineering/career-development#roles).
+- **Technical leadership**, as represented by [Staff and higher-level engineers](/handbook/engineering/careers/#roles).
+- **Professional leadership**, as represented by [Engineering management](/handbook/engineering/careers/#roles).
 
 While technical leadership tends to come naturally to software engineers,
 professional leadership can be more difficult to master.
@@ -106,7 +106,7 @@ different types of manager roles (such as `Support`), and the potential for one 
 
 Where:
 
-- Acting or Interim roles are [temporary management positions](/handbook/engineering/career-development/#temporary-management-positions).
+- Acting or Interim roles are [temporary management positions](/handbook/engineering/careers/#temporary-management-positions).
 - `Senior` manager roles are introduced when needed, usually related to management [span of control](/handbook/company/structure/#management-group) in the relevant department.
 - Some departments have domain specific role names as well as, or instead of, `Engineering Manager`. Be specific when identifying which manager under Engineering is responsible for certain tasks in order to avoid confusion over the term "EM". For example:
   - `Support Operations Manager` for Support.

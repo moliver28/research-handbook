@@ -7,6 +7,8 @@ description: "This threat modeling process is tailored to GitLab features."
 
 [As of 2023-11-02, AppSec is only prioritizing P1 AppSec reviews and threat models](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/475#note_1632226713). This does not mean P2 or P3 AppSec reviews or threat model requests can't be submitted, but please understand that due to capacity limitations we will only be able to prioritize P1 reviews. Reach out to us in the #sec-appsec Slack channel if you have any questions or concerns.
 
+AppSec wants to encourage teams to create their own threat models, and the team will try to support any queries in regards to the process.
+
 ## Using the `threat model` scoped labels
 
 To assist in the creation of threat models the two labels `~threat model::needed` and `~threat model::done`
@@ -15,7 +17,7 @@ counterpart will apply the `~threat model::needed` label to the epic or issue. T
 will also create a dedicated threat modeling issue in the
 [`threat-models`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model)(internal link) project.
 Within the issue the development and the application security team should collaborate on the creation
-of a threat model. The issue template contains detailed steps to guide through the process.
+of a threat model. The development team must provide technical documentation in the issue before the process starts. The issue template contains detailed steps to guide through the process. 
 
 If you're new to threat modeling: for a beginner friendly start please have a look at our
 [threat modeling how to page](/handbook/security/product-security/application-security/threat-modeling/howto/).

@@ -15,7 +15,7 @@ Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqA
 
 ## Group Health Coverage
 
-GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
+GitLab offers medical, dental, and vision coverage at no cost to the team member.
 
 ### Medical, Dental, and Vision Coverages
 
@@ -66,8 +66,8 @@ You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor
 **For new hires:**
 Once you've determined your enrollment coverage (family plan or single plan), email your decision to total-rewards@gitlab.com. This step must be completed in order for your enrollment process to begin.
 
-During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.  
-Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
+During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.
+Please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) if you have any questions!
 
 More Details on setting up your ManuLife site can be found the [GitLab ManuLife Resource Page](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/) including the following guides:
 
@@ -80,7 +80,7 @@ More Details on setting up your ManuLife site can be found the [GitLab ManuLife 
 
 #### Updating Coverage Status, Life Events and Enrollment of Domestic Partners, Spouses, and Dependents
 
-Definition of dependents include legally married or common law spouses, children under 21, including children of common law spouses. Children under 25 are also covered if they are a full time student - proof of school enrollment is required. 
+Definition of dependents include legally married or common law spouses, children under 21, including children of common law spouses. Children under 25 are also covered if they are a full time student - proof of school enrollment is required.
 
 Team Members can change their plan status during certain Life Events. These Life events include:
 
@@ -92,13 +92,13 @@ Team Members can change their plan status during certain Life Events. These Life
 
 ##### Adding Dependents on to the ManuLife platform
 
-If Team Members already have Dependents under the plan they can add more dependents during a life event themselves via the [ManuLife Portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Should you have any questions please reach out to ManuLife at 1-800-268-6195. 
+If Team Members already have Dependents under the plan they can add more dependents during a life event themselves via the [ManuLife Portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Should you have any questions please reach out to ManuLife at 1-800-268-6195.
 
-If this is the first dependent you are adding to the plan, please send Total-Rewards@gitlab.com an email with your request, please include your dependent's full legal name, date of birth, gender and if they have the additional coverage via their own employer or your spouse's employer for dependents. 
+If this is the first dependent you are adding to the plan, please send Total-Rewards@gitlab.com an email with your request, please include your dependent's full legal name, date of birth, gender and if they have the additional coverage via their own employer or your spouse's employer for dependents.
 
 #### Insurance Cards
 
-Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal. 
+Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal.
 
 This card provides your group plan number and member identification number. Keep this information with you at all times and use it when requested by a health or dental provider or in case of medical emergency when traveling.
 
@@ -131,7 +131,7 @@ SC Insurance: info@scinsurance.ca or call 416.259.1166
 
 ### Beneficiary Designation
 
-Team Members can designate a beneficiary for their life insurance policy directly on the ManuLife portal. Please see the [Beneficiary Designation Instructions](https://drive.google.com/file/d/1P8ekxi7aWF5FxI2wdAkO1dDYSCDEJovm/view?usp=sharing). 
+Team Members can designate a beneficiary for their life insurance policy directly on the ManuLife portal. Please see the [Beneficiary Designation Instructions](https://drive.google.com/file/d/1P8ekxi7aWF5FxI2wdAkO1dDYSCDEJovm/view?usp=sharing).
 
 It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible. Please note that there is a separate process for electing a beneficiary for the RRSP plan.
 
@@ -146,7 +146,7 @@ It's important to have this information up to date to ensure that team member's 
 
 ## Personal Travel Assitance
 
-Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation. 
+Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation.
 
 Please see these resources for additional details:
 
@@ -171,7 +171,7 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 For enrolling into the RRSP, please navigate to [Canada Life's RRSP portal](https://mycanadalifeatwork.com) and follow the directions in the [enrollment express pdf](https://drive.google.com/file/d/16K333QPsXllZFolC_yiXZYb3rUYJwXvu/view?usp=sharing). For a more detailed overview of enrolling and navigating the RRSP platform, please reference the [enrollment express guide](https://www.brainshark.com/1/player/grs?pi=zGWz97lF4zPVigz0&r3f1=c5ff81d2ded38b99c999f69cca80c7ded98198f2dbc5c1cd9e&fb=0).
 
 - Once enrolled, a plan administrator will need to approve your enrollment. This may take up to two weeks.
-- If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or the Total Rewards team at total-rewards@gitlab.com.
+- If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 - Please remember to select a beneficiary when enrolling. This is separate from the beneficiary elected for your life insurance plan.
 - Team Members are responsible for monitoring their own contribution limits to ensure they do not over-contribute to their maximum limit. This is because team members can carry forward RRSP contribution room that they were unable to use in any particular year and is unique to each member.
 - Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please email Nonuspayroll@gitlab.com and Total-Rewards@gitlab.com prior to the bonus being paid out.
@@ -182,15 +182,15 @@ Employer contributions are made to the federal Canada Pension Plan (CPP).
 
 ## PTO and Vacation Information
 
-GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page]({{< ref "paid-time-off#statutory-vacation-requirements" >}}). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
+GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page]({{< ref "paid-time-off#statutory-vacation-requirements" >}}). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
 
 ## Sick Pay
 
-Canada Corp - Team members who have been employed by GitLab are entitled to 10 days per year, 3 days after the first month of employment. Employees must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that annual sick leave entitlement is properly tracked.
+Canada Corp - Team members who have been employed by GitLab are entitled to 10 days per year, 3 days after the first month of employment. Employees must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.
 
-Ontario - Team members who have been employed by GitLab for at least two consecutive weeks are entitled to up to three full days of job protected unpaid sick leave every calendar year under the Employment Standards Act (ESA). Leave under ESA runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that annual sick leave entitlement is properly tracked.
+Ontario - Team members who have been employed by GitLab for at least two consecutive weeks are entitled to up to three full days of job protected unpaid sick leave every calendar year under the Employment Standards Act (ESA). Leave under ESA runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.
 
-Quebec - The Act Respecting Labour Standards (ALS) provides for two days of paid absence per calendar year (January 1 to December 31). This leave runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that annual sick leave entitlement is properly tracked.
+Quebec - The Act Respecting Labour Standards (ALS) provides for two days of paid absence per calendar year (January 1 to December 31). This leave runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.
 
 Québec - [La Loi sur les normes du travail (N-1.1)](http://www.legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
 
@@ -271,8 +271,8 @@ Québec - [La Loi sur les normes du travail (N-1.1)](http://www.legisquebec.gouv
 
 ### Applying for Parental Leave in Canada
 
-- To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 6 weeks before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-- Pregnant team members must provide a certificate from a health care practitioner certifying their pregnancy to the Absence Management team at `leaves@gitlab.com`.
+- To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 6 weeks before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+- Pregnant team members must provide a certificate from a health care practitioner certifying their pregnancy to the Absence Management team at `leaves@domain.com`.
 
 ### GitLab Parental Leave Payments and Employment Insurance
 
@@ -294,65 +294,65 @@ Per the statutory requirements in Canada, a team member is ineligible to receive
 
 The following statutory leave types run concurrently with GitLab PTO. Each leave is separate, and the right to each leave is independent of any right a team member may have to other leave(s). A team member may be entitled to more than one leave for the same event. A team member's entitlement to any statutory leaves of absence is governed by the legislation applicable in the province in which the employee works for the Company. Statutory leaves of absence will be tracked separately. Any additional paid or unpaid leaves provided by GitLab, are inclusive of, and not in addition to, any concurrent paid or unpaid leaves provided by the applicable employment standards legislation. Additional information can be found on the [Government of Ontario website](https://www.ontario.ca/document/your-guide-employment-standards-act-0). Statutory leave for which team members are not entitled to pay will be paid at 100% of the team member's salary for the first 25 days. If the team member is eligible for a government benefit, GitLab will supplement the payment so that the team member receives 100% of their salary for the first 25 days.
 
-To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
+To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.
 
 **Bereavement Leave** *Team members who have been employed by GitLab for at least 2 consecutive weeks*
 
 - 2 unpaid days each calendar year for the death of a family member.
-- Team members should select `Bereavement` in Time Off by Deel.
+- Team members should select `Bereavement` in Workday.
 
 **Family Responsibility Leave** *Team members who have been employed by GitLab for at least 2 consecutive weeks*
 
 - 3 unpaid days of leave each calendar year because of an illness, injury, medical emergency, or urgent matter relating to [certain relatives](https://www.ontario.ca/document/your-guide-employment-standards-act-0/family-responsibility-leave).
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Family Caregiver Leave**
 
 - Up to 8 weeks per calendar year, [per specified family member](https://www.ontario.ca/document/your-guide-employment-standards-act-0/family-caregiver-leave).
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Family Medical Leave**
 
 - Up to 28 weeks in a 52-week period to provide care or support to certain family members and other [qualifying individuals](https://www.ontario.ca/document/your-guide-employment-standards-act-0/family-medical-leave#section-0) who have a serious medical condition with a significant risk of death.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Critical Illness Leave** *Team members who have been employed with GitLab for six consecutive months*
 
 - Up to 37 weeks within a 52-week period of leave in relation to a critically ill minor child
 - Up to 17 weeks within a 52-week period in relation to a critically ill adult.
 - The team member must submit a [medical certificate](https://www.labour.gov.on.ca/english/es/pdf/medcert_2019_1.pdf).
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Child Death Leave** *Team members who have been employed with GitLab for at least six consecutive months*
 
-- Up to 104 weeks of leave with respect to the death of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/programs/federal-income-support-parents-murdered-missing-children.html).
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Up to 104 weeks of leave with respect to the death of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/services/parents-young-victims-crime.html).
+- Team Members should select `Bereavement` in Workday.
 
 **Crime-related child disappearance leave** *Team members who have been employed with GitLab for at least six consecutive months*
 
-- Up to 104 weeks of leave with respect to the crime-related disappearance of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/programs/federal-income-support-parents-murdered-missing-children.html).
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Up to 104 weeks of leave with respect to the crime-related disappearance of a child. Team members who take time away from work because of a crime-related death of a child may apply for a [Federal Income Support Grant](https://www.canada.ca/en/employment-social-development/services/parents-young-victims-crime.html).
+- Team Members should select `Out Sick` in Workday.
 
 **Domestic or sexual violence leave** *Team members who have been employed with GitLab for at least 13 consecutive weeks*
 
 - 10 days and 15 weeks of domestic or sexual violence leave each calendar year. The first 5 days of leave are paid.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Infectious disease emergency leave**
 
 - Team members are entitled to take this leave for [specified reasons](https://www.ontario.ca/document/your-guide-employment-standards-act-0/infectious-disease-emergency-leave#section-7)  related to a designated infectious disease. The only disease for which infectious disease emergency leave may be taken as of 2021-03-09 is COVID-19.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Organ Donor Leave** *Team members who have been employed with GitLab for at least 13 weeks*
 
 - Up to 13 weeks of [organ donor leave](https://www.ontario.ca/document/your-guide-employment-standards-act-0/organ-donor-leave) for the purpose of undergoing surgery to donate all or part of certain organs to a person.
 - This leave may be extended an additional 13 weeks for a maximum of 26 weeks.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Reservist Leave** *Reservists who have been employed with GitLab for at least six consecutive months*
 
 - Unpaid leave for the time necessary to engage in an international operation or an operation within Canada to deal with an emergency or its aftermath. This includes pre-deployment and post-deployment activities when applicable.
-- Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
+- Team Members should select `Military Service` in Workday.
 
 </details>
 
@@ -360,7 +360,7 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 <summary>Québec</summary>
 
-The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.  More information on these leave entitlements can be found on the [Commission des Normes, de l'Equité website](https://www.cnesst.gouv.qc.ca/fr/conditions-travail/conges/lies-famille).
+The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.  More information on these leave entitlements can be found on the [Commission des Normes, de l'Equité website](https://www.cnesst.gouv.qc.ca/fr/conditions-travail/conges/lies-famille).
 
 **Reservist Leave**
 
@@ -375,13 +375,13 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
   - Exceptions: A reservist does not have the right to be absent from work in the following situations:
     - if there is a danger to the life, health or safety of other workers or the population;
     - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
-- Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
+- Team Members should select `Mandatory Civilian Service` in Workday.
 
 **Marriage or civil union**
 
 - 1 day of paid leave for the team member's marriage or civil union when it falls on a week day.
 - 1 day of unpaid leave for the marriage or civil union of a parent, child, sibling, or child of spouse.
-- Team Members should select `Vacation` in Time Off by Deel.
+- Team Members should select `Paid Time Off` in Workday.
 
 **Parental or family obligations** *Team members who have been employed with GitLab for at least 3 months*
 
@@ -389,23 +389,23 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
 - Up to 16 weeks in one 12-month period to care for a loved one due to a serious accident or serious illness
 - Up to 27 weeks in one 12-month period if the critically ill person suffers from a life-threatening illness
 - Up to 36 weeks in a 12-month period if the seriously ill or injured person is a minor child.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Bereavement Leave**
 
 - 5 days of leave in the event of the death of an immediate family member. Team members are entitled to pay for the first 2 days.
 - Up to 104 weeks of unpaid leave following the death of a minor child, or suicide of spouse, parent or child. If the death occurs when the team member is eligible for parental benefits, the benefits will be paid until the end of the 2nd week following the death.
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Disappearance of a minor child**
 
 - Up to 104 weeks of unpaid leave.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Organ or tissue donation:**
 
 - Team members are entitled to up to 26 weeks of unpaid leave over a 12-month period for organ or tissue donation for transplant.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Victims of a Crime**
 
@@ -414,12 +414,12 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
   - their minor child suffers serious injuries as a result of a criminal offense;
   - their spouse or child of full age dies as a result of a criminal offense.
   - Exceptions: The leave entitlement does not apply if the worker or the deceased person (spouse or child of full age) participated in the criminal offense or contributed to the injury through their gross fault, i.e., through their recklessness, carelessness or gross negligence.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Victim of domestic or sexual violence:**
 
 - Workers who must be absent from work as a result of domestic or sexual violence are entitled to an unpaid absence of up to 26 weeks over a 12-month period.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Non-work related accident or illness** *Team members who have been employed with GitLab for at least 3 consecutive months*
 
@@ -427,7 +427,7 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
   - Sickness or accident that is not related to their work and which renders them unable to work.
   - Family obligations relating to care, health, or education of child or spouse's child.
   - Family obligations as an informal caregiver for a relative or another person who is ill.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 The following leave types **do not** run concurrently with GitLab time away policies (PTO, Sick Time):
 
@@ -440,68 +440,68 @@ The following leave types **do not** run concurrently with GitLab time away poli
 
 <summary>British Columbia</summary>
 
-The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
+The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.
 
 More information on these leave entitlements can be found on the [Government of British Columbia's website](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/time-off/leaves-of-absence).
 
 **Leave respecting domestic or sexual violence**
 
 - 5 days of paid leave, 5 days of unpaid leave, and 15 weeks of additional unpaid leave, if necessary. This leave also applies to parents of a child or dependent impacted by this kind of violence.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Personal illness or injury leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - Up to 3 days of unpaid leave each year.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Family Responsibility Leave**
 
 - Up to 5 days of unpaid leave in each employment year (beginning on the date the team member started work) to help with the care, health or education of a child under the age of 19 in their care or to care for the health of any other immediate family member.
 - Does not carry over from year to year
-- Team Members should select `Vacation` in Time Off by Deel.
+- Team Members should select `Paid Time Off` in Workday.
 
 **Critical Illness or Injury Leave**
 
 - Up to 36 weeks within a 52-week period to care for a child under the age of 19.
 - Up to 16 weeks within a 52-week period to care for a family member who is 19 years of age or older.
-- Team members must provide the Absence Management team at `leaves@gitlab.com` with a medical certificate certifying that the life of the family member is at risk, the care/support can be provided by someone who is not a medical professional, and specifying the period of time for which the family member will need care/support.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team members must provide the Absence Management team at `leaves@domain.com` with a medical certificate certifying that the life of the family member is at risk, the care/support can be provided by someone who is not a medical professional, and specifying the period of time for which the family member will need care/support.
+- Team Members should select `Out Sick` in Workday.
 
 **Compassionate Care Leave**
 
 - Up to 27 weeks within a 52-week period to care for a family member who is gravely ill.
-- Team members are required to provide the Absence Management team at `leaves@gitlab.com` with a medical certificate stating that the family member has a serious medical condition and is at significant risk of death within 26 weeks.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team members are required to provide the Absence Management team at `leaves@domain.com` with a medical certificate stating that the family member has a serious medical condition and is at significant risk of death within 26 weeks.
+- Team Members should select `Out Sick` in Workday.
 
 **Bereavement Leave**
 
 - Up to 3 days of unpaid leave.
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Leave respecting the disappearance of a child**
 
 - Up to 52 weeks of unpaid leave for employees whose child has gone missing in circumstances where it is likely the child's disappearance is the result of a crime.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Leave respecting the death of a child**
 
 - 104 weeks of unpaid leave
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Reservists Leave** *Team members who are reservists for the Canadian Forces*
 
 - Team members who are reservists are entitled to unpaid leave if they are deployed to a Canadian Forces operation outside Canada, or if they are engaged, either inside or outside Canada, in pre-deployment or post-deployment activities in connection with such an operation. Reservists are also entitled to unpaid leave if they are deployed to a Canadian Forces operation inside Canada that will be providing assistance in dealing with an emergency or its aftermath. Reservists are entitled to this leave for as long as the deployment circumstances apply.  In addition, team members who are reservists are entitled to 20 days per year of unpaid leave to participate in Canadian Forces training activities.
-- Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
+- Team Members should select `Mandatory Civilian Service` in Workday.
 
 **Jury Duty**
 
 - Unpaid leave to attend court as a juror
-- Team Members should select `Jury Duty` in Time Off by Deel.
+- Team Members should select `Jury Duty` in Workday.
 
 **COVID-19 Related Leave**
 
 - Team members can take unpaid leave if unable to work for specified reasons related to COVID-19: https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/time-off/leaves-of-absence.  This leave will be available for as long as the circumstances that require the leave are present.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 </details>
 
@@ -509,66 +509,66 @@ More information on these leave entitlements can be found on the [Government of 
 
 <summary>Alberta</summary>
 
-The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
+The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.
 
 More information about these leave types can be found on the [Government of Alberta website](https://www.alberta.ca/job-protected-leaves.aspx).
 
 **Bereavement Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - 3 days of unpaid leave per year for the death of a [family member](https://www.alberta.ca/bereavement-leave.aspx)
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Citizenship Ceremony Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - Up to a half-day of unpaid leave to attend citizenship ceremony
-- Team Members should select `Vacation` in Time Off by Deel.
+- Team Members should select `Paid Time Off` in Workday.
 
 **Compassionate Care Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - Up to 27 weeks of unpaid leave to give care or support to a gravely ill [family member](https://www.alberta.ca/compassionate-care-leave.aspx#jumplinks-2) with a significant risk of dying within 26 weeks.
 - Team members must submit a medical certificate to the Absence Management team at `leaves@gitlab.com`
 - Team members may also be eligible for [Employment Insurance](https://www.canada.ca/en/services/benefits/ei/caregiving.html)
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **COVID-19 Leave**
 
 - 14 days of unpaid leave for team members who are in quarantine due to COVID-19
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Critical Illness of a Child Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - Up to 36 weeks for the critical illness of the team member's child.
 - Team members may be eligible for Employment Insurance.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Death or disappearance of a child leave** *Team members who have been employed with GitLab for 90 days*
 
 - Up to 52 weeks if the child has disappeared
 - Up to 104 weeks if the child has died as the probable result of a crime
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Domestic Violence Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - Up to 10 days of unpaid leave each calendar year. This does not carry over if unused.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Long-term illness and injury leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - Up to 16 weeks of unpaid leave.
 - Team members may be eligible for Employment Insurance.
 - Team members must submit a medical certificate issued by a nurse practitioner or physician stating the estimated duration of leave.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Personal and family responsibility leave** *Team members who have been employed with GitLab for 90 days*
 
 - Up to 5 days each calendar year to care for their own health or to meet family responsibilities in relation to a [family member](https://www.alberta.ca/personal-family-responsibility-leave.aspx#jumplinks-2). This does not carry over to the following year if unused.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Reservist Leave** *Team members who have been employed with GitLab for at least 26 consecutive weeks*
 
 - Up to 20 days each calendar year for annual training
 - As long as necessary to accommodate the period of service required for [international or domestic deployment](https://www.alberta.ca/reservist-leave.aspx#jumplinks-2).
-- Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
+- Team Members should select `Military Service` in Workday.
 
 </details>
 
@@ -578,61 +578,61 @@ More information about these leave types can be found on the [Government of Albe
 
 The following statutory leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). A team member's entitlement to any statutory leaves of absence is governed by the legislation applicable in the province in which the employee works for the Company. Statutory leaves of absence will be tracked separately. Any additional paid or unpaid leaves provided by GitLab, are inclusive of, and not in addition to, any concurrent paid or unpaid leaves provided by the applicable employment standards legislation.
 
-To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
+To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.
 
 More information can be found on the [Government of Manitoba website](https://www.gov.mb.ca/labour/standards/doc,unpaid-leave,factsheet.html).
 
 **Family Leave** *Team members who have been employed with GitLab for at least 30 days*
 
 - 3 days of unpaid leave for a team member to deal with family responsibilities or personal illness.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Bereavement Leave** *Team members who have been employed with GitLab for at least 30 days*
 
 - 3 days of unpaid leave for a team member to deal with the death of a family member
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Compassionate Care Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - 28 weeks of unpaid leave for a team member to care for a seriously  ill family member
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Long-term Leave for Serious Illness or Injury** *Team members who have been employed with GitLab for at least 90 days*
 
 - 17 weeks of unpaid leave for team members who have a long-term serious illness or injury.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Interpersonal Violence Leave** *Team members who have been employed with GitLab for at least 90 days*
 
 - 10 days and 17 weeks of unpaid leave for a team member to address a situation of violence in the home. Team members are entitled to pay for the first 5 days.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Leave for Citizenship** *Team members who have been employed with GitLab for at least 30 days*
 
 - 4 hours of unpaid leave for a new Canadian to receive their certificate of citizenship.
-- Team Members should select `Vacation` in Time Off by Deel.
+- Team Members should select `Paid Time Off` in Workday.
 
 **Leave Related to the Death or Disappearance of a Child** *Team members who have been employed with GitLab for at least 30 days*
 
 - Up to 52 weeks for parents dealing with the disappearance of a child
 - Up to 104 weeks for parents dealing with the death of a child  as the result of a crime
-- Team Members should select `Bereavement` in Time Off by Deel.
+- Team Members should select `Bereavement` in Workday.
 
 **Reservist Leave** *Team members who have been employed with GitLab for at least 3 months*
 
 - Unpaid leave for the duration of their deployment or service.
-- Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
+- Team Members should select `Military Leave` in Workday.
 
 **Organ Donation Leave** *Team members who have been employed with GitLab for at least 30 days*
 
 - 13 weeks of unpaid leave for a team member to donate an organ or tissue.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 **Critical Illness Leave** *Team members who have been employed with GitLab for at least 30 days are entitled for Critical Illness Leave to care for a child under 18 years. Team members who have been employed with GitLab for at least 90 days are entitled to Critical Illness Leave to care for an adult.*
 
 - Up to 37 weeks of leave within a 52-week period to provide care or support to a critically ill child under 18 years old.
 - Up to 17 weeks of leave within a 52-week period to provide care or support to a critically ill adult.
-- Team Members should select `Out Sick` in Time Off by Deel.
+- Team Members should select `Out Sick` in Workday.
 
 </details>
 

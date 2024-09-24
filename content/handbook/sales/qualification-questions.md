@@ -67,7 +67,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
   - If GCP are you deploying to GCE, GKE, App Engine, or Cloud Run
   - If Azure are you deploying to VMs, AKS, Functions
 - How would you describe your maturity level/progress with continuous integration and continuous delivery Is this something your group and company want to improve upon?
-- How are you using GitLab CE right now? (note: if applicable--check https://version.gitlab.com/ to identify if their company is on CE)
+- How are you using GitLab CE right now? (note: if applicable--check <https://version.gitlab.com/> to identify if their company is on CE)
 - Are other groups using Git? If no, why not and what Version Control System(s) are they using? If yes, what are they using?
 - How is security testing currently done in your organization?
 - What is the current process for finding vulnerabilities around Static Application Security Testing, Dependency Scanning, and/or License Compliance?

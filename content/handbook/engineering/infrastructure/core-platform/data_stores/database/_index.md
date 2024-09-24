@@ -20,7 +20,10 @@ The following people are permanent members of the Database Team:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts manager="alexives" role="Cloud Connector and Database" >}}
+| **Name**                                                 | **Role** |
+| ---------------------------------------------------------| ------------------------------------------------------------------------------- |
+| [Sampath Ranasinghe](/handbook/company/team#sranasinghe) | [Senior Product Manager, Geo and Database](/job-families/product/product-manager) |
+| [Ben Prescott](/handbook/company/team#ben-prescott.    ) | [Staff Support Engineer](/job-families/engineering/support-engineer/) |
 
 ### Stable Counterparts to other teams
 

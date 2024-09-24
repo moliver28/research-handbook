@@ -18,7 +18,7 @@ The Staff Backend Engineer is a [grade 8](/handbook/total-rewards/compensation/c
 - Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions.
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
+- Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 - Complete [Interview Training](/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ## Requirements
@@ -197,7 +197,7 @@ CI/CD Backend Engineers are primarily tasked with improving the Continuous Integ
 
 - Provide value to the user and communicate such with product managers,
 - Introduce features that work at scale and in untrusting environments,
-- Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+- Always focus on defining and shipping [the Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 We, as a team, cover end-to-end integration of CI/CD in GitLab, with components being written in Rails and Go. We work on a scale of processing a few million of CI/CD jobs on GitLab.com monthly. CI/CD engineering is interlaced with a number of teams across GitLab. We build new features by following our [direction](https://about.gitlab.com/direction/#ci--cd). Currently, we focus on providing a deep integration of Kubernetes with GitLab:
 

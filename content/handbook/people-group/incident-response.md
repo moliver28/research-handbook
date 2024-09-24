@@ -25,7 +25,7 @@ Team members should focus on the safety of their families and themselves first a
 
 We understand that these events can be extremely stressful for team members and their families. We encourage all team members to utilize our Modern Health services. Modern Health is a company-sponsored, confidential and free resource available to you and your dependents. Services include confidential counseling, financial information and resources, legal support and more. Please refer to our [Modern Health](/handbook/total-rewards/benefits/modern-health/) page in the handbook for more details.
 
-If you have any questions about team member benefits coverage, please contact our total rewards team at total-rewards@gitlab.com
+If you have any questions about team member benefits coverage, please contact our total rewards team at [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 
 ### Actions to take as a Manager
 

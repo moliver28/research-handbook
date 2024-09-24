@@ -35,7 +35,7 @@ Giving and Receiving feedback is challenging. The training below provides some b
 Mentoring sounds easy however there can be pitfalls. The training below is a good resource to ensuring you engage in a productive Mentoring relationship.
 
 * [Grow your Impact as a Mentor](https://www.linkedin.com/learning/paths/grow-your-impact-as-a-mentor?u=2255073)
-* [Mentoring](/handbook/engineering/career-development/mentoring/) (Handbook)
+* [Mentoring](/handbook/engineering/careers/mentoring/) (Handbook)
 
 ## Learning GitLab
 

@@ -5,9 +5,9 @@ description: 'Cells: Infrastructure'
 authors: [ "@sxuereb" ]
 coach: [ "@andrewn" ]
 status: proposed
+toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 # Cells: Infrastructure
@@ -34,14 +34,17 @@ status: proposed
   We should try to use this tooling as much as possible, if there are things we don't agree with we should try [disagree, commit, and disagree](../../../../values/#disagree-commit-and-disagree) to improve a single tool.
   It is ok to start with tooling that has shortcomings, an iterative approach leads to _one_ mature product instead of two.
 
-## Glossary/[Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
+## Glossary/Ubiquitous Language
+
+[Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 
 - `Provision`: When we create a new Cell. Example: We _provisioned_ Cell 5, which is a brand new Cell.
 - `Deploy`: When we change the running code inside of an existing Cell. Example: We _deployed_ the new auto-deploy version on GitLab.com.
   - [Blueprint](deployments.md)
 - `Configuration change`: When we change any configuration on the application or infrastructure. Example: We did a _configuration change_ on labels added to VMs.
-- `Tenant`: A GitLab instance provisioned through GitLab Dedicated tooling ([Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor)). A Tenant can be _either_ a GitLab Dedicated Customer Instance, _or_ a Cell Instance. 
+- `Tenant`: A GitLab instance provisioned through GitLab Dedicated tooling ([Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor)). A Tenant can be _either_ a GitLab Dedicated Customer Instance, _or_ a Cell Instance.
 - `Cell`: A Tenant provisioned to be a part of GitLab.com where multiple customers are served through a single Tenant.
+- `Legacy Cell`: The existing GitLab.com deployment.
 - `Ring`: A collection of Cells grouped as single deployment stage target. Example: Cells in Ring 2 will deploy changes after Cells in Ring 1.
 - `Cluster`: A collection of Cells, and the existing GitLab.com infrastructure. Example: We need to change the version of Registry in the Cluster.
 - `Fleet`: The collection of all SaaS environments, both single-tenant and multi-tenant, that collectively form our production environments.
@@ -362,7 +365,7 @@ frame "Ring 3" <<cells 1.5+>> {
         component "01HWRY6Y745RS405F6"
       }
 
-      component "Main stage\nPrimary Cell" <<legacy>> as Primary
+      component "Main stage\nLegacy Cell" <<legacy>> as Legacy
     }
   }
 }
@@ -400,17 +403,17 @@ When we have a blueprint merged ideally the confidence should move to 👍 becau
 
 | Domain                           | Owner                             | Blueprint                                                                 | Confidence |
 |----------------------------------|-----------------------------------|---------------------------------------------------------------------------|------------|
-| Routing                          | group::tenant scale               | [Blueprint](../http_routing_service.md)                                        | 👍         |
+| Routing                          | group::tenant scale               | [Blueprint](../http_routing_service.md)                                   | 👍         |
 | Cell Control Plane               | group::Delivery/team::Foundations | To-Do                                                                     | 👎         |
 | Cell Sizing                      | team::Scalability-Observability   | [To-Do](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2838) | 👎         |
 | CI Runners                       | team::Scalability-Practices       | [Blueprint](runner.md)                                                    | 👎         |
 | Databases                        | team::Database Reliability        | [Blueprint](postgresql.md)                                                | 👍         |
 | Deployments                      | group::Delivery                   | [Blueprint](deployments.md)                                               | 👍         |
 | Observability                    | team::Scalability-Observability   | [Blueprint](observability.md)                                             | 👎         |
-| Cell Architecture and Tooling    | team::Foundations                 | [Blueprint](cell_arch_tooling.md)       | 👍         |
+| Cell Architecture and Tooling    | team::Foundations                 | [Blueprint](cell_arch_tooling.md)                                         | 👍         |
 | Provisioning                     | team::Foundations                 | To-Do                                                                     | 👎         |
 | Configuration Management/Rollout | team::Foundations                 | To-Do                                                                     | 👎         |
-| Disaster Recovery                 | team::Production Engineering       | [Blueprint](disaster_recovery.md)                                         | 👍         |
+| Disaster Recovery                | team::Production Engineering       | [Blueprint](disaster_recovery.md)                                        | 👎         |
 
 ```plantuml
 @startuml

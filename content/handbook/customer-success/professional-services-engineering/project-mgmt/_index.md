@@ -10,60 +10,51 @@ Customer success = GitLab product implementation, on time, on budget delivery of
 ### SOW Close
 
 Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for details on processes related to scheduling, reporting, billing, partner processes, and more.
+   *Review our list of PS Offerings [here](https://about.gitlab.com/services/)
 
 ### Project Initiate & Plan
 
 1. After obtaining Legal approval, PS Quote triggers an Epic in Gitlab.com around the recently sold Professional Services Project, at the [Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group) level. This _Customer Epic_ is labeled as SOW# + Customer and includes links to relevant Customer & contract information
-1. Once a prosepctive Services deal reaches "Stage 5" (likely to close) or "Stage 6" (closing) in the PS Customer Journey, the PSOps team refers to the _Customer Epic_ to find the [_"Scheduling Intake" issue_](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads). From this issue, the Resource Scheduling team works to gather the initial information needed to assign the PS Resources (PM, PSE, TA)
+1. Once a prosepctive Services deal reaches "Stage 6" (closing) in the PS Customer Journey, the PSOps team refers to the _Customer Epic_ to find the [_"Scheduling Intake" issue_](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads). From this issue, the Resource Scheduling team works to gather the initial information needed to assign the PS Resources (PM, PSE, TA)
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
+   * The PS Ops team works to ensure all detail in the above template is populated before assigning Delivery resources
    * For [Consulting Blocks](#for-consulting-blocks-and-dedicated-engineer-projects) please see below
-1. Below you can follow the steps of the Scheduling Intake process. _Note: Before the PSOPs team can begin PM assignment The Engagement Management Team must ensure Steps 1-2 are considered_ [The full checklist](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads) is available within the Scheduling Intake Issue, found within the Customer Project Epic
-   * Step 1: Customer Goal Summary - EM to provide
-   * Step 2: EM/Sales defines the roles and personalities of all customer stakeholders
-   * Step 3: PSops works with PMO Manager on PM assignment
-   * Step 4: PM confirms information & PSops Schedules PSE
-   * Step 5: [Introductions - EM/AE](https://docs.google.com/document/d/1g8ku5KxKZJwSHgXpldhS_YErELX0K8XOe1qL7jRgx9s/edit)
-   * Step 6: Collaboration approach & Onboarding Gathered by PM
-   * Step 7: Collaboration Space Preparation - PM
-   * Step 8: Conduct Stakeholder Meeting - PM
-   * Step 9: Step 9: Conduct Kickoff & Forecast Updates - PM
+1. Once assigned by the PS Ops team, the PM reviews follows the Kantata steps outlined below, to ensure access to Kantata
+1. The PM then reviews the Scheduling intake and begins to work through the [Sales to Delivery Transition](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/sales-to-delivery-transition.md?ref_type=heads) issue, also tied to the Customer Epic
 
-#### Collaboration Space Guidelines
+#### Customer Project Space Guidelines
 
-1. We use Gitlab as our primary Project Management tool for Service Deivery with our Customers. We use CP (automation) to convert the SOW activities into trackable issues within Gitlab
+1. We use Gitlab as our primary Project Management tool for Service Deivery with our Customers. We use CP (Customer Project) automation configured by the PS Practice team to convert the SOW activities into trackable issues within Gitlab
    * A list of our Projects can be found here: [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
-   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated
+   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated or send a message to the #ps-practice slack channel, requesting a CP project to be created
+1. For adehring to best practices, reference the "Professional Services Delivery Methodology" below and be sure to reference the [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) for guidance around managing our porfolio, by Service Offering
 
 #### For Consulting Blocks and Dedicated Engineer Projects
 
-1. Description of Work (DoW) is used when a scope discrepancy (or lack of definition/clarity) is identified in the SoW and both GitLab and the customer agree to the scope change that does not impact the project budget ($0), project duration, project finances or any legal aspects. Unlike the Change Order process, for the DoW, the GitLab & customer signatory will be the technical stakeholder, or, a Director.
-2. The DoW is also used to add additional detail to a Consulting Block SKU that has been sold. A DoW is created by the Engagement Management team and attached to the Customer Epic prior to the Customer Success Planning call.
-3. If the DoW is intended to be reviewed and completed/approved during the Discovery meeting with the Customer, the EM needs to request this in the intake issue so the Delivery team can work on gathering the necessary inputs for Delivery.
-4. [Template for a DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) can be found here
-5. The DoW does not need to be signed by the client. Simply attach the document, or write out the confirmation in an email, and request for Customer approval. Whichever is more convenient for the Customer. Attach the screenshot in the Epic.
+1. The DoW is used to add additional detail to a Consulting Block SKU that has been sold. A DoW is created by the Engagement Management team and confirmed by the Customer. The DOW should be attached to the Customer Epic prior to the Sales to Delivery Transition call
+1. [Template for a DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) can be found here
 
 #### Forecasting Process for PMO Team
 
 ##### PS/PMO Cadence Schedule
 
-* Pinned to the ps_pmo Slack channel
-* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization
+* Pinned to the ps_pmo Slack channel for weekly update requirements and the ps-operations slack channel for Month End timelines (billing period dates)
+* The purpose of this schedule is to reference and understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization
 
 ##### Kantata
 
-Kantata is our primary Resource Management software. From here the PMO team reviews and manages the Delivery team hours against the Project scope in order to effectively report on Project progress with the Customer.
+Kantata is our primary Resource Management software. From here the PMO team reviews and manages the Delivery team hours against the Project scope in order to effectively report on Project progress with the Customer. This is also the primary mechanism for PS revenue forecasting. To ensure resources are allocated appropriatly & our forecast is as accurate as possible, it's important to adhere to the schedule outlined above. 
 
-1. Make sure you are assigned as the lead of the project in Kantata
-2. Go to Kantata > Resourcing > Resource Center > Projects and filter by Project Lead = you to review the allocations for your projects
-3. Go to Kantata > Resourcing > Resource Center > Team Members to see a specific resource(s) availability in case you need to change or increase allocations
-4. There are 2 types of bookings:
-   * Soft bookings are non-confirmed allocations for team members (displayed as striped cells)
-   * Hard bookings ate confirmed allocations (displayed as colored cells)
-5. Allocations' review:
-   *Soft allocations are introduced by the Operations team when opportunity is won and it needs to be reviewed once project is assigned
-   *You can request your soft bookings to become hard bookings and hours to be adjusted as needed and agreed with the customer during the kick-off. You can do that from the Resource Center by clicking the resource row under the project and entering your request as a message for your assigned OPS person under Activity. Don't forget to click "Post" once ready!
-6. If you need to create a new resource request, you do that from the Resource Center > Projects. Under the list of assigned team members, you can click "Add Team Member" or "Add unnamed Resource", fill-in the information at the top of the pop-up and click "Submit Request". NB: Clicking "Post" will not submit the request.
+1. Once assigned to a project, make sure you, as the PM are assigned as the lead of the project in Kantata
+1. Go to Kantata > Resourcing > Resource Center > Projects and filter by Project Lead = you to review the allocations for your projects
+1. Go to Kantata > Resourcing > Resource Center > Team Members to see a specific resource(s) availability in case you need to change or increase allocations
+1. There are 2 types of bookings:
+   * Soft bookings are non-confirmed allocations for team members (displayed as striped cells). This must be added by the PM
+   * Hard bookings ate confirmed allocations (displayed as colored cells). This also, must be added by the PM
+1. To create a new resource request, navigate to the Resource Center > Projects. Under the list of assigned team members, you can click "Add Team Member" or "Add unnamed Resource", fill-in the information at the top of the pop-up and click "Submit Request". NB: Clicking "Post" will not submit the request.
+1. Allocations' review:
+   * You can request your soft bookings to become hard bookings and hours to be adjusted as needed and agreed with the Customer. You can do that from the Resource Center by clicking the resource row under the project and entering your request as a message for your assigned OPS person under Activity. Don't forget to click "Post" once ready
 
 _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/customer-success/professional-services-engineering/#team-metrics) page
 
@@ -71,15 +62,15 @@ _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/
 
 The PMO team ensures our forecast & upside is updated by Monday, 11am EST, as the PS Ops team prepares the weekly reports per the PS Reporting schedule. The Top Customer is provided to the PM team by PS Ops by 12pm EST on Tuesdays, and the PM team is expected to update the notes (as outlined below) by The PS Reporting Schedule, Weekly Revenue Forecast Reports, and Kantata information pinned to the ps_PMO Slack channel
 
-_Time & Materials (T&M) vs Fixed Fee (Fixed Fee)_
-*defintions to be added_
+* Time & Materials (T&M) projects are invoiced according to time submitted at the Project level
+* Fixed Fee projects (FF or FP) are invoiced at a Milestone schedule. So it's vital to ensure anticipated dates are added to Milestones within FF projects, and we get customer signoff before the billing period ends
 
 ##### Forecasting Time and Materials (T&M) and Fixed Fee (FF)
 
 Forecast allocations impact PS revenue forecast and team members availability, utilization and planning
 
-* Soft allocations are used when final schedule is not known yet, for visibility and planning. Soft allocation will not promise team member availability for a project, and will not be projected into the revenue forecast
-* Hard allocations will promise team member availability, for the requested hours, once approved by the project coordinator. The allocated hours will also project into the revenue forecast
+* Soft allocations are used when final schedule is not known yet, for visibility and planning. Soft allocation will not promise team member availability for a project, and will be considered upside forecast (assuming 40% accuracy)
+* Hard allocations will promise team member availability, for the requested hours, once approved by the project coordinator. The allocated hours will also project into the revenue forecast (assuming 90-95% accuracy)
 
 * For T&M and FF projects, it is the responsibility of the PM to forecast (hard-book) the PM, PSE, and TA time for the project 2 months out in Kantata. Our goal is to be able to be accurate within  +/- 5% of our estimated forecast.
 * For Consulting Blocks and Dedicated Engineer Services,  we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting
@@ -99,14 +90,14 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 ##### How to Track Upside
 
 * Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel)
-* If we are unable to confidently forecast the project resources 2 months out, we need to soft-book their/our time in Katata, and ensure that time is added to the upside report.
+* If we are unable to confidently forecast the project resources 2 months out, we need to soft-book PSE/PM/TA time in Katata
 * If we have a pending CO that is not yet reflected in Katata, add it to Upside if the work in the CO will be completed this quarter
 * If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, add it to the Upside
 * It is helpful to call upside out in the customer report. ex: can only soft-forecast "x" amount because of "y" restraints
 
 ##### Top Customer Report
 
-* Updated by 8am EST Wed
+* Updated by 4pm est Tuesday
 * Pinned to ps_pmo Slack channel
 * Update the following in the Notes section
 * 1-lined progress update
@@ -179,7 +170,7 @@ Project scope for Professional Services is the outline of the work required to d
 
 _to be updated_
 
-* Complete this [sign off workflow](/handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html)
+* Complete this [sign off workflow](/https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit)
 * Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
 * Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)
 * Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`

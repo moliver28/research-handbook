@@ -1,7 +1,5 @@
 ---
 title: "On-Call"
-aliases:
-- /handbook/on-call/
 ---
 
 {{% alert color="warning" %}}
@@ -74,7 +72,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 - First response SLO is 15 minutes. If no response within the first 5 minutes, the infrastructure team will call the engineer's phone number on the schedule sheet.
 - Development engineers do 4-hour shifts.
 - Engineering managers do monthly shifts as scheduling coordinators.
-- Check out [process description and on-call workflow](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) when escalating GitLab.com operational issue(s).
+- Check out [process description and on-call workflow](/handbook/engineering/development/processes/infra-dev-escalation/process/) when escalating GitLab.com operational issue(s).
 - Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
 
 ### Gitaly Engineer On-Call
@@ -119,8 +117,12 @@ schedules, and to route notifications to the appropriate individual(s).
 
 ### Swapping On-Call Duty
 
-Team members covering a shift for someone else are responsible for adding the override in PagerDuty. They can delegate this task back to the requestor, but only after explicitly confirming they will cover the requested shift(s). To set an override, click the "Schedule an Override" button from the side navigation on the Schedule page or after selecting the relevant block of time on the calendar or timeline view. This action defaults the person in the override to *you* &mdash; PagerDuty assumes that you're the person volunteering an override. If you're processing this for another team member, you'll need to select their name from the drop-down list. Also see [this article](https://support.pagerduty.com/hc/en-us/articles/202830170-Creating-and-Deleting-Overrides) for reference.
+Team members covering a shift for someone else are responsible for adding the override in PagerDuty. This can be arranged in the [#eoc-general](https://gitlab.enterprise.slack.com/archives/C07G9CP5XRR) Slack channel. They can delegate this task back to the requestor, but only after explicitly confirming they will cover the requested shift(s). To set an override, click the "Schedule an Override" button from the side navigation on the Schedule page or after selecting the relevant block of time on the calendar or timeline view. This action defaults the person in the override to *you* &mdash; PagerDuty assumes that you're the person volunteering an override. If you're processing this for another team member, you'll need to select their name from the drop-down list. Also see [this article](https://support.pagerduty.com/hc/en-us/articles/202830170-Creating-and-Deleting-Overrides) for reference.
 
 ### Adding and removing people from the roster
 
 When adding a new team member to the on-call roster, it's inevitable that the rotation schedule will shift. The manager adding a new team member will add the individual towards the end of the current rotation to avoid changing the current schedule, if possible. When adding a new team member to the rotation, the manager will raise the topic to their team(s) to make sure everyone has ample time to review the changes.
+
+## Slack
+
+In order to facilitate informal conversations around the on-call process and quality of life, as well as coordination of shifts and communication of broader announcements, we have the [#eoc-general](https://gitlab.enterprise.slack.com/archives/C07G9CP5XRR) channel.

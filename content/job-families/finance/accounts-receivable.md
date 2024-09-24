@@ -34,6 +34,7 @@ The Accounts Receivable Associate is a [grade 5](/handbook/total-rewards/compens
 - Knowledge in Zuora Billing, Salesforce CRM, Google Suite (Gmail, Docs, Sheets, etc.) required
 - You share our values, and work in accordance with those values.
 - Able to work in a fast paced environment while meeting deadlines and objectives
+- Some roles may be required to work in US time zones mainly Pacific and Eastern time zones with the overlap of at least 4 hours
 - Ability to use GitLab
 
 ### Accounts Receivable Analyst
@@ -71,6 +72,7 @@ The Accounts Receivable Analyst is a [grade 6](/handbook/total-rewards/compensat
 - Strong analytical and problemsolving skills
 - Strong working knowledge of business systems
 - Excellent verbal and written communication skills and ability to collaborate with cross-functional teams.
+- Some roles may be required to work in US time zones mainly Pacific and Eastern time zones with the overlap of at least 4 hours
 - Able to work in a fast paced environment while meeting deadlines and objectives
 
 ### Senior Accounts Receivable Analyst
@@ -112,6 +114,7 @@ The Senior Accounts Receivable Analyst is a [grade 7](/handbook/total-rewards/co
 - Strong analytical and problem solving skills
 - Strong working knowledge of business systems
 - Excellent verbal and written communication skills and ability to collaborate with cross-functional teams.
+- Some roles may be required to work in US time zones mainly Pacific and Eastern time zones with the overlap of at least 4 hours
 - Able to work in a fast paced environment while meeting deadlines and objectives
 
 ### Lead Accounts Receivable Analyst
@@ -147,6 +150,7 @@ The Lead Accounts Receivable Analyst is a [grade 7](/handbook/total-rewards/comp
 - Strong analytical and problem-solving skills
 - Strong working knowledge of business systems
 - Excellent verbal and written communication skills and ability to collaborate with cross-functional teams.
+- Some roles may be required to work in US time zones mainly Pacific and Eastern time zones with the overlap of at least 4 hours
 - Able to work in a fast paced environment while meeting deadlines and objectives
 
 ### Manager, Accounts Receivable
@@ -189,6 +193,7 @@ The Manager, Accounts Receivable is a [grade 8](/handbook/total-rewards/compensa
   - Salesforce CRM
   - Google Suite (Gmail, Google Docs, Sheets, etc.)
   - Slack (preferred, not required)
+- Some roles may be required to work in US time zones mainly Pacific and Eastern time zones with the overlap of at least 4 hours
 
 ## Performance Indicators
 

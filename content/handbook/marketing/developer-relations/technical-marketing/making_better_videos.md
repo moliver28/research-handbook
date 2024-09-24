@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/developer-relations/technical-marketing/making_better_videos.html
 title: "Making Better Videos"
 ---
 
@@ -9,7 +8,7 @@ This page displays information and useful links on creating great technical vide
 
 ### Equipment
 
-* [Yeti Microphone](https://www.bluedesigns.com/products/yeti/])
+* [Yeti Microphone](https://www.logitechg.com/en-ca/products/microphones.html])
 
 ### Tools
 

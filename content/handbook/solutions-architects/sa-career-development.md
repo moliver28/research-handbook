@@ -3,7 +3,6 @@ title: SA Career Development
 description: >-
   For career development Solution Architects can choose between an individual
   contributor or leadership track
-aliases: /handbook/solutions-architects/career-development/
 ---
 
 ## Career Development
@@ -143,4 +142,4 @@ Recognizing (and being recognized) by your peers is extremely fulfilling.  If an
 At various points of the year, SA's have the opportunity to be recognized by their managers and/or Customer Success leadership.
 
 - [Field Organization Quarterly Achievers](/handbook/sales/field-operations/field-enablement/field-team-recognition/#field-quarterly-achievers-chat) (12 various winners from accross the Field Organization for outstanding performance in the Quarter. A designated chat with the CEO, CRO and the other winners as well as a $250 US expensed dinner are included)
-- [President's Club](https://internal.gitlab.com/handbook/sales/presidents-club/) (8 SA's from across the company are selected based on sales contributions throughout the year. More on the selection criteria can be found in the internal link)
+- [President's Club](https://internal.gitlab.com/handbook/sales/presidents-club/) (13 members of the SA organization (and their optional guests) from across the globe are selected based on contributions throughout the year. More on the selection criteria can be found in the internal link)

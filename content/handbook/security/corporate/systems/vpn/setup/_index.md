@@ -4,7 +4,7 @@ title: Laptop VPN Setup Guide
 
 ## Access Request
 
-Please open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and add `/label ~"it-security-status::needs-review"`.
+Please open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and add `/label ~"corpsec-metric::ar"`.
 
 ## NordLayer Installation
 

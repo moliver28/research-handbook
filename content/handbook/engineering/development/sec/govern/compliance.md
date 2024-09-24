@@ -116,7 +116,7 @@ Information regarding test coverage can be found via these issues/epics:
 
 - [Unit test coverage of Compliance features](https://gitlab.com/gitlab-org/gitlab/-/issues/392415)
 - [Shift-left coverage provided by E2E tests](https://gitlab.com/groups/gitlab-org/-/epics/11644)
-- [Increasing E2E test coverage](https://gitlab.com/groups/gitlab-org/infrastructure/test-platform/-/epics/9)
+- [Increasing E2E test coverage](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/9)
 
 ## Milestone Planning
 
@@ -239,7 +239,7 @@ When estimating development work, please assign an issue an appropriate weight:
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. These issues will often need further investigation or discovery before being `workflow::ready for development` and we will likely benefit from multiple, smaller issues. |
 | 13 | A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
-As part of estimation, if you feel the issue is in an appropriate state for an engineer to start working on it, please add the ~"workflow::ready for development" label. Alternatively, if there are still requirements to be defined or questions to be answered that you feel an engineer won't be able to easily resolve, please add the `workflow::blocked` label. Issues with the `workflow::blocked` label will appear in their own column on our planning board, making it clear that they need further attention. When applying the `workflow::blocked` label, please make sure to leave a comment and ping the [DRI](/handbook/people-group/directly-responsible-individuals/) on the blocked issue and/or link the blocking issue to raise visibility.
+As part of estimation, if you feel the issue is in an appropriate state for an engineer to start working on it, please add the `workflow::ready for development` label. Alternatively, if there are still requirements to be defined or questions to be answered that you feel an engineer won't be able to easily resolve, please add the `workflow::blocked` label. Issues with the `workflow::blocked` label will appear in their own column on our planning board, making it clear that they need further attention. When applying the `workflow::blocked` label, please make sure to leave a comment and ping the [DRI](/handbook/people-group/directly-responsible-individuals/) on the blocked issue and/or link the blocking issue to raise visibility.
 
 #### Implementation Plan
 
@@ -369,7 +369,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/development/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Group Shared Calendar
 

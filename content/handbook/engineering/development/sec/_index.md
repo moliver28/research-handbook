@@ -346,7 +346,7 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ## Performance Indicators
 
-- [Sec Sub-department Performance Indicators](/handbook/engineering/metrics/dashboards/)
+- [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
 ### Dashboards
@@ -430,6 +430,24 @@ Generated issues will be worked through normal prioritization processes as they 
 Our team monitors [LCP](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp) (Largest Contentful Paint) to ensure performance is below our target (currently 2500ms).
 
 [LCP Dashboard for Secure owned pages](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-testname=gitlab&var-domains=gitlab_com&var-pages=API_Fuzzing_Config_UI&var-pages=DAST_Profiles&var-pages=On_Demand_Scans&var-pages=SAST_Config_UI&var-pages=Secure_Dependency_List&var-pages=Secure_License_Compliance&var-pages=Secure_Security_Configuration&var-pages=DAST_Config_UI&var-browser=chrome&var-function=median&var-connectivity=cable)
+
+## Working with Product Design
+
+To streamline our workflow and ensure efficient collaboration between the Engineering and Product Design teams, we have established the following guidelines for UX involvement in merge request (MR) reviews:
+
+**Merge Request UX Review Requirement:**
+
+- A UX review is required only for work that has been explicitly designed by a Product Designer and should be reviewed by that Product Designer.
+- MRs that do not involve work explicitly designed by a Product Designer can be labeled as `UX Tech Debt` and merged without a UX review.
+
+**Handling High Priority UX Reviews:**
+
+- If a high-priority task arises that requires a UX review but was not planned during the milestone planning process, it should be discussed with the [Product Design Manager for Sec](/handbook/product/categories/#sec-section).
+- To accommodate this unexpected work, another task from the original milestone plan will need to be deprioritized or dropped.
+
+**Exceptions:**
+
+- These new guidelines do not apply to the Authentication, Authorization, and Pipeline Security groups, which will continue to operate under their current processes.
 
 ## Working with Customer Support
 

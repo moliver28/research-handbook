@@ -19,7 +19,7 @@ In order for a PM to deeply understand the problems our users are facing and det
 - Communicate with users on issues and epics
 - Work with Pre-Sales and Post-Sales to connect with customers and prospects
 - Uncover insights through UX Research
-- Use other [sensing mechanisms](/handbook/product/product-processes/#sensing-mechanisms). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
+- Use other [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
 
 ### How does a Product Manager ensure we build lovable products?
 

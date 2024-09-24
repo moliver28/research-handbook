@@ -114,7 +114,7 @@ To align our education and enablement with our product, each of the topics below
 
 - [Continuous Integration (CI) Feature Overview](https://about.gitlab.com/features/continuous-integration/)
   - [CI/CD Feature Docs](https://docs.gitlab.com/ee/ci/)
-  - [CI/CD Concepts Docs](https://docs.gitlab.com/ee/ci/introduction/)
+  - [CI/CD Concepts Docs](https://docs.gitlab.com/ee/ci/quick_start/)
   - [CI/CD Pipeline Docs](https://docs.gitlab.com/ee/ci/pipelines/)
   - [CI/CD Variables Docs](https://docs.gitlab.com/ee/ci/variables/)
   - [CI/CD Environments and Deployments Docs](https://docs.gitlab.com/ee/ci/environments/)
@@ -197,7 +197,6 @@ To align our education and enablement with our product, each of the topics below
 - [ChatOps Feature Docs](https://docs.gitlab.com/ee/ci/chatops/)
 - [Serverless Feature Overview](https://about.gitlab.com/topics/serverless/)
 - [Infrastructure-as-Code Feature Docs](https://docs.gitlab.com/ee/user/infrastructure/)
-- [Cluster Cost Management Feature Docs](https://docs.gitlab.com/ee/user/clusters/cost_management.html)
 
 ### Monitor Stage
 
@@ -285,7 +284,7 @@ To align our education and enablement with our product, each of the topics below
 - [Terraform AWS Provider Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Terraform GCP Provider Docs](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
 - [Terraform GitLab Provider Docs](https://registry.terraform.io/providers/gitlabhq/gitlab/latest/docs)
-- [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started)
+- [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started)
 - [GitLab Demo Systems Terraform Modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)
 
 #### Advanced Level

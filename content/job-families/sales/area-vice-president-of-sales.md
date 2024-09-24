@@ -30,7 +30,7 @@ The Area Vice President reports into the [VP, Enterprise Sales](/job-families/sa
 - Polished presentation skills
 - Ability to handle a fast-paced environment and ambitious workload
 - Bachelor degree
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Segment
 
@@ -47,7 +47,7 @@ The Area Vice President reports into the [VP, Enterprise Sales](/job-families/sa
 - Demonstrated progressive second line leadership experience leading teams in strategic sales specific to Public Sector.
 - Proven second line sales management experience with deep domain experience in the Public Sector/Federal vertical, including a history of successfully selling through the Public Sector channel.
 - Must have proven experience leading teams who sell to mission owners, identifying, uncovering, and developing new account opportunities in their territory.
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ## Performance Indicators
 

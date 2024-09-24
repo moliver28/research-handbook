@@ -194,7 +194,7 @@ To learn how we conduct both customer meetings and internal planning meetings, a
 
 ## Customer Handover
 
-After you have completed both the general and the role-based onboarding and you feel comfortable with working with customers, you will start the onboarding to your first customer account. In case you are taking over your first customer from another CSM, the [Account Handoff CSM-to-CSM Checklist](/handbook/customer-success/csm/account-handoff/) is a very helpful resource. This handbook page also contains a [list of questions](/handbook/customer-success/csm/account-handoff/#topics-to-cover) that you can answer and afterwards discuss with the current CSM on the account. That way, the handover process will be smoother and you ensure that no important customer topic is forgotten. When preparing for the account handover, take a look at the Google Drive folder for the customer, Gainsight, Salesforce, Zendesk and the corresponding GitLab collaboration project. In Gainsight, it is particularly helpful to go through the timeline and the success plan for the customer to get a quick overview of ongoing topics, initiatives and issues. 
+After you have completed both the general and the role-based onboarding and you feel comfortable with working with customers, you will start the onboarding to your first customer account. In case you are taking over your first customer from another CSM, the [Account Handoff CSM-to-CSM Checklist](/handbook/customer-success/csm/account-handoff/) is a very helpful resource. This handbook page also contains a [list of questions](/handbook/customer-success/csm/account-handoff/#topics-to-cover) that you can answer and afterwards discuss with the current CSM on the account. That way, the handover process will be smoother and you ensure that no important customer topic is forgotten. When preparing for the account handover, take a look at the Google Drive folder for the customer, Gainsight, Salesforce, Zendesk and the corresponding GitLab collaboration project. In Gainsight, it is particularly helpful to go through the timeline and the success plan for the customer to get a quick overview of ongoing topics, initiatives and issues.
 
 ## CSM Office Hours
 
@@ -240,7 +240,7 @@ New team members often struggle to find the right set of slack channels to parti
 
 For all product management related questions, a CSM should review our handbook page at [following location](/handbook/product/categories/features/) to identify the right channel for the topic they are looking to learn more. Those team channels should be asked if there is no documentation available for the problem/question and also if the CSM did not find an issue that already discusses this question.
 
-A great resource to learn how to engage with GitLab product is [available in the product handbook here](/handbook/product/how-to-engage/)
+A great resource to learn how to engage with GitLab product is [available in the product handbook here](/handbook/product/product-management/#how-to-engage-product-managers)
 
 ## Handbook Pages and Resources
 
@@ -304,7 +304,7 @@ Many of our prospects and customer choose the option to maintain their own Self 
 
 1. Follow [these instructions to get access to the shared Omnibus Instances](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances)
 1. The [Get started administering GitLab](https://docs.gitlab.com/ee/administration/get_started.html) Guide is a great starting point
-1. You can [export](https://docs.gitlab.com/ee/user/admin_area/settings/usage_statistics.html#manually-upload-service-ping-payload) a [Service Ping](https://docs.gitlab.com/ee/development/service_ping/) data file from the instance and explore product usage data via the [Service ping analysis engine](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/service-ping-analysis-engine)
+1. You can [export](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#manually-upload-service-ping-payload) a [Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) data file from the instance and explore product usage data via the [Service ping analysis engine](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/service-ping-analysis-engine)
 
 ## Finding Answers
 

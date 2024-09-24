@@ -35,7 +35,7 @@ Key benefits of making `User Experience` an official part of group's milestone p
 
 - Collaborate with your PM to [validate](/handbook/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
 - Help your PM articulate the who/what/why as a user story. For example, "As a (who), I want (what), so I can (why/value)." If you’re asked to implement a non-evidence-based how, encourage the PM to refocus on the who/what/why to collaboratively determine the best how.
-- Assist your PM to defining [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc) success criteria, prioritizing MVC “must-haves” and non-MVC “should-haves” and “could-haves.” Note that these criteria may change based on new insights from the iterative design process and customer feedback.
+- Assist your PM to defining [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) success criteria, prioritizing MVC “must-haves” and non-MVC “should-haves” and “could-haves.” Note that these criteria may change based on new insights from the iterative design process and customer feedback.
 
 ### Before you design
 
@@ -134,7 +134,7 @@ When applying iterative design, consider the longer-term strategy and collaborat
 - **Design reviews**: Participate in [Design Reviews](#design-reviews) with other Product Designers for objective feedback and new ideas, helping to improve your work and gain additional context.
 - **Collaborate with Technical Writers**: For substantial UI text changes, work closely with your group's Technical Writer. For smaller changes, involve them in the review process.
 - **Involve your Product Design Manager**: For significant UX changes, include your Product Design Manager in feedback sessions for broader insights and alignment with other initiatives.
-- **Validate with users**: If high-risk or uncertain directions, validate solutions with users through [UX research](/handbook/product/ux/ux-research/solution-validation-and-methods/). For lower-risk directions, gather feedback from users after releasing the minimal viable change (MVC).
+- **Validate with users**: If high-risk or uncertain directions, validate solutions with users through [UX research](/handbook/product/ux/ux-research/solution-validation-and-methods/). For lower-risk directions, gather feedback from users after releasing the minimal valuable change (MVC).
 - **Use the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)**:  Refer to the design and UI changes checklist to ensure your design's readability, appearance, and functionality.
 
 #### GitLab Design Talks: Iteration
@@ -236,7 +236,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
   - Use [collapsed content sections](/handbook/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](/handbook/markdown-guide/#collapse).
   - **Reguest feedback from your Product Design Manager**:
   - `@mention` your Product Design Manager for feedback. They can provide strategic alignment, ensure quality, and maintain functional consistency across the product.
-- **Focuc on the customer and problem**:
+- **Focus on the customer and problem**:
   - Frame design discussions around the customer and the problem being solved, not the UI or functionality. Begin with the current state, explain how it fails to meet user needs, and present the proposed solution from the user's perspective. Continuously relate everything back to the user's experience.
 - **Anticipate and address questions**:
   - Anticipate potential questions and address them in your proposal comments. Explain your rationale to reduce feedback loops and unnecessary discussions. This is especially important when proposing changes to established patterns.

@@ -167,7 +167,7 @@ If asked, share your career goals with your team members. This transparency show
 Below are several recommended articles regarding career development conversations.
 
 - [5 business reasons to put employee career development at the top of your agenda](https://cezannehr.com/hr-blog/2019/03/five-reasons-to-prioritise-development/)
-- [Career Development Mentoring Benefits](https://www.insala.com/blog/benefits-of-career-development-mentoring)
+- [Career Development Mentoring Benefits](https://www.people360ai.com/blog/benefits-of-career-development-mentoring)
 - [Why Employee Development is Important, Neglected and can Cost You Talent](https://www.forbes.com/sites/victorlipman/2013/01/29/why-development-planning-is-important-neglected-and-can-cost-you-young-talent/#22df1a8a6f63)
 - [If You're Not Helping People Develop, You're Not Management Material](https://hbr.org/2014/01/if-youre-not-helping-people-develop-youre-not-management-material)
 - [Bolt's Developing Your Team](https://conscious.org/managing-our-team/#developing-your-team) section from their [Managing our team](https://conscious.org/managing-our-team/) playbook.

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/education-services/tech_stack/instruqt.html
 title: "Instruqt Tech Stack Guide"
 description: "Tech Stack Guide for the Instruqt Virtual Lab system"
 ---

@@ -10,7 +10,7 @@ This workflow is for frequently used functions that are pre-loaded via the [Cust
 
 Using the customer console for internal requests is only for special cases in which the existing tools won't allow us to complete the task at hand.
 
-Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
+Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
 
 Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#using-teleport-for-db-rails-access) for a full overview of installing and using Teleport to access the production or staging rails console.
 
@@ -271,17 +271,17 @@ The function will change the minutes quota to the paid plan equivalent, and add 
 | Name | Required | Details |
 | ------ | ------ | ------ |
 | `:namespace` | *Yes* | The namespace to update using the path |
-| `:plan` | *Yes* | The plan to assign to the namespace (free, bronze, silver, gold) |
+| `:plan` | *Yes* | The plan to assign to the namespace (free, silver, gold) |
 | `:expire` | *No* | Optional parameter, if entered the existing subscription will be extended up to this date |
 | `:subscription` | *No* | Required to extend a subscription, but not for trials. |
 
 #### Sample
 
 ```ruby
-irb(main):001:0> update_gitlab_plan('example','bronze','2020-10-22','A-S00000000')
+irb(main):001:0> update_gitlab_plan('example','silver','2020-10-22','A-S00000000')
 {"plan"=>
-  {"code"=>"bronze",
-   "name"=>"Bronze",
+  {"code"=>"silver",
+   "name"=>"Silver",
    "trial"=>false,
    "auto_renew"=>nil,
    "upgradable"=>false},
@@ -308,7 +308,7 @@ irb(main):001:0> update_gitlab_plan('example','bronze','2020-10-22','A-S00000000
  "additional_purchased_storage_size"=>0,
  "additional_purchased_storage_ends_on"=>nil,
  "billable_members_count"=>1,
- "plan"=>"bronze",
+ "plan"=>"silver",
  "trial_ends_on"=>nil,
  "trial"=>false}
 ```

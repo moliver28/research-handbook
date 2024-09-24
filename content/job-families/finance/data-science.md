@@ -2,7 +2,7 @@
 title: Data Science
 ---
 
-The [Data Science program](/handbook/business-technology/data-team/organization/data-science/) at GitLab focuses on supporting internal teams and developing model-based insights to help us understand our business, customers, and product better. Data Scientists work across the entire development lifecycle, from inception to final delivery. As a result of helping GitLab understand major trends across our business, Data Scientists make significant strategic contributions to new and existing business initiatives.
+The [Data Science program](/handbook/enterprise-data/organization/data-science/) at GitLab focuses on supporting internal teams and developing model-based insights to help us understand our business, customers, and product better. Data Scientists work across the entire development lifecycle, from inception to final delivery. As a result of helping GitLab understand major trends across our business, Data Scientists make significant strategic contributions to new and existing business initiatives.
 
 Data Scientists work with peers on the Data Team and functional teams to:
 
@@ -20,7 +20,7 @@ Example Data Science projects include:
 - customer churn and uplift prediction
 - hypothesis testing and forecasting
 
-Data Scientists are a part of the [Data Team](/handbook/business-technology/data-team/) and report to the [Director/ Sr. Director, Data & Analytics](/job-families/finance/data-and-insights-executive/).
+Data Scientists are a part of the [Data Team](/handbook/enterprise-data/) and report to the [Director/ Sr. Director, Data & Analytics](/job-families/finance/data-and-insights-executive/).
 
 ## Job Grades
 
@@ -66,7 +66,7 @@ The Data Scientist (Intermediate)  is a [grade 6](/handbook/total-rewards/compen
 #### Data Scientist (Intermediate) Performance Indicators
 
 - Number of Models Operationalized
-- Number of Strategic Insights Discovered ([Data Value Calculator](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator) score 2 or higher)
+- Number of Strategic Insights Discovered ([Data Value Calculator](/handbook/enterprise-data/how-we-work/#data-team-value-calculator) score 2 or higher)
 - Business Partner Customer Satisfaction Score ([CSAT](https://en.wikipedia.org/wiki/Customer_satisfaction))
 - Merge Request Rate
 
@@ -104,7 +104,7 @@ The Senior Data Scientist meets all of the requirements of an Intermediate Data 
 #### Senior Data Scientist Performance Indicators
 
 - Number of Models Operationalized
-- Number of Strategic Insights Discovered ([Data Value Calculator](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator) score 3 or higher)
+- Number of Strategic Insights Discovered ([Data Value Calculator](/handbook/enterprise-data/how-we-work/#data-team-value-calculator) score 3 or higher)
 - Business Partner Customer Satisfaction Score ([CSAT](https://en.wikipedia.org/wiki/Customer_satisfaction))
 - Merge Request Rate
 
@@ -170,7 +170,7 @@ The Principal Data Scientist meets all of the requirements of an Staff Data Scie
 #### Principal Data Scientist Performance Indicators
 
 - $ARR Impact (New Business, Cost Savings, or Efficiency Improvement)
-- Number of Business Functions which achieve Level 4 of the [Data Capability Model](/handbook/business-technology/data-team/direction/#data-capability-model)
+- Number of Business Functions which achieve Level 4 of the [Data Capability Model](/handbook/enterprise-data/direction/#data-capability-model)
 - E-Group Customer Satisfaction Score ([CSAT](https://en.wikipedia.org/wiki/Customer_satisfaction)) of 4 or higher
 
 ## Hiring Process

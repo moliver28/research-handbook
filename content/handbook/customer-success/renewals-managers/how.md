@@ -48,7 +48,7 @@ Note that any changes to the Renewal Ownership (Tier) field within the current F
 
 ## Renewal opportunity activities - by tier
 
-The following activities are recommended for each Renewals Manager as a baseline for engagement with a customer throughout their subscription journey. This framework is flexible, and ultimately every Renewals Manager must us their discretion to discern which activities make sense for their customer's experience.
+The following activities are recommended for each Renewals Manager as a baseline for engagement with a customer throughout their subscription journey. This framework is flexible, and ultimately every Renewals Manager must use their discretion to discern which activities make sense for their customer's experience.
 
 | ID |Tier|Stage| Motion | Process | Primary activities |
 |--|-----|------|------|--------|----------------------------|

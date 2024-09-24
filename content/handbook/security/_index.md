@@ -67,6 +67,8 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="product-security/application-security/">Application Security</a></li>
             <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
+            <li><a href="product-security/product-security-engineering/">Product Security Engineering</a></li>
+            <li><a href="product-security/architecture/">Security Architecture</a></li>
             <li><a href="product-security/security-research/">Security Research</a></li>
             <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
         </ul>
@@ -181,7 +183,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
   - Identity and Access Management
     - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
     - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
-  - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
+  - [@gitlab-com/gl-security/security-operations/redteam](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam)
   - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
   - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
 
@@ -203,6 +205,22 @@ handled by the Security Division.
 - Use the **@appsec-team** mention in any Slack channel to tag the members of the Application Security team.
 - Use the **@trust-and-safety** mention in any Slack channel to tag the members of the Trust & Safety team.
 - Use the **@security-identity** mention in any Slack channel (or `#security-identity-ops`) to tag members of the Identity team.
+
+#### Division, Department, and Team updates
+
+We believe it is important to share regular updates at various levels of the Security Division, and we use Slack as the primary mechanism for providing these updates. Our updates are open to all GitLab team members using the following process:
+
+- **Start of each month:** A thread per-department is started in `#security-department` by each department leader (CorpSec, ProdSec, SecAssurance, SecOps). These threads are pinned for the duration of the month.
+  - Thread template:
+    - `<MONTH> <DEPARMENT> Weekly Updates`
+    - Example: `August Product Security Weekly Updates`
+- **Weekly:** At least once a week, teams provide updates they wish to share within the appropriate thread. For example, updates from Vulnerability Management would be placed in the Product Security thread for the given month.
+  - These weekly updates, while highly encouraged, are strictly optional and should represent content that ICs and managers feel should be highlighted. Teams are encouraged to define processes and DRIs around these updates that work for them.
+  - Individuals providing the weekly updates are encouraged to use the "Also send to #security-department" option within the thread to increase visibility.
+- **End of each month:** Departmental leaders prepare a monthly update, including no more than **three updates per team**, and post it in `#ciso` within the first week of the following month.
+  - Each monthly update should include a brief preface written by the departmental leader covering any notable themes or other strategic updates.
+  - Each of the three updates per-team should be no more than 2-3 sentences and include at least one link to allow readers to gain additional context. Links should be to GitLab Issues or Epics wherever possible. If information is confidential and not able to be added to an Issue or Epic, a note should be added indicating this.
+  - It is recommended that departmental leaders build their monthly update over the course of the month via a GitLab issue ([see an example](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/72)) in collaboration with their managers and senior ICs.
 
 #### Ransomware
 

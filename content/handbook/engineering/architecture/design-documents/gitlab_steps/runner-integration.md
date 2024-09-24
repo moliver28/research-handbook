@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::verify"
-title: Runner integration for CI Steps.
+title: "Runner integration for CI Steps."
+toc_hide: true
 ---
 
 ## Non goals

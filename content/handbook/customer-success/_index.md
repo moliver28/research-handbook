@@ -21,7 +21,7 @@ To deliver value to all customers by engaging in a consistent, repeatable, and s
 
 ## Vision Page
 
-The ["Customer Success Vision Page"](/handbook/customer-success/vision/) provides the long-term view of company wide success to which the customer success will be building in partnership with the value centers of the GitLab organization (i.e., Marketing, Sales, Product/Engineering, Support, Finance, and IT).
+The ["Customer Success Vision Page"](/handbook/customer-success/customer-success-vision/) provides the long-term view of company wide success to which the customer success will be building in partnership with the value centers of the GitLab organization (i.e., Marketing, Sales, Product/Engineering, Support, Finance, and IT).
 
 ## Department Initiatives
 

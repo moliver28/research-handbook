@@ -1,10 +1,12 @@
 module gitlab.com/gitlab-com/content-sites/handbook
 
-go 1.19
+go 1.21.1
+
+toolchain go1.23.0
 
 require github.com/google/docsy v0.10.0
 
 require (
 	github.com/google/docsy/dependencies v0.7.2 // indirect
-	gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.34 // indirect
+	gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.41 // indirect
 )

@@ -52,7 +52,7 @@ Be transparent in your planning to maximize both attendance and engagement:
 
 1. **Ask for input from your team early and often:** What do folks on your team want to do during their time together? What are they not interested in?
 1. **Set expectations:** Leave nothing as a suprise. Build psychological safety by planning out in the open so folks know what to expect.
-1. **Share resources:** Share resources like our [expense handbook](/handbook/finance/expenses/), [travel handbook](/handbook/travel/), [support for nursing mothers](/handbook/finance/expenses/#supporting-nursing-mothers), and [considerations for working while traveling](/handbook/company/culture/all-remote/working-while-traveling/).
+1. **Share resources:** Share resources like our [expense handbook](/handbook/finance/expenses/), [travel handbook](/handbook/finance/travel/), [support for nursing mothers](/handbook/finance/expenses/#supporting-nursing-mothers), and [considerations for working while traveling](/handbook/company/culture/all-remote/working-while-traveling/).
 1. **Plan in advance:** Some functions and roles at GitLab are accustomed to work travel - others are not. Give time to plan and organize scheules to maximize attendance and presence.
 
 ### Develop a shared reality
@@ -88,9 +88,9 @@ Design thinking is a non-linear, iterative process that teams use to understand 
 
 Design thinking directly supports our GitLab values of Results, Collaboration, and  Efficiency. We balance being [ambitious](/handbook/values/#ambitious) along with a focus on [boring solutions]({{< ref "#boring-solutions" >}}) - both of which are solutions-oriented.
 
-Listen to [Tim Brown speak about the Design Thinking process in this TedTalk](https://www.ted.com/talks/tim_brown_designers_think_big/transcript?language=en).
+Listen to [Tim Brown speak about the Design Thinking process in this TedTalk](https://www.ted.com/talks/tim_brown_designers_think_big/transcript).
 
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/en/tim_brown_designers_think_big" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+{{< youtube UAinLaT42xY >}}
 
 Regardless of what your team is working on during time in person - whether it be long term planning, high stakes problem solving, or new idea generation - you can apply design thinking activities to achieve results. Here are some suggested activities you can explore:
 
@@ -132,7 +132,7 @@ Customize the templates as needed. We suggestion you start with the `Onsite Plan
 
 ## Additional Resources
 
-1. [Travel Guidelines](/handbook/travel/)
+1. [Travel Guidelines](/handbook/finance/travel/)
 1. [Travel support for nursing mothers](/handbook/finance/expenses/#supporting-nursing-mothers)
 1. [Expense Guidelines](/handbook/finance/expenses/)
 1. [Considerations for working while traveling](/handbook/company/culture/all-remote/working-while-traveling/)

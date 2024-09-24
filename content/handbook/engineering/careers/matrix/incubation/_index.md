@@ -4,7 +4,7 @@ title: Incubation Engineering Department Career Framework
 
 {{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
-The Incubation Engineering Department career tracks are visualised on the [Engineering career development landing page](/handbook/engineering/career-development/#incubation-engineering-department).
+The Incubation Engineering Department career tracks are visualised on the [Engineering career development landing page](/handbook/engineering/careers/#incubation-engineering-department).
 
 These are the expected competencies of team members at GitLab by Job Title and job grade.
 

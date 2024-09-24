@@ -320,7 +320,7 @@ The Senior Director Talent Brand is a [grade 11](/handbook/total-rewards/compens
 - [Glassdoor engagement](/handbook/people-group/employment-branding/#glassdoor-engagement)
 - [LinkedIn Talent Brand metrics](/handbook/people-group/employment-branding/#linkedin-talent-brand-metrics)
 - [Team member engagement score](/handbook/people-group/employment-branding/#team-member-engagement-score)
-- [Team member voluntary turnover](/handbook/people-group/people-group-metrics/#team-member-voluntary-turnover)
+- [Team member voluntary turnover](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-turnover)
 - [Hires vs. plan](/#hires-vs-plan)
 - [Social Referrals](https://about.gitlab.com/#social-referrals)
 

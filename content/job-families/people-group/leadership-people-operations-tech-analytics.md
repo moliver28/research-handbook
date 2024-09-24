@@ -201,8 +201,8 @@ Oversee development and management of thoughtful, scalable, People processes tha
 
 ## Performance Indicators
 
-- [Onboarding Satisfaction Survey > 4.5](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat)
-- [Onboarding task completion < X (TBD)](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd)
+- [Onboarding Satisfaction Survey > 4.5](/handbook/people-group/people-success-performance-indicators/#onboarding-satisfaction-osat)
+- [Onboarding task completion < X (TBD)](/handbook/people-group/people-success-performance-indicators/#onboarding-task-completion--x-tbd)
 - [Bug to first action](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-bug-to-first-action)
 - [Workscope done within a milestone](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-workscope-done-within-a-milestone)
 - [Google drive documentation](/handbook/people-group/people-success-performance-indicators/#google-drive-documentation)

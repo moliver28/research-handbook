@@ -45,8 +45,8 @@ The Senior Technical Enablement Program Manager is a [grade 7](/handbook/total-r
 
 ## Performance Indicators
 
-- [Time to Value](/handbook/customer-success/vision/#time-to-value-kpis)
-- [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn)
+- [Time to Value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis)
+- [Net Retention](/handbook/customer-success/customer-success-vision/#retention-and-reasons-for-churn)
 
 ## Career Ladder
 

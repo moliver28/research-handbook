@@ -53,7 +53,7 @@ In FY23 we will be focused on contributor success & customer results while deliv
 
 - Reach out to large customers to understand their needs for contribution.
 - Establish predictable customer realized time-to-value for their contributions.
-- Increase [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr).
+- Increase [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr).
 - Implement customer contribution recognition.
 - Collaborate with Marketing on Customer Contribution Strategy.
 
@@ -95,7 +95,7 @@ We staff our department with the following gearing ratios:
 ### Software Engineer in Test
 
 - **Primary Ratio**: 1 Software Engineer in Test per [Product Group](/handbook/product/categories/#hierarchy).
-  - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#software-engineer-in-test-gearing-ratio).
+  - This ratio is captured as a department [performance indicator](/handbook/engineering/infrastructure/performance-indicators/#software-engineer-in-test-gearing-ratio).
   - We are improving this ratio by factoring additional facets of each product group and not blanket allocating staffing to every product group. These facets include:
      1. Driver scores (Usage, SMAU, SAM)
      1. Revenue path (ARR, Uptier)
@@ -111,13 +111,13 @@ We staff our department with the following gearing ratios:
 ### Engineering Productivity Engineer
 
 - **Primary Ratio**: 1 Engineering Productivity Engineer per [Product Stage](/handbook/product/categories/#hierarchy).
-  - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#engineering-productivity-engineer-gearing-ratio).
+  - This ratio is captured as a department [performance indicator](/handbook/engineering/infrastructure/performance-indicators/#engineering-productivity-engineer-gearing-ratio).
 - Secondary Ratio: Approximately a 1:40 ratio of Engineering Productivity Engineers to Development Department Engineers.
 
 ### Quality Engineering Manager
 
 - **Primary Ratio**: 1 Quality Engineering Manager per [Product Section](/handbook/product/categories/#hierarchy).
-  - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#quality-engineering-manager-gearing-ratio).
+  - This ratio is captured as a department [performance indicator](/handbook/engineering/infrastructure/performance-indicators/#quality-engineering-manager-gearing-ratio).
 - Secondary Ratio: Approximately a 1:1 ratio of Quality Engineering Manager to Development Department Directors.
 
 ## Communication
@@ -148,7 +148,7 @@ This board is used by the Engineering Analytics team to:
 - Summarize status and progress on work related to Engineering's KPIs and metrics.
 - Distinguish between planned projects for the current quarter and ad-hoc requests received by the Engineering Analytics team.
 
-The work effort on Engineering Division and Departments' KPIs/RPIs is owned by the [Engineering Analytics team](/handbook/engineering/quality/engineering-analytics/). This group maintains the [Engineering Metrics](/handbook/engineering/metrics/) page.
+The work effort on Engineering Division and Departments' KPIs/RPIs is owned by the [Engineering Analytics team](/handbook/engineering/quality/engineering-analytics/). This group maintains the [Engineering Metrics](/handbook/product/groups/product-analysis/engineering/dashboards/) page.
 
 ### DRIs
 
@@ -173,7 +173,7 @@ In order to engage with the team, please refer to the [Engineering Analytics tea
 - The Director of Engineering Analytics is the DRI for triage, prioritization, and assignment.
   - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
   - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
-    - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
+    - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/enterprise-data/how-we-work/#request-to-expedite-responses)
 - Every KPI issue is either assigned to the backlog or given a due date. The Engineering team will propose first a due date, which the Results DRI will confirm if possible or the provide the next possible date.
   - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
 - Every new KPI/RPI should follow our [standardized format](/handbook/engineering/performance-indicators/#guidelines).
@@ -295,7 +295,7 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |
 | Quality Department Social Call | All team members | All team members | Every 2 weeks | Meet and Greet |
 | Quality Hiring Bi-Weekly | All QEMs, Directors, and VP | `TBD` | Every 2 weeks | Review meeting |
-| Ops section stakeholder review | `TBD` | `@dcroft` | Every 4 weeks | Review meeting |
+| Ops section stakeholder review | `TBD` | `TBD` | Every 4 weeks | Review meeting |
 | Enablement Sync with AppSec | `@vincywilson` | `TBD` | Monthly | Review meeting |
 
 ## Quality Engineering initiatives

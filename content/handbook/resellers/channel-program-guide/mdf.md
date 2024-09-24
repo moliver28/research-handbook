@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/resellers/Channel-Program-Guide/MDF
 title: "Marketing Development Funds"
 description: "Marketing Development Funds Overview"
 ---
@@ -192,7 +191,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
    1. Leads which have scored enough points to be considered a GitLab marketing qualified lead (MQL).
    1. Are from an actively working account - regardless of how many points they have gathered [and/or] are from a group of accounts called `Actively Working Accounts` which is a set of accounts the BDR team has a specific outbound prospecting strategy for.
 1. The GitLab BDR team will inform you on the records we have worked & send back to you the leads which did not meet the above criteria for your own nurturing.
-1. For more information on  the MDF program, please see the MDF Program Introduction information found in the [portal portal](https://partners.gitlab.com/English/).
+1. For more information on  the MDF program, please see the MDF Program Introduction information found in the [partner portal](https://partners.gitlab.com/English/).
 
 ## Contact us
 

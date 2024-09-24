@@ -140,8 +140,8 @@ If participants *don't meet* the completion criteria for the task:
 For per-task metrics:
 
 - Report all metrics with a 95% confidence interval, unless you have a clear reason to do otherwise.
-- For completion rate, use the [adjusted Wald calculation](https://measuringu.com/calculators/wald/#:~:text=It%20uses%20the%20Wald%20Formula,of%201.96%20or%20approximately%202.) for the confidence interval.
-- For time on task, use a natural log calculation for confidence interval, and report geometric mean rather than the median as a recommended [best practice](https://measuringu.com/calculators/time_intervals/).
+- For completion rate, use the [adjusted Wald calculation](https://measuringu.com/calculators/wald/) for the confidence interval.
+- For time on task, use a natural log calculation for confidence interval, and report geometric mean rather than the median as a recommended [best practice](https://measuringu.com/calculators/ci-calc/).
 - Precisely defining and accurately counting errors is **tricky** and does not always need to be performed. If you plan to do it, you must be very clear about the definition for errors in your tasks.
 - If you collect error rate, report it per task. Count errors against all possible steps for that task, including multiple recorded errors from the same participant on the same part of a task (for example, clicking the same wrong link several times). This may leave you with an error rate greater than 100%.
 - For the Customer Effort Score (CES): If your sample is less than 30, use the population standard deviation to calculate your confidence interval. If N is greater than 30, use the standard deviation calculation. [Here's a handy calculator](https://www.calculator.net/standard-deviation-calculator.html) that includes both options and confidence intervals.

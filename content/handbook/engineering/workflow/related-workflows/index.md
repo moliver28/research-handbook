@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/workflow/related-workflows.html
 title: Related Engineering Workflows
 description: "At GitLab we have a number of engineering processes that we use on a daily basis."
 ---
