@@ -20,7 +20,7 @@ This blueprint outlines the migration strategy for deploying Gitaly on Kubernete
 
 ## Motivation
 
-To ensure minimal disruption to our customers, we aim to deploy Gitaly pods that can handle a small amount of traffic. This phased deployment approach allows us to gauge real-world performance and identify any potential issues before scaling up.
+To ensure minimal disruption to our customers, we will perform a phased deployment where Gitaly pods on Kubernetes are initially configured to handle a small amount of customer traffic. This allows us to gauge real-world performance and identify any potential issues before scaling up.
 
 By following this blueprint, we aim to modernize our Gitaly infrastructure, improve scalability, and streamline our processes. 
 
