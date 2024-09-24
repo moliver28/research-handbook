@@ -188,7 +188,7 @@ In this last exercise, you will identify and refine [Job Differentiators]<!--(/h
 
 1. **Rewrite and Finalize Job Differentiators:**
 
-- Now, rewrite each sticky note into a properly formatted Job Differentiator. Follow this format: 
+- Now, rewrite each sticky note into a properly formatted Job Differentiator. Follow this format:
   - "If [context or condition] vs. [alternative context]."
     - Example: "If working under a tight deadline vs. if working with ample time."
 - Refine the wording for clarity and precision to ensure the differentiators are easy to understand and actionable.
