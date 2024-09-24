@@ -11,8 +11,6 @@ The benefits decision discussions are held by Total Rewards and the Comp Group t
 
 GitLab covers **100%** of team member, spouse, dependents, and/or domestic partner premiums for medical, dental, and vision coverage.
 
-Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) and full [policy document](https://drive.google.com/file/d/1UFEPx7LI1kUmOr2BX47ZlRniQip_qewJ/view?usp=sharing) for more information on the benefits being offered.
-
 ## Group Health Coverage
 
 GitLab offers medical, dental, and vision coverage at no cost to the team member.
