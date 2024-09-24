@@ -117,17 +117,13 @@ After all interviews have been completed, it’s time to synthesize your data in
     1. Modify Stage
     1. Conclude Stage
 
-**Note:** The majority of the time there should be at least one Job Step under each of the eight Stages. However, there are times where a map may not have a step in one or two of the Stages. This is rare though, so be sure that it truly aligns with how your Job Performer accomplishes their Main Job before skipping a Stage. 
-
-3. **Organize Steps by Grouping and Stacking:**
-  - Copy the Job Step statements into the Group and Stack Job Map section in the FigJam
-  - Place each sticky under the relevant Stage, organizing each Stage's steps, vertically, top to bottom. The first step they do, through the last step, before moving on to the next Stage. 
-
+**Note:** The majority of the time there should be at least one Job Step under each of the eight Stages. However, there are times where a map may not have a step in one or two of the Stages. This is rare though, so be sure that it truly aligns with how your Job Performer accomplishes their Main Job before skipping a Stage.
+1. **Organize Steps by Grouping and Stacking:**
+   - Copy the Job Step statements into the Group and Stack Job Map section in the FigJam
+   - Place each sticky under the relevant Stage, organizing each Stage's steps, vertically, top to bottom. The first step they do, through the last step, before moving on to the next Stage.
 **Note:** Job Maps and their Job Steps must be listed in the _ideal order_ a Job Performer will follow to get the Job done to avoid waste, process iteration, churn, and failure.
-
-4. **Note & Vote** (Optional) 
-
-- Some teams may want to start using their new Universal Job Map immediately to guide their current direction and strategic planning. This exercise helps your team focus on key areas of the Job Map that are known concerns.
+1. **Note & Vote** (Optional)
+   - Some teams may want to start using their new Universal Job Map immediately to guide their current direction and strategic planning. This exercise helps your team focus on key areas of the Job Map that are known concerns.
   - Gather your team, either synchronously or asynchronously.
   - Provide each team member with 3 "target" stickers using FigJam's sticker feature for voting.
   - Have team members place a target sticker on the Job Step they believe is the most important to focus on.
