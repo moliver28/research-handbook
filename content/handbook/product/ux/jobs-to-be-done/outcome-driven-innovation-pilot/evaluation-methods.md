@@ -9,19 +9,19 @@ If Jobs-to-be-Done is the theory, then Outcome-Driven Innovation is the practice
 
 ## Continous Evaluation
 
-Continuous evaluation involves establishing predictable, repeatable, low-effort, and high-efficacy methods complemented by consistent feedback loops. This process includes generating regular benchmark scores and assessing solutions against these benchmarks. Implementing continuous evaluation ensures ongoing improvement and alignment with customer needs, leading to higher customer satisfaction and better product performance.
+Continuous evaluation involves establishing predictable, repeatable, low-effort, and high-efficacy methods complemented by consistent feedback loops. This process includes generating regular benchmark scores and assessing solutions against these benchmarks. Implementing continuous evaluation ensures ongoing improvement and alignment with user needs, leading to higher user satisfaction and better product performance.
 
 ## Evaluation Methods
 
-### Benchmarking the Domain
+### Benchmarking the Domain With The Outcome Survey
 
-Benchmarking helps identify improvement areas, evaluate whether we're innovating effectively, reach customer expectations, measure progress, set performance standards, and understand the competitive landscape. This is all achieved through an _Outcome Survey_.
+Benchmarking helps identify improvement areas, evaluate whether we're innovating effectively, reach user expectations, measure progress, set performance standards, and understand the competitive landscape. This is all achieved through an _Outcome Survey_.
 
-An Outcome Survey identifies and prioritizes the specific outcomes that customers seek when using a product or service. Unlike traditional surveys that focus on customer satisfaction or feature preferences, an Outcome Survey delves into the fundamental job that customers are trying to accomplish and the specific desired outcomes related to that job. This structured approach enables product teams to pinpoint and prioritize the outcomes that drive customer behavior and satisfaction, guiding product development efforts toward delivering solutions that effectively address these critical customer needs.
+An Outcome Survey identifies and prioritizes the specific Outcomes that users seek when using a product or service. Unlike traditional surveys that focus on user satisfaction or feature preferences, an Outcome Survey delves into the fundamental Job that users are trying to accomplish and the specific desired Outcomes related to that Job. This structured approach enables product teams to pinpoint and prioritize the Outcomes that drive user behavior and satisfaction, guiding product development efforts toward delivering solutions that effectively address these critical user needs.
 
 #### Process & Survey Design
 
->⚠️ Before conducting an Outcome survey, your team must _define the Jobs and Outcomes_ in your Domain.
+>⚠️ Before conducting an Outcome survey, your team must _define the Job Performers, theirs Jobs, the process they follow to accomplish those Jobs through a Job Map, and use all of that to draft Outcome statements_ in your Domain.
 
 You will find everything you need to get started in the [Qualtrics template](https://gitlab.eu.qualtrics.com/survey-builder/LS_2l5ektxWK1wFRuC/edit?ContextLibraryID=GR_6ziMa2ooJx4Y6SF). (Library/UX Research & Product/Templates/Opportunity Score Template)
 
@@ -29,8 +29,8 @@ You will find everything you need to get started in the [Qualtrics template](htt
 
 There are two aspects to screening:
 
-- Ensuring a representative sample: Screen out participants who do not perform the Jobs in the survey
-- Identify segments: Gain deeper insights into customer needs and behaviors across different groups
+- Ensuring a representative sample: Screen out participants who do not perform the Jobs in the survey. Use your defined Job Performer to make this determination.
+- Identify segments: Gain deeper insights into user needs and behaviors across different groups
 
 **A note on segmentation**
 
@@ -57,7 +57,7 @@ Questions are structured in the survey following a precise method to reduce surv
 
 You will find everything you need to score your results with this [Outcome scoring](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) template.
 
-The results of the Outcome survey are scored using the top-two box method, which is intened for use in surveys where participants are asked to rate their level of importance and satisfaction across a scale. This is the same method we use for [CSAT](handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#scoring-methodology). Refer to the example below for more details.
+The results of the Outcome survey are scored using the top-two box method, which is intened for use in surveys where participants are asked to rate their level of importance and satisfaction across a scale. This is the same method we use for [CSAT](handbook/sales/field-operations/user-success-operations/cs-ops-programs/nps-csat-scores/#scoring-methodology). Refer to the example below for more details.
 
 ![Top-Two-Example](./Top_Two_Box.png)
 
@@ -67,13 +67,13 @@ Looking at the example data above, we see that (40) or 80% of the total (50) par
 
 ### Design evaluation
 
-With an established benchmark, evaluating the design is a much simpler process. The goal is to increase satisfaction, measured using an abridged version of a benchmarking survey. This is accomplished by taking every Outcome from the job step (s) you are designing within and asking the satisfaction questions via a short survey in a moderated or unmoderated session. You will want at least (10) participants to ensure you are moving in the right direction by improving the satisfaction score.
+With an established benchmark, evaluating the design is a much simpler process. The goal is to increase satisfaction, measured using an abridged version of the benchmarking Outcome survey. This is accomplished by taking every Outcome from the Job Step(s) you are designing within and asking the satisfaction questions via a short survey in a moderated or unmoderated session. You will want at least (10) participants to ensure you are moving in the right direction by improving the satisfaction score.
 
 #### Alignment with UX Heuristics
 
-The three dimensions—speed, Reliability / Predictability, and Efficiency—directly correlate with GitLab's UX Heuristics. Due to this alignment, it is not necessary to evaluate designs for each of these elements independently. Instead, using this framework, the ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
+The three dimensions, Speed, Predictability/Reliability, and Efficiency/Better Results, directly correlate with GitLab's UX Heuristics. Due to this alignment, it is not necessary to evaluate designs for each of these elements independently. Instead, using this framework, the ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
 
-| UX Hueristic | Speed | Reliability / Predictability | Efficiency |
+| UX Hueristic | Speed | Predictability / Reliability | Efficiency/Better Results |
 | --------- | ------------- | ---------------------- | ------------------ |
 | Visibility of system status | — | ✅ | — |
 | Flexibility and efficiency of use | — | — | ✅ |
