@@ -458,6 +458,8 @@ To emulate this locally, follow these steps:
 
 See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
 
+[^1]: There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
+
 ### Cross-stack collaboration
 
 We encourage frontend engineers to contribute to the backend and vice versa. In such cases we should work closely with a domain expert from within our group
@@ -474,7 +476,3 @@ If a team member creates an issue or finds an issue where we would be open to a 
 ### Group discussion
 
 We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Threat Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
-
-## Footnotes
-
-[^1]: There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
