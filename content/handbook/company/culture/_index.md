@@ -185,9 +185,9 @@ What better way to convey a sense of who we are and how we work together, than b
 
 ### So that's what it's like to work at GitLab
 
+{{< youtube "4BIsON95fl8?start=1143" >}}
 {{% cardpane %}}
 {{% card footer="Being new to GitLab, our CRO, Michael McBride joined Sid in meeting with customers in New York City, USA where customers got a glimpse of what it's like to work at GitLab for him" %}}
-{{< youtube "4BIsON95fl8?start=1143" >}}
 {{% /card %}}
 {{% /cardpane %}}
 
