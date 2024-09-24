@@ -67,7 +67,7 @@ Looking at the example data above, we see that (40) or 80% of the total (50) par
 
 ### Design evaluation
 
-With an established benchmark, evaluating the design is a much simpler process. The goal is to increase satisfaction, measured using an abridged version of the benchmarking Outcome survey. This is accomplished by taking every Outcome from the Job Step(s) you are designing within and asking the satisfaction questions via a short survey in a moderated or unmoderated session. You will want at least (10) participants to ensure you are moving in the right direction by improving the satisfaction score.
+With an established benchmark, evaluating the design is a much simpler process. The goal is to increase satisfaction, measured using an abridged version of the benchmarking Outcome survey. This is accomplished by taking every Outcome from the Job Step(s) you are designing within and asking the satisfaction questions with a short survey in a moderated or unmoderated session. You will want at least (10) participants to ensure you are moving in the right direction by improving the satisfaction score.
 
 #### Alignment with UX Heuristics
 
