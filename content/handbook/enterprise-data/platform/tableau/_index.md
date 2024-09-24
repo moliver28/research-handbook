@@ -213,7 +213,7 @@ The Production Folder is a separate environment where Tableau users can find das
   
 ### Publication to Production Procedure
 
-![Tableau Publication to Production](static/images/handbook/enterprise-data/tableau/publication_to_production.png)
+![Tableau Publication to Production](/images/handbook/enterprise-data/platform/tableau/publication_to_production.png)
 
 #### First-Time Promotion to Production
 
