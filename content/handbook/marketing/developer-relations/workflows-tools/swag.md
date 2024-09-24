@@ -24,12 +24,6 @@ A list of the items in our inventory with the amount of items left to be claimed
 
 ## Sending Swag codes
 
-Note: You can also watch a recorded screencast:
-<details>
-<summary>Screencast</summary>
-<div style="position: relative; padding-bottom: 83.46213292117464%; height: 0;"><iframe src="https://www.loom.com/embed/caebea98b6d84d33abb89737813d4231" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</details>
-
 1. Go to the Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
 1. Go to the tab "One-time Coupon codes"
 1. Add the `Email recipient` to a code of the corresponding price Tier.
