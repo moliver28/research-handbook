@@ -179,7 +179,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 2. **Predictability/Reliability:** Progress entails increased reliability and decreased likelihood of deviations or errors.
 3. **Efficiency:** Progress is achieved by minimizing waste and optimizing output.
 
-💡 The ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs. In other words, the Job Performer can accomplish their Job _perfecty_ because every imperfection has been removed.
+💡 The ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs. In other words, the Job Performer can accomplish their Job _perfectly_ because every imperfection has been removed.
 
 | Dimension | Definition | Formula |
 | --- | --- | --- |
