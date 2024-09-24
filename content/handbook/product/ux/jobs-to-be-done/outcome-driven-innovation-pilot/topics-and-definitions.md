@@ -120,14 +120,14 @@ Job Stages should represent high-level Job Statements that describe the step or 
 Job Stages follow the [Job Statement]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements)--> format. Examples of Job Stage _verbs_ include:
 
 - **Define**, Plan, Select, Determine
-   - People often have goals or a set of objectives in mind at the onset of job execution. 
-   - What aspects of getting the job done must the user define up front in order to proceed? This step includes determining objectives; planning the approach; assessing which resources are necessary or available to complete the job; and selecting resources.
+  - People often have goals or a set of objectives in mind at the onset of job execution. 
+  - What aspects of getting the job done must the user define up front in order to proceed? This step includes determining objectives; planning the approach; assessing which resources are necessary or available to complete the job; and selecting resources.
 - **Locate**, Gather, Access, Receive
-   - People need to obtain certain inputs to get a job done-these inputs can be materials, ingredients, data, etc. 
-   - What inputs or items must the user locate to do the job? Inputs are both tangible (e.g. the surgical tools a nurse must locate for an operation) and intangible (e.g. business or other requirements that a software developer uses when writing code).
+  - People need to obtain certain inputs to get a job done-these inputs can be materials, ingredients, data, etc. 
+  - What inputs or items must the user locate to do the job? Inputs are both tangible (e.g. the surgical tools a nurse must locate for an operation) and intangible (e.g. business or other requirements that a software developer uses when writing code).
 - **Prepare**, Set-up, Organize, Examine
-   - People must set up the environment and organize the inputs in order to execute the job correctly. 
-   - How must the user prepare the inputs and environment to do the job? Nearly all user jobs involve an element of setting up and organizing materials.
+  - People must set up the environment and organize the inputs in order to execute the job correctly. 
+  - How must the user prepare the inputs and environment to do the job? Nearly all user jobs involve an element of setting up and organizing materials.
 - **Confirm**, Validate, Prioritize, Decide
   - People want to know that the job will produce the desired results before the execution step begins. 
   - Once preparation is complete, what does the user need to verify before proceeding with the job to ensure its successful execution? Here, the user makes sure that materials and the working environment have been properly prepared; validates the quality and functional capacity of material and informational components; and confirms priorities when deciding among execution options.
