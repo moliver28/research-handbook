@@ -4,7 +4,7 @@ title: Core Development Department
 
 ## Vision
 
-Develop a best-in-class product that exceeds expectations across all user groups, meeting high-quality standards while ensuring reliability, ease of operation, and scalability to meet diverse customer needs. All team members should remain mindful of our varied customer base and the multiple platforms we support in everything we do. **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.**
+Develop a best-in-class product that exceeds expectations across all user groups, meeting high-quality standards while ensuring reliability, ease of operation, and scalability to meet diverse customer needs. All team members should remain mindful of our target customers and the multiple platforms we support in everything we do. **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.**
 
 Ensure our product excels in all aspects especially for our primary customer personas of large enterprises, including scalability, adaptability, and seamless upgrade paths. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated, and Software as a Service (SaaS). 
 
@@ -16,7 +16,7 @@ GitLab's unique way of working asynchronously, handbook first, using the product
 
 ### Be strategic
 
-To better fulfill our goals and vision, we aim to shift from a reactive approach to a more strategic one. A key initiative will be the development of comprehensive technical roadmaps across all groups to fill our 40% time budget efficiently, focusing on enhancing our product from a technical perspective while aligning with our clear business objectives. We will establish department-wide targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement within their domain (e.g., reducing technical debt, resolving bugs, or optimizing performance).
+To better fulfill our goals and vision, we aim to shift from a reactive approach to a more strategic one. A key initiative to accomplish that will be the development of comprehensive technical roadmaps across all groups to use our 40% time budget efficiently. Focusing on enhancing our product from a technical perspective while aligning with our clear business objectives. We will establish department-wide targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs, or optimizing performance).
 
 ### Fostering High-Performing Teams for Efficient Execution
 
@@ -54,23 +54,25 @@ To fully leverage this strength, we need to:
 1. Integrate features more seamlessly across the platform
 2. Develop cross-functional capabilities that highlight the benefits of our unified approach
 3. Ensure a consistent user experience throughout the product
+4. Align and reuse foundational implementations across the whole platform
 
 Additionally, it's crucial to improve collaboration at the team level especially to support this part of our mission.
 
 We should:
 
 1. Increase awareness of ongoing projects and initiatives across teams
-2. Share knowledge about new technologies and innovations
+2. Share knowledge about new technologies and innovations and how they are applied today
 3. Promote understanding of functionalities in different product areas
 4. Foster greater collaboration between teams throughout the entire engineering organization
 
-### Efficiency
 
-GitLab's Development group ships thousands of product merge requests per month. Continuing to scale our development process to an ever larger number of contributors requires efficiency, collaboration, and iteration. We will focus on training our new hires on iteration and process improvements, saving team members time. We will also review the best metrics to focus on and are considering moving back to an overall MR Rate measure (from an authorship one). Doing so will help us measure the efficiency of our responsiveness to our peers for the company and the community.
+### Product with a customer focus
+
+We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
 
 ### AI Everywhere: Empowering Teams with Artificial Intelligence
 
-We are committed to enabling all teams across our product ecosystem to leverage AI features effectively and confidently. Given the unprecedented pace of AI evolution, it's crucial that every team understands its potential applications for their respective domains (where each team has also the largest amount of knowledge) and current capabilities.
+The use of AI is not to replace current features or replace areas but enhance all areas respectively in an impactful way. We are committed to enabling all teams across our product ecosystem to leverage AI features effectively and confidently. Given the unprecedented pace of AI evolution, it's crucial that every team understands its potential applications for their respective domains (where each team has also the largest amount of knowledge) and current capabilities.
 
 Three AI platform streams will be available this year:
 
@@ -86,23 +88,15 @@ Our goal is also to maximize the usage of our own AI features, particularly in s
 - Pipeline issue resolution
 - etc.
 
-### Enhanced Code Base Understanding
-
-Currently, our comprehension of hosted repositories is limited to basic metrics like file counts. By developing comprehensive meta-information and deeper repository insights, we can significantly enhance our product's capabilities across all areas. This improved understanding will:
-
-- Enrich existing features
-- Enable entirely new functionalities
-- Provide a long-term competitive advantage, especially when combined with AI and Duo Workflow
-
 ### Usability
 
-Millions of customers use GitLab so UX improvements can have a huge collective impact across all of these individuals.  We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/engineering/ux/pajamas-design-system/) in order to continue to improve performance experienced by users.   Also efforts like burning down significant ([Sev 1](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=SUS%3A%3AImpacting&label_name%5B%5D=severity%3A%3A1&first_page_size=100) and [Sev 2](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=SUS%3A%3AImpacting&label_name%5B%5D=severity%3A%3A2&first_page_size=100)) usability issues, addressing [Usability Benchmark insights](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Usability%20benchmark&first_page_size=100), are part of our short and long term goals.
+Millions of customers use GitLab so UX improvements can have a huge collective impact across all of these individuals.  We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/engineering/ux/pajamas-design-system/) in order to continue to improve performance experienced by users. 
 
 Development team members should also constantly suggest and investigate how to improve the overall user experience of the product. These can range from enhancing performance (actual and perceived), suggesting new technologies, solving user experience issues efficiently, etc.
 
-### Product with a customer focus
+### Efficiency
 
-We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
+GitLab's Development group ships thousands of product merge requests per month. Continuing to scale our development process to an ever larger number of contributors requires efficiency, collaboration, and iteration. We focus on training our new hires on iteration and process improvements, saving team members time. We will also review the best metrics to focus on. Doing so will help us measure the efficiency of our responsiveness to our peers for the company and the community.
 
 ### Diversity
 
