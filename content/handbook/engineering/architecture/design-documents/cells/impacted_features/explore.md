@@ -63,7 +63,7 @@ The existing Group and Project Explore will initially be scoped to an Organizati
 ## 4.1. Pros
 
 - Initially the lack of discoverability will not be a problem.
-- Only around [1.5% of all exisiting Users are using the Explore functionality on a monthly basis](https://gitlab.com/gitlab-data/product-analytics/-/issues/1302#note_1491215521).
+- Only around [1.5% of all existing Users are using the Explore functionality on a monthly basis](https://gitlab.com/gitlab-data/product-analytics/-/issues/1302#note_1491215521).
 
 ## 4.2. Cons
 
