@@ -6,11 +6,11 @@ title: "Security Assurance"
 
 ## Overview
 
-As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
+As part of the [Security division]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance department provides GitLab customers with a high level of assurance around the security of GitLab Inc., SaaS offerings, and official software releases.
 
-There are five teams in the Security Assurance sub-department.
+There are five teams in the Security Assurance department.
 
-## <i id="biz-tech-icons" class="fas fa-tasks"></i> Security Assurance Sub-Department
+## <i id="biz-tech-icons" class="fas fa-tasks"></i> Security Assurance department
 
 <table id="core-competencies">
   <tr>
@@ -36,8 +36,7 @@ There are five teams in the Security Assurance sub-department.
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "security-compliance" >}}"> Security Compliance, Commercial Team Page </a></li>
-            <li><a href="{{< ref "dedicated-compliance" >}}"> Security Compliance, Dedicated Team Page </a></li>
+            <li><a href="{{< ref "security-compliance" >}}"> Security Compliance Team Page </a></li>
         </ul>
       </td>
       <td>
@@ -73,25 +72,17 @@ There are five teams in the Security Assurance sub-department.
 - [Business Impact Assessments]({{< ref "business-impact-analysis" >}})
 - [Critical System Tiering]({{< ref "critical-systems" >}})
 
-### Security Compliance, Commercial Core Competencies
+### Security Compliance Core Competencies
 
-- [GitLab.com Production Continuous Control Monitoring/Auditing]({{< ref "sec-controls" >}})
-- [GitLab.com Security Certifications]({{< ref "../security-assurance/security-compliance/certifications" >}})
-- [GitLab.com Production & SOX ITGC User Access Reviews]({{< ref "access-reviews" >}})
+- [Continuous Control Monitoring]({{< ref "sec-controls" >}})
+- [Security Certifications and Attestations]({{< ref "../security-assurance/security-compliance/certifications" >}})
+- [User Access Reviews]({{< ref "access-reviews" >}})
 - [Tier 3 Observation Management]({{< ref "observation-management-procedure" >}})
-- [GitLab.com Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
-
-### Security Compliance, Dedicated Core Competencies
-
-- [GitLab Dedicated Production Continuous Control Monitoring/Auditing](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
-- [GitLab Dedicated Security Certifcations]({{< ref "../security-assurance/dedicated-compliance/certifications" >}})
-- [GitLab Dedicated User Access Reviews]({{< ref "access-reviews" >}})
-- [Tier 3 Observation Management]({{< ref "observation-management-procedure" >}})
-- [GitLab Dedicated Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
+- [Production Readiness Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
 
 ## <i id="biz-tech-icons" class="far fa-newspaper"></i> Core Tools and Systems
 
-The Security Assurance sub department utilizes a variety of tools to carry out day to day activities. The system admin is responsible for the following:
+The Security Assurance department utilizes a variety of tools to carry out day to day activities. The system admin is responsible for the following:
 
 - Configuration changes
 - Onboarding/offboarding/transfers (ie Access)
