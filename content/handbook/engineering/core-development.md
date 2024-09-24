@@ -65,7 +65,6 @@ We should:
 3. Promote understanding of functionalities in different product areas
 4. Foster greater collaboration between teams throughout the entire engineering organization
 
-
 ### Product with a customer focus
 
 We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
