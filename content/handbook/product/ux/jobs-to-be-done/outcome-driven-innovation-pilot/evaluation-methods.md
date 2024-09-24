@@ -73,7 +73,7 @@ With an established benchmark, evaluating the design is a much simpler process. 
 
 The three dimensions, Speed, Predictability/Reliability, and Efficiency/Better Results, directly correlate with GitLab's UX Heuristics. Due to this alignment, it is not necessary to evaluate designs for each of these elements independently. Instead, using this framework, the ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
 
-| UX Hueristic | Speed | Predictability / Reliability | Efficiency/Better Results |
+| UX Heuristic | Speed | Predictability / Reliability | Efficiency/Better Results |
 | --------- | ------------- | ---------------------- | ------------------ |
 | Visibility of system status | — | ✅ | — |
 | Flexibility and efficiency of use | — | — | ✅ |
