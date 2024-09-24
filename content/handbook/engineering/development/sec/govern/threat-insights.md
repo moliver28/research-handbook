@@ -106,8 +106,6 @@ We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/d
 
 The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
-Additional information can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning.html).
-
 ### Milestone Planning
 
 * On the second Tuesday of the month the Product Manager kicks off the planning issue. They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
