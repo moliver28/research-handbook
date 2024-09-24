@@ -102,9 +102,79 @@ We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/d
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
-### Workflow
+## Workflow
 
-The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
+The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).  In the sections below, we provide details about our teams specific Software Development Lifecycle.
+
+### Refinement
+
+Issues in the `workflow::refinement` state are either assigned by EMs to individuals engineers for refinement, or are assigned randomly by the triage bot based on the [assign-refinement policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/threat-insights/assign-refinement.yml). Note that [Epics are slightly different](#epic-engineering-dri).
+
+Engineers assigned to refine issues are encouraged to ask questions and collaborate with the Product Manager and Product Designer if issues lack the information and/or designs required for successful refinement and execution.
+
+We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
+
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
+
+#### Refinement Guidelines
+
+Backlog refinement is the most important step to ensure an issue is ready to move into development and that the issue will match everyone's expectations when the work is delivered.
+
+The goal of the refinement process is to ensure an issue is ready to be worked on by doing this:
+
+* Identify and resolve outstanding questions or discussions.
+* Identify missing dependencies (e.g. `backend` API).
+* Raise any questions, concerns or alternative approaches.
+* Outline an implementation plan.
+* Assign a weight to the issue.
+
+#### Refinement steps for Engineers
+
+1. Issues you need to refine will be assigned to you by your EM. Note the
+   differences for [bugs](#bug-diagnosis) and [spikes](#refinement-for-spikes).
+1. Backend/Frontend labels:
+   * If a backend engineer is required for the issue, ensure a `backend` label. Otherwise, remove
+     any backend label, assign any relevant labels and you are done.
+   * If a frontend engineer is required for the issue, ensure a `frontend` label. Otherwise,
+     remove any frontend label, assign any relevant labels and you are done.
+1. Check the issue for completeness.
+   * Does it have the necessary designs?
+   * Is the functionality clearly articulated and is there a consensus or decision on how it
+     should function?
+   * Are the technical details outlined?
+   * Has a consensus been reached or decision been made in areas of discussion?
+   * Are there dependencies? Call those out.
+1. If the issue is not complete:
+   * Tag the relevant people that can help complete the issue and outline what is needed. Tag the
+     appropriate EM and PM, so they know that the item can not be fully refined.
+   * If you are unable to resolve blockers to your refinement within a reasonable amount of time
+     (2-3 days dependign on size of initative) see [Failing Refinement](#failing-refinement).
+1. Ensure the issue is fully understood.
+   * Update the issue description with the final description of what will be implemented.
+   * Update the issue description with an [implementation plan](#implementation-plan).
+   * Update the issue description with [verification steps](#verification-steps).
+   * Ensure the issue title is accurate for the work being done.
+   * Open up new issues for 'follow-up' work, or work that was forced out of scope.
+1. Assign a [weight](#weights).
+   * If the issue requires both frontend and backend work, it should be split and weighed independently.
+1. Determine if [a feature flag is needed](/handbook/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
+   * If you think that we should use the feature flag for a given issue, add ~"feature flag" label
+     and add in the description a section called **Feature Flag** with the proposed name.
+   * Create a [feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Roll%20Out) issue to track the multiple stages of releasing with a feature flag.
+   * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone.
+1. Encourage Community Contributions.
+   * If the scope of the issue is well defined and there are no dependencies, consider adding
+     [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels).
+   * The `~"quick win"` label is particularly helpful but note that you would
+     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#issues-for-new-contributors).
+1. Refinement Review.
+   * If the weight you've assigned to the issue is 3 or less, move the issue directly to `~"workflow::ready for development"`.
+   * If the weight of the issue is greater than 3, unassign the issue from yourself and request a review from another engineer.
+   * When the reviewer agrees with the implementation plan and weight, they will unassign themself and move the issue to `~"workflow::ready for development"`.
+
+Anyone should be able to read a refined issue's description and understand what is being solved, how it is solving the problem, and the technical plan for implementing the issue.
+
+In order for someone to understand the issue and its implementation, they should **not** have to read through all the comments. The important bits should be captured in the description as the [single source of truth](/handbook/communication/#issues).
 
 ### Milestone Planning
 
@@ -113,7 +183,7 @@ The Threat Insights group largely follows GitLab's [Product Development Flow](/h
   * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
     * `~Threat Insights::Performance`
     * `~Threat Insights::Projects`
-  * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
+  * All issues scheduled for the milestone should have the `~Deliverable`, `workflow::ready for dev` labels as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
 ### Tracking Deliverables
