@@ -116,24 +116,23 @@ After all interviews have been completed, it’s time to synthesize your data in
     1. Monitor Stage
     1. Modify Stage
     1. Conclude Stage
-
-**Note:** The majority of the time there should be at least one Job Step under each of the eight Stages. However, there are times where a map may not have a step in one or two of the Stages. This is rare though, so be sure that it truly aligns with how your Job Performer accomplishes their Main Job before skipping a Stage.
+   - **Note:** The majority of the time there should be at least one Job Step under each of the eight Stages. However, there are times where a map may not have a step in one or two of the Stages. This is rare though, so be sure that it truly aligns with how your Job Performer accomplishes their Main Job before skipping a Stage.
 1. **Organize Steps by Grouping and Stacking:**
    - Copy the Job Step statements into the Group and Stack Job Map section in the FigJam
    - Place each sticky under the relevant Stage, organizing each Stage's steps, vertically, top to bottom. The first step they do, through the last step, before moving on to the next Stage.
 **Note:** Job Maps and their Job Steps must be listed in the _ideal order_ a Job Performer will follow to get the Job done to avoid waste, process iteration, churn, and failure.
 1. **Note & Vote** (Optional)
    - Some teams may want to start using their new Universal Job Map immediately to guide their current direction and strategic planning. This exercise helps your team focus on key areas of the Job Map that are known concerns.
-  - Gather your team, either synchronously or asynchronously.
-  - Provide each team member with 3 "target" stickers using FigJam's sticker feature for voting.
-  - Have team members place a target sticker on the Job Step they believe is the most important to focus on.
-    - Multiple votes on the same Job Step are allowed if someone feels that step deserves extra attention.
-    - For asynchronous voting, allow 48 hours for completion.
-  - Review the results and use FigJam's tools (for example, number stickers) to mark the top voted Job Steps. Label the highest voted step as "1", the second as "2", and so on.
-  - Once the top Job Steps are identified, move on to the next exercise: Construct Outcome Statements. Doe that exercise for these top voted Job Steps first.
-    - You can generate Outcome statements for as many of the voted Job Steps as desired.
-  - Align the created Outcome statements with any existing Issues. If no Issues exist, create new ones based on the Outcomes.
-    - To facilitate solution thinking, consider framing the Outcome statement as a "How might we..." question. For example: "How might we minimize the time it takes to confirm a vulnerability is remediated?""
+   - Gather your team, either synchronously or asynchronously.
+   - Provide each team member with 3 "target" stickers using FigJam's sticker feature for voting.
+   - Have team members place a target sticker on the Job Step they believe is the most important to focus on.
+      - Multiple votes on the same Job Step are allowed if someone feels that step deserves extra attention.
+      - For asynchronous voting, allow 48 hours for completion.
+   - Review the results and use FigJam's tools (for example, number stickers) to mark the top voted Job Steps. Label the highest voted step as "1", the second as "2", and so on.
+   - Once the top Job Steps are identified, move on to the next exercise: Construct Outcome Statements. Doe that exercise for these top voted Job Steps first.
+      - You can generate Outcome statements for as many of the voted Job Steps as desired.
+   - Align the created Outcome statements with any existing Issues. If no Issues exist, create new ones based on the Outcomes.
+      - To facilitate solution thinking, consider framing the Outcome statement as a "How might we..." question. For example: "How might we minimize the time it takes to confirm a vulnerability is remediated?""
 
 #### Exercise 2: Construct Outcome Statements
 
