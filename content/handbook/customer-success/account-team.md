@@ -1514,7 +1514,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
-<td>SPS Accelerator</td>
+<td> 
+
+[SPS Accelerator]( handbook/customer-success/success-services/#accelerators ) </td>
 <td>Conduct regular health checks to identify areas for improvement. Provide access to GitLab's Accelerators, helping them optimize their use of GitLab's products for their specific needs, and assist in implementing them effectively</td>
 <td>C, I</td>
 <td>DRI</td>
