@@ -7,7 +7,7 @@ description:
 
 If Jobs-to-be-Done is the theory, then Outcome-Driven Innovation is the practice.
 
-## Continous Evaluation
+## Continuous Evaluation
 
 Continuous evaluation involves establishing predictable, repeatable, low-effort, and high-efficacy methods complemented by consistent feedback loops. This process includes generating regular benchmark scores and assessing solutions against these benchmarks. Implementing continuous evaluation ensures ongoing improvement and alignment with user needs, leading to higher user satisfaction and better product performance.
 
