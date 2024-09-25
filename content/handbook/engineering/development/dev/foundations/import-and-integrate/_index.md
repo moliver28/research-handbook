@@ -458,9 +458,9 @@ This is a collection of links for monitoring our features.
 
 ### Sentry errors
 
-- [Matching "IntegrationsController"](https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+IntegrationsController)
-- [Matching "Integrations"](https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Integrations)
-- [Matching "Jira"](https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Jira)
+- [Matching "IntegrationsController"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+IntegrationsController&referrer=issue-list&statsPeriod=14d)
+- [Matching "Integrations"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+Integrations&referrer=issue-list&statsPeriod=14d)
+- [Matching "Jira"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+Jira&referrer=issue-list&statsPeriod=14d)
 
 ### Kibana logs and dashboards
 
