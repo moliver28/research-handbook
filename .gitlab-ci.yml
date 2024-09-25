@@ -119,7 +119,7 @@ variables:
   if: '$BUILD_AND_TEST_ONLY == "true"'
 
 .is-fork: &is-fork
-  if: '$CI_PROJECT_PATH != $CI_MERGE_REQUEST_PROJECT_PATH'
+  if: '$CI_PROJECT_ID != "42817607"'
 
 ###################################
 #

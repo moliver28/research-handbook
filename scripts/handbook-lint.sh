@@ -16,7 +16,7 @@ fi
 # diff differently depending on if CI environment, fork, or local
 if [ -n "$CI_PROJECT_ID" ]; then
     # if CI_PROJECT_ID exists, we're in a CI environment
-    if [ "CI_MERGE_REQUEST_SOURCE_PROJECT_ID" == "CI_MERGE_REQUEST_PROJECT_ID" ]; then
+    if [ "CI_PROJECT_ID" == "42817607" ]; then
         # if CI_PROJECT_ID matches the current project, then it's not a fork
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
