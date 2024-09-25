@@ -5,9 +5,9 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-## What's it like to work in security at GitLab?
+## What's it like to work in Application Security at GitLab?
 
-🤝 Application Security Engineers work closely with development teams, product managers (PM), and third-party groups (including the paid bug bounty program) to ensure that GitLab products are secure.
+The Application Security team plays a vital role at GitLab by ensuring that all its products are created securely throughout all stages of the software development lifecycle. In this role, you will be responsible for defining the vision, strategy, and execution of application security at GitLab. You’ll collaborate closely with Engineering, Product teams, and third-party groups (including the paid bug bounty program) to strengthen the security of Gitlab, its products, and protect customer data.
 
 🎉 **Hear from two team members about what it's like working here at GitLab in our Security department.** 🎉
 
