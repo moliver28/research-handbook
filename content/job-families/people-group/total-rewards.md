@@ -39,7 +39,7 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 
 #### Job Grade
 
-The Senior Total Rewards Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Total Rewards Program Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
