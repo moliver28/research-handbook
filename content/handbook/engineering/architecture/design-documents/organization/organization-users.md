@@ -72,7 +72,7 @@ For Cells 1.0, an Organization can only be private. Private Organizations can
 only be seen by their Organization members. They can only contain private Groups
 and Projects.
 
-For Cells 1.5, Organizations can also be public. Public Organizations can be
+For Cells 2.0, Organizations can also be public. Public Organizations can be
 seen by everyone. They can contain public and private Groups and Projects.
 
 In the future, Organizations will get an additional internal visibility setting
