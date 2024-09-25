@@ -69,6 +69,13 @@ To ensure a smooth migration:
 
 #### Performance, reliability, security considerations
 
+When running Gitaly in Kubernetes, you must:
+- Address pod disruption
+- Make use of cgroups v2 to constrain resource usage by git processes
+- Make Gitaly Pod a Guaranteed Quality of Service pod
+- Optimize pod rotation time
+
+You can refer to [Gitaly on Kubernetes](https://docs.gitlab.com/ee/administration/gitaly/kubernetes.html) for more information.
 ### References 
 
 * To conduct migrations between storage, it is best to use [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) a tool built for migrations.
