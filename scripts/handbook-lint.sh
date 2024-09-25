@@ -12,11 +12,44 @@ if ! [ -f handbook-codequality.json ]; then
 fi
 
 ## MEDIA file checks ##
+# Pull image and video lists
+# diff differently depending on if CI environment, fork, or local
+if [ -n "$CI_PROJECT_ID" ]; then
+    # if CI_PROJECT_ID exists, we're in a CI environment
+    if [ "CI_MERGE_REQUEST_SOURCE_PROJECT_ID" == "CI_MERGE_REQUEST_PROJECT_ID" ]; then
+        # if CI_PROJECT_ID matches the current project, then it's not a fork
+        BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
+        git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
+        git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+        git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+    else
+        # assume otherwise it's a fork
+        git fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+        # Add the fork as a remote and fetch the source branch
+        git remote add fork $CI_MERGE_REQUEST_SOURCE_PROJECT_URL
+        git fetch fork $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+        BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
+        MODIFIED_MARKDOWN_CONFIG=$(git diff --name-only $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep 'markdownlint-cli2.jsonc')
+        MODIFIED_MD_FILES=$(git diff --name-only $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.md$')
+        printf "CI_MERGE_REQUEST_TARGET_BRANCH_NAME: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME\nCI_MERGE_REQUEST_SOURCE_PROJECT_URL: $CI_MERGE_REQUEST_SOURCE_PROJECT_URL\nCI_MERGE_REQUEST_SOURCE_BRANCH_NAME: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME\nBRANCH_POINT: $BRANCH_POINT\n"
+        git diff --name-only --diff-filter=A $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
+        git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+        git diff --name-only --diff-filter=A $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+   fi
+elif [ -n "$1" ]; then
+    # if $1 exists, locally specified a branch to check against
+    git diff --name-only --diff-filter=A main...$1 | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
+    git diff --name-only --diff-filter=d main...$1 | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+    git diff --name-only --diff-filter=A main...$1 | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+else
+    echo "No branch specified. If testing locally, specify source branch to check against main."
+    exit 1
+fi
+
+## IMAGE checks
 # Check if newly added images are in /static/images
 printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
 INCORRECT_IMAGE_PATHS=""
-BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
-git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
 while read -r image; do
   if ! [[ "$image" =~ ^static/images/ ]]; then
     ERROR_FOUND=true
@@ -42,19 +75,16 @@ $markdownlinjson
 ]
 EOF
   fi
-done < /tmp/IMAGES
+done < /tmp/IMAGES-added
 if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
   printf "%b" " ${red}${bold}Failed.${normal}\n"
 else
   printf "%b" " ${green}${bold}Success.${normal}\n"
 fi
-rm /tmp/IMAGES
 
 # Check if newly added images are under 500KB
 printf "%b" "${bold}Checking that images are less than 500KB in size...${normal}"
 LARGE_IMAGE_PATHS=""
-BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
-git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
 while read -r image; do
   IMAGE_SIZE=$(du -k "$image" | cut -f 1)
   if [[ IMAGE_SIZE -ge 500 ]]; then
@@ -87,17 +117,16 @@ if [[ $LARGE_IMAGE_PATHS != "" ]]; then
 else
   printf "%b" " ${green}${bold}Success.${normal}\n"
 fi
-rm /tmp/IMAGES
 
+## Video checks
 # Check if newly added videos are in /static/videos
 printf "%b" "${bold}Checking that added videos are in static/videos directory...${normal}"
 INCORRECT_VIDEO_PATHS=""
-git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
 while read -r video; do
   if ! [[ "$video" =~ ^static/videos/ ]]; then
     ERROR_FOUND=true
     INCORRECT_VIDEO_PATHS="$INCORRECT_VIDEO_PATHS- $video\n"
-    fingerprint=$(sha256sum "$INCORRECT_VIDEO_PATHS")
+    fingerprint=$(sha256sum "$video")
     markdownlinjson=$(cat handbook-codequality.json)
     cat << EOF | jq -s 'add' - > handbook-codequality.json
 $markdownlinjson
@@ -124,6 +153,9 @@ if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
 else
   printf "%b" " ${green}${bold}Success.${normal}\n"
 fi
+# Remove tmp file
+rm /tmp/IMAGES-added
+rm /tmp/IMAGES
 rm /tmp/VIDEOS
 
 ## CODEOWNERS checks ##
@@ -279,7 +311,7 @@ if [[ $FM_MISSING_FILES != "" ]]; then
 else
   printf "%b" " ${green}${bold}Success.${normal}\n"
 fi
-rm /tmp/CODEOWNERS
+rm /tmp/CODEOWNERS-files
 
 printf "%b" "${bold}Checking for Controlled Documents that don't identify as such...${normal}"
 CO_MISSING_FILES=""

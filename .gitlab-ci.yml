@@ -118,6 +118,9 @@ variables:
 .build-and-test-only: &build-and-test-only
   if: '$BUILD_AND_TEST_ONLY == "true"'
 
+.is-fork: &is-fork
+  if: '$CI_PROJECT_PATH != $CI_MERGE_REQUEST_PROJECT_PATH'
+
 ###################################
 #
 # INTERRUPTION PROTECTION
@@ -238,6 +241,7 @@ markdownlint:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -260,6 +264,7 @@ vale:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -283,6 +288,7 @@ handbooklint:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -296,6 +302,7 @@ hugolint:
   needs: []
   rules:
     - <<: *build-and-test-only
+    - <<: *is-fork
     - <<: *default-branch
       allow_failure: true
     - <<: *merge-request-or-tag
@@ -322,6 +329,7 @@ secret_detection:
   rules:
     - <<: *build-and-test-only
     - <<: *merge-request-or-tag
+    - <<: *is-fork
 
 ####################################
 ##
@@ -349,4 +357,6 @@ notify_slack_on_build_failures:
   stage: notify
   script: ./scripts/send-failure-notification-to-slack.sh
   rules:
+  - <<: *is-fork
+    when: never
   - <<: *default-branch
