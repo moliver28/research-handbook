@@ -6,7 +6,7 @@ title: Core Development Department
 
  **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.** We strive to develop a best-in-class product that exceeds expectations across all user groups, meeting high-quality standards while ensuring reliability, ease of operation, and scalability to meet diverse customer needs. All team members should remain mindful of our target customers and the multiple platforms we support in everything we do.
 
-Ensure our product excels in all aspects especially for our primary customer personas of large enterprises, including scalability, adaptability, and seamless upgrade paths. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated, and Software as a Service (SaaS). 
+Ensure our product excels in all aspects especially for our primary customer [organization archetypes](https://handbook.gitlab.com/handbook/product/personas/organization-archetype/) of large enterprises, including scalability, adaptability, and seamless upgrade paths. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated, and Software as a Service (SaaS). 
 
 Develop our technical, diverse, global team to drive results that support our product and customer growth, while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
 
