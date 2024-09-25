@@ -43,7 +43,7 @@ Click `Data` in the left-hand menu. Add your raw data to the project, such as no
 
 The following video demonstrates how to use the import feature and how to structure your data around research questions / tasks:
 
-{{% youtube "dod5EUYYgDk" %}}
+{{< youtube "dod5EUYYgDk" >}}
 
 ### Tagging data in Dovetail
 
@@ -302,7 +302,7 @@ After you've created your insight statements, you can use Dovetail's ["presentat
 
 This video demonstrates how to take structured notes in Dovetail similarly to a Google Sheet with multiple notetakers.
 
-{{% youtube "K7WuC0QCOyM" %}}
+{{< youtube "K7WuC0QCOyM" >}}
 
 ### Disable Public Access
 
