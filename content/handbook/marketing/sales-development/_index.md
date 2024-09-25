@@ -180,7 +180,7 @@ You will find the lead views below. These views are split per use-case for your 
 
 | View   | Description                                                                                                        |
 |--------|--------------------------------------------------------------------------------------------------------------------|
-| S1 - High Priority View | These are leads that are marked as High Priority because of some high Propensity To Purchase indication. |
+| S1 - High Priority View | These are leads that are marked as High Priority because of some high Propensity To Purchase indication. This can include MQL, PTP, UserGems or 6QA. |
 | S1 View | These are your net new leads that have scored high enough to reach MQL status.                                            |
 | S2 View | This is a view of your existing leads that also have an associated phone call so you can easily reference your callable pipeline. |
 | S3 View | Qualifying leads. These are leads that you are actively qualifying in a back and forth conversation either by email or through phone calls. Each lead needs to either be active in a follow-up sequence, have an active task, or have a future meeting scheduled which can be seen in a future "last activity" date. |
@@ -1163,7 +1163,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### 1. When a person that we are tracking leaves their current place of employment
 
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
-- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
+- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, on the [S1 view for SDRs](/handbook/marketing/sales-development/#sdr-lead-views) as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting). After having reassigned the lead on SFDC, it is the new owner's responsibility to manually remove and re-enroll the lead into the appropriate Groove Flow.
 - BDR Team members are to research UserGems leads that they receive, and proceed with following the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that your `BDR Account Research` field will include a clear note of the keyword `UserGems` for our tracking purposes. 
 - These leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
