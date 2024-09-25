@@ -323,7 +323,7 @@ The Director, Professional Services Engagement Management is a [grade 10](/handb
 
 ### Sr. Director, Engagement Management
 
-A Senior Director of Professional Services is a high-level executive role responsible for overseeing the positioning, scoping and selling of consulting and education services to clients and ensuring the satisfaction and success of those clients. This position typically requires a blend of leadership, strategic planning, and client management skills, along with deep industry knowledge. Here’s an overview of job responsibilities and requirements you might find in a job posting for this role:
+A Senior Director of Professional Services (Engagement Management) is responsible for overseeing the positioning, scoping and selling of consulting and education services to clients and ensuring the satisfaction and success of those clients. This position typically requires a blend of leadership, strategic planning, and client management skills, along with deep industry knowledge.
 
 The Sr. Director, Professional Services Engagement Management, reports to the VP, Professional Services
 
@@ -331,15 +331,15 @@ The Sr. Director, Professional Services Engagement Management is a [grade 11](/h
 
 #### Responsibilities
 
-- Lead and mentor a team of Engagement Managers and Managers of EMs focused on Professional Services consultative selling.
-- Foster a culture of high performance, continuous improvement and customer centricity 
+- Lead and mentor a team of Engagement Managers and Managers of Engagement Management focused on Professional Services consultative selling.
+- Foster a culture of high performance, continuous improvement and customer centricity.
 - Set clear goals and objectives for the professional services team and ensure alignment with overall company strategy.
 - Oversee the Professional Services sales motion and ensure positive customer outcomes while meeting contractual obligations. 
 - Create and maintain relationships with Customer executives acting as a senior point of contact for escalations and critical issues. 
 - Ensure client satisfaction and drive client success leading to renewals, upsells and positive referrals. 
-- Develop and Execute the Global Services strategy, including service offerings, delivery models and go-to-market plans.
-- Collaborate with sales, product, and customer success teams to align on client needs and ensure cohesive service delivery.
-- Identify new service opportunities and drive innovation in service delivery to enhance client value and competitive positioning.
+- Develop and Execute the Global Services selling strategy, including how to position service offerings and go-to-market plans.
+- Collaborate with sales, product, customer success, and professional services delivery teams to align on client needs and ensure cohesive service delivery.
+- Identify new service opportunities and partner with the delivery function to drive innovation in service delivery to enhance client value and competitive positioning.
 - Manage under the professional services P&L, including budgeting, forecasting, and financial performance tracking.
 - Ensure services are positioned and sold efficiently and cost-effectively, standardizing on processes, maximizing profitability and mitigating risk.
 - Develop pricing strategies for services that reflect value delivered and market conditions.
@@ -354,7 +354,7 @@ The Sr. Director, Professional Services Engagement Management is a [grade 11](/h
 - Proven track record of successfully managing large-scale service selling motion and teams, preferably in a technology or software company.
 - Strategic thinking and business acumen, with the ability to develop and execute a services strategy that aligns with company goals.
 - Financial acumen, including experience managing budgets, forecasts, and P&L.
-- Contractual acumen, including negotiation and 
+- Contractual acumen, including negotiation strategies
 - Strong analytical and problem-solving skills, with the ability to make data-driven decisions.
 - Excellent communication and interpersonal skills, with the ability to work effectively with cross-functional teams and senior executives.Demonstrated progressive experience managing, leading and/or delivering professional services
 - Proven experience building and leading a large team with global responsibility, fast-paced, growing company
