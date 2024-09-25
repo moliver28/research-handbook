@@ -41,7 +41,6 @@ By using our services, you agree to abide by the latest version of this policy, 
       - Attribute the output to your name or organization.
     - To publish content you authored that was created in part with our AI-powered services, unless you:
       - Attribute the content to your name or organization.
-      - AI's role in your content is disclosed in a reasonably clear and conspicuous manner.
     - In any of the following fields:
       - Medical applications.
       - Provision of legal or financial services.
