@@ -16,7 +16,7 @@ GitLab's unique way of working asynchronously, handbook first, using the product
 
 ### Be strategic
 
-To better fulfill our goals and vision, we aim to shift from a reactive approach to a more strategic one. A key initiative to accomplish that will be the development of comprehensive technical roadmaps across all groups to use our [40% time budget](/handbook/engineering/#engineering-initiatives) efficiently. This enables us to focus on enhancing our product from a technical perspective while aligning with our clear business objectives. We will establish department-wide targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs, or optimizing performance).
+To better fulfill our goals and vision, we will shift from a reactive approach to a strategic one. A key initiative to accomplish that will be the development of comprehensive technical roadmaps across all groups to use our [40% time budget](/handbook/engineering/#engineering-initiatives) efficiently. This enables us to focus on enhancing our product by aligning technical and architectural improvements across groups and with business objectives. We will establish department-wide targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs, or optimizing performance) and that we coordinate between groups to address cross-cutting concerns.
 
 ### Fostering High-Performing Teams for Efficient Execution
 
