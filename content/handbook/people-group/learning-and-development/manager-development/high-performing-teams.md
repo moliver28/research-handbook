@@ -10,7 +10,7 @@ leaders being a guide to help their team members understand how to use the tools
 
 ### How to set yourself up for promotions
 
-{{% youtube id="U28nKJpMRPQ" title="Trust and the Talent Assessment process" %}}
+{{< youtube id="U28nKJpMRPQ" title="Trust and the Talent Assessment process" >}}
 
 1. Getting feedback during the talent assessment process can produce anxiety in some people. Being mindful of how you process feedback and constructive criticism and proactively communicating about how you intend to deliver feedback and how you would like to receive feedback can help minimize the anxiety for you and others. [This transcript of an interview](https://www.linkedin.com/pulse/how-love-criticism-adam-grant/) can help bring a new perspective for how to contextualize feedback.
 1. There is a tendency in the talent assessment process to focus on how to eliminate your areas of opportunity and continue to build on your strengths; while that is certainly a great focus it can also be helpful to think about the limits of that model. [This podcast episode](https://open.spotify.com/episode/2CdHhfyUznf7fgYqXmd7R6?si=STXRQd4fSjKBOQc5wl2Hnw&dl_branch=1&nd=1) talks about the inflection point when strengths can start to become liabilities. This might help lend some perspective as you go into your talent assessment process.
