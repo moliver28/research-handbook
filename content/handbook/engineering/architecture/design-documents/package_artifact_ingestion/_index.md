@@ -35,11 +35,12 @@ This service will allow us to easily update and re-run our updates to our tools 
 ### Example artifact outputs
 
 Assuming an example python package of `requests` this system would create the following output:
+
 1. `gitlab.com/pkgs/source/pypi/requests/` repository with every version tagged appropriately. (e.g. the repository would have git tags v1.0.0, v1.01, v2.0.0, v2.0.1 and so forth)
 2. `gitlab.com/pkgs/tools/pypi/requests/<tool>/` repository with every version tagged appropriately. Tools could output json or whatever they like provided that their outputs are committed and tagged to to the output they ran against. 
     1. For example if Libbehave ran against v1.0.0 and v1.0.1 they would have:
-	    1. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.0
-	    2. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.1
+        1. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.0
+        2. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.1
     2. Services could then access the output for the version they are interested in easily via an HTTP request: `https://gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json?refs=v1.0.0`
 
 ### Example products or services to utilize the data
@@ -65,11 +66,13 @@ A tool or client first acquires a list of pURLs or an SBOM full of pURLs that co
 ### pURL / SBOM API Service
 
 The aforementioned list of pURLs is then submitted to this API Service. Provided the pURL is valid and is a supported package manager, it initiates multiple pub/sub requests, each request containing a unique package. 
+
 ### Package-processor
 
 The package processor takes the parsed package information, calls out to the package managers API to get a list of versions. It then calls into GitLab's [tags API](https://docs.gitlab.com/ee/api/tags.html) to get a list of tags for the package:  `gitlab.com/pkgs/source/<pkgmgr>/<pkg>/`. If a version does not exist, or the package does not exist, it then proceeds to pull down each package listed in the package man agers API output. The packages that are downloaded are usually compressed archive files (zip/tar). 
 
 If the package already exists on gitlab.com then the git repository is pulled down into the container. The downloaded archive files are iterated over and extracted into this git repository. Each version will be committed and then tagged the particular version. For example if we pull down version v1.0.0 and v1.1.1, we will:
+
 1. \*Remove the old contents of the git repository
 1. Extract v1.0.0 into the git repository
 1. commit the new files
