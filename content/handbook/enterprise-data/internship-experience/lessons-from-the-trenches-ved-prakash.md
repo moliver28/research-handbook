@@ -87,7 +87,7 @@ Throughout my internship, I gained numerous insights that have shaped my underst
 * They have a few more calls than us as the team is geo-located, because of which 2 sync calls are weekly.
 * Fire drill call where they practise the production incident.
 * S1 sync call in case they have an open S1.
-* To review an MR, you don't need to assign it to any one particular person; people post any MR review request in #production_engineering or #g_infra_foundations slack channel.
+* To review an MR, you don't need to assign it to any one particular person; people post any MR review request in #g_production_engineering or #g_infra_foundations slack channel.
 * Everyone is a code owner, but you can't merge your changes. Also, one contributed to the MR and can't merge or approve the changes.
 * Everyone in the team uses Yubikey to connect to the production instance, ensuring the best security.
 

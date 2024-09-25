@@ -66,7 +66,7 @@ If you need assistance with a production issue or incident, please see the secti
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
-| [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N)| Place for the Production Eng team to have internal work discussions and ask for MR reviews etc. |
+| [#g_production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N)| Place for the Production Eng team to have internal work discussions and ask for MR reviews etc. |
 | [#g_production_engineering_leads](https://gitlab.enterprise.slack.com/archives/C06LDGA7Z9S)| Channel for Production Engineering leads (staff+ and management) |
 | [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)| Team channel for Production Engineering Ops  |
 | [#g_infra_social](https://gitlab.enterprise.slack.com/archives/CQYDEJE13)| Social channel for Production Engineering |
@@ -89,7 +89,7 @@ If you need assistance with a production issue or incident, please see the secti
 
 The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
-For more information, refer to the [landing page for getting assistance](../getting-assistance). 
+For more information, refer to the [landing page for getting assistance](../getting-assistance).
 
 The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](./getting-assistance)] page with any changes.
 
