@@ -2,8 +2,8 @@
 title: "RAG Abstraction Layer"
 status: ongoing
 creation-date: "2024-09-11"
-authors: [ "@shekharpatnaik" ]
-coaches: []
+authors: [ "@dgruzd" ]
+coaches: [ "@shekharpatnaik" ]
 dris: []
 owning-stage: "~devops::ai-powered"
 participating-stages: []
