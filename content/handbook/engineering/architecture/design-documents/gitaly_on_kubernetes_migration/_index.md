@@ -16,7 +16,6 @@ This blueprint outlines the migration strategy for deploying Gitaly on Kubernete
 1. Steps required for Kubernetes deployment
 2. Transition process from VMs to Kubernetes
 3. Performance, reliability, security considerations
-4. Timeline and milestones for the migration
 
 ## Motivation
 
@@ -38,35 +37,38 @@ By migrating Gitaly to Kubernetes, we aim to:
 4. Enhance GitLab's ability to adapt to varying workloads more efficiently.
 5. Provide customers with a fully containerized GitLab solution, eliminating the need for VM management alongside Kubernetes.
 
-It's important to note that this blueprint focuses solely on standalone Gitaly deployments. It does not cover Gitaly Cluster with Praefect, as Gitaly on Kubernetes does not currently support this configuration.
+It's important to note that this blueprint focuses solely on standalone Gitaly deployments. It does not cover [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/#gitaly-cluster) with Praefect, as Gitaly on Kubernetes does not currently support this configuration.
 
 ### Problems
+
 * Risk of data loss when migrating storage connections from Virtual Machines (VMs) to Gitaly pods
 * Unknown performance challenges that Gitaly pods may encounter in real-world scenarios
 * Current architectural constraint: deploying 1 StatefulSet with 1 replica per node for Gitaly pods
 
 ### Plan
-#### Steps required for Kubernetes deployment 
-We will deploy Gitaly in various environments via helm releases to test its performance, starting with:
 
-1. Pre-production environment (Pre)
-2. GSTG environment
-3. GPRD-CNY environment
+#### Steps required for Kubernetes deployment 
+
+##### Repositories to make configuration changes 
+
+* [Gitaly](https://gitlab.com/gitlab-org/gitaly) - code changes that affect Gitaly application 
+* [Cloud Native GitLab container images (CNG)](https://gitlab.com/gitlab-org/build/CNG) - any changes that involve infra changes to the Gitaly pod's container images will be made here. 
+* [Cloud Native GitLab Helm Chart](https://gitlab.com/gitlab-org/charts/gitlab) - any changes that involve the helm chart that deploys the gitaly subchart will be made here. Eg. Gitaly Service, Gitaly ConfigMap, Gitaly probe time changes.
+
+Deploy Gitaly in various environments via helm releases to test its performance.
+
+Eg. Pre -> Staging -> Production Canary -> Production
 
 #### Transition process from VMs to Kubernetes
 
 To ensure a smooth migration:
 
-* Weights will be adjusted to allow a reasonable amount of traffic to the Gitaly pods. By default it will allocate traffic to the Gitaly instance with the most storage space available. On a fresh Gitaly deployment with new storage, the Gitaly pod will attract all traffic. To mitigat this, weights need to be adjusted.
+* Weights should be adjusted to allow a reasonable amount of traffic to the Gitaly pods. Navigate to the Admin Area, adjust the weights of the storage to determine the amount of traffic directed to the Gitaly pods. We recommend starting off with a small amount of traffic.
 * [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) will be used to migrate storage data from VMs to Gitaly pods. For each target storage, it must be configured to be readonly before starting the migration.
 * Virtual machines will eventually be decommissioned.
 
 #### Performance, reliability, security considerations
 
-#### Timeline and milestones for the migration
-FY25Q3 - Select repositories will be migrated in GSTG env
-FY25Q4 - Select repositories will be migrated in GPRD-CNY env
-
 ### References 
 
-- To conduct migrations between storage, it is best to use [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) a tool built for migrations.
+* To conduct migrations between storage, it is best to use [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) a tool built for migrations.
