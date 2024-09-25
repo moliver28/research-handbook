@@ -39,7 +39,6 @@ By using our services, you agree to abide by the latest version of this policy, 
     - To post output to social media, or otherwise demonstrate our AI-powered services to groups of people, unless you:
       - Manually review all output before sharing.
       - Attribute the output to your name or organization.
-      - Do not share content that otherwise violates this Acceptable Use Policy.
       - Use good judgment in taking audience requests for prompts.
     - To publish first-party written content created in part with our AI-powered services, unless you:
       - Attribute the contet to your name or organization.
