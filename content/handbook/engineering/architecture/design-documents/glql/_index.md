@@ -76,7 +76,7 @@ the query expression and metadata. The model consists of the following component
       to apply, if any.
 1. **Executor**: Runs the compiled query against the API or datastore to retrieve the
    requested data. Currently, GraphQL is used as a datastore.
-1  transformations specified in the metadata.
+   transformations specified in the metadata.
 1. **Presenter**: Presents the final transformed data using data-agnostic Vue components.
 
 Here's an example of a GLQL query:
@@ -133,7 +133,7 @@ Serving as the entry-point to parsing, executing and presenting a GLQL query, th
 component consists of two parts: [the model](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/glql/core/index.js)
 and [the view](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/glql/components/common/facade.vue).
 The model part does all the hard work, while the view part is abstraction to handle
-loading and error states.
+loading and error states, and present the data using appropriate root presenter component in case of success.
 
 ### Query Compiler
 
@@ -190,7 +190,7 @@ of the following:
 
 1. JS YAML: Converts a YAML block into a JSON config.
 1. [Fields Parser](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/glql/core/parser/fields.js):
-   A special parser to allow dynamically creating new fields in the transformer later.
+   A combinator parser to allow dynamically creating new fields in the transformer later.
 
 **Syntax**: Currently supported options:
 
@@ -221,7 +221,7 @@ the parsed YAML front matter config.
 
 The [transformer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/glql/core/transformer/data.js) module is responsible for two things:
 
-- Standardizing data for the presenter.
+- Normalizing the data for the presenter.
 - Transforming data as requested by the user, for example, to derive new columns.
 
 In a future iteration, the transformer module can also be used to aggregate data.
@@ -290,13 +290,13 @@ GLQL's architecture is designed with extensibility as a core principle, allowing
 1. **New Data Sources**
    - To support new APIs or datastores:
      - Implement new Code Generators tailored to the specific data source
-     - Develop corresponding Transformers to standardize the data format
+     - Develop corresponding transformers to normalize the data returned by the API
    - Existing Parser and Presenter components can be reused, ensuring consistency in query input and output formats
 
 1. **New Query Objects**
    - To add support for querying new GitLab objects:
      - Create new Analyzers to validate object-specific query semantics
-     - Implement dedicated Code Generators for efficient query translation
+     - Implement dedicated Code Generators for the new API or data source
      - Develop specialized Transformers to process the new object types
      - Extend or create new Presenters if unique display formats are required
 
