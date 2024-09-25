@@ -51,17 +51,28 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
    - Assign another Contributor Success team member to review/merge and double check the merge request is targeting the correct release branch.
    - Ping the [release post manager](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml) into the MR for awareness.
    - Merge by the Tuesday of release week.
-1. Award the MVP winner with the MVP achievement using the `MVP Achievements` group access token from the Contributor Success vault.\
-   NOTE: You will need the [1Password cli](/handbook/security/password-guidelines.html#cli-integration) installed:
+1. Award the MVP winner with the MVP achievement by running the following query in [GraphiQL](https://gitlab.com/-/graphql-explorer). (You will need to be a `Maintainer` of the [Achievements Group](https://gitlab.com/gitlab-org/achievements). By default Contributor Success team members should have rights.)
 
-   ```shell
-   curl -g \
-   -X POST \
-   -H "Content-Type: application/json" \
-   -H "Authorization: Bearer $(op read 'op://Contributor Success Team/GitLab MVP Achievements Group Access Token/password')" \
-   -d '{"query":"mutation{achievementsAward(input:{achievementId: \"gid://gitlab/Achievements::Achievement/53\" userId: \"gid://gitlab/User/<user_id>\"}){errors}}"}' \
-   https://gitlab.com/api/graphql
-   ```
+    ```graphql
+    mutation {
+      achievementsAward(
+        input: {achievementId: "gid://gitlab/Achievements::Achievement/53", userId: "gid://gitlab/User/<user id>"}
+      ) {
+        userAchievement {
+          id
+          achievement {
+            id
+            name
+          }
+          user {
+            id
+            username
+          }
+        }
+        errors
+      }
+    }
+    ```
 
    NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown ellipsis (kebab menu) in the upper right corner.
 
