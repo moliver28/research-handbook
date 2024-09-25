@@ -4,7 +4,7 @@ title: Core Development Department
 
 ## Vision
 
-Develop a best-in-class product that exceeds expectations across all user groups, meeting high-quality standards while ensuring reliability, ease of operation, and scalability to meet diverse customer needs. All team members should remain mindful of our target customers and the multiple platforms we support in everything we do. **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.**
+ **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.** We strive to develop a best-in-class product that exceeds expectations across all user groups, meeting high-quality standards while ensuring reliability, ease of operation, and scalability to meet diverse customer needs. All team members should remain mindful of our target customers and the multiple platforms we support in everything we do.
 
 Ensure our product excels in all aspects especially for our primary customer personas of large enterprises, including scalability, adaptability, and seamless upgrade paths. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated, and Software as a Service (SaaS). 
 
@@ -16,7 +16,7 @@ GitLab's unique way of working asynchronously, handbook first, using the product
 
 ### Be strategic
 
-To better fulfill our goals and vision, we aim to shift from a reactive approach to a more strategic one. A key initiative to accomplish that will be the development of comprehensive technical roadmaps across all groups to use our 40% time budget efficiently. Focusing on enhancing our product from a technical perspective while aligning with our clear business objectives. We will establish department-wide targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs, or optimizing performance).
+To better fulfill our goals and vision, we aim to shift from a reactive approach to a more strategic one. A key initiative to accomplish that will be the development of comprehensive technical roadmaps across all groups to use our [40% time budget](/handbook/engineering/#engineering-initiatives) efficiently. This enables us to focus on enhancing our product from a technical perspective while aligning with our clear business objectives. We will establish department-wide targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs, or optimizing performance).
 
 ### Fostering High-Performing Teams for Efficient Execution
 
@@ -36,7 +36,8 @@ In today's competitive landscape, GitLab's success hinges on our ability to buil
    - Look out for improvements in efficiency by enhancing the product and using all its capabilities
 
 3. **Quad Execution**
-   - Clarify responsibilities and accountability within quads
+   - Clarify responsibilities within quads
+   - Encourage accountability amongst team members and counterparts
    - Empower quads to execute independently with a clear vision
 
 4. **Innovation and Creativity**
@@ -47,7 +48,7 @@ We aim to create an environment where high-performing teams can thrive, innovate
 
 ### Connect the dots! In the product and between teams
 
-One of our product's greatest strengths and selling points is its unified platform approach. While we currently offer multiple functionalities within a single product, we should strive to enhance even more this advantage by creating stronger connections between these different areas.
+One of our product's greatest strengths and selling points is its unified platform approach. While we currently offer multiple functionalities within a single product, we should strive to further enhance this advantage by creating stronger connections between these different areas.
 
 To fully leverage this strength, we need to:
 
