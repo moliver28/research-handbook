@@ -7,7 +7,7 @@ status: proposed
 creation-date: "2024-09-25"
 authors: [ "@idawson" ]
 coaches: [ "" ]
-dris: [ "@idawson", "@nilieskou", "@thiagocsf" ]
+dris: [ "@idawson", "@gonzoyumo", "@thiagocsf" ]
 owning-stage: "~devops::secure"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
@@ -31,16 +31,16 @@ For long pages, consider creating a table of contents.
 Build a new service which takes in a list of SBOM or pURLs for supported package managers to download and extract artifacts and store in GitLab.com under a custom namespace. This service will allow us to run custom tools and services on the actual artifacts that are run in our and our customers code bases. 
 
 This service will allow us to easily update and re-run our updates to our tools without requiring the tooling to handle the downloading and extraction itself but can reuse the data stored in the git repositories.
-#### Example artifact outputs:
+
+### Example artifact outputs
 
 Assuming an example python package of `requests` this system would create the following output:
 1. `gitlab.com/pkgs/source/pypi/requests/` repository with every version tagged appropriately. (e.g. the repository would have git tags v1.0.0, v1.01, v2.0.0, v2.0.1 and so forth)
 2. `gitlab.com/pkgs/tools/pypi/requests/<tool>/` repository with every version tagged appropriately. Tools could output json or whatever they like provided that their outputs are committed and tagged to to the output they ran against. 
-	1. For example if Libbehave ran against v1.0.0 and v1.0.1 they would have:
-		1. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.0
-		2. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.1
-	2. Services could then access the output for the version they are interested in easily via an HTTP request: `https://gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json?refs=v1.0.0`
-
+    1. For example if Libbehave ran against v1.0.0 and v1.0.1 they would have:
+	    1. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.0
+	    2. `gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json` tagged at v1.0.1
+    2. Services could then access the output for the version they are interested in easily via an HTTP request: `https://gitlab.com/pkgs/tools/pypi/requests/libbehave/libbehave.json?refs=v1.0.0`
 
 ### Example products or services to utilize the data
 
@@ -62,10 +62,10 @@ Assuming an example python package of `requests` this system would create the fo
 
 A tool or client first acquires a list of pURLs or an SBOM full of pURLs that contain packages for supported package managers. 
 
-#### pURL / SBOM API Service
+### pURL / SBOM API Service
 
 The aforementioned list of pURLs is then submitted to this API Service. Provided the pURL is valid and is a supported package manager, it initiates multiple pub/sub requests, each request containing a unique package. 
-#### Package-processor
+### Package-processor
 
 The package processor takes the parsed package information, calls out to the package managers API to get a list of versions. It then calls into GitLab's [tags API](https://docs.gitlab.com/ee/api/tags.html) to get a list of tags for the package:  `gitlab.com/pkgs/source/<pkgmgr>/<pkg>/`. If a version does not exist, or the package does not exist, it then proceeds to pull down each package listed in the package man agers API output. The packages that are downloaded are usually compressed archive files (zip/tar). 
 
@@ -84,22 +84,22 @@ If the package already exists on gitlab.com then the git repository is pulled do
 
 If the package has never been seen before, the same process as above is executed but first a new repository is created and added to gitlab.com/pkgs/.
 
-### Concerns
+## Concerns
 
-#### Rate-limiting
+### Rate-limiting
 
 The biggest concern is overloading GitLab.com with new repository creations. The API Service will either need to set some rate limiting or a shared datastore (firebase or some simple K/V store) to set global counters so that each package processor can know how many git repositories are being created or updated at a given time.
 
-#### Storage space
+### Storage space
 
 An initial analysis showed that storage space will be negligible, with 10,000 packages for 8 package managers each (80k) only taking up around 3.28TB of space. 
 
-### Initial implementation plan
+## Initial implementation plan
 
 1. Request creation of a new namespace on GitLab.com `gitlab.com/pkgs` or `gitlab.com/packages`.
 2. Create two sub-groups:
-	1. `gitlab.com/pkgs/source/`
-	2. `gitlab.com/pkgs/tools/`
+    1. `gitlab.com/pkgs/source/`
+    2. `gitlab.com/pkgs/tools/`
 3. Create a new project for deploying this service on GitLab.com
 4. Build the terraform modules to deploy the service
 5. Write the API service and pull in the already created code for the package-processor
