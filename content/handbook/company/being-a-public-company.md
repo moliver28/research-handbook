@@ -77,7 +77,7 @@ Statements on this page are being made pursuant to, and in accordance with, Rule
 
 ## Remaining an Independent Company
 
-{{% youtube id="LIXLGyZK72c" title="Will GitLab be acquired? Kristof Eger & Sid Sijbrandij" %}}
+{{< youtube id="LIXLGyZK72c" title="Will GitLab be acquired? Kristof Eger & Sid Sijbrandij" >}}
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO [Sid Sijbrandij](https://gitlab.com/sytses) discusses the topic of remaining independent as a company with Kristóf Éger. The [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) is transcribed, in part, below.*
 
