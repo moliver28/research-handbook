@@ -36,8 +36,6 @@ This procedure applies to all [controlled documents](#list-of-controlled-documen
 
 ![CD Pyramid](/handbook/security/security-assurance/images/CDPyramidv2.png)
 
-Footnote: <sub>https://docs.google.com/presentation/d/125LxBkIx0gj42Ooky8hcx9HY2GEjfomDRdR_o-qbOpc/edit#slide=id.g1234fd827e0_0_0</sub>
-
 - Policy: A policy is a high-level statement of intent and defines GitLab's goals, objectives and culture. Statutory, regulatory, or contractual obligations are commonly the root cause for a policy's existence. Policies are designed to be centrally managed at the organizational level (e.g. Security Compliance Team or Legal & Ethics Compliance Team).
 - Standard: Standards are mandatory actions or rules that give formal policies support and direction by providing specific details that enable policies to be implemented. Standards may take the form of technical diagrams.
 - Procedure: Procedures are detailed instructions to achieve a given policy and, if applicable, supporting standard and provid step-by-step instructions to follow. Procedures are decentralized and managed by process/control owners where a security control is translated into a business process.
