@@ -17,7 +17,7 @@ As long as the quad achieves these goals, they are encouraged to apply the proce
 
 #### Cross-functional milestone planning
 
-To support GitLab's long-term product health and stability while keeping the pace of new features for users, teams are asked to plan their milestones with an appropriate ratio of `type::feature`, `type::maintenance`, and `type:bug` work.  When labeling if the label selection for an issue or merge request isn't obvious, don't spend more than 60 seconds to decide and make a best effort to choose the most appropriate label.
+To support GitLab's long-term product health and stability while keeping the pace of new features for users, teams are asked to plan their milestones with an appropriate ratio of `type::feature`, `type::maintenance`, and `type:bug` work.  Please note that this is a key input for SOX compliance. When labeling if the label selection for an issue or merge request isn't obvious, work with your peers/manager or reach out to Staff TPM R&D Compliance for further clarification.
 
 If one of these labels clearly doesn't apply for an issue, consider using the `type::ignore` label. This will exclude the issue from automation and dashboards used to do cross-functional prioritization and metrics tracking for the product. It is highly important we have accurate data, so please only use this label if the issue clearly does not pertain directly to Engineering changes to the product itself. This label will typically apply to issues used for planning or to track a process. For example, you could use the `type::ignore` label for a milestone planning issue where the issue's purpose is organization and will not have MRs directly associated with it.
 
