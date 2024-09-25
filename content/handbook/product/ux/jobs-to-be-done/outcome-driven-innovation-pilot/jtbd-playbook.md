@@ -87,9 +87,9 @@ The goal of the interview is to answer the following questions:
 It is recommended to have both a moderator and a notetaker during each interview, if possible. The notetaker is responsible for documenting the Job Steps on the FigJam JTBD Interview Participant Canvases during the interview. At the most opportune point during the interview, such as when it seems clear they've described their process from start to finish, show the map your notetaker generated to the participant to ensure it's an accurate interpretation of their process. Update it as necessary during this verification.
 
 1. Use the Figjam space provided for each participant and capture every step the participant mentions, using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as Job Stages or Job Statement formatting. Your goal is to capture the participants process from start to finish so you can show it back to them for verification.
-   - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards when reviewing your interviews videos/notes.
+   1. **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards when reviewing your interviews videos/notes.
 1. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
-   - **Note:** You may skip this step if you do not have a notetaker.
+   1. **Note:** You may skip this step if you do not have a notetaker.
 1. After the interview, rewrite each Job Step to ensure it is functional and follows the [Job Statement format]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements-->.
 1. Continue to follow this process for each interview participant.
 
@@ -100,39 +100,40 @@ It is recommended to have both a moderator and a notetaker during each interview
 After all interviews have been completed, it’s time to synthesize your data into the final _Universal_ Job Map.
 
 1. **Identify Commonalities:**
-  - Read through each participants Job Maps to familiarze yourself with each of them.
-  - Look for commonalities among all Job Maps.
+   1. Read through each participants Job Maps to familiarze yourself with each of them.
+   1. Look for commonalities among all Job Maps.
 1. **Create a Universal Job Map:**
-  - Start by gathering all of the related stickies across all participants for the Execute Stage. Refer back to your Main Job statement to ensure you're truly considering the steps when the user has begun to execute that Job.
-  - Copy the sticky notes into the Execute Stage container that aligns most closely with the timing the Job Performer would complete each step within this Stage. Remove duplicates along the way.
-  - Review each of the stickies within the Stage and group commonalities together.
-  - Convert each common group into a single Job Step statement that represents what the user is doing at that point.
-    - Repeat this for each common group found in that Stage.
-  - Repeat this process going through the Pre-Execute Stages and then the Post-Execute Stages in the following order:
-    1. Define Stage
-    1. Locate Stage
-    1. Prepare Stage
-    1. Confirm Stage
-    1. Monitor Stage
-    1. Modify Stage
-    1. Conclude Stage
+   1. Start by gathering all of the related stickies across all participants for the Execute Stage. Refer back to your Main Job statement to ensure you're truly considering the steps when the user has begun to execute that Job.
+   1. Copy the sticky notes into the Execute Stage container that aligns most closely with the timing the Job Performer would complete each step within this Stage. Remove duplicates along the way.
+   1. Review each of the stickies within the Stage and group commonalities together.
+   1. Convert each common group into a single Job Step statement that represents what the user is doing at that point.
+      1. Repeat this for each common group found in that Stage.
+   1. Repeat this process going through the Pre-Execute Stages and then the Post-Execute Stages in the following order:
+       1. Define Stage
+       1. Locate Stage
+       1. Prepare Stage
+       1. Confirm Stage
+       1. Monitor Stage
+       1. Modify Stage
+       1. Conclude Stage
    - **Note:** The majority of the time there should be at least one Job Step under each of the eight Stages. However, there are times where a map may not have a step in one or two of the Stages. This is rare though, so be sure that it truly aligns with how your Job Performer accomplishes their Main Job before skipping a Stage.
 1. **Organize Steps by Grouping and Stacking:**
-   - Copy the Job Step statements into the Group and Stack Job Map section in the FigJam
-   - Place each sticky under the relevant Stage, organizing each Stage's steps, vertically, top to bottom. The first step they do, through the last step, before moving on to the next Stage.
-**Note:** Job Maps and their Job Steps must be listed in the _ideal order_ a Job Performer will follow to get the Job done to avoid waste, process iteration, churn, and failure.
+   1. Copy the Job Step statements into the Group and Stack Job Map section in the FigJam
+   1. Place each sticky under the relevant Stage, organizing each Stage's steps, vertically, top to bottom. The first step they do, through the last step, before moving on to the next Stage.
+   1. **Note:** Job Maps and their Job Steps must be listed in the _ideal order_ a Job Performer will follow to get the Job done to avoid waste, process iteration, churn, and failure.
+
 1. **Note & Vote** (Optional)
-   - Some teams may want to start using their new Universal Job Map immediately to guide their current direction and strategic planning. This exercise helps your team focus on key areas of the Job Map that are known concerns.
-   - Gather your team, either synchronously or asynchronously.
-   - Provide each team member with 3 "target" stickers using FigJam's sticker feature for voting.
-   - Have team members place a target sticker on the Job Step they believe is the most important to focus on.
-      - Multiple votes on the same Job Step are allowed if someone feels that step deserves extra attention.
-      - For asynchronous voting, allow 48 hours for completion.
-   - Review the results and use FigJam's tools (for example, number stickers) to mark the top voted Job Steps. Label the highest voted step as "1", the second as "2", and so on.
-   - Once the top Job Steps are identified, move on to the next exercise: Construct Outcome Statements. Doe that exercise for these top voted Job Steps first.
-      - You can generate Outcome statements for as many of the voted Job Steps as desired.
-   - Align the created Outcome statements with any existing Issues. If no Issues exist, create new ones based on the Outcomes.
-      - To facilitate solution thinking, consider framing the Outcome statement as a "How might we..." question. For example: "How might we minimize the time it takes to confirm a vulnerability is remediated?""
+   1. Some teams may want to start using their new Universal Job Map immediately to guide their current direction and strategic planning. This exercise helps your team focus on key areas of the Job Map that are known concerns.
+   1. Gather your team, either synchronously or asynchronously.
+   1. Provide each team member with 3 "target" stickers using FigJam's sticker feature for voting.
+   1. Have team members place a target sticker on the Job Step they believe is the most important to focus on.
+      1. Multiple votes on the same Job Step are allowed if someone feels that step deserves extra attention.
+      1. For asynchronous voting, allow 48 hours for completion.
+   1. Review the results and use FigJam's tools (for example, number stickers) to mark the top voted Job Steps. Label the highest voted step as "1", the second as "2", and so on.
+   1. Once the top Job Steps are identified, move on to the next exercise: Construct Outcome Statements. Doe that exercise for these top voted Job Steps first.
+      1. You can generate Outcome statements for as many of the voted Job Steps as desired.
+   1. Align the created Outcome statements with any existing Issues. If no Issues exist, create new ones based on the Outcomes.
+      1. To facilitate solution thinking, consider framing the Outcome statement as a "How might we..." question. For example: "How might we minimize the time it takes to confirm a vulnerability is remediated?""
 
 #### Exercise 2: Construct Outcome Statements
 
