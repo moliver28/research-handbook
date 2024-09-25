@@ -55,7 +55,8 @@ It's important to note that this blueprint focuses solely on standalone Gitaly d
 * [Cloud Native GitLab container images (CNG)](https://gitlab.com/gitlab-org/build/CNG) - any changes that involve infra changes to the Gitaly pod's container images will be made here. 
 * [Cloud Native GitLab Helm Chart](https://gitlab.com/gitlab-org/charts/gitlab) - any changes that involve the helm chart that deploys the gitaly subchart will be made here. Eg. Gitaly Service, Gitaly ConfigMap, Gitaly probe time changes.
 
-Deploy Gitaly in various environments via helm releases to test its performance.
+Deploy Gitaly in various environments via helm releases to test its performance. By using isolated environments, Gitaly can be verified 
+and if there are bugs or problems, it can be catched earlier before it reaches production.
 
 Eg. Pre -> Staging -> Production Canary -> Production
 
@@ -70,12 +71,29 @@ To ensure a smooth migration:
 #### Performance, reliability, security considerations
 
 When running Gitaly in Kubernetes, you must:
-- Address pod disruption
-- Make use of cgroups v2 to constrain resource usage by git processes
-- Make Gitaly Pod a Guaranteed Quality of Service pod
-- Optimize pod rotation time
+
+* Address pod disruption
+* Make use of cgroups v2 to constrain resource usage by git processes
+* Make Gitaly Pod a Guaranteed Quality of Service pod
+* Optimize pod rotation time
 
 You can refer to [Gitaly on Kubernetes](https://docs.gitlab.com/ee/administration/gitaly/kubernetes.html) for more information.
+
+Sanity check of connectivity with rails webservice
+
+1. Shell into the toolbox pod 
+2. run `gitlab-rake gitlab:tcp_check[{gitaly-svc-name}.{gitaly-namespace}.svc.cluster.local,8075]`
+    replace {gitaly-svc-name} with your actual Gitaly Service name
+    replae {gitaly-namespace} with the Kubernetes namespace where Gitaly resides in
+
+Sanity check of performance
+
+1. Look at the service apdex, error ratio and request rate of Gitaly
+    * apdex: `grpc_server_handling_seconds_bucket` filtered by 'unary' grpc_type
+    * request rate: `gitaly_service_client_requests_total`
+    * error ratio: `gitaly_service_client_requests_total` excluding grpc_code that are not errors
+2. Saturation check of cpu, memory, disk read/write IOPS and throughput, disk space , disk inodes by nodes.
+
 ### References 
 
 * To conduct migrations between storage, it is best to use [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) a tool built for migrations.
