@@ -157,14 +157,14 @@ What better way to convey a sense of who we are and how we work together, than b
 
 <!-- HTML blocks below - applied to make the images and the video more harmonic than 1 single column with each on a different "row" -->
 
-{{% cardpane %}}
-{{% card footer="<a href=\"https://about.gitlab.com/blog/2016/01/06/our-y-combinator-experience/\">Back then</a>, the whole team used to fit in one car. And the car was called \"the Boat\"." %}}
+{{< cardpane >}}
+{{< card footer="<a href=\"https://about.gitlab.com/blog/2016/01/06/our-y-combinator-experience/\">Back then</a>, the whole team used to fit in one car. And the car was called \"the Boat\"." >}}
 ![The Boat](/images/culture/boat.jpg)
-{{% /card %}}
-{{% card footer="We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!" %}}
-{{% youtube "JZG41C0aFfA" %}}
-{{% /card %}}
-{{% /cardpane %}}
+{{< /card >}}
+{{< card footer="We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!" >}}
+{{< youtube "JZG41C0aFfA" >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 ### The cattle
 
@@ -179,7 +179,7 @@ What better way to convey a sense of who we are and how we work together, than b
 
 {{% cardpane %}}
 {{% card footer="After spending a couple of days in meetings with customers in New York City, USA, Sid and Kirsten had a few hours before their flight and wanted to visit the WTC Observatory deck. It didn't work out but our IPO date did work out in their favor. In the keynote at our Cape Town event, Sid explains what happened." %}}
-{{% youtube "4BIsON95fl8?start=1825" %}}
+{{< youtube "4BIsON95fl8?start=1825" >}}
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -187,7 +187,7 @@ What better way to convey a sense of who we are and how we work together, than b
 
 {{% cardpane %}}
 {{% card footer="Being new to GitLab, our CRO, Michael McBride joined Sid in meeting with customers in New York City, USA where customers got a glimpse of what it's like to work at GitLab for him" %}}
-{{% youtube "4BIsON95fl8?start=1143" %}}
+{{< youtube "4BIsON95fl8?start=1143" >}}
 {{% /card %}}
 {{% /cardpane %}}
 
