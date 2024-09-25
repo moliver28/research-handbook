@@ -57,7 +57,7 @@ Assuming an example python package of `requests` this system would create the fo
 
 ## Architecture
 
-![ingestion architecture](img/ingestion_architecture.png)
+![ingestion architecture](/static/images/handbook/engineering/architecture/design-documents/package_artifact_ingestion/ingestion_architecture.png)
 
 ## Process
 
