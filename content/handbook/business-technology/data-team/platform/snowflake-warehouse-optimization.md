@@ -53,8 +53,6 @@ Based on the requirements above, we will define efficiency clearly as follows:
 
 > **A warehouse is efficient when compared to the next-size smaller warehouse, the query run-time is reduced by 40% or more.**
 
-`#Todo`: Peter had suggested I look at real-world examples, specifically how the `non-product` dbt run currently uses a large, but how these same models are run on a `xl` during a full dbt_refresh. It would be useful to see how often the increase in warehouse size leads to a reduction by 40% or more in run-time.
-
 Explanation: As discussed in the previous section, for the next-size bigger warehouse, in order for it to break-even, it needs to run 2x as fast (query run-time is reduced by **50%**) to compensate for its 2x price increase.
 
 In our definition, we require run-time to be reduced by at least 40%, which translates to a maximum increase in cost of 20%. The reason why we don't require 50% reduction in run-time (and break-even in costs) is the following:
@@ -139,7 +137,8 @@ Here are the steps:
 1. run an `explain` plan to figure out how many partitions the table has
 1. Based on the number of partitions, use select.dev [# of partitions diagram](https://images.app.goo.gl/KtS6aXsKhRzN7e3f6) to **estimate** what warehouse to start with
 1. Run the query in `dbt` with the first estimated warehouse
-1. Using this [Google Sheet](https://docs.google.com/spreadsheets/d/1dh7cKTxeV3rUQ2J_k4nxPGbMe7IQFc-D1Rbahjsk5zc/edit?gid=1778011584#gid=1778011584) record the `query time`, (#todo - need to polish the sheet so it can be used for all warehouses and for multiple people)
+1. Check the below 'Benchmarking heuristics' section to see if you can immediately assign a warehouse, if not, continue
+1. Using this [Google Sheet](https://docs.google.com/spreadsheets/d/1dh7cKTxeV3rUQ2J_k4nxPGbMe7IQFc-D1Rbahjsk5zc/edit?gid=1778011584#gid=1778011584) record the `query time`
 1. Upsizing warehouse(s)
     - Now, run the query again with the next highest warehouse
     - Record the results
@@ -159,9 +158,7 @@ In the next sections, we'll look at the following:
 A heuristic is a mental shortcut. In extreme cases, benchmarking is not needed:
 
 - if the model runs slower than 3 minutes on a 'XS'
-- if the model runs longer than 10 minutes on a 'XL' # todo: need to actually see what's a fair time by comparing the 'L' vs 'XL' runs of non-product models
-
-`#todo`: include these heuristics in the above steps
+- if the model runs longer than 10 minutes on a 'XL'
 
 ### Benchmarking needs to be done in dbt
 
@@ -362,7 +359,7 @@ It's clear that the `XL` is more 'efficient' here because the run-time was reduc
 1. Use/enforce these guidelines for new dbt models
 1. All these benchmarking steps can and should be implemented programmatically. Furthermore, a CI job could be one end product of this that tells the user what size warehouse they *should* be using
 1. Convert old dbt models, ideally in some rule-based or programmatic way
-    1. Triage: Find queries with the least partition scanned using the biggest warehouses
+  1. Triage: Find queries with the least partition scanned using the biggest warehouses
 
 ## Sources
 
