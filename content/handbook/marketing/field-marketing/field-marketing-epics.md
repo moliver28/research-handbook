@@ -430,7 +430,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 Please make a clone of the appropriate workshop copy doc below and create a new copy doc to link above. If you are making changes to the workshp copy that is specific to your particular workshop only, please remember not to remove important workshop notifications that are listed in the existing copy docs, as those are required for all workshops. 
 
-If you have copy changes that need to be implemented in the permanent workshop copy docs below (changes that will be permanent for future workshops), the FMC is to ping `@lfstucker` in the epic to review and approve new workshop copy within a 3 day SLA. Once copy is approved, the FMC can triage asset sub-issues and the FMC is to ping `@krogel` in the epic to adjust Marketo templates as well.
+`@lfstucker` is to review and approve all workshop copy, as changes to copy occur often. Please ping `@lfstucker` in the epic to review and approve all workshop copy within a 3 day SLA. If any copy changes are made, the FMC is to ping `@krogel` in the epic to adjust the primary workshop copy docs and Marketo templates.
 
 **PLEASE NOTE: These copy docs are not to be altered by anyone other than `@lfstucker`.**
 
