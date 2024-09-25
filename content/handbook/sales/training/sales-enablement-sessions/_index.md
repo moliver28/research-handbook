@@ -13,12 +13,11 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Sep 25  | Advanced SAST Launch | Product Marketing Team |
 | Sep 26  | Winning with Analyst Relations | Analyst Relations Team |
 | Oct 3  |  FY25-Q3 - Competitive Update | Product Marketing Team |
-| Oct 10  | New Forrester TEI Report   | Product Marketing Team  |
+| Oct 10  | TBD   |   |
 | Oct 17  | FY25-Q3 Customer Advocacy Update     |  Customer Advocacy Team  |
-| Oct 24 | *No session during the last two weeks of the quarter* | N/A |
+| Oct 24 | New Forrester TEI Report   | Product Marketing Team  |
 | Oct 31 | *No session during the last two weeks of the quarter* | N/A |
 
 ## Past Sessions
@@ -28,6 +27,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-09-25  | **[Advanced SAST Launch](https://drive.google.com/file/d/1ZgSZhhqGgI9RRqs9-RLDp--Q_WCPFvUM/view?usp=drive_link)** | Private |
 | 2024-09-19  | **[Professional Services: Accelerating Customer Time to Value](https://drive.google.com/file/d/1LfsQRIsbgR2F3sONVgdFtR5iL1uVFH4a/view?usp=drive_link)** | Private |
 | 2024-09-12  |  **[GitLab click-through Demos & Product Tours](https://drive.google.com/file/d/1CyiLcxFFvW5IEt5j-SX8L-fD02c9df7i/view?usp=drive_link)**    |  Private     |
 | 2024-09-05  | **[Gartner MQ for DevOps Platforms & AI Code Assistants Overview](https://drive.google.com/file/d/1YK2oWyAYewtDq_pHsQwtXhFRwaueqS5G/view?usp=drive_link)**  | Private |
