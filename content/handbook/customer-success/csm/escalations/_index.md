@@ -41,6 +41,7 @@ Based on the level of the escalation, the DRI for the escalation will be:
 
 1. Support for low or medium-level escalations that come through support, otherwise the CSM will be the DRI for account escalations
 2. The CSM for high and critical escalations that are **outside of a professional services project**,
+  - If the customer does not have an assigned CSM but instead is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned the case will be DRI
 3. The Professional Services Project Manager for any escalation during/as a part of a professional services project.
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
