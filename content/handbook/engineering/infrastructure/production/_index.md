@@ -189,7 +189,7 @@ Applies to recovery of the GitLab PostgreSQL production database in a disaster s
 
 ### Summary
 
-For the [PostgreSQL database disaster recovery process](#Database-recovery), we use [Point-in-Time Recovery (PITR)](https://www.postgresql.org/docs/9.6/continuous-archiving.html), which stores daily snapshots and transaction logs (WAL) in AWS S3. In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption in case of a recovery alongwith [Disaster Recovery Replicas](#disaster-recovery-replicas) as an interim measure
+For the [PostgreSQL database disaster recovery process](#database-recovery), we use [Point-in-Time Recovery (PITR)](https://www.postgresql.org/docs/9.6/continuous-archiving.html), which stores daily snapshots and transaction logs (WAL) in AWS S3. In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption in case of a recovery alongwith [Disaster Recovery Replicas](#disaster-recovery-replicas) as an interim measure
 
 ### Procedure in depth
 
@@ -245,27 +245,27 @@ We have clear confidence levels setup for each of the services that helps repres
 
 #### Zonal Confidence Level
 
--  <b>No confidence</b>
+- <b>No confidence</b>
     1. We have not tested recovery
     2. We do not have a good understanding of the impact of the component going down
     3. We do not have an emergency plan for when the component goes down
 
--  <b>Low confidence</b>
+- <b>Low confidence</b>
     1. We have not tested recovery
     2. We have a good understanding of the impact of the component going down
     3. We may or may not have an emergency plan when the component goes down, but it has not been validated
 
--  <b>Medium confidence</b>
+- <b>Medium confidence</b>
     1. We have tested recovery in a production like environment but not tested in production
     2. We have a good understanding of the impact of the component going down
     3. We have an emergency plan for when the component goes down, and it has been validated in some environment
 
--  <b>High confidence</b>
+- <b>High confidence</b>
     1. We have tested recovery in production
     2. We have a good understanding of the impact of the component going down
     3. We have an emergency plan when the component goes down, and it has been validated
 
-**_Note_** : This is still a WIP object, currently we have services like Gitaly , Patroni , PG Bouncer , HAProxy in *Medium* confidence
+**Note** : This is still a WIP object, currently we have services like Gitaly , Patroni , PG Bouncer , HAProxy in Medium confidence
 
 ### Time Measurements
 
@@ -294,7 +294,7 @@ The time it takes to execute a DR process. This should include creating MRs, com
 This measurement is a rough measurement right now since current process has MRs created in advance of the gameday.
 Ideally, this measurement is designed to inform the overall flow and duration of recovery work for planning purposes.
 
-**_Note_** : View time measurements [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/recovery-measurements.md)
+**Note** : View time measurements [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/recovery-measurements.md)
 
 ## Patching
 
