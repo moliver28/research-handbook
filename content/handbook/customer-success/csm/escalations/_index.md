@@ -40,8 +40,9 @@ This process addresses critical and high escalations for CSM-assigned customers.
 Based on the level of the escalation, the DRI for the escalation will be:
 
 1. Support for low or medium-level escalations that come through support, otherwise the CSM will be the DRI for account escalations
-2. The CSM for high and critical escalations that are **outside of a professional services project**,
+2. The CSM for high and critical escalations that are **outside of a professional services project**
 3. The Professional Services Project Manager for any escalation during/as a part of a professional services project.
+4. If the customer does not have an assigned CSM but is assigned to [TAM Scale](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#requesting-cse-engagement-account-owners-only---aes-saes) (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 
@@ -76,6 +77,7 @@ If an escalation is opened as high or critical, and the escalation is product re
 - Support Engineering is responsible for managing Low and Medium level escalations, leveraging other teams (e.g., Customer Success Managers (CSMs), Engineering) as needed.
 - Support Engineering should inform the CSM of the escalation if a CSM is assigned.
 - The CSM is responsible for managing any account-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.) and coordinating with any GitLab executives (e.g., e-group) or senior leadership to address account concerns.
+- If the customer is assigned to TAM Scale, the CSE is responsible for the technical management of the escalated technical concerns raised in the CSE case.
 
 ### What's the difference between an account escalation or an incident escalation?
 
@@ -231,6 +233,14 @@ Occasionally, customers will require a product leader to act as a stable counter
 1. From there, if the escalation reaches a High state a Group Product Manager or Product Director will be assigned. If it reaches a critical state a PLT member will be assigned.
 1. During the escalation the GMP+ Product leader will stick with the customer and escalation and operate as a stable counterpart. They will bring in additional PMs as needed to help address the concerns, but will remain engaged in Slack, and on calls with the customer to be a consistent face and representative of the Product division.
 1. Individual PMs may roll in and out of the escalation but the assigned GMP+ product counterpart will remain attached until the escalation is resolved.
+
+## CSE's role in Escalations
+
+- Lead customer facing calls focused on discovery, de-escalation, technical guidance. Determine the customer's exit/success criteria to consider the escalation resolved.
+- Coordinate cross-functionally to determine path forward, potential workarounds and best practice recommendations.
+- Provide daily summaries in account escalation Slack channel.
+- Share updates to the customer via email.
+- Document in new GitLab issue for tracking/pattern matching for future reference. Example: https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/140
 
 ## Related Links
 
