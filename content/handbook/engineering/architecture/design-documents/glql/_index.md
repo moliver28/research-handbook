@@ -76,6 +76,7 @@ the query expression and metadata. The model consists of the following component
       to apply, if any.
 1. **Executor**: Runs the compiled query against the API or datastore to retrieve the
    requested data. Currently, GraphQL is used as a datastore.
+1. **Transformer**: Processes the response data returned by the Executor, applying any
    transformations specified in the metadata.
 1. **Presenter**: Presents the final transformed data using data-agnostic Vue components.
 
