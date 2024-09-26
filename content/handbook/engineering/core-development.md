@@ -373,7 +373,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Mattermost |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
 | NGINX |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-| Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks) |  |
+| Object Storage |  | Centralized with Specific Team |  @kwanyangu | [Scalability::Practices](/handbook/engineering/infrastructure/team/scalability/practices/) |  |
 | Patroni | General except Geo secondary clusters | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 |  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
 | PgBouncer |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
