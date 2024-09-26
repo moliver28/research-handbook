@@ -7,15 +7,22 @@ description: Learn about integrating with GitLab, as well as partnership, market
 
 Once [these steps](https://about.gitlab.com/partners/technology-partners/integrate/#steps-to-become-a-technology-partner) along with the product integration have been completed, the last step is to submit a Merge Request to get listed on our [Technology Partners page](https://about.gitlab.com/partners/technology-partners/). To add your app, you will need:
 
+
 - A URL page with details on the integration
+
 - A link to the technical documentation on the steps required to set it up. A Screencast / video walk through is highly preferred.
 - A short description of the integration (up to 314 characters)
 - Listed name for the integration on the applications page
+
+
 - Your logo
     > **Picture Requirements**
     >
     > - Crop your image to a perfect square or rectangle.
     > - Keep maximum dimensions under 800 by 800 pixels.
+
+
+
     > - Use the JPEG (`.jpg`) or PNG (`.png`) format.
     > - Name file `company_name_in_lowercase` and add the appropriate file extension.
 
@@ -23,9 +30,11 @@ Once [these steps](https://about.gitlab.com/partners/technology-partners/integra
 
 Once you have the above items, follow these steps to add yourself to the Partners page:
 
-1. Sign into gitlab.com and navigate to the home project of [www.gitlab.com](http://www.gitlab.com) found [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/). Click on the **'Fork'** button at the top right to make a copy of the repository within your account.
-1. Next, click on the **'Web IDE**' button to make changes to specific YAML files.
-1. Navigate to the '/content' directory in the left pane and you will see the `apps.yml` file within the folder. Click on the file to open it within the WebIDE. Add the following fields to the correct category of the file and enter the following application information into each of the blank fields:
+1. Sign into gitlab.com and navigate to the home project of [www.gitlab.com](http:/
+2.
+3. /www.gitlab.com) found [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/). Click on the **'Fork'** button at the top right to make a copy of the repository within your account.
+4. Next, click on the **'Web IDE**' button to make changes to specific YAML files.
+5. Navigate to the '/content' directory in the left pane and you will see the `apps.yml` file within the folder. Click on the file to open it within the WebIDE. Add the following fields to the correct category of the file and enter the following application information into each of the blank fields:
 
 ```yaml
 - title: Company Name
