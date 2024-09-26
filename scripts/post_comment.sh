@@ -18,7 +18,7 @@ note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/n
 # If the note already exists, update the message to reduce MR notes.
 if [ ! -z "$note_id" ]; then
   echo "Found existing note with id: $note_id"
-  glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes/$note_id -f body="$MSG"
+  glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes/$note_id -X PUT -f body="$MSG"
 else
   echo "Creating new note with violations..."
   glab mr note --unique $CI_MERGE_REQUEST_IID -m "$MSG"
