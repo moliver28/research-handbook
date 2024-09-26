@@ -40,11 +40,9 @@ This process addresses critical and high escalations for CSM-assigned customers.
 Based on the level of the escalation, the DRI for the escalation will be:
 
 1. Support for low or medium-level escalations that come through support, otherwise the CSM will be the DRI for account escalations
-  
-  - If the customer does not have an assigned CSM but instead is assigned to [TAM Scale](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#requesting-cse-engagement-account-owners-only---aes-saes) (Customer Success Engineering), then the CSE assigned the case will be DRI for low or medium-level account escalations that come through a [CSE case](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process).
-
 2. The CSM for high and critical escalations that are **outside of a professional services project**
 3. The Professional Services Project Manager for any escalation during/as a part of a professional services project.
+4. If the customer does not have an assigned CSM but instead is assigned to [TAM Scale](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#requesting-cse-engagement-account-owners-only---aes-saes) (Customer Success Engineering), then the CSE assigned the case will be lead technical collaborator account escalations that come through a [CSE case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process). The AE is still the DRI (managing the account) when initiating the escalation via the CSE case, as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 
