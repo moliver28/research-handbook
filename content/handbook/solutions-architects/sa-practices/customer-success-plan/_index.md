@@ -1,7 +1,7 @@
 ---
 title: Customer Success Plan
 
-description: A Customer Success Plan is a customer-facing and mutually agreed roadmap for achieving value through GitLab adoption. This is an outcome of collaboration between GitLab Solution Architecture and the customer with the primary objective of ensuring customers are successful. The process is designed to support shifting from product scoped conversations (focusing on specific features or functions and limited to a specific subset of DevSecOps stages) towards solution (addressing specific pain points) or strategic (shaping business outcomes through holistic organizational process innovation and transformation tied to top strategic initiatives ) scopes. This Success Plan starts in the pre-sales process and is intended to carry through to the post-sales Success Plan. The Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
+description: A Customer Success Plan is a customer-facing and mutually agreed roadmap for achieving value through GitLab adoption. This is an outcome of collaboration between GitLab Solution Architecture and the customer with the primary objective of ensuring customers are successful. The process is designed to support shifting from product scoped conversations (focusing on specific features or functions and limited to a specific subset of DevSecOps stages) towards solution (addressing specific pain points) or strategic (shaping business outcomes through holistic organizational process innovation and transformation tied to top strategic initiatives ) scopes. This Success Plan starts in the pre-sales process and is intended to carry through to the post-sales Success Plan. **In some cases, there may be no clear GitLab owner for the post-sales success plan. This should not prevent the creation and customer review of a success plan by the Solutions Architect where required.**  The Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
 
 ---
 
@@ -29,9 +29,9 @@ Please use the [**Commercial Customer Success Plan Template**](https://docs.goog
 
 As a follow on to the [Technical Close Plan process](/handbook/solutions-architects/sa-practices/technical-close-plan/), the Technical Close Plan can be converted into, or utilized as a Mutual Customer Success Plan, with these aims:
 
-1. For the **Customer**: To be prescriptive on a phased successful adoption of GitLab, including architecture recommendations, deployment, migration, integration, onboarding users and applications at scale, along with recommendations for any automation processes as well as dashboards and monitoring.  As an SA you should always collaborate with the customer, to create the Mutual Success plan and help them understand, preliminary, what is involved in adopting GitLab as their AI powered DevSecOps Unified Platform,  from not only a technological or deployment pont of view, but from a people and process point of view.
+1. For the **Customer**: To be prescriptive on a phased successful adoption of GitLab, including architecture recommendations, deployment, migration, integration, onboarding users and applications at scale, along with recommendations for any automation processes as well as dashboards and monitoring.  As an SA you should always collaborate with the customer, to create the Mutual Success plan and help them understand, preliminary, what is involved in adopting GitLab as their AI powered DevSecOps Unified Platform,  from not only a technological or deployment point of view, but from a people and process point of view.
 
-2. For the **Customer Success Manager (CSM)**: Collaborate with CSMs for all deals over the appropriate threshold (currently 300k Net ARR),  as it transitions from pre to post sales.  It is important to provide the CSMs with all the relevant context as they take over the relationship.  As an SA, you collaborate with the CSM to help them understand the customer's objectives and milestones for the next 30, 60, 90 days as well as for the next 6 months.  The CSM can then formulate a cadence and enablement plan.  The CSM will be responsible to update and maintain the Mutual Customer Success Plan after the sale.  It will serve as a customer facing document, helping to facilitate the customer achieving their initiatives, and objectives.
+2. For the **Customer Success Manager (CSM)**: Collaborate with CSMs for all deals over the appropriate threshold (currently 300k Net ARR),  as it transitions from pre to post sales.  It is important to provide the CSMs with all the relevant context as they take over the relationship.  As an SA, you collaborate with the CSM to help them understand the customer's objectives and milestones for the next 30, 60, 90 days as well as for the next 6 months.  The CSM can then formulate a cadence and enablement plan.  The CSM will be responsible to update and maintain the Mutual Customer Success Plan after the sale.  It will serve as a customer facing document, helping to facilitate the customer achieving their initiatives, and objectives.  A CSP should be created and reviewed w/ the customer even in cases where there are no CSMs assigned.
 
 3. For the **Professional Services Team**: Present the Customer Success Plan with the scope of initiatives that can be used to determine a Statement of Work.
 
@@ -39,7 +39,7 @@ As a follow on to the [Technical Close Plan process](/handbook/solutions-archite
 
 ## When to Create a Mutual Customer Success Plan
 
-A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescribe what a phased adoption and customer adoption journey would look like, in collaboration with the customer.
+A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescribe what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that a Technical Close Plan should be started in stage 2 or 3 and will contain the required information for a CSP.
 
 ### Which Opportunities Should Have a Mutual Customer Success Plan?
 
@@ -213,9 +213,16 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
 |5.|Outcome/ Metric Updates|||Update Metrics/ Customer upon Cadence|X|
 |6.|PS SOWs and RunBook|||Attached|X|
 
+### Tracking Customer Success Plan creation and review
+
+To drive visibility and accountability, CSPs and the associated customer review need to be recorded on the associated opportunity in salesforce. Please use the following fields:
+
+- Customer Success Plan:  contains the link to the plan
+- Customer Accepted:  checked when the plan has been reviewed with the customer and the customer accepts it.  There are no formal actions needed to consider the plan accepted.
+
 ### The CSM and the Customer Success Plan
 
-[Click here to learn more about the CSM's responsibity with respect to Customer Success Plans](/handbook/customer-success/csm/success-plans/).
+[Click here to learn more about the CSM's responsibility with respect to Customer Success Plans](/handbook/customer-success/csm/success-plans/).
 
 ## Resources
 
