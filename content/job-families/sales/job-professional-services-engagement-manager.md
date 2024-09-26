@@ -344,7 +344,6 @@ The Sr. Director, Professional Services Engagement Management is a [grade 11](/h
 - Ensure services are positioned and sold efficiently and cost-effectively, standardizing on processes, maximizing profitability and mitigating risk.
 - Develop pricing strategies for services that reflect value delivered and market conditions.
 - Establish and enforce best practices, standards, and methodologies for service selling.
-- Continuously assess and improve service delivery processes to increase efficiency, quality, and customer satisfaction.
 - Implement metrics and KPIs to measure and improve the effectiveness of the professional services engagement management team.
 - Work closely with product development teams to ensure services are aligned with product capabilities and roadmap.
 
