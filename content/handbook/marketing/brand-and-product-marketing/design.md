@@ -62,7 +62,8 @@ Please use [this issue template when requesting net new or refreshing](https://g
 - Event Booth
 - Event Signage
 - Event Social Posts
-- Event Swag + Giveaways
+
+- Do NOT use this template for For Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template. 
 
 #### 4. Illustration + Iconography Requests
 
