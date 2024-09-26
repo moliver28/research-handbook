@@ -7,9 +7,7 @@ description: Learn about integrating with GitLab, as well as partnership, market
 
 Once [these steps](https://about.gitlab.com/partners/technology-partners/integrate/#steps-to-become-a-technology-partner) along with the product integration have been completed, the last step is to submit a Merge Request to get listed on our [Technology Partners page](https://about.gitlab.com/partners/technology-partners/). To add your app, you will need:
 
-
 - A URL page with details on the integration
-
 - A link to the technical documentation on the steps required to set it up. A Screencast / video walk through is highly preferred.
 - A short description of the integration (up to 314 characters)
 - Listed name for the integration on the applications page
@@ -20,9 +18,6 @@ Once [these steps](https://about.gitlab.com/partners/technology-partners/integra
     >
     > - Crop your image to a perfect square or rectangle.
     > - Keep maximum dimensions under 800 by 800 pixels.
-
-
-
     > - Use the JPEG (`.jpg`) or PNG (`.png`) format.
     > - Name file `company_name_in_lowercase` and add the appropriate file extension.
 
