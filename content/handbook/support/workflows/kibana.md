@@ -438,3 +438,8 @@ Here are some suggestions:
 - Use `pubsub-sidekiq-inf-gprd` (Sidekiq) with the filters `json.class: "WebHookWorker"` and `json.meta.project : "path/to/project"` to identify webhook events.
 - Use `pubsub-rails-inf-gprd-*` (Rails) with the filters `json.message : "Webhook rate limit exceeded"` and `json.meta.project : "path/to/project"` to identify webhooks that failed to send due to rate limiting.
   - You can filter between Group and Project hooks by using `json.meta.related_class : "GroupHook"` or `json.meta.related_class : "ProjectHook"`.
+
+#### Searching for Service Desk emails
+
+  When searching through Kibana for the `json.to_address`, make sure this is the address that appears on the `to:` line in the email, even if this is aliased to the GitLab project email address. If you search for the project email address and the Service Desk mail was sent to an alias of that (`support@domain.ext` for example), it won't show up in the searches.
+  
