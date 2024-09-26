@@ -163,8 +163,8 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
 
 - **Creation**
   - Organizations can be created. Form fields include name, URL, description, avatar, and visibility (readonly in Cells 1.0).
-  - An instance setting controls the ability to create Organizations other than the default Organization. This will be disabled on GitLab.com and self-managed GitLab in Cells 1.0. The creation form is only accessible when this instance setting is enabled.
-  - On GitLab.com, additional Organizations other than the default Organization will be created in Secondary cells for specific customers.
+  - An admin setting controls the ability to create Organizations. This setting is enabled on GitLab.com and disabled by default on self-managed GitLab.
+  - In addition to the admin setting, a feature flag will control the ability to create Organizations. On GitLab.com, this feature flag will only be enabled for GitLab team members.
 - **Editing**
   - Organizations can be edited. Form fields include name, ID (readonly), description, avatar, and visibility (readonly in Cells 1.0). Only accessible by Organization Owners.
   - Organization URL can be changed. Only accessible by Organization Owners.
@@ -242,6 +242,7 @@ Organizations in the context of Cells 1.5 will contain the following functionali
 - Organization Users can be part of multiple Organizations using one account. Users are able to navigate between their Organizations using an Organization switcher. Non-Enterprise Users can be removed from or leave an Organization.
 - Organizations are fully isolated. We aim to complete [phase 2 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11838), with the goal to implement isolation constraints.
 - Users can transfer existing top-level Groups into Organizations.
+- Organizations can be deleted by Organization Owners.
 
 #### Organizations on Cells 2.0 (FY26Q3-FY26Q4)
 
