@@ -33,6 +33,7 @@ description: "This page discusses the Internal Hiring Process"
   - Review the application as you would with an external candidate and determine if they are qualified for the role. If they are not qualified, please ensure you communicate the decision via email (or slack) and provide clear feedback as to why they are not qualified, and add the hiring manager so they are looped in and can add additional feedback if appropriate.
   - Ensure the internal team members GitLab email is associated with their application. If it is not, then update it as such and notify the team member of the change in email address to ensure all the communication throughout the interview process is directed here.
   - If the internal candidate is considered qualified for the role, reach out to People Connect by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380).
+    - Once you have received a reply on eligibility please add the decision to a private note in Greenhouse 
     - If they have additional questions, they may reach out to the team member's current PBP.
 - For promotions through the internal mobility process (upward movement from one job grade to another), tag the department specific People Business Partner in the notes section of Greenhouse to ensure they are aligned before moving forward with the offer. Additionally, confirm that the offer has been approved by the skip-level leader of the new role.
 - Once the Recruiter has confirmed the eligibility status with People Connect, if eligibile, the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process (which includes ensuring they have notified their current manager). If a team member is not eligible, the Recruiter will send the appropriate decline email template.
@@ -43,6 +44,8 @@ description: "This page discusses the Internal Hiring Process"
   - Some suggestions for transition timelines include:
     - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
     - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer
+- At the offer stage, the Recruiter will submit a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380) to attain current compensation information for the offer
+  - When submitting the request form, under `Optional: Adding team member(s) to the Watchlist grants them access to view and comment on this request` please add the relevant [People Business Partner](https://handbook.gitlab.com/handbook/people-group/people-business-partners/#people-business-partner-alignments) so they are notified and can track the internal move. 
 - Please note the following about this process:
   - TA will only start an official backfill process once the internal candidate signs their job change letter.
   - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
