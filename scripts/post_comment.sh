@@ -2,7 +2,6 @@
 
 # Script Arguments
 MSG=$1
-NOTE_USER_ID=$CI_BOT_USER_ID # could update this to an argument passed to the script
 
 # Expected Environment Varaibles
 #        GITLAB_TOKEN  | The users GitLab token.
@@ -12,14 +11,14 @@ NOTE_USER_ID=$CI_BOT_USER_ID # could update this to an argument passed to the sc
 
 # Log In to glab CLI https://gitlab.com/gitlab-org/cli
 glab auth login -t $GITLAB_TOKEN
+user_id=`glab api user | jq .id`
 
 # Search for any existing notes by our Danger Bot user.
-note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c ".[] | select( .author | .id | contains($CI_BOT_USER_ID)) | .id"`
+note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c ".[] | select( .author | .id | contains($user_id)) | .id"`
 
 # If the note already exists, update the message to reduce MR notes.
 if [ ! -z "$note_id" ]; then
   echo "Found existing note with id: $note_id"
-  # TODO: test that this works
   glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes/$note_id -f body=$MSG
 else
   echo "Creating new note with violations..."
