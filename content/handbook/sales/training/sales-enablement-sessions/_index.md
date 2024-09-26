@@ -13,12 +13,11 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Sep 26  | Winning with Analyst Relations | Analyst Relations Team |
-| Oct 3  |  FY25-Q3 - Competitive Update | Product Marketing Team |
-| Oct 10  | TBD   |   |
+| Oct 3  |  **No Session** |   |
+| Oct 10  | FY25-Q3 - Competitive Update | Product Marketing Team |
 | Oct 17  | FY25-Q3 Customer Advocacy Update     |  Customer Advocacy Team  |
 | Oct 24 | New Forrester TEI Report   | Product Marketing Team  |
-| Oct 31 | *No session during the last two weeks of the quarter* | N/A |
+| Oct 31 | *No session during the last week of the quarter* |    |
 
 ## Past Sessions
 
@@ -27,6 +26,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-09-26  | **[Winning with Analyst Relations](https://drive.google.com/file/d/1Mtg3ifv4kozGtBBqrNfbIamwSdNcukLC/view?usp=drive_link)** | Private |
 | 2024-09-25  | **[Advanced SAST Launch](https://drive.google.com/file/d/1ZgSZhhqGgI9RRqs9-RLDp--Q_WCPFvUM/view?usp=drive_link)** | Private |
 | 2024-09-19  | **[Professional Services: Accelerating Customer Time to Value](https://drive.google.com/file/d/1LfsQRIsbgR2F3sONVgdFtR5iL1uVFH4a/view?usp=drive_link)** | Private |
 | 2024-09-12  |  **[GitLab click-through Demos & Product Tours](https://drive.google.com/file/d/1CyiLcxFFvW5IEt5j-SX8L-fD02c9df7i/view?usp=drive_link)**    |  Private     |
@@ -262,9 +262,9 @@ There are a few places to see previous Sales Enablement sessions:
 
 **2-4 weeks before the start of a new quarter**
 
-- Alignment call to finalize topics & tentative schedule with
-  - Sales Training Facilitator (John Blevins)
-  - Director, Sales & Customer Enablement (David Somers)
+- Alignment call to finalize topics & tentative schedule with:
+  - Sr. Program Manager, Onboarding & Continuous Education (John Blevins)
+  - Director, Sales & Customer Enablement 
 - After alignment call, John Blevins to open issues for each enablement session with
   - Documentation of preliminary learning objectives, title, expected outcomes, etc.
   - Tentative dates listed as "TENTATIVE - ZZZ"
