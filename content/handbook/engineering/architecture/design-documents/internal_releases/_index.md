@@ -39,9 +39,10 @@ Internal releases aim to upgrade the GitLab Dedicated remediation process to be 
 
 ## Key terms
 
-- GitLab in-house instances: SaaS instances managed by GitLab, Inc (e.g.: [GitLab Dedicated](https://about.gitlab.com/dedicated/)).
-- [Patch releases](/handbook/engineering/releases/patch-releases) - A semver versioned package backporting bug and security fixes based on the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
-- [Monthly release](/handbook/engineering/releases/#self-managed-overview) - A semver versioned package containing features and bug fixes deployed to GitLab.com
+- Internal releases: New private release strategy to remediate GitLab in-house instances within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).
+- GitLab in-house instances: SaaS instances managed by GitLab, Inc. At the moment limited to [GitLab Dedicated](https://about.gitlab.com/dedicated/).
+- [Patch releases](/handbook/engineering/releases/patch-releases): A semver versioned package backporting bug and security fixes based on the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+- [Monthly release](/handbook/engineering/releases/#self-managed-overview): A semver versioned package containing features and bug fixes deployed to GitLab.com
 - [Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/): GitLab process to deploy application changes to GitLab.com
 - [Release managers](https://about.gitlab.com/community/release-managers/): DRI’s to deliver GitLab monthly and patch releases and performing deployments to GitLab.com
 
@@ -77,7 +78,7 @@ sent an acknowledgement that all instances are upgraded, the publish process is 
 
 An internal release process to remediate high-severity incidents on GitLab in-house instances is part of the GitLab
 release strategy. Release managers will be able to perform an internal release process to remediate high-severity incidents
-in GitLab in-house instances. The outcome of this process will allow GitLab to iteratively delivery fixes to GitLab Dedicated
+in GitLab in-house instances. The outcome of this process will allow GitLab to iteratively deliver fixes to GitLab Dedicated
 based on the remediation SLAs or when there is a pressing need (24-hour remediation or short critical remediation targets).
 
 The whole process should be automated end to end, initiating with the auto-upgrade of Dedicated tenants via Switchboard
@@ -103,12 +104,15 @@ this is limited to GitLab Dedicated.
 
 ## Proposed plan of action
 
-To introduce an internal release process, two main requirements must be addressed:
+Aside from understanding the internal releases concept, introducing a new internal release strategy, two
+main rqeuirements must be addressed:
 
 1. Remove the blocking nature of GitLab releases.
 2. Elevate the GitLab Dedicated remediation process to a first-class citizen.
 
-Each of these requirements will be addressed in iterations that will span multiple quarters of work.
+These two requirements can be addressed simultaneously, the work for each will span throughout multiple quarters.
+
+![roadmap](/images/handbook/engineering/architecture/design-documents/internal-releases/roadmap.png)
 
 ### Remove the blocking nature of GitLab releases
 
