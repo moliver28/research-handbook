@@ -347,7 +347,7 @@ post_comment_on_failure:
   script:
     - apk add yq jq
     - ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - ./scripts/post_comment.sh "$(cat msg.txt)" $CI_BOT_USER_ID
+    - ./scripts/post_comment.sh "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
 
