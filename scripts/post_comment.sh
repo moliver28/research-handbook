@@ -4,10 +4,9 @@
 MSG=$1
 
 # Expected Environment Varaibles
-#        GITLAB_TOKEN  | The users GitLab token.
+#         GITLAB_TOKEN | The users GitLab token.
 #        CI_PROJECT_ID | The GitLab project id.
 # CI_MERGE_REQUEST_IID | The GitLab merge request IID.
-#       CI_BOT_USER_ID | The Danger Bot user id.
 
 # Log In to glab CLI https://gitlab.com/gitlab-org/cli
 glab auth login -t $GITLAB_TOKEN
