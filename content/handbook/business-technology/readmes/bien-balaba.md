@@ -15,17 +15,16 @@ I currently reside in [Pasig City, Philippines](https://en.wikipedia.org/wiki/Pa
 
 I believe that great support starts with a positive attitude, and I strive to embody that in everything I do. While I may not always have an immediate answer to every question, I am committed to finding solutions or connecting you with the right person who can help.
 
+### What I am working on
+
+- I handle and resolve Incident and Request Tickets raised in HelpLab for the Enterprise Applications team, Gitlab Issues, and through different channels. 
+- Managing system configuration and development of the HelpLab Portal by ServiceNow. 
+- User Access Provisioning for Salesforce.
+
 ### When I'm not working
 
 - You'll likely find me at the playground with my wife and daughter, enjoying some fun on the swing set and slides!
-- Pressing play on family bonding, one movie at a time.
 - Channeling my inner monk by sitting in peaceful, awkward silence.
-
-### What I am working on
-
-- I handle and resolve Incident Tickets raised in HelpLab for the Enterprise Applications team. 
-- I also contribute to the system configuration and development of the HelpLab Portal by ServiceNow. 
-- Manage the provisioning of user accounts for Salesforce.
 
 ### Connect with me
 
