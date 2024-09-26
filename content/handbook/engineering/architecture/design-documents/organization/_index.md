@@ -161,22 +161,50 @@ The Organization functionality available in each phase is described below.
 
 The Organization MVC for Cells 1.0 will contain the following functionality:
 
-- Instance setting to allow the creation of multiple Organizations. This will be enabled by default on GitLab.com, and disabled for self-managed GitLab.
-- Organizations for 1.0 will contain the minimal set of features required to implement isolation. Features that are present in top-level groups for SaaS, such as billing or enterprise users, will remain here.
-- The only users who will need to have a role defined and be invited specifically to an Organization are it's Owners. Typical end users will be invited at the group level, re-using the existing invitation workflows. The organization can be inferred by either the group or user.
-- Admin overview of Organizations. All created Organizations are listed in the Admin Area section `Organizations`.
-- All existing top-level Groups on GitLab.com are part of the `default Organization`.
-- Organization Owner. The creation of an Organization appoints that User as the Organization Owner. Once established, the Organization Owner can appoint other Organization Owners.
-- Organization Users. A User can only be part of one Organization for Cells 1.0. A new account needs to be created for each Organization a User wants to be part of. Users can only be deleted from an Organization, but not removed.
-- Organization creation form. Containing the Organization name, ID, description, and avatar. Organization settings are editable by the Organization Owner.
-- Setup flow. New Users are able to create new Organizations. They can also create new top-level Groups in an Organization.
-- Private visibility. Initially, Organizations can only be `private`. Private Organizations can only be seen by the Users that are part of the private Organization. They can only contain private Groups and Projects. The only exception to this is the default Organization on the Primary Cell, which is `public`, and contains all currently existing Groups and Projects on GitLab.com.
-- Organization settings page with the added ability to remove an Organization. Deletion of the default Organization is prevented.
-- Groups. This includes the ability to create, edit, and delete Groups, as well as a Groups overview that can be accessed by the Organization Owner and Users.
-- Projects. This includes the ability to create, edit, and delete Projects, as well as a Projects overview that can be accessed by the Organization Owner and Users.
-- Personal Namespaces. Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces.html) they are associated with.
-- User Profile. Each [User Profile will be scoped to the Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html).
-- Isolation. Organizations themselves are not fully isolated, isolation is a result of being on a Secondary Cell. We aim to complete [phase 1 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11837), with the goal to `define sharding_key` and `desired_sharding_key` rules.
+- **Creation**
+  - Organizations can be created. Form fields include name, URL, description, avatar, and visibility (readonly in Cells 1.0).
+  - An instance setting controls the ability to create Organizations other than the default Organization. This will be disabled on GitLab.com and self-managed GitLab in Cells 1.0. The creation form is only accessible when this instance setting is enabled.
+  - On GitLab.com, additional Organizations other than the default Organization will be created in Secondary cells for specific customers.
+- **Editing**
+  - Organizations can be edited. Form fields include name, ID (readonly), description, avatar, and visibility (readonly in Cells 1.0). Only accessible by Organization Owners.
+  - Organization URL can be changed. Only accessible by Organization Owners.
+- **Visibility**
+  - Organizations can only be `private`. Private Organizations can only be seen by the Users that are part of the Organization. They can only contain private Groups and Projects. The only exception to this is the default Organization on the Primary Cell, which is `public`, and contains all currently existing Groups and Projects on GitLab.com.
+- **Users**
+  - [Roles and permissions](#roles-and-permissions)
+  - The creation of an Organization appoints that User as the Organization Owner.
+  - Organization Owner can assign other Owners.
+  - A User can only be part of one Organization for Cells 1.0. A new account needs to be created for each Organization a User wants to be part of.
+  - Organization Owners can delete users from an Organization. This equals an account deletion in the context of Cells 1.0.
+  - When a user becomes a member of a group or project they are also added as an Organization User. They receive an email informing them that they have been added to the Organization.
+  - Removing a user from their last group or project should not remove them from the Organization.
+  - Users can delete their own accounts. Users should not be able to delete their account when they are the last Owner of an Organization.
+  - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces.html) they are associated with.
+  - Each [User Profile will be scoped to the Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). In Cells 1.0 this is a result of being on a Secondary Cell.
+- **Groups**
+  - All existing top-level Groups on GitLab.com are part of the default Organization.
+  - Groups can be created in an Organization.
+  - Groups can be edited by the Organization Owner.
+  - Groups can be deleted by the Organization Owner.
+  - Organization Owners and Users can view the groups they have access to in the Groups overview. The list of groups can be sorted and searched.
+- **Projects**
+  - All existing Projects on GitLab.com are part of the default Organization.
+  - Projects cannot be created directly in an Organization, instead they are created in a group that belongs to an Organization.
+  - Projects can be edited by the Organization Owner.
+  - Projects can be deleted by the Organization Owner.
+  - Organization Owners and Users can view the projects they have access to in the Projects overview. The list of projects can be sorted and searched.
+- **Activity**
+  - Organization Owners and Users can access the Activity page for the Organization.
+- **Admin**
+  - All created Organizations are listed in the Admin Area section `Organizations`.
+  - Admins can assign the Owner or User role to new users.
+  - Admins can update the existing role of a user from Owner to User or vice versa.
+  - Admins can delete a user and receive a warning about the user's Organization association. Admins cannot delete the last Organization Owner. They need to assign a new Owner first.
+- **Navigation**
+  - Current Organization context is indicated in the navigation sidebar.
+- **Isolation**
+  - Organizations for 1.0 will contain the minimal set of features required to implement isolation. Features that are present in top-level groups for SaaS, such as billing or enterprise users, will remain here.
+  - Organizations themselves are not fully isolated, isolation is a result of being on a Secondary Cell. We aim to complete [phase 1 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11837), with the goal to `define sharding_key` and `desired_sharding_key` rules.
 
 ##### Dependencies on other services
 
