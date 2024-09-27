@@ -734,7 +734,7 @@ _Directors, Ops and JB will select random opps each month to audit and ensure au
 #### Best practices to ensure credit for SAO
 
 1. Sequence all leads if you're reaching out
-2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
+2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity. If your activity is not visible in the opportunity, make sure you relate your meaningful activity to the opportunity. You can do this by editing the activity you had with the Contact and clicking into `Relate to (opportunity)` field and adding your opportunity name there
 3. Populate all qualification fields
 4. If activity was a phone call or a zoom call, log notes at the time of call
 5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps, ensure that prospect is guided to web-direct using the sequence [here](https://web.outreach.io/sequences/14652/overview), as per the conversation [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817).
