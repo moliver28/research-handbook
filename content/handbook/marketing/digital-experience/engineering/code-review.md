@@ -22,50 +22,35 @@ This checklist encourages the authors, reviewers, and maintainers of merge reque
 Using checklists improves quality in software engineering. This checklist is a straightforward tool to support and bolster the skills of contributors to the GitLab Marketing codebases.
 
 ### Checklist for Submitting a Merge Request
-
 1. Complete the Merge Request Template
-
-* Prefix the merge request with `Draft:` while you are building it.
-* Ensure all fields in the merge request template are properly filled out.
+   * Prefix the merge request with `Draft:` while you are building it.
+   * Ensure all fields in the merge request template are properly filled out.
 Provide a Comprehensive Description
-* Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
-* If applicable, mention any refactoring or architectural decisions made.
-
+   * Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
+   * If applicable, mention any refactoring or architectural decisions made.
 2. Link Related Issues
-
-* Reference any related issues, tickets, or user stories using appropriate syntax (e.g., releated #1234).
+   * Reference any related issues, tickets, or user stories using appropriate syntax (e.g., releated #1234).
 Ensure the issues being referenced are correctly tagged and updated.
-
 3. Document Testing Instructions
-
-* Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
-Mention any special configurations, test data, or preconditions required for testing.
-If automated tests are included, specify their location and how to run them.
-
+   * Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
+   * Mention any special configurations, test data, or preconditions required for testing.
+   * If automated tests are included, specify their location and how to run them.
 4. Deployment Steps
-
-* Detail the deployment process, including any scripts, commands, or configurations needed.
-* Mention any dependencies or services that need to be updated or restarted.
-* Indicate if there are any database migrations, and how to run them safely.
-
+   * Detail the deployment process, including any scripts, commands, or configurations needed.
+   * Mention any dependencies or services that need to be updated or restarted.
+   * Indicate if there are any database migrations, and how to run them safely.
 5. QA and Verification
-
-* Outline the QA process, specifying which environments (e.g., staging, pre-production) will be used for validation.
-* List key scenarios and edge cases to be tested, including expected results.
-* Include any known limitations or potential issues for the QA team to be aware of.
-
+   * Outline the QA process, specifying which environments (e.g., staging, pre-production) will be used for validation.
+   * List key scenarios and edge cases to be tested, including expected results.
+   * Include any known limitations or potential issues for the QA team to be aware of.
 6. Post-Deployment Validation
-
-* Provide a plan for validating the changes in the production environment post-deployment.
-* Include any monitoring or logging to watch for potential issues.
-* Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
-
+   * Provide a plan for validating the changes in the production environment post-deployment.
+   * Include any monitoring or logging to watch for potential issues.
+   * Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
 7. Request Feedback and Review
-
-* Remove `Draft:` from merge request title
-* Tag relevant team members for code review, QA, and any other necessary approvals.
-* Address any comments or requested changes promptly to ensure a smooth review process.
-
+   * Remove `Draft:` from merge request title
+   * Tag relevant team members for code review, QA, and any other necessary approvals.
+   * Address any comments or requested changes promptly to ensure a smooth review process.
 
 ## Reviewer
 
