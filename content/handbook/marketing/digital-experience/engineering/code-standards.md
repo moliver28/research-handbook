@@ -66,4 +66,3 @@ For more detailed guidelines and examples, refer to the [Digital Experience repo
 By following these coding standards, we aim to maintain code quality, consistency, and readability across all projects.
 
 Please be sure to revis our [code standards](/handbook/marketing/digital-experience/engineering/code-standards/) and [code review values](/handbook/marketing/digital-experience/engineering/code-review-values/).
-
