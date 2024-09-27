@@ -22,6 +22,7 @@ This checklist encourages the authors, reviewers, and maintainers of merge reque
 Using checklists improves quality in software engineering. This checklist is a straightforward tool to support and bolster the skills of contributors to the GitLab Marketing codebases.
 
 ### Checklist for Submitting a Merge Request
+
 1. Complete the Merge Request Template
    * Prefix the merge request with `Draft:` while you are building it.
    * Ensure all fields in the merge request template are properly filled out.
@@ -84,9 +85,7 @@ The SLO is defined as:
 
 > Review-response SLO = (time when review is provided) - (time MR is assigned to reviewer)
 
-The SLO value depends on the author of the merge request:
-
-- From GitLab team members: `Review-response` SLO < 2 business days
+The SLO value from Digital Experience GitLab team members is 2 business days
 
 If you don't think you can review a merge request in the `Review-response` SLO
 time frame, let the author know as soon as possible in the comments
