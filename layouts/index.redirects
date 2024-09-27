@@ -301,3 +301,6 @@
 # Growth and Development Pages Moved - remove 2024-12-20
 /handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/ /handbook/people-group/learning-and-development/growth-and-development/ 301
 /handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/* /handbook/people-group/learning-and-development/growth-and-development/:splat 301 
+
+# Replace Engagement Concierge with Team Workshops - remove 2024-12-26
+//handbook/people-group/engagement-concierge/ /handbook/people-group/learning-and-development/team-workshops 301
