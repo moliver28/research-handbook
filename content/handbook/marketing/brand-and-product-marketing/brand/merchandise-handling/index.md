@@ -135,6 +135,15 @@ Your Finance Business Partner will provide budget guidance and approval for all 
 |    Security    |    Petra Foget `@pfoget`    |
 |    G&A (CFO, People, Legal)    |    Nyasha Tarinda `@ntarinda`    |
 
+#### Team-specific budget considerations
+
+For guidance on how much budget to request per order, please refer to these spend limits based on your team. If you'd like to request an order above these limits, reach out to your VP and FBP for approval.
+
+| Team | Spend limit (per order) |
+| ------ | ------ |
+|    Customer Success    |    $250    |
+|   Renewals    |    $250    |
+
 ### DRIs for the swag program
 
 | Topic | DRI |
