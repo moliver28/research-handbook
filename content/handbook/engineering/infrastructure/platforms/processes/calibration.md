@@ -8,13 +8,9 @@ As part of our yearly [Talent Assessment process](https://handbook.gitlab.com/ha
 
 ## Schedule
 
-
 | Session Number | Attendees | Calibration Focus | Session Date | 
 | -------------- | --------- | ----------------- | ------------ | 
 | Session 1      | Team Manager | Team level calibration | TBD | 
 | Session 2      | Group Managers | Group level calibration | TBD | 
 | Session 3      | All SaaS Platform Managers | Informal stage level calibration | TBD | 
 | Session 4      | All SaaS PLatform Managers + People Business Partner | Formal stage level calibration | TBD | 
-
-
-
