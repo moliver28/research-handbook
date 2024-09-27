@@ -82,6 +82,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -134,6 +137,10 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 </td>
 <td>
 
+**co-create**
+</td>
+<td>
+
 **Comments**
 </td>
 </tr>
@@ -141,6 +148,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 **Pre-Sales & Alignment**
+</td>
+<td>
+
 </td>
 <td>
 
@@ -209,6 +219,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -225,6 +238,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -274,6 +290,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -290,6 +309,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -323,6 +345,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -373,6 +398,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -388,6 +416,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>I</td>
 <td>DRI</td>
 <td>I</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -431,6 +462,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -445,6 +479,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -474,6 +511,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -522,6 +562,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -549,6 +592,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -564,10 +610,11 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>DRI</td>
+<td>I</td>
+<td>C,I</td>
 <td>
 
 </td>
-<td>C,I</td>
 <td>
 
 </td>
@@ -601,6 +648,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -651,6 +701,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -667,6 +720,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -696,6 +752,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -742,11 +801,17 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
 
 **Onboard**
+</td>
+<td>
+
 </td>
 <td>
 
@@ -809,6 +874,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -824,6 +892,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>I</td>
 <td>I</td>
 <td>DRI</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -859,6 +930,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -884,11 +958,17 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
 
 **Enable**
+</td>
+<td>
+
 </td>
 <td>
 
@@ -938,10 +1018,11 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
+<td>I</td>
+<td>I</td>
 <td>
 
 </td>
-<td>I</td>
 <td>
 
 </td>
@@ -969,10 +1050,11 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
+<td> I </td>
+<td>I</td>
 <td>
 
 </td>
-<td>I</td>
 <td>
 
 </td>
@@ -993,6 +1075,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 **Expand**
+</td>
+<td>
+
 </td>
 <td>
 
@@ -1057,6 +1142,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -1076,6 +1164,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -1107,11 +1198,78 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<td>Position co-create initiatives</td>
+<td>
+
+</td>
+<td>DRI</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>C,I</td>
+<td>
+
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<td>co-create Kickoff & Intro</td>
+<td>Introduce the customer to the co-create team</td>
+<td>DRI</td>
+<td>
+
+</td>
+<td>C</td>
+<td>I</td>
+<td>I</td>
+<td>I</td>
+<td>
+
+</td>
+<td>I</td>
+<td>
+
+</td>
+<td>DRI</td>
+<td>
+
 </tr>
 <tr>
 <td>
 
 **Optimize & Renew**
+</td>
+<td>
+
 </td>
 <td>
 
@@ -1174,6 +1332,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -1193,6 +1354,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -1226,6 +1390,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -1241,6 +1408,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>I</td>
 <td>I</td>
 <td>I</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -1278,6 +1448,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
@@ -1297,6 +1470,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>C</td>
+<td>
+
+</td>
 <td>
 
 </td>
@@ -1324,12 +1500,17 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td>
 
 </td>
-<td>SPS Accelerator</td>
+<td> 
+
+[SPS Accelerator]( handbook/customer-success/success-services/#accelerators ) </td>
 <td>Conduct regular health checks to identify areas for improvement. Provide access to GitLab's Accelerators, helping them optimize their use of GitLab's products for their specific needs, and assist in implementing them effectively</td>
 <td>C, I</td>
 <td>DRI</td>
@@ -1341,6 +1522,9 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
+<td>
+
+</td>
 <td>
 
 </td>
