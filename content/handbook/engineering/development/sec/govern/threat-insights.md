@@ -153,7 +153,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * Tag the relevant people that can help complete the issue and outline what is needed. Tag the
      appropriate EM and PM, so they know that the item can not be fully refined.
    * If you are unable to resolve blockers to your refinement within a reasonable amount of time
-     (2-3 days dependign on size of initative) see [Failing Refinement](#failing-refinement).
+     (2-3 days depending on size of initiative) see [Failing Refinement](#failing-refinement).
 1. Ensure the issue is fully understood.
    * Update the issue description with the final description of what will be implemented.
    * Update the issue description with an [implementation plan](#implementation-plan).
