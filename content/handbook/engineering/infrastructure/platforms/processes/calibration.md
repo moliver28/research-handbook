@@ -10,7 +10,7 @@ As part of our yearly [Talent Assessment process](https://handbook.gitlab.com/ha
 
 | Session Number | Attendees | Calibration Focus | Session Date | 
 | -------------- | --------- | ----------------- | ------------ | 
-| Session 1      | Team Manager | Team level calibration | TBD | 
-| Session 2      | Group Managers | Group level calibration | TBD | 
-| Session 3      | All SaaS Platform Managers | Informal stage level calibration | TBD | 
-| Session 4      | All SaaS PLatform Managers + People Business Partner | Formal stage level calibration | TBD | 
+| Session 1      | Team Manager | Team level calibration | self-organized, complete by 2024-10-11 | 
+| Session 2      | Group Managers | Group level calibration | self-organized, complete by 2024-10-25 | 
+| Session 3      | All SaaS Platform Managers | Informal stage level calibration | TBD (target early November) | 
+| Session 4      | All SaaS PLatform Managers + People Business Partner | Formal stage level calibration | TBD (target mid November) | 
