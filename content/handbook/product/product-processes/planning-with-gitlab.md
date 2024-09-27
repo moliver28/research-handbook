@@ -133,26 +133,28 @@ it starts with your work items (issues, epics and tasks). Rejecting a feature re
 
 As a Product Manager you should close work items for the following reasons:
 
-1. Duplicated elsewhere
-1. Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
-1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around.
-1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.
-1. Low priority: sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
-1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page.
-1. No longer relevant.
-
-The 'not the next iteration' work items are the most important ones to resolve.
-It is very easy to create a large, comprehensive change with meta items and lots of improvements,
-but it is essential that we iterate and ship the _minimal valuable_ change.
-We have to ship the iteration, wait for it to be used, and ask for feedback.
-As a product manager, you must think about the bigger picture when making a proposal to improve the product.
-It's important to avoid writing this down as a bunch of work items.
-Come up with a direction, but only record the first step.
-This way we can preserve the efficiency of [our value of iteration](/handbook/values/#iteration).
+1. **Duplicate Issue:** GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests. You should use the [`/duplicate` quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) to close these and link them to the canonical issue.
+1. **Is outside the scope of, or is opposed to, our [vision](https://about.gitlab.com/direction/#vision).** GitLab is a large platform and not all requests will align with the long term direction of the product. It's okay to close issues that we'll never do because they do not align with this vision.
+However, you [should _not_ close an issue](#when-you-should-not-close-an-issue-or-epic) just because it isn't currently prioritized as part of your category's direction.
+1. **It presents a security risk.** Some requests may require you to evaluate if the proposal can be delivered without presenting a security risk to GitLab or our customers. You should reach out to [Application Security](/handbook/security/product-security/application-security/) if you are unsure about any requests.
+1. **Too complex:** We want to have a simple, user-friendly product that does complex things, not the other way around. Uses of the product that are overly complex or only solve for narrow use cases might fall into this category.
+1. **We don't want another setting:** whenever we can, we try to avoid having settings. GitLab follows the [Convention over Configuration](/handbook/product/product-principles/#convention-over-configuration) principle when evaluating new proposals. It's important to consider all of the user experience impacts an additional setting can add and while some settings are unavoidable; most aren't.
+1. **Changes the tier of a feature:** this problem is already [addressed in the Stewardship page](/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
+1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
+1. **Deprecated, removed, or no-longer-supported functionality:** You should close issues that won't be worked on because the functionality has been [officially deprecated or removed, or has reached End of Support](https://docs.gitlab.com/ee/update/terminology.html).
 Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
 
 When closing a work item, leave a comment explaining why you're closing it, and link
-to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don’t forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
+to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don't forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
+
+##### When you should NOT close an issue or epic
+
+1. **Low priority:** sometimes features are interesting but we simply don't have the capacity to implement them. In that case, simply tell the truth and indicate that we don't have enough resources at our disposal to do it at the moment. Use the `~low priority` label to signal low priority.
+1. **Not part of your direction:** These items are good ideas, but are not at the top of the list for PMs to prioritize within their group.
+1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize the %"Awaiting further demand"  milestone.
+1. **Divested category:** Issues for categories in which we've made a divestment, but haven't removed the category. Use the `~divested` label to signal no prioritization due to divestment.
+1. **Age of Issue:** Closing due to age alone. Filtering by age to look for candidates to close is fine, but if the issue still aligns with product direction and there is community interest, we should keep these open for future opportunities.
+1. **Complex Solutions:** Sometimes issues may come with overly complex proposals or the current state of GitLab's architecture or other technical factor makes the solution too complex to implement. These issues should remain open if the problem to solve is valid as solutions can evolve as more is learned about the problem to be solved.
 
 ### Roadmaps
 
