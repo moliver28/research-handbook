@@ -7,10 +7,10 @@ description: "This page is an overview of the search team alignment and the tale
 
 | Department                    | Recruiter   | Candidate Experience Specialist    |
 |--------------------------|-----------------|-------------------------------------|
-| C Level | Jess Dallmar, Robert Allen | Michelle Jubrey |
+| C Level | Jess Dallmar, Robert Allen | Michelle Jubrey | 
 | VP and Above    | Jake Foster, Jack Connors   | Michelle Jubrey  |
 | Director, Senior Director  | Matt Angell, Steph Sarff, Jake Foster, Jack Connors  | Sruthy Menon  |
-| Enterprise & Commercial, Renewal Sales, AMER | Kevin Rodrigues |Sruthy Menon |
+| Enterprise, Commercial, and Renewal Sales - AMER | Kevin Rodrigues |Sruthy Menon |
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
 | Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Commercial & Partner Sales, EMEA | Ben Cowdry | Lerato Thipe |
