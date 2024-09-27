@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
+## <i class="fas fa-bullhorn fa-fw"></i> Welcome to the GitLab Brand Creative Handbook
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 

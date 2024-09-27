@@ -4,7 +4,9 @@ title: "DEPRECATED-Demos"
 
 ## About Demos
 
-## THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+{{% alert title="Note" color="danger" %}}
+THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+{{% /alert %}}
 
 ## The new version of this page is at https://about.gitlab.com/learn
 
@@ -124,7 +126,7 @@ These demos come in different formats:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/nMAgP4WIcno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-## How to set up GitLab groups and projects to run multiple Agile teams with microservices (11.7) (Jan 2019)
+## Set up groups and projects to run multiple Agile teams with microservices (11.7) (Jan 2019)
 
 <figure class="video_container">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/VR2r1TJCDew" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
