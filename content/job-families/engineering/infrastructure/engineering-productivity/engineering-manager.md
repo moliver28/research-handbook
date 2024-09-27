@@ -66,8 +66,8 @@ The role is a [grade 9](/handbook/total-rewards/compensation/compensation-calcul
 
 ## Performance Indicators
 
-- [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
-- [Infrastructure corrective action SLO](/handbook/engineering/infrastructure-quality/performance-indicators/#corrective-action-slo)
+- [GitLab.com Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability-slo)
+- [Infrastructure corrective action SLO](/handbook/engineering/infrastructure/performance-indicators/#corrective-action-slo)
 - Project Completion rate
   - Measure by tracking the percentage of projects completed on time and within budget.
 - Stakeholder Satisfaction score
