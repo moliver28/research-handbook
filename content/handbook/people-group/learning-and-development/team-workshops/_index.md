@@ -2,7 +2,7 @@
 title: Team Workshops
 ---
 
-![banner introducting team workshops](/static/images/handbook/people-group/team-workshops.png)
+![banner introducting team workshops](/images/handbook/people-group/team-workshops.png)
 
 **Visit the [Team Workshops Level Up page](https://university.gitlab.com/pages/team-workshops) to get started!**
 
@@ -26,4 +26,4 @@ _These skills were selected and prioritized based on themes derived from the [ta
 
 To read more about each workshop, visit the [Team Workshops Level Up page](https://university.gitlab.com/pages/team-workshops). Then, when you're ready to start planning, [open an issue](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new?issuable_template=team-workshops) to connect with the Talent Development team for support.
 
-![banner showing where to get support from the Talent Development team](/static/images/handbook/people-group/support.png)
+![banner showing where to get support from the Talent Development team](/images/handbook/people-group/support.png)
