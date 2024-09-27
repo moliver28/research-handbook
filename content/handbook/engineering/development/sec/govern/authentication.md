@@ -78,6 +78,25 @@ Because this group works on components of the application that have a [far-reach
 1. Auth merge requests will include a comment that needs answered before merging, "Should this be behind a feature flag?" This is an effort to remind engineers about feature flag usage, but also to challenge reasoning as to why changes do not need to be behind a feature flag.
 1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/govern/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
 
+##### Rollout and validation for token related features or destructive data updates
+
+Due to the critical nature of tokens (PAT, PrAT and GrAT) and their associated bot accounts or memberships, a careful rollout process must be followed. This also extends to feature changes that update large datasets in the database. As part of feature completion, the DRI engineer must create a rollout plan and have it peer reviewed by at least 2 other engineers familiar with the domain. 
+
+The rollout plan can use any number of the following mechanisms to de-risk the changes:
+
+1. Use of feature flags that can be set to test the feature out with a group or set of actors. If that is not possible, consider running the worker for a narrow batch of users until it has been validated and can be run on larger sets.
+2. Extending existing feature flag mechanisms to ensure the workers or cron jobs can be limited to a test group run.
+3. Strongly consider the use of soft deletion or transitionary data in DB to evaluate how a change will look in production with easy rollback opportunity. Diffs can be helpful in reviewing the expected and the actual changes.
+4. For database changes, evaluate the count of expected record changes before and after, the last update dates and the associated records to see whether a certain relationship may have been missed from implementation design.
+5. Changes should be enabled on lower environments such as staging or staging-ref to verify expected functionality. As much as possible, attempt to replicate the data structures from GitLab.com on these lower environments. 
+6. Evaluate migrations or transitionary migrations over data removal so that we can move to last known good state if required.
+7. Use of internal groups such as quality team or delivery teams which are production systems, but still internal. This would test the feature at a production level, ideally with no negative impact, but still offer a layer of user testing prior to users.
+8. Addition of audit events, and log data to leave a trail of operations that can offer traceability in case of unexpected changes.
+
+It's important to consider that while maintainer reviews and test coverage are foundational requirements for feature completion, the rollout plan must be focused on being ready for unknown-unknowns i.e. Mechanisms to identify, prevent and mitigate if the feature doesn't perform as believed at the time of implementation.
+
+Lastly, due to the direct impact of authentication change on the ability to access and use GitLab, it is better to be slower in the rollout than rush to meet milestone dates in almost all situations. Based on our value to place customers first, utilize all available tools to test and rollout features in a graduated manner. If in doubt refer to our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) and apply this here - with security and preventing data loss our main priorities.
+
 ### How we work
 
 - In accordance with our [GitLab values](/handbook/values/).
