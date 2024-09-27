@@ -133,8 +133,8 @@ graph TD
 Serving as the entry-point to parsing, executing and presenting a GLQL query, the façade
 component consists of two parts: [the model](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/glql/core/index.js)
 and [the view](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/glql/components/common/facade.vue).
-The model part does all the hard work, while the view part is abstraction to handle
-loading and error states, and present the data using appropriate root presenter component in case of success.
+The model part does all the hard work, while the view part is an abstraction to handle
+loading and error states, and present the data using the appropriate root presenter component in case of success.
 
 ### Query Compiler
 
@@ -159,10 +159,10 @@ Currently supported field names to query by include: `assignee`, `author`, `labe
 
 **Components**:
 
-The query compiler is built from ground up to support multiple targets of output.
-It's components include:
+The query compiler is built from the ground up to support multiple targets of output.
+Its components include:
 
-1. Parser: This includes a combinator parser that converts a string including the query into an
+1. Parser: This includes a combinator parser that converts a string, including the query, into an
    abstract syntax tree. The AST is optimized by extracting global attributes like `project` or
    `group`.
 1. Analyzer: A static analyzer that analyzes the query for semantic correctness.
