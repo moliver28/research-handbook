@@ -240,22 +240,26 @@ are not meant to be edited:
 
 | Name of protection              | Sheet Name            | Definition                                      | Who can edit |
 |---------------------------------|-----------------------|-------------------------------------------------|--------------|
-| AMER - CEOC dropdowns           | AMER - CEOC           | 'AMER - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| AMER - CEOC dropdowns           | AMER - CEOC           | 'AMER - CEOC'!2:1000                            | Support Readiness, Support Managers |
 | AMER - CEOC headers             | AMER - CEOC           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
-| US Government - CEOC dropdowns  | US Government - CEOC  | 'US Government - CEOC'!4:1000                   | Support Readiness, Support Managers, Kate Grechishkina |
+| US Government - CEOC dropdowns  | US Government - CEOC  | 'US Government - CEOC'!4:1000                   | Support Readiness, Support Managers |
 | US Government - CEOC headers    | US Government - CEOC  | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
-| AMER - CMOC dropdowns           | AMER - CMOC           | 'AMER - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
-| AMER - CMOC headers             | AMER - CMOC           |  Whole sheet except F2:F1001                    | Support Readiness |
-| APAC - CEOC - Group 1 dropdowns | APAC - CEOC - Group 1 | 'APAC - CEOC - Group 1'!2:1000                  | Support Readiness, Support Managers, Kate Grechishkina |
+| AMER - CMOC dropdowns           | AMER - CMOC           | 'AMER - CMOC'!2:1000                            | Support Readiness, Support Managers |
+| AMER - CMOC headers             | AMER - CMOC           | Whole sheet except F2:F1000                     | Support Readiness |
+| APAC - CEOC - Group 1 dropdowns | APAC - CEOC - Group 1 | 'APAC - CEOC - Group 1'!2:1000                  | Support Readiness, Support Managers |
 | APAC - CEOC - Group 1 headers   | APAC - CEOC - Group 1 | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
-| APAC - CEOC - Group 2 dropdowns | APAC - CEOC - Group 2 | 'APAC - CEOC - Group 2'!2:1000                  | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CEOC - Group 2 dropdowns | APAC - CEOC - Group 2 | 'APAC - CEOC - Group 2'!2:1000                  | Support Readiness, Support Managers |
 | APAC - CEOC - Group 2 headers   | APAC - CEOC - Group 2 | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
-| APAC - CMOC dropdowns           | APAC - CMOC           | 'APAC - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CMOC dropdowns           | APAC - CMOC           | 'APAC - CMOC'!2:1000                            | Support Readiness, Support Managers |
 | APAC - CMOC headers             | APAC - CMOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
 | EMEA - CEOC dropdowns           | EMEA - CEOC           | 'EMEA - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
 | EMEA - CEOC headers             | EMEA - CEOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
 | EMEA - CMOC dropdowns           | EMEA - CMOC           | 'EMEA - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
 | EMEA - CMOC headers             | EMEA - CMOC           | Whole sheet except F2:F1000                     | Support Readiness |
-| Managers dropdowns              | Managers              | 'Managers'!2:1000                               | Support Readiness, Support Managers, Kate Grechishkina |
-| Managers headers                | Managers              | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
+| AMER Managers dropdowns         | AMER Managers         | 'AMER Managers'!2:1000                          | Support Readiness, Support Managers |
+| AMER Managers headers           | AMER Managers         | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| APAC Managers dropdowns         | APAC Managers         | 'APAC Managers'!2:1000                          | Support Readiness, Support Managers |
+| APAC Managers headers           | APAC Managers         | Whole sheet except F2:F1000                     | Support Readiness |
+| EMEA Managers dropdowns         | EMEA Managers         | 'APAC Managers'!2:1000                          | Support Readiness, Support Managers, Kate Grechishkina |
+| EMEA Managers headers           | EMEA Managers         | Whole sheet except F2:F1000                     | Support Readiness |
 | Available persons               | People                | Whole sheet                                     | Support Readiness |
