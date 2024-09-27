@@ -610,9 +610,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>DRI</td>
-<td>
-
-</td>
+<td>I</td>
 <td>C,I</td>
 <td>
 
@@ -1020,9 +1018,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
-<td>
-
-</td>
+<td>I</td>
 <td>I</td>
 <td>
 
@@ -1054,9 +1050,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
-<td>
-
-</td>
+<td> I </td>
 <td>I</td>
 <td>
 
