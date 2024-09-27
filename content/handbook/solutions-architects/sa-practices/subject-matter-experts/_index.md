@@ -142,5 +142,5 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
 | High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
 | High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | Corina Patachia |
-| Pub Sector AMER | :---- | :---- | :---- | Daniel Marquard, Michael Bradley |
+| Pub Sector AMER |  |  |  | Daniel Marquard, Michael Bradley |
  
