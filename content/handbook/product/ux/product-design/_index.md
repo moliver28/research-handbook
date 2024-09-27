@@ -91,16 +91,17 @@ Volunteers:
 
 | Milestone          | Product Designer  | Engineer          |
 | ------------------ | ----------------- | ----------------- |
-| 16.8               | Veethika Mishra   |   Mireya Andres   |
-| 17.0               |                   |                   |
-| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
-| 17.2               |                   |                   |
-| 17.3               |                   |                   |
+| 17.5               |                   |                   |
+| 17.6               |                   |                   |
+| 17.7               | Emily Bauman      | Anna Vovchenko    |
+| 17.8               |                   |                   |
+| 17.9               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
 
 | Milestone         | Product Designer  | Engineer          |
 | ----------------- | ----------------- | ----------------- |
+| [17.1 (2024-05-13)](https://gitlab.com/gitlab-org/gitlab/-/issues/442453) | Veethika M         | Miguel Rincon |
 | [16.1 (2023-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/394768) | Veethika M         | Payton Burdette |
 | [15.11 (2023-03-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/387070)| Annabel Gray       | Phil Hughes     |
 | [15.6 (2022-10-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/378259) | Matej Latin        | Deepika Guliani |
