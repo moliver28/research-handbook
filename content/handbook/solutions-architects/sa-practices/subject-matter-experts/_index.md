@@ -45,6 +45,7 @@ Other areas may be added in the future, depending on customer and SA demand, suc
 - Embedded Systems (TBD - SA only; Can exist but with no formal PM engagement as yet)
 - GitOps
 - MLOps
+- Platform Engineering
 
 ## Responsibilities
 
