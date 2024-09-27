@@ -109,9 +109,10 @@ All responsibilities listed below (applicable to all roles) plus:
 * Provide insight and suggestions to improving product process and operations
 * Research and recommend solutions to Product division concerns and blockers
 * Oversee project planning and management
-* Communicate successfully within the project team and with PLT (Product Leadership Team)
+* Communicate successfully within the project team and with PLT (Product Leadership Team), employing various asynchronous and synchronous facilitation techniques
 * Build trust with direct stakeholders
 * Develop and guide deployment plans and communication with direct stakeholders
+* Assure clarity of agreements and plans at various stages of the product development lifecycle
 
 #### Technical Program Manager Requirements
 
