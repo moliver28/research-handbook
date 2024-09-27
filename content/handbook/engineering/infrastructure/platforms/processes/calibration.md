@@ -4,7 +4,7 @@ title: "Calibration"
 
 ## Introduction
 
-As part of our yearly [Talent Assessment process](https://handbook.gitlab.com/handbook/people-group/talent-assessment/), each GitLab grooup performs [calibration](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#calibration) to ensure we are measuring performance consitently across teams. Calibration occurs in multiple phases, starting at the team level and then proceeding to group and finally stage level. The final calibration will include a People Business Partner who will enter our final calibrations.
+As part of our yearly [Talent Assessment process](/handbook/people-group/talent-assessment/), each GitLab grooup performs [calibration](/handbook/people-group/talent-assessment/#calibration) to ensure we are measuring performance consitently across teams. Calibration occurs in multiple phases, starting at the team level and then proceeding to group and finally stage level. The final calibration will include a People Business Partner who will enter our final calibrations.
 
 ## Schedule
 
