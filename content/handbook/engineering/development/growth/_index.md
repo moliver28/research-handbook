@@ -139,6 +139,36 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
 
+## Engineering DRI
+The Engineering DRI role is crucial for managing larger chunks of work within our team. This role is assigned to epics that have reached the development stage or to issues that are too large and have been promoted to epics. The DRI is assigned before the work is broken down into smaller deliverables, as one of their key responsibilities is to facilitate the planning and breakdown process.
+
+### Role Responsibilities
+*Communicating Progress and Managing Health Status*
+The DRI is responsible for providing weekly updates on the epic, including tracking the overall health status of the work, such as progress, obstacles, and emerging risks.
+* The DRI should continuously monitor and report on the health status of the epic, indicating if it is on track, at risk, or blocked, and provide context around any changes.
+* Progress updates should be reported via a top-level comment on the epic that contains the development work (usually linked to our OKRs).
+* Updates are due by End of Day on each Friday.
+
+*Facilitating Breakdown of Work*
+The DRI plays a crucial role in breaking down epics into smaller, manageable deliverables, ensuring that tasks are clearly defined and ready for development.
+
+*Ensuring Steady Progress*
+The DRI ensures that work items are progressing smoothly through our Kanban flow, with enough work prepared for development to maintain consistent progress.
+
+*Risk Management and Mitigation*
+The DRI is responsible for identifying potential risks early in the process and proactively working with the team to develop mitigation strategies. This responsibility enhances the DRI’s role in not only communicating issues but actively managing and resolving them.
+
+*Retrospective and Continuous Improvement*
+At the conclusion of each epic, the DRI should facilitate a brief retrospective session to gather feedback on what went well and areas for improvement. This practice helps refine processes and improve the handling of future epics.
+
+*Collaboration with Product and Design*
+The DRI should actively collaborate with Product Managers and Designers during the planning phase to ensure that the scope of the epic aligns with business goals and user experience standards.
+
+*Resource Allocation and Escalation*
+The DRI is empowered to identify when additional resources or support are needed and to escalate issues promptly. This helps ensure that timelines are met and work progresses smoothly.
+
+*Note:* The DRI is responsible for timely delivery, not execution of every task.
+
 ## Technical exploration ("Spike") guidelines
 
 Occasionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or opporunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items as the result is more commonly a recommendation on a technical direction or solution (in the form of additional epics and/or issues) rather than code, yet they still require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a techincal spike in our workflow:
