@@ -3,7 +3,6 @@ title: Cross-Region Coordination and Collaboration
 category: Support Team
 description: Workflows and information describing how the regions within Support coordinate and collaborate with each other
 ---
- **************** This page is effective as of 2024-Aug-01 ****************
 
 ## Overview
 
@@ -82,5 +81,5 @@ each region is marked with exactly one of the symbols defined here.
 | Region | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 |
 |--------------|----|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | APAC | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | ✨ | ✨ | ✅ |
-| EMEA | -- | -- | -- | -- | -- | -- | -- | -- | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅  | -- | -- | -- | -- | -- | -- | -- | -- |
+| EMEA | -- | -- | -- | -- | -- | -- | -- | ✨ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅  | ✨ | -- | -- | -- | -- | -- | -- | -- |
 | AMER | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🔨 |
