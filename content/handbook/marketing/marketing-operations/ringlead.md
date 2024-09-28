@@ -72,7 +72,7 @@ Currently, Sales & Marketing Operations have access to Ringlead. To request acce
 
 ### Ways to access Ringlead & Help
 
-Once you have access you can follow [this link](https://dms.ringlead.com/auth/login/?next=/) to login. For more information about Ringlead and it's capabilities please visit the [Ringlead Help center](https://ringlead.atlassian.net/wiki/spaces/DUG/overview).
+Once you have access you can follow [this link](https://dms.ringlead.com/auth/login/?next=/) to login. For more information about Ringlead and it's capabilities please visit the [Ringlead Overview](https://help.zoominfo.com/s/article/Overview-of-RingLead).
 
 ## Current Process & Order of Operations
 

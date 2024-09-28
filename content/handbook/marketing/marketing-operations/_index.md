@@ -280,7 +280,7 @@ The MktgOps team frequently works with the [Sales Systems team](/handbook/sales/
 
 Video: [Marketing Salesforce.com Sandbox Training - Creating Changesets](https://www.youtube.com/watch?v=tTaepVgxoe8)
 
-If a field needs to be created in Marketo AND SFDC, it must be created in SFDC first and then added to the Marketo User Permission set within SFDC. From there, the field will sync down to Marketo. If you miss this order of operations and the field is created in Marketo first, you will need to still follow the directions above and then open a support to re-map the fields. **Use [documentation for Marketo](https://developers.marketo.com/rest-api/lead-database/fields/field-types/) for field types.
+If a field needs to be created in Marketo AND SFDC, it must be created in SFDC first and then added to the Marketo User Permission set within SFDC. From there, the field will sync down to Marketo. If you miss this order of operations and the field is created in Marketo first, you will need to still follow the directions above and then open a support to re-map the fields. **Use [documentation for Marketo](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary) for field types.
 
 If you need assistance with Sales Systems follow the next steps:
 
@@ -402,6 +402,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [OneTrust](/handbook/marketing/digital-experience/onetrust/) (DEX)
 - [RingLead](/handbook/marketing/marketing-operations/ringlead/)
 - Integrate DAP (Digital Strategy - Campaigns)
+- [Mutiny](/handbook/marketing/marketing-operations/mutiny )
 
 #### Management Technology - Tier 3
 

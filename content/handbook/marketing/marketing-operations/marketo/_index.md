@@ -5,7 +5,7 @@ description: "Marketo is our marketing automation platform used for email market
 
 ## About Marketo
 
-[Marketo](https://www.marketo.com/) is our marketing automation platform used for email marketing, lead management, and program management.
+[Marketo](https://business.adobe.com/products/marketo/adobe-marketo.html) is our marketing automation platform used for email marketing, lead management, and program management.
 
 ## Marketo Tech Stack Guide
 

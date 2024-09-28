@@ -62,7 +62,7 @@ AMM tracks the position of a touchpoint based on its timing to other touchpoints
 
 GitLab uses [AMM's Custom Attribution model](/handbook/marketing/marketing-operations/bizible/#custom-attribution-based-on-bizible-machine-learning-algorithm) based on a unique machine learning algorithm from AMM. The Custom model uses our touchpoint data to calculate attribution weights for each stage based on how much each opportunity stage drove the deal to close.
 
-Adobe Marketo Mesure supports [other attribution methods](https://www.bizible.com/blog/marketing-attribution-models-complete-list) not used by GitLab.
+Adobe Marketo Mesure supports [other attribution methods](https://experienceleague.adobe.com/en/docs/marketo-measure/using/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models) not used by GitLab.
 
 **How is the Machine Learning model Calculated?**
 

@@ -283,7 +283,7 @@ In comparison to the main process, we are required to create a child campaign pe
 2. Marketo - input the subcategory ID into the Marketo program description.
 3. Marketo - sync the program to the SFDC campaign.
 4. Salesforce - create SFDC campaign (automated).
-5. Salesforce - create a [child campaign](https://trailhead.salesforce.com/content/learn/modules/campaign-management-with-nonprofit-success-pack/create-campaigns-and-campaign-hierarchies) and set the SFDC campaign as your parent campaign.
+5. Salesforce - create a child campaign and set the SFDC campaign as your parent campaign.
 6. Salesforce - update the `Partner Account` (partner) on the child campaign.
 7. Marketo - import the leads from POP to the child campaign -  leads must already be assigned to partners on import.
 8. Vartopia - when a partner converts the lead to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.

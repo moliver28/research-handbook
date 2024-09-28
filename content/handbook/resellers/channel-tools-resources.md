@@ -68,7 +68,7 @@ Learn more by going to the [Marketing Demand Generation section](https://partner
 
 ### **Customer Case Studies**
 
-Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. GitLab is offering our Partners access to UserEvidence software which can quickly and easily collect customer feedback and turn it into compelling quotes, graphics, and other publishable materials. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
+Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
 
 ### **Concierge Marketing Program**
 
