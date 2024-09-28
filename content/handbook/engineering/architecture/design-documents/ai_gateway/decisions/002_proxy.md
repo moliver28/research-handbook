@@ -70,7 +70,7 @@ Expose the following HTTP/1.1 endpoint in AI Gateway:
 POST /v1/proxy/anthropic/(*path)
 ```
 
-`path` can be forwarded to the folloinwg endpoints:
+`path` can be forwarded to the following endpoints:
 
 - [`/v1/complete`](https://docs.anthropic.com/claude/reference/complete_post)
 - [`/v1/messages`](https://docs.anthropic.com/claude/reference/messages_post) (Future iteration)
