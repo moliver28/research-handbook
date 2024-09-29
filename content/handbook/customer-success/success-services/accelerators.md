@@ -5,6 +5,11 @@ Description: "List of Accelerators based on the GitLab Maturity Framework Matrix
 
 <head>
     <style>
+        @media (min-width: 992px) {
+            .td-max-width-on-larger-screens, .td-card.card, .td-card-group.card-group, .td-content > .tab-content .tab-pane, .td-content .footnotes, .td-content > .alert, .td-content > .highlight, .td-content > .lead, .td-content > .td-table, .td-box .td-content > table, .td-content > table, .td-content > blockquote, .td-content > dl dd, .td-content > h1, .td-content > .h1, .td-content > h2, .td-content > .h2, .td-content > ol, .td-content > p, .td-content > pre, .td-content > ul {
+                max-width: 100%;
+            }
+        }
         h1 {
             color: #fff;
             background-color: #6b4fbb;
