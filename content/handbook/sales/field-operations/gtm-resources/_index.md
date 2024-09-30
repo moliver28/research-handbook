@@ -76,7 +76,11 @@ Those three terms also correspond to record types in salesforce.com.
 
 Lead => Opportunity => Customer
 
-However, there are more granular steps within the above milestones that are used to track the above process with more precision.
+Please see below for a high-level overview of the Customer Lifecycle at GitLab. This lifecycle is created through the lens of Salesforce data, and it is cross-functional - covering inputs from Sales, Marketing, and Finance.
+
+![Customer Lifecycle Flowchart](static/images/handbook/sales/customer-lifecycle.jpeg)
+
+In addition, these are the more granular steps within the above milestones that are used to track the above process with more precision.
 They are tracked as follows:
 
 | Funnel stage | Record Type | Status or Stage |
