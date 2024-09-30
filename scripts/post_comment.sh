@@ -13,7 +13,7 @@ glab auth login -t $GITLAB_TOKEN
 user_id=`glab api user | jq .id`
 
 # Search for any existing notes by our bot user.
-note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c ".[] | select( .author | .id | contains($user_id)) | .id"`
+note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c "last(.[] | select( .author | .id | contains($user_id))) | .id"`
 
 # If the note already exists, update the message to reduce MR notes.
 if [ ! -z "$note_id" ]; then
