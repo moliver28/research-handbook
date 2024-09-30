@@ -420,7 +420,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Alertmanager |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Certmanager |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Consul |  |  |  |  |  |
-| Container Registry |  | Centralized with Specific Team | @dcroft | Package |  |
+| Container Registry |  | Centralized with Specific Team | | Package |  |
 | Email - Inbound |  |  |  |  |  |
 | Email - Outbound |  |  |  |  |  |
 | Elasticsearch | | Centralized with Specific Team | @changzhengliu | Global Search | |
