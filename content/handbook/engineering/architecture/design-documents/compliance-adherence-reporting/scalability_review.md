@@ -157,7 +157,6 @@ WHERE
  Planning Time: 4.005 ms
  Execution Time: 0.166 ms
 (7 rows)
-```
 </details>
 
 #### 2. Retrieval of Compliance Requirements for Project's Frameworks
