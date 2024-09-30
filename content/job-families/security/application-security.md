@@ -29,7 +29,7 @@ The Application Security team plays a vital role at GitLab by ensuring that all 
 - Support and consult with product and development teams in the area of application security, including threat modeling and appsec reviews
 - Assist teams in reproducing, triaging, and addressing application security vulnerabilities.
 - Support the bug bounty program.
-- Lead both critical and regular patch releases.
+- Lead both critical and regular security patch releases.
 - Assist in development of security processes and automated tooling that prevent classes of security issues.
 - Assist in the improvements of team's internal processes, workflows and automation. 
 
