@@ -109,7 +109,7 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 - Take initiative and drive changes in our bug bounty program which position us as the leading authority amongst other programs.
 - Lead and influence cross-functional positive changes across the Security organization.
 - Drive the most difficult or highly complex application security reviews and threat modeling. Provide expert guidance and direction for other team members when they encounter challenges in their security reviews. Own documentation and procedures surrounding application security reviews as well as lead by example for what successful application security reviews look like.
-- Scale application security by developing solutions and initiatives that will empower the team to enhance their security coverage in an automated fashion.
+- Scale application security through automation, integration of security into the SDLC, and creating effective training programs.
 - Champion recruiting activities.
 - Have significant ownership in and evangelize security training with development teams.
 - Drive initiatives which scale application security and holistically address multiple vulnerabilities.
