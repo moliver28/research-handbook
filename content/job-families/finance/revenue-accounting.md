@@ -189,7 +189,7 @@ The Senior Manager, Revenuer Accouting is a [grade 9](/handbook/total-rewards/co
 
 ### Director, Revenue Accounting
 
-The Director, Revenue Accounting reports to the Principal Accounting Offer (PAO).
+The Director, Revenue Accounting reports to the Senior Director, Revenue Accounting.
 
 #### Director, Revenue Accounting Job Grade
 
@@ -197,19 +197,20 @@ The Director, Revenue Accounting is a [grade 10](/handbook/total-rewards/compens
 
 #### Director, Revenue Accounting Responsibilities
 
-- Guide, mentor and manage the world-wide revenue organization, which includes the revenue accounting, revenue gpo, billing and accounts receivable teams.
+- Guide, mentor and manage the world-wide revenue accounting organization.
 - Matrix management capabilities to communicate with and educate finance and non-finance personnel on revenue accounting guidance, GitLab specific policies and procedures as well as inputs on structuring of customer arrangements
 - Review customer arrangements for proper revenue recognition in accordance with company policy and revenue recognition accounting standards
 - Ensure the integrity of the world-wide license, support, service and training revenue and assist in new product offerings that may be developed over time
 - Review license and service revenue related balance sheet account reconciliations
 - Be a global partner with subject matter expertise in revenue and work diligently on finding solutions to critical issues
-- Develop and maintain strong collaborative working relationships across Customer Service, Legal, Sales, FP&A, Accounting and Tax teams
+- Develop and maintain strong collaborative working relationships across Customer Service, Legal, Product, Sales, FP&A, Accounting and Tax teams
 - Research and review technical revenue accounting memos that addresses the issue, and provide analysis and conclusions related to various customer contracts or new technical revenue pronouncements
 - Ensure the integrity of key processes by understanding systems, flow of transactions, internal controls, and recommending efficiency and effectiveness improvements
-- Stay current on new revenue accounting rules and help develop appropriate policies and processes
+- Stay current on new revenue accounting rules, including ASC 606, and help develop appropriate policies and processes
 - Provide revenue training to other groups within GitLab
-- Liaison with External auditors, present significant item updates, supporting documentation for the quarterly reviews and year-end audits
+- Liaison with external and internal auditors, present significant item updates, along with supporting documentation for the quarterly reviews and year-end audits
 - Lead the ongoing revenue automation process, and work with IT to prioritize further potential system enhancements and development projects related to revenue
+- Ensure compliance with internal SOX controls
 
 #### Director, Revenue Accounting Requirements
 
@@ -222,7 +223,7 @@ The Director, Revenue Accounting is a [grade 10](/handbook/total-rewards/compens
 
 ### Senior Director, Revenue
 
-The Senior Director, Revenue Accounting reports to the Principal Accounting Offer (PAO).
+The Senior Director, Revenue Accounting reports to the VP Corporate Controller.
 
 #### Senior Director, Revenue Accounting Job Grade
 
@@ -230,7 +231,7 @@ The Senior Director, Revenue Accounting is a [grade 11](/handbook/total-rewards/
 
 #### Senior Director, Revenue Accouting Responsibilities
 
-- Guide, mentor and manage the world-wide revenue organization, which includes the revenue accounting, revenue gpo, billing and accounts receivable teams.
+- Guide, mentor and manage the world-wide revenue accounting organization.
 - Trusted advisor to the business on commercial and go to market decisions
 - Drive continuous scalability, automation and efficiency
 - Matrix management capabilities to communicate with and educate finance and non-finance personnel on revenue accounting guidance, GitLab specific policies and procedures as well as inputs on structuring of customer arrangements
@@ -238,13 +239,14 @@ Review customer arrangements for proper revenue recognition in accordance with c
 - Ensure the integrity of the world-wide license, support, service and training revenue and assist in new product offerings that may be developed over time
 - Review license and service revenue related balance sheet account reconciliations
 - Be a global partner with subject matter expertise in revenue and work diligently on finding solutions to critical issues
-- Develop and maintain strong collaborative working relationships across Customer Service, Legal, Sales, FP&A Accounting and Tax teams
+- Develop and maintain strong collaborative working relationships across Customer Service, Legal, Product, Sales, FP&A, Accounting and Tax teams
 - Research and review technical revenue accounting memos that addresses the issue, and provide analysis and conclusions related to various customer contracts or new technical revenue pronouncements
 - Ensure the integrity of key processes by understanding systems, flow of transactions, internal controls, and recommending efficiency and effectiveness improvements
-- Stay current on new revenue accounting rules and help develop appropriate policies and processes
+- Stay current on new revenue accounting rules, including ASC 606, and help develop appropriate policies and processes
 Provide revenue training to other groups within GitLab
-- Liaison with External auditors, present significant item updates, supporting documentation for the quarterly reviews and year-end audits
+- Liaison with external and internal auditors, present significant item updates, along with supporting documentation for the quarterly reviews and year-end audits
 - Lead the ongoing revenue automation process, and work with IT to prioritize further potential system enhancements and development projects related to revenue
+- Ensure compliance with internal SOX controls
 
 #### Senior Director, Revenue Accounting Requirements
 
@@ -252,12 +254,12 @@ Provide revenue training to other groups within GitLab
 - A combination of public company experience in a revenue leadership role and experience with public accounting firms
 - Polished communication skills, including an ability to listen to the needs of the business units, research and comprehend complex matters, articulate issues in a clear and simplified manner, and present findings and recommendations in both oral and written presentations
 - Strong ability to work well within a team structure and an ability to influence, train, mentor and leverage the skills of others to achieve objectives
-- Experience with ERP systems and processes and with commission and billing systems
+- Experience with systems and processes including Salesforce, Zuora, and Netsuite
 - Ability to use GitLab
 
 ### VP, Revenue Accounting
 
-The Vice President, Revenue leads the world-wide revenue organization spanning revenue assurance, accounting & reporting, revenue operations, billing operations, accounts receivable and cash collection as well as SOX compliance for the revenue organization. This senior leadership role will set the long term direction for the revenue organization and will be a highly visible presence in commercial and go to market decision making, supporting complex contract negotiations and influencing policy making and complex issues of great significance across GitLab. The VP, Revenue reports to the Principal Accounting Officer (PAO).
+The Vice President, Revenue leads the world-wide revenue organization spanning revenue assurance, accounting & reporting, revenue operations, billing operations, accounts receivable and cash collection as well as SOX compliance for the revenue organization. This senior leadership role will set the long term direction for the revenue organization and will be a highly visible presence in commercial and go to market decision making, supporting complex contract negotiations and influencing policy making and complex issues of great significance across GitLab. The VP, Revenue reports to the Chief Accounting Officer (CAO).
 
 #### Job Grade
 
@@ -304,13 +306,13 @@ The Vice President, Revenue, is a [job grade 12](/handbook/total-rewards/compens
 
 ## Career Ladder
 
-The next step in the Revenue Accounting job family is to move to the Principal Accounting Officer job family.
+The next step in the Revenue Accounting job family is to move to the Chief Accounting Officer job family.
 
 ## Hiring Process
 
 - Candidates for the Vice President, Revenue can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
 - Qualified candidates will be invited to schedule a 30 minute screening call with one of our Global Recruiters.
-- Meet with PAO for 50 minutes
+- Meet with CAO for 50 minutes
 - Meet with Senior Director, Revenue Accounting for 50 minutes
 - Meet with other Key Reports and Key Finance Leaders - for 30 minutes each
 - Meet with People Business Partner for the CFO Organization for 25 minutes
