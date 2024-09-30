@@ -1157,19 +1157,28 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 [UserGems](handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
-**We have two main cohorts we're tracking:**
+**We have three main cohorts we're tracking:**
 
 #### 1. When a person that we are tracking leaves their current place of employment
 
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
-- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, on the [S1 view for SDRs](/handbook/marketing/sales-development/#sdr-lead-views) as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting). After having reassigned the lead on SFDC, it is the new owner's responsibility to manually remove and re-enroll the lead into the appropriate Groove Flow.
-- BDR Team members are to research UserGems leads that they receive, and proceed with following the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that your `BDR Account Research` field will include a clear note of the keyword `UserGems` for our tracking purposes. 
-- These leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. Both flows start with a manual task to check the validity of the lead (ie. is their new company a current customer?) that need to be completed by the team member. If the person should not be part of the flow for any reason, the team member should complete task 1 and then remove the person from the flow. Do note that upon spot checking, even if a person was not eligible for prospecting efforts, we'll still make sure that the right action (ie. a one-off email) has been taken by the team member. 
-- In case that the person should not go through the flow
+- These leads will be flagged on the [Action Needed BDR/SDR dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) for you and your manager's review, on the [S1 HP view for SDRs](/handbook/marketing/sales-development/#sdr-lead-views) as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting) or locate the `Re-Run Traction Complete` checkbox on the lead's record and check it after having updated the lead's information. 
+- After having reassigned the lead on SFDC, it is the new owner's responsibility to manually remove and re-enroll the lead into the appropriate Groove Flow.
+- After reviewing these leads, the team member needs to make a decision on whether they will action the individual lead by itself, or proceed to add the entire account to their outbound pipeline. The table at the end of these steps can be used as a reference when making this choice.
+- If the team member decides to follow the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that the `BDR Account Research` field will include a clear note of the keyword `UserGems` for tracking purposes. 
+- In any scenario, these leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. Both flows start with a manual task to check the validity of the lead (ie. is their new company a current customer?) that need to be completed by the team member. If the person should not be part of the flow for any reason, the team member should complete task 1 and then remove the person from the flow. Do note that upon spot checking, even if a person was not eligible for prospecting efforts, we'll still make sure that the right action (ie. a one-off email) has been taken by the team member. 
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 - Generation of pipeline from these efforts is tracked on our [Pipeline Progress Dashboard on SFDC](https://gitlab.my.salesforce.com/01Z8X000000u6mP?)
+
+**Table 1: Decision-Making Guidance for UG Leads**
+
+| **Scenario**                                                                                                  | **Suggested Action**                                                                                                                                                                                                                                              |
+|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Lead is connected to an account with high 6Sense intent, profile, or buying stage score**                 | - Add the lead to the outbound pipeline. <br> - Prioritize outreach due to strong indicators of intent. <br> - Use personalized messaging based on their 6Sense data to increase engagement likelihood.                                                             |
+| **2. Lead is connected to an account where we’ve had more than 2 inbound leads with titles above manager**      | - Add the lead to the outbound pipeline. <br> - Reference past engagement of other colleagues <br> - Target high-level decision-makers within the account using the inbound momentum as a stepping stone.                                               |
+| **3. Lead is connected to an account that has been historically unresponsive despite multiple outreach efforts**| - Do not add to the actively working pipeline. <br> - Use past outreach efforts as compelling triggers to engage into conversation with the inbound UserGem lead. |
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
@@ -1877,6 +1886,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams:
 | Low vs High Touch Sequence Usage    | - Over 70% of inbound leads enrolled to High Touch sequences.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
+| UserGems inbound leads actioning | 15 minutes for actioning inbound leads, 24 business hours to convert to Actively Working Account if necessary. | 
 
 #### Outbound Account Management
 
