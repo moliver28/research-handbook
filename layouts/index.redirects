@@ -278,6 +278,9 @@
 # Removed oudated customer advocacy pages - remove 2024-12-17
 /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/* /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ 301
 
+# Moved CTO Leadership Team page - remove 2024-12-30
+ /handbook/engineering/cto-staff/ /handbook/engineering/cto-leadership-team/ 301
+
 # Solutions Architecture Handbook Moved - remove 2025-01-01
 /handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
