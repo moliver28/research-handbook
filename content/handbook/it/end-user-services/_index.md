@@ -141,17 +141,15 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 #### GitLab IT Team
 
-- Senior Director, IT Operations - [Robert Rea](/handbook/company/team/#rrea1), rrea@gitlab.com, @rrea1
+- Sr. Director. CorpSec Engineering, Identity, IT End User Support [Steve Manzuik](/handbook/company/team/#smanzuik)
 
 - Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), mbeltran@gitlab.com, @mbeee
-
-- Business Systems Analyst - [Marc Di Sabatino](/handbook/company/team/#marc_disabatino), mdisabatino@gitlab.com, @marc_disabatino
 
 - IT Analyst Americas - Alex Krusiec, akrusiec-ext@gitlab.com, @akrusiec-ext
 
 - IT Analyst Americas - [Jeff Ford](/handbook/company/team/#jeffford_), jford@gitlab.com, @jeffford_
 
-- IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
+- Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
 
 - Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), sladgrove@gitlab.com, @sladgrove
 
@@ -161,13 +159,8 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
 
-- IT Systems Engineer - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
+- IT Global Logistics - Mic Rohr, mrohr@gitlab.com, @mic_rohr
 
-- Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), dwheeler@gitlab.com, @dillonwheeler
-
-- Senior IT Systems Engineer -  [Jeff Martin](/handbook/company/team/#jeffersonmartin), jmartin@gitlab.com, @jeffersonmartin
-
-- Senior IT Systems Engineer - [Marcus Whitaker](/handbook/company/team/#mwhitaker), mwhitaker@gitlab.com, @mwhitaker
 
 #### Laptop Wipe Schedules for IT Analysts
 
