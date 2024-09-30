@@ -4,7 +4,7 @@ title: "Infrastructure Environments"
 
 ## Environments
 
-Terraform control for the environments can be found [on ops](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments)
+The Terraform configuration for the environments can be found in [`config-mgmt`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments).
 
 {{% panel header="**Future Iteration with Infrastructure Standards**" header-bg="info" %}}
 We have a WIP initiative to iterate on our company-wide infrastructure standards. You can learn more about this on the <a href="/handbook/infrastructure-standards">infrastructure standards handbook page</a>.
@@ -94,7 +94,7 @@ Information on how to access production-canary, use it, and what services it cov
 | -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Staging | `gstg` | [staging.gitlab.com](https://staging.gitlab.com/users/sign_in) | Pre-production testing | Frequently | [Pseudonymization of prod](https://en.wikipedia.org/wiki/Pseudonymization) | all engineers |
 
-Staging has the same topology as Production and includes the same components, since they share the same [terraform configuration](https://gitlab.com/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments/gstg).
+Staging has the same topology as Production and includes the same components, since they share the same [Terraform configuration](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/gstg).
 
 It has a canary environment similar to production, and new releases are deployed and validated in that environment first before going any further. The `Staging-Canary` environment has some additional features to take note of when it comes to deployment and usage that are detailed in its own environment entry.
 
@@ -166,7 +166,7 @@ The GitLab Team Services Environment is a group of services for different sites 
 
 The GitLap environment is an older domain primarily used for support testing.
 All DNS records under `*.dev.gitlap.com` and `*.do.gitlap.com` are controlled
-via terraform in the [dev-resources repository](https://gitlab.com/gitlab-com/dev-resources/).
+via Terraform in the [dev-resources repository](https://gitlab.com/gitlab-com/dev-resources/).
 
 The only important system is `gitlab-runner-builder.gitlap.com` which is used
 as a CI runner by the [gitlab-runner project](https://gitlab.com/gitlab-org/gitlab-runner).
@@ -181,9 +181,9 @@ This environment is used as a genesis project from which all other GCP projects 
 support/manage/host gitlab.com are provisioned. No compute resources are present in the project, and
 it is used solely to provide a mechanism for centrally managing GCP projects, provisioning IAM
 roles/service accounts for infrastructure deployments within those projects, and controlling which
-APIs are enabled for each GCP project via Infrastructure as Code (terraform).
+APIs are enabled for each GCP project via Infrastructure as Code (Terraform).
 
-Reference: https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments/env-projects
+Reference: <https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/env-projects>
 
 ## Self-Managed
 
