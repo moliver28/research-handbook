@@ -161,7 +161,6 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Global Logistics - Mic Rohr, mrohr@gitlab.com, @mic_rohr
 
-
 #### Laptop Wipe Schedules for IT Analysts
 
 - Mic Rohr - [appointment schedule](https://calendar.app.google/QrBCkxhvAxkhA36M8) - AMER
