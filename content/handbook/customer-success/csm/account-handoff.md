@@ -66,6 +66,7 @@ DRI: CSM/A that the customer is transferring away from
 1. On the day of transfer change the name listed as the Customer Success Manager in Gainsight to TAM Scale. This is the name that represents the CSE organization as a whole in our CRMs.
 1. Any open Success Plan with this customer should be closed and an update in Gainsight should be added which incidates the handover to CSE.
 1. Close all open / pending CTA's within Gainsight for the customer which is about to he handed over. 
+1. Take a look at the Collaboration-Project and close old issues assigned to you. If there is nobody (ie an SA) going to continue using the project, consider archiving it.
 1. The CSM Compensation Pool will need to be changed. Change it to the CSE pool that represents the Geo of the customer:
     1. CSE_AMER_1
     1. CSE_EMEA_1
