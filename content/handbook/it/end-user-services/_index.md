@@ -145,7 +145,7 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), mbeltran@gitlab.com, @mbeee
 
-- IT Analyst Americas - Alex Krusiec, akrusiec-ext@gitlab.com, @akrusiec-ext
+- IT Analyst Americas - Alex Krusiec, akrusiec@gitlab.com, @akrusiec
 
 - IT Analyst Americas - [Jeff Ford](/handbook/company/team/#jeffford_), jford@gitlab.com, @jeffford_
 
@@ -155,9 +155,10 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 
-- IT Analyst EMEA - Bruno Ferreira, bferreira-ext@gitlab.com, @bferreira-ext
+- IT Analyst EMEA - Bruno Ferreira, bferreira@gitlab.com, @bruno.n.ferreira
 
-- IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
+- IT Analyst EMEA - Eoghan Dunne, edunne@gitlab.com, @edunne-gl
+
 
 - IT Global Logistics - Mic Rohr, mrohr@gitlab.com, @mic_rohr
 
