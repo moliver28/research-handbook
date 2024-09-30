@@ -286,7 +286,6 @@ Long-term visa that does not require employer sponsorship. Typically valid indef
 
 This is a visa for high earners that does not require sponsorship. Valid for 3 years and cannot be renewed. When hiring candidates who hold a PEP, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their PEP expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their PEP expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
 
-
 #### UK Global Talent Visa
 
 This visa is for people who are considered leaders in various fields and does not require employer sponsorship. GitLab can likely employ anyone who has been awarded this visa but is unable to provide support with visa applications or fees. This visa is valid for five years and may be renewed.
