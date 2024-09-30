@@ -141,7 +141,7 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 #### GitLab IT Team
 
-- Sr. Director. CorpSec Engineering, Identity, IT End User Support [Steve Manzuik](/handbook/company/team/#smanzuik)
+- Sr. Director. CorpSec Engineering, Identity, IT End User Support [Steve Manzuik](/handbook/company/team/#smanzuik), smanzuik@gitlab.com @smanzuik
 
 - Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), mbeltran@gitlab.com, @mbeee
 
