@@ -13,13 +13,20 @@ For a full breakdown of plan descriptions please review the following [Company P
 
 To find out which hospitals and treatment centers are covered on your plan, please refer to the directories of approved facilities which are available at `Vhi.ie/downloads` or contact VHI directly via the Corporate Advice Line: `056 777 5800`.
 
-### Dependent Eligiblity
-
-Dependents eligible for the GitLab Medical subsidy are Spouse or Domestic Partner, and Children.
-
 **Does Lifetime Community Rating (LCR) Apply?**
 
 From 1st of May 2015, if you are 35 or over when you first take out private health insurance, you will pay an additional amount of 2% for each year that you are aged 35 and over. Please contact VHI if you think this may apply.
+
+### Dependent Eligibility
+
+Dependents eligible for the GitLab subsidy include Team Member's Spouse, Domestic Partner, and Children up to the age of 21 as long as they are still enrolled in school.
+
+Domestic Partnership is defined as follows:
+
+- Neither partner is currently married to anyone else nor currently has a different Domestic Partner.
+- Partners have assumed mutual obligations for the welfare and support of each other.
+- Partners reside together as a non-married cohabiting couple and share the common necessities of life.
+- Partners are living together as a couple in the same household as each other’s sole Domestic Partner and intend to do so indefinitely.
 
 ### Enroll in the VHI Plan
 
