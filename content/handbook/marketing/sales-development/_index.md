@@ -201,19 +201,18 @@ You will find the lead views below. These views are split per use-case for your 
 
 | View    | Description                                                                                                                                                                                                       |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| B1 View | Includes MQL's, Hot contacts that require quick follow up. NOTE: Not all of these contacts will be in your Actively Working Accounts list as all contacts where you are BDR Assigned on account are in your ownership, so please ensure that you set the account BDR Prospecting Status to Actively Working if you engage in discussions with the contact so that you can continue working the account and expand your outreach, otherwise any new lead MQLs for the account will route to the SDRs .                                                                                                                                                        |
-| B2 View | Contacts related to Actively working accounts that you can choose to sequence                                                                                                                      |
-| B3 View | Active HT sequenced leads that have a phone number - to help with call downs                                                                                                                                      |
+| B1 View | Includes MQL's, Hot contacts that require quick follow up. NOTE: Not all of these contacts will be in your Actively Working Accounts list as all contacts where you are BDR Assigned on account are in your ownership, so please ensure that you set the account BDR Prospecting Status to Actively Working if you engage in discussions with the contact so that you can continue working the account and expand your outreach, otherwise any new lead MQLs for the account will route to the SDRs .|
+| B2 View | Contacts related to Actively working accounts that you can choose to sequence |
+| B3 View | Active HT sequenced leads that have a phone number - to help with call downs |
 | B4 View | Qualifying leads. Contacts that you are actively qualifying in a back and forth conversation either on email or through phone calls. Each contact in this status needs to either be active in a follow up sequence, have an active task or have a future meeting scheduled which can be seen in a future "last activity" date. |
 
 #### Account Views
 
 | View                                         | Description                                                                                                                                       |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| B1 - My BDR Assigned accounts (clone)        | Customize to show accounts where you are the BDR assigned. Use to mass update 'BDR Strategy' and 'BDR Prospecting Status'.                          |
-| B2 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
-| B3 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
-| B4 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
+| B1 - All Accounts in Territory (Clone).                          | List of all of your accounts where you are the BRD assigned | 
+| B2 - My Actively Working accounts (Clone)     | List of "Actively Working" accounts where you are the BDR assigned.                                                                     |                                                                
+| B3 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
 | B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date. |
 
 ### How to do Lead Database Management
@@ -594,7 +593,7 @@ Populate the BDR Next Step Date to be at the end of the account's sequence lengt
 
 #### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration
 
-To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help.
+To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Action Needed.
 
 Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
@@ -1017,7 +1016,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | Account                   | An organization tracked in salesforce.com. An account can be a prospect, customer, former customer, integrator, reseller, or prospective reseller                         |
 | AM                        | Account Manager                                                                                                                                                             |
 | AE                        | Account Executive, can be Major or Strategic in AMER/EMEA Enterprise                                                                                                       |
-| APAC                      | Asia-Pacific                                                                                                                                                                |
+| APJ                      | Asia-Pacific and Japan                                                                                                                                                               |
 | BDR                       | Business Development Represenative - focused on outbound                                                                                                                     |
 | CAM                       | Channel Account Manager                                                                                                                                                    |
 | CS                        | Customer Success                                                                                                                                                           |
@@ -1292,7 +1291,7 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 | :----: | :-----: |
 |  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
 |  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
-|  **APAC BDR TEAMS**  | [APAC BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
+|  **APJ BDR TEAMS**  | [APJ BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APJ BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
 |  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) - [SDR Global Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000pryL)  |
 
 ### Sales_Dev_fyi Channel Information
@@ -1366,7 +1365,7 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 - Sales Dev Ops profile is the only profile with the ability to help add a member to opps beyond stage 0 (we can't add SDR/BDR to closed won opps however)
 - Certain roles have certain permissions ie. Team Lead roles are able to transfer leads. Director level roles are able to help when account assignments are incorrect by updating account address and employee size information.
-- Roles determine visibility based on the region (AMER, APAC, EMEA). Example: a BDR with EMEA in their role, will be able to see all accounts where the account territory owner has EMEA in their territory role name.
+- Roles determine visibility based on the region (AMER, APJ, EMEA). Example: a BDR with EMEA in their role, will be able to see all accounts where the account territory owner has EMEA in their territory role name.
 
 **[Sales Dev Territories by Team role/member associated with each territory -](https://gitlab.my.salesforce.com/00O8X000008gpBL)**
 
@@ -1750,13 +1749,13 @@ Announcement Channels
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
-| **Team Member OTE (SDR/MM BDR, APAC BDR, & Pub Sec)** |
+| **Team Member OTE (SDR/MM BDR, APJ BDR, & Pub Sec)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
 | - 100% Individual SAO Quota: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 1.3 x High LAM New Logo Kicker for APAC/Pub Sec BDRs |
+|   - 1.3 x High LAM New Logo Kicker for APJ/Pub Sec BDRs |
 | **Team Member OTE (ENT BDR Strategic)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
