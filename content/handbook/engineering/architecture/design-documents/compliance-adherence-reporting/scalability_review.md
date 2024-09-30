@@ -24,7 +24,7 @@ Due to the configurability and importance of these features it is critical to en
     - A **Requirement** is composed of a **Type** (internal or external) and **Control Expression**
       - A **Control Expression** defines the relevant setting or configuration to be checked
 
-See [Design Details](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/compliance-adherence-reporting/#design-details) for detailed ERD
+See [Design Details](./_index.md#design-details) for detailed ERD
 
 ## Compliance evaluation flow
 
