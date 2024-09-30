@@ -178,8 +178,7 @@ classify_service.classify(
 )
 ```
 
-Depending on available information in this case the Topology Service would first
-try to route by `o`, then by `u`, then by `c`.
+The Topology Service routes by the available information following this precedence: `o`, otherwise `u`, and otherwise `c`.
 
 ### Integration into Token Authenticatable
 
