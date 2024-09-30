@@ -1,6 +1,6 @@
 ---
 title: "PTY LTD Benefits"
-description: "GitLab PTY Australia benefits specific to Australia based team members."
+description: "GitLab PTY Australia benefits specific to Australia and New Zealand based team members."
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
