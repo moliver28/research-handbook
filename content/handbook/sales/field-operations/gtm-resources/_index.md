@@ -78,7 +78,7 @@ Lead => Opportunity => Customer
 
 Please see below for a high-level overview of the Customer Lifecycle at GitLab. This lifecycle is created through the lens of Salesforce data, and it is cross-functional - covering inputs from Sales, Marketing, and Finance.
 
-[](content/handbook/sales/field-operations/gtm-resources/customer-lifecycle.png)
+[Customer Lifecycle Flowchart](static/images/handbook/sales/customer-lifecycle.jpeg)
 
 In addition, these are the more granular steps within the above milestones that are used to track the above process with more precision.
 They are tracked as follows:
