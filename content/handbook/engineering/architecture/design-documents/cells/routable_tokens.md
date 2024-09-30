@@ -102,7 +102,7 @@ def generate_pat(user, project)
     r: Devise.friendly_token
   }
 
-  payload = params.map { |k, v| "#{k}#{v}" }.join("\n")
+  payload = params.map(&:join).join("\n")
 
   "glpat-#{Base64.urlsafe_encode64(payload, padding: false)}"
 end
