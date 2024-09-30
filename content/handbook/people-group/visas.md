@@ -33,7 +33,6 @@ GitLab's acceptance of a visa depends on many factors. The following visas may m
 - Netherlands EU Blue Card
 - South Korea F5 Permanent Resident Visa
 - Singapore Personalised Employment Pass
-- Singapore Dependent’s Pass
 - Spain EU Blue Card
 - UK Global Talent Visa
 - UK India Young Professionals Scheme Visa
@@ -287,9 +286,6 @@ Long-term visa that does not require employer sponsorship. Typically valid indef
 
 This is a visa for high earners that does not require sponsorship. Valid for 3 years and cannot be renewed. When hiring candidates who hold a PEP, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their PEP expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their PEP expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
 
-#### Singapore Dependent’s Pass
-
-Does not require employer sponsorship (requires sponsorship by spouse’s employer). Typically valid for 2 years and may be renewed.
 
 #### UK Global Talent Visa
 
