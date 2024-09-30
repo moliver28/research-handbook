@@ -27,7 +27,7 @@ Once you have the above items, follow these steps to add yourself to the Partner
 
 1. Sign into gitlab.com and navigate to the home project of [www.gitlab.com](http:/
 2.
-3. /www.gitlab.com) found [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/). Click on the **'Fork'** button at the top right to make a copy of the repository within your account.
+3. /www.gitlab.com) found [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/). Click on the **'Fork'** button at the top right to make a copy of the repository within your account.         
 4. Next, click on the **'Web IDE**' button to make changes to specific YAML files.
 5. Navigate to the '/content' directory in the left pane and you will see the `apps.yml` file within the folder. Click on the file to open it within the WebIDE. Add the following fields to the correct category of the file and enter the following application information into each of the blank fields:
 
