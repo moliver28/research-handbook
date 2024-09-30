@@ -16,7 +16,7 @@ Due to the configurability and importance of these features it is critical to en
 - Review and test the current DB ERD and review how the DB queries will scale for large groups (1000+ projects).
 - Review the current ADRs and technical review.
 
-# Feature Overview
+## Feature Overview
 
 - A **Compliance Framework** belongs to a **Namespace**
   - A **Framework** belongs to many **Projects** within a **Namespace**
@@ -147,7 +147,7 @@ WHERE
     "projects"."id" = 278964
 ```
 
-```
+```plaintext
 --------------------------------------------------------------------------------------------------------------------------
  Index Scan using projects_pkey on projects  (cost=0.56..3.58 rows=1 width=823) (actual time=0.039..0.040 rows=1 loops=1)
    Index Cond: (id = 278964)
@@ -173,7 +173,7 @@ WHERE
     "compliance_requirements"."framework_id" IN (1020460, 1020461, 1020462, 1020463, 1020464)
 ```
 
-```
+```plaintext
 QUERY PLAN
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
  Index Scan using u_compliance_requirements_for_framework on compliance_requirements  (cost=0.14..4.53 rows=1 width=506) (actual time=0.023..0.048 rows=25 loops=1)
@@ -202,7 +202,7 @@ ComplianceManagement::ComplianceRequirement::QueryEvaluator.new(Gitlab::Json.par
 
 For `at_least_two_approvals` or any other control related to approval rule
 
-```
+```sql
 SELECT
     SUM(approvals_required)
 FROM
