@@ -375,18 +375,9 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 
 ---
 
-### Status YYYY-MM-DD
+<!-- STATUS NOTE START -->
 
-1.
-
-<details>
-<summary>Previous status updates</summary>
-
-### Status YYYY-MM_DD
-
-1.
-
-</details>
+<!-- STATUS NOTE END -->
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
 
