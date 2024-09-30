@@ -59,12 +59,6 @@ You can find someone to review your merge requests by looking on the list of [Gi
 
 Note that while all engineers can review all merge requests, the ability to *accept* merge requests is restricted to maintainers.
 
-## Maintainer
-
-Maintainers are GitLab engineers who are experts at code review, know the GitLab product and codebase very well, and are empowered to accept merge requests in one or several [GitLab Digital Experience Projects](https://gitlab.com/gitlab-com/marketing/digital-experience/).
-
-Great engineers are often also great reviewers, but code review is a skill in and of itself and not every engineer, no matter their seniority, will have had the same opportunities to hone that skill. It's also important to note that a big part of being a good maintainer comes from knowing the existing product and codebase extremely well, which lets them spot inconsistencies, edge cases, or non-obvious interactions with other features that would otherwise be missed easily.
-
 ## Review turnaround time
 
 Because [unblocking others is always a top priority](/handbook/values/#global-optimization),
