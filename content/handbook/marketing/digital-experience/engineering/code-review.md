@@ -39,11 +39,9 @@ Ensure the issues being referenced are correctly tagged and updated.
 4. Deployment Steps
    * Detail the deployment process, including any scripts, commands, or configurations needed.
    * Mention any dependencies or services that need to be updated or restarted.
-   * Indicate if there are any database migrations, and how to run them safely.
 5. QA and Verification
-   * Outline the QA process, specifying which environments (e.g., staging, pre-production) will be used for validation.
+   * Outline the QA process, specifying which environments (e.g., local, review app, production) will be used for validation.
    * List key scenarios and edge cases to be tested, including expected results.
-   * Include any known limitations or potential issues for the QA team to be aware of.
 6. Post-Deployment Validation
    * Provide a plan for validating the changes in the production environment post-deployment.
    * Include any monitoring or logging to watch for potential issues.
@@ -57,7 +55,7 @@ Ensure the issues being referenced are correctly tagged and updated.
 
 All GitLab engineers can, and are encouraged to, perform a code review on merge requests of colleagues and community contributors. If you want to review merge requests, you can wait until someone assigns you one, but you are also more than welcome to browse the list of open merge requests and leave any feedback or questions you may have.
 
-You can find someone to review your merge requests by looking on the [team page](/handbook/company/team/), or on the list of [GitLab Digital Experience Team Members](/handbook/marketing/digital-experience/#team-members).
+You can find someone to review your merge requests by looking on the list of [GitLab Digital Experience Team Members](/handbook/marketing/digital-experience/#team-members).
 
 Note that while all engineers can review all merge requests, the ability to *accept* merge requests is restricted to maintainers.
 
