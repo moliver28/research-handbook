@@ -5,13 +5,13 @@ title: Product Data Insights
 
 ## Product Data Insights Handbook
 
-The Product Data Insights (formerly known as "Product Analysis") group consists of a team of
-product analysts. This group reports to the Senior Director, Product Monetization and serves
-as a functional analytics team to support the GitLab Product division and product data-related
-analysis across GitLab.
+The Product Data Insights group consists of a team of product analysts. This group reports to 
+the VP, Product Management and serves as a functional analytics team to support the GitLab R&D 
+Organization (Product and Engineering divisions), in addition to product data-related analysis 
+across GitLab.
 
-In addition to supporting the Product division, the Product Data Insights team is an active
-contributor to the GitLab Data Program. As part of the [Research & Development (R&D) Data Fusion Team](/handbook/enterprise-data/#analytics-engineering-team),
+In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
+contributor to the GitLab Data Program. As part of the [Customer Product Adoption (CPA) Pod](/handbook/enterprise-data/organization/#data-pod-assignments),
 the product analysts also work closely with members from the Enterprise Data team. In addition,
 the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
@@ -20,8 +20,8 @@ Read more about what we do at GitLab on our [Direction](https://about.gitlab.com
 
 ### Team members
 
-Product Data Insights is a small (but mighty) team. In order to support the Product division,
-each analyst is assigned to one or more sections or teams to support.
+Product Data Insights is a small (but mighty) team. In order to support the Product and 
+Engineering divisions, each analyst is assigned to one or more sections or teams to support.
 
 | Name | Title | Product Section or Team |
 | --- | --- | --- |
@@ -122,8 +122,8 @@ request.
 #### PDI priority
 
 PDI priority is owned by the individual analyst. The Senior Manager, Product Data Insights will
-help refine priority based on importance and capacity. The team will work with the Senior
-Director, Product Monetization and/or Product leadership on trade-offs (if needed).
+help refine priority based on importance and capacity. The team will work with the VP, Product 
+Management and/or Product leadership on trade-offs (if needed).
 
 Section priority and PM priority are both inputs in determining PDI priority. However, the
 scope of the team's work extends beyond section support (ex: cross-functional initiatives),
@@ -416,7 +416,7 @@ the Product Data Insights team's asynchronous daily stand-up, powered by [Geekbo
 
 1. `@product-analysts` - Notifies the entire Product Data Insights team
 1. `@randdanalyticstriage` - Notifies the entire Product Data Insights team and the Data
-team's R&D Fusion group, per the [Enterprise Data Triage Program](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-program-triage)
+team's Customer Product Adoption pod, per the [Enterprise Data Triage Program](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-program-triage)
 1. `@functional-data-analysts` - Notifies the entire Product Data Insights team and other functional
 analysts across the GitLab Data Program
 
