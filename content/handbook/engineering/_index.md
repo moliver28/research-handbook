@@ -81,7 +81,7 @@ There are four departments within the Engineering Division:
 
 ## Other Related Pages
 
-- [CTO Staff](/handbook/engineering/cto-staff/)
+- [CTO Leadership Team](/handbook/engineering/cto-leadership-team/)
 - [Communication](/handbook/engineering/communication/)
 - [Database Engineering](/handbook/engineering/development/database/)
 - [Development Principles](/handbook/engineering/development/principles/)
