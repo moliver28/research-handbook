@@ -52,4 +52,5 @@ For more detailed guidelines and examples, refer to the [Digital Experience repo
 
 By following these coding standards, we aim to maintain code quality, consistency, and readability across all projects.
 
-Please be sure to review our [code standards](/handbook/marketing/digital-experience/engineering/code-standards/) and [code review values](/handbook/marketing/digital-experience/engineering/code-review-values/).
+Don't forget to check out our [code standards](/handbook/marketing/digital-experience/engineering/code-standards/) to help keep things consistent. You can also find a lot of useful insights in the product team's [code review values](/handbook/engineering/workflow/reviewer-values/)—definitely worth a look!
+
