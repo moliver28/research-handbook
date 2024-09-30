@@ -83,6 +83,7 @@ The role is a [grade 7](/handbook/total-rewards/compensation/compensation-calcul
 - Assist with recruiting activities and administrative work.
 - Develop security training and socialize the material with internal development teams.
 - Participate and assist in initiatives to holistically address multiple vulnerabilities found in a functional area.
+- Lead, assist and implement initiatives to enhance the team's maturity.
 
 #### Senior Application Security Engineer Requirements
 
