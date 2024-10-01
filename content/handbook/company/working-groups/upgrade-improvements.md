@@ -130,7 +130,7 @@ The north star of this working group is increasing the number of self-managed Gi
 
 | Working Group Role | Person | Title |
 |--------------------|--------|-------|
-| Executive Stakeholder | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) |  |
+| Executive Stakeholder | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) | Chief technology officer (CTO) |
 | Facilitator | [Peter Lu](https://gitlab.com/plu8) | Engineering Manager, Distribution::Deploy |
 | Functional Lead - Product & Distribution | [Dilan Orrino](https://gitlab.com/dorrino) | Senior Product Manager Distribution |
 | Functional Lead - Database | TBD |  |
