@@ -50,14 +50,75 @@ _Given a namespace with two frameworks, from a high-level evaluation of a framew
 
 On modification of a project setting, using [feature branch](https://gitlab.com/gitlab-org/gitlab/-/compare/master...huzaifaiftikhar1_scalability_review_custom_controls).
 
-#### 1. Retrieval of project IDs by associated framework
+#### 1. Retrieval of frameworks that have compliance requirements
 
 ```rb
-Project.includes(compliance_management_frameworks: :compliance_requirements).find(project_id)
+frameworks = ComplianceManagementFramework.joins(:compliance_requirements).distinct.order(:id)
 ```
-Link to Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99301
 
-<details><summary>query plan</summary>
+<details><summary>click to expand query plan</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99394
+
+```sql
+SELECT DISTINCT
+    "compliance_management_frameworks".*
+FROM
+    "compliance_management_frameworks"
+    INNER JOIN "compliance_requirements" ON "compliance_requirements"."framework_id" = "compliance_management_frameworks"."id"
+ORDER BY
+    "compliance_management_frameworks"."id" ASC
+```
+
+</details>
+
+#### 3. Retrieval of project ID batches by associated framework
+
+```rb
+frameworks.each do |framework|
+  framework.projects.each_batch(of: 100) do |project|
+    ProjectComplianceEvaluatorWorker.perform_async(framework.id, project.pluck_primary_key)
+  end
+end
+```
+
+<details><summary>click to expand query plan</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99421
+
+```sql
+select
+    "projects"."id"
+from
+    projects
+    join project_compliance_framework_settings on project_compliance_framework_settings.project_id = projects.id
+where
+    project_compliance_framework_settings.framework_id = 1019907 OFFSET 100
+LIMIT 1;
+```
+
+</details>
+
+#### 3. Retrieval of projects and associated tables via background worker
+
+Within a batch background worker we must fetch a batch of projects for a given framework.
+We also preload all relevant associations to perform evaluations against the framework's controls.
+
+This requires a larger initial set of queries that may include attributes we are not utilizing but prevents fan-out of redundant queries within evaluation of each Requirement's Controls.
+
+```rb
+Project.includes(
+    :ci_cd_settings,
+    :project_feature,
+    :project_setting,
+    :protected_branches,
+    :security_setting
+).where(id: project_ids)
+```
+
+<details><summary>Fetching projects by ID</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99422
 
 ```sql
 SELECT
@@ -146,66 +207,56 @@ SELECT
 FROM
     "projects"
 WHERE
-    "projects"."id" = 278964
+    "projects"."id" IN (13083, 13764, 14022, 14288, 14289, 16648, 19776, 20085, 20086, 20699, 23081, 27470, 27726, 29286, 36743, 72724, 74823, 83282, 98024, 116212, 140724, 143237, 145205, 150440, 227582, 250324, 250833, 278964, 280425, 375711, 387896, 413007, 430285, 443787, 444821, 455030, 480929, 554859, 593728, 629054, 629060, 684698, 730448, 734943, 747741, 766015, 818896, 876090, 887372, 928825, 931715, 998792, 1075790, 1120019, 1209837, 1265999, 1329047, 1379171, 1441932, 1470839, 1533158, 1777822, 1794617, 1911766, 1990920, 2009901, 2127625, 2317465, 2337675, 2347063, 2383700, 2651596, 2670515, 2694799, 2725567, 2890326, 2953390, 3010986, 3010998, 3094319, 3101096, 3305972, 3466815, 3588247, 3605985, 3631141, 3651684, 3662568, 3662668, 3674569, 3698388, 3871132, 3871556, 3885956, 3885980, 3933206, 3933372, 3991945, 4108541, 4121724)
 ```
 
-```plaintext
---------------------------------------------------------------------------------------------------------------------------
- Index Scan using projects_pkey on projects  (cost=0.56..3.58 rows=1 width=823) (actual time=0.039..0.040 rows=1 loops=1)
-   Index Cond: (id = 278964)
-   Buffers: shared hit=5
- Planning:
-   Buffers: shared hit=1497
- Planning Time: 4.005 ms
- Execution Time: 0.166 ms
-(7 rows)
 </details>
 
-#### 2. Retrieval of Compliance Requirements for Project's Frameworks
+<details><summary>Fetching project_ci_cd_settings by project ID</summary>
 
-Link to Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99300
-
-<details><summary>Query plan</summary>
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99423
 
 ```sql
-SELECT
-    "compliance_requirements".*
-FROM
-    "compliance_requirements"
-WHERE
-    "compliance_requirements"."framework_id" IN (1020460, 1020461, 1020462, 1020463, 1020464)
-```
-
-```plaintext
-QUERY PLAN
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Index Scan using u_compliance_requirements_for_framework on compliance_requirements  (cost=0.14..4.53 rows=1 width=506) (actual time=0.023..0.048 rows=25 loops=1)
-   Index Cond: (framework_id = ANY ('{1020460,1020461,1020462,1020463,1020464}'::bigint[]))
-   Buffers: shared hit=14
- Planning:
-   Buffers: shared hit=46
- Planning Time: 0.314 ms
- Execution Time: 0.086 ms
-(7 rows)
+SELECT "project_ci_cd_settings".* FROM "project_ci_cd_settings" WHERE "project_ci_cd_settings"."project_id" IN (13083, 13764, 14022, 14288, 14289, 16648, 19776, 20085, 20086, 20699, 23081, 27470, 27726, 29286, 36743, 72724, 74823, 83282, 98024, 116212, 140724, 143237, 145205, 150440, 227582, 250324, 250833, 278964, 280425, 375711, 387896, 413007, 430285, 443787, 444821, 455030, 480929, 554859, 593728, 629054, 629060, 684698, 730448, 734943, 747741, 766015, 818896, 876090, 887372, 928825, 931715, 998792, 1075790, 1120019, 1209837, 1265999, 1329047, 1379171, 1441932, 1470839, 1533158, 1777822, 1794617, 1911766, 1990920, 2009901, 2127625, 2317465, 2337675, 2347063, 2383700, 2651596, 2670515, 2694799, 2725567, 2890326, 2953390, 3010986, 3010998, 3094319, 3101096, 3305972, 3466815, 3588247, 3605985, 3631141, 3651684, 3662568, 3662668, 3674569, 3698388, 3871132, 3871556, 3885956, 3885980, 3933206, 3933372, 3991945, 4108541, 4121724)
 ```
 
 </details>
 
-#### 3A. For each requirement, evaluate control_expressions against project
+<details><summary>Fetching project_features by project ID</summary>
 
-Currently, each requirement can trigger queries depending on different controls used. Note that this doesn't trigger any query for controls that rely directly on project attributes.
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99424
 
-```rb
-req = frameworks.second.compliance_requirements.first
-
-ComplianceManagement::ComplianceRequirement::QueryEvaluator.new(Gitlab::Json.parse(req.control_expression), project).evaluate
+```sql
+SELECT "project_features".* FROM "project_features" WHERE "project_features"."project_id" IN (13083, 13764, 14022, 14288, 14289, 16648, 19776, 20085, 20086, 20699, 23081, 27470, 27726, 29286, 36743, 72724, 74823, 83282, 98024, 116212, 140724, 143237, 145205, 150440, 227582, 250324, 250833, 278964, 280425, 375711, 387896, 413007, 430285, 443787, 444821, 455030, 480929, 554859, 593728, 629054, 629060, 684698, 730448, 734943, 747741, 766015, 818896, 876090, 887372, 928825, 931715, 998792, 1075790, 1120019, 1209837, 1265999, 1329047, 1379171, 1441932, 1470839, 1533158, 1777822, 1794617, 1911766, 1990920, 2009901, 2127625, 2317465, 2337675, 2347063, 2383700, 2651596, 2670515, 2694799, 2725567, 2890326, 2953390, 3010986, 3010998, 3094319, 3101096, 3305972, 3466815, 3588247, 3605985, 3631141, 3651684, 3662568, 3662668, 3674569, 3698388, 3871132, 3871556, 3885956, 3885980, 3933206, 3933372, 3991945, 4108541, 4121724)
 ```
 
-<details><summary>Query Plans</summary>
+</details>
+
+<details><summary>Fetching project_security_settings by project ID</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99425
+
+```sql
+SELECT "project_security_settings".* FROM "project_security_settings" WHERE "project_security_settings"."project_id" IN (13083, 13764, 14022, 14288, 14289, 16648, 19776, 20085, 20086, 20699, 23081, 27470, 27726, 29286, 36743, 72724, 74823, 83282, 98024, 116212, 140724, 143237, 145205, 150440, 227582, 250324, 250833, 278964, 280425, 375711, 387896, 413007, 430285, 443787, 444821, 455030, 480929, 554859, 593728, 629054, 629060, 684698, 730448, 734943, 747741, 766015, 818896, 876090, 887372, 928825, 931715, 998792, 1075790, 1120019, 1209837, 1265999, 1329047, 1379171, 1441932, 1470839, 1533158, 1777822, 1794617, 1911766, 1990920, 2009901, 2127625, 2317465, 2337675, 2347063, 2383700, 2651596, 2670515, 2694799, 2725567, 2890326, 2953390, 3010986, 3010998, 3094319, 3101096, 3305972, 3466815, 3588247, 3605985, 3631141, 3651684, 3662568, 3662668, 3674569, 3698388, 3871132, 3871556, 3885956, 3885980, 3933206, 3933372, 3991945, 4108541, 4121724)
+```
+
+</details>
+
+<details><summary>Fetching project_settings by project ID</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99426
+
+```sql
+EXPLAIN SELECT "project_settings"."project_id", "project_settings"."created_at", "project_settings"."updated_at", "project_settings"."push_rule_id", "project_settings"."show_default_award_emojis", "project_settings"."allow_merge_on_skipped_pipeline", "project_settings"."squash_option", "project_settings"."has_confluence", "project_settings"."has_vulnerabilities", "project_settings"."prevent_merge_without_jira_issue", "project_settings"."cve_id_request_enabled", "project_settings"."mr_default_target_self", "project_settings"."previous_default_branch", "project_settings"."warn_about_potentially_unwanted_characters", "project_settings"."merge_commit_template", "project_settings"."has_shimo", "project_settings"."squash_commit_template", "project_settings"."legacy_open_source_license_available", "project_settings"."target_platforms", "project_settings"."enforce_auth_checks_on_uploads", "project_settings"."selective_code_owner_removals", "project_settings"."show_diff_preview_in_email", "project_settings"."suggested_reviewers_enabled", "project_settings"."only_allow_merge_if_all_status_checks_passed", "project_settings"."issue_branch_template", "project_settings"."mirror_branch_regex", "project_settings"."allow_pipeline_trigger_approve_deployment", "project_settings"."emails_enabled", "project_settings"."pages_unique_domain_enabled", "project_settings"."pages_unique_domain", "project_settings"."runner_registration_enabled", "project_settings"."product_analytics_instrumentation_key", "project_settings"."product_analytics_data_collector_host", "project_settings"."cube_api_base_url", "project_settings"."encrypted_cube_api_key", "project_settings"."encrypted_cube_api_key_iv", "project_settings"."encrypted_product_analytics_configurator_connection_string", "project_settings"."encrypted_product_analytics_configurator_connection_string_iv", "project_settings"."pages_multiple_versions_enabled", "project_settings"."allow_merge_without_pipeline", "project_settings"."duo_features_enabled", "project_settings"."require_reauthentication_to_approve", "project_settings"."observability_alerts_enabled", "project_settings"."spp_repository_pipeline_access" FROM "project_settings" WHERE "project_settings"."project_id" IN (13083, 13764, 14022, 14288, 14289, 16648, 19776, 20085, 20086, 20699, 23081, 27470, 27726, 29286, 36743, 72724, 74823, 83282, 98024, 116212, 140724, 143237, 145205, 150440, 227582, 250324, 250833, 278964, 280425, 375711, 387896, 413007, 430285, 443787, 444821, 455030, 480929, 554859, 593728, 629054, 629060, 684698, 730448, 734943, 747741, 766015, 818896, 876090, 887372, 928825, 931715, 998792, 1075790, 1120019, 1209837, 1265999, 1329047, 1379171, 1441932, 1470839, 1533158, 1777822, 1794617, 1911766, 1990920, 2009901, 2127625, 2317465, 2337675, 2347063, 2383700, 2651596, 2670515, 2694799, 2725567, 2890326, 2953390, 3010986, 3010998, 3094319, 3101096, 3305972, 3466815, 3588247, 3605985, 3631141, 3651684, 3662568, 3662668, 3674569, 3698388, 3871132, 3871556, 3885956, 3885980, 3933206, 3933372, 3991945, 4108541, 4121724)
+```
+
+</details>
+
+<details><summary>Fetching approval_rules by project_id</summary>
 
 For `at_least_two_approvals` or any other control related to approval rule
 
-Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99302
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99302
 
 ```sql
 SELECT
@@ -217,9 +268,11 @@ WHERE
 LIMIT 1
 ```
 
-For `default_branch_protected`
+</details>
 
-Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99303
+<details><summary>Fetching protected_branches by project_id</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99303
 
 ```sql
 SELECT
@@ -233,9 +286,11 @@ FROM (
         "protected_branches"."project_id" = 1) protected_branches
 ```
 
-Fetching namespace
+</details>
 
-Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99304
+<details><summary>Fetching namespace by namespace_id</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99304
 
 ```sql
 SELECT
@@ -296,17 +351,45 @@ LIMIT 1
 
 </details>
 
-#### 3B. For each requirement, evaluate control_expressions against project
 
-Alternatively, we can load all required tables initially with the project fetch and evaluate each control expression against in-memory values. This requires a larger initial query that may include attributes we are not utilizing but prevents additional and potentially redundant queries within evaluation of each Requirement's Controls.
+#### 4. Retrieval of Compliance Requirements for given framework
 
-#### 4. Persistence of project compliance status
+<details><summary>click to expand query plan</summary>
+
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99427
+
+```sql
+SELECT
+    "compliance_requirements".*
+FROM
+    "compliance_requirements"
+WHERE
+    "compliance_requirements"."framework_id" = 1020460
+```
+
+</details>
+
+#### 5. For each requirement, evaluate control_expressions against project
+
+Given all required associations are preloaded initially, all control expression evaluation happens in-memory requiring no lookups
+
+```rb
+projects.each do |project|
+  framework.compliance_requirements.each do |req|
+    ComplianceManagement::ComplianceRequirement::QueryEvaluator.new(Gitlab::Json.parse(req.control_expression), project).evaluate
+  end
+end
+```
+
+**Query plan: none**
+
+#### 6. Persistence of project compliance status
 
 After evaluating the control_expression to true/false we can insert the result in `project_compliance_configuration_status` which produces the following SQL
 
-Link to Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99315
+<details><summary>click to expand query plan</summary>
 
-<details><summary>Queries</summary>
+https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99315
 
 ```sql
 INSERT INTO "project_compliance_configuration_status" ("created_at", "updated_at", "project_id", "namespace_id", "compliance_requirement_id", "status")
@@ -317,11 +400,11 @@ RETURNING
 
 </details>
 
-#### 5. Rendering of Project Compliance Configuration Status dashboard
+#### 7. Rendering of Project Compliance Configuration Status dashboard
 
 We need to fetch the rows from project_compliance_configuration_status table to display on the dashboard, these queries would be very similar to the existing query for fetching records from project_compliance_standards_adherence.
 
-<details><summary>Queries</summary>
+<details><summary>click to expand query plan</summary>
 
 </details>
 
@@ -345,7 +428,7 @@ In certain cases, a control expression must be evaluated on a recurring cadence;
 | Limit on total controls per requirement | 5 |
 | Limit on total fields per control expression | 5 |
 | Allowed fields belonging to control expressions | Bounded allowlist tied to applicable schema |
-| Control expressions query complexity| Fiels is non-user modifiable outside of configuration UI and subject to schema validation |
+| Control expressions query complexity| Files is non-user modifiable outside of configuration UI and subject to schema validation |
 | Compliance validation frequency | 24hrs |
 
 ## References
