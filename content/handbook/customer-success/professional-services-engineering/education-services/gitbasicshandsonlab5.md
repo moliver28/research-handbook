@@ -102,9 +102,9 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 After you commit these changes, a pipeline will run, and the test stage will fail. This is because the test cases no longer match the contents of the index file. To ensure that the tests in our pipeline run successfully, we will also need to update our tests to match the new index file.
 
-1. In the list of repository files, click the `test` directory and then the `server.test.js` file.
+1. In the list of repository files, click the `tests` directory and then the `server.test.js` file.
 
-1. Click **Edit > Edit single file** and modify the line `assert.equal(res.body.message, 'Hello World!');` to `assert.equal(res.body.message, 'Hello World from GitLab!');`. After completing the edits, your code will look like this:
+1. Click **Edit > Edit single file** and modify the line `assert.equal(res.body.message, 'Hello World!');` to `assert.equal(res.body.message, 'Hello World from GitLab!');` on line 13. After completing the edits, your code will look like this:
 
    ```js
    const request = require('supertest');
