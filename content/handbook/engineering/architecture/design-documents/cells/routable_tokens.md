@@ -76,7 +76,7 @@ to which the token is attached. This document does focus specifically first on t
 that are required to be made routable in the Phase 4: Personal Access Token, CI Job Token and CI Runner Token:
 
 - Currently tokens are generated with the follow pattern: `<prefix>-<random-string>`.
-- The Routable Token would change the `<random-string>` to become a `<payload>`.
+- The Routable Token would change the `<random-string>` to become a `<payload>`. Likely, the `<payload>` will have a longer length then the previous `<random-string>`, due to the need to encode more information.
 - The ability to decode `<payload>` is a feature reserved for the HTTP Router.
 - Application should never decode `<payload>` and use it for authentication purposes.
 - The generated token is stored in whole as-is and is validated against its full value.
