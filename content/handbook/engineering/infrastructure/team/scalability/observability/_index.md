@@ -74,6 +74,10 @@ The team are responsible for provisioning access to the services listed below, a
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
 
+### Project Sizing
+
+Projects will be staffed by at least three engineers from the team, and preferably from both SRE and BE roles.  This will allow us to share knowledge and keep projects moving forward when people are unavailable.
+
 ### Issue management
 
 While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.
