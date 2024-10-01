@@ -44,6 +44,69 @@ Work in the 40% time budget should be coordinated and prioritized by the enginee
 - Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
 
+### Technical Roadmaps
+
+Some of the above examples for the 40% time budget can help in forming a long-term technical roadmap for your group, and determine how best to prioritize your technical work to support overall business goals. In addition to the examples above:
+
+- Ask yourself these questions
+  - What are your most frequent sources of delays? (Could be long-standing tech debt you have to work past while developing, could be lack of reviewers for your domain, could be external to your team like with pipeline duration) 
+  - Do you have any consistently similar bugs or security issues that come in due to a certain area?
+  - Has your team been talking about potentially refactoring any areas?
+  - Is your team struggling with certain processes?
+  - Have you had recent incidents that allude to a larger problem?
+  - Are you getting frequent requests for help in some area?
+  - Is your team frequently missing their deliverable commitments? What would help? 
+  - Does your area have performance (slow endpoints, inconsistent responses, intermittent errors) or scalability (the feature or area as-is will not scale) concerns?
+  - Where do you see the biggest instability? Have you talked to operations and support about feedback for  your area?
+  - Do you have application or rate limits in the right places?
+  - Have you burned down your security, corrective action, and infradev issues?
+  - Is your error budget green?
+  - Have your feature flags been removed from the codebase yet?
+  - Do you have adequate unit test, integration test and E2E coverage?
+  - Do you have adequate documentation for your features?
+  - Do you have adequate telemetry , logging, monitoring of your features?
+  - Do you have adequate error handling and error codes that allows fast and easy diagnostics?
+- Gather data like this
+  - Master:Broken issues 
+  - ~"severity::1" and ~"severity::2"  bugs
+  - Missed-Slo issues
+  - Flaky test issues
+  - ~"type::maintenance" issues
+- Think about the future state of your product
+  - Where do you want your product to be this time next year? 
+  - What are the technical requirements to achieve that?
+  - What are technical topics that would benefit from research/POCs?
+  - What would make it easier for you to achieve that if it was no longer a factor?
+  - What would be the performance and/or business impact once you address these issues?
+  - How would you evolve your team processes to regularly review your technical roadmap?
+
+#### Technical roadmap process
+
+Engineering Managers (EMs) are responsible for collaboratively developing their team's technical roadmap backlog. All items should be documented as epics and issues using the "Technical Roadmap" label.
+
+Global initiatives will be defined and must be incorporated into each group's roadmap and prioritization (e.g., allocating 40% of front-end capacity for Vue upgrade, completing all Cells issues for a specific area by milestone XYZ).
+
+Prioritization of items should align with:
+
+1. General business goals
+2. Engineering vision
+3. Team capacity and expertise
+
+Planning Guidelines:
+
+- Allocate 40% of the overall time budget for technical roadmap items in the normal milestone planning process.
+- Use the "Technical roadmap" label for all related issues to facilitate tracking and coordination.
+
+Key Steps:
+
+1. Identify and document technical debt and improvement opportunities
+2. Assess impact and effort for each item
+3. Prioritize based on business value and strategic alignment
+4. Integrate with existing iteration/milestone planning
+5. Regularly review and adjust the roadmap
+
+This process ensures a balanced approach between feature development and technical improvements, promoting long-term sustainability and efficiency of the engineering organization.
+
 ### Community Contributions
 
 We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren't on our roadmap, and even translate our product into multiple languages.
