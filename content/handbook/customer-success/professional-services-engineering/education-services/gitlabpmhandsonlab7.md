@@ -22,7 +22,7 @@ In this lab, you will learn how to create a simple issue board.
 
     > The default **Development** board contains only 2 lists by default: issues with the **Open** status and issues with the **Closed** status. For this lab, we are going to add more lists that use issue labels.
 
-3. In the top right corner, click **Create list**.
+3. In the top right corner, click **New list**.
 
 4. Ensure the **Label** radio button is selected in the Scope section of the list configuration pane. You can also create lists that are based on other metadata.
 
@@ -36,7 +36,7 @@ In this lab, you will learn how to create a simple issue board.
 
 6. Click **Add to board**. All issues tagged with **Status::WIP** should appear in the new list.
 
-7. Add another custom list to the project board: in the top right corner, click **Create list**.
+7. Add another custom list to the project board: in the top right corner, click **New list**.
 
 8. The new list will be scoped by issue label. Verify that the **Label** radio button is selected in the Scope section of the list configuration pane.
 
@@ -96,7 +96,7 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Click **Create board**.
 
-1. In the top right corner, click **Create list**.
+1. In the top right corner, click **New list**.
 
 1. Check that the **Label** radio button is selected in the Scope section of the list configuration pane.
 
@@ -104,7 +104,7 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Click **Add to board**.
 
-1. In the top right corner, click **Create list**.
+1. In the top right corner, click **New list**.
 
 1. Check that the **Label** radio button is selected in the Scope section of the list configuration pane.
 
@@ -112,7 +112,7 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Click **Add to board**.
 
-1. In the top right corner, click **Create list**.
+1. In the top right corner, click **New list**.
 
 1. Click on the **Milestone** radio button in the Scope section of the list configuration pane.
 
