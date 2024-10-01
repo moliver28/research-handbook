@@ -1413,49 +1413,38 @@ Please see [Analytics Instrumentation Guide](/handbook/product/analytics-instrum
 
 ## Post Launch Instrumentation Guide
 
-**Goal**
+**Goal:**
 Increase product instrumentation across our offerings to deliver greater product insights. There is a need to retroactively evaluate what features have been instrumented and need instrumentation from past feature launches. Post launch implementation will allow us to gather insights and allow better visibility into feature usage + adoption that may not currently be captured.
 
-**Tasks**:
+**Tasks:**
 
 1. Issue Request
-
-PM: Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using this templaste](https://gitlab.com/gitlab-data/product-analytics/-/blob/main/.gitlab/issue_templates/Post-Launch%20Instrumentation%20Audit.md).
-
-Assign the issue to your Product Data Insights counterpart and Carolyn Braza (`@cbraza`) will automatically be added for visibility.
-
-Alignment
-PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
-
-- Goals
-- Priorities
-- Milestones
-
-TPgM may assist in implementation of planning documentation.
-
+   - PM:
+     - Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using the Post-Launch Instrumentation template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Post-Launch%20Instrumentation%20Audit).
+     - Assign the issue to your Product Data Insights counterpart. Carolyn Braza (`@cbraza`) will automatically be added for visibility.
+   - Alignment
+     - PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
+       - Goals
+       - Priorities
+       - Milestones
+     - TPgM may assist in implementation of planning documentation.
 1. Category Inventory & Instrumentation Mapping
-
-PM/PDI: Work together to outline a category inventory using this template (https://docs.google.com/spreadsheets/d/1sqoGOM3MIOF0ntfxgJ3cuKVyY3MLT8Cfvxi5xBvgfws/edit?usp=sharing). Category level implementation should be prioritized by most utilized features and the areas we believe have the largest impact on the business. From there, PM and Product Data Insights counterparts will utilize labels outlined here in step 3 for markers of implementation status. The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
-
-For any metric or event that has been identified to contribute to a categories instrumentation the correct `product_category` should be set in the definition file.
-
+   - PM/PDI: Work together to outline a category inventory using [this spreadsheet template](https://docs.google.com/spreadsheets/d/1sqoGOM3MIOF0ntfxgJ3cuKVyY3MLT8Cfvxi5xBvgfws/edit?usp=sharing).
+     - Category level implementation should be prioritized by most utilized features and the areas we believe have the largest impact on the business.
+     - From there, PM and Product Data Insights counterparts will utilize labels outlined here in step 3 for markers of implementation status.
+     - The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
+   - For any metric or event that has been identified to contribute to a categories instrumentation the correct `product_category` should be set in the definition file.
 1. Audit & Review
-
-PM/PDI: will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA.
-
+   - PM/PDI: will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA.
 1. Update Categories yaml file
-
-PM: Update the categories.yml file with the applicable implementation status (see below) Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level overtime.
-
-- Complete -  Instrumentation complete and satisfactory
-- Incomplete - Some instrumentation, but not complete
-- None - No instrumentation - instrumentation needed
-- Not needed - Instrumentation not needed
-
+   - PM: Update the categories.yml file with the applicable implementation status (see below) Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level over time.
+     - Complete -  Instrumentation complete and satisfactory
+     - Incomplete - Some instrumentation, but not complete
+     - None - No instrumentation - instrumentation needed
+     - Not needed - Instrumentation not needed
 1. Analytics Instrumentation
-
-PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete),
-PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the [usage data instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage+Data+Instrumentation).
+   - PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete),
+   - PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the [usage data instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage+Data+Instrumentation).
 
 ## Page load performance metrics
 
