@@ -239,8 +239,10 @@ Here, we explicitly pass `c`, `o`, and `u` fields. If the field is missing it wo
 
 #### HTTP Router support for JWT
 
+Some tokens like `CI_JOB_TOKEN` will be [converted to JWT](../../ci_job_token/index.md).
 The [JWT](https://en.wikipedia.org/wiki/JSON_Web_Token) is built from 3 different dot
 separated base64 url encoded sections: JSON header, JSON payload and signature.
+Progress is tracked at: [Phase 4.3: Routable Tokens of CI Job Token](https://gitlab.com/groups/gitlab-org/-/epics/15281).
 
 ```json
 [
