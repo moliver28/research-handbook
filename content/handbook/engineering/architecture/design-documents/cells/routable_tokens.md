@@ -215,7 +215,7 @@ introduce a stage of processing information: `process`.
         "value": "^glpat-(?<payload>.*)$"
       }
     ],
-    "process": [
+    "transform": [
       {
         "type": "base64-line-delimited",
         "key": "decoded",
@@ -252,7 +252,7 @@ separated base64 url encoded sections: JSON header, JSON payload and signature.
         "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
       }
     ],
-    "process": [
+    "transform": [
       {
         "type": "base64-json",
         "key": "decoded",
@@ -293,7 +293,7 @@ on CPU compute cost:
         "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
       }
     ],
-    "process": [
+    "transform": [
       {
         "type": "jwt-signature",
         "key": "env.GITLAB_CI_JWT_PUBLIC_KEY",
