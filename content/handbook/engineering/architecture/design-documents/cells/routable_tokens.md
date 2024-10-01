@@ -86,7 +86,7 @@ that are required to be made routable in the Phase 4: [Personal Access Token](ht
 - Each line starts with a character indicating a type of value it describes. We also use a `:` to delimit between type, and value.
 - The tokens as stored and validated by the application would not change.
 - Extend `TokensAuthenticatable` framework to allow generating a structured routable token.
-- The high entropy of a token is provided by required usage of `r` param with a random string, so the token cannot be forged.
+- The high entropy of a token is provided by required usage of `r` parameter with a random string, so the token cannot be forged.
 - The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>-[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
 
 ### Pseudo code generation
