@@ -123,9 +123,8 @@ The SEM role accommodates managers who have a broad span of control (multiple te
 - Scores range from 1 (no examples of this behavior) to 5 (strong and frequent examples of this behavior)
 - Span of control and Sphere of influence sections have required minimums
 - While 3's (showing the competency, maybe not strongly or frequently) are not frowned upon, a strong candidate should strive for mostly 4's and 5's
-- Use this rubric loosely to allow for nuances and ultimately manager discretion
-
-
+- Use this rubric loosely to allow for nuances, and as a career development discussion starter
+- Consider organizational readiness to accommodate a new SEM, and seek out other opportunities within the organization that might have these capabilities
 ## Hiring Process
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
