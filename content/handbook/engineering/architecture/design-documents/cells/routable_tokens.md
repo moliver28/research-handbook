@@ -320,7 +320,6 @@ on CPU compute cost:
 
 - Passing `CI Job Token` as part of [POST body](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html#to-authenticate-a-rest-api-request).
 - Passing `CI Trigger token` as part of [POST body](https://docs.gitlab.com/ee/ci/triggers/#use-curl).
-- Number of tokens stored use digest (mostly `sha256` with salt) in database making it impossible to rotate.
 - Some tokens use its own implementation instead of `TokensAuthenticatable`, like `EE::Project#external_webhook_token`.
 
 ## Questions
