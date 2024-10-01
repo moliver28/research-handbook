@@ -78,6 +78,7 @@ A lot of the terms we use in this area sound similiar and can be confusing at fi
 - **Code Suggestions**: A feature within Code Creation that provides AI-generated code within an IDE
   - **Code Completion**: A short AI-generated suggestion intended to complete an existing line or block of code
   - **Code Generation**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
+  - <i class="fa fa-youtube-play youtube" aria-hidden="true"></i>[View code completion vs. code generation comparison demo](https://www.youtube.com/watch?v=9dsyqMt9yg4).<!-- Video published on 2024-09-26 -->
 - **Duo Chat**: Another feature that interacts with GitLab Duo Chat to write new code, refactor existing code, or scan code for vulnerabilities
 
 If it helps, here are these terms in a diagram:
