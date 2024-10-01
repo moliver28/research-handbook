@@ -33,7 +33,7 @@ This document is not meant to re-asses the need for the following goals:
 - Define the pattern allowing online encryption keys rotation
 - Document how to deprecate and remove legacy encryption keys, or legacy strategies
 - Unify storing of secrets and tokens
-- Move away from `attr-encrypted` to use a single secrets framework
+- Move away from `attr_encrypted` to use a single secrets framework
 - Introduce transit/shared key to be used with [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857)
 
 Those non-goals are meant to be solved with a new design document describing secrets management by the application.
@@ -75,8 +75,8 @@ This proposal is to make all tokens to encode routable information about object
 to which the token is attached. This document does focus specifically first on tokens
 that are required to be made routable in the Phase 4: [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [CI/CD Job Token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html) and [Runner Authentication Token](https://docs.gitlab.com/ee/security/tokens/#runner-authentication-tokens):
 
-- Currently tokens are generated with the follow pattern: `<prefix>-<random-string>`.
-- The Routable Token would change the `<random-string>` to become a `<payload>`. Likely, the `<payload>` will have a longer length then the previous `<random-string>`, due to the need to encode more information.
+- Currently tokens are generated with the follow pattern: `<prefix><random-string>`.
+- The Routable Token would change the `<random-string>` to become a `<payload>`. Likely, the `<payload>` will have a longer length than the previous `<random-string>`, due to the need to encode more information.
 - The ability to decode `<payload>` is a feature reserved for the HTTP Router.
 - Application should never decode `<payload>` and use it for authentication purposes.
 - The generated token is stored in whole as-is and is validated against its full value.
@@ -86,8 +86,8 @@ that are required to be made routable in the Phase 4: [Personal Access Token](ht
 - Each line starts with a character indicating a type of value it describes. We also use a `:` to delimit between type, and value.
 - The tokens as stored and validated by the application would not change.
 - Extend `TokensAuthenticatable` framework to allow generating a structured routable token.
-- The high entropy of a token is provided by required usage of `r` parameter with a random string, so the token cannot be forged.
-- The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>-[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
+- The high entropy of a token is provided by requiring `r` parameter with a 16 bytes random string, so the token cannot be forged.
+- The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
 
 ### Pseudo code generation
 
@@ -96,17 +96,22 @@ The Routable Token pseudo code generation:
 ```ruby
 def generate_pat(user, project)
   params = {
-    c: Gitlab.cell.id,
-    o: project.organization_id,
-    u: user.id,
+    c: Gitlab.cell.id.to_s(36),
+    o: project.organization_id.to_s(36),
+    u: user.id.to_s(36),
     r: SecureRandom.random_bytes(16)
   }
 
   payload = params.map{|k,v| "#{k}:#{v}"}.join("\n")
 
-  "glpat-#{Base64.urlsafe_encode64(payload, padding: false)}"
+  "#{PersonalAccessToken.token_prefix}#{Base64.urlsafe_encode64(payload, padding: false)}"
 end
 ```
+
+Note that we use base36 for bigint to shorten the length of the produced token.
+It's also the reason why we're using raw random bytes instead of encoding them
+in text. Users do not need to look at the random bytes and we encode the
+eventual token in base64 anyway.
 
 For example the token `glpat-YzEwMApvMQp1MTAwCnJkMWMzNDc1ODAzYThjN2VhZDJlMDUzZGE2OTA4ZjQ2Yg` encodes
 the following payload:
@@ -242,7 +247,8 @@ Here, we explicitly pass `c`, `o`, and `u` fields. If the field is missing it wo
 Some tokens like `CI_JOB_TOKEN` will be [converted to JWT](../../ci_job_token/index.md).
 The [JWT](https://en.wikipedia.org/wiki/JSON_Web_Token) is built from 3 different dot
 separated base64 url encoded sections: JSON header, JSON payload and signature.
-Progress is tracked at: [Phase 4.3: Routable Tokens of CI Job Token](https://gitlab.com/groups/gitlab-org/-/epics/15281).
+
+Support for `CI_JOB_TOKEN` is tracked at: [Phase 4.3: Routable Tokens of CI Job Token](https://gitlab.com/groups/gitlab-org/-/epics/15281).
 
 ```json
 [
@@ -333,7 +339,7 @@ on CPU compute cost:
   by organization are to be rotated first before they can be migrated.
   This might require the organization to perform self-rotation of such tokens.
 
-1. Why we do not use JWT?
+1. Why don't we use JWT?
 
 The JWT is truly meant to be used as an ephemeral token, usually tied with the time-limited operation. It is strongly not preferred to store JWT for a long periods of time. JWT is also not user-friendly, and should rather be used in a concept of IDP frameworks like OAuth2.
 
