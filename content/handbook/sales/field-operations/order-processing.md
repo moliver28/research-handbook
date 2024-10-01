@@ -227,7 +227,7 @@ The below process applies to any existing customers with an active subscription 
 
 **Important:** If a QSR is refunded, max user count must be reset by opening a ticket with Support. Deal Desk will support this process. [Internal process guide here](https://gitlab.com/gitlab-com/sales-team/field-operations/deal-desk/-/wikis/Web-Direct-Quarterly-Seat-Reconciliation-(QSR)-Refunds).
 
-#### How To Opt-Out of Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and Operational Data
+#### How To Opt-Out of Auto-Renewal, QSR, Cloud Licensing and Operational Data
 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
 
@@ -429,7 +429,7 @@ Within the Customer Opportunity:
 
 **At this time, the Contract Request Case will be marked as "Closed". Follow the below steps to initiate "Contract Review" of the Customer edits.**
 
-#### Request for GitLab review of Customer edits to GitLab Template, OR, Review of Customer Agreement Template
+#### Request for GitLab Review: Customer edits to GitLab Template OR Customer Agreement Template
 
 Within the Customer Opportunity:
 
