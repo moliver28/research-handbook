@@ -1,5 +1,5 @@
 ---
-title: "Internal releases for GitLab in-house instances"
+title: "Internal releases for GitLab SaaS single tenant instances"
 status: ongoing
 creation-date: "2024-09-24"
 owning-stage: "~devops::platforms"
@@ -12,13 +12,21 @@ toc_hide: true
 ## Introduction
 
 GitLab's business model is open core, from the beginning of time, GitLab releases were designed to be public. In 2023 GitLab launched a new
-fully managed private solution, [GitLab Dedicated](https://about.gitlab.com/dedicated/), acting as a single-tenant SaaS offering. These managed
-in-house instances are under the [availability-first mindset paradigm](/handbook/engineering/development/principles/#prioritizing-technical-decisions).
+fully managed private solution, [GitLab Dedicated](https://about.gitlab.com/dedicated/), our single tenant SaaS offering. These internal
+instances are under the [availability-first mindset paradigm](/handbook/engineering/development/principles/#prioritizing-technical-decisions).
 
-With in-house instances, Delivery has an increasing need to prepare private packages to remediate high-severity issues within
-[specific SLAs](/handbook/security/product-security/vulnerability-management/sla/). Those instances are currently
-customers of our Self Managed releases as we have no official release process for private instances, to solve this, release managers must manually
-operate the release process available to comply with the remediation SLAs.
+With single tenant SaaS instances, Delivery has an increasing need to prepare private packages to remediate high-severity issues within
+[specific SLAs](/handbook/security/product-security/vulnerability-management/sla/). There is no official release process
+available to remediate these private instances; in case of a high-severity vulnerability, release managers must manually operate the release
+tooling available to remediate the single tenant SaaS instances within the remediation SLAs, impacting GitLab customers and the ability to remediate
+them on time:
+
+* Lack of a specific release process puts at risk the availability and integrity of single tenant SaaS customers.
+* The current release tooling lacks the flexibility to perform simultaneous releases, e.g. if a vulnerability is found near the
+  monthly release week preparation, a release candidate must be created earlier on the development cycle, renouncing features and bug fixes for the active monthly release.
+* Elevated coordination between release managers and all the stakeholders involved.
+
+![current remediation strategy](/static/images/handbook/engineering/architecture/design-documents/internal-releases/current_remediation_strategy.png)
 
 ## Goal
 
@@ -33,18 +41,20 @@ is this blueprint that documents the internal release roadmap.
 2. **Remove the blocking nature of releases**. Engineering constraints prevent preparing a patch release in the middle of the
 monthly release week preparation. Establishing a private release process requires removing this constraint with flexible tooling
 to allow simultaneous releases without leaking vulnerabilities before they’re disclosed.
-3. **Elevate the GitLab Dedicated remediation process to a first-class citizen**. GitLab in-house instances are remediated on the
+3. **Elevate the GitLab Dedicated remediation process to a first-class citizen**. GitLab SaaS single tenant instances are remediated on the
 fly during a critical patch release, involving considerable toil from release management, security and engineering stakeholders.
 Internal releases aim to upgrade the GitLab Dedicated remediation process to be at the same level as GitLab.com and self-managed remediation processes.
 
+![goal](/static/images/handbook/engineering/architecture/design-documents/internal-releases/goal.png)
+
 ## Key terms
 
-- Internal releases: New private release strategy to remediate GitLab in-house instances within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).
-- GitLab in-house instances: SaaS instances managed by GitLab, Inc. At the moment limited to [GitLab Dedicated](https://about.gitlab.com/dedicated/).
-- [Patch releases](/handbook/engineering/releases/patch-releases): A semver versioned package backporting bug and security fixes based on the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
-- [Monthly release](/handbook/engineering/releases/#self-managed-overview): A semver versioned package containing features and bug fixes deployed to GitLab.com
-- [Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/): GitLab process to deploy application changes to GitLab.com
-- [Release managers](https://about.gitlab.com/community/release-managers/): DRI’s to deliver GitLab monthly and patch releases and performing deployments to GitLab.com
+* Internal releases: New private release strategy to remediate GitLab SaaS single tenant instances within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).
+* GitLab SaaS single tenant instances: SaaS instances managed by GitLab, Inc. At the moment limited to [GitLab Dedicated](https://about.gitlab.com/dedicated/).
+* [Patch release](/handbook/engineering/releases/patch-releases) or self managed release: A semver versioned package backporting bug and security fixes based on the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+* [Monthly release](/handbook/engineering/releases/#self-managed-overview): A semver versioned package containing features and bug fixes deployed to GitLab.com
+* [Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/): GitLab process to deploy application changes to GitLab.com
+* [Release managers](https://about.gitlab.com/community/release-managers/): DRI’s to deliver GitLab monthly and patch releases and performing deployments to GitLab.com
 
 ## Goals and non-goals
 
@@ -55,8 +65,8 @@ Internal releases aim to upgrade the GitLab Dedicated remediation process to be 
 Align the internal releases effort into the GitLab Delivery strategy. Outline a vision, effort, and an understanding of the
 challenges and requirements to embed an internal release process as part of the GitLab releases. We will deliver this by:
 
-- Documenting a blueprint detailing the roadmap and iterative steps to achieve the internal release vision. 
-  - Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1292 
+* Documenting a blueprint detailing the roadmap and iterative steps to achieve the internal release vision. 
+  * Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1292 
 
 #### Medium-term
 
@@ -64,29 +74,29 @@ Release Managers will kick off an automated process to create a private release 
 to remediate GitLab Dedicated without disclosing the vulnerabilities to the public. After the GitLab Dedicated team has
 sent an acknowledgement that all instances are upgraded, the publish process is then kicked off. We will deliver this by:
 
-- Designing an internal release process to remediate high-severity incidents on GitLab in-house instances. 
-  - Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1201
-- Bridging the patch release process to account for the current GitLab Dedicated remediation strategy. This will
+* Designing an internal release process to remediate high-severity incidents on GitLab SaaS single tenant instances. 
+  * Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1201
+* Bridging the patch release process to account for the current GitLab Dedicated remediation strategy. This will
   permit the generation of a private package with a different tag from the public patch.
-  - Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1373 
-- Decouple the current auto-deploy strategy. This will transform release tooling into highly flexible tools and
+  * Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1373 
+* Decouple the current auto-deploy strategy. This will transform release tooling into highly flexible tools and
   allow to cleanly separate the private and public parts of this process to ensure GitLab Dedicated is running a patched
   version before any fixes are communicated/released publicly.
-  - Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1050.
+  * Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1050.
 
 #### Long-term
 
-An internal release process to remediate high-severity incidents on GitLab in-house instances is part of the GitLab
+An internal release process to remediate high-severity incidents on GitLab SaaS single tenant instances is part of the GitLab
 release strategy. Release managers will be able to perform an internal release process to remediate high-severity incidents
-in GitLab in-house instances. The outcome of this process will allow GitLab to iteratively deliver fixes to GitLab Dedicated
+in GitLab SaaS single tenant instances. The outcome of this process will allow GitLab to iteratively deliver fixes to GitLab Dedicated
 based on the remediation SLAs or when there is a pressing need (24-hour remediation or short critical remediation targets).
 
 The whole process should be automated end to end, initiating with the auto-upgrade of Dedicated tenants via Switchboard
 provided API, and only paging engineers when manual intervention is required. We will do this by:
 
-- Use advanced package deployment strategies to prepare a private package without blocking an existing release process.
-- Emitting private packages without disclosing the vulnerabilities to the general audience. 
-- Acquaint the internal release process with stakeholders involved in the GitLab Dedicated remediation strategies.
+* Use advanced package deployment strategies to prepare a private package without blocking an existing release process.
+* Emitting private packages without disclosing the vulnerabilities to the general audience. 
+* Acquaint the internal release process with stakeholders involved in the GitLab Dedicated remediation strategies.
 
 ### Scope
 
@@ -95,12 +105,12 @@ this is limited to GitLab Dedicated.
 
 ### Out of scope
 
-- GitLab Cells is not considered for internal releases, subject to change in the future.
-- Internal releases are not intended to be a product feature.
-- Internal releases are limited to mitigate critical vulnerabilities or bug fixes that impact the availability of
-  in-house instances. Issues with lower severity stick to the [patch release cadence](/handbook/engineering/releases/#patch-release-cadence).
-- GitLab.com and GitLab self-managed instances are not considered for internal releases. For these instances,
-  monthly and patch releases address bug and vulnerabilities within the [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
+* Internal releases are not intended to be a product feature.
+* Internal releases are limited to mitigate critical vulnerabilities or bug fixes that impact the availability of
+* GitLab SaaS single tenant instances. Issues with lower severity stick to the [patch release cadence](/handbook/engineering/releases/#patch-release-cadence).
+* GitLab.com and GitLab self-managed instances are not considered for internal releases. On these instances,
+  auto-deploy, patch and monthly releases remediate bug and vulnerabilitilies within the [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
+* GitLab Cells is not considered for internal releases, subject to change in the future.
 
 ## Proposed plan of action
 
@@ -112,7 +122,7 @@ main rqeuirements must be addressed:
 
 These two requirements can be addressed simultaneously, the work for each will span throughout multiple quarters.
 
-![roadmap](/images/handbook/engineering/architecture/design-documents/internal-releases/roadmap.png)
+![roadmap](/static/images/handbook/engineering/architecture/design-documents/internal-releases/roadmap.png)
 
 ### Remove the blocking nature of GitLab releases
 
@@ -121,7 +131,7 @@ to the GitLab production environments. This operation breaks the mirroring betwe
 repositories which impedes the monthly release preparation: performing a monthly release with a pending security fix
 puts at risk the integrity of GitLab instances because the vulnerability is revealed before the fix is available to the
 public. An internal release process requires adjusting the mitigation strategy to use private and personalized packages
-that don’t break the mirroring between GitLab repositories.  This work will be done in iterations that will likely multiple quarters:
+that don’t break the mirroring between GitLab repositories. This work will be done in iterations that will likely span multiple quarters:
 
 1. **First iteration: Decouple auto-deploy tagging from rollout** - Removes the strong coupling between building packages
    and rolling them out to GitLab production environments by establishing two independent processes: one for building packages
@@ -144,5 +154,5 @@ remediation processes. Considering GitLab open-core nature this is an uncharted 
    GitLab Dedicated.
 3. **Third iteration: Automate the internal release process end-to-end** - With an established internal release process and
    with the ability to create custom auto-deploy packages:
-   - Efforts should be spent to guarantee predictability and results by minimizing or removing the human factor from the process.
-   - The highly flexible auto-deploy process will be used to deploy security fixes without breaking the mirroring between GitLab repositories.
+   * Efforts should be spent to guarantee predictability and results by minimizing or removing the human factor from the process.
+   * The highly flexible auto-deploy process will be used to deploy security fixes without breaking the mirroring between GitLab repositories.
