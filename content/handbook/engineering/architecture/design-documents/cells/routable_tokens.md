@@ -86,7 +86,7 @@ that are required to be made routable in the Phase 4: [Personal Access Token](ht
 - Each line starts with a character indicating a type of value it describes. We also use a `:` to delimit between type, and value.
 - The tokens as stored and validated by the application would not change.
 - Extend `TokensAuthenticatable` framework to allow generating a structured routable token.
-- The high entropy of a token is provided by requiring `r` parameter with a 16 bytes random string, so the token cannot be forged.
+- The high entropy of a token is provided by requiring `r` parameter with 16 random bytes, so the token cannot be forged.
 - The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
 
 ### Pseudo code generation
@@ -108,20 +108,26 @@ def generate_pat(user, project)
 end
 ```
 
-Note that we use base36 for bigint to shorten the length of the produced token.
+Note that we use base36 for bigint to shorten the length of the eventual token.
 It's also the reason why we're using raw random bytes instead of encoding them
 in text. Users do not need to look at the random bytes and we encode the
 eventual token in base64 anyway.
 
-For example the token `glpat-YzEwMApvMQp1MTAwCnJkMWMzNDc1ODAzYThjN2VhZDJlMDUzZGE2OTA4ZjQ2Yg` encodes
-the following payload:
+Here's an example of a token having maximum ids, showing the maximum length of
+a token:
+
+`glpat-YzozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgp1OjN3NWUxMTI2NHNnc2YKcjoryxlMTQzr4jrHd3j4gOoL`
+encodes the following payload:
 
 ```text
-c:100
-o:1
-u:100
-r:d1c3475803a8c7ead2e053da6908f46b
+c:3w5e11264sgsf
+o:3w5e11264sgsf
+u:3w5e11264sgsf
+r:+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v
 ```
+
+Note that `3w5e11264sgsf` is `(2**64-1).to_s(36)` which is the largest number
+for a bigint. `+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v` is 16 random bytes.
 
 ### Meaning of fields
 
