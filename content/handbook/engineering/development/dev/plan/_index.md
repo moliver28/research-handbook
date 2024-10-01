@@ -48,7 +48,7 @@ Subtracting the carry over weight (item 2) from our expected capacity (the produ
 
 #### Estimating effort
 
-We use a lightweight system of issue weighting to help with capacity planning,
+When weighting an issue for a milestone, we use a lightweight approach 
 with the knowledge that [things take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html). These weights are
 used for capacity planning and the main focus is on making sure the overall sum
 of the weights is reasonable.
