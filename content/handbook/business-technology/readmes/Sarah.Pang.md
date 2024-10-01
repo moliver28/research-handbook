@@ -25,9 +25,9 @@
 I embrace a flexible work style, which allows me to adjust my approach based on the task at hand and the needs of my team. Whether working alone or collaborating with colleagues, I can modify my methods to achieve results. Additioanlly, building strong professional and personal relationships with peers is important to me, as I believe that meaningful connections foster an atmosphere of trust and respect. I also believe empathy plays a key role in my interactions with others. I prioritize understanding my peer’s perspectives and emotions, as this level of connection strengthens teamwork and enhances trust.
 
 # Communication with me
-I prefer asynchronous communication through Slack, however, I also recognize at times that synchronous meetings and calls are essential for resolving issues more quickly and efficiently. 
-
 Establishing and communicating clear expectations is important to me, so that everyone is aligned and working towards the same objectives. I appreciate being provided with context when assigned tasks or consulted for input on making decisions, as it will help me better understand the situation to contribute effectively. Instead of rushing to conclusions, I like to take the time to analyze the details and implications of a question/request so that my contributions are meaningful and impactful.
+
+I prefer asynchronous communication through Slack, however, I also recognize at times that synchronous meetings and calls are essential for resolving issues more quickly and efficiently. 
 
 # What I am working on today
 - Lead the user access review program for G&A systems.
