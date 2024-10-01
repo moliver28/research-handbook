@@ -137,7 +137,7 @@ To learn more about our [Brand Guidelines](https://design.gitlab.com/brand/overv
 
 #### Providing feedback
 
-The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction). When working with our team, it is important to provide constructive feedback by keeping these same factors in mind.
+The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
 
 Constructive feedback takes into consideration our [values](/handbook/values/) of collaboration, efficiency, and results. The following tools can help keep feedback focused, all while allowing a project to move along in a timely manner:
 
