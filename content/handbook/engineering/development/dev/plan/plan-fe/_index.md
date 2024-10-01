@@ -48,10 +48,6 @@ above.
 
 For more urgent items, feel free to also share the issue in [#s_plan](https://gitlab.slack.com/archives/s_plan) on Slack.
 
-### Capacity Planning
-
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
-
 ### Frontend weighting
 
 We're using a lightweight asynchronous planning model to determine weights of
