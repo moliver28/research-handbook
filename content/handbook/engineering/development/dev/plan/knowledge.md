@@ -43,7 +43,7 @@ It's OK not to take the top item if you are not confident you can solve it, but 
 
 ### Capacity
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage. Read more about it on the [Plan Stage handbook page](/handbook/engineering/development/dev/plan/#estimating-effort).
 
 Typically, 3-month rolling average is a good indicator of the team's capacity. Knowledge is a new team and determining capacity will be difficult at the beginning without clear historical data.
 
