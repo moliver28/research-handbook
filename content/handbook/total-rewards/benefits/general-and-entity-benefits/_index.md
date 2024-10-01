@@ -16,7 +16,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab BV (Netherlands)]({{< ref "bv-benefits-netherlands" >}})
 - [GitLab BV (Belgium)]({{< ref "bv-benefits-belgium" >}})
 - [GitLab BV (Finland)]({{< ref "bv-benefits-finland" >}})
-- [Global Upside (India, Philippines, Kenya, Chile, Costa Rica, and Latvia)]({{< ref "global-upside-benefits-india" >}})
+- [Global Upside (India)]({{< ref "global-upside-benefits-india" >}})
 - [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
 - [GitLab LTD (UK)]({{< ref "ltd-benefits-uk" >}})
 - [GitLab GmbH (Germany)]({{< ref "gmbh-germany" >}})
@@ -28,8 +28,9 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil,Denmark, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
-- [Papaya Global (UAE, Italy)]({{< ref "papaya-global" >}})
+- [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
+- [Papaya Global (Italy)]({{< ref "papaya-global" >}})
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, and UAE)]({{< ref "global-expansion" >}})
 
 ### Benefits Available to Contractors
 
