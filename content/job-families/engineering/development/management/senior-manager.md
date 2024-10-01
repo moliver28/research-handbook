@@ -114,6 +114,18 @@ The Senior Engineering Manager is a [grade 9](/handbook/total-rewards/compensati
   class manager:senior selected
 ```
 
+### Career Matrix
+
+The SEM role accommodates managers who have a broad span of control (multiple teams) and/or a broad sphere of influence (multiple initiatives). We want to ensure that both dimensions are considered when assessing readiness, so these two organizationally different roles have equitable opportunities to advance. To do this, we are [trialing this rubric](https://docs.google.com/spreadsheets/d/1Qo2pdkLuzcodFVojQgQXOhmK4VOBFbg0VOIKav-Fpyw/edit?gid=0#gid=0) as a guideline to help us visualize the differences, while maintaining core competencies overall. It is aligned to the roles job family (this page) and [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit?gid=0#gid=0), and can be used by Engineering Managers, Directors, or mentors who are interested in an Engineering Manager achieving the next level or when reviewing promotion documents themselves. However, it should be used as a guideline only and results from this rubric are not meant to be exact at this stage.
+
+**How to use:**
+
+- Scores range from 1 (no examples of this behavior) to 5 (strong and frequent examples of this behavior)
+- Span of control and Sphere of influence sections have required minimums
+- While 3's (showing the competency, maybe not strongly or frequently) are not frowned upon, a strong candidate should strive for mostly 4's and 5's
+- Use this rubric loosely to allow for nuances and ultimately manager discretion
+
+
 ## Hiring Process
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
