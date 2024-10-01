@@ -15,6 +15,7 @@ Due to the configurability and importance of these features it is critical to en
 
 - Review and test the current DB ERD and review how the DB queries will scale for large groups (1000+ projects).
 - Review the current ADRs and technical review.
+- Review the effort it would take to add new controls.
 
 ## Feature Overview
 
@@ -54,6 +55,7 @@ On modification of a project setting, using [feature branch](https://gitlab.com/
 ```rb
 Project.includes(compliance_management_frameworks: :compliance_requirements).find(project_id)
 ```
+Link to Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99301
 
 <details><summary>query plan</summary>
 
@@ -161,6 +163,8 @@ WHERE
 
 #### 2. Retrieval of Compliance Requirements for Project's Frameworks
 
+Link to Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99300
+
 <details><summary>Query plan</summary>
 
 ```sql
@@ -201,6 +205,8 @@ ComplianceManagement::ComplianceRequirement::QueryEvaluator.new(Gitlab::Json.par
 
 For `at_least_two_approvals` or any other control related to approval rule
 
+Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99302
+
 ```sql
 SELECT
     SUM(approvals_required)
@@ -212,6 +218,8 @@ LIMIT 1
 ```
 
 For `default_branch_protected`
+
+Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99303
 
 ```sql
 SELECT
@@ -226,6 +234,8 @@ FROM (
 ```
 
 Fetching namespace
+
+Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99304
 
 ```sql
 SELECT
@@ -294,6 +304,8 @@ Alternatively, we can load all required tables initially with the project fetch 
 
 After evaluating the control_expression to true/false we can insert the result in `project_compliance_configuration_status` which produces the following SQL
 
+Link to Database Lab query plan - https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99315
+
 <details><summary>Queries</summary>
 
 ```sql
@@ -329,7 +341,7 @@ In certain cases, a control expression must be evaluated on a recurring cadence;
 | ------ | ------ |
 | Project applicability | Ultimate projects with associated Framework |
 | Limit on frameworks per project | 5 |
-| Limit on total requirements per framework |  |
+| Limit on total requirements per framework | 5 |
 | Limit on total controls per requirement | 5 |
 | Limit on total fields per control expression | 5 |
 | Allowed fields belonging to control expressions | Bounded allowlist tied to applicable schema |
