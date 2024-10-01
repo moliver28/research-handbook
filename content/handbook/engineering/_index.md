@@ -2,7 +2,7 @@
 title: Engineering
 ---
 
-## FY24 Direction
+## FY25 Direction
 
 GitLab has a [Three-Year Strategy](/handbook/company/strategy/), and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
 
@@ -43,6 +43,20 @@ Work in the 40% time budget should be coordinated and prioritized by the enginee
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
 - Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
+
+## Adapting to Change
+
+We believe that continious adaptation, curiousity and optimism are the keys to staying ahead of the curve. As quoted in Forbes Magazine (Jan 2022), 
+
+> "People who can deal with uncertainty, assess situations, improvise and take positive action will be in demand in the future of work. As the world becomes more uncertain, people who can thrive with a lack of information will have an advantage."
+
+Our world is constantly evolving, and the engineering landscape is no exception. New technologies emerge, market demands shift, and our understanding of user needs deepens. By fostering a culture that embraces change, we empower ourselves to:
+
+- Stay Curious: Ask questions, seek diverse perspectives. Curiosity fuels innovation and helps us identify opportunities within new challenges.
+- Stay Engaged: Be actively involved in discussions about upcoming changes. Share your thoughts, concerns, and ideas to contribute to customer results.
+- Stay Active: Don't wait for change to happen to you. Take initiative, and adapt your approach to align with evolving requirements.
+- Balance Patience and Action: Recognize that change often takes time. Patience is equally important as we navigate the learning curve.
+- Be Honest with Yourself: Self-awareness is key. Acknowledge your own reactions to change and address any anxieties or resistance productively.
 
 ### Community Contributions
 
