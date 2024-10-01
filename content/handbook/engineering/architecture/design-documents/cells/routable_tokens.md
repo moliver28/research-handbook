@@ -99,7 +99,7 @@ def generate_pat(user, project)
     c: Gitlab.cell.id,
     o: project.organization_id,
     u: user.id,
-    r: Devise.friendly_token
+    r: SecureRandom.random_bytes(16)
   }
 
   payload = params.map{|k,v| "#{k}:#{v}"}.join("\n")
