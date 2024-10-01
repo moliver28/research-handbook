@@ -117,7 +117,7 @@ The Senior Engineering Manager is a [grade 9](/handbook/total-rewards/compensati
 ### Promotion Guidance
 
 - Business justifications should include not only a need for a Senior Engineering Manager, but also a description of how they will alter your organizational structure, and why. For example, by surfacing a before/after org chart, elaborating on what teams or responsibilities will become permanently theirs, or how existing Senior Engineering Managers in the organization will be utilized differently.
-- Promotion to Senior Engineering Manager is based on a combination of individual readiness and organizational need. While personal growth and skill development are highly valued, advancement to this role is contingent upon business requirements and capacity within the existing SEM structure.Promotions are considered when:
+- Promotion to Senior Engineering Manager is based on a combination of individual readiness and organizational need. While personal growth and skill development are highly valued, advancement to this role is contingent upon business requirements and capacity within the existing SEM structure. Promotions are considered when:
   1. The candidate demonstrates readiness for increased responsibilities
   2. There is a clear business need for an additional SEM
   3. Existing SEMs are at full capacity in their current roles
