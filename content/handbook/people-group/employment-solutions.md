@@ -103,7 +103,6 @@ More detail can be found in our internal [compensation calculator](https://comp-
 | Armenia        | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | USD              | Y                     | N                  | N                     |
 | Czech Republic | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | CZK              | Y                     | N                  | N                     |
 | Greece         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | N                  | N                     |
-| Israel         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | ILS              | Y                     | N                  | N                     |
 | Poland         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | PLN, EUR, USD    | Y                     | N                  | N                     |
 | Portugal       | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | N                  | N                     |
 | Romania        | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR, USD         | Y                     | N                  | N                     |
@@ -112,7 +111,6 @@ More detail can be found in our internal [compensation calculator](https://comp-
 | Turkey         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | USD              | Y                     | N                  | N                     |
 | Ukraine        | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | USD, EUR         | Y                     | N                  | N                     |
 | Hungary        | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | HUF              | Y                     | Y                  | N                     |
-| Spain *        | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | Y                  | N                     |
 | Denmark *      | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | DKK              | Y                     | Y                  | N                     |
 |    Brazil *    |  Employed via a PEO  |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        BRL       |           Y           |          Y         |           N           |
 |      UAE *     |  Employed via a PEO  |  Papaya Global |           GitLab IT BV          |       12      |   PEO   |        AED       |           Y           |          Y         |           N           |
