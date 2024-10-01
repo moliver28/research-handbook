@@ -159,7 +159,6 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Analyst EMEA - Eoghan Dunne, edunne@gitlab.com, @edunne-gl
 
-
 - IT Global Logistics - Mic Rohr, mrohr@gitlab.com, @mic_rohr
 
 #### Laptop Wipe Schedules for IT Analysts
