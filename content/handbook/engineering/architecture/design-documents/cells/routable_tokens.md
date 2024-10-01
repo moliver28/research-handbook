@@ -102,7 +102,7 @@ def generate_pat(user, project)
     r: Devise.friendly_token
   }
 
-  payload = params.map(&:join).join("\n")
+  payload = params.map{|k,v| "#{k}:#{v}"}.join("\n")
 
   "glpat-#{Base64.urlsafe_encode64(payload, padding: false)}"
 end
@@ -112,10 +112,10 @@ For example the token `glpat-YzEwMApvMQp1MTAwCnJkMWMzNDc1ODAzYThjN2VhZDJlMDUzZGE
 the following payload:
 
 ```text
-c100
-o1
-u100
-rd1c3475803a8c7ead2e053da6908f46b
+c:100
+o:1
+u:100
+r:d1c3475803a8c7ead2e053da6908f46b
 ```
 
 ### Meaning of fields
