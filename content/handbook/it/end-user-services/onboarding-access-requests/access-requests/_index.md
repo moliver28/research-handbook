@@ -14,7 +14,7 @@ If you have any access requests related questions, please reach out to #it_help 
 
 ## Need help?
 
-- Please @ mention `@gitlab-com/business-technology/end-user-services` in the issue, with no particular SLA.
+- Please @ mention `@gitlab-com/gl-security/corp/helpdesk` in the issue, with no particular SLA.
 - If your request is urgent, @ mention `it-help`in the #it_help channel in slack with a note on why it is urgent.
 
 ## How do I choose which template to use?
