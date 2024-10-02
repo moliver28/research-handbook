@@ -351,7 +351,6 @@ LIMIT 1
 
 </details>
 
-
 #### 4. Retrieval of Compliance Requirements for given framework
 
 <details><summary>click to expand query plan</summary>
