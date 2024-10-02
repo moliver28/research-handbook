@@ -364,6 +364,6 @@ The JWT is truly meant to be used as an ephemeral token, usually tied with the t
 
 - [Token Prefixes documentation](https://docs.gitlab.com/ee/security/tokens/index.html#token-prefixes)
 - [Routable Token generation PoC in Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/157440)
-- [Technical proposal for routable tokens and secrets management](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856)
+- [Technical proposal for routable tokens](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/8527)
 - (Internal) Google Spreadsheet of various [tokens](https://docs.google.com/spreadsheets/d/1n54lCX2axsTIt8DZBRFj9p44s6YcFp-UechVEHEim8Y/) used by the GitLab.
 - [Phase 4](https://gitlab.com/groups/gitlab-org/-/epics/14510).
