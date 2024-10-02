@@ -29,13 +29,13 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 
 #### Requirements
 
-- Technical credibility:
-  - Professional experience as an engineer in at least one primary language or framework of the organization, or a closely related language or framework.
-  - Ability to discuss architectural concepts and systems design, and to broker technical decisions at a high-level between individual contributors.
-  - Experience across the devops lifecycle, with deep understanding of at least one area.
-  - An understanding of multiple delivery and distribution strategies, including an ability to maintain velocity within GitLab's dual cadence of continuous deployment and a monthly release cycle.
-  - Ability to communicate technical concepts to non-technical stakeholders.
-- Management credibility: Past experience (3 to 5 years) as an engineering manager
+- Professional experience as an engineer in at least one primary language or framework of the organization, or a closely related language or framework.
+- Ability to discuss architectural concepts and systems design, and to broker technical decisions at a high-level between individual contributors.
+- Experience across the devops lifecycle, with deep understanding of at least one area.
+- An understanding of multiple delivery and distribution strategies, including an ability to maintain velocity within GitLab's dual cadence of continuous deployment and a monthly release cycle.
+- Ability to communicate technical concepts to non-technical stakeholders.
+- Past experience (3 to 5 years) as an engineering manager.
+- Proven track record of execution that demonstrates an understanding of the software development lifecycle.
 - Ability to understand, communicate and improve the quality of multiple teams
 - Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
@@ -66,10 +66,11 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 
 - Excellent communication skills
 - Expert hiring manager skills and experience
-- Experience managing managers, and a strong people management philosophy for managers and engineers.
-- Ability to coordinate complex technical projects across multiple teams, managing dependencies and risks, while providing high-level progress updates to stakeholders in clear, business-friendly terms.
-- Ability to develop long-term technical roadmaps and broker architectural decisions across teams, and to effectively allocate resources to support their impementation.
-- Oversee and prioritize technical debt at the organizational level, identifying risks, and balancing short-term delivery with long-term system health.
+- Experience managing managers, and a strong people management philosophy for both managers and engineers.
+- Track record of structuring, staffing, and maintaining a high-performing organization that is resourced appropriately and cost-effectively.
+- Ability to coordinate complex technical projects that span multiple teams, while providing high-level progress updates in clear, business-friendly terms.
+- Ability to develop long-term technical roadmaps and broker architectural decisions across teams.
+- Experience prioritizing technical debt at the organizational level, identifying risks, and balancing short-term delivery with long-term system health.
 - Expertise in agile methodologies, with a focus on optimizing overall organizational velocity and execution against business goals.
 - Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
