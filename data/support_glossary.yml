@@ -127,4 +127,4 @@
 - acronym: 
   term: Active Queue Carry
   info: |
-    (Experimental: AMER) AMER is exploring a metric called _Active Queue Carry_ which is tickets currently assigned to an engineer that are open,pending,solved,on-hold. Tickets stay in a solved state for 7 days, so it only represents the most recent solved work. 
+    **Experimental**: AMER is exploring a metric called _Active Queue Carry_, which is the sum of tickets currently assigned to an engineer that are `open`, `pending`, `solved`, and `on-hold`. Tickets stay in a solved state for 7 days, so Active Queue Carry only represents the most recent solved work.
