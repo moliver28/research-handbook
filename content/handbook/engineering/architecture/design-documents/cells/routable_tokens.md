@@ -215,7 +215,7 @@ end
 
 We intentionally encode more information to be able to change over time
 the routing criteria by modifying HTTP Router rules. The HTTP Router would
-introduce a stage of processing information: `process`.
+introduce a stage of transforming information: `transform`.
 
 ```json
 [
