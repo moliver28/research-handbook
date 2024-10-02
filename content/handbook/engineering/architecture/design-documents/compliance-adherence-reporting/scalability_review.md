@@ -409,11 +409,15 @@ We need to fetch the rows from project_compliance_configuration_status table to 
 
 ## Trigger conditions
 
-There are two paths by which a framework evaluation will be enqueued: via setting modification or via time.
+There are two paths by which a framework evaluation could be enqueued: via setting modification or via time.
 
-When a namespace setting is modified, jobs are enqueued to re-evaluate the namespace's frameworks against their applicable projects. Similarly, when a project setting is modified, a job is enqueued to re-evaluate the project against its applicable frameworks
+When a namespace setting is modified, for example, jobs may be enqueued to re-evaluate the namespace's frameworks against their applicable projects. Similarly, when a project setting is modified, a job is enqueued to re-evaluate the project against its applicable frameworks.
 
-In certain cases, a control expression must be evaluated on a recurring cadence; i.e. checking to ensure vulnerabilities are triaged within an anticipated SLO. In these cases the framework must trigger a re-evaluation frequently.
+The main disadvantage with an event-based trigger is that we have to maintain an extensive map of possible trigger points. This can be difficult to scale, requires special code for [any newly-added controls](#implementation-of-new-controls), and prone to breakage or inadvertent removal.
+
+Additionally, some controls may be impossible to tie to event-based reconciliation. In such cases, a control expression must be evaluated on a recurring cadence; i.e. checking to ensure vulnerabilities are triaged within an anticipated SLO. In these cases the framework must trigger a re-evaluation frequently.
+
+For this reason, the decision was made to use a cron-based approach to perform project compliance evaluations.
 
 ## Implementation of new controls
 
