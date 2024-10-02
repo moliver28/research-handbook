@@ -88,6 +88,7 @@ that are required to be made routable in the Phase 4: [Personal Access Token](ht
 - Extend `TokensAuthenticatable` framework to allow generating a structured routable token.
 - The high entropy of a token is provided by requiring `r` parameter with 16 random bytes, so the token cannot be forged.
 - The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
+- The secret detection script at `app/assets/javascripts/lib/utils/secret_detection_patterns.js` will need to be modified as the `<payload>` length will change. Note also the `<payload>` length will be variable as the encoded information contains varying sizes (for example `u: 1` vs `u: 9223372036854775807`).
 
 ### Pseudo code generation
 
