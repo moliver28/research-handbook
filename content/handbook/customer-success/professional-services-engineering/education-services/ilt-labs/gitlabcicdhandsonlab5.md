@@ -3,7 +3,7 @@ title: "GitLab CI/CD - Hands-On Lab: Investigating Broken Pipelines"
 description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD pipelines"
 ---
 
-## Objectives:
+## Objectives
 
 - Syntax error catching
 - Cases where no jobs run due to rules/workflows
@@ -11,6 +11,7 @@ description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD
 In the next section, we are going to take a look at deploying an application using an SSH key. To start this process, we will need to add an SSH key as a variable to our pipeline. This process can sometimes cause errors due to the formatting of the SSH key. To help with implementing this process correctly, as well as learning how to troubleshoot, let’s take a look at a common error.
 
 ## Task A. Setup the SSH Connection
+
 As a part of this course, you were provided with an SSH key to use for deployments. You will need to add this SSH key to GitLab to use it during your CI/CD process. To do this:
 
 1. Navigate to your project in GitLab.

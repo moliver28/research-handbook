@@ -21,7 +21,7 @@ In this lab, you will explore the process of creating a build process for an app
 
  > For this project, we are going to set up `main.go` so that it simply runs. Later, we will extend the functionality of the application to show more complex features of the CI/CD process. 
  
-## Task B. Setup Go Files:
+## Task B. Setup Go Files
 
 1. In your project, select **+ > New file**.
 
@@ -29,21 +29,21 @@ In this lab, you will explore the process of creating a build process for an app
 
 1. Inside of `main.go`, add the following code:
 
-```go
-package main
+    ```go
+    package main
 
-import(
-	"fmt"
-) 
+    import(
+      "fmt"
+    ) 
 
-func main() {
-	fmt.Println("We are up and running!")
-}
-```
+    func main() {
+      fmt.Println("We are up and running!")
+    }
+    ```
 
 1. Leave all options as default and select **Commit changes**.
 
-> Next, we will create a `go.mod` file:
+    > Next, we will create a `go.mod` file:
 
 1. Navigate back to your project main page.
 
@@ -53,11 +53,11 @@ func main() {
 
 1. Add the following code to the file:
 
-```go
-module array
+    ```go
+    module array
 
-go 1.22.2
-```
+    go 1.22.2
+    ```
 
 1. Leave all options as default and select **Commit changes**.
 
@@ -73,36 +73,36 @@ You will write all of your pipeline jobs in the `.gitlab-ci.yml file`. To start,
 
 1. In the Filename field, type `.gitlab-ci.yml`.
 
-4. The script section requires you to provide any scripts or code that will run as a part of your job. Since we want to build the Go application. Copy the following code into your `.gitlab-ci.yml` file.
+1. The script section requires you to provide any scripts or code that will run as a part of your job. Since we want to build the Go application. Copy the following code into your `.gitlab-ci.yml` file.
 
-```yaml
-default:
-  image: golang
+    ```yaml
+    default:
+      image: golang
 
-stages:
-  - build
+    stages:
+      - build
 
-build go:
-  stage: build
-  script:
-    - go build
-```
+    build go:
+      stage: build
+      script:
+        - go build
+    ```
 
-5. Leave all options as default and select **Commit changes**.
+1. Leave all options as default and select **Commit changes**.
 
 ## Task D. View the Build
 
 1. After committing your code, your pipeline will immediately start. To view the pipeline, navigate to **Build > Pipelines**. 
 
-Here, you will see a summary of all of your project pipelines. Each pipeline shows the following details:
-- The status of the pipeline
-- The pipeline name, ID, branch, and triggering commit
-- Who created the pipeline
-- A breakdown of pipeline status by stage
+    Here, you will see a summary of all of your project pipelines. Each pipeline shows the following details:
+    - The status of the pipeline
+    - The pipeline name, ID, branch, and triggering commit
+    - Who created the pipeline
+    - A breakdown of pipeline status by stage
 
-2. To view more details about the pipeline, select the **Status** of the pipeline. In this UI, you will see a graph of the pipeline, showing each stage, and the jobs associated with the stage. 
+1. To view more details about the pipeline, select the **Status** of the pipeline. In this UI, you will see a graph of the pipeline, showing each stage, and the jobs associated with the stage. 
 
-3. Select your **build go** job. 
+1. Select your **build go** job. 
 
 > On this screen, you will see details about your job, including all of the commands run during your job execution. On the right, you will see the duration of the job, when the job finished, how long the job was queued, the runner that completed the job, the commit that triggered the job, and further pipeline details related to the job.
 
@@ -146,6 +146,7 @@ $ git remote set-url origin "${CI_REPOSITORY_URL}"
 ```
 
 After doing this, all of your code will be available on the runner. One important note is that your runner now has access to your Git repository and has a link to your remote repository. This means two things:
+
 - You can access and use any files in your Git repository
 - You can commit changes back to your repository if you make any during your job process
 

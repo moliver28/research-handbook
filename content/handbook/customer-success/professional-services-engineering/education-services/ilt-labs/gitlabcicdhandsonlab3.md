@@ -2,7 +2,7 @@
 title: "GitLab CI/CD - Hands-On Lab: Configuring Pipeline Testing"
 description: "This Hands-On Guide demonstrates how to configure testing for a binary"
 ---
-## Objectives: 
+## Objectives
 
 - Handling different test types (unit, integration, end to end)
 - Using the `allow_failure`, `dependencies` / `needs`, and `before_script` / `after_script` keywords
@@ -101,7 +101,7 @@ Generally, tests will run inside of the test stage of a CI/CD process.
 
 1. Create a job in the test stage that runs the tests we created for ArrayUtils. 
 
-    __Coding Challenge:__
+    *Coding Challenge:*
 
     What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax.
 

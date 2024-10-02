@@ -3,7 +3,7 @@ title: "GitLab CI/CD - Hands-On Lab: Rules and Merging Changes"
 description: "This Hands-On Guide demonstrates how to configure rules and merge request pipelines"
 ---
 
-## Objectives:
+## Objectives
 
 - Overview of branch, merge request, and merged results pipelines
 - Enabling MR pipelines
@@ -62,7 +62,6 @@ Let’s introduce a new job that adds a release based on the current project cod
 
 1. The release job requires a special CLI tool. Copy the code below to specify an image that contains the required tool:
 
-
     ```yml
     release job:
       stage: release
@@ -72,7 +71,6 @@ Let’s introduce a new job that adds a release based on the current project cod
     ```
 
 1. To create a release, you need to provide a `tag_name` and a `description` for the release. To produce a unique version number, we will use the `CI_PIPELINE_IID` built in variable. This variable contains a project level ID of the current pipeline. Add the code below the `image` of your `release job` job.
-
 
     ```yml
       image: registry.gitlab.com/gitlab-org/release-cli:latest

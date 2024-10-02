@@ -91,7 +91,6 @@ build go:
       - array
 ```
 
-
 ## Task B. The Deployment Process
 
 We now have an SSH connection working between the GitLab runner and our target server. The final step we have is to deploy our application to the server! Ideally, we would only do this on commits to the default branch.
@@ -115,6 +114,7 @@ deploy app:
   rules:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
+
 Now, the job will only run on commits to the default branch. With this set, we can now deploy the application.
 
 1. We will need to get the binary of the application. Right now, the build only runs on merge requests, so we can either modify the rule or add a new build. For this example, let’s opt to move the build to the default branch.
@@ -151,7 +151,7 @@ To be able to launch and maintain the execution of our web application, we will 
 
 1. Create a new file at the root of your project named `array.service`. In this file, add the following text:
 
-```
+```bash
 [Unit]
 Description=
 After=network.target
