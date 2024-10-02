@@ -85,10 +85,6 @@ time frame, let the author know as soon as possible in the comments
 and try to help them find another reviewer or maintainer who is able to, so that they can be unblocked
 and get on with their work quickly. Remove yourself as a reviewer.
 
-Reviewers may also communicate their status through the use of several other emoji. For more details
-on these other statuses, please refer to the [code review](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
-page in the developer documentation.
-
 Of course, if you are out of office and have
 [communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
