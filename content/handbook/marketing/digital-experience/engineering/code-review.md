@@ -47,7 +47,7 @@ Ensure the issues being referenced are correctly tagged and updated.
    * Include any monitoring or logging to watch for potential issues.
    * Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
 7. Request Feedback and Review
-   * Remove `Draft:` from merge request title
+   * Remove `Draft:` from merge request title or explain why it is left in draft
    * Tag relevant team members for code review, QA, and any other necessary approvals.
    * Address any comments or requested changes promptly to ensure a smooth review process.
 
