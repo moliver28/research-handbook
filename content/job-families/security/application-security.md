@@ -32,6 +32,7 @@ The Application Security team plays a vital role at GitLab by ensuring that all 
 - Lead both critical and regular security patch releases.
 - Ensure security is integrated across each stage of the software development lifecycle.
 - Assist in development of security processes and automated tooling that prevent classes of security issues.
+- Provide security training and outreach to internal development teams
 - Assist in maturing the team's internal processes, workflows, and automation. 
 
 Learn more about our role [on the Application Security Handbook page](/handbook/security/product-security/application-security/) including our work as [Stable Counterparts](/handbook/security/product-security/application-security/stable-counterparts.html) and our [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process.html)
