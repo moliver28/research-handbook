@@ -132,11 +132,44 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 
 #### Interview Process
 
+Our interview process for this role is slightly longer than usual as it is a highly collaborative role within UX and across the organisation. It is just as important for you to learn more about us as it is for us to learn about you.
+
 - [Screening call](/handbook/hiring/#screening-call) with a recruiter. In this call we will discuss your experience, understand what you are looking for in a UX Research leadership role, talk about your work and approach to user research, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
-- Interview with a UX Researcher. In this interview, the interviewer will spend a lot of time trying to understand the experiences and challenges you've had as a manager, specific details of any initiatives you've led, the problems you were trying to solve, and the outcomes of these initiatives. Do be prepared to talk about your work and research experience, too.
-- Interview with the UX Research Director. In this interview, we want to get to know how you think about the place of user research within an organization, understand how you define strategy and vision, and understand the size and scope of teams you've managed throughout your career.
-- Interview with the Director of Product Design. In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, your ways of ensuring the team is well-positioned to produce research studies that have a strong impact on product strategy, what types of teams you have led, and your management style. The interviewer will also want to understand how you work with cross-functional partners, how you've handled conflict, and how you've dealt with difficult situations in the past.
-- Interview with the VP of UX. In this interview, the interviewer will look to understand how you drive strategy, approach difficult conversations, and how you see the role of user research in a cross-functional research and development organization.
+- Interview with the Hiring Manager, the VP of UX. In this interview, the interviewer will talk about your leadership and vision, getting results and user-centricity
+- You'll then record a case study walkthrough video. The recording is epected to be **~20 minutes** in duration and returned **within 10 days** of the screening call.
+
+> ### Why we ask for a pre-recorded presentation
+>
+> 1. It helps create a shared understanding of your work between you and our interviewers ahead.
+> 1. It allows us to ask more informed questions about your experience and work during the interview process.
+> 1. Generally, we [avoid using meetings as a means to present](/handbook/communication/#common-meeting-problems). Instead, we record presentations, upload to our Unfiltered Youtube channel, and use a meeting as a Q&A. This interview exercise provides you with an opportunity to experience this style of work.
+>
+> ### Presentation Topics
+>
+> 1. An introduction:  Tell us about your relevant education and career highlights, and your motivation to apply to this role.
+> 1. An overview of two case studies:
+>   - One should be an overview of a high-impact individual project. We want to understand how you approached the research questions, how you synthesized research data to inform product and design decisions, the challenges you faced along the way, and the impact your research had.
+>   - The second (2) should be something related to your people management experiences. We want to understand your management style & why you decided to become a people manager. We'd also like to understand the details of a project you've led as a Manager. This could be a story on how you overcame some kind of challenge, a process you introduced that had a lot of impact, or how you coached an employee to success. We want to understand: the size, discipline make-up, and structure of the team you were a part of; the goals of the project; what you personally did on the project, the challenges you faced throughout the project; and the meaningful business impact that the research resulted in.
+>
+> ### What we're looking for
+>
+> - A recording that is up to 20 minutes in duration and returned to us within ten days of your screening call being completed.
+> - You share the recording using either a [private Youtube link](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en), a [Google Drive link](https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en), or a [Loom link](https://www.loom.com/).
+>
+>
+> ### Some useful resources
+>
+> - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you'd need to complete this presentation.
+> - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
+> - We work with a [low level of shame](/handbook/values/#low-level-of-shame) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
+> - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
+
+We will schedule the next stages if the recording indicates your past experiences will lead to your success in a role at GitLab.
+
+- Interview with a UX Researcher. In this interview, the interviewers will focus on UXR hard skills, maturity and impact, and team development.
+- Interview with your UX Peers in Product Design and Technical Writing. In this interview, we want to get a picture of your stakeholder management experience, understanding of the UX development lifecycle and quality.
+- Interview with Product Management. We want to understand your business acument (working with OKR's and metrics), cross-functional collaboration and UXR business impact.
+- A final interview to wrap up the process with the VP, UX to close out any final questions for both sides.
 
 ### Director, UX Research
 
