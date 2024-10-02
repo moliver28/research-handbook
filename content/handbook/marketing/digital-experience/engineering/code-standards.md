@@ -28,10 +28,6 @@ The goal is to foster a consistent development approach that enhances collaborat
 
 * Use ESLint with a shared configuration to enforce code quality and consistency.
 
-### Code Formatting
-
-* Use Prettier for automatic code formatting to ensure a uniform code style across the project.
-
 ## Accessibility
 
 * Follow WCAG guidelines to ensure the website is accessible to all users.  
