@@ -106,8 +106,9 @@ this is limited to GitLab Dedicated.
 ### Out of scope
 
 * Internal releases are not intended to be a product feature.
+* Internal releases are not intended to create releases with custom functionalities that diverge from the standard GitLab product offering.
 * Internal releases are limited to mitigate critical vulnerabilities or bug fixes that impact the availability of
-* GitLab SaaS single tenant instances. Issues with lower severity stick to the [patch release cadence](/handbook/engineering/releases/#patch-release-cadence).
+  GitLab SaaS single tenant instances. Issues with lower severity stick to the [patch release cadence](/handbook/engineering/releases/#patch-release-cadence).
 * GitLab.com and GitLab self-managed instances are not considered for internal releases. On these instances,
   auto-deploy, patch and monthly releases remediate bug and vulnerabilitilies within the [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 * GitLab Cells is not considered for internal releases, subject to change in the future.
@@ -130,7 +131,7 @@ The mitigation of GitLab instances (SaaS and self-managed) requires a security f
 to the GitLab production environments. This operation breaks the mirroring between the GitLab canonical and security
 repositories which impedes the monthly release preparation: performing a monthly release with a pending security fix
 puts at risk the integrity of GitLab instances because the vulnerability is revealed before the fix is available to the
-public. An internal release process requires adjusting the mitigation strategy to use private and personalized packages
+public. An internal release process requires adjusting the mitigation strategy to use private and specially made packages
 that don’t break the mirroring between GitLab repositories. This work will be done in iterations that will likely span multiple quarters:
 
 1. **First iteration: Decouple auto-deploy tagging from rollout** - Removes the strong coupling between building packages
