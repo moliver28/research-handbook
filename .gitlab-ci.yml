@@ -226,7 +226,7 @@ pages:
 markdownlint:
   image:
     name: davidanson/markdownlint-cli2:v${MARKDOWNLINT_VERSION}
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
     docker:
       user: root
   stage: build
@@ -253,7 +253,7 @@ markdownlint:
 vale:
   image:
     name: jdkato/vale:v${VALE_VERSION}
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
     docker:
       user: root
   stage: build
@@ -276,7 +276,7 @@ vale:
 handbooklint:
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
   stage: build
   needs: []
   before_script:
@@ -343,10 +343,11 @@ post_comment_on_failure:
   stage: notify
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
+  before_script:
+    - apk add yq jq sed bash
   script:
-    - apk add yq jq
-    - ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
     - glab auth login -t $GITLAB_TOKEN
     - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
   rules:
