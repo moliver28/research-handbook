@@ -25,9 +25,9 @@ The Application Security team plays a vital role at GitLab by ensuring that all 
 
 ## Responsibilities
 
-- Perform security-focused code reviews.
-- Support and collaborate with product and development teams on application security, including threat modeling and application security reviews, while effectively communicating risks.
-- Assist teams in reproducing, triaging, and addressing application security vulnerabilities.
+- Collaborate closely with product and development teams in reproducing, triaging, and addressing application security vulnerabilities.
+- Effectively communicate risks to ensure clear understanding and prioritization of security issues.
+- Conduct security-focused code reviews, threat modeling, and application security assessments.
 - Support the bug bounty program by updating policies, triaging submissions, and effectively engaging with our reporters.
 - Lead both critical and regular security patch releases.
 - Ensure security is integrated across each stage of the software development lifecycle.
