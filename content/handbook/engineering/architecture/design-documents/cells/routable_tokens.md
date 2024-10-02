@@ -257,6 +257,10 @@ separated base64 url encoded sections: JSON header, JSON payload and signature.
 
 Support for `CI_JOB_TOKEN` is tracked at: [Phase 4.3: Routable Tokens of CI Job Token](https://gitlab.com/groups/gitlab-org/-/epics/15281).
 
+In the following example, we assume that JWT payload does have `cell_id`
+or `organization_id` or `user_id` fields. We explicitly re-map them to be
+queried by `ROUTABLE_TOKEN`.
+
 ```json
 [
   {
@@ -286,10 +290,6 @@ Support for `CI_JOB_TOKEN` is tracked at: [Phase 4.3: Routable Tokens of CI Job 
   }
 ]
 ```
-
-In the following example, we assume that JWT payload does have `cell_id`
-or `organization_id` or `user_id` fields. We explicitly re-map them to be
-queried by `ROUTABLE_TOKEN`.
 
 ##### Validating JWT signature
 
