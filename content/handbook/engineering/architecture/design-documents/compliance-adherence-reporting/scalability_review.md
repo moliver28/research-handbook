@@ -72,7 +72,7 @@ ORDER BY
 
 </details>
 
-#### 3. Retrieval of project ID batches by associated framework
+#### 2. Retrieval of project ID batches by associated framework
 
 ```rb
 frameworks.each do |framework|
