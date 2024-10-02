@@ -98,6 +98,13 @@ stateDiagram
     suggestions --> generation
 ```
 
+### Video demonstration of code completion vs. code generation
+
+For more guidance, see the following video demonstration of a comparison between the code suggestions features, i.e. code completion and code generation:
+
+- [View demo](https://www.youtube.com/watch?v=9dsyqMt9yg4)
+  <!-- Video published on 2024-09-26 -->
+
 ## Engineering Onboarding
 
 To help get started as a developer with the Create:Code Creation team, we have created an
