@@ -156,8 +156,7 @@ Once in the Tag window, add in the *Draft* and department tags for the workbook:
 There are two environments for publishing: Development and Production.
 
 - **Development** is intended for testing and iterating on dashboards and data sources. This environment allows for experimentation and refinement before content is finalized.
-- **Production** is for deploying finalized content that has been validated and is ready for broader distribution and use.
-Refer to the workflow diagram below for details on the process to publish to Production.
+- **Production** is the environment for deploying **finalized, validated content** that is ready for broader distribution and trusted use across the organization. Only content that has passed all necessary reviews and meets quality standards should be promoted to Production. To publish content to Production, follow the workflow diagram below. You can request the promotion of a workbook or data source to Production by creating a [Tableau issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) and using the template: `Tableau Publish to Production`. This process ensures all necessary steps are taken to safeguard data integrity and accuracy.
 
 ### Procedure for Publication to Production
 
@@ -182,30 +181,6 @@ Refer to the workflow diagram below for details on the process to publish to Pro
     E
     end
 ```
-
-#### Procedure for Promotion to Production
-
-Project Leaders have the ability to promote workbooks to Production. After a content promotion issues has been reviewd and approved Project Leads should fulfill by completing the following:
-
-- If the workbook is being published for the first time
-  1. Select **Move** by navigating to the ellipse to the right of the workbook
-  1. From the pop-up window select the appropriate department folder for the workbook promotion. Be sure to place sensitive workbooks in SAFE or restricted folders.
-  1. If the workbook title contains \[Draft\], rename the workbook and remove *Draft* from the title. The workbook may have a tag `Draft` which should also be removed by clicking the ellipse and selecting **Tags**. The associated tag can then be removed by clicking the `X` next to the tag.
-- If publishing over / updating a workbook that is already Production with a newer version from Development in Tableau Cloud then:
-  1. Select **Edit Workbook**
-  1. Click on **Publish As**
-  1. Please make sure to name the workbook JUST AS it is currently named and select the corresponding Production folder.
-  1. Updating in this manner will retain revision history, viewership counts, and custom views. Although updating this way  will place the workbook in your name. To change the owner to the original developer complete the following:
-     1. Click the ellipse next to the workbook title and click **Change Owner**
-     1. Select the proper **owner** for the workbook
-     1. When workbook ownership is changed in Tableau, for security reasons Tableau will drop data source credentials. In order to resolve this
-        1. On the Workbook click **Data Sources**
-        1. Click the elipse next to each data source
-        1. Click **Edit Connection**
-        1. From the pop-up click **Embedded credentials in the connection**
-        1. From the drop down select your name and select **Save**
-
-     1. When updating a workbook in Production will leave the original workbook in Development. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored.
 
 ## Tags
 

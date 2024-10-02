@@ -1,5 +1,5 @@
 ---
-title: "Tableau"
+title: "Tableau Admin Guide"
 description: "Tableau at GitLab"
 ---
 

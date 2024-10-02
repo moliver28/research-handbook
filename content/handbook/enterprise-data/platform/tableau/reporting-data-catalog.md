@@ -1,6 +1,6 @@
 ---
-title: "Reporting Data Catalog"
-description: "Giltab's Reporting Data Catalog"
+title: "Tableau Reporting Data Catalog"
+description: "Giltab's Tableau Reporting Data Catalog"
 ---
 
 ---
