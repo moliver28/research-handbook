@@ -7,7 +7,7 @@ extra_js:
 
 ## What's it like to work in Application Security at GitLab?
 
-The Application Security team plays a vital role at GitLab by ensuring that all its products are created securely throughout all stages of the software development lifecycle. In this role, you will be responsible for defining the vision, strategy, and execution of application security at GitLab. You’ll collaborate closely with Engineering, Product teams, and third-party groups (including the paid bug bounty program) to strengthen the security of GitLab, its products, and protect customer data.
+The Application Security team plays a vital role at GitLab by ensuring that all its products are created securely throughout all stages of the DevSecOps lifecycle. In this role, you will work closely with Engineering, Product teams, and third-party partners to enhance the security of GitLab and its products to safeguard customer data. You'll be responsible for identifying and triaging application security vulnerabilities, collaborating with teams to address them, and integrating core security principles throughout the entire DevSecOps lifecycle.
 
 🎉 **Hear from two team members about what it's like working here at GitLab in our Security department.** 🎉
 
