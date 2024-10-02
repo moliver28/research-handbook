@@ -100,7 +100,6 @@ stateDiagram
 
 ### Video demonstration of code completion vs. code generation
 
-<i class="fa fa-youtube-play youtube" aria-hidden="true"></i>
 For more guidance, see the following video demonstration of a comparison between the code suggestions features, i.e. code completion and code generation:
 
 - [View demo](https://www.youtube.com/watch?v=9dsyqMt9yg4).
