@@ -148,6 +148,19 @@ and approval when adding significant changes to their docs.
 
 When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts as their backup.
 
+### Stage leads
+
+Some Technical Writers are assigned as [stage leads](/handbook/product/ux/technical-writing/workflow/#stage-leads) for a given [DevOps stage](/handbook/product/categories/#devops-stages):
+
+| Stage                                                                                                         | Assigned stage lead                                                                                                                      |
+|:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Verify                                      | {{< member-by-name "Marcel Amirault" >}}                                                                                                                              |
+| AI-powered                                             | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
+| ModelOps                                               | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
+| Create                                                                                     | {{< member-by-name "Amy Qualls" >}}                                                                                                                              |
+| Plan                                                                                     | {{< member-by-name "Marcin Sędłak-Jakubowski" >}}                                                                                                                              |
+| Secure                                                                           | {{< member-by-name "Russell Dickenson" >}}                                                                                                                                  |
+
 ### Assignments to other projects and subjects
 
 For collaboration in other projects and subjects:
