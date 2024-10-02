@@ -23,30 +23,21 @@ A: Sign in to the [Customers Portal](https://customers.gitlab.com/customers/sign
 
 Q: Where can I manage my GitLab subscription and upcoming renewal?
 
-A: Once logged into to customer.gitlab.com, you will see various options regarding your upcoming renewal, including *Upgrade Plan*, *Add More Seats*, and drop-down menu option for additional actions like *Buy GitLab Duo Pro*.
+A: Once signed into to the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your upcoming renewal, including *Upgrade Plan*, *Add More Seats*, and drop-down menu option for additional actions like *Buy GitLab Duo Pro*.
 
 ![manage.renewal](/handbook/sales/images/manage_renewal_v17_4.png)
 
-Q: Will my GitLab subscription auto renew?
+Q: Will my GitLab subscription auto-renew?
 
-A: Once logged into to customer.gitlab.com, you will see one of the following under your group name;
-
-```text
-    Auto-renews on XX/XX/XXXX
-    Expires on XX/XX/XXX
-```
-
-*Expires* indicates Auto Renew is Off.  Should you wish to turn Auto Renew back on, click on the drop-down menu option on the right and select the *Turn on auto-renew* option.
+A: Please see [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal) to understand where to check for if your subscription will auto-renew or not.
 
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
-A: Yes! You can renew manually by selecting the *Renew* from the drop-down menu option. From there, you can adust the user quantity. You cannot manually renew your subscription more than 15 days before the subscription expires.
-
-Be aware that if you don't renew manually, you will be auto renewed at the current billable user quantity.
-
-More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
+A: Yes! You can renew manually by selecting the *Renew* from the drop-down menu option. From there, you can adust the user quantity. You cannot manually renew your subscription more than 15 days before the subscription expires. More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
 ![manual.renewal](/handbook/sales/images/renew_subscription_v17_4.png)
+
+Please be aware that if you don't renew manually, you will be auto renewed. More information can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
@@ -58,11 +49,11 @@ If you want to contest these overages, you can open an [Support Ticket](https://
 
 Q: In the GitLab Customers Portal, I see the option to cancel my subscription from the drop-down menu. What happens if I click cancel?
 
-A: In customers.gitlab.com, if the *Cancel subscription* option is available then this means auto-renew is turned on. Clicking *Cancel subscription* turns off auto-renew. You will still have access to your paid features until the subscription expiration date.
+A: In the [Customers Portal](https://customers.gitlab.com/customers/sign_in), if the *Cancel subscription* option is available then this means auto-renew is turned on. Clicking *Cancel subscription* turns off auto-renew. You will still have access to your paid features until the subscription expiration date.
 
 Q: If I have GitLab Duo Pro, GitLab Duo Enterprise, or GitLab Enterprise Agile Planning add-ons, will my account auto-renew in the same as if I did not have these add-ons?
 
-A: As it stands, you cannot auto-renew if you have any of the above-stated add-ons. You will see a disclaimer that will emphasize this, asking you to contact the sales team for assistance. If you know your Account Executive, please feel free to contact them directly.
+A: As it stands, you cannot auto-renew if you have any of the above-stated add-ons. You will see a disclaimer that will emphasize this, asking you to contact the sales team for assistance. If you know your Account Executive, please contact them directly.
 
 ![add-on.renewal](/handbook/sales/images/add_on_renewal_v17_4.png)
 
