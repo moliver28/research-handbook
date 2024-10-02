@@ -1,4 +1,8 @@
-## Sarah Pang's README
+---
+title: "Sarah Pang's README"
+description: "README page for Sarah Pang"
+job: "Staff IT Compliance Engineer"
+---
 
 ### About me
 
@@ -9,22 +13,20 @@
 - Traveling is a true passion of mine and I have explored many countries so far but always eager to discover new cultures and experiences.
 - I enjoy savoring a good glass of wine while relaxing with movies or binge-watching favorite shows during downtime.
 
-
-### My professional journey at gitlab
+### My professional journey at GitLab
 
 - Been with Gitlab since 2022.
 - Implemented process improvements to meet SOX compliance requirements.
-- Remediated audit findings and implemented corrective actions with stakeholders. 
+- Remediated audit findings and implemented corrective actions with stakeholders.
 - Implemented change management process across multiple teams.
 - Proactively monitored change management process to ensure ongoing compliance.
-- Prepared internal teams for external audit meetings. 
+- Prepared internal teams for external audit meetings.
 - Conducted system implementation reviews to ensure implementation risks are addressed.
-- Conducted lookback reviews on identified issues to confirm impact and determine root cause.  
+- Conducted lookback reviews on identified issues to confirm impact and determine root cause.
 - Provided external audit support and advocate on behalf of management.
 - Conducted quarterly training sessions to enhance team knowledge and compliance.
 - Advanced from Senior IT Compliance Engeineer to Staff IT Compliance Engineer role.
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/sarahpang72/)!
-
 
 ### My work style
 
@@ -36,12 +38,9 @@ Establishing and communicating clear expectations is important to me, so that ev
 
 I prefer asynchronous communication through Slack, however, I also recognize at times that synchronous meetings and calls are essential for resolving issues more quickly and efficiently. 
 
-
 ### What I am working on today
 
 - Lead the user access review program for G&A systems.
 - Facilitate the end to end SOX audit process.
 - Manage quarterly activities to ensure timely completion.
 - Conduct proactive change management reviews to identify and address any process gaps.
-
-
