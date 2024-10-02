@@ -14,7 +14,7 @@ For more information about the goals of Cells, see [goals](https://docs.gitlab.c
 
 Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cells/).
 
-## Roadmap, Workstreams, and DRIs
+## Roadmap, Stages, Phases, and DRIs
 
 ### Roadmap
 
@@ -187,6 +187,19 @@ DRI of Expansion Software Development
 
 </td>
 </tr>
+<tr>
+<td>
+
+[Kerri Miller](https://gitlab.com/kerrizor)
+
+</td>
+<td>Staff Backend Engineer, Core Development</td>
+<td>
+
+DRI of Expansion Software Development
+
+</td>
+</tr>
 
 </table>
 
@@ -221,9 +234,10 @@ Dependencies:
 
 - None
 
-Epic:
+Details:
 
-- <https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293>
+- [Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293>)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_1)
 
 ### Phase 2: GitLab.com HTTPS Passthrough Proxy
 
@@ -247,9 +261,10 @@ Dependencies:
 
 - None
 
-Epic:
+Details:
 
-- <https://gitlab.com/groups/gitlab-org/-/epics/12775>
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12775)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_2)
 
 ### Phase 3: GitLab.com HTTPS Session Routing
 
@@ -276,9 +291,10 @@ Dependencies:
 - [Phase 2](#phase-2-gitlabcom-https-passthrough-proxy): Passthrough proxy needs to be deployed.
 - [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
 
-Epic:
+Details:
 
-- <https://gitlab.com/groups/gitlab-org/-/epics/14509>
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14509)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_3)
 
 ### Phase 4: GitLab.com HTTPS Token Routing
 
@@ -298,9 +314,70 @@ Before/After:
 
 [source](https://excalidraw.com/#json=rWNPd77fLEhwZpERiUYLA,Tb-v5Hen6NomaopcmE9_mw)
 
-Epic:
+Details:
 
-- <https://gitlab.com/groups/gitlab-org/-/epics/14510>
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14510)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_4)
+
+### Phase 5: Cluster Awareness
+
+Exit Criteria:
+
+- TBD
+
+Before/After:
+
+
+
+Details:
+
+- [Epic](hhttps://gitlab.com/groups/gitlab-org/-/epics/14511)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_5,groups_Phase_5_1_mTLS,groups_Phase_5_2_Sequence,groups_Phase_5_3_Claim,groups_Phase_5_4_Deploy)
+
+### Phase 6: Monolith Cell
+
+Exit Criteria:
+
+- TBD
+
+Before/After:
+
+
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14513)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_6)
+
+### Phase 7: Cell Initialization
+
+Exit Criteria:
+
+- TBD
+
+Before/After:
+
+
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14514)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_7)
+
+### Phase 8: Organization Onboarding
+
+Exit Criteria:
+
+- TBD
+
+Before/After:
+
+
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
 
 ## Communication
 
@@ -315,8 +392,8 @@ Epic:
 
 ### Status updates
 
-- Weekly "Cells & Organizations Status Update - [yyyy-mm-dd]" issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
 - Weekly status updates in Slack [#cto channel (internal only)](https://gitlab.enterprise.slack.com/archives/C9X79MNJ3) channel
+- Details are also automatically rolled up details in the [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/12383#hourglass-work-in-progress) epic
 
 ## Additional Information
 
