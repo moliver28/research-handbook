@@ -208,8 +208,9 @@ Tips & Tricks:
 
   - Post an update to #escalated_customers with the status and resolution
   - Update the escalation document with the resolution
+  - In the escalation document, complete section 6 "Escalation Closure Criteria"
   - Archive the temporary Slack channel
-  - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
+  - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account
 
 ## CSM Manager's role in Escalations
 
