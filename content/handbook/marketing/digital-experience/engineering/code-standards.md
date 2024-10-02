@@ -44,7 +44,7 @@ The goal is to foster a consistent development approach that enhances collaborat
 ## Code Review Guidelines
 
 * Conduct thorough code reviews to maintain high code quality.
-* Focus on functionality, readability, and adherence to coding standards.
+* Focus on functionality, readability, and adherence to [general code standards(SOLID, DRY, KISS)](https://scalastic.io/en/solid-dry-kiss/)
 
 ## Additional Resources
 
