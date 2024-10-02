@@ -322,8 +322,12 @@ on CPU compute cost:
     ],
     "action": "classify",
     "classify": {
-      "type": "CellID",
-      "value": "{decoded.cell_id}"
+      "type": "ROUTABLE_TOKEN",
+      "routable_token": {
+        "cell_id": "{decoded.cell_id}",
+        "organization_id": "{decoded.organization_id}",
+        "user_id": "{decoded.user_id}"
+      }
     }
   }
 ]
