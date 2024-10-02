@@ -17,7 +17,7 @@ This page aims to answer the most commonly asked questions regarding a customers
 
 Q: When is my GitLab subscription due for renewal?
 
-A: Login to customers.gitlab.com to see the renewal/ expiry date.
+A: Sign in to the [Customers Portal](https://customers.gitlab.com/customers/sign_in) to see the renewal or expiry date.
 
 ![renewal.due](/handbook/sales/images/when_is_my_renewal_due_v17_4.png)
 
