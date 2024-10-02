@@ -102,7 +102,7 @@ stateDiagram
 
 For more guidance, see the following video demonstration of a comparison between the code suggestions features, i.e. code completion and code generation:
 
-- [View demo](https://www.youtube.com/watch?v=9dsyqMt9yg4).
+- [View demo](https://www.youtube.com/watch?v=9dsyqMt9yg4)
   <!-- Video published on 2024-09-26 -->
 
 ## Engineering Onboarding
