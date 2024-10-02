@@ -74,7 +74,7 @@ At this time it includes:
 Production will be full scale and size with the ability to have a canary deploy. Production has limited access.
 It consists of two stages:
 
-- The canary stage is a subset of infrastructure that reaches a limited number of members of the community. We deploy to this stage first. For more information see [canary testing](/handbook/engineering/#canary-testing).
+- The canary stage is a subset of infrastructure that reaches a limited number of members of the community. We deploy to this stage first. For more information see [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
 - The main stage serves the remaining traffic for the wider GitLab community.
 
 ### Production-Canary

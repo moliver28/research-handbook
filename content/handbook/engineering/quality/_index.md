@@ -390,4 +390,4 @@ See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) d
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
-- [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
+- [Production Readiness Guide](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md)
