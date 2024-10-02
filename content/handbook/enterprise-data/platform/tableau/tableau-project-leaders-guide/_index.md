@@ -31,7 +31,7 @@ Below we will cover:
 
 ### **Project Lead Abilities**
 
-As a Project Lead, your main abilities are to move content from Development to Production. The following will cover Project Lead abilies as it’s essential to follow best practices to maintain a secure and well-organized environment.
+As a Project Lead, your main abilities are to move content from Development to Production. The following will cover Project Lead abilities as it’s essential to follow best practices to maintain a secure and well-organized environment.
 
 1. **Sub-Folder Creation:** Project Leads have the ability to **create sub-folders** within their project folders. Sub-folders can help better organize content, especially in larger projects. Please **Inform the BI Team** when creating sub-folders to ensures that **permissions are set up properly** and are consistent with the overall structure of the project folder.
 
@@ -39,13 +39,13 @@ As a Project Lead, your main abilities are to move content from Development to P
 
 3. **Setting Permissions in Project Folders:** Project Leads have the ability to **set permissions** within their designated project folders. However, Please **Do Not Alter Permissions** without consulting the BI Team. Incorrectly setting permissions can expose sensitive data or restrict access for users who need it. If you believe that permission adjustments are needed, please **contact the BI Team**. They will help ensure that permissions are configured correctly and securely.
 
-4. *Note Project Leads do not have access to **Archive content.** Please reach out the BI Team to have content moved to the Tableau Archived folder. 
+4. *Note Project Leads do not have access to **Archive content.** Please reach out to the BI Team to have content moved to the Tableau Archived folder. 
 
 ---
 
 ### **Publishing a Workbook to Production for the First Time**
 
-Project Leaders have the ability to promote workbooks to Production. This process ensures only validated, accurate content reaches production, maintaining high standards for users.  After a content promotion issues has been reviewd and approved Project Leads should fulfill by completing the following:
+Project Leaders have the ability to promote workbooks to Production. This process ensures only validated, accurate content reaches production, maintaining high standards for users.  After a content promotion issues has been reviewed and approved Project Leads should fulfill by completing the following:
 
 1. Select **Move** by navigating to the ellipse to the right of the workbook
 1. From the pop-up window select the appropriate department folder for the workbook promotion. Be sure to place sensitive workbooks in SAFE or restricted folders.
@@ -54,7 +54,7 @@ Project Leaders have the ability to promote workbooks to Production. This proces
 
 ### **Publishing Over an Existing Production Workbook (Updating Content)**
 
-When updating content in production it is best to overwrite what is in Production. This will keep the content revision history, preserve meta data, viewership counts, and custom views intact.
+When updating content in production it is best to overwrite what is in Production. This will keep the content revision history, preserve metadata, viewership counts, and custom views intact.
 
 1. Select **Edit Workbook**
 1. Click on **Publish As**
@@ -64,7 +64,7 @@ When updating content in production it is best to overwrite what is in Productio
    1. Select the proper **owner** for the workbook
    1. When workbook ownership is changed in Tableau, for security reasons Tableau will drop data source credentials. In order to resolve this
       1. On the Workbook click **Data Sources**
-      1. Click the elipse next to each data source
+      1. Click the ellipse next to each data source
       1. Click **Edit Connection**
       1. From the pop-up click **Embedded credentials in the connection**
       1. From the drop down select your name and select **Save**
