@@ -1,6 +1,5 @@
 ---
-title: "Data Team Data Management Page"
-description: "The Data Management Page covers the content around sharing internship experience with the SRE foundation team"
+title: "SRE Internship"
 controlled_document: false
 ---
 
