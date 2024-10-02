@@ -327,8 +327,6 @@ Exit Criteria:
 
 Before/After:
 
-
-
 Details:
 
 - [Epic](hhttps://gitlab.com/groups/gitlab-org/-/epics/14511)
@@ -341,8 +339,6 @@ Exit Criteria:
 - TBD
 
 Before/After:
-
-
 
 Details:
 
@@ -357,8 +353,6 @@ Exit Criteria:
 
 Before/After:
 
-
-
 Details:
 
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14514)
@@ -371,8 +365,6 @@ Exit Criteria:
 - TBD
 
 Before/After:
-
-
 
 Details:
 
