@@ -134,13 +134,13 @@ The north star of this working group is increasing the number of self-managed Gi
 | Facilitator | [Peter Lu](https://gitlab.com/plu8) | Engineering Manager, Distribution::Deploy |
 | Functional Lead - Product & Distribution | [Dilan Orrino](https://gitlab.com/dorrino) | Senior Product Manager Distribution |
 | Functional Lead - Database | TBD |  |
-| Functional Lead - Quality | [Kassandra Svoboda](https://gitlab.com/ksvoboda) | Engineering Manager, Test Platform |
+| Functional Lead - Test Platform | [Kassandra Svoboda](https://gitlab.com/ksvoboda) | Engineering Manager, Test Platform |
 | Functional Lead - Support | [Brie Carranza](https://gitlab.com/bcarranza) | Staff Support Engineer |
 | Functional Lead - Backup | [Lucie Zhao](https://gitlab.com/luciezhao) | Engineering Manager, Geo |
 | Functional Lead - Development | TBD |  |
 | Member | [Mek Stittri](https://gitlab.com/meks) | VP, Technical Infrastructure |
 | Member | [Chun Du](https://gitlab.com/cdu1) | Director, Core Platform |
 | Member | [Joshua Lambert](https://gitlab.com/joshlambert) | Director, Product Management |
-| Member | [Vincy Wilson](https://gitlab.com/vincywilson) | Director, Quality Engineering |
+| Member | [Vincy Wilson](https://gitlab.com/vincywilson) | Director, Test Platform |
 | Member | [Lyle Kozloff](https://gitlab.com/lyle) | Director, Support Engineering |
 | Member | [Stan Hu](https://gitlab.com/stanhu) | Engineering Fellow |
