@@ -161,7 +161,6 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 | Plan                                                                                     | {{< member-by-name "Marcin Sędłak-Jakubowski" >}}                                                                                                                              |
 | Secure                                                                           | {{< member-by-name "Russell Dickenson" >}}                                                                                                                                  |
 
-
 ### Assignments to other projects and subjects
 
 For collaboration in other projects and subjects:
