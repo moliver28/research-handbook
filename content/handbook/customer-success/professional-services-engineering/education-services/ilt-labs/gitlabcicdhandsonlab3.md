@@ -121,7 +121,7 @@ Note that when we add the test stage, it automatically precedes our other stages
 
 ## Task C. Creating a failable job
 
-__Coding Challenge:__
+*Coding Challenge:*
 What would we add to our job configuration to define this behavior? Write the syntax
 
 *Answer:* To allow a job to fail, you can add the `allow_failure` attribute to a job. If you have not done so yet, add `allow_failure: true` to your `test go` job. The job should look like the code below.

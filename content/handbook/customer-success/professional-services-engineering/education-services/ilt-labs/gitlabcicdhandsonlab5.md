@@ -103,7 +103,6 @@ deploy app:
 
 When you commit these changes, you will see an error in your deploy job. To view this error, navigate to the **Build** > **Pipelines** page and view the failed pipeline and job.
 
-
 ```bash
 $ eval $(ssh-agent -s)
 Agent pid 3211

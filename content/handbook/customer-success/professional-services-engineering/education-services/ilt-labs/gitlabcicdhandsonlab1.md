@@ -106,7 +106,6 @@ You will write all of your pipeline jobs in the `.gitlab-ci.yml file`. To start,
 
 > On this screen, you will see details about your job, including all of the commands run during your job execution. On the right, you will see the duration of the job, when the job finished, how long the job was queued, the runner that completed the job, the commit that triggered the job, and further pipeline details related to the job.
 
-
 Let’s explore each of these in detail. To start, navigate to your job:
 
 1. Select **Build > Jobs**.
@@ -116,7 +115,7 @@ Let’s walk through the job log to better understand each job stage. The first 
 
 **Setting up your job environment**
 
-```
+```bash
 Running with gitlab-runner 17.0.0~pre.88.g761ae5dd (761ae5dd)
   on green-6.saas-linux-small-amd64.runners-manager.gitlab.com/default YKxHNyexq, system ID: s_a201ab37b78a
 Resolving secrets
@@ -134,7 +133,7 @@ The GitLab lab environment uses runner managers to help with scaling jobs. When 
 **Cloning your Git repository**
 After the environment setup, GitLab will clone your repository onto the runner.
 
-```
+```bash
 Getting source from Git repository
 00:01
 Fetching changes with git depth set to 20...
@@ -170,7 +169,7 @@ build go:
 **Executing your Scripts**
 After the environment is set up and your repository is cloned, your job scripts will run. 
 
-```
+```bash
 Executing "step_script" stage of the job script
 
 Using docker image sha256:5905f95343e84d1f8f14aff8f8b83747fb39ea0e0fad52a9d14cf41860295fff for golang with digest golang@sha256:f43c6f049f04cbbaeb28f0aad3eea15274a7d0a7899a617d0037aec48d7ab010 ...
@@ -185,7 +184,6 @@ To summarize, there are a few important ideas to keep in mind when considering r
 - Jobs will generally use a Docker image to run your job scripts
 - Every job runs on a separate runner, within its own Docker container, so there are no concerns about jobs interfering with each other
 - You have full access to your Git repository and any other system resources during the execution of your jobs
-
 
 ## Task E. Artifacts, and sharing data between Stages
 
