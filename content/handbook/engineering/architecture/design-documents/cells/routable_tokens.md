@@ -26,7 +26,7 @@ This documents tries to describe the following goals:
 
 ## Non-goals
 
-This document is not meant to re-asses the need for the following goals:
+This document is not meant to re-assess the need for the following non-goals:
 
 - The need for the secret in the first place, and their lifecycle or how they are managed by the application.
 - Define support for many encryption keys
