@@ -75,7 +75,7 @@ This proposal is to make all tokens to encode routable information about object
 to which the token is attached. This document does focus specifically first on tokens
 that are required to be made routable in the Phase 4: [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [CI/CD Job Token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html) and [Runner Authentication Token](https://docs.gitlab.com/ee/security/tokens/#runner-authentication-tokens):
 
-- Currently tokens are generated with the follow pattern: `<prefix><random-string>`.
+- Currently tokens are generated with the following pattern: `<prefix><random-string>`.
 - The Routable Token would change the `<random-string>` to become a `<payload>`. Likely, the `<payload>` will have a longer length than the previous `<random-string>`, due to the need to encode more information.
 - The ability to decode `<payload>` is a feature reserved for the HTTP Router.
 - Application should never decode `<payload>` and use it for authentication purposes.
@@ -132,7 +132,7 @@ for a bigint. `+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v` is 16 random bytes.
 
 ### Meaning of fields
 
-Since the payload holds a structured information, each single latter has a particular meaning:
+Since the payload holds a structured information, each single letter has a particular meaning:
 
 - `c`: Cell ID
 - `o`: Organization ID
@@ -196,7 +196,7 @@ The Topology Service routes by the available information following this preceden
 
 The Routable Token is meant to be integrated into TokenAuthenticatable as a first-class
 supported syntax. Once the `routable_token:` is used, it will change how the payload is generated.
-The usage of `routable_token:` should not be used with `generator:` which sometimes is to be used to generate a random string of a different format.
+The usage of `routable_token:` should not be used with `generator:` which is sometimes used to generate a random string of a different format.
 
 ```ruby
 class PersonalAccessToken
@@ -333,7 +333,7 @@ on CPU compute cost:
 
 - Passing `CI Job Token` as part of [POST body](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html#to-authenticate-a-rest-api-request).
 - Passing `CI Trigger token` as part of [POST body](https://docs.gitlab.com/ee/ci/triggers/#use-curl).
-- Some tokens use its own implementation instead of `TokensAuthenticatable`, like `EE::Project#external_webhook_token`.
+- Some tokens use their own implementation instead of `TokensAuthenticatable`, like `EE::Project#external_webhook_token`.
 
 ## Questions
 
@@ -358,7 +358,7 @@ The JWT is truly meant to be used as an ephemeral token, usually tied with the t
 - Application should always treat the token as a whole string without trying to understand its meaning.
 - The only impact it might have is that attacker might force a request to be directed to a particular Cell, by forcing routing decision by HTTP Router.
 - The HTTP Router will decode payload exclusively for the purpose of the making routing decision. Routing decision over time can be made on other factors as well, like hostname, URL path, or other parameters.
-- The ability to validate authenticity of the payload is not objective of this change. In case of DoS type of attack additional measures needs to be in place, like rate limiting to prevent those types of attacks.
+- The ability to validate authenticity of the payload is not a goal of this change. In case of DoS type of attack additional measures needs to be in place, like rate limiting to prevent those types of attacks.
 
 ## References
 
