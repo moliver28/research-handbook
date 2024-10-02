@@ -11,6 +11,40 @@ We envision a world where our innovations in AI-driven code creation not only en
 
 Develop cutting-edge AI-powered tools that enhance the efficiency and creativity of software engineers. We are committed to providing intelligent code suggestions that not only streamline coding tasks but also elevate the quality of software products. We aim to empower developers worldwide, making complex coding more accessible, and accelerating the creation of exceptional software.
 
+## About Code Suggestions
+
+One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
+
+- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start) - GitLab Documentation
+- [Difference betwen Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
+- [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
+
+A lot of the terms we use in this area sound similar and can be confusing at first. Here are the basic terms we use:
+
+- **Code Creation**: The group name and a collection of features relating to providing AI generated code
+- **Code Suggestions**: A feature within Code Creation that provides AI-generated code within an IDE
+  - **Code Completion**: A short AI-generated suggestion intended to complete an existing line or block of code
+  - **Code Generation**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
+- **Duo Chat**: Another feature that interacts with GitLab Duo Chat to write new code, refactor existing code, or scan code for vulnerabilities
+
+If it helps, here are these terms in a diagram:
+
+```mermaid
+stateDiagram
+    direction LR
+
+    state "Code Creation" as creation
+    state "Code Suggestions" as suggestions
+    state "Code Completion" as completion
+    state "Code Generation" as generation
+    state "Duo Chat Features" as duo
+
+    creation --> suggestions
+    creation --> duo
+    suggestions --> completion
+    suggestions --> generation
+```
+
 ## Team Handles
 
 | Category                 | Handle              |
@@ -69,41 +103,6 @@ Here are other groups within GitLab that we work closely with:
 
 - [ModelOps Stage](/handbook/engineering/development/data-science/modelops/)
 - [MLOps](/handbook/engineering/development/data-science/modelops/mlops/)
-
-## Core Responsibilities
-
-A lot of the terms we use in this area sound similiar and can be confusing at first. Here are the basic terms:
-
-- **Code Creation**: The group name and a collection of features relating to providing AI generated code
-- **Code Suggestions**: A feature within Code Creation that provides AI-generated code within an IDE
-  - **Code Completion**: A short AI-generated suggestion intended to complete an existing line or block of code
-  - **Code Generation**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
-- **Duo Chat**: Another feature that interacts with GitLab Duo Chat to write new code, refactor existing code, or scan code for vulnerabilities
-
-If it helps, here are these terms in a diagram:
-
-```mermaid
-stateDiagram
-    direction LR
-
-    state "Code Creation" as creation
-    state "Code Suggestions" as suggestions
-    state "Code Completion" as completion
-    state "Code Generation" as generation
-    state "Duo Chat Features" as duo
-
-    creation --> suggestions
-    creation --> duo
-    suggestions --> completion
-    suggestions --> generation
-```
-
-### Video demonstration of code completion vs. code generation
-
-For more guidance, see the following video demonstration of a comparison between the code suggestions features, i.e. code completion and code generation:
-
-- [View demo](https://www.youtube.com/watch?v=9dsyqMt9yg4)
-  <!-- Video published on 2024-09-26 -->
 
 ## Engineering Onboarding
 
