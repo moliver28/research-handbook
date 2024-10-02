@@ -19,8 +19,8 @@ description: "This page is an overview of the search team alignment and the tale
 | Sales, APAC | Yas Priatna  | Sruthy Menon |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
 | G&A/EBA/Marketing (Global Sales Development, FP&A, VP EBA) | Caroline Rebello |  Michelle Jubrey |
-| G&A/Marketing (Developer Relations, Growth, IT) | Aistè Juozaponytė  | Michelle Jubrey |
-| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
+| G&A/Marketing (Developer Relations, Finance, Growth, IT) | Aistè Juozaponytė  | Michelle Jubrey |
+| G&A/Marketing (Corporate Communications, Data, Finance, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
 | R&D, Leadership | Matt Angell | Alice Crosbie |
 | Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Lerato Thipe / Sruthy Menon / Alice Crosbie |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
