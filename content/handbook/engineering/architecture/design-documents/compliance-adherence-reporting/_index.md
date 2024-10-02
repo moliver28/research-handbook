@@ -105,6 +105,8 @@ compliance frameworks in GitLab 17.3.
 
 ### Design Details
 
+See [Scalability review document](scalability_review.md) for further details.
+
 We decided to use [Sidekiq workers for creating checks](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
 and [storing the adherence configuration in database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
 It was [decided](decisions/003_custom_controls.md#decision) to combine `compliance_checks` and
