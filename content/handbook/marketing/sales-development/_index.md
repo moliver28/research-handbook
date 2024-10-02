@@ -1617,9 +1617,11 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
     **No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
 
-13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field?
+13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field, or is there another lead for the same account as the MQL you received that originated from Usergems?
 
-    **Yes:** If it's an SMB lead it's worked by the inbound team, if it's a MM/ENTG lead it's passed to the BDR associated with the territory regardless of the rest of the RoE. BDR is expected to follow the outbound actively worked account process as per usual.
+    **Yes:** If it's an SMB lead it's worked by the inbound team round-robin. If it's a MM/ENTG lead, we go by the scenarios below:
+    - If there's also an associated Actively Worked account, we follow the standard Rules of Engagement and the new inbound lead goes to the BDR Assigned on the actively worked account.
+    - If there's not an account Actively Worked, but there's a lead worked by a BDR by itself. The original owner of the new lead can work it as per usual without having to pass to the BDR working the existing UserGems lead.
 
 If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active sequence if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
