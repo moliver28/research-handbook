@@ -49,7 +49,7 @@ Ensure the issues being referenced are correctly tagged and updated.
 7. Request Feedback and Review
    * Remove `Draft:` from merge request title or explain why it is left in draft
    * Tag relevant team members for code review, QA, and any other necessary approvals.
-   * Address any comments or requested changes promptly to ensure a smooth review process.
+   * Address any comments or requested changes promptly to ensure a smooth review process. The assignee is responsible for creating and tracking any follow-up issues to ensure they are completed in a timely manner.
 
 ## Reviewer
 
