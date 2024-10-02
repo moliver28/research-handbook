@@ -30,7 +30,7 @@ Provide a Comprehensive Description
    * Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
    * If applicable, mention any refactoring or architectural decisions made.
 2. Link Related Issues
-   * Reference any related issues, tickets, or user stories using appropriate syntax (e.g., releated #1234).
+   * Reference any related issues, tickets, or user stories using appropriate syntax (e.g., related #1234).
 Ensure the issues being referenced are correctly tagged and updated.
 3. Document Testing Instructions
    * Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
