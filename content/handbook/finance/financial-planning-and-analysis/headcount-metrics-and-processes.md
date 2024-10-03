@@ -100,22 +100,9 @@ description: "Public Company Headcount Metrics and Processes"
 1. **Hires**: Team members who accept an employment offer within a specified period. The start date of the team members' employment is irrelevant. Hires includes Internal Hires.
 1. **Recruiting Capacity**: The capacity of recruiters related to Hires within a specified period. Individual recruiter capacity does not relate to Starts; however, we can estimate the recruiting organization's broader capacity for Starts by looking at historical Hire to Start data.
 1. **Offer Accept**: The date on which a candidate signs the Offer and is transferred into Workday. This process ideally happens within 24 business hours of signing the Offer, but may be backdated to the date of signature as needed.
-1. **Requisition Open to Offer Accept**: The number of days from the date of requisition opening until the date the accepting candidate has accepted the Offer. Requisition Open to Offer Accept does not consider Start Date.
-1. **Offer Accept to Start Date**: The number of days from a successful candidate accepting the Offer until Start Date.
-1. **Requisition Open to Start Date**: Total hiring time required to fill a role; the number of days required from the date of requisition opening until the successful candidate's Start Date.
-      - Requisition Open to Start = Requisition Open to Offer Accept + Offer Accept to Start Date.
+1. **Time to Fill**: The number of days from the date of requisition opening until the date the accepting candidate has accepted the Offer. Time to Fill does not consider Start Date.
+1. **Offer Accept to Start Date**: The number of days from an accepted offer to Start Date.
+1. **Time to Start**: The number of days from the date of requisition opening until the successful candidate’s Start Date.
+1. **Time to Hire**: The number of days between the candidate’s application date and when the candidate is moved into the Hire stage.
 
-## Talent Acquisition Metrics/Processes
-
-1. **Hires**: TA sets a quarterly Hires goal for recruiters. Hires reflect Offers accepted within the period. The Hires goal is broken down into departments. The Hires goal acts as a metric against which TA can measure its success and address recruiting capacity needs going forward. The Hires goal includes Internal Hires. In conjunction with the Hires goal, TA also tracks the following metrics:
-   - Number of offers
-   - Offer acceptance rate
-   - Time to Hire
-   - Time to Fill
-   - Candidate satisfaction (via Greenhouse scoring)
-   - Hiring Manager satisfaction (via NPS)
-   - Percent of Internal Hires
-   - Percent of hires by source
-   - Applicant rejection reasons
-   - Any compensation exceptions by division and job title
-1. **Internal Hires**: TA tracks Internal Hires in the hiring process to understand team member mobility and hiring capacity requirements.
+For more information on Talent Acquisition metrics, visit the [Talent Acquisition KPIs and Job Architecture page](https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/)
