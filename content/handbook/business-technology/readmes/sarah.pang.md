@@ -25,12 +25,12 @@ job: "Staff IT Compliance Engineer"
 - Conducted lookback reviews on identified issues to confirm impact and determine root cause.
 - Provided external audit support and advocate on behalf of management.
 - Conducted quarterly training sessions to enhance team knowledge and compliance.
-- Advanced from Senior IT Compliance Engeineer to Staff IT Compliance Engineer role.
+- Advanced from Senior IT Compliance Engineer to Staff IT Compliance Engineer role.
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/sarahpang72/)!
 
 ### My work style
 
-I embrace a flexible work style, which allows me to adjust my approach based on the task at hand and the needs of my team. Whether working alone or collaborating with colleagues, I can modify my methods to achieve results. Additioanlly, building strong professional and personal relationships with peers is important to me, as I believe that meaningful connections foster an atmosphere of trust and respect. I also believe empathy plays a key role in my interactions with others. I prioritize understanding my peer’s perspectives and emotions, as this level of connection strengthens teamwork and enhances trust.
+I embrace a flexible work style, which allows me to adjust my approach based on the task at hand and the needs of my team. Whether working alone or collaborating with colleagues, I can modify my methods to achieve results. Additionally, building strong professional and personal relationships with peers is important to me, as I believe that meaningful connections foster an atmosphere of trust and respect. I also believe empathy plays a key role in my interactions with others. I prioritize understanding my peer’s perspectives and emotions, as this level of connection strengthens teamwork and enhances trust.
 
 ### Communication with me
 
