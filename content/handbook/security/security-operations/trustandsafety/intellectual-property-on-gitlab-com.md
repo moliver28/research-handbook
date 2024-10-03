@@ -12,9 +12,15 @@ GitLab takes the intellectual property rights of others seriously and require th
 
 ### Trademark Policy
 
-GitLab can't adjudicate disputes between third parties, and so we are not in a position to act on trademark reports that require an in-depth trademark analysis or a real-world dispute outside of GitLab. In these situations, rather than contacting GitLab, you may want to reach out directly to the party that you believe is infringing your rights, or seek any resolution in court or by other judicial means.
+GitLab.com namespaces are available on a first come, first served basis. No one can claim priority rights to any namespace on GitLab.com based on a trademark registration. For example, owning the trademark for “GreatCompany” does not mean the trademark owner will be granted the namespace name “gitlab.com/GreatCompany” if it is already registered. 
 
-If you're sure you want to report content on GitLab that you believe infringes your trademark, please review the `Submitting a Trademark Notice` section further below.
+GitLab is not in a position to investigate, assess or adjudicate complicated trademark disputes between third parties. In these instances, contact the third party that you believe is infringing your rights to resolve the matter, or seek resolution by available legal means. GitLab cannot intervene in such matters without a valid legal order.
+
+GitLab will only review a trademark infringement claim related to a namespace registered to a third party, and may intervene, where both of the below criteria are satisfied: 
+1. you provide evidence to GitLab’s satisfaction that you are holder of a relevant trademark registration, and 
+2. you provide clear evidence to GitLab’s satisfaction showing that unauthorized use is being made of your trademark such that there is an obvious intent to mislead others into believing that the relevant namespace is affiliated with your trademark.
+
+Reports can be submitted to dmca@gitlab.com, and GitLab will review the evidence provided, and if it satisfies the above criteria, GitLab will take any action it deems appropriate.
 
 ### Namespace Policy
 
@@ -93,29 +99,15 @@ The Counter complaint is a legal document and must comply with the requirements 
 #### Trademark Infringement
 
 {{% details summary="Submitting a Trademark Infringement Notice" %}}
-If you're sure you want to report content on GitLab that you believe infringes your trademark, please provide the following information:
+To submit a trademark infringement report under the [Trademark Policy](https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/#trademark-policy), please provide:
 
-1. Details of the original trademark (and a description if it's a logo).
-1. A list of the countries in which the trademark is registered.
-1. The registration number(s) of the trademark.
-1. A scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s).
-1. A declaration of the following statement: "By submitting this notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorised by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorised to act on behalf of the owner of the intellectual property rights at issue".
+1. Evidence that you are holder of a relevant trademark registration, such as a scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s). 
+1. A declaration of the following statement: "By submitting this trademark infringement notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorised by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorised to act on behalf of the owner of the intellectual property rights at issue".
 
 You can send this information to dmca@gitlab.com, you should receive an automated confirmation of receipt.
 {{% /details %}}
 
 {{% details summary="Responding to a Trademark Infringement Request" %}}
-
-1. Should you receive a Trademark take down notice;
-
-- You can respond to the notice by submitting the requested information that proves that you hold Trademark rights to the infringing content.
-{{% /details %}}
-
-{{% details summary="Mitigating Trademark Infringement" %}}
-
-1. Should you receive a Trademark take down request, you can;
-   1. Agree to remove the reported content within 24 hours of receiving our notice.
-{{% /details %}}
 
 #### Name Squatting
 
