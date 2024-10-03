@@ -297,6 +297,7 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 #### Cold-Calling and Email Checkbox
 
 Before calling any Lead or Contact, BDRs must ensure that the `Do Not Call` box is unchecked.  If you speak to any anyone, including prospects and existing contacts, who ask you not to call them again, you must check this box. However, please do not delete the number as we need to know which number requested not to be called again. For any individuals who are opted-in to email, you may ask them if they wish to be called. If they express a desire to be called, you are then permitted to uncheck the `Do Not Call` box if it was previously checked.  Also, if an individual expresses independently via email a wish to be called, you may uncheck the `Do Not Call` box.  This email must be present in SFDC as proof of your authority to uncheck this box.  You cannot send email requests to individuals not opted-in to email asking whether they would like to be called.
+If you receive a request from a prospect asking to be removed from the CRM, [please follow this process](/handbook/legal/privacy/gdpr/).
 
 Our cold-calling best practices typically consist of 4 elements. A pattern interrupt, an elevator pitch and, if required, objection/trap-setting questions and Up-Front Contracts.
 
