@@ -23,13 +23,13 @@ A: Sign in to the [Customers Portal](https://customers.gitlab.com/customers/sign
 
 Q: Where can I manage my GitLab subscription and upcoming renewal?
 
-A: Once signed into the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your subscription, including *Upgrade Plan*, *Add More Seats*, and drop-down menu option for additional actions like *Buy GitLab Duo Pro*.
+A: Once signed into the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your subscription, including *Upgrade Plan*, *Add More Seats*, and dropdown list option for additional actions like *Buy GitLab Duo Pro*.
 
 ![manage.renewal](/handbook/sales/images/manage_renewal_v17_4.png)
 
 Q: Will my GitLab subscription auto-renew?
 
-A: Please see [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal) to understand where to check for if your subscription will auto-renew or not.
+A: [Please review this section of the GitLab documention that explains where to check on your subscription card](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal).
 
 Q: Will I be notified about my upcoming renewal?
 
@@ -37,11 +37,11 @@ A: Yes! 30 days before a subscription expires, a banner with the subscription ex
 
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
-A: 15 days before your subscription expires, you will see a *Renew* button unders your existing subscription in the [Customers Portal](https://customers.gitlab.com/customers/sign_in). This will allow you to adjust your user quantity.
+A: 15 days before your subscription expires, you will see a *Renew* button under your existing subscription in the [Customers Portal](https://customers.gitlab.com/customers/sign_in). This will allow you to adjust your user quantity.
 
-You cannot manually renew your subscription more than 15 days before the subscription expires. More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
+You cannot manually renew your subscription more than 15 days before the subscription expires. [Please review this section of GitLab documentation for instructions on how to manually renew.](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
-Please be aware that if you do not renew manually, you will be auto renewed. More information can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
+Please be aware that if you do not renew manually, you will be [auto-renewed].(https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
@@ -51,7 +51,7 @@ More information on this can be found [here](https://docs.gitlab.com/ee/subscrip
 
 If you want to contest these overages, you can open an [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293) and select the problem type *Quarterly Subscriptions Reconciliation (QSR) Related Problems*.
 
-Q: In the GitLab Customers Portal, I see the option to cancel my subscription from the drop-down menu. What happens if I click cancel?
+Q: In the GitLab Customers Portal, I see the option to cancel my subscription from the dropdown list. What happens if I click cancel?
 
 A: In the [Customers Portal](https://customers.gitlab.com/customers/sign_in), if the *Cancel subscription* option is available then this means auto-renew is turned on. Clicking *Cancel subscription* turns off auto-renew. You will still have access to your paid features until the subscription expiration date.
 
@@ -73,9 +73,9 @@ Q: During my GitLab subscription term, am I able to remove unused licenses and r
 
 A: No, this is not possible at this time.
 
-Q: I purchased a GitLab subscription through a sales person. How do I activate my purchase and apply my paid licenses to my namespace?
+Q: I purchased a GitLab.com subscription through a sales person. How do I activate my purchase and apply my paid licenses to my namespace?
 
-A: See this short [video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab subscription to your namespace. Before taking the steps described in the video, be sure that your gitlab.com user is an owner of the namespace.
+A: See this short [video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab.com subscription to your namespace. Before taking the steps described in the video, be sure that your gitlab.com user is an owner of the namespace.
 
 Q: If I add an Admin or Finance user to my group, will this take up a license even though they won't be using GitLab?
 
@@ -83,7 +83,7 @@ A: Yes, these users will count as a billable user, and will be charged for.
 
 Q: I would like to give another user access to my subscription account in the GitLab Customers Portal. How do I do this?
 
-A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#self-service-option) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
+A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-or-change-the-contacts-for-your-subscriptionn) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
 
 Q: I am part way through my GitLab subscription term and I would like to buy extra licenses for some recent hires. Am I able to do this?
 
