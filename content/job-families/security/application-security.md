@@ -39,6 +39,7 @@ Learn more about our role [on the Application Security Handbook page](/handbook/
 
 ## Requirements
 
+- Strong understanding of fundamental security principles.
 - Ability to use GitLab.
 - Able to work well with software development teams.
 - Experience identifying security issues through code review.
