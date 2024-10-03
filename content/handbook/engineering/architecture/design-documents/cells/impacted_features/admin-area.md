@@ -50,31 +50,142 @@ The following overview describes at what level each feature contained in the cur
 
 | Feature | Cluster | Cell | Organization |
 | --- | --- | --- | --- |
-| Abuse reports | | | |
+| Abuse reports | ✓ | | |
 | Analytics | | | |
-| Applications | | | |
-| Deploy keys | | | |
-| Labels | | | |
+| Applications | | ✓ | |
+| Deploy keys | | ✓ | |
+| Labels | | ✓ | |
 | Messages | ✓ | | |
 | Monitoring | | ✓ | |
-| Subscription | | | |
-| System hooks | | | |
-| Overview | | | |
-| Settings - General | ✓ | | |
-| Settings - Integrations | ✓ | | |
-| Settings - Repository | ✓ | | |
+| Subscription | ✓ | | |
+| System hooks | | ✓ | |
+| Overview | ✓ | ✓ | |
+| Settings - General (1) | ✓ | ✓ | |
+| Settings - Integrations (1) | ✓ | ✓ | |
+| Settings - Repository (1) | ✓ | ✓ | |
 | Settings - CI/CD (1) | ✓ | ✓ | |
 | Settings - Reporting | ✓ | | |
-| Settings - Metrics | ✓ | | |
+| Settings - Metrics (1) | ✓ | ✓ | |
 | Settings - Service usage data | | ✓ | |
-| Settings - Network | ✓ | | |
+| Settings - Network (1) | ✓ | ✓ | |
 | Settings - Appearance | ✓ | | |
-| Settings - Preferences | ✓ | | |
+| Settings - Preferences (1) | ✓ | ✓ | |
 
 (1) Depending on the specific setting, some will be managed at the cluster-level, and some at the Cell-level.
+The work to determine this is tracked at https://gitlab.com/gitlab-org/gitlab/-/issues/451957.
+
+### 3.1 Proposal for Settings (`ApplicationSetting` model)
+
+A mapping will exist in the Rails application to specify for each attribute if it's cluster-level, or Cell-level.
+
+A solution will be implemented to synchronize cluster-level attributes from the leader cell to other cells upon update of such cluster-level attributes.
+
+#### Admin UI
+
+##### Case 1: we're not in a cell setup (or in single-cell setup)
+
+No change to the Admin UI as cluster-level is equal to cell-level in this setup (since no sync between cells is needed).
+
+##### Case 2: we're in a cell setup
+
+On the leader cell:
+
+- show "cluster-level"/"cell-level" badges next to each setting with a "warning"/"note" explaining that sync will happen in the case of a cluster-level setting
+- upon update, if any cluster-level settings were changed, schedule a job that would send a request to the Topology service (see ["Upon attribute update on the leader cell"](#upon-attribute-update-on-the-leader-cell) for details)
+
+On other cells:
+
+- hide "cluster-level" settings and prevent update of any cluster-level settings on the backend
+- upon update, no synchronisation is needed since only cell-level attributes can be changed in this case
+
+#### Synchronisation of cluster-level attributes
+
+Investigation issue: https://gitlab.com/gitlab-org/gitlab/-/issues/451136
+
+##### At cell boot time
+
+When a non-leader cell boots:
+
+1. It sends a request to the [Topology Service](../../topology_service.md) to get all cluster-level attributes from the leader cell
+1. The Topology Service sends a request to the leader cell to get all the cluster-level attributes
+1. The leader cell responds to the request by sending the Topology Service all the cluster-level attributes ([see below for the handling of encrypted attributes](#special-case-of-encrypted-attributes))
+1. The Topology Service forwards the attributes to the non-leader cells
+1. Each non-leader cell update its local database with them
+
+##### Periodically
+
+On non-leader cells, a CRON-based background job would perform the same request as the one described above for boot time synchronisation to ensure no settings have drifted.
+
+##### Upon attribute update on the leader cell
+
+When a leader cell updates one ore many attributes at once, a background job is started that:
+
+1. Sends the updated cluster-level attributes to the Topology Service ([see below for the handling of encrypted attributes](#special-case-of-encrypted-attributes))
+1. The Topology Service forwards the attributes to the non-leader cells
+1. Each non-leader cell update its local database with them
+
+##### Special case of encrypted attributes
+
+Encrypted attributes will need to be encrypted with a transit key that's shared by the leader cell, and the non-leader cells.
+
+Leader cell:
+
+1. Before sending attributes to the Topology Service, each encrypted attribute is decrypted and re-encrypted with the `db_key_transit` transit key
+1. Then the leader cell sends the relevant cluster-level attributes to the Topology Service
+
+Non-leader cell:
+
+1. When receiving attributes, each encrypted attribute is decrypted with the `db_key_transit`, and re-encrypted with the current cell `db_key_base`
+1. Attributes are then updated in the current cell's local database
+
+##### Implementation
+
+Extend Topology Service with `MetadataService` to allow a Cell to publish information in a structured form (protobuf) to the Topology Service.
+
+The interface would be as follows:
+
+```proto
+enum MetadataType {
+    application_settings = 1;
+    broadcast_messages = 2;
+};
+
+message GetMedataRequest {
+    MetadataType type = 1;
+    string id = 2;
+}
+
+message MetadataCellStatus {
+    CellInfo cell_info = 1;
+    int64 last_lock_version = 2;
+    fixed64 last_updated_at = 3;
+}
+
+message GetMedataResponse {
+    bytes value = 1;
+    int64 lock_version = 2;
+    fixed64 last_set_at = 3;
+    repeated MetadataCellStatus cells = 4;
+}
+
+service MetadataService {
+    rpc GetMetadata(GetMedataRequest) returns (GetMedataResponse) {}
+    rpc SetMetadata(SetMedataRequest) returns (SetMedataResponse) {}
+    rpc PullChangedMatadataForCell(PullChangedMedataForRequest) returns (PullChangedMedataForResponse) {}
+    rpc ConfirmChangedMetadataForCell(AckChangedMedataForRequest) returns (AckChangedMedataForResponse) {}
+}
+```
 
 ## 4. Evaluation
 
 ## 4.1. Pros
 
+- No changes required in a non-cell setup
+- Synchronization is both pull (from non leader-cell) and push (from leader cell)
+- Clear protocol with `protobuf`
+- Minimal changes to the Admin UI: hide cluster-level attributes on non-leader cells, and show cluster-level/cell-level badges on leader cell
+
 ## 4.2. Cons
+
+- No database-level replication (impossible since we need to decrypt/re-encrypt data between cells)
+- Impossible to change cluster-level attributes on non-leader cell
