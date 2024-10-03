@@ -48,17 +48,15 @@ Subtracting the carry over weight (item 2) from our expected capacity (the produ
 
 #### Estimating effort
 
-When weighting an issue for a milestone, we use a lightweight approach 
-with the knowledge that [things take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html). These weights are
-used for capacity planning and the main focus is on making sure the overall sum
-of the weights is reasonable.
+When weighting an issue for a milestone, we use a lightweight, relative estimation approach, recognizing that [tasks often take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html). These weights are primarily
+used for capacity planning, ensuring that the total estimated effort aligns with each group's capacity for a milestone.
 
-It's OK if an issue takes longer than the weight indicates. The weights are
-intended to be used in aggregate, and what takes one person a day might take
-another person a week, depending on their level of background knowledge about
-the issue. That's explicitly OK and expected.
+**Key Principles:**
+- **Relative Estimation:** We focus on the relative complexity and effort required for each issue rather than precise time estimates.
+- **Aggregate Focus:** The sum of all issue weights should be reasonable for the milestone, even if individual issues vary in actual time taken.
+- **Flexibility:** It’s acceptable for an issue to take more or less time than its weight suggests. Variations are expected due to differences in individual expertise and familiarity with the work.
 
-These weights we use are:
+**Weight Definitions:**
 
 | Weight | Meaning |
 | --- | --- |
@@ -68,10 +66,10 @@ These weights we use are:
 | 4 | Substantial, will take significant time and collaboration to finish |
 | 5 | Large, will take a major portion of the milestone to finish |
 
-Anything larger than 5 should be broken down if possible.
+**Initial Planning:** During milestone planning, tasks can be estimated up to a weight of **5** if necessary. However, as the milestone approaches and the team moves closer to starting implementation, any task with a weight larger than **3** should be decomposed into smaller, more manageable issues or tasks with lower weights.
+**Why This Approach:** Allowing larger weights early on provides flexibility in high-level planning. Breaking down tasks closer to implementation ensures better clarity, reduces risk, and facilitates more accurate tracking and execution.
 
-We look at recent releases and upcoming availability to determine the
-weight available for a release.
+We assess the available capacity for a milestone by reviewing recent milestones and upcoming team availability. This ensures that our milestone planning remains realistic and achievable based on the collective effort estimated through these weights.
 
 #### Issues
 
