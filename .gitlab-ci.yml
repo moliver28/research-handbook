@@ -348,7 +348,7 @@ post_comment_on_failure:
     - apk add yq jq sed bash
   script:
     - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - bash ./scripts/post_comment.sh "$(cat msg.txt)"
+    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
 

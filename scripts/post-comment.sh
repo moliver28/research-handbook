@@ -16,7 +16,7 @@ user_id=`glab api user | jq .id`
 note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c "last(.[] | select( .author | .id | contains($user_id))) | .id"`
 
 # If the note already exists, update the message to reduce MR notes.
-if [ ! -z "$note_id" ]; then
+if [ $note_id != null ]; then
   echo "Found existing note with id: $note_id"
   glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes/$note_id -X PUT -f body="$MSG"
 else
