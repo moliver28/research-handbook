@@ -150,7 +150,7 @@ to anything of relevance (the other duplicate, the original feature that this is
 ##### When you should NOT close an issue or epic
 
 1. **Low priority:** sometimes features are interesting but we simply don't have the capacity to implement them. In that case, simply tell the truth and indicate that we don't have enough resources at our disposal to do it at the moment. Use the `~low priority` label to signal low priority.
-1. **Not part of your direction:** These items are good ideas, but are not at the top of the list for PMs to prioritize within their group.
+1. **Not part of your direction:** These items are good ideas, but are not at the top of the list for PMs to prioritize within their group. Use the `~low priority` label to signal low priority.
 1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize the %"Awaiting further demand"  milestone.
 1. **Divested category:** Issues for categories in which we've made a divestment, but haven't removed the category. Use the `~divested` label to signal no prioritization due to divestment.
 1. **Age of Issue:** Closing due to age alone. Filtering by age to look for candidates to close is fine, but if the issue still aligns with product direction and there is community interest, we should keep these open for future opportunities.
