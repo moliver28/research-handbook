@@ -23,7 +23,7 @@ A: Sign in to the [Customers Portal](https://customers.gitlab.com/customers/sign
 
 Q: Where can I manage my GitLab subscription and upcoming renewal?
 
-A: Once signed into to the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your upcoming renewal, including *Upgrade Plan*, *Add More Seats*, and drop-down menu option for additional actions like *Buy GitLab Duo Pro*.
+A: Once signed into the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your subscription, including *Upgrade Plan*, *Add More Seats*, and drop-down menu option for additional actions like *Buy GitLab Duo Pro*.
 
 ![manage.renewal](/handbook/sales/images/manage_renewal_v17_4.png)
 
