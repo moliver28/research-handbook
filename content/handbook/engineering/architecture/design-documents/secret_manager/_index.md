@@ -81,9 +81,9 @@ This blueprint does not cover the following:
 
 ## Decisions
 
-- [ADR-004: Use OpenBao as the secrets management service](decisions/004_openbao/)
 - [ADR-005: Non-hierarchical key structure for secrets in OpenBao](decisions/005_secrets_key_structure/)
 - [ADR-006: Use AppRole authentication method between Rails and OpenBao](decisions/006_approle_authentication_rails/)
+- [ADR-007: Use OpenBao as the secrets management service](decisions/007_openbao/)
 - [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
 
 ### Superseded
@@ -93,6 +93,7 @@ These documents are part of the initial iteration of this blueprint.
 - [ADR-001: Use envelope encryption](decisions/001_envelop_encryption/)
 - [ADR-002: Use GCP Key Management Service](decisions/002_gcp_kms/)
 - [ADR-003: Build Secrets Manager in Go](decisions/003_go_service/)
+- [ADR-004: Stateless Key Management Service](decisions/004_stateless_kms/)
 
 ## Proposal
 
