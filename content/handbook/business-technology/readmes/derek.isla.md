@@ -10,7 +10,7 @@ I'm Derek Isla, the [Manager of IT Compliance](https://handbook.gitlab.com/job-f
 Though I grew up in New Jersey, I've spent my entire adult life in South Florida, where I've built my professional career. In my free time,  I love to travel with my wife, exploring new parts of the world. As a foodie, I'm always eager to discover and savor diverse culinary experiences during our adventures.
 
 ### My Gitlab Story
-I joined GitLab shortly after the company went public in January 2022. I was brought on board to assist with the company's first SOX audit, focusing primarily on ensuring the implementation of ITGC (IT General Controls) over our in-scope SOX systems. My role involves advocating on behalf of management and liaising with our external auditors throughout the audit lifecycle.
+I joined GitLab shortly after the company went public in January 2022. I was brought on board to assist with the company's first SOX audit, focusing primarily on ensuring the implementation of ITGC (IT General Controls) over our in-scope SOX systems. My role involves advocating on behalf of management and liaising with our internal and external auditors throughout the audit lifecycle.
 A significant part of my contribution at GitLab has been in enhancing our compliance processes and controls. I've been involved in various initiatives to strengthen our compliance posture, including:
 - Collaborating with cross-functional teams to improve processes
 - Developing and implementing robust control frameworks
