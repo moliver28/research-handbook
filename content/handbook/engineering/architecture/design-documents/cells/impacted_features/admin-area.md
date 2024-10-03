@@ -128,8 +128,6 @@ When a leader cell updates one ore many attributes at once, a background job is 
 
 Encrypted attributes will need to be encrypted with a transit key that's shared by the leader cell, and the non-leader cells.
 
-The `leader-cell -> Topology Service` and 
-
 Leader cell:
 
 1. Before sending attributes to the Topology Service, each encrypted attribute is decrypted and re-encrypted with the `db_key_transit` transit key
