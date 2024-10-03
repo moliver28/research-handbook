@@ -19,16 +19,10 @@ Given the close collaboration between the PS Project Management and PS Operation
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
    * The PS Ops team works to ensure all detail in the above template is populated before assigning Delivery resources
-   * For [Consulting Blocks](#for-consulting-blocks-and-dedicated-engineer-projects) please see below
-1. Once assigned by the PS Ops team, the PM reviews follows the Kantata steps outlined below, to ensure access to Kantata
+   * For [Consulting Blocks](#for-consulting-blocks-and-dedicated-engineer-projects) please see below, to ensure you have the right amount of material to begin
+1. Once assigned by the PS Ops team, the PM follows the Kantata steps outlined below, to ensure access to Kantata
 1. The PM then reviews the Scheduling intake and begins to work through the [Sales to Delivery Transition](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/sales-to-delivery-transition.md?ref_type=heads) issue, also tied to the Customer Epic
-
-#### Customer Project Space Guidelines
-
-1. We use Gitlab as our primary Project Management tool for Service Deivery with our Customers. We use CP (Customer Project) automation configured by the PS Practice team to convert the SOW activities into trackable issues within Gitlab
-   * A list of our Projects can be found here: [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
-   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated or send a message to the #ps-practice slack channel, requesting a CP project to be created
-1. For adehring to best practices, reference the "Professional Services Delivery Methodology" below and be sure to reference the [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) for guidance around managing our porfolio, by Service Offering
+1. You will notice a step within the transition issue calling out the initial configuration of the Customer Collaboration Project within Gitlab. Follow the [initial steps to configure your project within Gitlab](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/cp/) and refer to the [PSDM (Professional Services Delivery Methodology)](../processes/_index.md) "Iteration 0" for neccessary delivery collateral to begin the project
 
 #### For Consulting Blocks and Dedicated Engineer Projects
 
