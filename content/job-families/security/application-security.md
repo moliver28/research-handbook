@@ -43,6 +43,7 @@ Learn more about our role [on the Application Security Handbook page](/handbook/
 - Excellent written and verbal communication skills, with an ability to articulate complex topics in a clear and concise manner.
 - Ability to effectively collaborate with software development teams.
 - Able to work well with software development teams.
+- Solid understanding of common security vulnerabilities, including how to identify, exploit, and ways to remediate them.
 - Experience identifying security issues through code review.
 - Familiarity with some common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
 - Familiarity and ability to explain common security flaws and ways to address them (e.g. OWASP Top 10).
