@@ -33,11 +33,11 @@ A: Please see [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#enab
 
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
-A: 15 days before your subscription expires, you will see a *Renew* button understand your existing subscription. This will allow you to adjust your user quantity.
+A: 15 days before your subscription expires, you will see a *Renew* button unders your existing subscription in the [Customers Portal](https://customers.gitlab.com/customers/sign_in). This will allow you to adjust your user quantity.
 
 You cannot manually renew your subscription more than 15 days before the subscription expires. More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
-Please be aware that if you don't renew manually, you will be auto renewed. More information can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
+Please be aware that if you do not renew manually, you will be auto renewed. More information can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
