@@ -60,7 +60,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 ###### During On-Call
 
 - The on-call schedule can be unpredictable; therefore, your main objective this week is to deliver results for customers who contact CEOC.
-- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](https://handbook.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests/#submitting-a-support-ticket-attention-request-star--starring-a-ticket), or raise attention to a Support Leader who can help.
+- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help.
 - Help with the Global queue as you can
 - Take easy wins tickets (i.e. 2FA, Low priority, free user tickets) as you are able. 
 - Leave internal notes with next-steps on tickets that you cannot take assignment.
