@@ -24,7 +24,7 @@ These efforts have been crucial in maintaining and improving GitLab's overall co
 
 Contrary to the perception of compliance as boring and routine, I bring energy and purpose to my work. I'm a logical and practical person who thrives on challenges and values efficiency. While I have high standards and a drive for results, I also recognize the importance of building strong relationships with all stakeholders. I focus on creating connections and fostering a collaborative environment and enjoy that part of my job, talking to people! In my approach to compliance, I always strive to make things engaging and relatable. I believe in explaining the 'why' behind compliance requirements, helping others understand their importance and impact. This approach not only ensures better adherence but also cultivates a culture of compliance throughout the organization. 
 
-### Communicaiton Style
+### Communication Style
 
 I value clear, direct, and efficient communication. Here's what you can expect when working with me:
 
