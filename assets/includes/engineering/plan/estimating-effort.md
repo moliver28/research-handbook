@@ -2,6 +2,7 @@ When weighting an issue for a milestone, we use a lightweight, relative estimati
 used for capacity planning, ensuring that the total estimated effort aligns with each group's capacity for a milestone.
 
 **Key Principles:**
+
 - **Relative Estimation:** We focus on the relative complexity and effort required for each issue rather than precise time estimates.
 - **Aggregate Focus:** The sum of all issue weights should be reasonable for the milestone, even if individual issues vary in actual time taken.
 - **Flexibility:** It’s acceptable for an issue to take more or less time than its weight suggests. Variations are expected due to differences in individual expertise and familiarity with the work.
