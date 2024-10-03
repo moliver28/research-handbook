@@ -35,7 +35,9 @@ To do that, please follow these steps:
 
     * Some partners are eligible to receive  vouchers with higher discounts in accordance with the [Program Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?id=712791&renderMode=Collection&q=partner%20incentive%20guide). (Search for "Certification Funds" on page 4.)
 
-### How much time does it take to get PSE certified?
+### PSE FAQ
+
+#### How much time does it take to get PSE certified?
 
 Here are a couple of **rough estimates** for people with different skill levels (1 day \= 8 hours):
 
@@ -44,6 +46,10 @@ Here are a couple of **rough estimates** for people with different skill levels 
 * DevOps professionals familiar with other products on the market, but without prior GitLab experience: **10–12** days.
 
 * IT professionals without DevOps knowledge and without GitLab experience: **15–20** days.
+
+#### Do I have to take the exams in order?
+
+No, it's up to you. You just need to finish all 6 to get the PSE status.
 
 ## Not-for-Resale (NFR) licenses
 
