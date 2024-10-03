@@ -33,9 +33,9 @@ A: Please see [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#enab
 
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
-A: Yes! You can renew manually by selecting the *Renew* from the drop-down menu option. From there, you can adust the user quantity. You cannot manually renew your subscription more than 15 days before the subscription expires. More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
+A: 15 days before your subscription expires, you will see a *Renew* button understand your existing subscription. This will allow you to adjust your user quantity.
 
-![manual.renewal](/handbook/sales/images/renew_subscription_v17_4.png)
+You cannot manually renew your subscription more than 15 days before the subscription expires. More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
 Please be aware that if you don't renew manually, you will be auto renewed. More information can be found [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
@@ -51,7 +51,7 @@ Q: In the GitLab Customers Portal, I see the option to cancel my subscription fr
 
 A: In the [Customers Portal](https://customers.gitlab.com/customers/sign_in), if the *Cancel subscription* option is available then this means auto-renew is turned on. Clicking *Cancel subscription* turns off auto-renew. You will still have access to your paid features until the subscription expiration date.
 
-Q: If I have GitLab Duo Pro, GitLab Duo Enterprise, or GitLab Enterprise Agile Planning add-ons, will my account auto-renew in the same as if I did not have these add-ons?
+Q: Will having add-ons affect my renewal process?
 
 A: Subscriptions with Duo Pro, Duo Enterprise, or Enterprise Agile Planning cannot auto-renew. You will see a banner asking you to contact the sales team for assistance. If you know your Account Executive, please contact them directly.
 
