@@ -276,7 +276,7 @@ GitLab FedRAMP certification.
 
 Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners) project, GitLab
 scans all images we produce to highlight CVE vulnerabilities. From those scans, the
-[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
+[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper)
 project creates issues in the project that created the vulnerable image, including
 [SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
 The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and

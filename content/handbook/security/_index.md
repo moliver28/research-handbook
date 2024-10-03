@@ -185,7 +185,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
     - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
   - [@gitlab-com/gl-security/security-operations/redteam](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam)
   - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
-  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
+  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management)
 
 #### Slack Channels
 
