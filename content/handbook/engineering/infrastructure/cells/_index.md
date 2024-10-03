@@ -196,7 +196,7 @@ DRI of Expansion Software Development
 <td>Staff Backend Engineer, Core Development</td>
 <td>
 
-DRI of Expansion Software Development
+DRI of Core Development
 
 </td>
 </tr>
