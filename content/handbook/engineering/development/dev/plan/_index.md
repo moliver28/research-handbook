@@ -46,6 +46,12 @@ The third item tells us how we've been doing previously. If the trend is downwar
 
 Subtracting the carry over weight (item 2) from our expected capacity (the product of items 1 and 3) should tell us our capacity for the next release.
 
+#### Estimating effort
+
+Groups within Plan use the same numerical scale when estimating upcoming work.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
+
 #### Issues
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
