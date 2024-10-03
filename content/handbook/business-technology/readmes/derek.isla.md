@@ -3,8 +3,6 @@ title: "Derek Isla's README"
 job: "Manager, IT Compliance - Enterprise Application's Team"
 ---
 
-## Derek Isla's README
-
 ### About Me 
 
 I'm Derek Isla, the [Manager of IT Compliance](https://handbook.gitlab.com/job-families/finance/it-compliance/#manager-it-compliance-requirements) within the Enterprise Applications team, bringing about 10 years of diverse experience to the role. My expertise spans SOC 1 and 2 certifications, ISO 27001 certification, and extensive work in Sarbanes-Oxley (SOX) compliance.  My career in IT compliance has evolved from external auditing to in-house roles across various industries. I've been involved in numerous SOX audits and implementations, consistently ensuring robust compliance frameworks.
@@ -26,7 +24,7 @@ These efforts have been crucial in maintaining and improving GitLab's overall co
 
 Contrary to the perception of compliance as boring and routine, I bring energy and purpose to my work. I'm a logical and practical person who thrives on challenges and values efficiency. While I have high standards and a drive for results, I also recognize the importance of building strong relationships with all stakeholders. I focus on creating connections and fostering a collaborative environment and enjoy that part of my job, talking to people! In my approach to compliance, I always strive to make things engaging and relatable. I believe in explaining the 'why' behind compliance requirements, helping others understand their importance and impact. This approach not only ensures better adherence but also cultivates a culture of compliance throughout the organization. 
 
-### Communicaiton Style
+### Communication Style
 
 I value clear, direct, and efficient communication. Here's what you can expect when working with me:
 
