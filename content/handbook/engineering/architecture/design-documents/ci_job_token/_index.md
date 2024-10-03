@@ -136,6 +136,20 @@ permissions it carries.
 **This approach allows us to issue tokens with reduced access, even when the user
 has broader permissions.**
 
+```mermaid
+flowchart TD
+    A[Ci::Build] -->|GET /job | B(REST API)
+    B --> C{Job Token?}
+    C -->|Yes| D{Permission in token?}
+    C -->|No| E{Declarative Policy?}
+    D -->|Yes| F[Authorized]
+    D -->|No| G{Downstream Project?}
+    G -->|Yes| E
+    G -->|No| H[Unauthorized]
+    E -->|Yes| F
+    E -->|No| H
+```
+
 #### JWT Token Structure
 
 The `CI_JOB_TOKEN` will follow this JWT structure, based on the permission
