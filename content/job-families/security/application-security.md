@@ -42,13 +42,11 @@ Learn more about our role [on the Application Security Handbook page](/handbook/
 - Strong understanding of fundamental security principles.
 - Excellent written and verbal communication skills, with an ability to articulate complex topics in a clear and concise manner.
 - Ability to effectively collaborate with software development teams.
-- Able to work well with software development teams.
 - Solid understanding of common security vulnerabilities, including how to identify, exploit, and ways to remediate them.
-- Experience identifying security issues through code review.
-- Familiarity with some common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
-- Familiarity and ability to explain common security flaws and ways to address them (e.g. OWASP Top 10).
-- Basic development or scripting experience and skills. Ruby, Ruby on Rails, JavaScript, and/or Go are preferred.
-- A basic understanding of network and web related protocols (such as TCP/IP, UDP, HTTP, HTTPS, protocols).
+- Proficiency in reading, writing, and reviewing code in Ruby on Rails or Go.
+- Familiarity with common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
+- A basic understanding of network and web related protocols (e.g. TCP/IP, UDP, HTTP, HTTPS, protocols).
+- Comfortable with using Git and GitLab.
 
 ## Levels
 
