@@ -46,6 +46,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 ##### Balancing ticked load while on-call
 
 ###### Before On-Call
+
 - 🎫 Maintain your regular workload during the week prior.
 - 📅Towards the end of the week (Thursday-Friday), look through your queue.
 - Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
@@ -57,6 +58,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - 💡Solving emergency tickets will count towards your AQC
 
 ###### During On-Call
+
 - The on-call schedule can be unpredictable; therefore, your main objective this week is to deliver results for customers who contact CEOC.
 - 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](https://handbook.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests/#submitting-a-support-ticket-attention-request-star--starring-a-ticket), or raise attention to a Support Leader who can help.
 - Help with the Global queue as you can
@@ -65,6 +67,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - 🧠 Remember: your goal this week is to take care of customers who page CEOC 
 
 ###### Week After On-Call
+
 - Take time as needed based on how things went that weekend or the previous week. 
 - If you plan to take time off, please ensure that you complete any extra steps  so that your pending tickets are in good hands 🫶.
 - Close out any loops: if you had to leave something for later while on-call — do it now.
