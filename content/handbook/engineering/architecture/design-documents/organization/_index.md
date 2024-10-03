@@ -238,18 +238,18 @@ A list of features not supported in Cells 1.0 is available in the [Cells 1.0 blu
 
 Organizations in the context of Cells 1.5 will contain the following functionality:
 
-**Deletion**
+- **Deletion**
   - Organizations can be deleted by Organization Owners.
-**Users**
+- **Users**
   - Organization Users can be part of multiple Organizations using one account.
   - Users are able to navigate between their Organizations using an Organization switcher. 
   - Non-Enterprise Users can be removed from or leave an Organization.
   - When users are added to Organizations they receive an email informing them that they have been added to the Organization.
   - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces.html) they are associated with.
   - [User Profile can be scoped to multiple Organizations](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). Changing the Organization in the switcher will change the scope of the User Profile to the selected Organization.
-**Groups**
+- **Groups**
   - Users can transfer existing top-level Groups into Organizations.
-**Isolation**
+- **Isolation**
   - Organizations are fully isolated. We aim to complete [phase 2 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11838), with the goal to implement isolation constraints.
 
 #### Organizations on Cells 2.0 (FY26Q3-FY26Q4)
