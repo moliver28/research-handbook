@@ -17,6 +17,7 @@ GitLab.com namespaces are available on a first come, first served basis. No one 
 GitLab is not in a position to investigate, assess or adjudicate complicated trademark disputes between third parties. In these instances, contact the third party that you believe is infringing your rights to resolve the matter, or seek resolution by available legal means. GitLab cannot intervene in such matters without a valid legal order.
 
 GitLab will only review a trademark infringement claim related to a namespace registered to a third party, and may intervene, where both of the below criteria are satisfied: 
+
 1. you provide evidence to GitLab’s satisfaction that you are holder of a relevant trademark registration, and 
 2. you provide clear evidence to GitLab’s satisfaction showing that unauthorized use is being made of your trademark such that there is an obvious intent to mislead others into believing that the relevant namespace is affiliated with your trademark.
 
@@ -99,7 +100,7 @@ The Counter complaint is a legal document and must comply with the requirements 
 #### Trademark Infringement
 
 {{% details summary="Submitting a Trademark Infringement Notice" %}}
-To submit a trademark infringement report under the [Trademark Policy](https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/#trademark-policy), please provide:
+To submit a trademark infringement report under the [Trademark Policy](/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/#trademark-policy), please provide:
 
 1. Evidence that you are holder of a relevant trademark registration, such as a scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s). 
 1. A declaration of the following statement: "By submitting this trademark infringement notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorised by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorised to act on behalf of the owner of the intellectual property rights at issue".
