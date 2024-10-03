@@ -66,11 +66,11 @@ erDiagram
     string message "null:false"
     string code
     string error_type
-    string controller
-    string action
     string status "null:false"
     string gitlab_issue_link
     text backtrace
+    jsonb payload
+    text notes
     datetime created_at "null:false"
     datetime updated_at "null:false"
   }
