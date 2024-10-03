@@ -157,7 +157,7 @@ This section is updated after every Board Meeting by the Staff EBA to the CFO fo
 
 1. Meeting is scheduled for 2024-12-12.
 1. 2024-10-21 - The Lead Independent Director will reach out to the Board to discuss agenda items.
-1. 2024-10-28 TO BE CONFIRMED - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
+1. 2024-10-29 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
 1. 2024-11-19 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down]
 1. 2024-11-27 - The E-Group has completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
 1. 2024-12-05 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
