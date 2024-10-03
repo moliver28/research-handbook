@@ -43,6 +43,33 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - AMER 2 DRI: 14:30pm - 17:30pm EDT
 - AMER 3 DRI: 17:30pm - 20:00 EDT
 
+##### Balancing ticked load while on-call
+
+###### Before On-Call
+- 🎫 Maintain your regular workload during the week prior.
+- 📅Towards the end of the week (Thursday-Friday), look through your queue.
+- Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
+- Leave the summary you would want to receive
+- Work with your network/peers/Support pod to find an Assignee for those tickets
+- During the 1:1 with your Manager, assign tickets to them and chat through Next Steps if needed.
+- 🔎 Identify tickets you can reasonably keep during on-call week
+- 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22) 
+- 💡Solving emergency tickets will count towards your AQC
+
+###### During On-Call
+- The on-call schedule can be unpredictable; therefore, your main objective this week is to deliver results for customers who contact CEOC.
+- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](https://handbook.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests/#submitting-a-support-ticket-attention-request-star--starring-a-ticket), or raise attention to a Support Leader who can help.
+- Help with the Global queue as you can
+- Take easy wins tickets (i.e. 2FA, Low priority, free user tickets) as you are able. 
+- Leave internal notes with next-steps on tickets that you cannot take assignment.
+- 🧠 Remember: your goal this week is to take care of customers who page CEOC 
+
+###### Week After On-Call
+- Take time as needed based on how things went that weekend or the previous week. 
+- If you plan to take time off, please ensure that you complete any extra steps  so that your pending tickets are in good hands 🫶.
+- Close out any loops: if you had to leave something for later while on-call — do it now.
+- Ramp up as quickly as you comfortably can to normal AQC.
+
 ### Communicate
 
 When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM) - "cc @user" is good enough - if the customer has one (steps [here](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm) for how to identify CSMs). This creates visibility around the situation and opens the door to let the team join in.
