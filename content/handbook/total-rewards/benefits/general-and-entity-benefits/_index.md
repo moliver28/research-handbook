@@ -30,7 +30,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
 - [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
 - [Papaya Global (Italy)]({{< ref "papaya-global" >}})
-- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, and UAE)]({{< ref "global-expansion" >}})
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)]({{< ref "global-expansion" >}})
 
 ### Benefits Available to Contractors
 
