@@ -20,15 +20,16 @@ The Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/c
 
 ## Requirements
 
-- Ability to use GitLab
 - Excellent communication skills
 - Expert hiring manager skills and experience
-- A well developed people management philosophy for managers and engineers
-- Experience managing managers
-- Agile project management skills
-- Commitment to understand, communicate and improve the quality of multiple teams
+- Experience managing managers, and a strong people management philosophy for both managers and engineers.
+- Track record of structuring, staffing, and maintaining a high-performing organization that is resourced appropriately and cost-effectively.
+- Ability to coordinate complex technical projects that span multiple teams, while providing high-level progress updates in clear, business-friendly terms.
+- Ability to develop long-term technical roadmaps and broker architectural decisions across teams.
+- Experience prioritizing technical debt at the organizational level, identifying risks, and balancing short-term delivery with long-term system health.
+- Expertise in agile methodologies, with a focus on optimizing overall organizational velocity and execution against business goals.
 - Demonstrate longevity at, at least, one recent job
-- Understanding of how to be successfully manage at a remote-only company
+- Ability to be successful managing at a remote-only company
 - Humble, servant leader
 
 ## Levels
