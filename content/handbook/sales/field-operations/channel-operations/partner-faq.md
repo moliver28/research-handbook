@@ -121,6 +121,8 @@ Can we include different product tiers (premium and ultimate), deployment types 
 
 No, we cannot mix product tiers, deployment types, and/or term lengths on the same quote. Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-different-product-tiers-deployment-types-and-term-lengths-on-the-same-quote) for more information.
 
+Please note that Education Services are required for certain deals in order to improve product adoption and minimize security risks.
+
 </details>
 
 <details>
