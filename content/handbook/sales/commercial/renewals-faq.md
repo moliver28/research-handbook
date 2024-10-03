@@ -53,7 +53,7 @@ A: In the [Customers Portal](https://customers.gitlab.com/customers/sign_in), if
 
 Q: If I have GitLab Duo Pro, GitLab Duo Enterprise, or GitLab Enterprise Agile Planning add-ons, will my account auto-renew in the same as if I did not have these add-ons?
 
-A: As it stands, you cannot auto-renew if you have any of the above-stated add-ons. You will see a disclaimer that will emphasize this, asking you to contact the sales team for assistance. If you know your Account Executive, please contact them directly.
+A: Subscriptions with Duo Pro, Duo Enterprise, or Enterprise Agile Planning cannot auto-renew. You will see a banner asking you to contact the sales team for assistance. If you know your Account Executive, please contact them directly.
 
 ![add-on.renewal](/handbook/sales/images/add_on_renewal_v17_4.png)
 
