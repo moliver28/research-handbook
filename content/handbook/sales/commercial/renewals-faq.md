@@ -31,6 +31,10 @@ Q: Will my GitLab subscription auto-renew?
 
 A: Please see [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal) to understand where to check for if your subscription will auto-renew or not.
 
+Q: Will I be notified about my upcoming renewal?
+
+A: Yes! 30 days before a subscription expires, a banner with the subscription expiry date displays for administrators in the GitLab user interface. You will also receive [email notifications](https://docs.gitlab.com/ee/subscriptions/self_managed/#email-notifications)
+
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
 A: 15 days before your subscription expires, you will see a *Renew* button unders your existing subscription in the [Customers Portal](https://customers.gitlab.com/customers/sign_in). This will allow you to adjust your user quantity.
