@@ -89,10 +89,12 @@ No change to the Admin UI as cluster-level is equal to cell-level in this setup 
 ##### Case 2: we're in a cell setup
 
 On the leader cell:
+
 - show "cluster-level"/"cell-level" badges next to each setting with a "warning"/"note" explaining that sync will happen in the case of a cluster-level setting
 - upon update, if any cluster-level settings were changed, schedule a job that would send a request to the Topology service (see ["Upon attribute update on the leader cell"](#upon-attribute-update-on-the-leader-cell) for details)
 
 On other cells:
+
 - hide "cluster-level" settings and prevent update of any cluster-level settings on the backend
 - upon update, no synchronisation is needed since only cell-level attributes can be changed in this case
 
@@ -134,6 +136,7 @@ Leader cell:
 1. Then the leader cell sends the relevant cluster-level attributes to the Topology Service
 
 Non-leader cell:
+
 1. When receiving attributes, each encrypted attribute is decrypted with the `db_key_transit`, and re-encrypted with the current cell `db_key_base`
 1. Attributes are then updated in the current cell's local database
 
