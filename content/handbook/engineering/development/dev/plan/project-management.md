@@ -50,7 +50,11 @@ For more urgent items, feel free to use [#s_plan](https://gitlab.slack.com/archi
 
 ### Capacity planning
 
-When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage. Read more about it on the [Plan Stage handbook page](/handbook/engineering/development/dev/plan/#estimating-effort).
+#### Estimating effort
+
+When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
+
+{{% include "includes/engineering/plan/capacity-planning.md" %}}
 
 #### Weighing bugs
 

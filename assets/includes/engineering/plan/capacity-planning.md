@@ -1,5 +1,3 @@
-#### Estimating effort
-
 When weighting an issue for a milestone, we use a lightweight, relative estimation approach, recognizing that [tasks often take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html). These weights are primarily
 used for capacity planning, ensuring that the total estimated effort aligns with each group's capacity for a milestone.
 
