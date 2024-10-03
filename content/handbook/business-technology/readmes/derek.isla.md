@@ -1,6 +1,6 @@
 ---
 title: "Derek Isla's README"
-job: "Manager, IT Compliance - Enterprise Application Team"
+job: "Manager, IT Compliance - Enterprise Application's Team"
 ---
 
 ## Derek Isla's README
