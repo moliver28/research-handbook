@@ -37,7 +37,6 @@ I value clear, direct, and efficient communication. Here's what you can expect w
 - I appreciate well-organized, logical presentations of information
 - While I'm direct, I'm always open to input and value team collaboration and feedback
 
-
 ### What I'm Currently Working On 
 
 - Managing ITGC controls and implementation across our SOX systems
@@ -45,11 +44,7 @@ I value clear, direct, and efficient communication. Here's what you can expect w
 - Assisting in the development of our CM v2 procedure
 - Scoping and maintenance of the SOD/UAR (Segregation of Duties/User Access Review) program
 
-
 ### Related Sites
 
 - [Linkedin](https://www.linkedin.com/in/djisla/)
 - [Simpli5 Report](https://drive.google.com/file/d/1uHk4QTC6LY36_sTxE9sGHluuPW3u4yQ0/view?usp=drive_link)
-
-
-
