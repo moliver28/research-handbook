@@ -348,8 +348,7 @@ post_comment_on_failure:
     - apk add yq jq sed bash
   script:
     - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - glab auth login -t $GITLAB_TOKEN
-    - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
+    - bash ./scripts/post_comment.sh "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
 
