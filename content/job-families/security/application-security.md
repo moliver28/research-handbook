@@ -40,10 +40,10 @@ Learn more about our role [on the Application Security Handbook page](/handbook/
 ## Requirements
 
 - Strong understanding of fundamental security principles.
+- Excellent written and verbal communication skills, with an ability to articulate complex topics in a clear and concise manner.
 - Ability to use GitLab.
 - Able to work well with software development teams.
 - Experience identifying security issues through code review.
-- Excellent and professional communication skills (written and verbal) with an ability to articulate complex topics in a clear and concise manner.
 - Familiarity with some common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
 - Familiarity and ability to explain common security flaws and ways to address them (e.g. OWASP Top 10).
 - Basic development or scripting experience and skills. Ruby, Ruby on Rails, JavaScript, and/or Go are preferred.
