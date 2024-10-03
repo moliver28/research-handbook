@@ -5,7 +5,7 @@ description: "Detailed guide for partners' technical teams about how to achieve 
 
 ## GitLab Professional Services Partner (PSP) Designation
 
-Please refer to [this section](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/#gitlab-partner-services-program) of our handbook. There you can find the requirements you'll need to satisfy as a company to become a PSP.
+Please refer to [this section](/handbook/resellers/channel-program-guide/#gitlab-partner-services-program) of our handbook. There you can find the requirements you'll need to satisfy as a company to become a PSP.
 All the benefits you can get out of this designation are documented there too.
 
 ## GitLab Professional Service Engineer (PSE) Certifications
@@ -52,7 +52,7 @@ No, it's up to you. You just need to finish all 6 to get the PSE status.
 
 ## Not-for-Resale (NFR) licenses
 
-You can find more information about this partner-only benefit [here](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#working-with-gitlab---technical).
+You can find more information about this partner-only benefit [here](/handbook/resellers/channel-working-with-gitlab/#working-with-gitlab---technical).
 
 The "Certification Prep" courses in the PSE learning path (see above) will provide your team members with access to GitLab environments in order to get hands-on experience with certain parts of our product. But those are just temporary. By applying for our NFR licenses, your team can set up permanent GitLab environments in which you can freely experiment and learn our product. You can also use these environments for customer-facing demos. You can find assets to support these activities [below](#further-technical-education).
 
@@ -60,4 +60,4 @@ We advise you to apply for this benefit twice: once for the SaaS (.com) and once
 
 ## Further technical education
 
-To further deepen our partners' technical understanding of GitLab, our team has created [this handbook page](https://handbook.gitlab.com/handbook/resellers/partner-enablement/). Alongside the formal certification process, we highly recommend for your team to get familiar with the content here. We keep this page up to date, and it has our best resources to prepare partner staff both for technical pre-sales and technical post-sales activities with customers.
+To further deepen our partners' technical understanding of GitLab, our team has created [this handbook page](/handbook/resellers/partner-enablement/). Alongside the formal certification process, we highly recommend for your team to get familiar with the content here. We keep this page up to date, and it has our best resources to prepare partner staff both for technical pre-sales and technical post-sales activities with customers.
