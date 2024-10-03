@@ -16,8 +16,7 @@ To do that, please follow these steps:
 
 * Go to the [Partner Portal](https://partners.gitlab.com/) and select Training → Start Training from the menu.
 
-* Scroll down and click on:
-"GitLab Certified Professional Services Engineer Learning Path"
+* Scroll down and click on: "GitLab Certified Professional Services Engineer Learning Path"
 
 * The newly opened page has two sections:
 
