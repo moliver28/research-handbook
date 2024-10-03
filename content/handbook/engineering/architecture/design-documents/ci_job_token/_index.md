@@ -140,7 +140,7 @@ has broader permissions.**
 flowchart TD
     A[Ci::Build] -->|GET /job | B(REST API)
     B --> C{Job Token?}
-    C -->|Yes| D{Permission in token?}
+    C -->|Yes| I{Trusted?}
     C -->|No| E{Declarative Policy?}
     D -->|Yes| F[Authorized]
     D -->|No| G{Downstream Project?}
@@ -148,6 +148,10 @@ flowchart TD
     G -->|No| H[Unauthorized]
     E -->|Yes| F
     E -->|No| H
+    I -->|Yes| J{Revoked?}
+    I -->|No| H
+    J -->|Yes| H
+    J -->|No| D{Permission in Token?}
 ```
 
 #### JWT Token Structure
