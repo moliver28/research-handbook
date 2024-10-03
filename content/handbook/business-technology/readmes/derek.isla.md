@@ -47,6 +47,7 @@ I value clear, direct, and efficient communication. Here's what you can expect w
 
 
 ### Related Sites
+
 - [Linkedin](https://www.linkedin.com/in/djisla/)
 - [Simpli5 Report](https://drive.google.com/file/d/1uHk4QTC6LY36_sTxE9sGHluuPW3u4yQ0/view?usp=drive_link)
 
