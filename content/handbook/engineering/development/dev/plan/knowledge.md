@@ -47,7 +47,7 @@ It's OK not to take the top item if you are not confident you can solve it, but 
 
 When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 Typically, 3-month rolling average is a good indicator of the team's capacity. Knowledge is a new team and determining capacity will be difficult at the beginning without clear historical data.
 

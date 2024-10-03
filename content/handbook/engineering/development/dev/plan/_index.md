@@ -50,7 +50,7 @@ Subtracting the carry over weight (item 2) from our expected capacity (the produ
 
 Groups within Plan use the same numerical scale when estimating upcoming work.
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 #### Issues
 

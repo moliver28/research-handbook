@@ -54,7 +54,7 @@ For more urgent items, feel free to use [#s_plan](https://gitlab.slack.com/archi
 
 When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 #### Weighing bugs
 
