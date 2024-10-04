@@ -75,7 +75,7 @@ A: No, this is not possible at this time.
 
 Q: I purchased a GitLab.com subscription through a sales person. How do I activate my purchase and apply my paid licenses to my namespace?
 
-A: See this short [video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab.com subscription to your namespace. Before taking the steps described in the video, be sure that your gitlab.com user is an owner of the namespace.
+A: See [this short video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab.com subscription to your group. Before taking the steps described in the video, be sure that you have the Owner role for the group.
 
 Q: If I add an Admin or Finance user to my group, will this take up a license even though they won't be using GitLab?
 
