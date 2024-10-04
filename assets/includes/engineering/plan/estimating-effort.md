@@ -18,6 +18,7 @@ used for capacity planning, ensuring that the total estimated effort aligns with
 | 5 | Large, will take a major portion of the milestone to finish |
 
 **Initial Planning:** During milestone planning, tasks can be estimated up to a weight of **5** if necessary. However, as the milestone approaches and the team moves closer to starting implementation, any task with a weight larger than **3** should be decomposed into smaller, more manageable issues or tasks with lower weights.
+
 **Why This Approach:** Allowing larger weights early on provides flexibility in high-level planning. Breaking down tasks closer to implementation ensures better clarity, reduces risk, and facilitates more accurate tracking and execution.
 
 We assess the available capacity for a milestone by reviewing recent milestones and upcoming team availability. This ensures that our milestone planning remains realistic and achievable based on the collective effort estimated through these weights.
