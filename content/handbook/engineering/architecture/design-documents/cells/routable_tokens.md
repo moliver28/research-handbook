@@ -265,7 +265,7 @@ introduce a stage of transforming information: `transform`.
 ]
 ```
 
-Here, we explicitly pass `c`, `o`, and `u` fields. If the field is missing it would not be ignored. We intentionally do not pass `r`.
+Here we explicitly pass `c`, `o`, and `u` fields. If a field is missing value we'll just pass an empty string for them. We intentionally do not pass `r`.
 
 #### HTTP Router support for JWT
 
