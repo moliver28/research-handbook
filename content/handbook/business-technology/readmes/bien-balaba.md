@@ -17,8 +17,8 @@ I believe that great support starts with a positive attitude, and I strive to em
 
 ### What I am working on
 
-- I handle and resolve Incident and Request Tickets raised in HelpLab for the Enterprise Applications team, Gitlab Issues, and through different channels. 
-- Managing system configuration and development of the HelpLab Portal by ServiceNow. 
+- I handle and resolve Incident and Request Tickets raised in HelpLab for the Enterprise Applications team, GitLab Issues, and through different channels.
+- Managing system configuration and development of the HelpLab Portal by ServiceNow.
 - User Access Provisioning for Salesforce.
 
 ### When I'm not working

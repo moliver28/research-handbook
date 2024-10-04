@@ -11,16 +11,16 @@ For our purposes, visa sponsorship is defined as the requirement that a company 
 
 ### General Work Authorization Guidelines
 
-- GitLab does not support any visa that requires sponsorship. Sponsorship includes anything that requires GitLab to become a registered employer or sponsor, petition the government directly, fill out an application on behalf of a team member, pay an employer fee, or otherwise places a significant compliance obligation or burden on GitLab. 
-- GitLab is willing to provide company information, including contact information, an offer of employment, and an employment verification letter to validate employment to assist with a visa application that is not tied to a particular employer. This would not be considered sponsorship. 
+- GitLab does not support any visa that requires sponsorship. Sponsorship includes anything that requires GitLab to become a registered employer or sponsor, petition the government directly, fill out an application on behalf of a team member, pay an employer fee, or otherwise places a significant compliance obligation or burden on GitLab.
+- GitLab is willing to provide company information, including contact information, an offer of employment, and an employment verification letter to validate employment to assist with a visa application that is not tied to a particular employer. This would not be considered sponsorship.
 - GitLab can generally accept dependent visas or other family-based work permits that are not tied to an employer. However, if the individual loses a work permit based on their dependent status (e.g., the spouse who is sponsored by their employer loses their sponsored job), then the individual is no longer authorized to work for GitLab.
 - Please note that if a visa expires (even if it was a visa accepted by GitLab), the individual is not eligible to work immediately upon expiration. If a team member’s work authorization expires, please reach out to People Connect to determine if any possible alternative options exist.
 - The following information is limited to countries with GitLab entities. Alternative visa options may exist in locations where GitLab uses PEOs. As the employer of record, we expect PEOs may have their own policies on what visas they accept and/or assist with.
-- Additional information for People Group members related to work authorization is available [here](https://docs.google.com/document/d/1LnDx1NeDDufo-mGYv-eMYqqaLLkIS0___QgtTXp7otI/edit?usp=sharing). 
+- Additional information for People Group members related to work authorization is available [here](https://docs.google.com/document/d/1LnDx1NeDDufo-mGYv-eMYqqaLLkIS0___QgtTXp7otI/edit?usp=sharing).
 
 ### Visas and work permits GitLab may be able to accept
 
-GitLab's acceptance of a visa depends on many factors. The following visas may make a candidate eligible to work at GitLab. The following list is not exhaustive. 
+GitLab's acceptance of a visa depends on many factors. The following visas may make a candidate eligible to work at GitLab. The following list is not exhaustive.
 
 - Australia Employer Nomination Scheme visa (subclass 186)
 - France EU Blue Card
@@ -328,7 +328,7 @@ Do:
 
 - Ask all candidates the following two questions:
   - Are you legally authorized to work for GitLab in [country of hire]?
-    - If yes, no further information needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate.  
+    - If yes, no further information needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate.
     - If no or any other answer is given, please let them know about our Visa Sponsorship policy and state that we’re required to ensure that all new hires are authorized to work at GitLab at the time of hire. If they are unable to secure work authorization by the proposed start date without our sponsorship or other assistance with securing such authorization, we will not be able to move forward with their application. If they state that they’ll need a certain type of visa that they do not currently hold (like a TN or Blue Card) in order to secure work authorization, please consult the preceding section or reach out to People Connect via HelpLab to confirm that it is a visa we can accept.
   - Will you now or in the future require sponsorship for an employment visa?
     - If yes, please point them to our Visa Sponsorship policy and let them know that we will not be able to sponsor their work visa. If they are unable to secure authorization to work at GitLab without sponsorship then we will not be able to move forward with their application.
@@ -337,10 +337,10 @@ Do:
 - Tell all candidates that they must be currently authorized to work in the country of hire on a full-time basis.
 - Tell all candidates that GitLab will not sponsor work visas.
 - Consult this document or People Connect for more context if a candidate offers information about the type of visa or work permit they are currently on without you asking. Some countries prohibit employers from making hiring decisions on the basis of visa type as long as the person is authorized to work without sponsorship, so it’s important to ensure that this information is used only to confirm that this is a visa we can support without issue.
-- If you are concerned that visas or sponsorship may be an issue for a candidate, we are required to wait until after the candidate has accepted a job offer to ask for further details about their visa type and expiration date. 
+- If you are concerned that visas or sponsorship may be an issue for a candidate, we are required to wait until after the candidate has accepted a job offer to ask for further details about their visa type and expiration date.
 
-Don’t: 
+Don’t:
 
 - Treat a candidate differently based on your perception/guess that they may have or may need a visa or work permit for their location.
-- Ask a candidate if they have a visa or what type of visa they have. If a candidate mentions having a visa you may reiterate that Gitlab does not sponsor work visas and confirm that they do not require sponsorship in order to work for GitLab.
+- Ask a candidate if they have a visa or what type of visa they have. If a candidate mentions having a visa you may reiterate that GitLab does not sponsor work visas and confirm that they do not require sponsorship in order to work for GitLab.
 - Ask a candidate about their nationality or citizenship status. If a candidate offers this information do not ask follow-up questions, do not include it in their candidate notes, and do not take it into consideration when deciding whether to move forward with their candidacy.

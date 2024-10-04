@@ -15,7 +15,7 @@ job: "Staff IT Compliance Engineer"
 
 ### My professional journey at GitLab
 
-- Been with Gitlab since 2022.
+- Been with GitLab since 2022.
 - Implemented process improvements to meet SOX compliance requirements.
 - Remediated audit findings and implemented corrective actions with stakeholders.
 - Implemented change management process across multiple teams.
@@ -36,7 +36,7 @@ I embrace a flexible work style, which allows me to adjust my approach based on 
 
 Establishing and communicating clear expectations is important to me, so that everyone is aligned and working towards the same objectives. I appreciate being provided with context when assigned tasks or consulted for input on making decisions, as it will help me better understand the situation to contribute effectively. Instead of rushing to conclusions, I like to take the time to analyze the details and implications of a question/request so that my contributions are meaningful and impactful.
 
-I prefer asynchronous communication through Slack, however, I also recognize at times that synchronous meetings and calls are essential for resolving issues more quickly and efficiently. 
+I prefer asynchronous communication through Slack, however, I also recognize at times that synchronous meetings and calls are essential for resolving issues more quickly and efficiently.
 
 ### What I am working on today
 

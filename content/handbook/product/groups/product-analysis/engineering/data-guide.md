@@ -44,7 +44,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 
 ### workspace_engineering.internal_notes
 
-- **Description**: Table containing Gitlab.com notes from Epics, Issues and Merge Requests. It includes the namespace ID and the ultimate parent namespace ID.
+- **Description**: Table containing GitLab.com notes from Epics, Issues and Merge Requests. It includes the namespace ID and the ultimate parent namespace ID.
 - **Granularity**: One row per issue
 - **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.internal_notes)
 

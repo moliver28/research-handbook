@@ -3,7 +3,7 @@ title: "GitLab Best Practices"
 description: "Learn about GitLab best practices for engagements."
 ---
 
-This section provides a comprehensive overview of best practices in Gitlab, highlighting key guidelines for efficient and effective usage. 
+This section provides a comprehensive overview of best practices in GitLab, highlighting key guidelines for efficient and effective usage. 
 
 The documentation provides recommendations based on standards defined by the **National security agency \[NSA\]** along with **Cybersecurity and Infrastructure Security Agency \[CISA\]** for organizations to standardize and strengthen the security of their CI/CD pipelines. 
 

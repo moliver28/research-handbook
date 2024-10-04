@@ -54,7 +54,7 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Oct 17, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise |Field Enablement  |
 | Oct 18, 2024 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC & Breakout Call Prep | Field Enablement |
 | Oct 18, 2024 | 11:00a ET | 11:50a ET | GitLab Product & Personas Overview | Field Enablement  |
-| Oct 21, 2024 | 10:00a ET | 10:20a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
+| Oct 21, 2024 | 10:00a ET | 10:20a ET | Operational Excellence: Into to GitLab Field Security | Field Security |
 | Oct 21, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Marketing  |
 | Oct 22, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
 | Oct 22, 2024 | 11:00a ET | 11:50a ET | Discussion: Professional Services | Professional Services Team |

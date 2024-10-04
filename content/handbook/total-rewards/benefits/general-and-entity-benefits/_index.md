@@ -73,7 +73,7 @@ Starting 2024, GitLab has partnered with HealthKick, a global well-being platfor
 We know that whole-person wellness is important for feeling good. That's why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you'll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
 
 Please review HealthKick's member resources and the self-registration link/instructions to enroll with anytime throughout the year.
-[Gitlab self-registration link](https://www.health-kick.com/companies/1004/registration)
+[GitLab self-registration link](https://www.health-kick.com/companies/1004/registration)
 [HealthKick Overview](https://drive.google.com/file/d/1AitsrkUDA66UV5xZsv5ooqxmr7BpxlLh/view)
 [HealthKick Welcome Packet](https://drive.google.com/file/d/1_vdASrSSzztvEwM7NOx_szEPYMkPBiiA/view?usp=sharing)
 

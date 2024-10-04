@@ -2,7 +2,7 @@
 title: "Ecosystem Sales Manager"
 ---
 
-A strong partner ecosystem is crucial in the success and growth of  GitLab's business. Partners are a strategic imperative for GitLab's continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. 
+A strong partner ecosystem is crucial in the success and growth of  GitLab's business. Partners are a strategic imperative for GitLab's continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales.
 
 | Role | Grade |
 | -- | - |
@@ -17,12 +17,12 @@ A strong partner ecosystem is crucial in the success and growth of  GitLab's bus
 
 ## Ecosystem Sales Manager (Individual Contributors)
 
-All individual contributors are referred to as “Ecosystem Sales Managers” or “ESM” and share the same primary requirements, responsibilities, and performance indicators.  Scope of role and command of business will fluctuate based on level. 
+All individual contributors are referred to as “Ecosystem Sales Managers” or “ESM” and share the same primary requirements, responsibilities, and performance indicators.  Scope of role and command of business will fluctuate based on level.
 
 ### Individual Contributor Responsibilities
 
 - Coordinate/facilitate the involvement of GitLab team members, including sales leadership, support, etc. as needed to ensure meeting sales targets and ecosystem sales objectives.
-- Build, maintain, and manage relationships with the Gitlab field sales organization.
+- Build, maintain, and manage relationships with the GitLab field sales organization.
 - Proactively engage with GitLab AEs, ASMs and geo leadership.
 - Facilitate territory mapping and identification of new joint opportunities.
 - Resolve route conflicts appropriately.
@@ -113,7 +113,7 @@ The Staff Ecosystem Sales Manager is a [grade 8]({{< ref "compensation-calculato
 
 ## Ecosystem Sales Leadership (People Management)
 
-All Ecosystem Sales leaders hare the same primary requirements, responsibilities, and performance indicators.  Scope of role and command of business will fluctuate based on level. 
+All Ecosystem Sales leaders hare the same primary requirements, responsibilities, and performance indicators.  Scope of role and command of business will fluctuate based on level.
 
 ### Leadership Responsibilities
 
@@ -121,11 +121,11 @@ All Ecosystem Sales leaders hare the same primary requirements, responsibilities
 - Communicates strategy and makes sound decisions that support the strategy. Cascades important and relevant information to their teams in a timely manner.
 - Provide understanding of business dynamics, key drivers and set strategies, tactics, and success metrics for ecosystem sales within the assigned region, geo or globally.
 - Oversees ecosystem sales pipeline building activities within the assigned region, geo or globally.
-- Facilitate ecosystem sales to drive Gitlab revenue. 
+- Facilitate ecosystem sales to drive GitLab revenue.
 - Provide the Ecosystem Sales leadership with critical business visibility and weekly business status.
 - Contribute to and support ecosystems sales programs.
 - Take a leadership role in representing ecosystem sales in quarterly business reviews.
-- Engage Gitlab global and regional sales leadership, solutions architects, and marketing teams to ensure awareness and leverage of strategic partnerships.
+- Engage GitLab global and regional sales leadership, solutions architects, and marketing teams to ensure awareness and leverage of strategic partnerships.
 - Cultivate ecosystem sales talent
 - Collaborates with Marketing on ecosystem sales-related demand generation activities within the region, geo or globally..
 - Support partner marketing in support of joint marketing activities with strategic partners within the assigned territory.
@@ -217,11 +217,11 @@ The Vice President, Ecosystem Sales is a [grade 12]({{< ref "compensation-calcul
 
 ## Specialties
 
-Ecosystem Sales Managers may be assigned one of the following specialties.  If they are not assigned a specialty, they are considered a generalist and are responsible for many types of partners in a region or geography (cloud, solutions and services, etc.).  This is most prevalent in EMEA/APJ where signficant distances and complexities of doing business necessittes managing multiple types of partners.  
+Ecosystem Sales Managers may be assigned one of the following specialties.  If they are not assigned a specialty, they are considered a generalist and are responsible for many types of partners in a region or geography (cloud, solutions and services, etc.).  This is most prevalent in EMEA/APJ where signficant distances and complexities of doing business necessittes managing multiple types of partners.
 
 ### Cloud Partners
 
-The Cloud Partners specialization is responsible for facilitating co-selling between the Gitlab field sales organization and the sales organizations of strategic cloud partners such as AWS or Google Cloud to achieve customer success with GitLab on public clouds.
+The Cloud Partners specialization is responsible for facilitating co-selling between the GitLab field sales organization and the sales organizations of strategic cloud partners such as AWS or Google Cloud to achieve customer success with GitLab on public clouds.
 
 ### Global System Integrators
 

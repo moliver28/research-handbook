@@ -13,10 +13,10 @@ Embarking on an internship with the Site Reliability Engineering (SRE) foundatio
 
 If you need to become more familiar with SRE, it's a discipline that bridges the gap between software engineering, and IT operations. SREs are responsible for building and maintaining highly reliable, scalable, and efficient systems. They use a combination of software engineering skills, automation, and monitoring to ensure that services are always available and performing optimally.
 
-#### Different teams of SRE within Gitlab
+#### Different teams of SRE within GitLab
 
 * Delivery: The Delivery Group enables GitLab Engineering to deliver features safely, scalable, and efficiently to both GitLab.com and self-managed customers.
-* OPS: The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes vital to the successful operations of Gitlab.
+* OPS: The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes vital to the successful operations of GitLab.
 * Foundation: Foundations is responsible for several services related to GitLab SaaS Platforms. The Services the Foundations team is responsible for fall into two general categories: Core and Edge. They are primarily responsible for K8s, Config, Service discovery, secret management, CDN, DNS, Load Balancing, and Network.
 * Scalability: Scalability focuses on observability, forecasting, and projection systems that enable development engineering to predict system growth in their areas of responsibility.
 * Dedicated: This group of the SRE team is dedicated to a single-tenant GitLab environment, served through a GitLab-dedicated platform.

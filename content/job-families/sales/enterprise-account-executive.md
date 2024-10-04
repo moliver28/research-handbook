@@ -147,7 +147,7 @@ The Major Account Executive Leader is a [grade 8](/handbook/total-rewards/compen
 
 ### Responsibilities
 
-- Manage and support  Gitlab's major account/(s)
+- Manage and support  GitLab's major account/(s)
 - Manage the end to end sales process through engagement of appropriate resources such as Solutions Architects, Customer Success Managers, Professional Services, Marketing,  Executives, Partners, and the Channel.
 - Leverage solution selling expertise to respond efficiently to customer needs and identify business potential in order to build a strategic, long-term partnership with your customers.
 - Has a deep understanding of the customer, including an understanding of their performance metrics and develops plans in anticipation of the customer's business strategies and goals.

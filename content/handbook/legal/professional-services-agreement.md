@@ -24,7 +24,7 @@ These Professional Services Terms (“Terms’’) are between GitLab Inc. with 
 
 “Professional Services Catalog”  means the predefined scope, level of effort and deliverables for certain Professional Services, as set forth in the corresponding service name found at <https://about.gitlab.com/services/catalog/>.
 
-“SOW” means a written statement of work executed by Gitlab and Customer describing Professional Services to be provided hereunder setting forth the time and materials-based objectives (unless otherwise stated as a fixed-fee) including, without limitation, project-specific activities and estimated level of effort.  A SOW may be entered into, or incorporated within an Order Form, by and between Customer and GitLab, any GitLab Affiliate, or an Authorized Partner.
+“SOW” means a written statement of work executed by GitLab and Customer describing Professional Services to be provided hereunder setting forth the time and materials-based objectives (unless otherwise stated as a fixed-fee) including, without limitation, project-specific activities and estimated level of effort.  A SOW may be entered into, or incorporated within an Order Form, by and between Customer and GitLab, any GitLab Affiliate, or an Authorized Partner.
 
 “Subscription Agreement” or “Agreement” means the GitLab subscription agreement available at <https://about.gitlab.com/terms/#current-terms-of-use>, or such other written agreement between the parties governing Customer’s use of Software.
 
