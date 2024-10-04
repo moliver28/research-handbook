@@ -637,6 +637,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | warehouse            | purpose                                                                                         | max query (minutes) |
 | -------------------- | ----------------------------------------------------------------------------------------------- | ------------------- |
 | `admin`              | This is for permission bot and other admin tasks                                                | 10                  |
+| `data_classification` | This is for running the data classification and labelling process in Snowflake                 | 60                  |
 | `dev_xs/m/l/xl`      | This is used for development purposes, to be used when using the Snowflake UI and in CI-pipelines | 180               |
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
