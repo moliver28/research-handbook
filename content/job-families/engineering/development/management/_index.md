@@ -73,6 +73,7 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 - Ability to develop long-term technical roadmaps and broker architectural decisions across teams.
 - Experience prioritizing technical debt at the organizational level, identifying risks, and balancing short-term delivery with long-term system health.
 - Expertise in agile methodologies, with a focus on optimizing overall organizational velocity and execution against business goals.
+- Thorough understanding of Security practices across the entire software lifecycle from product security to threat management.
 - Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
