@@ -90,15 +90,23 @@ that are required to be made routable in the Phase 4: [Personal Access Token](ht
 - The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
 - The secret detection script at `app/assets/javascripts/lib/utils/secret_detection_patterns.js` will need to be modified as the `<payload>` length will change. Note also the `<payload>` length will be variable as the encoded information contains varying sizes (for example `u: 1` vs `u: 9223372036854775807`).
 
-### Pseudo code generation
+### Pseudo code implementation
 
-The Routable Token pseudo code generation:
+Each different tokens can encode different `id` for the need of the specific
+token. Here we're using personal access token as an example, which we encode
+the following ids:
+
+* Cell id
+* Organization id
+* User id
+
+Pseudo code for generating a routable token for personal access token:
 
 ```ruby
-def generate_pat(user, project)
+def generate_pat(user)
   params = {
     c: Gitlab.cell.id.to_s(36),
-    o: project.organization_id.to_s(36),
+    o: user.organization_id.to_s(36),
     u: user.id.to_s(36),
     r: SecureRandom.random_bytes(16)
   }
@@ -132,14 +140,18 @@ for a bigint. `+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v` is 16 random bytes.
 
 ### Meaning of fields
 
-Since the payload holds a structured information, each single letter has a particular meaning:
+Since the payload holds a structured information, each single letter has a
+particular meaning. The following fields are always required:
+
+- `o`: Organization ID
+- `r`: Random bytes to increase the token entropy
+
+The following fields are optional, depending on each specific tokens:
 
 - `c`: Cell ID
-- `o`: Organization ID
 - `g`: Group ID
 - `p`: Project ID
 - `u`: User ID
-- `r`: Random string to increase the token entropy
 
 ### Adding Classify to Topology Service
 
@@ -190,7 +202,13 @@ classify_service.classify(
 )
 ```
 
-The Topology Service routes by the available information following this precedence: `o`, otherwise `u`, and otherwise `c`.
+The Topology Service routes by the available information following this precedence:
+
+1. `o`
+1. `g`
+1. `p`
+1. `u`
+1. `c`
 
 ### Integration into Token Authenticatable
 
