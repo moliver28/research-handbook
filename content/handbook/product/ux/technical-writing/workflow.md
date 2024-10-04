@@ -572,9 +572,9 @@ Add one of the following labels to an issue or merge request:
 - `type::bug`
 - `type::maintenance`
 
-For more information, see [Work Type Classification](/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+For more information, see [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 
-The majority of documentation work uses the `type::maintenance` label. 
+The majority of documentation work uses the `type::maintenance` label.
 You must also apply one these subtype labels to further classify the type of maintenance work:
 
 - `maintenance::refactor`: Edits and improvements of existing documentation.
