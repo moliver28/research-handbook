@@ -8,7 +8,7 @@ description: "Security Compliance, Commercial Team Page"
 Security Compliance (Commercial) Mission:
 
 1. Enable GitLab to be the most trusted DevSecOps offering on the market, demonstrated by security certifications and attestations.
-1. Achieve, maintain and grow industry specific [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) for GitLab.com
+1. Achieve, maintain and grow industry specific [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) for GitLab Inc., GitLab.com, and GitLab Dedicated.
 1. Identify and mitigate GitLab information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of the GitLab.com SaaS offering and key in-scope auxiliary applications and third party sub-processors.
 1. Enable security to scale through the discovery and application of compliance automation.
 1. Identify and remediate observations to reduce risk and ensure continued maintenance of security certifications and attestations.
