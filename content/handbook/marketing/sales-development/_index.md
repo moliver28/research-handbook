@@ -306,7 +306,7 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 
 ### How to Enroll to Groove by Clari
 
-[Groove](https://handbook.gitlab.com/handbook/marketing/marketing-operations/groove/index.html/#about-grooveco) is a tool used to automate emails in the form of flows. Users can track open rates, click-through rates, and response rates for various templates, and update flows based on these metrics. Groove also helps to track sales activities such as calls. All emails/calls/tasks made through Groove are automatically logged in Salesforce with a corresponding disposition. See below for instructions on how to enroll leads in Groove:
+[Groove](/handbook/marketing/marketing-operations/groove/index.html/#about-grooveco) is a tool used to automate emails in the form of flows. Users can track open rates, click-through rates, and response rates for various templates, and update flows based on these metrics. Groove also helps to track sales activities such as calls. All emails/calls/tasks made through Groove are automatically logged in Salesforce with a corresponding disposition. See below for instructions on how to enroll leads in Groove:
 
 1. Go to your SDR views in Salesforce and select the lead you want to add to a flow.
 2. Press `Add To Groove Flow`.
@@ -328,7 +328,7 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 
 We've organized our **Groove Labels** into key categories like **industry, region, play/motion**, or **language** to help you efficiently retrieve the most appropriate content quickly.
 
-#### How to Use Groove Labels:
+#### How to Use Groove Labels
 
 On the top-hand of the [flows page](https://groove.clari.com/flows), access the filter menu and search per `label`.
 
