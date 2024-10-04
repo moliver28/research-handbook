@@ -575,13 +575,13 @@ Add one of the following labels to an issue or merge request:
 For more information, see [Work Type Classification](/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 
 The majority of documentation work uses the `type::maintenance` label. 
-You should also use one of these subtypes to further classify the type of maintenance work:
+You must also apply one these subtype labels to further classify the type of maintenance work:
 
 - `maintenance::refactor`: Edits and improvements of existing documentation.
 - `maintenance::workflow`: Documentation changes that are not visible to readers, like linting and tooling updates, and metadata changes.
 
-For example, if you open an merge request to refactor a page for CTRT, use the `type::maintenance` and `maintenance::refactor` labels.
-If you open a merge request to modify the metadata, use the `type::maintenance` and `maintenance::workflow` labels.
+For example, if you open an merge request to refactor a page for CTRT, apply the `type::maintenance` and `maintenance::refactor` labels.
+If you open a merge request to modify the metadata, apply the `type::maintenance` and `maintenance::workflow` labels.
 
 ### Workflow labels
 
