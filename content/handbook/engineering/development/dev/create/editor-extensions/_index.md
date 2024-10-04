@@ -188,6 +188,18 @@ The MR author creates a follow-up issue and **clearly documents** (in title and 
 
 These comment severity levels are not static. For example, you might initially mark a comment as _blocking_, but after discussion with the MR author, you may agree to change it to a _follow-up_.
 
+#### Tracking issues in code with a FIXME comment
+
+When we notice issues in the code during development or review, we mark them
+with a `// FIXME` comment. Ideally, the comment references a follow-up issue,
+but it is not a hard rule.
+
+Maintainers are allowed to add these comments as the last commit to the MR before
+merging it to avoid extra review cycle.
+
+For a more detailed explanation and list of advantages of this approach, see the
+[proposal](https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues/142).
+
 ### Temporary silos
 
 Our team owns several projects, written in different languages (Typescript, Kotlin, C#, Lua) and targeting different platforms.
