@@ -41,6 +41,8 @@ A: 15 days before your subscription expires, you will see a *Renew* button under
 
 You cannot manually renew your subscription more than 15 days before the subscription expires. [Please review this section of GitLab documentation for instructions on how to manually renew.](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
+![manage.renewal](/handbook/sales/images/renew_15days_v17_4.png)
+
 Please be aware that if you do not renew manually, you will be [auto-renewed].(https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
