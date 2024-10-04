@@ -112,7 +112,11 @@ Links to previous examples. Discussions on prior art. Notice examples of the sim
 
 ### Capacity Planning
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+#### Estimating effort
+
+When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 #### Weighing bugs
 
