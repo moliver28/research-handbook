@@ -285,7 +285,7 @@ Email: ESG@GitLab.com.
 
 **Q: Does GitLab calculate its carbon emissions?**
 
-A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in the annual [ESG report](/handbook.gitlab.com/handbook/company/esg/). Please view the results of our FY24 GHG inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
+A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in the annual [ESG report](/handbook/company/esg/). Please view the results of our FY24 GHG inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
 
 **Q: Has GitLab set a Science Based Target (SBT)?**
 
