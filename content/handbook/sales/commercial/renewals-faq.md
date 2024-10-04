@@ -73,7 +73,7 @@ Q: During my GitLab subscription term, am I able to remove unused licenses and r
 
 A: No, this is not possible at this time.
 
-Q: I purchased a GitLab.com subscription through a sales person. How do I activate my purchase and apply my paid licenses to my namespace?
+Q: I purchased a GitLab.com subscription through a sales person. How do I activate my purchase and apply my paid subscription to my group?
 
 A: See [this short video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab.com subscription to your group. Before taking the steps described in the video, be sure that you have the Owner role for the group.
 
