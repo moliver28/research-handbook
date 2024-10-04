@@ -331,10 +331,10 @@ More information on the [Core Team](https://about.gitlab.com/community/core-team
 
 ### Granting GitLab Duo licenses
 
-To support our mission to enable everyone to contribute, we offer GitLab Duo Pro licenses to the contributors in our wider community.
-[GitLab Duo Pro](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat and more AI-powered features to help boost efficiency
+To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
 and effectiveness by reducing the time required to write and understand code.
-Community contributors can [visit the Duo access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a Duo Pro license and learn more
+Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
 about the benefits of GitLab Duo.
 
 ### For contributors who don't own a credit card
