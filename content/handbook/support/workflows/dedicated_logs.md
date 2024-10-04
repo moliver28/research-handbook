@@ -240,3 +240,24 @@ You may wish to inspect an individual SAML response. When you have identified th
     - This file can be directly opened in some browsers like Firefox and Google Chrome to make it more readable.
 
 Read more about [what to look for in the SAML response](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html#saml-debugging-tools).
+
+#### Debug a failed global search request
+
+If a search request fails, it will likely throw an error in the UI with a status code. For such failures, you can find more logs with the following steps, using an example of an error `500`:
+
+1. Select **Add filter**
+1. Click **Select a field first**
+1. Choose `status`
+1. In the **Operator** drop-down, select `is`
+1. In the **Value** box, add `500`
+1. Add another filter for the failed search term. Choose `uri`
+1. In the **Operator** drop-down, select `is` and in **Value** box add `/search?search=test`
+1. Click **Save**
+
+You can then filter by `correlation_id` only, to select the failed occurrence. Take note of the exact time at `@timestamp` to use in the next filter.
+
+1. Start a new search on a duplicated Opensearch tab.
+1. Noting the timestamp from above, copy the value of `kubernetes.host` and filter for logs within that `@timestamp` frame.
+1. Fine-tune the results by adding more filters such as, Filter: `message` Operator: `is one of` Value: `elasticsearch` to see any logs with the term elasticsearch
+
+Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch_troubleshooting.html#last-resort-to-recreate-an-index) for potential next steps.
