@@ -23,7 +23,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
    - **Do**:
      - _"increased monthly page views by 25% over a 3 month period, from 8 million to 10 million."_
    - **Why**:
-     - Ensures that statements pass the “so what” test, requiring no further investigation on the part of the reader.
+     - Ensures that statements pass the "so what" test, requiring no further investigation on the part of the reader.
 1. Only use numbered links to list examples, not to describe how the person did something. Instead describe the contribution and link parts of the text
    - **Don't**
      - _"Bob brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]"_
