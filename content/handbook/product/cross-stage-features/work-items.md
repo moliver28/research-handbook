@@ -73,6 +73,75 @@ For details on the technical implementation process, please refer to our [docume
 - [Backend work to support creation of objectives behind feature flag](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/103355)
 - [Frontend work to support creation of Objectives & include them in Issue lists](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102721)
 
+#### Definition of Done for adding a new widget or data element
+
+When adding a new widget or data element to a work item type, follow the guidelines below to ensure a consistent, high-quality user experience and seamless integration across GitLab's features:
+
+
+### Definition of Done (DoD) for contributing to the Work Items framework
+
+1. **Feature completeness**
+   - **Widget functionality**: Ensure the widget performs the intended task without errors and integrates with the platform as expected.
+   - **User acceptance criteria**: Ensure all user stories and acceptance criteria related to the widget, including usability requirements defined by the UX team, are satisfied.
+   - **Cross-browser and responsive design**: Verify that the widget works seamlessly across all supported browsers, devices, and viewports (e.g., desktop, tablet, and mobile screens).
+1. **Search integration**
+   - **Inclusion in global search**: Ensure the new widget can be discovered using GitLab's global search functionality.
+   - **Inclusion in filter options across Plan stage features**: Where relevant, ensure there is a filter option for the new widget in boards, lists and roadmap.
+   - **Inclusion in glql**: Ensure the new widget can be used as a filter option in GitLab Query Language (GLQL) searches.
+   - **Indexing**: Confirm that the widget is indexed appropriately, enabling quick retrieval in search results.
+1. **Inclusion within views**
+   - **Lists**: Where recommended by the UX team, ensure the widget data appears in list views (epic and/or issue), ensuring it’s correctly formatted and accessible.
+   - **Boards**: Where recommended by the UX team, on (epic and/or issue) boards, ensure visibility of the new widget on board cards, ability to edit the widget value from the sidebar, and ability to create a new list based on widget as scope. 
+   - **Roadmaps**: Where recommended by the UX team, ensure the widget is included in work item cards on the roadmap view.
+   - **Detail pages**: Where recommended by the UX team, consider adding the new widget to existing work item detail pages in the applicable section as well as displaying on child and linked items as appropriate.
+1. **Rollup considerations**
+   - **Hierarchical rollup behavior**: Define whether the widget should contribute to parent/child work item rollups (e.g., weight, progress).
+   - **Aggregation rules**: Determine by GitLab (license) plan, how/if to handle rollup calculations (e.g., summing, averaging, or other operations based on widget data).
+   - **Display in summary views**: Ensure any relevant rollup data is clearly visible in summaries or dashboards that reflect aggregate data (e.g., child hierarchy widget, roadmaps, boards).
+1. **Conditional behavior**
+   - **Interaction with other widgets**: Define how the widget interacts with other widgets within the work item and its parent/child items. Determine whether the behavior of this widget can affect others or be affected by them, and ensure this behavior is clearly defined and tested.
+   - **Behavior on work item closure**: Specify what happens to the widget when the associated work item is marked as completed or closed. For example, determine if the widget remains editable or if it should be locked from further modifications after closure.
+   - **Data retention on cloning**: Clarify whether the widget’s data should be retained when the work item is cloned. Ensure that cloning rules are explicitly defined, including whether the widget's state or data should be carried over to the new work item.
+1. **Data interactions**
+   - **Quick actions support**: Ensure that the widget can be executed or updated via quick actions. Review [quick actions documentation](https://docs.gitlab.com/ee/user/project/quick_actions.html) and define how users can interact with the widget using text-based commands for efficient updates and management without relying on the UI.
+   - **GraphQL API integration**: Ensure the widget is integrated with the [GitLab GraphQL API](https://docs.gitlab.com/ee/api/graphql/). Define the necessary queries and mutations to enable programmatic access and updates to the widget’s data, supporting automation, external integrations, and advanced use cases.
+   - **Bulk editing support**: Ensure the widget can be included in bulk editing operations on listing pages, such as in the [bulk issue editing functionality](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#bulk-edit-issues-from-a-project). Define how users can update multiple instances of the widget across several work items simultaneously and ensure consistent behavior.
+   - **Rules and value constraints**: Define the allowed values for the widget, specifying:
+      - **Allowed/disallowed values**: Clarify what values can be set, whether users can create custom values, and what values are disallowed.
+      - **Naming conventions**: Specify any applicable naming rules (e.g., snake_case, camelCase) to ensure consistency.
+      - **Validation rules**: Ensure appropriate validation is in place to prevent invalid data entries and enforce formatting rules, both in UI-based interactions and through API endpoints.
+1. **System notes logging**
+   - **System notes integration**: Ensure that all changes related to the widget (e.g., when its value is set, changed, or removed) are written to system notes on the work item detail pages (such as epics, issues, tasks, objectives, and key results). Review GitLab’s system notes documentation to verify proper logging of widget events.
+1. **Import and export considerations**
+   - **Support for imports and exports**: Determine how the widget’s data should be handled during various import and export processes. Review the different types of imports (e.g., group, project, transfer, issue) and decide in which contexts the widget should be included. Ensure that the widget is correctly mapped during both import and export operations.
+1. **Real-time updates**
+   - **Data synchronization**: Ensure that any updates to the widget are reflected in real time across all relevant views, including work item detail pages, lists, boards, and roadmaps. Changes should be immediately visible without requiring manual refreshes or page reloads.
+1. **Permissions and role management**
+   - **Define permissions and role-based access**: Specify the required permissions and role levels needed to interact with the widget. Ensure that the widget follows GitLab’s [permissions and role management system](https://docs.gitlab.com/ee/user/permissions.html) and consider restrictions for different roles such as Guest, Reporter, Developer, Maintainer, and Owner.
+1. **Plan and licensing considerations**
+   - **Plan availability**: Determine the availability of the widget across subscription tiers: Free, Premium, and Ultimate. Specify which features and capabilities of the widget will be restricted or enhanced based on the user's subscription level.
+1. **Testing and validation**
+   - **Unit tests**: Ensure that sufficient unit tests are written for the widget/data element to verify individual functions and components.
+   - **Integration tests**: Check the widget’s interaction with existing features and systems to ensure there are no regressions.
+   - **End-to-end tests**: Conduct end-to-end tests to validate the entire workflow involving the widget/data element.
+1. **User experience (UX) and design considerations**
+   - **Consistency with design system**: Ensure that the widget adheres to the platform’s design system, including styling, spacing, and behavior patterns.
+   - **Accessibility (a11y)**: Check that the widget is fully accessible, meeting any a11y requirements (e.g., screen reader compatibility, keyboard navigation).
+   - **User feedback**: Gather feedback from end-users and internal stakeholders, and refine the widget/data element as necessary before release.
+1. **Performance and scalability**
+   - **Load testing**: Conduct performance tests to ensure the widget does not degrade the platform’s performance under expected user load.
+   - **Scalability**: Ensure the widget can handle increases in usage without issues.
+   - **Error budgets**: Consult applicable error budgets post release to ensure the new widget hasn't caused unexpected error budget concerns.
+1. **Metrics and tracking**
+   - **Tracking and analytics**: Ensure that proper instrumentation is in place to track the usage and performance of the new widget/data element.
+   - **KPIs and success metrics**: Define success metrics to evaluate the impact of the widget on overall work item management (e.g., time saved, user engagement).
+1. **Architecture alignment**
+   - **Adherence to architecture best practices**: Ensure the widget is developed in accordance with GitLab’s architecture vision and best practices for work items as outlined in the [GitLab Engineering Handbook](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/work_items/). Review and ensure compliance with design documents, architecture decisions, and future-proofing guidelines.
+1. **Documentation and deployment**
+   - **User-facing documentation**: Ensure that GitLab docs is updated to reflect the addition of the new widget/data element.
+   - **Release Post announcement**: Include the new widget in GitLab’s monthly Release Post. Clearly outline the widget’s capabilities, benefits, and any limitations to inform users of the feature in the upcoming release.
+   - **Feature toggles**: If the widget is behind a feature toggle, ensure there’s a plan for gradual rollout or deactivation if necessary.
+
 ### Creating or modifying widgets
 
 Widgets encompass the specific data and behaviors that differentiate work items from each other. If you need to modify or add a new work item widget, refer to [this page](https://docs.gitlab.com/ee/development/work_items_widgets.html) for the technical details on how to achieve this.
