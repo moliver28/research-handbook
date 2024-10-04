@@ -136,21 +136,62 @@ permissions it carries.
 **This approach allows us to issue tokens with reduced access, even when the user
 has broader permissions.**
 
+### Example Workflow
+
+When a `CI_JOB_TOKEN` is generated, it is encoded with the permissions that the
+user has for the associated `Ci::Build`. The job can then use this token to make
+API requests to GitLab's REST API, accessing resources that are scoped within
+the token's encoded permissions.
+
+#### Current Behavior:
+
+In the current authorization flow, the REST API checks whether the target
+project is included in an allowlist. If an allowlist entry exists, access is
+granted according to predefined declarative policy rules.
+
 ```mermaid
 flowchart TD
     A[Ci::Build] -->|GET /job | B(REST API)
-    B --> C{Job Token?}
-    C -->|Yes| D{Revoked?}
-    C -->|No| E{Declarative Policy?}
-    D -->|Yes| F[Forbidden]
+    B --> I{Declarative Policy?}
+    I -->|Yes| E{Allowlist Entry?}
+    I -->|No| F[Access Denied]
+    E -->|Yes| H[Authorized]
+    E -->|No| F
+```
+
+#### Proposed Behavior:
+
+With the proposed changes, the REST API authorization flow introduces handling
+specific to `CI_JOB_TOKEN`. When an API request is made:
+
+1. **Token Type Check**: The system verifies if the provided token is a `CI_JOB_TOKEN`.
+2. **Revocation Check**: If the token is valid, it checks the token's `jti` claim to ensure it hasn't been revoked (according to [RFC 7519, Section 4.1.7](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7)).
+3. **Permission Verification**: If the token is valid and not revoked, the system checks if the required permission for the requested resource is encoded in the token.
+4. **Allowlist Fallback**: If the permission is not present in the token, the system falls back to checking whether an allowlist entry exists for the target project, along with the corresponding permission.
+5. **Final Decision**: If either the permission is encoded in the token or an allowlist entry grants access, the request is authorized. If neither condition is met, access is denied.
+
+```mermaid
+flowchart TD
+    A[Ci::Build] -->|GET /job | B(REST API)
+    B --> C{CI_JOB_TOKEN?}
+    C -->|Yes| D{Token Revoked?}
+    C -->|No| E{Allowlist Entry?}
+    D -->|Yes| F[Access Denied]
     D -->|No| G{Permission in Token?}
     G -->|Yes| H[Authorized]
-    G -->|No| I{Allowlist?}
+    G -->|No| I{Declarative Policy?}
     I -->|Yes| E
     I -->|No| F
     E -->|Yes| H
     E -->|No| F
 ```
+
+This new approach enhances security by scoping access tightly to the permissions
+encoded within the `CI_JOB_TOKEN` itself, ensuring that tokens are only valid
+for authorized actions and resources. By integrating a revocation check and
+leveraging token-encoded permissions, the system reduces dependency on external
+allowlists and policy evaluations, streamlining the authorization process while
+preserving fallback mechanisms for compatibility.
 
 #### JWT Token Structure
 
