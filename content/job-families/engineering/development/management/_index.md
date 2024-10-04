@@ -34,6 +34,8 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 - Experience across the devops lifecycle, with deep understanding of at least one area.
 - Exposure to automation through CI/CD pipelines.
 - An understanding of multiple delivery and distribution strategies, including an ability to maintain velocity within GitLab's dual cadence of continuous deployment and a monthly release cycle.
+- Understanding of a variety of security principles and best practices including the ability to ensure a secure development process.
+- Understands how to maintain and enforce Quality Assurance through testing frameworks and code review standards. 
 - Ability to communicate technical concepts to non-technical stakeholders.
 - Past experience (3 to 5 years) as an engineering manager.
 - Proven track record of execution that demonstrates an understanding of the software development lifecycle.
