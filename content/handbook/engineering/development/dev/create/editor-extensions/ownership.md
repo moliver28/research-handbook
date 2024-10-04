@@ -29,6 +29,18 @@ Using **Duo Chat** as an example:
 |   JetBrains - [Chat Webview](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/tree/main/webview) (web page) |   **AI-Powered:Duo Chat** group with support from **Create:Editor Extensions** group      |
 | JetBrains - [Chat business logic](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/tree/main/src/main/kotlin/com/gitlab/plugin/chat) (plugin) | **Create:Editor Extensions** group  |
 
+<details><summary>Once we migrate webviews to Language Server, this new ownership model will take place</summary>
+
+| System part | Group responsible |
+| ------ | ------ |
+|    UI Component     |   Group owning the UI component     |
+|    LS webview & plugin    |    Group owning the UI component with support from **Create:Editor Extensions** group  |
+|    VS Code integration     |    **Create:Editor Extensions** group    |
+|   JetBrains integration |    **Create:Editor Extensions** group    |
+| Visual Studio integration | **Create:Editor Extensions** group |
+
+</details>
+
 ## Process of notifying others
 
 * When a team starts working on a feature:
