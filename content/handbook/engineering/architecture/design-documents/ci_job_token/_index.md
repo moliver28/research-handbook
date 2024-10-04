@@ -141,7 +141,7 @@ user has for the associated `Ci::Build`. The job can then use this token to make
 API requests to GitLab's REST API, accessing resources that are scoped within
 the token's encoded permissions.
 
-#### Current Behavior:
+#### Current
 
 In the current authorization flow, the REST API checks whether the target
 project is included in an allowlist. If an allowlist entry exists, access is
@@ -157,7 +157,7 @@ flowchart TD
     E -->|No| F
 ```
 
-#### Proposed Behavior:
+#### Proposed
 
 With the proposed changes, the REST API authorization flow introduces handling
 specific to `CI_JOB_TOKEN`. When an API request is made:
