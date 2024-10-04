@@ -145,7 +145,7 @@ flowchart TD
     D -->|Yes| F[Authorized]
     D -->|No| G{Downstream Project?}
     G -->|Yes| E
-    G -->|No| H[Unauthorized]
+    G -->|No| H[Forbidden]
     E -->|Yes| F
     E -->|No| H
     I -->|Yes| J{Revoked?}
