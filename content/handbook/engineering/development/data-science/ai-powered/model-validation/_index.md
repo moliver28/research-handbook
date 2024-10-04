@@ -36,6 +36,24 @@ The team is composed of [ML engineers](/job-families/engineering/development/dat
 
 ## How we work
 
+### Estimation
+
+The estimation and planning process is managed primarily asynchronously; however, synchronous calls may be scheduled if necessary to clarify blockers or ensure alignment.
+
+A week before the milestone is finalized, the team is provided with a list of issues to evaluate. Throughout that week, team members engage in discussions to assign estimates or weights to tasks. Any issues that are too large or lack team consensus are either reworked, removed from the milestone, or scheduled for further investigation as a spike.
+
+The task estimation and planning process follows a structured workflow:
+
+- The Product Manager (PM) maintains a comprehensive list of all issues relevant to the product's progress.
+- The Engineering Manager (EM) works with the Product Manager (PM) to select the subset of issues that the team will evaluate for the upcoming release, ensuring the list is manageable and aligned with team priorities.
+- Domain experts within the team may be consulted to clarify ambiguous issues before estimation, ensuring that tasks are well understood before being assigned weights.
+
+By the end of the estimation process, every issue designated as a deliverable for the upcoming release must meet the following criteria:
+
+- Each issue must have a weight or be time-boxed.
+- There must be a clear description of one or more actionable tasks that make up the issue.
+- The issue must include a definition of done to guide the development process and ensure clarity around when a task is considered complete.
+
 ### Weighting issues
 
 We use weights to forecast the complexity of each given issue aimed at being scheduled into a given milestone. These weights help us ensure that the amount of scheduled work in a cycle is reasonable, both for the team as a whole and for each individual. We understand weights are mere forecasts and we accept the uncertainty that comes with this.
