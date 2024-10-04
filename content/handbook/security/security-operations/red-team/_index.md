@@ -44,7 +44,7 @@ Opportunistic attacks are documented in issues that are visible to all team memb
 
 If vulnerabilities are discovered, we will exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
 
-When immediate action is required, we will follow the standard process for [reporting an incident](/handbook/security/#reporting-an-incident). For vulnerabilities that appear wide-spread or recurring, we will create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
+When immediate action is required, we will follow the standard process for [reporting an incident](/handbook/security/#reporting-an-incident). For vulnerabilities that appear wide-spread or recurring, we will create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
 
 We list examples of [opportunistic attack techniques]({{< ref "red-team-roe#opportunistic-attack-techniques" >}}) inside our rules of engagement.
 
