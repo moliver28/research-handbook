@@ -19,7 +19,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
    - **Why**: Adjectives and adverbs are imprecise and make it difficult for the reader to understand the true impact and the person's exact contribution to it.
 1. Ensure quantification is appropriate and meaningful
    - **Don't**:
-     - _"increased page views by 10 million over a 3 month period"_
+     - _"increased page views by 2 million over a 3 month period"_
    - **Do**:
      - _"increased monthly page views by 25% over a 3 month period, from 8 million to 10 million."_
    - **Why**:
