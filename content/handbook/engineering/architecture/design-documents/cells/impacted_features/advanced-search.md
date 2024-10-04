@@ -76,7 +76,7 @@ flowchart LR
 
 #### Problems to solve
 
-1. Indexing can only paused at the instance level - indexing for every data type is paused. This will cause out of date search results on a cell if indexing is paused to migrate  organization(s).
+1. Indexing can only be paused at the instance level - indexing for every data type is paused. This will cause out of date search results on a cell if indexing is paused to migrate organization(s).
 
 1. There is no way to know when a project's database records are fully indexed. It is not possible to know when an organization migration is complete for Advanced search.
 
@@ -86,7 +86,7 @@ flowchart LR
 
 ### Infrastructure and index maintenance
 
-All index maintenance tasks will be initially be completed using the [Advanced search migration framework](https://docs.gitlab.com/ee/development/search/advanced_search_migration_styleguide.html). Once the migration process is verified, all index maintenance migrations will be migrated CronWorkers. There should be a CronWorker per maintenance task:
+All index maintenance tasks will be initially be completed using the [Advanced search migration framework](https://docs.gitlab.com/ee/development/search/advanced_search_migration_styleguide.html). Once the migration process is verified, all index maintenance migrations will be migrated by CronWorkers. There should be a CronWorker per maintenance task:
 
 1. Shard resize will review and adjust each index
 1. Cleanup any migrations from the migrations index that do not exist in codebase
