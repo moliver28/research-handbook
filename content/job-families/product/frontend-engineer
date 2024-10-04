@@ -24,7 +24,7 @@ Frontend engineers in UX collaborate closely with [product designers](/job-famil
 - Professional experience with VueJS or another modern JavaScript web framework (React, Angular, Ember, etc.).
 - Experience with writing automated tests (such as Jest, Karma, Jasmine, Mocha, AVA, tape).
 - A solid understanding in core web and browser concepts (eg. how the browser parses and constructs a web page).
-- Comfort and familiarity with our [code review process](/handbook.gitlab.com/handbook/engineering/workflow/code-review/).
+- Comfort and familiarity with our [code review process](/handbook/engineering/workflow/code-review/).
 - Experience with performance and optimization problems and a demonstrated ability to diagnose and prevent these problems.
 - Have deep design system knowledge, understanding, and practice.
 - Demonstrated ability to build accessible products using WCAG guidelines and best practices.
@@ -36,10 +36,10 @@ Frontend engineers in UX collaborate closely with [product designers](/job-famil
 [Staff Frontend Engineer](/job-families/product/frontend-engineer/#staff-frontend-engineer)
 
 ## Performance Indicators
-- [Pajamas adoption rate](/handbook.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
+- [Pajamas adoption rate](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - UX Engineering MR rate
-- [Deferred UX](/handbook.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
-- [Open Deferred UX Age](/handbook.gitlab.com/handbook/product/ux/performance-indicators/#open-deferred-ux-age)
+- [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux)
+- [Open Deferred UX Age](/handbook/product/ux/performance-indicators/#open-deferred-ux-age)
 
 ### Frontend Engineer
 
