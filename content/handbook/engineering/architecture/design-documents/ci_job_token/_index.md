@@ -136,8 +136,6 @@ permissions it carries.
 **This approach allows us to issue tokens with reduced access, even when the user
 has broader permissions.**
 
-### Example Workflow
-
 When a `CI_JOB_TOKEN` is generated, it is encoded with the permissions that the
 user has for the associated `Ci::Build`. The job can then use this token to make
 API requests to GitLab's REST API, accessing resources that are scoped within
