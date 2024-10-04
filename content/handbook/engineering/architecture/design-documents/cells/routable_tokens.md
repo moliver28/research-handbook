@@ -96,9 +96,9 @@ Each different tokens can encode different `id` for the need of the specific
 token. Here we're using personal access token as an example, which we encode
 the following ids:
 
-* Cell id
-* Organization id
-* User id
+- Cell id
+- Organization id
+- User id
 
 Pseudo code for generating a routable token for personal access token:
 
