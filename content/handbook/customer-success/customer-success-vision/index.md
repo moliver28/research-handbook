@@ -27,14 +27,6 @@ Deliver faster time-to-value and customer-specific business outcomes with a worl
 
 ![GitLab Adoption Journey](images/gitlab-adoption-journey.jpeg)
 
-## Capabilities Roadmap
-
-The following shows the high-level view of the capabilities that we will be developing as mature our customer success team, processes and systems. [A pdf version for viewing.](images/gitLab_customer_success_capabilities_roadmap.pdf)
-![GitLab Capabilities Roadmap](images/capabilities-roadmap.jpeg)
-
-## Strategy and Priorities Page
-
-The Strategy and Priorities Page (in Gdrive, search for "FY24 Customer Success Priorities and Capabilities" - this is internal only) will show updates on our strategy and priorities for the given period.
 
 ## Product Usage Data
 
