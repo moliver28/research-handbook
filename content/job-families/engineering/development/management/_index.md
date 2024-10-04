@@ -70,6 +70,7 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 - Excellent communication skills
 - Expert hiring manager skills and experience
 - Experience managing managers, and a strong people management philosophy for both managers and engineers.
+- Experience managing relationships with external vendors.
 - Track record of structuring, staffing, and maintaining a high-performing organization that is resourced appropriately and cost-effectively.
 - Ability to coordinate complex technical projects that span multiple teams, while providing high-level progress updates in clear, business-friendly terms.
 - Ability to develop long-term technical roadmaps and broker architectural decisions across teams.
