@@ -79,7 +79,7 @@ To develop this new analytic page, we will gate the new page behind a feature fl
 
 ### Add analytics on page view
 
-Make sure that we can get information on how often this page is viewed. If we do not have it, then let's implment some to know how visible this page is. The changes to this section should make the view count go up and we want to track this as a measure of success.
+Make sure that we can get information on how often this page is viewed. If we do not have it, then let's implement some to know how visible this page is. The changes to this section should make the view count go up and we want to track this as a measure of success.
 
 ### Routing
 
