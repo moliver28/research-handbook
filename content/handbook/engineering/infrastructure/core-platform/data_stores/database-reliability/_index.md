@@ -41,7 +41,7 @@ Systems or services explicitly not owned by us:
 |---|---|
 | Workflow | [Issue Labels](/handbook/engineering/infrastructure/team/reliability/issues.html#labels) <br> [Weekly Issue Triage](https://gitlab.com/groups/gitlab-com/gl-infra/-/issues/?sort=created_date&state=opened&label_name%5B%5D=team%3A%3ADatabase%20Reliability&first_page_size=20) |
 | Backlog | [Current Milestone](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/3406753) <br> [Issue Backlog](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5360242) |
-| Reaching us | [`#g_infra_database_reliability`](https://gitlab.slack.com/archives/C02K0JTKAHJ) <br> `@gitlab-org/reliability/database` |
+| Reaching us | [`#g_infra_database_reliability`](https://gitlab.slack.com/archives/C02K0JTKAHJ) <br> `@gitlab-com/gl-infra/dbre` |
 | Weekly Agenda | [Weekly APAC and EMEA/AMER](https://docs.google.com/document/d/1d8YrRO4Vw_pHXohgwq-lEBM75ihMtkLpcd2_cFa6Yrs/edit#) |
 | Achievements | [FY24 - Q1](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/17443) |
 
@@ -65,7 +65,7 @@ and [performance](/handbook/engineering/infrastructure/performance-indicators/#g
 
 ## Key Technical Skills
 
-The team is comprised of DBREs with varying levels of expertise in:
+The team is comprised of DBREs and SREs with varying levels of expertise in:
 
 - Supporting PostgreSQL in large production environments.
 - Infrastucture automation and configuration management, using tools such as Chef, Ansible, Terraform, etc.
