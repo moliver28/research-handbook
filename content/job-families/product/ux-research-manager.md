@@ -150,8 +150,8 @@ Our interview process for this role is slightly longer than usual as it is a hig
 >
 > 1. An introduction:  Tell us about your relevant education and career highlights, and your motivation to apply to this role.
 > 1. An overview of two case studies:
->   -The first (1) is related to your prior experience and acumen as a UX researcher. Tell us about a high-impact project/initiative that you led as a hands-on researcher which you’re proud of. What are you most proud of? As applicable, describe the research effort and how you approached it (both from a planning and stakeholder alignment perspective). What methodologies did you employ? How did you go about synthesizing the data? What was the outcome of the research and/or key insights that were adopted?
-
+>   - The first (1) is related to your prior experience and acumen as a UX researcher. Tell us about a high-impact project/initiative that you led as a hands-on researcher which you’re proud of. What are you most proud of? As applicable, describe the research effort and how you approached it (both from a planning and stakeholder alignment perspective). What methodologies did you employ? How did you go about synthesizing the data? What was the outcome of the research and/or key insights that were adopted?
+>
 >   - The second (2) is related to your people management style & leadership approach. Tell us about a time when you led your team/member(s) to be successful on a challenging initiative. What were the specific challenges? How did you assure a successful outcome for your team/member(s) and the initiative?
 >
 > ### What we're looking for
