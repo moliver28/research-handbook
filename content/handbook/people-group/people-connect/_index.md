@@ -59,7 +59,7 @@ The People Connect email alias is restricted and active GitLab team members will
 
 #### What to Expect (SLA)
 
-Once a team member has submitted a question or request using one of the two available methods of engagement, they can anticipate acknowledgement in the thread of their original interaction within ≤ 4 hours.
+Once a team member has submitted a question or request using HelpLab, they can anticipate acknowledgement in the thread of their case within 24 hours.
 
 People Connect rests on a tiered model which categorizes inbound queries and requests according to nature and complexity this in turn should guide the anticipated resolution time unless otherwise specified by the responding generalist.
 
@@ -74,8 +74,6 @@ On occasion team member interactions i.e. ≤ 1% require the direct input of a S
 ### Team Member Satisfaction
 
 The People Connect model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
-
-At the resolution of each interaction that runs through our Service Desk team members will receive a quick two question 'satisfaction pulse' from the People Connect Bot.
 
 ### Metrics
 
