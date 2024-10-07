@@ -68,12 +68,17 @@ The same fields are also duplicated in `approval_merge_request_rules` to relate 
 
 We delete and recreate approval rules because we cannot get the exact diff of the policy from YAML very efficiently as it involves call to Gitaly and also we do not have unique identifier for each policy in the YAML.
 
+#### Events that trigger the worker
+
 This worker is called whenever these events happen:
 
-- Project created within a group with policies configured
-- User added/removed from a project
-- Protected branch is added/removed from a project
-- Policy is created/updated/deleted for a project
+- [Policy is created/updated/deleted for a project/group](https://gitlab.com/gitlab-org/gitlab/-/blob/cddeb2e9a797b37cb8a460803eac1d48a51fb600/ee/app/services/ee/merge_requests/post_merge_service.rb#L78)
+- [Project created within a group with policies configured](https://gitlab.com/gitlab-org/gitlab/-/blob/f019ca3db71d76fe33abebd8fbe262182a59affe/ee/app/services/ee/projects/create_service.rb#L116)
+- [Project is transferred to a group with policies configured](https://gitlab.com/gitlab-org/gitlab/-/blob/f808a6edfcdf5bd16a023deae33d66ce15331989/ee/app/services/ee/projects/transfer_service.rb#L66)
+- [Protected branch is added/removed from a project/group](https://gitlab.com/gitlab-org/gitlab/-/blob/4cb59b9e066126cae7b6b14b067bacf5549cbcf5/ee/app/services/ee/protected_branches/base_service.rb#L11-21)
+- [Default branch of a project with policies is changed](https://gitlab.com/gitlab-org/gitlab/-/blob/5163056a3b81b6e1d2a212eb8929249b1c96bd9b/ee/app/services/ee/projects/update_service.rb#L142)
+- [Compliance framework label is added/removed for a project](https://gitlab.com/gitlab-org/gitlab/-/blob/ccdd99f9601cba26f0d3775bfda3c5067f59cf46/ee/app/workers/security/refresh_compliance_framework_security_policies_worker.rb#L22)
+- [Cron job that syncs pending policy_configuration](https://gitlab.com/gitlab-org/gitlab/-/blob/45e5b343726c0aecfce9f03be967013b20ce40a4/ee/app/workers/security/sync_scan_policies_worker.rb#L21)
 
 To avoid this, we have created the `scan_result_policies` table (`Security::ScanResultPolicyRead` model) which acts as a read model for merge request approval policies to avoid reading from policy project. But currently, we don't store all the required fields in the table, we only store `role_approvers` , `license_state` and `match_on_inclusion` (previously `match_on_inclusion_license`).
 
@@ -137,13 +142,14 @@ The DB schema should closely mimic the policy YAML and should look like this:
 erDiagram
     security_orchestration_policy_configurations ||--|{ security_policies : " "
     security_policies ||--o{ scan_execution_policy_rules : " "
-    security_policies ||--o{ scan_result_policy_rules : " "
-    security_policies }o--o{ projects : "via security_policies_projects"
-    scan_result_policy_rules ||--|| approval_group_rules : " "
-    scan_result_policy_rules ||--|| approval_project_rules : " "
-    scan_result_policy_rules ||--|| approval_merge_request_rules : " "
-    scan_result_policy_rules ||--|| software_license_policies : " "
-    scan_result_policy_rules ||--|| scan_result_policy_violations : " "
+    security_policies ||--o{ approval_policy_rules : " "
+    security_policies }o--o{ projects : "via security_policy_project_links"
+    approval_policy_rules }o--o{ projects : "via approval_policy_rule_project_links"
+    approval_policy_rules ||--|| approval_group_rules : " "
+    approval_policy_rules ||--|| approval_project_rules : " "
+    approval_policy_rules ||--|| approval_merge_request_rules : " "
+    approval_policy_rules ||--|| software_license_policies : " "
+    approval_policy_rules ||--|| scan_result_policy_violations : " "
 
     security_orchestration_policy_configurations {
         int project_id
@@ -159,8 +165,8 @@ erDiagram
         text description
         boolean enabled
         jsonb policy_scope
-        jsonb actions
-        jsonb approval_settings
+        jsonb metadata
+        jsonb content
     }
     projects {
             int id
@@ -172,7 +178,7 @@ erDiagram
         text checksum
         jsonb content
     }
-    scan_result_policy_rules {
+    approval_policy_rules {
         int security_policy_id
         int rule_index
         int type
@@ -182,28 +188,28 @@ erDiagram
 
     approval_group_rules {
         int namespace_id
-        int scan_result_policy_rule_id
+        int approval_policy_rule_id
     }
     approval_project_rules {
         int project_id
-        int scan_result_policy_rule_id
+        int approval_policy_rule_id
     }
     approval_merge_request_rules {
         int merge_request_id
-        int scan_result_policy_rule_id
+        int approval_policy_rule_id
     }
     software_license_policies {
         int project_id
-        int scan_result_policy_rule_id
+        int approval_policy_rule_id
     }
     scan_result_policy_violations {
         int project_id
         int merge_request_id
-        int scan_result_policy_rule_id
+        int approval_policy_rule_id
     }
 ```
 
-In order to achieve this, we want to introduce a new worker(`Security::ScanResultPolicies::SyncWorker`) that reads the YAML from Git repository and convert them to entries in `security_policies` table, together with the underlying `scan_execution_policy_rules` and `scan_result_policy_rules` tables. This worker should be called only when a policy is created/updated/deleted. In all the other places where we currently read the YAML from Git repository, we should read from `security_policies` which serves as SSoT for the latest version of the policies.
+In order to achieve this, we want to introduce a new worker(`Security::PersistSecurityPoliciesWorker`) that reads the YAML from Git repository and convert them to entries in `security_policies` table, together with the underlying `scan_execution_policy_rules` and `approval_policy_rules` tables. This worker should be called only when a policy is created/updated/deleted. In all the other places where we currently read the YAML from Git repository, we should read from `security_policies` which serves as SSoT for the latest version of the policies.
 
 This allows us to:
 
@@ -219,38 +225,38 @@ There is an ongoing effort in [Allow group-level MR approval rules for 'All Prot
 
 ### Step 1: Add new tables
 
-As a first step, we need to introduce `security_policies`, `scan_result_policy_rules` and `scan_execution_policy_rules` tables. These tables and columns map to the fields in YAML.
+As a first step, we need to introduce `security_policies`, `approval_policy_rules`, `scan_execution_policy_rules`, `security_policy_project_links` and `approval_policy_rule_project_links` tables. These tables and columns map to the fields in YAML.
 
 ### Step 2: Introduce new worker to sync policies to the DB tables
 
 The new worker would be responsible for reading and converting the YAML to rows in `security_policies` table.
-Using `checksum`, we can determine whether a policy has changed and requires a rebuild, or whether it was only re-ordered.
-
-We can compare changes and based on the columns that were updated, we can propagate policy changes. For example:
-
-- When `actions` are updated, we can update the approvers in the approval rules.
-- When `rules` are updated, we can trigger update of the approval rules associated to them.
+Using `checksum`, we can determine whether a policy has changed and requires a rebuild, or whether it was only re-ordered. We also need to compute the policy diff with created, updated, deleted and re-arranged policies in an efficient data structure for efficient processing of policy changes.
+We map a policy to a project if the policy is enabled and the `policy_scope` is applicable to a project by creating a row in `security_policy_project_links` table. Using this table we can query the policies that a given project is applicable to. 
+We also map the `approval_policy_rules` (that are defined in the `rules` field of the policy) to project through `approval_policy_rule_project_links` table. 
 
 ### Step 3: Migrate all existing policies to `security_policies` table
 
-We need to introduce DB migration that reads all existing policies and populate `security_policies` table.
+We need to introduce DB migration that reads all existing policies and populate `security_policies`, `approval_policy_rules`, `scan_execution_policy_rules`, `security_policy_project_links` and `approval_policy_rule_project_links` tables
 
-### Step 4: Update `Security::ProcessScanResultPolicyWorker` to read from `security_policies`
+### Step 4: Introduce a new worker similar to `Security::ProcessScanResultPolicyWorker` to sync policy from `security_policies`
 
-Modify the worker to read from `security_policies` and invoke it only for these events:
+Once all the policies are migrated to the database, we want to introduce a new worker to sync policy from the table. `Security::ProcessScanResultPolicyWorker` syncs all policies for a project, but in this step the new worker will take `security_policy_id` and policy changes or event type as arguments to selectively sync the approval rules associated to the security_policy. 
 
-- User added/removed from a project
-- Protected branch is added/removed from a project
+### Step 5: Migrate existing approval rules tables to set `approval_policy_rule_id`
 
-This would change the worker's responsibility to only update the approval rules associated to the `security_policies` based on the event to which it was triggered
+After all the policies are migrated, `approval_policy_rules` table would store the information that are needed for approval rules related to policy. But for older approval rules records, `approval_policy_rule_id` would be nil. In this step, we want to introduce a background migration to backfill `approval_policy_rule_id` for `approval_project_rules`, `approval_merge_request_rules` and `approval_group_rules` tables.
 
-### Step 5: Delete columns from approval rules table
+### Step 6: Use `approval_policy_rules` table instead of `scan_result_policies` 
+
+Once all policies are migrated, we want to use `approval_policy_rules` to query the fields that are related to policy instead of reading from `scan_result_policies` table. 
+
+### Step 7: Delete columns from approval rules table
 
 This step would delete the columns that are migrated to `security_policies` from `approval_project_rules` and `approval_merge_request_rules`.
 
-### Step 6: Remove `scan_result_policies` table
+### Step 8: Remove `scan_result_policies` table
 
-At this point, we can remove the old table `scan_result_policies` because the approval rules would be linked via `scan_result_policy_rules` table.
+At this point, we can remove the old table `scan_result_policies` because the approval rules would be linked via `approval_policy_rules` table.
 
 ## Links
 
