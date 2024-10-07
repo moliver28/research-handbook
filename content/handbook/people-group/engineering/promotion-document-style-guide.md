@@ -9,7 +9,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
 - Cases for promotion to the same role are more readily comparable to each other and the job family criteria, with consistent tone.
 - The presentation is maximally inclusive, requiring less context on the part of the reader.
 
-## Tips
+## Principles for Presenting a Strong Promotion Case
 
 1. Minimize the use of adjectives and adverbs.
    - **Don't**:
@@ -43,7 +43,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
      - _"With this promotion, [name] will assume ongoing responsibility for technical architecture, initially accelerating [project 1] as project lead and bringing forward completion of [project 2] and [project 3] by 3 months to the end of Financial Year 2026."_
    - **Why**: Clearly defining the expected role evolution helps demonstrate the business need for the promotion and how investing in it will contribute to the organization’s goals.
 
-## Additional Tips
+## Additional Tips for Clarity and Impact
 
 - Avoid unnecessary filler words or phrases:
   - Arguably
