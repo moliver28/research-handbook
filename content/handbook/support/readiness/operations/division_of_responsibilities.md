@@ -18,6 +18,7 @@ The current division of responsibilities is:
 |                     | [Issues](https://gitlab.com/gitlab-com/gdpr-request/-/issues)                                                                                         | @avilla4         | @rverschoor      |
 |                     | [Processor](https://gitlab.com/gitlab-com/support/support-ops/other-software/account-deletion-processor)                                              | @jcolyer         | @avilla4         |
 |                     | [Questions](https://gitlab.slack.com/archives/C04357HVCJD)                                                                                            | @jcolyer         | @secole          |
+| Administration      | [SFDC Account Merge Requests](handbook/support/readiness/operations/docs/policies/salesforce_customer_account_merge_requests/)                                               | @dtragjasi         | @jcolyer            |
 | Audits              | [1Password](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits/-/issues)                                                      | @jcolyer         | @lyle            |
 |                     | [Calendly](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits/-/issues)                                                       | @avilla4         | @jcolyer         |
 |                     | [GitLab.com](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits/-/issues)                                                     | @jcolyer         | @lyle            |

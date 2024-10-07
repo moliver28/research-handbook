@@ -65,7 +65,7 @@ For deeper dives on this topic, read our guides below.
 ## Assessing the remote workplace experience
 
 1. [RemoteRated](https://remoterated.com/) seeks to rate and rank organizations based on their remote fluency, cutting through what's advertised and focusing on *actual* team member experience.
-1. While [Glassdoor](https://www.glassdoor.com/) does not yet offer a dedicated `Remote Experience` filter in reviews, you are able to sort by `COVID-19 Related`. This filter increases the chances of reading reviews relevant to one's remote work experience at an organization. It's also helpful to search for `remote` within an organization's Review section. Glassdoor also offers [remote-related content on its blog](https://www.glassdoor.com/blog/tag/remote-work/).
+1. While [Glassdoor](https://www.glassdoor.com/) does not yet offer a dedicated `Remote Experience` filter in reviews, you are able to sort by `COVID-19 Related`. This filter increases the chances of reading reviews relevant to one's remote work experience at an organization. It's also helpful to search for `remote` within an organization's Review section. Glassdoor also offers [remote-related content on its blog](https://www.glassdoor.com/blog/search/remote%20work/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

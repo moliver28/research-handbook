@@ -1,5 +1,5 @@
 ---
-title: Consider an abstraction layer to interact with ClickHouse or alternatives
+title: "Consider an abstraction layer to interact with ClickHouse or alternatives"
 status: proposed
 creation-date: "2023-02-23"
 authors: [ "@mikolaj_wawrzyniak", "@jdrpereira", "@pskorupa" ]

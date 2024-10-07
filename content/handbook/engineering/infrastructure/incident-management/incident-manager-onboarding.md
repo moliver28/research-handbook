@@ -30,7 +30,7 @@ The Incident Manager role will be staffed by all team members within this scope:
 - All Staff Engineer, SRE, and Engineering Manager Job Families
 - All specialties within the above Job Families (for example: Staff Backend Engineer, Staff Frontend Engineer, Frontend Engineering Manager, etc..)
 - Not already engaged in another oncall assignment.
-- Employed at the company for at least 3 months (same criteria for [eligibility to join the Dev Escalation rotation](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#eligibility))
+- Employed at the company for at least 3 months (same criteria for [eligibility to join the Dev Escalation rotation](/handbook/engineering/development/processes/infra-dev-escalation/process/#eligibility))
 
 As an Incident Manager, Team Members learn how we run GitLab.com and other GitLab SaaS environments. They help ensure the availability goals for GitLab.com by working with reliability engineers on call and development team members. The experience and awareness gained in this role leads to better understanding of building GitLab at scale and ultimately, a more reliable and scalable GitLab SaaS service and product.
 
@@ -118,7 +118,7 @@ or their designees, and the requests require approval from the participants' rep
 
 ### Development engineer: am I exempt from Dev On-call when I am on Incident Manager rotation?
 
-Yes. If you are an engineer and you are in the Incident Manager rotation, you are exempt from the [Dev On-call](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#eligibility). You will not be expected to sign up for shifts in the monthly Dev On-call scheduling sheet. Please confirm that your email address is listed on the [Development-Team-BE Google Spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=508978589), so that you are not auto-assigned a shift.
+Yes. If you are an engineer and you are in the Incident Manager rotation, you are exempt from the [Dev On-call](/handbook/engineering/development/processes/infra-dev-escalation/process/#eligibility). You will not be expected to sign up for shifts in the monthly Dev On-call scheduling sheet. Please confirm that your email address is listed on the [Development-Team-BE Google Spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=508978589), so that you are not auto-assigned a shift.
 
 ### How do I prioritize Incident Manager duties with my other role expectations?
 

@@ -75,3 +75,18 @@ The effort classification is an estimate of the level of effort required to reso
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR after they complete it.
+
+## Work flow labels
+
+These labels indicate the current status of the issue.
+
+### Table
+
+| Label    | Description |
+| AppSecWorkflow::planned| Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
+|AppSecWorkflow::in-progress|Indicates the issue is actively being worked on, or the rotation is in progress.|
+|AppSecWorkflow::complete|Indicates the work is done, or the rotation has finished.|
+
+#### Who assigns this label and when?
+
+The AppSec Engineer responsible for the task is expected to assign this label to an issue when work on the issue is started or completed.

@@ -21,7 +21,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Features by Group handbook page](/handbook/product/categories/features/#planproject-management-group) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
 
-- [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/#definitive-guides) managed by the Data team.
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
 
 - [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
@@ -614,7 +614,7 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 - [workspace_product.wk_rpt_namespace_onboarding](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_rpt_namespace_onboarding) This model contains all of the most commonly analyzed Growth use cases including namespace and namespace creator attributes and SaaS product behavior. This model can be contributed to by PDI, DEX and Marketing Analytics teams.
 
-- Because Growth topics are broad and cross-functional, there are many data models that are commonly used to answer Growth product analytics questions. More comprehensive documentation can be found in [Product Data Insights Data Models Cheat Sheet](/handbook/product/product-analysis/data-model-cheat-sheet/).
+- Because Growth topics are broad and cross-functional, there are many data models that are commonly used to answer Growth product analytics questions. More comprehensive documentation can be found in [Product Data Insights Data Models Cheat Sheet](/handbook/product/groups/product-analysis/data-model-cheat-sheet/).
 
 **Helpful video resources**
 

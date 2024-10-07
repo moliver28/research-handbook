@@ -41,7 +41,11 @@ Team members who opt-in for the 360 feedback review cycle will be asked to:
 - **(optional)** We have a [Feedback Training enablement issue](https://gitlab.com/gitlab-com/people-group/Training/-/blob/master/.gitlab/issue_templates/feedback_training.md) available for all team members interested in learning more about giving and providing feedback, in addition to our 360 feedback process. We recommend team members that are requesting feedback or providing feedback complete this training.
 - **(optional)** Following the 360, share the themes you heard and resulting actions you plan to take with stakeholders who can support your growth throughout the year.  Update your [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) with your new development items and actions that you will take as a result of the feedback received in the 360 process.
 
-## Timeline FY'24
+## Timeline FY25 (Pending)
+
+We are currently reviewing the process for 360 and peer-to-peer feedback and will pause our program for mid-year FY25.
+
+## Timeline FY24 (Completed)
 
 The 360 feedback process will be ongoing from July 31, 2023 - September 22, 2023.
 
@@ -65,12 +69,12 @@ The 360 feedback process will be ongoing from July 31, 2023 - September 22, 2023
 
 The FY'24 360 Feedback Cycle will be optional company-wide. To sign up, **all team members must complete [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfxIji54UF-u4cRXF80obTJ6VoaylrrbLqjDuxzStzNmjoCCA/viewform?usp=sf_link) to participate**. There are a few important things to keep in mind before signing up:
 
-- **You must sign up before the [Sign Up Window due date](#timeline-fy24) or you will not be able to participate in the cycle.** This is to ensure we are able to launch the review cycle on time
-- Ensure you meet the [tenure eligibility](#eligibility) requirement
+- You must sign up before the or you will not be able to participate in the cycle.
+- This is to ensure we are able to launch the review cycle on time**
+- Ensure you meet the [tenure el**igibility](#eligibility) requirement
 - Make sure that you [fulfill the requirements](#360-feedback-requirements) for participation and that you have an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) (or equivalent) in place prior to the 360 Feedback launch
 - Review [the guidelines](#is-the-360-process-right-for-me) to determine whether the 360 Feedback process is right for you
-
-Team members that sign up and meet the eligibility requirements will receive an invitation from CultureAmp at the start of the [Nomination Phase](#timeline-fy24).  Team members that sign up and **do not** meet the eligibility requirements will be notified by their People Business Partner.
+Team members that sign up and meet the eligibility requirements will receive an invtation from CultureAmp at the start of the Nomination Phase. Team members that sign up and **do not** meet the eligibility requirements will be notified by their People Business Partner.
 
 ## 360 Structure
 

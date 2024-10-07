@@ -2,13 +2,13 @@
 title: Using GitLab to plan work
 ---
 
-We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are: 
+We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are:
 
-- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes. 
+- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
 - [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
 - [Tasks](https://docs.gitlab.com/ee/user/tasks.html) (optional): Decompose an Issue into more detailed implementation steps.
-- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete. 
-- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning. 
+- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
+- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning.
 - [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
@@ -28,7 +28,7 @@ You should consider **not** creating an issue when:
 - You're breaking down work very far ahead of implementation. Create broad issues or epics for distant features to minimize the total number of issues and maintain flexibility to iterate on the plan closer to implementation.
 - There is already an existing issue. Even if the quality is low, people might
 have linked to it. Consider rewriting the description instead and leaving a comment
-that you did so. 
+that you did so.
 
 #### How to submit a new issue
 
@@ -45,8 +45,8 @@ to see if a similar issue already exists. We shouldn't create duplicates if we c
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
-1. Assign labels for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification). 
-1. Leave a comment and tag the product manager to triage the issue. 
+1. Assign labels for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+1. Leave a comment and tag the product manager to triage the issue.
 Mentioning someone in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
@@ -90,7 +90,7 @@ This epic should have a start and an end date, and it should not span more than
 When these issues are finished and closed, we should have successfully achieved the
 epic's goal. A good example of this kind of epic is the first iteration on a new
 feature. Epics representing MVCs should clearly state `MVC` at the end of the
-title and should have a parent epic relationship towards a category strategy or a meta epic. 
+title and should have a parent epic relationship towards a category strategy or a meta epic.
 
 ### Epics for multiple iterations
 
@@ -116,7 +116,7 @@ We try to avoid creating epics for time frames as reaching a certain date should
 
 To categorize issues and epics into themes or longer running items, we recommend using labels. You can also use epics to track many issues related to a specific topic, even if there
 isn't a specific timeline for shipping. These epics should be marked as ~meta, they
-may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship. 
+may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship.
 
 #### Work item state
 
@@ -133,26 +133,28 @@ it starts with your work items (issues, epics and tasks). Rejecting a feature re
 
 As a Product Manager you should close work items for the following reasons:
 
-1. Duplicated elsewhere
-1. Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
-1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around. 
-1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.  
-1. Low priority: sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
-1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page. 
-1. No longer relevant. 
-
-The 'not the next iteration' work items are the most important ones to resolve.
-It is very easy to create a large, comprehensive change with meta items and lots of improvements,
-but it is essential that we iterate and ship the _minimal viable_ change.
-We have to ship the iteration, wait for it to be used, and ask for feedback.
-As a product manager, you must think about the bigger picture when making a proposal to improve the product.
-It's important to avoid writing this down as a bunch of work items.
-Come up with a direction, but only record the first step.
-This way we can preserve the efficiency of [our value of iteration](/handbook/values/#iteration).
+1. **Duplicate Issue:** GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests. You should use the [`/duplicate` quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) to close these and link them to the canonical issue.
+1. **Is outside the scope of, or is opposed to, our [vision](https://about.gitlab.com/direction/#vision).** GitLab is a large platform and not all requests will align with the long term direction of the product. It's okay to close issues that we'll never do because they do not align with this vision.
+However, you [should _not_ close an issue](#when-you-should-not-close-an-issue-or-epic) just because it isn't currently prioritized as part of your category's direction.
+1. **It presents a security risk.** Some requests may require you to evaluate if the proposal can be delivered without presenting a security risk to GitLab or our customers. You should reach out to [Application Security](/handbook/security/product-security/application-security/) if you are unsure about any requests.
+1. **Too complex:** We want to have a simple, user-friendly product that does complex things, not the other way around. Uses of the product that are overly complex or only solve for narrow use cases might fall into this category.
+1. **We don't want another setting:** whenever we can, we try to avoid having settings. GitLab follows the [Convention over Configuration](/handbook/product/product-principles/#convention-over-configuration) principle when evaluating new proposals. It's important to consider all of the user experience impacts an additional setting can add and while some settings are unavoidable; most aren't.
+1. **Changes the tier of a feature:** this problem is already [addressed in the Stewardship page](/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
+1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
+1. **Deprecated, removed, or no-longer-supported functionality:** You should close issues that won't be worked on because the functionality has been [officially deprecated or removed, or has reached End of Support](https://docs.gitlab.com/ee/update/terminology.html).
 Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
 
 When closing a work item, leave a comment explaining why you're closing it, and link
-to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don’t forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
+to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don't forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
+
+##### When you should NOT close an issue or epic
+
+1. **Low priority:** sometimes features are interesting but we simply don't have the capacity to implement them. In that case, simply tell the truth and indicate that we don't have enough resources at our disposal to do it at the moment. Use the `~low priority` label to signal low priority.
+1. **Not part of your direction:** These items are good ideas, but are not at the top of the list for PMs to prioritize within their group. Use the `~low priority` label to signal low priority.
+1. **Low demand for the request:** Something that is in line with your direction but very low priority with no (or few) upvotes. Rather than closing, utilize the %"Awaiting further demand"  milestone.
+1. **Divested category:** Issues for categories in which we've made a divestment, but haven't removed the category. Use the `~divested` label to signal no prioritization due to divestment.
+1. **Age of Issue:** Closing due to age alone. Filtering by age to look for candidates to close is fine, but if the issue still aligns with product direction and there is community interest, we should keep these open for future opportunities.
+1. **Complex Solutions:** Sometimes issues may come with overly complex proposals or the current state of GitLab's architecture or other technical factor makes the solution too complex to implement. These issues should remain open if the problem to solve is valid as solutions can evolve as more is learned about the problem to be solved.
 
 ### Roadmaps
 

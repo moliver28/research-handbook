@@ -57,3 +57,7 @@ Give projects a concise name and keep the name consistent with our naming conven
 #### Project Templates
 
 Create a custom template or use an Asana created template to standardize common workflows and projects. Templates help get projects off to a quick start and ensure you haven’t missed any vital steps.
+
+### Integrations
+
+Asana is integrated to many GitLab tools to help streamline project creation, collaboration and more. WIP Section

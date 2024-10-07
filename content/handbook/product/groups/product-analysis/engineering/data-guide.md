@@ -44,7 +44,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 
 ### workspace_engineering.internal_notes
 
-- **Description**: Table containing Gitlab.com notes from Epics, Issues and Merge Requests. It includes the namespace ID and the ultimate parent namespace ID.
+- **Description**: Table containing GitLab.com notes from Epics, Issues and Merge Requests. It includes the namespace ID and the ultimate parent namespace ID.
 - **Granularity**: One row per issue
 - **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.internal_notes)
 
@@ -107,13 +107,13 @@ In this section, we share commonly used data models that fuel many of our dashbo
 ## Additional Resources
 
 - [Data governance](/handbook/sales/field-operations/data-intelligence/data-governance/)
-- [Data quality](/handbook/business-technology/data-team/data-quality/)
-- [Data Team Handbook](/handbook/business-technology/data-team/)
+- [Data quality](/handbook/enterprise-data/data-quality/)
+- [Data Team Handbook](/handbook/enterprise-data/)
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific Engineering Analytics Models, please reference the Commonly Used Data Models section for a starting point.
-- [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/#definitive-guides) managed by the Data team.
-- [Documentation on data pipelines](/handbook/business-technology/data-team/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.Contact
-- [Tableau Developer Guide](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/) - Date handling, handbook embedding, general tips and tricks
-- [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/)
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
+- [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.Contact
+- [Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) - Date handling, handbook embedding, general tips and tricks
+- [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/)
 
 ### Repo Shortcuts
 

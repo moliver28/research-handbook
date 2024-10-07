@@ -4,7 +4,7 @@ title: "People Analytics Tableau Dashboard Overview"
 
 ## Helpful places to start
 
-- [Tableau Handbook Page](/handbook/business-technology/data-team/platform/tableau/) - This is the SSOT for all Tableau usage and is managed by the Data Team. This will give an overview of the most up to date roadmap and workflows regarding Tableau at GitLab.
+- [Tableau Handbook Page](/handbook/enterprise-data/platform/tableau/) - This is the SSOT for all Tableau usage and is managed by the Data Team. This will give an overview of the most up to date roadmap and workflows regarding Tableau at GitLab.
 - [Tableau People Folder](https://10az.online.tableau.com/#/site/gitlab/projects/300909) - This is the main folder to find all People Dashboards. This is currently in our Development project but will be moving to our Production location in the future.
 - [Tableau Workshops](https://docs.google.com/document/d/1ChdkC7Tep_HL6UqvJ6PNzLxDmR7QNo5LN823wS0ZAZU/edit#heading=h.2e7gftq6eevx) - Held by the People Analytics team as an introduction to using Tableau and navigating the current dashboards available.
 

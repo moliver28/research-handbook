@@ -4,7 +4,7 @@ title: "SMB Marketing"
 
 ## Who we are
 
-SMB Marketing addresses the [SMB Segment](/handbook/sales/field-operations/gtm-resources/#segmentation) in support of [SMB Sales](/handbook/sales/commercial/#smb-account-executives), [Sales Development (SDR) in Marketing](/handbook/marketing/sales-development/), [Growth in Product](/handbook/product/growth/), and other teams.
+SMB Marketing addresses the [SMB Segment](/handbook/sales/field-operations/gtm-resources/#segmentation) in support of [SMB Sales](/handbook/sales/commercial/#smb-account-executives), [Sales Development (SDR) in Marketing](/handbook/marketing/sales-development/), [Growth in Product](/handbook/product/groups/growth/), and other teams.
 
 ### SMB Marketing Team
 

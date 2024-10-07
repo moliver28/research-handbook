@@ -9,7 +9,7 @@ This is not a comprehensive list of all of the commonly used terms, but rather i
 
 ### Partitioning
 
-For our purposes, when referring to partitioning we are refering to a local optimization of splitting one large table into many small tables.  Additionally, this is done in a way such that the application accessing this partitioned table is mostly unaware of the changes. Queries benefit from partitioning only if they use the partitioning key as a filter.
+For our purposes, when referring to partitioning we are referring to a local optimization of splitting one large table into many small tables.  Additionally, this is done in a way such that the application accessing this partitioned table is mostly unaware of the changes. Queries benefit from partitioning only if they use the partitioning key as a filter.
 
 Definition - "Partitioning refers to splitting what is logically one large table into smaller physical pieces." Reference: [PostgreSQL: Documentation: 11: 5.10. Table Partitioning](https://www.postgresql.org/docs/11/ddl-partitioning.html)
 
@@ -23,7 +23,7 @@ For our purposes, when referring to *sharding* we are referring to horizontally 
 
 #### Application Sharding
 
-Another variant of sharding is `application sharding`  This typically refers to an architecture that implements routing logic to route data requests from the application to the correct data repository.  During our discussions in the [Sharding Working Group](/company/team/structure/working-groups/sharding) we typically referred to the [Shopify Pods Architecture](https://engineering.shopify.com/blogs/engineering/a-pods-architecture-to-allow-shopify-to-scale) as an example of application sharding.
+Another variant of sharding is `application sharding`  This typically refers to an architecture that implements routing logic to route data requests from the application to the correct data repository.  During our discussions in the [Sharding Working Group](/company/team/structure/working-groups/sharding) we typically referred to the [Shopify Pods Architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale) as an example of application sharding.
 
 ### Foreign Data Wrapper (FDW)
 

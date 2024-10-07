@@ -256,7 +256,7 @@ Keeping an eye on the various content reviews (TW, PMM, and Director) for the in
 
 The review and any needed adjustment to the ordering of secondary features due to stakeholder feedback is the responsibility of the Release Post Manager. Secondary features, removals, and upgrade notes are all sorted alphabetically by title, grouped by stage. To affect the sort order of the secondary features, a change to the content block's `title` is required. The Release Post Manager should work with the product managers of the content blocks to make these changes, to ensure accuracy and alignment.
 
-After the Review App for the release post has been generated, the Release Post Manager solicits additional feedback from the [product leaders](/handbook/product/product-leadership/#product-leadership-team-structure) via Slack in the #release-post channel.
+After the Review App for the release post has been generated, the Release Post Manager solicits additional feedback from the [product leaders](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) via Slack in the #release-post channel.
 
 It is the Release Post Manager's responsibility to make sure all content is completed by the Tuesday of release week, ensuring a one day buffer is left for final error fixes and small improvements.
 
@@ -701,7 +701,7 @@ The responsibilities of the Engineering Manager are documented in the
 
 ## Technical Advisors
 
-Each month, the Release Post Manager may need help with technical hurdles during the release post process. In order to provide the release post, which is a time-sensitive and highly visible asset for customers and users, with adequate technical advisement and support, we are piloting a partnership with the GitLab development team to leverage the [Dev Escalation process](/handbook/engineering/on-call/#development-team-on-call-rotation) via the Slack `#dev-escalation` channel as an extension. This ensures that at all times, if something breaks that the release post team can not resolve themselves, they have access to technical experts for resolution. It is recommended that technical advisors review the documented [technical aspects](/handbook/marketing/blog/release-posts/#technical-aspects) of the release post for reference, and the [escalation process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process).
+Each month, the Release Post Manager may need help with technical hurdles during the release post process. In order to provide the release post, which is a time-sensitive and highly visible asset for customers and users, with adequate technical advisement and support, we are piloting a partnership with the GitLab development team to leverage the [Dev Escalation process](/handbook/engineering/on-call/#development-team-on-call-rotation) via the Slack `#dev-escalation` channel as an extension. This ensures that at all times, if something breaks that the release post team can not resolve themselves, they have access to technical experts for resolution. It is recommended that technical advisors review the documented [technical aspects](/handbook/marketing/blog/release-posts/#technical-aspects) of the release post for reference, and the [escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process).
 
 Please note that unlike other monthly volunteers of the release post, the technical advisor is not expected to follow the release post process at all times. The Release Post Manager will reach out to the technical advisor on call via Slack in the `#dev-escalation` channel and then cross-post to the `#release-post` channel for transparency that issues are being worked on. It is then expected that the technical advisor will respond to the Release Post Manager or release post DRI as soon as possible, including evenings/weekends, as the release post asks are often time sensitive, **especially between the Monday of release week and the [release date](/handbook/engineering/releases/) of the month**. The technical advisor is responsible for determining if further dev escalation should proceed.
 
@@ -752,7 +752,7 @@ The Release Post Deployment is a critical and time-sensitive operation. Please r
 Following your best judgement with the following:
 
 - For minor incidents that can be recovered from your intervention alone or in concert with the Release Post Manager, do so while recording your diagnosis and the steps taken to resolve the incident so that we can improve the process and our preparedness. Deposit this info in a new issue or as part of the current release post retrospective.
-- For major incidents that require immediate assistance from an SRE, developer on call, or other team members with increased access rights, create an issue and follow the [dev escalation procedure](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process). Record the diagnosis and the steps taken to resolve so that we can improve the process and our preparedness. Deposit this info in a new issue or as part of the current release post retrospective.
+- For major incidents that require immediate assistance from an SRE, developer on call, or other team members with increased access rights, create an issue and follow the [dev escalation procedure](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process). Record the diagnosis and the steps taken to resolve so that we can improve the process and our preparedness. Deposit this info in a new issue or as part of the current release post retrospective.
 
 ## Incident Response
 
@@ -817,7 +817,7 @@ Should you prefer to continue to contribute to an issue under active development
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
   - Secondary features (#secondary-features)
-  - [Illustrations](#illustrations) (screenshots, gifs, or videos)
+  - [Illustrations](#illustrations) (screenshots, GIFs, or videos)
   accompanying their respective features
 - [UI improvements, performance improvements and bug fixes](#ui-improvements-performance-improvements-and-bug-fixes)
 - [Omnibus improvements](#omnibus-improvements) (added as a secondary feature)
@@ -1345,7 +1345,7 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
 - Each image should be compressed with [ImageOptim](https://imageoptim.com),
   [TinyPNG](https://tinypng.com/), or similar tool. You can also try [automation tools like Hazel or Automator](https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots/)
 - Each image should not surpass 150KB (300KB for cover
-  image), gifs included
+  image), GIFs included
 - [pngbot](https://gitlab.com/jramsay/pngbot) will compress PNG images added in
   merge request by converting each PNG to PNG 8 (8 bit, 256 colors) using
   [pngquant](https://pngquant.org) before losslessly compressing with
@@ -1375,9 +1375,9 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
     page load time significantly.
   - Screenshots throughout the post should be harmonic and consistent in terms
     of their size and quality.
-- **Animated gifs**:
-  - If a gif isn't necessary, replace it with a static image (.png, .jpg)
-  - If an animation is necessary but the gif > 300KB, use a video instead
+- **Animated GIFs**:
+  - If a GIF isn't necessary, replace it with a static image (.png, .jpg)
+  - If an animation is necessary but the GIF > 300KB, use a video instead
 - **Cover image**:
   Cover images for 16.x releases have been created by the marketing team and can be found [here](https://drive.google.com/drive/folders/18YNR93JyKbhL16iImVGUErpGfIyZ2UvM)
   For cover images after 16.x, [raise a similar request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/8049).
@@ -1607,7 +1607,7 @@ The schema is implemented using [Rx](http://rx.codesimply.com/index.html).
 
 If you have trouble running the rake task, you can check the following troubleshooting steps:
 
-- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
+- Verify that your Ruby version matches the [`gitlab-org/gitlab` project's Ruby version](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.ruby-version). You can check with `ruby -v`. See more about [setting up a Ruby environment](/handbook/about/editing-handbook/#3-the-single-script-setup-method-macos-only) (MacOS only). You can also validate your setup by running `./bin/doctor` from the terminal.
 - Update your gems by running `bundle install`.
 - Your bundler version could be out of date, so you can try running `gem install bundler:2.1.4`.
 

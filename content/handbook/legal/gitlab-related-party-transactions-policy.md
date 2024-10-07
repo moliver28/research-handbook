@@ -28,7 +28,7 @@ Our "***Approval Authority***" will be our Audit Committee. In a situation where
 You are a Related Party if you are:
 
 1. a person who is, or at any time since the begining of our last fiscal year was, a director or executive officer of the Company or a nominee to become a director;
-1. a significat stockholder, or an immediate family member of a director, director nominee, executive officer or signifiant stockholder. This includes any child stepchild, parent, stepparent, spouse, sibbling, in-law (mother, father, son, daughter, brother, sister) of such person, and any person (other than a tenant or employee) sharing the household of such person.
+1. a significant stockholder, or an immediate family member of a director, director nominee, executive officer or significant stockholder. This includes any child stepchild, parent, stepparent, spouse, sibling, in-law (mother, father, son, daughter, brother, sister) of such person, and any person (other than a tenant or employee) sharing the household of such person.
 
 ### WHAT TYPES OF TRANSACTIONS ARE COVERED BY THIS POLICY?
 
@@ -36,7 +36,7 @@ Any transaction, arrangement or relationship (including any indebtedness or guar
 
 1. the Company (including any of our subsidiaries) was, is or will be a participant;
 1. the aggregate amount involved will or may be expected to exceed $120,000 in any fiscal year; and
-1. any Related Party had, has or will have a direct or indirect materal interest.
+1. any Related Party had, has or will have a direct or indirect material interest.
 
 Any transaction that meets the above criteria is referred to as a "***Related Party Transaction***."
 
@@ -64,7 +64,7 @@ When the Company learns that a person has become a significant stockholder, our 
 
 **Advance Approval**
 
-Any transaction the Company intends to undertake with a Related Party, irrespective of the amounts involved (unless the transaction is subject to standing pre-approval as provided in this policy or pursuant to a resolution adopted by the Approval Authority), must be submitted to the Chief Legal Officer (the "***CLO***") for his or her determination of the approvals required under this Policy. The CLO will refer to the Approval Authority any Related Party Transaction, and any other transaction that he or she otherwise determines should be considered for evaluation by the Approval Authority consistent with the purpose of this Policy. The CLO may do so irrespective of any pre-approval or other technical exemption from this Policy.
+Any transaction the Company intends to undertake with a Related Party, irrespective of the amounts involved (unless the transaction is subject to standing pre-approval as provided in this policy or pursuant to a resolution adopted by the Approval Authority), must be submitted to the Chief Legal Officer (the "***CLO***") for their determination of the approvals required under this Policy. The CLO will refer to the Approval Authority any Related Party Transaction, and any other transaction that the CLO otherwise determines should be considered for evaluation by the Approval Authority consistent with the purpose of this Policy. The CLO may do so irrespective of any pre-approval or other technical exemption from this Policy.
 
 The Legal Team will provide the Approval Authority with all relevant information available about the proposed transaction, including:
 

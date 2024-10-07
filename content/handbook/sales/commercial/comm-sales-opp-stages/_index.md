@@ -9,7 +9,7 @@ Pipeline management is key to predictable, scalable revenue attainment and can m
 
 A well-managed sales pipeline requires a clear process with defined activities and exit criteria that serve as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). The following process is specific to the Commercial Sales team and will ensure you have a clean pipeline and accurate forecast.
 
-## <i class="fas fa-users fa-fw icon-color font-awesome"></i>Commercial Sales Stages Activities and Exit Criteria
+## <i class="fas fa-users"></i>Commercial Sales Stages Activities and Exit Criteria
 
 To view these stages in Google sheet format please [click this link](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321).
 

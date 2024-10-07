@@ -48,7 +48,7 @@ We originally wanted to deploy YubiKeys to the entire company, however we have a
 
 We shifted our focus to team members with 14"/16" MacBook Pros with 3 ports + magsafe power. The Engineering, Product, and Security divisions access a wide range of applications, infrastructure, and backend systems that are not in Okta, so that is where we are focusing our efforts.
 
-<img src="/handbook/security/guides/yubikey/images/yubikey-mac-13.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="../images/yubikey-mac-13.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 #### Linux Users
 
@@ -62,7 +62,7 @@ Please ask in `#it_help` for assistance.
 
 ### YubiKey Models
 
-<img src="/handbook/security/guides/yubikey/images/yubikey-models.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="../images/yubikey-models.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 #### YubiKey 5C Nano FIPS
 
@@ -73,7 +73,7 @@ A [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/) (
 - It does not have the risk of breaking off or getting in your way as you move around with your laptop.
 - Not recommended if you need to remove the key frequently since it's hard to grip and easy to lose.
 
-<img src="/handbook/security/guides/yubikey/images/yubikey-nano-port.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="../images/yubikey-nano-port.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 #### YubiKey 5C NFC FIPS
 
@@ -90,7 +90,7 @@ This simply provides versatility. Since the authenticator is registered on the s
 - Can be left in your monitor port or docking station if your laptop is not reachable at your desk. You may need a USB-A key if you have an older monitor without USB-C ports. A small docking station or adapter may be better in some cases.
 - NFC supports wireless authentication with recent [iPhone](/handbook/security/guides/yubikey/2fa/ios) and many [Android](/handbook/security/guides/yubikey/2fa/android) devices (if it supports tap payments, it should support YubiKey NFC).
 
-<img src="/handbook/security/guides/yubikey/images/yubikey-nfc-port.jpg" alt="YubiKey NFC Port" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="../images/yubikey-nfc-port.jpg" alt="YubiKey NFC Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 #### Other YubiKey Models
 

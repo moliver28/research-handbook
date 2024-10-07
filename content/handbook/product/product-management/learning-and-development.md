@@ -13,7 +13,7 @@ The resources in the Product L & D Hub are meant to support product managers to 
 
 Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/expenses/#work-related-online-courses-and-professional-development-certifications).
 
-Over time, we will add content to directly support GitLab's product management [competencies](/handbook/product/product-manager-role/product-CDF-competencies/), [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and [product development flow](/handbook/product-development-flow/). We understand that the evolving product management space requires continuous learning, and GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
+Over time, we will add content to directly support GitLab's product management [competencies](/handbook/product/product-management/product-cdf-competencies/), [CDF](/handbook/product/product-management/product-cdf-competencies/) and [product development flow](/handbook/product-development-flow/). We understand that the evolving product management space requires continuous learning, and GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
 
 ## Recommended books and talks for all GitLab product managers
 
@@ -36,7 +36,7 @@ Discusses how to leverage efficiency to achieve optimal outcomes. <br>
 
 ## Supporting materials for GitLab specific product manager competencies
 
-[product manager competencies](/handbook/product/product-manager-role/product-CDF-competencies/)
+[product manager competencies](/handbook/product/product-management/product-cdf-competencies/)
 
 ### Opportunity Canvases
 
@@ -117,7 +117,7 @@ We will be planning the Pilot Program in this [epic](https://gitlab.com/groups/g
 
 ### Using the Career Development Framework during Peer Mentorship
 
-Product Managers are all evaluated using the [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and it can be a great tool to use as a way to discuss how each person is performing in context to the CDF. If you are looking to improve in a certain area of your CDF, the peer mentorship space can be a great place to seek mentorship. Please note that CDFs are confidential documents that are kept between team members and their management lines, however, for the purpose of mentorship, team members can choose to share relevant portions. If any feedback about the CDF arises, please discuss the feedback with your manager or open an MR to the [CDF handbook page](/handbook/product/product-manager-role/product-CDF-competencies/) and tag `gl-product-leadership` for review.
+Product Managers are all evaluated using the [CDF](/handbook/product/product-management/product-cdf-competencies/) and it can be a great tool to use as a way to discuss how each person is performing in context to the CDF. If you are looking to improve in a certain area of your CDF, the peer mentorship space can be a great place to seek mentorship. Please note that CDFs are confidential documents that are kept between team members and their management lines, however, for the purpose of mentorship, team members can choose to share relevant portions. If any feedback about the CDF arises, please discuss the feedback with your manager or open an MR to the [CDF handbook page](/handbook/product/product-management/product-cdf-competencies/) and tag `gl-product-leadership` for review.
 
 ## Growth and Development processes
 
@@ -380,7 +380,7 @@ _Please contribute your favorite resources here_
 #### Quick reads and videos
 
 - What does [Iteration](/handbook/values/#iteration) mean for GitLab?
-- What is a [Minimal Viable Change](/handbook/product/product-principles/#sts=The%20Minimal%20Viable%20Change%20(MVC))?
+- What is a [Minimal Valuable Change](/handbook/product/product-principles#the-minimal-valuable-change-mvc)?
 - [Product Processes: Iteration Strategies](/handbook/product/product-processes/#iteration-strategies)
 - A [video by Sid and Leif on iteration](https://www.youtube.com/watch?v=tPTweQlBS54) (24 min video)
 - [Product Leadership discusses examples of iteration that they've learned from](https://www.youtube.com/watch?v=tPTweQlBS54) (19 min video)

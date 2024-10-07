@@ -202,7 +202,7 @@ This is to ensure that [GitLab Bot auto-labeling](/handbook/engineering/infrastr
 
 Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
 
-Ensure that relevant slack channels are updated following our [slack channel naming convention](/handbook/communication/chat/#channel-categories), open an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to have slack channel names updated as they can no longer be updated by creators.
+Ensure that relevant slack channels are updated following our [slack channel naming convention](/handbook/communication/chat/#channel-categories), open an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to have slack channel names updated as they can no longer be updated by creators.
 
 ### Examples
 
@@ -214,7 +214,7 @@ Changes that require the above approvers include:
 - Changes to a section, stage, group, or category name or `marketing` attribute
 - Removal or addition of a section, stage, group, or category
 
-Changes that require approval only from the relevant [Product Leadership Team](/handbook/product/product-leadership/#product-leadership-team-structure) member include:
+Changes that require approval only from the relevant [Product Leadership Team](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) member include:
 
 - Changing name or removing a non-marketing category, per the `marketing` attribute.
 
@@ -322,7 +322,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Remote Development group](/handbook/product/categories/#remote-development-group/)
 
-- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html)
+- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/)
 
 ### Other functionality in Verify
 

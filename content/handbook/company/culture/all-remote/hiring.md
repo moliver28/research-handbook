@@ -92,7 +92,7 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 
 1. Benefits for families and caregivers (daycare stipend, cleaning/laundry stipend, meal stipend, enhanced health insurance options, continuing education, adoption/fertility support, etc.)
 1. [No ask, must tell vacation policy]({{< ref "paid-time-off" >}}) which senior leaders visibly model
-1. The ability to [expense](/handbook/spending-company-money#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
+1. The ability to [expense](/handbook/finance/spending-company-money/#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
 1. Caregiver leave (maternity, paternity, eldercare, etc.)
 1. [De-location stipend](https://zapier.com/blog/move-away-from-sf-get-remote-job) (supporting relocation away from a high cost-of-market location)
 1. 4-day workweek, Summer Fridays, no-meeting days, and other efforts that provide company-wide time off for employees to rest, recharge, and connect with community

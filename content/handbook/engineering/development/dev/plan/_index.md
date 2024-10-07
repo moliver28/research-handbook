@@ -46,6 +46,12 @@ The third item tells us how we've been doing previously. If the trend is downwar
 
 Subtracting the carry over weight (item 2) from our expected capacity (the product of items 1 and 3) should tell us our capacity for the next release.
 
+#### Estimating effort
+
+Groups within Plan use the same numerical scale when estimating upcoming work.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
+
 #### Issues
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
@@ -443,7 +449,17 @@ The responsibility of the DRI is simply to collect information and to ensure the
 | 2024-08-26 | Vladimir Shushlin |
 | 2024-09-02 | Kushal Pandya |
 | 2024-09-09 | Donald Cook |
-| 2024-09-16 | John Hope |
+| 2024-09-16 | Donald Cook |
+| 2024-09-23 | Kushal Pandya |
+| 2024-09-30 | John Hope |
+| 2024-10-07 | John Hope |
+| 2024-10-14 | Kushal Pandya |
+| 2024-10-21 | Donald Cook |
+| 2024-10-28 | John Hope |
+| 2024-11-04 | Vladimir Shushlin |
+| 2024-11-11 | Kushal Pandya |
+| 2024-11-18 | Donald Cook |
+| 2024-11-25 | John Hope |
 
 #### Links
 
@@ -638,4 +654,4 @@ By continually monitoring these tables and applying the planned mitigations, we 
 
 #### Plan xMAU
 
-- [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
+- [Product Planning Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/)

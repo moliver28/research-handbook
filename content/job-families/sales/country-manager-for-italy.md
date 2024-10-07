@@ -60,7 +60,7 @@ The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compe
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Performance Indicators
 

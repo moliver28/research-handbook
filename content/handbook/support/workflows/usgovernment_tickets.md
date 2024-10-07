@@ -132,9 +132,9 @@ The following will describe how to create the personal view to list cases in Glo
 1. Navigate to the [create new view](https://gitlab.zendesk.com/admin/workspaces/agent-workspace/views/new) section of GitLab's Global Support Portal.
 1. Set the name to `US Government Shift View`
 1. Use the following conditions for **Tickets must meet all of these conditions to appear in the view**:
-    - `Status` - `Less than` - `Pending`
-    - `Tags` - `Contains at least one of the following` - `org_region_amer` `all_regions`
-    - `Ticket Stage` - `is` - `FRT`
+    - `Status` - `Less than` - `Solved`
+    - `Assignee` - `is` `-`
+    - `Preferred Region for Support` - `is` - `Americas, USA`
 1. Use the following conditions for **Tickets can meet any of these conditions to appear in the view**
     - `Form` - `is` - `Self-Managed`
     - `Form` - `is` - `SaaS`

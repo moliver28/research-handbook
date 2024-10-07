@@ -19,7 +19,7 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
+Please reach out to your aligned People Business Partner (PBP) to engage in the following areas:
 
 | Contact | Division or Departments |
 |-------------------|-------------|
@@ -27,12 +27,12 @@ Please reach out to your aligned People Business Partner (PBP) (listed aplhabeti
 | Anjali Kaufmann   | Legal and Corporate Affairs |
 | Anjali Kaufmann   | Finance |
 | Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
-| Carolyn Bednarz   | Sales - APJ|
+| Tracy Lu | Sales - APJ|
 | Giuliana Lucchesi | Product |
 | Giuliana Lucchesi | Security |
 | Jenny Burns       | Sales - EMEA |
 | Jess Durbin       | Engineering - Core Development, Expansion |
-| Kristina Bullock       |Chief of Staff to the CEO|
+| Kristina Bullock   |Chief of Staff to the CEO|
 | Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
 | Lauren Tepper     | Sales - AMER, Public Sector, Global Digital, Field Operations  |
 | Brandi McDonald | Marketing |

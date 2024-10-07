@@ -42,6 +42,10 @@ The following people are permanent members of the Remote Development Engineering
 | Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
 | Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
 
+### 🎓 New Hires
+
+**As the Remote Development team and tech stack continue to mature, it's essential to have a team-specific onboarding process for new hires.** This checklist is designed to guide new team members through the key areas and processes specific to our team, starting two weeks after company onboarding. It covers our mission, essential tools, and workflows related to the Web IDE and Workspaces. Existing team members are encouraged to review the checklist regularly and contribute any missing or updated information to ensure it remains accurate and useful for newcomers. You can find the template https://gitlab.com/gitlab-com/create-stage/remote-development/-/blob/main/.gitlab/issue_templates/remote-development-onboarding.md.
+
 ### ☎️ How to reach us
 
 Depending on the context here are the most appropriate ways to reach out to the Remote Development Group:
@@ -135,7 +139,7 @@ The Remote Development group has decided to use an alternate planning process fo
 1. Workspace is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
 1. The Workspace category is also currently receiving much attention as part of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Workspace category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
-1. To better support the use of these methodologies, the Remote Development group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
+1. To better support the use of these methodologies, the Remote Development group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint/) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
 
 Even though the Web IDE category does not have all these constraints (e.g. it is based on VS Code and is not greenfield code, and has fewer unknowns), the Web IDE category will follow a similar process in order reduce the cognitive overhead of the entire group.
@@ -447,7 +451,7 @@ The Remote Development Team communicates based on the following guidelines:
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the ["Time Off by Deel"](https://gitlab.slack.com/archives/D019WTM2F99) slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in Workday, so that the Engineering Manager can use the proper number of days off during capacity planning.
 
 ### 🤙 Ad-hoc sync calls
 
@@ -517,7 +521,7 @@ TODO: None of these are set up yet for the Web IDE category and `webide-workflow
 | <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~workspaces-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
 | <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
 | <a id="automation-09">09</a> | Apply correct ~workspaces-workflow label to reopened issues | Re-opened issues which are open but in `~workspaces-workflow::done` should have `~"workspaces-workflow::prioritized"` assigned. | TODO: implement |
-| <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests  <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests | TODO: implement |
+| <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> | TODO: implement |
 | <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `workspaces-workflow::ignored` label assigned. | TODO: implement |
 | <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~workspaces-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
 | <a id="automation-13">13</a> | Assign a `rd-maturity::*` label of `viable`, `complete`, etc based on epic hierarchy | All issues should have appropriate labels added/removed based on epic hierarchy | TODO: implement |

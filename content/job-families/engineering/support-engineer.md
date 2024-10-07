@@ -165,7 +165,7 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
-Also, every year or so, we'll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
+Also, every year or so, we'll invite you to our [Contribute event](/handbook/company/culture/summit/).
 
 Find more information about what it's like to work here in [our candidate FAQ](/handbook/hiring/candidate-faq/).
 

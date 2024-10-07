@@ -47,7 +47,7 @@ description: "Operations, Procedures, Documentation"
 | IQM | Initial Qualifying Meeting |
 | LATAM | Latin America (includes all of Central & South America) |
 | MQL | Marketo Qualified Lead - an inquiry that has been qualified through systematic means (e.g. through demographic/firmographic/behavior lead scoring) |
-| MVC | [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (not Model View Controller) |
+| MVC | [Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (not Model View Controller) |
 | NCSA | North, Central, South America (legacy region being phased out) |
 | NORAM | North America |
 | Qualified Lead | A lead a Business Development Rep or Sales Development Rep has qualified, converted to an opportunity and assigned to a Sales Representative (Stage `0-Pending Acceptance`) |
@@ -76,7 +76,11 @@ Those three terms also correspond to record types in salesforce.com.
 
 Lead => Opportunity => Customer
 
-However, there are more granular steps within the above milestones that are used to track the above process with more precision.
+Please see below for a high-level overview of the Customer Lifecycle at GitLab. This lifecycle is created through the lens of Salesforce data, and it is cross-functional - covering inputs from Sales, Marketing, and Finance.
+
+![Customer Lifecycle Flowchart](/static/images/handbook/sales/customer-lifecycle.jpeg)
+
+In addition, these are the more granular steps within the above milestones that are used to track the above process with more precision.
 They are tracked as follows:
 
 | Funnel stage | Record Type | Status or Stage |

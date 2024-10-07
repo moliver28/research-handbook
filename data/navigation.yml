@@ -267,7 +267,7 @@ contexts:
 - title: Project navigation
   items:
   - id: project_overview
-    title: Gitlab Smoke Tests
+    title: GitLab Smoke Tests
     icon:
     link: "/toolbox/gitlab-smoke-tests"
     tags: []

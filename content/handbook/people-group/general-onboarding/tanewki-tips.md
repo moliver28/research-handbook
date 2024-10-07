@@ -11,14 +11,6 @@ Hello! We could not be more excited to have you at GitLab. This page is here to 
 
 The [People Connect team](/handbook/company/team/?department=people-connect-team) is here to help guide you in your journey here at GitLab. A member of the team will be assigned to your Onboarding Issue, and will be there to provide guidance as you begin onboarding. You can learn more about us below by reading our bios on the team page.
 
-## Onboarding Issues
-
-Are you curious about what onboarding looks like here at GitLab? We currently use our own product to facilitate onboarding through issues. If you have never seen a GitLab issue before, take some time to watch the video below to see what you'll be working out of during your onboarding.
-
-<figure class="video_container">
-  <iframe src="https://www.loom.com/embed/7acd42bc463f48a4a8dca9afa2f9bf27" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
 ## Timeline
 
 After you sign your offer and complete your background check and references, you can expect your onboarding to go like this:
@@ -26,7 +18,7 @@ After you sign your offer and complete your background check and references, you
 ### Before you start
 
 1. Sign your offer, and be on the lookout for your :email: Welcome Email from the Candidate Experience Specialist team. You can read about the team on [this handbook page](/handbook/hiring/talent-acquisition-framework/coordinator/).
-    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops).
+    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
@@ -76,7 +68,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |
@@ -87,7 +79,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | MECC| [Managing so Everyone Can Contribute](/teamops/)|
 | MNPI | Material Non-Public Information  |
 | MR | Merge Request  |
-| MVC| [Minimum Viable Change](/handbook/values/#minimal-viable-change-mvc) (not related to Model-View-Controller)|
+| MVC| [Minimal Valuable Change](/handbook/values/#minimal-valuable-change-mvc) (not related to Model-View-Controller)|
 | OKRs | [Objectives & Key Results](/handbook/company/okrs) |
 | PTO | [Paid Time Off](/handbook/people-group/paid-time-off/) |
 | SIRT | [Security Incident Response Team](/handbook/security/security-operations/sirt) |
@@ -191,7 +183,7 @@ A: Depending on where you are located, you can find the payroll cut off dates [h
 
 **Q: I have preplanned vacations or commitments, how should I handle this upon starting and ensuring the PTO?**
 
-A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel).
+A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then enter the time off in Workday.
 
 **Q: How long do I have to enroll in benefits?**
 

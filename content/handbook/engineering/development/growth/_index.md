@@ -133,7 +133,7 @@ The refinement process is driven by [triage bot automations and policies](https:
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
 | 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. We aim for 70% predictability instead of 90%. We believe that optimizing for velocity (merge request rate) enables our Growth teams to achieve a [weekly experimentation cadence](/handbook/product/growth/#weekly-growth-meeting).
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-valuable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. We aim for 70% predictability instead of 90%. We believe that optimizing for velocity (merge request rate) enables our Growth teams to achieve a [weekly experimentation cadence](/handbook/product/groups/growth/#weekly-growth-meeting).
 
 - If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
@@ -150,7 +150,7 @@ Note: As of Q2 FY25, technical spikes will follow the same workflow process as c
 As a technical spike is prioritized and available for pickup in `~workflow::ready for development`, complete the following steps:
 
 - Assign yourself to the technical spike along with the current milestone
-- If not already added, add the ~spike label to the issue. 
+- If not already added, add the ~spike label to the issue.
 - Connect with the responsible PM to align on a reasonable due date for the technical spike. Duration will be dependent on the subject matter and Growth's familiarity with the topic.
 - Once determined, assign a due date.
 - Review the contents of the technical spike issue body. Add a comment to clarify outstanding questions with the responsible PM. This is a great time to highlight potential needs for cross-collaboration with other teams or code or Product subject matter experts, or other inputs you feel will be important to the technical spike.
@@ -172,7 +172,7 @@ As the technical spike work comes to a completion, complete the following steps 
 
 ### UX
 
-Info on the Growth UX team and how they work can be found on the [Product/Growth page](/handbook/product/growth/#ux).
+Info on the Growth UX team and how they work can be found on the [Product/Growth page](/handbook/product/groups/growth/#ux).
 
 ### How We Use Issues
 
@@ -190,9 +190,9 @@ We use [issue templates](experimentation/#experiment-issue-templates) for common
 
 To support [Iteration](/handbook/values/#iteration) Growth engineering:
 
-1. Separates refactoring from feature [MVCs](/handbook/values/#minimal-viable-change-mvc). When refactoring is raised in review, the preference is to resolve in a follow up issue.
+1. Separates refactoring from feature [MVCs](/handbook/values/#minimal-valuable-change-mvc). When refactoring is raised in review, the preference is to resolve in a follow up issue.
 1. Addresses technical debt and follow up issues through prioritization and discussion by relevant stakeholders.
-1. Issues with a weight of `5` and higher should be reassigned to the Product Manager to make sure they can be split into smaller [MVCs](/handbook/values/#minimal-viable-change-mvc).
+1. Issues with a weight of `5` and higher should be reassigned to the Product Manager to make sure they can be split into smaller [MVCs](/handbook/values/#minimal-valuable-change-mvc).
    When this is not possible, the Product Manager will create a spike or research issue so that engineering can break it down and close the original.
 1. We make use of research issues and engineering spikes in the prior milestone, so estimations are more accurate.
 
@@ -240,7 +240,7 @@ Current experiments shows the total number of experiments in the codebase (pendi
 
 #### Growth Section Metrics
 
-Complete list of [Growth Section engineering metrics](/handbook/engineering/metrics/growth/).
+Complete list of [Growth Section engineering metrics](/handbook/product/groups/product-analysis/engineering/dashboards/growth/).
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "SECTION_LABEL"="growth" >}}

@@ -1,5 +1,5 @@
 ---
-title: GitLab Observability - Logging
+title: "GitLab Observability - Logging"
 status: proposed
 creation-date: "2023-10-29"
 authors: [ "@vespian_gl" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

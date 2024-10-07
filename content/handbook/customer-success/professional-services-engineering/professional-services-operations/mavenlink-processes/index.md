@@ -157,7 +157,7 @@ Regional holidays and Family and Friends days are included in Mavenlink on each 
 
 ![TimeOff](Timeoff.png)
 
-GitLab company policy to submit time off is through Time Off by Deel, and followed by this [handbook process](/handbook/people-group/paid-time-off/).
+GitLab's company policy to submit time off is through Workday, and followed by this [handbook process](/handbook/people-group/paid-time-off/).
 In the Professional Services group, we also require time off to be submitted to Mavenlink:
 
 Benefits of having time off in Mavenlink
@@ -168,7 +168,7 @@ Benefits of having time off in Mavenlink
 
 Process:
 
-- When time-off is submitted to Time Off by Deel, time-off is required to be submitted in Mavenlink as well.
+- When time-off is submitted to Workday, time-off is required to be submitted in Mavenlink as well.
 - Review the Master Planning to be sure a project is not already scheduled during the desired time off
 - If project time is scheduled, review with the Project Coordinator if the project time could be moved or come to a mutual agreement for the requested time off
 

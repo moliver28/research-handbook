@@ -32,6 +32,7 @@ A Support Pod for all things Kubernetes related: k8s, openshift, kas, agent, run
 - {{< member-by-name "Julian Dasmarninas" >}} (`@jdasmarinas`)
 - {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
 - {{< member-by-name "Christopher Mutua" >}} (`@cmutua`)
+- {{< member-by-name "Michelle Almendarez" >}} (`@malmendarez`)
 
 ## Collaboration Channels
 

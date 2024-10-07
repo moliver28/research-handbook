@@ -8,7 +8,7 @@ description: "The Log Aggregation Working Group aim to increase the quality, val
 | Property     | Value |
 |--------------|-------|
 | Date Created | March 6, 2019 |
-| Date Ended   | TBD |
+| Date Ended   | July 2019 |
 | Slack        | [#wg_log-aggregation](https://gitlab.slack.com/messages/CGR0T1C6P) (only accessible from within the company) |
 | Google Doc   | [Log Aggregation Working Group](https://docs.google.com/document/d/192B68tEuw5KoJEKwlzDlVbXS8PaxOT57M2MAcjCbHVo/edit) (only accessible from within the company) |
 | Issue Label | WG-LogAgg (gitlab-com/-org) |

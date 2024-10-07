@@ -54,7 +54,7 @@ The objective is to support our customer's utilization of the GitLab solution to
 - Is the customer successfully adopting the capabilities or stages from their original purchase intent?
 - Will these be measured according to product analytics (if available) or through agreement with the customer.
 
-As part of our customer journey, we highly value the customer's initial experience and measure time-to-value. This is done according to [Key Performance Indicators (KPIs)](/handbook/customer-success/vision/#measurement-and-kpis) Specifically, we will measure the time in calendar days from the initial transaction to:
+As part of our customer journey, we highly value the customer's initial experience and measure time-to-value. This is done according to [Key Performance Indicators (KPIs)](/handbook/customer-success/customer-success-vision/#measurement-and-kpis) Specifically, we will measure the time in calendar days from the initial transaction to:
 
 - **Engagement**: Represents our time to engage the customer. Completion defined when the CSM has their first meeting with the customer.
 - **Onboarding**: Completion is defined when all the onboarding tasks are done.

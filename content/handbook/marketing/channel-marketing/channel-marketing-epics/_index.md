@@ -72,7 +72,7 @@ Please read through the [Event Handbook page](/handbook/marketing/events/#employ
    * [ ] other:
 
 ### Lead follow-up with Channel Partner
-- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/channel-marketing/partner-campaigns/#passing-to-vartopia-and-partner-visibility).
+- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/marketing-operations/campaigns-and-programs/#passing-to-vartopia-and-partner-visibility).
    - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
 

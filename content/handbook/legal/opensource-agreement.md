@@ -1,7 +1,7 @@
 ---
 title: GitLab for Open Source Program Agreement
 ---
-
+<!-- vale off -->
 ## **Open Source Program Agreement**
 
 Date of last revision: 2022/08/19
@@ -42,7 +42,7 @@ If a Member is executing this Agreement on behalf of the Open Source Project, th
 
 &nbsp;&nbsp;&nbsp;&nbsp; 2.1.1 the Open Source Project does not, and does not seek to, generate profit from the sale or licensing of the Open Source Software to which the Open Source Project relates, or the sale of any services related to such Open Source Software;
 
-&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2 all projects and groups, and their contents, hosted by the Open Source Project on the GitLab Software are publicly visible as described in the documentation at https://docs.gitlab.com/ee/public_access/public_access.html/; and
+&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2 all projects and groups, and their contents, hosted by the Open Source Project on the GitLab Software are publicly visible as described in the documentation at <https://docs.gitlab.com/ee/user/public_access.html>; and
 
 &nbsp;&nbsp;&nbsp;&nbsp; 2.1.3 all software hosted by the Open Source Project on the GitLab Software is licensed subject to an Open Source Initiative approved open source software license, such approved licenses being listed at https://opensource.org/licenses/alphabetical, 2.1.1, 2.1.2, and 2.1.3 taken together, the "Eligibility Requirements".
 

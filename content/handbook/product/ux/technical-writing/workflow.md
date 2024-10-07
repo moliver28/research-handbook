@@ -170,10 +170,6 @@ The Technical Writer:
   - Add a link to the board or filter that shows the planned documentation and UI text work for the upcoming milestone.
   - Confirm that the group PM or EM is aware of the planned work.
 
-For stages that have a [stage lead](#stage-leads-experiment) (experiment):
-
-- Technical writers (or PMs) apply a `tw-lead` label to any issues that have are likely to have cross-group or cross-stage impact on the documentation, and where additional review or assistance is likely to be required. The label can be used to filter assignments in an issue board.
-
 #### Collaboration
 
 By default, the developer will work on documentation changes independently, but
@@ -450,10 +446,10 @@ To review and triage documentation feedback and improvement issues for your grou
 1. Aim to keep the list of open, untriaged issues at **<10**.
 1. Share the triaged list with the group and group PM.
 
-## Stage leads (experiment)
+## Stage leads
 
 {{% alert title="Note" color="primary" %}}
-This section outlines a process that we are implementing in the Technical Writing team. We plan to experiment with stage leads in Q1, Q2, and Q3 of FY2025. This process is subject to change.
+This section outlines a process that we experimented with in Q1 and Q2 of FY2025, and plan to roll out more widely in Q3. This process is subject to change.
 {{% /alert %}}
 
 Some Technical Writers are assigned as *stage leads* for a given DevOps stage.
@@ -465,11 +461,13 @@ Stage leads:
 
 - Assume the same [responsibilities](/job-families/product/technical-writer/#responsibilities) as Technical Writers, but with a more targeted focus on proactively creating and improving
 documentation for their assigned stage.
-- Spend approximately 30% of their time supporting technical writers in the stage to work on issues and review merge requests authored by developers for [new features and enhancements](#documentation-for-a-product-change). Issues and merge requests where they support other technical writers are labeled `tw-lead`.
-  The remaining merge requests are reviewed by the supporting Technical Writers assigned to the groups in the stage.
-- Spend the remainder of their time creating and refining content to address documentation needs and gaps for their assigned stage.
-  For example, writing tutorials, creating use-based content, restructuring existing content, working on the information architecture, and so on.
-- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones.
+- Spend approximately 30% of their time on issues and merge requests reviews authored by developers for [new features and enhancements](#documentation-for-a-product-change) for their assigned groups.
+- Spend the remainder of their time:
+  - Creating and refining content to address documentation needs and gaps for their assigned **stage**.
+    For example, writing tutorials and use case-based content, restructuring existing content, working on the information architecture, and so on.
+  - Supporting other writers in the stage to contribute to documentation improvements.
+- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/-/issues/1067).
+- Collaborate with other stage leads on documentation improvements.
 
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
@@ -525,7 +523,7 @@ When a community contributor opens a Hackathon merge request:
 
 1. View the related issue. Ensure the user who authored the MR is the same user who asked to be assigned to the issue.
    - If the user is not listed in the issue, and another user has asked to work on the issue, do not merge the MR.
-     Ask the MR author to find an issue that has not already been assigned or point them to [this page](https://docs.gitlab.com/ee/development/documentation/contribute.html).
+     Ask the MR author to find an issue that has not already been assigned or point them to [this page](https://docs.gitlab.com/ee/development/contributing/).
 
 1. Work to merge the merge request.
 1. When you merge, ensure you close the related issue.
@@ -561,7 +559,7 @@ After adding the `Technical Writing` label, we want to classify the type of effo
 - `handbook`
 - [`Technical Writing Leadership`](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=tech+writing+leadership)
 - [`docs-channel`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=docs-channel) - Technical Writers use this label if they pick up an MR or issue from the `#docs` or `#tw-team` Slack channels, or from the roulette, *and* it's outside of their assigned groups. Usage of this label is *optional*.
-- [`docs-localization`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=docs-localization#) - Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure. Can be used in combination with `Technical Writing` to show Tech Writing team input into a `docs-localization` item.
+- [`L10n-docs`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=L10n-documentation#) - Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure. Can be used in combination with `Technical Writing` to show Tech Writing team input into a `docs-localization` item.
 - [`Category:Docs Site`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=Category%3ADocs+Site) - Issues related to the Documentation website infrastructure or code. This is not needed for issues related to the documentation itself. Issues with this label are included on the [Docs Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/4340643?label_name[]=Category%3ADocs%20Site).
 
 Depending on the issue or merge request, you may include one or more of the preceding labels with the issue or merge request, depending on its contents. There may be occasions when *none* of the preceding labels apply to the issue or merge request; in that case, having only the `Technical Writing` label is enough.

@@ -1,6 +1,6 @@
 ---
 title: "Referral Process"
-description: "GitLab's Referral program is fairly straight-forward, there are several nuances to be mindful of. This is a review the program rules and eligibility."
+description: "GitLab's Referral program is fairly straight-forward, there are several nuances to be mindful of. This is a review of the program rules and eligibility."
 ---
 
 If you know someone who would be a great addition to the GitLab team, please submit them as a Referral. If they're successfully hired and all Referral criteria is met, you'll receive a Referral Bonus!
@@ -65,7 +65,7 @@ As we continue to scale, so does the volume of referrals we receive. Referrals a
 1. Confirmed they live in a location we can hire in by checking the [Country Hiring Status](https://comp-calculator.gitlab.net/hiring_status/index) page in the Comp Calculator. If the country is **not** listed or is marked as `Not Open for Hiring`, we will have to reject the candidate so unfortunately they cannot be referred.
 1. Communication with the Referral
     - You have informed the person that you are referring them.
-1. Candidate [referred through Greenhouse](/handbook.gitlab.com/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse) with a Detailed Referral Description
+1. Candidate [referred through Greenhouse](/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse) with a Detailed Referral Description
 
 - *Must complete* required fields, including a comprehensive description of how you know the candidate you are referring and why they are aligned to the role with GitLab. Provide detailed information such as specific qualifications, skills and relevant experiences that make the candidate a strong match for the specific role. The fields are:
     1. How do you know this person?

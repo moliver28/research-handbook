@@ -97,7 +97,7 @@ Review and practice:
 - [Basic Linux Commands](https://www.dummies.com/article/technology/computers/operating-systems/linux/common-linux-commands-196529/)
 - [Basic SSH Commands](https://www.ssh.com/academy/ssh/command)
 - [PostgreSQL](https://docs.gitlab.com/ee/ci/services/postgres.html)
-- [Git](https://docs.gitlab.com/ee/gitlab-basics/command-line-commands.html)
+- [Git](https://docs.gitlab.com/ee/topics/git/commands.html)
 
 Familiarizing yourself with these will help with your communication through the hiring process, as well as prevent any roadblocks, and keep you focused on the tasks asked of you.
 

@@ -93,7 +93,11 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. `CA/CO/HI/NY/NJ/WA/DC Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
-1. Under `Type` choose if this is a *New Hire*, *Evergreen*, or a *Backfill*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. If you choose *Evergreen*, ensure this is first approved by Jess Dallmar.
+1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. 
+   1. **Annual Plan**: Refers to any budgeted net new role included at the start of the fiscal year as part of the planned headcount. These roles will appear in the interlock sheet and are typically labeled as ‘FYxx AOP’ in the ‘employee name’ field.
+   1. **Backfill**: Refers to budgeted roles generated throughout the year due to a team member’s departure. These will also be visible in the interlock sheet and labeled as backfill in the ‘employee name’ field.
+   1. **Incremental**: Refers to any Rolling List of Asks (RLoA) or in-quarter approved budget release not part of the annual plan. This headcount is released by Finance during the quarter and communicated directly by TALT in Pod Squad. Recruiters should ensure the correct ‘req type’ is selected in Greenhouse to inform the interlock sheet.
+   1. **Intern**: Refers to internship roles managed by the Emerging Talent team. These will not appear in the interlock sheet, and the Emerging Talent team will work directly with FP&A for details.
 1. Enter the `GHP ID` listed on the GitLab Hiring Plan. If you do not have a GHPID for any reason, FP&A will not approve your opening and you cannot post your position.
 1. Fill in all other fields and continue on to the following pages.
 

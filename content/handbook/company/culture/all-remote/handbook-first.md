@@ -131,7 +131,7 @@ The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-
    - Standard operating procedures
    - Monthly or quarterly goals
 
-Most sections will be blank to begin with, and that's OK. Apply the spirit of [iteration](/handbook/values/#iteration) to documentation. Rather than judging a section for how light it is, praise a contributor for making it [marginally better](/handbook/values/#minimal-viable-change-mvc) than it was prior.
+Most sections will be blank to begin with, and that's OK. Apply the spirit of [iteration](/handbook/values/#iteration) to documentation. Rather than judging a section for how light it is, praise a contributor for making it [marginally better](/handbook/values/#minimal-valuable-change-mvc) than it was prior.
 
 ## Make handbook-first a value
 

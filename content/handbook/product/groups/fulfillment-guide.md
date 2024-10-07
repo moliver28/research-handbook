@@ -79,7 +79,7 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-06-10.*
+*Last updated on 2024-09-20*
 
 Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities
 
@@ -91,16 +91,17 @@ Please note for Self Managed extensions:
 
 - The 14 day grace period does not apply and the customer will only get a 21 day extension [OPEN issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1827)
 - The temporary license generated will only be for the customer's base plan (Premium or Ultimate). If the customer has a GitLab Duo Pro or GitLab Duo Enterprise add-on, they will lose Duo access when the temporary renewal license is applied to their instance.
+- SM customers may have to manually apply their activation code or license key upon successful renewal if it does not appear automatically on their instance [Some instances may block the sync of renewed license key if the temporary extension is still active].
 
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
 Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
-### Creating an extension (from SDFC)
+### Creating an extension (from SFDC)
 
 Please watch SM demo [SM demo video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) or [Gitlab.com/Saas video](https://drive.google.com/file/d/1HGGf8IH5fRt4ftB0pKZfHpb7owECItjX/view) for an overview of creating an extension.
 
-The process of creating the temporary renewal extension from SDFC is also described below
+The process of creating the temporary renewal extension from SFDC is also described below
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
 1. Click on `Request Temporary Extension` button.
@@ -193,7 +194,7 @@ Accounts and Subscriptions excluded from auto-renewal:
 1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
 1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
 1. Subscriptions with non-standard term (not in 12 month term increments).
-1. Multi-year subscriptions (with term greater than 12 months). 
+1. Multi-year subscriptions (with term greater than 12 months).
 1. Subscriptions with multiple (same) rate plans. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11916) is done.
 1. Subscriptions with GitLab Duo Pro and GitLab Duo Enterprise products. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11869) is done.
 1. Accounts with the following settings in Zuora:
@@ -733,7 +734,7 @@ You can look at sample code that generates the counts by searching for `subscrip
 Our [service usage data](/handbook/legal/privacy/customer-product-usage-information/) primarily aggregate counts from your instance (e.g. counts of issues or MRs) and is sent to GitLab on a weekly (or slower) cadence.
 
 1. Operational Data: This is the data that is tied to your subscription account/license. Our goal with this data is to capture aggregate counts to help the GitLab Customer Success and Sales teams help customers better adopt GitLab and get value out of their investment. Those counters can be viewed on metrics.gitlab.com by searching for "operational" and looking for the operational category. These operational events are agnostic of how you've activated your instance.
-2. Optional Data: [Optional Data](https://metrics.gitlab.com/?q=optional) is a similar type of metric (aggregate counts) but a much larger set than the Operational metrics. This is configured/opted-out by you, in your instance, and has nothing to do with your subscription. If you choose to share that data our Product teams would appreciate the insights to understand where to invest R&D resources to continue to mature our platform. Otherwise, you can ignore for your renewal and follow the opt-out steps documented [here](https://docs.gitlab.com/ee/development/service_ping/index.html#disable-service-ping).
+2. Optional Data: [Optional Data](https://metrics.gitlab.com/?q=optional) is a similar type of metric (aggregate counts) but a much larger set than the Operational metrics. This is configured/opted-out by you, in your instance, and has nothing to do with your subscription. If you choose to share that data our Product teams would appreciate the insights to understand where to invest R&D resources to continue to mature our platform. Otherwise, you can ignore for your renewal and follow the opt-out steps documented [here](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/#disable-service-ping).
 
 **Can a customer send subscription data ad-hoc, while keeping their GitLab instance airgapped/not connected to the internet?**
 

@@ -234,5 +234,5 @@ Work that helps in validating the release process.
 
 1. [Improve review apps reliability](https://gitlab.com/groups/gitlab-org/-/epics/605)
 1. Make review app a mandatory testing gate with smoke tests.
-1. Shift QA tests to completely run against review apps, only orchestrated test run in the package-and-test job.
+1. Shift QA tests to completely run against review apps, only orchestrated test run in the test-on-omnibus job.
 1. [Improve review apps usefulness, add testdata into review apps to ease testability](https://gitlab.com/groups/gitlab-org/-/epics/606).

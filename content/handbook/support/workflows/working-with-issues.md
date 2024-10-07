@@ -73,7 +73,7 @@ Using the appropriate labels is *critical* to ensuring visibility of issues and 
 Required:
 
 - [Group](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#group-labels): Unsure of which? Check out [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#metadata), [label descriptions](https://gitlab.com/gitlab-org/gitlab/-/labels), [DevOps Stages](/handbook/product/categories/#devops-stages), [features list by stage](https://about.gitlab.com/features) or similar existing issue.
-- [Type Labels](/handbook/engineering/metrics/#work-type-classification) should be added by the template, but *add* them if any are missing.
+- [Type Labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) should be added by the template, but *add* them if any are missing.
 - `~customer` (if a ZenDesk link is added, the bot will add this automatically if you forget)
 - `~regression ##.x` if applicable; for high-impact ones, add `~"Next Patch Release"` and ping the relevant lead and subject area experts
 

@@ -1,5 +1,5 @@
 ---
-title: Rails Upgrade
+title: "Rails Upgrade"
 status: ongoing
 creation-date: "2024-07-28"
 authors: [ "@igor.drozdov" ]
@@ -9,9 +9,6 @@ owning-stage: "~section::dev"
 participating-stages: [ "~section::dev" ]
 toc_hide: true
 ---
-
-<!-- Design Doucments often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}

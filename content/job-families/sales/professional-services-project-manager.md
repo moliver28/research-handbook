@@ -46,7 +46,7 @@ description: "GitLab Professional Services Project Managers manage high-complexi
 - Solid organizational skills, including attention to detail and ability to handle multiple priorities
 - Demonstrated ability to think strategically about business, products, and technical challenges
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Senior Professional Services Project Manager
 

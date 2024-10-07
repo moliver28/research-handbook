@@ -28,7 +28,7 @@ The Engineering Fellow Shadow Program is not a performance evaluation or the nex
 
 ### Eligibility
 
-[Senior or higher](/handbook/engineering/career-development/#senior-engineers) engineers at GitLab are eligible to apply for the Engineering Fellow Shadow Program.
+[Senior or higher](/handbook/engineering/careers/#senior-engineers) engineers at GitLab are eligible to apply for the Engineering Fellow Shadow Program.
 
 ### How to apply
 

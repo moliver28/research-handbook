@@ -115,6 +115,6 @@ If you'd like to take a different day off for personal reasons, refer to the [Pa
 
 We'll assume that most people are off on Family and Friends Day, but we know that some people will take other days.
 
-Please update [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack. You can select `Create an OOO Event` and find `Family and Friends Day` in the drop-down menu of `What type of OOO is this?`.
+Please enter the date in Workday by selecting the `Family and Friends Day` option in the `Time Offs` drop down list.
 
 Feel free to block your calendar with "Family and Friends Day" to share whatever day you take.

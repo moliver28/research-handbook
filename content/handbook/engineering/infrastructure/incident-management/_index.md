@@ -85,6 +85,7 @@ The EOC should reach out to the Incident Manager for support if help is needed o
 For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager Responsibilities](#incident-manager-im), second to mitigating and resolving the incident.
 
 1. **As EOC, your highest priority for the duration of your shift is the stability of GitLab.com.**
+1. When there is uncertainty of the cause of a degradation or outage, the **first action of the EOC** is to evaluate whether any changes can be reverted. It is always appropriate to toggle (to previous state) any recently changed application feature flags without asking for permission and without hesitation. The next step is to review Change Requests and validate the eligibility criteria for application rollbacks.
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
     1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#reliability-lounge` Slack channel.  If you are unable to find coverage reach out to a Reliability Engineering Manager for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
@@ -129,7 +130,7 @@ When paged, the Incident Managers have the following responsibilities during a S
 1. Ensuring that the Timeline section of the incident is accurate.
 1. Ensuring that the root cause is stated clearly and plainly in the incident description, linking to a confidential note or issue if the root cause cannot be made public.
 1. Determining when the incident has been resolved and ensuring that it is closed and labeled when there is no more user impact.
-1. If necessary, help the EOC to engage development using the [InfraDev escalation process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html).
+1. If necessary, help the EOC to engage development using the [InfraDev escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/).
 1. If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/gitlab-business-continuity-plan/).
 1. If there is a `~review-requested` label on the incident, after the incident is resolved, the Incident Manager is the DRI of the [post-incident review](/handbook/engineering/infrastructure/incident-review/). The DRI role can be delegated.
 1. Following the first significant Severity 1 or 2 incident for a new Incident Manager, schedule a feedback coffee chat with the Engineer On Call, Communications Manager On Call, and (optionally) any other key participants to receive actionable feedback on your engagement as Incident Manager.
@@ -195,11 +196,12 @@ When paged, the Infrastructure Leader will:
 1. Join the incident call
 1. Ask the EOC if help is needed from additional SREs.
 1. Ask the IM to ensure they are able to fulfill their duties.
+1. Evaluate whether a separate zoom should be created for technical investigations.
 1. Be the primary technical point of contact for the IM/CMOC to ensure the EOC can focus completely on remediation.
 
 ### Infrastructure Liaison
 
-To page the Incident Leader directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
+To page the Incident Liaison directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
 
 During a verified Severity 1 Incident the IM will page the Infrastructure Liaison.
 This is not a substitute or replacement for the active Incident Manager.

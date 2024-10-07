@@ -39,15 +39,15 @@ Preparation instructions are contained in each of the below. Some items are only
 
 Please be sure to include all the sections when updating or adding Engagements.
 
-1. [Terrain Mapping for Self Managed Implementation Review](#terrain-mapping-for-self-managed-implementation-review)
-2. [Terrain Mapping for Developer Skill Ramping Onto GitLab CI and CD](#terrain-mapping-for-developer-skill-ramping-onto-gitlab-ci-and-cd)
-3. [Terrain Mapping Best Practices For Operating Self Managed GitLab as a Production-Grade Internal Service](#terrain-mapping-best-practices-for-operating-self-managed-gitlab-as-a-production-grade-internal-service)
-4. [Terrain Mapping for GitLab Migration Review](#terrain-mapping-for-gitlab-migration-review)
-5. [Terrain Mapping for Gitflows, Workflow, Roles and Controls for SCM, CI and CD](#terrain-mapping-for-gitflows-workflow-roles-and-controls-for-scm-ci-and-cd)
-6. [Terrain Mapping for Implementing GitLab Secure](#terrain-mapping-for-implementing-gitlab-secure)
-7. [Terrain Mapping for Customer Internal Developer Enablement for GitLab CI](#terrain-mapping-for-customer-internal-developer-enablement-for-gitlab-ci)
-8. [Terrain Mapping For Specialized or Highly Scaled GitLab Runner Implementation](#terrain-mapping-for-specialized-or-highly-scaled-gitlab-runner-implementation)
-9. [Terrain Mapping for Integrating GitLab with Other Systems](#terrain-mapping-for-integrating-gitlab-with-other-systems)
+1. Terrain Mapping for Self Managed Implementation Review
+2. Terrain Mapping for Developer Skill Ramping Onto GitLab CI and CD
+3. Terrain Mapping Best Practices GitLab Self Managed
+4. Terrain Mapping for GitLab Migration Review
+5. Terrain Mapping for Gitflows, Workflow, Roles and Controls for SCM, CI and CD
+6. Terrain Mapping for Implementing GitLab Secure
+7. Terrain Mapping for Customer Internal Developer Enablement for GitLab CI
+8. Terrain Mapping For Specialized or Highly Scaled GitLab Runner Implementation
+9. Terrain Mapping for Integrating GitLab with Other Systems
 
 ### Terrain Mapping for Self Managed Implementation Review
 
@@ -143,7 +143,7 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 11. Timeline
 
-### Terrain Mapping Best Practices For Operating Self Managed GitLab as a Production-Grade Internal Service
+### Terrain Mapping Best Practices GitLab Self Managed
 
 #### Status: Ready
 

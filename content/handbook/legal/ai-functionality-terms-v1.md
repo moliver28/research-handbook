@@ -1,7 +1,7 @@
 ---
 title: "AI Functionality Terms V1"
 ---
-
+<!-- vale off -->
 (Additional Terms)
 
 *deprecated 2023-10-31*

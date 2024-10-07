@@ -3,6 +3,7 @@ title: "Organization: Frequently Asked Questions"
 owning-stage: "~devops::enablement"
 # TODO: The group attribute doesn't exist
 group: Tenant Scale
+toc_hide: true
 ---
 
 ## Do we expect large SaaS customers to be licensed at the Organization level?

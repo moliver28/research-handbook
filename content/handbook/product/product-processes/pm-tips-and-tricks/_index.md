@@ -2,11 +2,11 @@
 title: Product Management Tips and Tricks
 ---
 
-## Overview 
+## Overview
 
-This section of the handbook is a collection of product management processes that can leveraged in your practice as product management. Some of these are best practices and suggestions that are not required in your day to as product manager, while others are highly recommended workflows that are tried and true paths leading to successful results. These are sourced by our Product Management Department and regularly reviewed by our Director+ Product Management leaders. 
+This section of the handbook is a collection of product management processes that can leveraged in your practice as product management. Some of these are best practices and suggestions that are not required in your day to as product manager, while others are highly recommended workflows that are tried and true paths leading to successful results. These are sourced by our Product Management Department and regularly reviewed by our Director+ Product Management leaders.
 
-## Tips and Tricks 
+## Tips and Tricks
 
 ### Internal and external evangelization
 
@@ -65,7 +65,7 @@ the most important being a clear communication of the problem we're solving for 
 
 When writing about a feature, make sure to cover [these messaging guidelines](/handbook/marketing/blog/release-posts/#messaging-review)
 which help produce clear internal and external
-messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Viable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
+messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Valuable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
 
 Let's highlight the messaging guidelines mentioned above with a concrete example, Preventing Secrets in your repositories,
 that [we shipped in 8.12](https://about.gitlab.com/releases/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).
@@ -109,7 +109,7 @@ and working with your technical writing team to include links to your speed runs
 
 #### Using GIFs
 
-Animated gifs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
+Animated GIFs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
 
 #### Speed Run
 

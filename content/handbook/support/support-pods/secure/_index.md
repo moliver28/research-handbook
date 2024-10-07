@@ -4,7 +4,7 @@ description: A technical interest Support Pod focused on GitLab Secure stage fea
 ---
 
 Secure Pod is a technical interest [Support Pod](https://gitlab.com/groups/gitlab-com/support/-/epics/191)
-focused on GitLab [Secure stage](https://about.gitlab.com/handbook/product/categories/#secure-stage) features.
+focused on GitLab [Secure stage](/handbook/product/categories/#secure-stage) features.
 
 ## Secure Pod members
 
@@ -41,7 +41,7 @@ How can I get involved in Secure Pod?
 
 ## How the Secure Pod works
 
-- In the `#spt_pod_secure` [Slack channel](https://gitlab.slack.com/archives/C03FV8G5LV7), we [pin](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) Slack messages about 🎫 tickets that we are keeping an eye on for colleagues, typically when they are [out of the office](https://about.gitlab.com/handbook/support/workflows/ooo-ticket-management.html).
+- In the `#spt_pod_secure` [Slack channel](https://gitlab.slack.com/archives/C03FV8G5LV7), we [pin](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) Slack messages about 🎫 tickets that we are keeping an eye on for colleagues, typically when they are [out of the office](/handbook/support/workflows/ooo-ticket-management.html).
   - During 🍐 pairing sessions, check the pinned messages to see if the tickets there require attention.
   - If you pin a ticket, please remove it when it no longer requires attention from the pod.
 - We apply the scoped `pod::secure` label to the [pairing issues](https://gitlab.com/gitlab-com/support/support-pairing/-/issues/) that we create.
@@ -139,7 +139,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-secret-detection`
 - GitLab.com label: ~"Category:Code Quality"
-- Docs: https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html
+- Docs: https://docs.gitlab.com/ee/ci/testing/code_quality.html
 - CI/CD Template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
 - GitLab Code Quality Analyzer Codebase: https://gitlab.com/gitlab-org/ci-cd/codequality
 
@@ -154,7 +154,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-composition-analysis`
 - GitLab.com label: ~"group::composition analysis"
-- Docs: https://docs.gitlab.com/ee/user/compliance/license_compliance/
+- Docs: https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/License-Scanning.gitlab-ci.yml
 
 ### Fuzz testing
@@ -170,5 +170,5 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - [GitLab Certified Security Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-security-specialist-pathway)
 - [GitLab Security Essentials](https://about.gitlab.com/services/education/security-essentials/)
-- [Security Essentials Hands-on](https://about.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson.html)
+- [Security Essentials Hands-on](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson.html)
 - [Support DAST Deep Dive](https://youtu.be/-WeA12bl-Iw)

@@ -6,7 +6,7 @@ description: "data build tool (dbt) Cheat Sheet for Functional Analysts"
 ## Objective of this page
 
 This page is intended to be a cheat sheet or quick start guide to dbt for functional analysts.
-There is a wealth of documentation available in the [Data Team dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/),
+There is a wealth of documentation available in the [Data Team dbt Guide](/handbook/enterprise-data/platform/dbt-guide/),
 but it can be hard to sift through for folks who are newer to analytics engineering
 (ex: functional analysts).
 
@@ -15,14 +15,14 @@ steps required to create and test an MR to update a model in dbt.
 
 ## dbt change workflow
 
-Any development should follow the documented [dbt Change Workflow](/handbook/business-technology/data-team/how-we-work/dbt-change-workflow/).
+Any development should follow the documented [dbt Change Workflow](/handbook/enterprise-data/how-we-work/dbt-change-workflow/).
 Please review that handbook page for details on how to approach making changes in dbt
 (planning, testing, etc).
 
 ## Local setup
 
 First things first, you need to get set up with dbt on your local machine. Please read
-[the Configuration section of this handbook page](/handbook/business-technology/data-team/platform/dbt-guide/#configuration)
+[the Configuration section of this handbook page](/handbook/enterprise-data/platform/dbt-guide/#configuration)
 for in-depth instructions. (Pro tip: read the entire section first, then start following
 the directions). As the section mentions, much of what you need is handled by
 running the onboarding script.
@@ -35,7 +35,7 @@ running the onboarding script.
 - `role:` This is your Snowflake role, usually first initial + last name (ex: `JSMITH`)
 - `database:` This is your first initial + last name (ex: `JSMITH`)
 - Set up targets for different sized warehouses (ex: one for `DEV_XS` and one for `DEV_L`)
-  - Note: You should always default to using an XS warehouse. The [example provided in the dbt guide](/handbook/business-technology/data-team/platform/dbt-guide/#example) defaults
+  - Note: You should always default to using an XS warehouse. The [example provided in the dbt guide](/handbook/enterprise-data/platform/dbt-guide/#example) defaults
   to an XS warehouse.
 
 ## Setting up development databases in Snowflake
@@ -52,7 +52,7 @@ your role is `JSMITH` and your development databases are `JSMITH_PROD` and `JSMI
 
 ### Clone a lineage using the command line
 
-Please see instructions [here](/handbook/business-technology/data-team/platform/dbt-guide/#cloning-into-local-user-db).
+Please see instructions [here](/handbook/enterprise-data/platform/dbt-guide/#cloning-into-local-user-db).
 on how to clone a single model or an entire lineage (similar to the CI jobs) using the
 command line. This is the preferred method for cloning models locally.
 
@@ -108,7 +108,7 @@ CLONE PROD.COMMON
 
 You should always default to using an XS warehouse and be mindful of the costs associated
 with running queries using a larger warehouse. See the
-[dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt)
+[dbt Guide](/handbook/enterprise-data/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt)
 for guidance on selecting the appropriate warehouse when running dbt.
 
 ### Running models in dbt
@@ -118,7 +118,7 @@ the model(s) locally to make sure the build succeeds and do local testing. To do
 you can use the [`dbt run`](https://docs.getdbt.com/reference/commands/run) command. Here
 are some other useful resources and tips:
 
-- [GitLab Data Team dbt command line cheat sheet](/handbook/business-technology/data-team/platform/dbt-guide/#command-line-cheat-sheet)
+- [GitLab Data Team dbt command line cheat sheet](/handbook/enterprise-data/platform/dbt-guide/#command-line-cheat-sheet)
 - [Model selection syntax overview](https://docs.getdbt.com/reference/node-selection/syntax)
 - You can specify multiple models by including them in a command with a space in between the names
 - You can specify multiple models by using [graph operators](https://docs.getdbt.com/reference/node-selection/graph-operators)
@@ -149,7 +149,7 @@ dbt test --select my_model # run custom tests on my_model
 ### Linting
 
 Once you are running dbt, linting a model can be done with a single command. Please read the
-[SQLFluff section of the SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/#sqlfluff)
+[SQLFluff section of the SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/#sqlfluff)
 for instructions on how to install SQLFluff on your local machine and more details about
 the linter settings. When you run the linter, the results will be printed in your terminal.
 
@@ -270,7 +270,7 @@ models:
 The model configuration can be set at the top of the .sql file. Configurations include whether
 the model should be a materialized table vs a view, a full refresh vs an incremental load, etc.
 
-Please refer to the [dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/#model-configuration)
+Please refer to the [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/#model-configuration)
 for details on model configuration.
 
 ### Tags for product data models
@@ -287,11 +287,11 @@ before a dependency is refreshed). Please see existing models in dbt docs for
 ) }}
 ```
 
-There is additional documentation on tags on the [dbt Guide handbook page](/handbook/business-technology/data-team/platform/dbt-guide/#tags).
+There is additional documentation on tags on the [dbt Guide handbook page](/handbook/enterprise-data/platform/dbt-guide/#tags).
 
 ## MR workflow
 
-The Data team has a well-documented [MR workflow](/handbook/business-technology/data-team/how-we-work/#merge-request-workflow).
+The Data team has a well-documented [MR workflow](/handbook/enterprise-data/how-we-work/#merge-request-workflow).
 
 ### MR templates
 
@@ -308,7 +308,7 @@ Use this for updates to dbt docs that do not actually change the models
 
 ### MR pipelines & CI jobs
 
-Please see the [Data Team CI Jobs handbook page](/handbook/business-technology/data-team/platform/ci-jobs/)
+Please see the [Data Team CI Jobs handbook page](/handbook/enterprise-data/platform/ci-jobs/)
 for the most up-to-date information and details about the different CI jobs.
 
 {{< panel header="**Note**" header-bg="blue" >}}

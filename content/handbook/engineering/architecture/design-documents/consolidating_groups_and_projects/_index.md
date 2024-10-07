@@ -1,5 +1,5 @@
 ---
-title: Consolidating Groups and Projects
+title: "Consolidating Groups and Projects"
 status: ongoing
 creation-date: "2021-02-07"
 authors: [ "@alexpooley", "@ifarkas" ]
@@ -11,7 +11,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 Numerous features exist exclusively within groups or projects. The boundary between group and project features used to be clear.

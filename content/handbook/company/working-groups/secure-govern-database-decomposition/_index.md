@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
 title: "Secure Govern Decomposition Working Group"
-description: "The charter of this working group is to succesfully decompose the Secure/Govern dataset within GitLab"
+description: "The charter of this working group is to successfully decompose the Secure/Govern dataset within GitLab"
 canonical_path: "/company/team/structure/working-groups/secure-govern-database-decomposition/"
 ---
 
@@ -90,9 +90,44 @@ Secure/Govern Data has a high degree of integration with CI and standard GitLab 
 
 ### Timeline
 
-While application-level decomposition is ongoing, we are awaiting further detail from [database logical replication testing](https://gitlab.com/gitlab-com/gl-infra/dbre/-/issues/95) to determine feasibility of a gradual or single-phase rollout to Gitlab.com.
+The group has determined that a gradual rollout is not advisable since it doesn't relieve pressure
+on the main database cluster, and increases the amount of work to be done. As such, all slices will
+be rolled-out simultaneously to gitlab.com.
 
-If gradual decomposition is not possible, then we would pursue decomposition with the intention to reduce pressure on the primary Database through a single downtime or maintenance event before the rollout of Cells 2.0, estimated at May 2025.
+#### Progress
+
+```mermaid
+gantt
+dateFormat YYYY-MM-DD
+title 50% confidence timeline
+
+section Work
+Decompose tables :active , decompose, 2024-07-01, 2024-11-30
+Slice 1 :active, slice1, 2024-07-23, 2024-11-30
+Slice 2 :active, slice2, 2024-08-06, 2024-10-04
+Slice 3 :active, slice3, 2024-07-15, 2024-11-30
+Table decomposition complete :milestone, allslices, after slice1 slice2 slice3, 0d
+Phase 1 & 2 : phase12, 2024-09-11, 4w
+Phase 3 : phase3, after phase12, 3w
+Phase 4 : phase4, after allslices phase3, 3w
+Phase 5 : phase5, after phase4, 3w
+Phase 6 : phase6, after phase4, 3w
+Phase 7 : phase7, after phase6, 4w
+Rollout complete :milestone, rollout, after phase7, 0d
+axisFormat  %Y-%m
+```
+
+[Source](https://gitlab.com/groups/gitlab-org/-/epics/15236#timeline).
+
+##### Decomposition
+
+| Slice              | % Done | Estimated completion |
+| ---                | ---    | ---                  |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 67%    | 2024-11              |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 76%    | 2024-10              |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 25%    | 2024-11              |
+
+Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2112587408).
 
 ### Plan
 
@@ -161,7 +196,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 
 | Working Group Role                   | Name              | Title |
 | -----------                          | -----------       | ----------- |
-| Executive Stakeholder                | Bartek Marnane    | VP, Expansion |
+| Executive Stakeholder                | Jerome Ng         | Engineering Director, Expansion |
 | Functional Lead                      | Gregory Havenga   | Senior Backend Engineer, Govern: Threat Insights  |
 | Functional Lead                      | Lucas Charles     | Principal Software Engineer, Secure & Govern |
 | Facilitator AMER                     | Neil McCorrison   | Manager, Software Engineering |

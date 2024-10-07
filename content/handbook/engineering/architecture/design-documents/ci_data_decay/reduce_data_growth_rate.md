@@ -1,5 +1,5 @@
 ---
-title: Reduce the growth rate of pipeline data
+title: "Reduce the growth rate of pipeline data"
 status: ongoing
 creation-date: "2024-05-27"
 authors: [ "@fabiopitino", "@mbobin" ]
@@ -9,7 +9,6 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Problem to solve

@@ -1,5 +1,5 @@
 ---
-title: Google Artifact Registry Integration
+title: "Google Artifact Registry Integration"
 status: proposed
 creation-date: "2023-08-31"
 authors: [ "@jdrpereira", "@10io" ]

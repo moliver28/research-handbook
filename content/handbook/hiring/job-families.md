@@ -349,7 +349,6 @@ The following results lead to failure of the pipeline:
 - Usage of any misused words as this could excluded diverse groups.
 - High usage of fixed-coded language: this means the job family is using more fixed-coded words than growth-coded.
 - Usage of gendered pronouns: we want to be inclusive to all.
-  - You should use this [online tool](https://inclusiveness-check.herokuapp.com/) to check your job family before running the pipeline.
   - If you're using language that is marked as subtly masculine-coded, fixed-coded or using misused words, the pipeline will fail and you will need to fix it before following the approval flow. Please reference (and add to) [this list](https://docs.google.com/document/d/1YBzbnzKrsTLtAL5L3M5Gt4ZCuCDwPVgwJbeCt62qBIY/edit) for suggested words to use in place of masculine or fixed language.
   - If the pipeline does fail, the first recommendation is to read the error. It will say what is wrong with the text. For example:
 

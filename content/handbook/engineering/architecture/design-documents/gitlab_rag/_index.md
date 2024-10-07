@@ -1,5 +1,5 @@
 ---
-title: Retrieval Augmented Generation (RAG) for GitLab
+title: "Retrieval Augmented Generation (RAG) for GitLab"
 status: ongoing
 creation-date: "2024-02-20"
 authors: [ "@maddievn", "@mikolaj_wawrzyniak", "@dgruzd" ]

@@ -184,7 +184,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 ### Requesting access to an existing tool
 
-To request access to Bizible or Allocadia, [please follow the access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+To request access to Bizible or Allocadia, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
 
 If you are working with a contractor or consultant that requires access to one of these tools, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 
@@ -206,4 +206,4 @@ We use Adobe Marketo Measure (Bizible) for marketing attribution and tracking ti
 
 ## Web Traffic Analysis
 
-Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/business-technology/data-team/data-catalog/web-traffic-analysis/) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
+Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/enterprise-data/data-catalog/web-traffic-analysis/) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)

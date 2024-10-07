@@ -98,4 +98,8 @@ task forward.
 
 ## Active Task Groups (alphabetic order)
 
+1. [BootstrapVue Removal]({{< ref "bootstrap-vue-removal" >}})
+
+## Past Task Groups (alphabetic order)
+
 1. [CSS Utilities]({{< ref "css-utils" >}})

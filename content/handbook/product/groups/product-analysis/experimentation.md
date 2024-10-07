@@ -324,10 +324,10 @@ In this section, we will review some of the most common errors that are made by 
 You can find additional experimentation resources throughout the handbook and GitLab docs.
 Here are a few pages to check out:
 
-- [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
+- [How Growth launches experiments](/handbook/product/groups/growth/#how-growth-launches-experiments)
 - [Growth Engineering Guide to running experiments](/handbook/engineering/development/growth/experimentation/)
 - [GitLab Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
-- [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/)
+- [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
 
 <details markdown="1">
   <summary markdown="span">Click to view useful terms</summary>

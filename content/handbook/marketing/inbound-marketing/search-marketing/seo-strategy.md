@@ -72,7 +72,9 @@ We can use SEMRush site audit tool to measure handbook and jobs pages. We'll nee
 
 ## Keyword clusters
 
-### Goal: Expand GitLab's presence in search results used by our target audiences
+### Goal
+
+Our goal is to expand GitLab's presence in search results used by our target audiences.  
 
 We are building keyword families that mirror the focus of Marketing at GitLab. We want to identify terms related to CI, SCM, and DevSecOps to help the content team build pages to raise awareness of our product-related use cases.
 
@@ -84,7 +86,9 @@ Once we've determined the pillars, we do keyword research to find related terms 
 
 ## Technical SEO improvements
 
-### Goal: Make sure our sites are built to surface the right information to search engines
+### Goal
+
+Our goal is to make sure our sites are built to surface the right information to search engines.  
 
 Search engines do their best to deliver the right information to their users. To do this, they rely on sites using infrastructure and organization that meets their standards.
 
@@ -96,7 +100,9 @@ The Search Marketing team is responsible for the execution of technical SEO for 
 
 ## Creating a culture of SEO
 
-### Goal: The Search Marketing team will create a culture of SEO to grow best practices with teams across GitLab to help manage SEO for the handbook, docs site, and product
+### Goal
+
+The Search Marketing team will create a culture of SEO to grow best practices with teams across GitLab to help manage SEO for the handbook, docs site, and product.  
 
 At GitLab, we believe that everyone can contribute. This leads the Search Marketing team to focus on teaching what we know so that every aspect of GitLab's business can reach its full organic search potential.
 

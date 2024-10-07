@@ -9,14 +9,14 @@ For the avoidance of doubt, the benefits listed below in the General Benefits se
 
 ## Contact Total Rewards
 
-For any questions relating to benefits, please reach out to [Total Rewards](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group).
+For any questions relating to benefits, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 
 ## Entity Benefits
 
 - [GitLab BV (Netherlands)]({{< ref "bv-benefits-netherlands" >}})
 - [GitLab BV (Belgium)]({{< ref "bv-benefits-belgium" >}})
 - [GitLab BV (Finland)]({{< ref "bv-benefits-finland" >}})
-- [Global Upside (India, Philippines, Kenya, Chile, Costa Rica, and Latvia)]({{< ref "global-upside-benefits-india" >}})
+- [Global Upside (India)]({{< ref "global-upside-benefits-india" >}})
 - [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
 - [GitLab LTD (UK)]({{< ref "ltd-benefits-uk" >}})
 - [GitLab GmbH (Germany)]({{< ref "gmbh-germany" >}})
@@ -28,8 +28,9 @@ For any questions relating to benefits, please reach out to [Total Rewards](/han
 - [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil,Denmark, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
-- [Papaya Global (UAE, Italy)]({{< ref "papaya-global" >}})
+- [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
+- [Papaya Global (Italy)]({{< ref "papaya-global" >}})
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)]({{< ref "global-expansion" >}})
 
 ### Benefits Available to Contractors
 
@@ -39,7 +40,7 @@ Our contractor agreements and employment contracts are all on the [Employment Co
 
 ## Spending Company Money
 
-GitLab will [pay for the items you need to get your job done](/handbook/spending-company-money).
+GitLab will [pay for the items you need to get your job done](/handbook/finance/spending-company-money/).
 
 ## Equity Compensation
 
@@ -72,7 +73,7 @@ Starting 2024, GitLab has partnered with HealthKick, a global well-being platfor
 We know that whole-person wellness is important for feeling good. That's why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you'll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
 
 Please review HealthKick's member resources and the self-registration link/instructions to enroll with anytime throughout the year.
-[Gitlab self-registration link](https://www.health-kick.com/companies/1004/registration)
+[GitLab self-registration link](https://www.health-kick.com/companies/1004/registration)
 [HealthKick Overview](https://drive.google.com/file/d/1AitsrkUDA66UV5xZsv5ooqxmr7BpxlLh/view)
 [HealthKick Welcome Packet](https://drive.google.com/file/d/1_vdASrSSzztvEwM7NOx_szEPYMkPBiiA/view?usp=sharing)
 
@@ -92,7 +93,7 @@ GitLab supports team members who wish to continue their education and growth wit
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development page]({{< ref "growth-and-development" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
+The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## GitLab Summit
 
@@ -190,7 +191,7 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
 
 ## Fertility & Family Planning
 
-Team Members can refer to their [entity-specific](#entity-benefits) medical plans to understand the fertility and family planning benefits available to them, as applicable. Please contact [total-rewards@gitlab.com](mailto:Total-Rewards@gitlab.com) should you have any questions.
+Team Members can refer to their [entity-specific](#entity-benefits) medical plans to understand the fertility and family planning benefits available to them, as applicable. Please contact [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) should you have any questions.
 
 GitLab plans to continue to iterate on fertility benefits as we evaluate and enhance our overall benefit plans. In a future state, GitLab aims to expand fertility and family planning services (including adoption support) in order to help our team members grow their families.
 
@@ -204,35 +205,35 @@ The information in this section is specific to GitLab's 16-week paid Parental Le
 
 ### Planning Your Parental Leave Dates
 
-In some cases a team member may choose to begin their leave earlier. While we encourage you to begin your leave when your child arrives (to be able to capture as much time as possible with the newest addition to your family) if you would like to start your leave on a different date please notify leaves@gitlab.com; otherwise your Parental Leave will be administered according to the start date entered in Time Off by Deel.
+In some cases a team member may choose to begin their leave earlier. While we encourage you to begin your leave when your child arrives (to be able to capture as much time as possible with the newest addition to your family) if you would like to start your leave on a different date please notify leaves@gitlab.com; otherwise your Parental Leave will be administered according to the start date entered in Workday.
 
-You don't have to take your Parental Leave in one continuous period, we encourage you to plan and arrange your Parental Leave in a way that suits you and your family's needs. You may take your leave all at once or split your Parental Leave into up to three segments, so long as all time is used prior to the child's first birth or first anniversary of the adoption event. The Absence Management team will receive a notification every time you edit your Parental Leave dates. Please use the label `Parental Leave` in Time Off by Deel, otherwise the Absence Management team won't get a notification.
+You don't have to take your Parental Leave in one continuous period, we encourage you to plan and arrange your Parental Leave in a way that suits you and your family's needs. You may take your leave all at once or split your Parental Leave into up to three segments, so long as all time is used prior to the child's first birth or first anniversary of the adoption event. The Absence Management team will receive a notification every time you edit your Parental Leave dates. Please request a Parental Leave in Workday, otherwise the Absence Management team won't get a notification.
 
 **A few things to note:**
 
 - If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO or any local statutory leave, please send an e-mail to leaves@gitlab.com.
-- When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Time Off by Deel request.
+- When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Workday request.
 
 ### Taking PTO After Taking Parental Leave
 
 If you need to take more time off after Parental Leave, you may utilize GitLab's [Paid Time Off policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) with manager coordination. This time off should be discussed with your Manager following the same reporting guidelines outlined in the PTO policy (double the amount of notice as the amount requested), but if business critical deadlines will be missed your Manager may ask you to change the dates.
 
-Please submit the dates of your PTO in [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}) by selecting `Vacation`.
+Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
 ### How to Initiate Your Parental Leave
 
 Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
 
-**30 days prior to the start of your leave** Enter your Parental Leave into Time Off by Deel by selecting the `Parental Leave` label. We understand the Parental Leave dates may change, so you can edit the dates in Time Off by Deel as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
+**30 days prior to the start of your leave** Enter your Parental Leave into Workday by selecting the `Parental Leave` option under the `Leaves` dropdown menu. We understand the Parental Leave dates may change, so you can edit the dates in Workday as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
 
-We realize that if you are going on adoptive parental leave, a 30 day notice period may not be possible. In these situations, you should notify your manager as soon as possible and enter the dates in Time Off by Deel when you can.
+We realize that if you are going on adoptive parental leave, a 30 day notice period may not be possible. In these situations, you should notify your manager as soon as possible and enter the dates in Workday when you can.
 
 Your manager and the Absence Management team will be notified after you submit your leave. The Absence Management team will send you an e-mail within 48 hours (whenever possible) confirming that they've been notified of your Parental Leave dates, and provide you with additional follow-up items (if applicable).
 
 **A few things to note:**
 
 - Parental leave includes public holidays and scheduled Family and Friends Days that occur within the start and end date of parental leave, but some countries allow team members to rollover public holidays that occured while on Parental Leave. Be sure to review your country's policy on this when planning the dates of your leave.
-  - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Time Off by Deel and add a note indicating "rolling over holidays which occured while on parental leave".
+  - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Workday and add a note indicating "rolling over holidays which occured while on parental leave".
 - Some countries require extra paperwork or have specific leave requirements, which are subject to change as legal requirements change. Please take a look at your [country's leave policy](#entity-benefits).
 
 ### Commission Payout and Quota Relief
@@ -263,9 +264,9 @@ On the day you return from leave, the utilization payout returns to the establis
 
 ### Commission Payments on Non-Parental Leave
 
-Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy. 
+Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
 
-For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave. 
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave.
 
 #### Quota Relief While On Non-Parental Leave
 
@@ -279,11 +280,7 @@ You are entitled to and need to comply with your local regulations. They overrid
 
 #### Confirming your return
 
-A day before you return from Parental Leave, you'll receive a Time Off by Deel [Welcome Back message](/handbook/people-group/engineering/slack-integrations/#parental-leave-welcome-back) with buttons to confirm your return or to explore other options.
-
-- Clicking the `Confirm my return` button will open the email client with a pre-loaded template "Confirming my return from Parental PTO".
-  - *Please add the date you are intending to return to this email.*
-- Clicking the `Explore options` button will also open the email client with a pre-loaded template "I have exceeded my 16 weeks and like to look into further options".
+About a week before your expected return, the Absence Management team will send you a welcome back email.  Please confirm you are returning and the date you are expected to return.
 
 ### Returning to work after parental leave
 
@@ -292,6 +289,14 @@ It's important to acknowledge that returning to work after [parental leave](#par
 You can learn more about parental leave and how to apply in the [Benefits section of the GitLab Handbook](#parental-leave).
 
 ### Return-to-work Resources
+
+#### Team member connections
+
+It can be helpful to connect with other team members who are parents or caregivers as you return to work. Consider:
+
+- Joining the `#intheparenthood` Slack channel to share tips, photos, and stories.
+- Attending a [Caregivers Team Member Resource Group (TMRG)](/handbook/company/culture/inclusion/tmrg-caregivers/) event or participating in the group.
+- Making a merge request to add contributions to this page.
 
 #### Your 4th Trimester
 
@@ -332,8 +337,6 @@ Jonathan's recommendation adds a layer of nuance to [Accepting Uncertainty](/han
 >
 > It's important to talk about family. For a company to sustain a culture that embraces parents and empathizes with the associated needs, these realities must be shared in the open and not allowed to become taboo. — [*Darren M.*](https://gitlab.com/dmurph)
 
-Parents at GitLab are encouraged to join the `#intheparenthood` Slack channel to share tips, photos, and stories, and make a merge request to add contributions to this page.
-
 ### Returning to work at 50% capacity
 
 Returning to work after [parental leave](#parental-leave) can be jarring if you're attempting to jump immediately back to 100%. Not only has your life changed dramatically with the expansion of your family, but you're reintegrating into a working world that has continued to progress in your absence. Merely catching up with months of work is a challenge unto itself, even without a new family member.
@@ -348,7 +351,7 @@ Managers of soon to be parents should check out this [Parental Leave Manager Too
 
 If you're interested in learning about how other GitLab team members approach parenthood, take a look at [the parenting resources wiki page](https://gitlab.com/gitlab-com/gitlab-team-member-resources/wikis/parenting) and [#intheparenthood](https://gitlab.slack.com/messages/CHADS8G12/) on Slack.
 
-## Team Member Relief Program
+## GitLab Cares - Team Member Disaster Relief Program
 
 When Team Members are affected by natural disasters such as fires, earthquakes, floods, etc..., GitLab has established a Team Member Relief Program to assist with financial hardship from these disasters or other emergencies. This program is managed in partnership with E4E Relief, a non-profit that helps businesses establish global disaster relief programs for their Team Members.
 

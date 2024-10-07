@@ -36,21 +36,21 @@ _Example outcomes: MAU Attainment, Dogfooding Implementation %, Use of Growth Ex
 
 #### Competencies
 
-- [Iteration](/handbook/product/product-manager-role/learning-and-development/#-iteration)
+- [Iteration](/handbook/product/product-management/learning-and-development/#-iteration)
 - [Jobs to Be Done]( /handbook/product/product-manager-role/learning-and-development/#-jobs-to-be-done)
-- [Lean Product Development](/handbook/product/product-manager-role/learning-and-development/#-lean-product-development)
-- [User Stories](/handbook/product/product-manager-role/learning-and-development/#-user-stories)
-- [Backlog Management](/handbook/product/product-manager-role/learning-and-development/#-backlog-management)
-- [KPIs and Metrics](/handbook/product/product-manager-role/learning-and-development/#-kpis-and-metrics)
-- [Product Strategy](/handbook/product/product-manager-role/learning-and-development/#-product-strategy)
-- [Growth, Product-led Growth, and Experimentation](/handbook/product/product-manager-role/learning-and-development/#-growth-product-led-growth-and-experimentation)
+- [Lean Product Development](/handbook/product/product-management/learning-and-development/#-lean-product-development)
+- [User Stories](/handbook/product/product-management/learning-and-development/#-user-stories)
+- [Backlog Management](/handbook/product/product-management/learning-and-development/#-backlog-management)
+- [KPIs and Metrics](/handbook/product/product-management/learning-and-development/#-kpis-and-metrics)
+- [Product Strategy](/handbook/product/product-management/learning-and-development/#-product-strategy)
+- [Growth, Product-led Growth, and Experimentation](/handbook/product/product-management/learning-and-development/#-growth-product-led-growth-and-experimentation)
 
 #### Role Expectations
 
 | [PM](/job-families/product/product-manager/#product-manager)| [Senior PM](/job-families/product/product-manager/#senior-product-manager) | [Principal PM](/job-families/product/product-manager/#principal-product-manager) | [Senior Principal PM](/job-families/product/product-manager/#senior-principal-product-manager) |
 | ------ | ------ | ------ |------ |
 | [Example behaviors](/job-families/product/product-manager/#product-roadmap--product-led-growth-pm)\* | [Example behaviors](/job-families/product/product-manager/#product-roadmap--product-led-growth-spm)\* | [Example behaviors](/job-families/product/product-manager/#product-roadmap--product-led-growth-ppm)\* | [Example behaviors](/job-families/product/product-manager/#product-roadmap--product-led-growth-sppm)\* |
-| Adept at setting product direction for assigned product categories on a monthly cadence as informed by the stage direction. Capable of breaking epics into issues and issues into minimal viable changes (MVCs). Partners with stable counterparts in product group Engineering to practice iteration and attain monthly active users as set by teammate. Manages product direction and maintains updates to category direction pages. Capable of using data about install base, growing customers, and prospects to prioritize features in a milestone with guidance from product leadership. Capable of using experimentation frameworks with support from growth and product leadership. Monitors monthly active users, error budgets, and other product performance indicators to inform product direction. | Excellent at setting product direction for assigned categories on monthly basis and informs stage direction. Adept at setting quarterly and annual plans. Skilled at breaking epics into issues and issues into minimal viable changes (MVCs). Works across the stage to practice iteration and attain monthly active users as set by teammate. Proactively manages product direction and maintains updates to category direction pages. Skilled at using data about install base, growing customers, and prospects to prioritize features in a milestone. Skilled at using experimentation frameworks. Proactively and independently monitors monthly active users, error budgets, and other product performance indicators to inform product direction. |Expert at setting product direction for assigned categories on monthly basis and informs section direction. Skilled at setting quarterly and annual plans. Expert at breaking epics into issues and issues into minimal viable changes (MVCs). Works across the section to practice iteration and attain monthly active users as set by teammate. Coaches others on direction updates and proactively manages product direction updates to category direction pages. Expert at using data about install base, growing customers, and prospects to prioritize features in a milestone. Expert at using experimentation frameworks. Deep understanding of trends in monthly active users, error budgets, and other product performance indicators and how those PIs shape their product direction. Capable of coaching others on PLG methods. | Expert at spotting the need for setting product direction for cross-section and intra-section initiatives. Able to coach others at setting quarterly and annual plans. Mentors, leads by example, and coaches others on breaking epics into issues and issues into minimal viable changes (MVCs). Works across sections to practice iteration and attain monthly active users as set by teammate. Mentors, leads by example, and coaches others on direction updates. Proactively manages product direction pages. Mentors, leads by example, and coaches others at using data about install base, growing customers, and prospects to prioritize features in a milestone. Mentors, leads by example, and coaches others in using experimentation frameworks. Applies a deep understanding of trends in monthly active users, error budgets, and other product performance indicators and how those PIs shape their product direction. Actively coaches others on PLG methods.|
+| Adept at setting product direction for assigned product categories on a monthly cadence as informed by the stage direction. Capable of breaking epics into issues and issues into minimal valuable changes (MVCs). Partners with stable counterparts in product group Engineering to practice iteration and attain monthly active users as set by teammate. Manages product direction and maintains updates to category direction pages. Capable of using data about install base, growing customers, and prospects to prioritize features in a milestone with guidance from product leadership. Capable of using experimentation frameworks with support from growth and product leadership. Monitors monthly active users, error budgets, and other product performance indicators to inform product direction. | Excellent at setting product direction for assigned categories on monthly basis and informs stage direction. Adept at setting quarterly and annual plans. Skilled at breaking epics into issues and issues into minimal valuable changes (MVCs). Works across the stage to practice iteration and attain monthly active users as set by teammate. Proactively manages product direction and maintains updates to category direction pages. Skilled at using data about install base, growing customers, and prospects to prioritize features in a milestone. Skilled at using experimentation frameworks. Proactively and independently monitors monthly active users, error budgets, and other product performance indicators to inform product direction. |Expert at setting product direction for assigned categories on monthly basis and informs section direction. Skilled at setting quarterly and annual plans. Expert at breaking epics into issues and issues into minimal valuable changes (MVCs). Works across the section to practice iteration and attain monthly active users as set by teammate. Coaches others on direction updates and proactively manages product direction updates to category direction pages. Expert at using data about install base, growing customers, and prospects to prioritize features in a milestone. Expert at using experimentation frameworks. Deep understanding of trends in monthly active users, error budgets, and other product performance indicators and how those PIs shape their product direction. Capable of coaching others on PLG methods. | Expert at spotting the need for setting product direction for cross-section and intra-section initiatives. Able to coach others at setting quarterly and annual plans. Mentors, leads by example, and coaches others on breaking epics into issues and issues into minimal valuable changes (MVCs). Works across sections to practice iteration and attain monthly active users as set by teammate. Mentors, leads by example, and coaches others on direction updates. Proactively manages product direction pages. Mentors, leads by example, and coaches others at using data about install base, growing customers, and prospects to prioritize features in a milestone. Mentors, leads by example, and coaches others in using experimentation frameworks. Applies a deep understanding of trends in monthly active users, error budgets, and other product performance indicators and how those PIs shape their product direction. Actively coaches others on PLG methods.|
 
 \* Example behaviors are intended to complement rather than replace the above CDF role expectations. These behaviors illustrate examples of the differences between various levels; however, as the needs and circumstances of each role are unique, not all of these behaviors will be necessary for every role. Additionally, exibiting all the behaviors of a given role does not guarantee a promotion into that role (see the section below on [typical requirements for promotion](#typical-requirements-for-promotions)).
 
@@ -62,11 +62,11 @@ _Example outcomes: Uses appropriate methods of Customer Interviewing, Competitiv
 
 #### Competencies
 
-- [User Research](/handbook/product/product-manager-role/learning-and-development/#-user-research)
-- [Customer Interviewing](/handbook/product/product-manager-role/learning-and-development/#-customer-interviewing)
-- [Design](/handbook/product/product-manager-role/learning-and-development/#-design)
-- [Competitive Analysis](/handbook/product/product-manager-role/learning-and-development/#-competitive-analysis)
-- [Relationships with Customers](/handbook/product/product-manager-role/learning-and-development/#-relationships-with-customers)
+- [User Research](/handbook/product/product-management/learning-and-development/#-user-research)
+- [Customer Interviewing](/handbook/product/product-management/learning-and-development/#-customer-interviewing)
+- [Design](/handbook/product/product-management/learning-and-development/#-design)
+- [Competitive Analysis](/handbook/product/product-management/learning-and-development/#-competitive-analysis)
+- [Relationships with Customers](/handbook/product/product-management/learning-and-development/#-relationships-with-customers)
 
 #### Role Expectations
 
@@ -85,7 +85,7 @@ _Example outcomes: Participation in Webinars, Prospect calls, #thanks shoutouts 
 
 #### Competencies
 
-- [Product management thought leadership](/handbook/product/product-manager-role/learning-and-development/#product-management-thought-leadership)
+- [Product management thought leadership](/handbook/product/product-management/learning-and-development/#product-management-thought-leadership)
 
 #### Role Expectations
 
@@ -104,16 +104,16 @@ _Example outcomes: Say/Do, MR Rate, Validation Track Cycle Time and Build Track 
 
 #### Competencies
 
-- [Leadership and influence](/handbook/product/product-manager-role/learning-and-development/#-leadership-and-influence)
-- [Communicating to inspire, align, and activate](/handbook/product/product-manager-role/learning-and-development/#-communicating-to-inspire-align-and-activate)
-- [Cross-functional team management](/handbook/product/product-manager-role/learning-and-development/#-cross-functional-team-management)
+- [Leadership and influence](/handbook/product/product-management/learning-and-development/#-leadership-and-influence)
+- [Communicating to inspire, align, and activate](/handbook/product/product-management/learning-and-development/#-communicating-to-inspire-align-and-activate)
+- [Cross-functional team management](/handbook/product/product-management/learning-and-development/#-cross-functional-team-management)
 
 #### Role Expectations
 
 | [PM](/job-families/product/product-manager/#product-manager)| [Senior PM](/job-families/product/product-manager/#senior-product-manager) | [Principal PM](/job-families/product/product-manager/#principal-product-manager) | [Senior Principal PM](/job-families/product/product-manager/#senior-principal-product-manager) |
 | ------ | ------ | ------ |------ |
 | [Example behaviors](/job-families/product/product-manager/#aligning-teams-with-values-pm)\* | [Example behaviors](/job-families/product/product-manager/#aligning-teams-with-values-spm)\* | [Example behaviors](/job-families/product/product-manager/#aligning-teams-with-values-ppm)\* | [Example behaviors](/job-families/product/product-manager/#aligning-teams-with-values-sppm)\* |
-| Responsible for the health of working relationships with peers in the stage. Familiar and comfortable with using iteration methologies and collaborating across the product group. | Skilled at applying agile development methodologies. Able to elevate performance of the Group through excellent PM outputs. Skilled at applying iteration methodologies and managing with influence while collaborating across the product stage. | Expert at applying agile development methodologies. Able to elevate performance of the peers in the stage. Expert at applying iteration methodologies and managing with influence while collaboration across the product section. | All Principal Behaviors, while proactively building strong cross-section relationships. Able to elevate performance of the peers across the company. Mentors and coaches others on our values including applying iteration methodologies and managing with influence while collaborating across GitLab. |
+| Responsible for the health of working relationships with peers in the stage. Familiar and comfortable with using iteration methologies and collaborating across the product group. | Skilled at applying agile development methodologies. Able to elevate performance of the Group through excellent PM outputs. Skilled at applying iteration methodologies and managing with influence while collaborating across the product stage. | Expert at applying agile development methodologies. Able to elevate performance of the peers in the stage. Expert at applying iteration methodologies and managing with influence while collaborating across the product section. | All Principal Behaviors, while proactively building strong cross-section relationships. Able to elevate performance of the peers across the company. Mentors and coaches others on our values including applying iteration methodologies and managing with influence while collaborating across GitLab. |
 
 \* Example behaviors are intended to complement rather than replace the above CDF role expectations. These behaviors illustrate examples of the differences between various levels; however, as the needs and circumstances of each role are unique, not all of these behaviors will be necessary for every role. Additionally, exibiting all the behaviors of a given role does not guarantee a promotion into that role (see the section below on [typical requirements for promotion](#typical-requirements-for-promotions)).
 
@@ -163,7 +163,7 @@ _Example outcomes: Say/Do, MR Rate, Validation Track Cycle Time and Build Track 
 
 ## CDF for Product Leadership
 
-The below table outlines the Career Development Framework used for [Product Leaders](/handbook/product/product-leadership/#product-leaders).
+The below table outlines the Career Development Framework used for [Product Leaders](/handbook/product/product-leaders/product-leadership/#product-leaders).
 
 Typical scope and reporting structure is documented in the [Product Management Leadership job family](/job-families/product/product-management-leadership/).
 
@@ -276,7 +276,7 @@ We can think about the Product Manager's potential primarily on two axis: value 
 
 ### Value Creation
 
-Product managers are in the business of creating value, measurable by [Product KPIs](/handbook/product/performance-indicators/#structure). They prioritize the most important thing to unlock the most value at the intersection of the business and the user or buyer. At GitLab, Product Managers are often the [business owner](https://www.svpg.com/product-managers-vs-business-owners/) of their segment and outputs are not just in the delivery of features to production, rather can include go-to-market, sales enablement, partner/channel/alliances relationships, and understanding revenue impact of the product offering.
+Product managers are in the business of creating value, measurable by [Product KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/product/#structure). They prioritize the most important thing to unlock the most value at the intersection of the business and the user or buyer. At GitLab, Product Managers are often the [business owner](https://www.svpg.com/product-managers-vs-business-owners/) of their segment and outputs are not just in the delivery of features to production, rather can include go-to-market, sales enablement, partner/channel/alliances relationships, and understanding revenue impact of the product offering.
 
 We expect product managers to create value across the business by excelling at execution in at least the following levels. When thinking of a PM's potentials, consider their capacity to expand their influence beyond their current level.
 
@@ -321,7 +321,7 @@ Product managers are typically driven and high performing individuals, and we of
 
 ## Supporting a Product Manager's Career
 
-We want Product Managers to succeed in their careers at GitLab and beyond. Product Managers are encouraged to fill out and talk to their managers about their longer-term career goals either as part of their CDF reviews or as a separate career coaching discussion. To help facilitate, track and make time for overall career growth, Product Managers can fill out this specific template for career coaching conversations in the main [CDF template](https://docs.google.com/document/d/1MT_Xks-oF-D-2R_N380h4Phg_9s7BbO0U8k0eP-u8EI/edit#heading=h.6wqbupmuee9o). Having all career development and progression in one document will help both Product Managers and their Managers keep track of progress.
+We want Product Managers to succeed in their careers at GitLab and beyond. Product Managers are encouraged to fill out and talk to their managers about their longer-term career goals either as part of their CDF reviews or as a separate career coaching discussion. To help facilitate, track and make time for overall career growth, Product Managers can fill out this specific template for career coaching conversations in the main [CDF template](https://docs.google.com/document/d/1MT_Xks-oF-D-2R_N380h4Phg_9s7BbO0U8k0eP-u8EI/edit#heading=h.6wqbupmuee9o) (internal only). Having all career development and progression in one document will help both Product Managers and their Managers keep track of progress.
 
 ### Typical Requirements for Promotions
 

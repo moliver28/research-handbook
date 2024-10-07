@@ -1,5 +1,5 @@
 ---
-title: Suport Team page
+title: Support Team page
 description: Support Operations documentation page for the Support team page
 canonical_path: "/handbook/support/readiness/operations/docs/gitlab/support_team_page"
 ---

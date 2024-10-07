@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you through creating a .gitlab-ci.yml fi
 
 In this lab, you'll enabled CI/CD for a GitLab project. After creating your first `.gitlab-ci.yml` file, you will explore the CI/CD pipeline to better understand jobs and stages. Finally, you will learn how to install, run, and register a runner with a GitLab instance.
 
-> Parts **D** through **F** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through F and use the training environment's shared runners instead.
+> Parts **D** through **G** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through G and use the training environment's shared runners instead.
 
 ## Task A. Access your Lab Environment
 
@@ -73,7 +73,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the Project URL field, click the dropdown for the second half of the URL to make sure it's pointing to a group name (starts with gitlab-learn-labs/*if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user's namespace.
+1. In the Project URL field, click the dropdown for the second half of the URL to make sure it's pointing to a group name (starts with **gitlab-learn-labs/** if it is SPT, and **training-users/** if it is ILT) and not a username. You should create this project inside a group, not directly in your user's namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
@@ -301,7 +301,24 @@ If you see `Service is running` in the output, the gitlab-runner service is work
       shell = "powershell"
       ```
 
-   1. Save the file.
+1. Save the file.
+
+## (Optional) Task H: Unregistrering a GitLab Runner
+
+If you do not wish to keep the GitLab Runner on your device, you may follow the steps below to unregister the GitLab Runner.
+
+1. Get the URL and the token of the GitLab Runner by running the following command (dependent on your OS):
+
+   * In a Linux terminal: ```sudo gitlab-runner list```
+   * In a macOS terminal: ```gitlab-runner list```
+   * In a normal (not elevated) Windows PowerShell window:
+
+   ```ps
+   cd C:\GitLab-Runner
+   .\gitlab-runner.exe list 
+   ```
+
+1. Using the URL and token, run the unregister command: ```gitlab-runner unregister --url "http://gitlab.example.com/" --token t0k3n```
 
 ## Lab Guide Complete
 

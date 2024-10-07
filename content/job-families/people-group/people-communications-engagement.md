@@ -243,7 +243,7 @@ The Director, People Communications & Engagement is a [grade 10](/handbook/total
 ## Performance Indicators
 
 - [Team member engagement survey score](/handbook/people-group/engagement/)
-- [Team member retention](/handbook/people-group/people-group-metrics/#team-member-retention)
+- [Team member retention](/handbook/people-group/people-success-performance-indicators/#team-member-retention)
 - [Team member sentiment about working at GitLab](https://www.greatplacetowork.com/certified-company/7013799)
 - Qualitative feedback from GitLab senior leaders
 - Ad hoc feedback from team members on specific programs and initiatives

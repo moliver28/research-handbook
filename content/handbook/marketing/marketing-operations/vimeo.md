@@ -11,11 +11,11 @@ Vimeo is a video hosting, sharing, and services platform.
 
 ### Single access
 
-Vimeo is connected to Okta. To request access, [create an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and use the GitLab user group `gitlab-com/gl-security/corp/helpdesk` to provision you. Make sure to include the business case for why you would like access and tag a team member from digital production. Once provisioned to Vimeo, marketing ops can adjust your permission set as needed.
+Vimeo is connected to Okta. To request access, [create an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) and use the GitLab user group `gitlab-com/gl-security/corp/helpdesk` to provision you. Make sure to include the business case for why you would like access and tag a team member from digital production. Once provisioned to Vimeo, marketing ops can adjust your permission set as needed.
 
 ### Bulk access
 
-If a team is needing access to Vimeo, please open a [bulk access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/gl-security/corp/helpdesk` to provision you. Business Ops will create a group in Okta that gets pushed to Vimeo via SSO. Once access is granted, please ping `@MihaiConteanu` to update permissions for each user in the group. The group created in Okta does not sync to the `Manage Team` section in Vimeo - it will show the individual users as part of the group or team and not the team itself. However, this group/team does sync with regards to folder permissions and access. To provide access to a specific folder in Vimeo to an entire team, click on the folder settings in Vimeo and click `Share`. There, you can adjust the permissions for an entire team to your selected folder.
+If a team is needing access to Vimeo, please open a [bulk access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/gl-security/corp/helpdesk` to provision you. Business Ops will create a group in Okta that gets pushed to Vimeo via SSO. Once access is granted, please ping `@MihaiConteanu` to update permissions for each user in the group. The group created in Okta does not sync to the `Manage Team` section in Vimeo - it will show the individual users as part of the group or team and not the team itself. However, this group/team does sync with regards to folder permissions and access. To provide access to a specific folder in Vimeo to an entire team, click on the folder settings in Vimeo and click `Share`. There, you can adjust the permissions for an entire team to your selected folder.
 
 ### User Roles
 
@@ -51,7 +51,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 
 1. [Onboarding Call (GitLab team - internal use only) 202005](https://drive.google.com/file/d/1k61AoPcGBNtXIUltYEHOk6_9vFBUDGYB/view?usp=sharing)
 1. [Training Call (GitLab team - internal use only) 202006](https://drive.google.com/file/d/14jHp_nZGVBml7ipz1ZpeCvuAJInrADdk/view?usp=sharing)
-1. [Video School](https://vimeo.com/blog/category/video-school)
+1. [Video School](https://vimeo.com/videoschoolvideos)
 
 ## Video Manager
 
@@ -79,7 +79,7 @@ Only the `Owner` role has the ability to delete videos in Vimeo. As such, we hav
 
 ## Upload
 
-Vimeo accepts most video file formats (MP4, MOV, WMV, AVI, and FLV). Vimeo does not accept audio files, image files, or other non-video formats (MP3, WAV, WMA, JPG, and PNG). If you compress your source file prior to upload, follow [these guidelines](https://vimeo.com/help/compression). For more information on uploading videos to Vimeo, [see this help article](https://vimeo.zendesk.com/hc/en-us/articles/229838988-Preparing-to-upload).
+Vimeo accepts most video file formats (MP4, MOV, WMV, AVI, and FLV). Vimeo does not accept audio files, image files, or other non-video formats (MP3, WAV, WMA, JPG, and PNG). If you compress your source file prior to upload, follow [these guidelines](https://help.vimeo.com/hc/en-us/articles/12426043233169-Video-and-audio-compression-guidelines). For more information on uploading videos to Vimeo, [see this help article](https://vimeo.zendesk.com/hc/en-us/articles/229838988-Preparing-to-upload).
 
 ## Live Events
 

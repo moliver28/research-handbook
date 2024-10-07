@@ -26,7 +26,7 @@ My partner is unable to log into the Partner Portal to submit a Deal Registratio
 
 If the partner contact has a Partner Portal account but is unable to login, they can [select "Forgot Password"](https://partners.gitlab.com/English/) to reset their password. If they do not have a Partner Portal account, they can [select "Request Portal Access"](https://partners.gitlab.com/English/) to set up an account. Please have the partner contact `partnersupport@gitlab.com` for assistance ​​if they have followed the directions but are still having issues.
 
-Note, to submit a Deal Registration, the partner must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-GitLab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
+Note, to submit a Deal Registration, the partner must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-gitlab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
 
 </details>
 

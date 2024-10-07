@@ -152,6 +152,6 @@ Director, Developer Advocacy is a [grade 10](/handbook/total-rewards/compensatio
 
 ### Performance Indicators
 
-- Support [Unique Wider Community Contributors per Month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month)
+- Support [Unique Wider Community Contributors per Month](/handbook/engineering/infrastructure/performance-indicators/#unique-wider-community-contributors-per-month)
 - Support [New Unique Web Vistors Per Month](/handbook/marketing/performance-indicators/#new-unique-web-visitors-aboutgitlabcom)
 - Impressions per month. Number of combined impressions/organic views from the Developer Relations team, from a designated number of sources (e.g. social, events, content, etc.)

@@ -61,6 +61,7 @@ important to those working within Zendesk:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
 
 </details>
 <details>
@@ -806,6 +807,7 @@ So an example:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
 
 </details>
 <details>

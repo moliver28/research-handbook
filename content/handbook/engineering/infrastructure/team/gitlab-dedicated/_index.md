@@ -50,7 +50,7 @@ The following people are members of the Dedicated:Switchboard Team:
 To engage with the GitLab Dedicated teams:
 
 - [Create an issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new) in the GitLab Dedicated team issue tracker (**Note** The issue tracker will be made public after [work in epic 33 "Considerations for making Dedicated projects public"](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/33) is completed)
-  - For feature requests, use the [feature_requests issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md) and fill in the required information
+  - For feature requests, use the [feature requests issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md) and fill in the required information
 - When creating an issue, it is not necessary to `@`mention anyone
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
 - Slack channels
@@ -69,10 +69,10 @@ These customizations involve configuration changes to [functionality already sup
 
 To request functionality that is not currently supported within Dedicated, customers must open a feature request using the [feature request issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md). To request functionality for the broader GitLab Application, customers can use the [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) template.
 
-While in the long term, customer admins will be able to self-serve configuration changes using the Switchboard customer portal, in the short term, SREs will need to make the change and deploy it to the customer's environment. This process is documented below.
+While in the long term, customer admins will be able to self-serve configuration changes using the Switchboard customer portal. In the short term, SREs will need to make the change and deploy it to the customer's environment. This process is documented below.
 
 - During Onboarding (before instance handover)
-  - We will make one SRE available to support a new customer as they are onboarding to the platform. The SRE will be available one week prior to the onboarding date (i.e. the `start date` specified in the customer contract) and make any needed configuration changes to the environment.
+  - We will make one SRE available to support a new customer as they are onboarding to the platform. The SRE will be available one week prior to the onboarding date (that is, the `start date` specified in the customer contract) and make any needed configuration changes to the environment.
   - To request a configuration change during onboarding, customers can open a new issue in their shared collaboration project. The PM will take the customer request, create an issue within the Dedicated team project, assign the labels per project workflow, and `@` mention the SRE in question. The SRE will assign the issue to themselves and perform the change.
   - Note, config changes during onboarding cannot be escalated to the Dedicated team as this is still before the contractual start date. See below for more information on our [escalation policy](#escalation-policy).
 - Post-instance handover
@@ -112,7 +112,13 @@ As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure/change-manag
 
 ##### Hard PCL
 
-Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes using Switchboard. New customers will not be onboarded during Hard PCLs.
+Hard PCLs include:
+
+- customer changes using Switchboard
+- all code deploys and infrastructure changes
+- including automated maintenance in UAT, PreProd and Production environments
+
+New customers will not be onboarded during Hard PCLs.
 
 In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability.
 Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
@@ -204,6 +210,18 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 `1*` Exceptions to the recording rule are: 1-1 calls, discussions around non-project work, and in cases where parties do not feel comfortable with recording. However, even with the exceptions, outcome of project related discussions need to be logged in a persistent location, such as the main issue tracker.
 
+### Protecting Customer Identity
+
+GitLab [confidentiality levels](/handbook/communication/confidentiality-levels/) require that we do not publicly identify customers without their express permission.
+
+When it is necessary to refer to a specific customer we use the following guidelines:
+
+| Use Case                               | Example                                                                    | Process                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Internal Communication & Collaboration | Slack conversations                                                        | <ul><li>Use the customer name</li></ul> |
+| Public Collaboration | Collaboration on issues, including SIRT issues, epics and recorded calls   | <ul><li>Avoid using the customer name publicly. Instead use internal notes, or provide an accessible internal link to aid the identification - remember that not everyone has access to Switchboard</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
+| Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
+
 ### GitLab Group Hierarchy
 
 We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
@@ -216,7 +234,7 @@ The groups cover the following use-cases:
     - All permanent team-members of individual teams gain access to their respective GitLab group as part of onboarding
     - Group mention should be used when the information shared is pertinent to the respective team
 1. Individual team GitLab Dedicated groups have two additional subgroups `maintainers` and `reviewers`, for example: `@gitlab-dedicated/switchboard/maintainers`
-    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrow and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
+    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrow, and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
     - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners). Team members onboard into the `maintainer` subgroup after meeting the requirements defined in the [Dedicated Maintainer Training](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/maintainer_training.md)(internal only)
 
 ### Project Management
@@ -228,7 +246,7 @@ Please see:
 1. [SaaS Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
 1. [SaaS Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
 1. [Environment Automation Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)
-1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1160)
+1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/405)
 1. [US Public Sector Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/876)
 
 #### Epic Hierarchy
@@ -275,6 +293,8 @@ The DRI needs to:
 1. Ensure epic meets criteria outlined in [Epic Structure](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure)
 1. Provide updates on DRI's epic in epic description according to process outlined in [Status Update Process](/handbook/engineering/infrastructure/team/gitlab-dedicated/#Status-Update-Process) below.
 
+Throughout the project, the DRI should continue to adjust the epic description and structure to keep it current with the project status.
+
 #### Epic structure
 
 Each epic and child sub-epics must include the following:
@@ -298,7 +318,61 @@ Labels are described in the [epic label section](#epics-labels).
 
 #### Epic boards
 
-Epic boards are used to track the overall status of epics.
+Epic boards are used to track the overall status of epics. DRI's are encouraged to created any project labels needed to allow a suitable project board to be created.
+
+#### Planning feature rollouts
+
+All significant changes must have a [rollout issue using the rollout_coordination template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=rollout_coordination). This issue should be used to review test coverage, rollout timings as well as plan customer communication where needed.
+
+#### Project Stages
+
+The project is generally following these stages:
+
+- Beta
+- Limited Availability
+- General Availability (GA)
+- Post-GA
+
+#### Issues
+
+Dedicated team projects use an agile-like methodology.
+
+1. Team members should start Issues that are marked as ~"workflow-infra::Ready".
+1. GitLab is an asynchronous working environment, and as such, code change reviews may take time as reviewers are in other timezones. Team members are encouraged to review pending code reviews and then possibly start on a second task even if a task is not fully completed -- but only if they feel they have capacity. For example, during a review process awaiting final approval, team members could pick up another task to start working on. Regular Agile synchronous ceremonies (stand ups, retros, etc) are not done, but there will be occasional short 'team sync' calls in a week and activities like live troubleshooting or pairing are not forbidden.
+1. When starting a new task:
+    - Assign yourself to the issue and apply the label ~"workflow-infra::In Progress".
+    - Start off by collecting additional information that you may need, and ask questions on the issue to clarify the problem.
+1. When the task is in progress:
+    - Update the issue with your progress on a regular basis. Ideally daily.
+    - If the issue scope changes, update the issue description to reflect the change. Review the issue weight.
+    - Try to work iteratively.
+    - If you get stuck, leave a comment on the issue and highlight your comment in [Slack](https://gitlab.enterprise.slack.com/archives/C025LECQY0M)
+1. When the change goes into review:
+    - Apply the ~"workflow-infra::Under Review" label to the issue
+1. If the issue becomes blocked:
+    - If one finds a task is blocked by another task, and work cannot continue, assign the ~"workflow-infra::Blocked" label to the task and consider picking up a different task while the task is blocked, such as the blocking task
+    - Be sure to use GitLab Issue Relationship to mark upstream blocking issues as such, and add a comment on the blocking issue so that subscribers to that issue can be notified that it's blocking downstream work
+
+#### New Issue Checklist
+
+When creating a new issue:
+
+1. Add the appropriate project label, example: ~"Hosted Runners for GitLab Dedicated".
+1. Add the ~"workflow-infra::Triage" label.
+1. Add the appropriate team label, example: ~"team::Environment Automation".
+1. Ensure the issue is confidential.
+1. Add the issue to the correct Epic.
+
+```txt
+# Ensure the correct parent epic.
+/epic &XXX
+
+# Label with a project label.
+# /label ~"Hosted Runners for GitLab Dedicated"
+
+/label ~"team::Environment Automation" ~"workflow-infra::Triage"
+/confidential
+```
 
 ### Issue boards
 
@@ -357,6 +431,8 @@ Having this set of refined epics will help us plan for the upcoming quarter and 
 GitLab Dedicated team respects the Company principle of [everything starting with a merge request](/handbook/communication/#start-with-a-merge-request).
 
 1. All Merge Requests (MRs) must go through the review process.
+1. Ensure that merge requests include in the description `Closes #<issue>` or `Related to #<issue>` so that the merge request change is linked to the appropriate issue within GitLab.
+1. Use draft to indicate the readiness of the MR. In general, remove draft before going into the review process.
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
 1. Reviewers should review the change and leave comments with questions or suggestions. Please follow the [merge request reviewer guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#merge-request-reviewers) and the [resolving threads guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#resolving-threads-on-a-merge-request) documented below.
 
@@ -418,7 +494,7 @@ To reduce the team's cognitive load on having to keep a mental record of all the
 
 1. Open an issue explaining the workaround and to which tenant instances it was applied. Apply the label `workaround::active` to the issue
 1. If there's a long-term fix issue already created, apply the label `corrective action` and link it to the workaround issue
-1. Add a comment in the code describing the workaround and a link to the follow-up issue. For example [workaround on pyyaml bug](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/1873/diffs)
+1. Add a comment in the code describing the workaround and a link to the follow-up issue. For example [workaround on `pyyaml` bug](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/1873/diffs)
 1. If the temporary workaround involves running scripts by the SRE during maintenance windows, we add the actions in the triage-ops' [tooling-upgrade-toil](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/policies/gitlab-dedicated/tooling-upgrade-toil.yml#L55) policy
 
 ### Labels
@@ -525,7 +601,7 @@ initiate further assessment for potential remediation action,
 and actively manage any such ongoing issues that are assigned to you.
 
 At the start of your shift review the
-[handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
+[handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/?label_name%5B%5D=capacity-planning-handover)
 from the prior shift and close it when you are up to speed.
 
 At the start of each work week while you are on duty,
@@ -548,7 +624,7 @@ as a high priority task that is second only to active incidents:
       1. Add or update the due date to next week, and
       1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk)
       - Take into consideration whether we have existing remediation options
-        (e.g performance-based overlays, or entire reference architecture upsizing)
+        (for example: performance-based overlays, or entire reference architecture upsizing)
         or if we will need to add capabilities to handle the particular saturation problem.
         Err on the side of raising an issue for further discussion;
         we can always close it and return to monitoring status.

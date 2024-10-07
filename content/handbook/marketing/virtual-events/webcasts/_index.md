@@ -1213,14 +1213,13 @@ In most cases, the landing pages for these events are managed by DEX. These inst
 
 In the event you need to change the date of your webcast, please follow the steps outlined below.
 
-1. DO NOT UPDATE THE PROGRAM NAME IN MARKETO - this will break the sync if it is already set up between Marketo and ON24.
 1. Update the date/time of the webcast on the [webcast calendar](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) and resend invites to all presenters / panelists.
 1. Update the webcast epic so the new date is reflected on the title.
 1. Leave a comment on the epic stating the event has been rescheduled and tag all internal panelists and hosts.
 1. Update issue due dates based on the new timeline and communicate changes to relevant team members.
 1. Update the [events page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/events/index.yml) with the new date and time.
 1. Update the date in ON24
-   * *The system will not automatically update registrants, but you can use the ON24 email notifications to reach out.* Step-by-step instructions available on the [ON24 support page](https://support.on24.com/Support/s/article/Webcast-Elite-Reschedule-or-Cancel-a-Webinar).
+   * *The system will not automatically update registrants, but you can use the ON24 email notifications to reach out.* Step-by-step instructions available on the [ON24 support page](https://support.on24.com/hc/en-us/articles/21420787306907-Reschedule-or-Cancel-an-Event) - You may need to be logged in to view this documentation.
 
 ### Canceling an ON24 Webcast {#on24-cancel}
 

@@ -1,5 +1,5 @@
 ---
-title: Diffs features
+title: "Diffs features"
 status: proposed
 creation-date: "2023-10-10"
 authors: [ "@thomasrandolph", "@patrickbajao", "@igor.drozdov", "@jerasmus", "@iamphill", "@slashmanov", "@psjakubowska" ]
@@ -7,6 +7,7 @@ coach: [ "@ntepluhina" ]
 approvers: [ ]
 owning-stage: "~devops::create"
 participating-stages: []
+toc_hide: true
 ---
 
 This is an appendix to the [Reusable Rapid Diffs document](index.md).

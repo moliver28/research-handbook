@@ -32,7 +32,7 @@ Ensure Support training modules and up-to-date, and meeting the needs of Support
 
 Use the [Slack, Google Groups, 1Password Vaults or Groups Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) issue template to get added to the `@spt-pod_training` group on Slack.
 
-There is more information about [Slack, Google Groups, 1Password Vaults or Groups Access Requests](https://about.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) in the handbook.
+There is more information about [Slack, Google Groups, 1Password Vaults or Groups Access Requests](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) in the handbook.
 
 ## Useful Links
 

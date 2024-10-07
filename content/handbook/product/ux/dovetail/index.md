@@ -43,7 +43,7 @@ Click `Data` in the left-hand menu. Add your raw data to the project, such as no
 
 The following video demonstrates how to use the import feature and how to structure your data around research questions / tasks:
 
-{{% youtube "dod5EUYYgDk" %}}
+{{< youtube "dod5EUYYgDk" >}}
 
 ### Tagging data in Dovetail
 
@@ -302,7 +302,7 @@ After you've created your insight statements, you can use Dovetail's ["presentat
 
 This video demonstrates how to take structured notes in Dovetail similarly to a Google Sheet with multiple notetakers.
 
-{{% youtube "K7WuC0QCOyM" %}}
+{{< youtube "K7WuC0QCOyM" >}}
 
 ### Disable Public Access
 
@@ -312,7 +312,7 @@ In order to protect PII (Personally Identifiable Information), ensure that your 
 
 ### Frequently Asked Questions
 
-#### I'm a Product Manager and I'd like to use Dovetail to keep track of the calls I have with customers. Is that okay?
+#### I'm a Product Manager. Can I use Dovetail to keep track of the calls I have with customers?
 
 Yes! When creating a new project, please select the `Customer calls` template. In the ReadMe file, update the name of your project from `Customer calls` to something more recognisable. Continue to follow the steps outlined under the UX Research team's guide to documenting insights in Dovetail starting with [Importing raw data into Dovetail](/handbook/product/ux/dovetail/index.html#importing-raw-data-into-dovetail).
 

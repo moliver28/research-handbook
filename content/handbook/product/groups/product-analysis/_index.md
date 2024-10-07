@@ -5,23 +5,23 @@ title: Product Data Insights
 
 ## Product Data Insights Handbook
 
-The Product Data Insights (formerly known as "Product Analysis") group consists of a team of
-product analysts. This group reports to the Senior Director, Product Monetization and serves
-as a functional analytics team to support the GitLab Product division and product data-related
-analysis across GitLab.
+The Product Data Insights group consists of a team of product analysts. This group reports to 
+the VP, Product Management and serves as a functional analytics team to support the GitLab R&D 
+Organization (Product and Engineering divisions), in addition to product data-related analysis 
+across GitLab.
 
-In addition to supporting the Product division, the Product Data Insights team is an active
-contributor to the GitLab Data Program. As part of the [Research & Development (R&D) Data Fusion Team](/handbook/business-technology/data-team/#analytics-engineering-team),
+In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
+contributor to the GitLab Data Program. As part of the [Customer Product Adoption (CPA) Pod](/handbook/enterprise-data/organization/#data-pod-assignments),
 the product analysts also work closely with members from the Enterprise Data team. In addition,
-the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/),
+the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
 
 Read more about what we do at GitLab on our [Direction](https://about.gitlab.com/direction/product-analysis/) page.
 
 ### Team members
 
-Product Data Insights is a small (but mighty) team. In order to support the Product division,
-each analyst is assigned to one or more sections or teams to support.
+Product Data Insights is a small (but mighty) team. In order to support the Product and 
+Engineering divisions, each analyst is assigned to one or more sections or teams to support.
 
 | Name | Title | Product Section or Team |
 | --- | --- | --- |
@@ -36,12 +36,12 @@ each analyst is assigned to one or more sections or teams to support.
 
 ## Handbook contents
 
-- [Dashboards, Analysis, & Insights](/handbook/product/product-analysis/dashboards-analysis-insights/)
-- [Team Processes](/handbook/product/product-analysis/team-processes/)
-- [Product Data Insights Data Models Cheat Sheet](/handbook/product/product-analysis/data-model-cheat-sheet/)
-- [Crash Course for Product Stage Resources (Including Section::Growth)](/handbook/product/product-analysis/crash-course/)
-- [Experimentation Design & Analysis](/handbook/product/product-analysis/experimentation/)
-- [dbt Cheat Sheet for Functional Analysts](/handbook/product/product-analysis/dbt-cheat-sheet/)
+- [Dashboards, Analysis, & Insights](/handbook/product/groups/product-analysis/dashboards-analysis-insights/)
+- [Team Processes](/handbook/product/groups/product-analysis/team-processes/)
+- [Product Data Insights Data Models Cheat Sheet](/handbook/product/groups/product-analysis/data-model-cheat-sheet/)
+- [Crash Course for Product Stage Resources (Including Section::Growth)](/handbook/product/groups/product-analysis/crash-course/)
+- [Experimentation Design & Analysis](/handbook/product/groups/product-analysis/experimentation/)
+- [dbt Cheat Sheet for Functional Analysts](/handbook/product/groups/product-analysis/dbt-cheat-sheet/)
 
 ## Working with us
 
@@ -122,8 +122,8 @@ request.
 #### PDI priority
 
 PDI priority is owned by the individual analyst. The Senior Manager, Product Data Insights will
-help refine priority based on importance and capacity. The team will work with the Senior
-Director, Product Monetization and/or Product leadership on trade-offs (if needed).
+help refine priority based on importance and capacity. The team will work with the VP, Product 
+Management and/or Product leadership on trade-offs (if needed).
 
 Section priority and PM priority are both inputs in determining PDI priority. However, the
 scope of the team's work extends beyond section support (ex: cross-functional initiatives),
@@ -180,7 +180,7 @@ converted to an epic).
 
 Product Data Insights defines velocity as the amount of work (measured in issue weight) completed
 by the team within a given iteration. While we recognize that this is an imperfect measurement
-(partially-completed issues and [undocumented work](/handbook/product/product-analysis/#undocumented-requests)
+(partially-completed issues and [undocumented work](/handbook/product/groups/product-analysis/#undocumented-requests)
 are not accounted for), it is a rough gauge of team output.
 
 We aim to only commit to work we believe can be completed within the 2-week iteration. As such,
@@ -232,7 +232,7 @@ Please keep the following in mind when working with the Product Data Insights te
 #### Scope creep
 
 [Scope creep](https://en.wikipedia.org/wiki/Scope_creep) is a problem everyone faces. Please keep
-in mind that [team capacity](/handbook/product/product-analysis/#capacity) is a zero-sum game,
+in mind that [team capacity](/handbook/product/groups/product-analysis/#capacity) is a zero-sum game,
 so scope creep in one issue can mean that we are unable to complete other work planned for
 that iteration.
 
@@ -277,7 +277,7 @@ questions (which could lead to building a self-service solution) and quickly rep
 
 The Product Data Insights team is tasked with supporting the entire Product organization, in
 addition to other product-related data needs across GitLab. As such, team capacity can be
-limited as we grow towards our [target gearing ratio](/handbook/product/product-analysis/team-processes/#gearing-ratios).
+limited as we grow towards our [target gearing ratio](/handbook/product/groups/product-analysis/team-processes/#gearing-ratios).
 However, limited capacity should not stop GitLab team members from [opening issues for Product Data Insights](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%20Hoc%20Request),
 it simply means that lower-priority requests will have to wait until resources are available.
 As the group grows, so will our ability to turn around requests in a shorter period of time.
@@ -393,9 +393,9 @@ help folks looking to learn more about data self-service. The benefit is that th
 first-come, first-served, the prioritization process is bypassed, and the wait time is minimal.
 
 Formal data requests and larger bodies of work are captured in issues in the [Product Data Insights project](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%20Hoc%20Request).
-They can help answer more complex questions, but go through more robust [intake](/handbook/product/product-analysis/#issue-intake)
-and [planning](/handbook/product/product-analysis/#iteration-planning) processes. As such, there
-is a longer turn-around time given team size and [capacity](/handbook/product/product-analysis/#capacity).
+They can help answer more complex questions, but go through more robust [intake](/handbook/product/groups/product-analysis/#issue-intake)
+and [planning](/handbook/product/groups/product-analysis/#iteration-planning) processes. As such, there
+is a longer turn-around time given team size and [capacity](/handbook/product/groups/product-analysis/#capacity).
 
 **What if I don't know if my topic is best suited for office hours or whether I need to open an issue?**
 
@@ -416,7 +416,7 @@ the Product Data Insights team's asynchronous daily stand-up, powered by [Geekbo
 
 1. `@product-analysts` - Notifies the entire Product Data Insights team
 1. `@randdanalyticstriage` - Notifies the entire Product Data Insights team and the Data
-team's R&D Fusion group, per the [Enterprise Data Triage Program](/handbook/business-technology/data-team/how-we-work/triage/#enterprise-data-program-triage)
+team's Customer Product Adoption pod, per the [Enterprise Data Triage Program](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-program-triage)
 1. `@functional-data-analysts` - Notifies the entire Product Data Insights team and other functional
 analysts across the GitLab Data Program
 
@@ -431,10 +431,10 @@ Recordings from office hours, analysis/read-outs, etc
 
 ## Other helpful resources & links
 
-1. [Data Guide Series](/handbook/business-technology/data-team/data-catalog/#product-release-to-adoption-catalog)
-1. [Data Team Handbook](/handbook/business-technology/data-team/)
-1. [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
-1. [Product Manager Toolkit](/handbook/business-technology/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html)
-1. [Data for Product Managers](/handbook/business-technology/data-team/programs/data-for-product-managers/)
-1. [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/)
-1. [Functional Analytics Center of Excellence (FACE) Source of Truth Fields for Reporting](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/)
+1. [Data Guide Series](/handbook/enterprise-data/data-catalog/#product-release-to-adoption-catalog)
+1. [Data Team Handbook](/handbook/enterprise-data/)
+1. [Data Catalog](/handbook/enterprise-data/data-catalog/)
+1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit.html)
+1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
+1. [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
+1. [Functional Analytics Center of Excellence (FACE) Source of Truth Fields for Reporting](/handbook/enterprise-data/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/)

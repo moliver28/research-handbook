@@ -17,11 +17,11 @@ Fill in your Slack profile, as we use Slack profiles as our Team Directory to st
 - Time zone (useful for other GitLab team members to see when you're available)
 - Working hours (can help others to identify the times you are generally available)
 - GitLab Birthdays (opt in or out of the birthday celebrations in Slack by selecting yes or no)
-- State / Province and Country (optional)
-- You can add your personal email address, phone number including country code (optional)
-- Consider changing your "display name" if you prefer to be addressed by a nickname
+- Location field for City / State / Province and Country (optional)
+- You can add your personal phone number including country code (optional)
+- Consider changing your "Display Name" if you prefer to be addressed by a nickname
 - Consider adding your pronouns in the Pronouns field. By making it normal to set pronouns we create a more inclusive environment for people who use non-traditional pronouns.
-- Consider adding pronunciation guides for your full name Name pronunication field to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij).
+- Consider adding a pronunciation guide in the "Name Pronunication" field to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij).
 - Consider adding a "Name recording" to help with name pronunciation.
 - Do not enter anything in the G-Cal Booking! field unless you would like to set up and make use of a [Calendly Account](/handbook/tools-and-tips/other-apps/#calendly)
 
@@ -90,7 +90,7 @@ Below are helpful links to best practices and tips on managing your notification
 - [Guide to Desktop Notifications](https://slack.com/intl/en-gb/help/articles/201355156-Guide-to-desktop-notifications#channel-specific-and-group-dm-notifications)
 - [Channel-specific and group DM Notifications](https://slack.com/intl/en-gb/help/articles/201355156-Guide-to-desktop-notifications#channel-specific-and-group-dm-notifications)
 - [Display only unread conversations](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections-Organize-your-sidebar-with-custom-sections-Organize-your-sidebar-with-custom-sections#manage-conversation-display)
-- [GitLab team member Brendan O'leary on how he uses Slack](https://boleary.dev/blog/2020-05-27-how-i-slack.html)
+- [GitLab team member Brendan O'leary on how he uses Slack](https://blog.boleary.dev/how-i-slack/)
 
 ### Display only unread conversations
 
@@ -163,6 +163,11 @@ In the confirmation prompt you may also see a checkbox to *"Disable future attac
 As a workspace admin if you select the disable option **this will denylist the link/domain across the workspace and will impact every user**.
 If you do happen to denylist a link or a domain, they can be modified in the Workspace admin portal under [Settings & Permissions](https://gitlab.slack.com/admin/attachments).
 
+If you see a team member share posts with multiple link previews that you think are distracting, in channels like `#whats-happening-at-gitlab`, consider acting in the spirit of [Everyone is a moderator](/handbook/communication/#everyone-is-a-moderator) and either:
+
+- [Letting them know in a DM](/handbook/communication/#communicate-directly) that it's adding noise to their message.
+- Reacting to their message with the `:consider-removing-link-previews-to-keep-the-channel-tidy-please:` emoji.
+
 ## Custom theme
 
 The interface colors can be customized in Slack.
@@ -201,3 +206,7 @@ As a GitLab Team Member, you can view the active slackbots that we use in Slack,
 | `on your toes, on anybody's toes` | It's probably okay.<br><br>As companies grow, their speed of decision making goes down since there are more people involved. We should counteract that [by having short toes](/handbook/values/#short-toes), and feel comfortable letting others contribute to our domain. |
 | `aggressive` | Did you mean ambitious? |
 | `gitlabber, gitlabbers` | The term `gitlabber` is a commonly misused term. Please use "GitLab team member" instead. You can [read more about this in our handbook](/handbook/communication/top-misused-terms/) |
+
+## Security
+
+Every 90 days, all users will be logged out of Slack and will need to re-authenticate on each of their devices via Okta. This is to ensure that all BYOD devices are registered with a current Okta Verify client and are visible in the Okta Administration dashboard. It will also ensure that there are no indefinite sessions on devices temporarily exempted from [Okta Verify Device Trust](/handbook/security/corporate/systems/okta/verify/). 

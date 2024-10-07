@@ -123,7 +123,7 @@ For colocated companies, the occasional team offsite — to take in a sporting e
 
 Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#culture-at-gitlab" >}}), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
 
-1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
+1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
 1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Coffee chats: More details below.
 1. Coworking calls: More details below.

@@ -33,6 +33,7 @@ as part of a related project. Where this is not possible, we use time around our
 Every quarter the engineering team sets [objectives and key results](/handbook/company/okrs/#what-are-okrs). OKRs are managed in GitLab as of FY24-Q1. The following are links to issues lists for Geo's OKRs.
 
 [OKRs FY25-Q2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q2&first_page_size=20)
+[OKRs FY25-Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q3&first_page_size=20)
 
 ## Geo's Relationship to Disaster Recovery
 
@@ -46,27 +47,27 @@ High Availability (HA) is also a step towards Disaster Recovery. At the moment G
 
 ## How to ask for support from Geo
 
-The first line of support will always be the support engineer assigned to the issue raised by the customer. However at times more expertise is required to resolve the customer concern and a Geo engineer needs to be involved.
+The first line of support will always be the support engineer assigned to the issue raised by the customer. However, at times more expertise is required to resolve the customer concern and a Geo engineer needs to be involved.
 This section outlines the process and expectations when requesting support from the team for Geo-related customer support issues.
 
 ### Before requesting support
 
-Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there.
+Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there. **Please reach out in the Geo Support Pod Channel `#spd_pod_geo` first before submitting a RFH.** 
 
 ### Asking a general question
 
-If you have a general question for which you can't find your answer, then feel free to ask your question in the #g_geo channel on Slack. Please keep in mind that engineers will do their best to support you and answer your question from the top of their heads. If they need to do more research and/or address more complicated scenarios, you will need to create a support issue (see next section).
+If you have a general question for which you can't find your answer, then feel free to ask your question in the [#g_geo](https://gitlab.slack.com/archives/C32LCGC1H) channel on Slack. Please keep in mind that engineers will do their best to support you and answer your question from the top of their heads. If they need to do more research and/or address more complicated scenarios, you will need to create a support issue (see next section).
 
 ### Create a support request issue
 
 We like to use issues when customers need help from the Geo Team. This helps us to prioritize work and make sure that we don't lose history and maintain context when the Slack retention policy activates.
 We ask requestors to create an issue in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers).
 
-Please make sure to use and fill the [Geo support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Geo.md) for Geo related questions and [Backup and Restore support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Backup%20and%20Restore.md). As the requestor you **only** need to fill the Customer Info and Support Question sections. The Timeline and Retrospective sections will be filled by the Geo team members as they address your request.
+Please make sure to use and fill the [Geo support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Geo.md) for Geo related questions and [Backup and Restore support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Backup%20and%20Restore.md). As the requestor you **only** need to fill the Customer Info and Support Question sections.
 
-**At minimum Zendesk links and logs are especially important. The issue will not enter our normal triage process if they are missing. If no update has been made on an issue for 2 weeks, they will be auto closed by the EM/PM/Assignee**
+**At minimum Zendesk links and logs are especially important. The issue will not enter our normal triage process if they are missing. If no update has been made on an issue for 2 weeks, they will be auto closed by the EM/PM/Assignee.**
 
-We also have a new trial process for this in place, please see [process](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#engineering-customersupport-rotation-process-trial-phase)
+We also have a process for triaging RFH issues, please see [process](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#engineering-customersupport-rotation-process)
 
 If you like, you may assign a priority label to your request. A geo team member or the PM will review this priority assignment during the triage of the issue. Please use the table below as a reference of priority levels and expected response times.
 

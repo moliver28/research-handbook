@@ -39,17 +39,17 @@ The SEC Reporting and Technical Accounting Manager is a [grade 8](/handbook/tota
 
 #### Responsbilities
 
-- The technical accounting expert for complex accounting issues related to non revenue contracts: asset acquisitions, business combinations, impairments, strategic investments, contract acquisition costs, VIEs, non-gaap, etc 
+- The technical accounting expert for complex accounting issues related to non revenue contracts: asset acquisitions, business combinations, impairments, strategic investments, contract acquisition costs, VIEs, non-gaap, etc
 - Perform thorough research and assessment to draft technical accounting memos and policies
 - Partner with the FP&A and accounting teams to prepare and review quarterly and annual financial statements, including the cash flow statement, statement of equity, non-gaap, earnings per share, etc
-- Perform the review of non-revenue contracts and assist with the conclusion of the accounting treatment of non-routine deals 
+- Perform the review of non-revenue contracts and assist with the conclusion of the accounting treatment of non-routine deals
 - Assist with development and maintenance of internal controls for external reporting, equity, stock-based compensation
 - Prepare Forms 10-Q and 10-K, earnings releases and other regulatory filings as needed
 - Manage the preparation of supporting schedules and documentation for SEC filings and perform tie-outs of the numbers
 - Support external audits and testing of internal controls
 - Prepare quarterly and annual disclosure checklists
 - Prepare earnings release tables
-- Lead the implementation and ongoing monitoring of new accounting pronouncements that may have a material impact on the financial statements or disclosures 
+- Lead the implementation and ongoing monitoring of new accounting pronouncements that may have a material impact on the financial statements or disclosures
 - Own the stock-based compensation and equity accounting
 - Process automation and implementation of best practices
 
@@ -145,12 +145,12 @@ The Director, Record to Report is a [grade 10](/handbook/total-rewards/compensat
 - Oversee the accounting of share-based compensation, goodwill, intangible assets, asset impairments, M&A activity, etc.
 - Perform the review of the non-revenue contracts and propose the accounting treatment of non-routine deals
 - Lead the implementation efforts of new accounting pronouncements that would have a material impact on the financials or the f-page disclosures
-- Provide technical accounting guidance and the review of the technical memos related to special terms contracts or projects, including asset acquisitions, business combinations, impairments, strategic investments, contract acquisition costs, VIEs, non-gaap, etc. 
+- Provide technical accounting guidance and the review of the technical memos related to special terms contracts or projects, including asset acquisitions, business combinations, impairments, strategic investments, contract acquisition costs, VIEs, non-gaap, etc.
 - Drive increased automation efforts of the day-to-day tasks and reporting, reducing the manual work required
 
 #### Director, SEC Reporting and Technical Accounting Requirements
 
-- The requirements for a Director extend from the foundational requirements of SEC Reporting and Technical Accounting Manager 
+- The requirements for a Director extend from the foundational requirements of SEC Reporting and Technical Accounting Manager
 - A minimum 10+ years public accounting and/or industry experience
 - Demonstrated experience with executive communication and presentations
 - Proven technical expertise related to U.S. GAAP and external reporting, including SEC reporting, share-based compensation accounting, business combinations, valuations, etc.
@@ -166,10 +166,10 @@ Strong analytical, problem-solving, and strategic-thinking skills with a forward
 ## Performance Indicators
 
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
-1. [Number of material audit adjustments](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
+1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
 1. [New hire location factor](/#new-hire-location-factor)
-1. [Percentage of ineffective SOX Controls](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
+1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Career Ladder
 

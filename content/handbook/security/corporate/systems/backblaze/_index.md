@@ -7,7 +7,7 @@ When Backblaze is installed on a device:
 
 1. CorpSec will only backup data that is relevant to the Legal Hold or Investigation.
 1. Personal data in the designated "Personal Folder" will not be backed up by Backblaze.
-1. Team Members will typically be notified before Backblaze is installed on their device, unless a stealth deployment is required.
+1. Team Members will typically be notified before Backblaze is installed on their device.
 1. Data backed up by Backblaze will be stored securely and access will be strictly limited to authorized personnel involved in the legal hold or investigation.
 1. Once the legal hold or investigation is complete, all data backed up by Backblaze will be securely deleted in accordance with data retention policies and applicable laws.
 

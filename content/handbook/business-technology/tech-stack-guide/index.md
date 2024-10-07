@@ -186,12 +186,12 @@ Zuora Data to Salesforce via Zuora CPQ
 
 #### Customers Dot to Zuora Billing
 
-CustomersDot data to Zuora via [IronBank GEM](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/#ironbank) using the [Zuora Subscribe API](https://www.zuora.com/developer/api-reference/#tag/Subscriptions) and [Zuora Amend API](https://www.zuora.com/developer/api-reference/#tag/Amendments)
-     * [Orders Harmonization plans to transition](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/616) to the [Zuora Orders API](https://www.zuora.com/developer/api-reference/#tag/Orders)
+CustomersDot data to Zuora via [IronBank GEM](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/#ironbank) using the [Zuora Subscribe API](https://developer.zuora.com/v1-api-reference/introduction/#tag/Subscriptions) and [Zuora Amend API](https://developer.zuora.com/v1-api-reference/introduction/#tag/Amendments)
+     * [Orders Harmonization plans to transition](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/616) to the [Zuora Orders API](https://developer.zuora.com/v1-api-reference/introduction/#tag/Orders)
 
 #### Zuora to Snowflake
 
-Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
+Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
 
 #### Zuora to NetSuite
 

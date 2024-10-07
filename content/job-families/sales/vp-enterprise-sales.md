@@ -33,7 +33,7 @@ Multiple repeatable proof points of recruiting, hiring, developing, and retainin
 - Bachelor degree
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Territories
 

@@ -58,7 +58,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
    1. [Learn Git Branching](https://learngitbranching.js.org/)
-   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://docs.gitlab.com/ee/topics/gitlab_flow.html))
+   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/))
 
 #### Week 2
 

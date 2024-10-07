@@ -115,7 +115,7 @@ The Manager, GTM Planning and Operations is a [grade 8](/handbook/total-rewards/
 - Relevant experience and a solid understanding of go-to-market design & sales planning as well as sales compensation design & analytics
 - Some experience interacting with Leaders at the VP level as well as experience collaborating closely with leaders at the Sr. Director level and below
 - Advanced analytical and financial modeling skills with high motivation to drive high value insights
-- Meet the [Leadership at Gitlab](/handbook/company/structure/#management-group) requirements
+- Meet the [Leadership at GitLab](/handbook/company/structure/#management-group) requirements
 
 ### Senior Manager, GTM Planning and Operations
 

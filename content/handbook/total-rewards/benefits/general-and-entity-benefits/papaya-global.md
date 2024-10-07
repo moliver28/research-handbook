@@ -43,7 +43,7 @@ The annual flights do not roll over year to year, in the event that the team mem
 
 During onboarding the eligible team members will have a policy set up in Navan where the team member can book their flights home. More information on the policy can be found [here](https://docs.google.com/spreadsheets/d/1eXT_0-mP2bNQtTO6opLjYSjdbH_Yuj8JIqMPM7DT80g/edit#gid=0). The trip purpose should be selected as 'UAE - Annual Flights'.
 
-Please refer to the GitLab Travel page of the Handbook on how to book flights through Navan [here](/handbook/travel/)
+Please refer to the GitLab Travel page of the Handbook on how to book flights through Navan [here](/handbook/finance/travel/)
 
 ### Medical
 
@@ -103,13 +103,13 @@ If the baby is sick or suffers from a disability, the female worker may take add
 
 After the female worker resumes work, she is entitled to one or two additional breaks each day for nursing her child. The duration of the two breaks must not exceed one hour. The woman is entitled to such breaks for 6 months following the date of delivery. Such breaks are fully paid for.
 
-To apply for leave, please enter the dates into Time Off by Deel and select the `Parental Leave` label. The Absence Management team will reach out to you with more information.
+To apply for leave, please enter the dates into Workday and select the `Parental Leave` label. The Absence Management team will reach out to you with more information.
 
 ### Parental Leave
 
 Team members of the private sector are entitled to a parental leave of 5 working days from the day of the birth of their child to six months. The parental leave is a paid leave that can be applied for by both mother and father of the baby.
 
-To apply for leave, please enter the dates into Time Off by Deel and select the `Parental Leave` label. The Absence Management team will reach out to you with more information.
+To apply for leave, please enter the dates intoWorkday and select the `Parental Leave` label. The Absence Management team will reach out to you with more information.
 
 ### Sabatical Leave (National Service)
 

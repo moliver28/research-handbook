@@ -7,10 +7,9 @@ title: "Tax"
 | Role                                                | Grade |
 | ----- | ----- |
 | VP, Tax | Level 12 |
-| Director, Tax(Domestic/International) | Level 10 |
-| Sr. Manager, Tax (Domestic/International) | Level 9 |
-| Manager, Tax (Domestic/International) | Level 8 |
-| Multinational Tax Manager | Level 8 |
+| Director, Tax(Domestic/Multinational) | Level 10 |
+| Sr. Manager, Tax (Domestic/Multinational) | Level 9 |
+| Manager, Tax (Domestic/Multinational) | Level 8 |
 | Sr Analyst | Level 7 |
 | Analyst | Level 6 |
 | Jr Analyst | Level 5 |
@@ -171,17 +170,17 @@ The Senior Manager, Multinational Tax (Non US) is a job [grade 9](/handbook/tota
 - Models and joins in planning for our economic ownership of IP
 - Assists international team with CFC tax basis, earnings and profits, Subpart F, BEAT, GILTI and FDII calculations
 - Primary contact with outside service provider for our transfer pricing contemporaneous documentation and country by country reporting
-- Primary contact with our tax preparers for international local income tax compliance
+- Primary contact with our tax preparers for multinational local income tax compliance
 - Maintains all digital service taxes and similar taxes
 - Assists with transfer pricing audits
-- Manages international local income tax and indirect tax audits
+- Manages Multinational local income tax and indirect tax audits
 - Maintains per-country effective tax rates for US GAAP purposes
-- Maintains cumulative book/tax differences for our international entities for local and US GAAP purposes. Works with our Accounting team to understand GAAP to statutory book differences.
+- Maintains cumulative book/tax differences for our Multinational entities for local and US GAAP purposes. Works with our Accounting team to understand GAAP to statutory book differences.
 - VAT/GST compliance and audits
 - Assists with new entity setup, working with our legal, finance, and human resources teams
 - Works with our stock-based comp and payroll teams regarding per-country stock based compensation issues
 - Provides information, as needed, to international local entity directors
-- Works with our finance and treasury teams to fund international operations
+- Works with our finance and treasury teams to fund multinational operations
 - Administers intercompany agreements, including intercompany invoicing
 - Assists with withholding compliance on
 - Billing by local entities
@@ -195,12 +194,12 @@ The Senior Manager, Multinational Tax (Non US) will have Big-4 or comparable mul
 - CBC reporting
 - Some understanding of the effects of the Tax Cuts and Jobs Act of 2017
 - Permanent establishment issues
-- Local international tax compliance project management
-- International funding, contributions and distributions
+- Local Multinational tax compliance project management
+- Multinational funding, contributions and distributions
 - Knowledge of GitLab merge requests is a plus
 - Initiating and settling intercompany transactions
 - Staff supervision
-- The Senior Manager, International Tax will have a BS/BA in Accounting or Finance. An MST, MBT, or LLM or similar international designation in taxation is preferred. A CPA or similar international license is preferred.
+- The Senior Manager, Multinational Tax will have a BS/BA in Accounting or Finance. An MST, MBT, or LLM or similar international designation in taxation is preferred. A CPA or similar international license is preferred.
 
 ### Director, Tax
 
@@ -277,9 +276,9 @@ The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/co
 - International funding, contributions and distributions
 - Identification of issues and project management (knowledge of GitLab merge requests is a plus)
 - Initiating and settling intercompany transactions
-Maintaining capital preservation, minimizing any excess cash held by international subsidiaries
-Supervising managers and creating leaders
-The Director of International Tax will have a BS/BA in Accounting or Finance with an MST, MBT, or LLM in taxation. A CPA is preferred.
+- Maintaining capital preservation, minimizing any excess cash held by Multinational subsidiaries
+- Supervising managers and creating leaders
+- The Director of Multinational Tax will have a BS/BA in Accounting or Finance with an MST, MBT, or LLM in taxation. A CPA is preferred.
 
 ## Specialties
 

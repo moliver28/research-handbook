@@ -39,8 +39,8 @@ Misinformation:
 * If you are new to Reddit, it may be useful to review this [beginner's guide].
 * Use your **individual** reddit account, not a shared company one. Feel free to use your personal (non-work) account if you prefer. You can request the `GitLab Staff` user flair by pinging `@devrel-team` in the `#developer-relations` Slack channel and include your Reddit username. . User flair brings more visibility to GitLab team members and it's a transparent and effective way to let the wider community that you are part of the organization. It also makes comments seem more authentic and shows engagement in Reddit.
 * If you use Reddit a lot, it may be useful to create a separate, more professional (but still individual) work account to interact with the GitLab community as part of your role.
-* [Brush up on your "reddiquette"](https://www.reddit.com/wiki/reddiquette)
-* [Make sure your comments are well formatted](https://www.reddit.com/wiki/commenting)
+* [Brush up on your "reddiquette"](https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette)
+* [Make sure your comments are well formatted](https://www.reddit.com/r/reddit.com/wiki/markdown/)
 
 ## Common Subreddits Mentioning GitLab
 

@@ -139,9 +139,11 @@ See below for code that can be added to the frontmatter of all pages. If you're 
 
 No matter the circumstance, the social team will need a visual asset to accompany our posts. In many cases, it's most effective and time efficient if these images were created with the linked page development and added to the frontmatter before publicizing the link to teams who need to use it for promotional efforts. When there is not an image already embedded in the frontmatter of a page that GitLab owns or operates, the social team can either spend time creating our own images or reject the request. In many cases, it won't be an appropriate use of time for the social team to create our own images.
 
-#### Consider using an existing template in our Canva Enterprise account. These images have been approved to use
+#### Canva Enterprise Account
 
-#### Templates
+Consider using an existing template in our Canva Enterprise account as these images have been approved to use.
+
+##### Templates
 
 - [Generic Website Template](https://www.canva.com/design/DAEefl8BdlA/L27eJQgZuophxErdjRMnDw/view?utm_content=DAEefl8BdlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 - [Generic Brand Template](https://www.canva.com/design/DAEexdigCaQ/hd7RR6KYWWWEymV6f8Cy_A/view?utm_content=DAEexdigCaQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
@@ -343,7 +345,7 @@ Day of Giveaway </summary>
 <li>Announce each giveaway and use handles whenever possible, tell them to check their DMs</li>
 <li>DM the swag codes or whatever the item is</li>
 <li>In your copy, directly address the person/people like you are chatting with them irl</li>
-<li>RT and use gifs with abandon but also judgment</li>
+<li>RT and use GIFs with abandon but also judgment</li>
 </ul>
 
 </details>

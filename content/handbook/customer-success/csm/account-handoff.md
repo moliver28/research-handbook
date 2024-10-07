@@ -64,11 +64,16 @@ DRI: New CSM/A being assigned
 DRI: CSM/A that the customer is transferring away from
 
 1. On the day of transfer change the name listed as the Customer Success Manager in Gainsight to TAM Scale. This is the name that represents the CSE organization as a whole in our CRMs.
+1. Any open Success Plan with this customer should be closed and an update in Gainsight should be added which incidates the handover to CSE.
+1. Close all open / pending CTA's within Gainsight for the customer which is about to he handed over.
+1. Take a look at the Collaboration-Project and close old issues assigned to you. If there is nobody (ie an SA) going to continue using the project, consider archiving it.
 1. The CSM Compensation Pool will need to be changed. Change it to the CSE pool that represents the Geo of the customer:
     1. CSE_AMER_1
     1. CSE_EMEA_1
     1. CSE_APAC_1
     1. CSE_PUBSEC_1
+
+Generally speaking there is no direct assigment to a specific CSE like an account was assigned to a CSM. The CSE team will be best involved by letting the AE or SA opening a [CSE help request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process), in which the CSE can introduce their role to the customer and how CSE team works. Going forward, CSE help requests should be used again and again by the AE / SA / RM, when a situation at the customer arises, which needs help by a CSE team member.
 
 **CSE Organization to CSM/A**
 
@@ -79,7 +84,7 @@ DRI: CSM/A the customer is transferring to
 
 **How to handle overrides**
 
-At Gitlab, we value [Collaboration](/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo's senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
+At GitLab, we value [Collaboration](/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo's senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
 
 ## Topics to Cover
 

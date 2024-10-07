@@ -352,6 +352,10 @@ You can choose to cancel your opt-out agreement at any time. The notice period y
 To ensure the physical and mental health and safety of our team members in Australia, and to maintain compliance with local employment regulations, all team members in Australia will complete the following checklist at onboarding. This checklist will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact the People Connect team via HelpLab. If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
 - [Remote Work Checklist](https://docs.google.com/document/d/1_sHk3ksGLDVxBZsnO3pMD-U_R_Fy0Yyu/edit?usp=sharing&ouid=106298195226644329866&rtpof=true&sd=true)
+
+**Right to Disconnect**
+
+- [Right to Disconnect](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/#gitlab-pty-australia-right-to-disconnect)
 {{% /details %}}
 
 {{% details summary="GitLab PTY (New Zealand)" %}}

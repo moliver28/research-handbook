@@ -149,8 +149,6 @@ Information for and about the different parts of the Support Team can be found i
 
 Below we also have some commonly referenced pages:
 
-- [Support Global Groups](/handbook/support/support-global-groups/index.html) - all
-  about the smaller groups in which Support Engineers work on support tickets
 - [Support Engineer responsibilities](/handbook/support/support-engineer-responsibilities)
 - [Support Engineer knowledge areas](/handbook/support/workflows/knowledge_areas)
 - [Support Engineer career path](/handbook/support/support-engineer-career-path)
@@ -314,11 +312,13 @@ issue trackers or customer tickets.
 
 When naming channels, "spt" is meant for internal channels, meaning those that will be of use to the Support Team mainly. They should be public so others may join if they choose. If a channel has a "support" prefix, it is meant as a public interface where other teams will interact with the Support Team.
 
-The "spt_gg_" prefix is used for [Support Global Groups](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3879) internal channels.
-
 #### Daily Stand-up bot
 
-The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) Daily Stand-up posts at the commencement of each region's [Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) regularly, in a number of channels to advise global groups of different information. For further details of the different variations, please refer to the SGG handbook page of the group you are curious about.
+The [Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+is an automated tool designed to facilitate daily standup Slack threads across
+various teams and regions at GitLab. It posts customized messages to specific
+Slack channels based on type and target. For further details of the different
+variations, please refer to the [README file](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot/-/blob/main/README.md?ref_type=heads).
 
 #### Channels
 
@@ -331,9 +331,10 @@ The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-sof
 | [#support_ticket-attention-requests](https://gitlab.slack.com/archives/CBVAE1L48) | Discuss escalated tickets with the Support Manager On-Call |
 | [#support_operations](https://gitlab.slack.com/archives/C018ZGZAMPD) | Discuss operational items related to how Support works |
 | [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
-| [#spt_hiring](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
+| [#recruiting-support-engineering](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
+| [#spt_amer_global](https://gitlab.enterprise.slack.com/archives/C07EYM9NNE4) | Discuss topics specific to Global SEs in AMER |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
-| [#spt_us-federal](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
+| [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 
 ##### Private Channels
 
@@ -598,18 +599,16 @@ Providing information by reacting to a message with a specific emoji.
 After getting promoted, make sure to update your title in:
 
 - our [Support team page](https://gitlab.com/gitlab-support-readiness/support-team), and the change would be reflected in Zendesk
-- the company team page following the same steps in [Add yourself to the Team Page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
+- the company team page following the same steps in [Add yourself to the Team Page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page)
 
 Consider updating the title on Slack and on Zoom, following the guidelines in [Zoom name format](#zoom-name-format).
 
 ### Support Pods
 
-In GitLab Support, we have two mechanisms to organize support engineers as they work:
-
-- Support Global Groups: A cross-region, cross-skillset group of engineers that coordinate on issues and hand off tickets"
-- Support Pods: A cross,region, single skill group of engineers that are experts or soon to be experts on that specific product area.
-
-Global groups are organized by managers. Support Pods are engineer-lead. To join or start a Support Pod you can read more below.
+In GitLab Support, we use `Support Pods` to organize support engineers as they
+work. Each Support Pod is a cross-region, single skill group of engineers who
+are interested in their Support Pod's specific product area. They are engineer-
+lead. To join or start a Support Pod you can read more below.
 
 *See the [Support Pods handbook page](/handbook/support/support-pods) and the [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).*
 
@@ -672,7 +671,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
   - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
-  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
   - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
   - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
   - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)

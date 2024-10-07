@@ -14,8 +14,8 @@ As a Product Organization, we work to create a flexible yet concise product deve
 ### Product Development Flow
 
 Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
-principles/#the-minimal-viable-change-mv
-This process should be both up front and on an on-going basis when building features. 
+
+This process should be both up front and on an on-going basis when building features.
 
 ### The Importance of Direction
 
@@ -110,7 +110,7 @@ the most important being a clear communication of the problem we're solving for 
 
 When writing about a feature, make sure to cover [these messaging guidelines](/handbook/marketing/blog/release-posts/#messaging-review)
 which help produce clear internal and external
-messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Viable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
+messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Valuable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
 
 Let's highlight the messaging guidelines mentioned above with a concrete example, Preventing Secrets in your repositories,
 that [we shipped in 8.12](https://about.gitlab.com/releases/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).
@@ -154,7 +154,7 @@ and working with your technical writing team to include links to your speed runs
 
 #### Using GIFs
 
-Animated gifs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
+Animated GIFs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
 
 #### Speed Run
 
@@ -216,21 +216,21 @@ Development Kit (GDK).
 
 ### Dealing with security issues
 
-Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
+Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
 ### Foundational Requirements
 
-When thinking about new features, we must not only think about the functional requirements of a feature (defining what the feature will do), but also to think about foundational requirements (defining how the feature works). At the highest level, foundational requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. It is important to have foundational requirements in place up front, as this is much easier than trying to add them later and change expectations, or break existing workflows. Our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) contains specific areas of consideration that are required for the acceptance of new contributions. 
+When thinking about new features, we must not only think about the functional requirements of a feature (defining what the feature will do), but also to think about foundational requirements (defining how the feature works). At the highest level, foundational requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. It is important to have foundational requirements in place up front, as this is much easier than trying to add them later and change expectations, or break existing workflows. Our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) contains specific areas of consideration that are required for the acceptance of new contributions.
 
-For an in depth review of foundational requirements (often referred to as non-functional requirements), see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/). 
+For an in depth review of foundational requirements (often referred to as non-functional requirements), see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/).
 
 To deliver features, we must have both functional and foundational requirements defined.
 
 #### Introducing application limits
 
-To enhance availability and performance of GitLab, configurable limits should be put in place for features which utilize storage, or scale in a manner which could impact performance. For example, we [limit the number of webhooks per project](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html), and we allow admins to set [rate limits on raw endpoints](https://docs.gitlab.com/ee/administration/settings/rate_limits_on_raw_endpoints.html). These limits ensure more consistent performance, reduce the likelihood of outages, and offer admins tools to limit abuse or enforce specific standards. While these limits can be configurable, sensible default limits should be defined for our GitLab SaaS and GitLab dedicated offerings. 
+To enhance availability and performance of GitLab, configurable limits should be put in place for features which utilize storage, or scale in a manner which could impact performance. For example, we [limit the number of webhooks per project](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html), and we allow admins to set [rate limits on raw endpoints](https://docs.gitlab.com/ee/administration/settings/rate_limits_on_raw_endpoints.html). These limits ensure more consistent performance, reduce the likelihood of outages, and offer admins tools to limit abuse or enforce specific standards. While these limits can be configurable, sensible default limits should be defined for our GitLab SaaS and GitLab dedicated offerings.
 
 There is a guide about [developing application limits](https://docs.gitlab.com/ee/development/application_limits.html) in the GitLab Docs.
 
@@ -265,7 +265,7 @@ When evaluating feature data storage, the following data storage topics should b
 - **How long should data be retained?** - We should consider carefully the need to store data indefinitely. For many features, removing certain data after a specified time period won't impact the functionality of the feature. In these instances, we should put retention policies in place. These retention polices should have a sane default value which is considered best practice for operating the feature long term. _Note: it is easier to iterate toward longer data retention time frames, but far harder to reduce retention time frames. Consider starting out with a conservative time frame._
 - **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Gitaly::Git Group](/handbook/product/categories/#gitalygit-group) for assistance.
 
-A good example where we've successfully evaluated data storage is our CI/CD Artifacts. We've set some sane default values for both [maximum artifact size](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#maximum-artifacts-size) and for [default artifacts expiration](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#default-artifacts-expiration), while making these both configurable for administrative users. 
+A good example where we've successfully evaluated data storage is our CI/CD Artifacts. We've set some sane default values for both [maximum artifact size](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#maximum-artifacts-size) and for [default artifacts expiration](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#default-artifacts-expiration), while making these both configurable for administrative users.
 
 ### Cross-stage features
 
@@ -489,7 +489,7 @@ There are a few special considerations when it comes to delivering features for 
 As a product manager, you will be assigned as the [stable counterpart](/handbook/company/structure/#specialists-experts-and-mentors) to a single [group](/handbook/company/structure/#groups). At GitLab we abide by
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
-1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/engineering/metrics/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
+1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
 1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
 
 As an all-remote company, our crispness when it comes to responsibilities throughout the Product Delivery process was born out of necessity, but it pays untold dividends. Some of the benefits include:
@@ -575,7 +575,7 @@ We have found the following methods less successful in ensuring completion of wo
 ### Planning and Direction
 
 As a PM, you must plan for the near term milestones (more detailed) as well as for the long
-term strategy (more broad), and everything in between. 
+term strategy (more broad), and everything in between.
 While monthly milestone planning is done in GitLab, longer horizon planning (1-3 years) is done in direction pages.
 This will enable you to efficiently communicate both internally and externally
 how the team is planning to deliver on the [product vision](https://about.gitlab.com/direction/#vision).
@@ -605,13 +605,13 @@ Section leaders are responsible for maintaining Direction pages that lay out the
 ##### Category Direction
 
 A category strategy is required which should outline various information about
-the category including overall strategy, status, what's next, and the competitive landscape. 
+the category including overall strategy, status, what's next, and the competitive landscape.
 The category strategy should be documented in a handbook page, which allows for version control
-of the category strategy as well as the ability to embed video assets. 
+of the category strategy as well as the ability to embed video assets.
 One of the most important pieces of information to include in the category strategy is a tangible next step or MVC
 and a clear description of focus and out-of-focus/maintenance areas.
 
-Your category strategies should contain short paragraphs with lots of references to specific epics and issues. 
+Your category strategies should contain short paragraphs with lots of references to specific epics and issues.
 Referencing topics, instead of features is encouraged as it's more stable over time.
 
 We use this [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_direction_template.html.md)
@@ -658,12 +658,12 @@ Once the direction page has been added, there needs to be an assigned DRI for ma
 
 You should use the `~direction` label together with category and section labels to mark epics and issues that fall into the given direction.
 
-Product Direction items (i.e., with the label) should be direction-level items that move the strategy forward meaningfully. This is up to the PM to set the bar for, but there should be a clear step forward with real user value. 
+Product Direction items (i.e., with the label) should be direction-level items that move the strategy forward meaningfully. This is up to the PM to set the bar for, but there should be a clear step forward with real user value.
 
-It's important to note here that your plan _is not_ simply a list of new features and innovation. 
-Those are included for sure, but so are issues related to all of your [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/). 
-A category upgrade from minimal to viable or delivery of a top customer issue (for example) can contribute to your plan just as much as a brilliant new innovative feature can. It's up to PMs to balance this through a coherent longer-term strategy. 
-Conversely, in a broad sense anything could move the plan forward in a general way. 
+It's important to note here that your plan _is not_ simply a list of new features and innovation.
+Those are included for sure, but so are issues related to all of your [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/).
+A category upgrade from minimal to viable or delivery of a top customer issue (for example) can contribute to your plan just as much as a brilliant new innovative feature can. It's up to PMs to balance this through a coherent longer-term strategy.
+Conversely, in a broad sense anything could move the plan forward in a general way.
 
 Finally, issues are the substance of your plan. Ensure you are applying the label to both revelant epics _and_ its issues.
 
@@ -675,7 +675,7 @@ Accordingly, the direction pages are expected to refer to specific issues only f
 
 #### Planning is indispensable but adjust, iterate
 
-Creating a thoughtful direction for your section, stage, or category is a useful thought exercise that can help focus efforts, aid in prioritization, and get large groups of people on the same page. But beware of simply executing your long term plan. Our industry is incredibly dynamic, and we learn new things every day that can and should cause us to re-think our long term plans. 
+Creating a thoughtful direction for your section, stage, or category is a useful thought exercise that can help focus efforts, aid in prioritization, and get large groups of people on the same page. But beware of simply executing your long term plan. Our industry is incredibly dynamic, and we learn new things every day that can and should cause us to re-think our long term plans.
 
 #### Delivery follows discovery
 
@@ -694,7 +694,7 @@ Maturity plans are highly encouraged - but not required - for non-marketing cate
 
 #### Planning and OKRs
 
-[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-okrs/) and product group OKRs. 
+[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-okrs/) and product group OKRs.
 You should have plans for the next three months in terms of driving specific product metrics through discovery and delivery actions.
 You should discuss the product metrics with your manager, your design and engineering counterparts and the actions to reach the results with your design and engineering counterparts.
 
@@ -731,7 +731,7 @@ a fully prioritized issue board where the ordering of the issues reflects their 
 ##### Planning with milestones
 
 Product Managers can assign milestones to issues to indicate when an issue is likely
-to be scheduled and worked on. 
+to be scheduled and worked on.
 Still, whether an issue can be delivered within a milestone is the decision of the engineering team.
 As we consider more distant milestones, the certainty of
 the scope of their assigned issues and their implementation timelines is increasingly
@@ -756,14 +756,14 @@ demand to prioritize the item yet. The best way to demonstrate urgency on
 either of these items is to vote on them and, if possible, add comments
 explaining your use case and why this is important to you.
 
-**Recommendation for when to change 'Awaiting further demand':** 
-Always focus on the overall value of the feature. 
-Do you have a good understanding of the user problem? 
+**Recommendation for when to change 'Awaiting further demand':**
+Always focus on the overall value of the feature.
+Do you have a good understanding of the user problem?
 Do you have a good understanding of the impacted user base?
 Was the proposed solution validated?
 Issues with the 'Awaiting further demand' label often mean poorly understood requests that require more information from our users and the market.
 
-Often public feedback only comes from a small percentage of people using or evaluating a feature or product. 
+Often public feedback only comes from a small percentage of people using or evaluating a feature or product.
 You should always consider reaching out directly to our users to learn more about their use cases.
 
 **Recommendation when changing a previously planned issue to `Backlog`:** When moving
@@ -783,7 +783,7 @@ of these special milestones.
 #### Shifting commitment mid-iteration
 
 From time to time, there may be circumstances that change the ability for a team
-to ship the features/issues they committed to at the beginning of the iteration. 
+to ship the features/issues they committed to at the beginning of the iteration.
 These steps also apply when an issue is broken into multiple issues.
 When this happens, as a PM you must coordinate with your EM counterpart that
  the impacted issues and their milestones
@@ -966,7 +966,7 @@ on these artifacts via these (non-exhaustive) opportunities:
 - Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
 - Talk with GitLab team-members using GitLab.
 - Talk with GitLab team-members in [group conversations](/handbook/company/group-conversations/).
-- Talk with other PMs and [Product leadership](/handbook/product/product-leadership/) to align your stage's product direction with the rest of GitLab.
+- Talk with other PMs and [Product leadership](/handbook/product/product-leaders/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
 are up-to-date and visible to critical stakeholders:
@@ -1339,8 +1339,8 @@ Product Managers should also regularly assess the performance and cost of featur
 There are a few different tools PM's can utilize to understand the operational costs of their features. Some of these are maintained by Infrastructure, based on the operational data of GitLab.com. Others tools, like service ping, can be utilized to better understand the costs of our self-managed users. Ultimately, each product group is responsible for ensuring they have the data needed to understand and optimize costs.
 
 - Useful Dashboards to Visualize Infrastructure Costs:
-- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) required)
-- [Service ping](https://docs.gitlab.com/ee/development/service_ping/)
+- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) required)
+- [Service ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
 #### Links to learn more about infrastructure cost management initiatives
@@ -1352,7 +1352,7 @@ There are a few different tools PM's can utilize to understand the operational c
 
 #### Tools to understand end user experience
 
-- [Snowplow data](/handbook/business-technology/data-team/platform/snowplow/) on GitLab.com
+- [Snowplow data](/handbook/enterprise-data/platform/snowplow/) on GitLab.com
 - Quarterly PCSAT and SUS surveys
 - [Page load performance](../product-processes/#page-load-performance-metrics)
 
@@ -1420,7 +1420,7 @@ Increase product instrumentation across our offerings to deliver greater product
 
 1. Issue Request
 
-PM: Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using this templaste](https://gitlab.com/gitlab-data/product-analytics/-/blob/main/.gitlab/issue_templates/Post-Launch%20Instrumentation%20Audit.md). 
+PM: Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using this templaste](https://gitlab.com/gitlab-data/product-analytics/-/blob/main/.gitlab/issue_templates/Post-Launch%20Instrumentation%20Audit.md).
 
 Assign the issue to your Product Data Insights counterpart and Carolyn Braza (`@cbraza`) will automatically be added for visibility.
 

@@ -72,7 +72,7 @@ Under **no circumstance** should you be wiping your own laptop. Laptop wipes mus
 
 If you are returning your laptop to IT please purchase a cardboard box and packing foam before your last day and expense it in Navan under [Office supplies & consumables](/handbook/finance/expenses/#office-supplies--consumables). IT will be sending a prepaid shipping label to return the laptop.
 
-Please refer to the Laptop Buy Back Policy [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-buy-back-policy).
+Please refer to the Laptop Buy Back Policy [here](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy).
 
 ## Compensation - Payroll
 
@@ -106,7 +106,7 @@ Please follow the process as listed on the Expense Handbook [page](/handbook/fin
 
 ### When will my benefits coverage end?
 
-Typically, benefits coverage ends your last day with GitLab. In the US, medical, dental, and vision coverage will end of the month during which you leave, all other benefits end on your last day. 
+Typically, benefits coverage ends your last day with GitLab. In the US, medical, dental, and vision coverage will end of the month during which you leave, all other benefits end on your last day.
 
 ### How will my stock options be managed? What if I have been at GitLab less than a year?
 

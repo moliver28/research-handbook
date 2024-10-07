@@ -22,6 +22,7 @@ allowlists
 allyship
 AlmaLinux
 AMAs
+AMAUs
 AMIs
 anonymization
 anonymized
@@ -107,6 +108,7 @@ Bitbucket
 Bitnami
 bitrate
 Bittrex
+Bizible
 Blackmagic
 blockquote
 blockquoted
@@ -324,7 +326,6 @@ Dev
 devfile
 devfiles
 DevOps
-Devo
 Dhall
 dialogs
 Diffblue
@@ -385,6 +386,7 @@ enrichers
 enum
 enums
 Enviroments
+ERDs
 ESLint
 ESXi
 ETag
@@ -513,6 +515,8 @@ heatmap
 heatmaps
 Helm
 Helmfile
+Helpdesk
+HelpLab
 Heroku
 Herokuish
 heuristical
@@ -572,7 +576,9 @@ irker
 ISOs
 issuables
 Istio
+iTerm
 Jaeger
+Jamf
 Jamstack
 jasmine-jquery
 Javafuzz
@@ -763,6 +769,7 @@ neurodiversity
 neurotypical
 NGINX
 ngrok
+Nira
 njsscan
 Nokogiri
 nosniff
@@ -973,6 +980,9 @@ repmgrd
 repo
 repos
 reposts
+reprioritize
+reprioritized
+reprioritizing
 repurpose
 repurposes
 repurposing
@@ -1074,7 +1084,9 @@ shortcodename
 shortcodes
 Sidekiq
 Sigstore
+Sijbrandij
 Silverlight
+Siri
 Sisense
 Sitespeed
 skippable
@@ -1088,10 +1100,10 @@ Slony
 SLOs
 smartcard
 smartcards
+SMAUs
 SMEs
 snake_case
 snake_cased
-Snapcraft
 snapshotting
 Snowplow
 Snyk
@@ -1116,7 +1128,6 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
-stageless
 starrer
 starrers
 Stickermule
@@ -1198,6 +1209,7 @@ taskscaler
 tcpdump
 teardown
 templated
+Tesorio
 Thanos
 thoughtbot
 throughputs

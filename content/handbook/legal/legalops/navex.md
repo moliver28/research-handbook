@@ -3,8 +3,6 @@ title: "NAVEX Compliance Courses"
 description: "Information about NAVEX compliance training, including processes, course info, and FAQ"
 ---
 
-The information on this page is specific to NAVEXEngage, NAVEX's online ethics and com
-
 ## Access
 
 Navex is GitLab's online ethics and compliance training solution. All new team members have a task during their onboarding to set up their NAVEX account and complete the assigned courses within 30 days of starting. NAVEX accounts are provisioned automatically on a new hire's start date via a Workday integration and can only be accessed through Okta.

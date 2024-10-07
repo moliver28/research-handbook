@@ -6,7 +6,7 @@ title: Product Leadership
 
 ## General Product Organizational Structure
 
-The GitLab Product team includes team members at various levels of [Product Management job titles](/handbook/product/product-manager-role/product-CDF-competencies/) across our [organizational levels](/handbook/company/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy). As a result there can be instances where peers across layers don't have the same title. We will always abide by [GitLab's layer structure](/handbook/company/structure/#layers).
+The GitLab Product team includes team members at various levels of [Product Management job titles](/handbook/product/product-management/product-cdf-competencies/) across our [organizational levels](/handbook/company/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy). As a result there can be instances where peers across layers don't have the same title. We will always abide by [GitLab's layer structure](/handbook/company/structure/#layers).
 
 | Level | Job Families | Hierarchy Scopes |
 | ----- | ------------ | ---------------- |
@@ -27,7 +27,7 @@ This group can be referenced in GitLab.com issues using the `@gl-product-plt` ha
 
 ## Product Monthly Kick-Off Host Rotation
 
-The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is hosted by a member of [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) on a monthly rotation. See below for the schedule:
+The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is hosted by a member of [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) on a monthly rotation. See below for the schedule:
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -42,15 +42,15 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-05-20 | Steve Evangelista | [17.1 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13349) |
 | 2024-06-18 | Mike Flouton | [17.2 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13455) |
 | 2024-07-18 | Justin Farris | [17.3 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13519) |
-| 2024-08-19 | Hillary Benson | To be added |
-| 2024-09-18 | Steve Evangelista | To be added |
-| 2024-10-17 | Mike Flouton | To be added |
-| 2024-11-18 | Justin Farris | To be added |
-| 2024-12-18 | Hillary Benson | To be added |
+| 2024-08-19 | Hillary Benson | [17.4 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13573) |
+| 2024-09-18 | Jackie Porter | [17.5 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13636) |
+| 2024-10-17 | Steve Evangelista | To be added |
+| 2024-11-18 | Mike Flouton | To be added |
+| 2024-12-18 | Justin Farris | To be added |
 
 ## Product Key Review Leader Rotation
 
-The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
+The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -62,7 +62,7 @@ The Product [Key Review](/handbook/company/key-review/) is hosted by a member of
 
 ## Product Group Conversation Leader Rotation
 
-The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
+The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
 
 For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
 

@@ -7,7 +7,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i>  Welcome to the GitLab Content Strategy & Ops Handbook
+## <i class="fas fa-bullhorn fa-fw\"></i>  Welcome to the GitLab Content Strategy & Ops Handbook
 
 ### Meet the GitLab Content Strategy & Ops team. 👋
 
