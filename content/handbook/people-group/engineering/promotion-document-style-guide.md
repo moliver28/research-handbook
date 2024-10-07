@@ -11,7 +11,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
 
 ## Tips
 
-1. Minimize the use of adjectives and adverbs
+1. Minimize the use of adjectives and adverbs.
    - **Don't**:
      - _"significantly improved the performance of the most important Plan endpoints"_
    - **Do**:
@@ -24,15 +24,17 @@ The emphasis on quantification over editorialization has a number of benefits fo
      - _"increased monthly page views by 25% over a 3 month period, from 8 million to 10 million."_
    - **Why**:
      - Ensures that statements pass the "so what" test, requiring no further investigation on the part of the reader.
-1. Only use numbered links to list examples, not to describe how the person did something. Instead describe the contribution and link parts of the text
+1. Only use numbered links to list examples, not to describe how the person did something. Instead describe the contribution and link parts of the text.
    - **Don't**
      - _"[Name] brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]"_
    - **Do**
      - _"[Name] created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3]."_
    - **Why**: Avoids the need for the reader to investigate each link individually and figure out for themselves what the person's contribution actually was, often from a large issue or discussion.
-1. Focus on ability at the next level
+1. Focus on ability and impact at the next level.
    - **Don't**:
+      - _"[name] delivered several projects on time by identifying quality implications during development, performing reviews and reaching out early when blocked"_ (Intermediate Engineer [Competencies](https://handbook.gitlab.com/handbook/engineering/careers/matrix/intermediate/))
    - **Do**:
+      - _"[name] delivered several projects on time by proactively resolving vague requirements, collaborating cross-functionally, and mentoring other team-members in a way that enabled them to contribute."_ (Senior Engineer [Competencies](https://handbook.gitlab.com/handbook/engineering/careers/matrix/senior/))
    - **Why**: Space is limited and detailing contributions at the current level does not materially contribute to the case for promotion.
 1. Business Justification should describe how the person's role will change if promoted, and what that means for the business.
    - **Don't**:
