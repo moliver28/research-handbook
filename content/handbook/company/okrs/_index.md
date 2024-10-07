@@ -234,6 +234,8 @@ We will review **company-level** OKR progress once a month in an E-Group Weekly.
 
 This is also a time to discuss function [KPIs](/handbook/company/kpis/) and functional level OKRs that E-Group feel should be highlighted with the broader team.
 
+Two weeks after the end of the quarter, we'll have an E-Group Weekly session that reviews company-level OKR and key metrics progress from the previous quarter. 
+
 ### Making changes within quarter
 
 We value [iteration](/handbook/values/#iteration). We can change an objective or KR if we find that in our pursuit of the initial KR we have not set the optimal goal. Here are a few examples of when this could happen:
