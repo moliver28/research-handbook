@@ -34,10 +34,12 @@ The emphasis on quantification over editorialization has a number of benefits fo
    - **Don't**:
    - **Do**:
    - **Why**: Space is limited and detailing contributions at the current level does not materially contribute to the case for promotion.
-1. Business Justification should describe how the person's role will change if promoted
+1. Business Justification should describe how the person's role will change if promoted, and what that means for the business.
    - **Don't**:
+     - _"This promotion recognizes [name]'s ability to operate at the next level in their role when required to do so."_
    - **Do**:
-   - **Why**:
+     - _"With this promotion, [name] will assume ongoing responsibility for technical architecture, initially accelerating [project 1] as project lead and bringing forward completion of [project 2] and [project 3] by 3 months to the end of Financial Year 2026."_
+   - **Why**: Clearly defining the expected role evolution helps demonstrate the business need for the promotion and how investing in it will contribute to the organization’s goals.
 
 ## Additional Tips
 
