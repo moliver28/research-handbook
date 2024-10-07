@@ -52,7 +52,7 @@ Our goal is to produce three customer stories per quarter, including two marquee
 
 ### **Earnings Customer References**
 
-The Customer Advocacy team partners with Investor Relations, Sales, and Customer Success to identify and showcase customer stories and name drops on our earnings calls each quarter.
+The Customer Advocacy team partners with Investor Relations, Sales, and PMM to identify and showcase customer stories and name drops on our earnings calls each quarter.
 
 We focus on two categories of earnings references:
 
@@ -79,7 +79,7 @@ Please align with the Customer Advocacy team during quarterly OKR planning and i
 
 Customer Advocacy partners with the Corporate Communications team to amplify the voice of customers through various media opportunities such as customer quotes in press releases and media interviews. We strive to pitch press opportunities that will provide the most value to the customer and allow for a continued warm relationship.
 
-To secure a customer quote or an advocate for a media interview, please tag Nicole Smith in the issue at least 14 days prior to the deadline.
+To secure a customer quote or an advocate for a media interview, please tag Nicole Smith in the issue at least 30 days prior to the deadline.
 
 ### **Peer Reviews & Analyst Interviews**
 
