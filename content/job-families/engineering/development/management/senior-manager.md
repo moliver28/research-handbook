@@ -114,6 +114,15 @@ The Senior Engineering Manager is a [grade 9](/handbook/total-rewards/compensati
   class manager:senior selected
 ```
 
+### Promotion Guidance
+
+- When justifying a Senior Engineering Manager role, provide a comprehensive analysis that includes before-and-after org charts, specific responsibilities, and the impact on existing leadership. Demonstrate how this addition will enhance team efficiency, project delivery, and organizational goals. This approach will illustrate that an SEM is a strategic investment in innovation and long-term success, not just a staffing increase.
+- Promotion to Senior Engineering Manager is based on a combination of individual readiness and organizational need. While personal growth and skill development are highly valued, advancement to this role is contingent upon business requirements and capacity within the existing SEM structure. Promotions are considered when:
+  1. The candidate demonstrates readiness for increased responsibilities
+  2. There is a clear business need for an additional SEM
+  3. Existing SEMs are at full capacity in their current roles
+- Because existing SEM capacity would be a factor in new promotions, it is likely that a business need will occur outside of the promotion cycle, requiring an existing engineering manager to take the SEM role in an acting, interim, or temporary capacity in order to alleviate pressure quickly from other SEMs and Directors. For this reason, SEM promotions might occur [outside of the promotion cycle](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline).
+
 ## Hiring Process
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
