@@ -172,7 +172,7 @@ The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to t
 
 **In the first month of the fiscal quarter,** the Chief of Staff (CoS) to the CEO initiates the OKR process. The CoS works with the CEO will propose big themes and priorities for next quarter. Yearlies are consulted in the drafting process. The CoS to the CEO creates a Google Doc for E-Group alignment. This document is shared with E-Group in an [E-Group Weekly](/handbook/company/e-group-weekly/). E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO. 
 
-**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alingnment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.  
+**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alignment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.  
 
 ### Executives propose OKRs for their functions
 
