@@ -26,9 +26,9 @@ The emphasis on quantification over editorialization has a number of benefits fo
      - Ensures that statements pass the "so what" test, requiring no further investigation on the part of the reader.
 1. Only use numbered links to list examples, not to describe how the person did something. Instead describe the contribution and link parts of the text
    - **Don't**
-     - _"Bob brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]"_
+     - _"[Name] brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]"_
    - **Do**
-     - _"Bob created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3]."_
+     - _"[Name] created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3]."_
    - **Why**: Avoids the need for the reader to investigate each link individually and figure out for themselves what the person's contribution actually was, often from a large issue or discussion.
 1. Focus on ability at the next level
    - **Don't**:
