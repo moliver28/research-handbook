@@ -170,11 +170,9 @@ The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to t
 
 ### CEO initiates new quarter's OKRs
 
-**About five Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
+**In the first month of the fiscal quarter,** the Chief of Staff (CoS) to the CEO initiates the OKR process. The CoS works with the CEO will propose big themes and priorities for next quarter. Yearlies are consulted in the drafting process. The CoS to the CEO creates a Google Doc for E-Group alignment. This document is shared with E-Group in an [E-Group Weekly](/handbook/company/e-group-weekly/). E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO. 
 
-The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/company/e-group-weekly/) which is **four weeks before** the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO. **Unless there is a strong reason to adjust, CEO OKRs will directly reflect Yearly goals.** If there are no concerns voiced, it will then be shared with all of GitLab in the `#okrs` channel.
-
-Company OKRs may continue to be refined in the lead up to the coming quarter.
+**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alingnment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.  
 
 ### Executives propose OKRs for their functions
 
@@ -223,9 +221,9 @@ The CoS to the CEO shares the handbook update MR in the #okr channel in Slack an
 
 ### Reviewing progress within and after the quarter
 
-We will review company-level OKR progress once a month in an E-Group Weekly. Updates should include:
+We will review **company-level** OKR progress once a month in an E-Group Weekly. Updates should include:
 
-1. KR
+1. Key Result
 1. Link to OKRs in GitLab
 1. [DRI](/handbook/people-group/directly-responsible-individuals/)
 1. Completion [score](#scoring-okrs)
@@ -234,7 +232,7 @@ We will review company-level OKR progress once a month in an E-Group Weekly. Upd
 1. Remaining dependencies to achievement
 1. Next steps, if incomplete
 
-This is also a time to discuss function [KPIs](/handbook/company/kpis/). 
+This is also a time to discuss function [KPIs](/handbook/company/kpis/) and functional level OKRs that E-Group feel should be highlighted with the broader team.
 
 ### Making changes within quarter
 
