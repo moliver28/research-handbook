@@ -482,4 +482,10 @@ A collection of tips and tricks to make the Tableau development experience faste
 
 2. When you drag a field into the view for the first time, you can choose the aggregation/measure type by holding down the option key (Mac) as you drag and drop the field. For date fields, this will pop up a window asking about the date granularity (such as year, month, day, month/day/year). This saves time because the default option is 'Year', and you have to let the view load before changing the granularity.
 
-This also works on non-measure fields. For example, if you hold option while dragging Opportunity Id into the view, it will give you the option to drop it as COUNT(Opportunity Id).
+    This also works on non-measure fields. For example, if you hold option while dragging Opportunity Id into the view, it will give you the option to drop it as COUNT(Opportunity Id).
+
+3. You can easily drag measures into and out of calculated fields - which saves you time. When creating a new calculated field, if the field you want is already on your worksheet you can drag the field from the worksheet, into the calculated field. Or, in reverse, you can highlight a measure or dimension in a calculated field and drag it and it will drag onto your worksheet.
+
+4. Table calculations - you can create a table calculation using the normal method of adding a table calculation to an existing measure. Then, open up a box for a new calculated field, and drag that measure with a table calculation on it into the box. Now you have the formula of the table calculation in a reusable calculated field! You can also adjust the calculated field from here - for example, making a Period over Period calculation look back 4 periods instead of 1.
+
+5. You can test out selected portions of calculated fields in Tableau to make sure each piece is working as expected by simply dragging the test you want to test onto a worksheet! Just go into a calculated field, highlight the piece you want to test, hold Command (Cmd), and drag the text to any part of a worksheet. You can see an example [here](https://www.flerlagetwins.com/2022/09/tiny-tableau-tips-round-2.html) at tip #9.
