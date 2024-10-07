@@ -13,11 +13,9 @@ GitLab team members are eligible for a reimbursement of up to $10,000 USD per ca
 
 To be eligible for the Growth and Development Fund, team members must meet the following criteria:
 
-- Full time GitLab employee (with a minimum tenure of 3 months)
-- Be meeting performance expectations in their current role. (Not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
-- Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
-
-Part-time team members may still be eligible to use the fund but with a reduced reimbursement limit.
+- Full time GitLab team member (with a minimum tenure of 3 months).
+- Meeting performance expectations in their current role (not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance).
+- Team members on "leave" status will not be eligible to use the growth and development fund.
 
 ## How to Apply for the Growth and Development Fund
 
