@@ -131,7 +131,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-09-23 | 2024-09-27 | VP DIRECTS ONLY | VP DIRECTS ONLY  | In person - San Francisco |
 | 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 | OPEN | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
 | 2024-10-14 | 2024-10-18 | OPEN| OPEN | REMOTE - PT - very limited week due to multiple conferences |
