@@ -358,7 +358,7 @@ A standard HTTP header for when the quota is reset.
 
 ### Observability
 
-Our support team also have a [Kibana dashboard](support/workflows/ip-blocks/) showing metrics around rate limited responses. Cloudflare rate limits responses can be seen in the [Cloudflare UI](https://dash.cloudflare.com/) (Gitlab Cloudflare account access required).
+Our support team also have a [Kibana dashboard](support/workflows/ip-blocks/) showing metrics around rate limited responses. Cloudflare rate limits responses can be seen in the [Cloudflare UI](https://dash.cloudflare.com/) (GitLab Cloudflare account access required).
 
 #### Investigating RackAttack logs
 

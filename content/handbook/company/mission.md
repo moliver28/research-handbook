@@ -59,9 +59,7 @@ A group discussion reiterating the importance of everyone being able to contribu
 ### Everyone can contribute to GitLab, the company{#contribute-to-gitlab-company}
 
 To **enable everyone to contribute to GitLab, the company** we have open business processes.
-This allows all team members to suggest improvements to our
-handbook. We hire remotely so our team members can be judged on results, not presence in an office. And we strive to take decisions guided
-by [our values](/handbook/values/).
+This allows all team members to suggest improvements to our handbook. We hire remotely so our team members can be judged on results, not presence in an office. We engage on social media platforms and in our blog post comments. And we strive to take decisions guided by [our values](/handbook/values/).
 
 #### Everyone can contribute to about.gitlab.com
 

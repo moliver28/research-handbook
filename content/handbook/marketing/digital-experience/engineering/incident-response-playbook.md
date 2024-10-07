@@ -81,6 +81,7 @@ The following are the questions to consider when determining incident severity:
         1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
     3. Pacific Timezone (UTC−8):
         1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
+1. Incident issue created by DEX team member [here](https://gitlab.com/gitlab-com/marketing/digital-experience/announcements/-/issues/new) using the root cause analysis incident issue template.
 
 _Call on the phone if no response within 15 minutes_
 

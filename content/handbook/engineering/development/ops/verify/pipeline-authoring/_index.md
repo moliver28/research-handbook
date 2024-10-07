@@ -73,18 +73,7 @@ Goals:
   - [Expand CI variables lazily and selectively](https://gitlab.com/gitlab-org/gitlab/-/issues/410143)
   - [Evaluate rules once for parallel jobs](https://gitlab.com/gitlab-org/gitlab/-/issues/450687)
 
-### Scalability
-
-**CI/CD Variables**
-
-Goals:
-
-- Address top-level variables keyword problem - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6565)
-- Implement a new CI/CD variable structure from scratch. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
-
 ### Efficiency
-
-**Auto-generating a JSON schema for spec keyword** 
 
 Goals:
 

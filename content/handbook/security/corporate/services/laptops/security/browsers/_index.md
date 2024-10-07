@@ -6,7 +6,7 @@ title: Laptop Web Browsers
 
 We use Google Chrome as our primary web browser since many of our collaboration and security tools are natively integrated with Google.
 
-We do not recommend using other browsers such as Firefox, Safari, etc.
+We do not recommend or support using other browsers such as Firefox, Safari, etc. While we recognize that there are scenarios where alternate browsers are needed eventually all access to GitLab resources will require Google Chrome. 
 
 ## Configuration Steps
 

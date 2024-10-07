@@ -196,11 +196,12 @@ When paged, the Infrastructure Leader will:
 1. Join the incident call
 1. Ask the EOC if help is needed from additional SREs.
 1. Ask the IM to ensure they are able to fulfill their duties.
+1. Evaluate whether a separate zoom should be created for technical investigations.
 1. Be the primary technical point of contact for the IM/CMOC to ensure the EOC can focus completely on remediation.
 
 ### Infrastructure Liaison
 
-To page the Incident Leader directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
+To page the Incident Liaison directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
 
 During a verified Severity 1 Incident the IM will page the Infrastructure Liaison.
 This is not a substitute or replacement for the active Incident Manager.

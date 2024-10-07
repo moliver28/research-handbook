@@ -225,6 +225,14 @@ Invoices should be submitted in Coupa with the following details:
 - Hourly Rate
 - Total
 
+Be sure that there is a seperate line for each project.
+
+Coupa Helpful Resources:
+
+[Coupa Supplier Portal](/handbook/finance/procurement/coupa-faq/#where-can-i-find-more-information-on-the-coupa-supplier-portal)
+
+[Coupa End Users Guide](/handbook/finance/procurement/coupa-faq/)
+
 ### Customer Project Onsite Travel
 
 When a GitLab Partner Travels:

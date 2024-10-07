@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
+## <i class="fas fa-bullhorn fa-fw"></i> Welcome to the GitLab Brand Creative Handbook
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 
@@ -134,6 +134,22 @@ If your team works on a larger initiative, please refer to our [program lockup g
 ### Working with the brand
 
 To learn more about our [Brand Guidelines](https://design.gitlab.com/brand/overview?_gl=1%2a19y18w7%2a_ga%2aNzk5NDI4OTg0LjE2ODA4MDA5Nzk.%2a_ga_ENFH3X7M5Y%2aMTY4MjAyMjM3Ni4xMS4xLjE2ODIwMjI5MDUuMC4wLjA.), self-service resources and assets, and training materials, check out the [Brand Resources](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/#brand-resources) handbook. Below you will find more details about working with our brand and creative materials.
+
+#### Providing feedback
+
+The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
+
+Constructive feedback takes into consideration our [values](/handbook/values/) of collaboration, efficiency, and results. The following tools can help keep feedback focused, all while allowing a project to move along in a timely manner:
+
+- When requesting edits, please use objective feedback that keeps **brand awareness**, **visual consistency**, and **business value** in mind. Here are some examples of objective ✅ vs. subjective ❌ feedback.
+  - ✅ Industry data shows that ads with darker backgrounds garner more traffic; can we please update the color to our Purple 02p?
+  - ❌ The background color is throwing off the design for me. I saw an ad with magenta colors and liked that, can we do that instead?
+- Final approvals and feedback should be communicated by one [DRI](/handbook/people-group/directly-responsible-individuals/) throughout the lifespan of the project.
+  - Note: It is most helpful if the DRI can consolidate feedback amongst any other involved team members before sharing back in the issue.
+- To keep projects on track, there will be up to 3 rounds of creative drafts for review.
+  - Note: Anytime a draft is shared, it has already gone through a number of iterations and reviews internally within the Brand Creative team, ensuring the best possible version is being presented with stakeholders.
+- While outside examples and inspiration are encouraged to help with concepting, it is important to acknowledge that we cannot replicate others’ designs - especially at the expense of our own brand identity.
+- When reviewing work, it is the stakeholder(s)’ responsibility to review for content, including grammar, punctuation, and spelling.
 
 #### Stock photography
 

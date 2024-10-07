@@ -94,7 +94,7 @@ The People-Connect Team will assist Payroll in the administration of this benefi
 
 ### Accrued Recuperation
 
-Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. Gitlab will pay the Accrued Recuperation payment in July, in accordance with applicable law. The pay is subject to completion of one year of employment.
+Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. GitLab will pay the Accrued Recuperation payment in July, in accordance with applicable law. The pay is subject to completion of one year of employment.
 
 ### Gifts
 

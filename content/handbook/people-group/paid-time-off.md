@@ -59,7 +59,8 @@ Entering time off in Workday is not necessary if working but working asynchronou
 ### Holidays
 
 1. We encourage all team members to take time off for public holidays observed in their country. No one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach, it's a general guideline that if public schools or government offices in your area are closed for a particular national or regional holiday, that it's recognized for GitLab team members in that location to take that time off as a public holiday as well. For a general listing of public holidays by country, follow these steps:
-    1. Go to the [timeanddate.com](https://www.timeanddate.com/holidays/)
+    1. Go to the [timeanddate.com](https://www.timeanddate.com/date/)
+    1. Select 'Holidays Worldwide' from the Calendar dropdown menu.
     1. Select your country of residence
     1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 

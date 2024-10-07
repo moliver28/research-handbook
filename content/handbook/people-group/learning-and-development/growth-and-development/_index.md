@@ -143,7 +143,7 @@ Eligibility for Reimbursement: Team members returning from Parental Leave. The p
 - `I can tangibly see how this (coaching) investment has made me at least 20% more effective in my role, delighted in my role, and a more human leader.`
 - `This was a great (coaching) program and I'm really happy I got to be a part of it. I have two of my managers who have signed up to work with coaches now as well.`
 
-Apply for a coach via Coaching Right Now by opening an issue using the [coaching template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=coaching).
+Apply for a coach via Coaching Right Now by opening an issue using the [coaching template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching).
 
 *The specifics of your coaching sessions will not be communicated to GitLab.* While not required, we encourage you to share your experience, learnings, reflections, and discoveries with your manager for further support.
 

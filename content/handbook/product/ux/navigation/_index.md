@@ -21,7 +21,7 @@ In the past, teams added items to highlight new features. However, this created 
 
 ## What kind of navigation changes require approval?
 
-While Gitlab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility.
+While GitLab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility.
 
 To help maintain this balance, we ask for everyone to use this process when proposing changes to the left-side navigation:
 

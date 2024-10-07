@@ -42,6 +42,10 @@ The following people are permanent members of the Remote Development Engineering
 | Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
 | Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
 
+### 🎓 New Hires
+
+**As the Remote Development team and tech stack continue to mature, it's essential to have a team-specific onboarding process for new hires.** This checklist is designed to guide new team members through the key areas and processes specific to our team, starting two weeks after company onboarding. It covers our mission, essential tools, and workflows related to the Web IDE and Workspaces. Existing team members are encouraged to review the checklist regularly and contribute any missing or updated information to ensure it remains accurate and useful for newcomers. You can find the template https://gitlab.com/gitlab-com/create-stage/remote-development/-/blob/main/.gitlab/issue_templates/remote-development-onboarding.md.
+
 ### ☎️ How to reach us
 
 Depending on the context here are the most appropriate ways to reach out to the Remote Development Group:

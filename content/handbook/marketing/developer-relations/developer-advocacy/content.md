@@ -127,10 +127,11 @@ These golden talk slide decks provide storytelling for lightning talks at events
 
 These talks are maintained throughout FY25:
 
-| Title | Area | Last updated | DRI |
-|-------|------|--------------|-----|
-| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | GitLab Duo | 2024-01-31 | @dnsmichi |
-| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | 2024-01-31 | @dnsmichi |
+| Title | Area | Focus | Last updated | DRI |
+|-------|------|-------|--------------|-----|
+| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | AI, GitLab Duo | Product use cases with Duo | 2024-09-24 | @dnsmichi |
+| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/gitlab-da/use-cases/ai/ai-research/talk-efficient-devsecops-workflows-with-a-little-help-from-ai) | AI, GitLab Duo | Generic use cases talk for public events (no product pitches) | 2024-09-30 | @dnsmichi |
+| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | Practical migration help | 2024-05-17 | @dnsmichi |
 
 ### Projects
 

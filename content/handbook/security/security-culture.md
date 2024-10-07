@@ -33,6 +33,7 @@ Current committee members:
 - [Ryan Lawson](https://gitlab.com/rlawson1)
 - [Clayton Shank](https://gitlab.com/cshankgitlab)
 - [Steve Ladgrove](https://gitlab.com/sladgrove)
+- [Ayoub Fandi](https://gitlab.com/ayofan)
 - [Julie Davila](https://gitlab.com/juliedavila) (Executive Sponsor)
 
 <details>

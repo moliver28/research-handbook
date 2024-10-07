@@ -41,7 +41,7 @@ Below you can find instructions on how to login to the Salesforce mobile app via
 2. On the Log In page, select the menu (three-dots) in the top right-hand corner.
 3. Select **Change Server**.
 4. Select **Add Connection**.
-5. Give the new connection a name (e.g. Gitlab)
+5. Give the new connection a name (e.g. GitLab)
 6. Enter `https://gitlab.my.salesforce.com` for the URL, then select **Apply**.
 7. Select the newly created connection.
 8. Select the <- arrow to return to the Login page.
@@ -75,7 +75,7 @@ Below you can find instructions on how to login to the Salesforce mobile app via
 1. Open the Salesforce app.
 2. On the Log In page, select the ⚙ icon.
 3. Select ➕ to add a login host.
-4. Give the new host a label (e.g. Gitlab).
+4. Give the new host a label (e.g. GitLab).
 5. Enter `gitlab.my.salesforce.com` for the host name, then select **Done**.
 6. Select the newly created host.
 7. On the login page, select **Log in with Okta**.

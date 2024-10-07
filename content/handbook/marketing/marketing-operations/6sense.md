@@ -11,10 +11,6 @@ description: 6sense is an Account Based Marketing platform that uses a predictiv
 
 **This page contains public information about 6sense and how we use it. In addition to this page, additional, non-public information for GitLab team members can be found in the [internal handbook](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/).**
 
-## Implementation
-
-We are currently implementing 6sense. Follow along in [this epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3963)
-
 ## Integrations
 
 6sense is integrated with Salesforce, Marketo, Outreach, Qualified, and Slack. In addition, user management is managed through Okta.

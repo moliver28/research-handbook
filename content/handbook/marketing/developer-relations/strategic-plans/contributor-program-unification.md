@@ -93,37 +93,17 @@ Contest: Backlog Cleansweep
 
 - Focus on triaging and validating existing backlog issues
 
-### Contribution Weights
+### Contribution Points
 
-1. Scope: https://gitlab.com/gitlab-com & https://gitlab.com/gitlab-org
-1. Value: For this iteration, a merged code contribution holds more weight than other activity, to incentivize bias for action & accelerate innovation.
+1. Scope: https://gitlab.com/gitlab-com, https://gitlab.com/gitlab-org, https://gitlab.com/gitlab-community, https://gitlab.com/components
+1. Value: For this iteration, a merged code contribution holds more weight than other activity, to incentivize bias for action & accelerate innovation
 1. Cadence: We can assign additional credits monthly to those that we think deserve additional recognition, such as social media attention or other significant activity
 
-**Code Contribution**
-
-- Weight: 5
-- Authored a git commit within an MR
-- Assigned when the MR has the status merged
-
-**Issue comment / author with a linked merged MR**
-
-- Weight: 2
-- Assigned when the issue is closed
-
-**Issue comment / author without a linked merged MR**
-
-- Weight: 1
-- Assigned when the issue is closed
-
-**Bug validation comment**
-
-- Weight: 3
-- Assigned when validation label is applied or issue is closed
-
-**Merge Request comment / author**
-
-- Weight: 2
-- Assigned when the merge request is merged
+- **Merge request created:** 20
+- **Commit merged:** 20
+- **Merge request merged:** 60 (30 additional bonus points if the merge request has a linked issue)
+- **Issue created:** 5
+- **Issue/merge request comment:** 1
 
 ### Contributor Levels
 
@@ -131,11 +111,10 @@ Note: The points, levels & status can still change.
 
 | Contributor Levels | Requirements | Benefits & Rewards |
 | --- | --- | --- |
-| Level 1 | 3 Contribution Points | Achievement on profile, Swag |
-| Level 2 | 25 Contribution Points | Achievement on profile, Swag |
-| Level 3 | 75 Contribution Points | Achievement on profile, Swag |
-| Level 4 | 75+ Contribution Points | Achievement on profile, Tier 3 swag coupon, 1 GitLab Ultimate License for personal use |
-| Leading <sub>Scores can be combined within an organization, Formerly known as Leading Organization</sub> | 30 Contribution Points in the last 3 months, Evaluated per quarter | Achievement on profile, Swag, 4 day SLO time to get a review/feedback on authored MRs |
+| Level 1 | 25 Contribution Points | Achievement on profile, Swag |
+| Level 2 | 500 Contribution Points | Achievement on profile, Swag |
+| Level 3 | 2500 Contribution Points | Achievement on profile, Swag |
+| Level 4 | 7500+ Contribution Points | Achievement on profile, Tier 3 swag coupon, 1 GitLab Ultimate License for personal use |
 | Core | after approval, Individual basis only, 120 Contribution Points, Election process | Achievement on profile, Swag, 1 GitLab Ultimate License for personal use, Slack Access (Requires an NDA to be signed), Developer Permission for GitLab projects |
 
 | Contributor Achievements | Requirements | Benefits & Rewards |

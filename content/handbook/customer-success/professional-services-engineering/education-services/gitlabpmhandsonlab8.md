@@ -181,7 +181,7 @@ Kanban boards show you the progress of all tickets in your project, as they move
 
 1. Practice dragging issues between different lists. For example, place more than 3 issues in the **WIP** list, and notice the results.
 
-1. At the top of the page, click **Group by > Epic**.
+1. At the top of the page, click the **Preferences icon > Epic swimlanes** toggle on.
 
 1. At the bottom of the page, expand **Issues with no epic assigned** to see the full list of issues in the **Backlog** list.
 

@@ -85,7 +85,7 @@ Additionally, [quarterly subscription reconciliations](/handbook/support/license
 The GitLab usage phases are broken down into the following:
 
 - Implementation: 12-9 months left
-- Adoption 9-6 months left ([Live Optimization](/handbook/sales/commercial/smb/live-optimization/))
+- Adoption 9-6 months left 
 - Expansion 6-3 months left
 - Renewal less than 3 months left
 
@@ -155,7 +155,6 @@ Customer success planning should be broken into three categories based off the p
 ### Solutions Architect & Customer Success Manager Rules of Engagement
 
 - Follow the [Commercial Sales standards](/handbook/customer-success/comm-sales/#additional-engagement-guidelines-for-sales) for engaging a Customer Success Manager or Solution Architect into the conversation with a customer or prospect.
-- Consider a [Live Optimization Session](/handbook/sales/commercial/smb/live-optimization/) with a Solutions Architect.
 - If limited on resources, encourage clients to submit questions to the following communities:
   - Community Forum: https://forum.gitlab.com/
   - Reddit: https://www.reddit.com/r/gitlab/

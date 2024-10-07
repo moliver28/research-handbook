@@ -1,6 +1,5 @@
 ---
-title: "Data Team Data Management Page"
-description: "The Data Management Page covers the content around sharing internship experience with the SRE foundation team"
+title: "SRE Internship"
 controlled_document: false
 ---
 
@@ -14,10 +13,10 @@ Embarking on an internship with the Site Reliability Engineering (SRE) foundatio
 
 If you need to become more familiar with SRE, it's a discipline that bridges the gap between software engineering, and IT operations. SREs are responsible for building and maintaining highly reliable, scalable, and efficient systems. They use a combination of software engineering skills, automation, and monitoring to ensure that services are always available and performing optimally.
 
-#### Different teams of SRE within Gitlab
+#### Different teams of SRE within GitLab
 
 * Delivery: The Delivery Group enables GitLab Engineering to deliver features safely, scalable, and efficiently to both GitLab.com and self-managed customers.
-* OPS: The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes vital to the successful operations of Gitlab.
+* OPS: The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes vital to the successful operations of GitLab.
 * Foundation: Foundations is responsible for several services related to GitLab SaaS Platforms. The Services the Foundations team is responsible for fall into two general categories: Core and Edge. They are primarily responsible for K8s, Config, Service discovery, secret management, CDN, DNS, Load Balancing, and Network.
 * Scalability: Scalability focuses on observability, forecasting, and projection systems that enable development engineering to predict system growth in their areas of responsibility.
 * Dedicated: This group of the SRE team is dedicated to a single-tenant GitLab environment, served through a GitLab-dedicated platform.
@@ -87,7 +86,7 @@ Throughout my internship, I gained numerous insights that have shaped my underst
 * They have a few more calls than us as the team is geo-located, because of which 2 sync calls are weekly.
 * Fire drill call where they practise the production incident.
 * S1 sync call in case they have an open S1.
-* To review an MR, you don't need to assign it to any one particular person; people post any MR review request in #production_engineering or #g_infra_foundations slack channel.
+* To review an MR, you don't need to assign it to any one particular person; people post any MR review request in #g_production_engineering or #g_infra_foundations slack channel.
 * Everyone is a code owner, but you can't merge your changes. Also, one contributed to the MR and can't merge or approve the changes.
 * Everyone in the team uses Yubikey to connect to the production instance, ensuring the best security.
 

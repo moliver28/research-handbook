@@ -9,7 +9,9 @@ description: "Learn more about the BootstrapVue Removal Task Group attributes, g
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Date Created    | 2024-09-10                                                                                                                              |
 | Target End Date | 2025-08-31                                                                                                                              |
-| Slack           | [#tg_bootstrapvue_removal](https://gitlab.enterprise.slack.com/archives/C07LB4P1FST) (only accessible from within the company)                  |
+| Slack           | [#tg_bootstrapvue_removal](https://gitlab.enterprise.slack.com/archives/C07LB4P1FST) (only accessible from within the company)          |
+| Google Doc      | [Agenda doc](https://docs.google.com/document/d/1L1-4evYtCATuAYam1ZJOrgBcGZIg0jA1P20gtBfWTsI) (only accessible from within the company) |
+| Zoom Recordings | [Recordings](https://drive.google.com/drive/folders/1sHgSixs41YgTN7hnklP7oosWtPLOxWGm) (only accessible from within the company)        |
 
 ## Context
 
@@ -45,16 +47,20 @@ These are the known challenges, but there may be additional issues that have yet
 
 ## Exit Criteria
 
-1. Unused files from `/src/vendor/bootstrapvue` are removed: [Issue #2752](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2752).
+1. Unused files from `/src/vendor/bootstrapvue` are removed: [Epic &13075](https://gitlab.com/groups/gitlab-org/-/epics/13075).
 2. Documentation is updated and made accessible: [Issue #2754](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2754).
 3. MIT License usage is clarified: [Issue #2318](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2318).
 4. Files are migrated: [Epic &15178](https://gitlab.com/groups/gitlab-org/-/epics/15178)
    1. Directives are moved to the `/src` folder.
    2. Components, plugins, mixins, and constants are rewritten using the 'usual' Vue 2 Options API syntax and moved to the `/src` folder.
 5. The directory `/src/vendor/bootstrapvue` is removed.
+6. Bootstrap CSS Utilities are replaced with (TailwindCSS) GitLab CSS Utilities: [Epic &15271](https://gitlab.com/groups/gitlab-org/-/epics/15271)
 
 ## Roles and Responsibilities
 
 | Task Group Role | Person                   | Title                                                        |
 | --------------- | ------------------------ | ------------------------------------------------------------ |
 | DRI             | Vanessa Otto             | Senior Frontend Engineer, Foundations::Design System         |
+| Member          | Peter Hegman             | Senior Frontend Engineer, Data Stores::Tenant Scale          |
+| Member          | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity |
+| Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity  |

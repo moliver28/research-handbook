@@ -95,10 +95,18 @@ If the block or complaint is related to access from an embargoed country, use th
     - If the user provides the requested information, then complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. Otherwise, reaffirm the block cannot be removed.
     - Proceed with this action for both **free** and **paid** users.
 
-### Professional services migrations
+### Professional Services migrations
 
-Professional Services migrations can also block users as part of their process. Admin notes for migrations were added as of 2022-08-19 through [this issue](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/issues/818). Older migrated accounts may not have an admin note. Support can unblock the user in the following cases:
-    - Blocked users can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
+Professional Services migrations can also block users as part of their process. Admin notes for migrations were added as of `2022-08-19` through [this issue](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/issues/818). Older migrated accounts may not have an admin note. As of `2024-09-18`, requests to unblock accounts that were blocked during a Professional Services migration are worked automatically (see [STM #6336](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6336)).
+
+If you receive a ticket for an unblock request and you think it should have been automatically worked, you should:
+
+1. Check that all ticket fields are at expected values
+1. Notify Support Operations so that they can investigate
+1. Work the ticket manually using the guidance below to ensure a timely resolution for the requestor
+
+If a ticket was not automatically worked, Support can manually unblock the user in the following cases:
+    - Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.  
     - For [Enterprise users]({{< ref "gitlab-com_overview#enterprise-users" >}}), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification]({{< ref "account_verification" >}}), and add an [admin note]({{< ref "admin_note" >}}) as usual, including if it was user or owner requested.
     - You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
     - Proceed with this action for both **free** and **paid** users.
@@ -143,13 +151,13 @@ The rest of this page is for **reference** only and should be updated to point t
 
 ### Policy Reference
 
-1. All decisions about account reinstation are final and there is no process for appeals.
+1. All decisions about account reinstatement are final and there is no process for appeals.
 1. These criteria are to be taken as examples **only**, and **not** as binding principles.
 1. If the account violates our ToS again within a 12 month period, it could result in being permanently banned.
 
 #### An account can be reinstated when
 
-1. The user agrees to remove the content in question within the requested timeframe.
+1. The user agrees to remove the content in question within the requested time frame.
 1. The user has provided a sufficient use case for violating our Terms of Use.
 1. The user agrees to remove or export the content away from GitLab.com within 24 hours.
 1. The DMCA/Trademark complaint has been resolved.

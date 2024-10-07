@@ -10,6 +10,7 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 
 1. Triage and verify the issue as you normally would [triage a report]({{< ref "hackerone-process" >}}).
 1. Finalize the CVSS score of the security issue with team member votes on Bug Bounty Council (BBC) thread before engaging the SIRT team. Consider using a sync call or Slack for the discussion due to time sensitivity. Capture the outcome of the discussion in the BBC thread. If a sync call or a Slack discussion was not possible due to AppSec team members in the region being on PTO or timezone issues, trigger the SIRT workflow if 4 hours have passed since the issue was triaged.
+1. Within the BBC thread, create a GitLab Dedicated specific CVSS score.
 1. To help SecOps quickly determine impact and log analysis, comment in the security issue with the summarized reproduction steps (HTTP Requests, generated log messages, images, etc).
 1. After escalating, do an investigation to try to determine if there are other immediately vulnerable components or other impacts.
 
@@ -19,6 +20,8 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 1. Engage the appropriate [engineering manager and product manager of the affected component](/handbook/product/categories/) in both the issue **and** in the appropriate Slack channels.
 1. If help from the GitLab Dedicated team is needed, [follow the runbook to escalate to their engineer on call](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person).
 1. Ping `@appsec-leadership` in the `#sec-appsec` Slack channel with a link to the issue. This will help team leadership and other engineers get up to speed, in case they need to step in.
+1. Create a link to the Bug Bounty Council CVSS discussion in the SIRT incident GitLab issue.
+1. Create a bookmark to the CVSS discussion in the incident specific Slack channel.
 
 ## Evaluate Impact in Different Environments
 

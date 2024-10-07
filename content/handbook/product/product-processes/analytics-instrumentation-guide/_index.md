@@ -29,7 +29,7 @@ There are several stages and teams involved to go from collecting data to making
 | [Getting started with Analytics Instrumentation](https://docs.gitlab.com/ee/development/internal_analytics/) | The guide covering implementation and usage of Analytics Instrumentation tools |
 | [Metrics Dictionary](https://metrics.gitlab.com/) | A SSoT for all collected metrics and events |
 | [Privacy Policy](https://about.gitlab.com/privacy/) | Our privacy policy outlining what data we collect and how we handle it |
-| [Product Usage Data Privacy Policy](/handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/) | Our privacy policy outlining product usage data we collect and how we handle it |
+| [Product Usage Data Privacy Policy](/handbook/legal/privacy/customer-product-usage-information/) | Our privacy policy outlining product usage data we collect and how we handle it |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) | The roadmap for Analytics Instrumentation at GitLab |
 | [Analytics Instrumentation Development Process](/handbook/engineering/development/analytics/analytics-instrumentation/) | The development process for the Analytics Instrumentation groups |
 

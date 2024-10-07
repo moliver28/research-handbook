@@ -267,7 +267,7 @@ The Senior Director, IT Program Management is a [grade 11](/handbook/total-rewa
 
 ## Career Ladder
 
-The next step in the IT PMO job family is to move to the [IT Management](/handbook.gitlab.com/job-families/finance/manager-it/) job family. Any IT team member can explore lateral career moves within the broader IT job family, provided they fulfill the responsibilities and requirements associated with the desired role.
+The next step in the IT PMO job family is to move to the [IT Management](/job-families/finance/manager-it/) job family. Any IT team member can explore lateral career moves within the broader IT job family, provided they fulfill the responsibilities and requirements associated with the desired role.
 
 ## Hiring Process
 

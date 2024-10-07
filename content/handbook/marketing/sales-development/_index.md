@@ -37,7 +37,7 @@ Please follow the table below to quickly find the most relevant place for what y
 
 Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice.
 
-Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/handbook.gitlab.com/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
+Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
 
 If you can't find what you're looking for please reach out to a member of the Sales Dev Ops team and we'll help you find it, or update the handbook to include it!
 
@@ -56,7 +56,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/how-tos/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
 | I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
 | I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/sales-development-vault/#field-marketing--bdr-collaboration-process) for creating new sequences on Outreach, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
-| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](handbook.gitlab.com/handbook/marketing/sales-development/#sdrbdr-to-ae-sao-handoff-process). |
+| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/#sdrbdr-to-ae-sao-handoff-process). |
 
 ## Our Slack Channels
 
@@ -201,19 +201,18 @@ You will find the lead views below. These views are split per use-case for your 
 
 | View    | Description                                                                                                                                                                                                       |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| B1 View | Includes MQL's, Hot contacts that require quick follow up. NOTE: Not all of these contacts will be in your Actively Working Accounts list as all contacts where you are BDR Assigned on account are in your ownership, so please ensure that you set the account BDR Prospecting Status to Actively Working if you engage in discussions with the contact so that you can continue working the account and expand your outreach, otherwise any new lead MQLs for the account will route to the SDRs .                                                                                                                                                        |
-| B2 View | Contacts related to Actively working accounts that you can choose to sequence                                                                                                                      |
-| B3 View | Active HT sequenced leads that have a phone number - to help with call downs                                                                                                                                      |
+| B1 View | Includes MQL's, Hot contacts that require quick follow up. NOTE: Not all of these contacts will be in your Actively Working Accounts list as all contacts where you are BDR Assigned on account are in your ownership, so please ensure that you set the account BDR Prospecting Status to Actively Working if you engage in discussions with the contact so that you can continue working the account and expand your outreach, otherwise any new lead MQLs for the account will route to the SDRs .|
+| B2 View | Contacts related to Actively working accounts that you can choose to sequence |
+| B3 View | Active HT sequenced leads that have a phone number - to help with call downs |
 | B4 View | Qualifying leads. Contacts that you are actively qualifying in a back and forth conversation either on email or through phone calls. Each contact in this status needs to either be active in a follow up sequence, have an active task or have a future meeting scheduled which can be seen in a future "last activity" date. |
 
 #### Account Views
 
 | View                                         | Description                                                                                                                                       |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| B1 - My BDR Assigned accounts (clone)        | Customize to show accounts where you are the BDR assigned. Use to mass update 'BDR Strategy' and 'BDR Prospecting Status'.                          |
-| B2 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
-| B3 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
-| B4 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
+| B1 - All Accounts in Territory (Clone).                          | List of all of your accounts where you are the BRD assigned | 
+| B2 - My Actively Working accounts (Clone)     | List of "Actively Working" accounts where you are the BDR assigned.                                                                     |                                                                
+| B3 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
 | B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date. |
 
 ### How to do Lead Database Management
@@ -298,6 +297,7 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 #### Cold-Calling and Email Checkbox
 
 Before calling any Lead or Contact, BDRs must ensure that the `Do Not Call` box is unchecked.  If you speak to any anyone, including prospects and existing contacts, who ask you not to call them again, you must check this box. However, please do not delete the number as we need to know which number requested not to be called again. For any individuals who are opted-in to email, you may ask them if they wish to be called. If they express a desire to be called, you are then permitted to uncheck the `Do Not Call` box if it was previously checked.  Also, if an individual expresses independently via email a wish to be called, you may uncheck the `Do Not Call` box.  This email must be present in SFDC as proof of your authority to uncheck this box.  You cannot send email requests to individuals not opted-in to email asking whether they would like to be called.
+If you receive a request from a prospect asking to be removed from the CRM, [please follow this process](/handbook/legal/privacy/gdpr/).
 
 Our cold-calling best practices typically consist of 4 elements. A pattern interrupt, an elevator pitch and, if required, objection/trap-setting questions and Up-Front Contracts.
 
@@ -594,7 +594,7 @@ Populate the BDR Next Step Date to be at the end of the account's sequence lengt
 
 #### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration
 
-To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help.
+To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Action Needed.
 
 Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
@@ -734,7 +734,7 @@ _Directors, Ops and JB will select random opps each month to audit and ensure au
 #### Best practices to ensure credit for SAO
 
 1. Sequence all leads if you're reaching out
-2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
+2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity. If your activity is not visible in the opportunity, make sure you relate your meaningful activity to the opportunity. You can do this by editing the activity you had with the Contact and clicking into `Relate to (opportunity)` field and adding your opportunity name there
 3. Populate all qualification fields
 4. If activity was a phone call or a zoom call, log notes at the time of call
 5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps, ensure that prospect is guided to web-direct using the sequence [here](https://web.outreach.io/sequences/14652/overview), as per the conversation [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817).
@@ -1017,7 +1017,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | Account                   | An organization tracked in salesforce.com. An account can be a prospect, customer, former customer, integrator, reseller, or prospective reseller                         |
 | AM                        | Account Manager                                                                                                                                                             |
 | AE                        | Account Executive, can be Major or Strategic in AMER/EMEA Enterprise                                                                                                       |
-| APAC                      | Asia-Pacific                                                                                                                                                                |
+| APJ                      | Asia-Pacific and Japan                                                                                                                                                               |
 | BDR                       | Business Development Represenative - focused on outbound                                                                                                                     |
 | CAM                       | Channel Account Manager                                                                                                                                                    |
 | CS                        | Customer Success                                                                                                                                                           |
@@ -1158,18 +1158,28 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 [UserGems](handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
-**We have two main cohorts we're tracking:**
+**We have three main cohorts we're tracking:**
 
 #### 1. When a person that we are tracking leaves their current place of employment
 
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
-- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, on the [S1 view for SDRs](/handbook/marketing/sales-development/#sdr-lead-views) as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting). After having reassigned the lead on SFDC, it is the new owner's responsibility to manually remove and re-enroll the lead into the appropriate Groove Flow.
-- BDR Team members are to research UserGems leads that they receive, and proceed with following the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that your `BDR Account Research` field will include a clear note of the keyword `UserGems` for our tracking purposes. 
-- These leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
+- These leads will be flagged on the [Action Needed BDR/SDR dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) for you and your manager's review, on the [S1 HP view for SDRs](/handbook/marketing/sales-development/#sdr-lead-views) as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting) or locate the `Re-Run Traction Complete` checkbox on the lead's record and check it after having updated the lead's information. 
+- After having reassigned the lead on SFDC, it is the new owner's responsibility to manually remove and re-enroll the lead into the appropriate Groove Flow.
+- After reviewing these leads, the team member needs to make a decision on whether they will action the individual lead by itself, or proceed to add the entire account to their outbound pipeline. The table at the end of these steps can be used as a reference when making this choice.
+- If the team member decides to follow the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that the `BDR Account Research` field will include a clear note of the keyword `UserGems` for tracking purposes. 
+- In any scenario, these leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. Both flows start with a manual task to check the validity of the lead (ie. is their new company a current customer?) that need to be completed by the team member. If the person should not be part of the flow for any reason, the team member should complete task 1 and then remove the person from the flow. Do note that upon spot checking, even if a person was not eligible for prospecting efforts, we'll still make sure that the right action (ie. a one-off email) has been taken by the team member. 
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 - Generation of pipeline from these efforts is tracked on our [Pipeline Progress Dashboard on SFDC](https://gitlab.my.salesforce.com/01Z8X000000u6mP?)
+
+**Table 1: Decision-Making Guidance for UG Leads**
+
+| **Scenario**                                                                                                  | **Suggested Action**                                                                                                                                                                                                                                              |
+|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Lead is connected to an account with high 6Sense intent, profile, or buying stage score**                 | - Add the lead to the outbound pipeline. <br> - Prioritize outreach due to strong indicators of intent. <br> - Use personalized messaging based on their 6Sense data to increase engagement likelihood.                                                             |
+| **2. Lead is connected to an account where we’ve had more than 2 inbound leads with titles above manager**      | - Add the lead to the outbound pipeline. <br> - Reference past engagement of other colleagues <br> - Target high-level decision-makers within the account using the inbound momentum as a stepping stone.                                               |
+| **3. Lead is connected to an account that has been historically unresponsive despite multiple outreach efforts**| - Do not add to the actively working pipeline. <br> - Use past outreach efforts as compelling triggers to engage into conversation with the inbound UserGem lead. |
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
@@ -1291,7 +1301,7 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 | :----: | :-----: |
 |  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
 |  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
-|  **APAC BDR TEAMS**  | [APAC BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
+|  **APJ BDR TEAMS**  | [APJ BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APJ BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
 |  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) - [SDR Global Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000pryL)  |
 
 ### Sales_Dev_fyi Channel Information
@@ -1365,7 +1375,7 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 - Sales Dev Ops profile is the only profile with the ability to help add a member to opps beyond stage 0 (we can't add SDR/BDR to closed won opps however)
 - Certain roles have certain permissions ie. Team Lead roles are able to transfer leads. Director level roles are able to help when account assignments are incorrect by updating account address and employee size information.
-- Roles determine visibility based on the region (AMER, APAC, EMEA). Example: a BDR with EMEA in their role, will be able to see all accounts where the account territory owner has EMEA in their territory role name.
+- Roles determine visibility based on the region (AMER, APJ, EMEA). Example: a BDR with EMEA in their role, will be able to see all accounts where the account territory owner has EMEA in their territory role name.
 
 **[Sales Dev Territories by Team role/member associated with each territory -](https://gitlab.my.salesforce.com/00O8X000008gpBL)**
 
@@ -1608,9 +1618,11 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
     **No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
 
-13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field?
+13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field, or is there another lead for the same account as the MQL you received that originated from Usergems?
 
-    **Yes:** If it's an SMB lead it's worked by the inbound team, if it's a MM/ENTG lead it's passed to the BDR associated with the territory regardless of the rest of the RoE. BDR is expected to follow the outbound actively worked account process as per usual.
+    **Yes:** If it's an SMB lead it's worked by the inbound team round-robin. If it's a MM/ENTG lead, we go by the scenarios below:
+    - If there's also an associated Actively Worked account, we follow the standard Rules of Engagement and the new inbound lead goes to the BDR Assigned on the actively worked account.
+    - If there's not an account Actively Worked, but there's a lead worked by a BDR by itself. The original owner of the new lead can work it as per usual without having to pass to the BDR working the existing UserGems lead.
 
 If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active sequence if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
@@ -1749,13 +1761,13 @@ Announcement Channels
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
-| **Team Member OTE (SDR/MM BDR, APAC BDR, & Pub Sec)** |
+| **Team Member OTE (SDR/MM BDR, APJ BDR, & Pub Sec)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
 | - 100% Individual SAO Quota: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 1.3 x High LAM New Logo Kicker for APAC/Pub Sec BDRs |
+|   - 1.3 x High LAM New Logo Kicker for APJ/Pub Sec BDRs |
 | **Team Member OTE (ENT BDR Strategic)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
@@ -1877,6 +1889,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams:
 | Low vs High Touch Sequence Usage    | - Over 70% of inbound leads enrolled to High Touch sequences.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
+| UserGems inbound leads actioning | 15 minutes for actioning inbound leads, 24 business hours to convert to Actively Working Account if necessary. | 
 
 #### Outbound Account Management
 
