@@ -30,12 +30,6 @@ The emphasis on quantification over editorialization has a number of benefits fo
    - **Do**
      - _"Bob created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3]."_
    - **Why**: Avoids the need for the reader to investigate each link individually and figure out for themselves what the person's contribution actually was, often from a large issue or discussion.
-1. Expand acronyms first time they appear
-   - **Don't**:
-     - _"Jane worked with the PM for the stage to establish the Customer Engagement WG."_
-   - **Do**:
-     - _"Jane worked with the Product Manager (PM) to establish the Customer Engagement Working Group (WG)."_
-   - **Why**: Peer reviewers in your field of expertise may be familiar with the acronyms but most readers will not. Many acronyms are unclear and there are collisions between disciplines (e.g. Total Addressable Market and Technical Account Manager).
 1. Focus on ability at the next level
    - **Don't**:
    - **Do**:
@@ -52,6 +46,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
   - In order to
   - It should be noted that
   - Due to the fact that
+- Expand acronyms first time they appear ("Technical Account Manager (TAM)").
 - Double-check that links point to the right resource and that it is available to your expected readership.
 - Use bullet points instead of prose.
 - Avoid sentences over 30 words
