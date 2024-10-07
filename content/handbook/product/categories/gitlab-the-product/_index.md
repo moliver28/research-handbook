@@ -64,7 +64,7 @@ them, as that introduces other issues).
 
 For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
 
-### Deprecations, Removals, and Breaking Changes Policy
+### Deprecations & Removals Policy
 
 #### Definitions
 
@@ -72,7 +72,7 @@ See the [terminology of deprecations](https://docs.gitlab.com/ee/update/terminol
 
 #### Is this a breaking change?
 
-With a [few exceptions](#exceptions-for-breaking-changes), if the answer is yes to any of the following questions, the change is to be considered a breaking change and should only be introduced in a major version.
+By definition, a removal is a breaking change. With a [few exceptions](#exceptions-for-breaking-changes), if the answer is yes to any of the following questions, the change is to be considered a breaking change and should be avoided other than for critical business risk.
 
 - Does this change require an action from the customer to ensure continuity of function? (For example, removing background upload for object storage meant users needed to migrate objects to a supported object storage provider)
 - Does this change cause a disruption to a customer's workflows or tasks? (For example, removing support for the "WIP" prefix in MRs meant users would need to use the "Draft:" prefix instead)
@@ -89,7 +89,6 @@ Introducing a **breaking change in a minor release is against policy** because i
 
 - When GitLab establishes that delaying a breaking change would overall have a _significantly_ more negative impact to customers compared to shipping it in a minor release.
 - If an integrated service shuts down, the integration can be removed during a minor release.
-- Is an [experimental](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#beta) feature.
 
 In all cases, the PM or EM must [follow the Request a Breaking Change process](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
 
