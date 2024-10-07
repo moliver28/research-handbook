@@ -131,7 +131,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 | OPEN | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
 | 2024-10-14 | 2024-10-18 | OPEN| OPEN | REMOTE - PT - very limited week due to multiple conferences |
 | 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
@@ -843,3 +842,4 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-08-26 | 2024-09-06 | [Sam Wiskow](https://gitlab.com/swiskow) | Senior Product Manager, Delivery & Scalability | |
 | 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
 | 2024-09-09 | 2024-09-20 |  [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |
+| 2024-09-16 | 2024-10-04 |  [Kyle Yetter](https://gitlab.com/kyetter) | Senior Backend Engineer, Geo | |
