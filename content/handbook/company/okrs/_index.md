@@ -178,6 +178,7 @@ The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to t
 
 Function objectives should cascade from one of the Company OKRs in GitLab.
 
+**3-4 weeks before** the start of the fiscal quarter, E-Group firms up KRs.
 **2-3 weeks before** the start of the fiscal quarter, during a designated block of time in an [E-Group Weekly](/company/e-group-weekly/), Executives propose OKRs for their functions. At a minimum, they should have 2-3 function KRs that cascade from each company-level objective. They may choose to have more OKRs for function management purposes and have discretion to what degree other goals are highlighted in this forum.
 
 After this meeting, as OKRS are finalized, functional OKRs should be posted in GitLab. This should be noted through a Slack message in the #okrs channel. The CEO and Chief of Staff to the CEO should be @ mentioned. The CEO will confirm sign-off on objectives by commenting directly on them. While the CEO is the DRI, this responsibility may be delegated to the CoS to the CEO. The CoS to the CEO will also post company OKRs in GitLab.
