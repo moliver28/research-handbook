@@ -322,7 +322,7 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
-- November, 2024: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
+- November, 2024: {{< member-by-name "Ryan Lehmann" >}}
 - October, 2024: {{< member-by-name "Russell Dickenson" >}}
 - September, 2024: {{< member-by-name "Marcel Amirault" >}}
 - August, 2024: {{< member-by-name "Jon Glassman" >}}
