@@ -6,26 +6,27 @@ description: "GitLab's Project Leader Guide"
 As a Project Lead, your role is central to ensuring the integrity, security, and effectiveness of your department’s data and reporting. Here is the contact list for [Tableau Department Project Leads](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views). 
 
 Below we will cover:
- * Project Lead Responsibilities
- * Project Lead Abilities
- * Promotion to Production Process
- * Publishing Over an Existing Production Workbook (Updating Content)
+
+* Project Lead Responsibilities
+* Project Lead Abilities
+* Promotion to Production Process
+* Publishing Over an Existing Production Workbook (Updating Content)
 
 ---
 
 ### **Project Lead Responsibilities**
 
 1. **Data Department Leader**:
-   - **Know Your Data**: Understand the data sources, schemas, and models your team uses. Ensure data accuracy, relevance, and alignment with business goals.
-   - **Understand the Workbooks & Dashboards**: Have a thorough knowledge of the Tableau data sources, workbooks, and dashboards in your project. Ensure that they meet business requirements and are up to date.
+   * **Know Your Data**: Understand the data sources, schemas, and models your team uses. Ensure data accuracy, relevance, and alignment with business goals.
+   * **Understand the Workbooks & Dashboards**: Have a thorough knowledge of the Tableau data sources, workbooks, and dashboards in your project. Ensure that they meet business requirements and are up to date.
 
 2. **Validating and Approving Content**:
-   - **Promotion Process with Issues:** Have all Tableau content promotions Production use the Tableau GitLab [Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) using the template `Tableau Publish to Production`. 
-   - **Production Validation**: Before promoting content to Production, ensure the data is accurate and meets the business’s needs. Double-check that the content is a trusted and validated source.
-   - **Single Source of Truth**: Ensure usage of single source of truth (SSOT) for Certified and Published data sources. Also ensure that production content has one place for the users to access trusted dashboards and reports. Minimize redundant or conflicting workbooks that might confuse end users.
+   * **Promotion Process with Issues:** Have all Tableau content promotions Production use the Tableau GitLab [Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) using the template `Tableau Publish to Production`. 
+   * **Production Validation**: Before promoting content to Production, ensure the data is accurate and meets the business’s needs. Double-check that the content is a trusted and validated source.
+   * **Single Source of Truth**: Ensure usage of single source of truth (SSOT) for Certified and Published data sources. Also ensure that production content has one place for the users to access trusted dashboards and reports. Minimize redundant or conflicting workbooks that might confuse end users.
 
 3. **Data Security and Compliance**:
-   - **Protecting Sensitive Data**: Help safeguard sensitive data, including SAFE, MNPI (Material Non-Public Information), Restricted, and Personal Data. Ensure that sensitive workbooks and data sources are only accessible by authorized individuals.
+   * **Protecting Sensitive Data**: Help safeguard sensitive data, including SAFE, MNPI (Material Non-Public Information), Restricted, and Personal Data. Ensure that sensitive workbooks and data sources are only accessible by authorized individuals.
 
 ---
 
@@ -50,7 +51,6 @@ Project Leaders have the ability to promote workbooks to Production. This proces
 1. Select **Move** by navigating to the ellipse to the right of the workbook
 1. From the pop-up window select the appropriate department folder for the workbook promotion. Be sure to place sensitive workbooks in SAFE or restricted folders.
 1. If the workbook title contains \[Draft\], rename the workbook and remove *Draft* from the title. The workbook may have a tag `Draft` which should also be removed by clicking the ellipse and selecting **Tags**. The associated tag can then be removed by clicking the `X` next to the tag.
-
 
 ### **Publishing Over an Existing Production Workbook (Updating Content)**
 
@@ -77,8 +77,8 @@ When updating content in production it is best to overwrite what is in Productio
 
 By following this structured approach, you will:
 
-- Ensure accurate, high-quality content in Production.
-- Protect sensitive data.
-- Maintain a single source of truth for your users.
+* Ensure accurate, high-quality content in Production.
+* Protect sensitive data.
+* Maintain a single source of truth for your users.
 
 For ongoing support or additional clarification, reach out to the BI Team.
