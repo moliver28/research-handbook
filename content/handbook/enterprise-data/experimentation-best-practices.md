@@ -234,7 +234,7 @@ Based on initial feedback and observations on current experiment platform capabi
 ## References
 
 - [Growth Experiments page:](/handbook/marketing/growth/)<span style="text-decoration:underline;"> </span>Growth is already documenting experiment results in a centralized page.
-- [7 Step A/B testing process](https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/) Need to invest time on planning, Design and QA
+- [7 Step A/B testing process](https://web.archive.org/web/20210731123605/https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/) Need to invest time on planning, Design and QA
 - [A/B testing for a low traffic website](https://blog.optimizely.com/2016/05/17/ab-testing-for-low-traffic-websites/)
 - [Importance of test planning](https://optinmonster.com/ab-testing-best-practices/)
 

@@ -14,6 +14,26 @@ The Ecosystem Team’s north star is GitLab NetARR.  ESAs will support the Ecosy
 
 The ESA primary contribution is to help the GitLab Global Ecosystem team drive our sales strategy by empowering an ecosystem of partners with mature GitLab GTM solutions, services practices, and GTM solutions.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketings and other areas as appropriate. This role involves pre-sales and supporting partners. 
 
+## Field and Ecosystem SA Opportunity Responsibility
+
+### GitLab Sourced Opportunities
+
+If a new opportunity is sourced by a direct account team, regardless if there is a partner involved, the direct account SA owns the responsibility for progressing the technical aspects of the opportunity to close. The Ecosystem Solutions Architect (ESA) is there to support the progression of the deal by enabling an aligned Partner account team to collaborate with the GitLab SA on technical discovery and effective demos of a GitLab based solution.
+
+### Partner Sourced Opportunities
+
+If a new opportunity is sourced by a partner, it is the ESA who takes responsibility to enable the partner should they need assistance to progress the opportunity. Especially when the partner has yet to submit a Deal Registration, the ESA is the trusted advisor to the partner for the opportunity, and will even speak to prospects directly to enable the partner on effective Discovery and Demo practices. The Ecosystem team will encourage the partner to submit a Deal Registration and begin coordinating with the field account team.
+
+As soon as the partner's account team is willing, the ESA will hand over all customer intelligence to the field SA to take over ownership of the opportunity and begin working with the partner account team to progress it to close.
+
+### ESA Opportunity Handoff
+
+The ESA will not retain primary opportunity responsibility beyond GitLab deal Stage 2 unless approval is made by both the Global Ecosystem SA Manager and the Regional SA Manager.  
+
+### Furthermore
+
+The ESA also promotes partner Delivery teams to get trained and certified to provide great customer outcomes after the deal is won including implementation and adoption services.
+
 ### Team Charter and Mission
 
 - **Partner Champion Development:** Identify and empower partner technical teams to become Champions of GitLab through “last mile” technical enablement and evangelism sessions.  Develop Partner Champions who can evangelize GitLab solutions, conduct hands-on workshops and demos, and address competitive scenarios in the sales cycle.
@@ -24,13 +44,23 @@ The ESA primary contribution is to help the GitLab Global Ecosystem team drive o
 
 ## Ecosystem Solutions Architecture Engagement Model
 
-### TODO Developing Partner Champions
+### Developing Partner Champions 
 
-Get personal. We don’t “enable partners.”  We develop champions.  Share and enable on simple messages that unlock services and consumption.  Requires focus, achieves scale.
+The Ecosystem SA goal is to effectively enable an entire ecosystem of associated services, platform, technology, and transaction partners.  We cannot do this unless we develop [GitLab Partner Champions](/handbook/resellers/partner-champions-program/) within our partner community.  Selling and services relationships are personal.  We don’t “enable partners."  We develop champions who can share and scale our reach delivering simple messages that unlock services and consumption.  This effort requires focus and achieves scale.
 
-### TODO Working with Strategic Alliance Partners
+### Working with Strategic Alliance Partners
 
-### TODO Working with Services Partners
+The Ecosystem SA is an influential technical representative from GitLab to our strategic an technical alliance partners. This role involves pre-sales and driving partner solutions and joint GTM initiatives.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product Management, and driving integration intitiatives with our Product Marketing and Engineering counterparts. 
+
+In terms of key responsibilities, the Ecosystem SA is responsible for supporting these Strategic Alliance Partnerships through the following activities:
+
+- Partner Go To Market (GTM): Proactively identifies market demand prior to solutioning. Engages business leaders with proposal development and estimate preparation to validate business alignment to solution development.  Works across technical and services partners to identify and develop joint solutinos, enablement and messaging, both internal and external.  
+- Subject Matter Expertise: Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and “hands on the keyboard” depth. 
+- Internal and External Evangelism: Communicates, grows and evolves awareness of applicable Partner technology, services, success stories, market trends and best practices.
+- GitLab Strategy: Generates ideas for and participates in Ecosystem group strategy formulation for both business and technical considerations.
+- Content Curation: Sources and curates content with Partner Enablement team that is easy to find and use, and helps meet the goals of GitLab and its partners.
+
+### TODO Working with Services Partners 
 
 ### MBO Guidelines
 
@@ -45,4 +75,4 @@ The charter of the Global Ecosystem Team is to develop an ecosystem of partners 
   - does not meet MBO expectations - 0% of the payment
   - meets some MBO expectations - 75% of the payment
   - meets majority of MBO expectations - 100% of the payment
-  - exceeds majority of MBO expectations - 100% of the payment
+  - exceeds majority of MBO expectations - 110% of the payment

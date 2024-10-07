@@ -27,7 +27,7 @@ This automation runs several times each day, and can be triggered by [running th
 #### Status updates on project epics
 
 Comments are automatically generated on project epics to report status.
-To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/c04662931be080c0b4d2b3495c2296476469c807/README.md#child-epics).
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/26295198fedcde8af09bf6b6abb22ed3acd52f07/README.md#child-epics).
 
 #### When a project is finished
 
@@ -59,15 +59,9 @@ Epics must always have the following sections:
 
 ### Sections format
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) that relies on the presence of following headings and structure in the Epic description:
+The DRI of the epic should be the assignee, and there should only be one assignee for an epic.
 
-#### DRI Section
-
-```markdown
-### DRI
-
-@user
-```
+Use the following headings and structure in the Epic description:
 
 #### Participants Section
 
@@ -155,7 +149,7 @@ This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-inf
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/engineering/metrics/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers

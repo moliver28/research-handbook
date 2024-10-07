@@ -346,7 +346,7 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ## Performance Indicators
 
-- [Sec Sub-department Performance Indicators](/handbook/engineering/metrics/dashboards/)
+- [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
 ### Dashboards

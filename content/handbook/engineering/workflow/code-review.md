@@ -91,7 +91,7 @@ In order to better inform a decision, the manager should privately reach out to 
 
 After merging, the manager should:
 
-1. Announce this change in the applicable channels listed under [keeping yourself informed section of the engineering handbook](/handbook/engineering/#keeping-yourself-informed) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
+1. Announce this change in the applicable channels listed under [Slack section of the engineering communications handbook](/handbook/engineering/engineering-comms/#slack) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
 1. Post an update in the **Engineering Week-in-Review document**. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
@@ -426,7 +426,7 @@ entitled to the ```Leading Organization``` status, will receive the label ```Lea
 
 > Leading Organization = 20 merged Merge Requests or more within the last 3 completed months.
 
-Eligible merge requests include contributions to the [GitLab product](/handbook/engineering/metrics/#projects-that-are-part-of-the-product) and documentation. Contributions to the [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) repository (e.g. the GitLab handbook) are not currently included or entitled to a review response SLO.
+Eligible merge requests include contributions to the [GitLab product](/handbook/product/groups/product-analysis/engineering/dashboards/#projects-that-are-part-of-the-product) and documentation. Contributions to the [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) repository (e.g. the GitLab handbook) are not currently included or entitled to a review response SLO.
 
 ## Domain Experts
 
@@ -540,7 +540,7 @@ CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
 
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.
 
 The `@gitlab-org/development-leaders` group consists of team members from Senior Managers and above in the management track, and Distinguished Engineer and above in the individual contributor track in the development departments within Engineering.

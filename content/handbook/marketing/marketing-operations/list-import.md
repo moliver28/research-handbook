@@ -118,7 +118,7 @@ Its also super important that if there are notes, the notes are clear to someone
 
 #### Partner Lead Imports
 
-If this import is part of a Channel or Alliance marketing campaign, you must include the `CRM Partner ID` as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id)
+If this import is part of a Channel or Alliance marketing campaign, you must include the `CRM Partner ID` as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#crm-partner-id)
 
 If the lead is not associated to a partner, leave that field blank.
 

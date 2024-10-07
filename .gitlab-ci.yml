@@ -93,7 +93,7 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.131.0'
+  HUGO_VERSION: '0.132.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   MARKDOWNLINT_VERSION: '0.13.0'
   VALE_VERSION: '3.7.0'
@@ -117,6 +117,9 @@ variables:
 
 .build-and-test-only: &build-and-test-only
   if: '$BUILD_AND_TEST_ONLY == "true"'
+
+.is-fork: &is-fork
+  if: '$CI_PROJECT_ID != "42817607"'
 
 ###################################
 #
@@ -223,7 +226,7 @@ pages:
 markdownlint:
   image:
     name: davidanson/markdownlint-cli2:v${MARKDOWNLINT_VERSION}
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
     docker:
       user: root
   stage: build
@@ -238,6 +241,7 @@ markdownlint:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -249,7 +253,7 @@ markdownlint:
 vale:
   image:
     name: jdkato/vale:v${VALE_VERSION}
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
     docker:
       user: root
   stage: build
@@ -260,6 +264,7 @@ vale:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -271,7 +276,7 @@ vale:
 handbooklint:
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
   stage: build
   needs: []
   before_script:
@@ -283,6 +288,7 @@ handbooklint:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -296,6 +302,7 @@ hugolint:
   needs: []
   rules:
     - <<: *build-and-test-only
+    - <<: *is-fork
     - <<: *default-branch
       allow_failure: true
     - <<: *merge-request-or-tag
@@ -322,6 +329,7 @@ secret_detection:
   rules:
     - <<: *build-and-test-only
     - <<: *merge-request-or-tag
+    - <<: *is-fork
 
 ####################################
 ##
@@ -335,12 +343,12 @@ post_comment_on_failure:
   stage: notify
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
+  before_script:
+    - apk add yq jq sed bash
   script:
-    - apk add yq jq
-    - ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - glab auth login -t $GITLAB_TOKEN
-    - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
+    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
 
@@ -349,4 +357,6 @@ notify_slack_on_build_failures:
   stage: notify
   script: ./scripts/send-failure-notification-to-slack.sh
   rules:
+  - <<: *is-fork
+    when: never
   - <<: *default-branch

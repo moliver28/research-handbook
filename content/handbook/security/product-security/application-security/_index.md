@@ -97,7 +97,7 @@ Learn how to identify or remediate security issues using real examples with GitL
 
 ## Reproducible Builds
 
-Learn how GitLab is implementing [Reproducable Builds]({{< ref "reproducible-builds" >}}) for our build processes.
+Learn how GitLab is implementing [Reproducible Builds]({{< ref "reproducible-builds" >}}) for our build processes.
 
 ## Milestone Planning
 

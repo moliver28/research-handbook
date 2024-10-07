@@ -46,7 +46,7 @@ In May 2024 we [defined and enforced bounded contexts](decisions/002_bounded_con
 1. [ADR-001: Modularize application domain](decisions/001_modular_application_domain.md)? Start with modularizing
 1. [ADR-002: Define bounded context around feature categories](decisions/002_bounded_contexts_definition.md) as a SSoT in the code.
 1. [ADR-003: Assign stewards to all modules and libraries](decisions/003_stewardship.md).
-1. [Publish the list of bounded contexts](../../../development/software_design.md#use-namespaces-to-define-bounded-contexts).
+1. [Publish the list of bounded contexts](https://docs.gitlab.com/ee/development/software_design.html#use-namespaces-to-define-bounded-contexts).
     - Define a SSoT list of bounded contexts.
     - Enforce enforce it using RuboCop static analyzer.
     - Autoload non-standard Rails directories based on the given list.

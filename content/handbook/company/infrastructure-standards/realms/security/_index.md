@@ -6,7 +6,7 @@ description: "This realm is for the engineering security team to deploy shared a
 ### Quick links
 
 - [Global infrastructure standards](/handbook/infrastructure-standards/)
-- [Global labels and tags](/handbook/infrastructure-standards/labels-tags/)
+- [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Infrastructure policies](/handbook/infrastructure-standards/policies/)
 - [Infrastructure helpdesk](/handbook/infrastructure-standards/helpdesk/)
 
@@ -34,7 +34,7 @@ To request access to a group, please see [group access request tutorial](/handbo
 
 ## Realm labels and tags
 
-The [global labels/tags](/handbook/infrastructure-standards/labels-tags/) and [realm labels/tags](/handbook/infrastructure-standards/realms/security/labels-tags/) should be applied to each resource.
+The [global labels/tags](/handbook/company/infrastructure-standards/labels-tags/) and [realm labels/tags](/handbook/infrastructure-standards/realms/security/labels-tags/) should be applied to each resource.
 
 ## Realm Groups
 

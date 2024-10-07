@@ -9,10 +9,9 @@ twitter_creator: "gitlab"
 
 ## Open Social Media Strategies
 
-GitLab-based social media strategies to aid in developing your own social media department.
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text"><a rel="cc:attributionURL" href="/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/open-source/open-source-social.html"><span rel="dct:title">Open Social Media Strategies</span></a> by <a rel="cc:attributionURL" href="/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/"><span rel="cc:attributionName">the GitLab Social Team</span></a> CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0"><img style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc_icon.svg" alt="" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" alt="" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" alt="" /></a></p>
+GitLab-based social media strategies to aid in developing your own social media department. 
 
-*Please use the table of contents to the right to find something helpful.*
+*Updates coming soon!*
 
 ## High Impact World Events; Going "dark", pausing posts
 

@@ -30,7 +30,7 @@ The following people are permanent members of the group:
 
 ## Metrics
 
-Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/engineering/metrics/dev/manage/import-and-integrate/).
+Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/product/groups/product-analysis/engineering/dashboards/dev/manage/import-and-integrate/).
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
@@ -114,7 +114,7 @@ All issues should have:
   - `~"Category:Integrations"`
   - `~"Category:Internationalization"`
   - `~"Category:Webhooks"`
-- A [type label](/handbook/engineering/metrics/#work-type-classification)
+- A [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
 
@@ -274,7 +274,7 @@ During this time the flag is enabled by default but can still be disabled quickl
 In the past, we were able to quickly mitigate several incidents by disabling the feature:
 
 - [2023-09-21: Group import allows impersonation of users in CI pipelines](https://gitlab.com/gitlab-sirt/shared-incidents/incident_4304/-/issues/1)
-- [2023-10-30: Gitlab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
+- [2023-10-30: GitLab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
 - [2024-01-30: Sidekiq Apdex SLO](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17504)
 
 For changes within importers, integrations or webhooks we should prefer to:
@@ -458,9 +458,9 @@ This is a collection of links for monitoring our features.
 
 ### Sentry errors
 
-- [Matching "IntegrationsController"](https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+IntegrationsController)
-- [Matching "Integrations"](https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Integrations)
-- [Matching "Jira"](https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Jira)
+- [Matching "IntegrationsController"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+IntegrationsController&referrer=issue-list&statsPeriod=14d)
+- [Matching "Integrations"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+Integrations&referrer=issue-list&statsPeriod=14d)
+- [Matching "Jira"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+Jira&referrer=issue-list&statsPeriod=14d)
 
 ### Kibana logs and dashboards
 
@@ -510,7 +510,7 @@ Learn more about error budgets with these resources:
 
 ## Links and resources {#links}
 
-{{% include "includes/engineering/manage/shared-links.md" %}}
+{{% include "includes/engineering/foundations/shared-links.md" %}}
 
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels

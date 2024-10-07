@@ -39,9 +39,9 @@ A full list of packages available are on the [dbt Hub site](https://hub.getdbt.c
 
 ## Running dbt
 
-If you're interested in using dbt, the [dbt documentation has a great tutorial](https://tutorial.getdbt.com/tutorial/setting-up/) on getting setup to work on data from a fictional business called Jaffle Shop.
+If you're interested in using dbt, the [dbt documentation has a great tutorial](https://docs.getdbt.com/docs/get-started-dbt) on getting setup to work on data from a fictional business called Jaffle Shop.
 
-If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Local environment
 
@@ -168,6 +168,15 @@ sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
 ```
 
 [Video Introduction](https://youtu.be/MwVJHf7XvrI)
+
+#### SAFE Check Locally
+
+To test for SAFE coverage in model the same `safe_model_script` process can be used that is used in the [CI Job](/handbook/enterprise-data/platform/ci-jobs/#safe_model_script).  To run the process, run the `make safe-check` command from within the virtual environment.
+
+```console
+ ~/repos/analytics/transform/snowflake-dbt
+╰─$ make safe-check
+```
 
 #### Cloning models locally
 
@@ -765,8 +774,9 @@ Seeds are a way to load data from csv files into our data warehouse ([dbt docume
 Because these csv files are located in our dbt repository, they are version controlled and code reviewable.
 This method is appropriate for loading static data which changes infrequently.
 A csv file that's up to ~1k lines long and less than a few kilobytes is probably a good candidate for use with the `dbt seed` command.
+A seed file should be placed in the project folder that corresponds to the functional team that has ownership of the information found therein.  This folder structure also corresponds to a schema in the `PREP` database so that the data can be easily used in further development.
 
-#### Organizing columns
+### Organizing columns
 
 When writing a base model, columns should have some logical ordering to them.
 We encourage these 4 basic groupings:
@@ -1358,7 +1368,7 @@ This should never be set to `RAW` as it will overwrite production data.
 
 #### Snapshots and GDPR
 
-Sometimes the data team receives requests to delete personal data from the Snowflake Data Warehouse, because of GDPR. To address these deletions, we use `dbt` macros. A macro scans all applicable data that needs to be removed, this also applies to snapshot tables. These maros could be used manually following this [issue template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data:%20GDPR%20Deletion.md?ref_type=heads) and are also scheduled to be run in Airflow following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/gdpr_deletions/gdpr_deletions.md?ref_type=heads) and [handbook page](/handbook/business-technology/data-team/platform/gdpr-deletions/).
+Sometimes the data team receives requests to delete personal data from the Snowflake Data Warehouse, because of GDPR. To address these deletions, we use `dbt` macros. A macro scans all applicable data that needs to be removed, this also applies to snapshot tables. These maros could be used manually following this [issue template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data:%20GDPR%20Deletion.md?ref_type=heads) and are also scheduled to be run in Airflow following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/gdpr_deletions/gdpr_deletions.md?ref_type=heads) and [handbook page](/handbook/enterprise-data/platform/gdpr-deletions/).
 
 There are 2 flavours:
 

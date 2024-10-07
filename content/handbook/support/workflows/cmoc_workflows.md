@@ -465,6 +465,8 @@ If handover occurs during an active incident where the quick summary you'd provi
 
 While the CMOC Handover issue tracker is open to the public, the template [defaults to confidential](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3504) in an effort to prevent accidental leakage of confidential information.
 
+If the CMOC is called to partipicate in a new or ongoing SIRT incident during the shift, at handover invite the ingress CMOC to any related confidential issues/slack channels.
+
 Contact requests opened during a shift should by default be assigned to the Support Engineer that created the ticket. It can be useful to mention the request for awareness of the next shift. However, it's not necessary to re-assign the contact request or continue to include it in subsequent handoffs unless action needs to be taken. In many cases, users don't respond to the contact request. You may want to consider re-assigning contact requests and handing it off to another shift if you intend to be OOO, for example.
 
 ## CMOC Training Resources

@@ -79,7 +79,9 @@ The list of examples is not a comprehensive list of what could be considered mat
 
 Yes. Whether in epics, issues or handbook pages, PIs should be internal-only and follow the [SAFE framework](/handbook/legal/safe-framework/).
 
-#### What are some practical examples of things that are SAFE to share and those that need to remain internal-only?
+#### What are some practical examples of things that are SAFE?
+
+Examples of what's safe to share and those that need to remain internal-only:
 
 | Situation | Classification | Why |
 | --- | --- | --- |
@@ -98,9 +100,9 @@ See the table above. If you are recording a video that requires a disclaimer but
 
 None, so long as the instrumentation data does not contain [sensitive](/handbook/legal/safe-framework/#sensitive), [financial](/handbook/legal/safe-framework/#financial), or [internal-only](/handbook/communication/confidentiality-levels/#internal) data.
 
-#### What third-party materials (like images, diagrams, and quotes) can be included in publicly-available artifacts?
+#### What third-party materials can be included in publicly-available artifacts?
 
-Guidelines covering the use of third-aprty materials are being prepared and will be linked here when ready.
+Guidelines covering the use of third-party materials (like images, diagrams, and quotes) are being prepared and will be linked here when ready.
 
 #### What third-party company and product names and logos can be included in publicly-available artifacts?
 

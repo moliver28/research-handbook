@@ -228,7 +228,7 @@ We'll commit this to a new branch, and create a new Merge Request.
 
 ### Failed Merge Request (MWPS, GitLab, Slack, Favicon, Email)
 
-Since we've now created a new branch, we have a new Pipeline running. Now if I am the reviewer and already checked out the changes, I can simply click on our Merge When Pipeline Succeeds button. This will automatically merge the issue as long as we have a good pipeline. However if it fails and the developer needs to make a further change, it will of course have to get re-reviewed. This is a great way to save some time for your reviewers, so they aren't waiting until a pipeline complete before moving on.
+Since we've now created a new branch, we have a new Pipeline running. Now if I am the reviewer and already checked out the changes, I can simply click on our Auto-merge button. This will automatically merge the issue as long as all checks pass, including a green pipeline. However if it fails and the developer needs to make a further change, it will of course have to get re-reviewed. This is a great way to save some time for your reviewers, so they aren't waiting until a pipeline complete before moving on.
 
 Now we're going ahead and building the new version of our library, and next up we'll be running our tests. Let's see how our unit tests are going.
 

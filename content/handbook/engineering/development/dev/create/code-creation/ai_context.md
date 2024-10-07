@@ -19,8 +19,8 @@ Our mission is to develop a comprehensive context framework that will:
 
 | Name                                           | Team/Role           |
 |------------------------------------------------|---------------------|
-| {{< member-by-name "Matt Nohr" >}}             | Code Creation / EM  |
-| {{< member-by-name "Ben Venker" >}}            | Global Search / PM  |
+| {{< member-by-name "Matt Nohr" >}}             | Code Creation / EM and Engineering DRI  |
+| {{< member-by-name "Ben Venker" >}}            | Global Search / PM and Product DRI  |
 | {{< member-by-name "Allen Cook" >}}            | Code Creation       |
 | {{< member-by-name "Denys Mishunov" >}}        | AI Framework        |
 | {{< member-by-name "Michael Angelo Rivera" >}} | Editor Extensions   | 
@@ -50,8 +50,7 @@ Our mission is to develop a comprehensive context framework that will:
 
 ## Related Resources
 
-- Context Framework Design Doc - TBD
-- Context Type Inventory - TBD
+- [AI Context Management Design Document](/handbook/engineering/architecture/design-documents/ai_context_management/)
 - [Project Board](https://gitlab.com/groups/gitlab-org/-/boards/7696602?label_name%5B%5D=task%20force::AI%20Context)
 - [Taskfoce RACI Chart](https://docs.google.com/spreadsheets/d/1jRBCm7IYMdN6dDgnGIplKmN9QJE135w5Nb_lBJ_yOaY/edit?gid=1036808851#gid=1036808851) (internal only)
 - [Rolling meeting agenda](https://docs.google.com/document/d/1a3bg7XxmndJw2fKABlS884c7xXckDeQP8uuTqdbiqEQ/edit?usp=sharing) (internal only)

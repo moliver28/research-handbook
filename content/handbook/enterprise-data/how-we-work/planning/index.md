@@ -19,9 +19,9 @@ This approach has many benefits, including:
 
 ## Quarterly OKR Planning
 
-Data Team OKRs aspire to align with divisional and company OKRs as well as GitLab Yearlies. The Data Team will also create OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, OKRs constitute 50-60% of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
+Data Team OKRs aspire to align with divisional and company OKRs as well as GitLab Yearlies. The Data Team will also create OKRs for [Data Platform](/handbook/enterprise-data/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, OKRs constitute 50-60% of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
 
-Currently we do our planning via a [gSheet](https://docs.google.com/spreadsheets/d/16-KbbdgO3rWt-jrvQsgfJagPIfv5asULXaGdnzBbfk8/edit?usp=sharing) which gets communicated with all team members and stakeholders. Data Team OKRs are **managed** with [GitLab Plan](https://about.gitlab.com/direction/plan/) using a combination of Objectives, Key Results, Epics, and Issues. 
+Currently we do our planning via a [gSheet](https://docs.google.com/spreadsheets/d/16-KbbdgO3rWt-jrvQsgfJagPIfv5asULXaGdnzBbfk8/edit?usp=sharing) which gets communicated with all team members and stakeholders. Data Team OKRs are **managed** with [GitLab Plan](https://about.gitlab.com/direction/plan/) using a combination of Objectives, Key Results, Epics, and Issues.
 
 This approach:
 
@@ -36,9 +36,9 @@ OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbo
 
 ### Planning OKRs
 
-OKRs are drafted in collaboration with our Business Partners and every KRs that is put up for scheduling must have an opportunity canvas, see the [project intake](/handbook/business-technology/data-team/how-we-work/#project-intake). Everyone at GitLab is welcome to [open](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/%5BNew%20Request%5D%20Create%20Opportunity%20Canvas.md?ref_type=heads) an opportunity canvas and we ask the Data Team members to contribute to the planning process by updating the gSheet with KRs they think are important and should be considered for scheduling. This collaborative approach ensures that all team members have a voice in the planning process and can contribute their insights and expertise.
+OKRs are drafted in collaboration with our Business Partners and every KRs that is put up for scheduling must have an opportunity canvas, see the [project intake](/handbook/enterprise-data/how-we-work/#project-intake). Everyone at GitLab is welcome to [open](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/%5BNew%20Request%5D%20Create%20Opportunity%20Canvas.md?ref_type=heads) an opportunity canvas and we ask the Data Team members to contribute to the planning process by updating the gSheet with KRs they think are important and should be considered for scheduling. This collaborative approach ensures that all team members have a voice in the planning process and can contribute their insights and expertise.
 
-Once the initial draft of OKRs is complete, the Data Leadership Team reviews and refines the OKRs to ensure alignment with company goals and strategic priorities. The finalized OKRs are then communicated to the entire Data Team and relevant stakeholders. If needed prioritization is raised and discussed within the Data Leadership Forum. KRs are converted into GitLabs [OKR functionality](https://docs.gitlab.com/ee/user/okrs.html). 
+Once the initial draft of OKRs is complete, the Data Leadership Team reviews and refines the OKRs to ensure alignment with company goals and strategic priorities. The finalized OKRs are then communicated to the entire Data Team and relevant stakeholders. If needed prioritization is raised and discussed within the Data Leadership Forum. KRs are converted into GitLabs [OKR functionality](https://docs.gitlab.com/ee/user/okrs.html).
 
 ### Prioritization
 
@@ -53,7 +53,7 @@ We use a scoring system to evaluate each of these factors, which helps us calcul
 
 priority_score = `(Strategic Alignment + Time Criticality + Revenue or Efficiency Impact + Regulatory or Legal Impact) / Job Size`
 
-Note: Carry-over KRs are prioritized (if still applicable) as we want to complete ongoing work first to achieve results. 
+Note: Carry-over KRs are prioritized (if still applicable) as we want to complete ongoing work first to achieve results.
 
 #### Scoring breakdown
 
@@ -66,11 +66,11 @@ Value drivers:
 | Revenue or Efficiency Impact | 20% | < $5k | < $50k | < $500k | < $5 M| > $5M |
 | Regulatory or Legal Impact   | 10%     | None/Nice to Have | Must Have            | Fine and/or Brand Damage <$1M |  Fine and/or Brand Damage <$10M | Fine and/or Brand Damage > $10M |
 
-| Value        | 1  | 2 | 3 | 4 | 5  | 6   |  
+| Value        | 1  | 2 | 3 | 4 | 5  | 6   |
 | ------------ | -- | - | - | - | -- | --- |
 | T-Shirt Size | XS | S | M | L | XL | XXL |
 
-As the Job size is an important factor, we encourage to breakup KRs (over multiple quarters) which aligns with GitLabs value of [iteration](/handbook/values/#iteration). 
+As the Job size is an important factor, we encourage to breakup KRs (over multiple quarters) which aligns with GitLabs value of [iteration](/handbook/values/#iteration).
 
 #### T-Shirt Sizing Approach
 
@@ -93,7 +93,7 @@ Assigning KRs will happen towards the end of the quarter by adding team members 
 
 ### Data Platform Vision and KRs
 
-Although we encourage everyone within the team to contribute, in particular [Staff](/job-families/finance/data-engineer/#staff-data-engineer)+ level Data Engineers are expected to contribute to the long-term vision and strategic [direction](/handbook/business-technology/data-team/organization/engineering/) of the Data Platform, ensuring that our infrastructure and capabilities evolve to meet the changing needs of the business. They do this by discussing quarterly our Data Platform vision and translate if needed into KRs. Any updates or outcomes from these discussions are incorporated into the overall OKR planning process and communicated to the entire Data Team.
+Although we encourage everyone within the team to contribute, in particular [Staff](/job-families/finance/data-engineer/#staff-data-engineer)+ level Data Engineers are expected to contribute to the long-term vision and strategic [direction](/handbook/enterprise-data/organization/engineering/) of the Data Platform, ensuring that our infrastructure and capabilities evolve to meet the changing needs of the business. They do this by discussing quarterly our Data Platform vision and translate if needed into KRs. Any updates or outcomes from these discussions are incorporated into the overall OKR planning process and communicated to the entire Data Team.
 
 Key aspects include:
 

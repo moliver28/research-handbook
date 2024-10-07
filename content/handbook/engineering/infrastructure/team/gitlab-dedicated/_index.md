@@ -216,11 +216,11 @@ GitLab [confidentiality levels](/handbook/communication/confidentiality-levels/)
 
 When it is necessary to refer to a specific customer we use the following guidelines:
 
-| Use Case                               | Example                                                                     | Process                                                                                                                                                                                                                                                                                                                                                                     |
-|----------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Internal Communication & Collaboration | Slack conversations                                                         | <ul><li>Use the customer name</li></ul> |
-| Public Collaboration | Collaboration on issues, epics and recorded calls                           | <ul><li>Avoid using the customer name by providing internal links that aid the identification and internal notes where necessary</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
-| Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack  | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
+| Use Case                               | Example                                                                    | Process                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Internal Communication & Collaboration | Slack conversations                                                        | <ul><li>Use the customer name</li></ul> |
+| Public Collaboration | Collaboration on issues, including SIRT issues, epics and recorded calls   | <ul><li>Avoid using the customer name publicly. Instead use internal notes, or provide an accessible internal link to aid the identification - remember that not everyone has access to Switchboard</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
+| Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
 
 ### GitLab Group Hierarchy
 
@@ -246,7 +246,7 @@ Please see:
 1. [SaaS Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
 1. [SaaS Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
 1. [Environment Automation Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)
-1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1160)
+1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/405)
 1. [US Public Sector Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/876)
 
 #### Epic Hierarchy
@@ -293,6 +293,8 @@ The DRI needs to:
 1. Ensure epic meets criteria outlined in [Epic Structure](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure)
 1. Provide updates on DRI's epic in epic description according to process outlined in [Status Update Process](/handbook/engineering/infrastructure/team/gitlab-dedicated/#Status-Update-Process) below.
 
+Throughout the project, the DRI should continue to adjust the epic description and structure to keep it current with the project status.
+
 #### Epic structure
 
 Each epic and child sub-epics must include the following:
@@ -316,7 +318,11 @@ Labels are described in the [epic label section](#epics-labels).
 
 #### Epic boards
 
-Epic boards are used to track the overall status of epics.
+Epic boards are used to track the overall status of epics. DRI's are encouraged to created any project labels needed to allow a suitable project board to be created.
+
+#### Planning feature rollouts
+
+All significant changes must have a [rollout issue using the rollout_coordination template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=rollout_coordination). This issue should be used to review test coverage, rollout timings as well as plan customer communication where needed.
 
 #### Project Stages
 

@@ -81,7 +81,7 @@ To raise an issue with a specific team, please use below most commonly used chan
 
 These channels (prefixed with a `a_`) are for team members to collaborate and communicate regarding the account for a customer organization. Depending on the customer, they are sometimes internal, marked as private or we shared with the customer by connecting to customer's own Slack workspace. In order to clearly differentiate between these shared and internal channels, we recommend using `a_XYZ-internal` and `a_XYZ-external` naming conventions to be explicitly clear (as the shared symbol can be easily missed in Slack).
 
-To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
+To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
 
 Commercial (Mid-Market and SMB) accounts have specific guidelines around having Slack channels with customers.
 
@@ -296,7 +296,3 @@ In addition to weekly company group calls that bring us together, GitLab has Soc
 - **[`#mental_health_aware`](https://gitlab.slack.com/archives/mental_health_aware)**: Mental health is [super important](/handbook/company/culture/all-remote/mental-health/) and we realize that. This is a place to discuss concerns you might be having or find someone to talk to if you're feeling alone. We aim to be supportive and available for all who need it.
 - **[`#music`](https://gitlab.slack.com/archives/music)**: Share your current playlist or any interesting music you come across.
 - **[`#postcrossing`](https://gitlab.slack.com/archives/C2L1HK6TV)**: Send team members postcards from your home cities, towns and villages from around the world.
-
-## Security & Compliance
-
-On a quarterly basis, all users will be logged out of Slack and will need to re-authenticate on all of their devices via Okta.

@@ -1,5 +1,5 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab: Working with Security Vulnerabilities"
+title: "GitLab Duo Principles - Hands-On Lab: Working with Security Vulnerabilities"
 description: "This Hands-On Guide walks you through using GitLab Duo to explain security vulnerabilities."
 ---
 

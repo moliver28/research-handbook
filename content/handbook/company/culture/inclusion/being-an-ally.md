@@ -226,8 +226,8 @@ We held a 50 minute [Live Learning](/handbook/people-group/learning-and-developm
 
 There are some essential skills that are required to be an ally, here are a number of trainings that will help you enhance your allyship skills. Some of these are not allyship specific but will sharpen your skills in those important areas.
 
-- [Equality Ally Strategies](https://trailhead.salesforce.com/content/learn/modules/workplace_equality_ally_strategies?trail_id=champion_workplace_equality)
-- [Champion Workplace Equality](https://trailhead.salesforce.com/en/content/learn/trails/champion_workplace_equality)
+- [Equality Ally Strategies](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
+- [Champion Workplace Equality](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/put-allyship-practices-into-play-external)
 - [Effective Listening](https://www.linkedin.com/learning/effective-listening/improve-your-listening-skills?u=2255073)
 - [How to engage meaningfully in Allyship](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
 - [Becoming a true ally](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally?u=2255073)

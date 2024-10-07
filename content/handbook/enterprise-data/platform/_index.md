@@ -125,7 +125,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Kantata](https://developer.kantata.com/tag/Insights-Report-Exports/#operation/get-scheduled-report-export) | Airflow | `kantata` | `kantata` | Customer Success | 24h / 48h | Yes | Tier 3 |
 | [Level Up/Thought Industries](https://api.thoughtindustries.com/#thought-industries-api) | Airflow | `level_up` | `level_up` | People | 24h / 24h | No | Tier 3 |
 | [LinkedIn ads](https://business.linkedin.com/marketing-solutions/ads) | Fivetran | `linkedin_ads` | `n/a` | Marketing | 24h / 48h | No | Tier 3 |
-| [Marketo](https://www.marketo.com/software/marketing-automation/) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
+| [Marketo](https://business.adobe.com/blog/basics/marketing-automation) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
 | Monte Carlo | Snowflake Share | `n/a` | `prep_legacy` | Data | 12h / 24h | No | Tier 3 |
 | [Netsuite](https://www.netsuite.com/portal/home.shtml) | Fivetran | `netsuite_fivetran` | `netsuite` | Finance | 6h / 24h | Yes | Tier 2 |
 | [Omamori](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/omamori) | Airflow | `omamori` | `omamori` | Engineering | 1h / 24h | No  | Tier 2 |
@@ -341,6 +341,7 @@ This list of functional roles gives a high level understanding of what the role 
 | `analyst_marketing` |  Access to all `PROD` data, meta data in the Data Platform and marketing related data sources. | Yes |
 | `analyst_people` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources, including sensitive people data. | Yes |
 | `analyst_sales` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources | Yes |
+| `analyst_support` |  Access to `PROD` data, meta data in the Data Platform and `raw` / `prep` Zendesk data, including sensitive Zendesk data | No |
 | `analytics_engineer_core` |  A combination of `analyst_core`, `data_team_analyst` role with some additions | Yes |
 | `data_manager` | Extension access to Snowflake data  | Yes |
 | `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |
@@ -594,7 +595,7 @@ This process is not exposed via CI job due to its sensitive nature and because i
 The `permifrost_bot_user` is used to run both Snowflake provisioning and deprovisioning processes. This is for 2 reasons:
 
 1. `permifrost_bot_user` already has the proper permissions to run provisioning/deprovisioning as the same perms are needed to run existing Permifrost jobs.
-1. The `permifrost_bot_user` already runs existing Permifrost jobs using both Airflow and Gitlab CI, so the applied NSP IP addresses will not be redundant when added for both provisioning (run via CI) /deprovisioning (run via Airflow).
+1. The `permifrost_bot_user` already runs existing Permifrost jobs using both Airflow and GitLab CI, so the applied NSP IP addresses will not be redundant when added for both provisioning (run via CI) /deprovisioning (run via Airflow).
 
 #### Provisioning permissions to external tables to user roles
 
@@ -636,6 +637,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | warehouse            | purpose                                                                                         | max query (minutes) |
 | -------------------- | ----------------------------------------------------------------------------------------------- | ------------------- |
 | `admin`              | This is for permission bot and other admin tasks                                                | 10                  |
+| `data_classification` | This is for running the data classification and labelling process in Snowflake                 | 60                  |
 | `dev_xs/m/l/xl`      | This is used for development purposes, to be used when using the Snowflake UI and in CI-pipelines | 180               |
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
@@ -1210,7 +1212,7 @@ In order to change the desired day of the week/time of these schedules, the Sale
 
 ### GSheets & Jupyter Notebooks
 
-A couple of new functions have been added to the Gitlabdata library ([Link to PyPi](https://pypi.org/project/gitlabdata/), [Link to the source code](https://gitlab.com/gitlab-data/gitlab-data-utils/-/tree/master)) to allow reading from and writing to GSheets files.
+A couple of new functions have been added to the GitLabdata library ([Link to PyPi](https://pypi.org/project/gitlabdata/), [Link to the source code](https://gitlab.com/gitlab-data/gitlab-data-utils/-/tree/master)) to allow reading from and writing to GSheets files.
 
 #### Reading from GSheets within Jupyter Notebooks
 

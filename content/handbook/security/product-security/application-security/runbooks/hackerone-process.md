@@ -19,6 +19,10 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 
 ## Working the Queue
 
+### Namespace with Ultimate license for triaging
+
+Please ensure that you use [this namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/bug-reproduction) to create projects and groups required for testing vulnerabilities. This namespace is dedicated to reproduction of HackerOne issues.
+
 ### HackerOne Triage Team
 
 GitLab's bug bounty program is managed by HackerOne. The HackerOne triage team are the first responders, and will work with researchers to validate reports before assigning to `GitLab Team`.
@@ -209,7 +213,7 @@ Sometimes researchers will report a vulnerability in features behind a [feature 
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
 
-- A vulnerability in a feature behind a feature flag that is not complex will be `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance)
+- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs. 
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.

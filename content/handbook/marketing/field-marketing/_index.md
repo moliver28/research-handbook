@@ -1246,7 +1246,7 @@ We cannot use GitLab MDF dollars to fund joint campaigns.
 
 ### Lead Management in the Channel
 
-Please refer to the [Channel Partner Joint GitLab events handbook page](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns) for details on how we set up our joint campaign and also lead sharing with the channel as a result of those campaings.
+Please refer to the [Channel Partner Joint GitLab events handbook page](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) for details on how we set up our joint campaign and also lead sharing with the channel as a result of those campaings.
 
 All campaigns we are working with channel partners must flow through the outlined process as a way to ensure we are tracking the success of the campaign properly.
 
@@ -1755,7 +1755,7 @@ New vendors are popping up frequently and in the spirit of iteration and testing
 
 ## Software Vendor/Product Approval Process
 
-1. FMM and FMC to review the [Procurement Handbook Page](/handbook.gitlab.com/handbook/finance/procurement/) so you are familiar with the procurement process and lead times. Please be aware of the SLAs listed in the [Procurement Process](/handbook.gitlab.com/handbook/finance/procurement/#the-procurement-process) for processing all reviews, approvals and contract negotiations. Note the [bid process](/handbook/finance/procurement/#how-to-start-the-procurement-process) based on thresholds as well.
+1. FMM and FMC to review the [Procurement Handbook Page](/handbook/finance/procurement/) so you are familiar with the procurement process and lead times. Please be aware of the SLAs listed in the [Procurement Process](/handbook/finance/procurement/#the-procurement-process) for processing all reviews, approvals and contract negotiations. Note the [bid process](/handbook/finance/procurement/#how-to-start-the-procurement-process) based on thresholds as well.
 1. FMM to open a Field Marketing issue and detail out the justification for the potential new vendor/product. Include any presentations, slides and demos that have been provided to help explain the product. Tag your regional manager in the issue to review and discuss. Approval must be received to move forward. Make sure to attach all of the following issues to your main Field Marketing Issue for easy access.
 1. FMM to open a [Contract Request](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Contract_Request) issue and assign to the regional FMC.
     - SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).

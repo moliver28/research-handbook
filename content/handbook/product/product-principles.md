@@ -57,14 +57,14 @@ As a single-application for the entire DevOps lifecycle GitLab strives to enable
 
 ### The Minimal Valuable Change (MVC)
 
-Minimal Valuable Change (MVC) is the GitLab path to delivering the smallest measurable improvement for our users, customers, and the wider community. 
+Minimal Valuable Change (MVC) is the GitLab path to delivering the smallest measurable improvement for our users, customers, and the wider community.
 
-Our approach requires four pillars: 
+Our approach requires four pillars:
 
-- Relentless customer focus and commitment to understanding their workflows, using research and validation 
+- Relentless customer focus and commitment to understanding their workflows, using research and validation
 - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes.
-- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)  
-- Future vision to expand the MVC beyond the initial release 
+- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)
+- Future vision to expand the MVC beyond the initial release
 
 When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
@@ -85,7 +85,7 @@ An MVC approach is a byproduct of our spirit of iteration. That means we [break 
 
 Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illustrates how to build MVCs using Iteration. It shows Lego climbing obstacles. The first design fails. The second one can climb a book and so on. It also illustrates how modularity and good interfaces help with iteration as things get complex.
 
-#### Iteration speed and product excellence 
+#### Iteration speed and product excellence
 
 To ensure that our efforts consistently deliver value to our users, each iteration must adhere to the following guidelines:
 
@@ -214,7 +214,7 @@ Sometimes fast deployments are needed to fix a service or application outage tha
 
 #### Parity between SaaS and Self-managed deployments
 
-We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
+We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/categories/gitlab-the-product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
 
 In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience prior to recommending and supporting customers using it. All features will eventually be made available across SaaS and self-managed once those learnings have been applied.
 
@@ -302,7 +302,7 @@ Many crazy, over-ambitious ideas sound like they are impossible just
 because no one else is doing them.
 
 Since we have amazing engineers and a culture of shipping minimal
-viable changes, we are able to accomplish many more "impossible" things than other organizations.
+valuable changes, we are able to accomplish many more "impossible" things than other organizations.
 
 That's why we're shipping merge conflict resolution, why we shipped built-in CI
 before anyone else, why we built a better static pages solution, and why

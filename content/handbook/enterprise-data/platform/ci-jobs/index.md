@@ -109,7 +109,7 @@ This pipeline needs to be executed when doing changes to any of the below manife
 This pipeline requires following actions:
 
 1. Clone of `TAP_POSTGRES` schema (Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME` (Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_com`.
+2. Variable `MANIFEST_NAME` (Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_dotcom_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_dotcom`.
 3. Variable `DATABASE_TYPE` (Mandatory): The value of the database type(ci ,main, customers). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
 4. Variable `TASK_INSTANCE` (Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_gitlab_dotcom_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
@@ -117,17 +117,17 @@ This pipeline requires following actions:
 
 This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/gitlab_saas_postgres_pipeline/manifests`.
 
-1. el_gitlab_ops_db_manifest.yaml
-1. el_gitlab_ops_scd_db_manifest.yaml
+1. el_saas_gitlab_ops_db_manifest.yaml
+1. el_saas_gitlab_ops_scd_db_manifest.yaml
 
 **This is separate from the `pgp_test` job because it requires a CloudSQL Proxy to be running in order to connect to the gitlab-ops database.**
 
 This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_ops`.
+2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
 3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ops). For example if the modified table was of `ops` database, the variable passed will be `DATABASE_TYPE`=`ops`.
-4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 ### ⚙️ dbt Run
 
@@ -180,11 +180,11 @@ This job is designed to work with most dbt changes without user configuration. I
 Should the changes made fall outside the default selection of this job, it can be configured in the following ways:
 
 - `WAREHOUSE`: Defaults to `DEV_XL` but will accept `DEV_XS` and `DEV_L` as well.
-- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed.
+- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed. When contiguous is `True`, other configurations are ignored, such as `DOWNSTREAM` and `EXCLUDE`. 
 - `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement. It overrides any other model selection.
-- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. Has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do.
+- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True` (which it is by default). As a result, you must manually set `CONTIGUOUS` to `False` if you want to use `DOWNSTREAM`. `DOWNSTREAM` has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do. 
 - `FAIL_FAST`: Defaults to `True` but accepts `False` to continue running even if a test fails or a model can not build.  See the [documentation](https://docs.getdbt.com/reference/global-configs/failing-fast) for additional details.
-- `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
+- `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. `EXCLUDE` is bypassed if `CONTIGUOUS` is `True`. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
 - `FULL_REFRESH`: Defaults to `False` but accepts `True` to re-clone and rebuild any tables that would otherwise run in an incremental state. See the [documentation](https://docs.getdbt.com/reference/commands/run#refresh-incremental-models) for additional details.
 - `VARS`: Defaults to `None` but will accept a comma separated list of quoted key value pairs. e.g. `"key1":"value1","key2":"value2"`.
 - `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
@@ -278,6 +278,8 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 #### `🚫safe_model_script`
 
 In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/enterprise-data/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
+
+This [video](https://www.youtube.com/watch?v=ICOuerPeAUU) provides an overview of the SAFE Data Program implementation on Snowflake.
 
 <details><summary>how `safe_model_script` works - under the hood</summary>
 

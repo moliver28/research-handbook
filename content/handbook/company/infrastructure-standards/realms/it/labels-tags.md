@@ -5,8 +5,8 @@ description: "This handbook section defines the latest iteration of infrastructu
 
 ## Quick Links
 
-- [Infrastructure Standards - Sandbox Realm Documentation](/handbook/infrastructure-standards/realms/sandbox/)
-- [Infrastructure Standards - Global Labels and Tags Standards](/handbook/infrastructure-standards/labels-tags/)
+- [Infrastructure Standards - Sandbox Realm Documentation](/handbook/company/infrastructure-standards/realms/sandbox/)
+- [Infrastructure Standards - Global Labels and Tags Standards](/handbook/company/infrastructure-standards/labels-tags/)
 - [Infrastructure Standards - Policies](/handbook/infrastructure-standards/policies/)
 - [Infrastructure Standards - Tutorials](/handbook/infrastructure-standards/tutorials/)
 - [Infrastructure Standards - Helpdesk](/handbook/infrastructure-standards/helpdesk/)

@@ -8,7 +8,7 @@
 * Leads conversations towards action and encourages bias for action to deliver results.
 * Helps others in their group to achieve their group's goals.
 * Follows up on suggestions that they make and issues that they create.
-* Seeks out ways to be more effective in their role, while also starting to [mentor](/handbook/engineering/career-development/mentoring/) others in ways to work efficiently.
+* Seeks out ways to be more effective in their role, while also starting to [mentor](/handbook/engineering/careers/mentoring/) others in ways to work efficiently.
 * Proactively takes on work that enables greater efficiency of others in the team.
 * Seeks out diverse opinions to improve the quality of the team's work, for example through code review from outside the team.
 * Uses people's talents to maximize the results of their group.

@@ -194,7 +194,7 @@ perspective.
 
 As an organization that values transparency, we publish all of our
 engagement survey results in our public handbook. This allows both team
-members and prospective candidates to get a view into our culture: <https://about.gitlab.com/handbook/people-group/engagement/>
+members and prospective candidates to get a view into our culture: <https://handbook.gitlab.com/handbook/people-group/engagement/>
 
 ### Our culture of action
 

@@ -30,7 +30,7 @@ The VP, Global Enterprise Sales is a [grade 12](/handbook/total-rewards/compensa
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#s-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 {{% job-families/sales/performance %}}
 

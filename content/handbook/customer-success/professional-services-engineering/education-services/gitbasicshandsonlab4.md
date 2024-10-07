@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through creating and running a CI/CD
 
 ## Objectives
 
-CI/CD standards for Continuous Integration and Continuous Deployment. In other words, it is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
+CI/CD stands for Continuous Integration and Continuous Deployment. In other words, it is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
 
 This iterative process helps reduce the chance that you develop new code based on buggy or failed previous versions. GitLab CI/CD can catch bugs early in the development cycle, and help ensure that all the code deployed to production complies with your established code standards.
 

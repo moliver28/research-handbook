@@ -20,7 +20,7 @@ Our mission is to give organizations features which enable secure pipeline opera
 
 ## Performance Indicators
 
-We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
+We measure the value we contribute by using a [Product Performance Indicator](https://internal.gitlab.com/handbook/company/performance-indicators/product/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
 <!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). -->
 
 ## Team Members

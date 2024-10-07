@@ -1,5 +1,5 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab: Getting Started with GitLab Duo"
+title: "GitLab Duo Principles - Hands-On Lab: Getting Started with GitLab Duo"
 description: "This Hands-On Guide walks you through using GitLab Duo to answer technical questions."
 ---
 

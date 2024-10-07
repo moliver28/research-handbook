@@ -1,16 +1,16 @@
 ---
-title: Product Procedures 
+title: Product Procedures
 ---
 
-## Overview 
+## Overview
 
-This section of the handbook is a collection of processes that a required to be followed under certain conditions. For example, if a change is being made or if a request is submitted to leadership for approval. 
+This section of the handbook is a collection of processes that a required to be followed under certain conditions. For example, if a change is being made or if a request is submitted to leadership for approval.
 
-## How this page works 
+## How this page works
 
- In the spirit of "every can co-create", these procedures can be contributed by any one in the Product Division (or even GitLab!). The custodian of the procedures are Program Management. If you are interested in contributing to this page, please open a merge request and assign to Natalie Pinto, GitLab Handle `@natalie.pinto`. 
- 
-## Procedures 
+ In the spirit of "every can co-create", these procedures can be contributed by any one in the Product Division (or even GitLab!). The custodian of the procedures are Program Management. If you are interested in contributing to this page, please open a merge request and assign to Natalie Pinto, GitLab Handle `@natalie.pinto`.
+
+## Procedures
 
 ### Making changes to stages, groups, or categories
 
@@ -180,7 +180,7 @@ The DRI is responsible for coordinating the effort to resolve the problem, from 
 - Running the daily standup related to the epic.
 - Tasking sub-DRIs as necessary. These sub-DRIs might be responsible for specific parts of the problem (part A/B/C), specific perspectives (Engineering/Infrastructure/Product), specific timezones (AMER/EUR/APAC), etc.
 - Ensuring that progress is being made toward mitigation and resolution. This may include coordinating problem-solving efforts across timezones so we can have GitLab team members working on the problem 24 hours a day.
-- Ensuring that work that is in-scope as part of a Rapid Action isn't included in the [Development Escalation Processes](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process) (a.k.a. infradev).
+- Ensuring that work that is in-scope as part of a Rapid Action isn't included in the [Development Escalation Processes](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process) (a.k.a. infradev).
 - Updating stakeholders at least daily.
 - Detailing recommended follow-up actions once the problem has been solved (enhancements, refactoring, etc).
 
@@ -262,3 +262,17 @@ It is recommended that with a scope reassignment, the product groups align on wh
 #### How are scope reassignments, borrows, and realignments different?
 
 A scope reassignment is different from a borrow and realignment because team structure is not changing, instead the items the product groups are working on change. Additionally, borrows are to be used temporarily (less than six months) and realignments are permanent. In the case of a scope reassignment, a product group would maintain its long term charter and vision/investment level, although for up to one year will work on another product area's scope. The reason for a scope reassignment is to reduce the toil of changing managers and team structures while still activating on strategic efforts requiring more headcount.
+
+#### GitLab.com In App messages (Broadcast Messaging)
+
+Broadcast Messaging is a great tool for acquiring user feedback from within the product. This tool allows for general, one-time, important announcements or for users to be recruited during or after
+interacting with specific workflows within the product. Currently, broadcast messaging can be [targeted by URL](https://www.youtube.com/watch?time_continue=3&v=C4PuRUiQ6WU&feature=emb_logo),
+and [user information can be passed](https://www.youtube.com/watch?v=2NKsXgfLhqc&feature=youtu.be) in order to personalize the message as well as the response.
+
+There are two types of Broadcast Messages - banners and notifications. Currently banner notifications also send messages in Git responses, but this is [under review](https://gitlab.com/groups/gitlab-org/-/epics/10643).
+
+##### How to use Broadcast Messaging
+
+All broadcast messaging efforts must follow all guidelines in order to be deployed to GitLab.com. Create an issue in the GitLab.com/Product project using the [Broadcast Messaging template](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=PM-in-app-messaging-request) and assign it to `@justinfarris` & `@ampesta` for review. The [In App Messaging board](https://gitlab.com/gitlab-com/Product/-/boards/1889145?label_name%5B%5D=In-App-Messaging) is used to prioritize all messages in queue and in flight.
+
+See [issue template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/PM-in-app-messaging-request.md) for usage guidelines. If the message requires a group to do work (for a banner message for instance) you may want to create an issue in the `gitlab/gitlab-org` project for better visibility.

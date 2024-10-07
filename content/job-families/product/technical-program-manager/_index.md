@@ -63,6 +63,10 @@ The role of TPM can mean different things at different organizations. At GitLab,
 * Has and or creates domain expertise
 * Applies program management methodologies and best practices, but knows how and when to flex to the project rather than simply following rigid standards.
 
+### Technical Program Management Performance Indicators
+
+Division Wide Operational Efficency of programs within the Product Division
+
 ## Division Structure
 
 |Product|Infrastructure|Security|
@@ -105,9 +109,10 @@ All responsibilities listed below (applicable to all roles) plus:
 * Provide insight and suggestions to improving product process and operations
 * Research and recommend solutions to Product division concerns and blockers
 * Oversee project planning and management
-* Communicate successfully within the project team and with PLT (Product Leadership Team)
+* Communicate successfully within the project team and with PLT (Product Leadership Team), employing various asynchronous and synchronous facilitation techniques
 * Build trust with direct stakeholders
 * Develop and guide deployment plans and communication with direct stakeholders
+* Assure clarity of agreements and plans at various stages of the product development lifecycle
 
 #### Technical Program Manager Requirements
 
@@ -167,9 +172,23 @@ All requirements of previous roles plus:
 * Understanding of our product, and market with a willingness to dive deep
 * Strong anaytical skills for assessing and recommending solutions based on data and research
 
-### Performance Indicators
+### Technical Program Management Specialities
 
-Division Wide Operational Efficency of programs within the Product Division
+#### Escalation Specialist
+
+This role has commonalities with the standard TPM (Technical Program Management) role above and can vary by level accordingly. This speciality is primarily focused on issue management; both in defining a process for long-term success and leading our teams through coordination and resolution of large scale customer issues or escalations, when needed. While collaborating on processes is a major area of focus for this role, we don’t expect that to represent 100% of the time. Any remaining bandwidth will be spent on supporting cross-functional projects that span the Product, Engineering, Support, and Customer Success teams.
+
+The responsibilities and requirements for this speciality are largely the same as a standard TPM role. Here are a couple of key differences to be aware of:
+
+##### Responsibilities
+
+* Collaborate with cross-functional stakeholders and internal customers to determine improvements to the existing escalation process. Continue to iterate as our product space broadens and complexity increases.
+* Guide teams through escalation processes as needed. Act as the calm center of focus for the team; help teams through challenging moments while ensuring that we are reaching the right outcomes for our customers.
+
+##### Requirements
+
+* Prior experience working across Product, Engineering, and Customer Success functions
+* Prior experience crafting and executing on cross functional process improvements, including capturing and redefining requirements into impactful work items.
 
 ## Hiring Process
 

@@ -17,7 +17,7 @@ The Security Policies group's mission is to provide security and compliance team
 * Decrease performance impact on runners when enforcing scheduled Scan Execution Policies.
 * Ability to enforce policies on Organization Level.
 
-### Customer Outcomes we are driving for Gitlab
+### Customer Outcomes we are driving for GitLab
 
 1. Increase usage of Merge Request Approval Policies with detailed information explaining why we require approvals for given MR.
 2. Speed up adoption time in enabling Security Policies by providing a way to enforce them gradually without blocking their current workflows for selected projects or projects with given Compliance Frameworks only.

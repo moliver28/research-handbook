@@ -63,9 +63,7 @@ Note: If you need to go back to an earlier version of the handbook, use ``git ch
 
 On this page you can see handbook trends and discover popular pages that you may not know about.
 
-GitLab uses [Snowplow](/handbook/business-technology/data-team/platform/snowplow/) to track handbook usage; the information can be viewed on [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/PDGitlabHandbookPageTraffic/GitLabHandbookTraffic).
-
-<iframe class="dashboard-embed" src="https://app.periscopedata.com/shared/91e74f80-a1e7-4e88-976b-727a9e4454ed??embed=true" width="600" height="400"> </iframe>
+GitLab uses [Snowplow](/handbook/enterprise-data/platform/snowplow/) to track handbook usage; the information can be viewed on [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/PDGitlabHandbookPageTraffic/GitLabHandbookTraffic).
 
 ## More about the handbook
 

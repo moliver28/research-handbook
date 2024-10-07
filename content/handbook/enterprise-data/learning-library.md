@@ -94,7 +94,6 @@ description: "GitLab Data Team Library"
 - [Makeover Monday](http://www.makeovermonday.co.uk)
 - [Perceptual Edge](https://perceptualedge.com/)
 - [PolicyViz](https://policyviz.com/)
-- [The Functional Art](http://www.thefunctionalart.com/)
 - [The Pudding](https://pudding.cool/)
 - [Visualising Data](http://www.visualisingdata.com/)
 - [VizWiz](http://www.vizwiz.com/)

@@ -20,6 +20,24 @@ This workflow describes how to fulfill different types of contact requests and t
 - Support team can be asked to contact users **during an incident**. Such requests are filed by infra team [using `confidential_incident_data` issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data) in [production](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/) issue tracker. These must be fulfilled by CMOC during the shift.
 - As a [Stable Counterpart](../support-stable-counterparts.md) you may choose to manually create tickets for a higher number of users at your discretion. This should be done solely for technical matters ("your usage is causing issues, may we suggest a different approach"), never for marketing reasons ("we have a new way to do xyz and would like you to adopt it").
 
+## Avoid sending RED data
+
+In all outbound contact requests explicitly avoid sending RED data. (see: [Data Classifaction Standard](/handbook/security/data-classification-standard/)). This avoids:
+
+- data transposition errors (accidentally sending another customers data to a customer)
+- customer-internal data leaks (person `x` who received the email was not authorized to know about project `y`)
+- putting customer RED data into systems where it is not allowed (system `z` is only classified for YELLOW data, but is used to send RED) 
+
+If there is any doubt about whether a particular piece of data is appropriate to send, start with asking in `#support_leadership` and escalate to `#privacy-team_help` / `#security` as required.
+
+Some examples:
+
+- **Don't** send the full path (for example, `/big-co/sub-proj/super-secret-project`), instead send the project/namespace ID and instructions for translating it.
+
+### Tips for avoiding RED data in notices
+
+1. GitLab will translate `project_id` into a routable path for users with appropriate permissions, for example: `https://gitlab.com/projects/278964` will route automatically to `https://gitlab.com/gitlab-org/gitlab` (this is not true for groups)
+
 ## How to send notices
 
 Most notices should be sent in the form of Zendesk tickets. Always send these tickets to users with `Owner` level permissions in the namespace or project in question.

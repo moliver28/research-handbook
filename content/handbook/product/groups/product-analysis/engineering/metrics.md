@@ -8,7 +8,7 @@ Several dashboards have been published to the Engineering project in the Tableau
 
 ### Centralized Engineering Metrics
 
-Please refer to our Centralized Engineering Metrics page [here](/handbook/engineering/metrics/dashboards/).
+Please refer to our Centralized Engineering Metrics page [here](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
 
 ### Tableau Dashboards
 
@@ -35,7 +35,7 @@ You can find published dashboards in [Ad-hoc/Development/General](https://10az.o
   * `CASE WHEN date_month = date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Current Median Open Days",`
 * List a DRI for the KPI/PI if the metric is being delegated by the VP of that Engineering department.
 * Each dashboard for KPIs should consider the following settings to ensure timely updates:
-  * [Setting up auto-refresh](/handbook/business-technology/data-team/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
+  * [Setting up auto-refresh](/handbook/enterprise-data/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
   * [Excluding Dashboards from Auto Archive](https://dtdocs.sisense.com/article/auto-archive)
 * Each KPI should have a standalone dashboard with a single chart representing the KPI and a text box with a link back to the handbook definition.
   * In Sisense, [create a shared dashboard link](https://dtdocs.sisense.com/article/share-dashboards) to get the shared dashboard ID.
@@ -118,6 +118,22 @@ If these labels are missing, it will be tracked in the `undefined` bucket instea
 The Engineering Manager for each team is ultimately responsible for ensuring that these labels are set correctly. If you do not feel the purpose of this issue matches one of the types, you may apply the `~type::ignore` label to exclude it from type tracking metrics and future prompts, this can be good for issues marked `~Planning Issue`.
 
 Classifying work types may require context. All work to deliver a feature with security, performance and quality meeting the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#mr-merge) should be classified as feature work. For example if you are anticipating the performance needs of a feature and implement an application limit as part of the introduction of that feature it should be classified as `feature:addition`. If you discovered an issue scaling an existing feature and implemented an application limit that issue would likely start as a bug and the associated MR would be classified as `bug:performance`.
+
+#### More examples of classifications
+
+Below are additional examples to guide you when questions arise about classifying your MRs. These edge cases are designed to help clarify the distinctions between categories, ensuring that each piece of work is accurately captured. Refer to these scenarios to better understand how to categorize tasks that may not fit neatly into standard classifications.
+
+* `~"type::feature"`
+  * An addition made to an available feature that was not part of the original acceptance criteria
+  * A change made to a feature (including fixes for defects) while the greater feature is still behind a default-off feature flag
+  * Additions to an API
+  * Iterative MRs created to complete a full feature
+* `~"type::bug"`
+  * Missing functionality that was part of original acceptance criteria
+* `~"type::maintenance"`
+  * Upgrade of a dependency
+  * Bumping a version without code changes
+  * Docs only update
 
 ### Type labels on merged MRs
 

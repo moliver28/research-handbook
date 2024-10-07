@@ -88,7 +88,7 @@ _**Note:**_ We do not offer custom items for customers. To send something to a c
 
 If you manage a swag program at GitLab (you hold a budget and storefront with Brilliant), here’s the process for requesting new custom designs:
 
-1. Open a swag creative request issue using this template. 
+1. Open a swag creative request issue using [this template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request). 
 1. Tag @Alyssa_Brilliant from the Brilliant account team in the issue comments to discuss the project, any products you have in mind, and timeline. 
 1. The Brilliant team will create a lookbook and share the link to that lookbook in the issue thread for you to review, ask questions, and select items. 
 1. Once the items have been selected, the Brilliant team will share an estimate for you to approve via a link in the issue thread. 
@@ -134,6 +134,15 @@ Your Finance Business Partner will provide budget guidance and approval for all 
 |    Product & UX    |    Jessica Smith `@JessSmith`    |
 |    Security    |    Petra Foget `@pfoget`    |
 |    G&A (CFO, People, Legal)    |    Nyasha Tarinda `@ntarinda`    |
+
+#### Team-specific budget considerations
+
+For guidance on how much budget to request per order, please refer to these spend limits based on your team. If you'd like to request an order above these limits, reach out to your VP and FBP for approval.
+
+| Team | Spend limit (per order) |
+| ------ | ------ |
+|    Customer Success    |    $250    |
+|   Renewals    |    $250    |
 
 ### DRIs for the swag program
 

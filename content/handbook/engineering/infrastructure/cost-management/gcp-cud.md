@@ -55,10 +55,7 @@ Add to [CUD commitments spreadsheet](https://docs.google.com/spreadsheets/d/1qws
 
 #### 5. Reservation Configuration
 
-Reservations for specific node type are configured in our
-[gitlab-com-infrastructure terraform repository](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/gcp-reservations.tf).
-This must be updated to ensure efficient utilization of our CUD's, along with
-the instance choice being used in our infrastructure.
+Reservations for specific node type are configured in our [`config-mgmt` Terraform repository](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/gcp-reservations.tf). This must be updated to ensure efficient utilization of our CUD's, along with the instance choice being used in our infrastructure.
 
 #### 6. Follow-Up
 

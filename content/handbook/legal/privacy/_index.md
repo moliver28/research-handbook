@@ -121,7 +121,7 @@ graph TD
    N1 --> O[Process Complete<br> Approved]
    N2 --> P[Third-Party Risk<br> Acceptance Required]
 
-   click Did1 "https://about.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/"
+   click Did1 "https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/"
    click J "https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/Vendor-Procurement-Privacy-Review.md" _blank
    click P "https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/Third-Party-Risk-Acceptance.md" _blank
 

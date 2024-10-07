@@ -45,7 +45,7 @@ Ensure the successful rollout and adoption of GitLab products through strong acc
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Area Sales Manager (Intermediate)
 
@@ -79,7 +79,7 @@ The Area Sales Manager (Intermediate) is a [grade 9](/handbook/total-rewards/com
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Senior Area Sales Manager
 
@@ -136,7 +136,7 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 - Knowledge of open source enterprise software and/or version control is highly desirable
 - Exceptional knowledge of Federal infrastructure and agencies
 - A security clearance is a plus
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ### First order
 

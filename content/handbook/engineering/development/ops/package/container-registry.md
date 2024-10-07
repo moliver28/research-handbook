@@ -54,6 +54,8 @@ The DRI for a given project can be identified by looking at the corresponding ep
 
 Additionally, we maintain a list of active projects and the assigned DRI on this page, in [What Are We Working On](#what-are-we-working-on).
 
+Authors of merge requests related to a specific project should request a review from the assigned DRI or backup DRI to ensure they are aware of the changes and can provide the necessary oversight.
+
 ## 📈 Measuring results
 
 ### OKRs
@@ -64,7 +66,7 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 ### Performance indicators
 
-We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
+We measure the value we contribute by using [performance indicator metrics](https://internal.gitlab.com/handbook/company/performance-indicators/product/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="container registry" >}}

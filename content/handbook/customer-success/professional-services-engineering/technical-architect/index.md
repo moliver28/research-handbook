@@ -16,7 +16,7 @@ The TA team assists Account Teams (e.g. Account Executives, Solution Architects,
 
 **Technical Guidance and Solution Design:**
 
-- Understand the [Customer Journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey)
+- Understand the [Customer Journey](/handbook/customer-success/customer-success-vision/#high-level-visual-of-gitlab-adoption-journey)
 - Understand common customer change management workflows and incorporate security, compliance and observability into customer engagements.
 - Assist the Engagement Managers in scoping the technical challenges that the customer is currently encountering.
 - Approve Statements of Work (SOW) including deliverables and level of effort.

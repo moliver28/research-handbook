@@ -6,7 +6,7 @@ description: "This handbook section defines the latest iteration of infrastructu
 ### Quick links
 
 - [Global infrastructure standards](/handbook/infrastructure-standards/)
-- [Global labels and tags](/handbook/infrastructure-standards/labels-tags/)
+- [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Infrastructure policies](/handbook/infrastructure-standards/policies/)
 - [Infrastructure helpdesk](/handbook/infrastructure-standards/helpdesk/)
 

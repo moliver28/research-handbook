@@ -314,9 +314,9 @@ If you are still stuck *and* are having difficulty finding help, contact the [ma
 
 ### Triggering a Developer Escalation
 
-On rare occasions, you and the manager on-call may decide it's necessary to initiate the [developer escalation process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process) to get the needed developer input. Keep in mind that the developer who takes the escalation might not be familiar with the aspect of GitLab that is the focus of the emergency, and it can take them time to get up to speed.
+On rare occasions, you and the manager on-call may decide it's necessary to initiate the [developer escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process) to get the needed developer input. Keep in mind that the developer who takes the escalation might not be familiar with the aspect of GitLab that is the focus of the emergency, and it can take them time to get up to speed.
 
-To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline).
+To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
 ## License Emergencies
 
@@ -518,6 +518,12 @@ The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerdu
 - Overnight: 21:00 - 05:00 PT
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
+
+### On-call Shift Coverage in US Government
+
+In the event that a Support Engineer needs coverage for a scheduled On-call shift, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template.
+
+Dayshift engineers needing coverage on a **non-holiday weekday** may give the shift to the Support Bot.  To do so, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template and mention your manager for review. After ensuring that the shift(s) in question do not fall on a weekend or holiday remove the override for your shift in PagerDuty and ensure it falls back to the bot user.
 
 ### Emergencies outside on-call hours
 

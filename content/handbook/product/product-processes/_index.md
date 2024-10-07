@@ -14,7 +14,7 @@ As a Product Organization, we work to create a flexible yet concise product deve
 ### Product Development Flow
 
 Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
-principles/#the-minimal-viable-change-mv
+
 This process should be both up front and on an on-going basis when building features.
 
 ### The Importance of Direction
@@ -110,7 +110,7 @@ the most important being a clear communication of the problem we're solving for 
 
 When writing about a feature, make sure to cover [these messaging guidelines](/handbook/marketing/blog/release-posts/#messaging-review)
 which help produce clear internal and external
-messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Viable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
+messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Valuable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
 
 Let's highlight the messaging guidelines mentioned above with a concrete example, Preventing Secrets in your repositories,
 that [we shipped in 8.12](https://about.gitlab.com/releases/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).
@@ -216,7 +216,7 @@ Development Kit (GDK).
 
 ### Dealing with security issues
 
-Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
+Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
@@ -489,7 +489,7 @@ There are a few special considerations when it comes to delivering features for 
 As a product manager, you will be assigned as the [stable counterpart](/handbook/company/structure/#specialists-experts-and-mentors) to a single [group](/handbook/company/structure/#groups). At GitLab we abide by
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
-1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/engineering/metrics/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
+1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
 1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
 
 As an all-remote company, our crispness when it comes to responsibilities throughout the Product Delivery process was born out of necessity, but it pays untold dividends. Some of the benefits include:
@@ -966,7 +966,7 @@ on these artifacts via these (non-exhaustive) opportunities:
 - Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
 - Talk with GitLab team-members using GitLab.
 - Talk with GitLab team-members in [group conversations](/handbook/company/group-conversations/).
-- Talk with other PMs and [Product leadership](/handbook/product/product-leadership/) to align your stage's product direction with the rest of GitLab.
+- Talk with other PMs and [Product leadership](/handbook/product/product-leaders/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
 are up-to-date and visible to critical stakeholders:
@@ -1339,8 +1339,8 @@ Product Managers should also regularly assess the performance and cost of featur
 There are a few different tools PM's can utilize to understand the operational costs of their features. Some of these are maintained by Infrastructure, based on the operational data of GitLab.com. Others tools, like service ping, can be utilized to better understand the costs of our self-managed users. Ultimately, each product group is responsible for ensuring they have the data needed to understand and optimize costs.
 
 - Useful Dashboards to Visualize Infrastructure Costs:
-- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) required)
-- [Service ping](https://docs.gitlab.com/ee/development/service_ping/)
+- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) required)
+- [Service ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
 #### Links to learn more about infrastructure cost management initiatives
@@ -1352,7 +1352,7 @@ There are a few different tools PM's can utilize to understand the operational c
 
 #### Tools to understand end user experience
 
-- [Snowplow data](/handbook/business-technology/data-team/platform/snowplow/) on GitLab.com
+- [Snowplow data](/handbook/enterprise-data/platform/snowplow/) on GitLab.com
 - Quarterly PCSAT and SUS surveys
 - [Page load performance](../product-processes/#page-load-performance-metrics)
 

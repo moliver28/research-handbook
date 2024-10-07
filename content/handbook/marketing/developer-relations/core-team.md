@@ -26,10 +26,9 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 
 ## Offboarding and stepping down gracefully
 
-If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
-
-1. Move the individual from the `team.yml` file to the `alumni.yml` file.
-2. Create an issue in [team-member-epics/employment](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) using the [`offboarding` template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding_core_team_member.md) and fill out the "Core Team Members" section to remove the individual from GitLab Slack, [the Core Team Group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/community-members/-/group_members), gitlab-org etc.
+If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel.
+When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/).
+Once a Core Team member steps down, another Core team member will create an issue using the [`offboarding` template](https://gitlab.com/gitlab-org/gitlab-core-team/general/-/issues/new?issuable_template=offboarding) and follow the steps outlined.
 
 ## Core Team Member Orientation
 
@@ -121,12 +120,11 @@ details summary * {
 - opensource
 - pajamas-design-system
 - production
-- qa-master
-- qa-nightly
+- e2e-run-master
 - e2e-run-preprod
-- qa-production
-- qa-staging
-- quality
+- e2e-run-production
+- e2e-run-staging
+- test-platform
 - review-apps-broken
 - terraform-provider
 - triage

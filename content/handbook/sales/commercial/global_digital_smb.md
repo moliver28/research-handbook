@@ -11,7 +11,7 @@ description: "Overview of the Global Digital SMB Sales Model"
 
 All members of the Sales, Support, Billing and Deal Desk teams should familiarize themselves with the Global Digital SMB Model.
 The model leverages team-level account alignment so SMB customers have a team of SMB Advocates to assist them. Every SMB Advocate on the team is equipped to work with any SMB customer as the sales point of contact.
-The threshold for Global Digital SMB Accounts accounts is <$30k cARR, <101 employees, and excludes Ultimate Licenses and Japan.
+The threshold for Global Digital SMB Accounts is <$30k cARR, <101 employees, and excludes Japan.
 
 ## Account and Opportunity Ownership
 
@@ -32,21 +32,17 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 
 ### High Value Accounts
 
-Some Global Digital SMB Accounts are considered to be Tier 1/ High Value Accounts,  based on their cARR and LAM. These accounts, whilst owned by an SMB Sales User, will be managed in a 1:1 relationship between the SMB Advocate and the customer, via Cases.
+Some Global Digital SMB Accounts are considered to be Tier 1 / High Value Accounts,  based on their cARR. These accounts, whilst owned by an SMB Sales User, will be managed in a 1:1 relationship between the SMB Advocate and the customer, via Cases.
 
-The criteria that determines whether an SMB account is a Tier 1 account or not, can be found below. The table also highlights what type of Cases will be created for SMB Accounts, based on their respective Tier.
+The criteria that determines whether an SMB account is a Tier 1 account or not, can be found below.
 
-| Tier | Criteria                                                 | Digital Touch | High Value Cases | High Value 90/180/270 checkins (fallback)   | Urgent Renewal & TRX Support Case | Churn & Contraction Mitigation Cases | Expansion Opportunities Cases | Inbound Request Cases |
-|------|----------------------------------------------------------|---------------|------------------|---------------------------------------------|-----------------------------------|--------------------------------------|-------------------------------|-----------------------|
-| 1    | cARR > $7k                                               | Yes           | Yes              | Yes (if no other engagement within quarter) | Yes                               | Yes                                  | Yes                           | Yes                   |
-| 2    | cARR < $7k AND (cARR > $1k OR (cARR < $1k AND LAM > 10)) | Yes           | No               | No                                          | Yes                               | Yes                                  | Yes                           | Yes                   |
-| 3    | cARR < $1k AND LAM < 10                                  | Yes           | No               | No                                          | Yes                               | No                                   | No                            | Yes                   |
-
-[FY25 SMB Account Tiering](https://docs.google.com/spreadsheets/d/18xFnbi4xuHJGqcKDWf9HDdd0iS7YZNt4n4QC33qK67E/edit#gid=0)
+- Tier 1: cARR >= $7,000
+- Tier 2: cARR >= $3,000 OR LAM Dev Count >= 10
+- Tier 3: cARR < $3,000 AND Lam Dev Count < 10
 
 ## Engaging with Global Digital SMB Accounts
 
-Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case, and work it through to completion.
+Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case or be assigned to it, and work it through to completion.
 
 ### Why?
 
@@ -59,7 +55,7 @@ Cases are automatically created when;
 
 - A customer requires sales assistance in order to transact.
 - There is a high likelihood a customer will churn/ contract.
-- There is a high likelihood that a customer is considering upgrading.
+- There is a high likelihood that a customer is considering upgrading or adding additional products.
 - If none of the above apply, and the customer is on auto renew, a case will NOT be created.
 
 ## Case Types
@@ -68,7 +64,7 @@ The cases that will be auto created, are split into 5 distinct categories;
 
 Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab. 
 
-Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption.
+Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption, or payments failed.
 
 Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. 
 
@@ -137,6 +133,7 @@ You can now return to this report at any time to check;
 [FY25: SMB Advocate Enablement (H2 Update)](https://docs.google.com/presentation/d/1r3vvFUXvkfXFPYgjTlhCFw4heggj225PrJ7mLMU0lcY/edit#slide=id.g12b319f6181_0_5)
 
 - If a SMB Advocate has capacity, they will click on an open case in the AMER or EMEA SMB Sales Team Queue and assign it to themselves, by changing the Case Owner.
+- As of 08/23/2024, some cases will be auto-assigned to Advocates using round-robin functionality.
 - High Priority cases should always be picked up first.
 - Information pertaining to the case will be displayed in the Case Reason, Context, CTA & Description box.
 - An Advocate must then update the Status to In Progress.(This shows the case is being worked, and takes it out of the queue).
@@ -191,6 +188,10 @@ Account: GitLab Admin added
 
 - Only for cases related to an opportunity
 - Must be added in order to move opp to closed won.
+
+Related Opportunity
+
+- If the case involves an open opportunity, it should be linked to case in this field.
 
 Opp: Close Date
 

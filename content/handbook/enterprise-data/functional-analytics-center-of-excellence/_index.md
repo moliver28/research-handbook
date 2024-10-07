@@ -17,7 +17,7 @@ The [central data team](/handbook/enterprise-data/) serves as the hub for all of
 
 |  **Team Name** | **Lead(s)** |
 | :--------------- | :----------------- |
-| [Product Data Insights](/handbook/product/product-analysis/) | Carolyn Braza |
+| [Product Data Insights](/handbook/product/groups/product-analysis/) | Carolyn Braza |
 | [Marketing Analytics](/handbook/marketing/strategy-performance/) | Jerome Ahye |
 | [Self-Service & Online Sales](/handbook/sales/self-service/) | Max Fleisher |
 | [Sales Analytics](/handbook/sales/field-operations/sales-strategy/) | Melia Vilain & Noel Figuera |

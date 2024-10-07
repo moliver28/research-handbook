@@ -1,7 +1,7 @@
 ---
 title: GitLab for Education Program Agreement
 ---
-
+<!-- vale off -->
 ## Education Program Agreement
 
 Date of last revision: 2022/11/16

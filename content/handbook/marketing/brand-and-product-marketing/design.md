@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
+## <i class="fas fa-bullhorn fa-fw"></i> Welcome to the GitLab Brand Creative Handbook
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 
@@ -135,6 +135,22 @@ If your team works on a larger initiative, please refer to our [program lockup g
 
 To learn more about our [Brand Guidelines](https://design.gitlab.com/brand/overview?_gl=1%2a19y18w7%2a_ga%2aNzk5NDI4OTg0LjE2ODA4MDA5Nzk.%2a_ga_ENFH3X7M5Y%2aMTY4MjAyMjM3Ni4xMS4xLjE2ODIwMjI5MDUuMC4wLjA.), self-service resources and assets, and training materials, check out the [Brand Resources](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/#brand-resources) handbook. Below you will find more details about working with our brand and creative materials.
 
+#### Providing feedback
+
+The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
+
+Constructive feedback takes into consideration our [values](/handbook/values/) of collaboration, efficiency, and results. The following tools can help keep feedback focused, all while allowing a project to move along in a timely manner:
+
+- When requesting edits, please use objective feedback that keeps **brand awareness**, **visual consistency**, and **business value** in mind. Here are some examples of objective ✅ vs. subjective ❌ feedback.
+  - ✅ Industry data shows that ads with darker backgrounds garner more traffic; can we please update the color to our Purple 02p?
+  - ❌ The background color is throwing off the design for me. I saw an ad with magenta colors and liked that, can we do that instead?
+- Final approvals and feedback should be communicated by one [DRI](/handbook/people-group/directly-responsible-individuals/) throughout the lifespan of the project.
+  - Note: It is most helpful if the DRI can consolidate feedback amongst any other involved team members before sharing back in the issue.
+- To keep projects on track, there will be up to 3 rounds of creative drafts for review.
+  - Note: Anytime a draft is shared, it has already gone through a number of iterations and reviews internally within the Brand Creative team, ensuring the best possible version is being presented with stakeholders.
+- While outside examples and inspiration are encouraged to help with concepting, it is important to acknowledge that we cannot replicate others’ designs - especially at the expense of our own brand identity.
+- When reviewing work, it is the stakeholder(s)’ responsibility to review for content, including grammar, punctuation, and spelling.
+
 #### Stock photography
 
 When it comes to our brand, photography is a powerful medium that can better contextualize and humanize the complex stories we tell. Our team has gathered approved images in our [photo library](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing) that are ready-to-use. If you need images beyond what are in that library (this will be common until the library becomes larger over time), the Brand Design team has a license to download unlimited images from [Adobe Stock](https://stock.adobe.com/) (Note: Premium images are not included in our license).
@@ -200,7 +216,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 
@@ -317,7 +333,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
   - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
   - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.
-- **Small projects:** Smaller projects are typically assigned to one designer and completed within 2 weeks. Given the quick turnaround at GitLab, we work in small iterations, referred to as the MVC ([minimum viable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)) approach.
+- **Small projects:** Smaller projects are typically assigned to one designer and completed within 2 weeks. Given the quick turnaround at GitLab, we work in small iterations, referred to as the MVC ([minimal valuable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)) approach.
 - **Medium and large projects:** For larger projects, we assess the request and then propose a timeline. For campaigns or projects with a unique concept, we kick off a brainstorming session either async or on a cross-functional call with the larger team, or whoever has been assigned, and then we pitch the concept(s) to the stakeholders.
 - **Sharing work:** Work should be shared early and often, either in our team calls or async in our private `#brand-design-team` slack channel. Drafts are typically shared async with the stakeholder using the [design tab](https://docs.gitlab.com/ee/user/project/issues/design_management.html) in issues or as a screenshot in comments.
 
@@ -369,7 +385,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
 
 #### Brand Guidelines
 
-The Brand Design team maintains the Brand Guidelines on [design.gitlab.com](https://design.gitlab.com/brand/overview) ([Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main)). For our team's purposes, we can make updates to the guidelines using [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide_beta/#web-ide-beta).
+The Brand Design team maintains the Brand Guidelines on [design.gitlab.com](https://design.gitlab.com/brand/overview) ([Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main)). For our team's purposes, we can make updates to the guidelines using [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/).
 
 To get started, follow the workflow outlined below and check out our [demo](https://youtu.be/d8vUeHCkbnk) with the Product team.
 

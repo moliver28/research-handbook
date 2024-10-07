@@ -16,10 +16,10 @@ Here are some useful links that we recommend for you to bookmark:
 - [Data Catalog](/handbook/enterprise-data/data-catalog)
 - [DBT documentation](https://gitlab-data.gitlab.io/analytics/#!/overview) (where most of our models are documented)
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
-- [Service Ping documentation](https://docs.gitlab.com/ee/development/service_ping/)
+- [Service Ping documentation](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - [Snowplow documentation](/handbook/enterprise-data/platform/snowplow/)
 - [Analytics Instrumentation Quick Links](https://about.gitlab.com/direction/analytics/analytics-instrumentation/#quick-links)
-- [Product Data Insights handbook](/handbook/product/product-analysis/)
+- [Product Data Insights handbook](/handbook/product/groups/product-analysis/)
 
 ### Getting Access
 
@@ -54,7 +54,7 @@ Next, create a branch and then submit an MR using the `dbt Model Changes` templa
 - If you ever get stuck or have a question, please ask for help in the #data slack channel and cross-post in your #g_, #s_, or #product channels. Many PMs have data related expertise and can provide you quick assistance for common product data questions.
 - Remember, it's helpful for us to know the context behind your question. Don't just say _what_ you want to know but also _why_ so others can point you to a more efficient way to get your answer.
 - This document is meant to serve as a guide of best practices. Please add what you learn when you need help to this content.
-- As a last resort, you may create an issue in the [data team project](https://gitlab.com/gitlab-data/analytics/issues/new) with the Product label and assign it to a [product data analyst](/handbook/enterprise-data/#product). There are issue templates that are useful for specifying your request. The data team has limited bandwidth and is primarily focused on [improving self-serve capabilities](/handbook/enterprise-data/direction/self-service/). When creating issues please ping your [Section Leader](/handbook/product/product-leadership/#product-leaders) on the issue to ensure it is prioritized appropriately within the data team.
+- As a last resort, you may create an issue in the [data team project](https://gitlab.com/gitlab-data/analytics/issues/new) with the Product label and assign it to a [product data analyst](/handbook/enterprise-data/#product). There are issue templates that are useful for specifying your request. The data team has limited bandwidth and is primarily focused on [improving self-serve capabilities](/handbook/enterprise-data/direction/self-service/). When creating issues please ping your [Section Leader](/handbook/product/product-leaders/product-leadership/#product-leaders) on the issue to ensure it is prioritized appropriately within the data team.
 
 ## Key Data Sources for Product Managers at GitLab
 

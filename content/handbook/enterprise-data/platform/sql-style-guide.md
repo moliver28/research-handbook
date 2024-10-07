@@ -39,7 +39,7 @@ sqlfluff lint path/to/file/file-to-lint.sql
 SQLFluff includes a `fix` command that will apply fixes to rule violations when possible. Not all rule violations are automatically fixable; therefore, you are encouraged to run the `lint` command after using the `fix` command to ensure that all rule violations have been resolved.
 
 - [SQLFluff Documentation](https://docs.sqlfluff.com/en/latest/index.html)
-- [SQLFluff Default configuration](https://docs.sqlfluff.com/en/latest/configuration.html#default-configuration)
+- [SQLFluff Default configuration](https://docs.sqlfluff.com/en/stable/configuration/default_configuration.html)
 
 #### Changes from the default configuration
 

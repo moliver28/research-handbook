@@ -260,7 +260,7 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
 These will be completed by the FMC when setting up the Marketo program.
 
 - `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
-  - If this is a joint campaign with a partner, make sure the partner includes `utm_partnerid=` [more details here](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns). For a list of IDs for each partner, [go here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id).
+  - If this is a joint campaign with a partner, make sure the partner includes `utm_partnerid=` [more details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns). For a list of IDs for each partner, [go here](/handbook/marketing/marketing-operations/campaigns-and-programs/#crm-partner-id).
 - `{{my.partner name}}` - If this is a campaign run with a partner, you may list mulitple here
 - `{{my.webcastDate}}` - the webcast LIVE date
 - `{{my.webcastTime}}` - token with the webcast time in local timezone/UTC timezone

@@ -70,7 +70,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
     <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
 
-1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
+1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#add-biometric-authentication-to-okta-for-mobile-devices-accessing-okta-apps-on-your-phone)), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
     1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](/handbook/business-technology/end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
     1. In Safari, the credential is stored under "Settings->Password". This is separate from the "Settings->Privacy" and "Manage Website Data" where you would click "Remove all" to remove the cache.
@@ -89,7 +89,7 @@ We have also prepared Introductory Videos on [Configuring Applications](https://
 
     <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>
 
-### I want to add Touch ID / Face ID / Face Authentication to Okta for my mobile device (iPhone/iPad or Android)
+### Add biometric authentication to Okta for mobile devices (accessing Okta apps on your phone)
 
 These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone and receive a Developer or XCODE error, please upgrade to iOS 16+. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled).
 
@@ -107,6 +107,10 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. On the computer, the next step depends on the browser and version.
+    1. In Chrome and Safari you will see a pop up asking to "Use Touch ID to sign in?" Click "Cancel" to continue setting up your mobile device.
+
+    <img src="/handbook/business-technology/okta/images/okta-apple-touch-id-pop-up.png" alt="Okta Apple Touch ID width="300"/>"
+
     1. In Chrome, the pop up that opens states "Create a passkey for gitlab.okta.com" and has your email address listed. Choose "Use a different passkey" at the bottom left.
 
     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Chrome Passkey" width="300"/>
@@ -136,7 +140,7 @@ This method has been verified on Macs and Linux with Chrome. For Safari, it requ
 1. On the mobile device, click "Sign in with a Passkey"
 1. On the mobile device, a "Sign in" popup appears - "Do you want to sign in to "gitlab.okta.com" with your saved passkey for "xxxxx@gitlab.com"? Click Continue and provide biometric.
 1. On the computer, you will now be signed in to Okta.
-1. If applicable, follow the standard [steps](#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) to enroll your Touch ID into Okta.
+1. If applicable, follow the standard [steps](#add-biometric-authentication-to-okta-for-mobile-devices-accessing-okta-apps-on-your-phone) to enroll your Touch ID into Okta.
 
 ### I don't have an enrolled phone or computer but have a YubiKey
 
@@ -216,10 +220,10 @@ If you have any questions or require assistance please reach out to the IT team 
 
 ## Why isn't an application I need available in Okta?
 
-Create a [new application setup issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request) and fill in as much information as you can.
+Create a [new corpsec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=corpsec_general_change) and tag `@gitlab-com/gl-security/corp/identity`
 
 Okta is currently configured with assigned groups/roles based on a team member's role/group.
-Refer to the [Access Change Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
+Refer to the [Access Change Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
 
 ### How do I get my application set up within Okta?
 
@@ -240,7 +244,7 @@ Your gitlab.com account will have 2FA installed as required by our policy.
 Note that the 2FA for GitLab.com is different to the MFA you use to log into Okta.
 [This issue](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/7397) has been opened to propose a solution.
 
-## When adding my GitLab Google Workspace account to my Android device, the biometrics or security key verification never prompts after signing in to Okta
+## GitLab Google Workspace on Android doesn't prompt for biometrics or security key after Okta sign-in
 
 When attempting to add a Google Workspace account to an Android device, Okta authentication proceeds in the Android's embedded browser (WebView).
 

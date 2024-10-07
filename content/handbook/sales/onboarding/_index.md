@@ -18,7 +18,6 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 - [Target Roles](/handbook/sales/onboarding/target-roles/)
 - [Learning Objectives](/handbook/sales/onboarding/sqs-learning-objectives/)
 - [Sales Onboarding Process](/handbook/sales/onboarding/sales-learning-path/onboarding-process/)
-- [Sales & Customer Success Quick Start Learning Path](/handbook/sales/onboarding/sales-learning-path/)
 - [SQS Workshop](/handbook/sales/onboarding/SQS-workshop/)
 - [Graduating from Sales Quick Start](/handbook/sales/onboarding/graduating-SQS/)
 
@@ -69,12 +68,6 @@ The onboarding program includes individual role-based learning journeys for AEs,
 - Month 2: Become customer-ready certified & meet customers
 - Month 3: Close first deals
 - Month 4 and Beyond: Continue to develop intermediate and advanced skills
-
-### Learning Journeys
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRUZzM8uy4aE4huFZ0eC1x_qI31obWQYjHxTtaDkOcz1nm_8QHg1Dr3Jlzq_AvHRAyK8tlGnYdzOy9Q/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-GitLab's role-based learning journeys are based on milestones and enable us to deliver relevant information and training over the first several months at GitLab.
 
 ### How To Get Started
 
@@ -170,3 +163,9 @@ By comparing the learners' pre-training and post-training confidence levels, we 
 **Level 4: Results** - Finally, we evaluate the overall long term business impact of the sales onboarding program on the company's sales performance. This includes tracking key performance indicators such as time to ramp and sales cycle length for each market segment.
 
 By using the Kirkpatrick model to evaluate the sales onboarding program at each of these four levels, we gain a holistic view of the program's effectiveness and make data-driven decisions to improve it.
+
+### Sales Quick Start Onboarding Workshop & e-learning Feedback 
+
+Your feedback on the onboarding process and content is important to us and we welcome your thoughts and ideas about how we can improve in the future. 
+
+Please share your feedback by opening an issue using the following [SQS Feedback issue template.](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new) 

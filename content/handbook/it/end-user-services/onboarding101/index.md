@@ -66,7 +66,7 @@ Check out [this detailed page](/handbook/tools-and-tips/linux/) on setting up yo
 
 MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/#enrolling-in-jamf) for assistance!
 
-Linux: Currently we do not have an endpoint management tool for Linux. However we do have [a tool](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) that we use to wipe and lock them if needed.
+Linux: Currently we do not have an endpoint management tool for Linux. However we do have [a tool](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) that we use to wipe and lock them if needed.
 
 ### Laptop Encryption
 

@@ -30,7 +30,7 @@
       - name: Life at GitLab
         url: culture#life-at-gitlab
       - name: GitLab Contribute
-        url: https://about.gitlab.com/events/gitlab-contribute/
+        url: /handbook/company/culture/summit/
       - name: Team
         url: /handbook/company/team
       - name: Only healthy constraints

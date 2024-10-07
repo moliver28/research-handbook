@@ -16,7 +16,10 @@ Below are some common areas for goal setting:
 
 ##### FRT and Ticket Assignment
 
-Contributing towards our [first reply time target](/handbook/support/performance-indicators/#service-level-agreement-sla) and [assigning some portion of those tickets](/handbook/support/workflows/working-on-tickets.html#assigning-tickets) are [Support Engineer Responsibilities and Priorities](/handbook/support/support-global-groups/#success-of-their-group-means) in [Support Global Groups](/handbook/support/support-global-groups/).
+Contributing to the achievement of our
+[first reply time target](/handbook/support/performance-indicators/#service-level-agreement-sla)
+and [taking assignment of tickets](/handbook/support/workflows/working-on-tickets.html#selecting-new-tickets)
+are [Support Engineer Core Responsibilities](/handbook/support/support-engineer-responsibilities/#core-responsibility-of-a-support-engineer).
 
 ##### Public and internal comments
 

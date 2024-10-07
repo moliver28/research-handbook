@@ -39,7 +39,7 @@ Our core product offers remote code execution as a feature. Other applications w
 
 Our [Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/) prohibits circumventing the security of any computer owned by GitLab, and using ngrok in this manner is an example of circumventing our firewall requirements.
 
-An alternative to ngrok is to use [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) to create temporary infrastructure.
+An alternative to ngrok is to use [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) to create temporary infrastructure.
 
 If you do need to circumvent the firewall, please ensure that you do it as safely as possible by ensuring one of the following network scenarios/configurations is used for your laptop:
 

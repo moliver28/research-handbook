@@ -62,7 +62,7 @@ High-level GPT pipeline overview:
 
 - Update environment job: starts up and updates the target environment from [Quality Config](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality) with the latest Nightly using [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - Test job: runs performance [tests](https://gitlab.com/gitlab-org/quality/performance/wikis/current-test-details) against the environment
-- Report job: publishes results to [GPT Wiki](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/Latest) and [`#qa-performance`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel
+- Report job: publishes results to [GPT Wiki](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/Latest) and [`#gpt-performance-run`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel
 - Stop job: [stops](https://cloud.google.com/compute/docs/instances/stop-start-instance) the target environment instances to save costs
 
 #### Test Results
@@ -78,7 +78,7 @@ It builds GitLab docker container with the test data using [performance-images](
 runs GPT against the last 5 GitLab versions simultaneously, then it generates performance results summary.
 
 The latest results are automatically posted to [the GitLab versions wiki page](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/GitLab-Versions)
-in the GPT project and [`#qa-performance`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel.
+in the GPT project and [`#gpt-performance-run`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel.
 
 #### No shared environments usage
 

@@ -32,16 +32,9 @@ The [Strategic Field Organization](/handbook/solutions-architects/strategic-fiel
 
 [Ecosystem Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our strategic alliances partners, professional services partners, and channel resellers. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
 
-In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Content Marketing or Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence. Some examples are listed below:
+In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Partner and Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence. 
 
-- GitLab Security Overview [Video](https://www.youtube.com/watch?v=SP0VSH-NqJs)
-- GitLab High Availability and Geo Overview [Video](https://www.youtube.com/watch?v=fji7nvmOHNQ)
-- GitLab GitHub Migration [Video](https://www.youtube.com/watch?v=VYOXuOg9tQI)
-- GitLab Source Code Management [Video](https://www.youtube.com/watch?v=P6jD966jzlk)
-- GitLab Blog [Contribution](https://about.gitlab.com/blog/2018/02/20/whats-wrong-with-devops/)
-- GitLab with Rancher and EKS [Video](https://www.youtube.com/watch?v=kUwHBIFXciY)
-
-See the [Solutions Architect role description](/job-families/sales/solutions-architect/) for additional details.
+See the [Solutions Architect role description](/job-families/sales/solutions-architect/) for additional details, and [Engaging an Ecosystem SA](/handbook/solutions-architects/processes/ecosystem/) when you need help with a partner cooperative opportunity.
 
 ### Demo Architects
 

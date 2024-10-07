@@ -161,7 +161,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation](https://doas.ga.gov/sites/default/files/assets/Risk%20Management/Workers%20Compensation%20Publications%20and%20Forms/01-30-06_employee_brochure.pdf)
 - [Bill of Rights for the Injured Worker](https://doas.ga.gov/sites/default/files/assets/Human%20Resources%20Administration/Workplace%20Posters/workers%20comp%20bill%20of%20rights%20July%202022.pdf)
 - [Workers' Compensation Fraud](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/Georgia%20Workers%20Compensation%20Fraud_Notice.pdf)
-- [Human Trafficking](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/human%20trafficking%20notice%20(5-24-21).pdf)
+- [Human Trafficking](https://doas.ga.gov/sites/default/files/2024-09/Human%20Trafficking%20Notice.pdf)
 - [Equal Pay for Equal Work Act](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/Equal%20Pay%20for%20Equal%20Work%20Act%20notice.pdf)
 
 ### Hawaii
@@ -337,8 +337,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Nevada
 
-- [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules_to_be_Observed_by_Employers_April_11_2022.pdf)
-- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules_to_be_Observed_by_Employers_April_11_%202022_SPANISH.pdf)
+- [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024.pdf)
+- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024_SPANISH.pdff)
 - [AB 190 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20190%20Required%20Posting.pdf)
 - [AB 190 - Spanish](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Spanish%20Version-%20AB%20190%20Required%20Posting.pdf)
 - [AB 307 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20307%20Required%20Posting.pdf)

@@ -57,7 +57,7 @@ In the event that a team member receives a gift that is inappropriate or "unacce
 
 Any conduct that could appear improper should be avoided when dealing with government officials and employees or contractors. Payments, gifts, or other favors given to a government official or employee are strictly prohibited as it may appear to be a means of influence or a bribe. Failure to avoid these activities may lead to violations of the Foreign Corrupt Practices Act (among other anti-bribery laws and regulations) and expose the government agency, the government employee, our company, and our  team members to substantial fines and penalties.  For additional information on dealing with government officials please see GitLab Inc.'s [Anti-Corruption Policy](/handbook/legal/anti-corruption-policy/).
 
-Team members should review the [Public Sector Rules of Engagement](/handbook/sales/public-sector/#federal-government-rules-of-engagement://about.gitlab.com/handbook/sales/public-sector/#federal-government-rules-of-engagement) government-rules-of-engagement) section of the handbook for additional information on dealing with U.S. State and local government, as well as Federal Government Rules of Engagement.
+Team members should review the [Public Sector Rules of Engagement](/handbook/sales/public-sector/#federal-government-rules-of-engagement://handbook.gitlab.com/handbook/sales/public-sector/#federal-government-rules-of-engagement) government-rules-of-engagement) section of the handbook for additional information on dealing with U.S. State and local government, as well as Federal Government Rules of Engagement.
 
 ## Political Activities and Contributions
 

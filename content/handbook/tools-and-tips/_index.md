@@ -109,7 +109,7 @@ A few additional resources that can be helpful when working with Mermaid are:
 - Examples of Mermaid charts that have been created by GitLab team members:
   - [Talent Development Program Chart]({{< ref "talent-development-program#talent-development-program-chart" >}}) by [Cassiana Gudgenov](https://gitlab.com/cgudgenov), People Compliance Partner
   - [CEO Year at a Glance]({{< ref "cadence#year-at-a-glance" >}})
-  - [Data Infrastructure System Diagram](/handbook/business-technology/data-team/platform/infrastructure/#system-diagram)
+  - [Data Infrastructure System Diagram](/handbook/enterprise-data/platform/infrastructure/#system-diagram)
 - [Advanced layout demos](mermaid) for Mermaid diagrams
 
 *Note: When creating Mermaid charts in the GitLab handbook, you need to type `three back tick symbols` followed by the word `mermaid` before the chart, and `three back tick symbols` at the end of the chart. This will enable Markdown to distinguish between .md and Mermaid. Please reference the example Mermaid charts linked above to see how this looks live.*
@@ -371,7 +371,7 @@ Team member dotfiles projects:
 
 Note: you have to pay for these items yourself.
 
-- [Quiet comfort 35 Bose over ear noise canceling headphones](https://www.bose.com/p/headphones/bose-quietcomfort-45-headphones/QC45-HEADPHONEARN.html) (so it doesn't touch your dried out eyes)
+- [Quiet comfort Bose over ear noise canceling headphones](https://www.bose.com/p/noise-cancelling-headphones/quietcomfort-acoustic-noise-cancelling-headphones/QC-HEADPHONEARN.html) (so it doesn't touch your dried out eyes)
 - Custom molded ear plugs (can be up to $200 hearing aid store but are usable in many situations, there are also [DYI kits](https://www.amazon.com/Radians-CEP001-Custom-Molded-Earplugs/dp/B003A28P4I) but Sid has not tried that)
 - Melatonin (possible unsafe during pregnancy and breast-feeding)
 - Sleeping pills (over the counter is fine)
@@ -965,6 +965,10 @@ Save the changes and wait for Google Mail to reload.
 Use this general [GitLab Slide Template](https://docs.google.com/presentation/d/1XhGp21FKlIBiJMI9OpvwyneF6fkrQeOQjFxDJF678Ys/edit#slide=id.g1e546bbceaf_0_817g) when creating slide decks for internal and external use.
 Make a copy of the slide deck and only edit the copy; please do not edit the template itself. To avoid potentially editing the source deck, you can go to the [Template gallery](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d) and click on the `GitLab Slide Template vYear-Month` to quickly make a copy and begin a new deck. Ensure that all pages in the slide deck are numbered, with the title page always being number 1.
 
+#### Sales slide decks
+
+Slide decks are available in [Highspot](/handbook/sales/field-communications/gitlab-highspot/) in [GitLab's Official Sales Deck Library](https://gitlab.highspot.com/items/650461a504701b188c124951?lfrm=shp.6).
+
 ### Google Jamboard
 
 Jamboard is a collaborative whiteboarding platform, accessible at <https://jamboard.google.com/>. The results are persisted in Drive and are shareable like any other object.
@@ -981,7 +985,7 @@ Jamboard is a collaborative whiteboarding platform, accessible at <https://jambo
   - Hide the bookmarks bar: `cmd shift b` (e.g. for screenshots, or shared screen presentations)
   - Open the developer tools: `cmd option i` (e.g. for debugging website errors)
 - You can [organize tabs into tab groups](https://www.google.com/chrome/tips/#organize), assign names and custom colors, and collapse or reorder them. Moving tabs between groups also works across browser windows.
-- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptop-refreshes-for-team-members).
+- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptop-refreshes-for-team-members).
 
 #### Chrome Performance Settings
 

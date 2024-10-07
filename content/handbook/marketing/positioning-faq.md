@@ -35,7 +35,9 @@ GitLab started as an open source alternative to GitHub. Instead of focusing on h
 1. So if you just want SCM, why not go with the open source edition of GitLab?
 1. For the **entire** software development lifecycle, see [GitHub vs. GitLab](https://about.gitlab.com/competition/github/)
 
-## Our company uses GitHub.com for all open source projects, so why should we use GitLab Enterprise Edition on-premises and not GitHub Enterprise?
+## Our company uses GitHub.com for all open source projects
+
+Why should we use GitLab Enterprise Edition on-premises and not GitHub Enterprise?
 
 1. GitHub is closed source software primarily used to publish open source software. GitLab is an open source DevOps platform primarily used to reduce the cycle time of closed source software (i.e. your company's software).
 1. With GitLab Enterprise Edition you can use [Repository Mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/) to mirror your open source projects from GitHub.com to your on premises GitLab server. Alternatively, if you want to have a public mirror of your GitLab project, you can now do so effortlessly using mirroring. GitHub Enterprise does not have mirroring.
@@ -71,7 +73,9 @@ GitLab started as an open source alternative to GitHub. Instead of focusing on h
 1. If you are working with a Conversational/Agile development style, GitLab EE Premium will solve your needs. GitLab is the next-generation development toolset that covers **100%** of your software development lifecyle in one unified experience.
 1. If you are going down a path to SAFe, VersionOne is a great option, there is also a native integration from VersionOne with GitLab for the code repo and CI/CD.
 
-## I use or am looking at GitSwarm from Perforce.  Do I need GitLab too?  Am I missing anything by not working directly with GitLab?
+## I use or am looking at GitSwarm from Perforce
+
+Do I need GitLab too?  Am I missing anything by not working directly with GitLab?
 
 1. GitSwarm is built on GitLab CE or EE.
 1. GitSwarm combines Perforce and GitLab to give developers a Git-based workflow they prefer while also providing an organization with enterprise-class scalability, security, and file management performance from Perforce.

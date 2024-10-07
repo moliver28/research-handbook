@@ -7,7 +7,7 @@ description: "How to configure GitLab with your Google Kubernetes cluster"
 
 After your GitLab Demo Cloud account has been created, your runners and CI jobs will use the pre-configured instance-level cluster by default. The instance-level cluster is designed to be transparent behind the scenes and does not support customization or administration and reporting capabilities as a demo systems user.
 
-You can create your own Kubernetes cluster using in your own GCP project that you can provision using the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project). By having your own cluster, you have full administrative access to the cluster for troubleshooting CI jobs and pods that are experiencing issues.
+You can create your own Kubernetes cluster using in your own GCP project that you can provision using the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project). By having your own cluster, you have full administrative access to the cluster for troubleshooting CI jobs and pods that are experiencing issues.
 
 This tutorial shows you how to create a cluster and connect it to your GitLab group. You will access the Google Cloud Platform (GCP) console to see your cluster, use the Google Cloud Shell to run `kubectl` commands on your cluster, and access the GitLab Demo Cloud Omnibus instance to configure your pre-created group with a Kubernetes cluster.
 
@@ -20,13 +20,13 @@ This method of connecting your cluster was deprecated in GitLab v14.5. This tuto
 ### Pre-Requisites
 
 - Creating and accessing your [Demo Systems account](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances)
-- Create a GCP project using the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
+- Create a GCP project using the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
 
 ## Step-by-Step Instructions
 
 ### Task 1. Create a Kubernetes cluster using the Google Cloud Platform (GCP) Console (Web UI)
 
-For additional assistance with accessing your GCP project, see the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#accessing-your-gcp-project) handbook instructions.
+For additional assistance with accessing your GCP project, see the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#accessing-your-gcp-project) handbook instructions.
 
 1. Open a **new tab or window** in your web browser.
 

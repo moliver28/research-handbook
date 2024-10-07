@@ -1,5 +1,5 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab: Using GitLab Duo to Write New Code"
+title: "GitLab Duo Principles - Hands-On Lab: Using GitLab Duo to Write New Code"
 description: "This Hands-On Guide walks you through using GitLab Duo to generate code and tests."
 ---
 

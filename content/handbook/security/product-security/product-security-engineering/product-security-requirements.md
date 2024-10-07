@@ -96,7 +96,7 @@ Below is a list of considerations for each potential action, with an inexhaustiv
 
 ##### Benefits
 
-- We have more control over the solution, can focus on building a minimum viable change that directly satisfies the requirement
+- We have more control over the solution, can focus on building a minimal valuable change that directly satisfies the requirement
 - We can start building immediately (depending on urgency, capacity, and priority)
 - Product and Engineering teams can focus on other roadmap items to deliver value to customers
 - We are contributing to the product, likely solving for a need that some customers have

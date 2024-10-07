@@ -42,7 +42,7 @@ The Digital Experience Analyst  (Intermediate) is a [grade 6](/handbook/total-re
 - Fluent in SQL within analytical data warehouses (we use Snowflake SQL) and in business intelligence tools (we use Periscope)
 - Able to write complex SQL including multi-table joins, grouping and aggregation, common table expressions, and conditional filters
 - Passionate about data, analytics and automation. Experience cleaning and modeling large quantities of raw, disorganized data (we use dbt)
-- Experience working with a variety of complex data sources. Our data includes Salesforce, Zuora, Zendesk, Marketo, NetSuite, Snowplow and many others (see the [data team page](/handbook/business-technology/data-team/))
+- Experience working with a variety of complex data sources. Our data includes Salesforce, Zuora, Zendesk, Marketo, NetSuite, Snowplow and many others (see the [data team page](/handbook/enterprise-data/))
 - Effective communication and [collaboration](/handbook/values/#collaboration) skills, including clear status updates
 - Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) environment
 - [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills

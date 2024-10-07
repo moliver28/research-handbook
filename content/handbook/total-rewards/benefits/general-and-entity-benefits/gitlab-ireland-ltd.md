@@ -9,17 +9,24 @@ GitLab offers a private medical plan through VHI which gives you access to cutti
 
 Please see the [brochure](https://drive.google.com/file/d/1s2Wa8K1tJm9E720ml5r1eJehjkQjIx-p/view?usp=sharing) to help guide you through the range of benefits and services available.
 
-For a full breakdown of plan descriptions please review the following [Company Plan Plus Level 1.3 details](https://drive.google.com/file/d/1pnyWAp71MMYzdsUm1rk0o4gq7k8cdvJO/view?usp=sharing) and [Table of Benefits](https://drive.google.com/file/d/1-0cfnrKSTyQIyAEro3wR7i2aBLHsvXEv/view?usp=sharing).
+For a full breakdown of plan descriptions please review the [Table of Benefits](https://drive.google.com/file/d/1RLJJDK7qConEmjvw8wiFmGrPX4O3SLIX/view?usp=sharing).
 
 To find out which hospitals and treatment centers are covered on your plan, please refer to the directories of approved facilities which are available at `Vhi.ie/downloads` or contact VHI directly via the Corporate Advice Line: `056 777 5800`.
-
-### Dependent Eligiblity
-
-Dependents eligible for the GitLab Medical subsidy are Spouse or Domestic Partner, and Children.
 
 **Does Lifetime Community Rating (LCR) Apply?**
 
 From 1st of May 2015, if you are 35 or over when you first take out private health insurance, you will pay an additional amount of 2% for each year that you are aged 35 and over. Please contact VHI if you think this may apply.
+
+### Dependent Eligibility
+
+Dependents eligible for the GitLab subsidy include Team Member's Spouse, Domestic Partner, and Children up to the age of 21 as long as they are still enrolled in school.
+
+Domestic Partnership is defined as follows:
+
+- Neither partner is currently married to anyone else nor currently has a different Domestic Partner.
+- Partners have assumed mutual obligations for the welfare and support of each other.
+- Partners reside together as a non-married cohabiting couple and share the common necessities of life.
+- Partners are living together as a couple in the same household as each other’s sole Domestic Partner and intend to do so indefinitely.
 
 ### Enroll in the VHI Plan
 
@@ -30,7 +37,7 @@ directly either through the [Online portal](https://www.vhi.ie/groups/?token=1EF
 When enrolling please enter your GitLab Employee ID as your "Employee Number" and
 your GitLab Department listed in Workday as your "Cost Centre".
 
-GitLab has selected [Company Plan Plus Level 1.3](https://www.vhi.ie/pdf/myvhi/TOBCPPL1.3%20V3901%20May23.pdf) company wide. If you feel that
+GitLab has selected [PMI 4316](https://drive.google.com/file/d/1RLJJDK7qConEmjvw8wiFmGrPX4O3SLIX/view?usp=sharing) company wide. If you feel that
 this does not suit your needs (or family member needs), please call VHI on 0567775800 and
 they will discuss your requirements.
 
@@ -145,7 +152,7 @@ GitLab will be required to pay a minimum of 70% of an team member's gross wage, 
 #### Applying for Statutory Sick Leave
 
 - If your absences exceed 2 consecutive days, please contact the Absence Management Team `leaves@domain.com` and include your medical certificate in the email.
-- Team members must designate all time off for illness as `Out Sick` in Time Off by Deel to ensure the Sick Leave is properly tracked.
+- Team members must designate all time off for illness as `Out Sick` in Workday to ensure the Sick Leave is properly tracked.
 
 #### Illness Benefit
 
@@ -153,7 +160,7 @@ Team Members may also be eligible for Ireland's [Illness Benefit](https://www.ci
 
 ### Vacation Leave
 
-- Team members are entitled to a maximum of four weeks of statutory vacation each year, which is calculated in accordance with the [Organisation of Working Time Act of 1997](https://revisedacts.lawreform.ie/eli/1997/act/20/revised/en/html#SEC19). Part-time team members' entitlement is calculated on a pro-rata basis. Unused statutory vacation time may not be carried over into the following calendar year, other than under exceptional circumstances and with GitLab's prior written consent. GitLab does not provide pay in lieu of unused statutory vacation entitlement other than on termination of employment. If your employment terminates for any reason, you will receive pay for any accrued but unused statutory vacation entitlement. If your employment terminates, and at the date of termination you have exceeded your statutory vacation entitlement, the excess may be deducted from your final pay. Vacation leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
+- Team members are entitled to a maximum of four weeks of statutory vacation each year, which is calculated in accordance with the [Organisation of Working Time Act of 1997](https://revisedacts.lawreform.ie/eli/1997/act/20/revised/en/html#SEC19). Part-time team members' entitlement is calculated on a pro-rata basis. Unused statutory vacation time may not be carried over into the following calendar year, other than under exceptional circumstances and with GitLab's prior written consent. GitLab does not provide pay in lieu of unused statutory vacation entitlement other than on termination of employment. If your employment terminates for any reason, you will receive pay for any accrued but unused statutory vacation entitlement. If your employment terminates, and at the date of termination you have exceeded your statutory vacation entitlement, the excess may be deducted from your final pay. Vacation leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Paid Time Off` in Workday to ensure that vacation entitlement is properly tracked.
 
 ### GitLab Ireland LTD Maternity, Adoptive, Paternity, Parent's and Parental Leave
 
@@ -226,7 +233,7 @@ The Vhi Midwife Support Service is a new and improved benefit that's available t
 
 #### Applying for Maternity, Adoptive, Paternity, Parent's or Parental Leave in Ireland
 
-To initiate your leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
 <details>
 <summary markdown="span">Other Types of Statutory Leave</summary>
@@ -256,7 +263,7 @@ To initiate your leave, submit your time off by selecting the `Parental Leave` c
 
 **Jury Service**
 
-- Team members are entitled to paid time off to attend jury selection/jury duty. This leave runs concurrently with GitLab PTO. Team members must select `Jury Duty` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
+- Team members are entitled to paid time off to attend jury selection/jury duty. This leave runs concurrently with GitLab PTO. Team members must select `Jury Duty` in Workday to ensure that statutory entitlements are properly tracked.
 
 ## Company stamp
 

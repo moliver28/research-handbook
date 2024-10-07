@@ -52,11 +52,11 @@ The old laptop must be [wiped](/handbook/business-technology/end-user-services/#
 
 Laptops being requested as part of the refresh program use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade).
 
-If you qualify/complete a laptop refresh, please also refer to our [Laptop Buy back Policy](#laptop-buy-back-policy) below.
+If you qualify/complete a laptop refresh, please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
 
 ### GitLab Laptop Replacement Program
 
-We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you do not qualify for the 3 year refresh yet. Be advised, replaced laptops do not qualify for the [Laptop Buy back Policy](#laptop-buy-back-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
+We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you do not qualify for the 3 year refresh yet. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
 
 Replacement laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job dutied, screen and battery are damaged) also, please note replacements will require your manager's approval in the issue.
 
@@ -77,9 +77,9 @@ Before repairing, you must open an issue in the [End User Services Issue Tracker
 
 Do not provide the repair center with any credentials to your laptop. If they ask, you can tell them that they're authorized to do a factory reset on the laptop should it be necessary to run diagnostics. This will help prevent sensitive data from being accidentally or intentionally leaked during repair.
 
-Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-au/HT208496)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/business-technology/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
+Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-au/HT208496)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/it/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
 
-If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buy back Policy](#laptop-buy-back-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
+If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
 
 In this case please open [an issue to replace](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement).
 When you receive the new laptop, please follow the guidelines in the template. After you have moved to the replacement laptop, we will have the old one sent off to be [recycled or repaired](#laptop-recyclereturn).
@@ -175,7 +175,7 @@ Laptops are purchased by IT Ops during a team member's onboarding process; the t
 
 While GitLab limits the Laptop Hardware OSes supported for team member daily work, specific roles will need to use Windows for Customer Support and Product Development to ensure excellent platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
 
-Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/) as well all information in this section.
+Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/it/end-user-services/onboarding-access-requests/endpoint-management/edr/) as well all information in this section.
 
 Complete details about Windows usage is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
 
@@ -243,17 +243,9 @@ For laptops shipped with OEM Windows you may want to make a full drive backup (e
 That way you could restore your laptop to the original state at any time.
 It will make the RMA process much easier in case you need it.
 
-### Laptop Buy back Policy
+### Laptop Buyback Policy
 
-If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year at the time of offboarding, they can opt to keep their laptop at no cost. Subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.  If GitLab needs to create an image of the team member's computer for preservation purposes, that may be accomplished via sending the computer to GitLab Corporate Security via prepaid package or remotely via [Backblaze](/handbook/security/corporate/systems/backblaze/).
-
-If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst can approve, and send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
-
-Retained laptops must be [wiped](#laptop-wipe).
-
-If the departing team member opts not to retain or [donate](#laptop-donations) their laptop, they can return them to GitLab. See the [returning old/offboarded laptops](#laptop-recyclereturn) section for details.
-
-**If the team member is under an active Legal Hold or possesses material related to an active Company investigation, they must comply with the notice requirements. Failure to comply with an active Legal Hold may expose the team member or the Company to adverse consequences, including civil or criminal penalties and sanctions. Their obligation to follow the procedures outlined in the notice continues until the hold is lifted, even if they depart the Company. If the team member departs the Company, all Company devices and any material they're holding in accordance with any active Legal Hold Notice or active Company investigation should be turned over upon their departure.**
+Please refer to the [laptop buyback policy](/handbook/security/corporate/services/laptops/buyback/#overview).
 
 ### Laptop Recycle/Return
 
@@ -324,7 +316,7 @@ To provide proof of Full Disk Encryption, please do the following depending on t
 
 - Apple : Take a screenshot showing both the confirmation of enabled Full Disk Encryption as well as the info showing your serial number.
     Both pieces of information can be found by clicking on the Apple icon in the top left corner of your screen.
-    For proof of disk encryption, choose `System Preferences -> Security & Privacy`, and then choose the `FileVault` tab near the top of the window.
+    For proof of disk encryption, choose `System Settings -> Privacy & Security`, and then choose the `FileVault` tab near the top of the window.
     For your serial number, choose the `About This Mac` option.
     Please get both pieces of information in a single screenshot.
 - Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`

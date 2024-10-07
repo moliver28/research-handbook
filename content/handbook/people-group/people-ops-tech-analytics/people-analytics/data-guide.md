@@ -9,8 +9,8 @@ This handbook page provides an overview of data definitions and data models used
 ## Helpful places to start
 
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific People Models, please reference the **Commonly Used Data Models** section below for a starting point.
-- [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/) managed by the Data team.
-- [Documentation on data pipelines](/handbook/business-technology/data-team/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/) managed by the Data team.
+- [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
 - [People Group Tech Stack Guide]({{< ref "tech-stack-guide-workday" >}}) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
 
 ## People Group Data Dictionary
@@ -137,15 +137,15 @@ Systems used by the People Group
 
 | Name | Description | Calculation | Is Sensitive |
 |---|---|---|---|
-| [R (Language)](/handbook/business-technology/data-team/platform/rstudio/)   | A programming language and software environment used for statistical analysis, graphical representation, and reporting, popular in data analysis and scientific research. |  |  |
-| [Tableau](/handbook/business-technology/data-team/platform/tableau/) | Primary data visualization tool at GitLab |  |  |
+| [R (Language)](/handbook/enterprise-data/platform/rstudio/)   | A programming language and software environment used for statistical analysis, graphical representation, and reporting, popular in data analysis and scientific research. |  |  |
+| [Tableau](/handbook/enterprise-data/platform/tableau/) | Primary data visualization tool at GitLab |  |  |
 | [Workday](/handbook/people-group/tech-stack-guide-workday/) | Current Human Resource Management Systems (HRMS) and the SSoT for all team member related data on or after 2022-06-16 |  |  |
 | BambooHR | Former Human Resource Management Systems (HRMS) and the SSoT for all team member related data prior to 2022-06-16 |  |  |
 | [Greenhouse](/handbook/hiring/greenhouse/) | Current Applicant Tracking System (ATS) at GitLab and the SSOT for all recruiting metrics |  |  |
 | Time Off by Deel | Current absence management tool at GitLab integrated with BambooHR. SSoT for time-off related data |  |  |
 | Sisense (formerly Periscope) | Former data visualization tool at GitLab |  |  |
 | FiveTran | Fivetran is the automated data movement platform moving data out of Workday and into Snowflake |  |  |
-| [SnowFlake](/handbook/business-technology/data-team/platform/snowflake/) | Snowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform. |  |  |
+| [SnowFlake](/handbook/enterprise-data/platform/snowflake/) | Snowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform. |  |  |
 | [Level Up / GitLab University](/handbook/people-group/learning-and-development/level-up/) | Training platform created by Thought Industries for continuing education and career development |  |  |
 
 </details>
@@ -184,7 +184,7 @@ Underneath each model is a clean lineage of dimensions and facts that can also b
 
 ### dim_team_member
 
-This table contains team members work and personal information. Sensitive columns are masked using [dynamic masking](/handbook/business-technology/data-team/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [hybrid SCD (Type 1 + Type 2)](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
+This table contains team members work and personal information. Sensitive columns are masked using [dynamic masking](/handbook/enterprise-data/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [hybrid SCD (Type 1 + Type 2)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
 The table includes information regarding current team members, new hires who have records created in Workday before their start date and team members who were terminated in 2021 onwards. Team members who were terminated before 2021 are not captured in this model at this time. The grain of this table is one row per **employee_id** per **valid_to/valid_from** combination.
 
@@ -239,7 +239,7 @@ GROUP BY 1
 
 ### dim_team
 
-**dim_team** contains team (organizations) information. It includes information regarding teams and their hierarchy. It is a [Type 2 SCD](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
+**dim_team** contains team (organizations) information. It includes information regarding teams and their hierarchy. It is a [Type 2 SCD](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
 The goal of this table is to determine the team superior organization and the hierarchy of every organization in Workday. Additionally, this table provides team data such as team name, manager, team member count and date of inactivation for each organization.
 
@@ -464,15 +464,15 @@ GROUP BY 1;
 
 ### fct_team_member_absence
 
-This table contains team members' absence information. Sensitive columns are masked using [dynamic masking](/handbook/business-technology/data-team/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [Type 0 SCD](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots)
+This table contains team members' absence information. Sensitive columns are masked using [dynamic masking](/handbook/enterprise-data/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [Type 0 SCD](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots)
 
 The table includes information from **Time Off By Deel**, . The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination.
 
 ### mart_team_member_absence
 
-This table is a derived mart from `fct_team_member_absence` and `dim_team_member`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will be a replacement of the workspace table `wk_pto`.This table is a [hybrid SCD (Type 0 + Type 2)](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
+This table is a derived mart from `fct_team_member_absence` and `dim_team_member`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will be a replacement of the workspace table `wk_pto`.This table is a [hybrid SCD (Type 0 + Type 2)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
- The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination. 
+ The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination.
 
 <details>
 <summary markdown="span">Query - Absence days for an employee by quarter for the year 2024</summary>

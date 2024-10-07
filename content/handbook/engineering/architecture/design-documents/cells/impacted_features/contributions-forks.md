@@ -167,9 +167,10 @@ We may offer automated ways to move this, but manually the process would involve
 Yes.
 Specific path changes are under [discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/427367).
 
-### Would there be any user action required to accept their fork being moved within an Organization or towards a contribution space?
+### Would any user action be required to accept their fork to be moved?
 
-No. If the Organization is public, then a user will have a personal namespace.
+No. A fork can be moved within an Organization or to a contribution space.
+If the Organization is public, then a user will have a personal namespace.
 
 ### Can we make promises that we will not break the existing forks of public Projects hosted on GitLab.com?
 

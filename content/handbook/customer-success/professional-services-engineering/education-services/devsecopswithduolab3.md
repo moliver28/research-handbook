@@ -1,5 +1,5 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab: Working with Issues and Merge Requests"
+title: "GitLab Duo Principles - Hands-On Lab: Working with Issues and Merge Requests"
 description: "This Hands-On Guide walks you through using GitLab Duo to create Issues and merge requests."
 ---
 

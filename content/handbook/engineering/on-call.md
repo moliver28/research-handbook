@@ -72,7 +72,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 - First response SLO is 15 minutes. If no response within the first 5 minutes, the infrastructure team will call the engineer's phone number on the schedule sheet.
 - Development engineers do 4-hour shifts.
 - Engineering managers do monthly shifts as scheduling coordinators.
-- Check out [process description and on-call workflow](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) when escalating GitLab.com operational issue(s).
+- Check out [process description and on-call workflow](/handbook/engineering/development/processes/infra-dev-escalation/process/) when escalating GitLab.com operational issue(s).
 - Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
 
 ### Gitaly Engineer On-Call

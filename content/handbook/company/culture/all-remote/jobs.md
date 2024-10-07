@@ -76,6 +76,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Animalz](https://www.animalz.co/), an agency providing content to B2B/SaaS organizations
 1. [Almanac](https://almanac.io/), see their [async collaboration norms](https://almanac.io/handbook/almanac-handbook-9SaCJX/async-collaboration-norms-almanac-nN7bF2BOfBRFJNBqwoj4uyRA91vFPLtT), [resources for leaders](https://almanac.io/async-review) in a world without offices and [current open roles](https://almanac.io/careers).
 1. [Iterative](https://iterative.ai/), a company building open-source developer tools for machine learning
+1. [SearchApi](https://searchapi.io/), a remote-only company, see their [jobs page](https://www.searchapi.io/careers)
 
 ### Remote-first companies
 

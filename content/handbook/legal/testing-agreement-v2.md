@@ -1,9 +1,7 @@
 ---
 title: "GitLab Testing Agreement v2"
 ---
-
-## GitLab Testing Agreement
-
+<!-- vale off -->
 *Deprecated: 2023-06-29*
 
 This Testing Agreement ("Agreement") is between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 ("GitLab"), and either (i) the entity electronically accepting this Agreement; or (ii) the entity on behalf of which the Testing Features are enabled, as applicable and in either case, "Customer". This Agreement is effective as of the earlier date on which (i) Customer clicks to accept this Agreement within the GitLab software; or (ii) an individual acting on behalf of Customer opts to enable the Testing Features ("Effective Date"). The parties agree to the following terms and conditions related to Customer's use of the applicable Testing Feature.

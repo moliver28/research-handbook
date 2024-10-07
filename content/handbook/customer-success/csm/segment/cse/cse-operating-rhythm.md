@@ -30,7 +30,7 @@ The CSE Team delivers monthly webinars and hands-on labs that are available to a
 
 #### Preparing for and Delivering a Webinar
 
-The upcoming month's webinar dates are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) and the CSE team is asked to sign up as host or Q&A support.  The zoom webinars are created by CS Operations and then the webinar details are added to the webinar calendar.
+The upcoming month's webinar dates are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) and the CSE team is asked to sign up as DRIs.
 
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
@@ -58,9 +58,24 @@ Here is a quick video guide on how to host the webinar, including steps for shar
 
 #### Preparing for and Delivering a Hands-on Lab
 
-The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support.
+The upcoming month's hands-on labs are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) (separate from the webinar schedule) and the CSE team is asked to sign up as DRIs.
 
-The presenter for a lab needs to register the hands-on lab at least one week before the lab date.  Instructions for how to register the lab can be found in [How to Register Hands-on Labs](https://docs.google.com/document/d/1GEmAXlOqxOzHHpFZRbLWIJoX92v-peXQl5bd4daVekQ/edit?usp=sharing).  A registration code will then be created for the lab manually by the Demo Architect Partner assigned to the CSE team on the Admin section of gitlabdemo.com.  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and a subgroup created to use for the hands-on exercises, [provisioned through gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
+##### Lab Environment Request
+
+> As a Lab DRI, you are responsible for submitting a Lab Request for an environment. This should be submitted ideally at least one week before the date of delivery. For assistance/questions please reach out on the `#demo-architect-partners` Slack channel.
+
+1. Navigate and login to the [Demo Architect Portal](https://cloud.gitlabdap.com/).
+1. Select **Customer Workshop/Lab** from the dropdown list.
+1. Fill in the form to the best of your knowledge.
+1. Click `Submit Request`.
+
+This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team. 
+
+A pair of invitation codes, one for production and one for testing will be generated and shared in a comment on the issue. The Demo Architecture team will assign DRIs ownership of the session (Top level group) and verify invitation codes and associated runners are operational.
+
+Lab attendees will redeem the invitation code when joining the lab to secure access and provision their subgroup to use for the hands-on exercises, [accessed through gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
+
+##### Lab Preparation
 
 Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.
 
@@ -137,6 +152,10 @@ This ensures that a CSAT survey is deployed to the recipients of the email.
 
 ## General Guidelines for CSE Engagements
 
+### Playbooks
+
+A list of Playbooks can be found on the [CSE Playbooks](playbooks) sub page.
+
 ### CSE Escalations
 
 Qualifying the customer for an escalation is important in terms of ARR and LAM. ARR should be >=80% of the ceiling for your segment's ARR range. LAM ought to be > $100K. Another very weighty criterion is an upcoming renewal. If they are <= 3 months away from an upcoming renewal, an escalation could help turn their frown upside down.
@@ -181,3 +200,14 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
 1. After the call is complete, set expectations for follow up email in the upcoming 2-3 days.
 1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer's timeline in Gainsight.
 1. Review call and/or sync with AE if applicable and produce follow up email for customer.
+
+## CSE Useful Link Signpost
+
+QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclHY8ZDT6U1y342QFVt4qhA/edit?usp=sharing) / [CSE Cases Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/d7283d4f-4314-4bb8-a3f2-13b32a532ad7) /  [CSE Manager Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/b6c9482d-e9b8-4167-951e-f67b908cdf37)  
+**INITIATIVES** : [All Initiatives](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/?sort=created_date&state=opened&label_name%5B%5D=CSE%20Initiative&first_page_size=100) / [Initiatives Needs Help](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/?sort=created_date&state=opened&label_name%5B%5D=CSE%20Initiative%3A%3ANeeds%20Help&first_page_size=100) / [Comments assigned to me](https://drive.google.com/drive/u/1/search?q=followup:actionitems) / [Initiatives Board](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7715232?label_name[]=CSE%20Initiative)  
+**SIGNPOST** : [Find Product Slack Channels](/handbook/product/categories/features/) / [CS Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) / [Version Metrics](https://version.gitlab.com/users/sign_in) / [Metrics Dictionary Sheet](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?gid=0#gid=0) + [Tool](https://metrics.gitlab.com/)   
+**1:MANY** : [Adoption Labs Master Decks](https://drive.google.com/drive/u/1/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY) /  [Webinar Master Recordings](https://drive.google.com/drive/u/1/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3) / [Webinars Youtube](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq) / [Scale Webinars Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/7b7c1229-e510-490f-9dbe-5c082b4e1c30)  
+**COACH** : [CI Product Coach playbook](https://docs.google.com/document/d/1qUu2JGe9c_KGMaC67z1R5li_5IVFKdyuz2xdFnic97U/edit) / [CI Coach Report](https://docs.google.com/document/d/1LUtRu5EiPES9g9EORrk6poZ6t6Grj1Wqd19CbYepHGM/edit?usp=sharing) / [Security Coach Playbook](https://docs.google.com/document/d/1e1-Ib6lDR61QigylGLmAEWMePorauCWdg2Kb3v4jYLM) / [Pipeline Parser](https://gitlab.com/ci-product-coach-pipeline-parser/pipeline-parser-2-0) / [Security Coach Common Topics & Recommendations](https://docs.google.com/document/d/1li025fruN2shzQr5tVE5Ss0wVnXcIzOMGe9V6aqeuJ4/edit#heading=h.ndg2qmc91wtx)  
+**DEMO** : [Demo Cloud](https://gitlabdemo.cloud/login) / [Shared Demo Systems Doc](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) / [Sandbox Cloud](https://gitlabsandbox.cloud/login) / [CS Shared Demo Space](https://gitlab.com/gitlab-learn-labs/webinars)
+**TRAINING** : [DevSecOps Bootcamp Nana](https://techworld-with-nana.teachable.com/courses/enrolled/2186952) / [New CSE Learning Path](https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)  
+**USEFUL APPS** : [Rectangle](https://rectangleapp.com/) / [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)  

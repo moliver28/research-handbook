@@ -65,7 +65,7 @@ For a detailed view on how we do Product Development, read up on our established
 
 To learn how the GitLab product and our Teams are organized review our [Product Categorization section](/handbook/product/categories/).
 
-### [**About the GitLab Product**
+### **About the GitLab Product**
 
 Learn about [GitLab as a product](/handbook/product/categories/gitlab-the-product), including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
@@ -79,7 +79,7 @@ Want to know more on what being a Product Manager at GitLab is like? Checkout ou
 
 ### **Product Performance Indicators**
 
-Learn how we measure success in Product via our [Product KPIs](/handbook/product/performance-indicators/), which are tracked in our [Product project](https://gitlab.com/gitlab-com/Product). For best practices and guidance on how to add instrumentation for features please review our [Analytics Instrumentation workflow](/handbook/product/performance-indicators/#analytics-instrumentation-workflow).
+Learn how we measure success in Product via our [Product KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/product/), which are tracked in our [Product project](https://gitlab.com/gitlab-com/Product). For best practices and guidance on how to add instrumentation for features please review our [Analytics Instrumentation workflow](https://internal.gitlab.com/handbook/company/performance-indicators/product/#analytics-instrumentation-workflow).
 
 ### **Product OKRs**
 
@@ -87,7 +87,7 @@ Understand the OKR Process for the GitLab Product Team and review [current and p
 
 ### **Our Product Leadership Team**
 
-Learn about [our Product Leadership Team](/handbook/product/product-leadership/) and learn about them via their personal README's.
+Learn about [our Product Leadership Team](/handbook/product/product-leaders/product-leadership/) and learn about them via their personal README's.
 
 ### Communicating with the Product Division
 

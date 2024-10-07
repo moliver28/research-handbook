@@ -21,7 +21,7 @@ This table links to the epic name or production documentation, along with the re
 | AI Feature | Feedback issue |
 | ------ | ------ |
 | [AI for Developer Teams: Suggested Reviewers](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375624)    |
-| [AI for Developer Teams: Code suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions.html) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/405152)       |
+| [AI for Developer Teams: Code suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/405152)       |
 | [AI for Developer Teams: Summarize my MR review](https://gitlab.com/groups/gitlab-org/-/epics/10347) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/408991) |
 | [AI for Developer Teams: Summarize proposed MR Changes](https://gitlab.com/groups/gitlab-org/-/epics/10223) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/408726) |
 | [AI for Security and Operations: Explain this vulnerability](https://gitlab.com/groups/gitlab-org/-/epics/10284) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/407295) |

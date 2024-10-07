@@ -51,7 +51,7 @@ some way of toggling or using the feature at a namespace level.
 - Have documentation.
 - Be featured on [products](https://about.gitlab.com/stages-devops-lifecycle/) and [DevOps tools](https://about.gitlab.com/why-gitlab/) at launch.
 
-Should product managers have any questions when making tier decisions, they should collaborate with their manager, [product leadership](/handbook/product/product-leadership/), or the CEO for clarification. The most up to date reference for pricing DRIs can be found in the [feature tier or pricing change template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Feature-Tier-Or-Pricing-Change.md).
+Should product managers have any questions when making tier decisions, they should collaborate with their manager, [product leadership](/handbook/product/product-leaders/product-leadership/), or the CEO for clarification. The most up to date reference for pricing DRIs can be found in the [feature tier or pricing change template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Feature-Tier-Or-Pricing-Change.md).
 
 ### Reasons for upgrade
 

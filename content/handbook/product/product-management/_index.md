@@ -162,7 +162,9 @@ A salesperson for an organization asking for a paid-tier feature request shall w
 
 In the event that a paid customer is willing to pay for us to develop a specific feature, we should still respond as above. It's great that they're willing to pay for it: that means they really need it. However, we will not make a custom version of GitLab; even gitlab.com is running on GitLab Ultimate, and we move faster that way by minimizing technical complexity to determine features to follow after, it's a trade-off to make. This doesn't mean that "no" is always going to stay "no." We keep an open mind to improvements.
 
-#### Example: Customer needs support configuring a self-managed runner with a SaaS license or is looking for prescriptive advice for setting up GitLab
+#### Example: Customer is looking for prescriptive advice for setting up GitLab
+
+For example, they need support configuring a self-managed runner with a SaaS license.
 
 If you need support with a specific customer and your Customer Success Manager is unable to configure what is being requested or you are being asked to provide very specific guidelines for use of GitLab, we suggest creating an issue using the [Product Support Request](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Support-Request.md), and following the steps suggested in the issue.
 

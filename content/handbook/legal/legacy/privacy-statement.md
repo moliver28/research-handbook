@@ -1,7 +1,7 @@
 ---
 title: "LEGACY: Privacy Statement"
 ---
-
+<!-- vale off -->
 ## LEGACY: Privacy Statement (Effective Dates June 10, 2022 - March 18, 2024)
 
 ### Introduction

@@ -292,7 +292,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)
-1. [Minimal viable change](/handbook/values/#minimal-viable-change-mvc)
+1. [Minimal valuable change](/handbook/values/#minimal-valuable-change-mvc)
 1. [Everything is in draft](/handbook/values/#everything-is-in-draft)
 1. [Make two-way door decisions](/handbook/values/#make-two-way-door-decisions)
 
@@ -328,6 +328,14 @@ Contributor Success team members can use the [outreach email/message template](/
 ### Working with the Core Team
 
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
+
+### Granting GitLab Duo licenses
+
+To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
+and effectiveness by reducing the time required to write and understand code.
+Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
+about the benefits of GitLab Duo.
 
 ### For contributors who don't own a credit card
 
@@ -502,7 +510,7 @@ Note: this is currently a working list of all locations where we can currently g
 
 ### Tableau dashboards
 
-Internally, GitLab uses [Tableau](/handbook/business-technology/data-team/platform/tableau/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards.
+Internally, GitLab uses [Tableau](/handbook/enterprise-data/platform/tableau/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards.
 
 | Dashboard | Description |
 | --- | --- |

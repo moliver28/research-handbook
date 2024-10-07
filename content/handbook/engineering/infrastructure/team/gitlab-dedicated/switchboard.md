@@ -306,6 +306,15 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 ### Intended users :bust_in_silhouette:
 
+| User | Visible | Description |
+|----------|----------|-------------------|
+| [Internal - Operator](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Support](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Provisioner](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Read Only](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
+| [External - Tenant Admin](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
+| [Internal - Read Only](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
+
 ### User experience goal :goal:
 
 
@@ -319,9 +328,9 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 ### Proposal :bulb:
 
 ### Open Questions :question:
-| Question | Added by | Discussion thread |
-|----------|----------|-------------------|
-|  |  |  |
+| Question | Added by | Discussion thread | Resolved |
+|----------|----------|-------------------| ------ |
+|  |  |  |  |
 
 ### Further details :mag:
 
@@ -366,18 +375,9 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 
 ---
 
-### Status YYYY-MM-DD
+<!-- STATUS NOTE START -->
 
-1.
-
-<details>
-<summary>Previous status updates</summary>
-
-### Status YYYY-MM_DD
-
-1.
-
-</details>
+<!-- STATUS NOTE END -->
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
 

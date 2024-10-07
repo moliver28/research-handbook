@@ -28,7 +28,7 @@ The following standards are covered:
 - Infrastructure-as-Code
   - Terraform
   - Ansible
-- [Labels and Tags](/handbook/infrastructure-standards/labels-tags/)
+- [Labels and Tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Policies](/handbook/infrastructure-standards/policies/)
 - Security Standards
   - Application Security
@@ -81,11 +81,11 @@ Learn more on the [sandbox realm handbook page](/handbook/infrastructure-standar
 
 #### Individual Environment
 
-**Are you looking for a sandbox or testing AWS account or GCP project?** Please use the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) which gives you access to your own private AWS account or GCP project that grants you owner permissions and has centrally managed billing with the GitLab master account.
+**Are you looking for a sandbox or testing AWS account or GCP project?** Please use the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) which gives you access to your own private AWS account or GCP project that grants you owner permissions and has centrally managed billing with the GitLab master account.
 
 #### Group Environments
 
-**Are you looking for an AWS account or GCP project to deploy experimental or testing resources that you will share with your team?** You can request a Group AWS account or GCP project using the Sandbox Cloud. See the [handbook page for instructions](/handbook/infrastructure-standards/realms/sandbox/#groupteam-aws-account-or-gcp-project-non-production).
+**Are you looking for an AWS account or GCP project to deploy experimental or testing resources that you will share with your team?** You can request a Group AWS account or GCP project using the Sandbox Cloud. See the [handbook page for instructions](/handbook/company/infrastructure-standards/realms/sandbox/#groupteam-aws-account-or-gcp-project-non-production).
 
 #### Definition of Sandbox and Test Infrastructure
 

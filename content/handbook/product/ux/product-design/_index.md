@@ -13,7 +13,7 @@ They are also responsible for broader UX department efforts, such as:
 - Contributing to the Pajamas Design System
 - Reviewing other designers' work
 
-Each designer works as a [manager of one](handbook.gitlab.com/handbook/values/#managers-of-one) to solve customers problems and align with the direction of the product. They collaborate with stage peers and managers to [manage their capacity](/handbook/product/ux/product-designer/capacity-management) and deliver results on time. For a detailed view into how Product Designers work, review the [Product Designer workflow page](/handbook/product/ux/product-designer/).
+Each designer works as a [manager of one](/handbook/values/#managers-of-one) to solve customers problems and align with the direction of the product. They collaborate with stage peers and managers to [manage their capacity](/handbook/product/ux/product-designer/capacity-management) and deliver results on time. For a detailed view into how Product Designers work, review the [Product Designer workflow page](/handbook/product/ux/product-designer/).
 
 For more information on Stage Groups, team member assignments, and product direction, visit [the product category page](/handbook/product/categories/).
 
@@ -38,7 +38,7 @@ Product Designer Tools
 - [Competitor Evaluation](https://gitlab.com/gitlab-org/competitor-evaluations) (*GitLab Team Member access only*)
 - [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/)
 
-Figma and Figjam are our primary design tool of choice. Refer to the [usage and access details](handbook.gitlab.com/handbook/product/ux/product-designer/figma).
+Figma and Figjam are our primary design tool of choice. Refer to the [usage and access details](/handbook/product/ux/product-designer/figma).
 
 ## Product Design Workflow
 
@@ -91,16 +91,17 @@ Volunteers:
 
 | Milestone          | Product Designer  | Engineer          |
 | ------------------ | ----------------- | ----------------- |
-| 16.8               | Veethika Mishra   |   Mireya Andres   |
-| 17.0               |                   |                   |
-| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
-| 17.2               |                   |                   |
-| 17.3               |                   |                   |
+| 17.5               |                   |                   |
+| 17.6               |                   |                   |
+| 17.7               | Emily Bauman      | Anna Vovchenko    |
+| 17.8               |                   |                   |
+| 17.9               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
 
 | Milestone         | Product Designer  | Engineer          |
 | ----------------- | ----------------- | ----------------- |
+| [17.1 (2024-05-13)](https://gitlab.com/gitlab-org/gitlab/-/issues/442453) | Veethika M         | Miguel Rincon |
 | [16.1 (2023-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/394768) | Veethika M         | Payton Burdette |
 | [15.11 (2023-03-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/387070)| Annabel Gray       | Phil Hughes     |
 | [15.6 (2022-10-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/378259) | Matej Latin        | Deepika Guliani |

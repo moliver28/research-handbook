@@ -38,7 +38,7 @@ Please see the realm label and tag handbook pages for labels and tags specific t
 - [infra-shared-services](/handbook/infrastructure-standards/realms/infra-shared-services/labels-tags)
 - [it](/handbook/infrastructure-standards/realms/it/labels-tags)
 - [saas](/handbook/infrastructure-standards/realms/saas/labels-tags)
-- [sandbox](/handbook/infrastructure-standards/realms/sandbox/labels-tags)
+- [sandbox](/handbook/company/infrastructure-standards/realms/sandbox/labels-tags)
 - [security](/handbook/infrastructure-standards/realms/security/labels-tags)
 
 ### Design Decisions and Change Log

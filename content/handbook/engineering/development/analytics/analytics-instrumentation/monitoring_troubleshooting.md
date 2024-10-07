@@ -116,7 +116,7 @@ Already conducted investigations:
 
 ##### Troubleshooting data warehouse layer
 
-Reach out to [Data team](/handbook/business-technology/data-team/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](/handbook/business-technology/data-team/#how-to-connect-with-us)
+Reach out to [Data team](/handbook/enterprise-data/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](/handbook/enterprise-data/#how-to-connect-with-us)
 
 ##### Recovering events incorrectly marked as "bad"
 
@@ -150,8 +150,8 @@ Currently we have a few dashboard to monitor and investigate malfunctions:
 
 ### Alerts
 
-You will be alerted by the [Data](/handbook/business-technology/data-team/) team and their
-[Monte Carlo alerting](/handbook/business-technology/data-team/platform/monte-carlo/).
+You will be alerted by the [Data](/handbook/enterprise-data/) team and their
+[Monte Carlo alerting](/handbook/enterprise-data/platform/monte-carlo/).
 
 ### Locating the problem
 
@@ -178,7 +178,7 @@ Check if the files are present in [Google Storage](https://console.cloud.google.
 
 ### Troubleshoot the data warehouse layer
 
-Reach out to the [Data team](/handbook/business-technology/data-team/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](/handbook/business-technology/data-team/#how-to-connect-with-us).
+Reach out to the [Data team](/handbook/enterprise-data/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](/handbook/enterprise-data/#how-to-connect-with-us).
 
 ### Troubleshoot integration with Salesforce
 

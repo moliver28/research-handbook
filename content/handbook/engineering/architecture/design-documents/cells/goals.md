@@ -309,6 +309,7 @@ Additionally Cells may solve some issues with canaries today, for example not ha
 | Term                                | Description                                                                                                                                 | Discouraged Terms                          |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | [Cell](#cell)                       | A Cell is a set of infrastructure components that contains multiple top-level Groups that belong to different Organizations.                | GitLab instance, cluster, shard, Pod       |
+| [Legacy Cell](#legacy-cell)         | The existing GitLab.com infrastructure                                                                                                      | Primary Cell                               |
 | [Cluster](#cluster)                 | A cluster is a collection of Cells.                                                                                                         | Whale, GitLab Dedicated instance, instance |
 | [Organizations](#organizations)     | An Organization is the umbrella for one or multiple top-level Groups.                                                                       | Billable entities, customers               |
 | [Top-Level Group](#top-level-group) | Top-level Group is the name given to the top-most Group of all other Groups. Groups and Projects are nested underneath the top-level Group. | Root-level namespace                       |
@@ -332,6 +333,14 @@ A Cell is a set of infrastructure components that contains multiple top-level Gr
 - On initial provisioning, a GitLab instance provisioned by GitLab Dedicated tooling can be configured to join the cluster, and become a Cell
 
 Discouraged synonyms: GitLab instance, cluster, shard, Pod
+
+### Legacy Cell
+
+The existing GitLab.com infrastructure will operate as a Cell from an application
+perspective. We refer to this as legacy because it's where our existing
+customers live, and it's using the old provisioning tooling (not GitLab Dedicated
+tooling). Eventually, we also want to migrate customers from the Legacy Cell to
+the Cells we provision.
 
 ### Cluster
 

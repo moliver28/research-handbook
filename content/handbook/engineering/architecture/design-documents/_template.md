@@ -65,7 +65,7 @@ Document statuses you can use:
 
 -->
 
-<!-- Design Doucments often contain forward-looking statements -->
+<!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->

@@ -170,20 +170,33 @@ region, you should follow these steps:
 
 ## Ticket handover (assignee change not related to preferred region)
 
-**This section needs to be updated to describe the handover process in the light
-  of the 2024-08-01 [definition](#handover-definition) of handover.**
+When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
 
 1. Set the proper expectations to the customer.
-   1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving region.
+   1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving person or region.
    1. Please ensure that the receiving team is properly informed and aligned on any tasks and timelines before finalizing them with the customer.
 1. Use the Zendesk [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Out%20of%20Region/Handover%20Ticket%20Summary.md)
    to ensure all necessary information is included and the ticket is unassigned.
 1. Set the Zendesk Form Field `Handover Status` to `Need Handover`.
 1. CC yourself on the ticket and save the ticket to the `Open State`.
 
+</details>
+
+<details>
+  <summary markdown="span">Working tickets handed over from the same region due to PTO</summary>
+
+1. Update the `Handover Status` to `Handover Completed` to ensure accurate metric tracking.
+1. Review the `Handover Ticket Summary` and the Next Response Time (NRT) SLA.
+1. If ready to proceed:
+   - Introduce yourself to the customer, confirm the handover, and provide the
+     next technical response.
+1. If additional research is needed:
+   - Introduce yourself, inform the customer that further research is required,
+     and set expectations for the next steps.
+     
 </details>
 
 <details>
@@ -220,9 +233,9 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
 
 ### Helping with a ticket that has an Assigned Support Engineer
 
-Some customers have an Assigned Support Engineer (ASE) that will own their
+Some customers have an Assigned Support Engineer (ASE) who will own their
 tickets. This will be apparent from the org note in the ticket. For such
-customers, see [the ASE workflow](assigned-support-engineer/working-on-ase-tickets.html).
+customers, see [the ASE workflow](../assigned-support-engineer/working-on-ase-tickets.html).
 
 ## FAQ
 

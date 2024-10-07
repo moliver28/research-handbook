@@ -127,7 +127,7 @@ Occasionally systems listed in our tech stack will be deprecated. If a system is
 
 ### Access Requests
 
-Please review our [Access Requests handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to find more information on how to request access to systems. Choose the right template for your use case and follow the instructions.
+Please review our [Access Requests handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to find more information on how to request access to systems. Choose the right template for your use case and follow the instructions.
 
 ### Procurement
 

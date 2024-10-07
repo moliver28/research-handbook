@@ -162,10 +162,6 @@ The GitLab administrator can see your username, but he or she does not have acce
 
 Yes, Okta has been configured such that - it adheres to the GitLab password policy and restrictions.
 
-## Will users only use 1Password to store Okta credentials? As part of getting set up in Okta, will we move all of our stored creds from 1Password into Okta (and then delete from 1Password)?
-
-For many applications, that's correct. The goal will be to focus on Logins in 1Password and migrate as many of them (particularly shared passwords!) to Okta. There are other things like Secure Notes that don't translate, so we won't be completely getting rid of 1Password for a while.
-
 ## Any app that is already integrated and existing in Okta can be deleted from 1Password?
 
 Yes, once you've put the credentials in Okta, you may delete it from 1password.
@@ -195,7 +191,7 @@ Okta does not log you out of your applications even though you might be logged o
 Okta is built on an "Always On" architecture. However, if their services were to go down, you would not be able to log in to your GitLab Okta platform and access your applications via Single Sign‐On. However, some applications might still be accessible through a direct link.
 When Okta is down, basically GitLab will be down. Any mitigation strategy would enlarge our security surface area.
 
-## Even though it's rare or unlikely, what is our policy with regard to what employees should do in the event Okta is down? Just wait for it to come back, or is there some backup plan?
+## What is our policy if Okta is down? Should employees wait or is there a backup plan?
 
 When Okta is down, we are down. Any mitigation strategy would enlarge our security surface area.
 Okta is built on an "Always On" architecture. However, if their services were to go down, you would not be able to log in to your GitLab Okta platform and access your applications via Single Sign‐On. However, some applications might still be accessible through a direct link.
@@ -204,7 +200,7 @@ Okta is built on an "Always On" architecture. However, if their services were to
 
 Please reach out to #it_help channel on Slack.
 
-## Is there any automated reporting? (e.g. Can we access logs emailed to the team and use that to kick off an access review?)
+## Is there any automated reporting?
 
 No, this does not exist within Okta.  But this should be something security automation team can help with. There are some automated security notifications already enabled for things like MFA or password changes, as well as connections from new and unrecognised devices. GitLab is able to perform reporting on these based on built-in reporting.
 
@@ -212,10 +208,10 @@ No, this does not exist within Okta.  But this should be something security auto
 
 Automating access requests is one such thing. Manager approval is not possible with Okta as yet. We are working towards other ways and means to achieve this.
 
-## Does Okta integrate with a VPN provider that will allow everyone at GitLab (team members) to use a company wide VPN?
+## Does Okta integrate with a VPN provider that allows all GitLab team members to use a company-wide VPN?
 
 There is capacity to do this, but further research is needed to understand the application use case for this. At this stage, requirement for VPN is not enabled.
 
-## For those of us who used our GitLab personal account when we were onboarded, what happens to my GitLab account when I am offboarded? Does Okta change anything about this, or any policy changes around accounts that might make it important for me to use a company account name?
+## For those who used a GitLab personal account when onboarded, what happens at offboarding?
 
 For users who started prior to 2020-03-23, they are removed from GitLab groups. When offboarding happens, your Okta account and related accounts is Deactivated.

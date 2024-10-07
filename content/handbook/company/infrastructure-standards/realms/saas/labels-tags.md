@@ -5,8 +5,8 @@ description: "This handbook section defines the latest iteration of infrastructu
 
 ## Quick Links
 
-- [Infrastructure Standards - Sandbox Realm Documentation](/handbook/infrastructure-standards/realms/sandbox/)
-- [Infrastructure Standards - Global Labels and Tags Standards](/handbook/infrastructure-standards/labels-tags/)
+- [Infrastructure Standards - Sandbox Realm Documentation](/handbook/company/infrastructure-standards/realms/sandbox/)
+- [Infrastructure Standards - Global Labels and Tags Standards](/handbook/company/infrastructure-standards/labels-tags/)
 - [Infrastructure Standards - Policies](/handbook/infrastructure-standards/policies/)
 - [Infrastructure Standards - Tutorials](/handbook/infrastructure-standards/tutorials/)
 - [Infrastructure Standards - Helpdesk](/handbook/infrastructure-standards/helpdesk/)
@@ -17,7 +17,7 @@ We use the `gl_` prefix for all labels and tags. All keys use underscores (`snak
 
 ### Global Labels/Tags
 
-See the [list of global labels and tags](/handbook/infrastructure-standards/labels-tags/) that should be applied to each resource.
+See the [list of global labels and tags](/handbook/company/infrastructure-standards/labels-tags/) that should be applied to each resource.
 
 ### Realm Labels/Tags
 

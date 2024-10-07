@@ -105,7 +105,7 @@ The Chief of Staff to the CEO may occasionally have a [Chief of Staff to the CEO
 ### Self Select Mentoring
 
 * If you choose, you can reach out to a team member who is more senior than you and [request for them to Mentor you](/handbook/people-group/learning-and-development/mentor/#find-a-mentor).
-* Here is a [format](/handbook/engineering/career-development/mentoring/) for how to build a mentoring relationship
+* Here is a [format](/handbook/engineering/careers/mentoring/) for how to build a mentoring relationship
 
 ### Minorities in Tech Mentoring Program
 

@@ -181,7 +181,7 @@ Generally they meet the following criteria. They:
 
 A Senior Support Readiness Specialist may be interested in exploring Support
 Readiness Management as an alternative at this point. See
-[Engineering Career Development](/handbook/engineering/career-development/)
+[Engineering Career Development](/handbook/engineering/careers/)
 for more details.
 
 ### Career Ladder

@@ -130,17 +130,26 @@ For those with regular commitments, look for shorter weeks or timezone variation
 ### Rotation schedule
 
 | Start date | End date | See one | Teach one | Schedule Notes |
-| ---------- | -------- | ------- | --------- | -------------- |
-| 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
-| 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
-| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | REMOTE - PT |
-| 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
+| ---------- | -------- | ---- | ----- | --------- |
 | 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 | OPEN| [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
+| 2024-10-07 | 2024-10-11 | OPEN | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
+| 2024-10-14 | 2024-10-18 | OPEN| OPEN | REMOTE - PT - very limited week due to multiple conferences |
 | 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
 | 2024-10-28 | 2024-11-01 | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
+| 2024-11-04 | 2024-11-08 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
+| 2024-11-04 | 2024-11-08 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
+| 2024-11-11 | 2024-11-15 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
+| 2024-11-18 | 2024-11-22 | OPEN | OPEN | REMOTE - PT |
+| 2024-11-25 | 2024-11-29 | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA | OPEN | REMOTE - PT |
+| 2024-12-02 | 2024-12-06 | OPEN |  [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA  | REMOTE - PT |
+| 2024-12-09 | 2024-12-13 | VP DIRECTS ONLY | VP DIRECTS ONLY | REMOTE - PT |
+| 2024-12-16 | 2024-12-20 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
+| 2024-12-23 | 2024-12-27 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
+| 2024-12-30 | 2025-01-03 | NO CEO SHADOW | NO CEO SHADOW | CEO PTO |
+| 2025-01-06 | 2025-01-10 | OPEN | OPEN | REMOTE - PT |
+| 2025-01-13 | 2025-01-17 | OPEN | OPEN | REMOTE - PT |
+| 2025-01-20 | 2025-01-24 | OPEN | OPEN | REMOTE - PT |
+| 2025-01-27 | 2025-01-31 | OPEN | OPEN | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -150,7 +159,7 @@ If you have questions regarding the planned rotation schedule, please ping the [
 
 1. This is not a performance evaluation.
 1. Plan to observe and ask questions.
-1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Time Off by Deel, you should select "CEO Shadow Program" as the type, and assign someone to cover for you while you are in the program. This type of Time Off by Deel is set as "Available" which sets Slack status and a free / visibility calendar event only. You may disable the Slack OOO auto-responder within `Time Off by Deel app > Slack > CEO Shadow Program` if you find it obtrusive.
+1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Slack, change your status noting who will be covering for you. 
 1. Be ready to add a number of [handbook](/handbook/about/handbook-usage/) updates during your shadow period.
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information, including having access to material non-public information (MNPI). Participation in the shadow program and access to such information is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. As stated in GitLab's [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view), participants in the shadow program will be considered Designated Insiders because shadows have access to MNPI. Each participant of the CEO Shadow Program or other E-Group level shadow program will be added to the Designated Insider list for the quarter in which they are program participants. Each shadow will be removed from the Designated Insider list once the window has closed for the same quarter they participate as a shadow only if that is the sole reason the participant is on the Designated Insider list. For additional information, please see the [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#).
 1. Give feedback to and receive feedback from the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Examples of this are to the CEO and to the world about the company if they make a blog post or video. Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
@@ -217,7 +226,7 @@ The CEO has a [section in the handbook](/handbook/ceo/) that details processes a
 
 #### Review acronyms
 
-If you're not familiar with some of the business acronyms, take a bit of time to review them. The [Product Performance Indicators](/handbook/product/performance-indicators/) handbook page has some useful acronyms as well as concepts you're likely to come across.
+If you're not familiar with some of the business acronyms, take a bit of time to review them. The [Product Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) handbook page has some useful acronyms as well as concepts you're likely to come across.
 
 - [KPI (Key Performance Indicator)](/handbook/company/kpis/#what-are-kpis)
 - [OKRs (Objectives and Key Results)](/handbook/company/okrs/#what-are-okrs)
@@ -812,7 +821,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-12 | 2024-02-23 | [Taimur Khan](https://gitlab.com/tkhan.gitlab) | Staff CSM, Industry Lead | |
 | 2024-02-20 | 2024-03-01 | [Emma Neuberger](https://gitlab.com/eneuberger) | Sr Product Analyst | |
 | 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | |
-| 2024-03-04 | 2024-03-22 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
+| 2024-03-04 | 2024-03-22 | [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
 | 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) | VP, Incubation Engineering | |
 | 2024-03-25 | 2024-03-29 | [Mek Stittri](https://gitlab.com/meks) | VP of Infrastructure & Quality | |
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
@@ -831,3 +840,6 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-07-22 | 2024-08-02 | [Lesley Razzaghian](https://gitlab.com/lesley-r) | Backend Engineer | |
 | 2024-07-29 | 2024-08-09 | [Gary Holtz](https://gitlab.com/garyh) | Senior Backend Engineer | |
 | 2024-08-12 | 2024-08-21 | [Emily Plotkin](https://gitlab.com/emilyplotkin) | Sr Director, Legal - Employment | |
+| 2024-08-26 | 2024-09-06 | [Sam Wiskow](https://gitlab.com/swiskow) | Senior Product Manager, Delivery & Scalability | |
+| 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
+| 2024-09-09 | 2024-09-20 |  [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |

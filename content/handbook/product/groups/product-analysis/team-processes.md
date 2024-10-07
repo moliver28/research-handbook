@@ -27,7 +27,7 @@ All issues must have the following:
 
 As mentioned above, all issues should have a workflow label. These should be kept up-to-date in
 order to track the current status of an issue on our [board](https://gitlab.com/groups/gitlab-data/-/boards/2973914).
-The Product Data Insights team uses a subset of the [workflow labels used by the Data team](/handbook/business-technology/data-team/how-we-work/#workflow-summary).
+The Product Data Insights team uses a subset of the [workflow labels used by the Data team](/handbook/enterprise-data/how-we-work/#workflow-summary).
 
 | Stage (Label) | Description | Completion Criteria |
 | --- | --- | --- |
@@ -35,7 +35,7 @@ The Product Data Insights team uses a subset of the [workflow labels used by the
 | `workflow::3 - refinement` | Issue is scoped and refined | Issue is fully scoped and refined |
 | `workflow::4 - ready to develop` | Issue is waiting for development | Work starts on the issue |
 | `workflow::5 - development` | Work is in-flight | Issue enters review |
-| `workflow::6 - review` | Waiting for or in review | Issue meets [criteria for closure](/handbook/product/product-analysis/team-processes/#checklist-for-closing-an-issue) |
+| `workflow::6 - review` | Waiting for or in review | Issue meets [criteria for closure](/handbook/product/groups/product-analysis/team-processes/#checklist-for-closing-an-issue) |
 | `workflow::X - blocked` | Issue needs intervention that assignee can't perform | Work is no longer blocked |
 
 ### Blocked issues
@@ -163,7 +163,7 @@ conversation on Slack, discussion in meeting, etc)
 - Tag other DRIs (if applicable)
   - Ex: if finding has to do with Create, tag the applicable Create PM
 - Stakeholder agrees that issue can be closed
-  - Keep in mind rules surrounding [scope creep](/handbook/product/product-analysis/#scope-creep).
+  - Keep in mind rules surrounding [scope creep](/handbook/product/groups/product-analysis/#scope-creep).
   If there are outstanding questions or follow-ups, they can be moved to a new issue and linked
 - Open new issue with next steps or follow-ups and link to original issue (if applicable)
 
@@ -176,7 +176,7 @@ Issue Weight). In both cases, we use Analyst Working Days as the denominator.
 
 **Completed Issue Velocity**
 
-This is the more tradition velocity calculation outlined in on our [main handbook page](/handbook/product/product-analysis/#velocity).
+This is the more tradition velocity calculation outlined in on our [main handbook page](/handbook/product/groups/product-analysis/#velocity).
 It is tied exclusively to work done on issues closed during an iteration and does not account
 for work on issues rolling over to the next iteration.
 
@@ -190,7 +190,7 @@ during the iteration.
 This is a less traditional adaptation of velocity and is used as an internal team metric. It is
 intended to capture *all* work done by analysts during an iteration, even if the issue is not
 closed out. Given the nature of our work, it is not uncommon for issues to roll over to the next
-iteration, especially as [unplanned work](/handbook/product/product-analysis/team-processes/#unplanned-work)
+iteration, especially as [unplanned work](/handbook/product/groups/product-analysis/team-processes/#unplanned-work)
 comes up and shifts priorities. This version of velocity controls for those larger projects or
 work that is started mid-iteration.
 
@@ -276,7 +276,7 @@ Both frequency and timing of calibration can and will be revisited, if necessary
 
 ## Style guidelines
 
-The Product Data Insights group follows the Data team's [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/)
+The Product Data Insights group follows the Data team's [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
 and best practices.
 
 ## Team meetings
@@ -287,7 +287,7 @@ and best practices.
   extended to do iteration planning.
    - Agenda: [link](https://docs.google.com/document/d/1EdYlCOh29lENz7WB55ONHUohvUeVSXhyCcv-EAfth-I/edit?usp=sharing)
 1. Product Data Insights Office Hours
-   - See [main Product Data Insights handbook page](/handbook/product/product-analysis/#office-hours)
+   - See [main Product Data Insights handbook page](/handbook/product/groups/product-analysis/#office-hours)
 
 ## Gearing ratios
 
@@ -317,4 +317,4 @@ a self-service tool. As such, we feel comfortable setting a target of 3 PM:1 Pro
 
 The current PM:Product Analyst ratio is ~7:1 - 40 IC product managers (including current
 openings) and 6 product analysts (5 ICs and 1 IC/Manager hybrid). As we work to close the gap and
-move towards to the 3:1 target, we encourage PMs to leverage [office hours](/handbook/product/product-analysis/#office-hours).
+move towards to the 3:1 target, we encourage PMs to leverage [office hours](/handbook/product/groups/product-analysis/#office-hours).

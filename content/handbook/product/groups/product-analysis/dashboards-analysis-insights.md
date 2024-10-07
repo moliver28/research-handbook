@@ -9,7 +9,7 @@ description: This page aggregates dashboards, analysis, and insights generated o
 owned by the Product Data Insights team. Note:
 
 * Viewing dashboards in the `SAFE` project require
-additional steps to [obtain SAFE Dashboard access](/handbook/business-technology/data-team/platform/safe-data/)
+additional steps to [obtain SAFE Dashboard access](/handbook/enterprise-data/platform/safe-data/)
 (if you do not already have SAFE access in Tableau)
 * This list includes dashboards in draft. Dashboards carrying the `Draft` tag should not be
 used for reporting.

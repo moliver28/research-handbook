@@ -18,22 +18,22 @@ Use this runbook for troubleshooting Production issues related to the
 
 ## Monitoring
 
-[Secret push protection monitoring](secret-push-protection-monitoring) is the preferred dashboard for monitoring the feature to help identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com.
+[Secret push protection monitoring](secret-push-protection-monitoring) is the preferred dashboard for monitoring the feature to help identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on GitLab.com.
 
 [Gitaly Latency Dashboard for the PreReceiveHook method](https://dashboards.gitlab.net/d/PqeIQ9Iik/gitaly-feature-latency-detail?from=now-1h&orgId=1&refresh=5m&to=now&var-job=gitaly&var-method=PreReceiveHook) may be used as a supplement.
 
 ## Enabling/Disabling
 
-## Enabling/Disabling for Gitlab.com
+## Enabling/Disabling for GitLab.com
 
-To **disable the feature across all of Gitlab.com**, there are two options.
+To **disable the feature across all of GitLab.com**, there are two options.
 
 The first option, and most likely quickest, is to disable the feature via ChatOps. Use the following command: `/chatops run feature set pre_receive_secret_detection_push_check false`
 
 The second option is to disable pre-receive
 secret detection, [as described in the docs](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html#enable-secret-push-protection). This will require a change access request ([production example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17907)), as it requires administrator access.
 
-Either of these options will disable the feature for all Gitlab.com users and should be
+Either of these options will disable the feature for all GitLab.com users and should be
 used in cases where the feature is causing significant performance degradation.
 
 ## Other properties that can be enabled/disabled

@@ -30,6 +30,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 1. Click **Create label**.
 
 1. Create the following additional labels, setting a description and background color of your choosing. Note that some of these are scoped and some are unscoped.
+    - `Status::Open`
     - `Status::WIP`
     - `Status::Done`
     - `Priority::High`

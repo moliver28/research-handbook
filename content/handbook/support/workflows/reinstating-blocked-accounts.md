@@ -84,9 +84,9 @@ If the Admin Note is `User deleted own account on {timestamp}`, this means the u
 
 1. **Free user** accounts need to wait 7 days, starting the day of the deletion request, to create a new account with the same email address or username. Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro.
 1. **Exceptions in which Support can force deletion** - If a user is not part of a paid namespace but needs to be added to a paid namespace (user or top-level group owner creates the ticket), or if a paid user added below the top-level group and still subject to the 7-day delay period (True until [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/416651) is fixed): then Support can follow the steps below to bypass the 7 day delay:
-        - Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro and ask for explicit permission from the user to bypass the 7d wait period and delete the account.
-        - When confirmation is received, SE (with Admin access) deletes the account.
-        - SE updates the ticket with the result of the deletion.
+   - Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro and ask for explicit permission from the user to bypass the 7d wait period and delete the account.
+   - When confirmation is received, SE (with Admin access) deletes the account.
+   - SE updates the ticket with the result of the deletion.
 1. **Paid user** accounts that are direct members of a top-level paid namespace have no deletion delay and their account is deleted immediately (within 1 hour), see [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/121912).
 
 ### Embargoed countries
@@ -95,10 +95,18 @@ If the block or complaint is related to access from an embargoed country, use th
     - If the user provides the requested information, then complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. Otherwise, reaffirm the block cannot be removed.
     - Proceed with this action for both **free** and **paid** users.
 
-### Professional services migrations
+### Professional Services migrations
 
-Professional Services migrations can also block users as part of their process. Admin notes for migrations were added as of 2022-08-19 through [this issue](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/issues/818). Older migrated accounts may not have an admin note. Support can unblock the user in the following cases:
-    - Blocked users can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
+Professional Services migrations can also block users as part of their process. Admin notes for migrations were added as of `2022-08-19` through [this issue](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/issues/818). Older migrated accounts may not have an admin note. As of `2024-09-18`, requests to unblock accounts that were blocked during a Professional Services migration are worked automatically (see [STM #6336](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6336)).
+
+If you receive a ticket for an unblock request and you think it should have been automatically worked, you should:
+
+1. Check that all ticket fields are at expected values
+1. Notify Support Operations so that they can investigate
+1. Work the ticket manually using the guidance below to ensure a timely resolution for the requestor
+
+If a ticket was not automatically worked, Support can manually unblock the user in the following cases:
+    - Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.  
     - For [Enterprise users]({{< ref "gitlab-com_overview#enterprise-users" >}}), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification]({{< ref "account_verification" >}}), and add an [admin note]({{< ref "admin_note" >}}) as usual, including if it was user or owner requested.
     - You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
     - Proceed with this action for both **free** and **paid** users.
@@ -143,13 +151,13 @@ The rest of this page is for **reference** only and should be updated to point t
 
 ### Policy Reference
 
-1. All decisions about account reinstation are final and there is no process for appeals.
+1. All decisions about account reinstatement are final and there is no process for appeals.
 1. These criteria are to be taken as examples **only**, and **not** as binding principles.
 1. If the account violates our ToS again within a 12 month period, it could result in being permanently banned.
 
 #### An account can be reinstated when
 
-1. The user agrees to remove the content in question within the requested timeframe.
+1. The user agrees to remove the content in question within the requested time frame.
 1. The user has provided a sufficient use case for violating our Terms of Use.
 1. The user agrees to remove or export the content away from GitLab.com within 24 hours.
 1. The DMCA/Trademark complaint has been resolved.

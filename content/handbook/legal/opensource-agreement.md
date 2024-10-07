@@ -1,7 +1,7 @@
 ---
 title: GitLab for Open Source Program Agreement
 ---
-
+<!-- vale off -->
 ## **Open Source Program Agreement**
 
 Date of last revision: 2022/08/19

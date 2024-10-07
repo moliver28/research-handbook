@@ -210,6 +210,41 @@ It is critical to be intentional when organizing a self-service data environment
 - At least 3-5 other columns that demonstrate the nature of the table and are unlikely to change
 - Working SQL reference example
 
+##### Definition of First Day Of Week
+
+At GitLab, we standardize the definition of 'first day of week' across all our systems to consistently use **Monday** as the first day of the week. This standard applies to all data models, reports, and analyses within the Enterprise Data Warehouse.
+
+###### Key Points
+
+- The week starts on *Monday* and ends on *Sunday*.
+- This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter.
+- This standard is consistent with many functional analyst teams' practices.
+
+###### Rationale
+
+1. **Consistency**: This standardization improves consistency in our reporting across different teams and systems.
+2. **Accuracy**: It prevents potential misreporting of metrics, especially as we increase our use of weekly reporting.
+3. **Alignment**: It aligns our practices with common business and international standards (ISO 8601).
+
+###### Implementation
+
+- The `first_day_of_week` is calculated in the `date_details_source` model using the following logic:
+
+  ```sql
+  CASE WHEN day_name = 'Mon' THEN date_day
+       ELSE DATE_TRUNC('week', date_day)
+  END AS first_day_of_week
+  ```
+
+  - This field can be cascaded down to the downstream models through the `dim_date` model.
+- All date dimensions and related fields should use this definition of week.
+- When using `DATE_TRUNC('week', date)`, the result will automatically align with this standard.
+- Existing reports and dashboards should be updated to reflect this standard definition.
+
+###### Note for Analysts and Developers
+
+When working with weekly data, always ensure you're using this standard definition. If you encounter any discrepancies or have questions about implementing this standard in your work, please reach out to the Data team for assistance.
+
 ##### Additional Guidelines
 
 - The Dimensional Model is meant to be simple to use and designed for the user. Dimensional models are likely to be denormalized, as opposite to source models, making them easier to read and interpret, as well as allowing efficient querying by reducing the number of joins.
@@ -221,11 +256,11 @@ It is critical to be intentional when organizing a self-service data environment
 - fct_and dim_ models should be materialized as tables to improve query performance.
 - Before implementing the current dimensional modeling structure, we used a [different data modeling approach](/handbook/enterprise-data/platform/dbt-guide/#model-structure). This structure still exists in our Legacy schema, while some of it has been migrated to the newer methodology. Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
 
-## Schemas
+### Schemas
 
 The `Common` schemas contain the Enterprise Dimensional Model. Each schema has a specific purpose in the Architecture as described below.
 
-### Common Prep
+#### Common Prep
 
 The Common Prep Schema has 6 primary use cases at this time. The use cases are as follows:
 
@@ -246,15 +281,15 @@ In order to keep the `COMMON_PREP` schema streamlined and without unnecessary re
 
 1. Prefer to not make a model in the `COMMON_PREP` schema that is only for the sake of following the same pattern of having Prep models. For example, if a dimension table is built in the `COMMON` schema and is only built by doing a `SELECT *` from the table in the `COMMON_PREP` schema, then it may be the case that the Prep model is not needed and we can build that model directly in the `COMMON` schema.
 
-### Common Mapping
+#### Common Mapping
 
 Mapping/look-up(map_) tables to support dimension tables should be created in the `common_mapping` schema.
 
-### Common
+#### Common
 
 The Common schema is where all of the facts and dimensions that compose the Enterprise Dimensional Model are stored. The Common schema contains a variety of different types of dimensions and facts that create multiple star schemas. The models in this schema are robust and provide the basis for analyzing GitLab's businesses processes. The `Common Mart` schema contains materializations of the star schemas stored in the `Common` schema that provide the Analyst and BI Developer with easy to use and query data marts. What follows is a summary of the different types of facts and dimensions that are available in the Common Schema.
 
-#### Conformed Dimensions
+##### Conformed Dimensions
 
 Conformed Dimensions serve as the basis for a series of interlocking stars.
 
@@ -264,7 +299,7 @@ Conformed Dimensions serve as the basis for a series of interlocking stars.
 1. Kimball refers to the set of conformed dimensions as the conformance bus.
 1. Reuse of Common Dimensions allows for reports that combine subject areas.
 
-#### Local Dimensions
+##### Local Dimensions
 
 Local dimensions serve as the basis for analyzing one star.
 
@@ -272,11 +307,11 @@ Local dimensions serve as the basis for analyzing one star.
 1. These local dimensions can be useful if we do not want to store the attributes on the single fact table as degenerate dimensions. In that case, we can promote those dimensional attributes to a stand-alone, local dimension table.
 1. An example is [dim_instances](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_instances) that contains statistical data for instances from Service ping and is specifically used in Product Usage models like [mart_monthly_product_usage](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_monthly_product_usage).
 
-#### Atomic Facts
+##### Atomic Facts
 
 Facts are the things being measured in a process. The terms `measurement` or `metric` are often used instead of fact to describe what is happening in the model. The Atomic Facts are modeled at the lowest level of the process they are measuring. They do not filter out any data and include all the rows that have been generated from the process the Atomic Fact table is describing. The documentation for the models would include details about the fact table being an atomic one or a derived one.
 
-#### Derived Facts
+##### Derived Facts
 
 Derived Facts are built on top of the Atomic Facts. The Derived Fact directly references the Atomic Fact thereby creating an auditable, traceable lineage. The documentation for the models would include details about the fact table being an atomic one or a derived one. There are several use cases for building a Derived Fact table:
 
@@ -284,11 +319,11 @@ Derived Facts are built on top of the Atomic Facts. The Derived Fact directly re
 1. Precompute and aggregate commonly used aggregations of data. This is particular useful with semi-additive and non-additive measurements. For example, semi-additive metrics such as ratios cannot be summed across different aggregation grains and it is necessary to recompute the ratio at each grain. In this case, creating a Derived Fact would help insure that all Analysts and BI Developers get the same answer for the ratio analysis. Another example is with measures that are semi-additive balances such as ARR, Retention, or a Balance Sheet account balance. In those cases, creating Derived Facts that precompute answers at the required grains would help insure that all Analysts and BI Developers get the same answer for the analyses.
 1. Create `Drill Across Facts` that connect two or more facts together through Conformed Dimensions and store as a Derived Fact table. In this process, separate select statements are issued to each fact in the project and includes the Conformed Dimensions the facts have in Common. The results are combined using a Full Outer Join on the Conformed Dimensions included in the select statement results.
 
-#### Bridge Tables
+##### Bridge Tables
 
 Bridge(bdg_) tables should reside in the `common` schema. These tables act as intermediate tables to resolve many-to-many relationships between two tables.
 
-### Common Mart
+#### Common Mart
 
 Marts are a combination of dimensions and facts that are joined together and used by business entities for insights and analytics. They are often grouped by business units such as marketing, finance, product, and sales. When a model is in this directory, it communicates to business stakeholders that the data is cleanly modelled and is ready for querying.
 
@@ -297,7 +332,7 @@ Below are some guidelines to follow when building marts:
 1. Following the naming convention for fact and dimension tables, all marts should start with the prefix `mart_`.
 1. Marts should not be built on top of other marts and should be built using FCT and DIM tables.
 
-#### Scaffold Tables
+##### Scaffold Tables
 
 Scaffold tables provide a foundational structure between desired fact tables ensuring that all potential combinations of dimensions are represented in visualizations and analyses, even if some combinations are absent in any of the primary fact tables. This is particularly valuable in tools like Tableau which may necessitate a full dataset for relationships. Here, scaffold tables act as a template or blueprint that the corresponding fact tables can join to.
 
@@ -446,9 +481,13 @@ Note: The number of fields to be shown for each of the entity can easily be modi
 ![ERD.png](images/ERD.png)
 </details> <br>
 
-## SPECIFIC Schema
+## Specific Schema
 
-More details coming soon...
+The `SPECIFIC` schema is to be used for tables that perform a reporting function and act as a source of truth but do not conform to the dimensional modeling structure of the Enterprise Dimensional Model.
+
+### No Transformaion Views
+
+A **No Transformation View** should be direct views of raw source data that are needed for reporting without further transformation.  They should not be used to build additional tables since there will be a table upstream in the `RAW` or `PREP` database that will provide better lineage documentation for further transformations.  They should always be created as a view with no additional transformation or filtering and should be prefixed with `ntv_`.
 
 ## Entitlement
 
@@ -521,6 +560,46 @@ As the Enterprise Data Warehouse is designed to process and transform the data t
 #### Variety
 
 The current design of the Enterprise Data Warehouse is build on the Snowflake cloud database.  This limits the formats and structures of data that can be processed to those that fit into structured tables.  While some processing of semi-structured data, such as JSON, is possible directly in the Enterprise Data Warehouse this is limited and must be first ingested as a column in a table decreasing efficiency.  Generally, any data input or output from the Enterprise Data Warehouse that is not in a structured table would be considered Big Data.  As an example the service ping payload from the Version database is JSON that requires extensive manipulation before in can be analyzed and would be considered Big Data.
+
+## Analytics Performance Policy Framework
+
+### Problem Statement
+
+Due to increasing data volumes and business logic complexity in the Enterprise Data Warehouse, the data model transformations built in the EDW have become increasingly non-performant overtime with the daily dbt model production run taking over 12 hours to complete. Query runtimes on some of our largest Snowplow, Service Ping, and GitLab.com data sets can take longer than several minutes to complete on L and XL size warehouses. Our daily Snowplow event data volumes are expected to increase by 2.5x within the next 12+ months. Therefore, we need an Analytics Performance Policy that can provide guidelines on how to architect performant data models in the transformation layer of the EDW that balance technical considerations with business needs and requirements.
+
+We think about dbt model runs along 3 major dimensions: performance, efficiency, and cost. 
+
+1. **Performance** relates to how long it takes a model to build
+1. **Efficiency** relates to how well a model uses local storage, remote storage, and partition pruning. 
+1. **Cost** relates to how many Snowflake credits are required to run a model and is impacted by both the performance and efficiency of the model. 
+
+The scope of this Analytics Performance Policy at this time is specifically focused on the performance of models. In the future, we will consider adding a separate efficiency and cost policy that would roll-up to an overall Analytics Scalability Policy.
+
+*The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake.*
+
+### Performance Targets 
+
+*These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
+
+1. Reduce dbt model production run time from 12 hours to 8 hours. Assumes we do not scale up and keep using a XL size warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
+1. Individual dbt model run time is consistently between 30 minutes to 1 hour maximum per model, overtime as data volumes continue to increase.
+1. A simple query of the Snowplow, Service Ping, and GitLab.com big data sets in Snowflake finishes in under 1 minute on a L or XL warehouse.
+
+### Architectural Approaches to Improve Performance
+
+1. Transform and Surface Smaller Amounts of Data in the Data Models.
+    1. Limit the amount of rows and/or columns surfaced in the atomic fact tables (lowest grain that captures ALL transactions for a business process), based on business needs weighed against technical and performance constraints. Ex. Limit the data in a model to the last 13 months of data that is both performant and required for business analysis.
+    1. Shard monolithic atomic fact tables (lowest grain that captures ALL transactions for a business process) that model the higher levels of abstraction of a business process into smaller data models that model sub-business processes. Ex. Model the SDLC (Software Development Lifecycle) into its component parts like SCM, CI, CD, Security etc. versus having the end to end SDLC modeled in one, montholic, super large data model.
+    1. Create aggregated data models at a level of detail purpose built for Business Analytics use cases. Ex. Consider aggregating product usage data to the user, namespace, installation, metric grains by week, month, quarter, and year timeframes as required by the business use case.
+1. Consider adding a clustering key to the data model that is aligned to commonly queried use cases in the model.
+1. Evaluate the use of the simple_cte macro in the data model and insure only the required columns that are needed for the model are selected.
+1. Consider setting the data model to be incremental.
+
+### Historical Archiving Process
+
+1. For non-idempotent data, which is data that cannot be recreated or otherwise surfaced in the data model due to a performance policy consideration, leverage a data platform archiving methodology to create an historical archive of the data. 
+
+For example, with only exposing 13 months of product usage data in atomic fact tables and creating an aggregated data table at the month, metric, namespace grain that only provides data for the past 13 months, an historical archive table would be able to provide insights from 2 or 3 years in the past for the aggregated table while the live data model would only provide the last 13 months of data.  
 
 ## Useful links and resources
 

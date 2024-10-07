@@ -21,19 +21,19 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. In the **Rule name** field, enter `Infra team`
 
-1. In the **Add approvers** field, select your **Infrastructure** group. You may need to use the 'all groups' option and search for your top-level group.
+1. In the **Groups** field, select your **Infrastructure** group. You may need to use the 'All groups' option and search for your top-level group.
 
     > To help reduce the search results, try searching for `/awesome/infrastructure`, or `yourgroupname/awesome/infrastructure`.
 
-1. Click **Add approval rule**.
+1. Click **Save changes**.
 
 1. Back in the **Merge request approvals** section of the **Merge Requests** page, click **Add approval rule** to create a second project-level rule.
 
 1. In the **Rule name** field, enter `Security operations`
 
-1. In the **Add approvers** field, select your **Security** group. You may need to use the 'all groups' option and search for your top-level group.
+1. In the **Groups** field, select your **Security** group. You may need to use the 'all groups' option and search for your top-level group.
 
-1. Click **Add approval rule**.
+1. Click **Save changes**.
 
 1. Back in the **Merge request approvals** section of the **Merge Requests** page, under **Approval Settings**, check the box next to **Prevent editing approval rules in merge requests.**
 

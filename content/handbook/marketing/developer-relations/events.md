@@ -240,9 +240,8 @@ for team members across GitLab through issue boards.
 
 ### Speaker Enablement
 
-The Developer Advocate team provides support to new and experienced speakers where necessary. These can range from presentation reviews,
-CFP ideation, or dry-run. We also host [Speakers Lean Coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee)
-to help folks prepare to speak. You can also [learn more](/handbook/marketing/developer-relations/developer-advocacy/speaker-enablement/) about
+The Developer Advocacy team provides support to new and experienced speakers where necessary. These can range from presentation reviews,
+CFP ideation, or dry-run sessions. You can [learn more](/handbook/marketing/developer-relations/developer-advocacy/speaker-enablement/) about
 the different resources and activities you can benefit from.
 
 **Note**: People who regularly speak about GitLab may be interested in joining the [GitLab Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/).

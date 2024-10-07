@@ -27,7 +27,7 @@ To reach the Product Security Engineering team, team members can:
 
 - Ask in `#sec-product-security-engineering` on Slack
 - Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
-- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues)
+- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new)
 
 ## Runbooks
 

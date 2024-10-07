@@ -64,4 +64,4 @@ If a customer with a reseller purchase decides to make a new purchase on a diffe
 - [Associating purchases - ownership verification](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases#ownership-verification)
 - [Pass to Sales - reseller exemption request](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing#2-are-reseller-purchases-considered-the-same-as-sales-assisted-if-a-customer-purchased-after-2022-07-07-and-needs-a-legacy-license-should-we-send-them-to-their-account-manager-to-go-through-the-exemption-process-or-do-we-treat-them-the-same-as-web-direct-and-give-them-a-legacy-license-file-no-questions-asked)
 - [Pass to Sales - reseller subscription change or question](/handbook/support/license-and-renewals/workflows/working_with_sales#a-reseller-or-reseller-customer-wants-to-change-their-subscription-or-ask-a-question)
-- [Not-for-Resale (NFR) program and policy](/handbook/resellers/channel-working-with-GitLab/#not-for-resale-nfr-program-and-policy)
+- [Not-for-Resale (NFR) program and policy](/handbook/resellers/channel-working-with-gitlab/#not-for-resale-nfr-program-and-policy)

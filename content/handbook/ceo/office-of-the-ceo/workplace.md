@@ -23,7 +23,7 @@ This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief
 
 ### All-Remote Flywheel
 
-The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
+The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
 
 Strong all-remote marketing may bolster industry trust in the GitLab brand and product due to the [halo effect](https://www.investopedia.com/terms/h/halo-effect.asp). E.g., If [The Remote Playbook](http://allremote.info/) inspires a firm's remote transition blueprint, said firm is likely to show favoritism to GitLab's product offerings and services.
 
@@ -435,7 +435,7 @@ There are also a number of videos on GitLab's [YouTube channel](https://www.yout
 
 To contribute an idea or [proposal](/handbook/values#make-a-proposal) to further GitLab's all-remote mission:
 
-1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
+1. Please put each new idea/topic in a new issue within the [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
 1. Put `Proposal: [IDEA]` as the subject
 1. Assign to `@streas`
 1. Please [set a due date](/handbook/values/#set-a-due-date) using GitLab's `Due Date` feature and provide context for the deadline(s).

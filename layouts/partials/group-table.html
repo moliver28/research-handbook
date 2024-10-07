@@ -15,7 +15,7 @@
         {{- if .frontend_engineering_manager }}<th>Frontend Engineering Manager</th>{{end}}
     </thead>
     <tbody>
-        {{- if .slack.channel }}<td><a href="https://gitlab.slack.com/app_redirect?channel=#{{ .slack.channel }}">#{{ .slack.channel }}</a></td>{{end}}
+        {{- if .slack.channel }}<td><a href="https://gitlab.slack.com/channels/{{ .slack.channel }}">#{{ .slack.channel }}</a></td>{{end}}
         {{- if .slack.alias }}<td>@{{.slack.alias}}</td>{{end}}
         {{- if .gitlab_group }}<td>@{{.gitlab_group}}</td>{{end}}
         {{- if .handbook }}<td><a href="/handbook/{{.handbook}}">Handbook</a></td>{{end}}

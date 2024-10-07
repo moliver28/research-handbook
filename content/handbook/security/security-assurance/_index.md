@@ -37,7 +37,6 @@ There are five teams in the Security Assurance sub-department.
       <td>
         <ul>
             <li><a href="{{< ref "security-compliance" >}}"> Security Compliance, Commercial Team Page </a></li>
-            <li><a href="{{< ref "dedicated-compliance" >}}"> Security Compliance, Dedicated Team Page </a></li>
         </ul>
       </td>
       <td>
@@ -48,7 +47,7 @@ There are five teams in the Security Assurance sub-department.
   </tr>
 </table>
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Core Competencies of Security Assurance Teams
+## <i class="fab fa-gitlab fa-fw" style="font-size:.85em" aria-hidden="true"></i> Core Competencies
 
 ### Field Security Core Competencies
 
@@ -75,19 +74,11 @@ There are five teams in the Security Assurance sub-department.
 
 ### Security Compliance, Commercial Core Competencies
 
-- [GitLab.com Production Continuous Control Monitoring/Auditing]({{< ref "sec-controls" >}})
-- [GitLab.com Security Certifications]({{< ref "../security-assurance/security-compliance/certifications" >}})
-- [GitLab.com Production & SOX ITGC User Access Reviews]({{< ref "access-reviews" >}})
-- [Tier 3 Observation Management]({{< ref "observation-management-procedure" >}})
-- [GitLab.com Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
-
-### Security Compliance, Dedicated Core Competencies
-
-- [GitLab Dedicated Production Continuous Control Monitoring/Auditing](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
-- [GitLab Dedicated Security Certifcations]({{< ref "../security-assurance/dedicated-compliance/certifications" >}})
-- [GitLab Dedicated User Access Reviews]({{< ref "access-reviews" >}})
-- [Tier 3 Observation Management]({{< ref "observation-management-procedure" >}})
-- [GitLab Dedicated Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
+- [Continuous Control Monitoring]({{< ref "sec-controls" >}})
+- [Security Certifications and Attestations]({{< ref "../security-assurance/security-compliance/certifications" >}})
+- [User Access Reviews (non-SOX)]({{< ref "access-reviews" >}})
+- [Observation management for control failures and Tier 3 (system-level) risks]({{< ref "observation-management-procedure" >}})
+- [GitLab Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
 
 ## <i id="biz-tech-icons" class="far fa-newspaper"></i> Core Tools and Systems
 

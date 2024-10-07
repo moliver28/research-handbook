@@ -61,7 +61,7 @@ The [Risk Management and Dispute Resolution team](/handbook/legal/risk-managemen
 - [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
 - [Anti-Harassment Policy](/handbook/people-group/anti-harassment/)
 - [Anti-Retaliation Policy](/handbook/legal/anti-retaliation-policy/)
-- [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
+- [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf)
 - [Corporate Communication Policy](/handbook/legal/corporate-communications/)
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
 - [GitLab Terms of Service](https://about.gitlab.com/terms/)

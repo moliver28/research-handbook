@@ -153,7 +153,7 @@ An organization's ability to transition quickly from Phase 1 to Phase 3 is depen
 - Do team members have a preexisting understanding of [digital communication tools]({{< ref "communication" >}})?
 - Do team members have preexisting methods of accessing sensitive information (e.g. established VPN protocols)?
 - Does a company's [business operations](/handbook/business-technology) or IT department have preexisting protocols for enabling team members from locales outside of the office?
-- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](in-person/), [expensing](/handbook/spending-company-money), working hours, [metrics and goals](/handbook/company/okrs), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
+- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](in-person/), [expensing](/handbook/finance/spending-company-money/), working hours, [metrics and goals](/handbook/company/okrs), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
 
 ## GitLab Knowledge Assessment: Phases of Remote Adaptation
 

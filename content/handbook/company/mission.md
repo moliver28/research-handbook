@@ -19,7 +19,7 @@ There are three ways you can contribute and co-create:
 To ensure that **everyone can contribute with GitLab** we allow anyone to create a proposal, at any time, without setup, and with confidence. Let's analyze that sentence a bit.
 
 - Anyone: Every person in the world should be able to afford great DevSecOps software. GitLab.com has free private repos and CI runners and GitLab CE is [free as in speech and as in beer](http://www.howtogeek.com/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). But open source is more than a license, that is why we are [a good steward of GitLab CE](/handbook/company/stewardship/) and keep both GitLab CE and EE open to inspection, modifications, enhancements, and suggestions.
-- Create: It is a [single application](/handbook/product/single-application/) based on [convention over configuration](/handbook/product/product-principles/#convention-over-configuration).
+- Create: It is a [single application](/handbook/product/categories/gitlab-the-product/single-application/) based on [convention over configuration](/handbook/product/product-principles/#convention-over-configuration).
 - Proposal: With Git, if you can read it, you can fork it to create a proposal.
 - At any time: You can work concurrently with other people, without having to wait for permission or approval from others.
 - Without setup: You can make something without installing or configuring for hours with our web IDE and Auto DevSecOps.
@@ -59,13 +59,7 @@ A group discussion reiterating the importance of everyone being able to contribu
 ### Everyone can contribute to GitLab, the company{#contribute-to-gitlab-company}
 
 To **enable everyone to contribute to GitLab, the company** we have open business processes.
-This allows all team members to suggest improvements to our
-handbook. We hire remotely so everyone with an internet connection can come
-work for us and be judged on results, not presence in an office. We offer
-equal opportunity for every nationality. We are agnostic to location and
-create more equality of opportunity in the world. We engage on Hacker News,
-Twitter, and our blog post comments. And we strive to take decisions guided
-by [our values](/handbook/values/).
+This allows all team members to suggest improvements to our handbook. We hire remotely so our team members can be judged on results, not presence in an office. We engage on social media platforms and in our blog post comments. And we strive to take decisions guided by [our values](/handbook/values/).
 
 #### Everyone can contribute to about.gitlab.com
 

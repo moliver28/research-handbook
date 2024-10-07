@@ -77,7 +77,7 @@ Some MRs require additional set up:
 - **Paid features**: Request a license via an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new), using the GitLab_Team_Member_License_Request template. [Add the license to your instance](https://docs.gitlab.com/ee/administration/license_file.html#add-your-license-file-during-installation).
   - You can also switch between CE and EE editions: [How to simulate a CE instance](https://docs.gitlab.com/ee/development/ee_features.html#simulate-a-ce-instance-when-unlicensed).
 - **Pipeline-related and Runner features**: Create or enable a runner to run a pipeline. [Create a runner in Gitpod](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#enable-runners) or [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/runner.md).
-- **Compliance**: To test [audit event streaming](https://docs.gitlab.com/ee/administration/audit_event_streaming.html) using a stream destination URL. Generate a temporary destination with [Pipedream](https://pipedream.com/).
+- **Compliance**: To test [audit event streaming](https://docs.gitlab.com/ee/administration/audit_event_streaming/) using a stream destination URL. Generate a temporary destination with [Pipedream](https://pipedream.com/).
 - **Fulfillment**: Only Fulfillment Product Designers should review CustomersDot MRs.
   - [Set up CustomersDot locally](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main#setup). If impractical, review screenshots and videos in the MR description or coordinate a demo with the engineer. For complex changes, keep the change behind a feature flag and review on staging post-merge.
 - **Geo**:Install and configure two **GDKs** as Geo primary and secondary sites.
@@ -179,7 +179,7 @@ Some MRs require additional set up:
 **After review**:
 
 - Remove yourself as a reviewer and post a summary comment, indicating if any changes are required.
-- Create follow-up issues for any outstanding UX concerns that deviate from the Minimum Viable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
+- Create follow-up issues for any outstanding UX concerns that deviate from the Minimal Valuable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
 
 **Follow-up with authors**:
 

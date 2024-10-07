@@ -5,7 +5,7 @@ description: "How to mature an AI-assisted feature from a UX perspective."
 
 ## Summary
 
-The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/ee/policy/alpha-beta-support.html), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
+The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
 
 To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development-flow/):
 
@@ -20,7 +20,7 @@ To evaluate the UX maturity of AI-assisted features, use three criteria from the
 | [Problem validation](#validation-problem-validation) | Can be based only on assumptions (evidence not required). | Mix of evidence and assumptions. | Only evidence or no high-risk assumptions. |
 | [Solution validation](#validation-solution-validation) | Not required. | Solution validation with 6 internal users. | Solution validation with 6 external users. |
 | [Improve](#build-improve) | Not applicable (no data before launch). | Quality goals set by the team are reached. | Quality goals set by the team are reached. |
-| [AI Output and Usability Quality](#evaluating-ai-output-and-usability-quality) | Not required. | Quality goals set by the team are reached. | Quality goals set by the team are reached. |
+| [AI Output and Usability Quality](#evaluating-the-quality-of-ai-output) | Not required. | Quality goals set by the team are reached. | Quality goals set by the team are reached. |
 
 ### Validation: Problem validation
 
@@ -33,7 +33,7 @@ AI solutions follow the standard [solution validation](/handbook/product/ux/ux-r
 * It can beneficial to simulate the AI system's output in testing early to inform engineering efforts.
 * AI systems can produce inaccurate or unpredictable output. It's important to collect user feedback about AI errors, trust, and risk.
 
-See [guidelines for AI solution validation](/handbook/product/ux/ux-research/research-in-the-ai-space/#guideline-2-pre-solution-validation---collect-user-feedback-on-your-idea-before-building-anything) for more information.
+See [guidelines for AI solution validation](/handbook/product/ux/ux-research/research-in-the-ai-space/#guideline-2-pre-solution-validation---collect-user-feedback-on-your-idea-before-building-anything) and [AI Usability Metric](/handbook/product/ux/ux-research/research-in-the-ai-space/#ai-usability-metric) for more information.
 
 ### Build: Improve
 
@@ -41,7 +41,7 @@ See [guidelines for AI solution validation](/handbook/product/ux/ux-research/res
 
 It's also important to include AI response accuracy in your success metrics. AI-powered features can generate a response or output that is incorrect, irrelevant, or harmful. The risk of an incorrect response depends on the feature. It's important to test the AI system's responses as part of a formative evaluation. For example, you can have one or more expert evaluators (internal or external) test different scenarios to assess the AI responses.
 
-### Evaluating AI Output and Usability Quality
+### Evaluating the Quality of AI Output
 
 While GitLab does not directly control the models we use from our AI Vendors, the output of these models can be influenced by various techniques we do control (prompt engineering, RAG, context enrichment, etc). End users do not care how this works, so the quality of output is directly perceived as quality of the feature. For that reason we've provided the following guidelines to help teams navigate output quality confidence and risk.
 
@@ -65,7 +65,7 @@ Note: For Duo Enterprise, the [Definition of Done](https://gitlab.com/gitlab-org
 
 #### High Confidence & Low Risk
 
-When an AI-powered feature has high confidence in the output quality and low risk of producing harmful or incorrect results, the feature can rely primarily on the standard [feature maturity](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) definitions. In this case an evaluation dataset is not required, however the feature should have basic guardrails like unit tests and can rely mainly on the existing AI Framework and AI Gateway.
+When an AI-powered feature has high confidence in the output quality and low risk of producing harmful or incorrect results, the feature can rely primarily on the standard [feature maturity](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) definitions. In this case an evaluation dataset is not required, however the feature should have basic guardrails like unit tests and can rely mainly on the existing AI Framework and AI Gateway.
 
 Consider running a UX Bash with at least 10 external users validating the quality of the output. We have a framework for how to run them to evaluate output quality.
 

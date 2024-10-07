@@ -18,7 +18,7 @@ title: "End User Services"
 
 - For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
-- For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+- For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 #### Baseline & Role-Based Entitlements
 
@@ -48,7 +48,7 @@ To view laptop delivery metrics and statistic please visit the [Laptop Metrics H
 
 #### GitLab Onboarding and machine management
 
-Please visit the GitLab Onboarding and machine management [handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/)
+Please visit the GitLab Onboarding and machine management [handbook page](/handbook/it/end-user-services/onboarding-access-requests/)
 
 #### GitLab Laptop Offboarding
 
@@ -56,7 +56,7 @@ Please visit the GitLab Laptop Offboarding page for information pertaining to th
 
 #### Self-help and troubleshooting
 
-Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](/handbook/business-technology/end-user-services/self-help-troubleshooting/)
+Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](https://internal.gitlab.com/handbook/it/end-user-services/self-help-troubleshooting/)
 
 #### GitLab IT 101
 

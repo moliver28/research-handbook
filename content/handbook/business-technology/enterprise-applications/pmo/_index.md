@@ -29,7 +29,7 @@ The IT portfolio planning & prioritization process has 6 steps:
 
 ### IT Portfolio of Projects
 
-The inventory of all committed and planned projects for the quarter in IT Operations and Enterprise Applications. The [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT planned initiatives. All projects on the IT Portfolio have a Team & Corporate Stack Ranke to align with the overall [global optimization](https://about.gitlab.com/handbook/values/#global-optimization).
+The inventory of all committed and planned projects for the quarter in IT Operations and Enterprise Applications. The [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT planned initiatives. All projects on the IT Portfolio have a Team & Corporate Stack Ranke to align with the overall [global optimization](/handbook/values/#global-optimization).
 
 ### IT Project Prioritization
 
@@ -178,7 +178,7 @@ To better organize and manage their work, the IT teams have different label cate
 
 ## Compliance Documentation
 
-The IT PMO team supports project stakeholders in gathering all the essential information required for SOX (Sarbanes-Oxley Act) and compliance purposes throughout the project's lifecycle. We have developed multiple templates following the [guidelines](/handbook/business-technology/pmo/pmo-governance/#clear-documentation-for-compliance) provided by the [IT Compliance team](https://about.gitlab.com/handbook/business-technology/it-compliance/). These templates aid in creating comprehensive and well-structured documentation, facilitating the gathering of essential information.
+The IT PMO team supports project stakeholders in gathering all the essential information required for SOX (Sarbanes-Oxley Act) and compliance purposes throughout the project's lifecycle. We have developed multiple templates following the [guidelines](/handbook/business-technology/pmo/pmo-governance/#clear-documentation-for-compliance) provided by the [IT Compliance team](/handbook/business-technology/it-compliance/). These templates aid in creating comprehensive and well-structured documentation, facilitating the gathering of essential information.
 
 The IT PMO team collaborates with project stakeholders to create these documents and ensures that all necessary approvals are captured within them.
 

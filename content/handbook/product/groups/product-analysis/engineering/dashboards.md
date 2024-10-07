@@ -19,7 +19,7 @@ This page is populated from the following filterable views.
 - [Open Bug Age Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard)
 - [S1 OCBA Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/InfrastructureKPIs/S1OpenCustomerBugAge)
 - [S2 OCBA Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/InfrastructureKPIs/S2OpenCustomerBugAge)
-- [Security Embedded Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard)
+- [Security Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard)
 
 #### Filtering your data
 
@@ -86,5 +86,4 @@ Simply copy and paste this code into your page. It will save your selected filte
 
 ### Security Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/AppSecDashboards_17060230337410/AppSec-ApplicationandContainerVulnerabilityDashboard" >}}
-{{< /tableau >}}
+https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard

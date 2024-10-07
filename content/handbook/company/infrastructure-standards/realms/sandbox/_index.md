@@ -12,7 +12,7 @@ description: "This handbook section defines the latest iteration of infrastructu
 #### Documentation
 
 - [Global infrastructure standards](/handbook/infrastructure-standards/)
-- [Global labels and tags](/handbook/infrastructure-standards/labels-tags/)
+- [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Infrastructure policies](/handbook/infrastructure-standards/policies/)
 
 #### Issue Tracking and Collaboration
@@ -211,7 +211,7 @@ Over the years, our non-production infrastructure resources have grown organical
 
 ### Recent iterations
 
-[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
+[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/company/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/company/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/company/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
 
 ### Current iteration
 

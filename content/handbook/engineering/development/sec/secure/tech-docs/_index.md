@@ -37,7 +37,7 @@ The Analyzers are mainly written in Go and rely on our [Common Go library](https
 
 Some 3rd party integrators also make additional Scanners available by following our [integration documentation](https://docs.gitlab.com/ee/development/integrations/secure), which leverages the same architecture.
 
-The results of the scans are exported as JSON reports that must follow [Secure Report Format](https://docs.gitlab.com/ee/user/application_security/terminology/#secure-report-format) and are uploaded as [CI Job Report Artifacts](https://docs.gitlab.com/ee/ci/pipelines/job_artifacts.html#artifactsreports) to make them available for processing after the pipelines completes.
+The results of the scans are exported as JSON reports that must follow [Secure Report Format](https://docs.gitlab.com/ee/user/application_security/terminology/#secure-report-format) and are uploaded as [CI Job Report Artifacts](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html#artifactsreports) to make them available for processing after the pipelines completes.
 
 This part is mainly covered by the following groups:
 

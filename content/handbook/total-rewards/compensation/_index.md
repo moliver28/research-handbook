@@ -137,7 +137,7 @@ For team members on a base salary compensation plan, your bonus will be an addit
 
 - `(Annual Base Salary in Local Currency/365) x .10 (10%) x # of Calendar Days in the Interim Role`
 
-For team members on an OTE (On Target Earnings) compensation plan in Go-to-Market roles, interim compensation will be based on results achieved by the interim team in the interim period:
+For team members on an OTE (On Target Earnings) compensation plan in Go-to-Market roles, interim compensation will generally be based on results achieved by the interim team in the interim period:
 
 - Interim leaders will dotted-line manage the new team, meaning they will not assume direct management of the team in Workday, but will instead act as a temporary leader. As such, quotas will not change during the interim period.
 - When interim managing a lateral team:
@@ -146,6 +146,7 @@ For team members on an OTE (On Target Earnings) compensation plan in Go-to-Marke
   - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate) for the higher leadership position
 - Standard commissions payments will continue for the duration of the interim role
 - All in-plan (within OTI) components are eligible to be included in an interim bonus calculation for a GTM role, e.g. Net ARR, New Logo, Professional Services Bookings, etc.
+- For teams measured on pooled compensation plans (e.g. SAs and CSMs), interim bonuses will be based on OTE for the interim role while in seat instead of performance: (Annual OTE in local currency/365) / x .10 (10%) x # of Calendar Days in the Interim Role
 - All people managers in GTM roles are candidates for interim management assignments, outside of members of the CRO or CMO leadership teams, i.e. direct reports of the CRO or CMO
 - Total bonus payments for GTM team members in an interim management role shall not exceed $50,000 USD for a single interim leadership assignment
 
@@ -328,7 +329,7 @@ The Compensation Leadership Development Committee approves all bonus payouts for
 
 ## Compensation Data Analysis and Modeling Sheet
 
-This is an internal process for the Total Rewards team which details how to refresh the Compensation Data Analysis and Modeling sheet which is used for processes such as calculating [percent outside of compensation band](/handbook/people-group/people-group-metrics/#percent-over-compensation-band).
+This is an internal process for the Total Rewards team which details how to refresh the Compensation Data Analysis and Modeling sheet which is used for processes such as calculating [percent outside of compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band).
 
 To update:
 

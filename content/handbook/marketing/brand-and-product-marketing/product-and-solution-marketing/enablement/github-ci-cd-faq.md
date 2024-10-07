@@ -95,7 +95,7 @@ Promotionally, we will make the GitLab CI/CD feature available as part of the Fr
 
 A customer only needs 1 service account on GitLab to run pipelines for GitHub code, but will benefit from having more user accounts.
 
-#### What are the pro/cons for the business if they create one service account and use it to run their pipelines?
+#### What are the pro/cons for the business if they create one service account for their pipelines?
 
 Pro:
 

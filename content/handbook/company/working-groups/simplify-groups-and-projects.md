@@ -26,7 +26,7 @@ description: "Learn about GitLab Simplify Groups & Projects Working Group busine
 ## Business Goal
 
 - Instead of [this complex organizational model](https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit#bookmark=id.hylkd0o73zah), users can structure GitLab like [this simplified organizational model](https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit#bookmark=id.xb4l42hcom2b) without having to duplicate base functionality (Issues, Wikis, Epics, etc.) between Groups and Projects.
-- Increase Stages Per Active Namespace / [Stages Per User](/handbook/product/performance-indicators/).
+- Increase Stages Per Active Namespace / [Stages Per User](https://internal.gitlab.com/handbook/company/performance-indicators/product/).
 - Improve NPS/SUS scores around usability and performance.
 
 ### Exit Criteria

@@ -74,8 +74,6 @@ flowchart LR
     click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SS --> DD[Distribution::Deploy]
     click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SS --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/"
 
     C --> DS[Data Stores Stage]
     click DS "/handbook/engineering/infrastructure/core-platform/data_stores/"
@@ -85,6 +83,8 @@ flowchart LR
     click Database "/handbook/engineering/infrastructure/core-platform/data_stores/database/"
     DS --> GS[Global Search]
     click GS "/handbook/engineering/infrastructure/core-platform/data_stores/search/"
+    DS --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
 
     SP --> DE[Delivery]
     click DE "/handbook/engineering/infrastructure/team/delivery/"

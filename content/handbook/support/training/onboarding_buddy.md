@@ -40,7 +40,7 @@ Note that everyone's needs are different, so consider the following as a list of
 - Talk about how to use tools like Slack, Navan, etc.
 - Show them some helpful Slack channels
 - Which Slack channels to keep track of daily
-- Which Google docs to keep track of (SWIR, etc.)
+- Explain the SWIR and options for staying informed, like [digest issues](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues/?sort=created_date&state=all&label_name%5B%5D=SWIR%3A%3ADigest&first_page_size=50) (and [label subscriptions](https://docs.gitlab.com/ee/user/project/labels.html#receive-notifications-when-a-label-is-used) for a "newsletter experience"), the [#spt_swir](https://gitlab.enterprise.slack.com/archives/C05VDJX6KSR) Slack channel, or the [audio edition](https://drive.google.com/drive/u/0/folders/1qkKVAHg-kvtDrxWYmegNwmxc1MwuUn4D)
 - Show them some helpful handbook pages to read during onboarding
 - Show them the GitLab [architecture diagrams](/handbook/customer-success/professional-services-engineering/workflows/artifacts/arch-diagram.html)
 - Show them some product or [support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta) issues and clarify that they can contribute to anything

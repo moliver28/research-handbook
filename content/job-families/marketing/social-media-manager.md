@@ -43,7 +43,7 @@ Be comfortable or willing to get comfortable with communication with team member
 
 #### 👣 Iteration
 
-Don't wait to contribute. Just make a change today. Make progress for our work in minimum viable changes consistently. Remember that all of our work is in draft. We don't do big reveals at GitLab, so be ready to share your rough drafts with everyone throughout the process (This is scary for social media managers, but our team is prepared to help you grow into this practice.)
+Don't wait to contribute. Just make a change today. Make progress for our work in minimal valuable changes consistently. Remember that all of our work is in draft. We don't do big reveals at GitLab, so be ready to share your rough drafts with everyone throughout the process (This is scary for social media managers, but our team is prepared to help you grow into this practice.)
 
 #### 👁️ Transparency
 
