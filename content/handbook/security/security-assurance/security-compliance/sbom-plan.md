@@ -1,5 +1,7 @@
 ---
 title: "Software-Bill-of-Materials (SBOM) Maturity Model and Implementation Plan"
+aliases:
+  - /handbook/security/security-assurance/dedicated-compliance/sbom-plan/
 ---
 
 ## Purpose
