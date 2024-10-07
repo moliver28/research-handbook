@@ -101,22 +101,25 @@ To support this, the following is required:
 
 ### Organization migration
 
-Organization moves will be automated by using the [Elasticsearch Reindex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) to move all indexed data for an organziation to the new cell's Elasticsearch cluster. 
+There are multiple ways to approach organization migration and each comes with a set of trade-offs
+
+#### Use Elasticsearch APIs to move data
+
+Organization migration could be automated with the [Elasticsearch Reindex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) to move all indexed data for an organziation to the new cell's Elasticsearch cluster. The API supports moving data between two different clusters (or hosts).
 
 To support this, the following is required:
 
-* The indexing paused framework must be modified to allow [pausing indexing at the organization level](https://gitlab.com/gitlab-org/gitlab/-/issues/469502). This allows indexing operations for the instance to continue when organization(s) are migrated between cells.
+* The indexing paused framework must be modified to ensure that all queued indexing requests are completed once an organization is put into "maintenance mode". This is needed to ensure all indexed data is up to date before the migration.
 
 Proposed workflow:
 
 ```mermaid
 flowchart TD
     A[Organization scheduled for migration] -->B
-    B(Pause indexing for the organization) -->C
-    C(Move all queued indexing requests for the organization to a new queue) -->D
-    D(Complete all queued indexing requests for the organization) -->E
-    E(Enqueue a worker to reindex all organization data from source cell to destination) -->|1-3 days in future|F
-    F(Cleanup organization data from source cell)
+    B(Organization put into maintenance mode) -->C
+    C(Complete all queued indexing requests for the organization) -->D
+    D(Enqueue a worker to reindex all organization data from source cell Elasticsearch cluster to destination cell Elasticsearch cluster) -->|1-3 days in future|E
+    E(Cleanup organization data from source cell)
 ```
 
 #### Pros
@@ -128,6 +131,23 @@ flowchart TD
 
 1. Requires Elasticsearch as the search cluster.
 1. Database ID values must remain consistent between cells. Cluster wide unique database sequences are [planned for Cells](../decisions/008_database_sequences.md).
+
+#### Use existing indexing framework
+
+Organization migration could be automated by using the existing indexing framework. Once an organization is put into maintenance mode and all PostgreSQL and gitaly data has been moved, the organization can be queued for indexing in the destination cell.
+
+To support this:
+
+#### Pros
+
+1. Cells can use any search cluster type and version.
+1. Existing framework is well tested and understood by team members.
+
+#### Cons
+
+1. Indexing may take too long for organizations. We need to benchmark different organization sizes.
+1. There are no indicators when indexing is complete for database records. Organizations will have missing search results until indexing is complete.
+1. Additional load on GitLab instance including Sidekiq, Gitaly, and PostgreSQL. Other Sidekiq jobs in the cell will impact indexing completion.
 
 ## 4. Evaluation
 
