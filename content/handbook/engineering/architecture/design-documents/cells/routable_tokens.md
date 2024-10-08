@@ -146,12 +146,17 @@ particular meaning. The following fields are always required:
 - `o`: Organization ID
 - `r`: Random bytes to increase the token entropy
 
-The following fields are optional, depending on each specific tokens:
+The following fields are optional. Each specific tokens can include them if needed:
 
 - `c`: Cell ID
 - `g`: Group ID
 - `p`: Project ID
 - `u`: User ID
+
+It's recommended that for tracing and observing purpose, we can include the
+most important information for the specific token. For example, for a user
+token, we also include user id. For a project token, we also include the
+project id.
 
 ### Adding Classify to Topology Service
 
