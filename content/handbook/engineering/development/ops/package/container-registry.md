@@ -102,4 +102,4 @@ Below is a list of projects and initiatives that we are currently working on, al
 
 ## Documentation
 
-Project documentation is available [here](/product/container-registry/).
+Project documentation is available [here](https://docs.gitlab.com/ee/user/packages/container_registry/).
