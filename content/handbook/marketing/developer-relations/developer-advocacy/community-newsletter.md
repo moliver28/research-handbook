@@ -32,7 +32,6 @@ The Community Newsletter is scheduled to send on last Thursday of each month at 
 
 We would love to hear from you! To submit to the newsletter, please search for an active Newsletter Issue with the [label `Da-Type-Content::newsletter`](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues?label_name[]=DA-Type-Content%3A%3Anewsletter) and share your submission in a comment.
 
-
 #### Archive
 
 The newsletter was started in 2022 and has been on two different closed platforms (Mailjet, Marketo) since. As a result, we don't have archives available for all of them.
