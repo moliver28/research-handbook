@@ -91,7 +91,7 @@ Hence, the working group decided to address these concerns in multiple phases.
 </tr>
 </table>
 
-Refer to [Upgrade Improvements project plan](https://docs.google.com/document/d/1FbZP2bCi25efAxUZQX21NIu_gcMv7jHoR8gEny9BSVI/edit) (Internal only) and the project [Epic](https://gitlab.com/groups/gitlab-org/-/epics/10949 "GitLab self-managed upgrade improvements") for more details.
+Refer to [Upgrade Improvements project plan](https://docs.google.com/document/d/1FbZP2bCi25efAxUZQX21NIu_gcMv7jHoR8gEny9BSVI/edit) (Internal only) and the project [Epic](https://gitlab.com/groups/gitlab-org/-/epics/10949) for more details.
 
 ### Exit Criteria
 
@@ -133,11 +133,13 @@ The north star of this working group is increasing the number of self-managed Gi
 | Executive Stakeholder | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) | Chief technology officer (CTO) |
 | Facilitator | [Peter Lu](https://gitlab.com/plu8) | Engineering Manager, Distribution::Deploy |
 | Functional Lead - Product & Distribution | [Dilan Orrino](https://gitlab.com/dorrino) | Senior Product Manager Distribution |
-| Functional Lead - Database | TBD |  |
+| Functional Lead - Database | [Nick Nguyen](https://gitlab.com/nhxnguyen) | Senior Engineering Manager, Data Stores  |
 | Functional Lead - Test Platform | [Kassandra Svoboda](https://gitlab.com/ksvoboda) | Engineering Manager, Test Platform |
 | Functional Lead - Support | [Brie Carranza](https://gitlab.com/bcarranza) | Staff Support Engineer |
 | Functional Lead - Backup | [Lucie Zhao](https://gitlab.com/luciezhao) | Engineering Manager, Geo |
-| Functional Lead - Development | TBD |  |
+| Functional Lead - Expansion Software Development |  [Thomas Woodham](https://gitlab.com/twoodham) | Senior Engineering Manager, Secure |
+| Functional Lead - Core Development |  [Luke Duncalfe](https://gitlab.com/.luke) | Staff Backend Engineer, Manage:Import and Integrate |
+| Functional Lead - Core Development |  [Erran Carey](https://gitlab.com/erran) | Staff Fullstack Engineer, Create |
 | Member | [Mek Stittri](https://gitlab.com/meks) | VP, Technical Infrastructure |
 | Member | [Chun Du](https://gitlab.com/cdu1) | Director, Core Platform |
 | Member | [Joshua Lambert](https://gitlab.com/joshlambert) | Director, Product Management |
