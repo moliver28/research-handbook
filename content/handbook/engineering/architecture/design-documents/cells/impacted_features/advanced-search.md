@@ -90,7 +90,7 @@ All index maintenance tasks will be initially be completed using the [Advanced s
 
 1. Shard resize will review and adjust each index
 1. Cleanup any migrations from the migrations index that do not exist in codebase
-1. Enable slowlog if an ops feature flag (or applicaition setting) is enabled
+1. Enable slowlog if an ops feature flag (or application setting) is enabled
 
 All infrastructure maintenance must be automated. We may consider using the migration framework, but other methods should be evaluated. 
 
