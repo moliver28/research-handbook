@@ -12,7 +12,7 @@ description: "The Customer Success Management team at GitLab is a part of the Cu
 
 ## Mission Statement
 
-Accelerate customer success by aligning passionate CSMs with customers to:
+Accelerate customer success by sdfsdfdsfaligning passionate CSMs with customers to:
 
 - Drive adoption aligned with business outcomes
 - Enable customers in current and future GitLab use cases
