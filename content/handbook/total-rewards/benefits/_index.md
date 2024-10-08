@@ -9,7 +9,7 @@ description: Find answers to your questions about GitLab's benefits.
 - [Modern Health]({{< ref "modern-health" >}})
 - [Global Benefits Survey]({{< ref "benefits-survey" >}})
 - [Resources for COVID-19]({{< ref "covid-19" >}})
-- [Parental Leave and Return Tool Kit for GitLab Managers and Team Members]({{< ref "parental-leave-toolkit" >}}å)
+- [Parental Leave and Return Tool Kit for GitLab Managers and Team Members]({{< ref "parental-leave-toolkit" >}})
 
 ## Introduction
 
