@@ -21,9 +21,7 @@ This means that only members of the Federal AppSec team are eligible to perform 
 Note that *any* member of the Application Security team may review and approve a JiHu contribution,
 but only Federal AppSec team members can certify the release.
 
-Members of the Federal AppSec team will use the
-[AppSec Rotation spreadsheet](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit#gid=0)
-to sign up to be responsible for certifying monthly releases. These assignments will also need to be reflected on the
+Members of the Federal AppSec team are responsible for certifying monthly releases. Their assignment is [managed by automation](/handbook/security/product-security/application-security/runbooks/triage-rotation.html). These assignments will also need to be reflected on the
 [Release Managers page](https://about.gitlab.com/community/release-managers/), under the AppSec Release Certification column.
 
 ### Certification process
