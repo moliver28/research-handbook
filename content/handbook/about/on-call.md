@@ -41,7 +41,6 @@ Additionally, any GitLab team member can volunteer to join the [#handbook-escala
 | `@Marcin SJ` | Central European (UTC+1/+2) |
 | `@arpit` | India Time (UTC+5:30) |
 | `@jaime` | Australia Eastern Time (UTC+10/11) |
-| `@charlie` | New Zealand (UTC+12/13) |
 
 ### Expectations for the group
 
