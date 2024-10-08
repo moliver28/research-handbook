@@ -16,4 +16,4 @@ job: "IT Compliance Associate"
 ### Communication
 
 - Slack
-- Email						
+- Email
