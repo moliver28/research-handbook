@@ -56,6 +56,41 @@ Additionally, we maintain a list of active projects and the assigned DRI on this
 
 Authors of merge requests related to a specific project should request a review from the assigned DRI or backup DRI to ensure they are aware of the changes and can provide the necessary oversight.
 
+### Alert management
+
+The team is responsible for monitoring the Slack channel [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) where alerts are displayed for the registry service and code base (broken master). Alerts are configured in
+the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/registry) and they follow the infrastructure team
+process to define them.
+
+#### Processs for handling alerts
+
+The team has agreed on the following process to handle alerts:
+
+1. There is no person formally on-call (unless otherwise agreed during certain periods, e.g. end of year holidays).
+1. Everyone is responsible for keeping an eye on [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) during their working hours.
+1. When there is an alert(s):
+   1. Add an 👀 emoji to the alert to signal it is being looked at.
+   1. Click on an alert for details. Each alert may contain the following:
+      - Runbook - how to deal with the alert.
+      - Dashboard - link to Grafana that chart related to the metric that triggered the alert.
+      - Pipeline that failed - broken `master`.
+      - Sentry issue - contains stacktrace to alert origin.
+   1. Review logs:
+      - [non-prod logs](https://nonprod-log.gitlab.net/goto/f3fbccdb9dea6805ff5bbf1e0144a04e)
+      - [prod logs](https://log.gprd.gitlab.net/goto/7dc6f73d5dd4cc4bebcd4af3b767cae4)
+   1. Determine if it's safe to ignore:
+      - There is an existing issue for this alert. If so, add an occurrence of this problem in the issue.
+      - The logs/dashboards show that the issue seems to be resolved. For example, when the Pending Tasks metric for the online garbage collector is going down after a sudden peak and there are no errors in the logs.
+      - The alert has been automaticlaly resolved.
+      - Open an issue if this requires attention in the future.
+   1. Otherwise:
+      - Review the [#production](https://gitlab.enterprise.slack.com/archives/C101F3796) channel and the [#incident-management](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1) channel for existing incidents that may be related.
+      - If there is an ongoing incident, consider helping or reaching out to the team for assitance.
+      - Otherwise, consider [reporting an incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+      - Share details in the [#g_container-registry](https://gitlab.enterprise.slack.com/archives/CRD4A8HG8) channel to raise awereness.
+      - Ping people as needed.
+   1. Add a comment as a thread to the alert that you reviewed.
+
 ## 📈 Measuring results
 
 ### OKRs
