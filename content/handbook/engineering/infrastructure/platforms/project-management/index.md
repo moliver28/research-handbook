@@ -53,7 +53,6 @@ Epics must always have the following sections:
 - Directly responsible individuals (DRI) responsible for the project completion
 - Defined exit criteria
 - Issue admin section to provide the issue priority, labels and epic for quick actions
-- Development Log, containing the previous Status Updates and any other relevant information to log
 - Status Update, with the latest status update of the Epic
 - Start date and estimated due date
 
@@ -68,18 +67,41 @@ Use the following headings and structure in the Epic description:
 This section is dynamic and includes people who are currently contributing to the Epic work.
 The DRI and the EM are responsible for updating the list of participants accordingly.
 
-```markdown
-### Participants
-
-- @participant1
-- @participant2
-- @participantN
-```
-
 #### Status Section
 
 The status section is generated automatically on sub-epics.
 See the section on [status updates on project epics](#status-updates-on-project-epics) for more info.
+
+#### Epic Template
+
+<details><summary>Epic Template</summary>
+
+```markdown
+## Participants
+- @participantN
+
+## OKR (optional)
+
+## Problem Statement
+
+## Goals
+
+## Dependencies and Stakeholders
+
+These teams should be consulted for this project:
+
+These teams should be informed about this project:
+
+## Exit Criteria
+
+
+<!-- STATUS NOTE START -->
+
+<!-- STATUS NOTE END -->
+
+/labels ~"group::$GROUP_NAME"  ~"workflow-infra::Triage"
+```
+</details>
 
 ### Should this be an issue or an epic?
 
