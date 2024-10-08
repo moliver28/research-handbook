@@ -8,7 +8,11 @@ At GitLab, we believe everyone can contribute. In that spirit, members of the UX
 
 We engage, support, and recognize students during the capstone design experience. As an industry sponsor, GitLab works with the students to solve an existing problem that is relevant to both Tufts and our organization.
 
-If you are an Individual Contributor (IC) looking to level up your leadership skills and support the design community, this is a great opportunity to share your knowledge, learn from each other, and coach the students during the capstone project.
+The Tufts Capstone is a great opportunity for GitLab Team Members looking to share their knowledge and learn from each other. Some of the benefits include: 
+
+- Improve your mentoring and coaching skills by working with students who are new to GitLab
+- Improve your communication skills, specifically around the concepts we work with every day using clear language that simplifies complexity
+- Get more experience with public presence by supporting the design and research community.
 
 ## Capstone course overview
 
@@ -30,11 +34,13 @@ Reach out to `@gdoyle` on Slack if you have questions or want help brainstorming
 
 ## Sponsor requirements
 
-- 1-5 UX volunteers are ideal. **At least** 1 Product Designer and 1 UX Researcher.
+- 1-5 volunteers from GitLab. **At least** 1 Product Designer and 1 UX Researcher are needed.
 - [Prepare at least three project descriptions](#project-proposals) for students to take on. The head instructors, Linda & Nick, will help you select one of those for the students to pick from.
+- Communicate with the Product team DRIs (Product Manager, Product Designer, UX Researcher) that owns the feature area for each project proposal.
 - Be dedicated to working with the student team to make sure they have access to the necessary resources (for example, Dovetail) and people (for example, experts or participants to interview). Work with your manager to give students the appropriate access to GitLab tools and projects.
 - Be in contact with the students on a weekly basis (~30 min/week check-ins), for reviews and guidance on the problem they are solving.
-- Collaborate with Legal to have the students sign an [NDA to follow the guidelines of our SAFE framework](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2178#note_1254767831). It would be best to work with `@igorman` to create the NDA in a confidential issue or Slack. **Once the students select a project in January**, you'll need to share the *project start date* and the *student's emails* in order for the NDA to be officially issued. Send the NDA to the professors Linda and Nick.
+- Hold stakeholder review sessions for larger deliverables, such as the discovery research proposal. These meetings should _at least_ include the Product Manager, Product Designer, and UX Researcher of the product area the project focuses on. These can take place in favor of a weekly sync or at a separate time depending on the team's preference.
+- Collaborate with Legal to have the students sign an [NDA to follow the guidelines of our SAFE framework](https://drive.google.com/file/d/1nvSBG_rA1_bEN0z8kTyQ30uIks_HhNL9/view?usp=drive_link) (:lock: internal only). Once the students select a project in January, it would be best to connect with `@ktesh` with the project start and end date, a short description of the project topic, and all of the students' emails in order for the NDA to be officially issued.
 
 ## Project proposals
 
@@ -66,14 +72,32 @@ Interview developers to understand how they are interacting with runners today a
 Various [personas](/handbook/product/personas/) make use of our project-level analytics page for a number of different jobs. This can help organizations evaluate how they are doing throughout the [product development workflow](/handbook/product-development-flow/). After implementing these analytics pages, it is difficult to know how useful these are to users and where they use them within their workflows. Are they placed in the most ideal locations for users to efficiently complete their jobs? You will use [UX heuristics](/handbook/product/ux/heuristics) and our [catalog of existing research](/handbook/product/ux/dovetail/) to determine what these pages do well and what they don't. You'll also be redesigning the pages to make use of [Pajamas standards](https://design.gitlab.com/) and validating that these new solutions positively impacts the [jobs to be done (JTBD)](/handbook/product/ux/jobs-to-be-done) for these pages with real GitLab users. Make sure to work with your team to scope this down so you have enough time to complete this project! For example, focus solely on improving the [repository analytics page](https://gitlab.com/gitlab-org/gitlab/-/issues/352074).
 {{% /details %}}
 
+{{% details summary="Do GitLab users understand where to find specific information they need on docs.gitlab.com?" %}}
+The GitLab documentation site contains a large and growing amount of content. Findability of specific content has been a problem for users. Recognition and understanding of the different sections of content on the docs site is important for users to be able to find what they’re looking for.
+
+- Do GitLab users understand where to find specific information they need on docs.gitlab.com?
+- Do GitLab users understand what types of content might be in each section or "bucket"?
+- Do the section names (buckets) meet user expectations?
+- If users do not understand the buckets, what are some improvements to increase comprehension?
+
+{{% /details %}}
+
+{{% details summary="Using Continuous Integration (CI) when pushing changes" %}}
+CI has become a regular practice for companies around the world since it allows them to develop software easier, faster, and with less risk. Automating builds and tests allows developers to commit smaller changes with higher confidence and get feedback on their code sooner. GitLab's CI features were designed years ago, and given the siloed nature of how GitLab team members work internally, there hasn't been a moment to step back and evaluate the experience of CI and merging code as a whole. In this project, you'll evaluate the current experience, including documentation, and speak with real developers who use GitLab to understand their pains when developing/merging code with CI enabled. You'll use the insights you find to make improvements using the Pajamas design system in Figma and test them with real users.
+{{% /details %}}
+
 ## Best practices as a sponsor
 
-- Create a designated public project in the [Tufts University Group](https://gitlab.com/tufts-university) to track the Capstone project progress. Encourage students to create GitLab accounts with their school emails and invite them as `owners` to the project. This can help them get familiar with how GitLab works and the problem they'll be solving. This can also be the place where they access resources or materials they need to complete the project. Check out [this project](https://gitlab.com/tufts-university/tufts-university-capstone) for inspiration.
+- Create a designated subgroup and public project in the [Tufts University Group](https://gitlab.com/tufts-university) to track the Capstone project progress. Encourage students to create GitLab accounts with their school emails and invite them as `owners` to the project. This can help them get familiar with how GitLab works and the problem they'll be solving. This can also be the place where they access resources or materials they need to complete the project. Check out [this project](https://gitlab.com/tufts-university/tufts-university-capstone) for inspiration.
 - Use issues in the project to track sponsor-assigned tasks, such as project prep and reviewing student deliverables.
 - Write up a summary of the problem and link any resources that would be helpful for the students to look at to gain a better understanding of the concepts they'll be learning. Check out [this markdown file](https://gitlab.com/tufts-university/tufts-university-capstone/-/blob/main/resources.mde) for inspiration.
 - Create a Slack channel for daily communication with the students. Follow the [Slack access request guidelines](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) to include external users in a Slack channel. You can also use [this access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/20173) as a reference.
 - Create an agenda document for weekly check-ins so that the students know what to expect. Check out [this agenda](https://docs.google.com/document/d/1vz6VfQZm6awRlu9p5GCZHxGbU_rbK1vMx1C_eFZJKyc/edit?usp=sharing) for inspiration.
 - Record weekly check-ins and add them to the [Tufts Capstone Project playlist](https://www.youtube.com/watch?v=ykRgoFRjNkE&list=PL05JrBw4t0KoZr3rjOL2xv5c66_C526nE) on Unfiltered. This playlist is private as some recordings will contain confidential information, such as reviews of confidential research or competitors.
-- In one of the first meetings with the students, ask them what skills they are hoping to get out of the project. There are opportunities during the weekly check-ins to focus on those skills and teach the students how they are used in real-world scenarios. An example of this is explaining how to use design systems in Figma, including how to get the library in Figma, adding and editing components, and even making contributions to the Figma kit itself.
-- If the students and professors are interested, they can present their final presentation at one of our UX weekly meetings. Be sure to get UX input in the `#ux` channel on this before doing so!
-- Share a write-up of the students' results in the [GitLab UX Research project](https://gitlab.com/gitlab-org/ux-research). Check out [this summary](https://gitlab.com/gitlab-org/ux-research/-/issues/2500) for inspiration.
+- During the first meetings with the students, ask them what skills they are hoping to get out of the project. There are opportunities during the weekly check-ins to focus on those skills and teach the students how they are used in real-world scenarios. An example of this is explaining how to use design systems in Figma, including how to get the library in Figma, adding and editing components, and even making contributions to the Figma kit itself. Previous topics that students have asked about are listed in threads on [this issue](https://gitlab.com/tufts-university/2024/tufts-university-capstone-2023-2024/-/issues/1) along with supporting materials.
+- Hold stakeholder review sessions for larger deliverables with the DRIs of the product area that the project focuses on. These should help the stakeholders provide feedback to students with the context they need.
+- If the students and professors are interested, they can present their final presentation in a GitLab-held Zoom meeting. Be sure to:
+  - include the Product Department as attendees.
+  - Add the event to the GitLab team meetings calendar by following [these steps](/handbook/tools-and-tips/#adding-an-event-to-the-gitlab-team-meetings-calendar).
+  - Post in `#whats-happening-at-gitlab` for extra transparency.
+- Share a write-up of the students' results in the [GitLab UX Research project](https://gitlab.com/gitlab-org/ux-research) and the [gitLab-org/gitlab project](https://gitlab.com/gitlab-org/gitlab/). Check out [this research summary](https://gitlab.com/gitlab-org/ux-research/-/issues/2909) and [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/465571) for inspiration.
