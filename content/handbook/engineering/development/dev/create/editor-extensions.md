@@ -42,6 +42,14 @@ Additionally to our main team's slack channels, each extension/project we work o
   - JetBrains extension: [#f_jetbrains_plugin](https://gitlab.slack.com/archives/C02UY9XKABH)
   - Neovim extension: [#f_neovim_plugin](https://gitlab.slack.com/archives/C05BF7L6PEX)
 
+## Cross-group ownership and boundaries
+
+Given the nature of the codebases we maintain in our group, it's quite common to have other teams contribute fully-fledged apps to deploy through our Editor Extensions and language server.
+
+In an effort to provide clarity and a clear expectation between all parties, we have produced guidance for other teams collaborating in the authoring of code in our projects.
+
+Please consult the [Ownership and Boundaries](/handbook/engineering/development/dev/create/editor-extensions/ownership/) page for more information.
+
 ## Group processes
 
 Our group processes are documented in this section.
