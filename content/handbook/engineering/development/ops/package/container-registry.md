@@ -86,7 +86,7 @@ We measure the value we contribute by using [performance indicator metrics](http
 
 ### What Are We Working On
 
-Here is a list of active projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/):
+Below is a list of projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/).  We work on issues by priority and projects may not have active development in every milestone.  DRI engineers take responsibility for planning and delivery of upcoming work, however, issues can be assigned to any team member.
 
 | Project                                                                                                                | DRI                                   | Backup DRI                          |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- |
@@ -98,6 +98,7 @@ Here is a list of active projects and initiatives that we are currently working 
 | [Database background migrations](https://gitlab.com/groups/gitlab-org/-/epics/13609)                                   | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab jdrpereira >}} |
 | [Release database dependent features for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/12218)    | {{< member-by-gitlab adie.po >}} |  {{< member-by-gitlab hswimelar >}} |
 | [Update user interface](https://gitlab.com/groups/gitlab-org/-/epics/12218)                                            | {{< member-by-gitlab rchanila >}} | {{< member-by-gitlab adie.po >}} |
+| [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   |  |
 
 ## Documentation
 
