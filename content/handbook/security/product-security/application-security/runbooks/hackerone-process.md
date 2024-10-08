@@ -264,6 +264,8 @@ Remediation of this vulnerability happens within the SIRT issue and typically in
 
 We can award GitLab swag to reporters who have submitted a quality report that did not qualify for a monetary reward in our Bug Bounty program. To award swag, please follow the [swag nomination process](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#nomination-process) that is managed by our Developer Relations team.
 
+We can also request to plant trees in the GitLab Forest as a non-monetary rewards, where reporters for various reasons can't accept swag or a monetary award. The amount varies based on the severity, please add a note in the request form based on the [list here](https://gitlab.com/gitlab-com/gl-security/hackerone/administration/-/issues/1#note_2139914536) (Internal link).
+
 ## Managing issues
 
 Discussion and remediation of vulnerabilities can sometimes take longer than we would prefer. Even so, frequent communication with reporters is far better than leaving reporters in the dark, even if our progress is slow. Therefore:
