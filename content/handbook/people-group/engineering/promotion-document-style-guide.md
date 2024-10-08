@@ -28,7 +28,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
    - **Don't**
      - _"brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]."_
    - **Do**
-     - _"created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3]."_
+     - _"created an [architecture blueprint], with a [proof of concept implementation] to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3]."_
    - **Why**: Avoids the need for the reader to investigate each link individually and figure out for themselves what the person's contribution actually was, often from a large issue or discussion.
 1. Focus on ability and impact at the next level.
    - **Don't**:
@@ -41,7 +41,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
      - _"This promotion recognizes [name]'s ability to operate at the next level in their role when required to do so."_
    - **Do**:
      - _"With this promotion, [name] will assume ongoing responsibility for technical architecture, initially accelerating [project 1] as project lead and bringing forward completion of [project 2] and [project 3] by 3 months to the end of Financial Year 2026."_
-   - **Why**: Clearly defining the expected role evolution helps demonstrate the business need for the promotion and how investing in it will contribute to the organization’s goals.
+   - **Why**: Clearly defining the expected role evolution helps demonstrate the business need for the promotion and how investing in it will contribute to the organization's goals.
 
 ## Additional Tips for Clarity and Impact
 
