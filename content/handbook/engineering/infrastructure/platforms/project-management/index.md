@@ -101,6 +101,7 @@ These teams should be informed about this project:
 
 /labels ~"group::$GROUP_NAME"  ~"workflow-infra::Triage"
 ```
+
 </details>
 
 ### Should this be an issue or an epic?
