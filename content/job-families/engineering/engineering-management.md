@@ -58,7 +58,7 @@ The  Senior Manager, Engineering is a [grade 9](/handbook/total-rewards/compensa
 
 ### Principal Engineer
 
-*The Principal Engineer reports to the [Senior Engineering Manager, Development](#senior-manager-development).
+- The Principal Engineer reports to the [Senior Manager, Engineering](#senior-manager-engineering).
 
 #### Principal Engineer Job Grade
 
@@ -99,11 +99,11 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 
 #### Director, Development Responsibilities
 
-- Extends that of the [Senior Engineering Manager](#senior-manager-development) responsibilities
+- Extends that of the [Senior Manager, Engineering](#senior-manager-engineering) responsibilities
 
 #### Director, Development Requirements
 
-- Extends that of the [Senior Engineering Manager](#senior-manager-development) requirements
+- Extends that of the [Senior Manager, Engineering](#senior-manager-engineering) requirements
 - Excellent communication skills
 - Expert hiring manager skills and experience
 - A strong people management philosophy for managers and engineers
