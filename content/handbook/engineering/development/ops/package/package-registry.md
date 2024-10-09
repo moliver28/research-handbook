@@ -122,7 +122,6 @@ Below is a list of projects and initiatives that we are currently working on, al
 | [Package Registry Improvements](https://gitlab.com/groups/gitlab-org/-/epics/6753)                                     | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
 | [Conan Repository](https://gitlab.com/groups/gitlab-org/-/epics/6816) - [Co-creation](/handbook/marketing/developer-relations/cocreate/) | {{< member-by-gitlab dmeshcharakou >}} |  |
 
-
 ## Documentation
 
 Package Registry documentation is available [here](https://docs.gitlab.com/ee/user/packages/package_registry).
