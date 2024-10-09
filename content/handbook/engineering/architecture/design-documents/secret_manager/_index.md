@@ -326,6 +326,12 @@ which aren't glob-aware and which are subject to renaming, we'll use their
 internal integer database identifiers to prevent having to rename the
 underlying mounts.
 
+#### Tenant definition
+
+We assume every project has a parent component: this is either a user, a
+group, or an organization. In the event of legacy groups with `org_id=1`
+we will use the owning group instead.
+
 #### Secrets
 
 We propose the following structure for mounts for user-owned projects:
@@ -766,10 +772,71 @@ handle any requests until this is fixed.
 
 #### High availability
 
-OpenBao's HA mode will already support running in a clustered environment,
-however, each node will need to be manually unsealed (if using Shamir's).
-With Raft, snapshots driven by GitLab can be used for D/R, else with
-Postgres, the core database backup is sufficient.
+GitLab Rails includes [Geo support](https://docs.gitlab.com/ee/administration/geo/)
+for self-hosted clustering, allowing multiple sites to exist, each with its
+own set of nodes. Each site has its own [PostgreSQL replica](https://docs.gitlab.com/ee/administration/geo/#architecture).
+One site is designated primary and nodes in the site are allowed to perform
+write operations to the Postgres database. All PostgreSQL data is available
+on all sites. While Gitaly has selective syncing of repository data, projects
+are globally accessible from all sites and nodes. While currently only
+secondary nodes talk to the primary site,
+[this should be a bidirectional channel](https://docs.gitlab.com/ee/administration/geo/replication/multiple_servers.html#architecture-overview).
+
+OpenBao natively includes [High Availability](https://openbao.org/docs/internals/high-availability/)
+support; this is either provided by [Raft](https://openbao.org/docs/internals/integrated-storage/)
+or the [PostgreSQL](https://openbao.org/docs/configuration/storage/postgresql/)
+storage backends. The latter uses a lock table to implement leadership
+election. Only one node is marked active at a time, with secondary nodes
+not performing any operations except forwarding requests to the primary.
+
+Notably, the semantics of Geo and OpenBao roughly align. We propose that Geo
+will need no additional enhancements to support GitLab Secrets Manager and
+that replication will be handled by the latter when using Raft.
+
+On all front-end service nodes, we'll start the self-hosted OpenBao server
+instance. One node will be designated primary by OpenBao HA election:
+initially this will be a random node, but in the future we could let Geo
+inform OpenBao which site is designated primary and the leader election
+process could be changed. This node will use OpenBao's native HA
+capabilities: standby nodes will proxy all operations (initially, later
+serving read requests) to the active OpenBao instance.
+
+With the Raft storage backend, each front-end node will have local storage
+it can use for placing Raft's underlying [`bbolt`](https://openbao.org/docs/internals/integrated-storage/#writing-logs)
+K/V store. In the event of an even number of nodes in the primary site, we
+will proactively designate one node to be a [non-voter node](https://github.com/openbao/openbao/issues/578).
+From Geo's information, we'll populate all node's [`retry_join`](https://openbao.org/docs/configuration/storage/raft/#retry_join-stanza)
+configurations with reference to the other nodes for discoverability.
+In the future, we can also designate non-primary sites to be non-voter nodes
+as well. The number of sites or latency of replication will thus not impact
+the latency of writes in the general case.
+
+With the PostgreSQL storage backend, we can rely on Geo's existing replication
+of the PostgreSQL backend and no additional changes will be necessary.
+
+When runners contact the OpenBao instance, if their request does not hit the
+active node, OpenBao will route the request through its GRPC request forwarding
+mechanism.
+
+In the event of a failover, Geo will be able to bring up the new site
+designated as primary and data will already have been replicated, either
+through PostgreSQL's replication or through Raft's synchronization process.
+In the future and in the case of the latter, Rails, via Geo's indication, will
+update the node's Raft configuration to no longer be non-voter and restart the
+node so a new leader is elected. In the event of later improvements to
+Postgres backend to indicate desired leadership status, a similar change could
+be applied there as well when a site's status changes. This will also help to
+align the definitions of primary sites between Geo and OpenBao.
+
+The net result is that Geo is not responsible for data replication for
+OpenBao, but is still used as a source of leadership data so that a consistent
+customer experience is achieved.
+
+#### Cells and multi-replication zones
+
+Initially we will support one logical OpenBao cluster per instance. In the
+future [with cells](/handbook/engineering/architecture/design-documents/cells/),
+we'd expect each tenant to cluster affinity:
 
 #### Required enhancements
 
@@ -836,6 +903,13 @@ Lastly, we can strengthen the memory isolation of customers by only allowing
 plugin multiplexing within a namespace. When coupled with external runners
 for plugins, such as a container or cgroups, we could further isolate tenants
 data in memory.
+
+##### Chosen leader and Raft updates
+
+When working in a Geo cluster, we'd ideally like the OpenBao primary node
+to align with the Geo cluster's definition of the primary site. We'll want
+update OpenBao to give a suggested leader or add non-leader/voter status to
+nodes on secondary sites.
 
 ### Packaging and deployment
 
