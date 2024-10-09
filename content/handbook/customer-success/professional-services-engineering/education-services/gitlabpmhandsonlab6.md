@@ -87,9 +87,9 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. In the **Commit message** field, enter `Update docs with performance tools`
 
-1. Ensure that the message "**Commit to update-db-docs-perf-tools branch**" is written in the red 'commit' box underneath your commit message.
+1. Ensure that the message "**Commit and push to update-db-docs-perf-tools branch**" is written in the red 'commit' box underneath your commit message.
 
-1. Click **Commit to update-db-docs-perf-tools branch**.
+1. Click **Commit and push to update-db-docs-perf-tools branch**.
 
 ## Task C. Perform code review and merge changes
 
