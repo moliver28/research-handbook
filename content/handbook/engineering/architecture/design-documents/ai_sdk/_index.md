@@ -4,7 +4,7 @@ status: ongoing
 creation-date: "2024-10-04"
 authors: [ "" ]
 coach: [ "" ]
-approvers: [ "" ]
+approvers: [ "@pwietchner", "oregand" ]
 owning-stage: "~devops::modelops"
 participating-stages: []
 toc_hide: true
