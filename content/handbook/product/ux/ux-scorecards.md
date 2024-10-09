@@ -80,35 +80,35 @@ Following each scenario that is evaluated, a set of three questions are asked to
 
 #### Question 1: Single Ease Question (SEQ)
 
-Q1: “Overall, this scenario was…”
+“Overall, this scenario was…”
 
-5 - Extremely easy
-4 - Easy
-3 - Neither easy nor difficult
-2 - Difficult
-1 - Extremely difficult
+* 5 - Extremely easy
+* 4 - Easy
+* 3 - Neither easy nor difficult
+* 2 - Difficult
+* 1 - Extremely difficult
 
 #### Question 2: Satisfaction rating
 
-Q2: “How would you rate the quality of this experience?”
+“How would you rate the quality of this experience?”
 
-5 - Extremely good
-4 - Good
-3 - Neither good nor bad
-2 - Bad
-1 - Extremely bad
+* 5 - Extremely good
+* 4 - Good
+* 3 - Neither good nor bad
+* 2 - Bad
+* 1 - Extremely bad
 
 #### Question 3: UMUX Lite, adjusted (Useful)
 
-Q3: “You just experienced our implementation of <Scenario>. How would you agree or disagree with the following statement:
+“You just experienced our implementation of <Scenario>. How would you agree or disagree with the following statement:
 
 <Scenario> has the features I need for what I need to do in my own work.”
 
-5 - Strongly agree
-4 - Agree
-3 - Neither agree nor disagree
-2 - Disagree
-1 - Strongly disagree
+* 5 - Strongly agree
+* 4 - Agree
+* 3 - Neither agree nor disagree
+* 2 - Disagree
+* 1 - Strongly disagree
 
 #### Calculating the score
 
