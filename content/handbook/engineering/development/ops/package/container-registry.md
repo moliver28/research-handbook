@@ -58,7 +58,7 @@ Authors of merge requests related to a specific project should request a review 
 
 ### Alert management
 
-The team is responsible for monitoring the Slack channel [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) where alerts are displayed for the registry service and code base (broken master). Alerts are configured in
+The team is responsible for monitoring the Slack channel [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) where alerts are displayed for the registry service and code base (broken master). Service alerts are configured in
 the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/registry) and they follow the infrastructure team
 process to define them.
 
