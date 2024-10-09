@@ -124,7 +124,7 @@ If you want to install a local version of the website to test and preview things
 see the [handbook project readme](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main) for instructions on how to set it up.
 
 1. Set up an [SSH key](https://docs.gitlab.com/ee/user/ssh.html) to use with GitLab, if you have not previously done so.
-1. [Set up Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
+1. [Set up Git](hhttps://docs.gitlab.com/ee/topics/git/how_to_install_git/) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
 1. Use your editor of choice to make changes. If you use [Visual Studio Code](https://code.visualstudio.com/download) optionally along with the [GitLab Workflow extension for VS Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/), you can follow the [Web IDE editing instructions](#use-the-web-ide-to-edit-the-handbook).
 1. [Push the changes to GitLab](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#send-changes-to-gitlab).
 1. Create a merge request.
