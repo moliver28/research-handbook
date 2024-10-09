@@ -21,41 +21,11 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 
 #### Responsibilities
 
-- Manage up to six engineering teams
-- Conduct managerial interviews for candidates, and train engineering managers to do said interviews
-- Generate and implement process improvements, especially cross-team processes
-- Hold regular [1:1s](/handbook/leadership/1-1/) with team managers and skip-level 1:1s with all members of their team
-- Management mentorship
+Senior Engineering Manager, Development responsibilities extend those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/senior-manager/).
 
 #### Requirements
 
-- Professional experience as an engineer in at least one primary language or framework of the organization, or a closely related language or framework.
-- Ability to discuss architectural concepts and systems design, and to broker technical decisions at a high-level between individual contributors.
-- Experience across the devops lifecycle, with deep understanding of at least one area.
-- Exposure to automation through CI/CD pipelines.
-- An understanding of multiple delivery and distribution strategies, including an ability to maintain velocity within GitLab's dual cadence of continuous deployment and a monthly release cycle.
-- Understanding of a variety of security principles and best practices including the ability to ensure a secure development process.
-- Understands how to maintain and enforce Quality Assurance through testing frameworks and code review standards. 
-- Ability to communicate technical concepts to non-technical stakeholders.
-- Past experience (3 to 5 years) as an engineering manager.
-- Proven track record of execution that demonstrates an understanding of the software development lifecycle.
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at, at least, one recent job
-- Ability to be successful managing at a remote-only company
-- Humble, servant leader
-- Ability to use GitLab
-
-#### Nice-to-have Requirements
-
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value diversity, inclusion and belonging in leadership
-- Be inquisitive: Ask great questions
+Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
 
 ### Director, Development
 
