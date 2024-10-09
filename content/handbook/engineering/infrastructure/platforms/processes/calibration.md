@@ -10,7 +10,7 @@ As part of our annual [Talent Assessment process](/handbook/people-group/talent-
 
 | Session Number | Attendees | Calibration Focus | Session Date | 
 | -------------- | --------- | ----------------- | ------------ | 
-| Session 1      | Team Manager | Team level calibration | self-organized, complete by end of second week in October | 
-| Session 2      | Group Managers | Group level calibration | self-organized, complete by end of the third week of October. | 
-| Session 3      | All SaaS Platform Managers | Informal stage level calibration | Complete by the end of the second week of November| 
-| Session 4      | All SaaS PLatform Managers + People Business Partner | Formal stage level calibration | Complete by the end of the third week of November. | 
+| Session 1      | Team Manager | Team level calibration | self-organized, complete by mid February | 
+| Session 2      | Group Managers | Group level calibration | self-organized, complete by end of February | 
+| Session 3      | All SaaS Platform Managers | Informal stage level calibration | mid March | 
+| Session 4      | All SaaS PLatform Managers + People Business Partner | Formal stage level calibration | end of March | 
