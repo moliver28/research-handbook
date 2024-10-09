@@ -102,7 +102,7 @@ In addition to the `Platforms leads call`, we have some recurring events and rem
 The Director of Product and Director of Infrastructure for SaaS Platforms conduct weekly progress reviews. During `Platforms Grand Review`, they review [progress across all groups](https://gitlab.com/groups/gitlab-com/-/epics/2115) with the goals of being informed of progress made, learning about existing blockers, and supporting the team. The review is private streamed to the GitLab Unfiltered channel because the review covers confidential issues. All recordings are made available in the [Platforms Grand Review YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqDXSHdlUvPWHOj_Hw8JdQ1).
 
 Sr. Director of Infrastructure Marin Jankovski, likes to meet with new team members that join the organization. Marin sets up informal 1:1 coffee chats a few times a month with newer team members to get to know one another and see how they are doing. This process is organized by his EBA who will reach out to team members once he has the availability to meet. As this is a large team, it may take a while to get through everyone.
-If someone needs to meet with Marin sooner than when the coffee chat is scheduled, you can reach out to his EBA Liki Simonot to set something up. 
+If someone needs to meet with Marin sooner than when the coffee chat is scheduled, you can reach out to his EBA Liki Simonot to set something up.
 
 ##### Infrastructure Platforms Leads Demo
 
@@ -113,6 +113,18 @@ The call is recorded to the [Infrastructure Platforms Leads Demo Unfiltered Play
 
 While the intention is for the call to be made public on GitLab Unfiltered, the default is for it to be published as private.
 At the end of the call, a quick vote is held between the attendees and if all agree that the content is #SAFE, it can be published as public.
+
+### Requests for Help
+
+On the [landing page for getting assistance](../getting-assistance), we ask team-members who need assistance to raise Requests for Help using standard templates.
+
+These issues are raised in the [request for help issue tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues) and are automatically assigned to the Engineering Manager of the relevant SaaS Platforms team.
+
+The Engineering Manager is expected to:
+
+1. Confirm that the question is not a duplicate and that the answer to the question is not already discoverable in the handbook or the tracker itself.
+2. Confirm the urgency of the request.
+3. Respond to the help request or assign to an engineer to help with the request.
 
 ### Slack to GitLab Issue Tracker Integration
 
