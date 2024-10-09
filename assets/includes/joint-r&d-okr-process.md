@@ -189,11 +189,6 @@ As GitLab objectives can only have one parent, there are various options to trac
 - [What Matters](https://www.whatmatters.com/)
 - [How to use GitLab to track OKRs](/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
 
-## Timeline and process for previous quarters
-
-1. Product: For previous quarters, please see [previous quarter OKR timelines](/handbook/product/product-processes/product-okrs/previous-quarters/)
-1. Engineering: 
-
 ## How to contribute to this page
 
 We encourage suggestions and improvements to the R&D OKR process so please feel free to raise an MR to this page. To keep us all aligned, as the process touches all teams across the company.
