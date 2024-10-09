@@ -177,6 +177,8 @@ A better response would be to assume that an action was requested, relay your in
 
 You can create an incident directly through the `status.io` website **OR** through Slack (provided by Woodhouse). It is recommended to use the `status.io` website directly as it permits further customization of the incident beyond what the Slack form allows. It is also easier to confirm that the incident was created properly when using the `status.io` website.
 
+If the incident is related to GitLab Duo features, please review [GitLab Duo Special Handling](#gitlab-duo-special-handling)
+
 #### Create Through Status.io
 
 To create an incident through Status.io click the `New Incident` button from the main dashboard:
@@ -495,3 +497,9 @@ Some example training activities are:
 Practice events are meant to provide more experience for the person wanting to CMOC a real incident. They include a practice scenario that requires them to update the status page, communicate with the incident manager as well as provide more confidence.
 
 To start a CMOC Practice event ask your trainer or any support engineer to go to the [Support Team Meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=CMOC%20Practice%20Event) and to create an issue with the [CMOC Practice Event](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/CMOC%20Practice%20Event.md) issue template.
+
+## GitLab Duo Special Handling
+
+As GitLab Duo features are under active development we have a special issue dedicated to tracking individual feature availability at https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18352.
+
+In the event of an incident being declared for a GitLab Duo feature, verify that the incident issue is crosslinked with https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18352.
