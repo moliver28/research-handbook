@@ -18,6 +18,8 @@ The GitLab AI SDK is a comprehensive Python package that provides a unified inte
 
 ## Motivation
 
+The GitLab AI SDK can strngthen our position as a leading platform. It will enhance the ability of internal teams to adopt AI, and devlop AI powered features, as well as improve our ability in the future to offer an AI platform to our customers. This platform can include the ability the create and evaluate AI Powered features and Workflows. 
+
 ### Goals
 
 1. Provide a unified and consistent interface for AI feature development across GitLab
