@@ -81,7 +81,7 @@ The team has agreed on the following process to handle alerts:
    1. Determine if it's safe to ignore:
       - There is an existing issue for this alert. If so, add an occurrence of this problem in the issue.
       - The logs/dashboards show that the issue seems to be resolved. For example, when the Pending Tasks metric for the online garbage collector is going down after a sudden peak and there are no errors in the logs.
-      - The alert has been automaticlaly resolved.
+      - The alert has been automatically resolved.
       - Open an issue if this requires attention in the future.
    1. Otherwise:
       - Review the [#production](https://gitlab.enterprise.slack.com/archives/C101F3796) channel and the [#incident-management](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1) channel for existing incidents that may be related.
