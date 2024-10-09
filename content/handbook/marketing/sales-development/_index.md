@@ -1847,15 +1847,15 @@ Announcement Channels
 
 The Sales Development Organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to our [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars), being good partners internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if an XDR or leader is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure long-lasting success of the team members.
 
-The sections below will provide more details as to the performance management process on quota attainment as well as our [Three Pillars](./#our-three-pillars) and KPIs/SLAs for Inbound Leads and Outbound Account management. While regular coaching is expected on weekly 1:1s, informal performance management will be initiated if a ramped XDR has two consecutive months below 80% attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
+The sections below will provide more details as to the performance management process on quota attainment as well as our [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for Inbound Leads and Outbound Account management. While regular coaching is expected on weekly 1:1s, informal performance management will be initiated if a ramped XDR has two consecutive months below 80% attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
 
 #### For SAOs and Stage 1 XDR Net ARR 
 
 Once the XDR is informed, expectations will be:
 
-- Month 1: 80% target + [Three Pillars](./#our-three-pillars)
-- Month 2: 80% target + [Three Pillars](./#our-three-pillars)
-- Month 3 and beyond: 100% Stage 1 XDR Net ARR target + [Three Pillars](./#our-three-pillars)
+- Month 1: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% Stage 1 XDR Net ARR target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
 
 Should the XDR fall short of the targets above, a formal warning will be issued. 
 After the formal warning is issued if the XDR falls short of targets again, additional disciplinary actions could be taken up to and including termination.
@@ -1866,9 +1866,9 @@ As a business we understand that Stage 3 Net ARR is a metric that can take time 
 
 The process will however stay the same: once the BDR is informed, expectations will be:
 
-- Month 1: 80% target + [Three Pillars](./#our-three-pillars)
-- Month 2: 90% target + [Three Pillars](./#our-three-pillars)
-- Month 3 and beyond: 100% Stage 1 Net ARR target + [Three Pillars](./#our-three-pillars)
+- Month 1: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 90% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% Stage 1 Net ARR target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
 
 Should the XDR fall short of the targets above, a formal warning will be issued. 
 After a  formal warning is issued if the BDR falls short of targets, additional disciplinary actions could be taken up to and including termination.
