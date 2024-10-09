@@ -118,12 +118,10 @@ Below is a list of projects and initiatives that we are currently working on, al
 | Project                                                                                                                | DRI                                    | Backup DRI                          |
 | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------------------------- |
 | [Virtual Registry](https://gitlab.com/groups/gitlab-org/-/epics/15088)                                                 | {{< member-by-gitlab 10io >}}          | {{< member-by-gitlab mkhalifa3 >}}  |
-| [Automated packages import from Artifactory or Sonatype](https://gitlab.com/groups/gitlab-org/-/epics/8730)            | {{< member-by-gitlab 10io >}}          |  |
-| [Maven dependency proxy](https://gitlab.com/groups/gitlab-org/-/epics/3610)                                            | {{< member-by-gitlab 10io >}}          |  |
-| [Improve the performance of package metadata generation](https://gitlab.com/groups/gitlab-org/-/epics/9835)            | {{< member-by-gitlab dmeshcharakou >}} |  |
-| [Eliminating duplicate npm packages](https://gitlab.com/groups/gitlab-org/-/epics/9812)                                | {{< member-by-gitlab dmeshcharakou >}} |  |
-| [Key improvements for the npm registry](https://gitlab.com/groups/gitlab-org/-/epics/7037)                             | {{< member-by-gitlab radbatnag >}}     |  |
-| [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                           | {{< member-by-gitlab mkhalifa3 >}}     |  |
+| [Dependency Firewall](https://gitlab.com/groups/gitlab-org/-/epics/5133)                                               |  |  |
+| [Package Registry Improvements](https://gitlab.com/groups/gitlab-org/-/epics/6753)                                     | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
+| [Conan Repository](https://gitlab.com/groups/gitlab-org/-/epics/6816) - [Co-creation](https://handbook.gitlab.com/handbook/marketing/developer-relations/cocreate/) | {{< member-by-gitlab dmeshcharakou >}} |  |
+
 
 ## Documentation
 
