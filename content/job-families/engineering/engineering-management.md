@@ -11,8 +11,8 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 
 ### Senior Manager, Engineering
 
-* The Senior Manager, Engineering role extends the [Engineering Manager](/job-families/engineering/development/management/engineering-manager/) role.
-* The Senior Manager, Engineering reports to the [Director, Engineering](#director-development).
+- The Senior Manager, Engineering role extends the [Engineering Manager](/job-families/engineering/development/management/engineering-manager/) role.
+- The Senior Manager, Engineering reports to the [Director, Engineering](#director-development).
 
 #### Senior Manager, Engineering Job Grade
 
