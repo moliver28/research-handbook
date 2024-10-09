@@ -51,7 +51,7 @@ The following overview describes at what level each feature contained in the cur
 | Feature | Cluster | Cell | Organization |
 | --- | --- | --- | --- |
 | Abuse reports | ✓ | | |
-| Analytics | | | |
+| Analytics | | ✓ | |
 | Applications | | ✓ | |
 | Deploy keys | | ✓ | |
 | Labels | | ✓ | |
@@ -80,7 +80,12 @@ Abuse reports should cluster-level data as we want bad actors to be flagged glob
 
 ### 3.2. Analytics
 
-To be determined.
+Analytics are cell-level data, but we could also have cluster-level analytics on the leader cell at some point (definitely not Cell 1.0).
+
+Pages:
+
+- DevOps Reports
+- Usage trends
 
 ### 3.3. Applications
 
@@ -102,15 +107,37 @@ Broadcast messages should cluster-level data as we want to notify all users on a
 
 Monitoring are cell-level data.
 
+Pages:
+
+- System information
+- Background migrations
+- Background jobs
+- Health check
+- Audit events
+
 ### 3.8. Subscription
 
 Subscription is global for a GitLab instance, so it's cluster-level data.
 
-### 3.9. Overview
+### 3.9 System hooks
+
+System hooks are cell-level data.
+
+### 3.10. Overview
 
 Overview is cell-level data, but we could also have a cluster-level overview on the leader cell at some point (definitely not Cell 1.0).
 
-### 3.10. Settings (`ApplicationSetting` model)
+Pages:
+
+- Dashboard
+- Organizations
+- Projects
+- Users
+- Groups
+- Topics
+- Gitaly servers
+
+### 3.11. Settings (`ApplicationSetting` model)
 
 All `ApplicationSetting` attributes have a definition file under https://gitlab.com/gitlab-org/gitlab/-/tree/master/config/application_setting_columns
 where the `clusterwide` key defines if the attribute is cluster-level or not. The definition files are consolidated and exposed in
