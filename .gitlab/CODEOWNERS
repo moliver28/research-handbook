@@ -45,7 +45,7 @@
 /content/job-families/alliances/ @akramer
 
 ^[business-technology]
-/content/handbook/business-technology/ @NabithaRao
+/content/handbook/business-technology/ @NabithaRao @ccurato @marc_disabatino
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
@@ -302,7 +302,7 @@
 /content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
-/content/handbook/it/ @NabithaRao
+/content/handbook/it/ @ericrubin @mbeee @dzhu @smanzuik
 
 ^[legal]
 /content/handbook/company/esg.md @robin @slcline
@@ -691,7 +691,7 @@
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/it/end-user-services/onboarding-access-requests/_index.md @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @wendybarnes @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @wendybarnes @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
