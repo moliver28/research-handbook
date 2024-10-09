@@ -25,7 +25,7 @@ During [onboarding](https://docs.gitlab.com/ee/administration/dedicated/#onboard
 ## Accessing customer configuration
 
 When launching Switchboard, you should default to the `/tenants` page with a list of tenant customers.
-**Name**, **Identifier** (codename), and **External URL** are listed in a table.
+**Name**, **Identifier**, **Internal reference**, and **External URL** are listed in a table.
 Click on **Manage** to view settings for that customer.
 
 ### Version information
