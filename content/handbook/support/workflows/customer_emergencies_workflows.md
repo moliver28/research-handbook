@@ -68,10 +68,10 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 
 ###### Week After On-Call
 
-- Take time as needed based on how things went that weekend or the previous week. 
-- If you plan to take time off, please ensure that you complete any extra steps  so that your pending tickets are in good hands 🫶.
-- Close out any loops: if you had to leave something for later while on-call — do it now.
-- Ramp up as quickly as you comfortably can to normal AQC.
+- Take time off as needed based on how things went that weekend or the previous week
+  - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
+- If you had to leave something for later while on-call — do it now
+- Ramp up as quickly as you reasonably can to normal AQC
 
 ### Communicate
 
