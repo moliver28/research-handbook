@@ -47,7 +47,7 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 - Inquire about the group's plans for breaking changes in the next major release well in advance (three months/releases prior). Try to get a proper understanding of how customers will be affected early on.
 - Be aware of the priorities and challenges of the product group.
 - Strive to become a subject matter expert in the use of the features they cover. At the section level, focus on becoming knowledgeable on feature usage and effect on customers.
-- Add yourself to the CC for the [Request for Help](https://gitlab.com/gitlab-com/?filter=request-for-help) issue template for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. In addition to benefiting from the increased awareness yourself, you are expected to provide additional context to help your colleague and product group as appropriate.
+- Add yourself to the CC for the [Request for Help](https://gitlab.com/gitlab-com/?filter=request-for-help) issue template for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. In addition to benefiting from the increased awareness yourself, you should provide additional context to help your colleague and product group to the best of your ability.
 - [Section SSC] Provide insight into relevant product KPIs and their potential impact on customers and Support.
 
 ### Enable Support with periodic communication relevant to the group
