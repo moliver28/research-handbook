@@ -44,11 +44,9 @@ Additionally to our main team's slack channels, each extension/project we work o
 
 ## Cross-group ownership and boundaries
 
-Given the nature of the codebases we maintain in our group, it's quite common to have other teams contribute fully-fledged apps to deploy through our Editor Extensions and language server.
+Editor extensions systems host features and modules owned by different groups.
 
-In an effort to provide clarity and a clear expectation between all parties, we have produced guidance for other teams collaborating in the authoring of code in our projects.
-
-Please consult the [Ownership and Boundaries](/handbook/engineering/development/dev/create/editor-extensions/ownership/) page for more information.
+The [Ownership and Boundaries](/handbook/engineering/development/dev/create/editor-extensions/ownership/) page provides clarity and a clear expectation between all parties who author/maintain features in our systems.
 
 ## Group processes
 
