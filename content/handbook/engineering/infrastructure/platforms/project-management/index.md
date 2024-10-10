@@ -91,7 +91,11 @@ See the section on [status updates on project epics](#status-updates-on-project-
 These teams should be consulted for this project:
 
 These teams should be informed about this project:
+ 
+### Links / references :books:
 
+*
+*
 ## Exit Criteria
 
 
