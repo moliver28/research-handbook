@@ -120,6 +120,7 @@ Below is a list of projects and initiatives that we are currently working on, al
 | [Virtual Registry](https://gitlab.com/groups/gitlab-org/-/epics/15088)                                                 | {{< member-by-gitlab 10io >}}          | {{< member-by-gitlab mkhalifa3 >}}  |
 | [Dependency Firewall](https://gitlab.com/groups/gitlab-org/-/epics/5133)                                               |  |  |
 | [Package Registry Improvements](https://gitlab.com/groups/gitlab-org/-/epics/6753)                                     | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
+| [Cells - Package Registry](https://gitlab.com/groups/gitlab-org/-/epics/13846)                                         | {{< member-by-gitlab dmeshcharakou >}} |  |
 | [Conan Repository](https://gitlab.com/groups/gitlab-org/-/epics/6816) - [Co-creation](/handbook/marketing/developer-relations/cocreate/) | {{< member-by-gitlab dmeshcharakou >}} |  |
 
 ## Documentation
