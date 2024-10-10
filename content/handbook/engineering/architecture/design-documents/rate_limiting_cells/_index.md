@@ -6,7 +6,7 @@ title: Rate Limiting Story
 status: proposed
 creation-date: "2024-09-24"
 authors: [ "@sarahwalker" ]
-coaches: [ "TBD" ]
+coaches: [ "@andrewn" ]
 dris: [ "@donnaalexandra", "@sabrams", "@swiskow" ]
 owning-stage: "~devops::<stage>"
 participating-stages: []
@@ -24,7 +24,7 @@ toc_hide: true
 
 As GitLab.com has evolved, we've introduced many application limits to help with keeping our availability and user satisfaction at a desired level. This has often been reactionary, and we have not defined a consistent strategy for defining and enforcing application limits.
 
-This lack of consistency can lead to confusion for our users and loss of productivity for our engineers, as well as difficulty when we wish to define and implement new limits. This Design Document aims to introduce a transparent strategy for application limits; firstly in order to enable our engineers to introduce sensible policies to enforce our avaliability goals, and secondly allow us transparency to expose these to our users.
+This lack of consistency can lead to confusion for our users and loss of productivity for our engineers, as well as difficulty when we wish to define and implement new limits. This Design Document aims to introduce a transparent strategy for application limits; firstly in order to enable our engineers to introduce sensible policies to enforce our availability goals, and secondly allow us transparency to expose these to our users.
 
 This document is intended as the next iteration of [Next Rate Limiting Architecture](../rate_limiting/), which will be deprecated. This new proposal is written to more accurately reflect rate limiting in our 2024 architecture.
 
@@ -32,15 +32,15 @@ This document is intended as the next iteration of [Next Rate Limiting Architect
 
 ## Motivation
 
-Presently the [Rate Limiting for GitLab.com](../../../infrastructure/rate-limiting.md) is defined in several different places and in several different ways. This creates a number of challenges for our customers and team members alike.
+Presently the [Rate Limiting for GitLab.com](../../../infrastructure/rate-limiting/) is defined in several different places and in several different ways. This creates a number of challenges for our customers and team members alike.
 
 Firstly, the spread of places rate limits exist can make it difficult to understand which limits have been applied to a request. This leads to confusion for our users and productivity loss for our support engineers and production engineering teams. Finding which limits have been applied can require investigation into several tools and codebase audits, since it is not always clear where a limit has been reached (for example in Cloudflare or RackAttack)
 
 Secondly, it can be difficult to change or introduce new limits, and as such define policies for protecting our availability. As different limits are enforced in different places, there is no single way to change them for a namespace / project / user / customer.  This has led to inconsistencies when new services are deployed, further adding to the confusion of which limits are applied to a request, or can mean services are deployed without any rate limiting. Introducing throttling after a service is deployed can come with risks, as a change can impact users.
 
-Finally, we allow rate limit bypasses for some marquee SaaS customers, which increases risk for our service and those customers. We would like to be able to set higher limits to allow us to protect our availability while also providing user satisfaction to those customers.
+Finally, we have allowed rate limit bypasses for some marquee SaaS customers, which increases risk for our service and those customers. We would like to be able to set higher limits to allow us to protect our availability while also providing user satisfaction to those customers.
 
-As GitLab.com transitions to a Cells architecture, we have a unique opportunity to create a single service for defining rate limits. This service should provide a centralised location for rate limits to be configured, along with sensible default values, but also allow for customisation for a namespace / project / user / customer / cell as needed. This will also provide a benefit of easily documentable and discoverable rate limits that we can publish to our users.
+As GitLab.com transitions to a Cells architecture, we have a unique opportunity to create a single source of truth for our rate limits. In the longer term we will work towards a centralised location for rate limits to be configured with sensible defaults, that also allows for customisation for a namespace / project / user / customer / cell as needed. This will also provide a benefit of easily documentable and discoverable rate limits that we can publish to our users.
 
 ### Goals
 
@@ -59,19 +59,19 @@ Define a packaged story for team members to know when to change a rate limit, ho
 
 ## Proposal
 
-Create a new Rate Limiting service for configuration of rate limits across all parts of GitLab.com and Cells. While this service will not be responsible for enforcing limits (throttling will still take place in Cloudflare, or RackAttack, for example), it will provide a consolidated catalogue of limits, as well as providing a mechanism to override any limits per Cells/Namespace.
+Create a new Rate Limiting interface for configuration of rate limits across all parts of GitLab.com and Cells. While this interface will not be responsible for enforcing limits (throttling will still take place in Cloudflare, or the application itself, for example), it will provide a consolidated catalogue of limits, as well as providing a mechanism to override any limits per Cells/Namespace.
 
 Pros:
 
 - Consolidation of the definitions of our limits into one place. This will streamline creating or changing any rate limits.
-- The catalogue can be pumped into documentation and published. Changes here will be reflected in docs and streamline the documentation process, creating more transparency for users and keeping documentation up to date.
+- The catalog can be pumped into documentation and published. Changes here will be reflected in docs and streamline the documentation process, creating more transparency for users and keeping documentation up to date.
 - We are not rewriting throttling functionality, and will keep our swiss cheese model of rate limiting at different layers of the product.
 - We can build this to customise rate limits on a per cell basis, allowing more configuration per namespace / project / user / customer.
 
 Cons:
 
 - This does not solve the problem of easier triaging for support when a customer is throttled.
-- Not all application rate limiting configuration is currently exposed via an api. We will need a product team to build this functionality for RackAttack limits or the ApplicationRateLimiter.
+- Not all application rate limiting configuration is currently exposed via an API. We will need a product team to build this functionality for RackAttack limits or the ApplicationRateLimiter.
 - No obvious way to enforce use of this Rate Limiting Service as new services are created for GitLab.com.
 
 ## Design and implementation details
@@ -79,17 +79,17 @@ Cons:
 Create a service for defining and configuring rate limits, this will largely consist of two pieces:
 
 1. A catalogue of rate limits, defined in YAML. This will contain many different types of limits which can be set using a type/location flag (for example: `type: firewall` for Cloudflare WAF rules).
-1. A service to implement these limits in the correct part of the app. This will call the appropriate apis when changes are made to the limits catalogue to update limits for the appropriate cells.
+1. A service to implement these limits in the correct part of the app. This will call the appropriate APIs when changes are made to the limits catalogue to update limits for the appropriate cells.
 
 Since we want this service to be able to set limits for all cells, we will want it to live in the Routing Layer, probably alongside [Tissue](https://gitlab.com/gitlab-com/gl-infra/cells/tissue), and would be built in Go or Ruby. From here, the service would be able to configure rate limits in Cloudflare for a cell, as well as application or RackAttack limits.
 
-#### Setting Cloudflare Rate Limits
+### Setting Cloudflare Rate Limits
 
-Since Cells is implemented in a similar way to Dedicated, it will use the [Cloudflare WAF Rules terraform module](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules). Since we built this to be extensible, we will be able to leverage this module and Tissue to be able to configure rate limits in Cloudflare. As such, we propose WAF rules to be the first "integration" built into our service.
+Since Cells is implemented in a similar way to Dedicated, it will use the [Cloudflare WAF Rules Terraform module](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules). Since we built this to be extensible, we will be able to leverage this module and Tissue to be able to configure rate limits in Cloudflare. As such, we propose WAF rules to be the first "integration" built into our service.
 
 #### Setting Application Rate Limits
 
-Rate Limit configuration within the application will be slightly more difficult. At present these limits are configured within the rails app, and do not have an API for changes. We would need buy in from a product or backend engineer to expose limits configured in our application via an api in order for this service to change or create them.
+Rate Limit configuration within the application will be slightly more difficult. At present these limits are configured within the Rails app, and do not have an API for changes. We would need buy in from a product or backend engineer to expose limits configured in our application via an API in order for this service to change or create them.
 
 #### New Services
 
