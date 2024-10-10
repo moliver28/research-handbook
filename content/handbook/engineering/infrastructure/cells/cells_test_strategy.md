@@ -2,7 +2,7 @@
 title: Test Platform in Cells
 ---
 
-Cells is a project that spans the entirety of GitLab. Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
+Cells is a project that spans the entirety of GitLab. More information on what Cells is and how it is being developed is on the [Cells hanbook page](_index.md). Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
 This approach has the following requirements:
 
@@ -10,6 +10,7 @@ This approach has the following requirements:
 - It must provide good coverage so we have confidence to release
 - It must be easy to add/enhance/change tests
 - It works with our current process
+ 
 
 ## Strategy
 
@@ -24,6 +25,7 @@ The testing strategy for Cells follows our practice of testing at the correct le
   - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
   - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
   - Performance testing
+    - We will the the Observability tools to do performance analysis on the live environments 
     - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
     - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
 
