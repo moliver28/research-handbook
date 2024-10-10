@@ -64,6 +64,7 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 - Help with the Global queue as you can
   - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able 
   - Leave internal notes with next steps on tickets if you cannot take assignment
+  - Pair and participate in Support Pod sessions as you are able
 - 🧠 Remember: your goal this week is to take care of customers who page CEOC 
 
 ###### Week After On-Call
