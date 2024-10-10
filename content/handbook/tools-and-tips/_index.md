@@ -23,9 +23,7 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 <!-- markdownlint-enable MD051 -->
 #### STEP 1: Request your new username
 
-- Access the username you want to request via `https://gitlab.com/mary`.
-- Check its activity and projects to see if they are an inactive user [according to the name squatting policy](/handbook/support/workflows/namesquatting_policy/).
-- There's no guarantee that the username will be available for you.
+- As of this [Merge Request](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170), it is no longer possible to request a username via the [Namesquatting process](/handbook/support/workflows/namesquatting_policy). If the username you wish to use is unavailable, you will have to pick a different one.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
 
