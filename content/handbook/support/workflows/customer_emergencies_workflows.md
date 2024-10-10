@@ -43,7 +43,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - AMER 2 DRI: 14:30pm - 17:30pm EDT
 - AMER 3 DRI: 17:30pm - 20:00 EDT
 
-##### Balancing ticked load while on-call
+##### Balancing ticket load while on-call
 
 ###### Before On-Call
 
