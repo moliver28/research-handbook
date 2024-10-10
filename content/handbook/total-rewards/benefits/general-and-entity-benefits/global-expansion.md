@@ -36,7 +36,7 @@ There is no plan to offer life insurance at this time as team members can access
 
 ### GX Leave policy
 
-### Annual leave (statutory)
+#### Annual leave (statutory)
 
 Team members are entitled to 25 days in each year of work.
 
@@ -77,6 +77,7 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCkmsr1X6CLz8uEnkII/view).
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
+- If team members add dependants GX will ask the team member to sign an authorisation document showing the amount that would be deducted through Payroll the remaining 34% balance.
 - The AXA plan will be administered directly through GX.
 - During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA
@@ -92,7 +93,7 @@ There is no plan to offer life insurance at this time as team members can access
 
 ### GX Leave policy
 
-### Annual leave (statutory) 
+#### Annual leave (statutory) 
 
 15 days
 
@@ -108,15 +109,15 @@ Team members can take up to 5 working days of Paternity Leave.
 
 - If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 30 weeks.
 
-##### Paternity leave payment
+#### Paternity leave payment
 
 - If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
-### Bereavement leave
+#### Bereavement leave
 
 Team members are entitled to seven consecutive days of paid leave in the event of the death of a child, spouse or civil partner. Three working days of paid leave in the event of the death of a parent or an unborn child.
 
-### Marriage leave
+#### Marriage leave
 
 In case of marriage or civil union, a team member is entitled to have five continuous working days of paid leave.
 
@@ -136,6 +137,7 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCkmsr1X6CLz8uEnkII/view).
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
+- - If team members add dependants GX will ask the team member to sign an authorisation document showing the amount that would be deducted through Payroll the remaining 34% balance.
 - The AXA plan will be administered directly through GX.
 - During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. 
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA.
@@ -155,7 +157,7 @@ The 13th salary is equal to a month’s pay and must be paid within the first 20
 
 ### GX Leave policy
 
-### Annual leave (statutory)
+#### Annual leave (statutory)
 
 14 days
 
@@ -169,7 +171,7 @@ The 13th salary is equal to a month’s pay and must be paid within the first 20
 
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive paid Parental Leave from GitLab for up to 16 weeks.
 
-### Adoption leave
+#### Adoption leave
 
 Team members who adopt a child are entitled to 3 months’ paid leave starting from the date of child birth. To take adoption leave, team members need to submit a certificate from the National Foundation for Children or a family court confirming the adoption, to the employer.
 
@@ -210,7 +212,7 @@ GitLab offers company paid [International Group Life and Disability Plans throug
 
 21 Days
 
-### Maternity leave
+#### Maternity leave
 
 Team members can take up to 3 months maternity leave.
 
@@ -218,7 +220,7 @@ Team members can take up to 3 months maternity leave.
 
 If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
-### Paternity leave
+#### Paternity leave
 
 Team members can take up to 2 weeks of Paternity Leave.
 
@@ -257,18 +259,18 @@ GitLab does not plan to offer life insurance at this time.
 
 ### GX Leave policy
 
-### Annual leave (statutory)
+#### Annual leave (statutory)
 
 20 days
 
-### Parental Leave
+#### Parental Leave
 
 All team members are entitled to up to 1 ½ years of parental leave for the birth or adoption of a child until the child reaches eight years old.
 
 - This leave may be taken in a single period or in parts. If taken in parts, the total leave must not exceed 1 ½ years.
 - Team members must notify the Absence Management team at leaves@gitlab.com one month in advance of beginning parental leave, and at least two weeks in advance if returning from leave early.
 
-### Maternity Leave
+#### Maternity Leave
 
 Team members are entitled to up to 56 calendar days of prenatal leave and 56 calendar days of maternity leave for a total of 112 days.
 
@@ -279,7 +281,7 @@ Team members are entitled to up to 56 calendar days of prenatal leave and 56 cal
 
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
 
-### Paternity Leave
+#### Paternity Leave
 
 Team members are entitled to take up to 10 days of Paternity Leave which must be taken within the first two months of the child’s birth.
 
@@ -289,7 +291,7 @@ Team members are entitled to take up to 10 days of Paternity Leave which must be
 
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
 
-### Adoption Leave
+#### Adoption Leave
 
 For a family which has adopted a child up to 18 years of age, one of the adopters is entitled to 10 days of leave.
 
@@ -311,12 +313,6 @@ rovides subsidized housing to employees as well as loans, and the Retirement Sav
 Employees in Mexico are covered by the Social Security Law, under IMSS who is responsible for administering social security insurance benefits and the collection of contributions.
 - Both the employer and employee are required to contribute to social security, although the employer has the responsibility of withholding the employee’s contribution.
 - These contributions fund retirement pensions, health and maternity insurance, occupational risk, day-care, disability and life insurance, and unemployment/old age insurance.
-
-### Medical
-
-**For team members hired before October 1, 2024**
-Healthcare Monthly Allowance will be paid by GX as an allowance to the team members until December 31, 2024.
-The allowance will 5000 USD per annum broken into monthly installments. 
 
 ### Health Insurance
 
@@ -354,13 +350,13 @@ The vacation premium is an additional cash benefit given to employees for use on
 
 ### GX Leave policy
 
-### Annual leave (statutory)
+#### Annual leave (statutory)
 
 Below is the information related to Mexico’s statutory leave policies. Please note that team members hired in Mexico are hired via GX (PEO) and you should always check with GX first for the most up to date information.
 
 Annual leave (statutory) 21 Days
 
-### Maternity leave
+#### Maternity leave
 
 - Team members can take 12 weeks of Maternity Leave (6 weeks before the child is born and 6 weeks after birth) to run concurrently with GitLab’s 16 week [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
@@ -370,7 +366,7 @@ Annual leave (statutory) 21 Days
 - GitLab Parental leave calculations: If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), will be supplemented up to 100% minus any MSSI payments received for up to the 16 weeks of leave.
 *For example: If the team member receives 80% of their pay from MSSI payments, GX will provide the remaining 20% of their pay during the normal payroll calendar. 
 
-### Paternity leave
+#### Paternity leave
 
 If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), the team member will receive 100% paid parental leave from GX for up to 16 weeks.
 
@@ -382,7 +378,7 @@ To initiate parental leave, submit your time off by selecting parental leave cat
 
 If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
-### Sick leave
+#### Sick leave
 
 Team members unable to work because of a nonwork-related injury or illness and who have made payments into the social security system for the four weeks before the condition developed are eligible for paid sick leave through the Social Security Institute. The benefit, which is 60% of an employee’s regular wage, is paid from the fourth day of the illness for up to 52 weeks and maybe extended for another 52 weeks.
 
@@ -421,13 +417,13 @@ The 13th month pay is mandatory in the Philippines under the labor code and by P
 
 ### GX Leave policy
 
-### Annual leave (statutory) 
+#### Annual leave (statutory) 
 
 Team members are entitled to five days of paid vacation leave after 12 months of service, referred to as “service incentive leave” by the Labour Code.
 
 ### Parental Leave
 
-### Maternity leave 
+#### Maternity leave 
 
 Team members can take up to 105 days of Maternity Leave. Team members may request an additional 30 days of unpaid Maternity Leave. Solo mothers have the option to extend by 15 days.
 
@@ -436,7 +432,7 @@ Team members can take up to 105 days of Maternity Leave. Team members may reques
 - Team members may receive Maternity Leave payment from the SSS for up to 105 days.
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
 
-### Paternity Leave
+#### Paternity Leave
 
 Team members can take up 7 days of Paternity Leave or up to 14 days if the team member’s wife allocates him 7 days of extra Paternity Leave.
 
@@ -470,11 +466,11 @@ The employer (Global Expansion) and team member both pay 5% each to the Providen
 
 ### GX Leave policy
 
-### Annual leave (statutory)
+#### Annual leave (statutory)
 
 15 working days
 
-### Parental Leave
+#### Parental Leave
 
 Below is the information related to South Africa’s statutory leave policies. Please note that team members hired in South Africa are hired via GX (PEO) and you should always check with GX first for the most up to date information.
 
@@ -484,13 +480,13 @@ If you are eligible for GitLab’s parental leave, your payments will be made up
 
 Please submit the dates of your leave in Workday by selecting the Parental Leave option. The Absence Management team will contact you with more information. Once you send your parental leave notification in Workday, the Absence Management team will notify GX. GX will then get in touch with you to explain the UIF payment claim process.
 
-### Maternity Leave
+#### Maternity Leave
 
 Female employees have a right to four months’ maternity leave when they are pregnant. 
 By law your employer is not obliged to give you paid maternity leave, but you are entitled to four consecutive months of maternity leave. 
 The maternity leave may begin at any time from at least four weeks before the birth of the baby.
 
-### Paternity Leave
+#### Paternity Leave
 
 An employee, who is a parent of a child is entitled to 10 consecutive days of parental leave.
 
@@ -498,7 +494,7 @@ An employee, who is a parent of a child is entitled to 10 consecutive days of pa
 
 To initiate parental leave, submit your time off by selecting parental leave category in [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before the leave starts. Please familiarize yourself with GitLabs [Parental leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
-### Sick Leave
+#### Sick Leave
 
 Section 22(1) to 22(4) of South Africa’s Employment Act stipulates that during each 36-month cycle starting from the first day at work, an employee is entitled to a paid sick leave. This should be equivalent to the exact number of days that they usually work in a typical 6-week period. Therefore, in case the employee works five days per week, then they are entitled to a 30-day sick leave on full pay. On the other hand, if the person works six days per week, then they will have a 36-day sick leave on full pay. When distributed across the three years, one may have a 10 to 12-days paid sick leave per year on average.
 
@@ -558,7 +554,7 @@ Review the Medical Insurance [AXA Plan](https://drive.google.com/file/d/1-Xx71vf
 
 ### GX Leave policy
 
-### Annual Leave (Statutory)
+#### Annual Leave (Statutory)
 
 Team members in UAE are entitled fully paid annual leave of
 
@@ -567,7 +563,7 @@ Team members in UAE are entitled fully paid annual leave of
 
 Part-time team members are entitled to annual leave according to the actual working hours they spent at work, as specified in the employment contract, and in accordance with the ‘Executive Regulations of the Labour Law’- Available in Arabic only- (PDF, 10.9 MB).
 
-### Sick Leave
+#### Sick Leave
 
 Eligibility for a sick leave (paid and unpaid)
 
@@ -591,7 +587,7 @@ A team member is ineligible for a paid sick leave in the following situations:
 - If the illness directly arises from the misconduct of the worker, such as the consumption of alcohol or narcotics.
 - If the worker violated the safety instructions in accordance with the effective legislations in the UAE, and the rules set out in the firm’s regulations, which the employee was informed of.
 
-### Parental Leave
+#### Parental Leave
 
 Team members of the private sector are entitled to a parental leave of 5 working days from the day of the birth of their child to six months. The parental leave is a paid leave that can be applied for by both mother and father of the baby.
 
@@ -600,7 +596,7 @@ Sabbatical Leave (National Service).
 
 As per ‘UAE Labour Law’, Emiratis working in the private sector are entitled to a paid sabbatical leave (extended break from work) to perform national service.
 
-### Maternity Leave
+#### Maternity Leave
 
 A female worker is entitled to a maternity leave of 60 days, out of which:
 
@@ -618,14 +614,14 @@ After the female worker resumes work, she is entitled to one or two additional b
 
 To initiate parental leave, submit your time off by selecting parental leave category in [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before the leave starts. Please familiarize yourself with GitLabs [Parental leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
-### Bereavement Leave
+#### Bereavement Leave
 
 A team member is entitled to:
 
 - A paid leave of five days in the event of the death of spouse and
 - A paid leave of three days in the event of the death of a parent, child, sibling, grandchild or grandparent.
 
-### Hajj Leave
+#### Hajj Leave
 
 Team members may be granted a special leave for the performance of Hajj under the provisions that the leave:
 
