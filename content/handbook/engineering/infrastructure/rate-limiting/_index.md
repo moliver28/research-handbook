@@ -1,5 +1,5 @@
 ---
-title: "Rate limiting at GitLab"
+title: "Rate Limiting"
 description: "This page exists to consolidate GitLab Rate Limiting documentation into a single source of truth. It is intended to reflect the current state of our rate limits, with the target audience being Operators (SRE and Support team members)."
 ---
 
@@ -13,7 +13,7 @@ Rate limited requests will return a `429 - Too Many Requests` response.
 
 - Changes to rate limits require a [Change Request](change-management.md/#change-request-workflows).
 - Request assistance for a user's rate limiting settings with [this issue template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting).
-- For internal teams seeking a bypass, please refer to the [Rate Limit Bypass Policy](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/rate-limiting/bypass-policy.md).
+- For internal teams seeking a bypass, please refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
 ## GitLab.com Rate Limit Architecture
 
@@ -87,7 +87,7 @@ Application
 
 [Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
 
-Please see the [Rate Limit Bypass Policy](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/rate-limiting/bypass-policy.md) for more detailed information.
+Please see the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/) for more detailed information.
 
 ## Traffic management Rate Limits
 
@@ -138,16 +138,15 @@ be discussed with the [Production Engineering::Foundations](https://gitlab.com/g
 
 ### HAProxy
 
-The [Production Engineering::Foundations team](team/foundations/) has been moving the majority of GitLab's traffic management rate limits out of HAProxy and into Cloudflare. As such, it is only configured to rate limit GitLab Pages as it [does not have CDN support](https://gitlab.com/groups/gitlab-org/-/epics/6757).
-
-Additionally, HAProxy is responsible for handling the bypass header, which allows for a configured list of IP addresses to bypass rate limits in HAProxy or Rack Attack. There are two types:
+The majority of GitLab's traffic management rate limits have been moved out of HAProxy and into Cloudflare [[confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24699)].
+HAProxy is responsible for GitLab Pages rate limits and handling the bypass header, which allows for a configured list of IP addresses to bypass rate limits in HAProxy or [Rack Attack](https://github.com/rack/rack-attack). There are two types:
 
 1. **Internal**: Full bypass, including some other protections. Only CI runner managers (or similar) should ever be added to the internal list. Managed in Chef.
 1. **External IPs**: An allowlist of IP addresses. Managed in [Chef](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/62302c2219550f83b4427ceec2e303952c6ce333/roles/gprd-base-haproxy-main-config.json#L176). Requests from these IP addresses are still subject to additional checks, before bypassing the rest of the rate-limiting.
 
 A full list of cases where the `X-GitLab-Rate-Limit-Bypass` header is used can be found in the [HAProxy cookbook](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/65f8adc65b62db74714bd53dd48a50f7d9cfede3/templates/default/frontends/https.erb#L49).
 
-Changes to HAProxy rate limits require a [Change Request](change-management.md/#change-request-workflows), and any customers or internal teams seeking a bypass should refer to the [Rate Limit bypass policy](https://gitlab.com/gitlab-com/runbooks/-/blob/97e57cb9c3da82c404754698010c7ec3c6b94fba/docs/rate-limiting/bypass-policy.md).
+Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
 ## Application Rate Limits
 
@@ -229,7 +228,7 @@ You can read more information about [rate limits specific to GitLab.com](https:/
 ### ApplicationRateLimiter
 
 The GitLab application has simple rate limit logic that can be used to throttle certain actions which is used when we need more
-flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are set configured in [application_rate_limiter.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple.  It is commonly per-user or per-project (or both), but it can be anything, e.g. the RawController limits by project and path.
+flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are configured in [application_rate_limiter.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple.  It is commonly per-user or per-project (or both), but it can be anything, e.g. the RawController limits by project and path.
 
 There is no way to bypass these rate limits (e.g. for select users/groups/projects); when the rate limit is reached a plain response with a 429 status code is issued without rate limiting headers.
 
@@ -251,103 +250,7 @@ For more information, see the [Pages Rate Limit documentation](https://docs.gitl
 
 ## Headers
 
-Below are the list of semi-standard rate limiting response headers that can be returned on rate limited requests.
-
-<table>
-<tr>
-<th>
-
-RateLimit-Limit
-
-</th>
-<td>
-
-The request quota for the client each minute.
-
-</td>
-</tr>
-
-<tr>
-<th>
-
-RateLimit-Observed
-
-</th>
-<td>
-
-The number of requests associated to the client in the time window.
-
-</td>
-</tr>
-
-<tr>
-<th>
-
-RateLimit-Remaining
-
-</th>
-<td>
-
-The remaining quota in the time window (Limit - Observed).
-
-</td>
-</tr>
-
-<tr>
-<th>
-
-RateLimit-Reset
-
-</th>
-<td>
-
-[Unix time](https://en.wikipedia.org/wiki/Unix_time) when the request quota is reset.
-
-</td>
-</tr>
-
-<tr>
-<th>
-
-RateLimit-ResetTime
-
-</th>
-<td>
-
-[RFC2616](https://www.rfc-editor.org/rfc/rfc2616#section-3.3.1) formatted time when the request quota is reset.
-
-</td>
-</tr>
-
-<tr>
-<th>
-
-RateLimit-Name
-
-</th>
-<td>
-
-Name of the throttle blocking the requests.
-
-</td>
-</tr>
-
-<tr>
-<th>
-
-Retry-After
-
-</th>
-<td>
-
-A standard HTTP header for when the quota is reset.
-
-</td>
-</tr>
-
-</table>
-
-### Important Information
+The list of semi-standard rate limiting response headers can be found [here](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html#response-headers).
 
 - `Cloudflare` does not return rate limit response headers on any request.
 - `RackAttack` returns rate limit response headers on throttled requests only.
