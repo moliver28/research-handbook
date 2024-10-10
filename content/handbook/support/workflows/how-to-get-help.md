@@ -25,7 +25,7 @@ should also include a clear, direct ask. When asking questions, think about the 
 Starting with a problem summary or overview lets the reader learn about the situation without requiring them to go
 somewhere else, like a ticket. Including a link to other material helps the reader gather any additional information
 that they might need, like customer details or log files. Highlighting specific error messages or behavior narrows the
-scope. Clearly stating your ask at the very beginning or very end of your question makes it easy for the reader to identify
+scope. Clearly stating your ask at the beginning or end of your question makes it easy for the reader to identify
 what you need help with.
 
 These guidelines are a reference, and **not** a requirement for asking questions. They serve as a starting point to
