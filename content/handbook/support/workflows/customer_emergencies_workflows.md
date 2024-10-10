@@ -62,7 +62,7 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 - Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC
 - 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help
 - Help with the Global queue as you can
-  - Take easy wins tickets (i.e. 2FA, Low priority, free user tickets) as you are able 
+  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able 
   - Leave internal notes with next steps on tickets if you cannot take assignment
 - 🧠 Remember: your goal this week is to take care of customers who page CEOC 
 
