@@ -80,3 +80,21 @@ The QTR report is designed to provide division leadership with key organizationa
 - What is top of mind for Talent Acquisition (TA)
   - This slide will allow TA to orient leaders on what the team is focused on and the top priorities are for each respective division that aligns with the data shared.
 - Opportunity on an as-needed basis for other People division key stakeholders to spotlight key upcoming initiatives.
+
+### QTR Agenda 
+
+Context: (*included in agenda for awareness*) In August 2024 the People Group piloted a 1H FY25 Quarterly Talent Review touchpoint with E-Group leaders. Previously, we have reviewed this data on more of an ad hoc/as-needed basis. The intention is to review this data more regularly so that org health remains top of mind and we are better positioned to act quickly when required. 
+
+**Reviewing key data points in a single session enables us:**
+- Connect dots that may not have been as evident reviewed in isolation
+- Create more connection and alignment across all departments within the People Group
+- Optimize time across the board
+
+**Agenda**
+*To be shared 3-4 business days before the QTR session* 
+- Include link to QTR report here  
+- Placeholder for E-Group leader questions 
+- PBP Review of Recommended Actions *(link to slide)*	
+- TA and DIB Top of Mind review *(link to slides)*
+- Questions and close out 
+  	
