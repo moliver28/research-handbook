@@ -48,14 +48,14 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 ###### Before On-Call
 
 - 🎫 Maintain your regular workload during the week prior.
-- 📅Towards the end of the week (Thursday-Friday), look through your queue.
-- Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
-- Leave the summary you would want to receive
-- Work with your network/peers/Support pod to find an Assignee for those tickets
+- 📅Toward the end of the week (Thursday-Friday), look through your queue:
+  - Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
+    - Leave the summary you would want to receive
+    - Work with your network/peers/Support pod to find an Assignee for each of those tickets
 - During the 1:1 with your Manager, assign tickets to them and chat through Next Steps if needed.
-- 🔎 Identify tickets you can reasonably keep during on-call week
-- 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22) 
-- 💡Solving emergency tickets will count towards your AQC
+  - 🔎 Identify tickets you can reasonably keep during on-call week
+    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22) 
+NOTE: 💡Solving emergency tickets will count towards your AQC
 
 ###### During On-Call
 
