@@ -31,6 +31,9 @@ what you need help with.
 These guidelines are a reference, and **not** a requirement for asking questions. They serve as a starting point to
 guide you, but don't let them block you from asking for help.
 
+As a final opportunity for reflection, imagine that a GitLab customer is asking you this question. Is there enough
+detail for you to begin formulating a response, or would you need to gather more information?
+
 Often, writing a question out functions like [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 That is, the act of thinking through the items above might highlight missing info, cause you to research something you
 hadn't before, or even lead you right to the solution.
