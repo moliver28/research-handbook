@@ -1,13 +1,11 @@
 ---
 title: "Ownership and boundaries - Editor Extensions"
-description: This page describes how teams working in features somehow related to Editor Extensions that span multiple groups and codebases should expect ownership and maintainership duties to be split among them.
+description: This page provides clarity and a clear expectation between all parties who author/maintain features in editor extensions systems.
 ---
 
 ## Context
 
-Some features are authored by other groups that need to be exposed via our editor extensions. Having multiple groups contribute to the development of these features can lead to ambiguity and mismatched expectations when it comes to ownership and maintainership of each component of these features.
-
-This page documents an agreed-upon approach to seeing ownership in a consistent way to align the expectations of everyone involved for increased efficiency.
+Multiple groups contribute to features exposed through our editor extensions. This can create ambiguity regarding ownership and maintenance responsibilities. This document outlines an agreed-upon approach for consistent ownership attribution, aligning expectations and improving efficiency among all involved parties.
 
 ## System overview
 
@@ -15,11 +13,13 @@ Currently, the external features being integrated via our Editor Extensions foll
 
 * UI component built on [gitlab-ui](https://gitlab.com/gitlab-org/gitlab-ui)
 * Integration with Editors: Webview
+  * Webview is a web page shown in the editor
 * Integration with Editors: Business logic
+  * Business logic represents the editor-specific integration (e.g. TypeScript and VS Code Extension API, Kotlin and JetBrains Plugin API)
 
 ## Ownership model
 
-Using **Duo Chat** as an example:
+Currently used by **Duo Chat**:
 
 | System part | Group responsible |
 | ------ | ------ |
@@ -29,7 +29,9 @@ Using **Duo Chat** as an example:
 |   JetBrains - [Chat Webview](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/tree/main/webview) (web page) |   **AI-Powered:Duo Chat** group with support from **Create:Editor Extensions** group      |
 | JetBrains - [Chat business logic](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/tree/main/src/main/kotlin/com/gitlab/plugin/chat) (plugin) | **Create:Editor Extensions** group  |
 
-<details><summary>Once we migrate webviews to Language Server, this new ownership model will take place</summary>
+## Ownership model for features implemented in Language Server
+
+Currently used by **Duo Workflow** and soon to be used by **Duo Chat**.
 
 | System part | Group responsible |
 | ------ | ------ |
@@ -38,8 +40,6 @@ Using **Duo Chat** as an example:
 |    VS Code integration     |    **Create:Editor Extensions** group    |
 |   JetBrains integration |    **Create:Editor Extensions** group    |
 | Visual Studio integration | **Create:Editor Extensions** group |
-
-</details>
 
 ## Process of notifying others
 
