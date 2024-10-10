@@ -5,21 +5,21 @@ summary: Lead GitLab's go-to-market localization strategy, operations and techno
 
 ## Levels
 
-## Senior Globalization Enablement Manager
+## Senior Localization Program Manager
 
-The Senior Globalization Enablement Manager reports to the Director, Globalization & Localization.
+The Senior Localization Program Manager reports to the Director, Globalization & Localization.
 
-### Senior Globalization Enablement Manager Job Grade
+### Senior Localization Program Manager Job Grade
 
-The Senior Globalization Enablement Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
+The Senior Localization Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
 
-### Senior Globalization Enablement Manager Overview
+### Senior Localization Program Manager Overview
 
-The Senior Globalization Enablement Manager oversees the production of multilingual content for global teams at GitLab that require translation and localization to fulfill the company's market growth goals.
+The Senior Localizaiton Program Manager oversees the production of multilingual content for global teams at GitLab that require translation and localization to fulfill the company's market growth goals.
 
 This role requires strong collaboration skills and experience in website localization, world readiness, and digital publishing practices and is responsible for executing and delivering as a part of a successful localization program that supports marketing, product, help documentation, and content optimization in non-English languages. This role works closely with global content managers and developers to define successful localization models and help technical counterparts iterate on automating work streams and making costs and time-to-market processes more efficient.
 
-### Senior Globalization Enablement Manager Responsibilities
+### Senior Localization Program Manager Responsibilities
 
 - Drive localization projects to support market growth and global initiatives requiring localized content across the organization
 - Help define content strategies and localization roadmaps
@@ -31,11 +31,11 @@ This role requires strong collaboration skills and experience in website localiz
 - Help organize the development of and maintenance of style guides, glossaries, and other documentation to safeguard the repeatability and consistency of localization efforts across multiple suppliers and internal contributors
 - Advise stakeholders on issues resulting from internationalization errors, cultural nuances, scheduling conflicts and interdependencies, and the prioritization of bug queues and backlogs
 
-### Senior Globalization Enablement Manager Requirements
+### Senior Localization Program Manager Requirements
 
 - Degree in localization, translation, international project management, or related work experience
-- Experience with managing projects that involve source and target files in top spoken languages around the world
-- Working knowledge of industry standard localization tools and enterprise translation practices
+- Extensive experience with managing projects that involve source and target files in top spoken languages around the world
+- Experience with a wide variety of industry standard localization tools and enterprise translation practices
 - Able to work on a remote and globally distributed team
 - Excellent written and communication skills
 - Strong analytical problem-solving skills and the ability to navigate ambiguity toward resolutions pathways
