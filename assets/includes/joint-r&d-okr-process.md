@@ -98,33 +98,13 @@ In certain circumstances, it is appropriate to [change an OKR once started](/han
    1. Update the description of the parent objective to add a summary of the change and link to the rationale. This helps keep track of OKR changes.
    1. Update the actual OKR in the GitLab OKR tracker to reflect the latest agreed to OKR.
 
-### How this will look in Key Review slides
-
-- R&D OKR owners may leverage this [slide template](https://docs.google.com/presentation/d/1O5Kc1kpJJBm5aJFT24V05xuR3pHjCGzID-QkYcUSZ5k/edit#slide=id.geb1b1c60d1_1_4) if additional details are needed for their KRs.
-
 ## How to write OKRs
 
-R&D groups should limit the number of OKRs they commit to so they have reasonable bandwidth to deliver. When planning OKRs:
-
-1. Consider non-OKR commitments. While OKRs are the big commitments that the team is making, they [do not supersede core team members responsibilities](/handbook/company/okrs/#how-do-i-prioritize-okrs-in-light-of-other-priorities). For R&D, this means retaining team capacity beyond OKRs for work that falls higher in our [prioritization framework](/handbook/product/product-processes/#prioritization-framework), such as forced prioritization items with an SLA/SLO. Meeting SLOs is not an OKR, as [OKRs focus on what's different](/handbook/company/okrs/#okrs-are-what-is-different).
-   1. Other than core team member responsibilities such as those outlined above, all other major commitments should be prioritized through OKRs and consider team bandwidth.
-   1. If a team gets a request for a major effort within the quarter, they can change the OKR by following the guidelines above about [how to change an OKR within the quarter](#how-to-change-an-okr)
-1. Plan for [OKRs to be ambitious, but achievable](/handbook/company/okrs/#criteria-for-key-results) within the team capacity that you have for OKRs. While OKRs are meant to be ambitious, [you should aim to complete them](/handbook/company/okrs/#how-do-i-prioritize-okrs-in-light-of-other-priorities) and strive to hit the ambitious plan. We recognize that with ambitious planning some OKRs will not be completed, but it is striving and reporting on OKRs with the goal of hitting 100% that helps us accomplish strong results. We score individual OKRs as "on track" when they are at least 80% complete. In aggregate, we expect that the average completion score across OKRs is 70%.
-1. [Review cascading OKRs](/handbook/company/okrs/#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs) first and allocate time for those. Cascading OKRs are those at the Company level or R&D level that need your group's contributions to be achieved. You should prioritize these first.
-1. It is OK to push back on OKRs. If you can't prioritize a cascading or shared OKR due to more important work, contact the owner of the OKR and make adjustments so that it is achievable without your team's contribution, or remove it. It is OK to do this, with clear communication and collaboration. It is not acceptable to simply ignore the cascading OKR or shared OKR without clear upfront communication and prioritize other work instead.
-1. When writing OKRs, follow our company guidelines on [how to write OKRs](/handbook/company/okrs/#how-to-write-okrs). In particular, focus on outcomes, not tasks, and make key results measurable.
-1. For any OKR with a dependency, make sure to get [commitment on the dependency](/handbook/company/okrs/#dependency-commitments) with [shared objectives](/handbook/company/okrs/#shared-objectives). If you don't get commitment in the shared objective, make changes as needed to keep to feasible OKRs.
+Please refer to the company-wide guidance in the [How to Write OKRs](/handbook/company/okrs/#how-to-write-okrs) section of the OKR handbook.
 
 ### Examples of good OKRs
 
-**Objective: Establish GitLab leadership in X area.**
-
-- Avoid ❌ KR1: GitLab X becomes available in beta, including Y functionality in beta, with a path to general availability next quarter.
-- Instead ✅ KR1: GitLab X reaches 100k paid MAU by end of quarter.
-- Avoid ❌ KR2: Ship 10 components to support the use of X.
-- Instead ✅ KR2: 30% of GitLab users are able to use X with the components built.
-
-This aligns with a focus on outcomes and business results instead of KRs tracking tasks or launches.
+Please refer to the company-wide guidance in the [Example OKRs](/handbook/company/okrs/#example-okrs) section of the OKR handbook.
 
 ### Organizing R&D OKRs in GitLab
 
