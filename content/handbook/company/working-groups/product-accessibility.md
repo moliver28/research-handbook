@@ -42,7 +42,7 @@ This Working Group has the following goals:
 | Compile a comprehensive list of known accessibility violations                                                                |            |                | 0%       | `@you?`         |
 | [Develop and implement a plan for addressing accessibility violations, including evaluation plan/process and tooling](https://gitlab.com/gitlab-org/gitlab/-/issues/497785) | 04-10-2024 |                | 0%       | `@you?`         |
 | [Identify and bridge the gaps in accessibility frontend guide.](https://gitlab.com/gitlab-org/gitlab/-/issues/419777)         | 12-10-2023 |                | 80%      | `@psjakubowska` |
-| Validate existing issues regarding accessibility.                                                                             |            |                | 0%       | `@you?`         |
+| Validate existing issues regarding accessibility.                                                                             |     08-10-2024       |                | 0%       | `@deepika.guliani`         |
 | [Plan for internal training](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/68) | 29-02-2024 |                | 100%     | `@jeldergl`     |
 
 ### Roles and Responsibilities
@@ -58,5 +58,5 @@ This Working Group has the following goals:
 | Member             | Lisa Falcone               | Senior Paralegal, Legal & Corporate Affairs  |
 | Member             | Scott de Jonge             | Senior Frontend Engineer, Manage:Foundations |
 | Member             | Rajan Mistry               | Frontend Engineer, Plan:Product Planning     |
-| Member             | Deepika Guliani            | Frontend Engineer, Plan:Project Management   |
+| Member             | Deepika Guliani            | Senior Frontend Engineer, Plan:Project Management   |
 | Member             | Mohamed Moustafa           | Fullstack Engineer, Fulfillment:Provision    |
