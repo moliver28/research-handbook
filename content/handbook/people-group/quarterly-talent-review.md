@@ -94,7 +94,7 @@ Context: (*included in agenda for awareness*) In August 2024 the People Group pi
 *To be shared 3-4 business days before the QTR session*
 - Include link to QTR report here
 - Placeholder for E-Group leader to add questions
-- PBP Review of Recommended Actions *(link to slide)*
+- PBP review of Recommended Actions *(link to slide)*
 - TA and DIB Top of Mind review *(link to slides)*
 - Questions and close out
   	
