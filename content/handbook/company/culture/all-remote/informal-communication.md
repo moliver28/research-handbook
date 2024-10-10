@@ -372,7 +372,7 @@ Teams can also arrange shared meals around the world. [Global pizza parties](htt
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences, while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
