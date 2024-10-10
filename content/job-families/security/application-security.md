@@ -46,7 +46,7 @@ Learn more about our role [on the Application Security Handbook page](/handbook/
 - Proficiency in reading, writing, and reviewing code in Ruby on Rails or Go.
 - Familiarity with common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
 - A basic understanding of network and web related protocols (e.g. TCP/IP, UDP, HTTP, HTTPS, protocols).
-- Comfortable with using Git and GitLab.
+- Comfortable with using Git.
 
 ## Levels
 
