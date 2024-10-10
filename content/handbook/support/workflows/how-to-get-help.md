@@ -8,13 +8,38 @@ description: Workflow for Support Engineers on how to get help when working on a
 
 When [working on tickets](/handbook/support/workflows/working-on-tickets), collaboration is critical, especially when troubleshooting complex issues, or technical areas of focus that fall outside of your experience level. Asking for help means having a [low level of shame](/handbook/values/#low-level-of-shame), and also shows that you are putting the customer first because you are working towards resolving their problem.
 
+### Ask good questions
+
+Asking a good question is key to getting the help you need. When in doubt, ask yourself:
+
+> Does my question contain all the information that a reader needs to formulate a good response?
+
+A question should include necessary information that helps the reader get up to speed without switching contexts. It
+should also include a clear, direct ask. When asking questions, think about the following:
+
+- Does the question have a brief, descriptive summary of the problem?
+- Is there a link to the ticket, issue, docs page, or other relevant resource?
+- Are there any error messages or behaviors of note that should be included?
+- Is the ask clearly stated at the beginning or end of the question?
+
+Starting with a problem summary or overview lets readers learn about the situation without requiring them to go
+somewhere else, like a ticket. Including a link to other material helps the reader gather any additional information
+that they might need, like customer details or log files. Highlighting specific error messages or behavior narrows the
+scope. Clearly stating your ask at the very beginning or very end of your question makes it easy for readers to identify
+what you need help with.
+
+These guidelines are a reference, and **not** a requirement for asking questions. They serve as a starting point to
+guide you, but don't let them block you from asking for help.
+
+Often, writing a question out functions like [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
+That is, the act of thinking through the items above might highlight missing info, cause you to research something you
+hadn't before, or even lead you right to the solution.
+
 ### How to Get Help Workflow
 
 If you are stuck on a ticket, the following workflow seeks to help Support Engineers realize and utilize all of the resources available to progress a ticket to resolution. This workflow lists some common resources, you can lean on to get the help you need.
 
-**If you're stuck on a ticket…..**
-
-Identify what's causing you to get stuck. Some examples are:
+If you're stuck on a ticket, first identify what's causing you to get stuck. Some examples are:
 
 - I don't have the right knowledge to progress this ticket.
 - The customer's query is out of scope, but they expect us to resolve this.
@@ -149,7 +174,7 @@ Use the following repositories and resources for identifying similar issues or r
    - Use the provided GitLab Handbook Section Breakdown link at the bottom of the Project ReadMe file if you are unsure about which Section Sub Group and corresponding template to use.
 1. Make sure to use the correct corresponding issue template when creating a new issue.
 1. Complete all the fields in the issue template and attach all necessary files.
-1. Ensure that an appropriate severity is set as defined by the [support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact). You should set the approriate label `severity::1`, `severity::2`, `severity::3`, `severity::4` so that it corresponds with the priority level in Zendesk.
+1. Ensure that an appropriate severity is set as defined by the [support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact). You should set the appropriate label `severity::1`, `severity::2`, `severity::3`, `severity::4` so that it corresponds with the priority level in Zendesk.
 1. If the Zendesk ticket is escalated then add the label `Support::escalated`.
 1. Add a 'Customer Impact' statement if necessary, advocating for the customer.
 1. Ensure to follow any instructions on the template itself, such as who to assign the issue to (if not automatically assigned).
