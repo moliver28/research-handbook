@@ -99,6 +99,8 @@ Below is a list of projects and initiatives that we are currently working on, al
 | [Release database dependent features for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/12218)    | {{< member-by-gitlab adie.po >}} |  {{< member-by-gitlab hswimelar >}} |
 | [Update user interface](https://gitlab.com/groups/gitlab-org/-/epics/12218)                                            | {{< member-by-gitlab rchanila >}} | {{< member-by-gitlab adie.po >}} |
 | [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   |  |
+| [Improve container registry multi-architecture images UX](https://gitlab.com/groups/gitlab-org/-/epics/11952)                          | {{< member-by-gitlab rchanila >}}   |  |
+
 
 ## Documentation
 
