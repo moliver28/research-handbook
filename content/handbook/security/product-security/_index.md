@@ -16,6 +16,14 @@ Our mission is to set the standard for product security by fostering a culture o
 
 Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
 
+### Product Security Risk Register
+
+The Product Security Risk Register rely on [StORM](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/).
+
+Our risk registry is a tracking tool to provide an overview and information on our most company impactful security risks. It is **not** used as a way to list every single vulnerability.
+
+You can find this list in the [StORM repository](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Department%3A%3AProduct%20Security&first_page_size=20), or [consult the dashboard here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/boards/7816349?label_name[]=Department%3A%3AProduct%20Security)
+
 ## Collaboration is Key
 
 Success in product security is not confined to PSD or even the Security Division. It requires a concerted effort across the entire GitLab ecosystem. Collaboration is crucial, involving not just our security counterparts but the broader organization. Key disciplines and capabilities, from Security Operations to Site Reliability Engineering, while not directly under PSD's purview, are vital to our strategy's success.
