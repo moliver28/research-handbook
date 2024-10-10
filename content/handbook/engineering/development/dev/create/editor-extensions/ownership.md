@@ -17,7 +17,7 @@ Currently, the external features being integrated via our Editor Extensions foll
 * Integration with Editors: Business logic
   * Business logic represents the editor-specific integration (e.g. TypeScript and VS Code Extension API, Kotlin and JetBrains Plugin API)
 
-## Ownership model
+## Legacy Ownership model
 
 Currently used by **Duo Chat**:
 
