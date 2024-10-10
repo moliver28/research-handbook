@@ -64,3 +64,4 @@ These are the known challenges, but there may be additional issues that have yet
 | Member          | Peter Hegman             | Senior Frontend Engineer, Data Stores::Tenant Scale          |
 | Member          | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity |
 | Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity  |
+| Member          | Lorenz van Herwaarden    | Senior Frontend Engineer, Govern::Threat Insights            |
