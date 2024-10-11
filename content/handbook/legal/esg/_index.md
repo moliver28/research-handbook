@@ -52,7 +52,7 @@ Team members can also request support from the ESG Team to organize local or vir
 
 All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
-If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
+If volunteering in person, team members may incur some expenses. For calendar year 2024, team members can expense up to a total of $25 for expenses incurred that meet the allowed for reimbursement criteria. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 
 As with all [company expenses](/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company's money and use best judgment to ensure that all expenses are deemed "ordinary and necessary." Team members should follow all [team member expense responsibilities](/handbook/finance/expenses/#2-responsibilities).
 
