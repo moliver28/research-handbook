@@ -98,7 +98,7 @@ We mark technical debt with the `~tech-debt` label.
 
 ##### Language Server + VS Code Extension
 
-We prioritise technical debt in the monthly TypeScript Maintainers
+We prioritise technical debt in the monthly TypeScript Contributors
 meeting ([example meeting issue](https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues/160)).
 This meeting can be found in the team calendar (also in the frontend and Create stage calendars).
 
