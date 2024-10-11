@@ -3,8 +3,6 @@ title: "Clustering in Snowflake"
 description: "Guide for correctly and responsibly using Snowflake's clustering"
 ---
 
-# Overview
-
 Snowflake supports [clustering](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions), which is a powerful feature that allows users to optimize query performance by organizing data within micro-partitions. Clustering can significantly improve the efficiency of data retrieval, especially for large tables with frequently accessed columns.
 
 ## How Clustering Works
@@ -26,7 +24,7 @@ This process helps Snowflake's query optimizer to quickly locate and retrieve re
 
 ## Costs of Clustering
 
-- Substantial upfront cost whenever the table is clustered (ususally, this happens on full-refresh)
+- Substantial upfront cost whenever the table is clustered (usually, this happens on full-refresh)
 - Marginal maintenance costs for ongoing updates to maintain the clustering order
 
 ## When to Use Clustering
@@ -45,6 +43,7 @@ To implement clustering on a table:
 ```sql
 ALTER TABLE your_table CLUSTER BY (column1, column2, ...);
 ```
+
 Automatic-clustering needs to be enable using the `RESUME RECLUSTER` command.
 For example:
 
