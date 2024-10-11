@@ -81,4 +81,4 @@ If you have a number of options you're weighing as a team, a sync [lighting deci
 
 ### Altitude exercise
 
-If you're wanting to solicit feedback from your team asynchronously, and you're hoping to receive feedback about both the general direction and about the details, an [altitude exercise](https://gitlab.com/gitlab-org/monitor/respond/-/issues/60) could be helpful. An altitude exercise solicits feedback at the satellite-level, airplane-level, and ground-level. This exercise can help gather feedback about strategy and the particular design details simultanesously.
+If you're wanting to solicit feedback from your team asynchronously, and you're hoping to receive feedback about both the general direction and about the details, an [altitude exercise](https://gitlab.com/gitlab-org/monitor/respond/-/issues/60) could be helpful. An altitude exercise solicits feedback at the satellite-level, airplane-level, and ground-level. This exercise can help gather feedback about strategy and the particular design details simultaneously.
