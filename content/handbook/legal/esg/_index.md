@@ -16,6 +16,23 @@ Every year GitLab publishes an annual ESG report where we share our approach to 
 - [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/)
 - [FY24 ESG Report](handbook/company/esg/)
 
+### ESG Advisory Committee
+
+The purpose of the advisory committee is create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.  
+
+Members of the ESG Advisory Committee:
+
+- Kelsey Turcotte (Investor Relations)
+- Lisa Boughner (Communications)
+- Aime Bright & Billy Stallings (Marketing)
+- Pattie Egan (People)
+- Sherida McMullan (DIB)
+- Stella Treas (CoS)
+- Scott Rissmiller (Corporate Legal)
+- Emily Plotkin (Employement Legal)
+- Rendi Miller (Procurement)
+- James Shen (Finance)
+
 ## ESG Request Process
 
 ### Philanthropic Requests
