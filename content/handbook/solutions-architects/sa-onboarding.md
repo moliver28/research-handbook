@@ -167,7 +167,7 @@ Your manager will be there to support you during your onboarding journey and bey
 
 **Month 2**
 
-- Ensure new team member is actively engaged in [ride-alongs](/content/handbook/solutions-architects/sa-practices/ride-alongs/) and offer support as needed
+- Ensure new team member is actively engaged in [ride-alongs](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/ride-alongs/) and offer support as needed
 - Align with new hire’s manager on ways you can provide support
 - Discuss any feedback, learnings, insights new team member has gathered throughout their onboarding experience
 - Ask the new team member is they are experiencing any challenges and provide support accordingly
