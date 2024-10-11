@@ -26,7 +26,7 @@ Both Data _and_ Systems have data classification standards. When _data_ has a cl
 
 Putting RED data into a system that's only authorized for ORANGE data represents risk to the company for two reasons:  
 
-1. Systems with RED data have a special classification, and have to be listed as [subprocessors](https://about.gitlab.com/privacy/subprocessors/), which involves informing customers and holding a period for comments from them. (Compliance risk)
+1. Systems with RED data have a special classification, and may have to be listed as a[Subprocessor](https://about.gitlab.com/privacy/subprocessors/) if the RED data includes Personal Data AND the data is specifically collected to provide the contractual services.  Listing a system as a Subprocessor means Customers must be notified about how the system will be used and provided a right to object to the system for a contractually stipulated period of time. (Compliance risk)
 2. Systems with RED data can only be accessed by company-managed devices. (Security risk)
 
 It's imperative that we keep RED data out of systems that aren't cleared for it.
@@ -42,11 +42,11 @@ References:
 
 Support team members are likely to encounter confidentiality levels in the course of working incidents or being involved in special projects.
 
-Somewhat more frequently you'll need to think through confidentiality levels when creating issues in [support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta/).
+Somewhat more frequently you'll need to think through confidentiality levels when creating Issues in [support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta/).
 
 ##### SAFE Framework and MNPI
 
-The SAFE framework and the concept of MNPI are more relevant to Support team members as GitLab team members than any specific job responsibility. It's important to know that our actions in public can affect the company in a negative way, and potentially violate the law.
+The SAFE framework and the concept of MNPI are more relevant to Support team members as stewards of GitLab than any specific job responsibility. It's important to know that our actions in public can affect the company in a negative way, and potentially violate the law.
 
 As part of your work, you may be exposed to SAFE information as part of your duties, or as a result of being a part of a special proejct. If you are, you may be classified as [Designated Insider](/handbook/legal/publiccompanyresources/#designated-insiders), which can affect your ability to trade stock. 
 
@@ -56,7 +56,7 @@ As part of your work, you may be exposed to SAFE information as part of your dut
 The standards themselves are important to be familiar with, but for Support generally:
  * Be aware of the data classification standard for any data you're working with 
  * NEVER move data to a system with a lower classification.
- * Think through confidentiality levels and the SAFE framework when working in public: even though a system may be cleared for RED data (for example, GitLab.com) you might still expose that data by posting it in a public project, or forgetting that an issue is public.
+ * Think through confidentiality levels and the SAFE framework when working in public.  For example, GitLab.com may be cleared for RED data, but you might still expose that data by posting it in a public project, or forgetting that an Issue is public.
 
 #### Examples
 
@@ -69,24 +69,24 @@ This would be inappropriate because RED data is not allowed in ORANGE systems.
 
 Instead, consider sharing the troubleshooting data by:
  * Putting the relevant log snippets in an internal note
- * Sharing the information through a GitLab issue
+ * Sharing the information through a GitLab Issue
 
 If you see RED data being shared in Slack, ask the team member who posted it to remove it.
 
 
 ##### GitLab.com (RED)
 
-During the course of discussion issues, you might have a relevant example screenshot that lists a customer name or a quote from a customer directly that identifies them. These are examples of ORANGE data, and GitLab.com is cleared for RED.
+During the course of discussion Issues, you might have a relevant example screenshot that lists a customer name or a quote from a customer directly that identifies them. These are examples of ORANGE data, and GitLab.com is cleared for RED.
 
-However, posting ORANGE data in a _public_ issue would go against the confidentiality levels for that data, so would be inappropriate.
+However, posting ORANGE data in a _public_ Issue would go against the confidentiality levels for that data, so would be inappropriate.
 
 Instead, consider sharing the data by:
- * making the issue confidential
+ * making the Issue confidential
  * creating a confidential comment
 
 If you see internal-only data being shared publicly, you can:
  * edit the comment to remove the data
- * toggle the issue to confidential
+ * toggle the Issue to confidential
  * remind the team member who posted it about data classification and confidentiality levels
 
 ##### Building an integration between systems
