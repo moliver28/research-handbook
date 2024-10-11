@@ -630,7 +630,7 @@
 /content/handbook/support/support-pods/upgrade @davinwalker
 /content/handbook/support/support-pods/example-pod.md @weimeng-gtlb
 /content/handbook/support/support-pods/_index.md @weimeng-gtlb
-/content/support/workflows/working-with-pods.md @weimeng-gtlb
+/content/handbook/support/workflows/working-with-pods.md @weimeng-gtlb
 
 ^[teamops]
 /content/teamops/ @nshah19
