@@ -136,7 +136,7 @@ When adding a new widget or data element to a work item type, follow the guideli
    - **Tracking and analytics**: Ensure that proper instrumentation is in place to track the usage and performance of the new widget/data element.
    - **KPIs and success metrics**: Define success metrics to evaluate the impact of the widget on overall work item management (e.g., time saved, user engagement).
 1. **Architecture alignment**
-   - **Adherence to architecture best practices**: Ensure the widget is developed in accordance with GitLab’s architecture vision and best practices for work items as outlined in the [GitLab Engineering Handbook](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/work_items/). Review and ensure compliance with design documents, architecture decisions, and future-proofing guidelines.
+   - **Adherence to architecture best practices**: Ensure the widget is developed following GitLab’s architecture vision and best practices for work items as outlined in the [GitLab Engineering Handbook](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/work_items/). Review and ensure compliance with design documents, architecture decisions, and future-proofing guidelines.
 1. **Documentation and deployment**
    - **User-facing documentation**: Ensure that GitLab docs is updated to reflect the addition of the new widget/data element.
    - **Release Post announcement**: Include the new widget in GitLab’s monthly Release Post. Clearly outline the widget’s capabilities, benefits, and any limitations to inform users of the feature in the upcoming release.
