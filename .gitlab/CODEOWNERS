@@ -609,6 +609,29 @@
 /content/handbook/support/workflows/working_with_security.md @gitlab-com/support/managers @gitlab-com/gl-security @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/zendesk-instances.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
 
+^[support-pods]
+/content/handbook/support/support-pods/advanced-search @cleveland
+/content/handbook/support/support-pods/ai @jgaughan
+/content/handbook/support/support-pods/authentication-and-authorization @asmaa.hassan @gerardo @j.castillo @alejguer
+/content/handbook/support/support-pods/ci-cd @manuelgrabowski
+/content/handbook/support/support-pods/code-contributions @anton @manuelgrabowski
+/content/handbook/support/support-pods/database @bprescott_
+/content/handbook/support/support-pods/geo @rvzon @anton
+/content/handbook/support/support-pods/get @lwbrown
+/content/handbook/support/support-pods/git-and-gitaly @jessie
+/content/handbook/support/support-pods/gitlab-dedicated @bcarranza @weimeng-gtlb
+/content/handbook/support/support-pods/import-and-integrate @anton
+/content/handbook/support/support-pods/kubernetes @lwbrown
+/content/handbook/support/support-pods/licensing-and-renewals @jemcgrew
+/content/handbook/support/support-pods/performance-and-reliability @cody
+/content/handbook/support/support-pods/runner @jfarmiloe @tmarsh1
+/content/handbook/support/support-pods/secure @katrinleinweber-gtlb @bcarranza
+/content/handbook/support/support-pods/training @mbadeau @jgaughan
+/content/handbook/support/support-pods/upgrade @davinwalker
+/content/handbook/support/support-pods/example-pod.md @weimeng-gtlb
+/content/handbook/support/support-pods/_index.md @weimeng-gtlb
+/content/support/workflows/working-with-pods @weimeng-gtlb
+
 ^[teamops]
 /content/teamops/ @nshah19
 /content/handbook/teamops/ @nshah19
