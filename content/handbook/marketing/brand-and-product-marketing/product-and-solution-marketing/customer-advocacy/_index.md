@@ -21,7 +21,7 @@ title: "Customer Advocacy at GitLab"
 
 Questions
 
-- Reach us in the **#customer-advocacy-and-references** Slack channel, where questions will be triaged.
+- Reach us in the **#customer-advocacy-and-references** Slack channel, where questions will be triaged. Also, check out the [Customer Advocacy Overview](https://docs.google.com/presentation/d/1QyqHRQzhNE7WdvYqM6evCbX3zRGM5QGf2WJABx8I0gk/edit#slide=id.p) deck for additional resources.
 
 Requests
 
@@ -31,7 +31,7 @@ Requests
 
 ### **Customer Stories**
 
-The Customer Advocacy team partners with Content, Brand, and Design to run a continual, evergreen pipeline of customer stories in various formats including case studies, blogs, and marquee videos, with narratives showcasing customer advocates’ successes with GitLab. Stories are aligned to strategic pillars that support sales needs and integrated initiatives.
+The Customer Advocacy team partners with Content, Brand, and Design to run a continual, evergreen pipeline of customer stories in various formats including case studies, blogs, and marquee videos. We spotlight customer achievements and the DevSecOps teams that drive and support their success. The stories we publish are aligned to strategic pillars that support sales needs and integrated initiatives.
 
 Our goal is to produce three customer stories per quarter, including two marquee videos per year. A selection and prioritization process helps us tell the right customer stories in the right format. Selection criteria is based on GTM goals determined through cross-functional collaboration and strategic alignment, with additional prioritization based on account size, license type and number of users, and unique use cases.
 
@@ -99,7 +99,7 @@ For more details on the EAB program, review the [Internal Brief](https://docs.go
 > - **Federal CAB** - for a senior-level PubSec customer audience (DRI: Kira Aubrey, PubSec)
 > - **Executive Sponsor Program** - for high value customers with high risk (DRI: Amelia Zaglul, Enablement)
 
-### **20 to Watch in DevSecOps — Customer Awards Program [_Coming Soon_]**
+### **20 to Watch in DevSecOps — Customer Awards Program [_Under Construction_]**
 
 Our customer awards program, 20 to Watch in DevSecOps, celebrates a diverse group of innovators who are delivering business results with a transformational DevSecOps strategy powered by GitLab solutions. Customers self-nominate for an award, and the winners (selected by an internal GitLab committee) are recognized as thought leaders in DevSecOps, receive a prize package, and gain access to GitLab executives and other exclusive opportunities.
 
