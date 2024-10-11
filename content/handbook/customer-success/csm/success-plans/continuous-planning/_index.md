@@ -10,7 +10,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ## Philosophy
 
-When preparing for an executive business review or a similar presentation, it's common to create slide-based presentations that reflect the success or progress of a project. Traditionally, this process requires manually gathering information from various sources. However, if you use GitLab to track project progress, you might already document key objectives or milestones as epics or issues within these groups. This documentation is valuable because it's actively maintained during daily activities.
+When preparing for an executive ROI progress & impact report or a similar presentation, it's common to create slide-based presentations that reflect the success or progress of a project. Traditionally, this process requires manually gathering information from various sources. However, if you use GitLab to track project progress, you might already document key objectives or milestones as epics or issues within these groups. This documentation is valuable because it's actively maintained during daily activities.
 
 However, extracting information from these sources and incorporating it into a slide deck remains a manual process — but it doesn't have to be. Imagine that while maintaining your customer collaboration groups, you follow a few standard guidelines for setting up epics and issues. For example, you might assign standardized labels to epics representing key objectives or write descriptions using a structured template. This approach makes the information machine-readable, allowing you to automate at least part of the slide deck creation process, thereby enhancing efficiency.
 
