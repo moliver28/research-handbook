@@ -249,31 +249,6 @@ provisioned up a level and the branch and/or environment restricted
 appropriately, ensuring that the relevant environment does not conflict
 across projects it should not be visible in.
 
-<details>
-
-<summary> Digression on restricting access to exclusively shared secrets </summary>
-
-While there is presently no expected way of sharing specific
-secrets across projects (and not having them be visible to all projects
-within that scope), we can update the hierarchy [defined below](#secret-and-authentication-hierarchy)
-to include a `/shared_{scopeid}` moniker and provision a unique scope identifier
-to allow access to secrets in mounts under that path and grant additional
-path grants to identify scopes which a pipeline execution has access to
-(broadening ACL policies as appropriate).
-
-To avoid too much complexity, it is suggested to add these at the top-most
-level and use explicit visibility permissions on users (e.g., not allow
-groups to have their own shared secrets but instead allow them only at the
-organization-wide level and have specific teams be added to specific shared
-secrets for that group at the organization level).
-
-As discussed below (on the secret hierarchy) on the need for hierarchy-free
-secrets in the future, this could exist at various levels in the organization,
-or even globally (in the event of a self-managed customer) and allow
-Rails-defined permissions and delegation.
-
-</details>
-
 Similarly, in the context of user access and management of secrets, the
 following hierarchy applies:
 
@@ -306,16 +281,18 @@ orgTeam -- granted --> sm
 A team at any level (project, group, or organization) can be given permission
 to manage all secrets at or below its level ("Secrets Management capability"
 above). However, on an individual secret, a user or team can also be given
-direct access to a particular secret, even if they don't otherwise have
-secrets management capabilities.
+direct access even if they don't otherwise have secrets management
+capabilities.
 
 Initially, users will manage secrets through GitLab Rails and its broader
-AppRole token, but the intent longer-term is to using per-user JWTs. The
+AppRole token, but the intent longer-term is to use per-user JWTs. The
 current design necessitates that GitLab Rails sees the value of the secret,
 proxying it on behalf of the Browser UI to OpenBao. By using a per-user JWT
 issued to the browser session in LocalStorage, the UI can directly contact
 the public OpenBao instance and GitLab Rails will not have access to the
-secret during provisioning and thus, risk inadvertently logging it.
+secret during provisioning and thus, risk inadvertently logging it. However,
+the privileged AppRole token will still be used to safely limit changes to
+the ACL policies.
 
 ### Secret and authentication hierarchy
 
@@ -398,7 +375,9 @@ In particular, because pipelines may need access to nested secrets, but
 won't need access to anything outside the tenant's scope, we will provision
 ACL policies and authentication at the top-most tenant namespace (`user_`,
 `group_` or `org_`). With namespaces, this will help with restricting the
-pipeline from escaping its sandbox and accessing other tenant's secrets.
+pipeline from escaping its sandbox and accessing other tenant's secrets;
+however, we rely on careful ACLs to protect access to other projects and
+secrets within the tenant namespace.
 
 Later, user authentication can be added to each tenant
 (`/auth/org_{orgid}/jwt_user` or `/auth/group_{groupid}/jwt_user`) and the
@@ -410,7 +389,50 @@ Aside: presently the order is auth and then tenant segment, but when adding
 proper namespace support, auth mounts could be inside of a tenant and thus
 the order will be swapped to e.g., `/user_{userid}/auth/pipeline_jwt`.
 
-#### Pipeline ACL
+#### ACL design
+
+We propose a group-based approach to ACL policies: each scope (for a pipeline)
+and role (for users, when not using explicit grants) will grant access to
+specific subsets of secrets. These policies are maintained and stored in
+OpenBao, but GitLab Rails is tasked with managing and provisioning them.
+
+Notably, no Rails-initiated [operations](#types-of-operations) are expected
+to span multiple tenant contexts. This allows us to add per-namespace ACLs
+in the future and create smaller path->policy indices in the future.
+Furthermore, we can use nested paths to segment different policies and build
+per-segment indices, reducing the list operation overhead as well.
+
+For each policy, we'll present create a [group alias](https://openbao.org/api-docs/secret/identity/group-alias/)
+to allow a `groups_claim` on the Rails-issued JWT to select applicable ACL
+policies based. A [future enhancement](#jwt-direct-profiles) will allow us
+to get rid of all but [glob-based group matches](#group-alias-glob-matching).
+
+##### Hierarchy of policies
+
+Policies will be prefixed by their tenant information (e.g., `user_{id}/`)
+until they are migrated to proper namespaces.
+
+For each project, we'll provision ACL policies prefixed with `project_{id}/`:
+this path separator component is an allowed character in policy names and
+allows us to use a [future extension](#acl-list-prefix) to list just policies
+we are interested in and will let us reduce the size (and increase the
+relevance) of indices.
+
+Additionally in the future, hierarchical secrets can be supported by also
+supporting `group_{id}` and other constructs as top-level categories. With
+multi-tenant support, we'll have fewer top-level items (as they'll be
+explicitly bounded by the tenant), making iterating over all such items
+easier. However, we'll usually have fairly few items.
+
+Note that these do not necessary reflect the secret's path and only notate
+where ACL policies exist. Because tenant information will eventually be
+conveyed within a namespace (and the policies moved appropriately), we'll
+eventually end up with a secret-like ACL policy hierarchy.
+
+Each top-level segment essentially represents all access to a particular
+secrets management section of the UI: `project_{id}/`, `group_{id}/` &c.
+
+##### Pipeline ACL
 
 To restrict a pipeline's JWT token to only allowed paths, we'll use GitLab
 Rail to provision a just-in-time ACL policy for the pipeline and a JWT
@@ -427,91 +449,85 @@ version (at the time of the request) will win.
 Likewise, the [JWT auth method's login](https://openbao.org/api-docs/auth/jwt/#jwt-login)
 will require a role parameter to select the correct role for authentication.
 
-For naming ACLs and roles, we suggest the format:
+For naming roles, we suggest the format:
 
-- `project_{projid}_job_{jobid}`
+- `project_{projid}`
 
-The ACL will contain a list of explicit grants of secret paths for the
-pipeline as determined by GitLab Rails. For example:
+###### Layout
+
+Within the `project_{id}/` top-level path segment, we'll provision an
+additional path segment, `pipelines/`, to separate pipeline-related
+policies for a project from other types of access.
+
+We create the following types of pipeline policies with Rails:
+
+- `global`: secrets any pipeline can access
+- `env/{context}`: environment restriction policies
+- `branch/{context}`: branch restriction policies
+- `combined/env/{context}/branch/{context}`: combined environment and branch restrictions (`AND`)
+
+A full path of an ACL would thus look like the following examples:
+
+- `project_12345/pipelines/global`,
+- `project_12345/pipelines/env/prod-*`,
+- `project_12345/pipelines/branch/release/*`, or
+- `project_12345/pipelines/combined/env/prod-*/branch/release/*`.
+
+Notably, the direct encoding of restriction to path allows for us to create
+groups with [the same encoding](#group-alias-glob-matching), reducing the
+need for GitLab Rails to query the set of restrictions before issuing the
+JWT. Use of `combined` as a prefix ensures we cannot have confusion attacks
+with poorly named environments and branches.
+
+In the future, explicit grants could also occur: stages could have a path
+segment and policies (`stages/{name}/global`) and each job in a stage could
+also have direct secret access (`stages/{name}/job/{name}/global`). Or, we
+could even support ANDing between stage, name, and the above restrictions
+(environment/branch) to support rather granular execution contexts for these
+jobs.
+
+When issuing a JWT, presently GitLab Rails will need to query relevant
+ACLs within a path and issue [a `groups_claim` field](https://openbao.org/api-docs/auth/jwt/#parameters-1)
+with all the relevant glob values from the ACL list. However, with the
+mentioned glob enhancements, GitLab Rails should be able to directly compute
+these without requiring a lookup from OpenBao as this information already
+appears [on the `id_token`](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html).
+
+The one exception is that the future enhancement for direct explicit grant
+(by stage/job name) does not yet exist on the id token and thus cannot
+be used for ACLing. However, this can easily be added as the information
+exists on the `Ci::Build` object (`stage` and `name` fields).
+
+###### Contents
+
+Each ACL policy will be an explicit grant of capabilities over a path. We
+will set these with GitLab Rails and will not use globbing (`+` or `*`) to
+grant access to multiple secrets; only access to specific secrets will be
+allowed.
+
+For example, if any pipeline running with an `env/prod-<DATE>` context is to
+have access to the production database credentials, we will create a policy
+named `user_12345/project_54321/pipelines/env/prod-*` with the contents:
 
 ```hcl
-path "user_12345/project_54321/secrets/kv/data/explicit/DB_PASS" {
-    capabilities = [ "read " ]
-}
-
-path "users_12345/project_54321/secrets/kv/data/explicit/GITLAB_TOKEN" {
-    capabilities = [ "read " ]
+path "user_12345/project_54321/secrets/kv/data/explicit/PROD_DB_PASS" {
+    capabilities = [ "read" ]
 }
 ```
 
-Similarly, the JWT role will be configured as follows:
+Notably, because a pipeline will have multiple contexts which might provision
+different ACL policies, we'll eventually want to implement something similar
+to [policy unions](#policy-unions).
 
-```json
-{
-    "name": "project_{projid}_job_{jobid}",
-    "role_type": "jwt",
-    "bound_claims": {
-        "job_id": {jobid},
-        "project_id" {projid}
-    },
-    "user_claim": "job_id",
-    "token_policies": "project_{projid}_job_{jobid}"
-}
-```
-
-Note that we do not use the OIDC role type as that does not support using
-existing access or ID tokens to authenticate, only starting fresh OIDC auth
-flows.
-
-In this way, only explicit permissions granted by GitLab Rails to the pipeline
-are ever used by the token, and other tokens issued by the CI/CD OIDC issuer
-will not be granted login against this mount.
-
-#### User ACL
+##### User ACL
 
 While the user wouldn't initially contact OpenBao directly (and instead have
-secrets management operations proxied through GitLab Rails), we want to first
-switch GitLab Rails to using scoped user-level JWTs and then ultimately to
-the client having direct access to OpenBao (without necessarily contacting
-GitLab Rails), so that no user-confusion attacks are viable and so that GitLab
-Rails does not see the secrets during provisioning, preventing them from
-accidentally being logged in the future.
-
-In that scope, we'd also like to have GitLab Rails manage the ACL policies for
-users. Because OpenBao uses a [default deny policy](https://openbao.org/docs/concepts/policies/#policy-syntax),
-we know it is safe to provision policies incrementally and for them to be
-out-of-sync from the server, except in cases where revocation of access
-happens. In particular if policies need to be recreated, GitLab Rails
-refresh all of the policies.
-
-We suggest creating per-user policies with a prefixed name similar to the
-approach suggested above (`user_{userid}`). These policies will contain
-wildcard access (read/write) for mounts within a particular scope a user has
-full permissions in. For instance, if a user has organization-level secrets
-management scope, they might get the following rule:
-
-```hcl
-path "org_{id for openbao}/*" {
-    capabilities = [ "sudo", "create", "update", "patch", "delete", "list" ]
-}
-```
-
-and on their own projects, they'll have:
-
-```hcl
-path "user_{id for cipherboy-gitlab}/*" {
-    capabilities = [ "sudo", "create", "update", "patch", "delete", "list" ]
-}
-```
-
-Similarly, if a user is granted permissions on a particular secret in a
-project, they might get a more scoped rule added as well:
-
-```hcl
-path "org_{id for gitlab-org}/proj_{id for gitlab}/secrets/kv/data/explicit/THE_ONE_KEY" {
-    capabilities = [ "sudo", "create", "update", "patch", "delete", "list" ]
-}
-```
+secrets management operations proxied through GitLab Rails), we want to switch
+GitLab Rails to using scoped user-level JWTs and then ultimately to the client
+having direct access to OpenBao (without necessarily contacting GitLab Rails),
+so that no user-confusion attacks are viable and so that GitLab Rails does
+not see the secrets during provisioning, preventing them from accidentally
+being logged in the future.
 
 Notably, a user token would be rather privileged: it would have complete
 access to all secrets within the users' purview and thus should be suitably
@@ -537,6 +553,89 @@ the value. When rolling out dynamic secrets, users would be granted full
 permissions on the role, but no permissions on the dynamic secret endpoint
 (e.g., for PKI, they could have full permissions on `pki/roles/:name`, but
 none on `pki/issue/:name`).
+
+###### Layout
+
+Similar to pipelines, we'll create policies under the relevant top-level
+path, with a `roles/` or `direct/` subcomponent. Here, `roles/` will have
+various default or custom roles which get access to secrets at various
+levels. For instance, `roles/maintainers` and `roles/owners`: this allows
+each project to control what scope of access these roles get, if the defaults
+are not ideal.
+
+Further, with `direct/user_{id}` roles, users will be given explicit grants
+to certain secrets, beyond what they might normally see given their role.
+
+###### Contents
+
+For both roles and direct access, there are two types of grants:
+
+1. Broad grants to the entire category of secrets.
+2. Specific grants to individual secrets.
+
+For the former, the policies might look like:
+
+```hcl
+path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
+    capabilities = [ "sudo", "create", "update", "patch", "delete", "list" ]
+}
+```
+
+for read-write access and
+
+```hcl
+path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
+    capabilities = [ "list" ]
+}
+```
+
+for view-only access.
+
+For the latter (specific grants), the policies might look like the above,
+just with explicit names in them (e.g., `DB_PASS_PROD`).
+
+When accessing a secrets management page, GitLab Rails will issue a JWT
+to the user which will contain the relevant `groups_claims` to groups with
+specific policies within the project. Notably, this will not delay load:
+this token will only be used by the user to set specific secrets, though
+a similar JWT and secret could be used on the GitLab Rails' backend to
+render the initial page. The assumption here being the Rails->OpenBao
+interconnect is faster than User->OpenBao and potentially Rails could
+have caching of user or secret lists.
+
+##### Modifying ACL policies
+
+Notably, ACL policies are written in HCL: this presents a problem since
+[Ruby lacks good HCL support](https://rubygems.org/search?query=hcl).
+However, [HCL is JSON-compatible](https://developer.hashicorp.com/vault/tutorials/policies/policies#hashicorp-configuration-language-hcl).
+
+This means that, for any given ACL policy above, we can construct its
+equivalent in JSON, giving GitLab Rails native capabilities to edit it
+without pulling in another dependency or building our own parser.
+
+For example, the policy in HCL:
+
+```hcl
+path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
+    capabilities = [ "list" ]
+}
+```
+
+would be equivalent to the following JSON:
+
+```json
+{
+    "path": {
+        "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+": {
+            "capabilities": [
+                "list"
+            ]
+        }
+    }
+}
+```
+
+This becomes much easier for GitLab Rails to query and update.
 
 ### Static vs Dynamic Secrets
 
@@ -571,17 +670,18 @@ more secure and don't have long-term data retention and security concerns.
 
 GitLab Rails is the source of truth for:
 
-- Definitions of secrets
-  - Locations in OpenBao
-  - Ownership information (direct access and team membership)
-  - Scope of pipeline access
-  - Any textual description of the secret available to operators
 - JWT issuance via OIDC
   - Pipeline issuance
   - User-level issuance (eventually)
 
 OpenBao is the source of truth for:
 
+- Definitions of secrets
+  - Canonical locations inferable from the pipeline definition and contextual
+    information like project, namespace, &c.
+  - Ownership information (direct access, role access, &c)
+  - Scope of pipeline access (environments, branches, &c)
+  - Any textual description of the secret available to operators
 - Values of secrets
 - ACL policies; these will be pushed from GitLab Rails based on ownership
   information (just before usage in the case of pipelines).
@@ -594,7 +694,7 @@ GitLab Rails would be the main interface that users would interact with when
 managing secrets using the Secrets Manager feature. We would not provision
 direct user access to the underlying OpenBao instance and thus OpenBao's
 [lack of a UI](https://openbao.org/docs/release-notes/2-0-0/#200) would not
-impact us: we wish to provide a more native, integrated UI than indirection
+impact us: we wish to provide a more native, integrated UI than redirection
 through OpenBao's UI would provide.
 
 This component is a facade to OpenBao server, initiating several requests and
@@ -610,11 +710,11 @@ obp[OpenBao Auto-Auth Proxy]
 ob{OpenBao}
 
 
-gl -- CRUD secret --> obp -- with auth --> ob
+gl -- CUD secret (no Read) --> obp -- with auth --> ob
 gl -- manage mounts --> obp
 gl -- manage auth roles --> obp
 gl -- manage ACLs --> obp
-gl-. issue user JWT .->u-. CRUD secret .->ob
+gl-. issue user JWT .->u-. CUD secret (no Read) .->ob
 gl -- issue pipeline JWT --> p
 
 p -- JWT auth --> ob
@@ -623,12 +723,13 @@ p -- fetch secrets --> ob
 ob -- audit --> gl
 ```
 
-Initially all operations will through GitLab Rails including CRUD operations
-on secrets, but not requests for secrets from pipelines (though this action is
-of course initiated by a pipeline job starting from GitLab Rails). Eventually
-the privileged token for CRUD operations will be replaced with a user JWT
-and subsequently directly by the user (through a JavaScript OpenBao client
-running in the context of the GitLab UI).
+Initially all operations will through GitLab Rails including CUD operations
+on secrets, but not requests for secrets from pipelines (hence, excluding the
+R in CRUD -- though this action is of course initiated by a pipeline job
+started from, and with a JWT issued by, GitLab Rails). Eventually the
+privileged token for CUD operation will be replaced with a user JWT and
+subsequently directly by the user (through a JavaScript OpenBao client running
+in the context of the GitLab UI).
 
 Within the [GitLab Rails monolith](https://docs.gitlab.com/ee/development/architecture.html#component-diagram),
 two components will need access to the secrets manager: [Puma](https://docs.gitlab.com/ee/development/architecture.html#puma),
@@ -639,9 +740,9 @@ as initial provisioning of OpenBao and secret engine mounts).
 
 #### Management of secrets
 
-GitLab will maintain records for secrets created and managed by OpenBao,
-including access scope. This will allow the UI to query secrets associated
-with various stages: project, group, organization, and user.
+Because OpenBao remains the source of truth for many decisions, GitLab can
+retain only a minimum table indicating the enablement status of secrets on
+projects.
 
 In `SQL`, this could look like:
 
@@ -649,56 +750,20 @@ In `SQL`, this could look like:
 CREATE TABLE secrets (
     id bigint NOT NULL,
 
-    // Tenant information; only one is set.
-    tenant_user_id bigint,
-    tenant_organization_id bigint,
-    tenant_group_id bigint,
-
-    // Scope information; only one is set.
-    user_id bigint,
-    organization_id bigint,
-    group_id bigint,
+    // Scope information; only one is set. Currently only project-level
+    // secrets are allowed.
+    // user_id bigint,
+    // organization_id bigint,
+    // group_id bigint,
     project_id bigint,
 
-    // Global pipeline access restrictions
-    environments_scope text,
-    branches_scope text,
-
-    // User-specified metadata
-    name text,
-    description text,
-
-    // GitLab-maintained metadata
-    type text DEFAULT "kv-v2",
-    created_at timestamp with time zone NOT NULL,
-    updated_at timestamp with time zone NOT NULL,
-    revoked_at timestamp with time zone,
-);
-
-CREATE TABLE secret_permission_assignments (
-    secret_id bigint NOT NULL,
-
-    // Target of grant; only one is set.
-    user_id bigint,
-    organization_id bigint,
-    group_id bigint,
-    project_id bigint,
-
-    // Capabilities
-    create boolean,
-    read boolean DEFAULT false,
-    update boolean,
-    patch boolean,
-    delete boolean,
-    list boolean,
+    // enablement status: provisioning, active, or disabled.
+    status state_machine,
 );
 ```
 
-Here, `group_id` references the closet-most subgroup that owns the secret or
-project. Nested subgroups can then be queried. `secret_permission_assignments`
-handles granting particular groups or users direct access to secrets (in
-structures which their role wouldn't otherwise; e.g., a user with Guest
-access to a project could be directly added to a secret to help manage it).
+Here, `group_id` references the closet-most subgroup that owns the secret
+instance. Parent subgroups and the namespace can then be queried.
 
 #### Management of authentication
 
@@ -712,7 +777,9 @@ for [CI/CD](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
 and as an [Identity Provider (IDP)](https://docs.gitlab.com/ee/integration/openid_connect_provider.html).
 Within each [auth method](#authentication), we'll need to ensure that we
 create the necessary roles to ensure OIDC tokens get exchanged for OpenBao
-tokens with appropriate policies attached.
+tokens with appropriate JWT-specific policies attached. As discussed in
+[ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md),
+this will require simple extensions to OpenBao to do.
 
 #### Necessary cleanup hooks
 
