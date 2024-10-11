@@ -1,5 +1,5 @@
 ---
-title: "CLustering in Snowflake"
+title: "Clustering in Snowflake"
 description: "Guide for correctly and responsibly using Snowflake's clustering"
 ---
 
