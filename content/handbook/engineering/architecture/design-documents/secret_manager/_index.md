@@ -999,14 +999,11 @@ addition to the proxy.
 
 1. Authentication of clients other than GitLab Runner.
    GitLab Runner authenticates using JWT, for other types of clients, we need a secure and reliable method to authenticate requests to decrypt a secret.
-1. How to namespace data, roles, and policies to specific tenant.
-1. How to allow organizations to seal/unseal secrets vault on demand.
 1. Infrastructure setup, including how OpenBao will be installed for self-managed instances.
 1. How to best implement sharing of secrets between multiple groups in GitLab.
 1. Establish our protocol and processes for incidents that may require sealing the secrets vault.
 1. How to support protected and environment specific rules for secrets.
 1. How to audit secret changes. Do we want to use [audit socket](https://openbao.org/docs/audit/socket/)?
-1. Do we want to structure project secret paths to be under namespaces to increase isolation between tenants?
 1. Should the secrets be revoked if a project or subgroup is moved under a different top-level group/organization?
 
 ## Alternative solutions
