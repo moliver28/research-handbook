@@ -168,11 +168,23 @@ Project scope for Professional Services is the outline of the work required to d
 
 ### Deploy & Close
 
-_to be updated_
 
-* Complete this [sign off workflow](/https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit)
-* Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
-* Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)
-* Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`
-* Request/capture CSAT responses from Customer
+
+* Schedule Project closure meeting with the customer including agenda in the body invitation: 
+   * Review and sign off on deliverables
+   * Project Retrospective 
+   * Customer feedback 
+   * Add link to the project Retrospective Issue from your collaboration project 
+* Project team to fill in the Project Retrospective Issue under the customer epic in PS Plan 
+   * Schedule a review call with the practise team and the account team if deemed valuable. Otherwise, share the retrospective issue in the internal slack channel
+* Post project success in #ps-internal slack channel
+* If partners were part of the delivery, reach out to project coordinator to offboard them
+* If the external slack channel was created by the project team, archive it immediately 
+* If the customer wishes an export of the collaboration project,[export it](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data), remove their access and [archive the project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#archive-a-project)
+* Remove the engagement reference from support portal. Undo [steps](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-0/#prepare-support-for-issues) 
 * Close Project in Kantata
+   * Confirm all milestones are closed for fixed price projects
+   * Confirm all consumed hours were logged for T&M projects and consulting blocks 
+   * Change due date to the closure date in Kantata
+   * Move status to completed 
+
