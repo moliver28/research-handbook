@@ -131,10 +131,10 @@ If you choose to use Slack to collaborate, consider using an existing channel:
 - If GitLab product-focused, a stage (`#s_`), group (`#g_`) or feature channel (`#f_`) may be
   appropriate.
 
-If creating a new channel, consider prefixing your channel with `#spt-pod_`.
+If creating a dedicated channel, prefix your channel name with `#spt-pod_`.
 
 If you will be conducting pod specific pairing sessions in the channel, [Pairify](/handbook/support/workflows/pairify/)
-support can be added to the new channel by requesting this in `[#pairify-app](https://gitlab.enterprise.slack.com/archives/C06LG9NBSUX)`.
+support can be added to the new channel by requesting it in [#pairify-app](https://gitlab.enterprise.slack.com/archives/C06LG9NBSUX).
 
 ## Improving Support Pods by identifying and actioning on gaps
 
