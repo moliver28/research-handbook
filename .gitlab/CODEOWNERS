@@ -154,8 +154,8 @@
 /content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
 /content/handbook/engineering/development/ops/monitor/respond/ @hbenson @francoisrose
 /content/handbook/engineering/development/ops/package/ @crystalpoole
-/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @marknuzzo @nicolewilliams
-/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo
+/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams
+/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @cheryl.li
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
@@ -260,7 +260,7 @@
 /content/handbook/engineering/readmes/lee-matos.md @lbot
 /content/handbook/engineering/readmes/lyle-kozloff.md @lyle
 /content/handbook/engineering/readmes/marin-jankovski.md @marin
-/content/handbook/engineering/readmes/mark-nuzzo.md @marknuzzo
+/content/handbook/engineering/readmes/mark-nuzzo.md @cheryl.li
 /content/handbook/engineering/readmes/matt-nohr.md @mnohr
 /content/handbook/engineering/readmes/max-woolf.md @mwoolf
 /content/handbook/engineering/readmes/mike-dunninger.md @mdunninger
