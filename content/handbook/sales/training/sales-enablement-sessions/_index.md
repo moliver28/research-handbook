@@ -7,7 +7,6 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 The Field Enablement Spotlight is a weekly continuous education series for all GitLab Sales, Customer Success, Solution Architects, Partner Ecosystem, Renewals, Professional Services & Sales Development team members. 
 
-
 ## Upcoming Training
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
@@ -227,9 +226,9 @@ You can [fill out an access request](/handbook/it/end-user-services/onboarding-a
 There are a few places to see previous Sales Enablement sessions:
 
 - The latest, most relevant sessions are highlighted within the [Field Enablement Spotlight: Continuous Education at GitLab](https://gitlab.highspot.com/items/6543ce4214eff9c9b102378a) page in Highspot.
-   - [Sales enablement Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX) on GitLab Unfiltered YouTube
-   - [Sales enablement Youtube playlist](https://www.YouTube.com/watch?v=ZyyBq3_rzJo&list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG) on GitLab YouTube
-   - Historical sessions that were recorded in Google drive can be accessed via this [deprecated spreadsheet](https://docs.google.com/spreadsheets/d/1ETY7FfCzb2q9h2EkYttlW_Qpl7IHUF-F2rOJG2W03Yk/edit#gid=0)
+  - [Sales enablement Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX) on GitLab Unfiltered YouTube
+  - [Sales enablement Youtube playlist](https://www.YouTube.com/watch?v=ZyyBq3_rzJo&list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG) on GitLab YouTube
+  - Historical sessions that were recorded in Google drive can be accessed via this [deprecated spreadsheet](https://docs.google.com/spreadsheets/d/1ETY7FfCzb2q9h2EkYttlW_Qpl7IHUF-F2rOJG2W03Yk/edit#gid=0)
 
 ## Recording
 
@@ -239,7 +238,6 @@ There are a few places to see previous Sales Enablement sessions:
 - Other sessions that focus on topics like competitive analysis or openly discussing customers are [kept private](/handbook/communication/confidentiality-levels/#not-public)
 - At the start of every session, and before moving into Q&A, the facilitator will announce to the audience if the call is public or private
 - Here is a [how-to video](https://www.youtube.com/watch?v=LKZ23pRfpBg&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=33&t=0s) on accessing private videos on GitLab Unfiltered.
-
 
 ## To request new sales enablement sessions
 
@@ -300,8 +298,6 @@ There are a few places to see previous Sales Enablement sessions:
    - For example, to drive attendance a calendar email update is sent to the entire field sales organization each week indicating the new topic, i.e **"Field Enablement: Competitive Intelligence Update."**
 - Update the [Spotlight Notes & Agenda document](https://docs.google.com/document/d/1hEFNxrjZYgM7GTrV47R6KLkP4AmTe-Mg_Rkr_snTOtw/edit?usp=sharing) with details for the weekly topic including presenter(s), learning objectives, resources, calls to action & notes.
 
-
-
 ## Enablement Calendar
 
 Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_5n3g60l58thum9aovp8iisav34%40group.calendar.google.com&ctz=America%2FLos_Angeles) so that everyone on the Sales and Customer Enablement and PMM team has the ability to edit the calendar event.
@@ -336,7 +332,6 @@ Whenever possible, two options for each weekly Spotlight session will be held to
 
   - Add your content to this page.
   - Add links to any other pages you need to reference on this page so you can present from training page.
-  - Add a link to the training page from this page in the [#enablement-pages](#enablement-pages) section.
 
 ## Moderator
 
