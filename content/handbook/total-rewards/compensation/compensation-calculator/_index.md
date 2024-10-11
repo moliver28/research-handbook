@@ -334,18 +334,18 @@ Dual career tracks can be added to each job family (regardless of division) when
 
 <!-- vale handbook.Repetition = NO -->
 | Grade    | Management       | Individual Contributor    |
-|-------|------------------|---------------------------|
-| 15    | CEO              |                           |
-| 14    | EVP/CXO          |                           |
-| 12    | VP               | Fellow                    |
-| 11    | Senior Director  |                             |
-| 10    |    Director           | Distinguished             |
-| 9        | Senior Manager <br> Manager   | Principal <br> Staff  |
-| 8        |          |  |
-| 7            |                  | Senior                       |
-| 6            |                  | Intermediate              |
-| 5            |                  | Junior                    |
-| 4            |                  | Intern                    |
+|-------|---------------------|---------------------------|
+| 15    | CEO                 |                           |
+| 14    | EVP/CXO             |                           |
+| 12    | VP                  | Fellow                    |
+| 11    | Senior Director     | Senior Distinguished      |
+| 10    | Director            | Distinguished             |
+| 9     | Senior Manager      | Principal                 |
+| 8     | Manager             | Staff                     |
+| 7     |                     | Senior                    |
+| 6     |                     | Intermediate              |
+| 5     |                     | Junior                    |
+| 4     |                     | Intern                    |
 <!-- vale handbook.Repetition = YES -->
 
 ## Compa Ratio
