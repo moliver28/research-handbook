@@ -80,7 +80,6 @@ See the section on [status updates on project epics](#status-updates-on-project-
 ## Participants
 - @participantN
 
-## OKR (optional)
 
 ## Problem Statement
 
