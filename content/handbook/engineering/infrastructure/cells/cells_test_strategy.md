@@ -89,11 +89,9 @@ Test scenarios of interest so far:
 
 The [Topology Service Blueprint definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/topology_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined. 
 
-### QA Cell
+### Pre-QA Cell
 
-### Experiment Cell
-
-As part of migrating to Cells architecture, there will be an Experiment Cell to enable testing. We are [discussing how to use it](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2363). As we are rolling out Cells 1.0, the Experiment Cell will be used to test out and support implementing the features needed to support the Cells. Long term it will be an environment we can run Cells specific tests against as part of the deployment process. It will be deployed to as part of Ring 0.
+The [Pre-QA Cell](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293) is being used for deployment testing purposes and may make use of the E2E test suite as part of deployment testing, but as a verification that the deployment was successful rather than as a feature/functionality test. It is deployed in Ring 0
 
 ## Performance Testing
 
