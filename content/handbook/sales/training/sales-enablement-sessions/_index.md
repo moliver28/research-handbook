@@ -5,6 +5,8 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 ## Field Enablement Spotlight Sessions
 
+The Field Enablement Spotlight is a weekly continuous education series for all GitLab Sales, Customer Success, Solution Architects, Partner Ecosystem, Renewals, Professional Services & Sales Development team members. 
+
 ## Upcoming Training
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
@@ -13,19 +15,18 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Oct 3  |  **No Session** |   |
-| Oct 10  | FY25-Q3 - Competitive Update | Product Marketing Team |
-| Oct 17  | FY25-Q3 Customer Advocacy Update     |  Customer Advocacy Team  |
+| Oct 17  | Maximizing Sales with Customer Advocacy & References   |  Customer Advocacy Team  |
 | Oct 24 | New Forrester TEI Report   | Product Marketing Team  |
 | Oct 31 | *No session during the last week of the quarter* |    |
 
 ## Past Sessions
 
 <details>
-<summary markdown="span">Click here to see links to past sessions on YouTube</summary>
+<summary markdown="span">Click here to see links to past sessions on Google Drive</summary>
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-10-10  | **[FY25-Q3 - Competitive Intelligence Update](https://drive.google.com/file/d/1MhhqRlb-693pjrkspWIW4YJGjXx-fHv4/view?usp=drive_link) | Private |
 | 2024-09-26  | **[Winning with Analyst Relations](https://drive.google.com/file/d/1Mtg3ifv4kozGtBBqrNfbIamwSdNcukLC/view?usp=drive_link)** | Private |
 | 2024-09-25  | **[Advanced SAST Launch](https://drive.google.com/file/d/1ZgSZhhqGgI9RRqs9-RLDp--Q_WCPFvUM/view?usp=drive_link)** | Private |
 | 2024-09-19  | **[Professional Services: Accelerating Customer Time to Value](https://drive.google.com/file/d/1LfsQRIsbgR2F3sONVgdFtR5iL1uVFH4a/view?usp=drive_link)** | Private |
@@ -214,9 +215,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 To get a calendar invite to the weekly Field Enablement Spotlight, make sure you are added to the one of the following email groups.
 
-- Sales Team `sales-all@`
-- SDR Team `sdr@`
-- Marketing team `marketing@`
+- Sales & Customer Success Teams `sales-all@`
+- SDR BDR Team `sdrbdr@`
+- Marketing Team `marketing-team@`
 
 You can [fill out an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
@@ -225,9 +226,9 @@ You can [fill out an access request](/handbook/it/end-user-services/onboarding-a
 There are a few places to see previous Sales Enablement sessions:
 
 - The latest, most relevant sessions are highlighted within the [Field Enablement Spotlight: Continuous Education at GitLab](https://gitlab.highspot.com/items/6543ce4214eff9c9b102378a) page in Highspot.
-- [Sales enablement Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX) on GitLab Unfiltered YouTube
-- [Sales enablement Youtube playlist](https://www.YouTube.com/watch?v=ZyyBq3_rzJo&list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG) on GitLab YouTube
-- Historical sessions that were recorded in Google drive can be accessed via this [deprecated spreadsheet](https://docs.google.com/spreadsheets/d/1ETY7FfCzb2q9h2EkYttlW_Qpl7IHUF-F2rOJG2W03Yk/edit#gid=0)
+  - [Sales enablement Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX) on GitLab Unfiltered YouTube
+  - [Sales enablement Youtube playlist](https://www.YouTube.com/watch?v=ZyyBq3_rzJo&list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG) on GitLab YouTube
+  - Historical sessions that were recorded in Google drive can be accessed via this [deprecated spreadsheet](https://docs.google.com/spreadsheets/d/1ETY7FfCzb2q9h2EkYttlW_Qpl7IHUF-F2rOJG2W03Yk/edit#gid=0)
 
 ## Recording
 
@@ -238,17 +239,6 @@ There are a few places to see previous Sales Enablement sessions:
 - At the start of every session, and before moving into Q&A, the facilitator will announce to the audience if the call is public or private
 - Here is a [how-to video](https://www.youtube.com/watch?v=LKZ23pRfpBg&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=33&t=0s) on accessing private videos on GitLab Unfiltered.
 
-## Enablement pages
-
-- [GitLab CI/CD for GitHub FAQ](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/github-ci-cd-faq/)
-- [Cloud Native Ecosystem](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/cloud-native-ecosystem/)
-- [Enterprise IT Roles](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enterprise-it-roles/)
-- [How to set up Chorus.ai call recording](/handbook/business-technology/tech-stack/#chorus)
-- [GitLab Serverless FAQ](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/serverless-faq/)
-- [GitLab.com Subscriptions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/dotcom-subscriptions/)
-- [Services to Accelerate Customer Adoption](/handbook/customer-success/professional-services-engineering/sales-enablement)
-- [Collaborating with Community Programs](/handbook/sales/training/sales-enablement-sessions/enablement/collaborating-community-programs/)
-
 ## To request new sales enablement sessions
 
 - Complete and submit this [Field Enablement Spotlight Request issue template](https://gitlab.com/gitlab-com/sales-team/sales-enablement-videocast-series/-/issues/new?issuable_template=sales_enablement_sessions)
@@ -258,13 +248,14 @@ There are a few places to see previous Sales Enablement sessions:
 
 **4-6 weeks before the start of a new quarter**
 
-- Solicit input from sales leaders, Product Marketing, Channel, Alliances, Competitive Intelligence, Analyst Relations, and others (e.g. Sales Ops) on sales enablement topics for the next quarter
+- Solicit input from sales leaders, Product Marketing, Partner Ecosystem, Competitive Intelligence, Analyst Relations, and others (e.g. Sales Ops) on sales enablement topics for the next quarter
 
 **2-4 weeks before the start of a new quarter**
 
 - Alignment call to finalize topics & tentative schedule with:
   - Sr. Program Manager, Onboarding & Continuous Education (John Blevins)
   - Director, Sales & Customer Enablement 
+
 - After alignment call, John Blevins to open issues for each enablement session with
   - Documentation of preliminary learning objectives, title, expected outcomes, etc.
   - Tentative dates listed as "TENTATIVE - ZZZ"
@@ -278,7 +269,7 @@ There are a few places to see previous Sales Enablement sessions:
     - Review schedule, outcomes, objectives
     - Answer questions
     - Adjust as needed
-  - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
+  - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #field-enablement-team)
 
   - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
 - Sessions picked to execute on should be chosen from the backlog, or a new issue created, and moved to the `status:plan` column.
@@ -291,15 +282,37 @@ There are a few places to see previous Sales Enablement sessions:
   - Move the issue to the `status:scheduled` column.
   - Manually drag the issue to order issues in the column by date.
 
+**2 weeks before the start of a session**
+
+- Confirm speaker avaliability & session learning objectives
+
+**1 week before the start of a session**
+
+- Confirm speaker content readiness, calls to action, and communications plans. 
+- Send a report via Slack on the current week's session attendance and a preview of the following week's session to regional leaders via the #field-enablement-team channel. 
+
+**Week of the start of a session**
+
+- Communications will be sent out on Slack via #sales, #customer-success & the current #sales-quick-start cohort. 
+- Change the recurring meeting title from the placeholder **"Field Enablement Spotlight"** to show the topic of the week.
+   - For example, to drive attendance a calendar email update is sent to the entire field sales organization each week indicating the new topic, i.e **"Field Enablement: Competitive Intelligence Update."**
+- Update the [Spotlight Notes & Agenda document](https://docs.google.com/document/d/1hEFNxrjZYgM7GTrV47R6KLkP4AmTe-Mg_Rkr_snTOtw/edit?usp=sharing) with details for the weekly topic including presenter(s), learning objectives, resources, calls to action & notes.
+
 ## Enablement Calendar
 
 Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_5n3g60l58thum9aovp8iisav34%40group.calendar.google.com&ctz=America%2FLos_Angeles) so that everyone on the Sales and Customer Enablement and PMM team has the ability to edit the calendar event.
+
+Whenever possible, two options for each weekly Spotlight session will be held to accomidate GitLab's global field sales audience. 
+
+- **(Option 1) 11:00a (US Eastern Time)(UTC -4)** = (8 AM Pacific Time) = (5 PM Central European Time)
+
+- **(Option 2) 8:00p (US Eastern Time)(UTC -4)** = (5 PM Pacific Daylight Time) = (11 AM Australian Eastern Daylight Time)
 
 ## How to conduct a Field Enablement Spotlight Session
 
 - Each training session has a [speaker](#speaker) and a [moderator](#moderator)
 - Sessions are 30 minutes long
-- The presentation portion should be 15 minutes leaving 15 minutes for Q&A
+- The presentation portion should be 15 minutes, leaving 15 minutes for Q&A
 
 ## Speaker
 
@@ -319,7 +332,6 @@ Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calen
 
   - Add your content to this page.
   - Add links to any other pages you need to reference on this page so you can present from training page.
-  - Add a link to the training page from this page in the [#enablement-pages](#enablement-pages) section.
 
 ## Moderator
 
@@ -337,7 +349,7 @@ The moderator should serve as the host of the call and overall wingperson for th
 
 - Log in to zoom 5 minutes ahead of time
 - The video should not be recording, but pause if this is the case
-- At 12pm ET / 9am PT welcome everyone to the call and remind them that the presentation will be public/private. Specifically mention how to talk about sensitive info on every intro.
+- At 11 AM ET / 8 AM PT welcome everyone to the call and remind them that the presentation will be public/private. Specifically mention how to talk about sensitive info on every intro.
 
 > Hello and welcome to today's sales enablement session. As a reminder we'll be posting this session to YouTube. Please remember to not share any private info such as the names of non-referenceable customers.
 
@@ -354,5 +366,15 @@ The moderator should serve as the host of the call and overall wingperson for th
 - Upload recorded session to the [Field Strategy & Enablement](https://gitlab.highspot.com/spots/615dd82071cff4c4b2bcbc32) spot on Highspot. Make sure the video properties are set to "internal" and to "prevent downloading or remixing."
 - Update future & past sessions list with the Google Drive recording link in the [Sales Enablement Sessions Handbook.](/handbook/sales/training/sales-enablement-sessions/#sales-enablement-sessions)
 - Add session recording to the [Field Enablement Spotlight: Continuous Education at GitLab](https://gitlab.highspot.com/items/6480e56aff37cbf397ac752f) Highspot page.
-- Promote the recorded session availability on #Sales & #customer-success Slack channels.
+- Promote the recorded session availability on #sales & #customer-success Slack channels.
 - Check the zoom meeting report & record the number of total attendees as a comment in the issue.
+- Update the quarterly Spotlight attendace report with .csv attendance report from zoom to show attendance by region, department, and leader. 
+
+## Additional Enablement Pages
+
+- [GitLab CI/CD for GitHub FAQ](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/github-ci-cd-faq/)
+- [Cloud Native Ecosystem](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/cloud-native-ecosystem/)
+- [Enterprise IT Roles](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enterprise-it-roles/)
+- [GitLab.com Subscriptions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/dotcom-subscriptions/)
+- [Services to Accelerate Customer Adoption](/handbook/customer-success/professional-services-engineering/sales-enablement)
+- [Collaborating with Community Programs](/handbook/sales/training/sales-enablement-sessions/enablement/collaborating-community-programs/)
