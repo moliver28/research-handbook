@@ -95,7 +95,7 @@ These teams should be informed about this project:
 ### Links / references :books:
 
 *
-*
+* <okr link if one exists>
 ## Exit Criteria
 
 
