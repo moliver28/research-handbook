@@ -46,108 +46,138 @@ For an in-depth explanation of the limitations of pie charts, please read Stephe
 
 ### Standard Color Palette
 
-GitLab's brand approved colors can be found [here](https://design.gitlab.com/data-visualization/color/). Custom palettes can be created in Tableau Desktop by following the instructions [here](https://help.tableau.com/current/pro/desktop/en-us/formatting_create_custom_colors.htm). The example below will create a palette with GitLab's brand approved colors, and a second palette with a darker shade of those colors.
+![GitLab Branded Tableau Color Palette](/images/handbook/enterprise-data/platform/tableau/gitlab_tableau_color_palette.png)
 
-- In the Documents folder, locate the **Preferences.tps** file
-- Open the file with a preferred text editor (ex- Visual Studio Code, TextEdit)
-- Enter the desired colors for your palette into the Preferences file.
-- <details>
-  <summary>Example palettes to paste into **Preferences.tps** file</summary>
+GitLab's brand approved colors can be found [here](https://design.gitlab.com/data-visualization/color/). Custom color palettes can be created in Tableau Desktop by with the following steps:
 
-  ```xml
-  <?xml version='1.0'?>
-  <workbook>
-  <preferences>
+1. In the your laptop Documents folder go to `My Tableau Repository` and locate the **Preferences.tps** file.
+2. Open the file with a preferred text editor such as TextEdit or Visual Studio Code.
+3. Enter the desired colors for your palette into the Preferences file as follows:
 
-  <color-palette name="GitLab Palette 1" type="regular">
-  <color>#2078D0</color>
-  <color>#2D9ED8</color>
-  <color>#FCA326</color>
-  <color>#FFCC02</color>
-  <color>#1DA855</color>
-  <color>#A989F5</color>
-  <color>#6B4FBB</color>
-  <color>#FC6D26</color>
-  <color>#B7D5F4</color>
-  <color>#E24329</color>
-  <color>#7759C2</color>
-  <color>#6FDAC9</color>
-  <color>#ff9d73</color>
-  <color>#AEA5D6</color>
-  <color>#5829CB</color>
-  <color>#54448A</color>
-  <color>#F9980D</color>
-  <color>#FF675F</color>
-  <color>#CEB3EF</color>
-  <color>#E38701</color>
-  <color>#FB722D</color>
-  <color>#4CEACC</color>
-  <color>#FFD1BF</color>
-  <color>#FFB9C9</color>
-  <color>#D0C5E2</color>
-  <color>#D1D0D3</color>
-  <color>#BFBFBF</color>
-  <color>#A2A1A6</color>
-  <color>#74717A</color>
-  <color>#45424D</color>
-  </color-palette>
+    <details>
+    <summary>Example palettes: **Preferences.tps** file</summary>
 
-  <color-palette name="GitLab Palette 1 Darker" type="regular">
-  <color>#075FB6</color>
-  <color>#1485BF</color>
-  <color>#E4890C</color>
-  <color>#E6B200</color>
-  <color>#048F3C</color>
-  <color>#9070DC</color>
-  <color>#5236A1</color>
-  <color>#E3540E</color>
-  <color>#E6B8A6</color>
-  <color>#C82911</color>
-  <color>#5F40A9</color>
-  <color>#55C2B0</color>
-  <color>#E68359</color>
-  <color>#958CBD</color>
-  <color>#E6A0B0</color>
-  <color>#3A2B71</color>
-  <color>#E07F00</color>
-  <color>#E64D46</color>
-  <color>#B59BD6</color>
-  <color>#CB6F00</color>
-  <color>#E25914</color>
-  <color>#33D1B2</color>
-  <color>#9EBCDB</color>
-  <color>#3F0FB2</color>
-  <color>#B7ACC9</color>
-  <color>#B8B7BA</color>
-  <color>#A6A6A6</color>
-  <color>#89888C</color>
-  <color>#5A5862</color>
-  <color>#2B2934</color>
-  </color-palette>
+    ```xml
+    <?xml version='1.0'?>
+    <workbook>
+    <preferences>
 
-  <color-palette name="GitLab Oranges Purples Greys" type="regular">
-  <color>#e24329</color>
-  <color>#FCA326</color>
-  <color>#fc6d26</color>
-  <color>#7759c2</color>
-  <color>#b693f0</color>
-  <color>#54448A</color>
-  <color>#B3B1B6</color>
-  <color>#171321</color>
-  <color>#45404B</color>
-  </color-palette>
+    <color-palette name="GitLab Brand Design" type="regular" >
+    <color>#FFFFFF</color>
+    <color>#171321</color>
+    <color>#FCA326</color>
+    <color>#FC6D26</color>
+    <color>#E24329</color>
+    <color>#A989F5</color>
+    <color>#7759C2</color>
+    <color>#CEB3EF</color>
+    <color>#5943B6</color>
+    <color>#2F2A6B</color>
+    <color>#232150</color>
+    <color>#FDF1DD</color>
+    <color>#FFB9C9</color>
+    <color>#C5F4EC</color>
+    <color>#6FDAC9</color>
+    <color>#10B1B1</color>
+    <color>#D1D0D3</color>
+    <color>#A2A1A6</color>
+    <color>#74717A</color>
+    <color>#45424D</color>
+    <color>#2B2838</color>
+    </color-palette>
 
-  <color-palette name="Transparent" type="regular">
-  <color>#FFFFFF00</color>
-  </color-palette>
+    <color-palette name="GitLab Palette 1" type="regular">
+    <color>#2078D0</color>
+    <color>#2D9ED8</color>
+    <color>#FCA326</color>
+    <color>#FFCC02</color>
+    <color>#1DA855</color>
+    <color>#A989F5</color>
+    <color>#6B4FBB</color>
+    <color>#FC6D26</color>
+    <color>#B7D5F4</color>
+    <color>#E24329</color>
+    <color>#7759C2</color>
+    <color>#6FDAC9</color>
+    <color>#ff9d73</color>
+    <color>#AEA5D6</color>
+    <color>#5829CB</color>
+    <color>#54448A</color>
+    <color>#F9980D</color>
+    <color>#FF675F</color>
+    <color>#CEB3EF</color>
+    <color>#E38701</color>
+    <color>#FB722D</color>
+    <color>#4CEACC</color>
+    <color>#FFD1BF</color>
+    <color>#FFB9C9</color>
+    <color>#D0C5E2</color>
+    <color>#D1D0D3</color>
+    <color>#BFBFBF</color>
+    <color>#A2A1A6</color>
+    <color>#74717A</color>
+    <color>#45424D</color>
+    </color-palette>
 
-  </preferences>
-  </workbook>
-  ```
+    <color-palette name="GitLab Palette 1 Darker" type="regular">
+    <color>#075FB6</color>
+    <color>#1485BF</color>
+    <color>#E4890C</color>
+    <color>#E6B200</color>
+    <color>#048F3C</color>
+    <color>#9070DC</color>
+    <color>#5236A1</color>
+    <color>#E3540E</color>
+    <color>#E6B8A6</color>
+    <color>#C82911</color>
+    <color>#5F40A9</color>
+    <color>#55C2B0</color>
+    <color>#E68359</color>
+    <color>#958CBD</color>
+    <color>#E6A0B0</color>
+    <color>#3A2B71</color>
+    <color>#E07F00</color>
+    <color>#E64D46</color>
+    <color>#B59BD6</color>
+    <color>#CB6F00</color>
+    <color>#E25914</color>
+    <color>#33D1B2</color>
+    <color>#9EBCDB</color>
+    <color>#3F0FB2</color>
+    <color>#B7ACC9</color>
+    <color>#B8B7BA</color>
+    <color>#A6A6A6</color>
+    <color>#89888C</color>
+    <color>#5A5862</color>
+    <color>#2B2934</color>
+    </color-palette>
 
-  </details>
-- Save **Preferences.tps** file and close
-- Restart Tableau and the palette should now be available at the bottom of the list
+    <color-palette name="GitLab Oranges Purples Greys" type="regular">
+    <color>#e24329</color>
+    <color>#FCA326</color>
+    <color>#fc6d26</color>
+    <color>#7759c2</color>
+    <color>#b693f0</color>
+    <color>#54448A</color>
+    <color>#B3B1B6</color>
+    <color>#171321</color>
+    <color>#45404B</color>
+    </color-palette>
+
+    <color-palette name="Transparent" type="regular">
+    <color>#FFFFFF00</color>
+    </color-palette>
+
+    </preferences>
+    </workbook>
+    ```
+
+    </details>
+
+4. Save **Preferences.tps** file and close
+5. Restart Tableau and the palette should now be available at the bottom of the list
+
+For more information see [Tableau's Color Palette](https://help.tableau.com/current/pro/desktop/en-us/formatting_create_custom_colors.htm).
 
 ### Rounding
 
