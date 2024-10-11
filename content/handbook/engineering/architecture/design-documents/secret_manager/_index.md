@@ -396,7 +396,7 @@ and role (for users, when not using explicit grants) will grant access to
 specific subsets of secrets. These policies are maintained and stored in
 OpenBao, but GitLab Rails is tasked with managing and provisioning them.
 
-Notably, no Rails-initiated [operations](#types-of-operations) are expected
+Notably, no Rails-initiated [operations](decisions/008_no_database.md#types-of-operations) are expected
 to span multiple tenant contexts. This allows us to add per-namespace ACLs
 in the future and create smaller path->policy indices in the future.
 Furthermore, we can use nested paths to segment different policies and build
@@ -404,8 +404,8 @@ per-segment indices, reducing the list operation overhead as well.
 
 For each policy, we'll present create a [group alias](https://openbao.org/api-docs/secret/identity/group-alias/)
 to allow a `groups_claim` on the Rails-issued JWT to select applicable ACL
-policies based. A [future enhancement](#jwt-direct-profiles) will allow us
-to get rid of all but [glob-based group matches](#group-alias-glob-matching).
+policies based. A [future enhancement](decisions/008_no_database.md#jwt-direct-profiles) will allow us
+to get rid of all but [glob-based group matches](decisions/008_no_database.md#group-alias-glob-matching).
 
 ##### Hierarchy of policies
 
@@ -414,7 +414,7 @@ until they are migrated to proper namespaces.
 
 For each project, we'll provision ACL policies prefixed with `project_{id}/`:
 this path separator component is an allowed character in policy names and
-allows us to use a [future extension](#acl-list-prefix) to list just policies
+allows us to use a [future extension](decisions/008_no_database.md#acl-list-prefix) to list just policies
 we are interested in and will let us reduce the size (and increase the
 relevance) of indices.
 
@@ -474,7 +474,7 @@ A full path of an ACL would thus look like the following examples:
 - `project_12345/pipelines/combined/env/prod-*/branch/release/*`.
 
 Notably, the direct encoding of restriction to path allows for us to create
-groups with [the same encoding](#group-alias-glob-matching), reducing the
+groups with [the same encoding](decisions/008_no_database.md#group-alias-glob-matching), reducing the
 need for GitLab Rails to query the set of restrictions before issuing the
 JWT. Use of `combined` as a prefix ensures we cannot have confusion attacks
 with poorly named environments and branches.
@@ -517,7 +517,7 @@ path "user_12345/project_54321/secrets/kv/data/explicit/PROD_DB_PASS" {
 
 Notably, because a pipeline will have multiple contexts which might provision
 different ACL policies, we'll eventually want to implement something similar
-to [policy unions](#policy-unions).
+to [policy unions](decisions/008_no_database.md#policy-unions).
 
 ##### User ACL
 
