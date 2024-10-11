@@ -38,7 +38,7 @@ The [product roadmap](https://gitlab.com/gitlab-com/Product/-/issues/12911) outl
 1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - this is deferred from FY25 due to capacity constraints in Verify.
 1. CI Cache - TBD
 
-#### FY24
+### FY24
 
 The Verify Pipeline teams focused on the following Engineering-led initiatives, in addition to our deliverables for the [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies):
 
@@ -50,7 +50,7 @@ The Verify Pipeline teams focused on the following Engineering-led initiatives, 
     1. Note that this also includes the `Continuous Integration` category, which has the biggest backlog of bugs in Verify.  While it may be considered to be "Maintenance" (no new feature development planned), this work remains critical in ensuring we keep GitLab CI performant and reliable.
     1. [Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/) owns the `Continuous Integration` category. The team is also the DRI for CI Data Partitioning and Pipeline speed improvement efforts.
 
-#### FY23
+### FY23
 
 The Verify stage focused on reliability and scalability of GitLab CI, which was critical for the availability of gitlab.com.  This included addressing database performance, security vulnerabilities, performance improvements and relevant technical debt.
 This ensured GitLab remained secure, compliant and performant, with our SaaS offering that was able to maintain [SLAs of gitlab.com](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
