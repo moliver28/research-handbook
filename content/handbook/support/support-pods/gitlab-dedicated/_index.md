@@ -16,7 +16,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 ## Support Pod members
 
 - Overall/AMER lead: {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
-- Co-lead: {{< member-by-name "Wei-Meng Lee" >}} (`@weimeng`)
+- Co-lead: {{< member-by-name "Wei-Meng Lee" >}} (`@weimeng-gtlb`)
 - APAC lead: {{< member-by-name "Daphne Kua" >}} (`@dkua1`)
 - EMEA lead: {{< member-by-name "Armin Hergenhan" >}} (`@ahergenhan`)
 - US Gov lead: {{< member-by-name "Wade Jenkins" >}} (`@wwjenkins`)

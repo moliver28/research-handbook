@@ -8,7 +8,7 @@ focused on GitLab [Secure stage](/handbook/product/categories/#secure-stage) fea
 
 ## Secure Pod members
 
-- Lead: {{< member-by-name "Katrin Leinweber" >}} (`@katrinleinweber`)
+- Lead: {{< member-by-name "Katrin Leinweber" >}} (`@katrinleinweber-gtlb`)
 - Lead: {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
 - {{< member-by-name "Christopher Chewa Mutua" >}} (`@cmutua`)
 - {{< member-by-name "Mario Mora" >}} (`@mmora`)
