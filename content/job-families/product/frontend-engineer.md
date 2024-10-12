@@ -36,6 +36,7 @@ Frontend engineers in UX collaborate closely with [product designers](/job-famil
 [Staff Frontend Engineer](/job-families/product/frontend-engineer/#staff-frontend-engineer)
 
 ## Performance Indicators
+
 - [Pajamas adoption rate](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - UX Engineering MR rate
 - [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux)
