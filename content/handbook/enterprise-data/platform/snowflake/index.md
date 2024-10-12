@@ -41,4 +41,3 @@ We often have cases where the connectivity was lost and the query keeps trying t
 
 We leverage automatic monitors in `MonteCarlo` for monitoring the freshness of the data.
 
-## Clustering in Snowflake
