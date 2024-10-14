@@ -181,6 +181,8 @@ Team members should enter the time away into 'Workday' by selecting the label `B
 
 ### Service Duty Leave
 
-In Israel, team members serving on reserve duty must still be paid by their employer. Military service is mandatory in Israel.
+Military service is mandatory in Israel. Team members should enter the time away into 'Workday' by selecting the label `Military Service` under the `Leaves` dropdown menu.
 
-Team members should enter the time away into 'Workday' by selecting the label `Military Service` under the `Leaves` dropdown menu.
+In Israel, team members serving on reserve duty will still be paid by GitLab and [GitLab will then apply for a refund of reservist’s benefit](https://www.btl.gov.il/English%20Homepage/About/Frequent_questions/HarvotBarzelOuestions/Reserve%20service/MasikimMilQ/Pages/default.aspx). The team member should provide confirmation from the army of the reserve duty period (by a form 3010), unless exempt from doing so. Where a differential is received by GitLab for a benefit of a higher amount than a team member's wage, this differential will be paid to the team member.
+
+Note that a 40% supplement on reserve benefit will be paid proactively by the National Insurance, without the need to file a claim once the exact period of service of each reservist can be determined. 
