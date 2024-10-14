@@ -1,4 +1,6 @@
-Emily Plotkin's README
+---
+title: "Emily Plotkin's README"
+---
 
 **Emily Plotkin, Senior Director, Legal - Employment**
 
