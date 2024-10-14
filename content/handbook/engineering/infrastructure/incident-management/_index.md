@@ -329,13 +329,16 @@ In some scenarios it may be necessary for most all participants of an incident (
 
 ## Corrective Actions
 
-Corrective Actions (CAs) are work items that we create as a result of an incident. Only issues arising out of an incident should receive the label "corrective action". They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
-
-Work items identified in incidents that don't meet the Corrective Action criteria should be raised in the [Reliability project](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new) and labeled with `~work::incident` rather than `~corrective action`
-
-Corrective Actions should be related to the incident issue to help with downstream analysis, and it can be helpful to refer to the incident in the description of the issue.
+Corrective Actions (CAs) are work items that we create as a result of an incident.
+Only issues arising out of an incident should receive the label `~"corrective action"`.
+They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
+Corrective Actions must be related to the incident issue to help with downstream analysis.
 
 Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+
+Issues that have the `~"corrective action"` label will automatically have the `~"infradev"` label applied.
+This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+For more details see the [infradev process](/handbook/product/product-processes/#infradev).
 
 ### Best practices and examples, when creating a Corrective Action issue
 

@@ -92,10 +92,14 @@ Once you've determined a severity for an issue add a note that explains in summa
 
 ### Severity SLOs
 
-The severity label also helps us define the time a ~"type::bug" or ~"corrective action" of that severity should be completed.
+The severity label also helps us define a completion time for issues with the following labels:
+
+- `~"type::bug"`
+- `~"infradev"`
+
 This indicates the expected timeline & urgency which is used to measure our SLO targets.
 
-| **Severity**   | Incident root cause analysis `~corrective action` SLO | `~"type::bug"` resolution SLO | `~"GitLab.com Resource Saturation"` resolution SLO | Security `~vulnerability` SLO |
+| **Severity**   |  `~infradev` SLO | `~"type::bug"` resolution SLO | `~"GitLab.com Resource Saturation"` resolution SLO | Security `~vulnerability` SLO |
 |----------------|---------|--------------------------------------------------------------------------------| ----|-----|
 | `~"severity::1"` | 1 week  | The current release + next available deployment to GitLab.com (within 30 days) | Within 2 months | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) |
 | `~"severity::2"` | 30 days | The next release (60 days)                                                   |  | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/)  |
