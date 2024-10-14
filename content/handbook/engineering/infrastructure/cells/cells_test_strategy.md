@@ -78,7 +78,7 @@ Organizations provides the capability for a company to have the ability to bette
 
 ### Router
 
-The [HTTP Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/http_routing_service/) and the [SSH Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/ssh_routing_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. The router level tests will be tied to the [Multiple Cells tests](#multiple-cells).
+The [HTTP Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/http_routing_service/) and the [SSH Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/ssh_routing_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. The router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
 
 
 ### Topology Service
