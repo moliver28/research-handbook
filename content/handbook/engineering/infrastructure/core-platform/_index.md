@@ -227,8 +227,8 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | June  |           |       |          |
 | July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
 | August | @sxuereb | [PromQL Basics, Mimir and our exporters](https://docs.google.com/presentation/d/1BhH0Ga_gtwoaiILCQEWYo4XdFidznT5Uk2v6D3QF7hw)       | https://youtu.be/CPo1-__wdh8 |
-| September | @mkaeppler | Life of a Cloud Connector request |          |
-| October |  @bshah11     |    TBD  ||
+| September | @mkaeppler | [Life of a Cloud Connector request](https://docs.google.com/presentation/d/1-T6PNMBFhBJMtfGdfjMsgMcgSHXtLzDd4T8lrTMkDHg/edit#slide=id.g1e546bbceaf_0_1402) | https://youtu.be/DeTh9dhDrnw         |
+| October |  @bshah11     |    Kubernetes Operators for PostgreSQL  ||
 | November |        |       |          |
 | December |        |       |          |
 
