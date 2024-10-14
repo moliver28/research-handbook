@@ -1,8 +1,15 @@
 {{- $section := .Get "section" }}
 {{- $sep := "," }}
-{{- $csv := getCSV $sep "csv/timetable.csv" }}
-{{- range $i, $r := after 1 $csv }}
-{{- if eq (index . 2) $section }}
-`{{ index . 7 }}`
-{{- end }}
+
+{{- $csvFile := resources.Get "csv/timetable.csv" }}
+{{- if $csvFile }}
+  {{- $csv := $csvFile | transform.Unmarshal (dict "delimiter" $sep) }}
+
+  {{- range $i, $r := after 1 $csv }}
+  {{- if eq (index . 2) $section }}
+  `{{ index . 7 }}`
+  {{- end }}
+  {{- end }}
+{{- else }}
+  <p>Error: CSV file could not be loaded.</p>
 {{- end }}

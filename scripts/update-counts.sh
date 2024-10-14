@@ -7,7 +7,7 @@ mr_count () {
     echo Performing page count on the Handbook...
     PAGECOUNT=$(find content/handbook -type f -name "*.md" | LC_ALL=C wc -l)
     echo Updating counts for the handbook.
-    COUNT_FILE=csv/handbook-count.csv
+    COUNT_FILE=assets/csv/handbook-count.csv
     # Append latest data
     echo $TODAY,$WORDCOUNT,$PAGECOUNT,Live Count >> $COUNT_FILE
 }
@@ -20,7 +20,7 @@ clone_repo () {
 }
 
 quarterly_count () {
-    COUNT_FILE=/tmp/handbook/csv/handbook-count.csv
+    COUNT_FILE=/tmp/handbook/assets/csv/handbook-count.csv
     echo Performing quarterly word count on the Handbook...
     WORDCOUNT=$(find /tmp/handbook/content/handbook -type f -name "*.md"  -exec cat {} + | LC_ALL=C wc -w)
     echo Performing quarterly page count on the Handbook...
@@ -31,7 +31,7 @@ quarterly_count () {
 
 legacy_handbook_count () {
     echo Starting www-gitlab-com quartly count
-    COUNT_FILE=/tmp/handbook/csv/about-count.csv
+    COUNT_FILE=/tmp/handbook/assets/csv/about-count.csv
     REPO="https://gitlab.com/gitlab-com/www-gitlab-com.git"
     # Clone legacy repo
     echo "Cloning the www-gitlab-com repo"
@@ -46,8 +46,8 @@ legacy_handbook_count () {
 
 push_to_main () {
     cd /tmp/handbook
-    git add csv/about-count.csv
-    git add csv/handbook-count.csv
+    git add assets/csv/about-count.csv
+    git add assets/csv/handbook-count.csv
     git commit -m "Update handbook word and page counts"
     git push origin main
 }
