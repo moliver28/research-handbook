@@ -168,7 +168,7 @@ The GitLab Duo add on can only be purchased by paid Premium and Ultimate custome
 New users can trial in GitLab.com after first requesting an Ultimate trial.
 It is not possible to trial Duo in Self Managed instances with Community Edition or Enterprise Edition without a license (Free).
 
-Un Ultimate Subscription is required to trial GitLab Duo Enterprise. Premium customers can only trial GitLab Duo Pro. The features availalbe in Duo Pro and Duo Enterprise are [listed here](https://about.gitlab.com/gitlab-duo/#pricing).  
+An Ultimate Subscription is required to trial GitLab Duo Enterprise. Premium customers can only trial GitLab Duo Pro. The features available in Duo Pro and Duo Enterprise are [listed here](https://about.gitlab.com/gitlab-duo/#pricing).  
 
 | Subscription type | Process |
 | ----------------- | ------- |
