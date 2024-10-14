@@ -120,20 +120,42 @@ The Staff Solutions Architect is a [grade 9](/handbook/total-rewards/compensatio
 
 #### Staff Solutions Architect Responsibilities
 
-- Extends the Senior Solutions Architect responsibilities.
-- Build and deliver high-value and reusable enablement content that measurably improves the team's effectiveness and execution.
-- Sustain mentorship for specific members of the Solutions Architecture team to improve our technical win rate and increase Net ARR.
+- Extends the Senior Solutions Architect responsibilities with a company-wide scope
+
+##### Technical Guidance and Mentorship
+
+- Build and deliver high-value and reusable enablement content that measurably improves the team's effectiveness and execution on a regular basis.
+- Sustain mentorship for specific members of the Solutions Architecture team to improve our technical win rate, increase NetARR, fostering a culture of continuous learning and improvement.
 - Guide Solution Architect team members through complex customer opportunities and activity.
-- Advise Solution Architect team members on [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) strategies and patterns.
-- Deliver product roadmap discussions.
+- Advise Solution Architect team members on [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) and [Customer Success Planning](/handbook/solutions-architects/sa-practices/customer-success-plan/) strategies and patterns leading to shorter sales cycles and faster product adoption.
+- Run high-value SA activity enablement sessions with team members, both new (training) and existing (best practices) (e.g., Value Stream Workshops, Day in the Life, Duo Workshops, etc.)
+
+##### Cross-Functional Collaboration and driving innovation
+
+- Consolidate Field Feedback to drive product roadmap discussions (outside-in) and be informed of the product roadmap for at least one product area, and inform team members of changes to come in the near term.
+- Be the DRI for a Subject Matter Expert Group in a region.
 - Architect innovative solutions leveraging 3rd party and GitLab technologies that lead to new use cases and revenue opportunities.
+- Build connections/relationships with key regional/geo partners, alongside the Ecosystem SA team.
+
+##### Customer Engagement and Solution Ownership
+
+- Serve as the primary technical point of contact for high-value customers, ensuring high customer satisfaction, solution adoption and success rate of renewals or upsells.
+- Lead efforts to identify potential risks in architectural design and ensure compliance with industry standards and regulations
+
+##### Thought Leadership and Evangelism
+
 - Maintain a positive personal brand through GitLab-relevant participation in channels such as conferences, blogging, social media, or volunteering for external technical committees or communities of practice.
-- Run full Value Stream Assessment enablement sessions with team members, both new (training) and existing (best practices)
+- Develop and drive the strategic technical vision for large-scale, complex projects, ensuring alignment with GitLab's overall business objectives
 
 #### Staff Solutions Architect Requirements
 
 - Extends the Senior Solutions Architect requirements
 - Has experience with the additional responsibilities of a Staff Solutions Architect
+- Technical proficiency with deep understanding of cloud architectures (AWS, Azure, GCP), containerization, DevOps practices and modern software development frameworks and languages
+- Ability to define clear outcomes and expectations that align with high-level organizational goals.
+- Experience leading and mentoring technical and cross-functional teams
+- Proven ability to collaborate and communicate effectively with senior stakeholders, including executives and business leaders (internal and external)
+- Ability to emphasize thought leadership and strategic decision-making in order to lead initiatives
 
 ### Principal Solutions Architect
 
