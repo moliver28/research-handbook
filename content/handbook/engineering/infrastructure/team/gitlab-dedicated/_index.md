@@ -688,7 +688,7 @@ Some tips:
 1. For items that need to be monitored it is encouraged to attach the current forecast in the comment;
    the forecast will likely change in place over the following weeks, and the history can be useful.
 1. Look for the component / alert name in the
-   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
+   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues) can be a good source of information,
    as some recurring saturation forecast share the same or similar causes,
    or just to gain some insight into how these issues have been investigated and resolved in the past.
 1. Remember that some items may alert across multiple tenants.
