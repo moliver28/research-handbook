@@ -78,11 +78,7 @@ Organizations provides the capability for a company to have the ability to bette
 
 ### Router
 
-The [HTTP Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/http_routing_service/) and the [SSH Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/ssh_routing_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined.
-
-Test scenarios of interest so far:
-- `As an end user, I seemlessly log into the correct Cell`
-- `As an end user, my SSH traffic seemlessly is directed to the correct Cell`
+The [HTTP Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/http_routing_service/) and the [SSH Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/ssh_routing_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. The router level tests will be tied to the [Multiple Cells tests](#multiple-cells).
 
 
 ### Topology Service
@@ -91,7 +87,7 @@ The [Topology Service Blueprint definition](https://handbook.gitlab.com/handbook
 
 ### Pre-QA Cell
 
-The [Pre-QA Cell](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293) is being used for deployment testing purposes and may make use of the E2E test suite as part of deployment testing, but as a verification that the deployment was successful rather than as a feature/functionality test. It is deployed in Ring 0
+The [Pre-QA Cell](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293) is being used for deployment testing purposes and may make use of the E2E test suite as part of deployment testing, but as a verification that the deployment was successful rather than as a feature/functionality test. It is deployed in Ring 0.
 
 ## Performance Testing
 
