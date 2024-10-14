@@ -15,18 +15,26 @@
 </thead>
 <tbody>
 {{ $sep := "," }}
-{{ $csv := getCSV $sep "csv/timetable.csv" }}
-{{ range $i, $r := after 1 $csv }}
-<tr>
-<td>{{ index . 0 | emojify }}</td>
-<td><a href="#{{ index . 1 | anchorize  }}">{{ index . 1 }}</a></td>
-<td>{{ index . 3 }}</td>
-<td>{{ index . 4 }}</td>
-<td>{{ index . 5 }}</td>
-<td>{{ index . 6 }}</td>
-<td>{{ index . 7 }}</td>
-</tr>
-{{ end }}
+
+{{- $csvFile := resources.Get "csv/timetable.csv" }}
+{{- if $csvFile }}
+  {{- $csv := $csvFile | transform.Unmarshal (dict "delimiter" $sep) }}
+
+  {{ range $i, $r := after 1 $csv }}
+  <tr>
+  <td>{{ index . 0 | emojify }}</td>
+  <td><a href="#{{ index . 1 | anchorize  }}">{{ index . 1 }}</a></td>
+  <td>{{ index . 3 }}</td>
+  <td>{{ index . 4 }}</td>
+  <td>{{ index . 5 }}</td>
+  <td>{{ index . 6 }}</td>
+  <td>{{ index . 7 }}</td>
+  </tr>
+  {{ end }}
+{{- else }}
+  <p>Error: CSV file could not be loaded.</p>
+{{- end }}
+
 </tbody>
 </table>
 
