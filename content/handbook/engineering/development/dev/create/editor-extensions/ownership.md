@@ -5,7 +5,9 @@ description: This page provides clarity and a clear expectation between all part
 
 ## Context
 
-Multiple groups contribute to features exposed through our editor extensions. This can create ambiguity regarding ownership and maintenance responsibilities. This document outlines an agreed-upon approach for consistent ownership attribution, aligning expectations and improving efficiency among all involved parties.
+Multiple groups contribute to features exposed through our editor extensions. This can create ambiguity regarding ownership and maintenance responsibilities. This document outlines an agreed-upon approach for consistent ownership attribution, aligning expectations and improving efficiency among all involved parties. 
+
+Owning a system part means being responsible for feature development, bug-fixes, and general maintenance of the affected part. Ideally, a team has maintainers in the system part they own to be more independent of the editor extensions team, but this is not a strict requirement.
 
 ## System overview
 
