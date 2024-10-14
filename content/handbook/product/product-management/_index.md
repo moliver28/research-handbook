@@ -80,6 +80,7 @@ The following ~customer is interested in this capability
 - Why interested:
 - Problem they are trying to solve:
 - Current solution for this problem:
+- Requested timeline:
 - Impact to the customer of not having this:
 - Questions:
 - PM to mention:
