@@ -45,7 +45,7 @@ Currently used by **Duo Workflow** and soon to be used by **Duo Chat**.
 
 ## Process of notifying others
 
-* When a team starts working on a feature:
+* When a team starts working on a feature that will require Editor Extensions support:
   * PM/EM will notify **Create:Editor Extensions** group's PM/EM - this allows the team to forecast the capacity necessary to support in the near future
 * When the UI of the feature is ready:
   * the authoring team opens an integration MR
