@@ -3,7 +3,7 @@ title: GitLab Trial Guidelines
 description: GitLab Trial Guidelines
 ---
 
-By default, GitLab allows you to trial the entire AI powered DevSecOps platform for free. This gives you full access to nearly all the [Ultimate-tier](https://about.gitlab.com/pricing/ultimate/) and [Duo Pro](https://about.gitlab.com/gitlab-duo/#features) features.
+By default, GitLab allows you to trial the entire AI powered DevSecOps platform for free. This gives you full access to nearly all the [Ultimate-tier](https://about.gitlab.com/pricing/ultimate/) and [GitLab Duo](https://about.gitlab.com/gitlab-duo/#features) features.
 
 With GitLab, teams can collaborate through the entire Software Development Lifecycle from a single tool, allowing you to develop and deploy more secure software, faster. 
 
@@ -161,19 +161,23 @@ References
 - [Support Internal Requests](/handbook/support/internal-support/#internal-requests)
 - [Support Super Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
 
-## Trialing GitLab Duo Pro (AI)
+## Trialing GitLab Duo (AI)
 
-The Duo Pro add on can only be purchased by paid Premium and Ultimate customers. The Duo Pro trial is available for up to 60 days.
+The GitLab Duo add on can only be purchased by paid Premium and Ultimate customers. The Duo trial is available for up to 60 days.
 
 New users can trial in GitLab.com after first requesting an Ultimate trial.
-It is not possible to trial Duo Pro in Self Managed instances with Community Edition or Enterprise Edition without a license (Free).
+It is not possible to trial Duo in Self Managed instances with Community Edition or Enterprise Edition without a license (Free).
+
+An Ultimate Subscription is required to trial GitLab Duo Enterprise. Premium customers can only trial GitLab Duo Pro. The features available in Duo Pro and Duo Enterprise are [listed here](https://about.gitlab.com/gitlab-duo/#pricing).  
 
 | Subscription type | Process |
 | ----------------- | ------- |
 | I am new to GitLab | Follow the instructions above to create your GitLab.com account and request an Ultimate trial. Then follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial). |
-| SaaS Premium | Follow these instructions to request a trial and assign the seats. |
-| Self Managed Community Edition / Self Managed Enterprise Edition Free  | To trial Duo Pro, you will need to create a GitLab.com account dedicated to the trial (follow the “I am new to GitLab” instructions). Note: you do not have to add projects in this account to trial Duo Pro features in your IDE. Simply generate a [personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) to configure the supported [IDE extension](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/supported_extensions.html). You will be able to use [Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) and [Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/). However, AI features implemented in the UI such as [Repository X-ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) will not be available.   |
-| Self Managed Enterprise Edition Premium | Request a trial using [this online form](https://about.gitlab.com/solutions/gitlab-duo-pro/self-managed-and-gitlab-dedicated-trial/) and follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#on-self-managed-and-gitlab-dedicated). |
+| SaaS Premium | Follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial) to request a Duo Pro trial and assign the seats. |
+| SaaS Ultimate | Follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial) to request a Duo Enterprise trial and assign the seats. |
+| Self Managed Community Edition / Self Managed Enterprise Edition Free  | To trial Duo, you will need to create a GitLab.com account dedicated to the trial (follow the “I am new to GitLab” instructions). Note: you do not have to add projects in this account to trial Duo Pro features in your IDE. Simply generate a [personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) to configure the supported [IDE extension](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/supported_extensions.html). You will be able to use [Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) and [Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/).   |
+| Self Managed Enterprise Edition Premium | Request a trial using [this online form](https://about.gitlab.com/solutions/gitlab-duo-pro/self-managed-and-gitlab-dedicated-trial/) and follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#on-self-managed-and-gitlab-dedicated) to trial Duo Pro. |
+| Self Managed Enterprise Edition Ultimate | Request a trial using [this online form](https://about.gitlab.com/solutions/gitlab-duo-pro/self-managed-and-gitlab-dedicated-trial/) and follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#on-self-managed-and-gitlab-dedicated) to trial Duo Enterprise. |
 
 ## Learning how to use the platform
 
