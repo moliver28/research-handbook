@@ -18,6 +18,13 @@ There are two areas that are the Ops team primary focus:
 2. Disaster Recovery - Ops is responsible for managing our disaster recovery processes with a particular focus on reducing our RTO
 3. Patching Processes - Ops is responsible for defining and maintaining the GitLab.com patching process
 
+## Getting Assistance
+
+Should you require assistance from the Ops team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) and add make sure to add the label ~"team::Ops" 
+
+- We also have team handles that ping the full team
+  - GitLab: `@gitlab-org/production-engineering/ops`
+
 ## How We Work - Prioritization
 
 ### Project Management
