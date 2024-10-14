@@ -117,6 +117,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Google Search Console](https://search.google.com/search-console/about) | Fivetran | `google_search_console` | `google_search_console` | Marketing | 24h / 48h | No | Tier 2 |
 | [Graphite API](https://graphite-api.readthedocs.io/en/latest/) | Airflow | `engineering_extracts` | x | Engineering | 24h / 48h | No | Tier 3 |
 | [Greenhouse](https://www.greenhouse.io/) | Sheetload | `greenhouse` | `greenhouse` | People | 24h / 48h | No | Tier 2 |
+| [Hackerone](https://www.hackerone.com/) | Airflow | `hackerone` | x | Security/Engineering | 24h / 48h | No | Tier 2 |
 | [Handbook YAML Files](https://gitlab.com/gitlab-data/analytics/-/tree/master/extract/gitlab_data_yaml) | Airflow | `gitlab_data_yaml` | `gitlab_data_yaml` | Multiple | 8h / 24h | No | Tier 2 |
 | [Handbook MR Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/handbook_mrs_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 24h / 24h | No | Tier 2 |
 | [Handbook Git Log Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/values_page_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 1w / 1m | No | Tier 2 |
