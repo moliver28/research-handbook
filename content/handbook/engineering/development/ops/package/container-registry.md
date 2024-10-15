@@ -56,9 +56,9 @@ Additionally, we maintain a list of active projects and the assigned DRI on this
 
 Authors of merge requests related to a specific project should request a review from the assigned DRI or backup DRI to ensure they are aware of the changes and can provide the necessary oversight.
 
-### Alert management
+### Alert and CI flake management
 
-The team is responsible for monitoring the Slack channel [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) where alerts are displayed for the registry service and code base (broken master). Service alerts are configured in
+The team is responsible for monitoring the Slack channel [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) where alerts and CI notifications failures are displayed for the registry service and code base (broken master). Service alerts are configured in
 the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/registry) and they follow the infrastructure team
 process to define them.
 
@@ -68,21 +68,20 @@ The team has agreed on the following process to handle alerts:
 
 1. There is no person formally on-call (unless otherwise agreed during certain periods, e.g. end of year holidays).
 1. Everyone is responsible for keeping an eye on [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) during their working hours.
-1. When there is an alert(s):
+1. When there is an alert(s)/CI notifications:
    1. Add an 👀 emoji to the alert to signal it is being looked at.
    1. Click on an alert for details. Each alert may contain the following:
       - Runbook - how to deal with the alert.
       - Dashboard - link to Grafana that chart related to the metric that triggered the alert.
       - Pipeline that failed - broken `master`.
       - Sentry issue - contains stacktrace to alert origin.
-   1. Review logs:
-      - [non-prod logs](https://nonprod-log.gitlab.net/goto/f3fbccdb9dea6805ff5bbf1e0144a04e)
-      - [prod logs](https://log.gprd.gitlab.net/goto/7dc6f73d5dd4cc4bebcd4af3b767cae4)
+   1. Use the available [resources](#resources) to evaluate the problem.
    1. Determine if it's safe to ignore:
       - There is an existing issue for this alert. If so, add an occurrence of this problem in the issue.
       - The logs/dashboards show that the issue seems to be resolved. For example, when the Pending Tasks metric for the online garbage collector is going down after a sudden peak and there are no errors in the logs.
       - The alert has been automatically resolved.
-      - Open an issue if this requires attention in the future.
+      - Open an issue if this requires attention in the future. If the alert/ci notification is due to a flake, identify the severity of the failure and add an appropriate priority label, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
+      - If this is a recurring alert that was deemed as safe to ignore, consider raising an issue to adjust the alert thresholds, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
    1. Otherwise:
       - Review the [#production](https://gitlab.enterprise.slack.com/archives/C101F3796) channel and the [#incident-management](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1) channel for existing incidents that may be related.
       - If there is an ongoing incident, consider helping or reaching out to the team for assitance.
@@ -90,6 +89,32 @@ The team has agreed on the following process to handle alerts:
       - Share details in the [#g_container-registry](https://gitlab.enterprise.slack.com/archives/CRD4A8HG8) channel to raise awereness.
       - Ping people as needed.
    1. Add a comment as a thread to the alert that you reviewed.
+   1. Once the problem has been resolved or the required short-term investigation is complete, react with a ✅ emoji to the notification.
+
+#### Resources
+
+**Logs**
+
+- [Non-production](https://nonprod-log.gitlab.net/goto/f3fbccdb9dea6805ff5bbf1e0144a04e)
+- [Production](https://log.gprd.gitlab.net/goto/7dc6f73d5dd4cc4bebcd4af3b767cae4)
+
+**Dashboards**
+
+- [Overview](https://dashboards.gitlab.net/d/registry-main/registry-overview?orgId=1)
+- [Application](https://dashboards.gitlab.net/d/registry-app/registry-application-detail?orgId=1)
+- [Online GC](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1)
+- [Database](https://dashboards.gitlab.net/d/registry-database/registry-database-detail?orgId=1)
+- [Redis](https://dashboards.gitlab.net/d/registry-redis/registry-redis-detail?orgId=1)
+- [Storage](https://dashboards.gitlab.net/d/registry-storage/registry-storage-detail?orgId=1)
+- [Notifications](https://dashboards.gitlab.net/d/registry-notifications/registry-webhook-notifications-detail?orgId=1)
+- [PgBouncer](https://dashboards.gitlab.net/d/pgbouncer-registry-main/pgbouncer-registry-overview)
+- [Patroni](https://dashboards.gitlab.net/d/patroni-registry-main/patroni-registry-overview?orgId=1)
+- [HAProxy](https://dashboards.gitlab.net/goto/XjJH_8zHR?orgId=1)
+- [Redis Cache Server](https://dashboards.gitlab.net/d/redis-registry-cache-main/redis-registry-cache-overview?orgId=1)
+
+**Other**
+
+- [Profiler](https://console.cloud.google.com/profiler/gitlab-registry/cpu?project=gitlab-production&pli=1)
 
 ## 📈 Measuring results
 
