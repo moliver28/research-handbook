@@ -23,7 +23,6 @@ The team's technical strategy is crucial for ensuring the quality, reliability, 
 
 Read through our [technical roadmap here](https://gitlab.com/gitlab-org/modelops/team-tasks/-/issues/39).
 
-
 ## 🚀 Team members
 
 The team is composed of [ML engineers](/job-families/engineering/development/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.
