@@ -122,7 +122,7 @@ The SEM role accommodates managers who have a broad span of control (multiple te
 
 - Scores range from 1 (no examples of this behavior) to 5 (strong and frequent examples of this behavior)
 - Span of control and Sphere of influence sections have required minimums
-- While 3's (showing the competency, maybe not strongly or frequently) are not frowned upon, a strong candidate should strive for mostly 4's and 5's
+- While demonstrating competencies at level 3 is acceptable, exceptional candidates should consistently aim to perform at levels 4 and 5, showcasing strong and frequent application of skills
 - Use this rubric loosely to allow for nuances, and as a career development discussion starter
 - Consider organizational readiness to accommodate a new SEM, and seek out other opportunities within the organization that might have these capabilities
 
