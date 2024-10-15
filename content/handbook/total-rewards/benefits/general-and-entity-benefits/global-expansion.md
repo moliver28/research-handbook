@@ -458,7 +458,7 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 
 ### Medical Allowance
 
-Either ZAR 5,000 /month for a single employee or ZAR 8,500/month for the employee and legal dependents. Team Members are required  to share proof of registration to the GitLab Total Rewards team (total-rewards@gitlab.com). If a team member has a change in cost, please ensure to email the new proof of cost and cover to the Total Rewards team and upload a copy to the GX1 platform.
+Up to ZAR 5,000 /month for a single employee or up to ZAR 8,500/month for the employee and legal dependents (not a flat amount). Team Members are required  to share proof of registration to the GitLab Total Rewards team (total-rewards@gitlab.com). If a team member has a change in cost, please ensure to email the new proof of cost and cover to the Total Rewards team and upload a copy to the GX1 platform.
 
 ### Provident fund
 
