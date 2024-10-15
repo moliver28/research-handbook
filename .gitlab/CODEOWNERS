@@ -119,8 +119,6 @@
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
 /content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
-/content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
-/content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
@@ -140,7 +138,6 @@
 /content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
-/content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
 /content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
@@ -151,8 +148,9 @@
 /content/handbook/engineering/development/growth/ @kniechajewicz
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/deploy/ @nmezzopera
-/content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
-/content/handbook/engineering/development/ops/monitor/respond/ @hbenson @francoisrose
+/content/handbook/engineering/development/ops/monitor/optimize.md @blabuschagne @dennis
+/content/handbook/engineering/development/ops/monitor/platform-insights.md @nicholasklick @mappelman @dennis
+/content/handbook/engineering/development/ops/monitor/analytics-instrumentation/ @bastirehm @timzallmann @dennis
 /content/handbook/engineering/development/ops/package/ @crystalpoole
 /content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams
 /content/handbook/engineering/development/ops/verify/pipeline-authoring/ @cheryl.li
