@@ -101,7 +101,6 @@ Interested reviewers for the projects below should complete the listed tasks in 
 - Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
 - Familiarize with [migration helpers](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/database/migration_helpers.rb) and review usage in existing migrations.
 - Familiarize with best practices in [database guides](https://docs.gitlab.com/ee/development/database/index.html).
-- Watch [Optimising Rails Database Queries: Episode 1](https://www.youtube.com/watch?v=79GurlaxhsI).
 - Read [Understanding EXPLAIN plans](https://docs.gitlab.com/ee/development/database/understanding_explain_plans.html).
 - Get yourself added to [`@gl-database`](https://gitlab.com/groups/gl-database/-/group_members) group and respond to @-mentions to the group (reach out to any maintainer on the group to get added). You will get TODOs on gitlab.com for group mentions..
 - Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for [`psql`/`AllFeaturesUser` access to database lab/postgres.ai](https://docs.gitlab.com/ee/development/database/database_lab.html#access-database-lab-engine) if you do not already have `AllFeaturesUser` access.
