@@ -45,12 +45,12 @@ The Product Designer is a [grade 6](/handbook/total-rewards/compensation/compens
 
 #### Responsibilities
 
-- **Product knowledge:** Have working knowledge of your [group](/handbook/product/categories/#hierarchy).
-- **Research:** Conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights into design decisions to fulfill user and business needs.
-- **Deliverables:** Create deliverables for your group (for example: JTBD, UX Scorecards, competitive evaluations, user flows, low fidelity wireframes, high fidelity mockups, prototypes, and so on) that solve real user problems through the user experience.
-- **Communication:** Communicate UX activities to the department, your group, and other team members using clear language that simplifies complexity.
-- **Usability:** Proactively identify both small and large usability issues within your group.
-- **Iteration:** Practice design iteration within the [validation track](/handbook/product-development-flow/#validation-track) and take part in the [monthly release process](/handbook/engineering/workflow/#product-development-timeline) by [breaking down the designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group. [Review and approve merge requests](/handbook/product/ux/product-designer/mr-reviews/) submitted by developers within the [build track](/handbook/product-development-flow/#build-track).
+- **Product knowledge:** Have working knowledge of the features in your [group](/handbook/product/categories/#hierarchy).
+- **Research:** Conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights to fulfill user and business needs.
+- **Deliverables:** Create tactical deliverables for your group that solve user problems (for example, competitive evaluations, user flows, low and high fidelity designs, prototypes).
+- **Communication:** Communicate UX activities to others with clear language that simplifies complexity.
+- **Usability:** Identify small and large usability issues in your group.
+- **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes.
 - **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com) by keeping design components available and up to date in design and prototyping tools, and ensuring that components fit together visually and functionally.
 - **UI copy:** Collaborate closely with a technical writer on microcopy and documentation suggestions.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback appropriately.
@@ -73,12 +73,12 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 
 Everything in the Product Designer role, plus:
 
-- **Product knowledge:** Deeply understand the technology and features of your [group](/handbook/product/categories/#hierarchy) and proactively learn about other groups.
-- **Research:** Proactively identify opportunities to do [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation).
-- **Deliverables:** Create deliverables for your group (for example: JTBD, UX Scorecards, competitive evaluations, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, design vision, and so on) that help define the vision and execution of solving real user problems through the user experience.
-- **Communication:** Communicate UX activities with a strong point of view that shows how they address user and business needs.
-- **Usability:** Proactively identify both small and large usability issues within your group, and help influence your product manager to prioritize them.
-- **Iteration:** Lead and coach iteration of design work within the [validation track](/handbook/product-development-flow/#validation-track) for your group.
+- **Product knowledge:** Have _deep knowledge of the technology and_ features in your [group](/handbook/product/categories/#hierarchy). _Have working knowledge of other groups._
+- **Research:** Conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights. _Identify research opportunities._
+- **Deliverables:** Create tactical deliverables for your group that solve user problems. _Define strategic outputs that connect vision to product outcomes (for example, JTBD, journey maps, storyboards, design visions)._
+- **Communication:** Communicate UX activities to others with clear language that simplifies complexity. _Show a strong perspective on how those activities address user and business needs._
+- **Usability:** Identify small and large usability issues in your group. _Influence their prioritization._
+- **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes. _Advocate for proper [iteration](/handbook/values/#iteration) practices in your group._
 - **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com), help determine whether components are single-use or multi-use, and provide recommendations to other designers regarding new component requests.
 - **UI copy:** Collaborate early and often with a technical writer on microcopy to ensure user experiences are efficient. Help improve docs and incorporate documentation within the UI as needed to assist users in moving through their workflows.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews), and model best practices for giving and receiving feedback.
@@ -102,11 +102,11 @@ The Staff Product Designer is a [grade 8](/handbook/total-rewards/compensation/c
 
 Everything in the Senior Product Designer role, plus:
 
-- **Product knowledge:** Deeply understand the technology and features of your [group](/handbook/product/categories/#hierarchy) and have working knowledge of the end-to-end GitLab product.
-- **Research:** Understand the nuances and considerations between problem and solution validation, mentor other designers on how they plan their research, and work with your product design manager on potential strategic research needs.
-- **Deliverables:** Create tactical and strategic deliverables for your group (for example: JTBD, UX Scorecards, wireframes, competitive evaluations, prototypes, journey maps, storyboards, design vision, and so on).
-- **Communication:** Set an example for frequent and effective asynchronous communication.
-- **Iteration:** Understand long-term goals in your group and help other designers break down designs into actionable steps.
+- **Product knowledge:** Have deep knowledge of the technology and features in your [group](/handbook/product/categories/#hierarchy). Have working knowledge of _the end-to-end product._
+- **Research:** Conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs._
+- **Deliverables:** Create tactical deliverables for your group that solve user problems. Define strategic outputs that connect vision to product outcomes. _Shape the deliverables with a focus on long-term vision and execution._
+- **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong perspective on how those activities address user and business needs. _Exemplify frequent and effective asynchronous communication._
+- **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes. Advocate for proper [iteration](/handbook/values/#iteration) practices in your group. _Help other designers break down designs._
 - **Thought leadership:** Promote best practices and support other designers in advocating for them within their teams.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
 - **Cross-stage collaboration:** Promote a holistic UX by proactively helping other designers navigate the organization and consider product overlaps, connections, and potential collisions.
@@ -131,11 +131,11 @@ The Principal Product Designer is a [grade 9](/handbook/total-rewards/compensati
 
 Everything in the Staff Product Designer role, plus:
 
-- **Product knowledge:** Deeply understand the technology and features within your projects and have working knowledge of the end-to-end GitLab product.
-- **Research:** Collaboratively identify and conduct strategic research with UX researchers, help other designers make connections across research efforts, enable accountability for design choices through research, and cultivate a learning culture in the organization.
-- **Deliverables:** Solve design problems for projects with high scope, complexity, and ambiguity, and reduce them to a more manageable state.
-- **Communication:** Guide conversations to remove blockers and encourage collaboration across teams.
-- **Iteration:** Lead and coach iteration in your projects, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
+- **Product knowledge:** Have deep knowledge of the technology and features in your _projects_. Have working knowledge of the end-to-end product.
+- **Research:** Conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
+- **Deliverables:** Create tactical deliverables for your _project_ that solve user problems. Define strategic outputs that connect vision to product outcomes. Shape the deliverables with a focus on long-term vision and execution. _Reduce the scope, complexity, and ambiguity of projects to a more manageable state._
+- **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong perspective on how those activities address user and business needs. Exemplify frequent and effective asynchronous communication. _Unblock conversations and encourage collaboration across teams._
+- **Iteration:** Practice design iteration and break down designs to fit the release cadence of your _projects_. Review merge requests with user-facing changes. _Coach iteration in your projects, and help others break down solutions into actionable steps, aligned with long-term goals._
 - **Deferred UX:** Mitigate the risk for [deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) in your projects with [MVCs](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), and help identify, prioritize, and fix when it occurs.
 - **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with managers and leaders, and enable other designers to engage on initiatives that span multiple product areas.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
