@@ -1,5 +1,5 @@
 ---
-title: Dogfooding for Product Managers
+title: Dogfooding for R&D
 ---
 
 ### Dogfood everything
@@ -42,11 +42,15 @@ designed to work for lots of different companies and personas. When we have
 _validated through research_ that the wider GitLab community wants a feature
 that doesn't align with how our organization works, dogfooding is not required.
 
-#### For Product Team Members
+#### For R&D Team Members
 
-As a Product organization, it's also our responsibility to ensure that the
+As an R&D organization, it's also our responsibility to ensure that the
 entire company dogfoods our product. We do this by:
 
+1. Add the [`Needs dogfooding`](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=Needs%20dogfooding) label to the issue tracking the feature. Ensure a feedback thread has been started on the issue.
+   {{% note %}}
+   In the future we intend to add tracking and visibility to see what features are requesting dogfooding and the engagement associated.
+   {{% /note %}}
 1. Promoting features internally when they are ready for everyday use to get as
 many internal users as possible. This is particularly valuable when you can get
 relevant teams using your feature in their daily work. This can be done by
