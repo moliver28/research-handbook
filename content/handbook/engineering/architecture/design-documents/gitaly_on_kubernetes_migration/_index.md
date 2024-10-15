@@ -47,7 +47,7 @@ It's important to note that this blueprint focuses solely on standalone Gitaly d
 
 ### Plan
 
-##### Repositories to make configuration changes 
+#### Repositories to make configuration changes 
 
 * [Gitaly](https://gitlab.com/gitlab-org/gitaly) - code changes that affect Gitaly application 
 * [Cloud Native GitLab container images (CNG)](https://gitlab.com/gitlab-org/build/CNG) - any changes that involve infra changes to the Gitaly pod's container images will be made here. 
