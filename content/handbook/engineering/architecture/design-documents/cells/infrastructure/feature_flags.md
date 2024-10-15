@@ -18,7 +18,7 @@ toc_hide: true
 ## Summary
 
 Feature flags are a powerful tool that provide SREs and developers a way to
-control behaviour of the application in a rapid manner.
+control behavior of the application in a rapid manner.
 
 Currently, with a single production instance, setting of feature flags is an
 operation that is performed with a single ChatOps command, and immediately
@@ -76,14 +76,14 @@ for cells, will not be discussed here.
 
 ### Key terms
 
-* ChatOps - [Chatops commands](https://docs.gitlab.com/ee/development/feature_flags/controls.html)
+- ChatOps - [ChatOps commands](https://docs.gitlab.com/ee/development/feature_flags/controls.html)
   are used to control feature flags on environments.
-* Tissue - The [Tissue](https://ops.gitlab.net/gitlab-com/gl-infra/cells/tissue/) project
+- Tissue - The [Tissue](https://ops.gitlab.net/gitlab-com/gl-infra/cells/tissue/) project
   is used for [coordinating changes in cells](managing_changes.md).
 
 ### Overview
 
-Chatops is currently used to set feature flags. A ChatOps command triggers
+ChatOps is currently used to set feature flags. A ChatOps command triggers
 a pipeline in the ChatOps project which sets the feature flag on production
 using the feature flag API. Feature flags on the legacy cell can continue
 to be set by this mechanism.
@@ -91,11 +91,11 @@ to be set by this mechanism.
 The set of feature flags enabled on the legacy cell and on other cells is expected
 to be different.
 
-Chatops can communicate with Tissue to set feature flags on cells. ringctl can
+ChatOps can communicate with Tissue to set feature flags on cells. ringctl can
 be used to create a patch for modifying the feature flag state. Tissue's change
 management system will then rollout the feature flag change to the rings.
 
-Chatops commands will provide an interface for targeting rings and cells. However,
+ChatOps commands will provide an interface for targeting rings and cells. However,
 targeting rings should be the usual case, and targeting cells will only be allowed
 if the cell is in the quarantine ring. This is so that a single cell in a ring
 does not diverge from the rest of the cells in the ring.
@@ -119,10 +119,10 @@ Feature flag changes will be recorded in the [feature flag log project](https://
 
 ### Short term
 
-Chatops will provide an interface for engineers to select a ring that the feature flag
+ChatOps will provide an interface for engineers to select a ring that the feature flag
 change should be rolled out to.
 
-Chatops communicates with Tissue, and Tissue sets the feature flag on every cell
+ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell
 of the ring, simultaneously.
 
 If Tissue fails to set the feature flag on any cell of the ring, an error is displayed
@@ -188,7 +188,7 @@ Immediate rollout should only be used by SREs for mitigating incidents.
 Feature flags can be set on a GitLab instance through the [feature flag API](https://docs.gitlab.com/ee/api/features.html),
 or through the Rails console.
 
-- Chatops triggers a pipeline in Tissue.
+- ChatOps triggers a pipeline in Tissue.
 - Tissue can then trigger API calls to each cell itself, or it can call Instrumentor
   to set the feature flags.
 - Instrumentor has access to the toolbox pod for each cell, and the feature flag
@@ -251,6 +251,6 @@ included in the request so that the feature flag service can identify the reques
 and respond appropriately.
 
 This can be more resource intensive for the feature flag service. Depending on the frequency
-of polling it can also add time and unpredictability to the propogation of feature flag
+of polling it can also add time and unpredictability to the propagation of feature flag
 changes to cells. Increasing the frequency also increases the resource usage for
 the FF service.
