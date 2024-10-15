@@ -1,18 +1,18 @@
 ---
-title: "Monitor:Observability Group"
+title: "Monitor:Platform Insights Group"
 ---
 
 ## Who we are?
 
-The Observability group is part of the GitLab [Monitor stage](/handbook/engineering/development/ops/monitor/) and builds [GitLab Observability product](https://about.gitlab.com/direction/monitor/observability/).
+The Platform Insights group is part of the GitLab [Monitor stage](/handbook/engineering/development/ops/monitor/) and builds [GitLab Observability](https://about.gitlab.com/direction/monitor/observability/) and [Product Analytics](https://about.gitlab.com/direction/analytics/product-analytics/) products.
 
 ### Team members
 
-{{< team-by-manager-role "Engineering Manager(.*)Monitor:Observability" >}}
+{{< team-by-manager-role "Engineering Manager(.*)Monitor:Platform Insights" >}}
 
 ### Stable counterparts
 
-{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Observability" role="Product(.*)Observability|Principal(.*)Monitor|Security(.*)Monitor" >}}
+{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Platform Insights" role="Product(.*)Observability|Principal(.*)Monitor|Security(.*)Monitor" >}}
 
 ## Technical Architecture
 
@@ -41,6 +41,8 @@ We initially managed our own self-hosted Clickhouse instance, but decided to mig
 Learn more: [Clickhouse Datastore Working Group](/handbook/company/working-groups/clickhouse-datastore/)
 
 ## How we work?
+
+We base our workflow on the company's [Product Development Flow](/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
 ### Async Standups
 
@@ -82,6 +84,17 @@ Milestone Planning timeline:
 * 5 days before milestone starting date: Planning is reviewed during team sync meeting.
 * On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
 * During the milestone, we analyze progress and reprioritize as needed.
+
+### Issue prioritization
+
+Our priorities should follow [overall guidance for Product](/handbook/product/product-processes/#how-we-prioritize-work). This should be reflected in the priority label for scheduled issues:
+
+| Priority | Description | Probability of shipping in milestone |
+| ------ | ------ | ------ |
+| priority::1 | **Urgent**: top priority for achieving in the given milestone. These issues are the most important goals for a release and should be worked on first; some may be time-critical or unblock dependencies. | ~100% |
+| priority::2 | **High**: important issues that have significant positive impact to the business or technical debt. Important, but not time-critical or blocking others.  | ~75% |
+| priority::3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
+| priority::4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
 
 ### How to find something to work on?
 
