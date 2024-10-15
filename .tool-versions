@@ -1,4 +1,4 @@
-hugo extended_0.132.2
-nodejs 20.17.0
-golang 1.21.1
+hugo extended_0.135.0
+nodejs 20.18.0
+golang 1.23.0
 vale 3.7.1
