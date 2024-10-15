@@ -255,7 +255,7 @@ Once a technical discovery has been completed, SA will work within the account t
 
 ## Solution Architect Engagement Models
 
-## U.S. Enterprise Account and Opportunity Engagement Model
+### U.S. Enterprise Account and Opportunity Engagement Model
 
 The Enterprise Strategic SA Engagement Model intends to foster collaboration and influence an even greater iteration amongst ourselves and customers.
 
@@ -318,6 +318,26 @@ See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Arc
 Before you invite or request an [Subject Matter Expert](/handbook/solutions-architects/sa-practices/subject-matter-experts) for your opportunity, ensure your opportunity is fully qualified. The SME should be requested by the primary Solutions Architect. This will help make sure we're using our resources efficiently and effectively.
 
 Create an issue in the [SME Triage Project](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage) using the template. You can have a look on the [board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage/-/boards/5983907) for current engagements.
+
+### Secondary SA
+
+A given opportunity may be found to be too complex, valuable, or risky for a single SA to adequately secure a technical win on their own.
+
+#### Ad Hoc Support
+
+As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops. 
+
+#### Long-Term
+
+To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity. 
+
+When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another. 
+
+#### Tracking Secondary SA Engagement on Opportunities
+
+Ad hoc and long-term secondary SAs should log activities as if they were the primary SA supporting the account, capturing their impression of the customer interaction. The `Primary Solutions Architect` field in Salesforce would be used to designate the primary SA, and any other SAs involved in the opportunity would be derived from the logged activities.
+
+If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity. 
 
 ### Issue Creation Details
 
