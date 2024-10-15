@@ -70,7 +70,7 @@ Hence, the working group decided to address these concerns in multiple phases.
 * Introduce Support Spikes process
 * Perform UX research
 </td>
-<td>TBD</td>
+<td>FY25 Q4</td>
 </tr>
 <tr>
 <td>Phase 2</td>
@@ -140,9 +140,7 @@ The north star of this working group is increasing the number of self-managed Gi
 | Functional Lead - Expansion Software Development |  [Thomas Woodham](https://gitlab.com/twoodham) | Senior Engineering Manager, Secure |
 | Functional Lead - Core Development |  [Luke Duncalfe](https://gitlab.com/.luke) | Staff Backend Engineer, Manage:Import and Integrate |
 | Functional Lead - Core Development |  [Erran Carey](https://gitlab.com/erran) | Staff Fullstack Engineer, Create |
-| Member | [Mek Stittri](https://gitlab.com/meks) | VP, Technical Infrastructure |
 | Member | [Chun Du](https://gitlab.com/cdu1) | Director, Core Platform |
-| Member | [Joshua Lambert](https://gitlab.com/joshlambert) | Director, Product Management |
 | Member | [Vincy Wilson](https://gitlab.com/vincywilson) | Director, Test Platform |
 | Member | [Lyle Kozloff](https://gitlab.com/lyle) | Director, Support Engineering |
 | Member | [Stan Hu](https://gitlab.com/stanhu) | Engineering Fellow |
