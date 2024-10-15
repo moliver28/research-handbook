@@ -154,6 +154,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
    - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.
       - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)
       - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)
+      - [GitLab Advanced CI/CD course outline](https://university.gitlab.com/pages/advanced-cicd)
       - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)
       - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)
       - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)
