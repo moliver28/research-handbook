@@ -35,15 +35,18 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 - **When:** PBPs and People division key stakeholders should schedule their initial prep call shortly after receiving the report and completing their initial review, ideally within one week of report delivery.
 - **Purpose:** The prep call allows PBPs and People Division key stakeholders to align on key topics, identify areas of focus, and strategize for the Talent QTR meeting with the division leadership.
 - **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other People division key stakeholders where applicable (for example If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
+**3. Request for Additional Data**
+- **When:** Any rqequest for additional data should be submitted to the data analytics team on 20th day of the first month of the quarter.
+- **Purpose:** While the QTR report provides a holistic overview of org health data, there may be times where additional data points are needed specific to a division. 
 
-**3. Distribution of Report to Leadership**
+**4. Distribution of Report to Leadership**
 
 - **When:** 3-4 business days prior to the QTR meeting with the division leader.
 - **Purpose:** Allow leaders time prior to the meeting to review the QTR report and add any questions/observations to the meeting agenda.
 
-**4. Quarterly Talent Review with E-Group**
+**5. Quarterly Talent Review with E-Group**
 
-- **When:** The QTR should take place by the end of the first month of the quarter, giving adequate time for review and actions. PBPs should work with E-Group EBAs to plan these sessions in advance as a standing ongoing touchpoint.
+- **When:** The QTR should take place by the 15th of the second month of the quarter, giving adequate time for review and actions. PBPs should work with E-Group EBAs to plan these sessions in advance as a standing ongoing touchpoint.
 - **Purpose:** During this meeting, PBPs and People Division key stakeholders will review the org health report with division leaders, discuss priorities for each division, address any COE-related initiatives, and agree on action items and follow-up steps.
 
 ## Report Overview
