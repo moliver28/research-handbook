@@ -29,7 +29,7 @@ The description in the PagerDuty alert should contain details about an issue, or
 
 Once an outreach ticket has been sent to the customer, mark the PagerDuty alert as **resolved**.
 
-## Creating a new outreach ticket
+## Retrieve customer details
 
 Follow these steps to create a new ticket to start communications with a customer. Start with finding the details we need to create the ticket:
 
@@ -52,7 +52,7 @@ Now either:
 1. Expand the `Cloud Account Config` section, and look for the `Primary Region`. This should tell us which region the customer is based in. See the [AWS docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) if you're unsure of the AWS region code. Make a note of the region.
 1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer CSM`.
 
-## Create the ticket
+## Create a new outreach ticket
 
 1. Follow the instructions [here](/handbook/support/workflows/sending_notices/#manually-create-a-zendesk-ticket) to create a new Zendesk ticket.
     1. For the **subject** of the ticket, use the following template: `GitLab Dedicated Notice: <description>`.
