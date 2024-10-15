@@ -387,7 +387,7 @@ Immediately following meetings, score the CEO on overall positivity score from 1
 
 If your score for a meeting was below a 5, immediately following the meeting, send Sid a Slack DM with your score and the reasoning.
 
-At the end of the day, post the score for each meeting to the `#ceo-shadow-private` Slack channel and `@` mention the CEO.
+If you do not report a score for a meeting, it is assumed that your score is `5`. 
 
 Score definitions:
 
