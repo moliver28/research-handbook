@@ -77,7 +77,7 @@ The team has agreed on the following process to handle alerts:
       - Sentry issue - contains stacktrace to alert origin.
    1. Use the available [resources](#resources) to evaluate the problem.
    1. Determine if it's safe to ignore:
-      - There is an existing issue for this alert. If so, add an occurrence of this problem in the issue.
+      - There is an existing issue for this alert. If so, add an occurrence of this problem in the issue following the [alert occurrence template](#alert-occurrence-template).
       - The logs/dashboards show that the issue seems to be resolved. For example, when the Pending Tasks metric for the online garbage collector is going down after a sudden peak and there are no errors in the logs.
       - The alert has been automatically resolved.
       - Open an issue if this requires attention in the future. If the alert/ci notification is due to a flake, identify the severity of the failure and add an appropriate priority label, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
