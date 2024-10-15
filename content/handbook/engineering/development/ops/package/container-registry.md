@@ -101,7 +101,6 @@ Below is a list of projects and initiatives that we are currently working on, al
 | [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   |  |
 | [Improve container registry multi-architecture images UX](https://gitlab.com/groups/gitlab-org/-/epics/11952)                          | {{< member-by-gitlab rchanila >}}   |  |
 
-
 ## Documentation
 
 Project documentation is available [here](https://docs.gitlab.com/ee/user/packages/container_registry/).
