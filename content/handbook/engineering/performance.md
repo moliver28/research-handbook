@@ -14,7 +14,7 @@ We categorize performance into 3 facets
 
 Backend performance is scoped to response time of API, Controllers and command line interfaces (e.g. git).
 
-**DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
+**DRI**: [Tim Zallman](https://gitlab.com/timzallmann), VP of Engineering, Core Development.
 
 Performance Indicators:
 
@@ -24,7 +24,7 @@ Performance Indicators:
 
 Frontend performance is scoped to response time of the visible pages and UI components of GitLab.
 
-**DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
+**DRI**: [Tim Zallman](https://gitlab.com/timzallmann), VP of Engineering, Core Development
 
 Performance Indicators:
 
@@ -34,7 +34,7 @@ Performance Indicators:
 
 Infrastructure performance is scoped to the performance of GitLab SaaS Infrastructure.
 
-**DRI**: [Steve Loyd](https://gitlab.com/sloyd), VP of Infrastructure.
+**DRI**: [Marin Jankovski](https://gitlab.com/marin), Sr. Director of Infrastructure, SaaS Platforms.
 
 Performance Indicators:
 
