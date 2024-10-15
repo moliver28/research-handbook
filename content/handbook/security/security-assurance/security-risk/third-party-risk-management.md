@@ -50,6 +50,8 @@ When considering new software to address business needs and objectives, see belo
   - Security requires that software has the ability to integrate with Okta or Google Oauth for authentication.
 - Does the vendor complete an annual independent third party audit of their security controls to show adherence to industry standards and best practices?
   - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations).
+- Does the vendor incorporate Secure by Design principles throughout the software development lifecycle?
+  - Security requires that software vendors perform predeployment threat modeling, vulnerability scanning, and secure coding practices during design and development phases of the software. 
 - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
   - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
 
