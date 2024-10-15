@@ -43,11 +43,9 @@ It's important to note that this blueprint focuses solely on standalone Gitaly d
 
 * Risk of data loss when migrating storage connections from Virtual Machines (VMs) to Gitaly pods
 * Unknown performance challenges that Gitaly pods may encounter in real-world scenarios
-* Current architectural constraint: deploying 1 StatefulSet with 1 replica per node for Gitaly pods
+* Current architectural constraint:
 
 ### Plan
-
-#### Steps required for Kubernetes deployment 
 
 ##### Repositories to make configuration changes 
 
@@ -55,18 +53,13 @@ It's important to note that this blueprint focuses solely on standalone Gitaly d
 * [Cloud Native GitLab container images (CNG)](https://gitlab.com/gitlab-org/build/CNG) - any changes that involve infra changes to the Gitaly pod's container images will be made here. 
 * [Cloud Native GitLab Helm Chart](https://gitlab.com/gitlab-org/charts/gitlab) - any changes that involve the helm chart that deploys the gitaly subchart will be made here. Eg. Gitaly Service, Gitaly ConfigMap, Gitaly probe time changes.
 
-Deploy Gitaly in various environments via helm releases to test its performance. By using isolated environments, Gitaly can be verified 
-and if there are bugs or problems, it can be catched earlier before it reaches production.
-
-Eg. Pre -> Staging -> Production Canary -> Production
-
 #### Transition process from VMs to Kubernetes
 
 To ensure a smooth migration:
 
-* Weights should be adjusted to allow a reasonable amount of traffic to the Gitaly pods. Navigate to the Admin Area, adjust the weights of the storage to determine the amount of traffic directed to the Gitaly pods. We recommend starting off with a small amount of traffic.
-* [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) will be used to migrate storage data from VMs to Gitaly pods. For each target storage, it must be configured to be readonly before starting the migration.
-* Virtual machines will eventually be decommissioned.
+* Weights should be adjusted to allow a reasonable amount of traffic to the Gitaly pod's repositories. Navigate to the Admin Area, adjust the weights of the storage to determine the amount of traffic directed to the Gitaly pods. We recommend starting off with a small amount of traffic.
+* To conduct migrations between storage, it is best to use [Project repository storage moves API](https://docs.gitlab.com/ee/administration/operations/moving_repositories.html#moving-repositories).
+* Virtual machines should eventually be decommissioned.
 
 #### Performance, reliability, security considerations
 
@@ -93,7 +86,3 @@ Sanity check of performance
     * request rate: `gitaly_service_client_requests_total`
     * error ratio: `gitaly_service_client_requests_total` excluding grpc_code that are not errors
 2. Saturation check of cpu, memory, disk read/write IOPS and throughput, disk space , disk inodes by nodes.
-
-### References 
-
-* To conduct migrations between storage, it is best to use [gitaly-ctl](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/gitaly/gitalyctl.md) a tool built for migrations.
