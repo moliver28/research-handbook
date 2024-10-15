@@ -41,3 +41,27 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Oct 25, 2024 | 10:30a ET | 11:50a ET | Intro to Partner Ecosystem Sales | Ecosystem Team |
 | Oct 28, 2024 | 11:00a ET | 11:50a ET | Operational Excellence: Working with Sales Dev | Marketing |
 | Oct 21 - 29, 2024 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |
+
+### SQS 43 - December 2024
+
+- Workshop times quoted are United States Eastern Standard Time (New York) (UTC -5)
+
+| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
+|------|------------|----------|----------|--------------|
+| Nov 21, 2024 | 10:30a ET | 11:20a ET | Welcome Call | Field Enablement |
+| Dec 2, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement |
+| Dec 3, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement |
+| Dec 4, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
+| Dec 5, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
+| Dec 6, 2024 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC & Breakout Call Prep | Field Enablement |
+| Dec 9, 2024 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security Team |
+| Dec 9, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition |  Marketing |
+| Dec 10, 2024 | 10:30a ET | 10:50a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
+| Dec 10, 2024 | 11:00a ET | 11:50a ET | Discussion: Professional Services | Professional Services Team |
+| Dec 11, 2024 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Management Overview | Customer Success Team |
+| Dec 11, 2024 | 11:00a ET | 11:30a ET | Intro to Sales Ops + Deal Desk | Deal Desk Team |
+| Dec 12, 2024 | 10:00a ET | 10:50a ET | GitLab Product & Personas Overview | Field Enablement   |
+| Dec 12, 2024 | 11:00a ET | 11:25a ET | Renewals Manager Overview | Renewals Team |
+| Dec 13, 2024 | 10:30a ET | 11:50a ET | Intro to (Partner) Ecosystem | Ecosystems Team |
+| Dec 16, 2024 | 11:00a ET | 11:50a ET | Operational Excellence: Working with Sales Dev | Marketing |
+| Dec 11-20, 2024 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers  |
