@@ -197,7 +197,7 @@ The ~"backend complete" label is added to issues with multiple specializations (
 frontend) to indicate that the backend component is complete. Backend engineers should add this label when the backend work is
 functionally complete, merged and verified but frontend, or other work is ongoing.
 
-### Definition of Done
+### Definition of Ready
 
 During the planning and breakdown process we usually need to make issues and tasks that outline the technical work required.
 
