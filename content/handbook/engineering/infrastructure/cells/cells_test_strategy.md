@@ -56,7 +56,7 @@ A majority of the testing we will need to do will exist at the `Single Cell` lev
 
 #### Feature
 
-This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have two E2E test suites defined: `smoke` and `blocking` ([the test suite definitions](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/blocking-tests/#overview)). 
+This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have two E2E test suites defined: `smoke` and `blocking` ([the test suite definitions](../test-platform/blocking-tests.md#overview)). 
 
 #### Single Cell
 
@@ -78,12 +78,12 @@ Organizations provides the capability for a company to have the ability to bette
 
 ### Router
 
-The [HTTP Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/http_routing_service/) and the [SSH Router definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/ssh_routing_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. The router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
+The [HTTP Router definition](../../architecture/design-documents/cells/topology_service.md) and the [SSH Router definition](../../architecture/design-documents/cells/ssh_routing_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. The [Multiple Cells](#multiple-cells) testing will also cover the RouterHowever there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. Router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
 
 
 ### Topology Service
 
-The [Topology Service Blueprint definition](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/topology_service/). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined. 
+The [Topology Service Blueprint definition](../../architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined. 
 
 ### Pre-QA Cell
 
