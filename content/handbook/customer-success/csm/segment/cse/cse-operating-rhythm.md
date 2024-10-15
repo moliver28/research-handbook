@@ -211,3 +211,4 @@ QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclH
 **DEMO** : [Demo Cloud](https://gitlabdemo.cloud/login) / [Shared Demo Systems Doc](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) / [Sandbox Cloud](https://gitlabsandbox.cloud/login) / [CS Shared Demo Space](https://gitlab.com/gitlab-learn-labs/webinars)
 **TRAINING** : [DevSecOps Bootcamp Nana](https://techworld-with-nana.teachable.com/courses/enrolled/2186952) / [New CSE Learning Path](https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)  
 **USEFUL APPS** : [Rectangle](https://rectangleapp.com/) / [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)  
+**CSE Lunch & Learn Recordings** : [Recordings](https://drive.google.com/drive/folders/1lXYzA4QSFEtR1zr0n7Nby7OYMrUYoVw4) 
