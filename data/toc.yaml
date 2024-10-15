@@ -70,8 +70,6 @@
     url: about
   - name: Handbook Changelog
     url: changelog
-  - name: Handbook Roadmap
-    url: /handbook/about/roadmap
   - name: Handbook Escalation
     url: /handbook/about/on-call.md
   - name: Handbook Usage

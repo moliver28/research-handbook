@@ -10,15 +10,24 @@
 <tbody>
 {{ $site := .Get "site" }}
 {{ $sep := "," }}
-{{ $csv := getCSV $sep (printf "csv/%s-count.csv" $site) }}
-{{ range $i, $r := after 1 $csv }}
-<tr>
-<td style="text-align:center">{{ index $r 0 }}</td>
-<td style="text-align:center">{{ lang.FormatNumberCustom 0 (index $r 1) }}</td>
-<td style="text-align:center">{{ lang.FormatNumberCustom 0 (index $r 2) }}</td>
-<td style="text-align:left">{{ index $r 3 }}</td>
-</tr>
+{{ $filePath := printf "csv/%s-count.csv" $site }}
+{{ $csvFile := resources.Get $filePath }}
+
+{{ if $csvFile }}
+    {{ $csv := $csvFile | transform.Unmarshal (dict "delimiter" $sep) }}
+
+    {{ range $i, $r := after 1 $csv }}
+    <tr>
+    <td style="text-align:center">{{ index $r 0 }}</td>
+    <td style="text-align:center">{{ lang.FormatNumberCustom 0 (index $r 1) }}</td>
+    <td style="text-align:center">{{ lang.FormatNumberCustom 0 (index $r 2) }}</td>
+    <td style="text-align:left">{{ index $r 3 }}</td>
+    </tr>
+    {{ end }}
+{{ else }}
+    <p>Error: CSV File not found or couldn't be loaded.</p>
 {{ end }}
+
 {{- if eq $site "handbook" }}
 {{- $scratch := newScratch }}
 {{- range .Site.RegularPages }}
