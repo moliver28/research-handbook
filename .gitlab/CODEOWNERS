@@ -168,7 +168,7 @@
 /content/handbook/engineering/development/sec/govern/compliance.md @nrosandich
 /content/handbook/engineering/development/sec/govern/pipeline-security/ @shampton
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
-/content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @ryaanwells
+/content/handbook/engineering/development/sec/govern/threat-insights @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
