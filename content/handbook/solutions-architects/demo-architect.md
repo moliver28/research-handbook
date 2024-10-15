@@ -90,7 +90,9 @@ The content in this section is typically updated at least 1 month after each rel
 #### Workshops Feedback/Survey Process
 
 This approach helps us gather feedback from attendees after each workshop, with the goal of collecting data over time to identify areas for improvement, create new materials, and refine our delivery methods—ensuring we consistently provide valuable experiences for our attendees.
+
 - [How to Steps](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-resources/-/blob/main/Workshop%20Survey/Survey-steps.md?ref_type=heads)
+
 - [Survey Templates](https://drive.google.com/drive/folders/1s_d5Klh9qzBO2uF8wYvJKh-6LzjT3aDy)
 
 ### Labs/hands-on Content
