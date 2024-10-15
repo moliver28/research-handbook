@@ -44,11 +44,8 @@ that doesn't align with how our organization works, dogfooding is not required.
 
 #### For R&D Team Members
 
-As an R&D organization, it's also our responsibility to ensure that the
-entire company dogfoods our product. This is aligned to [understanding our
-customers](/handbook/values/#understand-our-customers), [delivering a product
-that we love ourselves](/handbook/company/mission/#contribute-to-gitlab-application),
-and [using our own product to surface improvements.](/handbook/values/#dogfooding)
+As an R&D organization, it's also our responsibility to ensure that the entire company dogfoods our product. This is aligned to [understanding our customers](/handbook/values/#understand-our-customers), [delivering a product that we love ourselves](/handbook/company/mission/#contribute-to-gitlab-application), and [using our own product to surface improvements.](/handbook/values/#dogfooding).
+
 1. Add the [`Dogfooding`](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=Dogfooding) and [`Dogfooding::Promote Feature`](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=Dogfooding%3A%3APromote+Feature) label to the issue tracking the feature. Ensure a feedback thread has been started on the issue.
    {{% note %}}
    In the future we intend to add tracking and visibility to see what features are [requesting dogfooding](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=Dogfooding%3A%3APromote+Feature) and the engagement associated.
