@@ -108,7 +108,7 @@ query getJob($projectPath: ID!, $jobName: String!){
 }
 ```
 
-There are plans to create a new unified table to log job analytics and it is not yet defined what this API will look like. Without comitting yet to an API definiton, we want so unified way to query information for nalytics that may look roughly like so:
+We want a unified way to query information for job analytics. Roughly, this could translate to the following:
 
 ```ruby
 get_jobs(project_id:, job_name: nil, stage: nil, stage_index: nil, *etc)
