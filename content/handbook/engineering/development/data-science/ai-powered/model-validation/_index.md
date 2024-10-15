@@ -17,6 +17,13 @@ Model validation is the primary maintainer of our [Central Evaluation Framework]
 
 > Read about how we [How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) on the GitLab blog.
 
+### Technical Roadmap
+
+The team's technical strategy is crucial for ensuring the quality, reliability, and efficiency of our AI models in a way that empowers teams to understand and own their features development lifecycle. We will achieve this through abstracting functionalities that create overhead, componentizing core logic that can be re-used, streamlining existing tools to reduce the barrier of entry, and automating complex workflows. We will do this transparently, while redefining processes to align to a more self-serve system for teams, which will enable us to focus on the next phase of evaluation strategies.
+
+Read through our [technical roadmap here](https://gitlab.com/gitlab-org/modelops/team-tasks/-/issues/39).
+
+
 ## 🚀 Team members
 
 The team is composed of [ML engineers](/job-families/engineering/development/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.
