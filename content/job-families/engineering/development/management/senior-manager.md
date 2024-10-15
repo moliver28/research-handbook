@@ -17,24 +17,24 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 ## Responsibilities
 
 - Build a globally-distributed, sustainable, and successful team through hiring, retention, and strategic organizational design 
-- Plan and execute long term strategies that move your team and the product stage(s) toward business objectives, including decision-making, alignment, staffing and prioritization, and working through ambiguity
+- Plan and execute long term strategies that move your team and the product stage(s) toward business objectives. This includes decision-making, alignment, staffing, prioritization and working through ambiguity.
 - Understand [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators) and seek to improve them
 - Lead and drive significant results for multiple teams that have a direct impact on the broader mission they contribute to. Examples include, but are not limited to:
   - Managing 3 or more [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with at least three engineering manager direct reports.
-  - Managing two or more [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with individual contributor direct reports.
+  - Managing [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with a complex product/program scope.
   - Leading business critical cross-functional initiatives in addition to managing a team.
 - Conduct managerial interviews for candidates, and train engineering managers to do managerial interviews
-- Generate and implement process improvements and influence leadership direction within and beyond your direct reporting lines
+- Develop and execute process enhancements while strategically influencing leadership decisions across multiple organizational levels.
 - Hold regular [1:1s](/handbook/leadership/1-1/) with team members and [skip-level](/handbook/leadership/skip-levels/) 1:1s with indirect reports
-- Grow and develop senior leadership (technical or management) through mentorship, coaching, and learning and development opportunities
+- Grow and develop engineering leadership (ICs or people managers) through mentorship, coaching, and learning and development opportunities
 - Enable [quad planning team](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) [collaboration](/handbook/values/#collaboration) within [product groups](/handbook/company/structure/#product-groups)
 - Enable [Product](https://internal.gitlab.com/handbook/company/performance-indicators/product/), [Quality](/handbook/engineering/infrastructure/performance-indicators/), and [UX](/handbook/product/ux/performance-indicators/) performance via solid [stable-counterpart](/handbook/leadership/#stable-counterparts) partnership
 - Contribute to the sense of psychological safety of multiple teams.
 - Give regular and clear feedback around the [individual's performance](/handbook/leadership/1-1/suggested-agenda-format/)
 - Draft quarterly [OKRs](/handbook/company/okrs/) and [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators)
 - Improve product quality, security, and performance
-- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members
-- Identify and resolve problems proactively, even in ambiguous situations or where negotiations are necessary, through advanced thinking, partnership, foresight
+- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com and GitLab Dedicated are met, by working with reliability engineers and development team members
+- Identify and resolve problems proactively, even in ambiguous situations or where negotiations are necessary, through advanced thinking, partnership and foresight
 
 ## Requirements
 
