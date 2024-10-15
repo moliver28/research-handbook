@@ -33,8 +33,8 @@ Consider using clustering when:
 
 - Your table is large (typically > 1 TB)
 - You frequently query on specific columns
-- Your queries are experiencing performance issues
-- You have high cardinality columns that are often used in WHERE clauses
+- Your select-queries are experiencing performance issues, so it would help to add clustering to your upstream table when experiencing performance issues on a particular model.
+- You have high cardinality columns that are often used in WHERE clauses or JOINs
 
 ## How to Implement Clustering
 
