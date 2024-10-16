@@ -17,7 +17,7 @@ We do this by collaborating across organizational functions whenever possible.
 
 In all that we do, we aim to create and sustain mutually beneficial relationships between members of our programs and GitLab.
 
-Please see the [Community Programs Job Family](/job-families/marketing/community-programs/) for more details about individual roles on the team.
+Please see the [Developer Relations Program Manager Job Family](https://handbook.gitlab.com/job-families/marketing/devrel-program-manager/) for more details about individual roles on the team.
 
 ## What is a community program?
 
