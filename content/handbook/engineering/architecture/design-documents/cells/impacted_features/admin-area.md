@@ -61,10 +61,15 @@ The following overview describes at what level each feature contained in the cur
 | System hooks | | ✓ | |
 | Overview | ✓ | ✓ | |
 | Settings - General (1) | ✓ | ✓ | |
+| Settings - Roles and permissions | | ✓ | |
+| Settings - Search (1) | | ✓ | |
 | Settings - Integrations (1) | ✓ | ✓ | |
 | Settings - Repository (1) | ✓ | ✓ | |
 | Settings - CI/CD (1) | ✓ | ✓ | |
+| Settings - Security and compliance | | ✓ | |
+| Settings - Analytics | | ✓ | |
 | Settings - Reporting | ✓ | | |
+| Settings - Templates | | ✓ | |
 | Settings - Metrics (1) | ✓ | ✓ | |
 | Settings - Service usage data | | ✓ | |
 | Settings - Network (1) | ✓ | ✓ | |
@@ -239,14 +244,35 @@ Extend Topology Service with `MetadataService` to allow a Cell to publish inform
 The interface would be as follows:
 
 ```proto
+syntax = "proto3";
+
+package gitlab.cells.topology_service;
+
+import "google/protobuf/any.proto";
+import "proto/cell_info.proto";
+
+option go_package = "../proto";
+
+
 enum MetadataType {
-    application_settings = 1;
-    broadcast_messages = 2;
+    application_settings = 0;
+    broadcast_messages = 1;
 };
+
+message Metadata {
+  string key = 1;
+  google.protobuf.Any value = 2;
+}
 
 message GetMedataRequest {
     MetadataType type = 1;
-    string id = 2;
+    string cell_id = 2;
+}
+
+message SetMedataRequest {
+    MetadataType type = 1;
+    string cell_id = 2;
+    repeated Metadata metadata = 3;
 }
 
 message MetadataCellStatus {
@@ -256,7 +282,14 @@ message MetadataCellStatus {
 }
 
 message GetMedataResponse {
-    bytes value = 1;
+    repeated Metadata metadata = 1;
+    int64 lock_version = 2;
+    fixed64 last_set_at = 3;
+    repeated MetadataCellStatus cells = 4;
+}
+
+message SetMedataResponse {
+    repeated Metadata metadata = 1;
     int64 lock_version = 2;
     fixed64 last_set_at = 3;
     repeated MetadataCellStatus cells = 4;
@@ -265,8 +298,6 @@ message GetMedataResponse {
 service MetadataService {
     rpc GetMetadata(GetMedataRequest) returns (GetMedataResponse) {}
     rpc SetMetadata(SetMedataRequest) returns (SetMedataResponse) {}
-    rpc PullChangedMetadataForCell(PullChangedMedataForRequest) returns (PullChangedMedataForResponse) {}
-    rpc ConfirmChangedMetadataForCell(AckChangedMedataForRequest) returns (AckChangedMedataForResponse) {}
 }
 ```
 
