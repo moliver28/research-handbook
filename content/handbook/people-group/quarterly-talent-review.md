@@ -35,6 +35,7 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 - **When:** PBPs and People division key stakeholders should schedule their initial prep call shortly after receiving the report and completing their initial review, ideally within one week of report delivery.
 - **Purpose:** The prep call allows PBPs and People Division key stakeholders to align on key topics, identify areas of focus, and strategize for the Talent QTR meeting with the division leadership.
 - **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other People division key stakeholders where applicable (for example If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
+
 **3. Request for Additional Data**
 - **When:** Any rqequest for additional data should be submitted to the data analytics team on 20th day of the first month of the quarter.
 - **Purpose:** While the QTR report provides a holistic overview of org health data, there may be times where additional data points are needed specific to a division. 
