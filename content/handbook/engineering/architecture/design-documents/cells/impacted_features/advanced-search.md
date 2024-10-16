@@ -28,9 +28,9 @@ The [Advanced search functionality](https://docs.gitlab.com/ee/user/search/advan
 
 Infrastructure maintenance tasks include Elasticsearch cluster version upgrades, scaling the Elasticsearch cluster, and support for incident root cause analysis and resolution. 
 
-Index maintenance tasks include index shard resizing using the Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158))or Split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646)), enabling the Elasticsearch slowlog ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159)), or cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231)).
+Index maintenance tasks include index shard resizing using the Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158)), split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646)), enabling the Elasticsearch slowlog ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159)), or cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231)).
 
-Today, most infrastructure and index maintenance tasks are performed manually by the Global Search team through the  [change request workflow](../../../../change-management.md/#change-request-workflows).
+Today, most infrastructure and index maintenance tasks are performed manually by the Global Search team through the [change request workflow](../../../../change-management.md/#change-request-workflows).
 
 ### Organization migration
 
