@@ -33,7 +33,7 @@ A: [Please review this section of the GitLab documention that explains where to 
 
 Q: Will I be notified about my upcoming renewal?
 
-A: Yes! 30 days before a subscription expires, a banner with the subscription expiry date displays for administrators in the GitLab user interface. You will also receive [email notifications](https://docs.gitlab.com/ee/subscriptions/self_managed/#email-notifications)
+A: Yes! 30 days before a subscription expires, a banner with the subscription expiry date displays for administrators in the GitLab user interface. If your subscription is on auto-renew, you will also receive an [email notification](https://docs.gitlab.com/ee/subscriptions/self_managed/#email-notifications).
 
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
