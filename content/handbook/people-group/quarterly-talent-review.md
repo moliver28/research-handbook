@@ -37,8 +37,8 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 - **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other People division key stakeholders where applicable (for example If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
 
 **3. Request for Additional Data**
-- **When:** Any rqequest for additional data should be submitted to the data analytics team on 20th day of the first month of the quarter.
-- **Purpose:** While the QTR report provides a holistic overview of org health data, there may be times where additional data points are needed specific to a division. 
+- **When:** Any rqequest for additional data should be submitted to the data analytics team on the 20th day of the first month of the quarter.
+- **Purpose:** While the QTR report provides a holistic overview of org health data, there may be times where additional data points are needed specific to a division. PBPs can request this data from the Data Analytics team to help support QTR Key Takeaways and Action Items.
 
 **4. Distribution of Report to Leadership**
 
