@@ -91,31 +91,57 @@ to be set by this mechanism.
 The set of feature flags enabled on the legacy cell and on other cells is expected
 to be different.
 
+One of the main uses of feature flags is to de-risk the release of a new feature.
+A feature flag is usually enabled for a small group of customers (including internal
+customers) who are willing to test out the feature. Any bugs reported are fixed,
+and then the feature flag is enabled for a larger group of customers. This process
+repeats until the feature flag is enabled for all customers, the feature is considered
+stable and the feature flag can be removed.
+
+While feature flags are useful for rapidly changing the behavior of the application,
+having too many different combinations of feature flags can cause interactions that
+produce unforeseen behavior. It can also make
+it difficult to predict how a new change will behave and can make
+incident management more challenging.
+
+We need to allow feature flags to be enabled for small groups of customers, and
+at the same time maintain the number of different feature flag configurations
+in production at a manageable level.
+
+We can leverage the ring architecture (introduced in
+[Application Deployment with a Cellular Architecture](deployments.md)) for doing
+the above.
+
+Each ring represents a different groups of customers. As we move from inner to outer
+rings, each consecutive ring is supposed to be less risky for the customer. Customers
+who are accepting of higher risk, and desiring the latest product updates will be
+on inner rings, while customers desiring stability will be on outer rings. Each ring
+can be viewed as a "layer of risk". To reduce the number of different feature flag
+configurations that need to be supported in production, while still allowing
+feature flags to be rolled out to small groups of customers at a time, feature flags
+can be rolled out to a ring at a time, starting with the innermost ring.
+
 ChatOps can communicate with Tissue to set feature flags on cells. ringctl can
-be used to create a patch for modifying the feature flag state. Tissue's change
+be used to create a patch for modifying feature flag gate values. Tissue's change
 management system will then rollout the feature flag change to the rings.
 
-ChatOps commands will provide an interface for targeting rings and cells. However,
-targeting rings should be the usual case, and targeting cells will only be allowed
-if the cell is in the quarantine ring. This is so that a single cell in a ring
-does not diverge from the rest of the cells in the ring.
+ChatOps commands will provide an interface for targeting rings and cells. Targeting
+cells will only be allowed if the cell is in the quarantine ring.
 
-Feature flags on cells will support the same actors (project, group, user, current_request, :instance)
-that are supported on production today.
+Feature flags on cells will support the same actors (project, group, user, current_request,
+:instance) that are supported on production today.
 If a feature flag needs to be set for a particular actor, it
-will be set for that actor on every cell. This ensures that no matter which cell
+should be set for that actor on every ring. This ensures that no matter which cell
 the actor is present on, the feature flag will behave as expected.
 
 In addition, the organization model will also be enabled for use as a feature flag
 actor (https://gitlab.com/gitlab-org/gitlab/-/issues/498238).
 
-Rollout of feature flag changes to a ring should not be allowed if there is
+Rollout of feature flag changes to a ring should not be allowed if there is an
+active incident affecting that ring or if metrics indicate that the ring is unhealthy.
 
-- An active incident affecting that ring
-- A change request being performed on the ring
-- If metrics indicate that the ring is unhealthy
-
-Feature flag changes will be recorded in the [feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log).
+Feature flag changes will be recorded in the
+[feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log).
 
 ### Short term
 
