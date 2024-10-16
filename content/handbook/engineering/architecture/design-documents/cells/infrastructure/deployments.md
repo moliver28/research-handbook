@@ -512,7 +512,7 @@ for Cell deployments.
 
 We should aim to deploy to Cells as quickly as possible. For all Cells that exist in a single ring, we should have the ability to deploy in parallel. Doing so minimizes the version drift between Cells and reduces potential issues. If the version drifts too greatly, auto-deploy shall pause itself and an investigation into the reason why we are too far behind begins. Ideally we know about this situation ahead of time. We should aim to be no greater than 1 `graduate` package behind our PDM. Thus the expectation is that for every PDM, is a deployment to our Cells, every day. There are days which the PDM is skipped. We'll need to evaluate on a case-by-case basis why the PDM is halted to determine the detriment this will incur on our Cell deployments.
 
-Rings outside of the perimeter are self-managed by the orchestration engine. Once `release-tools` graduates a package it can forget about it. The orchestration engine will converge the desired GitLab version to all Cell in Ring 2, ther first ring outside of the perimeter, and move to next ring only when all Cells converged.
+Rings outside of the perimeter are self-managed by the orchestration engine. Once `release-tools` graduates a package it can forget about it. The orchestration engine will converge the desired GitLab version to all Cell in Ring 2, the first ring outside of the perimeter, and move to next ring only when all Cells converged.
 
 ### FAQ
 
