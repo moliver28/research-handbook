@@ -215,6 +215,7 @@ To determine whether an issue or task is suitable to be deemed 'ready for develo
 #### Why?
 
 During the planning/breakdown process, it's important that we keep in mind a couple of things:
+
 1. The author of the issue/task may not be the person to work on it
 2. We may not work on the issue/task right away
 
