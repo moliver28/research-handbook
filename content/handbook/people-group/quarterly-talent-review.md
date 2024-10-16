@@ -91,6 +91,7 @@ The QTR report is designed to provide division leadership with key organizationa
 Context: (*included in agenda for awareness*) In August 2024 the People Group piloted a 1H FY25 Quarterly Talent Review touchpoint with E-Group leaders. Previously, we have reviewed this data on more of an ad hoc/as-needed basis. The intention is to review this data more regularly so that org health remains top of mind and we are better positioned to act quickly when required.
 
 **Reviewing key data points in a single session enables us:**
+
 - Connect dots that may not have been as evident reviewed in isolation
 - Create more connection and alignment across all departments within the People Group
 - Optimize time across the board
@@ -98,6 +99,7 @@ Context: (*included in agenda for awareness*) In August 2024 the People Group pi
 **Agenda**
 
 *To be shared 3-4 business days before the QTR session*
+
 - Include link to QTR report here
 - Placeholder for E-Group leader to add questions
 - PBP review of Recommended Actions *(link to slide)*
