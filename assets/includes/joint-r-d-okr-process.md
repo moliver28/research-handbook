@@ -60,24 +60,7 @@ The OKR process is designed to tie in to the overall [OKR process](/handbook/com
 
 ##### Scoring guidelines
 
-We will use the following guidelines for consistency.
-
-1. Progress percentage is automatically updated based on child objectives or KRs.
-1. For manually updated percentages, ensure to include an explanation of how the percentage is calculated in the OKR description.
-   - The calculation can be simple "% of goal, 30 S2 bugs from <link>".
-   - Consider breaking down project or task KRs. For example, "10% gathering data, 20% analyzing data, 20% summary of data, 20% write proposal, 10% gather feedback, 20% decide and open epic with issues with work required".
-1. For scoring KRs that apply to a **rate** (for instance, [MR rate](/handbook/product/groups/product-analysis/engineering/metrics/#merge-request-rate)), we score them as follows:
-   - Take the initial rate before the quarter. For example, this is 10.
-   - Take the target rate at the end of the quarter. In this example, it is 17.
-   - Subtract initial rate and target rate to determine the target increase: 17 - 10 = 7.
-   - Each month, take that month's rate and calculate our progress towards the target independently. For example:
-      - Month 1: 12. The score is (12 - 10) / 7 = 2 / 7.
-      - Month 2: 13. The score is (13 - 10) / 7 = 3 / 7.
-      - Month 3: 15. The score is (15 - 10) / 7 = 5 / 7.
-   - Take the score for the month, divide it by three, and add it to the total score. In the above example:
-      - Month 1: 2 / 7 / 3 ~= 9.5%.
-      - Month 2: 3 / 7 / 3 ~= 14%. Added to the previous month, the score is now 23.5%.
-      - Month 3: 5 / 7 / 3 ~= 24%. Added to the previous months, the final score is 47.5%.
+To score KRs about improving from a **baseline metric** to a **new target metric**, score based on **progress from baseline to target metric**. For example, if baseline metric is 10, new target metric is 15, then the **target improvement** is 15-10 = 5. Every month calculate the improvement from baseline and divide it vs. the total target improvement (e.g. 15-10 or 5).
 
 ### Sharing OKR completion at the end of the quarter
 
@@ -100,11 +83,27 @@ In certain circumstances, it is appropriate to [change an OKR once started](/han
 
 ## How to write OKRs
 
-Please refer to the company-wide guidance in the [How to Write OKRs](/handbook/company/okrs/#how-to-write-okrs) section of the OKR handbook.
+R&D groups should limit the number of OKRs they commit to so they have reasonable bandwidth to deliver. When planning OKRs:
+
+1. Consider non-OKR commitments. While OKRs are the big commitments that the team is making, they [do not supersede core team members responsibilities](/handbook/company/okrs/#how-do-i-prioritize-okrs-in-light-of-other-priorities). For R&D, this means retaining team capacity beyond OKRs for work that falls higher in our [prioritization framework](/handbook/product/product-processes/#prioritization-framework), such as forced prioritization items with an SLA/SLO. Meeting SLOs is not an OKR, as [OKRs focus on what's different](/handbook/company/okrs/#okrs-are-what-is-different).
+   1. Other than core team member responsibilities such as those outlined above, all other major commitments should be prioritized through OKRs and consider team bandwidth.
+   1. If a team gets a request for a major effort within the quarter, they can change the OKR by following the guidelines above about [how to change an OKR within the quarter](#how-to-change-an-okr-within-the quarter)
+1. Plan for [OKRs to be ambitious, but achievable](/handbook/company/okrs/#criteria-for-key-results) within the team capacity that you have for OKRs. While OKRs are meant to be ambitious, [you should aim to complete them](/handbook/company/okrs/#how-do-i-prioritize-okrs-in-light-of-other-priorities) and strive to hit the ambitious plan. We recognize that with ambitious planning some OKRs will not be completed, but it is striving and reporting on OKRs with the goal of hitting 100% that helps us accomplish strong results. We score individual OKRs as "on track" when they are at least 80% complete. In aggregate, we expect that the average completion score across OKRs is 70%.
+1. [Review cascading OKRs](/handbook/company/okrs/#cascading-okrs-and-how-to-align-division-okrs-to-the-ceo-okrs) first and allocate time for those. Cascading OKRs are those at the CEO level or Product Division level that need your group's contributions to be achieved. You should prioritize these first.
+1. It is OK to push back on OKRs. If you can't prioritize a cascading or shared OKR due to more important work, contact the owner of the OKR and make adjustments so that it is achievable without your team's contribution, or remove it. It is OK to do this, with clear communication and collaboration. It is not acceptable to simply ignore the cascading OKR or shared OKR without clear upfront communication and prioritize other work instead.
+1. When writing OKRs, follow our company guidelines on [how to write OKRs](/handbook/company/okrs/#how-to-write-okrs). In particular, focus on outcomes, not tasks, and make key results measurable.
+1. For any OKR with a dependency, make sure to get [commitment on the dependency](/handbook/company/okrs/#dependency-commitments) with [shared objectives](/handbook/company/okrs/#shared-objectives). If you don't get commitment in the shared objective, make changes as needed to keep to feasible OKRs.
 
 ### Examples of good OKRs
 
-Please refer to the company-wide guidance in the [Example OKRs](/handbook/company/okrs/#example-okrs) section of the OKR handbook.
+**Objective: Establish GitLab leadership in X area.**
+
+- Avoid ❌ KR1: GitLab X becomes available in beta, including Y functionality in beta, with a path to general availability next quarter.
+- Instead ✅ KR1: GitLab X reaches 100k paid MAU by end of quarter.
+- Avoid ❌ KR2: Ship 10 components to support the use of X.
+- Instead ✅ KR2: 30% of GitLab users are able to use X with the components built.
+
+This aligns with a focus on outcomes and business results instead of KRs tracking tasks or launches.
 
 ### Organizing R&D OKRs in GitLab
 
@@ -163,11 +162,6 @@ As GitLab objectives can only have one parent, there are various options to trac
     - Example: [VP Development label](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=all&milestone_title=FY24-Q1&label_name%5B%5D=vp-development)
 1. Track only in linked epic or issue.
     - It is common that work is tracked in a `gitlab-org` issue or epic. While the OKR % needs to be updated in the OKR project, overview and all status updates could reside in the linked issue or epic.
-
-## Additional Resources
-
-- [What Matters](https://www.whatmatters.com/)
-- [How to use GitLab to track OKRs](/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
 
 ## How to contribute to this page
 
