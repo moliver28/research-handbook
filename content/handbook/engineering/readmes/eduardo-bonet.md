@@ -1,6 +1,7 @@
 ---
 title: "Eduardo Bonet's README"
 job: "Staff Fullstack Engineer, AI Powered::Custom Models"
+description: "Read Me for Eduardo Bonet"
 ---
 
 ## How I work
