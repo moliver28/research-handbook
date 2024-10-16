@@ -327,7 +327,7 @@ At GitLab, we want to drive customer results through focusing on platform enhanc
 1. **Large customer requests**. Catering to requests from large customers leads to the [innovator's dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma), we need to also focus on results for small and future customers.
 1. **Our existing scope**. For example, when customers asked for better integrations and complained about integration costs and effort, we responded by expanding our scope to create a [single application](/handbook/product/categories/gitlab-the-product/single-application/) for the DevOps lifecycle.
 1. **Our assumptions**. Every company works differently, so we can't assume that what works well for us will support our customers' needs. When we have an idea, we must directly validate our assumptions with multiple customers to ensure we create scalable, highly relevant solutions.
-1. **What we control**. We should take responsibility for what the **customer experiences**, even when it isn't entirely in our control. We aim to treat every customer-managed instance downtime as a [$1M a day problem](https://gitlab.com/gitlab-com/www-gitlab-com/commit/8b7857c1f7c59c53e4a9c0d6008830459d817497).
+1. **What we control**. We strive to provide the best possible experience for each of our customers, and take responsibility for all of the aspects that we can reasonably control.
 
 ##### Measure impact, not activity
 
@@ -1055,7 +1055,7 @@ We demonstrate iteration when we do the smallest viable and valuable thing, get 
 
 ## 👁️ Transparency {#transparency}
 
-Be open about as many things as possible. By making information public, we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible. Transparency is not communication. Just because something exists in the handbook or elsewhere doesn't mean it's been communicated to the people who should understand or acknowledge it. On a personal level, be direct when sharing information, and admit when you've made a mistake or were wrong. When something goes wrong, it is a great opportunity to say "What's the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
+Be open about as many things as possible. By making information public, we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible. Transparency is not communication. Just because something exists in the handbook or elsewhere doesn't mean it can't be communicated again or in a more robust fashion to the people who need to understand or acknowledge it. On a personal level, be direct when sharing information, and admit when you've made a mistake or were wrong. When something goes wrong, it is a great opportunity to say "What's the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 
 Even as a [public company](https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/), we know that our value of transparency will be key to our success. This value can be hard to follow at times. You might ask yourself: what should be shared, how much to share, whether or not to speak up but definitely take the time to always opt for maximum transparency by adhering to the operating principles below. Often, company values get diluted as they grow, most likely because they do not write anything down. But we will make sure our values scale with the company. As a [public company](/handbook/company/being-a-public-company/), we declare everyone in the company as an insider, which allows us to remain transparent internally about our numbers, etc. Everything else that can be transparent will continue to be so.
 
@@ -1078,7 +1078,7 @@ Because we are public by default and have the [SAFE framework](/handbook/legal/s
 
 We make information public by default because [transparency is one of our values](#transparency).
 However it is [most important to focus on results](#hierarchy).
-Therefore, a category of information is **public** unless there is a reason for it not to be. If something is not public, there should be a reference in the handbook that states a confidential decision was taken with a link to our Not Public guidelines, unless legal feels it carries undue risk. We document what is [not public by default](/handbook/communication/confidentiality-levels/#not-public) on our communication page.
+Therefore, a category of information is **public** unless there is a reason for it not to be. If something is not public, there should be a reference in the handbook that states a confidential decision was taken with a link to our Not Public guidelines, unless GitLab Legal and Corporate Affairs believes it carries undue risk. We document what is [not public by default](/handbook/communication/confidentiality-levels/#not-public) on our communication page.
 
 If you believe something shouldn't be public that currently is (or vice versa), then [make a merge request](/handbook/communication/#start-with-a-merge-request) to the relevant page(s) suggesting the change so that you can collaborate with others and discuss with the [DRI](/handbook/people-group/directly-responsible-individuals/). When content contains information which is [not public](/handbook/communication/confidentiality-levels/#not-public) it is recommended to remove the specific sections which are not public, put them on their own page in the internal handbook, and then link out to that with a "not public/internal only" note. Always share publicly what we can.
 
@@ -1127,7 +1127,7 @@ Transparent changes have the reasons for the change laid out clearly along with 
 This also helps with institutional memory: a year from now when you want to know why a decision was made, or not, the issue or MR that has the decision also shares why the decision was made.
 This is related to [Chesterton's fence](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence) - it's much easier to suggest removing or changing something if you know why it exists in the first place.
 
-Avoid using terms such as "industry standard" or "best practices" as they are vague, opaque, and don't provide enough context as a reason for a change.
+If you use generalized terms such as "industry standard" or "best practices," be sure to give context, as without context they can be seen as potentially vague or opaque.
 
 Similarly, merely stating a single value isn't a great explanation for why we are making a particular decision. Many things could be considered "iteration" or "efficiency" that don't match our definition of those values. Try to link to an operating principle of the value or provide more context, instead of just saying a single value's name.
 

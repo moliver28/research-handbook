@@ -26,7 +26,7 @@ In all outbound contact requests explicitly avoid sending RED data. (see: [Data 
 
 - data transposition errors (accidentally sending another customers data to a customer)
 - customer-internal data leaks (person `x` who received the email was not authorized to know about project `y`)
-- putting customer RED data into systems where it is not allowed (system `z` is only classified for YELLOW data, but is used to send RED) 
+- putting customer RED data into systems where it is not allowed (system `z` is only classified for YELLOW data, but is used to send RED)
 
 If there is any doubt about whether a particular piece of data is appropriate to send, start with asking in `#support_leadership` and escalate to `#privacy-team_help` / `#security` as required.
 
@@ -36,7 +36,9 @@ Some examples:
 
 ### Tips for avoiding RED data in notices
 
-1. GitLab will translate `project_id` into a routable path for users with appropriate permissions, for example: `https://gitlab.com/projects/278964` will route automatically to `https://gitlab.com/gitlab-org/gitlab` (this is not true for groups)
+- Make use of the built-in [Project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/ee/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
+  - Project example: `https://gitlab.com/-/p/278964` will redirect to `https://gitlab.com/gitlab-org/gitlab`.
+  - Group example: `https://gitlab.com/-/g/9970` will redirect to `https://gitlab.com/gitlab-org`.
 
 ## How to send notices
 

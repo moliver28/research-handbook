@@ -2,6 +2,8 @@
 title: "Digital Customer Programs"
 ---
 
+The following Digital Programs constitute "Customer Success Services" as included with your Subscription to Software, governed by the GitLab Subscription Agreement available at: https://about.gitlab.com/terms. 
+
 ## Digital Programs
 
 Programs are developed using input from CSMs, customers, and other GitLab resources. Our goal is to provide customers with useful ways to serve themselves. We provide the following:

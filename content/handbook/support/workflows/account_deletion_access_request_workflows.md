@@ -163,6 +163,29 @@ For all other blocked or banned reasons, proceed to [step 2](#step-2-evaluate) f
 
 Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification#evaluating-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
 
+Please fill this template and add it to the issue as confidential:
+<details>
+
+  ```plain
+  Admin link - https://gitlab.com/admin/users/
+
+  | Data Classification | Red | 100 | Risk Factor | 10 |
+  |---------------------|-----|-----|-------------|----|
+
+  | Challenges                                                                    | Passed?     | Weight |
+  |-------------------------------------------------------------------------------|-------------|--------|
+  | Originating email is the same as the primary on the account                   | Passed      | 20     |
+  | User can confirm the name of 1 or more private groups                         | Passed      | 10     |
+  | User can confirm one or more of the last IP addresses logged into the account | Passed      | 20     |
+  | User can confirm the name of 1 or more private projects                       | Passed      | 10     |
+  | User can confirm the date and time of last commits on a private project       | Passed      | 15     |
+  | User can verify the content of the last commit message on a private project   | Passed      | 15     |
+
+  ### Risk factor `10` - FAIL/PASS - :white_check_mark: or :no_entry:
+  ```
+  
+</details>
+
 - If the verification passes, proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue).
 
 - If the verification passes, but the account is blocked/banned, proceed to [**Step 2.5:** Verification Passed - Unblock User](#step-25-verification-passed---unblock-user).

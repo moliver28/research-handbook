@@ -217,15 +217,15 @@ Solution Architects should participate in [technical discovery](#technical-disco
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
 
-#### [SA/CSM Engagement Overlap]
+#### SA/CSM Engagement Overlap
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
-Further details can be found here: (/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
+Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
 
 #### Technical Discovery and Demo Preparation
 
-The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery() prior to any demo:
+The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery[^footnote-01] prior to any demo:
 
 1. **Outcome:**
 
@@ -249,13 +249,13 @@ The Solutions Architect, in order to tailor conversations and demos to demonstra
 - What collaboration or governance opportunities exist?
 - What security or compliance inefficiencies exist?
 
-_Qualification criteria typically involves both Business requirements and Technical Functional/Non-Functional requirements *(i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform._
+[^footnote-01]: _Qualification criteria typically involve both Business requirements and Technical Functional/Non-Functional requirements (i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform.)_
 
 Once a technical discovery has been completed, SA will work within the account team to solidify a path forward (will the customer proceed with a purchase, trial, proof of value?) and idenitfy the corresponding metrics that will be used to determine the success of the evaluation.
 
 ## Solution Architect Engagement Models
 
-## U.S. Enterprise Account and Opportunity Engagement Model
+### U.S. Enterprise Account and Opportunity Engagement Model
 
 The Enterprise Strategic SA Engagement Model intends to foster collaboration and influence an even greater iteration amongst ourselves and customers.
 
@@ -318,6 +318,26 @@ See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Arc
 Before you invite or request an [Subject Matter Expert](/handbook/solutions-architects/sa-practices/subject-matter-experts) for your opportunity, ensure your opportunity is fully qualified. The SME should be requested by the primary Solutions Architect. This will help make sure we're using our resources efficiently and effectively.
 
 Create an issue in the [SME Triage Project](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage) using the template. You can have a look on the [board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage/-/boards/5983907) for current engagements.
+
+### Secondary SA
+
+A given opportunity may be found to be too complex, valuable, or risky for a single SA to adequately secure a technical win on their own.
+
+#### Ad Hoc Support
+
+As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops. 
+
+#### Long-Term
+
+To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity. 
+
+When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another. 
+
+#### Tracking Secondary SA Engagement on Opportunities
+
+Ad hoc and long-term secondary SAs should log activities as if they were the primary SA supporting the account, capturing their impression of the customer interaction. The `Primary Solutions Architect` field in Salesforce would be used to designate the primary SA, and any other SAs involved in the opportunity would be derived from the logged activities.
+
+If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity. 
 
 ### Issue Creation Details
 

@@ -5,7 +5,7 @@ description: "GitLab Data Team Workflow"
 
 ---
 
-### <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
+### <i class="fas fa-map-marked-alt fa-fw -text-purple"></i>Quick Links
 
 - [Calendar](/handbook/enterprise-data/how-we-work/calendar/)
 - [MR Roles and Responsibilities](/handbook/enterprise-data/how-we-work/mr-review/)
@@ -245,7 +245,8 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 - MR Review SLO
   - 4 weeks (2 iterations)
 
-### Removal and deletion process <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->
+### Removal and deletion process
+<!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->
 
 After some time, environments will have software/code/components that are not needed any more. It feels risky to delete software and code, even when its not being used, seems not being used or asked not to being used (i.e. users access).
 

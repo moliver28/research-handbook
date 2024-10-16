@@ -100,7 +100,7 @@ An internship gives you insight into a [Data Team role](/handbook/enterprise-dat
 - Comfort working in a highly agile, intensely iterative environment
 - Self-motivated and self-managing, with task organizational skills
 - Working knowledge of SQL
-- Basic knowledge of dashboard tools (we use Sisense)
+- Basic knowledge of dashboard tools (we use Tableau)
 - At least 1 completed demoable data project (Non-commercial projects done in a spare time also count, as do school projects)
 - Nice to have
   - Understanding of software industry

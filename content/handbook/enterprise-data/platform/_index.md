@@ -21,7 +21,7 @@ This document is limited to describe the Data Platform conceptually. There are o
 
 ## Standards
 
-## <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
+## <i class="fas fa-map-marked-alt fa-fw -text-purple"></i>Quick Links
 
 - [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
 - [Data Pipelines](/handbook/enterprise-data/platform/pipelines/)
@@ -39,7 +39,7 @@ This document is limited to describe the Data Platform conceptually. There are o
 - [R/RStudio](/handbook/enterprise-data/platform/rstudio/)
 - [Tableau](/handbook/enterprise-data/platform/tableau/)
 
-## <i class="fas fa-cubes fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Our Data Stack
+## <i class="fas fa-cubes fa-fw -text-orange"></i>Our Data Stack
 
 ![Enterprise Data Platform](/handbook/enterprise-data/platform/enterprise_data_platform.png)
 
@@ -57,7 +57,7 @@ Changes are implemented via merge requests, including changes to our pipelines, 
 | Data Visualization | Tableau |
 | Advanced Analytics | jupyter |
 
-## <i class="fas fa-exchange-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true" id="extract-and-load"></i>Extract and Load
+## <i class="fas fa-exchange-alt fa-fw -text-purple"></i>Extract and Load
 
 We currently use [Stitch](https://www.stitchdata.com) and [Fivetran](https://fivetran.com/) for some of our data sources. These are off-the-shelf ELT tools that remove the responsibility of building, maintaining, or orchestrating the movement of data from some data sources into our Snowflake data warehouse. We run a full-refresh of all of our Stitch/Fivetran data sources at the same time that we rotate our security credentials (approx every 90 days). Prior to running a full refresh we will drop all of the tables.
 
@@ -117,6 +117,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Google Search Console](https://search.google.com/search-console/about) | Fivetran | `google_search_console` | `google_search_console` | Marketing | 24h / 48h | No | Tier 2 |
 | [Graphite API](https://graphite-api.readthedocs.io/en/latest/) | Airflow | `engineering_extracts` | x | Engineering | 24h / 48h | No | Tier 3 |
 | [Greenhouse](https://www.greenhouse.io/) | Sheetload | `greenhouse` | `greenhouse` | People | 24h / 48h | No | Tier 2 |
+| [Hackerone](https://www.hackerone.com/) | Airflow | `hackerone` | x | Security/Engineering | 24h / 48h | No | Tier 2 |
 | [Handbook YAML Files](https://gitlab.com/gitlab-data/analytics/-/tree/master/extract/gitlab_data_yaml) | Airflow | `gitlab_data_yaml` | `gitlab_data_yaml` | Multiple | 8h / 24h | No | Tier 2 |
 | [Handbook MR Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/handbook_mrs_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 24h / 24h | No | Tier 2 |
 | [Handbook Git Log Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/values_page_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 1w / 1m | No | Tier 2 |
@@ -193,11 +194,11 @@ Sensitive data is locked down through the security paradigms listed below;
 
 Refer to the [Snowplow Infrastructure page](/handbook/enterprise-data/platform/snowplow) for more information on our setup.
 
-## <i class="fas fa-clock fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Orchestration
+## <i class="fas fa-clock fa-fw -text-orange"></i>Orchestration
 
 We use Airflow on Kubernetes for our orchestration. Our specific setup/implementation can be found [here](https://gitlab.com/gitlab-data/data-image). Also see the [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/) page for more information.
 
-## <i class="fas fa-database fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true" id="data-warehouse"></i>Data Warehouse
+## <i class="fas fa-database fa-fw -text-purple"></i>Data Warehouse
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
@@ -595,7 +596,7 @@ This process is not exposed via CI job due to its sensitive nature and because i
 The `permifrost_bot_user` is used to run both Snowflake provisioning and deprovisioning processes. This is for 2 reasons:
 
 1. `permifrost_bot_user` already has the proper permissions to run provisioning/deprovisioning as the same perms are needed to run existing Permifrost jobs.
-1. The `permifrost_bot_user` already runs existing Permifrost jobs using both Airflow and Gitlab CI, so the applied NSP IP addresses will not be redundant when added for both provisioning (run via CI) /deprovisioning (run via Airflow).
+1. The `permifrost_bot_user` already runs existing Permifrost jobs using both Airflow and GitLab CI, so the applied NSP IP addresses will not be redundant when added for both provisioning (run via CI) /deprovisioning (run via Airflow).
 
 #### Provisioning permissions to external tables to user roles
 
@@ -637,6 +638,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | warehouse            | purpose                                                                                         | max query (minutes) |
 | -------------------- | ----------------------------------------------------------------------------------------------- | ------------------- |
 | `admin`              | This is for permission bot and other admin tasks                                                | 10                  |
+| `data_classification` | This is for running the data classification and labelling process in Snowflake                 | 60                  |
 | `dev_xs/m/l/xl`      | This is used for development purposes, to be used when using the Snowflake UI and in CI-pipelines | 180               |
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
@@ -905,12 +907,12 @@ To create the external stage, the new path to the bucket must be included (inclu
     STORAGE_INTEGRATION = GCS_INTEGRATION URL = 'bucket location';
     ```
 
-## <i class="fas fa-cogs fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Transformation
+## <i class="fas fa-cogs fa-fw -text-orange"></i>Transformation
 
 We use [dbt](https://www.getdbt.com/) for all of our transformations.
 See our [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more details on why and how we use this tool.
 
-## <i class="fas fa-check-double fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Trusted Data Framework
+## <i class="fas fa-check-double fa-fw -text-purple"></i>Trusted Data Framework
 
 Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the [Enterprise Data Platform](/handbook/enterprise-data/direction/#a-complete-enterprise-data-platform) is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
 
@@ -1082,7 +1084,7 @@ To reprocess a Qualtrics Mailing List request file:
     3. Edit cell A1 of the erroring file to be `id`.
     4. Enable the Qualtrics Sheetload DAG in Airflow again and let it run, closely monitoring the Airflow task log.
 
-## <i class="fas fa-toggle-on" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Data Spigot
+## <i class="fas fa-toggle-on -text-purple"></i>Data Spigot
 
 A Data Spigot is a concept/methodology to give external systems, access to Snowflake data in a controlled manner.  To give external systems access to Snowflake, the following controls are in place:
 
@@ -1114,7 +1116,7 @@ The process for setting up a new Data Spigot is as follows:
 
 Sales Systems Use-Case: Using the Snowflake API
 
-## <i class="fas fa-chart-bar fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Visualization
+## <i class="fas fa-chart-bar fa-fw -text-orange"></i>Visualization
 
 We use [Tableau](https://www.tableau.com/) as our Data Visualization and Business Intelligence tool. To request access, please follow submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request). Use the template [Tableau_Rquest](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Tableau_Request.md) for Tableau access requests.
 
@@ -1126,7 +1128,7 @@ We use [Tableau](https://www.tableau.com/) as our Data Visualization and Busines
 - dbt Event Logging - coming soon
 - [Snowflake Spend ️❄](https://10az.online.tableau.com/t/gitlab/views/SnowflakeSpend/SnowflakeSpend)
 
-## <i class="fas fa-user-lock fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Security
+## <i class="fas fa-user-lock fa-fw -text-purple"></i>Security
 
 ### Passwords
 
@@ -1211,7 +1213,7 @@ In order to change the desired day of the week/time of these schedules, the Sale
 
 ### GSheets & Jupyter Notebooks
 
-A couple of new functions have been added to the Gitlabdata library ([Link to PyPi](https://pypi.org/project/gitlabdata/), [Link to the source code](https://gitlab.com/gitlab-data/gitlab-data-utils/-/tree/master)) to allow reading from and writing to GSheets files.
+A couple of new functions have been added to the GitLabdata library ([Link to PyPi](https://pypi.org/project/gitlabdata/), [Link to the source code](https://gitlab.com/gitlab-data/gitlab-data-utils/-/tree/master)) to allow reading from and writing to GSheets files.
 
 #### Reading from GSheets within Jupyter Notebooks
 

@@ -35,6 +35,14 @@ If you plan on staying in a location for more than 6 months in a single calendar
 
 ** Please note that in some jurisdictions, even short term stays can add up to more than 183 days per year and can subject you to payroll tax in the new location.  Always make sure to check with your tax advisor before traveling to any location where you will be performing work for an extended period of time, whether it is more than or less than 183 days.
 
+#### Considerations for Short-Term Travel
+
+GitLab is an all-remote company that allows it's team members to work from most places globally, however, some places are subject to trade control restrictions. For this reason, team members cannot take company-owned devices to or otherwise work from US-embargoed countries or regions under any circumstances. The U.S. embargoed country list includes but not limited to Cuba, Iran, North Korea, Syria, Russia, Belarus, and the Crimea, Donetsk, and Luhansk regions of Ukraine.
+
+GitLab provides this information, which is subject to change without notice, to facilitate GitLab users’ compliance with applicable trade control law. Additional information can be found on the [Trade Compliance](/handbook/legal/trade-compliance/) page in the handbook.
+
+Some countries may not be on the US-embargoed list but still require prior GitLab notice and/or approval before traveling to or working from these locations. If you have any questions do not hesitate to contact the People Team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d).
+
 ### Long-Term Relocation
 
 #### Long-Term Relocation Definition

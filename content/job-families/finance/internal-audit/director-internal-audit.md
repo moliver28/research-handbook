@@ -57,7 +57,7 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 
 ### Career Ladder
 
-The next step in the Internal Audit job family is to move to the [Internal Audit](/handbook.gitlab.com/job-families/finance/#internal-audit/) job family.
+The next step in the Internal Audit job family is to move to the [Internal Audit](/job-families/finance/#internal-audit/) job family.
 
 ### Hiring Process
 

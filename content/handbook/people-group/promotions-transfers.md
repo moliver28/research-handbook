@@ -70,7 +70,7 @@ Our promotion philosophy is also aligned with our [values](/handbook/values/):
 - **Results**: Business justification, scope, and team member results are demonstrated and documented to support promotions
 - **Efficiency**: Consistency and scalability in our promotion processes by twice per year planning and calibration. The planning and calibration timing considers existing programs and cycles for the business and aims to embed promotions into cadences where they best align for efficiency.
 - **Diversity, Inclusion, and Belonging**: Fairness and equity reflected through a consistent approach and documentation to promotions at all levels in the organization and supported by our [job frameworks](/handbook/company/structure/) and Total Rewards [URG]({{< ref "review-cycle-inputs#underrepresented-group-audit" >}}) audit
-- **Iteration**: Process is improved each cycle. In FY23, we moved to quarterly promotions with calibration and updated our processes and metrics accordingly. In FY24, we moved to a twice per year promotion cadence to ensure efficiency and scalability in our process as the business continues to grow.
+- **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at wasy swe can iterate our process for efficiency and scalability.
 - **Transparency**: Clarity and efficacy of promotion metrics, budget, and guidelines, in addition to transparency in promotion justification through internally public promotion documents.
 
 ### Processing a Promotion
@@ -79,7 +79,7 @@ Most promotions are processed through our twice per year Promotion Calibrations,
 
 ## Twice per Year Promotion Calibration Process & Timeline
 
-At GitLab, we promote on a twice per year basis. This means that there is **one effective date every 6 months when team members can be promoted**. We process promotions in Q1 (effective date February 1st) and Q3 (effective date August 1st). There are three core stages to the promotion process: Planning, Calibration, and Processing.
+At GitLab, we promote on a twice per year basis. There are three core stages to the promotion process: Planning, Calibration, and Processing.
 
 The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-development-fy24-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
 
@@ -95,42 +95,71 @@ Sales Development promotions will be reviewed on a monthly basis.
 
 - Planning & Calibration: by the third week of each month
 - Processing: promotions must be added to HRIS by the 5th day of each effective month
-- Effective date for promotions: 2023-11-01, 2023-12-01, 2024-01-01
+- Effective date for promotions: 20XX-11-01, 20XX-12-01, 20XX-01-01
 
-Below is the timeline for FY25:
+### Twice Annual Process
+
+Below is the timeline for FY26:
 *Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite]({{< ref "offsite#schedule" >}}).*
 
-### FY25-Q1 (1st Half)
+### FY26-Q1 (Feb 1)
 
-*Status:* Completed
+*Status:* In Progress
 
-- Planning: 2022-12-20 to 2023-01-06
-- Calibrations: 2023-01-09 to 2023-01-20
-- Processing: 2023-01-23 to 2023-02-01 (Promotions must be added to Workday by 2023-01-20)
-  - Effective date for promotions: 2023-02-01.
-  - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
+- Planning: 2024-11-01 to 2024-12-01
+- Calibrations: 2024-12-02 to 2025-01-03
+- Workday input by Director+: 2025-01-09 to 2025-01-17
+- PBP + E-Group Leader approvals: 2025-01-20 to 2025-01-21
+- Workday Approvals: 2025-01-22 to 2025-01-24
+- Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
+- Effective date for promotions: 2025-02-01
+- After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
 
-## FY25-Q3 (2nd Half)
+## FY26-Q4 (Nov 1)
 
-Status: In progress
+Status: Pending  
 
-- Planning: 2024-06-10 to 2024-06-21
-- Calibrations & Workday input by Director+: 2024-06-24 to 2024-07-10
-- PBP & E-Group leader approvals: 2024-07-12
-- Workday Approvals: 2024-07-16 to 2024-07-18
-- Communication: 2024-07-24 to 2024-08-01 (after fully approved in Workday)
-- Effective date for promotions: 2024-08-01
-- After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+- Planning: 
+- Calibrations & Workday input by Director+: 
+- PBP & E-Group leader approvals: 
+- Workday Approvals: 2
+- Communication: 
+- Effective date for promotions: 2025-11-01
+- After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+
+## FY27-Q2 (May 1)
+
+Status: Pending  
+
+- Planning: 
+- Calibrations & Workday input by Director+: 
+- PBP & E-Group leader approvals: 
+- Workday Approvals: 2
+- Communication: 
+- Effective date for promotions: 2026-05-01
+- After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+
+## FY27-Q4 (Nov 1)
+
+Status: Pending  
+
+- Planning: 
+- Calibrations & Workday input by Director+: 
+- PBP & E-Group leader approvals: 
+- Workday Approvals: 2
+- Communication: 
+- Effective date for promotions: 2026-11-01
+- After communicating 1:1 with individuals **on or after 2026-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
 
-Q3 Promotion Planning is generally done via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+FY26 Q1 Promotion **Planning** is generally done via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
 
 Once the Calibration phase by Division is complete, Directors and above will have the ability to enter promotion compensation recommendations into the [Workday planning grid](https://docs.google.com/document/d/1KwpFnZC5MFpCwS9ElqkSh0f1bdZ3l0Gp-B4lDdJwIg0/edit?usp=sharing). For specific Division calibration meeting timelines, please reach out to your People Business Partner.
 
 ### Promotion Document
 
-The [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing) is required for all in-line promotions.
+The [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
 
 As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role.
 
@@ -428,7 +457,7 @@ This section describes the approval chain after the People Business Partner subm
 
 1. The changes will route for approval to the manager, next level manager, and e-Group leader.
 1. If the request is approved, the People Connect Team will stage the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) in DocuSign.
-1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack #team-member-updates channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
+1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack `#team-member-updates` channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
 1. For change of departments and managers, People Connect Team members will create a Career Mobility Issue.
 
 ### For People Connect Team: Processing Promotions, Internal Transfers & Compensation Changes
@@ -613,7 +642,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 ## Department Transfers
 
-If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the #new-vacancies Slack channel.
+If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
 
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 

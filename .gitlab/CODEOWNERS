@@ -20,10 +20,6 @@
 #
 #####
 
-# Fallback for when no codeowners are found. Must be at the top.
-^[content-sites]
-* @gitlab-com/egroup @gitlab-com/content-sites
-
 # Handbook section needs to be near the top as it includes the fallback
 ^[handbook]
 /content/ @sytses @streas @gitlab-com/egroup
@@ -67,7 +63,7 @@
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @sytses
-/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @andrew_murray @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
 /content/handbook/company/group-conversations.md @streas
@@ -125,6 +121,7 @@
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
+/content/handbook/engineering/development/data-science/ai-powered/duo-workflow @bastirehm @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
 /content/handbook/engineering/development/data-science/modelops/ @m_gill
 /content/handbook/engineering/development/database.md @alexives
@@ -141,7 +138,6 @@
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
-/content/handbook/engineering/development/dev/plan/plan-fe/ @donaldcook @timzallmann @johnhope
 /content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
@@ -153,10 +149,10 @@
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/deploy/ @nmezzopera
 /content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
-/content/handbook/engineering/development/ops/monitor/respond/ @kbychu @francoisrose
+/content/handbook/engineering/development/ops/monitor/respond/ @hbenson @francoisrose
 /content/handbook/engineering/development/ops/package/ @crystalpoole
-/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @marknuzzo @nicolewilliams
-/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo
+/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams
+/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @cheryl.li
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
@@ -168,7 +164,7 @@
 /content/handbook/engineering/development/sec/govern/compliance.md @nrosandich
 /content/handbook/engineering/development/sec/govern/pipeline-security/ @shampton
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
-/content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @ryaanwells
+/content/handbook/engineering/development/sec/govern/threat-insights @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
@@ -194,21 +190,21 @@
 /content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @cdu1 @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure/ @marin @meks @vincywilson
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
-/content/handbook/engineering/infrastructure/core-platform/ @cdu1
+/content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/tenant-scale.md @sissiyao
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/ @rmar1
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database/ @alexives
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/search/ @changzhengliu
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
-/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @cdu1 @plu8
+/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @marin @meks @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
 /content/handbook/engineering/infrastructure/team/ @marin
@@ -261,7 +257,7 @@
 /content/handbook/engineering/readmes/lee-matos.md @lbot
 /content/handbook/engineering/readmes/lyle-kozloff.md @lyle
 /content/handbook/engineering/readmes/marin-jankovski.md @marin
-/content/handbook/engineering/readmes/mark-nuzzo.md @marknuzzo
+/content/handbook/engineering/readmes/mark-nuzzo.md @cheryl.li
 /content/handbook/engineering/readmes/matt-nohr.md @mnohr
 /content/handbook/engineering/readmes/max-woolf.md @mwoolf
 /content/handbook/engineering/readmes/mike-dunninger.md @mdunninger
@@ -460,7 +456,7 @@
 /content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
-/content/handbook/people-group/learning-and-development/team-workshops @tely2 @slee24 
+/content/handbook/people-group/learning-and-development/team-workshops @tely2 @slee24
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
@@ -484,7 +480,7 @@
 /content/job-families/product/product-design-management.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @joshlambert @fzimmer @jreporter @ofernandez2 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @jreporter @ofernandez2 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/technical-writer.md @susantacker @dianalogan @kpaizee @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/technical-writing-manager.md @susantacker @dianalogan @kpaizee @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/ux-fullstack-engineer.md @susantacker @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
@@ -508,7 +504,7 @@
 /content/handbook/sales/channel/ @ecepulis
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @akramer @dsteer
-/content/handbook/sales/commercial/ @bcaller @jvpotter @akramer @kyla @steve_xu @carolynharding
+/content/handbook/sales/commercial/ @bcaller @MDines @akramer @kyla @steve_xu @carolynharding
 /content/handbook/sales/commissions/ @james_harrison
 /content/handbook/sales/faq-from-prospects.md @akramer
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
@@ -632,7 +628,7 @@
 /content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @vincywilson @meks
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
-/content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
+/content/handbook/company/working-groups/multi-large.md @marin @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
 
 [values]
@@ -642,7 +638,6 @@
 ## Please keep the _required_ handbook sections near the end
 ##
 [handbook-operations]
-/.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 /.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 /.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
@@ -663,7 +658,9 @@
 /README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 /scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 
-[CODEOWNERS]
+## This required rule must be outside of a section for the codeowners one to override it
+/.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
+## override approvals for codeowners file
 /.gitlab/CODEOWNERS @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
@@ -688,8 +685,8 @@
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/_index.md @cdu1 @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/_index.md @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites

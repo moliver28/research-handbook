@@ -76,14 +76,52 @@ If you'd like to view or edit the templates, you can find them here:
 
 ### Overall Experience
 
+Following each scenario that is evaluated, a set of three questions are asked to help determine the appropriate score, or grade, to attribute to the scorecard.
+
+#### Question 1: Single Ease Question (SEQ)
+
+“Overall, this scenario was…”
+
+* 5 - Extremely easy
+* 4 - Easy
+* 3 - Neither easy nor difficult
+* 2 - Difficult
+* 1 - Extremely difficult
+
+#### Question 2: Satisfaction rating
+
+“How would you rate the quality of this experience?”
+
+* 5 - Extremely good
+* 4 - Good
+* 3 - Neither good nor bad
+* 2 - Bad
+* 1 - Extremely bad
+
+#### Question 3: UMUX Lite, adjusted (Useful)
+
+“You just experienced our implementation of <Scenario>. How would you agree or disagree with the following statement:
+
+<Scenario> has the features I need for what I need to do in my own work.”
+
+* 5 - Strongly agree
+* 4 - Agree
+* 3 - Neither agree nor disagree
+* 2 - Disagree
+* 1 - Strongly disagree
+
+#### Calculating the score
+
+To detemrine the overall score, use the [UX Scorecard Calculations sheet](https://docs.google.com/spreadsheets/d/1wv3OW3hFGGckTUVwOe5HcRGuc-wV2szwtBHoxhx2f0Y/edit?usp=sharing)(interal only).
+
 | Badge | Summary | Description |
 | ------ | ------ | ------ |
-| [![Badge level A High Quality/Exceeds](https://about.gitlab.com/images/grade/grade_a.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Exceeds Expectations | Experience exceeds expectations and the user feels the experience is delightful.<br>- Efficiency: *Extremely easy*<br>- Satisfaction: *Extremely good*<br>- Usefulness: *Strongly agree* |
-| [![Badge level B Meets Expectations](https://about.gitlab.com/images/grade/grade_b.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Meets Expectations | Meets expectations but does not exceed user needs. The user is able to reach the goal and complete the job.<br>- Efficiency: *Easy*<br>- Satisfaction: *Good*<br>- Usefulness: *Agree*  |
-| [![Badge level C Average](https://about.gitlab.com/images/grade/grade_c.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Average | The user can complete the job but it does not exceed their needs and requires unnecessary steps.<br>- Efficiency: *Neither easy nor difficult*<br>- Satisfaction: *Neither good nor bad*<br>- Usefulness: *Neither agree nor disagree*  |
-| [![Badge level D Poor](https://about.gitlab.com/images/grade/grade_d.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Poor | Experience is viewed as a poor experience and is difficult to complete.<br>- Efficiency: *Difficult*<br>- Satisfaction: *Bad*<br>- Usefulness: *Disagree*  |
-| [![Badge level F Terrible](https://about.gitlab.com/images/grade/grade_f.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Terrible | Too many users are unable to complete the job. Experience is viewed as extremely bad and extremely difficult to complete.<br>- Efficiency: *Extremely difficult*<br>- Satisfaction: *Extremely bad*<br>- Usefulness: *Strongly disagree*  |
-| [![Badge level 0 Unknown](https://about.gitlab.com/images/grade/grade_-.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Unknown | This job has yet to be graded.<br>- Efficiency: *Unknown*<br>- Satisfaction: *Unknown*<br>- Usefulness: *Unknown*  |
+| [![Badge level A High Quality/Exceeds](https://about.gitlab.com/images/grade/grade_a.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | High Quality / Exceeds Expectations | Experience exceeds expectations and the user feels the experience is delightful.<br>- Ease: *Extremely easy*<br>- Satisfaction: *Extremely good*<br>- Usefulness: *Strongly agree* |
+| [![Badge level B Meets Expectations](https://about.gitlab.com/images/grade/grade_b.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Meets Expectations | Meets expectations but does not exceed user needs. The user is able to reach the goal and complete the job.<br>- Ease: *Easy*<br>- Satisfaction: *Good*<br>- Usefulness: *Agree*  |
+| [![Badge level C Average](https://about.gitlab.com/images/grade/grade_c.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Average | The user can complete the job but it does not exceed their needs and requires unnecessary steps.<br>- Ease: *Neither easy nor difficult*<br>- Satisfaction: *Neither good nor bad*<br>- Usefulness: *Neither agree nor disagree*  |
+| [![Badge level D Poor](https://about.gitlab.com/images/grade/grade_d.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Poor | Experience is viewed as a poor experience and is difficult to complete.<br>- Ease: *Difficult*<br>- Satisfaction: *Bad*<br>- Usefulness: *Disagree*  |
+| [![Badge level F Terrible](https://about.gitlab.com/images/grade/grade_f.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Terrible | Too many users are unable to complete the job. Experience is viewed as extremely bad and extremely difficult to complete.<br>- Ease: *Extremely difficult*<br>- Satisfaction: *Extremely bad*<br>- Usefulness: *Strongly disagree*  |
+| [![Badge level 0 Unknown](https://about.gitlab.com/images/grade/grade_-.svg)](/handbook/product/ux/ux-scorecards/index.html#grading-rubric) | Unknown | This job has yet to be graded.<br>- Ease: *Unknown*<br>- Satisfaction: *Unknown*<br>- Usefulness: *Unknown*  |
 
 Onboarding can refer to many different scenarios, and this can impact the experience:
 

@@ -332,7 +332,7 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 | Number of Attendees | The total number of attendees that attend an individual event/booth participation.<br><br>This is measured by: <br> - Number of Talent Community adds QR scans.<br> - Number of checked-in attendees.|
 | Conversion Rate | The percentage of individual event attendees that convert from Prospect to Qualified in Greenhouse. |
 | Quality of Candidates | The percentage of attendees that convert from Qualified to Initial Interview. |
-| Attendee Likelihood To Recommend | The likelihood that attendees would recommend attending a Gitlab-hosted event to family, friends, and/or colleagues.<br><br>This is measured by post-event survey responses.<br> - Scores of 1-2 = Not Likely To Recommend<br> - Score of 3 = Passive<br> - Scores of 4-5 = Likely To Recommend. |
+| Attendee Likelihood To Recommend | The likelihood that attendees would recommend attending a GitLab-hosted event to family, friends, and/or colleagues.<br><br>This is measured by post-event survey responses.<br> - Scores of 1-2 = Not Likely To Recommend<br> - Score of 3 = Passive<br> - Scores of 4-5 = Likely To Recommend. |
 | Cost of Engagement | This is calculated as the total event/total # of attendees + digital reach. |
 
 **Partnerships and Platforms**

@@ -61,7 +61,7 @@ Examples:
 - "This user <https://gitlab-federal-support.zendesk.com/users/398443026291/> is struggling with Geo setup..."
 - "The person who submitted the case that got bounced back is a member of this organization: <https://gitlab.my.salesforce.com/0014M00001hHHKF>"
 
-The use of an acronym to discuss an organization is **not permitted** in either `#spt_us-government` or `#feed_zd-federal` channels to prevent disclosure of sensitive information.
+The use of an acronym to discuss an organization is **not permitted** in the `#spt_us-government` channel to prevent disclosure of sensitive information.
 
 ## Ticket assignment via round-robin
 

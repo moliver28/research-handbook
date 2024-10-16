@@ -24,7 +24,7 @@ Our detailed priority list can be found at the [direction page](https://about.gi
 10. Token management enhancements
 11. Credential Manager enhancements
 
-#### Customer Outcomes we are driving for Gitlab
+#### Customer Outcomes we are driving for GitLab
 
 As a result of the above roadmap items, we aim to driver the following outcomes for our customers:
 
@@ -80,7 +80,7 @@ Because this group works on components of the application that have a [far-reach
 
 ##### Rollout and validation for token related features or destructive data updates
 
-Due to the critical nature of tokens (PAT, PrAT and GrAT) and their associated bot accounts or memberships, a careful rollout process must be followed. This also extends to feature changes that update large datasets in the database. As part of feature completion, the DRI engineer must create a rollout plan and have it peer reviewed by at least 2 other engineers familiar with the domain. 
+Due to the critical nature of tokens (PAT, PrAT and GrAT) and their associated bot accounts or memberships, a careful rollout process must be followed. This also extends to feature changes that update large datasets in the database. As part of feature completion, the DRI engineer must create a rollout plan and have it peer reviewed by at least 2 other engineers familiar with the domain.
 
 The rollout plan can use any number of the following mechanisms to de-risk the changes:
 
@@ -88,7 +88,7 @@ The rollout plan can use any number of the following mechanisms to de-risk the c
 2. Extending existing feature flag mechanisms to ensure the workers or cron jobs can be limited to a test group run.
 3. Strongly consider the use of soft deletion or transitionary data in DB to evaluate how a change will look in production with easy rollback opportunity. Diffs can be helpful in reviewing the expected and the actual changes.
 4. For database changes, evaluate the count of expected record changes before and after, the last update dates and the associated records to see whether a certain relationship may have been missed from implementation design.
-5. Changes should be enabled on lower environments such as staging or staging-ref to verify expected functionality. As much as possible, attempt to replicate the data structures from GitLab.com on these lower environments. 
+5. Changes should be enabled on lower environments such as staging or staging-ref to verify expected functionality. As much as possible, attempt to replicate the data structures from GitLab.com on these lower environments.
 6. Evaluate migrations or transitionary migrations over data removal so that we can move to last known good state if required.
 7. Use of internal groups such as quality team or delivery teams which are production systems, but still internal. This would test the feature at a production level, ideally with no negative impact, but still offer a layer of user testing prior to users.
 8. Addition of audit events, and log data to leave a trail of operations that can offer traceability in case of unexpected changes.

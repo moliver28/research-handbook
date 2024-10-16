@@ -14,7 +14,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 ### Project Initiate & Plan
 
-1. After obtaining Legal approval, PS Quote triggers an Epic in Gitlab.com around the recently sold Professional Services Project, at the [Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group) level. This _Customer Epic_ is labeled as SOW# + Customer and includes links to relevant Customer & contract information
+1. After obtaining Legal approval, PS Quote triggers an Epic in GitLab.com around the recently sold Professional Services Project, at the [Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group) level. This _Customer Epic_ is labeled as SOW# + Customer and includes links to relevant Customer & contract information
 1. Once a prosepctive Services deal reaches "Stage 6" (closing) in the PS Customer Journey, the PSOps team refers to the _Customer Epic_ to find the [_"Scheduling Intake" issue_](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads). From this issue, the Resource Scheduling team works to gather the initial information needed to assign the PS Resources (PM, PSE, TA)
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
@@ -25,9 +25,9 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 #### Customer Project Space Guidelines
 
-1. We use Gitlab as our primary Project Management tool for Service Deivery with our Customers. We use CP (Customer Project) automation configured by the PS Practice team to convert the SOW activities into trackable issues within Gitlab
-   * A list of our Projects can be found here: [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
-   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated or send a message to the #ps-practice slack channel, requesting a CP project to be created
+1. We use GitLab as our primary Project Management tool for Service Deivery with our Customers. We use CP (Customer Project) automation configured by the PS Practice team to convert the SOW activities into trackable issues within GitLab
+   * A list of our Projects can be found here: [GitLab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [GitLab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
+   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within GitLab while we continue to make this step more automated or send a message to the #ps-practice slack channel, requesting a CP project to be created
 1. For adehring to best practices, reference the "Professional Services Delivery Methodology" below and be sure to reference the [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) for guidance around managing our porfolio, by Service Offering
 
 #### For Consulting Blocks and Dedicated Engineer Projects
@@ -44,7 +44,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 ##### Kantata
 
-Kantata is our primary Resource Management software. From here the PMO team reviews and manages the Delivery team hours against the Project scope in order to effectively report on Project progress with the Customer. This is also the primary mechanism for PS revenue forecasting. To ensure resources are allocated appropriatly & our forecast is as accurate as possible, it's important to adhere to the schedule outlined above. 
+Kantata is our primary Resource Management software. From here the PMO team reviews and manages the Delivery team hours against the Project scope in order to effectively report on Project progress with the Customer. This is also the primary mechanism for PS revenue forecasting. To ensure resources are allocated appropriatly & our forecast is as accurate as possible, it's important to adhere to the schedule outlined above.
 
 1. Once assigned to a project, make sure you, as the PM are assigned as the lead of the project in Kantata
 1. Go to Kantata > Resourcing > Resource Center > Projects and filter by Project Lead = you to review the allocations for your projects

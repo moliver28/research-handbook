@@ -33,6 +33,10 @@ GitLab's Security TPRM program involves three components which are integrated in
 | Business or System Owner |  [Describe the nature of the Third Party Relationship](/handbook/finance/procurement/#step-2-submit-your-zip-request) <br> Work with the Security Risk team to facilitate the TPRM review, to include remediation activities <br>* Ensure the responsiveness of the third party as part of the security review requirements |
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
+### After-Hours Support
+
+The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent requisitions or TPRM concerns requiring immediate attention outside of these hours, please reach out to Ty Dilbeck via the phone number listed in Slack.
+
 ## Security Considerations for Vendor Selection
 
 Security is a top priority in GitLab's vendor selection process, and GitLab is committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and health of their BitSight security ratings. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security to safeguard GitLab's data and uphold the trust of our stakeholders. Below are some examples of how Security Risk evaluates vendors of different types and some recommendations for vetting vendors when making purchasing decisions.
@@ -46,6 +50,8 @@ When considering new software to address business needs and objectives, see belo
   - Security requires that software has the ability to integrate with Okta or Google Oauth for authentication.
 - Does the vendor complete an annual independent third party audit of their security controls to show adherence to industry standards and best practices?
   - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations).
+- Does the vendor incorporate Secure by Design principles throughout the software development lifecycle?
+  - Security requires that software vendors perform predeployment threat modeling, vulnerability scanning, and secure coding practices during design and development phases of the software. 
 - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
   - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
 

@@ -15,7 +15,7 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 
 ## Vision
 
-The Test & Tools Infrastructure team, under the [Test Platform sub-department](../_index.md) at GitLab, aspires to be a pioneering force in the innovation and maintenance of advanced testing frameworks and test infrastructure to support Gitlab's principle of [Quality is everyone's responsibility](/handbook/engineering/quality/#our-principles).
+The Test & Tools Infrastructure team, under the [Test Platform sub-department](../_index.md) at GitLab, aspires to be a pioneering force in the innovation and maintenance of advanced testing frameworks and test infrastructure to support GitLab's principle of [Quality is everyone's responsibility](/handbook/engineering/quality/#our-principles).
 
 As an integral part of our vision, we aim to:
 
@@ -42,16 +42,16 @@ The key components of our mission are to:
 ```mermaid
 graph LR
     A[Test & Tools Infrastructure Team]
-    
+
     A --> B[Test Infrastructure Optimization]
     B --> B1[Framework Enhancements<br>Upgrading testing frameworks to meet evolving needs]
     B --> B2[Infrastructure Efficiency<br>Optimizing test infrastructure utilization and cost]
     B --> B3[Reliability & Execution<br>Reducing test flakiness and improving execution speed]
-       
+
     A --> C[AI-Powered Evaluation]
     C --> C1[Assessment Tools<br>Developing comprehensive tools for AI model evaluation]
     C --> C4[Generative & Predictive Test Analysis<br>Employing AI for enhanced testing accuracy]
-    
+
     A --> D[Test Observability & Analytics]
     D --> D1[Metric Collection<br>Gathering comprehensive data and actionable insights on test execution]
     D --> D2[Performance Monitoring<br>Tracking key indicators of testing efficiency and effectiveness]

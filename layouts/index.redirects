@@ -56,7 +56,6 @@
 /handbook/competencies/ /handbook/people-group/competencies/ 301
 /handbook/content-websites/ /handbook/about/maintenance/ 301
 /handbook/content-websites/direction/ /handbook/about/direction/ 301
-/handbook/content-websites/handbook-migration/ /handbook/about/roadmap/ 301
 /handbook/content-websites/handbook-migration/migration-details/ /handbook/about/migration-details/ 301
 /handbook/customer-success/csm/adoption-landing-zones/AI-ML/ /handbook/customer-success/csm/adoption-landing-zones/ai-ml/ 301
 /handbook/customer-success/csm/adoption-landing-zones/CI/ /handbook/customer-success/csm/adoption-landing-zones/ci/ 301
@@ -247,6 +246,24 @@
 # Moved frontmatter page - remove 2024-12-01
 /handbook/editing-handbook/frontmatter/ https://handbook.gitlab.com/docs/frontmatter/
 
+# Added Digital Experience engineering subfolder - remove 2024-12-01
+
+/handbook/marketing/digital-experience/buyer-experience-repository/ /handbook/marketing/digital-experience/engineering/buyer-experience-repository/ 301
+/handbook/marketing/digital-experience/dexbot/ /handbook/marketing/digital-experience/engineering/dexbot/ 301
+/handbook/marketing/digital-experience/marketing-site-rearchitecture-project/ /handbook/marketing/digital-experience/marketing-site-rearchitecture-project/ 301
+/handbook/marketing/digital-experience/engineering-marketo/ /handbook/marketing/digital-experience/engineering/engineering-marketo/ 301
+/handbook/marketing/digital-experience/engineering-ab-tests/ /handbook/marketing/digital-experience/engineering/engineering-marketo/ 301
+/handbook/marketing/digital-experience/accessibility/ /handbook/marketing/digital-experience/engineering/accessibility/ 301
+/handbook/marketing/digital-experience/engineering-gitlab-product/ /handbook/marketing/digital-experience/engineering/engineering-gitlab-product/ 301
+/handbook/marketing/digital-experience/image-guidelines/ /handbook/marketing/digital-experience/engineering/image-guidelines/ 301
+/handbook/marketing/digital-experience/marketing-site-approval-process/ /handbook/marketing/digital-experience/marketing-site-approval-process/ 301
+/handbook/marketing/digital-experience/localization/ handbook/marketing/digital-experience/engineering/localization/ 301
+/handbook/marketing/digital-experience/navigation-repository/ /handbook/marketing/digital-experience/engineering/navigation-repository/ 301
+/handbook/marketing/digital-experience/data-dictionary/ /handbook/marketing/digital-experience/engineering/data-dictionary/ 301
+/handbook/marketing/digital-experience/incident-response-playbook/ /handbook/marketing/digital-experience/engineering/incident-response-playbook/ 301
+/handbook/marketing/digital-experience/major-league-hacking-fellows/ /handbook/marketing/digital-experience/engineeringmajor-league-hacking-fellows/ 301
+/handbook/marketing/digital-experience/onetrust-cookie-consent/ /handbook/marketing/digital-experience/engineering/onetrust-cookie-consent/ 301
+
 # Product handbook restructure - remove 2024-12-08
 /handbook/product/fulfillment-guide/* /handbook/product/groups/fulfillment-guide/:splat 301
 /handbook/product/project-management/* /handbook/product/groups/project-management/:splat 301
@@ -278,6 +295,9 @@
 # Removed oudated customer advocacy pages - remove 2024-12-17
 /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/* /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ 301
 
+# Moved CTO Leadership Team page - remove 2024-12-30
+ /handbook/engineering/cto-staff/ /handbook/engineering/cto-leadership-team/ 301
+
 # Solutions Architecture Handbook Moved - remove 2025-01-01
 /handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
@@ -300,7 +320,7 @@
 
 # Growth and Development Pages Moved - remove 2024-12-20
 /handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/ /handbook/people-group/learning-and-development/growth-and-development/ 301
-/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/* /handbook/people-group/learning-and-development/growth-and-development/:splat 301 
+/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/* /handbook/people-group/learning-and-development/growth-and-development/:splat 301
 
 # Replace Engagement Concierge with Team Workshops - remove 2024-12-26
 //handbook/people-group/engagement-concierge/ /handbook/people-group/learning-and-development/team-workshops 301

@@ -210,25 +210,26 @@ Members that do not have account permission of Report Viewer (or higher) will on
 
 | Project Type | Time Sheet Approver |Backup |
 | ------ | ------ |------ |
-| Consulting Customer Project| Project Manager |Project Coordinator |
-| Internal Projects| PS Project Coordinator |PS Operations Manager |
-| Training Projects| PS Training Coordinator |PS Operations Manager |
+| Consulting Projects| Project Manager |Project Coordinator / Operations Analyst|
+| Project Manager Hours| Arthur Foltz (EMEA PM's), Dani Arman (NA PM's) |Project Coordinator / Operations Analyst|
+| Non Creditable Projects| Arthur Foltz (EMEA PM's), Dani Arman (NA PM's), Glen Miller (PSE's), Kevin Vogt (TA's), Sean Sandoval (Trainers) |Project Coordinator / Operations Analyst |
+| Training Projects| Training Coordinator |Operations Analyst |
 
 ***Weekly Time Sheet Timelines***
 
 | Time Sheet Submission | Time Sheet Approvals |
 | ------ | ------ |
-| Each Friday, EOD| Each Monday by 11 AM EST |
+| Each Friday, EOD| Each Monday by 1 PM EST |
 
-***Month End Time Sheet Timelines***
+***Billing Period Time Sheet Timelines***
 
 | Time Sheet Submission | Time Sheet Approvals |
 | ------ | ------ |
-| [Due Date, by Noon EST](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0) | [Due Date, by 1 EST](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0) |
+| Wednesday by 5 PM | Thursday by 1 PM ET |
 
 **Project Notes**
 
-- Project notes are required for all Credit and Non Credit time entries
+- Notes are required for all Non Creditable time entries
 - If the notes section is blank, reject the time sheet asking for project notes
 
  There are 3 ways to approve timesheets via Mavenlink:

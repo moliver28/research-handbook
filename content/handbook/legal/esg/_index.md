@@ -16,6 +16,23 @@ Every year GitLab publishes an annual ESG report where we share our approach to 
 - [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/)
 - [FY24 ESG Report](handbook/company/esg/)
 
+### ESG Advisory Committee
+
+The purpose of the advisory committee is create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.  
+
+Members of the ESG Advisory Committee:
+
+- Kelsey Turcotte (Investor Relations)
+- Lisa Boughner (Communications)
+- Aime Bright & Billy Stallings (Marketing)
+- Pattie Egan (People)
+- Sherida McMullan (DIB)
+- Stella Treas (CoS)
+- Scott Rissmiller (Corporate Legal)
+- Emily Plotkin (Employement Legal)
+- Rendi Miller (Procurement)
+- James Shen (Finance)
+
 ## ESG Request Process
 
 ### Philanthropic Requests
@@ -52,7 +69,7 @@ Team members can also request support from the ESG Team to organize local or vir
 
 All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
-If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
+If volunteering in person, team members may incur some expenses. For calendar year 2024, team members can expense up to a total of $25 for expenses incurred that meet the allowed for reimbursement criteria. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 
 As with all [company expenses](/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company's money and use best judgment to ensure that all expenses are deemed "ordinary and necessary." Team members should follow all [team member expense responsibilities](/handbook/finance/expenses/#2-responsibilities).
 
@@ -285,7 +302,7 @@ Email: ESG@GitLab.com.
 
 **Q: Does GitLab calculate its carbon emissions?**
 
-A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in the annual [ESG report](/handbook.gitlab.com/handbook/company/esg/). Please view the results of our FY24 GHG inventory [here](/handbook.gitlab.com/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
+A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in the annual [ESG report](/handbook/company/esg/). Please view the results of our FY24 GHG inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
 
 **Q: Has GitLab set a Science Based Target (SBT)?**
 
@@ -313,7 +330,7 @@ A: Please follow the steps outlined in the [RFP process](/handbook/security/secu
 
 **Q: Does GitLab sponsor/fund nonprofit organizations?**
 
-A: Through the corporate philanthropy program, GitLab supports registered 501c3 (or country equivalent) nonprofit organizations in good standing that align with our [Values](/handbook.gitlab.com/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
+A: Through the corporate philanthropy program, GitLab supports registered 501c3 (or country equivalent) nonprofit organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
 
 GitLab prioritizes financial contributions to organizations that align with our values, support our environmental and social goals, and help us advance our mission to make it so that everyone can contribute. We endeavor to build long-term partnerships with community organizations and avoid a transactional approach to our corporate giving. Our current social and environmental focus areas are:
 
@@ -321,9 +338,9 @@ GitLab prioritizes financial contributions to organizations that align with our 
 - Talent Management
 - Climate Action
 
-Monetary contributions are initiated by the request of our team members and TMRGs, and the process can be reviewed [here](/handbook.gitlab.com/handbook/legal/esg/#monetary-contributions).
+Monetary contributions are initiated by the request of our team members and TMRGs, and the process can be reviewed [here](/handbook/legal/esg/#monetary-contributions).
 
 **Q: Does GitLab donate its product to nonprofits?**
 
 A: Through [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/), GitLab donates up to 5,000 seats annually to Registered Nonprofit Organizations. Interested Registered Nonprofit Organizations are required to apply and will be vetted for registration and standing status. Licenses are donated on a first come first serve basis and the number of seats to be donated within a fiscal year is reviewed annually by the ESG Team, the FP&A Business Partner, and Chief Legal Officer. Please review our [Nonprofit program application](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) for further details. 
-Please see GitLab’s [Trade Compliance Policy Handbook](/handbook.gitlab.com/handbook/legal/trade-compliance/) for a list of embargoed countries. Registered Nonprofit Organizations in embargoed countries are not eligible for the in-kind donation program.
+Please see GitLab’s [Trade Compliance Policy Handbook](/handbook/legal/trade-compliance/) for a list of embargoed countries. Registered Nonprofit Organizations in embargoed countries are not eligible for the in-kind donation program.

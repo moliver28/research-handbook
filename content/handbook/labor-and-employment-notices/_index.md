@@ -75,6 +75,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
   - [Fair Chance Initiative for Hiring Ordinance to Applicants and Employees](https://bca.lacity.org/Uploads/fciho/Ban%20the%20Box%20Poster%20-%20Private%20Employers%2C%20as%20of%208.23.18.pdf)
   - [Minimum Wage and Paid Sick Leave](https://wagesla.lacity.org/sites/g/files/wph1941/files/2023-02/2023-MWO-Poster-EN-11_0.pdf)
 - **Los Angeles County**
+  - [Fair Chance Notice for Employers](https://dcba.lacounty.gov/wp-content/uploads/2024/08/FCOE-Official-Notice-Eng-Final-8.30.2024.pdf)
   - [Minimum Wage Ordinance](https://file.lacounty.gov/SDSInter/dca/245570_FinalMinimumWageOrdinancePosterEnglishStandardSize8.5x14.pdf)
 - **City of Oakland**
   - [Minimum Wage/Paid Sick Leave/Service Charge](https://cao-94612.s3.us-west-2.amazonaws.com/documents/Measure_FF_English_Poster_Set_2024.pdf)
@@ -569,7 +570,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Virginia Unemployment Compensation Act](https://www.vec.virginia.gov/pdf/vecb29eng.pdf)
 - [Virginia Occupational Safety and Health Act](https://www.doli.virginia.gov/wp-content/uploads/2021/10/Job-Safety-Posters-English-August-2021.pdf)
 - [Earned Income Tax Credit](https://www.irs.gov/pub/irs-pdf/p962esp.pdf)
-- [Virgina CLI](https://www.dss.virginia.gov/files/division/cvs/pi/eitc/employer_info/cli_flyer2021.pdf)
+- [Virginia CLI](https://www.dss.virginia.gov/files/division/cvs/pi/eitc/employer_info/cli_flyer2021.pdf)
 - [Workers' Compensation Notice](https://workcomp.virginia.gov/sites/default/files/documents/Employers-Workplace-Notice-Form-1.pdf)
 - [Seizure First Aid Poster](https://www.doli.virginia.gov/wp-content/uploads/2022/06/SFA-Flier_VALabor_8.5x11.pdf)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/19smvJnxn4976IBBl5y6W9tVtE_ABLmB2/view?usp=sharing)

@@ -39,7 +39,7 @@ If the repair is going to be greater than `$1,000 USD` and take several weeks to
 
 #### During the repair process
 
-If the repair is going to take longer than a day and you are blocked for work. The IT team does have spares MacBooks to send to you.
+If the repair is going to take longer than a day and you are blocked for work. The IT team may have spares MacBooks to send to you. Please reach out to us in #it_help via Slack or in your created laptop repair issue so we can check if we are able to provide a loaner device
 
 #### After the repair process
 

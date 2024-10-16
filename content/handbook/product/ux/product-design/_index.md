@@ -13,7 +13,7 @@ They are also responsible for broader UX department efforts, such as:
 - Contributing to the Pajamas Design System
 - Reviewing other designers' work
 
-Each designer works as a [manager of one](handbook.gitlab.com/handbook/values/#managers-of-one) to solve customers problems and align with the direction of the product. They collaborate with stage peers and managers to [manage their capacity](/handbook/product/ux/product-designer/capacity-management) and deliver results on time. For a detailed view into how Product Designers work, review the [Product Designer workflow page](/handbook/product/ux/product-designer/).
+Each designer works as a [manager of one](/handbook/values/#managers-of-one) to solve customers problems and align with the direction of the product. They collaborate with stage peers and managers to [manage their capacity](/handbook/product/ux/product-designer/capacity-management) and deliver results on time. For a detailed view into how Product Designers work, review the [Product Designer workflow page](/handbook/product/ux/product-designer/).
 
 For more information on Stage Groups, team member assignments, and product direction, visit [the product category page](/handbook/product/categories/).
 
@@ -38,7 +38,7 @@ Product Designer Tools
 - [Competitor Evaluation](https://gitlab.com/gitlab-org/competitor-evaluations) (*GitLab Team Member access only*)
 - [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/)
 
-Figma and Figjam are our primary design tool of choice. Refer to the [usage and access details](handbook.gitlab.com/handbook/product/ux/product-designer/figma).
+Figma and Figjam are our primary design tool of choice. Refer to the [usage and access details](/handbook/product/ux/product-designer/figma).
 
 ## Product Design Workflow
 

@@ -32,6 +32,10 @@ Elevate+ spans a wide array of topics that enable leaders to build high performi
 
 Elevate+ runs for a total of 13 weeks. Across this timeline, participants will attend one Kickoff session, 2 live virtual workshops, cohort connections, and 1:1 coaching. The program also includes short self-paced activities in Level Up.
 
+![Elevate+ program outline](/images/handbook/people-group/elevate-plus-program-outline.png)
+
+_Click [here](https://360.articulate.com/review/content/ca768383-22b0-432a-89cc-011eeec37323/review) for an interactive version of the program oultine._
+
 | Program Element | Duration | Description | Date |
 | ----- | ----- | ---------- | ----- | 
 | Virtual Kickoff | 50 Minutes | Review program expectations, build cross-functional connections, and discuss leading at GitLab | Wednesday, 2024-10-02 at 3:30pm UTC |
@@ -40,6 +44,20 @@ Elevate+ runs for a total of 13 weeks. Across this timeline, participants will a
 | Cohort Connection | 25 Minutes | Meet with other Elevate+ leaders to discuss the application of values-driven leadership | Dates TBD |
 | Workshop II | 2 Hours | Facilitated live instruction, group discussion, breakout groups, solo activities, and an E-Group guest presenter | Thursday, 2024-11-21 from 3:30 to 5:30pm UTC |
 | Self-Paced Activities | Varied | Bite-sized courses and reflection activities to expand Elevate+ concepts | Self-Paced |
+
+## Professional Coaching
+
+Professional coaching is a key pillar of the Elevate+ program. 1:1 coaching hours are meant to personalize the Elevate+ experience, providing dedicated time for participants to work through their own specific application of leadership at GitLab, and to problem solve with an experienced, trusted, and GitLab-trained professional coach.
+
+Participants should consider these important expectations for professional coaching during Elevate+:
+
+1. You'll meet with your coach for a total of 5 hours across the duration of the program.
+1. Participants are expected to share their CultureAmp 360 reports directly with their coach.
+1. **First Session:** Schedule your first session in the coaching portal. Your first session will be 60 minutes, providing space to get to know your coach and set development goals. This first session should happen before Workshop I on 2024-10-24.
+1. **Subsequent sessions:** Schedule subsequent sessions for 30 or 60 minute sessions, on dates of your choosing, direcly with your coach.
+1. We recommend spreading out coaching hours throughout the length of the program. You’ll likely schedule some sessions after Workshop II. That is expected (and encouraged!) so you can work with your coach on concepts discussed during the workshop.
+1. Sessions can be rescheudled via the coaching portal if done before a 24 hour window. Sessions cancelled within a 24 hour window **cannot be rescheduled.**  
+1. You will likely complete your Elevate+ certification reflection exercise before you've finished your 5 coaching hours.
 
 ## Measuring Success
 
@@ -63,7 +81,7 @@ Upon successful completion of the program, including attendance to all required 
 
 _Please note that Elevate+ is a required training for eligible people leaders at GitLab. Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate (please note, there is not yet an async option for Elevate+). You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)_
 
-## I was asked to fill out the Stakeholder Assessment - what does this mean?
+### I was asked to fill out the Stakeholder Assessment - what does this mean?
 
 The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
 

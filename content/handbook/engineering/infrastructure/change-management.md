@@ -59,7 +59,7 @@ Examples:
 
 ## When you are not sure
 
-- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#reliability-lounge](https://gitlab.slack.com/archives/C03QC5KNW5N)
+- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#g_production_engineering](https://gitlab.slack.com/archives/C03QC5KNW5N)
 - Open a change management issue, err on the side of caution.
 
 ## Change Request Workflows
@@ -213,7 +213,7 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
-If you are not sure who to request a review from, ask for an SRE to review the change request in [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#g_production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
 
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
@@ -280,8 +280,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
-| 2024-09-11 14:00 UTC -> 2024-09-13 14:00 UTC | Hard | Providing space and preserving availability due to high S1/S2 incident rate. See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25799) for more information.  |
-| 2024-09-03 15:00 UTC -> 2024-09-04 15:00 UTC | Hard | Aiding investigation for #18489 |
+| 2024-10-25 23:00 UTC -> 2024-10-29 11:00 UTC | Hard | Upgrade CI database cluster to PostgreSQL v16 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |

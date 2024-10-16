@@ -109,7 +109,7 @@ POST /v1/proxy/vertex-ai/(*path)
   - To access these proxy endpoints, `X-Gitlab-Feature-Usage` must **be** one of: `explain_vulnerability`, `resolve_vulnerability`, `generate_description`, `summarize_all_open_notes`, `generate_commit_message`, `summarize_review`, `analyze_ci_job_failure`.
   - Requests that do not meet the specified criteria will result in a 401 Unauthorized Access error.
 - For logging, we add the value of `X-Gitlab-Feature-Usage` header in access logs in AI Gateway.
-- For metrics, we instrument the concurrent requests with `ModelRequestInstrumentator` and input/output tokens with `TextGenModelInstrumentator` in AI Gateway. It should be labled with `X-Gitlab-Instance-Id`, `X-Gitlab-Global-User-Id` and `X-Gitlab-Feature-Usage`.
+- For metrics, we instrument the concurrent requests with `ModelRequestInstrumentator` and input/output tokens with `TextGenModelInstrumentator` in AI Gateway. It should be labeled with `X-Gitlab-Instance-Id`, `X-Gitlab-Global-User-Id` and `X-Gitlab-Feature-Usage`.
 - For telemetry, we add [Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html) for each feature in GitLab-Rails.
   Alternatively, we could use the existing snowplow tracker in AI Gateway, which requires additional work for introducing an unified schema.
 

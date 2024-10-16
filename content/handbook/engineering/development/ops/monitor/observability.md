@@ -65,9 +65,9 @@ Updates and highlights from all teams in Ops are collected automatically [here](
 
 We use several Slack channels to organize ourselves:
 
-* Primary channel: [#g_observability](https://gitlab.slack.com/archives/C02Q93U8J07)
-* Standup channel: [#g_observability_standup](https://gitlab.slack.com/archives/C02VAHG10HW)
-* Social channel: [#g_observability_random](https://gitlab.slack.com/archives/C02QLQUB0JZ)
+* Primary channel: [#g_monitor_platform_insights](https://gitlab.enterprise.slack.com/archives/C02Q93U8J07)
+* Standup channel: [#g_monitor_platform_insights_standup](https://gitlab.enterprise.slack.com/archives/C02VAHG10HW)
+* Social channel: [#g_monitor_platform_insights_internal](https://gitlab.enterprise.slack.com/archives/C02QLQUB0JZ)
 
 ### How we do planning?
 

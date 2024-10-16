@@ -36,6 +36,33 @@ Applicable instance:
 - Zendesk Global
 - Zendesk US Government
 
+## Purge Redis cache for global_organizations
+
+This clears the Redis data within the key `global_organizations`. This is needed
+from time to time to ensure the Redis cached data isn't stale.
+
+Applicable instance:
+
+- Zendesk Global
+
+## Purge Redis cache for usgov_organizations
+
+This clears the Redis data within the key `usgov_organizations`. This is needed
+from time to time to ensure the Redis cached data isn't stale.
+
+Applicable instance:
+
+- Zendesk US Government
+
+## Purge Redis cache for usgov_users
+
+This clears the Redis data within the key `usgov_users`. This is needed from
+from time to time to ensure the Redis cached data isn't stale.
+
+Applicable instance:
+
+- Zendesk US Government
+
 ## Maintenance Tasks project locations
 
 The Maintenance Tasks projects are located at:

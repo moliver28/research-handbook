@@ -118,7 +118,7 @@ The Senior CSM is a job grade [level 7](/handbook/total-rewards/compensation/com
 
 Market Justification: The business need for an individual contributor Staff CSM role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSMs.
 
-The Staff Customer Success Manager (CSM) reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/#manager-csm).
+The Staff Customer Success Manager (CSM) reports to the [Manager/Senior Manager/Director, CSM](/job-families/sales/customer-success-management/#manager-csm).
 
 #### Staff CSM Job Grade
 

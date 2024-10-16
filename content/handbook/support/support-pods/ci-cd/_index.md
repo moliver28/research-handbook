@@ -34,6 +34,7 @@ In the context of "CI/CD" it can be hard to pinpoint where exactly a problem fit
 - {{< member-by-name "Alejandro Guerrero de Alba" >}} (`@alejguer`)
 - {{< member-by-name "Segolene Bouly" >}} (`@sbouly`)
 - {{< member-by-name "Charl Marais" >}} (`@cmarais`)
+- {{< member-by-name "Sarah Crowle" >}} (`@sacrowle`)
 
 ## How to get involved
 

@@ -1,6 +1,6 @@
 ---
 title: "PTY LTD Benefits"
-description: "GitLab PTY Australia benefits specific to Australia based team members."
+description: "GitLab PTY Australia benefits specific to Australia and New Zealand based team members."
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
@@ -416,7 +416,9 @@ Please note this benefit is considered a "Fringe Benefit" and will be subject to
 
 GitLab retains the right to replace the provider or policy at any time and is not required to offer this benefit to those that may be ineligible. Any benefits provided under the plan do not impact the Team Member's or GitLab's rights to end the employment relationship.
 
-For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) and [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing)
+For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing), and the full [Policy](https://drive.google.com/file/d/1oGOlDjxFKKV96f8URZ31vNlzCYv8kgru/view?usp=sharing)
+
+For a full overview of the plan please view our [2024 New Zealand Webinar](https://drive.google.com/file/d/1CCqSMJTBV8NUtvk5YilKPgZ8kPw2bVcb/view?usp=sharing)
 
 For questions regarding the plan or enrollment please contact WTW:
 email: benefits.nz@willistowerswatson.com
@@ -431,7 +433,7 @@ Eligible Team Members and their families can join the plan at any time, but plea
 ### Adding a new-born child
 
 The special pre-existing condition cover concession above is extended to a newborn child if they are
-added to the policy within three months of the child's birth. Congenital conditions are not covered. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
+added to the policy within three months of the child’s birth. Congenital conditions are not covered, please refer to the policy document to review all exclusions. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
 
 ## Medical Plan Administration Details
 

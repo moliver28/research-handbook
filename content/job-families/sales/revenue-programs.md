@@ -24,7 +24,7 @@ The Revenue Programs job family is responsible for developing and executing effe
 - Skills to build, maintain, update and optimize critical dashboards in Salesforce.com and business intelligence (BI) tools for the purpose of tracking the impact of sales programs
 - Strong analytical and influence skills
 - Bachelor or University Degree, or relevant work experiences
-- Over achievement in a quota-carrying sales role strongly preferred
+- Over achievement in a quota-carrying sales role preferred
 
 ## Job Grades
 
@@ -32,7 +32,7 @@ Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compens
 
 ### Revenue Programs Specialist (Intermediate)
 
-The Revenue Programs Specialist (Intermediate) reports to the Manager, Revenue Programs.
+The Revenue Programs Specialist (Intermediate) reports to the Manager, Revenue Programs or Senior Manager, Revenue Programs.
 
 #### Revenue Programs Specialist (Intermediate) Job Grade
 
@@ -78,19 +78,18 @@ The Senior Revenue Programs Specialist role is a [grade 7](/handbook/total-rewar
 - Experience managing or designing sales and/or revenue/pipeline acceleration programs, integrated marketing campaigns, and/or go-to-market strategies
 - Proven ability to design and operationalize prescriptive sales programs and strategies
 - Bachelor or University Degree, or relevant work experiences
-- Over achievement in a quota-carrying sales role strongly preferred
+- Over achievement in a quota-carrying sales role preferred
 
-### Manager, Revenue Programs
+### Revenue Programs Manager
 
-The Manager, Revenue Programs reports to the Senior Director of Field Enablement.
+The Revenue Programs Manager reports to the Director of Sales Strategy.
 
-#### Manager, Revenue Programs Job Grade
+#### Revenue Programs Manager Job Grade
 
-The Manager, Revenue Programs role is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Revenue Programs Manager role is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Manager, Revenue Programs Responsibilities
+#### Revenue Programs Manager Responsibilities
 
-- Build and/or lead a team of Revenue Program Specialists
 - Serve as a trusted advisor and business partner to Sales leaders to identify and prioritize sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
 - Work comfortably with complex data sets to identify pipeline gaps and prescribe and prioritize solutions to meet business pipeline gaps
 - Identify, prioritize, and run sales programs that drive quality pipeline and ARR aligned to GitLab's go to market (GTM) motions
@@ -100,9 +99,8 @@ The Manager, Revenue Programs role is a [grade 8](/handbook/total-rewards/compen
 - Conduct regular program reviews with leaders, providing status updates and risk mitigation strategies
 - Manage sales programs across multiple regions, segments, and/or industries
 
-#### Manager, Revenue Programs Requirements
+#### Revenue Programs Manager Requirements
 
-- People management experience, preferably in a Sales, Sales Ops, Sales Programs, Sales Analytics, Sales Enablement, or related function
 - Collaborates well with others
 - Ability to build, maintain, update and optimize critical dashboards in Salesforce.com and business intelligence (BI) tools for the purpose of tracking the impact of sales programs
 - Strong analytical skills
@@ -113,11 +111,12 @@ The Manager, Revenue Programs role is a [grade 8](/handbook/total-rewards/compen
 - Ability to move fluidly from big picture to details
 - Ability to work collaboratively with Sales & Marketing teams and effectively develop relationships with stakeholders at all levels of the organization to remove impediments that block the team's ability to meet project objectives
 - Bachelor or University Degree, or relevant work experiences
-- Over achievement in a quota-carrying sales role strongly preferred
+- Over achievement in a quota-carrying sales role preferred
+- People management experience, preferably in a Sales, Sales Ops, Sales Programs, Sales Analytics, Sales Enablement, or related function preferred
 
 ### Senior Manager, Revenue Programs
 
-The Senior Manager, Revenue Programs reports to the Senior Director of Field Enablement.
+The Senior Manager, Revenue Programs reports to the Director of Sales Strategy.
 
 #### Senior Manager, Revenue Programs Job Grade
 
@@ -151,11 +150,11 @@ The Senior Manager, Revenue Programs role is a [grade 9](/handbook/total-rewards
 - Strong executive presence
 - Proven track record of cross-stakeholder program management and execution with operational rigor
 - Bachelor or University Degree, or relevant work experiences
-- Over achievement in a quota-carrying sales role strongly preferred
+- Over achievement in a quota-carrying sales role preferred
 
 ### Director, Revenue Programs
 
-The Director, Revenue Programs reports to the Senior Director of Field Enablement.
+The Director, Revenue Programs reports to the Senior Director of Sales Strategy and Analytics.
 
 #### Director, Revenue Programs Job Grade
 
@@ -191,7 +190,7 @@ The Director, Revenue Programs role is a [grade 10](/handbook/total-rewards/comp
 - Proven ability to influence others including senior leadership
 - Proven experience driving GTM alignment, preferably in high-growth, fast-paced environments, preferably in high tech
 - Bachelor or University Degree, or relevant work experiences
-- Over achievement in a quota-carrying sales role strongly preferred
+- Over achievement in a quota-carrying sales role preferred
 
 ---
 
@@ -210,7 +209,7 @@ The Director, Revenue Programs role is a [grade 10](/handbook/total-rewards/comp
 
 ## Career Ladder
 
-The next steps for the Revenue Programs Specialist is to move up within this job family, into the [Field Enablement Leadership](/job-families/sales/director-of-field-enablement/) job family, or into a Sales, Customer Success, or Marketing role.
+The next steps for the Revenue Programs Specialist is to move up within this job family, into the [Sales Strategy Leadership](/job-families/sales/sales-strategy/) job family, or into a Sales, Customer Success, or Marketing role.
 
 ## Hiring Process
 

@@ -10,7 +10,7 @@ The Revenue Global Process Owner (GPO) Team at GitLab forms part of the Revenue 
 
 ### Revenue Analyst, GPO
 
-The Revenue Analyst, GPO role will utilize their technical knowledge and expertise to support Gitlab's systems and processes within the Revenue space. The Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
+The Revenue Analyst, GPO role will utilize their technical knowledge and expertise to support GitLab's systems and processes within the Revenue space. The Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
 
 #### Revenue Analyst, GPO Job Grade
 
@@ -42,7 +42,7 @@ The Revenue Analyst, Revenue GPO is a [grade 6](/handbook/total-rewards/compensa
 
 ### Senior Revenue Analyst, GPO
 
-The Senior Revenue Analyst, GPO role will be a technical and subject matter expert as well as a key contributor to the support of Gitlab's systems and processes within the Revenue space. The Senior Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
+The Senior Revenue Analyst, GPO role will be a technical and subject matter expert as well as a key contributor to the support of GitLab's systems and processes within the Revenue space. The Senior Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
 
 #### Senior Revenue Analyst, GPO Job Grade
 
@@ -77,7 +77,7 @@ The Senior Revenue Analyst, GPO is a [grade 7](/handbook/total-rewards/compensat
 
 ### Manager, Revenue GPO
 
-The Manager, Revenue GPO role will manage the Revenue GPO Team on a day to day basis while utilizing their extensive technical knowledge and subject matter expertise to support Gitlab's systems and processes within the Revenue space. The Manager, Revenue GPO will report to the Senior Manager, Revenue GPO or above.
+The Manager, Revenue GPO role will manage the Revenue GPO Team on a day to day basis while utilizing their extensive technical knowledge and subject matter expertise to support GitLab's systems and processes within the Revenue space. The Manager, Revenue GPO will report to the Senior Manager, Revenue GPO or above.
 
 #### Manager, Revenue GPO Job Grade
 
@@ -113,7 +113,7 @@ The Manager, Revenue GPO is a [grade 8](/handbook/total-rewards/compensation/com
 
 ### Senior Manager, Revenue GPO
 
-The Senior Manager, Revenue GPO role will take the leading and strategic role in managing the Revenue GPO Team while utilizing their extensive technical knowledge and subject matter expertise to support Gitlab's systems and processes within the Revenue space. The Senior Manager, Revenue GPO will report to the Director, Revenue Accounting or above.
+The Senior Manager, Revenue GPO role will take the leading and strategic role in managing the Revenue GPO Team while utilizing their extensive technical knowledge and subject matter expertise to support GitLab's systems and processes within the Revenue space. The Senior Manager, Revenue GPO will report to the Director, Revenue Accounting or above.
 
 #### Senior Manager, Revenue GPO Job Grade
 

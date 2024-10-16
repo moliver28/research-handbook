@@ -21,7 +21,7 @@ Please make sure to review and understand the following content with regards to 
 
 ## Total Compensation Statements
 
-For FY25, Total Rewards will be providing [Total Compensation Statements](/handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/#total-compensation-statement) outlining the total compensation increase (cash and equity) and/or promotion received during Annual Compensation Review. We recommend reviewing this letter before the conversation and using the letter as preparation to communicate the compensation decisions and expected total compensation. It is also recommended that you send the letter to the team member after your conversation with them so they can view the details. You can find instructions on how to pull the Total Compensation Statement in the [job aid](https://docs.google.com/document/d/1zjWqzYKblfzH4fo2OfMzUU3fwWXfdX4ILwwzJqmMrww/edit)
+For FY25, Total Rewards will be providing [Total Compensation Statements](/handbook/total-rewards/compensation/compensation-review-cycle/#total-compensation-statement) outlining the total compensation increase (cash and equity) and/or promotion received during Annual Compensation Review. We recommend reviewing this letter before the conversation and using the letter as preparation to communicate the compensation decisions and expected total compensation. It is also recommended that you send the letter to the team member after your conversation with them so they can view the details. You can find instructions on how to pull the Total Compensation Statement in the [job aid](https://docs.google.com/document/d/1zjWqzYKblfzH4fo2OfMzUU3fwWXfdX4ILwwzJqmMrww/edit)
 
 ### Compensation Communication Recommendations
 

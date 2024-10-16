@@ -274,7 +274,7 @@ During this time the flag is enabled by default but can still be disabled quickl
 In the past, we were able to quickly mitigate several incidents by disabling the feature:
 
 - [2023-09-21: Group import allows impersonation of users in CI pipelines](https://gitlab.com/gitlab-sirt/shared-incidents/incident_4304/-/issues/1)
-- [2023-10-30: Gitlab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
+- [2023-10-30: GitLab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
 - [2024-01-30: Sidekiq Apdex SLO](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17504)
 
 For changes within importers, integrations or webhooks we should prefer to:
@@ -477,6 +477,7 @@ This is a collection of links for monitoring our features.
 - [GitHub Import - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/62965d10-9c0e-11ed-9f43-e3784d7fe3ca)
 - [GitHub Import - Project import debug](https://log.gprd.gitlab.net/app/dashboards#/view/be0fb6d0-9c24-11ed-85ed-e7557b0a598c)
 - [GitLab Direct Transfer - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/f2640580-a8bd-11ed-85ed-e7557b0a598c)
+- [User contributions mapping - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/f9c66d73-50a1-43e2-89ab-56b71645df33)
 
 ### Error budgets
 

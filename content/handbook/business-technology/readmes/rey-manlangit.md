@@ -6,13 +6,13 @@ job: "Associate Engineer - Enterprise Applications"
 
 ## Rey Manlangit's README
 
-### Intro 
+### Intro
 
-Ola! Kumusta? I'm Rey and I'm an [Associate Engineer](https://handbook.gitlab.com/job-families/finance/it-entapps-engineering/) for the [IT Enterprise Applications](/handbook.gitlab.com/handbook/business-technology/) division. 
+Ola! Kumusta? I'm Rey and I'm an [Associate Engineer](https://handbook.gitlab.com/job-families/finance/it-entapps-engineering/) for the [IT Enterprise Applications](/handbook/business-technology/) division.
 
-### About me 
+### About me
 
-Currently residing in Bulacan, Philippines and living with my wife and our 5 dogs. This year marks my 7th as an IT professional and been involved with Financial, Consulting and Banking Industry absorbing new technologies, systems and making lots of friends along the way. 
+Currently residing in Bulacan, Philippines and living with my wife and our 5 dogs. This year marks my 7th as an IT professional and been involved with Financial, Consulting and Banking Industry absorbing new technologies, systems and making lots of friends along the way.
 
 ### Communication
 
@@ -20,15 +20,15 @@ I always appreciate clear, concise and relaxed communication. I encourage open d
 
 ### What I am currently working on
 
-- CloudBlue 
-- Zuora 
+- CloudBlue
+- Zuora
 - UIPath
 - DocuSign
 
 ### In my free time, you can usually find me":"
 
-- Playing Dota ( <i>which I have been playing for 17years now!</i> ) 
-- Learning Chess 
+- Playing Dota ( <i>which I have been playing for 17years now!</i> )
+- Learning Chess
 - Sweating with a Basketball
 - Singing my heart out
 

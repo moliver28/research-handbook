@@ -35,7 +35,7 @@ As a follow on to the [Technical Close Plan process](/handbook/solutions-archite
 
 3. For the **Professional Services Team**: Present the Customer Success Plan with the scope of initiatives that can be used to determine a Statement of Work.
 
-4. For the **Go To Market Team**:  When a GitLab executive sponsor or anyone in the GTM or customer support needs to be engaged, the Mutual CSP acts as a source of truth to provide context between the customer's and Gitlab's interactions.
+4. For the **Go To Market Team**:  When a GitLab executive sponsor or anyone in the GTM or customer support needs to be engaged, the Mutual CSP acts as a source of truth to provide context between the customer's and GitLab's interactions.
 
 ## When to Create a Mutual Customer Success Plan
 
@@ -201,7 +201,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
      - **"14. Enablement Plan"**
    - The CSM for Renewal opportunities with ARR basis over 300k may also start a Mutual CSP from **"13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)"**.
    - In those cases, CSM is the one responsible to **update the Customer Success Plan URL in the Renewal opportunity in Sales Force.**
-   - The SA may optionally create a Technical Close Plan after the fact  to add all he remaining context, to understand why was GitLab bought previously and what was the customer's expectation of value from Gitlab
+   - The SA may optionally create a Technical Close Plan after the fact  to add all he remaining context, to understand why was GitLab bought previously and what was the customer's expectation of value from GitLab
    - In addition the CSM, when conducting cadences with the Customer, is expected record the following in the Mutual Customer Success Plan:
 
 ||**Content Element**|**Technical Close Plan**|**Champion's Deck/ Proposal**|**Mutual Success Plan**|**Kick Off Call/ Onboarding EBR**|

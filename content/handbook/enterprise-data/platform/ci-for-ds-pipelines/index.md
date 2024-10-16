@@ -237,7 +237,7 @@ Now that we have our model trained and scoring pipeline set up, we can focus on 
 ## Slack Notifications (optional)
 
 - In Slack, add the GitLab for Slack app
-- Follow the instructions in the [Gitlab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
+- Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
 - We've setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
 - <img src="slack_notifications.png" width="700" alt="">
 

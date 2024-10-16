@@ -461,6 +461,19 @@ Some additional design tips that may help your workbook creation efficency.
 
 You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau-style-guide/#standard-color-palette)
 
+### Using Dual Axis Charts
+
+Creating a chart with two axes can help unlock the flexibility and customization that Tableau is built for. The top uses are displaying more than one axis on screen with greater flexibility, and a hack for better control over on-screen labels. You can find more documentation on creating and using dual axis charts [here](https://help.tableau.com/current/pro/desktop/en-us/multiple_measures.htm).
+
+*Two Axes*
+Have you ever wanted to show a bar chart and a line chart on screen together? Tableau is great at that - you can overlay one over the other using a dual axis chart. Don’t forget to consider if you want to “synchronize the axes”! That means, if you want both axes to start and end at the same place. 
+![two axes to create two bars](/static/images/handbook/enterprise-data/platform/tableau/dual_axis_two_axes.png)
+
+Many people have discovered a dual axis chart already for two measures, but did you know that they can be useful for creating labels? 
+
+For example, if you have a stacked bar chart on screen (just one measure), and you want to add a label, Tableau will label each segment of the bar. But let’s say you want to label the whole bar, not each segment! You can use a dual axis chart & remove the color from the back of the two bars to get your desired label!
+![dual axis with color on one bar and the label on the other](/static/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
+
 ## Developer Tips and Tricks
 
 A collection of tips and tricks to make the Tableau development experience faster and easier. These will also frequently be featured in `#`TableauTipTuesday in the `#`data-tableau Slack channel.
@@ -469,4 +482,10 @@ A collection of tips and tricks to make the Tableau development experience faste
 
 2. When you drag a field into the view for the first time, you can choose the aggregation/measure type by holding down the option key (Mac) as you drag and drop the field. For date fields, this will pop up a window asking about the date granularity (such as year, month, day, month/day/year). This saves time because the default option is 'Year', and you have to let the view load before changing the granularity.
 
-This also works on non-measure fields. For example, if you hold option while dragging Opportunity Id into the view, it will give you the option to drop it as COUNT(Opportunity Id).
+    This also works on non-measure fields. For example, if you hold option while dragging Opportunity Id into the view, it will give you the option to drop it as COUNT(Opportunity Id).
+
+3. You can easily drag measures into and out of calculated fields - which saves you time. When creating a new calculated field, if the field you want is already on your worksheet you can drag the field from the worksheet, into the calculated field. Or, in reverse, you can highlight a measure or dimension in a calculated field and drag it and it will drag onto your worksheet.
+
+4. Table calculations - you can create a table calculation using the normal method of adding a table calculation to an existing measure. Then, open up a box for a new calculated field, and drag that measure with a table calculation on it into the box. Now you have the formula of the table calculation in a reusable calculated field! You can also adjust the calculated field from here - for example, making a Period over Period calculation look back 4 periods instead of 1.
+
+5. You can test out selected portions of calculated fields in Tableau to make sure each piece is working as expected by simply dragging the test you want to test onto a worksheet! Just go into a calculated field, highlight the piece you want to test, hold Command (Cmd), and drag the text to any part of a worksheet. You can see an example [here](https://www.flerlagetwins.com/2022/09/tiny-tableau-tips-round-2.html) at tip #9.

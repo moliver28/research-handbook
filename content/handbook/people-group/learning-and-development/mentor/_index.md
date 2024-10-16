@@ -183,11 +183,7 @@ Mentorship agendas are important for resources documentation and future planning
 
 ### Sample async meeting formats
 
-Watch this short video of how you can use GitLab issues to collaborate async in a mentorship:
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/eb29c7d889ce42a396775547f8c83df1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-You can explore the issue shown in this video in our [GitLab L&D project](https://gitlab.com/gitlab-com/people-group/learning-development/mentorship/-/issues/8). There is also a [issue template](https://gitlab.com/gitlab-com/people-group/learning-development/mentorship/-/blob/main/.gitlab/issue_templates/async-mentorship.md) you can copy and use in your own mentorship project.
+GitLab issues can be used to collaborate async in a mentorship. Use this [issue template](https://gitlab.com/gitlab-com/people-group/learning-development/mentorship/-/blob/main/.gitlab/issue_templates/async-mentorship.md) to get started.
 
 ### Other tools for async mentorship
 

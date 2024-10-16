@@ -10,6 +10,18 @@ The following page may contain information related to upcoming products, feature
 [CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
 [CI Component and Catalog Product Direction](https://about.gitlab.com/direction/verify/component_catalog/)
 
+### Current Milestone Goals
+
+- Current milestone goals and focus can be found in our [board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=Category%3AComponent%20Catalog&milestone_title=Started).
+
+### Archive
+
+<details markdown="1">
+
+<summary markdown="span">Past Milestones</summary>
+
+### September to October (Milestone 17.5)
+
 ### Milestone 17.5 (September 14, 2024 - October 11, 2024)
 
 #### Goals
@@ -28,23 +40,6 @@ The following page may contain information related to upcoming products, feature
 - Search/Filter enhancements
   - Add the `by publishing date` option to the sort dropdown in /explore - [#440508](https://gitlab.com/gitlab-org/gitlab/-/issues/440508)
   - Add an illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
-
-### Milestone 17.6 (October 12, 2024 - November 8, 2024)
-
-#### Goals
-
-- [Security & Compliance workflow for CI Catalog](https://gitlab.com/groups/gitlab-org/-/epics/12713)
-  - https://gitlab.com/groups/gitlab-org/-/epics/14060+
-  - https://gitlab.com/gitlab-org/gitlab/-/issues/441102+
-- Search/Filter page enhancements
-  - Update filtering options in CI/CD Catalog index page (Frontend part) - [#437643](https://gitlab.com/gitlab-org/gitlab/-/issues/437643)
-- Spike issue for [Component visibility dashboard](https://gitlab.com/groups/gitlab-org/-/epics/14027)
-
-### Archive
-
-<details markdown="1">
-
-<summary markdown="span">Past Milestones</summary>
 
 ### August to September (Milestone 17.4)
 

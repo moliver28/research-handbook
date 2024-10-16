@@ -61,22 +61,22 @@ To improve efficiency and results, we need to automate this process.
 ```mermaid
 erDiagram
 
-  "Compliance::Errors" {
+  "ErrorMonitorings" {
     integer id PK
     string message "null:false"
     string code
     string error_type
-    string controller
-    string action
     string status "null:false"
     string gitlab_issue_link
     text backtrace
+    jsonb payload
+    text notes
     datetime created_at "null:false"
     datetime updated_at "null:false"
   }
 ```
 
-The `compliance_errors` table is designed to store revenue-impacting errors as they are encountered. Most of the columns are self explanatory. Taking an example of the [current logging in google cloud](https://console.cloud.google.com/logs/query;query=resource.type%3D%22gce_instance%22%0Aseverity%3DERROR%0AinsertId%3D%22va7ahf34wc3i%22;cursorTimestamp=2024-09-06T03:18:44.840Z;aroundTime=2024-09-06T03:18:44.840Z;duration=PT24H?project=gitlab-subscriptions-prod).
+The `error_monitorings` table is designed to store meaningful errors that are valuable for monitoring as they occur. Most of the columns are self explanatory. Taking an example of the [current logging in google cloud](https://console.cloud.google.com/logs/query;query=resource.type%3D%22gce_instance%22%0Aseverity%3DERROR%0AinsertId%3D%22va7ahf34wc3i%22;cursorTimestamp=2024-09-06T03:18:44.840Z;aroundTime=2024-09-06T03:18:44.840Z;duration=PT24H?project=gitlab-subscriptions-prod).
 
 * `code` -> VALIDATION_ERROR
 * `error_type` -> Subscription update failed
@@ -119,18 +119,18 @@ sequenceDiagram
   CD->>Z: API callback for subscription purchase/update
   Z-->>CD: Returns error
   CD-->>C: Indicates system error
-  CD->>ER: Creates compliance::error record
+  CD->>ER: Creates error_monitoring record within database
   ER->>S: Feeds Slack notification
   E->>CD: Visits admin page & debug the error
   E->>G: Creates GitLab issue (optional)
-  E->>ER: Changes Status of compliance::error record
+  E->>ER: Changes Status of error_monitoring record
   par
     E->>G: Triage issue and status update
-    G->>ER: Auto-updates compliance::error record on resolution
+    G->>ER: Auto-updates error_monitoring record on resolution
   end
 ```
 
-### Places of interest to add entries within `compliance_errors` table?
+### Places of interest to add entries within `error_monitorings` table?
 
 1. When a customer is purchasing a subscription.
     * [SubscriptionController's create action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscriptions_controller.rb#L304)

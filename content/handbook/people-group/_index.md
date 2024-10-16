@@ -25,9 +25,7 @@ You can also check out pages related to People Group in the section below. If yo
   - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
   - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Connect Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
 - **People Connect**; Please create a case for the People Connect team with any questions that do not seem appropriate for the issue tracker within [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) - choosing the applicable template/category applicable. For access requests regarding Google or Slack groups, please create an issue here: https://gitlab.com/gitlab-com/team-member-epics/access-requests. For questions that relate to Payroll, Expenses or Equity, please direct your question to the respective teams in HelpLab. Regarding questions for our recruiting team, including questions relating to access, or anything to do with Greenhouse, referrals, interviewing, or interview training please use the `#talent-acquisition` channel.
-- If you need to discuss something that is confidential/private (including sensitive matters surrounding your team), you can send an email to the Team Member Relations team: teammemberrelations@gitlab.com. Any team member, regardless of location, can use this alias to discuss a private sensitive matter.
-- If you only feel comfortable speaking with one team member, you can ping an individual member of the People Group, as listed on our [Team page](/handbook/company/team/).
-- If you wonder who's available and/or in what time zone specific team members of the People Group are, you can easily check via Google Calendar or the [GitLab Team Page](/handbook/company/team/)
+- If you need to discuss something that is confidential/private (including sensitive matters surrounding your team), you can open a [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=d865085147cc069067429ee0026d43eb&in_context=true) Case the Team Member Relations team. Any team member, regardless of location, can use this form to discuss a private sensitive matter.
 - If you need help with any technical items, for example, 2FA, please ask in `#it_help`. The channel topic explains how to create an issue. For urgent matters you can mention `@it-ops-team`.
 
 ## The People Group: One Team Mosaic Video
@@ -88,7 +86,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | -------- | ------------- | ----- | -------------------------- | ---------- | ------------- |
 | [People Business Partners](/handbook/people-group/people-business-partners/) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
 | [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b677b7c9474c069067429ee0026d43d1) | n/a |  |
-| [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | TBA | TBA | n/a |  |
+| [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=274b6e52ff3c12903691fe34fc4fd9ee) | TBA | n/a |  |
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | HelpLab | @people-connect-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
 | [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
@@ -158,12 +156,11 @@ Please note that the source of truth for role responsibilites is the job family 
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding]({{< ref "offboarding_standards" >}}) | Immediate action for involuntary & 24 hours for voluntary |
 | [Career Mobility]({{< ref "promotions-transfers#career-mobility-issue" >}}) | Within 24 hours |
-| [Letters of Employment]({{< ref "frequent-requests#letter-of-employment" >}}) | Within 12 - 24 hours |
-| [Employment Verification]({{< ref "frequent-requests#employment-history-verification-current-team-members" >}}) | Within 12 - 24 hours |
-| [Anniversary Emails]({{< ref "celebrations#anniversary-gifts" >}}) | Last day of the month |
-| Slack and Email Queries | Within 12 - 24 hours |
+| [Letters of Employment]({{< ref "frequent-requests#letter-of-employment" >}}) | Within 24 hours |
+| [Employment Verification]({{< ref "frequent-requests#employment-history-verification-current-team-members" >}}) | Within 24 hours |
+| [Anniversary Emails]({{< ref "celebrations#anniversary-gifts" >}}) | First day of the following month |
+| HelpLab Queries | Within 24 hours |
 | [Probation Period Notifications]({{< ref "contracts-probation-periods#probation-period" >}}) | Daily (when applicable) |
-| [Determining quarterly winners of the onboarding buddy program]({{< ref "onboarding-buddies" >}}) | Last week of each quarter |
 | [Contract Renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}) | 30 days or more prior to team member's renewal date |
 | [Exit Interviews]({{< ref "offboarding#exit-survey" >}}) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
@@ -176,7 +173,7 @@ Other listed processes for the People Connect Team can be found [here](https://i
 | Responsibility | Response Timeline |
 | -------------- | ----------------- |
 | [Relocations]({{< ref "relocation" >}}) | As requested, usually completed 30 days or more prior to team member's relocation date |
-| [Country Conversions]({{< ref "employment-solutions#country-conversions" >}}) | As soon as approval is given by CFO. Conversion turnaround time can take from 4-12 weeks depending on a variety of factors. |
+| [Country Conversions]({{< ref "employment-solutions#country-conversions" >}}) | As soon as approval is given by CFO. Conversion turnaround time can vary based on a variety of factors. |
 
 ## Frequently Requested
 
@@ -221,7 +218,7 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 
 ## Take Time Out to Learn
 
-At GitLab, we believe that [career growth is non-linear](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/). In practice, non-linear career growth is an opportunity for team members to increase efficiency with new skills, develop as leaders with new responsibilities, and grow as an expert in their field.
+At GitLab, we believe that [career growth is non-linear](/handbook/people-group/learning-and-development/career-development/). In practice, non-linear career growth is an opportunity for team members to increase efficiency with new skills, develop as leaders with new responsibilities, and grow as an expert in their field.
 
 **But growth only happens when we make intentional time and space to learn.**
 
@@ -233,9 +230,9 @@ At the end of the quarter, we'll ask folks to self-report hours spent learning, 
 
 Here are a few ways you might spend time learning this quarter:
 
-1. [Create an IGP](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/#start-your-igp) to track and monitor your growth goals
-1. Utilize the [Growth and Development Fund](/handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to engage in a class or conference
-1. Organize a [job shadow](/handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/#job-shadow-programs) or [internship for learning](/handbook.gitlab.com/handbook/people-group/learning-and-development/internship-for-learning/) to increase exposure and collaboration with different roles and teams.
+1. [Create an IGP](/handbook/people-group/learning-and-development/career-development/#start-your-igp) to track and monitor your growth goals
+1. Utilize the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to engage in a class or conference
+1. Organize a [job shadow](/handbook/people-group/learning-and-development/career-development/#job-shadow-programs) or [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) to increase exposure and collaboration with different roles and teams.
 1. Attend an AMA or async Group Conversation, and contribute by asking a question.
 1. Organize a discussion on your team about a shared topic (i.e. article, book, or podcast on a topic that is relevant to your team's work)
 1. Attend a TMRG career growth event

@@ -227,7 +227,7 @@ The below process applies to any existing customers with an active subscription 
 
 **Important:** If a QSR is refunded, max user count must be reset by opening a ticket with Support. Deal Desk will support this process. [Internal process guide here](https://gitlab.com/gitlab-com/sales-team/field-operations/deal-desk/-/wikis/Web-Direct-Quarterly-Seat-Reconciliation-(QSR)-Refunds).
 
-#### How To Opt-Out of Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and Operational Data
+#### How To Opt-Out of Auto-Renewal, QSR, Cloud Licensing and Operational Data
 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
 
@@ -429,7 +429,7 @@ Within the Customer Opportunity:
 
 **At this time, the Contract Request Case will be marked as "Closed". Follow the below steps to initiate "Contract Review" of the Customer edits.**
 
-#### Request for GitLab review of Customer edits to GitLab Template, OR, Review of Customer Agreement Template
+#### Request for GitLab Review: Customer edits to GitLab Template OR Customer Agreement Template
 
 Within the Customer Opportunity:
 
@@ -1405,7 +1405,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
 
 - If a renewal is achieved *within 15 days after the Subscription Renewal Date* (Renewal Date), the opportunity will be Closed Won on the date of approval submission.
 - **Renewal opportunities must be Closed Lost if the renewal is not achieved within 15 days after the Subscription Renewal Date (Renewal Date).**
-  - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#late-renewal-notification--auto-close-process) section of the handbook for details on how the system automatidally supports the 30 day late renewal policy.
+  - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#late-renewal-notification--auto-close-process) section of the handbook for details on how the system automatidally supports the 15 day late renewal policy.
 - If a renewal is achieved *more than 15 days after the Renewal Date, but less than 180 days after the Renewal Date*:
   - The renewal should be recorded on a newly created renewal opportunity. The renewal should be quoted using a [New Subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote). See: [Opportunity Requirements for Return Customers](/handbook/sales/field-operations/gtm-resources/#opportunity-requirements-for-return-customers)
   - The original Closed Lost opportunity will remain as is. A second Closed Lost opportunity will be created and closed with the inverse values of the original, to effectively cancel the original Closed Lost opportunity. This new Closed Lost opportunity will have the same close date as the new Closed Won renewal opportunity. See: [Opportunity Requirements for Return Customers](/handbook/sales/field-operations/gtm-resources/#opportunity-requirements-for-return-customers)

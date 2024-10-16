@@ -210,7 +210,7 @@ Maintainers: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/company/tea
 
 ### LinkedIn Lives in Collaboration with the Social team
 
-GitLab hosts a monthly LinkedIn Live broadcast, generally on the fourth Thursday of every month, to highlight our monthly release, and share product updates and thought leadership. Each broadcast features GitLab team members and special guests to discuss the latest in AI-powered software development. This is a collaborative project between [Developer Advocacy](/handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/) and the [Social Media](/handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) teams.
+GitLab hosts a monthly LinkedIn Live broadcast, generally on the fourth Thursday of every month, to highlight our monthly release, and share product updates and thought leadership. Each broadcast features GitLab team members and special guests to discuss the latest in AI-powered software development. This is a collaborative project between [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) and the [Social Media](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) teams.
 
 Episodes generally run for 30 minutes and feature 4-5 panelists and a moderator to discuss a predetermined topic or product update. In certain instances, the conversations are pre-recorded.
 

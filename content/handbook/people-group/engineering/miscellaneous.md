@@ -8,8 +8,8 @@ description: "Information on automations related to syncing to our team page, jo
 Once/day we run a pipeline that syncs the following fields for all team members:
 
 - `name`, team members preferred name or nick name.
-  - This can be changed at any time in the YAML entry itself, as a team member may want to set a custom nickname or preferred name.
-  - Only updated if the team member has opted out of having their information on the team page, in which case this will be updated to reflect their current job title.
+  - Will **not** sync name from Workday if **opted in**. This can be changed at any time in the YAML entry itself, to set a custom nickname or preferred name for the team page.
+  - Only overwritten if **opted out** of syncs, in which we will replace with the team members current job title.
 - `specialty`, included if the team member has a job specialty component.
 - `departments`, A list of the team members Workday department and extra departments added to their team page entry.
   - We will only ever update the **first** entry of this list to their current Workday department.

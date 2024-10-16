@@ -23,8 +23,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 
 ## Forms
 
-- [2022 GitLab Inc W-9 Document](https://gitlab.com/gitlab-com/Finance-Division/tax-team/-/issues/272)
-- [2022 Certificate of Residence](https://gitlab.com/gitlab-com/Finance-Division/tax-team/-/issues/272)
+- [2024 GitLab Inc W-9 Document and Certificate of Residence](https://gitlab.com/gitlab-com/Finance-Division/tax-team/-/issues/461)
 - Form CA-590 - Please request by email to tax@gitlab.com
 
 ## Correspondence
