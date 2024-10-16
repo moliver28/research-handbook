@@ -105,6 +105,8 @@ Q: How can I check to see if my customer has successfully linked their GitLab.co
 
 A: Navigate to <https://customers.gitlab.com/admin/customer/> and search by customer email. Use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches the Customers Portal. *Provider* and *Uid* fields are also populated with values.
 
+![provider.uid.fields](/handbook/sales/images/link_subscription_v17_4.png)
+
 Q: How can I check to see if my customer has successfully linked their GitLab subscription to the GitLab namespace?
 
 A: You will need to ask the customer to navigate to;
