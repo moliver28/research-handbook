@@ -23,6 +23,12 @@ The TA team assists Account Teams (e.g. Account Executives, Solution Architects,
 
 ## Engage with an Architect
 
+### General Rules of Engagement
+
+1. It is the EM's responsibility to gather information about the potential opportunity prior to engaging the TA. Additionally, the EM should ensure the customer understands the value of the PS team, what we can offer, and how we can generally help customers drive value realization from their GitLab subscription purchase. 
+1. In order for an Engagement Manager (EM) to engage with a TA, there should be an SFDC opportunity and scoping issue created. Additionally, in the scoping issue, the EM should be able to articulate the `current customer pain points` and `technical or organizational constraints`. If these are not present, the TA can push back on the EM to gather this information prior to joining internal or customer-facing calls. 
+
+
 ### Establish Subject Matter Expertise
 
 TA's Leverage their expertise to build trust and demonstrate the value of GitLab services in achieving desired outcomes.  They can help navigate challenging customer scenarios while continually communicating the value of GitLab services.
