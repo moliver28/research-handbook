@@ -14,11 +14,10 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 - **Leslie Mendonca - Director, CRM Systems** GitLab handle: [lmendonca2](https://gitlab.com/lmendonca2) Slack handle: Leslie Mendonca
 - **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan] (https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
-- **Brian Wong - Senior Finance Systems Administrator** GitLab handle: [brianmwong](https://gitlab.com/brianmwong) Slack handle: @Brian Wong
 - **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
-- **Analissa Moreno - IT Enterprise Applications Engineer** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
+- **Analissa Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
 - **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
