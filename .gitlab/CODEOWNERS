@@ -20,10 +20,6 @@
 #
 #####
 
-# Fallback for when no codeowners are found. Must be at the top.
-^[content-sites]
-* @gitlab-com/egroup @gitlab-com/content-sites
-
 # Handbook section needs to be near the top as it includes the fallback
 ^[handbook]
 /content/ @sytses @streas @gitlab-com/egroup
@@ -642,7 +638,6 @@
 ## Please keep the _required_ handbook sections near the end
 ##
 [handbook-operations]
-/.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 /.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 /.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
@@ -663,7 +658,9 @@
 /README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 /scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
 
-[CODEOWNERS]
+## This required rule must be outside of a section for the codeowners one to override it
+/.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
+## override approvals for codeowners file
 /.gitlab/CODEOWNERS @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
