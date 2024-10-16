@@ -136,33 +136,6 @@ Students can access a free subscription for GitLab.com or a free download of our
 Students can also apply for a 30-day trial if they would like to test more advanced features of GitLab.
 Children under the age of 13 are not permitted to use GitLab.com (SaaS Software).
 
-
-
-### Evangelism on Bambu
-
-[Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#bambu-our-social-advocacy-tool) is an app used to create suggested posts so other GitLab team members can use their own social media accounts to tweet relevant and useful articles, media, and other information to their own networks.
-The Education Evangelist should take the [training available](https://www.youtube.com/watch?v=HqeGYKkcovs) (Note: you must be logged into your GitLab unfiltered youtube account to view) to become a curator in order to be able to provide content to spread awareness of the Education program.
-Once you've finished the training, tag the Social Media specialist in an issue and request access.
-From there, follow the instructions in the [handbook](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/).
-Finally, add yourself to the table of known curators on the [curator page.](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/)
-
-Types of content that work well for Bambu include:
-
-* Media like podcasts, videos, interviews, and live streams related to the Education program
-* Articles written for the GitLab blog
-* Articles written for dev.to related to education or the education program
-* Articles about the GitLab for Education program or team members
-* Case Studies about University partners
-* GitLab for Education landing pages
-
-Bambu is not for announcements, workshop sign ups, or to start new initiatives.
-It's more of a place to show off what's already happened with the team.
-
-### Evangelism on Twitch
-
-The Education team uses Twitch as part of its broader community outreach strategy to create a catalogue of presentations, shows, and resources for people looking to learn GitLab or increase their knowledge of the program.
-See the [education program's dedicated workflow page](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows.html#producing-content-on-twitch) for complete instructions on hosting Twitch sessions.
-
 ### Evangeism with blog posts
 
 Content will either be published on the [GitLab Blog](https://about.gitlab.com/blog/), where all our blogposts include the `education-program` [postType](/handbook/marketing/blog/#post-type) in their [front matter](/handbook/marketing/blog/#frontmatter) for proper tracking.
