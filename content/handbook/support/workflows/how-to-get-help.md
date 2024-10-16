@@ -38,6 +38,12 @@ Often, writing a question out functions like [rubber duck debugging](https://en.
 That is, the act of thinking through the items above might highlight missing info, cause you to research something you
 hadn't before, or even lead you right to the solution.
 
+{{% alert color="info" %}}
+While more information is usually helpful, be careful not to be _too_ verbose in your question. Provide enough info to
+satisfy the questions above, but not so much that the question becomes confusing. Remember, you can always add extra
+details in the thread!
+{{% /alert %}}
+
 ### How to Get Help Workflow
 
 If you are stuck on a ticket, the following workflow seeks to help Support Engineers realize and utilize all of the resources available to progress a ticket to resolution. This workflow lists some common resources, you can lean on to get the help you need.
