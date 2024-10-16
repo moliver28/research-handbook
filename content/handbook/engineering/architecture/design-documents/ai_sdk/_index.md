@@ -5,7 +5,7 @@ creation-date: "2024-10-04"
 authors: [ "" ]
 coach: [ "" ]
 approvers: [ "@pwietchner", "@oregand" ]
-owning-stage: "~devops::modelops"
+owning-stage: "~devops::ai-powered"
 participating-stages: []
 toc_hide: true
 ---
