@@ -190,21 +190,21 @@
 /content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @cdu1 @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure/ @marin @meks @vincywilson
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
-/content/handbook/engineering/infrastructure/core-platform/ @cdu1
+/content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/tenant-scale.md @sissiyao
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/ @rmar1
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database/ @alexives
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/search/ @changzhengliu
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
-/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @cdu1 @plu8
+/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @marin @meks @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
 /content/handbook/engineering/infrastructure/team/ @marin
@@ -628,7 +628,7 @@
 /content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @vincywilson @meks
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
-/content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
+/content/handbook/company/working-groups/multi-large.md @marin @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
 
 [values]
@@ -685,8 +685,8 @@
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/_index.md @cdu1 @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/_index.md @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
