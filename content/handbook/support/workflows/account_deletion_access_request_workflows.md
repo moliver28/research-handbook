@@ -217,7 +217,7 @@ Apply one of the following labels to the Issue:
 
 `Inactive::Green` (all three conditions are met)
 `Inactive::Yellow` (the first 2 conditions are met) 
-`Inactive::Red` (the last condition fails) _requires approvals per step below_
+`Inactive::Red` (the last condition fails) *requires approvals per step below*
 
 Reach out to the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to engage a Support Manager and Privacy for review and approval (approver will add `Deletion Request::Exception Approved` to the issue if approved).
 </details>
