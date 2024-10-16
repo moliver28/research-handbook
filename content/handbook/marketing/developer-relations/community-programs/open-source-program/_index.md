@@ -1,8 +1,7 @@
 ---
 title: "Open Source Program"
-description: "Learn about the GitLab for Open Source Program and other open source programs from GitLab's Developer Relations team"
+description: "Learn about the GitLab for Open Source Programs from GitLab's Developer Relations team"
 ---
-
 GitLab's open source program is part of the [Developer Relations team](/handbook/marketing/developer-relations/). It consists of three sub-programs:
 
 * [**GitLab for Open Source Program**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-for-open-source-program), through which qualifying open source projects receive benefits like features of GitLab Ultimate with 50,000 compute minutes for free.
