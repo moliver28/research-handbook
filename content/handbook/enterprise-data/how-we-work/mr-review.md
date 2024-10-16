@@ -3,7 +3,7 @@ title: "Merge Request Roles and Responsibilities"
 description: "GitLab Data Team MR responsibilities"
 ---
 
-## <i class="fas fa-users fa-fw color-orange font-awesome" aria-hidden="true"></i>Merge Request Roles and Responsibilities
+## <i class="fas fa-users fa-fw -text-orange"></i>Merge Request Roles and Responsibilities
 
 ### Reviewer
 
