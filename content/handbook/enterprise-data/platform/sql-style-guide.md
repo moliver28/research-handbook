@@ -20,7 +20,7 @@ The previous style guide used a mixed indentation style that the linter does not
 SQLFLuff is a SQL linter that works with templating tools like dbt. We use it to define the basic structure and style of the SQL that we write and move the review of that structure and style into the hands of the authors. SQLFluff is included within the dbt development environment and it uses the dbt templating engine during the linting process. It can be used with the following command:
 
 ```console
-sqlfluff lint models/path/to/file/file-to-lint.sql
+make lint models/path/to/file/file-to-lint.sql
 ```
 
 A dbt command can also be used to get a list of files to lint:
