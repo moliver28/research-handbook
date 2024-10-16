@@ -20,11 +20,25 @@ The program duration is 15 weeks. Students participate in groups of 4-5 to solve
 
 Throughout the semester, students will deliver professional-level work, including weekly reports and presentations (with peer review), article reviews, and sponsor meetings/reviews. User research methods and principles will be applied along with project management and planning. The outcome of this course includes students creating a final project video, poster, and presentation which will be presented to the class, department, and sponsors.
 
-## How to get involved
+## How the project works
 
-If you're interested in sponsoring a project, you should complete the following **by the last week of December (before the Spring semester begins)**:
+Each year in the fall, the project lead recruits GitLab Team Member [volunteers](#how-to-volunteer) and solicits [proposals](#project-proposals) for projects.
+
+At the start of the spring semester (usually in January), the participating students vote on which proposal they would like to work on.
+
+The volunteer team begins meeting weekly with the students once they have decided on a proposal. Weekly meetings continue throughout the spring semester (usually until late April or early May).
+
+At the end of the semester, the students present their results to an internal audience at GitLab (which is open to the entire org). They also present their final project to their professors.
+
+Following the end of the semester, the project lead solicits feedback from volunteers and students, documents the results of the project, and arranges for the following year's project leadership.
+
+## How to volunteer
+
+If you're interested in volunteering for the Spring 2025 semester, you should complete the following **by Monday, November 18th, 2024**:
 
 1. Reach out to your manager for awareness and to discuss how participation might impact your capacity.
+1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers)
+
 1. [Brainstorm projects](#project-proposals) that would be a good fit for the students. You'll need a project description for each idea, these are the descriptions that students read and select from once the course begins.
 1. Post a message in the `#ux` channel or add an item in the UX Weekly meeting to see if other members of the UX Department are interested in joining.
 1. Email the professors, Linda Borghesani (`Linda.Borghesani@tufts.edu`) & Nick Katis (`Nick.Katis@tufts.edu`) about your interest in sponsoring and the project proposals you have in mind.
@@ -32,15 +46,9 @@ If you're interested in sponsoring a project, you should complete the following 
 
 Reach out to `@gdoyle` on Slack if you have questions or want help brainstorming projects. More information including FAQs can be found [here](https://docs.google.com/document/d/1jA93GJCnmLdleKZjSunEqlHv3wSXTjLLvMNq9alXgf0/edit?usp=sharing).
 
-## Sponsor requirements
+## Volunteer team composition
 
-- 1-5 volunteers from GitLab. **At least** 1 Product Designer and 1 UX Researcher are needed.
-- [Prepare at least three project descriptions](#project-proposals) for students to take on. The head instructors, Linda & Nick, will help you select one of those for the students to pick from.
-- Communicate with the Product team DRIs (Product Manager, Product Designer, UX Researcher) that owns the feature area for each project proposal.
-- Be dedicated to working with the student team to make sure they have access to the necessary resources (for example, Dovetail) and people (for example, experts or participants to interview). Work with your manager to give students the appropriate access to GitLab tools and projects.
-- Be in contact with the students on a weekly basis (~30 min/week check-ins), for reviews and guidance on the problem they are solving.
-- Hold stakeholder review sessions for larger deliverables, such as the discovery research proposal. These meetings should _at least_ include the Product Manager, Product Designer, and UX Researcher of the product area the project focuses on. These can take place in favor of a weekly sync or at a separate time depending on the team's preference.
-- Collaborate with Legal to have the students sign an [NDA to follow the guidelines of our SAFE framework](https://drive.google.com/file/d/1nvSBG_rA1_bEN0z8kTyQ30uIks_HhNL9/view?usp=drive_link) (:lock: internal only). Once the students select a project in January, it would be best to connect with `@ktesh` with the project start and end date, a short description of the project topic, and all of the students' emails in order for the NDA to be officially issued.
+For best results, we are looking for 3-5 volunteers from GitLab's Ux team, **at least** 1 of whom is a Product Designer and 1 of whom is a UX Researcher. 
 
 ## Project proposals
 
@@ -54,6 +62,8 @@ Each project proposal should include a summary with:
 
 - **A title:** A concise and catchy name for the project. This is one of the first things the students will see when choosing their project for the semester.
 - **Description:** A summary of the problem, including a problem statement and general background about the concepts that would make sense to beginner, non-GitLab users.
+
+You can propose project ideas for the Spring 2025 semester in the comments in our [volunteer recruitment issue](https://gitlab.com/gitlab-com/Product/-/issues/13669).
 
 ### Project ideas
 
@@ -86,8 +96,20 @@ The GitLab documentation site contains a large and growing amount of content. Fi
 CI has become a regular practice for companies around the world since it allows them to develop software easier, faster, and with less risk. Automating builds and tests allows developers to commit smaller changes with higher confidence and get feedback on their code sooner. GitLab's CI features were designed years ago, and given the siloed nature of how GitLab team members work internally, there hasn't been a moment to step back and evaluate the experience of CI and merging code as a whole. In this project, you'll evaluate the current experience, including documentation, and speak with real developers who use GitLab to understand their pains when developing/merging code with CI enabled. You'll use the insights you find to make improvements using the Pajamas design system in Figma and test them with real users.
 {{% /details %}}
 
-## Best practices as a sponsor
 
+## Project lead
+
+The project lead for the Tufts University Capstone Course project is a rotating volunteer position. Ideally, the same individual should not run the project more than 1-2 years concurrently in order to share the professional development benefits and workload that the role entails.
+
+### Responsibilities and timeline
+
+The project lead is responsible for...
+
+- Soliciting at least 3 [project proposals](#project-proposals) from GitLab team members for students to vote on.
+- Communicate with the Product team DRIs (Product Manager, Product Designer, UX Researcher) that own the feature area for each project proposal.
+- Be dedicated to working with the student team to make sure they have access to the necessary resources (for example, Dovetail) and people (for example, experts or participants to interview). Work with your manager to give students the appropriate access to GitLab tools and projects.
+- Hold stakeholder review sessions for larger deliverables, such as the discovery research proposal. These meetings should _at least_ include the Product Manager, Product Designer, and UX Researcher of the product area the project focuses on. These can take place in favor of a weekly sync or at a separate time depending on the team's preference.
+- Collaborate with Legal to have the students sign an [NDA to follow the guidelines of our SAFE framework](https://drive.google.com/file/d/1nvSBG_rA1_bEN0z8kTyQ30uIks_HhNL9/view?usp=drive_link) (:lock: internal only). Once the students select a project in January, it would be best to connect with `@ktesh` with the project start and end date, a short description of the project topic, and all of the students' emails in order for the NDA to be officially issued.
 - Create a designated subgroup and public project in the [Tufts University Group](https://gitlab.com/tufts-university) to track the Capstone project progress. Encourage students to create GitLab accounts with their school emails and invite them as `owners` to the project. This can help them get familiar with how GitLab works and the problem they'll be solving. This can also be the place where they access resources or materials they need to complete the project. Check out [this project](https://gitlab.com/tufts-university/tufts-university-capstone) for inspiration.
 - Use issues in the project to track sponsor-assigned tasks, such as project prep and reviewing student deliverables.
 - Write up a summary of the problem and link any resources that would be helpful for the students to look at to gain a better understanding of the concepts they'll be learning. Check out [this markdown file](https://gitlab.com/tufts-university/tufts-university-capstone/-/blob/main/resources.mde) for inspiration.
