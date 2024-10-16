@@ -80,7 +80,7 @@ The following ~customer is interested in this capability
 - Why interested:
 - Problem they are trying to solve:
 - Current solution for this problem:
-- Requested timeline:
+- Requested timeline: Immediate blocker OR 1-3 milestones OR 6+ milestones
 - Impact to the customer of not having this:
 - Questions:
 - PM to mention:
