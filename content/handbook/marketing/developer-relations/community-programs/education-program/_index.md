@@ -143,7 +143,6 @@ Through this work, we hope to support, grow, and engage the GitLab Education com
 
 ### What Education Evangelists do
 
-Our stakeholder community includes students, faculty, staff, administrators, and learners of any origin.
 GitLab's Education Evangelists seek to increase awareness, inform, and connect with community members through a variety of media.
 We also are visible power users of GitLab and DevOps applications.
 We strive to be a resource for all learners and, in accordance with GitLab's [Diversity, Inclusion, and Belonging Values](/handbook/company/culture/inclusion/), we seek to increase outreach to under-represented and under-estimated people in the education community.
