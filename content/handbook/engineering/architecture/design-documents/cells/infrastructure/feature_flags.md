@@ -83,6 +83,8 @@ for cells, will not be discussed here.
 
 ### Overview
 
+#### Current usage
+
 ChatOps is currently used to set feature flags. A ChatOps command triggers
 a pipeline in the ChatOps project which sets the feature flag on production
 using the feature flag API. Feature flags on the legacy cell can continue
@@ -90,6 +92,8 @@ to be set by this mechanism.
 
 The set of feature flags enabled on the legacy cell and on other cells is expected
 to be different.
+
+#### Rollout of feature flags to cells
 
 One of the main uses of feature flags is to de-risk the release of a new feature.
 A feature flag is usually enabled for a small group of customers (including internal
@@ -106,11 +110,9 @@ incident management more challenging.
 
 We need to allow feature flags to be enabled for small groups of customers, and
 at the same time maintain the number of different feature flag configurations
-in production at a manageable level.
-
-We can leverage the ring architecture (introduced in
-[Application Deployment with a Cellular Architecture](deployments.md)) for doing
-the above.
+in production at a manageable level. We can leverage the ring architecture (introduced in
+[Application Deployment with a Cellular Architecture](deployments.md)) to do
+this.
 
 Each ring represents a different groups of customers. As we move from inner to outer
 rings, each consecutive ring is supposed to be less risky for the customer. Customers
@@ -121,12 +123,24 @@ configurations that need to be supported in production, while still allowing
 feature flags to be rolled out to small groups of customers at a time, feature flags
 can be rolled out to a ring at a time, starting with the innermost ring.
 
+Rollout of feature flag changes to a ring should not be allowed if there is an
+active incident affecting that ring or if metrics indicate that the ring is unhealthy.
+
+#### Interface for controlling feature flags in cells
+
+ChatOps can be used to rollout feature flags to cells in the short term.
+
 ChatOps can communicate with Tissue to set feature flags on cells. ringctl can
 be used to create a patch for modifying feature flag gate values. Tissue's change
 management system will then rollout the feature flag change to the rings.
 
 ChatOps commands will provide an interface for targeting rings and cells. Targeting
 cells will only be allowed if the cell is in the quarantine ring.
+
+Feature flag changes will be recorded in the
+[feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log).
+
+#### Support for feature flag actors
 
 Feature flags on cells will support the same actors (project, group, user, current_request,
 :instance) that are supported on production today.
@@ -136,12 +150,6 @@ the actor is present on, the feature flag will behave as expected.
 
 In addition, the organization model will also be enabled for use as a feature flag
 actor (https://gitlab.com/gitlab-org/gitlab/-/issues/498238).
-
-Rollout of feature flag changes to a ring should not be allowed if there is an
-active incident affecting that ring or if metrics indicate that the ring is unhealthy.
-
-Feature flag changes will be recorded in the
-[feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log).
 
 ### Short term
 
@@ -190,8 +198,8 @@ Gradual rollout will require engineers to define metrics and thresholds that can
 if the feature being gated is behaving in a healthy manner.
 
 - The initiator indicates upto which ring the rollout should occur.
-- After rollout to a ring is complete, rollout will pause. After a period of time, if the metrics (FF metrics
-  as well as general metrics) indicate that the ring that the FF was rolled out to
+- After rollout to a ring is complete, rollout will pause. After a period of time, if the metrics
+  (FF metrics as well as general metrics) indicate that the ring that the FF was rolled out to
   continues to be healthy, rollout will continue to the next ring.
 - If setting the flag fails on a cell in a ring, rollout will stop at that ring, and
   the engineer who initiated the rollout will be notified.
