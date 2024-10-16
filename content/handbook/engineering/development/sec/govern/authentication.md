@@ -85,7 +85,6 @@ Due to the critical nature of tokens (PAT, PrAT and GrAT) and their associated b
 The rollout plan can use any number of the following mechanisms to de-risk the changes:
 
 1. Use of feature flags that can be set to test the feature out with a group or set of actors. If that is not possible, consider running the worker for a narrow batch of users until it has been validated and can be run on larger sets.
-1. Extending existing feature flag mechanisms to ensure the workers or cron jobs can be limited to a test group run.
 1. For database changes, evaluate the count of expected record changes before and after, the last update dates and the associated records to see whether a certain relationship may have been missed from implementation design.
 1. Changes should be enabled on lower environments such as staging or staging-ref to verify expected functionality. As much as possible, attempt to replicate the data structures from GitLab.com on these lower environments.
 1. Evaluate migrations or transitionary migrations over data removal so that we can move to last known good state if required.
