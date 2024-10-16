@@ -148,6 +148,8 @@ and approval when adding significant changes to their docs.
 
 When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts as their backup.
 
+Here are the [coverage issues](https://gitlab.com/gitlab-org/technical-writing/-/issues/?sort=created_date&state=opened&label_name%5B%5D=TW%20Coverage&first_page_size=100) for Technical Writers who are on PTO.
+
 ### Stage leads
 
 Some Technical Writers are assigned as [stage leads](/handbook/product/ux/technical-writing/workflow/#stage-leads) for a given [DevOps stage](/handbook/product/categories/#devops-stages):
