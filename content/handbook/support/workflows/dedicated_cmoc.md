@@ -31,7 +31,9 @@ Once an outreach ticket has been sent to the customer, mark the PagerDuty alert 
 
 ## Retrieve customer details
 
-Follow these steps to create a new ticket to start communications with a customer. Start with finding the details we need to create the ticket:
+Follow these steps to create a new ticket to start communications with a customer. Start with finding the details we need to create the ticket through the following options. 
+
+Note that there are tenants for internal users, and will not require a ticket outreach. They are with the internal reference `solid_harlequin_lemur` and `bold_sapphire_eel` located in the Switchboard. 
 
 ### Using the Switchboard Helper script
 
