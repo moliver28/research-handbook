@@ -368,24 +368,7 @@ Use the issue with the better title, description, or more comments and positive 
 
 #### Support issue message
 
-If the issue is really a support request for help, you can post this message:
-
-```markdown
-Hey {{author}} thanks for reaching out, but it looks like this might be a request for support. The issue tracker is for new bug reports and feature proposals. For support requests we have several resources that you can use to find help and support from the Community, including:
-
-* [Technical Support for Paid Tiers](https://about.gitlab.com/support/)
-
-* [Community Forum](https://forum.gitlab.com/)
-
-* [Reference Documents and Videos](https://about.gitlab.com/get-help/#references)
-
-Please refer to our [Support page](https://about.gitlab.com/support/) for more information.
-
-I'm closing this issue but if you believe this was closed in error, please feel free to reopen the issue.
-
-/label ~"support request"
-/close
-```
+If the issue is really a support request for help, you can use the `Issue triage - support question` [comment template](https://docs.gitlab.com/ee/user/profile/comment_templates).
 
 #### Duplicate issue message
 
