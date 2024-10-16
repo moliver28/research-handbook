@@ -42,7 +42,7 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 - [Collaborate](/handbook/values/#collaboration) effectively with others
 - Excellent written and verbal communication skills
 - Share [our values](/handbook/values/), and work in accordance with those values
-- Build teams that excel through our values, recognize when teams are no longer contributing to the broader mission
+- Build teams that excel through our values. Recognize when to course-correct or restructure a team to improve performance or alignment with our mission.
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Significant past experience as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
