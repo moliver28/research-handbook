@@ -69,6 +69,7 @@ Hence, the working group decided to address these concerns in multiple phases.
 * Code quality
 * Introduce Support Spikes process
 * Perform UX research
+
 </td>
 <td>FY25 Q4</td>
 </tr>
@@ -78,6 +79,7 @@ Hence, the working group decided to address these concerns in multiple phases.
 
 * Provide option for long term support (LTS) versions
 * TBD
+
 </td>
 <td>TBD</td>
 </tr>
@@ -86,6 +88,7 @@ Hence, the working group decided to address these concerns in multiple phases.
 <td>
 
 * TBD
+
 </td>
 <td>TBD</td>
 </tr>
@@ -108,6 +111,7 @@ The north star of this working group is increasing the number of self-managed Gi
 
 * Decrease number of self-managed emergency upgrade support tickets relating to database migration
 * TBD
+
 </td>
 </tr>
 <tr>
@@ -115,6 +119,7 @@ The north star of this working group is increasing the number of self-managed Gi
 <td>
 
 * TBD
+
 </td>
 </tr>
 <tr>
@@ -122,6 +127,7 @@ The north star of this working group is increasing the number of self-managed Gi
 <td>
 
 * TBD
+
 </td>
 </tr>
 </table>
@@ -139,7 +145,7 @@ The north star of this working group is increasing the number of self-managed Gi
 | Functional Lead - Backup | [Lucie Zhao](https://gitlab.com/luciezhao) | Engineering Manager, Geo |
 | Functional Lead - Expansion Software Development |  [Thomas Woodham](https://gitlab.com/twoodham) | Senior Engineering Manager, Secure |
 | Functional Lead - Core Development |  [Luke Duncalfe](https://gitlab.com/.luke) | Staff Backend Engineer, Manage:Import and Integrate |
-| Functional Lead - Core Development |  [Erran Carey](https://gitlab.com/erran) | Staff Fullstack Engineer, Create |
+| Functional Lead - Core Development |  [Erran Carey](https://gitlab.com/erran) | Staff Fullstack Engineer, Create::Editor Extensions |
 | Member | [Chun Du](https://gitlab.com/cdu1) | Director, Core Platform |
 | Member | [Vincy Wilson](https://gitlab.com/vincywilson) | Director, Test Platform |
 | Member | [Lyle Kozloff](https://gitlab.com/lyle) | Director, Support Engineering |
