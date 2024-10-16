@@ -37,8 +37,9 @@ The QTR report will be delivered to PBPs on the 15th day at the start of each qu
 - **Attendees:** Division PBP(s), divisional TA partner, divisional DIB partner, and other People division key stakeholders where applicable (for example If there is a concern raised related to data for TMR, the divisional TMR partner should be in included)
 
 **3. Request for Additional Data**
- - **When:** Any rqequest for additional data should be submitted to the data analytics team on 20th day of the first month of the quarter.
- - **Purpose:** While the QTR report provides a holistic overview of org health data, there may be times where additional data points are needed specific to a division. 
+
+- **When:** Any rqequest for additional data should be submitted to the data analytics team on 20th day of the first month of the quarter.
+- **Purpose:** While the QTR report provides a holistic overview of org health data, there may be times where additional data points are needed specific to a division. 
 
 **4. Distribution of Report to Leadership**
 
@@ -90,14 +91,15 @@ The QTR report is designed to provide division leadership with key organizationa
 Context: (*included in agenda for awareness*) In August 2024 the People Group piloted a 1H FY25 Quarterly Talent Review touchpoint with E-Group leaders. Previously, we have reviewed this data on more of an ad hoc/as-needed basis. The intention is to review this data more regularly so that org health remains top of mind and we are better positioned to act quickly when required.
 
 **Reviewing key data points in a single session enables us:**
- - Connect dots that may not have been as evident reviewed in isolation
- - Create more connection and alignment across all departments within the People Group
- - Optimize time across the board
+- Connect dots that may not have been as evident reviewed in isolation
+- Create more connection and alignment across all departments within the People Group
+- Optimize time across the board
 
 **Agenda**
+
 *To be shared 3-4 business days before the QTR session*
- - Include link to QTR report here
- - Placeholder for E-Group leader to add questions
- - PBP review of Recommended Actions *(link to slide)*
- - TA and DIB Top of Mind review *(link to slides)*
- - Questions and close out
+- Include link to QTR report here
+- Placeholder for E-Group leader to add questions
+- PBP review of Recommended Actions *(link to slide)*
+- TA and DIB Top of Mind review *(link to slides)*
+- Questions and close out
