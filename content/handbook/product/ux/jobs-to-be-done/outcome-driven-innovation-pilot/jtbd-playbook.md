@@ -140,7 +140,7 @@ After all interviews have been completed, it’s time to synthesize your data in
 Next you'll use your interview videos/notes and Universal Job Map to write your [Outcome Statements]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#outcomes)-->. Outcome statements will be written across the following three dimension, in this very specific format:
 
 1. **Speed**: Minimize the time it takes + (accomplish something)
-1. **Predictability/Reliability**: Minimize the likelihood that + (something undesirable happens)
+1. **Reliability**: Minimize the likelihood that + (something undesirable happens)
 1. **Efficiency/Better Results**: Minimize the likelihood of + (causing something undesirable to happen)
 
 **Generate Outcome Statements:**
