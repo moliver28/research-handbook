@@ -1,4 +1,4 @@
- ---
+---
 title: "Feature Testing Working Group"
 description: "Establish the credibility of a permanent alternative to RSpec and Capybara for Feature Testing."
 status: active
