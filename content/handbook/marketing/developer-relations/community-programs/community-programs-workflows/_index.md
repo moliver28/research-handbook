@@ -306,5 +306,3 @@ Read the Code Suggestions and Chat tutorials to get the most out of Duo
 >- [10 best practices for using AI-powered GitLab Duo Chat](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/)
 >- Watch a [GitLab Duo Coffee Chat](https://www.youtube.com/watch?v=TauP7soXj-E) to learn about contributing to GitLab while using Code Suggestions and Chat
 >- Learn more about all of the Duo features and how to use them in the [GitLab Duo docs](https://docs.gitlab.com/ee/user/gitlab_duo/)
-
-
