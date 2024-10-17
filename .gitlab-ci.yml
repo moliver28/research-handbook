@@ -28,6 +28,7 @@ include:
       job_stage: build
 
 default:
+  image: alpine:latest
   interruptible: true # All jobs are interruptible by default
   # The following 'retry' configuration settings may help avoid false build failures
   #  during brief problems with CI/CD infrastructure availability
@@ -132,7 +133,6 @@ variables:
 
 dont-interrupt-me:
   stage: sync
-  image: alpine:latest
   interruptible: false
   script:
     - echo "This jobs makes sure this pipeline won't be interrupted! See https://docs.gitlab.com/ee/ci/yaml/#interruptible."
@@ -189,7 +189,6 @@ build:
 #
 ###################################
 pages:
-  image: alpine:latest
   stage: deploy
   dependencies: [build]
   environment:
