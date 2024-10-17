@@ -5,7 +5,7 @@ description: "Learn about the GitLab for Education Program and other education-r
 
 ## About
 
-GitLab's Education program is part of the [Community Programs](/job-families/marketing/community-programs/) team.
+GitLab's Education program is part of the [Community Programs](/job-families/marketing/devrel-program-manager/) team.
 
 On this page, you'll find information about the GitLab for Education Program Team, our vision, our methods, our initiatives, and our program requirements.
 
