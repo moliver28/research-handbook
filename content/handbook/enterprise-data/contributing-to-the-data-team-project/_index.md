@@ -1,6 +1,6 @@
 ---
 title: "Contributing to the Data Team Project"
-description: "The FACE is a cross-functional group of functional analytics teams that aim to make our teams more efficient by solving and validating shared data questions which results in cohesive measurement approaches across teams."
+description: "This handbook page serves as a practical guide for contributing to the Data Team project"
 ---
 # Practical Guide
 
