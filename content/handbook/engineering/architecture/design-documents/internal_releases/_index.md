@@ -27,7 +27,7 @@ within the remediation SLAs, impacting GitLab customers and the ability to remed
   monthly release week preparation, a release candidate must be created earlier on the development cycle, renouncing features and bug fixes for the active monthly release.
 * Existing release process are not adept to remediate single tenant Saas instances putting at risk their availability and integrity.
 
-![current remediation strategy](/static/images/handbook/engineering/architecture/design-documents/internal-releases/current_remediation_strategy.png)
+![current remediation strategy](/images/handbook/engineering/architecture/design-documents/internal-releases/current_remediation_strategy.png)
 
 ## Goal
 
@@ -47,7 +47,7 @@ remediated by manually operating the critical patch release process. This involv
 engineering stakeholders. Internal releases aim to upgrade the GitLab Dedicated remediation process to be at the same level as GitLab.com
 and self-managed remediation processes.
 
-![goal](/static/images/handbook/engineering/architecture/design-documents/internal-releases/goal.png)
+![goal](/images/handbook/engineering/architecture/design-documents/internal-releases/goal.png)
 
 ## Key terms
 
@@ -126,7 +126,7 @@ main requirements must be addressed:
 
 These two requirements can be addressed simultaneously, the work for each will span throughout multiple quarters.
 
-![roadmap](/static/images/handbook/engineering/architecture/design-documents/internal-releases/roadmap.png)
+![roadmap](/images/handbook/engineering/architecture/design-documents/internal-releases/roadmap.png)
 
 ### Remove the blocking nature of GitLab releases
 
