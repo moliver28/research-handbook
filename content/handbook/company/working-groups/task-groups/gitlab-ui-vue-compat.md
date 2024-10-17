@@ -8,7 +8,7 @@ description: "Learn more about the GitLab UI @vue/compat Compatibility Task Grou
 | Property        | Value                                                                                                                                   |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Date Created    | 2024-10-14                                                                                                                              |
-| Target End Date | 2025-03-20                                                                                                                              |
+| Target End Date | 2024-12-24                                                                                                                              |
 | Slack           | [#tg_gitlab_ui_vue_compat](https://gitlab.enterprise.slack.com/archives/C07RN4H2CLV) (only accessible from within the company)          |
 
 ## Context
@@ -27,7 +27,7 @@ Since the GitLab UI library is used by various projects (GitLab, Switchboard, Ed
 
 ## Exit Criteria
 
-- All [known issues](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/?sort=created_date&state=opened&label_name%5B%5D=vue3-migration&first_page_size=100) with @vue/compat fixed, or work-arounds documented.
+- All [known issues](https://gitlab.com/groups/gitlab-org/-/epics/12386) with @vue/compat fixed, or work-arounds documented.
 - All screenshot tests passing under @vue/compat
 
 ## Roles and Responsibilities
