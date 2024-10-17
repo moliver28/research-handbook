@@ -23,6 +23,8 @@ To assist with reporting and support SOX compliance, please review and leverage 
 | Evolution and optimization | `type::maintenance` |
 | Bugs including severity-based SLAs | `type:bug` |
 
+Note: These are the original labels from the working group. These were chosen so that teams would not have to relabel historically, and existing dashboards would not be broken.
+
 If one of these labels clearly doesn't apply for an issue, consider using the `type::ignore` label. This will exclude the issue from automation and dashboards used to do cross-functional prioritization and metrics tracking for the product. It is highly important we have accurate data, so please only use this label if the issue clearly does not pertain directly to Engineering changes to the product itself. This label will typically apply to issues used for planning or to track a process. For example, you could use the `type::ignore` label for a milestone planning issue where the issue's purpose is organization and will not have MRs directly associated with it.
 
 A team's ratio might change over time and different teams may have different ratios. Factors that influence what ratio is appropriate for a given team include the [product category maturity](/handbook/product/categories/), the area of the product they are working in, and the evolving needs of GitLab the business. Teams should review labeling for accuracy and minimize the number of `type::undefined` items. This allows us to review the plans at the group, section, and company level with team members to ensure we appropriately prioritize based on cross-functional perspectives.
