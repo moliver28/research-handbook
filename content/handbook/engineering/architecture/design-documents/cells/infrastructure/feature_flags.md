@@ -27,15 +27,6 @@ rolled out to production with an API call.
 With the introduction of multiple cells, engineers setting feature flags in
 each cell will be unmanageable.
 
-We need an interface that allows engineers to modify feature flags without
-needing to know the details of where cells are hosted and how they are organized.
-
-Feature flags need to be rolled out to cells without the engineer having to
-shepherd it every step of the way.
-
-This document will describe how engineers and SREs can set feature flags on cells,
-and how feature flag changes will be rolled out across cells.
-
 Reference the previous iteration of this ADR:
 [Cells: Feature Flags](../feature_flags.md/)
 
@@ -47,10 +38,9 @@ is no longer true.
 
 Feature flags are commonly used to introduce features that
 are considered risky, or features that are not considered production ready.
-Engineers will likely want to experiment with feature flags on cells with the
-introduction of the QA cell.
+In addition, feature flags are regularly used to mitigate incidents.
 
-Feature flags are regularly used to mitigate incidents. Feature flags will need
+Feature flags will need
 to be available for use on cells before the first cell has a customer.
 
 ### Goals
