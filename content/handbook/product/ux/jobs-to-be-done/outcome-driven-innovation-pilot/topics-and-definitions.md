@@ -177,7 +177,7 @@ Outcomes are vital in the Jobs to Be Done framework because they reveal what Job
 An Outcome statement is the benchmark by which Job Performers gauge success in accomplishing a task. Progress is measured across three key dimensions: speed, reliability, and efficiency:
 
 1. **Speed:** Progress is marked by completing tasks faster, reducing the time required for accomplishment.
-2. **Predictability/Reliability:** Progress entails increased reliability and decreased likelihood of deviations or errors.
+2. **Reliability:** Progress entails increased reliability and decreased likelihood of deviations or errors.
 3. **Efficiency:** Progress is achieved by minimizing waste and optimizing output.
 
 💡 The ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs. In other words, the Job Performer can accomplish their Job _perfectly_ because every imperfection has been removed.
