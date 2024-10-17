@@ -56,17 +56,14 @@ We use the following labels to track our work across these spaces.
 |`Education Program`| General label for all issues related to program management|
 |`edu-feedback`| Marks issues that contain feedback from program and community members|
 |`OKR` | Related to OKRs for the quarter   |
-|`Education:: EAB`| Related to the Education Advisory Board |
 |`edu-conference`| Related to conferences the education team is involved with|
-|`edu-evangelism`| Related to the education Evangelist|
+|`edu-evangelism`| Related to the education evanglism|
 |`edu-stakeholder-mtng`| Used for meetings with members of the outside education community|
 
 ### OKRS and KPIs
 
 We track progress on OKRs using the `Education Program` and `OKR` labels.
 
-The GitLab for Education Program has one Key Performance Indicator and several Performance Indicators.
-See the [Developer Relations Department Performance Indicators page](/handbook/marketing/developer-relations/performance-indicators/#gitlab-for-education-quarterly-new-institutions-inherited) for more details.
 
 ## How to help
 
