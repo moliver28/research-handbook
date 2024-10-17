@@ -38,6 +38,12 @@ Consider using clustering when:
 
 ## How to Implement Clustering
 
+<code>
+automatic_clustering='true'
+</code>
+
+This configuration setting must be added to the model configuration so that automatic clustering is enabled by default should the model be rebuilt.
+
 To implement clustering on a table:
 
 ```sql
@@ -59,7 +65,9 @@ Snowflake provides system functions to monitor clustering:
 SELECT SYSTEM$CLUSTERING_INFORMATION('your_table');
 ```
 
-This function returns valuable information about the clustering state of your table.
+This function returns valuable information about the clustering state of your table. Some examples of how to interpret the information can be found in the Snowflake docs [here](https://docs.snowflake.com/en/sql-reference/functions/system_clustering_information#examples).
+
+Ideally, `average_overlaps` would be below 1 and `average_depth` would be ~ 1. A high number indicates the table is not well clustered.
 
 ## Best Practices
 
