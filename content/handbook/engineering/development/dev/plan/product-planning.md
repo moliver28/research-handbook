@@ -206,12 +206,16 @@ A Definition of Ready is an agreed set of guidelines for ensuring an issue or ta
 To determine whether an issue or task is suitable to be deemed 'ready for development', consider the following Definition of Ready.
 
 1. The work is described in sufficient detail. A reader without previous context or assumed knowledge is able to understand what work is to be undertaken. What we're doing and why we're doing it is described.
-2. Other work that blocks or is blocked by the work is linked with the correct relationship.
-3. Relevant resources such as designs, documents, and external links are attached.
-4. Cross-functional dependencies are described; such as needing to ask for Technical Writing assistance.
-5. Documentation that needs to be updated or added is linked.
-6. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
+2. Acceptance Criteria or Requirements are clearly defined. This should help the assignee understand the scope of the work and verify the intended happy/sad paths are functional and tested.
+    - Including the relevant license level and feature flags in the Acceptance Criteria or Requirements is also advised.
+3. Other work that blocks or is blocked by the work is linked with the correct relationship.
+4. Relevant resources such as designs, documents, and external links are attached.
+5. Cross-functional dependencies are described; such as needing to ask for Technical Writing assistance.
+6. Documentation that needs to be updated or added is linked.
+7. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
     - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
+
+> During the process of populating an Issue or Task for engineering work, we will probably need to ask questions for extra clarity or to help prevent us from making assumptions. We may also feel we don't have enough information to be able to properly break down work into suitably sized chunks. Consider [a spike](#consider-a-spike-andor-a-design-document) where the path forward is not clear.
 
 #### Why?
 
