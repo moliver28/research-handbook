@@ -156,7 +156,7 @@ Each step of the automated application workflow has different set of potential e
 |Phase|Source|Error|DRI|Action|
 |-----|------|-----|---|------|
 | Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
-| Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
+| Verification | SheerID Application| False Rejection OSS | [@akarsten1](akarsten1) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
 | Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|
