@@ -20,7 +20,7 @@ Our comprehensive, [multi-year product security mission](https://internal.gitlab
 
 The Product Security Risk Register is driven by and follows the [StORM process](/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](/handbook/security/security-assurance/security-risk/).
 
-Our risk registry's goal
+Objectives
 
 - Serves as a centralized tool for identifying, evaluating, mitigating, and monitoring systemic risks that can impact GitLab's operations and reputation, but that doesn't meet the criteria to tracked by the Security Risk team. Specific vulnerabilities or components based vulnerabilities **should not** be part of the PSRR.
 - Identify clear DRIs to help in reducing and mitigating the risk. They will ensure that all stakeholders are aware of potential risks and are working collaboratively to manage them.
