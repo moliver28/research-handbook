@@ -74,7 +74,7 @@ The effort classification is an estimate of the level of effort required to reso
 
 #### Who assigns this label and when?
 
-The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR after they complete it.
+The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR after they complete it. In order for an issue to show up in the metrics it needs to have the following labels:  `~"AppSecWorkType::<<type>>" ~AppSecWeight::<<weight>> ~"Application Security Team" ~"AppSecWorkflow::complete"` _as well_ as a milestone _and_ be closed.
 
 ## Work flow labels
 
