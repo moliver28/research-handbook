@@ -241,6 +241,7 @@ The table below is a comparison between the existing GitLab.com features, and no
 | GitLab for Jira Cloud app and GitLab for Slack app integrations | Jira and Slack apps can only be configured to post to single endpoints, so there is nothing in the configured endpoints' routes that would allow the Cells router to know which cell to route to. We may need to support at the organization level. See [#467791](https://gitlab.com/gitlab-org/gitlab/-/issues/467791) and [#467809](https://gitlab.com/gitlab-org/gitlab/-/issues/467809) for more details. |
 | Cross-organization downstream pipelines | Private organizations are in Cells 1.0 only and downstream pipelines would be unable to see public organizations. |
 | Any feature dependent on Clickhouse | Clickhouse is not supported on Dedicated, which is the underlying provisioning tool for Cells. Clickhouse is also not supported in any of our other tooling such as Geo, Org Mover, Backup/Restore, etc. |
+| Any feature dependent on [incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) (`mail_room`) | Cut scope. While we have a [proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/442161#note_1828026768) to have ingest email per cell, we are yet to figure out how to have stable email addresses that can be used even when an organizations moves to a different cell. |
 
 ## Questions
 
