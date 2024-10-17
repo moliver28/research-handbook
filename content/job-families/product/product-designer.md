@@ -113,7 +113,7 @@ Everything in the Senior Product Designer role, plus:
 - **Mentoring:** Provide impactful feedback to ICs of the UX department and mentor them throughout product development.
 - **Vision:** Collaborate with your group to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
 - **UX process:** Expose needs in [design](/handbook/product-development-flow/#validation-phase-3-design) and [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation). Address them through experimentation and change management.
-- **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
+- **Open source:** Foster open source design through community nurture, public advocacy of our “design in the open” approach, and enhancement of design contribution processes.
 
 #### Staff Requirements
 
