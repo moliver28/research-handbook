@@ -21,7 +21,6 @@ An Outcome Survey identifies and prioritizes the specific Outcomes that users se
 
 #### Process & Survey Design
 
->⚠️ Before conducting an Outcome survey, your team must _define the Job Performers, theirs Jobs, the process they follow to accomplish those Jobs through a Job Map, and use all of that to draft Outcome statements_ in your Domain.
 
 You will find everything you need to get started in the [Qualtrics template](https://gitlab.eu.qualtrics.com/survey-builder/LS_2l5ektxWK1wFRuC/edit?ContextLibraryID=GR_6ziMa2ooJx4Y6SF). (Library/UX Research & Product/Templates/Opportunity Score Template)
 
