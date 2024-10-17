@@ -428,6 +428,8 @@ BDR outbound lead generation is done by prospecting to companies and individuals
 
 BDRs will work closely with their dedicated SAE or AE to choose which accounts move into "Actively Working". Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
 
+Before moving an account into “Actively Working Status”, make sure there have been no MQLs or opportunities created from that account within the past 30 days, and there are no leads from that account in Qualifying status with activity in the last 30 days or with a future task date set.
+
 The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs. To manage this process we use a set of datapoints on SFDC on the account-level that are marked under the section "BDR Comments". Please reference the guide below on an explanation on how they work.
 
 | BDR Field              | Usage                                                                                                         |
