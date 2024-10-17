@@ -29,7 +29,7 @@ This process helps Snowflake's query optimizer to quickly locate and retrieve re
 
 ## When to Use Clustering
 
-Consider using clustering when:
+Our guidelines are to only apply clustering to incremental models that are set to never full refresh. This minimizes the large up-front cost we pay to cluster the data. Consider using clustering when:
 
 - Your table is large (typically > 1 TB)
 - You frequently query on specific columns
