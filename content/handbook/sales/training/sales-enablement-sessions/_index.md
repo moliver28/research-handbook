@@ -15,9 +15,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Oct 17  | Maximizing Sales with Customer Advocacy & References   |  Customer Advocacy Team  |
-| Oct 24 | New Forrester TEI Report   | Product Marketing Team  |
-| Oct 31 | *No session during the last week of the quarter* |    |
+| Oct 24 | *No session during the last two weeks of the quarter*   |  |
+| Oct 31 | *No session during the last two weeks of the quarter* |    |
 
 ## Past Sessions
 
@@ -26,7 +25,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
-| 2024-10-10  | **[FY25-Q3 - Competitive Intelligence Update](https://drive.google.com/file/d/1MhhqRlb-693pjrkspWIW4YJGjXx-fHv4/view?usp=drive_link) | Private |
+| 2024-10-17  | **[Maximizing Sales with Customer Advocacy & References](https://drive.google.com/file/d/1JLVWoC6fxppw6e0jRpk5w68aqzxCxouL/view?usp=drive_link)**   |  Private  |
+| 2024-10-10  | **[FY25-Q3 - Competitive Intelligence Update](https://drive.google.com/file/d/1MhhqRlb-693pjrkspWIW4YJGjXx-fHv4/view?usp=drive_link)** | Private |
 | 2024-09-26  | **[Winning with Analyst Relations](https://drive.google.com/file/d/1Mtg3ifv4kozGtBBqrNfbIamwSdNcukLC/view?usp=drive_link)** | Private |
 | 2024-09-25  | **[Advanced SAST Launch](https://drive.google.com/file/d/1ZgSZhhqGgI9RRqs9-RLDp--Q_WCPFvUM/view?usp=drive_link)** | Private |
 | 2024-09-19  | **[Professional Services: Accelerating Customer Time to Value](https://drive.google.com/file/d/1LfsQRIsbgR2F3sONVgdFtR5iL1uVFH4a/view?usp=drive_link)** | Private |
