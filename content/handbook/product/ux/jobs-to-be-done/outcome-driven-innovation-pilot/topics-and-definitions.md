@@ -185,7 +185,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 | Dimension | Definition | Formula |
 | --- | --- | --- |
 | Speed | Measured by time. Progress is evaluated by minimizing the time required to accomplish a specific task in a given context. | Minimize the time it takes to [accomplish something] [in some context] when getting a job done. |
-| Predictability/Reliability | Measured using likelihood. Progress is gauged by minimizing the likelihood of undesired outcomes in task completion. | Minimize the likelihood that [some unwanted thing happens] [in some context] when getting a job done. |
+| Reliability | Measured using likelihood. Progress is gauged by minimizing the likelihood of undesired outcomes in task completion. | Minimize the likelihood that [some unwanted thing happens] [in some context] when getting a job done. |
 | Efficiency | Measured using likelihood. Progress is gauged by minimizing the likelihood of actions leading to waste or inefficiency in task completion. | Minimize the likelihood of [doing something that causes waste/inefficiency] [in some context] when getting a job done. |
 
 💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
