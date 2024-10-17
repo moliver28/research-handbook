@@ -364,10 +364,10 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 - **2025-02-27:** Workday Calibration open and calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off Manager Evaluation cycle
-- **2025-03-07:** Annual Compesnation Review Kicks off for Managers
+- **2025-03-07:** Annual Compensation Review Kicks off for Managers
 - **2025-03-15:** Due date for all Manager evaluations. 5:00pm PST Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
-- **2025-4-027 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
+- **2025-04-27 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
 - **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
 - **2025-05-01:** Annual Compensation Review effective date
 
