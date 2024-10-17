@@ -44,16 +44,14 @@ Steps to uplevel triaging process:
 
 | Slack Channel Alias| Analytics Team | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday |
 | ---------     | -----------------    | -------| -------|---------| ----------|----------|--------|
-| `@GTMAnalyticsTriage` | Sales Strategy and Analytics | | `@melia` | | `@Noel Figuera`  | | |
+| `@GTMAnalyticsTriage` | Sales Strategy and Analytics | | `@melia` | |  | | |
 |                   | Marketing Strategy and Performance | |  | `@David Egan` | | `@rkohnke` | |
-|                   | Business Insights and Analytics | |  `@Vikas Agrawal` | `@Deepesh Gupta` |  |      |  `@Shivangi Mishra` |
+|                   | Business Insights and Analytics | |  `@Vikas Agrawal` | `@Deepesh Gupta` |  |      |   |
 |                   | GTM Data Fusion | | `@Peter Empey` |  |  |    | `@Michelle Cooper` |
 | `@R&DAnalyticsTriage` | Product Data Insights |  | `@Matthew Petersen` `@Carolyn Braza` | `@Dave Peterson` | `@Emma Neuberger` | `@Nicole Hervas` | `@Neil Raisinghani` |
 |                   | R&D Data Fusion | | `@utkarsh060` |  | `@Chris Sharp`  | `@snalamaru`  |   |
 | `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | |
 |                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |
-| `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | |
-|                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
 | `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
 
