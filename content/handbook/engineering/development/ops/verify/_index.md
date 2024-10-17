@@ -55,7 +55,7 @@ The Verify stage is made up of 5 groups:
 
 ### Verify:Pipeline Authoring
 
-{{< team-by-manager-role "Engineering Manager(.+)Pipeline Authoring" >}}
+{{< team-by-manager-role role="Senior Manager(.+)Verify" team="Pipeline Authoring" >}}
 
 ### Verify:Pipeline Execution
 
@@ -75,7 +75,7 @@ The Verify stage is made up of 5 groups:
 
 ### Stable Counterparts
 
-{{< stable-counterparts role="Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Authoring|Pipeline Execution|Runner|Pipeline Security)|Senior Manager(.+)Verify" >}}
+{{< stable-counterparts role="Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Execution|Runner|Pipeline Security)|Senior Manager(.+)Verify" >}}
 
 ## How we work
 
