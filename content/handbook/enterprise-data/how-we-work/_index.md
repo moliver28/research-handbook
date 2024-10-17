@@ -226,10 +226,11 @@ Other tips:
 ##### KPI Development Workflow
 
 The Data Team will work to add KPIs and Performance Indicators to our enterprise database models and BI reports once the following steps have been completed.
-  - The DRI should ensure the KPI definition, business logic, and calculation steps are documented in the relevant section of the handbook and added to the GitLab KPIs [with all of its parts](/handbook/company/kpis/#parts-of-a-kpi)
-  - The handbook definition should be reviewed by the necessary [Consulted & Informed](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) cross-functional partners. In some cases, the definition may also require [approval](/handbook/people-group/directly-responsible-individuals/#circumstances-requiring-the-rare-need-for-approvals) from those cross-functional partners
-  - Once the KPI is ready to be added into our enterprise reporting, the DRI should create an issue using the standard Data Team Issue template on the [GitLab Data Team Issue Tracker](https://gitlab.com/gitlab-data/analytics/issues).
-  - The Data team will verify the data sources and help to find a way to automate (if necessary).
+
+- The DRI should ensure the KPI definition, business logic, and calculation steps are documented in the relevant section of the handbook and added to the GitLab KPIs [with all of its parts](/handbook/company/kpis/#parts-of-a-kpi)
+- The handbook definition should be reviewed by the necessary [Consulted & Informed](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) cross-functional partners. In some cases, the definition may also require [approval](/handbook/people-group/directly-responsible-individuals/#circumstances-requiring-the-rare-need-for-approvals) from those cross-functional partners
+- Once the KPI is ready to be added into our enterprise reporting, the DRI should create an issue using the standard Data Team Issue template on the [GitLab Data Team Issue Tracker](https://gitlab.com/gitlab-data/analytics/issues).
+- The Data team will verify the data sources and help to find a way to automate (if necessary).
 
 Once the KPI has been added to our enterprise BI platform, the Data Team will present it to the DRI for testing and final approval.
 
