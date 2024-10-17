@@ -43,9 +43,10 @@ The DRIs of these three core areas will work collaboratively to ensure the overa
 
 #### Milestone planning and prioritization
 
-Quads should follow the standard milestone planning process as described in our [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/#build-track). PMs will keep the overall prioritized backlog following the agreed-upon ratios and guidance from their EM, Quality and UX counterparts.
+Quads should follow the standard milestone planning process as described in our [Product Development Flow](/handbook/product-development-flow/#build-track). PMs will keep the overall prioritized backlog following the agreed-upon ratios and guidance from their EM, Quality and UX counterparts.
 
 #### Review and monitoring team health
+
 Stable counterparts across the quad should regularly review their overall team health across many measures, including their merge request ratio and make adjustments accordingly. For guidance, below are some questions to ask to inform that discussion.
 
 ##### Example questions to ask as stable counterparts review team health
