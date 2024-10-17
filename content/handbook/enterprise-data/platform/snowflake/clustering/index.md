@@ -33,7 +33,7 @@ Our guidelines are to only apply clustering to incremental models that are set t
 
 - Your table is large (typically > 1 TB)
 - You frequently query on specific columns
-- Your select-queries are experiencing performance issues, so it would help to add clustering to your upstream table when experiencing performance issues on a particular model.
+- Your queries are experiencing performance issues in dbt, Snowsight, or Tableau; clustering the table that your query selects from can improve query performance. 
 - You have high cardinality columns that are often used in WHERE clauses or JOINs
 
 ## How to Implement Clustering
