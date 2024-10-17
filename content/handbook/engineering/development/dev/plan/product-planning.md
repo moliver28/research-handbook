@@ -201,7 +201,7 @@ functionally complete, merged and verified but frontend, or other work is ongoin
 
 During the planning and breakdown process we usually need to make issues and tasks that outline the technical work required.
 
-A Definition of Ready is an agreed set of guidelines for ensuring an issue or task is ready to be picked up and worked on. It's job is to provide a reference that we can use when deciding whether we can add the 'ready for development' workflow label and expect somebody to be able to complete the work.
+A Definition of Ready is an agreed set of guidelines for ensuring an issue or task is ready to be picked up and worked on. Its job is to provide a reference that we can use when deciding whether we can add the 'ready for development' workflow label and expect somebody to be able to complete the work.
 
 To determine whether an issue or task is suitable to be deemed 'ready for development', consider the following Definition of Ready.
 
@@ -210,7 +210,8 @@ To determine whether an issue or task is suitable to be deemed 'ready for develo
 3. Relevant resources such as designs, documents, and external links are attached.
 4. Cross-functional dependencies are described; such as needing to ask for Technical Writing assistance.
 5. Documentation that needs to be updated or added is linked.
-6. A weight has been added and confirmed with at least one other engineer (preferably a domain expert).
+6. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
+    - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
 
 #### Why?
 
