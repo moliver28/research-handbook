@@ -106,3 +106,7 @@ We can help with:
 1. Questions and support for GitLab Dedicated
 
 Our Slack channel is: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
+
+### Teleport Requests
+
+Requests for access via teleport should go exclusively in the #teleport-requests channel. This type of request is responded to with best effort, but without a formal SLA. Please avoid using any other channel to escalate these requests, and do not directly ping the sre-oncall as they will not respond to these requests. 
