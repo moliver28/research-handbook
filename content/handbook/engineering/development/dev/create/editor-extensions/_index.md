@@ -180,7 +180,8 @@ When an MR with an unaddressed immediate follow-up comment is merged:
 
 ##### Follow-up process
 
-The MR author creates a follow-up issue and **clearly documents** (in title and description) what the follow-up is about and adds the `~follow-up` label.
+1. The MR author creates a follow-up issue and **clearly documents** (in title and description) what the follow-up is about and adds the `~follow-up` label.
+1. The MR author references the issue in a [`// FIXME` comment in the code](#tracking-issues-in-code-with-fixme-comments).
 
 ##### Comment Example
 
@@ -188,17 +189,18 @@ The MR author creates a follow-up issue and **clearly documents** (in title and 
 
 These comment severity levels are not static. For example, you might initially mark a comment as _blocking_, but after discussion with the MR author, you may agree to change it to a _follow-up_.
 
-#### Tracking issues in code with a FIXME comment
+#### Tracking issues in code with FIXME comments
 
-When we notice issues in the code during development or review, we mark them
-with a `// FIXME` comment. Ideally, the comment references a follow-up issue,
-but it is not a hard rule.
+We track existing issues directly in the code using `// FIXME` comments. These comments are created in two ways:
 
-Maintainers are allowed to add these comments as the last commit to the MR before
-merging it to avoid extra review cycle.
+- An engineer notices a _pre-existing_ issue during development that they can't fix immediately. They add a `// FIXME` comment to the codebase and _optionally_ reference an issue.
+- A [Follow-up comment](#follow-up-process) has been created during an MR review, and we track this follow-up with both an issue and a `// FIXME` comment.
 
-For a more detailed explanation and list of advantages of this approach, see the
-[proposal](https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues/142).
+Maintainers are allowed to add `// FIXME` comments as the last commit to the MR before merging it to avoid an extra review cycle.
+
+We use `FIXME` and `TODO` comments interchangeably.
+
+For a more detailed explanation and list of advantages of this approach, see the [proposal](https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues/142).
 
 ### Temporary silos
 
