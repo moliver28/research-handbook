@@ -174,7 +174,7 @@ Outcomes are vital in the Jobs to Be Done framework because they reveal what Job
 
 ### Outcome statements
 
-An Outcome statement is the benchmark by which Job Performers gauge success in accomplishing a task. Progress is measured across three key dimensions: speed, predictability, and efficiency:
+An Outcome statement is the benchmark by which Job Performers gauge success in accomplishing a task. Progress is measured across three key dimensions: speed, reliability, and efficiency:
 
 1. **Speed:** Progress is marked by completing tasks faster, reducing the time required for accomplishment.
 2. **Predictability/Reliability:** Progress entails increased reliability and decreased likelihood of deviations or errors.
