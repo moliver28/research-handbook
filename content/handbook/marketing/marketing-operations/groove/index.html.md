@@ -119,14 +119,14 @@ Labels are how Flows and Templates are organized in Groove. Currently there are 
 - Persona: Targeted at a particular buying persona
 - SD: Sales Dev owned, this will be in front of all Sales Dev flows
 
-### Notable Flows 
-
-[SD Assist: Move High Priority Leads](https://groove.clari.com/flows/1097000)- This flow is only a single manual task and is to be used when you need to move a lead/contact out of high priority status. An example of this would be when an AE asks you not to reach out to a certain account because they are already in discussions with them. 
-
 Important Notes on Searching using Labels:
 
 - When you filter by choosing multiple labels it creates an “and” statement between all of the labels you choose. For example, if you choose the labels “SD OB HT AMER” and “Motion: Competitive Atlassian” it will show every flow that has EITHER of those labels.
 - Best practice is to only filter down by one label and then search for the key word in the flow you are looking for. For example, you can filter by “SD IB HT AMER” and then in the search bar you can search the word “trial” to narrow your search down to all of the HT AMER Trial flows.
+
+### Notable Flows 
+
+[SD Assist: Move High Priority Leads](https://groove.clari.com/flows/1097000)- This flow is only a single manual task and is to be used when you need to move a lead/contact out of high priority status. An example of this would be when an AE asks you not to reach out to a certain account because they are already in discussions with them. 
 
 ## Email Sending Limits
 
