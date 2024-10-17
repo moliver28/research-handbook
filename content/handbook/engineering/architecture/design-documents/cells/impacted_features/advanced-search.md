@@ -26,17 +26,17 @@ The [Advanced search functionality](https://docs.gitlab.com/ee/user/search/advan
 
 ### Infrastructure and index maintenance
 
-Infrastructure maintenance tasks include Elasticsearch cluster version upgrades, scaling the Elasticsearch cluster, and support for incident root cause analysis and resolution. 
+Infrastructure maintenance tasks include Elasticsearch cluster version upgrades, scaling the Elasticsearch cluster, and support for incident root cause analysis and resolution.
 
-Index maintenance tasks include index shard resizing using the Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158)), split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646)), enabling the Elasticsearch slowlog ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159)), or cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231)).
+Index maintenance tasks include index shard resizing using the Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158)), split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646)), enabling the Elasticsearch slow log ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159)), or cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231)).
 
 Today, most infrastructure and index maintenance tasks are performed manually by the Global Search team through the [change request workflow](../../../../change-management.md/#change-request-workflows).
 
 ### Organization migration
 
-Advanced search will need to support organizations being moved from one cell to another. 
+Advanced search will need to support organizations being moved from one cell to another.
 
-Reference: [Organization migration design document](../migration.md]
+Reference: [Organization migration design document](../migration.md)
 
 ## 2. Data flow
 
@@ -46,7 +46,7 @@ Indexing a namespace or project utilizes indexing pipelines to index database re
 
 #### Database & embeddings records
 
-PostgreSQL records are indexed by queueing items into 16 Redis sorted ZSETs. A cron worker runs every minute and indexes a max of 1,000 records per ZSET for a total of 16,000 records per run. Records are indexed into Elasticsearch using the Bulk Index API. 
+PostgreSQL records are indexed by queueing items into 16 Redis sorted sets. A cron worker runs every minute and indexes a max of 1,000 records per ZSET for a total of 16,000 records per run. Records are indexed into Elasticsearch using the Bulk Index API.
 
 Initial indexing (when a namespace or project is first added to Advanced search), incremental indexing (when an indexed record is updated), and embeddings indexing are handled by separate ZSETs.
 
@@ -54,11 +54,11 @@ Today, there is no record of when database records indexing is completed. The me
 
 ```mermaid
 flowchart LR
-    A[Project queued for indexing] -->B
-    B(Elastic::ProcessInitialBookkeepingService.backfill_project!) -->|Data queued into 16 Redis ZETs| C
-    C(ElasticIndexInitialBulkCronWorker) -->D
-    D(Gitlab::Elastic::BulkIndexer) -->|Elasticsearch Bulk index API|E
-    E(Elasticsearch cluster)
+  A[Project queued for indexing] -->B
+  B(Elastic::ProcessInitialBookkeepingService.backfill_project!) -->|Data queued into 16 Redis ZETs| C
+  C(ElasticIndexInitialBulkCronWorker) -->D
+  D(Gitlab::Elastic::BulkIndexer) -->|Elasticsearch Bulk index API|E
+  E(Elasticsearch cluster)
 ```
 
 #### Git data
@@ -90,14 +90,14 @@ All index maintenance tasks will be initially be completed using the [Advanced s
 
 1. Shard resize cron worker will review each index and adjust shard size if over the threshold
 1. Migration cleanup cron worker will remove migrations from the migrations index that do not exist in codebase
-1. Slowlog cron worker will enable the slowlog if an ops feature flag (or application setting) is enabled
+1. Slow log cron worker will enable the slow log if an ops feature flag (or application setting) is enabled
 
-All infrastructure maintenance must be automated. We may consider using the migration framework, but other methods should be evaluated. 
+All infrastructure maintenance must be automated. We may consider using the migration framework, but other methods should be evaluated.
 
 To support this, the following is required:
 
 * The indexing paused framework must be modified to allow [pausing indexing for a specific index](https://gitlab.com/gitlab-org/gitlab/-/issues/381705). Pausing for a specific index allows maintenance tasks to be performed on an index without impacting other data types. This is important to reduce impact of search results being out of date because indexing is behind.
-* Search and indexing validations must be automated. The `Search::ClusterHealthCheck` class can be expanded to include search and indexing validation.
+* Search and indexing validations must be automated. The `Search::ClusterHealthCheck` class can be expanded to include search and indexing validation. [gitlab#499586](https://gitlab.com/gitlab-org/gitlab/-/issues/499586)
 
 ### Organization migration
 
@@ -105,7 +105,7 @@ There are multiple ways to approach organization migration and each comes with a
 
 #### [Cells 1.0] Use existing indexing framework
 
-Organization migration will be automated by using the existing indexing framework. Once an organization is put into maintenance mode and all PostgreSQL and gitaly data has been moved, the organization can be queued for indexing in the destination cell.
+Organization migration will be automated by using the existing indexing framework. Once an organization is put into maintenance mode and all PostgreSQL and Gitaly data has been moved, the organization can be queued for indexing in the destination cell.
 
 Conduct benchmarks to determine how long organizations at pre-determined sizes take to migrate. This data will be used to determine if the indexing pipeline will continue to be used for organization migration in later cells phases.
 
@@ -113,20 +113,20 @@ To support this, the following is required:
 
 * The framework needs to be adjusted to handle indexing an organization. This may be as simple as iterating through all namespaces for an organization and kicking off the appropriate workers.
 
-#### Pros
+##### Pros
 
 1. Cells can use any search cluster type and version.
 1. Existing framework is well tested and understood by team members.
 
-#### Cons
+##### Cons
 
-1. Indexing may take too long for organizations. We need to benchmark different organization sizes.
+1. Indexing may take too long for organizations. We need to benchmark different organization sizes. Related issues: [gitlab#480372](https://gitlab.com/gitlab-org/gitlab/-/issues/480372) and [gitlab#391489](https://gitlab.com/gitlab-org/gitlab/-/issues/391489)
 1. There are no indicators when indexing is complete for database records. Organizations will have missing search results until indexing is complete.
 1. Additional load on GitLab instance including Sidekiq, Gitaly, and PostgreSQL. Other Sidekiq jobs in the cell will impact indexing completion.
 
 #### [Cells 2.0] Use Elasticsearch APIs to move data
 
-Organization migration can be automated with the [Elasticsearch Reindex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) to move all indexed data for an organziation to the new cell's Elasticsearch cluster. The API supports moving data between two different clusters (or hosts).
+If benchmarking results show the existing indexing framework is not fast enough, organization migration could be automated with the [Elasticsearch Reindex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) to move all indexed data for an organziation to the new cell's Elasticsearch cluster. The API supports moving data between two different clusters (or hosts).
 
 To support this, the following is required:
 
@@ -144,16 +144,16 @@ flowchart TD
     E(Cleanup organization data from source cell)
 ```
 
-#### Pros
+##### Pros
 
 1. No additional load on GitLab instance including Sidekiq, Gitaly, and PostgreSQL.
 1. Know exactly when indexing is complete.
 
-#### Cons
+##### Cons
 
-1. Requires Elasticsearch as the search cluster.
+1. Requires all search clusters to be on the same platform.
+1. Requires allowed communication between cell search clusters.
 1. Database ID values must remain consistent between cells. Cluster wide unique database sequences are [planned for Cells](../decisions/008_database_sequences.md).
-
 
 ## 4. Evaluation
 
