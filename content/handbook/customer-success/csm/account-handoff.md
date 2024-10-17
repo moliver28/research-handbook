@@ -48,6 +48,7 @@ Many of our internal processes rely on accurate assignments in our CRMs. This in
 | CSM Compensation Pool | Gainsight C360| SFDC Account Page | Assigns the account to a compensation pool. This is the "live" version of the pool |
 | Compensation Pool Team | SFDC Opportunity | N/A | This field is updated by the CSM Compensation Pool team field on the SFDC Account and is stamped at opportunity closure. It then represents the Compensation Pool who will receive credit for the opportunity. |
 | Compensation Pool Team Override | SFDC Opportunity | N/A | When the Compensation Pool Team field is stamped with the incorrect pool the process outlined below uses this field to override the stamped value. |
+
 <br>
 
 ### Types of Coverage Transfers and How to Handle Them

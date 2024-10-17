@@ -1055,6 +1055,7 @@ To learn more about State-specific leave laws, please visit the [Leave of Absenc
 | Family                         | $2,723.56 |  $1,846.31  | $2,626.53 |     $2,095.00   |     $2,095.00   |      $1,491.60 |
 
 **Dental**
+
 | Tier                           | Cigna DPPO Base | Cigna DPPO Buy up |
 |--------------------------------|----------|------|
 | Team Member Only              |   $36.94  |  $49.80 |

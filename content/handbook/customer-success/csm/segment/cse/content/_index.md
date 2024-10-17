@@ -94,6 +94,7 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 | **Content Operations**:  Updating GLU Calendar (Thought Industries), Zoom registration process and uploading of all content.  Also management of email campaigns in GS. | Informed                    | DRI                                      | Informed                                 | Informed  | Consulted      | Informed       |
 | **Demo Operations -**: manage demo codes for hands on labs.  Collaborate with architecture team for CSE needs (SA DAs to cover for PTO) | Informed                    | Informed                                 | DRI                                      | Informed  | Informed       | Informed       |
 | **GL Release Management -**: update learn labs after each GL release.  Create monthly TLDR for CSE org to be used across all content delivery. Update content assets that change due to releases and ensure CSE or understands value and talk tracks as applicable | Consulted                   | Consulted                                | DRI                                      | Informed  | Informed       | Informed       |
+
 </details>
 
 ## <i class="fa-solid fa-book" style="color: #B197FC;"></i> Content Catalog

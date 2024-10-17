@@ -2,3 +2,4 @@ hugo extended_0.135.0
 nodejs 20.18.0
 golang 1.22.8
 vale 3.7.1
+markdownlint-cli2 0.14.0
