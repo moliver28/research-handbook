@@ -28,17 +28,15 @@ While you have the option to create only the branch and not the merge request, a
 
 2. Confidential issues
 
-When working on a confidential issue, you may notice that you can't create an MR directly in the project. Instead, you're only able to create a fork.
+When working on a confidential issue, you may notice that you can't create an MR directly in the project. Instead, you're only presented with the option to create your branch and MR in a fork
 
 <img src="confidential-issue-mr.png" alt="Confidential issue MR" width="900"/>
-
 
 However, you can still create a branch within the project for your work. To do this, click on 'Code' in the left sidebar, then select 'Branches'. 
 
 <img src="branches.png" alt="Branches" width="250"/>
 
 From there, click on the 'New branch' button to begin the process of creating your branch.
-
 
 <img src="create-branch.png" alt="Create branch" width="900"/>
 
