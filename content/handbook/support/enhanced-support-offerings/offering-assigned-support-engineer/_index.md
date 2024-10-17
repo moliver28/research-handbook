@@ -26,17 +26,54 @@ Delivery Data Sheet](https://drive.google.com/file/d/1I-GDQV9wZkTvTTMqIPw1mSLaeV
 
 ### ASE Leadership Team
 
-<!-- Val's role -->
-<!-- Lee's role -->
-<!-- My role -->
+Val Parsons, Director of Customer Support in EMEA, has led the effort to bring
+this first Enhanced Support Offering into existence. She holds overall
+responsibility for this part of GitLab Support, which includes things like
+working with Sales as necessary to bring in new ASE contracts and driving the
+definitions of what the service is and how we deliver it.
+
+Lee Matos, Director of Customer Support in AMER, has partnered with Val as the
+AMER DRI for the ASE Program, in large part due to the critical importance of
+the AMER region as the source of a high percentage of likely and actual ASE
+accounts. He has put a particular focus on determining how to find and develop
+internal talent for the ASE role and how to hire external talent for it, too.
+
+Mike Dunninger, Support Engineering Manager in AMER, manages all Global Support
+ASEs in AMER. As the only current manager globally with specific ASE Program
+responsibilities, he works to:
+
+1. enable and encourage teamwork among all of the ASEs (not just those in AMER)
+1. guide the team in identifying, developing and documenting best practices
+1. define and document standard processes and reports for the program
 
 ## The Assigned Support Engineer guide
-The guide to all things ASE, whether you are an ASE, want to know about possibly being an ASE or need to know how to work with ASEs. It's all here.
+
+The guide to all things ASE, whether you are an ASE, want to know about possibly
+being an ASE or need to know how to work with ASEs. It's all here.
 
 ### ASE Communications
 
-<!-- Slack channels - name only the general channels, and describe but DON'T name the account channels -->
-<!-- Meeting schedules -->
+#### Slack
+
+- ASE Program Slack channel:  [#support_assigned-support-eng](https://gitlab.enterprise.slack.com/archives/C06E61D9Z7E)
+- ASE accounts' Slack channels:  many of the accounts make use of an external
+  Slack channel, one per account, for informal communications with Sales,
+  Customer Success, Professional Services and their ASE
+
+#### Meetings
+
+There are two recurring meetings in place to bring the ASEs and management
+together for the purposes of supporting each other, sharing ASE practices, and
+discussing needed process and program improvements. The meetings occur on
+alternating weeks, with one being scheduled favorably for EMEA and AMER, and
+the other for AMER and APAC. Both meetings can be found in the [GitLab Support
+calendar](https://handbook.gitlab.com/handbook/support/#google-calendar).
+
+- `ASE Sync - AMER/EMEA`: Wednesdays at 4:30 p.m. UTC
+- `ASE Sync - APAC/AMER`: Thursdays at 1:00 a.m. UTC
+
+To keep the meetings short and productive, much of the agenda is async. ASEs
+and managers have agenda topics to update before each meeting.
 
 ### Working with ASEs
 
