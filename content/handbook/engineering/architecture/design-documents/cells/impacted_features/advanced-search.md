@@ -103,7 +103,7 @@ To support this, the following is required:
 
 There are multiple ways to approach organization migration and each comes with a set of trade-offs. Since Cells is being rolled out in phases, this proposal contains recommendations by phase.
 
-#### [Cells 1.0] Use existing indexing framework
+#### [Cells 1.5] Use existing indexing framework
 
 Organization migration will be automated by using the existing indexing framework. Once an organization is put into maintenance mode and all PostgreSQL and Gitaly data has been moved, the organization can be queued for indexing in the destination cell.
 
