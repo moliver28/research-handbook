@@ -133,3 +133,18 @@
   term: Success Plan Services
   info: |
     See this [internal Handbook page](https://internal.gitlab.com/handbook/customer-success/success-services/), which is the SSoT for SPS.
+
+- acronym: APAC
+  term: Asia-Pacific
+  info: |
+    [Asia-Pacific](https://en.wikipedia.org/wiki/Asia%E2%80%93Pacific) on Wikipedia.
+
+- acronym: EMEA
+  term: Europe, Middle East, and Africa
+  info: |
+    [Europe, the Middle East and Africa](https://en.wikipedia.org/wiki/Europe,_the_Middle_East_and_Africa) on Wikipedia.
+
+- acronym: AMER
+  term: Americas
+  info: |
+    See "AMER" in [List of country groupings](https://en.wikipedia.org/wiki/List_of_country_groupings) on Wikipedia.
