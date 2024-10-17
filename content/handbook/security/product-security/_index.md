@@ -18,7 +18,7 @@ Our comprehensive, [multi-year product security mission](https://internal.gitlab
 
 ### Product Security Risk Register
 
-The Product Security Risk Register relies on [StORM](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/).
+The Product Security Risk Register is driven by and follows the [StORM process](/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](/handbook/security/security-assurance/security-risk/).
 
 Our risk registry's goal
 
