@@ -14,11 +14,10 @@ description: "GitLab Data Team Workflow"
 - [Triage](/handbook/enterprise-data/how-we-work/triage/)
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
 - [Data Team Programs](/handbook/enterprise-data/programs/#data-programs)
-- [Weekly Roll Up with Rolly Bot](/handbook/enterprise-data/how-we-work/#weekly-roll-up-reporting)
 
 ## How We Work
 
-We're happy to help you achieve your goals with Data. As a central shared service with finite time and capacity and with a responsibility to operate and develop the company's central Enterprise Data, the Data Team must focus its time and energy on initiatives that will yield the greatest positive impact to the [overall global organization](/handbook/values/#global-optimization) towards [improving customer results](/handbook/values/#customer-results).
+We're happy to help you achieve your goals with Data. As a central shared service with finite time and capacity and with a responsibility to operate and develop the company's central Enterprise Data, the Data Team must focus its time and energy on initiatives that will yield the greatest positive impact to the [overall global organization](/handbook/values/#iterate-toward-global-maximum) towards [improving customer results](/handbook/values/#results).
 
 ### Work Categorization and Prioritization
 
@@ -26,7 +25,7 @@ The Data Team strives to spend the majority of its time developing and operating
 
 | Rank | Priority | Description| Target Allocation | Prioritization Method |
 | --- | --- | --- | --- | --- |
-| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#slos-service-level-objectives-by-data-source). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
+| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#data-sources). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
 | 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/enterprise-data/how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
 | 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
 
@@ -95,8 +94,6 @@ The Data Team, like the rest of GitLab, works hard to document as much as possib
 The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives/) for Marketing.
 
 The calculator below is based on the following [Value Calculator](https://docs.google.com/spreadsheets/d/1FROB7j0YfNS_cQM6qQD0CPkE0Emuf77EJwTb96UduWs/edit?usp=sharing) spreadsheet. Please select the values below to define the value of new work.
-
-<%= partial 'includes/data_team_value_calculator_vue' %>
 
 ### Quarterly and Iteration Planning
 
@@ -229,10 +226,11 @@ Other tips:
 ##### KPI Development Workflow
 
 The Data Team will work to add KPIs and Performance Indicators to our enterprise database models and BI reports once the following steps have been completed.
-    - The DRI should ensure the KPI definition, business logic, and calculation steps are documented in the relevant section of the handbook and added to the GitLab KPIs [with all of its parts](/handbook/company/kpis/#parts-of-a-kpi)
-    - The handbook definition should be reviewed by the necessary [Consulted & Informed](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) cross-functional partners. In some cases, the definition may also require [approval](/handbook/people-group/directly-responsible-individuals/#circumstances-requiring-the-rare-need-for-approvals) from those cross-functional partners
-    - Once the KPI is ready to be added into our enterprise reporting, the DRI should create an issue using the standard Data Team Issue template on the [GitLab Data Team Issue Tracker](https://gitlab.com/gitlab-data/analytics/issues).
-    - The Data team will verify the data sources and help to find a way to automate (if necessary).
+
+- The DRI should ensure the KPI definition, business logic, and calculation steps are documented in the relevant section of the handbook and added to the GitLab KPIs [with all of its parts](/handbook/company/kpis/#parts-of-a-kpi)
+- The handbook definition should be reviewed by the necessary [Consulted & Informed](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) cross-functional partners. In some cases, the definition may also require [approval](/handbook/people-group/directly-responsible-individuals/#circumstances-requiring-the-rare-need-for-approvals) from those cross-functional partners
+- Once the KPI is ready to be added into our enterprise reporting, the DRI should create an issue using the standard Data Team Issue template on the [GitLab Data Team Issue Tracker](https://gitlab.com/gitlab-data/analytics/issues).
+- The Data team will verify the data sources and help to find a way to automate (if necessary).
 
 Once the KPI has been added to our enterprise BI platform, the Data Team will present it to the DRI for testing and final approval.
 
