@@ -96,7 +96,7 @@ When verified, applicants receive a verification email containing specific instr
 Some users may need to input a VAT number when completing their program applications.
 GitLab for Open Source Program members can simply input `N/A` into the VAT field during registration.
 
-#### Must members of the GitLab for Open Source Program renew their memberships?
+#### Do members of the GitLab for Open Source Program need to renew their memberships?
 
 Yes.
 Program members must renew their memberships annually.
