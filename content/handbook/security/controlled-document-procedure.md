@@ -102,3 +102,31 @@ Any deviation approval must:
 - [GCF Compliance Controls]({{< ref "sec-controls" >}})
 - [Data Classifiation Standard]({{< ref "data-classification-standard" >}})
 - [Controlled Documents Work Instruction](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/controlled-documents-program/-/blob/main/runbooks/controlled_document_annual_review_work_instruction.md)
+
+
+#### Adding new Project or Namespace IDs to the allowlist
+
+Internal analysis data is sourced only from projects and namespaces listed in specific CSV files. If a project or group isn't listed, its data isn't extracted for `internal_only` columns.
+
+New additions to the allowlist must follow the [data minimisation](https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/new-data-source/#data-minimisation) principle. Functional analysts and business stakeholders are responsible for maintaining this list and ensuring added projects/namespaces contain only internal, non-sensitive information.
+
+Important notes:
+- Each group/namespace ID requiring data analysis must be explicitly added.
+- Child groups/projects aren't automatically included.
+- After merging, data extraction begins immediately, but only from that point forward.
+
+To add new projects/groups:
+1. Create an MR to update `internal_gitlab_projects.csv` or `internal_gitlab_namespaces.csv`.
+2. Include `project_id`/`namespace_id` and `path` (found in GitLab UI).
+3. Add information at the file bottom, comma-separated. 
+   Example: `gitlab-data/analytics, 4409640` (project) or `gitlab-data, 4347861` (namespace).
+4. Assign the MR to a code owner for review.
+
+<img src="project_id.png" width="800" alt=""/>
+
+{{% alert color="danger" %}}
+
+Monthly scheduled backfills capture historical data for newly added projects or namespaces, typically occurring in the last week of the current month or the first week of the next. While data extraction starts immediately after an item is added to the allowlist, historical data is backfilled during the next scheduled window. Regardless of whether a backfill is required, a full refresh of the source tables is necessary for the data to flow into the models after extraction.
+
+{{% /alert %}}
+
