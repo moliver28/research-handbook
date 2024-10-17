@@ -119,11 +119,7 @@ Teams should limit the number of OKRs they commit to so they have reasonable ban
 
 This aligns with a focus on outcomes and business results instead of KRs tracking tasks or launches.
 
-Samples of well written KRs from GitLab team members:
-
-1. [Q2 product group KR experiment](https://gitlab.com/gitlab-com/Product/-/issues/2095). What makes these great is that they're succinct in scope and have clear metrics to measure success.
-
-External resources:
+##### External resources
 
 1. [Examples from whatmatters](https://www.whatmatters.com/get-examples).
 
