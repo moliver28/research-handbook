@@ -140,6 +140,48 @@ We use the following subset of the `workflow` labels to indicate the state of th
 - `~"workflow::in dev"` - the issue has an assigned person who started implementing it.
 - `~"workflow::in review"` - the spike/implementation is finished, and someone needs to review the spike result or the last MR (the last MR because if there are more MRs to implement, only the last one should result in the change of the workflow label).
 
+### Code review
+
+#### Comment severity levels
+
+We are using the following levels of comments in our MR reviews. The MR reviewer decides on the severity of their comments and discusses this judgement with the MR author.
+
+Immediate follow-up and follow-up levels have more complex processes attached to them. You can link to this page in your reviews to explain how the follow-ups should be tracked and addressed.
+
+- **blocking** - `(blocking)` - Must be addressed in the same MR. All comments without any decorator are blocking, so adding the `(blocking)` decorator is optional.
+- **immediate follow-up** - `(non-blocking, immediate follow-up)` - The comment is important enough that the fix should be implemented as the very next MR the author creates (emergencies like critical production bugs still take priority over the follow-up).
+- **follow-up** - `(non-blocking, follow-up)` - This issue should be addressed but the severity should be weighed against all other technical debt and follow-ups
+- **optional** - `(non-blocking)` - this comment is either personal preference or doesn't have a large impact on the MR. Creating a follow-up issue is optional.
+
+##### When to use immediate follow-up
+
+These are the reasons why we would choose immediate follow-up over a blocking
+comment:
+
+- The original MR was too complex and we are trying to re-focus - The MR review has many comments and it has been going on for many days, then working on an immediate follow-up might reduce the cognitive load and improve focus.
+- **The original MR is urgent** - The MR delivers an urgent/critical feature, the feature works but the code needs to be still changed to match our standards. If it wasn't for the urgency, we would prefer to do the work in the same MR.
+
+##### Immediate follow-up process
+
+When an MR with an unaddressed immediate follow-up comment is merged:
+
+- MR author creates an issue for this comment and ensures the issue:
+  - Has the MR author is assigned to it
+  - Has title and description that captures the work
+  - Is marked as blocking issue associated with the original MR
+  - Is labeled `~immediate` and `~follow-up`
+- Until the immediate follow-up is implemented, the GitLab issue for the original MR should not be closed.
+
+##### Follow-up process
+
+The MR author creates a follow-up issue and **clearly documents** (in title and description) what the follow-up is about and adds the `~follow-up` label.
+
+##### Comment Example
+
+> "(immediate follow-up): This introduces a singleton and we are trying to move away from singletons in the whole system (issue link). We should address this quickly to prevent the anti-pattern from spreading."
+
+These comment severity levels are not static. For example, you might initially mark a comment as _blocking_, but after discussion with the MR author, you may agree to change it to a _follow-up_.
+
 ### Temporary silos
 
 Our team owns several projects, written in different languages (Typescript, Kotlin, C#, Lua) and targeting different platforms.
