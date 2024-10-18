@@ -405,7 +405,7 @@ Requirements
 - Ability to measure and quantify risk to adopt the right response.
 - Deep knowledge of GitLab internals and teams.
 - Understand the concept of architectural complexity.
-- Understand software/infrastructure/enterprise architecture.
+- Deep, experience-based, understanding of one or more of software/infrastructure/enterprise architectural best practices
 - Knowledge of AI concepts and threats.
 
 Security Architects can also be domain experts in specific areas like Cloud Security, Software Security, or even Enterprise Architecture.
