@@ -212,6 +212,7 @@ See [public QSR documentation](https://docs.gitlab.com/ee/subscriptions/quarterl
 ##### QSR eligibility
 
 In addition to [documented elibiligy cases](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-reconciliation-eligibility), we exclude from QSRs any subscription where the Account has any of the following settings in Zuora:
+
 1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
 2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
 3. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
