@@ -18,7 +18,7 @@ graph TD
         P(Post-Authorization) --> Q(Ongoing Continuous Monitoring Deliverables)
         P --> R(Annual Assessment)
     end
-    
+
     subgraph Agency Authorization Phase
         I(Agency Review of Security Authorization Package) --> J(SAR Debrief)
         J -->|Remediation| K(Agency Final Review)
@@ -78,9 +78,9 @@ FedRAMP has similarities with other security compliance "certifications" in that
 
 Let's look at some examples: TO BE DEVELOPED
 
-## How do FedRAMP authorized infrastructure-as-a-service (IaaS) providers fit in? Is it enough to host our system there?
+## How do FedRAMP authorized IaaS providers fit in? Is it enough to host our system there?
 
-SaaS offerings can inherit (partially or fully) some of the required controls from a FedRAMP authorized IaaS provider. These are typically limited to physical and environmental controls, physical media protection, and local maintenance controls. It is possible to transfer additional responsibility for control implementation by leveraging other managed services from the IaaS providers (such as database-as-a-service, serverless compute, managed security services, etc.) however even these will only partially fulfill the full set of requirements. The vast majority of the requirements must still be implemented by the SaaS provider and cannot be inherited.
+SaaS offerings can inherit (partially or fully) some of the required controls from a FedRAMP authorized infrastructure-as-a-service (IaaS) provider. These are typically limited to physical and environmental controls, physical media protection, and local maintenance controls. It is possible to transfer additional responsibility for control implementation by leveraging other managed services from the IaaS providers (such as database-as-a-service, serverless compute, managed security services, etc.) however even these will only partially fulfill the full set of requirements. The vast majority of the requirements must still be implemented by the SaaS provider and cannot be inherited.
 
 ## Who to contact
 
