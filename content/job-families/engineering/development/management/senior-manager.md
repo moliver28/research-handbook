@@ -16,8 +16,8 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 
 ## Responsibilities
 
-- Build a globally-distributed, sustainable, and successful team through hiring, retention, and strategic organizational design 
-- Plan and execute long term strategies that move your team and the product stage(s) toward business objectives. This includes decision-making, alignment, staffing, prioritization and working through ambiguity.
+- Build a globally-distributed, sustainable, and [high-performing](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) team through hiring, retention, and strategic organizational design 
+- Plan and execute long term strategies that move your team and the product stage(s) toward business objectives. This includes decision-making, alignment, staffing, prioritization, leading through change, and working through ambiguity.
 - Understand [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators) and seek to improve them
 - Lead and drive significant results for multiple teams that have a direct impact on the broader mission they contribute to. Examples include, but are not limited to:
   - Managing multiple [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with engineering manager direct reports, covering a significant product/program scope.
