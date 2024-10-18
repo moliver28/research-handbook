@@ -42,7 +42,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 ### 📚 Duo Workflow Board Outline
 
-The Duo Worklflow team is following a kanban-like process. All currently prioritized issues are visualized in our [kanban board](https://gitlab.com/groups/gitlab-org/-/boards/7828018?label_name[]=Category%3ADuo%20Workflow&milestone_title=Started&label_name[]=group%3A%3Aduo%20workflow). The issues are assigned to the current milestone to differentiate them from unprioritized ones. This does not indicate a commitment to actually deliver them in this milestone but only the intent to work on the issue soon but only the intent to work on the issue soon.
+The Duo Worklflow team is following a kanban-like process. All currently prioritized issues are visualized in our [kanban board](https://gitlab.com/groups/gitlab-org/-/boards/7828018?label_name[]=Category%3ADuo%20Workflow&milestone_title=Started&label_name[]=group%3A%3Aduo%20workflow). The issues are assigned to the current milestone to differentiate them from unprioritized ones. This does not indicate a commitment to actually deliver them in this milestone but only the intent to work on the issue soon.
 
 1. **workflow::refinement**: Issues in this stage have been identified as important to be worked on but are not ready for development yet. This might be due to a variety of reasons such as missing or not finished designs or architectural questions that need to be clarified.
 2. **workflow::ready for development**: Issues that are ready for implementation are moved to this list.
