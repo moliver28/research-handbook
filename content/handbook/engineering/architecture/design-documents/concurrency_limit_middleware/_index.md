@@ -110,7 +110,7 @@ Allowing to group workers:
 class FirstLimitedWorker
   include ApplicationWorker
 
-  concurrency_limit -> { Gitlab::CI.default_concurrency_limit }, key: :ci
+  concurrency_limit -> { Gitlab::CI.default_concurrency_limit }, scope: :ci
   # ...
 end
 ```
@@ -119,7 +119,7 @@ end
 class SecondLimitedWorker
   include ApplicationWorker
 
-  concurrency_limit -> { Gitlab::CI.default_concurrency_limit }, key: :ci
+  concurrency_limit -> { Gitlab::CI.default_concurrency_limit }, scope: :ci
   # ...
 end
 ```
@@ -131,7 +131,7 @@ Another is the ability to specify limits for a set of arguments:
 ```ruby
 concurrency_limit -> { 1000 },
                      args: {
-                        group_by: ->(args) { args[0] # project_id }
+                        key: ->(args) { args[0] # root_namespace_id }
                         limit: ->(args) { 100 }
                      }
 ```
@@ -141,7 +141,8 @@ other combination of arguments.
 
 We need to ensure that we always check these in the correct order:
 
-1. Global limit (with or without the key)
+1. Scope limit
+1. Worker limit
 1. Argument-based limiting
 
 We'll probably need to process all queues with a specific prefix in `ConcurrencyLimit::ResumeWorker` as opposed to the current approach where
@@ -149,3 +150,13 @@ we use `Gitlab::SidekiqMiddleware::ConcurrencyLimit::WorkersMap.workers` as the
 single source of truth. That allows customers (team members) to safely change
 the parameters of the `concurrency_limit` without thinking about the deprecation
 process.
+
+The prefix could be `sidekiq:concurrency_limit:queues`.
+
+- Scope limit: `sidekiq:concurrency_limit:queues:scope:ci`
+- Worker limit: `sidekiq:concurrency_limit:queues:worker:limited_worker`
+- Arguments limit: `sidekiq:concurrency_limit:queues:arg:9970`
+
+NOTE:
+We'll need to think about backward compatibility since right now we're only
+using `sidekiq:concurrency_limit:throttled_jobs:<worker_name>`
