@@ -12,7 +12,37 @@ Below, we detail each component's role in this ecosystem, describe the flow of d
 
 ## Code Suggestions Technical Overview
 
-In most general sense Code Suggestions feature follow sequence as described on a diagaram below
+In most general sense Code Suggestions feature follow sequence as described on a diagram below
+
+**Requests sent directly to the AI Gateway**
+
+```mermaid
+sequenceDiagram
+    actor USR as  User
+    participant IDE
+    participant EXT as IDE Extension
+    participant LS as Language Server
+    participant GLR as GitLab Rails
+    participant AIGW as AI Gateway
+    participant LLM as Large Language Model
+
+    USR->>IDE: starts
+    IDE->>EXT: starts
+    EXT->>LS: triggers request for direct connection details
+    LS->>GLR: requests for direct connection details
+    GLR->>LS: returns direct connection details (AIGW token, model name, model endpoint)
+    USR->>IDE: types: "def add(a, b)"
+    IDE->>EXT: notify about document change def add(a, b)
+    EXT->>LS: register document change def add(a, b)
+    LS->>AIGW: sends code suggestion requests
+    AIGW->>LLM: code suggestion request
+    LLM->>AIGW: "a + b"
+    AIGW->>LS:  suggestion: "a + b"
+    LS->>EXT: triggers IDE code suggestion UI: "a + b"
+    EXT->>IDE: triggers IDE code suggestion UI: "a + b"
+```
+
+**Requests routed through GitLab Monolith (Rails)**
 
 ```mermaid
 sequenceDiagram
