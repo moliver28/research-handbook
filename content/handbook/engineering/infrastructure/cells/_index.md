@@ -375,7 +375,7 @@ Details:
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
 
-### Phase 5: Cluster Awerness
+### Phase 5: Cluster Awareness
 
 Exit Criteria:
 
@@ -419,7 +419,7 @@ Exit Criteria:
 
 Dependencies:
 
-- [Phase 5](#phase-5-cluster-awerness): Cluster Awerness
+- [Phase 5](#phase-5-cluster-awareness): Cluster Awareness
 
 Before/After:
 
