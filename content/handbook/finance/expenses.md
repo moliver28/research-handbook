@@ -87,7 +87,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 
 ### 3.3 Other
 
-- Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by the CFO.
+- Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by VP or higher in the Accounting Organization.
 - Any exceptions to the policy must be documented via an issue or an email with proper approvals from their manager and Finance team.
 
 ## 4. PROCEDURES
