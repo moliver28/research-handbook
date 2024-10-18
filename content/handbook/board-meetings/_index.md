@@ -2,18 +2,18 @@
 title: "Board of Directors and Corporate Governance"
 ---
 
-**This page is intended to capture GitLab Board practices, but we evolve these over time and the page may not capture all changes. The source of truth for Board details is GitLab's [Investor Relations site](https://ir.gitlab.com/corporate-governance/documents-charters).**
+**This page is intended to capture GitLab Board practices, but we evolve these over time and the page may not capture all changes. The source of truth for Board details is GitLab's [Investor Relations site](https://ir.gitlab.com/governance/governance-documents/default.aspx).**
 
 ## Board and Committee Composition
 
 ### Board of Directors
 
-1. [Current members of the Board of Directors](https://ir.gitlab.com/corporate-governance/board-of-directors-grid)
+1. [Current members of the Board of Directors](https://about.gitlab.com/company/team/board-of-directors/)
 1. [Board of Directors Job Description](/job-families/board-of-directors/board_member)
 
 ### Audit Committee
 
-> [Audit Committee Charter](https://ir.gitlab.com/static-files/f8d37e2d-d022-4194-996f-6d194cd02173)
+> [Audit Committee Charter](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/audit-Committee-Charter.pdf)
 
 **Meeting Process**
 
@@ -34,7 +34,7 @@ Audit Committee meetings are attended by:
 
 ### Compensation and Leadership Development Committee
 
-> [Compensation and Leadership Development Committee Charter](https://ir.gitlab.com/static-files/d9cd5181-7886-4cac-8fcf-3bb9b69ce71f)
+> [Compensation and Leadership Development Committee Charter](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/Compensation-and-Leadership-Development-Committee-Charter.pdf)
 
 **Meeting Process**
 
@@ -55,7 +55,7 @@ Compensation and Leadership Development Committee meetings are attended by:
 
 ### Nominating and Corporate Governance Committee
 
-> [Nominating and Corporate Governance Committee Charter](https://ir.gitlab.com/static-files/549b448d-bfd0-47cc-aa47-373121eff49e)
+> [Nominating and Corporate Governance Committee Charter](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/Nominating-and-Corporate-Governance-Committee-Charter.pdf)
 
 **Meeting Process**
 
@@ -227,7 +227,7 @@ Past and future Key Talent Dinner Guests are listed below.
 
 ### Roles and Responsibilities
 
-- [Nominating and Corporate Governance Committee](https://ir.gitlab.com/static-files/549b448d-bfd0-47cc-aa47-373121eff49e) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
+- [Nominating and Corporate Governance Committee](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/Nominating-and-Corporate-Governance-Committee-Charter.pdf) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
 - CEO and Selected Members of E-Group also meet and vet potential new Board members; provide feedback on candidates.
 - [CLO](/job-families/legal-and-corporate-affairs/chief-legal-officer) - Nominating and Corporate Governance Committee DRI.
 - [CEO's Staff Executive Business Administrator](/job-families/people-group/executive-business-administrator) - DRI for Board and Committee scheduling.
