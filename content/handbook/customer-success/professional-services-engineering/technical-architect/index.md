@@ -28,8 +28,8 @@ The TA team assists Account Teams (e.g. Account Executives, Solution Architects,
 1. It is the EM's responsibility to gather information about the potential opportunity prior to engaging the TA. This includes:
    - Ensuring the customer understands the value of the PS team, what we can offer, and how we can generally help customers drive value realization from their GitLab subscription purchase.
    - Positioning what we want to do 80% of the time in general ways, avoiding detailed technical scoping until necessary.
-   - Helping align customer expectations with practical solutions before involving TAs.
-1. In order for an Engagement Manager (EM) to engage with a TA, there should be an SFDC opportunity and scoping issue created. Additionally, in the scoping issue, the EM should be able to articulate the `current customer pain points` and `technical or organizational constraints`. If these are not present, the TA can push back on the EM to gather this information prior to joining internal or customer-facing calls. 
+   - Helping align customer expectations with practical solutions before involving TA's.
+1. In order for an Engagement Manager (EM) to engage with a TA, there should be an SFDC opportunity and scoping issue created. Additionally, in the scoping issue, the EM should be able to articulate the `current customer pain points` and `technical or organizational constraints`. If these are not present, the TA can push back on the EM to gather this information prior to joining internal or customer-facing calls.
 
 ### Establish Subject Matter Expertise
 
