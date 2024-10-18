@@ -47,7 +47,7 @@ description: "This page discusses the Internal Hiring Process"
     - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer
 - Please note the following about this process:
   - TA will only start an official backfill process once the role has been approved via the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals)
-  - Internal team members should be alerting and receiving support from their current manager prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
+  - It is the [Team Member's responsibility](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities) to meet with their current manager to discuss the internal opportunity they’d like to pursue prior to submitting their application. Offers at the end of an internal interview process should not come as a surprise to current managers.
   - TA will not discuss any compensation changes with the team member's current manager.
   - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
 
