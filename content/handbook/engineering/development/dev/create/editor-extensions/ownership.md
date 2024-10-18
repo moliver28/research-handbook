@@ -5,7 +5,7 @@ description: This page provides clarity and a clear expectation between all part
 
 ## Context
 
-Multiple groups contribute to features exposed through our editor extensions. This can create ambiguity regarding ownership and maintenance responsibilities. This document outlines an agreed-upon approach for consistent ownership attribution, aligning expectations and improving efficiency among all involved parties. 
+Multiple groups contribute to features exposed through our editor extensions. This can create ambiguity regarding ownership and maintenance responsibilities. This document outlines an agreed-upon approach for consistent ownership attribution, aligning expectations and improving efficiency among all involved parties.
 
 Owning a system part means being responsible for feature development, bug-fixes, and general maintenance of the affected part. Ideally, a team has maintainers in the system part they own to be more independent of the editor extensions team, but this is not a strict requirement.
 
@@ -47,6 +47,11 @@ Currently used by **Duo Workflow** and soon to be used by **Duo Chat**.
 
 * When a team starts working on a feature that will require Editor Extensions support:
   * PM/EM will notify **Create:Editor Extensions** group's PM/EM - this allows the team to forecast the capacity necessary to support in the near future
-* When the UI of the feature is ready:
-  * the authoring team opens an integration MR
-    * The **Create:Editor Extensions** group will assign an engineer to take over the MR and complete integration
+* Feature implementation
+    * Legacy ownership model (Duo Chat implemented separately in all extensions)
+        * When the UI of the feature is ready:
+          * the authoring team opens an integration MR
+            * The **Create:Editor Extensions** group will assign an engineer to take over the MR and complete integration
+    * Language Server ownership model
+        * When the Language Server change is done, the feature team will notify **Create:Editor Extensions** group and they'll integrate the language server change to the editor extensions.
+
