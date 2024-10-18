@@ -745,10 +745,40 @@ protected through either a [Shamir's derived AES key](https://openbao.org/docs/c
 
 #### Storage backend
 
-OpenBao on Runway will initially be deployed with the Postgres engine. This
-is a sane default for self-hosted as well, as GitLab Rails already requires
-a database and can create tables in it. However, support for the more widely
-deployed Raft backend can also be added in the future fairly easily.
+OpenBao on Runway will initially be deployed with the [Postgres storage engine](https://openbao.org/docs/configuration/storage/postgresql/)
+added in OpenBao v2.1.0. This is a sane default for self-hosted as well, as
+GitLab Rails already requires a database and can create tables in it. However,
+support for the more widely deployed Raft backend can also be added in the
+future fairly easily and OpenBao ships a [migration tool](https://openbao.org/docs/commands/operator/migrate/).
+
+##### Runway
+
+Runway currently lacks support for [self-service PostgreSQL instances](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/5).
+In the [mean time](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/374),
+we'll use the [main PostgreSQL cluster](/handbook/engineering/architecture/guidelines/database/#default-answer-the-main-postgres-database)
+with a [logical database](/handbook/engineering/architecture/guidelines/database/#relational-postgresql-1)
+as we expect OpenBao to use a _medium_ transaction rate to handle
+[write requests](https://github.com/openbao/openbao/pull/560). Storage
+will likely be [fairly small](https://gitlab.com/gitlab-com/Product/-/issues/8653#note_2002137503)
+especially for MVC and closed beta.
+
+OpenBao can [create its own tables](https://openbao.org/docs/configuration/storage/postgresql/#postgresql-parameters)
+with the default `skip_create_table=false` option. However, it is not
+immediately clear if this conflicts (for logical databases not accessible
+from the Rails monolith) with the desire for `db/structure.sql` to
+[contain all tables](https://docs.gitlab.com/ee/development/migration_style_guide.html#schema-changes).
+
+Note that we expect to need future improvements to the OpenBao PostgreSQL
+engine if we expect to continue running it at scale, as it use a rather
+[inefficient schema](https://openbao.org/docs/configuration/storage/postgresql/#manually-creating-tables).
+
+One downside with this approach is perceived security: while all data
+OpenBao writes to storage is encrypted with the seal key, we are mixing
+different classifications of data (that which is semi-public or which can
+be scraped, with encrypted, highly-sensitive secrets data). This is less
+ideal than using a separate cluster, isolated from other components that do
+not need access. However, given access to the seal remains protected, this
+should be safe.
 
 #### Seal mechanisms
 
