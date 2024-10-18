@@ -143,3 +143,9 @@ We need to ensure that we always check these in the correct order:
 
 1. Global limit (with or without the key)
 1. Argument-based limiting
+
+We'll probably need to process all queues with a specific prefix in `ConcurrencyLimit::ResumeWorker` as opposed to the current approach where
+we use `Gitlab::SidekiqMiddleware::ConcurrencyLimit::WorkersMap.workers` as the
+single source of truth. That allows customers (team members) to safely change
+the parameters of the `concurrency_limit` without thinking about the deprecation
+process.
