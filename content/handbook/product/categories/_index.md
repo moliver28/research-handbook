@@ -300,9 +300,9 @@ Maybe we should make our features easier to search to replace the section below.
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
 
-#### Knowlege group
+#### Knowledge group
 
-[Knowlege group](/handbook/product/categories/#knowledge-group)
+[Knowledge group](/handbook/product/categories/#knowledge-group)
 
 - markdown functionality
 - rich text editor
