@@ -89,9 +89,11 @@ The content in this section is typically updated at least 1 month after each rel
 
 #### Workshops Feedback/Survey Process
 
-The goal is to set up a repeatable process for gathering feedback from workshop attendees while the experience is still fresh in their minds so that workshops can continually be improved upon. We plan together include a survey slide with a QR code, and the link will be shared in the chat just before the webinar wraps up. It will take less than 2 minutes to complete. 
+The goal is to set up a repeatable process for gathering feedback from workshop attendees while the experience is still fresh in their minds. We'll include a survey slide with a QR code, and the link will be shared in the chat just before the webinar wraps up. It will take less than 2 minutes to complete. 
 
-This is our first iteration, with plans to eventually automate the process. Over time, this feedback will help us identify areas for improvement, develop new materials, and refine how we deliver our workshops — ensuring we consistently provide valuable experiences for our attendees. Follow the **How to steps** below to copy and generate your unique feedback QR code.
+This is our first iteration, with plans to eventually automate the process. Over time, this feedback will help us identify areas for improvement, develop new materials, and refine how we deliver our workshops — ensuring we consistently provide valuable experiences for our attendees.
+
+Follow the **How to steps** below to copy and generate your unique feedback QR code.
 
 - [How to Steps](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-resources/-/blob/main/Workshop%20Survey/Survey-steps.md?ref_type=heads)
 
