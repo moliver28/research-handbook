@@ -100,6 +100,46 @@ The middleware exposes the following Prometheus metrics to monitor its operation
 
 ## Future iterations
 
-### Allowing to group workers
+This middleware could become even more useful if we introduce addtional features like
+an ability to group workers or having separate limits for
+namespace/project/user.
 
-### Allowing to specify limits for a set of arguments
+Allowing to group workers:
+
+```ruby
+class FirstLimitedWorker
+  include ApplicationWorker
+
+  concurrency_limit -> { Gitlab::CI.default_concurrency_limit }, key: :ci
+  # ...
+end
+```
+
+```ruby
+class SecondLimitedWorker
+  include ApplicationWorker
+
+  concurrency_limit -> { Gitlab::CI.default_concurrency_limit }, key: :ci
+  # ...
+end
+```
+
+That way we can ensure that these workers share the same limit.
+
+Another is the ability to specify limits for a set of arguments:
+
+```ruby
+concurrency_limit -> { 1000 },
+                     args: {
+                        group_by: ->(args) { args[0] # project_id }
+                        limit: ->(args) { 100 }
+                     }
+```
+
+This could be useful if we want to limit it per project or per user, or some
+other combination of arguments.
+
+We need to ensure that we always check these in the correct order:
+
+1. Global limit (with or without the key)
+1. Argument-based limiting
