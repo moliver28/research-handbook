@@ -31,7 +31,6 @@ The TA team assists Account Teams (e.g. Account Executives, Solution Architects,
    - Helping align customer expectations with practical solutions before involving TAs.
 1. In order for an Engagement Manager (EM) to engage with a TA, there should be an SFDC opportunity and scoping issue created. Additionally, in the scoping issue, the EM should be able to articulate the `current customer pain points` and `technical or organizational constraints`. If these are not present, the TA can push back on the EM to gather this information prior to joining internal or customer-facing calls. 
 
-
 ### Establish Subject Matter Expertise
 
 TA's Leverage their expertise to build trust and demonstrate the value of GitLab services in achieving desired outcomes.  They can help navigate challenging customer scenarios while continually communicating the value of GitLab services.
