@@ -73,7 +73,7 @@ Following ClickHouse documentation there are the following drivers for Ruby and 
 
 ##### Ruby
 
-1. [ClickHouse Ruby driver](https://github.com/shlima/click_house) - Previously selected for use in GitLab as part of the Observability grup's research (see: [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/358158))
+1. [ClickHouse Ruby driver](https://github.com/shlima/click_house) - Previously selected for use in GitLab as part of the Observability group's research (see: [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/358158))
 1. [Clickhouse::Activerecord](https://github.com/PNixx/clickhouse-activerecord)
 
 ##### Go
