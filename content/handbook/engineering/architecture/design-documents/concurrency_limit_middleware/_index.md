@@ -157,6 +157,10 @@ The prefix could be `sidekiq:concurrency_limit:queues`.
 - Worker limit: `sidekiq:concurrency_limit:queues:worker:limited_worker`
 - Arguments limit: `sidekiq:concurrency_limit:queues:args:limited_worker:9970`
 
+Thought: We should think about the different tradeoffs in regards to
+arguments limits. We probably don't want to create a Redis LIST for each
+permutation.
+
 NOTE:
 We'll need to think about backward compatibility since right now we're only
 using `sidekiq:concurrency_limit:throttled_jobs:<worker_name>`
