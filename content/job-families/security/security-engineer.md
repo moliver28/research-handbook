@@ -385,23 +385,47 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-This role reports directly to the CISO. Generally we would see this specialty to be filled at the Distinguished level. Distinguished engineers and Fellows have the widest sphere of influence and responsibility at the individual contributor level and as such may be asked to focus on high impacting focus areas. The security architect is a highly technical role responsible for planning, designing, testing, implementing and maintaining security strategy and solutions across the entire GitLab ecosystem. More specifically the responsibilities of this role include:
+Security Architecture is a highly technical team responsible for the assessment, mitigation and reduction of risks associated with the GitLab product and maintaining security strategy and solutions across the entire GitLab ecosystem. 
 
-- Define key architectural patterns, engineering practices and standards and drive them across the organization.
-- Work closely with other teams to develop and promote security architectures to protect microservices, serverless, containers, application development and operations practices
-- Maintain a deep understanding and application of security concepts at a technical level.
-- Responsible for providing security guidance to other team members in their design, implementation and support of new cloud architecture and automation technologies, as well as updates and maintenance of existing cloud and automation systems
-- Advocate, document and define security architecture vision from a strategic perspective, including internal and external platforms, tools, and systems
-- Contributes to the security of enterprise data and systems by developing enterprise information security solutions.
-- Creates and updates a view of IT assets, related attack surfaces, and threat actors to illustrate the flow of data and associated security threats.
-- Research, design, and develop new enterprise technologies, architectures, and security products that will support security requirements for the enterprise and its customers, business partners, and vendors.
-- Drive deep architectural discussions in a collaborative fashion to ensure solutions are designed for successful, automated deployment in the cloud, vendor, and on prem environments
-- Assist in the development of security technology roadmaps and end-of-life technology plans.
+This position reports to the VP of Product Security. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. Staff+ engineers have a wide sphere of influence and responsibility at the individual contributor level and as such may be asked to focus on high impacting focus areas. 
+
+Responsibilities: 
+
+- Get a better understanding of our security posture and a better grasp on priorities, by creating and maintaining a Product Risk Register (PRR).
+- Make the PRR the cornerstone of Security Architecture, to derive metrics to drive decisions and define Key Performance Indicators (KPIs) for the Product Security department.
+- Define key architectural patterns, engineering practices and standards and drive them across the organization and 
+- Work closely with other teams to develop and promote security architectures to protect the GitLab product. 
+- Advocate, document and define security architecture vision from a strategic perspective, including internal and external platforms, tools, and systems.
 - Contribute to, interpret, and disseminate information security policies, standards, and promote awareness of these artifacts to technical component owners.
 - Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities
-- Analyzes business impact and exposure based on emerging security threats, vulnerabilities, and risks and contributes to the development and maintenance of information security architecture.
-- Engages with security specialists and other functional area architects to ensure adequate enterprise security solutions are in place to sufficiently mitigate identified risks, and to meet business objectives and regulatory requirements.
-- Responds to escalated cybersecurity issues for enterprise systems; facilitates advanced diagnosis and troubleshooting when necessary.
+- Be a consultant for escalated security incidents where applicable.
+
+Requirements
+
+- Ability to measure and quantify risk to adopt the right response.
+- Deep knowledge of GitLab internals and teams.
+- Understand the concept of architectural complexity.
+- Understand software/infrastructure/enterprise architecture.
+- Knowledge of AI concepts and threats.
+
+Security Architects can also be domain experts in specific areas like Cloud Security, Software Security, or even Enterprise Architecture.
+
+#### Security Architect (Enterprise)
+
+The Security Architect (Enterprise) is focused on creating a streamlined environment to achieve the business’ mission from a security perspective, in collaboration with the rest of the organization.
+
+Specialized Responsibilities (Enterprise)
+
+- Centralise security insights in the establishment of metrics, dashboards, and integration of operational processes supporting the PRR.
+- Build and maintain security value metrics that drive decision making at the C-Level.
+- Unification and optimization of processes between teams. 
+- Create a stable, efficient, and cohesive ecosystem supported by Security Architecture to facilitate cross-departmental collaboration on security-related operations.
+
+Specialized Requirements (Enterprise)
+
+- Ecosystem knowledge of security teams and cross-departmental processes.
+- Experience in working on high-impact operations involving multiple departments and divisions. 
+- Experience in establishing and presenting security metrics to C-Level executives through dashboarding tools like Tableau.
 
 ## Security Engineer Hiring Process
 
