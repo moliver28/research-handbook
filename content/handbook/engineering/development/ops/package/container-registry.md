@@ -62,7 +62,7 @@ The team is responsible for monitoring the Slack channel [#g_container-registry_
 the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/registry) and they follow the infrastructure team
 process to define them.
 
-#### Processs for handling alerts
+#### Process for handling alerts
 
 The team has agreed on the following process to handle alerts:
 
@@ -82,28 +82,27 @@ The team has agreed on the following process to handle alerts:
       - The alert has been automatically resolved.
       - Open an issue if this requires attention in the future. If the alert/ci notification is due to a flake, identify the severity of the failure and add an appropriate priority label, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
       - If this is a recurring alert that was deemed as safe to ignore, consider raising an issue to adjust the alert thresholds, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
+      - Ensure the correct label from [this list](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=flak) is applied.
    1. Otherwise:
       - Review the [#production](https://gitlab.enterprise.slack.com/archives/C101F3796) channel and the [#incident-management](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1) channel for existing incidents that may be related.
-      - If there is an ongoing incident, consider helping or reaching out to the team for assitance.
+      - If there is an ongoing incident, consider helping or reaching out to the team for assistance.
       - Otherwise, consider [reporting an incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
-      - Share details in the [#g_container-registry](https://gitlab.enterprise.slack.com/archives/CRD4A8HG8) channel to raise awereness.
+      - Share details in the [#g_container-registry](https://gitlab.enterprise.slack.com/archives/CRD4A8HG8) channel to raise awareness.
       - Ping people as needed.
    1. Add a comment as a thread to the alert that you reviewed.
    1. Once the problem has been resolved or the required short-term investigation is complete, react with a ✅ emoji to the notification.
-
 
 ##### Alert Occurrence Template
 
 Add/update this template to the alert related issue with the number of times the alert has been seen.
 
-```
-## Alert Occurrence Update
+   ```markdown
+   ## Alert Occurrence Update
 
-- **Occurrence Count**: X (previously Y)
-- **Date/Time**: [Insert timestamp of occurrence]
-- **Last occurrences**: [Insert slack link]
-
-```
+   - **Occurrence Count**: X (previously Y)
+   - **Date/Time**: [Insert timestamp of occurrence]
+   - **Last occurrences**: [Insert slack link]
+   ```
 
 ##### Resources
 
