@@ -21,7 +21,7 @@ After you have done the above, please add a comment to the MR/issue the develope
 - Please mention if we are using the latest version of the gem in our code. If that isn't the case, ask the developer to move to the latest version.
 - If you notice that the developer is using the gem in an insecure manner, recommend secure usages of the gem or disable any insecure configurations in the gem by pointing the developer to the gem's documentation.
 
-## NPM package
+## NPM packages
 
 The review guidelines for Gems are applicable for reviewing npm packages as well, in addition to that:
 
