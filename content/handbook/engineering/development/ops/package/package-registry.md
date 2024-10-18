@@ -122,7 +122,6 @@ Below is a list of projects and initiatives that we are currently working on, al
 | [Extract package formats into their own classes](https://gitlab.com/groups/gitlab-org/-/epics/12294)                   | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
 | [Cells - Package Registry](https://gitlab.com/groups/gitlab-org/-/epics/13846)                                         | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
 
-
 ### What We've Recently Completed
 
 | Project                                                           | Milestone Completed                    |
