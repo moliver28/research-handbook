@@ -155,7 +155,7 @@ The prefix could be `sidekiq:concurrency_limit:queues`.
 
 - Scope limit: `sidekiq:concurrency_limit:queues:scope:ci`
 - Worker limit: `sidekiq:concurrency_limit:queues:worker:limited_worker`
-- Arguments limit: `sidekiq:concurrency_limit:queues:arg:9970`
+- Arguments limit: `sidekiq:concurrency_limit:queues:arg:limited_worker:9970`
 
 NOTE:
 We'll need to think about backward compatibility since right now we're only
