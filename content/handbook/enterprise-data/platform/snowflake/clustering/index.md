@@ -33,7 +33,7 @@ Our guidelines are to only apply clustering to incremental models that are set t
 
 - Your table is large (typically > 1 TB)
 - You frequently query on specific columns
-- Your queries are experiencing performance issues in dbt, Snowsight, or Tableau; clustering the table that your query selects from can improve query performance. 
+- Your queries are experiencing performance issues in dbt, Snowsight, or Tableau; clustering the table that your query selects from can improve query performance.
 - You have high cardinality columns that are often used in WHERE clauses or JOINs
 
 ## How to Implement Clustering
@@ -75,5 +75,6 @@ Ideally, `average_overlaps` would be below 1 and `average_depth` would be ~ 1. A
 2. Monitor clustering regularly
 3. Reconsider clustering if your table is small or experiences frequent updates
 4. Be aware of the additional storage and maintenance costs associated with clustering
+5. When a table with auto-clustering enabled is cloned, the cloned version will have auto-clustering turned off
 
 By understanding and properly implementing clustering, you can significantly enhance the performance of your Snowflake queries and optimize your data warehouse operations.
