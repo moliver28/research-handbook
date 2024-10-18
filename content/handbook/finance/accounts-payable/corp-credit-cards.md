@@ -165,7 +165,7 @@ Upon review, if more clarification is needed for a certain expense, the AP team 
 
 ## 7.  Exceptions to the Policy
 
-- Any exceptions to the policy must be approved via issue or email by the VP, Corporate Controller, CAO or CFO
+- Any exceptions to the policy must be approved via issue or email by the VP or higher in the Accounting Organization.
 - Card members can be granted a higher limit than the allotted monthly $10K USD (or local currency) limit with an approved issue.
 
 ## 8. PROCEDURES
