@@ -25,7 +25,7 @@ See the [CE documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/C
 
 | Label | What it means | How to handle it |
 | - | - | - |
-| awaiting feedback | Information has been requested from the user | If no reply has been received in two weeks, the issue can be closed. |
+| awaiting feedback | We've asked more information from the user | If no reply has been received in two weeks, the issue can be closed. |
 | maintainer-discussion | Issues for further discussion by project Maintainers | Projects maintainers should review status and provide input within 2 weeks. |
 | needs investigation | Information has been provided by the user, but is waiting on the team to further dive in | The team member who added the label should try to find some time to investigate or engage other team members within 4 weeks. |
 
