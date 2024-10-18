@@ -191,7 +191,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
 
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
   - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
-  - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp`
+  - In Japan: Partners may choose to transact with either [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp` or [SB C&S](https://cas.softbank.jp/) via `SBCASGRP-DevOps+gitlabdisti@g.softbank.co.jp`
   - In Thailand: Partners may also choose to transact with [Get On Technology](https://www.got.co.th/contact) via `gitlab@got.co.th`
 
 GitLab sellers can also refer to the [partner billing section](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) of this handbook for a link to our distributor billing records and guidance on how these records are used in the quoting process.
