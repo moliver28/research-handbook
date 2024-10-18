@@ -148,14 +148,14 @@ We need to ensure that we always check these in the correct order:
 We'll probably need to process all queues with a specific prefix in `ConcurrencyLimit::ResumeWorker` as opposed to the current approach where
 we use `Gitlab::SidekiqMiddleware::ConcurrencyLimit::WorkersMap.workers` as the
 single source of truth. That allows customers (team members) to safely change
-the parameters of the `concurrency_limit` without thinking about the deprecation
+the parameters of `concurrency_limit` without thinking about the deprecation
 process.
 
 The prefix could be `sidekiq:concurrency_limit:queues`.
 
 - Scope limit: `sidekiq:concurrency_limit:queues:scope:ci`
 - Worker limit: `sidekiq:concurrency_limit:queues:worker:limited_worker`
-- Arguments limit: `sidekiq:concurrency_limit:queues:arg:limited_worker:9970`
+- Arguments limit: `sidekiq:concurrency_limit:queues:args:limited_worker:9970`
 
 NOTE:
 We'll need to think about backward compatibility since right now we're only
