@@ -91,14 +91,17 @@ Below is a list of projects and initiatives that we are currently working on, al
 | Project                                                                                                                | DRI                                   | Backup DRI                          |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- |
 | [Release metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}    | {{< member-by-gitlab jaime >}}      |
-| [AMAU usage tracking](https://gitlab.com/groups/gitlab-org/-/epics/8213)                                               | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab adie.po >}}    |
-| [Allow renaming/moving groups and projects with repositories](https://gitlab.com/groups/gitlab-org/-/epics/9459)       | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab adie.po >}}    |
 | [Database load balancing](https://gitlab.com/groups/gitlab-org/-/epics/8591)                                           | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab suleimiahmed >}} |
 | [Confidential](https://gitlab.com/groups/gitlab-org/-/epics/13237)                                                     | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab jdrpereira >}} |
 | [Database background migrations](https://gitlab.com/groups/gitlab-org/-/epics/13609)                                   | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab jdrpereira >}} |
-| [Enable container registry features on self-managed](https://gitlab.com/groups/gitlab-org/-/epics/12218)                                            | {{< member-by-gitlab adie.po >}} |  |
 | [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   |  |
-| [Improve container registry multi-architecture images UX](https://gitlab.com/groups/gitlab-org/-/epics/11952)                          | {{< member-by-gitlab rchanila >}}   |  |
+
+### What We've Recently Completed
+
+| Project                                                           | Milestone Completed                    |
+| ----------------------------------------------------------------- | -------------------------------------- |
+|                                                                   |                                        |
+
 
 ## Documentation
 

@@ -118,10 +118,16 @@ Below is a list of projects and initiatives that we are currently working on, al
 | Project                                                                                                                | DRI                                    | Backup DRI                          |
 | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------------------------- |
 | [Virtual Registry](https://gitlab.com/groups/gitlab-org/-/epics/15088)                                                 | {{< member-by-gitlab 10io >}}          | {{< member-by-gitlab mkhalifa3 >}}  |
-| [Dependency Firewall](https://gitlab.com/groups/gitlab-org/-/epics/5133)                                               |  |  |
-| [Extract package formats into their own classes](https://gitlab.com/groups/gitlab-org/-/epics/12294)                                     | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
+| [Dependency Firewall](https://gitlab.com/groups/gitlab-org/-/epics/5133)                                               | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
+| [Extract package formats into their own classes](https://gitlab.com/groups/gitlab-org/-/epics/12294)                   | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
 | [Cells - Package Registry](https://gitlab.com/groups/gitlab-org/-/epics/13846)                                         | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
-| [Conan Repository](https://gitlab.com/groups/gitlab-org/-/epics/6816) - [Co-creation](/handbook/marketing/developer-relations/cocreate/) | {{< member-by-gitlab dmeshcharakou >}} |  |
+
+
+### What We've Recently Completed
+
+| Project                                                           | Milestone Completed                    |
+| ----------------------------------------------------------------- | -------------------------------------- |
+|                                                                   |                                        |
 
 ## Documentation
 
