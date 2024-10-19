@@ -8,6 +8,10 @@ description: Handling tickets from customers that have an ASE
 
 ### New tickets
 
+<!-- This is not true for all accounts currently, and may also change for the future.
+     Change this to discuss how to determine whether and how to help on ASE account
+     tickets. -->
+
 All new non-emergency tickets from a customer that paid for an Assigned
 Support Engineer (ASE) [will get automatically assigned to that ASE](onboarding.html#auto-assign-the-customers-tickets).
 
@@ -36,7 +40,7 @@ ticket of theirs that will breach or was missed, feel free to respond to that
 ticket yourself, but be sure to leave the ASE as the assignee and `cc`
 yourself until they return. Upon their return, they'll take the ticket.
 
-#### Tickets in a different region
+### Tickets in a different region
 
 Tickets in a different region will still get assigned to the ASE. If they'll
 breach before the ASE gets online then that means

@@ -75,36 +75,73 @@ calendar](https://handbook.gitlab.com/handbook/support/#google-calendar).
 To keep the meetings short and productive, much of the agenda is async. ASEs
 and managers have agenda topics to update before each meeting.
 
+#### GitLab Project
+
+See the [Assigned Support Engineers project](https://gitlab.com/gitlab-com/support/assigned-support-engineers)
+for issues and a wiki that are used by the ASE community. There is a lot of
+organizational and logistical information there, as well as issues describing
+out-of-office coverage plans and containing discussions about ASE processes.
+
 ### Working with ASEs
+
+ASEs tend to work with GitLab Team Members from all around Support and all
+around the company in order to meet the needs of their accounts. And we want
+each collaboration to be positive, mutually-beneficial and successful. So
+we've created the following sections to provide information to you, our
+partners, about working with us.
 
 #### Global Support working with ASEs
 
+If you're in Global Support and not already an ASE, please familiarize yourself
+with our [Global Support working with ASEs](working-with-ases/global-support-and-ases.md)
+page. It should tell you everything you want to know about how these two parts
+of Support can help each other to be more successful.
+
 #### Account Teams working with ASEs
 
-### Standards of Practice
+If you're part of a Sales, Customer Success or Professional Services team that
+works with an account that has contracted for or is considering contracting for
+one or more Assigned Support Engineers, please read our
+[Account Teams working with ASEs](working-with-ases/account-teams-working-with-ases.md)
+page.
+
+### ASE Workflows and Standards
 Link to a page that includes:
 - QBRs
 - Reports
-- Customer Onboarding
-- OOO Management
+- Customer Onboarding (onboarding.md and introductory_meeting.md)
+- OOO Management (planning-pto-as-ASE.md)
 - Issues v. Tickets
 - Time Tracking
+- Handling ticket tsunamis (ticket_tsunami.md)
 
-### Being an ASE
+### Becoming and Being an ASE
 Link to a page that includes:
 - ASE Job Description link
 - ASE performance factor worksheet template link
 - Being an ASE video link
 - Tips from ASEs
-
-### Getting Started as an ASE
-
-### Workflows
+- Changes needed in Zendesk, Zoom, support-team.yaml
+- Get added to the Slack channel
+- Get added to team meetings
+- Balancing between ASE and Global
+  - on-call rotation
+  - ticket queue
+  - pairings and help sessions
+- Learn about how to work with your account (manager 1:1s for now, presentation eventually)
+  - managing customer expectations
+  - stepping out of the SE box - change your way of thinking about what you should
+    or shouldn't do
+  - prioritize and re-prioritize all the time
+  - only attend meetings in which you will learn or contribute
+  - get to know the people as people
+    - do lots of Zooms with them and chat as you work a ticket
+  - get to know what they're doing with GitLab and why
+- Link to the customer onboarding page (onboarding.md)
 
 ### Zendesk for ASEs
 Link to a page that includes:
-- ticket routing
+- ticket routing and assignment
 - views
 - special fields
 - special tags
-- ticket assignment, auto and manual
