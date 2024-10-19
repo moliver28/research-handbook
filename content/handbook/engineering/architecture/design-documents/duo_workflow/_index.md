@@ -388,19 +388,20 @@ authentication mechanism is discussed.
 
 #### Local Duo Workflow Executor -> Duo Workflow Service
 
-When a Duo Workflow starts, the Duo Workflow Executor must connect to the Duo Workflow Service.
+When a Duo Workflow starts, the Duo Workflow Executor must connect to the Duo
+Workflow Service.
 
 To authenticate this connection:
 
 1. The IDE will use the OAuth token of Personal Access Token (PAT) that the user
    generated while setting up the GitLab editor extension.
 1. The IDE uses that token to authenticate a request to a GitLab Rails API
-   endpoint to obtain a short-lived user- and system-scoped JWT.
-1. When the GitLab Rails instance receives this request, it loads its
+   endpoint.
+1. When the GitLab Rails API receives this request, it loads its
    instance-scoped JWT (synced daily from CustomersDot) and contacts the AI
-   gateway to swap this instance token for the above-mentioned user-scoped token
+   gateway to swap this instance token for a user-scoped JWT
    (also cryptographically signed)
-1. GitLab Rails returns this JWT to the IDE.
+1. GitLab Rails returns the user-scoped JWT to the IDE.
 1. The IDE passes on this JWT to the local Duo Workflow Executor component.
 1. The Duo Workflow Executor uses this JWT to authenticate the Duo Workflow
    Service gRPC connection.
@@ -439,8 +440,8 @@ the GitLab Rails API:
    generate this artifact, the Duo Workflow Service must be able to make API
    requests to GitLab Rails.
 
-Requirements for the token used to authenticate requests from the Duo Workflow Service to
-the GitLab Rails API:
+Requirements for the token used to authenticate requests from the Duo Workflow
+Service to the GitLab Rails API:
 
 1. Any artifacts created by a Duo Workflow must be auditable in order
    to maintain transparency about AI-generated activities on the GitLab platform.
@@ -467,17 +468,117 @@ For these reasons, OAuth is a better protocol for this use-case. OAuth tokens:
 1. Are an established authentication pattern for federating access between
    services.
 
+##### Duo Workflow Service OAuth v1
+
 To use OAuth, we will:
 
 1. Create a new token scope called `ai_workflows`
    ([related issue](https://gitlab.com/gitlab-org/gitlab/-/issues/467160))
 1. When the IDE requests the Duo Workflow Service User JWT from GitLab Rails, we
    will also generate and return an OAuth token with the `ai_workflows` scope.
+   This OAuth token belongs to the user.
 1. Duo Workflow executor will send that OAuth token, along with the `base_url`
    of the GitLab Rails instance, as metadata when the Duo Workflow Service when
    the gRPC connection is opened.
 1. The Duo Workflow Service will use the OAuth token for any GitLab Rails API
    Requests to read or write data for a Workflow.
+
+##### Duo Workflow Service OAuth v2
+
+As of October 18, 2024, the OAuth v1 flow has been implemented for Duo Workflow.
+
+The next iteration of Duo Workflow auth (v2) will also use an OAuth token to
+authenticate requests to the GitLab API. But, instead of using a regular OAuth
+token, we will use a composite OAuth token. Composite tokens is a new concept
+that will require [adding dynamic scopes to Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper/pull/1739),
+the library we use for OAuth.
+
+The composite OAuth token will belong to a [service account](https://docs.gitlab.com/ee/user/profile/service_accounts.html)
+but will be tied to a human user. As a result, the output of Duo Workflow will be
+attributed to a machine user but that machine user's access will match the
+access of the human user who initiated the Workflow.
+
+To accomplish this, we will:
+
+- Create a service account for the Duo Workflow AI agent with its own distinct
+  identity.
+  - On GitLab.com: there will be one service account per top-level group.
+  - For self-managed GitLab instances: there will be one service account per
+    instance.
+- Generate an OAuth access token for the service account.
+  - In this scenario, the OAuth client and server are both GitLab. The request to
+    authenticate comes in from either the IDE or GitLab. The IDE already has a
+    token for the user and GitLab exchanges that token for a service account
+    token.
+  - Because GitLab is both the client and the server, there is no OAuth consent
+    screen shown to the user during this flow. A group owner or instance
+    admin will enable Workflow by setting up a Workflow service account. This is
+    effectively the same thing as clicking "Authorize" on the consent screen which
+    would authorize the 3rd-party app to use the service account.
+- The OAuth access token will have the `ai_workflows` scope to narrow down the
+  access permissions of the AI agent.
+- Implement dynamic scopes in Doorkeeper (like `project:/my/project`,
+  `user:123`, `resource:*`).
+- The ID token we will create for the AI Agent will have a human user scope
+  (`user:123` using the user id).
+- Implement composite identity through `Gitlab::Auth::Identity`.
+- Implement support for composite identity in our [declarative policies](https://docs.gitlab.com/ee/development/policies.html).
+- Add `can?(ai_agent, :do_something) && can?(human_user, :do_something)`
+  permission checks everywhere.
+
+The authentication sequence for OAuth v2 identical to OAuth v1, the only difference is that the
+generated OAuth token is a composite token rather than a regular user OAuth
+token:
+
+```mermaid
+sequenceDiagram
+    participant IDE
+    participant LSP
+    participant DWE as Duo Workflow Executor (local)
+    participant DWS as Duo Workflow Service
+    participant GR as GitLab Rails (.com or SM)
+    participant LLMs
+
+    IDE->>GR: API Request to return Duo Workflow Service User JWT (UJWT) and Service Account OAuth composite token with `ai_workflows` scope and dynamic user scope. Authenticated with: PAT or OAuth token used to authenticate GitLab Editor Extension.
+    GR->>DWS: API request to generate UJWT. Authenticated with: Instance JWT (IJWT)
+    IDE->>LSP: pass UJWT, OAuth token, and other metadata. Authenticated with: n/a, installed locally,
+    LSP->>DWE: pass UJWT, OAuth token, and other metadata. Authenticated with: n/a, installed locally.
+    DWE->>DWS: grpc connection. Pass OAuth token and other metadata to be used for API requests to GitLab Rails. Authenticted with: UJWT in header.
+    DWS->>LLMs: Authenticated with: API keys from environment
+    DWS->>GR: API requests to create the workflow, save checkpoints, and perform any other API requests required by the Workflow. Authenticate with: Service Account OAuth composite token with `ai_workflows` scope and dynamic user scope.
+```
+
+For more details, see [Issue 480577](https://gitlab.com/gitlab-org/gitlab/-/issues/480577).
+
+##### Duo Workflow Service OAuth v3
+
+The `ai_workflows` scope was added to ensure narrow token abilities.
+
+There are 2 primary problems with the `ai_workflows` static scope approach:
+
+- Not every Workflow will need access to the same API endpoints. By using the
+  same scope for every Workflow, we are providing more access than is necessary.
+  This violates the [principle of least
+  privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
+- Each GitLab API endpoint must be manually allow-listed for this scope.
+  [Example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162671).
+  This means that code changes are required to provide new functionality to
+  Workflow, which is time intensive. This also means that new Workflow
+  functionality may not be available to older GitLab versions where the scope has
+  not yet been allow-listed for the necesssary endpoints.
+
+The solution to both of these problems is to provide dynamic scopes to OAuth
+access tokens. This means that the scope itself will determine which endpoints the token can
+access rather than relying on `ai_workflows` or any other static token scope.
+
+Advanced token scopes are being [added to personal access tokens](https://gitlab.com/gitlab-org/gitlab/-/issues/368904),
+[secure job tokens](https://gitlab.com/groups/gitlab-org/-/epics/15234), and are
+what will make [routable tokens](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) possible.
+
+Dynamic token scopes are also being added to OAuth tokens in order to support
+composite identity (OAuth v2, described above). The plan for enabling targeted API
+access using dynamic token scopes is still in progress. The discussion on this
+topic is in [Issue 468370](https://gitlab.com/gitlab-org/gitlab/-/issues/468370).
 
 ### Options we've considered and pros/cons
 
