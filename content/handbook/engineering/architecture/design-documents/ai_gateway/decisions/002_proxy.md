@@ -113,7 +113,7 @@ POST /v1/proxy/vertex-ai/(*path)
 - For telemetry, we add [Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html) for each feature in GitLab-Rails.
   Alternatively, we could use the existing snowplow tracker in AI Gateway, which requires additional work for introducing an unified schema.
 
-For futher access control improvement, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/458350).
+For further access control improvement, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/458350).
 
 ## Consequences
 
