@@ -342,9 +342,9 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Monitor stage](/handbook/product/categories/#monitor-stage)
 
-### Other functionality in Manage stage
+### Other functionality in Foundations stage
 
-[Manage](/handbook/product/categories/#manage-stage) stage
+[Manage](/handbook/product/categories/#foundations-stage) stage
 
 ### Other functionality in Engineering Productivity
 
