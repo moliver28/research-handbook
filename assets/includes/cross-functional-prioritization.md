@@ -11,6 +11,7 @@ The Cross-Functional Prioritization contains three key tenets:
 As a general guideline we want R&D as a whole to achieve a 60%/40% split with 60% focused on features and usability, and 40% focused on optimization, general maintenance, and bugs. We recognize that based on the maturity of a given area this ratio may need to be different per team. For example, a team with relatively immature features may require more feature work, while a team with much more mature features carries a heavier maintenance burden - we see this represented in data today across the portfolio. This means that each group should define the correct ratio across all categories based on Category maturity as well as maintenance needed to continue to meet our security, scalability, reliability, and availability requirements. Each quad will align with their leaders to ensure that R&D achieves its 60%/40% target. The table below summarizes the 60%/40% split by component:
 
 | Component | Target % |
+| ----- | ----- |
 | Features and usability | 60% |
 | Optimization and maintenance<br>AND<br>Bugs including severity-based SLAs | 40% |
 
