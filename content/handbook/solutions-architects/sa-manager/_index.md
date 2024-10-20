@@ -13,11 +13,32 @@ This page provides an overview on relevant SA Managers processes. The SA Manager
 
 ### Activity Review
 
-As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements. The expectation is that SA Managers will comment weekly on SA activities in their appropriate #rattle slack channel(s). Be sure to subscribe to #rattle Channel in Slack.
+As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements. 
 
-Reviewing Chorus calls at least quarterly can allow for SA Managers to check in and give managers opportunities to provide timely feedback on technical discovery calls or demos.
+#### Weekly
 
-Considering data sovereignity challenges in certain parts of the world and nations, it may not always be possible to review recorded Chorus call, i.e. for regions such as APAC or EMEA. As a result, the SA Manager should collaborate with cross-functional teams and consider joining internal or external meetings instead. This will ensure adherence to sales plans and strategies as well as assistance in key business opportunities. Additionally, by providing leadership on initiatives and opportunities, the SA Manager can share best practises and approaches with the teams and clients.
+1. **SA Next Steps and Next Step Date**: ensure during 1-1s that SAs completed and report on Next steps on an opportunity. Are we on track with our technical strategy. The expectation is that SA Managers will comment weekly on SA activities in their appropriate #rattle slack channel(s). Be sure to subscribe to #rattle Channel in Slack.
+2. **SA Activity Review**: Using Rattle Board or Top Deals List, review SA Activity numbers for main opportunities. Ensure AEs have not closed, or duplicated opportunities that SAs were recording activities against,
+3. **Primary SA assignment**: Review list of Most likely opportunities in Clari or SFDC and ensure Primary Solution Architect Fields are not blank and are accurately assigned.
+4. **Technical Evaluations Review**: Review all opportunities in Stage 3 and ensure all Technical Evaluation fields are appropriately entered by team
+5. **POV reviews**: Review all opporunities in Stage 3 that should have a POV record in SFDC. Ensure SA created one. Ensure that a POV Collaboration Project with Success Criteria is completed and URL is in the POV record in SFDC.  If there is a need to fill out a special Google Sheet or otherwise for a POV opportunities, ensure those are completed.
+6. **Technical Close Plans**: Review all opportunities in Stage 3 and over 300k and ensure TCP exists and TCP URL in SFDC is entered. Review TCPs as needed, making any necessary comments for SAs to review. Ensure that there is a clear Technical Strategy
+7. **Success Plans**: Review all opportunities in Stage 4 and over 300k and ensure that the TCP has needed elements and content included that makes it a Success Plan. Enquire of SA during 1-1 if it was reviewed with the Customer, and with the CSM (as needed), and set checkbox as appropriate in SFDC.
+8. **Value Stream Workshops**: Determine opportunities that VSWs have been positioned or started.
+9. **Review Gong Recordings**: Reviewing Gong calls regularly can allow for SA Managers to check in and give managers opportunities to provide timely feedback on technical discovery calls or demos.  Considering data sovereignity challenges in certain parts of the world and nations, it may not always be possible to review recorded Gong call, i.e. for regions such as APAC or EMEA. As a result, the SA Manager should collaborate with cross-functional teams and consider joining internal or external meetings instead. This will ensure adherence to sales plans and strategies as well as assistance in key business opportunities. Additionally, by providing leadership on initiatives and opportunities, the SA Manager can share best practises and approaches with the teams and clients.
+
+
+#### Monthly
+
+1. **Growth and Renewal At Risk Opportunities**: Review Growth and renewals at risk for current quarter and next. Review appropriate action plans.
+2. **Review escalations**: Review all accounts in escalations. Ensure progress is being made
+3. **Go To Market Reviews**: Report on SA initiatives and Progress in GTM review meetings
+
+#### Quarterly
+
+1. **SA Alignment**: Review SA Territory and/or Opportunity mapping alignments. Review Strategic Pools, for High velocity Teams
+2. **Executive Business Reviews**: Review with CSM Managers or ASM all accounts that have not had an EBR in the last 6 months. Ensure that one is scheduled
+
 
 It increases efficiecies towards the achievement of regional goals and objectives and helps to refer to upper management on potential issues and challenges. Collaboration with sales management to fully qualify and manage the delivery of solution architecture engagements during technical evaluations on key strategic client opportunities is encouraged.
 
@@ -42,6 +63,31 @@ SA Managers typically cover the following information:
 - Review retrospective results
 
 ## Managing the Team
+
+As a SA manager, the following is a summary of the operating rhythum when managing the team
+
+#### Weekly
+
+1. [**SA One on Ones**](/handbook/solutions-architects/sa-manager/#one-on-ones): 
+2. **SA Team Meetings**
+
+#### Monthly
+
+1. **Review SA Vacation Reports**
+
+#### Quarterly
+
+1. **SA Individual Growth Plan Review**: Every Quarter set aside some time apart from one on ones, to review SA's Individual Growth Plans and progress in Workday.
+2. [**Quarterly Sit Downs**](/handbook/solutions-architects/sa-manager/#quarterly-sit-downs-qsds)
+3. **SA Club Leaderboard and Wildcard Review**: Review SA Club Leaderboard in Table and make any adjustments to Wildcard system
+4. [**Quarterly Sit Downs**](/handbook/solutions-architects/sa-manager/#quarterly-sit-downs-qsds)
+5. **SA Retros and Feeback**
+6. **Team Quarterly Enablemnents**: Highly recommended as a region to conduct a team quarterly enablement to coduct deliberate pratices, conduct retros, allow for SAs to demonstrate great practices with each other, and invite pthers such as PS, partners, PMs to speak with the SAs
+
+#### Semi-Annually
+
+1. SA Performance Assessment
+2. [Team and Skills Assessment](/handbook/solutions-architects/sa-manager/#team-assessment)
 
 ### Cognitive Bias Sessions
 
