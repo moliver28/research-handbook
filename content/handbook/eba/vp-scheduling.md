@@ -90,3 +90,19 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
     - Please ensure the leader and EBA have access to view the materials
   - For customer meetings please create an issue request using [this template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/product-leader-customer-meeting-request-template.md) and tag Jennifer Garcia (Product EBA) and Lindsey Beyl (Product EBA) for review and availability
 - If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary
+
+## Scheduling for Marketing Leadership
+
+**Amie Bright - VP, Data, Business Analytics & Data Science | Billy Stallings - Sr. Director, Digital Marketing | Christine Lee - VP, Marketing Operations & Analytics | Dave Steer = VP, Brand & Product Marketing | Emilio Salvador - VP, Strategy & Developer Relations | Jean-Baptiste Larramendy - VP, Sales Development | Laura Fagan - Sr. Chief of Staff, CMSO | Lisa Boughner - VP, Corporate Communications**
+
+- Please reach out to Linsea O'Shea (Sr. EBA) to schedule or reschedule any meetings for Billy Stallings, Dave Steer, Jean-Baptiste Larramendy and Laura Fagan
+- Please reach out to Erin Talanda (EBA) to schedule or reschedule any meetings for Amie Bright, Christine Lee, Emilio Salvador and Lisa Boughner
+- Don't schedule over DNB and Work Block's without reaching out to Erin & Linsea (EBA's)
+- For internal and external (with those outside of GitLab) meeting requesting please contact Marketing EBAs in #eba-team, including the following in your slack:
+  - Must have/optional attendees
+  - Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
+  - Duration: 25 mins, 50 mins, etc.
+  - Subject of the meeting
+  - Provide context: include agenda to be covered, share google doc if available, include a link to any relevant issues, slides, etc.
+    - Please ensure the leader and EBA have access to view the materials
+- If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary
