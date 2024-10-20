@@ -27,7 +27,6 @@ As part of the regular rhythm of business, it is important to review activities 
 8. **Value Stream Workshops**: Determine opportunities that VSWs have been positioned or started.
 9. **Review Gong Recordings**: Reviewing Gong calls regularly can allow for SA Managers to check in and give managers opportunities to provide timely feedback on technical discovery calls or demos.  Considering data sovereignity challenges in certain parts of the world and nations, it may not always be possible to review recorded Gong call, i.e. for regions such as APAC or EMEA. As a result, the SA Manager should collaborate with cross-functional teams and consider joining internal or external meetings instead. This will ensure adherence to sales plans and strategies as well as assistance in key business opportunities. Additionally, by providing leadership on initiatives and opportunities, the SA Manager can share best practises and approaches with the teams and clients.
 
-
 #### Monthly
 
 1. **Growth and Renewal At Risk Opportunities**: Review Growth and renewals at risk for current quarter and next. Review appropriate action plans.
@@ -38,7 +37,6 @@ As part of the regular rhythm of business, it is important to review activities 
 
 1. **SA Alignment**: Review SA Territory and/or Opportunity mapping alignments. Review Strategic Pools, for High velocity Teams
 2. **Executive Business Reviews**: Review with CSM Managers or ASM all accounts that have not had an EBR in the last 6 months. Ensure that one is scheduled
-
 
 It increases efficiecies towards the achievement of regional goals and objectives and helps to refer to upper management on potential issues and challenges. Collaboration with sales management to fully qualify and manage the delivery of solution architecture engagements during technical evaluations on key strategic client opportunities is encouraged.
 
@@ -64,7 +62,9 @@ SA Managers typically cover the following information:
 
 ## Managing the Team
 
-As a SA manager, the following is a summary of the operating rhythum when managing the team
+### Operating Rhythm
+
+As a SA manager, the following is a summary of the operating rhythm when managing the team.
 
 #### Weekly
 
