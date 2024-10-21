@@ -8,6 +8,9 @@ This page lists runbooks used by the Secret Detection team for monitoring, mitig
 
 ## Runbooks
 
-* [Secret Push Protection Monitoring](secret-push-protection-monitoring)
-* [Secret Push Protection Troubleshooting](secret-push-protection-troubleshooting)
-* [Secret Push Protection Performance Testing](secret-push-protection-performance-testing)
+* Secret Push Protection feature
+  * [Monitoring](secret-push-protection-monitoring)
+  * [Troubleshooting](secret-push-protection-troubleshooting)
+  * [Performance Testing](secret-push-protection-performance-testing)
+* Secret Detection Service
+  * [General FAQs](secret-detection-svc-faqs)
