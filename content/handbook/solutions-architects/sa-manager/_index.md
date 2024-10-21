@@ -5,10 +5,6 @@ description: "This page provides an overview on relevant SA Managers processes. 
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
-## Purpose
-
-This page provides an overview on relevant SA Managers processes. The SA Manager role is made up of pillars: Managing the Business and Managing the Team.
-
 ## Managing the Business
 
 ### Activity Review
