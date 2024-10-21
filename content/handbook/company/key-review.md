@@ -30,7 +30,6 @@ To be clear on when this meeting would happen:
 1. Week X: Board materials submitted
 1. Week X+1: "Key Review" (aka Board material alignment and discussion among E-Group members)
 1. Week X+2: E-Group onsite + Board Meeting
-They will schedule a 1 hour and 50 minute session and invite relevant attendees to sub-sessions, if required.
 
 The Key Review meeting invitations will utilize the CFO's Zoom account. The functional DRI and corresponding EBA will be set as co-hosts. The Key Reviews should always be recorded, with the functional DRI's EBA as the recording DRI.
 
