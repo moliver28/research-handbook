@@ -156,7 +156,16 @@ In this task, we will add a test report to our test jobs.
 
 1. Select **Edit > Edit in pipeline editor**.
 
-We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command. We can do this by adding the `--testResultsProcessor=jest-junit` flag to the command. Below is an example of both jobs after the changes have been made:
+We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command. We can do this by adding the `--ci --testResultsProcessor=jest-junit` flags to the `jest` command. You will also need to add the following snippet to the end of each job:
+
+```yml
+artifacts:
+  when: always
+  reports:
+    junit: $CI_PROJECT_DIR/junit.xml
+```
+
+ Below is an example of both jobs after the changes have been made:
 
 ```yml
     test binarysearch:
@@ -172,6 +181,11 @@ We are going to adjust our `jest` commands for the `test binarysearch` and `test
         key: $CI_COMMIT_REF_SLUG
         paths:
           - node_modules
+      artifacts:
+        when: always
+        reports:
+          junit: $CI_PROJECT_DIR/junit.xml
+
 
     test linearsearch:
       before_script:
@@ -186,6 +200,10 @@ We are going to adjust our `jest` commands for the `test binarysearch` and `test
         key: $CI_COMMIT_REF_SLUG
         paths:
           - node_modules
+      artifacts:
+        when: always
+        reports:
+          junit: $CI_PROJECT_DIR/junit.xml
 ```
 
 1. After making these changes, select **Commit changes**.
