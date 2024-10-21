@@ -1,5 +1,5 @@
 ---
-title: "Implementation Guidelines"
+title: "Code Suggestions Implementation Guidelines"
 ---
 
 These are guidelines for supporting a model for Code Suggestions in the **[AI Gateway (AIGW)](#ai-gateway)**

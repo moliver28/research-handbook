@@ -1,6 +1,8 @@
 ---
-title: "Model Rollout Guide"
+title: "Code Suggestions Model Rollout Guide"
 ---
+
+This document serves as a guide for rolling out Code Suggestions models.
 
 ## Create a Rollout Plan
 

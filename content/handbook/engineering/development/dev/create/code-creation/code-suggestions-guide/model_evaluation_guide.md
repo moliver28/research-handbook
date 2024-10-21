@@ -1,18 +1,18 @@
 ---
-title: "Create:Code Creation: Model Evaluation Guide"
+title: "Code Suggestions Model Evaluation Guide"
 ---
 
-## Introduction
+This document serves as a technical how-to guide for evaluating new Code Suggestions models.
 
-This document serves as a technical how-to guide for evaluating new models.
+## Evaluation Template
 
-Before supporting a model for Code Suggestions, we will need to evaluate against the several criteria, including **correctness** and **latency**.
-For a more detailed list of criteria to consider, please refer to the
+When starting a model evaluation process, you must create an issue off of the
 [Model Evaluation Template](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/model_evaluation_template.md).
 
-When starting a model evaluation process, you must create an issue off of the evaluation template.
-
 ## Evaluation Criteria
+
+Before supporting a model for Code Suggestions, we will need to evaluate against the several criteria, including **correctness** and **latency**.
+For a more detailed list of criteria to consider, please refer to the [evaluation template](#evaluation-template).
 
 ### Evaluating Correctness
 
