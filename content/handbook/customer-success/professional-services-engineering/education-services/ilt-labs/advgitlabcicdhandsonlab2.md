@@ -69,6 +69,7 @@ To start, let’s create a basic `Node.js` application to use for demonstration 
     > This code is a simple binary search, which will search a sorted array for a value, returning either the index of the value if it exists in the array, or -1 if the value is not found. 
 
 1. Select **Commit changes**.
+
 To create a Node project, we need to also create a `package.json` file. 
 
 1. Navigate to your project repository.
@@ -246,7 +247,7 @@ The `.gitlab-ci.yml` file should now look like this:
       - jest linearsearch.test.js
   ```
 
-With this definition, we create a cache with a key that matches the `CI_COMMIT_REF_SLUG`. This ensures that each job will receive a unique cache. The data being cached is the `node_modules` folder. To set up the cache for use, we use the script to run the install command for the `jest-junit` package, which we will use for report formatting in a later lab. 
+> With this definition, we create a cache with a key that matches the `CI_COMMIT_REF_SLUG`. This ensures that each job will receive a unique cache. The data being cached is the `node_modules` folder. To set up the cache for use, we use the script to run the install command for the `jest-junit` package, which we will use for report formatting in a later lab. 
 
 Now that we have a cache defined, we can remove the `jest-junit` package install from each job.
 
@@ -300,4 +301,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

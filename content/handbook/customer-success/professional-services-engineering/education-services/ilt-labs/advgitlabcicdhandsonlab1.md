@@ -86,11 +86,11 @@ Let's take a look at how this is structured:
         - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-token-here'
     ```
 
-    The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
+   > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
 
-    The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
+   > The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
 
-    In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
+   > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
 
 1. Select **Commit changes**.
 
@@ -104,9 +104,7 @@ To verify that the runner is registered:
 
 1. In the left sidebar, select **Settings > CI/CD**.
 
-1. Select **Expand** next to **Runners**.
-
-1. You should see a green circle next to your runner.
+1. Select **Expand** next to **Runners**. You should see a green circle next to your runner.
 
 ## Task C. View your runner configuration
 
@@ -341,4 +339,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
