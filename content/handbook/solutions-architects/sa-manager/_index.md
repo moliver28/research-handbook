@@ -14,7 +14,7 @@ As part of the regular rhythm of business, it is important to review activities 
 #### Weekly
 
 1. **SA Next Steps and Next Step Date**: ensure during 1-1s that SAs completed and report on Next steps on an opportunity. Are we on track with our technical strategy. The expectation is that SA Managers will comment weekly on SA activities in their appropriate #rattle slack channel(s). Be sure to subscribe to #rattle Channel in Slack.
-2. **SA Activity Review**: Using Rattle Board or Top Deals List, review SA Activity numbers for main opportunities. Ensure AEs have not closed, or duplicated opportunities that SAs were recording activities against,
+2. **SA Activity Review**: Using Salesforce reporting, Rattle Board or Top Deals List, review SA Activity numbers for main opportunities. Ensure AEs have not closed, or duplicated opportunities that SAs were recording activities against.
 3. **Primary SA assignment**: Review list of Most likely opportunities in Clari or SFDC and ensure Primary Solution Architect Fields are not blank and are accurately assigned.
 4. **Technical Evaluations Review**: Review all opportunities in Stage 3 and ensure all Technical Evaluation fields are appropriately entered by team
 5. **POV reviews**: Review all opportunities in Stage 3 that should have a POV record in SFDC. Ensure SA created one. Ensure that a POV Collaboration Project with Success Criteria is completed and URL is in the POV record in SFDC.  If there is a need to fill out a special Google Sheet or otherwise for a POV opportunities, ensure those are completed.
