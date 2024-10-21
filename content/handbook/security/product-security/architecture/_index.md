@@ -4,6 +4,16 @@ title: "Security Architecture"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## Team Information
+
+- **Team Pages**
+  - [Handbook Page](https://handbook.gitlab.com/handbook/security/product-security/security-architecture/)
+  - [Gitlab Sub-Group](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/)
+- **Contact Info**
+  - Slack Channels
+    - `#security-architecture`: main channel to engage with the team
+  - Tag on GitLab: `@gitlab-com/gl-security/security-architecture`
+
 ## Overview
 
 [Security Architects](/job-families/security/security-engineer#security-architect) are the
@@ -17,7 +27,6 @@ Security Architecture protects the organization from cyber harm, and support pre
 business needs by:
 
 - Preventing Security from being an afterthought
-- Conducting [Security Architecture reviews](#security-architecture-reviews)
 - Defining [Security Architecture Principles](#security-architecture-principles)
 - Aligning with our [security sub-departments requirements and expectations](#security-architecture-requirements)
 - Assisting other departments in the design and architect of new features, services, products.
@@ -446,26 +455,9 @@ aka Fail Safe Defaults.
 
 </details>
 
-## Security Architecture reviews
-
-As part of the [Production Readiness Process](/handbook/engineering/infrastructure/production/readiness/), it is highly recommended to include a Security
-Architecture review.
-
-The Security Architecture review process is detailed in this [page]({{< ref "review." >}}).
-
 ## Measuring results
 
-Security Architecture, by nature, doesn't generate measurable data, apart from the number of
-architecture diagrams and reviews. While this could be used as a metric, it's only reflecting work
-load, and not achievements. Instead, we are measuring success in terms of maturity.
-
-The [OWASP SAMM](https://owaspsamm.org/about/) framework is currently used, but this is subject to change (see discussions in this
-[issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/1315)).
-
-## Communication channels
-
-- **Slack**: #security-architecture
-- **GitLab namespace**: <https://gitlab.com/gitlab-com/gl-security/security-architecture>
+TODO (discussed in https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/49)
 
 ## References
 
