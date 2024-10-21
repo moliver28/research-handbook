@@ -107,13 +107,13 @@ and coverage sections.
 
 ---
 
-# GitLab threat models
+### GitLab threat models
 
 Threat models for our projects are centrally stored and managed in the dedicated GitLab project at [appsec/threat-models](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models) and below you'll find a list of currently available models: 
 
 |  Section | Stage| Group| Feature |
 | ------ | ------ | ------ | ------ |
-|  CD      |    Deploy    |     Environments  |    [gitlab-agent ](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/cluster-integration/gitlab-agent/README.md)   |
+|  CD      |    Deploy    |     Environments  |    [gitlab-agent](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/cluster-integration/gitlab-agent/README.md)   |
 |   CI     |   Verify    |     Pipeline Authoring   |   [CI/CD Component Catalog](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/CICD-Component-Catalog.md)     |
 | Core Platform | Data Stores | Tenant Scale| [Cells](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/cells/README.md) |
 | Data Science  |  AI-powered  |  AI Framework  | [General AI Threat Model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/ai.md#general-ai-threat-model) | 
@@ -121,12 +121,12 @@ Threat models for our projects are centrally stored and managed in the dedicated
 | Data Science  |  AI-powered  |  AI Framework  | [Ai assist](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/ai-assist.md)|
 | Data Science | AI-powered | Duo Chat | [Duo Chat](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/AI%20features/Duo%20Chat.md)| 
 | Dev      |  Create     |   Code Creation     | [Code Suggestions](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/AI%20features/Code%20Suggestions.md)   |
-| Dev   | Create     | Code Review       | [Gitlab Cli ](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/cli/glab-cli.md#gitlab-cli-glab-threat-model)      |
+| Dev   | Create     | Code Review       | [Gitlab Cli](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/cli/glab-cli.md#gitlab-cli-glab-threat-model)      |
 |   Dev     |     Create  |    IDE    | [Remote Development](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/Remote%20Development.md)|
 | Dev     |   Create     |   IDE    |      [gitlab-vscode](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/frontend/playground/gitlab-vscode/gitlab-vscode.md)  |
 |  Dev      |    Manage    |   Import and Integrate    |   [Import](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/tree/master/gitlab-org/gitlab/Import)     |
-|    Dev    |    Manage    |   Import and Integrate    |    [Gitlab Migration ](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md)   |
-| Dev       |  Plan      |     Project Management   | [Summarize Issue Discussions ](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/AI%20features/Summarize%20Issue%20Discussions.md) | 
+|    Dev    |    Manage    |   Import and Integrate    |    [Gitlab Migration](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md)   |
+| Dev       |  Plan      |     Project Management   | [Summarize Issue Discussions](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/AI%20features/Summarize%20Issue%20Discussions.md) | 
 |  Dev      |   Package     |  Package Registry    |   [Terraform module registry](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/Terraform%20module%20registry.md)     |
 |   Systems     | Systems        |      Geo  |      [Geo](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/Geo.md)  |
 |      Verify  |      Verify  |      Pipeline Security   |    [Gitlab Secrets Manager](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/gitlab-secrets-manager.md)    |
