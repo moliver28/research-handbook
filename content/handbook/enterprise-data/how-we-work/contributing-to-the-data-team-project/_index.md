@@ -15,10 +15,3 @@ Remember, every contribution, no matter how small, helps to enrich our collectiv
 To make this guide more manageable and easier to navigate, we've broken it down into several focused pages, which you can find linked below:
 
 - [Working with the GitLab Web IDE](/handbook/enterprise-data/contributing-to-the-data-team-project/web-ide/)
-- [Understanding the template for submitting MR's](/handbook/enterprise-data/how-we-work/contributing-to-the-data-team-project/mr-template/)
-- [CI jobs to know about for testing your MR](/handbook/enterprise-data/how-we-work/contributing-to-the-data-team-project/ci-jobs/)
-
-
-
-
-
