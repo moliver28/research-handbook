@@ -41,3 +41,4 @@ The Product Security sub-department includes the following teams. Learn more abo
 - [Vulnerabiity Management](vulnerability-management/)
 - [Security Research](security-research/)
 - [Security Architecture](architecture/)
+- [Data Security](data-security/)
