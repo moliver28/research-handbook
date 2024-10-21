@@ -281,6 +281,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
 | 2024-10-25 23:00 UTC -> 2024-10-29 11:00 UTC | Hard | Upgrade CI database cluster to PostgreSQL v16 |
+| 2024-11-01 23:00 UTC -> 2024-11-05 11:00 UTC | Hard | Upgrade MAIN database cluster to PostgreSQL v16 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |
