@@ -25,7 +25,7 @@ These meetings are designed to ensure that E-Group is aligned on:
 Key Reviews are once per quarter. 
 
 The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule a four hour block during the week after Board Meeting material is submitted. We use Board memos as collateral, so meetings occur in the week between Board memo submissions and the Board Meeting. 
-They will break up the block into 8 blocks of 25 minutes each (one for each function) and invite relevant attendees to each session.
+They will schedule a 1 hour and 50 minute session and invite relevant attendees to sub-sessions, if required.
 
 The Key Review meeting invitations will utilize the CFO's Zoom account. The functional DRI and corresponding EBA will be set as co-hosts. The Key Reviews should always be recorded, with the functional DRI's EBA as the recording DRI.
 
