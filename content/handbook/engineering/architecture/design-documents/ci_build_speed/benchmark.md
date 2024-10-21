@@ -50,7 +50,7 @@ format.
 
 One of the solutions that could meet the requirements / principles listed
 above, could be a Go-based binary, which would be installed on different CI
-platform using `wget` / `curl` or in a different convinient way. The benefits
+platform using `wget` / `curl` or in a different convenient way. The benefits
 of using the binary are:
 
 1. Easy installation method, without the need to use containers.
