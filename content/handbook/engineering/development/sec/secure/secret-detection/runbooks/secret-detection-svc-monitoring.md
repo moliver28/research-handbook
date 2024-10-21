@@ -25,6 +25,10 @@ The recurrent application errors, however, will be available in the [Sentry](htt
 
 Meanwhile, you may refer to the logs for any log messages with `ERROR` levels to look for application-related errors. **Logs** are available [here](https://console.cloud.google.com/run/detail/us-east1/secret-detection/logs?project=gitlab-runway-production).
 
+#### Monitoring Alerts
+
+TBA
+
 #### Additional References
 
 * [Documentation](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service/-/blob/main/README.md?ref_type=heads)
