@@ -178,9 +178,11 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 **Project impact on GitLab / Business Result**
 
 **Project/accomplishment impact**
+
 - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
 
 **Business result**
+
 - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook’s creation.
 
 **Business relevance** refers to *why* the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). 
@@ -188,10 +190,12 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 - Example: One of our FY25 Yearlies is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member’s velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
 
 **Team member’s direct contribution**
-Example: Tanuki was the DRI for the global cross functional team, and established all change management communication for the project.
+
+- Example: Tanuki was the DRI for the global cross functional team, and established all change management communication for the project.
 
 How the team member exhibited CREDIT values in their work on this accomplishment. 
-Example: 
+
+- Example: 
 
 
 We ask that the structure above be followed for business results consistently to ensure that we:
