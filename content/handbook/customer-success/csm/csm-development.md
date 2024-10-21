@@ -187,4 +187,4 @@ We also have a list of [Recommended Learning Paths](/handbook/people-group/learn
 
 ### Coursera
 
-[Handbook details about Coursera](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#self-service-learning-skillserve-coursera-others)
+[Handbook details about Coursera](/handbook/people-group/learning-and-development/growth-and-development/#self-service-learning)

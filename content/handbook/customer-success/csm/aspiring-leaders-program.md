@@ -31,7 +31,7 @@ To kick off this guide, it's important to understand what being a manager entail
    - What do you anticipate being the best part of being a manager and why? What about the worst part and why?
    - What team do you want to lead / what team is best suited for your skills and experience? Why?
 1. Have coffee chats with multiple CSM Managers about their experiences in management (and, if applicable, their experience being promoted into the role from being an IC).
-1. Review GitLab's [Growth & Development budget](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
+1. Review GitLab's [Growth & Development budget](/handbook/people-group/learning-and-development/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
 
 ## Module 2: Learn
 

@@ -88,7 +88,7 @@ As an option, requests over $1000 USD can take advantage of the split disburseme
 
 ## Types of opportunities
 
-Before encouraging team members to utliize the G&D Fund, it's important to be aware of the types of opportunities that are eligible. Review the main [Types of Growth and Development Reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements) for more information on this.
+Before encouraging team members to utliize the G&D Fund, it's important to be aware of the types of opportunities that are eligible. Review the main [Types of Growth and Development Reimbursement](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements) for more information on this.
 
 ## Company-directed Learning vs Growth & Development funded learning experiences
 

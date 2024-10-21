@@ -231,7 +231,7 @@ At the end of the quarter, we'll ask folks to self-report hours spent learning, 
 Here are a few ways you might spend time learning this quarter:
 
 1. [Create an IGP](/handbook/people-group/learning-and-development/career-development/#start-your-igp) to track and monitor your growth goals
-1. Utilize the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to engage in a class or conference
+1. Utilize the [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/) to engage in a class or conference
 1. Organize a [job shadow](/handbook/people-group/learning-and-development/career-development/#job-shadow-programs) or [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) to increase exposure and collaboration with different roles and teams.
 1. Attend an AMA or async Group Conversation, and contribute by asking a question.
 1. Organize a discussion on your team about a shared topic (i.e. article, book, or podcast on a topic that is relevant to your team's work)
