@@ -18,7 +18,7 @@ docker-prep:
 	@docker run --rm --mount "type=bind,source=$(CURDIR),destination=$(CURDIR)$(DOCKER_MOUNT_ARGS)" --workdir "$(CURDIR)" hugomods/hugo:exts npm install
 
 .PHONY: build
-build: clean sync-data
+build: prep clean sync-data
 	@hugo
 
 .PHONY: docker-build
@@ -26,7 +26,7 @@ docker-build: clean sync-data
 	@docker run --rm --publish 1313:1313 --mount "type=bind,source=$(CURDIR),destination=$(CURDIR)$(DOCKER_MOUNT_ARGS)" --workdir "$(CURDIR)" hugomods/hugo:exts hugo
 
 .PHONY: view
-view: clean sync-data
+view: prep clean sync-data
 	@hugo server
 
 .PHONY: docker-view
