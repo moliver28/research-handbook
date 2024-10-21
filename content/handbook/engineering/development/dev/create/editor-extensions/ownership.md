@@ -48,10 +48,9 @@ Currently used by **Duo Workflow** and soon to be used by **Duo Chat**.
 * When a team starts working on a feature that will require Editor Extensions support:
   * PM/EM will notify **Create:Editor Extensions** group's PM/EM - this allows the team to forecast the capacity necessary to support in the near future
 * Feature implementation
-    * Legacy ownership model (Duo Chat implemented separately in all extensions)
-        * When the UI of the feature is ready:
-          * the authoring team opens an integration MR
-            * The **Create:Editor Extensions** group will assign an engineer to take over the MR and complete integration
+  * Legacy ownership model (Duo Chat implemented separately in all extensions)
+    * When the UI of the feature is ready:
+      * the authoring team opens an integration MR
+      * The **Create:Editor Extensions** group will assign an engineer to take over the MR and complete integration
     * Language Server ownership model
-        * When the Language Server change is done, the feature team will notify **Create:Editor Extensions** group and they'll integrate the language server change to the editor extensions.
-
+      * When the Language Server change is done, the feature team will notify **Create:Editor Extensions** group and they'll integrate the language server change to the editor extensions.
