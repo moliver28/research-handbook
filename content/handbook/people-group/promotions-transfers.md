@@ -341,14 +341,13 @@ The steps below outline the process promotion candidates should follow to reques
 
 1. Team members aligns with manager on promotion readiness and candidacy
     - Ahead of requesting feedback, team members should have a conversation on promotion readiness with their manager. If there is alignment on readiness for the upcoming promotion cycle between both manager and team member, the team member qualifies as a "promotion candidate". Managers should ensure that the CISO direct in their leadership chain is also aware and supportive of the promotion candidacy before kicking off the process. This also creates space for early feedback.
-    - **Due date: 2024-05-31**
+    - **Due date: 2024-10-28**
 2. Team member completes their [promotion document](/handbook/people-group/promotions-transfers/#promotion-document)
     - The promotion document completion should be team member driven with manager support, review, and feedback. Ahead of requesting feedback, the promotion document should be complete, as it will serve as the baseline to provide feedback. Team members should ensure their manager has reviewed their promotion document and is aligned with the content ahead of requesting feedback.
-    - **Due date: 2024-06-06**
+    - **Due date: 2024-11-04**
 3. Team member makes a copy of feedback form template
     - This [Google Form](https://docs.google.com/forms/d/1h-_ZOQS8Hug168P76qgdO5Coj2rfPceLHZ6xjjLPWjQ/edit) provides a template for promotion feedback collection across the Security division to ensure consistency in the format and questions to facilitate more consistent and equitable [calibration process](/handbook/people-group/promotions-transfers/#calibration). This process focuses specifically on feedback related to the business results section of the promotion document to ensure feedback is consistently tied back to key deliverables that demonstrate next level performance.
     - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
-    - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
     - Team members should ideally select 3-4 distinct team members to provide feedback across the three business results highlighted in their [promotion documents](/handbook/people-group/promotions-transfers/#promotion-document), but are required to select *at least* 2 distinct team members to provide feedback. All three of the business results highlighted in the promotion document should have feedback provided from at least one feedback provider. Team members should review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
     - Requirements for feedback providers are:
@@ -358,25 +357,26 @@ The steps below outline the process promotion candidates should follow to reques
         - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
     - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and individual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
     - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
+    - **Due date: 2024-11-08**
 5. Team member sends out feedback form copy to feedback providers
     - This references the form promotion candidates made a copy of in Step 3.
     - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
     - For promotion candidates requesting feedback and for team members providing feedback, we recommend that you review our [Guidance on Feedback](/handbook/people-group/guidance-on-feedback/) ahead of the process kicking off. The [S-B-I model](/handbook/people-group/guidance-on-feedback/#s-b-i-model) can be a helpful framework in ensuring feedback is structured in a clear and digestible way.
-    **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
+    **Feedback will be ongoing from 2024-11-11 through 2024-11-29. If team members are prepared to send out the feedback form to stakeholders prior to 2024-11-11 they may do so. All feedback needs to be obtained by 2024-11-29.**
 6. Team member and manager analyze feedback
     - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
     - Team member and manager compile themes to share with CISO direct. Leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
     - CISO direct has the opportunity to review, provide feedback, and ask any clarifying questions to ensure they are able to represent the feedback in the CISO directs [calibration session](/handbook/people-group/promotions-transfers/#calibration).
-    - **Due date: 2024-06-28**
+    - **Due date: 2024-12-06**
 7. CISO direct adds feedback summary to calibration spreadsheet
     - CISO direct is responsible for adding the promotion feedback analysis compiled in Step 6 to the CISO directs promotion calibration spreadsheet to ensure visibility ahead of the calibration session. The spreadsheet is titled `Security Promotion Projections` for reference.
     - Add the complete [feedback analysis](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for each promotion candidate to column J and ensure that the CISO, CISO directs, and the Security [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) have access.
-    - **Due date: 2024-07-05**
+    - **Due date: 2024-12-11**
 8. Calibration session occurs
-    - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
+    - Calibration is scheduled for the week of 2024-12-16 where CISO directs calibrate promotion candidates across the division.
     - CISO direct is responsible for following up with the promotion candidate's manager to provide feedback and key takeaways from the calibration session.
 9. Managers communicate promotion status
-    - Promotions are effective 2024-08-01 and the communication window is 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
+    - Promotions are effective 2025-02-01 and the communication window is 2025-01-27 to 2025-01-31 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy26-q1-feb-1)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
 
 #### Feedback Confidentiality
