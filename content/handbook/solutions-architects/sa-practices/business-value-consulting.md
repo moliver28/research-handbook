@@ -46,7 +46,7 @@ The account team can incorporate the value consulting into early sales stages wh
   - Identify challenges and opportunities and position GitLab DevSecOps platform
   - Engage with discover questions for the values and benefits
 - Scoping stage
-  - Conduct value stream assessment (VSA) with the customer with identified key stakeholders
+  - Conduct value stream workshop (VSW) with the customer with identified key stakeholders
   - Align the orgnaization vision and initiative to DevSecOps roadmap while building the trusted relationship
   - Surface the value drivers in the customer context that can drive the organization transformation. Often times, the top drivers can be tool consolidation for better efficiency and reduced cost, and securing the software supply chain for improved compliance and reduced security risk.
   At this time, customers or prospects may request a budgetary proposal along with the value drivers and associated benefits that are quantified as the dollar amount and business hours reclaimed for the performance improvement.
