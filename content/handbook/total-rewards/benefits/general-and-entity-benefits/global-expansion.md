@@ -82,7 +82,7 @@ Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCk
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. If dependants are added GX will need to ask team members to sign an authorisation form detailing the amount that will be deducted through Payroll.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
@@ -141,7 +141,7 @@ Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCk
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. 
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. If dependants are added GX will need to ask team members to sign an authorisation form detailing the amount that will be deducted through Payroll.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA.
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
