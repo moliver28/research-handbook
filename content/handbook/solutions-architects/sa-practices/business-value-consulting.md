@@ -23,7 +23,7 @@ Organizations need to make their strategic investment in DevSecOps with demonstr
 
 Often times, the business value conversation started with the customers wanting to understand more value proposition and business outcomes. GitLab as the industry leader in DevSecOps can provide referencable customer journey and quantitiative measures. SAs can provide the consultantive advices to identify transformational drivers for the organizations and help measure the results of DevSecOps transformation as the performance improvement.
 
-## Utilizing the Business Value Services tool to create Business Value Assessments (BVAS)
+## Utilizing the Business Value Services tool to create Business Value Assessments (BVAs)
 
 GitLab's Business Value Services tool is a platform integrated into Salesforce that takes GitLab’s proprietary ROI modeling and provides a scalable, consistent way for AEs to build business cases and demonstrate ROI in customer conversations. It also allows them to tailor these generated business cases and proposals to their customers as well as to GitLab’s value framework and Command of Message methodology. The sales field starts from several ROI model templates and co-builds a strong business case with their customer that allows them to engage around the right value drivers, and communicate the value of GitLab that targets meaningful customer outcomes.
 
