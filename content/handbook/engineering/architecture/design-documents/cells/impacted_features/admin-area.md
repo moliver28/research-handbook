@@ -253,51 +253,39 @@ import "proto/cell_info.proto";
 
 option go_package = "../proto";
 
-
-enum MetadataType {
-    application_settings = 0;
-    broadcast_messages = 1;
-};
-
-message Metadata {
+message AppSetting {
   string key = 1;
   google.protobuf.Any value = 2;
 }
 
-message GetMedataRequest {
-    MetadataType type = 1;
-    string cell_id = 2;
+/* Used for "At cell boot time" & "Periodically" */
+message GetLeaderCellAppSettingsRequest {
+  int64 from_cell_id = 1;
 }
 
-message SetMedataRequest {
-    MetadataType type = 1;
-    string cell_id = 2;
-    repeated Metadata metadata = 3;
+/* Used for "At cell boot time" & "Periodically" */
+message GetLeaderCellAppSettingsResponse {
+  repeated AppSetting app_settings = 1;
 }
 
-message MetadataCellStatus {
-    CellInfo cell_info = 1;
-    int64 last_lock_version = 2;
-    fixed64 last_updated_at = 3;
+/* Used for "Upon attribute update on the leader cell" */
+message PingCellsForAppSettingsUpdateRequest {
 }
 
-message GetMedataResponse {
-    repeated Metadata metadata = 1;
-    int64 lock_version = 2;
-    fixed64 last_set_at = 3;
-    repeated MetadataCellStatus cells = 4;
-}
-
-message SetMedataResponse {
-    repeated Metadata metadata = 1;
-    int64 lock_version = 2;
-    fixed64 last_set_at = 3;
-    repeated MetadataCellStatus cells = 4;
+/* Used for "Upon attribute update on the leader cell" */
+message PingCellsForAppSettingsUpdateResponse {
 }
 
 service MetadataService {
-    rpc GetMetadata(GetMedataRequest) returns (GetMedataResponse) {}
-    rpc SetMetadata(SetMedataRequest) returns (SetMedataResponse) {}
+  // Called from non-leader cells.
+  // -> Asks for cluster-wide application_settings from the leader cell
+  // <- Returns cluster-wide application_settings from the leader cell
+  rpc GetLeaderCellAppSettings(GetLeaderCellAppSettingsRequest) returns (GetLeaderCellAppSettingsResponse) {}
+
+  // Called from the leader cell.
+  // -> Tell non-leader cells to refresh their application_settings
+  // <- Returns success of pings
+  rpc PingCellsForAppSettingsUpdate(PingCellsForAppSettingsUpdateRequest) returns (PingCellsForAppSettingsUpdateResponse) {}
 }
 ```
 
