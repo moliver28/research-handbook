@@ -2,7 +2,9 @@
 title: "Secret Detection Service: General FAQs"
 ---
 
-This page contains the following frequently asked questions about the Secret Detection Service:
+This page contains answers to the general questions about the Secret Detection Service. This runbook can be used by anyone who want to understand the technical aspects about the service.
+
+#### General FAQs
 
  1. **Where is the service deployed?**
 
@@ -82,4 +84,14 @@ This page contains the following frequently asked questions about the Secret Det
 
 20. **Does it page the SRE team in the event of an SLO violation?**
 
-    No. Only the alerts with severity S1 or S2 are paged to the SRE team. The ~"group::secret detection" team will be responsible for monitoring incidents.
+    No. Only the alerts with severity S1 or S2 are paged to the SRE team. The `group::secret detection` team will be responsible for monitoring incidents.
+
+#### Additional References
+
+* [Documentation](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service/-/blob/main/README.md?ref_type=heads)
+
+* [Architecture](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/secret_detection/decisions/004_secret_detection_scanner_service/)
+
+* [Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/work_items/468107)
+
+* [Monitoring](./secret-detection-svc-monitoring.md)
