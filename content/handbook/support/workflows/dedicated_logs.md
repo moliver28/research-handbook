@@ -153,6 +153,18 @@ To find all logs where the HTTP response status code is in the [4xx client error
 
 ### Examples
 
+#### Filter by correlation ID
+
+GitLab instances log a unique request tracking ID (known as the “correlation ID”) for most requests. An important part of troubleshooting problems in GitLab is [finding relevant log entries with a correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html). Opensearch permits filtering by correlation ID. You may retrieve the correlation ID from information provided by the customer or from looking through Opensearch logs. 
+
+To show all log entries for a specific correlation ID, you can:
+
+1. Select **Add filter**
+1. Click **Select a field first**
+1. Choose `correlation_id`
+1. In the **Operator** drop-down, select `is`
+1. In the **Value** field, put the correlation ID
+
 #### Identify a deleted group or project
 
 Information about deleted groups and projects is available in the **Audit Events**. The customer should be able to review this information in the **Admin Area**. Provided the deletion occurred within the log retention window, additional information can be sought in OpenSearch. In order to identify more information about a deleted project or group in OpenSearch, you can use this information to guide the [filters](#filters) that you use.
