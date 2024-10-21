@@ -5,6 +5,8 @@ description: "This page provides an overview on relevant SA Managers processes. 
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
+Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/spreadsheets/d/1wJVQVtIafqe__14BXuhqyewWXQBPDq4hoQqZntX0aas/edit?gid=1939895239#gid=1939895239) for a quick summary.
+
 ## Managing the Business
 
 ### Activity Review
@@ -20,7 +22,8 @@ SA Managers can also add comments (e.g., recognition, pattern matching, assists,
    - Salesforce reporting, 
    - [Rattle Board](https://board.gorattle.com/), 
    - [Top Deals List](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319)
-- [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1)
+   - [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1)
+
 3. **Primary SA assignment**: For Strategic and Enterprise accounts, review list of Most likely opportunities for the quarter in Clari or SFDC, and ensure Primary Solution Architect Fields are not blank and are accurately assigned, especially as it enters Negotiation Stage.  Once it enters Closing Stage it is too late to change the Primay SA assignment for credit.
 4. **Technical Evaluations Review**: For Strategic and Enterprise accounts, review all opportunities in Stage 3 and ensure all Technical Evaluation fields are appropriately entered by team.
 5. **POV reviews**: Review all opportunities in Stage 3 that should have a POV record in SFDC. Ensure SA created one. Ensure that a POV Collaboration Project with Success Criteria is completed and URL is in the POV record in SFDC. If there is a need to fill out a special Google Sheet or otherwise for a POV opportunities, ensure those are completed.
@@ -102,6 +105,7 @@ As part of reviewing and supporting the team activities, SA Managers should meet
 2. [Team and Skills Assessment](/handbook/solutions-architects/sa-manager/#team-assessment)
 
 ### Annually
+
 1. [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review)
 
 #### Deliberate Practice
@@ -178,7 +182,6 @@ Developing and retaining key talent is constantly top-of-mind for high-performin
 Additionally, SA Managers should reinforce [key enablement initiatives](https://gitlab.edcast.com/teams/solution-architects-sas) and encourage participation in the [CS Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/).
 
 SA Managers should encourage and lead team member's proactively to discuss [individual development and growth path](/handbook/people-group/learning-and-development/career-development/#roles-and-responsibilities) and always aim to assist team members to grow careers.
-
 
 #### Recognition and Gratitude
 
