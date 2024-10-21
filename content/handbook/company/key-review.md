@@ -27,6 +27,7 @@ Key Reviews are once per quarter.
 The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule a two hour block during the week after Board Meeting material is submitted. We use Board memos as collateral, so meetings occur in the week between Board memo submissions and the Board Meeting. 
 
 To be clear on when this meeting would happen:
+
 1. Week X: Board materials submitted
 1. Week X+1: "Key Review" (aka Board material alignment and discussion among E-Group members)
 1. Week X+2: E-Group onsite + Board Meeting
