@@ -50,7 +50,7 @@ To implement clustering on a table:
 ALTER TABLE your_table CLUSTER BY (column1, column2, ...);
 ```
 
-Automatic-clustering needs to be enable using the `RESUME RECLUSTER` command.
+Automatic-clustering needs to be enabled using the `RESUME RECLUSTER` command.
 For example:
 
 ```sql
