@@ -64,7 +64,7 @@ Modify GitLab's existing rate limiting architecture to support passing in rate l
 ### Phase 1: Simplify our edge network and bypass configuration
 
 - **Manage IP-based rate limiting bypasses in one layer**
-  - Migrate[bypass header logic](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/65f8adc65b62db74714bd53dd48a50f7d9cfede3/templates/default/frontends/https.erb#L49) out of HAProxy and into Cloudflare.
+  - Migrate [bypass header logic](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/65f8adc65b62db74714bd53dd48a50f7d9cfede3/templates/default/frontends/https.erb#L49) out of HAProxy and into Cloudflare.
   - Cloudflare custom rules support [transform-rule](https://developers.cloudflare.com/rules/transform/) actions which should make this possible.
 - **Support passing in a configuration file for Cloudflare rules**
   - Migrate [Cloudflare rules](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf) to use the [cloudflare-waf-rules](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules/-/tree/main?ref_type=heads) Terraform module.
@@ -86,7 +86,7 @@ Create a Rate Limiting interface for configuration of rate limits across all par
 In practice, what this might look like:
 
 1. A new rule is merged into to the Rate Limit Interface repository, producing a new version.
-1. Renovate raises a corresponding MR to update the version of the Rate Limit Interface in either config-mgmt or the GitLab application.
+1. An automation raises a corresponding MR to update the rate limiting configuration in either an application repository or config-mgmt.
 1. Upon merge the new limits are applied, either via Terraform for Cloudflare, or loaded into the GitLab application on start up.
 1. Pipeline run that will parse and update the rate limit thresholds in the documentation.
 
@@ -100,18 +100,19 @@ In practice, what this might look like:
 - The catalog can be pumped into documentation and published. Changes here will be reflected in docs and streamline the documentation process, creating more transparency for users and keeping documentation up to date.
 - We are not rewriting throttling functionality, and will keep our defense in depth model of rate limiting at different layers of the product.
 - We can build this to enable customisation of rate limits per namespace / project / user / customer.
+- This paves the way for making it easier for support to identify which limit a customer is hitting: because all limits are defined in a single place, we could let the application advertise an identifier of the rule that is causing the request to be limited.
 
 ### Cons
 
-- This does not directly solve the problem of easier triaging for support when a customer is throttled.
 - Not all application rate limiting configuration is currently exposed via an API. We will need to work with product / backend engineers to implement the Application level changes.
-- No obvious way to enforce use of this Rate Limiting Interface as new services are created for GitLab.com.
 
 ## Considerations
 
 ### Is the scope of this the existing GitLab.com or Cells?
 
 Both! Anything we create needs to support making management of rate limiting simple across the existing GitLab.com and the Cells architecture, as it's likely they will run in parallel for the duration of these improvements, and we don't want to limit ourselves to only making improvements for the future.
+
+Improvements to support the configuration of using actors such as customers, organisations, and namespaces will be essential to ensure any improvements made to rate limiting configuration will work across Cells.
 
 ### Setting Cloudflare Rate Limits
 
@@ -127,7 +128,7 @@ One advantage of having all rate limits declared in YAML is a centralised source
 
 ### Confidential Rate Limits
 
-When implementing the rate limiting interface and surfacing rate limiting rules and thresholds in documentation, we need to introduce a mechanism to keep some of the configuration [SAFE](../../../../legal/safe-framework/), in cases such as bypasses and rules introduced to protect us from malicious.
+When implementing the rate limiting interface and surfacing rate limiting rules and thresholds in documentation, we need to introduce a mechanism to keep some of the configuration [SAFE](../../../../legal/safe-framework/), in cases such as bypasses and rules introduced to protect us from malicious actors. In these cases, the configuration can be considered confidential as some of the rules may contain customer IP addresses, or details pertaining to the nature of an attack we are protecting against.
 
 ### New Services
 
@@ -163,9 +164,13 @@ The [HTTP Routing Service](../cells/http_routing_service/) was considered as a p
 
 An idea had been proposed around introducing rate limits on a per Cell basis, however, this is not a sustainable solution. For example, if we were to introduce a higher rate limit threshold for one cell based on a customer's need, then if that customer were moved to a different Cell at a later date, it's possible the rate limit configuration could be missed, or become outdated. Therefore tying rate limit configuration on a per Cell basis is not the direction we are proposing to go.
 
-Instead, we should focus on rate limits on per namespace / organization / project / user levels.
+Instead, we should focus on rate limits on a per organization, project, or namespace level.
 
 The [HTTP Router configuration for Cells](https://gitlab.com/groups/gitlab-org/-/epics/12775) means that the existing GitLab.com Cloudflare rules will automatically apply across all Cells.
+
+#### Cell Reference Architecture
+
+The reference architecture/ size of a Cell will likely be smalled than the existing GitLab.com platform, therefore we should probably consider introducing different maximum rate limits based on this reduced capacity.
 
 ### Organization IDs in URLs
 
