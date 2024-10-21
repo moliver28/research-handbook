@@ -39,10 +39,11 @@ Our guidelines are to only apply clustering to incremental models that are set t
 ## How to Implement Clustering
 
 <code>
+cluster_by=['column1','column2'],
 automatic_clustering='true'
 </code>
 
-This configuration setting must be added to the model configuration so that automatic clustering is enabled by default should the model be rebuilt.
+The cluster key and automatic_clustering configuration setting must be added to the model so that automatic clustering is enabled by default should the model be rebuilt.
 
 To implement clustering on a table:
 
