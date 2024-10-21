@@ -197,6 +197,7 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 - This amount will be paid on a monthly basis with the regular payroll as a reimbursement.
 - Team Members are required to share proof of registration to the GX1 (Global Expansion) portal. 
 - If a team member has a change in cost and coverage / renewal, please ensure to upload the new proof of cost and cover to the GX1 (Global Expansion) portal and send an email to `gx_employeeexperience@globalexpansion.com` cc'ing `total-rewards@gitlab.com` to advise the new proof has been uploaded so that this can be adjusted on the next available payroll.
+- If a team members policy is already in KES, GX will convert from the USD allowance amount to local currency (KES) around the 21st of each month, and include the converted amount in that specific months salary payment.
 
 Once a year, Global Expansion may reach out to team members to complete an audit and request that team members upload proof of coverage and cost.
 
