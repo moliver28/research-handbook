@@ -16,6 +16,12 @@ description: "GitLab Data Team Workflow"
 - [Data Team Programs](/handbook/enterprise-data/programs/#data-programs)
 - [Weekly Roll Up with Rolly Bot](/handbook/enterprise-data/how-we-work/#weekly-roll-up-reporting)
 
+## Practical guide to contributing to the Data Team Projects
+
+Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/practical-guide/web-ide/) designed for all team members.
+
+This guide complements our existing resources, but with a more practical focus on the step-by-step process of contributing to the Data Team’s projects.
+
 ## How We Work
 
 We're happy to help you achieve your goals with Data. As a central shared service with finite time and capacity and with a responsibility to operate and develop the company's central Enterprise Data, the Data Team must focus its time and energy on initiatives that will yield the greatest positive impact to the [overall global organization](/handbook/values/#global-optimization) towards [improving customer results](/handbook/values/#customer-results).
