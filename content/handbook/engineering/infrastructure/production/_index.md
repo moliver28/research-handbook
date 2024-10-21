@@ -231,7 +231,7 @@ Chef role: gprd-base-db-postgres-archive
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions)
 
-## Gamedays
+## Disaster Recovery Gamedays
 
 ### Overview
 
