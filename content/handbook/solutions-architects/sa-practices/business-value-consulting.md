@@ -16,7 +16,6 @@ The practice starts from the first conversation at the discovery and scoping sta
 - Co-build a business value justification as one team between the customer and GitLab
 - Derisk the buyers decision with credible, quantifiable justification
 
-
 ## Why Business Value Discussion
 
 Derisking a customer's buying decision by incorporating the business value discussion and exercise into the customer engagement is important. GitLab provides a comprehensive AI-powered DevSecOps platform that provides the software delivery solution with high impacts on business, technology and teams across the organization.
@@ -25,12 +24,14 @@ Organizations need to make their strategic investment in DevSecOps with demonstr
 Often times, the business value conversation started with the customers wanting to understand more value proposition and business outcomes. GitLab as the industry leader in DevSecOps can provide referencable customer journey and quantitiative measures. SAs can provide the consultantive advices to identify transformational drivers for the organizations and help measure the results of DevSecOps transformation as the performance improvement.
 
 ## Utilizing the Business Value Services tool to create Business Value Assessments (BVAS)
+
 GitLab's Business Value Services tool is a platform integrated into Salesforce that takes GitLab’s proprietary ROI modeling and provides a scalable, consistent way for AEs to build business cases and demonstrate ROI in customer conversations. It also allows them to tailor these generated business cases and proposals to their customers as well as to GitLab’s value framework and Command of Message methodology. The sales field starts from several ROI model templates and co-builds a strong business case with their customer that allows them to engage around the right value drivers, and communicate the value of GitLab that targets meaningful customer outcomes.
 
 This tool allows us to democratize value-based conversations by creating a self-serve model that balances business value positioning with quantitative analysis. Instead of a centralized team that holds onto this, we are enabling everyone to create, customize, and communicate value to customer organizations in partnership with their customer.
 
-Benefits of the Business Value Services tool:
--Create a consistent and scalable way to show ROI & quantifiable value as to why a customer should partner with GitLab on their desired business outcomes
+**Benefits of the Business Value Services tool:**
+
+- Create a consistent and scalable way to show ROI & quantifiable value as to why a customer should partner with GitLab on their desired business outcomes
 - Derisk the buyers decision with credible, quantifiable justification
 - Allow sellers to self-serve and create meaningful, personalized business cases that stand out from the competition
 - Make it easy for customer champions to co-build & co-sell in and across their business with GitLab
