@@ -13,7 +13,7 @@ title: "Board of Directors and Corporate Governance"
 
 ### Audit Committee
 
-> [Audit Committee Charter](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/audit-Committee-Charter.pdf)
+> [Audit Committee Charter](https://ir.gitlab.com/governance/governance-documents/default.aspx)
 
 **Meeting Process**
 
@@ -34,7 +34,7 @@ Audit Committee meetings are attended by:
 
 ### Compensation and Leadership Development Committee
 
-> [Compensation and Leadership Development Committee Charter](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/Compensation-and-Leadership-Development-Committee-Charter.pdf)
+> [Compensation and Leadership Development Committee Charter](https://ir.gitlab.com/governance/governance-documents/default.aspx)
 
 **Meeting Process**
 
@@ -55,7 +55,7 @@ Compensation and Leadership Development Committee meetings are attended by:
 
 ### Nominating and Corporate Governance Committee
 
-> [Nominating and Corporate Governance Committee Charter](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/Nominating-and-Corporate-Governance-Committee-Charter.pdf)
+> [Nominating and Corporate Governance Committee Charter](https://ir.gitlab.com/governance/governance-documents/default.aspx)
 
 **Meeting Process**
 
@@ -227,7 +227,7 @@ Past and future Key Talent Dinner Guests are listed below.
 
 ### Roles and Responsibilities
 
-- [Nominating and Corporate Governance Committee](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/Nominating-and-Corporate-Governance-Committee-Charter.pdf) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
+- [Nominating and Corporate Governance Committee](https://ir.gitlab.com/governance/governance-documents/default.aspx) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
 - CEO and Selected Members of E-Group also meet and vet potential new Board members; provide feedback on candidates.
 - [CLO](/job-families/legal-and-corporate-affairs/chief-legal-officer) - Nominating and Corporate Governance Committee DRI.
 - [CEO's Staff Executive Business Administrator](/job-families/people-group/executive-business-administrator) - DRI for Board and Committee scheduling.
