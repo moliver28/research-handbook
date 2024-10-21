@@ -195,8 +195,7 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 
 How the team member exhibited CREDIT values in their work on this accomplishment. 
 
-- Example: 
-
+- Example: Tanuki demonstrated the Iteration value while delivering this result. They drove a subset of feature teams to commit on delivery timelines to enable GTM motions for the product launch while giving other teams flexibility to deliver iteratively.
 
 We ask that the structure above be followed for business results consistently to ensure that we:
 
