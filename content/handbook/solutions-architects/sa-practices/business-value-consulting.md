@@ -40,7 +40,7 @@ Benefits of the Business Value Services tool:
 
 ## Activities Conducted by SA
 
-SAs can incorporate the value consulting into early sales stages while building a trusted relationship on both technology leadership and business impacts.
+The account team can incorporate the value consulting into early sales stages while building a trusted relationship on both technology leadership and business impacts.
 
 - Discovery stage
   - Identify challenges and opportunities and position GitLab DevSecOps platform
