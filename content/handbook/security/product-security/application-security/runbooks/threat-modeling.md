@@ -105,13 +105,9 @@ the initial threat assumptions did provide meaningful guidance for the review
 process. The output and mapping can be documented in the conclusion's summary
 and coverage sections.
 
-
-_______
-
+---
 
 # GitLab threat models
-
-# 
 
 Threat models for our projects are centrally stored and managed in the dedicated GitLab project at [appsec/threat-models](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models) and below you'll find a list of currently available models: 
 
