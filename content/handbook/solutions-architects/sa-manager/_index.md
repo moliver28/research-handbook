@@ -39,7 +39,6 @@ SA Managers can also add comments (e.g., recognition, pattern matching, assists,
     - Review strategic territory deals
     - Review opportunity close analysis and regional data
 
-
 ### Monthly
 
 1. **Growth and Renewal At Risk Opportunities**: Review Growth and renewals at risk for current quarter and next. Review appropriate action plans.
