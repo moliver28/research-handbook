@@ -116,7 +116,7 @@ Here are courses that will facilitate the onboarding process of associate SAs an
 - [Docker for the Absolute Beginner - Hands-On](https://learning.oreilly.com/videos/docker-for-the/9781788991315/)
 
 **Paid**
-Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/people-group/learning-and-development/growth-and-development/)
 
 - IBM course on Coursera: [Information Technology (IT) and Cloud Fundamentals Specialization](https://www.coursera.org/specializations/it-cloud-fundamentals)
 Especially the module [Introduction to Cloud Computing](https://www.coursera.org/learn/introduction-to-cloud?specialization=it-cloud-fundamentals)
