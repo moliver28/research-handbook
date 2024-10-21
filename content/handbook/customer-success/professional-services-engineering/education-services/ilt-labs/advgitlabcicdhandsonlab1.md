@@ -87,9 +87,9 @@ Let's take a look at how this is structured:
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
-
+   > 
    > The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
-
+   >
    > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
 
 1. Select **Commit changes**.

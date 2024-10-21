@@ -180,7 +180,6 @@ In this task, we will add a test report to our test jobs.
 
 1. The test results need to be stored in a JUnit file in order to be accessed by the pipeline. To do so, we need to add the following code snippet to both of our tests after the `script` keyword:
 
-
 ```yml
 artifacts:
   when: always
