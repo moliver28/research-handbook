@@ -11,7 +11,7 @@ Before getting started, make sure you have created an issue using the appropriat
 
 ### Create a new branch 
 
-1. Non-confidential issues
+*Non-confidential issues*
 
 To create a branch and a merge request from a non-confidential issue, you can simply click the "Create merge request" button in your issue
 
@@ -19,7 +19,7 @@ To create a branch and a merge request from a non-confidential issue, you can si
 
 While you have the option to create only the branch and not the merge request, and also to update your branch name and source by using the dropdown next to the 'Create merge request' button, it's best to create the merge request and branch simultaneously, using the default branch name and source (master). 
 
-2. Confidential issues
+*Confidential issues*
 
 When working on a confidential issue, you may notice that you can't create an MR directly in the project. Instead, you're only presented with the option to create your branch and MR in a fork
 
@@ -40,4 +40,3 @@ When creating your new branch, you'll need to consider the naming convention. St
 Once you've created your branch for this confidential issue, you'll usually be prompted to create a merge request on the next screen. If you don't see this prompt, don't worry. You can go to 'Merge requests' in the left sidebar, where you should see an option to 'Create merge request' for your recently created branch. Alternatively, you can click on 'New merge request' and choose your newly created branch as the source branch. Both methods will allow you to start the merge request process.
 
 <img src="merge-request-create.png" alt="Create merge request" width="900"/>
-
