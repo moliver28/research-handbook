@@ -15,6 +15,7 @@ Before getting started, make sure you have created an issue using the appropriat
 
 To create a branch and a merge request from a non-confidential issue, you can simply click the "Create merge request" button in your issue
 
+![Create merge request](/static/images/handbook/enterprise-data/platform/tableau/create-merge-request.png)
 <img src="create-merge-request.png" alt="Create merge request" width="900"/>
 
 While you have the option to create only the branch and not the merge request, and also to update your branch name and source by using the dropdown next to the 'Create merge request' button, it's best to create the merge request and branch simultaneously, using the default branch name and source (master). 
@@ -23,23 +24,23 @@ While you have the option to create only the branch and not the merge request, a
 
 When working on a confidential issue, you may notice that you can't create an MR directly in the project. Instead, you're only presented with the option to create your branch and MR in a fork
 
-<img src="confidential-issue-mr.png" alt="Confidential issue MR" width="900"/>
+![Confidential issue MR](/static/images/handbook/enterprise-data/platform/tableau/confidential-issue-mr.png)
 
 However, you can still create a branch within the project for your work. To do this, click on 'Code' in the left sidebar, then select 'Branches'. 
 
-<img src="branches.png" alt="Branches" width="250"/>
+![Branches](/static/images/handbook/enterprise-data/platform/tableau/branches.png)
 
 From there, click on the 'New branch' button to begin the process of creating your branch.
 
-<img src="create-branch.png" alt="Create branch" width="900"/>
+![Create branch](/static/images/handbook/enterprise-data/platform/tableau/create-branch.png)
 
 When creating your new branch, you'll need to consider the naming convention. Start the branch name with the issue ID (e.g., `21949-`) to automatically link the future MR to the existing issue. Follow this with a descriptive name that closely aligns with the issue. For consistency, use `snake_case` or `kebab-case` (e.g., `21949-creating-a-branch-and-mr-from-confidential-issue`). You'll also need to choose the source branch from which to create your new branch. In most cases, this will be the default branch 'master'.
 
-<img src="branch-name.png" alt="Choose branch name" width="600"/>
+![branch name](/static/images/handbook/enterprise-data/platform/tableau/branch-name.png)
 
 Once you've created your branch for this confidential issue, you'll usually be prompted to create a merge request on the next screen. If you don't see this prompt, don't worry. You can go to 'Merge requests' in the left sidebar, where you should see an option to 'Create merge request' for your recently created branch. Alternatively, you can click on 'New merge request' and choose your newly created branch as the source branch. Both methods will allow you to start the merge request process.
 
-<img src="merge-request-create.png" alt="Create merge request" width="900"/>
+![Create merge request](/static/images/handbook/enterprise-data/platform/tableau/merge-request-create.png)
 
 
 
