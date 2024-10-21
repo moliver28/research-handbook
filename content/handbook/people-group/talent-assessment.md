@@ -573,8 +573,8 @@ If you feel a conversation might be particularly challenging, you may reach out 
 **My team member is exceeding growth potential expectations, how should I be thinking about their ongoing development?**
 
 Great! At GitLab team members have the opportunity to own their own development, and deserve a great manager (you) to facilitate it. Ask your team member to articulate where they would like to see their skills and career develop. You may have insights that help them refine those goals based on where you see the business going, as they will be most successful in gaining the experience they're looking for if there are opportunities to align those goals with business goals.
-Using the [70-20-10 model for learning](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
-The [Career Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
+Using the [70-20-10 model for learning](/handbook/people-group/learning-and-development/growth-and-development/#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
+The [Career Development handbook page](/handbook/people-group/learning-and-development/growth-and-development/) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 
 **How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
 

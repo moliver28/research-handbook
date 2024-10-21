@@ -121,7 +121,7 @@ Product Managers are all evaluated using the [CDF](/handbook/product/product-man
 
 ## Growth and Development processes
 
-The general [Growth and Development benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) are maintained by the Total Rewards team. The following make it more specific for Product Managers.
+The general [Growth and Development benefits](/handbook/people-group/learning-and-development/growth-and-development/) are maintained by the Total Rewards team. The following make it more specific for Product Managers.
 
 The product team has specific processes for the trainings outlined below. To get support for a new training, please follow the general guidelines for Growth and Development.
 
