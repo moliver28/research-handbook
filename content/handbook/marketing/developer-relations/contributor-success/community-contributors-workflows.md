@@ -309,7 +309,9 @@ GitLab team members seeking help can reach out to the wider community for contri
 
 GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
 
-- The issue description must include an `## Implementation plan` second-level heading, containing guidance to help contributors get started.
+- The issue description must include an implementation plan as a second-level heading with guidance
+to help contributors get started.
+For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
 - The issue must be assigned a weight between 0-3.
 Issue weights should approximate the complexity and effort required.
