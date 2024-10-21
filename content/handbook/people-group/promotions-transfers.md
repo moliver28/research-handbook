@@ -376,7 +376,7 @@ The steps below outline the process promotion candidates should follow to reques
     - Calibration is scheduled for the week of 2024-12-16 where CISO directs calibrate promotion candidates across the division.
     - CISO direct is responsible for following up with the promotion candidate's manager to provide feedback and key takeaways from the calibration session.
 9. Managers communicate promotion status
-    - Promotions are effective 2025-02-01 and the communication window is 2025-01-27 to 2025-01-31 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy26-q1-feb-1)
+    - Promotions are effective 2025-02-01 and the communication window is 2025-01-27 to 2025-01-31 aligned with the [company-wide timeline](/handbook/people-group/promotions-transfers/#fy26-q1-feb-1)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
 
 #### Feedback Confidentiality
