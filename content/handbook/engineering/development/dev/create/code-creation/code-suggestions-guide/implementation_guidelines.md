@@ -7,21 +7,19 @@ and/or the **[GitLab monolith](#gitlab-monolith)**.
 
 ## Overview
 
-Code Suggestion requests can be routed **direct to the AI Gateway** or **via the GitLab monolith**.
+Code Suggestion requests can be routed **direct to the AI Gateway** or **indirect through the GitLab monolith**.
 
 - For **direct-to-AIGW** requests, the IDE gets the model details from the GitLab monolith through the
 [Direct Connections API endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information).
 The IDE then sends a request to AIGW with the model details fetched from the GitLab monolith.
-- For **via-GitLab-monolith** requests, the IDE sends a request to GitLab monolith's
+- For **indirect-through-GitLab-monolith** requests, the IDE sends a request to GitLab monolith's
 [Code Completions API endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#generate-code-completions).
 The GitLab monolith then sends a request to the AIGW.
 
-**Code Completions** requests can be sent direct-to-AIGW or via-GitLab-monolith.
-**Code Generations** requests are always sent via-GitLab-monolith.
-
 For a more in-depth overview of Code Completions vs Code Generations, and
-direct-to-AIGW vs routed-via-GitLab-monolith requests, please refer to the
-[Code Suggestions Technical Overview](../engineering_overview.md#code-suggestions-technical-overview) document.
+direct-to-AIGW vs indirect-through-GitLab-monolith requests, please refer to the
+[Code Suggestions Technical Overview](../engineering_overview.md#code-suggestions-technical-overview)
+and the [Code Completion](../engineering_overview.md#code-completion) guides.
 
 ## AI Gateway
 
@@ -57,7 +55,7 @@ The monolith is the source of truth for which model to use for Code Completions 
 The monolith toggles the current model through [Feature Flags](#introduce-behind-a-feature-flag).
 
 For direct-to-AIGW requests, the monolith specifies the model details through the Direct Access endpoint.
-For via-GitLab-monolith requests, the monolith includes the model details in the payload for its request
+For indirect-through-GitLab-monolith requests, the monolith includes the model details in the payload for its request
 to the AIGW.
 
 ### GitLab Monolith API Endpoints
@@ -65,7 +63,7 @@ to the AIGW.
 - [Direct Access endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information) -
 for direct-to-AIGW requests, this endpoint provides the information necessary to send a request to AIGW
 - [Code Suggestions endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#generate-code-completions) -
-this is the endpoint used for via-GitLab-Monolith requests
+this is the endpoint used for indirect-through-GitLab-Monolith requests
 
 ## Generic guidelines for supporting a model
 
@@ -83,7 +81,7 @@ Refer to the [Rollout Guide](../rollout_guide/index.md#create-a-rollout-plan) fo
 
 ### Introduce behind a Feature Flag
 
-For both the direct-to-AIGW and routed-via-GitLab-Monolith requests, the decision on what model to use
+For both the direct-to-AIGW and indirect-through-GitLab-Monolith requests, the decision on what model to use
 ultimately comes from the GitLab monolith. When introducing a new model, you must
 [create a Feature Flag in the GitLab monolith](https://docs.gitlab.com/ee/development/feature_flags/)
 to toggle the enablement of the new model.

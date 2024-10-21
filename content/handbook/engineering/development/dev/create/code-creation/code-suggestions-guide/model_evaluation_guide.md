@@ -6,12 +6,11 @@ title: "Create:Code Creation: Model Evaluation Guide"
 
 This document serves as a technical how-to guide for evaluating new models.
 
-Before supporting a model for Code Suggestions, we will need to evaluate against the several criteria,
-including **correctness** and **latency**. For a more detailed list of criteria to consider, please refer to the
-[Model Evaluation Template][model-evaluation-template].
+Before supporting a model for Code Suggestions, we will need to evaluate against the several criteria, including **correctness** and **latency**.
+For a more detailed list of criteria to consider, please refer to the
+[Model Evaluation Template][https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/model_evaluation_template.md].
 
-When starting a model evaluation process, you must create an issue off of the
-[evaluation template][model-evaluation-template].
+When starting a model evaluation process, you must create an issue off of the evaluation template.
 
 ## Evaluation Criteria
 
@@ -29,9 +28,9 @@ The common regions to test are: **North America**, **Europe**, and **APAC**.
 
 We can evaluate latency in the following ways:
 
-- **Direct-to-provider**
-  - Sending requests directly to the AI model provider, e.g.: Vertex AI, Anthropic, etc
-- **Routed-via-AIGW-to-provider**
+- **Direct to provider**
+  - Sending requests directly to the AI model provider, for example Vertex AI, Anthropic, etc
+- **Routed through AIGW to provider**
   - Sending requests to the AIGW, which in turns sends requests to the provider
   - Before this can be done, you will need to [implement the model in the AIGW](implementation_guidelines.md#ai-gateway).
     You can implement a model in the AIGW without making it generally available to GitLab users.
@@ -59,5 +58,3 @@ Please reach out to the #g_code_creation Slack channel for guidance.
 [ai-model-latency-tester repository](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester)
 
 Please refer to the [Latency evaluations issue](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester/-/issues/57) for guidance and updates.
-
-[model-evaluation-template]: https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/model_evaluation.md

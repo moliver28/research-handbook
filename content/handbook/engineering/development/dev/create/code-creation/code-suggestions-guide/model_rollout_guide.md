@@ -28,7 +28,7 @@ Rollout of a new model is usually done in 3 phases:
 
 This is an optional but recommended step before rolling out to all GitLab team members. Code Creation team members and interested stakeholders will have more knowledge of the currently used models, and they can give valuable feedback around latency and correctness in comparison to current models.
 
-Before doing this rollout, make sure that the Internal Rollout Plan and the Internal Feedback issues have been created.
+Before doing this rollout, make sure that the Internal Feedback issue have been created. Make sure to direct all feedback to the internal feedback issue.
 
 ### Rollout to all GitLab team members
 
@@ -39,7 +39,9 @@ This is a required step before rolling out to all users. With dog-fooding from G
 - if we need to reach out to the model providers for bug fixes
 - and other considerations
 
-Before doing this rollout, make sure that the Internal Rollout Plan and the Internal Feedback issues have been created.
+Before doing this rollout, make sure that the
+[Internal Rollout](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_rollout.md)
+and Internal Feedback issues have been created. Make sure to direct all feedback to the internal feedback issue.
 
 ### Rollout to all users
 
