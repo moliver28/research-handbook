@@ -45,7 +45,7 @@ automatic_clustering='true'
 
 The cluster key and automatic_clustering configuration setting must be added to the model so that automatic clustering is enabled by default should the model be rebuilt.
 
-To implement clustering on a table:
+Manual clustering of a table can be achieved by executing the following SQL command. However, it's important to note that this method is not recommended for dbt models. The reason is that if the table is dropped and recreated through dbt, the clustering will not persist. For dbt models, it's advisable to use the dbt code mentioned earlier to ensure proper and persistent clustering:
 
 ```sql
 ALTER TABLE your_table CLUSTER BY (column1, column2, ...);

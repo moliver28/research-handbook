@@ -7,7 +7,7 @@ description: "Snowflake Data Warehouse Guide"
 
 ## What and why
 
-[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#our-data-stack).
+[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw--text-orangeiour-data-stack).
 
 ## What does Snowflake Contain?
 
@@ -35,7 +35,7 @@ The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/us
 
 [ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`.
 
-We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn't fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won't be running unnecessarily.
+We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 minutes. If the connectivity isn't fixed in 5 minutes, it stops the execution so the warehouses won't be running unnecessarily.
 
 ## Data Freshness
 
