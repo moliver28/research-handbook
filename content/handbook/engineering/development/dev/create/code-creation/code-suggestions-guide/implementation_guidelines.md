@@ -21,7 +21,7 @@ The GitLab monolith then sends a request to the AIGW.
 
 For a more in-depth overview of Code Completions vs Code Generations, and
 direct-to-AIGW vs routed-via-GitLab-monolith requests, please refer to the
-[Code Suggestions Technical Overview](./../engineering_overview.md#code-suggestions-technical-overview) document.
+[Code Suggestions Technical Overview](../engineering_overview.md#code-suggestions-technical-overview) document.
 
 ## AI Gateway
 
@@ -79,7 +79,7 @@ Introducing a model usually spans several tasks, so it is best to create an epic
 ### Create a Rollout Plan
 
 You must create a rollout plan before deploying a new model.
-Refer to the [Rollout Guide](./../rollout_guide/index.md#create-a-rollout-plan) for more details.
+Refer to the [Rollout Guide](../rollout_guide/index.md#create-a-rollout-plan) for more details.
 
 ### Introduce behind a Feature Flag
 

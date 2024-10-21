@@ -13,7 +13,7 @@ Rollout of a new model will be done through a [Feature Flag](https://docs.gitlab
 
 ## Pre-rollout checklist
 
-- Make sure that you have reviewed the [considerations when adding a new model](./implementation_guidelines.md#considerations-when-adding-a-new-model)
+- Make sure that you have reviewed the [considerations when adding a new model](implementation_guidelines.md#considerations-when-adding-a-new-model)
 - Make sure that the model provider or host can handle the volume of requests on AI Gateway
 
 ## Rollout phases

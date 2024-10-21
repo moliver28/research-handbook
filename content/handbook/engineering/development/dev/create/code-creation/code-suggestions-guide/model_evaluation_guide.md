@@ -33,7 +33,7 @@ We can evaluate latency in the following ways:
   - Sending requests directly to the AI model provider, e.g.: Vertex AI, Anthropic, etc
 - **Routed-via-AIGW-to-provider**
   - Sending requests to the AIGW, which in turns sends requests to the provider
-  - Before this can be done, you will need to [implement the model in the AIGW](./implementation_guidelines.md#ai-gateway).
+  - Before this can be done, you will need to [implement the model in the AIGW](implementation_guidelines.md#ai-gateway).
     You can implement a model in the AIGW without making it generally available to GitLab users.
 
 ## Evaluation Methods
