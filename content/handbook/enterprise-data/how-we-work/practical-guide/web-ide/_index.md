@@ -7,7 +7,7 @@ description: "This handbook page provides a comprehensive guide on using the Git
 
 The GitLab IDE is a powerful tool that allows us to write, test, and debug code directly within our GitLab instance. For the Data Team, this means we can efficiently work on our dbt models, and other data-related code without leaving the GitLab environment.
 
-Before getting started, make sure you have created an issue using the appropriate template, most likely the "Standard Data Team Issue" template and let's get started.
+Before getting started, make sure you have created an issue using the appropriate template, most likely the "Standard Data Team Issue" template.
 
 ### Create a new branch 
 
