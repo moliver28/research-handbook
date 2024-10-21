@@ -49,7 +49,7 @@ Once the manager has approved, there is no further action to be taken by the man
 
 Once the appropriate approvals are provided on the Growth and Development issue, proceed with processing your G&D application. **You do not have to wait for approval or further action from the Learning and Development team.**
 
-Before attempting to claim reimbursement, please ensure you've read through and understand the [Notes on Reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#notes-on-reimbursement) section below.
+Before attempting to claim reimbursement, please ensure you've read through and understand the [Notes on Reimbursement](/handbook/people-group/learning-and-development/growth-and-development/#notes-on-reimbursement) section below.
 
 Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
 
@@ -75,7 +75,7 @@ Here's how this workflow works:
 1. The team member can submit the proof of payment in a Navan expense request, and the approved GitLab issue, to receive a reimbursement of 50% of the total costs.  When submitting in Navan, please state explicitly in the `Description` section of your expense claim that this is for a 50% reimbursement, with a link to your approved G&D issue.
 1. Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
 
-Please note that upfront reimbursement does not extend to travel, hotel, or meals expenses as these are expensed from a separate budget, it can only be used for the cost of the Growth and Development opportunity, more details in the [Workshops and Conferences](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#workshops-and-conferences) section.
+Please note that upfront reimbursement does not extend to travel, hotel, or meals expenses as these are expensed from a separate budget, it can only be used for the cost of the Growth and Development opportunity, more details in the [Workshops and Conferences](/handbook/people-group/learning-and-development/growth-and-development/#workshops-and-conferences) section.
 
 ### Recoupment of Growth and Development Reimbursements
 
@@ -177,13 +177,13 @@ Examples of English Language Courses:
 
 We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
 
-**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy](/handbook/finance/travel/) for the most up-to-date information about booking and planning conference travel.
+**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/people-group/learning-and-development/growth-and-development/#how-to-apply-for-the-growth-and-development-fund). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy](/handbook/finance/travel/) for the most up-to-date information about booking and planning conference travel.
 
 Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim.
 
 For any meals, lodging, or travel - these should not be categorised using the `G&D (Growth and Development)` expense type and should be claimed in line with the [Global Travel and Expense Policy](/handbook/finance/expenses/). However, when submitting your T&E expenses, please add a link to your G&D issue in the description.
 
-### Self-Service Learning (Skillserve, Coursera, LinkedIn Learning Others)
+### Self-Service Learning (Skillserve, Coursera, LinkedIn Learning Others) {#self-service-learning}
 
 **Description:** GitLab supports team members who wish to continue their growth within their professional career. The course must be related to your career development goal, Individual Growth Plan (IGP), and/or serves the [mission]({{< ref "mission" >}}) of GitLab as a company.
 
