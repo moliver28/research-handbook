@@ -87,6 +87,18 @@ The content in this section is typically updated at least 1 month after each rel
 - What does it sell/cover: This can be many different topics but typically is GitHub or Bitbucket. The goal here is to take people new to GitLab and show them how easy it is to swap platforms and what they are missing.
 - Cloud Infrastructure Required?: Maybe
 
+#### Workshops Feedback/Survey Process
+
+The goal is to set up a repeatable process for gathering feedback from workshop attendees while the experience is still fresh in their minds. We'll include a survey slide with a QR code, and the link will be shared in the chat just before the webinar wraps up. It will take less than 2 minutes to complete. 
+
+This is our first iteration, with plans to eventually automate the process. Over time, this feedback will help us identify areas for improvement, develop new materials, and refine how we deliver our workshops — ensuring we consistently provide valuable experiences for our attendees.
+
+Follow the **How to steps** below to copy and generate your unique feedback QR code.
+
+- [How to Steps](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-resources/-/blob/main/Workshop%20Survey/Survey-steps.md?ref_type=heads)
+
+- [Survey Templates](https://drive.google.com/drive/folders/1s_d5Klh9qzBO2uF8wYvJKh-6LzjT3aDy)
+
 ### Labs/hands-on Content
 
 The goal of labs is to provide SA/CSM/CSEs with the ability to put on hands-on demos for a customer to land a sale without them having to go through all of the work to set it up.  These have had tremendous success being the key to landing a first order or getting a customer to see the value in Ultimate. They are often a great replacement for a trial as well because we can do a hands-on exercise into a short trial to ensure they actually test out the functionality we want them to.  Because of this the content often needs to be customised so there is no set template like the workshops or cs demos. Instead we often use those as a starting point for the final result we are trying to show. To request a lab you first need to fill out the form via [Demo Architect Portal](https://cloud.gitlabdap.com/) then one of the Demo Architects will set up and intro call with you to go over content and start the process. Below are some examples of past labs we have ran:
