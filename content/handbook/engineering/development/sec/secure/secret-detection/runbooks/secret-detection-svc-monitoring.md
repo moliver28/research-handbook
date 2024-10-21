@@ -4,7 +4,7 @@ title: "Secret Detection Service: Monitoring"
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [Secret Detection Service](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/secret_detection/#phase-2---standalone-secret-detection-service) to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab SaaS.
+This runbook is intended to be used when monitoring the [Secret Detection Service](../../../../../../engineering/architecture/design-documents/secret_detection/#phase-2---standalone-secret-detection-service) to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab SaaS.
 
 ### What to monitor?
 
@@ -43,7 +43,7 @@ Runway uses GCP Cloud Logs to manage logs emitted by the service. The logs for t
 
 * [Documentation](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service/-/blob/main/README.md?ref_type=heads)
 
-* [Architecture](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/secret_detection/decisions/004_secret_detection_scanner_service/)
+* [Architecture](../../../../../../engineering/architecture/design-documents/secret_detection/decisions/004_secret_detection_scanner_service.md)
 
 * [Service FAQs](./secret-detection-svc-faqs.md)
 

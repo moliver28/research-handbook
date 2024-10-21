@@ -90,7 +90,7 @@ This page contains answers to the general questions about the Secret Detection S
 
 * [Documentation](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service/-/blob/main/README.md?ref_type=heads)
 
-* [Architecture](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/secret_detection/decisions/004_secret_detection_scanner_service/)
+* [Architecture](../../../../../../engineering/architecture/design-documents/secret_detection/decisions/004_secret_detection_scanner_service.md)
 
 * [Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/work_items/468107)
 
