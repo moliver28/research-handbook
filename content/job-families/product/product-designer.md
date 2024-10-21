@@ -46,7 +46,7 @@ The Product Designer is a [grade 6](/handbook/total-rewards/compensation/compens
 #### Responsibilities
 
 - **Product knowledge:** Have working knowledge of the capabilities in your [group](/handbook/product/categories/#hierarchy).
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations (i.e., UX Scorecards). Incorporate insights to fulfill user and business needs.
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations (like UX Scorecards). Incorporate insights to fulfill user and business needs.
 - **Deliverables:** Create tactical deliverables for your group that solve user problems (for example, user flows, low and high fidelity designs, prototypes).
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity.
 - **Usability:** Identify small and large usability issues in your group.
@@ -74,7 +74,7 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 Everything in the Product Designer role, plus:
 
 - **Product knowledge:** Have _deep knowledge of the technology and_ capabilities in your [group](/handbook/product/categories/#hierarchy). _Proactively learn and have working knowledge of other groups._
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations (i.e., UX Scorecards). Incorporate insights to fulfill user and business needs. _Identify research opportunities._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. _Identify research opportunities._
 - **Deliverables:** Create tactical deliverables for your group that solve user problems. _Define strategic outputs that connect vision to product outcomes (for example, journey maps, storyboards, design visions)._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. _Show a strong point of view on how those activities address user and business needs._
 - **Usability:** Identify small and large usability issues in your group. _Influence their prioritization._
@@ -103,7 +103,7 @@ The Staff Product Designer is a [grade 8](/handbook/total-rewards/compensation/c
 Everything in the Senior Product Designer role, plus:
 
 - **Product knowledge:** Have deep knowledge of the technology and capabilities in your [group](/handbook/product/categories/#hierarchy). Proactively learn and have working knowledge of _the end-to-end product._
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations (i.e., UX Scorecards). Incorporate insights to fulfill user and business needs. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs._
 - **Deliverables:** Create tactical deliverables for your group that solve user problems. Define strategic outputs that connect vision to product outcomes. _Shape the deliverables with a focus on long-term vision and execution._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. _Exemplify frequent and effective asynchronous communication._
 - **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices _across the company._
@@ -132,7 +132,7 @@ The Principal Product Designer is a [grade 9](/handbook/total-rewards/compensati
 Everything in the Staff Product Designer role, plus:
 
 - **Product knowledge:** Have deep knowledge of the technology and capabilities in your _projects_. Proactively learn and have working knowledge of the end-to-end product.
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations (i.e., UX Scorecards). Incorporate insights to fulfill user and business needs. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
 - **Deliverables:** Create tactical deliverables for your _project_ that solve user problems. Define strategic outputs that connect vision to product outcomes. Shape the deliverables with a focus on long-term vision and execution. _Reduce the scope, complexity, and ambiguity of projects to a more manageable state._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. Exemplify frequent and effective asynchronous communication. _Unblock conversations and encourage collaboration across teams._
 - **Iteration:** Practice design iteration and break down designs to fit the release cadence of your _projects_. Review merge requests with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices across the company. _Help others break down solutions into actionable steps, aligned with long-term goals._
