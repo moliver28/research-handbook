@@ -38,7 +38,7 @@ Benefits of the Business Value Services tool:
 - Track and facilitate meaningful collaboration with our customers on desired and realized outcomes
 - Open doors to C-Level conversations with customized business justifications for high-value, complex deals
 
-## Activities Conducted by SA
+## Activities Conducted by the account team
 
 The account team can incorporate the value consulting into early sales stages while building a trusted relationship on both technology leadership and business impacts.
 
