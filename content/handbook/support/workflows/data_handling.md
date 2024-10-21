@@ -11,9 +11,10 @@ Working directly with customers has the average Support Engineer working with so
 ### Frameworks
 
 GitLab has three primary frameworks for classifying data:
- - [Data Classifcation Standard](/handbook/security/data-classification-standard/) - classifies data types according to their sensitivity.
- - [Confidentiality Levels](/handbook/communication/confidentiality-levels/) - classifies visibility of data/projects for different audiences.
- - [SAFE Framework](/handbook/legal/safe-framework/) and [Material Non-Public Information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information) - covers the specific kinds of information that cannot be shared publicly.
+
+- [Data Classifcation Standard](/handbook/security/data-classification-standard/) - classifies data types according to their sensitivity.
+- [Confidentiality Levels](/handbook/communication/confidentiality-levels/) - classifies visibility of data/projects for different audiences.
+- [SAFE Framework](/handbook/legal/safe-framework/) and [Material Non-Public Information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information) - covers the specific kinds of information that cannot be shared publicly.
 
 
 #### Data Classification Standard
@@ -31,10 +32,9 @@ It's imperative that we keep RED data out of systems that aren't cleared for it.
 
 References:
 
- * [Data classification examples](https://internal.gitlab.com/handbook/security/data_classification/) (GitLab Internal Handbook - Team Members only)
- * [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
- * [GitLab Data Subprocesors](https://about.gitlab.com/privacy/subprocessors/)
-
+- [Data classification examples](https://internal.gitlab.com/handbook/security/data_classification/) (GitLab Internal Handbook - Team Members only)
+- [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+- [GitLab Data Subprocesors](https://about.gitlab.com/privacy/subprocessors/)
 
 #### Confidentiality Levels
 
@@ -48,13 +48,13 @@ The SAFE framework and the concept of MNPI are relevant to Support team members 
 
 You may be exposed to SAFE information in the course of performing your normal duties, or as a result of participating in a special project. If you are, you may be classified as a [Designated Insider](/handbook/legal/publiccompanyresources/#designated-insiders), which places additional constraints on your GitLab stock trading activities. 
 
-
 ### What does it mean for a Support team member?
 
 The standards themselves are important to be familiar with, but for Support generally:
- * Be aware of the data classification standard for any data you're working with 
- * NEVER move data to a system with a lower classification
- * Think through confidentiality levels and the SAFE framework when working in public.  For example, GitLab.com may be cleared for RED data, but you might still expose that data by posting it in a public project, or forgetting that an issue is public
+
+- Be aware of the data classification standard for any data you're working with 
+- NEVER move data to a system with a lower classification
+- Think through confidentiality levels and the SAFE framework when working in public.  For example, GitLab.com may be cleared for RED data, but you might still expose that data by posting it in a public project, or forgetting that an issue is public
 
 #### Examples
 
@@ -66,11 +66,11 @@ During the course of working emergency tickets, you may be tempted to copy troub
 This would be inappropriate because RED data is not allowed in ORANGE systems.
 
 Instead, consider sharing the troubleshooting data by:
- * Putting the relevant log snippets in an internal note
- * Sharing the information through a GitLab issue
+
+- Putting the relevant log snippets in an internal note
+- Sharing the information through a GitLab issue
 
 If you see RED data being shared in Slack, ask the team member who posted it to remove it.
-
 
 ##### GitLab.com (RED)
 
@@ -79,13 +79,15 @@ During the course of discussion issues, you might have a relevant example screen
 However, posting ORANGE data in a _public_ issue would go against the confidentiality levels for that data, so would be inappropriate.
 
 Instead, consider sharing the data by:
- * making the issue confidential
- * creating a confidential comment
+
+- making the issue confidential
+- creating a confidential comment
 
 If you see internal-only data being shared publicly, you can:
- * edit the comment to remove the data
- * toggle the Issue to confidential
- * remind the team member who posted it about data classification and confidentiality levels
+
+- edit the comment to remove the data
+- toggle the Issue to confidential
+- remind the team member who posted it about data classification and confidentiality levels
 
 ##### Building an integration between systems
 
@@ -99,7 +101,6 @@ If you see an integration like this, declare a SIRT.
 
 ### Take-aways
 
-* Know the classification level of data you're working with and which systems are cleared for which data.
-* Avoid moving data between systems whenever possible: if you can share data within the system it's already contained in keep it there!
-* Don't expose your teammates to data they aren't authorized to see: keep limited access data to those to whom it should be limited.
-
+- Know the classification level of data you're working with and which systems are cleared for which data.
+- Avoid moving data between systems whenever possible: if you can share data within the system it's already contained in keep it there!
+- Don't expose your teammates to data they aren't authorized to see: keep limited access data to those to whom it should be limited.
