@@ -5,31 +5,59 @@ description: "This page provides an overview on relevant SA Managers processes. 
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
-## Purpose
-
-This page provides an overview on relevant SA Managers processes. The SA Manager role is made up of pillars: Managing the Business and Managing the Team.
+Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/spreadsheets/d/1wJVQVtIafqe__14BXuhqyewWXQBPDq4hoQqZntX0aas/edit?gid=1939895239#gid=1939895239) for a quick summary.
 
 ## Managing the Business
 
 ### Activity Review
 
-As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements. The expectation is that SA Managers will comment weekly on SA activities in their appropriate #rattle slack channel(s). Be sure to subscribe to #rattle Channel in Slack.
+As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements.
 
-Reviewing Chorus calls at least quarterly can allow for SA Managers to check in and give managers opportunities to provide timely feedback on technical discovery calls or demos.
+### Weekly
 
-Considering data sovereignity challenges in certain parts of the world and nations, it may not always be possible to review recorded Chorus call, i.e. for regions such as APAC or EMEA. As a result, the SA Manager should collaborate with cross-functional teams and consider joining internal or external meetings instead. This will ensure adherence to sales plans and strategies as well as assistance in key business opportunities. Additionally, by providing leadership on initiatives and opportunities, the SA Manager can share best practises and approaches with the teams and clients.
+1. **SA Next Steps and Next Step Date**: ensure during 1-1s that SAs complete and report on SA Next Steps on an opportunity. Are we on track with our technical strategy.
+SA Managers can also add comments (e.g., recognition, pattern matching, assists, questions, and data hygience coaching) and  gain insight from SA on next steps. 
+2. **SA Activity Review**: Using the following, review [SA Activity Recordings](/handbook/solutions-architects/processes/activity-capture/#recording-activity-with-rattle) for main opportunities. Ensure that AEs have not closed, or duplicated opportunities that SAs were recording activities against.
 
-It increases efficiecies towards the achievement of regional goals and objectives and helps to refer to upper management on potential issues and challenges. Collaboration with sales management to fully qualify and manage the delivery of solution architecture engagements during technical evaluations on key strategic client opportunities is encouraged.
+   - Salesforce reporting, 
+   - [Rattle Board](https://board.gorattle.com/), 
+   - [Top Deals List](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319)
+   - [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1)
 
-### Deliberate Practice
+3. **Primary SA assignment**: For Strategic and Enterprise accounts, review list of Most likely opportunities for the quarter in Clari or SFDC, and ensure Primary Solution Architect Fields are not blank and are accurately assigned, especially as it enters Negotiation Stage.  Once it enters Closing Stage it is too late to change the Primay SA assignment for credit.
+4. **Technical Evaluations Review**: For Strategic and Enterprise accounts, review all opportunities in Stage 3 and ensure all Technical Evaluation fields are appropriately entered by team.
+5. **POV reviews**: Review all opportunities in Stage 3 that should have a POV record in SFDC. Ensure SA created one. Ensure that a POV Collaboration Project with Success Criteria is completed and URL is in the POV record in SFDC. If there is a need to fill out a special Google Sheet or otherwise for a POV opportunities, ensure those are completed.
+6. [**Technical Close Plans**](/handbook/solutions-architects/sa-practices/technical-close-plan/): Review all opportunities in Stage 3 and over 300k and ensure TCP exists and TCP URL in SFDC is entered. Review TCPs as needed, making any necessary comments for SAs to review. Ensure that there is a clear Technical Strategy
+7. [**Success Plans**](/handbook/solutions-architects/sa-practices/customer-success-plan/): Review all opportunities in Stage 4 and over 300k and ensure that the TCP has needed elements and content included that makes it a Success Plan. Enquire of SA during 1-1 if it was reviewed with the Customer, and with the CSM (as needed), and set checkbox as appropriate in SFDC.
+8. [**Value Stream Discovery**](/handbook/solutions-architects/sa-practices/value-stream-discovery/): Determine opportunities that VSDs have been positioned or started.
+9. **Review Gong Recordings**: Reviewing [Gong calls](https://us-81995.app.gong.io/home) regularly can allow for SA Managers to check in and give managers opportunities to provide timely feedback on technical discovery calls or demos. Considering data sovereignity challenges in certain parts of the world and nations, it may not always be possible to review recorded Gong call, that is for regions such as APAC or EMEA. As a result, the SA Manager should collaborate with cross-functional teams and consider joining internal or external meetings instead. This will ensure adherence to sales plans and strategies as well as assistance in key business opportunities. Additionally, by providing leadership on initiatives and opportunities, the SA Manager can share best practises and approaches with the teams and clients.
+10. **Regular syncs with ASMs**: Meeting regularly with your ASM counterpart provides time to discuss SAE/ SA/ CSM Team health, review strategic territory deals, and review opportunity close analysis and regional data. It is recommended to use a combination of SFDC Opportunity Records, Tableau Dashboard Data, and to take notes in Google Docs. Every meeting should have an agenda.
 
-Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [picker wheel](https://pickerwheel.com/).
+    Suggested Agenda:
 
-### Regular Syncs with ASM
+    - Discuss SA/SAL/AE Team health
+    - Review strategic territory deals
+    - Review opportunity close analysis and regional data
 
-Meeting regularly with your ASM counterpart provides time to discuss SAE/ SA/ CSM Team health, review strategic territory deals, and review opportunity close analysis and regional data. It is recommended to use a combination of SFDC Opportunity Records, Sisense Dashboard Data, and to take notes in Google Docs. Every meeting should have an agenda.
+### Monthly
 
-### Quarterly Business Reviews
+1. **Growth and Renewal At Risk Opportunities**: Review Growth and renewals at risk for current quarter and next. Review appropriate action plans.
+2. **Review escalations**: Review all accounts in escalations. Ensure progress is being made
+3. **Go To Market Reviews**: Report on SA initiatives and Progress in GTM review meetings
+
+### Quarterly
+
+1. **SA Alignment**: Review SA Territory and/or Opportunity mapping alignments. Review Strategic Pools, for High velocity Teams
+2. [**Executive Business Reviews**](/handbook/solutions-architects/sa-manager/#executive-business-reviews)
+3. [**Quarterly Business Reviews**](/handbook/solutions-architects/sa-manager/#quarterly-business-reviews)
+
+#### Executive Business Reviews
+
+Review with CSM Managers or ASM all accounts that have not had an EBR in the last 6 months. Ensure that one is scheduled
+
+It increases efficiencies towards the achievement of regional goals and objectives and helps to refer to upper management on potential issues and challenges. Collaboration with sales management to fully qualify and manage the delivery of solution architecture engagements during technical evaluations on key strategic client opportunities is encouraged.
+
+#### Quarterly Business Reviews
 
 The SA Manager is responsible for developing and delivering a [Quarterly Business Review](/handbook/sales/qbrs/) for their team each quarter.
 
@@ -43,38 +71,58 @@ SA Managers typically cover the following information:
 
 ## Managing the Team
 
-### Cognitive Bias Sessions
+### Operating Rhythm
 
-It is important to pland and schedule [Coginitive Bias](/handbook/solutions-architects/sa-practices/recognizing-cognitive-bias/) Sessions for the team quarterly. Be sure to think about assigning a facilitator and role players, as needed.
+As a SA manager, the following is a summary of the operating rhythm when managing the team.
 
-### Identifying and Recruiting
+### Weekly
 
-SA Managers should always be recruiting! It is important that SA Managers always be on the lookout for talent and be conscientious in building a talent network. Make time to interview prospective candidates and be able to artiulate the value of a job at GitLab as outlined in the [Winning Top Talent](/handbook/sales/field-manager-development/#winning-top-talent) portion of the GitLab Field Manager Development Program.
-
-**Key Resources**
-
-- Success Profile
-- Interview Guide
-- Networking tools
-- "Why GitLab" Summary
-
-### Onboarding
-
-SA Managers should ensure the new SA team members are set up for success by working to make sure they have access to necessary tools and have an assigned onboarding buddy. Additionally, they should work with new SAs to set clear performance expectations and provide regular feedback during the onboarding process. SA Managers should encourage new SAs to complete their general GitLab onboarding issue and ensure that they actively participate in and complete [Sales Quick Start](/handbook/sales/onboarding/).
-
-Common slack channels within GitLab are #thanks and #deal-graditude are manual from an announcement and celebration point of view. The #wins-key-deals are automated listings and announcements. Those automated slack channels require a SFDC mapping of the team and organisational roll ups. SA Managers are encouraged to review the SFDC mapping on a quarterly basis to ensure consistency for new starters and existing team members (i.e. after promotions).
-
-### Developing and Retaining
-
-Developing and retaining key talent is constantly top-of-mind for high-performing SA Managers. The best SA Managers provide regular [coaching](/handbook/leadership/coaching/), follow [Performance Management](/handbook/sales/field-manager-development/#performance-management-and-giving-feedback) best practices, and leverage GitLab's [Field Functional Competencies](/handbook/sales/training/field-functional-competencies/) to reinforce the critical skills and behaviors that will lead to desired outcomes/results.
-
-Additionally, SA Managers should reinforce [key enablement initiatives](https://gitlab.edcast.com/teams/solution-architects-sas) and encourage participation in the [CS Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/).
-
-SA Managers should encourage and lead team member's proactively to discuss [individual development and growth path](/handbook/people-group/learning-and-development/career-development/#roles-and-responsibilities) and always aim to assist team members to grow careers.
+1. [**SA One on Ones**](/handbook/solutions-architects/sa-manager/#one-on-ones):
+2. **SA Team Meetings**
 
 #### One-on-Ones
 
 As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/company/culture/all-remote/live-doc-meetings/#notetaking-and-structure-during-the-meeting) and document discussions.
+
+### Monthly
+
+1. **Review SA Vacation Reports** in Workday
+
+### Quarterly
+
+1. [**SA Individual Growth Plan Review**](/handbook/people-group/learning-and-development/career-development/igp-guide/): Every Quarter set aside some time apart from one on ones, to review SA's Individual Growth Plans and progress in Workday.
+2. [**Quarterly Sit Downs**](/handbook/solutions-architects/sa-manager/#quarterly-sit-downs-qsds)
+3. **SA Club Leaderboard and Wildcard Review**: Review SA Club Leaderboard in Table and make any adjustments to Wildcard system
+4. **Team Quarterly Enablements** aka Quarterlies: Highly recommended as a region to conduct a team quarterly enablement to conduct [deliberate practices](/handbook/solutions-architects/sa-manager/#deliberate-practice), conduct retros, allow for SAs to demonstrate great practices with each other, and invite others such as PS, partners, PMs to speak with the SAs
+5. **Team Retros**
+6. [**Quarterly Deliberate Practice**](/handbook/solutions-architects/sa-manager/#deliberate-practice)
+7. [**Quarterly cognitive bias training**](/handbook/solutions-architects/sa-manager/#cognitive-bias-sessions)
+
+### Semi-Annually
+
+1. [SA Talent Assessment](/handbook/people-group/talent-assessment/)
+2. [Team and Skills Assessment](/handbook/solutions-architects/sa-manager/#team-assessment)
+
+### Annually
+
+1. [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review)
+
+#### Deliberate Practice
+
+Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [picker wheel](https://pickerwheel.com/).
+
+#### Cognitive Bias Sessions
+
+It is important to plan and schedule [Cognitive Bias](/handbook/solutions-architects/sa-practices/recognizing-cognitive-bias/) Sessions for the team quarterly. Be sure to think about assigning a facilitator and role players, as needed.
+
+#### Team Assessment
+
+Twice a year, SA Managers should conduct a team assessment to:
+
+- Identify at Risk and High Potential Team Members
+- Identify resource needs for the next 6-months
+- Determine succession plan
+- Update rolling 6 to 12 month promotion forecast
 
 #### Quarterly Sit Downs (QSDs)
 
@@ -107,6 +155,33 @@ Similarly, at the end of Q4, results from the Talent Assessment are shared out f
 
 We do both the QSD at the end of Q3 and Q4 because the Talent Assessment is filled out at the end of Q3 and not made visible to the direct report until the end of Q4.  Additionally, the results are a culmination of the entire year, not specific to the quarter.
 
+---
+
+### Identifying and Recruiting
+
+SA Managers should always be recruiting! It is important that SA Managers always be on the lookout for talent and be conscientious in building a talent network. Make time to interview prospective candidates and be able to artiulate the value of a job at GitLab as outlined in the [Winning Top Talent](/handbook/sales/field-manager-development/#winning-top-talent) portion of the GitLab Field Manager Development Program.
+
+**Key Resources**
+
+- Success Profile
+- Interview Guide
+- Networking tools
+- "Why GitLab" Summary
+
+### Onboarding
+
+SA Managers should ensure the new SA team members are set up for success by working to make sure they have access to necessary tools and have an assigned onboarding buddy. Additionally, they should work with new SAs to set clear performance expectations and provide regular feedback during the onboarding process. SA Managers should encourage new SAs to complete their general GitLab onboarding issue and ensure that they actively participate in and complete [Sales Quick Start](/handbook/sales/onboarding/).
+
+Common slack channels within GitLab are #thanks and #deal-graditude are manual from an announcement and celebration point of view. The #wins-key-deals are automated listings and announcements. Those automated slack channels require a SFDC mapping of the team and organisational roll ups. SA Managers are encouraged to review the SFDC mapping on a quarterly basis to ensure consistency for new starters and existing team members (i.e. after promotions).
+
+### Developing and Retaining
+
+Developing and retaining key talent is constantly top-of-mind for high-performing SA Managers. The best SA Managers provide regular [coaching](/handbook/leadership/coaching/), follow [Performance Management](/handbook/sales/field-manager-development/#performance-management-and-giving-feedback) best practices, and leverage GitLab's [Field Functional Competencies](/handbook/sales/training/field-functional-competencies/) to reinforce the critical skills and behaviors that will lead to desired outcomes/results.
+
+Additionally, SA Managers should reinforce [key enablement initiatives](https://gitlab.edcast.com/teams/solution-architects-sas) and encourage participation in the [CS Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/).
+
+SA Managers should encourage and lead team member's proactively to discuss [individual development and growth path](/handbook/people-group/learning-and-development/career-development/#roles-and-responsibilities) and always aim to assist team members to grow careers.
+
 #### Recognition and Gratitude
 
 As a manager it's extremely important to recognize the accomplishments of your team members. There are [studies](https://www.mindful.org/the-science-of-gratitude/) that show that providing gratitude not only improves the life and mindset of the receiver, but also the one giving the gratitude. As an all-remote company, it's very imporant that we communicate that gratitude in a timely manner.  One thing to keep in mind, however, is that not every team member wants to be recognized the same way.  When meeting with your team in One-on-One's ask them how they like to be recognized and keep that in mind for when and how you do it.
@@ -116,12 +191,3 @@ GitLab has a dedicated #thanks Slack channel where team members are encouraged t
 It may be good practice as well to keep a running log of the accomplishments of your team members (e.g. screenshots from the #thanks channel, notes from AEs, ASMs, etc...). An easy way to do this is in a dedicated section of the individual One-on-One documents you keep for each of them or the SA can collect them in their Individual Growth Plan document. Having this information in a consolidated place with assist you greatly come review time or when that team member is ready for promotion.
 
 Recognition can also be realized in the form of [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses). This is an amazing incentive and benefit that GitLab provides for those team members that are going above and beyond. Once you as a manager receive the nomination in Slack via the Nominator app, make sure you approve or deny based on the [Approval Criteria](/handbook/total-rewards/incentives/#valid-and-invalid-criteria-for-discretionary-bonuses). You will also have an option to update the nomination text at this step. After you approved, there are two more approvals from the 2nd Level Manager and People Team. When your team member is approved for a bonus it is up to you to make the announcement in the #thanks Slack channel. Again, when doing so, please ensure you add the `@sa_leaders` Slack group as part of the message. As a regular part of your meetings with the ASMs you support, ensure that they and their teams know how to log a discretionary bonus should one be warranted.
-
-### Team Assessment
-
-Twice a year, SA Managers should conduct a team assessment to:
-
-- Identify at Risk and High Potential Team Members
-- Identify resource needs for the next 6-months
-- Determine succession plan
-- Update rolling 6 to 12 month promotion forecast
