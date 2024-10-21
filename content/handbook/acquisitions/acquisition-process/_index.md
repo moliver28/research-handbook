@@ -39,6 +39,9 @@ The process is comprised of five key stages:
     1. Start the discussion about what an integration into GitLab's code base will look like
 
     A mutual NDA will be shared by GitLab and will be required to be signed prior to the Product Call. For more details about our MNDA and process for signing see [GitLab Legal Handbook](/handbook/legal/).
+
+    The Corporate Development Deal Process Manager will schedule and send calendar invites for a GitLab internal only synchronous Product Call debrief for immediately after the Product Call, or first available time slot.
+
 1. Initial internal review:
    1. Preliminary assessment of product and technology fit of the potential opportunity to GitLab's [product roadmap](https://about.gitlab.com/direction/) as well as integration options into GitLab.
    1. In certain instances, a hands-on product validation following the Product Call may be necessary to help inform the acquistion process and next steps. The Product Champion will select a DRI to perform a hands-on product validation. If a hands-on product validation does not occur following the Product Call, it will then occur later in the acquistion process during Early Diligence.
