@@ -15,7 +15,7 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 [The Technical Writing team](/handbook/company/team/?department=technical-writing) includes:
 
 - A group of [Technical Writers](/job-families/product/technical-writer/).
-- Two [Technical Writing Managers](/job-families/product/technical-writing-manager/).
+- Three [Technical Writing Managers](/job-families/product/technical-writing-manager/).
 - Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
 
