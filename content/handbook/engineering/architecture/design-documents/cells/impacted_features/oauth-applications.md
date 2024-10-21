@@ -19,40 +19,38 @@ we can document the reasons for not choosing this approach.
 
 ## 1. Definition
 
-OAuth applications can be used to grant third-party applications access to resources available to a GitLab user.
-They allow secure authorization, and enable users to control what data they share with the third-party application.
-OAuth application can be created at instance-owned, user-owned, project-owned and group-owned. But this solely for the
-purpose of management, all the  applications are available across the instance.
-A few examples of current instance-owned applications are CustomersDot, GitLab Pages, GitLab CLI, Web IDE, VS Code Extension.
+OAuth applications allow third-party applications to securely access resources associated with a GitLab user.
+Users control what data they share with these applications.
+OAuth applications can be created at different levels: instance-owned, user-owned, project-owned, and group-owned.
+However, this is only for management purposes—**all OAuth applications are available instance-wide**.
 
-OAuth applications with `openid` scope are considered as OIDC application.
+Examples of instance-owned applications include: CustomersDot, GitLab Pages, GitLab CLI, Web IDE, and the VS Code Extension.
 
-## 2. Data flow
+OAuth applications that include the `openid` scope are considered OpenID Connect (OIDC) applications.
 
-The data flow in OAuth applications are documented at [OAuth 2.0 identity provider API](https://docs.gitlab.com/ee/api/oauth2) and
-[GitLab as OpenID Connect identity provider](https://docs.gitlab.com/ee/integration/openid_connect_provider.html)
+## 2. Data Flow
 
-OAuth and OIDC has multiple endpoints, and the way they get routed to correct cell may vary.
+The data flow for OAuth applications is detailed in the following documentation:
 
-1. `/oauth/authorize`, `/oauth/token`, `/oauth/revoke`
+- [OAuth 2.0 identity provider API](https://docs.gitlab.com/ee/api/oauth2)
+- [GitLab as an OpenID Connect identity provider](https://docs.gitlab.com/ee/integration/openid_connect_provider.html)
 
-These request will have `client_id` and `client_secret` either as request body or as request URI.
+OAuth and OIDC have multiple endpoints, with variations in how these requests are routed to the appropriate Cell:
 
-2. `/oauth/applications`, `/oauth/applications/new`, `/oauth/applications/:id` , `oauth/authorized_applications`
+1. **Endpoints with `client_id` and `client_secret`:**
+   Requests like `/oauth/authorize`, `/oauth/token`, and `/oauth/revoke` include these values either in the request body or URI.
 
-These requests is handled after current user session is set.
+1. **User session-based endpoints:**
+   Endpoints like `/oauth/applications`, `/oauth/applications/new`, `/oauth/applications/:id`, and `/oauth/authorized_applications` are processed after the user session is established.
 
-3. `/oauth/token/info`
+1. **Token-authenticated endpoints:**
+   `/oauth/token/info` is authenticated using an OAuth token.
 
-This request is authenticated using oauth_token.
+1. **Configuration endpoints:**
+   Requests such as `.well-known/openid-configuration`, `.well-known/webfinger`, and `/oauth/discovery/keys` return configurations relevant across all Cells.
 
-4. `.well-known/openid-configuration`, `/.well-known/webfinger` , `/.well-known/openid-configuration`, `/oauth/discovery/keys`
-
-This request need to respond with configuration across the cells
-
-5. `/userinfo`
-
-This request need to be authenticated using access token sent via `Authorization` header
+1. **User info endpoints:**
+   `/userinfo` is authenticated via the access token sent in the `Authorization` header.
 
 ## 3. Proposal
 
@@ -70,7 +68,7 @@ Pros:
 Cons:
 
 - More complex as OAuth applications need to be synced across Cells.
-- Each organization requires diffrent token. As an example VS code extension need to store tokens per organization,
+- Each organization requires different token. As an example VS code extension need to store tokens per organization,
   and special case need to be made for git and docker access
 
 ## 4. Alternative approaches considered
@@ -96,10 +94,9 @@ OAuth applications, OAuth access grants, OAuth access tokens, OAuth refresh toke
 Pros:
 
 - Similar to `Cluster-wide OAuth applications` approach, it enables third-party applications to register a single OAuth application per GitLab cluster.
-
-- No changes required for docker,  git and api access credential storage
+- No special handling required for Git, Docker, and API access credentials.
 
 Cons:
 
-- Routing might not work as OAuth access tokens do not have a clear owning Cell.
+- Routing will not work as OAuth access tokens do not have a clear owning Cell.
 - Since OAuth access tokens are short-lived, a significant amount of data needs to be synchronized across Cells.
