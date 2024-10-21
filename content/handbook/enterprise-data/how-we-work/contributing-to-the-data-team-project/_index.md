@@ -2,7 +2,7 @@
 title: "Contributing to the Data Team Project"
 description: "This handbook page serves as a practical guide for contributing to the Data Team project"
 ---
-# Practical Guide
+## Practical Guide
 
 Our goal is to empower every team member to contribute to and benefit from our data ecosystem. This guide is designed to break down barriers and enable everyone, regardless of their role or technical background, to actively participate in our data projects.
 

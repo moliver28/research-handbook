@@ -3,13 +3,13 @@ title: "Working in the GitLab Web IDE"
 description: "This handbook page provides a comprehensive guide on using the GitLab Integrated Development Environment (IDE) for Data Team projects. It covers essential features, best practices, and workflows specific to our data analytics work."
 ---
 
-# Introduction
+## Introduction
 
 The GitLab IDE is a powerful tool that allows us to write, test, and debug code directly within our GitLab instance. For the Data Team, this means we can efficiently work on our dbt models, SQL queries, and other data-related code without leaving the GitLab environment.
 
 Before getting started, make sure you have created an issue using the appropriate template, most likely the "Standard Data Team Issue" template and let's get started.
 
-## Create a new branch 
+### Create a new branch 
 
 1. Non-confidential issues
 
@@ -42,6 +42,4 @@ Once you've created your branch for this confidential issue, you'll usually be p
 
 ![Create merge request](/static/images/handbook/enterprise-data/platform/tableau/merge-request-create.png)
 
-
-
-## Create a merge request
+### Create a merge request
