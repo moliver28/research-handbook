@@ -8,7 +8,7 @@ This document serves as a technical how-to guide for evaluating new models.
 
 Before supporting a model for Code Suggestions, we will need to evaluate against the several criteria, including **correctness** and **latency**.
 For a more detailed list of criteria to consider, please refer to the
-[Model Evaluation Template][https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/model_evaluation_template.md].
+[Model Evaluation Template](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/model_evaluation_template.md).
 
 When starting a model evaluation process, you must create an issue off of the evaluation template.
 
