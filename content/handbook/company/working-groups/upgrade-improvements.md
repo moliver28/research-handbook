@@ -67,6 +67,7 @@ The specific high level goals
 4. Appoint end-to-end owner of GitLab release
 
 Other goals
+
 1. Remove required upgrade stops from GitLab upgrade cadence
 2. Breaking changes are limited to major releases
 
