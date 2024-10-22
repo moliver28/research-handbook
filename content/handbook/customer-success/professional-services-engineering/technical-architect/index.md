@@ -80,8 +80,8 @@ Ensure proposals are detailed and credible.
 
 - Reach out to your assigned TA with at least one business day notice using the [PS and Sales team mapping](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit#heading=h.1er41qhhpoj5)
 - Provide relevant context, notes, and information needed for the scoping call, including business challenges and desired outcomes.
-- If the TA assigned does not specialize in the topics discussed on the customer call, coordinate with the TA team to identify a suitable expert.
-- If the assigned TA is not available and unable to help find an alternative, redirect your request to #ps-ta-ama
+- If the TA assigned does not specialize in the topics discussed on the customer call, they are responsible for coordinating with the TA team to identify a suitable expert.
+- If the assigned TA is unable to help find an alternative, redirect your request to #ps-ta-ama
 
 ### Scoping Related Questions
 
