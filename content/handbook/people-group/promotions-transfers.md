@@ -115,7 +115,7 @@ Below is the timeline for FY26:
 - Effective date for promotions: 2025-02-01
 - After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
 
-## FY26-Q4 (Nov 1)
+### FY26-Q4 (Nov 1)
 
 Status: Pending  
 
@@ -127,7 +127,7 @@ Status: Pending
 - Effective date for promotions: 2025-11-01
 - After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
-## FY27-Q2 (May 1)
+### FY27-Q2 (May 1)
 
 Status: Pending  
 
@@ -139,7 +139,7 @@ Status: Pending
 - Effective date for promotions: 2026-05-01
 - After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
-## FY27-Q4 (Nov 1)
+### FY27-Q4 (Nov 1)
 
 Status: Pending  
 
