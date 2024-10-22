@@ -209,7 +209,7 @@ GitLab considers both individual readiness and business need when we think about
 
 #### Values Alignment
 
-Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-2 core points per value of evidence supporting values alignment.
+Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Every Value should be referenced in the promotion document *at least once* with an example of how the promotion candidate contribution to the business result align to the Value. Please provide a 1-2 senteence example for Values that were not referenced in the Business Results section which highlight further how the team member has exhibited CREDIT. 
 
 - Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
