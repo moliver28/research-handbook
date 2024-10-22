@@ -48,8 +48,6 @@ Before rollout, make sure that the
 [Internal Rollout](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_rollout.md)
 and Internal Feedback issues have been created. Make sure to direct all feedback to the internal feedback issue.
 
-For further guidance around rolling out to GitLab team members, please refer to the
-
 ### Rollout to all users
 
 This step is done when the model is ready for widespread use. Rollout to all users can be done by percentage of actors (recommended), or you can rollout to all users at once.
