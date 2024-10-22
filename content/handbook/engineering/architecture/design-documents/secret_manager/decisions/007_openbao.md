@@ -1,5 +1,5 @@
 ---
-title: 'GitLab Secrets Manager ADR 004: Use OpenBao as the secrets management service'
+title: 'GitLab Secrets Manager ADR 007: Use OpenBao as the secrets management service'
 owning-stage: "~devops::verify"
 toc_hide: true
 ---
