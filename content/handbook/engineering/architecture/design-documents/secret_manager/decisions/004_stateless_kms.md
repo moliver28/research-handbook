@@ -1,5 +1,5 @@
 ---
-title: 'GitLab Secrets Manager ADR 004: Sateless Key Management Service'
+title: 'GitLab Secrets Manager ADR 004: Stateless Key Management Service'
 owning-stage: "~devops::verify"
 toc_hide: true
 ---

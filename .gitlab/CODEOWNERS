@@ -156,8 +156,8 @@
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
-/content/handbook/engineering/development/sec/ @twoodham
-/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @ryaanwells @shampton
+/content/handbook/engineering/development/sec/ @twoodham @jeromezng
+/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/govern/authorization.md @jayswain
@@ -257,7 +257,6 @@
 /content/handbook/engineering/readmes/lee-matos.md @lbot
 /content/handbook/engineering/readmes/lyle-kozloff.md @lyle
 /content/handbook/engineering/readmes/marin-jankovski.md @marin
-/content/handbook/engineering/readmes/mark-nuzzo.md @cheryl.li
 /content/handbook/engineering/readmes/matt-nohr.md @mnohr
 /content/handbook/engineering/readmes/max-woolf.md @mwoolf
 /content/handbook/engineering/readmes/mike-dunninger.md @mdunninger
@@ -629,7 +628,7 @@
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @marin @mbursi
-/content/handbook/company/working-groups/software-supply-chain-security.md @sam.white
+/content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @jeromezng
 
 [values]
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites

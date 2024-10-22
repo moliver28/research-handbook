@@ -24,25 +24,27 @@ flowchart TD
     A -->|cloud.gitlab.com| E
     A -->|customers.gitlab.com| F
     subgraph ide3 [Cloudflare WAF]
-    D[gitlab.com zone]
-    E[cloud.gitlab.com zone]
-    F[customers.gitlab.com zone]
+        D[gitlab.com zone]
+        E[cloud.gitlab.com zone]
+        F[customers.gitlab.com zone]
     end
-    A --> C
+    A -->|*.gitlab.io| C
+    A -->|registry.gitlab.com| N
     D --> G
     E --> G
     F --> H
     subgraph ide2 [GitLab]
-    subgraph ide1 [HAProxy]
-    C[pages_http]
-    G[http + ssh]
-    end
-    C --> K
-    H[nginx]
-    K[pages kubernetes limits]
-    K-->M[pages application limits]
-    I[Rack::Attack]
-    J[Gitlab::ApplicationRateLimiter]
+        subgraph ide1 [HAProxy]
+            C[pages_http]
+            N[registry_https]
+            G[http + ssh]
+        end
+        C --> K
+        H[nginx]
+        K[pages kubernetes limits]
+        K-->M[pages application limits]
+        I[Rack::Attack]
+        J[Gitlab::ApplicationRateLimiter]
     end
     G --> I
     G --> J
@@ -138,8 +140,11 @@ be discussed with the [Production Engineering::Foundations](https://gitlab.com/g
 
 ### HAProxy
 
-The majority of GitLab's traffic management rate limits have been moved out of HAProxy and into Cloudflare [[confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24699)].
-HAProxy is responsible for GitLab Pages rate limits and handling the bypass header, which allows for a configured list of IP addresses to bypass rate limits in HAProxy or [Rack Attack](https://github.com/rack/rack-attack). There are two types:
+The majority of GitLab's traffic management rate limits have been moved out of HAProxy and into Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24699) for more details).
+
+However, HAProxy is responsible for GitLab Pages and Registry rate limits, as those components are not fronted by Cloudflare.
+
+HAProxy also handles the bypass header, which allows for a configured list of IP addresses to bypass rate limits in HAProxy or [Rack Attack](https://github.com/rack/rack-attack). There are two types:
 
 1. **Internal**: Full bypass, including some other protections. Only CI runner managers (or similar) should ever be added to the internal list. Managed in Chef.
 1. **External IPs**: An allowlist of IP addresses. Managed in [Chef](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/62302c2219550f83b4427ceec2e303952c6ce333/roles/gprd-base-haproxy-main-config.json#L176). Requests from these IP addresses are still subject to additional checks, before bypassing the rest of the rate-limiting.
@@ -247,6 +252,10 @@ Because GitLab Pages is not behind CloudFlare and doesn't have CDN support, rate
 3. In the [go ratelimiter module](https://gitlab.com/gitlab-org/gitlab-pages/-/blob/master/internal/ratelimiter/ratelimiter.go?ref_type=heads) for Pages.
 
 For more information, see the [Pages Rate Limit documentation](https://docs.gitlab.com/ee/administration/pages/index.html#rate-limits).
+
+### Registry
+
+Registry is not fronted by Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/16468) for full details around why). There is no application-level setting for it either (though there is an [open feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/438690) to add that), so the only place where there is rate limiting in place for Registry is [in HAProxy](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/registry_https.erb).
 
 ## Headers
 

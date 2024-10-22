@@ -12,7 +12,7 @@ Below, we detail each component's role in this ecosystem, describe the flow of d
 
 ## Code Suggestions Technical Overview
 
-In most general sense Code Suggestions feature follow sequence as described on a diagaram below
+In most general sense Code Suggestions follow the sequence as described on the diagram below
 
 ```mermaid
 sequenceDiagram
@@ -64,8 +64,45 @@ Each code suggestion request is catogrised into a single category. Request categ
 Code completion interaction is one of two code creation requests that can be triggered by IDE. Its goal is to provide very fast responses (< 1 second)
 at the cost of smaller suggestion size, and less context awareness of surrounding source code or repository files.
 
-The request flow is the same as in [the diagram](#code-suggestions-technical-overview) in the Code Suggestions technical overview.
+By default, the code completion request is sent directly to the AI Gateway with direct connection details fetched from the GitLab Rails monolith,
+as shown in [the sequence described below](#code-completion-direct-connection-diagram).
+Alternatively, the request can be routed from the GitLab Rails monolith, as shown in
+[the diagram in the Code Suggestions technical overview](#code-suggestions-technical-overview).
+
 A request prepared by the Language Server is proxied in mostly unmodified form without any additional context being attached. GitLab Rails' role in this feature is limited to mostly an authorisation entity assuring that the given user is allowed to use the Code Suggestions feature.
+
+### Code Completion Direct Connection Diagram
+
+```mermaid
+sequenceDiagram
+    actor USR as  User
+    participant IDE
+    participant EXT as IDE Extension
+    participant LS as Language Server
+    participant GLR as GitLab Rails
+    participant AIGW as AI Gateway
+    participant LLM as Large Language Model
+
+    USR->>IDE: starts
+    IDE->>EXT: starts
+    loop Every 1 hour
+    EXT->>LS: triggers request for direct connection details
+    LS->>GLR: requests for direct connection details
+    GLR->>LS: returns direct connection details (AIGW url and token, model details)
+    LS->>LS: caches direct connection details for 1 hour
+    end
+    USR->>IDE: types: "def add(a, b)"
+    IDE->>EXT: notify about document change def add(a, b)
+    EXT->>LS: register document change def add(a, b)
+    LS->>AIGW: sends code suggestion requests
+    AIGW->>LLM: code suggestion request
+    LLM->>AIGW: "a + b"
+    AIGW->>LS:  suggestion: "a + b"
+    LS->>EXT: triggers IDE code suggestion UI: "a + b"
+    EXT->>IDE: triggers IDE code suggestion UI: "a + b"
+```
+
+The components pictured on the diagram are described in the [technical overview](#code-suggestions-technical-overview) section.
 
 ## Code Generation
 

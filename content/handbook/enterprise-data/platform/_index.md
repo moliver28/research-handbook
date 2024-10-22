@@ -33,6 +33,7 @@ This document is limited to describe the Data Platform conceptually. There are o
 - [Permifrost](/handbook/enterprise-data/platform/permifrost/)
 - [Python Guide](/handbook/enterprise-data/platform/python-guide/)
 - [Python/Tools package management and inventory](/handbook/enterprise-data/platform/python-tool-package-management/)
+- [Snowflake](/handbook/enterprise-data/platform/snowflake/)
 - [Snowplow](/handbook/enterprise-data/platform/snowplow/)
 - [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
 - [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
