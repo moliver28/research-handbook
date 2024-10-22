@@ -38,6 +38,22 @@ a new architecture for pipeline processing. Most of these problems have been dis
 - We want to decouple the manual jobs' blocking behavior from the `allow_failure` keyword.
 - We want to clarify the responsibilities of the `when` keyword.
 
+### Customer Impact
+
+Once these goals are accomplished, we expect to see significant improvements in the user experience with GitLab CI.
+The changes will provide many benefits to users:
+
+- The removal of ambiguous overlaps between the `when` and `allow_failure` keywords
+  will reduce the complexity of writing pipeline configurations.
+  Clearer responsibilities for keywords will make it easier for users to understand and maintain their pipeline configurations,
+  especially in complex workflows with multiple jobs and stages.
+  - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/233876), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/382179),
+    [3](https://gitlab.com/gitlab-org/gitlab/-/issues/20237), [4](https://gitlab.com/gitlab-org/gitlab/-/issues/17759).
+- By unifying the behaviors of DAG and STAGE, pipelines will become more predictable, reducing the chances of unexpected results.
+  - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/233712), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/219371).
+- Users will have more confidence that their pipelines will execute exactly as defined, with fewer edge cases and unexpected overlaps between keywords.
+  - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/388866).
+
 ## Non-Goals
 
 We will not discuss how to avoid breaking changes for now.
