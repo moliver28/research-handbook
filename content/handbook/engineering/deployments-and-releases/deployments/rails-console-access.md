@@ -18,7 +18,7 @@ Access to the [GitLab Rails Console](https://docs.gitlab.com/ee/administration/o
 
 1. Read-only rails console permissions are appropriate for critical debugging scenarios where no alternative method is available
 2. Making changes through the rails console is prohibited
-3. All production changes must be implemented through version-controlled code deployments. This ensures that those changes are traceable, reproducible, and testable.
+3. All production changes must be implemented through version-controlled code deployments or chatops. This ensures that those changes are traceable, reproducible, and testable.
 
 ### Exceptions to this policy
 
