@@ -21,7 +21,7 @@ The practice starts from the first conversation at the discovery and scoping sta
 Derisking a customer's buying decision by incorporating the business value discussion and exercise into the customer engagement is important. GitLab provides a comprehensive AI-powered DevSecOps platform that provides the software delivery solution with high impacts on business, technology and teams across the organization.
 Organizations need to make their strategic investment in DevSecOps with demonstrable ROI and path to value realization.
 
-Often times, the business value conversation started with the customers wanting to understand more value proposition and business outcomes. GitLab as the industry leader in DevSecOps can provide referencable customer journey and quantitiative measures. SAs can provide the consultantive advices to identify transformational drivers for the organizations and help measure the results of DevSecOps transformation as the performance improvement.
+Often times, the business value conversation started with the customers wanting to understand more value proposition and business outcomes. GitLab as the industry leader in DevSecOps can provide referencable customer journey and quantitiative measures. SAs can provide the consultative advices to identify transformational drivers for the organizations and help measure the results of DevSecOps transformation as the performance improvement.
 
 ## Utilizing the Business Value Services tool to create Business Value Assessments (BVAs)
 
