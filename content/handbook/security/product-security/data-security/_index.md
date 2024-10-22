@@ -9,7 +9,7 @@ GitLab's Data Security team is responsible for investigating and remediating iss
 
 The Data Security Team's remit includes (but isn't sharply limited to):
 
-* Data stored out of compliance with our [data classification standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/) or our associated [infrastructure standards](https://handbook.gitlab.com/handbook/company/infrastructure-standards/)
+* Data stored out of compliance with our [data classification standard](/handbook/security/data-classification-standard/) or our associated [infrastructure standards](handbook/company/infrastructure-standards/)
 * Secrets and encryption keys stored outside [KMS](https://en.wikipedia.org/wiki/Key_management#Key_management_system) or [HSM](https://en.wikipedia.org/wiki/Hardware_security_module) systems
 * Copies of RED data outside official production systems
 * Excessive permission grants in production systems that give the power to a single person to `rm -rf gitlab.com` (or similar)
@@ -63,7 +63,7 @@ As our processes develop, we'll add more status labels and the like to our issue
 
 ### Confidentiality
 
-In keeping with [our value of Transparency](https://handbook.gitlab.com/handbook/values/#transparency), this issue tracker is open to everyone at GitLab. *If you feel a need to ask us to look into an issue in a way that will not be tagged with your identity, please DM someone on the team and have them create the issue for you.*
+In keeping with [our value of Transparency](/handbook/values/#transparency), this issue tracker is open to everyone at GitLab. *If you feel a need to ask us to look into an issue in a way that will not be tagged with your identity, please DM someone on the team and have them create the issue for you.*
 
 ### Anything else
 
