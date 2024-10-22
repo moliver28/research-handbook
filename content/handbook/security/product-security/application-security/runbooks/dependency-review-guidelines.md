@@ -25,4 +25,4 @@ After you have done the above, please add a comment to the MR/issue the develope
 
 The review guidelines for Gems are applicable for reviewing npm packages as well, in addition to that:
 
-1. If [npm aliases](https://docs.npmjs.com/cli/v8/using-npm/package-spec#aliases) are noticed verify that the package referred by alias name is not malicious.
+- If [npm aliases](https://docs.npmjs.com/cli/v8/using-npm/package-spec#aliases) are noticed verify that the package referred by alias name is not malicious.
