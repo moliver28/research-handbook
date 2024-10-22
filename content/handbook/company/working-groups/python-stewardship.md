@@ -48,6 +48,7 @@ Milestones
 | A ruby developer has guidance on how to understand and contribute to python codebase |  |  |  |  |
 | Guidelines and templates for python codebase creation (as described in outcomes) have been merged |  |  |  |  |
 | Code review and maintainership guidelines for python codebase have been merged |  |  |  |  |
+| Guidelines for deployment of each of the three application types |  |  |  |  |
 
 ## Outcomes
 
@@ -63,11 +64,16 @@ Documentation and process:
   - Authentication  
   - Testing guidelines 
 - Code review and maintainership guidelines
+- Deployment guidelines
+  - Python services (AIGW, workflow)  
+  - python utilities (CEF)  
+  - libraries  
 
 Development experience:
 
 - Extraction of common setup  
   - Linters  
+  - Frameworks
   - Code Structure  
   - CI for deployment
 
