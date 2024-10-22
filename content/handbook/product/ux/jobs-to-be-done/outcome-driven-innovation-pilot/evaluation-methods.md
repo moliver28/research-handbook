@@ -15,7 +15,7 @@ Continuous evaluation involves establishing predictable, repeatable, low-effort,
 
 ### Benchmarking the Domain With The Outcome Survey
 
-Benchmarking helps identify improvement areas, evaluate whether we're innovating effectively, reach user expectations, measure progress, set performance standards, and understand the competitive landscape. This is all achieved through an _Outcome Survey_.
+Benchmarking helps identify improvement areas, evaluate whether we're innovating effectively, meeting user expectations, measuring progress, setting performance standards, and understanding the competitive landscape. This is all achieved through an _Outcome Survey_.
 
 An Outcome Survey identifies and prioritizes the specific Outcomes that users seek when using a product or service. Unlike traditional surveys that focus on user satisfaction or feature preferences, an Outcome Survey delves into the fundamental Job that users are trying to accomplish and the specific desired Outcomes related to that Job. This structured approach enables product teams to pinpoint and prioritize the Outcomes that drive user behavior and satisfaction, guiding product development efforts toward delivering solutions that effectively address these critical user needs.
 
