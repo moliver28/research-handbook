@@ -70,7 +70,7 @@ With an established benchmark, evaluating the design is a much simpler process. 
 
 #### Alignment with UX Heuristics
 
-The three dimensions, Speed, Reliability, and Efficiency, directly correlate with GitLab's UX Heuristics. Due to this alignment, it is not necessary to evaluate designs for each of these elements independently. Instead, using this framework, the ideal scenario for Job Performers involves **instant task completion**, **100% reliability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
+The three dimensions of Speed, Reliability, and Efficiency directly correlate with GitLab's UX Heuristics. Due to this alignment, it is not necessary to evaluate designs for each of these elements independently. Instead, using this framework, the ideal scenario for Job Performers involves **instant task completion**, **100% reliability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
 
 | UX Heuristic | Speed | Reliability | Efficiency |
 | --------- | ------------- | ---------------------- | ------------------ |
