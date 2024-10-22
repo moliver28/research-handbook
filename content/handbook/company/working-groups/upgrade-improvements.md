@@ -70,7 +70,6 @@ Other goals
 1. Remove required upgrade stops from GitLab upgrade cadence
 2. Breaking changes are limited to major releases
 
-
 ### Overview
 
 Upgrading GitLab can be challenging, varying in difficulty from upgrade to upgrade and deployment. The working group reviewed [FY25 emergency upgrade tickets so far](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/2808 "Review of Upgrade issues captured in FY25"), gitlab.com [deployment blocker dashboard](https://dashboards.gitlab.net/d/delivery-deployment_blockers/delivery3a-deployment-blockers?orgId=1), and customer conversations, group Distribution is also [reviewing and validating current upgrading process](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1597 "Test varying upgrade scenarios and test for pain points").
