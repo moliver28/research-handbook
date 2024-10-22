@@ -668,6 +668,7 @@ If you represent a company with innovative solutions in package management, secu
 * [Import NuGet packages from Artifactory](https://www.youtube.com/watch?v=kgUVjbudfv4)
 * [Import Maven packages from Artifactory](https://www.youtube.com/watch?v=Br3TO0dMYAY)
 * [Pull npm packages from your group or sub-group](https://youtu.be/-5Wm61x4Y5k)
+* [Protect your npm packages from being overwritten](https://youtu.be/GP3fqOAz4Ag)
 
 #### Container Registry
 
