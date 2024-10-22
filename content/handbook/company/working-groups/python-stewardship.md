@@ -20,13 +20,13 @@ status: not started
 
 - Consolidate Python development within GitLab, providing confidence to developers on developing high-quality python codebases. 
 - Simplify developer decision making by providing opininated guidelines on how to create, maintain and deploy Python services and libraries in GitLab.
-- Define resources (courses, mentorship) for training Ruby developers that want or need to contribute to a python codebase.
+- Define resources (courses, mentorship) for training  developers that want or need to contribute to a python codebase.
 
 ## Context
 
-While python has been present at small scale for many years in the company, the evolution of our AI Infrastructure lead to Python becoming a critical part of our product. Yet, we haven't consolidated a development culture around it. 
+While Python has been present at small scale for many years in the company, the evolution of our AI Infrastructure lead to Python becoming a critical part of our product. Yet, we haven't consolidated a development culture around it. 
 
-As a result, developers are confused on how to write code, how to review, and how to set up new functionality. Ruby developers also feel a lack of support when it comes to understanding and contributing to the codebase. One key difference between our Ruby codebase and our Python codebase is that the Python codebase is more distributed: instead of having a single repository we have multiple each responsible for an area.
+As a result, developers are confused on how to write Python code, how to review Python code, and how to set up new functionality. Ruby developers also feel a lack of support when it comes to understanding and contributing to the codebase. One key difference between our Ruby codebase and our Python codebase is that the Python codebase is more distributed: instead of having a single repository we have multiple each responsible for an area.
 
 Examples of existing python codebases:
 
@@ -39,7 +39,7 @@ Examples of existing python codebases:
 Milestones
 17.7 - Kick off of Working group
 17.8 - Contributions to documentation
-17.9 - Define templates for python services, libraries and utilities
+17.9 - Define templates for python services, libraries, linting and utilities
 
 ## Exit Criteria
 
@@ -77,7 +77,11 @@ Development experience:
 |-----------------------|-----------------------|--------------------------------|
 | Executive Sponsor | Tim Zallmann | VP of Engineering |
 | Facilitator | Eduardo Bonet | Staff Fullstack Engineer, Custom models |
-| Member | - | - |
+| Member | Fred de Gier | Staff Fullstack Engineer, MLOps |
+| Member | Alejandro Rodríguez | Senior Backend Engineer, AI Framework |
+| Member | Alexander Chueshev | Staff ML Engineer, AI Framework |
+| Member | Tan Le | Staff ML Engineer, Model Validation |
+| Member | Stephan Rayner | Senior ML Engineer, Model Validation |
 
 ### Non-goals
 
