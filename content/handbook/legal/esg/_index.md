@@ -216,6 +216,7 @@ Please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new
 Many of you already volunteer in your community and we want to capture how you make an impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story! 
 
 ### Contribute to GitLab’s OSS codebase
+
 At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance and our ESG programs such as GiveLab.
 
 Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time contributing to GitLab help live our mission and contribute to the open source community.
@@ -303,14 +304,17 @@ The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quar
 **GiveLab Champions By Division**
 
 Engineering
+
 - Brenda Nyaringita
 - Max Woolf
 - Yasha Rise
 
 Finance
+
 - Rendi Miller
 
 Legal & Corporate Affairs
+
 - April Skeete
 - Emily Plotkin
 - Kim Buncle
@@ -318,6 +322,7 @@ Legal & Corporate Affairs
 - Stacy Cline
 
 Marketing
+
 - Alisha Ward
 - Ben Rudd
 - Darwin Sanoy
@@ -326,9 +331,11 @@ Marketing
 - Tess Dutton
 
 People
+
 - Samantha Lee
 
 Product
+
 - Michaela Seferian-Jenkins
 
 #### In Kind Support
