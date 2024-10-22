@@ -108,7 +108,7 @@ The components pictured on the diagram are described in the [technical overview]
 
 Code Generation interaction is another type of code creation request that can be triggered by IDE. Its goal is to provide long and extensive responses generating
 complete blocks of code like functions or classes. It has a much longer response time than code completions (up to 30 seconds). This type of code creation request
-takes extended context into account when resolving the user task. This context comes from current files in IDE as well as [Repository X Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) report.
+takes extended context into account when resolving the user task. This context comes from current files in IDE as well as [Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) report.
 
 ```mermaid
 sequenceDiagram
@@ -120,7 +120,7 @@ sequenceDiagram
 
     USR->>+IDE: types: "#35; generate a function that transposes a matrix"
     IDE->>+GLR: trigger code generation for line ` "#35; generate function `
-    GLR->>PG: fetch X Ray report for project and language
+    GLR->>PG: fetch X-Ray report for project and language
     PG->>GLR:  xray_reports record
     GLR->>GLR: include first 50 entities from xray report into code generation prompt
     GLR->>-AIGW: trigger code generation ` "#35; generate function `
@@ -129,43 +129,28 @@ sequenceDiagram
 In above diagram some components (inc: GitLab Workhorse or Language Server) are ommitted for brevity reasons. However high level flow of requests shown in [technical overview](#code-suggestions-technical-overview) section
 remains unchanged.
 
-## Repository X Ray
+## Repository X-Ray
 
-[Repository X Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) is a feature that generates additional context data for code generation requests. This data is used to ground the AI model into the context of existing source code and align it with its private API as well as coding patterns.
+[Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) is a feature that generates additional context data for code generation requests. This data is used to ground the AI model into the context of existing source code and align it with its private API as well as coding patterns.
 
-Repository X Ray report is generated as shown on following diagram:
+Repository X-Ray report is generated as shown on following diagram:
 
 ```mermaid
 sequenceDiagram
    actor USR as User
-   participant RN as GitLab Runner
-
-
+   participant GIT as Gitaly
    participant GLR as GitLab Rails
    participant PG as GitLab PostgreSQL DB
-   participant AIGW as AI Gateway
 
-
-   USR->>GLR: commits changes <br> to a package manager file <br>eg. Gemfile.lock
-   GLR->>+RN: triggers Repository X Ray CI scanner job
-   loop for each batch of packages
-       RN->>GLR: Request packages description by AI
-       GLR->>AIGW: Forward request for packages description
-       AIGW->>GLR: Packages description
-       GLR->>RN: Forwards packages description
-   end
-   RN->>-GLR: Repository X Ray report
-   GLR->>+GLR: triggers Repository X Ray ingestion background job
-   GLR->>-PG: upserts xray_reports record
+   USR->>GLR: commits a change to the project's default branch
+   GLR->>+GLR: triggers Repository X-Ray background job
+   GLR->>GIT: fetches relevant files on default branch
+   GIT->>GLR: file blobs
+   GLR->>GLR: processes file blobs
+   GLR->>-PG: upserts xray_reports records
 ```
 
-Components pictured on diagram are as follows:
-
-1. [GitLab Runner](https://docs.gitlab.com/runner/) - an application that works with GitLab CI/CD to run jobs in a pipeline.
-1. GitLab PostgreSQL DB - relational database engine storing GitLab operational data.
-1. [Repository X Ray CI scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) - a golang program designed to be executed inside a CI/CD job that scans repository files in search of package manager config files like: Gemfile.lock, or package.json, and process their content to build additional data used as Code Suggestion context.
-
-Existing Repository X Ray reports are included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph.
+Existing Repository X-Ray reports are included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph.
 
 ## Code Tasks
 
