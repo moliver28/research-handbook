@@ -132,6 +132,7 @@ Which are formed as follows:
 ### Trial Nurture Variations
 
 Following the launch of Duo Enterprise trials, we have several different trial nurtures running in either Iterable or Marketo.  These nurtures send to the Owner role who starts the trial. The goal of these programs is to drive usage for Ultimate + Duo Enterprise and in turn influence conversion: 
+
 * Existing/New Free GitLab.com users – GitLab Ultimate + Duo Enterprise
   * [Copy](https://docs.google.com/document/d/1M51p0y3gy7su0pmGzxSyCvpGyX2MMX6EvrWR6i0pnz8/edit?tab=t.0#heading=h.6vgpxnyb4dh1)
   * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-547&t=dAK4P0jDMagKwjQi-4)
@@ -153,7 +154,8 @@ Following the launch of Duo Enterprise trials, we have several different trial n
   * [All links & UTMs](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?gid=1610951020#gid=1610951020&range=A71:E71)
   * [Iterable link](https://app.iterable.com/workflows/469713/edit?mode=beta&workflowType=Published)
 
-Self-managed nurtures are sent from Marketo and are typically very similar to GitLab.com nurtures with slight variations (no login links)
+Self-managed nurtures are sent from Marketo and are typically very similar to GitLab.com nurtures with slight variations (no login links):
+
 * GitLab Self Managed Duo Enterprise - Ultimate only
   * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=406-243&t=dAK4P0jDMagKwjQi-4)
   * [Marketo link](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP20863A1)
@@ -164,8 +166,8 @@ Self-managed nurtures are sent from Marketo and are typically very similar to Gi
   * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=93-712&t=eyT857zkRpaDz15o-4)
   * [Marketo link](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP8569A1)
 
-
 There are several localized nurtures that have launched for GitLab.com Trials. These are not up to date with Duo information, as Duo is only available in English currently. These are the localized nurtures:
+
 * [Iterable routing](https://app.iterable.com/workflows/438798/edit?mode=beta&workflowType=Published)
 * French:
   * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-726&t=X0kRQJyEFM6qUCgj-4)
@@ -176,8 +178,6 @@ There are several localized nurtures that have launched for GitLab.com Trials. T
 * Japanese:
   * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-728&t=X0kRQJyEFM6qUCgj-4)
   * [Iterable link](https://app.iterable.com/workflows/432466/edit?mode=beta&workflowType=Published)
-
-
 
 ### Free User Onboarding Email Campaigns
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -220,7 +220,6 @@ Basically, we have a series of emails that deploy to net new namespaces. The goa
 All of the HTML email files are in [Iterable](https://app.iterable.com/campaigns/manage?folderId=618897).
 
 For a more in-depth look at how these emails work, please review the [Figma journey](https://www.figma.com/file/FdF9bhLOtPKah7IxarPNjO/Aug-2023-Iterable-Free-User-Email-Journey?type=whiteboard&node-id=0%3A1&t=CsoAGTyGQ4j5rLR1-1).
-
 
 ### Invited users 
 
