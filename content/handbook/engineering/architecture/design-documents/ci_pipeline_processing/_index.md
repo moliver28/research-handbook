@@ -352,10 +352,93 @@ test:
 - `build2` runs and succeeds.
 - `test` runs because "success" + "skipped" is a successful state.
 
+#### Brainstorming on the skipped and ignored states
+
+What should be the behavior of the "skipped" and "ignored" states?
+Let's go over an example;
+
+_(In this scenario, we assume that we don't have any difference between DAG and STAGE behaviors.)_
+
+**Example 1:**
+
+```yaml
+build1:
+  stage: build
+  script: ./build1.sh
+
+build2:
+  stage: build
+  script: ./build2.sh
+
+test1:
+  stage: test
+  script: ./test1.sh
+  needs: [build1]
+
+test2:
+  stage: test
+  script: ./test2.sh
+  needs: [build2]
+
+rollback:
+  stage: finalize
+  script: ./rollback.sh
+  when: on_failure
+  needs: [test1, test2]
+
+deploy:
+  stage: finalize
+  script: ./deploy.sh
+  needs: [test1, test2]
+```
+
+What happens when `build1` fails?
+
+1. `build1` runs and fails.
+1. `build2` runs and succeeds.
+1. `test1` is skipped because it has `needs: [build1]` and its composite previous status is "failed".
+1. `test2` runs and succeeds.
+1. Are we going to run `rollback`? It has `when: on_failure` and its composite previous status is "skipped".
+1. `deploy` is skipped because it has `needs: [test1, test2]` and its composite previous status is "skipped".
+1. The status of the stage `build` is "failed".
+1. The status of the stage `test` is "success".
+1. What is the status of the stage `finalize`?
+1. What is the overall status of the pipeline?
+
+**Proposal: Introducing `when: on_not_success`**
+
+The current behavior of `when: on_failure` triggers jobs only when there is a clear failure.
+However, in some cases, you may want to trigger a job not just for explicit failures but also
+when a job is skipped due to a previous failure or another condition.
+
+Let's replace `when: on_failure` with `when: on_not_success` in the previous example;
+
+```yaml
+# ...
+
+rollback:
+  stage: finalize
+  script: ./rollback.sh
+  when: on_not_success
+  needs: [test1, test2]
+
+# ...
+```
+
+What happens when `build1` fails?
+
+1. ...
+1. `rollback` runs and succeeds because it has `when: on_not_success` and its composite previous status is "skipped".
+1. ...
+1. The status of the stage `finalize` is "success".
+1. The overall status of the pipeline is "failed".
+
 ### Problem 5: The `dependencies` keyword
 
 The [`dependencies`](https://docs.gitlab.com/ee/ci/yaml/index.html#dependencies) keyword is used to define a list of jobs to fetch
-[artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifacts) from. It is a shared responsibility with the `needs` keyword.
+[artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifacts) from. When `dependencies` is not defined in a job,
+all jobs in earlier stages are considered dependent and the job fetches all artifacts from those jobs.
+It is a shared responsibility with the `needs` keyword.
 Moreover, they can be used together in the same job. We may not need to discuss all possible scenarios but this example
 is enough to show the confusion;
 
@@ -507,8 +590,8 @@ All proposals or future decisions must follow these goals;
 
 **Clarify the behavior of the `when` keyword**
 
-- The `when` keyword will continue to decide **under what conditions a job should run**. It will not control job types or pipeline inclusion.
-- The `when` keyword will only answer the question: _What is required for this job to run?_
+- The `when` keyword will continue to decide and answer only the question of **under what conditions a job should run**.
+  It will not control job types or pipeline inclusion.
   - For example: `when: on_success`, `when: on_failure`, `when: always`.
 
 **New way to control pipeline inclusion**
@@ -516,11 +599,26 @@ All proposals or future decisions must follow these goals;
 - A new keyword (`included`) will be introduced to control whether a job is included in the pipeline.
 - This keyword will be used to define whether a job should be added to the pipeline or not.
 - For example, a job with `included: false` will not be added to the pipeline.
+- This replaces the previous `when: never` keyword, which was used to exclude jobs from pipelines.
 
 **Standardize handling of the "skipped" and "ignored" states**
 
 - **Skipped jobs** will be treated as **unsuccessful** for pipeline flow decisions. Jobs with `when: on_success` will not run after a skipped job.
 - **Ignored jobs** (non-blocking manual jobs) will be treated as **neutral** and will not prevent `when: on_success` jobs from running.
+
+**Introduce the new `when: on_not_success` keyword**
+
+- A new keyword, `when: on_not_success`, will be introduced to trigger jobs when a previous job is skipped or failed.
+- This keyword will allow jobs to run when a previous job is not successful, including skipped jobs.
+- This keyword will provide a more flexible way to control job execution based on the pipeline status.
+
+**Differentiate the composite status calculation for jobs and stages/pipelines**
+
+- We need to differentiate the composite status calculation between job requirements and the overall stage/pipeline.
+- When calculating the overall status of a stage or pipeline, jobs with a `skipped` status are ignored,
+  they do not affect the final status of the stage or pipeline.
+- This ensures that `skipped` jobs won't influence the outcome,
+  but the final stage or pipeline status is determined based on the remaining relevant jobs.
 
 **Unify DAG and Stage behaviors**
 
@@ -539,8 +637,10 @@ All proposals or future decisions must follow these goals;
 job1:
   execution: automatic # default, options: automatic, manual, delayed
   when: on_success # default, options: on_success, on_failure, always
-  included: true # default, options: true, false
   script: exit 0 # success
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+      included: true # default, options: true, false (replaces `when: never`)
 
 job2:
   execution: manual
