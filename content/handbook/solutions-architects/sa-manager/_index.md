@@ -87,6 +87,7 @@ As part of reviewing and supporting the team activities, SA Managers should meet
 ### Monthly
 
 1. **Review SA Vacation Reports** in Workday
+2. **Review SA Monthly Expenses** in Navan
 
 ### Quarterly
 
@@ -100,8 +101,8 @@ As part of reviewing and supporting the team activities, SA Managers should meet
 
 ### Semi-Annually
 
-1. [SA Talent Assessment](/handbook/people-group/talent-assessment/)
-2. [Team and Skills Assessment](/handbook/solutions-architects/sa-manager/#team-assessment)
+1. [**SA Talent Assessment**](/handbook/people-group/talent-assessment/)
+2. [**Team and Skills Assessment**](/handbook/solutions-architects/sa-manager/#team-assessment)
 
 ### Annually
 
