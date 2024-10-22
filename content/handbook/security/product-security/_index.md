@@ -16,6 +16,25 @@ Our mission is to set the standard for product security by fostering a culture o
 
 Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
 
+### Product Security Risk Register
+
+The Product Security Risk Register is driven by and follows the [StORM process](/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](/handbook/security/security-assurance/security-risk/).
+
+Objectives
+
+- Serves as a centralized tool for identifying, evaluating, mitigating, and monitoring systemic risks that can impact GitLab's operations and reputation, but that doesn't meet the criteria to tracked by the Security Risk team. Specific vulnerabilities or components based vulnerabilities **should not** be part of the PSRR.
+- Identify clear DRIs to help in reducing and mitigating the risk. They will ensure that all stakeholders are aware of potential risks and are working collaboratively to manage them.
+
+Our main responsibility involves providing consultancy help to Engineering teams applying the right priority as well as reviewing the solution(s) to reduce or mitigate the risk.
+
+You can find this list in the [StORM repository](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Department%3A%3AProduct%20Security&first_page_size=20) (internal), or [consult the dashboard here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/boards/7816349?label_name[]=Department%3A%3AProduct%20Security) (internal).
+
+To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/new?issuable_template=ProdSec%20StORM%20Risk%20Template) (internal).
+
+#### Review
+
+Risks tracked in our risk register are reviewed on a quarterly basis.
+
 ## Collaboration is Key
 
 Success in product security is not confined to PSD or even the Security Division. It requires a concerted effort across the entire GitLab ecosystem. Collaboration is crucial, involving not just our security counterparts but the broader organization. Key disciplines and capabilities, from Security Operations to Site Reliability Engineering, while not directly under PSD's purview, are vital to our strategy's success.
