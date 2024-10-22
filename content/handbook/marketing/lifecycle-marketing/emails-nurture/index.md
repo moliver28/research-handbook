@@ -13,8 +13,6 @@ This page focuses on emails and nurture programs, owned and managed by Lifecycle
 
 Please visit our other pages for more information on [email best practices](/handbook/marketing/lifecycle-marketing/email-best-practices), [email processes and requests](/handbook/marketing/lifecycle-marketing/email-processes-requests), and [general team information](/handbook/marketing/lifecycle-marketing/).
 
-*The [Persona Nurture](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture) (formerly the Intelligent Nurture after relaunch on 2023-11-06) aims at progressing leads from RAW > INQ > MQL > SAO, and leverages segment/region data to provide the *right offer* to the *right person* at the *right time* - based on their region and persona.*
-
 **Related Handbook: [Email Management](/handbook/marketing/marketing-operations/email-management/)**
 
 **Key foundational elements to achieve this:**
@@ -36,12 +34,15 @@ Please visit our other pages for more information on [email best practices](/han
 
 * [Combine nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3979)
 * [FY25 Persona Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4798)
+* [FY25 Ultimate + Duo Enterprise Trial Nurture](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5243)
 * [FY25 Trial Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4797)
 * [All nurtures: CTA & UTM documentation](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit#gid=711539408)
 
 ## Email Nurture Programs
 
 ### Persona Email Nurture
+
+*The [Persona Nurture](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture) (formerly the Intelligent Nurture after relaunch on 2023-11-06) aims at progressing leads from RAW > INQ > MQL > SAO, and leverages segment/region data to provide the *right offer* to the *right person* at the *right time* - based on their region and persona.*
 
 #### Quick Links
 
@@ -81,15 +82,7 @@ The following shows the day of the week and cadence of the different streams in 
   * Japanese: Wednesday (Thursday JP time), 5:00PM PT
   * Korean: Wednesday (Thursday JP time), 5:00PM PT
   * Portuguese: Inactive - leads rerouted to English nurtures
-* PubSec
-  * PubSec Default: Thursday, 7:00AM PT
-  * Civilian (CIV): Thursday, 7:00AM PT
-  * Department of Defense (DoD): Thursday, 7:00 AM PT
-  * Federal Systems Integrators (FSI): Thursday, 7:00AM PT
-  * National Security Group (NSG): Thursday, 7:00AM PT
-  * SLED: Thursday, 7:00AM PT
-* Non-Demand Generation Nurture
-  * All Remote: Thursday, 6:00AM PDT (not actively being maintained)
+* PubSec Default: Thursday, 7:00AM PT
 
 ### Persona Nurture Processes
 
@@ -107,15 +100,7 @@ Which are formed as follows:
 [APAC](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4550A1LA1)
 [EMEA](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4552A1LA1)
 [LATAM](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4553A1LA1)
-
-**PUBSEC NURTURE:**
-
 [PubSec general nurture](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR3876A1LA1)
-[Civilian (CIV)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4486A1LA1)
-[Department of Defense (DoD)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4488A1LA1)
-[Federal Systems Integrators (FSI)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4490A1LA1)
-[National Security Group (NSG)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4492A1LA1)
-[State, local, and education (SLED)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4494A1LA1)
 
 **LOCALIZED NURTURE:**
 
@@ -131,34 +116,70 @@ Which are formed as follows:
 
 [LOC-SPANISH](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR3050A1LA1)
 
-To be able to extract a complete report of email metrics, you just must click on the link corresponding to the Nurture where your email is.
-
-Also, in case of not having access to Marketo to download the report you can go to the following folder where the reports of each nurture are uploaded on a monthly basis. [Intelligent Nurture KPI](https://drive.google.com/drive/folders/1bpopmeEE9DDA0g50pw6Pr_PO_FPsS9-d?usp=sharing)
-
 ### User nurtures (GitLab product users)
 
-#### Trial nurture
+#### Trial nurtures
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* **Goal:** Educate trialers about key features to use during 30 day period.
-* **Delivery System:** Iterable (SaaS) & Marketo (SM)
+* **Goal:** Educate trialers about key features to use during 60 day period and give them materials to consider upgrading or purchasing an add-on. 
+* **Delivery System:** Iterable (GitLab.com) & Marketo (SM)
 
-* [Figma file - with trial experience](https://www.figma.com/file/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-updates-2023_2023-08-22_10-19-25?type=whiteboard&t=hPlLyXaGRSF8sgoP-0)
-* [FY25 Trial Nurture Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4797)
+* [Figma file - with all trial experiences](https://www.figma.com/file/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-updates-2023_2023-08-22_10-19-25?type=whiteboard&t=hPlLyXaGRSF8sgoP-0)
+* [FY25 Ultimate + Duo Enterprise Trial Nurture](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5243)
 * [Email copy doc](https://docs.google.com/document/d/1Pz0RxtBUsJgkrbeHDN9Oh8xSsh2054C0-VPfn0Nf-kw/edit?usp=sharing)
+* [FY25 Trial Nurture Epic - old](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4797)
 
-#### Setup for Trial Nurture
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Trial Nurture Variations
 
-Self Managed owners go through the [Marketo Program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP8569A1)
+Following the launch of Duo Enterprise trials, we have several different trial nurtures running in either Iterable or Marketo.  These nurtures send to the Owner role who starts the trial. The goal of these programs is to drive usage for Ultimate + Duo Enterprise and in turn influence conversion: 
+* Existing/New Free GitLab.com users – GitLab Ultimate + Duo Enterprise
+  * [Copy](https://docs.google.com/document/d/1M51p0y3gy7su0pmGzxSyCvpGyX2MMX6EvrWR6i0pnz8/edit?tab=t.0#heading=h.6vgpxnyb4dh1)
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-547&t=dAK4P0jDMagKwjQi-4)
+  * [All links & UTMs](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?gid=1610951020#gid=1610951020&range=A1:E1)
+  * [Iterable link](https://app.iterable.com/workflows/542021/edit?mode=beta&workflowType=Published)
+* Existing Premium SKU users – GitLab.com Ultimate + Duo Enterprise
+  * [Copy](https://docs.google.com/document/d/1M51p0y3gy7su0pmGzxSyCvpGyX2MMX6EvrWR6i0pnz8/edit?tab=t.0#bookmark=id.szvw1qco6fce)
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=436-584&t=dAK4P0jDMagKwjQi-4)
+  * [All links & UTMs](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?gid=1610951020#gid=1610951020&range=A56:E56)
+  * [Iterable link](https://app.iterable.com/workflows/547740/edit?mode=beta&workflowType=Published)
+* Existing Ultimate users – GitLab.com Duo Enterprise standalone
+  * [Copy](https://docs.google.com/document/d/1M51p0y3gy7su0pmGzxSyCvpGyX2MMX6EvrWR6i0pnz8/edit?tab=t.0#bookmark=id.szvw1qco6fce)
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=406-243&t=dAK4P0jDMagKwjQi-4)
+  * [All links & UTMs](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?gid=1610951020#gid=1610951020&range=A100:E100)
+  * [Iterable link](https://app.iterable.com/workflows/543584/edit?mode=beta&workflowType=Published)
+* Existing Premium SKU users - GitLab Duo Pro standalone
+  * [Copy](https://docs.google.com/document/d/1FpdU3HSHHiUywC0VnBlKcVmATGn6Nhtgta4jXRuBAkU/edit?usp=sharing)
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=140-222&t=eyT857zkRpaDz15o-4)
+  * [All links & UTMs](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?gid=1610951020#gid=1610951020&range=A71:E71)
+  * [Iterable link](https://app.iterable.com/workflows/469713/edit?mode=beta&workflowType=Published)
 
-UTMs: ?utm_medium=email&utm_source=marketo&utm_campaign=trial-nurture&utm_content=(custom per email)
+Self-managed nurtures are sent from Marketo and are typically very similar to GitLab.com nurtures with slight variations (no login links)
+* GitLab Self Managed Duo Enterprise - Ultimate only
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=406-243&t=dAK4P0jDMagKwjQi-4)
+  * [Marketo link](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP20863A1)
+* GitLab Self Managed Duo Pro - Premium only
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=140-222&t=eyT857zkRpaDz15o-4)
+  * [Marketo link](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP18565A1)
+* GitLab Self managed Ultimate trial
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=93-712&t=eyT857zkRpaDz15o-4)
+  * [Marketo link](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP8569A1)
 
-SaaS owners are now going through the program in [Iterable](https://app.iterable.com/workflows/361081/edit?mode=beta&workflowType=Published).
 
-UTMs: ?utm_source=Iterable&utm_medium=email&utm_campaign=trial-nurture
+There are several localized nurtures that have launched for GitLab.com Trials. These are not up to date with Duo information, as Duo is only available in English currently. These are the localized nurtures:
+* [Iterable routing](https://app.iterable.com/workflows/438798/edit?mode=beta&workflowType=Published)
+* French:
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-726&t=X0kRQJyEFM6qUCgj-4)
+  * [Iterable link](https://app.iterable.com/workflows/444999/edit?mode=beta&workflowType=Published)
+* German:
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-727&t=X0kRQJyEFM6qUCgj-4)
+  * [Iterable link](https://app.iterable.com/workflows/443446/edit?mode=beta&workflowType=Published)
+* Japanese:
+  * [Figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=427-728&t=X0kRQJyEFM6qUCgj-4)
+  * [Iterable link](https://app.iterable.com/workflows/432466/edit?mode=beta&workflowType=Published)
 
-#### Free User Onboarding Email Campaigns
+
+
+### Free User Onboarding Email Campaigns
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Sent through Iterable**
@@ -200,18 +221,6 @@ All of the HTML email files are in [Iterable](https://app.iterable.com/campaigns
 
 For a more in-depth look at how these emails work, please review the [Figma journey](https://www.figma.com/file/FdF9bhLOtPKah7IxarPNjO/Aug-2023-Iterable-Free-User-Email-Journey?type=whiteboard&node-id=0%3A1&t=CsoAGTyGQ4j5rLR1-1).
 
-#### Duo Pro Campaigns
-
-**Goal:** Emails to share features and guide users on using GitLab Duo Pro. 
-**Delivery System:** Iterable (SaaS) & Marketo (SM)
-
-Please note that customer onboarding (non-trial) emails are sent through [Gainsight](/handbook/sales/gainsight/). 
-
-**Programs:**
-
-* [SaaS Duo Pro trial](https://app.iterable.com/workflows/469713/edit?mode=beta&workflowType=Published) - [figma](https://www.figma.com/board/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-flow?node-id=140-222&t=P9iAESyqb9tSZYnJ-1)
-* [Duo Pro trial is ending](https://app.iterable.com/workflows/469714/edit?mode=beta&workflowType=Published)
-* [SM Duo Pro trial](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP18565A1)
 
 ### Invited users 
 
