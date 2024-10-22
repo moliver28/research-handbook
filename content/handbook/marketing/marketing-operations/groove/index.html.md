@@ -71,7 +71,7 @@ In the transition period from Outreach to Groove, if you have identified a seque
 
 Approvers for net new flows are dependent on the team creating the flow.
 
-- Sales Development Org: `Panos Rodopoulos` or `Ed Bao`
+- Sales Development Org: `Panos Rodopoulos` or `Ed Bao` - Sales Dev please use [this Issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Flow_Creation_Request.md?ref_type=heads) 
 - Sales Org
   - Account Executives: `Kathleen Rintelman-Betances`
   - Renewals Managers: `Suzy Verdin`
