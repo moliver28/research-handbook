@@ -41,3 +41,24 @@ The role of a SRE-Buddy is important in helping new engineers become confident a
 The SRE Oncall ıuddy program operates on a volunteer basis, allowing experienced engineers to contribute to the team's growth based on their willingness and capacity. Please make sure to check the [Buddy Responsibilities](#buddy-responsibilities) secton.
 
 If you are willing to become a SRE-Buddy, assign yourself to `@sre-buddies` Slack group. This group receives notifications when EOC-Shadows are looking for buddies. When you find a suitable match, respond to the request and notify both your manager and the EOC-Shadow.
+
+## Workflow
+
+### Being an EOC-Shadow
+
+1. Join the `#sre-shadowing` Slack channel introduce yourself
+1. Ping the `@sre-buddies` Slack group in the channel, specify your timezone and availability and clearly state that you're looking for a buddy
+1. Once a Buddy is assigned, schedule an initial coffee chat with your new SRE-Buddy. Get to know each other and discuss expectations and suitable schedules for sync calls
+1. Join the [SRE Shadow rotation schedule](https://gitlab.pagerduty.com/schedules#PZEBYO0) in PagerDuty and align your shifts with your SRE-Buddy's oncall shifts.
+1. Schedule weekly 45-minute calls with your SRE-Buddy. These calls should occur after each oncall weekly shift.
+Review and discuss incidents from the past week
+1. Begin responding to S3/S4 incidents as primary responder. Your Buddy will provide guidance and support. Document learnings and questions 
+1. Continue working through the SRE-oncall onboarding issue, track your progress and completion of required tasks
+
+### Being an SRE-Buddy
+
+1. Join the `sre-buddies` Slack group
+1. When a buddy is requested via the Slack group, review if the timezone is suitable and if you have capacity to be assigned to the EOC-Shadow
+1. Organize initial coffee chat with your EOC-Shadow
+1. Discuss the time for periodic call after each of your weekly shifts. Review the process for the Shadow to be a primary respondent for S3/S4 incidents. Be available as a secondary respondent for each incident
+1. Regularly check onboarding progress and provide additional support when needed
