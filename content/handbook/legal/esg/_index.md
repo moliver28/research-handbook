@@ -215,6 +215,11 @@ Please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new
 
 Many of you already volunteer in your community and we want to capture how you make an impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story! 
 
+### Contribute to GitLab’s OSS codebase
+At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance and our ESG programs such as GiveLab.
+
+Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time contributing to GitLab help live our mission and contribute to the open source community.
+
 ### Acceptable Volunteer Activities
 
 All GitLab volunteer activities must support registered nonprofit organizations that align with our values and our GitLab [Philanthropy Policy](/handbook.gitlab.com/handbook/legal/philanthropy-policy/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
@@ -234,7 +239,9 @@ Please see our [GiveLab reimbursement policy](/handbook.gitlab.com/handbook/lega
 
 ### Contributing Feedback for This Program
 
-Surveys will be sent to team members following their volunteer participation and we additionally welcome all feedback around this volunteer program as we aim to continue improving GiveLab 30 Days of Impact following the first iteration. 
+Surveys will be sent to team members following their volunteer participation and we additionally welcome all feedback around this volunteer program as we aim to continue improving GiveLab 30 Days of Impact following the first iteration.
+
+We appreciate the internal stakeholders who have provided initial input to include relevant program considerations such as the People Team, PBPs, Finance, DIB & TMRGs and EBAs. Additionally, we’ll continue to incorporate considerations from our GiveLab Champions, who sit within various departments across the company.
 
 ### Get in touch with the ESG Team 
 
@@ -292,6 +299,37 @@ The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quar
 - Interested team members should complete the [GiveLab Champions survey](https://docs.google.com/forms/d/e/1FAIpQLSf1Nx999ruN-_Ja0T6nd-ClkNOMRXNEEj-P40R7rQ64iV7ABQ/viewform) expressing their interest
 - Team members must confirm that they have approval from their manager to participate
 - The ESG Team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
+
+**GiveLab Champions By Division**
+
+Engineering
+- Brenda Nyaringita
+- Max Woolf
+- Yasha Rise
+
+Finance
+- Rendi Miller
+
+Legal & Corporate Affairs
+- April Skeete
+- Emily Plotkin
+- Kim Buncle
+- Lauren Lopez
+- Stacy Cline
+
+Marketing
+- Alisha Ward
+- Ben Rudd
+- Darwin Sanoy
+- Kristof Goossens
+- Nupur Sharma
+- Tess Dutton
+
+People
+- Samantha Lee
+
+Product
+- Michaela Seferian-Jenkins
 
 #### In Kind Support
 
