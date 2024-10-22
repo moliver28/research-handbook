@@ -13,6 +13,9 @@ Specific rollout plans may need to be created for different [rollout phases](#ro
 
 Rollout of a new model will be done through a [Feature Flag](https://docs.gitlab.com/ee/development/feature_flags/).
 
+You must create a [Feature Flag Rollout Issue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md)
+for the new feature flag.
+
 ## Pre-rollout checklist
 
 - Make sure that you have reviewed the [considerations when adding a new model](implementation_guidelines.md#considerations-when-adding-a-new-model)
@@ -30,7 +33,7 @@ Rollout of a new model is usually done in 3 phases:
 
 This is an optional but recommended step before rolling out to all GitLab team members. Code Creation team members and interested stakeholders will have more knowledge of the currently used models, and they can give valuable feedback around latency and correctness in comparison to current models.
 
-Before doing this rollout, make sure that the Internal Feedback issue have been created. Make sure to direct all feedback to the internal feedback issue.
+Before rollout, make sure that an Internal Feedback issue has been created. Make sure to direct all feedback to the internal feedback issue.
 
 ### Rollout to all GitLab team members
 
@@ -41,12 +44,14 @@ This is a required step before rolling out to all users. With dog-fooding from G
 - if we need to reach out to the model providers for bug fixes
 - and other considerations
 
-Before doing this rollout, make sure that the
+Before rollout, make sure that the
 [Internal Rollout](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_rollout.md)
 and Internal Feedback issues have been created. Make sure to direct all feedback to the internal feedback issue.
+
+For further guidance around rolling out to GitLab team members, please refer to the
 
 ### Rollout to all users
 
 This step is done when the model is ready for widespread use. Rollout to all users can be done by percentage of actors (recommended), or you can rollout to all users at once.
 
-This is essentially a feature release. Before doing this announcement, make sure that the release has been announced in the appropriate channels.
+Since this is considered a feature release, ensure proper announcement of the release through appropriate channels before launch.

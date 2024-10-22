@@ -39,7 +39,8 @@ We can evaluate latency in the following ways:
 
 ### Evaluating by ELI5
 
-[ELI5 repository](https://gitlab.com/gitlab-org/ai-powered/eli5)
+[ELI5 (Eval like I'm 5)](https://gitlab.com/gitlab-org/ai-powered/eli5) provides a structured way to evaluate AI models using [LangSmith](https://docs.smith.langchain.com/).
+The ELI5 repository includes evaluation scripts, while the sample datasets and the result from the evaluations are stored in the [Langsmith platform](https://smith.langchain.com/).
 
 #### Running and analyzing evaluations on ELI5
 
@@ -55,6 +56,10 @@ Please reach out to the #g_code_creation Slack channel for guidance.
 
 ### Evaluating by ai-model-latency-tester
 
-[ai-model-latency-tester repository](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester)
+The [AI Model/Provider Latency Tester](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester)
+automates the evaluation of latency of third-party AI service providers, using clients
+in different geographic regions to simulate the experience of geographically dispersed users. It aims to assist in making
+data-driven decisions regarding which models should power GitLab's AI features.
 
-Please refer to the [Latency evaluations issue](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester/-/issues/57) for guidance and updates.
+Please refer to the [Latency evaluations issue](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester/-/issues/57)
+for further guidance and updates.
