@@ -88,13 +88,11 @@ Let's see how the pipeline handles the failed job.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select your most recent pipeline and observe the jobs.
-
-1. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon.
+1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon.
 
 Now that we have verified the auto cancel works, let's remove the failing job.
 
-1. Navigate to your code repository.
+1. Navigate to your repository.
 
 1. Select `.gitlab-ci.yml`.
 
@@ -150,13 +148,13 @@ Now that we have verified the auto cancel works, let's remove the failing job.
 
 In this task, we will add a test report to our test jobs.
 
-1. Navigate to your code repository.
+1. Navigate to your repository.
 
 1. Select `.gitlab-ci.yml`.
 
 1. Select **Edit > Edit in pipeline editor**.
 
-We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command. We can do this by adding the `--testResultsProcessor=jest-junit` flag to the command. Below is an example of both jobs after the changes have been made:
+1. We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command.  We can do this by adding the `--ci --testResultsProcessor=jest-junit` flags to the command. The `--ci` option is provided will make Jest assume it is running in a CI environment. Below is an example of both jobs after the changes have been made:
 
 ```yml
     test binarysearch:
@@ -164,10 +162,39 @@ We are going to adjust our `jest` commands for the `test binarysearch` and `test
         - npm install -g jest
       script:
         - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-      artifacts:
-        when: always
-        reports:
-          junit: junit.xml
+      cache:
+        key: $CI_COMMIT_REF_SLUG
+        paths:
+          - node_modules
+
+    test linearsearch:
+      before_script:
+        - npm install -g jest
+      script:
+        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+      cache:
+        key: $CI_COMMIT_REF_SLUG
+        paths:
+          - node_modules
+```
+
+1. The test results need to be stored in a JUnit file in order to be accessed by the pipeline. To do so, we need to add the following code snippet to both of our tests after the `script` keyword:
+
+```yml
+artifacts:
+  when: always
+  reports:
+    junit: junit.xml
+```
+
+The tests will now look like this:
+
+```yml
+    test binarysearch:
+      before_script:
+        - npm install -g jest
+      script:
+        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
       cache:
         key: $CI_COMMIT_REF_SLUG
         paths:
