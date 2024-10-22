@@ -47,14 +47,6 @@ Not all Fulfillment features are available at the time for all types of customer
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
-## Experience for customers that purchased through a reseller
-
-If a customer buys GitLab through a reseller, they can access the Customers Portal, however:
-
-- Customers don't have access to the invoices, because those are owned by the reseller.
-- Customers can't modify the subscription via the portal, as the subscription is also owned by the reseller. 
-- Resellers don't have access to the Customers Portal or to their customers' accounts.
-
 ## Temporary renewal extensions
 
 Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
