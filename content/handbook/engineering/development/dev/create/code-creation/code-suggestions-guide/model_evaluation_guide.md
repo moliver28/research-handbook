@@ -40,7 +40,7 @@ We can evaluate latency in the following ways:
 ### Evaluating by ELI5
 
 [ELI5 (Eval like I'm 5)](https://gitlab.com/gitlab-org/ai-powered/eli5) provides a structured way to evaluate AI models using [LangSmith](https://docs.smith.langchain.com/).
-The ELI5 repository includes evaluation scripts, while the sample datasets and the result from the evaluations are stored in the [Langsmith platform](https://smith.langchain.com/).
+The ELI5 repository includes evaluation scripts, while the sample datasets and the result from the evaluations are stored in the [LangSmith platform](https://smith.langchain.com/).
 
 #### Running and analyzing evaluations on ELI5
 

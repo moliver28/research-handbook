@@ -68,7 +68,7 @@ this is the endpoint used for indirect-through-GitLab-Monolith requests
 ## Generic guidelines for supporting a model
 
 These are guidelines for when you are ready to support a model for Code Suggestions,
-e.g.: after you have done evaluations and have considered the model to be acceptable.
+for example, after you have done evaluations and have considered the model to be acceptable.
 
 ### Create an Epic
 
@@ -77,7 +77,7 @@ Introducing a model usually spans several tasks, so it is best to create an epic
 ### Create a Rollout Plan
 
 You must create a rollout plan before deploying a new model.
-Refer to the [Rollout Guide](../rollout_guide/index.md#create-a-rollout-plan) for more details.
+Refer to the [Rollout Guide](model_rollout_guide.md#create-a-rollout-plan) for more details.
 
 ### Introduce behind a Feature Flag
 

@@ -6,7 +6,7 @@ This document serves as a guide for rolling out Code Suggestions models.
 
 ## Create a Rollout Plan
 
-Create an issue using the the Rollout Plan template. This must be done before or during the implementation of the new model.
+Create an issue using the Rollout Plan template. This must be done before or during the implementation of the new model.
 Specific rollout plans may need to be created for different [rollout phases](#rollout-phases).
 
 ## Rollout method
