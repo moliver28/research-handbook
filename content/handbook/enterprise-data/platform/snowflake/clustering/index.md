@@ -38,6 +38,8 @@ Our guidelines are to only apply clustering to incremental models that are set t
 
 ## How to Implement Clustering
 
+
+### Via dbt
 ```sql
 cluster_by=['column1','column2'],
 automatic_clustering='true'
