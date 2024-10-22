@@ -3,9 +3,9 @@ title: Pipeline Monitoring
 description: Overview of our monitoring tools and practices
 ---
 
-## QA test pipelines
+## End-to-end test pipelines
 
-The test pipelines run on a scheduled basis, and their results are posted to Slack. The following are the QA test pipelines that are monitored every day.
+The test pipelines run on a scheduled basis, and their results are posted to Slack. The following are the end-to-end test pipelines that are monitored every day.
 
 | Environment                               | Links                                                                                                                                                                                                                                                   | Tests type      | Frequency                                                                                                                                                                                                                                                      | Slack channel                                                                                                                       | Latest test report                                                                                           |
 |-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
