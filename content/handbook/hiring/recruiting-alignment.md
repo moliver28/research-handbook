@@ -18,9 +18,9 @@ description: "This page is an overview of the search team alignment and the tale
 | Customer Success & Solutions Architects, AMER | Barbara Dinoff | Sruthy Menon |
 | Sales, APAC | Yas Priatna  | Sruthy Menon |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
-| G&A/EBA/Marketing (Global Sales Development, FP&A, VP EBA) | Caroline Rebello |  Michelle Jubrey |
-| G&A/Marketing (Developer Relations, Growth, IT) | Aistè Juozaponytė  | Michelle Jubrey |
-| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
+| G&A/EBA/Marketing (Global Sales Development, Corporate Events, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
+| G&A/Marketing (Accounting, Business Technology, Developer Relations & Strategy, Digital, Marketing Operations, Regional Marketing, Tax) | Aistè Juozaponytė  | Michelle Jubrey |
+| G&A/Marketing (Accounting Operations, Corporate Communications, Data, Internal Audit, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
 | R&D, Leadership | Matt Angell | Alice Crosbie |
 | Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Lerato Thipe / Sruthy Menon / Alice Crosbie |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
