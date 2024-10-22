@@ -55,9 +55,21 @@ status: active
 </tr>
 </table>
 
-## Goal
+## Goals
 
 The Upgrade Improvements Working Group is a cross-functional group focused on Upgrade Improvements project, one of the top CTO priorities. The project aims to enhance customer's experience of the entire lifecycle of upgrading a self-managed GitLab instance.
+
+The specific high level goals
+
+1. Expand upgrade cadence options for GitLab users (ie. LTS)
+2. Organizational changes in code development
+3. Decrease operational requirements of upgrading GitLab
+4. Appoint end-to-end owner of GitLab release
+
+Other goals
+1. Remove required upgrade stops from GitLab upgrade cadence
+2. Breaking changes are limited to major releases
+
 
 ### Overview
 
