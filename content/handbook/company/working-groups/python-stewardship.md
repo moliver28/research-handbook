@@ -36,10 +36,9 @@ Examples of existing python codebases:
 
 ## Key milestones
 
-Milestones
-17.7 - Kick off of Working group
-17.8 - Contributions to documentation
-17.9 - Define templates for python services, libraries, linting and utilities
+- 17.7 - Kick off of Working group
+- 17.8 - Contributions to documentation
+- 17.9 - Define templates for Python services, libraries, linting and utilities
 
 ## Exit Criteria
 
