@@ -85,9 +85,12 @@ sequenceDiagram
 
     USR->>IDE: starts
     IDE->>EXT: starts
+    loop Every 1 hour
     EXT->>LS: triggers request for direct connection details
     LS->>GLR: requests for direct connection details
     GLR->>LS: returns direct connection details (AIGW url and token, model details)
+    LS->>LS: caches direct connection details for 1 hour
+    end
     USR->>IDE: types: "def add(a, b)"
     IDE->>EXT: notify about document change def add(a, b)
     EXT->>LS: register document change def add(a, b)
@@ -98,6 +101,8 @@ sequenceDiagram
     LS->>EXT: triggers IDE code suggestion UI: "a + b"
     EXT->>IDE: triggers IDE code suggestion UI: "a + b"
 ```
+
+The components pictured on the diagram are described in the [technical overview](#code-suggestions-technical-overview) section.
 
 ## Code Generation
 
