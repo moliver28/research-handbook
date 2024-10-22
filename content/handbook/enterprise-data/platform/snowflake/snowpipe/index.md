@@ -1,43 +1,8 @@
 ---
-title: "Snowflake Guide"
-description: "Snowflake Data Warehouse Guide"
+title: "Snowflake SNS integration for Snowflake SnowPipe and task for failure"
 ---
 
----
-
-## What and why
-
-[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#our-data-stack).
-
-## What does Snowflake Contain?
-
-Snowflake contains all of our analytical data and [Data Source](/handbook/enterprise-data/platform/#data-sources)s defines the set of original/raw data available.
-
-## Related Content
-
-- [Access](/handbook/enterprise-data/platform/#warehouse-access)
-- [Support Portal Access](/handbook/enterprise-data/platform/#data-warehouse)
-- [Compute Resources](/handbook/enterprise-data/platform/#compute-resources)
-- [Data Masking](/handbook/enterprise-data/platform/#data-masking)
-- [Backups](/handbook/enterprise-data/platform/#backups)
-
-## Logging In
-
-Login to Snowflake from Okta.
-
-## Navigating the UI
-
-The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/user-guide/snowflake-manager.html) provides comprehensive documentation for the UI.
-
-## Snowflake account configuration
-
-### ABORT_DETACHED_QUERY
-
-[ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`.
-
-We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn't fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won't be running unnecessarily.
-
-## Snowflake SNS integration for snowflake snowpipe and task for failure
+## Overview
 
 Snowpipe can push error notifications to a cloud messaging service when it encounters errors while loading data i.e. through snowpipe or on failure of snowflake task. The notifications describe the errors encountered in each file, enabling further analysis of the data in the files for snowpipe. Task error notifications trigger a notification describing the errors encountered when a task executes SQL code. The notifications describe any errors encountered during task execution.
 
@@ -300,7 +265,3 @@ You can use the `NOTIFICATION_HISTORY` table function to query the history of no
 ## Triage errors
 
 When we got an alert in `Slack`, should go to a [runbooks page](https://gitlab.com/gitlab-data/runbooks/-/blob/main/triage_issues/snowflake_pipeline_failure_triage.md) and analyze the issue.
-
-## Data freshness check
-
-For data freshness check, we want to leverage the automatic monitors in `MonteCarlo` for monitoring the data.
