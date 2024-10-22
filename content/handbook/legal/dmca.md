@@ -39,6 +39,10 @@ We will review the counter-notice, and:
 - if the counter-notice doesn't satisfy the DMCA requirements, we'll request a revised submission; or
 - if the counter-notice is complete and valid, we'll forward the counter notice to the person who filed the original takedown notice, advising that the challenged content will be reinstated within 10-14 business days, unless we receive a notification that the copyright owner is seeking a court order regarding this matter.
 
+## Project Forks
+
+When we take action in respect of a reported repository, we do not by default take action against the forks of that repository. Forks are owned by different users and may differ significantly from the upstream reported repository. We will not independently examine forks of reported repositories; instead we rely on copyright holders to perform their own investigations. If you determine that a fork is also infringing, that fork should be explicitly referenced in your takedown notice.
+
 ## Trademark takedown request requirements
 
 If you're sure you want to report content on GitLab that you believe infringes your trademark, please provide the following information:
