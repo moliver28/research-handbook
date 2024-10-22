@@ -16,9 +16,9 @@ The Data Security Team's remit includes (but isn't sharply limited to):
 
 Some high-priority initiatives for the team are:
 
-- We're brand new (we began in August 2024)
-- So we're working on these.
-- Come back soon!
+* We're brand new (we began in August 2024)
+* So we're working on these.
+* Come back soon!
 
 ## Team Members
 
@@ -63,8 +63,7 @@ As our processes develop, we'll add more status labels and the like to our issue
 
 ### Confidentiality
 
-In keeping with [our value of Transparency](https://handbook.gitlab.com/handbook/values/#transparency), this issue tracker is open to everyone at GitLab. *If you feel a need to ask us to look into an issue in a way that will not be tagged with your identity, please DM someone on the team and have them create the issue for you.* 
-
+In keeping with [our value of Transparency](https://handbook.gitlab.com/handbook/values/#transparency), this issue tracker is open to everyone at GitLab. *If you feel a need to ask us to look into an issue in a way that will not be tagged with your identity, please DM someone on the team and have them create the issue for you.*
 
 ### Anything else
 
