@@ -77,10 +77,10 @@ We use Slack internally as a communication tool. The Localization channels are a
 | ------ | ------------ |
 | `L10n-mktg` | for work on marketing localization | 
 | `L10n-infrastructure`| for work on our localization infrastructure and technology |
-| `L10n-training` | related to learning everything about localization at Gitlab |
+| `L10n-training` | related to learning everything about localization at GitLab |
 | `L10n-partners` | for tracking work vendor related |
-| `L10n-docs`| for tracking work related to the localization of Gitlab documentation | 
-| `L10n-product`| for tracking work related to the localization Gitlab product UI
+| `L10n-docs`| for tracking work related to the localization of GitLab documentation | 
+| `L10n-product`| for tracking work related to the localization GitLab product UI
 
 #### Locale labels
 | Label | Purpose |
@@ -197,5 +197,5 @@ GitLab's blog is available in Japanese, French and German, with a dedicated cont
 | DE | https://about.gitlab.com/de-de/blog/ | [Cecile Solkan](https://gitlab.com/csolkan-ext)
 
 ## docs.gitlab.com Localization
-We're working on localizing Gitlab documentation. 
+We're working on localizing GitLab documentation. 
 More detailed information coming soon, meanwhile head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization) for a more detailed information.
