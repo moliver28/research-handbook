@@ -106,24 +106,24 @@ We cannot access Gitaly `gRPC` directly, but we can expose the gRPC data via an 
 
 ### Cells
 
-For Cells architecture, GitLab Shell acts as a router and communicates with [Global Service](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/145944) to re-route the request to the correct cell.
+For Cells architecture, GitLab Shell acts as a router and communicates with [Topology Service](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/145944) to re-route the request to the correct cell.
 
 ```mermaid
 sequenceDiagram
     participant C as Git on client
     participant S as GitLab Shell (Global)
-    participant GS as Global Service
+    participant TS as Topology Service
     participant WR as Workhorse & Rails (Local)
     participant G as Gitaly (Local)
 
     Note left of C: git clone/fetch
     C->>+S: ssh git-upload-pack ...
-    S->>+GS: Classify gRPC request to get the cell info
+    S->>+TS: Classify gRPC request to get the cell info by classifying the SSH Public Key
     GS-->>-S: ClassifyResponse{CellInfo{Address: <cell-address>, ...}}
     S->>+WR: GET /internal/api/authorized_keys?key=AAAA...
     Note right of WR: Lookup key ID
     WR-->>-S: 200 OK, command="gitlab-shell upload-pack key_id=1"
-    S->>+GS: Classify gRPC request to get the cell info
+    S->>+TS: Classify gRPC request to get the cell info
     GS-->>-S: ClassifyResponse{CellInfo{Address: <cell-address>, ...}}
     S->>+WR: POST <cell-address>/internal/api/allowed{action=upload_pack,key_id=1,project=<project>...}
     Note right of WR: Auth check

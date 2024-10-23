@@ -274,61 +274,6 @@ sequenceDiagram
 
 ### Claim Service
 
-Claim service is only serving on GRPC protocol. No REST API as we have
-for the Classify Service. This is a simplified version of the API Interface.
-
-```proto
-message ClaimRecord {
-  enum Bucket {
-    Unknown = 0;
-    Routes = 1;
-  };
-
-  Bucket bucket = 1;
-  string value = 2;
-}
-
-message ParentRecord {
-  enum ApplicationModel {
-    Unknown = 0;
-    Group = 1;
-    Project = 2;
-    UserNamespace = 3;
-  };
-
-  ApplicationModel model = 1;
-  int64 id = 2;
-};
-
-message OwnerRecord {
-  enum Table {
-    Unknown = 0;
-    routes = 1;
-  }
-
-  Table table = 1;
-  int64 id = 2;
-};
-
-message ClaimDetails {
-  ClaimRecord claim = 1;
-  ParentRecord parent = 2;
-  OwnerRecord owner = 3;
-}
-
-message ClaimInfo {
-  int64 id = 1;
-  ClaimDetails details = 2;
-  optional CellInfo cell_info = 3;
-}
-
-service ClaimService {
-    rpc CreateClaim(CreateClaimRequest) returns (CreateClaimResponse) {}
-    rpc GetClaims(GetClaimsRequest) returns (GetClaimsResponse) {}
-    rpc DestroyClaim(DestroyClaimRequest) returns (DestroyClaimResponse) {}
-}
-```
-
 The purpose of this service is to provide a way to enforce uniqueness (ex. usernames, e-mails,
 tokens) within the cluster.
 
@@ -349,30 +294,192 @@ of the `route` record that has this value `gitlab-org/gitlab`.
 to `User` objects. While `Route` records can belong to `Group`, `UserNamespace`
 or `Project`.
 
-It's worth noting that the list of the enums is not final, and it can be
+It's worth noting that the list of the enums is not final, and it will be
 expanded over time.
+
+#### Terminology
+
+1. **Claim Bucket**: A set of cluster unique values, that belong to some specific
+attribute. For example: Emails, Paths, Keys. Claim values are unique only
+within this bucket.
+1. **Claim**: A unique value that is reserved by a Cell. It has to be scoped
+to a specific claim bucket.
+1. **Claim Set**: A batch of claim changes (Create/Replace/Delete) that
+are sent from a GitLab Cell to the Topology Service. A Claim Set can be
+later atomically committed or rolled back. Claim Set usually initiated
+by one user request, or a background worker job. The client (Rails Application)
+has to explicitly create a new Claim Set, to start doing changes on the Claims.
+
+#### Claim Service API
+
+Claim service is only serving on GRPC protocol. No REST API as we have
+for the Classify Service. This is a simplified version of the API Interface.
+
+```proto
+message ClaimRecord {
+  enum Bucket {
+    UNSPECIFIED = 0;
+    ROUTES = 1;
+    EMAILS = 2;
+  };
+
+  Bucket bucket = 1;
+  string value = 2;
+}
+
+message ParentRecord {
+  enum ApplicationModel {
+    UNSPECIFIED = 0;
+    GROUP = 1;
+    PROJECT = 2;
+    USER_NAMESPACE = 3;
+  };
+
+  ApplicationModel model = 1;
+  int64 id = 2;
+};
+
+message OwnerRecord {
+  enum Table {
+    UNSPECIFIED = 0;
+    ROUTES = 1;
+  }
+
+  Table table = 1;
+  int64 id = 2;
+};
+
+message ClaimDetails {
+  ClaimRecord claim = 1;
+  ParentRecord parent = 2;
+  OwnerRecord owner = 3;
+}
+
+message ClaimInfo {
+  string uuid = 1;
+  ClaimDetails details = 2;
+  CellInfo cell_info = 3;
+}
+
+message ClaimSetInfo {
+  string uuid = 1;
+  in64 cell_id = 2;
+}
+
+message CreateClaimSetRequest { // UUIDs are generated on Topology Service side
+  in64 cell_id = 1;
+}
+
+message CreateClaimSetResponse {
+  ClaimSetInfo claim_set_info = 1;
+}
+
+message CommitClaimSetRequest {
+}
+
+message RollbackClaimSetRequest {
+}
+
+message CreateClaimRequest {
+  ClaimDetails details = 1;
+  string claim_set_uuid = 2;
+  bool replace = 3; // Indicates that this is a claim replace request
+}
+
+message CreateClaimResponse {
+  ClaimInfo claim = 1;
+}
+
+message GetClaimRequest {
+  ClaimRecord claim = 1; // Only by Bucket/Value
+}
+
+message GetClaimResponse {
+  ClaimInfo claim = 1;
+}
+
+message DeleteClaimRequest {
+  ClaimRecord claim = 1; // Only by Bucket/Value
+  string claim_set_uuid = 2;
+}
+
+message DeleteClaimResponse {
+  ClaimInfo claim = 1;
+}
+
+// Restricted read-write service to claim global uniqueness on resources
+service ClaimService {
+  rpc GetCells(GetCellsRequest) returns (GetCellsResponse) {} // Inherited from CommonService
+  rpc CreateClaimSet(CreateClaimSetRequest) returns (CreateClaimResponse) {}
+  rpc GetClaim(GetClaimRequest) returns (GetClaimResponse) {} // This is needed on validation step
+  rpc CreateClaim(CreateClaimRequest) returns (CreateClaimResponse) {}
+}
+```
+
+#### Claiming unique attributes workflow
+
+In this diagram we show the happy path of how Rails application
+would call Topology Service to claim unique attributes across a
+cluster of cells.
+
+```mermaid
+sequenceDiagram
+    participant User 1
+    participant Cell 1
+    participant Topology Service
+
+    User 1->> Cell 1 : Sign up
+    Note over Cell 1: Validation on models starts
+    Cell 1->> Topology Service: get_claim : To check if Email has been claimed?
+    Cell 1->> Topology Service: get_claim : To check if Usernamespace has been claimed?
+    Note over Cell 1: Validation on models ends
+    Cell 1->> Topology Service: create_claimset
+    Topology Service->>Cell 1: claimset UUID
+    Cell 1->> Topology Service: create_claim(email, uuid, replace=false)
+    Cell 1->> Topology Service: create_claim(usernamespace_path, uuid, replace=false)
+    Note over Cell 1: DB Transaction starts
+    Note over Cell 1: Save records into Database (User, Route, Usernamespace)
+    Note over Cell 1: DB Transaction ends
+    Cell 1->> Topology Service: commit_claimset(uuid)
+    Cell 1->> User 1 : Redirect after Signup
+```
+
+This diagram shows two main phases for how GitLab interacts with the
+topology service.
+
+1. Validation: As the validation that we are doing on models to show any possible
+invalid input, we have to check with Topology Service whether the unique
+attributes have been taken, to show errors to the users. Such as: This
+Email has been taken. From a user perspective, they shouldn't know
+whether this Email has been taken by another user on the same Cell or on
+an another Cell.
+1. Creating the Claim Set: After the validation passes, the GitLab Rails
+application creates a Claim Set. Saves the records to the local database,
+and once the transaction is committed, it commits the Claim Set
+on Topology Service.
 
 #### Example usage of Claim Service in Rails
 
+On rails side, we will develop a concern that takes care of registering
+information about unique claims on models.
+
 ```ruby
-class User < MainClusterwide::ApplicationRecord
+class Email < ApplicationRecord
   include CellsUniqueness
 
-  cell_cluster_unique_attributes :username,
-   sharding_key_object: -> { self },
-   claim_type: Gitlab::Cells::ClaimType::Usernames,
- owner_type: Gitlab::Cells::OwnerType::User
-
   cell_cluster_unique_attributes :email,
-   sharding_key_object: -> { self },
-   claim_type: Gitlab::Cells::ClaimType::Emails,
- owner_type: Gitlab::Cells::OwnerType::User
+    parent_record: -> { self.user },
+    claim_bucket: Gitlab::Cells::ClaimBucket::Emails,
 end
 ```
 
-The `CellsUniqueness` concern will implement `cell_cluster_unique_attributes`.
-The concern will register before and after hooks to call Topology Service gRPC
-endpoints for Claims within a transaction.
+For more context on possible implementation ideas for the integration between
+the Rails application and the Topology Service, have a look at this
+[thread](https://gitlab.com/gitlab-org/gitlab/-/issues/455697#note_2131789329).
+
+#### References
+
+- [List of possible claims that we have](https://gitlab.com/gitlab-org/gitlab/-/issues/485588#note_2134047438)
 
 ### Classify Service
 
