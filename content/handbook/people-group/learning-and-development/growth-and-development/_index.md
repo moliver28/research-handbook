@@ -67,10 +67,6 @@ Remember: Travel, Lodging, and Meals should be expensed in separate claims, foll
 
 Once you have successfully claimed for reimbursement, please go back and close your issue. If you found the G&D experience to be of significant benefit, and you would recommend it to other team members, please leave a comment in the G&D feedback issue, so that the Talent Development team can add the opportunity to our G&D Select page.
 
-### Notes on Reimbursement
-
-Growth & Development requests follow a reimbursement workflow. Approved experiences will be reimbursed upon completion. *This means requestors carry the financial responsibility associated with the growth experience through completion*.
-
 #### 50% Upfront Reimbursement
 
 As an option, all requests can take advantage of a split disbursement option designed to help team members carry the financial lift of costly experiences. This split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
