@@ -46,6 +46,7 @@ Use cases overview:
 | [use-cases/gitlab-api](https://gitlab.com/gitlab-da/use-cases/gitlab-api) | @dnsmichi | GitLab API use cases with libraries and scripts |
 | [use-cases/observability](https://gitlab.com/gitlab-da/use-cases/observability) | @dnsmichi | Observability uses cases and research (OpenTelemetry, eBPF, etc.) |
 | [use-cases/remote-development](https://gitlab.com/gitlab-da/use-cases/remote-development) | @dnsmichi @iganbaruch | Workspaces environments and Web IDE use cases |
+| [use-cases/security-compliance](https://gitlab.com/gitlab-da/use-cases/security-compliance) | @fjdiaz @dnsmichi | Security and Compliance: Advanced SAST, Dependency Scanning, etc. |
 | [use-cases/scientific-research](https://gitlab.com/gitlab-da/use-cases/scientific-research) | @abuango | Scientific research projects and integrations |
 
 ### Access
