@@ -52,9 +52,9 @@ Once you have paid for the opportunity, you can proceed with taking part in, and
 
 ### Step 5 - Reimbursement
 
-In most cases, the costs of Growth and Development requests are paid back to team members after the opportunity has been completed. Team members should therefore be prepared to accept financial responsibility for the cost of the opportunity they have chosen. You can find further information about how reimbursement works for different types of G&D opportunities below.
+In most cases, the costs of Growth and Development requests are paid back to team members after the opportunity has been completed. You can read more about the reimbursement conditions for your opportunity in the [Types](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements) section below. 
 
-However, all requests are eligible to have 50% of the costs repaid upfront, and 50% upon completion.
+Team members should therefore be prepared to accept financial responsibility for the cost of the opportunity they have chosen, but, all requests are eligible to have [50% of the costs repaid upfront](/handbook/people-group/learning-and-development/growth-and-development/#50-upfront-reimbursement), and 50% upon completion.
 
 All expenses should be claimed via Navan using the following process:
 
@@ -62,15 +62,12 @@ All expenses should be claimed via Navan using the following process:
 1. Include a screenshot of your approved G&D issue, and add the link to your issue in the description.
 1. Add a screenshot showing proof of completion for your application. (More details below).
 
-Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](https://handbook.gitlab.com/handbook/finance/expenses/)
+Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/)
 
 ### Step 6 - Close & Feedback
 
 Once you have successfully claimed for reimbursement, please go back and close your issue. If you found the G&D experience to be of significant benefit, and you would recommend it to other team members, please leave a comment in the G&D feedback issue, so that the Talent Development team can add the opportunity to our G&D Select page.
 
-### Notes on Reimbursement
-
-Growth & Development requests follow a reimbursement workflow. Approved experiences will be reimbursed upon completion. *This means requestors carry the financial responsibility associated with the growth experience through completion*.
 
 #### 50% Upfront Reimbursement
 
@@ -88,11 +85,9 @@ Please note that upfront reimbursement does not extend to travel, hotel, or meal
 
 If you voluntarily terminate employment with GitLab prior to completing twelve consecutive months of active employment, academic study or tuition expenses of $1,000 USD and over will need to be refunded to GitLab.
 
-### Tracking my G&D spend
+## Tracking my G&D spend
 
 If you wish to know how much of your G&D Fund you have remaining for the calendar year, please reach out in the #learninganddevelopment slack channel.
-
-Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member's Total Rewards package.
 
 ## Bulk Applications
 
@@ -102,7 +97,7 @@ If you're submitting a bulk application, where multiple team members are applyin
 - Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allowance.
 - All bulk applications should still follow the reimbursement workflow via Navan where expenses can be claimed after completing the course or attending the conference. They should not be paid for by any other methods.
 
-### I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
+## I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
 
 The G&D Fund is primarily designed for individual use, and each team member is entitled to use the Fund for their own career development. However, if each individual in a team has G&D allowance remaining, there may be instances where a team-based or manager led opportunity is suitable. Please reach out in the #learninganddevelopment channel to discuss the suitability of the opportunity you are recommending. The team will review these on a case by case basis.
 
