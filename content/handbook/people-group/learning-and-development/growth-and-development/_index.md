@@ -5,7 +5,7 @@ description: A description of programs and resources for team members to access 
 
 The Growth and Development (G&D) Fund can be used by GitLab team members to receive reimbursement for approved growth experiences and opportunities at GitLab. Team members can expense up to a maximum of $10,000 per year, provided they meet all eligibility requirements.
 
-The Growth and Development (G&D) fund is managed by the [Talent Development team](https://handbook.gitlab.com/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
+The Growth and Development (G&D) fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Eligibility
 
@@ -28,8 +28,7 @@ Start by having a [growth conversation](/handbook/people-group/learning-and-deve
 |[Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study)|30 days before the commencement date|
 |[Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)|30 days before the commencement date|
 |[Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)|7 days before the commencement date|
-|[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below. | 30 days before the commencement date|
-| Your 4th Trimester | For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to `growth-development@gitlab.com`. |
+|[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below. | Your 4th Trimester |
 
 ### Step 3 - Gain Approval
 
@@ -40,7 +39,6 @@ Cost Tiers Approval:
 - Manager Approval (with VP's made aware on the issue): $0-$1,000
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + e-group Approval for any spend $5,000.01 - $10,000 (Apart from Sales & Marketing, where VPs can approve $5,000.01 - $10,000 spend)
-
 
 ### Step 4 - Make Purchase & Complete your Opportunity
 
@@ -62,7 +60,7 @@ All expenses should be claimed via Navan using the following process:
 1. Include a screenshot of your approved G&D issue, and add the link to your issue in the description.
 1. Add a screenshot showing proof of completion for your application. (More details below).
 
-Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](https://handbook.gitlab.com/handbook/finance/expenses/)
+Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/)
 
 ### Step 6 - Close & Feedback
 
