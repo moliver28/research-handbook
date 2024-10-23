@@ -151,3 +151,10 @@ The following will describe how to create the personal view to list cases in Glo
     - `Request date`
 1. Group by: `Priority` - Descending
 1. Order by: `SLA` - Ascending
+
+
+## Dedicated for US Government
+**Workflows for US Gov Dedicated are still being written**
+1. #spt_pod_dedicated
+1. Dedicated Workflows page
+1. Open RFH on gdguat -- note that gdguat *will* be replaced in the future
