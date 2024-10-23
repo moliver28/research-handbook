@@ -147,8 +147,13 @@ sequenceDiagram
    GLR->>GIT: fetches relevant files on default branch
    GIT->>GLR: file blobs
    GLR->>GLR: processes file blobs
-   GLR->>-PG: upserts xray_reports records
+   GLR->>-PG: upserts records to xray_reports
 ```
+
+Components pictured on diagram are as follows:
+
+1. [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/) - an application that provides high-level RPC access to Git repositories.
+1. GitLab PostgreSQL DB - relational database engine storing GitLab operational data.
 
 Existing Repository X-Ray reports are included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph.
 
