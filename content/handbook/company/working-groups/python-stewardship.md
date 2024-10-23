@@ -57,7 +57,7 @@ Documentation and process:
 - Development guidelines  
   - Different types of repositories:   
     - Python services (AIGW, workflow)  
-    - python utilities (CEF)  
+    - Python utilities (CEF)  
     - libraries  
   - Creation of codebase  
   - Authentication  
