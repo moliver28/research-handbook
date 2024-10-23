@@ -327,9 +327,27 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Topology Service Production Readiness Review for Beta.
+- Framework to claim resources globally using TopologySerivce::Claims storing them in Google Spanner.
+- Following resources are claimable; Username, E-Mail, Top level Group Name, Routes
+- All resources that need to be claimed identified.
+- Lease a sequence to a Cell using ToplogyService::Sequence.
+- Rails application able to send requests to TopologyService using internal network.
+- mTLS communication between TopologyService and HTTP Router.
+- mTLS communication between TopologyService and Rails.
+- mTLS communication between HTTP Router and Cell.
+- PreQA Cell can start claiming resources, still detached from Legacy Cell.
+- Claims done by PreQA Cell will be deleted.
+
+Dependencies:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Topology Service Deployed.
 
 Before/After:
+
+![phase-5](/static/images/cells/phase-5.png)
+
+[source](https://excalidraw.com/#json=UpWQ_mQElSNOnEtOx3ZcI,MsAdeBL_6-CFH0c4P0BeZA)
 
 Details:
 
@@ -340,9 +358,23 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Topology Service Production Readiness GA.
+- Legacy Cell configured as a Cell in TopologyService.
+- All new resources in Legacy Cell are claimed using TopologyService::Claims.
+- Legacy Cell claimed all existing resources.
+- Sequence leased to Legacy Cell.
+- Capacity Planning for sequences leased.
+- Latency increase for creating globally unique resources up to 20ms.
+
+Dependencies:
+
+- [Phase 5](#phase-5-cluster-awareness): Cluster Awareness
 
 Before/After:
+
+![phase-6](/static/images/cells/phase-6.png)
+
+[source](https://excalidraw.com/#json=b5JgJCXAldtsXx6iSzAdq,4A2TRSwU9WI19zbOn09gaA)
 
 Details:
 
@@ -374,62 +406,6 @@ Details:
 
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
-
-### Phase 5: Cluster Awareness
-
-Exit Criteria:
-
-- Topology Service Production Readiness Review for Beta.
-- Framework to claim resources globally using TopologySerivce::Claims storing them in Google Spanner.
-- Following resources are claimable; Username, E-Mail, Top level Group Name, Routes
-- All resources that need to be claimed identified.
-- Lease a sequence to a Cell using ToplogyService::Sequence.
-- Rails application able to send requests to TopologyService using internal network.
-- mTLS communication between TopologyService and HTTP Router.
-- mTLS communication between TopologyService and Rails.
-- mTLS communication between HTTP Router and Cell.
-- PreQA Cell can start claiming resources, still detached from Legacy Cell.
-- Claims done by PreQA Cell will be deleted.
-
-Dependencies:
-
-- [Phase 3](#phase-3-gitlabcom-https-session-routing): Topology Service Deployed.
-
-Before/After:
-
-![phase-5](/static/images/cells/phase-5.png)
-
-[source](https://excalidraw.com/#json=UpWQ_mQElSNOnEtOx3ZcI,MsAdeBL_6-CFH0c4P0BeZA)
-
-Epic:
-
-- <https://gitlab.com/groups/gitlab-org/-/epics/14511>
-
-### Phase 6: Monolith Cell
-
-Exit Criteria:
-
-- Topology Service Production Readiness GA.
-- Legacy Cell configured as a Cell in TopologyService.
-- All new resources in Legacy Cell are claimed using TopologyService::Claims.
-- Legacy Cell claimed all existing resources.
-- Sequence leased to Legacy Cell.
-- Capacity Planning for sequences leased.
-- Latency increase for creating globally unique resources up to 20ms.
-
-Dependencies:
-
-- [Phase 5](#phase-5-cluster-awareness): Cluster Awareness
-
-Before/After:
-
-![phase-6](/static/images/cells/phase-6.png)
-
-[source](https://excalidraw.com/#json=b5JgJCXAldtsXx6iSzAdq,4A2TRSwU9WI19zbOn09gaA)
-
-Epic:
-
-- <https://gitlab.com/groups/gitlab-org/-/epics/14513>
 
 ## Communication
 
