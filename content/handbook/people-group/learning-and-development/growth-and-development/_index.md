@@ -53,15 +53,15 @@ Once you have paid for the opportunity, you can proceed with taking part in, and
 
 In most cases, the costs of Growth and Development requests are paid back to team members after the opportunity has been completed. Team members should therefore be prepared to accept financial responsibility for the cost of the opportunity they have chosen. You can find further information about how reimbursement works for different types of G&D opportunities below.
 
-However, all requests are eligible to have 50% of the costs repaid upfront, and 50% upon completion.
+However, all requests are eligible to have [50% of the costs repaid upfront](https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/#50-upfront-reimbursement), and 50% upon completion.
 
-All expenses should be claimed via Navan using the following process:
+All expenses should be claimed via [Navan](/handbook/finance/expenses/#-introduction) using the following process:
 
 1. Open a new expense claim in Navan using the Expense type `G&D (Growth and Development)`.
 1. Include a screenshot of your approved G&D issue, and add the link to your issue in the description.
-1. Add a screenshot showing proof of completion for your application. (More details below).
+1. Add a screenshot showing proof of completion for your application. (Read more about the eligibilty for reimbursement for your application type [below](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements)).
 
-Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/)
+Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/). Please still add a link to your G&D issue in the description.
 
 ### Step 6 - Close & Feedback
 
