@@ -44,7 +44,7 @@ Examples of existing Python codebases:
 
 | Criteria | Progress | DRI | Start date | End date |
 | :---- | :---- | :---- | :---- | :---- |
-| A Ruby developer has guidance on how to understand and contribute to Python codebase |  |  |  |  |
+| A non-Python developer has guidance on how to understand and contribute to Python codebase |  |  |  |  |
 | Guidelines and templates for Python codebase creation (as described in outcomes) have been merged |  |  |  |  |
 | Code review and maintainership guidelines for Python codebase have been merged |  |  |  |  |
 | Guidelines for deployment of each of the three application types |  |  |  |  |
@@ -53,7 +53,7 @@ Examples of existing Python codebases:
 
 Documentation and process:
 
-- Training for Ruby developers  
+- Training for non-Python developers  
 - Development guidelines  
   - Different types of repositories:   
     - Python services (AIGW, workflow)  
