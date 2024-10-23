@@ -42,6 +42,105 @@ Finally, we have historically allowed rate limit bypasses for some marquee SaaS 
 
 As GitLab.com transitions to a Cells architecture, we have a unique opportunity to create a single source of truth for our rate limits. In the longer term we will work towards a centralised location for rate limits to be configured with sensible defaults, that also allows for customisation for a namespace / project / user / customer as needed. This will also provide a benefit of easily documentable and discoverable rate limits that we can publish to our users.
 
+### Current Rate Limiting Configuration Methods
+
+This diagram is intended to illustrate the complexities in managing our rate limits today across each layer of our stack, and across each of our product offerings.
+
+```mermaid
+flowchart LR
+    subgraph configuration mechanism
+
+        config-mgmt[Terraform - config-mgmt]
+        waf-module[Terraform - cloudflare-waf-rules module]
+
+        chef-repo
+        haproxy-cookbook
+
+        hardcoded
+        API
+        app-settings[Application Settings]
+        k8s-helmfiles
+        vault
+
+        manual
+    end
+
+    subgraph GitLab.com
+        com-cloudflare[Cloudflare]
+        com-haproxy[HAProxy]
+        com-app[Application]
+    end
+
+    subgraph Dedicated
+        d-cloudflare[Cloudflare]
+        d-app[Application]
+    end
+
+    subgraph Self-Managed
+        sm-app[Application]
+    end
+
+    subgraph Cells
+        cell-cloudflare[Cloudflare]
+        cell-app[Application]
+    end
+
+    %% ===================================
+    %% GitLab.com Configuration Mechanisms
+    %% ===================================
+
+    %% Cloudflare
+    config-mgmt --> com-cloudflare
+
+    %% HAProxy
+    chef-repo --> com-haproxy
+    haproxy-cookbook --> com-haproxy
+
+    %% Application
+    hardcoded --> com-app
+    API --> com-app
+    app-settings --> com-app
+    k8s-helmfiles --> com-app
+    vault --> com-app
+    vault --> k8s-helmfiles
+
+    %% Documentation
+    manual --> Documentation
+
+    %% ===================================
+    %% Self-Managed Configuration Mechanisms
+    %% ===================================
+
+    %% Application
+    hardcoded --> sm-app
+    API --> sm-app
+    app-settings --> sm-app
+
+    %% ===================================
+    %% Dedicated Configuration Mechanisms
+    %% ===================================
+
+    %% Cloudflare
+    waf-module --> d-cloudflare
+
+    %% Application
+    hardcoded --> d-app
+    API --> d-app
+    app-settings --> d-app
+
+    %% ===================================
+    %% Cells Configuration Mechanisms
+    %% ===================================
+
+    %% Cloudflare
+    waf-module --> cell-cloudflare
+
+    %% Application
+    hardcoded --> cell-app
+    API --> cell-app
+    app-settings --> cell-app
+```
+
 ### Goals
 
 Simplify rate limiting across the GitLab ecosystem.
@@ -63,7 +162,9 @@ Modify GitLab's existing rate limiting architecture to support passing in rate l
 
 ### Phase 1: Simplify our edge network and bypass configuration
 
-- **Manage IP-based rate limiting bypasses in one layer**
+![Phase 1 Centralize Bypass Illustration](/images/handbook/engineering/architecture/design-documents/rate_limiting_simplification/phase-1-bypass.jpeg)
+
+- **Manage IP-based rate limiting bypasses in one location**
   - Migrate [bypass header logic](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/65f8adc65b62db74714bd53dd48a50f7d9cfede3/templates/default/frontends/https.erb#L49) out of HAProxy and into Cloudflare.
   - Cloudflare custom rules support [transform-rule](https://developers.cloudflare.com/rules/transform/) actions which should make this possible.
 - **Support passing in a configuration file for Cloudflare rules**
@@ -79,6 +180,77 @@ At this point, this proposal refers to the framework mentioned in the [Next Rate
 - **Support passing in a configuration file for ApplicationRateLimiter throttles**
   - Some are configurable through Application Settings UI, some through the API, some are hard coded [[source](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb#L17)].
 
+```mermaid
+flowchart LR
+    style com-haproxy stroke-dasharray: 5 5
+
+    subgraph configuration mechanism
+        cf-config[tfvars]
+        app-config[YAML config file]
+
+        waf-module[Terraform - cloudflare-waf-rules module]
+
+        chef-repo
+        haproxy-cookbook
+
+        API
+        app-settings[Application Settings]
+
+        manual
+    end
+
+    subgraph GitLab.com
+        com-cloudflare[Cloudflare]
+        com-haproxy[HAProxy]
+        com-app[Application]
+    end
+
+    subgraph Dedicated
+        d-cloudflare[Cloudflare]
+        d-app[Application]
+    end
+
+    subgraph Self-Managed
+        sm-app[Application]
+    end
+
+    subgraph Cells
+        cell-cloudflare[Cloudflare]
+        cell-app[Application]
+    end
+
+    %% config files
+    cf-config --> waf-module
+    app-config --> com-app
+    app-config --> sm-app
+    app-config --> d-app
+    app-config --> cell-app
+
+    API --> com-app
+    API --> sm-app
+    API --> d-app
+    API --> cell-app
+
+    %% Cloudflare
+    waf-module --> com-cloudflare
+    waf-module --> d-cloudflare
+    waf-module --> cell-cloudflare
+
+    %% HAProxy
+    %% Still exists for Pages and Registry but isn't a priority
+    chef-repo --> com-haproxy
+    haproxy-cookbook --> com-haproxy
+
+    %% Application Settings
+    app-settings --> com-app
+    app-settings --> sm-app
+    app-settings --> d-app
+    app-settings --> cell-app
+
+    %% Documentation
+    manual --> Documentation
+```
+
 ### Phase 3: Implement a Rate Limit Interface
 
 Create a Rate Limiting interface for configuration of rate limits across all parts of GitLab.com and Cells. While this interface will not be responsible for enforcing limits (throttling will still take place in Cloudflare, or the application itself, for example), it will provide a consolidated catalogue of limits, as well as providing a mechanism to override any limits per Namespace.
@@ -87,10 +259,62 @@ In practice, what this might look like:
 
 1. A new rule is merged into to the Rate Limit Interface repository, producing a new version.
 1. An automation raises a corresponding MR to update the rate limiting configuration in either an application repository or config-mgmt.
-1. Upon merge the new limits are applied, either via Terraform for Cloudflare, or loaded into the GitLab application on start up.
+1. Upon merge the new limits are applied, either via Terraform for Cloudflare, or loaded into the GitLab application.
 1. Pipeline run that will parse and update the rate limit thresholds in the documentation.
 
 **Note:** the specifics about this implementation are subject to change, as we progress through the first two phases and learn more.
+
+```mermaid
+flowchart LR
+    style com-haproxy stroke-dasharray: 5 5
+    style chef-repo stroke-dasharray: 5 5
+    style haproxy-cookbook stroke-dasharray: 5 5
+
+    subgraph configuration mechanism
+        chef-repo
+        haproxy-cookbook
+
+        ssot[Rate Limiting SSOT]
+
+        cf-config[tfvars]
+        waf-module[Terraform - cloudflare-waf-rules module]
+
+        subgraph app-config-mechanisms[Application configuration]
+            app-config[YAML config file]
+            API
+            app-settings[Application Settings]
+        end
+    end
+
+    subgraph platforms[All GitLab Platforms]
+        com-cloudflare[Cloudflare]
+        subgraph com-app[Application]
+            com-rl-ss[Rate Limit Satellite Service]
+        end
+    end
+
+    subgraph com[GitLab.com]
+        com-haproxy[HAProxy]
+    end
+    %% single source of truth
+    ssot -- CI workflow --> cf-config
+    ssot -- CI workflow --> app-config
+
+    %% config files
+    cf-config --> waf-module
+    app-config-mechanisms --> com-app
+
+    %% Cloudflare
+    waf-module --> com-cloudflare
+
+    %% HAProxy
+    %% Still exists for Pages and Registry but isn't a priority
+    chef-repo ----> com-haproxy
+    haproxy-cookbook ----> com-haproxy
+
+    %% Documentation
+    platforms -- CI workflow --> Documentation
+```
 
 ## Pros and Cons
 
