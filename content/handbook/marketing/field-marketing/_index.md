@@ -660,65 +660,75 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 
 ## AMER Field Marketing Swag
 
-The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Boundless](https://www.boundlessnetwork.com/), and their contracted warehouse, [A51 Logistics](https://a51logistics.weebly.com/) for all of our swag and event asset requirements. Boundless is available to produce, ship and store swag and event assets.
+The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Brilliant](https://www.brilliantmade.com/) for all of our swag and event asset requirements. Brilliant is available to produce, ship, and store swag and event assets.
 
-### Boundless Portal
+### Brilliant Portal
 
-Field Marketers are responsible for accessing the [Boundless Portal](https://gitlabstore.mybrightsites.com) via their individual logins to order all swag and assets for their events.
+Field Marketers are responsible for accessing the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) via their individual logins to order all swag and assets for their events.
 
-#### Boundless Portal Training
+#### Brilliant Portal Training
 
-[**Watch Training Video Here**](https://youtu.be/GGFunX7JOK0)  *(Note: You must be logged in to GitLab Unfiltered to view)*
+[**Watch Training Video Here**](https://youtu.be/YRqPeom_H-Q)  *(Note: You must be logged in to GitLab Unfiltered to view)*
 
-### Boundless Support
+### Brilliant Support
 
-For Boundless support, please reach out directly to our Boundless Branded Merchandise Specialist, Savanah Sporer. For any questions or concerns, please reach out to `@krogel`.
+For Brilliant support, please see email addresses below. For any questions or concerns, please reach out to `@krogel`.
 
-Savanah Sporer
-sporer@boundlessnetwork.com
-785.672.2647
+- `gitlab@brilliantmade.com` for net-new orders
+- `support@brilliantmade.com` for order/shipping support in North America
+- `international.support@brilliantmade.com` for order/shipping support in EMEA, UK and APJ
 
-### Details Regarding Swag and Event Asset Ordering
+### Specialty swag orders for a specific event
 
-- You are required to provide an Allocadia ID and event name for all Boundless orders. All charges related to swag and shipping will be associated to your specific campaign. Please see [this page](/handbook/marketing/#how-marketing-tracks-campaign-expenses) for additional Allocadia ID information.
-- When orders are placed through the Boundless portal, A51 Logistics' UPS account will be utilized for shipping charges. These charges will process through our monthly invoice and charges will be associated to the Allocadia ID provided when ordering.
-- Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, or you intend to utilize the remaining stock for an item, please reach out to `@krogel` for reordering.
-- If you would like to source a new swag item, please reach out to `@krogel` directly. All new swag items must be approved by the Brand team for brand consistency.
-- Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Timeframes vary greatly based on the items selected, design approval, and availability. General Lead Times: 6 weeks to produce a new item and 2-3 weeks to reorder current designs
+- If you would like to order specialty swag for a specific event, please reach out to `gitlab@brilliantmade.com` and provide the following details:
+  - Item you are looking to source
+  - Any links or pictures for reference
+  - Budget
+  - In-hand ETA 
+  - Where swag will be shipped (if swag is to be stored in the warehouse, please include `@krogel` on correspondence)
+- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team. 
+  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the POC and then once approved, proof will be sent to the Brand team for final approval (within the Brilliant portal). 
+  - If the swag item chosen requires a full design, please follow the instructions [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners). Please include your FMC in the process to handle the financial requirements.
 
-### AMER Field Marketing Event Assets
+### Orders and Shipping Charges
 
-It is recommended that each Field Marketer keep a separate GitLab tablecloth, popup banner and table runner with them at home for easy access and to be utilized for events. Ordering instructions are provided during onboarding, but if replacement items are needed, please contact `@krogel`. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, DevOps Days kits, etc.) are stocked at the Boundless warehouse and can be shipped via the [Boundless Portal](https://gitlabstore.mybrightsites.com).
+- Please see the homepage of the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) for specific ordering instructions and helpful details.
+- General swag items in the store have previously been ordered and paid for in bulk. You are not required to pay for these swag items from your individual budgets. The cost of the swag items are shown to help indicate the level of swag and how much should be utilized.
+- You are required to provide an Allocadia ID and event name for all Brilliant store orders. All charges related to shipping will be associated to your specific campaign and these charges will process through our monthly invoice. When you place your orders through the store, you will be provided a shipping estimate during checkout. If you are returning items, you can estimate the same return shipping and add that total to your forecast. 
+  - PLEASE NOTE: Our monthly Brilliant invoice covers all charges for the previous month. Due to our prepaid policy, your shipping charges for the previous month will be reconciled in the following month, so please forecast accordingly. Example - You ship swag in August for an August event. Our August monthly invoice processes in September, so those August shipping charges should be forecasted in September.
+- Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, you intend to utilize the remaining stock for an item, or you are ordering over 500 pieces of an item, please reach out to `@krogel` for reordering.
+- Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Timeframes vary greatly based on the items selected, design approval, and availability. General Lead Times: 6-8 weeks to produce a new item and 2-3 weeks to reorder current designs
 
-### Returning AMER Field Marketing Event Assets and Swag
+### New Swag ideas
 
-It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Boundless portal will include a clearly marked return label inside of each box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
+If you would like to source a new swag item for the team's inventory, please reach out to `@krogel` directly. All new swag items must be approved by the Brand team for brand consistency.
 
-**PLEASE NOTE:** Trash should not be put into the return shipping boxes. All event assets are to be packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Do not send small numbers of swag back to the warehouse if the items were bundled. Only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+### Field Marketing Event Assets
 
-#### A51 Logistics Warehouse Address
+Event assets utilized for shows (including backwalls, tablecloths, popup banners, event kits, etc.) are stocked at the Brilliant warehouse and can be ordered for events using the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in). It is also recommended that each Field Marketer keep a separate GitLab tablecloth, popup banner and table runner with them at home for easy access and to be utilized for events. 
 
-A51 Logistics
-Account: GitLab
-4465 W Hacienda, Suite 105
-Las Vegas, NV 89118
-702-353-4547
+### Returning Field Marketing Event Assets and Swag
+
+It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Brilliant portal will include return labels (one return label per box) in a red envelope adhered to the inside flap of the box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
+
+**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+
+### Warehouse Address
+
+AMER Warehouse  
+Attn: GitLab AMER FM Store - c/o Kerry Phan  
+Brilliant  
+1605 S Waukegan Rd  
+Waukegan, IL 60085  
+415-980-4600  
 
 ### Stickers
 
-For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request). Please note that we are currently not producing specialty Tanuki designs at this time.
-
-#### Sticker Budgeting and Tracking
-
-The AMER Field Marketing Team has a blanket PO for all Stickermule orders. The FMM placing the order will log into Stickermule (utilizing the Marketing 1pass), add the stickers needed to the cart, then contact their FMC to provide the total cost of the order. The FMC will then provide the Coupa Card information to use for payment (receipt is not required). The FMC will then add the total cost of the order to the appropriate month's forecast in the Stickermule Blanket PO line item in the ALL AMER plan in Allocadia (2505376).
+Approved sticker designs are located in the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in). Stickers are no bulk ordered in advance and will be produced per order. Please add the number of stickers you would like to order and then proceed to checkout. `Finalizing process with Brilliant, more to come.`
 
 ### Print Collateral
 
 In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#field-marketing-qr-codes-for-events) to display at your event with that same piece of content for customers to download to their own devices.
-
-### Requesting New Swag in AMER
-
-If you are interested in ordering new swag, please open a [Swag Request Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Swag_Request_Template) and assign `@krogel`. If you believe the swag item is something the entire AMER team would be interested in utilizing, you can add an item to our weekly team agenda or send a message in the `#amerfmteamctf` Slack channel to check and see if any other FMMs would be interested in also ordering the item and splitting the cost. If splitting the cost between regions, please remember to utilize the `ALL AMER` plan in Allocadia for [budgeting](/handbook/marketing/field-marketing/#the-field-marketing-budget) and to indicate which regions are sharing the cost in the Swag Request Issue.
 
 ## EMEA Field Marketing Swag
 
