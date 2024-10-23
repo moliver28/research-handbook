@@ -53,7 +53,7 @@ Some high-priority initiatives for the team are:
 
 ### Know about something scary and weird?
 
-To ask us to look into an **area of potential scariness**, please create an issue using our [something weird template](TODO).
+To ask us to look into an **area of potential scariness**, please create an issue using our [something weird template](https://gitlab.com/gitlab-com/gl-security/product-security/data-security/data-security-team/-/issues/new?issuable_template=something-weird).
 
 ### What We'll Do
 
