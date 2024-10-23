@@ -182,6 +182,7 @@ Cigna
 Citrix
 Citus
 Civo
+Clari
 Cleartext
 ClickHouse
 CLIs
