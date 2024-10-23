@@ -169,7 +169,7 @@ Think of each of these groups of labels as ways of bucketing the work done.
 
 All issues should get the following classes of labels assigned to them:
 
-- **Team:** The Data Team that will perform the work ([Fusion Team](/handbook/enterprise-data/#data-fusion-teams) or [Data Platform Team](/handbook/enterprise-data/#the-data-platform-team))
+- **Team:** The Data Team that will perform the work (i.e. Data Platform, Analytics Engineering, Data Science, BI, Data Governance)
 - **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
 - **Workflow:** The status of the work
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
@@ -178,7 +178,8 @@ Optional labels that are useful to communicate state or other priority:
 
 - **What:**
   - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
-  - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
+  - Tool: (Tableau, dbt, Stitch, Airflow, etc.)
+  - Pod: [Data team pod](https://handbook.gitlab.com/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
 
