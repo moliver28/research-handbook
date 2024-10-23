@@ -21,14 +21,15 @@ Start by having a [growth conversation](/handbook/people-group/learning-and-deve
 
 ### Step 2 - Open an Issue
 
- Create a new Growth & Development issue using one of the issue templates below. Please create your issue within the notification timeframe set out below.
+ Create a new Growth & Development issue using one of the issue templates below. Please create your issue 30 days in advance of the beginning of your experience.
 
 |G&D Issue Template|
 |------------------|
-|[Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study)|30 days before the commencement date|
-|[Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)|30 days before the commencement date|
-|[Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)|7 days before the commencement date|
-|[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below. | Your 4th Trimester |
+|[Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study)|
+|[Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)|
+|[Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)|
+|[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below.|
+| Your 4th Trimester |
 
 ### Step 3 - Gain Approval
 
@@ -131,6 +132,8 @@ The course must be from a credentialed college or university and must be relevan
 ### Your 4th Trimester Coaching
 
 Description: Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
+
+For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to growth-development@gitlab.com.
 
 Eligibility for Reimbursement: Team members returning from Parental Leave. The provider will invoice GitLab directly.
 
