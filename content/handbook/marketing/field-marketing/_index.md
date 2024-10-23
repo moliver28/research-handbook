@@ -1265,21 +1265,21 @@ Please refer to the [Marketing Performance handbook](/handbook/marketing/strateg
 
 ## Field Marketing - Public Sector
 
-## Charitable Donations for Event Attendance
+### Charitable Donations for Event Attendance
 
 As incentive for attending an event, GitLab can promote and process a monetary donation per participant to a charitable organization. For example: GitLab promotes a $25 donation per attendee for attending an event, 100 attendees participate in the event and GitLab donates $2,500 to the selected charity. **Please Note**: Donations are not to be made in a participant's name or reference a participant's organization.
 
 All GitLab donations to charitable organizations must follow the [Philanthropy Approval Process](/handbook/legal/esg/#philanthropic-requests).
 
-## PubSec FMM Calendar share
+### PubSec FMM Calendar share
 
 In alignment with the PubSec team's [process to lock down shared data](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/150) that is accessible to teams outside of our US PubSec team - (will link to handbook page once its been created!) the Public Sector Field Marketing Managers, by default, will mark their calendar details as private. Google calendar [has a feature](https://support.google.com/calendar/answer/37082?hl=en#zippy=%2Cunderstand-permission-settings-for-shared-calendars%2Cstop-sharing-your-calendar-publicly-with-your-organization-or-with-specific-people) that allows you to share your calendar with individuals once its been marketed as private and at a minimum, the FMM team member should share their calendar with both their direct manager as well as their aligned Field Marketing Specialist, pending those people are US Citizens.
 
-## PubSec Website
+### PubSec Website
 
 Please see the PubSec website page [here](https://about.gitlab.com/solutions/public-sector/).
 
-### How to Edit the PubSec Website
+#### How to Edit the PubSec Website
 
 The content for the PubSec page lives in the `Buyer Experience` repository, in the [public-sector.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/solutions/public-sector.yml#L240) file (starting around line 240). To edit this file, please keep the same structure as the current content to avoid any errors. Feel free to use the Web IDE or single file editor to update the information.
 
@@ -1308,9 +1308,7 @@ The event cards section of the file will look something like this:
 
 After making your edits, please tag an Engineer on the [Digital Experience Team](/handbook/marketing/digital-experience/#groups-metrics--team-members) as a `Reviewer`. For further assistance, feel free to post a question in the #digital-experience-team slack channel.
 
-## GitLab Government User Group Program
-
-### Purpose, Mission and Values
+### GitLab Government User Group Program
 
 #### Purpose
 
@@ -1324,49 +1322,49 @@ To provide opportunities for discussion, education and community building for in
 
  Transformation, Collaboration, Education, Iteration, Inclusion
 
-### Four Pillars of our User Group
+#### Four Pillars of our User Group
 
 1. Member Development: Helping our members grow both through both technical and professional education
 1. Outreach: Engaging with the greater Public Sector community
 1. Awareness & Education: Helping to drive conversations on how DevOps can benefit the communities we serve
 1. Contributing: Continue to support the growth and transformation of DevOps within the technical community
 
-### Code of Conduct
+#### Code of Conduct
 
 To ensure a positive experience we will adhere to the GitLab code of conduct [found here](https://about.gitlab.com/community/contribute/code-of-conduct/)
 
-### Boilerplate Verbiage
+#### Boilerplate Verbiage
 
 Join us as we build a community of GitLab users within Government and Education where peers can share best practices, connect with public sector GitLab Team members and collaborate on how to best serve the public sector.
 
 We are committed to providing opportunities for discussion, education and community building for individuals who serve the public sector. We look forward to connecting through both virtual and in person events, training and team building!
 
-### Branches
+#### Branches
 
 - Caffeine and Collaboration #caffeineandcollaboration
 - User Group Workshops #usergroupworkshop
 - Iterate! Start something new!
 
-### Recommended Formats for Event
+#### Recommended Formats for Event
 
 - Roughly 1.5 hours in length
 - Series of 2-3 speakers (one GitLab and 1-2 customers)
 - AMA or Panel
 
-### Sample Agenda/Example Slide Deck
+#### Sample Agenda/Example Slide Deck
 
 [Sample Agenda/Example Slide Deck](https://docs.google.com/presentation/d/1hwU1nt8wb8ADtj9JFq-zTg1bbZNf3L5H/edit?usp=sharing&ouid=114806938780598580840&rtpof=true&sd=true)
 
-### GitLab Forum
+#### GitLab Forum
 
 - Encourage members, registrants and attendees to get involved and open up discussions on the [GitLab Forum page](https://forum.gitlab.com/c/gitlab-government-user-group/44) for the GitLab Government User Group.
 
-### Imagery
+#### Imagery
 
 - Branding should remain consistent across the entire User Group program leveraging marketing approved Tanuki graphics.
   - Press kit for Tanuki designs can be found [here](https://about.gitlab.com/press/press-kit/)
 
-### Hashtags and Social Media Promotion
+#### Hashtags and Social Media Promotion
 
 - The following hashtags should be used when promoting on social platforms:
   - #gitlabgovernmentusergroup
@@ -1379,7 +1377,7 @@ We are committed to providing opportunities for discussion, education and commun
 - Event should be promoted via Bambu. Reach out to @KiraAubrey to get a post created, approved and ready for team sharing.
 - Encourage relevant people from the sales, marketing and technical teams to promote via their social pages.
 
-### When Engaging a Partner
+#### When Engaging a Partner
 
 **Consider the following items**:
 
@@ -1388,7 +1386,7 @@ We are committed to providing opportunities for discussion, education and commun
 - Ensure that the partner is aware this is NOT a marketable event.
 - Ensure branding is in alignment with GitLab Government User Group branding.
 
-### Backend Processes
+#### Backend Processes
 
 **Getting Started with Meetup.com**
 
@@ -1400,7 +1398,7 @@ We are committed to providing opportunities for discussion, education and commun
    - **Please Note**: Meetup.com will be leveraged for announcements and save the date messaging. Actual registration will take place on external registration sites via GitLab or the involved partner.
    - **Best Practice**: Create a Save the Date event for your upcoming event on meetup.com!
 
-### Best Practices - Sample Timeline for a User Group Run Through Carahsoft
+#### Best Practices - Sample Timeline for a User Group Run Through Carahsoft
 
 - GitLab Team Member nominates a Speaker and Proposed Topic/ Speaker submission form is received
 - Intro call with GitLab and Speaker
@@ -1496,7 +1494,7 @@ We are committed to providing opportunities for discussion, education and commun
 
 ## AMER Field Marketing iPad Purchasing and Setup Instructions
 
-## Purchasing Details
+### Purchasing Details
 
 [iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
 [iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/ca/shop/product/MXNL2LL/A/smart-keyboard-folio-for-ipad-pro-129-inch-6th-generation-us-english)
@@ -1505,21 +1503,21 @@ We are committed to providing opportunities for discussion, education and commun
 - Do not purchase AppleCare
 - iPads can only be purchased by the regional Field Marketing Manager
 
-## iPad Tracking
+### iPad Tracking
 
-### AMER
+#### AMER
 
 In the AMER region, we utilize [this issue](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/1031) to track the team's iPads.
 
-### EMEA
+#### EMEA
 
 In the EMEA region, [Ten&One](/handbook/marketing/field-marketing/#emea-field-marketing-swag) is utilized for the team's iPad tracking.
 
-### APAC
+#### APAC
 
 TBD
 
-## Setting Up Logins
+### Setting Up Logins
 
 **iPad Password**
 
@@ -1535,7 +1533,7 @@ TBD
 
 ## Working with Field Marketing
 
-## Requests to Field Marketing leadership team
+### Requests to Field Marketing leadership team
 
 If you are a Field Marketing Manager and you would like to make a request in order to achieve better business results aligned to our values, please submit an issue using the [Field Marketing Leadership request issue template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=leadership_request).
 
@@ -1554,7 +1552,7 @@ For information on how Field Marketing tracks campaign expenses, please visit th
 
 The Field Marketing team works from issues and issue boards. If you need our assistance with any project, please open an issue and use the `Field Marketing` label anywhere within the GitLab repo.
 
-## General Field Marketing Labels
+### General Field Marketing Labels
 
 - `Field Marketing`: Issue initially created, used in templates, the starting point for any issue that involves Field Marketing
 - `FY25-Q1` `FY25-Q2` `FY25-Q3` `FY25-Q4`: What event or activity is set to take place or be due in this quarter in the specific year
@@ -1577,7 +1575,7 @@ The Field Marketing team works from issues and issue boards. If you need our ass
 - `Webcast - GitLab Hosted`: Issue related to GitLab-Hosted Webcasts
 - `FM Workshop`: Issue related to Field Marketing-run workshops
 
-## Regional Field Marketing Labels
+### Regional Field Marketing Labels
 
 - `APAC`: Issues that are related to the APAC sales team
 - `EMEA`: Issues that are related to the EMEA sales team
@@ -1648,15 +1646,15 @@ Please note that there is a limit of $75 USD annually per person on customer spe
 
 ## Field Marketing and the Procurement Process
 
-## Field Marketing Contract Requests
+### Field Marketing Contract Requests
 
 In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC.
 
-### SLAs
+#### SLAs
 
 The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
-### Document Review
+#### Document Review
 
 Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
 
@@ -1667,23 +1665,23 @@ Please make sure you have reviewed your document carefully and have pre-filled t
 - Clear vendor goals and if the vendor fails to deliver against T&Cs/goals, a detailed make-good clause
 - If a room block is involved, accurate attrition requirements have been included
 
-### Month Close
+#### Month Close
 
 Please Note: AP typically closes out the month by the third business day **before** the last day of the month (Day -3). Once AP closes the month, any charges under $5k (under $50k for swag/shipping) occurring via a credit card or invoice approvals will be reconciled the following month. The month close date will be announced each month in the `#allocadia_mktg-budget-holders` Slack channel and will also be added to the [Marketing Finance Dates Calendar](https://calendar.google.com/calendar/embed?src=c_j581mpq4tcn6bjojs1bqnl4eg0%40group.calendar.google.com&ctz=America%2FDenver).
 
-### Prepaid Policy
+#### Prepaid Policy
 
 Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia.
 
-### Signature Authority
+#### Signature Authority
 
 GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
 
-### Coupa Card Versus Navan Card
+#### Coupa Card Versus Navan Card
 
 This template is to be utilized for all contracts/orders/invoices that either require a signature/acceptance of terms and conditions and/or are over $5,000 in cost. If your order does not require a contract/signature and is under $5,000, you may utilize your [Navan credit card](/handbook/finance/accounts-payable/corp-credit-cards/) for payment.
 
-### Coupa Card Limits
+#### Coupa Card Limits
 
 Please be aware that your Coupa card limit is directly associated to the approved PO amount. We have a 10% overage on the card and if you try to charge more than 10% over the PO amount, the card will decline. If you require additional funds be added to the card limit, you will need to request your FMC submit a [PO Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) to increase the PO total and the card limit.
 
@@ -1691,15 +1689,15 @@ Please be aware that your Coupa card limit is directly associated to the approve
 
 Please also note, we can only use Coupa cards for POs up to $25,000. Anything over $25,000 requires ACH payment and onboarding the vendor through Zip/Coupa. If you know you have an upcoming contract/payment over $25,000, please contact your FMC in advance so they can check to see if the vendor is currently in Zip/Coupa and if not, they can request the vendor be onboarded in advance by submitting a [Zip request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-new-vendor). No contract is required to submit this request and an estimated cost can be provided. Please note in the title of the submission that the request is for new vendor onboarding only. For any questions, please reach out to your FMC.
 
-### Various Charges on Coupa Card
+#### Various Charges on Coupa Card
 
 If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
 
-### F&B/AV/Additional Event Charges
+#### F&B/AV/Additional Event Charges
 
 Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
 
-### Contract Request Issue Re-use
+#### Contract Request Issue Re-use
 
 If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
 
@@ -1756,19 +1754,19 @@ New vendors are popping up frequently and in the spirit of iteration and testing
 
 ## Field Marketing and Legal
 
-## Legal Approvals
+### Legal Approvals
 
 Field Marketing executes contracts with outside vendors to support the work we do. We do so by following the company [procure to pay process](/handbook/finance/procurement/). All legal approvals will flow this process.
 
 It should be a rare occasion (and not a result of poor planning), that a contract would need to be urgently (less than 5 business days) turned around. Only after all FMM approvals have happened, should the FMC ping legal on slack asking them to please approve an urgent ask.
 
-## Sweepstakes
+### Sweepstakes
 
 Field Marketing follows the legal team's process [here](/handbook/legal/marketing-collaboration/#promotional-games) for contests and sweepstakes.
 
 ## Field Marketing Communications
 
-## Regional Email Aliases
+### Regional Email Aliases
 
 Field Marketing utilizes regional email aliases for pre and post tactic outreach. Please see [this section](/handbook/marketing/events/#email-alias-usages-for-outreach) for more details.
 
@@ -1867,15 +1865,11 @@ At times, Field Marketers may want to create a SPIF (sales performance incentive
 
 Account based marketing is separate but sits next to field marketing. For info on account based marketing, please head over to the [ABM page](/handbook/marketing/account-based-marketing/).
 
-## FMM 6sense Use Cases and set up
-
-Field Marketing use cases are being migrated from Demandbase to 6sense. More info can be found on the [6sense Handbook page.](/handbook/marketing/marketing-operations/6sense/)
-
 ## Tiers of support from Field Marketing for Corporate lead events
 
 In an effort to support the events the corporate marketing team runs, Field Marketing will rank the shows on an annual basis that corporate marketing runs.
 
-## Tier 1
+### Tier 1
 
 Field Marketing will:
 
@@ -1892,7 +1886,7 @@ Field Marketing will:
 1. Gartner Security Summit - AMER
 1. Google NEXT
 
-## Tier 2
+### Tier 2
 
 Field Marketing will:
 
