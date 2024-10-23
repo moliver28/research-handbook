@@ -1265,6 +1265,19 @@ Please refer to the [Marketing Performance handbook](/handbook/marketing/strateg
 
 ## Field Marketing - Public Sector
 
+### Requesting support for a Public Sector event
+
+Requests will be reviewed by the Staff Public Sector Field Marketing Manager. Even if the event is free or low-cost, all requests must be approved by the manager prior to any commitment to ensure the event or tactic aligns to the marketing strategy within the SLA required below, and the team has the resources to support the event.
+
+#### Requirements
+
+- 60 days notice, prior to the start of the event
+- Support needed from Field Marketing (landing page, swag, invites, etc.)
+- Budget
+- Have we run or sponsored this event in the past?
+   - If yes - Please provide ROI details from previous SFDC campaign
+   - If no - Please provide valid justification for adding this event to the Field Marketing plan
+
 ### Charitable Donations for Event Attendance
 
 As incentive for attending an event, GitLab can promote and process a monetary donation per participant to a charitable organization. For example: GitLab promotes a $25 donation per attendee for attending an event, 100 attendees participate in the event and GitLab donates $2,500 to the selected charity. **Please Note**: Donations are not to be made in a participant's name or reference a participant's organization.
