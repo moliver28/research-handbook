@@ -249,7 +249,7 @@ Exit Criteria:
 - Requests meet [latency target](https://docs.gitlab.com/ee/architecture/blueprints/cells/http_routing_service.html#low-latency)
 - registry.gitlab.com not proxied.
 
-![phase-2](/static/images/cells/phase-2.png)
+![phase-2](/images/cells/phase-2.png)
 
 [source](https://excalidraw.com/#json=ymWufV5324javtKSrYiZW,5S-bkgtFS_yEIRxmVZ1rag)
 
@@ -282,7 +282,7 @@ Unblocks:
 
 Before/After:
 
-![phase-3](/static/images/cells/phase-3.png)
+![phase-3](/images/cells/phase-3.png)
 
 [source](https://excalidraw.com/#json=z7-ihTQ69trj5vdpXZ-7V,k0NtksWZMRdaR-lHoH3JMQ)
 
@@ -314,7 +314,7 @@ Dependencies:
 
 Before/After:
 
-![phase-4](/static/images/cells/phase-4.png)
+![phase-4](/images/cells/phase-4.png)
 
 [source](https://excalidraw.com/#json=rWNPd77fLEhwZpERiUYLA,Tb-v5Hen6NomaopcmE9_mw)
 
@@ -345,7 +345,7 @@ Dependencies:
 
 Before/After:
 
-![phase-5](/static/images/cells/phase-5.png)
+![phase-5](/images/cells/phase-5.png)
 
 [source](https://excalidraw.com/#json=UpWQ_mQElSNOnEtOx3ZcI,MsAdeBL_6-CFH0c4P0BeZA)
 
@@ -372,7 +372,7 @@ Dependencies:
 
 Before/After:
 
-![phase-6](/static/images/cells/phase-6.png)
+![phase-6](/images/cells/phase-6.png)
 
 [source](https://excalidraw.com/#json=b5JgJCXAldtsXx6iSzAdq,4A2TRSwU9WI19zbOn09gaA)
 
