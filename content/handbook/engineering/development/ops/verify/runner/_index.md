@@ -84,6 +84,11 @@ is added to each project with maintainer permission. We also try to align tools 
 - [Docker Machine (fork)](https://gitlab.com/gitlab-org/ci-cd/docker-machine)
 - [Custom Executor Autoscaler](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/autoscaler)
 
+### CI Steps projects
+
+- [Step Runner](https://gitlab.com/gitlab-org/step-runner)
+- [Action Runner](https://gitlab.com/gitlab-org/components/action-runner)
+
 ### Helper projects
 
 - Linters
