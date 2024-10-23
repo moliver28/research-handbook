@@ -121,6 +121,7 @@ is added to each project with maintainer permission. We also try to align tools 
   - [Chef Runner Cookbook Wrapper](https://gitlab.com/gitlab-cookbooks/cookbook-wrapper-gitlab-runner)
   - [Ansible Playbooks](https://gitlab.com/gitlab-com/gl-infra/ci-runners/deployer)
   - [Windows Runners](https://ops.gitlab.net/gitlab-com/gl-infra/ci-infrastructure-windows/)
+  - [GRIT](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit.git)
 - Operations
   - [Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ci-runners)
   - [MacOS Runbooks](https://gitlab.com/gitlab-org/ci-cd/shared-runners/macos) (deprecated)
