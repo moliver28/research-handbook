@@ -7,16 +7,16 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 | Lab Name |  Lab Link |
 |-----------|------------|
-| Understanding the Basics of Pipelines | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab1) |
-| Defining Stages, Jobs, and Runners | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab2) |
-| Create a basic CI configuration | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab3) |
-| Display Pipeline Info | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab4) |
-| Variable Hierarchy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab5) |
-| Job Policy Patterns | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab6) |
-| Using Artifacts |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab7) |
-| GitLab Docker Registry |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab8) |
-| Security Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9) |
-| Code Quality Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9alt) |
+| Understanding the Basics of Pipelines | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab1) |
+| Defining Stages, Jobs, and Runners | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab2) |
+| Create a basic CI configuration | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab3) |
+| Display Pipeline Info | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab4) |
+| Variable Hierarchy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab5) |
+| Job Policy Patterns | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab6) |
+| Using Artifacts |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab7) |
+| GitLab Docker Registry |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab8) |
+| Security Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab9) |
+| Code Quality Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/spt/gitlabcicdhandsonlab9alt) |
 
 ## Quick links
 
