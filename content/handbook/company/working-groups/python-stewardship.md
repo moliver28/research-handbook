@@ -1,6 +1,6 @@
 ---
 title: "Python Stewardship Working Group"
-description: "Consolidating Pythong development within GitLab"
+description: "Consolidating Python development within GitLab"
 status: not started
 ---
 
@@ -18,9 +18,9 @@ status: not started
 
 ## Goal
 
-- Consolidate Python development within GitLab, providing confidence to developers on developing high-quality python codebases. 
+- Consolidate Python development within GitLab, providing confidence to developers on developing high-quality Python codebases. 
 - Simplify developer decision making by providing opininated guidelines on how to create, maintain and deploy Python services and libraries in GitLab.
-- Define resources (courses, mentorship) for training  developers that want or need to contribute to a python codebase.
+- Define resources (courses, mentorship) for training  developers that want or need to contribute to a Python codebase.
 
 ## Context
 
@@ -28,7 +28,7 @@ While Python has been present at small scale for many years in the company, the 
 
 As a result, developers are confused on how to write Python code, how to review Python code, and how to set up new functionality. Ruby developers also feel a lack of support when it comes to understanding and contributing to the codebase. One key difference between our Ruby codebase and our Python codebase is that the Python codebase is more distributed: instead of having a single repository we have multiple each responsible for an area.
 
-Examples of existing python codebases:
+Examples of existing Python codebases:
 
 - AI Gateway https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/
 - Prompt library https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library
@@ -44,9 +44,9 @@ Examples of existing python codebases:
 
 | Criteria | Progress | DRI | Start date | End date |
 | :---- | :---- | :---- | :---- | :---- |
-| A ruby developer has guidance on how to understand and contribute to python codebase |  |  |  |  |
-| Guidelines and templates for python codebase creation (as described in outcomes) have been merged |  |  |  |  |
-| Code review and maintainership guidelines for python codebase have been merged |  |  |  |  |
+| A Ruby developer has guidance on how to understand and contribute to Python codebase |  |  |  |  |
+| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged |  |  |  |  |
+| Code review and maintainership guidelines for Python codebase have been merged |  |  |  |  |
 | Guidelines for deployment of each of the three application types |  |  |  |  |
 
 ## Outcomes
@@ -65,7 +65,7 @@ Documentation and process:
 - Code review and maintainership guidelines
 - Deployment guidelines
   - Python services (AIGW, workflow)  
-  - python utilities (CEF)  
+  - Python utilities (CEF)  
   - libraries  
 
 Development experience:
@@ -90,5 +90,5 @@ Development experience:
 
 ### Non-goals
 
-- Evolution of AI Gateway, although related to this WG proposal, is out of scope
-- Data Science use cases (such as code to develop a new ML model) differs substantially to system development, and merits it's own set of guidelines
+- Evolution of AI Gateway, although related to this WG proposal, is out of scope.
+- Data Science use cases (such as code to develop a new ML model) differs substantially to system development, and merits their own set of guidelines.
