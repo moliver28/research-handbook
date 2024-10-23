@@ -288,6 +288,7 @@
 /handbook/product/milestones/ /handbook/product/product-processes/milestones/ 301
 /handbook/product/product-safe-guidance/ /handbook/product/product-processes/product-safe-guidance/ 301
 /handbook/product/packaging-and-pricing/tiering-guidance-for-features/ /handbook/product/product-processes/tiering-guidance-for-features/ 301
+/handbook/product/features/ /handbook/product/categories/features/ 301
 
 # Remote Development group/category renames - remove 2024-12-17
 /handbook/engineering/architecture/design-documents/remote_development/* /handbook/engineering/architecture/design-documents/workspaces/:splat 301
