@@ -249,7 +249,7 @@ Exit Criteria:
 - Requests meet [latency target](https://docs.gitlab.com/ee/architecture/blueprints/cells/http_routing_service.html#low-latency)
 - registry.gitlab.com not proxied.
 
-![phase-2](img/phase-2.png)
+![phase-2](/images/cells/phase-2.png)
 
 [source](https://excalidraw.com/#json=ymWufV5324javtKSrYiZW,5S-bkgtFS_yEIRxmVZ1rag)
 
@@ -282,7 +282,7 @@ Unblocks:
 
 Before/After:
 
-![phase-3](img/phase-3.png)
+![phase-3](/images/cells/phase-3.png)
 
 [source](https://excalidraw.com/#json=z7-ihTQ69trj5vdpXZ-7V,k0NtksWZMRdaR-lHoH3JMQ)
 
@@ -308,9 +308,13 @@ Exit Criteria:
 - Each routing rule added should be covered with relevant e2e tests.
 - Route Job Tokens and Runner Registration to different Cells using TopologyService::Classify.
 
+Dependencies:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Topology Service and Router need to running in production.
+
 Before/After:
 
-![phase-4](img/phase-4.png)
+![phase-4](/images/cells/phase-4.png)
 
 [source](https://excalidraw.com/#json=rWNPd77fLEhwZpERiUYLA,Tb-v5Hen6NomaopcmE9_mw)
 
@@ -323,9 +327,27 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Topology Service Production Readiness Review for Beta.
+- Framework to claim resources globally using TopologySerivce::Claims storing them in Google Spanner.
+- Following resources are claimable; Username, E-Mail, Top level Group Name, Routes
+- All resources that need to be claimed identified.
+- Lease a sequence to a Cell using ToplogyService::Sequence.
+- Rails application able to send requests to TopologyService using internal network.
+- mTLS communication between TopologyService and HTTP Router.
+- mTLS communication between TopologyService and Rails.
+- mTLS communication between HTTP Router and Cell.
+- PreQA Cell can start claiming resources, still detached from Legacy Cell.
+- Claims done by PreQA Cell will be deleted.
+
+Dependencies:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Topology Service Deployed.
 
 Before/After:
+
+![phase-5](/images/cells/phase-5.png)
+
+[source](https://excalidraw.com/#json=UpWQ_mQElSNOnEtOx3ZcI,MsAdeBL_6-CFH0c4P0BeZA)
 
 Details:
 
@@ -336,9 +358,23 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Topology Service Production Readiness GA.
+- Legacy Cell configured as a Cell in TopologyService.
+- All new resources in Legacy Cell are claimed using TopologyService::Claims.
+- Legacy Cell claimed all existing resources.
+- Sequence leased to Legacy Cell.
+- Capacity Planning for sequences leased.
+- Latency increase for creating globally unique resources up to 20ms.
+
+Dependencies:
+
+- [Phase 5](#phase-5-cluster-awareness): Cluster Awareness
 
 Before/After:
+
+![phase-6](/images/cells/phase-6.png)
+
+[source](https://excalidraw.com/#json=b5JgJCXAldtsXx6iSzAdq,4A2TRSwU9WI19zbOn09gaA)
 
 Details:
 
