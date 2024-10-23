@@ -77,10 +77,10 @@ Milestone starting date is defined in [gitlab.org group milestones](https://gitl
 
 Milestone Planning timeline:
 
-* 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20) is created by PM/EM, with high level milestone goals.
+* 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/80) is created by PM/EM, with high level milestone goals.
 * 8 days before milestone starting date: Planning draft is shared with team. Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
 * 5 days before milestone starting date: Planning is reviewed during team sync meeting.
-* On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
+* On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/7850744) Previous milestone issues are moved to the new milestone or backlog.
 * During the milestone, we analyze progress and reprioritize as needed.
 
 ### How to find something to work on?
@@ -89,7 +89,7 @@ Normally at the beginning of the Milestone the EM will discuss an overview of th
 
 If you are ever looking for additional issues to work on:
 
-1. Look at the [Platform Insight](https://gitlab.com/gitlab-org/gitlab/-/boards/7850705) or [opstrace](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/5213948) Milestone boards
+1. Look at the Platform Insight [Milestone board](https://gitlab.com/groups/gitlab-org/-/boards/7850744)
 1. Identify an issue that is unassigned.
 1. Assign yourself to the issue.
 1. Add a `workflow:in dev` label to the issue
@@ -112,15 +112,13 @@ For SaaS:
 * In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
 
 ```text
-/chatops run feature set --group=gitlab-org observability_tracing true
-/chatops run feature set --group=gitlab-org observability_metrics true
-/chatops run feature set --group=gitlab-org observability_logs true
+/chatops run feature set --group=gitlab-org observability_features true
 ```
 
 To see the list of groups that have been already enabled, you can run the following command:
 
 ```text
-/chatops run feature get observability_tracing
+/chatops run feature get observability_features
 ```
 
 The list returns group IDs and not group names though. To know a group's ID, browse to the group's page ([example](https://gitlab.com/gitlab-org/)), open the "..." menu on the top-right of the page and select "Copy group ID". If you don't have access to the group, ask the customer to do it.
