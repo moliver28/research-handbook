@@ -664,7 +664,7 @@ The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Bri
 
 ### Brilliant Portal
 
-Field Marketers are responsible for accessing the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) via their individual logins to order all swag and assets for their events.
+Field Marketers are responsible for accessing the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) utilizing their individual logins to order all swag and assets for their events.
 
 #### Brilliant Portal Training
 
@@ -684,20 +684,20 @@ For Brilliant support, please see email addresses below. For any questions or co
   - Item you are looking to source
   - Any links or pictures for reference
   - Budget
-  - In-hand ETA 
+  - In-hand ETA
   - Where swag will be shipped (if swag is to be stored in the warehouse, please include `@krogel` on correspondence)
-- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team. 
-  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the POC and then once approved, proof will be sent to the Brand team for final approval (within the Brilliant portal). 
+- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
+  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the POC and then once approved, proof will be sent to the Brand team for final approval (within the Brilliant portal).
   - If the swag item chosen requires a full design, please follow the instructions [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners). Please include your FMC in the process to handle the financial requirements.
 
 ### Orders and Shipping Charges
 
 - Please see the homepage of the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) for specific ordering instructions and helpful details.
 - General swag items in the store have previously been ordered and paid for in bulk. You are not required to pay for these swag items from your individual budgets. The cost of the swag items are shown to help indicate the level of swag and how much should be utilized.
-- You are required to provide an Allocadia ID and event name for all Brilliant store orders. All charges related to shipping will be associated to your specific campaign and these charges will process through our monthly invoice. When you place your orders through the store, you will be provided a shipping estimate during checkout. If you are returning items, you can estimate the same return shipping and add that total to your forecast. 
+- You are required to provide an Allocadia ID and event name for all Brilliant store orders. All charges related to shipping will be associated to your specific campaign and these charges will process through our monthly invoice. When you place your orders through the store, you will be provided a shipping estimate during checkout. If you are returning items, you can estimate the same return shipping and add that total to your forecast.
   - PLEASE NOTE: Our monthly Brilliant invoice covers all charges for the previous month. Due to our prepaid policy, your shipping charges for the previous month will be reconciled in the following month, so please forecast accordingly. Example - You ship swag in August for an August event. Our August monthly invoice processes in September, so those August shipping charges should be forecasted in September.
 - Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, you intend to utilize the remaining stock for an item, or you are ordering over 500 pieces of an item, please reach out to `@krogel` for reordering.
-- Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Timeframes vary greatly based on the items selected, design approval, and availability. General Lead Times: 6-8 weeks to produce a new item and 2-3 weeks to reorder current designs
+- Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Time frames vary greatly based on the items selected, design approval, and availability. General Lead Times: 6-8 weeks to produce a new item and 2-3 weeks to reorder current designs
 
 ### New Swag ideas
 
@@ -705,22 +705,22 @@ If you would like to source a new swag item for the team's inventory, please rea
 
 ### Field Marketing Event Assets
 
-Event assets utilized for shows (including backwalls, tablecloths, popup banners, event kits, etc.) are stocked at the Brilliant warehouse and can be ordered for events using the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in). It is also recommended that each Field Marketer keep a separate GitLab tablecloth, popup banner and table runner with them at home for easy access and to be utilized for events. 
+Event assets utilized for shows (including backwalls, tablecloths, popup banners, event kits, etc.) are stocked at the Brilliant warehouse and can be ordered for events using the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in). It is also recommended that each Field Marketer keep a separate GitLab tablecloth, popup banner and table runner with them at home for easy access and to be utilized for events.
 
 ### Returning Field Marketing Event Assets and Swag
 
 It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Brilliant portal will include return labels (one return label per box) in a red envelope adhered to the inside flap of the box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
 
-**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
 ### Warehouse Address
 
-AMER Warehouse  
+AMER Warehouse 
 Attn: GitLab AMER FM Store - c/o Kerry Phan  
 Brilliant  
 1605 S Waukegan Rd  
 Waukegan, IL 60085  
-415-980-4600  
+415-980-4600. 
 
 ### Stickers
 
@@ -1285,8 +1285,8 @@ Requests will be reviewed by the Staff Public Sector Field Marketing Manager. Ev
 - Support needed from Field Marketing (landing page, swag, invites, etc.)
 - Budget
 - Have we run or sponsored this event in the past?
-   - If yes - Please provide ROI details from previous SFDC campaign
-   - If no - Please provide valid justification for adding this event to the Field Marketing plan
+  - If yes - Please provide ROI details from previous SFDC campaign
+  - If no - Please provide valid justification for adding this event to the Field Marketing plan
 
 ### Charitable Donations for Event Attendance
 
