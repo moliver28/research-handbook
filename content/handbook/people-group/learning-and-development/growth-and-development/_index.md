@@ -3,39 +3,37 @@ title: Growth and Development Fund
 description: A description of programs and resources for team members to access when using the G&D Fund.
 ---
 
-## Introduction
+The Growth and Development (G&D) Fund can be used by GitLab team members to receive reimbursement for approved growth experiences and opportunities at GitLab. Team members can expense up to a maximum of $10,000 per year, provided they meet all eligibility requirements.
 
-The Growth and Development (G&D) fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
+The Growth and Development (G&D) fund is managed by the [Talent Development team](https://handbook.gitlab.com/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
-GitLab team members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) for approved Growth & Development experiences. Utilizing the Growth & Development Fund does have requirements related to tenure, performance, identified skills, and available budget.
+## Eligibility
 
-## Growth and Development Fund Eligibility
+To use the Growth and Development fund, team members must be full time GitLab employees, meeting performance expectations in their role, and should not be on ‘leave’ status.
 
-To be eligible for the Growth and Development Fund, team members must meet the following criteria:
-
-- Full time GitLab team member (with a minimum tenure of 3 months).
-- Meeting performance expectations in their current role (not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance).
-- Team members on "leave" status will not be eligible to use the growth and development fund.
-
-## How to Apply for the Growth and Development Fund
+## Process
 
 Here is a step by step guide on how to apply for G&D applications:
 
-**Step 1:** Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to discuss timing, capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
+### Step 1 - Growth Conversation
 
-**Step 2:** Create a new Growth & Development issue using one of the issue templates below. Please create your issue within the notification timeframe set out below.
+Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to discuss timing, capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
 
-|G&D Issue Template|Notification Timeframe|
-|------------------|----------------------|
+### Step 2 - Open an Issue
+
+ Create a new Growth & Development issue using one of the issue templates below. Please create your issue within the notification timeframe set out below.
+
+|G&D Issue Template|
+|------------------|
 |[Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study)|30 days before the commencement date|
 |[Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)|30 days before the commencement date|
 |[Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)|7 days before the commencement date|
 |[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below. | 30 days before the commencement date|
 | Your 4th Trimester | For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to `growth-development@gitlab.com`. |
 
-The application process is visible internally. If there is any reason that you would like to keep your application confidential, please send `growth-development@gitlab.com` an email with the details of your application (refer to the issue templates for the information required).
+### Step 3 - Gain Approval
 
-**Step 3:** Request approval on the issue. Depending on the cost of the application, different approval levels are required. In all instances, your direct manager should be the first approver in the issue.
+Request approval on the issue. Depending on the cost of the application, different approval levels are required. In all instances, your direct manager should be the first approver in the issue.
 
 Cost Tiers Approval:
 
@@ -43,23 +41,32 @@ Cost Tiers Approval:
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + e-group Approval for any spend $5,000.01 - $10,000 (Apart from Sales & Marketing, where VPs can approve $5,000.01 - $10,000 spend)
 
-Once the manager has approved, there is no further action to be taken by the manager. They can unassign themselves to the issue if they wish.
 
-**Step 4:** Claim for reimbursement:
+### Step 4 - Make Purchase & Complete your Opportunity
 
-Once the appropriate approvals are provided on the Growth and Development issue, proceed with processing your G&D application. **You do not have to wait for approval or further action from the Learning and Development team.**
+Once all necessary approvals have been given in your G&D application issue, you are OK to proceed with paying for your opportunity and any necessary travel arrangements.
 
-Before attempting to claim reimbursement, please ensure you've read through and understand the [Notes on Reimbursement](/handbook/people-group/learning-and-development/growth-and-development/#notes-on-reimbursement) section below.
+All individual G&D requests should be paid for by the team member who has applied for the opportunity. 
 
-Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
+Once you have paid for the opportunity, you can proceed with taking part in, and completing it, in whatever form that might take.
 
-- In your Navan Expense report, choose the Expense type `G&D (Growth and Development)`.
-- Include a screenshot of your approved Growth & Development issue & add a link to the issue to the description.
-- If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate.
-- Please make sure the issue matches your Navan Expense claim amount. Your Navan Expense claim will be audited against the Growth & Development issue amount.
-- For any meals, lodging, or travel - these should not be categorised using the `G&D (Growth and Development)` expense type and should be claimed in line with the [Global Travel and Expense Policy](/handbook/finance/expenses/). However, when submitting your T&E expenses, please add a link to your G&D issue in the description.
+### Step 5 - Reimbursement
 
-Please go back and close your G&D issue once you have received reimbursement for the program.
+In most cases, the costs of Growth and Development requests are paid back to team members after the opportunity has been completed. Team members should therefore be prepared to accept financial responsibility for the cost of the opportunity they have chosen. You can find further information about how reimbursement works for different types of G&D opportunities below.
+
+However, all requests are eligible to have 50% of the costs repaid upfront, and 50% upon completion.
+
+All expenses should be claimed via Navan using the following process:
+
+1. Open a new expense claim in Navan using the Expense type `G&D (Growth and Development)`.
+1. Include a screenshot of your approved G&D issue, and add the link to your issue in the description.
+1. Add a screenshot showing proof of completion for your application. (More details below).
+
+Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](https://handbook.gitlab.com/handbook/finance/expenses/)
+
+### Step 6 - Close & Feedback
+
+Once you have successfully claimed for reimbursement, please go back and close your issue. If you found the G&D experience to be of significant benefit, and you would recommend it to other team members, please leave a comment in the G&D feedback issue, so that the Talent Development team can add the opportunity to our G&D Select page.
 
 ### Notes on Reimbursement
 
