@@ -65,8 +65,8 @@ being an ASE or need to know how to work with ASEs. It's all here.
 There are two recurring meetings in place to bring the ASEs and management
 together for the purposes of supporting each other, sharing ASE practices, and
 discussing needed process and program improvements. The meetings occur on
-alternating weeks, with one being scheduled favorably for EMEA and AMER, and
-the other for AMER and APAC. Both meetings can be found in the [GitLab Support
+alternating weeks, one week being scheduled favorably for EMEA and AMER, and
+the next for AMER and APAC. Both meetings can be found in the [GitLab Support
 calendar](https://handbook.gitlab.com/handbook/support/#google-calendar).
 
 - `ASE Sync - AMER/EMEA`: Wednesdays at 4:30 p.m. UTC
@@ -85,15 +85,15 @@ out-of-office coverage plans and containing discussions about ASE processes.
 ### Working with ASEs
 
 ASEs tend to work with GitLab Team Members from all around Support and all
-around the company in order to meet the needs of their accounts. And we want
+around the company in order to meet the needs of their accounts. We want
 each collaboration to be positive, mutually-beneficial and successful. So
 we've created the following sections to provide information to you, our
 partners, about working with us.
 
 #### Global Support working with ASEs
 
-If you're in Global Support and not already an ASE, please familiarize yourself
-with our [Global Support working with ASEs](working-with-ases/global-support-and-ases.md)
+If you're in Global Support, please familiarize yourself with our
+[Global Support working with ASEs](working-with-ases/global-support-and-ases.md)
 page. It should tell you everything you want to know about how these two parts
 of Support can help each other to be more successful.
 
@@ -106,6 +106,9 @@ one or more Assigned Support Engineers, please read our
 page.
 
 ### ASE Workflows and Standards
+
+**<<<< COMING SOON >>>>**
+
 Link to a page that includes:
 - QBRs
 - Reports
@@ -116,30 +119,16 @@ Link to a page that includes:
 - Handling ticket tsunamis (ticket_tsunami.md)
 
 ### Becoming and Being an ASE
-Link to a page that includes:
-- ASE Job Description link
-- ASE performance factor worksheet template link
-- Being an ASE video link
-- Tips from ASEs
-- Changes needed in Zendesk, Zoom, support-team.yaml
-- Get added to the Slack channel
-- Get added to team meetings
-- Balancing between ASE and Global
-  - on-call rotation
-  - ticket queue
-  - pairings and help sessions
-- Learn about how to work with your account (manager 1:1s for now, presentation eventually)
-  - managing customer expectations
-  - stepping out of the SE box - change your way of thinking about what you should
-    or shouldn't do
-  - prioritize and re-prioritize all the time
-  - only attend meetings in which you will learn or contribute
-  - get to know the people as people
-    - do lots of Zooms with them and chat as you work a ticket
-  - get to know what they're doing with GitLab and why
-- Link to the customer onboarding page (onboarding.md)
+
+Please see our [Becoming and Being an ASE page](#becoming-and-being-an-ase) if:
+- you are considering whether to become an ASE
+- you are about to become and ASE
+- you are a new ASE
 
 ### Zendesk for ASEs
+
+**<<<< COMING SOON >>>>**
+
 Link to a page that includes:
 - ticket routing and assignment
 - views
