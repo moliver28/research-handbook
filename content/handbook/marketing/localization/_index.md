@@ -198,4 +198,4 @@ GitLab's blog is available in Japanese, French and German, with a dedicated cont
 
 ## docs.gitlab.com Localization
 We're working on localizing GitLab documentation. 
-More detailed information coming soon, meanwhile head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization) for a more detailed information.
+To learn more, head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization).
