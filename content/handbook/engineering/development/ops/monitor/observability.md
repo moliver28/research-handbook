@@ -89,7 +89,7 @@ Normally at the beginning of the Milestone the EM will discuss an overview of th
 
 If you are ever looking for additional issues to work on:
 
-1. Look at the [Milestone board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/5213948)
+1. Look at the [Platform Insight](https://gitlab.com/gitlab-org/gitlab/-/boards/7850705) or [opstrace](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/5213948) Milestone boards
 1. Identify an issue that is unassigned.
 1. Assign yourself to the issue.
 1. Add a `workflow:in dev` label to the issue
