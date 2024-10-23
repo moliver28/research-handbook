@@ -16,7 +16,6 @@ GitLab has three primary frameworks for classifying data:
 - [Confidentiality Levels](/handbook/communication/confidentiality-levels/) - classifies visibility of data/projects for different audiences.
 - [SAFE Framework](/handbook/legal/safe-framework/) and [Material Non-Public Information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information) - covers the specific kinds of information that cannot be shared publicly.
 
-
 #### Data Classification Standard
 
 The RED, ORANGE, YELLOW, GREEN data classification standard is the most important framework for day-to-day operations in Support. Knowing which data is allowed in which system is vital as you collaborate with colleagues.
