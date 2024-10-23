@@ -141,6 +141,6 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | US East | Sam Morris | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
 | US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
 | High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
-| High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | Corina Patachia |
+| High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | |
 | Pub Sector AMER |  |  |  | Daniel Marquard, Michael Bradley |
  
