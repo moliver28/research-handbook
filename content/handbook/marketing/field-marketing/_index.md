@@ -1112,8 +1112,7 @@ This deck should also be used to present the regional plans to the sales teams.
 
 | Regional attendees:                                   |
 |-------------------------------------------------------|
-| VP of Integrated Marketing                            |
-| Director of FMM                                       |
+| VP of Regional Marketing                          |
 | Manager of FMM, REGION                                |
 | Regional FMMs & FMC/S                                 |
 | ABM delegate                                          |
@@ -1843,9 +1842,9 @@ Specifically:
 
 ## Field Marketing MR process
 
-Everyone can contribute, although not everyone has merge rights. Within the Field Marketing team, when someone submits an MR, the submitter needs to assign to their direct line manager to review, and then their manager will assign to the Director of Field Marketing to review. Once the Director has reviewed/approved, it is their responsibility to ensure all threads are addressed and resolved and all merge conflicts are resolved, then merge.
+Everyone can contribute, although not everyone has merge rights. Within the Field Marketing team, when someone submits an MR, the submitter needs to assign to their direct line manager to review, and then their manager will assign to the VP of Regional Marketing to review. Once the VP has reviewed/approved, it is their responsibility to ensure all threads are addressed and resolved and all merge conflicts are resolved, then merge.
 
-Should a Country Manager of Field Marketing or Director of Field Marketing submit a process change in the handbook, then all Country Managers should sign off via approving the MR or commenting their approval. At which point, the Director ensures all threads are addressed and resolved and all merge conflicts are resolved, then the Director will merge.
+Should a Country Manager of Regional Marketing or VP of Regional Marketing submit a process change in the handbook, then all Country Managers should sign off via approving the MR or commenting their approval. At which point, the Director ensures all threads are addressed and resolved and all merge conflicts are resolved, then the VP will merge.
 
 ## Creating a spif for sales
 
