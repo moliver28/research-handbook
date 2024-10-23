@@ -43,6 +43,6 @@ This Working Group has the following goals:
 
 | Working Group Role | Person              | Title                                               |
 | ------------------ | ------------------- | --------------------------------------------------- |
-| Executive Sponsor  | Tim Zallmann        | Senior Director of Engineering                      |
-| Facilitator        |                     |              |
-| Functional Lead    |         |          |
+| Executive Sponsor  | Tim Zallmann        | VP of Engineering, Core Development                      |
+| Facilitator        | Donald Cook        | Engineering Manager, Plan:Project Management             |
+| Functional Lead    | Natalia Tepluhina        | Principal Engineer, Plan         |
