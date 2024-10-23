@@ -179,7 +179,7 @@ Optional labels that are useful to communicate state or other priority:
 - **What:**
   - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
   - Tool: (Tableau, dbt, Stitch, Airflow, etc.)
-  - Pod: [Data team pod](https://handbook.gitlab.com/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
+  - Pod: [Data team pod](/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
 
