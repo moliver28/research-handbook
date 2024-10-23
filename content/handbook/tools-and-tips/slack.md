@@ -77,6 +77,12 @@ If you are in a group direct message with multiple people, you can [change it to
 
 `"Slack Owner has removed #<channel> from all other "GitLab" workspaces using the channel management tool. Only people from "GitLab" can access the channel now. Learn more."`
 
+### Change private channels to public channels
+
+Only Slack administrators can change a private channel to a public channel.
+
+To request that an existing private channel be made public, submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+
 ## Managing noise and creating focus in Slack
 
 Slack can be a disorderly place in its default state. Consider implementing the below to add structure and focus, but remember that there will likely be more useful information shared on Slack than you are able to ingest and process on a daily basis, regardless of your approach.
