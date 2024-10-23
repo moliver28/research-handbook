@@ -53,7 +53,7 @@ Examples of existing Python codebases:
 
 Documentation and process:
 
-- Training for ruby developers  
+- Training for Ruby developers  
 - Development guidelines  
   - Different types of repositories:   
     - Python services (AIGW, workflow)  
