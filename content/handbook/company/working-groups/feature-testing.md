@@ -46,3 +46,5 @@ This Working Group has the following goals:
 | Executive Sponsor  | Tim Zallmann        | VP of Engineering, Core Development                      |
 | Facilitator        | Donald Cook        | Engineering Manager, Plan:Project Management             |
 | Functional Lead    | Natalia Tepluhina        | Principal Engineer, Plan         |
+| Functional Lead    | Ksenia Kolpakova         | Engineering Manager, Test Engineering |
+| Member             | Désirée Chevalier        | Senior Software Engineer in Test, Plan |
