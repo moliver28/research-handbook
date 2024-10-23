@@ -70,7 +70,7 @@ Our promotion philosophy is also aligned with our [values](/handbook/values/):
 - **Results**: Business justification, scope, and team member results are demonstrated and documented to support promotions
 - **Efficiency**: Consistency and scalability in our promotion processes by twice per year planning and calibration. The planning and calibration timing considers existing programs and cycles for the business and aims to embed promotions into cadences where they best align for efficiency.
 - **Diversity, Inclusion, and Belonging**: Fairness and equity reflected through a consistent approach and documentation to promotions at all levels in the organization and supported by our [job frameworks](/handbook/company/structure/) and Total Rewards [URG]({{< ref "review-cycle-inputs#underrepresented-group-audit" >}}) audit
-- **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at ways we can iterate our process for efficiency and scalability.
+- **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at ways we can iterate on our process for efficiency and scalability.
 - **Transparency**: Clarity and efficacy of promotion metrics, budget, and guidelines, in addition to transparency in promotion justification through internally public promotion documents.
 
 ### Processing a Promotion
