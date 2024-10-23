@@ -81,7 +81,7 @@ If you are in a group direct message with multiple people, you can [change it to
 
 Only Slack administrators can change a private channel to a public channel.
 
-To request that an existing private channel be made public, submit an [access request](https://handbook.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+To request that an existing private channel be made public, submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 ## Managing noise and creating focus in Slack
 
