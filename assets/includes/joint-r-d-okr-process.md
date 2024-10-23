@@ -8,19 +8,19 @@ The OKR process is designed to tie in to the overall [OKR process](/handbook/com
 
 ### OKR Kick-off by Chief Product Officer
 
-- **5 weeks** prior to the key review meeting, an [OKR progress document](https://docs.google.com/document/d/1er_KodQAnxbvoy5ttyd_9A6XNlC9j-OvR85LYX6RbEI/edit) kicks off the OKR drafting process:
+- **5 weeks** prior to the start of the fiscal quarter, an [OKR progress document](https://docs.google.com/document/d/1er_KodQAnxbvoy5ttyd_9A6XNlC9j-OvR85LYX6RbEI/edit) kicks off the OKR drafting process:
   - Product Program Management or their delegate creates an OKR progress Google document from the template which is used as a checklist for the combined R&D Leadership Teams (PLT + CTO LT). Relevant dates are updated in the template document.
-- **4 weeks** prior to the key review meeting:
-  - Chief Executive officer shared their OKRs with E-Group
+- **4 weeks** prior to the start of the fiscal quarter:
+  - Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.
   - Product Program Management shares the OKR progress document with the Chief Product Officer and Chief Technology Officer.
   - Chief Product Officer and Chief Technology Officer drafts R&D OKRs aligned to the [Yearlies](/handbook/company/yearlies/) and [Fiscal year product investment themes](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes) leveraging the Google progress document. This can be done async.
-- **3 weeks** prior to the key review meeting:
-  - Chief Product Officer and Chief Technology officer hold a sync 50m kickoff meeting:
-    1. Share their insights on what they’d like us to accomplish in the quarter, given the Yearlies defined by E-Group (10m)
-    1. A quick breakout session for each of the Product/Engineering LT counterpart groups to do initial brainstorming (20m)
-    1. Come back as a group and compare notes / get quick feedback from the Chief Product Officer and Chief Technology Officer (20m).
-  - Product Program Management starts to put R&D OKRs in GitLab based on the progress document
-  - Product/Engineering LTs iterate on OKRs (async)
+- **2-3 weeks** prior to the start of the fiscal quarter:
+  - Chief Product Officer and Chief Technology officer hold a sync 50m kickoff meeting and the outcome is agreement on top-level OKRs
+  - Product Program Management puts R&D OKRs in GitLab based on the progress document
+  - Executives finalize OKRs in an E-Group Weekly session (see the [OKRs handbook section](/handbook/company/okrs/#executives-propose-okrs-for-their-functions) on this)
+  - Product/Engineering LTs iterate on team-level OKRs below top-level OKRs (async)
+- **Start of the fiscal quarter**
+  - Chief Product Officer and Chief Technology officer share the top-level OKRs with the Chief of Staff to the CEO and E-Group
 - **2 weeks** prior to the key review meeting:
   - Chief Product Officer and Chief Technology officer review the proposed OKRs from teams and provide feedback (async)
   - Teams have a chance to iterate as needed until the Key Review deadline (one week prior to the Key Review)
@@ -35,10 +35,15 @@ The OKR process is designed to tie in to the overall [OKR process](/handbook/com
 
 #### Example schedule for FY25-Q4
 
+{{% note %}}
+FY25-Q4 is a transition quarter from the previous schedule to a new schedule documented in [this MR](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/8712)
+{{% /note %}}
+
 1. **2024-10-21**: CEO shares their OKRs with E-Group
 1. **2024-10-25**: CPO + CTO aligned on top-level R&D OKRs (async)
-1. **2024-10-28**: Eng + Product LT OKR kick-off (sync meeting)
-1. **2024-10-28** - **2024-11-08**: Eng + Product LT iterate on OKRs (async)
+1. **2024-10-28**: Eng + Product LT OKR kick-off (sync meeting) - in this meeting we will come to an agreement on top-level OKRs
+1. **2024-10-28** - **2024-11-08**: Eng + Product LT iterate on team-level OKRs, below top-level OKRs (async)
+1. **2024-11-01**: Share top-level OKRs with the Chief of Staff to the CEO and E-Group
 1. **2024-11-08**: CPO / CTO review the proposed OKRs from teams and provide feedback (async); teams have a chance to iterate as needed until the Key Review deadline, **2024-11-15**
 1. **2024-11-15**: OKRs finalized and included in Key Review content (async)
 1. **2024-11-22**: Key Review (sync)
