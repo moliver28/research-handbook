@@ -1033,15 +1033,15 @@ The below epic is for tracking venues we would like to utilize for future events
 
 ## Corporate Memberships Owned by GitLab Field Marketing
 
-- [AFCEA](https://www.afcea.org/site/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey or Haley McComber for assistance.
+- [AFCEA](https://www.afcea.org/site/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey for assistance.
 - [ACT-IAC](https://www.actiac.org) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [Charleston DCA](https://www.charlestondca.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
-- [G2xExchange](https://g2xchange.com/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details if you'd like to join.
-- [NASCIO](https://www.nascio.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details.
+- [G2xExchange](https://g2xchange.com/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
+- [NASCIO](https://www.nascio.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [GBEF](https://gbef.tech/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [INSA](https://www.insaonline.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [USGIF](https://usgif.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
-- [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details.
+- [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 
 ## What's currently scheduled in my region?
 
@@ -1801,22 +1801,6 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 - #fieldofdreamsteam: private room only accessible to FMMs - funny GIFs, private questions for the team.
 - Please keep in mind we have detailed instructions on [how GitLab uses slack](/handbook/communication/#slack).
 
-## Monthly Calls
-
-- The World Wide Field Marketing team has one standing call on the calendar.
-- The team meets on the 1st Thursday of each month.
-- All team members are invited to each call although, if the call is scheduled outside of the team member's normal working hours, the team member is NOT expected to attend. The calendar invite simply serves as a reminder to the team member to check out the recording of the meeting the next working day and to also review the agenda.
-- The purpose of the team call is to share relevant company, marketing, and Field Marketing announcements.
-- Anyone on the team should feel empowered to add content to the team meeting agenda.
-- We will also have a specific `lessons learned` section where each Country Field Marketing Manager will select 1 FMM event or other tactic event recap to review.
-  - The FMM who is the DRI for the event or other tactic we will be reviewing as a team will add the `Event Recap` link from the `Event Planning and Recap` to the agenda
-  - We review the recap prior to the call, the FMM DRI briefly gives a run down of the event or other tactic, then we dialogue.
-  - Each region will be represented - AMER, APAC, and EMEA - so we will review 3 each call.
-- We also discuss use cases - could be how you've worked with social media, how you built a report in SFDC to help the team be more efficient, etc,
-- Guest Speakers - at times we will also invite other colleagues from the company to address our team as a whole
-- As a handbook first company, if you are going to bring a topic to the team, please think twice on if you should add just an agenda item, or if you should add an agenda item that links to an MR or a handbook page.
-- If you're not on the Field Marketing team at GitLab and you're a GitLab employee who's interested in joining our team meeting, please feel free to ask in the #fieldmarketing slack room, we'd welcome the opportunity to host you!
-
 ## Async Status Updates
 
 Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.io/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
@@ -1843,12 +1827,11 @@ We follow the processes documented in the [Communicating your time off section](
 
 Specifically:
 
-1. Add your OOO to [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel)
+1. Add your OOO to [Workday](/handbook/people-group/paid-time-off/#workday)
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
 1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you're out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
-1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Time Off by Deel). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
+1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
 1. Add an OOO to your GitLab profile and mark yourself as `busy`
-1. For the AMER FM Team, please add your OOO to the [FM AMER Team PTO Google calendar](https://calendar.google.com/calendar/u/0?cid=Y18yZjA0OGVhNzc3YjcyZWQzYTRmY2VkOTZjZWI5NjRiMTNlNWM1YmMxOTA4M2FjNmE5YWNjYjUwMzc0NWZhNjlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 1. If you are a manager of people, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
 
 ## Field Marketing MR process
@@ -1872,7 +1855,6 @@ At times, Field Marketers may want to create a SPIF (sales performance incentive
 - [Marketing Operations](/handbook/marketing/marketing-operations/)
 - [Sales Development](/handbook/marketing/sales-development/)
 - [Marketo program/campaign support](/handbook/marketing/marketing-operations/campaign-operations/)
-- [Field Marketing onboarding videos](https://drive.google.com/open?id=1m8ReMIiymMTqqk5PJAG7u_IG-Q5pkusV) - NOTE - these are also in the Field Marketing Onboarding issue that is kept in the [Marketing onboarding project](https://gitlab.com/gitlab-com/marketing/onboarding#onboarding)
 
 ## Account Based Marketing
 
