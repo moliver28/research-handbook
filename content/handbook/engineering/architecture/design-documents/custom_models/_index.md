@@ -132,11 +132,11 @@ For details on what Duo features are supported by model, see [this documentation
 
 | Model                        | Availability    |
 |------------------------------|-----------------|
-| Mistral 7B                   | 17.6 GA         |
-| Mixtral 8x7B                 | 17.6 GA         |
-| Mixtral 8x7B Instruct        | 17.6 GA         |
-| Mixtral 8x22B                | 17.6 GA         |
-| Codestral 22B                | 17.6 GA         |
+| Mistral 7B                   | Beta         |
+| Mixtral 8x7B                 | Beta         |
+| Mixtral 8x7B Instruct        | Beta         |
+| Mixtral 8x22B                | Beta         |
+| Codestral 22B                | Beta         |
 | CodeGemma 2B                 | Beta            |
 | CodeGemma 7B-code            | Beta            |
 | Code-Llama 13B               | Beta            |
@@ -147,19 +147,19 @@ For details on what Duo features are supported by model, see [this documentation
 
 | Model                        | Availability    |
 |------------------------------|-----------------|
-| Mistral 7B                   | 17.6 GA         |
-| Mixtral 8x7B                 | 17.6 GA         |
-| Mixtral 8x7B Instruct        | 17.6 GA         |
-| Mixtral 8x22B                | 17.6 GA         |
-| Codestral 22B                | 17.6 GA         |
-| Claude 3.5 Sonnet            | 17.6 GA         |
-| Claude 3 Haiku               | 17.6 GA         |
+| Mistral 7B                   | Beta         |
+| Mixtral 8x7B                 | Beta         |
+| Mixtral 8x7B Instruct        | Beta         |
+| Mixtral 8x22B                | Beta         |
+| Codestral 22B                | Beta        |
+| Claude 3.5 Sonnet            | Beta         |
+| Claude 3 Haiku               | Beta         |
 
 #### Inference on Microsoft Azure
 
 | Model                        | Availability    |
 |------------------------------|-----------------|
-| OpenAI 4o                    | 17.5 Beta       |
+| OpenAI 4o                    | Beta       |
 
 Installation instructions are available in the [Developer documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
 
