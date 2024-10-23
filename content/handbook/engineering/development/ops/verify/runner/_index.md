@@ -326,7 +326,7 @@ Vulnerabilities usually appear in one of three flavors (ordered in most to least
 - The vulnerability exists in `gitlab-runner` in one of its dependencies.
 - The vulnerability exists in `gitlab-runner` in code we've written.
 
-### Third-party OS packages
+##### Third-party OS packages
 
 In this case, the vulnerability:
 
@@ -361,7 +361,7 @@ Once the deviation request issue is created, add:
 Eventually, a fix in the offending package will make its way to the OS package manager, and then both the
 `gitlab-runner` and deviation request issues can be closed.
 
-### `gitlab-runner` dependencies
+##### `gitlab-runner` dependencies
 
 The simplest course of action here is to update the dependency to the latest compatible version (or at least a version
 that addresses the vulnerability). Once the MR with the dependency update is merged, the `gitlab-runner` issue can be
@@ -375,7 +375,7 @@ there.
 - If possible, consider not using the dependency or replacing it with another similar dependency.
 - Create a [deviation request issue](#third-party-os-packages).
 
-### `gitlab-runner` source
+##### `gitlab-runner` source
 
 The only course of action here is to fix the vulnerable code. If the fix is not simple and will take time to implement
 (and prevent us from meeting CVE SLAs), it might be necessary to create a [deviation request issue](#third-party-os-packages).
