@@ -49,8 +49,8 @@ Once you have AI set up locally, you will need to enable Duo features. Follow th
 
 ### Usage
 
-With the configuration in place, you should expect to see the `Explain with AI` button for any SAST vulnerability. For example: [https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/105323245]()
+With the configuration in place, you should expect to see the `Explain with AI` button for any SAST vulnerability. For example: [https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/105323245](https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/105323245)
 
-You should expect to see the 'Resolve with AI` button for any SAST vulnerability in the [high confidence CWE list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb#L25-69). For example: [https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/114941072]()
+You should expect to see the 'Resolve with AI` button for any SAST vulnerability in the [high confidence CWE list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb#L25-69). For example: [https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/114941072](https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/114941072)
 
 If you need assistance, please reach out in [#g_govern_threat_insights_eng_ai](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
