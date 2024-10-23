@@ -53,7 +53,7 @@ Once you have paid for the opportunity, you can proceed with taking part in, and
 
 In most cases, the costs of Growth and Development requests are paid back to team members after the opportunity has been completed. Team members should therefore be prepared to accept financial responsibility for the cost of the opportunity they have chosen. You can find further information about how reimbursement works for different types of G&D opportunities below.
 
-However, all requests are eligible to have [50% of the costs repaid upfront](https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/#50-upfront-reimbursement), and 50% upon completion.
+However, all requests are eligible to have [50% of the costs repaid upfront](/handbook/people-group/learning-and-development/growth-and-development/#50-upfront-reimbursement), and 50% upon completion.
 
 All expenses should be claimed via [Navan](/handbook/finance/expenses/#-introduction) using the following process:
 
