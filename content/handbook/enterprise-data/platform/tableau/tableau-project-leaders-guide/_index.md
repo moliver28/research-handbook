@@ -9,10 +9,10 @@ Project Leaders collaborate with developers to manage content in Production, whe
 
 This page is a resource and training for Project Leaders where the following is covered:
 
-* [Project Lead Responsibilities](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-project-leaders-guide/#project-lead-responsibilities)
-* [Project Lead Abilities](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-project-leaders-guide/#project-lead-abilities)
-* [Promotion to Production Process](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-project-leaders-guide/#publishing-a-workbook-to-production-for-the-first-time)
-* [Publishing Over an Existing Production Workbook (Updating Content)](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-project-leaders-guide/#publishing-over-an-existing-production-workbook-updating-content)
+* [Project Lead Responsibilities](.../tableau-project-leaders-guide/#project-lead-responsibilities)
+* [Project Lead Abilities](.../tableau-project-leaders-guide/#project-lead-abilities)
+* [Promotion to Production Process](.../tableau-project-leaders-guide/#publishing-a-workbook-to-production-for-the-first-time)
+* [Publishing Over an Existing Production Workbook (Updating Content)](.../tableau-project-leaders-guide/#publishing-over-an-existing-production-workbook-updating-content)
 
 ---
 
@@ -72,3 +72,4 @@ When updating content in production it is best to overwrite what is in Productio
       1. From the drop down select your name and select **Save**
 
    1. When updating a workbook to Production the original workbook in Development will remain. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored.
+   
