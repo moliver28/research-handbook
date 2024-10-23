@@ -87,6 +87,7 @@ Development experience:
 | Member | Alexander Chueshev | Staff ML Engineer, AI Framework |
 | Member | Tan Le | Staff ML Engineer, Model Validation |
 | Member | Stephan Rayner | Senior ML Engineer, Model Validation |
+| Member | Tetiana Chupryna | Senior Backend Engineer, Duo Chat |
 
 ### Non-goals
 
