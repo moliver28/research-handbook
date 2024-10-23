@@ -33,8 +33,9 @@ of the evaluation workers.
 
 ## Decision
 
-Instead of using Sidekiq workers that rely on setting modification callbacks, we decided to perform project compliance
-evaluations via a scheduled cron worker.
+Instead of using Sidekiq workers that rely solely on setting modification callbacks, we decided to perform recurring
+project compliance evaluations via a scheduled cron worker. An initial execution will be performed when a project is
+first associated to a given framework, and then via cron for subsequent evaluations.
 
 The frequency of the cron evaluation worker will initially be set at 12hour intervals (i.e. a given project is evaluated
 twice a day against each framework to which it's associated).
