@@ -215,7 +215,7 @@ This quarterly audit is conducted to ensure the funding of our account used for 
 
 1. Reach out to Accounts Payable to provide an updated payment history report for payments made to WEX (Discovery).
 1. In the `Ongoing Discovery Audit` spreadsheet, add new entries in the report provided by Accounts Payable to the bottom of the table in the "Discovery Payments History" tab.
-1. Navigate to [WEX (Discovery)'s platform](https://employer.discoverybenefits.com/Login?ReturnUrl=%2f) and log into the employer portal.
+1. Navigate to [WEX (Discovery)'s platform](https://employerbenefits.wexhealth.com/Login?expired=True) and log into the employer portal.
     - Select "Benefits Administration" in the left toolbar.
     - Navigate to the "Reports" tab and select the "Employer Funding Report".
     - Download all reports for the months that have elapsed since the last audit was conducted.
