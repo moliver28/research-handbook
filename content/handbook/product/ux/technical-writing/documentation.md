@@ -1,7 +1,5 @@
 ---
 title: Documentation
-aliases:
-- /handbook/documentation/
 ---
 
 GitLab documentation is crafted to help users, admins, and decision-makers

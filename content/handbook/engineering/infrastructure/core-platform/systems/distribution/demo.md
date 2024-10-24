@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/demo.html
-
 title: "Distribution Team Demo"
 ---
 

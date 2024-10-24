@@ -10,7 +10,7 @@ last-reviewed: 2024-05-23
 
 As a support engineer, there are several things you can personalize in Zendesk. For example, during your onboarding you are guided to update your profile picture. There are aspects things you can modify by editing your support-team yaml entry.   This page describes what items you can personalize, and how to change them.
 
-For more information about the Zendesk fields that are editable via the support-team.yaml, see the [support team wiki](https://gitlab.com/gitlab-com/support/team/-/wikis/Zendesk).
+For more information about the Zendesk fields that are editable via the support-team.yaml, see the [support team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry/Zendesk).
 
 ### Display name
 
@@ -18,7 +18,7 @@ By default, your display name in Zendesk will be `Firstname Lastname`.  You can 
 
 To change your display name to use an alias:
 
-1. Edit your [support-team.yaml](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/agents/) page.
+1. Edit your [support-team project entry](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents) page.
 2. Find the section for the instace of Zendesk you want to update (`main` for Global or `us-federal` for US Government).
 3. Update the `alias` line to the name you would like to use as an alias.
 
@@ -32,7 +32,7 @@ Be aware that there are other ways that your name may be displayed to customers 
 
 By default, your GitLab handle will not be shown in your Zendesk Signature. You can choose to have it displayed if you prefer, as follows:
 
-1. Edit your [support-team.yaml](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/agents/) page.
+1. Edit your [support-team project entry](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents) page.
 2. Find the section for the instace of Zendesk you want to update (`main` for Global or `us-federal` for US Government).
 3. Update the `show_in_signature:,  gitlab_handle:` section from `false` to `true`.
 

@@ -6,8 +6,9 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ---
 
-**2023-06-15 Note:** The approach described below is no longer in active use. The [Use Case Adoption Scoring](/handbook/customer-success/product-usage-data/use-case-adoption/) page should be referenced for thresholds and information on the methodology CSMs use for measuring adoption of use cases.
-{: .alert .alert-warning}
+{{% alert title="2023-06-15 Note" color="warning" %}}
+The approach described below is no longer in active use. The [Use Case Adoption Scoring](/handbook/customer-success/product-usage-data/use-case-adoption/) page should be referenced for thresholds and information on the methodology CSMs use for measuring adoption of use cases.
+{{% /alert %}}
 
 As part of the CSM's mandate to drive stage adoption and expansion with customers, we need to define exactly what it means to adopt a stage at GitLab. [For more information on how stage expansion is recorded and reported on, please visit this page](/handbook/customer-success/csm/success-plans/#open-and-categorize-a-stage-adoption-objective-within-a-success-plan-in-gainsight)
 The detail below is a guide to defining what it takes to say a customer has adopted that stage within GitLab. We define stage adoption as >25% of the account using a stage as defined below. Less than 25% (roughly) is presumed to be a pilot or work in progress toward a significant foothold of a stage providing value within the company.

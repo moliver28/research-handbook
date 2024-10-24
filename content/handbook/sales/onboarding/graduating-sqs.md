@@ -15,21 +15,29 @@ In order to officially "graduate" from Sales Onboarding at GitLab and be awarded
   - 4 Free Response Questions
   - 3 Coffee Chats
   - 2 Surveys (Pre & Post Workshop)
-- The [Sales Quick Start Workshop](/handbook/sales/onboarding/SQS-workshop/#sqs-remote-agenda) is a 19 hour time commitment consisting of 12 instructor led trainings including Command of the Message, our value based selling methodology, with 4 hands on group activities.
-  - Command of the Message: Value Selling Methodology - (6 hours)
-  - MEDDPPICC - (1 hour 30 minutes)
-  - No Tissues for Issues + Product Tiering - (50 minutes)
-  - Solution Focus: Intro to Competition - (50 minutes)
-  - Better Together: Intro to GitLab Alliances - (50 minutes)
-  - Partners in Closing: Intro to Channel Sales - (50 minutes)
+- The [Sales Quick Start Workshop](/handbook/sales/onboarding/SQS-workshop/#sqs-remote-agenda) is a 19 hour time commitment consisting of 17 instructor led trainings including Command of the Message, our value based selling methodology, with 5 hands on group activities.
+  - Customer Focus: Command of the Message - Value Selling Methodology - (6 hours)
+  - Solution Focus: Intro to GitLab Product & Personas - (50 minutes)
+  - Solution Focus: Intro to the Competition - (50 minutes)
+  - Operational Excellence: MEDDPPICC - (1 hour 30 minutes)
+  - Operational Excellence: Intro to GitLab's Partner Ecosystem - (50 minutes)
   - Operational Excellence: Intro to GitLab Legal - (30 minutes)
+  - Operational Excellence: Intro to Deal Desk - (30 minutes)
+  - Operational Excellence: Into to GitLab Field Security - (30 minutes)
   - Customer Focus: Customer Success Management Overview - (50 minutes)
   - Customer Focus: Intro to Professional Services - (50 minutes)
-  - Operational Excellence: Into to GitLab Field Security - (30 minutes)
-  - Operational Excellence: Working with Sales Dev - (50 minutes)
-  - Mock Calls - (4 hours)
-- Complete [1 mock discovery call](https://docs.google.com/document/d/12YiOIVKA6BirVRWRnIO8sd0qfwQOPLfXsUADluJvM3Y/edit?usp=sharing) at the SQS Workshop with a PMM, Manager, or a more experienced SA or CSM
-  - Articulate the Command of the Message Mantra
-  - Articulate the 30 second GitLab elevator pitch (memorized)
+  - Customer Focus: Intro to Renewals Manager Organization - (30 minutes)
+  - Customer Focus: Working with Sales Devlopment & Marketing - (50 minutes)
+  - Customer Focus: Mock Calls - (2 hours)
+- Complete 1 mock discovery call at the SQS Workshop with a PMM, Manager, or a more experienced SA or CSM. 
+  - Mock calls are scored using a point system, with 80 points required to pass. Points are awarded as 0 points, half points, or full points across 6 core skills outlined below using this [Google Form](https://forms.gle/BWVQBMRruf1TUb5S6) as the official rubric and system of record. 
+- Mock Call Grading Criteria
+
+  - Uses open-ended (Discovery Questions and/or Trap-Setting Questions) **- 30 Points**
+  - Effectively identifies customer challenges (Before Scenarios or Negative Consequences) **- 20 Points**
+  - Draws out specific customer needs and goals (Positive Business Outcomes, Required Capabilities, or Metrics) **- 20 Points**
+  - Delivers a value statement about the GitLab solution related to customer challenges and/or effectively respond to competitive objections. (How We Do It / Better) **- 10 Points**
+  - Leverages Proof Points that are relevant to the Positive Business Outcomes **- 5 Points**
+  - Uses the Mantra to confirm what they heard and gain agreement to move forward. **- 10 Points**
 
 For now, the same requirements apply for all customer-facing roles. Upon completion of SQS, the final grade report will be provided to the managers for review.

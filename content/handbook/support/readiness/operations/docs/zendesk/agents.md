@@ -31,6 +31,7 @@ Once one has been received, the process will go as follows:
 
    - Replace NAME with the requester's name
    - Replace ISSUE with the link to the Access Request issue
+   - [This should be a quick link to that form](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=3641564f47977550dff2c5a4f16d4326)
 1. Note the Access Request issue that you have contacted the People team to
    verify US citizenship.
 1. If the People team verifies the citizenship:

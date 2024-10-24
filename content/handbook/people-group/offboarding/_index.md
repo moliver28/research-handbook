@@ -39,9 +39,15 @@ For any other offboarding questions from active team members please reach out to
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
 
-***Country Specific Requirements for Resignation***
+#### ***Country Specific Requirements for Resignation***
 
-- France: Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com
+##### France
+
+Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+
+##### Singapore
+
+Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
 
 ### Termination
 
@@ -297,7 +303,7 @@ To track all tool deprovisioning, please open an offboarding issue following the
 
 As part of offboarding, any GitLab property valued above 1,000 USD needs to be returned to GitLab.
 
-For laptops, please refer to the [Laptop Buy Back Policy](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) which states that team-members have the option to buy back their existing laptops either when it gets refreshed for a new one, or when the team member is offboarding. If the team member has completed 1 calendar year or more at GitLab at the time of laptop refresh or offboarding, they can opt to keep their laptop at no cost. If the team member hasn't completed 1 calendar year at GitLab at that time, they have the option to purchase their laptop for current market value.
+For laptops, please check and refer to the [Laptop Buyback Policy](/handbook/security/corporate/services/laptops/buyback/) which states that team members *may*, at GitLab's discretion, have the option to keep or buy back their existing laptops either when it gets refreshed for a new one, or when the team member is offboarding.  However, the option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause of any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries.
 
 To return your laptop to GitLab, please contact `itops@gitlab.com` immediately upon offboarding.
 

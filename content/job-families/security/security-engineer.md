@@ -74,7 +74,7 @@ The Senior Security Engineer role extends the [Intermediate Security Engineer](#
 
 ---
 
-A Senior Security Engineer may decide to pursue the [security engineering management track](/job-families/security/security-leadership/) at this point, should they wish to. See [Engineering Career Development](/handbook/engineering/career-development/) for more detail on the tracks available for Senior Engineers.
+A Senior Security Engineer may decide to pursue the [security engineering management track](/job-families/security/security-leadership/) at this point, should they wish to. See [Engineering Career Development](/handbook/engineering/careers/) for more detail on the tracks available for Senior Engineers.
 
 ---
 
@@ -288,6 +288,30 @@ Product Security Engineering Team Requirements
 - Strong development or scripting experience and skills, preferably significant professional experience with Ruby on Rails and/or Golang
 - Excellent understanding of application security issues and how to fix application security vulnerabilities
 - Track record of delivering results through the entire software development lifecycle
+
+### Signals Engineering
+
+Signals engineers build and maintain security observability capabilities and transform those capabilities into actionable signals and detections to detect attacker behaviors. An understanding of the GitLab product and a passion for diving deep into attacker behaviors is a key competency in this role. Signals engineers are able to think like an incident responder, research and test attacker TTPs, maintain relationships with product stakeholders, and empower the business to build and improve security logging and detection capabilities.
+
+Signals Engineering Team Responsibilities:
+
+- Develop and improve security signal creation at GitLab - including the GitLab product, corporate, cloud and identity infrastructure.
+- Map detection capabilities to breach concerns, identifying critical signals to detect behaviors of interest.
+- Understand the implications of an attack, vulnerability, or gap in security observability, and be able to translate that gap into an opportunity to improve overall security observability.
+- Sit at the intersection of Security Operations, Infrastructure and Product teams in a powerful position to create threat detection rules, identify and empower the business to implement security observability improvements for internal threat detections and customer security observability needs.
+- Dogfood the GitLab product observability capabilities through product logging such as the GitLab audit log.
+- Build and report on signals engineering metrics.
+- Participate in high severity security incidents with a focus on identifying gaps in observability, building new threat detection rules, and reducing the mean time to detection creation.
+
+Signals Engineering Team Requirements:
+
+- A passion for AI (Artificial Intelligence) with goals to implement it in all parts of detection engineering
+- Ability to write complex threat detection engineering rules
+- Experience with SIEM tools, such as Splunk or Devo
+- Programming knowledge and ability to automate manual processes using code in a commonly used programming language, like Python
+- The ability to map out and understand attacker patterns and behaviors and understand the security implications of various attacks on DevSecOps platforms like GitLab.
+- The ability to assist in translating technical details into a cohesive story which empowers security observability improvements.
+- Some experience with Google Cloud Platform (GCP) and/or AWS
 
 ### SIRT - Security Incident Response Team
 

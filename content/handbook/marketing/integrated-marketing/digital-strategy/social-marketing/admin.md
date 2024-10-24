@@ -7,14 +7,15 @@ twitter_site: "gitlab"
 twitter_creator: "gitlab"
 ---
 
+{{% alert color="info" %}}
 ℹ️ This page is the single source of truth for all administrative tasks, templates, and project management needs focused on GitLab brand social channels. If your question is "how?", the answer will be here.
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 ## Social Media Project Management
 
-[Epic Roadmap](https://gitlab.com/groups/gitlab-com/-/roadmap?scope=all&utf8=✓&state=opened&label_name[]=Social%20Media){:.btn .btn-purple-inv}
-[Issue Board by Milestone](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/boards/1655815?&label_name[]=Social%20Media){:.btn .btn-purple-inv}
-[Issue Board by Assignee](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/boards/968633?&label_name[]=Social%20Media){:.btn .btn-purple-inv}
+[Epic Roadmap](https://gitlab.com/groups/gitlab-com/-/roadmap?scope=all&utf8=✓&state=opened&label_name[]=Social%20Media)
+[Issue Board by Milestone](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/boards/1655815?&label_name[]=Social%20Media)
+[Issue Board by Assignee](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/boards/968633?&label_name[]=Social%20Media)
 
 ## Requesting Social Promotion <a name="requesting social promotion"></a>
 
@@ -22,32 +23,33 @@ Many requests for social media coverage could sound like one ask, but ultimately
 
 ### Open a new issue to request social coverage
 
+{{% alert color="info" %}}
 ℹ️ For an anything to get promoted on social, **there must be a dedicated social issue**. Most campaigns with multiple activation points also require an epic. Not sure what you need? Message the team in the #social_media_action Slack channel.
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 Head to the [corporate marketing project](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues) and create a new issue with the best template below.
 
 #### General Request Templates
 
-[General Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-general-request){:.btn .btn-purple-inv}
-[Listening Report Requests](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-listening){:.btn .btn-purple-inv}
-[Reporting Requests](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-reporting){:.btn .btn-purple-inv}
+[General Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-general-request)
+[Listening Report Requests](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-listening)
+[Reporting Requests](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-reporting)
 
 #### Event Request Templates
 
-[Epic: GitLab Events](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-event-epic.md){:.btn .btn-purple-inv}
-[Issue: GitLab Owned Event Template for CFP, Reg, or Engagement](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-event-owned-request){:.btn .btn-purple-inv}
-[Issue: 3rd Party Sponsored Event Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-event-sponsored-request){:.btn .btn-purple-inv}
+[Epic: GitLab Events](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-event-epic.md)
+[Issue: GitLab Owned Event Template for CFP, Reg, or Engagement](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-event-owned-request)
+[Issue: 3rd Party Sponsored Event Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-event-sponsored-request)
 
 #### GTM Templates
 
-[GTM Coverage Epic](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-gtm-epic.md){:.btn .btn-purple-inv}
-[GTM Coverage Issue for each tactic](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-gtm-organic){:.btn .btn-purple-inv}
+[GTM Coverage Epic](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-gtm-epic.md)
+[GTM Coverage Issue for each tactic](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-gtm-organic)
 
 #### Other Specialized Templates
 
-[Case Study Promotion](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-case-study-promotion){:.btn .btn-purple-inv}
-[Partner Marketing Support](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-partner-support-request){:.btn .btn-purple-inv}
+[Case Study Promotion](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-case-study-promotion)
+[Partner Marketing Support](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-partner-support-request)
 
 ### Things to remember about social media requests
 
@@ -99,13 +101,13 @@ We use the following workflow to make sure teams are aligned and able to organiz
 
 GTM Campaign Manager should create a new issue, fill out the details, and attach issue to GTM tactic child epic. This means that for each new piece of content (or tactic), there should be a new social request issue.
 
-[Social GTM Request Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/social-gtm-organic.md){:.btn .btn-purple-inv}
+[Social GTM Request Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/social-gtm-organic.md)
 
 #### Recording the work once it's done
 
 For each new reporting period (Quarter of Half); the social team will open a new organic social child epic. We'll use this child-epic as a repo after the work on an issue is completed. Since tactics (webinar, whitepaper, etc) each have their own child-epic already, we'll execute the work with an issue attached to these epics, close the issue and move to our social epic for record keeping.
 
-[Social GTM Child Epic Code](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-gtm-epic.md){:.btn .btn-purple-inv}
+[Social GTM Child Epic Code](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-gtm-epic.md)
 
 ## Data needed on pages in order for links to work on social media
 
@@ -137,9 +139,11 @@ See below for code that can be added to the frontmatter of all pages. If you're 
 
 No matter the circumstance, the social team will need a visual asset to accompany our posts. In many cases, it's most effective and time efficient if these images were created with the linked page development and added to the frontmatter before publicizing the link to teams who need to use it for promotional efforts. When there is not an image already embedded in the frontmatter of a page that GitLab owns or operates, the social team can either spend time creating our own images or reject the request. In many cases, it won't be an appropriate use of time for the social team to create our own images.
 
-#### Consider using an existing template in our Canva Enterprise account. These images have been approved to use
+#### Canva Enterprise Account
 
-#### Templates
+Consider using an existing template in our Canva Enterprise account as these images have been approved to use.
+
+##### Templates
 
 - [Generic Website Template](https://www.canva.com/design/DAEefl8BdlA/L27eJQgZuophxErdjRMnDw/view?utm_content=DAEefl8BdlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 - [Generic Brand Template](https://www.canva.com/design/DAEexdigCaQ/hd7RR6KYWWWEymV6f8Cy_A/view?utm_content=DAEexdigCaQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
@@ -197,7 +201,9 @@ Frontmatter requires a merge, therefore, you'll need to include this as a step i
 
 UTMs are used to track traffic sources & reach of posts/links. All posts that contain GitLab-owned URLs must contain a UTM parameter.
 
-### [Organic Social Media UTM Creating Sheet](https://docs.google.com/spreadsheets/d/1RJiPE11ZdFpP7R4vSx3PQPX5V2mr2SCYS39bYLsJEvY/edit?usp=sharing)
+### Organic Social Media UTM Creating Sheet
+
+[Organic Social Media UTM Creating Sheet](https://docs.google.com/spreadsheets/d/1RJiPE11ZdFpP7R4vSx3PQPX5V2mr2SCYS39bYLsJEvY/edit?usp=sharing) (internal)
 
 [The social team manages their own social media UTM tracking sheet. Viewable to all parties, this sheet is managed only by the social media team.](https://docs.google.com/spreadsheets/d/1RJiPE11ZdFpP7R4vSx3PQPX5V2mr2SCYS39bYLsJEvY/edit?usp=sharing)
 
@@ -339,7 +345,7 @@ Day of Giveaway </summary>
 <li>Announce each giveaway and use handles whenever possible, tell them to check their DMs</li>
 <li>DM the swag codes or whatever the item is</li>
 <li>In your copy, directly address the person/people like you are chatting with them irl</li>
-<li>RT and use gifs with abandon but also judgment</li>
+<li>RT and use GIFs with abandon but also judgment</li>
 </ul>
 
 </details>
@@ -422,7 +428,9 @@ With the availability to post to a channel, respond to users, or edit company in
 
 #### Field Marketing team access to LinkedIn events feature
 
-##### 🔗 [View the field marketing LinkedIn admin for events quick training video on private Unfiltered channel](https://youtu.be/VxVxdjeRkps)
+##### 🔗 View the field marketing LinkedIn admin for events quick training video
+
+[View the field marketing LinkedIn admin for events quick training video on private Unfiltered channel](https://youtu.be/VxVxdjeRkps)
 
 The field marketing team is enabled to use the GitLab brand LinkedIn channel to create events, so that GitLab is seen as the event organizer. If you need to connect with who the field marketing LinkedIn events admin is, please message the social team in the #social_media_action Slack channel.
 

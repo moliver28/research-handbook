@@ -72,7 +72,7 @@ Please read through the [Event Handbook page](/handbook/marketing/events/#employ
    * [ ] other:
 
 ### Lead follow-up with Channel Partner
-- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/channel-marketing/partner-campaigns/#passing-to-vartopia-and-partner-visibility).
+- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/marketing-operations/campaigns-and-programs/#passing-to-vartopia-and-partner-visibility).
    - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
 
@@ -165,11 +165,11 @@ For all details regarding swag, [please see here](/handbook/marketing/channel-ma
 ```markdown
 <!-- Name this epic: Name of Event - Date of Event -->
 
-## [Main Issue]() - [template] (https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=ptnr_mktg_webinar_main_template)
+## [Main Issue]() - template: https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=ptnr_mktg_webinar_main_template
 
-## [Copy Document](https://docs.google.com/document/d/1w9yMw2DQJ5u1RxC3kYO0ZgQM5TJfKlRiGGjJqVFg1GE/edit?usp=sharing)
+## Copy Document: https://docs.google.com/document/d/1w9yMw2DQJ5u1RxC3kYO0ZgQM5TJfKlRiGGjJqVFg1GE/edit?usp=sharing
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce
 
 ## [Landing Page]() - `to be added when live`
 

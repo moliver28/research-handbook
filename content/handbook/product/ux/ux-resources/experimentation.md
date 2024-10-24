@@ -39,7 +39,7 @@ There are some situations where we'd prefer to make a change to the product and 
 - when we are very confident that the change is the right one, and will result in a big usability improvement. We would do this so that all users can immediately benefit from the improvement. These changes can be small or large. They can vary from adding a label to an icon-only button to fixing a flow that spans across a few pages.
 - for a 'big bet'. This is a bigger change, such as a redesign of the sign-up flow, where we are aligning to overall best practices, we're informed by data and we've conducted other forms of solution validation like user testing and other UX research methods.
 - it seems pretty obvious, but we wouldn't use an experiment to decide how to fix a bug.
-- when it will take a long time to reach significance and the impact to revenue is uncertain/low and/or the impact to users is very high/certain. In this case we can make the change, or reject the experiment. Growth groups use the [ICE framework for prioritizing experiments](/handbook/product/growth/#growth-ideation-and-prioritization).
+- when it will take a long time to reach significance and the impact to revenue is uncertain/low and/or the impact to users is very high/certain. In this case we can make the change, or reject the experiment. Growth groups use the [ICE framework for prioritizing experiments](/handbook/product/groups/growth/#growth-ideation-and-prioritization).
 - when the baseline experience is poor, below a B- using our [heuristic scoring](/handbook/product/ux/heuristics/). In this case, we would require initial improvements to the experience before proceeding to an experiment.
 
 ## How do we design for an experiment?

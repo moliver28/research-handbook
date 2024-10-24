@@ -72,7 +72,7 @@ To document actionable insights:
 - **Step 3:** Add the appropriate `Group` (such as `~"group::source code"`) label to the issue.  This is done to identify and track actionable insights at the group level.
 - **Step 4:** Using the related issue feature, link these Actionable Insight issues back to the original Research Issue in the GitLab UX Research project.
 
-#### Do I need to create a new actionable insight issue when the insight is already documented in another issue?
+#### Do I need to create a new actionable insight issue if it's already documented elsewhere?
 
 If the insight is already documented within an issue, you can add an `~"Actionable Insight::Product change"` or `~"Actionable Insight::Exploration needed"` label to avoid redundant documentation. However, it is important to ensure the existing issue accurately addresses 1) the insight and 2) what needs to be done. When one or both aspects are lacking in detail, you will need to update the existing issue **before** adding a label.
 

@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab: Defining CI/CD Variables"
+title: "GitLab CI/CD - Hands-On Lab: Variable Hierarchy"
 description: "This Hands-On Guide walks you through using inline, project, and group variables."
 ---
 

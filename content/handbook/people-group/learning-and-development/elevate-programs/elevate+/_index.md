@@ -3,13 +3,17 @@ title: Elevate+
 
 ---
 
+Elevate+: a live virtual leadership development program for leaders of leaders at GitLab, focused on strengthening leadership identity, mastering GitLab business acumen, building and executing team strategy, maintaining effective cross-functional partnership, and efficient change management.
+
 Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
+
+This page outlines the current format of Elevate+, for participants enrolled in Cohorts 1 through 6.
 
 Through small group cohorts and interactive workshops, Elevate+ is designed to enable senior leaders at GitLab to better understand and practice behaviours anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.
 
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/936433544?h=4499172070&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="gitlab___elevate+___final (1080p)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/936433544?h=4499172070&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Welcome to Elevate+"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 In Elevate+, participants will:
 
@@ -29,19 +33,7 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
   </div>
 </div>
 
-## What concepts are taught in Elevate+?
-
-Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
-
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
-
 ## Time Committment
-
-![visual displaying the elevate+ round 1 timeline](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplustimeline.png)
-
-Elevate+ runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend approx. 4 hours in the following learning activities:
-
-5 Total Modules
 
 | Step | Week | Title | Description | Time |
 | ----- | ----- | ----- | ---------- | ----- |
@@ -70,11 +62,11 @@ During the session, you can expect the following:
 
 Elevate+ Certification is a time to demonstrate everything you've learned and celebrate your new skills and self awareness as you continue to grow as a leader of leaders at GitLab. It's not meant to be scary, and we want all participants to feel fully supported to pass.
 
-Certification will occur in a live, collaborative, 50 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
+Certification will occur in a live, collaborative, 60 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
 
-1. Intro to certification logistics (5 min)
-1. Part 1: Leadership presentations (25 min) - 5 min presentation/1 min scoring per person x 4 people
-1. Part 2: Coaching scenarios (20 min) - 5 min per person x 4 people
+1. Intro to certification logistics
+1. Part 1: Leadership presentations - 5 min presentation/1 min scoring per person x 4 people
+1. Part 2: Coaching scenarios - 5 min per person x 4 people
 
 Review these materials to best prepare for certification:
 

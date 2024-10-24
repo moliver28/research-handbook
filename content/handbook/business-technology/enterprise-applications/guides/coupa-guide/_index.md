@@ -13,8 +13,9 @@ The Business had identified the need to optimize the Procure to Pay process with
 
 The Business decided to move forward with the implementation of `Coupa` for the procurement to payment platform and `Zip` for the purchase request platform. Together they provide the needed functionalities and is integrated to decrease procurement approval turn-times and reduce manual workflow delays.
 
+{{% alert color="info" %}}
 To learn more about `Zip`, check the [`Zip Handbook page`](/handbook/business-technology/enterprise-applications/guides/zip-guide).
-{: .alert .alert-info}
+{{% /alert %}}
 
 ## What is Coupa
 
@@ -28,9 +29,10 @@ Coupa is available via Okta. To access the platform:
 1. Click on the Coupa (Prod) button.
    - A new tab should open with your user logged in.
 
+{{% alert color="warning" %}}
 Please note that every month all Coupa access will be reviewed and users who haven't been active in a period of 90 days will have their access removed. *(Note that this number may vary depending on the license count for the current month)*
 If you need to request access again, please reopen your initial Access Request issue and tag the Finance Systems Admins team using `@gitlab-com/business-technology/enterprise-apps/financeops` in a comment.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 If your job function requires you to manage budget and management approvals, purchase orders and invoice approvals in Coupa, follow the below steps:
 
@@ -101,9 +103,10 @@ Account Name contains a number of options related to managing your account in Co
 1. Click "Create" and select a delegate type approval (Receiving, Delegate) for a specified timeframe and give a reason.
 1. Click "Save".
 
+{{% alert color="info" %}}
 Assigned delegates must be of an equivalent or greater management level.<br>
 For approvals as part of an approval group, the individual must be a member of that group.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ### How to Enable Two-Factor Authentication
 
@@ -118,8 +121,9 @@ For approvals as part of an approval group, the individual must be a member of t
 
 ### How to Create a Requisition
 
+{{% alert color="info" %}}
 Effective 2023-02-01, all purchase requisitions will be created in `Zip`. To learn more about `Zip`, check the [`Zip Handbook page`](/handbook/business-technology/enterprise-applications/guides/zip-guide).
-{: .alert .alert-info}
+{{% /alert %}}
 
 <br>
 
@@ -136,8 +140,9 @@ Effective 2023-02-01, all purchase requisitions will be created in `Zip`. To lea
   - Used by Procurement to hide Purchase Order price from the Vendor.
 - d) Attachments *(synced from `Zip`)*<br>
 
+{{% alert color="warning" %}}
 If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** for processing.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 - e) Vendor's Contact Email *(optional)*<br>
 - f) Vendor has access to red/orange data? *(optional)*<br>
@@ -272,8 +277,9 @@ Provided that a Purchase Requisition has not been fully approved and flipped int
 
 ### How to Receive an Order
 
+{{% alert color="info" %}}
 Receiving is only required for an item-based (quantity) requisition.
-{: .alert .alert-info}
+{{% /alert %}}
 
 1. The requestor can locate all requisitions pending receipt via the "Activity" option under 'My Account'. *This will display all the requisitions created by the Requestor.*
    - It is only possible to select requisitions that are **pending receipt** from the view **Pending Receipt**.
@@ -357,7 +363,8 @@ To learn more about requesting a Virtual Card, check the
 
 For any Coupa requests that are technical related, [open an issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/new?issue%5Bmilestone_id%5D=#) using the `Coupa Request` template.
 
+{{% alert color="info" %}}
 If your request involves a change to the current business process, either the Procurement and/or Accounts Payable Team will have to approve it depending on the type of request.
-{: .alert .alert-info}
+{{% /alert %}}
 
 If you have an urgent issue, send a message to the `#coupa_help` Slack Channel explaining your issue.

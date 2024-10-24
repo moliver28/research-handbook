@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/business-technology/enterprise-applications/guides/coupa_supplier
 title: "Coupa Supplier Management"
 ---
 

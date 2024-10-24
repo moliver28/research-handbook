@@ -3,6 +3,7 @@ stage: enablement
 group: Tenant Scale
 title: 'Cells: Deployment Architecture'
 status: rejected
+toc_hide: true
 ---
 
 {{< design-document-header >}}

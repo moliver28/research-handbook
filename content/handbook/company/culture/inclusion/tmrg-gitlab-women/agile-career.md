@@ -84,8 +84,8 @@ Below, use the infographic and list to understand what resources are available t
 | Resource | Details | Integrate It |
 | ---------- | ------------ | ------------ |
 | [Individual Growth Plan (IGP)]({{< ref "career-development#individual-growth-plan" >}}) | Organize career goals in one place. | **Idea Zone** and **Respond to Change** |
-| [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) | Complete academic study, professional certification, and more. | **Respond to Change** |
-| Coaching with [Modern Health]({{< ref "modern-health" >}}) or [Coaching Right Now (job grade 8+)](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#professional-coaching)**| Coaching (and therapy) sessions available. | **Activate your Feedback Squad |
+| [Growth and Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/) | Complete academic study, professional certification, and more. | **Respond to Change** |
+| Coaching with [Modern Health]({{< ref "modern-health" >}}) or [Coaching Right Now (job grade 8+)](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching)**| Coaching (and therapy) sessions available. | **Activate your Feedback Squad |
 | [CEO Shadow](/handbook/ceo/shadow) (and other shadow programs) | Did you know of all the others shadow programs at GitLab: [Security]({{< ref "security-shadow" >}}), [Engineering Fellow](/handbook/engineering/fellow/shadow/), [CFO]({{< ref "cfo-shadow-program" >}}), [CMO](/handbook/marketing/cmo-shadow/). | **Work as a Set of Projects** |
 | [Internship for Learning]({{< ref "internship-for-learning" >}}) | Spend time during your work week on a new team, exploring and contributing to a new project. | **A/B test your Career** |
 | Self-Paced Learning | Use free licenses from resources like [O'Reilly Learning]({{< ref "self-paced-learning#oreilly-learning" >}}), and [the Linux Foundation]({{< ref "self-paced-learning#linux-foundation-courses" >}})  | **Respond to Change** |

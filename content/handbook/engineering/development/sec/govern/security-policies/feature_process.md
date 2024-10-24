@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/sec/govern/security-policies/feature_process.html
-
 title: Security Policies - Working on features
 ---
 

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/activity-log.html
 title: Database Group Activity Log
 ---
 

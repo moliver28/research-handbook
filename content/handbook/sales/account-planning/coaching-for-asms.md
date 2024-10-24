@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/sales/account-planning/coaching
 title: "Coaching Account Planning for ASMs"
 ---
 

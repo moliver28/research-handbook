@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/database/disaster_recovery.html
 title: "Database: Disaster Recovery"
 controlled_document: true
 ---

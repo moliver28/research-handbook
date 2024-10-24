@@ -8,13 +8,10 @@ description: "GitLab Cost Management"
 ## Quick Links
 
 [Infrafin Board](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
-{:.btn .btn-purple}
 
 [Cost Management Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/103)
-{:.btn .btn-purple}
 
 [Dashboards](https://app.periscopedata.com/app/gitlab/topic/infrafin/abf4ddd16c954c2d9362f8af28a1be8b)
-{:.btn .btn-purple}
 
 ## Mission
 
@@ -40,7 +37,7 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
 
 ### Stage 5: Predict Future Spend & Problem Areas
 
-## <i class="fas fa-map-marked-alt fa-fw" style="color: rgb(252, 109, 38); font-size: 0.85em; --darkreader-inline-color:#fc7735;" data-darkreader-inline-color=""></i>Cost Management Handbook
+## Cost Management Handbook
 
 - [Infrafin Board Docs](/handbook/engineering/infrastructure/cost-management/infrafin-board)
 - [GCP CUD Process](/handbook/engineering/infrastructure/cost-management/gcp-cud)
@@ -52,9 +49,9 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
   - [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
   - [AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
 
-## <i class="fas fa-bullhorn fa-fw" style="color: rgb(107, 79, 187); font-size: 0.85em; --darkreader-inline-color:#785fc1;" data-darkreader-inline-color=""></i>Contact Us
+## Contact Us
 
-### <i class="fab fa-slack fa-fw" style="color: rgb(252, 109, 38); font-size: 0.85em; --darkreader-inline-color:#fc7735;" data-darkreader-inline-color=""></i>Slack
+### Slack
 
 - [#infrafin](https://gitlab.slack.com/messages/infrafin/) is the primary channel for all of GitLab communication in topics that are discussing hosting costs
 - [#eng-data-kpi](https://gitlab.slack.com/messages/eng-data-kpi/) is the primary channel for high priority requests or questions related to engineering KPIs or RPIs

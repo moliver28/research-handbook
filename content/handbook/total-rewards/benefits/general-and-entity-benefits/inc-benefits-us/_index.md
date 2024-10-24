@@ -28,7 +28,7 @@ GitLab offers a benefits package that provides health and financial security for
 
 <summary>Documents, Rights, and Notices</summary>
 
-- Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2024 Annual Rights and Notices](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing)
+- Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2024 Annual Rights and Notices](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and the [2025 Annual Rights and Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view)
 - [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files) Starting July 1, 2022, this link leads to the machine readable files that are made available in response to the federal Transparency in Coverage Rule and includes negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
 **Illinois Team Members:** In accordance to the Illinois Consumer Coverage Disclosure Act, please find the [2023 Coverage Summary](https://drive.google.com/file/d/1LUjsk4eWyQIktMR1li_Mp0KIKQ2ZKarF/view?usp=sharing) for the essential health benefits available to you.
@@ -60,10 +60,9 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## Who To Contact & Claims Escalations
 
-- For a full list of carrier contacts please see the [Benefit Mobile Wallet Card](https://mymobilewalletcard.com/gitlab/)
+- If you require assistance escalating a claim to Cigna, our brokers at WTW can raise this on your behalf. You can request this assistance via [HelpLab](https://helplab.gitlab.systems/esc). 
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
-- For support with the PlanSource system: `total-rewards@ gitlab.com`
-- For questions regarding internal policies, etc. 401(k), : `total-rewards@ gitlab.com`
+- For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc). 
 
 ## ID Cards
 
@@ -156,13 +155,13 @@ GitLab offers plans from Cigna, as well as additional Kaiser options for residen
 
 If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP), with no HSA.
 
-GitLab has confirmed that our medical plans are CREDITABLE. page 10 of the [2023 Annual Notice](https://drive.google.com/file/d/1ku6hO8_ckJL49MLqOfFchIq_L4GblksZ/view?usp=sharing) and page 9 of the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) of the If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
+GitLab has confirmed that our medical plans are CREDITABLE page 9 of the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing) the If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
 
 - Visit [www.medicare.gov](https://www.medicare.gov)
 - Call your State Health Insurance Assistance Program (see the ["Medicare & You" handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
 - Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
 
-Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
+Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
 
 ### PlanSelect Tool
 
@@ -255,7 +254,7 @@ See the [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR
 
 <details markdown="1">
 
-<summary>Cigna Transgender Beneit Coverage</summary>
+<summary>Cigna Transgender Benefit Coverage</summary>
 
 Cigna has advised they will provide [WPATH](https://www.wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
 
@@ -579,14 +578,14 @@ The company offers a 401(k)  plan in which you may make voluntary pre-tax contri
 
 <details markdown="1">
 
-<summary>Administration of the 401(k) Match:</summary>
+<summary>Administration of 401(k) and Enrollment</summary>
 
 1. You are eligible to participate in GitLab's 401(k) as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
-1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](401k.com) who is GitLab's plan recordkeeper.
+1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](https://nb.fidelity.com/public/nbpreloginnav/spa/fidelitywork/core/home) who is GitLab's plan recordkeeper.
 1. Any changes to your plan information will be effective within 2 payroll cycles (typically updated within 1 payroll cycle, depending on when the change is made and cut-off changes dates).
 1. Once inside the platform you may elect your annual/pay-period contributions and investments.
 1. If you have any questions about making changes to your elections, we recommend that you reach out to Fidelity directly, by chat in the app, or by phone at 800-835-5097.
-1. Please review the [Summary Plan Document](https://drive.google.com/file/d/1I8JrLhxBH7rGBjfztsRyrjdhQXINQpBe/view?usp=sharing), [QDIA](https://drive.google.com/file/d/1dYIe2NRFCNeOY843KfSyMUhJiLuGGTXg/view?usp=sharing), [Fee Disclosure](https://drive.google.com/file/d/138hjLkXsQ0tdCCqoC-iWnaydkl33GdLn/view?usp=sharing). If you have any questions about the plan or the documents, please reach out to Total Rewards at `total-rewards@gitlab.com`. Total Rewards is not able to advise you on your financial decisions.
+1. Please review the [Summary Plan Document](https://drive.google.com/file/d/1I8JrLhxBH7rGBjfztsRyrjdhQXINQpBe/view?usp=sharing), [QDIA](https://drive.google.com/file/d/1dYIe2NRFCNeOY843KfSyMUhJiLuGGTXg/view?usp=sharing), [Fee Disclosure](https://drive.google.com/file/d/138hjLkXsQ0tdCCqoC-iWnaydkl33GdLn/view?usp=sharing). If you have any questions about the plan or the documents, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). Total Rewards is not able to advise you on your financial decisions.
 1. ADP payroll system monitors and will stop the 401(k) contribution when you have reached the IRS limit for the year. Please keep in mind, if you have prior contributions from another employer, ADP will not have access to this information.
 1. If your employment with GitLab terminates and you are unable to access your Fidelity account due to this being connected to your GitLab email, please contact Fidelity at 800-835-5097 to have the email address on file updated.
 
@@ -610,6 +609,38 @@ All employer contributions are pre-tax contributions. Team members can still mak
 - For team members who defer more than 6% on each check date, an annual true-up will be conducted after calendar year end.
 - The 401(k) match runs calendar year.
 
+### 401(k) Plan Features
+
+<details markdown="1">
+
+<summary>401(k) After-Tax Contributions with Automatic In-Plan Roth Conversion</summary>
+
+Effective 2024-08-01, Team Members can elect to make after-tax contributions to their 401(k) with automatic Roth in-plan conversions. Follow [these instructions](https://drive.google.com/file/d/16Xpn4FiuX0EcCOkegSG5KwYi8IQhr3--/view?usp=sharing) to make these elections and set up conversions. Note that team members must call Fidelity in order to request and set up automatic conversions. See the [considerations and benefits](https://drive.google.com/file/d/1AO61oKXd1zUlZpNTEEpM3ut0XfTZponI/view?usp=sharing) of enabling automatic conversions.
+
+Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details. 
+
+Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
+
+Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions. 
+Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features. 
+
+</details>
+
+<details markdown="1">
+
+<summary>401(k) In-Plan Roth Conversion (pre-tax source)</summary>
+
+You may now convert money from your pre-tax source, to the Roth source, all within the 401(k) Plan.
+
+- Please consult with your tax advisor as any amount converted will be taxable in the year it is moved to the Roth source.
+- Fidelity is available at 800-835-5097 to assist you with processing changes or answer any questions you may have.
+
+*Questions on the 401(k) Loan or In-Plan Roth Conversion?*
+
+- To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
+- *If you'd like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
+- If you have general questions, please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
+
 </details>
 
 <details markdown="1">
@@ -631,23 +662,6 @@ You may now take a loan from your GitLab 401(k) Plan.
 - You can request up to 50% of your vested account balance, or $50,000, whichever is less.
 - An interest rate of Prime + 1% will apply and will be paid to yourself. It's important to note that loans are repaid with after-tax dollars, meaning you will be "double taxed" on this money – once now, and again at retirement.
 - Fidelity is available at 800-835-5097 to assist with any additional questions you may have.
-
-</details>
-
-<details markdown="1">
-
-<summary>401(k) In-Plan Roth Conversion</summary>
-
-You may now convert money from your pre-tax source, to the Roth source, all within the 401(k) Plan.
-
-- Please consult with your tax advisor as any amount converted will be taxable in the year it is moved to the Roth source.
-- Fidelity is available at 800-835-5097 to assist you with processing changes or answer any questions you may have.
-
-*Questions on the 401(k) Loan or In-Plan Roth Conversion?*
-
-- To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
-- *If you'd like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
-- If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).
 
 </details>
 
@@ -698,7 +712,7 @@ information:
 Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
 password to complete your registration.
 
-If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
+If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
 
 </details>
 
@@ -773,9 +787,9 @@ There are three types of FSAs that team members may enroll in:
 
  Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2024-03-31 (should be no later than 2024-04-22).
 
-In 2023 the maximum salary deferral contribution has increased to $3,050 USD, with the maximum rollover amount increasing to $610 USD.
-
 In 2024 the maximum salary deferral contribution has increased to $3,200 USD, with the maximum rollover amount increasing to $$640 USD.
+Starting in 2025, a minimum amount of $5 USD will apply to the rollover. Note if the FSA rollover funds are $5 or less, the funds will be forefieted. 
+Team members can use the roll-over FSA amount the following year regardless if they enroll in the FSA the following year. Note that 
 
 </details>
 
@@ -1040,6 +1054,7 @@ To learn more about State-specific leave laws, please visit the [Leave of Absenc
 | Family                         | $2,723.56 |  $1,846.31  | $2,626.53 |     $2,095.00   |     $2,095.00   |      $1,491.60 |
 
 **Dental**
+
 | Tier                           | Cigna DPPO Base | Cigna DPPO Buy up |
 |--------------------------------|----------|------|
 | Team Member Only              |   $36.94  |  $49.80 |

@@ -197,7 +197,9 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Peer mentality, even at the highest level of management
 1. The company is flat enough to encourage true collaboration which is vital to growth
 
-#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab
+#### What would make you leave (what should we avoid in the future if possible)?
+
+Full question: What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab
 
 1. Stagnation of career path, no opportunities to advance
 1. Pay decrease, not paid appropriately, below market pay
@@ -296,7 +298,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Focus on growth of GitLab team-members within the organization.
     - People Ops has instituted Grovo (individual contributor and management training), as well as Lattice (OKRs) to assist in the growth of GitLab team-members within their position at GitLab. We will continue to strive to work with managers to develop GitLab team-members at GitLab by drafting Professional Development Plans see [issue](https://gitlab.com/gitlab-com/peopleops/issues/170).
 1. More face-to-face meetings and ability to meet up with GitLab team-members close by.
-    - Please expense travel to visit GitLab team-members as described in [Spending Company Money](/handbook/spending-company-money).
+    - Please expense travel to visit GitLab team-members as described in [Spending Company Money](/handbook/finance/spending-company-money/).
 1. Adjust the team call format to include more regular functional group updates.
     - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/company/group-conversations/) are separate events.
 1. Have more employee agreements instead of contractor agreements.
@@ -319,7 +321,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Are we growing too fast?
     - Check out our [strategy](/handbook/company/strategy/) page for why we are growing faster than feels intuitive.
 1. How to improve myself as a professional?
-    - Aside from the internal tools at GitLab, you can expense any course or training that falls in line with [Spending Company Money](/handbook/spending-company-money). Questions? Just ask your manager or People Ops.
+    - Aside from the internal tools at GitLab, you can expense any course or training that falls in line with [Spending Company Money](/handbook/finance/spending-company-money/). Questions? Just ask your manager or People Ops.
 1. How are we using our series B funding?
     - We have released our [master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) for how we plan on growing as a company as a result of our Series B Funding. Also, check out our [Strategy Page](/handbook/company/strategy).
 1. What are the plans for parental leave?

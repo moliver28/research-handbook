@@ -4,7 +4,7 @@ title: "Julie Braughler's README"
 
 ## About Me
 
-I was raised by English parents in Pittsburgh, PA. I spent my childhood going back and forth to England to visit relatives. This will explain the dry sense of humor with a healthy sprinkling of sarcasm thrown in for flavor. I do try to add an occasional emoji or gif because sarcasm doesn't always translate well in written form.
+I was raised by English parents in Pittsburgh, PA. I spent my childhood going back and forth to England to visit relatives. This will explain the dry sense of humor with a healthy sprinkling of sarcasm thrown in for flavor. I do try to add an occasional emoji or GIF because sarcasm doesn't always translate well in written form.
 
 I have a husband and two children – a boy and a girl, both in their teens.
 

@@ -73,9 +73,9 @@ Additionally, during the negotiation phase you should also be working with the C
 
 This activity should produce a document that clearly articulates what done looks like and when done is successful. The document should be signed by an accountable individual from both parties and verbally discussed.
 
-#### 3.2.2 [Create Customer Success Plan](/handbook/customer-success/csm/success-plans/)
+#### 3.2.2 Create Customer Success Plan
 
-**The SA and CSM work with the customer to create a Customer Success Plan.**  A Success Plan is an interactive map to align the purchase (including renewals!) reasons to customer outcomes, develop joint accountabilities, measure progress and evolve as customers' needs change. Put another way, it's the way the customer can see and know that they're obtaining significantly more value than the cost of a product or service. Click on the link above to follow the steps to create a Customer Success Plan.
+**The SA and CSM work with the customer to create a [Customer Success Plan](/handbook/customer-success/csm/success-plans/).**  A Success Plan is an interactive map to align the purchase (including renewals!) reasons to customer outcomes, develop joint accountabilities, measure progress and evolve as customers' needs change. Put another way, it's the way the customer can see and know that they're obtaining significantly more value than the cost of a product or service. Click on the link above to follow the steps to create a Customer Success Plan.
 
 ## 4. Final Quote Creation
 
@@ -86,9 +86,9 @@ Once negotiations are concluded and a final price point per user and terms are e
 
 This step can be looked at as an extension of the negotiation process and the time horizon for final quote approval, and MSA review can vary greatly between the Commercial Sales and Enterprise Sales based on the customer's purchasing processes.
 
-### 4.1 [Create a New Quote](/handbook/marketing/developer-relations/community-programs/community-program-applications/#step-3-create-a-new-quote)
+### 4.1 Create a New Quote
 
-A quote is created in Salesforce. Click the heading above to follow the process. Generally once you submit a quote it will be sent to the customer's legal team to redline and review.
+A quote is created in Salesforce. [Create a New Quote](/handbook/marketing/developer-relations/community-programs/community-program-applications/#step-3-create-a-new-quote). Generally once you submit a quote it will be sent to the customer's legal team to redline and review.
 
 EMEA specific Quote Creation Considerations:
 
@@ -96,9 +96,9 @@ EMEA specific Quote Creation Considerations:
 2. EMEA must always ask the new or existing customer for the VAT reference number and re-enter it into the quote
 3. The company's correct legal entity name must be manually entered into the quote versus the automated or assumed name that may auto-populate.
 
-### 4.2 [Master Service Agreement](https://about.gitlab.com/terms/#subscription)
+### 4.2 Master Service Agreement
 
-A **master service agreement** (or **MSA**) is a contract reached between parties in which the parties agree to most of the terms that will govern future transactions or future agreements. Generally, Sales works with Legal to redline the document with the customer's legal representation. Once the redlining is completed, the deal is then ready to move to signature.
+A **[Master Service Agreement](https://about.gitlab.com/terms/#subscription)** (or **MSA**) is a contract reached between parties in which the parties agree to most of the terms that will govern future transactions or future agreements. Generally, Sales works with Legal to redline the document with the customer's legal representation. Once the redlining is completed, the deal is then ready to move to signature.
 
 ## 5. SIGNATURE
 

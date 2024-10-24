@@ -11,13 +11,14 @@ The Zapier subscription runs on the [Team plan](https://zapier.com/app/billing/p
 ### Zapier access
 
 - URL: [https://zapier.com](https://zapier.com)
-- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) if you cannot access that vault.
+- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) if you cannot access that vault.
 
 Once logged in, you can access, edit and create Zaps in the [Developer Relations](https://zapier.com/app/zaps/folder/275996) folder
 
+{{% alert color="warning" %}}
 <i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59)
 ;"></i> After editing or creating a new Zap, remember to turn it on with the toggle switch next to the task's name on the Zap's list.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Current Zaps
 

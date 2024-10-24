@@ -2,7 +2,7 @@
 title: "Data Management"
 ---
 
-The Manager, Data is responsible for delivering trusted data and analytics results to help GitLab make better and faster decisions by creating, developing, and leading a [high-performance](/handbook/leadership/build-high-performing-teams/) Team and continually improving the Data Platform along the [Data Capability Model](/handbook/business-technology/data-team/direction/#data-capability-model).
+The Manager, Data is responsible for delivering trusted data and analytics results to help GitLab make better and faster decisions by creating, developing, and leading a [high-performance](/handbook/leadership/build-high-performing-teams/) Team and continually improving the Data Platform along the [Data Capability Model](/handbook/enterprise-data/direction/#data-capability-model).
 The Manager, Data possesses a broad range of people skills and technical skills across the Data domain, as well as business acumen required to establish trusted partnerships with people inside and outside of GitLab.
 The Manager, Data reports to the [Director/Senior Director, Data and Analytics](/job-families/finance/data-and-insights-executive/#director-data-and-analytics).
 
@@ -20,12 +20,12 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 
 - Help create a leading Data Program to support GitLab's [vision](/handbook/company/vision/#vision)
 - Manage, lead, and develop a [High-Performance](/handbook/leadership/build-high-performing-teams/) Team, including day-to-day assignments, bi-weekly milestone planning, [1-1s](/handbook/leadership/1-1/), quarterly objectives, and annual reviews
-- Manage operational components of the [Data Platform](/handbook/business-technology/data-team/platform/infrastructure/) to ensure updated data are available per [established SLOs](/handbook/business-technology/data-team/platform/#extract-and-load)
-- Work with all divisions to continually grow the value of our Data Platform by [onobarding new data](/handbook/business-technology/data-team/platform/#adding-new-data-sources-and-fields) from our SaaS, Telemetry, Product, and Corporate systems
+- Manage operational components of the [Data Platform](/handbook/enterprise-data/platform/infrastructure/) to ensure updated data are available per [established SLOs](/handbook/enterprise-data/platform/#extract-and-load)
+- Work with all divisions to continually grow the value of our Data Platform by [onobarding new data](/handbook/enterprise-data/platform/#adding-new-data-sources-and-fields) from our SaaS, Telemetry, Product, and Corporate systems
 - Understand the big picture and demonstrate how your team supports it through prioritization, planning, and solutioning
 - Participate in [Monthly Key Reviews](/handbook/company/key-review/) to represent Data and stay up-to-date of company developments
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
-- Continuously develop the [Data Team Handbook](/handbook/business-technology/data-team/) to ensure it represents the current state of our strategy, processes, and operations
+- Continuously develop the [Data Team Handbook](/handbook/enterprise-data/) to ensure it represents the current state of our strategy, processes, and operations
 
 #### Requirements
 
@@ -50,7 +50,7 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 - [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
 - Legacy Data Removal Iterations
 - Data Platform Performance and Security Audits
-- Contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact)
+- Contributions to the four [Data Team Impact Dimensions](/handbook/enterprise-data/#how-we-measure-impact)
     1. Data Platform Stability
     1. Data Quality & Governance
     1. Data Adoption
@@ -90,7 +90,7 @@ The Senior Manager, Data is a [grade 9](/handbook/total-rewards/compensation/com
 - [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
 - Legacy Data Removal Iterations
 - Data Platform Performance and Security Audits
-- Contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact)
+- Contributions to the four [Data Team Impact Dimensions](/handbook/enterprise-data/#how-we-measure-impact)
     1. Data Platform Stability
     1. Data Quality & Governance
     1. Data Adoption
@@ -116,7 +116,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 #### Manager, Data Science Description
 
-The [Data Science Team](/handbook/business-technology/data-team/organization/data-science/) closely partners with various teams across GitLab to facilitate making better decisions faster using predictive analytics.
+The [Data Science Team](/handbook/enterprise-data/organization/data-science/) closely partners with various teams across GitLab to facilitate making better decisions faster using predictive analytics.
 
 The job description of this specialization include all of the resposibilities for the **Manager, Data** role. In addition, resposibilities for the specialization include:
 
@@ -139,7 +139,7 @@ The job requirements of this specialization include all of the requirements for 
 
 #### Manager, Data Platform Description
 
-The [Data Platform Team](/handbook/business-technology/data-team/#the-data-platform-team) closely partners with various teams across GitLab to facilitate making better decisions faster by developing and maintaining a Big Data Platform.
+The [Data Platform Team](/handbook/enterprise-data/#the-data-platform-team) closely partners with various teams across GitLab to facilitate making better decisions faster by developing and maintaining a Big Data Platform.
 
 The job description of this specialization include all of the responsibilities for the **Manager, Data** role. In addition, responsibilities for the specialization include:
 

@@ -66,7 +66,7 @@ Team members must have 12 months of continuous service and 1250 hours worked in 
 
 #### How to Apply
 
-Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported to leaves@domain. You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please submit your time away via Time Off by Deel request utilizing the `Out Sick` option.
+Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported either in Workday or to the Absence Management Team (leaves@domain.com). You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please adjust your Slack status noting you are OOO.
 
 #### Payroll Processing During FMLA
 
@@ -310,7 +310,7 @@ During a military leave of less than 31 days, a team member is entitled to conti
 
 Team members needing **3 or more consecutive business days** away from work due to Military Service are expected to provide GitLab with as much advance notice as possible. In some instances providing advance notice may not be possible, so we ask team members to notify us as soon as they are able.
 
-Team Members should report their Military Service in Time Off by Deel by selecting the `Mandatory Civilian Service` option.
+Team Members should report their Military Service in Workday by selecting the `Military Leave` option under the `Leaves` dropdown.
 
 - Note: For absences resulting in more than 3 consecutive business days away from work, team members will need to provide a copy of your orders as soon as you receive them. Please email your orders to leaves@domain.
 

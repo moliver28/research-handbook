@@ -124,6 +124,65 @@ At GitLab, we define them a bit differently:
 - Closed
   - We use them exactly as Zendesk defines them.
 
+## Basic status state flowchart
+
+```mermaid
+flowchart LR
+  ASSIGNED-->OPEN
+  CUSTOMER_REPLY-->OPEN
+  DEV_PULSE-->ONHOLD_SPECIAL
+  HOLDING_REPLY-->ONHOLD
+  ISSUE_MR_UPDATED-->OPEN
+  NEW-->ASSIGNED
+  NEW-->DEV_PULSE
+  NEW-->HOLDING_REPLY
+  NEW-->STANDARD_REPLY
+  NEW-->TASK_REPLY
+  ONHOLD-->CUSTOMER_REPLY
+  ONHOLD-->DEV_PULSE
+  ONHOLD_SPECIAL-->ISSUE_MR_UPDATED
+  ONHOLD-->TIME_PASSES_4
+  ONHOLD-->TIME_PASSES_DUE_DATE
+  ONHOLD-->TIME_PASSES_NAMESQUATTING_7
+  OPEN-->DEV_PULSE
+  OPEN-->HOLDING_REPLY
+  OPEN-->STANDARD_REPLY
+  OPEN-->TASK_REPLY
+  PENDING-->CUSTOMER_REPLY
+  PENDING-->DEV_PULSE
+  PENDING-->TIME_PASSES_14
+  SOLVED-->CUSTOMER_REPLY
+  SOLVED-->DEV_PULSE
+  STANDARD_REPLY-->PENDING
+  SOLVED-->TIME_PASSED_7
+  TASK_REPLY-->ONHOLD
+  TIME_PASSED_7-->CLOSED
+  TIME_PASSES_14-->SOLVED
+  TIME_PASSES_4-->OPEN
+  TIME_PASSES_DUE_DATE-->OPEN
+  TIME_PASSES_NAMESQUATTING_7-->OPEN
+
+  ASSIGNED[Ticket is<br />assigned]
+  CLOSED[Status:<br />Closed]
+  CUSTOMER_REPLY[Customer replies]
+  DEV_PULSE[Agent activates<br />Dev Pulse]
+  HOLDING_REPLY[Agent sends<br />standard<br />holding reply]
+  ISSUE_MR_UPDATED[Linked issue/MR<br />reaches needed<br />state]
+  NEW{Status:<br />New}
+  ONHOLD_SPECIAL{"Status:<br />On-hold<br />(Dev Pulse)"}
+  ONHOLD{Status:<br />On-hold}
+  OPEN{Status:<br />Open}
+  PENDING{Status:<br />Pending}
+  SOLVED{Status:<br />Solved}
+  STANDARD_REPLY[Agent sends<br />standard reply]
+  TASK_REPLY[Agent sends task<br />holding reply]
+  TIME_PASSED_7[7 days pass]
+  TIME_PASSES_14[14 days pass]
+  TIME_PASSES_4[4 days pass for<br />non-namesquatting<br />ticket]
+  TIME_PASSES_DUE_DATE[Time passes until<br />1 hour before<br />due date]
+  TIME_PASSES_NAMESQUATTING_7[7 days pass<br />for namesquatting<br />ticket]
+```
+
 ## Manually creating tickets
 
 The process to manually create a ticket depends largely on the type of ticket it

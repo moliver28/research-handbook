@@ -116,7 +116,7 @@ Always include:
 - Links to any applicable charts
 - Details about the query, migration, or issue
 
-#### For Ongoing Gitlab.com or Dedicated Incidents
+#### For Ongoing GitLab.com or Dedicated Incidents
 
 1. [Activate Development On-Call](/handbook/engineering/on-call/#development-team-on-call-rotation)
 1. If development on-call needs additional database expertise, reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N)

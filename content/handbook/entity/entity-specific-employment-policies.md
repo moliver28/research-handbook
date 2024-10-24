@@ -1,9 +1,6 @@
 ---
 title: "Entity-Specific Employment Policies"
 description: "A link to the location of employment-related policies categorized by entity"
-draft: true
-aliases:
-- /handbook/entity-specific-employment-policies/
 ---
 
 ## Introduction

@@ -52,6 +52,6 @@ If you believe you need to request reasonable accommodations to succeed at GitLa
 
 If you do not believe you need to request reasonable accommodations and you are just looking to update your manager or your team, you can do so freely when you feel is right. A 1:1 with your manager would be a good place to start so that if and when you choose to share with other team members, your manager has already been briefed.
 
-### Not sure about disclosure? The Disability and Neurodivergence TMRG is here to listen and guide (if you want)
+### Not sure about disclosure? The Disability and Neurodivergence TMRG is here to listen and guide
 
 Determining whether or not to disclose your disability at work is a deeply personal choice. If you would like to chat with someone about it discreetly, please feel free to DM the leads on Slack and they can either chat with you directly or point you to someone else who might be a better fit for the discussion.

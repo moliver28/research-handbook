@@ -168,7 +168,7 @@ Example: 5/950 = 0.5% Unsubscribe Rate.
 ## Email Templates
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look
+**Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look**
 
 **What are email templates?** An email template is a reusable HTML file that is used to build email campaigns (according to Litmus).
 

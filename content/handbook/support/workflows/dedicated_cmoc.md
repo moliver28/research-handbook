@@ -12,13 +12,20 @@ The GDCMOC rotation currently uses the GitLab.com CMOC rotation to determine who
 
 ## Engaging the GDCMOC
 
-See [this MR](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/merge_requests/647) for now. This section will be updated to point to the runbook directly once it has been merged into the Dedicated teams' runbooks.
+The GDCMOC can be paged via Slack or directly via PagerDuty. 
+
+- **Slack**: Using the `/pd trigger` command in Slack, select `Incident Management - GDCMOC` in the **Impacted Service** modal. Fill in the **Title** and click **Create**.
+- **PagerDuty**: From the [Incident Management - GDCMOC](https://gitlab.pagerduty.com/service-directory/P8WVAI0) page, click **New Incident**. Fill in the **Title** and click **Create**.
+
+While the **Description** field is optional, you should always include a link to an issue or ticket with more information for the engineer who is being paged.
+
+There is additional information about engaging the GDCMOC in the [on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#paging-the-gdcmoc) for the GitLab Dedicated team.
 
 ## Acknowledging a GitLab Dedicated Contact Request
 
 If an urgent contact request is needed, you will be paged via PagerDuty. Start by marking the PagerDuty alert as **acknowledged**. This can be done through the mobile app, web interface or PagerDuty App in the #spt_pod_dedicated Slack channel.
 
-The description in the Pagerduty alert should contain details about an issue, or a slack thread you need to follow. Follow any communication threads, and let the Dedicated Incident team know you are available to assist. You should be provided with the details of the request. If you're unsure, check [the GitLab Dedicated incidents issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?label_name%5B%5D=Incident%3A%3AActive) or ask in the `#g_dedicated-team` slack channel.
+The description in the PagerDuty alert should contain details about an issue, or a slack thread you need to follow. Follow any communication threads, and let the Dedicated Incident team know you are available to assist. You should be provided with the details of the request. If you're unsure, check [the GitLab Dedicated incidents issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?label_name%5B%5D=Incident%3A%3AActive) or ask in the `#g_dedicated-team` slack channel.
 
 Once an outreach ticket has been sent to the customer, mark the PagerDuty alert as **resolved**.
 
@@ -29,11 +36,11 @@ Follow these steps to create a new ticket to start communications with a custome
 1. Find the `Switchboard (production)` tile in Okta and login to Switchboard.
 1. You should see the `Tenants` page when logged in. Find the relevant tenant and click `Manage`.
 1. Expand the `Cloud Account Config` section, and look for the `Primary Region`. This should tell us which region the customer is based in. See the [AWS docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) if you're unsure of the AWS region code. Make a note of the region.
-1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer TAM`. You will need these values when creating the ticket.
+1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer CSM`. You will need these values when creating the ticket.
 1. Follow the instructions [here](/handbook/support/workflows/sending_notices/#manually-create-a-zendesk-ticket) to create a new Zendesk ticket.
     1. For the **subject** of the ticket, use the following template: `GitLab Dedicated Notice: <description>`.
     1. For the ticket **requestor**, use the first operational email address listed.
-    1. **CC** the other operational email addresses and the Customer TAM.
+    1. **CC** the other operational email addresses and the Customer CSM.
     1. Set the **Preferred Region for Support** to the region similar to where the tenants' `Primary Region` is located.
     1. Add a `dedicated_contacted_request` **tag** to the ticket.
 1. Assign the ticket to yourself.

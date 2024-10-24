@@ -6,18 +6,15 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-## Overview
+## Overview {#overview}
 
-{: #overview .gitlab-purple}
 The self-service virtual event type has been deprecated and is no longer in use.
 
 If you would like to host a webcast, please work with either Marketing Campaigns or Field Marketing to determine the right set-up and tracking for your event.
 
 Although this event type is no officially available, the details below do provide helpful information related to running an event using Zoom and are provided as a quick reference guide.
 
-## Best Practices
-
-{: #best-practices .gitlab-purple}
+## Best Practices {#best-practices}
 
 This section pulls all the pertinent best practices from the step-by-step instructions into a quickly reviewable format, separated by various stages of the process.
 
@@ -132,7 +129,9 @@ We recommend doing all of the following:
 
 Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to "convert" your @handles from Twitter to tagging people and companies on LinkedIn. While you start with "@" like all social channels, you'll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en).
 
-##### 2. Share your social media posts on GitLab Slack Channels related to your topic, Ask for team members to amplify your posts
+##### 2. Share your social media posts on GitLab Slack Channels related to your topic
+
+Ask for team members to amplify your posts.
 
 Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here's how to do it while living up to our values around informal communication:
 Example: Your webcast is the same from our examples above, about remote DevOps. One of the topics to focus on is `remote work`. In addition to being a hashtag in your social posts, `remote work` is also the topic for a GitLab Slack channel, `remote`. Team members in this channel share stories and opinions on your webcast topic.
@@ -195,7 +194,7 @@ Make sure these settings are enabled in your personal zoom account settings as n
 4. To enable Breakout sessions feature:
     * Under In Meeting (Advanced) section, toggle `Breakout room` to active.
     * To enable pre-assigning for zoom users, check  `Allow host to assign participants to breakout rooms when scheduling`.
-5. Optional but [useful best practice set up from Zoom](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) to prevent [Zoom Bombing](https://www.forbes.com/sites/kateoflahertyuk/2020/03/27/beware-zoom-users-heres-how-people-can-zoom-bomb-your-chat/#26745c14618e) (hackers hijacking your meeting).
+5. Optional but [useful best practice set up from Zoom](https://www.zoom.com/en/blog/keep-uninvited-guests-out-of-your-zoom-meeting/) to prevent [Zoom Bombing](https://www.forbes.com/sites/kateoflahertyuk/2020/03/27/beware-zoom-users-heres-how-people-can-zoom-bomb-your-chat/#26745c14618e) (hackers hijacking your meeting).
 
 **Creating the event in Zoom**
 
@@ -222,8 +221,8 @@ Make sure these settings are enabled in your personal zoom account settings as n
 14. For meeting options configurations:
 15. Check `Enable join before host` option if you want to allow participants to join before the host(s).
 16. **(Recommended)** Check `Mute participants upon entry` to prevent disruption whenever someone joins mid-presentation.
-17. **(Recommended)** Check the `Enable waiting room` option if you'd like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/).
-18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).
+17. **(Recommended)** Check the `Enable waiting room` option if you'd like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://www.zoom.com/en/blog/keep-uninvited-guests-out-of-your-zoom-meeting/).
+18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://www.zoom.com/en/blog/keep-uninvited-guests-out-of-your-zoom-meeting/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).
 19. Check the `Breakout room pre-assign` if you'd like to pre-assign participants to the breakout sessions prior to the meeting. Please note that only participants/hosts with @gitlab email domain can be pre-assigned via the web interface. Participants with non @gitlab email addresses need to have zoom installed in their machine to be pre-assigned, and pre-assigning for this scenario can only be done through a CSV upload.
 20. **(Recommended except for meetings that are private in nature)** Check `Record the meeting automatically` either on your local computer or in the cloud to automatically record the meeting when the host join.
 21. Add alternate host as needed (need to be a GitLab employee). For  presenters that are not a GitLab employee, ask them to register as a regular participant and grant them co-host access during the meeting.

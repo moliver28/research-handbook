@@ -7,7 +7,8 @@ controlled_document: true
 
 ## Purpose
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
+The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
+/security
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
 
@@ -15,7 +16,7 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 ### Incident Identification
 
-Security incident investigations are initiated when a security event has been detected on [GitLab.com](https://www.gitlab.com) or as part of the GitLab company. These investigations are handled with the same level of urgency and priority regardless of whether it's a single user or multiple projects.
+Security incident investigations are initiated when any security event is detected on [GitLab.com](https://www.gitlab.com), on another GitLab service, or as part of the GitLab company. These investigations are triaged by qualified Security team members and dispositioned as false positives when the triage evidence is obvious and risk-free. If there is any question about the event being potentially harmful or negatively impactful to GitLab customers, services, products, team members, 3rd party services, or alike, the Security team investigates the incident.
 
 Incident indicators can be [reported](/handbook/security/#reporting-an-incident) to SIRT either internally, by a GitLab team member, or externally. It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
 
@@ -33,17 +34,18 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 
 ## Procedure
 
-### Incident Response Process - this guide covers the following activities for all identified security incidents
+### Incident Response Process: this guide covers the following activities for all security incidents
 
 1. Detection
-    - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
-    - One of our Security detection controls identifies event outside of the established security baseline
-    - A security issue is [escalated into an incident](/handbook/security/#reporting-vulnerabilities-and-security-issues ) as a preventative measure
+    - The SIRT, other internal, or external entity identifies a Security or Privacy event or risk that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may be the result of a misconfiguration, or an innocent error
+    - One of our Security detection controls identifies event(s) outside of the established security baseline
+    - A security issue is [escalated into an incident](/handbook/security/#reporting-vulnerabilities-and-security-issues ) out of an abudance of caution and to validate any assumptions
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
     - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
 1. Containment
-    - Mitigates the root cause of the incident to prevent further damage or exposure
+    - Prevent the spread of unauthorized or malicious use of the affected system or data
+    - Mitigates and eventualy fully remediates the root cause of the incident to prevent further damage or exposure
     - SIRT may implement additional controls to minimize the damage as a result of the incident
     - Determine if it is safe to continue operations with the affected system
     - Permit or deny the operations of the affected system
@@ -60,7 +62,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 
 #### Leaked Secrets Incident Response Process
 
-When secrets are confirmed to be leaked, it is important to minimize the exposure time by immediately revoking the secrets. This can be done by automation or manual revocation by the Security team. Security will immediately revoke the secrets to prevent further abuse even if the potential impact of that action isn't clearly understood at that time. In some cases this may cause disruption, when the secrets are being used for legitimate processes. Because of this potential for impact to services dependent on the revoked secrets, Security will post a notification to the `#security-revocation-self-service` Slack channel, where secrets owners can use the channel for manual or automated self-service. Because the secret has already been exposed and revoked, and because it makes it easier for secrets owners to find their secrets in the channel, the clear text version of the revoked secret will be part of the notification.
+When secrets are confirmed to be leaked, it is important to minimize the exposure time by immediately revoking the secrets. This can be done by automation or manual revocation by the Security team. Security will immediately revoke the secrets to prevent further abuse even if the potential impact of that action isn't clearly understood at that time. In some cases this may cause disruption, when the secrets are being used for legitimate processes. Because of this potential for impact to services dependent on the revoked secrets, Security posts a notification to the `#security-revocation-self-service` Slack channel, where secrets owners can use the channel for manual or automated self-service. Since secret has already been exposed and revoked, and to make it easier for secrets' owners to find their secrets in the channel, the clear text version of the revoked secret is published as a part of the notification.
 
 ### Confidentiality
 

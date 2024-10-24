@@ -28,7 +28,7 @@ The API TMRG provides a safe space for every GitLab team member to better unders
 
 ## Executive Sponsors
 
-- [David Sakomoto](https://gitlab.com/dsakamoto)
+- [Nabitha Rao](https://gitlab.com/NabithaRao)
 
 ## How To Get Involved
 

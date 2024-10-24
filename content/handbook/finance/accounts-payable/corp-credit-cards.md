@@ -50,7 +50,7 @@ anything over $50.   You can add the receipt once the charge reflects in Navan C
 **Gifts for Significant Life Events**
 
 - Gifts can be purchased for significant life events up to $125 USD.
-- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as the birth of a little one; well wishes ahead of surgery, or the loss of a loved one.
+- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a gift.
 - Managers can facilitate the ordering of Flowers or Gifts for delivery.
 - Executive Business Assistant's are permitted to purchase gifts for team member significant life events on behalf of their managers.  An email or Slack pre-approval from their manager must be attached to the expense to be reimbursed.
 - Gift cards for Team members are not allowed for these gifts.
@@ -165,7 +165,7 @@ Upon review, if more clarification is needed for a certain expense, the AP team 
 
 ## 7.  Exceptions to the Policy
 
-- Any exceptions to the policy must be approved via issue or email by the VP, Corporate Controller, CAO or CFO
+- Any exceptions to the policy must be approved via issue or email by the VP or higher in the Accounting Organization.
 - Card members can be granted a higher limit than the allotted monthly $10K USD (or local currency) limit with an approved issue.
 
 ## 8. PROCEDURES

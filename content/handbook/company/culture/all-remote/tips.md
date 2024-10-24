@@ -127,7 +127,7 @@ Here are some best practices that may help your all-remote team be successful.
 - Encourage [non-work related communication](informal-communication/) (talking about private life on a team call) for [relationship building](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926).
 - Encourage group video calls for [bonding](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto).
 - Encourage one-on-one [video calls](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto) between people (as part of onboarding).
-- Host [periodic summits](https://about.gitlab.com/events/gitlab-contribute) with the whole company to get to know each other in an informal setting.
+- Host [periodic summits](/handbook/company/culture/summit/) with the whole company to get to know each other in an informal setting.
 
 ### Hiring
 
@@ -166,7 +166,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ### Decide where to work
 
 - Designate a space that's used solely for work so that you can mentally switch from home to office. Don't have a separate room to use as an office? Consider using a screen or partition to physically divide the space.
-- Make sure you have the equipment you need to be productive (for GitLab team members, here's a helpful [guide](/handbook/spending-company-money)).
+- Make sure you have the equipment you need to be productive (for GitLab team members, here's a helpful [guide](/handbook/finance/spending-company-money/)).
 - Join a coworking space or meet up with someone else who works remotely to cowork in person.
 - [Try out different background sounds](https://thriveglobal.com/stories/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home) like music, ambient noise, or silence to see what works best for you while you're working.
 - If you have family or roommates at home while you're working, consider [setting boundaries](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home) with them about your workspace to reduce interruptions.
@@ -178,7 +178,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 
 The goal of [office ergonomics](http://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
 
-Since we all work from home, GitLab wants each team member to have the [supplies](/handbook/spending-company-money) and knowledge they need to create an ergonomic home office.
+Since we all work from home, GitLab wants each team member to have the [supplies](/handbook/finance/spending-company-money/) and knowledge they need to create an ergonomic home office.
 
 Here are some tips from the [Mayo Clinic](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
 

@@ -2,6 +2,7 @@
 stage: enablement
 group: Tenant Scale
 title: 'Cells: Diagrams'
+toc_hide: true
 ---
 
 Diagrams used in Cells are created with [draw.io](https://app.diagrams.net/).

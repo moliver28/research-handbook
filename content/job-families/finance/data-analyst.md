@@ -4,33 +4,36 @@ title: "Data Analytics"
 
 ## Data Analyst Roles at GitLab
 
-Read more about this role in the [Data Analytics Handbook Page](/handbook/business-technology/data-team/organization/analytics/).
+Read more about this role in the [Data Analytics Handbook Page](/enterprise-data/organization/analytics/).
 
 ## Responsibilities
 
-- Collaborate with other functions across the company by building reports and dashboards with useful analysis and data insights
-- Explain trends across data sources, potential opportunities for growth or improvement, and data caveats for descriptive, diagnostic, predictive (including forecasting), and prescriptive data analysis
-- Understand and document the full lifecycle of data in our [Data Catalog](/handbook/business-technology/data-team/data-catalog/) so data can be efficiently integrated, modeled, and analyzed
-- Develop new [Trusted Data Tests](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework) to expand test coverage for the [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/edw/)
-- Document every action in either issue/MR templates, the [handbook](/handbook/), or READMEs so your learnings turn into repeatable actions and then into automation following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
-- Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale database environment. Maintain and advocate for these standards through code review
-- Follow and improve our processes and workflows for maintaining high quality data and reporting while implementing the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
+- Collaborate cross-functionally to deeply understand business questions, and design single-source-of-truth reports and dashboards to address them
+- Enable data-driven decision-making through the detection of trends, discovery of anomalies/nuances, and identification of potential opportunities for growth / improvement
+- Craft SQL code and dashboards that meet our internal standards for style, maintainability, and best practices for a high-scale analytics environment. Maintain and advocate for these standards through code review.
+- Partner with [Analytics Engineers](/job-families/finance/analytics-engineer/), [Data Engineers](/job-families/finance/data-engineer/), and [Governance/Quality Analysts](/job-families/finance/data-governance-and-quality-analyst/) to contribute to the enterprise data model and deliver trusted data sources and reports
+- Understand and contribute to the full lifecycle of data in our [Data Catalog](/handbook/enterprise-data/data-catalog/), applying the DataOps philosophy (including an emphasis on automation and continuous iteration/deployment) across the development lifecycle
+- Deliver high-quality, actionable reports and data products to functional stakeholders and the enterprise at large
+- Conduct comprehensive data quality checks and validation against source systems to ensure data accuracy
+- Document development work and process changes in issue/MR templates and/or the [handbook](/handbook/)
+- Continuously upskill on analytics and data visualization methodologies, staying up-to-date on and adapting to industry changes
 
 ## Requirements
 
 - Ability to use GitLab
 - Ability to thrive in a fully remote organization
-- Share and work in accordance with our values
-- Positive and solution-oriented mindset
-- Clearly and concisely communicate complex business logic, technical requirements, and design recommendations through iterative solutions
-- Fluent in SQL within analytical data warehouses (we use Snowflake SQL) and in business intelligence tools (we use Periscope)
-- Able to write complex SQL including multi-table joins, grouping and aggregation, common table expressions, and conditional filters
-- Passionate about data, analytics and automation. Experience cleaning and modeling large quantities of raw, disorganized data (we use dbt)
-- Experience working with a variety of complex data sources. Our data includes Salesforce, Zuora, Zendesk, Marketo, NetSuite, Snowplow and many others (see the [data team page](/handbook/business-technology/data-team/))
-- Effective communication and [collaboration](/handbook/values/#collaboration) skills, including clear status updates
+- Ability to share and work in accordance with our [values](/handbook/values)
+- A positive and solution-oriented mindset
+- Strong analytical and critical thinking skills with the ability to understand and implement complex business logic, gather and fulfill technical requirements, and design effective reporting solutions in an iterative manner
+- Fluency in SQL with an ability to write complex SQL including multi-table joins, grouping and aggregation, common table expressions, and conditional filters
+- Fluency in business intelligence tools (we use Tableau)
+- Proficiency in data visualization best practices, with an interest in evangelizing those practices across the organization
+- Experience working with a variety of data sources. Our data includes GitLab.com, Salesforce, Zuora, Zendesk, Marketo, NetSuite, Snowplow and many others (see the [Data Team page](/handbook/enterprise-data/platform/))
+- Effective communication [collaboration](/handbook/values/#collaboration) skills, including the ability to provide clear status updates to stakeholders and leaders
 - Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) environment
 - [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills
 - Prior experience in an analytics role, or equivalent education
+- Awareness of, and willingness to research/experiment with, new technologies in the analytics space (including but not limited to the proliferation of AI/LLM applications in data)
 
 ## Levels
 
@@ -51,11 +54,10 @@ An intern must:
 
 - Work with and learn from a talented team of data professionals
 - Develop and execute a project with the help of a mentor
-- Write blog posts about your learnings
-- Update, maintain, and coordinate meetings
 - Update the handbook using git and GitLab
-- Identify Data team process weaknesses and blindspots
+- Identify Data team process weaknesses and blind spots
 - Contribute fresh perspective and speak up where you can add value
+- Summarize and present your learnings in an end-of-internship summary
 
 ### Junior Data Analyst
 
@@ -87,19 +89,18 @@ The Data Analyst (Intermediate) is a [grade 6](/handbook/total-rewards/compensat
 
 The responsibilities of the Data Analyst extend the Junior Data Analyst role and include:
 
-- Deep understanding of how data is created and transformed through GitLab products and services provided by [third-parties](/handbook/business-technology/data-team/) to help drive product designs or service usage or note impacts to data reporting capabilities
-- Serve as a Subject Matter Expert (SME) in one or more [Data Sources](/handbook/business-technology/data-team/platform/#extract-and-load) and its related Business Subject
-- Provide expertise to all GitLab teams through code reviews, pairing, and training to help deliver optimal queries in Snowflake and in Periscope
-- Approve data model changes as a Data Team Reviewer and [code owner](https://gitlab.com/gitlab-data/analytics/blob/master/CODEOWNERS) for specific database and data model schemas
+- Serve as a Subject Matter Expert (SME) in one or more business domain areas (i.e. customer intelligence, sales pipeline, product usage, etc.)
+- Serve as a Subject Matter Expert (SME) for data visualization and analysis, providing support to other GitLab analysts through code reviews, pairing, and knowledge sharing to help maximize the effectiveness of analyses and reports across the enterprise
+- Act as a reviewer / approver for updates to enterprise data model and dashboards, with a comprehensive understanding of the impact of those changes
+- Understanding of, and targeted experimentation with, new technologies in the analytics space
 
 #### Data Analyst (Intermediate) Requirements
 
 The requirements of the Data Analyst extend the Junior Data Analyst role and include:
 
 - 2+ years experience in an analytics role or equivalent experience/training
-- Hands on experience working with Python, API calls, and JSON, to generate business insights and drive better organizational decision making
 - Demonstrated analytical experience with one or more of the following business subject areas: marketing, finance, sales, product, customer success, customer support, engineering, or people
-- Demonstrated ability to define, design, and develop [Key Performance Indicators](/handbook/company/kpis/) related to one or more business subject areas
+- Demonstrated ability to make significant contributions to data & analytics projects at every stage, from initial requirement gathering to final insight delivery.
 
 ### Senior Data Analyst
 
@@ -113,23 +114,21 @@ The Senior Data Analyst is a [grade 7](/handbook/total-rewards/compensation/comp
 
 The responsibilities of the Senior Data Analyst extend the Data Analyst (Intermediate) role and include:
 
-- Build close relationships with other functional teams to truly democratize data understanding and access
-- Solve technical problems of high scope and complexity
-- Exert influence on the long-range goals of your team
-- Advocate for improvements to data quality, security, and query performance that have particular impact across your team as a Subject Matter Expert (SME)
-- Understand the code base extremely well in order to conduct new data innovation and to spot inconsistencies and edge cases
+- Build close relationships with functional teams to truly democratize data understanding and access
+- Solve technical/business problems of medium scope, ambiguity, and/or complexity
+- Influence the long-range strategy and goals of the Analytics team
+- Advocate for improvements to data quality, security, and performance across the data lifecycle
+- Develop a deep understanding of data domain(s) to drive innovation and to proactively spot inconsistencies and edge cases
 - Provide mentorship for Junior and Intermediate members of the team to help them grow in their responsibilities
-- Deliver and explain data analytics methodologies and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects
 
 #### Senior Data Analyst Requirements
 
 The requirements of the Senior Data Analyst extend the Data Analyst (Intermediate) role and include:
 
 - 6+ years experience in an analytics role or equivalent experience/training
-- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
+- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/enterprise-data/platform/)
 - Recognized expert in SQL, Data Visualization and Business Intelligence
-- Own and maintain one or more sections of the [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
-- Own and maintain one or more sections of the [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)  for a specified Trusted Model
+- Demonstrated ability to lead projects at every stage, from initial requirement gathering to final insight delivery, with minimal oversight/support
 
 ### Staff Data Analyst
 
@@ -139,103 +138,49 @@ The Staff Data Analyst reports to the [Manager, Data.](/job-families/finance/man
 
 The Senior Data Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and is equivalent to the [Manager,Data (Intermediate)](/job-families/finance/manager-data/#manager-data-intermediate) job grade.
 
-**Market Justification:**
-The business need for this role is to hire, retain, and develop technical talent by establishing Individual Contributor focused career paths for our team members who do not want to move into Data People Management. Staff Data Analyst is a widely accepted role, as supported by survey data, and is common in many data-driven companies. In some companies this position is also called Lead Data Analyst.
-
 #### Staff Data Analyst Responsibilities
 
 The responsibilities of the Staff Data Analyst extend the Senior Data Analyst role and include:
 
 - Help promote data innovation across GitLab with a willingness to experiment and to confront hard and complex problems
 - Identify and resolve impediments to efficiency and enable the entire Data Program to iterate faster
-- Act as a specialist in the Data Analytics industry and in GitLab by setting the strategic aims and the short term goals of the Data Team
-- Provide mentorship for all analysts at GitLab to help them grow in their business and technical capabilities, remove blockers to their autonomy, and share your knowledge across the organization
+- Solve technical/business problems that are high in scope, ambiguity, and/or complexity
+- Understand broader trends in the Data Analytics industry (including but not limited to the proliferation of AI/LLM applications in data as one example) and at GitLab, and use them to inform the strategy and goals of the Data Team
+- Provide mentorship for analysts across GitLab to help them grow in their business and technical capabilities, remove blockers to their autonomy, and share knowledge across the organization
 - Create training guides, blog posts, templates, and recorded training sessions to help all at GitLab understand how to accurately view data, use data for insights, and the implications of data-driven analysis in conjunction with legal and security concerns
-- Help create the sense of psychological safety in the department
+- Have the business context and foresight to anticipate analytical reporting needs for strategic business initiatives and evolving priorities
+- Help contribute to the success of the department by creating a healthy culture of feedback, transparent discourse, and psychological safety
 
 #### Staff Data Analyst Requirements
 
 The requirements of the Staff Data Analyst extend the Senior Data Analyst role and include:
 
 - 8+ years experience in an analytics role or equivalent experience/training
-- Fluent in all major technologies in the [Data Team Platform](/handbook/business-technology/data-team/platform/), with a particular emphasis on Data Visualization, Business Intelligence and Data Modeling
-- Recognized expert in SQL, Sisense, and dbt
-- Influence the Analytics Roadmap for one of the [Data Flywheels](/handbook/business-technology/data-team/direction/#data-flywheels)
-- Own and maintain one or more sections of the [Enterprise Data Platform](/handbook/business-technology/data-team/direction/#a-complete-enterprise-data-platform)
+- Fluency in all major technologies in the [Data Team Platform](/handbook/enterprise-data/platform/), with a particular emphasis on driving Data Visualization, Business Intelligence and understanding/contributing to Data Modeling
+- Influence on the long-term planning and roadmap for the Enterprise Data Team
+- Demonstrated ability to propose, champion, and lead end-to-end projects that are high in complexity and broad in scope with minimal oversight/support
 
 ## Specialties
 
 ### Business Intelligence (BI) Platform Team
 
-- Installs, configures, administers, and troubleshoots BI software environments in order to achieve reliable, highly available, well performing systems.
-- Provides direct technical support to BI user community, triages and engages support of appropriate personnel when needed or BI technical support is not sufficient. Performs and streamlines functions such as managing user and system accounts, network rights and access to BI, analytical and related integrated systems.
-- Creates and maintains documentation, standards and policies for the form, structure and attributes of the BI applications and systems.
-- Defines and leads training seminars and other educational activities for the organization's BI user community.
-- Identifies and documents best practices and makes recommendations for standards improvements.
-- Manages user provisioning & permissions
-
-### Engineering
-
-- Support all departments in the engineering division by helping drive the standardization, capture, automation, and implementation of performance indicators
-- Be intimately familiar with productivity metrics
-
-### Finance
-
-- Support the FP&A team in driving financial and operational initiatives by analyzing data and discovering insights
-- Focus on financial and operational specific data
-
-### Growth
-
-- Support the product management function in driving product growth, reducing churn, increasing user engagement by analyzing data and discovering insights
-- Focus on product-specific data - usage ping, SaaS DB, Snowplow events
-
-### Product
-
-- Support the Product function by spearheading tracking and reporting initiatives
-- Focus on product usage metrics across SaaS and self-managed products
-- Build cross-functional analysis to drive strategic decision-making
-
-### Sales
-
-- Coordinate with SalesOps to improve and automate tracking potentially insightful data points
-- Focus on cross-functional analysis that can help drive sales conversations (e.g. product usage into renewal conversations)
-
-### Marketing
-
-#### Analyst
-
-- Coordinate with Marketing to improve and automate tracking potentially insightful data points, by analyzing data and discovering insights
-- Support Marketing by helping drive the standardization, capture, automation, and implementation of performance indicators
-- Assist with data driven planning and strategy
-- Focus on cross-functional analysis that can help drive marketing conversations
-- Reports to [Director of Marketing Strategy and Performance](/job-families/marketing/marketing-strategy/#director-marketing-strategy) working closely with the Chief Marketing Officer
-- Member of the [Marketing Strategy and Performance Team](/handbook/marketing/strategy-performance/)
-
-#### Web Analyst
-
-- Provide recommendations for technical SEO improvements to the site.
-- Implement our SEO strategy together with our marketing team and digital marketing agency.
-- Grow traffic to about.gitlab.com through organic search marketing programs.
-- Report on marketing site growth from SEO and paid search.
-- Troubleshoot and formulate solutions to issues with SEO and site lead flow.
-- Evaluate and report data across multiple channels to monitor marketing site growth.
-*Additional Requirements*
-- 3+ years in Search Engine Marketing role
-- 1-3 years of enterprise software marketing experience.
-- 3+ years experience Google Analytics (or related tool), Google Search Console and experience with at least one SEO tool.
-- Technical/industry experience focused on SEO online advertising to improve lead generation, sales pipeline, and revenue.
-- Reports to [Director of Marketing Strategy and Performance](/job-families/marketing/marketing-strategy/#director-marketing-strategy) working closely with the Chief Marketing Officer
-- Member of the [Marketing Strategy and Performance Team](/handbook/marketing/strategy-performance/)
-
-### People
-
-- Coordinate and support the People function by automating all reports from Greenhouse, Workday, and Google Sheets into reporting dashboards.
-- Focus on cross-functional analysis to help other departments identify opportunities for improvement within their recruiting, hiring, and retention policies.
+- Configure, administer, and troubleshoot our Tableau Cloud environment to achieve high reliability, availability, and performance
+- Create and maintain documentation, standards, and policies for the form, structure, and attributes of the BI applications and products
+- Provide first-line technical support to the Tableau user community at GitLab: triaging issues, troubleshooting, and resolving questions
+- Partner with other members of the Enterprise Data team to develop and conduct training that will enable the internal community of Tableau developers and users
+- Collaborate with analytics teams across the enterprise to recommend and implement best practices that will optimize the performance of our Tableau environment/workbooks, drive user adoption, and increase user engagement
+- Design and manage Tableau processes to minimize friction in the user experience and support single source of truth reporting (i.e. processes related to dashboard publication, curation, archival, and management)
+- Report on and optimize Tableau statistics for performance and usage
+- Perform and streamline user provisioning, user permissioning, and system account management
 
 ## Performance Indicators (PI)
 
-- [Adoption of Data Team BI charts throughout company](https://internal.gitlab.com/handbook/it/it-performance-indicators/#adoption-of-data-team-bi-charts-throughout-company)
-- [% of issues requested triaged with first response within 36 hours (per business unit)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-issues-requested-triaged-with-first-response-within-36-hours-per-business-unit)
+As with other job families in the Enterprise Data team, Data Analysts are evaluated on contributions to the four [Data Team Impact Dimensions](/handbook/enterprise-data/#how-we-measure-impact):
+
+- Data Platform Stability
+- Data Quality & Governance
+- Data Adoption
+- Revenue/Efficiency Impact
 
 ### Career Ladder
 
@@ -247,9 +192,7 @@ The next step in the Data Analyst job family is to move to the [Data Management]
 
 - Selected candidates will be invited to fill out a short questionnaire.
 - Next, candidates will be invited to schedule a screening call with our Global Recruiters
-- Next, candidates will be invited to schedule a first interview with our Senior Director, Data and Analytics or Managers, Data
-- Next, candidates will be invited to schedule a second interview with the business division DRI
-- Next, candidates will be invited to schedule a third interview with one a member from our Data team
-- Next, candidates will be invited to schedule a fourth interview with a specialty Engineering manager
+- Next, candidates will be invited to schedule a first interview with a leader from the Data team
+- Next, candidates will be invited to schedule individual interviews with each of the following: a Data team member, a business division team member, and an executive leader
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

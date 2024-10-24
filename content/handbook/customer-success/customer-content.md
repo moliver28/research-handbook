@@ -22,7 +22,7 @@ Want to make this into a template to share with others in your organization? [Cr
 ## Day 3
 
 - Watch the [Intro GitLab CI/CD](https://www.youtube.com/watch?v=bE2YXhAVBeE) webinar - 1 hour.
-- Read about [CI/CD concepts](https://docs.gitlab.com/ee/ci/introduction/index.html#continuous-integration).
+- Read about [CI/CD concepts](https://docs.gitlab.com/ee/ci/quick_start/index.html#continuous-integration).
 - Browse through some [GitLab CI/CD Examples](https://docs.gitlab.com/ee/ci/examples/). We recommend bookmarking this page so you can refer back to it, as there is a lot of information available.
 - Review [CI/CD resources](https://university.gitlab.com/pages/ci-cd-content) - including the GitLab CI Fundamentals learning path.
 

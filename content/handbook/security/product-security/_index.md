@@ -1,7 +1,5 @@
 ---
 title: "Product Security"
-aliases:
-- /handbook/security/security-engineering
 ---
 
 Aligned with GitLab's overarching information security strategy and its three-year plan, the Product Security Department (PSD) within the Security Division is responsible for crafting and directing a comprehensive vision to bolster the cybersecurity posture of the GitLab platform.
@@ -40,6 +38,7 @@ The Product Security sub-department includes the following teams. Learn more abo
 - [Application Security](application-security/)
 - [Infrastructure Security](infrastructure-security/)
 - [Product Security Engineering](product-security-engineering/)
-- [Vulnerabiity Management](vulnerability-management/)
+- [Vulnerability Management](vulnerability-management/)
 - [Security Research](security-research/)
 - [Security Architecture](architecture/)
+- [Data Security](data-security/)

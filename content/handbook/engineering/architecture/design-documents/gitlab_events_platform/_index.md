@@ -1,5 +1,5 @@
 ---
-title: GitLab Events Platform
+title: "GitLab Events Platform"
 status: proposed
 creation-date: "2023-03-06"
 authors: [ "@grzesiek", "@fabiopitino" ]

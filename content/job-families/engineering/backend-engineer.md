@@ -58,7 +58,7 @@ requirements and responsibilities:
 - Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 ---
 
@@ -139,7 +139,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 
 ---
 
-A Senior Backend Engineer may want to pursue the [engineering management track](/job-families/engineering/engineering-management/) at this point as a manager of people or a higher level individual contributor. See [Engineering Career Development](/handbook/engineering/career-development/) for more detail.
+A Senior Backend Engineer may want to pursue the [engineering management track](/job-families/engineering/engineering-management/) at this point as a manager of people or a higher level individual contributor. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
 
 **Note:** Staff and above positions at GitLab are more of a role than just a "level". We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
 
@@ -377,7 +377,7 @@ Verify backend engineers are primarily focused on improving the Continuous Integ
 
 1. Provide value to the user and communicate such with the product manager and engineering manager,
 1. Introduce features that work at scale and in untrusting environments,
-1. Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+1. Always focus on defining and shipping [the Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### Requirements
 
@@ -401,7 +401,7 @@ and Continuous Deployment (CD) functionality in GitLab. Engineers should be will
 
 1. Provide value to the user and communicate such with product managers,
 1. Introduce features that work at scale and in untrusting environments,
-1. Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+1. Always focus on defining and shipping [the Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 We, as a team, cover end-to-end integration of CI/CD in GitLab, with components being written in Rails and Go.
 We work on a scale of processing a few million of CI/CD jobs on GitLab.com monthly.
@@ -500,10 +500,10 @@ address issues from the community.
 
 Engineering Productivity Engineers have the following job-family performance indicators.
 
-- [GitLab project master pipeline success rate](/handbook/engineering/quality/performance-indicators/#gitlab-project-master-pipeline-success-rate)
-- [Average merge request pipeline duration for GitLab](/handbook/engineering/quality/performance-indicators/#average-merge-request-pipeline-duration-for-gitlab)
-- [Average cost per merge request pipeline for GitLab](/handbook/engineering/quality/performance-indicators/#average-cost-per-merge-request-pipeline-for-gitlab)
-- [Review App deployment success rate for GitLab](/handbook/engineering/quality/performance-indicators/#review-app-deployment-success-rate-for-gitlab)
+- [GitLab project master pipeline success rate](/handbook/engineering/infrastructure/performance-indicators/#gitlab-project-master-pipeline-success-rate)
+- [Average merge request pipeline duration for GitLab](/handbook/engineering/infrastructure/performance-indicators/#average-merge-request-pipeline-duration-for-gitlab)
+- [Average cost per merge request pipeline for GitLab](/handbook/engineering/infrastructure/performance-indicators/#average-cost-per-merge-request-pipeline-for-gitlab)
+- [Review App deployment success rate for GitLab](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate-for-gitlab)
 
 #### Hiring Process
 

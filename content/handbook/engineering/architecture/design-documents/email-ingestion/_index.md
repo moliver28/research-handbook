@@ -1,5 +1,5 @@
 ---
-title: Replace mail_room email ingestion with scheduled Sidekiq jobs
+title: "Replace mail_room email ingestion with scheduled Sidekiq jobs"
 status: proposed
 creation-date: "2023-06-05"
 authors: [ "@msaleiko" ]
@@ -10,7 +10,6 @@ participating-stages: [ ]
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 <!-- vale gitlab.CurrentStatus = NO -->
 
 {{< design-document-header >}}

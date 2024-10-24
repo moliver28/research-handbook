@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/training/staff-plus-role.html
-
 title: "Resources for Staff+ roles"
 ---
 
@@ -16,7 +14,7 @@ what we could do or explore to make things better.
 
 Here are various activities that can be useful for this purpose:
 
-* See the [Engineering Communications](../../engineering-comms.md#keeping-yourself-informed) page.
+* See the [Engineering Communications](/handbook/engineering/engineering-comms/) page.
 * Read the release posts every month. It helps understand what other team have worked on. What features we have added.
 * Keep an eye on slack channels (`#architecture`, `#backend`, `#development`, `#staff_plus_engineers`, etc.).
   It is important have a basic understanding of what problems a particular technology, pattern, process is meant to solve.

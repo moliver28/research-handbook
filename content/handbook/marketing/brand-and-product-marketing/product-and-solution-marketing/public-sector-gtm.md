@@ -100,7 +100,9 @@ GitLab secures your speed to mission by addressing elements to stay ahead of thr
 
 **Key Messages:** Secure by design: Your SDLC is secure by design discovering vulnerabilities earlier helping you to shift left.
 
-#### Pain Point 2: How do we overcome manual processes, dated policies, and aging technology to achieve automated software factory deployment?
+#### Pain Point 2: How do we overcome manual processes, dated policies, and aging technology...?
+
+Pain Point 2: How do we overcome manual processes, dated policies, and aging technology to achieve automated software factory deployment?
 
 **Solution:** GitLab with end-to-end DevSecOps workflows is built on a single codebase enabling software development that eliminates the digital duct tape inefficiencies so you can accelerate the delivery of critical capabilities.
 
@@ -116,7 +118,9 @@ GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond�
 
 **Key Messages:** Automate software factory deployment: Deploy an easy-to-manage software factory quickly to build, test, and deliver applications
 
-#### Pain Point 3: How do we encourage collaboration between teams and vendors while promoting employee retention?
+#### Pain Point 3: How do we encourage collaboration between teams and vendors...?
+
+Pain Point 3: How do we encourage collaboration between teams and vendors while promoting employee retention?
 
 **Solution:** GitLab supports public sector missions and enables collaboration between teams and vendors with multi-system integrations. Everyone can contribute at every development stage - Plan, Create, Verify, Secure, Package, Release, Configure, Monitor, Protect, and Manage within one DevSecOps platform. The embedded security, frequent update cycle, and agile project management provide visibility within the SDLC with end-to-end traceability dramatically accelerating the speed to mission — increasing code deployment by up to 200%. GitLab also increases user adoption and employee retention enabling organizations to do more for citizens, peacekeepers, students, and the public sector workforce.
 

@@ -155,7 +155,7 @@ This section will provide some examples of general workflows and how to approach
 
 ### Mission critical projects with sensitive information
 
-An example of this type of project would be our [environment terraform plans](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure). This project contains all details of our infrastructure, including instance types, names of service accounts and similar. While those details on their own are not an issue and should not necessarily be private, they make it infinitely easier for a malicious actor to create an attack vector. Additionally, any accidental change has the potential of impacting the platform immediately.
+An example of this type of project would be our [Terraform environments](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt). This project contains all details of our infrastructure, including instance types, names of service accounts and similar. While those details on their own are not an issue and should not necessarily be private, they make it infinitely easier for a malicious actor to create an attack vector. Additionally, any accidental change has the potential of impacting the platform immediately.
 
 These types of projects should be configured based on the table below:
 

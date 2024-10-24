@@ -1,5 +1,5 @@
 ---
-title: Disaster Recovery
+title: "Disaster Recovery"
 status: ongoing
 creation-date: "2024-01-29"
 authors: [ "@jarv" ]

@@ -250,6 +250,76 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 1. [Highspot Page](https://gitlab.highspot.com/items/63c04679ce74a0ae63ca5e49)
 2. [RISE Course](https://rise.articulate.com/share/HzJgdaWzK1C_SwlMSCwQchgV9PbpRNvi#/)
 
+### Quote Creation: General Tips & Tricks
+
+#### Required Fields
+
+- The following fields must be populated to successfully create a quote:
+  - Start Date (this is the first day the license will be usable)
+  - Initial Term (this is the term of the subscription in months)
+  - Renewal Term (this is the term that the subscription will renew for after the Initial Term is complete)
+  - Quote Template
+  - Bill To Contact
+  - Sold To Contact
+
+#### Selecting a Quote Template
+
+| Template                            | Use For                                                                                                  |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Standard Order Form                 | Most quotes, including alliance marketplace transactions, EDU/OSS/YC, or Customers with an Existing Agreement (MSA) in place |
+| Standard Order Form (Hide Discount) | Hide the Discount Column for Direct Deals. Otherwise Identical to the Standard Order Form Template       |
+| Authorized Reseller Order Form      | Authorized Reseller Transactions                                                                         |
+| MSP Order Form                      | Managed Service Provider Transactions                                                                    |
+| Distributor Order Form              | Distributor Transactions                                                                                 |
+
+#### Negotiated Subscription Agreements (or "MSA")
+
+- If there is a **signed MSA** between the customer and GitLab, the **"MSA Effective Date" field** should be populated with the date of the MSA's signature. If "MSA Effective Date" is populated on the quote object, the Order form will automatically generate with Acceptance Language that References the existing agreement. If it **is not populated** the language will default to Standard terms.
+
+#### Add Language to the Order Form Automatically
+
+- Add any preapproved legal language selections to the order form. Checking the box next ot the language selection will automatically generate an order form with pre approved legal language - no need for Deal Desk intervention. Selections are as follows:
+
+| Toggle Field                   | Output                                                                                   |
+|--------------------------------|------------------------------------------------------------------------------------------|
+| Annual Payments                | Annual Payment Language will populate in Payment Details on the Order Form PDF           |
+| Customer Reference Language    | Customer Reference Language will populate in Notes Section of the order form             |
+| Add Quarterly True Up Language | Standard Quarterly True Up language will populate in the Notes section of the Order Form |
+| Remove Signature Block         | Signature Block will be removed. Use for customers with Existing Agreements (MSA)        |
+
+#### Billing/Payment Schedule
+
+At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you may use the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
+
+If you choose to add Annual Payments to a quote, please keep in mind the following:
+
+1. On a New Business quote, Initial Term must equal 24, 36, 48, or 60. On a Renewal quote, Renewal Term must equal 24, 36, 48, or 60.
+2. All quotes with Annual Payments must use the "1 Year" Product SKU. You will see an error message if you select Annual Payments and anything other than the 1 Year SKU.
+3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Billing Schedule" field.
+4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing.payment schedule. 
+
+#### Contact Requirements
+
+- **Select "Sold To" and "Bill To" contacts.** Note that the "Sold To" contact will receive the EULA or License file via email. Note: Each contact record must have a complete address, if the address is not fully populated, you will need to update this before you can proceed with the quote.
+- For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
+  - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
+  - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
+  - "Invoice Owner Contact"
+    - The Billing Account on the Partner Account lists the accounts payable contact information associated with that account (refer to "Contact Information" section on the billing account), so that contact should be used as the "Invoice Owner Contact". If that contact does not exist on the Partner Account as a Contact Record, please create the contact using the following naming convention "[Partner Account Name] - Accounts Payable".
+    - Ensure that the "Invoice Owner Contact" is connected to the Partner Account record and matches the contact information from the partner's Billing Account (i.e., Invoice Owner).
+  - The "Resale Partner" field should be populated with the Partner Account of the Reseller or MSP transacting (please note a partner may have both a Customer and Partner Account Record, the Partner Account must be selected. Check the "Account Record Type" field on an account to identify whether it is Customer or Partner account).
+  - For deals through distribution, the "Distributor" field should be populated with the Distributor Account of the Distributor transacting (for all Distributor Deals, you must also populate Resale Partner).
+
+#### Term Requirements
+
+- Populate **"Initial Term"** in months. (i.e. for a two-year deal, enter "24"). For standard deals, "Initial Term" should always match the SKU that you are quoting (i.e. Premium - 2 Year = Initial Term 24 Months).
+
+#### VAT ID
+
+- If the customer or reseller is based in the EU, enter the "VAT ID" number. This is required to book the order.
+
+### Quote Creation: Step by Step Guide by Quote Type
+
 #### New Subscription Quote
 
 Follow this step by step guide for creating a **New Subscription** quote in Quote Studio. Use a New Subscription quote when the customer is purchasing a brand new subscription, OR if the deal structure includes a Contract Reset.
@@ -434,6 +504,18 @@ For example:
 We don't have a way today to track separately how many Ultimate seats are used after the upgrade, the max billable users calculation always looks at the full term, in this case including the time period prior to the upgrade.
 
 NOTE: this wouldn't be a problem if the customer goes from 50 to 25 users but their max billable users was 25 or less at renewal time. It's only a problem when they go below their current max billable users count.
+
+##### Payment Schedule for Amendment Quotes
+
+Amendment quotes on Multiyear Terms (13 or more months) will default to the same billibg schedule as the originating agreement (New Subscription Order Form or Renewal Order Form, whichever is most recent). This means:
+
+If the originating agreement's billing schedule was set up for:
+
+- Annual billing - any amendment quote will be billed annually as well (without the need for redundant Annual Terms language). If the Amend Order Form includes Annual Billing language, it will also be accepted for bookings so long as the originating agreement also included Annual Billing language.
+- Prepaid - the customer will be billed for the prorated amount for the remainder of the current subscription period.
+- For any custom billing schedule, please engage Deal Desk as your Order Form may need customizations.
+
+It's important to note that the term's billing schedule should not be changed mid-term. If a change in billing frequency mid-term is your intent, this should be done at renewal. Otherwise, updating billing schedule mid-term will require you to engage with Deal Desk.
 
 #### Renew Subscription Quote
 

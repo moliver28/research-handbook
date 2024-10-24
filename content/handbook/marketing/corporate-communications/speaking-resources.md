@@ -15,7 +15,7 @@ So you're interested in becoming a public speaker? That's great!
 1. If you're looking to learn how to be a more effective and confident public speaker, you can check out:
     - [LinkedIn Learning courses](https://www.linkedin.com/learning/public-speaking-foundations-2018/)
     - Books like _The Art of Public Speaking_ by Dale Carnegie
-    - Brendan's blog post: [What makes a great tech talk](https://about.gitlab.com/blog/2022/10/04/what-makes-a-great-tech-talk/)
+    - Blog post: [What makes a great tech talk](https://about.gitlab.com/blog/2022/10/04/what-makes-a-great-tech-talk/)
     - Or join your local [Toastmasters](https://www.toastmasters.org/Resources/Public-Speaking-Tips).
 1. Review the steps on this page for
     - Getting help with CfP and talk ideas
@@ -27,22 +27,12 @@ So you're interested in becoming a public speaker? That's great!
 
 > 🤝 This step is optional. The Developer Advocacy team is happy to help.
 
-Sometimes people have an awesome story to share but can't find the time to put words on paper. [Share your ideas (Google Form)](https://forms.gle/5RbekekqWD1e6F686) and the Developer Advocacy team will work with you to build it into a talk. In the event that you are unable to speak on the topic, we can get other speakers to do justice to the talk.
+Sometimes people have an awesome story to share but can't find the time to put words on paper. We can help with that -- team members can always schedule coffee chats with [Developer Advocates](/handbook/marketing/developer-relations/developer-advocacy/#i-classfa-fa-users-aria-hiddentruei-team-members-and-focus-areas) to brainstorm talk ideas, get speaker coaching, and help with the presentation.
 
-The submission is open to everyone including wider community members. If you have any question, please ask in the [#dev-advocacy-team Slack channel](https://gitlab.slack.com/archives/CMELFQS4B) (internal for team members) and mention `@abuango` (or [Twitter](https://twitter.com/sarki247)) in any ongoing GitLab issue.
-
-You can request help with reviewing CFP abstract drafts and talk slide from the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/cfps/). Review examples:
+You can also request help with reviewing CFP abstract drafts and talk slide from the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/cfps/). Review examples:
 
 - [Efficient Pipelines with CI/CD Templates abstract review](https://gitlab.com/gitlab-com/Product/-/issues/3866#note_852899090)
 - [Secure CI/CD using JWT tokens abstract review](https://gitlab.com/gitlab-com/Product/-/issues/4474)
-
-### Speakers Lean Coffee
-
-> 🤝 This step is optional. The Developer Advocacy team is happy to help.
-
-Once a month, on the second Thursday of every month, the GitLab Developer Advocacy team hosts a Speakers Lean Coffee meeting in the [lean coffee](https://leancoffee.org/) style.  This means that prospective or current speakers who are GitLab team members or in the wider GitLab community can come and bring their topics to discuss.  Whether it is help in brainstorming ideas for a CFP, refining an abstract, or discussing an upcoming presentation in more detail - all topics are welcome.
-
-To view or add topics for the next Speakers Lean Coffee, see the [Speakers Lean Coffee issue board](https://gitlab.com/gitlab-da/projects/speakers-lean-coffee/-/boards).  You can find the invite on the [Developer Advocacy Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=NnQ2aTRrZHIzbW4zaDhsbDY3MG9xamd1YXFfMjAyMTA2MTBUMTQwMDAwWiBnaXRsYWIuY29tX2V0YTdvNHRuNGJ0bjhoMGY4ZWlkNXE5OHJvQGc&tmsrc=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com&scp=ALL).
 
 ## Speaker Resources
 
@@ -50,15 +40,23 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 
 ### Finding an Event
 
-> 🤝 These steps are optional.
+> 🤝 These steps are optional. The Developer Advocacy team is happy to help.
 
-1. Speaking opportunities are posted in the [#cfp Slack channel](https://gitlab.slack.com/archives/C106ACT6C) (internal)
-1. You can also see CFPs we're tracking with the `CFP` label [in the Corporate Marketing project](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CFP) (internal)
-1. For a complete list of events we are tracking, see the [marketing calendar](/handbook/marketing/#marketing-calendar) and the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/).
+1. Speaking opportunities are often posted in the [#cfp Slack channel](https://gitlab.slack.com/archives/C106ACT6C) (internal)
+1. You can also tracked CFP with the [`CFP` label](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CFP) (internal)
+1. Events tracking at GitLab:
+    - [GitLab events](https://about.gitlab.com/events/)
+    - [Marketing team calendar](/handbook/marketing/#marketing-calendar)
+    - [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/)
+    - [Developer Relations events](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=DevRel-Events)
 1. More sources for events and CFPs:
+    - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
+    - [confs.tech](https://confs.tech/), Open-source and crowd-sourced list of conferences around software development
+    - [PaperCall event directory](https://www.papercall.io/events)
+    - [JoinedIn Call for Papers](https://joind.in/event/callforpapers)
+    - [CallingAllPapers](https://callingallpapers.com/), crawling joind.in, confs.tech, papercall, and Sessionize.
 
-   - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
-   - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
+When unsure about an event, you can ask in Slack, or actively [create a CFP issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta) to discuss the event potential and requirements.
 
 ### CFP Submission
 
@@ -66,7 +64,7 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 
 All talk submissions to the Call-for-Papers (CFP) process at events must be tracked in an issue, using the [`CFP-Meta` template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta).
 
-- If you submitted a talk, or it was accepted already, please also create an issue.
+- If you have submitted a talk, or it was accepted already, please also create an issue.
 - Inviting customers to speak, or co-submit a talk should also be coordinated in the CFP issue.
 
 The CFP template provides guidance on the required event details (URL, location, dates, CFP notification dates, etc.). Please add as many details as possible. All DRIs are tagged automatically, and will be in touch for the next steps.
@@ -76,8 +74,8 @@ If you need help with abstract reviews, or slide deck reviews, please add a note
 For ideas to help you or your customers get their submissions accepted:
 
 - Review [How to Get Your Presentation Accepted (video)](https://www.youtube.com/watch?v=wGDCavOCnA4).
-- Join the [Speakers Lean Coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee).
 - Schedule a chat with a [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/).
+- Search and review current and past events and [their CFP issues](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/?sort=created_date&state=all&label_name%5B%5D=CFP&first_page_size=100).
 
 #### Event Requirements
 
@@ -103,9 +101,9 @@ If there is an event you would like to attend, are attending, speaking, or have 
 1. Create a [CFP issue](/handbook/marketing/corporate-communications/speaking-resources/#cfp-submission), if not existing already.
 1. Contact your manager for approval to attend/ speak, and document it in the CFP issue.
 1. After getting approval from your manager to attend, follow the steps in the Corporate Communications handbook section on [Speaking Opportunities](/handbook/marketing/corporate-communications/#speaking-opportunities-conferences-meetups-webinars-and-other-events).
-1. If the conference does not cover your travel and expenses, GitLab will cover your expenses (transportation, meals, and lodging for days said event takes place). If those expenses exceed $500, please get approval from your manager. When booking your trip, use our [travel portal](/handbook/travel/), book early, and spend as if it is your own money.
+1. If the conference does not cover your travel and expenses, GitLab will cover your expenses (transportation, meals, and lodging for days said event takes place). If those expenses exceed $500, please get approval from your manager. When booking your trip, use our [travel portal](/handbook/finance/travel/), book early, and spend as if it is your own money.
 1. If you are not already on the [speakers page](https://about.gitlab.com/speakers/), please [add yourself](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/#join-the-speakers-bureau).
-1. We suggest bringing swag and/or stickers with you. Check the [Requesting Swag handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) how to request/order swag and stickers.
+1. We suggest bringing swag and/or stickers with you. Check the [Requesting Swag handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#how-to-order-swag) how to request/order swag and stickers.
 
 ### Presentation Assets
 
@@ -113,7 +111,7 @@ For presentation assets like templates and slides, use the [GitLab branded Googl
 
 Please review and follow the [brand guidelines](https://design.gitlab.com/brand/overview).
 
-Consider using a [GitLab branded Zoom background](/press/press-kit/#green-screens) during your presentation to show your GitLab pride!
+Consider using a [GitLab branded Zoom background](/press/press-kit/#green-screens) during your virtual presentation to show your GitLab pride!
 
 ### After your Talk
 

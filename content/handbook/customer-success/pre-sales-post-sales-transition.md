@@ -11,9 +11,9 @@ Please review this course on [Introducing the Customer Success Manager](https://
 
 ## Engaging a CSM/CSE
 
-Not all accounts qualify for a CSM or CSE. Please view this [internal wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) with ARR thresholds by sales segment to determine if your account qualifies for either a CSM or Scale CSE.
+Not all accounts qualify for a CSM or CSE. Please view this [internal wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) with ARR thresholds by sales segment to determine if your account qualifies for either a CSM or CSE.
 
-To determine if an account already has a CSM assigned, go to the Salesforce account page, scroll to the `Customer Success` section, and see if there is an entry for `Customer Success Manager` (this should be right below the Solutions Architect). If a person is listed there, they are the CSM and you can reach out to them about the account. If `TAM Scale` is listed instead of a person, that means that the account is supported by a Scale CSE. To get a Scale CSE engaged with the account, please reference this [handbook page](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-engagement-request-process) on how to request engagement.
+To determine if an account already has a CSM assigned, go to the Salesforce account page, scroll to the `Customer Success` section, and see if there is an entry for `Customer Success Manager` (this should be right below the Solutions Architect). If a person is listed there, they are the CSM and you can reach out to them about the account. If `TAM Scale` is listed instead of a person, that means that the account is supported by a CSE. To get a CSE engaged with the account, please reference this [handbook page](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) on how to request engagement.
 
 If you have questions about CSM alignment (either for existing or newly-qualifying customers), please reach out to the CSM Manager supporting that region (see this [handbook page](/handbook/customer-success/csm/csm-manager/#csm-leadership) for details).
 

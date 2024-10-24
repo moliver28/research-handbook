@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/workflows/project_execution/kick-off.html
 title: Project Kick-off
 category: Project Execution
 ---

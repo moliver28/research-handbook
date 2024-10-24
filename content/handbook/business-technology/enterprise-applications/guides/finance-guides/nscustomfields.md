@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/business-technology/enterprise-applications/guides/finance-guides/NScustomfields.html
 title: "Finance System Guides"
 ---
 

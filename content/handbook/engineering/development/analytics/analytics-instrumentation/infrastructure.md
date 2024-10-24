@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/analytics/analytics-instrumentation/infrastructure.html
-
 title: Internal Analytics Infrastructure
 description: "Architecture of our internal analytics systems"
 ---
@@ -139,4 +137,4 @@ Attributes are combined with a secret salt to replace each identifiable informat
 
 ### S3 bucket data lake to Snowflake
 
-See [Data team's Snowplow Overview](/handbook/business-technology/data-team/platform/snowplow/) for further details how data is ingested into our Snowflake data warehouse.
+See [Data team's Snowplow Overview](/handbook/enterprise-data/platform/snowplow/) for further details how data is ingested into our Snowflake data warehouse.

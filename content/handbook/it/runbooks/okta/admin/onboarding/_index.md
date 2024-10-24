@@ -11,8 +11,8 @@ The Okta Admin Onboarding runbook provides setup instructions for team members t
 - **Access Request Template:** [Admin_Black_Account](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Admin_Black_Account.md)
 - **Provisioner Time to Complete:** 15-30 Minutes (not including approvals)
 - **User Time to Complete:** 30 Minutes Assisted Sync or 45 Minutes Async
-- **Who Can Provision:** [Marcus Whitaker](https://gitlab.com/Mwhitaker), [Mohammed Al Kobaisy](https://gitlab.com/malkobaisy)
-- **Runbook DRI:** [Marcus Whitaker](https://gitlab.com/Mwhitaker), [Peter Kaldis](https://gitlab.com/pkaldis)
+- **Who Can Provision:** [Erik Lentz](https://gitlab.com/ErikLentz),[Jacob Waters](https://gitlab.com/jacobdwaters), [Mohammed Al Kobaisy](https://gitlab.com/malkobaisy)
+- **Runbook DRI:** [Erik Lentz](https://gitlab.com/ErikLentz), [David Zhu](https://gitlab.com/dzhu-gl)
 
 ## Transferring Black Accounts to New Laptops
 

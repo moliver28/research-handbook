@@ -1,11 +1,10 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/strategy.html
 title: Database Strategy
 ---
 
 ## Database Strategy: Guidance for proposed database changes
 
-GitLab is offered as a [Single Application](/handbook/product/single-application) with a [Single data-store](/handbook/product/single-application/#single-data-store).  This handbook entry is meant as guidance for when you encounter a situation where you are considering changes or additions to our data-store architecture.  For information on tooling, migrations, debugging and best practices please read the [Database guides](https://docs.gitlab.com/ee/development/#database-guides) section in [GitLab Docs](https://docs.gitlab.com/).
+GitLab is offered as a [Single Application](/handbook/product/single-application) with a [Single data-store](/handbook/product/categories/gitlab-the-product/single-application/#single-data-store).  This handbook entry is meant as guidance for when you encounter a situation where you are considering changes or additions to our data-store architecture.  For information on tooling, migrations, debugging and best practices please read the [Database guides](https://docs.gitlab.com/ee/development/#database-guides) section in [GitLab Docs](https://docs.gitlab.com/).
 
 ### Requirement
 
@@ -17,7 +16,7 @@ The GitLab web app uses [PostgreSQL](https://docs.gitlab.com/ee/development/arch
 
 #### When to consider another data-store
 
-Over time there have been proposals to use different types of data-stores (e.g. NoSQL). At this point we are not considering adding another data-store for our persistent data.  Please read [Single data-store](/handbook/product/single-application/#single-data-store).
+Over time there have been proposals to use different types of data-stores (e.g. NoSQL). At this point we are not considering adding another data-store for our persistent data.  Please read [Single data-store](/handbook/product/categories/gitlab-the-product/single-application/#single-data-store).
 
 #### Single Data-store
 
@@ -29,7 +28,7 @@ We are intentionally requiring that the data for GitLab lives in a single data-s
 
 ##### Why a single database?
 
-- Our [company strategy](/handbook/company/strategy/) is built around the [advantages of a single application](/handbook/product/single-application/).
+- Our [company strategy](/handbook/company/strategy/) is built around the [advantages of a single application](/handbook/product/categories/gitlab-the-product/single-application/).
   - Sid describes the importance of our single database strategy and the [Flywheel with two turbos](/handbook/company/strategy/#flywheel-with-two-turbos) in [this video](https://youtu.be/TGulb4sGJ9g?t=877).
 - Our current efforts around database scalability are focusing on database sharding as a solution.
 

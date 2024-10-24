@@ -1,7 +1,5 @@
 ---
 title: 'Corporate Security (CorpSec) Support'
-aliases:
-  - /handbook/security/corporate/services/support
 ---
 
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("Tech Stack App/System Owners") that handle day-to-day management of the tech stack applications that are specific to that department or functional group, within the framework of organization-wide compliance, infrastructure, and security best practices. Each [tech stack application](/handbook/business-technology/tech-stack-applications/) at GitLab has a System Owner that is the DRI for handling the implementation and day-to-day operational support for the team members that utilize that application (in their department or functional group). This has an added benefit of preventing the traditional IT department from being a bottleneck and allows each department to self-service as part of GitLab's [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group) subvalue.

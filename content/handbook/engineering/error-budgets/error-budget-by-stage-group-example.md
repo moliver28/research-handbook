@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/error-budgets/error-budget-by-stage-group-example.html
 title: "Engineering Error Budgets for Stage Groups"
 description: "Engineering Error Budget by stage groups example."
 ---

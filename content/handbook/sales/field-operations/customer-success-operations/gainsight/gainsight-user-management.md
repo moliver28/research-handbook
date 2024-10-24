@@ -7,7 +7,7 @@ The specific aspects of user management in Gainsight are detailed here.
 
 ## GitLab Access Requests and Offboarding Issues
 
-For a user to gain access to Gainsight, an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) (AR) must be created. These should be created automatically for new employees. Similarly, when users leave GitLab an Offboarding issue will be created. The following GitLab pages will show any ARs or Offboarding issues that need to be actioned by the CS Ops team:
+For a user to gain access to Gainsight, an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) (AR) must be created. These should be created automatically for new employees. Similarly, when users leave GitLab an Offboarding issue will be created. The following GitLab pages will show any ARs or Offboarding issues that need to be actioned by the CS Ops team:
 
 - [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=CSOpsAR%3A%3AAction%20Needed&first_page_size=20&_gl=1*hm7n*_ga*MTc0NDE2MzMzOS4xNjE4NDE5NTU3*_ga_ENFH3X7M5Y*MTY3NTE3MzU0Ny4xMDMuMS4xNjc1MTczNTY4LjAuMC4w): When a user joins GitLab, the **CSOps::Action Needed** label should automatically be added to their AR (there may be situations where this will need to be added manually). If an AR has this tag it will appear on the list. Once the needed actions have been taken, change the label to **CSOpsAR::Completed** and it will no longer appear on the list.
 - [Offboarding Issues](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=offboarding&not%5Blabel_name%5D%5B%5D=CSOps%3A%3AOffboarding%20Completed&first_page_size=20&_gl=1*rt0jmx*_ga*MTc0NDE2MzMzOS4xNjE4NDE5NTU3*_ga_ENFH3X7M5Y*MTY3NTE3MzU0Ny4xMDMuMS4xNjc1MTczNTY4LjAuMC4w): Any issues that DO NOT have the **CSOps::Offboarding Complete** label will appear on this list. Once the needed actions have been taken, change the label to CSOps::Offboarding Complete and it will no longer appear on the list.
@@ -49,8 +49,9 @@ Once a license has been provisioned in Salesforce, you will need to perform some
 
 ### SFDC User Connector Job
 
-**Important**: All users in Gainsight are imported from Salesforce, we do not create users directly within Gainsight.
-{: .alert .alert-warning}
+{{% alert title="Important" color="warning" %}}
+All users in Gainsight are imported from Salesforce, we do not create users directly within Gainsight.
+{{% /alert %}}
 
 Gainsight uses the a Connector job to sync users and user information from Salesforce. This job is called `SFDC User Sync` and can be accessed on [this page in Gainsight](https://gitlab.gainsightcloud.com/v1/ui/connectors#/jobs) or by navigating to Administration → Integrations → Connectors 2.0 → Jobs tab.
 
@@ -67,8 +68,9 @@ To confirm that a user has been synced successfully from Salesforce you can sear
 
 If the user has not yet been synced from Salesforce to Gainsight, you can either 1) wait until the next sync job or 2) trigger a manual sync. You can do a manual sync by clicking the 3 dots by the job name → Run Job → Data modified since last sync date and time.
 
-**Note**: the `SFDC User Sync` job will only sync users that are Active in Salesforce. If the user has not yet been created in Salesforce or if they have not been set to Active, the sync will not bring them over to Gainsight.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+The `SFDC User Sync` job will only sync users that are Active in Salesforce. If the user has not yet been created in Salesforce or if they have not been set to Active, the sync will not bring them over to Gainsight.
+{{% /alert %}}
 
 You can see the logs/details of a specific sync by navigating to Connectors 2.0 → Activities tab. Then find the sync in the list, click the 3 dots, and select Job Activity. From here you can see the number of successful and failed records. You also have the option to download any failed records to see the specific error messages.
 
@@ -90,12 +92,13 @@ Once you have confirmed the user has synced from Salesforce successfully, you wi
    - *(If applicable)* If the user is a PubSec CSM or leader, set the US PubSec User field to Yes.
    - *(If applicable)* From the main User Management page there will be a status next to the user's name. Occasionally the user is inactive, and you will need to click the ... menu and select Activate User
 6. Add the user to the Okta gainsight user group:
-   1. Navigate to https://groups.google.com/ (you must be a groups.google.com admin any groups to appear).
+   1. Navigate to <https://groups.google.com/> (you must be a groups.google.com admin any groups to appear).
    2. Go to the okta-gainsight-users group
    3. Go to Members, then Add Members and use the new user's email address to add them to the group. Once they have been added successfully, they will see a Gainsight tile in Okta (this may take some time to appear).
 
-Note: The most important fields that you should confirm are filled out are the **User Role** field, and for PubSec users the **US PubSec User** field. These fields are used to automatically add the user to the correct Sharing Group (see more details below in the [Data Permissions/Sharing Groups](#data-permissions-and-sharing-groups) section.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+The most important fields that you should confirm are filled out are the **User Role** field, and for PubSec users the **US PubSec User** field. These fields are used to automatically add the user to the correct Sharing Group (see more details below in the [Data Permissions/Sharing Groups](#data-permissions-and-sharing-groups) section.
+{{% /alert %}}
 
 ## Gainsight Bundles (Permission Sets)
 
@@ -107,8 +110,9 @@ To add a user to a bundle or see a list of users in a bundle, click the 3 dots n
 
 To change access for a specific bundle, click the 3 dots next to the bundle name → Edit.
 
-**Note:** If Gainsight releases a new feature that a specific group of users will need access to, you will probably need to go into each applicable group, navigate to the new feature, and check the box. This will not be done automatically.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+If Gainsight releases a new feature that a specific group of users will need access to, you will probably need to go into each applicable group, navigate to the new feature, and check the box. This will not be done automatically.
+{{% /alert %}}
 
 These are the most used bundles:
 

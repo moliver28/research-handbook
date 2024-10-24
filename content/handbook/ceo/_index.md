@@ -2,6 +2,7 @@
 title: "CEO"
 description: "This page details processes specific to Sid, CEO of GitLab."
 ---
+<!-- vale handbook.InclusionLanguage = NO -->
 
 ## Intro
 
@@ -13,10 +14,11 @@ Many items on this page are a guidelines for our [Executive Business Administrat
 ### CEO Bio
 
 Sid Sijbrandij is the Co-founder, Chief Executive Officer and Board Chair of GitLab Inc., the most comprehensive AI-powered DevSecOps platform. GitLab's single application helps organizations deliver software faster and more efficiently while strengthening their security and compliance.
-
+<!-- vale handbook.Spelling = NO -->
 Sid's career path has been anything but traditional. He spent four years building recreational submarines for U-Boat Worx and while at Ministerie van Justitie en Veiligheid he worked on the Legis project, which developed several innovative web applications to aid lawmaking. He first saw Ruby code in 2007 and loved it so much that he taught himself how to program. In 2012, as a Ruby programmer, he encountered GitLab and discovered his passion for open source. Soon after, Sid commercialized GitLab, and by 2015 he led the company through Y Combinator's Winter 2015 batch. Under his leadership, the company has grown with an estimated 30 million+ registered users from startups to global enterprises.
 
 Sid studied at the University of Twente in the Netherlands where he received an M.S. in Management Science. Sid was named one of the greatest minds of the pandemic by Forbes for spreading the gospel of remote work.
+<!-- vale handbook.Spelling = YES -->
 
 ### Sijbrandij pronunciation hint
 
@@ -33,7 +35,7 @@ Moved to a google document internal to GitLab team only. Please search in Google
 
 ## Flaws
 
-Transparency and directness are part of our [values]({{< ref values >}}) and I want to live them by sharing the flaws I know I have.
+Transparency and directness are part of our [values](/handbook/values/) and I want to live them by sharing the flaws I know I have.
 I'm fully responsible for improving the things below, listing them is no excuse.
 They are listed here for two reasons.
 The first one is so that people know it is not them but my fault.
@@ -167,7 +169,7 @@ Please quote the subject line of the email in your chat message.
 
 If someone else in the company wants to have me send an email they should email me and cc [my EBA](/handbook/eba/#executive-business-administrator-team) with:
 
-1. Instruction: "Please email this, please bcc: me on the outgoing email, forward any responses, and cc: me on any further emails."
+1. Instruction: "Please email this, please BCC: me on the outgoing email, forward any responses, and cc: me on any further emails."
 1. Recipient name
 1. Recipient email
 1. Email subject
@@ -187,7 +189,7 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Daily Meetings
 
-1. [Group Conversation]({{< ref group-conversations >}}). 25 minutes.
+1. [Group Conversation](/handbook/company/group-conversations/). 25 minutes.
 
 ### Weekly Meetings
 
@@ -199,8 +201,8 @@ As part of my role, I participate in a variety of meetings both internal and ext
 
 ### Monthly Meetings
 
-1. [Key Review]({{< ref key-review >}}) with Executives and function leaders. 25 minutes.
-1. [CEO Group Conversation]({{< ref group-conversations >}}). 25 minutes.
+1. [Key Review](/handbook/company/key-review/) with Executives and function leaders. 25 minutes.
+1. [CEO Group Conversation](/handbook/company/group-conversations/). 25 minutes.
 1. [1-1](/handbook/leadership/1-1/) with CEO Coach. 80 minutes.
 1. Industry Analyst Meetings. 25-50 minute meetings.
 1. [Coffee Chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats). 25 minutes.
@@ -335,7 +337,7 @@ People regularly ask what I use for my home office setup. Below is a list of the
 - Boom Arm: [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://www.amazon.com/PSA-Swivel-Mount-Studio-Microphone/dp/B001D7UYBO/)
 - Camera: [Sony Alpha 7C Full-Frame Mirrorless Camera - Silver (ILCE7C/S)](https://www.amazon.com/Sony-Alpha-Full-Frame-Mirrorless-Camera/dp/B08HW132XW)
 - Camera Adapter: [Tengdaxing NP-FZ100 AC Power Supply Adapter](https://www.amazon.com/gp/product/B08NWR4R8J/)
-- Camera Holder: [Heron - 3FT Camera Mount with Desk Clamp](https://www.heronequipment.com/product/3ft-mounting-rig-clamp-arm/)
+- Camera Holder: Heron - 3FT Camera Mount with Desk Clamp
 - Ports: [CalDigit ts3-plus](https://www.caldigit.com/ts3-plus/)
 - Desk: [Jarvis Laminate Standing Desk](https://www.fully.com/standing-desks/jarvis-adjustable-height-desk-laminate.html)
 - Laptop: [13-inch MacBook Pro](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-apple-m1-chip-with-8-core-cpu-and-8-core-gpu-256gb)
@@ -350,7 +352,7 @@ Note: I have paid for all of these items myself. Please refer to [GitLab's expen
 
 ## CEO Voice
 
-When preparing scripts or documents in my voice, please follow these guidelines. This list can help you prepare a draft that is as close as possible to my natural way of communicating. For additional information or questions, please contact the `#external-comms` Slack channel or the [Chief of Staff to the CEO]({{< ref chief-of-staff >}}).
+When preparing scripts or documents in my voice, please follow these guidelines. This list can help you prepare a draft that is as close as possible to my natural way of communicating. For additional information or questions, please contact the `#external-comms` Slack channel or the [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/).
 
 1. Avoid "we" or "our" when discussing the product. I don't wish to speak on behalf of others or to imply that GitLab team members are owners of GitLab or its users. Everyone can contribute = everyone has some ownership of GitLab.
 1. Less is more. If you can say something in fewer words, do so. I prefer speaking in shorter sentences.
@@ -359,7 +361,7 @@ When preparing scripts or documents in my voice, please follow these guidelines.
 1. Remove unnecessary words, assuming statements or lead-ins that don't add value. Ex: "As you know."
 1. When writing a script, read it out loud. If it's not easy to say in one try, edit the script to make it easy to speak.
 1. Any time you make a statement, consider whether there exist any data/proof points to back it up, and include the proof. This proof might exist internally through work our teams are doing, or externally through analyst reports or other such reporting.
-1. Familiarize yourself with [GitLab's Misused Terms]({{< ref top-misused-terms >}}) and avoid using these. For example, always use "Team members" instead of Employees.
+1. Familiarize yourself with [GitLab's Misused Terms](/handbook/communication/top-misused-terms/) and avoid using these. For example, always use "Team members" instead of Employees.
 1. Run text through a readability checker, such as [the ones on this page](https://readabilityformulas.com/free-readability-formula-tests.php). Aim to have a [Flesch Reading Ease score](https://readabilityformulas.com/flesch-reading-ease-readability-formula.php) above 80. This is the score for a document that is "easy" to read.
 1. No interrupters. [Interrupters](https://www.grammarly.com/blog/comma-with-interrupters/) are little thoughts in the middle of a thought and they complicate sentences. So use 'Q2 was a great quarter. I am pleased with the results.' instead of 'Q2, happily, was a great quarter.'
 1. Be exact, not approximate.
@@ -407,9 +409,9 @@ An applicant asked how we manage to do this and these are the factors that come 
 As the company keeps growing my use of the handbook is also changing.
 
 1. Until 20 people I mostly did things myself.
-1. From then on I focused on documenting things in the [handbook]({{< ref handbook >}}).
+1. From then on I focused on documenting things in the [handbook](/handbook/).
 1. Then I asked people to document things.
-1. Now we [documented to document it]({{< ref handbook-usage >}}).
+1. Now we [documented to document it](/handbook/about/handbook-usage/).
 
 ## Iteration Office Hours
 

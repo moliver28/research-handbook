@@ -14,7 +14,7 @@
     {{- end }}
 {{- end }}
 
-[Career development](/handbook/engineering/career-development/) conversations in the Create:{{- $groupLabel -}} BE team are centered
+[Career development](/handbook/engineering/careers/) conversations in the Create:{{- $groupLabel -}} BE team are centered
 around a [Career Development Sheet](https://docs.google.com/spreadsheets/d/1u_123EK7Kts9wvA4wEDJtiHvMpsc7Q7GCpRIm8SydZY/edit#gid=0) that is based on the [Engineering Career Matrix for Individual Contributors](/handbook/engineering/careers/matrix/).
 The sheet lists the expected current level
 behaviors on the left, the next level behaviors on the right, and uses colored

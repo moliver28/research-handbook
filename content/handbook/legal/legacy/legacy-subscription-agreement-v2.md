@@ -1,7 +1,7 @@
 ---
 title: "LEGACY: GitLab Subscription Agreement"
 ---
-
+<!-- vale off -->
 ## LEGACY: Subscription Agreement
 
 This Subscription Agreement ("Agreement") is between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 (or, if a different corporate entity is listed as "GitLab" on an Order Form [as defined below], ("GitLab"), and the individual or entity signing or electronically accepting this Agreement, or any Order Form that references this Agreement ("Customer"). This Agreement is entered into on the earlier of, (a) Customer clicking "Agree" or "Yes" to the terms of this Agreement to gain initial access to, or use of, the Software, (b) GitLab and Customer agreeing to an Order Form referencing this Agreement, or (c) Customer is given access to the Software ("Effective Date").

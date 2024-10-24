@@ -16,7 +16,7 @@ Please tag `@Jeff Martin` in one of the following Slack channels with any questi
 - `#demo-systems` is for SA, CSM, and PSE team members with questions or needing technical assistance. No longer for training/workshop related posts.
 - `#demo-architect-partners` is for workshop-related discussions.
 - `#demo-systems-ps-education` is for ILT/SPT/etc related discussions for Professional Services.
-- `#sandbox-cloud-questions` is for help and support with the [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/) (AWS Accounts and GCP Projects).
+- `#sandbox-cloud-questions` is for help and support with the [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) (AWS Accounts and GCP Projects).
 
 Please consider this handbook documentation to be the single source of truth ("SSOT") for all resources that use the `gitlabdemo.com`, `gitlabdemo.cloud`, and `gitlabtraining.cloud` domain names.
 
@@ -24,7 +24,7 @@ Please consider this handbook documentation to be the single source of truth ("S
 
 - **Why shouldn't we just use GitLab.com?** Although you can use GitLab.com for showing most of the value of GitLab use cases, there are some administrative features that require the deployment of GitLab Omnibus infrastructure in AWS, GCP, or local VM/container. Many of our enterprise customers opt for self-managed over GitLab.com so we are mindful of "showing the customer what they'll see in production".
 
-- **What's special about our infrastructure?** The demo systems infrastructure doesn't do anything special that a customer or partner company couldn't do themselves with the appropriate staffing and engineering investment. We have open sourced our infrastructure-as-code methods, scripts and tools for the wider community to use to streamline their deployment of Omnibus infrastructure. See the [gitlab-com/demo-systems](https://gitlab.com/gitlab-com/demo-systems) repositories to explore our open source projects.
+- **What's special about our infrastructure?** The demo systems infrastructure doesn't do anything special that a customer or partner company couldn't do themselves with the appropriate staffing and engineering investment.
 
 - **Are there special engineering or scalability considerations with training classes and workshops?** Yes. The GitLab product was designed for users to be doing different activities throughout the day and the smaller reference architectures are not designed for dozens or hundreds of users to click the same button and running the same background jobs or pipeline jobs at the same time. Our users are also ephemeral and have automated garbage collection requirements that are not customary for conventional GitLab product use cases. This requires special scalability considerations, notably with the Container Registry, Sidekiq, and Kubernetes that we have to accommodate for. Here's some of the things we're looking for with scalability challenges.
 
@@ -88,7 +88,7 @@ These instructions provide you access to one or more of our [shared environments
 
 ### AWS Account or GCP Project (Sandbox Cloud)
 
-See the [Sandbox Realm](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) handbook page for instructions on creating your own AWS account and/or GCP project that you can use for deploying your own infrastructure with the benefit of centralized billing.
+See the [Sandbox Realm](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) handbook page for instructions on creating your own AWS account and/or GCP project that you can use for deploying your own infrastructure with the benefit of centralized billing.
 
 ### Invitation Code Creation
 
@@ -149,9 +149,9 @@ Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions
 
 These are the projects that make the Demo Systems possible behind the scenes. You are welcome to study and learn from any of our source code. Each project is classified as `Public` or `Private` depenending on the security risk of the source code or information contained within.
 
-### Demo Systems v2
+### Demo Systems v2 (Deprecated)
 
-The Demo Systems v2 repositories can be found in [gitlab.com/gitlab-com/demo-systems](https://gitlab.com/gitlab-com/demo-systems).
+Please refer to this Handbook page for the latest information related to Demo Projects & Demo Repositories  [Shared CS Demos](/handbook/solutions-architects/demo-architect/#shared-cs-demos).
 
 - `Public` Underlying Terraform Modules and Ansible Role
   - [terraform-modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)
@@ -196,9 +196,9 @@ The Demo Systems v1 repositories can be found in [gitlab.com/gitlab-com/customer
 
 ### Handbook Links for Related Infrastructure
 
-- [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/)
+- [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/)
 - [GitLab Infrastructure Standards](/handbook/infrastructure-standards/)
-- [GitLab Infrastructure Standards - Labels and Tags](/handbook/infrastructure-standards/labels-tags/)
+- [GitLab Infrastructure Standards - Labels and Tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Demo Systems Kubernetes Architecture Docs](/handbook/customer-success/demo-systems/infrastructure/kubernetes/)
 - [Demo Systems Network Architecture and Subnet Docs](/handbook/customer-success/demo-systems/infrastructure/networking/)
 

@@ -68,6 +68,6 @@ When team members return from military service, they will be entitled to return 
 
 #### How to Apply for Military Leave
 
-Team members should first review their own country's Military Leave policies to ensure they are reporting their leave in accordance with any reporting requirements. Whenever possible team members need to provide at least 30 days advanced notice by selecting `Mandatory Civilian Service` in Time Off by Deel. GitLab reserves the right to request documentation related to the team member's Military service. The Absence Management Team will contact you if documentation is needed.
+Team members should first review their own country's Military Leave policies to ensure they are reporting their leave in accordance with any reporting requirements. Whenever possible team members need to provide at least 30 days advanced notice by selecting `Military Leave` under the `Leaves` dropdown in Workday. GitLab reserves the right to request documentation related to the team member's Military service. The Absence Management Team will contact you if documentation is needed.
 
 - For any questions about how to initiate a military leave or requests for reinstatement, please contact the Absence Management team (`leaves@gitlab.com`). For GitLab Inc or GitLab Federal team members, please additionally review the [Military Leave]({{< ref "us#military-leave" >}}) policy.

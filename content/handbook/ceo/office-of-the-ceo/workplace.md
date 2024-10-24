@@ -1,13 +1,6 @@
 ---
 title: "GitLab Strategy and Operations (Workplace) Team Handbook"
 description: GitLab Strategy and Operations (Workplace) Team Handbook
-twitter_image: "/images/opengraph/all-remote.jpg"
-twitter_image_alt: "GitLab's All-Remote Marketing branded image"
-twitter_site: "@gitlab"
-twitter_creator: "@gitlab"
-aliases:
-- /handbook/ceo/office-of-the-ceo/workplace/
-- /handbook/ceo/chief-of-staff-team/workplace/
 ---
 
 ## About the GitLab Strategy and Operations (Workplace) Team
@@ -30,7 +23,7 @@ This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief
 
 ### All-Remote Flywheel
 
-The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
+The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
 
 Strong all-remote marketing may bolster industry trust in the GitLab brand and product due to the [halo effect](https://www.investopedia.com/terms/h/halo-effect.asp). E.g., If [The Remote Playbook](http://allremote.info/) inspires a firm's remote transition blueprint, said firm is likely to show favoritism to GitLab's product offerings and services.
 
@@ -171,9 +164,7 @@ Top questions from suddenly or newly-remote companies
    </ol>
 </details>
 
-### Key Points to Cover
-
-{: #foundational-presentation-areas}
+### Key Points to Cover {#foundational-presentation-areas}
 
 Regardless of the nuance in the request, here are the foundational areas that should be covered. Be sure to describe how GitLab implements these tactics using [low-context communication](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication), leaning on examples and detail such that a non-GitLab company can envision how such a tactic could be useful in their own organization.
 
@@ -202,7 +193,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
 1. **You must have a single source of truth**
    - It's not about blanket documentation. It's about working [handbook-first](/handbook/company/culture/all-remote/handbook-first/).
    - Start now! Designate a scribe if you have to. Start small, as an FAQ, and build it out.
-   - Show an example of a handbook page — a great example is our [Communication page]({{< ref communication >}}).
+   - Show an example of a handbook page — a great example is our [Communication page](/handbook/communication/).
 1. **Asynchronous over synchronous**
    - Explain how GitLab requires each meeting to have an agenda and someone [documenting](/handbook/company/culture/all-remote/meetings/#document-everything-live-yes-everything).
    - Explain how meeting takeaways then need to be contextualized and [added to relevant handbook pages](/handbook/company/culture/all-remote/self-service/#paying-it-forward).
@@ -260,7 +251,7 @@ Anyone in the world (yes, this includes those who are not employed by GitLab) ma
 
 ## How does a company create their own handbook?
 
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png){: .shadow.medium.center}
+![GitLab all-remote team](https://about.gitlab.com/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png)
 
 Learn more in GitLab's [Handbook-First Documentation guide](/handbook/company/culture/all-remote/handbook-first/#tools-for-building-a-handbook) about how GitLab (the company) uses GitLab (the product) to build and maintain its handbook, as well as tools and tips for other companies who wish to start their own.
 
@@ -283,7 +274,7 @@ See below for an A/B comparison of how an inward-facing GitLab *handbook* page i
 
 ## Design and illustration assets
 
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg){: .shadow.medium.center}
+![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg)
 
 GitLab's [Brand and Digital Design](/handbook/marketing/digital-experience/) team are building out images and illustrations to visualize all-remote.
 
@@ -351,7 +342,7 @@ The audience we aim to reach with our all-remote and workplace initiatives is bo
 
 ## Key Messages for All-Remote and Workplace
 
-![GitLab all-remote computer](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Learning-Computer.jpg){: .shadow.medium.center}
+![GitLab all-remote computer](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Learning-Computer.jpg)
 
 ### GitLab: The Remote Strategy
 
@@ -402,7 +393,7 @@ Field Marketing will look up account ownership in SFDC (Salesforce.com) and make
 
 ## Channels
 
-![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg){: .shadow.medium.center}
+![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg)
 
 ### Web
 
@@ -444,7 +435,7 @@ There are also a number of videos on GitLab's [YouTube channel](https://www.yout
 
 To contribute an idea or [proposal](/handbook/values#make-a-proposal) to further GitLab's all-remote mission:
 
-1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
+1. Please put each new idea/topic in a new issue within the [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
 1. Put `Proposal: [IDEA]` as the subject
 1. Assign to `@streas`
 1. Please [set a due date](/handbook/values/#set-a-due-date) using GitLab's `Due Date` feature and provide context for the deadline(s).

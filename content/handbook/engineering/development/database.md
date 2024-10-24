@@ -60,3 +60,4 @@ If you're interested in participating in database reviews, please start by revie
 * [SQL Indexing and Tuning e-Book](https://use-the-index-luke.com/) (also known as "Use The Index Luke")
 * Weekly show on [Scaling PostgreSQL](https://www.scalingpostgres.com/)
 * Detailed documentation of the operations and fields in [PostgreSQL EXPLAIN query plans](https://www.pgmustard.com/docs/explain)
+* Weekly podcast about all things PostgreSQL [postgres.fm](https://postgres.fm)

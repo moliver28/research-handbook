@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability.html
 title: "Scalability:Observability Team"
 ---
 
@@ -75,6 +74,10 @@ The team are responsible for provisioning access to the services listed below, a
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
 
+### Project Sizing
+
+Projects will be staffed by at least three engineers from the team, and preferably from both SRE and BE roles.  This will allow us to share knowledge and keep projects moving forward when people are unavailable.
+
 ### Issue management
 
 While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.
@@ -124,9 +127,14 @@ There is no strict frequency for posting updates, although we strive to make upd
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
 
+### Cost Management
+
+For details on the daily operational costs of our observability services refer to the [Cost of Observability Stack](cost.md) documentation. This resource includes access instructions and cost breakdowns.
+
 ## History and Accomplishments
 
 This section contains notes on team history and our accomplishments, but is not meant to be exhaustive.
 
 * 2024-02, Capacity planning: [Proactive investigation of postgres CPU spike seen in saturation forecast](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1668#note_1807225359) uncovered a [database design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/435250)
 * 2024-03, Capacity planning: [Tamland predicted redis CPU saturation which led to Practices proactively scaling Redis](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1712) ([slides](https://docs.google.com/presentation/d/1y58mgaUrpu1dBO_bKVLfDUez9lz-ETLE7E1yksDjAbY/edit#slide=id.g2cc1c00d163_5_4))
+* 2024-05, Metrics: [The migration from Thanos to Mimir was completed](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107) which brought [significant improvements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107#outcome) in metrics accuracy and dashboard performance.

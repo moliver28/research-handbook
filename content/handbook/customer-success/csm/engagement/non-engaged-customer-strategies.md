@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/csm/engagement/Non-engaged-customer-strategies
 title: "Strategies for Non-Engaged Customers"
 ---
 

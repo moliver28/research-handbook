@@ -16,8 +16,9 @@ For registered non-profit organizations, GitLab also offers discounts. Contact G
 
 Use the relevant workflows below when you receive a ticket about [GitLab for Education](https://about.gitlab.com/solutions/education/), [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/) or [GitLab for Startups](https://about.gitlab.com/solutions/startups/).
 
-**Note:** Program members receive only limited support with subscriptions granted through community programs. They are able to open a support ticket via the [GitLab Support Portal](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) only for errors involving the Community Self-checkout Portal on CustomersDOT or for errors relating to their subscription. Internal escalations for all three of the programs can be made via Slack channel [`#community-programs`](https://join.slack.com/share/zt-op8hxhoy-V4TBiVh_r41H6uelJeCPfA).
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+Program members receive only limited support with subscriptions granted through community programs. They are able to open a support ticket via the [GitLab Support Portal](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) only for errors involving the Community Self-checkout Portal on CustomersDOT or for errors relating to their subscription. Internal escalations for all three of the programs can be made via Slack channel [`#community-programs`](https://join.slack.com/share/zt-op8hxhoy-V4TBiVh_r41H6uelJeCPfA).
+{{% /alert %}}
 
 ## Workflows
 
@@ -81,8 +82,9 @@ GitLab's Community Programs team processess program applications according to [a
 
 To troubleshoot errors during the registration process, follow the [Troubleshoot Errors While Making Purchases on CustomersDot document](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases#getting-error-message-from-sentry).
 
-**Note:** Since the customer has not signed up yet, there is no `user:customerID`. Use `user.ip:CustomerIP` instead.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+Since the customer has not signed up yet, there is no `user:customerID`. Use `user.ip:CustomerIP` instead.
+{{% /alert %}}
 
 You can retrieve `CustomerIP` by:
 
@@ -90,8 +92,9 @@ You can retrieve `CustomerIP` by:
 1. Choose `Events` from the drop down
 1. The IP is shown under every customer reply.
 
-**Note:** The IP is only available when the customer is signed in on Zendesk. If the customer submits the ticket via email, and IP is not available, please ask the customer for the IP they used during the signup process.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+The IP is only available when the customer is signed in on Zendesk. If the customer submits the ticket via email, and IP is not available, please ask the customer for the IP they used during the signup process.
+{{% /alert %}}
 
 ## Example of previous cases
 

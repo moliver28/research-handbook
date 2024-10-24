@@ -1,10 +1,11 @@
 ---
 stage: Deploy
 group: Environments
-info: Relation of GitLab AutoFlow to GitLab CI
+title: "Relation of GitLab AutoFlow to GitLab CI"
+toc_hide: true
 ---
 
-# Relation of GitLab AutoFlow to GitLab CI
+{{< design-document-header >}}
 
 GitLab CI and GitLab AutoFlow are different tools for solving different sets of problems. Here are the differences based
 on the

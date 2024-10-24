@@ -1,7 +1,5 @@
 ---
 title: "Developer Advocate Team Workflow"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/workflow/index.html
 ---
 
 
@@ -224,7 +222,7 @@ The [DevRel-Bot](https://gitlab.com/gitlab-da/projects/devrel-bot) uses the [Git
 | Past Due Dates | Issue is past its due date | Add `DA-Bot::Triage` & `DA-Triage::past-due-date` label |
 | Issues On Hold | Issue has the `DA-Bot::Hold` label and has not been updated in the past 90 days | Add `DA-Bot::Triage` & `DA-Triage::onhold-too-long` label |
 | Issues Not Updated | Issue has not been updated in the past 60 days, i.e. 60 days since the last comment. | Add `DA-Bot::Triage` & `DA-Triage::no-update-60days` label |
-| Consulting Issues Missing Consulting Team | Issue has a `DA-Type::Consulting` label but missing a consulting team label | Add `DA-Bot::Triage`, `DA-Bot::Hold` & `DA-Triage::no-consulting-team` label | 
+| Consulting Issues Missing Consulting Team | Issue has a `DA-Type::Consulting` label but missing a consulting team label | Add `DA-Bot::Triage`, `DA-Bot::Hold` & `DA-Triage::no-consulting-team` label |
 | Issue is done but still open | Issue has a `DA-Status::Done` label but is still open | Add `DA-Bot::Triage`, `DA-Bot::Hold` & `DA-Triage::done-not-closed` label |
 | Close Old DA-Bot created Issues | Issue is older than 2 weeks and has the `DA-Bot::Auto` label | Close issue |
 | Missing Request Type Label for DA team members | Issue author is a member of the gitlab.com/gitlab-da group, has a `developer-advocacy` label and missing  `DA-Requester-Type::Internal` label | Add `DA-Requester-Type::Internal` label |

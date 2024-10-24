@@ -1,5 +1,5 @@
 ---
-title: Container registry self-managed database rollout
+title: "Container registry self-managed database rollout"
 status: proposed
 creation-date: "2023-06-09"
 authors: [ "@hswimelar" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

@@ -205,10 +205,10 @@ industry standard libraries (test tooling, orchestration, performance, and etc) 
 
 Quality Engineering Management has the following job-family performance indicators.
 
-- [Hiring actual vs plan](/handbook/engineering/quality/performance-indicators/#hiring-actual-vs-plan)
-- [Diversity](/handbook/engineering/quality/performance-indicators/#diversity)
-- [Handbook update frequency](/handbook/engineering/quality/performance-indicators/#handbook-update-frequency)
-- [Team member retention](/handbook/engineering/quality/performance-indicators/#team-member-retention)
+- [Hiring actual vs plan](/handbook/engineering/infrastructure/performance-indicators/#hiring-actual-vs-plan)
+- [Diversity](/handbook/engineering/infrastructure/performance-indicators/#diversity)
+- [Handbook update frequency](/handbook/engineering/infrastructure/performance-indicators/#handbook-update-frequency)
+- [Team member retention](/handbook/engineering/infrastructure/performance-indicators/#team-member-retention)
 
 ## Career Ladder
 

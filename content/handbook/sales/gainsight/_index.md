@@ -38,7 +38,7 @@ If you are logging in through Salesforce, you can also quickly open the Salesfor
 
 To access Gainsight directly, go to [gitlab.gainsightcloud.com](https://gitlab.gainsightcloud.com/) and when prompted for your username and password, enter *only* your GitLab email address. As soon as it is entered, the screen should change to indicate that you are using single sign-on, and when you click "log in" it will redirect you to Okta.
 
-- If you need to request access to Gainsight, fill out an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
+- If you need to request access to Gainsight, fill out an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
 - If you need help locating the Gainsight NXT tab in Salesforce or the Gainsight Okta tile, submit an issue using the [Gainsight Request Template](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
 ### Confirm your timezone
@@ -91,7 +91,7 @@ This is because two SFDC accounts were merged into one. What happens is this:
 1. Gainsight recognizes one was deleted and marks it with the "TO BE DELETED" title for CS Ops to review and/or delete it
 1. The remaining (merged) one in Salesforce remains synced to Gainsight
 
-#### Error "Timeline: Invalid authentication credentials. Authentication failed" when opening an email in Chrome
+#### Error "Timeline: Invalid authentication credentials. Authentication failed" (Chrome users only)
 
 Usually, this type of error occurs if the Chrome extension version is out of date. Try [updating the Chrome extension](https://community.gainsight.com/timeline-17/update-your-chrome-plugin-39237) to the latest version. It should automatically refresh and begin working, but try logging out and back in if it doesn't resolve right away.
 

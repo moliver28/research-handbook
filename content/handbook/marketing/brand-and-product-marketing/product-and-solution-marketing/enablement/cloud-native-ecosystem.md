@@ -2,9 +2,8 @@
 title: "Cloud Native Ecosystem Sales Enablement"
 ---
 
-## [Video](https://www.youtube.com/watch?v=0DxQKVKB3nY)
-
-## [Slide deck](https://docs.google.com/presentation/d/1e8Eo35KOJMYyCTKvKYeFK1KtP0YOHJGj8LIX-2keoC4/edit#slide=id.g447dd6ad94_0_540)
+- [Video](https://www.youtube.com/watch?v=0DxQKVKB3nY)
+- [Slide deck](https://docs.google.com/presentation/d/1e8Eo35KOJMYyCTKvKYeFK1KtP0YOHJGj8LIX-2keoC4/edit#slide=id.g447dd6ad94_0_540)
 
 "The advent of cloud native has empowered engineering leaders to procure and purchase software that helps them ship faster and reliably. These engineering leaders are different from the usual high ticket item buyer and an understanding of their persona is critical to success when selling DevOps software." - [Priyanka Sharma](/handbook/company/team/#priyanka-sharma)
 

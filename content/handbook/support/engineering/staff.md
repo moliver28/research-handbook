@@ -48,8 +48,8 @@ To work more efficiently, the Staff Support Engineer should assign merge request
 
 There are various ways to keep track of what's happening at a higher level in Support, including, but not limited to:
 
-- Attend the Support [Key Review]({{< ref key-review >}}). (Highly recommended)
-- Attend the Support [Group Conversation]({{< ref group-conversations >}}).
+- Attend the Support [Key Review](/handbook/company/key-review/). (Highly recommended)
+- Attend the Support [Group Conversation](/handbook/company/group-conversations/).
 - See what [Support Managers are working on](/handbook/support/managers/_index.md#how-to-see-what-the-support-managers-are-working-on).
 - Look over [Support (senior) leadership meeting notes](/handbook/support/managers/_index.md#support-leadership-meetings).
 - Review [OKRs](../#okrs) and [KPIs](/handbook/support/performance-indicators.md)

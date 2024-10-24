@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/resellers/Channel-Program-Guide
 title: "GitLab Channel Program Guide"
 description: "GitLab Channel partner program guide."
 ---
@@ -34,7 +33,7 @@ The GitLab Partner Program consists of three tracks and one designation to suppo
 | \# of Solutions Architect Verified Associates                                      | 1            | 2                           | 2                                                                                                                |
 | \# of GitLab Professional Services Engineer (PSE)                                  |              | 1                           | 3                                                                                                                |
 | Exec Sponsored Joint Business Plan                                                 |              | X                           |                                                                                                                  |
-| Business Plan Commitments                                                          |              | $300K                       | [PSP](../resellers/channel-program-guide/#gitlab-psp-designation-requirements) |
+| Business Plan Commitments                                                          |              | $300K                       | [PSP](#gitlab-partner-services-program) |
 |                                                                                    |              |                             |                                                                                                                  |
 | **Sales Benefits**                                                                     |              |                             |                                                                                                                  |
 | Deal Registration Discounts                                                        | X            | X                           | X                                                                                                                |
@@ -43,7 +42,7 @@ The GitLab Partner Program consists of three tracks and one designation to suppo
 | Discounts for Reselling GitLab Professional Services                               | X            | X                           | X                                                                                                                |
 |                                                                                    |              |                             |                                                                                                                  |
 | **Support Benefits**                                                                   |              |                             |                                                                                                                  |
-| Partner Helpdesk                                                                   | X            | X                           | X                                                                                                                |
+| Partner Help desk                                                                   | X            | X                           | X                                                                                                                |
 | Level 2 Support Hotline                                                            |              | X                           | X                                                                                                                |
 | Dedicated Partner Manager                                                          |              | X                           | X                                                                                                                |
 | Not for Resale Licenses                                                            | X            | X                           | X                                                                                                                |
@@ -65,7 +64,7 @@ The GitLab Partner Program consists of three tracks and one designation to suppo
 
 ### GitLab Incentives Guide
 
-GitLab maintains our incentives in our GitLab [Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?id=676520&renderMode=Collection). To access the guide you must have access to our partner portal which you can do if your organization is an authorized GitLab partner by submitting your work email corresponding to your organizational URL through this [link](https://partners.gitlab.com/English/register_email.aspx) and following the instructions you receive to set up your portal account. 
+GitLab maintains our incentives in our GitLab [Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?id=676520&renderMode=Collection). To access the guide you must have access to our partner portal which you can do if your organization is an authorized GitLab partner by submitting your work email corresponding to your organizational URL through this [link](https://partners.gitlab.com/English/register_email.aspx) and following the instructions you receive to set up your portal account.
 
 ### GitLab Select Services Track
 
@@ -85,36 +84,45 @@ GitLab Professional Services Partner Designation (PSP) has partner program, comp
 
 #### GitLab PSP Designation Requirements
 
-- Program Entry Requirements, Each PSP must be:  
+##### Program Entry Requirements
+
+Each PSP must be:
+
   1. An authorized GitLab partner
   2. Design, build and operate a professional service practice, and
   3. Meet the Delivery Requirements, and
   4. Hire team members who have completed the competency requirements and/or sponsor the appropriate number of team members through the completion of the competency requirements.
 
-- Competency Requirements
-  1. Each PSP must perpetually employ at least three (3) [GitLab Certified Professional Service Engineers](/handbook/resellers/training/#gitlab-professional-services-engineer-pse).
+##### Competency Requirements
 
-- Delivery Requirements
+- Each PSP must perpetually employ at least three (3) [GitLab Certified Professional Service Engineers](/handbook/resellers/training/#gitlab-professional-services-engineer-pse).
 
- 1. Each PSP must enter an average of at least 2 [Service Attach Registrations](/handbook/resellers/channel-working-with-GitLab/#how-services-attached-registrations-work) per GitLab Fiscal Quarter.
- 2. As a note, the GitLab fiscal year starts on February 1 of each year.
- 3. When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
- 4. Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
-    
+##### Delivery Requirements
+
+- Each PSP must complete an average of at least 2 service engagements per GitLab Fiscal Quarter.
+  - As a note, the GitLab fiscal year starts on February 1 of each year.
+- Starting in Q3 FY25 (August 1, 2024), the following qualify as proof of completed service engagements:
+    1. [Service Attach Registrations](/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
+    1. [Managed Services Provider deal registrations](/handbook/resellers/channel-working-with-gitlab/#submitting-a-deal-registration)
+
+- When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
+
+- Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
+
 #### GitLab PSP Designation Information
 
-1.The GitLab Partner team will communicate new PSP designations via email and will reflect the designation in the GitLab Partner Locator.
-2.Partners who received their PSP designation prior to Nov. 2023 will have until their next annual audit to become compliant with the new criteria.
-3.The annual audits are performed quarterly, and will begin during Q1FY25 (Feb. 2024-Apr. 2024).
-4.Service delivery requirement will be prorated for the period between Nov. 2023-Nov. 2024.
+- The GitLab Partner team will communicate new PSP designations through email and will reflect the designation in the GitLab Partner Locator.
+- Partners who received their PSP designation prior to Nov. 2023 will have until their next annual audit to become compliant with the new criteria.
+- The annual audits are performed quarterly, and will begin during Q1FY25 (Feb. 2024-Apr. 2024).
+- Service delivery requirement will be prorated for the period between Nov. 2023-Nov. 2024.
 
 #### Maintaining PSP Designation
 
 GitLab Partner program will review the service attach registrations and the practitioner certification statuses of each GitLab Professional Service Partner each year in the quarter the partner was originally granted certification. Partners at risk for non-compliance will receive an audit warning email 30 days prior to their removal of their PSP designation. This will allow partners and their account managers time to create a plan to return to compliance.
 
 - If partners become compliant during the 30-day warning period, they will not have their PSP designation removed.
-- If partners remain inelligible after the 30-day warning period, their PSP designation will be removed, their PSP badge will no longer be shown on the partner locator, and they will be notified via email. Partners are encouraged to work with their GitLab Partner Account Manager (PAM) to create a plan for obtaining and maintaining designation. When a partner regains PSP elligibility, their badge will be re-issued within 7 business days.
+- If partners remain inelligible after the 30-day warning period, their PSP designation will be removed, their PSP badge will no longer be shown on the partner locator, and they will be notified through email. Partners are encouraged to work with their GitLab Partner Account Manager (PAM) to create a plan for obtaining and maintaining designation. When a partner regains PSP eligibility, their badge will be re-issued within 7 business days.
 
 ## Contact Us
 
-### You can email the GitLab Partner Support Team at partnersupport@gitlab.com 
+### You can email the GitLab Partner Support Team at partnersupport@gitlab.com

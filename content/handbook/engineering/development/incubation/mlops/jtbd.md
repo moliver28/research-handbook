@@ -1,9 +1,9 @@
 ---
-aliases: /handbook/engineering/development/incubation/mlops/jtbd.html
-
 title: "MLOps Jobs to Be Done"
 description: "What are the problems users want MLOps to solve?"
 ---
+
+NOTE: The MLOps Incubation Engineering project has become the MLOps team. These pages are left fir historical purposes, but are not actively maintained. Please refer to the [MLOps team page](/handbook/engineering/development/data-science/modelops/mlops) for updated information.
 
 ## What is this
 

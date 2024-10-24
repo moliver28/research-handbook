@@ -77,7 +77,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
   <tr>
     <td class="tg-e02t">Tier 3 Business Operational</td>
     <td class="tg-zqun">Disruption affects operational business functions, negatively impacting efficiency/cost of operation across departments and/or systems contain [yellow data]({{< ref "data-classification-standard#yellow" >}})</td>
-    <td class="tg-zqun">Clearwater, PagerDuty, ZenGRC</td>
+    <td class="tg-zqun">Clearwater, PagerDuty</td>
     <td class="tg-zqun">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>
   </tr>
   <tr>

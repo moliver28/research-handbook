@@ -4,7 +4,7 @@ title: "Optimize Group"
 
 ## Plan:Optimize
 
-### [Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)
+**[Optimize FY25 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/440653)**
 
 ### How we work
 
@@ -13,8 +13,8 @@ title: "Optimize Group"
 - We get a chance to work on the things we want to work on.
 - Everyone can contribute; no silos.
   - The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
-- We do an optional, asynchronous daily stand-up in our stage stand-up channel:
-  - Plan:Optimize [#s_plan_standup](https://gitlab.slack.com/archives/CF6QWHRUJ)
+- We do an asynchronous daily stand-up in our group stand-up channel:
+  - [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 
 #### Prioritization
 
@@ -340,7 +340,7 @@ The following people are permanent members of the group:
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/optimize/-/issues)
 - Our Slack channels
   - Plan:Optimize [#g_plan_optimize](https://gitlab.slack.com/messages/CJZR6KPB4)
-  - Daily standups [#s_plan_standup](https://gitlab.slack.com/archives/CF6QWHRUJ)
+  - Daily standups [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 - Issue boards
   - Optimize [build board](https://gitlab.com/groups/gitlab-org/-/boards/1401511) and [refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1874426)ֿ
 - For more information about the optimize group's plans and vision visit the [Groups page](/handbook/product/categories/#optimize-group)

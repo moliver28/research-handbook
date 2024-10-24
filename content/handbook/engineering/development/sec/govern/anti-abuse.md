@@ -22,7 +22,7 @@ We follow the same [workflow pattern](authorization.md#workflow) as our friends 
 
 ## Iteration
 
-When planning how to construct our [MVC](/handbook/values/#minimal-viable-change-mvc), we need to be aware of the [tradeoffs of slicing MR's vertically vs horizontally](/handbook/engineering/workflow/iteration/#tradeoffs-between-horizontal-and-vertical-slicing). Reducing scope for each iteration is encouraged.
+When planning how to construct our [MVC](/handbook/values/#minimal-valuable-change-mvc), we need to be aware of the [tradeoffs of slicing MR's vertically vs horizontally](/handbook/engineering/workflow/iteration/#tradeoffs-between-horizontal-and-vertical-slicing). Reducing scope for each iteration is encouraged.
 
 As requirements can shift, and complexity can increase when uncovering challenging areas in the codebase, we strive to keep issue requirements updated for clarity.
 

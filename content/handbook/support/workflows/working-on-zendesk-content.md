@@ -32,7 +32,9 @@ Macros are [deployed immediately](/handbook/support/readiness/operations/docs/ch
 
 - If you want to edit the wording of a macro, make an MR to the repo (Zendesk Global or Zendesk US Government).
 - If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Edit a Zendesk macro' option.
+  - **NOTE** If a managed content file is needed (as you selected a `Public` or `Private` comment would be used), the Support Super Form will create a placeholder file for you (if said file does not exist). For the quickest resolution, it is best to *not* create the managed content file before your submission of the Support Super Form.
 - If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Create a Zendesk macro' option.
+  - **NOTE** If a managed content file is needed (as you selected a `Public` or `Private` comment would be used), the Support Super Form will create a placeholder file for you (if said file does not exist). For the quickest resolution, it is best to *not* create the managed content file before your submission of the Support Super Form.
 - To discuss a macro (but not actually action on anything), use a support-team-meta issue.
 
 #### Articles

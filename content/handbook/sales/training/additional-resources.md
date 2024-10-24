@@ -121,7 +121,7 @@ Another way to check whether your sales conversations are productive for your pr
 
 To test his understanding of a prospect's problems, Dan Tyre, a sales director at HubSpot, tries to define three reasons his prospects would buy, three reasons his prospects would balk, and what the next step should be. If he can't, he knows he needs to get on another call with his prospect to further understand what they want and discuss how to move forward in a mutually productive way.
 
-### Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity <a name="reciprocity"></a>
+### Ways to influence decision making by using the Psychology of Persuasion
 
 Dr. Robert Cialdini's theory of influence from his book "Influence: The Psychology of Persuasion" defines six principles that guide human behavior. The first principle is reciprocity, the desire to give back to someone who has given to us. E.g. if someone does you a favor you feel obligated to return a favor.
 
@@ -153,9 +153,7 @@ Looking forward hearing from you.
 
 Best regards,
 
-### 6 Ways to Make Your Sales Email Insanely Valuable to Prospects
-
-{: #insanely}
+### 6 Ways to Make Your Sales Email Insanely Valuable to Prospects {#insanely}
 
 The "just checking in" sales email isn't just ineffective -- it's also selfish.
 
@@ -382,9 +380,9 @@ Here are some examples of calls-to-action reps can include in their sales emails
 
 The introductory email sets the tone for the relationship. Before you reach out, ask yourself these six questions to determine whether or not you're fully prepared to send that email. If you can't answer all of these questions, hit the reset button and get back to the drawing board.
 
-### Bill Cates from Hubspot wrote [a great article about "The Art of Asking Open-Ended Questions."](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) Here are some highlights
+### Bill Cates from Hubspot {#art}
 
-{: #art}
+Wrote [a great article about "The Art of Asking Open-Ended Questions."](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) Here are some highlights
 
 High-value questions bring value to the conversation and creates a learning experience for you and your prospect/client.
 
@@ -639,7 +637,9 @@ As is often the case in B2B sales, you may have a technology, size, or geography
 
 If there's one common thread in all these tips, it's that the most successful sales reps put their customers' needs first. Add value, be honest and respectful, and offer information -- not a sales pitch. If you can put all of these sales call techniques into use, you'll be crushing your meeting quota in no time.
 
-### Dan Tyre wrote [a great article about "How to Create a Sales Plan"](http://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights
+### Dan Tyre wrote
+
+[a great article about "How to Create a Sales Plan"](http://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights
 
 First, I would like to change our thinking from being a sales plan to a buying plan.  This puts us in the mindset of the buyer and helps us use words focused on them and not us. The purpose of a buying plan is to help the process move forward.  To avoid inertia.  Time kills deals so we putting a plan in place that moves the conversation and process forward is essential.
 

@@ -6,9 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand and Product Marketing Handbook
-
-{: .no_toc}
+## <i class="fas fa-bullhorn fa-fw"></i> Welcome to the GitLab Brand and Product Marketing Handbook
 
 **The Brand and Product Marketing** team's goal is to accelerate GitLab's path to market.
 

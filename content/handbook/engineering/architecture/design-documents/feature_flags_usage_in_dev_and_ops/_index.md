@@ -1,5 +1,5 @@
 ---
-title: Feature Flags usage in GitLab development and operations
+title: "Feature Flags usage in GitLab development and operations"
 status: proposed
 creation-date: "2023-11-01"
 authors: [ "@rymai" ]

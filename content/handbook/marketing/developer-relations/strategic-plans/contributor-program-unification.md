@@ -59,7 +59,7 @@ Simply put: without these activities, we would not have a thriving community. Bu
 
 Another non-trivial gap is the lack of an explicit diversity and inclusion incentive within the contributor community. We should experiment and develop ideas to increase diversity in our community, attract and retain top contributors from underrepresented groups, and promote a safe and inclusive community.
 
-## Phase 1:  Establish a consistent method for measuring activity value, including non-code contributions
+## Phase 1: Establish a consistent method for measuring activity value, including non-code
 
 We aim to keep the spirit of the code contributor program, the GitLab Heroes, Meetups and others, while removing the unique processes around them and unifying those in a single program. Additionally, we are adding support for recognizing non-code contributions.
 
@@ -93,37 +93,17 @@ Contest: Backlog Cleansweep
 
 - Focus on triaging and validating existing backlog issues
 
-### Contribution Weights
+### Contribution Points
 
-1. Scope: https://gitlab.com/gitlab-com & https://gitlab.com/gitlab-org
-1. Value: For this iteration, a merged code contribution holds more weight than other activity, to incentivize bias for action & accelerate innovation.
+1. Scope: https://gitlab.com/gitlab-com, https://gitlab.com/gitlab-org, https://gitlab.com/gitlab-community, https://gitlab.com/components
+1. Value: For this iteration, a merged code contribution holds more weight than other activity, to incentivize bias for action & accelerate innovation
 1. Cadence: We can assign additional credits monthly to those that we think deserve additional recognition, such as social media attention or other significant activity
 
-**Code Contribution**
-
-- Weight: 5
-- Authored a git commit within an MR
-- Assigned when the MR has the status merged
-
-**Issue comment / author with a linked merged MR**
-
-- Weight: 2
-- Assigned when the issue is closed
-
-**Issue comment / author without a linked merged MR**
-
-- Weight: 1
-- Assigned when the issue is closed
-
-**Bug validation comment**
-
-- Weight: 3
-- Assigned when validation label is applied or issue is closed
-
-**Merge Request comment / author**
-
-- Weight: 2
-- Assigned when the merge request is merged
+- **Merge request created:** 20
+- **Commit merged:** 20
+- **Merge request merged:** 60 (30 additional bonus points if the merge request has a linked issue)
+- **Issue created:** 5
+- **Issue/merge request comment:** 1
 
 ### Contributor Levels
 
@@ -131,11 +111,10 @@ Note: The points, levels & status can still change.
 
 | Contributor Levels | Requirements | Benefits & Rewards |
 | --- | --- | --- |
-| Level 1 | 3 Contribution Points | Achievement on profile, Swag |
-| Level 2 | 25 Contribution Points | Achievement on profile, Swag |
-| Level 3 | 75 Contribution Points | Achievement on profile, Swag |
-| Level 4 | 75+ Contribution Points | Achievement on profile, Tier 3 swag coupon, 1 GitLab Ultimate License for personal use |
-| Leading <sub>Scores can be combined within an organization, Formerly known as Leading Organization</sub> | 30 Contribution Points in the last 3 months, Evaluated per quarter | Achievement on profile, Swag, 4 day SLO time to get a review/feedback on authored MRs |
+| Level 1 | 25 Contribution Points | Achievement on profile, Swag |
+| Level 2 | 500 Contribution Points | Achievement on profile, Swag |
+| Level 3 | 2500 Contribution Points | Achievement on profile, Swag |
+| Level 4 | 7500+ Contribution Points | Achievement on profile, Tier 3 swag coupon, 1 GitLab Ultimate License for personal use |
 | Core | after approval, Individual basis only, 120 Contribution Points, Election process | Achievement on profile, Swag, 1 GitLab Ultimate License for personal use, Slack Access (Requires an NDA to be signed), Developer Permission for GitLab projects |
 
 | Contributor Achievements | Requirements | Benefits & Rewards |
@@ -220,14 +199,14 @@ Wider community members that hold a public event with > 20 participants or speak
 
 This phase needs further discussion and validation if meetups are still the preferred way to grow the grassroots movement.
 
-## Phase 6: Draft - Increase repeat contributors by promoting recent contributions instead of historical value
+## Phase 6: Draft - Increase repeat contributors by promoting recent contributions
 
-As contributors start to accumulate points, we need to reward active and recent behavior. On the user profile you should be able to see the current score of the person as it relates to the last 3 completed months. Another section should exist to show the total history.
+As contributors start to accumulate points, we need to reward active and recent behavior instead of the historical value. On the user profile you should be able to see the current score of the person as it relates to the last 3 completed months. Another section should exist to show the total history.
 
 ## Open Questions or further iterations
 
 - Using this point system & having organizations combine their users to more easily "level-up"
-  - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to https://www.drupalcontributions.org/ or
+  - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to <https://www.drupalcontributions.org/> or
   - We are blocked to execute on that and need to solve https://gitlab.com/gitlab-org/gitlab/-/issues/368130 to proceed.
 - Recognizing organizational support for the contributors is critical.
   - We should start to recognize partners that contribute

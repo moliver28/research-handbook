@@ -17,7 +17,7 @@ We use Amazon Web Services (AWS) and Google Cloud Platform (GCP) at GitLab, with
 
 Each team is responsible for the workloads in their respective child AWS accounts, GCP projects, etc.
 
-The Cloud Kingdom is managed by Security Identity with collaboration from counterparts in Infrastructure Security, Infrastructure, and SIRT. All access management is handled through standard baseline entitlements, access requests for production access, and [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/) for non-production access and dev/test accounts or projects.
+The Cloud Kingdom is managed by Security Identity with collaboration from counterparts in Infrastructure Security, Infrastructure, and SIRT. All access management is handled through standard baseline entitlements, access requests for production access, and [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) for non-production access and dev/test accounts or projects.
 
 See the [Identity Infrastructure](/handbook/security/identity/infrastructure) handbook page to learn more.
 

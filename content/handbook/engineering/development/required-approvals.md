@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/required-approvals.html
-
 title: Development Required Approvals
 ---
 
@@ -34,7 +32,7 @@ As we've learned from our discussions around [defining the container registry da
 
 #### Proposing the creation of microservices
 
-The [trouble with microservices](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/strategy.html#the-trouble-with-microservices) is not a new topic to GitLab. With our company strategy of a [Flywheel with two turbos](/handbook/company/strategy/#flywheel-with-two-turbos) we default to delivering GitLab as a [single application](/handbook/product/single-application/). However, we are not opposed to adopting the right architecture to solve our problems at scale, in this case microservices. When submitting your proposal for the creation of microservices for [approval](#approval-process) please be sure to include the following considerations.
+The [trouble with microservices](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/strategy.html#the-trouble-with-microservices) is not a new topic to GitLab. With our company strategy of a [Flywheel with two turbos](/handbook/company/strategy/#flywheel-with-two-turbos) we default to delivering GitLab as a [single application](/handbook/product/categories/gitlab-the-product/single-application/). However, we are not opposed to adopting the right architecture to solve our problems at scale, in this case microservices. When submitting your proposal for the creation of microservices for [approval](#approval-process) please be sure to include the following considerations.
 
 ##### Considerations
 

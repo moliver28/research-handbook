@@ -123,7 +123,7 @@ For colocated companies, the occasional team offsite — to take in a sporting e
 
 Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#culture-at-gitlab" >}}), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
 
-1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
+1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
 1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Coffee chats: More details below.
 1. Coworking calls: More details below.
@@ -178,7 +178,7 @@ Consider also using the [Giphy](https://slack.com/help/articles/204714258-Giphy-
 
 {{% cardpane %}}
 {{% card footer="GitLab marketing talent show" %}}
-![GitLab marketing talent show](/images/all-remote/gitlab-marketing-talent-show.jpg){: .shadow.medium.center}
+![GitLab marketing talent show](/images/all-remote/gitlab-marketing-talent-show.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -357,7 +357,7 @@ Hosting an [AMA](learning-and-development/#ask-me-anything-ama-group-conversatio
 
 {{% cardpane %}}
 {{% card footer="A bit of Airplane! fun on Halloween" %}}
-![A bit of Airplane! fun on Halloween](/images/all-remote/GitLab-Halloween-2019-Costume-Zoom-Call.jpg){: .shadow.medium.center}
+![A bit of Airplane! fun on Halloween](/images/all-remote/GitLab-Halloween-2019-Costume-Zoom-Call.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -372,13 +372,13 @@ Teams can also arrange shared meals around the world. [Global pizza parties](htt
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences, while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
 {{% cardpane %}}
 {{% card footer="Cheers to a fantastic team" %}}
-![Cheers to a fantastic team](/images/all-remote/gitlab-zoom-happy-hour.jpg){: .shadow.medium.center}
+![Cheers to a fantastic team](/images/all-remote/gitlab-zoom-happy-hour.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -392,7 +392,7 @@ Sharing a meal is a powerful way to connect as humans, particularly when you ope
 
 {{% cardpane %}}
 {{% card footer="Virtual scavenger hunt at GitLab" %}}
-![Virtual scavenger hunt](/images/blogimages/cs-scavenger-hunt/hugo.jpg){: .shadow.medium.center}
+![Virtual scavenger hunt](/images/blogimages/cs-scavenger-hunt/hugo.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 

@@ -23,21 +23,21 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab France S.A.S. | Rob Allen & Pattie Egan|
-| GitLab GK, Japan | Jess Dallmar, Rob Allen. Backup: Simon Mundy|
+| GitLab France S.A.S. | Jake Foster, Pattie Egan, & Rob Allen |
+| GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
-| GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors & Pattie Egan|
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan |
-| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
-| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Jim Gladen|
-| GitLab South Korea | Jess Dallmar & Rob Allen |
-| GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
-| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
+| GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
+| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
+| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
+| GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
+| GitLab Singapore PTE. LTD. | Jess Dallmar, Jack Connors & Rob Allen. Backup: Simon Mundy |
+| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -469,7 +469,7 @@ Always ensure the start date is on a Monday, unless Monday is a holiday or the n
 1. You will receive a req to create a French or Spain Offer.
 1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
-1. Send a Slack message to the Legal Team in [Frenchcontracts_CES](https://gitlab.slack.com/archives/C05R0R495L6) requesting assistance with the offer. When making the request in the channel, please indicate the candidate's name and include the link to the GH profile
+1. Send a Slack message to the Legal Team in [ces_legal_contracts](https://gitlab.slack.com/archives/C05R0R495L6) requesting assistance with the offer. When making the request in the channel, please indicate the candidate's name and include the link to the GH profile
 1. One of the Legal Team members will respond with the following information:
     - The GreenHouse Offer Template that you should use
     - The wording that should be added to the template (including information on where the wording should be placed). This wording will be placed as provided by Legal on both the English & French sides in English.
@@ -524,16 +524,62 @@ To create the contract:
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 1. The Candidate Experience Specialist will now [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 
+## Preparing Employment Agreements for GitLab team members employed via Global Expansion (GX)
+
+GitLab is working in partnership with Global Expansion to employ GitLab team-members located in:
+
+- Mexico
+- Costa Rica
+- Kenya
+- South Africa
+- UAE
+- Latvia
+- Philippines
+- Austria
+- Chile
+
+1. The Offer is made by the recruiter per the hiring process
+1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details
+1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required
+1. The Candidate Experience Specialist will check if there is a probationary period.
+1. Go to Probationary Periods for Team Members Employed by a PEO and check the candidate’s country
+1. Select the duration of the probationary period (if any) in the “Offer Details” dropdown. If there isn’t one, select “N/A” in that field
+1. The Candidate Experience Specialist will check if the contract is indefinite or fixed
+1. If the contract is indefinite, select “Indefinite” from the dropdown in “Offer Details”
+1. If the contract is fixed, select “Fixed Contract” from the dropdown in “Offer Details” and enter the end date under “End Date”
+1. Once additional details are obtained, update the offer details to reflect all information. The CES should be the signatory
+1. Generate “PEO New Hire Template” in Offer Documents to Send through DocuSign
+1. Choose template Offer through DocuSign -GX - Global Expansion -To User, Self (CES) -Sign and complete
+1. Log in to the GX 1 Platform using the log in credentials (you can find this information in the CES desk repository)
+1. Click + New Employee on the landing page
+1. Add personal information of new hire
+1. Add Position details
+1. Add benefits information:
+    - Benefits Policy Type: Use Country guide information located in CES Repository
+    - Signatory: Name/Email of CES submitting candidate into Portal
+    - Expense approver: Leave blank for now
+    - Employment Benefits: Use Country guide information located in CES Repository
+    - Benefits Policy Duration: Select "auto renew" for contract duration
+    - Employment Retirement Insurance: Use Country guide information located in CES Repository
+    - If you see three check boxes for Visa & background screening: ONLY FOR UAE - Select YES (Visa only) and ALWAYS Select "No" for the background screenings for all countries
+1. GX Compensation
+    - Local currency: Per location - portal should auto adjust
+    - Enter just the number “1” (You are not expected to calculate this) In the additional notes section, you can copy/paste the Annual Salary figure
+1. If you have all the details click Initiate New Employee (or Save and Submit Later if you are missing data)
+1. GX will then review the details and compose the employee’s contract. They will then email ces@gitlab.com when it is complete and ask us to review. You will need to log into the GX platform FIRST, and then click the link in the email sent by GX
+1. Review all details of the contract to confirm accuracy
+    - If there are items missing, you have the ability to write feedback notes and send back to GX. Click the drop down and select “REJECT - the following changes are required” and submit
+    - If everything looks good, click the drop down and select “APPROVE - I am happy with this employment contract” and submit
+1. GX will also be sending a 1 page docusign to ces@gitlab.com where we need to confirm employment details again. Please review and sign the document if accurate. Docusign will auto populate a signature of “GL CES Team” but you can adjust and add your name in front of that title. Add your title and send
+1. GX will then release the employment contract to the candidate and notify us via email as soon as it is signed. We may also receive an email to our desk when they manually upload the contract to their portal, but these can be ignored if you have heard from them already
+1. Proceed with sending the correct Welcome Email
+1. Before making the candidate as hired in GH, please make sure all other candidates have been rejected. Once that is done, mark the candidate as hired in Greenhouse, adjust the ‘Accepted’ date to match the ‘Sent’ date, and close the req
+
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
 GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
 
 - India
-- Phillipines
-- Kenya
-- Costa Rica
-- Latvia
-- Chile
 
 The process for creating and sending an agreement is as follows:
 
@@ -564,7 +610,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 
@@ -594,16 +640,6 @@ To create the contract:
 1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 
-## Advance Funds process for locations GitLab can not order laptops
-
-There are a handful of countries, listed [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
-
-1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile template.
-1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
-    - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
-    - Request advanced funds to self-procure
-1. IT will receive an issue in their [IT Equipment Order Processing](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=closed_at_desc&state=opened&first_page_size=100) desk with the new hire's selection. If the candidate has requested advanced funds, IT will then tag AP within the issue and provide approval for the laptop purchase. AP will gather the new hire's banking details and release the funds.
-
 ## How to add the New Hire to the Remote platform
 
 1. Log into the [Remote](https://employ.remote.com/dashboard) platform
@@ -628,7 +664,7 @@ Kindly note the following when filling in this section:
 1. Other Bonus: Do not include guaranteed draw. If asked, please loop in Marissa. Remote does not currently have enough of an in-depth understanding of our bonus structure to be able to include this information.
 1. Commission: No
 1. Equity Compensation: Do not include.
-1. Number of paid time off days: Select the recommended days as mentioned by Remote
+1. Number of paid time off days: Select the statutory minimum recommended days as mentioned by Remote, if there is an option, select the lowest number (this should be the statutory minimum)
 1. Role Description: Copy/paste the job description within the job family. Make sure you're only including the specific role they have, and you can skip the fillers at the beginning and end.
 1. Training requirement: Leave blank
 1. Supervisor Name: as stated in the offer details in GH
@@ -647,15 +683,16 @@ Kindly note the following when filling in this section:
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |
 | Switzerland | None |
-| Sweden | Standard |
+| Sweden | None |
 
 1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here]({{< ref "remote-com#brazil" >}}).
 If there are any questions, these should be directed to help@remote.com.
 1. Click on the benefits acknowledgement and continue
 1. You be will be on the 'billing cycle' page.
-1. Click on yearly billing cycle and click continue.
+1. Click on monthly billing cycle and click continue.
 1. You will now be able to review all the candidate and contract details, you are able to edit them should you wish.
 1. Once you have reviewed, and everything is in order, click 'invite now'.
+1. Please select the option to "add this employee to a single employee plan"
 1. Your candidate has been submitted successfully. You are able to see the progress on the Remote homepage.
 
 ## How to add the New Hire to the Papaya platform
@@ -683,11 +720,8 @@ If there are any questions, these should be directed to help@remote.com.
 1. When should papaya contact the worker - select 'as soon as possible'
 1. Click submit
 1. Your candidate has been submitted successfully. You will be redirected to the papaya homepage
-
-## Once the candidate is upload onto the Papaya platform
-
 1. Once you submit the candidate, an alert will be sent to Papaya to inform them of the new project
-1. Amit Bengal - AmitBe@papayaglobal.com (Customer Success Manager at Papaya who looks after GitLab) will reach out to the CES to confirm that she has received the alert. Should she ask for permission to contact the candidate directly - please confirm this ASAP. Papaya will validate the information submitted into the platform and reach out to CES or the candidate should there be any immediate questions regarding the contract information shared
+1. Amit Bengal - AmitBe@papayaglobal.com (Customer Success Manager at Papaya who looks after GitLab) will reach out to the CES to confirm that they have received the alert. Amit should ask for permission to contact the candidate directly - please confirm this ASAP. Papaya will validate the information submitted into the platform and reach out to CES or the candidate should there be any immediate questions regarding the contract information shared
 1. An offer overview (Offer Template) with the basic offer details will be sent to CES to approve (resembles our PEO Template) - once approved, a welcome email will be sent to the candidate - accompanied by the offer template. The Welcome Email will introduce the PEO to the candidate.
 1. At this stage, the candidate is also requested to verify their information and provide documents needed to complete the request.
 1. Once the candidate has verified their information and provided the required documents, Papaya sends the offer draft to the Local Team (a contact person in the candidates country) to review the contract against the in-country laws - Duration: 48 hours
@@ -697,6 +731,16 @@ If there are any questions, these should be directed to help@remote.com.
 1. Once CES approves the offer, Papaya will extend it to the candidate.
 1. Should there be any questions or amendments that need to be made, depending on their complexity, they could have to be directed to the Local Team (48 hours), then back to the Legal Team (24 hours), before making its way back to us again for reapproval, then issued to the candidate again.
 1. Once the candidate accepts, Papaya will inform us.
+
+## Advance Funds process for locations GitLab can not order laptops
+
+There are a handful of countries, listed [here](/handbook/it/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
+
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile template.
+1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
+    - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
+    - Request advanced funds to self-procure
+1. IT will receive an issue in their [IT Equipment Order Processing](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=closed_at_desc&state=opened&first_page_size=100) desk with the new hire's selection. If the candidate has requested advanced funds, IT will then tag AP within the issue and provide approval for the laptop purchase. AP will gather the new hire's banking details and release the funds.
 
 **GitLab and New Hire:**
 

@@ -46,6 +46,12 @@ The third item tells us how we've been doing previously. If the trend is downwar
 
 Subtracting the carry over weight (item 2) from our expected capacity (the product of items 1 and 3) should tell us our capacity for the next release.
 
+#### Estimating effort
+
+Groups within Plan use the same numerical scale when estimating upcoming work.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
+
 #### Issues
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
@@ -358,7 +364,7 @@ This enables us to differentiate these by persona and workflow. While they may s
 - We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-research-for-work-items) for supporting work item initiatives.
 - [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
 - We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
-- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+- MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
 
@@ -443,13 +449,23 @@ The responsibility of the DRI is simply to collect information and to ensure the
 | 2024-08-26 | Vladimir Shushlin |
 | 2024-09-02 | Kushal Pandya |
 | 2024-09-09 | Donald Cook |
-| 2024-09-16 | John Hope |
+| 2024-09-16 | Donald Cook |
+| 2024-09-23 | Kushal Pandya |
+| 2024-09-30 | John Hope |
+| 2024-10-07 | John Hope |
+| 2024-10-14 | Kushal Pandya |
+| 2024-10-21 | Donald Cook |
+| 2024-10-28 | John Hope |
+| 2024-11-04 | Vladimir Shushlin |
+| 2024-11-11 | Kushal Pandya |
+| 2024-11-18 | Donald Cook |
+| 2024-11-25 | John Hope |
 
 #### Links
 
-- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Issue Template](https://gitlab.com/gitlab-org/plan/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
+- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Issue Template](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
 
 ### Meetings
 
@@ -638,4 +654,4 @@ By continually monitoring these tables and applying the planned mitigations, we 
 
 #### Plan xMAU
 
-- [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
+- [Product Planning Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/)

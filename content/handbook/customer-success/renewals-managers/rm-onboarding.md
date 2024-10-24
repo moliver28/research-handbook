@@ -3,7 +3,7 @@ title: RM Onboarding
 ---
 
 
-![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
+![Global Renewals Organization](images/GitLab_GR_BLK.gif)
 
 ---
 **Renewals Manager (RM) Onboarding Journey**
@@ -51,7 +51,7 @@ As a RM, in addition to the [SQS learning objectives](/content/handbook/sales/on
 
 **Milestones and Onboarding Roadmap**
 
-[RM Onboarding Journey Roadmap](/handbook/customer-success/renewals-managers/home/images/RM Onboarding Journey Roadmap.jpg)
+[RM Onboarding Journey Roadmap](/handbook/customer-success/renewals-managers/RM-Onboarding-Journey-Roadmap.png)
 
 **Expectations for Manager support during onboarding**
 

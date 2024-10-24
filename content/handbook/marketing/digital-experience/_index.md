@@ -146,7 +146,7 @@ Before work can begin on an issue, we should estimate it first after a prelimina
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
 | 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. We aim for 70% predictability instead of 90%. We believe that optimizing for velocity (merge request rate) enables our Growth teams to achieve a [weekly experimentation cadence](/handbook/product/growth/#weekly-growth-meeting).
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-valuable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. We aim for 70% predictability instead of 90%. We believe that optimizing for velocity (merge request rate) enables our Growth teams to achieve a [weekly experimentation cadence](/handbook/product/groups/growth/#weekly-growth-meeting).
 
 - If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
@@ -277,7 +277,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates | Reason |
 | --- | --- |
-| 2024-12-20 to 2024-01-03 | End of 2024, limited coverage |
+| 2024-12-20 to 2025-01-05 | End of 2024, limited coverage |
 
 During PCL periods, merge requests and deployments can only be made by senior team members, managers, and levels of management above our team.
 
@@ -301,7 +301,7 @@ The structure of Repository Health Day is as follows:
 1. Each team member will submit a single merge request to the [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui), [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), or [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) repository by the end of repository health day.
 1. This merge request will be related to an issue from any partner or group within GitLab.
 
-By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We're all good at different things and come from different backgrounds. Let's use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
+By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for <https://about.gitlab.com/>. We're all good at different things and come from different backgrounds. Let's use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
 
 ## Analytics
 
@@ -313,7 +313,7 @@ For any Digital Experience analytics request, please create an issue within the 
 
 #### SMB
 
-1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
+1. Contact a Sales Development Manager ([Jonathan Rivat](https://gitlab.com/jrivat)) or Director, of Sales Dev Operations ([Ramona Elliott](https://gitlab.com/monaelliott)).
 2. Let them know what team you're from and that you'd like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you're trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
 3. Inform the Sales Development Manager or Director, Sales Development how many shadows you'd like to do and a rough timeline for when you'd like to do them.
 4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).

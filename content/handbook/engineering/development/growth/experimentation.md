@@ -7,9 +7,9 @@ description: "Information about creating and running experiments at GitLab."
 
 This page covers the Growth engineering process for running experiments. See also:
 
-* [How Growth Launches Experiments](/handbook/product/growth/#how-growth-launches-experiments) (Product)
+* [How Growth Launches Experiments](/handbook/product/groups/growth/#how-growth-launches-experiments) (Product)
 * [Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/) (GitLab Developer Documentation)
-* [Experimentation Design & Analysis](/handbook/product/product-analysis/experimentation/) (Product Analysis)
+* [Experimentation Design & Analysis](/handbook/product/groups/product-analysis/experimentation/) (Product Analysis)
 
 ## Running Experiments
 
@@ -20,7 +20,7 @@ We follow a four step process for running experiments as outlined by [Andrew Che
 3. **Implement Experiments:** Do the Product, Design, Engineering, Data, and Marketing work to execute the experiment.
 4. **Analyze Results:** Dive into the results data and prove or disprove our hypotheses.
 
-Each week, we provide progress updates and talk about our learnings in our [Growth Weekly Meeting](/handbook/product/growth/#weekly-growth-meeting).
+Each week, we provide progress updates and talk about our learnings in our [Growth Weekly Meeting](/handbook/product/groups/growth/#weekly-growth-meeting).
 
 The duration of each experiment will vary depending on how long it takes for experiment results to reach statistical significance. Due to the varying duration, there will be some weeks when we have several experiments running concurrently in parallel.
 
@@ -57,7 +57,7 @@ The duration of each experiment will vary depending on how long it takes for exp
     * if experiment (all variants) are unsuccessful, PM/Engineering create an [Experiment Cleanup Issue](#experiment-cleanup-issue) to remove the experimentation code, reverting back to the "control" flow
 1. Once the [experiment cleanup](#experiment-cleanup-issue) issue is resolved, the [experiment rollout](#experiment-rollout-issue) issue and [Experiment Epic](#experiment-epic) are closed and the experimentation process is complete
 
-See also the [Growth RADCIE and DRIs](/handbook/product/growth/#growth-radcie-and-dris) for determining DRIs at each stage.
+See also the [Growth RADCIE and DRIs](/handbook/product/groups/growth/#growth-radcie-and-dris) for determining DRIs at each stage.
 
 #### Experiment Issue Boards
 
@@ -138,7 +138,7 @@ As we build and improve our experimentation platform and increase our ability to
 Given these invalidated or inconclusive experiments will be rolled back there is an advantage in ensuring experiments are as small and iterative as possible.
 
 With this in mind, there are advantages to considering developing a Minimum Viable Experiment (MVE).
-Much like the concept of [Minimum Viable Change (MVC)](/handbook/product/product-principles/#the-minimal-viable-change-mvc), the goal of an MVE is to look for the smallest hypothesis to test, the simplest design for testing that hypothesis, the quickest implementation of the design, the least amount of data to be collected in order to verify the hypothesis, and so on.
+Much like the concept of [Minimal Valuable Change (MVC)](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), the goal of an MVE is to look for the smallest hypothesis to test, the simplest design for testing that hypothesis, the quickest implementation of the design, the least amount of data to be collected in order to verify the hypothesis, and so on.
 
 So, what might an MVE look like in practice?
 Matej Latin shares an example of [a so-called "painted door" test](https://crstanier.medium.com/a-product-managers-guide-to-painted-door-tests-a1a5de33b473) in his blog post, ["Small experiments, significant results and learnings"](https://about.gitlab.com/blog/2021/04/07/small-experiments-significant-results-and-learnings/#do-non-admin-users-want-to-invite-their-team-members).

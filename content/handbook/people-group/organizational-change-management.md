@@ -1,7 +1,5 @@
 ---
 title: Organizational Change Management
-aliases:
-- /handbook/organizational-change-management/
 ---
 
 ## Introduction

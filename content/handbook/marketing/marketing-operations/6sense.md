@@ -9,11 +9,7 @@ description: 6sense is an Account Based Marketing platform that uses a predictiv
 
 [6sense](https://6sense.com/) is a an [Account Based Marketing](/handbook/marketing/account-based-marketing/) platform that uses a predictive model to identify the right customers at the ideal time.
 
-**This page contains public information about 6sense and how we use it. In addition to this page, additional, non-public information for GitLab team members can be found in the [internal handbook](https://internal.gitlab.com/handbook/marketing/marketing-strategy-and-platforms/marketing-operations/6sense/).**
-
-## Implementation
-
-We are currently implementing 6sense. Follow along in [this epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3963)
+**This page contains public information about 6sense and how we use it. In addition to this page, additional, non-public information for GitLab team members can be found in the [internal handbook](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/).**
 
 ## Integrations
 
@@ -30,6 +26,8 @@ Salesforce users with a 6sense log in can also leverage the 6sense iframe in Sal
 ### Marketo
 
 Marketo activity is passed to 6sense to inform the predictive models. Marketo form fills and email activity are included in the intent model. Outbound email activity from Marketo is used in the reach model.
+
+Additionally, [Marketo monitors updates](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC53002B2ZN19) to the `6sense Account 6QA Start Date` field, which is used to add 20 `behavior` based points to identified `6QA` leads, with a limit to scoring on `6QA` once every 3 months. Once leads clear the initial filters, they are placed into a 6 day `wait` step before receiving scoring based on `6QA`. This delay allows Marketo to check that a lead has not been labeled `Accepted`, `Qualifying`, `Qualified`, `Disqualified`, `Ineligible` or `Recycle` since the checkbox status initially changed and prevents overscoring based on other lead behaviors, but still allows leads to receive points.
 
 ### Outreach
 
@@ -57,7 +55,7 @@ The following teams have role-based access to 6sense:
 - Field Marketing
 - Sales & Business Development
 
-6sense is access is managed through Okta. To request access, open an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). After receiving manager approval, tag the provisioner listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). When requesting access, please specify a role from the list below along with justification as to why this role is needed.
+6sense is access is managed through Okta. To request access, open an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). After receiving manager approval, tag the provisioner listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). When requesting access, please specify a role from the list below along with justification as to why this role is needed.
 
 ### User Configuration
 
@@ -81,7 +79,7 @@ The following steps must be taken in order for users to access both the 6sense p
 
 ### 6sense User Seat
 
-We have a limited user seat in 6sense, in order to manage our user seats and provide more seats for new users, we are eliminating inactive users. 
+We have a limited user seat in 6sense, in order to manage our user seats and provide more seats for new users, we are eliminating inactive users.
 
 During our user audit review, if the user hasn't logged into either the 6sense platform or the dashboards in Sales in the last 6 monmth, their seat willl be revoked.
 
@@ -132,7 +130,6 @@ To push a segment to Marketo, you'll need an Add to Audience orchestration. You 
 
 ### Folder Naming Convention
 
-{: .no_toc}
 In order to keep segments and the general platform organized, please use the following folder naming convention:
 
 - `Team Name - FY## Q# - Name of Campaign/Account List`
@@ -144,12 +141,10 @@ For example:
 
 ### Tags
 
-{: .no_toc}
 Tags should be used to help organize lists by topic. For example, you may want to use a tag for a large campaign, segment (SMB, MM, etc.), tier, etc.
 
 ### Sales Dev Naming Convention
 
-{: .no_toc}
 Sales Dev users should name any lists with the same naming convention that is used in Outreach. The naming convention guidance can be found on the [Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/#sequences).
 
 ## Useful Terms

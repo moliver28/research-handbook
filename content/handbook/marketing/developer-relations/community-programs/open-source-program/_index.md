@@ -11,7 +11,7 @@ GitLab's open source program is part of the [Developer Relations team](/handbook
 
 ## How to reach us
 
-* DRI: [Alex Karsten](https://gitlab.com/akarsten1)
+* DRI: [Alex Karsten](https://gitlab.com/akarsten1)[Jana Sena](https://gitlab.com/janasenap)
 * Slack channel: `#community-programs`
 * Email: `opensource@gitlab.com`
 

@@ -7,8 +7,8 @@ description: "Learn about the various aspects of Cost Management"
 
 ## Vendor Specific Learning
 
-[GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp){:.btn .btn-purple}
-[AWS](/handbook/engineering/infrastructure/cost-management/learning/aws){:.btn .btn-purple}
+[GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
+[AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
 
 ### Cloud Cost Buckets
 
@@ -96,4 +96,3 @@ This could also be called a "product", the two are interchangeable, and this can
 ## Resource Links
 
 - [MultiCloud Service Comparison](http://comparecloud.in/)
-- [MultiCloud Compute Pricing Comparison](https://banzaicloud.com/cloudinfo/)

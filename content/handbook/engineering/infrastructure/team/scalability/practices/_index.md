@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/practices.html
 title: "Scalability:Practices Team"
 ---
 

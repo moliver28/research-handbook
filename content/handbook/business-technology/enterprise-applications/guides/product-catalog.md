@@ -32,8 +32,9 @@ There are 3 issue templates in [this directory](https://gitlab.com/gitlab-com/bu
 
 It is the Business Sponsor's responsibility to provide information and obtain required approvals for the SKU changes being requested. Steps 1-4 of the SKU issue template must be completed and have required approvals obtained before the SKU can be configured. **Please assign the SKU Request issue to yourself by clicking on the `Edit` button on the right-hand panel of the issue.**
 
+{{% alert color="warning" %}}
 To reduce the overall time required to get a new SKU reviewed and approved, consider making an accompanying slack channel similar to [this one](https://gitlab.slack.com/archives/C03KMK6LASY).
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Step 1. Product Information
 
@@ -79,8 +80,9 @@ This section business and technical requirements for product offerings. Most of 
 
 **SKU Configuration Requirements**
 
+{{% alert color="warning" %}}
 In the issue template, three asterisks are considered a "non-standard" configuration request and **will require additional Cross-functional approvals from Fulfillment and Sales Operations.**
-{: .alert .alert-warning}
+{{% /alert %}}
 
 1. `Rate Plan Name`
     - This is the customer facing name of the SKU. The `Rate Plan Name` should be in the format of `Deployment type - Name`. Some examples:
@@ -129,8 +131,9 @@ In the issue template, three asterisks are considered a "non-standard" configura
 
 ### Step 2. Cross-functional Approval For Pricing and Non-Standard Requests
 
+{{% alert color="warning" %}}
 **Pricing approval is always required.** Additional approvals from Fulfillment and Sales Operations may be required based on the requirements requested in the prior step.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 **Pricing approval ALWAYS required**:
 
@@ -160,8 +163,9 @@ Finance Approval is required for any **non-standard revenue recognition approach
 
 Assign the Issue to the management approvers in Step 4. It is the Business Sponsor's responsibility to ensure all prior requirements and approvals are obtained before progressing to Step 5.
 
+{{% alert color="warning" %}}
 The required approvals will differ depending on whether it is a Professional Services SKU or a Non-Professional Services SKU request and how to reach each approver can be found in the applicable SKU issue template.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 {{% panel header="**Next Steps**" header-bg="success" %}}
 
@@ -197,8 +201,9 @@ This section outlines what information can or cannot be modified after the SKU h
 
 ## How to Retire a SKU
 
+{{% alert color="warning" %}}
 It is the Business Sponsor's responsibility to provide information and obtain required approvals are obtained for each Step prior to progressing forward in the SKU retirement process. Any missing or incomplete fields will result in a delay to the review and/or approval of your SKU retirement request. **Please assign the SKU Request issue to yourself by clicking on the `Edit` button on the right-hand panel of the issue.**
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Step 1. Product Information
 
@@ -213,8 +218,9 @@ It is the Business Sponsor's responsibility to provide information and obtain re
 
 ### Step 2. Stakeholder Approval for SKU Retiring
 
+{{% alert color="warning" %}}
 The required approvals will differ depending on whether it is a Professional Services SKU or a Non-Professional Services SKU request and how to reach each approver can be found in the applicable SKU issue template.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 **Approval Required Based on Request Type**
 
@@ -231,8 +237,9 @@ The required approvals will differ depending on whether it is a Professional Ser
 
 Once all of the above steps are complete and required approval are obtained, please remove the ~"SKU - Gathering Requirements" label and tag `@gitlab-com/business-technology/enterprise-apps/financeops` for intake and prioritization of the SKU retirement request so that it can be deprecated in the Zuora Billing product catalog and no longer quotable in Salesforce.
 
+{{% alert color="warning" %}}
 Please note that all changes must follow the [Business Technology Change Management](/handbook/business-technology/change-management/) for SOX/Audit purposes.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ## FAQ
 

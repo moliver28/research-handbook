@@ -53,7 +53,7 @@ In FY23 we will be focused on contributor success & customer results while deliv
 
 - Reach out to large customers to understand their needs for contribution.
 - Establish predictable customer realized time-to-value for their contributions.
-- Increase [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr).
+- Increase [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr).
 - Implement customer contribution recognition.
 - Collaborate with Marketing on Customer Contribution Strategy.
 
@@ -95,7 +95,7 @@ We staff our department with the following gearing ratios:
 ### Software Engineer in Test
 
 - **Primary Ratio**: 1 Software Engineer in Test per [Product Group](/handbook/product/categories/#hierarchy).
-  - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#software-engineer-in-test-gearing-ratio).
+  - This ratio is captured as a department [performance indicator](/handbook/engineering/infrastructure/performance-indicators/#software-engineer-in-test-gearing-ratio).
   - We are improving this ratio by factoring additional facets of each product group and not blanket allocating staffing to every product group. These facets include:
      1. Driver scores (Usage, SMAU, SAM)
      1. Revenue path (ARR, Uptier)
@@ -103,7 +103,7 @@ We staff our department with the following gearing ratios:
      1. Self-manage & Reference Architecture impact
      1. Must work areas
      1. Development and UX facets (number of Engineers, SUS issues)
-  - For more information, please see the [SET Gearing Prioritization Model for more (GitLab Only)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM5jmGgT5H1kDOi6UwHTbK7PnoPYTYATnLe5HgVkJqe2VvaWo9fKpbnB6gR4vhx3UDby4wUeGwPYEq/pubhtml?gid=2059771943&single=true){:target="_blank"}. With these adjustments, we would be at ~85% of the 1:1 ratio to every product group.
+  - For more information, please see the [SET Gearing Prioritization Model for more (GitLab Only)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM5jmGgT5H1kDOi6UwHTbK7PnoPYTYATnLe5HgVkJqe2VvaWo9fKpbnB6gR4vhx3UDby4wUeGwPYEq/pubhtml?gid=2059771943&single=true). With these adjustments, we would be at ~85% of the 1:1 ratio to every product group.
     - Product groups with high complexity may need more than one SET.
     - Newly formed product groups may not have an allocated SET. They may be allocated one in the future.
 - Secondary Ratio: Approximately a 1:8 ratio of Software Engineer in Test to Development Department Engineers.
@@ -111,13 +111,13 @@ We staff our department with the following gearing ratios:
 ### Engineering Productivity Engineer
 
 - **Primary Ratio**: 1 Engineering Productivity Engineer per [Product Stage](/handbook/product/categories/#hierarchy).
-  - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#engineering-productivity-engineer-gearing-ratio).
+  - This ratio is captured as a department [performance indicator](/handbook/engineering/infrastructure/performance-indicators/#engineering-productivity-engineer-gearing-ratio).
 - Secondary Ratio: Approximately a 1:40 ratio of Engineering Productivity Engineers to Development Department Engineers.
 
 ### Quality Engineering Manager
 
 - **Primary Ratio**: 1 Quality Engineering Manager per [Product Section](/handbook/product/categories/#hierarchy).
-  - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#quality-engineering-manager-gearing-ratio).
+  - This ratio is captured as a department [performance indicator](/handbook/engineering/infrastructure/performance-indicators/#quality-engineering-manager-gearing-ratio).
 - Secondary Ratio: Approximately a 1:1 ratio of Quality Engineering Manager to Development Department Directors.
 
 ## Communication
@@ -148,7 +148,7 @@ This board is used by the Engineering Analytics team to:
 - Summarize status and progress on work related to Engineering's KPIs and metrics.
 - Distinguish between planned projects for the current quarter and ad-hoc requests received by the Engineering Analytics team.
 
-The work effort on Engineering Division and Departments' KPIs/RPIs is owned by the [Engineering Analytics team](/handbook/engineering/quality/engineering-analytics/). This group maintains the [Engineering Metrics](/handbook/engineering/metrics/) page.
+The work effort on Engineering Division and Departments' KPIs/RPIs is owned by the [Engineering Analytics team](/handbook/engineering/quality/engineering-analytics/). This group maintains the [Engineering Metrics](/handbook/product/groups/product-analysis/engineering/dashboards/) page.
 
 ### DRIs
 
@@ -173,7 +173,7 @@ In order to engage with the team, please refer to the [Engineering Analytics tea
 - The Director of Engineering Analytics is the DRI for triage, prioritization, and assignment.
   - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
   - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
-    - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
+    - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/enterprise-data/how-we-work/#request-to-expedite-responses)
 - Every KPI issue is either assigned to the backlog or given a due date. The Engineering team will propose first a due date, which the Results DRI will confirm if possible or the provide the next possible date.
   - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
 - Every new KPI/RPI should follow our [standardized format](/handbook/engineering/performance-indicators/#guidelines).
@@ -295,7 +295,7 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |
 | Quality Department Social Call | All team members | All team members | Every 2 weeks | Meet and Greet |
 | Quality Hiring Bi-Weekly | All QEMs, Directors, and VP | `TBD` | Every 2 weeks | Review meeting |
-| Ops section stakeholder review | `TBD` | `@dcroft` | Every 4 weeks | Review meeting |
+| Ops section stakeholder review | `TBD` | `TBD` | Every 4 weeks | Review meeting |
 | Enablement Sync with AppSec | `@vincywilson` | `TBD` | Monthly | Review meeting |
 
 ## Quality Engineering initiatives
@@ -319,44 +319,6 @@ The GitLab test automation framework is distributed across two projects:
 - Install and set up the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - Install and run [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) to kick off test execution.
   - The spec files (test cases) can be found in the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab/tree/master/qa)
-
-### Test results tracking
-
-Technical details about our test results tracking can be found in the [Test results tracking](https://docs.gitlab.com/ee/development/testing_guide/test_results_tracking.html) page.
-
-#### Individual test tracking
-
-- Within an E2E test file, each test is associated with one [GitLab testcase](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases).
-
-  ```ruby
-  RSpec.describe 'Stage' do
-    describe 'General description of the feature under test' do
-      it 'test name', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:test_case_id' do
-        ...
-      end
-
-      it 'another test', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:another_test_case_id' do
-        ...
-      end
-    end
-  end
-  ```
-
-  The test failure stack trace and the issue stack trace are compared, and the existing issue for which the stack trace is the most similar (under a 15% difference threshold) to the test failure is used.
-  The test failure job is then added to the failure report list in the issue.
-  Group label is automatically inferred based on the `product_group` metadata of the test.
-
-#### Test session tracking
-
-For each end-to-end pipeline that runs in the various environments we automatically test, we create a [test session issue](https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues) that contains the test session information.
-
-Test session issues group test results by DevOps stages, and link to [test cases](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases), and [test failure issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=QA).
-
-Example of a test session issue: <https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues/72516>
-
-Test session issues are [working around missing GitLab feature](https://gitlab.com/groups/gitlab-org/-/epics/3129).
-
-Once GitLab stores test data, we can improve failure reporting and management.
 
 #### Documentation and videos
 
@@ -390,4 +352,4 @@ See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) d
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
-- [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
+- [Production Readiness Guide](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md)

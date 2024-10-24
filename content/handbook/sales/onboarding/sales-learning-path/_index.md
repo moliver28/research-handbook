@@ -205,7 +205,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
    -This module includes information to help you learn GitLab, and walks you through Projects, Issues, Merge Requests, Pipelines, Settings, User & Admin Area. It includes the Git Basics Training commonly delivered to customers by Professional Services and documentation to help you feel more comfortable with using GitLab.
    -[Learning GitLab with Git Basics](https://gitlab-training.gitlab.io/basics/deck/both.html#/1)
    -[GitLab Basics Guides](https://docs.gitlab.com/ee/tutorials/)
-   -[Introduction to GitLab Workflow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+   -[Introduction to GitLab Workflow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
    -[Description Templates](https://gitlab.com/help/user/project/description_templates)
 - **GitLab Tech Stack Details (Material - Handbook - 10 Minutes)**
   - Take a look to understand all the [tools that GitLab uses](/handbook/business-technology/tech-stack/) to keep the business running smoothly.
@@ -365,7 +365,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 - **ACTIVITY: Obtain Gold Level Access to Enable All Features on GitLab.com (Assignment - 15 minutes - 10 points)**
    -An [example request](https://gitlab.com/gitlab-com/support/internal-requests/issues/310)
 - **ACTIVITY: Create a demo account on gitlabdemo.com (Assignment - 10 points)**
-  - Log in with your GitLab credentials using Okta. After login, a GitLab group will be created automatically and accessible on the [Cloud Sandbox](https://gitlabsandbox.cloud). From there, this group can serve as a ground for future demo projects. For an oveview of our demo systems, please review the [Demo Systems Handbook page](/handbook/customer-success/demo-systems/). For an overview of the Cloud Sandbox, please review the [Sandbox Cloud Realm Handbook Page](/handbook/infrastructure-standards/realms/sandbox/).
+  - Log in with your GitLab credentials using Okta. After login, a GitLab group will be created automatically and accessible on the [Cloud Sandbox](https://gitlabsandbox.cloud). From there, this group can serve as a ground for future demo projects. For an oveview of our demo systems, please review the [Demo Systems Handbook page](/handbook/customer-success/demo-systems/). For an overview of the Cloud Sandbox, please review the [Sandbox Cloud Realm Handbook Page](/handbook/company/infrastructure-standards/realms/sandbox/).
 - **ACTIVITY: Set Up Standby Demo Project (Assignment - 1 day - 10 points)**
   - At any point in the day, you may be called in to do a quick demo and its helpful to have a standby project in your back pocket with commonly requested workflows.
   - Pair up with a member of your team on creating a standby project. Bonus - Collaborate on storytelling ideas when creating the standby project.
@@ -376,14 +376,14 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
     - Add [static analysis](https://docs.gitlab.com/ee/user/application_security/sast/) to identify vulnerabilities in the codebase
     - Add [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
     - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) and review gating mechanisms
-    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html)
+    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/repository/branches/protected.html)
     - Create an [issue board with a workflow](https://docs.gitlab.com/ee/user/project/issue_board.html)
 - **ACTIVITY: Deliver Your Demo (Assignment - 60 minutes - 10 points)**
    -Deliver a short demo of your choice in the SA Bootcamp Demo Scenarios below. Access to Jenkins and Jira and the associated GitLab.com project are available in the [SA Vault within 1Password](https://docs.google.com/document/d/1tIaZUU5YYyQtvQwZ2EOpeCoIK2TGDHbVfJv7jbAI0kk/edit)
    -Be sure to invite your manager and onboarding buddy.
    -Upload the below recorded scenarios to the below [Google Drive folder](https://drive.google.com/drive/folders/1EIN5iZnTWVUvWOsdCNkINIWOBfPGe4Bz)
 - **OPTIONAL: Sign up for a Sandbox Cloud Environment**
-  - [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/) is an automated provisioning platform for AWS or GCP environments. These environments are helpful for demo/sandbox/testing purposes and is paid for by GitLab.
+  - [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) is an automated provisioning platform for AWS or GCP environments. These environments are helpful for demo/sandbox/testing purposes and is paid for by GitLab.
 
 </details>
 

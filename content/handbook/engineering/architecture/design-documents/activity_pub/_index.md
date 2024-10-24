@@ -1,5 +1,5 @@
 ---
-title: ActivityPub support
+title: "ActivityPub support"
 status: proposed
 creation-date: "2023-09-12"
 authors: [ "@oelmekki", "@jpcyiza" ]
@@ -10,8 +10,6 @@ participating-stages: [ "~section::dev" ]
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary
@@ -379,7 +377,9 @@ are all on `https://mastodon.social/`, we should issue a single request on
 the shared inbox provided, adding all the users as recipients, rather than
 sending one request per user.
 
-#### [Webfinger](https://gitlab.com/gitlab-org/gitlab/-/issues/423079)
+#### Webfinger
+
+[Webfinger](https://gitlab.com/gitlab-org/gitlab/-/issues/423079)
 
 Mastodon
 [requires instance to implement the Webfinger protocol](https://docs.joinmastodon.org/spec/webfinger/).
@@ -406,7 +406,9 @@ pondering that from afar, while we haven't implemented much code in the
 epic and I haven't dig deep into Webfinger's specs, this remark may be
 deprecated when we reach actual implementation.
 
-#### [HTTP signatures](https://gitlab.com/gitlab-org/gitlab/-/issues/423083)
+#### HTTP signatures
+
+[HTTP signatures](https://gitlab.com/gitlab-org/gitlab/-/issues/423083)
 
 Mastodon
 [requires HTTP signatures](https://docs.joinmastodon.org/spec/security/#http),

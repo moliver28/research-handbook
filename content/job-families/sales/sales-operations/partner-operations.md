@@ -35,7 +35,7 @@ The Partner Specialist is a [grade 6](/handbook/total-rewards/compensation/compe
 - SFDC experience and knowledge of partner management systems (e.g., Partner Portal) and enterprise SaaS tools
 - Experience with QTC process, tools, and automation
 - Interest in GitLab, and open source software
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Senior Partner Specialist
 
@@ -64,7 +64,7 @@ The Senior Partner Specialist is a [grade 7](/handbook/total-rewards/compensatio
 - SFDC experience and knowledge of partner management systems (e.g., Partner Portal) and enterprise SaaS tools
 - Experience with QTC process, tools, and automation
 - Interest in GitLab, and open source software
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Senior Partner Operations Analyst
 
@@ -99,7 +99,7 @@ The Senior Partner Operations Analyst is a [grade 7](/handbook/total-rewards/com
 - Strong knowledge of Microsoft Excel or Google Sheets with exposure to VBA/Script Editor and querying
 - Strong ability to translate business needs into technical requirements
 - Interest in GitLab, and open source software
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Manager, Global Partner Specialists
 
@@ -132,7 +132,7 @@ Be the point of escalation for sales and partner leadership on partner related i
 - SFDC experience and knowledge of partner management systems (e.g., Partner Portal) and enterprise SaaS tools
 - Experience with QTC process, tools, and automation
 - Interest in GitLab, and open source software
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Partner Operations Manager
 
@@ -166,7 +166,7 @@ The Partner Operations Manager is a [grade 8](/handbook/total-rewards/compensati
 - Alliance and Channel Partner experience preferred
 - Hyperscaler and Channel Marketplace experience preferred
 - Interest in using GitLab
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Senior Manager, Global Partner Specialists
 
@@ -192,7 +192,7 @@ The Senior Manager, Global Partner Specialists is a [grade 9](/handbook/total-re
 - Deep SFDC expertise and knowledge of partner management systems (e.g., Partner Portal) and enterprise SaaS tools
 - Proven ability to work cross-functionally with internal teams to lead and contribute to projects
 - Interest in GitLab, and open source software
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Senior Manager, Partner Operations
 
@@ -230,7 +230,7 @@ The Senior Manager, Partner Operations is a [grade 9](/handbook/total-rewards/co
 - Strong knowledge of Microsoft Excel or Google Sheets with exposure to VBA/Script Editor
 - Strong ability to translate business needs into deliverable technical requirements
 - Interest in GitLab, and open source software
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
 ### Director, Partner Operations
 
@@ -270,5 +270,5 @@ The Director, Partner Operations is a [grade 10](/handbook/total-rewards/compens
 - Proven ability to thrive in a fluid, fast-paced, unpredictable environment
 - Interest in GitLab, and open source software
 - Unquestionable ethics, integrity and business judgment; you share our values, and work in accordance with those values
-- Shares GitLab's [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
-- [Leadership at GitLab](/handbook.gitlab.com/handbook/company/structure/#director-group)
+- Shares GitLab's [values](/handbook/values/) and works in accordance with those values
+- [Leadership at GitLab](/handbook/company/structure/#director-group)

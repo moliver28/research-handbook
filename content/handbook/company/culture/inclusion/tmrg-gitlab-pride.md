@@ -13,12 +13,12 @@ To ensure that GitLab is proactive in supporting, retaining, and recruiting from
 
 ### Leads
 
-- [Alex Hanselka](/handbook/company/team/#ahanselka)
-- [Helen Mason](/handbook/company/team/#hmason)
+- [Alex Hanselka](https://about.gitlab.com/company/team/#ahanselka)
+- [Andrew Chapman](https://about.gitlab.com/company/team/#andrwchapman)
 
 ### Executive Sponsor
 
-- [Robin Schulman](/handbook/company/team/#rschulman)
+- [Robin Schulman](https://about.gitlab.com/company/team/#robin)
 
 ### Members
 

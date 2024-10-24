@@ -13,9 +13,9 @@ Staging Ref is a sandbox environment used for pre-production testing of the late
 
 ### Purpose
 
-- Cover testing needs of Quality and Development teams in a production-like environment
+- Cover testing needs of Test Platform and Development teams in a production-like environment
 - Admin testing access
-  - Current Staging (`gstg`) has customer data which is a blocker for giving more access to Development and Quality teams.
+  - Current Staging (`gstg`) has customer data which is a blocker for giving more access to Development and Test Platform teams.
 - Testing different paid tiers
 - Democratizing testing and better test data
 - Better access to test accounts and wider permissions
@@ -39,7 +39,7 @@ Staging Ref is a sandbox environment used for pre-production testing of the late
 
 Staging Ref deployment runs parallel to Staging Canary deployment. [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer) triggers a job in [Staging-Ref GET Config](https://ops.gitlab.net/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref) to update the environment. Notifications about new deployments are sent to the [`#announcements`](https://gitlab.slack.com/archives/C8PKBH3M5) Slack channel.
 
-Staging Ref pipelines do not block the deployment. If there are any failures with deployment to `gstg-ref`, please reach out to `@release-managers`. After successful deployment, Sanity and Full QA pipelines are triggered. Results are posted to `#qa-staging-ref` and analysed by Quality on-call DRIs. Please refer to the [Quality Department pipeline triage rotation schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) to identify the current DRI.
+Staging Ref pipelines do not block the deployment. If there are any failures with deployment to `gstg-ref`, please reach out to `@release-managers`. After successful deployment, Sanity and Full QA pipelines are triggered. Results are posted to `#e2e-run-staging-ref` and analysed by Test Platform on-call DRIs. Please refer to the [Test Platform Department pipeline triage rotation schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) to identify the current DRI.
 
 ```plantuml
 @startuml staging-ref
@@ -91,7 +91,7 @@ After signing in you can proceed using the environment as required. If destructi
 
 #### Enable Feature Flags
 
-[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.
+[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#e2e-run-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.
 
 #### Admin access
 
@@ -112,7 +112,7 @@ If you have `gcloud` or `kubectl` set up locally, then follow [Connect from your
 1. Hover over **Exec** to reveal a sub menu
 1. Click **toolbox**
 1. A Cloud Shell should start up
-1. Edit the command `kubectl exec gitlab-toolbox-5955db475c-ng2xr -c toolbox -- ls` to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/engine/reference/commandline/container_exec/). It should look like `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix).
+1. Edit the command `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix) to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/engine/reference/commandline/container_exec/).
 1. At this point, you should be logged in to the toolbox pod. For Rails console, run `gitlab-rails console`.
 1. See [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#gitlab-specific-kubernetes-information) for more
 
@@ -126,7 +126,7 @@ If you have `gcloud` or `kubectl` set up locally, then follow [Connect from your
 
 #### Request access to GCP project and environment
 
-If you need access to Staging Ref components in the GCP project(`gitlab-staging-ref`), please reach out in the `#staging-ref` Slack channel. [Quality Engineering Managers](/handbook/engineering/quality#management-team) can [add](https://support.google.com/groups/answer/2465464?hl=en) you to [`gcp-staging-ref-sg@gitlab.com` Google group](https://groups.google.com/a/gitlab.com/g/gcp-staging-ref-sg/members).
+If you need access to Staging Ref components in the GCP project(`gitlab-staging-ref`), please reach out in the `#staging-ref` Slack channel. [Test Platform Engineering Managers](/handbook/engineering/quality#management-team) can [add](https://support.google.com/groups/answer/2465464?hl=en) you to [`gcp-staging-ref-sg@gitlab.com` Google group](https://groups.google.com/a/gitlab.com/g/gcp-staging-ref-sg/members).
 
 As another option you can create an issue in [the access-request project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Requests for access to server environments requires the approval of your manager and an Infrastructure manager.
 
@@ -136,7 +136,7 @@ A simplified process to request SSH access to Staging Ref virtual machines and t
 
 #### Trigger QA pipelines
 
-Sanity or Full QA pipeline may be triggered on demand in [staging-ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/-/pipeline_schedules) project. Please reach out to [Quality on-call DRIs](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) if there are any questions.
+Sanity or Full QA pipeline may be triggered on demand in [staging-ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/-/pipeline_schedules) project. Please reach out to [Test Platform on-call DRIs](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) if there are any questions.
 
 #### Monitoring
 
