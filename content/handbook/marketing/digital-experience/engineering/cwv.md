@@ -22,21 +22,21 @@ Core Web Vitals are part of Google’s overall page experience signals, which as
 
 1. Google Analytics
 Google Analytics is primarily used for tracking website visitors and understanding their behavior. While it doesn’t focus directly on Core Web Vitals, the tool is useful for tracking user engagement metrics, which can indirectly impact performance, such as bounce rates and session durations.
-* Use Cases: Track traffic, audience insights, user behavior, conversion tracking, e-commerce performance.
-* Core Web Vitals: While not explicitly tracked, user engagement metrics can reveal performance-related issues.
-* Cons: Data sampling may reduce accuracy, and real-time reports for custom metrics are limited.
+ * Use Cases: Track traffic, audience insights, user behavior, conversion tracking, e-commerce performance.
+ * Core Web Vitals: While not explicitly tracked, user engagement metrics can reveal performance-related issues.
+ * Cons: Data sampling may reduce accuracy, and real-time reports for custom metrics are limited.
 1. Google Search Console
 Google Search Console (GSC) is a crucial tool for tracking our website’s performance in Google Search. It offers specific insights into Core Web Vitals, allowing us to monitor LCP, CLS, and INP directly. GSC is especially helpful for identifying and fixing SEO-related issues that affect site visibility.
-* Use Cases: Track search performance, monitor indexing, submit sitemaps, identify SEO issues, track Core Web Vitals.
-* Core Web Vitals: Provides direct tracking for LCP, CLS, and INP.
-* Cons: Limited historical data and data updates are delayed by a day or two.
+ * Use Cases: Track search performance, monitor indexing, submit sitemaps, identify SEO issues, track Core Web Vitals.
+ * Core Web Vitals: Provides direct tracking for LCP, CLS, and INP.
+ * Cons: Limited historical data and data updates are delayed by a day or two.
 1. ContentKing
 ContentKing is an SEO monitoring tool that provides real-time tracking of our site’s SEO health, including Core Web Vitals. It’s ideal for catching issues before they impact rankings and tracking on-page changes over time.
-* Use Cases: Real-time SEO monitoring, change tracking, on-page audits, team collaboration, Core Web Vitals monitoring.
-* Core Web Vitals: Tracks LCP, CLS, and INP directly.
-* Cons: Primarily focused on SEO; doesn’t provide detailed user behavior or traffic insights.
+ * Use Cases: Real-time SEO monitoring, change tracking, on-page audits, team collaboration, Core Web Vitals monitoring.
+ * Core Web Vitals: Tracks LCP, CLS, and INP directly.
+ * Cons: Primarily focused on SEO; doesn’t provide detailed user behavior or traffic insights.
 1. DebugBear
 DebugBear is a performance monitoring tool tailored to track page speed and Core Web Vitals. It is designed for web developers and performance-focused users, providing deep insights into how various elements on the page affect load time and user experience.
-* Use Cases: Monitor Core Web Vitals, analyze page speed, simulate different network conditions, set performance alerts.
-* Core Web Vitals: Directly tracks LCP, CLS, and INP.
-* Cons: Lacks SEO and user traffic insights, limited integration with other tools.
+ * Use Cases: Monitor Core Web Vitals, analyze page speed, simulate different network conditions, set performance alerts.
+ * Core Web Vitals: Directly tracks LCP, CLS, and INP.
+ * Cons: Lacks SEO and user traffic insights, limited integration with other tools.
