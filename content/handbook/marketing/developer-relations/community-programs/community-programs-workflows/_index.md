@@ -265,11 +265,11 @@ If an error is made on a quote, for example, a missing zipcode or incorrect bill
 5. After making the edits, click 'Save'
 6. Click 'Generate PDF Doc' and proceed with standard process for sending a quote through DocuSign.
 
-### Duo Adminstration 
+### Duo Adminstration
 
-This section will describe how we adminster Duo license's to Community Program Members. 
+This section will describe how we administer Duo license's to Community Program Members. 
 
-We are currently only giving out Duo to Select Education Orginazations
+We are currently only giving out Duo to select Education organizations
 
    1. Review our Education Interest Form for any new leads. These need to be reviewed on a daily basis to capture leads as quickly as possible.
    - [Education Interest Form](https://docs.google.com/forms/d/1uv2wQAvrS8vCNPaP0dl_uyPj6mmDz356_L1wkuNW8jk/edit#responses)
@@ -300,7 +300,7 @@ We are currently only giving out Duo to Select Education Orginazations
 >2. You will need to be on the most updated version of Gitlab to unlock these features.
 https://docs.gitlab.com/ee/update
 >-  For more Use Cases and FAQ: 
-Check out the [Duo use cases docs]() to learn about practical ways of using Duo
+Check out the [Duo use cases docs](https://docs.gitlab.com/ee/update) to learn about practical ways of using Duo
 Read the Code Suggestions and Chat tutorials to get the most out of Duo
 >- [Top tips for efficient AI-powered Code Suggestions with GitLab Duo](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/)
 >- [10 best practices for using AI-powered GitLab Duo Chat](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/)
