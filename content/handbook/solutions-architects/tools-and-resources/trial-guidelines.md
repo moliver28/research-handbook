@@ -125,7 +125,7 @@ GitLab provides a [set of security demos](https://gitlab.com/gitlab-org/security
 | Subscription type | Process |
 | ----------------- | ------- |
 | SaaS Free | In your account, go to Settings > Billing and request the trial |
-| SaaS Premium | GitLab recently added the possibility to trial Ultimate inside your existing SaaS Premium namespace. For now, there is no self-serve option to activate it. Please contact your Account Executive or [send a request](https://about.gitlab.com/sales/) |
+| SaaS Premium | It is possible to trial Ultimate inside your existing SaaS Premium namespace. In your account, go to Settings > Billing and request the trial. Please contact your Account Executive or [send a request](https://about.gitlab.com/sales/) for additional information. |
 | Self Managed Community Edition | You first need to follow [these steps](https://docs.gitlab.com/ee/update/#community-to-enterprise-edition) to upgrade your instance to the Enterprise Edition. Then follow the steps from the [trial landing page](https://about.gitlab.com/free-trial/?hosted=self-managed) to get a free trial license key |
 | Self Managed Enterprise Edition Premium | We recommend first making sure you are on the latest version of GitLab Enterprise Edition for an optimal experience of the most recent features. If not, follow [these steps](https://docs.gitlab.com/ee/update/) to upgrade. Once on the latest version, contact your Account Executive or [send a request](https://about.gitlab.com/sales/) to receive a trial license key. |
 
