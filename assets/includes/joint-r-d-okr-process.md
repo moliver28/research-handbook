@@ -69,9 +69,9 @@ To score KRs about improving from a **baseline metric** to a **new target metric
 
 ### Sharing OKR completion at the end of the quarter
 
-During the first two weeks after the key review meeting, every R&D stage should complete an OKR retrospective leveraging the [Product OKR Retrospective template](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=Product-OKR-Retrospective). The retrospective DRI is the PM leading the stage. Beyond the stage members, the Product and Engineering lead of the section needs to be invited to the retrospective.
+After the key review meeting, we encourage stage leaders to ensure that their teams have updated their OKRs. Please use your judgement when summarizing. Writing the end of quarter summary in a way that accurately shows team performance and is relevant, understandable, and readable by cross-functional stakeholders, and tag those stakeholders in the update.
 
-We recommend sharing the results of the retrospectives with `@gl-product-pm` and `@gitlab-com/engineering-division/cto-leadership` and other relevant stakeholders.
+This [update](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6895#note_2026599607) from the Fulfillment team is a good example of this type of update.
 
 ### How to change an OKR
 
