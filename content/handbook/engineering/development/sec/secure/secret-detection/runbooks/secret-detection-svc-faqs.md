@@ -68,11 +68,11 @@ This page contains answers to the general questions about the Secret Detection S
 
 16. **What are the Service Level Objectives(SLOs) configured for the service?**
 
-    SLOs for the Service are set to meet 99.9% (`0.999`) of the Apdex Score and 99.9% of (`0.999`) Error Ratio. These are default SLO values configured Runway and we are sticking to the default values as they seemed sufficient for the service. We can change it [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/metrics-catalog/services/secret-detection.jsonnet) whenever necessary.
+    SLOs for the Service are set to meet 99.9% (`0.999`) of the Apdex Score and 99.9% of (`0.999`) Error Ratio. These are default SLO values configured by Runway and we are sticking to the default values as they seemed sufficient for the service. We can change it [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/metrics-catalog/services/secret-detection.jsonnet) whenever necessary.
 
 17. **Do we have alerts configured in case there is an SLO violation?**
 
-    Yes. The alerts are configured [here](https://dashboards.gitlab.net/alerting/list?search=secret-detection&view=grouped). The alerts are triggered for Apdex violations, Error Rate violations, Traffic ceased (Server signal present, traffic none,  and Traffic absent past 30 minutes (No server signal, including Health Checks).
+    Yes. The alerts are configured [here](https://dashboards.gitlab.net/alerting/list?search=secret-detection&view=grouped). The alerts are triggered for Apdex violations, Error Rate violations, Traffic ceased (Server signal present, traffic none), and Traffic absent (No server signal, including Health Checks) in the past 30 minutes.
 
 18. **What happens in the event of an SLO violation?**
 
